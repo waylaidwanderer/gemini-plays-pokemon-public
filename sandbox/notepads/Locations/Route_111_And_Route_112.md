@@ -18,3 +18,8 @@
   - Climb the stairs at `x = 20..21, y = 41..43` to `(21, 40)`.
   - **Hiker Trent `(24, 34)`** (facing Right) and **Hiker Brice `(15, 36..40)`** (wanders vertically along `x = 15`) are on the plateau, and two Team Magma Grunts block the **Mt. Chimney Cable Car** entrance at `(26..27, 31)` until the Meteor Falls event is completed.
   - From `(21, 40)`, walk `Up` 2 to `(21, 38)` (signpost at `(22, 37)`), `Left` 10 along `y = 38` (passing north of Hiker Brice when he is at `(15, 39..40)`) to `(11, 38)`, and `Up` 2 into the **Fiery Path (South Entrance) `(11, 36)`**.
+
+## Fiery Path
+- **South Entrance (from Route 112 `(11, 36)`):** `(26, 36)`.
+- **Main Tunnel Route (`(26, 36)` -> `(26, 5)`):**
+  - Walk `Up` 14 along `x = 26` to `(26, 22)`, `Left` 5 along `y = 22` to `(21, 22)`, `Up` 4 along `x = 21` to `(21, 18)` (Strength boulder at `(17, 15)` blocks the western side chambers until HM04 Strength is obtained), `Left` 1 to `(20, 18)`, `Up` 10 along `x = 20` to `(20, 8)`, `Left` 1 to `(19, 8)`, `Up` 4 along `x = 19` to `(19, 4)`, `Right` 7 along `y = 4` to `(26, 4)`, and `Down` 2 onto the **North Exit `(26, 5)`** (to Route 112 North).
