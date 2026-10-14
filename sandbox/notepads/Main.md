@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Delivering finishing blow with Pound against Zigzagoon! Returning to Lab next.
+- Status: Zigzagoon defeated! Rescued Birch, returning to Lab to receive Treecko.
 - Starter: Treecko (Planned Nickname: SAGE)
 
 ## Littleroot Town & House Layout
@@ -23,7 +23,7 @@
 5. [x] Visit Brendan's house (west) and meet Brendan upstairs.
 6. [x] Head north to Route 101 to rescue Professor Birch from Zigzagoon.
 7. [x] Choose Starter Pokémon: Treecko!
-8. [ ] Defeat wild Zigzagoon using Pound (finishing blow in progress).
+8. [x] Defeat wild Zigzagoon using Pound.
 9. [ ] Return to Birch's Lab, receive Treecko, and nickname it SAGE.
 
 ## Engine / Harness Mechanics Verified
