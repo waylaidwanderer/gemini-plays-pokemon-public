@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: At Route 101 entrance (10, 2), triggering Birch rescue event.
+- Status: Stepping into Route 101 to rescue Birch from Poochyena!
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
