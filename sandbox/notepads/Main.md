@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Inside Brendan's house 1F. Heading upstairs to 2F.
+- Status: In Brendan's bedroom (2F). Interacting with Poké Ball to meet Brendan.
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
