@@ -5,13 +5,13 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 6, Male), Nickname: SAGE
-- Status: Exited Pokémon Center (HP 22/22). Locating Mart clerk on east side of Oldale Town for free Potion.
+- Status: Obtained promo Potion (bag: 2 Potions). Preparing to head north to Route 103.
 
 ## Party
 1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 22/22.
 
 ## Bag Highlights
-- Potion x1 (withdrawn from PC)
+- Potion x2 (1 withdrawn from PC, 1 promo from Mart clerk)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
