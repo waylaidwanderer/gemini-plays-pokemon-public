@@ -79,6 +79,8 @@
 ## Petalburg City
 - **East Entrance (from Route 102):** `(29, 18)`
 - **Pokémon Center Door:** `(20, 16)` (exiting steps to `(20, 17)`)
+- **Petalburg Gym Door:** `(15, 8)` (exiting steps to `(15, 9)`; interior entrance mat is `(4, 111)`, Norman is 4 tiles north at `(4, 107)`).
+- **Wally Tutorial Event:** Completed on Turn 107–108, unlocking the western exit of Petalburg City into Route 104 South.
 
 <hr>
 
