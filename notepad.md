@@ -345,6 +345,7 @@
 - **Fallarbor Pokémon Center:** Door at `(14, 7)` (exiting steps to `(14, 8)`).
 - **Fallarbor Battle Tent:** Door at `(8, 7)`.
 - **Fallarbor Poké Mart:** Door at `(15, 15)` (walk `Down` along `x = 12` to `(12, 16)`, `Right` 3 to `(15, 16)`, and `Up` 1 into `(15, 15)`).
+- **West Exit (to Route 114 `(39, 9)`):** From `(12, 10)`, walk `Left` 2 to `(10, 10)`, `Up` 1 to `(10, 9)` (passing between the old man at `(11, 9)` and the woman & Azurill at `(8, 10..11)`), and `Left` 11 along `y = 9` onto **Route 114 `(39, 9)`** (Move Tutor's House door is at `(2, 6)`, Prof. Cozmo's House is in southwest Fallarbor Town).
 
 <hr>
 
