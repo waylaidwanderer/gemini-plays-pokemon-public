@@ -6,12 +6,12 @@
 - Status: Running Shoes obtained! Traveling north through Route 101 to Oldale Town and Route 102.
 
 ## Party
-1. SAGE (Treecko ♂, Level 8) - Moves: Pound, Leer, Absorb. HP: 20/26.
+1. SAGE (Treecko ♂, Level 8) - Moves: Pound, Leer, Absorb. HP: 22/26.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x5 (gift from Brendan)
-- Money: ¥3300 (won ¥300 from Brendan)
+- Money: ¥3380 (won ¥300 from Brendan, ¥80 from Youngster Calvin)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
