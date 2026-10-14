@@ -1,5 +1,5 @@
 # Main Notepad
 
 ## Game: Pokémon Emerald Version
-- Status: Completing Birch introduction.
+- Status: Arriving in Littleroot Town.
 - Protagonist: Female (May), Name: JADE
