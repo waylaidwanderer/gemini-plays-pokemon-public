@@ -21,6 +21,7 @@
 - **South Entrance (from Dewford Town `(6, 0)`):** `(66, 19)`
 - **Trainers:**
   - Fisherman Ned `(65, 14)` — Tentacool Lv. 11 [Defeated]
+- **Granite Cave Exterior Entrance:** `(48, 16)` (exiting steps to `(48, 17)`). Reachable from `(66, 16)` on Route 106 by walking `Left` 15 along `y = 16` to `(51, 16)`, `Down` 1 to `(51, 17)`, `Left` 3 to `(48, 17)`, and `Up` 1 into `(48, 16)`.
 
 <hr>
 
@@ -188,7 +189,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $7,924 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,364 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
 - **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM08 (Bulk Up), TM39 (Rock Tomb)
