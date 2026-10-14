@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 5, Male), Nickname: SAGE
-- Status: Treecko (SAGE) obtained! Exiting Birch's Lab to head to Oldale Town.
+- Status: Outside Birch's Lab. Heading north through Route 101 to Oldale Town.
 
 ## Party
 1. SAGE (Treecko ♂, Level 5) - Moves: Pound, Leer. HP: 20/20.
@@ -30,7 +30,7 @@
 9. [x] Return to Birch's Lab, receive Treecko, and nickname it SAGE.
 
 ## Progression Checklist - Phase 2 (Active)
-1. [ ] Exit Birch's Lab into Littleroot Town (in progress).
+1. [x] Exit Birch's Lab into Littleroot Town.
 2. [ ] Travel north through Route 101 to Oldale Town.
 3. [ ] Visit Oldale Town Pokémon Center / obtain free Potion from clerk.
 4. [ ] Head north to Route 103 to find Brendan.
