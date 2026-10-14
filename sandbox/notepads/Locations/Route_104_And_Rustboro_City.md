@@ -45,3 +45,4 @@
   - **3F (from `(14, 5)`):** Walk `Up` 2 to `(14, 3)`, `Left` 11 along `y = 3` (above the conference table) to `(3, 3)`, `Up` 1 to `(3, 2)`, `Left` 1 to `(2, 2)`, and `Up` 1 into `(2, 1)` to warp to 2F `(2, 2)`.
   - **2F (from `(2, 2)`):** Walk `Right` 12 along `y = 2` to `(14, 2)` and `Up` 1 into `(14, 1)` to warp to 1F `(14, 2)`.
   - **1F (from `(14, 2)`):** Walk `Left` 1 to `(13, 2)`, `Down` 4 to `(13, 6)`, `Left` 8 along `y = 6` to `(5, 6)`, and `Down` 3 onto `(5, 8)` to exit to Rustboro City.
+  - **Devon Corporation Exterior Door:** `(11, 15)` (exiting steps to `(11, 16)`; exiting after receiving the PokéNav triggers the Devon Researcher's Match Call tutorial, ending at `(11, 17)`). To return south to the Pokémon Center from `(11, 17)`, walk `Down` 4 to `(11, 21)`, `Right` 10 to `(21, 21)`, `Down` 18 along `x = 21` to `(21, 39)`, and `Left` 5 to `(16, 39)`.
