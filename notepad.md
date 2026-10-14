@@ -66,7 +66,7 @@
 - **Name:** ORION (Boy / Brendan sprite)
 - **Text Speed:** FAST
 - **Inventory:** Potion x1 (withdrawn from bedroom PC)
-- **Party:** ATRITON (Mudkip, Male, Lv. 6 — Tackle, Growl, Mud-Slap)
+- **Party:** ATRITON (Mudkip, Male, Lv. 7 — Tackle, Growl, Mud-Slap)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
