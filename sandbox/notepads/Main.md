@@ -4,9 +4,9 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,728 | **Badges:** 1 (Stone Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
-- **Inventory:** Great Ball x1, Poké Ball x3
+- **Inventory:** Great Ball x1, Poké Ball x3, TM39 (Rock Tomb)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 16 — Tackle, Growl, Mud-Slap, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 16 — Tackle, Mud Shot, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 7 — Tackle, String Shot, Poison Sting, Harden)
 
 ## Notepad Index
