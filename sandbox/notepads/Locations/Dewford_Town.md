@@ -26,3 +26,7 @@
 - **1F Path to B1F Ladder (`(37, 12)` -> `(17, 11)`):**
   - From `(37, 12)`, walk `Up` 4 to `(37, 8)`, `Left` 10 to `(27, 8)`, `Up` 1 to `(27, 7)`, and `Left` 9 along `y = 7` to `(18, 7)` (an item ball is at `(17, 7)`).
   - From `(18, 7)`, walk `Down` 1 to `(18, 8)`, `Left` 1 to `(17, 8)`, `Down` 1 to `(17, 9)`, `Left` 1 to `(16, 9)`, `Down` 3 to `(16, 12)`, `Right` 1 to `(17, 12)`, and `Up` 1 onto the **B1F Ladder at `(17, 11)`** (warps to **Granite Cave B1F `(4, 21)`**).
+- **B1F Eastbound Path to B2F Ladder (`(4, 21)` -> `(28, 21)`):**
+  - From `(4, 21)` (ladder from 1F `(17, 11)`), walk `Right` 1 to `(5, 21)`, `Up` 1 to `(5, 20)`, `Left` 1 to `(4, 20)`, `Up` 1 to `(4, 19)`, `Left` 1 to `(3, 19)`, and `Up` 5 along `x = 3` to `(3, 14)`.
+  - From `(3, 14)`, walk `Right` 2 to `(5, 14)`, `Up` 1 to `(5, 13)`, and `Right` 17 along `y = 13` to `(22, 13)`.
+  - From `(22, 13)`, walk `Down` 3 to `(22, 16)`, `Right` 2 to `(24, 16)`, `Down` 1 to `(24, 17)`, `Right` 1 to `(25, 17)`, `Down` 3 to `(25, 20)`, `Right` 3 to `(28, 20)`, and `Down` 1 onto the **B2F Ladder at `(28, 21)`**.
