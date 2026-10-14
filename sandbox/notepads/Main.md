@@ -20,7 +20,7 @@
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
 
 ## Mechanics & Harness Notes
-- **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`).
+- **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`). After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
   - Row 0: `A B C D E F .` (cols 0..6)
   - Row 1: `G H I J K L ,` (cols 0..6)

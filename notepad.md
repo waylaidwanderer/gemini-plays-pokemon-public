@@ -275,6 +275,8 @@
     - **Switch #3 `(3, 9)`:** Stepping on `(3, 9)` toggles the blue barriers at `(1, 11)..(2, 11)`, `(4, 14)..(5, 14)`, `(4, 7)..(5, 7)`, and `(6, 9)` ON, opens the pink barriers at `(3, 12)` and `(4, 11)..(5, 11)`, and rotates **Youngster Ben `(5, 10)`** (`Zigzagoon Lv. 17`, `Gulpin Lv. 17`) to face Left [Defeated].
     - **Electric Pole Collision & Puzzle Solution:** The 2-tile-tall electric poles are only solid on their base tiles (`y = 14, 11, 8, 5`); their pointed top spires (`y = 13, 10, 7, 4`, such as `(3, 13)` and `(6, 10)`) are walkable overhead tiles unless a vertical barrier covers them. From the initial Gym state, step on **Switch #1 `(0, 15)`** (Pink State), walk via `(4, 14)` onto **Switch #2 `(4, 12)`** (Blue State), walk straight up `(4, 11)..(4, 9)` and step onto **Switch #3 `(3, 9)`** (Pink State, opening `(4, 7)..(5, 7)`), then step `Right` to `(4, 9)` and walk `Up` to **Gym Leader Wattson**.
     - **Gym Leader Wattson `(5, 2)`:** `Voltorb Lv. 20`, `Electrike Lv. 20`, `Magneton Lv. 22`, `Manectric Lv. 24` (holds Sitrus Berry) [Defeated & Registered — **Dynamo Badge** and **TM34 (Shock Wave)** obtained].
+    - Defeating Wattson permanently deactivates all electric barriers inside Mauville Gym, leaving column `x = 4` (`(4, 3)` down to `(4, 20)`) completely unobstructed to the exit.
+- **North Exit (to Route 111 `(15..16, 139)`):** Walk `Up` along the western avenue `x = 15..16` past `y = 0` into **Route 111**.
 
 <hr>
 
@@ -302,7 +304,7 @@
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
 
 ## Mechanics & Harness Notes
-- **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`).
+- **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`). After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
   - Row 0: `A B C D E F .` (cols 0..6)
   - Row 1: `G H I J K L ,` (cols 0..6)
