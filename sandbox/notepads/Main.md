@@ -2,9 +2,9 @@
 
 ## Trainer & Party Info
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $2,367 | **Badges:** 2 (Stone Badge, Knuckle Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM47 (Steel Wing)
+- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 24 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
