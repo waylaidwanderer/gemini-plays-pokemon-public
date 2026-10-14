@@ -5,10 +5,13 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 5, Male), Nickname: SAGE
-- Status: Navigating around the tree via column 16 north into Oldale Town.
+- Status: Navigating Route 101 north along column 17 to Oldale Town.
 
 ## Party
 1. SAGE (Treecko ♂, Level 5) - Moves: Pound, Leer. HP: 20/20.
+
+## Bag Highlights
+- Potion x1 (withdrawn from PC)
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
@@ -17,8 +20,13 @@
 - Rival's House (Brendan's House): West house (left side of town).
   - 1F: Entrance (8, 8), Stairs to 2F at (8, 1).
   - 2F Bedroom: Stairs at (7, 1), Poké Ball at (3, 4).
-- Professor Birch's Pokémon Lab: South-west building (door at 6, 13).
-- Route 101: North exit of town at (10, 1).
+- Professor Birch's Pokémon Lab: South-west building (door at 7, 17 / 6, 13).
+- Route 101: North exit of town at (10..11, 0..1).
+
+## Route 101 Topology
+- Ledges face south (one-way downward shortcuts for the return trip).
+- Boy NPC stands at (16, 8).
+- Columns 17 and 18 form an unobstructed, grass-free open northbound path directly into Oldale Town!
 
 ## Progression Checklist - Phase 1 (Completed!)
 1. [x] Step out of moving truck and listen to Mom.
@@ -33,7 +41,7 @@
 
 ## Progression Checklist - Phase 2 (Active)
 1. [x] Exit Birch's Lab into Littleroot Town.
-2. [ ] Travel north through Route 101 to Oldale Town.
+2. [ ] Travel north through Route 101 to Oldale Town (entering now via column 17).
 3. [ ] Visit Oldale Town Pokémon Center / obtain free Potion from clerk.
 4. [ ] Head north to Route 103 to find Brendan.
 5. [ ] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
