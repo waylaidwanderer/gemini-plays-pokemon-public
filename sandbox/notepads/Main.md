@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 6, Male), Nickname: SAGE
-- Status: In Rival Battle 1 vs Brendan on Route 103 (Sage 22/22 HP vs Torchic Lv 5).
+- Status: In Rival Battle 1 vs Brendan on Route 103 (Torchic at critical HP; finishing blow).
 
 ## Party
 1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 18/22.
@@ -32,7 +32,7 @@
 3. [x] Visit Oldale Town Pokémon Center (healed Sage to 22/22 HP, checkpoint set).
 4. [x] Obtain free Potion from Mart clerk outside (promo sample received outside Mart).
 5. [x] Head north to Route 103 to find Brendan.
-6. [ ] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
+6. [ ] Defeat Brendan in Rival Battle 1 (Torchic Level 5) - delivering finishing blow.
 7. [ ] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
 8. [ ] Receive Running Shoes from Mom outside player's house.
 
@@ -40,7 +40,7 @@
 - South connects to Oldale Town.
 - Lower Ledge: Horizontal jump ledge at row 12 spans x=3 to x=14. Bypass on east side (column 15).
 - Middle Level: Signpost at (11, 8). Upper jump ledge at row 5 spans middle/east section.
-- Upper Bluff Path: Bypass upper ledge on the west side to reach Brendan overlooking the water at (8, 3).
+- Upper Bluff Path: Bypass upper ledge on the west side to reach Brendan overlooking the water at (8, 3) / (10, 3).
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
@@ -50,3 +50,5 @@
 - Poké Mart interior: Customer counter is at (1, 4), talk to shopkeeper from (1, 5) facing Up.
 - Oldale Town Mart does not stock Poké Balls prior to receiving the Pokédex.
 - Outdoor Mart clerk (with free promotional Potion sample) stands in the south-central area of Oldale Town near (14, 14).
+- In Gen 3, all Grass-type moves (such as Absorb) are Special, so their damage is unaffected by physical Attack drops (Growl).
+- Medicine use outside battle: Start -> BAG -> select item -> USE -> select Pokémon.
