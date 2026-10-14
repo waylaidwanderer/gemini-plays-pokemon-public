@@ -38,9 +38,9 @@
 
 ## Route 103 Topology & Layout
 - South connects to Oldale Town.
-- Ledge Obstacle: Horizontal one-way jump ledge at row 12 spans columns x=3 to x=14.
-- Safe Route: Bypass ledge by walking east along row 13 to column 15, then north past row 12.
-- North of Ledge: Signpost at (11, 8), clear path continuing north toward the water where Brendan is located.
+- Lower Ledge: Horizontal jump ledge at row 12 spans x=3 to x=14. Bypass on east side (column 15).
+- Middle Level: Signpost at (11, 8). Upper jump ledge at row 5 spans middle/east section.
+- Upper Bluff Path: Bypass upper ledge on the west side to reach Brendan overlooking the water at (8, 3).
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
