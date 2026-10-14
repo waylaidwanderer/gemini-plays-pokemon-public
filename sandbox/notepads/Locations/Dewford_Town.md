@@ -36,3 +36,4 @@
 - **Granite Cave 1F Upper Northern Corridor (from `(35, 3)`):**
   - Climbing the B1F ladder at `(25, 13)` warps to **Granite Cave 1F at `(35, 3)`** on the upper northern ridge above the one-way southward ledge at `y = 6` (`x = 30..34`). Do **not** walk south across `y = 6` or you will jump down into the main 1F entrance corridor (`y = 7`).
   - **Path from `(35, 3)` to Steven's Room Doorway `(5, 11)`:** Walk `Left` 23 along `y = 3` to `(12, 3)`, `Down` 1 to `(12, 4)`, `Left` 4 to `(8, 4)`, `Down` 6 along `x = 8` to `(8, 10)`, `Left` 3 to `(5, 10)`, and `Down` into the glowing doorway at **`(5, 11)`**.
+  - **Steven's Room Interior:** Entering warps to `(7, 3)` and automatically steps 1 tile `Down` to `(7, 4)`. **Steven** stands at `(7, 8)` (reachable at `(7, 7)`). Delivering President Stone's `Letter` to Steven awards **TM47 (Steel Wing)**.
