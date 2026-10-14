@@ -91,6 +91,12 @@
   - From `(17, 53)`, walk `Right` 5 to `(22, 53)` and `Up` 10 along `x = 22` to `(22, 43)` (Oran Berry tree at `(22, 41)`, Pecha Berry tree at `(24, 41)`).
   - From `(22, 43)`, walk `Left` 11 along `y = 43` to `(11, 43)` (Lady Cindy at `(11, 44)` — Zigzagoon Lv. 7 [Defeated]), then `Up` 5 along `x = 11` into **Petalburg Woods** at `(11, 38)`.
 
+## Petalburg Woods
+- **South Entrance (from Route 104 South `(11, 38)`):** `(17, 38)`
+- **Path to Western Corridor:**
+  - From `(17, 38)`, walk `Up` 4 tiles to `(17, 34)` and `Left` 10 tiles along `y = 34` (clear ground below grass `x = 10..14, y = 32..33`) to `(7, 34)` (Bug Catcher Lyle at `(7, 33)` — Wurmple Lv. 3 x4 [Defeated]).
+  - From `(7, 34)`, step `Left` 1 to `(6, 34)` and walk `Up` along `x = 6` to reach the Devon Researcher and Team Aqua Grunt.
+
 <hr>
 
 <h1><code>Main</code></h1>
