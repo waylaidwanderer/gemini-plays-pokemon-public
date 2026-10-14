@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Met Brendan. Heading downstairs and outside to Route 101.
+- Status: Heading north out of Littleroot Town onto Route 101 to rescue Birch.
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
