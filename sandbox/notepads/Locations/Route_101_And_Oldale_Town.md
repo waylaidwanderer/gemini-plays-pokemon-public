@@ -14,3 +14,11 @@
 - **Pokémon Center Door:** `(6, 16)`
 - **Poké Mart Door:** `(13, 6)` (Mart employee at `(13, 13)` gives a free sample Potion)
 - **Straight North-South Corridor:** `x = 10` is completely clear from `y = 19` (Route 101) to `y = 0` (Route 103).
+
+## Route 103 (Southern Section)
+- **South Entrance (from Oldale Town):** `(10, 19)`
+- **Lower Ledge (`y = 12`):** Spans `x = 6..13, y = 12`. Bypass northbound via `x = 14` (`(10, 13) -> (14, 13) -> (14, 10) -> (10, 10)`).
+- **Upper Ledge (`y = 5`):** Spans `x = 6..12, y = 5`. Bypass northbound via `x = 5` (`(10, 6) -> (5, 6) -> (5, 3) -> (9, 3)`).
+- **Rival May Position:** `(10, 3)` (interact from clear ground at `(9, 3)` facing Right).
+- **Southbound Fast Path (Route 103 -> Oldale Town via Ledges):**
+  - From `(9, 3)` / `(10, 4)`, walk straight `Down` along `x = 10` (`y = 4 -> y = 19`), jumping over both ledges (`y = 5` and `y = 12`) with zero tall-grass tiles.
