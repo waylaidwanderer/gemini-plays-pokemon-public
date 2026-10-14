@@ -1,3 +1,13 @@
+<h1><code>Locations/Dewford_Town</code></h1>
+
+# Dewford Town & Granite Cave — Coordinates & Routing
+
+## Dewford Town
+- **Mr. Briney's Boat Dock:** `(11, 9)` (Mr. Briney stands at `(12, 9)`).
+- **Dewford Pokémon Center Door:** `(2, 10)` (exiting steps to `(2, 11)`). Reachable from the dock `(11, 9)` by walking `Left` 6 to `(5, 9)`, `Down` 2 to `(5, 11)`, `Left` 3 to `(2, 11)`, and `Up` 1 into `(2, 10)`.
+
+<hr>
+
 <h1><code>Locations/Littleroot_Town</code></h1>
 
 # Littleroot Town — Coordinates & Points of Interest
@@ -175,7 +185,8 @@
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
 - `Locations/Route_101_And_Oldale_Town`: Coordinates and routing for Route 101, Oldale Town, and Route 103 (including fast southbound ledge paths).
 - `Locations/Route_102_And_Petalburg_City`: Coordinates, trainer statuses, and routing for Route 102, Petalburg City, Route 104 South, and Petalburg Woods.
-- `Locations/Route_104_And_Rustboro_City`: Coordinates, trainer statuses, and routing for Route 104 North and Rustboro City.
+- `Locations/Route_104_And_Rustboro_City`: Coordinates, trainer statuses, and routing for Route 104 North, Rustboro City, Route 116, and Rusturf Tunnel.
+- `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**

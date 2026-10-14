@@ -14,7 +14,8 @@
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
 - `Locations/Route_101_And_Oldale_Town`: Coordinates and routing for Route 101, Oldale Town, and Route 103 (including fast southbound ledge paths).
 - `Locations/Route_102_And_Petalburg_City`: Coordinates, trainer statuses, and routing for Route 102, Petalburg City, Route 104 South, and Petalburg Woods.
-- `Locations/Route_104_And_Rustboro_City`: Coordinates, trainer statuses, and routing for Route 104 North and Rustboro City.
+- `Locations/Route_104_And_Rustboro_City`: Coordinates, trainer statuses, and routing for Route 104 North, Rustboro City, Route 116, and Rusturf Tunnel.
+- `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
