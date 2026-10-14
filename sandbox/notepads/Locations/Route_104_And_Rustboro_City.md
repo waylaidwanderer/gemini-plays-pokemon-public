@@ -13,3 +13,4 @@
 - **South Entrance (from Route 104 North `(16, 0)`):** `(16, 59)` (central white stone avenue `x = 15..16`).
 - **Poké Mart Door:** `(16, 45)` (exiting steps to `(16, 46)`). To continue north past the Poké Mart toward the Pokémon Center `(16, 38)`, walk around the Poké Mart via `x = 13` (west side) or `x = 20` (east avenue).
 - **Pokémon Center Door:** `(16, 38)` (exiting steps to `(16, 39)`). From `(16, 39)`, walk `Right` 5 to `(21, 39)` to join the main northbound avenue (`x = 21..22`) leading to Rustboro Gym.
+- **Rustboro Gym Door:** `(27, 19)` (exiting steps to `(27, 20)`). Reachable from `(21, 39)` by walking `Up` 19 along `x = 21` to `(21, 20)`, `Right` 6 along `y = 20` to `(27, 20)`, and `Up` 1 into `(27, 19)`.
