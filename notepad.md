@@ -4,7 +4,8 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: At Birch's briefcase on Route 101. Opening bag to select Treecko!
+- Status: Selecting Treecko from Birch's bag! Entering battle against Zigzagoon.
+- Starter: Treecko (Planned Nickname: SAGE)
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
@@ -22,8 +23,8 @@
 3. [x] Withdraw Potion from bedroom PC.
 4. [x] Go downstairs, watch Dad (Norman) on TV with Mom.
 5. [x] Visit Brendan's house (west) and meet Brendan upstairs.
-6. [ ] Head north to Route 101 to rescue Professor Birch from Poochyena.
-7. [ ] Choose Starter Pokémon: Treecko, Torchic, or Mudkip!
+6. [x] Head north to Route 101 to rescue Professor Birch from Zigzagoon.
+7. [x] Choose Starter Pokémon: Treecko!
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
