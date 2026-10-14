@@ -33,7 +33,10 @@
 - Central 3x3 Tree Block: (13..17, 10..17) divides the east and west halves of the route.
 - Southern Pocket (Dead-End Loop): Columns 16-33, rows 10-17 containing Calvin (33, 15), Rick (25, 15), and sneezing boy NPC at (18, 11). Walled off on west (cols 14-16, rows 14-17) and north (row 6 south-facing ledge). Southern exit bypass runs along row 16 passing south of Calvin (33, 15) directly into the open north-south corridor at column 36!
 - Column 36 Corridor: Clear north-south highway from row 16 up to row 10, connecting the southern bypass to the main east-west road.
+- Vertical Ledge at (34, 2..7): One-way ledge jumping EAST (left to right). Cannot be jumped going west.
+- Northern Ledge Bypass Corridor: Row 8 is a flat open dirt path passing directly beneath the ledge tip at (34, 8), connecting column 35-36 to the western clearing (columns 19-33) without hopping any ledge!
 - Northern Road (Main Route to Petalburg): Follows row 10 west from column 36, passes the berry trees at (24..25, 1..2), passes Allen at (19, 3), and continues west past the pond all the way to Lass Tiana and the Petalburg City entrance.
+- Boy NPC near pond: at (36, 5), facing South.
 - Ledge & Potion: Accessible from the northern/western path above the ledge. Jumping down the ledge lands at the Potion item ball, leading into Petalburg.
 - Berries: Pecha and Oran berry trees located in the north-east clearing at (24..25, 1..2) - still need to harvest!
 
