@@ -30,7 +30,7 @@
 1. [x] Exit Birch's Lab into Littleroot Town.
 2. [x] Travel north through Route 101 to Oldale Town.
 3. [x] Visit Oldale Town Pokémon Center (healed Sage to 22/22 HP, checkpoint set).
-4. [ ] Obtain free Potion from Mart clerk.
+4. [ ] Obtain free Potion from Mart clerk outside at (14, 14).
 5. [ ] Head north to Route 103 to find Brendan.
 6. [ ] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
 7. [ ] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
@@ -41,3 +41,6 @@
 - Button sequences must place `sleep` strictly between button taps (no leading/trailing sleeps).
 - In PC menu, Home PC directly opens player's item storage.
 - Birch bag starter order: Left = Treecko, Middle = Torchic (default), Right = Mudkip.
+- Poké Mart interior: Customer counter is at (1, 4), talk to shopkeeper from (1, 5) facing Up.
+- Oldale Town Mart does not stock Poké Balls prior to receiving the Pokédex.
+- Outdoor Mart clerk (with free promotional Potion sample) stands in the south-central area of Oldale Town near (14, 14).
