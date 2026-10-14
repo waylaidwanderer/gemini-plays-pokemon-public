@@ -20,7 +20,7 @@
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
 - Rival's House (West): 1F, 2F (Met Brendan).
 - Birch's Lab (South-West): Received Treecko (SAGE), Pokédex, and 5 Poké Balls.
-- Route 101: Connects Littleroot Town to Oldale Town (east side is open northbound path).
+- Route 101: Connects Littleroot Town to Oldale Town. South ledge at row 13 (x=7..11) is bypassed on west side via col 6 past signpost at (5, 9). Northbound path continues around central ledge.
 
 ## Oldale Town Layout
 - Pokémon Center: West side of town (red roof, door at 6, 16). Checkpoint set!
