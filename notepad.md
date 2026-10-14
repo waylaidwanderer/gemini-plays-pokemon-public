@@ -144,6 +144,9 @@
 - **Path to Team Aqua Grunt:**
   - From `(4, 10)`, walk `Up` 5 to `(4, 5)` (an item ball is at `(3, 1)` up the northern stairs at `(8, 3)`) and `Right` 9 along `y = 5` to `(13, 5)` (Team Aqua Grunt at `(14, 5)` — Poochyena Lv. 11 [Defeated — Devon Goods recovered & Peeko rescued]).
   - **Exit Route from `(13, 5)`:** Walk `Left` 9 to `(4, 5)` and `Down` 6 onto `(4, 10)` to exit onto Route 116 at `(47, 9)`.
+- **Westbound Return Route (Rusturf Tunnel -> Rustboro City):**
+  - From `(47, 9)`, walk `Down` 1 to `(47, 10)`, `Left` 9 to `(38, 10)`, `Down` 4 to `(38, 14)`, `Left` 3 to `(35, 14)`, `Up` 1 to `(35, 13)`, `Left` 15 along `y = 13` to `(20, 13)`, `Up` 4 to `(20, 9)`, `Left` 6 to `(14, 9)`, `Up` 5 to `(14, 4)`, `Left` 6 to `(8, 4)`, `Down` 3 to `(8, 7)`, `Left` 4 to `(4, 7)`, `Down` 4 to `(4, 11)`, and `Left` 14 into **Rustboro City** at `(30, 11)`.
+  - Stepping onto `(30, 11)` with the recovered Devon Goods triggers the Researcher at `(30, 10)` (awards Great Ball x1 and escorts the player to Devon Corporation 3F to receive Steven's Letter and the PokéNav from President Stone).
 
 <hr>
 
@@ -153,9 +156,9 @@
 
 ## Trainer & Party Info
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,676 | **Badges:** 1 (Stone Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav
 - **Text Speed:** FAST
-- **Inventory:** Devon Goods, Great Ball x1, Poké Ball x2, TM39 (Rock Tomb)
+- **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, TM39 (Rock Tomb)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 17 [PAR] — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
