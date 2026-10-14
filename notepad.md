@@ -32,7 +32,7 @@
 1. [x] Exit Birch's Lab into Littleroot Town.
 2. [x] Travel north through Route 101 to Oldale Town.
 3. [x] Visit Oldale Town Pokémon Center (healed Sage to 22/22 HP, checkpoint set).
-4. [ ] Obtain free Potion from Mart clerk outside at (14, 14).
+4. [x] Obtain free Potion from Mart clerk outside (promo sample received outside Mart).
 5. [ ] Head north to Route 103 to find Brendan.
 6. [ ] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
 7. [ ] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
