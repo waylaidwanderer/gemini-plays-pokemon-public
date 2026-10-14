@@ -6,10 +6,10 @@
 - Status: Obtained promo Potion (bag: 2 Potions). Preparing to head north to Route 103.
 
 ## Party
-1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 13/22.
+1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 22/22 (healing with Potion).
 
 ## Bag Highlights
-- Potion x2 (1 withdrawn from PC, 1 promo from Mart clerk)
+- Potion x1 (1 promo Potion used to heal Sage to full HP)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
