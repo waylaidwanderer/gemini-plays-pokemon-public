@@ -17,8 +17,8 @@
    - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
    - Reward: ¥64, EXP.
 
-3. Youngster Allen:
-   - Location: (18, 11), in tall grass.
+3. Youngster Allen (upcoming):
+   - Location: Further west along northern road near pond / berry trees.
    - Team: Zigzagoon Lv 4, Taillow Lv 3.
    - Reward: EXP, prize money.
 
@@ -29,6 +29,8 @@
 - Route 102 Signpost: at (40, 10).
 - Tree Cluster: (34..35, 12..13) blocks westbound path at row 12 & 13.
 - Southern Bypass: Row 14 is open flat path at (36, 14), (35, 14), (34, 14) leading into column 33.
+- Short Boy NPC: at (18, 11) in tall grass (non-trainer dialogue).
+- Northern Avenue: Row 6 is a clear east-west path above the vertical tree line (cols 14..15) leading toward berry trees and Petalburg City.
 - Water Pond: Northern section around y=4..8.
 - Berries: Pecha and Oran berry trees located further west.
 - Visible Item Ball: Potion at roughly (12, 17) in south-western clearing south of the trees.
