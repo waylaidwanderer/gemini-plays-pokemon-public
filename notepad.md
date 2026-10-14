@@ -255,8 +255,15 @@
   - **Collector Edwin `(34, 40)`** (facing Right) and **Guitarist Joseph `(36, 40)`** (facing Left) face each other on the eastern side; walk straight `Up` along `x = 32` to `(32, 39)` (just west of the signpost at `(33, 39)`) to bypass both trainers without battling.
 - **Northern Turn & Cycling Road Overpass (`(32, 39)` -> `(5, 39)`):**
   - From `(32, 39)`, walk `Left` 7 along `y = 39` to `(25, 39)`, then follow the low-grass path `Left` 4 to `(21, 39)`, `Down` 1 to `(21, 40)`, `Left` 1 to `(20, 40)`, `Down` 1 to `(20, 41)`, `Left` 3 to `(17, 41)`, `Up` 1 to `(17, 40)`, and `Left` 11 along `y = 40` underneath the Cycling Road overpass (`x = 11..14`) to `(6, 40)`.
-  - **Psychic Edward `(3, 39)`** (facing Right — `Abra Lv. 15`) and **Triathlete Alyssa `(9, 39)`** (facing Left — `Magnemite Lv. 15`) both watch `(5, 39)` (the item ball is at `(5, 38)`).
+  - **Psychic Edward `(3, 39)`** (facing Right — `Abra Lv. 15`) and **Triathlete Alyssa `(9, 39)`** (facing Left — `Magnemite Lv. 15`) both watch `(5, 39)` [Defeated — item ball at `(6, 38)`].
   - From `(5, 39)`, walk `Up` 4 to `(5, 35)`, `Left` 1 to `(4, 35)`, `Up` 10 along `x = 4` to `(4, 25)`, `Left` 1 to `(3, 25)`, `Up` 6 along `x = 3` (all clear of tall grass from `y = 24..19`) to `(3, 19)`, `Right` 3 to `(6, 19)`, `Up` 5 to `(6, 14)` (3 Nanab Berry trees at `(5, 10)..(7, 10)`), `Right` 5 to `(11, 14)`, `Up` 12 along `x = 11` to `(11, 2)`, `Right` 4 to `(15, 2)`, and `Up` 3 across the border into **Mauville City `(15, 19)`**.
+
+## Mauville City
+- **South Entrance (from Route 110 `(15, 0)`):** `(15, 19)` (main lower east-west street runs along `y = 15`; north-south avenues at `x = 15..16` and `x = 28..29`).
+- **Mauville Game Corner:** Door at `(8, 13)`.
+- **Harbor Mail / Coin Case House:** Door at `(19, 14)`.
+- **Mauville Poké Mart:** Door at `(23, 14)`.
+- **Rock Smash Guy's House:** Door at `(32, 14)` (interior doormat at `(3, 7)`..`(4, 7)`; talk to the Rock Smash Guy at `(4, 4)` to obtain **HM06 (Rock Smash)** [Obtained]).
 
 <hr>
 
@@ -268,7 +275,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $2,367 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM47 (Steel Wing)
+- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 24 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
