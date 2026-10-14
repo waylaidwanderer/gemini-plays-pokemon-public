@@ -32,3 +32,4 @@
 - **Upper Street (`y = 7..9`):**
   - **Mauville Pokémon Center:** Door at `(22, 5)`.
   - **Rydel's Cycles:** Door at `(35, 5)` (sign at `(33, 6)`; interior doormat at `(3, 8)`..`(4, 8)`; talk to Rydel at `(2, 5)` to obtain the **Mach Bike** [Obtained]).
+  - **Mauville Gym:** Door at `(8, 5)`. Outside at `(8, 6)`, **Pokémon Trainer Wally** (`Ralts Lv. 16`) and his Uncle `(9, 6)` block the entrance until Wally is defeated [Defeated].
