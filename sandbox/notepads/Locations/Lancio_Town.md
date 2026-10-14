@@ -73,7 +73,7 @@
 
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
 
-- **House (South / Dockside) & Column 39 Harbor Lane**: Located at (35-38, 17-20) northeast of pier (`latest_grid.png` Turn 27459). Decorative building with sliding door facade; non-enterable exterior. Column 39 across rows 15-22 east of the house forms a walkable north-south lane connecting the main avenue to the Fisherman at (38, 22) (verified Turn 27467).
+- **House (South / Dockside, `36, 20` <-> `3, 8`) & Column 39 Harbor Lane**: Located at (35-38, 17-20) northeast of pier (`latest_grid.png` Turn 27459). Door at `(36, 20)` enters a single-room house (`exit mat at 3, 8`) containing six Magikarp on the floor (`1, 6; 3, 7; 4, 5; 5, 8; 6, 6; 7, 5`, verified Turns 38758 & 38762-38763). Column 39 across rows 15-22 east of the house forms a walkable north-south lane connecting the main avenue to the Fisherman at (38, 22) (verified Turn 27467).
 
 ## Overworld Residents & NPCs
 
