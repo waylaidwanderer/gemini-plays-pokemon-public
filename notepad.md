@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Received Treecko! Opening nickname screen to name him SAGE.
+- Status: On nickname screen. Typing SAGE for Treecko.
 - Starter: Treecko (Planned Nickname: SAGE)
 
 ## Littleroot Town & House Layout
