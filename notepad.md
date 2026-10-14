@@ -4,24 +4,28 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Bedroom clock set. Withdrawing Potion from PC.
+- Status: Withdrawing Potion from PC, then heading downstairs to watch TV.
 
-## Littleroot Town Layout
+## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
+  - 1F: Entrance (1..2, 8), Stairs to 2F at (2, 1).
+  - 2F Bedroom: Stairs at (1, 1), Wall Clock at (3, 1), PC at (8, 1) with chair at (8, 2).
 - Rival's House (Brendan's House): West house (left side of town).
 - Professor Birch's Pokémon Lab: South-west building.
 - Route 101: North exit of town.
 
 ## Immediate Progression Checklist
-1. Step out of moving truck and listen to Mom.
-2. Enter player's house, go upstairs, set the wall clock.
-3. Come downstairs, watch Dad (Norman) on TV with Mom.
-4. Visit Brendan's house (west) and meet Brendan upstairs.
-5. Head north to Route 101 to rescue Professor Birch from Poochyena.
-6. Choose Starter Pokémon: Treecko, Torchic, or Mudkip!
+1. [x] Step out of moving truck and listen to Mom.
+2. [x] Enter player's house, go upstairs, set the wall clock (10:00 AM).
+3. [ ] Withdraw Potion from bedroom PC.
+4. [ ] Go downstairs, watch Dad (Norman) on TV with Mom.
+5. [ ] Visit Brendan's house (west) and meet Brendan upstairs.
+6. [ ] Head north to Route 101 to rescue Professor Birch from Poochyena.
+7. [ ] Choose Starter Pokémon: Treecko, Torchic, or Mudkip!
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
 - Button sequences must place `sleep` strictly between button taps (no leading/trailing sleeps).
+- In PC menu, Home PC directly opens player's item storage.
 
 <hr>
