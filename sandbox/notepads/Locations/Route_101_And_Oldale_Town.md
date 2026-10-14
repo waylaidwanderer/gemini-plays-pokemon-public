@@ -22,3 +22,4 @@
 - **Rival May Position:** `(10, 3)` (interact from clear ground at `(9, 3)` facing Right).
 - **Southbound Fast Path (Route 103 -> Oldale Town via Ledges):**
   - From `(9, 3)` / `(10, 4)`, walk straight `Down` along `x = 10` (`y = 4 -> y = 19`), jumping over both ledges (`y = 5` and `y = 12`) with zero tall-grass tiles.
+- **Post-Battle Oldale Trigger:** After defeating May on Route 103, stepping onto `(10, 19)` in Oldale Town triggers a brief 2-box cutscene where May says `"Let's hurry home!"` and walks south into Route 101.
