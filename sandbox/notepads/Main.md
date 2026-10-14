@@ -8,7 +8,7 @@
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 21 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life)
+  3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
