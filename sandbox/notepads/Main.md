@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Zigzagoon defeated! Rescued Birch, returning to Lab to receive Treecko.
+- Status: Warping to Birch's Lab to officially receive Treecko and nickname it SAGE.
 - Starter: Treecko (Planned Nickname: SAGE)
 
 ## Littleroot Town & House Layout
