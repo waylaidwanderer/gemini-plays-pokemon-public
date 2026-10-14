@@ -14,6 +14,15 @@
 - **2F Wall Clock:** `(5, 1)` (interact from `(5, 2)` facing Up; confirmation defaults to `NO`, press `Up` then `A` for `YES`)
 - **2F Desk PC:** `(0, 1)` (interact from yellow chair at `(0, 2)` facing Up; free Potion x1 withdrawn on Turn 17)
 
+## Rival May's House (Professor Birch's House)
+- **1F Entrance Mat:** `(1, 8)` / `(2, 8)` (exiting steps automatically to `(14, 9)` outside)
+- **1F Stairs to 2F:** `(2, 2)`
+- **2F Stairs to 1F:** `(1, 1)` (arrives at `(1, 2)`)
+- **2F May's Poké Ball:** `(5, 4)` (interacting from `(4, 4)` triggers May's entrance and introduction)
+
+## Northern Exit to Route 101
+- **North Road:** `x = 10` (or `x = 11`), walking north from `y = 9` to `y = 0` transitions into Route 101.
+
 <hr>
 
 <h1><code>Main</code></h1>
@@ -28,8 +37,8 @@
 ## Active Goals & Milestones
 1. [DONE] Configure Options (Text Speed: Fast) & complete Birch's intro.
 2. [DONE] Exit moving truck, set bedroom clock, withdraw PC Potion, watch Petalburg Gym TV broadcast.
-3. [IN PROGRESS] Visit rival May's house (14, 8) in Littleroot Town and meet May upstairs.
-4. Head north to Route 101, rescue Professor Birch from Poochyena, and choose + nickname our starter Pokémon.
+3. [DONE] Visit rival May's house (14, 8) in Littleroot Town and meet May upstairs.
+4. [IN PROGRESS] Head north to Route 101, rescue Professor Birch, and choose + nickname our starter Pokémon.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
