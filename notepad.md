@@ -59,6 +59,29 @@
 
 <hr>
 
+<h1><code>Locations/Route_102_And_Petalburg_City</code></h1>
+
+# Route 102 & Petalburg City — Coordinates & Routing
+
+## Route 102
+- **East Entrance (from Oldale Town):** `(49, 10)`
+- **West Exit (to Petalburg City):** `(0, 8)` -> enters Petalburg City at `(29, 18)`
+- **Westbound Path (Oldale -> Petalburg):**
+  - `(49, 10)` -> `Left` to `(36, 10)` -> `Down` 5 to `(36, 15)` -> `Left` along `y = 15` past Youngster Calvin at `(33, 14)` to `(24, 13)`.
+  - From `(24, 13)`, walk `Up` 3 to `(24, 10)`, `Left` 6 to `(18, 10)`, `Up` 6 through the ledge gap at `(18, 6)` to `(18, 4)`.
+  - From `(18, 4)`, walk `Left` 7 along `y = 4` (bypasses Youngster Allen at `(19, 4)`) to `(11, 4)`.
+  - From `(11, 4)`, walk `Down` 4 to `(11, 8)` and `Left` 11 along `y = 8` (bypasses grass `x = 4..10, y = 4..7`) into Petalburg City `(29, 18)`.
+- **Trainers Defeated:**
+  - Youngster Calvin `(33, 14)` — Poochyena Lv. 5 [Defeated]
+  - Bug Catcher Rick `(25, 15)` — Wurmple Lv. 4 x2 [Defeated]
+  - Lass Tiana `(8, 7)` — Zigzagoon Lv. 4, Shroomish Lv. 4 [Defeated]
+
+## Petalburg City
+- **East Entrance (from Route 102):** `(29, 18)`
+- **Pokémon Center Door:** `(20, 16)` (exiting steps to `(20, 17)`)
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Main Notepad — Pokémon Emerald Version
@@ -69,12 +92,13 @@
 - **Text Speed:** FAST
 - **Inventory:** Potion x1, Poké Ball x3
 - **Party:**
-  1. ATRITON (Mudkip, Male, Lv. 9 — Tackle, Growl, Mud-Slap) [Fainted — healing in Petalburg]
+  1. ATRITON (Mudkip, Male, Lv. 9 — Tackle, Growl, Mud-Slap)
   2. OBERON (Wurmple, Male, Lv. 3 — Tackle, String Shot)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
 - `Locations/Route_101_And_Oldale_Town`: Coordinates and routing for Route 101, Oldale Town, and Route 103 (including fast southbound ledge paths).
+- `Locations/Route_102_And_Petalburg_City`: Coordinates, trainer statuses, and routing for Route 102 and Petalburg City.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**

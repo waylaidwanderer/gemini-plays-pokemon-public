@@ -6,12 +6,13 @@
 - **Text Speed:** FAST
 - **Inventory:** Potion x1, Poké Ball x3
 - **Party:**
-  1. ATRITON (Mudkip, Male, Lv. 9 — Tackle, Growl, Mud-Slap) [Fainted — healing in Petalburg]
+  1. ATRITON (Mudkip, Male, Lv. 9 — Tackle, Growl, Mud-Slap)
   2. OBERON (Wurmple, Male, Lv. 3 — Tackle, String Shot)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
 - `Locations/Route_101_And_Oldale_Town`: Coordinates and routing for Route 101, Oldale Town, and Route 103 (including fast southbound ledge paths).
+- `Locations/Route_102_And_Petalburg_City`: Coordinates, trainer statuses, and routing for Route 102 and Petalburg City.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
