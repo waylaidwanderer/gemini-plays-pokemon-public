@@ -1,13 +1,13 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,688 | **Badges:** 1 (Stone Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,816 | **Badges:** 1 (Stone Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
 - **Inventory:** Great Ball x1, Poké Ball x3, TM39 (Rock Tomb)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 16 [PAR] — Mud Shot, Growl, Mud-Slap, Water Gun)
-  2. OBERON (Silcoon, Male, Lv. 7 — Tackle, String Shot, Poison Sting, Harden)
+  2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
