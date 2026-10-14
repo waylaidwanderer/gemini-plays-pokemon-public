@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Route 101 cutscene triggered! Advancing to Birch's bag to choose Treecko (Sage).
+- Status: At Birch's briefcase on Route 101. Opening bag to select Treecko!
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
