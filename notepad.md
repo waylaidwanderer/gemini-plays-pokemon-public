@@ -39,6 +39,7 @@
   - Climbing the B1F ladder at `(25, 13)` warps to **Granite Cave 1F at `(35, 3)`** on the upper northern ridge above the one-way southward ledge at `y = 6` (`x = 30..34`). Do **not** walk south across `y = 6` or you will jump down into the main 1F entrance corridor (`y = 7`).
   - **Path from `(35, 3)` to Steven's Room Doorway `(5, 11)`:** Walk `Left` 23 along `y = 3` to `(12, 3)`, `Down` 1 to `(12, 4)`, `Left` 4 to `(8, 4)`, `Down` 6 along `x = 8` to `(8, 10)`, `Left` 3 to `(5, 10)`, and `Down` into the glowing doorway at **`(5, 11)`**.
   - **Steven's Room Interior:** Entering warps to `(7, 3)` and automatically steps 1 tile `Down` to `(7, 4)`. **Steven** stands at `(7, 8)` (reachable at `(7, 7)`). Delivering President Stone's `Letter` to Steven awards **TM47 (Steel Wing)**, registers **Steven** in the PokéNav Match Call, and causes Steven to walk north and exit the room via `(7, 3)` [Completed].
+  - **Granite Cave 1F Fast Exit Route (`(5, 10)` -> `(37, 12)`):** From `(5, 10)` outside Steven's Room, walk `Right` 3 to `(8, 10)`, `Up` 6 to `(8, 4)`, `Right` 4 to `(12, 4)`, `Up` 1 to `(12, 3)`, `Right` 18 along `y = 3` to `(30, 3)`, `Down` 4 (jumping the one-way ledge at `(30, 6)`) to `(30, 8)`, `Right` 7 to `(37, 8)`, and `Down` 5 out `(37, 12)` onto Route 106 `(48, 17)`.
 
 <hr>
 
