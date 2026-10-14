@@ -5,7 +5,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 7, Male), Nickname: SAGE
-- Status: In Littleroot Town concluding Running Shoes dialogue with Mom outside.
+- Status: Running Shoes obtained! Traveling north through Route 101 to Oldale Town and Route 102.
 
 ## Party
 1. SAGE (Treecko ♂, Level 7) - Moves: Pound, Leer, Absorb. HP: 16/24.
@@ -30,10 +30,10 @@
 
 ## Progression History - Phase 1 & 2 (Completed)
 - Phase 1: Intro, clock set, PC Potion, rival meeting, Birch rescue, and Treecko (SAGE).
-- Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan. Concluding Running Shoes cutscene with Mom.
+- Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan, Running Shoes received from Mom.
 
 ## Progression Checklist - Phase 3 (Active)
-1. [ ] Conclude Running Shoes cutscene with Mom outside player's house.
+1. [x] Receive Running Shoes from Mom outside player's house.
 2. [ ] Travel north through Route 101 to Oldale Town.
 3. [ ] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
 4. [ ] Catch wild Pokémon on Route 102 with Poké Balls.
