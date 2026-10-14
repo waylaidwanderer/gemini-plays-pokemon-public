@@ -20,3 +20,6 @@
 - **Trainers:**
   - Fisherman Ned `(65, 14)` — Tentacool Lv. 11 [Defeated]
 - **Granite Cave Exterior Entrance:** `(48, 16)` (exiting steps to `(48, 17)`). Reachable from `(66, 16)` on Route 106 by walking `Left` 15 along `y = 16` to `(51, 16)`, `Down` 1 to `(51, 17)`, `Left` 3 to `(48, 17)`, and `Up` 1 into `(48, 16)`.
+## Granite Cave
+- **1F Entrance (from Route 106 `(48, 16)`):** `(37, 12)`
+- **HM05 (Flash) Hiker:** Stands at `(36, 9)` on 1F (reachable from `(37, 12)` by walking `Up` 3 to `(37, 9)` and facing `Left`).
