@@ -18,8 +18,7 @@
    - Reward: ¥64, EXP.
 
 3. Youngster Allen:
-   - Location: (18, 12), facing South in tall grass.
-   - Line of sight: Column 18, rows 13..15.
+   - Location: (18, 11), in tall grass.
    - Team: Zigzagoon Lv 4, Taillow Lv 3.
    - Reward: EXP, prize money.
 
@@ -32,6 +31,7 @@
 - Southern Bypass: Row 14 is open flat path at (36, 14), (35, 14), (34, 14) leading into column 33.
 - Water Pond: Northern section around y=4..8.
 - Berries: Pecha and Oran berry trees located further west.
+- Visible Item Ball: Potion at roughly (12, 17) in south-western clearing south of the trees.
 
 ## Target Encounters
 - Ralts (Psychic, 4%): Prime team addition.
