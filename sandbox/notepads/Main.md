@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 5, Male), Nickname: SAGE
-- Status: Sage learned Absorb! Concluding battle and walking into Oldale Town.
+- Status: Arrived in Oldale Town! Meeting clerk for free Potion and healing at Pokémon Center.
 
 ## Party
 1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 16/22.
@@ -26,6 +26,12 @@
 - Boy NPC stands at (16, 8).
 - Columns 17 and 18 form an unobstructed, grass-free open northbound path directly into Oldale Town!
 
+## Oldale Town Layout
+- Pokémon Center: West side of town (red roof).
+- Poké Mart: East side of town (blue roof).
+- Route 103: North exit of town.
+- Route 102: West exit of town (blocked by NPC sketching footprints until Brendan is defeated).
+
 ## Progression Checklist - Phase 1 (Completed!)
 1. [x] Step out of moving truck and listen to Mom.
 2. [x] Enter player's house, go upstairs, set the wall clock (10:00 AM).
@@ -39,7 +45,7 @@
 
 ## Progression Checklist - Phase 2 (Active)
 1. [x] Exit Birch's Lab into Littleroot Town.
-2. [ ] Travel north through Route 101 to Oldale Town (entering now via column 17).
+2. [x] Travel north through Route 101 to Oldale Town.
 3. [ ] Visit Oldale Town Pokémon Center / obtain free Potion from clerk.
 4. [ ] Head north to Route 103 to find Brendan.
 5. [ ] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
