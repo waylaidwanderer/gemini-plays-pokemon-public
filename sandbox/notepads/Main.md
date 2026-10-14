@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 7, Male), Nickname: SAGE
-- Status: Exiting Birch's Lab into Littleroot Town to receive Running Shoes from Mom.
+- Status: Received Running Shoes from Mom! Heading north to Route 101 and Route 102.
 
 ## Party
 1. SAGE (Treecko ♂, Level 7) - Moves: Pound, Leer, Absorb. HP: 16/24.
@@ -12,32 +12,32 @@
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x5 (gift from Brendan)
 - Money: ¥3300 (won ¥300 from Brendan)
-- Key Items: Pokédex
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
 - Rival's House (West): 1F, 2F (Met Brendan).
-- Birch's Lab (South-West): Rescued Birch on Route 101, received Treecko, nicknamed SAGE.
+- Birch's Lab (South-West): Received Treecko (SAGE), Pokédex, and 5 Poké Balls.
 - Route 101: Connects Littleroot Town to Oldale Town (east side is open northbound path).
 
 ## Oldale Town Layout
 - Pokémon Center: West side of town (red roof, door at 6, 16). Checkpoint set!
 - Poké Mart: East side of town (blue roof).
-- Route 103: North exit of town (where Brendan was).
-- Route 102: West exit of town (blocked by footprint NPC until rival is defeated).
+- Route 103: North exit of town (where Brendan was defeated).
+- Route 102: West exit of town (footprint NPC now unblocked!).
 
-## Progression History - Phase 1 (Completed)
-- Completed Littleroot Town intro, clock, PC Potion, rival meeting, Birch rescue, and received Treecko (SAGE).
+## Progression History - Phase 1 & 2 (Completed)
+- Phase 1: Intro, clock set, PC Potion, rival meeting, Birch rescue, and Treecko (SAGE).
+- Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan, Running Shoes from Mom.
 
-## Progression Checklist - Phase 2 (Active)
-1. [x] Exit Birch's Lab into Littleroot Town.
-2. [x] Travel north through Route 101 to Oldale Town.
-3. [x] Visit Oldale Town Pokémon Center (healed Sage to 22/22 HP, checkpoint set).
-4. [x] Obtain free Potion from Mart clerk outside (promo sample received outside Mart).
-5. [x] Head north to Route 103 to find Brendan.
-6. [x] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
-7. [x] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
-8. [ ] Receive Running Shoes from Mom outside player's house.
+## Progression Checklist - Phase 3 (Active)
+1. [x] Receive Running Shoes from Mom outside player's house.
+2. [ ] Travel north through Route 101 to Oldale Town.
+3. [ ] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
+4. [ ] Catch wild Pokémon on Route 102 with Poké Balls.
+5. [ ] Battle Route 102 trainers for EXP and prize money.
+6. [ ] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
+7. [ ] Help Wally catch a Ralts.
 
 ## Route 103 Topology & Layout
 - South connects to Oldale Town.
