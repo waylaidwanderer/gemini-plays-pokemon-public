@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 5, Male), Nickname: SAGE
-- Status: Battling wild Level 3 Zigzagoon on Route 101. Attacking with Pound to win!
+- Status: Winning wild battle on Route 101! Sage leveling up to Lv. 6, then entering Oldale Town.
 
 ## Party
 1. SAGE (Treecko ♂, Level 5) - Moves: Pound, Leer. HP: 20/20.
