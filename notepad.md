@@ -341,8 +341,9 @@
     - **Western Flower Bed Trainers (`x = 7`):** **Picnicker Sophie `(7, 6)` -> `(7, 9)`** (`Marill Lv. 17`, `Lombre Lv. 19`) and **Bird Keeper Coby `(7, 13)` -> `(7, 11)`** (`Skarmory Lv. 17`, `Swellow Lv. 19`) [Defeated].
 
 ## Fallarbor Town
-- **East Entrance (from Route 113 `(0, 10)`):** `(19, 10)`.
-- **Fallarbor Pokémon Center:** Door at `(14, 8)`.
+- **East Entrance (from Route 113 `(0, 10)`):** `(19, 10)` (main street runs along `y = 10..11`).
+- **Fallarbor Pokémon Center:** Door at `(14, 7)` (exiting steps to `(14, 8)`).
+- **Fallarbor Battle Tent:** Door at `(8, 7)`.
 - **Fallarbor Poké Mart:** Door at `(15, 14)`.
 
 <hr>
