@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 5, Male), Nickname: SAGE
-- Status: Wild battle won! Walking north along column 13 into Oldale Town.
+- Status: Navigating around the tree via column 16 north into Oldale Town.
 
 ## Party
 1. SAGE (Treecko ♂, Level 5) - Moves: Pound, Leer. HP: 20/20.
