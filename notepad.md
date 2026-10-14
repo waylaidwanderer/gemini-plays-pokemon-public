@@ -38,6 +38,12 @@
 7. [ ] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
 8. [ ] Receive Running Shoes from Mom outside player's house.
 
+## Route 103 Topology & Layout
+- South connects to Oldale Town.
+- Ledge Obstacle: Horizontal one-way jump ledge at row 12 spans columns x=3 to x=14.
+- Safe Route: Bypass ledge by walking east along row 13 to column 15, then north past row 12.
+- North of Ledge: Signpost at (11, 8), clear path continuing north toward the water where Brendan is located.
+
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
 - Button sequences must place `sleep` strictly between button taps (no leading/trailing sleeps).
