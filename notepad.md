@@ -17,12 +17,10 @@
    - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
    - Reward: ¥64, EXP.
 
-3. Youngster Allen: [BATTLING]
+3. Youngster Allen: [DEFEATED]
    - Location: (19, 3), facing South at north edge of clearing.
-   - Line of sight: Column 19, rows 4..7.
-   - Team: Zigzagoon Lv 4, Taillow Lv 3.
-   - Strategy: Use Absorb on Zigzagoon (heals Sage), use Pound on Taillow (neutral physical).
-   - Reward: ~¥64, ~90 EXP.
+   - Team: Zigzagoon Lv 4, Taillow Lv 3 (defeated by Sage's Pound).
+   - Reward: ~¥64, EXP.
 
 4. Lass Tiana (upcoming):
    - Team: Zigzagoon Lv 4, Shroomish Lv 4.
@@ -50,11 +48,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko (Level 9, Male), Nickname: SAGE
-- Status: Navigating Route 102; Calvin & Rick defeated, heading west toward Youngster Allen and Petalburg City.
+- Starter: Treecko (Level 10, Male), Nickname: SAGE
+- Status: Navigating Route 102; Calvin, Rick & Allen defeated, heading west to berry trees, Lass Tiana, and Petalburg City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 15/28.
+1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: ~8-10/30.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
