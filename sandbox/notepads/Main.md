@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 6, Male), Nickname: SAGE
-- Status: Entering Oldale Town Pokémon Center to heal Sage and set checkpoint.
+- Status: At Pokémon Center door (6, 16). Entering to heal Sage and set checkpoint.
 
 ## Party
 1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 16/22.
