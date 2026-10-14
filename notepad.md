@@ -246,9 +246,8 @@
   - From `(25, 70)`, walk `Down` 1 to `(25, 71)`, `Right` 7 along `y = 71` to `(32, 71)`, and `Up` 6 along `x = 32` (passing behind Youngster Timmy at `(33, 69)`) to `(32, 65)`.
   - From `(32, 65)`, walk `Right` 3 to `(35, 65)`, `Up` 2 to `(35, 63)`, `Left` 1 to `(34, 63)`, `Up` 1 to `(34, 62)`, `Left` 1 to `(33, 62)`, and `Up` 2 to `(33, 60)`.
 - **Rival May Battle (`(34, 54)`, triggered at `(34, 56)`):**
-  -Reached from `(33, 60)` by walking `Right` 1 to `(34, 60)` and `Up` 4 along `x = 34` to `(34, 56)`.
-  - **Team:** `Wingull Lv. 18` (`Growl`, `Water Gun`, `Supersonic`, `Wing Attack`), `Grovyle Lv. 20` (`Absorb`, `Quick Attack`, `Pursuit`, `Screech`), and `Slugma Lv. 18` / `Numel Lv. 18`.
-  - **Strategy:** Teach `TM39 (Rock Tomb)` over `Growl` (Slot 2) on `ATRITON` (`Marshtomp Lv. 23`) and carry `Super Potions` (from Slateport Poké Mart `(13, 26)`). Use 2x super-effective `Rock Tomb` against `Wingull Lv. 18`, then against `Grovyle Lv. 20` drop its Speed (`Rock Tomb` / `Mud Shot`) and Accuracy (`Mud-Slap`) while healing 50 HP with `Super Potion` (`Absorb` only deals ~24 damage), and finish `Grovyle` and `Slugma/Numel` with `Rock Tomb` / `Mud Shot` / `Water Gun`.
+  - Reached from `(33, 60)` by walking `Right` 1 to `(34, 60)` and `Up` 4 along `x = 34` to `(34, 56)`.
+  - **Team:** `Wingull Lv. 18` (`Growl`, `Water Gun`, `Supersonic`, `Wing Attack`), `Grovyle Lv. 20` (`Absorb`, `Quick Attack`, `Pursuit`, `Screech`), and `Slugma Lv. 18` [Defeated — **Itemfinder** obtained].
 
 <hr>
 
@@ -257,10 +256,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $207 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $1,407 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM47 (Steel Wing)
+- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 23 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
