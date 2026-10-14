@@ -57,3 +57,4 @@
 - Outdoor Mart clerk (with free promotional Potion sample) stands in the south-central area of Oldale Town near (14, 14).
 - In Gen 3, all Grass-type moves (such as Absorb) are Special, so their damage is unaffected by physical Attack drops (Growl).
 - Medicine use outside battle: Start -> BAG -> select item -> USE -> select Pokémon.
+- Text speed set to FAST in game Options menu (verified turn 417).
