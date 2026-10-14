@@ -16,4 +16,4 @@
 - **East Entrance (from Route 113 `(0, 10)`):** `(19, 10)` (main street runs along `y = 10..11`).
 - **Fallarbor Pokémon Center:** Door at `(14, 7)` (exiting steps to `(14, 8)`).
 - **Fallarbor Battle Tent:** Door at `(8, 7)`.
-- **Fallarbor Poké Mart:** Door at `(15, 14)`.
+- **Fallarbor Poké Mart:** Door at `(15, 15)` (walk `Down` along `x = 12` to `(12, 16)`, `Right` 3 to `(15, 16)`, and `Up` 1 into `(15, 15)`).
