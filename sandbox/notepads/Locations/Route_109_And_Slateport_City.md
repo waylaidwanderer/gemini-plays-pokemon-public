@@ -9,5 +9,4 @@
   - From `(13, 6)`, walk `Right` 3 across the top of the orange umbrella canopy to `(16, 6)` and `Up` 7 along `x = 16` into **Slateport City at `(16, 59)`**.
 
 ## Slateport City
-- **South Entrance (from Route 109 `(16, 0)`):** `(16, 59)` (stairs up to the main cobblestone avenue `x = 17..19` are at `x = 17..19, y = 57..58`).
-- **Stern's Shipyard Door:** `(21, 44)` (exiting steps to `(21, 45)`). Reachable from the South Entrance `(16, 59)` by walking `Right` 2 to `(18, 59)`, `Up` 14 along `x = 18` to `(18, 45)`, `Right` 3 to `(21, 45)`, and `Up` 1 into `(21, 44)`.
+- **South Entrance (from Route 109 `(16, 0)`):** `(16, 59)` (stairs up to the main cobblestone avenue `x = 17..19` are at `x = 17..19, y = 57..58`; a residential house is at `(21, 44)`).
