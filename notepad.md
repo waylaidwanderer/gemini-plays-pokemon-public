@@ -139,6 +139,10 @@
   - From `(22, 13)`, walk `Right` 8 along `y = 13` to `(30, 13)`, `Down` 1 to `(30, 14)`, `Right` 4 to `(34, 14)`, `Up` 1 to `(34, 13)`, and `Right` 1 to `(35, 13)` (Youngster Johnson at `(36, 13)` — Shroomish Lv. 8, Lotad Lv. 8 [Defeated]).
   - From `(35, 13)`, step `Down` 1 to `(35, 14)` and `Right` 1 to `(36, 14)` (Hiker Clark at `(36, 17)` — Geodude Lv. 8 [Defeated]), then walk `Right` 1 to `(37, 14)` and `Up` 1 to `(37, 13)` (Hiker Devan at `(42, 13)` — Geodude Lv. 8 x2 [Defeated]).
   - From `(37, 13)`, walk `Up` 3 to `(37, 10)` in front of the Tunnelers' Rest House `(38, 8)`, then walk `Right` 10 along `y = 10` to `(47, 10)` and `Up` 2 into **Rusturf Tunnel** at `(47, 8)` (Mr. Briney is at `(46, 9)`).
+## Rusturf Tunnel
+- **West Entrance (from Route 116 `(47, 8)`):** `(4, 10)`
+- **Path to Team Aqua Grunt:**
+  - From `(4, 10)`, walk `Up` 5 to `(4, 5)` and `Right` along `y = 5` to the Team Aqua Grunt and Peeko.
 
 <hr>
 
@@ -176,5 +180,6 @@
 - **Overworld Bag & Party Cursor Persistence:** Both the Start menu and Party menu remember their last cursor index across the session (`slotId` in the Party menu can start on Slot 2 `OBERON` after catching/viewing a Pokémon; press `Left` in the Party menu to move from the right column back to Lead Slot 1 `ATRITON`).
 - **Double Battle Single-Mon Bypass:** Overworld Double Battle trainers (such as Twins Gina & Mia on the Route 104 North bridge) cannot initiate a battle if the player has only 1 conscious Pokémon (`GetMonsStateToDoubles() != PLAYER_HAS_TWO_USABLE_MONS`).
 - **Evolution Screen Safety:** Never press `B` when a Pokémon is about to evolve after battle (`B` cancels evolution); use `A` to advance post-battle victory text when a level-up triggers evolution.
+- **Side-Talking Trainers to Avoid Double Battles:** When two Single Battle trainers have overlapping lines of sight (such as Youngster Johnson at `(36, 13)` and Hiker Clark at `(36, 17)` on Route 116), walking up to the side of one trainer and pressing `A` initiates a 1v1 Single Battle instead of stepping into their shared line of sight for a 2v2 Double Battle.
 
 <hr>
