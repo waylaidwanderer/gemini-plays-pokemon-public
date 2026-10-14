@@ -19,3 +19,4 @@
 - **Western Bypass Route:**
   - From `(5, 19)`, walk `Up` 2 to `(5, 17)`, `Left` 4 to `(1, 17)`, and `Up` 8 along `x = 1` to `(1, 9)` (bypasses Youngster Josh at `(5, 13)`).
   - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2 [Defeated]) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2 [Defeated]).
+  - After the Double Battle at `(1, 9)`, loop around Hiker Marc `(1, 8)` and Youngster Tommy `(2, 9)` via: `Down` 3 to `(1, 12)`, `Right` 4 behind Youngster Josh `(5, 13)` to `(5, 12)`, `Up` 4 to `(5, 8)`, `Left` 3 to `(2, 8)`, `Up` 4 to `(2, 4)`, `Right` 3 to `(5, 4)`, and `Up` 1 to `(5, 3)` in front of **Gym Leader Roxanne** at `(5, 2)`.
