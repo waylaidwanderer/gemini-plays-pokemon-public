@@ -30,6 +30,7 @@
 
 ## Petalburg Woods
 - **South Entrance (from Route 104 South `(11, 38)`):** `(17, 38)`
-- **Path to Western Corridor:**
+- **Path to Western Corridor & Devon Researcher:**
   - From `(17, 38)`, walk `Up` 4 tiles to `(17, 34)` and `Left` 10 tiles along `y = 34` (clear ground below grass `x = 10..14, y = 32..33`) to `(7, 34)` (Bug Catcher Lyle at `(7, 33)` — Wurmple Lv. 3 x4 [Defeated]).
-  - From `(7, 34)`, step `Left` 1 to `(6, 34)` and walk `Up` along `x = 6` to reach the Devon Researcher and Team Aqua Grunt.
+  - From `(7, 34)`, step `Left` 1 to `(6, 34)` and walk `Up` 10 tiles along `x = 6` through tall grass `(6, 32..26)` onto clear ground at `(6, 24)`.
+  - From `(6, 24)`, follow the clear footpath: `Right` 8 to `(14, 24)` -> `Down` 3 to `(14, 27)` -> `Right` 12 along `y = 27` to `(26, 27)` -> `Up` 4 along `x = 26` to `(26, 23)` (triggers the Devon Researcher & Team Aqua Grunt cutscene; Researcher is at `(26, 20)`).
