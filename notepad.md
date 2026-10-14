@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Potion obtained. Heading downstairs to 1F to watch TV with Mom.
+- Status: Watching TV report with Mom on 1F, then heading to Brendan's house.
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
