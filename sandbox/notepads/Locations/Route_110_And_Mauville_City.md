@@ -6,3 +6,4 @@
 - **Trainers:**
   - Pokéfan Isabel `(10, 76)` — Plusle Lv. 14, Minun Lv. 14 [Defeated & Registered]
   - Pokéfan Kaleb `(7, 76)` — Minun Lv. 14, Plusle Lv. 14 [Defeated]
+- **Trick House & Eastern Underpass:** The Trick House door is at `(11, 66)`. From `(9, 76)`, walk `Up` 7 along `x = 9` to `(9, 69)` and `Right` 12 along `y = 69` (passing north of the friendly NPC at `(14, 70)`) underneath the Cycling Road overpass to `(21, 69)`.
