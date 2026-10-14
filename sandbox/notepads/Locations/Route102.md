@@ -28,10 +28,12 @@
 - Tree Cluster: (34..35, 12..13) blocks westbound path at row 12 & 13.
 - Southern Bypass: Row 14 is open flat path at (36, 14), (35, 14), (34, 14) leading into column 33.
 - Short Boy NPC: at (18, 11) in tall grass (non-trainer dialogue).
-- Northern Avenue: Row 6 is a clear east-west path above the vertical tree line (cols 14..15) leading toward berry trees and Petalburg City.
+- Central 3x3 Tree Block: (13..17, 10..17) divides the east and west halves of the route.
+- Northern Bypass Highway: Rows 8..9 form an open east-west corridor passing directly above the 3x3 tree block from column 18 to column 11.
+- Western Corridor: Columns 10..11 lead south to Potion item ball at (11, 14), and north/west past the pond toward Lass Tiana and Petalburg City.
 - Water Pond: Northern section around y=4..8.
-- Berries: Pecha and Oran berry trees located further west.
-- Visible Item Ball: Potion at roughly (12, 17) in south-western clearing south of the trees.
+- Berries: Pecha and Oran berry trees located in the north-east clearing at (24..25, 1..2).
+- Visible Item Ball: Potion at (11, 14) in south-western clearing west of the 3x3 tree block.
 
 ## Target Encounters
 - Ralts (Psychic, 4%): Prime team addition.
