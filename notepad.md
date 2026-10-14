@@ -260,7 +260,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $207 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x2, Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM47 (Steel Wing)
+- **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 23 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
@@ -276,6 +276,7 @@
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
 
 ## Mechanics & Harness Notes
+- **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`).
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
   - Row 0: `A B C D E F .` (cols 0..6)
   - Row 1: `G H I J K L ,` (cols 0..6)
