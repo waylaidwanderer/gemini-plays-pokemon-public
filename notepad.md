@@ -17,6 +17,10 @@
 - **Step 1 (Dewford Town / Granite Cave):** Travel northwest from Dewford Town across Route 106 into Granite Cave, obtain **HM05 (Flash)** from the Hiker at the entrance, and deliver **Steven's Letter** (`Letter`) to Steven deep inside Granite Cave.
 - **Step 2 (Slateport City):** Return to Mr. Briney at the Dewford Town dock `(12, 9)` to sail to Route 109 / Slateport City and deliver the **Devon Goods** to Capt. Stern (and report back to President Stone in Rustboro City afterwards for the Exp. Share).
 - **Dewford Hall:** Occupies `x = 1..5, y = 0..3` (door at `(3, 3)`). To walk north from the Pokémon Center `(2, 11)` onto **Route 106**, walk `Right` 4 to `(6, 11)` and `Up` along `x = 6` across `y = 0`.
+## Route 106
+- **South Entrance (from Dewford Town `(6, 0)`):** `(66, 19)`
+- **Trainers:**
+  - Fisherman Ned `(65, 14)` — Tentacool Lv. 11 [Defeated]
 
 <hr>
 
@@ -189,7 +193,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM08 (Bulk Up), TM39 (Rock Tomb)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 20 — Mud Shot, Growl, Mud-Slap, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 21 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life)
 
