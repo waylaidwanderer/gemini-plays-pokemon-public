@@ -6,7 +6,7 @@
 - Status: Obtained promo Potion (bag: 2 Potions). Preparing to head north to Route 103.
 
 ## Party
-1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 22/22 (healing with Potion).
+1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 22/22.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
