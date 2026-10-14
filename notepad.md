@@ -139,7 +139,7 @@
 - **Inventory:** Great Ball x1, Poké Ball x3
 - **Party:**
   1. ATRITON (Mudkip, Male, Lv. 12 — Tackle, Growl, Mud-Slap, Water Gun)
-  2. OBERON (Wurmple, Male, Lv. 3 — Tackle, String Shot)
+  2. OBERON (Wurmple, Male, Lv. 5 — Tackle, String Shot, Poison Sting)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
