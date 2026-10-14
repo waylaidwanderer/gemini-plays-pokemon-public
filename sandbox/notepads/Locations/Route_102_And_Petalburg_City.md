@@ -24,7 +24,7 @@
 - **East Entrance (from Petalburg City):** `(34, 62)`
 - **Beach Bypass Route (Zero Tall Grass):**
   - `(34, 62)` -> `Left` 6 to `(28, 62)` -> `Down` 9 via east beach steps `(28, 70)` to `(28, 71)`.
-  - `Left` 6 to `(22, 71)` -> `Up` 8 to `(22, 63)` -> `Left` 3 to `(19, 63)` -> `Up` 4 to `(19, 59)` -> `Left` 2 to `(17, 59)` -> `Up` 6 via west beach steps `(17, 54)` to `(17, 53)` (in front of **Mr. Briney's Cottage** door at `(17, 50)`).
+  - `Left` 6 to `(22, 71)` -> `Up` 8 to `(22, 63)` -> `Left` 3 to `(19, 63)` -> `Up` 4 to `(19, 59)` -> `Left` 2 to `(17, 59)` -> `Up` 6 via west beach steps `(17, 54)` to `(17, 53)` (in front of **Mr. Briney's Cottage** door at `(17, 50)`; interior entrance mat is `(5, 8)..(6, 8)`, and standing at `(6, 7)` facing `Up` catches Mr. Briney at `(6, 6)` as he circles the table to sail to Dewford Town).
   - From `(17, 53)`, walk `Right` 5 to `(22, 53)` and `Up` 10 along `x = 22` to `(22, 43)` (Oran Berry tree at `(22, 41)`, Pecha Berry tree at `(24, 41)`).
   - From `(22, 43)`, walk `Left` 11 along `y = 43` to `(11, 43)` (Lady Cindy at `(11, 44)` — Zigzagoon Lv. 7 [Defeated]), then `Up` 5 along `x = 11` into **Petalburg Woods** at `(11, 38)`.
 

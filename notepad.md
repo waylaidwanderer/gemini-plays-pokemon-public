@@ -13,6 +13,9 @@
     - From `(12, 5)`, walk `Left` 9 along `y = 5` to `(3, 5)`, `Up` 1 to `(3, 4)`, `Right` 1 to `(4, 4)`, and press `Up` + `A` to challenge **Gym Leader Brawly** at `(4, 3)` (`Machop Lv. 16`, `Meditite Lv. 16`, `Makuhita Lv. 19`).
   - **Exit Route from `(4, 4)`:** `Left` 1 to `(3, 4)` -> `Down` 1 to `(3, 5)` -> `Right` 9 to `(12, 5)` -> `Down` 9 to `(12, 14)` -> `Left` 1 to `(11, 14)` -> `Down` 7 to `(11, 21)` -> `Left` 3 to `(8, 21)` -> `Down` 1 to `(8, 22)` -> `Left` 2 to `(6, 22)` -> `Down` 3 to `(6, 25)` -> `Left` 1 to `(5, 25)` -> `Down` 3 out `(5, 27)`.
   - **Gym Leader Brawly Strategy:** Use 100%-accurate Special-type `Water Gun` against `Machop Lv. 16` (bypassing `Bulk Up` Defense boosts) and `Meditite Lv. 16` (guaranteed to break `Focus Punch` every turn). Against `Makuhita Lv. 19`, use `Growl` twice to reduce `Vital Throw` to ~9 damage per hit, then attack with `Mud Shot` into Torrent-boosted `Water Gun`.
+## President Stone Quest Chain (Dewford -> Granite Cave -> Slateport)
+- **Step 1 (Dewford Town / Granite Cave):** Travel northwest from Dewford Town across Route 106 into Granite Cave, obtain **HM05 (Flash)** from the Hiker at the entrance, and deliver **Steven's Letter** (`Letter`) to Steven deep inside Granite Cave.
+- **Step 2 (Slateport City):** Return to Mr. Briney at the Dewford Town dock `(12, 9)` to sail to Route 109 / Slateport City and deliver the **Devon Goods** to Capt. Stern (and report back to President Stone in Rustboro City afterwards for the Exp. Share).
 
 <hr>
 
@@ -105,7 +108,7 @@
 - **East Entrance (from Petalburg City):** `(34, 62)`
 - **Beach Bypass Route (Zero Tall Grass):**
   - `(34, 62)` -> `Left` 6 to `(28, 62)` -> `Down` 9 via east beach steps `(28, 70)` to `(28, 71)`.
-  - `Left` 6 to `(22, 71)` -> `Up` 8 to `(22, 63)` -> `Left` 3 to `(19, 63)` -> `Up` 4 to `(19, 59)` -> `Left` 2 to `(17, 59)` -> `Up` 6 via west beach steps `(17, 54)` to `(17, 53)` (in front of **Mr. Briney's Cottage** door at `(17, 50)`).
+  - `Left` 6 to `(22, 71)` -> `Up` 8 to `(22, 63)` -> `Left` 3 to `(19, 63)` -> `Up` 4 to `(19, 59)` -> `Left` 2 to `(17, 59)` -> `Up` 6 via west beach steps `(17, 54)` to `(17, 53)` (in front of **Mr. Briney's Cottage** door at `(17, 50)`; interior entrance mat is `(5, 8)..(6, 8)`, and standing at `(6, 7)` facing `Up` catches Mr. Briney at `(6, 6)` as he circles the table to sail to Dewford Town).
   - From `(17, 53)`, walk `Right` 5 to `(22, 53)` and `Up` 10 along `x = 22` to `(22, 43)` (Oran Berry tree at `(22, 41)`, Pecha Berry tree at `(24, 41)`).
   - From `(22, 43)`, walk `Left` 11 along `y = 43` to `(11, 43)` (Lady Cindy at `(11, 44)` — Zigzagoon Lv. 7 [Defeated]), then `Up` 5 along `x = 11` into **Petalburg Woods** at `(11, 38)`.
 
@@ -183,7 +186,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $7,220 | **Badges:** 1 (Stone Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav
 - **Text Speed:** FAST
-- **Inventory:** Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM39 (Rock Tomb)
+- **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM39 (Rock Tomb)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 19 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
