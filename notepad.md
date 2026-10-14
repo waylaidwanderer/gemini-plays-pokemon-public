@@ -124,7 +124,7 @@
 - **Interior Entrance Mat:** `(5, 19)`
 - **Western Bypass Route:**
   - From `(5, 19)`, walk `Up` 2 to `(5, 17)`, `Left` 4 to `(1, 17)`, and `Up` 8 along `x = 1` to `(1, 9)` (bypasses Youngster Josh at `(5, 13)`).
-  - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2).
+  - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2 [Defeated]) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2 [Defeated]).
 
 <hr>
 
@@ -133,13 +133,13 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,280
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,728
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
 - **Inventory:** Great Ball x1, Poké Ball x3
 - **Party:**
   1. ATRITON (Mudkip, Male, Lv. 13 — Tackle, Growl, Mud-Slap, Water Gun)
-  2. OBERON (Wurmple, Male, Lv. 6 — Tackle, String Shot, Poison Sting)
+  2. OBERON (Silcoon, Male, Lv. 7 — Tackle, String Shot, Poison Sting, Harden)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.

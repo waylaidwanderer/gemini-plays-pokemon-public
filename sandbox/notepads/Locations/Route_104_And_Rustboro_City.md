@@ -18,4 +18,4 @@
 - **Interior Entrance Mat:** `(5, 19)`
 - **Western Bypass Route:**
   - From `(5, 19)`, walk `Up` 2 to `(5, 17)`, `Left` 4 to `(1, 17)`, and `Up` 8 along `x = 1` to `(1, 9)` (bypasses Youngster Josh at `(5, 13)`).
-  - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2).
+  - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2 [Defeated]) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2 [Defeated]).
