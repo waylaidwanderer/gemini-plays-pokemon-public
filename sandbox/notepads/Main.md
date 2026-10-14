@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Inside Jade's House (2F Bedroom), interacting with wall clock.
+- Status: Bedroom clock set. Withdrawing Potion from PC.
 
 ## Littleroot Town Layout
 - Player's House (Jade's House): East house (right side of town).
