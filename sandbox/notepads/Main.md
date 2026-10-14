@@ -7,7 +7,7 @@
 
 ## Party
 1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 15/28.
-2. LILY (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
+2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)

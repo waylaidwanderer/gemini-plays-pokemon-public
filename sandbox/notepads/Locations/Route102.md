@@ -37,5 +37,5 @@
 
 ## Target Encounters
 - Ralts (Psychic, 4%): Prime team addition.
-- Lotad (Water/Grass, 20%): [CAUGHT!] Level 4 ♀, nicknamed LILY!
+- Lotad (Water/Grass, 20%): [CAUGHT!] Level 4 ♀, nicknamed LILZ!
 - Zigzagoon (Normal, 15%): Pickup ability for passive free items.
