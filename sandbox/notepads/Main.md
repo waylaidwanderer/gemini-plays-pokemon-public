@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 5, Male), Nickname: SAGE
-- Status: Outside Birch's Lab. Heading north through Route 101 to Oldale Town.
+- Status: Outside Birch's Lab. Walking north through Littleroot Town onto Route 101.
 
 ## Party
 1. SAGE (Treecko ♂, Level 5) - Moves: Pound, Leer. HP: 20/20.
