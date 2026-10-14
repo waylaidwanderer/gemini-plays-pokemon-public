@@ -17,8 +17,11 @@
    - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
    - Reward: ¥64, EXP.
 
-3. Youngster Allen (upcoming):
+3. Youngster Allen:
+   - Location: (18, 12), facing South in tall grass.
+   - Line of sight: Column 18, rows 13..15.
    - Team: Zigzagoon Lv 4, Taillow Lv 3.
+   - Reward: EXP, prize money.
 
 4. Lass Tiana (upcoming):
    - Team: Zigzagoon Lv 4, Shroomish Lv 4.
@@ -87,12 +90,6 @@
 - Key Wild Pokémon: Ralts, Lotad, Seedot, Zigzagoon (Pickup), Wurmple, Poochyena.
 - Trainers: Youngster Calvin, Bug Catcher Rick, Youngster Allen, Lass Tiana.
 - Items: Oran/Pecha berry trees, Potion.
-
-## Route 103 Topology & Layout
-- South connects to Oldale Town.
-- Lower Ledge: Horizontal jump ledge at row 12 spans x=3 to x=14. Bypass on east side (column 15).
-- Middle Level: Signpost at (11, 8). Upper jump ledge at row 5 spans middle/east section.
-- Upper Bluff Path: Bypass upper ledge on the west side to reach Brendan overlooking the water at (8, 3) / (10, 3).
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.

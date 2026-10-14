@@ -47,12 +47,6 @@
 - Trainers: Youngster Calvin, Bug Catcher Rick, Youngster Allen, Lass Tiana.
 - Items: Oran/Pecha berry trees, Potion.
 
-## Route 103 Topology & Layout
-- South connects to Oldale Town.
-- Lower Ledge: Horizontal jump ledge at row 12 spans x=3 to x=14. Bypass on east side (column 15).
-- Middle Level: Signpost at (11, 8). Upper jump ledge at row 5 spans middle/east section.
-- Upper Bluff Path: Bypass upper ledge on the west side to reach Brendan overlooking the water at (8, 3) / (10, 3).
-
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
 - Button sequences must place `sleep` strictly between button taps (no leading/trailing sleeps).
