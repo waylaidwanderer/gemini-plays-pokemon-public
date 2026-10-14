@@ -45,7 +45,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 8, Male), Nickname: SAGE
-- Status: Running Shoes obtained! Traveling north through Route 101 to Oldale Town and Route 102.
+- Status: Navigating Route 102; Youngster Calvin defeated, currently battling Bug Catcher Rick.
 
 ## Party
 1. SAGE (Treecko ♂, Level 8) - Moves: Pound, Leer, Absorb. HP: 22/26.
