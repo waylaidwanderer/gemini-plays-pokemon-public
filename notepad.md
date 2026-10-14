@@ -67,8 +67,10 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,300
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
-- **Inventory:** Potion x1, Poké Ball x5
-- **Party:** ATRITON (Mudkip, Male, Lv. 7 — Tackle, Growl, Mud-Slap)
+- **Inventory:** Potion x1, Poké Ball x3
+- **Party:**
+  1. ATRITON (Mudkip, Male, Lv. 7 — Tackle, Growl, Mud-Slap)
+  2. OBERON (Wurmple, Male, Lv. 2 — Tackle, String Shot)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
