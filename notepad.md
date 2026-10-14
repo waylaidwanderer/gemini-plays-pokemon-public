@@ -24,7 +24,7 @@
 - **Granite Cave Exterior Entrance:** `(48, 16)` (exiting steps to `(48, 17)`). Reachable from `(66, 16)` on Route 106 by walking `Left` 15 along `y = 16` to `(51, 16)`, `Down` 1 to `(51, 17)`, `Left` 3 to `(48, 17)`, and `Up` 1 into `(48, 16)`.
 ## Granite Cave
 - **1F Entrance (from Route 106 `(48, 16)`):** `(37, 12)`
-- **HM05 (Flash) Hiker:** Stands at `(36, 9)` on 1F (reachable from `(37, 12)` by walking `Up` 3 to `(37, 9)` and facing `Left`).
+- **HM05 (Flash) Hiker:** Stands at `(36, 9)` on 1F (reachable from `(37, 12)` by walking `Up` 3 to `(37, 9)` and facing `Left`) [HM05 Flash obtained].
 
 <hr>
 
@@ -195,7 +195,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,364 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
-- **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM08 (Bulk Up), TM39 (Rock Tomb)
+- **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM39 (Rock Tomb)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 21 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
