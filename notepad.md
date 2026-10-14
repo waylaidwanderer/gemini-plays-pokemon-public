@@ -32,6 +32,8 @@
   - From `(4, 21)` (ladder from 1F `(17, 11)`), walk `Right` 1 to `(5, 21)`, `Up` 1 to `(5, 20)`, `Left` 1 to `(4, 20)`, `Up` 1 to `(4, 19)`, `Left` 1 to `(3, 19)`, and `Up` 5 along `x = 3` to `(3, 14)`.
   - From `(3, 14)`, walk `Right` 2 to `(5, 14)`, `Up` 1 to `(5, 13)`, and `Right` 17 along `y = 13` to `(22, 13)`.
   - From `(22, 13)`, walk `Down` 3 to `(22, 16)`, `Right` 2 to `(24, 16)`, `Down` 1 to `(24, 17)`, `Right` 1 to `(25, 17)`, `Down` 3 to `(25, 20)`, `Right` 3 to `(28, 20)`, and `Down` 1 onto the **B2F Ladder at `(28, 21)`**.
+- **Granite Cave B2F Route (from `(28, 21)`):**
+  - From `(28, 21)` (ladder from B1F `(28, 21)`), walk `Up` 5 to `(28, 16)`, `Left` 5 to `(23, 16)`, `Down` 1 to `(23, 17)`, `Left` 10 along `y = 17` to `(13, 17)`, `Down` 1 to `(13, 18)`, `Left` 3 to `(10, 18)`, and `Down` 3 to `(10, 21)` (bypassing the rocks at `(8..9, 19..20)`), then continue west and north up the western corridor of B2F.
 
 <hr>
 
