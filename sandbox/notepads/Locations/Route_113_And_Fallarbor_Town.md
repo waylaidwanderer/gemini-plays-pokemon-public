@@ -11,3 +11,8 @@
     - From `(31, 7)` (below the Glass Workshop signpost at `(31, 5)`), walk `Down` 3 to jump the southbound ledge at `(31, 10)` onto `(31, 11)`, completely bypassing Ninja Boy Lung buried under the parasol at `(29, 6)`.
     - From `(31, 11)`, walk `Left` 9 along `y = 11` to `(22, 11)`, `Up` 2 along `x = 22` to `(22, 9)`, `Left` 3 along `y = 9` (passing behind **Youngster Neal `(21, 11)`** facing Down) to `(19, 9)`, `Down` 1 to `(19, 10)`, and `Left` 20 along `y = 10` (below the signpost at `(12, 9)`) into **Fallarbor Town `(19, 10)`**.
     - **Western Flower Bed Trainers (`x = 7`):** **Picnicker Sophie `(7, 6)` -> `(7, 9)`** (`Marill Lv. 17`, `Lombre Lv. 19`) and **Bird Keeper Coby `(7, 13)` -> `(7, 11)`** (`Skarmory Lv. 17`, `Swellow Lv. 19`) [Defeated].
+
+## Fallarbor Town
+- **East Entrance (from Route 113 `(0, 10)`):** `(19, 10)`.
+- **Fallarbor Pokémon Center:** Door at `(14, 8)`.
+- **Fallarbor Poké Mart:** Door at `(15, 14)`.
