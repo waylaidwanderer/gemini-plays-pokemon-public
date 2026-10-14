@@ -37,3 +37,4 @@
     - Entrance doormat at `(4, 20)`..`(5, 20)`.
     - **Battle Girl Vivian `(1, 16)`** (facing Up — `Meditite Lv. 17`, `Meditite Lv. 17`) [Defeated via side-talk from `(2, 16)`].
     - **Guitarist Kirk `(1, 13)`** (facing Down — `Electrike Lv. 17`, `Voltorb Lv. 17`) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`** [Defeated].
+    - **Switch #3 `(3, 9)`:** Stepping on `(3, 9)` toggles the blue barriers at `(1, 10)..(2, 10)`, `(4, 14)..(5, 14)`, `(4, 6)..(5, 6)`, and `(6, 9)` ON, opens the pink barriers at `(3, 12)` and `(4, 10)..(5, 10)`, and rotates **Youngster Ben `(5, 10)`** (`Zigzagoon Lv. 17`, `Gulpin Lv. 17`) to face Left [Defeated].

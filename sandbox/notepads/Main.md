@@ -1,7 +1,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,279 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,551 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM47 (Steel Wing)
