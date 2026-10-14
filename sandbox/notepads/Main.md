@@ -6,7 +6,7 @@
 - Status: In Rival Battle 1 vs Brendan on Route 103 (Sage 22/22 HP vs Torchic Lv 5).
 
 ## Party
-1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 22/22.
+1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 18/22.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
