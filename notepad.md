@@ -4,11 +4,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko (Level 7, Male), Nickname: SAGE
+- Starter: Treecko (Level 8, Male), Nickname: SAGE
 - Status: Running Shoes obtained! Traveling north through Route 101 to Oldale Town and Route 102.
 
 ## Party
-1. SAGE (Treecko ♂, Level 7) - Moves: Pound, Leer, Absorb. HP: 16/24.
+1. SAGE (Treecko ♂, Level 8) - Moves: Pound, Leer, Absorb. HP: 20/26.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
