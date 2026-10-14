@@ -110,7 +110,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,184
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
-- **Inventory:** Potion x1, Great Ball x1, Poké Ball x3
+- **Inventory:** Great Ball x1, Poké Ball x3
 - **Party:**
   1. ATRITON (Mudkip, Male, Lv. 12 — Tackle, Growl, Mud-Slap, Water Gun)
   2. OBERON (Wurmple, Male, Lv. 3 — Tackle, String Shot)
