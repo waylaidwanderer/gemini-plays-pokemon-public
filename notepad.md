@@ -32,7 +32,7 @@
 
 ## Target Encounters
 - Ralts (Psychic, 4%): Prime team addition.
-- Lotad (Water/Grass, 20%): Great dual typing.
+- Lotad (Water/Grass, 20%): [CAUGHT!] Level 4 ♀, nicknamed LILY!
 - Zigzagoon (Normal, 15%): Pickup ability for passive free items.
 
 <hr>
@@ -48,10 +48,11 @@
 
 ## Party
 1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 18/28.
+2. LILY (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
-- Poké Ball x3 (gift from Brendan, 2 used on Lotad)
+- Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Money: ¥3444 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
