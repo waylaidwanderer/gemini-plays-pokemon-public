@@ -58,7 +58,7 @@
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
-- Money: ¥3444 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick)
+- Money: ¥3492 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
@@ -81,8 +81,8 @@
 1. [x] Receive Running Shoes from Mom outside player's house.
 2. [x] Travel north through Route 101 to Oldale Town.
 3. [x] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
-4. [x] Catch wild Pokémon on Route 102 with Poké Balls (caught Lotad ♀ Lv 4, nicknamed LILY!).
-5. [ ] Battle Route 102 trainers for EXP and prize money. (Calvin & Rick defeated; Allen & Tiana remaining).
+4. [x] Catch wild Pokémon on Route 102 with Poké Balls (caught Lotad ♀ Lv 4, nicknamed LILZ!).
+5. [ ] Battle Route 102 trainers for EXP and prize money. (Calvin, Rick, Allen defeated; Tiana remaining).
 6. [ ] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [ ] Help Wally catch a Ralts.
 
