@@ -14,3 +14,4 @@
   - **Interior:** Entrance mat is `(2, 14)..(3, 14)`. **Dock** stands at `(5, 5)` (reachable from `(2, 14)` via `Right` 1 to `(3, 14)`, `Up` 9 to `(3, 5)`, and `Right` 1 to `(4, 5)`). Speaking to Dock requires 9 `B` presses to clear and triggers Capt. Stern and Team Aqua to appear at the Oceanic Museum [Completed].
 - **Slateport Poké Mart Door:** `(14, 26)`
 - **Oceanic Museum Door:** `(30, 26)..(31, 26)` (exiting steps to `(30, 27)`). Reachable from `(19, 30)` by walking `Up` 2 to `(19, 28)`, `Right` 11 along `y = 28` to `(30, 28)`, and `Up` 2 into `(30, 26)`.
+  - **1F Interior:** Entrance mat is `(9, 8)..(10, 8)`. Stepping onto `(9, 7)` triggers the ¥50 admission prompt (`A, sleep 1200, A, sleep 1200, B, sleep 1200, B`). From `(9, 7)`, walk `Up` 2 to `(9, 5)` (a Team Aqua Grunt is at `(9, 4)`), `Left` 3 to `(6, 5)`, and `Up` 4 along `x = 6` onto the **2F Stairs at `(6, 1)`**.
