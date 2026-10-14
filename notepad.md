@@ -142,7 +142,8 @@
 ## Rusturf Tunnel
 - **West Entrance (from Route 116 `(47, 8)`):** `(4, 10)`
 - **Path to Team Aqua Grunt:**
-  - From `(4, 10)`, walk `Up` 5 to `(4, 5)` (an item ball is at `(3, 1)` up the northern stairs at `(8, 3)`) and `Right` along `y = 5` to the Team Aqua Grunt and Peeko.
+  - From `(4, 10)`, walk `Up` 5 to `(4, 5)` (an item ball is at `(3, 1)` up the northern stairs at `(8, 3)`) and `Right` 9 along `y = 5` to `(13, 5)` (Team Aqua Grunt at `(14, 5)` — Poochyena Lv. 11 [Defeated — Devon Goods recovered & Peeko rescued]).
+  - **Exit Route from `(13, 5)`:** Walk `Left` 9 to `(4, 5)` and `Down` 6 onto `(4, 10)` to exit onto Route 116 at `(47, 9)`.
 
 <hr>
 
@@ -151,10 +152,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,456 | **Badges:** 1 (Stone Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,676 | **Badges:** 1 (Stone Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
-- **Inventory:** Great Ball x1, Poké Ball x3, TM39 (Rock Tomb)
+- **Inventory:** Devon Goods, Great Ball x1, Poké Ball x3, TM39 (Rock Tomb)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 17 [PAR] — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)

@@ -36,4 +36,5 @@
 ## Rusturf Tunnel
 - **West Entrance (from Route 116 `(47, 8)`):** `(4, 10)`
 - **Path to Team Aqua Grunt:**
-  - From `(4, 10)`, walk `Up` 5 to `(4, 5)` (an item ball is at `(3, 1)` up the northern stairs at `(8, 3)`) and `Right` along `y = 5` to the Team Aqua Grunt and Peeko.
+  - From `(4, 10)`, walk `Up` 5 to `(4, 5)` (an item ball is at `(3, 1)` up the northern stairs at `(8, 3)`) and `Right` 9 along `y = 5` to `(13, 5)` (Team Aqua Grunt at `(14, 5)` — Poochyena Lv. 11 [Defeated — Devon Goods recovered & Peeko rescued]).
+  - **Exit Route from `(13, 5)`:** Walk `Left` 9 to `(4, 5)` and `Down` 6 onto `(4, 10)` to exit onto Route 116 at `(47, 9)`.
