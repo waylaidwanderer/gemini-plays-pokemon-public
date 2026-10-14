@@ -35,6 +35,8 @@
 - **Granite Cave B2F Route (from `(28, 21)`):**
   - From `(28, 21)` (ladder from B1F `(28, 21)`), walk `Up` 5 to `(28, 16)`, `Left` 5 to `(23, 16)`, `Down` 1 to `(23, 17)`, `Left` 10 along `y = 17` to `(13, 17)`, `Down` 1 to `(13, 18)`, `Left` 3 to `(10, 18)`, `Down` 1 to `(10, 19)`, `Right` 2 to `(12, 19)`, `Down` 3 to `(12, 22)`, `Left` 5 to `(7, 22)`, `Up` 1 to `(7, 21)`, `Left` 3 to `(4, 21)`, `Up` 3 to `(4, 18)`, `Left` 2 to `(2, 18)`, `Up` 1 to `(2, 17)`, `Right` 1 to `(3, 17)`, `Up` 2 to `(3, 15)`, `Right` 3 to `(6, 15)`, and `Up` 1 to `(6, 14)`.
   - From `(6, 14)` on B2F, walking `Right` 23 along `y = 14` passes a northern corridor at `x = 10..11` (which dead-ends at a Mach Bike muddy slope at `(8, 9..10)`), stairs at `(15, 13)` (leading onto a small mound `x = 13..17, y = 11..12` with a rock at `(15, 11)`), and an **item ball at `(16, 13)`**, reaching `(29, 14)` below the **eastern ladder at `(29, 13)`** (which warps to the **B1F upper plateau at `(29, 13)`**, 4 tiles east of the 1F ladder at `(25, 13)`).
+- **Granite Cave 1F Upper Northern Corridor (from `(35, 3)`):**
+  - Climbing the B1F ladder at `(25, 13)` warps to **Granite Cave 1F at `(35, 3)`** on the upper northern ridge above the one-way southward ledge at `y = 6` (`x = 30..34`). Do **not** walk south across `y = 6` or you will jump down into the main 1F entrance corridor (`y = 7`).
 
 <hr>
 
