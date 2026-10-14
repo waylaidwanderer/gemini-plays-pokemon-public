@@ -264,6 +264,9 @@
 - **Harbor Mail / Coin Case House:** Door at `(19, 14)`.
 - **Mauville Poké Mart:** Door at `(23, 14)`.
 - **Rock Smash Guy's House:** Door at `(32, 14)` (interior doormat at `(3, 7)`..`(4, 7)`; talk to the Rock Smash Guy at `(4, 4)` to obtain **HM06 (Rock Smash)** [Obtained]).
+- **Upper Street (`y = 7..9`):**
+  - **Mauville Pokémon Center:** Door at `(22, 5)`.
+  - **Rydel's Cycles:** Door at `(35, 5)` (sign at `(33, 6)`).
 
 <hr>
 
@@ -307,7 +310,7 @@
 - **Double Battle Single-Mon Bypass:** Overworld Double Battle trainers (such as Twins Gina & Mia on the Route 104 North bridge) cannot initiate a battle if the player has only 1 conscious Pokémon (`GetMonsStateToDoubles() != PLAYER_HAS_TWO_USABLE_MONS`).
 - **Evolution Screen Safety:** Never press `B` when a Pokémon is about to evolve after battle (`B` cancels evolution); use `A` to advance post-battle victory text when a level-up triggers evolution.
 - **Side-Talking Trainers to Avoid Double Battles:** When two Single Battle trainers have overlapping lines of sight (such as Youngster Johnson at `(36, 13)` and Hiker Clark at `(36, 17)` on Route 116), walking up to the side of one trainer and pressing `A` initiates a 1v1 Single Battle instead of stepping into their shared line of sight for a 2v2 Double Battle.
-- **Double Battle Target Selection:** Single-target moves (such as `Mud Shot` or `Tackle`) require **3 `A` presses** per Pokémon in a Double Battle (`A` for `FIGHT`, `A` for the move slot, and `A` to confirm the default enemy target). On the target selection screen, `Left`/`Right` toggles between the two enemy Pokémon, whereas pressing `Down` moves the target cursor onto your own ally (`B_POSITION_PLAYER_RIGHT`)—never press `Down` when targeting a foe!
+- **Double Battle Target Selection & Mid-Turn Replacements:** Single-target moves (such as `Mud Shot` or `Tackle`) require **3 `A` presses** per Pokémon in a Double Battle (`A` for `FIGHT`, `A` for the move slot, and `A` to confirm the default enemy target). On the target selection screen, `Left`/`Right` toggles between the two enemy Pokémon, whereas pressing `Down` moves the target cursor onto your own ally (`B_POSITION_PLAYER_RIGHT`)—never press `Down` when targeting a foe! Also, in Gen 3 Double Battles, when a Pokémon faints mid-turn, its replacement is sent out immediately before slower Pokémon on the field execute their actions for that turn.
 - **Post-Battle Match Call Registration:** After obtaining the PokéNav, defeating a Match Call-eligible trainer triggers an automatic overworld dialogue box immediately after the post-battle fade-in (including a ~3s registration fanfare) that must be cleared with `B` before overworld movement can resume.
 
 <hr>

@@ -29,3 +29,6 @@
 - **Harbor Mail / Coin Case House:** Door at `(19, 14)`.
 - **Mauville Poké Mart:** Door at `(23, 14)`.
 - **Rock Smash Guy's House:** Door at `(32, 14)` (interior doormat at `(3, 7)`..`(4, 7)`; talk to the Rock Smash Guy at `(4, 4)` to obtain **HM06 (Rock Smash)** [Obtained]).
+- **Upper Street (`y = 7..9`):**
+  - **Mauville Pokémon Center:** Door at `(22, 5)`.
+  - **Rydel's Cycles:** Door at `(35, 5)` (sign at `(33, 6)`).
