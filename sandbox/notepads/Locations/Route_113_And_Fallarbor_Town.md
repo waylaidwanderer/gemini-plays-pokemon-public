@@ -18,3 +18,10 @@
 - **Fallarbor Battle Tent:** Door at `(8, 7)`.
 - **Fallarbor Poké Mart:** Door at `(15, 15)` (walk `Down` along `x = 12` to `(12, 16)`, `Right` 3 to `(15, 16)`, and `Up` 1 into `(15, 15)`).
 - **West Exit (to Route 114 `(39, 9)`):** From `(12, 10)`, walk `Left` 2 to `(10, 10)`, `Up` 1 to `(10, 9)` (passing between the old man at `(11, 9)` and the woman & Azurill at `(8, 10..11)`), and `Left` 11 along `y = 9` onto **Route 114 `(39, 9)`** (Move Tutor's House door is at `(2, 6)`, Prof. Cozmo's House is in southwest Fallarbor Town).
+
+## Route 114
+- **North-East Entrance (from Fallarbor Town `(0, 9)`):** `(39, 9)`.
+- **Northern & Bridge Route (`(39, 9)` -> `(18, 50)`):**
+  - Walk `Left` 10 along `y = 9` from `(39, 9)` to `(29, 9)` (Fossil Maniac's House door is at `(29, 5)`), `Down` 2 to `(29, 11)`, `Left` 8 along `y = 11` to `(21, 11)`, and `Down` 27 along `x = 21` across the river bridge (passing behind **Fisherman Nolan `(19, 25)`** facing Left and east of **Picnicker Nancy `(19, 35)`**) to `(21, 38)`.
+  - From `(21, 38)`, walk `Left` 5 along `y = 38` to `(16, 38)`, `Down` 4 along `x = 16` (passing east of the Rock Smash boulder at `(15, 42)`) to `(16, 42)`, and press `Right` to jump the east-facing ledge at `(17, 42)` onto `(18, 42)` (note: `(16, 45)` is blocked by the diagonal mountain cliff, so you must jump the ledge at `x = 17` to proceed south).
+  - With a **Super Repel** active, walk `Down` along `x = 18` from `(18, 42)` to `(18, 50)+`, completely bypassing **Twins Tyra & Ivy `(22..23, 44)`** (facing Down) and **Camper Shane `(22, 50)`** (facing Right).
