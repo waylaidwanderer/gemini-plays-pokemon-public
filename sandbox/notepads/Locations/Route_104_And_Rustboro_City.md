@@ -41,3 +41,7 @@
 - **Westbound Return Route (Rusturf Tunnel -> Rustboro City):**
   - From `(47, 9)`, walk `Down` 1 to `(47, 10)`, `Left` 9 to `(38, 10)`, `Down` 4 to `(38, 14)`, `Left` 3 to `(35, 14)`, `Up` 1 to `(35, 13)`, `Left` 15 along `y = 13` to `(20, 13)`, `Up` 4 to `(20, 9)`, `Left` 6 to `(14, 9)`, `Up` 5 to `(14, 4)`, `Left` 6 to `(8, 4)`, `Down` 3 to `(8, 7)`, `Left` 4 to `(4, 7)`, `Down` 4 to `(4, 11)`, and `Left` 14 into **Rustboro City** at `(30, 11)`.
   - Stepping onto `(30, 11)` with the recovered Devon Goods triggers the Researcher at `(30, 10)` (awards Great Ball x1 and escorts the player to Devon Corporation 3F to receive Steven's Letter and the PokéNav from President Stone).
+- **Devon Corporation Exit Route (3F -> 2F -> 1F -> Rustboro City):**
+  - **3F (from `(14, 5)`):** Walk `Up` 2 to `(14, 3)`, `Left` 11 along `y = 3` (above the conference table) to `(3, 3)`, `Up` 1 to `(3, 2)`, `Left` 1 to `(2, 2)`, and `Up` 1 into `(2, 1)` to warp to 2F `(2, 2)`.
+  - **2F (from `(2, 2)`):** Walk `Right` 12 along `y = 2` to `(14, 2)` and `Up` 1 into `(14, 1)` to warp to 1F `(14, 2)`.
+  - **1F (from `(14, 2)`):** Walk `Left` 1 to `(13, 2)`, `Down` 4 to `(13, 6)`, `Left` 8 along `y = 6` to `(5, 6)`, and `Down` 3 onto `(5, 8)` to exit to Rustboro City.
