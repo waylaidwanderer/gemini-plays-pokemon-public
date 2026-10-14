@@ -54,7 +54,7 @@
 - Status: Navigating Route 102; Calvin & Rick defeated, heading west toward Youngster Allen and Petalburg City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 18/28.
+1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 15/28.
 2. LILY (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
