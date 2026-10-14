@@ -5,7 +5,7 @@
 ## Dewford Town
 - **Mr. Briney's Boat Dock:** `(11, 9)` (Mr. Briney stands at `(12, 9)`).
 - **Dewford Pokémon Center Door:** `(2, 10)` (exiting steps to `(2, 11)`). Reachable from the dock `(11, 9)` by walking `Left` 6 to `(5, 9)`, `Down` 2 to `(5, 11)`, `Left` 3 to `(2, 11)`, and `Up` 1 into `(2, 10)`.
-- **Dewford Gym Door:** `(8, 17)` (exiting steps to `(8, 18)`). Reachable from outside the Pokémon Center `(2, 11)` by walking `Right` 2 to `(4, 11)`, `Down` 7 along `x = 4` to `(4, 18)`, `Right` 4 to `(8, 18)`, and `Up` 1 into `(8, 17)`.
+- **Dewford Gym Door:** `(8, 17)` (exiting steps to `(8, 18)`). Reachable from outside the Pokémon Center `(2, 11)` via column `x = 3` (between the tree at `(2, 15..16)` and the Gym wall at `x = 4..10, y = 13..16`): walk `Right` 1 to `(3, 11)`, `Down` 7 along `x = 3` to `(3, 18)`, `Right` 5 to `(8, 18)`, and `Up` 1 into `(8, 17)`.
   - **Interior Entrance Mat:** `(5, 27)..(6, 27)`. Gym statues are at `(4, 26)` and `(4, 24)`, and the Gym Guide stands at `(5, 24)`.
   - **Zero-Trainer Route to Gym Leader Brawly (`(5, 27)` -> `(4, 4)`):**
     - From `(5, 27)`, walk `Up` 2 to `(5, 25)`, `Right` 1 to `(6, 25)`, `Up` 3 to `(6, 22)`, `Right` 2 to `(8, 22)`, `Up` 1 to `(8, 21)`, and `Right` 3 to `(11, 21)`.
