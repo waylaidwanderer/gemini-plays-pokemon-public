@@ -11,4 +11,4 @@
 ## Slateport City
 - **South Entrance (from Route 109 `(16, 0)`):** `(16, 59)` (stairs up to the main cobblestone avenue `x = 17..19` are at `x = 17..19, y = 57..58`; a residential house is at `(21, 44)`).
 - **Stern's Shipyard Door:** `(26, 38)` (exiting steps to `(26, 39)`). Reachable from `(18, 45)` by walking `Right` 12 along `y = 45` to `(30, 45)`, `Up` 6 along `x = 30` to `(30, 39)`, `Left` 4 to `(26, 39)`, and `Up` 1 into `(26, 38)` (or directly along `y = 39`).
-  - **Interior:** Entrance mat is `(2, 14)..(3, 14)`. **Dock** stands at `(5, 5)` (reachable from `(2, 14)` via `Right` 1 to `(3, 14)`, `Up` 9 to `(3, 5)`, and `Right` 1 to `(4, 5)`). Speaking to Dock triggers Capt. Stern and Team Aqua to appear at the Oceanic Museum.
+  - **Interior:** Entrance mat is `(2, 14)..(3, 14)`. **Dock** stands at `(5, 5)` (reachable from `(2, 14)` via `Right` 1 to `(3, 14)`, `Up` 9 to `(3, 5)`, and `Right` 1 to `(4, 5)`). Speaking to Dock requires 9 `B` presses to clear and triggers Capt. Stern and Team Aqua to appear at the Oceanic Museum [Completed].
