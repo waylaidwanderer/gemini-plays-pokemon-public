@@ -139,7 +139,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Great Ball x1, Poké Ball x3
 - **Party:**
-  1. ATRITON (Mudkip, Male, Lv. 13 — Tackle, Growl, Mud-Slap, Water Gun)
+  1. ATRITON (Mudkip, Male, Lv. 14 — Tackle, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 7 — Tackle, String Shot, Poison Sting, Harden)
 
 ## Notepad Index
