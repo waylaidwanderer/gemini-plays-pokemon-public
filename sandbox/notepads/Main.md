@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Met Brendan. Heading north to Route 101 to rescue Professor Birch!
+- Status: In Brendan's bedroom (2F), finishing dialogue with Brendan.
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
@@ -17,7 +17,7 @@
 2. [x] Enter player's house, go upstairs, set the wall clock (10:00 AM).
 3. [x] Withdraw Potion from bedroom PC.
 4. [x] Go downstairs, watch Dad (Norman) on TV with Mom.
-5. [x] Visit Brendan's house (west) and meet Brendan upstairs.
+5. [ ] Visit Brendan's house (west) and meet Brendan upstairs (finishing dialogue).
 6. [ ] Head north to Route 101 to rescue Professor Birch from Poochyena.
 7. [ ] Choose Starter Pokémon: Treecko, Torchic, or Mudkip!
 
