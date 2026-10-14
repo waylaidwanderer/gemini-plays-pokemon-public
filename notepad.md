@@ -47,11 +47,11 @@
 - Status: Navigating Route 102; Calvin & Rick defeated, heading west toward Youngster Allen and Petalburg City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 20/28.
+1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 18/28.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
-- Poké Ball x5 (gift from Brendan)
+- Poké Ball x4 (gift from Brendan, 1 used on Lotad)
 - Money: ¥3444 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
