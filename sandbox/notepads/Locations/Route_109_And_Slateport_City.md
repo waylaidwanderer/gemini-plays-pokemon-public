@@ -10,3 +10,4 @@
 
 ## Slateport City
 - **South Entrance (from Route 109 `(16, 0)`):** `(16, 59)` (stairs up to the main cobblestone avenue `x = 17..19` are at `x = 17..19, y = 57..58`; a residential house is at `(21, 44)`).
+- **Stern's Shipyard Door:** `(26, 38)` (exiting steps to `(26, 39)`). Reachable from `(18, 45)` by walking `Right` 12 along `y = 45` to `(30, 45)`, `Up` 6 along `x = 30` to `(30, 39)`, `Left` 4 to `(26, 39)`, and `Up` 1 into `(26, 38)` (or directly along `y = 39`).
