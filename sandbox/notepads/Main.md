@@ -3,14 +3,16 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 7, Male), Nickname: SAGE
-- Status: Defeated Brendan in Rival Battle 1! Returning to Littleroot Town for Pokédex.
+- Status: In Birch's Lab receiving the Pokédex and Poké Balls!
 
 ## Party
 1. SAGE (Treecko ♂, Level 7) - Moves: Pound, Leer, Absorb. HP: 16/24.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
+- Poké Ball x5 (gift from Brendan)
 - Money: ¥3300 (won ¥300 from Brendan)
+- Key Items: Pokédex
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -34,7 +36,7 @@
 4. [x] Obtain free Potion from Mart clerk outside (promo sample received outside Mart).
 5. [x] Head north to Route 103 to find Brendan.
 6. [x] Defeat Brendan in Rival Battle 1 (Torchic Level 5).
-7. [ ] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
+7. [x] Return to Birch's Lab with Brendan to receive Pokédex and Poké Balls.
 8. [ ] Receive Running Shoes from Mom outside player's house.
 
 ## Route 103 Topology & Layout
