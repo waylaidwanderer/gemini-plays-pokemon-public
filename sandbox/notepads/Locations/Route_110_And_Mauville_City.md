@@ -13,3 +13,11 @@
 - **Rival May Battle (`(34, 54)`, triggered at `(34, 56)`):**
   - Reached from `(33, 60)` by walking `Right` 1 to `(34, 60)` and `Up` 4 along `x = 34` to `(34, 56)`.
   - **Team:** `Wingull Lv. 18` (`Growl`, `Water Gun`, `Supersonic`, `Wing Attack`), `Grovyle Lv. 20` (`Absorb`, `Quick Attack`, `Pursuit`, `Screech`), and `Slugma Lv. 18` [Defeated — **Itemfinder** obtained].
+
+## Northern Route 110 (`(34, 54)` -> Mauville City)
+- **Corridor North of Rival May (`(34, 54)` -> `(32, 39)`):**
+  - Walkable columns between the white fences are `x = 33..36` at `y = 51..55` and `x = 32..36` at `y = 43..50` (the white fences occupy `x = 31` and `x = 37`).
+  - **Collector Edwin `(34, 40)`** (facing Right) and **Guitarist Joseph `(36, 40)`** (facing Left) face each other on the eastern side; walk straight `Up` along `x = 32` to `(32, 39)` (just west of the signpost at `(33, 39)`) to bypass both trainers without battling.
+- **Northern Turn & Cycling Road Overpass (`(32, 39)` -> `(5, 39)`):**
+  - From `(32, 39)`, walk `Left` 7 along `y = 39` to `(25, 39)`, then follow the low-grass path `Left` 4 to `(21, 39)`, `Down` 1 to `(21, 40)`, `Left` 1 to `(20, 40)`, `Down` 1 to `(20, 41)`, `Left` 3 to `(17, 41)`, `Up` 1 to `(17, 40)`, and `Left` 11 along `y = 40` underneath the Cycling Road overpass (`x = 11..14`) to `(6, 40)`.
+  - **Psychic Edward `(3, 39)`** (facing Right — `Abra Lv. 15`) and **Triathlete Alyssa `(9, 39)`** (facing Left — `Magnemite Lv. 15`) both watch `(5, 39)` (the item ball is at `(5, 38)`).

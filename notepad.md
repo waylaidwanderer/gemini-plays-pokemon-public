@@ -249,6 +249,14 @@
   - Reached from `(33, 60)` by walking `Right` 1 to `(34, 60)` and `Up` 4 along `x = 34` to `(34, 56)`.
   - **Team:** `Wingull Lv. 18` (`Growl`, `Water Gun`, `Supersonic`, `Wing Attack`), `Grovyle Lv. 20` (`Absorb`, `Quick Attack`, `Pursuit`, `Screech`), and `Slugma Lv. 18` [Defeated — **Itemfinder** obtained].
 
+## Northern Route 110 (`(34, 54)` -> Mauville City)
+- **Corridor North of Rival May (`(34, 54)` -> `(32, 39)`):**
+  - Walkable columns between the white fences are `x = 33..36` at `y = 51..55` and `x = 32..36` at `y = 43..50` (the white fences occupy `x = 31` and `x = 37`).
+  - **Collector Edwin `(34, 40)`** (facing Right) and **Guitarist Joseph `(36, 40)`** (facing Left) face each other on the eastern side; walk straight `Up` along `x = 32` to `(32, 39)` (just west of the signpost at `(33, 39)`) to bypass both trainers without battling.
+- **Northern Turn & Cycling Road Overpass (`(32, 39)` -> `(5, 39)`):**
+  - From `(32, 39)`, walk `Left` 7 along `y = 39` to `(25, 39)`, then follow the low-grass path `Left` 4 to `(21, 39)`, `Down` 1 to `(21, 40)`, `Left` 1 to `(20, 40)`, `Down` 1 to `(20, 41)`, `Left` 3 to `(17, 41)`, `Up` 1 to `(17, 40)`, and `Left` 11 along `y = 40` underneath the Cycling Road overpass (`x = 11..14`) to `(6, 40)`.
+  - **Psychic Edward `(3, 39)`** (facing Right — `Abra Lv. 15`) and **Triathlete Alyssa `(9, 39)`** (facing Left — `Magnemite Lv. 15`) both watch `(5, 39)` (the item ball is at `(5, 38)`).
+
 <hr>
 
 <h1><code>Main</code></h1>
@@ -291,7 +299,7 @@
 - **Double Battle Single-Mon Bypass:** Overworld Double Battle trainers (such as Twins Gina & Mia on the Route 104 North bridge) cannot initiate a battle if the player has only 1 conscious Pokémon (`GetMonsStateToDoubles() != PLAYER_HAS_TWO_USABLE_MONS`).
 - **Evolution Screen Safety:** Never press `B` when a Pokémon is about to evolve after battle (`B` cancels evolution); use `A` to advance post-battle victory text when a level-up triggers evolution.
 - **Side-Talking Trainers to Avoid Double Battles:** When two Single Battle trainers have overlapping lines of sight (such as Youngster Johnson at `(36, 13)` and Hiker Clark at `(36, 17)` on Route 116), walking up to the side of one trainer and pressing `A` initiates a 1v1 Single Battle instead of stepping into their shared line of sight for a 2v2 Double Battle.
-- **Double Battle Target Selection:** Single-target moves (such as `Mud Shot` or `Tackle`) require **3 `A` presses** per Pokémon in a Double Battle (`A` for `FIGHT`, `A` for the move slot, and `A` to confirm the target).
+- **Double Battle Target Selection:** Single-target moves (such as `Mud Shot` or `Tackle`) require **3 `A` presses** per Pokémon in a Double Battle (`A` for `FIGHT`, `A` for the move slot, and `A` to confirm the default enemy target). On the target selection screen, `Left`/`Right` toggles between the two enemy Pokémon, whereas pressing `Down` moves the target cursor onto your own ally (`B_POSITION_PLAYER_RIGHT`)—never press `Down` when targeting a foe!
 - **Post-Battle Match Call Registration:** After obtaining the PokéNav, defeating a Match Call-eligible trainer triggers an automatic overworld dialogue box immediately after the post-battle fade-in (including a ~3s registration fanfare) that must be cleared with `B` before overworld movement can resume.
 
 <hr>
