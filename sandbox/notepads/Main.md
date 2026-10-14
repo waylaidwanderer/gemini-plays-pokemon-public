@@ -1,14 +1,14 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $7,220 | **Badges:** 1 (Stone Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $7,924 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
-- **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM39 (Rock Tomb)
+- **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM08 (Bulk Up), TM39 (Rock Tomb)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 20 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 7 — Scratch, Harden, Leech Life)
+  3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
