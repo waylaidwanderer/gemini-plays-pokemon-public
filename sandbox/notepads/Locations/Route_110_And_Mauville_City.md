@@ -33,3 +33,7 @@
   - **Mauville Pokémon Center:** Door at `(22, 5)`.
   - **Rydel's Cycles:** Door at `(35, 5)` (sign at `(33, 6)`; interior doormat at `(3, 8)`..`(4, 8)`; talk to Rydel at `(2, 5)` to obtain the **Mach Bike** [Obtained]).
   - **Mauville Gym:** Door at `(8, 5)`. Outside at `(8, 6)`, **Pokémon Trainer Wally** (`Ralts Lv. 16`) and his Uncle `(9, 6)` block the entrance until Wally is defeated [Defeated].
+  - **Mauville Gym Interior:**
+    - Entrance doormat at `(4, 20)`..`(5, 20)`.
+    - **Battle Girl Vivian `(1, 16)`** (facing Up — `Meditite Lv. 17`, `Meditite Lv. 17`) [Defeated via side-talk from `(2, 16)`].
+    - **Guitarist Kirk `(1, 13)`** (facing Down) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`**.
