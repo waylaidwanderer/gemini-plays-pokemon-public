@@ -23,3 +23,8 @@
 - **South Entrance (from Route 112 `(11, 36)`):** `(26, 36)`.
 - **Main Tunnel Route (`(26, 36)` -> `(26, 5)`):**
   - Walk `Up` 14 along `x = 26` to `(26, 22)`, `Left` 5 along `y = 22` to `(21, 22)`, `Up` 4 along `x = 21` to `(21, 18)` (Strength boulder at `(17, 15)` blocks the western side chambers until HM04 Strength is obtained), `Left` 1 to `(20, 18)`, `Up` 10 along `x = 20` to `(20, 8)`, `Left` 1 to `(19, 8)`, `Up` 4 along `x = 19` to `(19, 4)`, `Right` 7 along `y = 4` to `(26, 4)`, and `Down` 2 onto the **North Exit `(26, 5)`** (to Route 112 North).
+
+## Route 112 (North)
+- **Fiery Path North Entrance:** `(22, 10)` (exiting steps to `(22, 11)`).
+- **Grass- minimal & Trainer-Free Bypass (`(22, 11)` -> Route 111 `(1, 29)`):**
+  - From `(22, 11)`, walk `Right` 3 to `(25, 11)`, `Up` 1 to `(25, 10)`, `Right` 8 along `y = 10` (passing south of the rock at `(25..26, 8..9)` and behind **Aroma Lady Shayla `(31, 11)`** facing Left) to `(33, 10)`, `Up` 1 to `(33, 9)`, and `Right` 8 along `y = 9` across the border onto **Route 111 (North) `(1, 29)`**.
