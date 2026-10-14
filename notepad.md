@@ -64,12 +64,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,380
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,444
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
 - **Inventory:** Potion x1, Poké Ball x3
 - **Party:**
-  1. ATRITON (Mudkip, Male, Lv. 8 — Tackle, Growl, Mud-Slap)
+  1. ATRITON (Mudkip, Male, Lv. 9 — Tackle, Growl, Mud-Slap)
   2. OBERON (Wurmple, Male, Lv. 2 — Tackle, String Shot)
 
 ## Notepad Index
