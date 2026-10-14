@@ -1,10 +1,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,195 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,775 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
-- **Inventory:** Devon Goods, Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM39 (Rock Tomb), TM47 (Steel Wing)
+- **Inventory:** Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM39 (Rock Tomb), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 21 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
