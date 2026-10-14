@@ -35,7 +35,7 @@
 1. [x] Receive Running Shoes from Mom outside player's house.
 2. [x] Travel north through Route 101 to Oldale Town.
 3. [x] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
-4. [ ] Catch wild Pokémon on Route 102 with Poké Balls (target: Zigzagoon for Pickup, Ralts, or Lotad).
+4. [x] Catch wild Pokémon on Route 102 with Poké Balls (caught Lotad ♀ Lv 4, nicknamed LILY!).
 5. [ ] Battle Route 102 trainers for EXP and prize money. (Calvin & Rick defeated; Allen & Tiana remaining).
 6. [ ] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [ ] Help Wally catch a Ralts.
