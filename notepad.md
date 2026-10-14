@@ -298,7 +298,10 @@
 - **East Entrance (from Route 111 `(0, 70)`):** `(39, 49)` (sandy road runs west along `y = 50..51`, with a grass strip along `y = 52` above the white fence at `y = 53`).
 - **Camper Larry `(29, 49)`** (facing Down — `Nuzleaf Lv. 18`) [Defeated].
 - **Picnicker Carol `(22, 46)`** (facing Left — `Taillow Lv. 17`, `Lombre Lv. 17`) [Defeated].
-- **Southern Mountain Stairs:** `x = 20..21, y = 41..43`.
+- **Southern Mountain Stairs & Plateau (`(21, 46)` -> `(11, 36)`):**
+  - Climb the stairs at `x = 20..21, y = 41..43` to `(21, 40)`.
+  - **Hiker Trent `(24, 34)`** (facing Right) and **Hiker Brice `(15, 36..40)`** (wanders vertically along `x = 15`) are on the plateau, and two Team Magma Grunts block the **Mt. Chimney Cable Car** entrance at `(26..27, 31)` until the Meteor Falls event is completed.
+  - From `(21, 40)`, walk `Up` 2 to `(21, 38)` (signpost at `(22, 37)`), `Left` 10 along `y = 38` (passing north of Hiker Brice when he is at `(15, 39..40)`) to `(11, 38)`, and `Up` 2 into the **Fiery Path (South Entrance) `(11, 36)`**.
 
 <hr>
 
