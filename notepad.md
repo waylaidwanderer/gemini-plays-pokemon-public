@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Withdrawing Potion from PC, then heading downstairs to watch TV.
+- Status: Potion obtained. Heading downstairs to 1F to watch TV with Mom.
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
@@ -17,7 +17,7 @@
 ## Immediate Progression Checklist
 1. [x] Step out of moving truck and listen to Mom.
 2. [x] Enter player's house, go upstairs, set the wall clock (10:00 AM).
-3. [ ] Withdraw Potion from bedroom PC.
+3. [x] Withdraw Potion from bedroom PC.
 4. [ ] Go downstairs, watch Dad (Norman) on TV with Mom.
 5. [ ] Visit Brendan's house (west) and meet Brendan upstairs.
 6. [ ] Head north to Route 101 to rescue Professor Birch from Poochyena.
