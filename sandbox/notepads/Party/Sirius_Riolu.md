@@ -8,8 +8,8 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 261), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 261/261 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; full party healed at Route 14 Mountain Rest Cabin in Turn 37776)
-- **EXP**: Lv91 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Current Condition**: 272/272 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 18/20`, `Mach Punch 30/30`; full party healed at Azluf Town Pokémon Center in Turn 38653)
+- **EXP**: Lv95 (leveled to Lv95 upon defeating Wild Lv70 Arceus in Turn 38699; evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
   - Slot 2: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; refilled to 15/15 PP via TM10 in Turn 36585)
