@@ -294,6 +294,10 @@
 - **Northern Approach to Route 112 (`(19, 101)` -> `(0, 70)`):**
   - From `(19, 101)`, walk `Up` 2 through `(19, 100)` to `(19, 99)`, `Left` 2 to `(17, 99)`, `Up` 4 to `(17, 95)`, `Left` 7 along `y = 95` to `(10, 95)`, `Up` 10 along `x = 10` (passing east of **Aroma Lady Celina `(8, 91)`** and the rock at `(8..9, 86..87)`) to `(10, 85)`, `Right` 1 to `(11, 85)`, `Up` 10 along `x = 11` (passing behind the Camper at `(10, 81)` facing Left) to `(11, 75)`, `Right` 1 to `(12, 75)`, `Up` 5 along `x = 12` (where **Camper Travis `(11, 71)`** — `Sandshrew Lv. 18` [Defeated] rotates) to `(12, 70)`, and `Left` 13 along `y = 70` onto **Route 112**.
 
+## Route 112 (South)
+- **East Entrance (from Route 111 `(0, 70)`):** `(39, 49)` (sandy road runs west along `y = 50..51`, with a grass strip along `y = 52` above the white fence at `y = 53`).
+- **Camper Larry `(29, 49)`** (facing Down).
+
 <hr>
 
 <h1><code>Main</code></h1>
@@ -339,5 +343,6 @@
 - **Side-Talking Trainers to Avoid Double Battles:** When two Single Battle trainers have overlapping lines of sight (such as Youngster Johnson at `(36, 13)` and Hiker Clark at `(36, 17)` on Route 116), walking up to the side of one trainer and pressing `A` initiates a 1v1 Single Battle instead of stepping into their shared line of sight for a 2v2 Double Battle.
 - **Double Battle Target Selection & Mid-Turn Replacements:** Single-target moves (such as `Mud Shot` or `Tackle`) require **3 `A` presses** per Pokémon in a Double Battle (`A` for `FIGHT`, `A` for the move slot, and `A` to confirm the default enemy target). On the target selection screen, `Left`/`Right` toggles between the two enemy Pokémon, whereas pressing `Down` moves the target cursor onto your own ally (`B_POSITION_PLAYER_RIGHT`)—never press `Down` when targeting a foe! Also, in Gen 3 Double Battles, when a Pokémon faints mid-turn, its replacement is sent out immediately before slower Pokémon on the field execute their actions for that turn.
 - **Post-Battle Match Call Registration:** After obtaining the PokéNav, defeating a Match Call-eligible trainer triggers an automatic overworld dialogue box immediately after the post-battle fade-in (including a ~3s registration fanfare) that must be cleared with `B` before overworld movement can resume.
+- **Overworld Rock Smash Sequence:** Facing a breakable boulder and pressing `A` opens the `[YES / NO]` prompt; press `A` a second time to confirm `YES` (`"[POKéMON] used ROCK SMASH!"`), then press `B` and wait `3000ms` for the field-move cut-in and boulder-shattering animation.
 
 <hr>
