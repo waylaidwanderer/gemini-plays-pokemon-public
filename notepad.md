@@ -5,7 +5,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 6, Male), Nickname: SAGE
-- Status: Delivering final blow to defeat Brendan's Torchic in Rival Battle 1.
+- Status: Defeated Brendan in Rival Battle 1! Returning to Littleroot Town for Pokédex.
 
 ## Party
 1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 14/22.
