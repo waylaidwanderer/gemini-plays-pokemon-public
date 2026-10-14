@@ -15,8 +15,9 @@
    - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
    - Reward: ¥64, EXP.
 
-3. Youngster Allen (upcoming):
-   - Location: Further west along northern road near pond / berry trees.
+3. Youngster Allen:
+   - Location: (20, 3), facing South at north edge of clearing.
+   - Line of sight: Column 20, rows 4..6.
    - Team: Zigzagoon Lv 4, Taillow Lv 3.
    - Reward: EXP, prize money.
 
