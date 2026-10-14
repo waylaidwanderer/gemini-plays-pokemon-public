@@ -18,6 +18,7 @@
 - `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 - `Locations/Route_109_And_Slateport_City`: Coordinates, trainer statuses, and routing for Route 109 and Slateport City.
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
+- `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, and Fiery Path.
 
 ## Mechanics & Harness Notes
 - **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`). After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.
