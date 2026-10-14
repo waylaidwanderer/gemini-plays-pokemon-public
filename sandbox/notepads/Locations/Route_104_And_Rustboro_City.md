@@ -25,3 +25,7 @@
   - After defeating Roxanne, exiting Rustboro Gym to `(27, 20)` and walking `Left` 4 to `(23, 20)` triggers the Team Aqua Grunt & Devon Researcher chase cutscene.
   - From `(23, 20)`, walk `Left` 2 to `(21, 20)`, `Up` 10 along `x = 21` to `(21, 10)`, and `Right` 8 along `y = 10` to `(29, 10)` to trigger the Devon Researcher at `(30, 10)`.
   - After clearing the Researcher's dialogue with `B`, step `Down` 1 to `(29, 11)` and walk `Right` across `x = 39` onto **Route 116**.
+## Route 116
+- **West Entrance (from Rustboro City `(39, 11)`):** `(0, 11)`
+- **Eastbound Path toward Rusturf Tunnel:**
+  - From `(1, 11)`, walk `Right` 3 to `(4, 11)`, `Up` 4 to `(4, 7)`, `Right` 4 along `y = 7` to `(8, 7)`, `Up` 3 to `(8, 4)`, and `Right` 4 along `y = 4` to `(12, 4)` (Youngster Joey at `(12, 7)` — Machop Lv. 9 [Defeated]).
