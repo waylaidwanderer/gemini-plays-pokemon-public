@@ -6,7 +6,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Devon Goods, Letter, Great Ball x2, Poké Ball x2, HM01 (Cut), TM39 (Rock Tomb)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 19 — Mud Shot, Growl, Mud-Slap, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 20 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 7 — Scratch, Harden, Leech Life)
 
