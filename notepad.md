@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: In Littleroot Town, outside player's house.
+- Status: Inside Jade's House (1F), setting up clock.
 
 ## Littleroot Town Layout
 - Player's House (Jade's House): East house (right side of town).
