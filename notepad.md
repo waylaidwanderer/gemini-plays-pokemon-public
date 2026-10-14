@@ -319,8 +319,8 @@
   - Walk `Right` 6 along `y = 29` to `(7, 29)` and `Up` 5 along `x = 7` to `(7, 24)` (bypassing **Cooltrainer Wilton `(9, 27)`**, who rotates Down/Left).
   - Walk `Right` 8 along `y = 24` to `(15, 24)` and `Up` 4 along `x = 15` to `(15, 20)` (passing east of the **Secret Power Guy `(13, 20)`** at the big tree `(13..14, 19)`).
   - **Double Ledge Zig-Zag (`(15, 20)` -> `(21, 13)`):** Step `Right` 2 to `(17, 20)`, `Up` 3 through the left ledge gap to `(17, 17)`, `Right` 4 along `y = 17` to `(21, 17)`, and `Up` 4 through the right ledge gap to `(21, 13)` (west of the **Old Lady's Rest House** at `(26, 17)`).
-  - **Cooltrainer Brooke Bypass (`(21, 13)` -> `(16, 8)`):** Walk `Up` 2 to `(21, 11)`, `Left` 5 along `y = 11` to `(16, 11)`, and `Up` 3 along `x = 16` to `(16, 8)` (completely avoiding **Cooltrainer Brooke `(22, 8)`**, who rotates Down/Right).
-  - From `(16, 8)`, walk `Up` 1 to `(16, 7)`, `Left` 6 along `y = 7` (signpost at `(13, 6)`, **Black Belt Daisuke `(11, 10)`** facing Up) to `(10, 7)`, `Down` 1 to `(10, 8)`, and `Left` 11 along `y = 8` onto **Route 113**.
+  - **Black Belt Daisuke Bypass (`(21, 13)` -> `(16, 8)`):** Walk `Up` 2 to `(21, 11)`, `Left` 5 along `y = 11` to `(16, 11)`, and `Up` 3 along `x = 16` to `(16, 8)` (completely avoiding **Black Belt Daisuke `(22, 8)`**, who rotates Down/Right).
+  - **Cooltrainer Brooke `(11, 10)` -> `(11, 8)`** (facing Up — `Wingull Lv. 17`, `Roselia Lv. 17`, `Numel Lv. 17`) [Defeated & Registered]. From `(11, 7)`, step `Right` 1 to `(12, 7)`, `Down` 2 to `(12, 9)`, and `Left` 13 along `y = 9` onto **Route 113**.
 
 <hr>
 
