@@ -14,3 +14,8 @@
 - **Poké Mart Door:** `(16, 45)` (exiting steps to `(16, 46)`). To continue north past the Poké Mart toward the Pokémon Center `(16, 38)`, walk around the Poké Mart via `x = 13` (west side) or `x = 20` (east avenue).
 - **Pokémon Center Door:** `(16, 38)` (exiting steps to `(16, 39)`). From `(16, 39)`, walk `Right` 5 to `(21, 39)` to join the main northbound avenue (`x = 21..22`) leading to Rustboro Gym.
 - **Rustboro Gym Door:** `(27, 19)` (exiting steps to `(27, 20)`). Reachable from `(21, 39)` by walking `Up` 19 along `x = 21` to `(21, 20)`, `Right` 6 along `y = 20` to `(27, 20)`, and `Up` 1 into `(27, 19)`.
+## Rustboro Gym
+- **Interior Entrance Mat:** `(5, 19)`
+- **Western Bypass Route:**
+  - From `(5, 19)`, walk `Up` 2 to `(5, 17)`, `Left` 4 to `(1, 17)`, and `Up` 8 along `x = 1` to `(1, 9)` (bypasses Youngster Josh at `(5, 13)`).
+  - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2).
