@@ -296,7 +296,7 @@
 
 ## Route 112 (South)
 - **East Entrance (from Route 111 `(0, 70)`):** `(39, 49)` (sandy road runs west along `y = 50..51`, with a grass strip along `y = 52` above the white fence at `y = 53`).
-- **Camper Larry `(29, 49)`** (facing Down).
+- **Camper Larry `(29, 49)`** (facing Down — `Nuzleaf Lv. 18`) [Defeated].
 
 <hr>
 
@@ -310,7 +310,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 27 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 28 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life, Flash)
 
