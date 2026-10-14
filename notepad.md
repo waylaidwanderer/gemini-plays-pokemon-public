@@ -96,7 +96,8 @@
 - **Path to Western Corridor & Devon Researcher:**
   - From `(17, 38)`, walk `Up` 4 tiles to `(17, 34)` and `Left` 10 tiles along `y = 34` (clear ground below grass `x = 10..14, y = 32..33`) to `(7, 34)` (Bug Catcher Lyle at `(7, 33)` — Wurmple Lv. 3 x4 [Defeated]).
   - From `(7, 34)`, step `Left` 1 to `(6, 34)` and walk `Up` 10 tiles along `x = 6` through tall grass `(6, 32..26)` onto clear ground at `(6, 24)`.
-  - From `(6, 24)`, follow the clear footpath: `Right` 8 to `(14, 24)` -> `Down` 3 to `(14, 27)` -> `Right` 12 along `y = 27` to `(26, 27)` -> `Up` 4 along `x = 26` to `(26, 23)` (triggers the Devon Researcher & Team Aqua Grunt cutscene; Researcher is at `(26, 20)`).
+  - From `(6, 24)`, follow the clear footpath: `Right` 8 to `(14, 24)` -> `Down` 3 to `(14, 27)` -> `Right` 12 along `y = 27` to `(26, 27)` -> `Up` 4 along `x = 26` to `(26, 23)` (triggers the Devon Researcher & Team Aqua Grunt cutscene; Team Aqua Grunt — Poochyena Lv. 9 [Defeated]; received Great Ball x1 from Researcher).
+  - From `(26, 23)`, walk `Up` 7 along `x = 26` to `(26, 16)`, `Left` 18 along `y = 16` (`x = 10..8` is tall grass) to `(8, 16)`, then `Left, Up, Left, Up` through `(7, 16)` and `(7, 15)` onto clear ground at `(6, 14)` (Bug Catcher James at `(4, 14)` — Nincada Lv. 6 x2 [Defeated]).
 
 <hr>
 
@@ -105,12 +106,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,088
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,184
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
-- **Inventory:** Great Ball x1, Poké Ball x3
+- **Inventory:** Potion x1, Great Ball x1, Poké Ball x3
 - **Party:**
-  1. ATRITON (Mudkip, Male, Lv. 11 — Tackle, Growl, Mud-Slap, Water Gun)
+  1. ATRITON (Mudkip, Male, Lv. 12 — Tackle, Growl, Mud-Slap, Water Gun)
   2. OBERON (Wurmple, Male, Lv. 3 — Tackle, String Shot)
 
 ## Notepad Index
