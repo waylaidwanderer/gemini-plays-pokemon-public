@@ -15,11 +15,12 @@
    - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
    - Reward: ¥64, EXP.
 
-3. Youngster Allen:
-   - Location: (20, 3), facing South at north edge of clearing.
-   - Line of sight: Column 20, rows 4..6.
+3. Youngster Allen: [BATTLING]
+   - Location: (19, 3), facing South at north edge of clearing.
+   - Line of sight: Column 19, rows 4..7.
    - Team: Zigzagoon Lv 4, Taillow Lv 3.
-   - Reward: EXP, prize money.
+   - Strategy: Use Absorb on Zigzagoon (heals Sage), use Pound on Taillow (neutral physical).
+   - Reward: ~¥64, ~90 EXP.
 
 4. Lass Tiana (upcoming):
    - Team: Zigzagoon Lv 4, Shroomish Lv 4.
