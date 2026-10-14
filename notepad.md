@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: Stepping into Route 101 to rescue Birch from Poochyena!
+- Status: Route 101 cutscene triggered! Advancing to Birch's bag to choose Treecko (Sage).
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
