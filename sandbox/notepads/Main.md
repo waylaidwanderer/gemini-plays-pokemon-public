@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 7, Male), Nickname: SAGE
-- Status: In Birch's Lab receiving the Pokédex and Poké Balls!
+- Status: Exiting Birch's Lab into Littleroot Town to receive Running Shoes from Mom.
 
 ## Party
 1. SAGE (Treecko ♂, Level 7) - Moves: Pound, Leer, Absorb. HP: 16/24.
