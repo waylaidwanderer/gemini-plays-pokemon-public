@@ -10,3 +10,7 @@
 - **Eastern Turn & Youngster Timmy Bypass (`(25, 70)` -> `(33, 60)`):**
   - From `(25, 70)`, walk `Down` 1 to `(25, 71)`, `Right` 7 along `y = 71` to `(32, 71)`, and `Up` 6 along `x = 32` (passing behind Youngster Timmy at `(33, 69)`) to `(32, 65)`.
   - From `(32, 65)`, walk `Right` 3 to `(35, 65)`, `Up` 2 to `(35, 63)`, `Left` 1 to `(34, 63)`, `Up` 1 to `(34, 62)`, `Left` 1 to `(33, 62)`, and `Up` 2 to `(33, 60)`.
+- **Rival May Battle (`(34, 54)`, triggered at `(34, 56)`):**
+  -Reached from `(33, 60)` by walking `Right` 1 to `(34, 60)` and `Up` 4 along `x = 34` to `(34, 56)`.
+  - **Team:** `Wingull Lv. 18` (`Growl`, `Water Gun`, `Supersonic`, `Wing Attack`), `Grovyle Lv. 20` (`Absorb`, `Quick Attack`, `Pursuit`, `Screech`), and `Slugma Lv. 18` / `Numel Lv. 18`.
+  - **Strategy:** Teach `TM39 (Rock Tomb)` over `Growl` (Slot 2) on `ATRITON` (`Marshtomp Lv. 23`) and carry `Super Potions` (from Slateport Poké Mart `(13, 26)`). Use 2x super-effective `Rock Tomb` against `Wingull Lv. 18`, then against `Grovyle Lv. 20` drop its Speed (`Rock Tomb` / `Mud Shot`) and Accuracy (`Mud-Slap`) while healing 50 HP with `Super Potion` (`Absorb` only deals ~24 damage), and finish `Grovyle` and `Slugma/Numel` with `Rock Tomb` / `Mud Shot` / `Water Gun`.
