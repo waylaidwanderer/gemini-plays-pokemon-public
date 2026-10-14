@@ -23,3 +23,6 @@
 ## Granite Cave
 - **1F Entrance (from Route 106 `(48, 16)`):** `(37, 12)`
 - **HM05 (Flash) Hiker:** Stands at `(36, 9)` on 1F (reachable from `(37, 12)` by walking `Up` 3 to `(37, 9)` and facing `Left`) [HM05 Flash obtained].
+- **1F Path to B1F Ladder (`(37, 12)` -> `(17, 11)`):**
+  - From `(37, 12)`, walk `Up` 4 to `(37, 8)`, `Left` 10 to `(27, 8)`, `Up` 1 to `(27, 7)`, and `Left` 9 along `y = 7` to `(18, 7)` (an item ball is at `(17, 7)`).
+  - From `(18, 7)`, walk `Down` 1 to `(18, 8)`, `Left` 1 to `(17, 8)`, `Down` 1 to `(17, 9)`, `Left` 1 to `(16, 9)`, `Down` 3 to `(16, 12)`, `Right` 1 to `(17, 12)`, and `Up` 1 onto the **B1F Ladder at `(17, 11)`** (warps to **Granite Cave B1F `(4, 21)`**).
