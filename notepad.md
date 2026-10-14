@@ -51,7 +51,7 @@
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
-- Poké Ball x4 (gift from Brendan, 1 used on Lotad)
+- Poké Ball x3 (gift from Brendan, 2 used on Lotad)
 - Money: ¥3444 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
