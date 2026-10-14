@@ -10,11 +10,10 @@
    - Team: Poochyena Lv 5 (defeated by Sage's Absorb).
    - Reward: ¥80, EXP.
 
-2. Bug Catcher Rick: [BATTLING]
+2. Bug Catcher Rick: [DEFEATED]
    - Location: (25, 15), facing North against tree at (25, 14).
-   - Team: Wurmple Lv 4, Wurmple Lv 4 (Bug/Poison).
-   - Strategy: Use Pound (Normal-type, 1.0x neutral). Do NOT use Absorb (Grass is 0.25x double-resisted by Bug/Poison).
-   - Reward: ~¥64, ~100 EXP total.
+   - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
+   - Reward: ¥64, EXP.
 
 3. Youngster Allen (upcoming):
    - Team: Zigzagoon Lv 4, Taillow Lv 3.

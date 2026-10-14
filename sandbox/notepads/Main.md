@@ -6,12 +6,12 @@
 - Status: Navigating Route 102; Youngster Calvin defeated, currently battling Bug Catcher Rick.
 
 ## Party
-1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 22/28.
+1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 20/28.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x5 (gift from Brendan)
-- Money: ¥3380 (won ¥300 from Brendan, ¥80 from Youngster Calvin)
+- Money: ¥3444 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary

@@ -12,11 +12,10 @@
    - Team: Poochyena Lv 5 (defeated by Sage's Absorb).
    - Reward: ¥80, EXP.
 
-2. Bug Catcher Rick: [BATTLING]
+2. Bug Catcher Rick: [DEFEATED]
    - Location: (25, 15), facing North against tree at (25, 14).
-   - Team: Wurmple Lv 4, Wurmple Lv 4 (Bug/Poison).
-   - Strategy: Use Pound (Normal-type, 1.0x neutral). Do NOT use Absorb (Grass is 0.25x double-resisted by Bug/Poison).
-   - Reward: ~¥64, ~100 EXP total.
+   - Team: Wurmple Lv 4, Wurmple Lv 4 (defeated by Sage's Pound).
+   - Reward: ¥64, EXP.
 
 3. Youngster Allen (upcoming):
    - Team: Zigzagoon Lv 4, Taillow Lv 3.
@@ -48,12 +47,12 @@
 - Status: Navigating Route 102; Youngster Calvin defeated, currently battling Bug Catcher Rick.
 
 ## Party
-1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 22/28.
+1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 20/28.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x5 (gift from Brendan)
-- Money: ¥3380 (won ¥300 from Brendan, ¥80 from Youngster Calvin)
+- Money: ¥3444 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
