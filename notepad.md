@@ -127,6 +127,10 @@
   - Stepping onto `(1, 9)` triggers a Double Battle (if 2+ conscious party Pokémon) with **Hiker Marc** at `(1, 6)` (Geodude Lv. 8 x2 [Defeated]) and **Youngster Tommy** at `(3, 9)` (Geodude Lv. 8 x2 [Defeated]).
   - After the Double Battle at `(1, 9)`, loop around Hiker Marc `(1, 8)` and Youngster Tommy `(2, 9)` via: `Down` 3 to `(1, 12)`, `Right` 4 behind Youngster Josh `(5, 13)` to `(5, 12)`, `Up` 4 to `(5, 8)`, `Left` 3 to `(2, 8)`, `Up` 4 to `(2, 4)`, `Right` 3 to `(5, 4)`, and `Up` 1 to `(5, 3)` in front of **Gym Leader Roxanne** at `(5, 2)` (Geodude Lv. 12 x2, Nosepass Lv. 15 [Defeated — Stone Badge & TM39 Rock Tomb obtained]).
   - **Exit Route from `(5, 3)` (once Marc & Tommy have reset to `(1, 6)` and `(3, 9)`):** `Down` 1 to `(5, 4)` -> `Left` 3 to `(2, 4)` -> `Down` 4 to `(2, 8)` -> `Left` 1 to `(1, 8)` -> `Down` 9 to `(1, 17)` -> `Right` 4 to `(5, 17)` -> `Down` 3 onto `(5, 19)` and out the door to `(27, 20)`.
+- **Devon Goods Theft Cutscene & Route 116 Exit:**
+  - After defeating Roxanne, exiting Rustboro Gym to `(27, 20)` and walking `Left` 4 to `(23, 20)` triggers the Team Aqua Grunt & Devon Researcher chase cutscene.
+  - From `(23, 20)`, walk `Left` 2 to `(21, 20)`, `Up` 10 along `x = 21` to `(21, 10)`, and `Right` 8 along `y = 10` to `(29, 10)` to trigger the Devon Researcher at `(30, 10)`.
+  - After clearing the Researcher's dialogue with `B`, step `Down` 1 to `(29, 11)` and walk `Right` across `x = 39` onto **Route 116**.
 
 <hr>
 
