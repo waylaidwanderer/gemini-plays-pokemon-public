@@ -8,8 +8,8 @@
 
 ## Trainers
 1. Youngster Calvin:
-   - Location: (34, 14), facing North.
-   - Line of sight: Watches (34, 13) directly below tree trunk at (34, 12).
+   - Location: (33, 16), facing North.
+   - Line of sight: Column 33, rows 12..15 (tall grass corridor).
    - Team: Poochyena Lv 5 (Normal/Dark).
    - Reward: ~¥80, EXP.
 
@@ -24,7 +24,8 @@
 
 ## Key Terrain & Landmarks
 - Route 102 Signpost: at (40, 10).
-- Tree Cluster: (34..35, 11..12) blocks direct westbound path along row 12. Main road wraps south around row 13/14.
+- Tree Cluster: (34..35, 12..13) blocks westbound path at row 12 & 13.
+- Southern Bypass: Row 14 is open flat path at (36, 14), (35, 14), (34, 14) leading into column 33.
 - Water Pond: Northern section around y=4..8.
 - Berries: Pecha and Oran berry trees located further west.
 
