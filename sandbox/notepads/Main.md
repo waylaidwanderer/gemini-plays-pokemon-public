@@ -4,7 +4,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $551 | **Badges:** 3 (Stone Badge, Knuckle Badge, Dynamo Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x6, Super Repel x5, Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
+- **Inventory:** Super Potion x6, Super Repel x4, Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 29 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Beautifly, Male, Lv. 11 — Tackle, String Shot, Poison Sting, Harden)
