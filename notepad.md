@@ -64,7 +64,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,380
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,444
 - **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
 - **Inventory:** Potion x1, Poké Ball x3
