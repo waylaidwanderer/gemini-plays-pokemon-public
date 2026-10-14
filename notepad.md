@@ -4,7 +4,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Status: TV report complete. Exiting Jade's house to visit Brendan's house.
+- Status: Outside in Littleroot Town. Walking west to Brendan's house.
 
 ## Littleroot Town & House Layout
 - Player's House (Jade's House): East house (right side of town).
