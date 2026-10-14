@@ -5,11 +5,10 @@
 - West Exit: Connects to Petalburg City at roughly (0, 10).
 
 ## Trainers
-1. Youngster Calvin:
+1. Youngster Calvin: [DEFEATED]
    - Location: (33, 16), facing North.
-   - Line of sight: Column 33, rows 12..15 (tall grass corridor).
-   - Team: Poochyena Lv 5 (Normal/Dark).
-   - Reward: ~¥80, EXP.
+   - Team: Poochyena Lv 5 (defeated by Sage's Absorb).
+   - Reward: ¥80, EXP.
 
 2. Bug Catcher Rick (upcoming):
    - Team: Wurmple Lv 4, Wurmple Lv 4.
