@@ -457,6 +457,9 @@
   - From `(19, 52)`, walk `Right` 2 to `(21, 52)` and `Up` 6 along `x = 21` down the stairs at `(20..21, 48)` to `(21, 46)`.
 ## Weather Institute Courtyard & Interior (`(21, 46)` -> `(6, 32)`)
 - **Grass-Free Path (`(21, 46)` -> `(6, 32)`):** From `(21, 46)`, walk `Left` 3 to `(18, 46)`, `Up` 2 to `(18, 44)`, `Left` 5 along `y = 44` to `(13, 44)`, `Up` 2 to `(13, 42)`, `Left` 1 to `(12, 42)`, `Up` 1 to `(12, 41)`, `Left` 1 to `(11, 41)`, `Up` 2 to `(11, 39)`, `Left` 2 to `(9, 39)`, `Up` 3 to `(9, 36)`, `Left` 3 to `(6, 36)`, and `Up` 4 into the **Weather Institute** door at `(6, 32)` (signpost at `(9, 33)`; two Team Aqua Grunts block the northern bridge at `(12, 33..34)` until Team Aqua Admin Shelly is defeated).
+- **Weather Institute 1F:**
+  - **Entrance Doormat:** `(9, 12)..(10, 12)`.
+  - **Rest Bed `(1, 3)`:** Reached from `(9, 12)` via `Up` 1 to `(9, 11)`, `Left` 5 to `(4, 11)`, `Up` 5 through the doorway at `(4, 9..10)` to `(4, 6)`, `Left` 2 through the bedroom opening at `(3, 6..7)` to `(2, 6)`, `Up` 3 to `(2, 3)`, and `Left` 1 to face `(1, 3)` and press `A` (fully heals party HP and PP).
 
 <hr>
 
@@ -471,8 +474,8 @@
 - **Inventory:** Super Potion x8, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 39 — Mud Shot, Rock Tomb, Rock Smash, Surf)
-  2. OBERON (Beautifly, Male, Lv. 14 [Fainted] — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 9 [Fainted] — Scratch, Harden, Leech Life, Flash)
+  2. OBERON (Beautifly, Male, Lv. 14 — Gust, String Shot, Poison Sting, Harden)
+  3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
