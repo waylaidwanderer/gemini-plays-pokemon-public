@@ -19,3 +19,8 @@
   - From `(20, 67)`, walk `Down` 10 along `x = 20` to `(20, 77)` (note: the staircase at `(22, 76)` reached via `(20, 75)` -> `(22, 75)` leads to a dead-end item alcove at `(22, 83)`).
   - From `(20, 77)`, walk `Left` 3 to `(17, 77)`, `Down` 1 to `(17, 78)`, `Left` 1 to `(16, 78)`, and `Down` 5 along `x = 16` to `(16, 83)` (**Bug Maniac Jeffrey `(19, 80)`** watches `(16, 80)` — `Surskit Lv. 27 x3` [Defeated & Registered]).
   - From `(16, 83)`, walk `Right` 2 to `(18, 83)`, `Down` 6 along `x = 18` onto the southern sandy road at `(18, 89)`, and `Right` along `y = 89..90` across the eastern border into **Route 121**.
+
+## Route 121 (`(0, 9)` -> Lilycove City)
+- **Western Trainers (`(11, 9)`):**
+  - **Hex Maniac Tammy `(11, 11)`:** Watches `(11, 9)` — `Duskull Lv. 29`, `Shuppet Lv. 29` [Defeated].
+  - **Beauty Jessica `(11, 7)`:** Walks between `(11, 7)` and `(11, 8)` watching `(11, 9)`.
