@@ -647,12 +647,15 @@
   - Stepping `Down` 1 from `(23, 20)` onto the **Purple Floor Switch at `(23, 21)`** slides the upper 2x2 purple blocks (`(21..22, 22..23)` and `(24..25, 22..23)`) and the middle 2x2 purple block (`(22..23, 25..26)`) to State 1.
   - Stepping `Down` 1 to `(23, 22)` triggers **Hex Maniac Kathleen `(22, 22)`** (`Kadabra Lv. 36`) and **Psychic Nicholas `(24, 22)`** (`Wobbuffet Lv. 36`) in a Double Battle [Defeated].
   - From `(23, 22)`, step `Up` 1 to `(23, 21)` (State 2), `Down` 1 to `(23, 22)`, `Up` 1 to `(23, 21)` (State 3), and `Down` 3 onto the lower **Purple Floor Switch at `(23, 24)`** (State 0, which places Statues at `(23, 25..26)` blocking the Gentleman at `(22, 25)`).
-  - From `(23, 24)`, walk `Right` 1 to `(24, 24)` and `Down` 1 to `(24, 25)` to battle **Psychic Macey `(25, 25)`** (`Natu Lv. 36` [Defeated]) 1v1, then continue `Down` 6 along `x = 24` to `(24, 31)`, diagonally `Down-Left` to `(21, 34)`, and `Left` 6 along `y = 34` to the **Green Floor Switch at `(15, 34)`**.
+  -From `(23, 24)`, walk `Right` 1 to `(24, 24)` and `Down` 1 to `(24, 25)` to battle **Psychic Macey `(25, 25)`** (`Natu Lv. 36` [Defeated]) 1v1, then continue `Down` 6 along `x = 24` to `(24, 31)`, diagonally `Down-Left` to `(21, 34)`, and `Left` 6 along `y = 34` to the **Green Floor Switch at `(15, 34)`**.
   - Press the **Green Floor Switch at `(15, 34)` twice** (`Left` onto `(15, 34)`, then `Right` to `(16, 34)` and `Left` onto `(15, 34)`) to open `(12, 34)` in Room 4 (`x = 11..13, y = 31..35`).
-  - Backtrack along the corridor to `(24, 24)`, step `Left` 1 onto `(23, 24)`, and walk `Left` 3 onto the teleporter at **`(20, 24)`**, which returns to **Room 1 at `(1, 33)`**.
+  - Backtrack along the corridor to `(24, 24)`, step `Left` 1 onto `(23, 24)`, and walk `Left` 3 onto the teleporter at **`(20, 24)`**, which returns to **Room 1 at `(1, 33)`** (note: `(7, 30)` in Room 1 is a white one-way arrival pad).
 - **Room 4 (`(13, 31)` -> `(11, 35)`):**
-  - Reached from Room 1 `(1, 33)` via `Up` 2 to `(1, 31)`, `Right` 6 along `y = 31` to `(7, 31)`, and `Up` 1 onto the eastern teleporter at **`(7, 30)`**.
-  - With `(12, 34)` cleared by pressing the Room 3 Green Switch twice, walk `Down` 3 from `(13, 31)` to `(13, 34)`, `Left` 1 to `(12, 34)`, `Down` 1 to `(12, 35)`, and `Left` 1 onto the teleporter at **`(11, 35)`**.
+  - With `(12, 34)` cleared by pressing the Room 3 Green Switch twice, walking from `(13, 31)` via `Down` 3 to `(13, 34)`, `Left` 1 to `(12, 34)`, `Down` 1 to `(12, 35)`, and `Left` 1 reaches the teleporter at **`(11, 35)`**.
+- **Room 5 (Blue & Red Conveyor Room, `(8, 12)` -> North):**
+  - Reached from Room 2's teleporter at **`(7, 18)`**.
+  - Contains a lower **Blue Floor Switch at `(8, 10)`**, two 2x2 Blue Conveyor loops at **`(6..7, 8..9)`** and **`(9..10, 8..9)`**, an upper **Blue Floor Switch at `(6, 7)`**, a **Red Floor Switch at `(8, 6)`**, and 2x2 Red Conveyor loops at **`(6..7, 5..6)`** and **`(10..11, 5..6)`**.
+  - Pressing `(8, 10)` **3 times** (State 3) places the left Statue at `(6, 9)` and Psychic♂ at `(6, 8)` facing Right, opening `(8, 9)` -> `(7, 9)` -> `(7, 8)` -> `(7, 7)`.
 
 <hr>
 
