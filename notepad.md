@@ -449,7 +449,7 @@
   - Rain boosts Water-type moves (`Surf`) by 1.5x (`95 * 1.5 STAB * 1.5 Rain = 213.75` effective base power).
 ## Central Route 119 (`(17, 112)` -> Weather Institute Bridge `(33, 85)`)
 - From `(17, 111)`, walk `Right` 7 along `y = 111` to `(24, 111)`, `Up` 2 to `(24, 109)`, `Right` 6 along `y = 109` (passing north of the Wingull House NPC at `(31, 109)` and Wingull House door at `(33, 109)`) to `(30, 109)`, and `Up` 18 along `x = 30` (climbing the first staircase at `(30, 97..96)`) to `(30, 91)`.
-- From `(30, 91)`, walk `Right` 5 along `y = 91` (2 tiles north of the Bug Maniac at `(36, 93)` facing Right) to `(35, 91)`, and `Up` 6 along `x = 35` (climbing the second staircase at `(35..36, 89..90)`) to `(35, 85)` (**Pokémon Ranger Catherine `(35, 83)`** watches `(35, 85)` — `Gloom Lv. 26`, `Roselia Lv. 26`).
+- From `(30, 91)`, walk `Right` 5 along `y = 91` (2 tiles north of the Bug Maniac at `(36, 93)` facing Right) to `(35, 91)`, and `Up` 6 along `x = 35` (climbing the second staircase at `(35..36, 89..90)`) to `(35, 85)` (**Pokémon Ranger Catherine `(35, 83)`** watches `(35, 85)` — `Gloom Lv. 26`, `Roselia Lv. 26` [Defeated & Registered]).
 - **Weather Institute Suspension Bridge:** Crosses west from `(33, 84..85)` across the river toward the Weather Institute.
 
 <hr>
@@ -459,7 +459,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$9,569 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$10,817 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x8, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
