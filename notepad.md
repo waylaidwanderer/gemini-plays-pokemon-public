@@ -166,10 +166,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Team: Zigzagoon Lv 7 (fainted).
   - Reward: ¥1400, EXP.
   - Bypass: Row 24 is a clear grass strip along the water bank (row 23) allowing easy passage around him to the east.
-- Lass Haley: [IN BATTLE]
+- Lass Haley: [DEFEATED]
   - Location: (31, 24) at the southern bridge entrance, facing South/East.
-  - Team: Lotad ♀ Lv 6 (defeated), Shroomish ♀ Lv 6 (active).
-  - Reward: TBD.
+  - Team: Lotad ♀ Lv 6, Shroomish ♀ Lv 6.
+  - Reward: ¥96, EXP.
 - Item Ball behind Cut tree: Located at roughly (34..35, 21..22) behind a Cut tree east of the bridge entrance (requires HM01 Cut to access).
 
 <hr>
@@ -181,10 +181,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Defeated Rich Boy Winston on Route 104 North! Sage Lv 13 (HP 28/36), wallet ¥6680. Heading east across the bridge toward Rustboro City.
+- Status: Defeated Lass Haley on Route 104 North! Sage Lv 13 (HP 29/36), wallet ¥6776. Heading north across the bridge toward Rustboro City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 28/36.
+1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 29/36.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
@@ -195,7 +195,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods)
-- Money: ¥6680 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston)
+- Money: ¥6776 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
