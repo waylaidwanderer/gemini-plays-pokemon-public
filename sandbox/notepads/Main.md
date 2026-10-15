@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko (Level 13, Male), Nickname: SAGE
+- Starter: Treecko (Level 14, Male), Nickname: SAGE
 - Status: Inside Rustboro Gym! Defeated Youngster Josh; Sage Lv 14 (HP 39/39), Lilz Lv 6 (HP 22/22). Continuing through gym trainers to Roxanne!
 
 ## Party
