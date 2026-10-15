@@ -38,7 +38,7 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 1. Black Belt Cristian:
    - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
    - Pre-battle: "If you mean to pass, it has to be through me!"
-   - Team: Makuhita ♂ Lv 13
+   - Team: Makuhita ♂ Lv 13 (Battle in progress: Sage used Fury Cutter)
 
 ## Gym Leader Brawly
 - Emerald Team:
