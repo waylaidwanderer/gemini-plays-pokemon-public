@@ -312,10 +312,10 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 17, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey & Karen on Route 116. Sage Lv 17 (HP 38/48, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6032.
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey & Karen on Route 116. Sage Lv 17 (HP 38/48), Lilz Lv 9 (HP 28/28), wallet ¥6032.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 17) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/48. Status: PAR. Stats: Atk 29, Def 22, Sp.Atk 35, Sp.Def 32, Speed 40. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 17) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/48. Stats: Atk 29, Def 22, Sp.Atk 35, Sp.Def 32, Speed 40. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28.
 
 ## Bag Highlights
@@ -325,7 +325,6 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Great Ball x1 (gift from rescued Devon researcher)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
-- Paralyze Heal x1 (collected from southwest grass in Petalburg Woods at 4, 26)
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City)
