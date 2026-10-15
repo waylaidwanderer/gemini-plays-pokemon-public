@@ -247,11 +247,11 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Team: Geodude ♂ Lv 8 (fainted; knew Mud Sport, Defense Curl).
    - Reward: ¥256, 147 EXP.
 
-6. Hiker Devan: [BATTLING]
+6. Hiker Devan: [DEFEATED]
    - Location: (44, 13), facing West.
    - Pre-battle: "We'll rock you hard!"
-   - Team: Geodude Lv 8 (fainted), Geodude Lv 8.
-   - Status: Battle initiated at turn 1360. Geodude #1 defeated with Absorb (147 EXP). Geodude #2 entering.
+   - Team: Geodude ♂ Lv 8 (fainted), Geodude ♂ Lv 8 (fainted).
+   - Reward: ¥256, 294 EXP total (147 + 147).
 
 ## NPCs
 - Boy at (36, 13): Mentions "It's a dead end up here."
