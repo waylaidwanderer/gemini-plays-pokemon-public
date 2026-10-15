@@ -207,8 +207,8 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Poké Mart: Located at (16, 44) (blue roof, door at 16, 44).
 - Cutter's House: Located at (9, 38) directly west of Pokémon Center. House signpost at (12, 38). Gives HM01 Cut!
 - Pokémon Trainer's School: Located at (27, 33) east of Pokémon Center. Signpost at (25, 35). Teacher at blackboard gives Quick Claw!
-- Rustboro Gym: Located in northern Rustboro City. Leader: Roxanne (Rock-type).
-- Devon Corporation Headquarters: Large multi-story building in the north.
+- Rustboro Gym: Located at (25..26, 18) in north-central Rustboro City. Gym signpost at (23, 19). Leader: Roxanne (Rock-type).
+- Devon Corporation Headquarters: Large multi-story building in the north. Company signpost at (17, 20).
 
 ## Progression Checklist - Rustboro City
 1. [x] Heal at Pokémon Center and set checkpoint.
