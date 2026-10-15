@@ -47,11 +47,11 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Defeat quote: "That was fun even though I lost"
    - Reward: ¥128, 237 EXP (111 + 126).
 
-5. Hiker Clark:
+5. Hiker Clark: [DEFEATED]
    - Location: (36, 19), facing North.
    - Pre-battle: "If the tunnel doesn't go through, then I'll just go over the top."
-   - Team: Geodude Lv 8 (knows Mud Sport, Defense Curl), [Pokémon 2].
-   - Status: Battle ongoing. Note: Geodude is Rock/Ground, 4x weak to Grass (Absorb). Absorb deals 4x STAB damage, bypasses Defense Curl, and heals Sage to full HP.
+   - Team: Geodude ♂ Lv 8 (fainted; knew Mud Sport, Defense Curl).
+   - Reward: ¥256, 147 EXP.
 
 6. Hiker Devan:
    - Location: roughly (43, 14), facing West.
