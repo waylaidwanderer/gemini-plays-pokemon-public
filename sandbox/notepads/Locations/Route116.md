@@ -37,7 +37,7 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Location: (22, 17), facing West.
    - Pre-battle: "I study at school, and I study on the way home, too!"
    - Team: Shroomish Lv 9.
-   - Status: Battle ongoing. Note: Shroomish has Effect Spore (contact triggered Sleep on Sage). Sage has 43/46 HP and takes negligible damage from Shroomish's Absorb. Use Quick Attack.
+   - Status: Battle ongoing. Note: Shroomish has Effect Spore (contact triggered Sleep on Sage). Shroomish's Absorb and Tackle deal only 1 damage per turn to Grovyle Lv 16. In Gen 3, a Pokémon attacks on the same turn it wakes up from sleep.
 
 3. Bug Catcher Jose:
    - Location: roughly (14, 18), facing North.
