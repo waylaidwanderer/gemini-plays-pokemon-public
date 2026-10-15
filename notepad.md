@@ -50,6 +50,8 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Eastern Corridor: Clear vertical dirt path along column 26 heading north toward central/north woods.
 - Devon Researcher Encounter: Located at (26, 19..22).
 - Northern Corridor: Column 26 terminates at row 16 against northern tree wall; clear dirt path turns West along row 16 (north of tall grass patch at rows 17..19) toward the northwest clearing and northern exit.
+- Northwest Grass & Item Ball: Tall grass patch spans cols 4..10, rows 9..12. An item ball is visible at (4, 8) in the northwest grass alcove.
+- Northern Signpost & Exit: Signpost at (11, 8). Path leads north to Route 104 North gate.
 
 ## Key Events & Progression
 - Devon Researcher & Team Aqua Grunt confrontation: [COMPLETED] Rescued researcher, defeated Aqua Grunt (earned ¥180), received Great Ball, party fully healed. The northern forest exit to Route 104 North is now fully accessible.
