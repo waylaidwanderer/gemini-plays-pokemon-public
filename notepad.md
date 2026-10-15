@@ -161,10 +161,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 12, Male), Nickname: SAGE
-- Status: Defeated Team Aqua Grunt and Bug Catcher James in Petalburg Woods! Sage Lv 12 (HP 31/34). Heading north through the northwest clearing to the northern exit into Route 104 North.
+- Status: Defeated Team Aqua Grunt and Bug Catcher James in Petalburg Woods! Sage Lv 12 (HP 34/34). Heading north through the northwest clearing to the northern exit into Route 104 North.
 
 ## Party
-1. SAGE (Treecko ♂, Level 12) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 31/34.
+1. SAGE (Treecko ♂, Level 12) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 34/34.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
