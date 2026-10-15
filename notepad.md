@@ -205,7 +205,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Key Buildings & Landmarks
 - Pokémon Center: Located at (16, 38) (red roof, door at 16, 38).
 - Poké Mart: Located at (16, 44) (blue roof, door at 16, 44).
-- Cutter's House: Located west of the Pokémon Center. Gives HM01 Cut!
+- Cutter's House: Located at (11..12, 38) directly west of Pokémon Center. House signpost at (13, 39). Gives HM01 Cut!
 - Pokémon Trainer's School: Located near the Pokémon Center. Teacher gives Quick Claw!
 - Rustboro Gym: Located in northern Rustboro City. Leader: Roxanne (Rock-type).
 - Devon Corporation Headquarters: Large multi-story building in the north.
@@ -287,5 +287,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Medicine use outside battle: Start -> BAG -> select item -> USE -> select Pokémon.
 - Text speed set to FAST in game Options menu (verified turn 417).
 - Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Pressing A confirms picking; pressing B cancels and leaves them unpicked. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
+- Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
+- In Poké Mart buying dialogue, confirm quantity with A, wait for the YES/NO prompt to render, then confirm YES with A.
 
 <hr>
