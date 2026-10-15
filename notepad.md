@@ -75,6 +75,28 @@
 
 <hr>
 
+<h1><code>Locations/Route104</code></h1>
+
+# Location: Route 104
+
+## Overview
+Route 104 is split into southern and northern sections by Petalburg Woods.
+- South Section: Connects Petalburg City to the south entrance of Petalburg Woods. Contains coastal beach, Mr. Briney's cottage, and trainers.
+- North Section: Connects the north exit of Petalburg Woods to Rustboro City. Contains the Pretty Petal Flower Shop.
+
+## Connection Points
+- South Section East Exit: Connects to Petalburg City at (40, 63).
+- South Section North Entrance: Leads into Petalburg Woods.
+
+## Landmarks & Features (South Section)
+- East entrance pond / tree line: x=39..40, y=63..64.
+- Main dirt road: Spans west toward the coast and north to Petalburg Woods.
+
+## Trainers & Encounters
+- TBD upon exploration.
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Main Notepad
@@ -119,8 +141,9 @@
 5. [x] Battle Route 102 trainers for EXP and prize money. (Calvin, Rick, Allen, Tiana defeated!)
 6. [x] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [x] Help Wally catch a Ralts.
-8. [ ] Proceed west from Petalburg City onto Route 104 toward Petalburg Woods and Rustboro City.
-9. [ ] Challenge Gym Leader Roxanne in Rustboro City (Rock type).
+8. [x] Proceed west from Petalburg City onto Route 104 (Scott intercepted May and departed).
+9. [ ] Traverse Petalburg Woods to northern Route 104.
+10. [ ] Challenge Gym Leader Roxanne in Rustboro City (Rock type).
 
 ## Route 102
 - Overview: See Locations/Route102.md for detailed map topography, trainer locations, and verified landmarks.
