@@ -99,7 +99,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Northern trail / Highway: Extends north along col 23, bends west at row 44.
 - Soft Soil Berry Trees: Located at (22..24, 41) north of the road bend. Spot (22, 41) harvested (2 Oran Berries collected, soil returned to soft and loamy); spot (23, 41) is empty soil; spot (24, 41) is a Pecha plant in flower stage.
 - Petalburg Woods South Gate: Located at columns 10..11, row 38 with a white picket fence.
-- Lady Cindy: Located at (11, 44) facing East on the road bend leading north into Petalburg Woods. Team: Zigzagoon Lv 7 (moves seen: Tail Whip, Growl). Reward: ¥1400. (Defeating now).
+- Lady Cindy: [DEFEATED]
+  - Location: (11, 44) facing East on the road bend.
+  - Team: Zigzagoon Lv 7 (fainted).
+  - Reward: ¥1400.
 
 ## Trainers & Encounters
 - Wild Pokémon (Tall Grass): Encounterable at y=54..59.
