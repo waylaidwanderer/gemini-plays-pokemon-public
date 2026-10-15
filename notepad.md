@@ -170,7 +170,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 12, Male), Nickname: SAGE
-- Status: Arrived on Route 104 North! Received TM09 Bullet Seed from boy; harvested 2 Cheri Berries and 2 Oran Berries. Entering Pretty Petal Flower Shop for Wailmer Pail.
+- Status: Arrived on Route 104 North! Received TM09 Bullet Seed from boy; harvested 2 Cheri Berries and 2 Oran Berries. Inside Pretty Petal Flower Shop obtaining Wailmer Pail and free berry.
 
 ## Party
 1. SAGE (Treecko ♂, Level 12) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 34/34.
@@ -185,7 +185,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x6 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods)
 - Money: ¥5280 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James)
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
