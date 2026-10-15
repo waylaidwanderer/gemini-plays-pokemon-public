@@ -208,7 +208,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt.
 
 ## Landmarks & Route Layout
-- Route 116 Entrance Signpost: Located at (45, 10).
+- Route 116 Entrance Signpost: Located at (5, 10) [local Route 116 coordinates]. Text: "ROUTE 116 / ⬅ RUSTBORO CITY".
+- Northern Highway: Clear grassy corridor at rows 7-8 bypassing the entrance trees and signpost to the north.
 
 ## Trainers
 (To be cataloged upon encounter)
