@@ -56,14 +56,14 @@
 - Status: Navigating Route 102; Calvin, Rick & Allen defeated, heading west to berry trees, Lass Tiana, and Petalburg City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 20/30.
+1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 19/30.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Oran Berry x2, Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- Money: ¥3492 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen)
+- Money: ¥3556 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
