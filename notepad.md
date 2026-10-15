@@ -162,9 +162,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Highway to Rustboro City: Leads north past trainers directly into Rustboro City.
 - Trainer Tips Signpost: Located at (17, 24). Explains 2-on-2 Double Battles in Hoenn (requires at least 2 conscious Pokémon in party).
 - Rich Boy Winston: [DEFEATED]
-  - Location: (22, 25) on Route 104 North road facing West.
+  - Location: Originally spotted May from (22, 25), stopped at (19, 25) facing West.
   - Team: Zigzagoon Lv 7 (fainted).
   - Reward: ¥1400, EXP.
+  - Bypass: Row 24 is a clear grass strip along the water bank (row 23) allowing easy passage around him to the east.
 
 <hr>
 
