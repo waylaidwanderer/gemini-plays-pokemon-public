@@ -356,7 +356,6 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Team Aqua Grunt: Located at (14, 5) holding Peeko hostage with stolen Devon Goods.
   - Pre-battle dialogue: "Grah, keelhaul it all! That fawning old man had to go and stir up the whole town! Grah, keelhaul it all! That hostage POKéMON turned out to be worthless! And to think I made a getaway... In this tunnel to nowhere! Hey! You! So you want to battle me?"
   - Team: Poochyena Lv 11.
-  - Battle active at Turn 1436.
 - Peeko: Mr. Briney's beloved Wingull, hovering at (14, 4) next to Grunt.
 - Mr. Briney: Outside waiting for Peeko's return.
 
