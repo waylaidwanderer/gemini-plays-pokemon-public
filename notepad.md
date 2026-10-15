@@ -434,6 +434,22 @@
 
 <hr>
 
+<h1><code>Locations/Route_119_And_Fortree_City</code></h1>
+
+# Route 119 & Fortree City — Coordinates & Routing
+
+## Southern Route 119 (`(17, 139)` -> Central Trail `(17, 112)`)
+- **South Entrance (from Route 118 `(57..59, 0)`):** `(17..19, 139)` (friendly cyclist NPC at `(18..19, 133..134)`).
+- **Mimic Circle Extra-Tall Grass Bypass (`(17, 138)` -> `(17, 112)`):**
+  - Walk `Up` 4 from `(17, 138)` to `(17, 134)`, `Left` 2 to `(15, 134)`, and `Up` 5 to `(15, 129)` (**Bug Catcher Kent `(16, 129)`** — `Ninjask Lv. 25` [Defeated]).
+  - From `(15, 129)`, walk `Left` 5 to `(10, 129)` and `Up` 12 along the far-west column `x = 10` (bypassing the remaining Mimic Circle trainers and passing 2 tiles north of the Bug Catcher at `(10, 121)` and item ball at `(11, 121)`) to `(10, 117)`.
+  - From `(10, 117)`, walk `Right` 4 to `(14, 117)`, `Up` 1 to `(14, 116)`, `Right` 3 to `(17, 116)`, and `Up` along `x = 17` onto the central Route 119 clearing at `(17, 112)`.
+- **Route 119 Rain Battle Mechanics:**
+  - Extra-tall grass + rain battle intro takes ~16.5s from closing pre-battle dialogue to the battle menu (`"It is raining."` and end-of-turn `"Rain continues to fall."` both auto-advance without requiring `B`).
+  - Rain boosts Water-type moves (`Surf`) by 1.5x (`95 * 1.5 STAB * 1.5 Rain = 213.75` effective base power).
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Main Notepad — Pokémon Emerald Version
@@ -458,9 +474,10 @@
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
 - `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, and Fiery Path.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
+- `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, and Fortree City.
 
 ## Mechanics & Harness Notes
-- **Teaching TMs & In-Battle Bag Pocket Persistence:** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. In battle, opening `BAG` opens whichever pocket was last viewed in the overworld (press `Left` twice to move from `TMs & HMs` to `ITEMS`). After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.
+- **Teaching TMs & Global Bag Pocket Persistence (`gBagPosition`):** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. Both in-battle and overworld `BAG` menus share global `gBagPosition` (`pocket` and `cursorPosition`), so switching pockets in battle persists to the next overworld `BAG` opening and vice versa. After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
   - Row 0: `A B C D E F .` (cols 0..6)
   - Row 1: `G H I J K L ,` (cols 0..6)
