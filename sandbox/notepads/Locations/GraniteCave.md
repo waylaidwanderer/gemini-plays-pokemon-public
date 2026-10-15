@@ -38,13 +38,14 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 
 ## Granite Cave B2F
-- Ascent Ladder to B1F: Located at (28, 21). Stepping onto it from (28, 20) does not trigger a map transition.
+- Ascent Ladder to B1F (Southeast): Located at (28, 21), bidirectional ladder to B1F.
+- Ascent Ladder to B1F (Northwest): Located at (2..3, 15), mandatory progression ladder leading up to Steven's chamber route!
 - Topography:
   - Eastern Sector: Column 28 runs from ladder (28, 21) north to (28, 16). Solid east wall spans col 29 from row 16 to row 23. Row 16 extends west from (28, 16) to (23, 16).
   - Central Corridor: Row 17 connects col 28 west through (13, 17). Column 13 connects row 17 south to row 22 at (13, 22). North of row 17 is solid wall from col 13 to 22.
   - South Corridor: Row 22 connects col 13 west through (4, 21). Cracked rock at (6, 22) bypassed north via row 21. Row 22 ends east at (14, 22).
   - West Sector: From (4, 21), col 4 leads north to mud slope at (4, 13) (requires Mach Bike). Cracked rock at (3, 14) and (5, 14).
-  - Row 15 Highway: Open east-west corridor spanning columns 5 through 21!
+  - Row 15 Highway: Open east-west corridor spanning columns 5 through 21! Direct route connecting east and west sectors.
   - Column 21 Corridor: Connects row 15 at (21, 15) north to (21, 11).
-  - Northern Sector: Row 11 connects col 21 westward; rock at (22, 11); wall at north.
+  - Northern Sector: Row 11 connects col 21 westward; rock at (22, 11); wall at north. Row 12 dead-ends west at (18, 12) and north at (19, 11).
 - Wild Encounters: Aron, Abra (caught CIPHER!), Zubat, Sableye, Makuhita (Lv 11-12).
