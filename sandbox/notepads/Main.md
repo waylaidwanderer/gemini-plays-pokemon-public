@@ -2,19 +2,20 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko (Level 10, Male), Nickname: SAGE
-- Status: Entered Petalburg Woods! Defeated Lady Cindy and Bug Catcher Lyle (Sage Lv 11). Navigating through the forest toward the Devon researcher and northern exit.
+- Starter: Treecko (Level 12, Male), Nickname: SAGE
+- Status: Defeated Team Aqua Grunt in Petalburg Woods! Sage grew to Lv 12. Rescued Devon researcher, received Great Ball, party healed. Proceeding north toward Route 104 North and Rustboro City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 11) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 26/32.
+1. SAGE (Treecko ♂, Level 12) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 34/34.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
+- Great Ball x1 (gift from rescued Devon researcher)
 - Paralyze Heal x1 (collected from southwest grass in Petalburg Woods at 4, 26)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- Money: ¥5004 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle)
+- Money: ¥5184 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
