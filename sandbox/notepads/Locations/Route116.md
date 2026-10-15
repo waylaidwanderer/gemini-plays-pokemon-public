@@ -21,8 +21,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 1. Youngster Joey:
    - Location: (12, 7), facing East.
    - Pre-battle: "My POKéMON rule! Check them out!"
-   - Team: Machop.
-   - Status: Battle ongoing.
+   - Team: Machop ♂ Lv 9.
+   - Status: Battle ongoing. Note: Machop resists Bug-type attacks (Fury Cutter). Use STAB Absorb or Quick Attack.
 
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.

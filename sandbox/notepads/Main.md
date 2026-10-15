@@ -35,25 +35,10 @@
 - Route 103: North exit of town (where Brendan was defeated).
 - Route 102: West exit of town (footprint NPC now unblocked!).
 
-## Progression History - Phase 1 & 2 (Completed)
+## Progression History - Phase 1, 2 & 3 (Completed)
 - Phase 1: Intro, clock set, PC Potion, rival meeting, Birch rescue, and Treecko (SAGE).
 - Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan, Running Shoes received from Mom.
-
-## Progression Checklist - Phase 3 (Completed)
-1. [x] Receive Running Shoes from Mom outside player's house.
-2. [x] Travel north through Route 101 to Oldale Town.
-3. [x] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
-4. [x] Catch wild Pokémon on Route 102 with Poké Balls (caught Lotad ♀ Lv 4, nicknamed LILZ!).
-5. [x] Battle Route 102 trainers for EXP and prize money. (Calvin, Rick, Allen, Tiana defeated!)
-6. [x] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
-7. [x] Help Wally catch a Ralts.
-8. [x] Proceed west from Petalburg City onto Route 104 (Scott intercepted May and departed).
-9. [x] Traverse Petalburg Woods to northern Route 104.
-10. [x] Cross Route 104 bridge and arrive in Rustboro City.
-11. [x] Visit Pokémon Center (checkpoint set, party fully healed).
-12. [x] Visit Cutter's House and receive HM01 Cut.
-13. [x] Visit Pokémon Trainer's School for Quick Claw.
-14. [x] Challenge Gym Leader Roxanne in Rustboro City (Rock type). DEFEATED! Earned Stone Badge!
+- Phase 3: Route 102 cleared (Calvin, Rick, Allen, Tiana defeated; caught Lotad LILZ), Petalburg City Gym visit with Dad, assisted Wally catching Ralts, Route 104 traversed (Cindy, Winston, Haley, Gina & Mia, Ivan defeated; Wailmer Pail and Bullet Seed obtained), Petalburg Woods cleared (rescued Devon researcher, defeated Aqua Grunt, Lyle, James), Rustboro City explored (Cut HM01 and Quick Claw obtained), Rustboro Gym cleared (Josh, Tommy & Marc, and Gym Leader Roxanne defeated; Stone Badge and TM39 Rock Tomb earned; Sage evolved to Grovyle Lv 16).
 
 ## Progression Checklist - Phase 4 (Active)
 1. [x] Defeat Gym Leader Roxanne and earn Stone Badge & TM39 Rock Tomb.
