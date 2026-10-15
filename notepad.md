@@ -467,7 +467,7 @@
   - **Gift Pokémon:** After defeating Shelly, the Institute Director awards **Castform Lv. 25** (holding `Mystic Water`) [Obtained — nicknamed `ZEPHYR`].
 ## Northern Route 119 (`(6, 33)` -> Fortree City)
 - **Northern Bridge:** Walk `Down` 1 from the Weather Institute exit `(6, 33)` to `(6, 34)` and `Right` 18 along `y = 34` across the bridge to `(24, 34)`, then `Right` 1 to `(25, 34)` and `Up` 3 to `(25, 31)` to trigger **Rival May** (`Slugma Lv. 29`, `Grovyle Lv. 31`, `Lombre Lv. 29` [Defeated — **HM02 (Fly)** obtained, followed by Scott cutscene]).
-- **Upper Sandy Road (`(25, 31)` -> Fortree City):** Walk `Up` 1 to `(25, 30)`, `Right` 1 to `(26, 30)`, `Up` 2 to `(26, 28)`, `Right` 1 to `(27, 28)`, `Up` 8 up the stairs at `(27..28, 26..27)` to `(27, 20)` (signpost at `(27, 19)`), `Right` 2 to `(29, 20)`, and `Up` along `x = 29` (**Guitarist Fabian `(27, 15)`** watches `(29, 15)` — `Manectric Lv. 26` [Defeated]; **Ninja Boy Yasu `(29, 6)`** watches `(29, 9)`).
+- **Upper Sandy Road (`(25, 31)` -> Fortree City):** Walk `Up` 1 to `(25, 30)`, `Right` 1 to `(26, 30)`, `Up` 2 to `(26, 28)`, `Right` 1 to `(27, 28)`, `Up` 8 up the stairs at `(27..28, 26..27)` to `(27, 20)` (signpost at `(27, 19)`), `Right` 2 to `(29, 20)`, and `Up` along `x = 29` (**Guitarist Fabian `(27, 15)`** watches `(29, 15)` — `Manectric Lv. 26` [Defeated]; **Ninja Boy Hideo `(29, 6)`** watches `(29, 9)` — `Koffing Lv. 25`, `Koffing Lv. 25`).
 
 <hr>
 
