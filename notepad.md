@@ -640,6 +640,10 @@
 - **Room 2 (`(1, 23)` -> `(9, 18)`):**
   - Contains a **Yellow Floor Switch at `(2, 21)`** and a 2x2 counter-clockwise conveyor loop at **`(4..5, 20..21)`**, with **Psychic Samantha `(4, 23)`** facing `Up` toward `(4, 22)` (`Xatu Lv. 36` [Defeated]) and **Psychic Blake** on the 2x2 block.
   - After **1 press** of `(2, 21)` (State 1), `(4..5, 20..21)` has Statue at `(4, 20)` and **Psychic Blake** facing `Down` at `(4, 21)` (`Girafarig Lv. 36` [Defeated]), leaving `(5, 21)` and `(5, 20)` uncovered. Walk `Right` 3 from `(2, 22)` to `(5, 22)` (defeating Psychic Blake at `(4, 22)`), walk `Up` 2 through `(5, 21)` to `(5, 20)`, `Right` 3 to `(8, 20)`, `Up` 2 to `(8, 18)`, and `Right` 1 onto the teleporter at **`(9, 18)`**.
+- **Room 3 (`(23, 20)` -> Lower Room 3):**
+  - Stepping `Down` 1 from `(23, 20)` onto the **Purple Floor Switch at `(23, 21)`** slides the upper 2x2 purple blocks (`(21..22, 22..23)` and `(24..25, 22..23)`) and the middle 2x2 purple block (`(22..23, 25..26)`) to State 1.
+  - Stepping `Down` 1 to `(23, 22)` triggers **Hex Maniac Kathleen `(22, 22)`** (`Kadabra Lv. 36`) and **Psychic Nicholas `(24, 22)`** (`Wobbuffet Lv. 36`) in a Double Battle [Defeated].
+  - From `(23, 22)`, `Down` 2 reaches `(23, 24)` (2nd Purple Switch), from which `Right` 1 to `(24, 24)` and `Down` along `x = 24` bypasses the `(22..23, 25..26)` block on the east.
 
 <hr>
 
@@ -654,7 +658,7 @@
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x4, Super Potion x2, Repel x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 49 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
-  2. OBERON (Beautifly, Male, Lv. 19 — Gust, String Shot, Poison Sting, Harden)
+  2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
   5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
