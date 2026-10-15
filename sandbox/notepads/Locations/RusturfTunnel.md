@@ -12,7 +12,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - [x] Locate Team Aqua Grunt and Peeko.
 - [x] Defeat Team Aqua Grunt (Poochyena Lv 11, ¥220).
 - [x] Recover Devon Goods and rescue Peeko for Mr. Briney.
-- [ ] Collect any visible items in the tunnel (Item Ball at 2, 1).
+- [ ] Optional: Item Ball (Poké Ball) on northwest elevated terrace at (2, 1) (can collect later).
 
 ## Key Characters & Trainers
 - Team Aqua Grunt: [DEFEATED]
