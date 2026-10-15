@@ -33,10 +33,10 @@
 - Southern Highway (row 14):
   - Connects column 37 past Calvin (33, 15) to column 25 north of Rick (25, 15).
   - Rows 17-19 form the solid southern tree border.
-- Central Grass Clearing (columns 16-20, rows 7-13):
-  - Contains Sneezing Boy NPC at (18, 11).
-  - Enclosed to the west by dense tree hedge (columns 14-15) from row 6 to 16.
-  - Enclosed to the north by Row 6 Ledge spanning columns 16-26.
+- Row 6 Ledge Passage:
+  - The Row 6 Ledge spans across northern Route 102.
+  - VERIFIED PASSAGE: The single walkable gap through the ledge is at (18, 6), directly to the left of Youngster Allen (19, 6)!
+  - Walking north through (18, 6) leads onto the High Road connecting east to the Berry Trees (24..25, 1..2) and west to Petalburg City.
 - Potion Item Ball: Located in western cove at (11, 14) - uncollected.
 - Northern Road Frontier:
   - Accessible via columns 22-25 north of row 11.
