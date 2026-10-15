@@ -182,7 +182,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
 - Paralyze Heal x1 (collected from southwest grass in Petalburg Woods at 4, 26)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
-- Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
+- Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - Money: ¥5280 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
