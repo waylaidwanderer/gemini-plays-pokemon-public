@@ -29,7 +29,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Row 14 Junction at (11, 14): Row 14 extends west, while column 12 provides a northward bypass at (12, 14) and (12, 13) past the water canal.
 - Column 12 Upper North Corridor: Column 12 forms a straight 1-tile wide hallway running north through (12, 13) to (12, 9), bordered by walls on both sides.
 - Row 8 Junction at (12, 8): Column 12 intersects row 8. West (11, 8) runs beneath water at (11, 7). East (13, 8) opens into a wide floor area. Column 12 continues straight north into row 7 along the eastern bank of the water.
-- Row 6 North Corridor: Column 12 continues north through (12, 6) towards rows 5 and 4, bordered by a wall structure on the west and open floor/water on the east.
+- Row 6 North Corridor: Column 12 continues north through (12, 6) to (12, 5).
+- Row 4 Water Canal: Water blocks northward passage at (12, 4).
+- Column 13 Stairs at (13, 4): Tile (13, 5) is open floor, with horizontal stairs leading north at (13, 4).
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
