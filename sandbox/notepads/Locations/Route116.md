@@ -57,7 +57,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Location: (44, 13), facing West.
    - Pre-battle: "We'll rock you hard!"
    - Team: Geodude ♂ Lv 8 (fainted), Geodude ♂ Lv 8 (fainted).
-   - Reward: ¥256, 294 EXP total (147 + 147).
+   - Defeat quote: "Aiyiyi! No contest at all"
+   - Reward: ¥320, 294 EXP total (147 + 147). Sage grew to Lv 18!
 
 ## NPCs
 - Boy at (36, 13): Mentions "It's a dead end up here."
