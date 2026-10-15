@@ -337,7 +337,7 @@
   - From `(26, 25)`, walk `Left` 6 along `y = 25` to `(20, 25)`, `Up` 3 up the yellow stairs at `(20, 24..23)` to `(20, 22)`, `Right` 5 along `y = 22` to `(25, 22)`, and `Up` 8 along `x = 25` up the yellow stairs at `(25, 21..20)` (passing east of Team Aqua Leader Archie at `(24, 19)`) to `(25, 14)`.
   - From `(25, 14)`, step `Down` 1 to `(25, 15)`, walk `Left` 10 along `y = 15` to `(15, 15)`, `Down` 2 to `(15, 17)`, `Left` 3 to `(12, 17)`, and `Up` 1 to `(12, 16)` between the **Team Magma Grunts `(9, 16)` & `(13, 16)`** (`Zubat Lv. 20`, `Numel Lv. 20` [Defeated]).
   - After the Double Battle, the Male Grunt stands at `(11, 16)`. Walk around him via `(12, 17)` -> `(10, 17)` and walk `Up` 6 along `x = 10` to `(10, 11)` to battle **Team Magma Admin Tabitha `(12, 11)` -> `(11, 11)`** (`Numel Lv. 18`, `Poochyena Lv. 20`, `Zubat Lv. 22`, `Numel Lv. 22` [Defeated]).
-  - From `(10, 11)`, walk `Up` 4 along `x = 10` to `(10, 7)`, `Right` 1 to `(11, 7)`, and face `Up` to challenge **Team Magma Leader Maxie `(11, 6)`** next to the Meteorite machine at `(13, 6)`.
+  - From `(10, 11)`, walk `Up` 5 along `x = 10` to `(10, 6)` and `Right` 2 to `(12, 6)` to challenge **Team Magma Leader Maxie `(13, 6)`** (`Mightyena Lv. 24`, `Zubat Lv. 24`, `Camerupt Lv. 25` [Defeated]). After defeating Maxie, step `Right` 1 to `(13, 6)` and interact with the machine at `(14, 6)` to retrieve the **Meteorite** [Obtained].
 
 <hr>
 
@@ -398,10 +398,10 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$1,700 | **Badges:** 3 (Stone Badge, Knuckle Badge, Dynamo Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x5, Super Repel x4, Great Ball x2, Poké Ball x2, PP Up x1, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
+- **Inventory:** Super Potion x5, Super Repel x4, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 32 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
-  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
+  1. ATRITON (Marshtomp, Male, Lv. 33 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden) [Fainted]
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index
