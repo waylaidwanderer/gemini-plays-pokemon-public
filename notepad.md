@@ -9,9 +9,9 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 - North/Northwest: Route 106 (leading to Granite Cave).
 - Sea Routes: Route 107 (East) and Route 106 (North).
 - Boat Dock: Located on the eastern beach at (11..12, 9). Mr. Briney and his boat wait here to sail back to Route 104 or forward to Slateport City (after delivering Letter to Steven).
-- Signpost near dock: Located at (10, 11).
-- Blue-roofed house: Located directly northwest of the dock at (6..9, 4..8).
-- Pokémon Center: Located on the western beach of Dewford Town.
+- Signpost near dock: Located at (10, 10).
+- Blue-roofed house: Located directly northwest of the dock at (6..9, 4..8); front door at (7, 7).
+- Pokémon Center: Located on the western beach of Dewford Town at (1..4, 6..10). Sliding door entrance at (2, 10) approached from row 11.
 - Dewford Gym: Leader Brawly (Fighting-type). Awards Knuckle Badge and allows HM05 Flash outside battle.
 - Dewford Hall: Trendy phrase hall north of the Pokémon Center.
 - Fisherman: Stands by the gym / water; gives the OLD ROD!
