@@ -467,7 +467,7 @@
   - **Gift Pokémon:** After defeating Shelly, the Institute Director awards **Castform Lv. 25** (holding `Mystic Water`) [Obtained — nicknamed `ZEPHYR`].
 ## Northern Route 119 (`(6, 33)` -> Fortree City)
 - **Northern Bridge:** Walk `Down` 1 from the Weather Institute exit `(6, 33)` to `(6, 34)` and `Right` 18 along `y = 34` across the bridge to `(24, 34)`, then `Right` 1 to `(25, 34)` and `Up` 3 to `(25, 31)` to trigger **Rival May** (`Slugma Lv. 29`, `Grovyle Lv. 31`, `Lombre Lv. 29` [Defeated — **HM02 (Fly)** obtained, followed by Scott cutscene]).
-- **Upper Sandy Road (`(25, 31)` -> Fortree City):** Walk `Up` 1 to `(25, 30)`, `Right` 1 to `(26, 30)`, `Up` 2 to `(26, 28)`, `Right` 1 to `(27, 28)`, `Up` 8 up the stairs at `(27..28, 26..27)` to `(27, 20)` (signpost at `(27, 19)`), `Right` 2 to `(29, 20)`, and `Up` along `x = 29` (**Guitarist Fabian `(27, 15)`** watches `(29, 15)` — `Manectric Lv. 26`).
+- **Upper Sandy Road (`(25, 31)` -> Fortree City):** Walk `Up` 1 to `(25, 30)`, `Right` 1 to `(26, 30)`, `Up` 2 to `(26, 28)`, `Right` 1 to `(27, 28)`, `Up` 8 up the stairs at `(27..28, 26..27)` to `(27, 20)` (signpost at `(27, 19)`), `Right` 2 to `(29, 20)`, and `Up` along `x = 29` (**Guitarist Fabian `(27, 15)`** watches `(29, 15)` — `Manectric Lv. 26` [Defeated]; **Ninja Boy Yasu `(29, 6)`** watches `(29, 9)`).
 
 <hr>
 
@@ -476,10 +476,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$20,329 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$21,161 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x7, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Super Potion x6, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 40 [Fainted, Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 14 [Fainted] — Gust, String Shot, Poison Sting, Harden)
