@@ -23,11 +23,12 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
    - Defeat quote: "I lost because I'm trying to not go to the washroom"
    - Reward: ¥440, 247 EXP.
 
-2. Fisherman Elliot:
+2. Fisherman Elliot: [DEFEATED]
    - Location: (52, 14), facing East between two rocks.
    - Pre-battle: "Which do you prefer, fishing in the sea or a stream?"
-   - Team: Magikarp Lv 10 (fainted, 42 EXP), Tentacool Lv 7 (fainted, 157 EXP), Magikarp Lv 10 (active).
-   - Status: In battle (Turn 3).
+   - Team: Magikarp Lv 10 (fainted), Tentacool Lv 7 (fainted), Magikarp Lv 10 (fainted).
+   - Defeat quote: "Like in deep-sea fishing, I lost spectacularly!"
+   - Reward: ¥400, 241 EXP total.
 
 ## Mechanics Discovered
 - Water Sightlines: Trainers facing water do not spot and trigger battles with players walking on adjacent beach tiles across water. Speaking to them directly from an adjacent tile starts the battle.
