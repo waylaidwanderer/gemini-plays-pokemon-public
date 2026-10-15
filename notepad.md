@@ -294,7 +294,7 @@
 ## Route 118
 - **West Entrance (from Mauville City `(39, 8)`):** `(0, 8)`.
 - **Western Shore Trainers:** **Youngster Deandre `(7, 7)`** (`Zigzagoon Lv. 14`, `Aron Lv. 14`, `Electrike Lv. 16`) and **Aroma Lady Rose `(7, 11)`** (`Roselia Lv. 14`, `Shroomish Lv. 14`, `Roselia Lv. 14`) both watch `(7, 8)` [Defeated & Registered].
-- **Overworld Surf Sequence:** Facing a surfable water tile and pressing `A` opens `"The water is dyed a deep blue... Would you like to SURF?" [YES / NO]` (~1500ms); pressing `A` a second time confirms `YES` and prints `"[POKéMON] used SURF!"`, and you must press `A` or `B` a **third** time (`A, sleep 1500, A, sleep 1000, B, sleep 3000`) to dismiss `"[POKéMON] used SURF!"` and trigger the field-move cut-in and hop onto the water.
+- **Overworld Surf Sequence:** Facing a surfable water tile and pressing `A` opens `"The water is dyed a deep blue... Would you like to SURF?" [YES / NO]` (~1500ms); pressing `A` a second time confirms `YES` and prints `"[POKéMON] used SURF!"`, and you must press `A` or `B` a **third** time (`A, sleep 1500, A, sleep 1000, B, sleep 3000`) to dismiss `"[POKéMON] used SURF!"` and trigger the field-move cut-in and hop onto the water. Dismounting Surf onto land (`(30, 12)` -> `(31, 12)` on Route 118) aborts remaining `press_buttons` inputs just like a warp transition.
 
 <hr>
 
