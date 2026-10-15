@@ -70,8 +70,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Entrance Ladder from B1F: Located at (28, 21).
 - Topography: Entrance ladder from B1F at (28, 21). Northern bypass runs west along row 17 to col 13, then south to row 22. South corridor leads west along row 22 above the row 23 barrier to col 7; cracked rock at (6, 22) is bypassed north via row 21. At (4, 21), corridor heads north along col 4; (4, 13) is an impassable mud slope (requires Mach Bike). From (4, 17), east passage reaches a rock wall at (7, 17) and turns north along column 6 (row 16+).
 - Wild Encounters: Aron, Abra (caught Lv 10 ♂ in Great Ball named CIPHER!), Zubat, Sableye.
-- Northern Area Topography: At (7, 12), a breakable rock blocks (7, 12). At (8, 11), a solid north cliff wall blocks north. Northern corridor runs east through (10, 12) to (11, 12), where a vertical cliff wall blocks east at (12, 12). Open cavern branches north along column 11 (row 11+) and south (row 13+).
-- Objective: Explore north along column 11 toward row 10 to locate the ascent ladder on B2F.
+- Northern Area Topography: Breakable rock at (7, 12). North cliff wall spans row 10 (confirmed at 11, 10 and 8, 11). Northern corridor runs east through (10, 12) to (11, 12). From (11, 11), column 11 leads south down to (11, 16). At row 16, an east-west corridor spans cols 5..11 bordered on the south by a cliff edge at row 17. Column 6 connects row 16 north back to row 12, forming a loop around an elevated rock pillar.
+- Navigation Analysis: The central loop (cols 5-11, rows 12-16) is fully mapped and contains no ladder. The mud slope at (4, 13) requires Mach Bike. The ascent ladder to Steven must be in the unexplored eastern/northeastern or southern regions of B2F.
 
 <hr>
 
