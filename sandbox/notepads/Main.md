@@ -44,7 +44,7 @@
 6. [x] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [x] Help Wally catch a Ralts.
 8. [x] Proceed west from Petalburg City onto Route 104 (Scott intercepted May and departed).
-9. [ ] Traverse Petalburg Woods to northern Route 104.
+9. [x] Traverse Petalburg Woods to northern Route 104.
 10. [ ] Challenge Gym Leader Roxanne in Rustboro City (Rock type).
 
 ## Route 102
