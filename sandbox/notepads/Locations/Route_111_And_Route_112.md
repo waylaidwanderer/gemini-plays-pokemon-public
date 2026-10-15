@@ -69,4 +69,5 @@
 ## Lavaridge Gym (Hot-Spring Warp Puzzle)
 - **Step-by-Step Puzzle Route:**
   1. **1F Entrance `(13, 18)` -> `(8, 9)`:** Walk `Up` 1 to `(13, 17)`, `Left` 5 to `(8, 17)`, and `Up` 8 along `x = 8` onto the drop hole at **`1F (8, 9)`** -> lands at **`B1F (8, 9)`**.
-  2. **B1F `(8, 9)` -> `(1, 17)`:** Walk `Down` 9 along `x = 8` to `(8, 18)`, `Left` 3 to `(5, 18)` (**Kindler Jace `(4, 18)`** — `Slugma Lv. 23` [Defeated]), `Up` 1 to `(5, 17)`, `Left` 1 to `(4, 17)` (**Hiker Eli `(4, 16)`** — `Numel Lv. 23` [Defeated]), and `Left` 3 along `y = 17` onto the geyser warp at **`B1F (1, 17)`**.
+  2. **B1F `(8, 9)` -> `(1, 17)`:** Walk `Down` 9 along `x = 8` to `(8, 18)`, `Left` 3 to `(5, 18)` (**Kindler Jace `(4, 18)`** — `Slugma Lv. 23` [Defeated]), `Up` 1 to `(5, 17)`, `Left` 1 to `(4, 17)` (**Hiker Eli `(4, 16)`** — `Numel Lv. 23` [Defeated]), and `Left` 3 along `y = 17` onto the geyser warp at **`B1F (1, 17)`** -> lands at **`1F (1, 17)`**.
+  3. **1F `(1, 17)` -> `(2, 15)`:** Walk `Right` 1 to `(2, 17)` and `Up` 2 along `x = 2` (**Cooltrainer Gerald `(2, 14)`** buried in the sand facing Down — `Kecleon Lv. 23`) onto the bright hot-spring drop warp at **`1F (2, 15)`**.
