@@ -42,6 +42,7 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Location: (36, 13), facing West.
    - Pre-battle: "It's a dead end up here. I'm bored, so can we battle?"
    - Team: Shroomish Lv 8 (fainted), Lotad Lv 8 (fainted).
+   - Defeat quote: "That was fun even though I lost"
    - Reward: ¥128, 237 EXP (111 + 126).
 
 5. Hiker Clark:
