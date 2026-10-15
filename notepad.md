@@ -15,6 +15,8 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Entrance Starting Position: (5, 26) facing North.
 - Gym Guide: Located at (5, 24) facing South.
 - Entrance Left Statue: Located at (4, 25).
+- Entrance Right Statue: Located at (7, 23).
+- Entrance North Corridor: Column 6 (and 5) leads north from row 25 past row 23 into the gym interior.
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
