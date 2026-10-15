@@ -111,12 +111,12 @@
 3. [x] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
 4. [x] Catch wild Pokémon on Route 102 with Poké Balls (caught Lotad ♀ Lv 4, nicknamed LILZ!).
 5. [x] Battle Route 102 trainers for EXP and prize money. (Calvin, Rick, Allen, Tiana defeated!)
-6. [ ] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
+6. [x] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [ ] Help Wally catch a Ralts.
 
 ## Route 102
 - Overview: See Locations/Route102.md for detailed map topography, trainer locations, and verified landmarks.
-- Active Objective: All Route 102 trainers defeated! Travel west along the road past Lass Tiana into Petalburg City.
+- Status: Fully cleared! All 4 trainers defeated, berries harvested, and connected west to Petalburg City.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
