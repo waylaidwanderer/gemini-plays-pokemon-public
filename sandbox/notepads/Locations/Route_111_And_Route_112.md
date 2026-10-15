@@ -65,3 +65,11 @@
   - **Lavaridge Pokémon Center:** Door at `(9, 6)` (exiting steps to `(9, 7)`).
   - **Lavaridge Poké Mart:** Door at `(15, 6)`.
   - **Lavaridge Gym:** Door at `(5, 15)` (from `(9, 7)`, walk `Down` 9 along `x = 9` to `(9, 16)`, `Left` 4 to `(5, 16)`, and `Up` 1 into `(5, 15)`).
+
+## Lavaridge Gym (Hot-Spring Warp Puzzle)
+- **Visual Warp Rule:**
+  - On **B1F**, **bright yellow-white circles** (such as `(1, 17)`) are **geyser warps that shoot the player UP to 1F**, whereas **dark olive-grey circles** (such as `(4, 18)`, `(4, 16)`, `(5, 14)`, `(1, 14)`) are **sand piles** (which either hide buried trainers or act as landing pads from 1F drop holes).
+  - On **1F**, **dark olive-grey circles** (such as `(8, 9)`) drop the player **DOWN to B1F** (or hide buried trainers).
+- **Step-by-Step Puzzle Route:**
+  1. **1F Entrance `(13, 18)` -> `(8, 9)`:** Walk `Up` 1 to `(13, 17)`, `Left` 5 to `(8, 17)`, and `Up` 8 along `x = 8` onto the drop hole at **`1F (8, 9)`** -> lands at **`B1F (8, 9)`**.
+  2. **B1F `(8, 9)` -> `(1, 17)`:** Walk `Down` 9 along `x = 8` to `(8, 18)` and `Left` to `(5, 18)` (**Kindler Jace `(4, 18)`** — `Slugma Lv. 23`), then step to the bright geyser warp at **`B1F (1, 17)`**.
