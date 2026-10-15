@@ -23,7 +23,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 ## Trainers & Encounters
 - Wild Pokémon (Tall Grass): Encounterable at y=54..59.
-- Lass Haley / Girl NPC: Paces between (25, 48) and (25, 50) near the northern forest edge.
+- Girl NPC: Paces between (25, 48) and (25, 50) near the northern forest edge.
 - Lady Cindy: [DEFEATED]
   - Location: (11, 44) facing East on the road bend leading to Petalburg Woods.
   - Team: Zigzagoon Lv 7 (fainted).
@@ -41,3 +41,8 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Team: Zigzagoon Lv 7 (fainted).
   - Reward: ¥1400, EXP.
   - Bypass: Row 24 is a clear grass strip along the water bank (row 23) allowing easy passage around him to the east.
+- Lass Haley: [IN BATTLE]
+  - Location: (31, 24) at the southern bridge entrance, facing South/East.
+  - Team: Lotad ♀ Lv 6 (defeated), Shroomish ♀ Lv 6 (active).
+  - Reward: TBD.
+- Item Ball behind Cut tree: Located at roughly (34..35, 21..22) behind a Cut tree east of the bridge entrance (requires HM01 Cut to access).
