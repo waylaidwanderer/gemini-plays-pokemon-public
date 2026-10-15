@@ -9,7 +9,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - North-East Entrance: Rusturf Tunnel (via Route 116).
 
 ## Key Buildings & Landmarks
-- Pokémon Center: Located on the main boulevard (red roof).
+- Pokémon Center: Located at (16, 38) (red roof, door at 16, 38).
 - Poké Mart: Located at (16, 44) (blue roof, door at 16, 44).
 - Cutter's House: Located west of the Pokémon Center. Gives HM01 Cut!
 - Pokémon Trainer's School: Located near the Pokémon Center. Teacher gives Quick Claw!
