@@ -33,8 +33,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Row 8 Junction at (12, 8): Column 12 intersects row 8. West (11, 8) runs beneath water at (11, 7). East (13, 8) opens into a wide floor area. Column 12 continues straight north into row 7 along the eastern bank of the water.
 - Column 12 North Pier: Column 12 dead-ends at (12, 5) surrounded by water at north (12, 4) and east (13, 5).
 - Column 13 North Corridor: Column 13 dead-ends at (13, 6) facing water at (13, 5). Both columns 12 and 13 terminate at the row 4-5 water canal.
-- Row 8 West Corridor: From row 8 junction (12, 8), row 8 forms an open horizontal corridor running west through (11, 8) and (10, 8) toward column 8, bordered by water at row 7 to the north and a wooden wall at row 9 to the south.
-- Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
+- Row 8 West Corridor: From row 8 junction (12, 8), row 8 forms an open horizontal corridor running west through (11, 8) and (10, 8) to (9, 8). Black Belt Cristian stands defeated at (9, 8).
+- Column 9 South Corridor: Column 9 runs south beneath Cristian from row 9 down toward row 14.
+- Light Mechanic: Initial spotlight radius is ~2 tiles. Expanded to radius ~3 after defeating Cristian!
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
