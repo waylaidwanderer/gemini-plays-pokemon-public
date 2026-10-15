@@ -330,6 +330,13 @@
   - **Black Belt Daisuke Bypass (`(21, 13)` -> `(16, 8)`):** Walk `Up` 2 to `(21, 11)`, `Left` 5 along `y = 11` to `(16, 11)`, and `Up` 3 along `x = 16` to `(16, 8)` (completely avoiding **Black Belt Daisuke `(22, 8)`**, who rotates Down/Right).
   - **Cooltrainer Brooke `(11, 10)` -> `(11, 8)`** (facing Up — `Wingull Lv. 17`, `Roselia Lv. 17`, `Numel Lv. 17`) [Defeated & Registered]. From `(11, 7)`, step `Right` 1 to `(12, 7)`, `Down` 2 to `(12, 9)`, and `Left` 13 along `y = 9` onto **Route 113**.
 
+## Mt. Chimney (Summit)
+- **Cable Car Station Exterior Door:** `(17, 36)` (exiting steps to `(17, 37)`).
+- **Ascent to Crater Rim (`(17, 37)` -> `(12, 16)`):**
+  - From `(17, 37)`, walk `Right` 3 to `(20, 37)`, `Up` 3 to `(20, 34)`, `Right` 6 along `y = 34` to `(26, 34)`, and `Up` 9 along `x = 26` up the three sets of yellow stairs (`y = 32..31`, `y = 29..28`, `y = 26`) to `(26, 25)`.
+  - From `(26, 25)`, walk `Left` 6 along `y = 25` to `(20, 25)`, `Up` 3 up the yellow stairs at `(20, 24..23)` to `(20, 22)`, `Right` 5 along `y = 22` to `(25, 22)`, and `Up` 8 along `x = 25` up the yellow stairs at `(25, 21..20)` (passing east of Team Aqua Leader Archie at `(24, 19)`) to `(25, 14)`.
+  - From `(25, 14)`, step `Down` 1 to `(25, 15)`, walk `Left` 10 along `y = 15` to `(15, 15)`, `Down` 2 to `(15, 17)`, `Left` 3 to `(12, 17)`, and `Up` 1 to `(12, 16)` between the **Team Magma Grunts `(9, 16)` & `(13, 16)`** (`Zubat Lv. 20`, `Numel Lv. 20`).
+
 <hr>
 
 <h1><code>Locations/Route_113_And_Fallarbor_Town</code></h1>
@@ -392,7 +399,7 @@
 - **Inventory:** Super Potion x6, Super Repel x4, Great Ball x2, Poké Ball x2, PP Up x1, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 31 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
-  2. OBERON (Beautifly, Male, Lv. 11 — Tackle, String Shot, Poison Sting, Harden)
+  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index
