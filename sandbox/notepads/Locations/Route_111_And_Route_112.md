@@ -86,7 +86,7 @@
   - Activate Strength and push `(6, 23)` `Left` 1 to `(5, 23)` (Push #1).
   - Step `Left` 1 to `(6, 23)`, `Up` 1 into `(6, 22)`, and push `(5, 22)` `Left` 1 into the `(4, 22)` side pocket (Push #2).
   - Step `Left` 1 to `(5, 22)` and walk `Up` 11 along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..(5, 11)`).
-- **1F Northern & Eastern Corridor (`(5, 11)` -> `(25, 19)`):**
+- **1F Northern & Eastern Corridor (`(5, 11)` -> 2F Staircase `(25, 35)`):**
   - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
   - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)` — `Poochyena Lv. 29` [Defeated]).
-  - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 4 along `y = 28` to `(23, 28)` (note: the white stairs at `(23..24, 27)` lead up to a small landing `x = 20..23, y = 25..26` below the one-way southbound exit ledge `(20..22, 24)` from the `(21, 22)` doorway), and continue `Down` along `x = 23..26` into the southern section of 1F.
+  - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 2 to `(25, 28)`, and `Down` 7 along `x = 25` onto the **2F Staircase Warp `(25, 35)`** (note: the white stairs at `(23..24, 27)` lead up to the receiving platform below the one-way exit ledge `(20..22, 24)` from `(21, 22)`, and `(28..29, 30)` is the return teleporter pad).
