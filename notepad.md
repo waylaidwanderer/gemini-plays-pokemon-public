@@ -453,7 +453,7 @@
 - **Weather Institute Suspension Bridge (`y = 84..85`):** Crosses west from `(33, 84..85)` across the river to `(7, 85)` (plateau around `(35, 83..85)` is walled off on the north at `y = 82`). From `(7, 85)`, walk `Left` 1 to `(6, 85)`, `Up` 6 down the stairs at `(5..6, 80)` to `(6, 79)`, `Right` 2 to `(8, 79)`, and `Up` 10 along `x = 8` past **Pokémon Ranger Jackson `(7, 74)`** (`Breloom Lv. 27` [Defeated & Registered]) to `(8, 69)`.
 - **Path Past Disguised Ninja Boy `(8, 68)` to Weather Institute (`(8, 69)` -> `(9, 50)`):**
   - From `(8, 69)`, walk `Right` 2 to `(10, 69)`, `Up` 2 to `(10, 67)`, `Left` 3 to `(7, 67)` (**Parasol Lady Rachel `(8, 63)`** — `Goldeen Lv. 26` and **Bird Keeper Phil `(9, 63)`** — `Swellow Lv. 26` watch `(8, 67)` [Defeated]), and `Up` 11 along `x = 7` to `(7, 56)` (next to the Mach Bike mud slope at `(6, 54..55)` and trees at `(7..8, 55)`).
-  - At `(7, 56)`, walk `Right` 2 to `(9, 56)`, `Right` 7 along `y = 56` through the tree canopy at `(10, 56)` and tall grass to `(16, 56)`, `Up` 2 to `(16, 54)`, `Right` 3 to `(19, 54)`, and `Up` 2 up the stairs at `(18..19, 53)` to `(19, 52)` (**Ninja Boy Takashi `(19, 49)`** — `Ninjask Lv. 25`, `Koffing Lv. 25` [Defeated] and **Kindler Dayton `(16, 52)`** — `Slugma Lv. 26`).
+  - At `(7, 56)`, walk `Right` 2 to `(9, 56)`, `Right` 7 along `y = 56` through the tree canopy at `(10, 56)` and tall grass to `(16, 56)`, `Up` 2 to `(16, 54)`, `Right` 3 to `(19, 54)`, and `Up` 2 up the stairs at `(18..19, 53)` to `(19, 52)` (**Ninja Boy Takashi `(19, 49)`** — `Ninjask Lv. 25`, `Koffing Lv. 25` [Defeated] and **Kindler Dayton `(16, 52)`** — `Slugma Lv. 25`).
   - From `(19, 52)`, walk `Right` 2 to `(21, 52)` and `Up` 6 along `x = 21` down the stairs at `(20..21, 48)` to `(21, 46)`.
 
 <hr>
