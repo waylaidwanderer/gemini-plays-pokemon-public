@@ -43,24 +43,25 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Flash Hiker: Located at (36, 9) facing East; gives HM05 Flash! (Obtained!).
 - Granite Cave 1F Topography:
   - Entrance: (37, 12) at the southeast corner.
-  - Flash Hiker: (36, 9) directly north of entrance.
-  - Northeast Ladder: (35, 3) on the northern elevated plateau.
-  - Row 6 Ledge: One-way jump ledge (cols 30..35) allowing one-way descent from the Northeast Ladder plateau back to the Hiker. Cannot be climbed from south.
-  - Middle Corridor (rows 7..8): Enclosed terrace leading west from the Hiker to Escape Rope at (17, 7) and Southwest Ladder at (17, 11) (leads to isolated B1F landing).
-  - Southern Corridor (rows 12..15): The true progression route! Runs west from the entrance across the entire bottom of 1F, wrapping around the western cliff to the northern upper walkway ascent.
+  - Flash Hiker: (36, 9) directly north of entrance; gave HM05 Flash!
+  - 1F Main Path: Leads west from the Hiker along row 7/8 directly to the Southwest Ladder at (17, 11).
+  - Item Ball: [COLLECTED] Escape Rope at (17, 7).
+  - Southwest Ladder: Located at (17, 11); primary route descending into Granite Cave B1F!
+  - Northeast Exit Plateau: The ladder at (35, 3) and row 6 jump ledge are the one-way return exit from Steven's chamber back to the entrance.
 
 ## Granite Cave B1F
-- Southwest Ladder landing: Drops onto isolated 2-tile dead-end ledge at (4..5, 22). Ladder at (4, 21) returns to 1F.
-- Main B1F Floor: Accessed via Northeast Ladder at (35, 3) on 1F!
+- Southwest Ladder: Located at (4, 21), player arrives at (4, 22).
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
+- Objective: Thoroughly explore B1F corridors to locate the ladder down to B2F.
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron.
 
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
-- [ ] Navigate through Granite Cave 1F loop to reach the ladder.
-- [ ] Navigate through Granite Cave to Steven's chamber.
+- [ ] Descend Southwest Ladder at (17, 11) to B1F.
+- [ ] Navigate B1F to find descent to B2F.
+- [ ] Navigate to Steven's chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 
