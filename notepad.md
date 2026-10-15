@@ -312,10 +312,10 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 17, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey & Karen on Route 116. Sage Lv 17 (HP 38/48), Lilz Lv 9 (HP 28/28), wallet ¥6032.
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey & Karen on Route 116. Sage Lv 17 (HP 38/48, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6032.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 17) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/48. Stats: Atk 29, Def 22, Sp.Atk 35, Sp.Def 32, Speed 40. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 17) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/48. Status: PAR. Stats: Atk 29, Def 22, Sp.Atk 35, Sp.Def 32, Speed 40. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28.
 
 ## Bag Highlights
@@ -329,7 +329,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City)
-- Money: ¥6032 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥144 from Gina & Mia, ¥280 from Ivan, ¥160 from Josh, ¥448 from Tommy & Marc, ¥1500 from Roxanne, ¥144 from Joey, ¥180 from Karen, spent ¥2400 on 12 Poké Balls, ¥1200 on 4 Potions)
+- Money: ¥6032
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
