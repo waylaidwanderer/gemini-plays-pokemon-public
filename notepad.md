@@ -246,6 +246,8 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Center Connector: Row 13-14 connects column 5 and column 6 to the column 7 bypass chute. Column 5 runs north between the L-wall (col 4) and square pillar (cols 6-7) up to row 8.
 - Row 8 Highway: Connects column 5 west to column 2 and east to column 8.
 - Northern Stage: Roxanne stands at (5, 2). Connected south via column 2 and row 4.
+## Key Events & Progression - Post-Badge
+- Devon Goods Robbery: Upon exiting Rustboro Gym, a Team Aqua Grunt fled eastward toward Route 116 carrying stolen Devon Goods. The Devon Researcher chased him shouting 'Don't take my GOODS!' and pleaded for help retrieving them from Route 116 / Rusturf Tunnel.
 
 <hr>
 
@@ -311,7 +313,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Progression Checklist - Phase 4 (Active)
 1. [x] Defeat Gym Leader Roxanne and earn Stone Badge & TM39 Rock Tomb.
 2. [x] Sage evolved into Grovyle and learned Fury Cutter!
-3. [ ] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
+3. [x] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
 4. [ ] Heal party at Rustboro Pokémon Center (Sage HP 22/43).
 5. [ ] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
 6. [ ] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.

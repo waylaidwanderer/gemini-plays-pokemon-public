@@ -58,7 +58,7 @@
 ## Progression Checklist - Phase 4 (Active)
 1. [x] Defeat Gym Leader Roxanne and earn Stone Badge & TM39 Rock Tomb.
 2. [x] Sage evolved into Grovyle and learned Fury Cutter!
-3. [ ] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
+3. [x] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
 4. [ ] Heal party at Rustboro Pokémon Center (Sage HP 22/43).
 5. [ ] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
 6. [ ] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.
