@@ -256,7 +256,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 16, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Sage Lv 16 (HP 43/43), Lilz Lv 9 (HP 28/28).
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge! Sage Lv 16 (HP 43/43), Lilz Lv 9 (HP 28/28), wallet ¥5708.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 16) [Held Item: Quick Claw] - Moves: Pursuit, Leer, Absorb, Quick Attack. HP: 22/43. Nature: Lonely. Ability: Overgrow.
@@ -264,7 +264,6 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
-- TM39 Rock Tomb: Received from Roxanne!
 - Quick Claw: Held by Sage!
 - Potion x5 (1 promo Potion used to heal Sage to full HP, 4 bought in Rustboro)
 - Great Ball x1 (gift from rescued Devon researcher)
@@ -273,8 +272,8 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Paralyze Heal x1 (collected from southwest grass in Petalburg Woods at 4, 26)
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), HM01 Cut (gift from Cutter in Rustboro City), TM39 Rock Tomb (gift from Roxanne)
-- Money: ¥4208 + Roxanne prize money
+- TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), HM01 Cut (gift from Cutter in Rustboro City)
+- Money: ¥5708 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥144 from Gina & Mia, ¥280 from Ivan, ¥160 from Josh, ¥448 from Tommy & Marc, ¥1500 from Roxanne, spent ¥2400 on 12 Poké Balls, ¥1200 on 4 Potions)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
