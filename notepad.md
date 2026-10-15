@@ -328,6 +328,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Northern Stage: Roxanne stands at (5, 2). Connected south via column 2 and row 4.
 ## Key Events & Progression - Post-Badge
 - Devon Goods Robbery: Upon exiting Rustboro Gym, a Team Aqua Grunt fled eastward toward Route 116 carrying stolen Devon Goods. The Devon Researcher chased him shouting 'Don't take my GOODS!' and pleaded for help retrieving them from Route 116 / Rusturf Tunnel.
+- Devon Goods Recovered: May defeated the Aqua Grunt in Rusturf Tunnel, retrieved the Devon Goods, and rescued Peeko. Met the Devon Researcher on the eastern boulevard at (30, 8) in Rustboro City to return the goods and meet President Stone at Devon Corp.
 ## City Navigation & Layout Mechanics Verified
 - Central Boulevard: Runs along columns 19-20. Column 17 sidewalk has a railing at row 23 that blocks southward walking.
 - Lamppost Pairs: Lampposts are placed in pairs at (19, y) and (21, y) at rows 24, 31, and 37. Column 20 is the unobstructed center lane between all lampposts.
