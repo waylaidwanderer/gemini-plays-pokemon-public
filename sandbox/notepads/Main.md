@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 12, Male), Nickname: SAGE
-- Status: Petalburg Woods cleared! Collected Paralyze Heal and Ether; defeated Bug Catcher Lyle, Team Aqua Grunt, and Bug Catcher James. Exiting north into Route 104 North.
+- Status: Arrived on Route 104 North! Received TM09 Bullet Seed from boy; harvested 2 Cheri Berries and 2 Oran Berries. Entering Pretty Petal Flower Shop for Wailmer Pail.
 
 ## Party
 1. SAGE (Treecko ♂, Level 12) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 34/34.
