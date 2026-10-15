@@ -49,3 +49,10 @@
   - From `(10, 11)`, walk `Up` 5 along `x = 10` to `(10, 6)` and `Right` 2 to `(12, 6)` to challenge **Team Magma Leader Maxie `(13, 6)`** (`Mightyena Lv. 24`, `Zubat Lv. 24`, `Camerupt Lv. 25` [Defeated]). After defeating Maxie, step `Right` 1 to `(13, 6)` and interact with the machine at `(14, 6)` to retrieve the **Meteorite** [Obtained].
 - **Descent to Jagged Pass (`(13, 6)` -> `(20, 42)`):**
   - From `(13, 6)`, walk `Left` 3 to `(10, 6)`, `Down` 11 along `x = 10` to `(10, 17)`, `Right` 5 to `(15, 17)`, `Up` 2 to `(15, 15)`, `Right` 10 along `y = 15` to `(25, 15)`, `Down` 7 down the stairs at `(25, 20..21)` to `(25, 22)`, `Left` 5 to `(20, 22)`, `Down` 3 down the stairs at `(20, 23..24)` to `(20, 25)`, `Right` 6 to `(26, 25)`, `Down` 9 down the three staircases at `x = 26` to `(26, 34)`, `Left` 6 to `(20, 34)`, and `Down` 8 along `x = 20` onto the **Jagged Pass Entrance Warp `(20..21, 42)`** (Lava Cookie Lady is at `(19, 40)`).
+
+## Jagged Pass (Southbound 0-Battle Bypass)
+- **North Entrance (from Mt. Chimney `(20..21, 42)`):** `(13, 5)`.
+- **Complete 0-Trainer Southbound Route (`(13, 5)` -> `(14, 40)`):**
+  - With a **Super Repel** active, step `Right` 1 from `(13, 5)` to `(14, 5)` and walk `Down` 10 along `x = 14` across the stairs and three southbound ledges (`y = 9, 12, 17`) to `(14, 20)` (completely bypassing **Hiker Eric `(11, 8)`** facing Right).
+  - From `(14, 20)`, step `Right` 1 to `(15, 20)` (staying outside the sight range of **Picnicker Diana `(9, 21)`** facing Right and below the Team Magma Grunt at `(16, 19)` facing Up), walk `Down` 2 to `(15, 22)`, `Left` 4 along `y = 22` to `(11, 22)`, and `Down` 6 along `x = 11` across three southbound ledges (`y = 23, 27, 32`) through the western ash-grass to `(11, 33)` (completely bypassing **Camper Ethan `(14, 25)`** and **Triathlete Julio `(18, 25)`**).
+  - From `(11, 33)`, step `Right` 1 to `(12, 33)`, walk `Down` 3 along `x = 12` to `(12, 36)` (staying 4 tiles away from **Camper Beau `(16, 35)`** facing Left), `Right` 2 to `(14, 36)`, and `Down` 4 down the yellow stairs at `(14..15, 37)` onto the **South Exit Warp `(14..15, 40)`** (to Route 112 West).
