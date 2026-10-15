@@ -363,7 +363,7 @@
   2. **B1F `(8, 9)` -> `(1, 17)`:** Walk `Down` 9 along `x = 8` to `(8, 18)`, `Left` 3 to `(5, 18)` (**Kindler Jace `(4, 18)`** — `Slugma Lv. 23` [Defeated]), `Up` 1 to `(5, 17)`, `Left` 1 to `(4, 17)` (**Hiker Eli `(4, 16)`** — `Numel Lv. 23` [Defeated]), and `Left` 3 along `y = 17` onto the geyser warp at **`B1F (1, 17)`** -> lands at **`1F (1, 17)`** (note: `B1F (5, 14)` -> `1F (6, 14)` -> `1F (5, 9)` -> `B1F (5, 9)` is a loop over the `B1F` southbound ledge at `y = 11`).
   3. **1F `(1, 17)` -> `(0, 10)`:** In the `1F` west room (`x = 0..3, y = 8..17`), **Cooltrainer Gerald `(2, 15)`** (`Kecleon Lv. 23` [Defeated]), **Kindler Cole `(3, 14)`** (`Numel Lv. 23` [Defeated]), and **Kindler Axle `(3, 10)`** (`Numel Lv. 23` [Defeated]) are buried in the sand/ash circles on the right, while `(1, 14)` is a trap hole south of `B1F`'s `y = 12` southbound ledge and **`1F (0, 10)`** drops into `B1F (0, 10)` north of the `y = 12` ledge. Note: wait `4000ms` (`["B", "sleep 4000", "B"]`) after triggering a hot-spring warp in `run_code` before sending movement inputs on the destination floor.
   4. **B1F `(0, 10)` -> `(0, 6)`:** In the `B1F` northern-west chamber (`x = 0..3, y = 6..11`), **Kindler Keegan `(3, 6)`** (`Slugma Lv. 23` [Defeated]) is buried in the right-hand ash circle, while **`B1F (0, 6)`** (walk `Up` 4 along `x = 0` from `(0, 10)`) is the geyser warp up to the `1F` top-left room at `1F (1, 6)`.
-  5. **1F `(1, 6)` -> `(2, 3)`:** In the `1F` top-left room (`x = 0..5, y = 1..6`), **Battle Girl Danielle `(5, 2)`** (`Meditite Lv. 23`) is buried in the top-right ash circle (`(5, 6)` is a trap hole to `B1F (5, 6)`), while **`1F (2, 3)`** drops into the northern-most `B1F` corridor at `B1F (2, 3)`.
+  5. **1F `(1, 6)` -> `(2, 3)`:** In the `1F` top-left room (`x = 0..5, y = 1..6`), **Battle Girl Danielle `(5, 2)`** (`Meditite Lv. 23` [Defeated]) is buried in the top-right ash circle (`(5, 6)` is a trap hole to `B1F (5, 6)`), while **`1F (2, 3)`** drops into the northern-most `B1F` corridor at `B1F (2, 3)`.
 
 <hr>
 
@@ -426,7 +426,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 33 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 34 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
