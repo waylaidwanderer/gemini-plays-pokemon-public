@@ -30,3 +30,4 @@
 - Berry Trees: Pecha and Oran berries in northern clearing at (24..25, 1..2).
 - Potion Item Ball: Located in south-western clearing at (11, 14) - uncollected.
 - East-West corridor: Tree cluster at (33..35, 9..13) requires walking along row 14 south of the trees to travel west past Calvin (33, 15).
+- Bypass around Rick: Trees at (24, 14) and (22, 14) block row 14 west of Rick; bypass north via row 12 to reach central clearing (col 20).
