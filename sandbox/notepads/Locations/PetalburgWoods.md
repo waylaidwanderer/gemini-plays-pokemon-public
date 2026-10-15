@@ -13,7 +13,7 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Southern Clear Trail: Row 35 provides a clear westbound path south of the tall grass field.
 - Southern Tall Grass Patch: Columns 3..12, rows 31..33.
 - Southwest Path: Column 5 runs north through the grass from row 33 to row 27.
-- Southwest Item Ball: Located at (4, 26), reachable from (5, 26) facing West.
+- Southwest Item Ball: [COLLECTED] Paralyze Heal at (4, 26).
 - Northern Path Turn: From row 26, path leads north to row 25 dirt clearing, then east toward central woods.
 
 ## Key Events & Progression
