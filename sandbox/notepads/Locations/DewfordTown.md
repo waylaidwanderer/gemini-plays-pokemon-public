@@ -9,8 +9,8 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 - Boat Dock: Located on the eastern beach at (11..12, 9). Mr. Briney and his boat wait here to sail back to Route 104 or forward to Slateport City (after delivering Letter to Steven).
 - Signpost near dock: Located at (10, 10).
 - Blue-roofed house: Located directly northwest of the dock at (6..9, 4..8); front door at (7, 7).
-- Pokémon Center: Located on the western beach of Dewford Town at (1..4, 6..10). Sliding door entrance at (2, 10) approached from row 11.
-- Dewford Gym: Leader Brawly (Fighting-type). Awards Knuckle Badge and allows HM05 Flash outside battle.
+- Pokémon Center: Located on the western beach of Dewford Town at (1..4, 6..10). Sliding door entrance at (2, 10) approached from row 11. Interior warp at (7, 8); talk to Nurse Joy at (7, 4) facing Up. Respawn checkpoint registered!
+- Dewford Gym: Leader Brawly (Fighting-type). Located southeast of Pokémon Center; roof begins at row 13. Awards Knuckle Badge and allows HM05 Flash outside battle.
 - Dewford Hall: Trendy phrase hall north of the Pokémon Center.
 - Fisherman: Stands by the gym / water; gives the OLD ROD!
 - Granite Cave (via Route 106): Hiker at entrance gives HM05 Flash. Steven Stone is located in the deepest chamber.
