@@ -57,7 +57,8 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Team: Seedot Lv 6, Lotad Lv 6.
   - Battle Type: 2-on-2 Double Battle.
   - Reward: ¥144, EXP.
-- Fisherman Ivan: [UNFOUGHT]
+- Fisherman Ivan: [DEFEATED]
   - Location: (29, 8) on the northern shore of the river, facing South.
-  - Team: Magikarp Lv 5, Magikarp Lv 7.
+  - Team: Magikarp Lv 5, Magikarp Lv 6, Magikarp Lv 7.
+  - Reward: TBD.
 - Route 104 North Signpost: Located at (23, 6) north of the bridge exit.
