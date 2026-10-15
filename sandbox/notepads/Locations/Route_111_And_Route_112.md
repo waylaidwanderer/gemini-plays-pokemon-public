@@ -59,8 +59,9 @@
 
 ## Route 112 (West) & Lavaridge Town
 - **Jagged Pass South Entrance (on Route 112 West):** `(6, 46)` (exiting steps to `(6, 47)`).
-- **Path to Lavaridge Town (`(6, 47)` -> `(13, 10)`):**
-  - From `(6, 47)`, step `Left` 1 to `(5, 47)`, `Down` 3 to `(5, 50)` (passing east of the signpost at `(4, 49)`), and `Left` 12 along `y = 50` into **Lavaridge Town `(13, 10)`**.
+- **Path to Lavaridge Town (`(6, 47)` -> `(13, 10)`) & Eastbound Ledge Shortcut:**
+  - **Westbound:** From `(6, 47)`, step `Left` 1 to `(5, 47)`, `Down` 3 to `(5, 50)` (passing east of the signpost at `(4, 49)`), and `Left` 12 along `y = 50` into **Lavaridge Town `(13, 10)`**.
+  - **Eastbound Shortcut (`Lavaridge Town (9, 7)` -> `Route 111 (0, 70)`):** Walk `Down` 3 from `(9, 7)` to `(9, 10)` and `Right` 48 straight along `y = 10` (`y = 50` on Route 112) across the 3 eastbound one-way ledges and the southern sandy road directly onto **Route 111 `(0, 70)`** with zero tall grass or trainer battles.
 - **Lavaridge Town Points of Interest:**
   - **Lavaridge Pokémon Center:** Door at `(9, 6)` (exiting steps to `(9, 7)`).
   - **Lavaridge Poké Mart:** Door at `(15, 6)`.
