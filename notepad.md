@@ -16,9 +16,12 @@
 ## Progression Checklist - Petalburg City
 1. [x] Heal party at Pokémon Center and set respawn checkpoint.
 2. [x] Visit Petalburg Gym and speak to Dad (Norman).
-3. [ ] Assist Wally with catching a wild Ralts using Norman's Zigzagoon.
-4. [ ] Speak to Norman again to receive gym challenge directions.
+3. [x] Assist Wally with catching a wild Ralts using Norman's Zigzagoon.
+4. [x] Speak to Norman again to receive gym challenge directions.
 5. [ ] Proceed west to Route 104 toward Rustboro City.
+
+## Story Notes
+- Norman's Advice: Head west to Route 104 and through Petalburg Woods to Rustboro City; challenge Gym Leader Roxanne (Rock-type); return to Petalburg Gym after earning 4 badges.
 
 <hr>
 
