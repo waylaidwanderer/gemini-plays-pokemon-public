@@ -20,7 +20,7 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Devon Researcher Encounter: Located at (26, 19..22).
 
 ## Key Events & Progression
-- Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball, heals the party, and opens passage to northern exit.
+- Devon Researcher & Team Aqua Grunt confrontation: [COMPLETED] Rescued researcher, defeated Aqua Grunt (earned ¥180), received Great Ball, party fully healed. The northern forest exit to Route 104 North is now fully accessible.
 
 ## Wild Encounters & Trainers
 - Wild Pokémon: Shroomish, Slakoth, Wurmple, Silcoon, Cascoon, Taillow, Poochyena.
@@ -28,7 +28,7 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
   - Location: (7, 34) (originally spotted May from col 7, row 31).
   - Team: Wurmple Lv 3, Wurmple Lv 3.
   - Reward: ¥48, EXP.
-- Team Aqua Grunt: [BATTLING]
+- Team Aqua Grunt: [DEFEATED]
   - Location: (26, 21) confronting Devon researcher.
   - Team: Poochyena ♂ Lv 9.
   - Reward: ¥180, Great Ball (from Researcher).
