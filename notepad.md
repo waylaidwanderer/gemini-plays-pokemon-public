@@ -134,7 +134,7 @@
     1. **Entrance Room `(4, 111)` -> Left Door `(1, 106)`:** Enters **Tier 1 Speed Room `(7, 85)`** (**Cooltrainer Randall `(4, 81)`** — `Swellow Lv. 26` [Defeated]).
     2. **Speed Room `(7, 85)` -> Left Door `(1, 80)`:** Enters **Tier 2 Confusion Room `(7, 46)`** (**Cooltrainer Parker `(4, 42)`** — `Spinda Lv. 26` [Defeated]; note: Right Door `(7, 80)` leads to Defense Room `(1, 59)` with **Cooltrainer Alexia `(4, 55)`** — `Wigglytuff Lv. 26`).
     3. **Confusion Room `(7, 46)` -> Right Door `(7, 41)`:** Enters **Tier 3 Strength Room `(1, 20)`** (**Cooltrainer Jody `(4, 16)`** — `Zangoose Lv. 26` [Defeated]).
-    4. **Strength Room `(1, 20)` -> Right Door `(7, 15)`:** Enters **Gym Leader Norman's Room**.
+    4. **Strength Room `(1, 20)` -> Right Door `(7, 15)`:** Enters **Gym Leader Norman's Room `(1, 7)`** (**Gym Leader Norman `(4, 2)`** — `Spinda Lv. 27`, `Vigoroth Lv. 27`, `Linoone Lv. 29`, `Slaking Lv. 31` [Defeated & Registered — awards Balance Badge & TM42 Facade, followed by Wally's dad escorting the player to Wally's House to award HM03 Surf]).
 - **Wally Tutorial Event:** Completed on Turn 107–108, unlocking the western exit of Petalburg City into Route 104 South.
 - **West Exit (to Route 104 South):** `(0, 12)` (Scott's cutscene at `(4, 12)` completed on Turn 110).
 
@@ -431,12 +431,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$5,669 | **Badges:** 4 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$8,769 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x8, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Super Potion x8, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 36 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  1. ATRITON (Swampert, Male, Lv. 36 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
