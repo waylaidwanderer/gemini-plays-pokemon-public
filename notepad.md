@@ -98,7 +98,8 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Elevated Ledge Item Ball: Poké Ball item visible at (30, 52) behind vertical ledge wall at col 28 and southern one-way jump ledge at row 55.
 - Northern trail / Highway: Extends north along col 23, bends west at row 44.
 - Soft Soil Berry Trees: Located at (22..24, 41) north of the road bend. Spot (22, 41) harvested (2 Oran Berries collected, soil returned to soft and loamy); spot (23, 41) is empty soil; spot (24, 41) is a Pecha plant in flower stage.
-- Petalburg Woods South Gate: Visible to the northwest near col 15, row 41 with a white fence.
+- Petalburg Woods South Gate: Located at columns 10..11, row 38 with a white picket fence.
+- Lady / Trainer at (11, 44): Faces East on the road bend leading north into Petalburg Woods.
 
 ## Trainers & Encounters
 - Wild Pokémon (Tall Grass): Encounterable at y=54..59.
