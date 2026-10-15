@@ -44,13 +44,13 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 ## Items & Discoveries
 (To be cataloged upon discovery)
 4. Youngster Johnson:
-   - Location: (34, 13), facing West.
+   - Location: (35, 13), facing South.
    - Status: Engaging in battle.
 
 5. Hiker Clark:
-   - Location: roughly (34, 18), facing West.
+   - Location: (35, 18), facing South.
    - Status: Discovered in southeast corridor.
 
 ## Landmarks & Route Layout (Continued 2)
-- Tunnel Worker's Rest House: Located in north-central Route 116 (yellow building with blue roof).
+- Tunnel Worker's Rest House: Located in north-central Route 116 at (37, 8) (yellow building with blue roof, worker and signpost outside).
 - Terrace Signpost: Located at roughly (29, 9) on the north terrace.
