@@ -32,3 +32,7 @@
 - **Eastern Route 121 Fence Maze (`(40, 12)` -> Lilycove City):**
   - From `(40, 12)`, walk `Right` 17 along `y = 12` to `(57, 12)`, `Up` 6 along `x = 57` through the fence opening at `(57, 7)` onto `(57, 6)`, `Right` 5 along `y = 6` to `(62, 6)` (avoiding **Pokéfan Vanessa `(63, 5)`** who rotates between Left `y = 5` and Down `x = 63`), and `Down` 5 along `x = 62` to `(62, 11)`.
   - From `(62, 11)`, walk `Right` 12 along `y = 11` to `(74, 11)` (**Cooltrainer Marcel `(65, 9)`** — `Manectric Lv. 29`, `Shiftry Lv. 29` [Defeated]; **Cooltrainer Cristin `(72, 9)`** — `Kecleon Lv. 29`, `Loudred Lv. 29`, `Vigoroth Lv. 29` [Defeated & Registered]), `Up` 4 to `(74, 7)`, and `Right` across the eastern border (`(79, 7)` -> `(0, 17)`, `y_lilycove = y_route121 + 10`) into **Lilycove City**.
+
+## Lilycove City
+- **West Entrance (from Route 121 `(79, 6..8)`):** `(0, 16..18)` (`y_lilycove = y_route121 + 10`).
+- **Lilycove Pokémon Center:** Door at `(24, 14)` (reached from `(0, 16)` via `Right` 21 along `y = 16` to `(21, 16)`, `Down` 1 to `(21, 17)` around the NPC at `(22, 16)`, `Right` 3 to `(24, 17)`, and `Up` 3 to `(24, 14)`) [Visited & Fly Spot Unlocked].
