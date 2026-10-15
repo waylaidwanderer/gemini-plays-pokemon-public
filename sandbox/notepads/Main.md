@@ -7,7 +7,7 @@
 - **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 33 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
-  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden) [Fainted]
+  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index

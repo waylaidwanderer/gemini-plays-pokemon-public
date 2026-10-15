@@ -353,9 +353,9 @@
 - **Path to Lavaridge Town (`(6, 47)` -> `(13, 10)`):**
   - From `(6, 47)`, step `Left` 1 to `(5, 47)`, `Down` 3 to `(5, 50)` (passing east of the signpost at `(4, 49)`), and `Left` 12 along `y = 50` into **Lavaridge Town `(13, 10)`**.
 - **Lavaridge Town Points of Interest:**
-  - **Lavaridge Pokémon Center:** Door at `(9, 5)` (from `(13, 10)`, walk `Left` 4 to `(9, 10)` and `Up` 5 into `(9, 5)`).
-  - **Lavaridge Poké Mart:** Door at `(15, 5)`.
-  - **Lavaridge Gym:** Door at `(5, 15)`.
+  - **Lavaridge Pokémon Center:** Door at `(9, 6)` (exiting steps to `(9, 7)`).
+  - **Lavaridge Poké Mart:** Door at `(15, 6)`.
+  - **Lavaridge Gym:** Door at `(5, 15)` (from `(9, 7)`, walk `Down` 9 along `x = 9` to `(9, 16)`, `Left` 4 to `(5, 16)`, and `Up` 1 into `(5, 15)`).
 
 <hr>
 
@@ -419,7 +419,7 @@
 - **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 33 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
-  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden) [Fainted]
+  2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index

@@ -62,6 +62,6 @@
 - **Path to Lavaridge Town (`(6, 47)` -> `(13, 10)`):**
   - From `(6, 47)`, step `Left` 1 to `(5, 47)`, `Down` 3 to `(5, 50)` (passing east of the signpost at `(4, 49)`), and `Left` 12 along `y = 50` into **Lavaridge Town `(13, 10)`**.
 - **Lavaridge Town Points of Interest:**
-  - **Lavaridge Pokémon Center:** Door at `(9, 5)` (from `(13, 10)`, walk `Left` 4 to `(9, 10)` and `Up` 5 into `(9, 5)`).
-  - **Lavaridge Poké Mart:** Door at `(15, 5)`.
-  - **Lavaridge Gym:** Door at `(5, 15)`.
+  - **Lavaridge Pokémon Center:** Door at `(9, 6)` (exiting steps to `(9, 7)`).
+  - **Lavaridge Poké Mart:** Door at `(15, 6)`.
+  - **Lavaridge Gym:** Door at `(5, 15)` (from `(9, 7)`, walk `Down` 9 along `x = 9` to `(9, 16)`, `Left` 4 to `(5, 16)`, and `Up` 1 into `(5, 15)`).
