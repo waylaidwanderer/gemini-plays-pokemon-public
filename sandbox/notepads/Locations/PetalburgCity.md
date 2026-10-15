@@ -9,7 +9,7 @@
 - Poké Mart: Located in the town square (blue roof).
 - Petalburg Gym: Located in the north-western area (Leader: Norman / Dad - Normal type, door at 15, 8).
 - Wally's House: Located in the western residential area.
-- Scott: Observer in sunglasses and trench coat standing near the gym pond at (17, 9).
+- Scott: Observer in sunglasses and trench coat standing near the gym pond at (18, 10).
 
 ## Progression Checklist - Petalburg City
 1. [x] Heal party at Pokémon Center and set respawn checkpoint.
@@ -20,3 +20,4 @@
 
 ## Story Notes
 - Norman's Advice: Head west to Route 104 and through Petalburg Woods to Rustboro City; challenge Gym Leader Roxanne (Rock-type); return to Petalburg Gym after earning 4 badges.
+- Petalburg Gym Exterior: Door at (15, 8). Gym sign at (16, 10). Main road intersection at row 13. Scott stands at (18, 10) by the eastern pond.
