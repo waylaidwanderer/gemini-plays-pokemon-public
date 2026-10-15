@@ -455,6 +455,8 @@
   - From `(8, 69)`, walk `Right` 2 to `(10, 69)`, `Up` 2 to `(10, 67)`, `Left` 3 to `(7, 67)` (**Parasol Lady Rachel `(8, 63)`** — `Goldeen Lv. 26` and **Bird Keeper Phil `(9, 63)`** — `Swellow Lv. 26` watch `(8, 67)` [Defeated]), and `Up` 11 along `x = 7` to `(7, 56)` (next to the Mach Bike mud slope at `(6, 54..55)` and trees at `(7..8, 55)`).
   - At `(7, 56)`, walk `Right` 2 to `(9, 56)`, `Right` 7 along `y = 56` through the tree canopy at `(10, 56)` and tall grass to `(16, 56)`, `Up` 2 to `(16, 54)`, `Right` 3 to `(19, 54)`, and `Up` 2 up the stairs at `(18..19, 53)` to `(19, 52)` (**Ninja Boy Takashi `(19, 49)`** — `Ninjask Lv. 25`, `Koffing Lv. 25` [Defeated] and **Kindler Dayton `(16, 52)`** — `Slugma Lv. 25`, `Numel Lv. 25` [Defeated]).
   - From `(19, 52)`, walk `Right` 2 to `(21, 52)` and `Up` 6 along `x = 21` down the stairs at `(20..21, 48)` to `(21, 46)`.
+## Weather Institute Courtyard & Interior (`(21, 46)` -> `(6, 32)`)
+- **Grass-Free Path (`(21, 46)` -> `(6, 32)`):** From `(21, 46)`, walk `Left` 3 to `(18, 46)`, `Up` 2 to `(18, 44)`, `Left` 5 along `y = 44` to `(13, 44)`, `Up` 2 to `(13, 42)`, `Left` 1 to `(12, 42)`, `Up` 1 to `(12, 41)`, `Left` 1 to `(11, 41)`, `Up` 2 to `(11, 39)`, `Left` 2 to `(9, 39)`, `Up` 3 to `(9, 36)`, `Left` 3 to `(6, 36)`, and `Up` 4 into the **Weather Institute** door at `(6, 32)` (signpost at `(9, 33)`; two Team Aqua Grunts block the northern bridge at `(12, 33..34)` until Team Aqua Admin Shelly is defeated).
 
 <hr>
 
