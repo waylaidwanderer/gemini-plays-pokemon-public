@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Defeated Fisherman Ivan on Route 104 North! Sage Lv 13 (HP 36/36), Lilz Lv 6, wallet ¥7200. Ready to read signpost, harvest berries, and enter Rustboro City!
+- Status: Arrived in Rustboro City at (17, 58)! Sage Lv 13 (HP 36/36), Lilz Lv 6 (HP 22/22), wallet ¥7200. Heading north along main street to find Pokémon Center.
 
 ## Party
 1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36.

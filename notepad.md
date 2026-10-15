@@ -190,6 +190,34 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 <hr>
 
+<h1><code>Locations/RustboroCity</code></h1>
+
+# Location: Rustboro City
+
+## Overview
+A large metropolitan city in western Hoenn known for the Devon Corporation and the first Pokémon Gym.
+
+## Connection Points
+- South Exit: Connects to Route 104 North at (17, 58..59).
+- East Exit: Connects to Route 116.
+- North-East Entrance: Rusturf Tunnel (via Route 116).
+
+## Key Buildings & Landmarks
+- Pokémon Center: Located on the main boulevard (red roof).
+- Poké Mart: Located near town center (blue roof).
+- Cutter's House: Located west of the Pokémon Center. Gives HM01 Cut!
+- Pokémon Trainer's School: Located near the Pokémon Center. Teacher gives Quick Claw!
+- Rustboro Gym: Located in northern Rustboro City. Leader: Roxanne (Rock-type).
+- Devon Corporation Headquarters: Large multi-story building in the north.
+
+## Progression Checklist - Rustboro City
+1. [ ] Heal at Pokémon Center and set checkpoint.
+2. [ ] Visit Cutter's House to receive HM01 Cut.
+3. [ ] Visit Pokémon Trainer's School to receive Quick Claw.
+4. [ ] Challenge and defeat Gym Leader Roxanne to earn the Stone Badge and TM39.
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Main Notepad
@@ -197,7 +225,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Defeated Fisherman Ivan on Route 104 North! Sage Lv 13 (HP 36/36), Lilz Lv 6, wallet ¥7200. Ready to read signpost, harvest berries, and enter Rustboro City!
+- Status: Arrived in Rustboro City at (17, 58)! Sage Lv 13 (HP 36/36), Lilz Lv 6 (HP 22/22), wallet ¥7200. Heading north along main street to find Pokémon Center.
 
 ## Party
 1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36.
