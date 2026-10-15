@@ -11,7 +11,7 @@
 - Wally's House: Located in the western residential area.
 
 ## Progression Checklist - Petalburg City
-1. [ ] Heal party at Pokémon Center and set respawn checkpoint.
+1. [x] Heal party at Pokémon Center and set respawn checkpoint.
 2. [ ] Visit Petalburg Gym and speak to Dad (Norman).
 3. [ ] Assist Wally with catching a wild Ralts using Norman's Zigzagoon.
 4. [ ] Speak to Norman again to receive gym challenge directions.
