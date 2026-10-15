@@ -480,6 +480,7 @@
   1. ATRITON (Swampert, Male, Lv. 40 — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 14 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
+  4. ZEPHYR (Castform, Lv. 25 [Holding Mystic Water] — Powder Snow, Rain Dance, Sunny Day, Hail)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
