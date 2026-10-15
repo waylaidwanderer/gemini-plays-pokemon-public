@@ -12,6 +12,7 @@
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
+- Berries: Oran Berry x2, Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - Money: ¥3492 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
