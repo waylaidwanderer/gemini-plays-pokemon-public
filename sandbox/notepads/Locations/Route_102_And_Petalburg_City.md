@@ -16,7 +16,7 @@
 ## Petalburg City
 - **East Entrance (from Route 102):** `(29, 18)`
 - **Pokémon Center Door:** `(20, 16)` (exiting steps to `(20, 17)`)
-- **Petalburg Poké Mart Door:** `(25, 12)` (interior doormat at `(3, 7)..(4, 7)`; clerk at `(1, 4)` faced from `(3, 4)`).
+- **Petalburg Poké Mart Door:** `(25, 12)` (interior doormat at `(3, 7)..(4, 7)`; clerk at `(1, 3)` faced from `(3, 3)`).
 - **Petalburg Gym Door:** `(15, 8)` (exiting steps to `(15, 9)`; interior entrance mat is `(4, 111)`).
   - **4-Badge Gym Route (3 Rooms to Norman):** Trainers in Petalburg Gym do not have line-of-sight triggers (talk to them with `A`), and sliding doors are opened by facing them and pressing `A` twice (`A, sleep 1500, A, sleep 1500, A, sleep 3500`):
     1. **Entrance Room `(4, 111)` -> Left Door `(1, 106)`:** Enters **Tier 1 Speed Room `(7, 85)`** (**Cooltrainer Randall `(4, 81)`** — `Swellow Lv. 26` [Defeated]).
