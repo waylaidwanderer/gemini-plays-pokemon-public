@@ -21,7 +21,7 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Eastern Bypass: Column 8 bypasses the water canal to the east! Tile (8, 21) is open floor.
 - Eastern Bypass & Pier: Column 8 runs north from row 22 to row 18, but rows 18-20 are a dead-end pier flanked by water and walls (no east/west exits at rows 18-19, water at 8, 17).
 - South Corridor: Row 22 walkway continues east past column 8 through (9, 22) and (11, 22).
-- South Wall Corner: The brown wall ends at column 11 and turns south along column 11, opening up column 12 to the south and east.
+- Column 12 Junction at (12, 22): At (12, 22), the corridor branches North into row 21 and South into rows 23-24 between the column 11 and column 13 wall blocks. Directly East at (13, 22) is an impassable brown wall with water above it.
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
@@ -540,7 +540,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 18, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Sage Lv 18 (HP 40/51), Lilz Lv 9 (HP 28/28), wallet ¥7796.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Sage Lv 18 (HP 51/51), Lilz Lv 9 (HP 28/28), wallet ¥7796.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: OK. Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
