@@ -14,3 +14,7 @@
   - From `(12, 35)`, walk `Right` 1 to `(13, 35)`, `Down` 4 to `(13, 39)`, `Right` 3 to `(16, 39)`, `Down` 3 to `(16, 42)`, `Right` 1 to `(17, 42)`, `Down` 2 to `(17, 44)`, `Right` 1 to `(18, 44)`, and `Down` 13 along `x = 18` to `(18, 57)` (note: `(19, 48)` is blocked by an optional invisible Kecleon; item ball at `(20, 55)`).
   - From `(18, 57)`, walk `Right` 3 to `(21, 57)`, `Down` 1 to `(21, 58)`, `Right` 3 to `(24, 58)`, `Down` 3 to `(24, 61)` (east-facing ledge at `x = 21, y = 60..63`), and `Right` 9 along `y = 61` to `(33, 61)` (note: `(34, 61)` is blocked by an optional invisible Kecleon).
   - From `(33, 61)`, walk `Up` 1 to `(33, 60)`, `Right` 3 along `y = 60` to `(36, 60)`, and `Down` 1 to jump the southbound ledge at `(36, 61)` onto `(36, 62)`.
+- **Southern Wooden Bridge & Exit Corridor (`(36, 62)` -> Route 121):**
+  - From `(36, 62)`, walk `Down` 5 along `x = 36` to `(36, 67)` and `Left` 16 along `y = 67` across the Southern Wooden Bridge (`x = 32..23, y = 67..68`) to `(20, 67)`.
+  - From `(20, 67)`, walk `Down` 10 along `x = 20` to `(20, 77)` (note: the staircase at `(22, 76)` reached via `(20, 75)` -> `(22, 75)` leads to a dead-end item alcove at `(22, 83)`).
+  - From `(20, 77)`, walk `Left` 3 to `(17, 77)`, `Down` 1 to `(17, 78)`, `Left` 1 to `(16, 78)`, and `Down` 5 along `x = 16` to `(16, 83)` (**Bug Maniac Brandon `(19, 80)`** watches `(16, 80)` — `Surskit Lv. 27` [Defeated]).
