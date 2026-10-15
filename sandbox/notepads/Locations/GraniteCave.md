@@ -19,12 +19,9 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Northeast Exit Plateau: The ladder at (35, 3) and row 6 jump ledge are the one-way return exit from Steven's chamber back to the entrance.
 
 ## Granite Cave B1F
-- Southwest Ladder: Located at (4, 21) leading back to 1F.
-- Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 to (3, 14). Turn East to (6, 14), step Up to (6, 12/13), then follow corridor EAST along row 12/13 to (22, 13).
-- Row 13 Boundary: Confirmed that row 13 dead-ends at a solid eastern cliff wall at column 22 (east blocked at 23, 13; north blocked at 22, 12). The only path forward is south down column 22.
-- Column 22 Corridor: Runs south from (22, 13) to row 17, loops through (24, 16) down to row 20, and connects east to the descent ladder at (28, 21).
-- Descent Ladder to B2F: Located at (28, 21) in the southeast. Mandatory progression route to B2F to find the footpath leading to Steven's chamber.
-- Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
+- Southwest Ladder: Located at (4, 21) leading back to 1F entrance.
+- Southeast Descent Ladder: Located at (28, 21) leading down to B2F.
+- Closed Route Status: The accessible path on B1F is strictly a closed corridor connecting (4, 21) and (28, 21). Verified in Turns 1941, 1963, 2012, and 2069 that (22, 13) is impassable to both North and East, and col 28 is blocked north at row 19. B1F has NO northern exit to the northeast ladder; progression MUST go through B2F.
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron, Sableye.
@@ -32,23 +29,19 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
 - [x] Descend Southwest Ladder at (17, 11) to B1F.
-- [x] Navigate B1F to find descent to B2F.
-- [ ] Navigate to Steven's chamber.
+- [x] Navigate B1F to find descent to B2F at (28, 21).
+- [ ] Locate ascent ladder on B2F leading to Steven's secluded chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 
 ## Granite Cave B2F
-- Ascent Ladder to B1F (Southeast): Located at (28, 21), bidirectional ladder to B1F.
-- Strategic Status: 100% surveyed! B2F is an optional floor containing Aron, Abra, Sableye, and Everstone. All northern upper rows (rows 1-10) are on an elevated plateau requiring Mach Bike (mud slope at 4, 13) or Rock Smash (rocks at 2, 16, 3, 14, 5, 14, 7, 12).
-- Progression Route: Return to B1F via ladder at (28, 21). On B1F, navigate north along the eastern sector directly to the northeast ladder (ascending to 1F at 35, 3 to Steven's chamber)!
-- Topography:
-  - Eastern Sector: Column 28 runs from ladder (28, 21) north to (28, 16). Solid east wall spans col 29 from row 16 to row 23. Row 16 extends west from (28, 16) to (23, 16).
-  - Central Corridor: Row 17 connects col 28 west through (13, 17). Column 13 connects row 17 south to row 22 at (13, 22). North of row 17 is solid wall from col 13 to 22.
-  - South Corridor: Row 22 connects col 13 west through (4, 21). Cracked rock at (6, 22) bypassed north via row 21. Row 22 ends east at (14, 22).
-  - West Sector: From (4, 21), col 4 leads north to mud slope at (4, 13) (requires Mach Bike). Cracked rock at (3, 14) and (5, 14).
-  - Row 15 Highway: Open east-west corridor spanning columns 5 through 21! Direct route connecting east and west sectors.
-  - Column 6 North Passage: Open branch north from row 15 up through (6, 14) into (6, 13)!
-  - Row 13 Upper Corridor: Open east from (6, 13) toward col 7+ beneath boulder at (7, 12).
-  - Column 21 Corridor: Connects row 15 at (21, 15) north to (21, 11).
-  - Northern Sector: Rows 10-12 across cols 6-21 have solid north cliff wall separating lower cavern from upper plateau.
+- Southeast Ladder: Located at (28, 21), bidirectional ladder to B1F.
+- Mandatory Progression Floor: Contains the ascent ladder leading up into the secluded northeast section of B1F and subsequently the 1F high plateau to Steven's chamber.
+- Topography & Key Features:
+  - Eastern Sector: Column 28 connects south to ladder at (28, 21) and north to row 16/17 corridor.
+  - Central Corridor: Row 17 connects col 28 west through (13, 17). Column 13 connects row 17 south to row 22 at (13, 22).
+  - South Corridor: Row 22 connects col 13 west through (4, 21). Rock at (6, 22) bypassed via row 21.
+  - West Sector: From (4, 21), col 4 leads north to mud slope at (4, 13) (Mach Bike required). Smash rocks at (2, 16), (3, 14), (5, 14), (7, 12).
+  - Row 15 Highway: Open east-west corridor spanning columns 4 through 21.
+  - Column 6 North Passage: Open branch north from row 15 up through (6, 14) into row 13.
 - Wild Encounters: Aron, Abra (caught CIPHER!), Zubat, Sableye, Makuhita (Lv 11-12).
