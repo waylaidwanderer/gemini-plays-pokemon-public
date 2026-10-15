@@ -240,11 +240,12 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 - North-West Coast: Curves west towards Granite Cave entrance.
 
 ## Trainers
-1. Fisherman Ned:
+1. Fisherman Ned: [DEFEATED]
    - Location: (65, 14), facing East.
    - Pre-battle: "What do people do if they need to go to a washroom? What if my ROD hooks a big one while I'm in the washroom? I just can't go..."
-   - Team: Tentacool ♂ Lv 11.
-   - Status: Battle in progress.
+   - Team: Tentacool ♂ Lv 11 (fainted).
+   - Defeat quote: "I lost because I'm trying to not go to the washroom"
+   - Reward: ¥440, 247 EXP.
 
 ## Mechanics Discovered
 - Water Sightlines: Trainers facing water do not spot and trigger battles with players walking on adjacent beach tiles across water. Speaking to them directly from an adjacent tile starts the battle.
