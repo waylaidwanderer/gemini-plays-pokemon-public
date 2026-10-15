@@ -213,8 +213,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 
 ## Trainers
 1. Youngster Joey:
-   - Location: (11, 7), facing East.
-   - Status: Active challenge.
+   - Location: (12, 7), facing East.
+   - Status: Engaging in battle.
 
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
