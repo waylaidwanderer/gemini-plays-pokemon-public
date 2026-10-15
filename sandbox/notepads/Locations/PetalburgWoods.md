@@ -16,12 +16,11 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Southwest Item Ball: [COLLECTED] Paralyze Heal at (4, 26).
 - Central Connector: Row 24 clear dirt corridor runs east from col 6 to col 18 beneath the central one-way ledge (ledge spans cols 12..16, row 22).
 - Eastern Grass Patch: Columns 19..24 at rows 24..25.
-- Eastern Corridor: Clear vertical dirt path along column 25 heading north toward central/north woods.
-- Devon Researcher Event: Triggered at (26, 23) approaching the researcher at (26, 19).
-- Key Events & Progression: Team Aqua Grunt ambushes the Devon researcher; defeating the Grunt earns a Great Ball, heals the party, and opens the path north.
+- Eastern Corridor: Clear vertical dirt path along column 26 heading north toward central/north woods.
+- Devon Researcher Encounter: Located at (26, 19..22).
 
 ## Key Events & Progression
-- Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball and opens passage to northern exit.
+- Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball, heals the party, and opens passage to northern exit.
 
 ## Wild Encounters & Trainers
 - Wild Pokémon: Shroomish, Slakoth, Wurmple, Silcoon, Cascoon, Taillow, Poochyena.
@@ -29,4 +28,7 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
   - Location: (7, 34) (originally spotted May from col 7, row 31).
   - Team: Wurmple Lv 3, Wurmple Lv 3.
   - Reward: ¥48, EXP.
-- Trainers: Bug Catchers, Team Aqua Grunt.
+- Team Aqua Grunt: [BATTLING]
+  - Location: (26, 21) confronting Devon researcher.
+  - Team: Poochyena ♂ Lv 9.
+  - Reward: ¥180, Great Ball (from Researcher).
