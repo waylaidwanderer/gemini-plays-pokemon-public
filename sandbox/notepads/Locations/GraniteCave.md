@@ -14,9 +14,9 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Northern Elevated Plateau: Contains a ladder down to B1F at roughly (34..35, 5).
 - Main Path: Wide corridor at rows 7..9 leading West beneath the row 6 ledge, looping north and east around to the upper plateau.
 - Western Corridor: Runs along rows 6..8 from col 30 to col 18.
-- Southwest Item Ball: Located at (17, 7) in the western passage.
-- Southwest Ladder: Located at roughly (17..18, 11) leading down to lower floor.
-- Northwest Passage: Turns north at column 18 towards upper level.
+- Southwest Item Ball: [COLLECTED] Escape Rope at (17, 7).
+- Southwest Ladder: Located at (17, 11) leading down to lower floor.
+- North Ramp to Upper Plateau: Begins at (21..22, 6) leading to northern walkway and Northeast Ladder at (35, 5).
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron.

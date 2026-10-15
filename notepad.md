@@ -45,9 +45,9 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Northern Elevated Plateau: Contains a ladder down to B1F at roughly (34..35, 5).
 - Main Path: Wide corridor at rows 7..9 leading West beneath the row 6 ledge, looping north and east around to the upper plateau.
 - Western Corridor: Runs along rows 6..8 from col 30 to col 18.
-- Southwest Item Ball: Located at (17, 7) in the western passage.
-- Southwest Ladder: Located at roughly (17..18, 11) leading down to lower floor.
-- Northwest Passage: Turns north at column 18 towards upper level.
+- Southwest Item Ball: [COLLECTED] Escape Rope at (17, 7).
+- Southwest Ladder: Located at (17, 11) leading down to lower floor.
+- North Ramp to Upper Plateau: Begins at (21..22, 6) leading to northern walkway and Northeast Ladder at (35, 5).
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron.
@@ -514,6 +514,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
 - Money: ¥7796
+- Items: Escape Rope x1 (collected on Granite Cave 1F at 17, 7)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
