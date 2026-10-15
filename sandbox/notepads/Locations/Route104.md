@@ -49,8 +49,8 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Route 104 Bridge Topography:
   - Southern bridge spans north along cols 30..31 from row 23 to row 15.
   - At row 15, the path turns West along a horizontal walkway (rows 14..15, cols 30..25) connecting to the northern bridge segment at col 25.
-- Twins Gina & Mia: [IN BATTLE]
+- Twins Gina & Mia: [DEFEATED]
   - Location: (27..28, 15) along the horizontal bridge walkway, facing South.
-  - Team: Seedot Lv 6 (knows Bide, Harden), Lotad Lv 6 (knows Astonish, Growl).
+  - Team: Seedot Lv 6, Lotad Lv 6.
   - Battle Type: 2-on-2 Double Battle.
-  - Reward: TBD.
+  - Reward: ¥192, EXP.

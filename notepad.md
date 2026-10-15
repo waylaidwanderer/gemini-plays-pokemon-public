@@ -174,11 +174,11 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Route 104 Bridge Topography:
   - Southern bridge spans north along cols 30..31 from row 23 to row 15.
   - At row 15, the path turns West along a horizontal walkway (rows 14..15, cols 30..25) connecting to the northern bridge segment at col 25.
-- Twins Gina & Mia: [IN BATTLE]
+- Twins Gina & Mia: [DEFEATED]
   - Location: (27..28, 15) along the horizontal bridge walkway, facing South.
-  - Team: Seedot Lv 6 (knows Bide, Harden), Lotad Lv 6 (knows Astonish, Growl).
+  - Team: Seedot Lv 6, Lotad Lv 6.
   - Battle Type: 2-on-2 Double Battle.
-  - Reward: TBD.
+  - Reward: ¥192, EXP.
 
 <hr>
 
@@ -189,11 +189,11 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Defeated Lass Haley on Route 104 North! Sage Lv 13 (HP 29/36), wallet ¥6776. Heading north across the bridge toward Rustboro City.
+- Status: Defeated Twins Gina & Mia on Route 104 bridge! Sage Lv 13 (HP ~25/36), Lilz Lv 6, wallet ¥6968. Heading north across the bridge toward Rustboro City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 29/36.
-2. LILZ (Lotad ♀, Level 5) - Caught on Route 102. Moves: Astonish, Growl. HP: 19/19.
+1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: ~25/36.
+2. LILZ (Lotad ♀, Level 6) - Caught on Route 102. Moves: Astonish, Growl. HP: ~21/21.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
@@ -203,7 +203,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods)
-- Money: ¥6776 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley)
+- Money: ¥6968 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥192 from Gina & Mia)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
