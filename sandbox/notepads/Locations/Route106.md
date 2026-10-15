@@ -15,9 +15,10 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 - North-West Coast: Curves west towards Granite Cave entrance.
 
 ## Trainers
-1. Fisherman (Route 106 South Beach):
+1. Fisherman Ned:
    - Location: (65, 14), facing East.
-   - Status: Challenging to battle.
+   - Pre-battle: "What do people do if they need to go to a washroom? What if my ROD hooks a big one while I'm in the washroom? I just can't go..."
+   - Status: Battle in progress.
 
 ## Progression Checklist - Route 106 & Granite Cave
 - [ ] Battle Route 106 trainers.
