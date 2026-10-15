@@ -11,7 +11,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Key Buildings & Landmarks
 - Pokémon Center: Located at (16, 38) (red roof, door at 16, 38).
 - Poké Mart: Located at (16, 44) (blue roof, door at 16, 44).
-- Cutter's House: Located at (11..12, 38) directly west of Pokémon Center. House signpost at (13, 39). Gives HM01 Cut!
+- Cutter's House: Located at (10, 38) directly west of Pokémon Center. House signpost at (12, 38). Gives HM01 Cut!
 - Pokémon Trainer's School: Located near the Pokémon Center. Teacher gives Quick Claw!
 - Rustboro Gym: Located in northern Rustboro City. Leader: Roxanne (Rock-type).
 - Devon Corporation Headquarters: Large multi-story building in the north.
