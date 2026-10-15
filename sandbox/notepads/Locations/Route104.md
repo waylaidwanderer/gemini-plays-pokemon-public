@@ -30,8 +30,8 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Reward: ¥1400.
 
 ## Landmarks & Features (North Section)
-- Petalburg Woods North Gate: Connects south into Petalburg Woods.
-- Bullet Seed NPC: Boy standing at (5, 26) outside Petalburg Woods gate; gives TM09 Bullet Seed.
+- Petalburg Woods North Gate: Connects south into Petalburg Woods (warp at 14, 5 in woods, exit at 10, 29 on Route 104).
+- Bullet Seed NPC: Boy standing at (5, 26) outside Petalburg Woods gate; gave TM09 Bullet Seed!
 - Berry Trees: Soft loamy soil at (3, 23..25). Harvested 2 Cheri Berries at (3, 25); harvested 2 Oran Berries at (3, 23). Soft soil patches also outside flower shop.
-- Pretty Petal Flower Shop: Flower shop run by three sisters; provides the Wailmer Pail and berry tutorial/gifts.
+- Pretty Petal Flower Shop: Located at rows 18-20, columns 2..10. Shop sign at (8, 20). Entrance door is at (4, 18) with cobblestone entrance from column 4. Flower boxes at (9..11, 20..21). Pond is at column 13+. Provides Wailmer Pail and berries.
 - Highway to Rustboro City: Leads north past trainers directly into Rustboro City.
