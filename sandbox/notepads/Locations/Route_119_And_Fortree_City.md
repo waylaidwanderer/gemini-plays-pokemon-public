@@ -22,3 +22,4 @@
 - **Weather Institute 1F:**
   - **Entrance Doormat:** `(9, 12)..(10, 12)`.
   - **Rest Bed `(1, 3)`:** Reached from `(9, 12)` via `Up` 1 to `(9, 11)`, `Left` 5 to `(4, 11)`, `Up` 5 through the doorway at `(4, 9..10)` to `(4, 6)`, `Left` 2 through the bedroom opening at `(3, 6..7)` to `(2, 6)`, `Up` 3 to `(2, 3)`, and `Left` 1 to face `(1, 3)` and press `A` (fully heals party HP and PP).
+  - **1F Trainers:** **Team Aqua Grunt (F) `(10, 5)`** (`Carvanha Lv. 28` [Defeated]) watches `(10, 7)`; **Team Aqua Grunt (M) `(15, 3)`** faces Left.

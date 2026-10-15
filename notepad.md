@@ -460,6 +460,7 @@
 - **Weather Institute 1F:**
   - **Entrance Doormat:** `(9, 12)..(10, 12)`.
   - **Rest Bed `(1, 3)`:** Reached from `(9, 12)` via `Up` 1 to `(9, 11)`, `Left` 5 to `(4, 11)`, `Up` 5 through the doorway at `(4, 9..10)` to `(4, 6)`, `Left` 2 through the bedroom opening at `(3, 6..7)` to `(2, 6)`, `Up` 3 to `(2, 3)`, and `Left` 1 to face `(1, 3)` and press `A` (fully heals party HP and PP).
+  - **1F Trainers:** **Team Aqua Grunt (F) `(10, 5)`** (`Carvanha Lv. 28` [Defeated]) watches `(10, 7)`; **Team Aqua Grunt (M) `(15, 3)`** faces Left.
 
 <hr>
 
@@ -468,7 +469,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$14,669 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$15,229 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x8, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
