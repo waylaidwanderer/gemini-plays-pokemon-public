@@ -30,7 +30,8 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Row 14-15 West Corridor: At (11, 14), the corridor leads west into row 14, forming an open 1-tile walkway running west through (10, 14), (9, 14), and (7, 14) to (5, 14).
 - Tile (4, 14) Wall: At (5, 14), west into column 4 is blocked by a wall/divider.
 - Column 5-6 South Corridor: Leads south from (5, 14) down to (5, 16), dead-ending south at a row 17 wooden wall.
-- Row 16 West Walkway: At (5, 16), row 16 forms an open 1-tile walkway running west through (4, 16) and (3, 16) into the western wing, flanked by water at row 15 to the north and a wooden wall at row 17 to the south.
+- Row 16 West Walkway: At (5, 16), row 16 forms an open 1-tile walkway running west through (4, 16) and (3, 16) to (2, 16), flanked by water at row 15 to the north and a wooden wall at row 17 to the south.
+- Column 2 South Corridor: At (2, 16), the walkway turns south along column 2 past row 17 toward row 18.
 - Water Canal Northwest: Blue water visible at (6, 13) bordering the north side of the corridor.
 - Column 12 Upper North Corridor: Column 12 forms a straight 1-tile wide hallway running north through (12, 13) to (12, 9), bordered by walls on both sides.
 - Row 8 Junction at (12, 8): Column 12 intersects row 8. West (11, 8) runs beneath water at (11, 7). East (13, 8) opens into a wide floor area. Column 12 continues straight north into row 7 along the eastern bank of the water.
