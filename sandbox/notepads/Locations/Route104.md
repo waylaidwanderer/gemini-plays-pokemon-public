@@ -31,7 +31,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 ## Landmarks & Features (North Section)
 - Petalburg Woods North Gate: Connects south into Petalburg Woods.
-- Bullet Seed NPC: Boy standing outside the forest gate who gives TM09 Bullet Seed.
+- Bullet Seed NPC: Boy standing at (4, 26) outside Petalburg Woods gate; gives TM09 Bullet Seed.
+- Berry Trees: Soft loamy soil at (3, 24..25). Harvested 2 Cheri Berries at (3, 25); second tree at (3, 24) ripe. Soft soil patches also outside flower shop.
 - Pretty Petal Flower Shop: Flower shop run by three sisters; provides the Wailmer Pail and berry tutorial/gifts.
-- Berry Trees: Soft loamy soil patches outside the flower shop.
 - Highway to Rustboro City: Leads north past trainers directly into Rustboro City.
