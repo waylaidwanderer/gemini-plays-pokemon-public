@@ -294,6 +294,7 @@
 ## Route 118
 - **West Entrance (from Mauville City `(39, 8)`):** `(0, 8)`.
 - **Western Shore Trainers:** **Youngster Deandre `(7, 7)`** (`Zigzagoon Lv. 14`, `Aron Lv. 14`, `Electrike Lv. 16`) and **Aroma Lady Rose `(7, 11)`** (`Roselia Lv. 14`, `Shroomish Lv. 14`, `Roselia Lv. 14`) both watch `(7, 8)` [Defeated & Registered].
+- **Overworld Surf Sequence:** Facing a surfable water tile and pressing `A` opens `"The water is dyed a deep blue... Would you like to SURF?" [YES / NO]` (~1500ms); pressing `A` a second time confirms `YES` and prints `"[POKéMON] used SURF!"`, and you must press `A` or `B` a **third** time (`A, sleep 1500, A, sleep 1000, B, sleep 3000`) to dismiss `"[POKéMON] used SURF!"` and trigger the field-move cut-in and hop onto the water.
 
 <hr>
 
@@ -441,7 +442,7 @@
 - **Inventory:** Super Potion x8, Super Repel x1, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 37 — Mud Shot, Rock Tomb, Rock Smash, Surf)
-  2. OBERON (Beautifly, Male, Lv. 14 — Gust, String Shot, Poison Sting, Harden)
+  2. OBERON (Beautifly, Male, Lv. 14 [Fainted] — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
 ## Notepad Index
