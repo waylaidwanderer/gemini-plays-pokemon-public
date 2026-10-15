@@ -231,7 +231,7 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Location: (22, 17), facing West.
    - Pre-battle: "I study at school, and I study on the way home, too!"
    - Team: Shroomish Lv 9 (fainted).
-   - Defeat quote: "I failed to study enough!"
+   - Defeat quote: "I'm in shock--I lost?"
    - Reward: ¥180, 124 EXP.
 
 3. Bug Catcher Jose:
