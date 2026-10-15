@@ -632,15 +632,14 @@
 - **Mossdeep City Gym:** Door at `(38, 9)` (exiting steps to `(38, 10)`). Reached from the Pokémon Center `(28, 17)` via `Right` 5 to `(33, 17)`, `Up` 7 along `x = 33` to `(33, 10)`, `Right` 5 along `y = 10` to `(38, 10)`, and `Up` 1 into `(38, 9)`.
 
 ## Mossdeep City Gym (`(38, 9)` -> `(6, 35)`)
-- **Mechanics:** Stepping onto a colored Floor Switch (`Yellow`, `Blue`, `Green`, `Purple`, `Red`) rotates its corresponding 2x2 conveyor/statue/trainer block by **90° counter-clockwise** (4 states mod 4). Note that the rotation triggers on the step *off* or after settling on the switch tile.
+- **Mechanics:** Stepping onto a colored Floor Switch (`Yellow`, `Blue`, `Green`, `Purple`, `Red`) slides the statues and trainers on the matching-color arrow track by 1 tile along the arrows (4 states mod 4). The arrow tiles themselves do NOT slide the player; the player walks across uncovered arrow tiles like normal floor. In `run_code`, stepping onto a Gym floor switch aborts the current `press_buttons` call and plays the slide animation on the next `press_buttons` call (prepend `"sleep 1500"` before stepping off).
 - **Room 1 (`(6, 35)` -> `(3, 28)`):**
   - From the entrance at `(6, 35)`, walk `Up` 4 to `(6, 31)`, `Left` 3 along `y = 31` to `(3, 31)`, and `Up` 1 onto the **Yellow Floor Switch at `(3, 30)`**.
   - Stepping onto `(3, 30)` rotates **Psychic Preston `(2, 30)`** (`Kirlia Lv. 36`) and **Psychic Maura `(4, 30)`** (`Kadabra Lv. 36`) to face `(3, 30)` for a Double Battle [Defeated].
   - From `(3, 30)`, walk `Up` 2 through `(3, 29)` onto the teleporter pad at **`(3, 28)`**, which warps to **Room 2 at `(1, 23)`** (note: `(7, 30)` and `(1, 33)` in Room 1 are return/later pads).
 - **Room 2 (`(1, 23)` -> `(9, 18)`):**
   - Contains a **Yellow Floor Switch at `(2, 21)`** and a 2x2 counter-clockwise conveyor loop at **`(4..5, 20..21)`**, with **Psychic Samantha `(4, 23)`** facing `Up` toward `(4, 22)` (`Xatu Lv. 36` [Defeated]) and **Psychic Blake** on the 2x2 block.
-  - Note: in `run_code`, stepping onto a Gym floor switch aborts the current `press_buttons` call and plays the rotation animation on the next `press_buttons` call (prepend `"sleep 1500"` before stepping off).
-  - After **1 press** of `(2, 21)` (State 1), `(4..5, 20..21)` has Statue at `(4, 20)`, **Psychic Blake** facing `Down` at `(4, 21)` (watches `(4, 22)`), `Up` (`^`) conveyor at `(5, 21)`, and `Left` (`<`) conveyor at `(5, 20)`. Walk `Right` 3 from `(2, 22)` to `(5, 22)` (defeating Psychic Blake at `(4, 22)`), step `Up` 1 onto `(5, 21)` (slides `Up` to `(5, 20)` against the Statue at `(4, 20)`), then walk `Right` 3 to `(8, 20)`, `Up` 2 to `(8, 18)`, and `Right` 1 onto the teleporter at **`(9, 18)`**.
+  - After **1 press** of `(2, 21)` (State 1), `(4..5, 20..21)` has Statue at `(4, 20)` and **Psychic Blake** facing `Down` at `(4, 21)` (`Girafarig Lv. 36` [Defeated]), leaving `(5, 21)` and `(5, 20)` uncovered. Walk `Right` 3 from `(2, 22)` to `(5, 22)` (defeating Psychic Blake at `(4, 22)`), walk `Up` 2 through `(5, 21)` to `(5, 20)`, `Right` 3 to `(8, 20)`, `Up` 2 to `(8, 18)`, and `Right` 1 onto the teleporter at **`(9, 18)`**.
 
 <hr>
 
