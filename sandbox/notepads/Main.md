@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 10, Male), Nickname: SAGE
-- Status: Entered Petalburg Woods! Defeated Lady Cindy (Sage Lv 11, Quick Attack). Navigating through the forest toward the Devon researcher and northern exit.
+- Status: Entered Petalburg Woods! Defeated Lady Cindy and Bug Catcher Lyle (Sage Lv 11). Navigating through the forest toward the Devon researcher and northern exit.
 
 ## Party
 1. SAGE (Treecko ♂, Level 11) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 26/32.
