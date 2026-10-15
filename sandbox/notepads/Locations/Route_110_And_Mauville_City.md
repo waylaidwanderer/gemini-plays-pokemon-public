@@ -48,3 +48,7 @@
 - **Direct Eastbound Straight-Line Corridor (`(8, 2)` -> Mauville City `(1, 8)`):**
   - In **Verdanturf Town**, walk `Down` 3 from `(8, 2)` to `(8, 5)`, `Right` 11 along `y = 5` to `(19, 5)`, `Down` 3 to `(19, 8)`, and `Right` 1 onto **Route 117 `(0, 8)`**.
   - Across **Route 117** (`(0, 8)` to `(59, 8)`) and **Mauville City** (`(0, 8)` to `(39, 8)`), row `y = 8` is a completely unobstructed, tall-grass-free 100-tile straight line all the way from **Verdanturf Town `(19, 8)`** onto **Route 118 `(0, 8)`** (**Pokémon Breeder Isaac `(33, 10)`** — `Whismur Lv. 11`, `Zigzagoon Lv. 11`, `Aron Lv. 11`, `Poochyena Lv. 11`, `Taillow Lv. 11`, `Makuhita Lv. 11` [Defeated & Registered] and **Bug Maniac Derek `(17, 12)`** — `Dustox Lv. 16`, `Beautifly Lv. 16` [Defeated]).
+
+## Route 118
+- **West Entrance (from Mauville City `(39, 8)`):** `(0, 8)`.
+- **Western Shore Trainers:** **Youngster Deandre `(7, 7)`** (`Zigzagoon Lv. 14`, `Aron Lv. 14`, `Electrike Lv. 16`) and **Aroma Lady Rose `(7, 11)`** (`Roselia Lv. 14`, `Shroomish Lv. 14`, `Roselia Lv. 14`) both watch `(7, 8)` [Defeated & Registered].
