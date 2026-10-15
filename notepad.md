@@ -485,6 +485,20 @@
   - Note: `(20, 11)` is blocked by an invisible Kecleon guarding the item ball at `(22, 13)`.
   - From `(16, 7)`, walk `Right` 4 to `(20, 7)`, `Up` 2 to `(20, 5)`, `Right` 12 along `y = 5` to `(32, 5)`, `Down` 8 along `x = 32` to `(32, 13)` (behind **Bird Keeper Robert `(32, 14)`** facing Right), `Left` 4 to `(28, 13)`, `Down` 2 to `(28, 15)`, and `Left` 14 along `y = 15` across the wooden bridge to `(14, 15)` facing **Steven Stone `(13, 15)`** (who reveals the invisible **Kecleon Lv. 30** at `(13, 16)` and awards the **Devon Scope**).
 
+## Fortree Gym (`(22, 11)` Door -> Entrance Mat `(15, 24)`)
+- **Room 1 (`(15, 24)` -> `(2, 18)`):**
+  - **Turnstile #1 (`(11, 21)` hub):** Walk `Up` 2 from `(15, 24)` to `(15, 22)` and `Left` 6 along `y = 22` through `(11, 22)` (pushes the `Down` arm `Left`, rotating Turnstile #1 clockwise) to `(9, 22)`.
+  - **Turnstile #2 (`(5, 22)` hub) & Bird Keeper Humberto `(4, 23)`:** From `(9, 22)`, walk `Left` 2 to `(7, 22)`, `Down` 1 to `(7, 23)`, and `Left` 2 through `(6, 23)` onto `(5, 23)` (pushes the `Down` arm `Left`, rotating the `Up` arm to `Right` and triggering **Bird Keeper Humberto `(4, 23)`** — `Skarmory Lv. 30` [Defeated]).
+  - **Turnstile #3 (`(2, 18)`/`(3, 18)` hub):** From `(5, 23)`, walk `Up` 1 to `(5, 22)`, `Left` 1 to `(4, 22)`, `Up` 2 to `(4, 20)`, `Left` 2 to `(2, 20)`, and `Up` 2 through `(2, 19)` onto `(2, 18)` (pushes the `Left` arm `Up`, rotating the 2-tile `Right` arm `Down`).
+- **Room 2 (`(2, 18)` -> `(9, 11)`):**
+  - **2v2 Double Battle at `(4, 17)`:** Walk `Up` 1 from `(2, 18)` to `(2, 17)` and `Right` 2 to `(4, 17)` to battle **Bird Keeper Jared `(4, 14)`** (`Doduo Lv. 27`, `Skarmory Lv. 27`, `Tropius Lv. 27` [Defeated]) and **Picnicker Ashley `(5, 17)`** (`Swablu Lv. 27 x3` [Defeated]).
+  - **Turnstile #4 (`(8, 15)` hub) & Turnstile #5 (`(8, 11)`/`(9, 11)` 2-arm bar) Solution:**
+    1. From `(4, 17)`, walk `Down` 1 to `(4, 18)`, `Right` 3 to `(7, 18)`, `Up` 2 to `(7, 16)`, `Right` 1 to `(8, 16)`, and `Up` 2 through `(8, 15)` to `(8, 14)` (rotates Turnstile #4 clockwise).
+    2. Note: Turnstile #5 (`y = 11..12`) starts as a horizontal 2-arm bar (`Left` and `Right` arms). To cross onto `(9, 11)`, do NOT push Turnstile #5 from `(8, 12)` first; instead, while Turnstile #5 is horizontal, reset Turnstile #4 via `(8, 14)` -> `Down` 1 to `(8, 15)`, then walk `Left` 1 to `(7, 15)`, `Up` 1 to `(7, 14)` (open because Turnstile #4's `Left` arm is only 1 tile long in its initial state), `Right` 2 through `(8, 14)` onto `(9, 14)` (pushes Turnstile #4's `Up` arm `Right`), `Up` 2 to `(9, 12)`, and `Up` 1 through `(9, 12)` onto `(9, 11)` (pushes Turnstile #5's horizontal `Right` arm `Up`).
+- **Room 3 (`(9, 11)` -> `(2, 7)`):**
+  - **2v2 Double Battle at `(9, 10)`:** Stepping `Up` 1 from `(9, 11)` to `(9, 10)` triggers **Camper Flint `(10, 10)`** (`Swellow Lv. 29`, `Xatu Lv. 29`) and **Bird Keeper Edwardo `(9, 8)`** (`Doduo Lv. 29`, `Pelipper Lv. 29`).
+  - **Turnstile #6 Bypass (`(9, 10)` -> `(2, 7)`):** Because Turnstile #6's 2-tile arm starts pointing `Right` along `y = 6..7`, walk `Left` 3 from `(9, 10)` to `(6, 10)`, `Up` 2 to `(6, 8)`, `Left` 4 along `y = 8` to `(2, 8)`, and `Up` 1 to `(2, 7)` without touching Turnstile #6.
+
 <hr>
 
 <h1><code>Main</code></h1>
