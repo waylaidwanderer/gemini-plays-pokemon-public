@@ -66,6 +66,10 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [ ] Navigate to Steven's chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
+## Granite Cave B2F
+- Entrance Ladder from B1F: Located at (28, 21).
+- Topography: Wall is to the east; walkable cave floor opens to the west toward col 27.
+- Objective: Navigate B2F to find the ascent ladder leading to Steven Stone's chamber / 1F exit plateau.
 
 <hr>
 
