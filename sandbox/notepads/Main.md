@@ -20,7 +20,7 @@
 - `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 - `Locations/Route_109_And_Slateport_City`: Coordinates, trainer statuses, and routing for Route 109 and Slateport City.
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
-- `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, and Fiery Path.
+- `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
 - `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, and Lilycove City.

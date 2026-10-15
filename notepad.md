@@ -390,7 +390,10 @@
   - From `(10, 34)`, walk `Up` 11 along `x = 10` to `(10, 23)` and `Left` 3 to `(7, 23)` facing the bottom boulder at `(6, 23)`.
   - Activate Strength and push `(6, 23)` `Left` 1 to `(5, 23)` (Push #1).
   - Step `Left` 1 to `(6, 23)`, `Up` 1 into `(6, 22)`, and push `(5, 22)` `Left` 1 into the `(4, 22)` side pocket (Push #2).
-  - Step `Left` 1 to `(5, 22)` and walk `Up` along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..`).
+  - Step `Left` 1 to `(5, 22)` and walk `Up` 11 along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..(5, 11)`).
+- **1F Northern & Eastern Corridor (`(5, 11)` -> `(25, 19)`):**
+  - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
+  - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 1 to `(25, 15)`, and `Down` along `x = 25..26` (**Team Magma Grunt `(28, 19)`** faces Left watching `(25..27, 19)`).
 
 <hr>
 
@@ -591,7 +594,7 @@
 - `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 - `Locations/Route_109_And_Slateport_City`: Coordinates, trainer statuses, and routing for Route 109 and Slateport City.
 - `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
-- `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, and Fiery Path.
+- `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
 - `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, and Lilycove City.
