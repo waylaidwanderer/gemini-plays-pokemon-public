@@ -17,8 +17,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Entrance Left Statue: Located at (4, 25).
 - Entrance Right Statue: Located at (7, 23).
 - Entrance North Corridor: Column 6 leads north from row 25 to row 22.
-- Row 21 Water Canal: Row 21 is blocked by a horizontal water canal/railing, forcing movement east or west along row 22.
-- Row 22 Corridor: Horizontal walkway running east from column 6.
+- Row 21 Water Canal: Water canal spans rows 20-21 from column 4 through column 7, blocking northward movement in that section.
+- Eastern Bypass: Column 8 bypasses the water canal to the east! Tile (8, 21) is open floor.
+- South Wall: Brown wall at (8, 23) borders the south side of the row 22 corridor.
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
