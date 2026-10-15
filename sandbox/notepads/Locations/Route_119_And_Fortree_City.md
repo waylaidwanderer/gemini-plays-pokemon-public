@@ -57,6 +57,11 @@
   - **Turnstile #4 (`(8, 15)` hub) & Turnstile #5 (`(8, 11)`/`(9, 11)` 2-arm bar) Solution:**
     1. From `(4, 17)`, walk `Down` 1 to `(4, 18)`, `Right` 3 to `(7, 18)`, `Up` 2 to `(7, 16)`, `Right` 1 to `(8, 16)`, and `Up` 2 through `(8, 15)` to `(8, 14)` (rotates Turnstile #4 clockwise).
     2. Note: Turnstile #5 (`y = 11..12`) starts as a horizontal 2-arm bar (`Left` and `Right` arms). To cross onto `(9, 11)`, do NOT push Turnstile #5 from `(8, 12)` first; instead, while Turnstile #5 is horizontal, reset Turnstile #4 via `(8, 14)` -> `Down` 1 to `(8, 15)`, then walk `Left` 1 to `(7, 15)`, `Up` 1 to `(7, 14)` (open because Turnstile #4's `Left` arm is only 1 tile long in its initial state), `Right` 2 through `(8, 14)` onto `(9, 14)` (pushes Turnstile #4's `Up` arm `Right`), `Up` 2 to `(9, 12)`, and `Up` 1 through `(9, 12)` onto `(9, 11)` (pushes Turnstile #5's horizontal `Right` arm `Up`).
-- **Room 3 (`(9, 11)` -> `(2, 7)`):**
+- **Room 3 (`(9, 11)` -> Gym Leader Winona `(15, 2)`):**
   - **2v2 Double Battle at `(9, 10)`:** Stepping `Up` 1 from `(9, 11)` to `(9, 10)` triggers **Camper Flint `(10, 10)`** (`Swellow Lv. 29`, `Xatu Lv. 29` [Defeated]) and **Bird Keeper Edwardo `(9, 8)`** (`Doduo Lv. 29`, `Pelipper Lv. 29` [Defeated]).
-  - **Turnstile #6 Bypass (`(9, 10)` -> `(2, 7)`):** Because Turnstile #6's 2-tile arm starts pointing `Right` along `y = 6..7`, walk `Left` 3 from `(9, 10)` to `(6, 10)`, `Up` 2 to `(6, 8)`, `Left` 4 along `y = 8` to `(2, 8)`, and `Up` 1 to `(2, 7)` without touching Turnstile #6.
+  - **Turnstiles #6, #7 & #8 Complete Solution (`(9, 10)` -> `(15, 3)`):**
+    1. Walk `Left` 3 from `(9, 10)` to `(6, 10)`, `Up` 2 to `(6, 8)`, and `Left` 5 along `y = 8` to `(1, 8)` (**Bird Keeper Darius `(1, 10)`** watches `(1, 8)` — `Tropius Lv. 30` [Defeated]).
+    2. Walk `Up` 2 from `(1, 8)` to `(1, 6)` and `Right` 1 to `(2, 6)` (pushes **Turnstile #7**'s `Down` arm `Right`, pre-setting Turnstile #7 into its open downward state while staying below it).
+    3. Walk `Down` 2 to `(2, 8)`, `Right` 3 to `(5, 8)`, and `Up` 6 along `x = 5` to `(5, 2)` (pushes **Turnstile #6** and **Turnstile #8** `Up`, rotating Turnstile #8's 2-tile `Down` arm out of `(5, 4)` -> `(6, 4)`).
+    4. Walk `Left` 3 from `(5, 2)` to `(2, 2)` and `Down` 6 along `x = 2` through pre-set **Turnstile #7** to `(2, 8)`.
+    5. Walk `Right` 4 along `y = 8` from `(2, 8)` to `(6, 8)` (pushes **Turnstile #6**'s 2-tile `Down` arm `Right`, resetting Turnstile #6), `Left` 1 to `(5, 8)`, `Up` 4 along `x = 5` to `(5, 4)`, `Right` 10 along `y = 4` to `(15, 4)`, and `Up` 1 to `(15, 3)` facing **Gym Leader Winona `(15, 2)`** (a one-way southbound exit ledge is at `(13..17, 6)` leading straight down `x = 15` to the entrance mat `(15, 24)`).
