@@ -23,9 +23,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 to (3, 14). Turn East to (6, 13), then follow open corridor EAST along row 13 through (22, 13).
 - Row 13 Corridor: Connects (6, 13) east to (22, 13). At (22, 13), row 12 is solid north wall and col 23 is solid east cliff.
 - Column 22 Highway: Runs south from (22, 13) through (22, 17).
-- Southeast Corridor & Descent Ladder: From (22, 17), path loops through (22, 16) -> (23, 16) -> (24, 16) -> south along col 24 to row 20 -> east along row 20 to ladder at (28, 21) which descends to B2F.
+- Descent Ladder to B2F: Located at (28, 21).
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
-- Objective: Scan west along row 13 from (22, 13) to (6, 13) testing for northern openings to find the ascent ladder to 1F / Steven's chamber.
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron.
@@ -39,12 +38,11 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 
 ## Granite Cave B2F
-- Ascent Ladder to B1F: Located at (28, 21). Interaction to ascend must be tested (stepping onto it did not trigger warp; test pressing A facing ladder from adjacent tiles or stepping into the ladder sprite).
+- Ascent Ladder to B1F: Located at (28, 21). Stepping onto it from (28, 20) does not trigger a map transition.
 - Topography:
   - Eastern Sector: Column 28 runs from ladder (28, 21) north to (28, 16). Solid east wall spans col 29 from row 16 to row 23. Row 16 extends west from (28, 16) to (23, 16).
   - Central Corridor: Row 17 connects col 28 west through (13, 17). Column 13 connects row 17 south to row 22 at (13, 22).
   - South Corridor: Row 22 connects col 13 west through (4, 21). Cracked rock at (6, 22) bypassed north via row 21. Row 22 ends east at (14, 22).
   - West Sector: From (4, 21), col 4 leads north to mud slope at (4, 13) (requires Mach Bike). Rock at (7, 12) requires Rock Smash.
   - Northwest: (3, 15) blocked by rocks at (3, 14), (2, 16) and wall at (2, 15).
-- Wild Encounters: Aron, Abra (caught CIPHER!), Zubat, Sableye.
-- Active Goal: Return east to (28, 21) ladder and test exact interaction to ascend to B1F.
+- Wild Encounters: Aron, Abra (caught CIPHER!), Zubat, Sableye, Makuhita (Lv 11-12).
