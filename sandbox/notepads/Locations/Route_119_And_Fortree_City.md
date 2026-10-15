@@ -34,7 +34,7 @@
 ## Fortree City
 - **West Entrance (from Route 119 `(39, 7..8)`):** `(0, 7..8)`
 - **Fortree Pokémon Center:** Door at `(5, 6)` (exiting steps to `(5, 7)`).
-- **Fortree Poké Mart:** Door at `(4, 14)` (exiting steps to `(4, 15)`).
+- **Fortree Poké Mart:** Door at `(4, 14)` (exiting steps to `(4, 15)`). Reached from `(5, 7)` via `Down` 4 to `(5, 11)`, `Right` 2 to `(7, 11)`, `Down` 4 along the east side of the building to `(7, 15)`, `Left` 3 to `(4, 15)`, and `Up` 1 into `(4, 14)`. Sells `Great Ball` (`$600`, Slot 0) and `Ultra Ball` (`$1,200`, Slot 1).
 - **Treetop Walkway (`y = 4`):**
   - **Ladder #1 `(10, 6..4)`:** Reached from `(5, 7)` via `Right` 2 to `(7, 7)`, `Down` 1 to `(7, 8)`, `Right` 3 to `(10, 8)`, and `Up` 4 to `(10, 4)` (Treehouse #1 door is at `(10, 3)`).
   - **Ladder #2 `(20, 4..6)` & Treehouse #2 `(18, 3)`:** Along `y = 4` at `x = 18..20`.
