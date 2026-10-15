@@ -455,7 +455,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 18, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed with Mr. Briney to Dewford Town! Registered Dad in Match Call (#3). Registered checkpoint at Dewford Pokémon Center and received OLD ROD from Fisherman! Sage Lv 18 (HP 51/51), Lilz Lv 9 (HP 28/28), wallet ¥6956.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Fisherman Ned on Route 106 beach (Sage gained 247 EXP). Sage Lv 18 (HP 51/51), Lilz Lv 9 (HP 28/28), wallet ¥7396.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: OK (healed at Rustboro Pokémon Center). Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
