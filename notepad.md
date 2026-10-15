@@ -353,12 +353,15 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - [ ] Collect any visible items in the tunnel.
 
 ## Key Characters & Trainers
-- Team Aqua Grunt: Holding Peeko hostage with stolen Devon Goods.
-- Peeko: Mr. Briney's beloved Wingull.
+- Team Aqua Grunt: Located at (14, 5) holding Peeko hostage with stolen Devon Goods. Pre-battle dialogue: "Grah, keelhaul it all! That fawning old man had to go and stir up the whole town! Grah, keelhaul it all!" Battle initiated at Turn 1434.
+- Peeko: Mr. Briney's beloved Wingull, hovering at (14, 4) next to Grunt.
 - Mr. Briney: Outside waiting for Peeko's return.
 
 ## Wild Pokémon
 - Whismur (Levels 5-8), Geodude.
+
+## Items & Discoveries
+- Item Ball (Poké Ball) located on northwest elevated terrace at (2, 1). Accessible via stairs at (8, 3).
 
 <hr>
 
