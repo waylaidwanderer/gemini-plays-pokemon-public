@@ -29,3 +29,4 @@
 - Pond: East-central water body (columns 38-44, rows 1-8).
 - Berry Trees: Pecha and Oran berries in northern clearing at (24..25, 1..2).
 - Potion Item Ball: Located in south-western clearing at (11, 14) - uncollected.
+- East-West corridor: Tree cluster at (33..35, 9..13) requires walking along row 14 south of the trees to travel west past Calvin (33, 15).
