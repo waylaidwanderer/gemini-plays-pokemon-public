@@ -187,6 +187,8 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Team: Magikarp Lv 5, Magikarp Lv 6, Magikarp Lv 7.
   - Reward: ¥280, EXP.
 - Route 104 North Signpost: Located at (23, 5) north of the bridge exit. Text: "ROUTE 104 / ⬆ RUSTBORO CITY".
+- Mr. Briney's Cottage: Located on Route 104 South at (17..20, 49..50). Front entrance door at (17, 50). Signpost at (20, 50). Inside: Mr. Briney and Peeko. Speaking to Mr. Briney allows sailing to Dewford Town (and later Slateport City).
+- Southbound Travel: Petalburg Woods south exit at (11, 39); follow highway east to col 23 at row 44, then south to row 50 to reach Mr. Briney's cottage.
 
 <hr>
 
