@@ -38,8 +38,9 @@
   -From `(23, 24)`, walk `Right` 1 to `(24, 24)` and `Down` 1 to `(24, 25)` to battle **Psychic Macey `(25, 25)`** (`Natu Lv. 36` [Defeated]) 1v1, then continue `Down` 6 along `x = 24` to `(24, 31)`, diagonally `Down-Left` to `(21, 34)`, and `Left` 6 along `y = 34` to the **Green Floor Switch at `(15, 34)`**.
   - Press the **Green Floor Switch at `(15, 34)` twice** (`Left` onto `(15, 34)`, then `Right` to `(16, 34)` and `Left` onto `(15, 34)`) to open `(12, 34)` in Room 4 (`x = 11..13, y = 31..35`).
   - Backtrack along the corridor to `(24, 24)`, step `Left` 1 onto `(23, 24)`, and walk `Left` 3 onto the teleporter at **`(20, 24)`**, which returns to **Room 1 at `(1, 33)`** (note: `(7, 30)` in Room 1 is a white one-way arrival pad).
-- **Room 4 (`(13, 31)` -> `(11, 35)`):**
-  - With `(12, 34)` cleared by pressing the Room 3 Green Switch twice, walking from `(13, 31)` via `Down` 3 to `(13, 34)`, `Left` 1 to `(12, 34)`, `Down` 1 to `(12, 35)`, and `Left` 1 reaches the teleporter at **`(11, 35)`**.
+- **Room 4 (`(11, 35)` -> `(13, 31)`):**
+  - Reached from Room 5's northern teleporter at **`(10, 3)`** (arriving at `(11, 35)`).
+  - With `(12, 34)` cleared by pressing the Room 3 Green Switch at `(15, 34)` twice, walk `Right` 1 from `(11, 35)` to `(12, 35)`, `Up` 1 to `(12, 34)`, `Right` 1 to `(13, 34)`, and `Up` 3 along `x = 13` onto the teleporter at **`(13, 31)`**.
 - **Room 5 (Blue & Red Conveyor Room, `(8, 12)` -> North):**
   - Reached from Room 2's teleporter at **`(7, 18)`**.
   - Contains a lower **Blue Floor Switch at `(8, 10)`**, two 2x2 Blue Conveyor loops at **`(6..7, 8..9)`** and **`(9..10, 8..9)`**, an upper **Blue Floor Switch at `(6, 7)`**, a **Red Floor Switch at `(8, 6)`**, and 2x2 Red Conveyor loops at **`(6..7, 5..6)`** and **`(10..11, 5..6)`**.
