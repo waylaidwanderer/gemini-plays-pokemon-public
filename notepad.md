@@ -79,7 +79,7 @@
 - Status: Arrived in Petalburg City! All Route 102 trainers defeated; healing at Pokémon Center, then visiting Petalburg Gym to speak with Dad (Norman).
 
 ## Party
-1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 19/30.
+1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 30/30.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
