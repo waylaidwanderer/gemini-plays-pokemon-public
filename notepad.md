@@ -259,7 +259,7 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 - Water Sightlines: Trainers facing water do not spot and trigger battles with players walking on adjacent beach tiles across water. Speaking to them directly from an adjacent tile starts the battle.
 
 ## Progression Checklist - Route 106 & Granite Cave
-- [ ] Battle Route 106 trainers.
+- [x] Battle Route 106 trainers (Fisherman Ned & Fisherman Elliot defeated; Elliot registered in Match Call).
 - [ ] Enter Granite Cave.
 - [ ] Speak with Hiker inside entrance to receive HM05 Flash.
 - [ ] Locate Steven Stone in Granite Cave and deliver President Stone's Letter.
