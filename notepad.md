@@ -584,6 +584,11 @@
   - **Team Aqua Grunts #3 & #4 `(21, 11)` & `(25, 11)`:** Scripted Double Battle at `y = 11` (`(22..24, 11)`) — Grunt #3 (`Poochyena Lv. 30`, `Carvanha Lv. 30`) & Grunt #4 (`Wailmer Lv. 30`, `Zubat Lv. 30`) [Defeated].
   - **Summit Altar Cutscene `(22, 7)`:** Stepping onto `(22, 7)` triggers Team Aqua Leader Archie's departure with the Red Orb and receives the **Magma Emblem** from the old lady [Completed — all Team Aqua members departed].
 
+## Team Aqua Hideout (Northeast Lilycove City `(70, 4)`)
+- **Team Aqua Hideout 1F (`(13, 27)` -> B1F Staircase `(22, 1)`):**
+  - From the entrance at `(13, 27)`, surf `Up` 15 along `x = 13` to step ashore onto the dock steps at `(13, 12)`.
+  - From `(13, 12)`, walk `Up` 2 to `(13, 10)`, `Right` 7 along `y = 10` to `(20, 10)` (bypassing the pacing Team Aqua Grunt on `y = 9`), `Up` 7 along `x = 20` to `(20, 3)`, `Right` 2 to `(22, 3)`, and `Up` 2 into the northern staircase doorway at `(22, 1)`.
+
 <hr>
 
 <h1><code>Main</code></h1>
