@@ -17,7 +17,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Devon Corporation Headquarters: Large multi-story building in the north.
 
 ## Progression Checklist - Rustboro City
-1. [ ] Heal at Pokémon Center and set checkpoint.
+1. [x] Heal at Pokémon Center and set checkpoint.
 2. [ ] Visit Cutter's House to receive HM01 Cut.
 3. [ ] Visit Pokémon Trainer's School to receive Quick Claw.
 4. [ ] Challenge and defeat Gym Leader Roxanne to earn the Stone Badge and TM39.
