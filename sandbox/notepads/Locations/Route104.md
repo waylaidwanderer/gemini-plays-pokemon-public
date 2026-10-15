@@ -21,4 +21,5 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 ## Trainers & Encounters
 - Wild Pokémon (Tall Grass): Encounterable at y=54..59.
-- Trainers: TBD upon exploration.
+- Youngster Billy: Located at (26, 48) facing North.
+- Lady Cindy: Located in eastern elevated flower meadow at (31..32, 48) (accessible via Petalburg Woods exit).
