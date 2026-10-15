@@ -47,3 +47,4 @@
   - No trainers on Exterior. From the doorway at `(10, 43)`, walk `Left` 2 to `(8, 43)`, `Down` 1 to `(8, 44)`, `Right` 19 along `y = 44` to `(27, 44)`, `Up` 8 up the first staircase to `(27, 36)`, `Left` 7 to `(20, 36)`, `Up` 1 to `(20, 35)`, `Left` 11 along `y = 35` to `(9, 35)`, `Up` 9 up the second staircase to `(9, 26)`, `Down` 1 to `(9, 27)`, `Right` 15 along `y = 27` to `(24, 27)`, `Up` 8 up the third staircase to `(24, 19)`, `Left` 5 to `(19, 19)`, and `Up` 9 along `x = 19` to `(19, 10)`, which warps onto **Mt. Pyre Summit** at `(23, 31)`.
 - **Mt. Pyre Summit (`(23, 31)` -> Summit Altar):**
   - **Team Aqua Grunt #1 `(25, 18)`:** Watches `(22..24, 18)` — `Carvanha Lv. 32` [Defeated].
+  - **Team Aqua Grunt #2 `(21, 15)`:** Watches `(22..24, 15)` — `Zubat Lv. 32` [Defeated].
