@@ -54,6 +54,8 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-2. Trainer at (2, 18):
+2. Black Belt Takao:
    - Location: Column 2 corridor at (2, 18), spotted May at (2, 16) from the north.
-   - Status: Battle initiated.
+   - Pre-battle: "Might is right! Come on!"
+   - Team: 1 Pokémon
+   - Status: Battle in progress.
