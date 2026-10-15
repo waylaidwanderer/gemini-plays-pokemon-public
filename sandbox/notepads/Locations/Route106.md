@@ -10,7 +10,7 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 
 ## Landmarks & Route Layout
 - South Beach: Open sandy path stretching north along columns 64..67 from Dewford Town. Water inlet cuts inland at (66, 14); column 65 is open sand.
-- Signpost: Located at roughly (61, 13) on the south beach.
+- Signpost: Located at (59, 13) on the south beach.
 - Ocean Edge: Rows 14..19 water starts at column 67..70 (inlet at 66, 14).
 - North-West Coast: Curves west towards Granite Cave entrance.
 

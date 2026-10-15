@@ -235,7 +235,7 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 
 ## Landmarks & Route Layout
 - South Beach: Open sandy path stretching north along columns 64..67 from Dewford Town. Water inlet cuts inland at (66, 14); column 65 is open sand.
-- Signpost: Located at roughly (61, 13) on the south beach.
+- Signpost: Located at (59, 13) on the south beach.
 - Ocean Edge: Rows 14..19 water starts at column 67..70 (inlet at 66, 14).
 - North-West Coast: Curves west towards Granite Cave entrance.
 
@@ -471,7 +471,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City)
-- Money: ¥6956
+- Money: ¥7396
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
