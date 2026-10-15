@@ -90,7 +90,9 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 ## Landmarks & Features (South Section)
 - East entrance pond / tree line: x=39..40, y=63..64.
-- Main dirt road: Spans west toward the coast and north to Petalburg Woods.
+- Main dirt clearing: x=27..36, y=60..65.
+- Boy NPC: Stands at (27, 64) giving wild Pokémon catching advice (weaken target, inflict status like sleep/poison/burn).
+- Signpost: Located south of the boy at roughly (27, 66).
 
 ## Trainers & Encounters
 - TBD upon exploration.
