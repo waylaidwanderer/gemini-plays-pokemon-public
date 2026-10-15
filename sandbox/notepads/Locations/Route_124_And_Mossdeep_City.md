@@ -44,3 +44,6 @@
   - Reached from Room 2's teleporter at **`(7, 18)`**.
   - Contains a lower **Blue Floor Switch at `(8, 10)`**, two 2x2 Blue Conveyor loops at **`(6..7, 8..9)`** and **`(9..10, 8..9)`**, an upper **Blue Floor Switch at `(6, 7)`**, a **Red Floor Switch at `(8, 6)`**, and 2x2 Red Conveyor loops at **`(6..7, 5..6)`** and **`(10..11, 5..6)`**.
   - Pressing `(8, 10)` **3 times** (State 3) places the left Statue at `(6, 9)` and Psychic♂ at `(6, 8)` facing Right, opening `(8, 9)` -> `(7, 9)` -> `(7, 8)` -> `(7, 7)`.
+  - Stepping onto the upper **Blue Floor Switch at `(6, 7)`** once sets Blue State 0 (clearing `(6, 8)`), allowing passage via `(7, 8)` -> `(7, 6)` onto the **Red Floor Switch at `(8, 6)`**.
+  - Pressing `(8, 6)` **3 times** (via `(8, 5)`) sets Red State 3, moving both eastern Red Statues to `(11, 5..6)` and opening `(10, 6)` -> `(10, 5)` -> `(10, 4)` -> **`(10, 3)`**.
+  - From `(8, 6)`, walk `Up` 2 to `(8, 4)` and `Left` 2 to `(6, 4)` to defeat **Psychic Hannah `(6, 3)`** (`Kirlia Lv. 36` [Defeated]), then walk via `(5, 4)` -> `(5, 6)` -> `(6, 6)` onto `(6, 7)` and press `(6, 7)` **3 times** to restore Blue State 3 (`(7, 8..9)` open).
