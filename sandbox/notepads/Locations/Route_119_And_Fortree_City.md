@@ -25,4 +25,4 @@
   - **1F Trainers:** **Team Aqua Grunt (F) `(10, 5)`** (`Carvanha Lv. 28` [Defeated]) watches `(10, 7)`; **Team Aqua Grunt (M) `(15, 3)`** faces Left.
 - **Weather Institute 2F:**
   - **Staircase Warp:** `(17, 1)` (arrives at `(17, 2)`).
-  - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]) and **Team Aqua Grunt (M) `(15, 6)`** watch `x = 16..18, y = 6`.
+  - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]) and **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]) watch `x = 16..18, y = 6`.
