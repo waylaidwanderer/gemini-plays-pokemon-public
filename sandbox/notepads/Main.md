@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 15, Male), Nickname: SAGE
-- Status: Inside Rustboro Gym! Defeated Josh, Tommy, and Marc; Sage Lv 15 (HP 41/41), Lilz Lv 8 (HP 26/26). Ready to challenge Gym Leader Roxanne!
+- Status: Inside Rustboro Gym! Defeated all gym trainers (Josh, Tommy, Marc); Sage Lv 15 (HP 41/41), Lilz Lv 9 (HP 28/28), wallet ¥4208. Ready to challenge Gym Leader Roxanne!
 
 ## Party
 1. SAGE (Treecko ♂, Level 15) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 41/41. Nature: Lonely. Ability: Overgrow.
@@ -19,7 +19,7 @@
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), HM01 Cut (gift from Cutter in Rustboro City)
-- Money: ¥3760 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥144 from Gina & Mia, ¥280 from Ivan, ¥160 from Josh, spent ¥2400 on 12 Poké Balls, ¥1200 on 4 Potions)
+- Money: ¥4208 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥144 from Gina & Mia, ¥280 from Ivan, ¥160 from Josh, ¥448 from Tommy & Marc, spent ¥2400 on 12 Poké Balls, ¥1200 on 4 Potions)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
