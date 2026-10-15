@@ -2,11 +2,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko (Level 14, Male), Nickname: SAGE
-- Status: Inside Rustboro Gym! Defeated Youngster Josh; Sage Lv 14 (HP 39/39), Lilz Lv 6 (HP 22/22). Continuing through gym trainers to Roxanne!
+- Starter: Treecko (Level 15, Male), Nickname: SAGE
+- Status: Inside Rustboro Gym! Defeated Josh, Tommy, and Marc; Sage Lv 15 (HP 41/41), Lilz Lv 8 (HP 26/26). Ready to challenge Gym Leader Roxanne!
 
 ## Party
-1. SAGE (Treecko ♂, Level 14) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 39/39. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Treecko ♂, Level 15) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 41/41. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 8) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 26/26.
 
 ## Bag Highlights
