@@ -25,8 +25,9 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 
 2. Fisherman Elliot:
    - Location: (52, 14), facing East between two rocks.
-   - Team: Magikarp Lv 10, Tentacool Lv 7, Magikarp Lv 10.
-   - Status: Battle initiated.
+   - Pre-battle: "Which do you prefer, fishing in the sea or a stream?"
+   - Team: Magikarp Lv 10, Tentacool Lv 7, Magikarp Lv 10 (3 Pokémon total).
+   - Status: In battle (Turn 1).
 
 ## Mechanics Discovered
 - Water Sightlines: Trainers facing water do not spot and trigger battles with players walking on adjacent beach tiles across water. Speaking to them directly from an adjacent tile starts the battle.
