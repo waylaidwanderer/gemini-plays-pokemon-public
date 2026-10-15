@@ -47,8 +47,8 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Rustboro Gym Maze Topography
 - Interior Warp: (5, 19). Gym Guy at (4, 18). Statues at (3, 17) and (7, 17).
 - South Crossway: Row 16 is clear across columns 1 to 8.
-- Entrance Chokepoint: (5, 15) is an alcove flanked by walls at (2..4, 15) and (6..7, 15). Defeated Josh stands at (5, 14).
-- Western Corridor: Column 1-2 runs north-south. Column 2 is the ONLY walkable passage between the northern stage (row 4) and the southern gym areas. Defeated Hiker Marc stands at (1, 7). Defeated Youngster Tommy stands at (3, 9) / (2, 9).
-- Eastern Wall: Rows 5-7 form a solid horizontal wall spanning columns 3 through 10. Column 8 does not connect through to the stage; it dead-ends at row 5.
-- Northern Stage: Roxanne stands at (5, 2) on the elevated platform. Approach path: from western aisle at (2, 2), step Down to (2, 4), East to (5, 4), and Up to (5, 3) directly facing Roxanne.
-- Roxanne's Team (Emerald): Geodude Lv 12, Geodude Lv 12, Nosepass Lv 15 (holding Oran Berry). Sage Lv 15 with Absorb and Quick Claw is primed to sweep!
+- Central Entrance Corridor: Column 5 leads north from row 16 into row 15. Defeated Josh stands at (5, 14) in a 1-tile choke between walls.
+- Eastern Bypass Chute: Column 7 (rows 14-15) is an open 1-tile wide chute bypassing Josh and the row 15 wall, connecting row 14 directly down to the row 16 foyer.
+- Center Connector: Row 13-14 connects column 5 and column 6 to the column 7 bypass chute. Column 5 runs north between the L-wall (col 4) and square pillar (cols 6-7) up to row 8.
+- Row 8 Highway: Connects column 5 west to column 2 and east to column 8.
+- Northern Stage: Roxanne stands at (5, 2). Connected south via column 2 and row 4.
