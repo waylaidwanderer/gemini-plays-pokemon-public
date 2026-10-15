@@ -213,8 +213,10 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - Route 116 Trainer Tips Signpost: Located at (16, 12). Text explains that pressing the B Button during evolution cancels it.
 - North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball, a Cut tree, and terrace signpost at roughly (29, 9).
 - Main Highway: Row 13-14 provides an east-west path directly beneath the northern ledge leading toward the Rest House and Tunnel entrance.
-- Tunnel Worker's Rest House: Located in north-central Route 116 at (38, 8) (yellow building with red tiled roof and red door, worker at 38, 9 and signpost at 40, 9). Door is currently closed/blocked.
+- Tunneler's Rest House: Located in north-central Route 116 at (38, 8) (yellow building with red tiled roof and red door, worker at 38, 9 and signpost at 40, 9). Door is currently closed/blocked.
+  - Signpost at (40, 9): "TUNNELER'S REST HOUSE".
   - Tunnel Worker at (38, 9): "I was digging the tunnel without any tools when some goon ordered me out! That tunnel's filled with POKéMON that react badly to loud noises. They could cause an uproar. That's why we stopped using heavy equipment for tunneling... I'm worried that the goon will do something stupid and startle the POKéMON into an uproar." (Explains why heavy machinery was halted—Whismur sound sensitivity).
+- Rusturf Tunnel Entrance: Located at roughly (48, 8) in the northeastern cliff of Route 116. Mr. Briney stands outside at (45, 9).
 
 ## Trainers
 1. Youngster Joey: [DEFEATED]
