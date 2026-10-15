@@ -5,7 +5,7 @@
 - West Exit: Route 104 (leading north to Petalburg Woods and Rustboro City).
 
 ## Key Buildings & Landmarks
-- Pokémon Center: Located on the south-east side near the Route 102 entrance (red roof).
+- Pokémon Center: Located on the south-east side near the Route 102 entrance (red roof, door at 20, 16).
 - Poké Mart: Located in the town square (blue roof).
 - Petalburg Gym: Located in the north-western area (Leader: Norman / Dad - Normal type).
 - Wally's House: Located in the western residential area.
