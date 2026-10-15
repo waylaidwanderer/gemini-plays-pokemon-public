@@ -545,6 +545,8 @@
 - **North Entrance (from Route 121 Mt. Pyre Pier `(30, 18)`):** Surf `Down` onto `(30, 19)` (`A, sleep 1500, A, sleep 1000, B, sleep 3500`) and `Down` into Route 122 at `(10, 0)` (`x_route122 = x_route121 - 20`).
 - **Western Channel to Mt. Pyre Entrance (`(10, 0)` -> `(22, 29)`):**
   - From `(10, 0)`, surf `Down` 8 to `(10, 8)`, `Left` 4 to `(6, 8)`, `Down` 4 to `(6, 12)`, `Left` 2 to `(4, 12)`, `Down` 21 along `x = 4` to `(4, 33)`, `Right` 18 along `y = 33` to `(22, 33)`, and walk `Up` 4 (`(22, 32..29)`) into **Mt. Pyre 1F**.
+- **Mt. Pyre 1F (`(17, 18)` -> Western Exit `(3..4, 6)`):**
+  - No trainers on 1F. From `(17, 18)`, walk `Up` 6 to `(17, 12)`, `Left` 2 to `(15, 12)`, `Up` 4 to `(15, 8)`, `Left` 2 to `(13, 8)`, `Up` 2 to `(13, 6)`, `Left` 9 along `y = 6` onto the horizontal red exit mat at `(4, 6)` (or `(3, 6)`), and press `Down` to exit directly onto **Mt. Pyre Exterior**.
 
 <hr>
 
