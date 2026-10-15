@@ -29,6 +29,10 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
   - Location: (7, 34) (originally spotted May from col 7, row 31).
   - Team: Wurmple Lv 3, Wurmple Lv 3.
   - Reward: ¥48, EXP.
+- Bug Catcher James: [BATTLING]
+  - Location: (4, 13) near the northwest clearing, facing South.
+  - Team: Nincada Lv 6.
+  - Reward: ¥96, EXP.
 - Team Aqua Grunt: [DEFEATED]
   - Location: (26, 21) confronting Devon researcher.
   - Team: Poochyena ♂ Lv 9.
