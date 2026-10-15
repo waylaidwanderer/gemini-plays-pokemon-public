@@ -97,7 +97,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Rocky ledge border: Extends west along the coast and east around y=53..56.
 - Elevated Ledge Item Ball: Poké Ball item visible at (30, 52) behind vertical ledge wall at col 28 and southern one-way jump ledge at row 55.
 - Northern trail / Highway: Extends north along col 23, bends west at row 44.
-- Soft Soil Berry Trees: Located at (22..24, 41) north of the road bend. Spot (22, 41) harvested (2 Oran Berries collected, soil now soft and loamy); spot (23, 41) is empty soil; spot (24, 41) is a Pecha plant in flower stage.
+- Soft Soil Berry Trees: Located at (22..24, 41) north of the road bend. Spot (22, 41) is a ripe Oran Berry tree (picking now); spot (23, 41) is empty soil; spot (24, 41) is a Pecha plant in flower stage.
 - Petalburg Woods South Gate: Visible to the northwest near col 15, row 41 with a white fence.
 
 ## Trainers & Encounters
@@ -123,7 +123,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
-- Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
+- Berries: Oran Berry x2, Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - Money: ¥3556 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
