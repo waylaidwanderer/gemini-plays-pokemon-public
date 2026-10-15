@@ -394,7 +394,8 @@
 - **1F Northern & Eastern Corridor (`(5, 11)` -> 2F Staircase `(25, 35)`):**
   - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
   - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)` — `Poochyena Lv. 29` [Defeated]).
-  - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 2 to `(25, 28)`, and `Down` 7 along `x = 25` onto the **2F Staircase Warp `(25, 35)`** (note: the white stairs at `(23..24, 27)` lead up to the receiving platform below the one-way exit ledge `(20..22, 24)` from `(21, 22)`, and `(28..29, 30)` is the return teleporter pad).
+  - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 2 to `(25, 28)`, and `Down` 7 along `x = 25` onto the **2F Staircase Warp `(25, 35)`** (note: the white stairs at `(23..24, 27)` lead up to the receiving platform below the one-way exit ledge `(20..22, 24)` from `(20, 22)`).
+  - **1F Southbound Exit from `(20, 23)` to `(10, 34)`:** Jump `Down` 1 over `(20, 24)` to `(20, 25)`, walk `Right` 3 to `(23, 25)`, `Down` 3 down the white stairs `(23, 27)` to `(23, 28)`, `Right` 4 to `(27, 28)`, `Up` 13 along `x = 27` to `(27, 15)`, `Left` 3 to `(24, 15)`, `Up` 6 to `(24, 9)`, `Left` 15 along `y = 9` to `(9, 9)`, `Down` 2 to `(9, 11)`, `Left` 4 to `(5, 11)`, and `Down` 10 along `x = 5` to `(5, 21)`. At `(5, 21)`, activate Strength and push `(5, 22)` `Down` 1 to `(5, 23)` (Push #1), step `Down` 1, `Right` 1 to `(6, 22)` and push `(7, 22)` `Right` 1 to `(8, 22)` (Push #2), then walk via `(7, 22)` -> `(7, 23)` -> `(10, 23)` -> `Down` 11 out `(10, 34)`.
 - **Team Magma Hideout 2F (`MagmaHideout_2F_1R`):**
   - **North Entrance (from 1F `(25, 35)`):** `(8, 3)` (doorway at `(8, 2)`).
   - **Upper Eastern Corridor (`(8, 3)` -> `(22, 8)`):** Walk `Down` 2 from `(8, 3)` to `(8, 5)`, `Right` 14 along `y = 5` to `(22, 5)`, and `Down` 3 down the yellow staircase at `(22..23, 7)` to `(22, 8)`.
@@ -591,7 +592,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $12,332 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x4, Super Potion x2, Repel x3, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x4, Super Potion x2, Repel x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 47 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 17 — Gust, String Shot, Poison Sting, Harden)
