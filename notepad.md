@@ -228,7 +228,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Status: Arrived in Rustboro City at (17, 58)! Sage Lv 13 (HP 36/36), Lilz Lv 6 (HP 22/22), wallet ¥7200. Heading north along main street to find Pokémon Center.
 
 ## Party
-1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36.
+1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 6) - Caught on Route 102. Moves: Astonish, Growl. HP: 18/22.
 
 ## Bag Highlights
