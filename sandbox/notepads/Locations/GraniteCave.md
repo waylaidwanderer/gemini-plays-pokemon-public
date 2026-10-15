@@ -19,7 +19,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Northeast Exit Plateau: The ladder at (35, 3) and row 6 jump ledge are the one-way return exit from Steven's chamber back to the entrance.
 
 ## Granite Cave B1F
-- Southwest Ladder: Located at (4, 21), player arrives at (4, 22).
+- Southwest Ladder: Located at (4, 21) leading back to 1F.
+- Verified Path: Column 4 heads NORTH from the ladder (rows 20, 19, 18...) into the main B1F cavern!
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
 - Objective: Thoroughly explore B1F corridors to locate the ladder down to B2F.
 
