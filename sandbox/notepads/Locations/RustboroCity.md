@@ -21,6 +21,9 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 2. [x] Visit Cutter's House to receive HM01 Cut.
 3. [x] Visit Pokémon Trainer's School to receive Quick Claw.
 4. [x] Challenge and defeat Gym Leader Roxanne to earn the Stone Badge and TM39.
+5. [x] Defeat Team Aqua Grunt in Rusturf Tunnel, recover Devon Goods, and rescue Peeko.
+6. [x] Return Devon Goods to Devon Researcher; meet President Stone at Devon Corp.
+7. [x] Receive PokéNav and Letter for Steven from President Stone; receive Match Call from researcher.
 
 ## Gym Leader Roxanne: [DEFEATED]
 - Team: Geodude Lv 12 (fainted), Geodude Lv 12 (fainted), Nosepass Lv 15 (fainted).
