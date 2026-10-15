@@ -19,6 +19,6 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 ## Progression Checklist - Dewford Town
 1. [x] Arrive at Dewford Town via Mr. Briney's boat.
 2. [x] Speak to Fisherman to receive the Old Rod.
-3. [ ] Visit Granite Cave on Route 106, speak to Hiker for HM05 Flash.
+3. [x] Visit Granite Cave on Route 106, speak to Hiker for HM05 Flash.
 4. [ ] Locate Steven Stone in Granite Cave and deliver President Stone's Letter (receive TM47 Steel Wing).
 5. [ ] Challenge and defeat Gym Leader Brawly to earn the Knuckle Badge.
