@@ -6,7 +6,7 @@
 - Status: Entered Petalburg Woods! Defeated Lady Cindy (Sage Lv 11, Quick Attack). Navigating through the forest toward the Devon researcher and northern exit.
 
 ## Party
-1. SAGE (Treecko ♂, Level 11) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 32/32.
+1. SAGE (Treecko ♂, Level 11) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 30/32.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
