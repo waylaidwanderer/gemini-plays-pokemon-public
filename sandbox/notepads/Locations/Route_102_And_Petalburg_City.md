@@ -16,7 +16,13 @@
 ## Petalburg City
 - **East Entrance (from Route 102):** `(29, 18)`
 - **Pokémon Center Door:** `(20, 16)` (exiting steps to `(20, 17)`)
-- **Petalburg Gym Door:** `(15, 8)` (exiting steps to `(15, 9)`; interior entrance mat is `(4, 111)`, Norman is 4 tiles north at `(4, 107)`).
+- **Petalburg Poké Mart Door:** `(25, 12)` (interior doormat at `(3, 7)..(4, 7)`; clerk at `(1, 4)` faced from `(3, 4)`).
+- **Petalburg Gym Door:** `(15, 8)` (exiting steps to `(15, 9)`; interior entrance mat is `(4, 111)`).
+  - **4-Badge Gym Route (3 Rooms to Norman):** Trainers in Petalburg Gym do not have line-of-sight triggers (talk to them with `A`), and sliding doors are opened by facing them and pressing `A` twice (`A, sleep 1500, A, sleep 1500, A, sleep 3500`):
+    1. **Entrance Room `(4, 111)` -> Left Door `(1, 106)`:** Enters **Tier 1 Speed Room `(7, 85)`** (**Cooltrainer Randall `(4, 81)`** — `Swellow Lv. 26` [Defeated]).
+    2. **Speed Room `(7, 85)` -> Left Door `(1, 80)`:** Enters **Tier 2 Confusion Room `(7, 46)`** (**Cooltrainer Parker `(4, 42)`** — `Spinda Lv. 26` [Defeated]; note: Right Door `(7, 80)` leads to Defense Room `(1, 59)` with **Cooltrainer Alexia `(4, 55)`** — `Wigglytuff Lv. 26`).
+    3. **Confusion Room `(7, 46)` -> Right Door `(7, 41)`:** Enters **Tier 3 Strength Room `(1, 20)`** (**Cooltrainer Jody `(4, 16)`** — `Zangoose Lv. 26` [Defeated]).
+    4. **Strength Room `(1, 20)` -> Right Door `(7, 15)`:** Enters **Gym Leader Norman's Room**.
 - **Wally Tutorial Event:** Completed on Turn 107–108, unlocking the western exit of Petalburg City into Route 104 South.
 - **West Exit (to Route 104 South):** `(0, 12)` (Scott's cutscene at `(4, 12)` completed on Turn 110).
 
