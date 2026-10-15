@@ -78,12 +78,9 @@
 6. [ ] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [ ] Help Wally catch a Ralts.
 
-## Route 102 Overview
-- East entrance: Connected to Oldale Town at (48, 10).
-- West exit: Leads directly into Petalburg City.
-- Key Wild Pokémon: Ralts, Lotad, Seedot, Zigzagoon (Pickup), Wurmple, Poochyena.
-- Trainers: Youngster Calvin, Bug Catcher Rick, Youngster Allen, Lass Tiana.
-- Items: Oran/Pecha berry trees, Potion.
+## Route 102
+- Overview: See Locations/Route102.md for detailed map topography, trainer locations, and verified landmarks.
+- Active Objective: Locate westbound passage past tree cluster toward Potion (11, 14) and Petalburg City.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
