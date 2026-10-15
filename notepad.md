@@ -292,7 +292,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Phase 1: Intro, clock set, PC Potion, rival meeting, Birch rescue, and Treecko (SAGE).
 - Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan, Running Shoes received from Mom.
 
-## Progression Checklist - Phase 3 (Active)
+## Progression Checklist - Phase 3 (Completed)
 1. [x] Receive Running Shoes from Mom outside player's house.
 2. [x] Travel north through Route 101 to Oldale Town.
 3. [x] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
@@ -307,6 +307,17 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 12. [x] Visit Cutter's House and receive HM01 Cut.
 13. [x] Visit Pokémon Trainer's School for Quick Claw.
 14. [x] Challenge Gym Leader Roxanne in Rustboro City (Rock type). DEFEATED! Earned Stone Badge!
+
+## Progression Checklist - Phase 4 (Active)
+1. [x] Defeat Gym Leader Roxanne and earn Stone Badge & TM39 Rock Tomb.
+2. [x] Sage evolved into Grovyle and learned Fury Cutter!
+3. [ ] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
+4. [ ] Heal party at Rustboro Pokémon Center (Sage HP 22/43).
+5. [ ] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
+6. [ ] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.
+7. [ ] Return to Rustboro City; deliver Devon Goods to Devon Researcher; meet Mr. Stone at Devon Corp.
+8. [ ] Receive PokéNav and Letter for Steven from Mr. Stone.
+9. [ ] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
 
 ## Route 102
 - Overview: See Locations/Route102.md for detailed map topography, trainer locations, and verified landmarks.
