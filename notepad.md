@@ -527,7 +527,7 @@
 ## Route 121 (`(0, 9)` -> Lilycove City)
 - **Western Trainers (`(11, 9)`):**
   - **Hex Maniac Tammy `(11, 11)`:** Watches `(11, 9)` — `Duskull Lv. 29`, `Shuppet Lv. 29` [Defeated].
-  - **Bug Maniac Cale `(11, 7)`:** Walks between `(11, 7)` and `(11, 8)` watching `(11, 9)` — `Dustox Lv. 29`, `Beautifly Lv. 29`.
+  - **Bug Maniac Cale `(11, 7)`:** Walks between `(11, 7)` and `(11, 8)` watching `(11, 9)` — `Dustox Lv. 29`, `Beautifly Lv. 29` [Defeated].
 
 <hr>
 
