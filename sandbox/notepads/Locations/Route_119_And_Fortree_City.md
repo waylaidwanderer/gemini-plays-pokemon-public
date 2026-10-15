@@ -25,4 +25,4 @@
   - **1F Trainers:** **Team Aqua Grunt (F) `(10, 5)`** (`Carvanha Lv. 28` [Defeated]) watches `(10, 7)`; **Team Aqua Grunt (M) `(15, 3)`** faces Left.
 - **Weather Institute 2F:**
   - **Staircase Warp:** `(17, 1)` (arrives at `(17, 2)`).
-  - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]), **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]), and **Team Aqua Grunt (M) `(10, 8)`** (`Poochyena Lv. 26`, `Zubat Lv. 26`, `Carvanha Lv. 26` [Defeated]). **Team Aqua Admin Shelly** stands at `(4, 6)`.
+  - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]), **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]), **Team Aqua Grunt (M) `(10, 8)`** (`Poochyena Lv. 26`, `Zubat Lv. 26`, `Carvanha Lv. 26` [Defeated]), and **Team Aqua Admin Shelly `(4, 6)`** (`Carvanha Lv. 28`, `Mightyena Lv. 28` [Defeated — all Team Aqua Grunts leave the Weather Institute and the northern Route 119 bridge]).
