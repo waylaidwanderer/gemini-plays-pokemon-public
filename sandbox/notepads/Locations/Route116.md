@@ -13,7 +13,7 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - [x] Speak with Mr. Briney outside Rusturf Tunnel.
 - [x] Read Rusturf Tunnel signpost.
 - [x] Enter Rusturf Tunnel, defeat Team Aqua Grunt, recover Devon Goods, and rescue Peeko.
-- [ ] Return to Rustboro City to deliver Devon Goods to Devon Researcher.
+- [x] Return to Rustboro City to deliver Devon Goods to Devon Researcher.
 
 ## Landmarks & Route Layout
 - Route 116 Entrance Signpost: Located at (5, 10). Text: "ROUTE 116 / ⬅ RUSTBORO CITY".
