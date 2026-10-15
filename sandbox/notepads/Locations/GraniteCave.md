@@ -11,25 +11,24 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Entrance Warp: (37, 12) leading south to Route 106 beach.
 - Flash Hiker: Located at (36, 9) facing East; gave HM05 Flash! (Obtained!).
 - Granite Cave 1F Topography:
-  - Entrance: (37, 12) at the southeast corner.
+  - Entrance: (37, 12) at the southeast corner leading to Route 106 beach.
   - Flash Hiker: (36, 9) directly north of entrance.
   - 1F Main Path: Wide corridor along rows 7-9 connecting southwest ladder at (17, 11) to entrance and Hiker in the east. Fully lit (no Flash needed).
+  - Row 12: Runs along rows 11-12 from entrance (37, 12) west to col 16, where it terminates at a solid vertical cliff wall at (16, 12).
   - Item Ball: [COLLECTED] Escape Rope at (17, 7).
-  - Southwest Ladder: Located at (17, 11) leading down to optional basement B1F.
-  - Upper Corridor (rows 1-4): Runs across the top of 1F leading to Steven's chamber in the northeast.
-  - Ledge Ridge (rows 5-6): Separates the lower corridor from the upper path.
+  - Southwest Ladder: Located at (17, 11) leading down to B1F.
+  - Upper Plateau (rows 1-5): Separated from lower path by south-facing one-way jump ledge at row 6. Contains ladders ascending from lower levels and doorway to Steven's chamber at (35, 3).
   - Wild Encounters (1F): Zubat (Lv 7-8), Makuhita (Lv 7-10), Abra (Lv 8), Geodude.
 
 ## Granite Cave B1F & B2F (Lower Caverns)
-- Southwest Ladder at (4, 21) connects to 1F (17, 11).
-- Southeast Ladder at (28, 21) connects B1F to optional floor B2F.
-- Northern Passage: Open archway/doorway at (9, 10) on B1F leads north into the secluded upper chambers toward Steven!
-- B2F Northwest corner contains mud slope (4, 13) and Rock Smash boulders (2, 16), (3, 14), (5, 14). B2F is optional.
+- B1F Southwest Ladder at (4, 21) connects to 1F (17, 11).
+- B1F Southeast Ladder at (28, 21) connects to B2F (28, 21).
+- B1F Accessible Corridor: Connects (4, 21) strictly to (28, 21); all northern probes (cols 7-22 along row 12) are blocked by solid walls at row 11.
+- B2F Northwest corner contains mud slope (4, 13) and Rock Smash boulders (2, 16), (3, 14), (5, 14). (2, 15) is solid cliff wall. Full cavern exploration will be resumed with HM05 Flash enabled after defeating Brawly.
 
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
 - [x] Catch Abra (CIPHER) in B2F with Great Ball.
-- [ ] Evacuate B2F via CIPHER's Teleport to Dewford Town.
-- [ ] Re-enter Granite Cave 1F and explore the main floor to locate Steven's chamber.
-- [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
-- [ ] Return to Dewford Town to challenge Gym Leader Brawly.
+- [ ] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge (enables HM05 Flash outside battle).
+- [ ] Return to Granite Cave with Flash enabled to locate Steven Stone and deliver President Stone's Letter.
+- [ ] Receive TM47 Steel Wing from Steven.
