@@ -41,11 +41,13 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 ## Landmarks & NPCs (1F Entrance Chamber)
 - Entrance Warp: (37, 12) leading south to Route 106 beach.
 - Flash Hiker: Located at (36, 9) facing East; gives HM05 Flash! (Obtained!).
-- Row 6 Ledge: A one-way jump ledge spanning cols 30..34 at row 6. The open passage onto the upper plateau is at column 35!
-- Northeast Ladder: Located at (35, 3) on the upper plateau, reached by walking north up column 35 directly north of the Hiker!
-- Main Route to Lower Levels: Take column 35 north onto the upper plateau and descend Northeast Ladder at (35, 3) to B1F!
-- Western Corridor: Runs along rows 6..8 to Southwest Ladder at (17, 11). Contains Escape Rope at (17, 7).
-- Southwest Ladder: Located at (17, 11) leading down to an isolated dead-end landing on B1F at (4..5, 22). Do not use for progression.
+- Granite Cave 1F Topography:
+  - Entrance: (37, 12) at the southeast corner.
+  - Flash Hiker: (36, 9) directly north of entrance.
+  - Northeast Ladder: (35, 3) on the northern elevated plateau.
+  - Row 6 Ledge: One-way jump ledge (cols 30..35) allowing one-way descent from the Northeast Ladder plateau back to the Hiker. Cannot be climbed from south.
+  - Middle Corridor (rows 7..8): Enclosed terrace leading west from the Hiker to Escape Rope at (17, 7) and Southwest Ladder at (17, 11) (leads to isolated B1F landing).
+  - Southern Corridor (rows 12..15): The true progression route! Runs west from the entrance across the entire bottom of 1F, wrapping around the western cliff to the northern upper walkway ascent.
 
 ## Granite Cave B1F
 - Southwest Ladder landing: Drops onto isolated 2-tile dead-end ledge at (4..5, 22). Ladder at (4, 21) returns to 1F.
