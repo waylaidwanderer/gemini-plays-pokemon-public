@@ -203,9 +203,10 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 
 ## Progression Checklist - Route 116
 - [x] Enter Route 116 from Rustboro City.
-- [ ] Battle Route 116 trainers for EXP and prize money.
-- [ ] Speak with Mr. Briney outside Rusturf Tunnel.
-- [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt.
+- [x] Battle Route 116 trainers for EXP and prize money (Joey, Karen, Johnson, Clark, Devan defeated).
+- [x] Speak with Mr. Briney outside Rusturf Tunnel.
+- [ ] Read Rusturf Tunnel signpost.
+- [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt and rescue Peeko.
 
 ## Landmarks & Route Layout
 - Route 116 Entrance Signpost: Located at (5, 10). Text: "ROUTE 116 / ⬅ RUSTBORO CITY".
@@ -216,7 +217,9 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - Tunneler's Rest House: Located in north-central Route 116 at (38, 8) (yellow building with red tiled roof and red door, worker at 38, 9 and signpost at 40, 9). Door is currently closed/blocked.
   - Signpost at (40, 9): "TUNNELER'S REST HOUSE".
   - Tunnel Worker at (38, 9): "I was digging the tunnel without any tools when some goon ordered me out! That tunnel's filled with POKéMON that react badly to loud noises. They could cause an uproar. That's why we stopped using heavy equipment for tunneling... I'm worried that the goon will do something stupid and startle the POKéMON into an uproar." (Explains why heavy machinery was halted—Whismur sound sensitivity).
-- Rusturf Tunnel Entrance: Located at roughly (48, 8) in the northeastern cliff of Route 116. Mr. Briney stands outside at (45, 9).
+- Rusturf Tunnel Entrance: Located at (47, 8) in the northeastern cliff of Route 116. Signpost at (48, 9).
+  - Mr. Briney: Stands outside at (46, 9) distraught over his stolen Wingull, Peeko.
+  - Mr. Briney Dialogue: "Ohhh, what am I to do? We were on our walk, PEEKO and I, when we were jumped by an odd thug... The scoundrel made off with my darling PEEKO! Wrrroooooaaaar! PEEKO"
 
 ## Trainers
 1. Youngster Joey: [DEFEATED]
