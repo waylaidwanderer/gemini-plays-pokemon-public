@@ -321,7 +321,7 @@
 - **Picnicker Carol `(22, 46)`** (facing Left — `Taillow Lv. 17`, `Lombre Lv. 17`) [Defeated].
 - **Southern Mountain Stairs & Plateau (`(21, 46)` -> `(11, 36)` & Cable Car `(28, 27)`):**
   - Climb the stairs at `x = 20..21, y = 41..43` to `(21, 40)`.
-  - **Hiker Trent `(24, 32..34)`** (wanders vertically along `x = 24`) and **Hiker Brice `(15..16, 36..40)`** (wanders on the western side) are on the plateau, and two Team Magma Grunts block the **Mt. Chimney Cable Car** fence gap at `(26..27, 31)` until the Meteor Falls event is completed.
+  - **Hiker Brice `(24, 32..34)`** (wanders vertically along `x = 24` — `Numel Lv. 17`, `Machop Lv. 17` [Defeated]) and **Hiker Trent `(15..16, 36..40)`** (wanders on the western side) are on the plateau, and two Team Magma Grunts block the **Mt. Chimney Cable Car** fence gap at `(26..27, 31)` until the Meteor Falls event is completed.
   - **To Mt. Chimney Cable Car `(28, 27)`:** From `(21, 40)`, walk `Up` 5 along `x = 21` to `(21, 35)`, `Right` 5 along `y = 35` (passing south of Hiker Trent) to `(26, 35)`, `Up` 7 along `x = 26` through the fence gap at `(26, 31)` to `(26, 28)`, `Right` 2 to `(28, 28)`, and `Up` 1 into the **Mt. Chimney Cable Car Station `(28, 27)`**.
   - **To Fiery Path `(11, 36)`:** From `(21, 40)`, walk `Up` 2 to `(21, 38)` (signpost at `(22, 37)`), `Left` 10 along `y = 38` (passing north of Hiker Brice when he is at `(15, 39..40)`) to `(11, 38)`, and `Up` 2 into the **Fiery Path (South Entrance) `(11, 36)`**.
 
@@ -563,7 +563,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $2,032 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $2,712 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x5, Super Potion x2, Repel x7, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)

@@ -16,7 +16,7 @@
 - **Picnicker Carol `(22, 46)`** (facing Left — `Taillow Lv. 17`, `Lombre Lv. 17`) [Defeated].
 - **Southern Mountain Stairs & Plateau (`(21, 46)` -> `(11, 36)` & Cable Car `(28, 27)`):**
   - Climb the stairs at `x = 20..21, y = 41..43` to `(21, 40)`.
-  - **Hiker Trent `(24, 32..34)`** (wanders vertically along `x = 24`) and **Hiker Brice `(15..16, 36..40)`** (wanders on the western side) are on the plateau, and two Team Magma Grunts block the **Mt. Chimney Cable Car** fence gap at `(26..27, 31)` until the Meteor Falls event is completed.
+  - **Hiker Brice `(24, 32..34)`** (wanders vertically along `x = 24` — `Numel Lv. 17`, `Machop Lv. 17` [Defeated]) and **Hiker Trent `(15..16, 36..40)`** (wanders on the western side) are on the plateau, and two Team Magma Grunts block the **Mt. Chimney Cable Car** fence gap at `(26..27, 31)` until the Meteor Falls event is completed.
   - **To Mt. Chimney Cable Car `(28, 27)`:** From `(21, 40)`, walk `Up` 5 along `x = 21` to `(21, 35)`, `Right` 5 along `y = 35` (passing south of Hiker Trent) to `(26, 35)`, `Up` 7 along `x = 26` through the fence gap at `(26, 31)` to `(26, 28)`, `Right` 2 to `(28, 28)`, and `Up` 1 into the **Mt. Chimney Cable Car Station `(28, 27)`**.
   - **To Fiery Path `(11, 36)`:** From `(21, 40)`, walk `Up` 2 to `(21, 38)` (signpost at `(22, 37)`), `Left` 10 along `y = 38` (passing north of Hiker Brice when he is at `(15, 39..40)`) to `(11, 38)`, and `Up` 2 into the **Fiery Path (South Entrance) `(11, 36)`**.
 
