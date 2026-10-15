@@ -37,7 +37,10 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
-(To be cataloged as encountered)
+1. Black Belt:
+   - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
+   - Pre-battle: "If you mean to pass, it has to be through me!"
+   - Team: (In progress)
 
 ## Gym Leader Brawly
 - Emerald Team:
