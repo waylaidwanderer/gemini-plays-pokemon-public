@@ -24,4 +24,8 @@
 - **Western Trainers (`(11, 9)` & `(22, 5)`):**
   - **Hex Maniac Tammy `(11, 11)`:** Watches `(11, 9)` — `Duskull Lv. 29`, `Shuppet Lv. 29` [Defeated].
   - **Bug Maniac Cale `(11, 7)`:** Walks between `(11, 7)` and `(11, 8)` watching `(11, 9)` — `Dustox Lv. 29`, `Beautifly Lv. 29` [Defeated].
-  - **Beauty Jessica `(22, 5)`:** Faces Down inside the fenced corridor (`y = 5..7`) watching `(22, 6..7)` — `Kecleon Lv. 29`, `Seviper Lv. 29` [Defeated & Registered].
+  - **Beauty Jessica `(22, 5)`:** Faces Down inside the fenced corridor (`y = 5..7`, reached via `(11, 9)` -> `(12, 9)` -> `(12, 6)` -> `(22, 6)`) watching `(22, 6..7)` — `Kecleon Lv. 29`, `Seviper Lv. 29` [Defeated & Registered].
+- **Safari Zone Gatehouse & Mt. Pyre Pier Crossroads (`(25, 6)` -> `(30, 12)`):**
+  - Stepping onto `x = 25` (`(25, 6)`, south of the Safari Zone Gatehouse at `(25..29, 1..3)`) triggers the **Team Aqua Grunts Mt. Pyre Cutscene** (`(30..31, 7..8)`), clearing the white staircase at `(30, 9..11)` [Completed].
+  - **Mt. Pyre Pier (Route 122 Entrance):** From `(30, 12)`, walk `Down` down the lower white staircase at `(30..31, 13..14)` onto the pier and `Surf` south from `(30..31, 14)` into **Route 122**.
+  - **Southern Coastal Terrace Bypass to Lilycove City:** Walking `Right` along `y = 12` from `(30, 12)` bypasses **Sr. and Jr. Kate & Joy `(39..40, 9)`** on the upper cliff (`x = 38, y = 13` has an item ball).
