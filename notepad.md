@@ -588,6 +588,10 @@
 - **Team Aqua Hideout 1F (`(13, 27)` -> B1F Staircase `(22, 1)`):**
   - From the entrance at `(13, 27)`, surf `Up` 15 along `x = 13` to step ashore onto the dock steps at `(13, 12)`.
   - From `(13, 12)`, walk `Up` 2 to `(13, 10)`, `Right` 7 along `y = 10` to `(20, 10)` (bypassing the pacing Team Aqua Grunt on `y = 9`), `Up` 7 along `x = 20` to `(20, 3)`, `Right` 2 to `(22, 3)`, and `Up` 2 into the northern staircase doorway at `(22, 1)`.
+- **Team Aqua Hideout B1F (`(29, 2)` -> `(32, 19)`):**
+  - From the arrival staircase at `(29, 2)`, walk `Left` 2 and `Down` 2 onto the left warp pad at `(27, 4)`, which warps to `(3, 15)`.
+  - From `(3, 15)`, walk `Right` 16 along `y = 15` to `(19, 15)` (or via `(15, 14)` -> `(20, 14)` where the rotating **Team Aqua Grunt `(20, 18)`** has `Carvanha Lv. 32` [Defeated]), `Down` 6 along `x = 19` to `(19, 21)`, and `Right` 8 along `y = 21` to `(27, 21)`.
+  - Side-talk **Team Aqua Grunt `(28, 21)`** (`Poochyena Lv. 31`, `Zubat Lv. 31` [Defeated]) from `(27, 21)`, then walk `Up` 1 to `(27, 20)` and `Right` 1 to `(28, 20)` to battle **Team Aqua Grunt `(28, 16)`** (`Zubat Lv. 31`, `Carvanha Lv. 31` [Defeated]) 1v1, walk `Right` 4 to `(32, 20)`, and step `Up` 1 onto the warp pad at `(32, 19)` (warps to **B2F `(20, 4)`**).
 
 <hr>
 
