@@ -23,7 +23,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - South Corridor: Row 22 walkway continues east past column 8 through (9, 22) and (11, 22).
 - Column 12 Junction at (12, 22): At (12, 22), the corridor branches North into row 21 and South into rows 23-24 between the column 11 and column 13 wall blocks. Directly East at (13, 22) is an impassable brown wall with water above it.
 - Column 12 North Corridor: Column 12 continues north through (12, 21) and (12, 20) to (12, 19).
-- Row 18 Water Barrier: At (12, 18), blue water blocks northward passage. Row 19 extends west into (11, 19).
+- Row 18 Water Barrier: At (12, 18), blue water blocks northward passage.
+- Column 10 Wall: Impassable brown wooden wall at (10, 18..19) blocks westward movement from (11, 19).
+- Column 11 North Pathway: Column 11 opens north through (11, 18) between the column 10 wall and column 12 water canal, leading deeper into the gym.
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
