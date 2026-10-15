@@ -61,16 +61,16 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
-- [x] Descend Southwest Ladder at (17, 11) to B1F (completed Turn 1742).
-- [x] Navigate B1F to find descent to B2F (completed Turn 1777 at ladder 28, 21).
+- [x] Descend Southwest Ladder at (17, 11) to B1F.
+- [x] Navigate B1F to find descent to B2F.
 - [ ] Navigate to Steven's chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 ## Granite Cave B2F
 - Entrance Ladder from B1F: Located at (28, 21).
-- Topography: Ladder wall to east; walkable floor opens west to col 27. Boulder at (25, 21) diverts traffic north via col 26 row 20 into the column 25 corridor (rows 20-17). Row 17 corridor runs west through cols 25-13 underneath northern cliff wall (row 16). At (12, 17), a solid west wall blocks further westward movement, and the passage turns SOUTH along column 13 (row 18+).
-- Wild Encounters: Aron, Abra (caught Lv 10 ♂ in Great Ball!).
-- Objective: Continue navigating west/northwest across B2F to locate the ascent ladder to 1F/Steven's chamber.
+- Topography: Ladder wall to east; walkable floor opens west to col 27. Boulder at (25, 21) diverts traffic north via col 26 row 20 into the column 25 corridor (rows 20-17). Row 17 corridor runs west through cols 25-13 underneath northern cliff wall (row 16). At (12, 17), a solid west wall blocks further westward movement, and the passage turns SOUTH along column 13 (rows 18-22). At (13, 22), row 23 is a solid impassable cliff/barrier blocking downward movement; routing must test east or west from row 22.
+- Wild Encounters: Aron, Abra (caught Lv 10 ♂ in Great Ball named CIPHER!).
+- Objective: Continue navigating across B2F to locate the ascent ladder to 1F/Steven's chamber.
 
 <hr>
 
