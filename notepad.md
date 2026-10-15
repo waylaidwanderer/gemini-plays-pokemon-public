@@ -521,7 +521,7 @@
 - **Southern Wooden Bridge & Exit Corridor (`(36, 62)` -> Route 121):**
   - From `(36, 62)`, walk `Down` 5 along `x = 36` to `(36, 67)` and `Left` 16 along `y = 67` across the Southern Wooden Bridge (`x = 32..23, y = 67..68`) to `(20, 67)`.
   - From `(20, 67)`, walk `Down` 10 along `x = 20` to `(20, 77)` (note: the staircase at `(22, 76)` reached via `(20, 75)` -> `(22, 75)` leads to a dead-end item alcove at `(22, 83)`).
-  - From `(20, 77)`, walk `Left` 3 to `(17, 77)`, `Down` 1 to `(17, 78)`, `Left` 1 to `(16, 78)`, and `Down` 5 along `x = 16` to `(16, 83)` (**Bug Maniac Brandon `(19, 80)`** watches `(16, 80)` — `Surskit Lv. 27` [Defeated]).
+  - From `(20, 77)`, walk `Left` 3 to `(17, 77)`, `Down` 1 to `(17, 78)`, `Left` 1 to `(16, 78)`, and `Down` 5 along `x = 16` to `(16, 83)` (**Bug Maniac Jeffrey `(19, 80)`** watches `(16, 80)` — `Surskit Lv. 27 x3` [Defeated & Registered]).
 
 <hr>
 
