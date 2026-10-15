@@ -208,8 +208,10 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt.
 
 ## Landmarks & Route Layout
-- Route 116 Entrance Signpost: Located at (5, 10) [local Route 116 coordinates]. Text: "ROUTE 116 / ⬅ RUSTBORO CITY".
+- Route 116 Entrance Signpost: Located at (5, 10). Text: "ROUTE 116 / ⬅ RUSTBORO CITY".
 - Northern Highway: Clear grassy corridor at rows 7-8 bypassing the entrance trees and signpost to the north.
+- Route 116 Trainer Tips Signpost: Located at (16, 12). Text explains that pressing the B Button during evolution cancels it.
+- North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball and a Cut tree.
 
 ## Trainers
 1. Youngster Joey: [DEFEATED]
@@ -219,16 +221,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Defeat quote: "Ouch! A scrape! I have to put on a bandage!"
    - Reward: ¥144, 169 EXP.
 
-## Wild Pokémon
-- Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
-
-## Items & Discoveries
-(To be cataloged upon discovery)
-## Landmarks & Route Layout (Continued)
-- North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball and a Cut tree.
-- Route 116 Trainer Tips Signpost: Located at (16, 12). Text explains that pressing the B Button during evolution cancels it.
 2. School Kid Karen: [DEFEATED]
-   - Location: (22, 17), facing West.
+   - Location: (22, 16), facing South.
    - Pre-battle: "I study at school, and I study on the way home, too!"
    - Team: Shroomish Lv 9 (fainted).
    - Defeat quote: "I'm in shock--I lost?"
@@ -237,6 +231,12 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 3. Bug Catcher Jose:
    - Location: roughly (14, 18), facing North.
    - Status: Discovered in southwest clearing.
+
+## Wild Pokémon
+- Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
+
+## Items & Discoveries
+(To be cataloged upon discovery)
 
 <hr>
 
