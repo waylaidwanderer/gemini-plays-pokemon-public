@@ -68,3 +68,4 @@
 - Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Pressing A confirms picking; pressing B cancels and leaves them unpicked. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
+- Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
