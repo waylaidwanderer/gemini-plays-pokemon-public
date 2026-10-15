@@ -38,7 +38,7 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 1. Black Belt Cristian:
    - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
    - Pre-battle: "If you mean to pass, it has to be through me!"
-   - Team: Makuhita ♂ Lv 13 (Makuhita HP ~55%, Sage HP 48/51)
+   - Team: Makuhita ♂ Lv 13 (Makuhita HP ~15%, Sage healing to full)
 
 ## Gym Leader Brawly
 - Emerald Team:
