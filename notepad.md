@@ -398,7 +398,7 @@
 - **Team Magma Hideout 2F (`MagmaHideout_2F_1R`):**
   - **North Entrance (from 1F `(25, 35)`):** `(8, 3)` (doorway at `(8, 2)`).
   - **Upper Eastern Corridor (`(8, 3)` -> `(22, 8)`):** Walk `Down` 2 from `(8, 3)` to `(8, 5)`, `Right` 14 along `y = 5` to `(22, 5)`, and `Down` 3 down the yellow staircase at `(22..23, 7)` to `(22, 8)`.
-  - **Middle Corridor (`(22, 8)` -> `(15, 24)`):** Step `Down` 1 from `(22, 8)` to `(22, 9)`, walk `Left` 13 along `y = 9` to `(9, 9)` (**Team Magma Grunt `(21, 10)`** faces Up watching `(21, 8..9)` — `Numel Lv. 29` [Defeated]; walking along `y = 9` bypasses **Team Magma Grunt `(8, 8)`** facing Right), and walk `Down` 6 along `x = 9` down the yellow staircase at `(9..10, 12)` to `(9, 15)`. From `(9, 15)`, step `Left` 1 to `(8, 15)`, walk `Down` 5 along `x = 8` to `(8, 20)`, `Right` 13 along `y = 20` to `(21, 20)` (**Team Magma Grunt (F) `(14..18, 20)`** patrols around the machines — `Baltoy Lv. 28`, `Numel Lv. 28` [Defeated]), `Down` 4 down the yellow double staircase at `(20..21, 21..22)` to `(21, 24)`, and `Left` 6 along `y = 24` to `(15, 24)`.
+  - **Middle Corridor (`(22, 8)` -> `(16, 24)`):** Step `Down` 1 from `(22, 8)` to `(22, 9)`, walk `Left` 13 along `y = 9` to `(9, 9)` (**Team Magma Grunt `(21, 10)`** faces Up watching `(21, 8..9)` — `Numel Lv. 29` [Defeated]; walking along `y = 9` bypasses **Team Magma Grunt `(8, 8)`** facing Right), and walk `Down` 6 along `x = 9` down the yellow staircase at `(9..10, 12)` to `(9, 15)`. From `(9, 15)`, step `Left` 1 to `(8, 15)`, walk `Down` 5 along `x = 8` to `(8, 20)`, `Right` 13 along `y = 20` to `(21, 20)` (**Team Magma Grunt (F) `(14..18, 20)`** — `Baltoy Lv. 28`, `Numel Lv. 28` [Defeated]; **Team Magma Grunt (M) `(13..18, 16..20)`** — `Baltoy Lv. 28`, `Zubat Lv. 28` [Defeated]), `Down` 4 down the yellow double staircase at `(20..21, 21..22)` to `(21, 24)`, and `Left` 5 along `y = 24` to `(16, 24)`.
 
 <hr>
 
@@ -580,7 +580,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,432 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,992 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x5, Super Potion x2, Repel x5, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
