@@ -496,7 +496,7 @@
     1. From `(4, 17)`, walk `Down` 1 to `(4, 18)`, `Right` 3 to `(7, 18)`, `Up` 2 to `(7, 16)`, `Right` 1 to `(8, 16)`, and `Up` 2 through `(8, 15)` to `(8, 14)` (rotates Turnstile #4 clockwise).
     2. Note: Turnstile #5 (`y = 11..12`) starts as a horizontal 2-arm bar (`Left` and `Right` arms). To cross onto `(9, 11)`, do NOT push Turnstile #5 from `(8, 12)` first; instead, while Turnstile #5 is horizontal, reset Turnstile #4 via `(8, 14)` -> `Down` 1 to `(8, 15)`, then walk `Left` 1 to `(7, 15)`, `Up` 1 to `(7, 14)` (open because Turnstile #4's `Left` arm is only 1 tile long in its initial state), `Right` 2 through `(8, 14)` onto `(9, 14)` (pushes Turnstile #4's `Up` arm `Right`), `Up` 2 to `(9, 12)`, and `Up` 1 through `(9, 12)` onto `(9, 11)` (pushes Turnstile #5's horizontal `Right` arm `Up`).
 - **Room 3 (`(9, 11)` -> `(2, 7)`):**
-  - **2v2 Double Battle at `(9, 10)`:** Stepping `Up` 1 from `(9, 11)` to `(9, 10)` triggers **Camper Flint `(10, 10)`** (`Swellow Lv. 29`, `Xatu Lv. 29`) and **Bird Keeper Edwardo `(9, 8)`** (`Doduo Lv. 29`, `Pelipper Lv. 29`).
+  - **2v2 Double Battle at `(9, 10)`:** Stepping `Up` 1 from `(9, 11)` to `(9, 10)` triggers **Camper Flint `(10, 10)`** (`Swellow Lv. 29`, `Xatu Lv. 29` [Defeated]) and **Bird Keeper Edwardo `(9, 8)`** (`Doduo Lv. 29`, `Pelipper Lv. 29` [Defeated]).
   - **Turnstile #6 Bypass (`(9, 10)` -> `(2, 7)`):** Because Turnstile #6's 2-tile arm starts pointing `Right` along `y = 6..7`, walk `Left` 3 from `(9, 10)` to `(6, 10)`, `Up` 2 to `(6, 8)`, `Left` 4 along `y = 8` to `(2, 8)`, and `Up` 1 to `(2, 7)` without touching Turnstile #6.
 
 <hr>
@@ -506,7 +506,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,796 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $6,188 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon)
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x10, Repel x6, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
