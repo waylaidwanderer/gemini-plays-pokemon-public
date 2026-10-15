@@ -185,7 +185,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Fisherman Ivan: [DEFEATED]
   - Location: (29, 8) on the northern shore of the river, facing South.
   - Team: Magikarp Lv 5, Magikarp Lv 6, Magikarp Lv 7.
-  - Reward: TBD.
+  - Reward: ¥280, EXP.
 - Route 104 North Signpost: Located at (23, 6) north of the bridge exit.
 
 <hr>
@@ -197,10 +197,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Successfully bypassed Twins via row 16 and reached northern bridge span at (25, 15)! Heading north across the bridge toward Rustboro City.
+- Status: Defeated Fisherman Ivan on Route 104 North! Sage Lv 13 (HP 36/36), Lilz Lv 6, wallet ¥7200. Ready to read signpost, harvest berries, and enter Rustboro City!
 
 ## Party
-1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: ~25/36.
+1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36.
 2. LILZ (Lotad ♀, Level 6) - Caught on Route 102. Moves: Astonish, Growl. HP: 22/22.
 
 ## Bag Highlights
@@ -211,7 +211,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods)
-- Money: ¥6920 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥144 from Gina & Mia)
+- Money: ¥7200 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle, ¥180 from Aqua Grunt, ¥96 from James, ¥1400 from Winston, ¥96 from Haley, ¥144 from Gina & Mia, ¥280 from Ivan)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
