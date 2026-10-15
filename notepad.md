@@ -393,7 +393,7 @@
   - Step `Left` 1 to `(5, 22)` and walk `Up` 11 along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..(5, 11)`).
 - **1F Northern & Eastern Corridor (`(5, 11)` -> `(25, 19)`):**
   - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
-  - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)`).
+  - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)` — `Poochyena Lv. 29` [Defeated]).
 
 <hr>
 
@@ -575,7 +575,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $2,712 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,292 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x5, Super Potion x2, Repel x6, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
