@@ -39,7 +39,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B2F
 - Ascent Ladder to B1F (Southeast): Located at (28, 21), bidirectional ladder to B1F.
-- Northwest Sector (Dead End on Foot): (2..3, 14-16) contains Rock Smash rocks at (2, 16) and (3, 14) and mud slope at (4, 13). Solid rock wall at (2, 15); inaccessible without Rock Smash/Mach Bike.
+- Strategic Status: 100% surveyed! B2F is an optional floor containing Aron, Abra, Sableye, and Everstone. All northern upper rows (rows 1-10) are on an elevated plateau requiring Mach Bike (mud slope at 4, 13) or Rock Smash (rocks at 2, 16, 3, 14, 5, 14, 7, 12).
+- Progression Route: Return to B1F via ladder at (28, 21). On B1F, navigate north along the eastern sector directly to the northeast ladder (ascending to 1F at 35, 3 to Steven's chamber)!
 - Topography:
   - Eastern Sector: Column 28 runs from ladder (28, 21) north to (28, 16). Solid east wall spans col 29 from row 16 to row 23. Row 16 extends west from (28, 16) to (23, 16).
   - Central Corridor: Row 17 connects col 28 west through (13, 17). Column 13 connects row 17 south to row 22 at (13, 22). North of row 17 is solid wall from col 13 to 22.
@@ -49,5 +50,5 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Column 6 North Passage: Open branch north from row 15 up through (6, 14) into (6, 13)!
   - Row 13 Upper Corridor: Open east from (6, 13) toward col 7+ beneath boulder at (7, 12).
   - Column 21 Corridor: Connects row 15 at (21, 15) north to (21, 11).
-  - Northern Sector: Row 11 connects col 21 westward; rock at (22, 11); wall at north. Row 12 dead-ends west at (18, 12) and north at (19, 11).
+  - Northern Sector: Rows 10-12 across cols 6-21 have solid north cliff wall separating lower cavern from upper plateau.
 - Wild Encounters: Aron, Abra (caught CIPHER!), Zubat, Sableye, Makuhita (Lv 11-12).
