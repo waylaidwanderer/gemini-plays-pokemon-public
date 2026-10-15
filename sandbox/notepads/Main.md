@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 18, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Recovered DEVON GOODS and rescued PEEKO in Rusturf Tunnel! Sage Lv 18 (HP 51/51, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6956.
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Received PokéNav and Letter from Mr. Stone! Sage Lv 18 (HP 51/51), Lilz Lv 9 (HP 28/28), wallet ¥6956.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: PAR. Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: OK (healed by Mr. Stone). Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28.
 
 ## Bag Highlights
