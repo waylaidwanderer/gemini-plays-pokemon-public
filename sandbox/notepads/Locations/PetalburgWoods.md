@@ -12,6 +12,9 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Entrance Signpost: Located at (14, 32). Displays Trainer Tips regarding EXP sharing and switch-training.
 - Southern Clear Trail: Row 35 provides a clear westbound path south of the tall grass field.
 - Southern Tall Grass Patch: Columns 3..12, rows 31..33.
+- Southwest Path: Column 5 runs north through the grass from row 33 to row 27.
+- Southwest Item Ball: Located at (4, 27) nestled in the tree alcove.
+- Northern Path Turn: From row 27, clear dirt path turns east along row 25-26.
 
 ## Key Events & Progression
 - Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball and opens passage to northern exit.
