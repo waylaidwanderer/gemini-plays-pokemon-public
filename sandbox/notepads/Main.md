@@ -8,12 +8,13 @@
 ## Party
 1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: OK (healed at Rustboro Pokémon Center). Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK (healed at Rustboro Pokémon Center).
+3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
 - Quick Claw: Held by Sage!
 - Potion x5 (1 promo Potion used to heal Sage to full HP, 4 bought in Rustboro)
-- Great Ball x2 (1 gift from rescued researcher in Petalburg Woods, 1 gift for recovering Devon Goods)
+- Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
