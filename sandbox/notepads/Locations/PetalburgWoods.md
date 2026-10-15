@@ -8,9 +8,15 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - North Exit: Route 104 North (leads to Pretty Petal Flower Shop and Rustboro City).
 - East Ledge Opening: Leads to elevated flower meadow on Route 104 South.
 
+## Landmarks & Features
+- Entrance Signpost: Located at (14, 32). Displays Trainer Tips regarding EXP sharing and switch-training.
+- Southern Clear Trail: Row 35 provides a clear westbound path south of the tall grass field.
+- Southern Tall Grass Patch: Columns 3..12, rows 31..33.
+
 ## Key Events & Progression
 - Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball and opens passage to northern exit.
 
 ## Wild Encounters & Trainers
 - Wild Pokémon: Shroomish, Slakoth, Wurmple, Silcoon, Cascoon, Taillow, Poochyena.
+- Bug Catcher (South-West): Located near col 3, row 30 facing south in the tall grass.
 - Trainers: Bug Catchers, Team Aqua Grunt.
