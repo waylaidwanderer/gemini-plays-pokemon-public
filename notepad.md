@@ -20,8 +20,8 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Row 21 Water Canal: Water canal spans rows 20-21 from column 4 through column 7, blocking northward movement in that section.
 - Eastern Bypass: Column 8 bypasses the water canal to the east! Tile (8, 21) is open floor.
 - Eastern Bypass & Pier: Column 8 runs north from row 22 to row 18, but rows 18-20 are a dead-end pier flanked by water and walls (no east/west exits at rows 18-19, water at 8, 17).
-- South Corridor: Row 22 walkway continues east past column 8 through (9, 22) along the row 23 south wall.
-- South Wall: Brown wall at row 23 borders the south side of the row 22 corridor from column 8 eastwards.
+- South Corridor: Row 22 walkway continues east past column 8 through (9, 22) and (11, 22).
+- South Wall Corner: The brown wall ends at column 11 and turns south along column 11, opening up column 12 to the south and east.
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
