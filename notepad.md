@@ -163,7 +163,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 12, Male), Nickname: SAGE
-- Status: Defeated Team Aqua Grunt and Bug Catcher James in Petalburg Woods! Sage Lv 12 (HP 34/34). Heading north through the northwest clearing to the northern exit into Route 104 North.
+- Status: Petalburg Woods cleared! Collected Paralyze Heal and Ether; defeated Bug Catcher Lyle, Team Aqua Grunt, and Bug Catcher James. Exiting north into Route 104 North.
 
 ## Party
 1. SAGE (Treecko ♂, Level 12) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 34/34.
@@ -172,6 +172,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Great Ball x1 (gift from rescued Devon researcher)
+- Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
 - Paralyze Heal x1 (collected from southwest grass in Petalburg Woods at 4, 26)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
