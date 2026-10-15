@@ -48,7 +48,10 @@
 6. [x] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.
 7. [x] Return to Rustboro City; deliver Devon Goods to Devon Researcher; meet Mr. Stone at Devon Corp.
 8. [x] Receive PokéNav and Letter for Steven from Mr. Stone.
-9. [ ] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
+9. [x] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
+10. [ ] Speak to Fisherman in Dewford Town to receive the Old Rod.
+11. [ ] Explore Granite Cave (Route 106), receive HM05 Flash, and deliver Letter to Steven.
+12. [ ] Defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
