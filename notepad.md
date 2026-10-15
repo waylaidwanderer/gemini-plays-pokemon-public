@@ -161,6 +161,10 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Pretty Petal Flower Shop: Located at rows 18-20, columns 2..10. Shop sign at (8, 20). Entrance door is at (5, 18) with cobblestone entrance from column 5. Interior sisters: Sister 1 at (4, 6) gives berry planting tutorial; Sister 2 at (6, 3) gives the WAILMER PAIL; Sister 3 at (10, 5) gives daily free berry (received Oran Berry). Soft soil berry patches also located outside the flower shop.
 - Highway to Rustboro City: Leads north past trainers directly into Rustboro City.
 - Trainer Tips Signpost: Located at (17, 24). Explains 2-on-2 Double Battles in Hoenn (requires at least 2 conscious Pokémon in party).
+- Rich Boy Winston: [BATTLING]
+  - Location: (22, 25) on Route 104 North road facing West.
+  - Team: Zigzagoon Lv 7.
+  - Reward: ¥1400, EXP.
 
 <hr>
 
