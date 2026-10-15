@@ -6,7 +6,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x8, Super Repel x1, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 36 — Mud Shot, Rock Tomb, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 37 — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 13 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
