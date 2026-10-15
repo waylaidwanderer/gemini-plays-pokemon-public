@@ -638,8 +638,9 @@
   - Stepping onto `(3, 30)` rotates **Psychic Preston `(2, 30)`** (`Kirlia Lv. 36`) and **Psychic Maura `(4, 30)`** (`Kadabra Lv. 36`) to face `(3, 30)` for a Double Battle [Defeated].
   - From `(3, 30)`, walk `Up` 2 through `(3, 29)` onto the teleporter pad at **`(3, 28)`**, which warps to **Room 2 at `(1, 23)`** (note: `(7, 30)` and `(1, 33)` in Room 1 are return/later pads).
 - **Room 2 (`(1, 23)` -> `(9, 18)`):**
-  - Contains a **Yellow Floor Switch at `(2, 21)`** and a 2x2 rotating block at **`(4..5, 20..21)`**, with **Hex Maniac Samantha `(4, 23)`** facing `Up` toward `(4, 22)` and a Psychic trainer on the 2x2 block.
-  - After **1 press** of `(2, 21)` (State 1), `(4..5, 20..21)` has Statue at `(4, 20)`, Psychic facing `Down` at `(4, 21)`, `Up` (`^`) conveyor at `(5, 21)`, and `Left` (`<`) conveyor at `(5, 20)`, so stepping onto `(5, 21)` from `(5, 22)` slides `Up` to `(5, 20)` (stopped by the Statue at `(4, 20)`), allowing you to step `Right` onto `(6, 20)` -> `(8, 20)` -> `(8, 18)` -> teleporter at **`(9, 18)`**.
+  - Contains a **Yellow Floor Switch at `(2, 21)`** and a 2x2 counter-clockwise conveyor loop at **`(4..5, 20..21)`**, with **Psychic Samantha `(4, 23)`** facing `Up` toward `(4, 22)` (`Xatu Lv. 36` [Defeated]) and **Psychic Blake** on the 2x2 block.
+  - Note: in `run_code`, stepping onto a Gym floor switch aborts the current `press_buttons` call and plays the rotation animation on the next `press_buttons` call (prepend `"sleep 1500"` before stepping off).
+  - After **1 press** of `(2, 21)` (State 1), `(4..5, 20..21)` has Statue at `(4, 20)`, **Psychic Blake** facing `Down` at `(4, 21)` (watches `(4, 22)`), `Up` (`^`) conveyor at `(5, 21)`, and `Left` (`<`) conveyor at `(5, 20)`. Walk `Right` 3 from `(2, 22)` to `(5, 22)` (defeating Psychic Blake at `(4, 22)`), step `Up` 1 onto `(5, 21)` (slides `Up` to `(5, 20)` against the Statue at `(4, 20)`), then walk `Right` 3 to `(8, 20)`, `Up` 2 to `(8, 18)`, and `Right` 1 onto the teleporter at **`(9, 18)`**.
 
 <hr>
 
@@ -653,7 +654,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x4, Super Potion x2, Repel x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 48 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 49 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 19 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
