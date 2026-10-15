@@ -27,6 +27,27 @@
 
 <hr>
 
+<h1><code>Locations/PetalburgWoods</code></h1>
+
+# Location: Petalburg Woods
+
+## Overview
+A dense forest connecting the southern and northern halves of Route 104. Shaded canopy with patches of tall grass and wandering trainers.
+
+## Connection Points
+- South Exit: Route 104 South (entrance at 16..17, 38..39).
+- North Exit: Route 104 North (leads to Pretty Petal Flower Shop and Rustboro City).
+- East Ledge Opening: Leads to elevated flower meadow on Route 104 South.
+
+## Key Events & Progression
+- Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball and opens passage to northern exit.
+
+## Wild Encounters & Trainers
+- Wild Pokémon: Shroomish, Slakoth, Wurmple, Silcoon, Cascoon, Taillow, Poochyena.
+- Trainers: Bug Catchers, Team Aqua Grunt.
+
+<hr>
+
 <h1><code>Locations/Route102</code></h1>
 
 # Location: Route 102
@@ -117,7 +138,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 10, Male), Nickname: SAGE
-- Status: Completed Petalburg Gym visit, assisted Wally with catching Ralts, met Scott. Currently heading north along Route 104 toward Petalburg Woods and Rustboro City.
+- Status: Entered Petalburg Woods! Defeated Lady Cindy (Sage Lv 11, Quick Attack). Navigating through the forest toward the Devon researcher and northern exit.
 
 ## Party
 1. SAGE (Treecko ♂, Level 11) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 32/32.
