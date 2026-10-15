@@ -26,7 +26,7 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 2. Fisherman Elliot:
    - Location: (52, 14), facing East between two rocks.
    - Pre-battle: "Which do you prefer, fishing in the sea or a stream?"
-   - Team: Magikarp Lv 10 (fainted, 42 EXP), Tentacool Lv 7 (fainted), Magikarp Lv 10 (incoming).
+   - Team: Magikarp Lv 10 (fainted, 42 EXP), Tentacool Lv 7 (fainted, 157 EXP), Magikarp Lv 10 (active).
    - Status: In battle (Turn 3).
 
 ## Mechanics Discovered
