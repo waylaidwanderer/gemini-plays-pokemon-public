@@ -39,4 +39,5 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Entrance Ladder from B1F: Located at (28, 21).
 - Topography: Entrance ladder from B1F at (28, 21). Northern bypass runs west along row 17 to col 13, then south to row 22. South corridor leads west along row 22 above the row 23 barrier to col 7; cracked rock at (6, 22) is bypassed north via row 21. At (4, 21), corridor heads north along col 4; (4, 13) is an impassable mud slope (requires Mach Bike). From (4, 17), east passage reaches a rock wall at (7, 17) and turns north along column 6 (row 16+).
 - Wild Encounters: Aron, Abra (caught Lv 10 ♂ in Great Ball named CIPHER!), Zubat, Sableye.
-- Objective: Continue navigating across B2F to locate the ascent ladder to 1F/Steven's chamber.
+- Ascent Ladder: Located at (6, 12) against the northern rock cliff, leading up to Granite Cave B1F!
+- Objective: Ascend the ladder at (6, 12) to reach B1F and locate the path to Steven's chamber.
