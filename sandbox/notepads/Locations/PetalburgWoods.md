@@ -18,5 +18,8 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 
 ## Wild Encounters & Trainers
 - Wild Pokémon: Shroomish, Slakoth, Wurmple, Silcoon, Cascoon, Taillow, Poochyena.
-- Bug Catcher Lyle: Located at (7, 31) facing south in the tall grass. Battles with Wurmple Lv 3, Wurmple Lv 3 (battling now).
+- Bug Catcher Lyle: [DEFEATED]
+  - Location: (7, 34) (originally spotted May from col 7, row 31).
+  - Team: Wurmple Lv 3, Wurmple Lv 3.
+  - Reward: ¥48, EXP.
 - Trainers: Bug Catchers, Team Aqua Grunt.

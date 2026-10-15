@@ -13,7 +13,7 @@
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- Money: ¥4956 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy)
+- Money: ¥5004 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary

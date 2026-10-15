@@ -49,7 +49,10 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 
 ## Wild Encounters & Trainers
 - Wild Pokémon: Shroomish, Slakoth, Wurmple, Silcoon, Cascoon, Taillow, Poochyena.
-- Bug Catcher Lyle: Located at (7, 31) facing south in the tall grass. Battles with Wurmple Lv 3, Wurmple Lv 3 (battling now).
+- Bug Catcher Lyle: [DEFEATED]
+  - Location: (7, 34) (originally spotted May from col 7, row 31).
+  - Team: Wurmple Lv 3, Wurmple Lv 3.
+  - Reward: ¥48, EXP.
 - Trainers: Bug Catchers, Team Aqua Grunt.
 
 <hr>
@@ -154,7 +157,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- Money: ¥4956 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy)
+- Money: ¥5004 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy, ¥48 from Lyle)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
