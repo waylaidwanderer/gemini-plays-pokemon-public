@@ -230,7 +230,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - South Crossway: Row 16 is clear across columns 1 to 8.
 - Entrance Chokepoint: (5, 15) is an alcove flanked by walls at (2..4, 15) and (6..7, 15). Defeated Josh stands at (5, 14), blocking direct northbound passage through the center. To navigate deeper, step south to row 16 and take the lateral paths.
 - Western Corridor: Column 1 is an unobstructed vertical path spanning north from row 16 to row 7.
-- North-West Quadrant: Youngster Tommy stands near (3, 7).
+- North-West Quadrant: Youngster Tommy stands at (3, 9) facing West. Hiker Marc stands at (1, 7..8) facing South. Stepping onto (1, 9) triggers a 2-on-2 Double Battle against both trainers simultaneously!
 
 <hr>
 
