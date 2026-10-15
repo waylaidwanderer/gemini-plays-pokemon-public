@@ -17,9 +17,10 @@
    - Location: (19, 6), facing South.
    - Reward: ¥48, EXP.
 
-4. Lass Tiana (upcoming):
-   - Location: Western clearing near Petalburg City entrance.
+4. Lass Tiana: [DEFEATED]
+   - Location: (8, 7), facing East.
    - Team: Zigzagoon Lv 4, Shroomish Lv 4.
+   - Reward: ¥64, EXP.
 
 ## Landmarks & Route Layout
 - Route 102 East Signpost: at (40, 10).
