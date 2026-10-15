@@ -335,11 +335,11 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 17, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Sage Lv 17 (HP 48/48, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6672.
+- Starter: Treecko / Grovyle (Level 18, Male), Nickname: SAGE
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Sage Lv 18 (HP 51/51, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6672.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 17) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 37/48. Status: PAR. Stats: Atk 29, Def 22, Sp.Atk 35, Sp.Def 32, Speed 40. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: PAR. Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28.
 
 ## Bag Highlights
