@@ -1,10 +1,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $10,448 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $1,448 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x2, Repel x6, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x6, Repel x6, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 43 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 16 — Gust, String Shot, Poison Sting, Harden)
