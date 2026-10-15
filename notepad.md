@@ -348,6 +348,15 @@
   - From `(14, 20)`, step `Right` 1 to `(15, 20)` (staying outside the sight range of **Picnicker Diana `(9, 21)`** facing Right and below the Team Magma Grunt at `(16, 19)` facing Up), walk `Down` 2 to `(15, 22)`, `Left` 4 along `y = 22` to `(11, 22)`, and `Down` 6 along `x = 11` across three southbound ledges (`y = 23, 27, 32`) through the western ash-grass to `(11, 33)` (completely bypassing **Camper Ethan `(14, 25)`** and **Triathlete Julio `(18, 25)`**).
   - From `(11, 33)`, step `Right` 1 to `(12, 33)`, walk `Down` 3 along `x = 12` to `(12, 36)` (staying 4 tiles away from **Camper Beau `(16, 35)`** facing Left), `Right` 2 to `(14, 36)`, and `Down` 4 down the yellow stairs at `(14..15, 37)` onto the **South Exit Warp `(14..15, 40)`** (to Route 112 West).
 
+## Route 112 (West) & Lavaridge Town
+- **Jagged Pass South Entrance (on Route 112 West):** `(6, 46)` (exiting steps to `(6, 47)`).
+- **Path to Lavaridge Town (`(6, 47)` -> `(13, 10)`):**
+  - From `(6, 47)`, step `Left` 1 to `(5, 47)`, `Down` 3 to `(5, 50)` (passing east of the signpost at `(4, 49)`), and `Left` 12 along `y = 50` into **Lavaridge Town `(13, 10)`**.
+- **Lavaridge Town Points of Interest:**
+  - **Lavaridge Pokémon Center:** Door at `(9, 5)` (from `(13, 10)`, walk `Left` 4 to `(9, 10)` and `Up` 5 into `(9, 5)`).
+  - **Lavaridge Poké Mart:** Door at `(15, 5)`.
+  - **Lavaridge Gym:** Door at `(5, 15)`.
+
 <hr>
 
 <h1><code>Locations/Route_113_And_Fallarbor_Town</code></h1>
