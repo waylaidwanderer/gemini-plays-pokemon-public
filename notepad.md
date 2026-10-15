@@ -533,6 +533,9 @@
   - Stepping onto `x = 25` (`(25, 6)`, south of the Safari Zone Gatehouse at `(25..29, 1..3)`) triggers the **Team Aqua Grunts Mt. Pyre Cutscene** (`(30..31, 7..8)`), clearing the white staircase at `(30, 9..11)` [Completed].
   - **Mt. Pyre Pier (Route 122 Entrance):** From `(30, 12)`, walk `Down` down the lower white staircase at `(30..31, 13..14)` onto the pier and `Surf` south from `(30..31, 14)` into **Route 122**.
   - **Southern Coastal Terrace Bypass to Lilycove City:** Walking `Right` along `y = 12` from `(30, 12)` bypasses **Sr. and Jr. Kate & Joy `(39..40, 9)`** on the upper cliff (`x = 38, y = 13` has an item ball).
+- **Eastern Route 121 Fence Maze (`(40, 12)` -> Lilycove City):**
+  - From `(40, 12)`, walk `Right` 17 along `y = 12` to `(57, 12)`, `Up` 6 along `x = 57` through the fence opening at `(57, 7)` onto `(57, 6)`, `Right` 5 along `y = 6` to `(62, 6)` (avoiding **Pokéfan Vanessa `(63, 5)`** who rotates between Left `y = 5` and Down `x = 63`), and `Down` 5 along `x = 62` to `(62, 11)`.
+  - From `(62, 11)`, walk `Right` 12 along `y = 11` to `(74, 11)` (**Cooltrainer Marcel `(65, 9)`** — `Manectric Lv. 29`, `Shiftry Lv. 29` [Defeated]; **Cooltrainer Cristin `(72, 9)`** rotates between Left `y = 9` and Down `x = 72`), `Up` 4 to `(74, 7)`, and `Right` across the eastern border into **Lilycove City**.
 
 <hr>
 
@@ -541,7 +544,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,244 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,636 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x4, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
