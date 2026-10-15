@@ -51,7 +51,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B1F
 - Southwest Ladder: Located at (4, 21) leading back to 1F.
-- Verified Path: Column 4 leads north to (4, 19). Rock wall at (4, 18). Path turns Left (West) to (3, 19), then heads North along column 3 (3, 18, 17...) through a clear corridor between the western wall at col 2 and eastern rocks at col 4.
+- Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 from row 19 to row 14. At (3, 14), the corridor turns EAST along rows 14-15!
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
 - Objective: Thoroughly explore B1F corridors to locate the ladder down to B2F.
 
