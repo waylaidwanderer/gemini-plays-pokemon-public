@@ -88,4 +88,4 @@
   - Step `Left` 1 to `(5, 22)` and walk `Up` 11 along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..(5, 11)`).
 - **1F Northern & Eastern Corridor (`(5, 11)` -> `(25, 19)`):**
   - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
-  - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 4 along `x = 26..27` to `(26, 19)` (**Team Magma Grunt `(29, 19)`** faces Left watching `(26..28, 19)`).
+  - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)`).
