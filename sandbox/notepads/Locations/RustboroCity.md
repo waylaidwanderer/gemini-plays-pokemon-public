@@ -54,3 +54,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Northern Stage: Roxanne stands at (5, 2). Connected south via column 2 and row 4.
 ## Key Events & Progression - Post-Badge
 - Devon Goods Robbery: Upon exiting Rustboro Gym, a Team Aqua Grunt fled eastward toward Route 116 carrying stolen Devon Goods. The Devon Researcher chased him shouting 'Don't take my GOODS!' and pleaded for help retrieving them from Route 116 / Rusturf Tunnel.
+## City Navigation & Layout Mechanics Verified
+- Central Boulevard: Runs along columns 19-20. Column 17 sidewalk has a railing at row 23 that blocks southward walking.
+- Lamppost Pairs: Lampposts are placed in pairs at (19, y) and (21, y) at rows 24, 31, and 37. Column 20 is the unobstructed center lane between all lampposts.
+- Pokémon Center Approach: Building facade spans rows 34-38 (cols 14-18). The east wall at row 38 blocks westward movement from (20, 38). Approach must be made along row 39 (open sidewalk), then step Up into the door at (16, 38).
