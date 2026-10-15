@@ -15,7 +15,11 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Main Path: Wide corridor at rows 7..9 leading West beneath the row 6 ledge, looping north and east around to the upper plateau.
 - Western Corridor: Runs along rows 6..8 from col 30 to col 18.
 - Southwest Item Ball: [COLLECTED] Escape Rope at (17, 7).
-- Southwest Ladder: Located at (17, 11) leading down to lower floor.
+- Southwest Ladder: Located at (17, 11) leading down to B1F at (4, 21).
+
+## Granite Cave B1F
+- Southwest Ladder (to 1F): Located at (4, 21). Player arrives at (4, 22).
+- Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
 - North Ramp to Upper Plateau: Begins at (21..22, 6) leading to northern walkway and Northeast Ladder at (35, 5).
 
 ## Wild Pokémon (Granite Cave)
