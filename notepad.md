@@ -288,6 +288,5 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Text speed set to FAST in game Options menu (verified turn 417).
 - Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Pressing A confirms picking; pressing B cancels and leaves them unpicked. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
-- In Poké Mart buying dialogue, confirm quantity with A, wait for the YES/NO prompt to render, then confirm YES with A.
 
 <hr>
