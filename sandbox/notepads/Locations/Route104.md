@@ -61,4 +61,4 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Location: (29, 8) on the northern shore of the river, facing South.
   - Team: Magikarp Lv 5, Magikarp Lv 6, Magikarp Lv 7.
   - Reward: ¥280, EXP.
-- Route 104 North Signpost: Located at (23, 6) north of the bridge exit.
+- Route 104 North Signpost: Located at (23, 5) north of the bridge exit. Text: "ROUTE 104 / ⬆ RUSTBORO CITY".
