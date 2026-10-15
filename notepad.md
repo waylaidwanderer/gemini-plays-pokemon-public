@@ -37,10 +37,10 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
-1. Black Belt:
+1. Black Belt Cristian:
    - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
    - Pre-battle: "If you mean to pass, it has to be through me!"
-   - Team: (In progress)
+   - Team: 1 Pokémon (Makuhita)
 
 ## Gym Leader Brawly
 - Emerald Team:
