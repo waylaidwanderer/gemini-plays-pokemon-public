@@ -547,6 +547,8 @@
   - From `(10, 0)`, surf `Down` 8 to `(10, 8)`, `Left` 4 to `(6, 8)`, `Down` 4 to `(6, 12)`, `Left` 2 to `(4, 12)`, `Down` 21 along `x = 4` to `(4, 33)`, `Right` 18 along `y = 33` to `(22, 33)`, and walk `Up` 4 (`(22, 32..29)`) into **Mt. Pyre 1F**.
 - **Mt. Pyre 1F (`(17, 18)` -> Western Exit `(3..4, 6)`):**
   - No trainers on 1F. From `(17, 18)`, walk `Up` 6 to `(17, 12)`, `Left` 2 to `(15, 12)`, `Up` 4 to `(15, 8)`, `Left` 2 to `(13, 8)`, `Up` 2 to `(13, 6)`, `Left` 9 along `y = 6` onto the horizontal red exit mat at `(4, 6)` (or `(3, 6)`), and press `Down` to exit directly onto **Mt. Pyre Exterior**.
+- **Mt. Pyre Exterior (`(10, 43)` -> Mt. Pyre Summit `(19, 4)`):**
+  - No trainers on Exterior. From the doorway at `(10, 43)`, walk `Left` 2 to `(8, 43)`, `Down` 1 to `(8, 44)`, `Right` 19 along `y = 44` to `(27, 44)`, `Up` 8 up the first staircase to `(27, 36)`, `Left` 7 to `(20, 36)`, `Up` 1 to `(20, 35)`, `Left` 11 along `y = 35` to `(9, 35)`, `Up` 9 up the second staircase to `(9, 26)`, `Down` 1 to `(9, 27)`, `Right` 15 along `y = 27` to `(24, 27)`, `Up` 8 up the third staircase to `(24, 19)`, `Left` 5 to `(19, 19)`, and `Up` along `x = 19` into **Mt. Pyre Summit**.
 
 <hr>
 
