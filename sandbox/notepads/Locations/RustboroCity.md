@@ -66,3 +66,4 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Central Boulevard: Runs along columns 19-20. Column 17 sidewalk has a railing at row 23 that blocks southward walking.
 - Lamppost Pairs: Lampposts are placed in pairs at (19, y) and (21, y) at rows 24, 31, and 37. Column 20 is the unobstructed center lane between all lampposts.
 - Pokémon Center Approach: Building facade spans rows 34-38 (cols 14-18). The east wall at row 38 blocks westward movement from (20, 38). Approach must be made along row 39 (open sidewalk), then step Up into the door at (16, 38).
+- Brendan Encounter: Met Brendan at southern exit (16, 50). Registered Brendan in Match Call (#2 contact). Brendan set off for Dewford Town.
