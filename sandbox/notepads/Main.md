@@ -42,7 +42,7 @@
 
 ## Route 102
 - Overview: See Locations/Route102.md for detailed map topography, trainer locations, and verified landmarks.
-- Active Objective: Locate westbound passage past tree cluster toward Potion (11, 14) and Petalburg City.
+- Active Objective: Cleared Row 6 ledge gap at (18, 6)! Collect Pecha & Oran berries at (24..25, 1..2), defeat Lass Tiana, and enter Petalburg City.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.

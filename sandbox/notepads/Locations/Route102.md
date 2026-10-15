@@ -36,6 +36,7 @@
   - VERIFIED PASSAGE: The single walkable gap through the ledge is at (18, 6), directly to the left of Youngster Allen (19, 6)!
   - Walking north through (18, 6) leads onto the High Road connecting east to the Berry Trees (24..25, 1..2) and west to Petalburg City.
 - Potion Item Ball: Located in western cove at (11, 14) - uncollected.
-- Northern Road Frontier:
-  - Accessible via columns 22-25 north of row 11.
-  - High road contains Berry Trees (Pecha & Oran) at (24..25, 1..2), connects westbound to Lass Tiana and Petalburg City.
+- Northern High Road:
+  - Northern Signpost: Located at (18, 1).
+  - Berry Trees: Pecha & Oran berries growing in soft soil at (24..25, 1..2).
+  - Westbound Highway: Clear path leads west past Lass Tiana to Petalburg City.
