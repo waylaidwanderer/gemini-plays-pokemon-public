@@ -40,10 +40,11 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Landmarks & NPCs (1F Entrance Chamber)
 - Entrance Warp: (37, 12) leading south to Route 106 beach.
-- Flash Hiker: Located near entrance at roughly (36, 8); gives HM05 Flash!
+- Flash Hiker: Located at (36, 9) facing East; gives HM05 Flash!
+- Ladder to B1F: Located at roughly (36, 5) directly north of the Hiker.
 
 ## Progression Checklist - Granite Cave
-- [ ] Receive HM05 Flash from Hiker near 1F entrance.
+- [x] Receive HM05 Flash from Hiker near 1F entrance.
 - [ ] Navigate through Granite Cave to Steven's chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
@@ -501,8 +502,8 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City)
-- Money: ¥7396
+- TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
+- Money: ¥7796
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary

@@ -9,10 +9,11 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Landmarks & NPCs (1F Entrance Chamber)
 - Entrance Warp: (37, 12) leading south to Route 106 beach.
-- Flash Hiker: Located near entrance at roughly (36, 8); gives HM05 Flash!
+- Flash Hiker: Located at (36, 9) facing East; gives HM05 Flash!
+- Ladder to B1F: Located at roughly (36, 5) directly north of the Hiker.
 
 ## Progression Checklist - Granite Cave
-- [ ] Receive HM05 Flash from Hiker near 1F entrance.
+- [x] Receive HM05 Flash from Hiker near 1F entrance.
 - [ ] Navigate through Granite Cave to Steven's chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
