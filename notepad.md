@@ -397,7 +397,8 @@
   - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 2 to `(25, 28)`, and `Down` 7 along `x = 25` onto the **2F Staircase Warp `(25, 35)`** (note: the white stairs at `(23..24, 27)` lead up to the receiving platform below the one-way exit ledge `(20..22, 24)` from `(21, 22)`, and `(28..29, 30)` is the return teleporter pad).
 - **Team Magma Hideout 2F (`MagmaHideout_2F_1R`):**
   - **North Entrance (from 1F `(25, 35)`):** `(8, 3)` (doorway at `(8, 2)`).
-  - **Upper Eastern Corridor (`(8, 3)` -> `(22, 8)`):** Walk `Down` 2 from `(8, 3)` to `(8, 5)`, `Right` 14 along `y = 5` to `(22, 5)`, and `Down` 3 down the yellow staircase at `(22..23, 7)` to `(22, 8)` (**Team Magma Grunt `(21, 11)`** faces Down below `(22, 8)`).
+  - **Upper Eastern Corridor (`(8, 3)` -> `(22, 8)`):** Walk `Down` 2 from `(8, 3)` to `(8, 5)`, `Right` 14 along `y = 5` to `(22, 5)`, and `Down` 3 down the yellow staircase at `(22..23, 7)` to `(22, 8)`.
+  - **Middle Corridor (`(22, 8)` -> `(9, 15)`):** Step `Down` 1 from `(22, 8)` to `(22, 9)`, walk `Left` 13 along `y = 9` to `(9, 9)` (**Team Magma Grunt `(21, 10)`** faces Up watching `(21, 8..9)` — `Numel Lv. 29` [Defeated]; walking along `y = 9` bypasses **Team Magma Grunt `(8, 8)`** facing Right), and walk `Down` 6 along `x = 9` down the yellow staircase at `(9..10, 12)` to `(9, 15)`.
 
 <hr>
 
@@ -579,10 +580,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,292 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,872 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x5, Super Potion x2, Repel x6, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x5, Super Potion x2, Repel x5, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 45 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 17 — Gust, String Shot, Poison Sting, Harden)
