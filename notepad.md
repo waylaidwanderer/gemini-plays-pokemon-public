@@ -191,9 +191,10 @@
   - From `(37, 13)`, walk `Up` 3 to `(37, 10)` in front of the Tunnelers' Rest House `(38, 8)` (an item ball at `(32, 7)` west of the Rest House requires HM01 Cut at `(31, 10)` or `(33, 10)`), then walk `Right` 10 along `y = 10` to `(47, 10)` and `Up` 2 into **Rusturf Tunnel** at `(47, 8)` (Mr. Briney is at `(46, 9)`).
 ## Rusturf Tunnel
 - **West Entrance (from Route 116 `(47, 8)`):** `(4, 10)`
-- **Path to Team Aqua Grunt:**
+- **Path to Team Aqua Grunt & Eastern Passage (`(4, 10)` -> Verdanturf Town):**
   - From `(4, 10)`, walk `Up` 5 to `(4, 5)` (an item ball is at `(3, 1)` up the northern stairs at `(8, 3)`) and `Right` 9 along `y = 5` to `(13, 5)` (Team Aqua Grunt at `(14, 5)` — Poochyena Lv. 11 [Defeated — Devon Goods recovered & Peeko rescued]).
-  - **Exit Route from `(13, 5)`:** Walk `Left` 9 to `(4, 5)` and `Down` 6 onto `(4, 10)` to exit onto Route 116 at `(47, 9)`.
+  - **Exit Route from `(13, 5)` (Westbound):** Walk `Left` 9 to `(4, 5)` and `Down` 6 onto `(4, 10)` to exit onto Route 116 at `(47, 9)`.
+  - **HM04 (Strength) & Eastern Exit:** From `(13, 5)`, walk `Right` 6 to `(19, 5)`, `Up` 1 to `(19, 4)`, and `Right` 4 along `y = 4` to `(23, 4)`. Use **Rock Smash** on the boulder at `(24, 4)` to permanently clear the tunnel and receive **HM04 (Strength)** from Wanda's boyfriend at `(23, 5)` [Obtained], leaving the player at `(22, 4)`. From `(22, 4)`, walk `Right` 6 along `y = 4` to `(28, 4)` and `Down` along `x = 28` to the eastern exit to Verdanturf Town.
 - **Westbound Return Route (Rusturf Tunnel -> Rustboro City):**
   - From `(47, 9)`, walk `Down` 1 to `(47, 10)`, `Left` 9 to `(38, 10)`, `Down` 4 to `(38, 14)`, `Left` 3 to `(35, 14)`, `Up` 1 to `(35, 13)`, `Left` 15 along `y = 13` to `(20, 13)`, `Up` 4 to `(20, 9)`, `Left` 6 to `(14, 9)`, `Up` 5 to `(14, 4)`, `Left` 6 to `(8, 4)`, `Down` 3 to `(8, 7)`, `Left` 4 to `(4, 7)`, `Down` 4 to `(4, 11)`, and `Left` 14 into **Rustboro City** at `(30, 11)`.
   - Stepping onto `(30, 11)` with the recovered Devon Goods triggers the Researcher at `(30, 10)` (awards Great Ball x1 and escorts the player to Devon Corporation 3F to receive Steven's Letter and the PokéNav from President Stone).
@@ -381,7 +382,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$1,700 | **Badges:** 3 (Stone Badge, Knuckle Badge, Dynamo Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x6, Super Repel x4, Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
+- **Inventory:** Super Potion x6, Super Repel x4, Great Ball x2, Poké Ball x2, PP Up x1, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 31 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Beautifly, Male, Lv. 11 — Tackle, String Shot, Poison Sting, Harden)
