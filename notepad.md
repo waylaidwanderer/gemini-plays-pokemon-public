@@ -242,8 +242,8 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Interior Warp: (5, 19). Gym Guy at (4, 18). Statues at (3, 17) and (7, 17).
 - South Crossway: Row 16 is clear across columns 1 to 8.
 - Entrance Chokepoint: (5, 15) is an alcove flanked by walls at (2..4, 15) and (6..7, 15). Defeated Josh stands at (5, 14).
-- Western Corridor: Column 1 runs north from row 16 to row 9. Once defeated, Marc at (1, 8) and Tommy at (2, 9) block northward and eastward passage from column 1.
-- Eastern Corridor: Column 8 is a clear, unobstructed vertical corridor spanning north from row 16 all the way to the northern stage at row 5! This is the primary route to reach Gym Leader Roxanne.
+- Western Corridor: Column 1-2 runs north-south. Column 2 is the ONLY walkable passage between the northern stage (row 4) and the southern gym areas. Defeated Hiker Marc stands at (1, 7). Defeated Youngster Tommy stands at (3, 9) / (2, 9).
+- Eastern Wall: Rows 5-7 form a solid horizontal wall spanning columns 3 through 10. Column 8 does not connect through to the stage; it dead-ends at row 5.
 - Northern Stage: Roxanne stands at (5, 2) on the elevated platform. Approach path: from western aisle at (2, 2), step Down to (2, 4), East to (5, 4), and Up to (5, 3) directly facing Roxanne.
 - Roxanne's Team (Emerald): Geodude Lv 12, Geodude Lv 12, Nosepass Lv 15 (holding Oran Berry). Sage Lv 15 with Absorb and Quick Claw is primed to sweep!
 
