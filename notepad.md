@@ -213,7 +213,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - Route 116 Trainer Tips Signpost: Located at (16, 12). Text explains that pressing the B Button during evolution cancels it.
 - North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball, a Cut tree, and terrace signpost at roughly (29, 9).
 - Main Highway: Row 13-14 provides an east-west path directly beneath the northern ledge leading toward the Rest House and Tunnel entrance.
-- Tunnel Worker's Rest House: Located in north-central Route 116 at (37, 8) (yellow building with blue roof, worker and signpost outside). Contains a bed for free healing.
+- Tunnel Worker's Rest House: Located in north-central Route 116 at (38, 8) (yellow building with red tiled roof and red door, worker at 38, 9 and signpost at 40, 9). Door is currently closed/blocked.
+  - Tunnel Worker: "I was digging the tunnel without any tools when some goon ordered me out!" (reading continuation).
 
 ## Trainers
 1. Youngster Joey: [DEFEATED]
@@ -337,7 +338,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 18, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Sage Lv 18 (HP 51/51, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6672.
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Sage Lv 18 (HP 51/51, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6736.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 51/51. Status: PAR. Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
@@ -353,7 +354,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City)
-- Money: ¥6160
+- Money: ¥6736
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3)
 
 ## Littleroot Town & Route 101 Summary
