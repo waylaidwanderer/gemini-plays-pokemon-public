@@ -522,6 +522,7 @@
   - From `(36, 62)`, walk `Down` 5 along `x = 36` to `(36, 67)` and `Left` 16 along `y = 67` across the Southern Wooden Bridge (`x = 32..23, y = 67..68`) to `(20, 67)`.
   - From `(20, 67)`, walk `Down` 10 along `x = 20` to `(20, 77)` (note: the staircase at `(22, 76)` reached via `(20, 75)` -> `(22, 75)` leads to a dead-end item alcove at `(22, 83)`).
   - From `(20, 77)`, walk `Left` 3 to `(17, 77)`, `Down` 1 to `(17, 78)`, `Left` 1 to `(16, 78)`, and `Down` 5 along `x = 16` to `(16, 83)` (**Bug Maniac Jeffrey `(19, 80)`** watches `(16, 80)` — `Surskit Lv. 27 x3` [Defeated & Registered]).
+  - From `(16, 83)`, walk `Right` 2 to `(18, 83)`, `Down` 6 along `x = 18` onto the southern sandy road at `(18, 89)`, and `Right` along `y = 89..90` across the eastern border into **Route 121**.
 
 <hr>
 
@@ -530,7 +531,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $1,448 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,068 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x5, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
