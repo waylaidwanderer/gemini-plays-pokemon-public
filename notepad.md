@@ -100,7 +100,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 ## Trainers & Encounters
 - Wild Pokémon (Tall Grass): Encounterable at y=54..59.
-- Lass Haley / NPC: Wanders around (25, 48) near the northern forest edge.
+- Lass Haley / Girl NPC: Paces between (25, 48) and (25, 50) near the northern forest edge.
 - Lady Cindy: Located in eastern elevated flower meadow at (31..32, 48) (accessible via Petalburg Woods exit).
 
 <hr>
