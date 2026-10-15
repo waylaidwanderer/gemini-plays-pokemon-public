@@ -465,6 +465,8 @@
   - **Staircase Warp:** `(17, 1)` (arrives at `(17, 2)`; main east-west aisle runs along `y = 6` from `(18, 6)` to `(5, 6)` via `(18, 7)`).
   - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]), **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]), **Team Aqua Grunt (M) `(10, 8)`** (`Poochyena Lv. 26`, `Zubat Lv. 26`, `Carvanha Lv. 26` [Defeated]), and **Team Aqua Admin Shelly `(4, 6)`** (`Carvanha Lv. 28`, `Mightyena Lv. 28` [Defeated — all Team Aqua Grunts leave the Weather Institute and the northern Route 119 bridge]).
   - **Gift Pokémon:** After defeating Shelly, the Institute Director awards **Castform Lv. 25** (holding `Mystic Water`) [Obtained — nicknamed `ZEPHYR`].
+## Northern Route 119 (`(6, 33)` -> Fortree City)
+- **Northern Bridge:** Walk `Down` 1 from the Weather Institute exit `(6, 33)` to `(6, 34)` and `Right` 18 along `y = 34` across the bridge to `(24, 34)`, then `Right` 1 to `(25, 34)` and `Up` 3 to `(25, 31)` to trigger **Rival May** (`Slugma Lv. 29`, `Grovyle Lv. 31`, `Lombre Lv. 29`).
 
 <hr>
 
@@ -478,7 +480,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x8, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 40 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 40 [Fainted, Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 14 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 25 — Powder Snow, Rain Dance, Sunny Day, Hail)
