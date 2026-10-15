@@ -38,11 +38,11 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Location: roughly (14, 18), facing North.
    - Status: Discovered in southwest clearing.
 
-4. Youngster Johnson:
+4. Youngster Johnson: [DEFEATED]
    - Location: (36, 13), facing West.
    - Pre-battle: "It's a dead end up here. I'm bored, so can we battle?"
-   - Team: Shroomish Lv 8 (fainted), Lotad Lv 8.
-   - Status: Battle ongoing. Note: Lotad is Water/Grass type, weak to Bug-type attacks (Fury Cutter).
+   - Team: Shroomish Lv 8 (fainted), Lotad Lv 8 (fainted).
+   - Reward: ¥128, 237 EXP (111 + 126).
 
 5. Hiker Clark:
    - Location: roughly (41, 14), facing West.
