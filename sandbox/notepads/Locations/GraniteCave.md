@@ -20,10 +20,11 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Ledge Ridge (rows 5-6): Separates the lower corridor from the upper path.
   - Wild Encounters (1F): Zubat (Lv 7-8), Makuhita (Lv 7-10), Abra (Lv 8), Geodude.
 
-## Granite Cave B1F & B2F (Optional Deep Dungeon)
-- B1F & B2F are completely optional lower cavern floors for catching Aron, Sableye, Abra, and collecting items (requires Mach Bike and Rock Smash for full exploration).
-- B1F Southwest Ladder at (4, 21) connects to 1F (17, 11). Southeast Ladder at (28, 21) connects to B2F (28, 21).
-- B2F Northwest corner features mud slope at (4, 13) and Rock Smash boulders at (2, 16), (3, 14), (5, 14). (2, 15) is solid cliff wall. B2F does not lead to Steven.
+## Granite Cave B1F & B2F (Lower Caverns)
+- Southwest Ladder at (4, 21) connects to 1F (17, 11).
+- Southeast Ladder at (28, 21) connects B1F to optional floor B2F.
+- Northern Passage: Open archway/doorway at (9, 10) on B1F leads north into the secluded upper chambers toward Steven!
+- B2F Northwest corner contains mud slope (4, 13) and Rock Smash boulders (2, 16), (3, 14), (5, 14). B2F is optional.
 
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
