@@ -357,6 +357,7 @@
 
 ## Jagged Pass (Southbound 0-Battle Bypass)
 - **North Entrance (from Mt. Chimney `(20..21, 42)`):** `(13, 5)`.
+- **Team Magma Hideout Entrance `(16, 18)`:** Stepping onto `(14, 15)` along `x = 14` with the **Magma Emblem** in the Bag automatically triggers the boulder-shaking cutscene and opens the cave entrance at `(16, 18)` (reached from `(14, 15)` via `Down` 4 across the `y = 16` ledge and `y = 18..19` stairs to `(14, 20)`, `Right` 2 to `(16, 20)`, and `Up` 2 into `(16, 18)`).
 - **Complete 0-Trainer Southbound Route (`(13, 5)` -> `(14, 40)`):**
   - With a **Super Repel** active, step `Right` 1 from `(13, 5)` to `(14, 5)` and walk `Down` 10 along `x = 14` across the stairs and three southbound ledges (`y = 9, 12, 17`) to `(14, 20)` (completely bypassing **Hiker Eric `(11, 8)`** facing Right).
   - From `(14, 20)`, step `Right` 1 to `(15, 20)` (staying outside the sight range of **Picnicker Diana `(9, 21)`** facing Right and below the Team Magma Grunt at `(16, 19)` facing Up), walk `Down` 2 to `(15, 22)`, `Left` 4 along `y = 22` to `(11, 22)`, and `Down` 6 along `x = 11` across three southbound ledges (`y = 23, 27, 32`) through the western ash-grass to `(11, 33)` (completely bypassing **Camper Ethan `(14, 25)`** and **Triathlete Julio `(18, 25)`**).
