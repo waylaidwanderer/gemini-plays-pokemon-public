@@ -214,7 +214,12 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 1. [x] Heal at Pokémon Center and set checkpoint.
 2. [x] Visit Cutter's House to receive HM01 Cut.
 3. [x] Visit Pokémon Trainer's School to receive Quick Claw.
-4. [ ] Challenge and defeat Gym Leader Roxanne to earn the Stone Badge and TM39.
+4. [x] Challenge and defeat Gym Leader Roxanne to earn the Stone Badge and TM39.
+
+## Gym Leader Roxanne: [DEFEATED]
+- Team: Geodude Lv 12 (fainted), Geodude Lv 12 (fainted), Nosepass Lv 15 (fainted).
+- Reward: Stone Badge (enables HM01 Cut outside battle and boosts party Attack), TM39 Rock Tomb, prize money, PokéNav Match Call registration.
+- Outcome: Complete victory! Sage grew to Lv 16 and evolved into Grovyle!
 
 ## Building Interiors & Discoveries
 - Cutter's House: (9, 38). Cutter gives HM01 Cut.
