@@ -261,9 +261,6 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Defeat quote: "Aiyiyi! No contest at all"
    - Reward: ¥320, 294 EXP total (147 + 147). Sage grew to Lv 18!
 
-## NPCs
-- Boy at (36, 13): Mentions "It's a dead end up here."
-
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
 
