@@ -347,17 +347,20 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Progression Checklist - Rusturf Tunnel
 - [x] Enter Rusturf Tunnel from Route 116.
-- [ ] Locate Team Aqua Grunt and Peeko.
-- [ ] Defeat Team Aqua Grunt.
-- [ ] Recover Devon Goods and rescue Peeko for Mr. Briney.
-- [ ] Collect any visible items in the tunnel.
+- [x] Locate Team Aqua Grunt and Peeko.
+- [x] Defeat Team Aqua Grunt (Poochyena Lv 11, ¥220).
+- [x] Recover Devon Goods and rescue Peeko for Mr. Briney.
+- [ ] Collect any visible items in the tunnel (Item Ball at 2, 1).
 
 ## Key Characters & Trainers
-- Team Aqua Grunt: Located at (14, 5) holding Peeko hostage with stolen Devon Goods.
-  - Pre-battle dialogue: "Grah, keelhaul it all! That fawning old man had to go and stir up the whole town! Grah, keelhaul it all! That hostage POKéMON turned out to be worthless! And to think I made a getaway... In this tunnel to nowhere! Hey! You! So you want to battle me?"
-  - Team: Poochyena Lv 11.
-- Peeko: Mr. Briney's beloved Wingull, hovering at (14, 4) next to Grunt.
-- Mr. Briney: Outside waiting for Peeko's return.
+- Team Aqua Grunt: [DEFEATED]
+  - Location: (14, 5).
+  - Pre-battle: "Grah, keelhaul it all! That fawning old man had to go and stir up the whole town! Grah, keelhaul it all! That hostage POKéMON turned out to be worthless! And to think I made a getaway... In this tunnel to nowhere! Hey! You! So you want to battle me?"
+  - Team: Poochyena ♂ Lv 11 (fainted).
+  - Defeat quote: "Urrrgggh! My career in crime comes to a dead end"
+  - Reward: ¥220, 129 EXP. Dropped the DEVON GOODS and fled the tunnel!
+- Peeko: Mr. Briney's beloved Wingull, safely rescued!
+- Mr. Briney: Rushed in to reunite with Peeko, thanked May, and invited her to his cottage on Route 104.
 
 ## Wild Pokémon
 - Whismur (Levels 5-8), Geodude.
