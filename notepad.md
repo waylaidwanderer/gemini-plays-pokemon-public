@@ -45,7 +45,10 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Southern Tall Grass Patch: Columns 3..12, rows 31..33.
 - Southwest Path: Column 5 runs north through the grass from row 33 to row 27.
 - Southwest Item Ball: [COLLECTED] Paralyze Heal at (4, 26).
-- Northern Path Turn: From row 26, path leads north to row 25 dirt clearing, then east toward central woods.
+- Central Connector: Row 24 clear dirt corridor runs east from col 6 to col 18 beneath the central one-way ledge (ledge spans cols 12..16, row 22).
+- Eastern Grass Patch: Columns 19..24 at rows 24..25.
+- Eastern Corridor: Clear vertical dirt path along column 25 heading north toward central/north woods.
+- Bug Catcher James: Located at approximately (25, 18-19) in the eastern corridor.
 
 ## Key Events & Progression
 - Devon Researcher & Team Aqua Grunt confrontation: Devon employee searching for Shroomish is ambushed by an Aqua Grunt. Defeating the Grunt earns a Great Ball and opens passage to northern exit.
