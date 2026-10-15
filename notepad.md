@@ -35,7 +35,11 @@
 - Column 36 Corridor: Clear north-south highway from row 16 up to row 10, connecting the southern bypass to the main east-west road.
 - Vertical Ledge at (34, 2..8): One-way ledge jumping EAST (left to right). High ground is on the west (clearing); low ground is on the east (pond). Cannot be jumped going west.
 - Eastern Pond Pocket: Columns 35-36 terminate at row 4 against trees. There is no westbound exit from column 35-36.
-- Route Investigation (East Entrance & Row 10): Exploring the east entrance / signpost area (columns 36-44, row 10) to locate the true main road westward around the pond toward Petalburg City.
+- East Shore of Pond (Column 45): Blocked by solid column of trees from row 1 to row 8. No northbound route exists east of the pond.
+- The True Route to Petalburg City:
+  1. Follow southern path west past Calvin (33, 15) and Rick (25, 15) to central clearing at (18, 11).
+  2. Walk NORTH through column 18/19 directly to Youngster Allen at (19, 3).
+  3. From Allen (19, 3), head WEST along the northern road directly past the pond to Lass Tiana and Petalburg City!
 - Boy NPC near pond: at (36, 5), facing South.
 - Ledge & Potion: Accessible from the northern/western path above the ledge. Jumping down the ledge lands at the Potion item ball, leading into Petalburg.
 - Berries: Pecha and Oran berry trees located in the north-east clearing at (24..25, 1..2) - still need to harvest!
