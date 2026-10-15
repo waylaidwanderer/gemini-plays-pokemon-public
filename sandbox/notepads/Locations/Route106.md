@@ -18,7 +18,11 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 1. Fisherman Ned:
    - Location: (65, 14), facing East.
    - Pre-battle: "What do people do if they need to go to a washroom? What if my ROD hooks a big one while I'm in the washroom? I just can't go..."
+   - Team: Tentacool ♂ Lv 11.
    - Status: Battle in progress.
+
+## Mechanics Discovered
+- Water Sightlines: Trainers facing water do not spot and trigger battles with players walking on adjacent beach tiles across water. Speaking to them directly from an adjacent tile starts the battle.
 
 ## Progression Checklist - Route 106 & Granite Cave
 - [ ] Battle Route 106 trainers.
