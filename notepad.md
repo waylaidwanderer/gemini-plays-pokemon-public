@@ -236,9 +236,10 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Rustboro Gym Maze Topography
 - Interior Warp: (5, 19). Gym Guy at (4, 18). Statues at (3, 17) and (7, 17).
 - South Crossway: Row 16 is clear across columns 1 to 8.
-- Entrance Chokepoint: (5, 15) is an alcove flanked by walls at (2..4, 15) and (6..7, 15). Defeated Josh stands at (5, 14), blocking direct northbound passage through the center. To navigate deeper, step south to row 16 and take the lateral paths.
-- Western Corridor: Column 1 is an unobstructed vertical path spanning north from row 16 to row 7.
-- North-West Quadrant: Youngster Tommy stands at (3, 9) facing West. Hiker Marc stands at (1, 7..8) facing South. Stepping onto (1, 9) triggers a 2-on-2 Double Battle against both trainers simultaneously!
+- Entrance Chokepoint: (5, 15) is an alcove flanked by walls at (2..4, 15) and (6..7, 15). Defeated Josh stands at (5, 14).
+- Western Corridor: Column 1 runs north from row 16 to row 9. Once defeated, Marc at (1, 8) and Tommy at (2, 9) block northward and eastward passage from column 1.
+- Eastern Corridor: Column 8 is a clear, unobstructed vertical corridor spanning north from row 16 all the way to the northern stage at row 5! This is the primary route to reach Gym Leader Roxanne.
+- Northern Stage: Roxanne stands on the elevated platform (rows 2..4, cols 3..7). Central stairs lead onto her platform.
 
 <hr>
 
