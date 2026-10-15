@@ -190,6 +190,34 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
 
 <hr>
 
+<h1><code>Locations/Route116</code></h1>
+
+# Location: Route 116
+
+## Overview
+A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the east. Features rocky ledges, patches of grass, trainers, and berry patches.
+
+## Connection Points
+- West Exit: Connects to Rustboro City.
+- East Entrance: Rusturf Tunnel.
+
+## Progression Checklist - Route 116
+- [ ] Enter Route 116 from Rustboro City.
+- [ ] Battle Route 116 trainers for EXP and prize money.
+- [ ] Speak with Mr. Briney outside Rusturf Tunnel.
+- [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt.
+
+## Trainers
+(To be cataloged upon encounter)
+
+## Wild Pokémon
+- Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
+
+## Items & Discoveries
+(To be cataloged upon discovery)
+
+<hr>
+
 <h1><code>Locations/RustboroCity</code></h1>
 
 # Location: Rustboro City
