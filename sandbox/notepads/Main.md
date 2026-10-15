@@ -6,7 +6,7 @@
 - Status: Navigating Route 102; Calvin, Rick & Allen defeated, heading west to berry trees, Lass Tiana, and Petalburg City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 15/30.
+1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 20/30.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
