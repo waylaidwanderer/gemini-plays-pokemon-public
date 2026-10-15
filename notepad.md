@@ -154,6 +154,13 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Team: Zigzagoon Lv 7 (fainted).
   - Reward: ¥1400.
 
+## Landmarks & Features (North Section)
+- Petalburg Woods North Gate: Connects south into Petalburg Woods.
+- Bullet Seed NPC: Boy standing outside the forest gate who gives TM09 Bullet Seed.
+- Pretty Petal Flower Shop: Flower shop run by three sisters; provides the Wailmer Pail and berry tutorial/gifts.
+- Berry Trees: Soft loamy soil patches outside the flower shop.
+- Highway to Rustboro City: Leads north past trainers directly into Rustboro City.
+
 <hr>
 
 <h1><code>Main</code></h1>
