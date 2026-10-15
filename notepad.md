@@ -395,6 +395,9 @@
   - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
   - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)` — `Poochyena Lv. 29` [Defeated]).
   - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 2 to `(25, 28)`, and `Down` 7 along `x = 25` onto the **2F Staircase Warp `(25, 35)`** (note: the white stairs at `(23..24, 27)` lead up to the receiving platform below the one-way exit ledge `(20..22, 24)` from `(21, 22)`, and `(28..29, 30)` is the return teleporter pad).
+- **Team Magma Hideout 2F (`MagmaHideout_2F_1R`):**
+  - **North Entrance (from 1F `(25, 35)`):** `(8, 3)` (doorway at `(8, 2)`).
+  - **Upper Eastern Corridor (`(8, 3)` -> `(22, 8)`):** Walk `Down` 2 from `(8, 3)` to `(8, 5)`, `Right` 14 along `y = 5` to `(22, 5)`, and `Down` 3 down the yellow staircase at `(22..23, 7)` to `(22, 8)` (**Team Magma Grunt `(21, 11)`** faces Down below `(22, 8)`).
 
 <hr>
 
