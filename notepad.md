@@ -218,7 +218,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 
 ## Building Interiors & Discoveries
 - Cutter's House: (9, 38). Cutter gives HM01 Cut.
-- Pokémon Trainer's School: Door at (27, 33), signpost at (25, 35). Interior warp at (5, 10). Teacher is at (5, 3) behind desk at (5, 4). Walk around desk via col 4 to (4, 3) facing East to speak with teacher; gives Quick Claw! Blackboard at north wall explains status conditions. Student at (3, 5) has notebook on desk. Green-haired twins at (8..9, 6).
+- Pokémon Trainer's School: Door at (27, 33), signpost at (25, 35). Interior warp at (5, 10). Teacher stands behind the desk and gives the Quick Claw! Blackboard at north wall explains status conditions. Student at (3, 5) has notebook on desk. Green-haired twins at (8..9, 6).
 - Rustboro Gym: Located in northern Rustboro City. Leader: Roxanne (Rock-type). Uses Geodude and Nosepass. Absorb/Grass is 4x effective against Geodude and 2x against Nosepass.
 
 <hr>
