@@ -41,8 +41,8 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 4. Youngster Johnson:
    - Location: (36, 13), facing West.
    - Pre-battle: "It's a dead end up here. I'm bored, so can we battle?"
-   - Team: Shroomish Lv 8, [Pokémon 2].
-   - Status: Battle ongoing. Note: Shroomish is weak to Bug-type attacks (Fury Cutter).
+   - Team: Shroomish Lv 8 (fainted), Lotad Lv 8.
+   - Status: Battle ongoing. Note: Lotad is Water/Grass type, weak to Bug-type attacks (Fury Cutter).
 
 5. Hiker Clark:
    - Location: roughly (41, 14), facing West.
