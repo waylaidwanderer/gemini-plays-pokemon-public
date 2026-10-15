@@ -47,7 +47,9 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 
 5. Hiker Clark:
    - Location: (36, 19), facing North.
-   - Status: Battle ongoing. Note: Uses Rock/Ground Pokémon (Geodude), 4x weak to Grass (Absorb).
+   - Pre-battle: "If the tunnel doesn't go through, then I'll just go over the top."
+   - Team: Geodude Lv 8, [Pokémon 2].
+   - Status: Battle ongoing. Note: Geodude is Rock/Ground, 4x weak to Grass (Absorb). Absorb deals 4x STAB damage and heals Sage to full HP.
 
 6. Hiker Devan:
    - Location: roughly (43, 14), facing West.
