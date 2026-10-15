@@ -30,7 +30,7 @@
   - With Statue at `(4, 20)` and **Psychic Blake** at `(4, 21)` (`Girafarig Lv. 36` [Defeated]), `(5, 21)` and `(5, 20)` are uncovered. Walk `Right` 3 from `(2, 22)` to `(5, 22)`, `Up` 2 through `(5, 21)` to `(5, 20)`, `Right` 3 to `(8, 20)`, and `Up` 2 to `(8, 18)`.
   - From `(8, 18)`:
     - Walking `Right` 1 onto **`(9, 18)`** warps to **Room 3 at `(23, 20)`** (to press the Green Floor Switch at `(15, 34)`).
-    - Walking `Left` 1 to `(7, 18)` and `Up` 1 onto **`(7, 17)`** warps to **Room 4 at `(13, 31)`**.
+    - Walking `Left` 1 onto **`(7, 18)`** warps to **Room 5 (Blue Conveyor Room) at `(8, 12)`**.
 - **Room 3 (`(23, 20)` -> Lower Room 3):**
   - Stepping `Down` 1 from `(23, 20)` onto the **Purple Floor Switch at `(23, 21)`** slides the upper 2x2 purple blocks (`(21..22, 22..23)` and `(24..25, 22..23)`) and the middle 2x2 purple block (`(22..23, 25..26)`) to State 1.
   - Stepping `Down` 1 to `(23, 22)` triggers **Hex Maniac Kathleen `(22, 22)`** (`Kadabra Lv. 36`) and **Psychic Nicholas `(24, 22)`** (`Wobbuffet Lv. 36`) in a Double Battle [Defeated].
