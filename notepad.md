@@ -279,6 +279,12 @@
     - Defeating Wattson permanently deactivates all electric barriers inside Mauville Gym, leaving column `x = 4` (`(4, 3)` down to `(4, 20)`) completely unobstructed to the exit.
 - **North Exit (to Route 111 `(15..16, 139)`):** Walk `Up` along the western avenue `x = 15..16` past `y = 0` into **Route 111**.
 
+## Verdanturf Town & Route 117
+- **Rusturf Tunnel East Entrance (in Verdanturf Town):** `(8, 1)` (exiting steps to `(8, 2)`).
+- **Direct Eastbound Straight-Line Corridor (`(8, 2)` -> Mauville City `(1, 8)`):**
+  - In **Verdanturf Town**, walk `Down` 3 from `(8, 2)` to `(8, 5)`, `Right` 11 along `y = 5` to `(19, 5)`, `Down` 3 to `(19, 8)`, and `Right` 1 onto **Route 117 `(0, 8)`**.
+  - Across **Route 117**, row `y = 8` (`(0, 8)` to `(59, 8)`) is a completely unobstructed, tall-grass-free straight line all the way into **Mauville City `(0, 8)`** (only **Bug Maniac Derek `(17, 12)`** — `Dustox Lv. 16`, `Beautifly Lv. 16` [Defeated] can rotate Up at `(17, 8)`; all other Route 117 trainers are bypassed along `y = 8`).
+
 <hr>
 
 <h1><code>Locations/Route_111_And_Route_112</code></h1>
