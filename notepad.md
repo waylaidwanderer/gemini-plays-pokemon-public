@@ -502,7 +502,7 @@
     2. Walk `Up` 2 from `(1, 8)` to `(1, 6)` and `Right` 1 to `(2, 6)` (pushes **Turnstile #7**'s `Down` arm `Right`, pre-setting Turnstile #7 into its open downward state while staying below it).
     3. Walk `Down` 2 to `(2, 8)`, `Right` 3 to `(5, 8)`, and `Up` 6 along `x = 5` to `(5, 2)` (pushes **Turnstile #6** and **Turnstile #8** `Up`, rotating Turnstile #8's 2-tile `Down` arm out of `(5, 4)` -> `(6, 4)`).
     4. Walk `Left` 3 from `(5, 2)` to `(2, 2)` and `Down` 6 along `x = 2` through pre-set **Turnstile #7** to `(2, 8)`.
-    5. Walk `Right` 4 along `y = 8` from `(2, 8)` to `(6, 8)` (pushes **Turnstile #6**'s 2-tile `Down` arm `Right`, resetting Turnstile #6), `Left` 1 to `(5, 8)`, `Up` 4 along `x = 5` to `(5, 4)`, `Right` 10 along `y = 4` to `(15, 4)`, and `Up` 1 to `(15, 3)` facing **Gym Leader Winona `(15, 2)`** (a one-way southbound exit ledge is at `(13..17, 6)` leading straight down `x = 15` to the entrance mat `(15, 24)`).
+    5. Walk `Right` 4 along `y = 8` from `(2, 8)` to `(6, 8)` (pushes **Turnstile #6**'s 2-tile `Down` arm `Right`, resetting Turnstile #6), `Left` 1 to `(5, 8)`, `Up` 4 along `x = 5` to `(5, 4)`, `Right` 10 along `y = 4` to `(15, 4)`, and `Up` 1 to `(15, 3)` facing **Gym Leader Winona `(15, 2)`** (`Swablu Lv. 29`, `Tropius Lv. 29`, `Pelipper Lv. 30`, `Skarmory Lv. 31`, `Altaria Lv. 33` [Defeated & Registered — awards **Feather Badge** and **TM40 (Aerial Ace)**]; a one-way southbound exit ledge is at `(13..17, 6)` leading straight down `x = 15` to the entrance mat `(15, 24)`).
 
 <hr>
 
@@ -511,12 +511,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $7,148 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $10,448 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x2, Repel x6, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Super Potion x2, Repel x6, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 42 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 43 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 16 [Fainted] — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 [Fainted] — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
