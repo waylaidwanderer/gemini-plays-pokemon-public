@@ -447,6 +447,10 @@
 - **Route 119 Rain Battle Mechanics:**
   - Extra-tall grass + rain battle intro takes ~16.5s from closing pre-battle dialogue to the battle menu (`"It is raining."` and end-of-turn `"Rain continues to fall."` both auto-advance without requiring `B`).
   - Rain boosts Water-type moves (`Surf`) by 1.5x (`95 * 1.5 STAB * 1.5 Rain = 213.75` effective base power).
+## Central Route 119 (`(17, 112)` -> Weather Institute Bridge `(33, 85)`)
+- From `(17, 111)`, walk `Right` 7 along `y = 111` to `(24, 111)`, `Up` 2 to `(24, 109)`, `Right` 6 along `y = 109` (passing north of the Wingull House NPC at `(31, 109)` and Wingull House door at `(33, 109)`) to `(30, 109)`, and `Up` 18 along `x = 30` (climbing the first staircase at `(30, 97..96)`) to `(30, 91)`.
+- From `(30, 91)`, walk `Right` 5 along `y = 91` (2 tiles north of the Bug Maniac at `(36, 93)` facing Right) to `(35, 91)`, and `Up` 6 along `x = 35` (climbing the second staircase at `(35..36, 89..90)`) to `(35, 85)` (**Bug Maniac Brent `(35, 83)`** watches `(35, 85)`).
+- **Weather Institute Suspension Bridge:** Crosses west from `(33, 84..85)` across the river toward the Weather Institute.
 
 <hr>
 
