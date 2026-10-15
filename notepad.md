@@ -659,6 +659,8 @@
   - Stepping onto the upper **Blue Floor Switch at `(6, 7)`** once sets Blue State 0 (clearing `(6, 8)`), allowing passage via `(7, 8)` -> `(7, 6)` onto the **Red Floor Switch at `(8, 6)`**.
   - Pressing `(8, 6)` **3 times** (via `(8, 5)`) sets Red State 3, moving both eastern Red Statues to `(11, 5..6)` and opening `(10, 6)` -> `(10, 5)` -> `(10, 4)` -> **`(10, 3)`**.
   - From `(8, 6)`, walk `Up` 2 to `(8, 4)` and `Left` 2 to `(6, 4)` to defeat **Psychic Hannah `(6, 3)`** (`Kirlia Lv. 36` [Defeated]), then walk via `(5, 4)` -> `(5, 6)` -> `(6, 6)` onto `(6, 7)` and press `(6, 7)` **3 times** to restore Blue State 3 (`(7, 8..9)` open).
+  - From `(6, 7)`, walk `Right` 1 to `(7, 7)` to defeat **Hex Maniac Sylvia `(7, 6)`** (`Meditite Lv. 36` [Defeated]), then walk `Down` 2 to `(7, 9)`, `Right` 1 to `(8, 9)`, and `Down` 1 onto `(8, 10)` (restoring Blue State 0, which opens `(9..10, 9)`).
+  - From `(8, 10)`, walk `Up` 1 to `(8, 9)`, `Right` 3 through `(9..10, 9)` to `(11, 9)`, `Up` 2 to `(11, 7)`, `Left` 1 to `(10, 7)`, and `Up` 4 through `(10, 6..4)` onto the teleporter at **`(10, 3)`**.
 
 <hr>
 
@@ -667,7 +669,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $14,060 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $14,924 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x4, Super Potion x2, Repel x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
