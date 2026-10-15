@@ -9,14 +9,15 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 - Waterway: Route 105 (North).
 
 ## Landmarks & Route Layout
-- South Beach: Open sandy path stretching north along columns 64..67 from Dewford Town (rows 14..19).
-- Ocean Edge: Rows 14..19 water starts at column 68..70.
+- South Beach: Open sandy path stretching north along columns 64..67 from Dewford Town. Water inlet cuts inland at (66, 14); column 65 is open sand.
+- Signpost: Located at roughly (61, 13) on the south beach.
+- Ocean Edge: Rows 14..19 water starts at column 67..70 (inlet at 66, 14).
 - North-West Coast: Curves west towards Granite Cave entrance.
 
 ## Trainers
 1. Fisherman (Route 106 South Beach):
-   - Location: (64, 13), facing East.
-   - Status: Approaching for battle.
+   - Location: (65, 14), facing East.
+   - Status: Challenging to battle.
 
 ## Progression Checklist - Route 106 & Granite Cave
 - [ ] Battle Route 106 trainers.
