@@ -7,7 +7,7 @@
 ## Key Buildings & Landmarks
 - Pokémon Center: Located on the south-east side near the Route 102 entrance (red roof, door at 20, 16).
 - Poké Mart: Located in the town square (blue roof).
-- Petalburg Gym: Located in the north-western area (Leader: Norman / Dad - Normal type).
+- Petalburg Gym: Located in the north-western area (Leader: Norman / Dad - Normal type, door at 15, 8).
 - Wally's House: Located in the western residential area.
 
 ## Progression Checklist - Petalburg City
