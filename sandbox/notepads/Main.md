@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Obtained Quick Claw & HM01 Cut! Sage Lv 13 (HP 36/36), Lilz Lv 6 (HP 22/22), wallet ¥3600. Heading to Rustboro Gym to challenge Roxanne!
+- Status: Inside Rustboro Gym! Defeated Youngster Josh; Sage Lv 14 (HP 39/39), Lilz Lv 6 (HP 22/22). Continuing through gym trainers to Roxanne!
 
 ## Party
-1. SAGE (Treecko ♂, Level 13) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Treecko ♂, Level 14) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 39/39. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 6) - Caught on Route 102. Moves: Astonish, Growl. HP: 22/22.
 
 ## Bag Highlights
