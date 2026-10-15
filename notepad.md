@@ -549,10 +549,11 @@
   - No trainers on 1F. From `(17, 18)`, walk `Up` 6 to `(17, 12)`, `Left` 2 to `(15, 12)`, `Up` 4 to `(15, 8)`, `Left` 2 to `(13, 8)`, `Up` 2 to `(13, 6)`, `Left` 9 along `y = 6` onto the horizontal red exit mat at `(4, 6)` (or `(3, 6)`), and press `Down` to exit directly onto **Mt. Pyre Exterior**.
 - **Mt. Pyre Exterior (`(10, 43)` -> Mt. Pyre Summit `(19, 10)` -> `(23, 31)`):**
   - No trainers on Exterior. From the doorway at `(10, 43)`, walk `Left` 2 to `(8, 43)`, `Down` 1 to `(8, 44)`, `Right` 19 along `y = 44` to `(27, 44)`, `Up` 8 up the first staircase to `(27, 36)`, `Left` 7 to `(20, 36)`, `Up` 1 to `(20, 35)`, `Left` 11 along `y = 35` to `(9, 35)`, `Up` 9 up the second staircase to `(9, 26)`, `Down` 1 to `(9, 27)`, `Right` 15 along `y = 27` to `(24, 27)`, `Up` 8 up the third staircase to `(24, 19)`, `Left` 5 to `(19, 19)`, and `Up` 9 along `x = 19` to `(19, 10)`, which warps onto **Mt. Pyre Summit** at `(23, 31)`.
-- **Mt. Pyre Summit (`(23, 31)` -> Summit Altar):**
+- **Mt. Pyre Summit (`(23, 31)` -> Summit Altar `(22, 7)`):**
   - **Team Aqua Grunt #1 `(25, 18)`:** Watches `(22..24, 18)` — `Carvanha Lv. 32` [Defeated].
   - **Team Aqua Grunt #2 `(21, 15)`:** Watches `(22..24, 15)` — `Zubat Lv. 32` [Defeated].
   - **Team Aqua Grunts #3 & #4 `(21, 11)` & `(25, 11)`:** Scripted Double Battle at `y = 11` (`(22..24, 11)`) — Grunt #3 (`Poochyena Lv. 30`, `Carvanha Lv. 30`) & Grunt #4 (`Wailmer Lv. 30`, `Zubat Lv. 30`) [Defeated].
+  - **Summit Altar Cutscene `(22, 7)`:** Stepping onto `(22, 7)` triggers Team Aqua Leader Archie's departure with the Red Orb and receives the **Magma Emblem** from the old lady [Completed — all Team Aqua members departed].
 
 <hr>
 
@@ -564,7 +565,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $13,508 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x2, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x2, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 45 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 17 — Gust, String Shot, Poison Sting, Harden)
