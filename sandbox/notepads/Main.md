@@ -7,7 +7,7 @@
 
 ## Party
 1. SAGE (Treecko ♂, Level 14) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 39/39. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 7) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 24/24.
+2. LILZ (Lotad ♀, Level 8) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 26/26.
 
 ## Bag Highlights
 - Quick Claw: Held by Sage!
