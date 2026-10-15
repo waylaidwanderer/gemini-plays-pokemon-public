@@ -50,7 +50,7 @@
 10. [x] Cross Route 104 bridge and arrive in Rustboro City.
 11. [x] Visit Pokémon Center (checkpoint set, party fully healed).
 12. [x] Visit Cutter's House and receive HM01 Cut.
-13. [ ] Visit Pokémon Trainer's School for Quick Claw.
+13. [x] Visit Pokémon Trainer's School for Quick Claw.
 14. [ ] Challenge Gym Leader Roxanne in Rustboro City (Rock type).
 
 ## Route 102
