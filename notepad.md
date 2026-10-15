@@ -404,7 +404,7 @@
   - **Upper & Middle Corridor (`(23, 4)` -> 4F Staircase `(7, 22)`):** Step `Down` 1 from `(23, 4)` to `(23, 5)`, walk `Left` 10 along `y = 5` to `(13, 5)`, `Down` 2 to `(13, 7)`, `Left` 6 along `y = 7` below the magma pool to `(7, 7)` (**Team Magma Grunt `(4, 7)`** faces Right watching `(5..7, 7)` — `Zubat Lv. 29` [Defeated]), and `Down` 3 down the yellow double staircase at `(7, 8..9)` to `(7, 10)`. From `(7, 10)`, walk `Right` 13 along `y = 10` to `(20, 10)` (cave doorway at `(21, 8)`), `Down` 11 along `x = 20` down the yellow double staircase at `(20, 12..13)` to `(20, 21)` (**Team Magma Grunt (F) `(21, 21)`** faces Left watching `(20, 21)` — `Baltoy Lv. 29` [Defeated]), `Left` 13 along `y = 21` to `(7, 21)`, and `Down` 1 onto the **4F Staircase Warp `(7, 22)`**.
 - **Team Magma Hideout 4F (`MagmaHideout_4F`):**
   - **East Entrance (from 3F `(7, 22)`):** `(46, 8)` (doorway at `(46, 7)`).
-  - **Eastern Corridor (`(46, 8)` -> `(33, 15)`):** Walk `Down` 8 along `x = 46` down the yellow stairs at `(45..46, 11..14)` to `(46, 16)`, `Left` 5 along `y = 16` to `(41, 16)`, `Down` 1 to `(41, 17)`, `Left` 2 to `(39, 17)`, `Down` 5 along `x = 39` (west of the drill machine at `(40..41, 18..19)`) to `(39, 22)`, `Left` 5 along `y = 22` to `(34, 22)` (**Team Magma Grunt `(31, 22)`** faces Right watching `(32..34, 22)` — `Baltoy Lv. 29` [Defeated]), `Up` 1 to `(34, 21)`, `Left` 1 to `(33, 21)`, and `Up` along `x = 32..33`.
+  - **Eastern Corridor (`(46, 8)` -> `(27, 8)`):** Walk `Down` 8 along `x = 46` down the yellow stairs at `(45..46, 11..14)` to `(46, 16)`, `Left` 5 along `y = 16` to `(41, 16)`, `Down` 1 to `(41, 17)`, `Left` 2 to `(39, 17)`, `Down` 5 along `x = 39` (west of the drill machine at `(40..41, 18..19)`) to `(39, 22)`, `Left` 5 along `y = 22` to `(34, 22)` (**Team Magma Grunt `(31, 22)`** faces Right watching `(32..34, 22)` — `Baltoy Lv. 29` [Defeated]), `Up` 1 to `(34, 21)`, `Left` 1 to `(33, 21)`, `Up` 4 to `(33, 17)`, `Left` 1 to `(32, 17)`, `Up` 3 to `(32, 14)`, and `Left` 2 to `(30, 14)` to side-talk **Team Magma Grunt `(30, 13)`** (faces Left watching `(27..29, 13)` — `Numel Lv. 29` [Defeated via 1v1 side-talk from `(30, 14)`]) before battling **Team Magma Grunt `(26, 13)`** (faces Right watching `(27..29, 13)`).
 
 <hr>
 
@@ -586,7 +586,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $6,732 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $7,312 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x5, Super Potion x2, Repel x4, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
