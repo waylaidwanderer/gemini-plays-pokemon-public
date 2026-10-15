@@ -8,7 +8,7 @@
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 40 [Fainted, Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 14 [Fainted] — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
+  3. GAIA (Nincada, Female, Lv. 9 [Fainted] — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 25 — Powder Snow, Rain Dance, Sunny Day, Hail)
 
 ## Notepad Index
