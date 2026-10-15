@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 17, Male), Nickname: SAGE
-- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen & Johnson on Route 116. Sage Lv 17 (HP 37/48, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6160.
+- Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Defeated Joey, Karen, Johnson, Clark & Devan on Route 116. Sage Lv 17 (HP 48/48, PAR), Lilz Lv 9 (HP 28/28), wallet ¥6672.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 17) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 37/48. Status: PAR. Stats: Atk 29, Def 22, Sp.Atk 35, Sp.Def 32, Speed 40. Nature: Lonely. Ability: Overgrow.
