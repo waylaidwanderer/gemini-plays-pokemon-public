@@ -525,9 +525,10 @@
   - From `(16, 83)`, walk `Right` 2 to `(18, 83)`, `Down` 6 along `x = 18` onto the southern sandy road at `(18, 89)`, and `Right` along `y = 89..90` across the eastern border into **Route 121**.
 
 ## Route 121 (`(0, 9)` -> Lilycove City)
-- **Western Trainers (`(11, 9)`):**
+- **Western Trainers (`(11, 9)` & `(22, 5)`):**
   - **Hex Maniac Tammy `(11, 11)`:** Watches `(11, 9)` — `Duskull Lv. 29`, `Shuppet Lv. 29` [Defeated].
   - **Bug Maniac Cale `(11, 7)`:** Walks between `(11, 7)` and `(11, 8)` watching `(11, 9)` — `Dustox Lv. 29`, `Beautifly Lv. 29` [Defeated].
+  - **Beauty Jessica `(22, 5)`:** Faces Down inside the fenced corridor (`y = 5..7`) watching `(22, 6..7)` — `Kecleon Lv. 29`, `Seviper Lv. 29` [Defeated & Registered].
 
 <hr>
 
@@ -536,12 +537,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,764 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,244 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x4, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 43 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 44 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 16 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
