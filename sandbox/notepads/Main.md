@@ -59,3 +59,4 @@
 - In Gen 3, all Grass-type moves (such as Absorb) are Special, so their damage is unaffected by physical Attack drops (Growl).
 - Medicine use outside battle: Start -> BAG -> select item -> USE -> select Pokémon.
 - Text speed set to FAST in game Options menu (verified turn 417).
+- Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Pressing A confirms picking; pressing B cancels and leaves them unpicked. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
