@@ -68,7 +68,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 ## Granite Cave B2F
 - Entrance Ladder from B1F: Located at (28, 21).
-- Topography: Entrance ladder from B1F at (28, 21). Northern bypass runs west along row 17 to col 13, then south to row 22. South corridor leads west along row 22 above the row 23 barrier to col 7; cracked rock at (6, 22) is bypassed north via row 21. At (4, 21), rocks divert the corridor north along column 4 through rows 20-17.
+- Topography: Entrance ladder from B1F at (28, 21). Northern bypass runs west along row 17 to col 13, then south to row 22. South corridor leads west along row 22 above the row 23 barrier to col 7; cracked rock at (6, 22) is bypassed north via row 21. At (4, 21), corridor heads north along col 4; (4, 13) is an impassable mud slope (requires Mach Bike). Wide open cavern branches east from (4, 17).
 - Wild Encounters: Aron, Abra (caught Lv 10 ♂ in Great Ball named CIPHER!), Zubat, Sableye.
 - Objective: Continue navigating across B2F to locate the ascent ladder to 1F/Steven's chamber.
 
