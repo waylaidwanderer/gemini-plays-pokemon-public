@@ -58,6 +58,12 @@
   - From the entrance at `(13, 27)`, surf `Up` 15 along `x = 13` to step ashore onto the dock steps at `(13, 12)`.
   - From `(13, 12)`, walk `Up` 2 to `(13, 10)`, `Right` 7 along `y = 10` to `(20, 10)` (bypassing the pacing Team Aqua Grunt on `y = 9`), `Up` 7 along `x = 20` to `(20, 3)`, `Right` 2 to `(22, 3)`, and `Up` 2 into the northern staircase doorway at `(22, 1)`.
 - **Team Aqua Hideout B1F (`(29, 2)` -> `(32, 19)`):**
-  - From the arrival staircase at `(29, 2)`, walk `Left` 2 and `Down` 2 onto the left warp pad at `(27, 4)`, which warps to `(3, 15)`.
+  - From the arrival staircase at `(29, 2)`, walk `Left` 2 and `Down` 2 onto the left warp pad at `(27, 4)`, which warps within B1F to `(3, 15)`.
   - From `(3, 15)`, walk `Right` 16 along `y = 15` to `(19, 15)` (or via `(15, 14)` -> `(20, 14)` where the rotating **Team Aqua Grunt `(20, 18)`** has `Carvanha Lv. 32` [Defeated]), `Down` 6 along `x = 19` to `(19, 21)`, and `Right` 8 along `y = 21` to `(27, 21)`.
-  - Side-talk **Team Aqua Grunt `(28, 21)`** (`Poochyena Lv. 31`, `Zubat Lv. 31` [Defeated]) from `(27, 21)`, then walk `Up` 1 to `(27, 20)` and `Right` 1 to `(28, 20)` to battle **Team Aqua Grunt `(28, 16)`** (`Zubat Lv. 31`, `Carvanha Lv. 31` [Defeated]) 1v1, walk `Right` 4 to `(32, 20)`, and step `Up` 1 onto the warp pad at `(32, 19)` (warps to **B2F `(20, 4)`**).
+  - Side-talk **Team Aqua Grunt `(28, 21)`** (`Poochyena Lv. 31`, `Zubat Lv. 31` [Defeated]) from `(27, 21)`, then walk `Up` 1 to `(27, 20)` and `Right` 1 to `(28, 20)` to battle **Team Aqua Grunt `(28, 16)`** (`Zubat Lv. 31`, `Carvanha Lv. 31` [Defeated]) 1v1, walk `Right` 4 to `(32, 20)`, and step `Up` 1 onto the warp pad at `(32, 19)` (warps within B1F to `(20, 4)`).
+  - From `(20, 4)`, walk `Left` 2 to `(18, 4)` and `Up` 3 into the staircase doorway at `(18, 1)` (descends to **B2F `(18, 2)`**).
+- **Team Aqua Hideout B2F Generator Room (`(18, 2)` -> `(31, 8)` / `(16, 12)` / `(18, 12)`):**
+  - From `(18, 2)`, walk `Down` 3 to `(18, 5)`, `Left` 2 to `(16, 5)`, and `Down` 5 along `x = 16` to `(16, 10)` (bypassing the horizontally pacing Team Aqua Grunt on `y = 7`).
+  - Below `(16, 10)` are two southern warp pads at **`(16, 12)`** and **`(18, 12)`** [Unvisited].
+  - Walking `Right` along `y = 10` from `(16, 10)` to `(23, 10)` triggers the looping **Team Aqua Grunt `(20..22, 10)`** (`Carvanha Lv. 32` [Defeated]). Continuing `Right` 8 to `(31, 10)` and `Up` 2 reaches the eastern warp pad at **`(31, 8)`**, which warps within B2F to `(5, 8)`.
+  - From B2F `(5, 8)`, walking `Up` 4 to `(5, 4)`, `Left` 2 to `(3, 4)`, and `Up` 1 into the staircase doorway at `(3, 3)` ascends to **B1F `(3, 4)`** (where **Team Aqua Grunt `(5, 6)`** watches `y = 6` — `Zubat Lv. 32` [Defeated], leading south to `(3, 11)`).
