@@ -7,9 +7,9 @@
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Super Potion x2, Repel x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 49 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
-  2. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
+  2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
-  4. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
+  4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
   5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
 
 ## Notepad Index
