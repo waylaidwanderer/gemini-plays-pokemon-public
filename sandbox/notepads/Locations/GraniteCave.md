@@ -16,11 +16,13 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Western Corridor: Runs along rows 6..8 from col 30 to col 18.
 - Southwest Item Ball: [COLLECTED] Escape Rope at (17, 7).
 - Southwest Ladder: Located at (17, 11) leading down to B1F at (4, 21).
+- Western Chute: 1-tile gap at (15, 10..12) west of the ladder, leading south over one-way jump ledges at row 12 and row 14 to the lower southern floor (rows 13..15).
+- Lower Southern Floor: Accessible via the chute ledges; runs west around the large western mesa towards the northern ascent.
 
 ## Granite Cave B1F
 - Southwest Ladder landing: Drops onto isolated 2-tile dead-end ledge at (4..5, 22). East at (6, 22) is solid wall, south at row 23 is impassable cliff, west at (3, 22) is rocks. Ladder at (4, 21) returns to 1F. Do not use this ladder for cave progression.
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
-- Main Route to Lower Levels: Use Northeast Ladder at (35, 5) on 1F, accessed via North Ramp at (21..22, 6).
+- Main Route to Lower Levels: Descend through Granite Cave 1F via the western chute and loop around to the true descent path.
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron.
