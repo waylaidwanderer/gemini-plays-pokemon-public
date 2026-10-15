@@ -568,7 +568,7 @@
 ## Lilycove City
 - **West Entrance (from Route 121 `(79, 6..8)`):** `(0, 16..18)` (`y_lilycove = y_route121 + 10`).
 - **Lilycove Pokémon Center:** Door at `(24, 14)` (exiting steps to `(24, 15)`). Reached from `(0, 16)` via `Right` 21 along `y = 16` to `(21, 16)`, `Down` 1 to `(21, 17)` around the NPC at `(22, 16)`, `Right` 3 to `(24, 17)`, and `Up` 3 to `(24, 14)` [Visited & Fly Spot Unlocked].
-- **Path to Eastern Beach & Team Aqua Hideout Cove:** The middle and southern cliffs (`y = 17..35`) drop off above the eastern beach without a staircase; to reach the eastern beach and the northeastern Team Aqua Hideout cove, take the main north-south cobblestone avenue along `x = 31` up the white staircase at `(31, 10..12)` to the northern terrace (`y = 9`) and head east past the Lilycove Department Store (`(37, 7)`, where Rival May stands at `(37, 8)`).
+- **Path to Eastern Beach & Team Aqua Hideout Cove:** Both the northern cliff (`y = 6..14`) and southern cliff (`y = 24..35`) drop off directly above the eastern beach; the only staircase down to the beach is at **`(55..56, 20..22)`** (south of the house at `(54..57, 12..14)`). To reach it from `(24, 15)`, either walk via the middle terrace (`(31, 15)` -> `(45, 15)` -> `(45, 13)` -> `(53, 13)`) or the northern terrace (`(31, 9)` -> `(37, 8)` -> `(53, 8)` -> jump ledges at `y = 9` and `y = 11` to `(53, 12)`), then walk `Down` along `x = 53` to `(53, 18)`, `Right` 2 to `(55, 18)`, and `Down` 5 down the staircase `(55..56, 20..22)` onto the eastern beach at `(55, 23)`.
 
 ## Route 122 & Mt. Pyre
 - **North Entrance (from Route 121 Mt. Pyre Pier `(30, 18)`):** Surf `Down` onto `(30, 19)` (`A, sleep 1500, A, sleep 1000, B, sleep 3500`) and `Down` into Route 122 at `(10, 0)` (`x_route122 = x_route121 - 20`).
