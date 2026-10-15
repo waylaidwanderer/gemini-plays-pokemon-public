@@ -30,3 +30,6 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 
 ## Items & Discoveries
 (To be cataloged upon discovery)
+## Landmarks & Route Layout (Continued)
+- North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball and a Cut tree.
+- Route 116 Signpost 2: Located at (17, 11).
