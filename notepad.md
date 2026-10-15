@@ -13,6 +13,8 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 ## Gym Topography & Mechanics
 - Entrance Warp: (5, 27) / (6, 27) door mat.
 - Entrance Starting Position: (5, 26) facing North.
+- Gym Guide: Located at (5, 24) facing South.
+- Entrance Left Statue: Located at (4, 25).
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
