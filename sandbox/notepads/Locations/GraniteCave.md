@@ -18,7 +18,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Southwest Ladder: Located at (17, 11) leading down to B1F at (4, 21).
 
 ## Granite Cave B1F
-- Southwest Ladder (to 1F): Located at (4, 21). Player arrives at (4, 22).
+- Southwest Ladder (to 1F): Located at (4, 21). Player arrives at (4, 22). South is blocked by cliff edge at row 23, west blocked by rocks at (3, 22). Walkable path heads East from (5, 22).
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
 - North Ramp to Upper Plateau: Begins at (21..22, 6) leading to northern walkway and Northeast Ladder at (35, 5).
 
