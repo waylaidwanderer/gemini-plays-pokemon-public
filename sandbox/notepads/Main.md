@@ -20,7 +20,7 @@
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City)
 - Money: ¥6956
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Devon Goods (recovered from Team Aqua Grunt in Rusturf Tunnel)
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Devon Goods (delivered to Devon Corp), Letter (for Steven in Dewford Town), PokéNav (with Match Call)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -46,8 +46,8 @@
 4. [x] Heal party at Rustboro Pokémon Center (Sage HP 43/43, Lilz HP 28/28).
 5. [x] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
 6. [x] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.
-7. [ ] Return to Rustboro City; deliver Devon Goods to Devon Researcher; meet Mr. Stone at Devon Corp.
-8. [ ] Receive PokéNav and Letter for Steven from Mr. Stone.
+7. [x] Return to Rustboro City; deliver Devon Goods to Devon Researcher; meet Mr. Stone at Devon Corp.
+8. [x] Receive PokéNav and Letter for Steven from Mr. Stone.
 9. [ ] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
 
 ## Engine / Harness Mechanics Verified
