@@ -78,3 +78,11 @@
   6. **B1F `(2, 3)` -> `(7, 2)`:** Walk `Right` 4 along `y = 3` under the `(4, 2)` wall cap to `(6, 3)`, `Up` 1 to `(6, 2)`, and `Right` 1 onto the geyser warp at **`B1F (7, 2)`** -> launches into the `1F` top-middle room at **`1F (8, 2)`** (note: continuing east to `B1F (12, 3)` -> `1F (13, 3)` -> `1F (14, 6)` -> `B1F (14, 6)` -> `B1F (10, 18)`, past **Kindler Jeff `(13, 17)`** — `Slugma Lv. 22`, `Slugma Lv. 22` [Defeated], is the one-way exit shortcut back to the `1F` Entrance Room at `1F (11, 18)`).
   7. **1F `(8, 2)` -> `(10, 6)` -> B1F `(12, 12)` -> Flannery `1F (13, 9)`:** In the `1F` top-middle room (`x = 7..10, y = 1..6`), `(8, 6)` is a trap drop hole to `B1F (8, 6)`, while **`1F (10, 6)`** drops into `B1F (10, 6)` north of the `y = 10` ledge. From `B1F (10, 6)`, walk `Right` 1 to `(11, 6)`, `Down` 5 across the `y = 10` ledge to `(11, 11)`, `Down` 1 to `(11, 12)`, and `Right` 1 onto the geyser at **`B1F (12, 12)`** -> launches into Flannery's room at **`1F (13, 12)`**. Walk `Up` 2 along `x = 13` to **`1F (13, 10)`** to challenge **Gym Leader Flannery `(13, 9)`** (`Numel Lv. 24`, `Slugma Lv. 24`, `Camerupt Lv. 26`, `Torkoal Lv. 29` [Defeated & Registered — awards Heat Badge & TM50 Overheat]).
   8. **Fast Exit from Flannery `(13, 10)` -> Gym Door `(13, 18)`:** Walk `Down` along `x = 13` across the `1F` southbound one-way ledge at `(13, 14)` directly into the `1F` Entrance Room at `(13, 15)` and continue `Down` out the front door at **`1F (13, 18)`**.
+
+## Team Magma Hideout
+- **1F Entrance Mat:** `(10, 34)` (exits to Jagged Pass `(16, 18)` -> steps `Down` to `(16, 19)`).
+- **1F Strength Boulder Puzzle (`(7, 22)`, `(6, 23)`, `(5, 22)`):**
+  - From `(10, 34)`, walk `Up` 11 along `x = 10` to `(10, 23)` and `Left` 3 to `(7, 23)` facing the bottom boulder at `(6, 23)`.
+  - Activate Strength and push `(6, 23)` `Left` 1 to `(5, 23)` (Push #1).
+  - Step `Left` 1 to `(6, 23)`, `Up` 1 into `(6, 22)`, and push `(5, 22)` `Left` 1 into the `(4, 22)` side pocket (Push #2).
+  - Step `Left` 1 to `(5, 22)` and walk `Up` along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..`).

@@ -384,6 +384,14 @@
   7. **1F `(8, 2)` -> `(10, 6)` -> B1F `(12, 12)` -> Flannery `1F (13, 9)`:** In the `1F` top-middle room (`x = 7..10, y = 1..6`), `(8, 6)` is a trap drop hole to `B1F (8, 6)`, while **`1F (10, 6)`** drops into `B1F (10, 6)` north of the `y = 10` ledge. From `B1F (10, 6)`, walk `Right` 1 to `(11, 6)`, `Down` 5 across the `y = 10` ledge to `(11, 11)`, `Down` 1 to `(11, 12)`, and `Right` 1 onto the geyser at **`B1F (12, 12)`** -> launches into Flannery's room at **`1F (13, 12)`**. Walk `Up` 2 along `x = 13` to **`1F (13, 10)`** to challenge **Gym Leader Flannery `(13, 9)`** (`Numel Lv. 24`, `Slugma Lv. 24`, `Camerupt Lv. 26`, `Torkoal Lv. 29` [Defeated & Registered — awards Heat Badge & TM50 Overheat]).
   8. **Fast Exit from Flannery `(13, 10)` -> Gym Door `(13, 18)`:** Walk `Down` along `x = 13` across the `1F` southbound one-way ledge at `(13, 14)` directly into the `1F` Entrance Room at `(13, 15)` and continue `Down` out the front door at **`1F (13, 18)`**.
 
+## Team Magma Hideout
+- **1F Entrance Mat:** `(10, 34)` (exits to Jagged Pass `(16, 18)` -> steps `Down` to `(16, 19)`).
+- **1F Strength Boulder Puzzle (`(7, 22)`, `(6, 23)`, `(5, 22)`):**
+  - From `(10, 34)`, walk `Up` 11 along `x = 10` to `(10, 23)` and `Left` 3 to `(7, 23)` facing the bottom boulder at `(6, 23)`.
+  - Activate Strength and push `(6, 23)` `Left` 1 to `(5, 23)` (Push #1).
+  - Step `Left` 1 to `(6, 23)`, `Up` 1 into `(6, 22)`, and push `(5, 22)` `Left` 1 into the `(4, 22)` side pocket (Push #2).
+  - Step `Left` 1 to `(5, 22)` and walk `Up` along the 1-tile-wide northern corridor at `x = 5` (`(5, 21)..`).
+
 <hr>
 
 <h1><code>Locations/Route_113_And_Fallarbor_Town</code></h1>
@@ -596,7 +604,7 @@
   - Row 2: `M N O P Q R S` (cols 0..6)
   - Row 3: `T U V W X Y Z` (cols 0..6)
 - **Pokémon Fanfare Auto-Advance:** The `"received/caught [POKéMON]!"` fanfare text box automatically advances to the `"give a nickname?" [YES / NO]` prompt once the jingle finishes; press `A` only ONCE to enter the naming screen.
-- **Overworld Warp Transitions:** Stepping onto a warp/door aborts remaining `press_buttons` inputs and leaves the next turn at the start of the fade-in; prepend `sleep 1000` when chaining actions immediately after a warp. Exiting an exterior building door automatically steps the player 1 tile `Down`.
+- **Overworld Warp Transitions:** Stepping onto a warp/door aborts remaining `press_buttons` inputs and leaves the next turn at the start of the fade-in; prepend `sleep 1000` (or `sleep 2000` for exterior doors that auto-step 1 tile `Down`) when chaining actions immediately after a warp. Note that in `run_code`, `mgba.get_coordinates()` called immediately after a warp-aborted `press_buttons` still returns the pre-warp coordinates until the next `press_buttons` call advances the emulator through the fade transition.
 - **Clearing NPC Dialogue Safely:** When facing an NPC, use `B` (not `A`) to advance and close the final text box so extra presses cannot accidentally re-initiate dialogue.
 - **Pokémon Center Healing Sequence:** Nurse Joy has 3 opening lines before `[YES / NO]` appears; press `A` **4 times** (`A, sleep 1000, A, sleep 1000, A, sleep 1000, A, sleep 6500`), then press `B` 4 times (`B, sleep 1000` x4) to clear her closing dialogue safely.
 - **Trainer Mid-Battle Faint Sequence (With 2+ Party Pokémon):** Use **5 `B` presses** for neutral KOs (`B, sleep 3000, B, sleep 1800, B, sleep 1800, B, sleep 1800, B, sleep 5500`) or **6 `B` presses** for super-effective / not-very-effective / critical-hit KOs (`B, sleep 2000` prepended for the effectiveness/crit box) to clear fainted text, full EXP bar animation, trainer's next Pokémon announcement, and `"Will ORION change POKéMON?"` (`No`). Use `5500ms` after the final `B` so longer Pokémon send-out animations/cries complete before pressing `A` on the battle menu.
