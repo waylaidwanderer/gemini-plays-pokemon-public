@@ -541,6 +541,11 @@
 - **West Entrance (from Route 121 `(79, 6..8)`):** `(0, 16..18)` (`y_lilycove = y_route121 + 10`).
 - **Lilycove Pokémon Center:** Door at `(24, 14)` (reached from `(0, 16)` via `Right` 21 along `y = 16` to `(21, 16)`, `Down` 1 to `(21, 17)` around the NPC at `(22, 16)`, `Right` 3 to `(24, 17)`, and `Up` 3 to `(24, 14)`) [Visited & Fly Spot Unlocked].
 
+## Route 122 & Mt. Pyre
+- **North Entrance (from Route 121 Mt. Pyre Pier `(30, 18)`):** Surf `Down` onto `(30, 19)` (`A, sleep 1500, A, sleep 1000, B, sleep 3500`) and `Down` into Route 122 at `(10, 0)` (`x_route122 = x_route121 - 20`).
+- **Western Channel to Mt. Pyre Entrance (`(10, 0)` -> `(22, 29)`):**
+  - From `(10, 0)`, surf `Down` 8 to `(10, 8)`, `Left` 4 to `(6, 8)`, `Down` 4 to `(6, 12)`, `Left` 2 to `(4, 12)`, `Down` 21 along `x = 4` to `(4, 33)`, `Right` 18 along `y = 33` to `(22, 33)`, and walk `Up` 4 (`(22, 32..29)`) into **Mt. Pyre 1F**.
+
 <hr>
 
 <h1><code>Main</code></h1>
