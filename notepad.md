@@ -212,7 +212,9 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - Northern Highway: Clear grassy corridor at rows 7-8 bypassing the entrance trees and signpost to the north.
 
 ## Trainers
-(To be cataloged upon encounter)
+1. Youngster Joey:
+   - Location: (11, 7), facing East.
+   - Status: Active challenge.
 
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
