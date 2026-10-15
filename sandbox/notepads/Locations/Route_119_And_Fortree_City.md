@@ -35,3 +35,14 @@
 - **West Entrance (from Route 119 `(39, 7..8)`):** `(0, 7..8)`
 - **Fortree Pokémon Center:** Door at `(5, 6)` (exiting steps to `(5, 7)`).
 - **Fortree Poké Mart:** Door at `(5, 13)`.
+- **Treetop Walkway (`y = 4`):**
+  - **Ladder #1 `(10, 6..4)`:** Reached from `(5, 7)` via `Right` 2 to `(7, 7)`, `Down` 1 to `(7, 8)`, `Right` 3 to `(10, 8)`, and `Up` 4 to `(10, 4)` (Treehouse #1 door is at `(10, 3)`).
+  - **Ladder #2 `(20, 4..6)` & Treehouse #2 `(18, 3)`:** Along `y = 4` at `x = 18..20`.
+  - **Ladder #3 `(25, 5..6)` & Treehouse #3 `(25, 3)`:** Leads down to `(25, 7)` above **Fortree Gym** (`x = 19..24, y = 7..10`; Gym sign at `(26, 9)`).
+  - **Ladder #4 `(32, 5..6)` & Treehouse #4 `(33, 2)`:** Leads down to `(32, 7)`. From `(32, 7)`, step `Down` 1 to `(32, 8)` and walk `Right` 8 along `y = 8` across `x = 39` onto **Route 120 `(0, 8)`**.
+
+## Northern Route 120 (`(0, 8)` -> Steven Stone Bridge `(13, 15)`)
+- **Path to Steven Stone Bridge:**
+  - From `(0, 8)`, walk `Right` 4 to `(4, 8)`, `Up` 1 to `(4, 7)`, and `Right` 12 along `y = 7` to `(16, 7)` (**Parasol Lady Clarissa `(16, 6)`** — `Roselia Lv. 28`, `Wailmer Lv. 28` [Defeated]).
+  - Note: `(20, 11)` is blocked by an invisible Kecleon guarding the item ball at `(22, 13)`.
+  - From `(16, 7)`, walk `Right` 4 to `(20, 7)`, `Up` 2 to `(20, 5)`, `Right` 12 along `y = 5` to `(32, 5)`, `Down` 8 along `x = 32` to `(32, 13)` (behind **Bird Keeper Robert `(32, 14)`** facing Right), `Left` 4 to `(28, 13)`, `Down` 2 to `(28, 15)`, and `Left` 14 along `y = 15` across the wooden bridge to `(14, 15)` facing **Steven Stone `(13, 15)`** (who reveals the invisible **Kecleon Lv. 30** at `(13, 16)` and awards the **Devon Scope**).
