@@ -31,14 +31,14 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
    - Location: (5, 13..14) in entrance corridor, facing South.
    - Team: Geodude Lv 10 (fainted).
    - Reward: ¥160, EXP (Sage grew to Lv 14!).
-2. Youngster Tommy: [IN BATTLE]
+2. Youngster Tommy: [DEFEATED]
    - Location: (3, 9) facing West.
    - Team: Geodude Lv 8, Geodude Lv 8 (Double Battle partner with Marc).
-   - Reward: TBD.
-3. Hiker Marc: [IN BATTLE]
+   - Reward: ¥448 (combined with Marc), EXP (Sage grew to Lv 15, Lilz grew to Lv 9!).
+3. Hiker Marc: [DEFEATED]
    - Location: (1, 7..8) facing South.
    - Team: Geodude Lv 8, Geodude Lv 8 (Double Battle partner with Tommy).
-   - Reward: TBD.
+   - Reward: ¥448 (combined with Tommy), EXP.
 ## Rustboro Gym Maze Topography
 - Interior Warp: (5, 19). Gym Guy at (4, 18). Statues at (3, 17) and (7, 17).
 - South Crossway: Row 16 is clear across columns 1 to 8.
