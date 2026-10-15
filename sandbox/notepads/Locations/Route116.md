@@ -33,11 +33,12 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 ## Landmarks & Route Layout (Continued)
 - North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball and a Cut tree.
 - Route 116 Trainer Tips Signpost: Located at (16, 12). Text explains that pressing the B Button during evolution cancels it.
-2. School Kid Karen:
+2. School Kid Karen: [DEFEATED]
    - Location: (22, 17), facing West.
    - Pre-battle: "I study at school, and I study on the way home, too!"
-   - Team: Shroomish Lv 9.
-   - Status: Battle ongoing. Note: Shroomish has Effect Spore (contact triggered Sleep on Sage). Shroomish's Absorb and Tackle deal only 1 damage per turn to Grovyle Lv 16. In Gen 3, a Pokémon attacks on the same turn it wakes up from sleep.
+   - Team: Shroomish Lv 9 (fainted).
+   - Defeat quote: "I failed to study enough!"
+   - Reward: ¥180, 124 EXP.
 
 3. Bug Catcher Jose:
    - Location: roughly (14, 18), facing North.
