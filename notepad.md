@@ -68,8 +68,9 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 ## Granite Cave B2F
 - Entrance Ladder from B1F: Located at (28, 21).
-- Topography: Wall is to the east; walkable cave floor opens to the west toward col 27.
-- Objective: Navigate B2F to find the ascent ladder leading to Steven Stone's chamber / 1F exit plateau.
+- Topography: Wall is to the east; walkable cave floor opens west to col 27. A rock boulder at (25, 21) blocks direct westward progress along row 21.
+- Verified Route: From ladder (28, 21), walk west to (26, 21), step north to (26, 20), west to (25, 20), then north along column 25 corridor to (25, 17). At row 17, corridor opens wide to the west; followed row 17 west through (24, 17) to (23, 17). Rock wall visible northwest at (21..22, 15..16); open floor continues west and south.
+- Objective: Continue navigating west/northwest across B2F to locate the ascent ladder to 1F/Steven's chamber.
 
 <hr>
 
