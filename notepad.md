@@ -61,15 +61,15 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
-- [ ] Descend Southwest Ladder at (17, 11) to B1F.
-- [ ] Navigate B1F to find descent to B2F.
+- [x] Descend Southwest Ladder at (17, 11) to B1F (completed Turn 1742).
+- [x] Navigate B1F to find descent to B2F (completed Turn 1777 at ladder 28, 21).
 - [ ] Navigate to Steven's chamber.
 - [ ] Deliver President Stone's Letter to Steven (receive TM47 Steel Wing).
 - [ ] Return to Dewford Town to challenge Gym Leader Brawly.
 ## Granite Cave B2F
 - Entrance Ladder from B1F: Located at (28, 21).
-- Topography: Wall is to the east; walkable cave floor opens west to col 27. A rock boulder at (25, 21) blocks direct westward progress along row 21.
-- Verified Route: From ladder (28, 21), walk west to (26, 21), step north to (26, 20), west to (25, 20), then north along column 25 corridor to (25, 17). At row 17, corridor opens wide to the west; followed row 17 west through (24, 17) to (23, 17). Rock wall visible northwest at (21..22, 15..16); open floor continues west and south.
+- Topography: Ladder wall to east; walkable floor opens west to col 27. Boulder at (25, 21) diverts traffic north via col 26 row 20 into the column 25 corridor (rows 20-17). Row 17 corridor runs west through cols 25-20 underneath northern cliff wall (row 16).
+- Wild Encounters: Aron, Abra (caught Lv 10 ♂ in Great Ball!).
 - Objective: Continue navigating west/northwest across B2F to locate the ascent ladder to 1F/Steven's chamber.
 
 <hr>
