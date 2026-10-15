@@ -89,3 +89,4 @@
 - **1F Northern & Eastern Corridor (`(5, 11)` -> `(25, 19)`):**
   - From `(5, 11)`, walk `Right` 4 to `(9, 11)`, `Up` 3 to `(9, 8)`, `Right` 1 to `(10, 8)` (note: `(10..11, 4..8)` is a dead-end northern alcove), `Down` 1 to `(10, 9)`, and `Right` 14 along `y = 9` to `(24, 9)`.
   - From `(24, 9)`, walk `Down` 6 along `x = 24` to `(24, 15)`, `Right` 2 to `(26, 15)`, and `Down` 5 along `x = 26..27` to `(27, 20)` (**Team Magma Grunt `(30, 20)`** faces Left watching `(26..29, 20)` — `Poochyena Lv. 29` [Defeated]).
+  - From `(27, 20)`, walk `Down` 8 along `x = 27` to `(27, 28)`, `Left` 5 along `y = 28` to `(22, 28)`, `Up` 3 up the white stairs at `(22..23, 27)` to `(22, 25)`, `Left` 5 along `y = 25` to `(17, 25)`, `Up` 2 to `(17, 23)`, `Right` 3 to `(20, 23)`, and `Up` 1 into the **2F Cave Doorway `(20, 22)`** (note: `(19..21, 24)` is a southbound one-way ledge below `(20, 22)`).
