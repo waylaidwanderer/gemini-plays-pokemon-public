@@ -511,9 +511,9 @@
   - From `(20, 7)`, walk `Up` 2 to `(20, 5)`, `Right` 12 along `y = 5` to `(32, 5)`, `Down` 8 along `x = 32` to `(32, 13)` (behind **Bird Keeper Robert `(32, 14)`** facing Right), `Left` 4 to `(28, 13)`, `Down` 2 to `(28, 15)`, and `Left` 21 along `y = 15` across the northern wooden bridge (`x = 27..8`; **Steven Stone `(13, 15)`** and **Kecleon Lv. 30 `(13, 16)`** [Completed — **Devon Scope** obtained]) onto the western shore at `(7, 15)`.
 
 ## Central & Southern Route 120 (`(7, 15)` -> `(36, 62)`)
-- **Western Puddle Corridor (`(7, 15)` -> `(12, 35)`):**
+- **Western Puddle Corridor (`(7, 15)` <-> `(12, 35)`):**
   - From `(7, 15)`, walk `Down` 15 along `x = 7` to `(7, 30)` (passing **Bird Keeper Colin `(5, 22)`**).
-  - From `(7, 30)`, walk `Right` 5 along `y = 30` (between the puddles at `(9..10, 28..29)` and `(8..10, 31..33)`) to `(12, 30)` and `Down` 5 along `x = 12` to `(12, 35)`.
+  - From `(7, 30)`, walk `Right` 5 along `y = 30` (between the puddles at `(9..10, 28..29)` and `(8..10, 31..33)`) to `(12, 30)` and `Down` 5 along `x = 12` to `(12, 35)` (note: `(19, 31)` is watched by **Ninja Boy Riley `(19, 28)`** — `Nincada Lv. 28`, `Koffing Lv. 28` and **Battle Girl Callie `(18, 34)`** — `Meditite Lv. 28`, `Makuhita Lv. 28` [Defeated]; from `(19, 31)`, `Up` 1 to `(19, 30)` and `Left` 12 along `y = 30` leads straight to `(7, 30)`).
 - **Extra-Tall Grass Maze Bypass (`(12, 35)` -> `(36, 62)`):**
   - From `(12, 35)`, walk `Right` 1 to `(13, 35)`, `Down` 4 to `(13, 39)`, `Right` 3 to `(16, 39)`, `Down` 3 to `(16, 42)`, `Right` 1 to `(17, 42)`, `Down` 2 to `(17, 44)`, `Right` 1 to `(18, 44)`, and `Down` 13 along `x = 18` to `(18, 57)` (note: `(19, 48)` is blocked by an optional invisible Kecleon; item ball at `(20, 55)`).
   - **Northbound Ledge Bypass (`(20, 67)` -> `(18, 52)`):** From `(20, 67)`, walk `Up` 4 to `(20, 63)`, `Right` 1 to `(21, 63)` (below the east-facing ledge at `x = 21, y = 60..62`), `Up` 2 to `(21, 61)`, `Right` 4 to `(25, 61)`, `Up` 3 to `(25, 58)`, `Right` 1 to `(26, 58)`, `Up` 6 to `(26, 52)`, and `Left` 8 along `y = 52` to `(18, 52)`.
@@ -562,14 +562,14 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $13,508 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $14,516 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x1, Repel x7, Poké Ball x1, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 45 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 17 — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
+  3. GAIA (Nincada, Female, Lv. 11 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
 
 ## Notepad Index
