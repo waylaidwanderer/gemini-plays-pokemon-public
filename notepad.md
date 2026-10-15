@@ -240,7 +240,11 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Reward: ¥128, 237 EXP (111 + 126).
 
 5. Hiker Clark:
-   - Location: roughly (41, 14), facing West.
+   - Location: (36, 19), facing North.
+   - Status: Battle ongoing. Note: Uses Rock/Ground Pokémon (Geodude), 4x weak to Grass (Absorb).
+
+6. Hiker Devan:
+   - Location: roughly (43, 14), facing West.
    - Status: Discovered on eastern path.
 
 ## Wild Pokémon
