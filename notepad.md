@@ -476,7 +476,7 @@
 - **Treetop Walkway (`y = 4`):**
   - **Ladder #1 `(10, 6..4)`:** Reached from `(5, 7)` via `Right` 2 to `(7, 7)`, `Down` 1 to `(7, 8)`, `Right` 3 to `(10, 8)`, and `Up` 4 to `(10, 4)` (Treehouse #1 door is at `(10, 3)`).
   - **Ladder #2 `(20, 4..6)` & Treehouse #2 `(18, 3)`:** Along `y = 4` at `x = 18..20`.
-  - **Ladder #3 `(25, 5..6)` & Treehouse #3 `(25, 3)`:** Leads down to `(25, 7)` above **Fortree Gym** (`x = 19..24, y = 7..10`; Gym sign at `(26, 9)`).
+  - **Ladder #3 `(25, 5..6)` & Treehouse #3 `(25, 3)`:** Leads down to `(25, 7)` alongside **Fortree Gym** (`x = 19..24, y = 7..11`; protruding door at `(21, 12)`, Gym sign at `(26, 10)`, and invisible Kecleon blocking `(25, 10)`). To enter Fortree Gym after clearing `(25, 10)` with the Devon Scope from `(25, 9)`, walk `Down` 4 to `(25, 13)`, `Left` 4 to `(21, 13)`, and `Up` 1 into `(21, 12)`.
   - **Ladder #4 `(32, 5..6)` & Treehouse #4 `(33, 2)`:** Leads down to `(32, 7)`. From `(32, 7)`, step `Down` 1 to `(32, 8)` and walk `Right` 8 along `y = 8` across `x = 39` onto **Route 120 `(0, 8)`**.
 
 ## Northern Route 120 (`(0, 8)` -> Steven Stone Bridge `(13, 15)`)
@@ -495,7 +495,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $2,540 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x10, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Super Potion x10, Repel x6, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 41 [Holding Mystic Water] — Mud Shot, Rock Tomb, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 14 — Gust, String Shot, Poison Sting, Harden)
