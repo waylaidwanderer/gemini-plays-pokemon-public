@@ -202,10 +202,13 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - East Entrance: Rusturf Tunnel.
 
 ## Progression Checklist - Route 116
-- [ ] Enter Route 116 from Rustboro City.
+- [x] Enter Route 116 from Rustboro City.
 - [ ] Battle Route 116 trainers for EXP and prize money.
 - [ ] Speak with Mr. Briney outside Rusturf Tunnel.
 - [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt.
+
+## Landmarks & Route Layout
+- Route 116 Entrance Signpost: Located at (45, 10).
 
 ## Trainers
 (To be cataloged upon encounter)
@@ -347,7 +350,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 2. [x] Sage evolved into Grovyle and learned Fury Cutter!
 3. [x] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
 4. [x] Heal party at Rustboro Pokémon Center (Sage HP 43/43, Lilz HP 28/28).
-5. [ ] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
+5. [x] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
 6. [ ] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.
 7. [ ] Return to Rustboro City; deliver Devon Goods to Devon Researcher; meet Mr. Stone at Devon Corp.
 8. [ ] Receive PokéNav and Letter for Steven from Mr. Stone.

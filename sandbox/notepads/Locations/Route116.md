@@ -8,10 +8,13 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - East Entrance: Rusturf Tunnel.
 
 ## Progression Checklist - Route 116
-- [ ] Enter Route 116 from Rustboro City.
+- [x] Enter Route 116 from Rustboro City.
 - [ ] Battle Route 116 trainers for EXP and prize money.
 - [ ] Speak with Mr. Briney outside Rusturf Tunnel.
 - [ ] Enter Rusturf Tunnel to confront Team Aqua Grunt.
+
+## Landmarks & Route Layout
+- Route 116 Entrance Signpost: Located at (45, 10).
 
 ## Trainers
 (To be cataloged upon encounter)
