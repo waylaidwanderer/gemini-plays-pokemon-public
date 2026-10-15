@@ -31,4 +31,5 @@
 - **Room 3 (`(23, 20)` -> Lower Room 3):**
   - Stepping `Down` 1 from `(23, 20)` onto the **Purple Floor Switch at `(23, 21)`** slides the upper 2x2 purple blocks (`(21..22, 22..23)` and `(24..25, 22..23)`) and the middle 2x2 purple block (`(22..23, 25..26)`) to State 1.
   - Stepping `Down` 1 to `(23, 22)` triggers **Hex Maniac Kathleen `(22, 22)`** (`Kadabra Lv. 36`) and **Psychic Nicholas `(24, 22)`** (`Wobbuffet Lv. 36`) in a Double Battle [Defeated].
-  - From `(23, 22)`, `Down` 2 reaches `(23, 24)` (2nd Purple Switch), from which `Right` 1 to `(24, 24)` and `Down` along `x = 24` bypasses the `(22..23, 25..26)` block on the east.
+  - From `(23, 22)`, step `Up` 1 to `(23, 21)` (State 2), `Down` 1 to `(23, 22)`, `Up` 1 to `(23, 21)` (State 3), and `Down` 3 onto the lower **Purple Floor Switch at `(23, 24)`** (State 0, which places Statues at `(23, 25..26)` blocking the Gentleman at `(22, 25)`).
+  - From `(23, 24)`, walk `Right` 1 to `(24, 24)` and `Down` 1 to `(24, 25)` to battle **Psychic Macey `(25, 25)`** (`Natu Lv. 36` [Defeated]) 1v1, then continue `Down` along `x = 24`.
