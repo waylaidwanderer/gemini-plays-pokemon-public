@@ -29,7 +29,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Central Chamber Hub at (11, 15): At row 15, the side walls end and the floor opens wide in all directions.
 - Row 13 Water Canal: Water canal blocks northward passage at (10..11, 13).
 - Row 14 Junction at (11, 14): Row 14 extends west, while column 12 provides a northward bypass at (12, 14) and (12, 13) past the water canal.
-- Row 14-15 West Corridor: At (11, 14), the corridor leads west into row 14, forming an open 1-tile walkway running west through (10, 14), (9, 14), and (7, 14). At column 6, the south wall turns south (rows 15-16 open), while row 14 continues west toward column 5.
+- Row 14-15 West Corridor: At (11, 14), the corridor leads west into row 14, forming an open 1-tile walkway running west through (10, 14), (9, 14), and (7, 14) to (5, 14).
+- Row 14 West Bridge: At (5, 14), row 14 continues west as a 1-tile bridge at (4, 14) bordered by a wooden wall at (4, 13) above and water at (4, 15) below, heading toward column 3.
+- Column 5-6 South Corridor: At (5, 15), open floor leads south alongside the water canal.
 - Water Canal Northwest: Blue water visible at (6, 13) bordering the north side of the corridor.
 - Column 12 Upper North Corridor: Column 12 forms a straight 1-tile wide hallway running north through (12, 13) to (12, 9), bordered by walls on both sides.
 - Row 8 Junction at (12, 8): Column 12 intersects row 8. West (11, 8) runs beneath water at (11, 7). East (13, 8) opens into a wide floor area. Column 12 continues straight north into row 7 along the eastern bank of the water.
