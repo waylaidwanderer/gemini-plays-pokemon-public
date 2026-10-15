@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 10, Male), Nickname: SAGE
-- Status: Navigating Route 102; Calvin, Rick & Allen defeated, heading west to berry trees, Lass Tiana, and Petalburg City.
+- Status: Arrived in Petalburg City! All Route 102 trainers defeated; healing at Pokémon Center, then visiting Petalburg Gym to speak with Dad (Norman).
 
 ## Party
 1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 19/30.
