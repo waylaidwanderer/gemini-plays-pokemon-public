@@ -51,14 +51,14 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B1F
 - Southwest Ladder: Located at (4, 21) leading back to 1F.
-- Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 to (3, 14). Turn East to (6, 14), step Up to (6, 12/13), then follow corridor EAST along row 12/13 toward column 22.
-- Row 12 Corridor: Clear dirt corridor from (6, 12) through (12, 12)+ (no breakable rock at 7, 12 on B1F).
-- Descent Ladder to B2F: Located at (28, 21) in southeast (optional pit floor requiring post-Gym 3 mechanics; avoid).
+- Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 to (3, 14). Turn East to (6, 14), step Up to (6, 12/13), then follow corridor EAST along row 12/13 to (22, 13).
+- Row 13 Boundary: Confirmed that row 13 dead-ends at a solid eastern cliff wall at column 22 (east blocked at 23, 13; north blocked at 22, 12). The only path forward is south down column 22.
+- Column 22 Corridor: Runs south from (22, 13) to row 17, loops through (24, 16) down to row 20, and connects east to the descent ladder at (28, 21).
+- Descent Ladder to B2F: Located at (28, 21) in the southeast. Mandatory progression route to B2F to find the footpath leading to Steven's chamber.
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
-- Objective: Trace row 12/13 eastward past col 22 toward col 35 to locate the ladder ascending to 1F high plateau (35, 3) / Steven's chamber.
 
 ## Wild Pokémon (Granite Cave)
-- Zubat, Geodude, Makuhita, Abra, Aron.
+- Zubat, Geodude, Makuhita, Abra, Aron, Sableye.
 
 ## Progression Checklist - Granite Cave
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
