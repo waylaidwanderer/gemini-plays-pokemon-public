@@ -48,3 +48,4 @@
 - **Mt. Pyre Summit (`(23, 31)` -> Summit Altar):**
   - **Team Aqua Grunt #1 `(25, 18)`:** Watches `(22..24, 18)` — `Carvanha Lv. 32` [Defeated].
   - **Team Aqua Grunt #2 `(21, 15)`:** Watches `(22..24, 15)` — `Zubat Lv. 32` [Defeated].
+  - **Team Aqua Grunts #3 & #4 `(21, 11)` & `(25, 11)`:** Scripted Double Battle at `y = 11` (`(22..24, 11)`) — Grunt #3 (`Poochyena Lv. 30`, `Carvanha Lv. 30`) & Grunt #4 (`Wailmer Lv. 30`, `Zubat Lv. 30`) [Defeated].

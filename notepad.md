@@ -552,6 +552,7 @@
 - **Mt. Pyre Summit (`(23, 31)` -> Summit Altar):**
   - **Team Aqua Grunt #1 `(25, 18)`:** Watches `(22..24, 18)` — `Carvanha Lv. 32` [Defeated].
   - **Team Aqua Grunt #2 `(21, 15)`:** Watches `(22..24, 15)` — `Zubat Lv. 32` [Defeated].
+  - **Team Aqua Grunts #3 & #4 `(21, 11)` & `(25, 11)`:** Scripted Double Battle at `y = 11` (`(22..24, 11)`) — Grunt #3 (`Poochyena Lv. 30`, `Carvanha Lv. 30`) & Grunt #4 (`Wailmer Lv. 30`, `Zubat Lv. 30`) [Defeated].
 
 <hr>
 
@@ -560,7 +561,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $12,308 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $13,508 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x5, Super Potion x2, Super Repel x2, Repel x7, Great Ball x2, Poké Ball x2, PP Up x1, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
