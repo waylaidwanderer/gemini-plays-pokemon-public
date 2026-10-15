@@ -21,13 +21,15 @@
    - Location: Western clearing near Petalburg City entrance.
    - Team: Zigzagoon Lv 4, Shroomish Lv 4.
 
-## Verified Landmarks & Geography
+## Landmarks & Route Layout
 - Route 102 East Signpost: at (40, 10).
+- Pond Area: East-central water body (columns 38-44, rows 1-8). Boy NPC stands near pond bank.
+- Southern Corridor: Runs along rows 11-16 past Calvin (33, 15) and Rick (25, 15).
 - Central Grass Clearing: (16..19, 7..13) containing Sneezing Boy NPC at (18, 11).
-- Row 6 Ledge: South-facing ledge spanning columns 16-26+ (Allen stands at 19, 6). Impassable going north.
-- Vertical Ledge: at (34, 2..8), one-way jump east.
-- Pond: East-central water body (columns 38-44, rows 1-8).
-- Berry Trees: Pecha and Oran berries in northern clearing at (24..25, 1..2).
 - Potion Item Ball: Located in south-western clearing at (11, 14) - uncollected.
-- East-West corridor: Tree cluster at (33..35, 9..13) requires walking along row 14 south of the trees to travel west past Calvin (33, 15).
-- Bypass around Rick: Trees at (24, 14) and (22, 14) block row 14 west of Rick; bypass north via row 12 to reach central clearing (col 20).
+- One-Way Barriers:
+  - Row 6 Ledge: Spans columns 16-26+ (Allen stands at 19, 6). One-way drop south into central clearing; impassable going north.
+  - Col 34 Vertical Ledge: Spans rows 2-8. One-way jump east into pond clearing; impassable going west.
+- Northern Road & Frontier:
+  - Northbound Passage: Open path going north from row 11 through columns 22-25.
+  - Northern Road: Upper clearing containing Berry Trees (Pecha & Oran) at (24..25, 1..2), connecting westbound to Lass Tiana and Petalburg City.
