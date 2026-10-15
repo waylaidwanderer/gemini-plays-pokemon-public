@@ -295,7 +295,9 @@
 - **West Entrance (from Mauville City `(39, 8)`):** `(0, 8)`.
 - **Western Shore Trainers:** **Youngster Deandre `(7, 7)`** (`Zigzagoon Lv. 14`, `Aron Lv. 14`, `Electrike Lv. 16`) and **Aroma Lady Rose `(7, 11)`** (`Roselia Lv. 14`, `Shroomish Lv. 14`, `Roselia Lv. 14`) both watch `(7, 8)` [Defeated & Registered].
 - **Overworld Surf Sequence:** Facing a surfable water tile and pressing `A` opens `"The water is dyed a deep blue... Would you like to SURF?" [YES / NO]` (~1500ms); pressing `A` a second time confirms `YES` and prints `"[POKéMON] used SURF!"`, and you must press `A` or `B` a **third** time (`A, sleep 1500, A, sleep 1000, B, sleep 3000`) to dismiss `"[POKéMON] used SURF!"` and trigger the field-move cut-in and hop onto the water. Dismounting Surf onto land (`(30, 12)` -> `(31, 12)` on Route 118) aborts remaining `press_buttons` inputs just like a warp transition.
-- **Eastern Shore:** Dismount Surf at `(30, 12)` -> `(31, 12)`, walk `Right` 3 to `(34, 12)`, `Down` 2 to `(34, 14)`, and `Right` along `y = 14` past **Fisherman Barny `(39, 15)`** (`Tentacool Lv. 25`, `Carvanha Lv. 25` [Defeated]) to `(43, 14)` -> `(43, 12)`.
+- **Eastern Shore & Steven Stone Cutscene (`(31, 12)` -> Route 119 `(17, 139)`):**
+  - Dismount Surf at `(30, 12)` -> `(31, 12)`, walk `Right` 3 to `(34, 12)`, `Down` 2 to `(34, 14)`, `Right` 9 along `y = 14` past **Fisherman Barny `(39, 15)`** (`Tentacool Lv. 25`, `Carvanha Lv. 25` [Defeated]) to `(43, 14)`, and `Up` 3 through the ledge opening at `(42..43, 13)` to `(43, 11)`, where **Steven Stone** jumps down from `(43, 8)` to talk [Completed].
+  - From `(43, 11)`, walk `Up` 1 to `(43, 10)`, `Right` 14 along `y = 10` through the tall grass to `(57, 10)`, and `Up` 11 along `x = 57` through the `y = 9` ledge opening (past the signpost at `(56, 9)` and **Bird Keeper Chester `(56, 8)`** — `Taillow Lv. 25`, `Swellow Lv. 25` [Defeated]) straight into **Route 119 `(17, 139)`**.
 
 <hr>
 
@@ -437,7 +439,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$8,769 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$9,569 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x8, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
