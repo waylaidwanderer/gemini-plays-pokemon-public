@@ -663,8 +663,8 @@
   - From `(6, 7)`, walk `Right` 1 to `(7, 7)` to defeat **Hex Maniac Sylvia `(7, 6)`** (`Meditite Lv. 36` [Defeated]), then walk `Down` 2 to `(7, 9)`, `Right` 1 to `(8, 9)`, and `Down` 1 onto `(8, 10)` (restoring Blue State 0, which opens `(9..10, 9)`).
   - From `(8, 10)`, walk `Up` 1 to `(8, 9)`, `Right` 3 through `(9..10, 9)` to `(11, 9)`, `Up` 2 to `(11, 7)`, `Left` 1 to `(10, 7)`, and `Up` 4 through `(10, 6..4)` onto the teleporter at **`(10, 3)`**.
 - **Tate & Liza's Room (`(21, 10)` -> `(23..24, 7)`):**
-  - Reached from Room 4's northern teleporter at **`(13, 31)`** (arriving at `(21, 10)`).
-  - Walk `Right` 2 from `(21, 10)` to `(23, 10)` and `Up` 2 to `(23, 8)` to face **Gym Leaders Tate & Liza `(23..24, 7)`** (note: `(21, 7)` is the return teleporter pad to Room 1 `(7, 30)`).
+  - Reached from Room 4's northern teleporter at **`(13, 31)`** (arriving in the 1-tile alcove at `(21, 10)`).
+  - Walk `Up` 2 from `(21, 10)` to `(21, 8)` and `Right` 2 up the western platform steps `(22, 8)` onto `(23, 8)` to face **Gym Leaders Tate & Liza `(23..24, 7)`** (note: `(21, 7)` is the return teleporter pad to Room 1 `(7, 30)`).
 
 <hr>
 
@@ -679,9 +679,9 @@
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x4, Super Potion x2, Repel x2, PP Up x1, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 49 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
-  2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
+  2. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
-  4. ZEPHYR (Castform, Female, Lv. 27 — Powder Snow, Rain Dance, Sunny Day, Hail)
+  4. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
 
 ## Notepad Index
