@@ -51,9 +51,10 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B1F
 - Southwest Ladder: Located at (4, 21) leading back to 1F.
-- Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 to (3, 14). Turn East to (6, 13), then follow the open corridor EAST along row 13 through (22, 13). Wall blocks col 23; corridor turns SOUTH along col 22 through (22, 15) and continues south!
+- Verified Path: Column 4 leads north to (4, 19), turns Left to (3, 19), and runs North along column 3 to (3, 14). Turn East to (6, 13), then follow the open corridor EAST along row 13 through (22, 13). Corridor turns SOUTH along col 22 from (22, 13) down to (22, 19).
+- Row 20 Ledge: Located at (22, 20); one-way jump ledge dropping south onto the lower floor. Row 19 also extends west.
 - Visibility: Dark cavern (illuminated circle of radius ~2 tiles around player).
-- Objective: Thoroughly explore B1F corridors to locate the ladder down to B2F.
+- Objective: Locate the ladder down to B2F leading to Steven's chamber.
 
 ## Wild Pokémon (Granite Cave)
 - Zubat, Geodude, Makuhita, Abra, Aron.
