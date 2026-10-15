@@ -225,7 +225,7 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 13, Male), Nickname: SAGE
-- Status: Healed at Rustboro Pokémon Center! Sage Lv 13 (HP 36/36), Lilz Lv 6 (HP 22/22), wallet ¥3600. Checkpoint set. Heading west to Cutter's House for HM01 Cut.
+- Status: Obtained HM01 Cut from Cutter's House! Sage Lv 13 (HP 36/36), Lilz Lv 6 (HP 22/22), wallet ¥3600. Heading to Pokémon Trainer's School for Quick Claw, then Rustboro Gym!
 
 ## Party
 1. SAGE (Treecko ♂, Level 13) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 36/36. Nature: Lonely. Ability: Overgrow.
