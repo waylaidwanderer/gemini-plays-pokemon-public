@@ -366,6 +366,11 @@
   - Walk `Left` 13 along `y = 18` across the wooden bridge to `(14, 18)` to trigger the cutscene with **Professor Cozmo `(13, 23)`**, **Team Magma**, and **Team Aqua Leader Archie** (ends at `(13, 18)`).
   - From `(13, 18)`, walk `Right` 1 to `(14, 18)`, `Down` 2 down the stairs at `(14, 19)` to `(14, 20)`, `Left` 8 along `y = 20` to `(6, 20)`, `Down` 5 down the stairs at `(6, 23..24)` to `(6, 25)`, and `Down` along `x = 6` across the five southbound purple ledges (`y = 29, 31, 33, 35, 37`) into the **South Exit `(6, 39)`** (to Route 115).
 
+## Route 115
+- **North-East Cave Entrance (from Meteor Falls 1F `(6, 39)`):** `(27, 39)` (exiting steps to `(27, 40)`).
+- **Southbound Path to Rustboro City (`(27, 40)` -> `(26, 60)`):**
+  - From `(27, 40)`, walk `Down` 1 to `(27, 41)`, `Left` 2 to `(25, 41)`, `Down` 6 down the stairs at `(24..25, 42)` to `(25, 47)`, `Right` 1 to `(26, 47)`, and `Down` along the sandy road `x = 26` down the stairs at `(26..27, 48)` (passing **Black Belt Nob `(27, 53)`** — `Machop Lv. 19` [Defeated & Registered]) into **Rustboro City**.
+
 <hr>
 
 <h1><code>Main</code></h1>
