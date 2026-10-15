@@ -232,12 +232,15 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
    - Location: roughly (14, 18), facing North.
    - Status: Discovered in southwest clearing.
 
-4. Hiker Clark:
+4. Youngster Johnson:
+   - Location: (36, 13), facing West.
+   - Pre-battle: "It's a dead end up here. I'm bored, so can we battle?"
+   - Team: 2 Pokémon.
+   - Status: Battle ongoing.
+
+5. Hiker Clark:
    - Location: roughly (41, 14), facing West.
    - Status: Discovered on eastern path.
-
-## NPCs
-- Boy at (36, 13): Mentions "It's a dead end up here."
 
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
