@@ -38,8 +38,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 1. Black Belt Cristian: [DEFEATED]
    - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
    - Pre-battle: "If you mean to pass, it has to be through me!"
+   - Defeat quote: "Grrrrr! Vastly overpowered"
    - Team: Makuhita ♂ Lv 13 (fainted).
-   - Reward: 241 EXP (Sage grew to Lv 19, HP 42/53!). First trainer defeated; spotlight expanded!
+   - Reward: ¥416, 241 EXP (Sage grew to Lv 19, HP 42/53!). First trainer defeated; spotlight expanded from radius 2 to 3!
 
 ## Gym Leader Brawly
 - Emerald Team:

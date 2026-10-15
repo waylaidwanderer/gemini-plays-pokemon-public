@@ -40,8 +40,9 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 1. Black Belt Cristian: [DEFEATED]
    - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
    - Pre-battle: "If you mean to pass, it has to be through me!"
+   - Defeat quote: "Grrrrr! Vastly overpowered"
    - Team: Makuhita ♂ Lv 13 (fainted).
-   - Reward: 241 EXP (Sage grew to Lv 19, HP 42/53!). First trainer defeated; spotlight expanded!
+   - Reward: ¥416, 241 EXP (Sage grew to Lv 19, HP 42/53!). First trainer defeated; spotlight expanded from radius 2 to 3!
 
 ## Gym Leader Brawly
 - Emerald Team:
@@ -556,7 +557,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Sage Lv 19 (HP 42/53), Lilz Lv 9 (HP 28/28), wallet ¥7796.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Black Belt Cristian in Dewford Gym. Sage Lv 19 (HP 42/53), Lilz Lv 9 (HP 28/28), wallet ¥8212.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 42/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
