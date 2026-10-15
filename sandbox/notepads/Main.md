@@ -23,7 +23,8 @@
 - `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
-- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, and Lilycove City.
+- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City, Mt. Pyre, and Team Aqua Hideout.
+- `Locations/Route_124_And_Mossdeep_City`: Coordinates, trainer statuses, and routing for Route 124 and Mossdeep City.
 
 ## Mechanics & Harness Notes
 - **Teaching TMs & Global Bag Pocket Persistence (`gBagPosition`):** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. Both in-battle and overworld `BAG` menus share global `gBagPosition` (`pocket` and `cursorPosition`), so switching pockets in battle persists to the next overworld `BAG` opening and vice versa. After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.

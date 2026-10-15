@@ -604,6 +604,19 @@
   - From B2F `(12, 2)`, walk `Right` 1 and `Down` 2 to `(13, 4)` to side-talk **Team Aqua Grunt `(13, 5)`** (`Carvanha Lv. 32` [Defeated]), then walk `Left` 4 to `(9, 4)` and `Down` 1 to `(9, 5)` to battle **Team Aqua Grunt `(6, 5)`** (`Zubat Lv. 32` [Defeated]) 1v1.
   - From `(9, 5)`, walk `Down` 3 to `(9, 8)` and `Left` 1 onto the warp pad at `(8, 8)`, which warps within B2F to `(31, 17)` in the Submarine Dock room.
   - From `(31, 17)`, walk `Left` 3 to `(28, 17)` (triggers **Team Aqua Admin Matt `(23, 19)`** to turn Right), `Down` 2 to `(28, 19)`, and `Left` 4 to `(24, 19)` to battle **Team Aqua Admin Matt `(23, 19)`** (`Mightyena Lv. 34`, `Golbat Lv. 34` [Defeated — Submarine Explorer 1 departed for the Seafloor Cavern and the Wailmer blocking Route 124 East cleared]).
+  - **Exit Route (`B2F (24, 19)` -> `1F (13, 27)`):** From `(24, 19)`, walk `Right` 4 to `(28, 19)`, `Up` 2 to `(28, 17)`, and `Right` 3 onto `(31, 17)` (warps to B2F `(8, 8)`). Walk `Right` 1 to `(9, 8)`, `Up` 4 to `(9, 4)`, `Right` 3 to `(12, 4)`, and `Up` 3 into `(12, 1)` (ascends to B1F `(12, 2)`). Walk `Down` 9 to `(12, 11)`, `Left` 9 to `(3, 11)`, and `Up` 8 into `(3, 3)` (descends to B2F `(3, 4)`). Walk `Right` 2 and `Down` 4 onto `(5, 8)` (warps to B2F Generator Room `(31, 8)`). From `(31, 8)`, walk `Up` 2 to `(31, 6)` or via `(25, 6)`, `Left` along `y = 6` to `(18, 6)`, and `Up` 5 into `(18, 1)` (ascends to B1F `(18, 2)`). Step `Down` 2 and `Right` 2 onto `(20, 4)` (warps to B1F `(32, 19)`), walk `Down` 1 to `(32, 20)`, `Left` 5 to `(27, 20)`, `Down` 1 to `(27, 21)`, `Left` 8 to `(19, 21)`, `Up` 7 along `x = 19` to `(19, 14)`, `Left` 16 along `y = 14` to `(3, 14)`, and `Down` 1 onto `(3, 15)` (warps to B1F `(27, 4)`). Walk `Up` 2, `Right` 2, and `Up` 1 into `(29, 1)` (ascends to 1F `(22, 2)`), then walk via `(20, 3)` -> `(20, 10)` -> `(13, 10)` -> `(13, 12)` and `Surf` `Down` 15 out `(13, 27)` to Lilycove City `(70, 6)`.
+
+<hr>
+
+<h1><code>Locations/Route_124_And_Mossdeep_City</code></h1>
+
+# Route 124 & Mossdeep City — Coordinates & Routing
+
+## Route 124 (`(0, 26)` -> Mossdeep City)
+- **West Entrance (from Lilycove City `(79, 16)`):** `(0, 26)` (`y_route124 = y_lilycove + 10`).
+- **Western Channel Trainers (`(7, 26)`):**
+  - **Swimmer♂ Declan `(7, 23)`:** Watches `(7, 26)` — `Gyarados Lv. 34` [Defeated].
+  - **Swimmer♀ Grace `(7, 29)`:** Watches `(7, 26)` — 1 Pokémon [In Progress].
 
 <hr>
 
@@ -634,7 +647,8 @@
 - `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
-- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, and Lilycove City.
+- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City, Mt. Pyre, and Team Aqua Hideout.
+- `Locations/Route_124_And_Mossdeep_City`: Coordinates, trainer statuses, and routing for Route 124 and Mossdeep City.
 
 ## Mechanics & Harness Notes
 - **Teaching TMs & Global Bag Pocket Persistence (`gBagPosition`):** Teaching a TM from the `TMs & HMs` Pocket requires **5 `A` presses** to open the Party screen (`USE` -> `"Booted up a TM."` -> `"It contained [MOVE]."` -> `[YES / NO]` -> confirms `YES`) before pressing `Left` to select Lead Slot 1. Both in-battle and overworld `BAG` menus share global `gBagPosition` (`pocket` and `cursorPosition`), so switching pockets in battle persists to the next overworld `BAG` opening and vice versa. After using a Bag item in battle, wait `6000ms` after declining `"Will ORION change POKéMON?"` before pressing `Right` to select `BAG`, press `Left` on the Party screen to guarantee Lead Slot 1 is selected, and on the next turn press `Left` before `A` on the battle menu because the action cursor persists on `BAG` (top-right) after using an item.
