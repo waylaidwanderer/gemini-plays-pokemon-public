@@ -472,7 +472,7 @@
 ## Fortree City
 - **West Entrance (from Route 119 `(39, 7..8)`):** `(0, 7..8)`
 - **Fortree Pokémon Center:** Door at `(5, 6)` (exiting steps to `(5, 7)`).
-- **Fortree Poké Mart:** Door at `(4, 13)` (exiting steps to `(4, 14)`).
+- **Fortree Poké Mart:** Door at `(4, 14)` (exiting steps to `(4, 15)`).
 - **Treetop Walkway (`y = 4`):**
   - **Ladder #1 `(10, 6..4)`:** Reached from `(5, 7)` via `Right` 2 to `(7, 7)`, `Down` 1 to `(7, 8)`, `Right` 3 to `(10, 8)`, and `Up` 4 to `(10, 4)` (Treehouse #1 door is at `(10, 3)`).
   - **Ladder #2 `(20, 4..6)` & Treehouse #2 `(18, 3)`:** Along `y = 4` at `x = 18..20`.
