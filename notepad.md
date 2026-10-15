@@ -599,9 +599,9 @@
   - Walking `Right` along `y = 10` from `(16, 10)` to `(23, 10)` triggers the looping **Team Aqua Grunt `(20..22, 10)`** (`Carvanha Lv. 32` [Defeated]). Continuing `Right` 8 to `(31, 10)` and `Up` 2 reaches the eastern warp pad at **`(31, 8)`**, which warps within B2F to `(5, 8)`.
   - From B2F `(5, 8)`, walking `Up` 4 to `(5, 4)`, `Left` 2 to `(3, 4)`, and `Up` 1 into the staircase doorway at `(3, 3)` ascends to **B1F `(3, 4)`** (where **Team Aqua Grunt `(5, 6)`** watches `y = 6` — `Zubat Lv. 32` [Defeated], leading south to `(3, 11)`).
   - From B1F `(3, 11)`, walk `Right` 9 along `y = 11` to `(12, 11)` and `Up` 10 along `x = 12` into the staircase doorway at `(12, 1)` (descends to **B2F `(12, 2)`**).
-- **Team Aqua Hideout B2F Submarine Dock (`(12, 2)` -> `(7, 8)` -> `(31, 17)` -> `(24, 19)`):**
+- **Team Aqua Hideout B2F Submarine Dock (`(12, 2)` -> `(8, 8)` -> `(31, 17)` -> `(24, 19)`):**
   - From B2F `(12, 2)`, walk `Right` 1 and `Down` 2 to `(13, 4)` to side-talk **Team Aqua Grunt `(13, 5)`** (`Carvanha Lv. 32` [Defeated]), then walk `Left` 4 to `(9, 4)` and `Down` 1 to `(9, 5)` to battle **Team Aqua Grunt `(6, 5)`** (`Zubat Lv. 32` [Defeated]) 1v1.
-  - From `(9, 5)`, walk `Down` 3 to `(9, 8)` and `Left` 2 onto the warp pad at `(7, 8)`, which warps within B2F to `(31, 17)` in the Submarine Dock room.
+  - From `(9, 5)`, walk `Down` 3 to `(9, 8)` and `Left` 1 onto the warp pad at `(8, 8)`, which warps within B2F to `(31, 17)` in the Submarine Dock room.
   - From `(31, 17)`, walk `Left` 3 to `(28, 17)` (triggers **Team Aqua Admin Matt `(23, 19)`** to turn Right), `Down` 2 to `(28, 19)`, and `Left` 4 to `(24, 19)` to battle **Team Aqua Admin Matt `(23, 19)`** (`Mightyena Lv. 34`, `Golbat Lv. 34` [Defeated — Submarine Explorer 1 departed for the Seafloor Cavern and the Wailmer blocking Route 124 East cleared]).
 
 <hr>
