@@ -6,7 +6,7 @@
 - Status: DEFEATED GYM LEADER ROXANNE! Earned the Stone Badge and TM39! Sage Lv 16 (HP 43/43), Lilz Lv 9 (HP 28/28).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 16) [Held Item: Quick Claw] - Moves: Pound, Leer, Absorb, Quick Attack. HP: 43/43. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 16) [Held Item: Quick Claw] - Moves: Pursuit, Leer, Absorb, Quick Attack. HP: 22/43. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28.
 
 ## Bag Highlights
