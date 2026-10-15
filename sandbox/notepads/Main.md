@@ -50,10 +50,6 @@
 8. [ ] Receive PokéNav and Letter for Steven from Mr. Stone.
 9. [ ] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
 
-## Route 102
-- Overview: See Locations/Route102.md for detailed map topography, trainer locations, and verified landmarks.
-- Status: Fully cleared! All 4 trainers defeated, berries harvested, and connected west to Petalburg City.
-
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
 - Button sequences must place `sleep` strictly between button taps (no leading/trailing sleeps).

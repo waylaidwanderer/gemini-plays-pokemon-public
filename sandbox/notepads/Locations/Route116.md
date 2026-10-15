@@ -17,7 +17,9 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - Route 116 Entrance Signpost: Located at (5, 10). Text: "ROUTE 116 / ⬅ RUSTBORO CITY".
 - Northern Highway: Clear grassy corridor at rows 7-8 bypassing the entrance trees and signpost to the north.
 - Route 116 Trainer Tips Signpost: Located at (16, 12). Text explains that pressing the B Button during evolution cancels it.
-- North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball and a Cut tree.
+- North Upper Terrace: Elevated ledge above northern rock wall contains a visible item ball, a Cut tree, and terrace signpost at roughly (29, 9).
+- Main Highway: Row 13-14 provides an east-west path directly beneath the northern ledge leading toward the Rest House and Tunnel entrance.
+- Tunnel Worker's Rest House: Located in north-central Route 116 at (37, 8) (yellow building with blue roof, worker and signpost outside). Contains a bed for free healing.
 
 ## Trainers
 1. Youngster Joey: [DEFEATED]
@@ -48,20 +50,18 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 5. Hiker Clark:
    - Location: (36, 19), facing North.
    - Pre-battle: "If the tunnel doesn't go through, then I'll just go over the top."
-   - Team: Geodude Lv 8, [Pokémon 2].
-   - Status: Battle ongoing. Note: Geodude is Rock/Ground, 4x weak to Grass (Absorb). Absorb deals 4x STAB damage and heals Sage to full HP.
+   - Team: Geodude Lv 8 (knows Mud Sport, Defense Curl), [Pokémon 2].
+   - Status: Battle ongoing. Note: Geodude is Rock/Ground, 4x weak to Grass (Absorb). Absorb deals 4x STAB damage, bypasses Defense Curl, and heals Sage to full HP.
 
 6. Hiker Devan:
    - Location: roughly (43, 14), facing West.
    - Status: Discovered on eastern path.
+
+## NPCs
+- Boy at (36, 13): Mentions "It's a dead end up here."
 
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
 
 ## Items & Discoveries
 (To be cataloged upon discovery)
-
-## Landmarks & Route Layout (Continued 2)
-- Tunnel Worker's Rest House: Located in north-central Route 116 at (37, 8) (yellow building with blue roof, worker and signpost outside).
-- Terrace Signpost: Located at roughly (29, 9) on the north terrace.
-- Main Highway: Row 13-14 provides an east-west path directly beneath the northern ledge leading toward the Rest House and Tunnel entrance.
