@@ -1,12 +1,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$1,700 | **Badges:** 3 (Stone Badge, Knuckle Badge, Dynamo Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$5,300 | **Badges:** 4 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
+- **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 34 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 35 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 

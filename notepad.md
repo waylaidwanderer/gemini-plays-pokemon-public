@@ -365,7 +365,8 @@
   4. **B1F `(0, 10)` -> `(0, 6)`:** In the `B1F` northern-west chamber (`x = 0..3, y = 6..11`), **Kindler Keegan `(3, 6)`** (`Slugma Lv. 23` [Defeated]) is buried in the right-hand ash circle, while **`B1F (0, 6)`** (walk `Up` 4 along `x = 0` from `(0, 10)`) is the geyser warp up to the `1F` top-left room at `1F (1, 6)`.
   5. **1F `(1, 6)` -> `(2, 3)`:** In the `1F` top-left room (`x = 0..5, y = 1..6`), **Battle Girl Danielle `(5, 2)`** (`Meditite Lv. 23` [Defeated]) is buried in the top-right ash circle (`(5, 6)` is a trap hole to `B1F (5, 6)`), while **`1F (2, 3)`** drops into the northern-most `B1F` corridor at `B1F (2, 3)`.
   6. **B1F `(2, 3)` -> `(7, 2)`:** Walk `Right` 4 along `y = 3` under the `(4, 2)` wall cap to `(6, 3)`, `Up` 1 to `(6, 2)`, and `Right` 1 onto the geyser warp at **`B1F (7, 2)`** -> launches into the `1F` top-middle room at **`1F (8, 2)`** (note: continuing east to `B1F (12, 3)` -> `1F (13, 3)` -> `1F (14, 6)` -> `B1F (14, 6)` -> `B1F (10, 18)`, past **Kindler Jeff `(13, 17)`** — `Slugma Lv. 22`, `Slugma Lv. 22` [Defeated], is the one-way exit shortcut back to the `1F` Entrance Room at `1F (11, 18)`).
-  7. **1F `(8, 2)` -> `(10, 6)` -> B1F `(12, 12)` -> Flannery `1F (13, 9)`:** In the `1F` top-middle room (`x = 7..10, y = 1..6`), `(8, 6)` is a trap drop hole to `B1F (8, 6)`, while **`1F (10, 6)`** drops into `B1F (10, 6)` north of the `y = 10` ledge. From `B1F (10, 6)`, walk `Right` 1 to `(11, 6)`, `Down` 5 across the `y = 10` ledge to `(11, 11)`, `Down` 1 to `(11, 12)`, and `Right` 1 onto the geyser at **`B1F (12, 12)`** -> launches into Flannery's room at **`1F (13, 12)`**. Walk `Up` 2 along `x = 13` to **`1F (13, 10)`** to challenge **Gym Leader Flannery `(13, 9)`**.
+  7. **1F `(8, 2)` -> `(10, 6)` -> B1F `(12, 12)` -> Flannery `1F (13, 9)`:** In the `1F` top-middle room (`x = 7..10, y = 1..6`), `(8, 6)` is a trap drop hole to `B1F (8, 6)`, while **`1F (10, 6)`** drops into `B1F (10, 6)` north of the `y = 10` ledge. From `B1F (10, 6)`, walk `Right` 1 to `(11, 6)`, `Down` 5 across the `y = 10` ledge to `(11, 11)`, `Down` 1 to `(11, 12)`, and `Right` 1 onto the geyser at **`B1F (12, 12)`** -> launches into Flannery's room at **`1F (13, 12)`**. Walk `Up` 2 along `x = 13` to **`1F (13, 10)`** to challenge **Gym Leader Flannery `(13, 9)`** (`Numel Lv. 24`, `Slugma Lv. 24`, `Camerupt Lv. 26`, `Torkoal Lv. 29` [Defeated & Registered — awards Heat Badge & TM50 Overheat]).
+  8. **Fast Exit from Flannery `(13, 10)` -> Gym Door `(13, 18)`:** From `1F (13, 10)`, walk `Down` 2 and `Left` 1 onto **`1F (12, 12)`** -> drops to `B1F (12, 12)`. Walk `Down` 5 along `x = 12` across the `y = 14` ledge to `(12, 18)` and `Left` 2 onto the return geyser at **`B1F (10, 18)`** -> launches to `1F (11, 18)`. Walk `Right` 2 to `(13, 18)` and `Down` 1 to exit.
 
 <hr>
 
@@ -423,12 +424,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$1,700 | **Badges:** 3 (Stone Badge, Knuckle Badge, Dynamo Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$5,300 | **Badges:** 4 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
+- **Inventory:** Super Potion x4, Super Repel x3, Great Ball x2, Poké Ball x2, PP Up x1, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 34 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 35 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Beautifly, Male, Lv. 12 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 9 — Scratch, Harden, Leech Life, Flash)
 
