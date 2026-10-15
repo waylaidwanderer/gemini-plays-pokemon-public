@@ -37,10 +37,11 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Light Mechanic: Initial spotlight radius is ~2 tiles. Expands as trainers are defeated.
 
 ## Trainers
-1. Black Belt Cristian:
+1. Black Belt Cristian: [DEFEATED]
    - Location: Row 8 corridor, intercepted May at (10, 8) from the west.
    - Pre-battle: "If you mean to pass, it has to be through me!"
-   - Team: Makuhita ♂ Lv 13 (Makuhita HP ~15% red zone, Sage HP 35/51 executing finishing Absorb)
+   - Team: Makuhita ♂ Lv 13 (fainted).
+   - Reward: 241 EXP (Sage grew to Lv 19, HP 42/53!). First trainer defeated; spotlight expanded!
 
 ## Gym Leader Brawly
 - Emerald Team:
@@ -554,11 +555,11 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 18, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Sage Lv 18 (HP 35/51), Lilz Lv 9 (HP 28/28), wallet ¥7796.
+- Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Sage Lv 19 (HP 42/53), Lilz Lv 9 (HP 28/28), wallet ¥7796.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 18) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 35/51. Status: OK. Stats: Atk 31, Def 24, Sp.Atk 37, Sp.Def 33, Speed 42. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 42/53. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK (healed at Rustboro Pokémon Center).
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
