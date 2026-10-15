@@ -45,4 +45,5 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 - Entrance Chokepoint: (5, 15) is an alcove flanked by walls at (2..4, 15) and (6..7, 15). Defeated Josh stands at (5, 14).
 - Western Corridor: Column 1 runs north from row 16 to row 9. Once defeated, Marc at (1, 8) and Tommy at (2, 9) block northward and eastward passage from column 1.
 - Eastern Corridor: Column 8 is a clear, unobstructed vertical corridor spanning north from row 16 all the way to the northern stage at row 5! This is the primary route to reach Gym Leader Roxanne.
-- Northern Stage: Roxanne stands on the elevated platform (rows 2..4, cols 3..7). Central stairs lead onto her platform.
+- Northern Stage: Roxanne stands at (5, 2) on the elevated platform. Approach path: from western aisle at (2, 2), step Down to (2, 4), East to (5, 4), and Up to (5, 3) directly facing Roxanne.
+- Roxanne's Team (Emerald): Geodude Lv 12, Geodude Lv 12, Nosepass Lv 15 (holding Oran Berry). Sage Lv 15 with Absorb and Quick Claw is primed to sweep!
