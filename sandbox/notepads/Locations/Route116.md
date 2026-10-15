@@ -18,11 +18,12 @@ A rugged route connecting Rustboro City in the west to Rusturf Tunnel in the eas
 - Northern Highway: Clear grassy corridor at rows 7-8 bypassing the entrance trees and signpost to the north.
 
 ## Trainers
-1. Youngster Joey:
+1. Youngster Joey: [DEFEATED]
    - Location: (12, 7), facing East.
    - Pre-battle: "My POKéMON rule! Check them out!"
-   - Team: Machop ♂ Lv 9.
-   - Status: Battle ongoing. Note: Machop resists Bug-type attacks (Fury Cutter). Use STAB Absorb or Quick Attack.
+   - Team: Machop ♂ Lv 9 (fainted).
+   - Defeat quote: "Ouch! A scrape! I have to put on a bandage!"
+   - Reward: ¥144, 169 EXP.
 
 ## Wild Pokémon
 - Taillow, Poochyena, Whismur, Skitty, Nincada, Abra.
