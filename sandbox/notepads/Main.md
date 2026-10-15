@@ -6,14 +6,14 @@
 - Status: Completed Petalburg Gym visit, assisted Wally with catching Ralts, met Scott. Currently heading north along Route 104 toward Petalburg Woods and Rustboro City.
 
 ## Party
-1. SAGE (Treecko ♂, Level 10) - Moves: Pound, Leer, Absorb. HP: 30/30.
+1. SAGE (Treecko ♂, Level 11) - Moves: Pound, Leer, Absorb, Quick Attack. HP: 32/32.
 2. LILZ (Lotad ♀, Level 4) - Newly caught on Route 102! Moves: Astonish, Growl.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
 - Poké Ball x2 (gift from Brendan, 3 used on Lotad)
 - Berries: Oran Berry x4 (2 from Route 102, 2 from Route 104), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
-- Money: ¥3556 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana)
+- Money: ¥4956 (won ¥300 from Brendan, ¥80 from Calvin, ¥64 from Rick, ¥48 from Allen, ¥64 from Tiana, ¥1400 from Cindy)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors)
 
 ## Littleroot Town & Route 101 Summary
