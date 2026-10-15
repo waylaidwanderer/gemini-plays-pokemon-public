@@ -463,7 +463,7 @@
   - **1F Trainers:** **Team Aqua Grunt (F) `(10, 5)`** (`Carvanha Lv. 28` [Defeated]) watches `(10, 7)`; **Team Aqua Grunt (M) `(15, 3)`** faces Left.
 - **Weather Institute 2F:**
   - **Staircase Warp:** `(17, 1)` (arrives at `(17, 2)`).
-  - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]) and **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]) watch `x = 16..18, y = 6`.
+  - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]), **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]), and **Team Aqua Grunt (M) `(10, 8)`** (`Poochyena Lv. 26`, `Zubat Lv. 26`, `Carvanha Lv. 26` [Defeated]). **Team Aqua Admin Shelly** stands at `(4, 6)`.
 
 <hr>
 
@@ -472,7 +472,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$16,309 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$16,829 | **Badges:** 5 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x8, Great Ball x2, Poké Ball x2, PP Up x1, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
