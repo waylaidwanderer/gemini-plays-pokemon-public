@@ -73,6 +73,12 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Reward: ¥728, EXP (Sage grew to Lv 20!).
    - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Confirmed column 16 dead-ends at row 9 water canal behind Lilith. Must backtrack south to row 19 to reach column 9 corridor.
 
+5. Battle Girl Jocelyn: [IN PROGRESS]
+   - Location: Column 15 at (15, 2..3) directly in front of Gym Leader Brawly.
+   - Pre-battle: "There's no need for BRAWLY to be involved! I'll crush you!"
+   - Team: Meditite ♀ Lv 13 (1 Pokémon).
+   - Battle Status: Single battle initiated. Sage (Lv 20, HP 38/55) facing Meditite (Lv 13, 100% HP).
+
 <hr>
 
 <h1><code>Locations/DewfordTown</code></h1>
@@ -583,7 +589,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao, Laura, Brenden & Lilith in Dewford Gym. All gym trainers defeated! Gym fully illuminated. Sage grew to Lv 20! Approaching Brawly's stage.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 44/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 0/28. Status: FNT (fainted in double battle).
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: FNT (fainted in double battle).
 
