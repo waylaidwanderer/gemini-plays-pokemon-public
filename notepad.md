@@ -928,6 +928,9 @@
     - **Pokémon League Lobby (`EverGrandeCity_PokemonLeague_1F`):**
       - **Nurse Joy:** Stand at **`(3, 4)`** facing `Up` (heals party and unlocks the northern **Ever Grande City — Pokémon League** Fly destination).
       - **Poké Mart Clerk:** Stand at **`(16, 4)`** facing `Up` (sells `Ultra Ball $1200`, `Hyper Potion $1200`, `Max Potion $2500`, `Full Restore $3000`, `Full Heal $600`, `Revive $1500`, `Max Repel $700`).
+      - **Elite Four Entrance Doorway `(9, 1)`:** Speak to the guard at `(9, 2)` from `(9, 3)` to verify all 8 Gym Badges; the guards step aside to `(8, 2)` and `(11, 2)`, opening `(9, 1)` into `EverGrandeCity_Hall5 (5, 12)` (`Up` 11 along `x = 5` to `(5, 1)` warps into `EverGrandeCity_SidneysRoom` and auto-walks to `(6, 7)`).
+    - **Elite Four #1: Sidney (`EverGrandeCity_SidneysRoom` `(6, 5)`):**
+      - Stand at `(6, 6)` facing `Up` (`Mightyena Lv. 46` [Intimidate], `Cacturne Lv. 46`, `Shiftry Lv. 48`, `Crawdaunt Lv. 48`, `Absol Lv. 49 [Sitrus Berry]` [Defeated — money `$5,571`, `ATRITON` grew to Lv. 59]). Walk `Left` 1 to `(5, 6)`, `Up` 4 to `(5, 2)`, `Right` 1 to `(6, 2)`, and `Up` 1 into `(6, 1)` -> `EverGrandeCity_Hall1 (5, 12)` -> `Up` 11 to `(5, 1)` -> `EverGrandeCity_PhoebesRoom (6, 7)`.
 
 <hr>
 
@@ -936,7 +939,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $671 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,571 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x6, Hyper Potion x17, Revive x7, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM14 (Blizzard) x1, TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
