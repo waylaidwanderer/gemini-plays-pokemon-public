@@ -807,6 +807,10 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Secret Scroll: Located on tatami mat at (4, 15).
 - Trainer 2: Lass at (4, 13) facing South guarding the area above the scroll.
 - Objective: Find the secret scroll to memorize the password, cut through trees, and reach the back room scroll door.
+- Cut Tree #2: (11, 16), south end of col 11 corridor.
+- Cut Tree #3: (11, 13), north end of col 11 corridor.
+- Cut Tree #4: (14, 15), east dead-end.
+- Central corridor: Col 11 at row 14/15 provides access west toward the Secret Scroll.
 
 <hr>
 
