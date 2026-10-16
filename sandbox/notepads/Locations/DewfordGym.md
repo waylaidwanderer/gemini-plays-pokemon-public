@@ -63,9 +63,9 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-4. Sailor Brenden & Battle Girl Lilith: [IN PROGRESS - REMATCH]
+4. Sailor Brenden & Battle Girl Lilith: [DEFEATED]
    - Location: East Wing corridor at (15..16, 11..12).
-   - Brenden: Machop ♂ Lv 13 [DEFEATED]. Pre-battle: "I'll show you the gumption of a sailing man!"
-   - Lilith: Meditite ♀ Lv 13 [ACTIVE - 35% HP]. Pre-battle: "Ufufu... Are you stumbling around in the dark?"
+   - Brenden: Machop ♂ Lv 13 (fainted). Pre-battle: "I'll show you the gumption of a sailing man!"
+   - Lilith: Meditite ♀ Lv 13 (fainted). Pre-battle: "Ufufu... Are you stumbling around in the dark?"
    - Battle Type: 2-on-2 Double Battle triggered simultaneously at (16, 12).
-   - Battle Status: Machop eliminated! Cipher fainted as decoy. Meditite reduced to ~35% HP by Pursuit. Final strike incoming to maximize gym illumination!
+   - Outcome: Complete victory! Sage grew to Lv 20 (HP 44/55). All gym trainers defeated, gym illumination maximized! Corridor at col 16 open to proceed north toward Brawly's stage.

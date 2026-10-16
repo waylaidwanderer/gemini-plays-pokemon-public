@@ -65,12 +65,12 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-4. Sailor Brenden & Battle Girl Lilith: [IN PROGRESS - REMATCH]
+4. Sailor Brenden & Battle Girl Lilith: [DEFEATED]
    - Location: East Wing corridor at (15..16, 11..12).
-   - Brenden: Machop ♂ Lv 13 [DEFEATED]. Pre-battle: "I'll show you the gumption of a sailing man!"
-   - Lilith: Meditite ♀ Lv 13 [ACTIVE - 35% HP]. Pre-battle: "Ufufu... Are you stumbling around in the dark?"
+   - Brenden: Machop ♂ Lv 13 (fainted). Pre-battle: "I'll show you the gumption of a sailing man!"
+   - Lilith: Meditite ♀ Lv 13 (fainted). Pre-battle: "Ufufu... Are you stumbling around in the dark?"
    - Battle Type: 2-on-2 Double Battle triggered simultaneously at (16, 12).
-   - Battle Status: Machop eliminated! Cipher fainted as decoy. Meditite reduced to ~35% HP by Pursuit. Final strike incoming to maximize gym illumination!
+   - Outcome: Complete victory! Sage grew to Lv 20 (HP 44/55). All gym trainers defeated, gym illumination maximized! Corridor at col 16 open to proceed north toward Brawly's stage.
 
 <hr>
 
@@ -579,10 +579,10 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. In East Wing Double Battle: Machop defeated, Meditite in yellow HP (~35%). Sage (HP ~42/53) executing final Pursuit to conclude battle.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao, Laura, Brenden & Lilith in Dewford Gym. All gym trainers defeated! Gym fully illuminated. Sage grew to Lv 20! Approaching Brawly's stage.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 42/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 44/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 0/28. Status: FNT (fainted in double battle).
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: FNT (fainted in double battle).
 
