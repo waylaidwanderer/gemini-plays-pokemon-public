@@ -526,11 +526,12 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Pedestrian route: Loops west around cols 12..14 at row 91, then continues north past the Cycling Road building.
 - Birch Encounter: Met Prof. Birch on Route 110 at (9, 85) along the coastal pedestrian path. He registers himself in Match Call in the PokéNav and wishes May good luck.
 ## Trainers
-1. Pokéfan Isabel & Pokéfan Kaleb: [IN BATTLE]
+1. Pokéfan Isabel & Pokéfan Kaleb: [DEFEATED]
    - Battle Type: 2-on-2 Double Battle.
    - Location: Coastal sand path at (9, 75). Isabel at (10, 75), Kaleb at (8, 75) disguised in the bush.
    - Pre-battle Quotes: Isabel: "Ahahaha! I would go anywhere to show off my delightful POKÉMON.", Kaleb: "When cute POKÉMON help each other... You won't see a more adorable sight!"
-   - Team: Isabel: Plusle Lv 14 (FAINTED); Kaleb: Minun ♂ Lv 14.
+   - Team: Isabel: Plusle Lv 14 (fainted); Kaleb: Minun ♂ Lv 14 (fainted).
+   - Outcome: Defeated! Earned prize money. Sage and Cobalu gained EXP. Lilz fainted during battle.
 - Double Battle Field Mechanics: Targeting operates on a 2x2 grid: Top Row = Foes (Left = Minun, Right = Plusle); Bottom Row = Allies (Left = Sage, Right = Cobalu). To target enemies, the cursor MUST be moved to the Top Row by pressing UP! On the Top Row, Left selects Minun and Right selects Plusle. If you press Right without pressing Up, the cursor targets your own partner (Cobalu on Bottom-Right)!
 
 <hr>
