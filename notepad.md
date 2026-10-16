@@ -482,7 +482,7 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
    - Location: Under umbrellas at cols 23 & 27, row 7 on Route 109 beach.
    - Teams: Tuber Lola: Azurill ♀ Lv 12 (fainted), Azurill ♀ Lv 12 (fainted); Tuber Chandler: Tentacool ♂ Lv 12 (fainted).
    - Pre-battle Quotes: "Doesn't a beach umbrella look like a giant flower?", "Tadaah! See? My inner tube's round!"
-   - Outcome: Complete victory! All beach trainers defeated!
+   - Reward: ¥96. Outcome: Complete victory! Lilz grew to Lv 12! All beach trainers defeated!
 
 <hr>
 
@@ -732,7 +732,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥2441 (earned ¥468 from Edmond & Hailey, ¥52 from Ricky on Route 109)
+- Money: ¥2537 (earned ¥468 from Edmond & Hailey, ¥52 from Ricky, ¥96 from Lola & Chandler on Route 109)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Brawly, Steven, Elliot, Ricky registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
