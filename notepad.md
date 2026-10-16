@@ -808,9 +808,9 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Cut Tree #4: (8, 10) [CUT - CLEARED].
 - Cut Tree #5: Shrub at (4, 8) [CUT - CLEARED]. Opened access to the western tatami corridors.
 - Item: Poké Ball on tatami floor at (9, 4) in northern alcove.
-- Trainer 2: Lass at (1, 17) in southwest corner.
+- Trainer 2: Lass at (2, 14) facing South.
 - Trainer 3: Youngster at (14, 8) on east side facing West.
-- Secret Scroll: Located on tatami floor at (2, 18) in southwest corner.
+- Secret Scroll: Located on tatami floor at (3, 16) in southwest corner.
 - Cut Tree #6: Shrub at (2, 12) [CUT - CLEARED]. Cleared vertical walkway leading south along column 2 to Lass and the Secret Scroll.
 
 <hr>
