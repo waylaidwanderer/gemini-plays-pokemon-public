@@ -92,4 +92,4 @@
   - Surf `Right` 4 to `(32, 4)` and `Down` 10 onto the shallow sandbar at `(32, 14)`, walk `Right` 2 to `(34, 14)` and `Up` 1 to `(34, 13)`, face `Up` to use **Surf** onto `(34, 12)`, then surf `Right` 20 along `y = 12` to `(54, 12)`, `Down` 6 to `(54, 18)`, and `Left` 2 onto the deep underwater trench at **`(52, 18)`**.
 - **`Underwater_Route128` (`(52, 18)` -> `(38, 27)`):**
   - Use **Dive** (`A, sleep 1500, A, sleep 1000, B, sleep 4000`) at `(52, 18)` on Route 128 to descend into **`Underwater_Route128`** at `(52, 18)`.
-  - Follow the underwater canyon channel: `Left` 1 to `(51, 18)`, `Down` 7 to `(51, 25)`, `Left` 4 to `(47, 25)`, `Down` 2 to `(47, 27)`, `Left` 2 to `(45, 27)`, `Down` 2 to `(45, 29)`, `Left` 5 along `y = 29` to `(40, 29)`, and `Left` 2, `Up` 2 into the **Seafloor Cavern underwater entrance at `(38, 27)`**.
+  - Follow the underwater canyon channel: `Left` 1 to `(51, 18)`, `Down` 7 to `(51, 25)`, `Left` 4 to `(47, 25)`, `Down` 2 to `(47, 27)`, `Left` 2 to `(45, 27)`, `Down` 2 to `(45, 29)`, `Left` 5 along `y = 29` to `(40, 29)`, and `Left` 2, `Up` 3 into the **Seafloor Cavern underwater entrance at `(38, 26)`**.
