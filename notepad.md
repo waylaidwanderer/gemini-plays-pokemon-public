@@ -63,7 +63,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 ## Gym Leader Brawly: [REMATCH IN PROGRESS - GYM BATTLE]
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
-  - Machop Lv 16 [ACTIVE - Red HP ~10%] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Super Potion pending/used)
+  - Machop Lv 16 [ACTIVE - Super Potion Expended] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Taking Absorb cycle)
   - Meditite Lv 16 [PENDING] (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 [PENDING] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
 - Rematch Strategy: All 6 gym trainers remain defeated and gym is fully illuminated. Sage enters at 55/55 full HP. Absorb Machop, use Pursuit on Meditite to cancel Focus Punch, Absorb Makuhita, and use in-battle Potions if HP drops below 25.
