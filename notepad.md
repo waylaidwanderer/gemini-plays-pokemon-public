@@ -602,7 +602,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Party
 1. SAGE (Grovyle ♂, Level 21) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 0/57 (fainted). Status: FNT. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
+2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 0/28 (fainted). Status: FNT.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
 ## Bag Highlights
