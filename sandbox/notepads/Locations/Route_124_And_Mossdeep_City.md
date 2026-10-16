@@ -268,4 +268,5 @@
 - **`VictoryRoad_B1F` (`(8, 3)` -> Boulder & Rock Smash Puzzle):**
   - **Flash Note:** Once **Flash** (`HM05`) is used on `VictoryRoad_B1F`, its expanded illumination radius persists across floor warps inside Victory Road (`"This is in use already."`).
   - **Boulder #1 (`(4, 7)` -> `(3, 7)`):** From the entrance ladder at `(8, 3)`, walk `Down` 1 to `(8, 4)`, `Right` 1 to `(9, 4)`, `Down` 3 along `x = 9` to `(9, 7)`, and `Left` 4 along `y = 7` to `(5, 7)`. Activate **Strength** facing `Left` and push the boulder at **`(4, 7)` `Left` 1 into the wall recess at `(3, 7)`**.
-  - **Boulder #2 (`(9, 10)` -> `(10, 10)`):** From `(5, 7)`, walk `Left` 1 to `(4, 7)`, `Down` 3 along `x = 4` to `(4, 10)`, and `Right` 4 along `y = 10` to `(8, 10)`. Push the boulder at **`(9, 10)` `Right` 1 into `(10, 10)`**, opening `(9, 10)` -> `(9, 12)`.
+  - **Boulder #2 (`(9, 10)` -> `(10, 10)`):** From `(5, 7)`, walk `Left` 1 to `(4, 7)`, `Down` 3 along `x = 4` to `(4, 10)`, and `Right` 4 along `y = 10` to `(8, 10)`. Push the boulder at **`(9, 10)` `Right` 1 into `(10, 10)`**, opening `(9, 10)` -> `(9, 13)`.
+  - **Corridor to Rock Smash Rock `(18, 5)`:** From `(9, 10)`, walk `Down` 3 along `x = 9` to `(9, 13)`, `Right` 6 along `y = 13` to `(15, 13)`, `Up` 8 along `x = 15` to `(15, 5)`, and `Right` 2 to `(17, 5)` to smash the **Rock Smash rock at `(18, 5)`**.
