@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 26, Male), Nickname: SAGE
+- Starter: Treecko / Grovyle (Level 27, Male), Nickname: SAGE
 - Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Solved Trick House Puzzle 1 and obtained Rare Candy! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 27, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12.
 
 ## Party
