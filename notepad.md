@@ -36,10 +36,10 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Row 10 East Alcove: Tile (3, 10) dead-ends north at water at (3, 9) and east at wall (4, 10).
    - The horizontal stripes at (2, 7) are retaining cliff walls of the raised central stage rising out of water, not walkable stairs. Sector 4 has no stage access. Completely mapped.
 
-5. Sector 5: Northern Stage & Gym Leader Brawly (cols 9-14, rows 1-8)
+5. Sector 5: Northern Maze & Gym Leader Brawly (cols 9-15, rows 1-8)
    - Row 8 Corridor: Connects column 12 at (12, 8) west across (10, 8) to the column 9 intersection at (9, 8). Black Belt Cristian stands at (7, 8) in the western alcove.
-   - Column 12 & 13 Approach: Column 12 runs north from (12, 8) to (12, 5), then connects east into column 13 at (13, 5). Column 13 ascends north through (13, 4) and (13, 3) directly to Gym Leader Brawly, who stands facing south at (13, 2)!
-   - Gym Leader Brawly Location: (13, 2) in the northeast corridor.
+   - Column 12 & Row 6 Bypass: Column 12 runs north from (12, 8) to (12, 5), where water blocks north (12, 4) and east (13, 5). The path to Brawly routes south to (12, 6), then east along row 6 underneath the water canal into the column 15 corridor. Column 15 ascends north directly to Brawly.
+   - Gym Leader Brawly Location: Standing facing south at roughly (15, 2) in the northeast corridor.
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
