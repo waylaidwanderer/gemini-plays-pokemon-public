@@ -333,11 +333,13 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
 
 ## Landmarks & Features (East Section)
 - East entrance path: Begins at (79, 10) connecting seamlessly from Route 110 (0, 70).
-- Berry Trees: Two soft-soil berry trees located at (72, 7) and (67, 6).
+- Cut Tree: (72, 8) - HM01 Cut shrub blocking passage north to upper terrace.
+- Berry Tree: Located at (67, 5) in upper terrace.
 - Trainers:
   - Aroma Lady Daisy: (71, 11) - [DEFEATED] Used Shroomish Lv 14, Roselia Lv 14. Prize: ¥560.
   - Guitarist Marcos: (67, 8) facing South.
-  - Twins Amy & Liv: (65, 12) - Double Battle pair.
+  - Black Belt: (67, 2) in upper terrace facing South.
+  - Twins Amy & Liv: (65, 12) - Double Battle pair on southern dirt road.
 
 <hr>
 
