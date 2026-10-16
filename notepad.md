@@ -846,6 +846,8 @@
     3. **Sealeo Lv. 43** (`Aurora Beam`, `Water Pulse`, `Body Slam`, `Encore`)
     4. **Crawdaunt Lv. 43** (`Water Pulse`, `Crabhammer`, `Taunt`, `Swords Dance`)
     5. **Kingdra Lv. 46 [Chesto Berry]** (`Water Pulse`, `Ice Beam`, `Double Team`, `Rest`)
+    - *[Defeated & Registered — **Rain Badge** and **TM03 (Water Pulse)** obtained]*
+  - **Exit Route from `(8, 3)` via `SootopolisCity_Gym_B1F`:** Step `Down` 3 from `(8, 3)` onto the cracked ice at `(8, 6)` to drop to `SootopolisCity_Gym_B1F (8, 6)`, walk straight `Down` 16 along `x = 8` to `(8, 22)`, and `Right` 3 onto the ladder at **`(11, 22)`** (warps to 1F `(11, 22)`), then walk `Left` 3 to `(8, 22)` and `Down` 4 out `(8, 25)` to Sootopolis City `(31, 33)`.
 
 <hr>
 
