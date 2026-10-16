@@ -437,6 +437,30 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 
 <hr>
 
+<h1><code>Locations/Route109</code></h1>
+
+# Location: Route 109
+
+## Overview
+A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea) to Slateport City in the north. Features beach umbrellas, deck chairs, the Seashore House, and various trainers.
+
+## Connection Points
+- South Sea: Leads toward Dewford Town (Route 108 / 107).
+- North Entrance: Directly enters Slateport City at rows 0..2.
+- Mr. Briney's Boat: Docked at (21, 24..25) on the southern shoreline. Mr. Briney can sail back to Dewford Town or Petalburg City anytime.
+
+## Key Landmarks
+- Mr. Briney's Boat Landing: (21, 24..25).
+- Seashore House: Located in the northwest area of the beach. Defeating all 3 trainers inside earns 6 Soda Pops from the owner.
+- Beach Umbrellas & Deck Chairs: Scattered across the central beach.
+
+## Progression Checklist - Route 109
+- [x] Arrive at Route 109 beach via Mr. Briney's boat.
+- [ ] Travel north into Slateport City.
+- [ ] Optional: Clear trainers in Seashore House for Soda Pops.
+
+<hr>
+
 <h1><code>Locations/Route116</code></h1>
 
 # Location: Route 116
@@ -624,6 +648,36 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Items & Discoveries
 - Item Ball (Poké Ball) located on northwest elevated terrace at (2, 1). Accessible via stairs at (8, 3).
+
+<hr>
+
+<h1><code>Locations/SlateportCity</code></h1>
+
+# Location: Slateport City
+
+## Overview
+A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's Shipyard, Slateport Market, and the Battle Tent.
+
+## Connection Points
+- South Exit: Route 109 beach.
+- North Exit: Route 110 (leading toward Mauville City and Cycling Road).
+
+## Key Buildings & Landmarks
+- Pokémon Center: Located on the west side of town. Checkpoint registration priority!
+- Poké Mart: Located near the city center.
+- Stern's Shipyard: Located in the southeast area. Captain Stern's chief designer Dock is here.
+- Oceanic Museum: Located in the northeast area. Requires ¥50 entrance fee. Captain Stern and Team Aqua are inside.
+- Slateport Market: Outdoor bazaar in southwest area selling specialty goods (dolls, secret power items, Incense). Girl gives Powder Jar.
+- Battle Tent: Located in northwest area (replaces Contest Hall in Emerald).
+- Name Rater: Located in northern residential area.
+
+## Progression Checklist - Slateport City
+1. [ ] Enter Slateport City and heal/register at Pokémon Center.
+2. [ ] Visit Stern's Shipyard and speak to Dock.
+3. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
+4. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F.
+5. [ ] Explore town landmarks (Market, Battle Tent, etc.).
+6. [ ] Head north onto Route 110.
 
 <hr>
 
