@@ -60,3 +60,4 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - B2F Central Stairs & Overlook: At (15, 15), stairs ascend north to (15, 12) onto an elevated overlook that dead-ends east at cliff drop (17, 12). The main path continues East along row 15 beneath this overlook toward column 29 and the ascending ladder!
 - B2F Northeast Corridor: At (21, 15), cliff corner blocks row 15; stepping Up to row 13 clears the cliff and connects to the open eastbound highway running across row 13 directly to the ascending ladder at (29, 13).
 - B1F Isolated Upper Tier: Arrived from B2F at (29, 13). An ascending ladder leading up to 1F upper plateau is located immediately to the west at (26, 13).
+- 1F Upper Plateau Westward Traverse: Walked Left from ladder (35, 3) along row 3 to (25, 3). Flat corridor continues west between northern cliff and southern jump ledge.
