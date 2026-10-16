@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Ascending to Granite Cave 1F Upper Plateau to take the western jump ledge into unexplored western 1F and locate Steven Stone's chamber. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
+- Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Next: Sail to Slateport City with Mr. Briney. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
@@ -21,9 +21,9 @@
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
-- TMs & HMs: TM08 Bulk Up (gift from Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
+- TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
 - Money: ¥1921 (earned ¥1900 from Brawly)
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call - Brawly registered!), Old Rod (Fisherman in Dewford Town)
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Brawly & Steven registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
