@@ -2,7 +2,7 @@
 
 ## Overview
 Dewford Town Gym, led by Gym Leader Brawly (Fighting-type).
-The gym features a dynamic darkness mechanic: defeating gym trainers expands the spotlight radius (initial radius ~2 -> defeated Cristian radius ~3 -> defeated Takao radius ~4).
+The gym features a dynamic darkness mechanic: defeating gym trainers expands the spotlight radius (initial radius ~2 -> defeated Cristian radius ~3 -> defeated Takao radius ~4 -> defeated Laura radius ~5).
 
 ## Badges & Rewards
 - Knuckle Badge: Boosts Pokémon obedience up to Lv 30 and enables HM05 Flash outside battle!
@@ -15,24 +15,30 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Northward passage at row 21 is blocked by a horizontal water canal, forcing an eastern bypass along row 22.
 
 2. Sector 2: East Wing & Water Loops (cols 8-13, rows 18-22)
-   - Horizontal walkway along row 22 spans cols 8-12.
+   - Horizontal walkway along row 22 connects cols 8-12.
    - Column 8 pier (rows 18-20) dead-ends north at water (8, 17).
-   - Column 11-12 Corridor: From (12, 22), step west to (11, 19) to bypass water at (12, 18), then north along column 11 to (11, 14). From (11, 14), step east to (12, 14), then north along column 12 through row 8 junction, dead-ending at (12, 5) water pier.
+   - Column 11-12 Bypass Corridor: Runs north via column 11 (bypassing water at 12, 18) to row 14, then jogs east to column 12 heading north to row 8 junction and row 5-6.
    - Column 13 corridor dead-ends north at (13, 6) water canal.
-   - Row 8 walkway runs west from (12, 8) to (9, 8), where Black Belt Cristian stood guard.
-   - Southeast Branch: Column 12 runs south from (12, 22) to (12, 25), dead-ending at row 26 south wall. Battle Girl Laura was stationed here at (12, 24). Completely cleared.
+   - Row 8 walkway runs west from (12, 8) to (9, 8) where Black Belt Cristian stands guard.
+   - Southeast Branch: Column 12 runs south from (12, 22) to (12, 25), dead-ending at row 26 south wall. Battle Girl Laura was stationed at (12, 24). Completely cleared.
 
 3. Sector 3: Central Connector & Hub (cols 5-12, rows 14-16)
    - Row 14 walkway extends west from (11, 14) beneath row 13 water canal across cols 7-11 to (5, 14).
    - Column 5-6 corridor connects row 14 south to row 16.
    - Row 16 bridge runs west from (5, 16) through (4..3, 16) between water (row 15) and wall (row 17) into the West Wing.
 
-4. Sector 4: West Wing & Northern Bridge (cols 1-3, rows 12-18)
+4. Sector 4: West Wing & Northern Lookout (cols 1-3, rows 9-18)
    - Column 2 vertical corridor connects to row 16 walkway. Black Belt Takao defeated at (2, 17).
    - Column 1 South: (1, 17) dead-ends south at a brown wooden wall.
    - Column 1 Pocket: (1, 10) dead-ends north at water at (1, 9).
-   - Column 2 North Pier: Tile (2, 9) is a dead-end lookout pier surrounded by water to the north (2, 8), west (1, 9), and east (3, 9), looking across at the northern stairs at (2, 7).
+   - Column 2 North Pier: Tile (2, 9) is a dead-end lookout pier surrounded by water to the north (2, 8), west (1, 9), and east (3, 9), looking across at northern stairs at (2, 7).
    - Row 10 East Alcove: Tile (3, 10) dead-ends east at wall (4, 10).
+
+5. Sector 5: Northern Stage Approach & Access Stairs (cols 9-12, rows 1-8)
+   - Row 8 Corridor: Extends west from (12, 8) to (9, 8) where Black Belt Cristian is stationed.
+   - Central Stage Stairs: Confirmed horizontal stairs leading up into the elevated wooden stage at columns 9-10, rows 5-6, flanked by water to the south and east.
+   - Upper Alcove: Column 10 dead-ends north at water at (10, 2) in an enclosed chute.
+   - Stage Access Route: Approached via the corridor running past Cristian on row 8 or from the western stairs.
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
@@ -45,17 +51,15 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Team: Machop ♂ Lv 13 (fainted).
    - Reward: ¥416, 244 EXP. Expanded spotlight from radius 3 to 4.
 
-## Gym Leader Brawly
-- Emerald Team:
-  - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
-  - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
-  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
 3. Battle Girl Laura: [DEFEATED]
    - Location: Southeast corridor at (12, 25), spotted May at (12, 23) from the north.
    - Pre-battle: "Don't you dare brush me off! It's not my fault if you cry!"
    - Defeat quote: "Waaaaaah! I lost!"
    - Team: Meditite ♀ Lv 13 (fainted).
-   - Reward: ¥312, 253 EXP. Third trainer defeated; spotlight expanded from radius 4 to 5!
-5. Sector 5: Northern Stage Approach (cols 9-12, rows 1-6)
-   - At (11, 5), path extends west to (10, 5). (9, 5) is an alcove overlooking Cristian at (9, 8).
-   - From (10, 5), a vertical corridor runs north along column 10, terminating at (10, 3) with water at (10, 2) in an alcove. Dead end. Must approach stage from western stairs/corridor.
+   - Reward: ¥312, 253 EXP. Expanded spotlight from radius 4 to 5!
+
+## Gym Leader Brawly
+- Emerald Team:
+  - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
+  - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
+  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
