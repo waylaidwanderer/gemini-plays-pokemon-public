@@ -53,3 +53,8 @@
 - **Tate & Liza's Room (`(21, 10)` -> `(23..24, 7)`):**
   - Reached from Room 4's northern teleporter at **`(13, 31)`** (arriving in the 1-tile alcove at `(21, 10)`).
   - Walk `Up` 1 from `(21, 10)` to `(21, 9)`, `Right` 2 along `y = 9` to `(23, 9)`, and `Up` 1 up the front platform steps onto `(23, 8)` to face **Gym Leaders Tate & Liza `(23..24, 7)`** (note: `(21, 7)` is the return teleporter pad to Room 1 `(7, 30)`).
+  - **Gym Leaders Tate & Liza Team (Double Battle, 2 Hyper Potions):**
+    1. **Claydol Lv. 41** (`Earthquake`, `AncientPower`, `Psychic`, `Light Screen`)
+    2. **Xatu Lv. 41** (`Psychic`, `Calm Mind`, `Confuse Ray`, `Sunny Day`)
+    3. **Lunatone Lv. 42 [Sitrus Berry]** (`Psychic`, `Hypnosis`, `Calm Mind`, `Light Screen`)
+    4. **Solrock Lv. 42 [Sitrus Berry]** (`SolarBeam`, `Sunny Day`, `Psychic`, `Flamethrower`)
