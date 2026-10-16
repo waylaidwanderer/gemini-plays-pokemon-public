@@ -76,13 +76,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 ## Gym Leader Brawly
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
-  - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly burns 1 Super Potion when Machop drops to red HP).
+  - Machop Lv 16: [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly exhausted his 1 Super Potion here).
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect - Focus Punch cancelled 100% by Sage's Pursuit!).
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw -1 priority, Reversal - Sitrus Berry heals 30 HP once).
-- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. Unobstructed path to Brawly at (4, 2).
-- Winning Strategy: Sage (Lv 20 Grovyle, Quick Claw, Speed 47). Absorb Machop, Pursuit Meditite to cancel Focus Punch, Absorb Makuhita. Vital Throw deals ~24-27 damage, so regular Potions (+20 HP) fall behind. Stock Super Potions (+50 HP) via Mr. Briney at Petalburg/Rustboro Mart to guarantee decisive Knuckle Badge victory!
-
-## Active Battle Notes - Gym Leader Brawly (Turn 2755+)
-- Turn 1: Sage (Lv 20) used Absorb (dealt ~30% damage). Machop used Bulk Up (+1 Atk, +1 Def; Special Defense unaffected).
-- Turn 2: Sage used Absorb (dealt ~30% damage, brought Machop to ~40% yellow HP). Machop used Low Kick (18 damage). Sage's Oran Berry triggered at 26 HP and restored 10 HP to 36/55.
-- Turn 3: Brawly used his single Super Potion on Machop! Sage executing Absorb to re-damage Machop and heal Sage. Brawly has now exhausted his trainer healing items for the remainder of the battle.
+- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. In battle with Leader Brawly! Machop defeated, Brawly's healing items exhausted.
+- Winning Strategy: Sage (Lv 20 Grovyle, Speed 47). Absorb Machop, Pursuit Meditite to cancel Focus Punch, Absorb Makuhita. Use Super Potion (+50 HP) as needed to guarantee decisive Knuckle Badge victory!
