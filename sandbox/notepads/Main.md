@@ -4,9 +4,9 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,571 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x6, Hyper Potion x17, Revive x7, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM14 (Blizzard) x1, TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x6, Hyper Potion x17, Revive x7, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM14 (Blizzard) x1, TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 59 [Holding Mystic Water] — Strength, Rock Smash, Surf, Blizzard)
+  1. ATRITON (Swampert, Male, Lv. 59 [Holding Mystic Water] — Strength, Rock Smash, Surf, Water Pulse)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
