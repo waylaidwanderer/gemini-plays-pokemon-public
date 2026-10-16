@@ -168,7 +168,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [x] Receive HM05 Flash from Hiker near 1F entrance.
 - [x] Catch Abra (CIPHER) in B2F with Great Ball.
 - [x] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge (enables HM05 Flash outside battle).
-- [ ] Return to Granite Cave with Flash enabled to locate Steven Stone and deliver President Stone's Letter.
+- [x] Taught HM05 Flash to Lotad (Lilz); verified Flash works outside battle and illuminates B1F.
+- [ ] Locate Steven Stone in Granite Cave and deliver President Stone's Letter (currently verifying 1F corridor and Steven's chamber access).
 - [ ] Receive TM47 Steel Wing from Steven.
 ## Grinding & Encounter Strategy (1F Runway)
 - Row 8 Runway: Open horizontal corridor spanning x=28 to x=35. Walking back and forth between x=28 and x=34 provides 100% safe, fast wild encounters without bumping into walls or NPCs.
