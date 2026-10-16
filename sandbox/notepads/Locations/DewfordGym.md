@@ -39,7 +39,7 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 - Column 13 North Corridor: Column 13 dead-ends at (13, 6) facing water at (13, 5). Both columns 12 and 13 terminate at the row 4-5 water canal.
 - Row 8 West Corridor: From row 8 junction (12, 8), row 8 forms an open horizontal corridor running west through (11, 8) and (10, 8) to (9, 8). Black Belt Cristian stands defeated at (9, 8).
 - Column 9 South Corridor: Column 9 runs south beneath Cristian from row 9 down toward row 14.
-- Light Mechanic: Initial spotlight radius is ~2 tiles. Expanded to radius ~3 after defeating Cristian!
+- Light Mechanic: Initial spotlight radius is ~2 tiles. Expanded to radius ~3 after Cristian, and radius ~4 after Takao!
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
@@ -54,8 +54,8 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-2. Black Belt Takao:
+2. Black Belt Takao: [DEFEATED]
    - Location: Column 2 corridor at (2, 18), spotted May at (2, 16) from the north.
    - Pre-battle: "Might is right! Come on!"
-   - Team: Machop ♂ Lv 13 (Absorb resolving faint and victory)
-   - Status: Battle in progress.
+   - Team: Machop ♂ Lv 13 (fainted).
+   - Reward: ¥416, 244 EXP (Sage HP 18/53). Second trainer defeated; spotlight expanded to radius 4!
