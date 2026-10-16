@@ -71,8 +71,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Reward: ¥728, EXP (Sage grew to Lv 20!).
    - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Confirmed column 16 dead-ends at row 9 water canal behind Lilith. Must backtrack south to row 19 to reach column 9 corridor.
 
-5. Battle Girl Jocelyn: [IN PROGRESS]
+5. Battle Girl Jocelyn: [DEFEATED]
    - Location: Column 15 at (15, 2..3) directly in front of Gym Leader Brawly.
    - Pre-battle: "There's no need for BRAWLY to be involved! I'll crush you!"
-   - Team: Meditite ♀ Lv 13 (1 Pokémon).
-   - Battle Status: Single battle initiated. Sage (Lv 20, HP 38/55) facing Meditite (Lv 13, 100% HP).
+   - Team: Meditite ♀ Lv 13 (fainted).
+   - Outcome: Complete victory! Defeated with super effective Pursuit. Path to Gym Leader Brawly at (15, 2) is completely unblocked!

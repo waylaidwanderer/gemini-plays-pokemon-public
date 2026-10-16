@@ -73,11 +73,11 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Reward: ¥728, EXP (Sage grew to Lv 20!).
    - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Confirmed column 16 dead-ends at row 9 water canal behind Lilith. Must backtrack south to row 19 to reach column 9 corridor.
 
-5. Battle Girl Jocelyn: [IN PROGRESS]
+5. Battle Girl Jocelyn: [DEFEATED]
    - Location: Column 15 at (15, 2..3) directly in front of Gym Leader Brawly.
    - Pre-battle: "There's no need for BRAWLY to be involved! I'll crush you!"
-   - Team: Meditite ♀ Lv 13 (1 Pokémon).
-   - Battle Status: Single battle initiated. Sage (Lv 20, HP 38/55) facing Meditite (Lv 13, 100% HP).
+   - Team: Meditite ♀ Lv 13 (fainted).
+   - Outcome: Complete victory! Defeated with super effective Pursuit. Path to Gym Leader Brawly at (15, 2) is completely unblocked!
 
 <hr>
 
@@ -586,7 +586,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao, Laura, Brenden & Lilith in Dewford Gym. All gym trainers defeated! Gym fully illuminated. Sage grew to Lv 20! Approaching Brawly's stage.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao, Laura, Brenden, Lilith & Jocelyn in Dewford Gym. All gatekeepers cleared! Standing face-to-face with Gym Leader Brawly.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
