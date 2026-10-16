@@ -62,4 +62,6 @@
   - **Exit Route from `(23, 8)`:** Walk `Down` 1 to `(23, 9)`, `Left` 2 to `(21, 9)`, and `Up` 3 along `x = 21` onto the return teleporter at **`(21, 6)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
 
 ## Mossdeep Space Center (Eastern Mossdeep City)
-- **Path from Mossdeep Pokémon Center `(28, 17)`:** Walk `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 8 along `y = 19` to `(41, 19)`, and `Down` 3 along `x = 41` to **`(41, 22)`** (triggers the **Team Magma Space Center Procession Cutscene** [Completed]), then continue `Down` 3 to `(41, 25)` and `Right` 6 to `(47, 25)`.
+- **Path from Mossdeep Pokémon Center `(28, 17)` to Space Center Entrance `(64, 15)`:**
+  - Walk `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 8 along `y = 19` to `(41, 19)`, and `Down` 3 along `x = 41` to **`(41, 22)`** (triggers the **Team Magma Space Center Procession Cutscene** [Completed]).
+  - Continue `Down` 3 to `(41, 25)`, `Right` 6 to `(47, 25)`, `Down` 4 to `(47, 29)`, `Right` 10 along `y = 29` to `(57, 29)`, `Up` 6 up the stairs to `(57, 23)`, `Right` 7 to `(64, 23)`, and `Up` 8 up the double stairs along `x = 64` into the **Mossdeep Space Center** door at **`(64, 15)`** (exiting steps to `(64, 16)`).
