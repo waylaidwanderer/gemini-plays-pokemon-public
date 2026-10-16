@@ -20,7 +20,6 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 ## Beach Topography & Navigation
 - Southern Beach Landing: Mr. Briney's boat is docked at (21, 24..25).
 - Central Umbrella & Chairs: Large umbrella at (21, 20..21). Clear northbound sand corridor runs along column 22 between the umbrella (col 21) and east deck chair (col 23).
-- Sailor Huey: Located at (16, 19) facing East.
 - Tubers and Floaties: Located east of column 23 at row 20.
 - Northbound Highway: Column 22 is an open, unobstructed sand corridor heading north towards Slateport City.
 ## Trainers

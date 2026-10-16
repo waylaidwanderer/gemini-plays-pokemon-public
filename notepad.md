@@ -461,7 +461,6 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 ## Beach Topography & Navigation
 - Southern Beach Landing: Mr. Briney's boat is docked at (21, 24..25).
 - Central Umbrella & Chairs: Large umbrella at (21, 20..21). Clear northbound sand corridor runs along column 22 between the umbrella (col 21) and east deck chair (col 23).
-- Sailor Huey: Located at (16, 19) facing East.
 - Tubers and Floaties: Located east of column 23 at row 20.
 - Northbound Highway: Column 22 is an open, unobstructed sand corridor heading north towards Slateport City.
 ## Trainers
@@ -713,7 +712,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Sailing with Mr. Briney to Slateport City! Next: Deliver Devon Goods to Captain Stern in Slateport City. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
+- Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Arrived at Route 109 / Slateport City! Next: Deliver Devon Goods to Captain Stern in Slateport City. Party: Sage Lv 24, Lilz Lv 10, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
