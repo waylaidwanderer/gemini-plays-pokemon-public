@@ -957,7 +957,7 @@
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 62 [Holding Mystic Water] — Strength, Surf, Blizzard, Return)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
+  3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
   5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
   6. TETHYS (Tentacool, Female, Lv. 17 — Poison Sting, Supersonic, Constrict, Waterfall)
