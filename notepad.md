@@ -477,11 +477,12 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
    - Team: Zigzagoon ♂ Lv 13 (fainted).
    - Defeat Quote: "Groan..."
    - Reward: ¥52. Outcome: Defeated in 2 rounds by Sage's Absorb.
-3. Tuber Lola & Tuber Chandler: [BATTLING]
+3. Tuber Lola & Tuber Chandler: [DEFEATED]
    - Battle Type: 2-on-2 Double Battle.
    - Location: Under umbrellas at cols 23 & 27, row 7 on Route 109 beach.
-   - Teams: Tuber Lola: Azurill ♀ Lv 12 (fainted), Azurill ♀ Lv 12 (fainted) [LOLA DEFEATED]; Tuber Chandler: Tentacool ♂ Lv 12.
+   - Teams: Tuber Lola: Azurill ♀ Lv 12 (fainted), Azurill ♀ Lv 12 (fainted); Tuber Chandler: Tentacool ♂ Lv 12 (fainted).
    - Pre-battle Quotes: "Doesn't a beach umbrella look like a giant flower?", "Tadaah! See? My inner tube's round!"
+   - Outcome: Complete victory! All beach trainers defeated!
 
 <hr>
 
