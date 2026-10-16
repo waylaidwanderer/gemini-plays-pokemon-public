@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
-- Status: Challenging Dewford Gym rematch against Brawly! Sage Lv 22 popped Makuhita's Sitrus Berry; Brawly has 0 Super Potions and Makuhita has 0 healing items remaining. Sage using Absorb to wear Makuhita down for the Knuckle Badge!
+- Status: Challenging Dewford Gym rematch against Brawly! Sage reached Lv 22, defeated Machop and Meditite (burning both Super Potions), and brought Makuhita to red HP before blacking out to Vital Throw. Respawned at Dewford Pokémon Center with full HP party. Equipping Sage with Oran Berry and doing quick training to Lv 23 in Granite Cave 1F before defeating Brawly!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 22) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 60/60. Status: OK. Stats: Atk 37, Def 28, Sp.Atk 44, Sp.Def 40, Speed 51. Nature: Lonely. Ability: Overgrow.
