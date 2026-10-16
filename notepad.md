@@ -167,7 +167,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Geodude Lv 8: ~98 EXP (4x weak to Grass; OHKO by Absorb which also restores full HP)
 - Battle Menu Navigation: In Pokémon Emerald, the FIGHT menu remembers the last selected move across turns and battles. Inputting Down then Left from any move position reliably navigates to Slot 3 (Absorb, bottom-left).
 - Start Menu Memory: The Start menu cursor retains the last opened item (e.g., BAG) rather than always defaulting to POKéDEX.
-- EXP Bar Calibration: In Gen 3 Emerald battle box, the EXP bar is 64 pixels wide (X: 158..221). Pixel analysis at turn 3029/3032 confirmed Sage is at 37/64 pixels (~58%, ~880/1517 EXP).
+- EXP Bar Calibration: In Gen 3 Emerald battle box, the EXP bar is 64 pixels wide (X: 158..221).
 - Move Targeting Formats:
   - Slot 3 (Absorb, bottom-left): Input `Down` then `Left` from any move position.
   - Slot 4 (Quick Attack, bottom-right): Input `Down` then `Right` from any move position. Quick Attack cleanly OHKOs wild Zubat Lv 7 before it can act.
@@ -613,7 +613,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 23, Male), Nickname: SAGE
-- Status: Level 23 milestone achieved! Sage is Lv 23 (full 63/63 HP, holding Oran Berry). Returning south through Route 106 to Dewford Pokémon Center (to top off Absorb PP to 20/20), then directly into Dewford Gym to defeat Brawly for the Knuckle Badge!
+- Status: Level 23 achieved (full 63/63 HP, 20/20 Absorb PP, held Oran Berry). Standing at (12, 8) in Dewford Gym, approaching the central stage to defeat Gym Leader Brawly for the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
