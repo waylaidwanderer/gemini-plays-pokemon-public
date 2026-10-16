@@ -215,4 +215,4 @@
 - **Rayquaza Cutscene Trigger:** Surfacing into Sootopolis City at `(29, 53)` after awakening Rayquaza at `SkyPillar_Top (14, 9)` automatically plays the Rayquaza vs. Groudon & Kyogre cutscene (`~16s` total) and returns overworld control surfing at `(29, 53)` [Completed].
 - **Sootopolis Gym Island (`(29, 53)` -> `(29, 36)` -> `(31, 32)`):**
   - From `(29, 53)`, surf straight `Up` 16 along `x = 29` to `(29, 37)` and press `Up` 1 to step ashore onto the Sootopolis Gym island at **`(29, 36)`**.
-  - On the island (`x = 27..34, y = 33..36`): **Steven Stone** is at `(29, 33)`, **Wallace** is at `(31, 33)` in front of the Gym door `(31, 32)`, **Maxie** is at `(32, 35)`, and **Archie** is at `(33, 35)`.
+  - On the island (`x = 27..35, y = 33..36`): **Steven Stone** is at `(29, 33)`, **Wallace** is at `(31, 33)` in front of the Gym door `(31, 32)`, the Gym sign is at `(33, 34)`, **Maxie** is at `(33, 35)`, and **Archie** is at `(34, 35)`. Speak to both Maxie `(33, 35)` and Archie `(34, 35)` so they depart, then speak to Wallace `(31, 33)` to receive **HM07 (Waterfall)** and unlock Sootopolis Gym.
