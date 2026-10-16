@@ -6,7 +6,7 @@
 - Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Arrived at Dewford Town dock with 4 Super Potions and 7 Oran Berries! Dewford Gym trainers permanently cleared and gym fully illuminated. Heading directly to Dewford Gym to give Sage an Oran Berry and defeat Gym Leader Brawly for the Knuckle Badge!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55 (post-heal). Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
+1. SAGE (Grovyle ♂, Level 20) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55 (post-heal). Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
