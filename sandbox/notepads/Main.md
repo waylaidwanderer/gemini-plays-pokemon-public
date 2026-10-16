@@ -2,11 +2,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 22, Male), Nickname: SAGE
-- Status: Preparing for Dewford Gym rematch! Sage is Lv 22 (full 60/60 HP, holding Oran Berry). Heading north to Granite Cave 1F for quick training to Lv 23 (defeating wild Geodude with Absorb) to guarantee survival against Makuhita's Vital Throw before claiming the Knuckle Badge!
+- Starter: Treecko / Grovyle (Level 23, Male), Nickname: SAGE
+- Status: Level 23 milestone achieved! Sage is Lv 23 (full 63/63 HP, holding Oran Berry). Returning south through Route 106 to Dewford Pokémon Center (to top off Absorb PP to 20/20), then directly into Dewford Gym to defeat Brawly for the Knuckle Badge!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 22) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 60/60. Status: OK. Stats: Atk 37, Def 28, Sp.Atk 44, Sp.Def 40, Speed 51. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
