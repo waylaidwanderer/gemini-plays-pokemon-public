@@ -789,7 +789,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 25, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 25, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 25, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 11.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 25) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 68/68. Status: OK. Nature: Lonely. Ability: Overgrow.
