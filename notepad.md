@@ -682,6 +682,16 @@
   - From `(7, 9)`, walk `Up` 5 to `(7, 4)`, `Right` 2 to `(9, 4)`, `Up` 1 to `(9, 3)`, and `Right` 4 across `(10..13, 3)` to `(13, 3)`.
   - **Team Magma Grunt #1 `(10, 2)`:** Watches `(10, 3)` — `Baltoy Lv. 32` [Defeated].
   - **Team Magma Grunt #2 `(13, 2)`:** Blocks the staircase to 2F at `(13, 1)`; talk to him (`Up, A` from `(13, 3)`) to battle (`Mightyena Lv. 26`, `Mightyena Lv. 28`, `Numel Lv. 30` [Defeated — moves to `(14, 2)`]), then walk `Up` 2 onto the staircase at **`(13, 1)`** to warp to 2F.
+- **Mossdeep Space Center 2F (`(13, 2)` -> `(1, 8)`):**
+  - **3-Grunt Gauntlet at `(13, 2)`:** Surrounded by three Team Magma Grunts at `(12, 2)`, `(14, 2)`, and `(13, 3)`. Speak to `(13, 3)` (`A`) and select `YES` (`A`) to fight all three Grunts back-to-back in 1v1 Single Battles:
+    1. **Grunt #1 `(13, 3)`:** `Zubat Lv. 32` [Defeated].
+    2. **Grunt #2 `(12, 2)`:** `Mightyena Lv. 32` [Defeated].
+    3. **Grunt #3 `(14, 2)`:** `Baltoy Lv. 32` [Defeated — Grunt at `(13, 3)` steps `Down` to `(13, 4)`].
+  - **Path from `(13, 2)` to Steven Stone `(1, 8)`:** Walk `Down` 1 to `(13, 3)`, `Right` 1 to `(14, 3)`, `Down` 2 along `x = 14` (to the right of the railing `x = 1..12, y = 4` and Grunt #3 at `(13, 4)`) to `(14, 5)`, `Left` 13 along `y = 5` to `(1, 5)`, and `Down` 2 to `(1, 7)`.
+  - **Steven Stone & Multi Battle Trigger (`(1, 7)` -> `(1, 8)`):**
+    - Speak to **Steven Stone** at `(1, 8)` from `(1, 7)` to trigger the cutscene where Steven steps `Right` to `(2, 8)`.
+    - Step `Down` 1 onto **`(1, 8)`**, press `A` to select `YES` (`"Are you ready?"`), and select 3 Pokémon (`FIRST`, `SECOND`, `THIRD` -> cursor auto-jumps to `CONFIRM` -> press `A`) to begin the Multi Battle alongside **Steven Stone** (`Metang Lv. 42`, `Skarmory Lv. 43`, `Aggron Lv. 44`) against **Magma Leader Maxie** (`Mightyena Lv. 42`, `Camerupt Lv. 44`, `Crobat Lv. 43`) and **Magma Admin Tabitha** (`Camerupt Lv. 36`, `Mightyena Lv. 38`, `Golbat Lv. 40`).
+    - **Multi Battle Note:** Each trainer's send-out line (`"MAGMA LEADER MAXIE sent out..."`, `"MAGMA ADMIN TABITHA sent out..."`, `"PKMN TRAINER STEVEN sent out..."`) has a manual `[red arrow]` prompt (`B` to advance), and each KO produces two EXP text boxes (`ATRITON gained...` and `METANG gained...`).
 
 <hr>
 
