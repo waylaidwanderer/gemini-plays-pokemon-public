@@ -777,6 +777,7 @@
   - Finishing Steven Stone's dialogue outside the Cave of Origin automatically warps the player into `CaveOfOrigin_Entrance` at **`(9, 20)`**.
   - Inside `CaveOfOrigin_Entrance`, walk straight `Up` 15 along `x = 9` from `(9, 20)` to **`(9, 5)`** to warp into **`CaveOfOrigin_1F` at `(11, 17)`**.
   - Inside `CaveOfOrigin_1F` (`(11, 17)` -> `(13, 5)`): walk `Left` 4 to `(7, 17)`, `Up` 8 to `(7, 9)`, `Right` 1 to `(8, 9)`, `Up` 1 to `(8, 8)`, `Right` 1 to `(9, 8)`, `Up` 1 to `(9, 7)`, `Right` 4 to `(13, 7)`, `Up` 1 to `(13, 6)`, `Right` 3 to `(16, 6)`, `Up` 1 to `(16, 5)`, and `Left` 3 onto the ladder at **`(13, 5)`** (warps to `CaveOfOrigin_B1F` at **`(9, 3)`**).
+  - Inside `CaveOfOrigin_B1F` (`(9, 3)` -> Wallace `(9, 13)`): walk `Right` 2 to `(11, 3)`, `Down` 1 to `(11, 4)`, `Right` 2 to `(13, 4)`, `Down` 1 to `(13, 5)`, `Right` 1 to `(14, 5)`, `Down` 7 to `(14, 12)`, `Left` 1 to `(13, 12)`, `Down` 1 to `(13, 13)`, `Left` 1 to `(12, 13)`, `Down` 1 to `(12, 14)`, and `Left` 3 to **`(9, 14)`** facing **Wallace at `(9, 13)`**. Speak to Wallace (`Up, A`) and select **`SKY PILLAR`** (`Down, Down, A`) to unlock the Sky Pillar on Route 131.
 
 <hr>
 
