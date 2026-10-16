@@ -103,7 +103,9 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 - Dewford Gym: Leader Brawly (Fighting-type). Located southeast of Pokémon Center; roof spans rows 13-17. Gym sign is at (11, 16). Protruding hexagonal entrance foyer spans columns 6-9, with white pillars at col 6 and col 9. Sliding glass entrance doors are at (7..8, 17) approached from row 18. Awards Knuckle Badge and allows HM05 Flash outside battle.
 - Dewford Hall: Located at (1..5, 0..3) north of Pokémon Center. Front entrance door at (3, 3), hall signpost at (2, 4). Boy NPC stands outside at (2, 6).
 - North Exit to Route 106: Wide open beach corridor at columns 6..8 heading north past row 0 directly into Route 106 toward Granite Cave.
-- Fisherman: Stands at (12, 14) next to Dewford Gym; gave the OLD ROD!
+- Fisherman: Stands at (11, 14) directly north of Dewford Gym sign; gave the OLD ROD!
+- Pier Access: Pier connects to the beach at col 10; walking south off pier at (11, 9) is blocked.
+- Gym Approach Route: From dock, step west to col 10, south to row 12/15, jog east to col 12 to bypass the Gym sign at (11, 16), down to row 18, then west to (8, 18) and Up into gym doors at (7..8, 17).
 - Granite Cave (via Route 106): Hiker at entrance gives HM05 Flash. Steven Stone is located in the deepest chamber.
 
 ## Progression Checklist - Dewford Town
