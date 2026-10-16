@@ -34,3 +34,9 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Bike enthusiast NPC stands at (17, 90) outside the Cycling Road south gate.
 - Pedestrian route: Loops west around cols 12..14 at row 91, then continues north past the Cycling Road building.
 - Birch Encounter: Met Prof. Birch on Route 110 at (9, 85) along the coastal pedestrian path. He registers himself in Match Call in the PokéNav and wishes May good luck.
+## Trainers
+1. Pokéfan Isabel & Pokéfan Kaleb: [IN BATTLE]
+   - Battle Type: 2-on-2 Double Battle.
+   - Location: Coastal sand path at (9, 75). Isabel at (10, 75), Kaleb at (8, 75) disguised in the bush.
+   - Pre-battle Quotes: Isabel: "Ahahaha! I would go anywhere to show off my delightful POKÉMON.", Kaleb: "When cute POKÉMON help each other... You won't see a more adorable sight!"
+   - Team: Plusle Lv 14, Minun Lv 14.
