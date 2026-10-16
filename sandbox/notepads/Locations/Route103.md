@@ -19,4 +19,4 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
   - Guitarist Marcos: (67, 9) facing South - [DEFEATED]. Used Voltorb Lv 15. Awarded ¥480.
   - Black Belt Rhett: (67, 3) in upper terrace facing South - [DEFEATED]. Used Makuhita Lv 15. Awarded ¥480.
   - Twins Amy & Liv: (64..65, 11..12) - [DEFEATED]. Double Battle pair on southern dirt road. Used Plusle ♂ Lv 15, Minun ♂ Lv 15.
-  - Youngster Miguel: (~60, 12) - Trainer on western dirt road facing East.
+  - Pokéfan Miguel: (~60, 12) - Trainer on western dirt road facing East. Used Skitty ♀ Lv 15.
