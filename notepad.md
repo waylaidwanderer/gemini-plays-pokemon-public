@@ -892,6 +892,8 @@
   - **Path from `(41, 25)` to `VictoryRoad_B2F` Ladder `(30, 25)`:**
     - From `(41, 25)`, walk `Left` 2 across the west-facing 1-way ledge at `(39, 25)` onto **`(38, 25)`** (note: walking north from `(38, 25)` along `x = 37..38` underneath the wooden bridge `(36..40, 15..16)` leads to **Cooltrainer♂ Samuel `(37, 12)`** — `Swellow Lv. 42`, `Mawile Lv. 42`, `Kadabra Lv. 42` [Defeated from `(36, 12)`], an optional boulder/item alcove at `(35, 6) -> (32, 3)`, and a return shortcut staircase/bridge at `(32, 11..10) -> (32, 8) -> (21, 8) -> (21, 12) -> (18, 12)`).
     - From **`(38, 25)`**, walk `Down` 1 to `(38, 26)`, `Left` 8 along `y = 26` (passing south of the rock `(34..36, 22..25)`) to `(30, 26)`, and `Up` 1 onto the **`VictoryRoad_B2F` Down-Ladder at `(30, 25)`**.
+- **`VictoryRoad_B2F` (`(30, 25)` -> Cooltrainer♀ Julie `(35, 22)`):**
+  - From the arrival ladder at `(30, 25)`, walk `Right` 3 to `(33, 25)` and `Up` 3 along `x = 33` to `(33, 22)` to battle **Cooltrainer♀ Julie `(35, 22)`** (`Sandslash Lv. 42`, `Tropius Lv. 42`, plus 1 more Pokémon; use `Dive` when `Tropius` charges `SolarBeam` to dodge it underwater).
 
 <hr>
 
