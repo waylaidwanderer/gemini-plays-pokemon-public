@@ -172,7 +172,6 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Slot 3 (Absorb, bottom-left): Input `Down` then `Left` from any move position.
   - Slot 4 (Quick Attack, bottom-right): Input `Down` then `Right` from any move position. Quick Attack cleanly OHKOs wild Zubat Lv 7 before it can act.
 - Quick Attack (Slot 4) OHKO Thresholds: At Level 22 (Atk 37), Quick Attack consistently OHKOs wild Zubat Lv 7-8 and wild Makuhita Lv 6-7 with +1 priority, taking 0 damage and preventing Sand Attack accuracy drops.
-- Cumulative Training Progress: 1,053 EXP gained across 11 battles; Sage EXP bar is ~90% full (~164 EXP to Lv 23), HP perfectly maintained at 60/60.
 
 <hr>
 
