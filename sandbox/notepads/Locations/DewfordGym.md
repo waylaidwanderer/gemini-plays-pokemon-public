@@ -73,10 +73,11 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Reward: ¥312, 253 EXP.
    - Outcome: Complete victory! Defeated with super effective Pursuit. All 6 gym trainers defeated! Column 15 terminates in water behind her.
 
-## Gym Leader Brawly: [REMATCH IN PROGRESS - GYM BATTLE]
+## Gym Leader Brawly
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
-  - Machop Lv 16 [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly used Super Potion)
-  - Meditite Lv 16 [DEFEATED] (Bulk Up, Focus Punch, Light Screen, Reflect - Focus Punch cancelled by Pursuit)
-  - Makuhita Lv 19 [ACTIVE] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-- Rematch Strategy: All 6 gym trainers permanently defeated; gym fully illuminated. Machop defeated (burned Super Potion), Meditite defeated (Focus Punch cancelled by Pursuit). Makuhita at ~75% HP; all Potions expended. Lilz (Lotad Lv 9, HP 28/28) battling Makuhita with Astonish flinch strategy.
+  - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly burns 1 Super Potion when Machop drops to red HP).
+  - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect - Focus Punch cancelled 100% by Sage's Pursuit!).
+  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw -1 priority, Reversal - Sitrus Berry heals 30 HP once).
+- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. Unobstructed path to Brawly at (4, 2).
+- Winning Strategy: Sage (Lv 20 Grovyle, Quick Claw, Speed 47). Absorb Machop, Pursuit Meditite to cancel Focus Punch, Absorb Makuhita. Vital Throw deals ~24-27 damage, so regular Potions (+20 HP) fall behind. Stock Super Potions (+50 HP) via Mr. Briney at Petalburg/Rustboro Mart to guarantee decisive Knuckle Badge victory!
