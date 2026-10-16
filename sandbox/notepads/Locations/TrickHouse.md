@@ -17,6 +17,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Cut Tree #1: (13, 18) [CUT - CLEARED].
 - Cut Tree #4: (8, 10) [CUT - CLEARED].
 - Column 9 walkway: Runs vertically from (9, 11) down to the horizontal boardwalk at (9, 16).
-- Row 16 boardwalk: Runs horizontally across the southern section, connecting column 9 west to the scroll area.
-- Secret Scroll: Located at the bottom-left corner (near col 2, row 21) on the floor.
-- Trainer 2: Lass located at (1, 19/20) guarding the Secret Scroll in the southwest corner.
+- Row 13 walkway: Runs horizontally from col 10 west across col 6 to col 3.
+- Column 3 walkway: Runs vertically from (3, 13) south to (3, 19).
+- Secret Scroll: Located at (2, 18), sitting on the floor directly west of (3, 18).
+- Trainer 2: Lass located at (1, 17) facing South.
