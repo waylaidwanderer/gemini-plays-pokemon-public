@@ -35,4 +35,5 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 2. Tuber Ricky: [DEFEATED]
    - Location: Facing South on Route 109 beach near (19..21, 10).
    - Team: Zigzagoon ♂ Lv 13 (fainted).
-   - Outcome: Defeated in 2 rounds by Sage's Absorb.
+   - Defeat Quote: "Groan..."
+   - Reward: ¥52. Outcome: Defeated in 2 rounds by Sage's Absorb.

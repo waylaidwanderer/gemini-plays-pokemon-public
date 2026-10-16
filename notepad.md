@@ -476,7 +476,8 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 2. Tuber Ricky: [DEFEATED]
    - Location: Facing South on Route 109 beach near (19..21, 10).
    - Team: Zigzagoon ♂ Lv 13 (fainted).
-   - Outcome: Defeated in 2 rounds by Sage's Absorb.
+   - Defeat Quote: "Groan..."
+   - Reward: ¥52. Outcome: Defeated in 2 rounds by Sage's Absorb.
 
 <hr>
 
@@ -726,7 +727,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥2389 (earned ¥468 from Edmond & Hailey on Route 109)
+- Money: ¥2441 (earned ¥468 from Edmond & Hailey, ¥52 from Ricky on Route 109)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Brawly & Steven registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
