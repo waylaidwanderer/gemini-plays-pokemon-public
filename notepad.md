@@ -52,6 +52,9 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
+3. Battle Girl Laura:
+   - Location: Southeast corridor at (12, 25), spotted May at (12, 23) from the north.
+   - Status: Battle initiated.
 
 <hr>
 
