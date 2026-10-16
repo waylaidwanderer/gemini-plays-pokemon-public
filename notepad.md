@@ -916,8 +916,8 @@
 - **`VictoryRoad_1F` Final Exit Stretch (`(21, 32)` -> Northern Exit):**
   - From the arrival ladder at `(21, 32)` (from `VictoryRoad_B1F (20, 21)`), walk `Up` 4 up the staircase `(21, 30..29)` to `(21, 28)`, `Right` 12 across the wooden bridge to `(33, 28)`, `Down` 3 down the staircase `(33, 29..30)` to `(33, 31)`, `Right` 3 to `(36, 31)`, `Up` 7 along `x = 36` to `(36, 24)`, `Down` 1 to `(36, 25)`, `Left` 2 to `(34, 25)`, `Up` 2 to `(34, 23)`, and `Left` 1 to `(33, 23)`.
   - **Cooltrainer♂ Edgar `(33, 22)`:** Faces `Down` — `Cacturne Lv. 43`, `Pelipper Lv. 43` [Defeated — money `$46,303`].
-  - **Under-Bridge Trainer Pair at `(30, 17)` & `(32, 17)`:** Stand on the lower ground corridor underneath the wooden bridge `(27..35, 17)` facing each other across `(31, 17)` (only their hair peeks above the bridge rail at `y = 16`). Walking `Up` along `x = 32` to `(32, 18)` and pressing `A` facing `Up` side-talks **Cooltrainer♂ Quincy `(32, 17)`** (`Slaking Lv. 43` [1 Full Restore], `Dusclops Lv. 43` [Defeated — money `$48,367`]) in a 1v1 Single Battle instead of triggering a Double Battle at `(31, 17)`. Use `Rock Smash` to defeat `Slaking Lv. 43` and preserve `Dive` PP for Ghost-type `Dusclops Lv. 43`.
-  - **Cooltrainer♀ Katelynn `(30, 17)`:** Faces `Right` toward `(31, 17)` underneath the wooden bridge.
+  - **Under-Bridge Trainer Pair at `(29, 17)` & `(31, 17)`:** Stand on the lower ground corridor underneath the wooden bridge `(27..35, 17)` facing each other across `(30, 17)` (only their hair peeks above the bridge rail at `y = 16`). Walking `Up` along `x = 32` to `(32, 18)` and pressing `A` facing `Up` side-talks **Cooltrainer♂ Quincy `(31, 17)`** (`Slaking Lv. 43` [1 Full Restore], `Dusclops Lv. 43` [Defeated — money `$48,367`]) in a 1v1 Single Battle instead of triggering a Double Battle at `(30, 17)`. Use `Rock Smash` to defeat `Slaking Lv. 43` and preserve `Dive` PP for Ghost-type `Dusclops Lv. 43`.
+  - **Cooltrainer♀ Katelynn `(29, 17)`:** Faces `Right` toward `(30, 17)` underneath the wooden bridge — `Gardevoir Lv. 43`, `Slaking Lv. 43` [Defeated at `(30, 17)` — money `$50,431`; `ATRITON` grew to Lv. 58].
 
 <hr>
 
@@ -926,7 +926,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $48,367 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $50,431 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
