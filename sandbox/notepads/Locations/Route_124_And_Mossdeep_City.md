@@ -137,3 +137,12 @@
     - From `(12, 27)`, walk `Left` 4 along `y = 27` (between the upper rock wall at `y = 25..26` and the lower contour ridge at `y = 28..29`) to `(8, 27)`.
     - Follow the western corridor south: `Down` 4 to `(8, 31)`, `Left` 1 to `(7, 31)`, `Down` 2 to `(7, 33)`, `Left` 1 to `(6, 33)`, `Down` 5 to `(6, 38)`, `Right` 1 to `(7, 38)`, and `Down` 2 to `(7, 40)`.
     - Follow the southern shoreline east: `Right` 5 to `(12, 40)`, `Down` 1 to `(12, 41)`, `Right` 1 to `(13, 41)`, `Down` 1 to `(13, 42)`, and `Right` 4 along `y = 42` to **`(17, 42)`** (stepping onto `(17, 42)` and pressing `Up` or any direction triggers **Team Aqua Leader Archie** — `Mightyena Lv. 41`, `Crobat Lv. 41`, `Sharpedo Lv. 43` [Defeated — awakens Kyogre and warps to Route 128]).
+## Route 128 -> Route 127 -> Route 126 & Sootopolis City Approach
+- **Route 128 Atoll `(38, 22)` to Route 127 `(27, 79)`:**
+  - From `(38, 22)`, walk `Up` 1 to `(38, 21)`, use **Surf** `Up` onto `(38, 20)`, surf `Up` 6 onto the northern atoll rim at `(38, 14)`, walk `Up` 1 to `(38, 13)`, and use **Surf** `Up` onto `(38, 12)`.
+  - From `(38, 12)`, surf `Up` 2 to `(38, 10)`, `Left` 6 along `y = 10` to `(32, 10)`, `Up` 6 along `x = 32` to `(32, 4)`, `Left` 5 onto the sandbar at `(27, 4)`, use **Surf** `Up` onto `(27, 3)`, and surf `Up` 4 across `(27, 0)` into **Route 127 at `(27, 79)`**.
+- **Route 127 `(27, 79)` to Route 126 `(79, 48)`:**
+  - From `(27, 79)`, surf `Up` 6 to `(27, 73)`, `Left` 3 to `(24, 73)`, `Up` 7 to `(24, 66)`, `Left` 1 to `(23, 66)`, `Up` 2 to `(23, 64)`, `Left` 9 along `y = 64` to `(14, 64)`, `Up` 2 to `(14, 62)`, `Left` 5 to `(9, 62)`, `Up` 2 to `(9, 60)`, `Left` 1 to `(8, 60)`, `Up` 6 to `(8, 54)`, `Left` 1 to `(7, 54)`, `Up` 6 to `(7, 48)`, and `Left` 8 across `(0, 48)` into **Route 126 at `(79, 48)`**.
+- **Route 126 `(79, 48)` to Sootopolis Southern Dive Trench `(51, 68)`:**
+  - From `(79, 48)`, surf `Left` 13 along `y = 48` to `(66, 48)`, `Down` 20 along `x = 66` (east of Sootopolis City's outer crater wall) to `(66, 68)`, and `Left` 15 along `y = 68` onto the deep underwater trench (`MB_DIVEABLE`) at **`(51, 68)`** (`x = 51..55, y = 68`).
+  - **Swimmer♂ Barry `(50, 68)`:** Adjacent to `(51, 68)`; pressing `A` at `(51, 68)` while facing `Left` talks to Barry instead of diving — step `Up` 1 to `(51, 67)` or `Right` 1 to `(52, 68)` before pressing `A` to use **Dive**.
