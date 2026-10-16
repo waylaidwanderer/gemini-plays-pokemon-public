@@ -9,15 +9,15 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Seaside Cycling Road: Elevated highway requiring a Bicycle (entered via toll gate buildings at south and north ends).
 
 ## Key Landmarks
-- South Entrance Signpost: Near (21, 91).
+- South Entrance Signpost: Located at (20, 94), read from (19, 94) facing East: "ROUTE 110 / ⬇ SLATEPORT CITY".
 - Trick House: Located on the northwest side of Route 110 (offers puzzle challenges with the Trick Master).
-- Seaside Cycling Road (Elevated): Overhead bike highway.
+- Seaside Cycling Road (Elevated): Overhead bike highway on steel trestle pillars.
 - Under-Bridge Route: Pedestrian pathway winding underneath the Cycling Road structure.
 - Rival Brendan Encounter: Rival Battle #2 occurs under the Cycling Road bridge! Rival team: Wailmer (~Lv 18), Numel (~Lv 18), Combusken (~Lv 20).
 
 ## Progression Checklist - Route 110
 - [x] Enter Route 110 from Slateport City.
-- [ ] Inspect southern signpost.
+- [x] Inspect southern signpost at (20, 94).
 - [ ] Traverse lower path towards Mauville City.
 - [ ] Challenge Route 110 trainers for EXP.
 - [ ] Defeat Rival Brendan in battle under Cycling Road.
@@ -26,6 +26,8 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 
 ## Topography & Navigation
 - South entrance at (18, 97): Sandy path heading north.
-- Tall grass begins to the west at rows 88..94, cols 10..15.
-- Flower garden enclosed by white picket fence on the east (cols 22..28).
-- Signpost located at (21, 91).
+- Southern signpost at (20, 94).
+- White picket fence corner at (16, 93) runs east along row 93 enclosing a flower garden, and runs north along column 16 to row 88.
+- Tall grass begins to the west at rows 88..94, cols 10..14.
+- Sandy/dirt path loops west of the fence corner (cols 12..15, rows 91..93), then heads north.
+- Trainer (Camper/School Kid facing South) stationed north of the path near (15, 87).
