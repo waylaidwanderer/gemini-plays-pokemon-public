@@ -828,6 +828,18 @@
 - **Sootopolis Gym Island (`(29, 53)` -> `(29, 36)` -> `(31, 32)`):**
   - From `(29, 53)`, surf straight `Up` 16 along `x = 29` to `(29, 37)` and press `Up` 1 to step ashore onto the Sootopolis Gym island at **`(29, 36)`**.
   - On the island (`x = 27..35, y = 33..36`): **Steven Stone** is at `(29, 33)`, **Wallace** is at `(31, 33)` in front of the Gym door `(31, 32)`, the Gym sign is at `(33, 34)`, **Maxie** is at `(33, 35)`, and **Archie** is at `(34, 35)`. Speak to both Maxie `(33, 35)` and Archie `(34, 35)` so they depart, then speak to Wallace `(31, 33)` to receive **HM07 (Waterfall)** and unlock Sootopolis Gym.
+## Sootopolis City Gym (`(31, 32)` -> `(8, 25)` -> Gym Leader Juan `(8, 2)`)
+- **Mechanics:** Each of the 3 ice-floor puzzles on 1F must be traversed in a single Hamiltonian path visiting every ice tile exactly once and ending at `(8, y_top)` below the northern staircase, which causes the staircase wall to crumble open (`~1500ms` animation, aborts the current `press_buttons` call on the final step). Stepping onto a cracked ice tile a second time drops the player to B1F.
+- **Entrance to Puzzle 1 (`(8, 25)` -> `(8, 19)`):** Walk `Up` 6 along `x = 8` from `(8, 25)` onto the bottom-center tile of Puzzle 1 at **`(8, 19)`**.
+- **Puzzle 1 (`3x3`, `x = 7..9, y = 17..19`, rocks at `(7, 17)` & `(9, 19)`, 7 ice tiles):**
+  - From `(8, 19)`: `["Left", "Up", "Right", "Right", "Up", "Left"]` -> ends at **`(8, 17)`**.
+  - Wait `1500ms`, then step `["Up", "Up"]` onto `(8, 15)` below Puzzle 2.
+- **Puzzle 2 (`7x3`, `x = 5..11, y = 12..14`, rocks at `(6, 13)` & `(10, 13)`, 19 ice tiles):**
+  - From `(8, 15)`: `["Up", "Left", "Left", "Left", "Up", "Up", "Right", "Right", "Down", "Right", "Right", "Down", "Right", "Right", "Up", "Up", "Left", "Left", "Left"]` -> ends at **`(8, 12)`**.
+  - Wait `1500ms`, then step `["Up", "Up"]` onto `(8, 10)` below Puzzle 3.
+- **Puzzle 3 (`11x4`, `x = 3..13, y = 6..9`, rocks at `(4, 8), (5, 6), (7, 8), (9, 7), (11, 9), (12, 7)`, 38 ice tiles):**
+  - From `(8, 10)`: `["Up", "Left", "Left", "Up", "Left", "Down", "Left", "Left", "Up", "Up", "Up", "Right", "Down", "Right", "Right", "Up", "Right", "Down", "Right", "Down", "Right", "Down", "Right", "Up", "Up", "Right", "Down", "Right", "Down", "Right", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left"]` -> ends at **`(8, 6)`**.
+  - Wait `1500ms`, then step `["Up", "Up", "Up"]` to `(8, 3)` facing **Gym Leader Juan at `(8, 2)`**.
 
 <hr>
 
