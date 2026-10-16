@@ -912,7 +912,7 @@
       1. At `(19, 25)` facing `Right`, use **Rock Smash** on **`(20, 25)`** and step `Right` 1 onto `(20, 25)`.
       2. Face `Down` at `(20, 25)`, activate **Strength**, and push the boulder at **`(20, 26)` `Down` 1 into `(20, 27)`**.
       3. Step `Down` 1 onto `(20, 26)`, face `Right`, and use **Rock Smash** on **`(21, 26)`**.
-      4. Walk `Right` 2 to `(22, 26)`, `Up` 1 to `(22, 25)`, and push the boulder at **`(21, 25)` `Left` 1 into `(20, 25)`**, then walk `Up` 5 along `x = 22` (`(22, 25) -> (22, 20)`) and `Left` 2 along `y = 20` onto the **Up-Ladder at `(20, 20)`**.
+      4. Walk `Right` 2 to `(22, 26)`, `Up` 1 to `(22, 25)`, and push the boulder at **`(21, 25)` `Left` 1 into `(20, 25)`**, then walk `Up` 4 along `x = 22` (`(22, 25) -> (22, 21)`) and `Left` 2 along `y = 21` onto the **Up-Ladder at `(20, 21)`** (warps to `VictoryRoad_1F (21, 31)`).
 
 <hr>
 
