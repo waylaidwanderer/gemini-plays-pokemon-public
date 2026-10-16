@@ -33,3 +33,4 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Tall grass begins to the west at rows 94..98, cols 10..15.
 - Bike enthusiast NPC stands at (17, 90) outside the Cycling Road south gate.
 - Pedestrian route: Loops west around cols 12..14 at row 91, then continues north past the Cycling Road building.
+- Birch Encounter: Met Prof. Birch on Route 110 at (9, 85) along the coastal pedestrian path. He registers himself in Match Call in the PokéNav and wishes May good luck.
