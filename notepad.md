@@ -677,6 +677,11 @@
 - **Path from Mossdeep Pokémon Center `(28, 17)` to Space Center Entrance `(64, 15)`:**
   - Walk `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 8 along `y = 19` to `(41, 19)`, and `Down` 3 along `x = 41` to **`(41, 22)`** (triggers the **Team Magma Space Center Procession Cutscene** [Completed]).
   - Continue `Down` 3 to `(41, 25)`, `Right` 6 to `(47, 25)`, `Down` 4 to `(47, 29)`, `Right` 10 along `y = 29` to `(57, 29)`, `Up` 6 up the stairs to `(57, 23)`, `Right` 7 to `(64, 23)`, and `Up` 8 up the double stairs along `x = 64` into the **Mossdeep Space Center** door at **`(64, 15)`** (exiting steps to `(64, 16)`).
+- **Mossdeep Space Center 1F (`(7, 9)` -> `(13, 1)`):**
+  - Round pink cushions (`(11, 3)`, etc.) are walkable floor tiles.
+  - From `(7, 9)`, walk `Up` 5 to `(7, 4)`, `Right` 2 to `(9, 4)`, `Up` 1 to `(9, 3)`, and `Right` 4 across `(10..13, 3)` to `(13, 3)`.
+  - **Team Magma Grunt #1 `(10, 2)`:** Watches `(10, 3)` — `Baltoy Lv. 32` [Defeated].
+  - **Team Magma Grunt #2 `(13, 2)`:** Blocks the staircase to 2F at `(13, 1)`; talk to him (`Up, A` from `(13, 3)`) to battle (`Mightyena Lv. 26`, `Mightyena Lv. 28`, `Numel Lv. 30` [Defeated — moves to `(14, 2)`]), then walk `Up` 2 onto the staircase at **`(13, 1)`** to warp to 2F.
 
 <hr>
 
@@ -685,12 +690,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,436 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,676 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 50 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 51 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)

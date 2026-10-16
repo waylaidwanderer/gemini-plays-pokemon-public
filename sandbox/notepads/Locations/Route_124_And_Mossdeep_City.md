@@ -65,3 +65,8 @@
 - **Path from Mossdeep Pokémon Center `(28, 17)` to Space Center Entrance `(64, 15)`:**
   - Walk `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 8 along `y = 19` to `(41, 19)`, and `Down` 3 along `x = 41` to **`(41, 22)`** (triggers the **Team Magma Space Center Procession Cutscene** [Completed]).
   - Continue `Down` 3 to `(41, 25)`, `Right` 6 to `(47, 25)`, `Down` 4 to `(47, 29)`, `Right` 10 along `y = 29` to `(57, 29)`, `Up` 6 up the stairs to `(57, 23)`, `Right` 7 to `(64, 23)`, and `Up` 8 up the double stairs along `x = 64` into the **Mossdeep Space Center** door at **`(64, 15)`** (exiting steps to `(64, 16)`).
+- **Mossdeep Space Center 1F (`(7, 9)` -> `(13, 1)`):**
+  - Round pink cushions (`(11, 3)`, etc.) are walkable floor tiles.
+  - From `(7, 9)`, walk `Up` 5 to `(7, 4)`, `Right` 2 to `(9, 4)`, `Up` 1 to `(9, 3)`, and `Right` 4 across `(10..13, 3)` to `(13, 3)`.
+  - **Team Magma Grunt #1 `(10, 2)`:** Watches `(10, 3)` — `Baltoy Lv. 32` [Defeated].
+  - **Team Magma Grunt #2 `(13, 2)`:** Blocks the staircase to 2F at `(13, 1)`; talk to him (`Up, A` from `(13, 3)`) to battle (`Mightyena Lv. 26`, `Mightyena Lv. 28`, `Numel Lv. 30` [Defeated — moves to `(14, 2)`]), then walk `Up` 2 onto the staircase at **`(13, 1)`** to warp to 2F.
