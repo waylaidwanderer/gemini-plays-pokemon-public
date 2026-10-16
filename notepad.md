@@ -36,10 +36,11 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Row 10 East Alcove: Tile (3, 10) dead-ends north at water at (3, 9) and east at wall (4, 10).
    - The horizontal stripes at (2, 7) are retaining cliff walls of the raised central stage rising out of water, not walkable stairs. Sector 4 has no stage access. Completely mapped.
 
-5. Sector 5: Central Stage Access & Stairs (cols 6-12, rows 1-6)
-   - Row 5 Walkway: Connects (12, 5) west through (10, 5), (9, 5), (8, 5), (7, 5) directly to the central stage stairs at (6, 5).
-   - Central Stage Stairs: Located at column 6, ascending north from row 5 directly onto the elevated wooden stage (rows 2-4, cols 4-9) where Gym Leader Brawly awaits.
-   - Column 10 Chute: Runs north from (10, 5) to (10, 3), dead-ending at (10, 2) water.
+5. Sector 5: Central Stage & Gym Leader Brawly (cols 2-12, rows 1-6)
+   - Central Stage Platform: An elevated blue boxing/wrestling mat located at rows 2-4, cols 2-5.
+   - Central Stage Stairs: Green ladder/stairs at column 5 (rows 2-4) connecting row 5 walkway at (5, 5) directly onto the blue mat.
+   - Gym Leader Brawly Location: Standing on the blue mat at (3, 2) in orange shirt and spiky blue hair, ready for battle!
+   - Row 5 Walkway: Connects east to (12, 5) and column 10 chute. Black Belt Cristian visible to the south at (8, 8).
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
@@ -586,7 +587,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym (Cristian, Takao, Laura, Brenden, Lilith, Jocelyn). Illumination maximized! Backtracking from column 15 to find the access onto the central elevated stage.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. Reached central stage! Gym Leader Brawly in sight on the blue mat at (3, 2). Preparing to heal Sage and challenge Brawly for the Knuckle Badge.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
