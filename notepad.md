@@ -433,7 +433,8 @@
 - **Fallarbor Pokémon Center:** Door at `(14, 7)` (exiting steps to `(14, 8)`).
 - **Fallarbor Battle Tent:** Door at `(8, 7)`.
 - **Fallarbor Poké Mart:** Door at `(15, 15)` (walk `Down` along `x = 12` to `(12, 16)`, `Right` 3 to `(15, 16)`, and `Up` 1 into `(15, 15)`).
-- **West Exit (to Route 114 `(39, 9)`):** From `(12, 10)`, walk `Left` 2 to `(10, 10)`, `Up` 1 to `(10, 9)` (passing between the old man at `(11, 9)` and the woman & Azurill at `(8, 10..11)`), and `Left` 11 along `y = 9` onto **Route 114 `(39, 9)`** (Move Tutor's House door is at `(2, 6)`, Prof. Cozmo's House is in southwest Fallarbor Town).
+- **West Exit (to Route 114 `(39, 9)`):** From `(12, 10)`, walk `Left` 2 to `(10, 10)`, `Up` 1 to `(10, 9)` (passing between the old man at `(11, 9)` and the woman & Azurill at `(8, 10..11)`), and `Left` 11 along `y = 9` onto **Route 114 `(39, 9)`** (Move Tutor's House door is at `(2, 6)`).
+- **Professor Cozmo's House:** Door at **`(6, 17)`** (reached from the Fallarbor Pokémon Center `(14, 8)` via `Down` 2 to `(14, 10)`, `Left` 4 to `(10, 10)`, `Up` 1 to `(10, 9)`, `Left` 3 to `(7, 9)`, `Down` 2 to `(7, 11)`, `Right` 2 to `(9, 11)`, `Down` 7 along `x = 9` to `(9, 18)`, `Left` 3 to `(6, 18)`, and `Up` 1 into `(6, 17)`; exiting steps to `(6, 18)`). Inside (exit mat at `(3..4, 8)`), walk via `(3, 7) -> (6, 7) -> (6, 6)` to speak with **Professor Cozmo at `(6, 5)`** and trade the **Meteorite** for **TM27 (Return)** [Completed].
 
 ## Route 114
 - **North-East Entrance (from Fallarbor Town `(0, 9)`):** `(39, 9)`.
@@ -954,7 +955,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x5, Hyper Potion x6, Revive x2, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 61 [Holding Mystic Water] — Strength, Surf, Blizzard, Return)
+  1. ATRITON (Swampert, Male, Lv. 62 [Holding Mystic Water] — Strength, Surf, Blizzard, Return)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
