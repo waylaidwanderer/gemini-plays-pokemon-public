@@ -17,7 +17,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Row 12: Runs along rows 11-12 from entrance (37, 12) west to col 16, where it terminates at a solid vertical cliff wall at (16, 12).
   - Item Ball: [COLLECTED] Escape Rope at (17, 7).
   - Southwest Ladder: Located at (17, 11) leading down to B1F.
-  - Upper Plateau (rows 1-5): Separated from lower path by south-facing one-way jump ledge at row 6. Contains ladders ascending from lower levels and doorway to Steven's chamber at (35, 3).
+  - Upper Plateau (rows 1-5): Separated from lower path by south-facing one-way jump ledge at row 6. Contains ladder from B1F at (35, 3) and doorway to Steven's inner chamber at (5, 11).
+  - Steven's Chamber Connection: Cave entrance at (5, 11) enters Steven's Chamber at (7, 4). Exiting Steven's chamber via north doorway at (7, 3) emerges on 1F at (5, 10) facing South. To exit without re-entering (5, 11), step Right to (6, 10). From (9, 10), walk Right to col 10, south to row 12, and east past the row 13 ledge (which ends at col 12) onto the main 1F floor to reach the Route 106 exit at (37, 12).
   - Wild Encounters (1F): Zubat (Lv 7-8), Makuhita (Lv 7-10), Abra (Lv 8), Geodude.
 
 ## Granite Cave B1F & B2F (Lower Caverns)
