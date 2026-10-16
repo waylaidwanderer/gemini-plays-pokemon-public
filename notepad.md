@@ -620,10 +620,10 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered, party fully healed at Dewford Pokémon Center (Sage Lv 24 full 65/65 HP, Lilz Lv 9, Cipher Lv 10). Next: teach HM05 Flash to Lotad (Lilz), exit to Dewford Town, and proceed north to Route 106 / Granite Cave with Flash enabled to find Steven Stone and deliver President Stone's Letter.
+- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered. Lotad (Lilz) learned HM05 Flash! Sage Lv 24 equipped with Oran Berry (HP 33/65). Next: exit Bag, speak to Nurse Joy to actually complete healing to 65/65 HP, then head north to Route 106 / Granite Cave with Flash enabled to find Steven Stone and deliver the Letter.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 24) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 33/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
@@ -636,7 +636,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x12 (verified in Bag on turn 2728)
-- Berries: Cheri Berry x2, Oran Berry x3, Pecha Berry x2
+- Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (gift from Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
 - Money: ¥1921 (earned ¥1900 from Brawly)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call - Brawly registered!), Old Rod (Fisherman in Dewford Town)
