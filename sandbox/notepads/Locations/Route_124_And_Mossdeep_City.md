@@ -155,5 +155,5 @@
   - Note: The western shore landing at `(16, 45)` (`x = 7..17, y = 38..47`) is an enclosed grass pocket walled off by cliffs; to access Sootopolis City's outer rim staircases, surf around Sootopolis Gym to the **Eastern Shore Landing at `(39, 37)`**.
   - From `(29, 53)`, surf `Left` 13 to `(16, 53)` (or surf `Up`/`Right` around Sootopolis Gym): from `(24, 38)`, surf `Up` 12 along `x = 24` to `(24, 26)`, `Right` 14 along `y = 26` (north of Sootopolis Gym) to `(38, 26)`, `Down` 11 along `x = 38` to `(38, 37)`, and `Right` 2 onto the **Eastern Shore Landing at `(40, 37)`**.
   - From `(40, 37)`, walk `Down` 1 to `(40, 38)` (around the signpost at `(41, 37)`), `Right` 3 to `(43, 38)`, and `Up` 7 along `x = 43` into the **Sootopolis City Pokémon Center at `(43, 31)`** (exiting steps to `(43, 32)`).
-- **Eastern Rim Staircase Entrance (`(48, 37)`):**
-  - From outside the Pokémon Center at `(43, 32)`, walk `Down` 6 along `x = 43` to `(43, 38)`, `Right` 5 along `y = 38` to `(48, 38)`, and `Up` 1 onto the **Eastern Rim White Staircase at `(48, 37)`**.
+- **Eastern Rim Staircase Entrance (`(48, 32)`):**
+  - From outside the Pokémon Center at `(43, 32)`, walk `Right` 5 straight along `y = 32` (`(43, 32)` -> `(48, 32)`, passing north of the two NPCs at `(45, 33)` and `(46, 34)`) directly onto the **Eastern Rim White Staircase at `(48, 32)`**.
