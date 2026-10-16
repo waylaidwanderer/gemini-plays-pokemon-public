@@ -52,11 +52,11 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-3. Battle Girl Laura:
+3. Battle Girl Laura: [DEFEATED]
    - Location: Southeast corridor at (12, 25), spotted May at (12, 23) from the north.
    - Pre-battle: "Don't you dare brush me off! It's not my fault if you cry!"
-   - Team: Meditite ♀ Lv 13 (Turn 3 Pursuit landed, resolving faint and victory)
-   - Status: Battle in progress.
+   - Team: Meditite ♀ Lv 13 (fainted).
+   - Reward: ¥312, ~260 EXP. Third trainer defeated; spotlight expanded from radius 4 to 5!
 
 <hr>
 
@@ -565,7 +565,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Black Belt Cristian & Black Belt Takao in Dewford Gym. Sage Lv 19 (HP 53/53), Lilz Lv 9 (HP 28/28), wallet ¥8628.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Black Belt Cristian, Black Belt Takao & Battle Girl Laura in Dewford Gym. Sage Lv 19 (HP 53/53), Lilz Lv 9 (HP 28/28), wallet ¥8940.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 53/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
@@ -582,7 +582,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
-- Money: ¥8628
+- Money: ¥8940
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary

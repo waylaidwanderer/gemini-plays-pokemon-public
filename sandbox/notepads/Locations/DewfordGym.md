@@ -50,8 +50,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-3. Battle Girl Laura:
+3. Battle Girl Laura: [DEFEATED]
    - Location: Southeast corridor at (12, 25), spotted May at (12, 23) from the north.
    - Pre-battle: "Don't you dare brush me off! It's not my fault if you cry!"
-   - Team: Meditite ♀ Lv 13 (Turn 3 Pursuit landed, resolving faint and victory)
-   - Status: Battle in progress.
+   - Team: Meditite ♀ Lv 13 (fainted).
+   - Reward: ¥312, ~260 EXP. Third trainer defeated; spotlight expanded from radius 4 to 5!
