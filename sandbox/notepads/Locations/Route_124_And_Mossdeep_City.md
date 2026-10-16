@@ -145,4 +145,4 @@
   - From `(27, 79)`, surf `Up` 6 to `(27, 73)`, `Left` 3 to `(24, 73)`, `Up` 7 to `(24, 66)`, `Left` 1 to `(23, 66)`, `Up` 2 to `(23, 64)`, `Left` 9 along `y = 64` to `(14, 64)`, `Up` 2 to `(14, 62)`, `Left` 5 to `(9, 62)`, `Up` 2 to `(9, 60)`, `Left` 1 to `(8, 60)`, `Up` 6 to `(8, 54)`, `Left` 1 to `(7, 54)`, `Up` 6 to `(7, 48)`, and `Left` 8 across `(0, 48)` into **Route 126 at `(79, 48)`**.
 - **Route 126 `(79, 48)` to Sootopolis Southern Dive Trench `(51, 68)`:**
   - From `(79, 48)`, surf `Left` 13 along `y = 48` to `(66, 48)`, `Down` 20 along `x = 66` (east of Sootopolis City's outer crater wall) to `(66, 68)`, and `Left` 15 along `y = 68` onto the deep underwater trench (`MB_DIVEABLE`) at **`(51, 68)`** (`x = 51..55, y = 68`).
-  - **Swimmer♂ Barry `(50, 68)`:** Adjacent to `(51, 68)`; pressing `A` at `(51, 68)` while facing `Left` talks to Barry instead of diving — step `Up` 1 to `(51, 67)` or `Right` 1 to `(52, 68)` before pressing `A` to use **Dive**.
+  - **Swimmer♂ Barry `(51, 67)`:** `Gyarados Lv. 34` [Defeated — money `$13,388`]. Surf `Left` 3 from `(51, 68)` to **`(48, 68)`** (unobstructed trench tile) before pressing `A` to use **Dive**.
