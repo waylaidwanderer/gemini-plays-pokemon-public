@@ -689,7 +689,8 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - North Exit: Route 110 (leading toward Mauville City and Cycling Road).
 
 ## Key Buildings & Landmarks
-- Pokémon Center: Located at rows 8..12, cols 8..11 in north-central Slateport City (directly north along col 9). Sliding glass entrance doors at (9..10, 12) facing South onto row 13. Checkpoint registration priority!
+- Battle Tent: Located at rows 8..12, cols 8..11 in the northwest district (directly north along col 9). Distinctive orange and blue tent roof with 3-bubbles emblem. Sliding glass doors at (9..10, 12), signpost at (8, 13). Replaces Contest Hall in Emerald!
+- Pokémon Center: Searching north-central/east district along row 14 toward col 19. Checkpoint registration priority!
 - Poké Mart: Located near the city center.
 - Stern's Shipyard: Located in the southeast area. Captain Stern's chief designer Dock is here.
 - Oceanic Museum: Located in the northeast area. Requires ¥50 entrance fee. Captain Stern and Team Aqua are inside.
