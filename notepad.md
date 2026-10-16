@@ -372,8 +372,8 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 - South Beach: Open sandy path stretching north along columns 64..67 from Dewford Town. Water inlet cuts inland at (66, 14); column 65 is open sand.
 - Signpost: Located at (59, 13) on the south beach. Text: "TRAINER TIPS / Advice on catching POKéMON with a ROD: Press the A Button if you get a bite."
 - Ocean Edge: Rows 14..19 water starts at column 67..70 (inlet at 66, 14).
-- Granite Cave Entrance: Located in the western cliff at roughly (48..49, 16..17) on the lower beach south of the mountain.
-- Northern Beach Corridor: The sandy beach at row 11 runs west from (54, 11) and terminates at (41, 11) against the sea and solid mountain cliff. It is a dead end and does NOT wrap around to Granite Cave. Granite Cave must be approached from the east beach around rows 14-15.
+- Granite Cave Entrance: Located in the western cliff at (48, 16) on Route 106 beach. The approach corridor runs along row 17 (open sand across cols 48-54 beneath the row 16 cliff corner). Stepping Up from (48, 17) enters the cave.
+- Northern Beach Corridor: The sandy beach at row 11 runs west from (54, 11) and terminates at (41, 11) against the sea and solid mountain cliff. It is a dead end and does NOT wrap around to Granite Cave.
 
 ## Trainers
 1. Fisherman Ned: [DEFEATED]
