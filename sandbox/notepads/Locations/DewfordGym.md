@@ -77,6 +77,6 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
   - Machop Lv 16 [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly used Super Potion)
-  - Meditite Lv 16 [ACTIVE] (Bulk Up, Focus Punch, Light Screen, Reflect)
-  - Makuhita Lv 19 [PENDING] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
+  - Meditite Lv 16 [DEFEATED] (Bulk Up, Focus Punch, Light Screen, Reflect - Focus Punch cancelled by Pursuit)
+  - Makuhita Lv 19 [ACTIVE] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
 - Rematch Strategy: All 6 gym trainers remain defeated and gym is fully illuminated. Sage enters at 55/55 full HP. Absorb Machop, use Pursuit on Meditite to cancel Focus Punch, Absorb Makuhita, and use in-battle Potions if HP drops below 25.
