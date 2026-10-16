@@ -124,7 +124,8 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 3. [x] Visit Granite Cave on Route 106, speak to Hiker for HM05 Flash.
 4. [x] Fully heal party at Dewford Pokémon Center (Sage Lv 18 full HP 51/51, Lilz Lv 9, Cipher Lv 10).
 5. [x] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
-6. [ ] Return to Granite Cave with Flash enabled to locate Steven Stone and deliver President Stone's Letter.
+6. [x] Return to Granite Cave with Flash enabled, locate Steven Stone, deliver President Stone's Letter, and receive TM47 Steel Wing.
+7. [ ] Speak to Mr. Briney at Dewford Town dock to sail to Slateport City.
 
 ## Mechanics & Navigation Discoveries
 - Nurse Joy Interaction: Stand at (7, 4) facing Up. Advance dialogue strictly with A presses to reach and confirm the YES prompt on "Would you like to rest your POKéMON?". Avoid pressing B during the prompt sequence, as B defaults to NO and aborts the heal.
@@ -169,8 +170,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [x] Catch Abra (CIPHER) in B2F with Great Ball.
 - [x] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge (enables HM05 Flash outside battle).
 - [x] Taught HM05 Flash to Lotad (Lilz); verified Flash works outside battle and illuminates B1F.
-- [ ] Locate Steven Stone in Granite Cave and deliver President Stone's Letter (currently verifying 1F corridor and Steven's chamber access).
-- [ ] Receive TM47 Steel Wing from Steven.
+- [x] Locate Steven Stone in Granite Cave and deliver President Stone's Letter.
+- [x] Receive TM47 Steel Wing from Steven; registered Steven in PokéNav Match Call!
 ## Grinding & Encounter Strategy (1F Runway)
 - Row 8 Runway: Open horizontal corridor spanning x=28 to x=35. Walking back and forth between x=28 and x=34 provides 100% safe, fast wild encounters without bumping into walls or NPCs.
 - Wild Encounter EXP Yields:
