@@ -24,9 +24,6 @@
 - Money: ¥85 (verified in Mart Turn 2674)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
-## Petalburg Woods Topography
-- Traveling northbound requires following row 16 all the way west to the northwest clearing (cols 4-6) past Bug Catcher James, because the row 14 one-way ledge (cols 14-19) blocks direct northward passage. Traveling southbound allows jumping directly down the row 14 ledge.
-
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
 - Rival's House (West): 1F, 2F (Met Brendan).
