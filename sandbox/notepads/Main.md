@@ -21,7 +21,7 @@
 - Poké Ball x12 (verified in Bag on turn 2728)
 - Berries: Cheri Berry x2, Oran Berry x4 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
-- Money: ¥42 (post-whiteout)
+- Money: ¥21 (post-whiteout 2)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
