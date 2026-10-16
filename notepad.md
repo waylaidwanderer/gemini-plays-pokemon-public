@@ -339,7 +339,7 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
 - Trainers:
   - Aroma Lady Daisy: (71, 11) - [DEFEATED] Used Shroomish Lv 14, Roselia Lv 14. Prize: ¥560.
   - Guitarist Marcos: (67, 8) facing South.
-  - Black Belt Rhett: (67, 3) in upper terrace facing South.
+  - Black Belt Rhett: (67, 3) in upper terrace facing South - [DEFEATED]. Used Makuhita Lv 15. Awarded ¥480.
   - Twins Amy & Liv: (65, 12) - Double Battle pair on southern dirt road.
 
 <hr>
