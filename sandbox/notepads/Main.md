@@ -15,7 +15,7 @@
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30).
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Super Potion x0
-- Potion x0
+- Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
