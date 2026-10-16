@@ -786,6 +786,11 @@
 - **Route 127 Trainer & Route 128 Southbound Route to Route 129:**
   - **Triathlete♂ Donny `(18, 67)` (Route 127):** Watches `(18, 64)` — `Wingull Lv. 26`, `Staryu Lv. 34` [Defeated — money `$21,787`].
   - **Route 128 `(27, 4)` to Route 129 `(59, 0)`:** From the sandbar at `(27, 4)`, wait `1000ms` for the dismount hop to finish, use **Surf** `Right` onto `(28, 4)`, surf via `(32, 4)` -> `(32, 10)` -> `(38, 10)` -> `(38, 12)` -> `(54, 12)` -> `Down` onto the sandbar at **`(54, 26)`**, use **Surf** `Right` onto `(55, 26)` -> `(56, 26)`, and surf south via `(56..59, 26..39)` into **Route 129 at `(59, 0)`**.
+## Route 129 (`(53, 0)` -> `(0, 18)` -> Route 130)
+- **North Entrance (from Route 128 `(59, 39)`):** `(53, 0)` (`x_route129 = x_route128 - 6`).
+- **Route 129 Trainers & Westbound Path:**
+  - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> west along `y = 13..16` to `(8, 16)`.
+  - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Staryu Lv. 34`.
 
 <hr>
 
