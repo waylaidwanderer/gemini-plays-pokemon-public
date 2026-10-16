@@ -627,7 +627,8 @@
 - **Path from Western Shore `(0, 15)` to Mossdeep Pokémon Center `(28, 16)`:**
   - Surf `Right` 9 from `(0, 15)` to step onto the walkable shallow water (`MB_SHALLOW_WATER`) at `(9, 15)`.
   - Walk `Right` 3 to `(12, 15)`, `Down` 12 along `x = 12` to `(12, 27)` (passing south of the Black Belt at `(19, 25..26)` and the cliff corner at `y = 24..26`), `Right` 13 along `y = 27` to `(25, 27)`, and `Up` 10 along `x = 25` up the white staircase `(25..26, 24..26)` to `(25, 17)`.
-  - From `(25, 17)`, walk `Right` 3 to `(28, 17)` and `Up` 1 into the **Mossdeep City Pokémon Center** at `(28, 16)` (exiting steps to `(28, 17)`). Note: **Steven Stone's House** is at `(18, 16)` to the west.
+  - From `(25, 17)`, walk `Right` 3 to `(28, 17)` and `Up` 1 into the **Mossdeep City Pokémon Center** at `(28, 16)` (exiting steps to `(28, 17)`).
+- **Steven Stone's House (`(19, 10)`):** Reached from the Pokémon Center `(28, 17)` via `Left` 7 along `y = 17` to `(21, 17)`, `Up` 6 along `x = 21` to `(21, 11)`, `Left` 2 to `(19, 11)`, and `Up` 1 into **`(19, 10)`** (exiting steps to `(19, 11)`). Note: `(18, 16)` is a resident's house to the south.
 - **Mossdeep Poké Mart:** Door at `(37, 18)` (reached from `(28, 17)` via `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 4 to `(37, 19)`, and `Up` 1 into `(37, 18)`; inside, walk `Up` 4 from `(3, 7)` to `(3, 3)` and face `Left` to speak to the clerk).
 - **Mossdeep City Gym:** Door at `(38, 9)` (exiting steps to `(38, 10)`). Reached from the Pokémon Center `(28, 17)` via `Right` 5 to `(33, 17)`, `Up` 7 along `x = 33` to `(33, 10)`, `Right` 5 along `y = 10` to `(38, 10)`, and `Up` 1 into `(38, 9)`.
 
