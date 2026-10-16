@@ -149,3 +149,11 @@
 - **`Underwater_Route126` (`(48, 68)` -> `(45, 65)`) & `Underwater_SootopolisCity`:**
   - After using **Dive** at `(48, 68)` on Route 126, swim `Left` 3 along `y = 68` to `(45, 68)` and `Up` 3 along `x = 45` (`(45, 68)` -> `(45, 66)` -> **`(45, 65)`**, completely bare floor with zero seaweed; note that the underwater cave arch spans `x = 44..45, y = 65`, and **only the right tile `(45, 65)`** is the active warp tile) into **`Underwater_SootopolisCity` at `(9, 8)`**.
   - Inside `Underwater_SootopolisCity` at `(9, 8)`, press **`B`** (`B, sleep 1500, A, sleep 1000, B, sleep 4500`) to surface into **Sootopolis City at `(29, 53)`**.
+## Sootopolis City (`(29, 53)` -> Pokémon Center `(43, 31)` & Outer Rim)
+- **Surfacing Point (from `Underwater_SootopolisCity` `(9, 8)`):** `(29, 53)`.
+- **Path from `(29, 53)` to Sootopolis City Pokémon Center `(43, 31)`:**
+  - Note: The western shore landing at `(16, 45)` (`x = 7..17, y = 38..47`) is an enclosed grass pocket walled off by cliffs; to access Sootopolis City's outer rim staircases, surf around Sootopolis Gym to the **Eastern Shore Landing at `(39, 37)`**.
+  - From `(29, 53)`, surf `Left` 13 to `(16, 53)` (or surf `Up`/`Right` around Sootopolis Gym): from `(24, 38)`, surf `Up` 12 along `x = 24` to `(24, 26)`, `Right` 14 along `y = 26` (north of Sootopolis Gym) to `(38, 26)`, `Down` 11 along `x = 38` to `(38, 37)`, and `Right` 2 onto the **Eastern Shore Landing at `(40, 37)`**.
+  - From `(40, 37)`, walk `Down` 1 to `(40, 38)` (around the signpost at `(41, 37)`), `Right` 3 to `(43, 38)`, and `Up` 7 along `x = 43` into the **Sootopolis City Pokémon Center at `(43, 31)`** (exiting steps to `(43, 32)`).
+- **Eastern Rim Staircase Entrance (`(48, 37)`):**
+  - From outside the Pokémon Center at `(43, 32)`, walk `Down` 6 along `x = 43` to `(43, 38)`, `Right` 5 along `y = 38` to `(48, 38)`, and `Up` 1 onto the **Eastern Rim White Staircase at `(48, 37)`**.
