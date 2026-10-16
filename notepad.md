@@ -593,11 +593,11 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. In battle with Gym Leader Brawly for the Knuckle Badge! Machop & Meditite defeated; both Brawly Super Potions burned. Facing ace Makuhita Lv 19 with Sage at full health (57/57 HP)!
+- Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. In battle with Gym Leader Brawly for the Knuckle Badge! Machop & Meditite defeated; both Brawly Super Potions burned. Facing ace Makuhita Lv 19 (~75% HP, Sitrus Berry unconsumed) with Sage at 34/57 HP!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 21) [Held Item: None (Oran Berry consumed in battle Turn 2767)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 57/57 (in battle vs Brawly). Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 21) [Held Item: None (Oran Berry consumed in battle Turn 2767)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 34/57 (in battle vs Brawly). Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
