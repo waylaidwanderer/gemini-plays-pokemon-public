@@ -39,5 +39,5 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 3. Tuber Lola & Tuber Chandler: [BATTLING]
    - Battle Type: 2-on-2 Double Battle.
    - Location: Under umbrellas at cols 23 & 27, row 7 on Route 109 beach.
-   - Teams: Tuber Lola: Azurill ♀ Lv 12 (fainted), Azurill ♀ Lv 12; Tuber Chandler: Tentacool ♂ Lv 12.
+   - Teams: Tuber Lola: Azurill ♀ Lv 12 (fainted), Azurill ♀ Lv 12 (fainted) [LOLA DEFEATED]; Tuber Chandler: Tentacool ♂ Lv 12.
    - Pre-battle Quotes: "Doesn't a beach umbrella look like a giant flower?", "Tadaah! See? My inner tube's round!"
