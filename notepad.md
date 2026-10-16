@@ -206,7 +206,7 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Eastern Grass Patch: Columns 19..24 at rows 24..25.
 - Eastern Corridor: Clear vertical dirt path along column 26 heading north toward central/north woods.
 - Devon Researcher Encounter: Located at (26, 19..22).
-- Northern Corridor: Column 26 terminates at row 16 against northern tree wall; clear dirt path turns West along row 16 (north of tall grass patch at rows 17..19) toward the northwest clearing and northern exit.
+- Northern Corridor: Column 26 terminates at row 16 against northern tree wall; clear dirt path turns West along row 16 (north of tall grass patch at rows 17..19) toward the northwest clearing and northern exit. (Note: The one-way ledge at row 14 spans cols 14-19, completely blocking northward passage from row 15. To travel northbound, row 16 must be followed all the way west to the clearing at cols 4-6 before heading north past Bug Catcher James to row 8, then east to the north exit at 14, 5).
 - Northwest Grass & Item Ball: Tall grass patch spans cols 4..10, rows 9..12. [COLLECTED] Ether at (4, 8) from (5, 8) facing West.
 - Northern Signpost & Exit: Signpost at (11, 8). Path leads north to Route 104 North gate.
 
