@@ -53,7 +53,7 @@
 8. [x] Receive PokéNav and Letter for Steven from Mr. Stone.
 9. [x] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
 10. [x] Speak to Fisherman in Dewford Town to receive the Old Rod.
-11. [ ] Explore Granite Cave (Route 106), received HM05 Flash; deliver Letter to Steven.
+11. [x] Explore Granite Cave (Route 106), received HM05 Flash; deliver Letter to Steven.
 12. [x] Defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
 
 ## Engine / Harness Mechanics Verified
