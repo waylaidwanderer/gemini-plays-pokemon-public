@@ -91,4 +91,3 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   3. 1 Left to (11, 19), 4 Up to (11, 15), 1 Right to (12, 15).
   4. 10 Up to (12, 5), 8 Left to (4, 5).
   5. 2 Up to stage at (4, 3) facing Brawly at (4, 2).
-- Status: Gym fully cleared, Leader Brawly defeated, Knuckle Badge and TM08 Bulk Up earned!

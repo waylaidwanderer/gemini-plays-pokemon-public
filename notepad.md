@@ -93,7 +93,6 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   3. 1 Left to (11, 19), 4 Up to (11, 15), 1 Right to (12, 15).
   4. 10 Up to (12, 5), 8 Left to (4, 5).
   5. 2 Up to stage at (4, 3) facing Brawly at (4, 2).
-- Status: Gym fully cleared, Leader Brawly defeated, Knuckle Badge and TM08 Bulk Up earned!
 
 <hr>
 
@@ -158,6 +157,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B1F & B2F (Lower Caverns)
 - B1F Southwest Ladder at (4, 21) connects to 1F (17, 11).
+- B1F Southwest Corridor Topography: From ladder (4, 21), stepping Up to (4, 19) and Left to (3, 19) is walkable; Up from (4, 19) and (3, 19) is blocked by cliff wall.
 - B1F Southeast Ladder at (28, 21) connects to B2F (28, 21).
 - B1F Accessible Corridor: Connects (4, 21) strictly to (28, 21); all northern probes (cols 7-22 along row 12) are blocked by solid walls at row 11.
 - B1F Southwest Ladder Dynamics: Ladder at (4, 21) ascends to 1F (17, 11). South of row 21 (row 22) is a solid cliff wall (cannot step down). The forward path to the Southeast Ladder at (28, 21) is accessed north and east around (4, 21) toward row 12.
@@ -626,10 +626,10 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered. Lotad (Lilz) learned HM05 Flash! Sage Lv 24 equipped with Oran Berry (HP 65/65). CRITICAL PATH VERIFIED: Visually confirmed on turn 3278 that the upper plateau ladder at (35, 2) on 1F is isolated by a one-way south-facing jump ledge (it is the exit from the lower levels). Steven's chamber MUST be reached via the cavern route: 1F ladder at (17, 11) -> B1F (use Flash) -> B2F -> ascending ladder to Steven's chamber! Currently returning to 1F ladder at (17, 11) to descend into B1F and deliver the Letter.
+- Status: Knuckle Badge earned! Exploring Granite Cave B1F with Flash enabled to reach B2F and Steven Stone's chamber. Currently catching wild Aron Lv 10 (party slot 4).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
