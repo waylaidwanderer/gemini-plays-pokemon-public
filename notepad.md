@@ -334,16 +334,19 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
 ## Landmarks & Features (East Section)
 - East entrance path: Begins at (79, 10) connecting seamlessly from Route 110 (0, 70).
 - Cut Tree: (72, 8) - [CLEARED] Cleared with HM01 Cut, opening passage north into upper terrace.
-- Item Ball: (65, 5) - Visible in western pine alcove.
+- Item Ball (Terrace): (65, 5) - Visible in central pine alcove.
+- Item Ball (West Coast): (~50, 5) - Located in northwest clearing north of Fisherman Andrew.
 - Cut Tree (Shortcut): (67, 6..7) - Cut tree directly north of Marcos serves as a vertical shortcut connecting to Rhett's upper terrace.
 - Berry Patch: Multi-plant soft soil berry patch located in the northwest clearing (Route 103 northwest).
+- Water Inlet: Located at cols 46..48 at western end of dirt road.
 - Trainers:
   - Aroma Lady Daisy: (71, 11) - [DEFEATED] Used Shroomish Lv 14, Roselia Lv 14. Prize: ¥560.
   - Guitarist Marcos: (67, 9) facing South - [DEFEATED]. Used Voltorb Lv 15. Awarded ¥480.
   - Black Belt Rhett: (67, 3) in upper terrace facing South - [DEFEATED]. Used Makuhita Lv 15. Awarded ¥480.
-  - Twins Amy & Liv: (64..65, 11..12) - [DEFEATED]. Double Battle pair on southern dirt road. Used Plusle ♂ Lv 15, Minun ♂ Lv 15.
-  - Pokéfan Miguel: (60, 13) - [DEFEATED]. Trainer on western dirt road facing East. Used Skitty ♀ Lv 15. Awarded ¥1200.
-  - Fisherman Andrew: (50, 9) facing South - Team: Magikarp Lv 5, Tentacool Lv 10, Magikarp Lv 15.
+  - Twins Amy & Liv: (64..65, 11..12) - [DEFEATED]. Double Battle pair on southern dirt road. Used Plusle ♂ Lv 15, Minun ♂ Lv 15. Awarded ¥360. Registered in Match Call.
+  - Pokéfan Miguel: (60, 13) - [DEFEATED]. Trainer on western dirt road facing East. Used Skitty ♀ Lv 15. Awarded ¥1200. Registered in Match Call.
+  - Fisherman Andrew: (50, 9) facing South - [DEFEATED]. Team: Magikarp Lv 5, Tentacool Lv 10, Magikarp Lv 15. Awarded ¥480.
+  - Fisherman (Waterfront NPC): (48, 12) facing West towards the sea.
 
 <hr>
 
