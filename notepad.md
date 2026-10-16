@@ -160,6 +160,8 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - B1F Southwest Ladder at (4, 21) connects to 1F (17, 11).
 - B1F Southeast Ladder at (28, 21) connects to B2F (28, 21).
 - B1F Accessible Corridor: Connects (4, 21) strictly to (28, 21); all northern probes (cols 7-22 along row 12) are blocked by solid walls at row 11.
+- B1F Southwest Ladder Dynamics: Ladder at (4, 21) ascends to 1F (17, 11). South of row 21 (row 22) is a solid cliff wall (cannot step down). The forward path to the Southeast Ladder at (28, 21) is accessed north and east around (4, 21) toward row 12.
+- Flash Persistence: HM05 Flash illumination persists across ladder transitions within Granite Cave without needing to be re-cast.
 - B2F Northwest corner contains mud slope (4, 13) and Rock Smash boulders (2, 16), (3, 14), (5, 14). (2, 15) is solid cliff wall. Full cavern exploration will be resumed with HM05 Flash enabled after defeating Brawly.
 
 ## Progression Checklist - Granite Cave
