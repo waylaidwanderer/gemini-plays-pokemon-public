@@ -32,3 +32,12 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - [ ] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge (enables HM05 Flash outside battle).
 - [ ] Return to Granite Cave with Flash enabled to locate Steven Stone and deliver President Stone's Letter.
 - [ ] Receive TM47 Steel Wing from Steven.
+## Grinding & Encounter Strategy (1F Runway)
+- Row 8 Runway: Open horizontal corridor spanning x=28 to x=35. Walking back and forth between x=28 and x=34 provides 100% safe, fast wild encounters without bumping into walls or NPCs.
+- Wild Encounter EXP Yields:
+  - Makuhita Lv 6: ~74 EXP
+  - Makuhita Lv 8: ~90-100 EXP
+  - Makuhita Lv 9: ~111 EXP
+  - Geodude Lv 8: ~98 EXP (4x weak to Grass; OHKO by Absorb which also restores full HP)
+- Battle Menu Navigation: In Pokémon Emerald, the FIGHT menu remembers the last selected move across turns and battles. Inputting Down then Left from any move position reliably navigates to Slot 3 (Absorb, bottom-left).
+- Start Menu Memory: The Start menu cursor retains the last opened item (e.g., BAG) rather than always defaulting to POKéDEX.
