@@ -6,7 +6,7 @@
 - Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Arrived at Route 109 / Slateport City! Checkpoint registered at Slateport City Pokémon Center! Spoke with Dock at Stern's Shipyard! Next: Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts, and deliver Devon Goods to Captain Stern. Party: Sage Lv 24, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 57/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 12) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 34/34. Status: OK. Stats: Atk 14, Def 12, Sp.Atk 12, Sp.Def 17, Speed 14.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 10) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 31/31. Stats: Atk 21, Def 29, Sp.Atk 14, Sp.Def 14, Speed 13. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Tackle (35/35), Harden (29/30), Mud-Slap (9/10), Headbutt (15/15). Status: OK.
@@ -22,7 +22,7 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥2476 (paid ¥50 museum admission; previously ¥2526)
+- Money: ¥2776 (earned ¥300 defeating Aqua Grunt 1; paid ¥50 museum admission)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
