@@ -92,7 +92,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 defeated cleanly with Absorb.
   - Meditite Lv 16 Focus Punch was cancelled 100% by Absorb, which also healed Sage to full 63/63 HP; Meditite absorbed both of Brawly's Super Potions before fainting to Pursuit.
   - Makuhita Lv 19: Vital Throw deals only 19 damage against Lv 23 Grovyle (compared to 38 damage against Lv 22). Oran Berry triggers below 50% (31.5 HP) to ensure complete survival.
-  - Quick Attack (Slot 4, Normal 40 BP, +1 priority) deals neutral damage against Fighting, making it our primary offensive finisher against Makuhita once Absorb PP is depleted.
+  - Neither battler has held recovery items remaining (Makuhita consumed Sitrus Berry, Sage consumed Oran Berry, leaving Sage at 22/63 HP). Brawly has 0 Super Potions remaining.
+  - Absorb PP remains at ~13/20 from the Turn 3080 Pokémon Center full heal. Absorb provides STAB Special Grass damage and vital HP recovery against Makuhita, with Quick Attack available for priority finishing.
 
 <hr>
 
@@ -622,7 +623,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Status: Level 23 achieved (full 63/63 HP, 20/20 Absorb PP, held Oran Berry). Standing at (12, 8) in Dewford Gym, approaching the central stage to defeat Gym Leader Brawly for the Knuckle Badge!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 23) [Held Item: None (Oran Berry consumed in Dewford Gym rematch)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 

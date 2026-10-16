@@ -90,4 +90,5 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 defeated cleanly with Absorb.
   - Meditite Lv 16 Focus Punch was cancelled 100% by Absorb, which also healed Sage to full 63/63 HP; Meditite absorbed both of Brawly's Super Potions before fainting to Pursuit.
   - Makuhita Lv 19: Vital Throw deals only 19 damage against Lv 23 Grovyle (compared to 38 damage against Lv 22). Oran Berry triggers below 50% (31.5 HP) to ensure complete survival.
-  - Quick Attack (Slot 4, Normal 40 BP, +1 priority) deals neutral damage against Fighting, making it our primary offensive finisher against Makuhita once Absorb PP is depleted.
+  - Neither battler has held recovery items remaining (Makuhita consumed Sitrus Berry, Sage consumed Oran Berry, leaving Sage at 22/63 HP). Brawly has 0 Super Potions remaining.
+  - Absorb PP remains at ~13/20 from the Turn 3080 Pokémon Center full heal. Absorb provides STAB Special Grass damage and vital HP recovery against Makuhita, with Quick Attack available for priority finishing.

@@ -6,7 +6,7 @@
 - Status: Level 23 achieved (full 63/63 HP, 20/20 Absorb PP, held Oran Berry). Standing at (12, 8) in Dewford Gym, approaching the central stage to defeat Gym Leader Brawly for the Knuckle Badge!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 23) [Held Item: None (Oran Berry consumed in Dewford Gym rematch)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
