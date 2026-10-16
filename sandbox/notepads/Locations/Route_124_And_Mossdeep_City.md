@@ -52,11 +52,11 @@
   - From `(8, 10)`, walk `Up` 1 to `(8, 9)`, `Right` 3 through `(9..10, 9)` to `(11, 9)`, `Up` 2 to `(11, 7)`, `Left` 1 to `(10, 7)`, and `Up` 4 through `(10, 6..4)` onto the teleporter at **`(10, 3)`**.
 - **Tate & Liza's Room (`(21, 10)` -> `(23..24, 7)`):**
   - Reached from Room 4's northern teleporter at **`(13, 31)`** (arriving in the 1-tile alcove at `(21, 10)`).
-  - Walk `Up` 1 from `(21, 10)` to `(21, 9)`, `Right` 2 along `y = 9` to `(23, 9)`, and `Up` 1 up the front platform steps onto `(23, 8)` to face **Gym Leaders Tate & Liza `(23..24, 7)`** (note: `(21, 7)` is the return teleporter pad to Room 1 `(7, 30)`).
+  - Walk `Up` 1 from `(21, 10)` to `(21, 9)`, `Right` 2 along `y = 9` to `(23, 9)`, and `Up` 1 up the front platform steps onto `(23, 8)` to face **Gym Leaders Tate & Liza `(23..24, 7)`**.
   - **Gym Leaders Tate & Liza Team (Double Battle, 2 Hyper Potions):**
     1. **Claydol Lv. 41** (`Earthquake`, `AncientPower`, `Psychic`, `Light Screen`)
     2. **Xatu Lv. 41** (`Psychic`, `Calm Mind`, `Confuse Ray`, `Sunny Day`)
     3. **Lunatone Lv. 42 [Sitrus Berry]** (`Psychic`, `Hypnosis`, `Calm Mind`, `Light Screen`)
     4. **Solrock Lv. 42 [Sitrus Berry]** (`SolarBeam`, `Sunny Day`, `Psychic`, `Flamethrower`)
     - *[Defeated & Registered — **Mind Badge** and **TM04 (Calm Mind)** obtained]*
-  - **Exit Route from `(23, 8)`:** Because `(21, 7)` is on the raised platform level, stay on the platform at `(23, 8)` and walk `Left` 1 to `(22, 8)`, `Up` 1 to `(22, 7)`, and `Left` 1 onto the glowing white return teleporter at **`(21, 7)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
+  - **Exit Route from `(23, 8)`:** Walk `Down` 1 to `(23, 9)`, `Left` 2 to `(21, 9)`, and `Up` 3 along `x = 21` onto the return teleporter at **`(21, 6)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
