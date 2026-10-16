@@ -915,7 +915,7 @@
       4. Walk `Right` 2 to `(22, 26)`, `Up` 1 to `(22, 25)`, and push the boulder at **`(21, 25)` `Left` 1 into `(20, 25)`**, then walk `Up` 4 along `x = 22` (`(22, 25) -> (22, 21)`) and `Left` 2 along `y = 21` onto the **Up-Ladder at `(20, 21)`** (warps to `VictoryRoad_1F (21, 31)`).
 - **`VictoryRoad_1F` Final Exit Stretch (`(21, 32)` -> Northern Exit):**
   - From the arrival ladder at `(21, 32)` (from `VictoryRoad_B1F (20, 21)`), walk `Up` 4 up the staircase `(21, 30..29)` to `(21, 28)`, `Right` 12 across the wooden bridge to `(33, 28)`, `Down` 3 down the staircase `(33, 29..30)` to `(33, 31)`, `Right` 3 to `(36, 31)`, `Up` 7 along `x = 36` to `(36, 24)`, `Down` 1 to `(36, 25)`, `Left` 2 to `(34, 25)`, `Up` 2 to `(34, 23)`, and `Left` 1 to `(33, 23)`.
-  - **Cooltrainer♂ Edgar `(33, 22)`:** Faces `Down` — `Cacturne Lv. 43` [Defeated — money `$46,303`].
+  - **Cooltrainer♂ Edgar `(33, 22)`:** Faces `Down` — `Cacturne Lv. 43`, `Pelipper Lv. 43` [In Battle at `(33, 23)` — `ATRITON` has `Dive` (`9/10` PP) and `Rock Smash` (`15/15` PP) remaining; `Surf` and `Strength` at `0/15` PP].
   - From `(33, 23)`, walk `Left` 2 to `(31, 23)` and `Up` along `x = 30..32` toward the northern exit of `VictoryRoad_1F`.
 
 <hr>
@@ -925,7 +925,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $46,303 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $44,239 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
