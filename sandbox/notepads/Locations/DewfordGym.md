@@ -63,8 +63,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-4. Sailor Brenden & Battle Girl Jocelyn: [BATTLING - DOUBLE BATTLE]
+4. Sailor Brenden & Battle Girl Lilith: [BATTLING - DOUBLE BATTLE]
    - Location: East Wing corridor at (15..16, 11..12).
-   - Brenden pre-battle: "I'll show you the gumption of a sailing man!"
-   - Jocelyn pre-battle: "Ufufu... Are you stumbling around in the dark?"
+   - Brenden: Machop ♂ Lv 13. Pre-battle: "I'll show you the gumption of a sailing man!"
+   - Lilith: Meditite ♀ Lv 13. Pre-battle: "Ufufu... Are you stumbling around in the dark?"
    - Battle Type: 2-on-2 Double Battle! Defeating both will expand gym illumination to maximum!
