@@ -801,6 +801,7 @@
     - From the east entrance `(59, 23)`, surf `Left` 7 to `(52, 20)` (defeat Swimmer♂ Kevin at `(52, 21)`), `Left` 2 to `(50, 20)`, `Up` 4 to `(50, 16)`, `Left` 3 to `(47, 16)`, `Up` 1 to `(47, 15)`, `Left` 7 to `(40, 15)`, `Down` 3 to `(40, 18)`, `Left` 7 to `(33, 18)`, `Down` 3 to `(33, 21)`, `Left` 3 to `(30, 21)`, and `Up` 3 to **`(30, 18)`**.
     - From **`(30, 18)`**, surf `Left` 3 around the pointed rock `(29..30, 16..17)` to **`(27, 18)`**, `Up` 4 along `x = 27` to **`(27, 14)`**, `Right` 9 straight along `y = 14` to **`(36, 14)`** (clamped by the pointed rock at `(37..38, 14..15)`), and `Up` 6 along `x = 36` onto the sandy beach at **`(36, 8)`**, then walk `Up` 2 into the **Sky Pillar Entrance Cave at `(36, 6)`**.
   - **`SkyPillar_Entrance` (`(6, 16)` -> `(14, 5)`):** From `(6, 16)`, walk `Up` 12 along `x = 6` to `(6, 4)`, `Right` 8 along `y = 4` to `(14, 4)`, and `Down` 1 onto the exit warp mat at **`(14, 5)`** (warps to `SkyPillar_Outside`).
+  - **`SkyPillar_Outside` (`(17, 14)` -> `(14, 5)`):** Emerging from `SkyPillar_Entrance` at `(17, 14)` automatically triggers **Wallace** to walk down and unlock the Sky Pillar tower door. After Wallace departs, walk `Left` 4 along `y = 14` to `(13, 14)`, `Up` around the western side of the central rock mound (`x = 12..13`), and `Right`/`Up` into the **Sky Pillar 1F doorway at `(14, 5)`**.
 
 <hr>
 
