@@ -713,6 +713,11 @@
   - Face `Right` at `(4, 10)` and use **Rock Smash** to break the rock at `(5, 10)`.
   - Walk `Down` 2 to `(4, 12)`, `Right` 1 to `(5, 12)`, face `Up`, activate **Strength**, and push the boulder at `(5, 11)` `Up` 1 into `(5, 10)`.
   - Walk `Up` 1 to `(5, 11)`, `Right` 6 along `y = 11` to `(11, 11)`, `Right` 1 and `Up` 1 onto `(12, 10)`, `Up` 3 along `x = 12` to `(12, 7)`, `Left` 1 to `(11, 7)`, `Up` 1 to `(11, 6)`, `Left` 1 to `(10, 6)`, `Up` 1 to `(10, 5)`, `Left` 4 along `y = 5` (passing north of the rotating Team Aqua Grunt at `(8, 6)`) to `(6, 5)`, and `Up` 4 into the northern doorway at **`(6, 1)`** (warps to `SeafloorCavern_Room2` at `(10, 7)`).
+- **`SeafloorCavern_Room2` (`(10, 7)` -> `(11, 1)`):**
+  - Do NOT push the central boulder at `(7, 4)` `Up` into `(7, 3)` (doing so blocks `(7, 3)`).
+  - Instead, from `(10, 7)`, walk `Left` 1 to `(9, 7)`, face `Left` to smash the **Rock Smash rock at `(8, 7)`**, walk `Left` 5 across `(8..4, 7)` to `(4, 7)`, and `Up` 1 to `(4, 6)`.
+  - At `(4, 6)`, activate **Strength** facing `Up` and push the western boulder at `(4, 5)` `Up` 3 times (`(4, 5)` -> `(4, 4)` -> `(4, 3)` -> `(4, 2)`).
+  - Walk `Up` 1 to `(4, 3)`, `Right` 4 across `(5..8, 3)` (passing above the untouched boulder at `(7, 4)`) to `(8, 3)`, smash the **Rock Smash rock at `(9, 3)`**, step `Right` onto `(9, 3)`, push the boulder at `(10, 3)` `Right` 2 times (`(10, 3)` -> `(11, 3)` -> `(12, 3)`), and walk from `(10, 3)` via `Right` 1, `Up` 2 into the **Top-Right Doorway at `(11, 1)`** (warps to `SeafloorCavern_Room3`). Note: the Top-Left Doorway at `(6, 1)` warps to the south entrance of `SeafloorCavern_Room6` `(11, 21)`, which is blocked by downward currents.
 
 <hr>
 
