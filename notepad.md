@@ -717,7 +717,9 @@
   - Do NOT push the central boulder at `(7, 4)` `Up` into `(7, 3)` (doing so blocks `(7, 3)`).
   - Instead, from `(10, 7)`, walk `Left` 1 to `(9, 7)`, face `Left` to smash the **Rock Smash rock at `(8, 7)`**, walk `Left` 5 across `(8..4, 7)` to `(4, 7)`, and `Up` 1 to `(4, 6)`.
   - At `(4, 6)`, activate **Strength** facing `Up` and push the western boulder at `(4, 5)` `Up` 3 times (`(4, 5)` -> `(4, 4)` -> `(4, 3)` -> `(4, 2)`).
-  - Walk `Up` 1 to `(4, 3)`, `Right` 4 across `(5..8, 3)` (passing above the untouched boulder at `(7, 4)`) to `(8, 3)`, smash the **Rock Smash rock at `(9, 3)`**, step `Right` onto `(9, 3)`, push the boulder at `(10, 3)` `Right` 2 times (`(10, 3)` -> `(11, 3)` -> `(12, 3)`), and walk from `(10, 3)` via `Right` 1, `Up` 2 into the **Top-Right Doorway at `(11, 1)`** (warps to `SeafloorCavern_Room3`). Note: the Top-Left Doorway at `(6, 1)` warps to the south entrance of `SeafloorCavern_Room6` `(11, 21)`, which is blocked by downward currents.
+  - Walk `Up` 1 to `(4, 3)`, `Right` 4 across `(5..8, 3)` (passing above the untouched boulder at `(7, 4)`) to `(8, 3)`, smash the **Rock Smash rock at `(9, 3)`**, step `Right` onto `(9, 3)`, push the boulder at `(10, 3)` `Right` 2 times (`(10, 3)` -> `(11, 3)` -> `(12, 3)`), and walk from `(10, 3)` via `Right` 1, `Up` 2 into the **Top-Right Doorway at `(11, 1)`** (warps to the southwest shore of `SeafloorCavern_Room6` at `(3, 23)`). Note: the Top-Left Doorway at `(6, 1)` warps to the south-central entrance of `SeafloorCavern_Room6` `(11, 21)`, which is blocked by downward currents.
+- **`SeafloorCavern_Room6` (Water Current Room, `(3, 23)` -> North):**
+  - From `(3, 23)`, walk `Up` 4 to `(3, 19)`. Do NOT surf `Up` onto `(3, 18)` (which is a downward current). Instead, face `Right` at `(3, 19)` and use **Surf** onto the calm water channel `(4..11, 19)`.
 
 <hr>
 
