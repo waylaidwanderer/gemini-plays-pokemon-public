@@ -37,24 +37,21 @@
 - Route 103: North exit of town (where Brendan was defeated).
 - Route 102: West exit of town (footprint NPC now unblocked!).
 
-## Progression History - Phase 1, 2 & 3 (Completed)
+## Progression History - Phase 1, 2, 3 & 4 (Completed)
 - Phase 1: Intro, clock set, PC Potion, rival meeting, Birch rescue, and Treecko (SAGE).
 - Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan, Running Shoes received from Mom.
 - Phase 3: Route 102 cleared (Calvin, Rick, Allen, Tiana defeated; caught Lotad LILZ), Petalburg City Gym visit with Dad, assisted Wally catching Ralts, Route 104 traversed (Cindy, Winston, Haley, Gina & Mia, Ivan defeated; Wailmer Pail and Bullet Seed obtained), Petalburg Woods cleared (rescued Devon researcher, defeated Aqua Grunt, Lyle, James), Rustboro City explored (Cut HM01 and Quick Claw obtained), Rustboro Gym cleared (Josh, Tommy & Marc, and Gym Leader Roxanne defeated; Stone Badge and TM39 Rock Tomb earned; Sage evolved to Grovyle Lv 16).
+- Phase 4: Recovered stolen Devon Goods & rescued Peeko in Rusturf Tunnel, met Mr. Stone at Devon Corp and received PokéNav + Letter, sailed with Mr. Briney to Dewford Town, obtained Old Rod and HM05 Flash, delivered Letter to Steven Stone in Granite Cave (received TM47 Steel Wing), and defeated Gym Leader Brawly to earn the Knuckle Badge and TM08 Bulk Up.
 
-## Progression Checklist - Phase 4 (Active)
-1. [x] Defeat Gym Leader Roxanne and earn Stone Badge & TM39 Rock Tomb.
-2. [x] Sage evolved into Grovyle and learned Fury Cutter!
-3. [x] Witness Devon Goods robbery outside Gym and speak with Devon Researcher.
-4. [x] Heal party at Rustboro Pokémon Center (Sage HP 43/43, Lilz HP 28/28).
-5. [x] Travel east through Rustboro City onto Route 116 toward Rusturf Tunnel.
-6. [x] Enter Rusturf Tunnel, defeat Team Aqua Grunt, and recover Devon Goods & rescue Peeko.
-7. [x] Return to Rustboro City; deliver Devon Goods to Devon Researcher; meet Mr. Stone at Devon Corp.
-8. [x] Receive PokéNav and Letter for Steven from Mr. Stone.
-9. [x] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
-10. [x] Speak to Fisherman in Dewford Town to receive the Old Rod.
-11. [x] Explore Granite Cave (Route 106), received HM05 Flash; deliver Letter to Steven.
-12. [x] Defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
+## Progression Checklist - Phase 5: Slateport City & Route 110 (Active)
+1. [x] Sail with Mr. Briney from Dewford Town to Route 109 beach.
+2. [x] Defeat beach trainers on Route 109 (Edmond & Hailey, Ricky, Lola & Chandler; found hidden Potion).
+3. [x] Enter Slateport City and heal/register checkpoint at Pokémon Center.
+4. [ ] Visit Stern's Shipyard in southeast Slateport City at (23..24, 40) and speak with Dock on 1F.
+5. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
+6. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F of Oceanic Museum.
+7. [ ] Explore town landmarks (Slateport Market, Battle Tent, Name Rater).
+8. [ ] Travel north onto Route 110 towards Mauville City.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
