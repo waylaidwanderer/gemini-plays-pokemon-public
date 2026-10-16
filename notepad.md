@@ -722,6 +722,13 @@
   - From `(3, 23)`, walk `Up` 2 to `(3, 21)` and `Right` 5 to `(8, 21)`, face `Right` to use **Surf** onto `(9, 21)`, surf `Right` 1 and `Down` 2 to `(10, 23)`, and surf `Right` 6 along `y = 23` onto the current at **`(16, 23)`** (slides `Right` to `(18, 23)` and `Up` to `(18, 12)`).
   - From `(18, 12)`, surf `Right` 1 onto the eastern calm water lane `(19, 12)` and `Up` 8 along `x = 19` onto the current at **`(19, 4)`** (slides via `(15, 4)` -> `(15, 7)` -> `(4, 7)` onto the calm water tile at **`(4, 10)`**).
   - From `(4, 10)`, surf `Left` 1 onto the western calm water lane `(3, 10)` and `Up` 7 along `x = 3` onto the northwest shore at **`(3, 3)`**, then walk `Right` 2 and `Up` 2 into the northern doorway at **`(5, 1)`** (warps to `SeafloorCavern_Room7`).
+- **`SeafloorCavern_Room4` (Checkerboard Boulder & Shelly Room, `(9, 13)` -> `(8, 1)`):**
+  - Taking the left corridor (`x = 6..7`) walks into the line of sight of the Team Aqua Grunt at `(5, 5)` and Team Aqua Admin Shelly at `(9, 5)` along `y = 5`.
+  - To bypass them via the right-side checkerboard boulder puzzle (`x = 11..13, y = 7..11`), use **5 boulder pushes**:
+    1. Walk `Right` 4 and `Up` 2 from `(9, 13)` to `(13, 11)`, face `Left`, activate **Strength**, and push **`(12, 11)` `Left` 1 into `(11, 11)`**.
+    2. Walk `Left` 1 and `Up` 1 to `(12, 10)` and push **`(12, 9)` `Up` 1 into `(12, 8)`**.
+    3. Walk `Up` 1 and `Left` 1 to `(11, 9)` and push **`(11, 8)` `Up` 3 times** along `x = 11` (`(11, 8)` -> `(11, 7)` -> `(11, 6)` -> `(11, 4)`).
+  - From `(11, 6)`, walk `Up` 1 to `(11, 5)`, `Left` 1 to `(10, 5)` (behind Shelly at `(9, 5)`), `Up` 2 to `(10, 3)`, `Left` 2 to `(8, 3)`, and `Up` 2 into the northern doorway at **`(8, 1)`**.
 
 <hr>
 
