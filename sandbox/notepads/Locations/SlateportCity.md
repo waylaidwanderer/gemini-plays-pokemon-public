@@ -41,5 +41,5 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Stern's Shipyard Interior: 1F entrance warp at (2, 14). Stairs to 2F along east wall (cols 5..7). Main workshop floor extends north along cols 3..10. Dock stands at (5, 4) next to the large ship blueprint drafting table at (4..5, 5..6)!
 - Oceanic Museum Interior: 1F entrance mat at (9, 8). Dual reception counters at (6..8, 5..7) and (10..12, 5..7). Center walkway runs along col 9. Team Aqua Grunts scattered admiring exhibits on 1F. Stairs to 2F located in the museum.
 - Grunt at (2, 8): Mentions waiting for their Boss, the linchpin.
-- TM46 Thief: Obtained from reformed Team Aqua Grunt on 1F (checking Grunt at 6, 2).
-- Oceanic Museum Stairs to 2F: Located along the north wall at cols 3..4, rows 0..1.
+- Oceanic Museum Stairs to 2F: Located along the north wall at col 6, row 1 (entrance archway at 6, 1 approached from 6, 2).
+- TM46 Thief: Obtained from reformed Team Aqua Grunt on 1F (checking Grunt at 8, 3).
