@@ -59,7 +59,7 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 2. Black Belt Takao:
    - Location: Column 2 corridor at (2, 18), spotted May at (2, 16) from the north.
    - Pre-battle: "Might is right! Come on!"
-   - Team: Machop ♂ Lv 13 (Battle in progress: Turn 1 Sage used Fury Cutter)
+   - Team: Machop ♂ Lv 13 (Machop HP ~85%, Sage HP 42/53, Turn 2: selecting Absorb)
    - Status: Battle in progress.
 
 <hr>
