@@ -161,3 +161,6 @@
 - **Steven Stone Escort to Cave of Origin (`(20, 36)` -> `(31, 17)`):**
   - During the Groudon vs. Kyogre crisis, all other staircases in Sootopolis City are blocked by NPCs (`(13, 48)` on the southwest shore and `(46, 32)`/`(47, 33)` on the eastern terrace).
   - To reach **Steven Stone at `(20, 36)`**: surf to **`(23, 37)`** (west of Sootopolis Gym), press `Left` to step ashore onto **`(22, 37)`**, walk `Left` 2 to **`(20, 37)`**, face `Up`, and press **`A`** to speak with **Steven Stone at `(20, 36)`**, who automatically escorts the player up the staircase at `(19..20, 35)` to the **Cave of Origin entrance at `(31, 17)`**.
+- **Cave of Origin (`CaveOfOrigin_Entrance` `(9, 20)` -> `CaveOfOrigin_1F` `(11, 17)`):**
+  - Finishing Steven Stone's dialogue outside the Cave of Origin automatically warps the player into `CaveOfOrigin_Entrance` at **`(9, 20)`**.
+  - Inside `CaveOfOrigin_Entrance`, walk straight `Up` 15 along `x = 9` from `(9, 20)` to **`(9, 5)`** to warp into **`CaveOfOrigin_1F` at `(11, 17)`**.

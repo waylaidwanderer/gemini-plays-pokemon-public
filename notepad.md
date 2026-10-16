@@ -773,6 +773,9 @@
 - **Steven Stone Escort to Cave of Origin (`(20, 36)` -> `(31, 17)`):**
   - During the Groudon vs. Kyogre crisis, all other staircases in Sootopolis City are blocked by NPCs (`(13, 48)` on the southwest shore and `(46, 32)`/`(47, 33)` on the eastern terrace).
   - To reach **Steven Stone at `(20, 36)`**: surf to **`(23, 37)`** (west of Sootopolis Gym), press `Left` to step ashore onto **`(22, 37)`**, walk `Left` 2 to **`(20, 37)`**, face `Up`, and press **`A`** to speak with **Steven Stone at `(20, 36)`**, who automatically escorts the player up the staircase at `(19..20, 35)` to the **Cave of Origin entrance at `(31, 17)`**.
+- **Cave of Origin (`CaveOfOrigin_Entrance` `(9, 20)` -> `CaveOfOrigin_1F` `(11, 17)`):**
+  - Finishing Steven Stone's dialogue outside the Cave of Origin automatically warps the player into `CaveOfOrigin_Entrance` at **`(9, 20)`**.
+  - Inside `CaveOfOrigin_Entrance`, walk straight `Up` 15 along `x = 9` from `(9, 20)` to **`(9, 5)`** to warp into **`CaveOfOrigin_1F` at `(11, 17)`**.
 
 <hr>
 
@@ -781,7 +784,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $13,116 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $13,388 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
