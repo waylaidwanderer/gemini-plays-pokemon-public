@@ -890,10 +890,22 @@
     - After defeating Shannon at `(26, 14)`, walk `Left` 1 from `(26, 13)` to `(25, 13)`, `Down` 2 to `(25, 15)`, `Right` 1 to `(26, 15)`, `Down` 4 along `x = 26` to `(26, 19)`, `Right` 6 along `y = 19` to `(32, 19)`, `Up` 3 up the staircase `(32, 18..17)` to `(32, 16)`, and `Right` 10 across the wooden bridge `(36..40, 16)` to `(42, 16)`.
     - From `(42, 16)`, walk `Down` 6 along `x = 42` to `(42, 22)`, `Left` 1 to `(41, 22)`, and `Down` 3 down the staircase `(41, 23..24)` to **`(41, 25)`** (note: `(42, 25)` is the optional up-ladder to the `VictoryRoad_1F (42, 38)` item alcove).
   - **Path from `(41, 25)` to `VictoryRoad_B2F` Ladder `(30, 25)`:**
-    - From `(41, 25)`, walk `Left` 2 across the west-facing 1-way ledge at `(39, 25)` onto **`(38, 25)`** (note: walking north from `(38, 25)` along `x = 37..38` underneath the wooden bridge `(36..40, 15..16)` leads to **Cooltrainer♂ Samuel `(37, 12)`** — `Swellow Lv. 42`, `Mawile Lv. 42`, `Kadabra Lv. 42` [Defeated from `(36, 12)`], an optional boulder/item alcove at `(35, 6) -> (32, 3)`, and a return shortcut staircase/bridge at `(32, 11..10) -> (32, 8) -> (21, 8) -> (21, 12) -> (18, 12)`).
+    - From `(41, 25)`, walk `Left` 2 across the west-facing 1-way ledge at `(39, 25)` onto **`(38, 25)`** (note: walking north from `(38, 25)` along `x = 37..38` underneath the wooden bridge `(36..40, 15..16)` leads to **Cooltrainer♂ Samuel `(37, 12)`** — `Swellow Lv. 42`, `Mawile Lv. 42`, `Kadabra Lv. 42` [Defeated from `(36, 12)` — money `$40,159`], an optional boulder/item alcove at `(35, 6) -> (32, 3)`, and a return shortcut staircase/bridge at `(32, 11..10) -> (32, 8) -> (21, 8) -> (21, 12) -> (18, 12)`).
     - From **`(38, 25)`**, walk `Down` 1 to `(38, 26)`, `Left` 8 along `y = 26` (passing south of the rock `(34..36, 22..25)`) to `(30, 26)`, and `Up` 1 onto the **`VictoryRoad_B2F` Down-Ladder at `(30, 25)`**.
-- **`VictoryRoad_B2F` (`(30, 25)` -> Cooltrainer♀ Julie `(35, 22)`):**
-  - From the arrival ladder at `(30, 25)`, walk `Right` 3 to `(33, 25)` and `Up` 3 along `x = 33` to `(33, 22)` to battle **Cooltrainer♀ Julie `(35, 22)`** (`Sandslash Lv. 42`, `Tropius Lv. 42`, plus 1 more Pokémon; use `Dive` when `Tropius` charges `SolarBeam` to dodge it underwater).
+- **`VictoryRoad_B2F` (`(30, 25)` -> River, Waterfalls & Exits):**
+  - **Cooltrainer♀ Julie `(35, 22)` & Lower River Surf Entry `(35, 17)`:**
+    - From the arrival ladder at `(30, 25)`, walk `Right` 3 to `(33, 25)` and `Up` 3 along `x = 33` to `(33, 22)` to battle **Cooltrainer♀ Julie `(35, 22)`** (`Sandslash Lv. 42`, `Tropius Lv. 42`, `Ninetales Lv. 42` [Defeated — money `$42,175`]; use `Dive` when `Tropius` charges `SolarBeam` to dodge it underwater, then finish with `Strength`).
+    - From `(33, 22)`, walk `Up` 5 via `(33..35, 21..17)` underneath the overhead wooden bridge `(28..38, 18..19)` to the water edge at **`(35, 17)`** and use **Surf** `Up` onto `(35, 16)`.
+  - **Eastern Waterfall `(25, 12)`, Upper River & Western Waterfall `(8, 10)`:**
+    - A rock in the lower river at `(23, 15)` separates the eastern lower river (`x = 24..35, y = 14..15`) from the western lower river (`x = 6..22, y = 14..15`), and the southern shoreline along `y = 16..18` is an impassable 3-step contour ridge wall.
+    - From `(35, 16)`, surf `Up` 1 to `(35, 15)`, `Left` 10 along `y = 15` to `(25, 15)`, and `Up` 3 to the base of the **Eastern Waterfall at `(25, 12)`**, then use **Waterfall** to climb to **`(25, 8)`** on the upper river.
+    - From `(25, 8)`, surf `Up` 5 to `(25, 3)` and `Left` 17 along `y = 3` (bypassing the Cooltrainer♂ on the shore at `(15, 6)`) to `(8, 3)`, then surf `Down` 7 along `x = 8` to **`(8, 10)`** (note: `(6, 6..10)` is an enclosed western shore pocket, and pressing `Down` at `(8, 10)` rides down the **Western Waterfall** to **`(8, 14)`**).
+  - **Western Lower River & Optional Up-Ladder `(19, 12)`:**
+    - From `(8, 14)` at the bottom of the Western Waterfall, surfing `Right` 9 along `y = 14` to `(17, 14)`, `Up` 1 to `(17, 13)`, and stepping `Right` 1 ashore onto `(18, 13)` leads to the **Optional Up-Ladder at `(19, 12)`** (warps to `VictoryRoad_B1F (17, 16)` in the southwestern B1F chamber).
+  - **Remaining Unexplored Leads on `VictoryRoad_B2F`:**
+    - North-west corner of the upper river at `(7, 2) -> (5, 1)` (checking if it connects to the western corridor `x = 2` where a Cooltrainer♀ stands at `(2, 17)`).
+    - Upper-river eastern bank landing at `(28, 5..6)` (east of `(25, 8)` from Turn 2325's grid).
+    - Southern/eastern paths from `(30, 25)` and `(33, 22)` (east past Cooltrainer♀ Julie at `(34, 22)` or west/south from `(30, 25)` to reach the overhead wooden bridge `(28..38, 18..19)`).
 
 <hr>
 
@@ -902,7 +914,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $38,143 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $42,175 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
