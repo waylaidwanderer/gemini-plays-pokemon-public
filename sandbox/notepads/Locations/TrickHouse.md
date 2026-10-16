@@ -20,3 +20,6 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Cut Tree #2: Located at (14, 14), blocking the eastern corridor heading north along col 14. Interacted from (14, 15) facing North.
 - Cut Tree #3: Located on the boardwalk at (7, 10).
 - Round green hedges: Decorative barriers on the elevated boardwalks (e.g. at (10, 12) and (10, 16)).
+- Trainer 3: Youngster at (14, 7) facing South along column 14.
+- Cut Tree at (12, 5): Located along the northern corridor.
+- Cut Tree at (5, 8): Located on the western boardwalk section.
