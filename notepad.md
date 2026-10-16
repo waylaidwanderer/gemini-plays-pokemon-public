@@ -623,7 +623,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered. Lotad (Lilz) learned HM05 Flash! Sage Lv 24 equipped with Oran Berry, party fully healed at Dewford Pokémon Center (HP 65/65). Next: exit Pokémon Center, head north to Route 106 / Granite Cave with Flash enabled to find Steven Stone and deliver the Letter.
+- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered. Lotad (Lilz) learned HM05 Flash! Sage Lv 24 equipped with Oran Berry (HP 65/65). Currently on Granite Cave B1F at (4, 21) activating Flash with Lilz. Next: illuminate B1F, navigate east along corridor to southeast ladder at (28, 21), descend to B2F to find Steven Stone and deliver President Stone's Letter.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
