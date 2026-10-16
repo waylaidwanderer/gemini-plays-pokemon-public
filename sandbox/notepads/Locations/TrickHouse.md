@@ -14,8 +14,8 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 ## Puzzle 1 (Cut Maze)
 - Entrance warp mat: (0, 21), player enters at (0, 20).
 - Walkway along row 20 extends east to col 8..9.
-- Trainer 1: Lass at (9, 20) facing West. Pre-battle quote: "I'll hack and slash my way to victory with the CUT we just learned!"
-- Cut tree located to the east of Lass near col 12, row 19.
+- Trainer 1: Lass Sally at (9, 20) facing West [DEFEATED]. Used Oddish Lv 16. Awarded ¥256.
+- Cut Tree #1: Located at (13, 19), blocking the passage to the upper floor from row 20. Interacted from (13, 20) facing North.
 - Secret Scroll: Located on tatami mat at (4, 15).
 - Trainer 2: Lass at (4, 13) facing South guarding the area above the scroll.
 - Objective: Find the secret scroll to memorize the password, cut through trees, and reach the back room scroll door.
