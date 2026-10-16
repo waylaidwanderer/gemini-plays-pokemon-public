@@ -41,3 +41,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Geodude Lv 8: ~98 EXP (4x weak to Grass; OHKO by Absorb which also restores full HP)
 - Battle Menu Navigation: In Pokémon Emerald, the FIGHT menu remembers the last selected move across turns and battles. Inputting Down then Left from any move position reliably navigates to Slot 3 (Absorb, bottom-left).
 - Start Menu Memory: The Start menu cursor retains the last opened item (e.g., BAG) rather than always defaulting to POKéDEX.
+- EXP Bar Calibration: In Gen 3 Emerald battle box, the EXP bar is 64 pixels wide (X: 158..221). Pixel analysis at turn 3029/3032 confirmed Sage is at 37/64 pixels (~58%, ~880/1517 EXP).
+- Move Targeting Formats:
+  - Slot 3 (Absorb, bottom-left): Input `Down` then `Left` from any move position.
+  - Slot 4 (Quick Attack, bottom-right): Input `Down` then `Right` from any move position. Quick Attack cleanly OHKOs wild Zubat Lv 7 before it can act.
