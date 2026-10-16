@@ -748,7 +748,7 @@
     - Walk straight `Down` 19 along `x = 12` from `(12, 8)` to `(12, 27)` (note: `(13..17, 26..28)` is a dead-end contour basin to the east).
     - From `(12, 27)`, walk `Left` 4 along `y = 27` (between the upper rock wall at `y = 25..26` and the lower contour ridge at `y = 28..29`) to `(8, 27)`.
     - Follow the western corridor south: `Down` 4 to `(8, 31)`, `Left` 1 to `(7, 31)`, `Down` 2 to `(7, 33)`, `Left` 1 to `(6, 33)`, `Down` 5 to `(6, 38)`, `Right` 1 to `(7, 38)`, and `Down` 2 to `(7, 40)`.
-    - Follow the southern shoreline east: `Right` 5 to `(12, 40)`, `Down` 1 to `(12, 41)`, `Right` 1 to `(13, 41)`, `Down` 1 to `(13, 42)`, and `Right` 4 along `y = 42` to **`(17, 42)`** (stepping onto `(17, 42)` and pressing `Up` or any direction triggers **Team Aqua Leader Archie**).
+    - Follow the southern shoreline east: `Right` 5 to `(12, 40)`, `Down` 1 to `(12, 41)`, `Right` 1 to `(13, 41)`, `Down` 1 to `(13, 42)`, and `Right` 4 along `y = 42` to **`(17, 42)`** (stepping onto `(17, 42)` and pressing `Up` or any direction triggers **Team Aqua Leader Archie** — `Mightyena Lv. 41`, `Crobat Lv. 41`, `Sharpedo Lv. 43` [Defeated — awakens Kyogre and warps to Route 128]).
 
 <hr>
 
@@ -757,12 +757,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,676 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $13,116 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 51 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 52 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
