@@ -704,7 +704,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 28/28. Status: OK.
+2. LILZ (Lotad ♀, Level 10) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 30/30. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 10) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 31/31. Stats: Atk 21, Def 29, Sp.Atk 14, Sp.Def 14, Speed 13. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Tackle (35/35), Harden (29/30), Mud-Slap (9/10), Headbutt (15/15). Status: OK.
 
