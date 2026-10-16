@@ -918,8 +918,12 @@
   - **Cooltrainer♂ Edgar `(33, 22)`:** Faces `Down` — `Cacturne Lv. 43`, `Pelipper Lv. 43` [Defeated — money `$46,303`].
   - **Under-Bridge Trainer Pair at `(29, 17)` & `(31, 17)`:** Stand on the lower ground corridor underneath the wooden bridge `(27..35, 17)` facing each other across `(30, 17)` (only their hair peeks above the bridge rail at `y = 16`). Walking `Up` along `x = 32` to `(32, 18)` and pressing `A` facing `Up` side-talks **Cooltrainer♂ Quincy `(31, 17)`** (`Slaking Lv. 43` [1 Full Restore], `Dusclops Lv. 43` [Defeated — money `$48,367`]) in a 1v1 Single Battle instead of triggering a Double Battle at `(30, 17)`. Use `Rock Smash` to defeat `Slaking Lv. 43` and preserve `Dive` PP for Ghost-type `Dusclops Lv. 43`.
   - **Cooltrainer♀ Katelynn `(29, 17)`:** Faces `Right` toward `(30, 17)` underneath the wooden bridge — `Gardevoir Lv. 43`, `Slaking Lv. 43` [Defeated at `(30, 17)` — money `$50,431`; `ATRITON` grew to Lv. 58].
-  - **Path from `(30, 17)` to Northern Exit `(39, 6)` -> Ever Grande City (North) `(18, 28)`:**
+  - **Path from `(30, 17)` to Northern Exit `(39, 6)` -> Ever Grande City (North) `(18, 28)` & Pokémon League Lobby `(18, 5)`:**
     - Walk `Up` 13 along `x = 30` from `(30, 17)` to `(30, 4)`, `Right` 9 along `y = 4` to `(39, 4)`, and `Down` 2 onto the glowing exit mat at **`(39, 6)`**, which exits `VictoryRoad_1F` into northern **Ever Grande City at `(18, 28)`** (outside the northern Victory Road cave door `(18, 27)`). Note: `(40, 3)` is a Rock Smash rock blocking the post-game side passage at `(42, 3)`.
+    - From `Ever Grande City (18, 28)`, walk `Down` 2 to `(18, 30)`, `Right` 7 along `y = 30` to `(25, 30)`, `Up` 14 along `x = 25` up the stairs and through the archway to `(25, 16)`, `Left` 7 along `y = 16` to `(18, 16)`, and `Up` 11 up the grand staircase into the **Pokémon League Lobby (`EverGrandeCity_PokemonLeague_1F`) door at `(18, 5)`** (arriving inside at `(9, 11)`; exiting steps to `(18, 6)`).
+    - **Pokémon League Lobby (`EverGrandeCity_PokemonLeague_1F`):**
+      - **Nurse Joy:** Stand at **`(3, 4)`** facing `Up` (heals party and unlocks the northern **Ever Grande City — Pokémon League** Fly destination).
+      - **Poké Mart Clerk:** Stand at **`(16, 4)`** facing `Up` (sells `Ultra Ball $1200`, `Hyper Potion $1200`, `Max Potion $2500`, `Full Restore $3000`, `Full Heal $600`, `Revive $1500`, `Max Repel $700`).
 
 <hr>
 
@@ -933,7 +937,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 57 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 58 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
