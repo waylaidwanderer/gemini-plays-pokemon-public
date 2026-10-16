@@ -818,8 +818,8 @@
   - From `SkyPillar_3F` `(6, 4)`, walk `Right` 1 to `(7, 4)` and `Up` 3 into the center-north staircase at **`(7, 1)`**, which warps back up to **`SkyPillar_4F` at `(7, 2)`** (to the left of the rubble rock at `(8, 2)`).
   - From `SkyPillar_4F` `(7, 2)`, walk `Left` 4 along `y = 2` to `(3, 2)` and `Up` 1 into the staircase at **`(3, 1)`** (warps to `SkyPillar_5F` at `(3, 2)`).
 - **`SkyPillar_5F` (`(3, 2)` -> `(10, 1)`):**
-  - On 5F, the central pit is wider (`x = 3..10, y = 4..10`), and rubble rocks at `(9, 2)` and `(8, 3)` block the direct northern path to `(10, 1)`.
-  - From `(3, 2)`, walk `Left` 1 to `(2, 2)`, `Down` 9 along `x = 2` to `(2, 11)`, `Right` 9 along `y = 11` to `(11, 11)`, `Up` 9 along `x = 11` to `(11, 2)`, `Left` 1 to `(10, 2)`, and `Up` 1 into the staircase at **`(10, 1)`** (warps to `SkyPillar_Top`).
+  - On 5F, the central pit is wider and deeper (`x = 3..10, y = 4..11`), and rubble rocks at `(9, 2)` and `(8, 3)` block the direct northern path to `(10, 1)`.
+  - From `(3, 2)`, walk `Left` 1 to `(2, 2)`, `Down` 10 along `x = 2` to `(2, 12)`, `Right` 9 along `y = 12` to `(11, 12)`, `Up` 10 along `x = 11` to `(11, 2)`, `Left` 1 to `(10, 2)`, and `Up` 1 into the staircase at **`(10, 1)`** (warps to `SkyPillar_Top`).
 
 <hr>
 
