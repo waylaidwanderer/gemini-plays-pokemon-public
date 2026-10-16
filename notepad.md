@@ -469,7 +469,8 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
    - Battle Type: 2-on-2 Double Battle.
    - Location: Triggered at (19, 13) on row 13. Sailor Edmond at (24, 13) facing West, Tuber Hailey at (21, 10) facing South.
    - Teams: Sailor Edmond: Wingull ♂ Lv 13 (fainted); Tuber Hailey: Marill ♀ Lv 13 (fainted).
-   - Outcome: Complete victory! Sage grew in EXP; Lilz grew to Lv 10!
+   - Defeat Quotes: Edmond: "Urp... Ooooooohhhhhh... Urrrrpppp...", Hailey: "I thought so! I didn't think we could win."
+   - Reward: ¥468. Outcome: Complete victory! Sage gained EXP; Lilz grew to Lv 10!
 - Furniture Mechanic (Deck Chairs): Sun loungers/deck chairs have north-facing backrests that block walking North off the chair. To exit, step South off the chair onto open sand, then navigate around via open columns (such as column 19).
 - Double Battle Mechanics: Area-of-Effect moves (Growl) target all adjacent foes automatically with no target prompt, immediately starting the round. Single-target moves default to targeting the opposing foe directly across.
 
@@ -721,7 +722,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥1921 (earned ¥1900 from Brawly)
+- Money: ¥2389 (earned ¥468 from Edmond & Hailey on Route 109)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Brawly & Steven registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
