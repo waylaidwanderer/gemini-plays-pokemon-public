@@ -850,7 +850,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Solved Trick House Puzzle 1 and obtained Rare Candy! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 26, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 12.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 26) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/70. Status: PAR. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 26) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/70. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 12) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 34/34. Status: OK. Stats: Atk 14, Def 12, Sp.Atk 12, Sp.Def 17, Speed 14.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
@@ -865,7 +865,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
-- Berries: Cheri Berry x2, Oran Berry x1, Pecha Berry x2
+- Berries: Cheri Berry x1, Oran Berry x2, Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
 - Money: ¥6592 (earned ¥300 from Grunt 1, ¥280 from Grunt 2, ¥2240 from Pokéfan Isabel & Kaleb, ¥256 from Lass Sally, ¥224 from Lass Robin, ¥256 from Youngster Eddie, ¥560 from Aroma Lady Daisy; paid ¥50 museum admission)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel registered!), Old Rod (Fisherman in Dewford Town)
