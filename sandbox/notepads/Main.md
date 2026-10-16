@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. Engaging in Double Battle against Sailor Brenden & Battle Girl Lilith! Sage Lv 19 (HP 53/53), Lilz Lv 9 (HP 28/28), wallet ¥8940.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. Engaging in Double Battle against Sailor Brenden & Battle Girl Lilith! Sage Lv 19 (HP 47/53), Lilz Lv 9 (FNT, HP 0/28), Cipher Lv 10 (HP 25/25), wallet ¥8940.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 47/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
