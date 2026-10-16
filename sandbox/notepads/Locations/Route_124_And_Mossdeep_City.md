@@ -59,4 +59,4 @@
     3. **Lunatone Lv. 42 [Sitrus Berry]** (`Psychic`, `Hypnosis`, `Calm Mind`, `Light Screen`)
     4. **Solrock Lv. 42 [Sitrus Berry]** (`SolarBeam`, `Sunny Day`, `Psychic`, `Flamethrower`)
     - *[Defeated & Registered — **Mind Badge** and **TM04 (Calm Mind)** obtained]*
-  - **Exit Route from `(23, 8)`:** Walk `Down` 1 to `(23, 9)`, `Left` 2 to `(21, 9)`, and `Up` 2 onto the return teleporter at **`(21, 7)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
+  - **Exit Route from `(23, 8)`:** Because `(21, 7)` is on the raised platform level, stay on the platform at `(23, 8)` and walk `Left` 1 to `(22, 8)`, `Up` 1 to `(22, 7)`, and `Left` 1 onto the glowing white return teleporter at **`(21, 7)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
