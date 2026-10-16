@@ -63,8 +63,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 ## Gym Leader Brawly: [IN PROGRESS - GYM BATTLE]
 - Location: Central stage blue mat at (4, 2). Approached from (4, 3).
 - Emerald Team:
-  - Machop Lv 16 [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
-  - Meditite Lv 16 [ACTIVE] (Bulk Up, Focus Punch, Light Screen, Reflect)
+  - Machop Lv 16 [ACTIVE - Brawly used Super Potion] (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
+  - Meditite Lv 16 [PENDING] (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 [PENDING] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
 - Strategy: Sage (Lv 20 Grovyle, Quick Claw) uses Absorb against Machop to deal heavy damage and heal to full HP; uses Pursuit against Meditite to exploit 2x weakness and cancel Focus Punch; uses Absorb against Makuhita.
 4. Sailor Brenden & Battle Girl Lilith: [DEFEATED]
@@ -589,7 +589,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Sage (HP 31/55) executing finishing Absorb on Machop (red HP).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Brawly burned Super Potion on Machop; Sage executing Absorb to retaliate and heal.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 31/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.

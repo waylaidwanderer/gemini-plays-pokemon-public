@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Sage (HP 31/55) executing finishing Absorb on Machop (red HP).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Brawly burned Super Potion on Machop; Sage executing Absorb to retaliate and heal.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 31/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
