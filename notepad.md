@@ -94,6 +94,18 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Makuhita Lv 19: Vital Throw deals only 19 damage against Lv 23 Grovyle (compared to 38 damage against Lv 22). Oran Berry triggers below 50% (31.5 HP) to ensure complete survival.
   - Full PP Rematch Strategy: Respawn fully restored all HP and PP (Absorb 20/20, Quick Attack 30/30, Pursuit 20/20, Fury Cutter 20/20) and Sage holds an Oran Berry. Absorb easily defeats Machop and Meditite while maintaining full HP, leaving 12+ Absorb PP to drain Makuhita even through Sitrus Berry, using Quick Attack as a priority finisher!
 
+## Verified Direct Rematch Route & Mechanics
+- Darkness Reset: Re-entering gym after whiteout resets the spotlight to radius ~2, but all 6 trainers remain permanently defeated.
+- Fast-Track Route to Brawly (0 Encounters):
+  1. (5, 27) -> 1 Right, 5 Up to (6, 22).
+  2. 6 Right to (12, 22), 3 Up to (12, 19).
+  3. 1 Left to (11, 19), 4 Up to (11, 15), 1 Right to (12, 15).
+  4. 10 Up to (12, 5), 8 Left to (4, 5).
+  5. 2 Up to stage at (4, 3) facing Brawly at (4, 2).
+- Combat Performance (Sage Lv 23 vs Machop Lv 16):
+  - Absorb deals ~25-28 damage and restores 9-14 HP to Sage.
+  - Machop Low Kick deals only 11 damage to Grovyle Lv 23.
+
 <hr>
 
 <h1><code>Locations/DewfordTown</code></h1>
