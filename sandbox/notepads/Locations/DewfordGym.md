@@ -79,7 +79,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16: Moves: Bulk Up, Karate Chop, Low Kick, Seismic Toss. Strategy: Absorb to defeat and heal off damage.
   - Meditite Lv 16: Moves: Bulk Up, Focus Punch, Light Screen, Meditate. Strategy: Absorb cancels Focus Punch 100% and heals Sage.
   - Makuhita Lv 19: Moves: Bulk Up, Arm Thrust, Vital Throw (-1 priority), Reversal. Held Item: Sitrus Berry (heals 30 HP once).
-- Rematch 3 Progress: Machop Lv 16 DEFEATED! Meditite Lv 16 Focus Punch cancelled twice by Absorb; Meditite at ~25% HP. Sage at 53/63 HP holding Oran Berry with 13/20 Absorb PP. Brawly has 1 Super Potion remaining.
+- Rematch 3 Progress: Machop Lv 16 DEFEATED! Meditite Lv 16 DEFEATED on Turn 3178! Sage is at 58/63 HP holding Oran Berry with 12/20 Absorb PP. Brawly has 1 Pokémon remaining: Makuhita Lv 19 (Ace)!
 - Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. Unobstructed path to Brawly.
 - Rematch Strategy & Post-Mortem:
   - In rematch attempt 2, Sage swept Machop and Meditite and burned both Super Potions.
