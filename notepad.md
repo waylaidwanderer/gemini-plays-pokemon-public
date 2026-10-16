@@ -343,6 +343,7 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
   - Black Belt Rhett: (67, 3) in upper terrace facing South - [DEFEATED]. Used Makuhita Lv 15. Awarded ¥480.
   - Twins Amy & Liv: (64..65, 11..12) - [DEFEATED]. Double Battle pair on southern dirt road. Used Plusle ♂ Lv 15, Minun ♂ Lv 15.
   - Pokéfan Miguel: (60, 13) - [DEFEATED]. Trainer on western dirt road facing East. Used Skitty ♀ Lv 15. Awarded ¥1200.
+  - Fisherman Andrew: (50, 9) facing South - In battle. Team: Magikarp (3 Pokémon total).
 
 <hr>
 
