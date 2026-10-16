@@ -22,8 +22,8 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - [x] Inspect southern signpost at (20, 94).
 - [ ] Traverse lower path towards Mauville City.
 - [ ] Challenge Route 110 trainers for EXP.
-- [ ] Defeat Rival Brendan in battle under Cycling Road.
-- [ ] Visit Trick House (Challenge 1).
+- [x] Defeat Rival Brendan in battle under Cycling Road.
+- [x] Visit Trick House (Challenge 1).
 - [ ] Arrive in Mauville City.
 
 ## Topography & Navigation
