@@ -6,7 +6,7 @@
 - Status: Knuckle Badge and TM08 Bulk Up earned from Gym Leader Brawly! Sage is Lv 24 (HP 33/65). All 6 gym trainers and Leader Brawly defeated. Next: exit gym to Dewford Town, heal at Pokémon Center, and head north to Route 106 / Granite Cave with HM05 Flash enabled to find Steven and deliver the Letter.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 24) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 33/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 24) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
@@ -21,7 +21,7 @@
 - Poké Ball x12 (verified in Bag on turn 2728)
 - Berries: Cheri Berry x2, Oran Berry x3, Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (gift from Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: Prize money from Brawly incoming!
+- Money: ¥1921 (earned ¥1900 from Brawly)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call - Brawly registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
