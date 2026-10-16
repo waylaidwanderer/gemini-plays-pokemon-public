@@ -853,7 +853,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Solved Trick House Puzzle 1 and obtained Rare Candy! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 27, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 27) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 66/72. Stats: HP 72, Atk 45, Def 34, Sp.Atk 53, Sp.Def 48, Speed 63. Status: SLP. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 27) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 72/72. Stats: HP 72, Atk 45, Def 34, Sp.Atk 53, Sp.Def 48, Speed 63. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 13) - Caught on Route 102. Moves: Astonish, Nature Power, Absorb, Flash. Status: PAR.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
