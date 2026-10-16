@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
-- Status: Challenging Dewford Gym rematch against Brawly! Sage Lv 21 defeated Machop (burning Brawly's 1st Super Potion). Currently battling Meditite, which is down to red HP!
+- Status: Challenging Dewford Gym rematch against Brawly! Sage grew to Lv 22 (60/60 HP, holding Oran Berry) after defeating Machop and Meditite. Brawly has 0 Super Potions remaining; facing Brawly's final Pokémon, Makuhita Lv 19!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 21) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 57/57. Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 22) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 60/60. Status: OK. Stats: Atk 37, Def 28, Sp.Atk 44, Sp.Def 40, Speed 51. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
