@@ -66,3 +66,4 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - 1F Upper Plateau Row 4 Path: At (12, 4), row 4 provides a clear westbound corridor beneath the middle cliff wall toward columns 6-8.
 - 1F Upper Plateau Northwest Access: At (8, 4), cliff pillar blocks west. Path steps Up to row 2 and runs West across rows 1-2 above the pillar toward the northwest chamber.
 - 1F Upper Plateau Northwest Routing: At (8, 4), row 3 is a cliff wall. Path heads South to row 6, then West across cols 8-3 toward column 2 to wrap around the standing stone formation and head North into the northwest chamber.
+- 1F Upper Plateau Column 5 Chute: At (5, 6), path turns North into a 1-tile wide chute along column 5 (rows 5 to 1) running between the western cliff wall and the standing stone formation toward the northern cavern corridor.
