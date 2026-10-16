@@ -599,7 +599,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
-- Status: Challenging Dewford Gym. Sage reached Lv 21, defeated Machop & Meditite, and burned both of Brawly's Super Potions. Sage fainted to Makuhita; respawned at Dewford Pokémon Center with full HP party. Currently equipping Sage with an Oran Berry from the Bag before returning to Dewford Gym to defeat Brawly!
+- Status: Challenging Dewford Gym rematch against Brawly! Sage Lv 21 (holding Oran Berry, 35/57 HP) burned Brawly's 1st Super Potion on Machop; Machop in critical red HP on the brink of fainting. Preparing for Meditite!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 21) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 57/57. Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
