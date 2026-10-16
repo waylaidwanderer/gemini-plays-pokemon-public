@@ -81,3 +81,15 @@
     - Speak to **Steven Stone** at `(1, 8)` from `(1, 7)` to trigger the cutscene where Steven steps `Right` to `(2, 8)`.
     - Step `Down` 1 onto **`(1, 8)`**, press `A` to select `YES` (`"Are you ready?"`), and select 3 Pokémon (`FIRST`, `SECOND`, `THIRD` -> cursor auto-jumps to `CONFIRM` -> press `A`) to begin the Multi Battle alongside **Steven Stone** (`Metang Lv. 42`, `Skarmory Lv. 43`, `Aggron Lv. 44`) against **Magma Leader Maxie** (`Mightyena Lv. 42`, `Camerupt Lv. 44`, `Crobat Lv. 43`) and **Magma Admin Tabitha** (`Camerupt Lv. 36`, `Mightyena Lv. 38`, `Golbat Lv. 40`) [Defeated / Completed — Team Magma departed; Steven Stone moved to his house at `(19, 10)`].
     - **Multi Battle Note:** Each trainer's send-out line (`"MAGMA LEADER MAXIE sent out..."`, `"MAGMA ADMIN TABITHA sent out..."`, `"PKMN TRAINER STEVEN sent out..."`) has a manual `[red arrow]` prompt (`B` to advance), and each KO produces two EXP text boxes (`ATRITON gained...` and `METANG gained...`).
+
+## Route 127, Route 128 & Seafloor Cavern Approach
+- **Mossdeep City `(28, 17)` to Route 127 `(25, 0)`:**
+  - From the Mossdeep Pokémon Center `(28, 17)`, walk `Left` 3 to `(25, 17)`, `Down` 13 down the stairs and shallow water to `(25, 30)`, face `Down` to use **Surf** onto `(25, 31)`, and surf `Down` 9 across `(25, 39)` into **Route 127** at `(25, 0)`.
+- **Route 127 (`(25, 0)` -> `(25, 79)`):**
+  - Surf straight `Down` 80 along `x = 25` (`y = 0..79`, completely open water) across `(25, 79)` into **Route 128** at `(25, 0)`.
+- **Route 128 (`(25, 0)` -> Dive Trench `(52, 18)`):**
+  - Surf `Down` 4 from `(25, 0)` onto the shallow bank at `(25, 4)`, walk `Right` 2 to `(27, 4)`, and use **Surf** `Right` onto `(28, 4)`.
+  - Surf `Right` 4 to `(32, 4)` and `Down` 10 onto the shallow sandbar at `(32, 14)`, walk `Right` 2 to `(34, 14)` and `Up` 1 to `(34, 13)`, face `Up` to use **Surf** onto `(34, 12)`, then surf `Right` 20 along `y = 12` to `(54, 12)`, `Down` 6 to `(54, 18)`, and `Left` 2 onto the deep underwater trench at **`(52, 18)`**.
+- **`Underwater_Route128` (`(52, 18)` -> `(38, 27)`):**
+  - Use **Dive** (`A, sleep 1500, A, sleep 1000, B, sleep 4000`) at `(52, 18)` on Route 128 to descend into **`Underwater_Route128`** at `(52, 18)`.
+  - Follow the underwater canyon channel: `Left` 1 to `(51, 18)`, `Down` 7 to `(51, 25)`, `Left` 4 to `(47, 25)`, `Down` 2 to `(47, 27)`, `Left` 2 to `(45, 27)`, `Down` 2 to `(45, 29)`, `Left` 5 along `y = 29` to `(40, 29)`, and `Left` 2, `Up` 2 into the **Seafloor Cavern underwater entrance at `(38, 27)`**.
