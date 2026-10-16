@@ -501,8 +501,9 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 
 ## Key Landmarks
 - South Entrance Signpost: Located at (20, 94), read from (19, 94) facing East: "ROUTE 110 / ⬇ SLATEPORT CITY".
-- Seaside Cycling Road South Gate Building: Yellow brick building with pink double doors at (16..18, 86..87). Signpost at (15, 87). Requires a Bicycle to enter.
+- Seaside Cycling Road South Gate Building: Building with pink doors at (11..13, 65..66). Signpost at (8, 67) reads: "Three steps ➔ and two steps ⬆ to reach the SEASIDE CYCLING ROAD." Requires a Bicycle to enter.
 - Bike NPC: Boy at (17, 90) facing South; friendly NPC debating between Mach Bike and Acro Bike.
+- Pedestrian route: Coastal path goes north to row 69, then turns west past the Cycling Road gate towards Mauville City.
 - Trick House: Located on the northwest side of Route 110 (offers puzzle challenges with the Trick Master).
 - Seaside Cycling Road (Elevated): Overhead bike highway on steel trestle pillars.
 - Under-Bridge Route: Pedestrian pathway winding underneath the Cycling Road structure.
