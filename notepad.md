@@ -802,6 +802,24 @@
     - From **`(30, 18)`**, surf `Left` 3 around the pointed rock `(29..30, 16..17)` to **`(27, 18)`**, `Up` 4 along `x = 27` to **`(27, 14)`**, `Right` 9 straight along `y = 14` to **`(36, 14)`** (clamped by the pointed rock at `(37..38, 14..15)`), and `Up` 6 along `x = 36` onto the sandy beach at **`(36, 8)`**, then walk `Up` 2 into the **Sky Pillar Entrance Cave at `(36, 6)`**.
   - **`SkyPillar_Entrance` (`(6, 16)` -> `(14, 5)`):** From `(6, 16)`, walk `Up` 12 along `x = 6` to `(6, 4)`, `Right` 8 along `y = 4` to `(14, 4)`, and `Down` 1 onto the exit warp mat at **`(14, 5)`** (warps to `SkyPillar_Outside`).
   - **`SkyPillar_Outside` (`(17, 14)` -> `(14, 5)`):** Emerging from `SkyPillar_Entrance` at `(17, 14)` automatically triggers **Wallace** to walk down, unlock the Sky Pillar tower door, and escort the player to **`(14, 7)`** directly in front of the **Sky Pillar 1F doorway at `(14, 5)`**. After Wallace departs, walk `Up` 2 from `(14, 7)` into `(14, 5)` (warps to `SkyPillar_1F` at `(7, 13)`).
+## Sky Pillar (`SkyPillar_1F` -> `SkyPillar_Top`)
+- **Note:** Wild Pokémon (`Golbat`, `Sableye`, `Claydol`, `Banette`, `Altaria` Lv. 34–38) appear on interior floors `1F–5F`.
+- **`SkyPillar_1F` (`(6, 13)` -> `(10, 1)`):**
+  - Central pit spans `x = 4..9, y = 4..10`.
+  - Walk `Right` 4 from `(6, 13)` to `(10, 13)` and `Up` 12 along `x = 10` into the staircase at **`(10, 1)`** (warps to `SkyPillar_2F` at `(10, 2)`).
+- **`SkyPillar_2F` (`(10, 2)` -> `(3, 1)`):**
+  - Walk `Left` 7 along `y = 2` from `(10, 2)` to `(3, 2)` and `Up` 1 into the staircase at **`(3, 1)`** (warps to `SkyPillar_3F` at `(3, 2)`).
+- **`SkyPillar_3F` (`(3, 2)` -> `(11, 1)` & Center Alcove `(7, 1)`):**
+  - The center-north staircase at `(7, 1)` (`x = 5..9, y = 2..4`) is walled off on 3F by rubble rocks (`(4, 2), (5, 3), (5, 4)` on the left and `(8, 4), (9, 3), (10, 2)` on the right) and the central pit (`x = 4..9, y = 5..10`).
+  - First pass on 3F: walk `Down` 9 along `x = 3` from `(3, 2)` to `(3, 11)`, `Right` 8 along `y = 11` to `(11, 11)`, and `Up` 10 along `x = 11` into the right-side staircase at **`(11, 1)`** (warps to `SkyPillar_4F` at `(11, 2)`).
+- **`SkyPillar_4F` (`(11, 2)` -> Cracked Floor `(6, 4)` -> `3F (7, 1)` -> `4F (3, 1)`):**
+  - On 4F, the top-left staircase to 5F at `(3, 1)` is blocked from `(11, 2)` by a rubble rock at `(8, 2)` and a wall of rubble rocks across `(4..9, 3)` and `(10, 4)`.
+  - From `(11, 2)`, walk `Down` 9 along `x = 11` to `(11, 11)`, `Left` 8 along `y = 11` to `(3, 11)`, `Up` 7 along `x = 3` to `(3, 4)`, and `Right` 3 along `y = 4` onto the **cracked floor tile at `(6, 4)`** (stepping onto `(6, 4)` and pressing `Right` toward `(7, 4)` collapses the floor and drops the player into the enclosed northern alcove of **`SkyPillar_3F` at `(6, 4)`**).
+  - From `SkyPillar_3F` `(6, 4)`, walk `Right` 1 to `(7, 4)` and `Up` 3 into the center-north staircase at **`(7, 1)`**, which warps back up to **`SkyPillar_4F` at `(7, 2)`** (to the left of the rubble rock at `(8, 2)`).
+  - From `SkyPillar_4F` `(7, 2)`, walk `Left` 4 along `y = 2` to `(3, 2)` and `Up` 1 into the staircase at **`(3, 1)`** (warps to `SkyPillar_5F` at `(3, 2)`).
+- **`SkyPillar_5F` (`(3, 2)` -> `(10, 1)`):**
+  - On 5F, the central pit is wider (`x = 3..10, y = 4..10`), and rubble rocks at `(9, 2)` and `(8, 3)` block the direct northern path to `(10, 1)`.
+  - From `(3, 2)`, walk `Left` 1 to `(2, 2)`, `Down` 9 along `x = 2` to `(2, 11)`, `Right` 9 along `y = 11` to `(11, 11)`, `Up` 9 along `x = 11` to `(11, 2)`, `Left` 1 to `(10, 2)`, and `Up` 1 into the staircase at **`(10, 1)`** (warps to `SkyPillar_Top`).
 
 <hr>
 
