@@ -51,15 +51,9 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Slot 3 (Absorb, bottom-left): Input `Down` then `Left` from any move position.
   - Slot 4 (Quick Attack, bottom-right): Input `Down` then `Right` from any move position. Quick Attack cleanly OHKOs wild Zubat Lv 7 before it can act.
 - Quick Attack (Slot 4) OHKO Thresholds: At Level 22 (Atk 37), Quick Attack consistently OHKOs wild Zubat Lv 7-8 and wild Makuhita Lv 6-7 with +1 priority, taking 0 damage and preventing Sand Attack accuracy drops.
-- B1F Central Corridor Topography: Row 12 corridor hits rocks at (21, 12). Column 20 runs south from row 12 to (20, 16). At (20, 16), south is blocked by a cliff ledge at row 17; path turns East into cols 21-24 at row 16. At (24, 16), rock at (25, 16) prompts moving south down column 24 toward row 21 and the Southeast Ladder at (28, 21). An elevated ascending ladder is visible to the northeast on the upper tier!
-- B2F Southeast Ladder at (28, 21) connects to B1F (28, 21). Arrived on B2F at turn 3328.
-- B2F Southeast Corridor: Ladder from B1F arrives at (28, 21). Column 28 runs north to (28, 16), where further northward movement is blocked by a horizontal cliff ledge. An ascending ladder is visible to the northeast on the upper tier (roughly 29, 13). The accessible path opens wide to the West along rows 16-20.
-- B2F East Corridor Topography: Row 16 runs west from (28, 16) to (23, 16), where cliff juts into row 16 at col 22. Path jogs Down to rows 17-18 and continues West beneath the cliff.
-- B2F Staircase Discovery: At (8, 18), cliff blocks west, but corridor leads south to rows 19-21 and west to a staircase/ramp at cols 3-5 leading up to the vast upper tier!
-- B2F Staircase Ascended: At (4, 19), Jade ascended the stairs from row 20 onto the elevated tier at (4, 18). Column 4 runs north to (4, 14), which dead-ends at the (4, 13) mud slope flanked by Rock Smash boulders at (3, 14) and (5, 14). Path to the rest of the floor branches east from rows 16-17!
-- B2F Upper Highway: From (4, 15), row 15 runs East smoothly to (11, 15). To the east and northeast around col 15, another staircase ascends north onto an even higher plateau!
-- B2F Central Stairs & Overlook: At (15, 15), stairs ascend north to (15, 12) onto an elevated overlook that dead-ends east at cliff drop (17, 12). The main path continues East along row 15 beneath this overlook toward column 29 and the ascending ladder!
-- B2F Northeast Corridor: At (21, 15), cliff corner blocks row 15; stepping Up to row 13 clears the cliff and connects to the open eastbound highway running across row 13 directly to the ascending ladder at (29, 13).
-- B1F Isolated Upper Tier: Arrived from B2F at (29, 13). An ascending ladder leading up to 1F upper plateau is located immediately to the west at (26, 13).
-- 1F Upper Plateau & Exit Ledge: Upper plateau spans rows 1-6 across cols 5-36. Ladder from B1F emerges at (35, 3). The corridor runs west along row 3 to col 12, jogs down to row 4/6, and ends at the south-facing one-way jump ledge at (5, 10). Hopping south drops onto the lower floor of 1F.
-- Steven's Chamber (Granite Cave 1F Inner Room): Doorway at (5, 10) on 1F Upper Plateau enters this chamber at (7, 7). Steven Stone was stationed at (7, 8). Delivered Devon Letter, received TM47 Steel Wing, and registered Steven Stone in Match Call!
+- B1F/B2F Through-Route Summary:
+  - B1F West Ladder (4, 21) connects via row 12 and col 24 south to B1F Southeast Ladder (28, 21).
+  - B2F Southeast Ladder (28, 21) leads west along rows 16-20 to western stairs at (4, 19).
+  - Ascending stairs to B2F upper tier leads east along row 15 (past northern stairs overlook at col 15), curving north around col 21 to ascending ladder at (29, 13).
+  - B1F Upper Tier ladder at (29, 13) connects directly west to ascending ladder at (26, 13) leading up to 1F Upper Plateau at (35, 3).
+  - 1F Upper Plateau traverses west along row 3, turns south at col 5, hops south ledges down to Steven's Chamber entrance at (5, 11).
