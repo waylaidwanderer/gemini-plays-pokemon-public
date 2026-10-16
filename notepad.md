@@ -579,7 +579,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. Rematching Sailor Brenden & Battle Girl Lilith in East Wing! Sage Lv 19 (HP 48/53), Lilz Lv 9 (FNT, HP 0/28), Cipher Lv 10 (HP 25/25), wallet reduced by blackout penalty (was ¥8940, to verify via Trainer Card).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. In East Wing Double Battle: Machop fainted! Isolated Meditite remains in 2-on-1 vs Sage (HP 48/53) and Cipher (HP 25/25).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 48/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
