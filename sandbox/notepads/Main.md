@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 23, Male), Nickname: SAGE
-- Status: Sage Lv 23 equipped with Oran Berry, full 63/63 HP and 20/20 Absorb PP. Returning to Dewford Gym (walk south/east from 2, 11 to gym doors at 8, 17) to challenge Leader Brawly. Sweep strategy: Absorb Machop, Absorb Meditite (cancelling Focus Punch and healing to full HP), Absorb/Quick Attack Makuhita for the Knuckle Badge and TM08 Bulk Up!
+- Status: Brawly Gym Rematch: Machop Lv 16 & Meditite Lv 16 BOTH DEFEATED! Sage Lv 23 at 58/63 HP holding Oran Berry facing final Pokémon Makuhita Lv 19. Absorb bypasses Bulk Up Defense boosts, drains HP, and sustains Sage to victory for the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
