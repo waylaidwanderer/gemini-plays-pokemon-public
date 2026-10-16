@@ -690,7 +690,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 
 ## Key Buildings & Landmarks
 - Battle Tent: Located at rows 8..12, cols 8..11 in the northwest district (directly north along col 9). Distinctive orange and blue tent roof with 3-bubbles emblem. Sliding glass doors at (9..10, 12), signpost at (8, 13). Replaces Contest Hall in Emerald!
-- Pokémon Center: Located at rows 16..19, cols 18..22 in the central plaza. Faces SOUTH onto the street! Blue sliding glass door is at (20, 19) approached from (20, 20). Checkpoint registration priority!
+- Pokémon Center: Located at rows 16..19, cols 18..22 in the central plaza. Faces SOUTH onto the street! Blue sliding glass door is at (19, 19) approached from (19, 20); 'P.C' sign is at (20, 19). Checkpoint registration priority!
 - Poké Mart: Located near the city center.
 - Stern's Shipyard: Located in the southeast area. Captain Stern's chief designer Dock is here.
 - Oceanic Museum: Located in the northeast area. Requires ¥50 entrance fee. Captain Stern and Team Aqua are inside.
