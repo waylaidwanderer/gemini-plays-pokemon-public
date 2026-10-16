@@ -78,8 +78,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 ## Gym Leader Brawly: [REMATCH IN PROGRESS - GYM BATTLE]
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
-  - Machop Lv 16 [ACTIVE - Super Potion Expended] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Taking Absorb cycle)
-  - Meditite Lv 16 [PENDING] (Bulk Up, Focus Punch, Light Screen, Reflect)
+  - Machop Lv 16 [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly used Super Potion)
+  - Meditite Lv 16 [ACTIVE] (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 [PENDING] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
 - Rematch Strategy: All 6 gym trainers remain defeated and gym is fully illuminated. Sage enters at 55/55 full HP. Absorb Machop, use Pursuit on Meditite to cancel Focus Punch, Absorb Makuhita, and use in-battle Potions if HP drops below 25.
 
@@ -590,7 +590,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! IN BRAWLY REMATCH! Sage (HP 18/55, Overgrow Active) executing finishing Absorb on Machop (red HP ~10%).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! IN BRAWLY REMATCH! Machop defeated by Overgrow Absorb; Sage facing Brawly's Meditite (Lv 16).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 18/55. Status: OK (Overgrow Active). Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
