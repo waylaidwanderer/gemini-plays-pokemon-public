@@ -25,4 +25,5 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Secret Scroll: Located on tatami floor at (3, 16) [MEMORIZED - CODE OBTAINED].
 - Cut Tree #6: Shrub at (2, 12) [CUT - CLEARED]. Cleared vertical walkway leading south along column 2 to Lass and the Secret Scroll.
 - Cut Tree #7: Shrub at (11, 8) [CUT - CLEARED]. Cleared access to Youngster at (13, 8), Poké Ball at (9, 4), and northern exit.
-- Cut Tree #8: Shrub at (13, 6) [CUT - IN PROGRESS]. Clears northern passage to Poké Ball and exit scroll door.
+- Cut Tree #8: Shrub at (13, 6) [CUT - CLEARED]. Cleared northern passage to exit scroll door.
+- Exit Scroll Door: Located at (13, 1). Interacting from (13, 2) facing North writes the memorized code and unlocks the door to the Trick Master's room.
