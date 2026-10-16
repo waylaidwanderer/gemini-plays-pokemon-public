@@ -93,3 +93,11 @@
 - **`Underwater_Route128` (`(52, 18)` -> `(38, 27)`):**
   - Use **Dive** (`A, sleep 1500, A, sleep 1000, B, sleep 4000`) at `(52, 18)` on Route 128 to descend into **`Underwater_Route128`** at `(52, 18)`.
   - Follow the underwater canyon channel: `Left` 1 to `(51, 18)`, `Down` 7 to `(51, 25)`, `Left` 4 to `(47, 25)`, `Down` 2 to `(47, 27)`, `Left` 2 to `(45, 27)`, `Down` 2 to `(45, 29)`, `Left` 5 along `y = 29` to `(40, 29)`, and `Left` 2, `Up` 3 into the **Seafloor Cavern underwater entrance at `(38, 26)`**.
+- **`Underwater_SeafloorCavern` (`(6, 7)`) & `SeafloorCavern_Entrance` (`(10, 17)` -> `(10, 1)`):**
+  - Inside `Underwater_SeafloorCavern` at `(6, 7)`, press **`B`** to surface (`B, sleep 1500, A, sleep 1000, B, sleep 4000`), arriving in `SeafloorCavern_Entrance` at `(10, 17)`.
+  - Surf `Up` 7 along `x = 10` onto the shallow bank at `(10, 10)`, then walk `Up` 9 along `x = 10` into the northern doorway at **`(10, 1)`** (warps to `SeafloorCavern_Room1` at `(5, 18)`).
+- **`SeafloorCavern_Room1` (`(5, 18)` -> `(6, 1)`):**
+  - From `(5, 18)`, walk `Left` 1 to `(4, 18)` and `Up` 8 along `x = 4` to `(4, 10)`.
+  - Face `Right` at `(4, 10)` and use **Rock Smash** to break the rock at `(5, 10)`.
+  - Walk `Down` 2 to `(4, 12)`, `Right` 1 to `(5, 12)`, face `Up`, activate **Strength**, and push the boulder at `(5, 11)` `Up` 1 into `(5, 10)`.
+  - Walk `Up` 1 to `(5, 11)`, `Right` 6 along `y = 11` to `(11, 11)`, `Right` 1 and `Up` 1 onto `(12, 10)`, `Up` 3 along `x = 12` to `(12, 7)`, `Left` 1 to `(11, 7)`, `Up` 1 to `(11, 6)`, `Left` 1 to `(10, 6)`, `Up` 1 to `(10, 5)`, `Left` 4 along `y = 5` (passing north of the rotating Team Aqua Grunt at `(8, 6)`) to `(6, 5)`, and `Up` 4 into the northern doorway at **`(6, 1)`** (warps to `SeafloorCavern_Room2` at `(10, 7)`).
