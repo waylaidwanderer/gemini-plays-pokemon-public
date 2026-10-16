@@ -164,3 +164,4 @@
 - **Cave of Origin (`CaveOfOrigin_Entrance` `(9, 20)` -> `CaveOfOrigin_1F` `(11, 17)`):**
   - Finishing Steven Stone's dialogue outside the Cave of Origin automatically warps the player into `CaveOfOrigin_Entrance` at **`(9, 20)`**.
   - Inside `CaveOfOrigin_Entrance`, walk straight `Up` 15 along `x = 9` from `(9, 20)` to **`(9, 5)`** to warp into **`CaveOfOrigin_1F` at `(11, 17)`**.
+  - Inside `CaveOfOrigin_1F` (`(11, 17)` -> `(13, 5)`): walk `Left` 4 to `(7, 17)`, `Up` 8 to `(7, 9)`, `Right` 1 to `(8, 9)`, `Up` 1 to `(8, 8)`, `Right` 1 to `(9, 8)`, `Up` 1 to `(9, 7)`, `Right` 4 to `(13, 7)`, `Up` 1 to `(13, 6)`, `Right` 3 to `(16, 6)`, `Up` 1 to `(16, 5)`, and `Left` 3 onto the ladder at **`(13, 5)`** (warps to `CaveOfOrigin_B1F` at **`(9, 3)`**).
