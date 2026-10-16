@@ -601,9 +601,9 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Status: Challenging Dewford Gym. Sage reached Lv 21, defeated Machop & Meditite, and burned both of Brawly's Super Potions. Sage fainted to Makuhita; blacking out to Dewford Pokémon Center to heal party, re-equip Oran Berry, and prepare rematch!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 21) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 0/57 (fainted). Status: FNT. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 0/28 (fainted). Status: FNT.
-3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
+1. SAGE (Grovyle ♂, Level 21) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 57/57 (post-whiteout heal). Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
+2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
+3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
@@ -616,7 +616,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Poké Ball x12 (verified in Bag on turn 2728)
 - Berries: Cheri Berry x2, Oran Berry x6 (all in Bag), Pecha Berry x2
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
-- Money: ¥85 (verified in Mart Turn 2674)
+- Money: ¥42 (post-whiteout)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
