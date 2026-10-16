@@ -591,7 +591,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Dewford Gym trainers cleared. Inside Rustboro City Poké Mart at counter. Sold Ether (+¥600) and 9 Poké Balls (+¥900). Purchased 2 Super Potions (¥1400). Purchasing 1 more Super Potion and 1 X Defend before returning to Dewford Gym to defeat Brawly.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Dewford Gym trainers cleared. Shopping complete at Rustboro Mart (acquired 4 Super Potions, ¥85 remaining). Heading south to Route 104 and Mr. Briney's boat to return to Dewford Gym and defeat Brawly.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55 (post-heal). Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
@@ -600,8 +600,8 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
-- Quick Claw: Held by Sage!
-- Super Potion x2 (in bag; purchasing 3rd Super Potion and 1 X Defend)
+- Quick Claw: Held by Sage! (To be swapped to Oran Berry before Brawly fight)
+- Super Potion x4 (stocked at Rustboro Mart!)
 - Potion x0
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
@@ -609,7 +609,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Poké Ball x5 (sold 9 Poké Balls for ¥900 at Rustboro Mart)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
-- Money: ¥1485 (verified in Mart; budget allows 1 more Super Potion ¥700 + 1 X Defend ¥550 = ¥1250, leaving ¥235)
+- Money: ¥85 (verified in Mart Turn 2674)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Petalburg Woods Topography
