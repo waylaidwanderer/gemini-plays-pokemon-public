@@ -19,7 +19,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 
 ## Progression Checklist - Slateport City
 1. [x] Enter Slateport City and heal/register at Pokémon Center.
-2. [ ] Visit Stern's Shipyard and speak to Dock.
+2. [x] Visit Stern's Shipyard and speak to Dock.
 3. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
 4. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F.
 5. [ ] Explore town landmarks (Market, Battle Tent, etc.).
