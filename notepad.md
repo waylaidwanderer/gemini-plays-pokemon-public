@@ -70,7 +70,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Brenden: Machop ♂ Lv 13. Pre-battle: "I'll show you the gumption of a sailing man!"
    - Lilith: Meditite ♀ Lv 13. Pre-battle: "Ufufu... Are you stumbling around in the dark?"
    - Battle Type: 2-on-2 Double Battle triggered simultaneously at (16, 12).
-   - Targeting Mechanic: Single-target moves like Pursuit default to Machop (right foe); press LEFT during target selection to target Meditite (left foe) for 2x super effective damage (~63 dmg OHKO). Defeating both maximizes gym illumination!
+   - Targeting Mechanic: On the battlefield, Machop is on the left and Meditite is on the right. Pressing LEFT targets Machop, while pressing RIGHT targets Meditite (for 2x super effective Pursuit damage). Defeating both maximizes gym illumination!
 
 <hr>
 
