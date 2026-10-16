@@ -84,6 +84,11 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 - Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. Unobstructed path to Brawly at (4, 2).
 - Winning Strategy: Sage (Lv 20 Grovyle, Quick Claw, Speed 47). Absorb Machop, Pursuit Meditite to cancel Focus Punch, Absorb Makuhita. Vital Throw deals ~24-27 damage, so regular Potions (+20 HP) fall behind. Stock Super Potions (+50 HP) via Mr. Briney at Petalburg/Rustboro Mart to guarantee decisive Knuckle Badge victory!
 
+## Active Battle Notes - Gym Leader Brawly (Turn 2755+)
+- Turn 1: Sage (Lv 20) used Absorb (dealt ~30% damage). Machop used Bulk Up (+1 Atk, +1 Def; Special Defense unaffected).
+- Turn 2: Sage used Absorb (dealt ~30% damage, brought Machop to ~40% yellow HP). Machop used Low Kick (18 damage). Sage's Oran Berry triggered at 26 HP and restored 10 HP to 36/55.
+- Turn 3: Brawly used his single Super Potion on Machop! Sage executing Absorb to re-damage Machop and heal Sage. Brawly has now exhausted his trainer healing items for the remainder of the battle.
+
 <hr>
 
 <h1><code>Locations/DewfordTown</code></h1>
