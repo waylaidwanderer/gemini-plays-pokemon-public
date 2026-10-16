@@ -848,6 +848,13 @@
     5. **Kingdra Lv. 46 [Chesto Berry]** (`Water Pulse`, `Ice Beam`, `Double Team`, `Rest`)
     - *[Defeated & Registered — **Rain Badge** and **TM03 (Water Pulse)** obtained]*
   - **Exit Route from `(8, 3)` via `SootopolisCity_Gym_B1F`:** Step `Down` 3 from `(8, 3)` onto the cracked ice at `(8, 6)` to drop to `SootopolisCity_Gym_B1F (8, 6)`, walk straight `Down` 16 along `x = 8` to `(8, 22)`, and `Right` 3 onto the ladder at **`(11, 22)`** (warps to 1F `(11, 22)`), then walk `Left` 3 to `(8, 22)` and `Down` 4 out `(8, 25)` to Sootopolis City `(31, 33)`.
+## Route 128 East & Ever Grande City Approach
+- **Route 128 `(25, 0)` to Ever Grande City `(1, 68)`:**
+  - From Route 127 `(25, 79)` -> Route 128 `(25, 0)`, surf `Down` 4 onto the sandbar at `(25, 4)`, walk `Right` 2 to `(27, 4)`, and use **Surf** `Right` onto `(28, 4)`.
+  - Surf `Right` 4 to `(32, 4)`, `Down` 6 to `(32, 10)`, `Right` 6 to `(38, 10)`, `Down` 2 to `(38, 12)`, and `Right` 33 along `y = 12` to `(71, 12)`.
+  - From `(71, 12)`, surf `Down` 10 along `x = 71` (west of the Ever Grande cliff) to `(71, 22)`, and `Right` 30 along `y = 22` to `(101, 22)`.
+  - **Swimmer♂ Harrison `(101, 23)`:** Watches `(101, 22)` — `Tentacruel Lv. 35` [Defeated — money `$29,059`].
+  - From `(101, 22)`, surf `Right` 1 to `(102, 22)`, `Down` 4 along `x = 102..104` to `(104, 26)`, `Right` 9 along `y = 26` to `(113, 26)`, `Down` 2 to `(113, 28)`, and `Right` 8 along `y = 28` across `(119, 28)` into **Ever Grande City at `(1, 68)`** (`y_evergrande = y_route128 + 40`).
 
 <hr>
 
