@@ -19,4 +19,5 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Trainer 2: Lass at (4, 13) facing South guarding the area above the scroll.
 - Cut Tree #2: Located at (14, 14), blocking the eastern corridor heading north along col 14. Interacted from (14, 15) facing North.
 - Trainer 3: Youngster at (14, 7) facing South along column 14.
-- Green bushes: Obstacles located across the boardwalks (e.g. at (11, 12) and (11, 16)). Testing interaction.
+- Cut Tree #3: Located at (11, 12) (shrub-style Cut tree on the boardwalk). Interacted from (12, 12) facing West. Confirmed interactable with Cut prompt! Cutting opens the central vertical corridor at col 11.
+- Green bushes: Verified that the rounded green bushes on the boardwalks are shrub-style Cut trees (not permanent hedges).
