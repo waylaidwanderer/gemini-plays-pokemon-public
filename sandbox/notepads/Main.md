@@ -3,17 +3,17 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! IN BRAWLY REMATCH! Machop & Meditite defeated; Lilz (Lotad Lv 9, HP 28/28) flinched Makuhita (~75% HP) with Astonish! Continuing Astonish assault.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! Dewford Gym fully illuminated. Brawly team verified (Machop Lv 16, Meditite Lv 16, Makuhita Lv 19). Respawing at Dewford Center; plan to stock Super Potions via Mr. Briney to guarantee Knuckle Badge victory.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 0/55. Status: FNT. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK (Active in battle).
+1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55 (post-heal). Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
+2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
 - Quick Claw: Held by Sage!
-- Potion x0 (all potions used; maximum value extracted in gym battles!)
+- Potion x0 (all potions used; re-stocking Super Potions via Mr. Briney at Petalburg/Rustboro Mart)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
