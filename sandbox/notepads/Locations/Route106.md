@@ -38,3 +38,4 @@ A coastal waterway and sandy beach wrapping around the north and west of Dewford
 - [x] Enter Granite Cave.
 - [x] Speak with Hiker inside entrance to receive HM05 Flash.
 - [ ] Locate Steven Stone in Granite Cave and deliver President Stone's Letter.
+- Granite Cave Bypass Route: When exiting Granite Cave at (48, 17), row 17 is blocked at x=56 by a tree cluster. Step Up to row 14 to follow the clear open sand corridor east past the signpost (59, 13) to column 64, then head south down the beach into Dewford Town.
