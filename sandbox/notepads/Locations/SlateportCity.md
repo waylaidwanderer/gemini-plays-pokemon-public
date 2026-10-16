@@ -48,3 +48,4 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Oceanic Museum 2F Battles: Defeated Team Aqua Grunt 1 (Carvanha Lv 15, ¥300) and Team Aqua Grunt 2 (Zubat Lv 14, Carvanha Lv 14, ¥280).
 - Archie Encounter & Delivery: Archie confronted May on 2F, proclaimed Team Aqua's ideals, warned May not to interfere, and ordered a retreat. Captain Stern received the Devon Goods, concluding the delivery!
 - Scott Encounter: Upon exiting the Oceanic Museum, Scott greeted May, recognized her victory over Team Aqua, and registered himself in Match Call in the PokéNav. Scott then departed to the west.
+- Battle Tent Encounter: Scott greeted May outside the Battle Tent at (10, 13), praised her potential, encouraged challenging the Battle Tent, and walked east.
