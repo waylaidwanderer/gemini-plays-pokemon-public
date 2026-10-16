@@ -861,6 +861,16 @@
   - After using **Waterfall** from `(18, 68)` to `(18, 59)`, surf `Up` 4 onto the southern terrace at `(18, 55)`, walk `Right` 2 to `(20, 55)`, and `Up` 2 up the first staircase to the middle terrace at **`(20, 53)`**.
   - **Ever Grande City (South) Pokémon Center:** Door at **`(27, 48)`** (exiting steps to `(27, 49)`). Reached from `(20, 53)` via `Right` 7 along `y = 53` (below the dividing cliff wall `y = 44..52`) to `(27, 53)` and `Up` 5 along `x = 27` into `(27, 48)`.
   - **Victory Road South Entrance:** Cave door at **`(18, 41)`**. Reached from the Pokémon Center `(27, 49)` via `Down` 4 to `(27, 53)`, `Left` 7 along `y = 53` to `(20, 53)`, `Up` 3 up the upper staircase `(19..20, 51..52)` to `(20, 50)`, `Left` 2 to `(18, 50)`, and `Up` 9 along `x = 18` into `(18, 41)`.
+## Victory Road (`VictoryRoad_1F` -> `VictoryRoad_B1F` -> `VictoryRoad_B2F` -> `VictoryRoad_1F`)
+- **`VictoryRoad_1F` South Entrance (`(15, 40)` -> Rival Wally `(2, 23)`):**
+  - From `(15, 40)`, walk `Up` 4 to `(15, 36)`, `Left` 1 to `(14, 36)`, `Up` 7 underneath the lower wooden bridge to `(14, 29)`, `Left` 1 to `(13, 29)`, `Up` 3 up the staircase `(13, 27..28)` to `(13, 26)`, `Left` 11 across the overhead wooden bridge to `(2, 26)`, and `Up` 3 along `x = 2` to **`(2, 23)`**.
+  - **Rival Wally `(2, 23)` Team (Single Battle, 1 Full Restore):**
+    1. **Altaria Lv. 44** (`DragonBreath`, `Aerial Ace`, `Dragon Dance`, `Safeguard`)
+    2. **Roselia Lv. 44** (`Giga Drain`, `Magical Leaf`, `Toxic`, `Leech Seed`)
+    3. **Delcatty Lv. 43** (`Sing`, `Assist`, `Charm`, `Feint Attack`)
+    4. **Magneton Lv. 41** (`Thunderbolt`, `Supersonic`, `Thunder Wave`, `Tri Attack`)
+    5. **Gardevoir Lv. 45** (`Psychic`, `Calm Mind`, `Future Sight`, `Double Team`)
+    - *[Defeated — money `$31,759`]*
 
 <hr>
 
@@ -869,7 +879,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $29,059 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $31,759 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
