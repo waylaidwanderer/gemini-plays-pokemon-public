@@ -188,6 +188,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - B1F Central Corridor Topography: Row 12 corridor hits rocks at (21, 12). Column 20 runs south from row 12 to (20, 16). At (20, 16), south is blocked by a cliff ledge at row 17; path turns East into cols 21-24 at row 16. At (24, 16), rock at (25, 16) prompts moving south down column 24 toward row 21 and the Southeast Ladder at (28, 21). An elevated ascending ladder is visible to the northeast on the upper tier!
 - B2F Southeast Ladder at (28, 21) connects to B1F (28, 21). Arrived on B2F at turn 3328.
 - B2F Southeast Corridor: Ladder from B1F arrives at (28, 21). Column 28 runs north to (28, 16), where further northward movement is blocked by a horizontal cliff ledge. An ascending ladder is visible to the northeast on the upper tier (roughly 29, 13). The accessible path opens wide to the West along rows 16-20.
+- B2F East Corridor Topography: Row 16 runs west from (28, 16) to (23, 16), where cliff juts into row 16 at col 22. Path jogs Down to rows 17-18 and continues West beneath the cliff.
 
 <hr>
 
