@@ -571,7 +571,7 @@
 - **Lilycove Department Store & Move Deleter's House (Northern Terrace):**
   - Reached from the Lilycove Pokémon Center `(24, 15)` via `Down` 1 to `(24, 16)`, `Right` 7 to `(31, 16)`, and `Up` 7 up the `(31, 10..12)` staircase to `(31, 9)`.
   - **Move Deleter's House:** Door at **`(36, 6)`** (exiting steps to `(36, 7)`). Inside, the Move Deleter sits at `(4, 4)` (stand at `(3, 4)` facing `Right`).
-  - **Lilycove Department Store:** Door at **`(27, 6)`** (blocked by **Rival May at `(27, 7)`** until defeated).
+  - **Lilycove Department Store:** Door at **`(27, 6)`** (guarded by **Rival May `(27, 7)`** — `Tropius Lv. 31`, `Grovyle Lv. 34`, `Slugma Lv. 32`, `Pelipper Lv. 32` [Defeated — money `$16,471`]).
 - **Path to Eastern Beach & Team Aqua Hideout Cove:** Both the northern cliff (`y = 6..14`) and southern cliff (`y = 24..35`) drop off directly above the eastern beach, and `x = 42, y = 11..19` is a solid vertical cliff wall; the only staircase down to the beach is at **`(55..56, 20..22)`** (south of the house at `(54..57, 12..14)`). To reach `(55, 23)` from the Lilycove Pokémon Center `(24, 15)`, walk `Down` 1 to `(24, 16)`, `Right` 7 to `(31, 16)`, `Up` 7 up the `(31, 10..12)` staircase to `(31, 9)`, `Right` 6 to `(37, 9)`, `Up` 1 to `(37, 8)`, `Right` 11 along `y = 8` to `(48, 8)`, `Down` 1 across the `y = 9` ledge to `(48, 10)`, `Right` 5 to `(53, 10)`, `Down` 7 across the `y = 11` ledge to `(53, 18)`, `Right` 2 to `(55, 18)`, and `Down` 5 down the staircase `(55..56, 20..22)` onto `(55, 23)`. Note that the light-blue diagonal-rippled tiles along Lilycove Beach (`x = 56..64, y = 4..29`) are **walkable ankle-deep tidal flats (`MB_SHALLOW_WATER`)**, whereas the dark-blue water (`(64, 9)`, etc.) is the actual **Surfable ocean water (`MB_OCEAN_WATER`)**. Walk on foot from the bottom of the stairs `(56, 23)` via `Right` 5 to `(61, 23)`, `Up` 14 to `(61, 9)`, and `Right` 2 to `(63, 9)`, then press `A` facing `(64, 9)` (`Right`) to use **Surf** onto the dark-blue water (`(64, 9)`). From `(64, 9)`, surf `Right` 2 to `(66, 9)`, `Up` 1 to `(66, 8)` (automatically dismounting onto the shallow water), walk `Right` 1 to `(67, 8)`, `Up` 2 to `(67, 6)`, `Right` 3 to `(70, 6)`, and `Up` 2 (`(70, 5)` -> `(70, 4)`) to enter **Team Aqua Hideout 1F** at `(13, 27)`.
 - **Eastern Ocean Exit to Route 124 (`(56, 23)` -> `(79, 16)`):** From the bottom of the beach staircase `(56, 23)`, walk `Down` 3 to `(56, 26)`, `Right` 11 to `(67, 26)`, and `Down` 1 to `(67, 27)`, then face `Right` toward `(68, 27)` and use **Surf** onto `(68, 27)`. Surf `Right` 6 to `(74, 27)`, `Left` 1 to `(73, 27)`, `Up` 11 along `x = 73..74` to `(74, 16)` (north of the `x = 74..78, y = 19..32` rock reef), and `Right` along `y = 16` across `(79, 16)` into **Route 124**.
 
@@ -936,12 +936,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $14,431 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $16,471 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x6, Hyper Potion x13, Revive x7, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 58 [Holding Mystic Water] — Strength, Surf)
+  1. ATRITON (Swampert, Male, Lv. 58 [Holding Mystic Water] — Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
