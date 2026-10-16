@@ -874,6 +874,8 @@
 - **`VictoryRoad_1F` (`(2, 23)` -> Upper-Left Branch `(9, 14)` & Lower Canyon `(13, 29)`):**
   - Note: Walking north from `(2, 23)` via `(2, 19) -> (3, 19) -> (3, 18) -> (4, 18) -> (4, 14) -> (9, 14)` leads past **Cooltrainer♀ Hope `(6, 15)`** (`Roselia Lv. 45` [Defeated — money `$33,919`]) to the ladder at `(9, 14)` (`VictoryRoad_B1F (8, 3)`), which is an enclosed return/item chamber bounded on the east by incoming left-facing 1-way ledges at `x = 11`.
   - **Main Progression Route on `VictoryRoad_1F`:** After defeating Rival Wally at `(2, 23)`, walk `Down` 3 to `(2, 26)`, cross the overhead wooden bridge `Right` 11 to `(13, 26)`, and descend the staircase `Down` 3 to **`(13, 29)`** on the lower cave floor.
+  - **Under-Bridge Route to Eastern `VictoryRoad_B1F` Ladder (`(13, 29)` -> `(18, 24)` -> `(21, 31)`):**
+    - From `(13, 29)`, walk `Left` 4 to `(9, 29)`, `Up` 7 along `x = 9` (underneath the wooden bridge `(6..12, 26)`) to `(9, 22)`, `Right` 9 along `y = 22` to `(18, 22)`, `Down` 2 to `(18, 24)`, and `Right` along `y = 24` (above the rock at `(21, 25)`) around the eastern platform to the ladder at **`(21, 31)`**.
 
 <hr>
 
