@@ -85,3 +85,9 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - In rematch attempt 2, Sage swept Machop and Meditite and burned both Super Potions.
   - Makuhita's +1 Atk Vital Throw deals ~38 damage. At Lv 22 (60 HP), Sage dropped to 38 HP, then Vital Throw one-shot Sage from 38 to 0 HP, bypassing Oran Berry (which requires surviving under 50% HP).
   - Winning Fix: Level Sage to Lv 23 in Granite Cave 1F. With ~65 HP and ~30 Def, Vital Throw deals ~30 damage, leaving Sage at ~35 HP, then surviving subsequent hits while Oran Berry provides +10 HP recovery.
+- Active Rematch Breakthrough:
+  - Sage Lv 23 (63 HP, 29 Def, 46 Sp.Atk, Speed 53, holding Oran Berry) completely outmatches Brawly's team.
+  - Machop Lv 16 defeated cleanly with Absorb.
+  - Meditite Lv 16 Focus Punch was cancelled 100% by Absorb, which also healed Sage to full 63/63 HP; Meditite absorbed both of Brawly's Super Potions before fainting to Pursuit.
+  - Makuhita Lv 19: Vital Throw deals only 19 damage against Lv 23 Grovyle (compared to 38 damage against Lv 22). Oran Berry triggers below 50% (31.5 HP) to ensure complete survival.
+  - Quick Attack (Slot 4, Normal 40 BP, +1 priority) deals neutral damage against Fighting, making it our primary offensive finisher against Makuhita once Absorb PP is depleted.
