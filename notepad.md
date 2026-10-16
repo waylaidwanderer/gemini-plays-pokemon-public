@@ -199,6 +199,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - 1F Upper Plateau Western Opening: At (15, 3), row 3 continues west. The northern cliff opens north around cols 9-12, potentially leading to Steven's chamber entrance.
 - 1F Upper Plateau West Path: At (12, 3), row 3 is blocked by a ledge corner. Path steps Up to row 2 and continues West across rows 1-2 toward the northwest corner.
 - 1F Upper Plateau Row 4 Path: At (12, 4), row 4 provides a clear westbound corridor beneath the middle cliff wall toward columns 6-8.
+- 1F Upper Plateau Northwest Access: At (8, 4), cliff pillar blocks west. Path steps Up to row 2 and runs West across rows 1-2 above the pillar toward the northwest chamber.
 
 <hr>
 
