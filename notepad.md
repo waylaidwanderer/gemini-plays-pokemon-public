@@ -648,7 +648,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Descending back to Granite Cave B2F to explore the northern terrace west of the central stairs (15, 12) to locate Steven Stone's chamber. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
+- Status: Knuckle Badge earned! Ascending to Granite Cave 1F Upper Plateau to take the western jump ledge into unexplored western 1F and locate Steven Stone's chamber. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
