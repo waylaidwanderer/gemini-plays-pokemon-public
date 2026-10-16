@@ -15,7 +15,7 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 
 ## Progression Checklist - Route 109
 - [x] Arrive at Route 109 beach via Mr. Briney's boat.
-- [ ] Travel north into Slateport City.
+- [x] Travel north into Slateport City.
 - [ ] Optional: Clear trainers in Seashore House for Soda Pops.
 ## Beach Topography & Navigation
 - Southern Beach Landing: Mr. Briney's boat is docked at (21, 24..25).
