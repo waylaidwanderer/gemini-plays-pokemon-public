@@ -43,4 +43,4 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Grunt at (2, 8): Mentions waiting for their Boss, the linchpin.
 - Oceanic Museum Stairs to 2F: Located along the north wall at col 6, row 1 (entrance archway at 6, 1 approached from 6, 2).
 - Grunt at (8, 3): Mentions taking a long time getting by the receptionist without ¥50.
-- TM46 Thief: Obtained from reformed Team Aqua Grunt on 1F (checking Grunt at 9, 4).
+- TM46 Thief: Received from the reformed Team Aqua Grunt standing at (9, 4) in the central exhibit hall! Spoken to from (8, 4) facing Right.
