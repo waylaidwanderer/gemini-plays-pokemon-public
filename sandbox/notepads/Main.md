@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Dewford Gym trainers permanently cleared. Stocked 4 Super Potions at Rustboro Mart (¥85 remaining). Boarding Mr. Briney's boat to return to Dewford Gym and defeat Gym Leader Brawly.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Arrived at Dewford Town dock with 4 Super Potions and 7 Oran Berries! Dewford Gym trainers permanently cleared and gym fully illuminated. Heading directly to Dewford Gym to give Sage an Oran Berry and defeat Gym Leader Brawly for the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55 (post-heal). Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
