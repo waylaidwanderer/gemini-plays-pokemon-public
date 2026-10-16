@@ -29,7 +29,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Row 16 bridge runs west from (5, 16) through (4..3, 16) between water (row 15) and wall (row 17) into the West Wing.
 
 4. Sector 4: West Wing & Northern Bridge (cols 1-3, rows 12-18)
-   - Column 2 vertical corridor connects to row 16 walkway. Black Belt Takao defeated at (2, 17); column 1 (rows 16-18) provides an open bypass around him to the south wing.
+   - Column 2 vertical corridor connects to row 16 walkway. Black Belt Takao defeated at (2, 17).
+   - Column 1 South: (1, 17) dead-ends south at a brown wooden wall.
    - Column 1 Pocket: (1, 10) dead-ends north at water at (1, 9).
    - Column 2 North Pier: Tile (2, 9) is a dead-end lookout pier surrounded by water to the north (2, 8), west (1, 9), and east (3, 9), looking across at the northern stairs at (2, 7).
    - Row 10 East Alcove: Tile (3, 10) dead-ends east at wall (4, 10).
