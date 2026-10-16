@@ -9,7 +9,7 @@
 1. SAGE (Grovyle ♂, Level 26) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 0/70. Status: FNT. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 12) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 0/34. Status: FNT. Stats: Atk 14, Def 12, Sp.Atk 12, Sp.Def 17, Speed 14.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
-4. COBALU (Aron ♂, Level 11) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 18/34. Stats: Atk 22, Def 33, Sp.Atk 15, Sp.Def 15, Speed 13. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (5/15). Status: OK.
+4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 20/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (4/15). Status: OK.
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30).
