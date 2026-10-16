@@ -38,8 +38,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 5. Sector 5: Central Stage & Gym Leader Brawly (cols 2-12, rows 1-6)
    - Central Stage Platform: An elevated blue boxing/wrestling mat located at rows 2-4, cols 2-5.
-   - Central Stage Stairs: Green ladder/stairs at column 5 (rows 2-4) connecting row 5 walkway at (5, 5) directly onto the blue mat.
-   - Gym Leader Brawly Location: Standing on the blue mat at (3, 2) in orange shirt and spiky blue hair, ready for battle!
+   - Central Stage Stairs: Wide staircase at column 4 (row 4) connecting row 5 walkway at (4, 5) directly onto the blue mat.
+   - Gym Leader Brawly Location: Standing on the blue mat at (4, 2) in orange shirt and spiky blue hair, ready for battle! Approached from (4, 3).
    - Row 5 Walkway: Connects east to (12, 5) and column 10 chute. Black Belt Cristian visible to the south at (8, 8).
 
 ## Trainers
@@ -587,7 +587,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. Reached central stage! Gym Leader Brawly in sight on the blue mat at (3, 2). Preparing to heal Sage and challenge Brawly for the Knuckle Badge.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. Standing at the stairs to Brawly's stage at (4, 5). Stepping up to challenge Gym Leader Brawly for the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.

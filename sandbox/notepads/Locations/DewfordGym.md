@@ -36,8 +36,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 5. Sector 5: Central Stage & Gym Leader Brawly (cols 2-12, rows 1-6)
    - Central Stage Platform: An elevated blue boxing/wrestling mat located at rows 2-4, cols 2-5.
-   - Central Stage Stairs: Green ladder/stairs at column 5 (rows 2-4) connecting row 5 walkway at (5, 5) directly onto the blue mat.
-   - Gym Leader Brawly Location: Standing on the blue mat at (3, 2) in orange shirt and spiky blue hair, ready for battle!
+   - Central Stage Stairs: Wide staircase at column 4 (row 4) connecting row 5 walkway at (4, 5) directly onto the blue mat.
+   - Gym Leader Brawly Location: Standing on the blue mat at (4, 2) in orange shirt and spiky blue hair, ready for battle! Approached from (4, 3).
    - Row 5 Walkway: Connects east to (12, 5) and column 10 chute. Black Belt Cristian visible to the south at (8, 8).
 
 ## Trainers
