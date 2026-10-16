@@ -70,4 +70,4 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Lilith: Meditite ♀ Lv 13 (fainted). Pre-battle: "Ufufu... Are you stumbling around in the dark?" Defeat quote: "Oh, you... I don't want to know you!"
    - Battle Type: 2-on-2 Double Battle triggered simultaneously at (16, 12).
    - Reward: ¥728, EXP (Sage grew to Lv 20!).
-   - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Corridor at col 16 open to proceed north toward Brawly's stage.
+   - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Confirmed column 16 dead-ends at row 9 water canal behind Lilith. Must backtrack south to row 19 to reach column 9 corridor.
