@@ -18,7 +18,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Horizontal walkway along row 22 connects cols 8-13.
    - Column 8 pier (rows 18-20) dead-ends north at water (8, 17).
    - Column 11-12 Bypass Corridor: Column 12 runs between row 8 junction and row 15 (dead-ends south at row 16 wall). At (12, 15), walkway jogs west to (11, 15). Column 11 runs south from row 15 down to (11, 19), then jogs east to (12, 19) and south to row 22 walkway. Bypasses water canal at (12, 18).
-   - Column 13-14 Corridor: Row 22 dead-ends east at (14, 22) beneath the water canal. The true East Wing corridor branches east from (12, 19) into (13, 19) above the water canal, then runs north along column 14 to an undefeated Sailor at (14, 11).
+   - Column 13-16 Corridor: Row 22 dead-ends east at (14, 22) beneath the water canal. The true East Wing corridor branches east from (12, 19) into (13, 19), then jogs east past water dead-ends at (14, 17) and (15, 17) to column 16. Column 16 is the true unobstructed vertical corridor (rows 13-18) leading north to Sailor Brenden and Battle Girl Lilith at rows 11-12.
    - Row 8 walkway runs west from (12, 8) to (9, 8) where Black Belt Cristian stands guard.
    - Southeast Branch: Column 12 runs south from (12, 22) to (12, 25), dead-ending at row 26 south wall. Battle Girl Laura was stationed at (12, 24). Completely cleared.
 
