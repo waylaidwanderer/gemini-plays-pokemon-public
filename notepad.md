@@ -791,6 +791,9 @@
 - **Route 129 Trainers & Westbound Path:**
   - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> west along `y = 13..16` to `(8, 16)`.
   - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Wingull Lv. 27`, `Staryu Lv. 33` [Defeated — money `$23,371`]. From `(8, 16)`, surf via `(8, 14)` -> `(7, 14)` -> `(7, 15)` -> `(5, 15)` -> `(5, 19)` -> `(0, 19)` into **Route 130 at `(79, 19)`**.
+## Route 130 & Route 131 (`(79, 19)` -> Sky Pillar)
+- **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
+- **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34`.
 
 <hr>
 
@@ -833,7 +836,7 @@
   - Row 3: `T U V W X Y Z` (cols 0..6)
 - **Pokémon Fanfare Auto-Advance:** The `"received/caught [POKéMON]!"` fanfare text box automatically advances to the `"give a nickname?" [YES / NO]` prompt once the jingle finishes; press `A` only ONCE to enter the naming screen.
 - **Overworld Warp Transitions:** Stepping onto a warp/door aborts remaining `press_buttons` inputs and leaves the next turn at the start of the fade-in; prepend `sleep 1000` (or `sleep 2000` for exterior doors that auto-step 1 tile `Down`) when chaining actions immediately after a warp. In `run_code`, `mgba.get_coordinates()` called immediately after a warp-aborted `press_buttons` still returns the pre-warp coordinates until the next `press_buttons` call advances the emulator through the fade transition; appending a second `tools.press_buttons(["sleep 1500", "B"])` call right after a warp settles the screen before the turn ends so the next turn starts with a clean overworld `<CurrentScreen>` and `latest_grid.png`.
-- **Clearing NPC Dialogue Safely:** When facing an NPC, use `B` (not `A`) to advance and close the final text box so extra presses cannot accidentally re-initiate dialogue. For overworld trainer triggers with 3–4 pre-battle text boxes, use `B, sleep 10000, B, sleep 6500` after clearing their pre-battle dialogue so `"would like to battle!"`, the enemy send-out, and `"Go! ATRITON!"` finish completely before pressing `A` on `FIGHT`.
+- **Clearing NPC Dialogue Safely:** When facing an NPC, use `B` (not `A`) to advance and close the final text box so extra presses cannot accidentally re-initiate dialogue. For overworld trainer triggers with 3–4 pre-battle text boxes, use `B, sleep 10000, B, sleep 6500` (or `B, sleep 9500` if the trainer's lead has `Intimidate` or weather messages play) after clearing their pre-battle dialogue so `"would like to battle!"`, the enemy send-out, and `"Go! ATRITON!"` finish completely before pressing `A` on `FIGHT`.
 - **Pokémon Center Healing Sequence:** Nurse Joy has 3 opening lines before `[YES / NO]` appears; press `A` **4 times** (`A, sleep 1000, A, sleep 1000, A, sleep 1000, A, sleep 6500`), then press `B` 4 times (`B, sleep 1000` x4) to clear her closing dialogue safely.
 - **Trainer Mid-Battle Faint Sequence (With 2+ Party Pokémon):** Use **5 `B` presses** for neutral KOs (`B, sleep 3000, B, sleep 1800, B, sleep 1800, B, sleep 1800, B, sleep 5500`) or **6 `B` presses** for super-effective / not-very-effective / critical-hit KOs (`B, sleep 2000` prepended for the effectiveness/crit box) to clear fainted text, full EXP bar animation, trainer's next Pokémon announcement, and `"Will ORION change POKéMON?"` (`No`). Use `5500ms` after the final `B` so longer Pokémon send-out animations/cries complete before pressing `A` on the battle menu.
 - **Berry Tree Harvesting Sequence:** Requires **3 `A` presses** (`A` #1: found berries, `A` #2: opens `[YES / NO]` prompt, `A` #3: confirms `YES` to pick berries), followed by `sleep 3500` and `B` x 3.

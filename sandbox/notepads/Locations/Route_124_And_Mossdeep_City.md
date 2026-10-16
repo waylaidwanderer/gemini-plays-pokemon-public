@@ -179,3 +179,6 @@
 - **Route 129 Trainers & Westbound Path:**
   - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> west along `y = 13..16` to `(8, 16)`.
   - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Wingull Lv. 27`, `Staryu Lv. 33` [Defeated — money `$23,371`]. From `(8, 16)`, surf via `(8, 14)` -> `(7, 14)` -> `(7, 15)` -> `(5, 15)` -> `(5, 19)` -> `(0, 19)` into **Route 130 at `(79, 19)`**.
+## Route 130 & Route 131 (`(79, 19)` -> Sky Pillar)
+- **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
+- **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34`.
