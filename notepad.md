@@ -67,10 +67,11 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
 4. Sailor Brenden & Battle Girl Lilith: [DEFEATED]
    - Location: East Wing corridor at (15..16, 11..12).
-   - Brenden: Machop ♂ Lv 13 (fainted). Pre-battle: "I'll show you the gumption of a sailing man!"
-   - Lilith: Meditite ♀ Lv 13 (fainted). Pre-battle: "Ufufu... Are you stumbling around in the dark?"
+   - Brenden: Machop ♂ Lv 13 (fainted). Pre-battle: "I'll show you the gumption of a sailing man!" Defeat quote: "How'd this happen? It's not like me to lose this way"
+   - Lilith: Meditite ♀ Lv 13 (fainted). Pre-battle: "Ufufu... Are you stumbling around in the dark?" Defeat quote: "Oh, you... I don't want to know you!"
    - Battle Type: 2-on-2 Double Battle triggered simultaneously at (16, 12).
-   - Outcome: Complete victory! Sage grew to Lv 20 (HP 44/55). All gym trainers defeated, gym illumination maximized! Corridor at col 16 open to proceed north toward Brawly's stage.
+   - Reward: ¥728, EXP (Sage grew to Lv 20!).
+   - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Corridor at col 16 open to proceed north toward Brawly's stage.
 
 <hr>
 
@@ -596,7 +597,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Poké Ball x14 (gift from Brendan, 3 used on Lotad, 12 bought in Rustboro)
 - Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
-- Money: ¥8940
+- Money: ¥9668
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
