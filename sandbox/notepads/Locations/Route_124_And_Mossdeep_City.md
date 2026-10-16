@@ -259,3 +259,7 @@
     4. **Magneton Lv. 41** (`Thunderbolt`, `Supersonic`, `Thunder Wave`, `Tri Attack`)
     5. **Gardevoir Lv. 45** (`Psychic`, `Calm Mind`, `Future Sight`, `Double Team`)
     - *[Defeated — money `$31,759`]*
+- **`VictoryRoad_1F` (`(2, 23)` -> Ladder to `VictoryRoad_B1F` at `(9, 14)`):**
+  - From `(2, 23)`, walk `Up` 4 to `(2, 19)`, `Right` 1 to `(3, 19)`, `Up` 1 to `(3, 18)`, `Right` 1 to `(4, 18)`, and `Up` 3 along `x = 4` to `(4, 15)`.
+  - **Cooltrainer♀ Hope `(6, 15)`:** Walks to `(5, 15)` watching `(4, 15)` — `Roselia Lv. 45` (1 Full Restore) [Defeated — money `$33,919`].
+  - From `(4, 15)`, walk `Up` 1 to `(4, 14)` and `Right` 5 along `y = 14` onto the ladder at **`(9, 14)`** (warps to `VictoryRoad_B1F` at `(8, 3)`).

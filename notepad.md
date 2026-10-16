@@ -871,6 +871,10 @@
     4. **Magneton Lv. 41** (`Thunderbolt`, `Supersonic`, `Thunder Wave`, `Tri Attack`)
     5. **Gardevoir Lv. 45** (`Psychic`, `Calm Mind`, `Future Sight`, `Double Team`)
     - *[Defeated — money `$31,759`]*
+- **`VictoryRoad_1F` (`(2, 23)` -> Ladder to `VictoryRoad_B1F` at `(9, 14)`):**
+  - From `(2, 23)`, walk `Up` 4 to `(2, 19)`, `Right` 1 to `(3, 19)`, `Up` 1 to `(3, 18)`, `Right` 1 to `(4, 18)`, and `Up` 3 along `x = 4` to `(4, 15)`.
+  - **Cooltrainer♀ Hope `(6, 15)`:** Walks to `(5, 15)` watching `(4, 15)` — `Roselia Lv. 45` (1 Full Restore) [Defeated — money `$33,919`].
+  - From `(4, 15)`, walk `Up` 1 to `(4, 14)` and `Right` 5 along `y = 14` onto the ladder at **`(9, 14)`** (warps to `VictoryRoad_B1F` at `(8, 3)`).
 
 <hr>
 
@@ -879,7 +883,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $31,759 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $33,919 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
