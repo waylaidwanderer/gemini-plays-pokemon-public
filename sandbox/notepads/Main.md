@@ -2,8 +2,8 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
-- Status: Challenging Dewford Gym rematch against Brawly! Sage reached Lv 22, defeated Machop and Meditite (burning both Super Potions), and brought Makuhita to red HP before blacking out to Vital Throw. Respawned at Dewford Pokémon Center with full HP party. Equipping Sage with Oran Berry and doing quick training to Lv 23 in Granite Cave 1F before defeating Brawly!
+- Starter: Treecko / Grovyle (Level 22, Male), Nickname: SAGE
+- Status: Preparing for Dewford Gym rematch! Sage is Lv 22 (full 60/60 HP, holding Oran Berry). Heading north to Granite Cave 1F for quick training to Lv 23 (defeating wild Geodude with Absorb) to guarantee survival against Makuhita's Vital Throw before claiming the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 22) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 60/60. Status: OK. Stats: Atk 37, Def 28, Sp.Atk 44, Sp.Def 40, Speed 51. Nature: Lonely. Ability: Overgrow.
@@ -19,7 +19,7 @@
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x12 (verified in Bag on turn 2728)
-- Berries: Cheri Berry x2, Oran Berry x5 (1 held by Sage), Pecha Berry x2
+- Berries: Cheri Berry x2, Oran Berry x4 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
 - Money: ¥42 (post-whiteout)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)

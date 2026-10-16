@@ -77,16 +77,16 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 ## Gym Leader Brawly
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
-- Emerald Team (Active Rematch Progress):
-  - Machop Lv 16: [DEFEATED on turn 2902] (Brawly burned 1st Super Potion on turn 2895).
-  - Meditite Lv 16: [DEFEATED on turn 2918] (Focus Punch cancelled 100% by Absorb; Brawly burned 2nd Super Potion on turn 2911. Sage grew to Lv 22!).
-  - Makuhita Lv 19: [ACTIVE BATTLE] Moves: Bulk Up, Arm Thrust, Vital Throw (-1 priority), Reversal. Held Item: Sitrus Berry. Brawly has 0 Super Potions remaining!
-- Healing Items (AI): BOTH Super Potions burned! (1st on Machop turn 2895, 2nd on Meditite turn 2911). Brawly has 0 Super Potions remaining!
-- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination active.
-- Rematch Battle Status:
-  - Sage Lv 22 (60/60 HP, holding Oran Berry, Speed 51).
-  - Machop and Meditite defeated with zero Super Potions left for Brawly.
-  - Makuhita is at ~72% HP; using Absorb to bypass Bulk Up defense boosts, pop Sitrus Berry, and claim the Knuckle Badge!
+- Emerald Team (Resets upon rematch):
+  - Machop Lv 16: Moves: Bulk Up, Karate Chop, Low Kick, Seismic Toss. Strategy: Absorb to defeat and heal off damage.
+  - Meditite Lv 16: Moves: Bulk Up, Focus Punch, Light Screen, Meditate. Strategy: Absorb cancels Focus Punch 100% and heals Sage.
+  - Makuhita Lv 19: Moves: Bulk Up, Arm Thrust, Vital Throw (-1 priority), Reversal. Held Item: Sitrus Berry (heals 30 HP once).
+- Healing Items (AI): Brawly has 2 Super Potions in reserve, which reset for the rematch. He burns them on Machop and Meditite when their HP falls to low yellow/red.
+- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. Unobstructed path to Brawly.
+- Rematch Strategy & Post-Mortem:
+  - In rematch attempt 2, Sage swept Machop and Meditite and burned both Super Potions.
+  - Makuhita's +1 Atk Vital Throw deals ~38 damage. At Lv 22 (60 HP), Sage dropped to 38 HP, then Vital Throw one-shot Sage from 38 to 0 HP, bypassing Oran Berry (which requires surviving under 50% HP).
+  - Winning Fix: Level Sage to Lv 23 in Granite Cave 1F. With ~65 HP and ~30 Def, Vital Throw deals ~30 damage, leaving Sage at ~35 HP, then surviving subsequent hits while Oran Berry provides +10 HP recovery.
 
 <hr>
 
@@ -597,8 +597,8 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
-- Status: Challenging Dewford Gym rematch against Brawly! Sage reached Lv 22, defeated Machop and Meditite (burning both Super Potions), and brought Makuhita to red HP before blacking out to Vital Throw. Respawned at Dewford Pokémon Center with full HP party. Equipping Sage with Oran Berry and doing quick training to Lv 23 in Granite Cave 1F before defeating Brawly!
+- Starter: Treecko / Grovyle (Level 22, Male), Nickname: SAGE
+- Status: Preparing for Dewford Gym rematch! Sage is Lv 22 (full 60/60 HP, holding Oran Berry). Heading north to Granite Cave 1F for quick training to Lv 23 (defeating wild Geodude with Absorb) to guarantee survival against Makuhita's Vital Throw before claiming the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 22) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 60/60. Status: OK. Stats: Atk 37, Def 28, Sp.Atk 44, Sp.Def 40, Speed 51. Nature: Lonely. Ability: Overgrow.
@@ -614,7 +614,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x12 (verified in Bag on turn 2728)
-- Berries: Cheri Berry x2, Oran Berry x5 (1 held by Sage), Pecha Berry x2
+- Berries: Cheri Berry x2, Oran Berry x4 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
 - Money: ¥42 (post-whiteout)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
