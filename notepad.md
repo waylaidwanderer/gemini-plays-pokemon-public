@@ -621,27 +621,27 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 23, Male), Nickname: SAGE
-- Status: Brawly Gym Rematch: Machop Lv 16 & Meditite Lv 16 BOTH DEFEATED! Sage Lv 23 at 58/63 HP holding Oran Berry facing final Pokémon Makuhita Lv 19. Absorb bypasses Bulk Up Defense boosts, drains HP, and sustains Sage to victory for the Knuckle Badge!
+- Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
+- Status: Knuckle Badge and TM08 Bulk Up earned from Gym Leader Brawly! Sage is Lv 24 (HP 33/65). All 6 gym trainers and Leader Brawly defeated. Next: exit gym to Dewford Town, heal at Pokémon Center, and head north to Route 106 / Granite Cave with HM05 Flash enabled to find Steven and deliver the Letter.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 24) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 33/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
 ## Bag Highlights
-- Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30).
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Super Potion x0 (2 used on Sage in Brawly gym battle)
+- Super Potion x0
 - Potion x0
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x12 (verified in Bag on turn 2728)
-- Berries: Cheri Berry x2, Oran Berry x3 (1 held by Sage), Pecha Berry x2
-- TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
-- Money: ¥21 (post-whiteout 2)
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
+- Berries: Cheri Berry x2, Oran Berry x3, Pecha Berry x2
+- TMs & HMs: TM08 Bulk Up (gift from Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
+- Money: Prize money from Brawly incoming!
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call - Brawly registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -672,7 +672,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 9. [x] Return south through Route 104 to Mr. Briney's cottage to sail to Dewford Town.
 10. [x] Speak to Fisherman in Dewford Town to receive the Old Rod.
 11. [ ] Explore Granite Cave (Route 106), received HM05 Flash; deliver Letter to Steven.
-12. [ ] Defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge.
+12. [x] Defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
