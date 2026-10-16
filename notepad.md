@@ -530,7 +530,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Battle Type: 2-on-2 Double Battle.
    - Location: Coastal sand path at (9, 75). Isabel at (10, 75), Kaleb at (8, 75) disguised in the bush.
    - Pre-battle Quotes: Isabel: "Ahahaha! I would go anywhere to show off my delightful POKÉMON.", Kaleb: "When cute POKÉMON help each other... You won't see a more adorable sight!"
-   - Team: Isabel: Plusle ♀ Lv 14 (FAINTED), Minun ♀ Lv 14; Kaleb: Minun ♂ Lv 14.
+   - Team: Isabel: Plusle Lv 14 (FAINTED); Kaleb: Minun ♂ Lv 14.
 - Double Battle Field Mechanics: Targeting operates on a 2x2 grid: Top Row = Foes (Left = Minun, Right = Plusle); Bottom Row = Allies (Left = Sage, Right = Cobalu). To target enemies, the cursor MUST be moved to the Top Row by pressing UP! On the Top Row, Left selects Minun and Right selects Plusle. If you press Right without pressing Up, the cursor targets your own partner (Cobalu on Bottom-Right)!
 
 <hr>
