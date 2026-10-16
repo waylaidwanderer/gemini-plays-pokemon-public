@@ -25,3 +25,6 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 4. [x] Fully heal party at Dewford Pokémon Center (Sage Lv 18 full HP 51/51, Lilz Lv 9, Cipher Lv 10).
 5. [x] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
 6. [ ] Return to Granite Cave with Flash enabled to locate Steven Stone and deliver President Stone's Letter.
+
+## Mechanics & Navigation Discoveries
+- Nurse Joy Interaction: Stand at (7, 4) facing Up. Advance dialogue strictly with A presses to reach and confirm the YES prompt on "Would you like to rest your POKéMON?". Avoid pressing B during the prompt sequence, as B defaults to NO and aborts the heal.
