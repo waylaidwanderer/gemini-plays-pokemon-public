@@ -35,10 +35,10 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Row 10 East Alcove: Tile (3, 10) dead-ends east at wall (4, 10).
 
 5. Sector 5: Northern Stage Approach & Access Stairs (cols 9-12, rows 1-8)
-   - Row 8 Corridor: Extends west from (12, 8) to (9, 8) where Black Belt Cristian is stationed.
+   - Row 8 Corridor: Extends west from (12, 8) to (9, 8). Black Belt Cristian permanently occupies (9, 8) (verified collision: impassable from east). Column 9 corridor extends south from Cristian's tile, and row 8 extends west behind him, accessible only from the southern/western network.
    - Central Stage Stairs: Confirmed horizontal stairs leading up into the elevated wooden stage at columns 9-10, rows 5-6, flanked by water to the south and east.
    - Upper Alcove: Column 10 dead-ends north at water at (10, 2) in an enclosed chute.
-   - Stage Access Route: Approached via the corridor running past Cristian on row 8 or from the western stairs.
+   - Stage Access Route: Must be approached via Sector 3 / Sector 4 from the south or west.
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
