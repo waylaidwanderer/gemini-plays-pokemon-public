@@ -126,7 +126,7 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 2. [x] Speak to Fisherman to receive the Old Rod.
 3. [x] Visit Granite Cave on Route 106, speak to Hiker for HM05 Flash.
 4. [x] Fully heal party at Dewford Pokémon Center (Sage Lv 18 full HP 51/51, Lilz Lv 9, Cipher Lv 10).
-5. [ ] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
+5. [x] Challenge and defeat Gym Leader Brawly in Dewford Gym to earn the Knuckle Badge and TM08 Bulk Up.
 6. [ ] Return to Granite Cave with Flash enabled to locate Steven Stone and deliver President Stone's Letter.
 
 <hr>
