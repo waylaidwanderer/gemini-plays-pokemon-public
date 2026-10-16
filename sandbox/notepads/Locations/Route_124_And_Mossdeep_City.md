@@ -208,3 +208,6 @@
 - **`SkyPillar_5F` (`(3, 2)` -> `(10, 1)`):**
   - On 5F, the central pit is wider and deeper (`x = 3..10, y = 4..11`), and rubble rocks at `(9, 2)` and `(8, 3)` block the direct northern path to `(10, 1)`.
   - From `(3, 2)`, walk `Left` 1 to `(2, 2)`, `Down` 10 along `x = 2` to `(2, 12)`, `Right` 9 along `y = 12` to `(11, 12)`, `Up` 10 along `x = 11` to `(11, 2)`, `Left` 1 to `(10, 2)`, and `Up` 1 into the staircase at **`(10, 1)`** (warps to `SkyPillar_Top`).
+- **`SkyPillar_Top` (`(16, 15)` -> `(14, 9)`):**
+  - No wild encounters on the summit.
+  - From `(16, 15)`, walk `Left` 4 to `(12, 15)`, `Up` 4 up the stairs to `(12, 11)`, `Right` 2 to `(14, 11)`, and `Up` 2 along `x = 14` to **`(14, 9)`** (stepping onto `(14, 9)` triggers the **Rayquaza Awakening Cutscene** [Completed]).
