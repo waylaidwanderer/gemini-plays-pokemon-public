@@ -294,4 +294,10 @@
 - **`VictoryRoad_B1F` Southwestern Section (`(17, 16)` -> `(15, 25)`):**
   - From the arrival ladder at `(17, 16)`, walk `Down` 1 to `(17, 17)`, `Left` 2 to `(15, 17)`, and `Down` 3 along `x = 15` to `(15, 20)` (bypassing the Cooltrainer♂ at `(14, 16)` who faces `Down` along `x = 14`).
   - **Cooltrainer♀ Halle `(14, 20)`:** Rotates `Up`/`Right` to watch `(15, 20)` — `Sableye Lv. 43` (Ghost/Dark, immune to Normal/Fighting), `Absol Lv. 43` [Defeated — money `$44,239`].
-  - From `(15, 20)`, walk `Down` 5 along `x = 15` to the southern junction at **`(15, 25)`**.
+  - **From `(15, 20)` to the `(20..21, 25..26)` Puzzle & Up-Ladder `(20, 20)`:**
+    - Walk `Down` 5 along `x = 15` from `(15, 20)` to `(15, 25)` and `Right` 4 along `y = 25` to **`(19, 25)`** facing the 2x2 puzzle at `(20..21, 25..26)` (Rock Smash rocks at `(20, 25)` and `(21, 26)`; Strength boulders at `(20, 26)` and `(21, 25)`).
+    - **4-Step Solution (do NOT push `(21, 25)` `Right` into `(22, 25)`, as `x = 22` is the 1-tile corridor to `(22, 20)`):**
+      1. At `(19, 25)` facing `Right`, use **Rock Smash** on **`(20, 25)`** and step `Right` 1 onto `(20, 25)`.
+      2. Face `Down` at `(20, 25)`, activate **Strength**, and push the boulder at **`(20, 26)` `Down` 1 into `(20, 27)`**.
+      3. Step `Down` 1 onto `(20, 26)`, face `Right`, and use **Rock Smash** on **`(21, 26)`**.
+      4. Walk `Right` 2 to `(22, 26)`, `Up` 1 to `(22, 25)`, and push the boulder at **`(21, 25)` `Left` 1 into `(20, 25)`**, then walk `Up` 5 along `x = 22` (`(22, 25) -> (22, 20)`) and `Left` 2 along `y = 20` onto the **Up-Ladder at `(20, 20)`**.
