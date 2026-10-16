@@ -742,6 +742,13 @@
     8. **Push 8:** Press `Right, Up` -> steps to `(6, 5)` and pushes `(6, 4)` `Up` to `(6, 3)`.
     9. **Push 9:** Press `Left, Left, Up` -> walks across `(5, 5)` to `(4, 5)` and pushes `(4, 4)` `Up` to `(4, 3)`.
     10. **Push 10:** Press `Up, Right` -> steps to `(4, 4)` and pushes `(5, 4)` `Right` to `(6, 4)`, opening the center aisle `(5, 4)` -> `(5, 2)` into **`SeafloorCavern_Room9` (Archie & Kyogre)**.
+- **`SeafloorCavern_Room9` (Kyogre's Chamber, `(12, 8)` -> `(17, 42)`):**
+  - **TM26 (Earthquake):** Item Ball on the upper northern ledge at **`(14, 5)`** (from `(12, 8)`, walk `Up` 3 to `(12, 5)`, `Right` 1 to `(13, 5)`, and press `A` facing `Right`).
+  - **Path from `(12, 8)` to Kyogre's Pool `(17, 42)`:**
+    - Walk straight `Down` 19 along `x = 12` from `(12, 8)` to `(12, 27)` (note: `(13..17, 26..28)` is a dead-end contour basin to the east).
+    - From `(12, 27)`, walk `Left` 4 along `y = 27` (between the upper rock wall at `y = 25..26` and the lower contour ridge at `y = 28..29`) to `(8, 27)`.
+    - Follow the western corridor south: `Down` 4 to `(8, 31)`, `Left` 1 to `(7, 31)`, `Down` 2 to `(7, 33)`, `Left` 1 to `(6, 33)`, `Down` 5 to `(6, 38)`, `Right` 1 to `(7, 38)`, and `Down` 2 to `(7, 40)`.
+    - Follow the southern shoreline east: `Right` 5 to `(12, 40)`, `Down` 1 to `(12, 41)`, `Right` 1 to `(13, 41)`, `Down` 1 to `(13, 42)`, and `Right` 4 along `y = 42` to **`(17, 42)`** (stepping onto `(17, 42)` and pressing `Up` or any direction triggers **Team Aqua Leader Archie**).
 
 <hr>
 
