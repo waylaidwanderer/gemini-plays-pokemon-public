@@ -885,6 +885,9 @@
     - From `(9, 10)`, walk `Down` 3 along `x = 9` to `(9, 13)`, `Right` 6 along `y = 13` to `(15, 13)`, `Up` 8 along `x = 15` to `(15, 5)`, and `Right` 3 to `(18, 5)`.
     - Smash the **Rock Smash rock at `(19, 5)`**, walk `Right` 1 and `Up` 1 to `(19, 4)`, face `Right` to smash the **Rock Smash rock at `(20, 4)`**, and step `Right` 1 onto `(20, 4)`.
     - From `(20, 4)`, push the **Strength boulder at `(20, 5)` `Down` 1 into the wall recess at `(20, 6)`**, walk `Down` 1 and `Right` 1 to `(21, 5)`, and push the **Strength boulder at `(21, 4)` `Up` 1 into the wall recess at `(21, 3)`**, opening the eastern corridor `(21, 4) -> (25, 4)` and south along `x = 25` underneath the wooden bridge `(23..26, 8..9)`.
+  - **Cooltrainer♀ Shannon `(26, 16)` Bottleneck & Bridge `(35..38, 16)`:**
+    - **Cooltrainer♀ Shannon `(26, 16)`:** Faces `Up` in a 1-tile bottleneck between `(25, 16)` and `(27, 16)`. Walk `Down` 9 from `(25, 4)` to `(25, 13)` and step `Right` 1 onto **`(26, 13)`** (`3` tiles north of `(26, 16)`) so she walks `Up` 2 tiles to `(26, 14)` (`Claydol Lv. 45` [Defeated — money `$38,143`]), vacating `(26, 15..16)`.
+    - After defeating Shannon at `(26, 14)`, walk `Left` 1 from `(26, 13)` to `(25, 13)`, `Down` 2 to `(25, 15)`, `Right` 1 to `(26, 15)`, `Down` 4 along `x = 26` to `(26, 19)`, `Right` 6 along `y = 19` to `(32, 19)`, `Up` 3 up the staircase `(32, 18..17)` to `(32, 16)`, and `Right` across the wooden bridge `(35..38, 16)`.
 
 <hr>
 
@@ -893,12 +896,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $35,983 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $38,143 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 55 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 56 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
