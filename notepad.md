@@ -81,8 +81,12 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16: [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly burned 1st Super Potion here).
   - Meditite Lv 16: [DEFEATED] (Focus Punch cancelled 100% by Absorb; Brawly burned 2nd Super Potion here; zero trainer heals left).
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw -1 priority, Reversal - Sitrus Berry heals 30 HP once; no trainer Super Potions left!).
-- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. In battle with Leader Brawly! Machop & Meditite defeated, both Brawly Super Potions exhausted. Facing ace Makuhita Lv 19 next!
-- Winning Strategy: Sage (Lv 21 Grovyle, Speed 49). Absorb Machop, Pursuit Meditite to cancel Focus Punch, Absorb Makuhita. Use Super Potion (+50 HP) as needed to guarantee decisive Knuckle Badge victory!
+- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active.
+- Battle Analysis (Gym Leader Brawly):
+  - Machop Lv 16: Defeated by Absorb. Burns Brawly's 1st Super Potion.
+  - Meditite Lv 16: Defeated by Absorb. Absorb deals ~12 damage, heals Sage, and cancels Focus Punch 100%! Burns Brawly's 2nd Super Potion.
+  - Makuhita Lv 19: High HP (~70), low Sp.Def (~18-20). Uses Bulk Up (+1 Atk/Def), Vital Throw (70 BP physical Fighting, -1 priority; deals ~34 damage at +1 Atk), Arm Thrust, Reversal.
+  - Defeat Takeaway: Brawly has exactly 2 Super Potions. Sage Lv 21 almost swept the entire gym (brought Makuhita to ~25% HP). For rematch: equip Sage with Oran Berry (we have 6 in Bag), train Sage to Lv 22-23 for higher HP/Def, and defeat Brawly!
 
 <hr>
 
