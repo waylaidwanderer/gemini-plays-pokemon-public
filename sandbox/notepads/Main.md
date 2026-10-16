@@ -2,8 +2,8 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Arrived at Route 109 / Slateport City! Checkpoint registered at Slateport City Pokémon Center! Spoke with Dock at Stern's Shipyard! Next: Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts, and deliver Devon Goods to Captain Stern. Party: Sage Lv 24, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
+- Starter: Treecko / Grovyle (Level 25, Male), Nickname: SAGE
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 25, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 25) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 48/68. Status: OK. Nature: Lonely. Ability: Overgrow.
