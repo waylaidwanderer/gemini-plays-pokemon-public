@@ -181,4 +181,4 @@
   - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Wingull Lv. 27`, `Staryu Lv. 33` [Defeated — money `$23,371`]. From `(8, 16)`, surf via `(8, 14)` -> `(7, 14)` -> `(7, 15)` -> `(5, 15)` -> `(5, 19)` -> `(0, 19)` into **Route 130 at `(79, 19)`**.
 ## Route 130 & Route 131 (`(79, 19)` -> Sky Pillar)
 - **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
-- **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34`.
+- **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34` [Defeated — money `$23,643`].

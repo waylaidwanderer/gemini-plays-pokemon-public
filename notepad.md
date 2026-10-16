@@ -793,7 +793,7 @@
   - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Wingull Lv. 27`, `Staryu Lv. 33` [Defeated — money `$23,371`]. From `(8, 16)`, surf via `(8, 14)` -> `(7, 14)` -> `(7, 15)` -> `(5, 15)` -> `(5, 19)` -> `(0, 19)` into **Route 130 at `(79, 19)`**.
 ## Route 130 & Route 131 (`(79, 19)` -> Sky Pillar)
 - **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
-- **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34`.
+- **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34` [Defeated — money `$23,643`].
 
 <hr>
 
@@ -802,7 +802,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $23,371 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $23,643 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
