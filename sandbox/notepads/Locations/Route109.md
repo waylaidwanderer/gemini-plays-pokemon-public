@@ -29,3 +29,5 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
    - Location: Triggered at (19, 13) on row 13. Sailor Edmond at (24, 13) facing West, Tuber Hailey at (21, 10) facing South.
    - Teams: Sailor Edmond: Wingull ♂ Lv 13 (fainted); Tuber Hailey: Marill ♀ Lv 13 (fainted).
    - Outcome: Complete victory! Sage grew in EXP; Lilz grew to Lv 10!
+- Furniture Mechanic (Deck Chairs): Sun loungers/deck chairs have north-facing backrests that block walking North off the chair. To exit, step South off the chair onto open sand, then navigate around via open columns (such as column 19).
+- Double Battle Mechanics: Area-of-Effect moves (Growl) target all adjacent foes automatically with no target prompt, immediately starting the round. Single-target moves default to targeting the opposing foe directly across.
