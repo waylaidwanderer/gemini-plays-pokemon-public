@@ -17,7 +17,6 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Cut Tree #1: Located at (13, 18), blocking the passage to the upper floor from row 19/20. Interacted from (13, 19) facing North.
 - Secret Scroll: Located on tatami mat at (4, 15).
 - Trainer 2: Lass at (4, 13) facing South guarding the area above the scroll.
-- Objective: Find the secret scroll to memorize the password, cut through trees, and reach the back room scroll door.
 - Cut Tree #2: Located at (14, 14), blocking the eastern corridor heading north along col 14. Interacted from (14, 15) facing North.
 - Cut Tree #3: Located on the boardwalk at (7, 10).
 - Round green hedges: Decorative barriers on the elevated boardwalks (e.g. at (10, 12) and (10, 16)).
