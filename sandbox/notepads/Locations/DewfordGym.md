@@ -79,4 +79,4 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly used Super Potion)
   - Meditite Lv 16 [DEFEATED] (Bulk Up, Focus Punch, Light Screen, Reflect - Focus Punch cancelled by Pursuit)
   - Makuhita Lv 19 [ACTIVE] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-- Rematch Strategy: All 6 gym trainers remain defeated and gym is fully illuminated. Sage enters at 55/55 full HP. Absorb Machop, use Pursuit on Meditite to cancel Focus Punch, Absorb Makuhita, and use in-battle Potions if HP drops below 25.
+- Rematch Strategy: All 6 gym trainers permanently defeated; gym fully illuminated. Machop defeated (burned Super Potion), Meditite defeated (Focus Punch cancelled by Pursuit). Makuhita at ~75% HP; all Potions expended. Lilz (Lotad Lv 9, HP 28/28) battling Makuhita with Astonish flinch strategy.
