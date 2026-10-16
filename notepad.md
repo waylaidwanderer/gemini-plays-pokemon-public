@@ -809,6 +809,10 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Trainer 3: Youngster at (14, 7) facing South along column 14.
 - Cut Tree #3: Located at (11, 12) (shrub-style Cut tree on the boardwalk) [CUT - CLEARED]. Opened central vertical passage at col 11 onto the boardwalk.
 - Green bushes: Verified that the rounded green bushes on the boardwalks are shrub-style Cut trees (not permanent hedges).
+- Secret Scroll: Located on tatami mat at (2, 15) in the southwest corner.
+- Trainer 2: Lass at (1, 14) guarding the Secret Scroll.
+- Cut Tree #4: Potted Cut tree at (8, 7) on the central vertical boardwalk.
+- Central tatami path: Col 9 at row 12 is open tatami accessed through cleared Cut Tree #3 at (11, 12).
 
 <hr>
 
