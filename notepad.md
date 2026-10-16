@@ -626,7 +626,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered. Lotad (Lilz) learned HM05 Flash! Sage Lv 24 equipped with Oran Berry (HP 65/65). CRITICAL PATH: B1F southwest ladder (4, 21) is an optional dead-end pocket blocked by Rock Smash boulder at (5, 19). In Pokémon Emerald, Steven Stone's chamber is accessed on 1F at (35, 3) near the entrance (37, 12) and Hiker (36, 9)! Climbing back to 1F (17, 11) to walk east to (35, 3) and deliver the Letter to Steven!
+- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered. Lotad (Lilz) learned HM05 Flash! Sage Lv 24 equipped with Oran Berry (HP 65/65). CRITICAL PATH VERIFIED: Visually confirmed on turn 3278 that the upper plateau ladder at (35, 2) on 1F is isolated by a one-way south-facing jump ledge (it is the exit from the lower levels). Steven's chamber MUST be reached via the cavern route: 1F ladder at (17, 11) -> B1F (use Flash) -> B2F -> ascending ladder to Steven's chamber! Currently returning to 1F ladder at (17, 11) to descend into B1F and deliver the Letter.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
