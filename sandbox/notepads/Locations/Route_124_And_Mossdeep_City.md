@@ -117,3 +117,16 @@
     2. Walk `Left` 1 and `Up` 1 to `(12, 10)` and push **`(12, 9)` `Up` 1 into `(12, 8)`**.
     3. Walk `Up` 1 and `Left` 1 to `(11, 9)` and push **`(11, 8)` `Up` 3 times** along `x = 11` (`(11, 8)` -> `(11, 7)` -> `(11, 6)` -> `(11, 4)`).
   - From `(11, 6)`, walk `Up` 1 to `(11, 5)`, `Left` 1 to `(10, 5)` (behind Shelly at `(9, 5)`), `Up` 2 to `(10, 3)`, `Left` 2 to `(8, 3)`, and `Up` 2 into the northern doorway at **`(8, 1)`**.
+- **`SeafloorCavern_Room8` (Final 12-Boulder Symmetrical Puzzle Room, `(5, 12)` -> `(5, 1)`):**
+  - From `(5, 12)`, walk `Left` 2 to `(3, 12)`, `Up` 4 around the ledge `(4..6, 10)` to `(3, 8)`, `Right` 2 to `(5, 8)`, face `Up`, and activate **Strength**.
+  - Execute the **10-push symmetrical solution** (remembering each boulder push ends a `press_buttons` call):
+    1. **Push 1:** At `(5, 8)`, press **`Up`** -> pushes `(5, 7)` `Up` to `(5, 6)`.
+    2. **Push 2:** Press `Up, Left` -> steps to `(5, 7)` and pushes `(4, 7)` `Left` to `(3, 7)`.
+    3. **Push 3:** Press `Right` at `(5, 7)` -> pushes `(6, 7)` `Right` to `(7, 7)`.
+    4. **Push 4:** Press `Left, Up, Right` -> walks via `(4, 7)` to `(4, 6)` and pushes `(5, 6)` `Right` to `(6, 6)`.
+    5. **Push 5:** Press `Right, Up` -> steps to `(5, 6)` and pushes `(5, 5)` `Up` to `(5, 4)`.
+    6. **Push 6:** Press `Up, Left` -> steps to `(5, 5)` and pushes `(4, 5)` `Left` to `(3, 5)`.
+    7. **Push 7:** Press `Right` at `(5, 5)` -> pushes `(6, 5)` `Right` to `(7, 5)`.
+    8. **Push 8:** Press `Right, Up` -> steps to `(6, 5)` and pushes `(6, 4)` `Up` to `(6, 3)`.
+    9. **Push 9:** Press `Left, Left, Up` -> walks across `(5, 5)` to `(4, 5)` and pushes `(4, 4)` `Up` to `(4, 3)`.
+    10. **Push 10:** Press `Up, Right` -> steps to `(4, 4)` and pushes `(5, 4)` `Right` to `(6, 4)`, opening the center aisle `(5, 4)` -> `(5, 1)` into **`SeafloorCavern_Room9` (Archie & Kyogre)**.
