@@ -40,5 +40,5 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Location: Coastal sand path at (9, 75). Isabel at (10, 75), Kaleb at (8, 75) disguised in the bush.
    - Pre-battle Quotes: Isabel: "Ahahaha! I would go anywhere to show off my delightful POKÉMON.", Kaleb: "When cute POKÉMON help each other... You won't see a more adorable sight!"
    - Team: Isabel: Plusle Lv 14 (fainted), Minun Lv 14 (fainted); Kaleb: Minun ♂ Lv 14 (fainted), Plusle ♂ Lv 14 (fainted).
-   - Outcome: Complete victory! Earned ¥672 prize money. Cobalu grew to Lv 11! Sage Lv 25 at 68/68 HP. Lilz fainted during battle.
+   - Outcome: Complete victory! Earned ¥2240 prize money. Cobalu grew to Lv 11! Sage Lv 25 at 68/68 HP. Lilz fainted during battle.
 - Double Battle Field Mechanics: Move execution requires two A confirmations per Pokémon: 1st A selects move (target cursor opens), 2nd A confirms target. Slot 1 defaults to foe across. Cobalu's main battle menu retains cursor on RUN if cancelled back; press Up+Left to return to FIGHT.
