@@ -10,7 +10,7 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 - Signpost near dock: Located at (10, 10).
 - Blue-roofed house: Located directly northwest of the dock at (6..9, 4..8); front door at (7, 7).
 - Pokémon Center: Located on the western beach of Dewford Town at (1..4, 6..10). Sliding door entrance at (2, 10) approached from row 11. Interior warp at (7, 8); talk to Nurse Joy at (7, 4) facing Up. Respawn checkpoint registered!
-- Dewford Gym: Leader Brawly (Fighting-type). Located southeast of Pokémon Center; roof spans rows 13-17. Gym sign is at (11, 16). Sliding glass entrance door is at (10, 17) approached from (10, 18) (column 9 door tile is impassable). Awards Knuckle Badge and allows HM05 Flash outside battle.
+- Dewford Gym: Leader Brawly (Fighting-type). Located southeast of Pokémon Center; roof spans rows 13-17. Gym sign is at (11, 16). Protruding hexagonal entrance foyer spans columns 6-9, with white pillars at col 6 and col 9. Sliding glass entrance doors are at (7..8, 17) approached from row 18. Awards Knuckle Badge and allows HM05 Flash outside battle.
 - Dewford Hall: Located at (1..5, 0..3) north of Pokémon Center. Front entrance door at (3, 3), hall signpost at (2, 4). Boy NPC stands outside at (2, 6).
 - North Exit to Route 106: Wide open beach corridor at columns 6..8 heading north past row 0 directly into Route 106 toward Granite Cave.
 - Fisherman: Stands at (12, 14) next to Dewford Gym; gave the OLD ROD!
