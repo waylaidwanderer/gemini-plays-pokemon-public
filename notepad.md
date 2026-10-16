@@ -721,7 +721,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Quest Progression (Devon Goods): Team Aqua Grunts currently block the Oceanic Museum entrance in the northeast. To advance, visit Stern's Shipyard in the southeast at (23..24, 40) and talk to Dock on 1F (examining ship blueprints). Dock explains Captain Stern is at the Oceanic Museum, which triggers the Aqua queue to move inside!
 - Stern's Shipyard Interior: 1F entrance warp at (2, 14). Stairs to 2F along east wall (cols 5..7). Main workshop floor extends north along cols 3..10. Dock stands at (5, 4) next to the large ship blueprint drafting table at (4..5, 5..6)!
 - Oceanic Museum Interior: 1F entrance mat at (9, 8). Dual reception counters at (6..8, 5..7) and (10..12, 5..7). Center walkway runs along col 9. Team Aqua Grunts scattered admiring exhibits on 1F. Stairs to 2F located in the museum.
-- TM46 Thief: Obtained from the reformed Team Aqua Grunt standing in the southwest corner of 1F at (2, 7) south of the glass water cylinder. Talk to him from (1, 7) facing Right.
+- TM46 Thief: Obtained from the reformed Team Aqua Grunt standing in the southwest corner of 1F at (2, 8) south of the glass water cylinder. Talk to him from (1, 8) facing Right.
 - Oceanic Museum Stairs to 2F: Located along the north wall at cols 3..4, rows 0..1.
 
 <hr>
@@ -777,7 +777,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 1. [x] Sail with Mr. Briney from Dewford Town to Route 109 beach.
 2. [x] Defeat beach trainers on Route 109 (Edmond & Hailey, Ricky, Lola & Chandler; found hidden Potion).
 3. [x] Enter Slateport City and heal/register checkpoint at Pokémon Center.
-4. [ ] Visit Stern's Shipyard in southeast Slateport City at (23..24, 40) and speak with Dock on 1F.
+4. [x] Visit Stern's Shipyard in southeast Slateport City at (23..24, 40) and speak with Dock on 1F.
 5. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
 6. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F of Oceanic Museum.
 7. [ ] Explore town landmarks (Slateport Market, Battle Tent, Name Rater).
