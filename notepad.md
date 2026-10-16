@@ -609,7 +609,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Super Potion x2 (stocked at Rustboro Mart, verified in Bag Turn 2779)
+- Super Potion x1 (1 used on Sage in Brawly gym battle Turn 2780)
 - Potion x0
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
