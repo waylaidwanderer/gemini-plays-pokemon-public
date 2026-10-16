@@ -46,3 +46,4 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - TM46 Thief: Received from the reformed Team Aqua Grunt standing at (9, 4) in the central exhibit hall! Spoken to from (8, 4) facing Right.
 - Oceanic Museum 2F: Captain Stern is located in the southeast area at (13, 6) examining the ship model exhibits. Spoken to from (12, 6) facing Right. Initiates the Devon Goods delivery and Team Aqua ambush event!
 - Oceanic Museum 2F Battles: Defeated Team Aqua Grunt 1 (Carvanha Lv 15, ¥300) and Team Aqua Grunt 2 (Zubat Lv 14, Carvanha Lv 14, ¥280).
+- Archie Encounter & Delivery: Archie confronted May on 2F, proclaimed Team Aqua's ideals, warned May not to interfere, and ordered a retreat. Captain Stern received the Devon Goods, concluding the delivery!

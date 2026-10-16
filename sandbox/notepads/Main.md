@@ -48,7 +48,7 @@
 2. [x] Defeat beach trainers on Route 109 (Edmond & Hailey, Ricky, Lola & Chandler; found hidden Potion).
 3. [x] Enter Slateport City and heal/register checkpoint at Pokémon Center.
 4. [x] Visit Stern's Shipyard in southeast Slateport City at (23..24, 40) and speak with Dock on 1F.
-5. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
+5. [x] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
 6. [x] Receive TM46 Thief from reformed Aqua Grunt on 1F of Oceanic Museum.
 7. [ ] Explore town landmarks (Slateport Market, Battle Tent, Name Rater).
 8. [ ] Travel north onto Route 110 towards Mauville City.
