@@ -592,7 +592,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Dewford Gym trainers cleared. Shopping complete at Rustboro Mart (acquired 4 Super Potions, ¥85 remaining). Heading south to Route 104 and Mr. Briney's boat to return to Dewford Gym and defeat Brawly.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Dewford Gym trainers permanently cleared. Stocked 4 Super Potions at Rustboro Mart (¥85 remaining). Boarding Mr. Briney's boat to return to Dewford Gym and defeat Gym Leader Brawly.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55 (post-heal). Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
