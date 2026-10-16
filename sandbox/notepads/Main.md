@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Overgrow activated (Sage HP 17/55); executing boosted Absorb to KO Machop (~35% HP).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Machop defeated by Overgrow Absorb; Sage facing Brawly's Meditite (Lv 16).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 17/55. Status: OK (Overgrow Active). Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
