@@ -3,17 +3,17 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! IN BRAWLY REMATCH! Machop & Meditite defeated; Sage (HP 5/55, Overgrow Active) facing Makuhita (~75% HP). Accessing Bag for in-battle Potion healing.
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! IN BRAWLY REMATCH! Machop & Meditite defeated; in-battle Potion healed Sage to 25/55 HP against Makuhita (~75% HP).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 5/55. Status: OK (Overgrow Active). Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 25/55. Status: OK (Overgrow Active). Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
 - Quick Claw: Held by Sage!
-- Potion x3 (1 promo used earlier, 2 used in Dewford Gym; 3 remain)
+- Potion x2 (1 promo used earlier, 2 used in Dewford Gym, 1 in Brawly rematch; 2 remain)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
