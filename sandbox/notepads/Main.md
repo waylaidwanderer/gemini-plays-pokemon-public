@@ -13,7 +13,7 @@
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Super Potion x1 (1 used on Sage in Brawly gym battle Turn 2780)
+- Super Potion x0 (2 used on Sage in Brawly gym battle)
 - Potion x0
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
