@@ -3,12 +3,12 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. In East Wing Double Battle: Machop fainted! Isolated Meditite remains in 2-on-1 vs Sage (HP 48/53) and Cipher (HP 25/25).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated Cristian, Takao & Laura in Dewford Gym. In East Wing Double Battle: Machop defeated, Meditite in yellow HP (~35%). Sage (HP ~42/53) executing final Pursuit to conclude battle.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 48/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 19) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 42/53. Status: OK. Stats: Atk 33, Def 25, Sp.Atk 39, Sp.Def 35, Speed 44. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 0/28. Status: FNT (fainted in double battle).
-3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK (in party, sending out).
+3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: FNT (fainted in double battle).
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
