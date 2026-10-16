@@ -528,9 +528,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Seaside Cycling Road: Elevated highway on steel trestle pillars running along the east water. The entrance gate is further along.
 - Bike NPC: Boy at (17, 90) facing South; friendly NPC debating between Mach Bike and Acro Bike.
 - Pedestrian route: Coastal path goes north to row 69. West fork at row 69 leads onto Route 103 (dead-end water inlet with trainers/berries). Northbound pedestrian route toward Mauville City continues north underneath the Seaside Cycling Road.
-- Trick House: Located on the northwest side of Route 110 (offers puzzle challenges with the Trick Master).
-- Seaside Cycling Road (Elevated): Overhead bike highway on steel trestle pillars.
-- Under-Bridge Route: Pedestrian pathway winding underneath the Cycling Road structure.
+- Under-Bridge Route: Pedestrian pathway winding underneath the Cycling Road structure towards Mauville City.
 - Rival Brendan Encounter: Rival Battle #2 occurs under the Cycling Road bridge! Rival team: Wailmer (~Lv 18), Numel (~Lv 18), Combusken (~Lv 20).
 
 ## Progression Checklist - Route 110
