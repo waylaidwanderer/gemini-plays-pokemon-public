@@ -71,7 +71,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Outcome: Complete victory! All gym trainers defeated, gym illumination maximized! Confirmed column 16 dead-ends at row 9 water canal behind Lilith. Must backtrack south to row 19 to reach column 9 corridor.
 
 5. Battle Girl Jocelyn: [DEFEATED]
-   - Location: Column 15 at (15, 2..3) directly in front of Gym Leader Brawly.
-   - Pre-battle: "There's no need for BRAWLY to be involved! I'll crush you!"
+   - Location: Column 15 at (15, 5).
+   - Pre-battle: "There's no need for BRAWLY to be involved! I'll crush you!" Defeat quote: "But... How? How could I lose so easily..."
    - Team: Meditite ♀ Lv 13 (fainted).
-   - Outcome: Complete victory! Defeated with super effective Pursuit. Path to Gym Leader Brawly at (15, 2) is completely unblocked!
+   - Reward: ¥312, 253 EXP.
+   - Outcome: Complete victory! Defeated with super effective Pursuit. All 6 gym trainers defeated! Column 15 terminates in water behind her.
