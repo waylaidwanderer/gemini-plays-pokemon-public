@@ -598,10 +598,10 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 21, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. In battle with Gym Leader Brawly for Knuckle Badge! Machop & Meditite defeated. Makuhita at ~45% HP. Sage at 13/57 HP; using Super Potion from Bag to heal to full 57/57 HP!
+- Status: Challenging Dewford Gym. Sage reached Lv 21, defeated Machop & Meditite, and burned both of Brawly's Super Potions. Sage fainted to Makuhita; blacking out to Dewford Pokémon Center to heal party, re-equip Oran Berry, and prepare rematch!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 21) [Held Item: None (Oran Berry consumed in battle Turn 2767)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 13/57 (in battle vs Brawly; Overgrow active). Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 21) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 0/57 (fainted). Status: FNT. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
