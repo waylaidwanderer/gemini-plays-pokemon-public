@@ -146,6 +146,6 @@
 - **Route 126 `(79, 48)` to Sootopolis Southern Dive Trench `(51, 68)`:**
   - From `(79, 48)`, surf `Left` 13 along `y = 48` to `(66, 48)`, `Down` 20 along `x = 66` (east of Sootopolis City's outer crater wall) to `(66, 68)`, and `Left` 15 along `y = 68` onto the deep underwater trench (`MB_DIVEABLE`) at **`(51, 68)`** (`x = 51..55, y = 68`).
   - **Swimmer♂ Barry `(51, 67)`:** `Gyarados Lv. 34` [Defeated — money `$13,388`]. Surf `Left` 3 from `(51, 68)` to **`(48, 68)`** (unobstructed trench tile) before pressing `A` to use **Dive**.
-- **`Underwater_Route126` (`(48, 68)` -> `(44, 64)`) & `Underwater_SootopolisCity`:**
-  - After using **Dive** at `(48, 68)` on Route 126, swim `Left` 4 along `y = 68` to `(44, 68)` and `Up` 4 along `x = 44` (`(44, 68)` -> `(44, 64)`, completely bare floor with zero seaweed) into the **Sootopolis City underwater cave entrance at `(44, 64)`** (warps to `Underwater_SootopolisCity` at `(9, 8)`).
-  - Inside `Underwater_SootopolisCity` at `(9, 8)`, press **`B`** (`B, sleep 1500, A, sleep 1000, B, sleep 4000`) to surface into **Sootopolis City**.
+- **`Underwater_Route126` (`(48, 68)` -> `(45, 65)`) & `Underwater_SootopolisCity`:**
+  - After using **Dive** at `(48, 68)` on Route 126, swim `Left` 3 along `y = 68` to `(45, 68)` and `Up` 3 along `x = 45` (`(45, 68)` -> `(45, 66)` -> **`(45, 65)`**, completely bare floor with zero seaweed; note that the underwater cave arch spans `x = 44..45, y = 65`, and **only the right tile `(45, 65)`** is the active warp tile) into **`Underwater_SootopolisCity` at `(9, 8)`**.
+  - Inside `Underwater_SootopolisCity` at `(9, 8)`, press **`B`** (`B, sleep 1500, A, sleep 1000, B, sleep 4500`) to surface into **Sootopolis City at `(29, 53)`**.
