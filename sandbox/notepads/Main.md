@@ -22,7 +22,7 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥3728 (earned ¥300 from Grunt 1, ¥280 from Grunt 2, ¥672 from Pokéfan Isabel & Kaleb; paid ¥50 museum admission)
+- Money: ¥5296 (earned ¥300 from Grunt 1, ¥280 from Grunt 2, ¥2240 from Pokéfan Isabel & Kaleb; paid ¥50 museum admission)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
