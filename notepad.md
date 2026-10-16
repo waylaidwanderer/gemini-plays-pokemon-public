@@ -193,6 +193,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
   - Ascending stairs to B2F upper tier leads east along row 15 (past northern stairs overlook at col 15), curving north around col 21 to ascending ladder at (29, 13).
   - B1F Upper Tier ladder at (29, 13) connects directly west to ascending ladder at (26, 13) leading up to 1F Upper Plateau at (35, 3).
   - 1F Upper Plateau traverses west along row 3, turns south at col 5, hops south ledges down to Steven's Chamber entrance at (5, 11).
+- Navigation Discovery (1F Southwest Area): Row 13 beneath the southwest ladder (cols 14-18) is a solid elevation cliff face, not a jump ledge. To reach the 1F main path from row 12, walk along column 16 (between the mud slope at cols 13-14 and ladder at 17, 11) heading north to row 9 (16, 9). Row 9 connects directly east to the row 7-9 highway toward the cave exit at (37, 12).
 
 <hr>
 
