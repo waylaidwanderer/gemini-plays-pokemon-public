@@ -742,7 +742,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Status: Knuckle Badge earned! Delivered Letter to Steven. Arrived at Slateport City, registered Pokémon Center checkpoint, obtained TM46 Thief, defeated Team Aqua on 2F of Oceanic Museum, met Archie, and delivered Devon Goods to Captain Stern! Next: Travel north onto Route 110 towards Mauville City. Party: Sage Lv 25, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
-1. SAGE (Grovyle ♂, Level 25) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 48/68. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 25) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 68/68. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 12) - Caught on Route 102. Moves: Astonish, Growl, Absorb, Flash. HP: 34/34. Status: OK. Stats: Atk 14, Def 12, Sp.Atk 12, Sp.Def 17, Speed 14.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 10) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 31/31. Stats: Atk 21, Def 29, Sp.Atk 14, Sp.Def 14, Speed 13. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Tackle (35/35), Harden (29/30), Mud-Slap (9/10), Headbutt (15/15). Status: OK.
