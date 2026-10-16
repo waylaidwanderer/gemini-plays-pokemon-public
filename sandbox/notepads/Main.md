@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. In battle with Gym Leader Brawly for the Knuckle Badge! Machop defeated; Brawly's single Super Potion burned. Facing Meditite Lv 16 next with Sage using Pursuit!
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. In battle with Gym Leader Brawly for the Knuckle Badge! Machop & Meditite defeated; both Brawly Super Potions burned. Facing ace Makuhita Lv 19 with Sage at full health (57/57 HP)!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 21) [Held Item: None (Oran Berry consumed in battle Turn 2767)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 57/57 (in battle vs Brawly). Status: OK. Stats: Atk 36, Def 27, Sp.Atk 42, Sp.Def 38, Speed 49. Nature: Lonely. Ability: Overgrow.
