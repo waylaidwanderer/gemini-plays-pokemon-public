@@ -464,6 +464,10 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 - Sailor Huey: Located at (16, 19) facing East.
 - Tubers and Floaties: Located east of column 23 at row 20.
 - Northbound Highway: Column 22 is an open, unobstructed sand corridor heading north towards Slateport City.
+## Trainers
+1. Sailor Huey: [BATTLING]
+   - Location: (24, 13) facing West on row 13.
+   - Pre-battle: "Urrrrppp... Battle? With me? I can't swim, so I'm pretending to swim."
 
 <hr>
 
