@@ -36,7 +36,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 5. Sector 5: Northern Stage Approach & Access Stairs (cols 9-12, rows 1-8)
    - Row 8 Corridor: Connects column 12 at (12, 8) west across (10, 8) to the column 9 intersection at (9, 8). Black Belt Cristian stands at (7, 8) in the western alcove. Column 9 connects directly to row 8 at (9, 8) without obstruction.
-   - Central Stage Stairs: Confirmed horizontal stairs leading up into the elevated wooden stage at columns 9-10, rows 5-6, flanked by water to the south and east.
+   - Row 6 Wall: Tile (11, 6) is a solid wall, not a bridge. The true northern approach ascends north up Column 12 (rows 5, 4, 3) where the walkway turns west toward Brawly's elevated wooden stage.
    - Upper Alcove: Column 10 dead-ends north at water at (10, 2) in an enclosed chute.
    - Column 16 Dead End: Column 16 terminates at row 10 in front of the row 9 water canal behind Brenden and Lilith. It is an ambush pocket, not a route to Brawly.
    - Stage Access Route: Untested access path is the column 9 corridor opening north from (9, 14) between water canals at row 13, leading directly toward the central stage stairs at (9..10, 5..6).
