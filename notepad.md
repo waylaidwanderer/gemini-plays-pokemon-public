@@ -22,6 +22,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Column 12 corridor leads north from (12, 22) through row 8 junction, dead-ending at (12, 5) water pier.
    - Column 13 corridor dead-ends north at (13, 6) water canal.
    - Row 8 walkway runs west from (12, 8) to (9, 8), where Black Belt Cristian stood guard.
+   - Southeast Branch: Column 12 runs south from (12, 22) into rows 23-24 between the column 11 and column 13 walls, heading into the unexplored southeast sector.
 
 3. Sector 3: Central Connector & Hub (cols 5-12, rows 14-16)
    - Row 14 walkway extends west from (11, 14) beneath row 13 water canal across cols 7-11 to (5, 14).
