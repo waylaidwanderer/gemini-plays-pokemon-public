@@ -245,3 +245,7 @@
   - From `(101, 22)`, surf `Right` 1 to `(102, 22)`, `Down` 4 along `x = 102..104` to `(104, 26)`, `Right` 9 along `y = 26` to `(113, 26)`, `Down` 2 to `(113, 28)`, and `Right` 8 along `y = 28` across `(119, 28)` into **Ever Grande City at `(1, 68)`** (`y_evergrande = y_route128 + 40`).
 - **Ever Grande City Southern Approach to Waterfall Base (`(1, 68)` -> `(18, 68)`):**
   - From the western entrance at `(1, 68)`, surf `Down` 4 to `(1, 72)`, `Right` 6 to `(7, 72)`, `Down` 3 to `(7, 75)`, `Right` 11 to `(18, 75)`, and `Up` 7 along `x = 18` to the base of the **Ever Grande Waterfall at `(18, 68)`**.
+- **Ever Grande City (South — Waterfall Top `(18, 59)` -> Pokémon Center `(27, 48)` & Victory Road `(18, 41)`):**
+  - After using **Waterfall** from `(18, 68)` to `(18, 59)`, surf `Up` 4 onto the southern terrace at `(18, 55)`, walk `Right` 1 to `(19, 55)`, and `Up` 6 up the staircases to `(19, 49)`.
+  - **Ever Grande City (South) Pokémon Center:** Door at **`(27, 48)`** (exiting steps to `(27, 49)`). Reached from `(19, 49)` via `Right` 8 along `y = 49` to `(27, 49)` and `Up` 1 into `(27, 48)`.
+  - **Victory Road South Entrance:** Cave door at **`(18, 41)`**. Reached from the Pokémon Center `(27, 49)` via `Left` 9 along `y = 49` to `(18, 49)` and `Up` 8 along `x = 18` into `(18, 41)`.
