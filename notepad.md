@@ -936,7 +936,7 @@
     - **Elite Four #3: Glacia (`EverGrandeCity_GlaciasRoom` `(6, 5)`):**
       - Stand at `(6, 6)` facing `Up` (`Sealeo Lv. 50` [Encore, Hail], `Glalie Lv. 50` [Light Screen], `Sealeo Lv. 52`, `Glalie Lv. 52` [Explosion, Hail], `Walrein Lv. 53 [Sitrus Berry, Sheer Cold]` [Defeated — money `$15,971`, `ATRITON` grew to Lv. 60]). Walk `Left` 1 to `(5, 6)`, `Up` 4 to `(5, 2)`, `Right` 1 to `(6, 2)`, and `Up` 1 into `(6, 1)` -> `EverGrandeCity_Hall3 (5, 12)` -> `Up` 11 to `(5, 1)` -> `EverGrandeCity_DrakesRoom (6, 7)`.
     - **Elite Four #4: Drake (`EverGrandeCity_DrakesRoom` `(6, 5)`):**
-      - Stand at `(6, 6)` facing `Up` (`Shelgon Lv. 52` [Protect, Rock Tomb, Double-Edge], `Altaria Lv. 54`, `Kingdra Lv. 53` [Smokescreen, Dragon Dance], `Flygon Lv. 53`, `Salamence Lv. 55 [Sitrus Berry, Intimidate]` [Defeated — money `$21,471`, `ATRITON` grew to Lv. 61; declined `Endeavor`]). Walk `Left` 1 to `(5, 6)`, `Up` 4 to `(5, 2)`, `Right` 1 to `(6, 2)`, and `Up` 1 into `(6, 1)` -> `EverGrandeCity_Hall4 (5, 12)` -> `Up` 11 to `(5, 1)` -> `EverGrandeCity_ChampionsRoom` (automatically initiates Champion Wallace battle upon entry).
+      - Stand at `(6, 6)` facing `Up` (`Shelgon Lv. 52` [Protect, Rock Tomb, Double-Edge], `Altaria Lv. 54`, `Kingdra Lv. 53` [Smokescreen, Dragon Dance], `Flygon Lv. 53`, `Salamence Lv. 55 [Sitrus Berry, Intimidate]` [Defeated — money `$21,471`, `ATRITON` grew to Lv. 61; declined `Endeavor`]). Walk `Left` 1 to `(5, 6)`, `Up` 4 to `(5, 2)`, `Right` 1 to `(6, 2)`, and `Up` 1 into `(6, 1)` -> `EverGrandeCity_Hall4 (5, 33)` -> `Up` 32 to `(5, 1)` -> `EverGrandeCity_ChampionsRoom` (automatically initiates Champion Wallace battle upon entry).
 
 <hr>
 
@@ -948,7 +948,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $21,471 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x6, Hyper Potion x4, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Full Restore x6, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 61 [Holding Mystic Water] — Strength, Rock Smash, Surf, Facade)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
