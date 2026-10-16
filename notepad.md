@@ -855,6 +855,8 @@
   - From `(71, 12)`, surf `Down` 10 along `x = 71` (west of the Ever Grande cliff) to `(71, 22)`, and `Right` 30 along `y = 22` to `(101, 22)`.
   - **Swimmer♂ Harrison `(101, 23)`:** Watches `(101, 22)` — `Tentacruel Lv. 35` [Defeated — money `$29,059`].
   - From `(101, 22)`, surf `Right` 1 to `(102, 22)`, `Down` 4 along `x = 102..104` to `(104, 26)`, `Right` 9 along `y = 26` to `(113, 26)`, `Down` 2 to `(113, 28)`, and `Right` 8 along `y = 28` across `(119, 28)` into **Ever Grande City at `(1, 68)`** (`y_evergrande = y_route128 + 40`).
+- **Ever Grande City Southern Approach to Waterfall Base (`(1, 68)` -> `(18, 68)`):**
+  - From the western entrance at `(1, 68)`, surf `Down` 4 to `(1, 72)`, `Right` 6 to `(7, 72)`, `Down` 3 to `(7, 75)`, `Right` 11 to `(18, 75)`, and `Up` 7 along `x = 18` to the base of the **Ever Grande Waterfall at `(18, 68)`**.
 
 <hr>
 
