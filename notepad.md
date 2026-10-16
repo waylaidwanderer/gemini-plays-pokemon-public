@@ -60,11 +60,13 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Team: Meditite ♀ Lv 13 (fainted).
    - Reward: ¥312, 253 EXP. Expanded spotlight from radius 4 to 5!
 
-## Gym Leader Brawly
+## Gym Leader Brawly: [IN PROGRESS - GYM BATTLE]
+- Location: Central stage blue mat at (4, 2). Approached from (4, 3).
 - Emerald Team:
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
+- Strategy: Sage (Lv 20 Grovyle, Quick Claw) uses Absorb against Machop to deal heavy damage and heal to full HP; uses Pursuit against Meditite to exploit 2x weakness and cancel Focus Punch; uses Absorb against Makuhita.
 4. Sailor Brenden & Battle Girl Lilith: [DEFEATED]
    - Location: East Wing corridor at (15..16, 11..12).
    - Brenden: Machop ♂ Lv 13 (fainted). Pre-battle: "I'll show you the gumption of a sailing man!" Defeat quote: "How'd this happen? It's not like me to lose this way"
@@ -587,7 +589,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. Standing at the stairs to Brawly's stage at (4, 5). Stepping up to challenge Gym Leader Brawly for the Knuckle Badge!
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY for the Knuckle Badge! Sage (Lv 20) facing Machop (Lv 16).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 38/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
