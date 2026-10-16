@@ -58,7 +58,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Team: Meditite ♀ Lv 13 (fainted).
    - Reward: ¥312, 253 EXP. Expanded spotlight from radius 4 to 5!
 
-## Gym Leader Brawly: [REMATCH PENDING]
+## Gym Leader Brawly: [REMATCH IN PROGRESS - GYM BATTLE]
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly uses 1 Super Potion!)

@@ -60,7 +60,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Team: Meditite ♀ Lv 13 (fainted).
    - Reward: ¥312, 253 EXP. Expanded spotlight from radius 4 to 5!
 
-## Gym Leader Brawly: [REMATCH PENDING]
+## Gym Leader Brawly: [REMATCH IN PROGRESS - GYM BATTLE]
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly uses 1 Super Potion!)
@@ -589,7 +589,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! Re-entered Dewford Gym with full health (Sage 55/55 HP). Navigating column 9 toward Brawly's stage for the rematch!
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! IN BRAWLY REMATCH! Sage (Lv 20, 55/55 HP) ready to battle Machop, Meditite, and Makuhita for the Knuckle Badge!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
