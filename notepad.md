@@ -670,6 +670,8 @@
     2. **Xatu Lv. 41** (`Psychic`, `Calm Mind`, `Confuse Ray`, `Sunny Day`)
     3. **Lunatone Lv. 42 [Sitrus Berry]** (`Psychic`, `Hypnosis`, `Calm Mind`, `Light Screen`)
     4. **Solrock Lv. 42 [Sitrus Berry]** (`SolarBeam`, `Sunny Day`, `Psychic`, `Flamethrower`)
+    - *[Defeated & Registered — **Mind Badge** and **TM04 (Calm Mind)** obtained]*
+  - **Exit Route from `(23, 8)`:** Walk `Down` 1 to `(23, 9)`, `Left` 2 to `(21, 9)`, and `Up` 2 onto the return teleporter at **`(21, 7)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
 
 <hr>
 
@@ -678,10 +680,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $36 | **Badges:** 6 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,436 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 50 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)

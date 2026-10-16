@@ -58,3 +58,5 @@
     2. **Xatu Lv. 41** (`Psychic`, `Calm Mind`, `Confuse Ray`, `Sunny Day`)
     3. **Lunatone Lv. 42 [Sitrus Berry]** (`Psychic`, `Hypnosis`, `Calm Mind`, `Light Screen`)
     4. **Solrock Lv. 42 [Sitrus Berry]** (`SolarBeam`, `Sunny Day`, `Psychic`, `Flamethrower`)
+    - *[Defeated & Registered — **Mind Badge** and **TM04 (Calm Mind)** obtained]*
+  - **Exit Route from `(23, 8)`:** Walk `Down` 1 to `(23, 9)`, `Left` 2 to `(21, 9)`, and `Up` 2 onto the return teleporter at **`(21, 7)`** (warps to Room 1 `(7, 30)`), then walk `Down` 1 to `(7, 31)`, `Left` 1 to `(6, 31)`, and `Down` 5 along `x = 6` out `(6, 35)` to Mossdeep City `(38, 10)`.
