@@ -33,3 +33,6 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Main Crossroads: Located at (19, 27..29) connecting North (upper city), South (beach/Route 109), West (Poké Mart and Pokémon Center), and East (Oceanic Museum).
 - Poké Mart: Located at rows 22..26, cols 8..14. Blue roof with 'MART' sign; front door at row 26/27.
 - Oceanic Museum: Located in the northeast across the canal bridge. Currently blocked/mobbed by a queue of 7 Team Aqua Grunts waiting outside!
+- Residential House: Located at (3..7, 16..19). Purple roof, yellow siding, red front door at (5, 18), signpost at (7, 19).
+- North-South Avenue (West): Runs along cols 8..10 connecting the Poké Mart area north toward the Battle Tent and upper city.
+- Cross-Street at Row 20: Connects col 9 east to the main avenue at col 19.
