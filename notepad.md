@@ -814,7 +814,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Trick Master sits at (3, 5) on the western cushion.
 - Secret exit hole in back wall: (2..3, 1), leading back to the front room / entrance.
 - Reward: Rare Candy for solving Puzzle 1.
-- Secret Exit Corridor: Backstage passage linking Reward Room hole at (2, 1) back to Front Room. Enters at (13, 3) -> West to (5, 3) -> South to (5, 10) -> West to (2, 10) -> South to (2, 23) -> East across patterned mat at (3..5, 23) to exit into Front Room.
+- Secret Exit: Hole at (2, 1) in Reward Room leads through backstage passage back to the Front Room entrance mat.
 
 <hr>
 
