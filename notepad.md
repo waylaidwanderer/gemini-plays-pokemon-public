@@ -749,7 +749,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Berries: Cheri Berry x2, Oran Berry x2 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
 - Money: ¥2537 (earned ¥468 from Edmond & Hailey, ¥52 from Ricky, ¥96 from Lola & Chandler on Route 109)
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Brawly, Steven, Elliot, Ricky, Lola registered!), Old Rod (Fisherman in Dewford Town)
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
