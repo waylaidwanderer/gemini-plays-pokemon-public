@@ -13,7 +13,7 @@
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
 - Quick Claw: Held by Sage!
-- Potion x5 (1 promo Potion used to heal Sage to full HP, 4 bought in Rustboro)
+- Potion x4 (1 promo used earlier, 1 bought in Rustboro used in Dewford Gym; 4 remain)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x1 (collected from northwest grass in Petalburg Woods at 4, 8)
