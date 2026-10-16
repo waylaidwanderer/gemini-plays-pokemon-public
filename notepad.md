@@ -741,7 +741,7 @@
     7. **Push 7:** Press `Right` at `(5, 5)` -> pushes `(6, 5)` `Right` to `(7, 5)`.
     8. **Push 8:** Press `Right, Up` -> steps to `(6, 5)` and pushes `(6, 4)` `Up` to `(6, 3)`.
     9. **Push 9:** Press `Left, Left, Up` -> walks across `(5, 5)` to `(4, 5)` and pushes `(4, 4)` `Up` to `(4, 3)`.
-    10. **Push 10:** Press `Up, Right` -> steps to `(4, 4)` and pushes `(5, 4)` `Right` to `(6, 4)`, opening the center aisle `(5, 4)` -> `(5, 1)` into **`SeafloorCavern_Room9` (Archie & Kyogre)**.
+    10. **Push 10:** Press `Up, Right` -> steps to `(4, 4)` and pushes `(5, 4)` `Right` to `(6, 4)`, opening the center aisle `(5, 4)` -> `(5, 2)` into **`SeafloorCavern_Room9` (Archie & Kyogre)**.
 
 <hr>
 
