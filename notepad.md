@@ -876,7 +876,7 @@
   - **Main Progression Route on `VictoryRoad_1F`:** After defeating Rival Wally at `(2, 23)`, walk `Down` 3 to `(2, 26)`, cross the overhead wooden bridge `Right` 11 to `(13, 26)`, and descend the staircase `Down` 3 to **`(13, 29)`** on the lower cave floor.
   - **Under-Bridge Route to Eastern `VictoryRoad_B1F` Ladder (`(13, 29)` -> `(21, 31)`):**
     - From `(13, 29)`, walk `Left` 4 to `(9, 29)`, `Up` 7 along `x = 9` (underneath the wooden bridge `(6..12, 26)`) to `(9, 22)`, `Right` 9 along `y = 22` to `(18, 22)`, `Down` 2 to `(18, 24)`, `Right` 9 along `y = 24` (above the rock at `(21, 25)`) to `(27, 24)`, and `Down` 9 along `x = 27` (underneath the eastern wooden bridge `(24..31, 28)`) to `(27, 33)`.
-    - From `(27, 33)`, walk `Right` 1 to `(28, 33)`, `Down` 2 to `(28, 35)` (past **Cooltrainer♂ Albert `(27, 34)`** — `Magneton Lv. 43`, `Muk Lv. 43`), `Right` 6 along `y = 35` (below the cliff wall `(30..33, 32..33)`) to `(34, 35)`, `Up` 4 along `x = 34` to `(34, 31)`, `Left` 1 to `(33, 31)`, `Up` 3 up the staircase `(33, 30..28)` onto the wooden bridge at `(33, 28)`, `Left` 12 across the wooden bridge to `(21, 28)`, and `Down` 3 down the staircase `(21, 29..30)` onto the **Eastern `VictoryRoad_B1F` Ladder at `(21, 31)`**.
+    - From `(27, 33)`, walk `Right` 1 to `(28, 33)`, `Down` 2 to `(28, 35)` (past **Cooltrainer♂ Albert `(27, 34)`** — `Magneton Lv. 43`, `Muk Lv. 43` [Defeated — money `$35,983`]), `Right` 7 along `y = 35` (below the cliff wall `(30..34, 32..33)`) to `(35, 35)`, `Up` 4 along `x = 35` to `(35, 31)`, `Left` 2 to `(33, 31)`, `Up` 3 up the staircase `(33, 30..28)` onto the wooden bridge at `(33, 28)`, `Left` 12 across the wooden bridge to `(21, 28)`, and `Down` 3 down the staircase `(21, 29..30)` onto the **Eastern `VictoryRoad_B1F` Ladder at `(21, 31)`**.
 
 <hr>
 
@@ -885,7 +885,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $33,919 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $35,983 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
