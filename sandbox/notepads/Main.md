@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 23, Male), Nickname: SAGE
-- Status: Whited out against Brawly. Makuhita was brought down to 2 pixels of HP with both Super Potions burned. Upon respawn outside Dewford Pokémon Center (2, 11): 1) Open BAG -> BERRY POUCH -> ORAN BERRY -> GIVE -> SAGE! (3 Oran Berries in Bag). 2) Walk to Dewford Gym (7 Down to 2, 18; 6 Right to 8, 18; 1 Up into Gym doors at 8, 17). 3) Inside Gym, all 6 trainers are defeated; walk straight to Brawly on stage. 4) Sweep with full 20/20 Absorb PP: Absorb sweeps Machop, Absorb cancels Focus Punch on Meditite, Absorb drains Makuhita to victory! Claim Knuckle Badge and TM08 Bulk Up!
+- Status: Sage Lv 23 equipped with Oran Berry, full 63/63 HP and 20/20 Absorb PP. Returning to Dewford Gym (walk south/east from 2, 11 to gym doors at 8, 17) to challenge Leader Brawly. Sweep strategy: Absorb Machop, Absorb Meditite (cancelling Focus Punch and healing to full HP), Absorb/Quick Attack Makuhita for the Knuckle Badge and TM08 Bulk Up!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 23) [Held Item: None (Oran Berry consumed in Dewford Gym rematch)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 23) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 
@@ -19,7 +19,7 @@
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x12 (verified in Bag on turn 2728)
-- Berries: Cheri Berry x2, Oran Berry x4 (1 held by Sage), Pecha Berry x2
+- Berries: Cheri Berry x2, Oran Berry x3 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
 - Money: ¥21 (post-whiteout 2)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
