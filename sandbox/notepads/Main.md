@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge and TM08 Bulk Up earned from Gym Leader Brawly! Sage is Lv 24 (HP 33/65). All 6 gym trainers and Leader Brawly defeated. Next: exit gym to Dewford Town, heal at Pokémon Center, and head north to Route 106 / Granite Cave with HM05 Flash enabled to find Steven and deliver the Letter.
+- Status: Knuckle Badge and TM08 Bulk Up earned from Brawly! Dewford Gym conquered, party fully healed at Dewford Pokémon Center (Sage Lv 24 full 65/65 HP, Lilz Lv 9, Cipher Lv 10). Next: teach HM05 Flash to Lotad (Lilz), exit to Dewford Town, and proceed north to Route 106 / Granite Cave with Flash enabled to find Steven Stone and deliver President Stone's Letter.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: None] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 65/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
