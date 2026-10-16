@@ -797,7 +797,7 @@
 - **Swimmer♀ Katie `(7, 24)` (Route 130):** Watches `(7, 23)` — `Goldeen Lv. 33`, `Spheal Lv. 33` [Defeated — money `$23,907`]. Surf `Left` 8 from `(7, 23)` across `(0, 23)` into **Route 131 at `(59, 23)`**.
 - **Route 131 (`(59, 23)` -> Sky Pillar Entrance):**
   - **Swimmer♂ Kevin `(52, 21)`:** Watches `(52, 20)` — `Spheal Lv. 34` [Defeated — money `$24,179`].
-  - **Sky Pillar Channel (`(50, 16)` -> `(53, 8)` -> North):** From `(52, 20)`, surf `Left` 2 to `(50, 20)`, `Up` 4 to `(50, 16)`, `Left` 8 along `y = 16` to `(42, 16)`, `Up` 6 to `(42, 10)` (rock wall at `(42, 9)`), `Right` 1 to `(43, 10)` (rock at `(44, 10)`), `Up` 2 to `(43, 8)` (rock wall at `(43, 7)`), `Right` 10 straight along `y = 8` through `(51, 8)` to **`(53, 8)`** (rock at `(54, 8)`), and `Up` into **`SkyPillar_Entrance`**.
+  - **Sky Pillar Channel (`(47, 16)` -> `(53, 8)` -> North):** From `(47, 16)`, surf `Up` to `(47, 14)`, then execute 5 wall-clamped slides: `Left` to `(42, 14)` (wall at `(41, 14)`), `Up` to `(42, 10)` (wall at `(42, 9)`), `Right` to `(43, 10)` (rock at `(44, 10)`), `Up` to `(43, 8)` (wall at `(43, 7)`), and `Right` 10 along `y = 8` through `(51, 8)` to **`(53, 8)`** (rock at `(54, 8)`), then `Up` into **`SkyPillar_Entrance`**.
 
 <hr>
 
