@@ -193,6 +193,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - B2F Staircase Ascended: At (4, 19), Jade ascended the stairs from row 20 onto the elevated tier at (4, 18). Column 4 runs north to (4, 14), which dead-ends at the (4, 13) mud slope flanked by Rock Smash boulders at (3, 14) and (5, 14). Path to the rest of the floor branches east from rows 16-17!
 - B2F Upper Highway: From (4, 15), row 15 runs East smoothly to (11, 15). To the east and northeast around col 15, another staircase ascends north onto an even higher plateau!
 - B2F Central Stairs & Overlook: At (15, 15), stairs ascend north to (15, 12) onto an elevated overlook that dead-ends east at cliff drop (17, 12). The main path continues East along row 15 beneath this overlook toward column 29 and the ascending ladder!
+- B2F Northeast Corridor: At (21, 15), cliff corner blocks row 15; stepping Up to row 13 clears the cliff and connects to the open eastbound highway running across row 13 directly to the ascending ladder at (29, 13).
 
 <hr>
 
