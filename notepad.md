@@ -889,6 +889,9 @@
     - **Cooltrainer♀ Shannon `(26, 16)`:** Faces `Up` in a 1-tile bottleneck between `(25, 16)` and `(27, 16)`. Walk `Down` 9 from `(25, 4)` to `(25, 13)` and step `Right` 1 onto **`(26, 13)`** (`3` tiles north of `(26, 16)`) so she walks `Up` 2 tiles to `(26, 14)` (`Claydol Lv. 45` [Defeated — money `$38,143`]), vacating `(26, 15..16)`.
     - After defeating Shannon at `(26, 14)`, walk `Left` 1 from `(26, 13)` to `(25, 13)`, `Down` 2 to `(25, 15)`, `Right` 1 to `(26, 15)`, `Down` 4 along `x = 26` to `(26, 19)`, `Right` 6 along `y = 19` to `(32, 19)`, `Up` 3 up the staircase `(32, 18..17)` to `(32, 16)`, and `Right` 10 across the wooden bridge `(36..40, 16)` to `(42, 16)`.
     - From `(42, 16)`, walk `Down` 6 along `x = 42` to `(42, 22)`, `Left` 1 to `(41, 22)`, and `Down` 3 down the staircase `(41, 23..24)` to **`(41, 25)`** (note: `(42, 25)` is the optional up-ladder to the `VictoryRoad_1F (42, 38)` item alcove).
+    - Note: Walking `Left` 3 from `(41, 25)` hops the west-facing 1-way ledge at `(39, 25)` onto `(38, 25) -> (37, 25)`; walking north along `x = 37..38` underneath the wooden bridge `(36..40, 15..16)` leads past **Cooltrainer♂ Samuel `(37, 12)`** (`Swellow Lv. 42`, `Mawile Lv. 42`, `Kadabra Lv. 42` [Defeated from `(36, 12)`]), an optional boulder/item alcove at `(35, 6) -> (32, 3)`, and a return shortcut staircase/bridge at `(32, 11..10) -> (32, 8) -> (21, 8) -> (21, 12) -> (18, 12)` (where smashing the Rock Smash rock at `(18, 12)` reconnects to `(15, 12)` above the `VictoryRoad_B2F` ladder at `(17, 16)`).
+  - **Main Route from `(26, 19)` to `VictoryRoad_B2F` Ladder `(17, 16)`:**
+    - Instead of taking the eastern loop from `(26, 19)`, walk `Right` 2 to `(28, 19)`, `Down` 3 along `x = 28` to `(28, 22)`, and `Left` 6 across the west-facing 1-way ledge at `(23, 22)` (`(28, 22) -> (24, 22) -> hops (23, 22) -> (22, 22)`) into the southwestern corridor leading to `(17, 16)`.
 
 <hr>
 
@@ -902,7 +905,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 55 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 56 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
