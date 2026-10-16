@@ -75,13 +75,14 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 ## Gym Leader Brawly
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
-- Emerald Team:
-  - Machop Lv 16: [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly burned 1st Super Potion here).
-  - Meditite Lv 16: [DEFEATED] (Focus Punch cancelled 100% by Absorb; Brawly burned 2nd Super Potion here; zero trainer heals left).
-  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw -1 priority, Reversal - Sitrus Berry heals 30 HP once; no trainer Super Potions left!).
-- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active.
-- Battle Analysis (Gym Leader Brawly):
-  - Machop Lv 16: Defeated by Absorb. Burns Brawly's 1st Super Potion.
-  - Meditite Lv 16: Defeated by Absorb. Absorb deals ~12 damage, heals Sage, and cancels Focus Punch 100%! Burns Brawly's 2nd Super Potion.
-  - Makuhita Lv 19: High HP (~70), low Sp.Def (~18-20). Uses Bulk Up (+1 Atk/Def), Vital Throw (70 BP physical Fighting, -1 priority; deals ~34 damage at +1 Atk), Arm Thrust, Reversal.
-  - Defeat Takeaway: Brawly has exactly 2 Super Potions. Sage Lv 21 almost swept the entire gym (brought Makuhita to ~25% HP). For rematch: equip Sage with Oran Berry (we have 6 in Bag), train Sage to Lv 22-23 for higher HP/Def, and defeat Brawly!
+- Emerald Team (Resets upon rematch):
+  - Machop Lv 16: Moves: Bulk Up, Karate Chop, Low Kick, Seismic Toss. Strategy: Absorb to defeat and heal off damage.
+  - Meditite Lv 16: Moves: Bulk Up, Focus Punch, Light Screen, Meditate. Strategy: Absorb cancels Focus Punch 100% and heals Sage.
+  - Makuhita Lv 19: Moves: Bulk Up, Arm Thrust, Vital Throw (-1 priority), Reversal. Held Item: Sitrus Berry (heals 30 HP once).
+- Healing Items (AI): Brawly has exactly 2 Super Potions in reserve, which he uses when Machop and Meditite fall to low HP.
+- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination active.
+- Rematch Strategy:
+  - Sage Lv 21 with Oran Berry equipped has full HP (57/57).
+  - Defeat Machop with Absorb (forces Brawly's 1st Super Potion).
+  - Defeat Meditite with Absorb (cancels Focus Punch, forces 2nd Super Potion).
+  - Face Makuhita with Absorb; Oran Berry restores +10 HP when dropped below 50%, providing the crucial endurance to survive Vital Throw and finish Makuhita.
