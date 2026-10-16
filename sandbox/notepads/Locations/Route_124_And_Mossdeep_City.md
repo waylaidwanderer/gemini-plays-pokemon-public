@@ -301,3 +301,7 @@
       2. Face `Down` at `(20, 25)`, activate **Strength**, and push the boulder at **`(20, 26)` `Down` 1 into `(20, 27)`**.
       3. Step `Down` 1 onto `(20, 26)`, face `Right`, and use **Rock Smash** on **`(21, 26)`**.
       4. Walk `Right` 2 to `(22, 26)`, `Up` 1 to `(22, 25)`, and push the boulder at **`(21, 25)` `Left` 1 into `(20, 25)`**, then walk `Up` 4 along `x = 22` (`(22, 25) -> (22, 21)`) and `Left` 2 along `y = 21` onto the **Up-Ladder at `(20, 21)`** (warps to `VictoryRoad_1F (21, 31)`).
+- **`VictoryRoad_1F` Final Exit Stretch (`(21, 32)` -> Northern Exit):**
+  - From the arrival ladder at `(21, 32)` (from `VictoryRoad_B1F (20, 21)`), walk `Up` 4 up the staircase `(21, 30..29)` to `(21, 28)`, `Right` 12 across the wooden bridge to `(33, 28)`, `Down` 3 down the staircase `(33, 29..30)` to `(33, 31)`, `Right` 3 to `(36, 31)`, `Up` 7 along `x = 36` to `(36, 24)`, `Down` 1 to `(36, 25)`, `Left` 2 to `(34, 25)`, `Up` 2 to `(34, 23)`, and `Left` 1 to `(33, 23)`.
+  - **Cooltrainer♂ Edgar `(33, 22)`:** Faces `Down` — `Cacturne Lv. 43` [Defeated — money `$46,303`].
+  - From `(33, 23)`, walk `Left` 2 to `(31, 23)` and `Up` along `x = 30..32` toward the northern exit of `VictoryRoad_1F`.
