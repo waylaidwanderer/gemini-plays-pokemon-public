@@ -75,14 +75,13 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 ## Gym Leader Brawly
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
-- Emerald Team (Resets upon rematch):
-  - Machop Lv 16: Moves: Bulk Up, Karate Chop, Low Kick, Seismic Toss. Strategy: Absorb to defeat and heal off damage.
-  - Meditite Lv 16: Moves: Bulk Up, Focus Punch, Light Screen, Meditate. Strategy: Absorb cancels Focus Punch 100% and heals Sage.
-  - Makuhita Lv 19: Moves: Bulk Up, Arm Thrust, Vital Throw (-1 priority), Reversal. Held Item: Sitrus Berry (heals 30 HP once).
+- Emerald Team (Active Rematch Progress):
+  - Machop Lv 16: [DEFEATED on turn 2902] (Brawly burned 1st Super Potion on turn 2895).
+  - Meditite Lv 16: [DEFEATED on turn 2918] (Focus Punch cancelled 100% by Absorb; Brawly burned 2nd Super Potion on turn 2911. Sage grew to Lv 22!).
+  - Makuhita Lv 19: [ACTIVE BATTLE] Moves: Bulk Up, Arm Thrust, Vital Throw (-1 priority), Reversal. Held Item: Sitrus Berry. Brawly has 0 Super Potions remaining!
 - Healing Items (AI): BOTH Super Potions burned! (1st on Machop turn 2895, 2nd on Meditite turn 2911). Brawly has 0 Super Potions remaining!
 - Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination active.
-- Rematch Strategy:
-  - Sage Lv 21 with Oran Berry equipped has full HP (57/57).
-  - Defeat Machop with Absorb (forces Brawly's 1st Super Potion).
-  - Defeat Meditite with Absorb (cancels Focus Punch, forces 2nd Super Potion).
-  - Face Makuhita with Absorb; Oran Berry restores +10 HP when dropped below 50%, providing the crucial endurance to survive Vital Throw and finish Makuhita.
+- Rematch Battle Status:
+  - Sage Lv 22 (60/60 HP, holding Oran Berry, Speed 51).
+  - Machop and Meditite defeated with zero Super Potions left for Brawly.
+  - Makuhita is at ~72% HP; using Absorb to bypass Bulk Up defense boosts, pop Sitrus Berry, and claim the Knuckle Badge!
