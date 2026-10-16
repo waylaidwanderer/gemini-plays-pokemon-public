@@ -15,13 +15,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Walkway along row 20 extends east to col 8..9.
 - Trainer 1: Lass Sally at (9, 20) facing West [DEFEATED]. Used Oddish Lv 16. Awarded ¥256.
 - Cut Tree #1: Located at (13, 18), blocking the passage to the upper floor from row 19/20. Interacted from (13, 19) facing North.
-- Secret Scroll: Located on tatami mat at (4, 15).
-- Trainer 2: Lass at (4, 13) facing South guarding the area above the scroll.
-- Cut Tree #2: Located at (14, 14), blocking the eastern corridor heading north along col 14. Interacted from (14, 15) facing North.
-- Trainer 3: Youngster at (14, 7) facing South along column 14.
-- Cut Tree #3: Located at (11, 12) (shrub-style Cut tree on the boardwalk) [CUT - CLEARED]. Opened central vertical passage at col 11 onto the boardwalk.
-- Green bushes: Verified that the rounded green bushes on the boardwalks are shrub-style Cut trees (not permanent hedges).
-- Secret Scroll: Located on tatami mat at (2, 15) in the southwest corner.
-- Trainer 2: Lass at (1, 14) guarding the Secret Scroll.
-- Cut Tree #4: Located at (8, 10) (potted Cut tree on the central boardwalk). Interacted from (9, 10) facing West. Cutting opens the direct boardwalk path to the Secret Scroll at (2, 15).
-- Central tatami path: Col 9 at row 12 is open tatami accessed through cleared Cut Tree #3 at (11, 12).
+- Cut Tree #4: Located at (8, 10) [CUT - CLEARED]. However, heading South into (8, 11) is blocked by the raised northern face/railing of the vertical boardwalk.
+- Boardwalk access: The vertical walkway at col 11 connects row 10 south to row 16, which runs west to access the western elevated paths.
+- Secret Scroll: Located in the southwest section.
+- Trainer 2: Lass located in the southwest corner near row 19/20.
