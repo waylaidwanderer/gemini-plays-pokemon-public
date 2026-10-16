@@ -798,7 +798,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Cushions: (4, 3), (4, 5), (7, 3), (7, 5).
 - North wall: Scroll entrance at (5, 1).
 - Trick Master Puzzle 1 Hiding Spot: Hiding under the table at (6, 3)! Discovered by interacting from (6, 2) facing South.
-- Scroll Doorway: (5, 1) - Trick Master jumped into the scroll, leaving the entrance open to Puzzle 1.
+- Scroll Doorway: (5, 1) - Trick Master jumped into the scroll, leaving the entrance open to Puzzle 1. Interacting with 'A' facing North from (5, 2) triggers prompt: "There is a big hole behind the scroll! Want to go in?" (defaults to YES). Confirming enters the maze.
 
 <hr>
 
