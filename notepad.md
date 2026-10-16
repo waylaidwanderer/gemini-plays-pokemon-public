@@ -603,14 +603,14 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
-- Quick Claw: Held by Sage! (To be swapped to Oran Berry before Brawly fight)
+- Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Super Potion x4 (stocked at Rustboro Mart!)
 - Potion x0
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x12 (verified in Bag on turn 2728)
-- Berries: Cheri Berry x2 (harvested from Route 104 North tree at 3, 25), Oran Berry x7 (2 from Route 102, 2 from Route 104 South, 2 from Route 104 North at 3, 23, 1 from flower shop Sister 3), Pecha Berry x2 (harvested from Route 102 trees at 24..25, 1..2)
+- Berries: Cheri Berry x2, Oran Berry x6 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM09 Bullet Seed (gift from boy outside Petalburg Woods), TM39 Rock Tomb (gift from Roxanne), HM01 Cut (gift from Cutter in Rustboro City), HM05 Flash (gift from Hiker in Granite Cave)
 - Money: ¥85 (verified in Mart Turn 2674)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (gift from Pretty Petal Flower Shop sister at 6, 3), Letter (for Steven in Dewford Town), PokéNav (with Match Call), Old Rod (gift from Fisherman in Dewford Town)
