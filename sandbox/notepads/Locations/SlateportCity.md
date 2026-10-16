@@ -29,7 +29,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - East of entrance: Paved promenade along the harbor water (white stone railings, cols 20+).
 - West of entrance: Slateport Market stalls begin around col 14, row 51.
 - North avenue: Main cobblestone boulevard runs north along cols 17..19.
-- Stern's Shipyard: Located at rows 36..42, cols 21..26 on the east side of the main avenue. Outdoor wooden boat hull at (21..22, 35..36), signpost at (21, 38), Shipyard sign at (23, 38), and entrance doorway at (25, 38..39) with green threshold mat.
+- Stern's Shipyard: Located at rows 36..42, cols 21..26 on the east side of the main avenue. Outdoor wooden boat hull at (21..22, 35..36), signpost at (21, 38), Shipyard sign at (23, 38), and entrance doorway at (26, 38..39) with green threshold mat.
 - Slateport Market: Spans cols 10..15 along the west side from row 51 up past row 38. Selling specialty items, dolls, and incense.
 - Main Crossroads: Located at (19, 27..29) connecting North (upper city), South (beach/Route 109), West (Poké Mart and Pokémon Center), and East (Oceanic Museum).
 - Poké Mart: Located at rows 22..26, cols 8..14. Blue roof with 'MART' sign; front door at row 26/27.
