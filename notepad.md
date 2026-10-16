@@ -900,12 +900,9 @@
     - A rock in the lower river at `(23, 15)` separates the eastern lower river (`x = 24..35, y = 14..15`) from the western lower river (`x = 6..22, y = 14..15`), and the southern shoreline along `y = 16..18` is an impassable 3-step contour ridge wall.
     - From `(35, 16)`, surf `Up` 1 to `(35, 15)`, `Left` 10 along `y = 15` to `(25, 15)`, and `Up` 3 to the base of the **Eastern Waterfall at `(25, 12)`**, then use **Waterfall** to climb to **`(25, 8)`** on the upper river.
     - From `(25, 8)`, surf `Up` 5 to `(25, 3)` and `Left` 17 along `y = 3` (bypassing the Cooltrainer♂ on the shore at `(15, 6)`) to `(8, 3)`, then surf `Down` 7 along `x = 8` to **`(8, 10)`** (note: `(6, 6..10)` is an enclosed western shore pocket, and pressing `Down` at `(8, 10)` rides down the **Western Waterfall** to **`(8, 14)`**).
-  - **Western Lower River & Optional Up-Ladder `(19, 12)`:**
-    - From `(8, 14)` at the bottom of the Western Waterfall, surfing `Right` 9 along `y = 14` to `(17, 14)`, `Up` 1 to `(17, 13)`, and stepping `Right` 1 ashore onto `(18, 13)` leads to the **Optional Up-Ladder at `(19, 12)`** (warps to `VictoryRoad_B1F (17, 16)` in the southwestern B1F chamber).
-  - **Remaining Unexplored Leads on `VictoryRoad_B2F`:**
-    - North-west corner of the upper river at `(7, 2) -> (5, 1)` (checking if it connects to the western corridor `x = 2` where a Cooltrainer♀ stands at `(2, 17)`).
-    - Upper-river eastern bank landing at `(28, 5..6)` (east of `(25, 8)` from Turn 2325's grid).
-    - Southern/eastern paths from `(30, 25)` and `(33, 22)` (east past Cooltrainer♀ Julie at `(34, 22)` or west/south from `(30, 25)` to reach the overhead wooden bridge `(28..38, 18..19)`).
+  - **Western Lower River & Main Progression Up-Ladder `(19, 12)` -> `VictoryRoad_B1F (17, 16)`:**
+    - Exhaustive boundary verification on `VictoryRoad_B2F` confirms that `(27..28, 26)` is walled off on the west (`x = 26`) and south (`y = 27`), `(40..44, 20)` is a south-facing 1-way ledge above `(40, 26..23)`, `(28, 5)` is bounded by a west-facing 1-way ledge at `x = 29`, and `(5, 1)` is a solid cliff corner.
+    - Therefore, from `(8, 14)` at the bottom of the Western Waterfall, surfing `Right` 9 along `y = 14` to `(17, 14)`, `Up` 1 to `(17, 13)`, stepping `Right` 1 ashore onto `(18, 13)`, and walking `Up` 1, `Right` 1 onto the **Up-Ladder at `(19, 12)`** (warping to **`VictoryRoad_B1F (17, 16)`**) is the main progression path!
 
 <hr>
 
