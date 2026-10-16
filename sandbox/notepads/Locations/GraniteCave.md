@@ -22,7 +22,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B1F & B2F (Lower Caverns)
 - B1F Southwest Ladder at (4, 21) connects to 1F (17, 11).
-- B1F Southwest Corridor Topography: From ladder (4, 21), stepping Up to (4, 19) and Left to (3, 19) is walkable; Up from (4, 19) and (3, 19) is blocked by cliff wall.
+- B1F Southwest Corridor Topography: Ladder arrives at (4, 21). At (4, 19) the cliff corner blocks going north directly in column 4, but stepping Left to (3, 19) enters an open vertical corridor in column 3 that runs straight north (rows 18 down to 12) bypassing the cliff wall!
 - B1F Southeast Ladder at (28, 21) connects to B2F (28, 21).
 - B1F Accessible Corridor: Connects (4, 21) strictly to (28, 21); all northern probes (cols 7-22 along row 12) are blocked by solid walls at row 11.
 - B1F Southwest Ladder Dynamics: Ladder at (4, 21) ascends to 1F (17, 11). South of row 21 (row 22) is a solid cliff wall (cannot step down). The forward path to the Southeast Ladder at (28, 21) is accessed north and east around (4, 21) toward row 12.
