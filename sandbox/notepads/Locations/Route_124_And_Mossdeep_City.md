@@ -183,6 +183,6 @@
 - **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
 - **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34` [Defeated — money `$23,643`].
 - **Swimmer♀ Katie `(7, 24)` (Route 130):** Watches `(7, 23)` — `Goldeen Lv. 33`, `Spheal Lv. 33` [Defeated — money `$23,907`]. Surf `Left` 8 from `(7, 23)` across `(0, 23)` into **Route 131 at `(59, 23)`**.
-- **Route 131 (`(59, 23)` -> Sky Pillar Entrance):**
+- **Route 131 (`(59, 23)` -> Sky Pillar Entrance at `(36, 6)`):**
   - **Swimmer♂ Kevin `(52, 21)`:** Watches `(52, 20)` — `Spheal Lv. 34` [Defeated — money `$24,179`].
-  - **Sky Pillar Channel (`(47, 16)` -> `(36, 6)`):** From `(47, 16)`, surf `Up` to `(47, 14)`, `Left` 5 to `(42, 14)`, `Up` 3 to `(42, 11)`, `Right` 6 along `y = 11` (below the L-shaped brown rock `x = 43..47, y = 8..10`) to `(48, 11)`, `Up` 4 along `x = 48` to `(48, 7)`, `Left` 6 along `y = 7` (above the L-shaped rock, clamped by the gray rock at `(41, 7)`) to `(42, 7)`, `Down` 1 to `(42, 8)`, and `Left` 4 along `y = 8` onto the sandy beach at **`(38, 8)`**. Walk `Left` 2 to `(36, 8)` and `Up` 2 into the **Sky Pillar Entrance Cave at `(36, 6)`**.
+  - **Rock Barrier & Channel Geometry (`latest_grid.png` Turns 2094 & 2099):** A continuous diagonal chain of 2x2 gray rocks and brown rocks (`(31..32, 17..18)` -> `(33..34, 16..17)` -> `(35..36, 15..16)` -> `(37..38, 14..15)` -> `(39..41, 11..14)` -> `(41..42, 7..10)` -> `(43..47, 8..10)` -> `(48..49, 10..11)` -> `(50..54, 11..13)`) blocks direct northward passage across `x = 31..54`, while the 4-tile-tall upper channel (`y = 7..10, x = 43..54`) leads west above the barrier to the sandy beach at **`(38, 8)`** and the **Sky Pillar Entrance Cave at `(36, 6)`**.
