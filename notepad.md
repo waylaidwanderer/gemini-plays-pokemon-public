@@ -187,6 +187,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Quick Attack (Slot 4) OHKO Thresholds: At Level 22 (Atk 37), Quick Attack consistently OHKOs wild Zubat Lv 7-8 and wild Makuhita Lv 6-7 with +1 priority, taking 0 damage and preventing Sand Attack accuracy drops.
 - B1F Central Corridor Topography: Row 12 corridor hits rocks at (21, 12). Column 20 runs south from row 12 to (20, 16). At (20, 16), south is blocked by a cliff ledge at row 17; path turns East into cols 21-24 at row 16. At (24, 16), rock at (25, 16) prompts moving south down column 24 toward row 21 and the Southeast Ladder at (28, 21). An elevated ascending ladder is visible to the northeast on the upper tier!
 - B2F Southeast Ladder at (28, 21) connects to B1F (28, 21). Arrived on B2F at turn 3328.
+- B2F Southeast Corridor: Ladder from B1F arrives at (28, 21). Column 28 runs north to (28, 16), where further northward movement is blocked by a horizontal cliff ledge. An ascending ladder is visible to the northeast on the upper tier (roughly 29, 13). The accessible path opens wide to the West along rows 16-20.
 
 <hr>
 
@@ -628,7 +629,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Exploring Granite Cave B1F with Flash enabled to reach B2F and Steven Stone's chamber. Caught wild Aron Lv 10 (COBALU)!
+- Status: Knuckle Badge earned! Exploring Granite Cave B2F with Flash enabled at (28, 16) to locate the ascending path to Steven Stone's chamber. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.

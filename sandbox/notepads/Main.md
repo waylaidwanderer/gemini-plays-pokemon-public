@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Exploring Granite Cave B1F with Flash enabled to reach B2F and Steven Stone's chamber. Caught wild Aron Lv 10 (COBALU)!
+- Status: Knuckle Badge earned! Exploring Granite Cave B2F with Flash enabled at (28, 16) to locate the ascending path to Steven Stone's chamber. Party: Sage Lv 24, Lilz Lv 9, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
