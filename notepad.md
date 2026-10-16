@@ -620,7 +620,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 23, Male), Nickname: SAGE
-- Status: Brawly Gym Rematch in progress. Sage Lv 23 swept Machop and Meditite cleanly, burning both of Brawly's Super Potions! Against Makuhita, Sage brought Makuhita to ~15% HP before falling to Arm Thrust due to Absorb PP being 0. Upon whiteout, party will fully heal at Dewford Center (restoring Absorb to 20/20 PP), equip Oran Berry from Bag (3 remaining), and return for the guaranteed Knuckle Badge victory!
+- Status: Whited out against Brawly. Makuhita was brought down to 2 pixels of HP with both Super Potions burned. Upon respawn outside Dewford Pokémon Center (2, 11): 1) Open BAG -> BERRY POUCH -> ORAN BERRY -> GIVE -> SAGE! (3 Oran Berries in Bag). 2) Walk to Dewford Gym (7 Down to 2, 18; 6 Right to 8, 18; 1 Up into Gym doors at 8, 17). 3) Inside Gym, all 6 trainers are defeated; walk straight to Brawly on stage. 4) Sweep with full 20/20 Absorb PP: Absorb sweeps Machop, Absorb cancels Focus Punch on Meditite, Absorb drains Makuhita to victory! Claim Knuckle Badge and TM08 Bulk Up!
 
 ## Party
 1. SAGE (Grovyle ♂, Level 23) [Held Item: None (Oran Berry consumed in Dewford Gym rematch)] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 63/63. Status: OK. Stats: Atk 39, Def 29, Sp.Atk 46, Sp.Def 42, Speed 53. Nature: Lonely. Ability: Overgrow.
