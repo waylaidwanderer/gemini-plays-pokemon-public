@@ -719,7 +719,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - North-South Avenue (West): Runs along cols 8..10 connecting the Poké Mart area north toward the Battle Tent and upper city.
 - Cross-Street at Row 20: Connects col 9 east to the main avenue at col 19.
 - Quest Progression (Devon Goods): Team Aqua Grunts currently block the Oceanic Museum entrance in the northeast. To advance, visit Stern's Shipyard in the southeast at (23..24, 40) and talk to Dock on 1F (examining ship blueprints). Dock explains Captain Stern is at the Oceanic Museum, which triggers the Aqua queue to move inside!
-- Stern's Shipyard Interior: 1F entrance warp at (2, 14). Stairs to 2F along east wall (cols 5..7). Main workshop floor extends north along cols 3..10.
+- Stern's Shipyard Interior: 1F entrance warp at (2, 14). Stairs to 2F along east wall (cols 5..7). Main workshop floor extends north along cols 3..10. Dock stands at (5, 4) next to the large ship blueprint drafting table at (4..5, 5..6)!
 
 <hr>
 
