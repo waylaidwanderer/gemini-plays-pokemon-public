@@ -23,3 +23,8 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 4. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F.
 5. [ ] Explore town landmarks (Market, Battle Tent, etc.).
 6. [ ] Head north onto Route 110.
+## Topography & Landmarks Discovered
+- South entrance from Route 109 beach: Sandy pocket with retaining wall. West staircase at (18..20, 57..58) ascends north onto the cobblestone boulevard at (19, 56).
+- East of entrance: Paved promenade along the harbor water (white stone railings, cols 20+).
+- West of entrance: Slateport Market stalls begin around col 14, row 51.
+- North avenue: Main cobblestone boulevard runs north along cols 17..19.
