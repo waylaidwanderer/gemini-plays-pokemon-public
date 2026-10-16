@@ -60,13 +60,13 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Team: Meditite ♀ Lv 13 (fainted).
    - Reward: ¥312, 253 EXP. Expanded spotlight from radius 4 to 5!
 
-## Gym Leader Brawly: [IN PROGRESS - GYM BATTLE]
-- Location: Central stage blue mat at (4, 2). Approached from (4, 3).
+## Gym Leader Brawly: [REMATCH PENDING]
+- Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
-  - Machop Lv 16 [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
-  - Meditite Lv 16 [ACTIVE] (Bulk Up, Focus Punch, Light Screen, Reflect)
-  - Makuhita Lv 19 [PENDING] (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-- Strategy: Sage (Lv 20 Grovyle, Quick Claw) uses Absorb against Machop to deal heavy damage and heal to full HP; uses Pursuit against Meditite to exploit 2x weakness and cancel Focus Punch; uses Absorb against Makuhita.
+  - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly uses 1 Super Potion!)
+  - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
+  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
+- Rematch Strategy: All 6 gym trainers remain defeated and gym is fully illuminated. Sage enters at 55/55 full HP. Absorb Machop, use Pursuit on Meditite to cancel Focus Punch, Absorb Makuhita, and use in-battle Potions if HP drops below 25.
 4. Sailor Brenden & Battle Girl Lilith: [DEFEATED]
    - Location: East Wing corridor at (15..16, 11..12).
    - Brenden: Machop ♂ Lv 13 (fainted). Pre-battle: "I'll show you the gumption of a sailing man!" Defeat quote: "How'd this happen? It's not like me to lose this way"
@@ -589,12 +589,12 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 19, Male), Nickname: SAGE
-- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. Defeated all 6 gym trainers in Dewford Gym. IN BATTLE WITH GYM LEADER BRAWLY! Machop defeated by Overgrow Absorb; Sage facing Brawly's Meditite (Lv 16).
+- Status: DEFEATED ROXANNE! Earned Stone Badge & TM39. Sailed to Dewford Town, set checkpoint, got Old Rod! Defeated Ned & Elliot on Route 106 beach. All 6 gym trainers permanently defeated! Whited out to Brawly after he used Super Potion on Machop. Full party healed at Dewford Center. Re-entering Dewford Gym for Brawly rematch with full HP!
 
 ## Party
-1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 17/55. Status: OK (Overgrow Active). Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 0/28. Status: FNT (fainted in double battle).
-3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: FNT (fainted in double battle).
+1. SAGE (Grovyle ♂, Level 20) [Held Item: Quick Claw] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 55/55. Status: OK. Stats: Atk 35, Def 26, Sp.Atk 40, Sp.Def 37, Speed 47. Nature: Lonely. Ability: Overgrow. Full PP!
+2. LILZ (Lotad ♀, Level 9) - Caught on Route 102. Moves: Astonish, Growl, Absorb. HP: 28/28. Status: OK.
+3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. Status: OK.
 
 ## Bag Highlights
 - Stone Badge: Received from Roxanne! Enables HM01 Cut outside battle and boosts Attack.
