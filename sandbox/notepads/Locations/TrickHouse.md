@@ -23,4 +23,4 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Trainer 2: Lass at (1, 17) in southwest corner.
 - Trainer 3: Youngster at (14, 8) on east side facing West.
 - Secret Scroll: Located on tatami floor at (2, 18) in southwest corner.
-- Cut Tree #6: Shrub at (2, 12) [CURRENTLY CUTTING]. Directly blocks access to the vertical walkway leading south to Lass and the Secret Scroll.
+- Cut Tree #6: Shrub at (2, 12) [CUT - CLEARED]. Cleared vertical walkway leading south along column 2 to Lass and the Secret Scroll.
