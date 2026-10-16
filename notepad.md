@@ -30,8 +30,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 4. Sector 4: West Wing & Northern Bridge (cols 1-3, rows 12-18)
    - Column 2 vertical corridor connects to row 16 walkway. Black Belt Takao defeated at (2, 17); column 1 (rows 16-18) provides an open bypass around him.
-   - North Bridge: Column 2 extends straight north from (2, 16) through (2, 15..14) across a narrow bridge between water canals.
-   - North Stairs: At (2, 12..13), horizontal steps lead north up onto an elevated ring stage toward Gym Leader Brawly.
+   - Column 2 North Corridor: Column 2 continues straight north through (2, 15), (2, 14), (2, 13), and (2, 12) as a 1-tile wide hallway bordered by wooden walls on the east and west.
 
 ## Trainers
 1. Black Belt Cristian: [DEFEATED]
