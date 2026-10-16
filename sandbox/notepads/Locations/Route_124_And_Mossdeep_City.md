@@ -228,3 +228,9 @@
 - **Puzzle 3 (`11x4`, `x = 3..13, y = 6..9`, rocks at `(4, 8), (5, 6), (7, 8), (9, 7), (11, 9), (12, 7)`, 38 ice tiles):**
   - From `(8, 10)`: `["Up", "Left", "Left", "Up", "Left", "Down", "Left", "Left", "Up", "Up", "Up", "Right", "Down", "Right", "Right", "Up", "Right", "Down", "Right", "Down", "Right", "Down", "Right", "Up", "Up", "Right", "Down", "Right", "Down", "Right", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left"]` -> ends at **`(8, 6)`**.
   - Wait `1500ms`, then step `["Up", "Up", "Up"]` to `(8, 3)` facing **Gym Leader Juan at `(8, 2)`**.
+  - **Gym Leader Juan `(8, 2)` Team (Single Battle, 2 Hyper Potions):**
+    1. **Luvdisc Lv. 41** (`Water Pulse`, `Attract`, `Sweet Kiss`, `Flail`)
+    2. **Whiscash Lv. 41** (`Water Pulse`, `Earthquake`, `Rain Dance`, `Amnesia`)
+    3. **Sealeo Lv. 43** (`Aurora Beam`, `Water Pulse`, `Body Slam`, `Encore`)
+    4. **Crawdaunt Lv. 43** (`Water Pulse`, `Crabhammer`, `Taunt`, `Swords Dance`)
+    5. **Kingdra Lv. 46 [Chesto Berry]** (`Water Pulse`, `Ice Beam`, `Double Team`, `Rest`)
