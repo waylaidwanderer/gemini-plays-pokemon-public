@@ -14,19 +14,11 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Maze Structure: The floor consists of walkable green tatami mats. The yellow wooden structures with rivets are solid divider walls / obstacles.
 - Entrance warp mat: (0, 21), player enters at (0, 20).
 - Trainer 1: Lass Sally at (9, 20) [DEFEATED]. Used Oddish Lv 16. Awarded ¥256.
-- Cut Tree #1: (13, 18) [CUT - CLEARED].
-- Cut Tree #2: (14, 14) [CUT - CLEARED].
-- Cut Tree #3: (11, 12) [CUT - CLEARED].
-- Cut Tree #4: (8, 10) [CUT - CLEARED].
-- Cut Tree #5: Shrub at (4, 8) [CUT - CLEARED]. Opened access to the western tatami corridors.
-- Item: Poké Ball on tatami floor at (9, 4) in northern alcove.
-- Trainer 2: Lass Robin at (2, 14) [DEFEATED]. Used Skitty Lv 14, Shroomish Lv 14, Marill Lv 14. Awarded ¥224.
-- Trainer 3: Youngster Eddie at (13, 8) [DEFEATED]. Used Zigzagoon Lv 14, Zigzagoon Lv 16.
-- Secret Scroll: Located on tatami floor at (3, 16) [MEMORIZED - CODE OBTAINED].
-- Cut Tree #6: Shrub at (2, 12) [CUT - CLEARED]. Cleared vertical walkway leading south along column 2 to Lass and the Secret Scroll.
-- Cut Tree #7: Shrub at (11, 8) [CUT - CLEARED]. Cleared access to Youngster at (13, 8), Poké Ball at (9, 4), and northern exit.
-- Cut Tree #8: Shrub at (13, 6) [CUT - CLEARED]. Cleared northern passage to exit scroll door.
-- Exit Scroll Door: Located at (13, 1). Interacting from (13, 2) facing North writes the memorized code and unlocks the door to the Trick Master's room.
+- Status: COMPLETED! (All 3 trainers defeated, Secret Scroll code obtained, exit scroll door unlocked, Rare Candy claimed).
+- Obstacles: 8 cut shrubs cleared using HM01 Cut.
+- Trainers Defeated: Lass Sally (9, 20), Lass Robin (2, 14), Youngster Eddie (13, 8).
+- Secret Scroll: (3, 16) - Code: "TRICK MASTER is fabulous."
+- Exit Scroll Door: (13, 1) - Opened with memorized code, granting access to Reward Room.
 
 ## Reward Room
 - Entered via unlocked scroll doorway at (13, 1) from Puzzle 1, warping to (10, 2).
