@@ -206,6 +206,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - 1F Ladder Bypass Route: Ladder hole is at (35, 3). Tile (34, 2) is blocked by cliff wall. The ladder can be safely bypassed from (34, 3) by stepping Down to (34, 4), Right 2 to (36, 4), and Up to (36, 1) into the northeast chamber opening.
 - 1F Fully Mapped & Steven Location Clarification: 1F Upper Plateau is completely mapped; it contains only the exit jump ledge and no chamber doorway. Steven Stone is located in the deepest chamber accessible from B2F (the northern terrace west of the 15, 12 stairs). Descending ladders back to B2F.
 - B2F Re-entered: Returned to B2F at (21, 13) on row 13. Navigating to central stairs (15, 15) and ascending to (15, 12) to explore the unexplored western section of the northern terrace.
+- Granite Cave Complete Loop Routing: B2F has no other paths. The full dungeon route is a loop: 1F entrance -> B1F -> B2F -> B1F -> 1F Upper Plateau -> jump ledge at (5-6, 9) into the western section of 1F where Steven's chamber resides. Ascending to 1F to take the jump ledge.
 
 <hr>
 
