@@ -702,7 +702,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 1. [x] Enter Slateport City and heal/register at Pokémon Center.
 2. [x] Visit Stern's Shipyard and speak to Dock.
 3. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
-4. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F.
+4. [x] Receive TM46 Thief from reformed Aqua Grunt on 1F.
 5. [ ] Explore town landmarks (Market, Battle Tent, etc.).
 6. [ ] Head north onto Route 110.
 ## Topography & Landmarks Discovered
@@ -726,8 +726,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Grunt at (8, 3): Mentions taking a long time getting by the receptionist without ¥50.
 - TM46 Thief: Received from the reformed Team Aqua Grunt standing at (9, 4) in the central exhibit hall! Spoken to from (8, 4) facing Right.
 - Oceanic Museum 2F: Captain Stern is located in the southeast area at (13, 6) examining the ship model exhibits. Spoken to from (12, 6) facing Right. Initiates the Devon Goods delivery and Team Aqua ambush event!
-- Oceanic Museum 2F Battles: Defeated Team Aqua Grunt 1 (Carvanha Lv 15, ¥300) and Team Aqua Grunt 2 (Zubat Lv 14, Carvanha Lv 14).
-- Archie Encounter: Archie introduces himself on 2F, proclaims Team Aqua's goal to expand the sea, and orders Team Aqua to withdraw from Slateport City. Captain Stern receives the Devon Goods!
+- Oceanic Museum 2F Battles: Defeated Team Aqua Grunt 1 (Carvanha Lv 15, ¥300) and Team Aqua Grunt 2 (Zubat Lv 14, Carvanha Lv 14, ¥280).
 
 <hr>
 
