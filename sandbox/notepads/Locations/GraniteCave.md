@@ -13,7 +13,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 - Granite Cave 1F Topography:
   - Entrance: (37, 12) at the southeast corner leading to Route 106 beach.
   - Flash Hiker: (36, 9) directly north of entrance.
-  - 1F Main Path: Wide corridor along rows 7-9 connecting southwest ladder at (17, 11) to entrance and Hiker in the east. Fully lit (no Flash needed).
+  - 1F Main Path: Wide corridor along rows 7-9 connecting southwest ladder at (17, 11) to entrance and Hiker in the east. Fully lit (no Flash needed). Row 8 runs west from entrance/Hiker to (27, 8), where a rock formation at (26, 8) prompts a 1-tile jog north to row 7; row 7 runs west from (27, 7) to (18, 7) near the ladder at (17, 11). Excellent encounter training runway!
   - Row 12: Runs along rows 11-12 from entrance (37, 12) west to col 16, where it terminates at a solid vertical cliff wall at (16, 12).
   - Item Ball: [COLLECTED] Escape Rope at (17, 7).
   - Southwest Ladder: Located at (17, 11) leading down to B1F.
