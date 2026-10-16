@@ -816,6 +816,13 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Cut Tree #8: Shrub at (13, 6) [CUT - CLEARED]. Cleared northern passage to exit scroll door.
 - Exit Scroll Door: Located at (13, 1). Interacting from (13, 2) facing North writes the memorized code and unlocks the door to the Trick Master's room.
 
+## Reward Room
+- Entered via unlocked scroll doorway at (13, 1) from Puzzle 1, warping to (10, 2).
+- Low table with cup at (4..5, 4..5), cushions at (5, 3), (6, 5), and (3, 5).
+- Trick Master sits at (3, 5) on the western cushion.
+- Secret exit hole in back wall: (2..3, 1), leading back to the front room / entrance.
+- Reward: Rare Candy for solving Puzzle 1.
+
 <hr>
 
 <h1><code>Main</code></h1>
