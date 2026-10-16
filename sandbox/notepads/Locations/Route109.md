@@ -24,8 +24,8 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
 - Tubers and Floaties: Located east of column 23 at row 20.
 - Northbound Highway: Column 22 is an open, unobstructed sand corridor heading north towards Slateport City.
 ## Trainers
-1. Sailor Edmond & Tuber Hailey: [BATTLING]
+1. Sailor Edmond & Tuber Hailey: [DEFEATED]
    - Battle Type: 2-on-2 Double Battle.
-   - Trigger Location: (19, 13) on row 13.
-   - Sailor Edmond: (24, 13) facing West on row 13. Team: Wingull, Machop. Quote: "Urrrrppp... Battle? With me? I can't swim, so I'm pretending to swim."
-   - Tuber Hailey: (21, 10) facing South. Team: Marill.
+   - Location: Triggered at (19, 13) on row 13. Sailor Edmond at (24, 13) facing West, Tuber Hailey at (21, 10) facing South.
+   - Teams: Sailor Edmond: Wingull ♂ Lv 13 (fainted); Tuber Hailey: Marill ♀ Lv 13 (fainted).
+   - Outcome: Complete victory! Sage grew in EXP; Lilz grew to Lv 10!
