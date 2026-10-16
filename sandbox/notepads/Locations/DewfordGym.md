@@ -76,8 +76,8 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 ## Gym Leader Brawly
 - Location: Central stage blue mat at (4, 2). Approached via row 4 stairs at (4, 4) from row 5 walkway.
 - Emerald Team:
-  - Machop Lv 16: [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly exhausted his 1 Super Potion here).
-  - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect - Focus Punch cancelled 100% by Sage's Pursuit!).
-  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw -1 priority, Reversal - Sitrus Berry heals 30 HP once).
-- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. In battle with Leader Brawly! Machop defeated, Brawly's healing items exhausted.
+  - Machop Lv 16: [DEFEATED] (Bulk Up, Karate Chop, Low Kick, Seismic Toss - Brawly burned 1st Super Potion here).
+  - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect - Brawly burned 2nd Super Potion here; all trainer heals exhausted; Focus Punch cancelled by Sage's attacks!).
+  - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw -1 priority, Reversal - Sitrus Berry heals 30 HP once; no trainer Super Potions left!).
+- Gym Status: ALL 6 GYM TRAINERS PERMANENTLY DEFEATED. Maximum illumination permanently active. In battle with Leader Brawly! Machop defeated, both Brawly Super Potions exhausted.
 - Winning Strategy: Sage (Lv 20 Grovyle, Speed 47). Absorb Machop, Pursuit Meditite to cancel Focus Punch, Absorb Makuhita. Use Super Potion (+50 HP) as needed to guarantee decisive Knuckle Badge victory!
