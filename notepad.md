@@ -628,7 +628,7 @@
   - Surf `Right` 9 from `(0, 15)` to step onto the walkable shallow water (`MB_SHALLOW_WATER`) at `(9, 15)`.
   - Walk `Right` 3 to `(12, 15)`, `Down` 12 along `x = 12` to `(12, 27)` (passing south of the Black Belt at `(19, 25..26)` and the cliff corner at `y = 24..26`), `Right` 13 along `y = 27` to `(25, 27)`, and `Up` 10 along `x = 25` up the white staircase `(25..26, 24..26)` to `(25, 17)`.
   - From `(25, 17)`, walk `Right` 3 to `(28, 17)` and `Up` 1 into the **Mossdeep City Pokémon Center** at `(28, 16)` (exiting steps to `(28, 17)`).
-- **Steven Stone's House (`(19, 10)`):** Reached from the Pokémon Center `(28, 17)` via `Left` 7 along `y = 17` to `(21, 17)`, `Up` 6 along `x = 21` to `(21, 11)`, `Left` 2 to `(19, 11)`, and `Up` 1 into **`(19, 10)`** (exiting steps to `(19, 11)`). Note: `(18, 16)` is a resident's house to the south.
+- **Steven Stone's House (`(19, 10)`):** Reached from the Pokémon Center `(28, 17)` via `Left` 7 along `y = 17` to `(21, 17)`, `Up` 6 along `x = 21` to `(21, 11)`, `Left` 2 to `(19, 11)`, and `Up` 1 into **`(19, 10)`** (exiting steps to `(19, 11)`). Entering after defeating Maxie & Tabitha at the Mossdeep Space Center automatically triggers Steven Stone to give **HM08 (Dive)** [Completed]. Note: `(18, 16)` is a resident's house to the south.
 - **Mossdeep Poké Mart:** Door at `(37, 18)` (reached from `(28, 17)` via `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 4 to `(37, 19)`, and `Up` 1 into `(37, 18)`; inside, walk `Up` 4 from `(3, 7)` to `(3, 3)` and face `Left` to speak to the clerk).
 - **Mossdeep City Gym:** Door at `(38, 9)` (exiting steps to `(38, 10)`). Reached from the Pokémon Center `(28, 17)` via `Right` 5 to `(33, 17)`, `Up` 7 along `x = 33` to `(33, 10)`, `Right` 5 along `y = 10` to `(38, 10)`, and `Up` 1 into `(38, 9)`.
 
@@ -704,7 +704,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,676 | **Badges:** 7 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
+- **Inventory:** Ultra Ball x8, Great Ball x6, Poké Ball x1, Hyper Potion x7, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM08 (Dive), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 51 [Holding Mystic Water] — Mud Shot, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
