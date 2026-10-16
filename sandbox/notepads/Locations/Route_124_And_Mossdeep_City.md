@@ -291,3 +291,7 @@
   - **Western Lower River & Main Progression Up-Ladder `(19, 12)` -> `VictoryRoad_B1F (17, 16)`:**
     - Exhaustive boundary verification on `VictoryRoad_B2F` confirms that `(27..28, 26)` is walled off on the west (`x = 26`) and south (`y = 27`), `(40..44, 20)` is a south-facing 1-way ledge above `(40, 26..23)`, `(28, 5)` is bounded by a west-facing 1-way ledge at `x = 29`, and `(5, 1)` is a solid cliff corner.
     - Therefore, from `(8, 14)` at the bottom of the Western Waterfall, surfing `Right` 9 along `y = 14` to `(17, 14)`, `Up` 1 to `(17, 13)`, stepping `Right` 1 ashore onto `(18, 13)`, and walking `Up` 1, `Right` 1 onto the **Up-Ladder at `(19, 12)`** (warping to **`VictoryRoad_B1F (17, 16)`**) is the main progression path!
+- **`VictoryRoad_B1F` Southwestern Section (`(17, 16)` -> `(15, 25)`):**
+  - From the arrival ladder at `(17, 16)`, walk `Down` 1 to `(17, 17)`, `Left` 2 to `(15, 17)`, and `Down` 3 along `x = 15` to `(15, 20)` (bypassing the Cooltrainer♂ at `(14, 16)` who faces `Down` along `x = 14`).
+  - **Cooltrainer♀ Halle `(14, 20)`:** Rotates `Up`/`Right` to watch `(15, 20)` — `Sableye Lv. 43` (Ghost/Dark, immune to Normal/Fighting), `Absol Lv. 43` [Defeated — money `$44,239`].
+  - From `(15, 20)`, walk `Down` 5 along `x = 15` to the southern junction at **`(15, 25)`**.

@@ -903,6 +903,10 @@
   - **Western Lower River & Main Progression Up-Ladder `(19, 12)` -> `VictoryRoad_B1F (17, 16)`:**
     - Exhaustive boundary verification on `VictoryRoad_B2F` confirms that `(27..28, 26)` is walled off on the west (`x = 26`) and south (`y = 27`), `(40..44, 20)` is a south-facing 1-way ledge above `(40, 26..23)`, `(28, 5)` is bounded by a west-facing 1-way ledge at `x = 29`, and `(5, 1)` is a solid cliff corner.
     - Therefore, from `(8, 14)` at the bottom of the Western Waterfall, surfing `Right` 9 along `y = 14` to `(17, 14)`, `Up` 1 to `(17, 13)`, stepping `Right` 1 ashore onto `(18, 13)`, and walking `Up` 1, `Right` 1 onto the **Up-Ladder at `(19, 12)`** (warping to **`VictoryRoad_B1F (17, 16)`**) is the main progression path!
+- **`VictoryRoad_B1F` Southwestern Section (`(17, 16)` -> `(15, 25)`):**
+  - From the arrival ladder at `(17, 16)`, walk `Down` 1 to `(17, 17)`, `Left` 2 to `(15, 17)`, and `Down` 3 along `x = 15` to `(15, 20)` (bypassing the Cooltrainer♂ at `(14, 16)` who faces `Down` along `x = 14`).
+  - **Cooltrainer♀ Halle `(14, 20)`:** Rotates `Up`/`Right` to watch `(15, 20)` — `Sableye Lv. 43` (Ghost/Dark, immune to Normal/Fighting), `Absol Lv. 43` [Defeated — money `$44,239`].
+  - From `(15, 20)`, walk `Down` 5 along `x = 15` to the southern junction at **`(15, 25)`**.
 
 <hr>
 
@@ -911,12 +915,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $42,175 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $44,239 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
 - **Inventory:** Ultra Ball x7, Great Ball x5, Poké Ball x1, Hyper Potion x3, Revive x3, Full Heal x3, Magma Emblem, Devon Scope, Go-Goggles, Meteorite, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive), TM03 (Water Pulse), TM04 (Calm Mind), TM08 (Bulk Up), TM34 (Shock Wave), TM40 (Aerial Ace), TM42 (Facade), TM47 (Steel Wing), TM50 (Overheat)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 56 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
+  1. ATRITON (Swampert, Male, Lv. 57 [Holding Mystic Water] — Dive, Strength, Rock Smash, Surf)
   2. OBERON (Beautifly, Male, Lv. 20 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 12 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
