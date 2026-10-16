@@ -718,8 +718,10 @@
   - Instead, from `(10, 7)`, walk `Left` 1 to `(9, 7)`, face `Left` to smash the **Rock Smash rock at `(8, 7)`**, walk `Left` 5 across `(8..4, 7)` to `(4, 7)`, and `Up` 1 to `(4, 6)`.
   - At `(4, 6)`, activate **Strength** facing `Up` and push the western boulder at `(4, 5)` `Up` 3 times (`(4, 5)` -> `(4, 4)` -> `(4, 3)` -> `(4, 2)`).
   - Walk `Up` 1 to `(4, 3)`, `Right` 4 across `(5..8, 3)` (passing above the untouched boulder at `(7, 4)`) to `(8, 3)`, smash the **Rock Smash rock at `(9, 3)`**, step `Right` onto `(9, 3)`, push the boulder at `(10, 3)` `Right` 2 times (`(10, 3)` -> `(11, 3)` -> `(12, 3)`), and walk from `(10, 3)` via `Right` 1, `Up` 2 into the **Top-Right Doorway at `(11, 1)`** (warps to the southwest shore of `SeafloorCavern_Room6` at `(3, 23)`). Note: the Top-Left Doorway at `(6, 1)` warps to the south-central entrance of `SeafloorCavern_Room6` `(11, 21)`, which is blocked by downward currents.
-- **`SeafloorCavern_Room6` (Water Current Room, `(3, 23)` -> North):**
-  - From `(3, 23)`, walk `Up` 4 to `(3, 19)`. Do NOT surf `Up` onto `(3, 18)` (which is a downward current). Instead, face `Right` at `(3, 19)` and use **Surf** onto the calm water channel `(4..11, 19)`.
+- **`SeafloorCavern_Room6` (Water Current Room, `(3, 23)` -> `(5, 1)`):**
+  - From `(3, 23)`, walk `Up` 2 to `(3, 21)` and `Right` 5 to `(8, 21)`, face `Right` to use **Surf** onto `(9, 21)`, surf `Right` 1 and `Down` 2 to `(10, 23)`, and surf `Right` 6 along `y = 23` onto the current at **`(16, 23)`** (slides `Right` to `(18, 23)` and `Up` to `(18, 12)`).
+  - From `(18, 12)`, surf `Right` 1 onto the eastern calm water lane `(19, 12)` and `Up` 8 along `x = 19` onto the current at **`(19, 4)`** (slides via `(15, 4)` -> `(15, 7)` -> `(4, 7)` onto the calm water tile at **`(4, 10)`**).
+  - From `(4, 10)`, surf `Left` 1 onto the western calm water lane `(3, 10)` and `Up` 7 along `x = 3` onto the northwest shore at **`(3, 3)`**, then walk `Right` 2 and `Up` 2 into the northern doorway at **`(5, 1)`** (warps to `SeafloorCavern_Room7`).
 
 <hr>
 
