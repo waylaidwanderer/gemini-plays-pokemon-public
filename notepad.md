@@ -483,6 +483,7 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
    - Teams: Tuber Lola: Azurill ♀ Lv 12 (fainted), Azurill ♀ Lv 12 (fainted); Tuber Chandler: Tentacool ♂ Lv 12 (fainted).
    - Pre-battle Quotes: "Doesn't a beach umbrella look like a giant flower?", "Tadaah! See? My inner tube's round!"
    - Reward: ¥96. Outcome: Complete victory! Lilz grew to Lv 12! All beach trainers defeated!
+- Hidden Items: Potion found buried in the sand at (25, 6) directly between Lola and Chandler!
 
 <hr>
 
