@@ -57,5 +57,5 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 2. Black Belt Takao:
    - Location: Column 2 corridor at (2, 18), spotted May at (2, 16) from the north.
    - Pre-battle: "Might is right! Come on!"
-   - Team: Machop ♂ Lv 13 (Sage executed Absorb, resolving faint and victory)
+   - Team: Machop ♂ Lv 13 (Machop HP ~5 HP red zone, Sage HP 11/53 Overgrow active, executing finishing move)
    - Status: Battle in progress.
