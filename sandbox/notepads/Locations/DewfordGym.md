@@ -58,4 +58,4 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
    - Reward: ¥312, 253 EXP. Third trainer defeated; spotlight expanded from radius 4 to 5!
 5. Sector 5: Northern Stage Approach (cols 9-12, rows 1-6)
    - At (11, 5), path extends west to (10, 5). (9, 5) is an alcove overlooking Cristian at (9, 8).
-   - From (10, 5), a vertical corridor runs north along column 10 between the western elevated stage platform and eastern water canal toward Brawly's stage.
+   - From (10, 5), a vertical corridor runs north along column 10, terminating at (10, 3) with water at (10, 2) in an alcove. Dead end. Must approach stage from western stairs/corridor.
