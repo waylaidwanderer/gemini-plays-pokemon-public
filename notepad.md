@@ -770,6 +770,9 @@
 - **Eastern Rim Staircase & Shore (`(43, 32)` -> `(43, 38)`):**
   - Note: Exiting the Sootopolis City Pokémon Center `(43, 31)` to `(43, 32)` during heavy rain / intense sun requires `sleep 3000` before moving, and two NPCs at `(46, 32)` and `(47, 33)` diagonally block the terrace directly east of the Pokémon Center during the Groudon vs. Kyogre crisis.
   - Below the Pokémon Center staircase (`(43..44, 34..37)`), green grass extends south (`y = 38..42`) and east past `(45, 41)`.
+- **Steven Stone Escort to Cave of Origin (`(20, 36)` -> `(31, 17)`):**
+  - During the Groudon vs. Kyogre crisis, all other staircases in Sootopolis City are blocked by NPCs (`(13, 48)` on the southwest shore and `(46, 32)`/`(47, 33)` on the eastern terrace).
+  - To reach **Steven Stone at `(20, 36)`**: surf to **`(23, 37)`** (west of Sootopolis Gym), press `Left` to step ashore onto **`(22, 37)`**, walk `Left` 2 to **`(20, 37)`**, face `Up`, and press **`A`** to speak with **Steven Stone at `(20, 36)`**, who automatically escorts the player up the staircase at `(19..20, 35)` to the **Cave of Origin entrance at `(31, 17)`**.
 
 <hr>
 
