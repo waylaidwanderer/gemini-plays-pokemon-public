@@ -29,10 +29,10 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 
 4. Sector 4: West Wing & Northern Lookout (cols 1-3, rows 9-18)
    - Column 2 vertical corridor connects to row 16 walkway. Black Belt Takao defeated at (2, 17).
-   - Column 1 South: (1, 17) dead-ends south at a brown wooden wall.
-   - Column 1 Pocket: (1, 10) dead-ends north at water at (1, 9).
-   - Column 2 North Pier: Tile (2, 9) is a dead-end lookout pier surrounded by water to the north (2, 8), west (1, 9), and east (3, 9), looking across at northern stairs at (2, 7).
-   - Row 10 East Alcove: Tile (3, 10) dead-ends east at wall (4, 10).
+   - Column 1 Pocket: (1, 10) connects north to (1, 9), dead-ending at water at (1, 8).
+   - Column 2 North Pier: Tile (2, 9) dead-ends at water at (2, 8).
+   - Row 10 East Alcove: Tile (3, 10) dead-ends north at water at (3, 9) and east at wall (4, 10).
+   - The horizontal stripes at (2, 7) are retaining cliff walls of the raised central stage rising out of water, not walkable stairs. Sector 4 has no stage access. Completely mapped.
 
 5. Sector 5: Northern Stage Approach & Access Stairs (cols 9-12, rows 1-8)
    - Row 8 Corridor: Extends west from (12, 8) to (9, 8). Black Belt Cristian permanently occupies (9, 8) (verified collision: impassable from east). Column 9 corridor extends south from Cristian's tile, and row 8 extends west behind him, accessible only from the southern/western network.
