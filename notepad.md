@@ -65,12 +65,12 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
   - Machop Lv 16 (Bulk Up, Karate Chop, Low Kick, Seismic Toss)
   - Meditite Lv 16 (Bulk Up, Focus Punch, Light Screen, Reflect)
   - Makuhita Lv 19 (Bulk Up, Arm Thrust, Vital Throw, Reversal - Sitrus Berry)
-4. Sailor Brenden & Battle Girl Lilith: [UNBEATEN / REMATCH PENDING]
+4. Sailor Brenden & Battle Girl Lilith: [IN PROGRESS - REMATCH]
    - Location: East Wing corridor at (15..16, 11..12).
-   - Brenden: Machop ♂ Lv 13. Pre-battle: "I'll show you the gumption of a sailing man!"
-   - Lilith: Meditite ♀ Lv 13. Pre-battle: "Ufufu... Are you stumbling around in the dark?"
+   - Brenden: Machop ♂ Lv 13 [DEFEATED]. Pre-battle: "I'll show you the gumption of a sailing man!"
+   - Lilith: Meditite ♀ Lv 13 [ACTIVE]. Pre-battle: "Ufufu... Are you stumbling around in the dark?"
    - Battle Type: 2-on-2 Double Battle triggered simultaneously at (16, 12).
-   - Targeting Mechanic: On the battlefield, Machop is on the left and Meditite is on the right. Pressing LEFT targets Machop, while pressing RIGHT targets Meditite (for 2x super effective Pursuit damage). Defeating both maximizes gym illumination!
+   - Battle Status: Machop eliminated! Meditite isolated in 2-on-1 against Sage (Lv 19) and Cipher (Lv 10). Sage's move layout: Slot 1 Fury Cutter, Slot 2 Pursuit, Slot 3 Absorb, Slot 4 Quick Attack. Defeating both maximizes gym illumination!
 
 <hr>
 
@@ -645,5 +645,6 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
 - Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
+- Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Absorb, Slot 4 (bottom-right) = Quick Attack.
 
 <hr>
