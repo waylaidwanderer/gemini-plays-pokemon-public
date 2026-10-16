@@ -157,7 +157,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 
 ## Granite Cave B1F & B2F (Lower Caverns)
 - B1F Southwest Ladder at (4, 21) connects to 1F (17, 11).
-- B1F Southwest Corridor Topography: Ladder arrives at (4, 21). At (4, 19) the cliff corner blocks going north directly in column 4, but stepping Left to (3, 19) enters an open vertical corridor in column 3 that runs straight north (rows 18 down to 12) bypassing the cliff wall!
+- B1F Southwest Corridor Topography: Ladder arrives at (4, 21). Column 4 is blocked at (4, 18). Stepping Left to (3, 19) enters column 3 chute running north to (3, 14). At (3, 14), north is blocked by cliff wall at (3, 13); path jogs Right to (4, 14) and northeast into the row 12 corridor.
 - B1F Southeast Ladder at (28, 21) connects to B2F (28, 21).
 - B1F Accessible Corridor: Connects (4, 21) strictly to (28, 21); all northern probes (cols 7-22 along row 12) are blocked by solid walls at row 11.
 - B1F Southwest Ladder Dynamics: Ladder at (4, 21) ascends to 1F (17, 11). South of row 21 (row 22) is a solid cliff wall (cannot step down). The forward path to the Southeast Ladder at (28, 21) is accessed north and east around (4, 21) toward row 12.
@@ -696,5 +696,6 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
 - Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Absorb, Slot 4 (bottom-right) = Quick Attack.
 - Battle Move Memory: In Pokémon Emerald, opening the FIGHT menu automatically remembers and defaults cursor to the move used on the previous turn.
+- Naming Screen Mechanics: Pressing Start moves the cursor directly to the [ OK ] button on the right; pressing A on [ OK ] confirms and submits the name. Pressing B activates [BACK] (erases previous character).
 
 <hr>
