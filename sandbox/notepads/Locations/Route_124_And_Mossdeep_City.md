@@ -184,4 +184,4 @@
 - **Swimmer♂ Rodney `(70, 15)` (Route 130):** Watches `(70, 19)` — `Gyarados Lv. 34` [Defeated — money `$23,643`].
 - **Swimmer♀ Katie `(7, 24)` (Route 130):** Watches `(7, 23)` — `Goldeen Lv. 33`, `Spheal Lv. 33` [Defeated — money `$23,907`]. Surf `Left` 8 from `(7, 23)` across `(0, 23)` into **Route 131 at `(59, 23)`**.
 - **Route 131 (`(59, 23)` -> Sky Pillar Entrance):**
-  - **Swimmer♂ Kevin `(52, 21)`:** Watches `(52, 20)` — `Spheal Lv. 34`.
+  - **Swimmer♂ Kevin `(52, 21)`:** Watches `(52, 20)` — `Spheal Lv. 34` [Defeated — money `$24,179`]. From `(52, 20)`, surf `Left` 2 to `(50, 20)`, `Up` 4 to `(50, 16)`, and `Left` 3 to **`(47, 16)`** at the mouth of the northern Sky Pillar channel.
