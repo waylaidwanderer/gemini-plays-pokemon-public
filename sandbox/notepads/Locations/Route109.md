@@ -37,3 +37,6 @@ A sunny coastal waterway and sandy resort beach connecting Dewford Town (via sea
    - Team: Zigzagoon ♂ Lv 13 (fainted).
    - Defeat Quote: "Groan..."
    - Reward: ¥52. Outcome: Defeated in 2 rounds by Sage's Absorb.
+3. Tuber Pair (Umbrellas at cols 23 & 27, row 7): [BATTLING]
+   - Battle Type: 2-on-2 Double Battle.
+   - Pre-battle Quotes: "Doesn't a beach umbrella look like a giant flower?", "Tadaah! See? My inner tube's round!"
