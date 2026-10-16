@@ -335,10 +335,9 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
 - East entrance path: Begins at (79, 10) connecting seamlessly from Route 110 (0, 70).
 - Berry Trees: Two soft-soil berry trees located at (72, 7) and (67, 6).
 - Trainers:
-  - Aroma Lady Daisy: (71, 11) - [IN PROGRESS] Uses Grass-type Pokémon.
+  - Aroma Lady Daisy: (71, 11) - [DEFEATED] Used Shroomish Lv 14, Roselia Lv 14. Prize: ¥560.
   - Guitarist Marcos: (67, 8) facing South.
   - Twins Amy & Liv: (65, 12) - Double Battle pair.
-
 
 <hr>
 
