@@ -55,7 +55,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 3. Battle Girl Laura:
    - Location: Southeast corridor at (12, 25), spotted May at (12, 23) from the north.
    - Pre-battle: "Don't you dare brush me off! It's not my fault if you cry!"
-   - Team: Meditite ♀ Lv 13 (Battle in progress: Turn 1 Sage used Fury Cutter)
+   - Team: Meditite ♀ Lv 13 (Sage executing Super-Effective Pursuit)
    - Status: Battle in progress.
 
 <hr>
