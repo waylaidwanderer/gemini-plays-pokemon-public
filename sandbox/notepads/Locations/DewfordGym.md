@@ -17,7 +17,7 @@ The gym features a dynamic darkness mechanic: defeating gym trainers expands the
 2. Sector 2: East Wing & Water Loops (cols 8-13, rows 18-22)
    - Horizontal walkway along row 22 spans cols 8-12.
    - Column 8 pier (rows 18-20) dead-ends north at water (8, 17).
-   - Column 12 corridor leads north from (12, 22) through row 8 junction, dead-ending at (12, 5) water pier.
+   - Column 11-12 Corridor: From (12, 22), step west to (11, 19) to bypass water at (12, 18), then north along column 11 to (11, 14). From (11, 14), step east to (12, 14), then north along column 12 through row 8 junction, dead-ending at (12, 5) water pier.
    - Column 13 corridor dead-ends north at (13, 6) water canal.
    - Row 8 walkway runs west from (12, 8) to (9, 8), where Black Belt Cristian stood guard.
    - Southeast Branch: Column 12 runs south from (12, 22) to (12, 25), dead-ending at row 26 south wall. Battle Girl Laura was stationed here at (12, 24). Completely cleared.
