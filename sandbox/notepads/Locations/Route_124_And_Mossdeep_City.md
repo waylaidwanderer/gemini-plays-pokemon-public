@@ -186,8 +186,5 @@
 - **Route 131 (`(59, 23)` -> Sky Pillar Entrance at `(36, 6)`):**
   - **Swimmer♂ Kevin `(52, 21)`:** Watches `(52, 20)` — `Spheal Lv. 34` [Defeated — money `$24,179`].
   - **Verified Sky Pillar Route (`(59, 23)` -> `(36, 6)`):**
-    - From the east entrance `(59, 23)`, surf `Left` 7 to `(52, 20)` (defeat Swimmer♂ Kevin at `(52, 21)`), `Left` 2 to `(50, 20)`, `Up` 4 to `(50, 16)`, `Left` 3 to `(47, 16)`, `Up` 1 to `(47, 15)`, `Left` 7 to `(40, 15)`, `Down` 3 to `(40, 18)`, `Left` 7 to `(33, 18)`, `Down` 3 to `(33, 21)`, and `Left` 3 to **`(30, 21)` -> `(30, 19)`**.
-    - From **`(30, 19)`**, execute 3 rock-clamped slides:
-      1. Surf **`Up` 5 along `x = 30` to `(30, 14)`** (clamped by the 2x2 gray rock at `(30..31, 12..13)`).
-      2. Surf **`Right` 6 along `y = 14` to `(36, 14)`** (clamped by the pointed rock at `(37..38, 14..15)`).
-      3. Surf **`Up` 6 along `x = 36` onto the sandy beach at `(36, 8)`**, then walk `Up` 2 into the **Sky Pillar Entrance Cave at `(36, 6)`**.
+    - From the east entrance `(59, 23)`, surf `Left` 7 to `(52, 20)` (defeat Swimmer♂ Kevin at `(52, 21)`), `Left` 2 to `(50, 20)`, `Up` 4 to `(50, 16)`, `Left` 3 to `(47, 16)`, `Up` 1 to `(47, 15)`, `Left` 7 to `(40, 15)`, `Down` 3 to `(40, 18)`, `Left` 7 to `(33, 18)`, `Down` 3 to `(33, 21)`, `Left` 3 to `(30, 21)`, and `Up` 3 to **`(30, 18)`**.
+    - From **`(30, 18)`**, surf `Left` 3 around the pointed rock `(29..30, 16..17)` to **`(27, 18)`**, `Up` 4 along `x = 27` to **`(27, 14)`**, `Right` 9 straight along `y = 14` to **`(36, 14)`** (clamped by the pointed rock at `(37..38, 14..15)`), and `Up` 6 along `x = 36` onto the sandy beach at **`(36, 8)`**, then walk `Up` 2 into the **Sky Pillar Entrance Cave at `(36, 6)`**.
