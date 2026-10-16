@@ -699,7 +699,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Name Rater: Located in northern residential area.
 
 ## Progression Checklist - Slateport City
-1. [ ] Enter Slateport City and heal/register at Pokémon Center.
+1. [x] Enter Slateport City and heal/register at Pokémon Center.
 2. [ ] Visit Stern's Shipyard and speak to Dock.
 3. [ ] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
 4. [ ] Receive TM46 Thief from reformed Aqua Grunt on 1F.
@@ -728,7 +728,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 24, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Arrived at Route 109 / Slateport City! Next: Deliver Devon Goods to Captain Stern in Slateport City. Party: Sage Lv 24, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
+- Status: Knuckle Badge earned! Delivered President Stone's Letter to Steven Stone in Granite Cave; received TM47 Steel Wing and registered Steven in Match Call! Arrived at Route 109 / Slateport City! Checkpoint registered at Slateport City Pokémon Center! Next: Speak with Dock at Stern's Shipyard, then deliver Devon Goods to Captain Stern at Oceanic Museum. Party: Sage Lv 24, Lilz Lv 12, Cipher Lv 10, Cobalu Lv 10.
 
 ## Party
 1. SAGE (Grovyle ♂, Level 24) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Absorb, Quick Attack. HP: 64/65. Status: OK. Stats: Atk 40, Def 30, Sp.Atk 47, Sp.Def 43, Speed 55. Nature: Lonely. Ability: Overgrow.
