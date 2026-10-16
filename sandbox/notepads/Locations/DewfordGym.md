@@ -57,5 +57,6 @@ The gym features a dynamic darkness mechanic: the interior is shrouded in pitch 
 2. Black Belt Takao: [DEFEATED]
    - Location: Column 2 corridor at (2, 18), spotted May at (2, 16) from the north.
    - Pre-battle: "Might is right! Come on!"
+   - Defeat quote: "Not enough power"
    - Team: Machop ♂ Lv 13 (fainted).
    - Reward: ¥416, 244 EXP (Sage HP 18/53). Second trainer defeated; spotlight expanded to radius 4!
