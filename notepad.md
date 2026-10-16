@@ -531,6 +531,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Location: Coastal sand path at (9, 75). Isabel at (10, 75), Kaleb at (8, 75) disguised in the bush.
    - Pre-battle Quotes: Isabel: "Ahahaha! I would go anywhere to show off my delightful POKÉMON.", Kaleb: "When cute POKÉMON help each other... You won't see a more adorable sight!"
    - Team: Plusle Lv 14, Minun Lv 14.
+- Double Battle Field Mechanics: Slot 1 defaults target to enemy Slot 1 (left); D-pad Right shifts to enemy Slot 2 (right). Slot 2 defaults target to enemy Slot 2 (right); D-pad Left shifts to enemy Slot 1 (left). If a targeted foe faints before the second attacker strikes, the attack redirects to the remaining foe.
 
 <hr>
 
