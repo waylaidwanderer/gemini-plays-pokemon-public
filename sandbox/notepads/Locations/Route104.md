@@ -28,6 +28,7 @@ Route 104 is split into southern and northern sections by Petalburg Woods.
   - Location: (11, 44) facing East on the road bend leading to Petalburg Woods.
   - Team: Zigzagoon Lv 7 (fainted).
   - Reward: ¥1400.
+  - Note: Row 45 directly south of Cindy contains a patch of tall grass (cols 11-14).
 
 ## Landmarks & Features (North Section)
 - Petalburg Woods North Gate: Connects south into Petalburg Woods (warp at 14, 5 in woods, exit at 10, 29 on Route 104).
