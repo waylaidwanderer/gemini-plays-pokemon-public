@@ -28,4 +28,4 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 - Day Care Signpost: Located at (49, 5), read from (49, 6) facing North: "POKéMON DAY CARE / 'Let us raise your POKéMON.'"
 
 ## Trainers
-1. Sr. and Jr. Anna & Meg: Located at (43..44, 5) facing Down by the wooden fence. Double Battle triggered by stepping to (44, 6) or talking directly.
+1. Sr. and Jr. Anna & Meg: Located at (42..43, 6) facing Down by the wooden fence. Double Battle triggered by talking to them from (44, 6) facing Left or (42..43, 7) facing Up.
