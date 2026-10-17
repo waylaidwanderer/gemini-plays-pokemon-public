@@ -273,7 +273,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
    - Trigger: Stepping onto (1, 15) triggers a simultaneous 2-on-2 Double Battle.
    - Quotes: Vivian: "With my charm and my POKÉMON's moves, you'll be shocked!"; Kirk: "My electric soul, it'll shatter your dreams whole, whoa-yeahah!"
    - Teams:
-     - Vivian: Meditite ♀ Lv 17 #1 (OHKO'd by Sage's Leaf Blade), Meditite ♀ Lv 17 #2
+     - Vivian: Meditite ♀ Lv 17 #1 (OHKO'd by Sage's Leaf Blade), Meditite ♀ Lv 17 #2 (OHKO'd by Sage's Leaf Blade) [VIVIAN DEFEATED]
      - Kirk: Electrike ♂ Lv 17
 2. Youngster Ben
 3. Guitarist Shawn
