@@ -4,7 +4,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $21,933 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Hyper Potion x10, Revive x3, Full Heal x2, Poké Ball x1, Great Ball x5, Ultra Ball x7, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory:** Hyper Potion x9, Revive x3, Full Heal x2, Poké Ball x1, Great Ball x5, Ultra Ball x7, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 73 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 21 [FNT] — Gust, String Shot, Poison Sting, Harden)
