@@ -34,6 +34,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Fossil Maniac's House Interior:
   - Entrance mat at (4, 7), spawn at (4, 6).
   - Open central corridor along column 4 (rows 2..6).
-  - Fossil Maniac's little brother at (3, 1) in front of the cave tunnel.
+  - Cave tunnel doorway at (3, 1).
+  - Fossil Maniac's little brother stands at (2, 2) to the left of the cave tunnel door, talkable from (3, 2) facing West.
   - Gift: Speaking to the brother awards TM28 Dig!
-  - Cave Tunnel: Connects to the desert / fossil digging site (under construction).
+  - Cave Tunnel Interior: Spawn at (6, 25) facing North. Exit doorway at (6, 26). Leads north into Desert Underpass (under construction by Fossil Maniac).
