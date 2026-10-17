@@ -851,6 +851,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Daughter of the Winstrate family (Battle 3 of 4).
    - Pre-battle quote: "You're stronger than Mommy? Wow! But I'm strong, too! Really! Honestly!"
+   - Defeat quote: "This stinks..." (in-battle: "Wah! My strong POKéMON!...")
    - Team: Marill ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Numel ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Shroomish ♀ Lv 15 (OHKO'd by Sage's Quick Attack).
    - Reward: ¥600 prize money.
    - Outcome: Complete victory! Battle 3 of 4 cleared! Sage Lv 35, HP 35/92 (PSN).
@@ -1170,7 +1171,6 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
   - Reward: ¥640 prize money.
   - Outcome: Complete victory! All 3 Pokémon swept by Sage's Leaf Blade.
 - Wanda & Boyfriend: Reunited after May shattered the blocking boulders! Boyfriend rewarded May with HM04 Strength. The tunnel between Verdanturf Town and Rustboro City is now permanently open!
-- Item Ball: Located at (27..28, 2) on the upper terrace near the shattered rocks.
 
 <hr>
 

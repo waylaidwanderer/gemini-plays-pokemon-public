@@ -47,4 +47,3 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
   - Reward: ¥640 prize money.
   - Outcome: Complete victory! All 3 Pokémon swept by Sage's Leaf Blade.
 - Wanda & Boyfriend: Reunited after May shattered the blocking boulders! Boyfriend rewarded May with HM04 Strength. The tunnel between Verdanturf Town and Rustboro City is now permanently open!
-- Item Ball: Located at (27..28, 2) on the upper terrace near the shattered rocks.
