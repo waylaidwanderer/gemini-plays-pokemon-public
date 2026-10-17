@@ -5,11 +5,12 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 
 ## Connection Points
 - South Entrance: Slateport City (gate at 18, 10; Route 110 begins at 18, 97).
-- North Entrance: Mauville City (near row 0).
+- North Entrance: Mauville City (boundary at rows 14..16, cols 4..7).
 - Seaside Cycling Road: Elevated highway requiring a Bicycle (entered via toll gate buildings at south and north ends).
 
 ## Key Landmarks
 - South Entrance Signpost: Located at (20, 94), read from (19, 94) facing East: "ROUTE 110 / ⬇ SLATEPORT CITY".
+- Northern Signpost: Located at (3, 17), read from (4, 17) facing West: "ROUTE 110 / ⬆ MAUVILLE CITY".
 - Trick House: Located at (11..13, 64..66) with entrance door at (11, 65). Signpost at (8, 67) reads: "Three steps ➔ and two steps ⬆ to reach the wondrous TRICK HOUSE."
 - Seaside Cycling Road: Elevated highway on steel trestle pillars running along the east water. The entrance gate is further along.
 - Bike NPC: Boy at (17, 90) facing South; friendly NPC debating between Mach Bike and Acro Bike.
