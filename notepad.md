@@ -926,7 +926,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (1 held by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥4908 (whited out to Brendan, half lost to ¥4960; bought 5 Super Potions for ¥3500; earned ¥1200 defeating Brendan, ¥840 defeating Edwin, ¥448 defeating Joseph, ¥960 defeating Edward & Alyssa)
+- Money: ¥4908
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110)
 
 ## Littleroot Town & Route 101 Summary
