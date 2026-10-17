@@ -122,6 +122,6 @@
 5. [x] Pass through Fiery Path around Mt. Chimney.
 6. [x] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
 7. [x] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
-8. [ ] Explore Route 114 and Meteor Falls.
+8. [x] Explore Route 114 and Meteor Falls (confronted Magma/Aqua, spoke with Cozmo).
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
