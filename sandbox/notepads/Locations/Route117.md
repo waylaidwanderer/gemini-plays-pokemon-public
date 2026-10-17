@@ -35,9 +35,10 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "MEG: Oh, no! I'm sorry, ANNA! I let you down..."
    - Post-battle: "ANNA: We can't take this lying down! You will come back, won't you?"
    - Reward: ¥544 prize money. Lilz grew to Lv 15! Registered in PokéNav Match Call.
-2. Pokémon Breeder Isaac: [DEFEATED]
+2. Pokémon Breeder Isaac: [DEFEATED - REGISTERED IN MATCH CALL]
    - Location: (33, 11) facing North.
    - Pre-battle quote: "Listen, could I get you to battle the POKéMON I'm raising?"
    - Team (6 Pokémon): Whismur ♂ Lv 11 (fainted), Taillow ♂ Lv 11 (fainted), Zigzagoon ♂ Lv 11 (fainted), Aron ♂ Lv 11 (fainted), Poochyena ♂ Lv 11 (fainted), Makuhita ♂ Lv 11 (fainted). All swept by Sage's Leaf Blade!
    - Defeat quote: "You've raised yours superbly"
-   - Reward: ¥440 prize money.
+   - Post-battle: "I'm going to redouble my training. Would you come look in on us?"
+   - Reward: ¥440 prize money. Registered in PokéNav Match Call.
