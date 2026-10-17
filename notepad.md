@@ -1119,9 +1119,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥204 prize money.
    - Outcome: Complete victory! Total money: ¥30,492. Sage HP 97/112 (PAR).
 - Ash Mound 2: [CLEARED] Located at (20, 5). Dispersed into Soot Sack.
-5. Camper Lawrence: [UNBATTLED]
-   - Location: (20, 12) facing South.
-   - Strategy: Engage from behind at (20, 11) or line of sight. Sage handles with Pursuit/Quick Attack.
+- Item Ball 3: Spotted in southern tree pocket around (12..13, 15..16).
+5. Camper Lawrence: [IN BATTLE]
+   - Location: (21, 11) facing West. Engaged player at (20, 11).
+   - Strategy: Sage Lv 37 handles with Pursuit / Quick Attack.
 
 <hr>
 
