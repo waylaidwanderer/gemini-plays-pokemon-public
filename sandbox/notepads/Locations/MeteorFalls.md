@@ -19,6 +19,14 @@ A majestic cave formed by meteorite impacts, famous for its roaring waterfall an
 - Team Magma & Team Aqua Confrontation: Story event where Team Magma Leader Maxie / Admins steal Professor Cozmo's Meteorite, confronted by Team Aqua Leader Archie!
 - High Waterfall: Requires HM07 Waterfall to climb to back chambers (B1F, B2F - Bagon chamber, TM02 Dragon Claw).
 
+## Story Events & Progression
+- Team Magma & Team Aqua Confrontation: [COMPLETED, Turn 6650-6654]
+  - Witnessed Team Magma Admin Tabitha and Grunt steal Professor Cozmo's Meteorite from the crater.
+  - Team Aqua Leader Archie and two Grunts arrived to confront Team Magma.
+  - Team Magma fled with the Meteorite to Mt. Chimney to activate the volcano.
+  - Team Aqua pursued them to Mt. Chimney.
+  - Next destination: Mt. Chimney Cable Car Station (Route 112) to stop Team Magma!
+
 ## Story Objectives
 - Rescue Professor Cozmo.
 - Confront Team Magma and retrieve or witness the Meteorite theft.
