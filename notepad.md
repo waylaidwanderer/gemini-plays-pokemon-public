@@ -802,10 +802,12 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Roselia ♀ Lv 18 (OHKO'd by Sage's Quick Attack).
    - Reward: ¥720 prize money.
    - Outcome: Complete victory! Sage HP 89/89.
-2. Camper Tyron: [IN BATTLE]
+2. Camper Tyron: [DEFEATED]
    - Location: (24, 131) in the eastern trees facing West.
    - Pre-battle quote: "This is my favorite kind of POKÉMON!"
-   - Team: Sandshrew ♂ Lv 19.
+   - Team: Sandshrew ♂ Lv 19 (OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥304 prize money.
+   - Outcome: Complete victory! Sage HP 89/89.
 
 <hr>
 
@@ -1256,7 +1258,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 34, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Phase 8 underway on Route 111 (Aroma Lady Celina defeated, battling Camper Tyron). Total money: ¥17,960! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Defeat Tyron, challenge Winstrate Family at the Winstrate House for the Macho Brace, and advance toward Route 112 / Mt. Chimney! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Phase 8 underway on Route 111 (Aroma Lady Celina & Camper Tyron defeated). Total money: ¥18,264! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Challenge Winstrate Family at the Winstrate House for the Macho Brace, and advance toward Route 112 / Mt. Chimney! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 34) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 89/89. Stats: HP 89, Atk 57, Def 42, Sp.Atk 67, Sp.Def 60, Speed 80. Status: OK. Nature: Lonely. Ability: Overgrow.
