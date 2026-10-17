@@ -1123,8 +1123,8 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 5. Youngster Dillon: [IN BATTLE]
    - Location: (21, 11) facing West. Engaged player at (20, 11).
    - Pre-battle quote: "The volcano's eruption is proof that the earth is alive."
-   - Team: 2 Pokémon (Lead: Aron Lv 19 at ~40% HP).
-   - Strategy: Sage Lv 37 uses Pursuit (Special Dark in Gen 3, resisted 0.5x by Steel, 2HKO). Sage HP: 95/112 (PAR).
+   - Team: 2 Pokémon (Lead: Aron Lv 19 at ~40% HP, used Iron Defense).
+   - Strategy: Sage Lv 37 uses Pursuit (Special Dark ignores Iron Defense, 2HKO). Sage HP: 95/112 (PAR).
 
 <hr>
 
