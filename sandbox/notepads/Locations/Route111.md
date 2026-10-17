@@ -80,3 +80,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Daughter of the Winstrate family (Battle 3 of 4).
    - Team: Marill ♀ Lv 15, Shroomish ♀ Lv 15, Numel ♀ Lv 15.
+
+## Winstrate Family Gauntlet Mechanics
+- Structure: 4 consecutive 1-on-1 battles against Victor, Victoria, Vivi, and Vicky.
+- After each victory, the defeated member runs inside and the next member steps outside to (13, 114).
+- Interacting with each member using 'A' starts their battle. Do not press 'B' on challenge prompts.
+- Defeating all 4 members awards the Macho Brace inside the house from Victoria!
