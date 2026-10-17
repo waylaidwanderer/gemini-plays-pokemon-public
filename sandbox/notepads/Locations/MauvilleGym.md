@@ -70,8 +70,9 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 4. Guitarist Shawn: [DEFEATED]
    - Location: Eastern Chamber at (7, 7) facing South.
    - Pre-battle quote: "I trained under WATTSON! There ain't no way I'll lose to some kid!"
+   - Defeat quote: "Unplugged and turned off..."
    - Team: Voltorb Lv 17 (fainted to Leaf Blade), Magnemite Lv 17 (fainted to Leaf Blade).
-   - Rewards: Prize money, Sage gained EXP.
+   - Rewards: ¥544 prize money, Sage gained EXP.
 
 ## Progression Checklist - Mauville Gym
 1. [x] Enter Mauville Gym and check Gym Guide advice.
