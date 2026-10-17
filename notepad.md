@@ -1309,12 +1309,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
-- Route 114 Elevated Ridge & Western Canyon:
-  - Eastern Ascent Stairs: Located at cols 14..15, rows 49..50. Ascends from lower canyon onto the plateau at (15, 48).
-  - Plateau Ridge: Elevated rock platform across cols 5..15, rows 45..48.
-  - Southern Overlook Pocket: Cols 8..14, rows 49..54 dead-ends at row 54 ridge and permanent boulder at (8, 53).
-  - Western Descent Stairs: Located at cols 5..6, rows 45..46. Ascends from western canyon onto plateau, or descends south from row 45 into western canyon at (5, 47).
-  - Western Canyon: Vertical canyon along cols 4..6 running south past the mud-slide slopes directly to Meteor Falls entrance at rows 62..63.
+- Route 114 Elevated Plateau & Mountain Trail:
+  - Eastern Ascent Stairs: Located at cols 14..15, rows 49..50. Ascends from lower tall grass area onto the plateau at (15, 48).
+  - Lower Plateau: (9..15, 44..50). South dead-end pocket at (8..14, 50..54) against row 54 ledge.
+  - Western Stairs & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to small terrace at (6, 47) overlooking 4 Mach Bike mud slopes. One-way jump ledges hop south from (6, 52) down rows 53, 55, 57 into the lower canyon. Secret base indentation at (9, 47).
+  - Northern Riverbank Alcove: Smashable rock at (12, 43) broken with Rock Smash. Path leads north along column 12 to (11, 37) containing Protein [COLLECTED].
 
 <hr>
 
