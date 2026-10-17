@@ -50,3 +50,4 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Post-battle: "You appear to be training properly... If you'd like, I'll battle you later!"
    - Reward: ¥680 prize money.
 - Boy at (25, 6): Friendly NPC near central pond who says "The air is tasty here!"
+- Route 117 Direction Signpost: Located at (16, 6), read from (16, 7) facing North: "ROUTE 117 / ⬅ VERDANTURF TOWN".
