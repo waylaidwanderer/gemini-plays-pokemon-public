@@ -1289,7 +1289,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Row 42 connects west route (col 21) east to the lawn outside Lanette's house (col 27).
   - Boy NPC: Located at (27, 41) facing North.
   - Twins: Located at cols 24..25, row 43 facing North.
-  - Berry Patch: 3 ripe berry plants (Persim Berries) at cols 29..30, rows 41..43.
+  - Berry Patch:
+  - Located on the east side of the route at col 31, rows 42..44.
+  - Three ripe berry plants (Persim Berries).
+  - Harvest tiles: (30, 42) facing East, (30, 43) facing East, (30, 44) facing East.
   - Southern Trail: Gap in the ledge at cols 26..27, row 44 leads south into the mountain path toward Meteor Falls.
 - Lanette's House Interior:
   - Entrance mat at (5, 7), spawn at (5, 6).
