@@ -1139,7 +1139,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Evolution Mechanics: Pressing B during the evolution animation cancels evolution; avoid pressing B to allow evolution to finish safely.
 - Special Move Mechanics: In Gen 3, all Grass-type moves (including Leaf Blade) are Special, so enemy physical Attack drops (Growl) have no effect on their damage.
 - Multi-Step D-Pad Navigation: Consecutive identical D-pad presses require a 'sleep' (e.g. 'sleep 100') between them to ensure key release is registered by the emulator; without sleeps, multiple identical directional presses only result in a single turn/step.
-## Progression Checklist - Phase 6: Mauville City & Gym 3 (Active)
+## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
 2. [x] Visit Rydel's Cycles, obtain Mach Bike, and register to Select button.
 3. [x] Visit Rock Smash Guy's house and obtain HM06 Rock Smash.
@@ -1147,5 +1147,15 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 5. [x] Battle and defeat Wally outside Mauville Gym (Ralts Lv 16).
 6. [x] Enter Mauville Gym, solve electric barrier switch puzzle, and defeat Gym trainers.
 7. [x] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
+
+## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Active)
+1. [ ] Enter Mauville Pokémon Center and heal party with Nurse Joy.
+2. [ ] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
+3. [ ] Explore Route 117 (visit Pokémon Day Care, battle trainers, harvest berries).
+4. [ ] Arrive in Verdanturf Town (explore Battle Tent, Contest Hall, Wanda's house).
+5. [ ] Enter Rusturf Tunnel from the Verdanturf Town entrance.
+6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
+7. [ ] Obtain HM04 Strength from Wanda's boyfriend.
+8. [ ] Return to Mauville City and head north onto Route 111 toward Mt. Chimney / Fallarbor Town.
 
 <hr>
