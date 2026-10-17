@@ -4,9 +4,9 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $32,566 | **Battle Points:** 10 BP | **Status:** HOENN LEAGUE CHAMPION, BATTLE DOME CHAMPION, BATTLE PIKE WINNER, BATTLE FACTORY WINNER, BATTLE ARENA WINNER & BATTLE PALACE WINNER | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, Mystic Water (unequipped from ATRITON in Bag for Battle Pyramid; re-equip after Battle Pyramid), S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 76, Calm Nature [+Sp. Def, -Attack], Holding Mystic Water — Surf, Return, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 76, Calm Nature [+Sp. Def, -Attack], No Held Item [Mystic Water in Bag for Battle Pyramid] — Surf, Return, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 21 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
@@ -24,7 +24,7 @@
 - `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
-- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City (including Lilycove Harbor), Mt. Pyre, Team Aqua Hideout, the S.S. Tidal, and the Battle Frontier (Battle Dome, Battle Pike, Battle Factory, Battle Arena, Battle Frontier Pokémon Center, and Battle Tower).
+- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City (including Lilycove Harbor), Mt. Pyre, Team Aqua Hideout, the S.S. Tidal, and the Battle Frontier (Battle Dome, Battle Pike, Battle Factory, Battle Arena, Battle Palace, Battle Pyramid, Battle Frontier Pokémon Center, and Battle Tower).
 - `Locations/Route_124_And_Mossdeep_City`: Coordinates, trainer statuses, and routing for Route 124, Mossdeep City, Routes 126–131, Seafloor Cavern, Sootopolis City, Cave of Origin, and Sky Pillar.
 
 ## Mechanics & Harness Notes
