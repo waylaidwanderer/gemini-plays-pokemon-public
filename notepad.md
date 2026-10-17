@@ -866,7 +866,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 ## Progression Checklist - Route 117
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
-3. [ ] Harvest ripe berries from berry patches.
+3. [x] Harvest ripe berries from berry patches (3 Wepear Berry trees at 41..43, 13).
 4. [x] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia defeated).
 5. [x] Reach Verdanturf Town at the western terminus.
 
@@ -875,6 +875,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 - Day Care exterior door: (51, 4).
 - Day Care interior entrance: (2, 8), counter at (2, 3).
 - Day-Care Man exterior: (46, 2).
+- Berry Patch: Located at (41..43, 13) south of the main road behind the bushes. 3 Wepear Berry trees harvested!
 ## Signposts
 - Day Care Signpost: Located at (49, 5), read from (49, 6) facing North: "POKéMON DAY CARE / 'Let us raise your POKéMON.'"
 
