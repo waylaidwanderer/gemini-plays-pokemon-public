@@ -6,7 +6,7 @@
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen, Madeline, Tori & Tia defeated. Total money: ¥30,288! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 100/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 37) [Held Item: None (consumed)] - Evolved on turn 5632! Level 37 on turn 5839! Moves: Fury Cutter (18/20), Pursuit (18/20), Leaf Blade (0/15), Quick Attack (14/30). HP: 100/112. Max HP: 112. Status: PAR. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 37) [Held Item: None (consumed)] - Evolved on turn 5632! Level 37 on turn 5839! Moves: Fury Cutter (18/20), Pursuit (17/20), Leaf Blade (0/15), Quick Attack (14/30). HP: 100/112. Max HP: 112. Status: PAR. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 16) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 49/49. Stats: HP 49, Atk 24, Def 21, Sp.Atk 21, Sp.Def 28, Speed 24. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
