@@ -24,8 +24,8 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥1460 (whited out to Brendan, half lost to ¥4960; bought 5 Super Potions for ¥3500)
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel registered!), Old Rod (Fisherman in Dewford Town)
+- Money: ¥2660 (whited out to Brendan, half lost to ¥4960; bought 5 Super Potions for ¥3500; earned ¥1200 defeating Brendan)
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -53,7 +53,8 @@
 5. [x] Enter Oceanic Museum (¥50 fee), defeat Team Aqua Grunts on 2F, and deliver Devon Goods to Captain Stern.
 6. [x] Receive TM46 Thief from reformed Aqua Grunt on 1F of Oceanic Museum.
 7. [ ] Explore town landmarks (Slateport Market, Battle Tent, Name Rater).
-8. [ ] Travel north onto Route 110 towards Mauville City.
+8. [x] Defeat Rival Brendan in Rival Battle #2 on Route 110 causeway and obtain Itemfinder.
+9. [ ] Continue north along Route 110 into Mauville City.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
