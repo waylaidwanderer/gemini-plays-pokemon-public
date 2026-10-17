@@ -795,8 +795,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - South Entrance from Mauville City: (15, 138) heading North.
 - Cobblestone highway runs north along column 15.
 ## Trainers (South Section)
-1. Aroma Lady Celina: [CHALLENGING]
+1. Aroma Lady Celina: [IN BATTLE]
    - Location: (20, 132) facing West along the cobblestone bend.
+   - Pre-battle quote: "Show me how to put a little excitement into my life."
    - Team: Roselia ♀ Lv 18.
 
 <hr>
