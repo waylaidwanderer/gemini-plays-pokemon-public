@@ -50,6 +50,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 
 3. Twins Tori & Tia: [IN BATTLE]
    - Location: (45..46, 6) facing South.
+   - Pre-battle quote: "TIA: Both of us, we collect ashes. We battle POKéMON, too."
    - Battle format: 2-on-2 Double Battle.
    - Opponent team: Spinda Lv 19 & Spinda Lv 19.
    - Player leads: Sage (Lv 37, PAR, 108/112) and Lilz (Lv 16, OK, 49/49).
