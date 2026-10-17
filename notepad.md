@@ -1125,8 +1125,8 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Pre-battle quote: "The volcano's eruption is proof that the earth is alive."
    - Defeat quote: "You're some kind of strong!"
    - Team: Aron ♂ Lv 19 (only 1 Pokémon, defeated by Pursuit for 390 EXP; Sage grew to Lv 38!).
-   - Reward: Pending prize money confirmation on return to overworld.
-   - Outcome: Complete victory! Sage HP 96/115 (PAR).
+   - Reward: ¥304 prize money.
+   - Outcome: Complete victory! Total money: ¥30,796. Sage HP 96/115 (PAR).
 
 <hr>
 
@@ -1576,7 +1576,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 37, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen, Madeline, Tori & Tia, Lao defeated. Total money: ¥30,492! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 95/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen, Madeline, Tori & Tia, Lao, Dillon defeated. Total money: ¥30,796! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 38 (PAR, 96/115), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (18/20), Pursuit (13/20), Leaf Blade (0/15), Quick Attack (14/30). HP: 96/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: PAR. Nature: Lonely. Ability: Overgrow.

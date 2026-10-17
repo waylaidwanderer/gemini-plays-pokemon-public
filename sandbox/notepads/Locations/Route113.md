@@ -77,5 +77,5 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Pre-battle quote: "The volcano's eruption is proof that the earth is alive."
    - Defeat quote: "You're some kind of strong!"
    - Team: Aron ♂ Lv 19 (only 1 Pokémon, defeated by Pursuit for 390 EXP; Sage grew to Lv 38!).
-   - Reward: Pending prize money confirmation on return to overworld.
-   - Outcome: Complete victory! Sage HP 96/115 (PAR).
+   - Reward: ¥304 prize money.
+   - Outcome: Complete victory! Total money: ¥30,796. Sage HP 96/115 (PAR).
