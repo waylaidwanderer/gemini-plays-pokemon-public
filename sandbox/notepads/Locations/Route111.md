@@ -60,8 +60,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Numel ♂ Lv 18 (fainted to Sage's Leaf Blade).
    - Reward: ¥576 prize money.
    - Outcome: Complete victory! Sage HP 85/89.
-5. Victor Winstrate: [IN BATTLE]
+5. Victor Winstrate: [DEFEATED]
    - Location: (13, 114) facing South outside Winstrate House.
    - Pre-battle quote: "Hello! I take it you're a traveler. How's this? What do you say to taking on our family of four in a series of POKéMON battles?"
    - Challenge: 4-trainer sequential gauntlet (Victor, Victoria, Vivi, Vicky). Defeating all four awards the Macho Brace!
-   - Team: Taillow ♂ Lv 16 (OHKO'd by Sage's Quick Attack), Zigzagoon ♂ Lv 16.
+   - Team: Taillow ♂ Lv 16 (OHKO'd by Sage's Quick Attack), Zigzagoon ♂ Lv 16 (OHKO'd by Sage's Quick Attack).
+   - Reward: ¥640 prize money.
+   - Outcome: Complete victory! Battle 1 of 4 cleared without taking any damage! Sage HP 85/89.
