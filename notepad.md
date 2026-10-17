@@ -603,6 +603,11 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
   - Cycling Road Height Mechanics: The Seaside Cycling Road is an elevated highway with Cyclists riding above. Ground-level pedestrians walk underneath and cannot interact with overhead Cyclists.
   - At col 7..8, the path and canal railing turn North towards Mauville City.
   - Item Ball: Located at (8, 39) near the northwest corner turn!
+5. Psychic & Triathlete (Double Battle): [IN PROGRESS]
+   - Location: Northwest bend of Route 110 at row 39, cols 4..11. Triggered simultaneously when stepping onto (8, 39).
+   - Psychic Pre-battle Quote: "I have foreseen your intentions! I cannot possibly lose!"
+   - Triathlete Cyclist Pre-battle Quote: "I fell off CYCLING ROAD... I'll get over my embarrassment by battling with you!"
+   - Opponents & Teams: In progress.
 
 <hr>
 
