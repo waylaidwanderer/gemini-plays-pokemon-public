@@ -881,7 +881,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
     - Battle Type: 2-on-2 Double Battle.
     - Location: (13..14, 86) on northern Route 111.
     - Pre-battle quote: "GABBY: Oh! We've just spotted a tough-looking TRAINER here of all places! TY: Okay, roll camera! Let's get this interview."
+    - Defeat quote: "GABBY: My eyes didn't lie! I did discover an astonishing TRAINER!"
     - Team: Magnemite Lv 17 (OHKO'd by Sage's critical hit Leaf Blade), Whismur ♂ Lv 17 (OHKO'd by Sage's Leaf Blade).
+    - Reward: ¥1,632 prize money.
     - Outcome: Complete victory! Lilz grew to Lv 16.
 
 <hr>
@@ -1332,7 +1334,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Winstrate Family gauntlet cleared. Total money: ¥21,768! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance to Route 112, Fiery Path & Mt. Chimney! Party: Sage Lv 35 (OK, 92/92), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Winstrate Family & Gabby/Ty cleared. Total money: ¥23,400! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance to Route 112, Fiery Path & Mt. Chimney! Party: Sage Lv 35 (OK, 92/92), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 35) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 92/92. Stats: HP 92, Atk 58, Def 43, Sp.Atk 69, Sp.Def 62, Speed 83. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -1354,7 +1356,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥21,768
+- Money: ¥23,400
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary

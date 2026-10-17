@@ -108,5 +108,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
     - Battle Type: 2-on-2 Double Battle.
     - Location: (13..14, 86) on northern Route 111.
     - Pre-battle quote: "GABBY: Oh! We've just spotted a tough-looking TRAINER here of all places! TY: Okay, roll camera! Let's get this interview."
+    - Defeat quote: "GABBY: My eyes didn't lie! I did discover an astonishing TRAINER!"
     - Team: Magnemite Lv 17 (OHKO'd by Sage's critical hit Leaf Blade), Whismur ♂ Lv 17 (OHKO'd by Sage's Leaf Blade).
+    - Reward: ¥1,632 prize money.
     - Outcome: Complete victory! Lilz grew to Lv 16.
