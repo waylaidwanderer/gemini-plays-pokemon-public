@@ -22,3 +22,4 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 - Main Cavern: South section (cols 25..27) heads North to row 22, turns West to col 20, then runs straight North along cols 18..20 toward northern exit.
 - Strength Boulder: Located at (17, 13) blocking the west side corridor. Main path bypasses on the east along cols 18..20.
 - Northeast Alcove: (25, 4) is a dead end; tile at (25, 5) is an impassable cliff/obstacle, not an exit warp.
+- Northern Cavern: Row 4 connects cols 19..25; true northern exit passage extends North/Northwest from row 4.
