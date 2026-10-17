@@ -1053,6 +1053,13 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 
 ## Items & Discoveries
 - Item Ball (Poké Ball) located on northwest elevated terrace at (2, 1). Accessible via stairs at (8, 3).
+## Discovered Coordinates & Layout (Verdanturf Side)
+- South Entrance Warp: Located at (29, 15), enters from Verdanturf Town (8..9, 1).
+- Path: Wooden bridge and cave corridor leading north from (29, 14).
+- Hiker Mike: [IN BATTLE]
+  - Location: (31, 13) facing West near south entrance.
+  - Pre-battle quote: "What do you call a wild man up in the mountains? A mountain man, right? So why don't they call a POKéMON in the mountains a mountain POKéMON?"
+  - Team: 3 Pokémon (Geodude ♂ Lv 16, ...).
 
 <hr>
 
