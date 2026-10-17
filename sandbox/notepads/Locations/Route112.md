@@ -53,4 +53,4 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Fiery Path Cave Entrance: Located at (10..11, 35) on Route 112 northwest cliff.
 
 4. Hiker Trent: [IN PROGRESS]
-   - Location: (14, 39) on west upper terrace.
+   - Location: (15, 39..40) facing North on west upper terrace.
