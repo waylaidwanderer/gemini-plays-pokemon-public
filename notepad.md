@@ -283,7 +283,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
   - Voltorb ♂ Lv 20 (Electric) - Moves: Spark, Rollout, SonicBoom, Selfdestruct [DEFEATED - OHKO'd by Leaf Blade]
   - Electrike ♂ Lv 20 (Electric) - Moves: Shock Wave, Thunder Wave, Quick Attack, Howl [DEFEATED - OHKO'd by Leaf Blade]
   - Magneton Lv 22 (Electric/Steel) - Moves: Shock Wave, SonicBoom, Supersonic, Thunder Wave [DEFEATED - 2HKO'd by Leaf Blade]
-  - Manectric ♂ Lv 24 (Electric) - Moves: Shock Wave, Quick Attack, Howl, Thunder Wave [ACTIVE - WATTSon'S ACE]
+  - Manectric ♂ Lv 24 (Electric) - Moves: Shock Wave, Quick Attack, Howl, Thunder Wave [DEFEATED - KO'd by Leaf Blade]
 - Rewards: Dynamo Badge (enables HM06 Rock Smash outside battle, increases Pokémon Speed stat) + TM34 Shock Wave!
 
 ## Battle Strategy
@@ -325,7 +325,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 3. [x] Defeat Bug Maniac Angelo.
 4. [x] Step on East Switch at (8, 9) to drop barrier to Wattson.
 5. [x] Defeat Guitarist Shawn.
-6. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
+6. [x] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
 ## Layout & Discovered Coordinates
 - Entrance: Door mat at (4..5, 20).
