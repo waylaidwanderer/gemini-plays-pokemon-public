@@ -1050,7 +1050,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 
 ## Overview
 A high-altitude mountain path located north of Mt. Chimney, blanketed in constantly falling volcanic ash. Connects Route 111 North to Fallarbor Town.
-- Wild Pokémon encountered: Spinda (Lv 16, defeated).
+- Wild Pokémon encountered: Spinda (Lv 16, defeated), Slugma (Lv 15, fled).
 
 ## Connection Points
 - East Exit: Route 111 North at (98, 9).
