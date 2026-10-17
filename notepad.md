@@ -1328,9 +1328,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Ambient NPC: Wandering boy in purple/striped shirt at (27, 42..43); ambient NPC (no battle or dialogue).
   - Acro Bike Rails & Decorative Boulder: Rails at cols 28 and 30. Unsmashable decorative boulder at (29, 47) sits on cliff edge; no southern passage through col 29.
 - Middle Tier & Camper Shane:
-  - Bounded on the north by horizontal jump ledge at row 46/47 (cols 21..25).
+  - Bounded on the north by horizontal jump ledge at row 48/49 (cols 18..26). This is a one-way ledge facing south; northward movement back to Upper Tier is impassable.
   - Camper Shane: Located at (24, 50) facing East.
-  - Access to Upper Tier: Open tall grass corridor at cols 18..20 completely bypasses the jump ledge.
 - Lower Canyon & Pokémaniac Steve:
   - Cols 15..22, rows 52..57. Steve at (20, 54).
   - Western stairs at (15, 49..50) ascend onto the elevated western plateau.
@@ -1347,6 +1346,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Western Canyon Nook (cols 16..22, rows 52..57): Contains Pokémaniac Steve at (20, 54) and Rock Smash boulder at (20, 57). Bounded by cliffs on west, south (row 58), and east (col 23 cliff wall).
   - The white stairs at (24..25, 57..58) down to Kindler Bernie are separated from this canyon by the col 23 cliff wall and CANNOT be accessed from col 22.
   - Correct route south to Meteor Falls: Return north to Camper Shane at (24, 50), then follow the eastern mountain trail south along cols 24..30 to reach the white staircase down to Kindler Bernie (28..29, 58..59), then continue southwest through the valley floor to Hiker Lucas (16, 67) and Meteor Falls (8, 63).
+- Hidden Items:
+  - Carbos: Found inside the rock at (20, 57) at the south end of the canyon.
+
 
 <hr>
 
@@ -1812,6 +1814,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Elixir x2 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x2 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
+- Carbos x1 (found in rock at 20, 57 on Route 114)
 - Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)

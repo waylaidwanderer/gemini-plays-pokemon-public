@@ -19,6 +19,7 @@
 - Elixir x2 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x2 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
+- Carbos x1 (found in rock at 20, 57 on Route 114)
 - Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
