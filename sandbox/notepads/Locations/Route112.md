@@ -52,7 +52,10 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Reward: ¥680 prize money, 638 total EXP. Sage evolving into Sceptile!
 - Fiery Path Cave Entrance: Located at (10..11, 35) on Route 112 northwest cliff.
 
-4. Hiker Trent: [IN PROGRESS]
-   - Location: (15, 39..40) facing North on west upper terrace.
+4. Hiker Trent: [DEFEATED]
+   - Location: (15, 39..40) on west upper terrace.
    - Pre-battle quote: "My legs are solid from pounding up and down the mountains. They're not going to buckle easily, friend!"
-   - Team: Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade), Geodude ♂ Lv 17 (OHKO'd by Sage's Leaf Blade), Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade), Pokémon #4 (4 Pokémon total).
+   - Defeat quote: "Ouch! My legs cramped up."
+   - Team: Geodude ♂ Lv 16, Geodude ♂ Lv 17, Geodude ♂ Lv 16 (all 3 OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥640 prize money.
+   - Outcome: Complete victory! All 4 Route 112 trainers defeated!

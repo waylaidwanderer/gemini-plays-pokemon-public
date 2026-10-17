@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared (Larry, Carol, Brice, Trent defeated). Total money: ¥25,200! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance to Fiery Path & Mt. Chimney! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared (all 4 trainers defeated). Total money: ¥25,840! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Enter and traverse Fiery Path to Route 113 & Fallarbor Town! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 36) [Held Item: None (consumed)] - Evolved on turn 5632! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (5/15), Quick Attack (27/30). HP: 108/109. Max HP: 109. Status: OK. Nature: Lonely. Ability: Overgrow.
