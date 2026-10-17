@@ -16,7 +16,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 4. [ ] Enter and traverse Fiery Path to reach northern Route 111 / Route 113.
 
 ## Discovered Coordinates & Layout
-- East entrance from Route 111: (35, 50) heading West.
+- East entrance from Route 111: (35, 50) heading West (connected to Route 111 at 0, 70).
 - Sandy road extends west along rows 50..51.
 - Rock cliff wall on north side, white picket fence and cliff on south side.
 - Trainer (Camper) visible at west end near (29, 49).
