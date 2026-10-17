@@ -94,3 +94,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - EXP gained: Sage ~1,000 EXP total across battle, Cobalu 634 EXP (grew to Lv 13, learned Metal Claw, forgot Mud-Slap).
    - Reward: ¥912 prize money.
    - Outcome: Complete victory! Total money: ¥31,708.
+## Verified Eastbound Traversal Route (Fallarbor Town to Route 111 North):
+- High-speed Mach Bike route verified!
+- West entrance: Row 10 from Fallarbor Town (cols 2..28).
+- Glass Workshop bypass: Drop south to row 11 (cols 28..36), then north up col 37 to row 6/row 2.
+- Northern bypass: Ride east along rows 2..3 above the col 48 rock formation to col 56.
+- Highway transition: Steer south past Northern Signpost (58, 4) down to row 9 (cols 60..61).
+- Eastern highway: Row 9 is a straight, wide-open highway running from col 61 past Rock Mound 1, Ash Grass Patch 1 (cols 80..84), and Eastern Signpost (85, 6) straight into Route 111 North at (98, 9).
