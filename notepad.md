@@ -919,10 +919,16 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "I don't waste any time being angry over a loss--I would rather train."
    - Team: Meditite ♀ Lv 17 (fainted to Sage's Leaf Blade).
    - Reward: ¥408 prize money.
-6. Bug Maniac Derek: [IN BATTLE]
+6. Bug Maniac Derek: [DEFEATED]
    - Location: (17, 11) facing North.
    - Pre-battle quote: "Once a BUG CATCHER! And now a BUG MANIAC! But my love for POKÉMON remains unchanged!"
-   - Team: Dustox ♂ Lv 16, Beautifly ♂ Lv 16.
+   - Defeat quote: "My ineptitude also remains unchanged."
+   - Team: Dustox ♂ Lv 16 (fainted to Sage's Quick Attack), Beautifly ♂ Lv 16 (OHKO'd by Sage's critical hit Quick Attack).
+   - Reward: ¥960 prize money.
+   - Outcome: Complete victory! Sage HP 68/87.
+7. Pokémon Breeder Lydia: [LOCATED]
+   - Location: (8, 10) pacing west-east along dirt road edge.
+   - Team: 6 Pokémon at Lv 11 (Swablu, Roselia, Wingull, Skitty, Marill, Shroomish).
 
 <hr>
 
