@@ -303,12 +303,12 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Floor Switch 2: Located at (3, 12) north of barrier 1.
 - Floor Switch 2: Located at (4, 12) in the south-central area.
 - Floor Switch 3: Located at (3, 9) in front of the Wattson corridor.
-- Floor Switch 4: Located at (7, 9) in the east area.
+- Floor Switch 4: Located at (6, 8) in the east area between Shawn and Angelo.
 - Battle Girl Vivian: Located at (1, 16) facing Up. [DEFEATED]
 - Guitarist Kirk: Located at (1, 13) facing Down. [DEFEATED]
-- Youngster Ben: Blue cap, located at (5, 10) facing Left.
-- Bug Catcher Angelo: Black hair, white shirt, located at (7, 10) facing Left.
-- Guitarist Shawn: Blonde hair, brown shirt, located at (7, 8) facing Down.
+- Youngster Ben: Blue cap, located at (5, 9) facing Left. [DEFEATED]
+- Bug Catcher Angelo: Black hair, white shirt, located at (6, 9) facing South.
+- Guitarist Shawn: Blonde hair, brown shirt, located at (6, 7) facing South.
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
 
