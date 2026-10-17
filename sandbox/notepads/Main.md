@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥11,600)! Wattson and Anna & Meg registered in Match Call. Third gym badge conquered! Next: Explore Route 117 toward Verdanturf Town, teach HM06 Rock Smash to Cobalu, and clear blocked paths! Party: Sage Lv 32 (OK, 84/84), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥11,600)! Wattson and Anna & Meg registered in Match Call. Third gym badge conquered! Next: Explore Route 117 toward Verdanturf Town (battling Pokémon Breeder Isaac), clear blocked paths with Cobalu's Rock Smash, and head to Rusturf Tunnel! Party: Sage Lv 32 (OK, 84/84), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 32) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 84/84. Stats: HP 84, Atk 53, Def 39, Sp.Atk 62, Sp.Def 57, Speed 75. Status: OK. Nature: Lonely. Ability: Overgrow.
