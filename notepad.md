@@ -212,7 +212,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 ## Key Buildings & Landmarks
 - Mauville City Signpost: Located in southwest lawn garden near the southern entrance.
 - Southern Residential House: Pink roof, yellow siding, purple door at row 12..13, col 19.
-- Pokémon Center: Red roof building (priority checkpoint and party heal).
+- Pokémon Center: Red roof building located at rows 4..6, cols 20..24. Front door at (22, 5), approached from (22, 6) facing North. Interior entrance warp at (7, 8); Nurse Joy counter approached from (7, 4) facing North. Checkpoint set and party fully restored!
 - Poké Mart: Blue roof building.
 - Rydel's Cycles: Bicycle shop where Rydel provides a free Mach Bike or Acro Bike!
 - Mauville Gym: Gym Leader Wattson (Electric-type specialist).
