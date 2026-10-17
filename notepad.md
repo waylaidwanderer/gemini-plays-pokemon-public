@@ -1081,8 +1081,9 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Sage HP 108/112 (PAR).
 - Northern Signpost: Located at (58, 4), read from (58, 5) facing North. Text: "TRAINER TIPS / You may register one of the KEY ITEMS in your BAG as SELECT. / Simply press SELECT to use the registered item."
-- Item Ball 2: Located at (53, 7) on elevated ledge above row 9.
-- Trainer: Camper Lawrence spotted around (51, 12).
+- Item Ball 2: Located at (53, 7) on elevated ledge above row 9, accessible from the west via cols 47..50 rows 7..8.
+- Trainer: Camper Lawrence located at (51, 11) facing South.
+- Trainers: Twins Tori & Tia located at (44..45, 3) facing South.
 - Wild Spinda Lv 16 encountered and defeated at (57, 6) with Quick Attack (earned 194 EXP).
 - Ash Mound 1: Located at (50, 12).
 
