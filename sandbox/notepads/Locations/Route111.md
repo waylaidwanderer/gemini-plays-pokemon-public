@@ -135,4 +135,4 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 1. Cooltrainer Wilton: [IN BATTLE]
    - Location: (9, 27) on Route 111 North sandy highway.
    - Pre-battle quote: "Show me how much you've toughened your POKéMON."
-   - Team: 3 Pokémon (Electrike ♂ Lv 17 defeated by Quick Attack, Wailmer ♂ Lv 17 defeated by Leaf Blade, Makuhita ♂).
+   - Team: 3 Pokémon (Electrike ♂ Lv 17 defeated by Quick Attack, Wailmer ♂ Lv 17 defeated by Leaf Blade, Makuhita ♂ Lv 17).
