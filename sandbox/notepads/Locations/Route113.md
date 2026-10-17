@@ -64,7 +64,8 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Battle initiated at (30, 6) facing West.
    - Pre-battle quote: "From out of the ashes I leap! Hiyah! I challenge thee!"
    - Defeat quote: "With honor I admit defeat!"
-   - Post-battle quote: "Yiiyaah! Witness the ninja technique of disguise!"
+   - Post-battle quote: "Yiiyaah! Witness the ancient ninja technique of POKéNAV registration!"
+   - Match Call: Registered!
    - Team: 3 Pokémon (Koffing #1 Lv 17, Koffing #2 Lv 17, Koffing #3 Lv 17 - all OHKO'd by Pursuit for 414 EXP each).
    - EXP gained: 1,242 EXP total for Sage.
    - Reward: ¥204 prize money.
