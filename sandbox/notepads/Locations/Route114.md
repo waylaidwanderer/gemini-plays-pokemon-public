@@ -77,14 +77,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Lower rock at cols 23..24, rows 40..41.
   - South passage along row 42 connects west route to east lawn.
   - Trainers: Twins spotted at cols 22..23, row 43; Boy in cap at (25, 41).
-- Route 114 Southern Passage & Mountain Trail:
-  - Row 42 connects west route (col 21) east to the lawn outside Lanette's house (col 27).
-  - Boy NPC: Located at (27, 41) facing North.
-  - Twins: Located at cols 24..25, row 43 facing North.
-  - Berry Patch: Located at col 31, rows 42..44 (3 ripe Persim berry plants).
-  - Breakable Rock: Smashable boulder at (29, 47). Bypassed freely via column 28 to the west.
-  - Mountain Canyon Path: Wide trail runs south along column 28 (rows 46..53+).
-  - Camper: Located at (22..23, 51) along western cliff.
+- Route 114 Main Mountain Trail:
+  - One-way jump ledge at col 26, row 48 hops west onto main lower route at (25, 48).
+  - Camper: Located at (22, 50) facing South next to western rock.
+  - Main mountain canyon runs south along cols 23..25 (rows 48..56+) toward Meteor Falls.
 - Lanette's House Interior:
   - Entrance mat at (5, 7), spawn at (5, 6).
   - Messy room filled with boxes, books, research papers, and a PC.
