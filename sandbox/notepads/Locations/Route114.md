@@ -71,16 +71,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
-7. Hiker Lucas: [BATTLING]
-   - Location: (30, 72) facing West. Engaged in Double Battle at (28, 72).
-   - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
-   - Team: Geodude Lv 18 (OHKO'd by Sage's Pursuit), Numel Lv 18 (OHKO'd by Sage's Pursuit).
-
-8. Picnicker Angelina: [BATTLING]
-   - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
-   - Pre-battle quote: "Have you made your POKéMON evolve very much?"
-   - Team: Lombre Lv 18 (+ 1 more).
-
 5. Sr. and Jr. Tyra & Ivy: [DEFEATED]
    - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
    - Format: 2-on-2 Double Battle.
@@ -102,6 +92,16 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Reward: ¥576 prize money.
    - Outcome: Complete victory! Total money: ¥35,400.
    - Match Call: Registered!
+
+7. Hiker Lucas: [BATTLING]
+   - Location: (30, 72) facing West. Engaged in Double Battle at (28, 72).
+   - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
+   - Team: Geodude Lv 18 (OHKO'd by Sage's Pursuit), Numel Lv 18 (OHKO'd by Sage's Pursuit). Both defeated!
+
+8. Picnicker Angelina: [BATTLING]
+   - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
+   - Pre-battle quote: "Have you made your POKéMON evolve very much?"
+   - Team: Lombre Lv 18 (currently on field, ~85% HP).
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
@@ -126,12 +126,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - White Staircase & Lower Valley Floor:
   - White staircase connects down to (24, 61) on the valley floor.
   - Kindler Bernie patrols to the east at (28..29, 58..59).
-  - Valley trail leads WEST from (24, 61) along rows 61..67 toward Hiker Lucas at (16, 67) and Meteor Falls entrance at (8, 63).
-
-
-
-
-
 
 ## Verified Canyon Route to Meteor Falls:
 - Canyon Access: The col 29 path from row 44 is impassable (blocked by boulder at 29, 47 and Acro rails). The proven route uses Western Stairs at (15, 49..50) onto the Western Terrace, descending col 12 -> row 55 -> col 17 -> row 60 to white stairs at (24..25, 58).

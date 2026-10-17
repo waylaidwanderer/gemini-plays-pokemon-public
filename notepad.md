@@ -1303,16 +1303,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
-7. Hiker Lucas: [BATTLING]
-   - Location: (30, 72) facing West. Engaged in Double Battle at (28, 72).
-   - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
-   - Team: Geodude Lv 18 (OHKO'd by Sage's Pursuit), Numel Lv 18 (OHKO'd by Sage's Pursuit).
-
-8. Picnicker Angelina: [BATTLING]
-   - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
-   - Pre-battle quote: "Have you made your POKéMON evolve very much?"
-   - Team: Lombre Lv 18 (+ 1 more).
-
 5. Sr. and Jr. Tyra & Ivy: [DEFEATED]
    - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
    - Format: 2-on-2 Double Battle.
@@ -1334,6 +1324,16 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Reward: ¥576 prize money.
    - Outcome: Complete victory! Total money: ¥35,400.
    - Match Call: Registered!
+
+7. Hiker Lucas: [BATTLING]
+   - Location: (30, 72) facing West. Engaged in Double Battle at (28, 72).
+   - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
+   - Team: Geodude Lv 18 (OHKO'd by Sage's Pursuit), Numel Lv 18 (OHKO'd by Sage's Pursuit). Both defeated!
+
+8. Picnicker Angelina: [BATTLING]
+   - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
+   - Pre-battle quote: "Have you made your POKéMON evolve very much?"
+   - Team: Lombre Lv 18 (currently on field, ~85% HP).
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
@@ -1358,12 +1358,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - White Staircase & Lower Valley Floor:
   - White staircase connects down to (24, 61) on the valley floor.
   - Kindler Bernie patrols to the east at (28..29, 58..59).
-  - Valley trail leads WEST from (24, 61) along rows 61..67 toward Hiker Lucas at (16, 67) and Meteor Falls entrance at (8, 63).
-
-
-
-
-
 
 ## Verified Canyon Route to Meteor Falls:
 - Canyon Access: The col 29 path from row 44 is impassable (blocked by boulder at 29, 47 and Acro rails). The proven route uses Western Stairs at (15, 49..50) onto the Western Terrace, descending col 12 -> row 55 -> col 17 -> row 60 to white stairs at (24..25, 58).
@@ -1819,11 +1813,11 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 18 (OK, 50/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 18) - Evolved from Lotad on turn 4926! Level 18 on turn 6343! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 54/54. Stats: HP 54, Atk 26, Def 23, Sp.Atk 24, Sp.Def 31, Speed 26. Status: OK.
+1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
+2. LILZ (Lombre ♀, Level 18) - Evolved from Lotad on turn 4926! Level 18 on turn 6343! Moves: Astonish (27/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 50/54. Stats: HP 54, Atk 26, Def 23, Sp.Atk 24, Sp.Def 31, Speed 26. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 
@@ -1876,6 +1870,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 9. [x] Continue north along Route 110 into Mauville City.
 
 ## Engine / Harness Mechanics Verified
+- Mach Bike In-Place Turning: Tapping a directional button while stationary on the Mach Bike turns the player in place without taking a step. On foot, pressing a direction takes a step immediately.
+- Route 114 Topology & Navigation: The col 29 eastern path from row 44 is blocked at (29, 47) by a stationary unsmashable boulder and Acro Bike rails. The correct progression route to the lower valley floor and Meteor Falls uses the Western Stairs at (15, 49..50) -> Western Terrace col 12 -> row 55 -> col 17 -> row 60 dirt highway -> white staircase at (24, 60) down to (24, 61).
 - Soft Loamy Soil Collision: Soft loamy soil tiles (empty or planted) are impassable terrain in Gen 3. Walking into an empty soil tile triggers the berry planting prompt ("Want to plant a BERRY?"). To navigate around berry patches, route along adjacent grass/sand tiles (e.g. row 6).
 - Map transitions/warps automatically abort pending movement sequences.
 - Button sequences must place `sleep` strictly between button taps (no leading/trailing sleeps).
@@ -1939,7 +1935,6 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
-- Mach Bike In-Place Turning: Tapping a directional button while stationary on the Mach Bike turns the player in place without taking a step. On foot, pressing a direction takes a step immediately.
-- Route 114 Topology & Navigation: The col 29 eastern path from row 44 is blocked at (29, 47) by a stationary unsmashable boulder and Acro Bike rails. The correct progression route to the lower valley floor and Meteor Falls uses the Western Stairs at (15, 49..50) -> Western Terrace col 12 -> row 55 -> col 17 -> row 60 dirt highway -> white staircase at (24, 60) down to (24, 61).
+
 
 <hr>
