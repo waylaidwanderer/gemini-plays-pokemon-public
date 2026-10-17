@@ -342,14 +342,6 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Guitarist Shawn: (7, 7) facing South. [DEFEATED]
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
-## Exit Navigation Mechanics
-- In MAGENTA barrier state (active after pressing East Switch), the horizontal barrier at (4, 14) is DOWN.
-- To exit without reactivating barriers, bypass Switch 2 at (4, 12):
-  - Walk south down central hallway to (4, 11).
-  - Step East to (5, 11) to avoid (4, 12).
-  - Walk south to (5, 13).
-  - Step West to (4, 13).
-  - Walk straight south through (4, 14) to the entrance door mat at (4, 20).
 
 <hr>
 
