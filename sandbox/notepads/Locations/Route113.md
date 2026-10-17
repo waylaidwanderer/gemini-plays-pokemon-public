@@ -63,5 +63,5 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Location: Ambushed from camouflaged mound at (29, 6), west of Glass Workshop.
    - Battle initiated at (30, 6) facing West.
    - Pre-battle quote: "From out of the ashes I leap! Hiyah! I challenge thee!"
-   - Team: 3 Pokémon (Koffing #1 Lv 17 OHKO'd by Pursuit for 414 EXP; Koffing #2 Lv 17 in battle; 1 reserve).
+   - Team: 3 Pokémon (Koffing #1 Lv 17 OHKO'd by Pursuit for 414 EXP; Koffing #2 Lv 17 OHKO'd by Pursuit for 414 EXP; Koffing #3 entering).
    - Strategy: Sage Lv 37 uses Pursuit (Special Dark in Gen 3) to exploit Koffing's low Sp.Def for OHKOs.
