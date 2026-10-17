@@ -1256,7 +1256,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Roar Gentleman & Poochyena:
   - Location: (19, 11) along the main road bend, with his Poochyena at (19, 12).
   - Talkable from (20, 11) facing West.
-  - Gift: [OBTAINED] Gifts TM05 Roar!
+  - Gift: [OBTAINED] TM05 Roar received from the gentleman!
 - Main Road & Ponds:
   - Highway runs west along row 11 to col 20, then bends south along cols 20..21.
   - Ponds located on both sides (north pond at rows 5..8, southwest pond at rows 13..17, southeast pond at rows 13..17).
