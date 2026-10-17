@@ -940,7 +940,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 2. Picnicker Carol: [IN PROGRESS]
    - Location: (22, 46) on Route 112 northern avenue.
    - Pre-battle quote: "When you're out on a picnic, why, you simply have to sing! Come on, sing with me!"
-   - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre.
+   - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre ♀ Lv 17.
 
 <hr>
 
