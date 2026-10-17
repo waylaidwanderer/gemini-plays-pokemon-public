@@ -139,3 +139,8 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: 3 Pokémon: Electrike ♂ Lv 17 (OHKO'd by Quick Attack), Wailmer ♂ Lv 17 (OHKO'd by Leaf Blade), Makuhita ♂ Lv 17 (OHKO'd by Leaf Blade).
    - Reward: ¥816 prize money.
    - Outcome: Complete victory! Sage grew to Lv 37 (HP 108/112).
+## Discovered Coordinates & Layout (North Section Continued)
+- Ledge bypass at row 26: Cols 8..9 open.
+- Ledge at row 23: Left ledge (cols 7..11), right ledge (cols 14..18). Open sand gap at cols 11..13.
+- Path continues north to row 20, then curves east around tree grove (cols 14..17).
+- NPC standing at (13, 20) facing North into a tree at (13, 19).
