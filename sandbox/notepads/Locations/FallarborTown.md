@@ -50,5 +50,5 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - Professor Cozmo's House Interior:
   - Entrance mat at (3, 8), spawn at (3, 7).
   - Central table and chairs at cols 4..5, rows 5..6.
-  - Professor Cozmo's wife standing at (6, 6), talkable from (6, 7) facing North.
+  - Professor Cozmo's wife standing at (5, 6), talkable from (6, 6) facing West.
   - Story Event: Explains Professor Cozmo was taken by Team Magma to Meteor Falls on Route 114.

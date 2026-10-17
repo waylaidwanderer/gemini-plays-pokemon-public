@@ -186,7 +186,7 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - Professor Cozmo's House Interior:
   - Entrance mat at (3, 8), spawn at (3, 7).
   - Central table and chairs at cols 4..5, rows 5..6.
-  - Professor Cozmo's wife standing at (6, 6), talkable from (6, 7) facing North.
+  - Professor Cozmo's wife standing at (5, 6), talkable from (6, 6) facing West.
   - Story Event: Explains Professor Cozmo was taken by Team Magma to Meteor Falls on Route 114.
 
 <hr>
@@ -1763,7 +1763,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 4. [x] Advance north along Route 111 to Route 112.
 5. [x] Pass through Fiery Path around Mt. Chimney.
 6. [x] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
-7. [ ] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center. (Healing completed! Visiting Cozmo next!)
+7. [x] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
