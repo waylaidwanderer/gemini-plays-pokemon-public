@@ -1313,7 +1313,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [x] Clear Rusturf Tunnel shortcut and collect Max Ether at (30, 2).
 
 ## Progression Checklist - Phase 8: Route 111, Route 112, Mt. Chimney & Fallarbor Town (Active)
-1. [ ] Return east through Verdanturf Town and Route 117 to Mauville City.
+1. [x] Return east through Verdanturf Town and Route 117 to Mauville City.
 2. [ ] Travel north from Mauville City onto Route 111.
 3. [ ] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
 4. [ ] Advance north along Route 111 to Route 112.
