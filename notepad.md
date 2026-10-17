@@ -1223,6 +1223,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 ## Discovered Coordinates & Layout
 - Entrance from Fallarbor Town: West exit of Fallarbor Town along row 10.
 
+- East Entrance from Fallarbor Town: Connects at (37, 10).
+- Entry corridor runs west along row 10 between garden plots.
+- Route 114 signpost visible at northwest (around x=31, y=7).
 
 <hr>
 
@@ -1672,7 +1675,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Fallarbor Town explored (healed, Lanette met, Cozmo's house visited). Total money: ¥31,708! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Advance onto Route 114 toward Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Entered Route 114! Fallarbor Town fully explored. Party at 100% HP/PP. Total money: ¥31,708! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Traverse Route 114, visit Fossil Maniac & Lanette, head to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.

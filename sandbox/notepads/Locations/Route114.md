@@ -14,3 +14,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 
 ## Discovered Coordinates & Layout
 - Entrance from Fallarbor Town: West exit of Fallarbor Town along row 10.
+
+- East Entrance from Fallarbor Town: Connects at (37, 10).
+- Entry corridor runs west along row 10 between garden plots.
+- Route 114 signpost visible at northwest (around x=31, y=7).
