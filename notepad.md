@@ -886,6 +886,9 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "MEG: Oh, no! I'm sorry, ANNA! I let you down..."
    - Post-battle: "ANNA: We can't take this lying down! You will come back, won't you?"
    - Reward: ¥544 prize money. Lilz grew to Lv 15! Registered in PokéNav Match Call.
+2. Pokémon Breeder Isaac: Located at (33, 11) facing North.
+   - Pre-battle quote: "Listen, could I get you to battle the POKéMON I'm raising?"
+   - Team (6 Pokémon): Whismur ♂ Lv 11 (lead), plus 5 others.
 
 <hr>
 
