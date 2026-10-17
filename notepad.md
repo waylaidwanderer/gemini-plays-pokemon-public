@@ -1329,12 +1329,14 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Location: (30, 72) facing West. Engaged in Double Battle at (28, 72).
    - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
    - Team: Geodude Lv 18 (OHKO'd by Sage's Pursuit), Numel Lv 18 (OHKO'd by Sage's Pursuit).
+   - Defeat quote: "The mountains are unforgiving..."
    - Outcome: Defeated in Double Battle!
 
 8. Picnicker Angelina: [DEFEATED]
    - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
    - Pre-battle quote: "Have you made your POKéMON evolve very much?"
    - Team: Lombre Lv 18 (OHKO'd by critical Pursuit), Marill Lv 18 (OHKO'd by Sage's Pursuit).
+   - Defeat quote: "Oh, I see. That's good to know."
    - Outcome: Defeated in Double Battle!
 
 ## Route 114 Layout & Spatial Topology (Verified)
