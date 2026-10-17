@@ -70,5 +70,5 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - EXP gained: 1,242 EXP total for Sage.
    - Reward: ¥204 prize money.
    - Outcome: Complete victory! Total money: ¥30,492. Sage HP 97/112 (PAR).
-- Ash Mound 2: Located on upper terrace around (20, 4).
-- Trainer: Boy with blue cap located around (18, 12) facing South.
+- Ash Mound 2: Located at (20, 5).
+- Trainer: Camper/Boy with blue cap located at (20, 12) facing South.
