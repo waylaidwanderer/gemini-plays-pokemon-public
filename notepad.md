@@ -867,7 +867,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
 3. [ ] Harvest ripe berries from berry patches.
-4. [ ] Battle Route 117 trainers for EXP (Anna & Meg defeated).
+4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac defeated).
 5. [ ] Reach Verdanturf Town at the western terminus.
 
 ## Topography & Discovered Coordinates
@@ -886,9 +886,10 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "MEG: Oh, no! I'm sorry, ANNA! I let you down..."
    - Post-battle: "ANNA: We can't take this lying down! You will come back, won't you?"
    - Reward: ¥544 prize money. Lilz grew to Lv 15! Registered in PokéNav Match Call.
-2. Pokémon Breeder Isaac: Located at (33, 11) facing North.
+2. Pokémon Breeder Isaac: [DEFEATED]
+   - Location: (33, 11) facing North.
    - Pre-battle quote: "Listen, could I get you to battle the POKéMON I'm raising?"
-   - Team (6 Pokémon): Whismur ♂ Lv 11 (fainted), Taillow ♂ Lv 11 (fainted), Zigzagoon ♂ Lv 11 (fainted), Aron ♂ Lv 11 (fainted), Poochyena ♂ Lv 11, plus 1 other.
+   - Team (6 Pokémon): Whismur ♂ Lv 11 (fainted), Taillow ♂ Lv 11 (fainted), Zigzagoon ♂ Lv 11 (fainted), Aron ♂ Lv 11 (fainted), Poochyena ♂ Lv 11 (fainted), Makuhita ♂ Lv 11 (fainted). All swept by Sage's Leaf Blade!
 
 <hr>
 
