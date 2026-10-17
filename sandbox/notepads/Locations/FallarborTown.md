@@ -45,4 +45,5 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - Professor Cozmo's House (Yellow Roof / Telescope):
   - Located at cols 5..8, rows 14..16 in southwest Fallarbor Town, east of the crater.
   - Front door at (6, 16), entered from (6, 17) facing North.
+  - Approach route: Column 4 west side is blocked by trees at (4, 17). Approach from east via column 9 down to row 17, then west along row 17 (cols 9->8->7->6) directly to door.
   - Surveying device / telescope mounted on roof at cols 6..7, row 13.

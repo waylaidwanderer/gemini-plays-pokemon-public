@@ -87,6 +87,8 @@
 - Menu Input Timing: When transitioning between sub-menus (e.g. PokéNav to Start menu, or Bag to Party), allow ~300-400ms for UI animations to settle before sending navigation presses.
 - Double Battle Priority & Targeting: Quick Attack (+1 priority) executes before normal moves regardless of paralysis speed reduction. When a single opponent remains in a double battle, single-target attacks automatically default target to that opponent.
 - Mid-Battle Move Replacement: When learning a move upon level up with 4 moves, selecting No to "Stop learning" and Yes to "Delete a move" opens the vertical Battle Moves list. HM moves (Cut, Rock Smash) cannot be deleted; regular moves (like Mud-Slap) can be replaced.
+- Pokémon Center Nurse Joy Healing: Opening text requires A presses to advance to the YES/NO prompt. Never press B near the prompt as B selects NO and cancels healing. Allow ~4.0s for the healing animation and jingle before pressing B to dismiss completion text.
+- File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.

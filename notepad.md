@@ -181,6 +181,7 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - Professor Cozmo's House (Yellow Roof / Telescope):
   - Located at cols 5..8, rows 14..16 in southwest Fallarbor Town, east of the crater.
   - Front door at (6, 16), entered from (6, 17) facing North.
+  - Approach route: Column 4 west side is blocked by trees at (4, 17). Approach from east via column 9 down to row 17, then west along row 17 (cols 9->8->7->6) directly to door.
   - Surveying device / telescope mounted on roof at cols 6..7, row 13.
 
 <hr>
@@ -1728,6 +1729,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Menu Input Timing: When transitioning between sub-menus (e.g. PokéNav to Start menu, or Bag to Party), allow ~300-400ms for UI animations to settle before sending navigation presses.
 - Double Battle Priority & Targeting: Quick Attack (+1 priority) executes before normal moves regardless of paralysis speed reduction. When a single opponent remains in a double battle, single-target attacks automatically default target to that opponent.
 - Mid-Battle Move Replacement: When learning a move upon level up with 4 moves, selecting No to "Stop learning" and Yes to "Delete a move" opens the vertical Battle Moves list. HM moves (Cut, Rock Smash) cannot be deleted; regular moves (like Mud-Slap) can be replaced.
+- Pokémon Center Nurse Joy Healing: Opening text requires A presses to advance to the YES/NO prompt. Never press B near the prompt as B selects NO and cancels healing. Allow ~4.0s for the healing animation and jingle before pressing B to dismiss completion text.
+- File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
@@ -1759,6 +1762,5 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
-
 
 <hr>
