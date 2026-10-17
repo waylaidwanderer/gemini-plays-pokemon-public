@@ -82,3 +82,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Lower Plateau: (9..15, 44..50). South dead-end pocket at (8..14, 50..54) against row 54 ledge.
   - Western Stairs & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to small terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Cliff overlook at (6, 52) is blocked by impassable rock spikes at row 53; mud slopes on west require Mach Bike to ride up. Secret base indentation at (9, 47).
   - Northern Riverbank Alcove: Smashable rock at (12, 43) broken with Rock Smash. Path leads north along column 12 to (11, 37) containing Protein [COLLECTED].
+- Route 114 Southeastern Stairs & Southern Canyon:
+  - Pokémaniac Steve is located at (20, 54) in the tall grass canyon.
+  - Southeastern Stairs: Located at cols 23..24, rows 58..59. Descends from the canyon/plateau south into the lower valley leading to Meteor Falls.
+  - Wild Pokémon in Route 114 tall grass: Lombre (Lv 16).
