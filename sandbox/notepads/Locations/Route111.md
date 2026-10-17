@@ -24,7 +24,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - South Entrance from Mauville City: (15, 138) heading North.
 - Cobblestone highway runs north along column 15.
 ## Trainers (South Section)
-1. Aroma Lady Celina: [IN BATTLE]
+1. Aroma Lady Celina: [DEFEATED]
    - Location: (20, 132) facing West along the cobblestone bend.
    - Pre-battle quote: "Show me how to put a little excitement into my life."
-   - Team: Roselia ♀ Lv 18.
+   - Team: Roselia ♀ Lv 18 (OHKO'd by Sage's Quick Attack).
+   - Reward: ¥720 prize money.
+   - Outcome: Complete victory! Sage HP 89/89.

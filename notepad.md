@@ -795,10 +795,12 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - South Entrance from Mauville City: (15, 138) heading North.
 - Cobblestone highway runs north along column 15.
 ## Trainers (South Section)
-1. Aroma Lady Celina: [IN BATTLE]
+1. Aroma Lady Celina: [DEFEATED]
    - Location: (20, 132) facing West along the cobblestone bend.
    - Pre-battle quote: "Show me how to put a little excitement into my life."
-   - Team: Roselia ♀ Lv 18.
+   - Team: Roselia ♀ Lv 18 (OHKO'd by Sage's Quick Attack).
+   - Reward: ¥720 prize money.
+   - Outcome: Complete victory! Sage HP 89/89.
 
 <hr>
 
@@ -1270,7 +1272,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥17,240
+- Money: ¥17,960
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary
