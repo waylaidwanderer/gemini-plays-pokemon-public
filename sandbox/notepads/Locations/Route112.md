@@ -11,7 +11,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 
 ## Progression Checklist - Route 112
 1. [x] Enter Route 112 from Route 111.
-2. [ ] Battle Route 112 trainers for EXP.
+2. [x] Battle Route 112 trainers for EXP (Larry, Carol, Brice, Trent defeated).
 3. [x] Locate Cable Car station (check for Team Magma presence).
 4. [ ] Enter and traverse Fiery Path to reach northern Route 111 / Route 113.
 
