@@ -926,7 +926,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Team: Dustox ♂ Lv 16 (fainted to Sage's Quick Attack), Beautifly ♂ Lv 16 (OHKO'd by Sage's critical hit Quick Attack).
    - Reward: ¥960 prize money.
    - Outcome: Complete victory! Sage HP 68/87.
-7. Pokémon Breeder Lydia: [IN BATTLE]
+7. Pokémon Breeder Lydia: [DEFEATED - REGISTERED IN MATCH CALL]
    - Location: (8, 10) pacing west-east along dirt road edge.
    - Pre-battle quote: "Please, allow me to evaluate if you have raised your POKÉMON properly."
    - Team: 6 Pokémon at Lv 11:
@@ -935,7 +935,9 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
      3. Roselia ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
      4. Shroomish ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
      5. Marill ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
-     6. Skitty ♀ Lv 11 (in battle)
+     6. Skitty ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
+   - Reward: ¥440 prize money.
+   - Outcome: Complete victory! All 6 Pokémon swept by Sage's Quick Attack.
 
 <hr>
 
@@ -1166,7 +1168,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥16,160
+- Money: ¥16,600
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary
