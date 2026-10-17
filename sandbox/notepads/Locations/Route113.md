@@ -18,5 +18,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 ## Trainers
 - None encountered yet.
 - Eastern Signpost: Located at (85, 6), read from (85, 7) facing North. Text: "ROUTE 113 / -> ROUTE 111".
-- Item Ball: Located at (79, 6) in the ash clearing west of the first ash grass patch.
-- Ash Grass Patch 1: Located at cols 80..84, rows 4..9.
+- Item Ball: Located at (79, 6) on the upper ledge west of col 80. Ledge at col 80 faces east (one-way dropoff), so the item ball must be accessed from the upper path to the west.
+- Upper Trainer: Trainer spotted on upper level around (73, 2) in the trees.
+- Ash Grass Patch 1: Located at cols 80..84, rows 6..11. Walking through ash grass knocks off the ash.
+- Main Path West: Lower corridor continues west along rows 9..11 beneath the row 8 ledge.
