@@ -785,11 +785,15 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Route 111 South Signpost: Directional signpost.
 
 ## Progression Checklist - Route 111
-1. [ ] Enter Route 111 from Mauville City.
+1. [x] Enter Route 111 from Mauville City.
 2. [ ] Defeat the Winstrate Family (Victor, Victoria, Vivi, Vicky) outside their house.
 3. [ ] Enter Winstrate House and receive Macho Brace from Victoria.
 4. [ ] Battle Gabby & Ty (Double Battle).
 5. [ ] Take the western fork onto Route 112 toward Mt. Chimney / Fiery Path.
+
+## Discovered Coordinates & Layout (South Section)
+- South Entrance from Mauville City: (15, 138) heading North.
+- Cobblestone highway runs north along column 15.
 
 <hr>
 
@@ -1341,7 +1345,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Progression Checklist - Phase 8: Route 111, Route 112, Mt. Chimney & Fallarbor Town (Active)
 1. [x] Return east through Verdanturf Town and Route 117 to Mauville City.
-2. [ ] Travel north from Mauville City onto Route 111.
+2. [x] Travel north from Mauville City onto Route 111.
 3. [ ] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
 4. [ ] Advance north along Route 111 to Route 112.
 5. [ ] Pass through Fiery Path around Mt. Chimney.
