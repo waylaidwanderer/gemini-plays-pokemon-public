@@ -441,6 +441,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 
 ## Overview
 A majestic cave formed by meteorite impacts, famous for its roaring waterfall and rare Dragon-type Pokémon. Connects Route 114 in the north to Route 115 in the west.
+- Wild Pokémon encountered: Solrock (Lv 18, fled).
 
 ## Connection Points
 - Route 114 Entrance: Connects to southern Route 114 at (8, 63).
@@ -470,6 +471,7 @@ A majestic cave formed by meteorite impacts, famous for its roaring waterfall an
 - Rescue Professor Cozmo.
 - Confront Team Magma and retrieve or witness the Meteorite theft.
 - Head to Mt. Chimney to stop Team Magma's volcanic eruption plot.
+- Professor Cozmo confirms Team Magma tricked him into guiding them to Meteor Falls, stole his Meteorite, and fled to Mt. Chimney. Cozmo returns to Fallarbor Town.
 
 
 <hr>
