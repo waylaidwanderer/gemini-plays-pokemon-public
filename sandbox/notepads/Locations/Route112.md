@@ -34,7 +34,9 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Team: Nuzleaf ♂ Lv 18 (defeated by Sage's Fury Cutter).
    - Reward: ¥288 prize money, 543 EXP.
 - Match Call: Received call from Pokémon Breeder Lydia at (28, 50) after Larry's battle.
-2. Picnicker Carol: [IN PROGRESS]
+2. Picnicker Carol: [DEFEATED]
    - Location: (22, 46) on Route 112 northern avenue.
    - Pre-battle quote: "When you're out on a picnic, why, you simply have to sing! Come on, sing with me!"
-   - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre ♀ Lv 17.
+   - Defeat quote: "Oh, you're so strong!"
+   - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre ♀ Lv 17 (OHKO'd by Sage's Leaf Blade, 513 EXP).
+   - Reward: ¥272 prize money, 727 total EXP.
