@@ -304,20 +304,18 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Floor Switch 3: Located at (7, 8) in the east area between Shawn and Angelo.
 - Battle Girl Vivian: Located at (1, 16) facing Up. [DEFEATED]
 - Guitarist Kirk: Located at (1, 13) facing Down. [DEFEATED]
-- Youngster Ben: Blue cap, located at (5, 9) facing Left. [DEFEATED]
-- Bug Catcher Angelo: Black hair, white shirt, located at (6, 9) facing South.
-- Guitarist Shawn: Blonde hair, brown shirt, located at (6, 7) facing South.
+- Youngster Ben: Blue cap, located at (5, 10) facing Left. [DEFEATED]
+- Bug Catcher Angelo: Black hair, white shirt, located at (7, 10) facing North. [ENGAGED]
+- Guitarist Shawn: Blonde hair, brown shirt, located at (7, 7) facing South.
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
 
 ## Gym Puzzle True Solution
-1. The Wattson corridor (rows 5-7, cols 4-5) is blocked by a BLUE barrier by default.
-2. Toggling to MAGENTA deactivates the blue corridor barrier, but activates a horizontal magenta barrier at row 10, cutting off north-south passage along column 4.
-3. Therefore, the toggle to Magenta must be executed from WITHIN the upper chamber!
-4. The Upper Chamber Switch (Floor Switch 4) is located at (7, 9) on the east side near Guitarist Shawn and Bug Catcher Angelo.
-5. Route: From central area, walk south to row 11 at (4, 11), walk east along row 11 to (7, 11), then north to (7, 9).
-6. Defeat Shawn and Angelo, activate Switch 4 at (7, 9) to toggle to Magenta.
-7. With Magenta active and player already in upper chamber, walk west along row 9 to (4, 9), then straight north into the open corridor to Gym Leader Wattson!
+1. Defeat Kirk & Vivian in southwest, Ben in center.
+2. From center, navigate to row 12 at (7, 12), and walk north up column 7 to reach the Eastern Chamber.
+3. Defeat Bug Catcher Angelo at (7, 10) and Guitarist Shawn at (7, 7).
+4. Activate the East Switch at (7, 8) to toggle the gym to Magenta, deactivating the barrier across Wattson's corridor.
+5. Walk west along row 8 into the central corridor at (4, 8), then straight north to challenge Gym Leader Wattson at (4, 3)!
 
 <hr>
 
