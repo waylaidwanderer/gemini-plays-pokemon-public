@@ -116,6 +116,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 11. Picnicker Irene: [DEFEATED]
     - Location: (10, 82) facing East near the Route 112 signpost.
     - Pre-battle quote: "I don't know where you're going, but would you like to battle?"
+    - Defeat quote: "Oh, you're disgustingly good"
     - Team: Shroomish ♀ Lv 17 (OHKO'd by Sage's Quick Attack), Marill ♀ Lv 17 (OHKO'd by Sage's Leaf Blade).
     - Reward: ¥272 prize money.
     - Outcome: Complete victory! Sage HP 91/92.
