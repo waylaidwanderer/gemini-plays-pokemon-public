@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Knuckle Badge & Dynamo Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, obtained Mach Bike, obtained HM06 Rock Smash, and defeated Wally. Solved Mauville Gym barrier puzzle, defeated all gym trainers, and DEFEATED Gym Leader Wattson (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge and TM34 Shock Wave! Next: Heal at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and clear rocks with HM06 Rock Smash! Party: Sage Lv 32 (PAR, 20/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! In-game dialogue active: receiving Dynamo Badge and TM34 Shock Wave from Wattson! Next: Confirm overworld return, record prize money, heal at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and use HM06 Rock Smash! Party: Sage Lv 32 (PAR, 20/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 32) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 20/84. Stats: HP 84, Atk 53, Def 39, Sp.Atk 62, Sp.Def 57, Speed 75. Status: PAR. Nature: Lonely. Ability: Overgrow.
