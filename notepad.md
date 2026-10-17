@@ -1302,23 +1302,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
-## Route 114 Layout & Spatial Topology (Verified)
-- Upper Tier (rows 40..45):
-  - Sr. and Jr. Tyra & Ivy: Located at (23..24, 44) facing South. Double Battle format (Graveler Lv 20 & Roselia Lv 20).
-  - Wandering Trainer: Spotted north around (27..28, 41..42).
-  - Berry Patch: 3 ripe Persim berry plants at col 31, rows 42..44.
-  - Acro Bike Rails & Smashable Rock: Rails at cols 28 and 30, smashable rock at (29, 47).
-  - Eastern Corridor: Behind the smashable rock at (29, 47), an open corridor leads south along cols 28..30 past a Secret Base indent at (30, 52) straight to the white staircase at rows 58..59 descending into the Meteor Falls valley!
-- Middle Tier & Camper Shane:
-  - Bounded on the north by horizontal jump ledge at row 46/47 (cols 21..25).
-  - Camper Shane: Located at (24, 50) facing East.
-  - Access to Upper Tier: Open tall grass corridor at cols 18..20 completely bypasses the jump ledge.
-- Lower Canyon & Pokémaniac Steve:
-  - Cols 15..22, rows 52..57. Steve at (20, 54).
-  - Western stairs at (15, 49..50) ascend onto the elevated western plateau.
-- Elevated Western Plateau:
-  - Northern Riverbank Alcove: Smashable rock at (12, 43) broken; path leads north along river to (11, 37) containing Protein [COLLECTED].
-  - Western Terrace & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Overlook at (6, 52) is blocked by impassable rock spikes at row 53.
 5. Sr. and Jr. Tyra & Ivy: [DEFEATED]
    - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
    - Format: 2-on-2 Double Battle.
@@ -1330,6 +1313,25 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Reward: ¥640 prize money.
    - Match Call: Registered!
    - Outcome: Complete victory! Total money: ¥34,824.
+
+## Route 114 Layout & Spatial Topology (Verified)
+- Upper Tier (rows 40..45):
+  - Sr. and Jr. Tyra & Ivy: Located at (23..24, 44) facing South. Double Battle format (Graveler Lv 20 & Roselia Lv 20).
+  - Wandering Trainer: Spotted north around (27..28, 41..42).
+  - Berry Patch: 3 ripe Persim berry plants at col 31, rows 42..44.
+  - Ambient NPC: Wandering boy in purple/striped shirt at (27, 42..43); ambient NPC (no battle or dialogue).
+  - Acro Bike Rails & Decorative Boulder: Rails at cols 28 and 30. Unsmashable decorative boulder at (29, 47) sits on cliff edge; no southern passage through col 29.
+- Middle Tier & Camper Shane:
+  - Bounded on the north by horizontal jump ledge at row 46/47 (cols 21..25).
+  - Camper Shane: Located at (24, 50) facing East.
+  - Access to Upper Tier: Open tall grass corridor at cols 18..20 completely bypasses the jump ledge.
+- Lower Canyon & Pokémaniac Steve:
+  - Cols 15..22, rows 52..57. Steve at (20, 54).
+  - Western stairs at (15, 49..50) ascend onto the elevated western plateau.
+- Elevated Western Plateau:
+  - Northern Riverbank Alcove: Smashable rock at (12, 43) broken; path leads north along river to (11, 37) containing Protein [COLLECTED].
+  - Western Terrace & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Overlook at (6, 52) is blocked by impassable rock spikes at row 53.
+
 
 
 <hr>
