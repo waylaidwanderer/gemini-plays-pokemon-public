@@ -592,6 +592,10 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Pre-battle Quote: "Could I see your POKÉMON? Just one look, please?"
    - Team: Lombre ♂ Lv 14 (fainted via Leaf Blade), Nuzleaf ♂ Lv 14 (fainted via Fury Cutter).
    - Outcome: Complete victory! Earned ¥840 prize money. Sage grew to Lv 30!
+4. Guitarist Joseph: [IN PROGRESS]
+   - Location: (36, 40) on northern Route 110, facing West.
+   - Pre-battle Quote: "Okay! Full-throttle time! If you can't groove, you get left behind!"
+   - Team: In progress.
 
 <hr>
 
