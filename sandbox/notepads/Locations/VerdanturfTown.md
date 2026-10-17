@@ -22,8 +22,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 ## Discovered Coordinates & Layout
 - Arrival from Route 117: (17, 9) facing West.
-- Town Signpost: Located at (14, 5).
 - Southern Residential Houses: Green tiled roofs along rows 10..14, separated by street at cols 13..14.
 - Battle Tent: Northwest domed building (cols 2..6, rows 2..7) with red/white canopy and blue roof. Entrance door at (3, 7). Inside: Scott and attendants. Signpost at (2..3, 7).
-- Pokémon Center: Red-roofed building directly east of Battle Tent (cols 8..12, rows 3..6). Glass sliding doors around (9..10, 6) approached from row 7 facing North.
-- Green-capped NPC outside Pokémon Center at (6, 5).
+- Poké Mart: Blue-roofed building attached to the west of the Pokémon Center (cols 11..14, rows 2..3). Entrance door at (12..13, 3).
+- Pokémon Center: Red-roofed building in northeast complex (cols 15..18, rows 2..3). Entrance door at (16..17, 3), approached from row 4 facing North. Checkpoint set!
+- Rusturf Tunnel Entrance: Located at (9, 1) in the northern cliff face, approached from (9, 2) past the signpost at (8, 3) and girl at (9, 2).
+- Town Signposts: Signpost at (15, 6) in eastern plaza, and signpost at (8, 3) near tunnel entrance.
+- Green-capped NPC outside Battle Tent at (6, 5).
