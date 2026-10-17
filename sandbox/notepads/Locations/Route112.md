@@ -27,8 +27,8 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Upper Mountain Terrace: Begins at row 39; spinning Hiker at (14..15, 38).
 - Upper Direction Signpost: Located at (22, 37), approached from (22, 38) facing North:
   "MT. CHIMNEY CABLE CAR / 'A short walk ⬆ way!'"
-- Upper Hiker: Located at (23..24, 34) facing South.
-- Cable Car / Mountain Entrance: Path continues north and west around Mt. Chimney.
+- Upper Hiker: Located at (24, 34) facing West.
+- Cable Car Station: Located at northeast plateau behind white fence; entrance blocked by 2 Team Magma Grunts!
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
@@ -44,3 +44,5 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "Oh, you're so strong!"
    - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre ♀ Lv 17 (OHKO'd by Sage's Leaf Blade, 513 EXP).
    - Reward: ¥272 prize money, 727 total EXP.
+3. Hiker: [APPROACHING]
+   - Location: (24, 34) on Route 112 upper plateau.
