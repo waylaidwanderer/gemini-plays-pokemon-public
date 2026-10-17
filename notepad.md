@@ -312,17 +312,18 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
    - Defeat quote: "Oh... My eyes are frazzled..."
    - Team: Illumise ♀ Lv 17 (fainted to Leaf Blade), Volbeat ♂ Lv 17 (fainted to Leaf Blade) [DEFEATED]
    - Rewards: ¥1020 prize money, Sage gained 1062 EXP and grew to Lv 31.
-4. Guitarist Shawn: [ENGAGED]
+4. Guitarist Shawn: [DEFEATED]
    - Location: Eastern Chamber at (7, 7) facing South.
    - Pre-battle quote: "I trained under WATTSON! There ain't no way I'll lose to some kid!"
-   - Team: Voltorb Lv 17 (fainted to Leaf Blade), Magnemite Lv 17 (in battle, critical HP).
+   - Team: Voltorb Lv 17 (fainted to Leaf Blade), Magnemite Lv 17 (fainted to Leaf Blade).
+   - Rewards: Prize money, Sage gained EXP.
 
 ## Progression Checklist - Mauville Gym
 1. [x] Enter Mauville Gym and check Gym Guide advice.
 2. [x] Defeat Gym trainers Kirk, Vivian, and Ben for EXP.
 3. [x] Defeat Bug Maniac Angelo.
 4. [x] Step on East Switch at (8, 9) to drop barrier to Wattson.
-5. [ ] Defeat Guitarist Shawn.
+5. [x] Defeat Guitarist Shawn.
 6. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
 ## Layout & Discovered Coordinates
