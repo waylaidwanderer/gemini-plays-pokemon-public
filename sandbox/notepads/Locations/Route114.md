@@ -15,8 +15,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Secret Base indentation: Located in the rock face at (10, 61).
   - Smashable rock: Located at (11, 65).
   - Round stationary rock: Located at (13, 63).
-  - White Stairs 1 (Basin to Terrace): Located at (13..14, 68..69). Connects lower basin to Claude's terrace.
-  - White Stairs 2 (Terrace to Canyon): Located at (13..14, 72..73). Connects Claude's terrace to lower canyon floor.
+  - White Stairs 1 (Basin to Terrace): Located at (13..14, 68..69). Connects lower basin to Lenny's terrace.
+  - White Stairs 2 (Terrace to Canyon): Located at (13..14, 72..73). Connects Lenny's terrace to lower canyon floor.
   - Hiker Lenny: Located at (15, 65) facing East overlooking the terrace.
 - Entry Corridor: Runs west along row 10 between garden plots from Fallarbor Town border at (37, 10).
 - Route 114 Signpost: Located at northwest around (31, 7).
@@ -120,7 +120,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 9. Hiker Lenny: [BATTLING]
    - Location: (15, 65) facing East outside Meteor Falls cave entrance.
    - Pre-battle quote: 'Yodelayhihoo! ... You're supposed to shout "yodelayhihoo" since it doesn't echo here!'
-   - Team: 3 Pokémon.
+   - Team: 3 Pokémon (Geodude ♂ Lv 18 - OHKO'd by Leaf Blade; Machop ♂ Lv 18 - active).
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
