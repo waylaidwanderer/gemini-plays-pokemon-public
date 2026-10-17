@@ -45,7 +45,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Shroomish ♀ Lv 18 (fainted to Sage's Leaf Blade).
    - Reward: ¥288 prize money.
    - Outcome: Complete victory! Sage HP 85/89.
-4. Kindler Hayden: [IN BATTLE]
-   - Location: (16, 119) facing East across row 119.
+4. Kindler Hayden: [DEFEATED]
+   - Location: (18, 119) facing East across row 119.
    - Pre-battle quote: "When you're as famished as I am, there is no room for pity!"
-   - Team: Numel ♂ Lv 18.
+   - Defeat quote: "Groan..."
+   - Team: Numel ♂ Lv 18 (fainted to Sage's Leaf Blade).
+   - Reward: ¥576 prize money.
+   - Outcome: Complete victory! Sage HP 85/89.
