@@ -839,6 +839,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Taillow ♂ Lv 16 (OHKO'd by Sage's Quick Attack), Zigzagoon ♂ Lv 16 (OHKO'd by Sage's Quick Attack).
    - Reward: ¥640 prize money.
    - Outcome: Complete victory! Battle 1 of 4 cleared without taking any damage! Sage HP 85/89.
+6. Victoria Winstrate: [ENGAGING]
+   - Location: (13, 114) facing South outside Winstrate House.
+   - Role: Mother of the Winstrate family (Battle 2 of 4).
+   - Team: Roselia ♀ Lv 17.
 
 <hr>
 
