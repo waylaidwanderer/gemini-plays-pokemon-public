@@ -17,11 +17,15 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 
 ## Discovered Coordinates & Layout
 - Eastern Entrance from Route 113: (19, 10).
-- Central paved path runs east-west along row 10.
-- Paved branch heads north from (14..15, 10) up rows 9, 8 to Pokémon Center entrance at (14..15, 7).
+- Central paved path runs east-west along row 10 across entire town.
+- Central four-way intersection: (10, 10).
+- Town Signpost: (10, 11) directly south of (10, 10).
+- Battle Tent: Entrance doors at (8, 7), path at (8, 8..9).
+- South Path: Branches south at cols 11..12, rows 11..13 toward Poké Mart and Route 114 south exit.
 - NPCs:
-  - Old Man NPC: Wandering near path crossroad at (10, 8..9).
-  - Little Girl NPC & Azurill: Standing near signpost at (9..10, 11..12).
+  - Old Man NPC: Wandering at (10, 9).
+  - Little Girl NPC: (8, 11).
+  - Azurill: (8, 12).
 - Pokémon Center Interior (1F):
   - Entrance/Exit mat at (7, 8).
   - Nurse Joy counter at (7, 3), Nurse Joy at (7, 2). Checkpoint registered! Party fully healed!
