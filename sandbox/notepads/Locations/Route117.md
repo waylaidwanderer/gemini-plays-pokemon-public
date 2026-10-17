@@ -47,4 +47,5 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Pre-battle quote: "I do my triathlon training with POKéMON, so I'm pretty confident about my speed."
    - Team: Doduo ♀ Lv 17 (fainted via Leaf Blade).
    - Defeat quote: "I need to get more practices in, I guess"
+   - Post-battle: "You appear to be training properly... If you'd like, I'll battle you later!"
    - Reward: ¥680 prize money.
