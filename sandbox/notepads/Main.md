@@ -15,6 +15,7 @@
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30).
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Rare Candy x1 (reward from Trick Master for clearing Trick House Puzzle 1)
+- Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Super Potion x0
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
