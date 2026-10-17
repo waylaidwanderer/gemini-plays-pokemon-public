@@ -76,10 +76,11 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
   - Cycling Road Height Mechanics: The Seaside Cycling Road is an elevated highway with Cyclists riding above. Ground-level pedestrians walk underneath and cannot interact with overhead Cyclists.
   - At col 7..8, the path and canal railing turn North towards Mauville City.
   - Item Ball: Located at (7, 39) near the northwest corner turn!
-5. Psychic Edward & Triathlete Alyssa (Double Battle): [IN PROGRESS]
+5. Psychic Edward & Triathlete Alyssa (Double Battle): [DEFEATED]
    - Location: Northwest bend of Route 110 at row 39, cols 4..11. Triggered simultaneously when stepping onto (8, 39).
    - Psychic Edward Pre-battle Quote: "I have foreseen your intentions! I cannot possibly lose!"
    - Triathlete Alyssa Pre-battle Quote: "I fell off CYCLING ROAD... I'll get over my embarrassment by battling with you!"
    - Teams:
-     - Psychic Edward: Abra ♂ Lv 15
-     - Triathlete Alyssa: Magnemite Lv 15
+     - Psychic Edward: Abra ♂ Lv 15 (fainted via Sage's Pursuit)
+     - Triathlete Alyssa: Magnemite Lv 15 (fainted via Sage's Leaf Blade)
+   - Outcome: Complete victory!
