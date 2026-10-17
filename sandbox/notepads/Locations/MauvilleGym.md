@@ -22,8 +22,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 ## Floor Switch Locations
 - Switch 1 (Southwest): (0, 15) in southwest alcove.
 - Switch 2 (South-Center): (4, 12) in south-central corridor.
-- Switch 3 (Northwest): (3, 9) in northwest corridor.
-- Switch 4 (East): (8, 9) in northeast chamber (East Switch).
+- Switch 3 (East): (8, 9) in northeast chamber (East Switch - activated on turn 5058, toggling gym to Magenta!).
 
 ## True Gym Puzzle Solution
 1. In BLUE state, walk south to row 12, east along row 12 (5, 12 -> 6, 12 -> 7, 12), and north into the East Chamber at (7, 11) -> (8, 11) -> (8, 10).
@@ -43,7 +42,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Rewards: Dynamo Badge (enables HM06 Rock Smash outside battle, increases Pokémon Speed stat) + TM34 Shock Wave!
 
 ## Battle Strategy
-- Sage (Grovyle ♂ Lv 30, Lonely): Leaf Blade (70 BP STAB, high crit) sweeps Voltorb, Electrike, and Manectric. Grass-type naturally resists Electric attacks!
+- Sage (Grovyle ♂ Lv 31, Lonely): Leaf Blade (70 BP STAB, high crit) sweeps Voltorb, Electrike, and Manectric. Grass-type naturally resists Electric attacks!
 - Cobalu (Aron ♂ Lv 12, Impish): Has Mud-Slap (Ground-type super-effective damage). Resists Normal and Steel attacks.
 - Caution: Beware of Voltorb's SonicBoom (fixed 20 damage) and Selfdestruct; Magneton's SonicBoom and Supersonic confusion.
 
@@ -68,34 +67,31 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
    - Defeat quote: "Oh... My eyes are frazzled..."
    - Team: Illumise ♀ Lv 17 (fainted to Leaf Blade), Volbeat ♂ Lv 17 (fainted to Leaf Blade) [DEFEATED]
    - Rewards: ¥1020 prize money, Sage gained 1062 EXP and grew to Lv 31.
-4. Guitarist Shawn:
+4. Guitarist Shawn: [ENGAGED]
    - Location: Eastern Chamber at (7, 7) facing South.
+   - Pre-battle quote: "I trained under WATTSON! There ain't no way I'll lose to some kid!"
+   - Team: Voltorb Lv 17 (fainted to Leaf Blade), Magnemite Lv 17 (in battle, critical HP).
 
 ## Progression Checklist - Mauville Gym
 1. [x] Enter Mauville Gym and check Gym Guide advice.
 2. [x] Defeat Gym trainers Kirk, Vivian, and Ben for EXP.
-3. [ ] Solve electric barrier switch puzzle to reach Wattson.
-4. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
+3. [x] Defeat Bug Maniac Angelo.
+4. [x] Step on East Switch at (8, 9) to drop barrier to Wattson.
+5. [ ] Defeat Guitarist Shawn.
+6. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
 ## Layout & Discovered Coordinates
 - Entrance: Door mat at (4..5, 20).
 - Gym Guide: Located at (6, 20).
 - Entrance Statues: Located at (3, 17) and (5, 17).
 - Electric Barrier 1: Horizontal blue barrier at (4, 14) between pillars at (3, 14) and (5, 14).
-- Floor Switch 1: Located at (0, 15) in the southwest alcove.
-- Floor Switch 2: Located at (4, 12) in the south-central area.
-- Floor Switch 3: Located at (7, 8) in the east area between Shawn and Angelo.
-- Battle Girl Vivian: Located at (1, 16) facing Up. [DEFEATED]
-- Guitarist Kirk: Located at (1, 13) facing Down. [DEFEATED]
-- Youngster Ben: Blue cap, located at (5, 10) facing Left. [DEFEATED]
-- Bug Catcher Angelo: Black hair, white shirt, located at (7, 10) facing North. [ENGAGED]
-- Guitarist Shawn: Blonde hair, brown shirt, located at (7, 7) facing South.
+- Switch 1: (0, 15) in southwest alcove.
+- Switch 2: (4, 12) in south-central corridor.
+- Switch 3: (8, 9) in northeast chamber (East Switch).
+- Battle Girl Vivian: (1, 16) facing Up. [DEFEATED]
+- Guitarist Kirk: (1, 13) facing Down. [DEFEATED]
+- Youngster Ben: (5, 10) facing Left. [DEFEATED]
+- Bug Maniac Angelo: (7, 10) facing North. [DEFEATED]
+- Guitarist Shawn: (7, 7) facing South. [ENGAGED]
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
-
-## Gym Puzzle True Solution
-1. Defeat Kirk & Vivian in southwest, Ben in center.
-2. From center, navigate to row 12 at (7, 12), and walk north up column 7 to reach the Eastern Chamber.
-3. Defeat Bug Catcher Angelo at (7, 10) and Guitarist Shawn at (7, 7).
-4. Activate the East Switch at (7, 8) to toggle the gym to Magenta, deactivating the barrier across Wattson's corridor.
-5. Walk west along row 8 into the central corridor at (4, 8), then straight north to challenge Gym Leader Wattson at (4, 3)!
