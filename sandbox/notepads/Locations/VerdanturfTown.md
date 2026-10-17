@@ -18,8 +18,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 2. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
 3. [ ] Visit Wanda's house.
 4. [x] Enter Rusturf Tunnel from the south entrance.
-5. [ ] Use HM06 Rock Smash to clear the blocking rocks.
-6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
+5. [x] Use HM06 Rock Smash to clear the blocking rocks.
+6. [x] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 
 ## Pokémon Center Interior
 - Entrance Mat: Located at (7, 8).
