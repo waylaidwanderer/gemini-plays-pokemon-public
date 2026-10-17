@@ -1167,6 +1167,12 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 4. [ ] Enter Rusturf Tunnel from the south entrance.
 5. [ ] Use HM06 Rock Smash to clear the blocking rocks.
 6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
+## Discovered Coordinates & Layout
+- Arrival from Route 117: (17, 9) facing West.
+- Town Signpost: Located at (14, 5).
+- Southern Residential Houses: Green tiled roofs along rows 10..14.
+- Pokémon Center: Red-roofed building on northwest side (cols 3..5, rows 4..6).
+- Green-capped NPC outside Pokémon Center around (6..7, 6).
 
 <hr>
 
