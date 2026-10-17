@@ -87,4 +87,4 @@
 4. [x] Locate Mauville Gym in northern Mauville City.
 5. [x] Battle and defeat Wally outside Mauville Gym (Ralts Lv 16).
 6. [x] Enter Mauville Gym, solve electric barrier switch puzzle, and defeat Gym trainers.
-7. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
+7. [x] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
