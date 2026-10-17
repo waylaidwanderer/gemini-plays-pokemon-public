@@ -77,3 +77,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Lower rock at cols 23..24, rows 40..41.
   - South passage along row 42 connects west route to east lawn.
   - Trainers: Twins spotted at cols 22..23, row 43; Boy in cap at (25, 41).
+- Route 114 Southern Passage & Trainers:
+  - Row 42 connects west route (col 21) east to the lawn outside Lanette's house (col 27).
+  - Twins: Located at cols 24..25, row 43 facing North.
+  - School Kid / Camper: Located at (28..29, 42..43) facing West.
