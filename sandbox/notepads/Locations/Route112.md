@@ -47,3 +47,4 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 3. Hiker Brice: [IN PROGRESS]
    - Location: (24, 34) on Route 112 upper plateau.
    - Pre-battle quote: "Hahahaha! How about we have a battle? You and me! Hahahaha!"
+   - Team: Numel ♂ Lv 17.
