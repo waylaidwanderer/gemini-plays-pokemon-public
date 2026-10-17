@@ -1815,7 +1815,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 18 (OK, 50/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (16/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -1937,6 +1937,5 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
-
 
 <hr>
