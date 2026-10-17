@@ -72,5 +72,6 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 4. Guitarist Joseph: [DEFEATED]
    - Location: (36, 40) on northern Route 110, facing West.
    - Pre-battle Quote: "Okay! Full-throttle time! If you can't groove, you get left behind!"
+   - Defeat Quote: "You got into the groove all right..."
    - Team: Electrike ♂ Lv 14 (fainted via Leaf Blade), Voltorb Lv 14 (fainted via Leaf Blade).
-   - Outcome: Complete victory!
+   - Outcome: Complete victory! Earned ¥448 prize money.
