@@ -16,6 +16,7 @@
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x1 (found at Route 110 northwest bend at 6, 39)
+- Max Ether x1 (found on terrace at 30, 2 in Rusturf Tunnel)
 - Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
