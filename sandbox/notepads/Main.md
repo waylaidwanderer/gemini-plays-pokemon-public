@@ -24,7 +24,7 @@
 - `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
-- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City, Mt. Pyre, and Team Aqua Hideout.
+- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City (including Lilycove Harbor), Mt. Pyre, Team Aqua Hideout, the S.S. Tidal, and the Battle Frontier (Battle Dome, Battle Frontier Pokémon Center, and Battle Tower).
 - `Locations/Route_124_And_Mossdeep_City`: Coordinates, trainer statuses, and routing for Route 124, Mossdeep City, Routes 126–131, Seafloor Cavern, Sootopolis City, Cave of Origin, and Sky Pillar.
 
 ## Mechanics & Harness Notes

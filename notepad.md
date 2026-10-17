@@ -80,7 +80,7 @@
 - **2F Bedroom (`LittlerootTown_BrendansHouse_2F`):** Continuing from the Title Screen after the Hall of Fame credits places the player at `(4, 2)` with the entire party fully healed and original party order restored. Walk `Right` 3 and `Up` 1 onto `(7, 1)` to descend to 1F.
 - **1F S.S. Ticket & Roaming Eon Pokémon TV Broadcast (`LittlerootTown_BrendansHouse_1F`):** Descending to 1F triggers **Norman** to give the **S.S. Ticket** (`KEY ITEMS POCKET`) before departing through `(8, 8)`. The player then watches a TV emergency news flash about an unidentified flying Pokémon; **Mom** walks over to `(6, 5)` and asks its color (`[RED / BLUE]` — choosing `RED` releases roaming **Latias**, choosing `BLUE` releases roaming **Latios**) [Completed — **S.S. Ticket** obtained & **RED (Latias)** selected]. Because Mom stands at `(6, 5)` afterwards, walk around the left side of the dining table via `(5, 5) -> (2, 5) -> (2, 8) -> (8, 8)` to exit.
 - **National Pokédex Upgrade (`LittlerootTown` & `LittlerootTown_ProfessorBirchsLab`):** Stepping outside Player's House into Littleroot Town automatically triggers **Professor Birch** and **Rival May** to escort the player into Professor Birch's Lab, where Professor Birch upgrades the Pokédex to **National Mode** [Completed].
-- **Post-Reboot Coordinate Note:** After the post-credits title screen reboot, `mgba.get_coordinates()` returns `None`. Note that a single directional press in the overworld still turns and steps 1 tile normally; only use 1 press per tile when changing direction (adding a `sleep 500` before `A` when turning in place against an obstacle to interact).
+- **Post-Reboot Coordinate Note:** After the post-credits title screen reboot, `<GameState>` omits `<Position>` (`mgba.get_coordinates()` returns `None`) on some maps, while `<Position x=... y=.../>` and harness auto-turn-before-move remain active on others (such as `BattleFrontier_OutsideEast` and `BattleFrontier_BattleTowerLobby`). On maps where `<Position>` is omitted, changing direction after a `sleep 400` settle pause uses the 1st press to turn in place and subsequent presses to step (`N + 1` presses to turn and move `N` tiles), whereas on maps where `<Position>` is present, the harness automatically inserts turn-in-place taps so `N` presses move `N` tiles.
 
 <hr>
 
@@ -994,7 +994,7 @@
 - `Locations/Route_111_And_Route_112`: Coordinates, trainer bypasses, and routing for Route 111, Route 112, Fiery Path, Mt. Chimney, Jagged Pass, Lavaridge Town, and Team Magma Hideout.
 - `Locations/Route_113_And_Fallarbor_Town`: Coordinates, trainer statuses, and routing for Route 113, Fallarbor Town, Route 114, and Meteor Falls.
 - `Locations/Route_119_And_Fortree_City`: Coordinates, trainer statuses, and routing for Route 119, Weather Institute, Fortree City, and Fortree Gym.
-- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City, Mt. Pyre, and Team Aqua Hideout.
+- `Locations/Route_120_And_Route_121`: Coordinates, trainer bypasses, and routing for Route 120, Route 121, Lilycove City (including Lilycove Harbor), Mt. Pyre, Team Aqua Hideout, the S.S. Tidal, and the Battle Frontier (Battle Dome, Battle Frontier Pokémon Center, and Battle Tower).
 - `Locations/Route_124_And_Mossdeep_City`: Coordinates, trainer statuses, and routing for Route 124, Mossdeep City, Routes 126–131, Seafloor Cavern, Sootopolis City, Cave of Origin, and Sky Pillar.
 
 ## Mechanics & Harness Notes
