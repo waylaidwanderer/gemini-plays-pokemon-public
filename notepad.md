@@ -889,7 +889,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 11. Picnicker Irene: [IN BATTLE]
     - Location: (10, 82) facing East near the Route 112 signpost.
     - Pre-battle quote: "I don't know where you're going, but would you like to battle?"
-    - Team: 2 Pokémon (Shroomish, Marill).
+    - Team: Shroomish ♀ Lv 17 (OHKO'd by Sage's Quick Attack), Marill ♀ Lv 17.
 
 <hr>
 
