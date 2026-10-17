@@ -328,3 +328,5 @@
         2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`)
         3. **Tentacruel Lv. 55** (`Toxic`, `Hydro Pump`, `Sludge Bomb`, `Ice Beam`)
         4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`)
+        5. **Gyarados Lv. 56** (`Dragon Dance`, `Earthquake`, `Hyper Beam`, `Surf` — `Intimidate`)
+        6. **Milotic Lv. 58 [Sitrus Berry]** (`Recover`, `Surf`, `Ice Beam`, `Toxic`)
