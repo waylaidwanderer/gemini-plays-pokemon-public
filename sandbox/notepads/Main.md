@@ -6,7 +6,7 @@
 - Status: DYNAMO BADGE EARNED! Verdanturf Town Pokémon Center reached and party fully healed! Total money: ¥16,600! Match Call registered: Wattson, Anna & Meg, Isaac, Lydia. Checkpoint set! Next: Visit Wanda's house and enter Rusturf Tunnel from the north entrance, use Cobalu's Rock Smash to clear the blocked path, and earn HM04 Strength! Party: Sage Lv 33 (OK, 87/87), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 33) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 87/87. Stats: HP 87, Atk 55, Def 40, Sp.Atk 64, Sp.Def 58, Speed 78. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 34) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 89/89. Stats: HP 89, Atk 57, Def 42, Sp.Atk 67, Sp.Def 60, Speed 80. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 15) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 47/47. Stats: HP 47, Atk 23, Def 20, Sp.Atk 20, Sp.Def 27, Speed 23. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
