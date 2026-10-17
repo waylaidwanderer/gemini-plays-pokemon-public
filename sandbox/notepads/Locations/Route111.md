@@ -101,3 +101,6 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Interacting with each member using 'A' starts their battle. Do not press 'B' on challenge prompts.
 - Defeating all 4 members awards the Macho Brace inside the house from Victoria!
 - Western Pond / Shore: Located at cols 8..13, rows 105..110. Shoreline at (12, 104) is a dead-end cove. Main route to Route 112 and Desert continues north through the central rocky valley at cols 16..22 (north of row 104).
+9. Camper Travis: [IN BATTLE]
+   - Location: (8, 92) facing West near the Route 112 junction.
+   - Team: Sandshrew ♂ Lv 19.
