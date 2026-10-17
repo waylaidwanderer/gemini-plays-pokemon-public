@@ -946,6 +946,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Ledge at row 23: Left ledge (cols 7..11), right ledge (cols 14..18). Open sand gap at cols 11..13.
 - Path continues north to row 20, then curves east around tree grove (cols 14..17).
 - NPC standing at (13, 20) facing North into a tree at (13, 19).
+- Secret Power NPC: Located at (13, 20) facing north into Secret Base tree at (13, 19). Answering YES awards TM43 Secret Power! [OBTAINED]
 
 <hr>
 
