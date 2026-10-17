@@ -33,3 +33,13 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Old man NPC at (3, 3).
   - Woman NPC at table at (10, 6).
   - 2F Escalator at (1, 6).
+- Northwest House (Green Roof):
+  - Located at cols 0..4, rows 4..7.
+  - Front door at (2, 6), entered from (2, 7) facing North.
+  - Signpost at (3, 7), read from (3, 8) facing North.
+- Western Gardens & Path:
+  - North garden plot at cols -3..-1, rows 6..9.
+  - South garden plot at cols -3..-1, rows 11..14.
+  - Open west corridor along row 10 between garden plots.
+- Southwest Building (Yellow Roof / Surveying device):
+  - Located at cols 5..8, rows 14..16.
