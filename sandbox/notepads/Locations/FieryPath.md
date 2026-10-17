@@ -12,7 +12,7 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 1. [x] Enter Fiery Path from Route 112 south entrance.
 2. [x] Navigate through the main cave tunnel north toward the northern exit.
 3. [ ] Optional: Push Strength boulders with HM04 Strength to collect hidden items (requires Heat Badge).
-4. [ ] Exit northern mouth onto Route 111 / Route 113.
+4. [x] Exit northern mouth onto Route 112 North / Route 111.
 
 ## Wild Pokémon
 - Numel (Fire/Ground), Slugma (Fire, Lv 15 verified), Torkoal (Fire), Koffing (Poison, Lv 15 verified), Grimer (Poison, Lv 14 verified), Machop (Fighting, Lv 15 verified).
