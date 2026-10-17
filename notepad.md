@@ -1241,6 +1241,13 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - South Exit: Meteor Falls cave entrance.
 
 ## Key Landmarks
+- Meteor Falls Basin & Entrance:
+  - Meteor Falls Cave Entrance: Located at (8, 63), entered from doorstep at (8, 64) facing North.
+  - Route Signpost: Located at (7, 64) just west of the cave entrance.
+  - Secret Base indentation: Located in the rock face at (10, 61).
+  - Smashable rock: Located at (11, 65).
+  - Round stationary rock: Located at (13, 63).
+  - Hiker Claude: Located at (15, 65) facing East overlooking the lower basin stairs.
 - Entry Corridor: Runs west along row 10 between garden plots from Fallarbor Town border at (37, 10).
 - Route 114 Signpost: Located at northwest around (31, 7).
 - Fossil Maniac's House: Located at north end of Route 114 at cols 28..31, rows 2..4 (door at 29, 4).
@@ -1339,6 +1346,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Team: Lombre Lv 18 (OHKO'd by critical Pursuit), Marill Lv 18 (OHKO'd by Sage's Pursuit).
    - Defeat quote: "Oh, I see. That's good to know."
    - Outcome: Complete victory! Total money: ¥36,408.
+
+9. Hiker Claude: [UNBATTLED]
+   - Location: (15, 65) facing East outside Meteor Falls cave entrance.
+   - Status: Spotted overlooking the lower basin stairs.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
@@ -1817,8 +1828,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie, Lucas & Angelina defeated). Total money: ¥36,408! Next: Follow valley floor west along row 73 to enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Starter: Sceptile (Level 39, Male), Nickname: SAGE
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie, Lucas & Angelina defeated). Total money: ¥36,408! Next: Follow row 64 west to enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (15/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.

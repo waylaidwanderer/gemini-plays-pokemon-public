@@ -9,6 +9,13 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - South Exit: Meteor Falls cave entrance.
 
 ## Key Landmarks
+- Meteor Falls Basin & Entrance:
+  - Meteor Falls Cave Entrance: Located at (8, 63), entered from doorstep at (8, 64) facing North.
+  - Route Signpost: Located at (7, 64) just west of the cave entrance.
+  - Secret Base indentation: Located in the rock face at (10, 61).
+  - Smashable rock: Located at (11, 65).
+  - Round stationary rock: Located at (13, 63).
+  - Hiker Claude: Located at (15, 65) facing East overlooking the lower basin stairs.
 - Entry Corridor: Runs west along row 10 between garden plots from Fallarbor Town border at (37, 10).
 - Route 114 Signpost: Located at northwest around (31, 7).
 - Fossil Maniac's House: Located at north end of Route 114 at cols 28..31, rows 2..4 (door at 29, 4).
@@ -107,6 +114,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Team: Lombre Lv 18 (OHKO'd by critical Pursuit), Marill Lv 18 (OHKO'd by Sage's Pursuit).
    - Defeat quote: "Oh, I see. That's good to know."
    - Outcome: Complete victory! Total money: ¥36,408.
+
+9. Hiker Claude: [UNBATTLED]
+   - Location: (15, 65) facing East outside Meteor Falls cave entrance.
+   - Status: Spotted overlooking the lower basin stairs.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
