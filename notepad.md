@@ -1221,8 +1221,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Meteor Falls: Cave entrance at the southern terminus of Route 114. Team Magma and Team Aqua confront each other inside.
 
 ## Discovered Coordinates & Layout
-- Entrance from Fallarbor Town: West exit of Fallarbor Town along row 10.
-
 - East Entrance from Fallarbor Town: Connects at (37, 10).
 - Entry corridor runs west along row 10 between garden plots.
 - Route 114 signpost visible at northwest (around x=31, y=7).
@@ -1243,6 +1241,12 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: Sage gained 373 EXP.
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥32,468.
+2. Picnicker Charlotte: [IN BATTLE]
+   - Location: Lawn west of Lanette's house at (20, 35) facing East. Engaged player at (21, 35).
+   - Pre-battle quote: "I need to exercise after a meal. Let's have a match!"
+   - Team: Numel ♀ Lv 19.
+   - Strategy: Sage Lv 38 OHKOs with Leaf Blade!
+
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
   - Main Path: Turns west along rows 11..12 between the two ponds.
