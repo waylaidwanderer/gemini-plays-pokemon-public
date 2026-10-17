@@ -1345,7 +1345,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 111 cleared (Winstrates, Gabby/Ty & Irene defeated). Total money: ¥23,672! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance to Route 112, Fiery Path & Mt. Chimney! Party: Sage Lv 35 (OK, 91/92), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 111 cleared (Winstrates, Gabby/Ty, Irene, Travis defeated). Total money: ¥23,960! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance to Route 112, Fiery Path & Mt. Chimney! Party: Sage Lv 35 (OK, 91/92), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 35) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (12/15), Quick Attack (28/30). HP: 91/92. Stats: HP 92, Atk 58, Def 43, Sp.Atk 69, Sp.Def 62, Speed 83. Status: OK. Nature: Lonely. Ability: Overgrow.
