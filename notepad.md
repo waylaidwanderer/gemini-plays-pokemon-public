@@ -1111,6 +1111,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Location: Ambushed from camouflaged mound at (29, 6), west of Glass Workshop.
    - Battle initiated at (30, 6) facing West.
    - Pre-battle quote: "From out of the ashes I leap! Hiyah! I challenge thee!"
+   - Defeat quote: "With honor I admit defeat!"
    - Team: 3 Pokémon (Koffing #1 Lv 17, Koffing #2 Lv 17, Koffing #3 Lv 17 - all OHKO'd by Pursuit for 414 EXP each).
    - EXP gained: 1,242 EXP total for Sage.
    - Reward: Pending prize money confirmation on return to overworld.
