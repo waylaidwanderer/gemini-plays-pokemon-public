@@ -1368,7 +1368,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 ## Verified Canyon Route to Meteor Falls:
 - Canyon Access: The col 29 path from row 44 is impassable (blocked by boulder at 29, 47 and Acro rails). The proven route uses Western Stairs at (15, 49..50) onto the Western Terrace, descending col 12 -> row 55 -> col 17 -> row 60 to white stairs at (24..25, 58).
 - Bypassing the Ledge: Col 27 has a one-way ledge facing West. Climbing the white stairs to row 56 allows looping East above the ledge to col 28 and stepping South to defeat Kindler Bernie at (29, 58).
-- Path to Meteor Falls: From Bernie at (28..29, 58), the canyon runs South along cols 28..30 down to row 65 (valley floor), then West past Hiker Lucas (#7 at 15, 65) directly into the cave entrance at (8, 63).
+- Path to Meteor Falls: From Bernie at (28..29, 58), the canyon runs South along col 28 down to row 72 (valley floor). At row 72, Hiker Lucas (#7) and Picnicker Angelina (#8) engage in a Double Battle. Bypassing or defeating them opens the path WEST along row 72 directly to the Meteor Falls cave entrance at (8, 63).
 
 
 <hr>
