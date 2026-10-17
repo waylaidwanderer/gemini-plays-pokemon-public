@@ -35,10 +35,11 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
      - Vivian: Meditite ♀ Lv 17 #1 (OHKO'd by Sage's Leaf Blade), Meditite ♀ Lv 17 #2 (OHKO'd by Sage's Leaf Blade) [DEFEATED]
      - Kirk: Electrike ♂ Lv 17 (fainted), Voltorb Lv 17 (OHKO'd by Sage's Leaf Blade) [DEFEATED]
    - Rewards: Prize money, Sage and Cobalu gained EXP.
-2. Youngster Ben: [ENGAGED]
+2. Youngster Ben: [DEFEATED]
    - Location: Upper central area at (5, 10) facing Left.
    - Pre-battle quote: "This GYM's got puzzles! Isn't it fun?"
-   - Team: Zigzagoon ♂ Lv 17, Gulpin ♂ Lv 17
+   - Team: Zigzagoon ♂ Lv 17 (OHKO'd by Sage's Leaf Blade), Gulpin ♂ Lv 17 (fainted to Sage's Leaf Blade) [DEFEATED]
+   - Rewards: Prize money, Sage gained EXP.
 3. Guitarist Shawn
 4. Bug Catcher Angelo
 
