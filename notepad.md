@@ -1241,11 +1241,14 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: Sage gained 373 EXP.
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥32,468.
-2. Picnicker Nancy: [IN BATTLE]
+2. Picnicker Nancy: [DEFEATED]
    - Location: Lawn west of Lanette's house at (20, 35) facing East. Engaged player at (21, 35).
    - Pre-battle quote: "I need to exercise after a meal. Let's have a match!"
-   - Team: Marill ♀ Lv 18 (defeated), Lombre ♀ (active).
-   - Strategy: Sage Lv 38 sweeps with Leaf Blade!
+   - Defeat quote: "Oh, no!"
+   - Team: Marill ♀ Lv 18, Lombre ♀ Lv 18. Both defeated by Sage's Leaf Blade!
+   - EXP gained: Sage gained 766 EXP total (223 + 543).
+   - Reward: ¥288 prize money.
+   - Outcome: Complete victory! Total money: ¥32,756.
 
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
@@ -1270,11 +1273,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Bridge NPC: Fisherman Kai standing at (19, 26) facing West over the western railing.
   - South bridgehead at (20..21, 32..33).
   - Lanette's House:
-  - Located on the southern bank east of the bridge at cols 25..27, rows 33..35.
-  - Front door at (26, 35), entered from doorstep at (26, 36) facing North.
-  - Water inlet at (23, 33) blocks row 33. Route via row 34 (cols 22->23->24), down to row 36 (cols 24->25->26), and step Up into door at (26, 35).
+  - Located on the southern bank east of the bridge at cols 25..29, rows 33..36.
+  - Front door at (27, 36), entered from doorstep at (27, 37) facing North.
+  - Approach route: Front lawn along row 37 is completely open grass from col 21 to col 29. Walk south to row 37, east to (27, 37), and step North into door at (27, 36).
   - Inside: Lanette offers the Lotad Doll decoration.
-  - Exterior: Berry patch and signpost located south of the house around rows 37..38.
+  - Exterior: Signpost at (25, 38), boulder at (22..23, 38), berry patch south.
 
 <hr>
 
@@ -1727,7 +1730,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig & TM05 Roar obtained, Nolan defeated). Total money: ¥32,468! Next: Visit Lanette's house, head to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (12/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 17) - Evolved from Lotad on turn 4926! Level 17 on turn 6119! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 51/51. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -1746,7 +1749,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥32,468
+- Money: ¥32,756
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

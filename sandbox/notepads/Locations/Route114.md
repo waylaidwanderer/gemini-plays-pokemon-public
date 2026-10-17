@@ -33,11 +33,14 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: Sage gained 373 EXP.
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥32,468.
-2. Picnicker Nancy: [IN BATTLE]
+2. Picnicker Nancy: [DEFEATED]
    - Location: Lawn west of Lanette's house at (20, 35) facing East. Engaged player at (21, 35).
    - Pre-battle quote: "I need to exercise after a meal. Let's have a match!"
-   - Team: Marill ♀ Lv 18 (defeated), Lombre ♀ (active).
-   - Strategy: Sage Lv 38 sweeps with Leaf Blade!
+   - Defeat quote: "Oh, no!"
+   - Team: Marill ♀ Lv 18, Lombre ♀ Lv 18. Both defeated by Sage's Leaf Blade!
+   - EXP gained: Sage gained 766 EXP total (223 + 543).
+   - Reward: ¥288 prize money.
+   - Outcome: Complete victory! Total money: ¥32,756.
 
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
@@ -62,8 +65,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Bridge NPC: Fisherman Kai standing at (19, 26) facing West over the western railing.
   - South bridgehead at (20..21, 32..33).
   - Lanette's House:
-  - Located on the southern bank east of the bridge at cols 25..27, rows 33..35.
-  - Front door at (26, 35), entered from doorstep at (26, 36) facing North.
-  - Water inlet at (23, 33) blocks row 33. Route via row 34 (cols 22->23->24), down to row 36 (cols 24->25->26), and step Up into door at (26, 35).
+  - Located on the southern bank east of the bridge at cols 25..29, rows 33..36.
+  - Front door at (27, 36), entered from doorstep at (27, 37) facing North.
+  - Approach route: Front lawn along row 37 is completely open grass from col 21 to col 29. Walk south to row 37, east to (27, 37), and step North into door at (27, 36).
   - Inside: Lanette offers the Lotad Doll decoration.
-  - Exterior: Berry patch and signpost located south of the house around rows 37..38.
+  - Exterior: Signpost at (25, 38), boulder at (22..23, 38), berry patch south.
