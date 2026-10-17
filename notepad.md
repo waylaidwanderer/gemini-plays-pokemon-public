@@ -1738,7 +1738,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig & TM05 Roar obtained, Nolan defeated). Total money: ¥32,468! Next: Visit Lanette's house, head to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig & TM05 Roar obtained, Nolan & Nancy defeated). Total money: ¥32,756! Next: Visit Lanette's house, head to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (12/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
