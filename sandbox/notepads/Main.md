@@ -97,6 +97,6 @@
 3. [x] Explore Route 117 (all 7 trainers defeated: Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia).
 4. [x] Arrive in Verdanturf Town.
 5. [x] Enter Rusturf Tunnel from the Verdanturf Town entrance.
-6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
-7. [ ] Obtain HM04 Strength from Wanda's boyfriend.
+6. [x] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
+7. [x] Obtain HM04 Strength from Wanda's boyfriend.
 8. [ ] Return to Mauville City and head north onto Route 111 toward Mt. Chimney / Fallarbor Town.
