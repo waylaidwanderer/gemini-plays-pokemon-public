@@ -77,5 +77,6 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Outcome: Complete victory! Earned ¥448 prize money.
 - Northern Cycling Road Underpass & Bend:
   - Located at cols 12..15, rows 38..41. Pedestrian walkway passes cleanly underneath the Seaside Cycling Road overpass to the western bank.
+  - Cycling Road Height Mechanics: The Seaside Cycling Road is an elevated highway with Cyclists riding above. Ground-level pedestrians walk underneath and cannot interact with overhead Cyclists.
   - At col 7..8, the path and canal railing turn North towards Mauville City.
-  - Item Ball: Located at (7..8, 39) near the northwest corner turn!
+  - Item Ball: Located at (8, 39) near the northwest corner turn!
