@@ -541,7 +541,15 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - East side pedestrian path: Begins at (22..26, 69). Row 68 provides a path east towards an Item Ball at (30, 69) and Youngster Timmy at (32, 69). Northbound pedestrian path continues north along cols 30..33 towards Mauville City.
 - Item Ball: (30, 69) - [OBTAINED] Dire Hit!
 - Causeway: Narrow walkway over water running north along cols 32..35 from row 64 to row 50+. Column 33/34 provides the primary path.
-- Rival Brendan Encounter: [DEFEATED - VICTORY!] Defeated Brendan in Rival Battle #2 on Route 110 causeway at (34, 55)! Wingull Lv 18 OHKO'd by Leaf Blade, Combusken Lv 20 destroyed by Leaf Blade, Lombre Lv 18 defeated by Leaf Blade! Complete sweep with Lv 29 Grovyle (Sage). Obtained Itemfinder and prize money! Path to Mauville City is fully open!
+- Rival Brendan Encounter: [DEFEATED - VICTORY!] Defeated Brendan in Rival Battle #2 on Route 110 causeway at (34, 55)!
+  - Brendan's Team: Wingull Lv 18 (OHKO'd by Leaf Blade), Combusken Lv 20 (destroyed by Leaf Blade), Lombre Lv 18 (OHKO'd by Leaf Blade).
+  - Rewards: ¥1200 prize money, Itemfinder key item. Brendan rode away north on his bicycle.
+  - Battle Strategy: Lv 29 Grovyle (Sage) with Leaf Blade easily sweeps Brendan's team.
+- Itemfinder: Key Item received from Brendan. Can be used from Bag or registered to Select to search for hidden items nearby.
+- Causeway / Northern Mainland:
+  - Causeway runs north along cols 33..35 across the bay.
+  - Reaches northern shore around row 42..45.
+  - Column 35 offers a clear (non-grass) walkway along the eastern railing to minimize wild encounters.
 - Under-Bridge Route: Pedestrian pathway winding underneath and alongside the Cycling Road structure towards Mauville City.
 
 ## Progression Checklist - Route 110
