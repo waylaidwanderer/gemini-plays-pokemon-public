@@ -65,3 +65,12 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Guitarist Shawn: Blonde hair, brown shirt, located at (7, 8) facing Down.
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
+
+## Gym Puzzle Complete Solution
+1. Floor Switch 1 at (0, 15): Toggles default Blue barriers OFF, turns Magenta barriers ON. Opens column 2 (x=2) as a clear passage straight north past row 10 into the northern section.
+2. Floor Switch 3 at (4, 12): Toggles Magenta barriers OFF, turns Blue barriers ON. Lowers row 10 magenta barriers to access Ben (5, 10).
+3. Toggling back to Magenta (Switch 3 at 4, 12):
+   - Blue barrier across Wattson's corridor (cols 4-5, rows 5-7) DEACTIVATES!
+   - Blue barrier along col 6 DEACTIVATES!
+   - Direct path south to Gym entrance is wide open along col 4!
+   - Path to Wattson is wide open along col 2 -> col 4 north corridor!
