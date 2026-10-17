@@ -48,7 +48,9 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥29,832. Sage HP 108/112 (PAR).
 
-3. Twins Tori & Tia: [UNBATTLED]
-   - Location: (44..45, 3) facing South.
-   - Battle format: 2-on-2 Double Battle (triggers when stepping into line of sight).
-   - Strategy: Sage (Lv 37) and Lilz (Lv 16) lead. Sage handles with Quick Attack/Pursuit.
+3. Twins Tori & Tia: [IN BATTLE]
+   - Location: (45..46, 6) facing South.
+   - Battle format: 2-on-2 Double Battle.
+   - Opponent team: Spinda Lv 19 & Spinda Lv 19.
+   - Player leads: Sage (Lv 37, PAR, 108/112) and Lilz (Lv 16, OK, 49/49).
+   - Strategy: Sage uses priority Quick Attack to strike first and eliminate targets quickly.
