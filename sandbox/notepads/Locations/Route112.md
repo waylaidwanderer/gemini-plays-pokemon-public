@@ -44,7 +44,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "Oh, you're so strong!"
    - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre ♀ Lv 17 (OHKO'd by Sage's Leaf Blade, 513 EXP).
    - Reward: ¥272 prize money, 727 total EXP.
-3. Hiker Brice: [IN PROGRESS]
+3. Hiker Brice: [DEFEATED]
    - Location: (24, 34) on Route 112 upper plateau.
    - Pre-battle quote: "Hahahaha! How about we have a battle? You and me! Hahahaha!"
-   - Team: Numel ♂ Lv 17.
+   - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!).

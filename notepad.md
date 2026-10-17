@@ -947,10 +947,10 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "Oh, you're so strong!"
    - Team: Taillow ♀ Lv 17 (fainted to Sage's Quick Attack, 214 EXP), Lombre ♀ Lv 17 (OHKO'd by Sage's Leaf Blade, 513 EXP).
    - Reward: ¥272 prize money, 727 total EXP.
-3. Hiker Brice: [IN PROGRESS]
+3. Hiker Brice: [DEFEATED]
    - Location: (24, 34) on Route 112 upper plateau.
    - Pre-battle quote: "Hahahaha! How about we have a battle? You and me! Hahahaha!"
-   - Team: Numel ♂ Lv 17.
+   - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!).
 
 <hr>
 
@@ -1403,7 +1403,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 entered (Camper Larry & Picnicker Carol defeated). Total money: ¥24,520! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance through Route 112 to Fiery Path & Mt. Chimney! Party: Sage Lv 35 (OK, 91/92), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 35) [Held Item: None (consumed)] - Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (27/30). HP: 91/92. Stats: HP 92, Atk 58, Def 43, Sp.Atk 69, Sp.Def 62, Speed 83. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 36) [Held Item: None (consumed)] - Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (27/30). HP: 94/95. Stats: HP 95, Atk 60, Def 45, Sp.Atk 71, Sp.Def 64, Speed 85. Status: OK. Nature: Lonely. Ability: Overgrow. (Evolving into Sceptile!)
 2. LILZ (Lombre ♀, Level 16) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 49/49. Stats: HP 49, Atk 24, Def 21, Sp.Atk 21, Sp.Def 28, Speed 24. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
