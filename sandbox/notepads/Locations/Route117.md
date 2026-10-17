@@ -42,3 +42,5 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "You've raised yours superbly"
    - Post-battle: "I'm going to redouble my training. Would you come look in on us?"
    - Reward: ¥440 prize money. Registered in PokéNav Match Call.
+3. Triathlete Maria: Located along lower path around (22..26, 11) running east-west.
+   - Team: Doduo ♀ Lv 17.
