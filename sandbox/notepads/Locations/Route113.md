@@ -88,6 +88,6 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Battle format: 2-on-2 Double Battle.
    - Sophie pre-battle quote: "The warmth here is making me drowsy. Battle with me so I can stay awake."
    - Coby pre-battle quote: "Pfft, with these wings I can flick you away!"
-   - Opponents: Marill ♀ Lv 17 (Sophie - defeated by Sage's critical Quick Attack) & Skarmory ♂ Lv 17 (Coby - active).
-   - Player leads: Sage Lv 38 (PAR, 96/115) and Lilz Lv 16 (OK, 49/49).
-   - Strategy: Focus down Skarmory / remaining reserve Pokémon.
+   - Opponents: Marill ♀ Lv 17 (Sophie - defeated), Lombre ♀ Lv 19 (Sophie - active), Skarmory ♂ Lv 17 (Coby - active).
+   - Player leads: Sage Lv 38 (PAR, 96/115) and Lilz Lv 17 (OK, 51/51).
+   - Strategy: Quick Attack priority on Lombre; Flash/Absorb from Lilz on Skarmory.
