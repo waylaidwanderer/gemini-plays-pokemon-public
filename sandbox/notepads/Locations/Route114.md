@@ -31,3 +31,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
   - Main Path: Turns west along rows 11..12 between the two ponds.
+- Fossil Maniac's House Interior:
+  - Entrance mat at (4, 7), spawn at (4, 6).
+  - Open central corridor along column 4 (rows 2..6).
+  - Fossil Maniac's little brother at (3, 1) in front of the cave tunnel.
+  - Gift: Speaking to the brother awards TM28 Dig!
+  - Cave Tunnel: Connects to the desert / fossil digging site (under construction).
