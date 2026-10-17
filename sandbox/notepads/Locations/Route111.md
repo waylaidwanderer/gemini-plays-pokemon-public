@@ -31,6 +31,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Roselia ♀ Lv 18 (OHKO'd by Sage's Quick Attack).
    - Reward: ¥720 prize money.
    - Outcome: Complete victory! Sage HP 89/89.
-2. Camper Tyron: [CHALLENGING]
+2. Camper Tyron: [IN BATTLE]
    - Location: (24, 131) in the eastern trees facing West.
+   - Pre-battle quote: "This is my favorite kind of POKÉMON!"
    - Team: Sandshrew ♂ Lv 19.
