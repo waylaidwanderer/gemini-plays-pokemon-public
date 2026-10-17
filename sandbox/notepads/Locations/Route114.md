@@ -33,11 +33,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: Sage gained 373 EXP.
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥32,468.
-2. Picnicker Charlotte: [IN BATTLE]
+2. Picnicker Nancy: [IN BATTLE]
    - Location: Lawn west of Lanette's house at (20, 35) facing East. Engaged player at (21, 35).
    - Pre-battle quote: "I need to exercise after a meal. Let's have a match!"
-   - Team: Numel ♀ Lv 19.
-   - Strategy: Sage Lv 38 OHKOs with Leaf Blade!
+   - Team: Marill ♀ Lv 18 (defeated), Lombre ♀ (active).
+   - Strategy: Sage Lv 38 sweeps with Leaf Blade!
 
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
