@@ -57,5 +57,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - North bridgehead at (20..21, 19), accessed from paved path at (20, 16..18).
   - Bridge NPC: Fisherman Kai standing at (19, 26) facing West over the western railing.
   - South bridgehead at (20..21, 32..33).
-  - Lanette's House: Located immediately east of the south bridgehead at cols 24..28, rows 32..35.
-  - NPC in green hat standing at (20, 34) facing South.
+  - Lanette's House:
+  - Located on the southern bank east of the bridge at cols 25..27, rows 33..35.
+  - Front door at (26, 35), entered from doorstep at (26, 36) facing North.
+  - Water inlet at (23, 33) blocks row 33. Route via row 34 (cols 22->23->24), down to row 36 (cols 24->25->26), and step Up into door at (26, 35).
+  - Inside: Lanette offers the Lotad Doll decoration.
+  - Exterior: Berry patch and signpost located south of the house around rows 37..38.
