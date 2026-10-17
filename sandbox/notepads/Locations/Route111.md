@@ -113,7 +113,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
     - Reward: ¥1,632 prize money.
     - Outcome: Complete victory! Lilz grew to Lv 16.
 - Route 111/112 Boundary Signpost: Located at (7, 84), read from (8, 84) facing West.
-11. Picnicker Irene: [IN BATTLE]
+11. Picnicker Irene: [DEFEATED]
     - Location: (10, 82) facing East near the Route 112 signpost.
     - Pre-battle quote: "I don't know where you're going, but would you like to battle?"
-    - Team: Shroomish ♀ Lv 17 (OHKO'd by Sage's Quick Attack), Marill ♀ Lv 17.
+    - Team: Shroomish ♀ Lv 17 (OHKO'd by Sage's Quick Attack), Marill ♀ Lv 17 (OHKO'd by Sage's Leaf Blade).
+    - Reward: ¥272 prize money.
+    - Outcome: Complete victory! Sage HP 91/92.
