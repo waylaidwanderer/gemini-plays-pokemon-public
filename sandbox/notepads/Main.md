@@ -7,7 +7,7 @@
 
 ## Party
 1. SAGE (Grovyle ♂, Level 35) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 92/92. Stats: HP 92, Atk 58, Def 43, Sp.Atk 69, Sp.Def 62, Speed 83. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 15) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 47/47. Stats: HP 47, Atk 23, Def 20, Sp.Atk 20, Sp.Def 27, Speed 23. Status: OK.
+2. LILZ (Lombre ♀, Level 16) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 49/49. Stats: HP 49, Atk 24, Def 21, Sp.Atk 21, Sp.Def 28, Speed 24. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
 

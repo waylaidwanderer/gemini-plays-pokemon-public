@@ -108,4 +108,4 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
     - Battle Type: 2-on-2 Double Battle.
     - Location: (13..14, 86) on northern Route 111.
     - Pre-battle quote: "GABBY: Oh! We've just spotted a tough-looking TRAINER here of all places! TY: Okay, roll camera! Let's get this interview."
-    - Team: Magnemite Lv 17, Whismur ♂ Lv 17.
+    - Team: Magnemite Lv 17 (OHKO'd by Sage's critical hit Leaf Blade), Whismur ♂ Lv 17.
