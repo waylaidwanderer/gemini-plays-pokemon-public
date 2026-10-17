@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110 (all trainers defeated, Elixir found). Reached Mauville City border! Next: Enter Mauville City, heal at Pokémon Center, obtain Bicycle at Rydel's Cycles, and prepare for Gym 3 (Wattson). Party: Sage Lv 30, Lilz Lv 13 (FNT), Cipher Lv 10, Cobalu Lv 12.
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City and healed party at Pokémon Center! Next: Obtain Bicycle at Rydel's Cycles, explore Mauville City landmarks, and prepare for Gym 3 (Wattson). Party: Sage Lv 30, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12 (all OK/full health).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 80/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: OK. Nature: Lonely. Ability: Overgrow.
