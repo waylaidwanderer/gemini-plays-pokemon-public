@@ -76,3 +76,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Roselia ♀ Lv 17 (2HKO'd by Sage's Quick Attack).
    - Reward: ¥680 prize money.
    - Outcome: Complete victory! Battle 2 of 4 cleared! Sage HP 68/89 (PSN).
+7. Vivi Winstrate: [ENGAGING]
+   - Location: (13, 114) facing South outside Winstrate House.
+   - Role: Daughter of the Winstrate family (Battle 3 of 4).
+   - Team: Marill ♀ Lv 15, Shroomish ♀ Lv 15, Numel ♀ Lv 15.
