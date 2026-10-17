@@ -36,3 +36,4 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Lamppost / Pole: Located at (10, 3..4) separating tunnel path from Poké Mart. Bypassed via row 5.
 - Town Signposts: Signpost at (15, 6) in eastern plaza, and signpost at (8, 3) near tunnel entrance.
 - Green-capped NPC outside Battle Tent at (6, 5).
+- Wally Match Call: Received incoming call from Wally near Rusturf Tunnel entrance, greeting May and talking about his training in Verdanturf Town.
