@@ -45,3 +45,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Fossil Maniac's little brother stands at (3, 2), talkable from (4, 2) facing West.
   - Gift: [OBTAINED] TM28 Dig received from the brother!
   - Cave Tunnel Interior: Spawn at (6, 25) facing North. Exit doorway at (6, 26). Leads north into Desert Underpass (under construction by Fossil Maniac).
+- Roar Gentleman & Poochyena:
+  - Location: (19, 11) along the main road bend, with his Poochyena at (19, 12).
+  - Talkable from (20, 11) facing West.
+  - Gift: [OBTAINED] Gifts TM05 Roar!
+- Main Road & Ponds:
+  - Highway runs west along row 11 to col 20, then bends south along cols 20..21.
+  - Ponds located on both sides (north pond at rows 5..8, southwest pond at rows 13..17, southeast pond at rows 13..17).
