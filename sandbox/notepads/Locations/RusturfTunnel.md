@@ -13,8 +13,8 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - [x] Defeat Team Aqua Grunt (Poochyena Lv 11, ¥220).
 - [x] Recover Devon Goods and rescue Peeko for Mr. Briney.
 - [x] Enter Rusturf Tunnel from Verdanturf Town south entrance.
-- [ ] Use HM06 Rock Smash to clear the blocking rocks.
-- [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
+- [x] Use HM06 Rock Smash to clear the blocking rocks.
+- [x] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 - [ ] Optional: Item Ball (Poké Ball) on northwest elevated terrace at (2, 1) (can collect later).
 
 ## Key Characters & Trainers
