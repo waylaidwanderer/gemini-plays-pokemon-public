@@ -120,7 +120,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 9. Hiker Lenny: [BATTLING]
    - Location: (15, 65) facing East outside Meteor Falls cave entrance.
    - Pre-battle quote: 'Yodelayhihoo! ... You're supposed to shout "yodelayhihoo" since it doesn't echo here!'
-   - Team: 3 Pokémon (Geodude ♂ Lv 18 - OHKO'd by Leaf Blade; Machop ♂ Lv 18 - active).
+   - Team: 3 Pokémon (Geodude ♂ Lv 18 - OHKO'd by Leaf Blade; Machop ♂ Lv 18 - OHKO'd by Leaf Blade).
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
