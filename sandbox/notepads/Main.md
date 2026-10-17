@@ -68,7 +68,7 @@
 - In Gen 3, all Grass-type moves (such as Absorb) are Special, so their damage is unaffected by physical Attack drops (Growl).
 - Medicine use outside battle: Start -> BAG -> select item -> USE -> select Pokémon.
 - Text speed set to FAST in game Options menu (verified turn 417).
-- Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Pressing A confirms picking; pressing B cancels and leaves them unpicked. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
+- Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Use exclusively A presses with ~500ms delays to inspect and confirm YES without any risk of B cancelling. Once 'JADE picked...' appears, use B presses to advance and dismiss text, which prevents accidentally opening the planting menu on newly emptied soil. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
 - Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
