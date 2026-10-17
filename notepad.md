@@ -1061,6 +1061,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
   - Pre-battle quote: "What do you call a wild man up in the mountains? A mountain man, right? So why don't they call a POKéMON in the mountains a mountain POKéMON?"
   - Team: 3 Pokémon:
     1. Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade)
+    2. Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade)
 
 <hr>
 
