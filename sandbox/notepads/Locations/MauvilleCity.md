@@ -24,7 +24,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 2. [x] Visit Rydel's Cycles and obtain the Bicycle (Mach Bike).
 3. [x] Register Mach Bike to Select button for instant mounting.
 4. [x] Obtain HM06 Rock Smash from Mauville resident (Rock Smash Guy).
-5. [ ] Encounter and defeat Wally outside Mauville Gym.
+5. [x] Encounter and defeat Wally outside Mauville Gym.
 6. [ ] Explore town landmarks (Game Corner, Battle Tent, Coin Case trade).
 7. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
 
