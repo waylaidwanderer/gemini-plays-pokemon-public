@@ -919,6 +919,10 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "I don't waste any time being angry over a loss--I would rather train."
    - Team: Meditite ♀ Lv 17 (fainted to Sage's Leaf Blade).
    - Reward: ¥408 prize money.
+6. Bug Maniac Derek: [IN BATTLE]
+   - Location: (17, 11) facing North.
+   - Pre-battle quote: "Once a BUG CATCHER! And now a BUG MANIAC! But my love for POKÉMON remains unchanged!"
+   - Team: Dustox ♂ Lv 16, Beautifly ♂ Lv 16.
 
 <hr>
 
