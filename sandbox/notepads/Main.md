@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 39, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Meteor Falls cutscene cleared (Team Magma fled to Mt. Chimney with Meteorite, Team Aqua pursuing)! Next: Travel to Route 112 Cable Car Station, ascend Mt. Chimney, defeat Team Magma Leader Maxie, and retrieve the Meteorite! Total money: ¥36,408. Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Meteor Falls cutscene cleared (Team Magma fled to Mt. Chimney with Meteorite, Team Aqua pursuing)! Next: Travel to Route 112 Cable Car Station, ascend Mt. Chimney, defeat Team Magma Leader Maxie, and retrieve the Meteorite! Total money: ¥37,128. Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (15/20), Leaf Blade (4/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -27,7 +27,7 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥36,408
+- Money: ¥37,128
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

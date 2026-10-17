@@ -117,10 +117,14 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Defeat quote: "Oh, I see. That's good to know."
    - Outcome: Complete victory! Total money: ¥36,408.
 
-9. Hiker Lenny: [BATTLING]
+9. Hiker Lenny: [DEFEATED]
    - Location: (15, 65) facing East outside Meteor Falls cave entrance.
    - Pre-battle quote: 'Yodelayhihoo! ... You're supposed to shout "yodelayhihoo" since it doesn't echo here!'
-   - Team: 3 Pokémon (Geodude ♂ Lv 18 - OHKO'd by Leaf Blade; Machop ♂ Lv 18 - OHKO'd by Leaf Blade).
+   - Defeat quote: 'Yodelayhihoo!'
+   - Team: Geodude ♂ Lv 18 (OHKO'd by Leaf Blade), Machop ♂ Lv 18 (OHKO'd by Leaf Blade).
+   - EXP gained: ~600 EXP total for Sage.
+   - Reward: ¥720 prize money.
+   - Outcome: Complete victory! Total money: ¥37,128. Sage HP 116/118.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
