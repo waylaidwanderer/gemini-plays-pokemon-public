@@ -931,7 +931,8 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Pre-battle quote: "Please, allow me to evaluate if you have raised your POKÉMON properly."
    - Team: 6 Pokémon at Lv 11:
      1. Wingull ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
-     2. Goldeen ♀ Lv 11 (in battle)
+     2. Goldeen ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
+     3. Roselia ♀ Lv 11 (in battle)
 
 <hr>
 
