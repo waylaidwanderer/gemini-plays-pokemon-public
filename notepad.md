@@ -1096,11 +1096,11 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥10,512)! Wattson registered in Match Call. Third gym badge conquered! Next: Exit Mauville Gym, heal party at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and use HM06 Rock Smash to clear blocked paths! Party: Sage Lv 32 (OK, 84/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥11,056)! Wattson and Anna & Meg registered in Match Call. Third gym badge conquered! Next: Explore Route 117 toward Verdanturf Town, teach HM06 Rock Smash to Cobalu, and clear blocked paths! Party: Sage Lv 32 (OK, 84/84), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 32) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 84/84. Stats: HP 84, Atk 53, Def 39, Sp.Atk 62, Sp.Def 57, Speed 75. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 14) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 39/39. Stats: HP 39, Atk 15, Def 13, Sp.Atk 14, Sp.Def 20, Speed 16. Status: OK.
+2. LILZ (Lombre ♀, Level 15) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 47/47. Stats: HP 47, Atk 23, Def 20, Sp.Atk 20, Sp.Def 27, Speed 23. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
 
@@ -1116,8 +1116,8 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥10,512
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
+- Money: ¥11,056
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
