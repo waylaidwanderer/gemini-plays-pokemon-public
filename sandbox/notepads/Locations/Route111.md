@@ -64,6 +64,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Location: (13, 114) facing South outside Winstrate House.
    - Pre-battle quote: "Hello! I take it you're a traveler. How's this? What do you say to taking on our family of four in a series of POKéMON battles?"
    - Challenge: 4-trainer sequential gauntlet (Victor, Victoria, Vivi, Vicky). Defeating all four awards the Macho Brace!
+   - Defeat quote: "Aiyah! You're a lot tougher than I expected!"
    - Team: Taillow ♂ Lv 16 (OHKO'd by Sage's Quick Attack), Zigzagoon ♂ Lv 16 (OHKO'd by Sage's Quick Attack).
    - Reward: ¥640 prize money.
    - Outcome: Complete victory! Battle 1 of 4 cleared without taking any damage! Sage HP 85/89.
