@@ -885,7 +885,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
     - Team: Magnemite Lv 17 (OHKO'd by Sage's critical hit Leaf Blade), Whismur ♂ Lv 17 (OHKO'd by Sage's Leaf Blade).
     - Reward: ¥1,632 prize money.
     - Outcome: Complete victory! Lilz grew to Lv 16.
-- Trainer Tips Signpost: Located at (7, 84), read from (7, 83) facing South: "TRAINER TIPS / One of the indicators of a POKéMON's personality is its NATURE."
+- Trainer Tips Signpost: Located at (7, 84), read from (7, 83) facing South: "TRAINER TIPS / SP. ATK stands for SPECIAL ATTACK. Likewise, SP. DEF stands for SPECIAL DEFENSE."
 11. Picnicker Irene: [DEFEATED]
     - Location: (10, 82) facing East near the Route 112 signpost.
     - Pre-battle quote: "I don't know where you're going, but would you like to battle?"
