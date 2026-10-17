@@ -867,7 +867,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
 3. [ ] Harvest ripe berries from berry patches.
-4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria defeated).
+4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha defeated; Derek in battle).
 5. [ ] Reach Verdanturf Town at the western terminus.
 
 ## Topography & Discovered Coordinates
@@ -1210,6 +1210,8 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Evolution Mechanics: Pressing B during the evolution animation cancels evolution; avoid pressing B to allow evolution to finish safely.
 - Special Move Mechanics: In Gen 3, all Grass-type moves (including Leaf Blade) are Special, so enemy physical Attack drops (Growl) have no effect on their damage.
 - Multi-Step D-Pad Navigation: Consecutive identical D-pad presses require a 'sleep' (e.g. 'sleep 100') between them to ensure key release is registered by the emulator; without sleeps, multiple identical directional presses only result in a single turn/step.
+- TM/HM Replacement Navigation: In Gen 3, teaching a TM/HM to a Pokémon with 4 moves displays the BATTLE MOVES screen. Move selection box starts on move 1; pressing Down navigates to the move to replace. Confirming with A prompts 'Delete [MOVE] and make room for [NEW MOVE]?' with default YES. Confirming deletes old move and teaches new move.
+- Menu Input Timing: When transitioning between sub-menus (e.g. PokéNav to Start menu, or Bag to Party), allow ~300-400ms for UI animations to settle before sending navigation presses.
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
 2. [x] Visit Rydel's Cycles, obtain Mach Bike, and register to Select button.
@@ -1228,7 +1230,5 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
 7. [ ] Obtain HM04 Strength from Wanda's boyfriend.
 8. [ ] Return to Mauville City and head north onto Route 111 toward Mt. Chimney / Fallarbor Town.
-- TM/HM Replacement Navigation: In Gen 3, teaching a TM/HM to a Pokémon with 4 moves displays the BATTLE MOVES screen. Move selection box starts on move 1; pressing Down navigates to the move to replace. Confirming with A prompts 'Delete [MOVE] and make room for [NEW MOVE]?' with default YES. Confirming deletes old move and teaches new move.
-- Menu Input Timing: When transitioning between sub-menus (e.g. PokéNav to Start menu, or Bag to Party), allow ~300-400ms for UI animations to settle before sending navigation presses.
 
 <hr>
