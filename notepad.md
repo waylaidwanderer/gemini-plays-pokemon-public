@@ -1092,7 +1092,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Upper Direction Signpost: Located at (22, 37), approached from (22, 38) facing North:
   "MT. CHIMNEY CABLE CAR / 'A short walk ⬆ way!'"
 - Upper Hiker: Located at (24, 34) facing West.
-- Cable Car Station: Located at northeast plateau behind white fence. Unblocked after Meteor Falls! Magma grunts ascended to Mt. Chimney summit.
+- Cable Car Station: Located at northeast plateau behind white fence. Unblocked after Meteor Falls! Magma grunts ascended to Mt. Chimney summit. Entrance doors are at (28..29, 27) entered from (28..29, 28) facing North.
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
