@@ -54,3 +54,4 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 
 4. Hiker Trent: [IN PROGRESS]
    - Location: (15, 39..40) facing North on west upper terrace.
+   - Pre-battle quote: "My legs are solid from pounding up and down the mountains. They're not going to buckle easily, friend!"
