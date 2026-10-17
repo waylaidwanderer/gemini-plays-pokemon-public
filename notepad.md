@@ -1226,6 +1226,16 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - East Entrance from Fallarbor Town: Connects at (37, 10).
 - Entry corridor runs west along row 10 between garden plots.
 - Route 114 signpost visible at northwest (around x=31, y=7).
+- Northern Path & Landmarks:
+  - Tan path branches north from (30, 10) up to row 5.
+  - Signpost located at east of north path around (31..32, 6).
+  - Fossil Maniac's House: Located at the north end of the path (entrance around row 4..5).
+    - Inside: Fossil Maniac's brother gifts TM28 Dig!
+  - NPC in Red Hat: Standing near the north pond at (24..25, 3).
+    - Gifts TM05 Roar!
+  - North Pond: Located at rows 4..8, cols 22..26.
+  - South Pond: Located at rows 14..18, cols 20..25.
+  - Main Path: Turns west along rows 11..12 between the two ponds.
 
 <hr>
 
