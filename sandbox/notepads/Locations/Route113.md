@@ -82,3 +82,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Team: Aron ♂ Lv 19 (only 1 Pokémon, defeated by Pursuit for 390 EXP; Sage grew to Lv 38!).
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Total money: ¥30,796. Sage HP 96/115 (PAR).
+
+6. Picnicker Sophie / Kindler Bernie: [IN BATTLE]
+   - Location: Positioned along column 7 between the berry patches (Picnicker at 7, 6 facing South; Kindler at 7, 11 facing North).
+   - Engaged player at (7, 10).

@@ -1131,6 +1131,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Total money: ¥30,796. Sage HP 96/115 (PAR).
 
+6. Picnicker Sophie / Kindler Bernie: [IN BATTLE]
+   - Location: Positioned along column 7 between the berry patches (Picnicker at 7, 6 facing South; Kindler at 7, 11 facing North).
+   - Engaged player at (7, 10).
+
 <hr>
 
 <h1><code>Locations/Route116</code></h1>
