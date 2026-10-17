@@ -1119,7 +1119,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥204 prize money.
    - Outcome: Complete victory! Total money: ¥30,492. Sage HP 97/112 (PAR).
 - Ash Mound 2: [CLEARED] Located at (20, 5). Dispersed into Soot Sack.
-- Item Ball 3: Spotted in southern tree pocket around (12..13, 15..16).
+- Western Signpost: Located at (12, 7).
+- Berry Patches: Two soft loamy soil patches located at cols 5..11, rows 5..8 (north) and rows 11..14 (south).
+- Item Ball 3: Located in southern tree pocket around (15, 16).
+- Western NPCs: NPC with green bandana at (2, 5); Pokémaniac/NPC at (2, 13).
 5. Youngster Dillon: [DEFEATED]
    - Location: (21, 11) facing West. Engaged player at (20, 11).
    - Pre-battle quote: "The volcano's eruption is proof that the earth is alive."
@@ -1598,7 +1601,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥30,492
+- Money: ¥30,796
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
