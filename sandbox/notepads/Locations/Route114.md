@@ -155,3 +155,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Canyon Access: The col 29 path from row 44 is impassable (blocked by boulder at 29, 47 and Acro rails). The proven route uses Western Stairs at (15, 49..50) onto the Western Terrace, descending col 12 -> row 55 -> col 17 -> row 60 to white stairs at (24..25, 58).
 - Bypassing the Ledge: Col 27 has a one-way ledge facing West. Climbing the white stairs to row 56 allows looping East above the ledge to col 28 and stepping South to defeat Kindler Bernie at (29, 58).
 - Path to Meteor Falls: From Bernie at (28..29, 58), the canyon runs South along col 28 down to row 72 (valley floor). At row 72, Hiker Lucas (#7) and Picnicker Angelina (#8) engage in a Double Battle. Bypassing or defeating them opens the path WEST along row 72 directly to the Meteor Falls cave entrance at (8, 63).
+
+## Route 114 Northbound Return Route (Verified Mechanics):
+- Protein Alcove (12, 36..43): Smashed rock at (12, 43) respawns on map reload. Path north along river ends in a dead end at (12, 36) facing deep water. Does NOT connect across the river.
+- True Northbound Highway (Col 19 Corridor):
+  - At rows 52..54, col 19 is an open corridor running straight NORTH.
+  - Riding/walking north along col 19 from row 54 through row 44 to row 43 completely bypasses all one-way south-facing jump ledges!
+  - At row 43, the path connects east and north directly to the south bridgehead at (20..21, 33).
+  - Crossing the wooden bridge leads straight to the north shore and Fallarbor Town!
