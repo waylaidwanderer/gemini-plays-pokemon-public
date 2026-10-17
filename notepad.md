@@ -1285,11 +1285,12 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
-- Elevated Mountain Ridge (Western Plateau):
+- Elevated Mountain Ridge & Meteor Falls Approach:
   - Ascended via eastern stairs at (15, 49..50) to (15, 48).
   - Plateau spans cols 9..14, rows 45..54.
-  - Cliffs block south at cols 8..12, row 55.
-  - Mountain path routes east to col 14, then south down cols 13..15 past row 56 toward Meteor Falls.
+  - Path routes east along row 54 to col 14, then south down col 14 (rows 55..62) around the vertical cliff at col 13.
+  - Meteor Falls Entrance: Arched cave mouth located in the southwest cliff at row 63 with a signpost outside.
+  - Lower corridor at row 62 leads west directly to the cave entrance of Meteor Falls.
 
 <hr>
 
