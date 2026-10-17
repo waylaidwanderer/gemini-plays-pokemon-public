@@ -90,33 +90,25 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
-  - Sr. and Jr. Tyra & Ivy: Located at (23..24, 44) facing South. Double Battle format (Graveler Lv 20 & Roselia Lv 20).
-  - Wandering Trainer: Spotted north around (27..28, 41..42).
+  - Sr. and Jr. Tyra & Ivy: Located at (23..24, 44) facing South. Double Battle format (Graveler Lv 20 & Roselia Lv 20) [DEFEATED].
   - Berry Patch: 3 ripe Persim berry plants at col 31, rows 42..44.
-  - Ambient NPC: Wandering boy in purple/striped shirt at (27, 42..43); ambient NPC (no battle or dialogue).
-  - Acro Bike Rails & Decorative Boulder: Rails at cols 28 and 30. Unsmashable decorative boulder at (29, 47) sits on cliff edge; no southern passage through col 29.
-- Middle Tier & Camper Shane:
-  - Bounded on the north by horizontal jump ledge at row 48/49 (cols 18..26). This is a one-way ledge facing south; northward movement back to Upper Tier is impassable.
-  - Camper Shane: Located at (24, 50) facing East.
-- Lower Canyon & Pokémaniac Steve:
-  - Cols 15..22, rows 52..57. Steve at (20, 54).
-  - Western stairs at (15, 49..50) ascend onto the elevated western plateau.
-- Elevated Western Plateau:
-  - Northern Riverbank Alcove: Smashable rock at (12, 43) broken; path leads north along river to (11, 37) containing Protein [COLLECTED].
-  - Western Terrace & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Overlook at (6, 52) is blocked by impassable rock spikes at row 53.
-
-
-- Mud Slopes & Secret Base Discovery:
-  - The 4 mud slopes at cols 1..5 run up to row 45 from the Meteor Falls valley below; they cannot be entered from the terrace and are an upward Mach Bike climb from the bottom.
-  - Square cliff indentation at (9, 44) is a Secret Base location (Secret Power).
-  - Terrace path from (6, 49) stairs connects via (8, 51) east to the plateau and canyon stairs at (15, 49).
-- Canyon Nook & Route Topology:
-  - Western Canyon Nook (cols 16..22, rows 52..57): Contains Pokémaniac Steve at (20, 54) and Rock Smash boulder at (20, 57). Bounded by cliffs on west, south (row 58), and east (col 23 cliff wall).
-  - The white stairs at (24..25, 57..58) down to Kindler Bernie are separated from this canyon by the col 23 cliff wall and CANNOT be accessed from col 22.
-  - Correct route south to Meteor Falls: Return north to Camper Shane at (24, 50), then follow the eastern mountain trail south along cols 24..30 to reach the white staircase down to Kindler Bernie (28..29, 58..59), then continue southwest through the valley floor to Hiker Lucas (16, 67) and Meteor Falls (8, 63).
-- Hidden Items:
-  - Carbos: Found inside the rock at (20, 57) at the south end of the canyon.
-
-- Highlands Corridor (col 27):
-  - Open vertical dirt corridor along column 27 running from row 46 south to row 58, bounded on the west by the vertical jump ledge and on the east by the cliff wall and Acro Bike rails.
-  - Allows foot and Mach Bike travel from Upper Tier directly south down to Kindler Bernie (28..29, 58..59) and the Meteor Falls valley basin!
+  - Ambient NPC: Wandering boy in purple/striped shirt at (27, 42..43).
+  - Southern cliffs at row 48..49: Col 29 has stationary boulder at (29, 47). Col 27 has vertical jump ledge facing west. Row 47 has horizontal jump ledge facing south down to Middle Tier.
+- Middle Tier (Camper Shane, rows 48..53):
+  - Camper Shane: Located at (24, 50) facing East [DEFEATED].
+  - South boundary: Bounded by jump ledge at row 53. Can be hopped south at column 22 into Lower Canyon at (22, 54).
+- Lower Canyon (Pokémaniac Steve, rows 54..57):
+  - Pokémaniac Steve: Located at (20, 54) facing North [DEFEATED].
+  - Hidden Carbos: Found in stationary rock at (20, 57).
+  - Western stairs at (15, 49..50): Ascends west onto Western Terrace.
+  - Northern exit: Open corridor along col 19 bypasses the jump ledges, connecting rows 57..50 straight north to row 44 on the Upper Tier.
+  - Southern boundary: Row 58 is an impassable high cliff wall.
+- Western Terrace & Mud Slopes:
+  - Smashed rock at (12, 43): Opened path north along river to Protein at (11, 37) [COLLECTED].
+  - Secret Base indentation: Located in rock face at (9, 44).
+  - Stairs at (6, 49..50): Descend to overlook at (6, 52), blocked south by rock spikes.
+  - Mud slopes (cols 1..5): One-way Mach Bike climb from Meteor Falls valley basin up to northern cliffs.
+- White Staircase & Lower Valley Floor:
+  - White staircase connects down to (24, 61) on the valley floor.
+  - Kindler Bernie patrols to the east at (28..29, 58..59).
+  - Valley trail leads WEST from (24, 61) along rows 61..67 toward Hiker Lucas at (16, 67) and Meteor Falls entrance at (8, 63).
