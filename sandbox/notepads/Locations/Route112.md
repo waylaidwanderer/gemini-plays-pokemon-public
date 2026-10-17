@@ -20,3 +20,8 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Sandy road extends west along rows 50..51.
 - Rock cliff wall on north side, white picket fence and cliff on south side.
 - Trainer (Camper) visible at west end near (29, 49).
+
+## Trainers
+1. Camper: [IN PROGRESS]
+   - Location: (29, 49) facing South on Route 112.
+   - Pre-battle quote: "I'm strong. I won't cry if I lose."
