@@ -157,7 +157,7 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 - South Entrance Warp: (26, 36), player enters at (26, 35) facing North (leads outside to Route 112 at 11, 35).
 - Main Cavern: South section (cols 25..27) heads North to row 22, turns West to col 20, then runs straight North along cols 18..20 toward northern exit.
 - Strength Boulder: Located at (17, 13) blocking the west side corridor. Main path bypasses on the east along cols 18..20.
-- North Exit Portal: Located at (24..25, 5), approached from row 4 heading South (leads outside to northern Route 111).
+- North Exit Portal: Located at (25..26, 5), approached from (25, 4) heading South (leads outside to northern Route 111).
 
 <hr>
 
@@ -1440,7 +1440,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared (all 4 trainers defeated). Total money: ¥25,840! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent. Next: Enter and traverse Fiery Path to Route 113 & Fallarbor Town! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared (all 4 trainers defeated). Total money: ¥25,840! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 36) [Held Item: None (consumed)] - Evolved on turn 5632! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (5/15), Quick Attack (27/30). HP: 108/109. Max HP: 109. Status: OK. Nature: Lonely. Ability: Overgrow.
