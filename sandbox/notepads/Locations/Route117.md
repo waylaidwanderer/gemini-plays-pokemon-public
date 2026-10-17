@@ -29,3 +29,4 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 
 ## Trainers
 1. Sr. and Jr. Anna & Meg: Located at (42..43, 6) facing Down by the wooden fence. Double Battle. Meg pre-battle quote: "I'm going to tag up with my super senior student partner and beat you!"
+   - Team: Zigzagoon ♂ Lv 15, Makuhita ♂ Lv 17.
