@@ -1017,5 +1017,13 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Whiteout Mechanics: Whiting out restores the entire party to 100% HP and PP, placing the player right outside the last visited Pokémon Center.
 - In-Battle Menu Timing: Using A to advance combat text can cause race conditions if the battle menu appears during thinking frames, leading to accidental move selection. Using B to dismiss combat text avoids accidental selections because B does not confirm menu options.
 - Gen 3 Berry Mechanics: In Generation 3 (R/S/E), Berries cannot be used directly as medicine from the Bag outside of battle. They can only be held by a Pokémon to trigger automatically in battle, planted in soft soil, or blended into Pokéblocks.
+## Progression Checklist - Phase 6: Mauville City & Gym 3 (Active)
+1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
+2. [x] Visit Rydel's Cycles, obtain Mach Bike, and register to Select button.
+3. [x] Visit Rock Smash Guy's house and obtain HM06 Rock Smash.
+4. [ ] Locate Mauville Gym in northern Mauville City.
+5. [ ] Battle and defeat Wally outside Mauville Gym (Ralts Lv 16).
+6. [ ] Enter Mauville Gym, solve electric barrier switch puzzle, and defeat Gym trainers.
+7. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
 <hr>
