@@ -1261,9 +1261,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Highway runs west along row 11 to col 20, then bends south along cols 20..21.
   - Ponds located on both sides (north pond at rows 5..8, southwest pond at rows 13..17, southeast pond at rows 13..17).
 - Lake & Wooden Bridge:
-  - Wooden bridge located at row 19, spanning cols 15..20 across the lake.
-  - East bridgehead at (20, 19), accessed from paved path at (20, 16..18).
-  - West bridgehead at (15, 19), leads to Lanette's house on the western island.
+  - Vertical wooden bridge running North-South along cols 20..21, spanning rows 20..25+ across the river.
+  - North bridgehead at (20..21, 19), accessed from paved path at (20, 16..18).
+  - South bridgehead connects to southern bank of Route 114, leading west to Lanette's house and south to Meteor Falls.
 
 <hr>
 
