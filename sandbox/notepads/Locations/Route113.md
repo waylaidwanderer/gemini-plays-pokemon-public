@@ -32,3 +32,6 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - EXP gained: 297 EXP.
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Sage HP 108/112 (PAR).
+- Northern Signpost: Located at (58, 4), read from (58, 5) facing North. Text: "TRAINER TIPS / You may register one of the KEY ITEMS in your BAG as SELECT. / Simply press SELECT to use the registered item."
+- Item Ball 2: Located at (53, 7) on elevated ledge above row 9.
+- Trainer: Camper Lawrence spotted around (51, 12).
