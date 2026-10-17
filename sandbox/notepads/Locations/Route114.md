@@ -81,3 +81,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Row 42 connects west route (col 21) east to the lawn outside Lanette's house (col 27).
   - Twins: Located at cols 24..25, row 43 facing North.
   - School Kid / Camper: Located at (28..29, 42..43) facing West.
+- Lanette's House Interior:
+  - Entrance mat at (5, 7), spawn at (5, 6).
+  - Messy room filled with boxes, books, research papers, and a PC.
+  - Lanette standing at (5, 4), talkable from (5, 5) facing North.
+  - Gift: [OBTAINING] Lanette gifts the Lotad Doll decoration!
