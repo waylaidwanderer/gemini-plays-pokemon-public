@@ -1339,6 +1339,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Western Terrace & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Overlook at (6, 52) is blocked by impassable rock spikes at row 53.
 
 
+- Mud Slopes & Secret Base Discovery:
+  - The 4 mud slopes at cols 1..5 run up to row 45 from the Meteor Falls valley below; they cannot be entered from the terrace and are an upward Mach Bike climb from the bottom.
+  - Square cliff indentation at (9, 44) is a Secret Base location (Secret Power).
+  - Terrace path from (6, 49) stairs connects via (8, 51) east to the plateau and canyon stairs at (15, 49).
 
 <hr>
 
