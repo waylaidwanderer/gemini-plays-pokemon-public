@@ -1082,7 +1082,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Outcome: Complete victory! Sage HP 108/112 (PAR).
 - Northern Signpost: Located at (58, 4), read from (58, 5) facing North. Text: "TRAINER TIPS / You may register one of the KEY ITEMS in your BAG as SELECT. / Simply press SELECT to use the registered item."
 - Item Ball 2: Located at (53, 7) on elevated ledge above row 9, accessible from the west via cols 47..50 rows 7..8.
-- Trainer: Camper Lawrence located at (51, 11) facing South.
+2. Parasol Lady Madeline: [IN BATTLE]
+   - Location: (51, 11) facing South.
+   - Pre-battle quote: "I use this parasol to ward off this filthy, yucky volcanic ash from my dear NUMEL."
+   - Team: Numel (Fire/Ground) Lv 19.
 - Trainers: Twins Tori & Tia located at (44..45, 3) facing South.
 - Wild Spinda Lv 16 encountered and defeated at (57, 6) with Quick Attack (earned 194 EXP).
 - Ash Mound 1: Located at (50, 12).
