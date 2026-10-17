@@ -322,6 +322,7 @@
     - **Elite Four #4: Drake (`EverGrandeCity_DrakesRoom` `(6, 5)`):**
       - Stand at `(6, 6)` facing `Up` (`Shelgon Lv. 52` [Protect, Rock Tomb, Double-Edge], `Altaria Lv. 54`, `Kingdra Lv. 53` [Smokescreen, Dragon Dance], `Flygon Lv. 53`, `Salamence Lv. 55 [Sitrus Berry, Intimidate]` [Defeated — money `$21,471`, `ATRITON` grew to Lv. 61; declined `Endeavor`]). Walk `Left` 1 to `(5, 6)`, `Up` 4 to `(5, 2)`, `Right` 1 to `(6, 2)`, and `Up` 1 into `(6, 1)` -> `EverGrandeCity_Hall4 (5, 33)` -> `Up` 32 to `(5, 1)` -> `EverGrandeCity_ChampionsRoom` (automatically initiates Champion Wallace battle upon entry).
     - **Champion Wallace (`EverGrandeCity_ChampionsRoom`):**
+      - Entering `(5, 1)` from `EverGrandeCity_Hall4` auto-walks to `(6, 6)` and plays 12 pre-battle dialogue boxes before initiating battle.
       - Observed team members:
         1. **Wailord Lv. 57** (`Water Spout`, `Rain Dance`, `Double-Edge`, `Blizzard`)
         2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`)
