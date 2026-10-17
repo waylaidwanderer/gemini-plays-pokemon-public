@@ -216,7 +216,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 - Poké Mart: Blue roof building located at cols 22..27, rows 11..13. Blue sliding door at (23, 13), approached from (23, 14) facing North.
 - Rydel's Cycles: Bicycle shop located at rows 3..5, cols 33..37. Outdoor sign at (33, 6). Front entrance door at (35, 5), approached from (35, 6) facing North. Interior: entrance mat at (3, 8), Rydel stands at (2, 5). Obtained Mach Bike!
 - Rock Smash Dude's House: Located at cols 30..34, rows 11..14 directly east of Poké Mart. Front entrance door at (32, 14), approached from (32, 15) facing North. Interior: entrance mat at (3, 7), Rock Smash Dude at (4, 4).
-- Mauville Gym: Gym Leader Wattson (Electric-type specialist).
+- Mauville Gym: Located at cols 6..10, rows 2..4 in northwest district. Gym Leader Wattson (Electric-type specialist). Outdoor sign at (9, 4). Wally and his uncle stand at (7..8, 4) blocking the entrance until Wally is defeated in battle.
 - Game Corner: Sells coins and prizes (TMs, dolls). Requires Coin Case (obtainable from woman in Mauville house in exchange for Harbor Mail).
 
 ## Progression Checklist - Mauville City
