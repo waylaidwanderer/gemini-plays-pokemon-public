@@ -571,7 +571,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 2. Youngster Timmy: [IN PROGRESS]
    - Location: (32, 69) on east side of Cycling Road pedestrian walkway, facing Left.
    - Pre-battle Quote: "I found some cool POKÉMON in the grass around here!"
-   - Team: Aron ♂ Lv 15. Defeating with Sage's Absorb.
+   - Team: Aron ♂ Lv 15 (fainted), Electrike (active). Defeating with Sage.
 
 <hr>
 
