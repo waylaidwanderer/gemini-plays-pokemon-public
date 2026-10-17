@@ -1075,8 +1075,9 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 1. Youngster Jaylen: [DEFEATED]
    - Location: (62, 8) facing South along column 62 (engaged player at (62, 11), stands at (62, 10)).
    - Pre-battle quote: "Can you guess why it's so cool around here?"
-   - Defeat quote: "It's because of the volcanic ash!"
+   - Defeat quote: "Peeuuw! That stinks!"
    - Team: Trapinch ♂ Lv 19 (only 1 Pokémon, OHKO'd by Quick Attack).
+   - EXP gained: 297 EXP.
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Sage HP 108/112 (PAR).
 
