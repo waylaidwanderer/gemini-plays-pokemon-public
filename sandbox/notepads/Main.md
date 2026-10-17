@@ -110,7 +110,7 @@
 3. [x] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
 4. [x] Advance north along Route 111 to Route 112.
 5. [x] Pass through Fiery Path around Mt. Chimney.
-6. [ ] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
+6. [x] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
 7. [ ] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.

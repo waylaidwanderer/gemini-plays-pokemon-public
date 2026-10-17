@@ -145,14 +145,16 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - West / South Exit: Route 114.
 
 ## Key Landmarks
-- Pok�mon Center: Red-roof building located in northwest section.
-- Pok� Mart: Blue-roof building located in southwest section.
+- Pok�mon Center: Red-roof building located in northwest section (entrance around x=14..15, y=6..7).
+- Pok� Mart: Blue-roof building located in southwest section (around x=14..16, y=14..16).
 - Professor Cozmo's House: Located in the western part of town.
 - Move Relearner / Move Tutor House: Resident who teaches forgotten moves in exchange for Heart Scales.
 - Battle Tent: Fallarbor Battle Tent (Set-level battles with custom rules).
 
 ## Discovered Coordinates & Layout
-- Eastern Entrance from Route 113: around (1..0, 10).
+- Eastern Entrance from Route 113: (19, 10).
+- Central paved path runs east-west along row 10.
+- Paved branch heads north from (14..15, 10) directly to Pok�mon Center entrance.
 
 
 <hr>
@@ -1723,7 +1725,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 3. [x] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
 4. [x] Advance north along Route 111 to Route 112.
 5. [x] Pass through Fiery Path around Mt. Chimney.
-6. [ ] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
+6. [x] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
 7. [ ] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
