@@ -23,8 +23,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Mud Slides: Located at cols 17 and 19 leading up to an upper ledge.
 - Upper Ledge Item Ball: Visible at (14..15, 41) near the top of the mud slides.
 - Mountain Stairs: Located at (21..22, 40..42) leading up the mountain.
-- Direction Signpost: Located at (19, 43) west of the stairs.
-- Trainer (Picnicker) at (22, 46).
+- Direction Signpost: Located at (20, 43) west of the stairs.
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
