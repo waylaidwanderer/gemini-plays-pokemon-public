@@ -268,11 +268,16 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Caution: Beware of Voltorb's SonicBoom (fixed 20 damage) and Selfdestruct; Magneton's SonicBoom and Supersonic confusion.
 
 ## Trainers Inside Gym
-1. Guitarist Kirk
+1. Guitarist Kirk & Battle Girl Vivian: [ENGAGED - DOUBLE BATTLE]
+   - Location: Southwest corridor. Kirk at (1, 13) facing Down, Vivian at (1, 16) facing Up.
+   - Trigger: Stepping onto (1, 15) triggers a simultaneous 2-on-2 Double Battle.
+   - Quotes: Vivian: "With my charm and my POKÉMON's moves, you'll be shocked!"; Kirk: "My electric soul, it'll shatter your dreams whole, whoa-yeahah!"
+   - Teams:
+     - Vivian: Meditite ♀ Lv 17 (OHKO'd by Sage's Leaf Blade)
+     - Kirk: Electrike ♂ Lv 17
 2. Youngster Ben
-3. Battle Girl Vivian
-4. Guitarist Shawn
-5. Bug Catcher Angelo
+3. Guitarist Shawn
+4. Bug Catcher Angelo
 
 ## Progression Checklist - Mauville Gym
 1. [ ] Enter Mauville Gym and speak to Gym Guide (obtain Fresh Water).
