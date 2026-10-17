@@ -947,8 +947,11 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Path continues north to row 20, then curves east around tree grove (cols 14..17).
 - Secret Power NPC: Located at (13, 20) facing north into Secret Base tree at (13, 19). Answering YES awards TM43 Secret Power! [OBTAINED]
 2. Cooltrainer Brooke: [UNFOUGHT]
-   - Location: (24, 8) on Route 111 North, facing West along row 8 (vision range: cols 23..20 at row 8).
+   - Location: (23, 8) on Route 111 North, facing South along column 23 (vision range: rows 9..12 at col 23).
    - Team (Emerald): Wingull Lv 17, Numel Lv 17, Roselia Lv 17.
+- Berry Patches: Located at rows 5-6 north of Brooke:
+  - Left patch (cols 19..20): 2 berry plants (Chesto/Oran).
+  - Right patch (cols 22..23): 2 berry plants (Razz/Cheri).
 
 <hr>
 
