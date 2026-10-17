@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, healed party at Pokémon Center, and obtained Mach Bike from Rydel! Next: Obtain HM06 Rock Smash, explore Mauville City landmarks, and challenge Gym 3 (Wattson). Party: Sage Lv 30, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12 (all OK/full health).
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, healed party at Pokémon Center, obtained Mach Bike from Rydel, obtained HM06 Rock Smash, and defeated Wally outside Mauville Gym! Next: Enter Mauville Gym, solve electric barrier puzzle, and defeat Gym Leader Wattson for Dynamo Badge. Party: Sage Lv 30, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12 (all OK/full health).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 80/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -44,7 +44,7 @@
 - Phase 3: Route 102 cleared (Calvin, Rick, Allen, Tiana defeated; caught Lotad LILZ), Petalburg City Gym visit with Dad, assisted Wally catching Ralts, Route 104 traversed (Cindy, Winston, Haley, Gina & Mia, Ivan defeated; Wailmer Pail and Bullet Seed obtained), Petalburg Woods cleared (rescued Devon researcher, defeated Aqua Grunt, Lyle, James), Rustboro City explored (Cut HM01 and Quick Claw obtained), Rustboro Gym cleared (Josh, Tommy & Marc, and Gym Leader Roxanne defeated; Stone Badge and TM39 Rock Tomb earned; Sage evolved to Grovyle Lv 16).
 - Phase 4: Recovered stolen Devon Goods & rescued Peeko in Rusturf Tunnel, met Mr. Stone at Devon Corp and received PokéNav + Letter, sailed with Mr. Briney to Dewford Town, obtained Old Rod and HM05 Flash, delivered Letter to Steven Stone in Granite Cave (received TM47 Steel Wing), and defeated Gym Leader Brawly to earn the Knuckle Badge and TM08 Bulk Up.
 
-## Progression Checklist - Phase 5: Slateport City & Route 110 (Active)
+## Progression Checklist - Phase 5: Slateport City & Route 110 (Completed)
 1. [x] Sail with Mr. Briney from Dewford Town to Route 109 beach.
 2. [x] Defeat beach trainers on Route 109 (Edmond & Hailey, Ricky, Lola & Chandler; found hidden Potion).
 3. [x] Enter Slateport City and heal/register checkpoint at Pokémon Center.
@@ -81,7 +81,7 @@
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
 2. [x] Visit Rydel's Cycles, obtain Mach Bike, and register to Select button.
 3. [x] Visit Rock Smash Guy's house and obtain HM06 Rock Smash.
-4. [ ] Locate Mauville Gym in northern Mauville City.
-5. [ ] Battle and defeat Wally outside Mauville Gym (Ralts Lv 16).
+4. [x] Locate Mauville Gym in northern Mauville City.
+5. [x] Battle and defeat Wally outside Mauville Gym (Ralts Lv 16).
 6. [ ] Enter Mauville Gym, solve electric barrier switch puzzle, and defeat Gym trainers.
 7. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
