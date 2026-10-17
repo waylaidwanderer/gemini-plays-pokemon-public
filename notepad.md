@@ -938,5 +938,6 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - PokéNav Navigation: On the PokéNav main menu (HOENN MAP, CONDITION, MATCH CALL, SWITCH OFF), pressing B does NOT exit. You must select 'SWITCH OFF' (accessible immediately by pressing Up from HOENN MAP to wrap to the bottom) to close the PokéNav.
 - Whiteout Mechanics: Whiting out restores the entire party to 100% HP and PP, placing the player right outside the last visited Pokémon Center.
 - In-Battle Menu Timing: Using A to advance combat text can cause race conditions if the battle menu appears during thinking frames, leading to accidental move selection. Using B to dismiss combat text avoids accidental selections because B does not confirm menu options.
+- Gen 3 Berry Mechanics: In Generation 3 (R/S/E), Berries cannot be used directly as medicine from the Bag outside of battle. They can only be held by a Pokémon to trigger automatically in battle, planted in soft soil, or blended into Pokéblocks.
 
 <hr>
