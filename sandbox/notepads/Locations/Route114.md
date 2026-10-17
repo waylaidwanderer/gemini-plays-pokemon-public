@@ -76,3 +76,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Reward: ¥1,140 prize money.
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
+
+- Elevated Mountain Ridge (Western Plateau):
+  - Ascended via eastern stairs at (15, 49..50) to (15, 48).
+  - Wide light-tan rocky plateau spans cols 9..14, rows 45..56+.
+  - Secondary stairs descending west at cols 6..7, rows 49..50.
+  - Breakable rock located to the north at (12, 40).
+  - Secret Power indentation at (9, 44).
+  - Main mountain trail runs south down cols 10..12 toward Meteor Falls.
