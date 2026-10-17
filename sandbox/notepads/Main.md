@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 39, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Meteor Falls cutscene cleared (Team Magma fled to Mt. Chimney with Meteorite, Team Aqua pursuing)! Next: Travel to Route 112 Cable Car Station, ascend Mt. Chimney, defeat Team Magma Leader Maxie, and retrieve the Meteorite! Total money: ¥37,128. Party: Sage Lv 39 (OK, 118/118), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Meteor Falls cutscene cleared (Team Magma fled to Mt. Chimney with Meteorite, Team Aqua pursuing)! Next: Board Cable Car at Route 112 Cable Car Station, ascend Mt. Chimney summit, defeat Team Magma Leader Maxie, and retrieve the Meteorite! Total money: ¥37,128. Party: Sage Lv 39 (OK, 118/118), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 118/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
