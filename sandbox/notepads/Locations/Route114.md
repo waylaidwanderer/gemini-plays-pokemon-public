@@ -117,9 +117,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Defeat quote: "Oh, I see. That's good to know."
    - Outcome: Complete victory! Total money: ¥36,408.
 
-9. Hiker Claude: [UNBATTLED]
+9. Hiker Claude (Yodeler NPC): [TALKED]
    - Location: (15, 65) facing East outside Meteor Falls cave entrance.
-   - Status: Spotted overlooking the lower basin stairs.
+   - Status: Friendly ambient NPC ('Yodelayhihoo! ... ... You're supposed to shout 'yodelayhihoo' back!'). Not a trainer.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
