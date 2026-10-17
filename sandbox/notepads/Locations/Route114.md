@@ -113,8 +113,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Kindler Bernie patrols to the east at (28..29, 58..59).
   - Valley trail leads WEST from (24, 61) along rows 61..67 toward Hiker Lucas at (16, 67) and Meteor Falls entrance at (8, 63).
 
-- White Staircase Access Route:
-  1. From Camper Shane (24, 50), walk to (22, 52) and hop South over the row 53 ledge to (22, 54).
-  2. From (22, 54), walk East to cols 24..25 at row 54/55.
-  3. Walk South down the white staircase to (24, 61) on the valley floor.
-  4. From (24, 61), explore WEST along row 61 to reach Hiker Lucas (16, 67) and the Meteor Falls cave entrance (8, 63).
+- True Route to Meteor Falls Valley Floor & Cave:
+  1. From lower canyon at (16, 50), climb the western stairs at (15, 49..50) up to the Western Terrace at (15, 48).
+  2. From (15, 48), step West to col 14: (14, 48).
+  3. Walk South down column 14 all the way to row 60: (14, 60).
+  4. Walk East along row 60 directly to (24, 60)/(24, 61) at the base of the white staircase.
+  5. From (24, 61), explore WEST along row 61 toward Hiker Lucas (16, 67) and the Meteor Falls cave entrance (8, 63).
