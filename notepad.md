@@ -948,8 +948,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Secret Power NPC: Located at (13, 20) facing north into Secret Base tree at (13, 19). Answering YES awards TM43 Secret Power! [OBTAINED]
 - Berry Girl: Located at (24, 8) facing West by the northern berry patches. Talked to her and received a RAZZ BERRY! [OBTAINED]
 - Berry Patches: Located at rows 5-6:
-  - Left patch (cols 19..20): 2 berry plants.
-  - Right patch (cols 22..23): 2 berry plants.
+  - Right patch (cols 22..23, row 5): 2 Razz Berry plants [HARVESTED - 6 Razz Berries].
+  - Left patch (cols 18..19, row 5): 2 berry trees (currently harvesting).
+- Route 113 Signpost: Located at (16, 5) to the left of the berry patch.
 
 <hr>
 
