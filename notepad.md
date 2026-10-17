@@ -540,8 +540,9 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Underpass: Located at row 69 (cols 14..22), directly east of the Trick House and south of the old woman at (14, 70). Provides pedestrian passage under the elevated Seaside Cycling Road between the west side (Trick House/Route 103) and east side of Route 110.
 - East side pedestrian path: Begins at (22..26, 69). Row 68 provides a path east towards an Item Ball at (30, 69) and Youngster Timmy at (32, 69). Northbound pedestrian path continues north along cols 30..33 towards Mauville City.
 - Item Ball: (30, 69) - [OBTAINED] Dire Hit!
+- Causeway: Narrow walkway over water running north along cols 32..35 from row 64 to row 50+. Column 33/34 provides the primary path.
+- Rival Brendan Encounter: [ACTIVE] Triggered at (34, 55) along the causeway! Rival Battle #2 against Brendan (Wailmer Lv 18, Numel Lv 18, Combusken Lv 20).
 - Under-Bridge Route: Pedestrian pathway winding underneath and alongside the Cycling Road structure towards Mauville City.
-- Rival Brendan Encounter: Rival Battle #2 occurs under the Cycling Road bridge! Rival team: Wailmer (~Lv 18), Numel (~Lv 18), Combusken (~Lv 20).
 
 ## Progression Checklist - Route 110
 - [x] Enter Route 110 from Slateport City.
