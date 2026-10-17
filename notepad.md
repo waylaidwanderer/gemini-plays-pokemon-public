@@ -1264,13 +1264,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Berry Patch & Ledge Gap:
   - Located on the east side of the route at col 31, rows 42..44 behind the col 30 ridge (3 ripe Persim berry plants).
   - Natural open gap at column 29 through row 44 leads south into the mountain highlands.
-- Route 114 Main Mountain Trail & Canyon:
-  - Smashable rock at (29, 47).
-  - Rocky plateau blocks south at cols 25..28, row 53.
-  - Main trail routes west along row 52 (cols 25->20), then south down the western canyon (cols 18..22, rows 52..57).
-  - Dead-End Eastern Pocket: (21..22, 57) dead-ends against cliff wall at row 58.
-  - Western Ascent Stairs: Located at cols 14..15, rows 49..50. Base of stairs accessed from the south at (15, 51). Ascends north onto the elevated western mountain ridge at (15, 48).
-  - Elevated Mountain Ridge: Light-tan craggy mountain plateau leading west and south toward Meteor Falls.
 ## Trainers
 1. Fisherman Nolan: [DEFEATED]
    - Location: North pond shoreline at (25, 6) facing South. Engaged from (26, 6).
@@ -1309,16 +1302,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
-- Route 114 Elevated Plateau & Mountain Trail:
-  - Eastern Ascent Stairs: Located at cols 14..15, rows 49..50. Ascends from lower tall grass area onto the plateau at (15, 48).
-  - Lower Plateau: (9..15, 44..50). South dead-end pocket at (8..14, 50..54) against row 54 ledge.
-  - Western Stairs & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to small terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Cliff overlook at (6, 52) is blocked by impassable rock spikes at row 53; mud slopes on west require Mach Bike to ride up. Secret base indentation at (9, 47).
-  - Northern Riverbank Alcove: Smashable rock at (12, 43) broken with Rock Smash. Path leads north along column 12 to (11, 37) containing Protein [COLLECTED].
-- Route 114 Southeastern Stairs & Southern Canyon:
-  - Pokémaniac Steve is located at (20, 54) in the tall grass canyon.
-  - Southeastern Stairs: Located at cols 23..24, rows 58..59. Descends from the canyon/plateau south into the lower valley leading to Meteor Falls.
-  - Wild Pokémon in Route 114 tall grass: Lombre (Lv 16).
-
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
   - Sr. and Jr. Tyra & Ivy: Located at (23..24, 44) facing South. Double Battle format (Graveler Lv 20 & Roselia Lv 20).
@@ -1336,6 +1319,12 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Elevated Western Plateau:
   - Northern Riverbank Alcove: Smashable rock at (12, 43) broken; path leads north along river to (11, 37) containing Protein [COLLECTED].
   - Western Terrace & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Overlook at (6, 52) is blocked by impassable rock spikes at row 53.
+5. Sr. and Jr. Tyra & Ivy: [IN PROGRESS]
+   - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
+   - Format: 2-on-2 Double Battle.
+   - Tyra pre-battle quote: "TYRA: Well, sure. I'm in the mood for it."
+   - Opponent team: Graveler Lv 20 & Roselia Lv 20.
+   - Status: Battle initiated!
 
 
 <hr>
