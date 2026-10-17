@@ -792,7 +792,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 1. [x] Enter Route 111 from Mauville City.
 2. [x] Defeat the Winstrate Family (Victor, Victoria, Vivi, Vicky) outside their house.
 3. [x] Enter Winstrate House and receive Macho Brace from Victoria.
-4. [ ] Battle Gabby & Ty (Double Battle).
+4. [x] Battle Gabby & Ty (Double Battle).
 5. [ ] Take the western fork onto Route 112 toward Mt. Chimney / Fiery Path.
 
 ## Discovered Coordinates & Layout (South Section)
