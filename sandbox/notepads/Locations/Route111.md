@@ -10,7 +10,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 
 ## Key Landmarks
 - Winstrate House: Home of the Winstrate family (Victor, Victoria, Vivi, Vicky). Defeating all 4 in a gauntlet awards the Macho Brace!
-- Winstrate House Interior: Entrance mat at (3, 7). Dining table at cols 4..6, rows 4..5. Victor at (4, 5), Vicky at (4, 4), Vivi at (6, 5), Victoria at (6, 4). Victoria awards the Macho Brace!
+- Winstrate House Interior: Entrance mat at (3, 7). Dining table at cols 5..6, rows 4..5. Victor at (4, 5), Vicky at (4, 4), Victoria at (7, 4), Vivi at (7, 5). Victoria awards the Macho Brace!
 - TV Interviewers (Gabby & Ty): Roving reporters available for battle and interview.
 - Route 111 South Signpost: Directional signpost.
 - Item Ball: (19, 118) - [OBTAINED] Elixir!
