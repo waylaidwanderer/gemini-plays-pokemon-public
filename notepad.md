@@ -922,7 +922,8 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - East entrance from Route 111: (35, 50) heading West (connected to Route 111 at 0, 70).
 - Sandy road extends west along rows 50..51.
 - Rock cliff wall on north side, white picket fence and cliff on south side.
-- Trainer (Camper) visible at west end near (29, 49).
+- Central rock formation at cols 23..27, rows 45..48; road turns North at (21, 50).
+- Trainer (Picnicker) visible at (21, 43) facing East.
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
