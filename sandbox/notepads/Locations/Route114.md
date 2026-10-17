@@ -35,9 +35,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Route 114 Main Mountain Trail & Canyon:
   - Smashable rock at (29, 47).
   - Rocky plateau blocks south at cols 25..28, row 53.
-  - Main trail routes west along row 52 (cols 25->20), then south down the western canyon (cols 18..22, rows 52..60+) toward Meteor Falls.
-  - Rocky stairs ascending mountain ledge located at (15..16, 47..48).
-
+  - Main trail routes west along row 52 (cols 25->20), then south down the western canyon (cols 18..22, rows 52..57).
+  - Dead-End Eastern Pocket: (21..22, 57) dead-ends against cliff wall at row 58.
+  - Western Ascent Stairs: Located at cols 14..15, rows 48..49. Ascends from lower canyon at (15..17, 49) onto the elevated western mountain ridge at (14..15, 47).
+  - Elevated Mountain Ridge: High mountain path leading south toward Meteor Falls.
 ## Trainers
 1. Fisherman Nolan: [DEFEATED]
    - Location: North pond shoreline at (25, 6) facing South. Engaged from (26, 6).
