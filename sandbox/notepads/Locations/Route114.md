@@ -89,5 +89,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 3. Camper Shane: [DEFEATED]
    - Location: Mountain trail at (22, 50) facing East. Engaged player at (25, 50).
    - Pre-battle quote: "Camping's fun! You can fish, roast marshmallows, and tell spooky stories! But the best of all are the POKéMON battles!"
+   - Defeat quote: "Way too strong!"
    - Team: Sandshrew ♂ Lv 18, Nuzleaf ♂ Lv 18. Both OHKO'd by Sage's Leaf Blade!
-   - Strategy: Complete victory!
+   - EXP gained: Sage gained 901 EXP total (358 + 543).
+   - Reward: ¥288 prize money.
+   - Outcome: Complete victory! Total money: ¥33,044.
