@@ -148,4 +148,4 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Berry Patches: Located at rows 5-6:
   - Right patch (cols 22..23, row 5): 2 Razz Berry plants [HARVESTED - 6 Razz Berries].
   - Left patch (cols 18..19, row 5): 2 Oran Berry trees [HARVESTED - 4 Oran Berries].
-- Route 113 Signpost: Located at (16, 5) to the left of the berry patch.
+- Route 113 Signpost: Located at (15, 5) directly left of the berry patch, read from (15, 6) facing North.
