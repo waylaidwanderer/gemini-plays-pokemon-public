@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Phase 8 underway on Route 111 (Victor, Victoria & Vivi Winstrate defeated; Vicky next!). Total money: ¥21,048! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Defeat Vicky Winstrate for the Macho Brace, and advance toward Route 112 / Mt. Chimney! Party: Sage Lv 35 (PSN, 35/92), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Phase 8 underway on Route 111 (All 4 Winstrates defeated!). Total money: ¥21,768! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Enter Winstrate House to collect Macho Brace, then advance toward Route 112 / Mt. Chimney! Party: Sage Lv 35 (PSN, 35/92), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 35) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (6/15), Quick Attack (22/30). HP: 35/92. Stats: HP 92, Atk 58, Def 43, Sp.Atk 69, Sp.Def 62, Speed 83. Status: PSN. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 35) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (5/15), Quick Attack (22/30). HP: 35/92. Stats: HP 92, Atk 58, Def 43, Sp.Atk 69, Sp.Def 62, Speed 83. Status: PSN. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 15) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 47/47. Stats: HP 47, Atk 23, Def 20, Sp.Atk 20, Sp.Def 27, Speed 23. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
