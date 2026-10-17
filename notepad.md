@@ -1355,17 +1355,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 
 
 
-- Physical Route Realities & Overlook Topology:
-  - Row 60 (cols 14..22) is an elevated cliff overlook, NOT the valley floor.
-  - Row 61 is an impassable multi-tier cliff wall directly beneath row 60 (cannot be hopped south into the plaza).
-  - From (24, 61), westward movement along row 61 dead-ends at (22, 61) against the pond cliff.
-  - The true route to Meteor Falls follows the intended trainer sequence: Sr. & Jr. Tyra & Ivy (#5, row 44) -> Kindler Bernie (#6, 28..29, 58..59) -> Hiker Lucas (#7, 14..16, 65) -> Meteor Falls entrance (8, 63).
-  - To reach Kindler Bernie and the eastern canyon, access the eastern mountain path from row 44 via col 29/31.
-
-## Proven Route to White Staircase & Lower Valley:
-1. Western Stairs: From (18, 49), walk West: (17, 49) -> (16, 49) -> climb stairs at (15, 49..50) onto Western Terrace at (15, 48).
-2. Western Terrace Highway: Ride to col 12 -> down col 12 to (12, 55) -> east across row 55 to (17, 55) -> down col 17 to (17, 60).
-3. Base of White Staircase: Ride east along row 60 to white stairs at (24, 60) and descend to (24, 61) to investigate valley floor and route to Meteor Falls!
+## Verified Canyon Route to Meteor Falls:
+- Canyon Access: The col 29 path from row 44 is impassable (blocked by boulder at 29, 47 and Acro rails). The proven route uses Western Stairs at (15, 49..50) onto the Western Terrace, descending col 12 -> row 55 -> col 17 -> row 60 to white stairs at (24..25, 58).
+- Bypassing the Ledge: Col 27 has a one-way ledge facing West. Climbing the white stairs to row 56 allows looping East above the ledge to col 28 and stepping South to defeat Kindler Bernie at (29, 58).
+- Path to Meteor Falls: From Bernie at (28..29, 58), the canyon runs South along cols 28..30 down to row 65 (valley floor), then West past Hiker Lucas (#7 at 15, 65) directly into the cave entrance at (8, 63).
 
 
 <hr>
@@ -1816,7 +1809,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 38 (OK, 113/115), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
