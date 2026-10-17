@@ -24,5 +24,6 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Arrival from Route 117: (17, 9) facing West.
 - Town Signpost: Located at (14, 5).
 - Southern Residential Houses: Green tiled roofs along rows 10..14.
-- Pokémon Center: Red-roofed building on northwest side. Entrance door is at (4, 6), approached from welcome mat at (4, 7) facing North. (Col 5 is solid red wall). Signpost at (3, 7).
+- Battle Tent: Large domed building on northwest side (cols 2..6, rows 2..6) with red/white canopy and blue roof. Outdoor signpost at (3, 7).
+- Pokémon Center: Red-roofed building (currently searching south/central Verdanturf Town).
 - Green-capped NPC outside Pokémon Center at (6, 5).

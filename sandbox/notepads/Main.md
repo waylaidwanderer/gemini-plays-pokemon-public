@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥12,720)! Wattson, Anna & Meg, and Isaac registered in Match Call. Third gym badge conquered! Next: Explore Route 117 toward Verdanturf Town (clearing route trainers and berry patches), use Cobalu's Rock Smash in Rusturf Tunnel, and earn HM04 Strength! Party: Sage Lv 33 (OK, 87/87), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! Arrived in Verdanturf Town after clearing all 7 Route 117 trainers! Total money: ¥16,600! Match Call registered: Wattson, Anna & Meg, Isaac, Lydia. Next: Heal at Verdanturf Pokémon Center, visit Wanda's house, and use Cobalu's Rock Smash in Rusturf Tunnel to earn HM04 Strength! Party: Sage Lv 33 (OK, 68/87), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 33) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 87/87. Stats: HP 87, Atk 55, Def 40, Sp.Atk 64, Sp.Def 58, Speed 78. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 33) [Held Item: None (consumed)] - Moves: Fury Cutter (18/20), Pursuit (18/20), Leaf Blade (3/15), Quick Attack (21/30). HP: 68/87. Stats: HP 87, Atk 55, Def 40, Sp.Atk 64, Sp.Def 58, Speed 78. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 15) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 47/47. Stats: HP 47, Atk 23, Def 20, Sp.Atk 20, Sp.Def 27, Speed 23. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
