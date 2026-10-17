@@ -964,7 +964,7 @@
   2. OBERON (Beautifly, Male, Lv. 21 [FNT] — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
-  5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
+  5. HALCYON (Wingull, Male, Lv. 17 [FNT] — Water Gun, Supersonic, Wing Attack, Fly)
   6. TETHYS (Tentacool, Female, Lv. 17 [FNT] — Poison Sting, Supersonic, Constrict, Waterfall)
 
 ## Notepad Index
