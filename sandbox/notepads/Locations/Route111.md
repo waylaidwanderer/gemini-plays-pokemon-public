@@ -147,5 +147,5 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Berry Girl: Located at (24, 8) facing West by the northern berry patches. Talked to her and received a RAZZ BERRY! [OBTAINED]
 - Berry Patches: Located at rows 5-6:
   - Right patch (cols 22..23, row 5): 2 Razz Berry plants [HARVESTED - 6 Razz Berries].
-  - Left patch (cols 18..19, row 5): 2 berry trees (currently harvesting).
+  - Left patch (cols 18..19, row 5): 2 Oran Berry trees [HARVESTED - 4 Oran Berries].
 - Route 113 Signpost: Located at (16, 5) to the left of the berry patch.
