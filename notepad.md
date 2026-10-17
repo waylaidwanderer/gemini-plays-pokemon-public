@@ -220,9 +220,11 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 
 ## Progression Checklist - Mauville City
 1. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
-2. [ ] Visit Rydel's Cycles and obtain the Bicycle (Mach Bike or Acro Bike).
-3. [ ] Explore town landmarks (Game Corner, Battle Tent, houses).
-4. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
+2. [x] Visit Rydel's Cycles and obtain the Bicycle (Mach Bike).
+3. [ ] Register Mach Bike to Select button for instant mounting.
+4. [ ] Obtain HM06 Rock Smash from Mauville resident.
+5. [ ] Explore town landmarks (Game Corner, Battle Tent, Coin Case trade).
+6. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
 ## Discovered Landmarks & Layout
 - Southern Residential House: Cols 17..21, rows 11..13. Purple door at (19, 13). Boy outside at (18, 14).
 - Poké Mart: Cols 22..27, rows 11..13. Blue sliding door at (23, 13) approached from (23, 14) facing North.
