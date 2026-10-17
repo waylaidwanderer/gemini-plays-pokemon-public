@@ -142,7 +142,7 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 ## Connection Points
 - South Entrance/Exit: Route 112 (warp at south end, leads to Route 112 upper terrace at 11, 35).
 - North Entrance/Exit: Route 111 North / Route 113 (leads out toward the volcanic ash route to Fallarbor Town).
-- Side Corridor (Optional): Blocked by heavy Strength boulders; leads to items (TM06 Toxic, Fire Stone) accessible with HM04 Strength.
+- Side Corridor (Optional): Blocked by heavy Strength boulders at row 27; requires Heat Badge (Gym 4 - Flannery) to use HM04 Strength outside battle. Return here after Gym 4!
 
 ## Progression Checklist - Fiery Path
 1. [x] Enter Fiery Path from Route 112 south entrance.
