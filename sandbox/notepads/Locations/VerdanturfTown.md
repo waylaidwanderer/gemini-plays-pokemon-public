@@ -17,7 +17,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 1. [x] Arrive in Verdanturf Town from Route 117.
 2. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
 3. [ ] Visit Wanda's house.
-4. [ ] Enter Rusturf Tunnel from the south entrance.
+4. [x] Enter Rusturf Tunnel from the south entrance.
 5. [ ] Use HM06 Rock Smash to clear the blocking rocks.
 6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 

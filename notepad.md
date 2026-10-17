@@ -1025,14 +1025,17 @@ A large metropolitan city in western Hoenn known for the Devon Corporation and t
 A subterranean tunnel originally excavated to connect Rustboro City and Verdanturf Town. Excavation was suspended to protect sound-sensitive wild Pokémon (Whismur). Currently blocked in the middle by breakable boulders.
 
 ## Connection Points
-- West Entrance: Connects to Route 116 at the south entrance.
-- East Entrance: Connects to Verdanturf Town (currently unreachable due to breakable rocks).
+- West Entrance: Connects to Route 116 at the south entrance (Rustboro side).
+- South/East Entrance: Connects to Verdanturf Town at (8..9, 1).
 
 ## Progression Checklist - Rusturf Tunnel
 - [x] Enter Rusturf Tunnel from Route 116.
 - [x] Locate Team Aqua Grunt and Peeko.
 - [x] Defeat Team Aqua Grunt (Poochyena Lv 11, ¥220).
 - [x] Recover Devon Goods and rescue Peeko for Mr. Briney.
+- [x] Enter Rusturf Tunnel from Verdanturf Town south entrance.
+- [ ] Use HM06 Rock Smash to clear the blocking rocks.
+- [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 - [ ] Optional: Item Ball (Poké Ball) on northwest elevated terrace at (2, 1) (can collect later).
 
 ## Key Characters & Trainers
@@ -1164,7 +1167,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 1. [x] Arrive in Verdanturf Town from Route 117.
 2. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
 3. [ ] Visit Wanda's house.
-4. [ ] Enter Rusturf Tunnel from the south entrance.
+4. [x] Enter Rusturf Tunnel from the south entrance.
 5. [ ] Use HM06 Rock Smash to clear the blocking rocks.
 6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 
@@ -1287,7 +1290,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 2. [x] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
 3. [x] Explore Route 117 (all 7 trainers defeated: Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia).
 4. [x] Arrive in Verdanturf Town.
-5. [ ] Enter Rusturf Tunnel from the Verdanturf Town entrance.
+5. [x] Enter Rusturf Tunnel from the Verdanturf Town entrance.
 6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
 7. [ ] Obtain HM04 Strength from Wanda's boyfriend.
 8. [ ] Return to Mauville City and head north onto Route 111 toward Mt. Chimney / Fallarbor Town.

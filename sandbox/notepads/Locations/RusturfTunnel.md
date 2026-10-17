@@ -4,14 +4,17 @@
 A subterranean tunnel originally excavated to connect Rustboro City and Verdanturf Town. Excavation was suspended to protect sound-sensitive wild Pokémon (Whismur). Currently blocked in the middle by breakable boulders.
 
 ## Connection Points
-- West Entrance: Connects to Route 116 at the south entrance.
-- East Entrance: Connects to Verdanturf Town (currently unreachable due to breakable rocks).
+- West Entrance: Connects to Route 116 at the south entrance (Rustboro side).
+- South/East Entrance: Connects to Verdanturf Town at (8..9, 1).
 
 ## Progression Checklist - Rusturf Tunnel
 - [x] Enter Rusturf Tunnel from Route 116.
 - [x] Locate Team Aqua Grunt and Peeko.
 - [x] Defeat Team Aqua Grunt (Poochyena Lv 11, ¥220).
 - [x] Recover Devon Goods and rescue Peeko for Mr. Briney.
+- [x] Enter Rusturf Tunnel from Verdanturf Town south entrance.
+- [ ] Use HM06 Rock Smash to clear the blocking rocks.
+- [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
 - [ ] Optional: Item Ball (Poké Ball) on northwest elevated terrace at (2, 1) (can collect later).
 
 ## Key Characters & Trainers
