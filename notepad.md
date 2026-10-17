@@ -1242,8 +1242,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Fossil Maniac's House Interior:
   - Entrance mat at (4, 7), spawn at (4, 6).
   - Open central corridor along column 4 (rows 2..6).
-  - Cave tunnel doorway at (3, 1).
-  - Fossil Maniac's little brother stands at (2, 2) to the left of the cave tunnel door, talkable from (3, 2) facing West.
+  - Cave tunnel doorway at (4, 1).
+  - Fossil Maniac's little brother stands at (3, 2), talkable from (4, 2) facing West.
   - Gift: Speaking to the brother awards TM28 Dig!
   - Cave Tunnel Interior: Spawn at (6, 25) facing North. Exit doorway at (6, 26). Leads north into Desert Underpass (under construction by Fossil Maniac).
 
@@ -1716,7 +1716,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Money: ¥31,708
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
