@@ -80,5 +80,5 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Route 114 Elevated Plateau & Mountain Trail:
   - Eastern Ascent Stairs: Located at cols 14..15, rows 49..50. Ascends from lower tall grass area onto the plateau at (15, 48).
   - Lower Plateau: (9..15, 44..50). South dead-end pocket at (8..14, 50..54) against row 54 ledge.
-  - Western Stairs & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to small terrace at (6, 47) overlooking 4 Mach Bike mud slopes. One-way jump ledges hop south from (6, 52) down rows 53, 55, 57 into the lower canyon. Secret base indentation at (9, 47).
+  - Western Stairs & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to small terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Cliff overlook at (6, 52) is blocked by impassable rock spikes at row 53; mud slopes on west require Mach Bike to ride up. Secret base indentation at (9, 47).
   - Northern Riverbank Alcove: Smashable rock at (12, 43) broken with Rock Smash. Path leads north along column 12 to (11, 37) containing Protein [COLLECTED].
