@@ -1172,8 +1172,9 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Southern Residential Houses: Green tiled roofs along rows 10..14, separated by street at cols 13..14.
 - Battle Tent: Northwest domed building (cols 2..6, rows 2..7) with red/white canopy and blue roof. Entrance door at (3, 7). Inside: Scott and attendants. Signpost at (2..3, 7).
 - Poké Mart: Blue-roofed building attached to the west of the Pokémon Center (cols 11..14, rows 2..3). Entrance door at (12..13, 3).
-- Pokémon Center: Red-roofed building in northeast complex (cols 15..18, rows 2..3). Entrance door at (16..17, 3), approached from row 4 facing North. Checkpoint set!
+- Pokémon Center: Red-roofed building in northeast complex (cols 15..18, rows 2..3). Entrance door at (16..17, 3), approached from row 4/5 facing North. Checkpoint set!
 - Rusturf Tunnel Entrance: Located at (9, 1) in the northern cliff face, approached from (9, 2) past the signpost at (8, 3) and girl at (9, 2).
+- Lamppost / Pole: Located at (10, 3..4) separating tunnel path from Poké Mart. Bypassed via row 5.
 - Town Signposts: Signpost at (15, 6) in eastern plaza, and signpost at (8, 3) near tunnel entrance.
 - Green-capped NPC outside Battle Tent at (6, 5).
 
