@@ -859,7 +859,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 8. Vicky Winstrate: [IN BATTLE]
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Grandmother of the Winstrate family (Final Battle 4 of 4!).
-   - Pre-battle quote: "How dare you..."
+   - Pre-battle quote: "How dare you make my granddaughter cry! For that, I'm going to smack you! Prepare to lose!"
    - Team: Medicham ♀ Lv 18.
 
 ## Winstrate Family Gauntlet Mechanics
