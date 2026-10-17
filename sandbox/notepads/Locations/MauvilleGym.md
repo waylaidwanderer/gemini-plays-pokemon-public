@@ -43,8 +43,9 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 3. Bug Maniac Angelo: [DEFEATED]
    - Location: Eastern Chamber at (7, 10) facing North.
    - Pre-battle quote: "Can I get my POKÉMON to run on electricity?"
+   - Defeat quote: "Oh... My eyes are frazzled..."
    - Team: Illumise ♀ Lv 17 (fainted to Leaf Blade), Volbeat ♂ Lv 17 (fainted to Leaf Blade) [DEFEATED]
-   - Rewards: Prize money, Sage gained EXP.
+   - Rewards: ¥1020 prize money, Sage gained 1062 EXP and grew to Lv 31.
 4. Guitarist Shawn:
    - Location: Eastern Chamber at (7, 7) facing South.
 
