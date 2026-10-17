@@ -58,3 +58,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - EXP gained: 172 EXP x 2 = 344 EXP each for Sage and Lilz.
    - Reward: ¥456 prize money.
    - Outcome: Complete victory! Total money: ¥30,288. Sage HP 98/112 (PAR), Lilz HP 49/49 (OK).
+
+4. Ninja Boy: [IN BATTLE]
+   - Location: Ambushed from camouflaged mound at (29, 6), west of Glass Workshop.
+   - Battle initiated at (30, 6) facing West.
