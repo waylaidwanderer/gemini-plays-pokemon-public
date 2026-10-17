@@ -83,10 +83,14 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Match Call: Registered!
    - Outcome: Complete victory! Total money: ¥34,824.
 
-6. Kindler Bernie: [UNBATTLED]
-   - Location: (28..29, 58..59) patrolling row 59 east of the white staircase.
-   - Team: Slugma Lv 18, Wingull Lv 18.
-   - Status: Spotted, unbattled.
+6. Kindler Bernie: [DEFEATED]
+   - Location: (29, 58) facing West. Engaged player at (28, 58).
+   - Pre-battle quote: "If you're lighting a campfire, make sure you have water handy."
+   - Defeat quote: "Thanks for dousing my fire"
+   - Team: Slugma Lv 18 (OHKO'd by Sage's Pursuit), Wingull Lv 18 (OHKO'd by Sage's Pursuit). Sage grew to Lv 39!
+   - EXP gained: 246 EXP from Wingull.
+   - Reward: ¥576 prize money.
+   - Outcome: Complete victory! Total money: ¥35,400.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
