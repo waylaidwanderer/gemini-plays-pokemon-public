@@ -85,4 +85,4 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Entrance mat at (5, 7), spawn at (5, 6).
   - Messy room filled with boxes, books, research papers, and a PC.
   - Lanette standing at (5, 4), talkable from (5, 5) facing North.
-  - Gift: [OBTAINING] Lanette gifts the Lotad Doll decoration!
+  - Gift: [OBTAINED] Received the Lotad Doll decoration!
