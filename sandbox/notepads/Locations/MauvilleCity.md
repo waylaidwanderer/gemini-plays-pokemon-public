@@ -26,7 +26,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 4. [x] Obtain HM06 Rock Smash from Mauville resident (Rock Smash Guy).
 5. [x] Encounter and defeat Wally outside Mauville Gym.
 6. [ ] Explore town landmarks (Game Corner, Battle Tent, Coin Case trade).
-7. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
+7. [x] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
 ## Topography & Landmarks Discovered
 - Eastern Avenue: Cobblestone road runs along row 15 past Mart and turns north around cols 27..28 into central Mauville City.
