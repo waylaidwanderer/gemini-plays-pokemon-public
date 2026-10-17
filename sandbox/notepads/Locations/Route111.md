@@ -76,11 +76,13 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Roselia ♀ Lv 17 (2HKO'd by Sage's Quick Attack).
    - Reward: ¥680 prize money.
    - Outcome: Complete victory! Battle 2 of 4 cleared! Sage HP 68/89 (PSN).
-7. Vivi Winstrate: [IN BATTLE]
+7. Vivi Winstrate: [DEFEATED]
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Daughter of the Winstrate family (Battle 3 of 4).
    - Pre-battle quote: "You're stronger than Mommy? Wow! But I'm strong, too! Really! Honestly!"
-   - Team: Marill ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Numel ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Shroomish ♀ Lv 15.
+   - Team: Marill ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Numel ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Shroomish ♀ Lv 15 (OHKO'd by Sage's Quick Attack).
+   - Reward: ¥600 prize money.
+   - Outcome: Complete victory! Battle 3 of 4 cleared! Sage Lv 35, HP ~49/92 (PSN).
 
 ## Winstrate Family Gauntlet Mechanics
 - Structure: 4 consecutive 1-on-1 battles against Victor, Victoria, Vivi, and Vicky.
