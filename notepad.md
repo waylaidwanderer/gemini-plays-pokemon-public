@@ -568,10 +568,11 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Team: Isabel: Plusle Lv 14 (fainted), Minun Lv 14 (fainted); Kaleb: Minun ♂ Lv 14 (fainted), Plusle ♂ Lv 14 (fainted).
    - Outcome: Complete victory! Earned ¥2240 prize money. Cobalu grew to Lv 11! Sage Lv 25 at 68/68 HP. Lilz fainted during battle.
 - Double Battle Field Mechanics: Move execution requires two A confirmations per Pokémon: 1st A selects move (target cursor opens), 2nd A confirms target. Slot 1 defaults to foe across. Cobalu's main battle menu retains cursor on RUN if cancelled back; press Up+Left to return to FIGHT.
-2. Youngster Timmy: [IN PROGRESS]
+2. Youngster Timmy: [DEFEATED]
    - Location: (32, 69) on east side of Cycling Road pedestrian walkway, facing Left.
    - Pre-battle Quote: "I found some cool POKÉMON in the grass around here!"
-   - Team: Aron ♂ Lv 15 (fainted), Electrike (active). Defeating with Sage.
+   - Team: Aron ♂ Lv 15 (fainted), Electrike ♂ Lv 13 (fainted). Defeated with Sage's Absorb.
+   - Outcome: Complete victory! Sage HP 72/72 full, gained 289+ EXP.
 
 <hr>
 
