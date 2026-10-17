@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! In-game dialogue active: receiving Dynamo Badge and TM34 Shock Wave from Wattson! Next: Confirm overworld return, record prize money, heal at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and use HM06 Rock Smash! Party: Sage Lv 32 (PAR, 20/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥10,512)! Wattson registered in Match Call. Third gym badge conquered! Next: Exit Mauville Gym, heal party at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and use HM06 Rock Smash to clear blocked paths! Party: Sage Lv 32 (PAR, 20/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 32) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 20/84. Stats: HP 84, Atk 53, Def 39, Sp.Atk 62, Sp.Def 57, Speed 75. Status: PAR. Nature: Lonely. Ability: Overgrow.
@@ -23,8 +23,8 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥8112
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
+- Money: ¥10,512
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
