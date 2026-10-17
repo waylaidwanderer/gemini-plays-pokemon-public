@@ -1063,17 +1063,17 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
 
 ## Bag Highlights
-- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30).
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30), Dynamo Badge (Wattson - enables HM06 Rock Smash outside battle, increases Pokémon Speed stat).
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x1 (found at Route 110 northwest bend at 6, 39)
-- Super Potion x5 (purchased at Slateport Mart)
+- Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
-- Berries: Cheri Berry x1, Oran Berry x1 (1 held by Sage), Pecha Berry x2, Nanab Berry x9
-- TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
+- TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Money: ¥8112
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
