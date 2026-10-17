@@ -1096,13 +1096,15 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥29,832. Sage HP 108/112 (PAR).
 
-3. Twins Tori & Tia: [IN BATTLE]
+3. Twins Tori & Tia: [DEFEATED]
    - Location: (45..46, 6) facing South.
    - Pre-battle quote: "TIA: Both of us, we collect ashes. We battle POKéMON, too."
+   - Defeat quote: "TIA: We couldn't win... It's boring, so I'm getting some more ashes."
    - Battle format: 2-on-2 Double Battle.
-   - Opponent team: Spinda Lv 19 (Defeated, 172 EXP each) & Spinda Lv 19 (Active).
-   - Player leads: Sage (Lv 37, PAR, 108/112) and Lilz (Lv 16, OK, 49/49).
-   - Strategy: Sage uses priority Quick Attack to strike first and eliminate targets quickly.
+   - Opponent team: Spinda Lv 19 & Spinda Lv 19 (both defeated).
+   - EXP gained: 172 EXP x 2 = 344 EXP each for Sage and Lilz.
+   - Reward: ¥456 prize money.
+   - Outcome: Complete victory! Total money: ¥30,288. Sage HP 98/112 (PAR), Lilz HP 49/49 (OK).
 
 <hr>
 
@@ -1552,7 +1554,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 37, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen & Madeline defeated. Total money: ¥29,832! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 108/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen, Madeline, Tori & Tia defeated. Total money: ¥30,288! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 98/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 37) [Held Item: None (consumed)] - Evolved on turn 5632! Level 37 on turn 5839! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (14/30). HP: 98/112. Max HP: 112. Status: PAR. Nature: Lonely. Ability: Overgrow.
