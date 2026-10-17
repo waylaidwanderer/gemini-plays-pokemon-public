@@ -15,7 +15,7 @@
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30), Dynamo Badge (Wattson - enables HM06 Rock Smash outside battle, increases Pokémon Speed stat).
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
-- Elixir x1 (found at Route 110 northwest bend at 6, 39)
+- Elixir x2 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x1 (found on terrace at 30, 2 in Rusturf Tunnel)
 - Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)

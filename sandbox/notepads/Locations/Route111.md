@@ -12,6 +12,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Winstrate House: Home of the Winstrate family (Victor, Victoria, Vivi, Vicky). Defeating all 4 in a gauntlet awards the Macho Brace!
 - TV Interviewers (Gabby & Ty): Roving reporters available for battle and interview.
 - Route 111 South Signpost: Directional signpost.
+- Item Ball: (19, 118) - [OBTAINED] Elixir!
 
 ## Progression Checklist - Route 111
 1. [x] Enter Route 111 from Mauville City.
