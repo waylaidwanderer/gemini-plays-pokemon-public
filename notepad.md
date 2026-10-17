@@ -851,7 +851,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Daughter of the Winstrate family (Battle 3 of 4).
    - Pre-battle quote: "You're stronger than Mommy? Wow! But I'm strong, too! Really! Honestly!"
-   - Team: Marill ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Numel ♀ Lv 15, Shroomish ♀ Lv 15.
+   - Team: Marill ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Numel ♀ Lv 15 (OHKO'd by Sage's Leaf Blade), Shroomish ♀ Lv 15.
 
 ## Winstrate Family Gauntlet Mechanics
 - Structure: 4 consecutive 1-on-1 battles against Victor, Victoria, Vivi, and Vicky.
