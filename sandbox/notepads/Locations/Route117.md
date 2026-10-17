@@ -62,6 +62,6 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Team: Doduo ♀ Lv 17 (Melina - fainted to Sage's Pursuit), Ralts ♀ Lv 17 (Brandi - fainted to Sage's Pursuit).
    - Outcome: Victory! Both foes defeated cleanly. Sage and Lilz gained EXP.
 - Cut Tree: Located at (15, 2) in the northern tree line near the flowers.
-5. Pokémon Breeder Lydia: [CHALLENGING]
-   - Location: (19, 4) facing West.
-   - Team: 6 Pokémon at Lv 11 (Swablu, Roselia, Wingull, Skitty, Marill, Shroomish).
+5. Battle Girl Aisha: [CHALLENGING]
+   - Location: (21, 4) facing South by the pond flowers.
+   - Team: Meditite ♀ Lv 17.
