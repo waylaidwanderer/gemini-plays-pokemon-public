@@ -44,8 +44,8 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 4. Bug Catcher Angelo
 
 ## Progression Checklist - Mauville Gym
-1. [ ] Enter Mauville Gym and speak to Gym Guide (obtain Fresh Water).
-2. [ ] Defeat Gym trainers for EXP and prize money.
+1. [x] Enter Mauville Gym and check Gym Guide advice.
+2. [x] Defeat Gym trainers Kirk, Vivian, and Ben for EXP.
 3. [ ] Solve electric barrier switch puzzle to reach Wattson.
 4. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
