@@ -1820,6 +1820,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Mid-Battle Move Replacement: When learning a move upon level up with 4 moves, selecting No to "Stop learning" and Yes to "Delete a move" opens the vertical Battle Moves list. HM moves (Cut, Rock Smash) cannot be deleted; regular moves (like Mud-Slap) can be replaced.
 - Pokémon Center Nurse Joy Healing: Opening text requires A presses to advance to the YES/NO prompt. Never press B near the prompt as B selects NO and cancels healing. Allow ~4.0s for the healing animation and jingle before pressing B to dismiss completion text.
 - File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
+- Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
