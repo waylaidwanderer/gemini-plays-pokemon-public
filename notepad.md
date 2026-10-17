@@ -213,8 +213,9 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 - Mauville City Signpost: Located in southwest lawn garden near the southern entrance.
 - Southern Residential House (Coin Case Trader): Cols 17..21, rows 11..13. Pink roof, yellow siding, purple door at (19, 13). Boy outside at (18, 14). Woman inside trades Coin Case for Harbor Mail.
 - Pokémon Center: Red roof building located at rows 4..6, cols 20..24. Front door at (22, 5), approached from (22, 6) facing North. Interior entrance warp at (7, 8); Nurse Joy counter approached from (7, 4) facing North. Checkpoint set and party fully restored!
-- Poké Mart: Blue roof building.
-- Rydel's Cycles: Bicycle shop located at rows 3..5, cols 33..37. Outdoor sign at (33, 6). Front entrance door at (35, 5), approached from (35, 6) facing North. Rydel gives a free Mach Bike or Acro Bike inside!
+- Poké Mart: Blue roof building located at cols 22..27, rows 11..13. Blue sliding door at (23, 13), approached from (23, 14) facing North.
+- Rydel's Cycles: Bicycle shop located at rows 3..5, cols 33..37. Outdoor sign at (33, 6). Front entrance door at (35, 5), approached from (35, 6) facing North. Interior: entrance mat at (3, 8), Rydel stands at (2, 5). Obtained Mach Bike!
+- Rock Smash Dude's House: Located at cols 30..34, rows 11..14 directly east of Poké Mart. Front entrance door at (32, 14), approached from (32, 15) facing North. Interior: entrance mat at (3, 7), Rock Smash Dude at (4, 4).
 - Mauville Gym: Gym Leader Wattson (Electric-type specialist).
 - Game Corner: Sells coins and prizes (TMs, dolls). Requires Coin Case (obtainable from woman in Mauville house in exchange for Harbor Mail).
 
@@ -222,16 +223,14 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 1. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
 2. [x] Visit Rydel's Cycles and obtain the Bicycle (Mach Bike).
 3. [x] Register Mach Bike to Select button for instant mounting.
-4. [x] Obtain HM06 Rock Smash from Mauville resident (Rock Smash Guy).
+4. [ ] Obtain HM06 Rock Smash from Mauville resident (Rock Smash Guy).
 5. [ ] Encounter and defeat Wally outside Mauville Gym.
 6. [ ] Explore town landmarks (Game Corner, Battle Tent, Coin Case trade).
 7. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
-## Discovered Landmarks & Layout
-- Poké Mart: Cols 22..27, rows 11..13. Blue sliding door at (23, 13) approached from (23, 14) facing North.
+
+## Topography & Landmarks Discovered
 - Eastern Avenue: Cobblestone road runs along row 15 past Mart and turns north around cols 27..28 into central Mauville City.
 - Southern Perimeter Item Ball: Visible at bottom right behind the southern hedge around (29, 18). Currently separated by a hedge/fence barrier.
-- Rydel's Cycles Interior: Entrance mat at (3, 8). Rydel stands at (2, 5) near bike display. Patron at (7, 6). Counter at rows 2..3.
-- Rock Smash Dude's House: Located at cols 30..34, rows 11..14 directly east of Poké Mart. Front entrance door at (32, 14), approached from (32, 15) facing North. Home of the Rock Smash Dude who gives HM06 Rock Smash!
 
 <hr>
 
