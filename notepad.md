@@ -927,7 +927,9 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Upper Ledge Item Ball: Visible at (14..15, 41) near the top of the mud slides.
 - Mountain Stairs: Located at (20..21, 40..42) leading up to upper mountain terrace.
 - Direction Signpost: Located at (19, 44) south of the stairs.
-- Upper Mountain Terrace: Begins at row 39; spinning Hiker at (15, 38).
+- Upper Mountain Terrace: Begins at row 39; spinning Hiker at (14..15, 38).
+- Upper Direction Signpost: Located at (23, 37), approached from (23, 38) facing North.
+- Cable Car / Mountain Entrance: Path continues north and west around Mt. Chimney.
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
