@@ -57,5 +57,5 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Pre-battle quote: "My legs are solid from pounding up and down the mountains. They're not going to buckle easily, friend!"
    - Defeat quote: "Ouch! My legs cramped up."
    - Team: Geodude ♂ Lv 16, Geodude ♂ Lv 17, Geodude ♂ Lv 16 (all 3 OHKO'd by Sage's Leaf Blade).
-   - Reward: ¥640 prize money.
+   - Reward: ¥640 prize money. Registered in PokéNav Match Call.
    - Outcome: Complete victory! All 4 Route 112 trainers defeated!
