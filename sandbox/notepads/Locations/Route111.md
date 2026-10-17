@@ -71,5 +71,5 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 6. Victoria Winstrate: [IN BATTLE]
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Mother of the Winstrate family (Battle 2 of 4).
-   - Pre-battle quote: "Oh, my goodness! Aren't you young? You must be quite the TRAINER to beat my husband, though."
+   - Pre-battle quote: "Oh, my goodness! Aren't you young? You must be quite the TRAINER to beat my husband, though. It's my turn to battle now!"
    - Team: Roselia ♀ Lv 17.
