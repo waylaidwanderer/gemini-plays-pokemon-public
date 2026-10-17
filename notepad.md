@@ -1119,7 +1119,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥204 prize money.
    - Outcome: Complete victory! Total money: ¥30,492. Sage HP 97/112 (PAR).
 - Ash Mound 2: [CLEARED] Located at (20, 5). Dispersed into Soot Sack.
-- Route 113 / Fallarbor Town Billboard: Large 2-tile wide sign located at cols 12..13, row 9. Read from (12..13, 10) facing North.
+- Western Signpost: Located at (12, 9), read from (12, 10) facing North.
 - Berry Patches: Two soft loamy soil patches located at cols 5..11, rows 5..8 (north) and rows 11..14 (south).
 - Item Ball 3: Located in southern tree pocket around (15, 16).
 - Western NPCs: NPC with green bandana at (2, 5); Pokémaniac/NPC at (2, 13).
