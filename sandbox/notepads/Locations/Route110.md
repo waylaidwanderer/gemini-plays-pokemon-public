@@ -75,7 +75,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Defeat Quote: "You got into the groove all right..."
    - Team: Electrike ♂ Lv 14 (fainted via Leaf Blade), Voltorb Lv 14 (fainted via Leaf Blade).
    - Outcome: Complete victory! Earned ¥448 prize money.
-5. Triathlete Alyssa: [IN PROGRESS]
-   - Location: (10, 40) on west side of Seaside Cycling Road northern underpass, facing West.
-   - Pre-battle Quote: In progress.
-   - Team: In progress.
+- Northern Cycling Road Underpass & Bend:
+  - Located at cols 12..15, rows 38..41. Pedestrian walkway passes cleanly underneath the Seaside Cycling Road overpass to the western bank.
+  - At col 7..8, the path and canal railing turn North towards Mauville City.
+  - Item Ball: Located at (7..8, 39) near the northwest corner turn!
