@@ -538,8 +538,8 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Bike NPC: Boy at (17, 90) facing South; friendly NPC debating between Mach Bike and Acro Bike.
 - Pedestrian route: Coastal path goes north to row 69. West fork at row 69 leads onto Route 103 (dead-end water inlet with trainers/berries). Northbound pedestrian route toward Mauville City continues north underneath the Seaside Cycling Road.
 - Underpass: Located at row 69 (cols 14..22), directly east of the Trick House and south of the old woman at (14, 70). Provides pedestrian passage under the elevated Seaside Cycling Road between the west side (Trick House/Route 103) and east side of Route 110.
-- East side pedestrian path: Begins at (22..26, 69). Row 68 provides a path east towards an Item Ball at (29, 68) and Youngster Timmy at (31, 68). Northbound pedestrian path continues north along cols 30..33 towards Mauville City.
-- Item Ball: (29, 68) - Located in grass on east side of Cycling Road walkway.
+- East side pedestrian path: Begins at (22..26, 69). Row 68 provides a path east towards an Item Ball at (30, 69) and Youngster Timmy at (32, 69). Northbound pedestrian path continues north along cols 30..33 towards Mauville City.
+- Item Ball: (30, 69) - [OBTAINED] Dire Hit!
 - Under-Bridge Route: Pedestrian pathway winding underneath and alongside the Cycling Road structure towards Mauville City.
 - Rival Brendan Encounter: Rival Battle #2 occurs under the Cycling Road bridge! Rival team: Wailmer (~Lv 18), Numel (~Lv 18), Combusken (~Lv 20).
 
