@@ -285,11 +285,11 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Gym Guide: Located at (6, 20).
 - Entrance Statues: Located at (3, 17) and (5, 17).
 - Electric Barrier 1: Horizontal blue barrier at (4, 14) between pillars at (3, 14) and (5, 14) [ACTIVE].
-- Floor Switch 1: Located at (1, 15) in the southwest alcove.
-- Floor Switch 2: Located at (4, 12) north of barrier 1.
-- Youngster Ben: Located at (2, 16) facing Up.
-- Guitarist Kirk: Located at (2, 13) facing Down.
-- Note: Stepping onto (2, 15) enters line of sight of both Ben and Kirk simultaneously, triggering a Double Battle!
+- Floor Switch 1: Located at (0, 15) on the far west wall.
+- Floor Switch 2: Located at (3, 12) north of barrier 1.
+- Youngster Ben: Located at (1, 16) facing Up.
+- Guitarist Kirk: Located at (1, 13) facing Down.
+- Note: Stepping onto (1, 15) enters line of sight of both Ben and Kirk simultaneously, triggering a Double Battle!
 
 <hr>
 
