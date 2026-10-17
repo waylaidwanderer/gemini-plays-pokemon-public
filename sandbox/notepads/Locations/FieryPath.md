@@ -15,7 +15,7 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 4. [ ] Exit northern mouth onto Route 111 / Route 113.
 
 ## Wild Pokémon
-- Numel (Fire/Ground), Slugma (Fire, Lv 15 verified), Torkoal (Fire), Koffing (Poison, Lv 15 verified), Grimer (Poison), Machop (Fighting, Lv 15 verified).
+- Numel (Fire/Ground), Slugma (Fire, Lv 15 verified), Torkoal (Fire), Koffing (Poison, Lv 15 verified), Grimer (Poison, Lv 14 verified), Machop (Fighting, Lv 15 verified).
 
 ## Discovered Coordinates & Layout
 - South Entrance Warp: (26, 36), player enters at (26, 35) facing North (leads outside to Route 112 at 11, 35).
