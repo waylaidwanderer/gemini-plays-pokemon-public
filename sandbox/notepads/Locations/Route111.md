@@ -135,6 +135,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 1. Cooltrainer Wilton: [DEFEATED]
    - Location: (9, 27) on Route 111 North sandy highway.
    - Pre-battle quote: "Show me how much you've toughened your POKéMON."
+   - Defeat quote: "I see, you've toughened them considerably..."
    - Team: 3 Pokémon: Electrike ♂ Lv 17 (OHKO'd by Quick Attack), Wailmer ♂ Lv 17 (OHKO'd by Leaf Blade), Makuhita ♂ Lv 17 (OHKO'd by Leaf Blade).
    - Reward: ¥816 prize money.
    - Outcome: Complete victory! Sage grew to Lv 37 (HP 108/112).
