@@ -38,3 +38,5 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
    - Reward: ¥960 prize money.
    - Story Lead: Following defeat, Wally acknowledges he needs more training and departs with his uncle to Verdanturf Town. Unblocks the Mauville Gym entrance!
 - Scott Encounter: After defeating Wally outside Mauville Gym, Scott approaches to praise May's battle skill and encourage her journey before departing.
+- Northern Boulevard (Route 111 Corridor): Runs along column 15 from rows 1..6 leading directly north onto Route 111 at row 0/138.
+- Central East-West Street: Located along rows 7..8 connecting column 15 boulevard to the Pokémon Center approach at (22, 6..8). Bypasses signpost at (19, 7) via row 8.
