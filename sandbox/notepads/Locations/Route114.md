@@ -26,8 +26,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Front door at (29, 4), entered from (29, 5) facing North.
   - Signpost at (31, 7).
   - Inside: Fossil Maniac's brother gifts TM28 Dig!
-  - NPC in Red Hat: Standing near the north pond at (24..25, 3).
-    - Gifts TM05 Roar!
+  - NPC in Red Hat: Standing near the north pond at (25, 6), talkable from (26, 6) facing West.
+  - Gift: [OBTAINING] Gifts TM05 Roar!
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
   - Main Path: Turns west along rows 11..12 between the two ponds.

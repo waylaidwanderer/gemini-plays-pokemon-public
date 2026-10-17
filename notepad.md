@@ -1234,8 +1234,8 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Front door at (29, 4), entered from (29, 5) facing North.
   - Signpost at (31, 7).
   - Inside: Fossil Maniac's brother gifts TM28 Dig!
-  - NPC in Red Hat: Standing near the north pond at (24..25, 3).
-    - Gifts TM05 Roar!
+  - NPC in Red Hat: Standing near the north pond at (25, 6), talkable from (26, 6) facing West.
+  - Gift: [OBTAINING] Gifts TM05 Roar!
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
   - Main Path: Turns west along rows 11..12 between the two ponds.
@@ -1695,7 +1695,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Entered Route 114! TM28 Dig obtained. Party at 100% HP/PP. Total money: ¥31,708! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Obtain TM05 Roar, visit Lanette's house, head to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Entered Route 114! TM28 Dig and TM05 Roar obtained. Party at 100% HP/PP. Total money: ¥31,708! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Traverse Route 114, visit Lanette's house, head to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
