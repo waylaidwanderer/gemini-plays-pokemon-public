@@ -13,7 +13,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 1. [x] Enter Route 112 from Route 111.
 2. [x] Battle Route 112 trainers for EXP (Larry, Carol, Brice, Trent defeated).
 3. [x] Locate Cable Car station (check for Team Magma presence).
-4. [ ] Enter and traverse Fiery Path to reach northern Route 111 / Route 113.
+4. [x] Enter and traverse Fiery Path to reach northern Route 111 / Route 113.
 
 ## Discovered Coordinates & Layout
 - East entrance from Route 111: (35, 50) heading West (connected to Route 111 at 0, 70).
