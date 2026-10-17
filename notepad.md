@@ -968,7 +968,7 @@
 
 ## Trainer & Party Info
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $32,566 | **Status:** HOENN LEAGUE CHAMPION (Hall of Fame Inductee) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
-- **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV)
+- **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
