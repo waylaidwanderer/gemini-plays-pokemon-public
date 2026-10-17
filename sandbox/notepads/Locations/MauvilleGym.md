@@ -23,13 +23,14 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Caution: Beware of Voltorb's SonicBoom (fixed 20 damage) and Selfdestruct; Magneton's SonicBoom and Supersonic confusion.
 
 ## Trainers Inside Gym
-1. Guitarist Kirk & Battle Girl Vivian: [ENGAGED - DOUBLE BATTLE]
+1. Guitarist Kirk & Battle Girl Vivian: [DEFEATED - DOUBLE BATTLE]
    - Location: Southwest corridor. Kirk at (1, 13) facing Down, Vivian at (1, 16) facing Up.
    - Trigger: Stepping onto (1, 15) triggers a simultaneous 2-on-2 Double Battle.
    - Quotes: Vivian: "With my charm and my POKÉMON's moves, you'll be shocked!"; Kirk: "My electric soul, it'll shatter your dreams whole, whoa-yeahah!"
    - Teams:
-     - Vivian: Meditite ♀ Lv 17 #1 (OHKO'd by Sage's Leaf Blade), Meditite ♀ Lv 17 #2 (OHKO'd by Sage's Leaf Blade) [VIVIAN DEFEATED]
-     - Kirk: Electrike ♂ Lv 17
+     - Vivian: Meditite ♀ Lv 17 #1 (OHKO'd by Sage's Leaf Blade), Meditite ♀ Lv 17 #2 (OHKO'd by Sage's Leaf Blade) [DEFEATED]
+     - Kirk: Electrike ♂ Lv 17 (OHKO'd by Sage's Leaf Blade) [DEFEATED]
+   - Rewards: Prize money, Sage and Cobalu gained EXP.
 2. Youngster Ben
 3. Guitarist Shawn
 4. Bug Catcher Angelo
