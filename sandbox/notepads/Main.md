@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥10,512)! Wattson registered in Match Call. Third gym badge conquered! Next: Exit Mauville Gym, heal party at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and use HM06 Rock Smash to clear blocked paths! Party: Sage Lv 32 (PAR, 20/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! Gym Leader Wattson DEFEATED (Voltorb, Electrike, Magneton, and Manectric all swept by Sage's Leaf Blade)! Received Dynamo Badge, TM34 Shock Wave, and ¥2400 prize money (Total: ¥10,512)! Wattson registered in Match Call. Third gym badge conquered! Next: Exit Mauville Gym, heal party at Mauville Pokémon Center, explore Route 117 toward Verdanturf Town, and use HM06 Rock Smash to clear blocked paths! Party: Sage Lv 32 (OK, 84/84), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 32) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 20/84. Stats: HP 84, Atk 53, Def 39, Sp.Atk 62, Sp.Def 57, Speed 75. Status: PAR. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 32) [Held Item: None (consumed)] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 84/84. Stats: HP 84, Atk 53, Def 39, Sp.Atk 62, Sp.Def 57, Speed 75. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 14) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 39/39. Stats: HP 39, Atk 15, Def 13, Sp.Atk 14, Sp.Def 20, Speed 16. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
@@ -90,7 +90,7 @@
 7. [x] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
 ## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Active)
-1. [ ] Enter Mauville Pokémon Center and heal party with Nurse Joy.
+1. [x] Enter Mauville Pokémon Center and heal party with Nurse Joy.
 2. [ ] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
 3. [ ] Explore Route 117 (visit Pokémon Day Care, battle trainers, harvest berries).
 4. [ ] Arrive in Verdanturf Town (explore Battle Tent, Contest Hall, Wanda's house).
