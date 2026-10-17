@@ -5,17 +5,20 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - Mottos/Signs: "A farm community with small gardens."
 
 ## Connection Points
-- East Exit: Route 113.
+- East Exit: Route 113 at (19, 10).
 - West / South Exit: Route 114.
 
 ## Key Landmarks
-- PokÈmon Center: Red-roof building located in northwest section (entrance around x=14..15, y=6..7).
-- PokÈ Mart: Blue-roof building located in southwest section (around x=14..16, y=14..16).
+- Pok√©mon Center: Red-roof building located in north-central area (entrance door at (14..15, 7)). Checkpoint destination!
+- Battle Tent: Red/white striped tent building located immediately west of Pok√©mon Center (entrance around x=10..11, y=7).
+- Pok√© Mart: Blue-roof building located in southern area (around x=14..16, y=14..16).
 - Professor Cozmo's House: Located in the western part of town.
 - Move Relearner / Move Tutor House: Resident who teaches forgotten moves in exchange for Heart Scales.
-- Battle Tent: Fallarbor Battle Tent (Set-level battles with custom rules).
 
 ## Discovered Coordinates & Layout
 - Eastern Entrance from Route 113: (19, 10).
 - Central paved path runs east-west along row 10.
-- Paved branch heads north from (14..15, 10) directly to PokÈmon Center entrance.
+- Paved branch heads north from (14..15, 10) up rows 9, 8 to Pok√©mon Center entrance at (14..15, 7).
+- NPCs:
+  - Old Man NPC: Wandering near path crossroad at (10, 8..9).
+  - Little Girl NPC & Azurill: Standing near signpost at (9..10, 11..12).
