@@ -15,7 +15,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - Eastern Signpost: Located at (85, 6), read from (85, 7) facing North. Text: "ROUTE 113 / -> ROUTE 111".
 - Northern Signpost: Located at (58, 4), read from (58, 5) facing North. Text: "TRAINER TIPS / You may register one of the KEY ITEMS in your BAG as SELECT. / Simply press SELECT to use the registered item."
 - Item Ball 1: Located at (79, 6) on upper ledge west of col 80 (one-way dropoff facing east).
-- Item Ball 2: Located at (53, 7) on elevated ledge above row 9, accessible from the north via the row 2 corridor and south down column 53.
+- Item Ball 2: [COLLECTED] Located at (53, 7) on elevated ledge above row 9, accessible from the north via the row 2 corridor and south down column 53. Item: Max Ether!
 
 ## Discovered Coordinates & Layout
 - East entrance from Route 111 North: (98, 9) heading West.

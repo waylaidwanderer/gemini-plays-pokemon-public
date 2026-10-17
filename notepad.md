@@ -1063,7 +1063,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - Eastern Signpost: Located at (85, 6), read from (85, 7) facing North. Text: "ROUTE 113 / -> ROUTE 111".
 - Northern Signpost: Located at (58, 4), read from (58, 5) facing North. Text: "TRAINER TIPS / You may register one of the KEY ITEMS in your BAG as SELECT. / Simply press SELECT to use the registered item."
 - Item Ball 1: Located at (79, 6) on upper ledge west of col 80 (one-way dropoff facing east).
-- Item Ball 2: Located at (53, 7) on elevated ledge above row 9, accessible from the north via the row 2 corridor and south down column 53.
+- Item Ball 2: [COLLECTED] Located at (53, 7) on elevated ledge above row 9, accessible from the north via the row 2 corridor and south down column 53. Item: Max Ether!
 
 ## Discovered Coordinates & Layout
 - East entrance from Route 111 North: (98, 9) heading West.
@@ -1568,7 +1568,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x2 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
-- Max Ether x1 (found on terrace at 30, 2 in Rusturf Tunnel)
+- Max Ether x2 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
