@@ -1005,7 +1005,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 6. Aroma Lady Shayla: [DEFEATED]
    - Location: (31, 11) in tall grass on Route 112 North.
    - Pre-battle quote: "Oh, aren't you an adorable TRAINER! Please, I need a romantic battle! I'm somewhat decent!"
-   - Team: Shroomish ♀ Lv 18 (OHKO'd by Sage's Leaf Blade).
+   - Team: Shroomish ♀ Lv 18 (defeated by Leaf Blade + Quick Attack; inflicted PAR via Effect Spore).
    - Reward: ¥720 prize money.
    - Outcome: Complete victory! All 6 Route 112 trainers defeated!
 
@@ -1457,7 +1457,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 North & Fiery Path cleared (5 trainers defeated). Total money: ¥26,416! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent. Next: Traverse Route 111 North & Route 113 to Fallarbor Town! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared (all 6 trainers defeated). Total money: ¥27,136! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent. Next: Traverse Route 111 North & Route 113 to Fallarbor Town! Party: Sage Lv 36 (PAR, 105/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 36) [Held Item: None (consumed)] - Evolved on turn 5632! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (2/15), Quick Attack (26/30). HP: 105/109. Max HP: 109. Status: PAR. Nature: Lonely. Ability: Overgrow.
