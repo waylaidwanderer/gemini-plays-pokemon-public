@@ -59,9 +59,11 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥456 prize money.
    - Outcome: Complete victory! Total money: ¥30,288. Sage HP 98/112 (PAR), Lilz HP 49/49 (OK).
 
-4. Ninja Boy Lao: [IN BATTLE]
+4. Ninja Boy Lao: [DEFEATED]
    - Location: Ambushed from camouflaged mound at (29, 6), west of Glass Workshop.
    - Battle initiated at (30, 6) facing West.
    - Pre-battle quote: "From out of the ashes I leap! Hiyah! I challenge thee!"
-   - Team: 3 Pokémon (Koffing #1 Lv 17 OHKO'd by Pursuit for 414 EXP; Koffing #2 Lv 17 OHKO'd by Pursuit for 414 EXP; Koffing #3 entering).
-   - Strategy: Sage Lv 37 uses Pursuit (Special Dark in Gen 3) to exploit Koffing's low Sp.Def for OHKOs.
+   - Team: 3 Pokémon (Koffing #1 Lv 17, Koffing #2 Lv 17, Koffing #3 Lv 17 - all OHKO'd by Pursuit for 414 EXP each).
+   - EXP gained: 1,242 EXP total for Sage.
+   - Reward: Pending prize money confirmation on return to overworld.
+   - Outcome: Complete victory! Sage HP 97/112 (PAR).
