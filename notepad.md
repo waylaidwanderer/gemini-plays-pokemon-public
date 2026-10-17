@@ -285,8 +285,12 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
    - Pre-battle quote: "This GYM's got puzzles! Isn't it fun?"
    - Team: Zigzagoon ♂ Lv 17 (OHKO'd by Sage's Leaf Blade), Gulpin ♂ Lv 17 (fainted to Sage's Leaf Blade) [DEFEATED]
    - Rewards: Prize money, Sage gained EXP.
-3. Guitarist Shawn
-4. Bug Catcher Angelo
+3. Bug Maniac Angelo: [ENGAGED]
+   - Location: Eastern Chamber at (7, 10) facing North.
+   - Pre-battle quote: "Can I get my POKÉMON to run on electricity?"
+   - Team: 2 Pokémon.
+4. Guitarist Shawn:
+   - Location: Eastern Chamber at (7, 7) facing South.
 
 ## Progression Checklist - Mauville Gym
 1. [x] Enter Mauville Gym and check Gym Guide advice.
@@ -1028,7 +1032,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, obtained Mach Bike, obtained HM06 Rock Smash, and defeated Wally. Cleared Mauville Gym trainers (Kirk & Vivian, Ben); Lilz evolved into Lombre! Party fully healed at Pokémon Center. Next: Return to Mauville Gym, toggle Switch 1 to open Wattson's corridor, and defeat Gym Leader Wattson for the Dynamo Badge. Party: Sage Lv 30 (OK, 80/80), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, obtained Mach Bike, obtained HM06 Rock Smash, and defeated Wally. Party fully healed at Pokémon Center. Re-entered Mauville Gym, reached the Eastern Wing, and currently battling Bug Maniac Angelo! Next: Defeat Angelo and Guitarist Shawn, toggle East Switch at (7, 8) to open Wattson's corridor, and defeat Gym Leader Wattson for Dynamo Badge. Party: Sage Lv 30 (OK, 80/80), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 80/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: OK. Nature: Lonely. Ability: Overgrow.
