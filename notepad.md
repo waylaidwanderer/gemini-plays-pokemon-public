@@ -228,6 +228,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 - Poké Mart: Cols 22..27, rows 11..13. Blue sliding door at (23, 13) approached from (23, 14) facing North.
 - Eastern Avenue: Cobblestone road runs along row 15 past Mart and turns north around cols 27..28 into central Mauville City.
 - Southern Perimeter Item Ball: Visible at bottom right behind the southern hedge around (29, 18). Currently separated by a hedge/fence barrier.
+- Rydel's Cycles Interior: Entrance mat at (3, 8). Rydel stands at (2, 5) near bike display. Patron at (7, 6). Counter at rows 2..3.
 
 <hr>
 
