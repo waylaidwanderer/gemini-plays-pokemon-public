@@ -87,10 +87,14 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Elevated Western Plateau:
   - Northern Riverbank Alcove: Smashable rock at (12, 43) broken; path leads north along river to (11, 37) containing Protein [COLLECTED].
   - Western Terrace & Mud Slopes: Stairs at (5..6, 49..50) ascend north from (6, 50) to terrace at (6, 47) overlooking 4 Mach Bike mud slopes. Overlook at (6, 52) is blocked by impassable rock spikes at row 53.
-5. Sr. and Jr. Tyra & Ivy: [IN PROGRESS]
+5. Sr. and Jr. Tyra & Ivy: [DEFEATED]
    - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
    - Format: 2-on-2 Double Battle.
    - Tyra pre-battle quote: "TYRA: Well, sure. I'm in the mood for it."
    - Ivy pre-battle quote: "IVY: I'll teach you a little about POKéMON."
-   - Opponent team: Graveler Lv 20 & Roselia Lv 20.
-   - Status: Battle initiated!
+   - Tyra defeat quote: "TYRA: What an amazing battle style"
+   - Opponent team: Graveler ♂ Lv 20 (OHKO'd by Sage's Leaf Blade), Roselia ♀ Lv 18 (defeated by Sage's Leaf Blade & Lilz's Astonish).
+   - EXP gained: Sage gained 578 EXP (286 + 292); Lilz gained 578 EXP (286 + 292, grew to Lv 18!).
+   - Reward: ¥640 prize money.
+   - Match Call: Registered!
+   - Outcome: Complete victory! Total money: ¥34,824.
