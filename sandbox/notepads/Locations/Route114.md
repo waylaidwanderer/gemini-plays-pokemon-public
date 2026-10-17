@@ -91,5 +91,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
    - Format: 2-on-2 Double Battle.
    - Tyra pre-battle quote: "TYRA: Well, sure. I'm in the mood for it."
+   - Ivy pre-battle quote: "IVY: I'll teach you a little about POKéMON."
    - Opponent team: Graveler Lv 20 & Roselia Lv 20.
    - Status: Battle initiated!
