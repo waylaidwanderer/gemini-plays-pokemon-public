@@ -1069,7 +1069,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - Main Path West: Lower corridor continues west along rows 9..11 beneath the row 8 ledge.
 - Rock Mound 1: Located at cols 64..68, rows 4..8 with one-way ledge along south (row 10) and east (col 68).
 - Lower Path: Open corridor along row 11 (cols 60..68) bypassing Rock Mound 1 to the south.
-- Roaming NPC: Girl with red hair around (66, 12).
+- NPC Girl: Located at (66, 12). Dialogue: "It's fun walking through the volcano's ashes on the ground and grass. You can see where you walked--it's really neat!"
 
 ## Trainers
 1. Youngster Jaylen: [DEFEATED]
