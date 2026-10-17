@@ -20,7 +20,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Sandy road extends west along rows 50..51.
 - Rock cliff wall on north side, white picket fence and cliff on south side.
 - Central rock formation at cols 23..27, rows 45..48; road turns North at (21, 50).
-- Trainer (Picnicker) visible at (21, 43) facing East.
+- Trainer (Picnicker) at (22, 43) rotating/spinning on the northern avenue.
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
@@ -30,3 +30,5 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Team: Nuzleaf ♂ Lv 18 (defeated by Sage's Fury Cutter).
    - Reward: ¥288 prize money, 543 EXP.
 - Match Call: Received call from Pokémon Breeder Lydia at (28, 50) after Larry's battle.
+2. Picnicker: [APPROACHING]
+   - Location: (22, 43) rotating/spinning on Route 112 northern avenue.
