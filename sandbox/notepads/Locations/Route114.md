@@ -102,7 +102,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 8. Picnicker Angelina: [DEFEATED]
    - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
    - Pre-battle quote: "Have you made your POKéMON evolve very much?"
-   - Team: Lombre Lv 18 (OHKO'd by critical Pursuit), Marill Lv 18.
+   - Team: Lombre Lv 18 (OHKO'd by critical Pursuit), Marill Lv 18 (OHKO'd by Sage's Pursuit).
    - Outcome: Defeated in Double Battle!
 
 ## Route 114 Layout & Spatial Topology (Verified)
