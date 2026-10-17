@@ -1349,6 +1349,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Hidden Items:
   - Carbos: Found inside the rock at (20, 57) at the south end of the canyon.
 
+- Highlands Corridor (col 27):
+  - Open vertical dirt corridor along column 27 running from row 46 south to row 58, bounded on the west by the vertical jump ledge and on the east by the cliff wall and Acro Bike rails.
+  - Allows foot and Mach Bike travel from Upper Tier directly south down to Kindler Bernie (28..29, 58..59) and the Meteor Falls valley basin!
 
 <hr>
 

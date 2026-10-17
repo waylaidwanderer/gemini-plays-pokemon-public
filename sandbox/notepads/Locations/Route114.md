@@ -116,3 +116,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Correct route south to Meteor Falls: Return north to Camper Shane at (24, 50), then follow the eastern mountain trail south along cols 24..30 to reach the white staircase down to Kindler Bernie (28..29, 58..59), then continue southwest through the valley floor to Hiker Lucas (16, 67) and Meteor Falls (8, 63).
 - Hidden Items:
   - Carbos: Found inside the rock at (20, 57) at the south end of the canyon.
+
+- Highlands Corridor (col 27):
+  - Open vertical dirt corridor along column 27 running from row 46 south to row 58, bounded on the west by the vertical jump ledge and on the east by the cliff wall and Acro Bike rails.
+  - Allows foot and Mach Bike travel from Upper Tier directly south down to Kindler Bernie (28..29, 58..59) and the Meteor Falls valley basin!
