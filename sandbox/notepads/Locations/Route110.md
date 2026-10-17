@@ -27,10 +27,6 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - Itemfinder: Key Item received from Brendan. Can be used from Bag or registered to Select to search for hidden items nearby.
 - Trainer Tips Signpost: Located at (33, 39), read from (33, 40) facing North:
   - Text: "The foe can be made helpless by paralyzing it or causing it to sleep. It is an important technique for POKÉMON battles."
-- Northern Causeway Trainers:
-  - Collector Edwin at (34, 40) facing East [DEFEATED].
-  - Guitarist Joseph at (36, 40) facing West [DEFEATED].
-  - Approached individually from outside col 33 to bypass 2-on-2 Double Battle into two 1-on-1 victories.
 - Under-Bridge Route: Pedestrian pathway winding underneath and alongside the Cycling Road structure towards Mauville City.
 
 ## Progression Checklist - Route 110
