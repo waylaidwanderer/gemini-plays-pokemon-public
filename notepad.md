@@ -941,7 +941,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City and healed party at Pokémon Center! Next: Obtain Bicycle at Rydel's Cycles, explore Mauville City landmarks, and prepare for Gym 3 (Wattson). Party: Sage Lv 30, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12 (all OK/full health).
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, healed party at Pokémon Center, and obtained Mach Bike from Rydel! Next: Obtain HM06 Rock Smash, explore Mauville City landmarks, and challenge Gym 3 (Wattson). Party: Sage Lv 30, Lilz Lv 13, Cipher Lv 10, Cobalu Lv 12 (all OK/full health).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 80/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: OK. Nature: Lonely. Ability: Overgrow.
