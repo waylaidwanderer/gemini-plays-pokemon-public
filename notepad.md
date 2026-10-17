@@ -1056,12 +1056,15 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 ## Discovered Coordinates & Layout (Verdanturf Side)
 - South Entrance Warp: Located at (29, 15), enters from Verdanturf Town (8..9, 1).
 - Path: Wooden bridge and cave corridor leading north from (29, 14).
-- Hiker Mike: [IN BATTLE]
+- Hiker Mike: [DEFEATED]
   - Location: (31, 13) facing West near south entrance.
   - Pre-battle quote: "What do you call a wild man up in the mountains? A mountain man, right? So why don't they call a POKéMON in the mountains a mountain POKéMON?"
   - Team: 3 Pokémon:
     1. Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade)
     2. Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade)
+    3. Machop ♂ Lv 16 (OHKO'd by Sage's Leaf Blade)
+  - Reward: ¥640 prize money.
+  - Outcome: Complete victory! All 3 Pokémon swept by Sage's Leaf Blade.
 
 <hr>
 
