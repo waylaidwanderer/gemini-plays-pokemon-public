@@ -794,7 +794,14 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 
 ## Discovered Coordinates & Layout (South Section)
 - South Entrance from Mauville City: (15, 138) heading North.
-- Cobblestone highway runs north along column 15.
+- Cobblestone highway runs north along column 15 to row 132.
+- Stone Bridge: Crosses ravine at (20..22, 125..123).
+- Southern Signpost: Located at (24, 125) near east edge of stone bridge.
+- Mid-Route Signpost: Located at (24, 116) surrounded by small decorative trees.
+- Winstrate House: Located at cols 11..15, rows 110..113. Front door at (13, 113). Victor Winstrate stands outside at (13, 114) facing South.
+- Winstrate Signpost: Mounted on fence at (16, 114).
+- Yard Entrance: Pathway around fence at cols 17..18, rows 113..114.
+- Roaming NPC: Boy walking north/south along column 21 (rows 113..115).
 ## Trainers (South Section)
 1. Aroma Lady Celina: [DEFEATED]
    - Location: (20, 132) facing West along the cobblestone bend.
