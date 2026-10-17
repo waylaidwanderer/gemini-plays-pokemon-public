@@ -1178,7 +1178,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 
 ## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Active)
 1. [x] Enter Mauville Pokémon Center and heal party with Nurse Joy.
-2. [ ] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
+2. [x] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
 3. [ ] Explore Route 117 (visit Pokémon Day Care, battle trainers, harvest berries).
 4. [ ] Arrive in Verdanturf Town (explore Battle Tent, Contest Hall, Wanda's house).
 5. [ ] Enter Rusturf Tunnel from the Verdanturf Town entrance.
