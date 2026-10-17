@@ -2,7 +2,7 @@
 
 ## Overview
 A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls in the south. Passes by Lanette's house and mountainous terrain.
-- Wild Pokémon encountered: Lombre (Lv 16), Seviper (Lv 17).
+- Wild Pokémon encountered: Lombre (Lv 16), Lotad (Lv 15), Seviper (Lv 17), Swablu (Lv 17).
 
 ## Connection Points
 - North/East Exit: Fallarbor Town at (37, 10).

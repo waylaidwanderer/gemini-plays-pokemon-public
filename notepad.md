@@ -1234,7 +1234,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 
 ## Overview
 A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls in the south. Passes by Lanette's house and mountainous terrain.
-- Wild Pokémon encountered: Lombre (Lv 16), Seviper (Lv 17).
+- Wild Pokémon encountered: Lombre (Lv 16), Lotad (Lv 15), Seviper (Lv 17), Swablu (Lv 17).
 
 ## Connection Points
 - North/East Exit: Fallarbor Town at (37, 10).
@@ -1797,7 +1797,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve defeated). Total money: ¥34,824! Next: Advance south through Route 114 to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy defeated). Total money: ¥34,824! Next: Advance south through Route 114 to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
