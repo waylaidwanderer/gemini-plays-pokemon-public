@@ -867,7 +867,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
 3. [ ] Harvest ripe berries from berry patches.
-4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha defeated; Derek in battle).
+4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek defeated; Lydia in battle).
 5. [ ] Reach Verdanturf Town at the western terminus.
 
 ## Topography & Discovered Coordinates
