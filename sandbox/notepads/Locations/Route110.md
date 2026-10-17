@@ -84,4 +84,6 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Location: Northwest bend of Route 110 at row 39, cols 4..11. Triggered simultaneously when stepping onto (8, 39).
    - Psychic Edward Pre-battle Quote: "I have foreseen your intentions! I cannot possibly lose!"
    - Triathlete Alyssa Pre-battle Quote: "I fell off CYCLING ROAD... I'll get over my embarrassment by battling with you!"
-   - Opponents & Teams: In progress (1 Pokémon each).
+   - Teams:
+     - Psychic Edward: Abra ♂ Lv 15
+     - Triathlete Alyssa: Magnemite Lv 15
