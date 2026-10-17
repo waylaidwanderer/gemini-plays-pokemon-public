@@ -55,4 +55,4 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 4. Hiker Trent: [IN PROGRESS]
    - Location: (15, 39..40) facing North on west upper terrace.
    - Pre-battle quote: "My legs are solid from pounding up and down the mountains. They're not going to buckle easily, friend!"
-   - Team: Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade), Geodude ♂ Lv 17 (OHKO'd by Sage's Leaf Blade), Geodude #3, Pokémon #4 (4 Pokémon total).
+   - Team: Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade), Geodude ♂ Lv 17 (OHKO'd by Sage's Leaf Blade), Geodude ♂ Lv 16 (OHKO'd by Sage's Leaf Blade), Pokémon #4 (4 Pokémon total).
