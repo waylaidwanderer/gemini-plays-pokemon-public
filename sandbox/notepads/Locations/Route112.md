@@ -52,7 +52,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Reward: ¥680 prize money, 638 total EXP. Sage evolving into Sceptile!
 - Fiery Path Cave Entrance: Located at (10..11, 35) on Route 112 northwest cliff.
 - Fiery Path North Exit / Entrance: Located at (22, 10..11) on Route 112 north section. Player emerges at (22, 11) facing South.
-- Route 112 North Layout: Green path extends east along rows 11..12 toward northern Route 111 and Route 113. Berry patch with soft soil located to the northeast.
+- Route 112 North Layout: Green path extends east along rows 11..12 toward northern Route 111 and Route 113. Berry patch with 4 soil spots located at cols 27..30, row 6: (28, 6) yielded 2 Pecha Berries; (27, 6), (29, 6), (30, 6) to be harvested. Blonde NPC stands at (31, 7) next to boulder at (32, 7).
 
 4. Hiker Trent: [DEFEATED]
    - Location: (15, 39..40) on west upper terrace.
