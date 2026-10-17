@@ -902,6 +902,12 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Reward: ¥680 prize money.
 - Boy at (25, 6): Friendly NPC near central pond who says "The air is tasty here!"
 - Route 117 Direction Signpost: Located at (16, 6), read from (16, 7) facing North: "ROUTE 117 / ⬅ VERDANTURF TOWN".
+4. Triathlete Melina & Psychic Brandi: [IN BATTLE - DOUBLE BATTLE]
+   - Location: North of signpost at (18, 4) / (15, 4).
+   - Pre-battle quotes:
+     - Melina: "Isn't it nice? To battle while looking at pretty flowers?"
+     - Brandi: "Let me demonstrate the power hidden within a PSYCHIC POKÉMON!"
+   - Team: Doduo ♀ Lv 17 (Melina), Ralts ♀ Lv 17 (Brandi).
 
 <hr>
 
