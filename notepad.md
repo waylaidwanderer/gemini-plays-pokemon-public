@@ -885,6 +885,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
     - Team: Magnemite Lv 17 (OHKO'd by Sage's critical hit Leaf Blade), Whismur ♂ Lv 17 (OHKO'd by Sage's Leaf Blade).
     - Reward: ¥1,632 prize money.
     - Outcome: Complete victory! Lilz grew to Lv 16.
+- Route 111/112 Boundary Signpost: Located at (7, 84), read from (8, 84) facing West.
+11. Picnicker Becky: [IN BATTLE]
+    - Location: (10, 82) facing East near the Route 112 signpost.
+    - Team: Sandshrew ♀ Lv 18, Marill ♀ Lv 18.
 
 <hr>
 
