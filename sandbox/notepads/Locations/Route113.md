@@ -9,7 +9,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - West Exit: Fallarbor Town.
 
 ## Key Landmarks
-- Glass Workshop: Home of the glass artisan who provides the Soot Sack to collect volcanic ash for crafting flutes and furniture.
+- Glass Workshop: Home of the glass artisan who provides the Soot Sack to collect volcanic ash for crafting flutes and furniture. Located at cols 30..35, rows 2..7; entrance on south wall around (32, 7).
 - Volcanic Ash Mounds: Patches of ash that vanish when walked through, revealing hidden items or Ninja Boys.
   - Ash Mound 1: Located at (50, 12).
 - Eastern Signpost: Located at (85, 6), read from (85, 7) facing North. Text: "ROUTE 113 / -> ROUTE 111".
