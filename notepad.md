@@ -1065,6 +1065,9 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 
 ## Trainers
 - None encountered yet.
+- Eastern Signpost: Located at (85, 6), read from (85, 7) facing North. Text: "ROUTE 113 / -> ROUTE 111".
+- Item Ball: Located at (79, 6) in the ash clearing west of the first ash grass patch.
+- Ash Grass Patch 1: Located at cols 80..84, rows 4..9.
 
 <hr>
 
