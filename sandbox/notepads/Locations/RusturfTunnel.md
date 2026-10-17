@@ -15,6 +15,7 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
 - [x] Enter Rusturf Tunnel from Verdanturf Town south entrance.
 - [x] Use HM06 Rock Smash to clear the blocking rocks.
 - [x] Reunite Wanda and her boyfriend, and receive HM04 Strength!
+- [x] Item Ball on northeast upper terrace at (30, 2) - Max Ether obtained!
 - [ ] Optional: Item Ball (Poké Ball) on northwest elevated terrace at (2, 1) (can collect later).
 
 ## Key Characters & Trainers

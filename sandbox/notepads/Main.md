@@ -91,12 +91,24 @@
 6. [x] Enter Mauville Gym, solve electric barrier switch puzzle, and defeat Gym trainers.
 7. [x] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
-## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Active)
+## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Completed)
 1. [x] Enter Mauville Pokémon Center and heal party with Nurse Joy.
 2. [x] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
 3. [x] Explore Route 117 (all 7 trainers defeated: Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia).
-4. [x] Arrive in Verdanturf Town.
+4. [x] Arrive in Verdanturf Town (healed at Pokémon Center, checkpoint set).
 5. [x] Enter Rusturf Tunnel from the Verdanturf Town entrance.
 6. [x] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
 7. [x] Obtain HM04 Strength from Wanda's boyfriend.
-8. [ ] Return to Mauville City and head north onto Route 111 toward Mt. Chimney / Fallarbor Town.
+8. [x] Clear Rusturf Tunnel shortcut and collect Max Ether at (30, 2).
+
+## Progression Checklist - Phase 8: Route 111, Route 112, Mt. Chimney & Fallarbor Town (Active)
+1. [ ] Return east through Verdanturf Town and Route 117 to Mauville City.
+2. [ ] Travel north from Mauville City onto Route 111.
+3. [ ] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
+4. [ ] Advance north along Route 111 to Route 112.
+5. [ ] Pass through Fiery Path around Mt. Chimney.
+6. [ ] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
+7. [ ] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
+8. [ ] Explore Route 114 and Meteor Falls.
+9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
+10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
