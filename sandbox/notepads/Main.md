@@ -79,6 +79,7 @@
 - Gen 3 Berry Mechanics: In Generation 3 (R/S/E), Berries cannot be used directly as medicine from the Bag outside of battle. They can only be held by a Pokémon to trigger automatically in battle, planted in soft soil, or blended into Pokéblocks.
 - Evolution Mechanics: Pressing B during the evolution animation cancels evolution; avoid pressing B to allow evolution to finish safely.
 - Special Move Mechanics: In Gen 3, all Grass-type moves (including Leaf Blade) are Special, so enemy physical Attack drops (Growl) have no effect on their damage.
+- Multi-Step D-Pad Navigation: Consecutive identical D-pad presses require a 'sleep' (e.g. 'sleep 100') between them to ensure key release is registered by the emulator; without sleeps, multiple identical directional presses only result in a single turn/step.
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Active)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
 2. [x] Visit Rydel's Cycles, obtain Mach Bike, and register to Select button.
