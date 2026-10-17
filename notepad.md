@@ -900,6 +900,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "I need to get more practices in, I guess"
    - Post-battle: "You appear to be training properly... If you'd like, I'll battle you later!"
    - Reward: ¥680 prize money.
+- Boy at (25, 6): Friendly NPC near central pond who says "The air is tasty here!"
 
 <hr>
 
