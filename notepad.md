@@ -929,9 +929,15 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 ## Discovered Coordinates & Layout (North Section)
 - West Entrance from Route 112 North: (3, 29) heading East onto the sandy highway.
 - Sandy Highway Junction: Located at (8, 29). Leads West to Route 112 North, North toward the Old Lady's Rest House and Route 113, and South toward the Desert.
-- Trainer: Cooltrainer standing at (10, 26) facing South down column 10.
+- Trainer: Cooltrainer Wilton standing at (9, 27).
 - Old Lady's Rest House: Located north along the sandy road (offers free complete healing).
 - Route 113 Entrance: Northwest exit from Route 111 North leading to Fallarbor Town.
+
+## Trainers (North Section)
+1. Cooltrainer Wilton: [IN BATTLE]
+   - Location: (9, 27) on Route 111 North sandy highway.
+   - Pre-battle quote: "Show me how much you've toughened your POKéMON."
+   - Team: 3 Pokémon (Electrike, ...).
 
 <hr>
 
