@@ -65,5 +65,6 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 5. Battle Girl Aisha: [DEFEATED]
    - Location: (21, 4) facing South by the pond flowers.
    - Pre-battle quote: "Concentrate on getting the win. That's how I battle!"
+   - Defeat quote: "I don't waste any time being angry over a loss--I would rather train."
    - Team: Meditite ♀ Lv 17 (fainted to Sage's Leaf Blade).
-   - Reward: ¥544 prize money.
+   - Reward: ¥408 prize money.
