@@ -34,5 +34,6 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Team: Nuzleaf ♂ Lv 18 (defeated by Sage's Fury Cutter).
    - Reward: ¥288 prize money, 543 EXP.
 - Match Call: Received call from Pokémon Breeder Lydia at (28, 50) after Larry's battle.
-2. Picnicker: [IN PROGRESS]
+2. Picnicker Carol: [IN PROGRESS]
    - Location: (22, 46) on Route 112 northern avenue.
+   - Pre-battle quote: "When you're out on a picnic, why, you simply have to sing! Come on, sing with me!"
