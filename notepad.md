@@ -948,9 +948,9 @@
         1. **Wailord Lv. 57** (`Water Spout`, `Rain Dance`, `Double-Edge`, `Blizzard`): In Gen 3, `Hyper Potion` restores 200 HP. Hitting `Wailord` with `Return` drops it to ~35% HP, after which its `Double-Edge` recoil chips it down while you can revive backup pivots during the 5-turn `Rain Dance` timer and finish `Wailord` with `Strength`/`Return` on Turn 5.
         2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`): At Lv. 75, `ATRITON` outspeeds `Ludicolo` and takes ~95 HP from `Giga Drain`, while `Return` deals ~77% damage (which can drop a 100% HP `Ludicolo` to ~23% HP `<25%` Full Restore range if `Ludicolo` uses `Double Team` instead of `Giga Drain`); using `Strength` (~60% damage -> ~40% HP) followed by `Return` (~77% damage) deals ~137% total damage, bypassing the `<25%` Full Restore threshold and KOing `Ludicolo` even through a `Giga Drain` heal. Do NOT stall `Ludicolo` with `Hyper Potions` when `Ludicolo` is at 100% HP (`AI_CV_Drain` switches to `Leech Seed` and `Double Team` at 100% HP). If `Ludicolo` uses `Leech Seed`, switch to a backup Pokémon on the free Shift prompt after `Ludicolo` faints to clear `Leech Seed` for free.
         3. **Tentacruel Lv. 55** (`Toxic`, `Hydro Pump`, `Sludge Bomb`, `Ice Beam`): 2HKO with `Strength` x 2 (`100% -> 42% -> 0% HP`), staying above the 25% Full Restore threshold while preserving `Return` PP.
-        4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`): 2HKO with Turn 1 `Waterfall` (~67% damage before `Amnesia`) + Turn 2 Physical `Return` (ignores `Amnesia`).
-        5. **Gyarados Lv. 56** (`Dragon Dance`, `Earthquake`, `Hyper Beam`, `Surf` — `Intimidate`): Switch to a conscious backup Pokémon on the free Shift prompt when Wallace announces `Gyarados` so the backup absorbs `Intimidate`; once the backup faints, `ATRITON` enters at `+0 Attack` and 2HKOs `Gyarados` with `Return` x 2 (`100% -> 44% -> 0% HP`), bypassing Full Restore.
-        6. **Milotic Lv. 58 [Sitrus Berry]** (`Recover`, `Surf`, `Ice Beam`, `Toxic`): Hit lower 79 base Defense with Physical `Return` and `Strength`.
+        4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`): 2HKO with Turn 1 `Waterfall` (~65% damage before `Amnesia`) + Turn 2 `Surf` (~38% damage even through `+2 Sp. Def`, saving all `Return` PP).
+        5. **Gyarados Lv. 56** (`Dragon Dance`, `Earthquake`, `Hyper Beam`, `Surf` — `Intimidate`): Switch to `TETHYS` (`Clear Body`) on the free Shift prompt when Wallace announces `Gyarados` so `TETHYS` absorbs `Intimidate` and gives a free turn to `Hyper Potion` `ATRITON` (`Slot 5` after switching); once `TETHYS` faints, `ATRITON` enters at `+0 Attack` and 2HKOs `Gyarados` with `Return` x 2 (`100% -> 38% -> 0% HP`), bypassing Full Restore.
+        6. **Milotic Lv. 58 [Sitrus Berry]** (`Recover`, `Surf`, `Ice Beam`, `Toxic`): Chip with `Waterfall` x 2 (~19% per hit, `100% -> 81% -> 60% HP`), then KO from `60% -> 0% HP` in one hit with `Return` (~60% damage vs 79 base Defense), completely bypassing `Sitrus Berry`, `Recover`, and `Full Restore` [Defeated — **Hoenn League Championship Completed**].
 
 <hr>
 
@@ -959,12 +959,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $20,966 | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $32,566 | **Status:** HOENN LEAGUE CHAMPION (Hall of Fame Inductee) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Hyper Potion x12, Revive x2, Full Heal x2, Poké Ball x1, Great Ball x5, Ultra Ball x7, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 75 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 76 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 21 [FNT] — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 [FNT] — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 [FNT] — Powder Snow, Rain Dance, Sunny Day, Hail)
