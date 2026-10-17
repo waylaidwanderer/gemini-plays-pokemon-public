@@ -598,7 +598,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
   - Located at cols 12..15, rows 38..41. Pedestrian walkway passes cleanly underneath the Seaside Cycling Road overpass to the western bank.
   - Cycling Road Height Mechanics: The Seaside Cycling Road is an elevated highway with Cyclists riding above. Ground-level pedestrians walk underneath and cannot interact with overhead Cyclists.
   - At col 7..8, the path and canal railing turn North towards Mauville City.
-  - Item Ball: Located at (6, 39) near the northwest corner turn, directly west of Psychic Edward at (7, 39).
+  - Item Ball: (6, 39) - [OBTAINED] Elixir!
 5. Psychic Edward & Triathlete Alyssa (Double Battle): [DEFEATED]
    - Location: Northwest bend of Route 110 at row 39, cols 4..11. Triggered simultaneously when stepping onto (8, 39).
    - Psychic Edward Pre-battle Quote: "I have foreseen your intentions! I cannot possibly lose!"
