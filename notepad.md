@@ -934,7 +934,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
      2. Goldeen ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
      3. Roselia ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
      4. Shroomish ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
-     5. Marill ♀ Lv 11 (in battle)
+     5. Marill ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
 
 <hr>
 
