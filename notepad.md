@@ -183,6 +183,10 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Front door at (6, 17), entered from (6, 18) facing North.
   - Surveying device / telescope mounted on roof at cols 6..7, rows 13..14.
   - Approach route: Row 18 is open dirt from col 4 to col 13. Walk south to row 18, west to (6, 18), and step North into door at (6, 17).
+- Professor Cozmo's House Interior:
+  - Entrance mat at (3, 8), spawn at (3, 7).
+  - Professor Cozmo's wife standing at (5, 4) next to the table.
+  - Story Event: Explains Professor Cozmo was taken by Team Magma to Meteor Falls on Route 114.
 
 <hr>
 
