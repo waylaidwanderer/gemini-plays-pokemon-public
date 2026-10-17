@@ -43,7 +43,7 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 3. Bug Maniac Angelo: [ENGAGED]
    - Location: Eastern Chamber at (7, 10) facing North.
    - Pre-battle quote: "Can I get my POKÉMON to run on electricity?"
-   - Team: Illumise ♀ Lv 17, Volbeat ♂ Lv 17
+   - Team: Illumise ♀ Lv 17 (fainted to Leaf Blade), Volbeat ♂ Lv 17
 4. Guitarist Shawn:
    - Location: Eastern Chamber at (7, 7) facing South.
 
