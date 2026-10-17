@@ -856,9 +856,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Reward: ¥600 prize money.
    - Outcome: Complete victory! Battle 3 of 4 cleared! Sage Lv 35, HP 35/92 (PSN).
 
-8. Vicky Winstrate: [ENGAGING]
+8. Vicky Winstrate: [IN BATTLE]
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Grandmother of the Winstrate family (Final Battle 4 of 4!).
+   - Pre-battle quote: "How dare you..."
    - Team: Medicham ♀ Lv 18.
 
 ## Winstrate Family Gauntlet Mechanics
