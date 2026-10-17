@@ -1131,9 +1131,12 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Total money: ¥30,796. Sage HP 96/115 (PAR).
 
-6. Picnicker Sophie / Kindler Bernie: [IN BATTLE]
-   - Location: Positioned along column 7 between the berry patches (Picnicker at 7, 6 facing South; Kindler at 7, 11 facing North).
-   - Engaged player at (7, 10).
+6. Picnicker Sophie & Bird Keeper Coby: [IN BATTLE]
+   - Location: Crossroad between berry patches along column 7 (Sophie at 7, 6 facing South; Coby at 7, 11 facing North). Engaged player at (7, 10).
+   - Battle format: 2-on-2 Double Battle.
+   - Sophie pre-battle quote: "The warmth here is making me drowsy. Battle with me so I can stay awake."
+   - Coby pre-battle quote: "Pfft, with these wings I can flick you away!"
+   - Player leads: Sage Lv 38 (PAR, 96/115) and Lilz Lv 16 (OK, 49/49).
 
 <hr>
 
