@@ -901,7 +901,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 ## Progression Checklist - Route 117
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
-3. [x] Harvest ripe berries from berry patches (3 Wepear Berry trees at 41..43, 13).
+3. [ ] Harvest ripe berries from berry patches (3 Wepear Berry trees located at 41..43, 13).
 4. [x] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia defeated).
 5. [x] Reach Verdanturf Town at the western terminus.
 
@@ -910,7 +910,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 - Day Care exterior door: (51, 4).
 - Day Care interior entrance: (2, 8), counter at (2, 3).
 - Day-Care Man exterior: (46, 2).
-- Berry Patch: Located at (41..43, 13) south of the main road behind the bushes. 3 Wepear Berry trees harvested!
+- Berry Patch: Located at (41..43, 13) south of the main road behind the bushes (3 Wepear Berry trees unpicked).
 ## Signposts
 - Day Care Signpost: Located at (49, 5), read from (49, 6) facing North: "POKéMON DAY CARE / 'Let us raise your POKéMON.'"
 
@@ -1249,7 +1249,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Rusturf Tunnel cleared and Wanda reunited with boyfriend! Total money: ¥17,240! Match Call registered: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Collect Item Ball at (27, 2), return to Mauville City, and head north onto Route 111 toward Mt. Chimney / Fallarbor Town! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Advanced to Phase 8 on Route 111; battling Aroma Lady Celina. Total money: ¥17,240! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Defeat Celina, challenge Winstrate Family at the Winstrate House for the Macho Brace, and advance toward Route 112 / Mt. Chimney! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 34) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 89/89. Stats: HP 89, Atk 57, Def 42, Sp.Atk 67, Sp.Def 60, Speed 80. Status: OK. Nature: Lonely. Ability: Overgrow.
