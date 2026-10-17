@@ -1547,7 +1547,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 2. [x] Travel north from Mauville City onto Route 111.
 3. [x] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
 4. [x] Advance north along Route 111 to Route 112.
-5. [ ] Pass through Fiery Path around Mt. Chimney.
+5. [x] Pass through Fiery Path around Mt. Chimney.
 6. [ ] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
 7. [ ] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
 8. [ ] Explore Route 114 and Meteor Falls.
