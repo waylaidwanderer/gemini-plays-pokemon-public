@@ -42,9 +42,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Location: (51, 11) facing South.
    - Pre-battle quote: "I use this parasol to ward off this filthy, yucky volcanic ash from my dear NUMEL."
    - Defeat quote: "Huff, huff... I am exhausted..."
+   - Post-battle quote: "Here, slide under my parasol with me! You can hide from the ash."
    - Team: Numel (Fire/Ground) Lv 19 (OHKO'd by Quick Attack).
-   - Reward: Pending prize money confirmation on return to overworld.
-   - Outcome: Complete victory! Sage HP 108/112 (PAR).
+   - Reward: ¥760 prize money.
+   - Outcome: Complete victory! Total money: ¥29,832. Sage HP 108/112 (PAR).
 
 3. Twins Tori & Tia: [UNBATTLED]
    - Location: (44..45, 3) facing South.
