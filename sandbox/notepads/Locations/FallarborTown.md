@@ -25,7 +25,7 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - Pokémon Center Interior (1F):
   - Entrance/Exit mat at (7, 8).
   - Nurse Joy counter at (7, 3), Nurse Joy at (7, 2). Checkpoint registered! Party fully healed!
-  - Lanette (Storage System creator) standing at the PC at (10, 3)!
+  - Lanette (Storage System creator): Met at the PC at (10, 3). Introduced herself, deducing player is a trainer who uses the PC storage system. Invited player to visit her house on Route 114. Leaves Pokémon Center after conversation, unlocking "LANETTE'S PC" on all PCs throughout Hoenn.
   - Old man NPC at (3, 3).
   - Woman NPC at table at (10, 6).
   - 2F Escalator at (1, 6).
