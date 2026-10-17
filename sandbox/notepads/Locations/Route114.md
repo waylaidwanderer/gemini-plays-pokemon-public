@@ -27,11 +27,13 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Signpost at (31, 7).
   - Inside: Fossil Maniac's brother gifts TM28 Dig!
   ## Trainers
-1. Fisherman Nolan: [IN BATTLE]
+1. Fisherman Nolan: [DEFEATED]
    - Location: North pond shoreline at (25, 6) facing South. Engaged from (26, 6).
    - Pre-battle quote: "I like to fish. But I also like to battle! If anyone challenges me, I'm there, even if I'm fishing."
-   - Team: 1 Pokémon.
-   - Strategy: Sage Lv 38 OHKOs with Leaf Blade!
+   - Defeat quote: "I like to battle, but..."
+   - Team: Barboach ♂ Lv 19 (Water/Ground) - OHKO'd by Sage's 4x super effective Leaf Blade!
+   - EXP gained: Sage gained 373 EXP.
+   - Outcome: Complete victory! Total money: ¥31,708 + prize money.
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
   - Main Path: Turns west along rows 11..12 between the two ponds.
