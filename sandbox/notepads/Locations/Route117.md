@@ -37,4 +37,4 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Reward: ¥544 prize money. Lilz grew to Lv 15! Registered in PokéNav Match Call.
 2. Pokémon Breeder Isaac: Located at (33, 11) facing North.
    - Pre-battle quote: "Listen, could I get you to battle the POKéMON I'm raising?"
-   - Team (6 Pokémon): Whismur ♂ Lv 11 (fainted), Taillow ♂ Lv 11 (fainted), Zigzagoon ♂ Lv 11, plus 3 others.
+   - Team (6 Pokémon): Whismur ♂ Lv 11 (fainted), Taillow ♂ Lv 11 (fainted), Zigzagoon ♂ Lv 11 (fainted), Aron ♂ Lv 11, plus 2 others.
