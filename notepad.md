@@ -1592,7 +1592,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (18/20), Pursuit (13/20), Leaf Blade (0/15), Quick Attack (13/30). HP: 96/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: PAR. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 16) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 49/49. Stats: HP 49, Atk 24, Def 21, Sp.Atk 21, Sp.Def 28, Speed 24. Status: OK.
+2. LILZ (Lombre ♀, Level 17) - Evolved from Lotad on turn 4926! Level 17 on turn 6119! Moves: Astonish, Nature Power, Absorb, Flash. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
 
