@@ -1357,6 +1357,13 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - The true route to Meteor Falls follows the intended trainer sequence: Sr. & Jr. Tyra & Ivy (#5, row 44) -> Kindler Bernie (#6, 28..29, 58..59) -> Hiker Lucas (#7, 14..16, 65) -> Meteor Falls entrance (8, 63).
   - To reach Kindler Bernie and the eastern canyon, access the eastern mountain path from row 44 via col 29/31.
 
+## Master Route to Kindler Bernie & Meteor Falls:
+1. Western Stairs: From canyon at (16, 50), climb stairs to Western Terrace at (15, 48).
+2. Western Terrace Highway: Ride to (12, 48) -> Down col 12 to (12, 55) -> East across row 55 to (17, 55) -> Down col 17 to (17, 60).
+3. Row 59 Access: Ride East along row 60 to (24, 60), step onto row 59 at (24, 59).
+4. Kindler Bernie (#6): Ride East along row 59: (25, 59) -> (26, 59) -> (27, 59) -> (28, 59) into Bernie's sightline!
+5. Valley Floor & Meteor Falls: From Bernie (28, 59), descend south down cols 28/29 to row 65 (valley floor), then ride West along row 65 past Hiker Lucas (#7 at 15, 65) into Meteor Falls cave entrance at (8, 63)!
+
 
 <hr>
 
@@ -1806,7 +1813,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy defeated). Total money: ¥34,824! Next: Advance south through Route 114 to Meteor Falls! Party: Sage Lv 38 (OK, 113/115), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy defeated). Total money: ¥34,824! Next: Defeat Kindler Bernie (#6 at 28, 59), descend eastern canyon to valley floor, defeat Hiker Lucas (#7), and enter Meteor Falls (8, 63)! Party: Sage Lv 38 (OK, 113/115), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
