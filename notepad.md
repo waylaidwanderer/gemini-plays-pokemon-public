@@ -230,6 +230,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 - Eastern Avenue: Cobblestone road runs along row 15 past Mart and turns north around cols 27..28 into central Mauville City.
 - Southern Perimeter Item Ball: Visible at bottom right behind the southern hedge around (29, 18). Currently separated by a hedge/fence barrier.
 - Rydel's Cycles Interior: Entrance mat at (3, 8). Rydel stands at (2, 5) near bike display. Patron at (7, 6). Counter at rows 2..3.
+- Rock Smash Dude's House: Located at cols 30..36, rows 11..13 directly east of Poké Mart. Front entrance door at (31, 13), approached from (31, 14) facing North. Home of the Rock Smash Dude who gives HM06 Rock Smash!
 
 <hr>
 
