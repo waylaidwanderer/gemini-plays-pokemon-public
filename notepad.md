@@ -883,6 +883,11 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 - Day Care exterior door: (51, 4).
 - Day Care interior entrance: (2, 8), counter at (2, 3).
 - Day-Care Man exterior: (46, 2).
+## Signposts
+- Day Care Signpost: Located at (49, 5), read from (49, 6) facing North: "POKéMON DAY CARE / 'Let us raise your POKéMON.'"
+
+## Trainers
+1. Sr. and Jr. Anna & Meg: Located at (43..44, 5) facing Down by the wooden fence. Double Battle triggered by walking in front of them along row 7.
 
 <hr>
 
