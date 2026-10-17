@@ -287,9 +287,9 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Electric Barrier 1: Horizontal blue barrier at (4, 14) between pillars at (3, 14) and (5, 14) [ACTIVE].
 - Floor Switch 1: Located at (0, 15) on the far west wall.
 - Floor Switch 2: Located at (3, 12) north of barrier 1.
-- Youngster Ben: Located at (1, 16) facing Up.
-- Guitarist Kirk: Located at (1, 13) facing Down.
-- Note: Stepping onto (1, 15) enters line of sight of both Ben and Kirk simultaneously, triggering a Double Battle!
+- Battle Girl Vivian: Located at (1, 16) facing Up. Pre-battle quote: "With my charm and my POKÉMON's moves, you'll be shocked!"
+- Guitarist Kirk: Located at (1, 13) facing Down. Pre-battle quote: "My electric soul, it'll shatter your dreams whole, whoa-yeahah!"
+- Note: Stepping onto (1, 15) enters line of sight of both Vivian and Kirk simultaneously, triggering a Double Battle!
 
 <hr>
 
