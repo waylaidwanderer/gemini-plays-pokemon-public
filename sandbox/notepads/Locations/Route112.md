@@ -50,5 +50,7 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "I lost! Hahahaha!"
    - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!), Machop ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP).
    - Reward: ¥680 prize money, 638 total EXP. Sage evolving into Sceptile!
-4. Hiker Trent: [APPROACHING]
-   - Location: (14..15, 38..39) rotating on west upper terrace.
+- Fiery Path Cave Entrance: Located at (10..11, 35) on Route 112 northwest cliff.
+
+4. Hiker Trent: [IN PROGRESS]
+   - Location: (14, 39) on west upper terrace.

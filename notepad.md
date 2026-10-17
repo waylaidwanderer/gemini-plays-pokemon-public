@@ -953,8 +953,10 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "I lost! Hahahaha!"
    - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!), Machop ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP).
    - Reward: ¥680 prize money, 638 total EXP. Sage evolving into Sceptile!
-4. Hiker Trent: [APPROACHING]
-   - Location: (14..15, 38..39) rotating on west upper terrace.
+- Fiery Path Cave Entrance: Located at (10..11, 35) on Route 112 northwest cliff.
+
+4. Hiker Trent: [IN PROGRESS]
+   - Location: (14, 39) on west upper terrace.
 
 <hr>
 
@@ -1426,7 +1428,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥24,520
+- Money: ¥25,200
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary
