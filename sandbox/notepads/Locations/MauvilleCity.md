@@ -14,7 +14,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 - Southern Residential House: Pink roof, yellow siding, purple door at row 12..13, col 19.
 - Pokémon Center: Red roof building located at rows 4..6, cols 20..24. Front door at (22, 5), approached from (22, 6) facing North. Interior entrance warp at (7, 8); Nurse Joy counter approached from (7, 4) facing North. Checkpoint set and party fully restored!
 - Poké Mart: Blue roof building.
-- Rydel's Cycles: Bicycle shop where Rydel provides a free Mach Bike or Acro Bike!
+- Rydel's Cycles: Bicycle shop located at rows 3..5, cols 33..37. Outdoor sign at (33, 6). Front entrance door at (34, 5), approached from (34, 6) facing North. Rydel gives a free Mach Bike or Acro Bike inside!
 - Mauville Gym: Gym Leader Wattson (Electric-type specialist).
 - Game Corner: Sells coins and prizes (TMs, dolls). Requires Coin Case (obtainable from woman in Mauville house in exchange for Harbor Mail).
 
