@@ -1343,6 +1343,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - The 4 mud slopes at cols 1..5 run up to row 45 from the Meteor Falls valley below; they cannot be entered from the terrace and are an upward Mach Bike climb from the bottom.
   - Square cliff indentation at (9, 44) is a Secret Base location (Secret Power).
   - Terrace path from (6, 49) stairs connects via (8, 51) east to the plateau and canyon stairs at (15, 49).
+- Canyon to Lower Basin Route:
+  - From Steve at (20, 54), head south along col 21 to (21, 57).
+  - Southern cliff wall at row 58 blocks direct southward movement along col 21.
+  - White staircase at (24..25, 57..58) leads down to the east into the lower basin where Kindler Bernie patrols at (28..29, 58..59).
+  - From the lower basin, the route continues south/west toward Hiker Lucas (16, 67) and the Meteor Falls cave entrance.
 
 <hr>
 
