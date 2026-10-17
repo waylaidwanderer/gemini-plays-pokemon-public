@@ -1170,9 +1170,9 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Discovered Coordinates & Layout
 - Arrival from Route 117: (17, 9) facing West.
 - Town Signpost: Located at (14, 5).
-- Southern Residential Houses: Green tiled roofs along rows 10..14.
-- Battle Tent: Large domed building on northwest side (cols 2..6, rows 2..6) with red/white canopy and blue roof. Outdoor signpost at (3, 7).
-- Pokémon Center: Red-roofed building (currently searching south/central Verdanturf Town).
+- Southern Residential Houses: Green tiled roofs along rows 10..14, separated by street at cols 13..14.
+- Battle Tent: Northwest domed building (cols 2..6, rows 2..7) with red/white canopy and blue roof. Entrance door at (3, 7). Inside: Scott and attendants. Signpost at (2..3, 7).
+- Pokémon Center: Red-roofed building directly east of Battle Tent (cols 8..12, rows 3..6). Glass sliding doors around (9..10, 6) approached from row 7 facing North.
 - Green-capped NPC outside Pokémon Center at (6, 5).
 
 <hr>
