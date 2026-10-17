@@ -66,8 +66,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Reward: ¥288 prize money.
    - Outcome: Complete victory! Total money: ¥33,044.
 
-4. Pokéfan Steve: [IN BATTLE]
+4. Pokémaniac Steve: [DEFEATED]
    - Location: Western tall grass canyon at (20, 54..55) facing North. Engaged player at (20, 53).
    - Pre-battle quote: "Ufufufufufu... Want to battle against my POKéMON?"
-   - Team: Electric Pokémon (Electrike / Manectric).
-   - Strategy: Sage Lv 38 sweeps with Leaf Blade / Quick Attack!
+   - Defeat quote: "M-My POKéMON!"
+   - Team: Aron ♂ Lv 19 (Steel/Rock) - OHKO'd by Sage's Leaf Blade!
+   - EXP gained: Sage gained 390 EXP.
+   - Reward: ¥1,140 prize money.
+   - Outcome: Complete victory! Total money: ¥34,184.
