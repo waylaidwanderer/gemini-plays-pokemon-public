@@ -104,3 +104,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 9. Camper Travis: [IN BATTLE]
    - Location: (8, 92) facing West near the Route 112 junction.
    - Team: Sandshrew ♂ Lv 19.
+
+9. Camper Travis:
+   - Location: (9, 93) roaming near the trees on northern Route 111.
+   - Team: Sandshrew ♂ Lv 19.

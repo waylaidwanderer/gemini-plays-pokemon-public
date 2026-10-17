@@ -878,6 +878,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Location: (8, 92) facing West near the Route 112 junction.
    - Team: Sandshrew ♂ Lv 19.
 
+9. Camper Travis:
+   - Location: (9, 93) roaming near the trees on northern Route 111.
+   - Team: Sandshrew ♂ Lv 19.
+
 <hr>
 
 <h1><code>Locations/Route116</code></h1>
