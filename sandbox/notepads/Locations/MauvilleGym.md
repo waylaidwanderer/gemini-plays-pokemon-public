@@ -40,10 +40,11 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
    - Pre-battle quote: "This GYM's got puzzles! Isn't it fun?"
    - Team: Zigzagoon ♂ Lv 17 (OHKO'd by Sage's Leaf Blade), Gulpin ♂ Lv 17 (fainted to Sage's Leaf Blade) [DEFEATED]
    - Rewards: Prize money, Sage gained EXP.
-3. Bug Maniac Angelo: [ENGAGED]
+3. Bug Maniac Angelo: [DEFEATED]
    - Location: Eastern Chamber at (7, 10) facing North.
    - Pre-battle quote: "Can I get my POKÉMON to run on electricity?"
-   - Team: Illumise ♀ Lv 17 (fainted to Leaf Blade), Volbeat ♂ Lv 17
+   - Team: Illumise ♀ Lv 17 (fainted to Leaf Blade), Volbeat ♂ Lv 17 (fainted to Leaf Blade) [DEFEATED]
+   - Rewards: Prize money, Sage gained EXP.
 4. Guitarist Shawn:
    - Location: Eastern Chamber at (7, 7) facing South.
 
