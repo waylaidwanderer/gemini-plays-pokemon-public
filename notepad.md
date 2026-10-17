@@ -555,8 +555,8 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 ## Progression Checklist - Route 110
 - [x] Enter Route 110 from Slateport City.
 - [x] Inspect southern signpost at (20, 94).
-- [ ] Traverse lower path towards Mauville City.
-- [ ] Challenge Route 110 trainers for EXP.
+- [x] Traverse lower path towards Mauville City.
+- [x] Challenge Route 110 trainers for EXP (defeated Isabel/Kaleb, Timmy, Edwin, Joseph, Edward/Alyssa).
 - [x] Defeat Rival Brendan in battle under Cycling Road.
 - [x] Visit Trick House (Challenge 1).
 - [ ] Arrive in Mauville City.
