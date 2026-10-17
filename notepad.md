@@ -951,6 +951,9 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
   - Right patch (cols 22..23, row 5): 2 Razz Berry plants [HARVESTED - 6 Razz Berries].
   - Left patch (cols 18..19, row 5): 2 Oran Berry trees [HARVESTED - 4 Oran Berries].
 - Route 113 Signpost: Located at (13, 6), read from (13, 7) facing North. Text: "ROUTE 111 / <- ROUTE 113". Indicates Route 113 begins immediately to the west.
+2. Trainer at (11, 10): [IN BATTLE]
+   - Location: (11, 10) on Route 111 North, facing North along column 11 (spotted player at (11, 7)).
+   - Appearance: Brown hair, red shirt.
 
 <hr>
 
