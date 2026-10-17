@@ -51,4 +51,4 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Entrance mat at (3, 8), spawn at (3, 7).
   - Central table and chairs at cols 4..5, rows 5..6.
   - Professor Cozmo's wife standing at (5, 6), talkable from (6, 6) facing West.
-  - Story Event: Explains Professor Cozmo was taken by Team Magma to Meteor Falls on Route 114.
+  - Story Event: Spoke with Cozmo's wife. Exact dialogue: "PROF. COZMO went off to METEOR FALLS on ROUTE 114 with some people from TEAM MAGMA." Sets plot objective for Route 114 and Meteor Falls!
