@@ -942,7 +942,7 @@
       - Entering `(5, 1)` from `EverGrandeCity_Hall4` auto-walks to `(6, 6)` and plays 12 pre-battle dialogue boxes before initiating battle.
       - Observed team members & Lv. 71+ `ATRITON` strategy:
         1. **Wailord Lv. 57** (`Water Spout`, `Rain Dance`, `Double-Edge`, `Blizzard`): 2HKO with `Return` x 2 (`100% -> 44% -> 0% HP`), reducing Turn 1 `Water Spout` to ~34 HP damage and KOing `Wailord` before it can use `Rain Dance` on Turn 2.
-        2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`): Without Rain (`Swift Swim` inactive), `ATRITON` outspeeds and 2HKOs with `Return` x 2; if `Ludicolo` uses `Leech Seed`, switch to a backup Pokémon on the free Shift prompt after `Ludicolo` faints to clear `Leech Seed` for free.
+        2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`): Without Rain (`Swift Swim` inactive), `ATRITON` Lv. 74–75 (`214 effective Attack`) outspeeds and 2HKOs `Ludicolo` on Turn 2 with `Return` x 2 (`~73%` per hit = `146%` total, which KOs even through `Giga Drain` #1's ~32% heal). Do NOT stall `Ludicolo` with `Hyper Potions` when `Ludicolo` is at 100% HP (`AI_CV_Drain` switches to `Leech Seed` and `Double Team` at 100% HP). If `Ludicolo` uses `Leech Seed`, switch to a backup Pokémon on the free Shift prompt after `Ludicolo` faints to clear `Leech Seed` for free.
         3. **Tentacruel Lv. 55** (`Toxic`, `Hydro Pump`, `Sludge Bomb`, `Ice Beam`): 2HKO with `Strength` x 2 (`100% -> 42% -> 0% HP`), staying above the 25% Full Restore threshold while preserving `Return` PP.
         4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`): 2HKO with Turn 1 `Waterfall` (~67% damage before `Amnesia`) + Turn 2 Physical `Return` (ignores `Amnesia`).
         5. **Gyarados Lv. 56** (`Dragon Dance`, `Earthquake`, `Hyper Beam`, `Surf` — `Intimidate`): Switch to a conscious backup Pokémon on the free Shift prompt when Wallace announces `Gyarados` so the backup absorbs `Intimidate`; once the backup faints, `ATRITON` enters at `+0 Attack` and 2HKOs `Gyarados` with `Return` x 2 (`100% -> 44% -> 0% HP`), bypassing Full Restore.
@@ -962,7 +962,7 @@
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 73 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 21 — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
+  3. GAIA (Nincada, Female, Lv. 13 [FNT] — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
   5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
   6. TETHYS (Tentacool, Female, Lv. 17 — Poison Sting, Supersonic, Constrict, Waterfall)
