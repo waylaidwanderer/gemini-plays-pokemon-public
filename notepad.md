@@ -146,9 +146,9 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 
 ## Progression Checklist - Fiery Path
 1. [x] Enter Fiery Path from Route 112 south entrance.
-2. [ ] Navigate through the main cave tunnel north toward the northern exit.
-3. [ ] Optional: Push Strength boulders with HM04 Strength to collect hidden items.
-4. [ ] Exit northern mouth onto Route 111 / Route 113.
+2. [x] Navigate through the main cave tunnel north toward the northern exit.
+3. [ ] Optional: Push Strength boulders with HM04 Strength to collect hidden items (requires Heat Badge).
+4. [x] Exit northern mouth onto Route 111 / Route 113.
 
 ## Wild Pokémon
 - Numel (Fire/Ground), Slugma (Fire), Torkoal (Fire), Koffing (Poison), Grimer (Poison), Machop (Fighting).
@@ -157,6 +157,7 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 - South Entrance Warp: (26, 36), player enters at (26, 35) facing North (leads outside to Route 112 at 11, 35).
 - Main Cavern: South section (cols 25..27) heads North to row 22, turns West to col 20, then runs straight North along cols 18..20 toward northern exit.
 - Strength Boulder: Located at (17, 13) blocking the west side corridor. Main path bypasses on the east along cols 18..20.
+- North Exit Portal: Located at (24..25, 5), approached from row 4 heading South (leads outside to northern Route 111).
 
 <hr>
 
@@ -1544,7 +1545,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 2. [x] Travel north from Mauville City onto Route 111.
 3. [x] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
 4. [x] Advance north along Route 111 to Route 112.
-5. [ ] Pass through Fiery Path around Mt. Chimney.
+5. [x] Pass through Fiery Path around Mt. Chimney.
 6. [ ] Traverse Route 113 (volcanic ash route) to Fallarbor Town.
 7. [ ] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
 8. [ ] Explore Route 114 and Meteor Falls.
