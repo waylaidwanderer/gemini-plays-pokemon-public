@@ -101,10 +101,12 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Interacting with each member using 'A' starts their battle. Do not press 'B' on challenge prompts.
 - Defeating all 4 members awards the Macho Brace inside the house from Victoria!
 - Western Pond / Shore: Located at cols 8..13, rows 105..110. Shoreline at (12, 104) is a dead-end cove. Main route to Route 112 and Desert continues north through the central rocky valley at cols 16..22 (north of row 104).
-9. Camper Travis: [IN PROGRESS]
+9. Camper Travis: [DEFEATED]
    - Location: (11, 71) facing South on northern Route 111.
    - Pre-battle quote: "I'm full of pep! And my POKéMON is peppy, too!"
-   - Team: Sandshrew ♂ Lv 18.
+   - Defeat quote: "My POKéMON lost its pep..."
+   - Team: Sandshrew ♂ Lv 18 (OHKO'd by Sage's Leaf Blade).
+   - Outcome: Complete victory! Sage gained 358 EXP.
 10. Interviewers Gabby & Ty: [DEFEATED]
     - Battle Type: 2-on-2 Double Battle.
     - Location: (13..14, 86) on northern Route 111.
