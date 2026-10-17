@@ -25,7 +25,8 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Mountain Stairs: Located at (20..21, 40..42) leading up to upper mountain terrace.
 - Direction Signpost: Located at (19, 44) south of the stairs.
 - Upper Mountain Terrace: Begins at row 39; spinning Hiker at (14..15, 38).
-- Upper Direction Signpost: Located at (22, 37), approached from (22, 38) facing North.
+- Upper Direction Signpost: Located at (22, 37), approached from (22, 38) facing North:
+  "MT. CHIMNEY CABLE CAR / 'A short walk ⬆'"
 - Upper Hiker: Located at (23..24, 34) facing South.
 - Cable Car / Mountain Entrance: Path continues north and west around Mt. Chimney.
 
