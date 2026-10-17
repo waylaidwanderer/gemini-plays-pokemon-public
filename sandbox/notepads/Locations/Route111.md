@@ -38,7 +38,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Sandshrew ♂ Lv 19 (OHKO'd by Sage's Leaf Blade).
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Sage HP 89/89.
-3. Picnicker Bianca: [IN BATTLE]
+3. Picnicker Bianca: [DEFEATED]
    - Location: (19, 121) facing North, guarding Item Ball at (19, 118).
    - Pre-battle quote: "Did you come from MAUVILLE? Then you should be full of energy!"
-   - Team: Shroomish ♀ Lv 18, Marill Lv 18.
+   - Defeat quote: "Ooh lala! That's a lot to take!"
+   - Team: Shroomish ♀ Lv 18 (fainted to Sage's Leaf Blade).
+   - Reward: ¥288 prize money.
+   - Outcome: Complete victory! Sage HP 85/89.

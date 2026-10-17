@@ -809,10 +809,13 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Sandshrew ♂ Lv 19 (OHKO'd by Sage's Leaf Blade).
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Sage HP 89/89.
-3. Picnicker Bianca: [IN BATTLE]
+3. Picnicker Bianca: [DEFEATED]
    - Location: (19, 121) facing North, guarding Item Ball at (19, 118).
    - Pre-battle quote: "Did you come from MAUVILLE? Then you should be full of energy!"
-   - Team: Shroomish ♀ Lv 18, Marill Lv 18.
+   - Defeat quote: "Ooh lala! That's a lot to take!"
+   - Team: Shroomish ♀ Lv 18 (fainted to Sage's Leaf Blade).
+   - Reward: ¥288 prize money.
+   - Outcome: Complete victory! Sage HP 85/89.
 
 <hr>
 
@@ -1263,10 +1266,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 34, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Phase 8 underway on Route 111 (Aroma Lady Celina & Camper Tyron defeated). Total money: ¥18,264! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Challenge Winstrate Family at the Winstrate House for the Macho Brace, and advance toward Route 112 / Mt. Chimney! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Phase 8 underway on Route 111 (Celina, Tyron & Bianca defeated). Total money: ¥18,552! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Challenge Winstrate Family at the Winstrate House for the Macho Brace, and advance toward Route 112 / Mt. Chimney! Party: Sage Lv 34 (OK, 85/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 34) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 89/89. Stats: HP 89, Atk 57, Def 42, Sp.Atk 67, Sp.Def 60, Speed 80. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Grovyle ♂, Level 34) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (30/30). HP: 85/89. Stats: HP 89, Atk 57, Def 42, Sp.Atk 67, Sp.Def 60, Speed 80. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 15) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 47/47. Stats: HP 47, Atk 23, Def 20, Sp.Atk 20, Sp.Def 27, Speed 23. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
