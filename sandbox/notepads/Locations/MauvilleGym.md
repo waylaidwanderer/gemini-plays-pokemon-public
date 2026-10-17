@@ -94,6 +94,6 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Guitarist Kirk: (1, 13) facing Down. [DEFEATED]
 - Youngster Ben: (5, 10) facing Left. [DEFEATED]
 - Bug Maniac Angelo: (7, 10) facing North. [DEFEATED]
-- Guitarist Shawn: (7, 7) facing South. [ENGAGED]
+- Guitarist Shawn: (7, 7) facing South. [DEFEATED]
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
