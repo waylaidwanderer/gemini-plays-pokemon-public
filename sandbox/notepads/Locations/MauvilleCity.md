@@ -31,3 +31,9 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 ## Topography & Landmarks Discovered
 - Eastern Avenue: Cobblestone road runs along row 15 past Mart and turns north around cols 27..28 into central Mauville City.
 - Southern Perimeter Item Ball: Visible at bottom right behind the southern hedge around (29, 18). Currently separated by a hedge/fence barrier.
+## Trainers
+1. PKMN Trainer Wally: [DEFEATED]
+   - Location: Outside Mauville Gym at (8, 6).
+   - Team: Ralts ♂ Lv 16 (OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥960 prize money.
+   - Story Lead: Following defeat, Wally acknowledges he needs more training and departs with his uncle to Verdanturf Town. Unblocks the Mauville Gym entrance!
