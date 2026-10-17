@@ -185,7 +185,8 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Approach route: Row 18 is open dirt from col 4 to col 13. Walk south to row 18, west to (6, 18), and step North into door at (6, 17).
 - Professor Cozmo's House Interior:
   - Entrance mat at (3, 8), spawn at (3, 7).
-  - Professor Cozmo's wife standing at (5, 4) next to the table.
+  - Central table and chairs at cols 4..5, rows 5..6.
+  - Professor Cozmo's wife standing at (6, 6), talkable from (6, 7) facing North.
   - Story Event: Explains Professor Cozmo was taken by Team Magma to Meteor Falls on Route 114.
 
 <hr>
@@ -1649,7 +1650,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: In Fallarbor Town! Party fully healed, checkpoint registered, Move Tutor identified. Entering Professor Cozmo's house. Total money: ¥31,708! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Speak with Professor Cozmo's wife, then advance to Route 114! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Fallarbor Town explored (healed, Lanette met, Cozmo's house visited). Total money: ¥31,708! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao. Next: Advance onto Route 114 toward Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
