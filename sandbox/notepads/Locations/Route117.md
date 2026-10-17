@@ -62,7 +62,8 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Team: Doduo ♀ Lv 17 (Melina - fainted to Sage's Pursuit), Ralts ♀ Lv 17 (Brandi - fainted to Sage's Pursuit).
    - Outcome: Victory! Both foes defeated cleanly. Sage and Lilz gained EXP.
 - Cut Tree: Located at (15, 2) in the northern tree line near the flowers.
-5. Battle Girl Aisha: [IN BATTLE]
+5. Battle Girl Aisha: [DEFEATED]
    - Location: (21, 4) facing South by the pond flowers.
    - Pre-battle quote: "Concentrate on getting the win. That's how I battle!"
-   - Team: Meditite ♀ Lv 17.
+   - Team: Meditite ♀ Lv 17 (fainted to Sage's Leaf Blade).
+   - Reward: ¥544 prize money.
