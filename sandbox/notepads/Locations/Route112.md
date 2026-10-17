@@ -22,9 +22,10 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Trainer (Camper) visible at west end near (29, 49).
 
 ## Trainers
-1. Camper Larry: [DEFEATED - REGISTERED IN MATCH CALL]
+1. Camper Larry: [DEFEATED]
    - Location: (29, 49) facing South on Route 112.
    - Pre-battle quote: "I'm strong. I won't cry if I lose."
    - Defeat quote: "Waaaah!"
    - Team: Nuzleaf ♂ Lv 18 (defeated by Sage's Fury Cutter).
-   - Reward: ¥288 prize money, 543 EXP. Registered in PokéNav Match Call.
+   - Reward: ¥288 prize money, 543 EXP.
+- Match Call: Received call from Pokémon Breeder Lydia at (28, 50) after Larry's battle.
