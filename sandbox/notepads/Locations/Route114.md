@@ -86,3 +86,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Messy room filled with boxes, books, research papers, and a PC.
   - Lanette standing at (5, 4), talkable from (5, 5) facing North.
   - Gift: [OBTAINED] Received the Lotad Doll decoration!
+3. Camper: [IN BATTLE]
+   - Location: Mountain trail at (22, 50) facing East. Engaged player at (25, 50).
+   - Team: Ground / Grass Pokémon (Sandshrew / Nuzleaf).
+   - Strategy: Sage Lv 38 sweeps with Leaf Blade!
