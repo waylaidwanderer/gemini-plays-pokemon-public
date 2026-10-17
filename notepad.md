@@ -250,8 +250,11 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 
 ## Gym Mechanics & Puzzle
 - Puzzle Type: Electric barrier gates controlled by lightning-bolt step switches on the floor.
-- Stepping on a floor switch toggles the electric fence gates (switching blue/red barriers on/off to open navigation pathways).
-- Gym Guide: Near entrance, provides Fresh Water and tips on Electric-type weaknesses.
+- Two barrier states: BLUE barriers and MAGENTA/RED barriers.
+- Stepping on a floor switch toggles between the two barrier states:
+  - Default state: BLUE barriers ACTIVE (horizontal at 4, 14; horizontal at 1, 10). MAGENTA barriers OFF.
+  - Toggled state (Switch 1 at 0, 15 pressed): BLUE barriers OFF. MAGENTA barriers ACTIVE (vertical along col 3 at rows 11-13; horizontal at row 10, cols 3-5).
+  - Toggled corridor: Column 2 (x=2) is completely open from y=15 straight north past row 10 into the northern gym section!
 
 ## Gym Leader: Wattson
 - Specialty: Electric-type
