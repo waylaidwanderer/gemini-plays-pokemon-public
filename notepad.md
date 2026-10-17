@@ -1131,14 +1131,17 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Total money: ¥30,796. Sage HP 96/115 (PAR).
 
-6. Picnicker Sophie & Bird Keeper Coby: [IN BATTLE]
-   - Location: Crossroad between berry patches along column 7 (Sophie at 7, 6 facing South; Coby at 7, 11 facing North). Engaged player at (7, 10).
+6. Picnicker Sophie & Bird Keeper Coby: [DEFEATED]
+   - Location: Crossroad between berry patches along column 7 (Sophie at 7, 9 facing South; Coby at 7, 11 facing North). Engaged player at (7, 10).
    - Battle format: 2-on-2 Double Battle.
    - Sophie pre-battle quote: "The warmth here is making me drowsy. Battle with me so I can stay awake."
+   - Sophie defeat quote: "This is a dream. I'm sure of it..."
    - Coby pre-battle quote: "Pfft, with these wings I can flick you away!"
-   - Opponents: Marill ♀ Lv 17 (defeated), Lombre ♀ Lv 19 (defeated by Quick Attack), Skarmory ♂ Lv 17 (Coby - active, solo).
-   - Player leads: Sage Lv 38 (PAR, 96/115) and Lilz Lv 17 (FNT).
-   - Strategy: Send in Cobalu (Aron Lv 12); Sage finishes Skarmory with Pursuit.
+   - Coby defeat quote: "A... What?"
+   - Opponents: Sophie: Marill ♀ Lv 17, Lombre ♀ Lv 19; Coby: Skarmory ♂ Lv 17, Swellow ♂ Lv 19. All 4 defeated!
+   - EXP gained: Sage ~1,000 EXP total across battle, Cobalu 634 EXP (grew to Lv 13, learned Metal Claw, forgot Mud-Slap).
+   - Reward: ¥912 prize money.
+   - Outcome: Complete victory! Total money: ¥31,708.
 
 <hr>
 
