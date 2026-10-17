@@ -4,35 +4,50 @@
 A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls in the south. Passes by Lanette's house and mountainous terrain.
 
 ## Connection Points
-- North Exit: Fallarbor Town.
+- North/East Exit: Fallarbor Town at (37, 10).
 - South Exit: Meteor Falls cave entrance.
 
 ## Key Landmarks
-- Lanette's House: Home of Lanette, developer of the Hoenn Pokémon Storage System. Located in the north section of Route 114 across the bridge. Lanette offers a Lotad Doll.
-- Fossil Maniac's House: Home of the Fossil Maniac, whose brother digs into the desert. TM28 Dig can be obtained from the Fossil Maniac's brother inside the cave passage.
-- Meteor Falls: Cave entrance at the southern terminus of Route 114. Team Magma and Team Aqua confront each other inside.
+- Entry Corridor: Runs west along row 10 between garden plots from Fallarbor Town border at (37, 10).
+- Route 114 Signpost: Located at northwest around (31, 7).
+- Fossil Maniac's House: Located at north end of Route 114 at cols 28..31, rows 2..4 (door at 29, 4).
+  - Interior: Entrance at (4, 7), spawn at (4, 6). Cave doorway at (4, 1) leads to Desert Underpass at (6, 25).
+  - Fossil Maniac's brother stands at (3, 2), talkable from (4, 2) facing West. Gifts TM28 Dig! [COLLECTED]
+- Roar Gentleman & Poochyena: Located at (19, 11) along the main road bend, with his Poochyena at (19, 12). Gifts TM05 Roar! [COLLECTED]
+- Ponds & Main Road:
+  - North Pond at rows 4..8, cols 22..26.
+  - South Ponds on both sides of south highway (rows 13..17).
+  - Main highway runs west along row 11 to col 20, then bends south along cols 20..21.
+- Lake & Wooden Bridge:
+  - Vertical wooden bridge running North-South along cols 20..21, spanning rows 20..32 across the river.
+  - North bridgehead at (20..21, 19).
+  - Bridge NPC: Fisherman Kai standing at (19, 26) facing West over the western railing.
+  - South bridgehead at (20..21, 32..33).
+- Lanette's House:
+  - Located on the southern bank east of the bridge at cols 25..29, rows 33..36.
+  - Front door at (27, 36), entered from doorstep at (27, 37) facing North.
+  - Approach route: North and west sides blocked by water inlet (23, 33), ledge corner (24, 37), and boulders (22..24, 38..41). Walk south via col 21 tall grass to row 42, east along row 42 to col 27, and north up the open east lawn straight to door at (27, 36).
+  - Interior: Entrance at (5, 7), spawn at (5, 6). Lanette at (5, 4) gifts Lotad Doll decoration! [COLLECTED]
+  - Exterior: Signpost at (25, 38), boulder at (22..23, 38).
+- Berry Patch & Ledge Gap:
+  - Located on the east side of the route at col 31, rows 42..44 behind the col 30 ridge (3 ripe Persim berry plants).
+  - Natural open gap at column 29 through row 44 leads south into the mountain highlands.
+- Route 114 Main Mountain Trail & Canyon:
+  - Smashable rock at (29, 47).
+  - Rocky plateau blocks south at cols 25..28, row 53.
+  - Main trail routes west along row 52 (cols 25->20), then south down the western canyon (cols 18..22, rows 52..60+) toward Meteor Falls.
+  - Rocky stairs ascending mountain ledge located at (15..16, 47..48).
 
-## Discovered Coordinates & Layout
-- East Entrance from Fallarbor Town: Connects at (37, 10).
-- Entry corridor runs west along row 10 between garden plots.
-- Route 114 signpost visible at northwest (around x=31, y=7).
-- Northern Path & Landmarks:
-  - Tan path branches north from (30, 10) up to row 5.
-  - Signpost located at east of north path around (31..32, 6).
-  - Fossil Maniac's House:
-  - Located at north end of Route 114 at cols 28..31, rows 2..4.
-  - Front door at (29, 4), entered from (29, 5) facing North.
-  - Signpost at (31, 7).
-  - Inside: Fossil Maniac's brother gifts TM28 Dig!
-  ## Trainers
+## Trainers
 1. Fisherman Nolan: [DEFEATED]
    - Location: North pond shoreline at (25, 6) facing South. Engaged from (26, 6).
    - Pre-battle quote: "I like to fish. But I also like to battle! If anyone challenges me, I'm there, even if I'm fishing."
    - Defeat quote: "I like to battle, but that doesn't mean I'm good at it."
-   - Team: Barboach ♂ Lv 19 (Water/Ground) - OHKO'd by Sage's 4x super effective Leaf Blade!
+   - Team: Barboach ♂ Lv 19 (Water/Ground) - OHKO'd by Sage's Leaf Blade!
    - EXP gained: Sage gained 373 EXP.
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥32,468.
+
 2. Picnicker Nancy: [DEFEATED]
    - Location: Lawn west of Lanette's house at (20, 35) facing East. Engaged player at (21, 35).
    - Pre-battle quote: "I need to exercise after a meal. Let's have a match!"
@@ -42,50 +57,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Reward: ¥288 prize money.
    - Outcome: Complete victory! Total money: ¥32,756.
 
-  - North Pond: Located at rows 4..8, cols 22..26.
-  - South Pond: Located at rows 14..18, cols 20..25.
-  - Main Path: Turns west along rows 11..12 between the two ponds.
-- Fossil Maniac's House Interior:
-  - Entrance mat at (4, 7), spawn at (4, 6).
-  - Open central corridor along column 4 (rows 2..6).
-  - Cave tunnel doorway at (4, 1).
-  - Fossil Maniac's little brother stands at (3, 2), talkable from (4, 2) facing West.
-  - Gift: [OBTAINED] TM28 Dig received from the brother!
-  - Cave Tunnel Interior: Spawn at (6, 25) facing North. Exit doorway at (6, 26). Leads north into Desert Underpass (under construction by Fossil Maniac).
-- Roar Gentleman & Poochyena:
-  - Location: (19, 11) along the main road bend, with his Poochyena at (19, 12).
-  - Talkable from (20, 11) facing West.
-  - Gift: [OBTAINED] TM05 Roar received from the gentleman!
-- Main Road & Ponds:
-  - Highway runs west along row 11 to col 20, then bends south along cols 20..21.
-  - Ponds located on both sides (north pond at rows 5..8, southwest pond at rows 13..17, southeast pond at rows 13..17).
-- Lake & Wooden Bridge:
-  - Vertical wooden bridge running North-South along cols 20..21, spanning rows 20..32 across the river.
-  - North bridgehead at (20..21, 19), accessed from paved path at (20, 16..18).
-  - Bridge NPC: Fisherman Kai standing at (19, 26) facing West over the western railing.
-  - South bridgehead at (20..21, 32..33).
-  - Lanette's House:
-  - Located on the southern bank east of the bridge at cols 25..29, rows 33..36.
-  - Front door at (27, 36), entered from doorstep at (27, 37) facing North.
-  - Approach route: Front lawn along row 37 is completely open grass from col 21 to col 29. Walk south to row 37, east to (27, 37), and step North into door at (27, 36).
-  - Inside: Lanette offers the Lotad Doll decoration.
-  - Exterior: Signpost at (25, 38), boulder at (22..23, 38), berry patch south.
-- South Ledge & Rocks:
-  - Ledge along row 41 ends at col 20.
-  - Column 21 has tall grass at rows 39..41 (two-way path, no ledge).
-  - Upper rock at cols 22..23, rows 38..39.
-  - Lower rock at cols 23..24, rows 40..41.
-  - South passage along row 42 connects west route to east lawn.
-  - Trainers: Twins spotted at cols 22..23, row 43; Boy in cap at (25, 41).
-- Route 114 Main Mountain Trail:
-  - One-way jump ledge at col 26, row 48 hops west onto main lower route at (25, 48).
-  - Camper: Located at (22, 50) facing South next to western rock.
-  - Main mountain canyon runs south along cols 23..25 (rows 48..56+) toward Meteor Falls.
-- Lanette's House Interior:
-  - Entrance mat at (5, 7), spawn at (5, 6).
-  - Messy room filled with boxes, books, research papers, and a PC.
-  - Lanette standing at (5, 4), talkable from (5, 5) facing North.
-  - Gift: [OBTAINED] Received the Lotad Doll decoration!
 3. Camper Shane: [DEFEATED]
    - Location: Mountain trail at (22, 50) facing East. Engaged player at (25, 50).
    - Pre-battle quote: "Camping's fun! You can fish, roast marshmallows, and tell spooky stories! But the best of all are the POKéMON battles!"
@@ -94,3 +65,9 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: Sage gained 901 EXP total (358 + 543).
    - Reward: ¥288 prize money.
    - Outcome: Complete victory! Total money: ¥33,044.
+
+4. Pokéfan Steve: [IN BATTLE]
+   - Location: Western tall grass canyon at (20, 54..55) facing North. Engaged player at (20, 53).
+   - Pre-battle quote: "Ufufufufufu... Want to battle against my POKéMON?"
+   - Team: Electric Pokémon (Electrike / Manectric).
+   - Strategy: Sage Lv 38 sweeps with Leaf Blade / Quick Attack!
