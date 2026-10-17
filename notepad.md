@@ -280,6 +280,17 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 3. [ ] Solve electric barrier switch puzzle to reach Wattson.
 4. [ ] Defeat Gym Leader Wattson to earn the Dynamo Badge and TM34 Shock Wave!
 
+## Layout & Discovered Coordinates
+- Entrance: Door mat at (4..5, 20).
+- Gym Guide: Located at (6, 20).
+- Entrance Statues: Located at (3, 17) and (5, 17).
+- Electric Barrier 1: Horizontal blue barrier at (4, 14) between pillars at (3, 14) and (5, 14) [ACTIVE].
+- Floor Switch 1: Located at (1, 15) in the southwest alcove.
+- Floor Switch 2: Located at (4, 12) north of barrier 1.
+- Youngster Ben: Located at (2, 16) facing Up.
+- Guitarist Kirk: Located at (2, 13) facing Down.
+- Note: Stepping onto (2, 15) enters line of sight of both Ben and Kirk simultaneously, triggering a Double Battle!
+
 <hr>
 
 <h1><code>Locations/PetalburgCity</code></h1>
