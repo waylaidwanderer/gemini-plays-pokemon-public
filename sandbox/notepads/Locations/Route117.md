@@ -16,7 +16,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
 3. [ ] Harvest ripe berries from berry patches.
-4. [ ] Battle Route 117 trainers for EXP.
+4. [ ] Battle Route 117 trainers for EXP (Anna & Meg defeated).
 5. [ ] Reach Verdanturf Town at the western terminus.
 
 ## Topography & Discovered Coordinates
@@ -28,5 +28,10 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 - Day Care Signpost: Located at (49, 5), read from (49, 6) facing North: "POKéMON DAY CARE / 'Let us raise your POKéMON.'"
 
 ## Trainers
-1. Sr. and Jr. Anna & Meg: Located at (42..43, 6) facing Down by the wooden fence. Double Battle. Meg pre-battle quote: "I'm going to tag up with my super senior student partner and beat you!"
-   - Team: Zigzagoon ♂ Lv 15, Makuhita ♂ Lv 17.
+1. Sr. and Jr. Anna & Meg: [DEFEATED - REGISTERED IN MATCH CALL]
+   - Location: (42..43, 6) facing Down by wooden fence.
+   - Pre-battle quote: "I'm going to tag up with my super senior student partner and beat you!"
+   - Team: Zigzagoon ♂ Lv 15 (fainted via Leaf Blade), Makuhita ♂ Lv 17 (fainted via Leaf Blade).
+   - Defeat quote: "MEG: Oh, no! I'm sorry, ANNA! I let you down..."
+   - Post-battle: "ANNA: We can't take this lying down! You will come back, won't you?"
+   - Reward: ¥544 prize money. Lilz grew to Lv 15! Registered in PokéNav Match Call.
