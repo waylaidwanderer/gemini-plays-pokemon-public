@@ -45,3 +45,6 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Shroomish ♀ Lv 18 (fainted to Sage's Leaf Blade).
    - Reward: ¥288 prize money.
    - Outcome: Complete victory! Sage HP 85/89.
+4. Kindler Bernie: [IN BATTLE]
+   - Location: (16, 119) facing East across row 119.
+   - Team: Slugma Lv 18, Wingull Lv 18.
