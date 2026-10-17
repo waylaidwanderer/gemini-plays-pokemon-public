@@ -1234,8 +1234,12 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Front door at (29, 4), entered from (29, 5) facing North.
   - Signpost at (31, 7).
   - Inside: Fossil Maniac's brother gifts TM28 Dig!
-  - NPC in Red Hat: Standing near the north pond at (25, 6), talkable from (26, 6) facing West.
-  - Gift: [OBTAINING] Gifts TM05 Roar!
+  ## Trainers
+1. Fisherman Nolan: [IN BATTLE]
+   - Location: North pond shoreline at (25, 6) facing South. Engaged from (26, 6).
+   - Pre-battle quote: "I like to fish. But I also like to battle! If anyone challenges me, I'm there, even if I'm fishing."
+   - Team: 1 Pokémon.
+   - Strategy: Sage Lv 38 OHKOs with Leaf Blade!
   - North Pond: Located at rows 4..8, cols 22..26.
   - South Pond: Located at rows 14..18, cols 20..25.
   - Main Path: Turns west along rows 11..12 between the two ponds.
