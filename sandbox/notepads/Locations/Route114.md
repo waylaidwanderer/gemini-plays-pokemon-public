@@ -71,6 +71,16 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Outcome: Complete victory! Total money: ¥34,184.
    - Match Call: Registered!
 
+7. Hiker Lucas: [BATTLING]
+   - Location: (30, 72) facing West. Engaged in Double Battle at (28, 72).
+   - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
+   - Team: Geodude Lv 18 (+ 1 more).
+
+8. Picnicker Angelina: [BATTLING]
+   - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
+   - Pre-battle quote: "Have you made your POKéMON evolve very much?"
+   - Team: Lombre Lv 18 (+ 1 more).
+
 5. Sr. and Jr. Tyra & Ivy: [DEFEATED]
    - Location: (23..24, 44) facing South. Engaged from (22, 44) facing East.
    - Format: 2-on-2 Double Battle.
