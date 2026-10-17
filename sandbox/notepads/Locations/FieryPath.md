@@ -19,4 +19,4 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 
 ## Discovered Coordinates & Layout
 - South Entrance Warp: (26, 36), player enters at (26, 35) facing North (leads outside to Route 112 at 11, 35).
-- Main North-South Cavern: 3 tiles wide (cols 25..27) heading North.
+- Main Cavern: 3 tiles wide (cols 25..27) heading North to row 22, then turns West along row 22.
