@@ -1066,6 +1066,8 @@ A subterranean tunnel originally excavated to connect Rustboro City and Verdantu
     3. Machop ♂ Lv 16 (OHKO'd by Sage's Leaf Blade)
   - Reward: ¥640 prize money.
   - Outcome: Complete victory! All 3 Pokémon swept by Sage's Leaf Blade.
+- Wanda & Boyfriend: Reunited after May shattered the blocking boulders! Boyfriend rewarded May with HM04 Strength. The tunnel between Verdanturf Town and Rustboro City is now permanently open!
+- Item Ball: Located at (27..28, 2) on the upper terrace near the shattered rocks.
 
 <hr>
 
@@ -1210,7 +1212,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! Inside Rusturf Tunnel from Verdanturf entrance; party fully healed and Hiker Mike defeated! Total money: ¥17,240! Match Call registered: Wattson, Anna & Meg, Isaac, Lydia, Wally. Checkpoint set in Verdanturf! Next: Smash blocking rocks with Cobalu's Rock Smash, reunite Wanda and her boyfriend, and earn HM04 Strength! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! Rusturf Tunnel cleared and Wanda reunited with boyfriend! Total money: ¥17,240! Match Call registered: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Collect Item Ball at (27, 2), return to Mauville City, and head north onto Route 111 toward Mt. Chimney / Fallarbor Town! Party: Sage Lv 34 (OK, 89/89), Lilz (Lombre) Lv 15 (OK, 47/47), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 34) [Held Item: None (consumed)] - Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 89/89. Stats: HP 89, Atk 57, Def 42, Sp.Atk 67, Sp.Def 60, Speed 80. Status: OK. Nature: Lonely. Ability: Overgrow.
