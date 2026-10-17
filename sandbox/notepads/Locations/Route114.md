@@ -119,3 +119,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   3. Walk South down column 14 all the way to row 60: (14, 60).
   4. Walk East along row 60 directly to (24, 60)/(24, 61) at the base of the white staircase.
   5. From (24, 61), explore WEST along row 61 toward Hiker Lucas (16, 67) and the Meteor Falls cave entrance (8, 63).
+
+
+- Verified Route to Meteor Falls Valley Floor & Cave:
+  1. From Western Terrace at (15, 48), ride West to (12, 48).
+  2. Ride South down column 12 to (12, 55).
+  3. Ride East across row 55 to (17, 55).
+  4. Ride South down column 17 to (17, 60) on the valley floor!
+  5. From (17, 60), ride West to Hiker Lucas (~14, 64) and the Meteor Falls cave entrance (8, 63).
