@@ -794,6 +794,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 ## Discovered Coordinates & Layout (South Section)
 - South Entrance from Mauville City: (15, 138) heading North.
 - Cobblestone highway runs north along column 15.
+## Trainers (South Section)
+1. Aroma Lady Celina: [CHALLENGING]
+   - Location: (20, 132) facing West along the cobblestone bend.
+   - Team: Roselia ♀ Lv 18.
 
 <hr>
 
