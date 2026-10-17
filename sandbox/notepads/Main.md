@@ -6,7 +6,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Hyper Potion x13, Revive x3, Full Heal x2, Poké Ball x1, Great Ball x5, Ultra Ball x7, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 71 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 72 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 21 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
