@@ -37,7 +37,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - [x] Challenge Route 110 trainers for EXP (defeated Isabel/Kaleb, Timmy, Edwin, Joseph, Edward/Alyssa).
 - [x] Defeat Rival Brendan in battle under Cycling Road.
 - [x] Visit Trick House (Challenge 1).
-- [ ] Arrive in Mauville City.
+- [x] Arrive in Mauville City.
 
 ## Topography & Navigation
 - South entrance at (18, 97): Sandy path heading north.
