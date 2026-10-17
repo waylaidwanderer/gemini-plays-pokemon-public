@@ -14,14 +14,12 @@
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30).
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Rare Candy x0 (consumed on Sage on turn 4562 to reach Lv 29)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x1 (found at Route 110 northwest bend at 6, 39)
 - Super Potion x5 (purchased at Slateport Mart)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
-- Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
