@@ -587,10 +587,11 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Defeat Quote: "Being cool isn't enough to win..."
    - Team: Aron ♂ Lv 15 (fainted), Electrike ♂ Lv 13 (fainted). Defeated with Sage's Absorb.
    - Outcome: Complete victory! Sage HP 72/72 full, gained 289+ EXP.
-3. Collector Edwin: [IN PROGRESS]
+3. Collector Edwin: [DEFEATED]
    - Location: (34, 40) on northern Route 110, facing East. Approached from (33, 40) facing East for a 1-on-1 battle.
    - Pre-battle Quote: "Could I see your POKÉMON? Just one look, please?"
-   - Team: Lombre ♂ Lv 14 (fainted via Leaf Blade), Nuzleaf ♂ Lv 14, 3rd Pokémon unknown.
+   - Team: Lombre ♂ Lv 14 (fainted via Leaf Blade), Nuzleaf ♂ Lv 14 (fainted via Fury Cutter).
+   - Outcome: Complete victory! Sage grew to Lv 30!
 
 <hr>
 
