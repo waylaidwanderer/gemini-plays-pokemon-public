@@ -114,3 +114,4 @@
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
+- Soft Loamy Soil Collision: Soft loamy soil tiles (empty or planted) are impassable terrain in Gen 3. Walking into an empty soil tile triggers the berry planting prompt ("Want to plant a BERRY?"). To navigate around berry patches, route along adjacent grass/sand tiles (e.g. row 6).
