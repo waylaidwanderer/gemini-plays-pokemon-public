@@ -1191,5 +1191,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
 7. [ ] Obtain HM04 Strength from Wanda's boyfriend.
 8. [ ] Return to Mauville City and head north onto Route 111 toward Mt. Chimney / Fallarbor Town.
+- TM/HM Replacement Navigation: In Gen 3, teaching a TM/HM to a Pokémon with 4 moves displays the BATTLE MOVES screen. Move selection box starts on move 1; pressing Down navigates to the move to replace. Confirming with A prompts 'Delete [MOVE] and make room for [NEW MOVE]?' with default YES. Confirming deletes old move and teaches new move.
+- Menu Input Timing: When transitioning between sub-menus (e.g. PokéNav to Start menu, or Bag to Party), allow ~300-400ms for UI animations to settle before sending navigation presses.
 
 <hr>
