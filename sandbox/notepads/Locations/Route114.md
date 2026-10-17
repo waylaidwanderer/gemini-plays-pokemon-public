@@ -79,8 +79,6 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 
 - Elevated Mountain Ridge (Western Plateau):
   - Ascended via eastern stairs at (15, 49..50) to (15, 48).
-  - Wide light-tan rocky plateau spans cols 9..14, rows 45..56+.
-  - Secondary stairs descending west at cols 6..7, rows 49..50.
-  - Breakable rock located to the north at (12, 40).
-  - Secret Power indentation at (9, 44).
-  - Main mountain trail runs south down cols 10..12 toward Meteor Falls.
+  - Plateau spans cols 9..14, rows 45..54.
+  - Cliffs block south at cols 8..12, row 55.
+  - Mountain path routes east to col 14, then south down cols 13..15 past row 56 toward Meteor Falls.
