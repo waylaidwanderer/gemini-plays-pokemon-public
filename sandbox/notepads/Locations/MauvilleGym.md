@@ -67,11 +67,11 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 - Wattson Corridor: Columns 4-5, rows 5-7. Blocked by horizontal blue barrier when blue is active, open when magenta is active.
 - Gym Leader Wattson: Located at north end of the pillar corridor (cols 4..5, rows 1..4).
 
-## Gym Puzzle Complete Solution
-1. Floor Switch 1 at (0, 15): Toggles default Blue barriers OFF, turns Magenta barriers ON. Opens column 2 (x=2) as a clear passage straight north past row 10 into the northern section.
-2. Floor Switch 3 at (4, 12): Toggles Magenta barriers OFF, turns Blue barriers ON. Lowers row 10 magenta barriers to access Ben (5, 10).
-3. Toggling back to Magenta (Switch 3 at 4, 12):
-   - Blue barrier across Wattson's corridor (cols 4-5, rows 5-7) DEACTIVATES!
-   - Blue barrier along col 6 DEACTIVATES!
-   - Direct path south to Gym entrance is wide open along col 4!
-   - Path to Wattson is wide open along col 2 -> col 4 north corridor!
+## Gym Puzzle True Solution
+1. The Wattson corridor (rows 5-7, cols 4-5) is blocked by a BLUE barrier by default.
+2. Toggling to MAGENTA deactivates the blue corridor barrier, but activates a horizontal magenta barrier at row 10, cutting off north-south passage along column 4.
+3. Therefore, the toggle to Magenta must be executed from WITHIN the upper chamber!
+4. The Upper Chamber Switch (Floor Switch 4) is located at (7, 9) on the east side near Guitarist Shawn and Bug Catcher Angelo.
+5. Route: From central area, walk south to row 11 at (4, 11), walk east along row 11 to (7, 11), then north to (7, 9).
+6. Defeat Shawn and Angelo, activate Switch 4 at (7, 9) to toggle to Magenta.
+7. With Magenta active and player already in upper chamber, walk west along row 9 to (4, 9), then straight north into the open corridor to Gym Leader Wattson!
