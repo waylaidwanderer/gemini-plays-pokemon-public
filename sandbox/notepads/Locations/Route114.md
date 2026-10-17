@@ -161,4 +161,4 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 - Meteor Falls (8, 64) -> White Stairs 1 at (13..14, 68..69) -> Lenny's Terrace (15..22, 65) -> White Stairs 2 at (24..25, 69) down to Canyon Floor at row 72.
 - Canyon Floor: South around Angelina to row 73, East to col 28, North up col 28 past Bernie (28, 58) to row 58.
 - Western Pass: West along row 58 (cols 28..14) -> North up col 14 to Western Stairs at (14..15, 49..50) -> Western Terrace at row 48.
-- River Corridor: Smashed rock at (12, 43) -> North along col 12 river bank to row 36 -> East across lawn to Wooden Bridge at (21, 33) -> North across bridge to Fallarbor Town!
+- River Corridor: Smashed rock at (12, 43) -> North along col 12 river bank to row 33 -> East along row 33 past water's edge to Wooden Bridge at (20..21, 33) -> North across bridge to Fallarbor Town!
