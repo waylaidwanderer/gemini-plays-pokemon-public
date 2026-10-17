@@ -13,6 +13,7 @@
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30), Dynamo Badge (Wattson - enables HM06 Rock Smash outside battle, increases Pokémon Speed stat).
+- Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x2 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
