@@ -15,11 +15,17 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Progression Checklist - Verdanturf Town
 1. [x] Arrive in Verdanturf Town from Route 117.
-2. [ ] Locate and enter Pokémon Center; heal party and set checkpoint.
+2. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
 3. [ ] Visit Wanda's house.
 4. [ ] Enter Rusturf Tunnel from the south entrance.
 5. [ ] Use HM06 Rock Smash to clear the blocking rocks.
 6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
+
+## Pokémon Center Interior
+- Entrance Mat: Located at (7, 8).
+- Nurse Joy Counter: Located at (7, 4), approached from (7, 4) facing North. Party fully restored! Checkpoint set!
+- PC Terminal: East wall.
+- Escalator to 2F: West wall.
 ## Discovered Coordinates & Layout
 - Arrival from Route 117: (17, 9) facing West.
 - Southern Residential Houses: Green tiled roofs along rows 10..14, separated by street at cols 13..14.
