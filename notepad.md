@@ -1343,11 +1343,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - The 4 mud slopes at cols 1..5 run up to row 45 from the Meteor Falls valley below; they cannot be entered from the terrace and are an upward Mach Bike climb from the bottom.
   - Square cliff indentation at (9, 44) is a Secret Base location (Secret Power).
   - Terrace path from (6, 49) stairs connects via (8, 51) east to the plateau and canyon stairs at (15, 49).
-- Canyon to Lower Basin Route:
-  - From Steve at (20, 54), head south along col 21 to (21, 57).
-  - Southern cliff wall at row 58 blocks direct southward movement along col 21.
-  - White staircase at (24..25, 57..58) leads down to the east into the lower basin where Kindler Bernie patrols at (28..29, 58..59).
-  - From the lower basin, the route continues south/west toward Hiker Lucas (16, 67) and the Meteor Falls cave entrance.
+- Canyon Nook & Route Topology:
+  - Western Canyon Nook (cols 16..22, rows 52..57): Contains Pokémaniac Steve at (20, 54) and Rock Smash boulder at (20, 57). Bounded by cliffs on west, south (row 58), and east (col 23 cliff wall).
+  - The white stairs at (24..25, 57..58) down to Kindler Bernie are separated from this canyon by the col 23 cliff wall and CANNOT be accessed from col 22.
+  - Correct route south to Meteor Falls: Return north to Camper Shane at (24, 50), then follow the eastern mountain trail south along cols 24..30 to reach the white staircase down to Kindler Bernie (28..29, 58..59), then continue southwest through the valley floor to Hiker Lucas (16, 67) and Meteor Falls (8, 63).
 
 <hr>
 
