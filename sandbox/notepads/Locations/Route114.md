@@ -82,6 +82,11 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Match Call: Registered!
    - Outcome: Complete victory! Total money: ¥34,824.
 
+6. Kindler Bernie: [IN PROGRESS]
+   - Location: (28, 59) patrolling row 59 east of the white staircase. Engaged from (27, 59) facing East.
+   - Team: Slugma Lv 18, Wingull Lv 18.
+   - Status: Battle initiated!
+
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
   - Sr. and Jr. Tyra & Ivy: Located at (23..24, 44) facing South. Double Battle format (Graveler Lv 20 & Roselia Lv 20).
