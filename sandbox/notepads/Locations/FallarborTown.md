@@ -33,10 +33,11 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Old man NPC at (3, 3).
   - Woman NPC at table at (10, 6).
   - 2F Escalator at (1, 6).
-- Northwest House (Green Roof):
+- Move Tutor's House (Green Roof):
   - Located at cols 0..4, rows 4..7.
   - Front door at (2, 6), entered from (2, 7) facing North.
-  - Signpost at (3, 7), read from (3, 8) facing North.
+  - Signpost at (3, 7), read from (3, 8) facing North. Text: "MOVE TUTOR'S HOUSE / 'New moves taught to POKéMON.'"
+  - Function: Move Relearner teaches forgotten level-up moves for 1 Heart Scale.
 - Western Gardens & Path:
   - North garden plot at cols -3..-1, rows 6..9.
   - South garden plot at cols -3..-1, rows 11..14.
