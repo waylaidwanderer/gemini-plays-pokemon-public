@@ -925,8 +925,9 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Central rock formation at cols 23..27, rows 45..48; road turns North at (21, 50).
 - Mud Slides: Located at cols 17 and 19 leading up to an upper ledge.
 - Upper Ledge Item Ball: Visible at (14..15, 41) near the top of the mud slides.
-- Mountain Stairs: Located at (21..22, 40..42) leading up the mountain.
-- Direction Signpost: Located at (19, 43), read from (20, 43) facing West.
+- Mountain Stairs: Located at (20..21, 40..42) leading up to upper mountain terrace.
+- Direction Signpost: Located at (19, 44) south of the stairs.
+- Upper Mountain Terrace: Begins at row 39; spinning Hiker at (15, 38).
 
 ## Trainers
 1. Camper Larry: [DEFEATED]
