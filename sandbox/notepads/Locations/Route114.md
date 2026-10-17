@@ -91,6 +91,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: 246 EXP from Wingull.
    - Reward: ¥576 prize money.
    - Outcome: Complete victory! Total money: ¥35,400.
+   - Match Call: Registered!
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
