@@ -75,3 +75,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Defeat Quote: "You got into the groove all right..."
    - Team: Electrike ♂ Lv 14 (fainted via Leaf Blade), Voltorb Lv 14 (fainted via Leaf Blade).
    - Outcome: Complete victory! Earned ¥448 prize money.
+5. Triathlete Alyssa: [IN PROGRESS]
+   - Location: (11, 40) on west side of Seaside Cycling Road northern underpass, facing East.
+   - Pre-battle Quote: In progress.
+   - Team: In progress.
