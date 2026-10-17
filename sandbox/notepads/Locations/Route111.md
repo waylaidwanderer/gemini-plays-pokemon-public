@@ -89,9 +89,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Location: (13, 114) facing South outside Winstrate House.
    - Role: Grandmother of the Winstrate family (Final Battle 4 of 4!).
    - Pre-battle quote: "How dare you make my granddaughter cry! For that, I'm going to smack you! Prepare to lose!"
+   - Defeat quote: "Kwah! You are strong... My granddaughter was right"
    - Team: Meditite ♀ Lv 18 (OHKO'd by Sage's Leaf Blade).
    - Reward: ¥720 prize money.
-   - Outcome: Complete victory! All 4 Winstrates defeated in sequence! Gauntlet cleared!
+   - Outcome: Complete victory! All 4 Winstrates defeated in sequence! Gauntlet cleared! Sage HP 24/92 (PSN).
 
 ## Winstrate Family Gauntlet Mechanics
 - Structure: 4 consecutive 1-on-1 battles against Victor, Victoria, Vivi, and Vicky.
