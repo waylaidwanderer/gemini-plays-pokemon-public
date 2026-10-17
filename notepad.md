@@ -1171,7 +1171,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Arrival from Route 117: (17, 9) facing West.
 - Town Signpost: Located at (14, 5).
 - Southern Residential Houses: Green tiled roofs along rows 10..14.
-- Pokémon Center: Red-roofed building on northwest side (cols 3..5, rows 4..6). Entrance doors at (4..5, 6), approached from (4..5, 7) facing North. Signpost at (3, 7).
+- Pokémon Center: Red-roofed building on northwest side. Entrance door is at (4, 6), approached from welcome mat at (4, 7) facing North. (Col 5 is solid red wall). Signpost at (3, 7).
 - Green-capped NPC outside Pokémon Center at (6, 5).
 
 <hr>
