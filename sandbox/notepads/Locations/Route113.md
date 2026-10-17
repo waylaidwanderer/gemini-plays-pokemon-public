@@ -24,5 +24,6 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - Main Path West: Lower corridor continues west along rows 9..11 beneath the row 8 ledge.
 - Rock Mound 1: Located at cols 64..68, rows 4..8 with one-way ledge along south (row 10) and east (col 68).
 - Lower Path: Open corridor along row 11 (cols 60..68) bypassing Rock Mound 1 to the south.
-- Trainer: Boy with blue cap at (62, 8) facing South along column 62 (engaged player at (62, 11)). [IN BATTLE]
+- Trainer: Boy with blue cap at (62, 8) facing South along column 62 (engaged player at (62, 11), stands at (62, 10)). [IN BATTLE]
+  - Pre-battle quote: "Can you guess why it's so cool around here?"
 - Roaming NPC: Girl with red hair around (66, 12).
