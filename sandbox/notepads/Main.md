@@ -16,7 +16,7 @@
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Rare Candy x1 (reward from Trick Master for clearing Trick House Puzzle 1)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
-- Super Potion x0
+- Super Potion x5 (purchased at Slateport Mart)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x1 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra)
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
@@ -24,7 +24,7 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
-- Money: ¥4960 (whited out against Brendan on Route 110, half of ¥9920 lost)
+- Money: ¥1460 (whited out to Brendan, half lost to ¥4960; bought 5 Super Potions for ¥3500)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel registered!), Old Rod (Fisherman in Dewford Town)
 
 ## Littleroot Town & Route 101 Summary
