@@ -890,6 +890,8 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Location: (33, 11) facing North.
    - Pre-battle quote: "Listen, could I get you to battle the POKéMON I'm raising?"
    - Team (6 Pokémon): Whismur ♂ Lv 11 (fainted), Taillow ♂ Lv 11 (fainted), Zigzagoon ♂ Lv 11 (fainted), Aron ♂ Lv 11 (fainted), Poochyena ♂ Lv 11 (fainted), Makuhita ♂ Lv 11 (fainted). All swept by Sage's Leaf Blade!
+   - Defeat quote: "You've raised yours superbly"
+   - Reward: ¥440 prize money.
 
 <hr>
 
