@@ -934,10 +934,12 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Route 113 Entrance: Northwest exit from Route 111 North leading to Fallarbor Town.
 
 ## Trainers (North Section)
-1. Cooltrainer Wilton: [IN BATTLE]
+1. Cooltrainer Wilton: [DEFEATED]
    - Location: (9, 27) on Route 111 North sandy highway.
    - Pre-battle quote: "Show me how much you've toughened your POKéMON."
-   - Team: 3 Pokémon (Electrike ♂ Lv 17 defeated by Quick Attack, Wailmer ♂ Lv 17 defeated by Leaf Blade, Makuhita ♂ Lv 17).
+   - Team: 3 Pokémon: Electrike ♂ Lv 17 (OHKO'd by Quick Attack), Wailmer ♂ Lv 17 (OHKO'd by Leaf Blade), Makuhita ♂ Lv 17 (OHKO'd by Leaf Blade).
+   - Reward: ¥816 prize money.
+   - Outcome: Complete victory! Sage grew to Lv 37 (HP 108/112).
 
 <hr>
 
