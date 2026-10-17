@@ -2,7 +2,7 @@
 
 ## Overview
 A majestic cave formed by meteorite impacts, famous for its roaring waterfall and rare Dragon-type Pokémon. Connects Route 114 in the north to Route 115 in the west.
-- Wild Pokémon encountered: Solrock (Lv 18, fled).
+- Wild Pokémon encountered: Solrock (Lv 18, fled), Zubat (Lv 17, fled).
 
 ## Connection Points
 - Route 114 Entrance: Connects to southern Route 114 at (8, 63).
