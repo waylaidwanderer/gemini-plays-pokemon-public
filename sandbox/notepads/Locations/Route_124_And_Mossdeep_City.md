@@ -326,3 +326,5 @@
       - Observed team members:
         1. **Wailord Lv. 57** (`Water Spout`, `Rain Dance`, `Double-Edge`, `Blizzard`)
         2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`)
+        3. **Tentacruel Lv. 55** (`Toxic`, `Hydro Pump`, `Sludge Bomb`, `Ice Beam`)
+        4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`)
