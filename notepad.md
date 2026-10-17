@@ -226,7 +226,6 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 5. [ ] Explore town landmarks (Game Corner, Battle Tent, Coin Case trade).
 6. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
 ## Discovered Landmarks & Layout
-- Southern Residential House: Cols 17..21, rows 11..13. Purple door at (19, 13). Boy outside at (18, 14).
 - Poké Mart: Cols 22..27, rows 11..13. Blue sliding door at (23, 13) approached from (23, 14) facing North.
 - Eastern Avenue: Cobblestone road runs along row 15 past Mart and turns north around cols 27..28 into central Mauville City.
 - Southern Perimeter Item Ball: Visible at bottom right behind the southern hedge around (29, 18). Currently separated by a hedge/fence barrier.
