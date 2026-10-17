@@ -22,3 +22,10 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
 - NPCs:
   - Old Man NPC: Wandering near path crossroad at (10, 8..9).
   - Little Girl NPC & Azurill: Standing near signpost at (9..10, 11..12).
+- Pokémon Center Interior (1F):
+  - Entrance/Exit mat at (7, 8).
+  - Nurse Joy counter at (7, 3), Nurse Joy at (7, 2). Checkpoint registered!
+  - Lanette (Storage System creator) standing at the PC at (13, 2)!
+  - Old man NPC at (3, 3).
+  - Woman NPC at table at (10, 6).
+  - 2F Escalator at (1, 6).
