@@ -571,6 +571,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 2. Youngster Timmy: [DEFEATED]
    - Location: (32, 69) on east side of Cycling Road pedestrian walkway, facing Left.
    - Pre-battle Quote: "I found some cool POKÉMON in the grass around here!"
+   - Defeat Quote: "Being cool isn't enough to win..."
    - Team: Aron ♂ Lv 15 (fainted), Electrike ♂ Lv 13 (fainted). Defeated with Sage's Absorb.
    - Outcome: Complete victory! Sage HP 72/72 full, gained 289+ EXP.
 
