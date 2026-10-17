@@ -951,9 +951,12 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
   - Right patch (cols 22..23, row 5): 2 Razz Berry plants [HARVESTED - 6 Razz Berries].
   - Left patch (cols 18..19, row 5): 2 Oran Berry trees [HARVESTED - 4 Oran Berries].
 - Route 113 Signpost: Located at (13, 6), read from (13, 7) facing North. Text: "ROUTE 111 / <- ROUTE 113". Indicates Route 113 begins immediately to the west.
-2. Cooltrainer Brooke: [IN BATTLE]
+2. Cooltrainer Brooke: [DEFEATED]
    - Location: (11, 10) on Route 111 North, facing North along column 11 (spotted player at (11, 7)).
-   - Team: 3 Pokémon: Wingull ♀ Lv 17, Numel Lv 17, Roselia Lv 17.
+   - Pre-battle quote: "Oh, your POKéMON look like serious actors. I have to ask you for an engagement."
+   - Team: 3 Pokémon: Wingull ♀ Lv 17, Numel Lv 17, Roselia Lv 17 (all defeated by Sage's Quick Attack).
+   - Reward: ¥816 prize money. Registered in Match Call!
+   - Outcome: Complete victory! Sage HP 108/112 (PAR).
 
 <hr>
 
