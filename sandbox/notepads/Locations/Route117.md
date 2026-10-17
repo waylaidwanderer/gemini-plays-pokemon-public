@@ -75,6 +75,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Team: Dustox ♂ Lv 16 (fainted to Sage's Quick Attack), Beautifly ♂ Lv 16 (OHKO'd by Sage's critical hit Quick Attack).
    - Reward: ¥960 prize money.
    - Outcome: Complete victory! Sage HP 68/87.
-7. Pokémon Breeder Lydia: [LOCATED]
+7. Pokémon Breeder Lydia: [IN BATTLE]
    - Location: (8, 10) pacing west-east along dirt road edge.
+   - Pre-battle quote: "Please, allow me to evaluate if you have raised your POKÉMON properly."
    - Team: 6 Pokémon at Lv 11 (Swablu, Roselia, Wingull, Skitty, Marill, Shroomish).
