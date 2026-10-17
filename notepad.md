@@ -595,7 +595,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 4. Guitarist Joseph: [IN PROGRESS]
    - Location: (36, 40) on northern Route 110, facing West.
    - Pre-battle Quote: "Okay! Full-throttle time! If you can't groove, you get left behind!"
-   - Team: In progress.
+   - Team: Electrike ♂ Lv 14 (sent out 1st), 2nd Pokémon unknown (total 2 Pokémon).
 
 <hr>
 
