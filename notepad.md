@@ -937,5 +937,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Naming Screen Mechanics: Pressing Start moves the cursor directly to the [ OK ] button on the right; pressing A on [ OK ] confirms and submits the name. Pressing B activates [BACK] (erases previous character).
 - PokéNav Navigation: On the PokéNav main menu (HOENN MAP, CONDITION, MATCH CALL, SWITCH OFF), pressing B does NOT exit. You must select 'SWITCH OFF' (accessible immediately by pressing Up from HOENN MAP to wrap to the bottom) to close the PokéNav.
 - Whiteout Mechanics: Whiting out restores the entire party to 100% HP and PP, placing the player right outside the last visited Pokémon Center.
+- In-Battle Menu Timing: Using A to advance combat text can cause race conditions if the battle menu appears during thinking frames, leading to accidental move selection. Using B to dismiss combat text avoids accidental selections because B does not confirm menu options.
+- Slateport Poké Mart Coordinates: Door is at (13, 26) approached from (13, 27) facing North. Interior customer counter is at (1, 4), interacted from (1, 5) facing North.
 
 <hr>
