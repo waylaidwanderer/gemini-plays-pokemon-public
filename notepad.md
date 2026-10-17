@@ -868,7 +868,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 2. [x] Locate and inspect Pokémon Day Care.
 3. [ ] Harvest ripe berries from berry patches.
 4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia defeated).
-5. [ ] Reach Verdanturf Town at the western terminus.
+5. [x] Reach Verdanturf Town at the western terminus.
 
 ## Topography & Discovered Coordinates
 - East entrance from Mauville City: (59, 8).
@@ -1143,6 +1143,33 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 
 <hr>
 
+<h1><code>Locations/VerdanturfTown</code></h1>
+
+# Location: Verdanturf Town
+
+## Overview
+A peaceful, rural town nestled in the highlands at the foot of the mountains. Known for its clean, fresh air that helps people and Pokémon recover their health. Connects to Route 117 (east) and Rusturf Tunnel (north).
+
+## Connection Points
+- East Exit: Route 117 (arrives at x=17, y=9).
+- North Exit: Rusturf Tunnel entrance (leading to Wanda's boyfriend and Rustboro City).
+
+## Key Buildings & Landmarks
+- Pokémon Center: Red roof building for healing and setting checkpoint.
+- Poké Mart / Battle Tent: Verdanturf Battle Tent (replaces Contest Hall in Emerald).
+- Wanda's House: Home of Wanda, who is separated from her boyfriend by blocked rocks in Rusturf Tunnel.
+- Rusturf Tunnel entrance: Northern cave entrance.
+
+## Progression Checklist - Verdanturf Town
+1. [x] Arrive in Verdanturf Town from Route 117.
+2. [ ] Locate and enter Pokémon Center; heal party and set checkpoint.
+3. [ ] Visit Wanda's house.
+4. [ ] Enter Rusturf Tunnel from the south entrance.
+5. [ ] Use HM06 Rock Smash to clear the blocking rocks.
+6. [ ] Reunite Wanda and her boyfriend, and receive HM04 Strength!
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Main Notepad
@@ -1241,8 +1268,8 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 ## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Active)
 1. [x] Enter Mauville Pokémon Center and heal party with Nurse Joy.
 2. [x] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
-3. [ ] Explore Route 117 (visit Pokémon Day Care, battle trainers, harvest berries).
-4. [ ] Arrive in Verdanturf Town (explore Battle Tent, Contest Hall, Wanda's house).
+3. [x] Explore Route 117 (all 7 trainers defeated: Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia).
+4. [x] Arrive in Verdanturf Town.
 5. [ ] Enter Rusturf Tunnel from the Verdanturf Town entrance.
 6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
 7. [ ] Obtain HM04 Strength from Wanda's boyfriend.

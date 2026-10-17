@@ -94,8 +94,8 @@
 ## Progression Checklist - Phase 7: Route 117, Verdanturf Town & Rusturf Tunnel (Active)
 1. [x] Enter Mauville Pokémon Center and heal party with Nurse Joy.
 2. [x] Travel west from Mauville City onto Route 117 toward Verdanturf Town.
-3. [ ] Explore Route 117 (visit Pokémon Day Care, battle trainers, harvest berries).
-4. [ ] Arrive in Verdanturf Town (explore Battle Tent, Contest Hall, Wanda's house).
+3. [x] Explore Route 117 (all 7 trainers defeated: Anna & Meg, Isaac, Maria, Melina & Brandi, Aisha, Derek, Lydia).
+4. [x] Arrive in Verdanturf Town.
 5. [ ] Enter Rusturf Tunnel from the Verdanturf Town entrance.
 6. [ ] Use HM06 Rock Smash to smash the rocks blocking the tunnel, reuniting Wanda and her boyfriend.
 7. [ ] Obtain HM04 Strength from Wanda's boyfriend.
