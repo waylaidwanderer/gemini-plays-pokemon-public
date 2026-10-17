@@ -1000,7 +1000,12 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "I'm burned out..."
    - Team: Numel ♂ Lv 18, Slugma ♂ Lv 18 (both OHKO'd by Sage's Leaf Blade).
    - Reward: ¥576 prize money.
-   - Outcome: Complete victory! 5 trainers defeated on Route 112!
+   - Outcome: Complete victory!
+
+6. Aroma Lady Shayla: [IN BATTLE]
+   - Location: (31, 11) in tall grass on Route 112 North.
+   - Pre-battle quote: "Oh, aren't you an adorable TRAINER! Please, I need a romantic battle! I'm somewhat decent!"
+   - Team: 1 Pokémon.
 
 <hr>
 
