@@ -1357,11 +1357,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - The true route to Meteor Falls follows the intended trainer sequence: Sr. & Jr. Tyra & Ivy (#5, row 44) -> Kindler Bernie (#6, 28..29, 58..59) -> Hiker Lucas (#7, 14..16, 65) -> Meteor Falls entrance (8, 63).
   - To reach Kindler Bernie and the eastern canyon, access the eastern mountain path from row 44 via col 29/31.
 
-## True Route to Kindler Bernie & Meteor Falls:
-1. Northern Canyon Corridor: From canyon at (17, 49), step Right to (18, 49), then walk North along col 18 through rows 48..44 to Upper Tier at (18, 44).
-2. Upper Tier East: Walk East along row 44 past Tyra & Ivy (23..24, 44) to open gap at (29, 44).
-3. Eastern Mountain Trail: Walk South through col 29 into eastern canyon leading directly to Kindler Bernie (#6 at 28..29, 58..59).
-4. Valley Floor Staircase: Descend white staircase at (24..25, 60..61) to Meteor Falls crater floor, defeat Hiker Lucas (#7), and enter Meteor Falls at (8, 63)!
+## Proven Route to White Staircase & Lower Valley:
+1. Western Stairs: From (18, 49), walk West: (17, 49) -> (16, 49) -> climb stairs at (15, 49..50) onto Western Terrace at (15, 48).
+2. Western Terrace Highway: Ride to col 12 -> down col 12 to (12, 55) -> east across row 55 to (17, 55) -> down col 17 to (17, 60).
+3. Base of White Staircase: Ride east along row 60 to white stairs at (24, 60) and descend to (24, 61) to investigate valley floor and route to Meteor Falls!
 
 
 <hr>
