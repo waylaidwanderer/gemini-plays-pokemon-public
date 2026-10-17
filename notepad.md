@@ -237,6 +237,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
    - Team: Ralts ♂ Lv 16 (OHKO'd by Sage's Leaf Blade).
    - Reward: ¥960 prize money.
    - Story Lead: Following defeat, Wally acknowledges he needs more training and departs with his uncle to Verdanturf Town. Unblocks the Mauville Gym entrance!
+- Scott Encounter: After defeating Wally outside Mauville Gym, Scott approaches to praise May's battle skill and encourage her journey before departing.
 
 <hr>
 
