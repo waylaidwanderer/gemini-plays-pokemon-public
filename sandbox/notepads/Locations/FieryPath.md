@@ -21,4 +21,4 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 - South Entrance Warp: (26, 36), player enters at (26, 35) facing North (leads outside to Route 112 at 11, 35).
 - Main Cavern: South section (cols 25..27) heads North to row 22, turns West to col 20, then runs straight North along cols 18..20 toward northern exit.
 - Strength Boulder: Located at (17, 13) blocking the west side corridor. Main path bypasses on the east along cols 18..20.
-- North Exit Portal: Located at (25..26, 5), approached from (25, 4) heading South (leads outside to northern Route 111).
+- Northeast Alcove: (25, 4) is a dead end; tile at (25, 5) is an impassable cliff/obstacle, not an exit warp.
