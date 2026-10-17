@@ -1373,6 +1373,7 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Team: Geodude ♂ Lv 18 (OHKO'd by Leaf Blade), Machop ♂ Lv 18 (OHKO'd by Leaf Blade).
    - EXP gained: ~600 EXP total for Sage.
    - Reward: ¥720 prize money.
+   - Post-battle dialogue: 'When I was a wee tyke, I believed there was someone copying me and shouting back, "Yodelayhihoo."' (Does not register in Match Call).
    - Outcome: Complete victory! Total money: ¥37,128. Sage HP 116/118.
 
 ## Route 114 Layout & Spatial Topology (Verified)
