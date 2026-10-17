@@ -280,10 +280,10 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 ## Gym Leader: Wattson
 - Specialty: Electric-type
 - Team (Emerald):
-  - Voltorb ♂ Lv 20 (Electric) - Moves: Spark, Rollout, SonicBoom, Selfdestruct
-  - Electrike ♂ Lv 20 (Electric) - Moves: Shock Wave, Thunder Wave, Quick Attack, Howl
-  - Magneton Lv 22 (Electric/Steel) - Moves: Shock Wave, SonicBoom, Supersonic, Thunder Wave
-  - Manectric ♂ Lv 24 (Electric) - Moves: Shock Wave, Quick Attack, Howl, Thunder Wave
+  - Voltorb ♂ Lv 20 (Electric) - Moves: Spark, Rollout, SonicBoom, Selfdestruct [DEFEATED - OHKO'd by Leaf Blade]
+  - Electrike ♂ Lv 20 (Electric) - Moves: Shock Wave, Thunder Wave, Quick Attack, Howl [DEFEATED - OHKO'd by Leaf Blade]
+  - Magneton Lv 22 (Electric/Steel) - Moves: Shock Wave, SonicBoom, Supersonic, Thunder Wave [DEFEATED - 2HKO'd by Leaf Blade]
+  - Manectric ♂ Lv 24 (Electric) - Moves: Shock Wave, Quick Attack, Howl, Thunder Wave [ACTIVE - WATTSon'S ACE]
 - Rewards: Dynamo Badge (enables HM06 Rock Smash outside battle, increases Pokémon Speed stat) + TM34 Shock Wave!
 
 ## Battle Strategy
