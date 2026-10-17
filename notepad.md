@@ -1931,5 +1931,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [ ] Explore Route 114 and Meteor Falls.
 9. [ ] Ascend Mt. Chimney via Cable Car, defeat Team Magma Leader Maxie, and retrieve Meteorite.
 10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
+- Mach Bike In-Place Turning: Tapping a directional button while stationary on the Mach Bike turns the player in place without taking a step. On foot, pressing a direction takes a step immediately.
+- Route 114 Topology & Navigation: The col 29 eastern path from row 44 is blocked at (29, 47) by a stationary unsmashable boulder and Acro Bike rails. The correct progression route to the lower valley floor and Meteor Falls uses the Western Stairs at (15, 49..50) -> Western Terrace col 12 -> row 55 -> col 17 -> row 60 dirt highway -> white staircase at (24, 60) down to (24, 61).
 
 <hr>
