@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 37, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Wilton defeated on Route 111 North. Total money: ¥27,952! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton. Next: Traverse Route 111 North to Rest House & Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 108/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Wilton and Brooke defeated on Route 111 North. Total money: ¥28,768! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 108/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 37) [Held Item: None (consumed)] - Evolved on turn 5632! Level 37 on turn 5839! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (24/30). HP: 108/112. Max HP: 112. Status: PAR. Nature: Lonely. Ability: Overgrow.
