@@ -1,0 +1,21 @@
+# Location: Route 111
+
+## Overview
+A major north-south route connecting central Hoenn (Mauville City) to the northern mountain region (Route 112, Mt. Chimney, Fallarbor Town) and the central Hoenn Desert. Divided into southern, desert, and northern sections.
+
+## Connection Points
+- South Entrance: Mauville City (northern border at cols 14..18).
+- West Fork: Route 112 (leading to Cable Car and Fiery Path).
+- North Fork: Desert (requires Go-Goggles to traverse sandstorm).
+
+## Key Landmarks
+- Winstrate House: Home of the Winstrate family (Victor, Victoria, Vivi, Vicky). Defeating all 4 in a gauntlet awards the Macho Brace!
+- TV Interviewers (Gabby & Ty): Roving reporters available for battle and interview.
+- Route 111 South Signpost: Directional signpost.
+
+## Progression Checklist - Route 111
+1. [ ] Enter Route 111 from Mauville City.
+2. [ ] Defeat the Winstrate Family (Victor, Victoria, Vivi, Vicky) outside their house.
+3. [ ] Enter Winstrate House and receive Macho Brace from Victoria.
+4. [ ] Battle Gabby & Ty (Double Battle).
+5. [ ] Take the western fork onto Route 112 toward Mt. Chimney / Fiery Path.
