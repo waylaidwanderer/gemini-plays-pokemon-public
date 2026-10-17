@@ -18,7 +18,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
 - East side pedestrian path: Begins at (22..26, 69). Row 68 provides a path east towards an Item Ball at (30, 69) and Youngster Timmy at (32, 69). Northbound pedestrian path continues north along cols 30..33 towards Mauville City.
 - Item Ball: (30, 69) - [OBTAINED] Dire Hit!
 - Causeway: Narrow walkway over water running north along cols 32..35 from row 64 to row 50+. Column 33/34 provides the primary path.
-- Rival Brendan Encounter: [REMATCH PENDING] Triggered at (34, 55) along the causeway! Rival Battle #2 against Brendan. Team: Wingull ♂ Lv 18 (defeated by Sage's Pursuit; used Supersonic), Combusken ♂ Lv 20 (moves revealed: Ember, Focus Energy, Peck, Double Kick; knocked out Sage, Lilz, Cobalu; ~25% HP remaining), 3rd Pokémon in reserve (likely Numel).
+- Rival Brendan Encounter: [ACTIVE - ENGAGED!] Triggered at (34, 55) along the causeway! Rival Battle #2 against Brendan. Team: Wingull ♂ Lv 18, Combusken ♂ Lv 20, 3rd Pokémon. Strategy: Level 29 Grovyle (Sage, 77/77 HP, 67 Speed) leading with Leaf Blade, holding Oran Berry, backed by 5 Super Potions.
 - Under-Bridge Route: Pedestrian pathway winding underneath and alongside the Cycling Road structure towards Mauville City.
 
 ## Progression Checklist - Route 110
