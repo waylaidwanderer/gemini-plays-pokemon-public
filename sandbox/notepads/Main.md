@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 30, Male), Nickname: SAGE
-- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, healed party at Pokémon Center, obtained Mach Bike from Rydel, obtained HM06 Rock Smash, and defeated Wally outside Mauville Gym. Battling through Mauville Gym: defeated Vivian & Kirk, and Youngster Ben; Lilz evolved into Lombre! Next: Defeat remaining trainers (Angelo, Shawn), toggle switch to open Wattson's corridor, and challenge Gym Leader Wattson. Party: Sage Lv 30 (PAR, 76/80), Lilz (Lombre) Lv 14 (FNT, 0/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: Knuckle Badge earned! Delivered Letter to Steven. Solved Trick House Puzzle 1. Defeated Rival Brendan #2 on Route 110 causeway (obtained Itemfinder). Cleared Route 110. Arrived in Mauville City, obtained Mach Bike, obtained HM06 Rock Smash, and defeated Wally. Cleared Mauville Gym trainers (Kirk & Vivian, Ben); Lilz evolved into Lombre! Party fully healed at Pokémon Center. Next: Return to Mauville Gym, toggle Switch 1 to open Wattson's corridor, and defeat Gym Leader Wattson for the Dynamo Badge. Party: Sage Lv 30 (OK, 80/80), Lilz (Lombre) Lv 14 (OK, 39/39), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
-1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 76/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: PAR. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 14) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 0/39. Stats: HP 39, Atk 15, Def 13, Sp.Atk 14, Sp.Def 20, Speed 16. Status: FNT.
+1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 80/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: OK. Nature: Lonely. Ability: Overgrow.
+2. LILZ (Lombre ♀, Level 14) - Evolved from Lotad on turn 4926! Moves: Astonish, Nature Power, Absorb, Flash. HP: 39/39. Stats: HP 39, Atk 15, Def 13, Sp.Atk 14, Sp.Def 20, Speed 16. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
 
