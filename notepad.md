@@ -884,7 +884,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Ether x0 (sold for ¥600 at Rustboro Mart)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
-- Berries: Cheri Berry x2, Oran Berry x2, Pecha Berry x2
+- Berries: Cheri Berry x1, Oran Berry x1 (1 held by Sage), Pecha Berry x2
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM05 Flash (Granite Cave Hiker)
 - Money: ¥9920 (earned ¥300 from Grunt 1, ¥280 from Grunt 2, ¥2240 from Pokéfan Isabel & Kaleb, ¥256 from Lass Sally, ¥224 from Lass Robin, ¥256 from Youngster Eddie, ¥560 from Aroma Lady Daisy, ¥480 from Black Belt Rhett, ¥480 from Guitarist Marcos, ¥360 from Twins Amy & Liv, ¥1200 from Pokéfan Miguel, ¥600 from Fisherman Andrew, ¥208 from Youngster Timmy; paid ¥50 museum admission)
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel registered!), Old Rod (Fisherman in Dewford Town)
