@@ -19,7 +19,7 @@ A major technological crossroads city in central Hoenn, linking Route 110 (south
 - Game Corner: Sells coins and prizes (TMs, dolls). Requires Coin Case (obtainable from woman in Mauville house in exchange for Harbor Mail).
 
 ## Progression Checklist - Mauville City
-1. [ ] Locate and enter Pokémon Center; heal party and set checkpoint.
+1. [x] Locate and enter Pokémon Center; heal party and set checkpoint.
 2. [ ] Visit Rydel's Cycles and obtain the Bicycle (Mach Bike or Acro Bike).
 3. [ ] Explore town landmarks (Game Corner, Battle Tent, houses).
 4. [ ] Prepare for and challenge Gym Leader Wattson for the Dynamo Badge.
