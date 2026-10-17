@@ -1083,6 +1083,8 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - Northern Signpost: Located at (58, 4), read from (58, 5) facing North. Text: "TRAINER TIPS / You may register one of the KEY ITEMS in your BAG as SELECT. / Simply press SELECT to use the registered item."
 - Item Ball 2: Located at (53, 7) on elevated ledge above row 9.
 - Trainer: Camper Lawrence spotted around (51, 12).
+- Wild Spinda Lv 16 encountered and defeated at (57, 6) with Quick Attack (earned 194 EXP).
+- Ash Mound 1: Located at (50, 12).
 
 <hr>
 
