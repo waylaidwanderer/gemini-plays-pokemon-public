@@ -74,3 +74,4 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - EXP gained: Sage gained 390 EXP.
    - Reward: ¥1,140 prize money.
    - Outcome: Complete victory! Total money: ¥34,184.
+   - Match Call: Registered!
