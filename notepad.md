@@ -907,6 +907,9 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Pre-battle quotes:
      - Melina: "Isn't it nice? To battle while looking at pretty flowers?"
      - Brandi: "Let me demonstrate the power hidden within a PSYCHIC POKÉMON!"
+   - Defeat quotes:
+     - Melina: "Oh, that's quite impressive!"
+     - Brandi: "Astonishing!"
    - Team: Doduo ♀ Lv 17 (Melina - fainted to Sage's Pursuit), Ralts ♀ Lv 17 (Brandi - fainted to Sage's Pursuit).
    - Outcome: Victory! Both foes defeated cleanly. Sage and Lilz gained EXP.
 
