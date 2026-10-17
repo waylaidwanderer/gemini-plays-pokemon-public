@@ -9,7 +9,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - West Exit: Fallarbor Town.
 
 ## Key Landmarks
-- Glass Workshop: Home of the glass artisan who provides the Soot Sack to collect volcanic ash for crafting flutes and furniture. Located at cols 30..35, rows 2..7; entrance door at (33, 5), accessed from (33, 6) facing North. Workshop sign at (31, 6).
+- Glass Workshop: Home of the glass artisan. Obtained Key Item SOOT SACK! Artisan crafts flutes and furniture from collected volcanic ash (Blue Flute: 250 steps; Yellow Flute: 500 steps; Red Flute: 500 steps; White Flute: 1000 steps; Black Flute: 1000 steps; Pretty Chair: 6000 steps; Pretty Desk: 8000 steps). Located at cols 30..35, rows 2..7; entrance door at (33, 5), accessed from (33, 6) facing North. Workshop sign at (31, 6).
 - Gentleman NPC/Trainer: Located at (36, 11) facing North.
 - Volcanic Ash Mounds: Patches of ash that vanish when walked through, revealing hidden items or Ninja Boys.
   - Ash Mound 1: Located at (50, 12).

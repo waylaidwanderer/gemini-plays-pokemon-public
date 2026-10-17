@@ -1057,7 +1057,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - West Exit: Fallarbor Town.
 
 ## Key Landmarks
-- Glass Workshop: Home of the glass artisan who provides the Soot Sack to collect volcanic ash for crafting flutes and furniture. Located at cols 30..35, rows 2..7; entrance door at (33, 5), accessed from (33, 6) facing North. Workshop sign at (31, 6).
+- Glass Workshop: Home of the glass artisan. Obtained Key Item SOOT SACK! Artisan crafts flutes and furniture from collected volcanic ash (Blue Flute: 250 steps; Yellow Flute: 500 steps; Red Flute: 500 steps; White Flute: 1000 steps; Black Flute: 1000 steps; Pretty Chair: 6000 steps; Pretty Desk: 8000 steps). Located at cols 30..35, rows 2..7; entrance door at (33, 5), accessed from (33, 6) facing North. Workshop sign at (31, 6).
 - Gentleman NPC/Trainer: Located at (36, 11) facing North.
 - Volcanic Ash Mounds: Patches of ash that vanish when walked through, revealing hidden items or Ninja Boys.
   - Ash Mound 1: Located at (50, 12).
@@ -1578,7 +1578,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Money: ¥30,288
-- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
+- Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
