@@ -1072,10 +1072,13 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 - Roaming NPC: Girl with red hair around (66, 12).
 
 ## Trainers
-1. Youngster Jaylen: [IN BATTLE]
+1. Youngster Jaylen: [DEFEATED]
    - Location: (62, 8) facing South along column 62 (engaged player at (62, 11), stands at (62, 10)).
    - Pre-battle quote: "Can you guess why it's so cool around here?"
-   - Team: Trapinch ♂ Lv 19 (only 1 Pokémon).
+   - Defeat quote: "It's because of the volcanic ash!"
+   - Team: Trapinch ♂ Lv 19 (only 1 Pokémon, OHKO'd by Quick Attack).
+   - Reward: ¥304 prize money.
+   - Outcome: Complete victory! Sage HP 108/112 (PAR).
 
 <hr>
 
