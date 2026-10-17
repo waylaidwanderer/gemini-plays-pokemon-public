@@ -72,8 +72,10 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Outcome: Complete victory! Total money: ¥30,492. Sage HP 97/112 (PAR).
 - Ash Mound 2: [CLEARED] Located at (20, 5). Dispersed into Soot Sack.
 - Item Ball 3: Spotted in southern tree pocket around (12..13, 15..16).
-5. Youngster Dillon: [IN BATTLE]
+5. Youngster Dillon: [DEFEATED]
    - Location: (21, 11) facing West. Engaged player at (20, 11).
    - Pre-battle quote: "The volcano's eruption is proof that the earth is alive."
-   - Team: 2 Pokémon (Aron #1 Lv 19 defeated for 390 EXP, Sage grew to Lv 38!; Pokémon #2 entering).
-   - Strategy: Sage Lv 38 (96/115 HP, PAR) handles Dillon's final Pokémon.
+   - Defeat quote: "You're some kind of strong!"
+   - Team: Aron ♂ Lv 19 (only 1 Pokémon, defeated by Pursuit for 390 EXP; Sage grew to Lv 38!).
+   - Reward: Pending prize money confirmation on return to overworld.
+   - Outcome: Complete victory! Sage HP 96/115 (PAR).
