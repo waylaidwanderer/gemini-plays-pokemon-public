@@ -1330,14 +1330,15 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Pre-battle quote: "If you're not prepared, you shouldn't be up in the mountains!"
    - Team: Geodude Lv 18 (OHKO'd by Sage's Pursuit), Numel Lv 18 (OHKO'd by Sage's Pursuit).
    - Defeat quote: "The mountains are unforgiving..."
-   - Outcome: Defeated in Double Battle!
+   - Reward: ¥1,008 prize money (combined Double Battle).
+   - Outcome: Complete victory! Total money: ¥36,408.
 
 8. Picnicker Angelina: [DEFEATED]
    - Location: (25, 72) facing East. Engaged in Double Battle at (28, 72).
    - Pre-battle quote: "Have you made your POKéMON evolve very much?"
    - Team: Lombre Lv 18 (OHKO'd by critical Pursuit), Marill Lv 18 (OHKO'd by Sage's Pursuit).
    - Defeat quote: "Oh, I see. That's good to know."
-   - Outcome: Defeated in Double Battle!
+   - Outcome: Complete victory! Total money: ¥36,408.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
@@ -1817,7 +1818,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie defeated). Total money: ¥35,400! Next: Descend eastern canyon to valley floor, defeat Hiker Lucas (#7 at 15, 65), and enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve, Tyra & Ivy, Bernie, Lucas & Angelina defeated). Total money: ¥36,408! Next: Follow valley floor west along row 73 to enter Meteor Falls (8, 63)! Party: Sage Lv 39 (OK, 116/118), Lilz Lv 19 (OK, 53/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (15/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 116/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -1841,7 +1842,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥35,400
+- Money: ¥36,408
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
