@@ -900,7 +900,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 
 ## Party
 1. SAGE (Grovyle ♂, Level 30) [Held Item: Oran Berry] - Moves: Fury Cutter, Pursuit, Leaf Blade, Quick Attack. HP: 59/80. Stats: HP 80, Atk 50, Def 37, Sp.Atk 59, Sp.Def 53, Speed 70. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lotad ♀, Level 13) - Caught on Route 102. Moves: Astonish, Nature Power, Absorb, Flash. HP: 37/37. Status: OK.
+2. LILZ (Lotad ♀, Level 13) - Caught on Route 102. Moves: Astonish, Nature Power, Absorb, Flash. HP: 0/37. Status: FNT.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport. HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 12) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. HP: 36/36. Stats: Atk 24, Def 35, Sp.Atk 16, Sp.Def 16, Speed 14. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Harden (30/30), Mud-Slap (10/10), Headbutt (15/15). Status: OK.
 
