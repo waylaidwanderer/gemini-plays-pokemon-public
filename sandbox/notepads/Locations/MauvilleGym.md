@@ -6,10 +6,32 @@ The third official Pokémon League Gym in Hoenn, led by Gym Leader Wattson. Spec
 ## Gym Mechanics & Puzzle
 - Puzzle Type: Electric barrier gates controlled by lightning-bolt step switches on the floor.
 - Two barrier states: BLUE barriers and MAGENTA/RED barriers.
-- Stepping on a floor switch toggles between the two barrier states:
-  - Default state: BLUE barriers ACTIVE (horizontal at 4, 14; horizontal at 1, 10). MAGENTA barriers OFF.
-  - Toggled state (Switch 1 at 0, 15 pressed): BLUE barriers OFF. MAGENTA barriers ACTIVE (vertical along col 3 at rows 11-13; horizontal at row 10, cols 3-5).
-  - Toggled corridor: Column 2 (x=2) is completely open from y=15 straight north past row 10 into the northern gym section!
+- Stepping on ANY floor switch toggles between the two barrier states:
+  - BLUE barrier state:
+    - Horizontal barrier at (4, 14) blocking south entrance to center.
+    - Horizontal barrier at (4, 7) blocking Wattson's northern corridor.
+    - Horizontal barrier at (1..2, 10) in southwest corridor.
+    - Vertical barrier along col 6 (between 6, 7 and 6, 10).
+    - Southeast path along row 12 (cols 5..7) is COMPLETELY OPEN to the East Chamber!
+  - MAGENTA barrier state:
+    - Vertical barrier along col 3 (between 3, 10 and 3, 14).
+    - Horizontal barrier along row 10 (between 3, 10 and 7, 10).
+    - Wattson's northern corridor at (4..5, 7) is COMPLETELY OPEN!
+    - Vertical barrier at col 6 is GONE!
+
+## Floor Switch Locations
+- Switch 1 (Southwest): (0, 15) in southwest alcove.
+- Switch 2 (South-Center): (4, 12) in south-central corridor.
+- Switch 3 (Northwest): (3, 9) in northwest corridor.
+- Switch 4 (East): (8, 9) in northeast chamber (East Switch).
+
+## True Gym Puzzle Solution
+1. In BLUE state, walk south to row 12, east along row 12 (5, 12 -> 6, 12 -> 7, 12), and north into the East Chamber at (7, 11) -> (8, 11) -> (8, 10).
+2. Step on the East Switch at (8, 9) to toggle the gym to MAGENTA!
+3. This drops the vertical barrier at col 6 and drops the barrier blocking Wattson at (4, 7).
+4. Defeat Guitarist Shawn at (7, 7).
+5. From row 8 in the East Chamber, walk WEST along row 8: (8, 8) -> (7, 8) -> (6, 8) -> (5, 8) -> (4, 8) into the central corridor.
+6. Walk straight NORTH up columns 4-5 to challenge Gym Leader Wattson at (4, 3)!
 
 ## Gym Leader: Wattson
 - Specialty: Electric-type
