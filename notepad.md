@@ -1311,10 +1311,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
 
 - Route 114 Elevated Ridge & Western Canyon:
   - Eastern Ascent Stairs: Located at cols 14..15, rows 49..50. Ascends from lower canyon onto the plateau at (15, 48).
-  - Plateau Ridge: Elevated rock platform across cols 7..15, rows 48..52.
-  - Western Canyon Entrance: Bounded by smashable rock at (8, 53), bypassed to north via (8, 52) into western canyon at (7, 52).
-  - Western Canyon Trail: Runs south along cols 6..7 (rows 52..62) directly to Meteor Falls entrance.
-  - Meteor Falls Entrance: Cave mouth located at southern terminus at rows 62..63.
+  - Plateau Ridge: Elevated rock platform across cols 5..15, rows 45..48.
+  - Southern Overlook Pocket: Cols 8..14, rows 49..54 dead-ends at row 54 ridge and permanent boulder at (8, 53).
+  - Western Descent Stairs: Located at cols 5..6, rows 45..46. Ascends from western canyon onto plateau, or descends south from row 45 into western canyon at (5, 47).
+  - Western Canyon: Vertical canyon along cols 4..6 running south past the mud-slide slopes directly to Meteor Falls entrance at rows 62..63.
 
 <hr>
 
