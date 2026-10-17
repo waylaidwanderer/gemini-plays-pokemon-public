@@ -60,4 +60,12 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "Ouch! My legs cramped up."
    - Team: Geodude ♂ Lv 16, Geodude ♂ Lv 17, Geodude ♂ Lv 16 (all 3 OHKO'd by Sage's Leaf Blade).
    - Reward: ¥640 prize money. Registered in PokéNav Match Call.
-   - Outcome: Complete victory! All 4 Route 112 trainers defeated!
+   - Outcome: Complete victory!
+
+5. Kindler Bryant: [DEFEATED]
+   - Location: (31, 7) facing West/South by berry patch.
+   - Pre-battle quote: "I caught hot POKéMON in FIERY PATH! Take a look!"
+   - Defeat quote: "I'm burned out..."
+   - Team: Numel ♂ Lv 18, Slugma ♂ Lv 18 (both OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥576 prize money.
+   - Outcome: Complete victory! 5 trainers defeated on Route 112!

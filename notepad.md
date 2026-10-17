@@ -992,7 +992,15 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Defeat quote: "Ouch! My legs cramped up."
    - Team: Geodude ♂ Lv 16, Geodude ♂ Lv 17, Geodude ♂ Lv 16 (all 3 OHKO'd by Sage's Leaf Blade).
    - Reward: ¥640 prize money. Registered in PokéNav Match Call.
-   - Outcome: Complete victory! All 4 Route 112 trainers defeated!
+   - Outcome: Complete victory!
+
+5. Kindler Bryant: [DEFEATED]
+   - Location: (31, 7) facing West/South by berry patch.
+   - Pre-battle quote: "I caught hot POKéMON in FIERY PATH! Take a look!"
+   - Defeat quote: "I'm burned out..."
+   - Team: Numel ♂ Lv 18, Slugma ♂ Lv 18 (both OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥576 prize money.
+   - Outcome: Complete victory! 5 trainers defeated on Route 112!
 
 <hr>
 
@@ -1442,7 +1450,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared (all 4 trainers defeated). Total money: ¥25,840! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 North & Fiery Path cleared (5 trainers defeated). Total money: ¥26,416! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent. Next: Traverse Route 111 North & Route 113 to Fallarbor Town! Party: Sage Lv 36 (OK, 108/109), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 36) [Held Item: None (consumed)] - Evolved on turn 5632! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (3/15), Quick Attack (27/30). HP: 108/109. Max HP: 109. Status: OK. Nature: Lonely. Ability: Overgrow.
