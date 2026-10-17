@@ -968,7 +968,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
 - Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
-- Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Absorb, Slot 4 (bottom-right) = Quick Attack.
+- Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Leaf Blade, Slot 4 (bottom-right) = Quick Attack.
 - Battle Move Memory: In Pokémon Emerald, opening the FIGHT menu automatically remembers and defaults cursor to the move used on the previous turn.
 - Naming Screen Mechanics: Pressing Start moves the cursor directly to the [ OK ] button on the right; pressing A on [ OK ] confirms and submits the name. Pressing B activates [BACK] (erases previous character).
 - PokéNav Navigation: On the PokéNav main menu (HOENN MAP, CONDITION, MATCH CALL, SWITCH OFF), pressing B does NOT exit. You must select 'SWITCH OFF' (accessible immediately by pressing Up from HOENN MAP to wrap to the bottom) to close the PokéNav.
