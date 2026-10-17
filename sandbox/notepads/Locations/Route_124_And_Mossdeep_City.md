@@ -323,10 +323,10 @@
       - Stand at `(6, 6)` facing `Up` (`Shelgon Lv. 52` [Protect, Rock Tomb, Double-Edge], `Altaria Lv. 54`, `Kingdra Lv. 53` [Smokescreen, Dragon Dance], `Flygon Lv. 53`, `Salamence Lv. 55 [Sitrus Berry, Intimidate]` [Defeated — money `$21,471`, `ATRITON` grew to Lv. 61; declined `Endeavor`]). Walk `Left` 1 to `(5, 6)`, `Up` 4 to `(5, 2)`, `Right` 1 to `(6, 2)`, and `Up` 1 into `(6, 1)` -> `EverGrandeCity_Hall4 (5, 33)` -> `Up` 32 to `(5, 1)` -> `EverGrandeCity_ChampionsRoom` (automatically initiates Champion Wallace battle upon entry).
     - **Champion Wallace (`EverGrandeCity_ChampionsRoom`):**
       - Entering `(5, 1)` from `EverGrandeCity_Hall4` auto-walks to `(6, 6)` and plays 12 pre-battle dialogue boxes before initiating battle.
-      - Observed team members:
-        1. **Wailord Lv. 57** (`Water Spout`, `Rain Dance`, `Double-Edge`, `Blizzard`)
-        2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`)
-        3. **Tentacruel Lv. 55** (`Toxic`, `Hydro Pump`, `Sludge Bomb`, `Ice Beam`)
-        4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`)
-        5. **Gyarados Lv. 56** (`Dragon Dance`, `Earthquake`, `Hyper Beam`, `Surf` — `Intimidate`)
-        6. **Milotic Lv. 58 [Sitrus Berry]** (`Recover`, `Surf`, `Ice Beam`, `Toxic`)
+      - Observed team members & Lv. 71+ `ATRITON` strategy:
+        1. **Wailord Lv. 57** (`Water Spout`, `Rain Dance`, `Double-Edge`, `Blizzard`): 2HKO with `Return` x 2 (`100% -> 44% -> 0% HP`), reducing Turn 1 `Water Spout` to ~34 HP damage and KOing `Wailord` before it can use `Rain Dance` on Turn 2.
+        2. **Ludicolo Lv. 56** (`Giga Drain` [5 PP], `Surf`, `Leech Seed`, `Double Team`): Without Rain (`Swift Swim` inactive), `ATRITON` outspeeds and 2HKOs with `Return` x 2; if `Ludicolo` uses `Leech Seed`, switch to a backup Pokémon on the free Shift prompt after `Ludicolo` faints to clear `Leech Seed` for free.
+        3. **Tentacruel Lv. 55** (`Toxic`, `Hydro Pump`, `Sludge Bomb`, `Ice Beam`): 2HKO with `Strength` x 2 (`100% -> 42% -> 0% HP`), staying above the 25% Full Restore threshold while preserving `Return` PP.
+        4. **Whiscash Lv. 56** (`Earthquake`, `Surf`, `Amnesia`, `Hyper Beam`): 2HKO with Turn 1 `Waterfall` (~67% damage before `Amnesia`) + Turn 2 Physical `Return` (ignores `Amnesia`).
+        5. **Gyarados Lv. 56** (`Dragon Dance`, `Earthquake`, `Hyper Beam`, `Surf` — `Intimidate`): Switch to a conscious backup Pokémon on the free Shift prompt when Wallace announces `Gyarados` so the backup absorbs `Intimidate`; once the backup faints, `ATRITON` enters at `+0 Attack` and 2HKOs `Gyarados` with `Return` x 2 (`100% -> 44% -> 0% HP`), bypassing Full Restore.
+        6. **Milotic Lv. 58 [Sitrus Berry]** (`Recover`, `Surf`, `Ice Beam`, `Toxic`): Hit lower 79 base Defense with Physical `Return` and `Strength`.
