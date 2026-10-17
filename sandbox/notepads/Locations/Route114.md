@@ -2,6 +2,7 @@
 
 ## Overview
 A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls in the south. Passes by Lanette's house and mountainous terrain.
+- Wild Pokémon encountered: Lombre (Lv 16), Seviper (Lv 17).
 
 ## Connection Points
 - North/East Exit: Fallarbor Town at (37, 10).
@@ -82,10 +83,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Match Call: Registered!
    - Outcome: Complete victory! Total money: ¥34,824.
 
-6. Kindler Bernie: [IN PROGRESS]
-   - Location: (28, 59) patrolling row 59 east of the white staircase. Engaged from (27, 59) facing East.
+6. Kindler Bernie: [UNBATTLED]
+   - Location: (28..29, 58..59) patrolling row 59 east of the white staircase.
    - Team: Slugma Lv 18, Wingull Lv 18.
-   - Status: Battle initiated!
+   - Status: Spotted, unbattled.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):

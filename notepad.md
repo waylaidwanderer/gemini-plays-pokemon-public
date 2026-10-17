@@ -1234,6 +1234,7 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
 
 ## Overview
 A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls in the south. Passes by Lanette's house and mountainous terrain.
+- Wild Pokémon encountered: Lombre (Lv 16), Seviper (Lv 17).
 
 ## Connection Points
 - North/East Exit: Fallarbor Town at (37, 10).
@@ -1314,10 +1315,10 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
    - Match Call: Registered!
    - Outcome: Complete victory! Total money: ¥34,824.
 
-6. Kindler Bernie: [IN PROGRESS]
-   - Location: (28, 59) patrolling row 59 east of the white staircase. Engaged from (27, 59) facing East.
+6. Kindler Bernie: [UNBATTLED]
+   - Location: (28..29, 58..59) patrolling row 59 east of the white staircase.
    - Team: Slugma Lv 18, Wingull Lv 18.
-   - Status: Battle initiated!
+   - Status: Spotted, unbattled.
 
 ## Route 114 Layout & Spatial Topology (Verified)
 - Upper Tier (rows 40..45):
@@ -1787,10 +1788,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 38, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve defeated). Total money: ¥34,824! Next: Advance south through Route 114 to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 17 (OK, 51/51), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 114 explored (TM28 Dig, TM05 Roar, Lotad Doll obtained; Nolan, Nancy, Shane, Steve defeated). Total money: ¥34,824! Next: Advance south through Route 114 to Meteor Falls! Party: Sage Lv 38 (OK, 115/115), Lilz Lv 18 (OK, 54/54), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 38) [Held Item: None (consumed)] - Evolved on turn 5632! Level 38 on turn 6098! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 115/115. Max HP: 115. Stats: Atk 80, Def 61, Sp.Atk 90, Sp.Def 82, Speed 109. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 18) - Evolved from Lotad on turn 4926! Level 18 on turn 6343! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 54/54. Stats: HP 54, Atk 26, Def 23, Sp.Atk 24, Sp.Def 31, Speed 26. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
