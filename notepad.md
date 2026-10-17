@@ -1278,6 +1278,13 @@ A rugged mountain route connecting Fallarbor Town in the north to Meteor Falls i
   - Approach route: Front lawn along row 37 is completely open grass from col 21 to col 29. Walk south to row 37, east to (27, 37), and step North into door at (27, 36).
   - Inside: Lanette offers the Lotad Doll decoration.
   - Exterior: Signpost at (25, 38), boulder at (22..23, 38), berry patch south.
+- South Ledge & Rocks:
+  - Ledge along row 41 ends at col 20.
+  - Column 21 has tall grass at rows 39..41 (two-way path, no ledge).
+  - Upper rock at cols 22..23, rows 38..39.
+  - Lower rock at cols 23..24, rows 40..41.
+  - South passage along row 42 connects west route to east lawn.
+  - Trainers: Twins spotted at cols 22..23, row 43; Boy in cap at (25, 41).
 
 <hr>
 
