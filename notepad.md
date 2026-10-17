@@ -867,7 +867,7 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
 1. [x] Enter Route 117 from Mauville City.
 2. [x] Locate and inspect Pokémon Day Care.
 3. [ ] Harvest ripe berries from berry patches.
-4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac defeated).
+4. [ ] Battle Route 117 trainers for EXP (Anna & Meg, Isaac, Maria defeated).
 5. [ ] Reach Verdanturf Town at the western terminus.
 
 ## Topography & Discovered Coordinates
@@ -893,9 +893,12 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Defeat quote: "You've raised yours superbly"
    - Post-battle: "I'm going to redouble my training. Would you come look in on us?"
    - Reward: ¥440 prize money. Registered in PokéNav Match Call.
-3. Triathlete Maria: Located along lower path around (22..26, 11) running east-west.
+3. Triathlete Maria: [DEFEATED]
+   - Location: Along lower path around (22..26, 11) running east-west.
    - Pre-battle quote: "I do my triathlon training with POKéMON, so I'm pretty confident about my speed."
-   - Team: Doduo ♀ Lv 17.
+   - Team: Doduo ♀ Lv 17 (fainted via Leaf Blade).
+   - Defeat quote: "I need to get more practices in, I guess"
+   - Reward: ¥680 prize money.
 
 <hr>
 
