@@ -42,7 +42,8 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Location: (51, 11) facing South.
    - Pre-battle quote: "I use this parasol to ward off this filthy, yucky volcanic ash from my dear NUMEL."
    - Defeat quote: "Huff, huff... I am exhausted..."
-   - Post-battle quote: "Here, slide under my parasol with me! You can hide from the ash."
+   - Post-battle quote: "Here, slide under my parasol. Let me register you in my POKéNAV."
+   - Match Call: Registered!
    - Team: Numel (Fire/Ground) Lv 19 (OHKO'd by Quick Attack).
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥29,832. Sage HP 108/112 (PAR).

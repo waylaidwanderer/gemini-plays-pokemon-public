@@ -1090,7 +1090,8 @@ A high-altitude mountain path located north of Mt. Chimney, blanketed in constan
    - Location: (51, 11) facing South.
    - Pre-battle quote: "I use this parasol to ward off this filthy, yucky volcanic ash from my dear NUMEL."
    - Defeat quote: "Huff, huff... I am exhausted..."
-   - Post-battle quote: "Here, slide under my parasol with me! You can hide from the ash."
+   - Post-battle quote: "Here, slide under my parasol. Let me register you in my POKéNAV."
+   - Match Call: Registered!
    - Team: Numel (Fire/Ground) Lv 19 (OHKO'd by Quick Attack).
    - Reward: ¥760 prize money.
    - Outcome: Complete victory! Total money: ¥29,832. Sage HP 108/112 (PAR).
@@ -1548,7 +1549,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 37, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen & Madeline defeated. Total money: ¥29,832! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 108/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 cleared, Route 111 North cleared, Route 113 Jaylen & Madeline defeated. Total money: ¥29,832! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline. Next: Traverse Route 113 to Fallarbor Town! Party: Sage Lv 37 (PAR, 108/112), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 37) [Held Item: None (consumed)] - Evolved on turn 5632! Level 37 on turn 5839! Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (17/30). HP: 108/112. Max HP: 112. Status: PAR. Nature: Lonely. Ability: Overgrow.
