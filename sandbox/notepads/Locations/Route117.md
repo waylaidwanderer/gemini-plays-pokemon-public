@@ -81,4 +81,4 @@ An east-west route connecting Mauville City (east) to Verdanturf Town (west). Fa
    - Team: 6 Pokémon at Lv 11:
      1. Wingull ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
      2. Goldeen ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
-     3. Roselia ♀ Lv 11 (in battle)
+     3. Roselia ♀ Lv 11 (OHKO'd by Sage's Quick Attack)
