@@ -38,3 +38,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
    - Team: Sandshrew ♂ Lv 19 (OHKO'd by Sage's Leaf Blade).
    - Reward: ¥304 prize money.
    - Outcome: Complete victory! Sage HP 89/89.
+3. Picnicker Irene: [IN BATTLE]
+   - Location: (19, 121) facing North, guarding Item Ball at (19, 118).
+   - Pre-battle quote: "Did you come from MAUVILLE? Then you should be full of energy!"
+   - Team: Marill Lv 18, Shroomish Lv 18.
