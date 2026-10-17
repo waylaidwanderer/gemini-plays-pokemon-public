@@ -990,7 +990,7 @@ A quirky challenge house located on Route 110 with rotating puzzle mazes managed
 6. [x] Receive TM46 Thief from reformed Aqua Grunt on 1F of Oceanic Museum.
 7. [ ] Explore town landmarks (Slateport Market, Battle Tent, Name Rater).
 8. [x] Defeat Rival Brendan in Rival Battle #2 on Route 110 causeway and obtain Itemfinder.
-9. [ ] Continue north along Route 110 into Mauville City.
+9. [x] Continue north along Route 110 into Mauville City.
 
 ## Engine / Harness Mechanics Verified
 - Map transitions/warps automatically abort pending movement sequences.
