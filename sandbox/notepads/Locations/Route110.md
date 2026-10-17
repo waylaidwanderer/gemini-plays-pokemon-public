@@ -27,6 +27,12 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
   - Causeway runs north along cols 33..35 across the bay.
   - Reaches northern shore around row 42..45.
   - Column 35 offers a clear (non-grass) walkway along the eastern railing to minimize wild encounters.
+- Trainer Tips Signpost: Located at (33, 39), read from (33, 40) facing North:
+  - Text: "The foe can be made helpless by paralyzing it or causing it to sleep. It is an important technique for POKÉMON battles."
+- Northern Causeway Trainers:
+  - School Kid at (34, 40) facing East.
+  - Trainer at (36, 40) facing West.
+  - Walking onto (35, 40) triggers a Double Battle. Challenging either from the outside triggers a 1-on-1 Single Battle.
 - Under-Bridge Route: Pedestrian pathway winding underneath and alongside the Cycling Road structure towards Mauville City.
 
 ## Progression Checklist - Route 110
