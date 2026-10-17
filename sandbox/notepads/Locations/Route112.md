@@ -70,7 +70,9 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Reward: ¥576 prize money.
    - Outcome: Complete victory!
 
-6. Aroma Lady Shayla: [IN BATTLE]
+6. Aroma Lady Shayla: [DEFEATED]
    - Location: (31, 11) in tall grass on Route 112 North.
    - Pre-battle quote: "Oh, aren't you an adorable TRAINER! Please, I need a romantic battle! I'm somewhat decent!"
-   - Team: 1 Pokémon.
+   - Team: Shroomish ♀ Lv 18 (OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥720 prize money.
+   - Outcome: Complete victory! All 6 Route 112 trainers defeated!
