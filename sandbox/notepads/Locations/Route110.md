@@ -68,4 +68,4 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
    - Location: (34, 40) on northern Route 110, facing East. Approached from (33, 40) facing East for a 1-on-1 battle.
    - Pre-battle Quote: "Could I see your POKÉMON? Just one look, please?"
    - Team: Lombre ♂ Lv 14 (fainted via Leaf Blade), Nuzleaf ♂ Lv 14 (fainted via Fury Cutter).
-   - Outcome: Complete victory! Sage grew to Lv 30!
+   - Outcome: Complete victory! Earned ¥840 prize money. Sage grew to Lv 30!
