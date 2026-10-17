@@ -611,8 +611,7 @@ A major north-south corridor connecting Slateport City (south) to Mauville City 
      - Triathlete Alyssa: Magnemite Lv 15 (fainted via Sage's Leaf Blade)
    - Outcome: Complete victory! Earned ¥960 prize money.
 ## Northern Exit & Mauville Border
-- Northern Signpost: Located at (4, 17), read from (4, 17) facing West: "ROUTE 110 / ⬆ MAUVILLE CITY".
-- Berry Patch: Located at (5..7, 12) along the northern edge directly south of Mauville City border. Contains 3 berry plants in soft loamy soil.
+- Berry Patch: Located at (5..7, 12) along the northern edge directly south of Mauville City border. Harvested 9 Nanab Berries.
 - Route 110 / Mauville City Transition: Passing row 12..11 along cols 8..10 leads directly into the southern plaza of Mauville City.
 - Cycling Road North Gate: Located to the east of the berry patch and pedestrian border.
 - Route 110 Status: FULLY CLEARED! All trainers defeated, all items collected (Dire Hit, Elixir, Itemfinder from Brendan), all landmarks explored. Ready to enter Mauville City.
