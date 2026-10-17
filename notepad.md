@@ -76,6 +76,12 @@
 - **Exterior Door:** `(7, 16)` in Littleroot Town (exiting steps to `(7, 17)`)
 - **Interior Center Aisle:** `x = 6` from `y = 5` (Professor Birch at `(6, 4)`) straight south to the exit mat at `(6, 12)`.
 
+## Post-Hall of Fame Littleroot Town Events
+- **2F Bedroom (`LittlerootTown_BrendansHouse_2F`):** Continuing from the Title Screen after the Hall of Fame credits places the player at `(4, 2)` with the entire party fully healed and original party order restored. Walk `Right` 3 and `Up` 1 onto `(7, 1)` to descend to 1F.
+- **1F S.S. Ticket & Roaming Eon Pokémon TV Broadcast (`LittlerootTown_BrendansHouse_1F`):** Descending to 1F triggers **Norman** to give the **S.S. Ticket** (`KEY ITEMS POCKET`) before departing through `(8, 8)`. The player then watches a TV emergency news flash about an unidentified flying Pokémon; **Mom** walks over to `(6, 5)` and asks its color (`[RED / BLUE]` — choosing `RED` releases roaming **Latias**, choosing `BLUE` releases roaming **Latios**) [Completed — **S.S. Ticket** obtained & **RED (Latias)** selected]. Because Mom stands at `(6, 5)` afterwards, walk around the left side of the dining table via `(5, 5) -> (2, 5) -> (2, 8) -> (8, 8)` to exit.
+- **National Pokédex Upgrade (`LittlerootTown` & `LittlerootTown_ProfessorBirchsLab`):** Stepping outside Player's House into Littleroot Town automatically triggers **Professor Birch** and **Rival May** to escort the player into Professor Birch's Lab, where Professor Birch upgrades the Pokédex to **National Mode** [Completed].
+- **Post-Reboot Turn-in-Place Note:** After the post-credits title screen reboot, `mgba.get_coordinates()` returns `None`, so the harness no longer auto-inserts turn-in-place taps; whenever changing facing direction in the overworld, include **1 extra directional tap** (`1` to turn in place + `N` to step `N` tiles).
+
 <hr>
 
 <h1><code>Locations/Route_101_And_Oldale_Town</code></h1>
@@ -569,7 +575,8 @@
 ## Lilycove City
 - **West Entrance (from Route 121 `(79, 6..8)`):** `(0, 16..18)` (`y_lilycove = y_route121 + 10`).
 - **Lilycove Pokémon Center:** Door at `(24, 14)` (exiting steps to `(24, 15)`). Reached from `(0, 16)` via `Right` 21 along `y = 16` to `(21, 16)`, `Down` 1 to `(21, 17)` around the NPC at `(22, 16)`, `Right` 3 to `(24, 17)`, and `Up` 3 to `(24, 14)` [Visited & Fly Spot Unlocked].
-- **Lilycove Harbor (`LilycoveCity_Harbor`):** Located in southwestern Lilycove City. From the Lilycove Pokémon Center `(24, 15)`, walk `Down` 1 to `(24, 16)`, `Right` 6 to `(30, 16)`, `Down` 8 along `x = 30` (east of the Contest Hall fence) onto the southern yellow brick road at `(30, 24)`, `Left` 18 along `y = 24` to the vertical yellow brick road on the west side of Lilycove Harbor, `Down` 6 to the row directly below the Harbor signpost (`1` tile below the signpost), `Left` 1 onto the grass tile beneath the signpost, `Down` 2 to the row in front of the Harbor building, `Right` 5 to the center door, and `Up` 1 inside. Inside `LilycoveCity_Harbor`, walk `Left` 2 (making sure to take 2 full steps `Left` past the stool at `col -1`) and `Up` 3 to speak with the ferry attendant and board the **S.S. Tidal** with the **S.S. Ticket**.
+- **Lilycove Harbor (`LilycoveCity_Harbor`):** Located in southwestern Lilycove City. From the Lilycove Pokémon Center `(24, 15)`, walk `Down` 1 to `(24, 16)`, `Right` 6 to `(30, 16)`, `Down` 8 along `x = 30` (east of the Contest Hall fence) onto the southern yellow brick road at `(30, 24)`, `Left` 18 along `y = 24` to the vertical yellow brick road on the west side of Lilycove Harbor, `Down` 6 to the row directly below the Harbor signpost (`1` tile below the signpost), `Left` 1 onto the grass tile beneath the signpost, `Down` 2 to the row in front of the Harbor building, `Right` 5 to the center door, and `Up` 1 inside. Inside `LilycoveCity_Harbor`, walk `Left` 2 (making sure to take 2 full steps `Left` past the stool at `col -1`) and `Up` 3 to speak with the ferry attendant and board the **S.S. Tidal** with the **S.S. Ticket** (`"And where would you like to go?"` opens `[SLATEPORT CITY / EXIT]` with the cursor on `EXIT`; press `Up, A` to select `SLATEPORT CITY` and `A` again to confirm `[>YES / NO]`).
+- **S.S. Tidal Maiden Voyage (`SSTidalCorridor` & `SSTidalRooms`):** Boarding the S.S. Tidal triggers **Mr. Briney** and **Scott** (who unlocks the **Battle Frontier** destination for subsequent ferry trips) and places the player at `(1, 10)` in `SSTidalCorridor` above the Sailor at `(1, 11)`. Walk `Right` 6 to `(7, 10)` and `Up` 1 into **Cabin #2 (`(7, 9)`)**, rest in the bed at `(col +2, row -2)` facing `Up` to advance the voyage state (`VAR_SS_TIDAL_STATE`), exit Cabin #2 back to `SSTidalCorridor`, and speak with the Sailor at `(1, 11)` to disembark at Slateport Harbor.
 - **Lilycove Department Store & Move Deleter's House (Northern Terrace):**
   - Reached from the Lilycove Pokémon Center `(24, 15)` via `Down` 1 to `(24, 16)`, `Right` 7 to `(31, 16)`, and `Up` 7 up the `(31, 10..12)` staircase to `(31, 9)`.
   - **Move Deleter's House:** Door at **`(36, 6)`** (exiting steps to `(36, 7)`). Inside, the Move Deleter sits at `(4, 4)` (stand at `(3, 4)` facing `Right`; note that a signpost sits outside at `(29, 7)` between `(36, 7)` and the Department Store door at `(27, 6)`, so route via `y = 8`). Speaking to the Move Deleter requires `A` x 4 (`"Uh..."`, `"I can make..."`, `"Would you like me to do that?" [YES / NO]`, confirms `YES`), `A` to advance `"Which POKéMON should forget a move?"` into the Party screen (cursor starts on Lead Slot 0), `A` to select the Pokémon, `A` to advance `"Which move should be forgotten?"` into the `BATTLE MOVES` screen, `Down` x N + `A` to choose the move, `A, sleep 4500` to confirm `[YES / NO]`, and `B` x 3 to clear the closing lines.
@@ -966,11 +973,11 @@
 - **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 76 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
-  2. OBERON (Beautifly, Male, Lv. 21 [FNT] — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 13 [FNT] — Scratch, Harden, Leech Life, Flash)
-  4. ZEPHYR (Castform, Female, Lv. 29 [FNT] — Powder Snow, Rain Dance, Sunny Day, Hail)
-  5. HALCYON (Wingull, Male, Lv. 17 [FNT] — Water Gun, Supersonic, Wing Attack, Fly)
-  6. TETHYS (Tentacool, Female, Lv. 17 [FNT] — Poison Sting, Supersonic, Constrict, Waterfall)
+  2. OBERON (Beautifly, Male, Lv. 21 — Gust, String Shot, Poison Sting, Harden)
+  3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
+  4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
+  5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
+  6. TETHYS (Tentacool, Female, Lv. 17 — Poison Sting, Supersonic, Constrict, Waterfall)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.

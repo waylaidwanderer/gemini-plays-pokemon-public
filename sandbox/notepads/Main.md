@@ -7,11 +7,11 @@
 - **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 76 [Holding Mystic Water] — Surf, Return, Waterfall, Strength)
-  2. OBERON (Beautifly, Male, Lv. 21 [FNT] — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 13 [FNT] — Scratch, Harden, Leech Life, Flash)
-  4. ZEPHYR (Castform, Female, Lv. 29 [FNT] — Powder Snow, Rain Dance, Sunny Day, Hail)
-  5. HALCYON (Wingull, Male, Lv. 17 [FNT] — Water Gun, Supersonic, Wing Attack, Fly)
-  6. TETHYS (Tentacool, Female, Lv. 17 [FNT] — Poison Sting, Supersonic, Constrict, Waterfall)
+  2. OBERON (Beautifly, Male, Lv. 21 — Gust, String Shot, Poison Sting, Harden)
+  3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
+  4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
+  5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
+  6. TETHYS (Tentacool, Female, Lv. 17 — Poison Sting, Supersonic, Constrict, Waterfall)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
