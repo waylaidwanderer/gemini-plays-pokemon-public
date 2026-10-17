@@ -950,8 +950,9 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 3. Hiker Brice: [DEFEATED]
    - Location: (24, 34) on Route 112 upper plateau.
    - Pre-battle quote: "Hahahaha! How about we have a battle? You and me! Hahahaha!"
-   - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!), Machop ♂ Lv 17 (OHKO'd by Sage's Leaf Blade).
-   - Outcome: Complete victory! Sage evolving into Sceptile!
+   - Defeat quote: "I lost! Hahahaha!"
+   - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!), Machop ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP).
+   - Reward: ¥544 prize money, 638 total EXP. Sage evolving into Sceptile!
 
 <hr>
 
@@ -1401,7 +1402,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko / Grovyle (Level 35, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 entered (Camper Larry & Picnicker Carol defeated). Total money: ¥24,520! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Advance through Route 112 to Fiery Path & Mt. Chimney! Party: Sage Lv 35 (OK, 91/92), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Route 112 entered (Camper Larry, Picnicker Carol, Hiker Brice defeated). Total money: ¥25,064! Match Call: Wattson, Anna & Meg, Isaac, Lydia, Wally. Next: Complete Sage's evolution into Sceptile, advance to Fiery Path & Mt. Chimney! Party: Sage Lv 36 (OK, 94/95), Lilz (Lombre) Lv 16 (OK, 49/49), Cipher Lv 10 (OK, 25/25), Cobalu Lv 12 (OK, 36/36).
 
 ## Party
 1. SAGE (Grovyle ♂, Level 36) [Held Item: None (consumed)] - Moves: Fury Cutter (18/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (27/30). HP: 94/95. Stats: HP 95, Atk 60, Def 45, Sp.Atk 71, Sp.Def 64, Speed 85. Status: OK. Nature: Lonely. Ability: Overgrow. (Evolving into Sceptile!)

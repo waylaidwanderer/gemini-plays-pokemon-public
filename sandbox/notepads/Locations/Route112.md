@@ -47,5 +47,6 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 3. Hiker Brice: [DEFEATED]
    - Location: (24, 34) on Route 112 upper plateau.
    - Pre-battle quote: "Hahahaha! How about we have a battle? You and me! Hahahaha!"
-   - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!), Machop ♂ Lv 17 (OHKO'd by Sage's Leaf Blade).
-   - Outcome: Complete victory! Sage evolving into Sceptile!
+   - Defeat quote: "I lost! Hahahaha!"
+   - Team: Numel ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP, Sage grew to Lv 36!), Machop ♂ Lv 17 (OHKO'd by Sage's Leaf Blade, 319 EXP).
+   - Reward: ¥544 prize money, 638 total EXP. Sage evolving into Sceptile!
