@@ -787,7 +787,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 
 ## Progression Checklist - Route 111
 1. [x] Enter Route 111 from Mauville City.
-2. [ ] Defeat the Winstrate Family (Victor, Victoria, Vivi, Vicky) outside their house.
+2. [x] Defeat the Winstrate Family (Victor, Victoria, Vivi, Vicky) outside their house.
 3. [ ] Enter Winstrate House and receive Macho Brace from Victoria.
 4. [ ] Battle Gabby & Ty (Double Battle).
 5. [ ] Take the western fork onto Route 112 toward Mt. Chimney / Fiery Path.
@@ -1339,7 +1339,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x1 (consumed by Sage), Pecha Berry x2, Nanab Berry x9
 - TMs & HMs: TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥21,048
+- Money: ¥21,768
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles)
 
 ## Littleroot Town & Route 101 Summary
