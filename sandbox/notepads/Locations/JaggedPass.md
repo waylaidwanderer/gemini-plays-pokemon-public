@@ -15,7 +15,7 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 - Acro Bike rail chutes along columns 13..14.
 - Ledge jump at row 7 down to row 8.
 - Ledge jump at row 10 down to row 11 terrace.
-- Row 12/13 Terrace: Row 13 is an impassable high cliff wall across cols 11..18. The bypass to reach the lower terrace (row 14) is the western gravel slope at cols 8..10, which connects row 11 down to row 14.
+- Row 12/13 Terrace: Row 13 is an impassable high cliff wall across cols 11..18. The true exit from this terrace is on the far east: follow row 12 east past cols 17..19 to (20, 12), where the path turns south around the cliff corner down column 20 to row 15, connecting to the lower eastern slope.
 
 ## Trainers
 1. Hiker Eric: [DEFEATED]
