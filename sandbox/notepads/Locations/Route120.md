@@ -25,3 +25,9 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
 - Southern Water & Stairs: Lake occupies southern area; white stone stairs at (21, 9..10) lead down to water edge.
 - Path Routing: Row 5 along the sand terrace provides clear, grass-free passage bypassing the giant tall grass at (cols 21+, rows 6..8).
 - Trainer (Lass/Bird Keeper): Stationed on sand terrace at (15, 5) facing South.
+
+## Trainers
+1. Parasol Lady Clarissa: [DEFEATED - Turn 9174]
+   - Location: (16, 6) on northern sand terrace.
+   - Team: Roselia Lv 28, Wailmer Lv 28.
+   - Reward: ¥1,120 prize money.
