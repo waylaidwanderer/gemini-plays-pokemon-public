@@ -35,3 +35,4 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 - Interviewers Gabby & Ty: Located at (33..34, 8) facing west. Requires manual interaction ('A') to initiate 2-on-2 Double Battle.
   - Team: Magnemite Lv 27, Loudred Lv 27. [DEFEATED - Turn 8398] Prize: ¥2,592.
 - Grassy Plateau & Route 119 Trail: Trail wraps east and north around col 36 leading toward Route 119.
+- Fisherman Barny: (39, 15) - [DEFEATED - Turn 8408]. Used Tentacool Lv 25, Carvanha Lv 25. Prize: ¥1000.
