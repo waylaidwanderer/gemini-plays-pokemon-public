@@ -18,3 +18,10 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
 2. [ ] Follow trail east and find Steven Stone on the bridge.
 3. [ ] Obtain Devon Scope from Steven after clearing the invisible Kecleon.
 4. [ ] Return to Fortree Gym to unmask and clear the Gym Kecleon!
+
+## Verified Topography & Navigation (Turns 9152-9156)
+- Route 120 West Entrance: Boundary connects to Fortree City at (0, 7..9).
+- Northern Sand Terrace: Spans rows 4..6 across cols 6..25, running parallel to the northern pine border.
+- Southern Water & Stairs: Lake occupies southern area; white stone stairs at (21, 9..10) lead down to water edge.
+- Path Routing: Row 5 along the sand terrace provides clear, grass-free passage bypassing the giant tall grass at (cols 21+, rows 6..8).
+- Trainer (Lass/Bird Keeper): Stationed on sand terrace at (15, 5) facing South.
