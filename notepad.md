@@ -532,7 +532,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 2. Magma Admin Tabitha:
    - Location: Northern caldera pass at (11, 11) engaged from (10, 11).
    - Pre-battle quote: "Hehehe! So you've come all the way here! But you're too late! I've already delivered the METEORITE from METEOR FALLS to the BOSS!"
-   - Team: 3 Pokémon (Numel ♂ Lv 18 - OHKO'd by Leaf Blade for 339 EXP; etc.).
+   - Team: 3 Pokémon (Numel ♂ Lv 18 - OHKO'd by Leaf Blade for 339 EXP; Numel ♂ Lv 22 - active; etc.).
 
 <hr>
 
