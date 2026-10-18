@@ -49,7 +49,7 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
     2. Player lands at (2, 19). DO NOT press Right (it rotates the gate back!).
     3. Walk South along column 2: Down x 3 to (2, 22) past the arm tip.
     4. Walk East: Right x 2 to (4, 22).
-    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)!
+    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)! [EXECUTED - Turn 9257 reached (4, 21)]
   - Trainer 2: Stationed at (5, 17) facing West into (4, 17).
 
 ## Trainers in Gym
