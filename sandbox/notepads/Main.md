@@ -98,6 +98,8 @@
 - File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
 - Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
 
+- Giant Tall Grass Mechanics: In Gen 3 (RSE), giant tall grass cannot be entered while mounted on a Bicycle (the bike is completely blocked by the grass). The player must dismount (press Select) onto foot to traverse giant tall grass.
+
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
 2. [x] Visit Rydel's Cycles, obtain Mach Bike, and register to Select button.
