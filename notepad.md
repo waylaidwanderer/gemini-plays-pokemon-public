@@ -397,14 +397,17 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Sage HP: 122/122.
 - Verified Mechanics: Steam Pit 1 at (10, 18) is a two-way warp connecting 1F Entrance Room to B1F Room 2. Defeated trainers remain standing on their trap pits (blocking entry). Col 14 in Room 2 is a dead-end corridor.
 ## Gym Navigation Route (Verified)
-1. Entrance (1F): Enter Gym at (13, 18). Walk Left 3 steps to Steam Pit 1 at (10, 18).
-2. Steam Pit 1 drops to B1F Room 2 at (10, 18).
-3. In B1F Room 2:
-   - Kindler Jeff at (13, 17) is a defeated decoy trainer.
-   - Walk row 18 under Jeff: (12, 18) -> (13, 18) -> (14, 18).
-   - Walk Up col 14 to row 11: (14, 11).
-   - Walk East at row 11 to col 15: (15, 11).
-   - Walk South down col 15 into the Eastern Corridor to reach the true steam pit!
+1. Entrance (1F East Wing):
+   - From entrance mat (13, 18), walk Left to (9, 16) and Up to (9, 14).
+   - Row 14 is the open crossway over the vertical partition into the 1F West Wing!
+2. 1F West Wing:
+   - Entering row 14 from (9, 14) heading West leads directly into the West Wing.
+   - West Wing contains multiple steam pits at row 14 (cols 6, 4, 3) and upper/lower levels.
+   - Steam Pit at (6, 14) is directly 3 steps West of (9, 14)!
+3. B1F Room 2 (Lower Level):
+   - Entered from Steam Pit 1 at (10, 18).
+   - Contains Kindler Jeff (defeated!) at (13, 17) (decoy trap pit).
+   - (10, 18) in B1F returns to (10, 18) on 1F.
 
 <hr>
 
