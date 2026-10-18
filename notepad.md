@@ -321,6 +321,7 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Trainer 2: Stationed at (5, 17) facing West into (4, 17).
 
 ## Trainers in Gym
+- Trainer (Undefeated): Bird Keeper at (9, 8) facing South directly above Edwardo.
 - Trainer 1: Bird Keeper at (4, 23) facing East (bypassed).
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
   - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
@@ -357,14 +358,13 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
    - Walk North up col 9 via (9, 13), (9, 12), (9, 11) to (9, 10).
 5. Defeat Trainers:
    - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
-6. Upper Approach to Winona (Master Verified Route):
-   - From Double Battle at (9, 10), walk west: Left x 2 to (7, 10), North to (7, 9), West to (5, 9).
-   - Column 5 is a direct vertical corridor from (5, 9) all the way up to (5, 1).
-   - Walk North up Column 5 to (5, 4), step Left to (4, 4), and push North into (4, 3) to clear Column 4.
-   - Note: Decorative pillar wall at (4, 0) and (3, 1) is impassable (not stairs).
-   - Turnstile Puzzle Solution: From (5, 2), push Down into (5, 3) against the horizontal arm. This rotates the gate counter-clockwise, swinging the vertical arm down into column 6 (rows 4..5) and completely clearing (6, 1) on row 1!
-   - Winona Arena Corridor: Walk Up from (5, 3) through (5, 2) to (5, 1), then walk East along the unobstructed row 1 highway: (6, 1) -> (7, 1) -> (8, 1) -> (9, 1) -> (10, 1) -> (11, 1) -> (12, 1) -> (13, 1).
-   - At (13, 1), step North into the open archway at columns 13-14 leading directly into Gym Leader Winona's arena!
+6. Upper Approach to Winona (Verified Topology):
+   - Row 1 Eastward Blockade: programmatic collision check proves (7, 1), (7, 2), and (7, 3) are solid green pillars; row 1 is impassable eastward.
+   - True Progression Highway: ROW 4 is the verified open floor corridor running East across cols 7, 8, 9, 10, 11, 12, 13 to Winona's arena platform!
+   - Entrance to Row 4 is at (6, 4) or via Column 7 at (7, 4).
+   - Turnstile A (at 6, 3): Horizontal arm at row 3 (cols 4..5), vertical arm at col 6.
+   - Turnstile B (at 6, 7): Horizontal arm at row 7 (col 5), vertical arm at col 6 (row 8).
+   - Solution to traverse Row 4: Reach Row 4 on the east side and walk straight East to the arena archway at col 13!
 
 
 <hr>
