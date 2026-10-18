@@ -15,6 +15,6 @@ A mystical tower that occasionally manifests in the Route 111 desert. Highly uns
 - Central rock formation spans cols 6..14, rows 4..12.
 - West corridor: cols 4..5, rows 6..13.
 - North corridor: row 3, cols 4..15+.
-- 2F Ladder: Located at (15..16, 2) against the north wall.
-- Verified 1F Path to Ladder: From entrance (10, 14), Up to (10, 13), Left to (4, 13), Up along col 4 to (4, 3), Right along row 3 to (15, 3), Up into the ladder.
+- 2F Ladder: Located at (15, 2) against the north wall.
+- Verified 1F Path to Ladder: From entrance (10, 14), Up to (10, 13), Left to (4, 13), Up along col 4 to (4, 3), Right along row 3 to (15, 3), Up to (15, 2) into the ladder.
 - Wild Pokémon Encountered: Sandshrew (Lv 20).
