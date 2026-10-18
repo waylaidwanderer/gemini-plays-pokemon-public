@@ -2340,8 +2340,10 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Bird Keeper Phil: (8, 63) facing South - [DEFEATED - Turn 8737]. Team: Swellow Lv 26. Prize: ¥832.
 - Item Ball: (3, 56) - [OBTAINED] Hyper Potion! Located in northwest alcove by puddle and mud slope.
 - Western Cliff Mud Slope: Located at cols 5..6, rows 53..54 leading to an upper ledge. Main progression route continues east toward the central river and Weather Institute.
-- Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.- Acro Bike Rails: Located at (14, 54) along the cliff ledge above the giant grass.
-- Kindler Dayton & Ninja Boy Takashi (Double Battle): (18..19, 52) at top of white stairs - [DEFEATED - Turn 8821]. Dayton used Slugma Lv 25, Numel Lv 25; Takashi used Ninjask Lv 25, Koffing Lv 25. Prize: ¥1,100.- Upper White Staircase: Located at cols 22..23, rows 47..48 leading up to the next tier of the rocky plateau.
+- Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.
+- Acro Bike Rails: Located at (14, 54) along the cliff ledge above the giant grass.
+- Kindler Dayton & Ninja Boy Takashi (Double Battle): (18..19, 52) at top of white stairs - [DEFEATED - Turn 8821]. Dayton used Slugma Lv 25, Numel Lv 25; Takashi used Ninjask Lv 25, Koffing Lv 25. Prize: ¥1,100.
+- Upper White Staircase: Located at cols 22..23, rows 47..48 leading up to the next tier of the rocky plateau.
 
 - Upper River Terrace: Located at rows 44..47, cols 17..22 overlooking the river to the east.
 - Weather Institute Grounds: Located across the river to the northeast. Item Ball visible on the opposite bank around row 40.
@@ -2630,13 +2632,16 @@ A large meteorological research institute located in northern Route 119 beside t
 - 2F Admin Office: Site of confrontation with Team Aqua Admin Shelly.
 - Reward: Castform (Lv 25) holding Mystic Water gifted by head scientist after defeating Team Aqua.
 
+## Trainers & NPCs
+- Team Aqua Grunt (1F): Located at (8, 5) facing West in the main research room.
+
 ## Progression Checklist - Weather Institute
 1. [x] Arrive at Weather Institute and enter front doors.
 2. [x] Heal and prepare party (restore Sage HP, rotate lead).
 3. [ ] Defeat Team Aqua Grunts on 1F.
 4. [ ] Ascend to 2F and defeat Team Aqua Grunts and Admin Shelly.
 5. [ ] Speak to Head Scientist, receive Castform holding Mystic Water.
-6. [ ] Rest in 2F recovery bed to restore entire party to full health.
+6. [x] Rest in 1F recovery bed to restore entire party to full health (verified and used on turn 8847!).
 7. [ ] Exit building and cross the now-unblocked bridge toward Fortree City.
 
 <hr>
