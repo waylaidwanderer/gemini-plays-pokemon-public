@@ -539,8 +539,8 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 
 3. Team Magma Leader Maxie:
    - Location: Volcanic machine at (13, 6).
-   - Pre-battle quote: "The power contained in the METEORITE... By its power, the volcano's activity will increase..."
-   - Team: Mightyena ♂ Lv 24, Zubat ♂ Lv 24, Camerupt ♂ Lv 25.
+   - Pre-battle quote: "The power contained in the METEORITE... By amplifying its power with this machine, MT. CHIMNEY's volcanic activity will instantly intensify... I'll teach you the consequences of meddling in our grand design!"
+   - Team: 3 Pokémon (Mightyena ♂ Lv 24 - active; Zubat ♂ Lv 24; Camerupt ♂ Lv 25).
 
 <hr>
 
