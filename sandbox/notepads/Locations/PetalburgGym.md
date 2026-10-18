@@ -52,6 +52,18 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
   - Left Door: STRENGTH ROOM
   - Right Door: ONE-HIT KO ROOM
 
+
+## Tier 3: Strength Room (Cleared!)
+- Coordinates: Spawn at (7, 20). Tatami mat spans cols 2..6, rows 15..19.
+- Cooltrainer Jody: [DEFEATED]
+  - Location: (4, 16) facing South.
+  - Team: Zangoose ♀ Lv 26 (Normal type).
+  - Used: Hyper Potion. Swords Dance (+2 Attack).
+  - Defeated by Sage's Leaf Blade for 918 EXP.
+  - Reward: ¥1,248 prize money. Total money: ¥55,816. Sage HP: 97/127.
+- Exits:
+  - North Door: GYM LEADER NORMAN'S ROOM (Unlocked!)
+
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.

@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 42, Male), Nickname: SAGE
-- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 42 (OK, 127/127 HP, 14/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥52,072.
+- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 42 (OK, 127/127 HP, 14/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥55,816.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 42) [Held Item: None (consumed)] - Evolved on turn 5632! Level 42 on turn 7862! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 127/127. Max HP: 127. Stats: Atk 89, Def 67, Sp.Atk 102, Sp.Def 91, Speed 120. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -30,7 +30,7 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥52,072
+- Money: ¥55,816
 - Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -136,5 +136,5 @@
 3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
 5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
-6. [ ] Challenge Petalburg Gym trainers (Room Doors: Speed, Accuracy, Defense, Recovery, Strength, One-Hit KO).
+6. [x] Challenge Petalburg Gym trainers (Speed, Defense, Strength cleared!).
 7. [ ] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!
