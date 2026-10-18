@@ -5,7 +5,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Connection Points
 - South Exit: Front entrance doors at (9, 12) lead outside to Route 119 (rows 30..35).
-- 2F Stairs: Located in the northeast corner of 1F at cols 17..18, rows 1..2.
+- 2F Stairs: Located in the northeast corner of 1F at cols 15..16, row 1. Entered from (16, 2) facing North.
 
 ## Key Landmarks & Features
 - 1F Lobby: Entrance mat at (9, 12). Partition wall with archway at cols 5..6, row 8 leading into main research floor.
