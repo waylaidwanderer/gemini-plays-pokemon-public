@@ -303,7 +303,7 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 - Acro Bike rail chutes along columns 13..14.
 - Ledge jump at row 7 down to row 8.
 - Ledge jump at row 10 down to row 11 terrace.
-- Row 12 Terrace: Testing paths and ledge drops to descend to the lower terrace.
+- Row 12/13 Descent: The central Acro rail chute at column 14 is walkable on foot! Stepping south from (14, 12) steps onto the rail at (14, 13), allowing direct southward descent through the chute to the lower terrace.
 
 ## Trainers
 1. Hiker Eric: [DEFEATED]
