@@ -32,9 +32,8 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Western Corridor: 3-4 steam pits along cols 3..5 behind west divider pillars.
   - North Ledge: Row 15 is an elevated ledge blocking walking directly north.
 ### Trainers
-1. Kindler Jeff: [DEFEATED]
+1. Kindler Jeff: [IN BATTLE]
    - Location: Submerged in Eastern Lower Steam Pit at (13, 17) in Room 2.
    - Pre-battle quote: "See how the flames blaze wildly? They flare in anticipation of my win!"
-   - Team: Slugma ♂ Lv 22 (defeated by Sage's Pursuit).
-   - EXP gained: 367 EXP.
-   - Outcome: Complete victory! Sage HP 122/122.
+   - Team: Slugma #1 ♂ Lv 22 (defeated by Sage's Pursuit), Slugma #2 Lv 22.
+   - Sage HP: 122/122.
