@@ -16,7 +16,7 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 
 ## Progression Checklist - Route 118
 1. [x] Enter Route 118 from Mauville City.
-2. [ ] Defeat western shore trainers.
+2. [x] Defeat western shore trainers (Deandre, Rose, Dalton defeated; Aroma Lady remaining).
 3. [ ] Speak to Good Rod Fisherman to obtain Good Rod.
 4. [ ] Dismount Mach Bike (press Select) and surf across the river with Lombre (Lilz).
 5. [ ] Meet Steven Stone on the eastern shore.

@@ -2254,7 +2254,7 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 
 ## Progression Checklist - Route 118
 1. [x] Enter Route 118 from Mauville City.
-2. [ ] Defeat western shore trainers.
+2. [x] Defeat western shore trainers (Deandre, Rose, Dalton defeated; Aroma Lady remaining).
 3. [ ] Speak to Good Rod Fisherman to obtain Good Rod.
 4. [ ] Dismount Mach Bike (press Select) and surf across the river with Lombre (Lilz).
 5. [ ] Meet Steven Stone on the eastern shore.
@@ -2536,10 +2536,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 43, Male), Nickname: SAGE
-- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 43 (OK, 130/130 HP, Leaf Blade 15/15), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥59,156.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 118, meet Steven, cross Route 119 to Fortree City! Party: Sage Lv 43 (PAR, 117/130 HP, Leaf Blade 8/15, Quick Attack 25/30), Lilz Lv 19 (OK, 57/57, Surf 15/15), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥60,420.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 43) [Held Item: None (consumed)] - Evolved on turn 5632! Level 43 on turn 8194! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 130/130. Max HP: 130. Stats: Atk 92, Def 70, Sp.Atk 104, Sp.Def 93, Speed 124. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 43) [Held Item: None (consumed)] - Evolved on turn 5632! Level 43 on turn 8194! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (25/30). HP: 117/130. Max HP: 130. Stats: Atk 92, Def 70, Sp.Atk 104, Sp.Def 93, Speed 124. Status: PAR. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -2563,8 +2563,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥59,156
-- Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- Money: ¥60,420
+- Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -2676,7 +2676,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 2. [x] Teach HM03 Surf to Lombre (Lilz).
 3. [x] Heal party at Petalburg City Pokémon Center.
 4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
-5. [ ] Travel east from Mauville City onto Route 118.
+5. [x] Travel east from Mauville City onto Route 118.
 6. [ ] Surf across Route 118 river to meet Steven Stone.
 7. [ ] Traverse Route 119 north to Weather Institute.
 8. [ ] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
