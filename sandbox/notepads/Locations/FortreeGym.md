@@ -62,6 +62,8 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Edwardo: Doduo Lv 29 (fainted), Pelipper Lv 29 (fainted).
   - Reward: ¥1,392 prize money.
 
+- Trainer (Undefeated): Bird Keeper Darius stationed on upper-left platform near (2, 7) facing East/South.
+
 ## Upper Turnstile Puzzle (Turnstiles 4 & 5) - Verified Solution (Turn 9498)
 1. Turnstile 4 is at (9, 15) and Turnstile 5 is at (9, 11).
 2. From (8, 12), step Left to (7, 12), Down to (7, 14), Down to (7, 15) pushing Turnstile 4's West arm down (rotates clockwise).
@@ -87,12 +89,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
    - Walk North up col 9 via (9, 13), (9, 12), (9, 11) to (9, 10).
 5. Defeat Trainers:
    - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
-6. Upper Approach to Winona (Final Puzzle Solution):
-   - From Double Battle at (9, 10), walk west: Left x 2 to (7, 10), North to (7, 9) and (7, 8).
-   - Turnstile 6 (hub at 6, 7): Has arms at West (5, 7), South (6, 8), and East (7, 7). Pushing Up from (7, 8) lands on (7, 7) facing northern pillars at row 6.
-   - The correct bypass to Column 4: From (7, 7) or (7, 8), step Down to (7, 9), then walk West across row 9 through (6, 9), (5, 9) to (4, 9).
-   - Column 4 is an open vertical corridor from row 9 all the way up to row 2!
-   - Walk North up Column 4: (4, 9) -> (4, 8) -> (4, 7) -> (4, 6) -> (4, 5) -> (4, 4) -> (4, 3) -> (4, 2).
-   - Top Turnstile (hub at 6, 1): Has West arm across row 1 (cols 3..6) and South arm down col 6 (rows 1..3) blocking the eastern platform corridor at (6, 2).
-   - At (4, 2), push North (Up) into (4, 1) against the West arm to rotate the turnstile clockwise. The South arm swings west into row 1, clearing col 6 at row 2!
-   - From (4, 2), walk East along row 2: Right across cols 5, 6, 7, 8, 9, 10, 11, 12 straight onto Gym Leader Winona's platform!
+6. Upper Approach to Winona (Master Verified Route):
+   - From Double Battle at (9, 10), walk west: Left x 2 to (7, 10), North to (7, 9), West to (5, 9).
+   - Column 5 is a direct vertical corridor from (5, 9) all the way up to (5, 1).
+   - Walk North up Column 5: (5, 9) -> (5, 8) -> (5, 7) -> (5, 6) -> (5, 5) -> (5, 4).
+   - Turnstile at (6, 3): West arm extends to (5, 3). From (5, 4), push North (Up) through (5, 3) to (5, 2) and (5, 1).
+   - Winona's Platform Entrance: The stairs ascending to Gym Leader Winona are located at the top-left in columns 3–4 (rows 0–1).
+   - From (5, 1), step Left to (4, 1), then Left into (3, 1) and walk North up the stairs onto Gym Leader Winona's platform!
