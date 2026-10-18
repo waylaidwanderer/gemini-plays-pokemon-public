@@ -235,5 +235,5 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Lead Pokémon: Numel ♀ Lv 24 (Fire/Ground) - Defeated by Sage's Leaf Blade (451 EXP).
 - Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) - Defeated by Sage's critical Leaf Blade (975 EXP).
 - Third Pokémon: Slugma Lv 24 (Fire) - Used Light Screen; healed by Flannery's 2nd Hyper Potion; defeated by Sage's Quick Attack (400 EXP).
-- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace! At ~45% HP; Foe's Light Screen wore off on Turn 7762!
+- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace! At ~45% HP; used Body Slam on Turn 7764 (dealt 20 dmg to Sage, inflicted PAR).
 - Battle Mechanics Verified: Flannery has used BOTH of her Hyper Potions (1 on Camerupt, 1 on Slugma); she has 0 potions remaining! Camerupt used Attract; infatuation cures automatically when the infatuating Pokémon faints. Emerald move memory preserves last selected move in battle.
