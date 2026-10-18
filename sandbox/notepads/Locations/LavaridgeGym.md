@@ -15,3 +15,10 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 4. [ ] Navigate steam pit teleport puzzle.
 5. [ ] Defeat all Gym trainers.
 6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
+## Entrance Room (1F)
+- Entrance / Exit mat: (12..13, 18).
+- Gym Guide: Located at (12, 16) facing North/East.
+- Gym Statues: Located at (10, 14) and (15, 14).
+- Steam Pit 1 (Entrance West): Located at (10, 18) west of entrance mat.
+- Steam Pit 2 (North Hall): Located at (11..12, 11) north of statues.
+- Upper Platform / Doorway: Located north at rows 7..9.
