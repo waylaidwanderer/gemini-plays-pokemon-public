@@ -2,11 +2,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 41, Male), Nickname: SAGE
-- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH UNLOCKED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Next destination: Heal at Lavaridge Pokémon Center, then challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 42 (OK, 9/127 HP, 8/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥52,072.
+- Starter: Sceptile (Level 42, Male), Nickname: SAGE
+- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH UNLOCKED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 42 (OK, 127/127 HP, 15/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥52,072.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 42) [Held Item: None (consumed)] - Evolved on turn 5632! Level 42 on turn 7862! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 9/127. Max HP: 127. Stats: Atk 89, Def 67, Sp.Atk 102, Sp.Def 91, Speed 120. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 42) [Held Item: None (consumed)] - Evolved on turn 5632! Level 42 on turn 7862! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 127/127. Max HP: 127. Stats: Atk 89, Def 67, Sp.Atk 102, Sp.Def 91, Speed 120. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -131,7 +131,7 @@
 
 ## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Active)
 1. [x] Receive Go-Goggles from Brendan outside Lavaridge Gym.
-2. [ ] Heal party at Lavaridge Pokémon Center (Sage at 9 HP!).
+2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
 3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
 5. [ ] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
