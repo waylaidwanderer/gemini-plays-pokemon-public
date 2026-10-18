@@ -73,3 +73,6 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Cut Tree (Northern Highway): Located at (28, 14) along the northern path toward Fortree City.
 - Berry Patch (Northern Route 119): Located at cols 24..27, rows 14..15 with 4 berry trees in soft loamy soil west of the cut tree.
 - Guitarist Fabian & Ninja Boy Yasu (Double Battle): (28..29, 14..15) on northern highway - [DEFEATED - Turn 9050]. Fabian used Manectric Lv 26; Yasu used Ninjask Lv 26. Prize: ¥1,144.
+- Signpost (Northern Plateau): Located at (28, 9) beside the dirt road.
+- Berry Patch (Northwest Plateau): Soft soil patch with 3 berry trees located at cols 25..27, rows 4..5.
+- Disguised Ninja Boy: Located at (29, 7) facing South.
