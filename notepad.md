@@ -2838,15 +2838,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 47 (OK, 108/148), Lilz Lv 23 (FNT, 0/67), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 28 (OK, ~20/95). Total money: ¥79,200.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 47 (OK, 148/148), Lilz Lv 23 (OK, 67/67), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 28 (OK, 95/95). Total money: ¥79,200.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (2/15), Quick Attack (25/30). HP: 108/148. Max HP: 148. Stats: Atk 102, Def 76, Sp.Atk 114, Sp.Def 102, Speed 137. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (13/15), Flash (20/20). HP: 0/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: FNT.
+1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 148/148. Max HP: 148. Stats: Atk 102, Def 76, Sp.Atk 114, Sp.Def 102, Speed 137. Status: OK. Nature: Lonely. Ability: Overgrow.
+2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 67/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 14) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 14 on turn 8826! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
-6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: ~20/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Moves: Whirlwind (20/20), Stomp (16/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
+6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Moves: Whirlwind (20/20), Stomp (20/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - enables HM03 Surf outside battle, Defense boost, obedience up to Lv 60).
