@@ -113,20 +113,24 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Hopping South over row 7 drops down into the lower level where Kindler Axle stands at (3, 10).
   - Steam Pits:
     - (0, 6): Arrival pit (warps back to Room 6 (0, 6)).
-    - (3, 6): Steam pit on row 6 walkway.
-    - (5, 6): [TESTED] Active steam pit! Launches player in a steam geyser.
+    - (3, 6): Walkway tile.
+    - (4, 6): Walkway tile.
+    - (5, 6): [TESTED] Active steam pit! Warps to Room 7 (B1F East Wing) at (5, 6).
     - Additional pits visible on northern tier (rows 2-4).
+
+### Room 5 Lower Floor (rows 7-18)
 - Access: Arrived via steam pit warp from Room 4 (1, 15), landing at (2, 14).
 - Layout & Collision (Fully Verified):
   - Adjacent Trainers: Kindler Cole stands at (3, 14) (East of player), Cooltrainer Gerald stands at (2, 15) (South of player). Both defeated.
+  - Kindler Axle defeated at (3, 10), stands blocking his steam pit.
   - South/East blocked by Gerald and Cole.
   - West: Steam pit at (1, 14) (return pit).
-  - North: Column 2 (rows 10-13) is a wide-open corridor heading straight north! No ledges blocking northbound movement.
+  - North: Column 2 (rows 10-13) is a wide-open corridor heading straight north to row 10!
   - Visible Steam Pits:
     - (1, 14): Arrival steam pit directly west of (2, 14).
     - (1, 18): Bottom-left steam pit.
     - (0, 10): [TESTED] Northwest steam pit (warps to Room 6 at (0, 10)).
-    - (3, 10): Northeast steam pit (north of Cole).
+    - (3, 10): [BLOCKED] Ambush pit where Kindler Axle stands.
     - (5, 14): Eastern corridor pit beyond pillar.
     - (5, 10): Northeast corridor pit beyond pillar.
 
@@ -148,3 +152,17 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (0, 6): [TESTED] Northwest pit. Warps to Room 5 Upper Terrace at (0, 6), landing at (1, 6)!
     - (2, 6): Northeast pit.
     - (1, 14): South pit (below row 12 ledge).
+
+## Room 7 (B1F East Wing Network)
+- Access: Warped from Room 5 Upper Terrace via steam pit at (5, 6), landing at (5, 6) facing South.
+- Layout:
+  - Vertical white corridors along columns 5 and 7, connected at north by row 5 horizontal walkway.
+  - Walkable floor along column 6 between columns 5 and 7.
+  - Divided into bays:
+    - Western bay (cols 0-4) with steam pits at (1, 4), (3, 4), and (1, 9).
+    - Central bay (col 6) where player is currently located.
+    - Eastern bay (col 8) with steam pit at (8, 9).
+  - Steam Pits:
+    - (8, 9): Eastern bay steam pit.
+    - (1, 4), (3, 4), (1, 9): Western bay steam pits.
+    - Upper northern terrace pits at rows 1-3.
