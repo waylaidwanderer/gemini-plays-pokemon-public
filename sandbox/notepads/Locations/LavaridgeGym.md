@@ -89,7 +89,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Verified Steam Pits:
   - (4, 18): Ambush pit (Kindler Jace - defeated, stands at 4, 18).
   - (4, 16): Ambush pit (Hiker Eli - defeated, stands at 4, 16).
-  - (4, 13) / (5, 13): Central-west pit (warps to 1F at (6, 14)).
+  - (5, 14): Central pit (warps to 1F at (6, 14), landing adjacent to entrance foyer corridor).
   - (0, 17): Southwest pit (accessible from (1, 17) via row 17).
   - (2, 13): Northwest pit.
 
