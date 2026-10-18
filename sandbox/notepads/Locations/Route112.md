@@ -80,3 +80,8 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
 - Western Signpost: Located at (4, 49), read from (4, 50) facing North. Text: "ROUTE 112 / ⬅ LAVARIDGE TOWN".
 - Jagged Pass Exit: Emerges at (6, 47), connects south down an alley between trees to the sandy highway at row 50.
 - West Connection: Sandy road along row 50 leads directly west from col 4 into Lavaridge Town!
+## Lavaridge Town to Route 112 Eastbound Ledges (Verified Turn 7948)
+- East of Lavaridge Town border (cols 0..8, row 50), there is a series of 5 vertical one-way ledges facing EAST across rows 49..51 at cols 10, 12, 14, 16, and 17.
+- Stepping East simply hops over each ledge sequentially (landing at cols 11, 13, 15, and 18).
+- Hopping over the final ledge at col 17 deposits the player at (18, 50) directly onto the main sandy highway of Route 112!
+- From (18, 50), the sandy road extends straight east along rows 50..51 all the way to Route 111 at (35, 50).
