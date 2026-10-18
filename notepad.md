@@ -1240,6 +1240,7 @@ A waterway and coastal route located north of Oldale Town. The route is divided 
   - Black Belt Rhett: (67, 3) in upper terrace facing South - [DEFEATED]. Used Makuhita Lv 15. Awarded ¥480.
   - Twins Amy & Liv: (64..65, 11..12) - [DEFEATED]. Double Battle pair on southern dirt road. Used Plusle ♂ Lv 15, Minun ♂ Lv 15. Awarded ¥360. Registered in Match Call.
   - Pokéfan Miguel: (60, 13) - [DEFEATED]. Trainer on western dirt road facing East. Used Skitty ♀ Lv 15. Awarded ¥1200. Registered in Match Call.
+  - Swimmer ♀ Isabelle & Swimmer ♂ Pete: (36, 7..11) - [DEFEATED]. Double Battle pair in the water channel. Isabelle used Marill Lv 15, Pete used Tentacool Lv 15. Awarded prize money.
   - Fisherman Andrew: (50, 9) facing South - [DEFEATED]. Team: Magikarp Lv 5, Tentacool Lv 10, Magikarp Lv 15. Awarded ¥600.
   - Fisherman (Waterfront NPC): (48, 12) facing West towards the sea.
 
