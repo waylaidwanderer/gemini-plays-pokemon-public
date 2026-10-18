@@ -313,7 +313,7 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
     2. Player lands at (2, 19). DO NOT press Right (it rotates the gate back!).
     3. Walk South along column 2: Down x 3 to (2, 22) past the arm tip.
     4. Walk East: Right x 2 to (4, 22).
-    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)! [EXECUTED - Turn 9257 reached (4, 21)]
+    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)!
   - Trainer 2: Stationed at (5, 17) facing West into (4, 17).
 
 ## Trainers in Gym
@@ -321,6 +321,15 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
   - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
   - Ashley: Swablu Lv 27 x2 (both fainted).
+## Pre-Boss Recovery Strategy
+- Before challenging Gym Leader Winona:
+  - Sage has 2/15 PP for Leaf Blade.
+  - Lilz is fainted (0/67 HP).
+  - Guava is at ~20/95 HP.
+  - Options:
+    1. Quick trip to Fortree Pokémon Center to fully heal and restore all PP (resets turnstiles, but all trainers remain defeated).
+    2. Use Bag items: Elixir restores 10 PP to all moves on Sage; Revive / Potions on Lilz and Guava.
+
 
 <hr>
 
@@ -2819,7 +2828,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 120/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥79,200.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 47 (OK, 108/148), Lilz Lv 23 (FNT, 0/67), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 28 (OK, ~20/95). Total money: ¥79,200.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (2/15), Quick Attack (25/30). HP: 108/148. Max HP: 148. Stats: Atk 102, Def 76, Sp.Atk 114, Sp.Def 102, Speed 137. Status: OK. Nature: Lonely. Ability: Overgrow.

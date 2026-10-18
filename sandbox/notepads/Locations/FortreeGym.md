@@ -49,7 +49,7 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
     2. Player lands at (2, 19). DO NOT press Right (it rotates the gate back!).
     3. Walk South along column 2: Down x 3 to (2, 22) past the arm tip.
     4. Walk East: Right x 2 to (4, 22).
-    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)! [EXECUTED - Turn 9257 reached (4, 21)]
+    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)!
   - Trainer 2: Stationed at (5, 17) facing West into (4, 17).
 
 ## Trainers in Gym
@@ -57,3 +57,11 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
   - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
   - Ashley: Swablu Lv 27 x2 (both fainted).
+## Pre-Boss Recovery Strategy
+- Before challenging Gym Leader Winona:
+  - Sage has 2/15 PP for Leaf Blade.
+  - Lilz is fainted (0/67 HP).
+  - Guava is at ~20/95 HP.
+  - Options:
+    1. Quick trip to Fortree Pokémon Center to fully heal and restore all PP (resets turnstiles, but all trainers remain defeated).
+    2. Use Bag items: Elixir restores 10 PP to all moves on Sage; Revive / Potions on Lilz and Guava.
