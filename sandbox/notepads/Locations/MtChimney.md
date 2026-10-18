@@ -31,7 +31,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 3. [x] Read summit signpost at (24, 37) ("↓ JAGGED PATH / LAVARIDGE TOWN AHEAD").
 4. [x] Ascend switchback stairs at (20, 24..25) and (25, 22..23) into the upper caldera.
 5. [x] Witness Team Magma vs Team Aqua battles across the caldera.
-6. [ ] Defeat Team Magma Grunts guarding the path.
+6. [x] Defeat Team Magma Grunts guarding the path (Double Battle won at 10, 16).
 7. [ ] Defeat Team Magma Admin Tabitha.
 8. [ ] Defeat Team Magma Leader Maxie.
 9. [ ] Reclaim the Meteorite from the machine.
@@ -43,3 +43,5 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Male Grunt quote: "We of TEAM MAGMA are working hard for everyone's sake. Like, if that thing's power made more land, there'd be more places to live. Everyone'd be happy!"
    - Female Grunt quote: "If there were more land, I'd be able to get a big house of my own! I'm going to build it on hardened lava!"
    - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
+   - Reward: ¥1,600 prize money.
+   - Outcome: Complete victory! Zubat and Numel defeated.
