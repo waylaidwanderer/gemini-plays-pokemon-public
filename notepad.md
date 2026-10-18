@@ -2017,7 +2017,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 39, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge)! Total money: ¥42,368. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Arrive in Lavaridge Town via Route 112, heal at Pokémon Center, and challenge Gym 4 (Leader Flannery - Heat Badge)! Total money: ¥42,368. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (4/15), Quick Attack (25/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
