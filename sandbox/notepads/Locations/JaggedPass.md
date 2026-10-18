@@ -31,7 +31,10 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
   - Open western dirt corridor (cols 8..12).
   - Volcanic mound at (15..17, 17..18).
 
-2. Picnicker Diana:
-   - Location: (16, 19) facing North.
+2. Team Magma Grunt:
+   - Location: (16, 19) facing North. Engaged player at (16, 20).
+   - Pre-battle quote: "Wah! What are you doing here? What am I doing in a place like this? What business is it of yours?"
+   - Team: 2 Pokémon (Poochyena sent out 1st).
+   - Note: Standing directly in front of the volcanic cliff face at (16, 18), hinting at the hidden Team Magma Hideout entrance!
 3. Camper Ethan:
    - Location: (9, 23).
