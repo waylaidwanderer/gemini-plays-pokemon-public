@@ -2827,7 +2827,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 14) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 14 on turn 8826! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
-6. GUAVA (Tropius ♀, Level 27) - Caught on Route 119 with Great Ball on turn 8460! Type: Grass/Flying. HP: 92/92. Max HP: 92. Moves: Whirlwind (20/20), Stomp (20/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
+6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: ~20/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Moves: Whirlwind (20/20), Stomp (16/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - enables HM03 Surf outside battle, Defense boost, obedience up to Lv 60).
