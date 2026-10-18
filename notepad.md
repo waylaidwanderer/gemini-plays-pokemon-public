@@ -466,7 +466,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 ## Room 5 (1F South-Central Bay)
 - Access: Arrived via steam pit warp from Room 4 (1, 15), landing at (2, 14).
 - Layout & Collision (Fully Verified):
-  - Current player position: (2, 14) facing East.
   - Adjacent Trainers: Kindler Cole stands at (3, 14) (East of player), Cooltrainer Gerald stands at (2, 15) (South of player). Both defeated.
   - South/East blocked by Gerald and Cole.
   - West: Steam pit at (1, 14) (return pit).
@@ -474,7 +473,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Visible Steam Pits:
     - (1, 14): Arrival steam pit directly west of (2, 14).
     - (1, 18): Bottom-left steam pit.
-    - (0, 10): Northwest steam pit (directly west of (1, 10)).
+    - (0, 10): [TESTED] Northwest steam pit (warps to Room 6 at (0, 10)).
     - (3, 10): Northeast steam pit (north of Cole).
     - (5, 14): Eastern corridor pit beyond pillar.
     - (5, 10): Northeast corridor pit beyond pillar.
@@ -487,6 +486,17 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Gym Leader Flannery is directly visible in the East Wing on her raised platform at (13..15, 8..10)!
   - Steam Pit 2 (Central): Located at (8, 9) directly north of (8, 10). Warps deeper into gym.
 - Steam Pit 1 at (10, 18): Entrance pit warping between 1F Entrance Foyer and lower B1F Room 2 (Kindler Jeff reset trap).
+## Room 6 (B1F Northwest / Upper Network)
+- Access: Warped from Room 5 via steam pit at (0, 10), landing at (0, 10) facing South.
+- Layout:
+  - Bounded west by outer gray border.
+  - Divided by vertical pillar with pink banners to the east.
+  - Horizontal blue ledge visible to the south across rows 12..13.
+  - Steam Pits:
+    - Visible to the north at the top of the corridor.
+    - Visible to the south beyond the ledge.
+    - Visible in adjacent eastern bay.
+
 
 <hr>
 
@@ -2197,7 +2207,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 40, Male), Nickname: SAGE
+- Starter: Sceptile (Level 41, Male), Nickname: SAGE
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Entered Lavaridge Gym! Party fully restored! Next: Navigate steam pit puzzle rooms, defeat gym trainers, and defeat Gym Leader Flannery for the Heat Badge! Total money: ¥47,304. Party: Sage Lv 41 (OK, 124/124), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
