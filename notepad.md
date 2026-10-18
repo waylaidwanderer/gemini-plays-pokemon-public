@@ -531,6 +531,11 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Room 6 Branching: Room 6 (B1F Northwest) has two upper pits: (0, 6) which loops back via Room 5 Upper Terrace, and (2, 6) which is unexplored and the prime candidate to reach Flannery.
 
 
+## B1F East Wing Routing (Verified Turn 7529)
+- Row 17 B1F Highway: Connects western wing (cols 0-4) directly to column 8 (eastern wing access) without needing vertical warps.
+- From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9) and the Flannery geyser.
+
+
 <hr>
 
 <h1><code>Locations/LavaridgeTown</code></h1>
