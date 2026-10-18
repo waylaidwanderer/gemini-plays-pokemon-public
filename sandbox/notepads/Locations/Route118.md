@@ -10,20 +10,20 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 
 ## Landmarks & Features
 - Western Shore: Grassy area with ledges, trainers, and sandy beach leading down to the water.
-- Good Rod Fisherman: A fisherman on the shore gives the Good Rod.
-- Steven Stone Encounter: Steven appears on the eastern shore after surfing across for the first time.
+- Eastern Shore: Landing beach, Good Rod Fisherman, Steven Stone encounter, and trail leading to Route 119.
 - River: Waterway requiring HM03 Surf.
 
 ## Progression Checklist - Route 118
 1. [x] Enter Route 118 from Mauville City.
-2. [x] Defeat western shore trainers (Deandre, Rose, Dalton defeated; Aroma Lady remaining).
-3. [ ] Speak to Good Rod Fisherman to obtain Good Rod.
-4. [ ] Dismount Mach Bike (press Select) and surf across the river with Lombre (Lilz).
-5. [ ] Meet Steven Stone on the eastern shore.
+2. [x] Defeat western shore trainers (Deandre, Rose, Dalton, Wade defeated; woman at 12, 11 is civilian).
+3. [ ] Surf across the river to the eastern shore with Lombre (Lilz).
+4. [ ] Meet Steven Stone on the eastern shore.
+5. [ ] Speak to Good Rod Fisherman on eastern shore to obtain Good Rod.
 6. [ ] Head north onto Route 119 towards Fortree City.
 
-## Trainers
+## Trainers & NPCs (Western Shore)
 - Youngster Deandre: (7, 7) - [DEFEATED]. Used Zigzagoon Lv 14, Aron Lv 14, Electrike Lv 14. Prize: ¥224.
 - Aroma Lady Rose: (7, 9) - [DEFEATED]. Used Roselia Lv 14, Shroomish Lv 14. Prize: ¥560. Registered in Match Call.
 - Guitarist Dalton: (17, 11) - [DEFEATED]. Used Magnemite Lv 15, Whismur Lv 15. Prize: ¥480. Registered in Match Call.
 - Fisherman Wade: (14, 14) - [DEFEATED]. Used Tentacool Lv 16. Prize: ¥640.
+- Beach Civilian: (12, 11) - Friendly woman NPC explaining how Surf allows crossing rivers and the sea.
