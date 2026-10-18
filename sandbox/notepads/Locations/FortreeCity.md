@@ -8,6 +8,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - East Exit: Route 120 (leading toward Ancient Tomb, Route 121, and Lilycove City).
 
 ## Key Landmarks & Buildings
+- Northeast Treehouse: Door at (32, 2) on elevated platform. Wingull delivery resident with Wingull.
 - Pokémon Center: Located on western avenue. Blue sliding front doors at (5, 6), approached via row 7 -> (5, 7) facing North. Interior: spawn at (7, 8), Nurse Joy counter at (7, 3), approached from (7, 4) facing North. Fully healed and checkpoint set on turn 9080!
 - Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
