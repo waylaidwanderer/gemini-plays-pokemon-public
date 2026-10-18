@@ -55,3 +55,4 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Parasol Lady Rachel: (8, 68) facing South - [DEFEATED - Turn 8726]. Team: Goldeen Lv 26. Prize: ¥1,040. Note: Appears as a red parasol dome and face submerged in giant grass.
 - Northern Terrace Corridor: Giant grass ends at row 67, opening onto a short grass corridor along cols 7..9 past a puddle at (10..11, 65..67). Bypassed Rachel via col 9.
 - Bird Keeper Phil: (8, 63) facing South - [DEFEATED - Turn 8737]. Team: Swellow Lv 26. Prize: ¥832.
+- Item Ball: (3, 56) - [OBTAINED] Hyper Potion! Located in northwest alcove by puddle and mud slope.

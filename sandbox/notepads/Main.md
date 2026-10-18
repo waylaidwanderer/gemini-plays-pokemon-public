@@ -24,6 +24,7 @@
 - Carbos x1 (found in rock at 20, 57 on Route 114)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x1 (found at 4, 96 on Route 119 western terrace)
+- Hyper Potion x1 (found at 3, 56 on Route 119 western terrace)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)

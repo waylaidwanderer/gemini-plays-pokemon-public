@@ -2338,6 +2338,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Parasol Lady Rachel: (8, 68) facing South - [DEFEATED - Turn 8726]. Team: Goldeen Lv 26. Prize: ¥1,040. Note: Appears as a red parasol dome and face submerged in giant grass.
 - Northern Terrace Corridor: Giant grass ends at row 67, opening onto a short grass corridor along cols 7..9 past a puddle at (10..11, 65..67). Bypassed Rachel via col 9.
 - Bird Keeper Phil: (8, 63) facing South - [DEFEATED - Turn 8737]. Team: Swellow Lv 26. Prize: ¥832.
+- Item Ball: (3, 56) - [OBTAINED] Hyper Potion! Located in northwest alcove by puddle and mud slope.
 
 <hr>
 
@@ -2631,6 +2632,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Carbos x1 (found in rock at 20, 57 on Route 114)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x1 (found at 4, 96 on Route 119 western terrace)
+- Hyper Potion x1 (found at 3, 56 on Route 119 western terrace)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
