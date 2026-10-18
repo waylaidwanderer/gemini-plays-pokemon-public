@@ -537,6 +537,12 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9) [Hypothesis: Unverified if eastern pits lead to Flannery].
 
 
+## 1F West Wing Topology (Verified Turn 7573)
+- Column 7 Wall: Completely separates West Wing (cols 0-6) from Column 8 / East Wing from row 8 down past row 17. Impassable on foot on 1F.
+- Row 15 Jump Ledge: Connects column 4 pillar to column 7 wall. Jumping south from (6, 14) drops down to the row 16 lower level; cannot be climbed northbound.
+- Upper Tier Access: The B1F steam geyser at (5, 14) deposits the player at (6, 14) directly ON the upper tier, allowing northbound movement along Column 6 toward row 10.
+
+
 <hr>
 
 <h1><code>Locations/LavaridgeTown</code></h1>
