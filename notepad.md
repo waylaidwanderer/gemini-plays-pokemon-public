@@ -2312,6 +2312,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Cyclist NPC: (17..22, 133) - Non-combat flavor NPC. Warns that the giant tall grass snares bike tires.
 ## Route Mechanics Verified
 - Giant Tall Grass Bicycle Collision: Giant tall grass is impassable while riding a Bicycle. The bike is completely blocked from entering giant tall grass tiles. The player must press Select to dismount onto foot before walking through giant tall grass.
+- Water-to-land interaction: In Gen 3 (RSE), interacting across the shoreline boundary from water to an NPC on land does not trigger dialogue or battle. The player must disembark onto land to interact with land NPCs.
 
 ## Wild Pokémon Discovered
 - Tropius: Caught GUAVA ♀ Lv 27 on turn 8460 with Great Ball.
@@ -2321,8 +2322,6 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Lower Giant Grass Field: Spans rows 113..132. Impassable on Bicycle.
 - Northwest Exit Corridor: An open grass lane runs diagonally through (14, 115) -> (17, 112) bypassing the tree line and emerging at the riverbank at (17, 111).
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
-
-- Water-to-land interaction: In Gen 3 (RSE), interacting across the shoreline boundary from water to an NPC on land does not trigger dialogue or battle. The player must disembark onto land to interact with land NPCs.
 
 <hr>
 
@@ -2691,6 +2690,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Pokémon Center Nurse Joy Healing: Opening text requires A presses to advance to the YES/NO prompt. Never press B near the prompt as B selects NO and cancels healing. Allow ~4.0s for the healing animation and jingle before pressing B to dismiss completion text.
 - File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
 - Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
+- Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
+- Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
@@ -2743,7 +2744,5 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [ ] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
-- Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
-- Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
 
 <hr>

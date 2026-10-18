@@ -99,6 +99,8 @@
 - Pokémon Center Nurse Joy Healing: Opening text requires A presses to advance to the YES/NO prompt. Never press B near the prompt as B selects NO and cancels healing. Allow ~4.0s for the healing animation and jingle before pressing B to dismiss completion text.
 - File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
 - Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
+- Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
+- Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
@@ -151,5 +153,3 @@
 8. [ ] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
-- Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
-- Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
