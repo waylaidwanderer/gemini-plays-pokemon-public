@@ -2261,7 +2261,7 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 6. [ ] Head north onto Route 119 towards Fortree City.
 
 ## Trainers
-- Camper: Standing at ~ (7, 7) near the Mauville entrance cliff.
+- Youngster Deandre: (7, 7) - [DEFEATED]. Used Zigzagoon Lv 14, Aron Lv 14, Electrike Lv 14. Prize: ¥224.
 
 <hr>
 
