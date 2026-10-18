@@ -240,3 +240,4 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Lilz fainted to Torkoal's Overheat on Turn 7778; Torkoal's Sp.Atk harshly fell (-2 stages).
 - Turn 7784: Cobalu selected Headbutt; Torkoal used Overheat.
 - Cobalu fainted to Torkoal's Overheat on Turn 7784.
+- Turn 7788: Cipher used Teleport (failed). Battle concluding into blackout full restore.
