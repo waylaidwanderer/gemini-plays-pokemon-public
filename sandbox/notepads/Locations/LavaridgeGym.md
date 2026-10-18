@@ -40,6 +40,24 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Pre-battle quote: "See how the flames blaze wildly? They flare in anticipation of my win!"
    - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
+
+2. Hiker Eli: [DEFEATED]
+   - Location: Submerged in steam pit at (4, 16) in B1F West Wing.
+   - Pre-battle quote: "As much as I love mountains, I especially love volcanoes."
+   - Defeat quote: "Well, it seems to me I lost without ever being in control."
+   - Team: Numel ♂ Lv 23 (OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥920 prize money. Total money: ¥43,992.
+   - Post-battle: Stands at (4, 16) permanently blocking his trap pit.
+
+## Room 3 (B1F West Wing Network)
+- Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
+- Verified Steam Pits:
+  - (4, 18): Southern pit.
+  - (4, 16): Ambush pit (Hiker Eli - defeated).
+  - (4, 13): Central-west pit between pillars.
+  - (1, 17): Southwest pit.
+  - (2, 13): Northwest pit.
+
 ## Gym Navigation & Mechanics (Verified)
 - 1F Central Highway (Major Breakthrough): Row 13 ledge ONLY blocks the central foyer (cols 11-15). Column 8 is an OPEN NORTHBOUND HIGHWAY running from row 16 past the left statue all the way to row 8!
 - Verified 1F Highway Path: From entrance mat (12..13, 18), walk Up 2 to row 16, Left 3 to col 8, and Up all the way along col 8 to (8, 10)!
