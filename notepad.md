@@ -2316,6 +2316,11 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Tropius: Caught GUAVA ♀ Lv 27 on turn 8460 with Great Ball.
 - Zigzagoon: Lv 25 encountered in lower giant grass.
 
+## Topography & Navigation
+- Lower Giant Grass Field: Spans rows 113..132. Impassable on Bicycle.
+- Northwest Exit Corridor: An open grass lane runs diagonally through (14, 115) -> (17, 112) bypassing the tree line and emerging at the riverbank at (17, 111).
+- River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
+
 
 <hr>
 
