@@ -50,10 +50,11 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
    - Note: Standing directly in front of the volcanic cliff face at (16, 18), confirming the secret Magma Hideout entrance!
 
 3. Camper Ethan:
-   - Location: (9, 23) on western side.
+   - Location: (17, 35) facing East near southern exit. Engaged player at (20, 35).
+   - Pre-battle quote: "JAGGED PASS is hard to walk on. It's a good place for training."
+   - Team: Zigzagoon ♂ Lv 20 (#1), Pokémon #2.
 4. Triathlete Julio (Cycling):
    - Location: (18, 25) facing West on sunken central terrace. Inaccessible from eastern terrace.
 5. Camper Autumn:
    - Location: (14, 25) facing East on sunken central terrace. Inaccessible from eastern terrace.
 - Southern Exit: Row 32 final jump ledge drops to row 33. Stepping south across rows 34..36 exits Jagged Pass onto Route 112 towards Lavaridge Town!
-6. Camper: Located at (17, 34) facing South near the exit.
