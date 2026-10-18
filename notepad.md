@@ -593,6 +593,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Lead Pokémon: Numel ♀ Lv 24 (Fire/Ground) - Defeated by Sage's Leaf Blade (451 EXP).
 - Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) - Defeated by Sage's critical Leaf Blade (975 EXP).
 - Third Pokémon: Slugma Lv 24 (Fire) - Active.
+- Battle Mechanics Verified: Flannery uses Hyper Potion on critical HP. Camerupt uses Attract; infatuation immobilizes 50% of turns without consuming PP, and cures automatically when the infatuating Pokémon faints. Emerald move memory preserves last selected move across turns in battle.
 
 <hr>
 
