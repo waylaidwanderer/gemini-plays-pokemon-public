@@ -318,9 +318,9 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 
 ## Trainers in Gym
 - Trainer 1: Bird Keeper at (4, 23) facing East (bypassed).
-- Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17).
-  - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27.
-  - Ashley: Swablu Lv 27.
+- Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
+  - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
+  - Ashley: Swablu Lv 27 x2 (both fainted).
 
 <hr>
 
