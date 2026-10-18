@@ -228,17 +228,20 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 A unique Hoenn city built among the treetops, where houses are suspended in giant trees connected by wooden ladders and rope bridges. Connected to Route 119 on the west and Route 120 on the east. Home to the Fortree Gym (Leader Winona - Flying-type specialist).
 
 ## Connection Points
-- West Exit: Route 119 (connects directly to the northern highway).
+- West Entrance: Route 119 boundary at (0, 6..7).
 - East Exit: Route 120 (leading toward Ancient Tomb, Route 121, and Lilycove City).
 
 ## Key Landmarks & Buildings
-- Pokémon Center: Red-roofed healing facility located at cols 43..48, rows 2..5. Blue sliding front doors at (44..45, 5), entered from row 6 facing North.
+- Pokémon Center: Located on western avenue. Blue sliding front doors at (4..5, 5), approached via row 7 -> (4..5, 6) facing North.
 - Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
 - Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
 
+- Southern Signpost: Located at (5, 9) south of the Pokémon Center.
+- Main Avenue: Runs east along row 7 and row 8.
+
 ## Progression Checklist - Fortree City
-1. [ ] Arrive in Fortree City and heal at Pokémon Center (set respawn checkpoint).
+1. [x] Arrive in Fortree City and enter Pokémon Center.
 2. [ ] Explore town landmarks, shops, and treehouses.
 3. [ ] Approach Fortree Gym and inspect invisible barrier.
 4. [ ] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope.
@@ -2695,7 +2698,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Guava Lv 27 (OK, 92/92 HP), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Sage Lv 45 (OK, 89/137 HP). Total money: ¥75,856.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Heal at Fortree Center, explore city, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Guava Lv 27 (OK, 92/92 HP), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Sage Lv 45 (OK, 89/137 HP). Total money: ¥75,856.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (11/15), Quick Attack (30/30). HP: 134/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -2846,6 +2849,7 @@ A large meteorological research institute located in northern Route 119 beside t
 7. [x] Traverse Route 119 north to Weather Institute.
 8. [x] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [x] Defeat Rival on Route 119 and obtain HM02 Fly.
-10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+10. [x] Arrive in Fortree City and enter Pokémon Center.
+11. [ ] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
 
 <hr>
