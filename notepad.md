@@ -522,6 +522,8 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Format: 2-on-2 Double Battle.
    - Male Grunt quote: "We of TEAM MAGMA are working hard for everyone's sake. Like, if that thing's power made more land, there'd be more places to live. Everyone'd be happy!"
    - Female Grunt quote: "If there were more land, I'd be able to get a big house of my own! I'm going to build it on hardened lava!"
+   - Male Grunt defeat quote: "Hunh? What do you mean I lost?"
+   - Female Grunt defeat quote: "My dream of a big house..."
    - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
    - Reward: ¥1,600 prize money.
    - Outcome: Complete victory! Zubat and Numel defeated.
