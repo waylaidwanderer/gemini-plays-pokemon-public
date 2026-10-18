@@ -32,6 +32,11 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 5. [ ] Challenge and defeat Gym Leader Winona to earn the Feather Badge and TM40!
 
 ## Turnstile Puzzle Solutions
-- Turnstile 1 (Pivot at 11, 21):
-  - Initial orientation: Vertical arms at (11, 20) and (11, 22).
-  - Solution: Approach from (12, 22) and push Left. The turnstile rotates 90 degrees clockwise into horizontal arms at (10, 21) and (12, 21), opening the vertical path through col 11 to walk North.
+- Turnstile 1 (Pivot at 12, 21):
+  - Initial orientation: Blocked passage through col 11/12.
+  - Solution: Approach from (12, 22) and push Left into (11, 22). Turnstile rotates so its arms are at (12, 22) and (13, 21), opening col 11 completely (rows 21..16).
+  - Walk North through col 11 (rows 21 -> 20 -> 19 -> 18 -> 17 -> 16).
+
+## Trainers in Gym
+- Trainer 1: Lower-left alcove around (1, 23).
+- Trainer 2: Mid-left area around (3, 14).
