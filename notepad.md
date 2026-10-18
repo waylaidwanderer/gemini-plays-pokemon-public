@@ -329,6 +329,14 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
    - Note: Standing directly in front of the volcanic cliff face at (16, 18), hinting at the hidden Team Magma Hideout entrance!
 3. Camper Ethan:
    - Location: (9, 23).
+## Items
+- Item Ball: [COLLECTED] Located at (23, 24) on the eastern terrace. Item: Burn Heal!
+
+4. Triathlete Julio (Cycling):
+   - Location: (18, 25) facing West.
+5. Camper Autumn:
+   - Location: (14, 25) facing East.
+
 
 <hr>
 
