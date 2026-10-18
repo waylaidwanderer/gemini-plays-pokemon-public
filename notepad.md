@@ -995,6 +995,13 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Norman's Advice: Head west to Route 104 and through Petalburg Woods to Rustboro City; challenge Gym Leader Roxanne (Rock-type); return to Petalburg Gym after earning 4 badges.
 - Petalburg Gym Exterior: Door at (15, 8). Gym sign at (16, 10). Main road intersection at row 13.
 - Scott Encounter: As May walked west past (5, 13) toward Route 104, Scott ran up to intercept her. He noted her clothes weren't dirty, evaluated her as either a rookie trainer or ordinary kid, and mentioned he's searching for tough, talented trainers before heading off.
+## Verified Pokémon Center Exterior & Approach (Turn 8205)
+- Location: Southeastern Petalburg City.
+- Building Footprint: Roof spans rows 13..15, cols 19..22.
+- Doorway: Blue sliding doors at (20, 16), entered from (20, 17) facing North.
+- Approach from North: Main street along row 12/13 is blocked directly south by Center roof; route west along row 12/13 to col 16..17, south along col 16..17 to row 18/19, east to col 20, and north into door at (20, 16).
+- Interior: Spawn at (7, 8). Nurse Joy counter at (7, 3), interact from (7, 4) facing North.
+
 
 <hr>
 
@@ -2483,10 +2490,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 42, Male), Nickname: SAGE
-- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 42 (OK, 97/127 HP, Leaf Blade 10/15, Quick Attack 28/30), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥58,916.
+- Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 43 (OK, 130/130 HP, Leaf Blade 15/15), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥58,916.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 43) [Held Item: None (consumed)] - Evolved on turn 5632! Level 43 on turn 8194! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (3/15), Quick Attack (27/30). HP: 35/130. Max HP: 130. Stats: Atk 92, Def 70, Sp.Atk 104, Sp.Def 93, Speed 124. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 43) [Held Item: None (consumed)] - Evolved on turn 5632! Level 43 on turn 8194! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 130/130. Max HP: 130. Stats: Atk 92, Def 70, Sp.Atk 104, Sp.Def 93, Speed 124. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -2621,7 +2628,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Progression Checklist - Phase 10: Route 118, Weather Institute & Fortree Gym (Active)
 1. [x] Obtain HM03 Surf from Wally's Dad in Petalburg City.
 2. [ ] Teach HM03 Surf to Lombre (Lilz).
-3. [ ] Heal party at Petalburg City Pokémon Center.
+3. [x] Heal party at Petalburg City Pokémon Center.
 4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
 5. [ ] Travel east from Mauville City onto Route 118.
 6. [ ] Surf across Route 118 river to meet Steven Stone.
