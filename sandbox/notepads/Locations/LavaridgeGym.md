@@ -38,15 +38,8 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
 - Verified Mechanics: Steam Pit 1 at (10, 18) is a two-way warp connecting 1F Entrance Room to B1F Room 2. Defeated trainers remain standing on their trap pits (blocking entry). Col 14 in Room 2 is a dead-end corridor.
-## Gym Navigation Route (Verified)
-1. Entrance (1F East Wing):
-   - From entrance mat (13, 18), walk Left to (9, 16) and Up to (9, 14).
-   - Row 14 is the open crossway over the vertical partition into the 1F West Wing!
-2. 1F West Wing:
-   - Entering row 14 from (9, 14) heading West leads directly into the West Wing.
-   - West Wing contains multiple steam pits at row 14 (cols 6, 4, 3) and upper/lower levels.
-   - Steam Pit at (6, 14) is directly 3 steps West of (9, 14)!
-3. B1F Room 2 (Lower Level):
-   - Entered from Steam Pit 1 at (10, 18).
-   - Contains Kindler Jeff (defeated!) at (13, 17) (decoy trap pit).
-   - (10, 18) in B1F returns to (10, 18) on 1F.
+## Gym Navigation & Mechanics (Verified)
+- Vertical Partitions: The vertical yellow/red columns (e.g. at col 7) are solid impassable room dividers spanning the entire height of the gym. There are NO walkable openings or crossways between wings on foot.
+- Room Navigation: All inter-room and inter-floor travel MUST be accomplished via the steam pit vent warps.
+- Entrance Foyer (1F): Bounded by west partition (col 7) and north ledge (row 13). Contains the entrance mat at (12..13, 18), Gym Guide at (12, 16), Gym Statues at (10, 14) and (15, 14), and a single steam pit at (10, 18).
+- Steam Pit 1 at (10, 18): The sole entrance into the gym puzzle network, warping between 1F Entrance Foyer and B1F Room 2.
