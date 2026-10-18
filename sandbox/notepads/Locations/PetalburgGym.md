@@ -39,6 +39,19 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
   - Left Door: CONFUSION ROOM
   - Right Door: DEFENSE ROOM
 
+
+## Tier 2: Defense Room (Cleared!)
+- Coordinates: Spawn at (1, 59). Tatami mat spans cols 2..6, rows 54..58.
+- Cooltrainer Alexia: [DEFEATED]
+  - Location: (4, 55) facing South.
+  - Team: Wigglytuff ♀ Lv 26 (Normal type).
+  - Used: Hyper Potion. Cute Charm activated.
+  - Defeated by Sage's Leaf Blade (critical hit for 606 EXP).
+  - Reward: ¥1,248 prize money. Total money: ¥54,568. Sage HP: 97/127.
+- Exits:
+  - Left Door: STRENGTH ROOM
+  - Right Door: ONE-HIT KO ROOM
+
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.
