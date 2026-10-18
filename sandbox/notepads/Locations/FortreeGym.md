@@ -26,7 +26,7 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 
 ## Progression Checklist - Fortree Gym
 1. [x] Unmask Kecleon outside Gym and enter front doors (turn 9227).
-2. [ ] Speak to Gym Guide.
+2. [x] Speak to Gym Guide (turn 9235 - advised on Flying-type weaknesses and rotating doors).
 3. [ ] Solve rotating turnstile puzzles.
 4. [ ] Defeat Gym trainers.
 5. [ ] Challenge and defeat Gym Leader Winona to earn the Feather Badge and TM40!
