@@ -430,10 +430,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Reward: ¥736 prize money. Total money: ¥46,568.
    - Post-battle: Stands at (3, 14).
 
-6. Kindler Axle: [BATTLING]
+6. Kindler Axle: [DEFEATED]
    - Location: Ambushed from steam pit at (3, 10) in Room 5.
    - Pre-battle quote: "I'm trying to relieve my stress. Don't come along and stress me out!"
-   - Team: Numel ♂ Lv 23 (1 Pokémon total).
+   - Defeat quote: "I hope FLANNERY flames you good!"
+   - Team: Numel ♂ Lv 23 (OHKO'd by Sage's Leaf Blade critical hit).
+   - EXP gained: 433 EXP.
+   - Reward: ¥736 prize money.
+   - Post-battle: Stands at (3, 10) permanently blocking his ambush pit.
 
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
