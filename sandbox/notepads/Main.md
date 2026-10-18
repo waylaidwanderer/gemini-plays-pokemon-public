@@ -29,7 +29,7 @@
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Money: ¥58,916
 - Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
@@ -139,7 +139,7 @@
 6. [x] Challenge Petalburg Gym trainers (Speed, Defense, Strength cleared!).
 7. [x] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!
 ## Progression Checklist - Phase 10: Route 118, Weather Institute & Fortree Gym (Active)
-1. [ ] Obtain HM03 Surf from Wally's Dad in Petalburg City.
+1. [x] Obtain HM03 Surf from Wally's Dad in Petalburg City.
 2. [ ] Teach HM03 Surf to Lombre (Lilz).
 3. [ ] Heal party at Petalburg City Pokémon Center.
 4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
