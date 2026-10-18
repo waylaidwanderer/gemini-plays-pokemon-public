@@ -427,6 +427,17 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - (0, 17): Southwest pit (accessible from (1, 17) via row 17).
   - (2, 13): Northwest pit.
 
+## Room 4 (1F Southwest Room)
+- Access: Reached from B1F West Wing via Southwest Steam Pit at (0, 17), landing at (1, 17) on 1F.
+- Layout:
+  - Bounded west by gym wall (col 0), south by south wall (row 18), east by vertical pillar at col 4.
+  - Verified Steam Pits:
+    - (0, 17): Arrival pit from B1F (0, 17).
+    - (2, 14): Center-south steam pit.
+    - (1, 12): Northwest steam pit.
+    - (3, 12): Northeast steam pit.
+    - (5, 12): Adjacent east corridor steam pit (beyond col 4 pillar).
+
 ## Gym Navigation & Mechanics (Verified)
 - 1F Central Highway (Major Breakthrough): Row 13 ledge ONLY blocks the central foyer (cols 11-15). Column 8 is an OPEN NORTHBOUND HIGHWAY running from row 16 past the left statue all the way to row 8!
 - Verified 1F Highway Path: From entrance mat (12..13, 18), walk Up 2 to row 16, Left 3 to col 8, and Up all the way along col 8 to (8, 10)!
