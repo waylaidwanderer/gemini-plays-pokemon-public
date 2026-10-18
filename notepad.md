@@ -596,6 +596,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace! At ~40% HP; Torkoal defeated Sage on Turn 7770.
 - Battle Mechanics Verified: Flannery has used BOTH of her Hyper Potions (1 on Camerupt, 1 on Slugma); she has 0 potions remaining! Camerupt used Attract; infatuation cures automatically when the infatuating Pokémon faints. Emerald move memory preserves last selected move in battle.
 - Lilz fainted to Torkoal's Overheat on Turn 7778; Torkoal's Sp.Atk harshly fell (-2 stages).
+- Turn 7784: Cobalu selected Headbutt; Torkoal used Overheat.
 
 <hr>
 
