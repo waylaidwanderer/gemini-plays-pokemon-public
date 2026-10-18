@@ -5,7 +5,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Connection Points
 - South Exit: Front entrance doors at (9, 12) lead outside to Route 119 (rows 30..35).
-- 2F Stairs: Located in the northeast corner of 1F (cols 18..19, rows 1..2), guarded by the male Team Aqua Grunt at (16, 2).
+- 2F Stairs: Located in the northeast corner of 1F at cols 17..18, rows 1..2.
 
 ## Key Landmarks & Features
 - 1F Lobby: Entrance mat at (9, 12). Partition wall with archway at cols 5..6, row 8 leading into main research floor.
@@ -15,12 +15,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Trainers & NPCs
 - Team Aqua Grunt (Female - 1F): Located at (10, 5) - [DEFEATED - Turn 8869]. Team: Carvanha Lv 28. Prize: ¥560. Note: Carvanha has Rough Skin ability (deals recoil damage on physical contact).
-- Team Aqua Grunt (Male - 1F): Located at (16, 2) facing West near northeast computer desks.
+- Team Aqua Grunt (Male - 1F): Located at (15, 3) - [DEFEATED - Turn 8885]. Team: Zubat Lv 27, Poochyena Lv 27. Prize: ¥540.
 
 ## Progression Checklist - Weather Institute
 1. [x] Arrive at Weather Institute and enter front doors.
 2. [x] Heal and prepare party (restore Sage HP, rotate lead).
-3. [ ] Defeat Team Aqua Grunts on 1F.
+3. [x] Defeat Team Aqua Grunts on 1F (female grunt at 10, 5 and male grunt at 15, 3 defeated!).
 4. [ ] Ascend to 2F and defeat Team Aqua Grunts and Admin Shelly.
 5. [ ] Speak to Head Scientist, receive Castform holding Mystic Water.
 6. [x] Rest in 1F recovery bed to restore entire party to full health (verified and used on turn 8847!).
