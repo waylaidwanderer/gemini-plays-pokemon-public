@@ -57,13 +57,14 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
   - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
   - Ashley: Swablu Lv 27 x2 (both fainted).
-## Upper Gym Layout & Verified Dead Ends (Turns 9414-9481)
-- Turnstile 4 is at (9, 14), Turnstile 5 is at (9, 11).
-- (7, 11) and (8, 11) are solid green pillars (NOT walkable).
-- Column 7 terminates at row 12 and does NOT reach row 7.
-- Pushing East from (8, 12) against Turnstile 5 at (9, 11) cannot rotate it because its North arm is locked between pillars at (8, 10) and (10, 10).
-- Column 4 ends at Jared's tile (4, 13).
-- Verified Dead Ends:
-  - Row 18 east of col 7 is permanently blocked at (8, 18) by solid pillars.
-  - Lower east avenue (cols 13–17) is permanently blocked at row 17 by a solid horizontal beam.
-- Reset: Exited and re-entered Gym on Turn 9480, cleanly resetting Turnstiles 1–5 to initial states.
+- Trainer 4 & 5 (Double Battle): Camper Flint at (10, 10) and Bird Keeper Edwardo at (9, 9). [DEFEATED - Turn 9537]
+  - Flint: Swellow Lv 29 (fainted), Xatu Lv 29 (fainted).
+  - Edwardo: Doduo Lv 29 (fainted), Pelipper Lv 29 (fainted).
+  - Reward: ¥1,392 prize money.
+
+## Upper Turnstile Puzzle (Turnstiles 4 & 5) - Verified Solution (Turn 9498)
+1. Turnstile 4 is at (9, 15) and Turnstile 5 is at (9, 11).
+2. From (8, 12), step Left to (7, 12), Down to (7, 14), Down to (7, 15) pushing Turnstile 4's West arm down (rotates clockwise).
+3. Step Up to (7, 14), then walk East across row 14 through (8, 14) and (9, 14) directly into Column 9.
+4. Walk North up Column 9 via (9, 13) and (9, 12) through (9, 11) directly to (9, 10)!
+5. Both Turnstiles 4 and 5 are fully bypassed, arriving in the upper gym directly in front of the platform approach.
