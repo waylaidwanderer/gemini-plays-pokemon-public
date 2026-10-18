@@ -340,7 +340,7 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 3. Camper Ethan:
    - Location: (17, 35) facing East near southern exit. Engaged player at (20, 35).
    - Pre-battle quote: "JAGGED PASS is hard to walk on. It's a good place for training."
-   - Team: Zigzagoon ♂ Lv 20 (OHKO'd by Quick Attack critical for 256 EXP), Taillow (#2).
+   - Team: Zigzagoon ♂ Lv 20 (OHKO'd by Quick Attack critical for 256 EXP), Taillow ♂ Lv 20 (OHKO'd by Quick Attack for 252 EXP).
 4. Triathlete Julio (Cycling):
    - Location: (18, 25) facing West on sunken central terrace. Inaccessible from eastern terrace.
 5. Camper Autumn:
@@ -2015,7 +2015,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge)! Total money: ¥42,048. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (4/15), Quick Attack (26/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (4/15), Quick Attack (25/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 50/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
