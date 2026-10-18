@@ -57,24 +57,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
   - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
   - Ashley: Swablu Lv 27 x2 (both fainted).
-- Turnstile 4 & Upper Route Correction:
-  - Turnstile 4 is located at (9, 14).
-  - Column 9 and 10 below row 14 are permanently blocked by double rows of solid fence posts (not an open highway).
-  - The correct progression route leads through the WESTERN corridor (columns 4–6), bypassing the dead-end pocket around (8, 14) entirely.
-  - Western Corridor Progression:
-    - Route west along row 14 to column 4/5.
-    - Advance north past Trainer 4 (Bird Keeper at 4, 11) toward the upper gym and Winona's platform.
-
-## Pre-Boss Recovery Strategy [COMPLETED - Turn 9358]
-- Full party recovery executed at Fortree Pokémon Center on turn 9358!
-  - Entire party restored to 100% HP and full PP.
-  - Sage Lv 47 (148/148 HP, Leaf Blade 15/15 PP).
-  - Lilz Lv 23 revived (67/67 HP, Surf 15/15 PP).
-  - Guava Lv 28 restored (95/95 HP, Stomp 20/20 PP).
-- Note: Exiting the Gym resets turnstiles 1-4 to initial orientations upon re-entry; all defeated trainers (Jared, Ashley) remain cleared permanently.
-
-
-- True Gym Progression (Column 7 Highway to Winona):
-  - Column 4 is a dead-end alcove ending at Jared's tile (4, 14).
-  - The true highway to the upper gym is COLUMN 7!
-  - Route: From row 18 (4, 18), walk East to (7, 18). Column 7 is a completely open, continuous vertical highway running straight North from row 18 all the way to row 7, leading directly to the upper turnstile at (9, 7) and Gym Leader Winona!
+## Upper Gym Layout & Verified Dead Ends (Turns 9414-9468)
+- Turnstile 4 is at (9, 14), Turnstile 5 is at (9, 11).
+- (7, 11) and (8, 11) are solid green pillars (NOT walkable).
+- Column 7 terminates at row 12 and does NOT reach row 7.
+- Pushing East from (8, 12) against Turnstile 5 at (9, 11) cannot rotate it because its North arm is locked between pillars at (8, 10) and (10, 10).
+- Column 4 ends at Jared's tile (4, 13).
+- Exploring alternative paths: row 18 eastward and lower gym approaches.
