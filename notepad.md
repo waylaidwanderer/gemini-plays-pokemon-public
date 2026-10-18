@@ -257,6 +257,10 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - To travel east through the southern district, you must climb the wooden ladder at (12, 16) to the elevated treehouse deck at (12, 14).
 - Deck Layout: Doorway into treehouse at (12, 13). Boy NPC on deck at (11, 14). Ladder down to ground at (12, 15).
 - Elevated rope bridge with white railings extends East from (13, 14) across the forest canopy!
+## Verified Navigation - Pokémon Center Approach from Treehouses
+- Northern treehouse deck at (10, 4) has a ladder at (10, 5..6) descending to ground at (10, 7).
+- Note: Row 7 has bushes at (8, 7) and (9, 7) blocking direct westward walking.
+- Correct ground route: Step Down to Row 8 at (10, 8), walk West along Row 8 past (9, 8), (8, 8), (7, 8), (6, 8) to (5, 8), then step North via (5, 7) into Pokémon Center doors at (5, 6).
 
 <hr>
 
