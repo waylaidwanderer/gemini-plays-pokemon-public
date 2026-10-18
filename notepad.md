@@ -370,7 +370,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 1. [x] Arrive in Lavaridge Town, heal party, and acquire Wynaut Egg.
 2. [x] Enter Lavaridge Gym.
 3. [x] Consult Gym Guide at entrance.
-4. [ ] Navigate steam pit teleport puzzle.
+4. [x] Navigate steam pit teleport puzzle.
 5. [x] Defeat all 8 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle, Keegan, Danielle).
 6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
 ## Entrance Room (1F)
@@ -588,7 +588,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 4. 1F Middle Bay: Walk Right 2 to (10, 2), Down 4 to (10, 6). Step into steam pit at (10, 6) to drop into B1F Middle Sector at (10, 6).
 5. B1F Middle Sector: Walk Down column 10 to row 11, hop south-facing jump ledge to (10, 12), step Down to (10, 13), Right to (12, 13), and Up onto the steam geyser at (12, 12).
 6. 1F Flannery Platform / Upper Tier: Stepping onto (12, 12) geyser launches player to 1F at (13, 12) directly on the upper tier below Gym Leader Flannery (14, 8)!
-
 
 <hr>
 
@@ -2303,7 +2302,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Inside Lavaridge Gym on 1F Upper Terrace! All 8 Gym trainers defeated! Only Gym Leader Flannery remains! Party: Sage Lv 41 (OK, 124/124), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥48,592.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (19/20), Pursuit (17/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 119/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (19/20), Pursuit (17/20), Leaf Blade (6/15), Quick Attack (30/30). HP: 119/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
