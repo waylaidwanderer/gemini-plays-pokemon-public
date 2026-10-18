@@ -307,6 +307,7 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 1. Hiker Eric:
    - Location: (10, 8) facing East. Engaged player at (13, 8).
    - Pre-battle quote: "MT. CHIMNEY's JAGGED PASS... Now this is what I've always wanted in a mountain. This jagged bumpiness... It rocks my soul!"
+   - Team: Geodude ♂ Lv 20 (OHKO'd by Leaf Blade for 367 EXP), Baltoy.
 
 <hr>
 
