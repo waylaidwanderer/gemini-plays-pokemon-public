@@ -2796,7 +2796,7 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
 5. [x] Travel east from Mauville City onto Route 118.
 6. [x] Surf across Route 118 river to meet Steven Stone.
-7. [ ] Traverse Route 119 north to Weather Institute.
+7. [x] Traverse Route 119 north to Weather Institute.
 8. [ ] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
