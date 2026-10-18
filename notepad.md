@@ -498,7 +498,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Western Pass Grunts: Double Battle against Team Magma Grunts (Male at 9, 16 & Female at 11, 16) engaged at (10, 16). Defeated! Awarded ¥800.
 - Northern Pass Grunt: Grunt at (12, 11) facing West. Engaged at (10, 11). Guards the approach to Tabitha and the machine.
 - Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine. Lava pit visible at cols 14..18, rows 9..11.
-- Volcanic Device: Team Magma's machine powered by Professor Cozmo's Meteorite.
+- Volcanic Device & Leader Maxie: Located at (13..14, 6). The machine is at (14, 6) with a glass dome housing the Meteorite. Team Magma Leader Maxie stands at (13, 6) facing East toward the machine.
 
 ## Cable Car Mechanics
 - Lower Station (Route 112): Prompt says "The CABLE CAR is ready to go up."
