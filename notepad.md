@@ -2324,6 +2324,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
 - Fisherman Chris: (13, 104) facing South - [DEFEATED - Turn 8549]. Team: Magikarp Lv 29, Tentacool Lv 20, Feebas Lv 26, Carvanha Lv 23. Prize: ¥920.
 - Oddish: Encountered in upper giant grass on terrace (turn 8562).
+- Item Ball: (4, 96) - [OBTAINED] Zinc! Located in northern tree alcove on western terrace.
 
 <hr>
 
@@ -2616,6 +2617,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
 - Carbos x1 (found in rock at 20, 57 on Route 114)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
+- Zinc x1 (found at 4, 96 on Route 119 western terrace)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x2 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
