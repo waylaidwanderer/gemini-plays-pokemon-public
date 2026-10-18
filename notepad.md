@@ -324,7 +324,8 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Turnstiles 4 & 5 (Interlocking Upper Turnstiles):
   - Turnstile 5 (Pivot at 9, 11): North arm at (9, 10), South arm at (9, 12), East arm at (10, 11). Pushing from (8, 12) East was blocked because (8, 11) contains a solid pillar base preventing counter-clockwise rotation.
   - Turnstile 4 (Pivot at 9, 14): West arm at (8, 14), North arm at (9, 13), South arm spanning column 9 (rows 15..17).
-  - Solution Route: Loop via column 7: (7, 12) -> (7, 15) -> (8, 15) to face the West arm at (8, 14) from the south, then push North to rotate Turnstile 4 clockwise.
+  - Solution Route: Loop via column 7: (7, 12) -> (7, 15) -> (8, 15) to face the West arm at (8, 14) from the south, then push North to rotate Turnstile 4 clockwise. [SOLVED - Turn 9335]
+  - Eastern Highway Unlocked: The long south arm of Turnstile 4 rotated from column 9 to row 14 (West). This opens row 16 across column 9 into columns 10..14. Column 13/14 contains a clear suspension bridge highway leading north directly to Gym Leader Winona!
 
 ## Pre-Boss Recovery Strategy
 - Before challenging Gym Leader Winona:
