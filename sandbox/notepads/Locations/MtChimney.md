@@ -14,7 +14,8 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Middle Plateau Switchback: Terrace at row 25 is blocked directly north at (25, 24) by a cliff wall. To reach the upper stairs at (25, 22..23), take the switchback path: walk west along row 25 to western stairs at (20, 24..25), climb up to row 23 terrace, and walk east along row 23 to upper stairs at (25, 22..23). Magma Grunt stands on Tier 3 at (23, 21) facing South.
 - Tier 3 Grunt Skirmish: Located at cols 21..24, rows 17..21. A cross formation of 3 Magma Grunts, 1 Aqua Grunt, and multiple clashing Poochyena. Col 25 is a clear open path to the east running straight north.
 - Northeast Grunt Skirmish: Located at cols 28..31, rows 10..12. Magma Grunt at (28, 11) and Aqua Grunt at (31, 11) with two Poochyena clashing.
-- Western Caldera & Rock Mound: Rock mound at cols 12..14, rows 12..15. Grunt at (13, 16) facing East. Grunt at (9, 16) facing East guarding the northern corridor. Clear dirt corridor along row 17 (cols 10..17) leads west to the western pass.
+- Western Caldera & Rock Mound: Rock mound at cols 12..14, rows 12..15. Clear dirt corridor along row 17 leads to the western pass at col 10.
+- Western Pass Grunts: Male Grunt at (9, 16) facing East and Female Grunt at (11, 16) facing West. Both are non-hostile ambient NPCs speaking about expanding land. The northern corridor at col 10 runs open straight north between them.
 - Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine. Lava pit visible at cols 14..18, rows 9..11.
 - Volcanic Device: Team Magma's machine powered by Professor Cozmo's Meteorite.
 
