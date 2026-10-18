@@ -114,7 +114,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Steam Pits:
     - (0, 6): Arrival pit (warps back to Room 6 (0, 6)).
     - (3, 6): Steam pit on row 6 walkway.
-    - (5, 6): Steam pit in eastern section.
+    - (5, 6): [TESTED] Active steam pit! Launches player in a steam geyser.
     - Additional pits visible on northern tier (rows 2-4).
 - Access: Arrived via steam pit warp from Room 4 (1, 15), landing at (2, 14).
 - Layout & Collision (Fully Verified):
