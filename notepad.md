@@ -440,14 +440,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Post-battle: Stands at (3, 10) permanently blocking his ambush pit.
 
 7. Kindler Keegan: [DEFEATED]
-   - Location: Ambushed from Northeast steam pit at (2, 6) in Room 6 (B1F Northwest).
+   - Location: Ambushed from steam pit at (3, 6) in Room 6 (B1F Northwest).
    - Pre-battle quote: "You must be getting tired by now. You'd like to rest in the hot sand, wouldn't you? But you should know that maintaining your willpower is an important ability for all TRAINERS."
    - Defeat quote: "Play with fire, and be burned..."
    - Team: Slugma ♂ Lv 23 (OHKO'd by Sage's Pursuit).
    - EXP gained: 384 EXP.
    - Reward: ¥736 prize money.
    - Outcome: Complete victory! Total money: ¥48,040.
-   - Post-battle: Stands at (2, 6), permanently blocking his ambush decoy pit.
+   - Post-battle: Stands at (3, 6), permanently blocking his ambush pit.
 
 
 ## Room 3 (B1F West Wing Network)
@@ -513,10 +513,11 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Layout & Steam Pits:
   - Bounded west by outer gray border.
   - Divided by vertical pillar with pink banners to the east.
-  - Horizontal blue ledge visible to the south across rows 12..13.
+  - Horizontal blue ledge visible to the south across rows 12..13 (one-way south-facing drop to Room 3).
   - Steam Pits:
-    - (0, 6): [TESTED] Northwest pit. Warps to Room 5 Upper Terrace at (0, 6), landing at (1, 6)!
-    - (2, 6): Northeast pit.
+    - (0, 6): [TESTED] Northwest pit. Warps to 1F Upper Terrace at (0, 6), landing at (1, 6)!
+    - (3, 6): Ambush pit where Kindler Keegan stood (defeated).
+    - (0, 10): Drop pit from 1F.
     - (1, 14): South pit (below row 12 ledge).
 
 ## Room 7 (B1F East Wing Network)
@@ -539,12 +540,11 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Downward Warps (1F -> B1F): Stepping into a steam pit at (X, Y) on 1F drops the player straight down onto (X, Y) on B1F.
 - Upward Warps (B1F -> 1F): Stepping into a steam pit at (X, Y) on B1F triggers a steam geyser that launches the player up to 1F, depositing them 1 tile East onto (X+1, Y)!
 - Flannery Platform Access: Gym Leader Flannery stands on an elevated wooden platform at (14, 8) with a south-facing one-way ledge. It cannot be accessed by walking from the south. It must be reached via a steam geyser from B1F.
-- Room 6 Branching: Room 6 (B1F Northwest) has two upper pits: (0, 6) which loops back via Room 5 Upper Terrace, and (2, 6) which is unexplored and the prime candidate to reach Flannery.
 
 
 ## B1F East Wing Routing (Verified Turn 7529)
 - Row 17 B1F Highway: Connects western wing (cols 0-4) directly to column 8 (eastern wing access) without needing vertical warps.
-- From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9) [Hypothesis: Unverified if eastern pits lead to Flannery].
+- From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9).
 
 
 ## 1F West Wing Topology (Verified Turn 7573)
