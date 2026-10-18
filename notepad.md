@@ -305,9 +305,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Solution: Approach along row 22 to (7, 22), then walk Left onto (6, 22) (on the east arm). Facing West, push Left against the vertical bar into (5, 22). Turnstile 2 rotates counter-clockwise, opening passage into (4, 22)! [SOLVED]
   - Trainer 1: Stationed at (4, 23) facing East.
   - Western Corridor: Column 4 is open from row 22 north through rows 21, 20, 19 toward Turnstile 3 at row 18.
-- Turnstile 3 (Pivot at ~4, 18):
-  - Located in the western corridor north of Turnstile 2.
-  - Trainer 2 is stationed at (5, 17).
+- Turnstile 3 (Pivot at 3, 18):
+  - Long T-turnstile: Hub at (3, 18). Arms at West (2, 18), South (3, 19), and long East arm spanning row 18 (cols 4..7).
+  - Approach: Move from (4, 20) to (4, 19) facing North against the East arm at (4, 18).
+  - Trainer 2: Stationed at (5, 17) facing South along column 5.
 
 ## Trainers in Gym
 - Trainer 1: Lower-left alcove around (1, 23).
