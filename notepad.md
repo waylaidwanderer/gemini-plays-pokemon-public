@@ -396,6 +396,15 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
 - Verified Mechanics: Steam Pit 1 at (10, 18) is a two-way warp connecting 1F Entrance Room to B1F Room 2. Defeated trainers remain standing on their trap pits (blocking entry). Col 14 in Room 2 is a dead-end corridor.
+## Gym Navigation Route (Verified)
+1. Entrance (1F): Enter Gym at (13, 18). Walk Left 3 steps to Steam Pit 1 at (10, 18).
+2. Steam Pit 1 drops to B1F Room 2 at (10, 18).
+3. In B1F Room 2:
+   - East section has Kindler Jeff (defeated!) at (13, 17) (decoy trap pit).
+   - From (10, 18), walk LEFT along row 18 all the way to (4, 18)!
+4. At (4, 18) in B1F: Step onto Steam Pit 2!
+5. Steam Pit 2 blasts May UP into 1F West Wing at (4, 18)!
+6. In 1F West Wing: Walk NORTH along column 4 into the upper rooms to continue toward Flannery!
 
 <hr>
 
