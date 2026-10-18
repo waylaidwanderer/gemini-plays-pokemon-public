@@ -2332,6 +2332,8 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Western Terrace: (rows 96..102, cols 3..12) accessed via stairs at (11..12, 103) from beach at (12..13, 104..105). Contains giant tall grass and Zinc at (4, 96). Bounded by solid northern pine tree wall. [FULLY CLEARED - Turn 8580].
 - River Rock Barrier: The river at rows 99..100 is completely blocked from east to west by stationary river rocks, preventing surfing directly north to the Weather Institute. Route 119 must be traversed via the eastern bank highway.
 - Berry Patch (Lower Terrace): Located on the lower green grass terrace beside the river at rows 89..90, cols 28..31. Separated from the high mountain plateau by a cliff ledge; accessible from the lower bridge trail.
+- High Suspension Bridge: Located at row 85, spanning from the eastern high ridge at col 34 across the river gorge to the western plateau at col 7.
+- Western Plateau: Located at cols 3..6, rows 82..85. White stone staircase at cols 4..5, row 81 leads up to the higher western mountain terrace.
 
 <hr>
 
