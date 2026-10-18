@@ -53,6 +53,7 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
    - Location: (17, 35) facing East near southern exit. Engaged player at (20, 35).
    - Pre-battle quote: "JAGGED PASS is hard to walk on. It's a good place for training."
    - Defeat quote: "It was all over while we were still trying to find a good footing"
+   - Post-battle quote: "When I get more used to this bumpiness, I'll be sure to win!" (No Match Call registration).
    - Team: Zigzagoon ♂ Lv 20 (OHKO'd by Quick Attack critical for 256 EXP), Taillow ♂ Lv 20 (OHKO'd by Quick Attack for 252 EXP).
    - Reward: ¥320 prize money.
    - Outcome: Complete victory! Total money: ¥42,368.
