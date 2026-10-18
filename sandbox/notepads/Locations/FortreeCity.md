@@ -8,7 +8,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - East Exit: Route 120 (leading toward Ancient Tomb, Route 121, and Lilycove City).
 
 ## Key Landmarks & Buildings
-- Pokémon Center: Red-roofed healing facility.
+- Pokémon Center: Red-roofed healing facility located at cols 43..48, rows 2..5. Blue sliding front doors at (44..45, 5), entered from row 6 facing North.
 - Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
 - Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
