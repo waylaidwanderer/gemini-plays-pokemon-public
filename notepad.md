@@ -474,7 +474,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Visible Steam Pits:
     - (1, 14): Arrival steam pit directly west of (2, 14).
     - (1, 18): Bottom-left steam pit.
-    - (1, 10): Northwest steam pit.
+    - (0, 10): Northwest steam pit (directly west of (1, 10)).
     - (3, 10): Northeast steam pit (north of Cole).
     - (5, 14): Eastern corridor pit beyond pillar.
     - (5, 10): Northeast corridor pit beyond pillar.
@@ -2198,10 +2198,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 40, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Entered Lavaridge Gym! Party fully restored! Next: Navigate steam pit puzzle rooms, defeat gym trainers, and defeat Gym Leader Flannery for the Heat Badge! Total money: ¥46,568. Party: Sage Lv 41 (OK, 124/124), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Entered Lavaridge Gym! Party fully restored! Next: Navigate steam pit puzzle rooms, defeat gym trainers, and defeat Gym Leader Flannery for the Heat Badge! Total money: ¥47,304. Party: Sage Lv 41 (OK, 124/124), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (20/20), Pursuit (18/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 124/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (20/20), Pursuit (18/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 124/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -2224,7 +2224,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥46,568
+- Money: ¥47,304
 - Key Items: Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
