@@ -390,10 +390,10 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Western Corridor: 3-4 steam pits along cols 3..5 behind west divider pillars.
   - North Ledge: Row 15 is an elevated ledge blocking walking directly north.
 ### Trainers
-1. Kindler Jeff: [IN BATTLE]
+1. Kindler Jeff: [DEFEATED]
    - Location: Submerged in Eastern Lower Steam Pit at (13, 17) in Room 2.
    - Pre-battle quote: "See how the flames blaze wildly? They flare in anticipation of my win!"
-   - Team: Slugma #1 ♂ Lv 22 (defeated by Sage's Pursuit), Slugma #2 Lv 22.
+   - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
 
 <hr>
@@ -429,7 +429,6 @@ A hot spring town situated at the southern base of Mt. Chimney. Famous for its v
 - Pokémon Center Avenue: Located at cols 8..9 leading from row 10 north to the Pokémon Center entrance at (8..9, 4..5).
 - Pokémon Center Entrance: (8..9, 4..5) entered from row 6 facing North.
 - Central South Avenue: Located at col 9 leading south from row 10 to row 14 between Gym and residential houses.
-- Lavaridge Gym Approach: From (8, 13), walk Down 3 to row 16, Left 3 to (5, 16), then step North into Gym doors at (4..5, 14..15).
 - Eastern Signpost: Located at (21, 8) east of the avenue.
 - Center Signpost: Located at (12, 7) between Pokémon Center and Poké Mart.
 ## Pokémon Center Interior (1F)
@@ -701,7 +700,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 7. [x] Defeat Team Magma Admin Tabitha at (11, 11).
 8. [x] Defeat Team Magma Leader Maxie at (13, 6).
 9. [x] Reclaim the Meteorite from the machine at (14, 6).
-10. [ ] Descend Jagged Pass to Lavaridge Town.
+10. [x] Descend Jagged Pass to Lavaridge Town.
 
 ## Verified Post-Magma Descent & Machine Mechanics:
 - Meteorite Retrieval: Inspecting the volcanic machine at (14, 6) triggers "A METEORITE is fitted on a mysterious machine... Do you want to remove the METEORITE?" Selecting YES confirms retrieval of the Key Item METEORITE into the Key Items pocket. Subsequent interactions confirm: "This mysterious machine... It makes no response whatsoever."
@@ -2110,7 +2109,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Entered Lavaridge Gym! Party fully restored! Next: Consult Gym Guide, navigate steam pit puzzle rooms, defeat gym trainers, and defeat Gym Leader Flannery for the Heat Badge! Total money: ¥42,368. Party: Sage Lv 40 (OK, 122/122), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 122/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (18/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 122/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.

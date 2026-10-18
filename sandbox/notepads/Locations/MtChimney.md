@@ -64,7 +64,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 7. [x] Defeat Team Magma Admin Tabitha at (11, 11).
 8. [x] Defeat Team Magma Leader Maxie at (13, 6).
 9. [x] Reclaim the Meteorite from the machine at (14, 6).
-10. [ ] Descend Jagged Pass to Lavaridge Town.
+10. [x] Descend Jagged Pass to Lavaridge Town.
 
 ## Verified Post-Magma Descent & Machine Mechanics:
 - Meteorite Retrieval: Inspecting the volcanic machine at (14, 6) triggers "A METEORITE is fitted on a mysterious machine... Do you want to remove the METEORITE?" Selecting YES confirms retrieval of the Key Item METEORITE into the Key Items pocket. Subsequent interactions confirm: "This mysterious machine... It makes no response whatsoever."

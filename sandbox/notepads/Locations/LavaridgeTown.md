@@ -27,7 +27,6 @@ A hot spring town situated at the southern base of Mt. Chimney. Famous for its v
 - Pokémon Center Avenue: Located at cols 8..9 leading from row 10 north to the Pokémon Center entrance at (8..9, 4..5).
 - Pokémon Center Entrance: (8..9, 4..5) entered from row 6 facing North.
 - Central South Avenue: Located at col 9 leading south from row 10 to row 14 between Gym and residential houses.
-- Lavaridge Gym Approach: From (8, 13), walk Down 3 to row 16, Left 3 to (5, 16), then step North into Gym doors at (4..5, 14..15).
 - Eastern Signpost: Located at (21, 8) east of the avenue.
 - Center Signpost: Located at (12, 7) between Pokémon Center and Poké Mart.
 ## Pokémon Center Interior (1F)
