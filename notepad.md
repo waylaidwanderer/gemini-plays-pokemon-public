@@ -501,7 +501,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Kindler Axle defeated at (3, 10), stands blocking his steam pit.
   - South/East blocked by Gerald and Cole.
   - West: Steam pit at (1, 14) (return pit).
-  - West Wing Western Highway: Column 2 is blocked by Gerald (2, 15) and Cole (3, 14), and Column 6 has a south-facing jump ledge at row 15 blocking northbound movement. The true unblocked path to row 10 and steam pit (0, 10) is Column 0: From row 17, walk West to (0, 16), and North along Column 0 (rows 10-16 are completely open) straight to steam pit (0, 10).
   - Visible Steam Pits:
     - (1, 14): One-way drop from 1F into B1F (1, 14); does not geyser back up to (2, 14).
     - (1, 18): Bottom-left steam pit.
@@ -611,7 +610,8 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 ### Rematch (Active)
 - Numel ♀ Lv 24 (Fire/Ground) OHKO'd by Sage's Leaf Blade (451 EXP) on Turn 7848.
 - Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) healed by Flannery's 1st Hyper Potion, then defeated by Sage's 2nd Leaf Blade (975 EXP) on Turn 7856.
-- Third Pokémon: Slugma Lv 24 (Fire) targeted by Sage's Leaf Blade on Turn 7859.
+- Third Pokémon: Slugma Lv 24 (Fire) OHKO'd by Sage's Leaf Blade (400 EXP) on Turn 7860; Sage grew to Level 42!
+- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace entering!
 
 <hr>
 
@@ -2326,7 +2326,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Gym Leader Flannery rematch active! Numel, Camerupt, and Slugma defeated! Sweeping with Sage Lv 41 (124/124 HP, 10/15 Leaf Blade)! Only Torkoal remains!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (30/30). HP: 124/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 42) [Held Item: None (consumed)] - Evolved on turn 5632! Level 42 on turn 7862! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (30/30). HP: 127/127. Max HP: 127. Stats: Atk 89, Def 67, Sp.Atk 102, Sp.Def 91, Speed 120. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.

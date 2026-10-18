@@ -143,7 +143,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Kindler Axle defeated at (3, 10), stands blocking his steam pit.
   - South/East blocked by Gerald and Cole.
   - West: Steam pit at (1, 14) (return pit).
-  - West Wing Western Highway: Column 2 is blocked by Gerald (2, 15) and Cole (3, 14), and Column 6 has a south-facing jump ledge at row 15 blocking northbound movement. The true unblocked path to row 10 and steam pit (0, 10) is Column 0: From row 17, walk West to (0, 16), and North along Column 0 (rows 10-16 are completely open) straight to steam pit (0, 10).
   - Visible Steam Pits:
     - (1, 14): One-way drop from 1F into B1F (1, 14); does not geyser back up to (2, 14).
     - (1, 18): Bottom-left steam pit.
@@ -253,4 +252,5 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 ### Rematch (Active)
 - Numel ♀ Lv 24 (Fire/Ground) OHKO'd by Sage's Leaf Blade (451 EXP) on Turn 7848.
 - Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) healed by Flannery's 1st Hyper Potion, then defeated by Sage's 2nd Leaf Blade (975 EXP) on Turn 7856.
-- Third Pokémon: Slugma Lv 24 (Fire) targeted by Sage's Leaf Blade on Turn 7859.
+- Third Pokémon: Slugma Lv 24 (Fire) OHKO'd by Sage's Leaf Blade (400 EXP) on Turn 7860; Sage grew to Level 42!
+- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace entering!
