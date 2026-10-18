@@ -250,9 +250,9 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 
 ## Verified Navigation Mechanics - Treehouse Networks (Turn 9111)
 - The southern ground road from the Poké Mart ends at (12, 17); col 13 is blocked by a dense palm tree and forest canopy.
-- To travel east through the southern district, you must climb the wooden ladder at (12, 16) to the elevated treehouse deck (rows 13..14).
-- From the deck at (12, 14), an elevated rope bridge with white railings extends East along row 13..14 across the forest canopy!
-- Treehouse at (11..12, 12..13) has a doorway at (11, 13) and a resident boy on the platform at (10, 14).
+- To travel east through the southern district, you must climb the wooden ladder at (12, 16) to the elevated treehouse deck at (12, 14).
+- Deck Layout: Doorway into treehouse at (12, 13). Boy NPC on deck at (11, 14). Ladder down to ground at (12, 15).
+- Elevated rope bridge with white railings extends East from (13, 14) across the forest canopy!
 
 <hr>
 
