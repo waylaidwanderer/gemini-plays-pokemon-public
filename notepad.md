@@ -610,7 +610,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 
 ### Rematch (Active)
 - Numel ♀ Lv 24 (Fire/Ground) OHKO'd by Sage's Leaf Blade (451 EXP) on Turn 7848.
-- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) brought to ~20% HP by Leaf Blade on Turn 7852.
+- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) being finished by Sage's Leaf Blade on Turn 7854.
 
 <hr>
 
