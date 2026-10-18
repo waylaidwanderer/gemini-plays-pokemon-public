@@ -480,7 +480,8 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Kindler Axle defeated at (3, 10), stands blocking his steam pit.
   - South/East blocked by Gerald and Cole.
   - West: Steam pit at (1, 14) (return pit).
-  - North: Column 2 (rows 10-13) is a wide-open corridor heading straight north to row 10!
+  - North Bypass Highway: Column 2 is blocked from below by Cooltrainer Gerald (2, 15) and Kindler Cole (3, 14). The true unblocked bypass route to row 10 and steam pit (0, 10) is Column 6:
+    From row 17, walk East to (6, 17), North along Column 6 (rows 10-17 are completely open) to (6, 10), and West along row 10 directly to steam pit (0, 10).
   - Visible Steam Pits:
     - (1, 14): One-way drop from 1F into B1F (1, 14); does not geyser back up to (2, 14).
     - (1, 18): Bottom-left steam pit.
