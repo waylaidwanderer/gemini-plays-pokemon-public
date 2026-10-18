@@ -18,3 +18,11 @@ A mystical tower that occasionally manifests in the Route 111 desert. Highly uns
 - 2F Ladder: Located at (15, 2) against the north wall.
 - Verified 1F Path to Ladder: From entrance (10, 14), Up to (10, 13), Left to (4, 13), Up along col 4 to (4, 3), Right along row 3 to (15, 3), Up to (15, 2) into the ladder.
 - Wild Pokémon Encountered: Sandshrew (Lv 20), Trapinch (Lv 20).
+## Floor 2 (2F)
+- Arrival: 1F Ladder hole at (15, 2) facing West on Mach Bike.
+- North Corridor: Solid sand path along row 2 spanning cols 3..15.
+- Central Rock Formation: Starts at col 5, row 4.
+- Western Corridor: Columns 2..3, running south from row 3.
+- Cracked Tiles: Located in the western corridor at cols 2..3, rows 4..6+.
+- Wild Pokémon Encountered: Trapinch (Lv 20).
+- Puzzle Mechanic: Requires Mach Bike at top speed to cross cracked crumbling tiles without falling to 1F.
