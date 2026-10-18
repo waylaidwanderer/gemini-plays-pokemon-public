@@ -2647,5 +2647,6 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
 - Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
+- Field Surf Mechanics: In Gen 3 (RSE), you cannot initiate Surf while riding a Bicycle. You must dismount the Bicycle (press Select) onto foot before interacting with water with 'A' to trigger the Surf prompt.
 
 <hr>
