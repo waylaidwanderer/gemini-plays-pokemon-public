@@ -973,12 +973,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $32,566 | **Battle Points:** 10 BP | **Status:** HOENN LEAGUE CHAMPION, BATTLE DOME CHAMPION, BATTLE PIKE WINNER, BATTLE FACTORY WINNER, BATTLE ARENA WINNER & BATTLE PALACE WINNER | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $27,066 | **Battle Points:** 10 BP | **Status:** HOENN LEAGUE CHAMPION, BATTLE DOME CHAMPION, BATTLE PIKE WINNER, BATTLE FACTORY WINNER, BATTLE ARENA WINNER & BATTLE PALACE WINNER | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, Mystic Water (unequipped from ATRITON in Bag for Battle Pyramid; re-equip after Battle Pyramid), S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory:** Hyper Potion x9, Revive x1, Full Heal x2, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 76, Calm Nature [+Sp. Def, -Attack], No Held Item [Mystic Water in Bag for Battle Pyramid] — Surf, Return, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 76, Calm Nature [+Sp. Def, -Attack], Held Item: Mystic Water — Surf, Return, Strength, Blizzard)
   2. OBERON (Beautifly, Male, Lv. 21 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
