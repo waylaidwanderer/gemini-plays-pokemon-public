@@ -14,6 +14,8 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 - Entrance from Mt. Chimney: Spawn at (13, 5).
 - Acro Bike rail chutes along columns 13..14.
 - Ledge jump at row 7 down to row 8.
+- Ledge jump at row 10 down to row 11 terrace.
+- Row 12/13 Terrace: Col 12 and west is an impassable high cliff wall (cannot jump south). The jumpable ledge to continue descent is located east of the rail bars at columns 15..17 along row 13, landing on row 14.
 
 ## Trainers
 1. Hiker Eric: [DEFEATED]
