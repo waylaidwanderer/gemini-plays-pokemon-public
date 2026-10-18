@@ -12,7 +12,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
 - Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
-- Southern Signpost: Located at (5, 9) south of the Pokémon Center.
+- Signpost: Located at (6, 9) south of the Pokémon Center. Text: "FORTREE CITY / “The treetop city that frolics with nature.”"
 - Main Avenue: Runs east along row 7 and row 8.
 
 ## Progression Checklist - Fortree City

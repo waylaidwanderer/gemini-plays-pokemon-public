@@ -236,7 +236,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
 - Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
-- Southern Signpost: Located at (5, 9) south of the Pokémon Center.
+- Signpost: Located at (6, 9) south of the Pokémon Center. Text: "FORTREE CITY / “The treetop city that frolics with nature.”"
 - Main Avenue: Runs east along row 7 and row 8.
 
 ## Progression Checklist - Fortree City
@@ -2339,8 +2339,8 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 ## Progression Checklist - Route 119
 1. [x] Enter Route 119 from Route 118.
 2. [x] Navigate through lower giant grass and defeat trainers (Fisherman Chris, Ranger Catherine defeated; Zinc obtained).
-3. [ ] Reach and enter the Weather Institute.
-4. [ ] Defeat Team Magma/Aqua inside Weather Institute and rescue scientists (receive Castform).
+3. [x] Reach and enter the Weather Institute.
+4. [x] Defeat Team Magma/Aqua inside Weather Institute and rescue scientists (receive Castform).
 5. [x] Cross the bridge and defeat Rival Brendan (obtain HM02 Fly).
 6. [x] Continue north into Fortree City.
 
