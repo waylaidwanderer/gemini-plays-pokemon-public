@@ -1938,10 +1938,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 39, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Confront Team Magma Leader Maxie at the volcanic machine, defeat him, and retrieve the Meteorite! Total money: ¥38,808. Party: Sage Lv 40 (OK, 113/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Confront Team Magma Leader Maxie at the volcanic machine, defeat him, and retrieve the Meteorite! Total money: ¥38,808. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (28/30). HP: 113/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (8/15), Quick Attack (28/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 50/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
