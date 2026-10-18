@@ -63,3 +63,5 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Upper River Terrace: Located at rows 44..47, cols 17..22 overlooking the river to the east.
 - Weather Institute Grounds: Located across the river to the northeast. Item Ball visible on the opposite bank around row 40.
 - Upper River Terrace Elevation: The riverbank at (18, 44) is an elevated cliff drop-off over the gorge (cannot Surf off the cliff). The main route leads west along row 44 connecting to the northern corridor (cols 8..11) leading toward the Weather Institute bridge.
+- Weather Institute Exterior: Located at rows 30..35, cols 3..9. Entrance doors at (6..7, 31). Signpost at (8, 32).
+- Team Aqua Bridge Blockade: Two Team Aqua Grunts standing at (14, 32..33) blocking the eastern bridge over the river leading toward Fortree City.
