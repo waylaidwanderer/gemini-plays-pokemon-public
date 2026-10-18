@@ -2327,6 +2327,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Northwest Exit Corridor: An open grass lane runs diagonally through (14, 115) -> (17, 112) bypassing the tree line and emerging at the riverbank at (17, 111).
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
 - Western Terrace: (rows 96..102, cols 3..12) accessed via stairs at (11..12, 103) from beach at (12..13, 104..105). Contains giant tall grass and Zinc at (4, 96). Bounded by solid northern pine tree wall. [FULLY CLEARED - Turn 8580].
+- River Rock Barrier: The river at rows 99..100 is completely blocked from east to west by stationary river rocks, preventing surfing directly north to the Weather Institute. Route 119 must be traversed via the eastern bank highway.
 
 <hr>
 
