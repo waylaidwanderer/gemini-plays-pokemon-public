@@ -220,6 +220,33 @@ A subterranean volcanic cavern carved directly through the interior of Mt. Chimn
 
 <hr>
 
+<h1><code>Locations/FortreeCity</code></h1>
+
+# Location: Fortree City
+
+## Overview
+A unique Hoenn city built among the treetops, where houses are suspended in giant trees connected by wooden ladders and rope bridges. Connected to Route 119 on the west and Route 120 on the east. Home to the Fortree Gym (Leader Winona - Flying-type specialist).
+
+## Connection Points
+- West Exit: Route 119 (connects directly to the northern highway).
+- East Exit: Route 120 (leading toward Ancient Tomb, Route 121, and Lilycove City).
+
+## Key Landmarks & Buildings
+- Pokémon Center: Red-roofed healing facility.
+- Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
+- Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
+- Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
+
+## Progression Checklist - Fortree City
+1. [ ] Arrive in Fortree City and heal at Pokémon Center (set respawn checkpoint).
+2. [ ] Explore town landmarks, shops, and treehouses.
+3. [ ] Approach Fortree Gym and inspect invisible barrier.
+4. [ ] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope.
+5. [ ] Unmask and clear the invisible Kecleon blocking Fortree Gym.
+6. [ ] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
+
+<hr>
+
 <h1><code>Locations/GraniteCave</code></h1>
 
 # Location: Granite Cave
@@ -2306,7 +2333,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 3. [ ] Reach and enter the Weather Institute.
 4. [ ] Defeat Team Magma/Aqua inside Weather Institute and rescue scientists (receive Castform).
 5. [x] Cross the bridge and defeat Rival Brendan (obtain HM02 Fly).
-6. [ ] Continue north into Fortree City.
+6. [x] Continue north into Fortree City.
 
 ## Trainers & NPCs
 - Ninja Boy Disguise Tree Line: (10..13, 115) - A horizontal row of pine trees with disguise eyes. Inert/defeated; blocks northward movement along cols 10..13. The open route north wraps around them via (14, 115) -> (17, 112).

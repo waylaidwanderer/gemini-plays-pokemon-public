@@ -23,7 +23,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 3. [ ] Reach and enter the Weather Institute.
 4. [ ] Defeat Team Magma/Aqua inside Weather Institute and rescue scientists (receive Castform).
 5. [x] Cross the bridge and defeat Rival Brendan (obtain HM02 Fly).
-6. [ ] Continue north into Fortree City.
+6. [x] Continue north into Fortree City.
 
 ## Trainers & NPCs
 - Ninja Boy Disguise Tree Line: (10..13, 115) - A horizontal row of pine trees with disguise eyes. Inert/defeated; blocks northward movement along cols 10..13. The open route north wraps around them via (14, 115) -> (17, 112).
