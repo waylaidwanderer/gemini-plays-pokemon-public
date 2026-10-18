@@ -16,9 +16,9 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 ## Progression Checklist - Route 118
 1. [x] Enter Route 118 from Mauville City.
 2. [x] Defeat western shore trainers (Deandre, Rose, Dalton, Wade defeated; woman at 12, 11 is civilian).
-3. [ ] Surf across the river to the eastern shore with Lombre (Lilz).
+3. [x] Surf across the river to the eastern shore with Lombre (Lilz).
 4. [ ] Meet Steven Stone on the eastern shore.
-5. [ ] Speak to Good Rod Fisherman on eastern shore to obtain Good Rod.
+5. [x] Speak to Good Rod Fisherman on eastern shore to obtain Good Rod (obtained Good Rod!).
 6. [ ] Head north onto Route 119 towards Fortree City.
 
 ## Trainers & NPCs (Western Shore)
