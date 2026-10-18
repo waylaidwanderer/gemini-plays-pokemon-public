@@ -2414,6 +2414,7 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
 - East/South Exit: Route 121 (leading toward Safari Zone and Lilycove City).
 
 ## Key Landmarks & Features
+- Entrance Signpost: Located at (27, 3), read from (27, 4) facing North. Text: "ROUTE 120 / ⬅ FORTREE CITY".
 - Western Clearing: Open grass corridor connecting to Fortree City.
 - Puddle / Pond Network: Water bodies requiring Surf or crossing via bridges.
 - Northern Wooden Bridge: Location where Steven Stone is waiting with the Devon Scope!
