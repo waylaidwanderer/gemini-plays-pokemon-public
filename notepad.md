@@ -464,6 +464,16 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (4, 15): Center corridor pit between pillars.
 
 ## Room 5 (1F South-Central Bay)
+### Room 5 Upper Terrace (rows 1-6)
+- Access: Reached from Room 6 via steam pit (0, 6), landing at (1, 6) facing East!
+- Layout:
+  - Elevated walkway along row 6 directly above the row 7 south-facing jump ledge.
+  - Hopping South over row 7 drops down into the lower level where Kindler Axle stands at (3, 10).
+  - Steam Pits:
+    - (0, 6): Arrival pit (warps back to Room 6 (0, 6)).
+    - (3, 6): Steam pit on row 6 walkway.
+    - (5, 6): Steam pit in eastern section.
+    - Additional pits visible on northern tier (rows 2-4).
 - Access: Arrived via steam pit warp from Room 4 (1, 15), landing at (2, 14).
 - Layout & Collision (Fully Verified):
   - Adjacent Trainers: Kindler Cole stands at (3, 14) (East of player), Cooltrainer Gerald stands at (2, 15) (South of player). Both defeated.
@@ -488,14 +498,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Steam Pit 1 at (10, 18): Entrance pit warping between 1F Entrance Foyer and lower B1F Room 2 (Kindler Jeff reset trap).
 ## Room 6 (B1F Northwest / Upper Network)
 - Access: Warped from Room 5 via steam pit at (0, 10), landing at (0, 10) facing South.
-- Layout:
+- Layout & Steam Pits:
   - Bounded west by outer gray border.
   - Divided by vertical pillar with pink banners to the east.
   - Horizontal blue ledge visible to the south across rows 12..13.
   - Steam Pits:
-    - Visible to the north at the top of the corridor.
-    - Visible to the south beyond the ledge.
-    - Visible in adjacent eastern bay.
+    - (0, 6): [TESTED] Northwest pit. Warps to Room 5 Upper Terrace at (0, 6), landing at (1, 6)!
+    - (2, 6): Northeast pit.
+    - (1, 14): South pit (below row 12 ledge).
 
 
 <hr>
