@@ -291,8 +291,8 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 ## Progression Checklist - Fortree Gym
 1. [x] Unmask Kecleon outside Gym and enter front doors (turn 9227).
 2. [x] Speak to Gym Guide (turn 9235 - advised on Flying-type weaknesses and rotating doors).
-3. [ ] Solve rotating turnstile puzzles.
-4. [ ] Defeat Gym trainers.
+3. [x] Solve rotating turnstile puzzles (Turnstiles 1, 2, 3 solved!).
+4. [x] Defeat Gym trainers (Jared & Ashley defeated!).
 5. [ ] Challenge and defeat Gym Leader Winona to earn the Feather Badge and TM40!
 
 ## Turnstile Puzzle Solutions
@@ -2819,7 +2819,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 120/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥77,904.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 120/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥79,200.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (2/15), Quick Attack (25/30). HP: 108/148. Max HP: 148. Stats: Atk 102, Def 76, Sp.Atk 114, Sp.Def 102, Speed 137. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -2849,7 +2849,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥77,904
+- Money: ¥79,200
 - Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
