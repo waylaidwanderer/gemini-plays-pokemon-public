@@ -488,6 +488,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 ## Key Landmarks
 - Cable Car Upper Station: Building at (16..18, 32..36). Exit door is at (17, 36), step outside onto (17, 37).
 - Upper Station Signpost: Located at (24, 37), read from (24, 38) facing North. Text: "↓ JAGGED PATH / LAVARIDGE TOWN AHEAD".
+- Eastern Staircases: Two-tier wooden stairs along col 26 (lower at rows 31..32, terrace at rows 29..30, upper at rows 27..28) leading up from Cable Car area to caldera rim at row 26.
 - Clashing Grunts: Directly southeast at (19..22, 38..39), an Aqua Grunt (left) and Magma Grunt (right) have their Poochyena clashing.
 - Jagged Pass Entrance: Located to the south/southeast with one-way downhill ledges (blocked until Team Magma defeated).
 - Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine.
