@@ -135,6 +135,6 @@
 2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
 3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
-5. [ ] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
+5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
 6. [ ] Challenge Petalburg Gym trainers (Room Doors: Speed, Accuracy, Defense, Recovery, Strength, One-Hit KO).
 7. [ ] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!

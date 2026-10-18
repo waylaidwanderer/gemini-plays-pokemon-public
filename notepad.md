@@ -998,6 +998,46 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 
 <hr>
 
+<h1><code>Locations/PetalburgGym</code></h1>
+
+# Location: Petalburg Gym
+
+## Overview
+The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
+- Gym Leader: Norman (Dad)
+- Type Specialty: Normal
+- Badge: Balance Badge (enables HM03 Surf outside battle, increases party's Defense)
+- Reward TM: TM42 Facade
+- Puzzle Mechanics: Room doors. Each room features two doors leading deeper into the gym. Each room contains a trainer specializing in a specific battle item / stat strategy (Speed, Accuracy, Defense, Recovery, Strength, One-Hit KO). Defeating a trainer opens both doors in that room.
+
+## Entrance Foyer
+- Entrance / Exit mat: (4, 111).
+- Gym Guide: Located at (3, 108) facing South.
+- Gym Statues: Located at (2, 108) and (6, 108).
+- North Doors: Located at rows 104..105 leading to the first tier of challenge rooms.
+
+## Rooms & Door Structure
+- Tier 1 (Entrance Room):
+  - Left Door: SPEED ROOM
+  - Right Door: ACCURACY ROOM
+- Tier 2:
+  - From Speed Room: CONFUSION ROOM or DEFENSE ROOM
+  - From Accuracy Room: DEFENSE ROOM or RECOVERY ROOM
+- Tier 3:
+  - STRENGTH ROOM or ONE-HIT KO ROOM
+- Tier 4:
+  - GYM LEADER NORMAN'S ROOM
+
+## Progression Checklist - Petalburg Gym
+1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
+2. [ ] Consult Gym Guide.
+3. [ ] Navigate chosen door path and defeat Gym trainers.
+4. [ ] Challenge and defeat Gym Leader Norman.
+5. [ ] Obtain Balance Badge, TM42 Facade, and register Norman in Match Call.
+
+
+<hr>
+
 <h1><code>Locations/PetalburgWoods</code></h1>
 
 # Location: Petalburg Woods
@@ -1041,12 +1081,8 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
   - Location: (26, 21) confronting Devon researcher.
   - Team: Poochyena ♂ Lv 9.
   - Reward: ¥180, Great Ball (from Researcher).
-## Verified Southbound Traversal (Turn 8138)
-- High-Speed Mach Bike Route: From north gate at (14, 5), ride straight South down column 14.
-- Hop row 14 south-facing ledge to (14, 18).
-- Continue South down column 14 (bypassing NPC at 15, 20 on the west) and hop row 22 south-facing ledge to row 23/24.
-- Connect south along column 16..17 straight into the south exit gatehouse at (16..17, 38..39) leading to Southern Route 104 and Petalburg City!
-- Full Verified High-Speed Descent (Turns 8138-8145): North gate (14, 5) -> South along col 14 hopping row 14 ledge to (14, 18) -> South along col 14 hopping row 22 ledge to (14, 27) -> East to col 16 at (16, 27) -> South along col 16 hopping row 30 ledge to (16, 31) -> South along col 16 straight into south gatehouse at (16..17, 39).
+## Verified Southbound Traversal (Turn 8138-8145)
+- Full Verified High-Speed Descent: North gate (14, 5) -> South down col 14 hopping row 14 ledge to (14, 18) -> South down col 14 (bypassing NPC at 15, 20) hopping row 22 ledge to (14, 27) -> East to col 16 at (16, 27) -> South down col 16 hopping row 30 ledge to (16, 31) -> South down col 16 straight into south gatehouse at (16..17, 39) leading to Route 104 South.
 
 <hr>
 
@@ -2519,7 +2555,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
 3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
-5. [ ] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
+5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
 6. [ ] Challenge Petalburg Gym trainers (Room Doors: Speed, Accuracy, Defense, Recovery, Strength, One-Hit KO).
 7. [ ] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!
 
