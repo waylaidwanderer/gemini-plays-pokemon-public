@@ -10,7 +10,9 @@ A hot spring town situated at the southern base of Mt. Chimney. Famous for its v
 ## Key Landmarks
 - Pokémon Center: Located in northeast Lavaridge Town with front entrance at (8..9, 4..5). Connected to the outdoor hot springs in the rear. Checkpoint destination!
 - Poké Mart: Located at (14..15, 4..5) with entrance at (14, 5).
-- Old Lady NPC: Located at (7, 6) outside Pokémon Center.
+- Ambient Hot Springs Lady: Located at (8, 7) outside Pokémon Center entrance. Dialogue: "Oh, you like hot springs, do you? / That's surprising for one as young as you." (Does NOT give the Egg).
+- Sand Bath Egg Lady: Located in the hot sand bath area at (5..6, 7). Offers the Wynaut Egg!
+- Hot Sand Baths: Located at cols 4..7, rows 7..9 with buried bathers and hot spring pool above at rows 3..6.
 - Lavaridge Gym: Located in western/southwestern area of town. Gym Leader Flannery (Fire type).
 - Herb Shop: Sells herbal medicine (EnergyPowder, Energy Root, Heal Powder, Revival Herb).
 - Residential Houses: Two houses located at rows 12..16, cols 8..18.
