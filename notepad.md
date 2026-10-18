@@ -2340,7 +2340,9 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Bird Keeper Phil: (8, 63) facing South - [DEFEATED - Turn 8737]. Team: Swellow Lv 26. Prize: ¥832.
 - Item Ball: (3, 56) - [OBTAINED] Hyper Potion! Located in northwest alcove by puddle and mud slope.
 - Western Cliff Mud Slope: Located at cols 5..6, rows 53..54 leading to an upper ledge. Main progression route continues east toward the central river and Weather Institute.
-- Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.
+- Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.- Acro Bike Rails: Located at (14, 54) along the cliff ledge above the giant grass.
+- Kindler Dayton & Ninja Boy Takashi (Double Battle): (18..19, 52) at top of white stairs - [DEFEATED - Turn 8821]. Dayton used Slugma Lv 25, Numel Lv 25; Takashi used Ninjask Lv 25.
+
 
 <hr>
 
@@ -2643,7 +2645,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥67,620
+- Money: ¥69,492
 - Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

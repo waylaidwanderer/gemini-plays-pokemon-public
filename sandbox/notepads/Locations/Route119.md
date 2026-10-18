@@ -57,4 +57,5 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Bird Keeper Phil: (8, 63) facing South - [DEFEATED - Turn 8737]. Team: Swellow Lv 26. Prize: ¥832.
 - Item Ball: (3, 56) - [OBTAINED] Hyper Potion! Located in northwest alcove by puddle and mud slope.
 - Western Cliff Mud Slope: Located at cols 5..6, rows 53..54 leading to an upper ledge. Main progression route continues east toward the central river and Weather Institute.
-- Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.
+- Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.- Acro Bike Rails: Located at (14, 54) along the cliff ledge above the giant grass.
+- Kindler Dayton & Ninja Boy Takashi (Double Battle): (18..19, 52) at top of white stairs - [DEFEATED - Turn 8821]. Dayton used Slugma Lv 25, Numel Lv 25; Takashi used Ninjask Lv 25.
