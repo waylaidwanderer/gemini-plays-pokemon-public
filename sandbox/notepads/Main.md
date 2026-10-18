@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 43, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 118, meet Steven, cross Route 119 to Fortree City! Party: Sage Lv 43 (PAR, 117/130 HP, Leaf Blade 8/15, Quick Attack 25/30), Lilz Lv 19 (OK, 57/57, Surf 15/15), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥61,060.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 118, meet Steven, cross Route 119 to Fortree City! Party: Sage Lv 43 (PAR, 117/130 HP, Leaf Blade 8/15, Quick Attack 25/30), Lilz Lv 20 (OK, 60/60, Surf 15/15), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥63,652.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 43) [Held Item: None (consumed)] - Evolved on turn 5632! Level 43 on turn 8194! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (25/30). HP: 93/130. Max HP: 130. Stats: Atk 92, Def 70, Sp.Atk 104, Sp.Def 93, Speed 124. Status: PAR. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (30/30), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 57/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
+2. LILZ (Lombre ♀, Level 20) - Evolved from Lotad on turn 4926! Level 20 on turn 8396! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 60/60. Max HP: 60. Stats: HP 60, Atk 29, Def 25, Sp.Atk 27, Sp.Def 35, Speed 29. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
@@ -30,7 +30,7 @@
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥61,060
+- Money: ¥63,652
 - Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -150,4 +150,4 @@
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
 - Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
-- Field Surf Mechanics: In Gen 3 (RSE), you cannot initiate Surf while riding a Bicycle. You must dismount the Bicycle (press Select) onto foot before interacting with water with 'A' to trigger the Surf prompt.
+- Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
