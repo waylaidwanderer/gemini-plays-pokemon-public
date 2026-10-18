@@ -325,11 +325,13 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
   - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
   - Ashley: Swablu Lv 27 x2 (both fainted).
-- Turnstiles 4 & 5 (Interlocking Upper Turnstiles):
-  - Turnstile 5 (Pivot at 9, 11): North arm at (9, 10), South arm at (9, 12), East arm at (10, 11). Pushing from (8, 12) East was blocked because (8, 11) contains a solid pillar base preventing counter-clockwise rotation.
-  - Turnstile 4 (Pivot at 9, 14): West arm at (8, 14), North arm at (9, 13), South arm spanning column 9 (rows 15..17).
-  - Solution Route: Loop via column 7: (7, 12) -> (7, 15) -> (8, 15) to face the West arm at (8, 14) from the south, then push North to rotate Turnstile 4 clockwise. [SOLVED - Turn 9335]
-  - Eastern Highway Unlocked: The long south arm of Turnstile 4 rotated from column 9 to row 14 (West). This opens row 16 across column 9 into columns 10..14. Column 13/14 contains a clear suspension bridge highway leading north directly to Gym Leader Winona!
+- Turnstile 4 & Upper Route Correction:
+  - Turnstile 4 is located at (9, 14).
+  - Column 9 and 10 below row 14 are permanently blocked by double rows of solid fence posts (not an open highway).
+  - The correct progression route leads through the WESTERN corridor (columns 4–6), bypassing the dead-end pocket around (8, 14) entirely.
+  - Western Corridor Progression:
+    - Route west along row 14 to column 4/5.
+    - Advance north past Trainer 4 (Bird Keeper at 4, 11) toward the upper gym and Winona's platform.
 
 ## Pre-Boss Recovery Strategy [COMPLETED - Turn 9358]
 - Full party recovery executed at Fortree Pokémon Center on turn 9358!
