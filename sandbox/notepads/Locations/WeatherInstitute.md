@@ -24,7 +24,7 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [x] Ascend to 2F and defeat Team Aqua Grunts and Admin Shelly.
 5. [x] Speak to Head Scientist, receive Castform holding Mystic Water (sent to PC Box).
 6. [x] Rest in 1F recovery bed to restore entire party to full health (verified and used on turn 8847!).
-7. [ ] Exit building and cross the now-unblocked bridge toward Fortree City.
+7. [x] Exit building and cross the now-unblocked bridge toward Fortree City.
 - 2F Layout: Stairs at (17, 1..2) in northeast. Desks and bookshelves in central-east area.
 - Team Aqua Grunt Pair (2F Double Battle): (16..18, 6) - [DEFEATED - Turn 8925]. Team: Poochyena Lv 27, Zubat Lv 27, Carvanha Lv 27, Poochyena Lv 27. Prize: ¥1,080.
 - Team Aqua Grunt (2F West Hallway): (10, 9) - [DEFEATED - Turn 8976]. Team: Poochyena Lv 26, Zubat Lv 26, Carvanha Lv 26. Prize: ¥520.
