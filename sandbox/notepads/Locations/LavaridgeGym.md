@@ -65,6 +65,13 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Reward: ¥1,104 prize money. Total money: ¥45,832.
    - Post-battle: Stands at (2, 14).
 
+5. Kindler Cole: [DEFEATED]
+   - Location: Ambushed from steam pit at (3, 14) in 1F Southwest Room.
+   - Pre-battle quote: "Owwwowowow! Yikes, it's hot!"
+   - Team: Numel ♂ Lv 23 (OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥736 prize money. Total money: ¥46,568.
+   - Post-battle: Stands at (3, 14).
+
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
 - Layout & Navigation:
