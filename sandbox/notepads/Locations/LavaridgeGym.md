@@ -42,8 +42,8 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 1. Entrance (1F): Enter Gym at (13, 18). Walk Left 3 steps to Steam Pit 1 at (10, 18).
 2. Steam Pit 1 drops to B1F Room 2 at (10, 18).
 3. In B1F Room 2:
-   - East section has Kindler Jeff (defeated!) at (13, 17) (decoy trap pit).
-   - From (10, 18), walk LEFT along row 18 all the way to (4, 18)!
-4. At (4, 18) in B1F: Step onto Steam Pit 2!
-5. Steam Pit 2 blasts May UP into 1F West Wing at (4, 18)!
-6. In 1F West Wing: Walk NORTH along column 4 into the upper rooms to continue toward Flannery!
+   - Kindler Jeff at (13, 17) is a defeated decoy trainer.
+   - Walk row 18 under Jeff: (12, 18) -> (13, 18) -> (14, 18).
+   - Walk Up col 14 to row 11: (14, 11).
+   - Walk East at row 11 to col 15: (15, 11).
+   - Walk South down col 15 into the Eastern Corridor to reach the true steam pit!
