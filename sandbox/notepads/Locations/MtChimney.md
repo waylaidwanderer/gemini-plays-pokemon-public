@@ -45,5 +45,5 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Male Grunt defeat quote: "Hunh? What do you mean I lost?"
    - Female Grunt defeat quote: "My dream of a big house..."
    - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
-   - Reward: ¥1,600 prize money.
+   - Reward: ¥800 prize money.
    - Outcome: Complete victory! Zubat and Numel defeated.
