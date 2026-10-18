@@ -355,12 +355,15 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
    - Walk North up col 9 via (9, 13), (9, 12), (9, 11) to (9, 10).
 5. Defeat Trainers:
    - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
-6. Upper Approach to Winona:
-   - From (9, 10), step Left to (8, 10), Up to (8, 9), Left to (7, 9).
-   - Step Up to (7, 8), then Up to (7, 7).
-   - From (7, 7), walk North up col 7: Up through (7, 6) into (7, 5) to push top turnstile open.
-   - Continue North through (7, 4), (7, 3), (7, 2) to row 1 (7, 1).
-   - Walk East along row 1 straight onto Gym Leader Winona's platform!
+6. Upper Approach to Winona (Final Puzzle Solution):
+   - From Double Battle at (9, 10), walk west: Left x 2 to (7, 10), North to (7, 9) and (7, 8).
+   - Turnstile 6 (hub at 6, 7): Has arms at West (5, 7), South (6, 8), and East (7, 7). Pushing Up from (7, 8) lands on (7, 7) facing northern pillars at row 6.
+   - The correct bypass to Column 4: From (7, 7) or (7, 8), step Down to (7, 9), then walk West across row 9 through (6, 9), (5, 9) to (4, 9).
+   - Column 4 is an open vertical corridor from row 9 all the way up to row 2!
+   - Walk North up Column 4: (4, 9) -> (4, 8) -> (4, 7) -> (4, 6) -> (4, 5) -> (4, 4) -> (4, 3) -> (4, 2).
+   - Top Turnstile (hub at 6, 1): Has West arm across row 1 (cols 3..6) and South arm down col 6 (rows 1..3) blocking the eastern platform corridor at (6, 2).
+   - At (4, 2), push North (Up) into (4, 1) against the West arm to rotate the turnstile clockwise. The South arm swings west into row 1, clearing col 6 at row 2!
+   - From (4, 2), walk East along row 2: Right across cols 5, 6, 7, 8, 9, 10, 11, 12 straight onto Gym Leader Winona's platform!
 
 <hr>
 
