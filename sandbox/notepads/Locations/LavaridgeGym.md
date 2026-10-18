@@ -121,7 +121,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Vertical dividing pillar at column 3.
   - Steam Pits:
     - (0, 10): Upper tier pit above row 12 ledge.
-    - (1, 15): [TESTED] Active warp pit! Stepping onto (1, 15) launches player in a steam geyser to Room 5 at (2, 14).
+    - (1, 15): Walkable floor tile (not a warp pit). The drop pit in this area is at (1, 14).
     - (0, 17): Bottom-left pit.
     - (5, 14): Center corridor pit (warps to 1F (6, 14)).
 
@@ -175,7 +175,9 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 ## B1F Northern Corridor (Verified Turn 7673)
 - Access: Upper floor of B1F accessible via 1F Upper Terrace steam pit at (2, 3), dropping to B1F at (2, 3).
 - Layout: Row 3 connects columns 3 through 12 continuously.
-- Steam Geyser at (12, 3): Active steam geyser launching player to 1F at (13, 3) in the Northeast Bay!
+- Steam Geysers along Row 3:
+  - (7, 3): Active steam geyser launching to 1F Middle Bay!
+  - (12, 3): Active steam geyser launching to 1F Northeast Bay at (13, 3)!
 
 ## 1F Northeast Bay (Verified Turn 7676)
 - Access: Launched from B1F geyser at (12, 3), landing at 1F (13, 3).
@@ -183,6 +185,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Steam Pits:
   - (12, 3): Arrival geyser tile.
   - (15, 6): Active drop steam pit! Stepping onto (15, 6) on 1F drops player straight to B1F at (14, 6) in the B1F Eastern Corridor!
+  - (14, 2): [TESTED] Active drop steam pit! Stepping onto (14, 2) on 1F drops player straight to B1F at (14, 6) in the B1F Eastern Corridor!
 
 ## B1F Eastern Corridor (Verified Turn 7680)
 - Access: Dropped from 1F Northeast Bay steam pit at (15, 6), landing at B1F (14, 6).
@@ -210,9 +213,9 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Flannery Platform Access: Gym Leader Flannery stands on an elevated wooden platform at (14, 8) with a south-facing one-way ledge. It cannot be accessed by walking from the south. It must be reached via a steam geyser from B1F.
 
 
-## B1F East Wing Routing (Verified Turn 7529)
-- Row 17 B1F Highway: Connects western wing (cols 0-4) directly to column 8 (eastern wing access) without needing vertical warps.
-- From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9).
+## B1F Row 17 Corridor (Verified Turn 7529)
+- Row 17 Highway: Connects column 0 all the way east to column 8.
+- Pits along Row 17: (0, 18) southwest steam geyser launching to 1F Room 4 at (1, 17); (5, 14) central steam geyser launching to 1F Upper Tier at (6, 14); (8, 9) north pit launching to 1F at (9, 9).
 
 
 ## 1F West Wing Topology (Verified Turn 7573)
