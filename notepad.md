@@ -444,14 +444,31 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 
 ## Room 4 (1F Southwest Room)
 - Access: Reached from B1F West Wing via Southwest Steam Pit at (0, 17), landing at (1, 17) on 1F.
-- Layout:
-  - Bounded west by gym wall (col 0), south by south wall (row 18), east by vertical pillar at col 4.
-  - Verified Steam Pits:
-    - (0, 17): Arrival pit from B1F (0, 17).
-    - (2, 14): Center-south steam pit.
-    - (1, 12): Northwest steam pit.
-    - (3, 12): Northeast steam pit.
-    - (5, 12): Adjacent east corridor steam pit (beyond col 4 pillar).
+- Layout & Topology (Fully Verified):
+  - Row 12 is an impassable south-facing jump ledge dividing the room into an elevated North Tier (rows 10-12) and Lower Tier (rows 13-18). Cannot walk north across row 12.
+  - Defeated Trainers: Pink-hat NPC at (3, 16), Blonde spiky-hair NPC at (3, 18).
+  - Vertical dividing pillar at column 3.
+  - Steam Pits:
+    - (0, 10): Upper tier pit above row 12 ledge.
+    - (1, 15): [TESTED] Active warp pit! Stepping onto (1, 15) launches player in a steam geyser to Room 5 at (2, 14).
+    - (0, 17): Bottom-left pit.
+    - (4, 15): Center corridor pit between pillars.
+
+## Room 5 (1F South-Central Bay)
+- Access: Arrived via steam pit warp from Room 4 (1, 15), landing at (2, 14).
+- Layout & Collision (Fully Verified):
+  - Current player position: (2, 14) facing East.
+  - Adjacent Trainers: Kindler Cole stands at (3, 14) (East of player), Cooltrainer Gerald stands at (2, 15) (South of player). Both defeated.
+  - South/East blocked by Gerald and Cole.
+  - West: Steam pit at (1, 14) (return pit).
+  - North: Column 2 (rows 10-13) is a wide-open corridor heading straight north! No ledges blocking northbound movement.
+  - Visible Steam Pits:
+    - (1, 14): Arrival steam pit directly west of (2, 14).
+    - (1, 18): Bottom-left steam pit.
+    - (1, 10): Northwest steam pit.
+    - (3, 10): Northeast steam pit (north of Cole).
+    - (5, 14): Eastern corridor pit beyond pillar.
+    - (5, 10): Northeast corridor pit beyond pillar.
 
 ## Gym Navigation & Mechanics (Verified)
 - 1F Central Highway (Major Breakthrough): Row 13 ledge ONLY blocks the central foyer (cols 11-15). Column 8 is an OPEN NORTHBOUND HIGHWAY running from row 16 past the left statue all the way to row 8!
