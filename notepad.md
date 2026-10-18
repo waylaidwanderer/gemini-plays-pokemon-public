@@ -1557,6 +1557,10 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Item Ball: [COLLECTED] Located at (12, 54) nestled between stationary rocks at (11, 54) and (11, 56). Item: STARDUST!
 - Mirage Tower Camper NPC: Located at (14, 56). Dialogue: Points out Mirage Tower, notes it looks fragile and could crumble anytime, but lacks courage to enter. (Friendly NPC, non-trainer).
 - Wild Pokémon Encountered: Baltoy (Lv 19, Ground/Psychic), Sandshrew (Lv 19, Ground).
+## Verified Traversal: Desert to Mauville City Highway (Turn 8089)
+- Desert Exit: Column 11 runs south from row 59 to row 70 into Route 111 junction. Bypassed Camper Travis (11, 71) via col 9..10 down to row 73.
+- Central Canyon Shortcut: Row 95 connects east to cols 16..19. Smashable rock at (19, 100) broken with HM06 Rock Smash opens column 19 straight south to Winstrate House at row 109.
+- Winstrate House to Mauville: Row 109 bypasses hedge east to col 21..22, crosses stone bridge at rows 123..125, connects west to cobblestone road at col 14..15, and transitions into Mauville City at (14, 138) / (14, 0).
 
 <hr>
 
