@@ -25,3 +25,13 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
    - Team: Geodude ♂ Lv 20 (OHKO'd by Leaf Blade for 367 EXP), Baltoy Lv 20 (OHKO'd by Leaf Blade).
    - Reward: ¥800 prize money.
    - Outcome: Complete victory! Total money: ¥41,608. Sage HP 90/122, Leaf Blade PP 6/15.
+- Row 16 Ledge: Jump ledge facing south down to row 17.
+- Middle Basin (rows 17..23):
+  - Rail bars at (13..14, 18..19).
+  - Open western dirt corridor (cols 8..12).
+  - Volcanic mound at (15..17, 17..18).
+
+2. Picnicker Diana:
+   - Location: (16, 19) facing North.
+3. Camper Ethan:
+   - Location: (9, 23).
