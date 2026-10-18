@@ -165,3 +165,11 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (8, 9): Eastern bay steam pit (visible to the east).
     - (1, 4), (3, 4), (1, 7), (1, 10): Western bay steam pits.
     - Upper northern terrace pits visible above row 5.
+
+
+## Lavaridge Gym Vertical Warp Mechanics (Verified Turn 7486)
+- 1F and B1F Coordinate Alignment: Every steam pit on 1F directly mirrors a steam pit at the identical (X, Y) coordinates on B1F.
+- Downward Warps (1F -> B1F): Stepping into a steam pit at (X, Y) on 1F drops the player straight down onto (X, Y) on B1F.
+- Upward Warps (B1F -> 1F): Stepping into a steam pit at (X, Y) on B1F triggers a steam geyser that launches the player up to 1F, depositing them 1 tile East onto (X+1, Y)!
+- Flannery Platform Access: Gym Leader Flannery stands on an elevated wooden platform at (14, 8) with a south-facing one-way ledge. It cannot be accessed by walking from the south. It must be reached via a steam geyser from B1F.
+- Room 6 Branching: Room 6 (B1F Northwest) has two upper pits: (0, 6) which loops back via Room 5 Upper Terrace, and (2, 6) which is unexplored and the prime candidate to reach Flannery.
