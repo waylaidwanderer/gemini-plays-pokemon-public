@@ -578,13 +578,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 ## Verified Post-Magma Descent & Machine Mechanics:
 - Meteorite Retrieval: Inspecting the volcanic machine at (14, 6) triggers "A METEORITE is fitted on a mysterious machine... Do you want to remove the METEORITE?" Selecting YES confirms retrieval of the Key Item METEORITE into the Key Items pocket. Subsequent interactions confirm: "This mysterious machine... It makes no response whatsoever."
 - Complete Summit Evacuation: Defeating Leader Maxie causes all Team Magma and Team Aqua NPCs to completely vanish from Mt. Chimney, unblocking all passages including Jagged Pass.
-- Southbound Caldera Descent Route:
-  1. From machine at (13, 6): Walk West 3 to (10, 6), Down 11 along col 10 to (10, 17).
-  2. Walk East along row 17 to (25, 17).
-  3. Walk Down 6 along col 25 through upper stairs to (25, 23) (row 23 terrace).
-  4. Walk West 5 along row 23 to (20, 23), Down 2 through middle stairs to (20, 25) (row 25 terrace).
-  5. Walk East 6 along row 25 to (26, 25).
-  6. Walk Down 8 along col 26 down both flights of eastern stairs to base at (26, 33).
+- Southbound Caldera Descent: Completed via switchback stairs down to the southern exit at (20, 42).
 
 <hr>
 
@@ -1982,10 +1976,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 39, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge)! Total money: ¥40,808. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge)! Total money: ¥41,608. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (8/15), Quick Attack (28/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (6/15), Quick Attack (28/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 50/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -2006,7 +2000,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥40,808
+- Money: ¥41,608
 - Key Items: Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

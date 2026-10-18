@@ -69,10 +69,4 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 ## Verified Post-Magma Descent & Machine Mechanics:
 - Meteorite Retrieval: Inspecting the volcanic machine at (14, 6) triggers "A METEORITE is fitted on a mysterious machine... Do you want to remove the METEORITE?" Selecting YES confirms retrieval of the Key Item METEORITE into the Key Items pocket. Subsequent interactions confirm: "This mysterious machine... It makes no response whatsoever."
 - Complete Summit Evacuation: Defeating Leader Maxie causes all Team Magma and Team Aqua NPCs to completely vanish from Mt. Chimney, unblocking all passages including Jagged Pass.
-- Southbound Caldera Descent Route:
-  1. From machine at (13, 6): Walk West 3 to (10, 6), Down 11 along col 10 to (10, 17).
-  2. Walk East along row 17 to (25, 17).
-  3. Walk Down 6 along col 25 through upper stairs to (25, 23) (row 23 terrace).
-  4. Walk West 5 along row 23 to (20, 23), Down 2 through middle stairs to (20, 25) (row 25 terrace).
-  5. Walk East 6 along row 25 to (26, 25).
-  6. Walk Down 8 along col 26 down both flights of eastern stairs to base at (26, 33).
+- Southbound Caldera Descent: Completed via switchback stairs down to the southern exit at (20, 42).
