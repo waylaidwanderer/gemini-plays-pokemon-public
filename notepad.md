@@ -1066,6 +1066,12 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 - Exits:
   - North Door: GYM LEADER NORMAN'S ROOM (Unlocked!)
 
+
+## Tier 4: Gym Leader Norman's Room
+- Coordinates: Entrance mat at (1, 7). Raised tatami platform in center.
+- Gym Leader Norman: Located at roughly (5, 3) facing South.
+  - Team: Spinda Lv 27, Vigoroth Lv 27, Linoone Lv 29, Slaking Lv 31.
+
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.
