@@ -384,9 +384,11 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 ## Room 2 (Puzzle Room 1)
 - Warp Source: Entrance Room Steam Pit 1 at (10, 18) drops here at (10, 18) facing North.
 - Layout:
-  - Left corridor has 3 steam pits stacked vertically behind a divider wall.
-  - East side has a steam pit around (13..14, 16..17).
-  - Central floor extends north.
+  - Arrival Steam Pit: Located at (10, 18) (returns to Entrance Room).
+  - Eastern Lower Steam Pit: Located at (13, 17) south of the col 13 pillar.
+  - Eastern Upper Steam Pit: Located at (12..13, 11) on upper platform.
+  - Western Corridor: 3-4 steam pits along cols 3..5 behind west divider pillars.
+  - North Ledge: Row 15 is an elevated ledge blocking walking directly north.
 
 <hr>
 
