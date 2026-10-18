@@ -34,7 +34,10 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 2. Team Magma Grunt: [DEFEATED]
    - Location: (16, 19) facing North. Engaged player at (16, 20).
    - Pre-battle quote: "Wah! What are you doing here? What am I doing in a place like this? What business is it of yours?"
-   - Team: Poochyena Lv 22 (OHKO'd by Leaf Blade critical for 258 EXP), Numel Lv 22 (OHKO'd by Leaf Blade critical).
+   - Team: Poochyena Lv 22 (OHKO'd by Leaf Blade critical for 258 EXP), Numel Lv 22 (OHKO'd by Leaf Blade critical for 414 EXP).
+   - Defeat quote: "Urrrgh... I should've ducked into our HIDEOUT right away..."
+   - Reward: ¥440 prize money.
+   - Outcome: Complete victory! Total money: ¥42,048.
    - Note: Standing directly in front of the volcanic cliff face at (16, 18), hinting at the hidden Team Magma Hideout entrance!
 3. Camper Ethan:
    - Location: (9, 23).
