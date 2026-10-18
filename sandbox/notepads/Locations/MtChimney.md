@@ -36,3 +36,10 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 8. [ ] Defeat Team Magma Leader Maxie.
 9. [ ] Reclaim the Meteorite from the machine.
 10. [ ] Descend Jagged Pass to Lavaridge Town.
+## Trainers
+1. Team Magma Grunts (Double Battle):
+   - Location: Western pass at (10, 16).
+   - Format: 2-on-2 Double Battle.
+   - Male Grunt quote: "We of TEAM MAGMA are working hard for everyone's sake. Like, if that thing's power made more land, there'd be more places to live. Everyone'd be happy!"
+   - Female Grunt quote: "If there were more land, I'd be able to get a big house of my own! I'm going to build it on hardened lava!"
+   - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
