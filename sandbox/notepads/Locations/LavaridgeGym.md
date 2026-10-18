@@ -124,7 +124,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - West: Steam pit at (1, 14) (return pit).
   - North: Column 2 (rows 10-13) is a wide-open corridor heading straight north to row 10!
   - Visible Steam Pits:
-    - (1, 14): Arrival steam pit directly west of (2, 14).
+    - (1, 14): One-way drop from 1F into B1F (1, 14); does not geyser back up to (2, 14).
     - (1, 18): Bottom-left steam pit.
     - (0, 10): [TESTED] Northwest steam pit (warps to Room 6 at (0, 10)).
     - (3, 10): [BLOCKED] Ambush pit where Kindler Axle stands.
@@ -175,4 +175,4 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 
 ## B1F East Wing Routing (Verified Turn 7529)
 - Row 17 B1F Highway: Connects western wing (cols 0-4) directly to column 8 (eastern wing access) without needing vertical warps.
-- From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9) and the Flannery geyser.
+- From (1, 14) in B1F: Walk south to (1, 17), east to (8, 17), and north up column 8 toward the eastern bay pits around (8, 9) [Hypothesis: Unverified if eastern pits lead to Flannery].
