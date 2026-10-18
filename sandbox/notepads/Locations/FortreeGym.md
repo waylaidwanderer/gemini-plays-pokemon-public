@@ -72,3 +72,9 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Lilz Lv 23 revived (67/67 HP, Surf 15/15 PP).
   - Guava Lv 28 restored (95/95 HP, Stomp 20/20 PP).
 - Note: Exiting the Gym resets turnstiles 1-4 to initial orientations upon re-entry; all defeated trainers (Jared, Ashley) remain cleared permanently.
+
+
+- Upper Gym Progression (Columns 2 & 3 Corridor):
+  - Jared at (4, 14) blocks column 4 directly north.
+  - The correct passage routes through (4, 17) -> Left x 2 to (2, 17).
+  - Columns 2 & 3 form an unobstructed vertical corridor running North from row 17 through rows 16..13 to the upper-left turnstile at row 12 leading to Winona!
