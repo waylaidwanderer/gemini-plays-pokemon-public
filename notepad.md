@@ -417,11 +417,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
+- Layout & Navigation:
+  - Hiker Eli stands at (4, 16) (defeated) and Kindler Jace stands at (4, 18) (defeated).
+  - Row 17 is an open horizontal corridor between Eli and Jace connecting cols 0..8!
 - Verified Steam Pits:
-  - (4, 18): Southern pit.
-  - (4, 16): Ambush pit (Hiker Eli - defeated).
-  - (4, 13): Central-west pit between pillars.
-  - (1, 17): Southwest pit.
+  - (4, 18): Ambush pit (Kindler Jace - defeated, stands at 4, 18).
+  - (4, 16): Ambush pit (Hiker Eli - defeated, stands at 4, 16).
+  - (4, 13) / (5, 13): Central-west pit (warps to 1F at (6, 14)).
+  - (0, 17): Southwest pit (accessible from (1, 17) via row 17).
   - (2, 13): Northwest pit.
 
 ## Gym Navigation & Mechanics (Verified)
