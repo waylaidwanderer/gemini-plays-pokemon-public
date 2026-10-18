@@ -1,1 +1,1 @@
-{"floor": 1, "visited": [[7, 6]], "walls": [], "pending_walls": {}}
+{"floor": 1, "visited": [[4, 27], [5, 27], [3, 27], [3, 28]], "walls": [[3, 26]], "pending_walls": {}}
