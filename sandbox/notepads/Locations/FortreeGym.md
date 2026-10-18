@@ -63,11 +63,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Solution Route: Loop via column 7: (7, 12) -> (7, 15) -> (8, 15) to face the West arm at (8, 14) from the south, then push North to rotate Turnstile 4 clockwise. [SOLVED - Turn 9335]
   - Eastern Highway Unlocked: The long south arm of Turnstile 4 rotated from column 9 to row 14 (West). This opens row 16 across column 9 into columns 10..14. Column 13/14 contains a clear suspension bridge highway leading north directly to Gym Leader Winona!
 
-## Pre-Boss Recovery Strategy
-- Before challenging Gym Leader Winona:
-  - Sage has 2/15 PP for Leaf Blade.
-  - Lilz is fainted (0/67 HP).
-  - Guava is at ~20/95 HP.
-  - Options:
-    1. Quick trip to Fortree Pokémon Center to fully heal and restore all PP (resets turnstiles, but all trainers remain defeated).
-    2. Use Bag items: Elixir restores 10 PP to all moves on Sage; Revive / Potions on Lilz and Guava.
+## Pre-Boss Recovery Strategy [COMPLETED - Turn 9358]
+- Full party recovery executed at Fortree Pokémon Center on turn 9358!
+  - Entire party restored to 100% HP and full PP.
+  - Sage Lv 47 (148/148 HP, Leaf Blade 15/15 PP).
+  - Lilz Lv 23 revived (67/67 HP, Surf 15/15 PP).
+  - Guava Lv 28 restored (95/95 HP, Stomp 20/20 PP).
+- Note: Exiting the Gym resets turnstiles 1-4 to initial orientations upon re-entry; all defeated trainers (Jared, Ashley) remain cleared permanently.
