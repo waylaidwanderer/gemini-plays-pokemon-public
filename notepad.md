@@ -590,16 +590,9 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 6. 1F Flannery Platform / Upper Tier: Stepping onto (12, 12) geyser launches player to 1F at (13, 12) directly on the upper tier below Gym Leader Flannery (14, 8)!
 
 ## Gym Leader Flannery Battle (Gym 4)
-- Lead Pokémon: Numel ♀ Lv 24 (Fire/Ground) - Defeated by Sage's Leaf Blade (451 EXP).
-- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) - Defeated by Sage's critical Leaf Blade (975 EXP).
-- Third Pokémon: Slugma Lv 24 (Fire) - Used Light Screen; healed by Flannery's 2nd Hyper Potion; defeated by Sage's Quick Attack (400 EXP).
-- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace! At ~40% HP; Torkoal defeated Sage on Turn 7770.
-- Battle Mechanics Verified: Flannery has used BOTH of her Hyper Potions (1 on Camerupt, 1 on Slugma); she has 0 potions remaining! Camerupt used Attract; infatuation cures automatically when the infatuating Pokémon faints. Emerald move memory preserves last selected move in battle.
-- Lilz fainted to Torkoal's Overheat on Turn 7778; Torkoal's Sp.Atk harshly fell (-2 stages).
-- Turn 7784: Cobalu selected Headbutt; Torkoal used Overheat.
-- Cobalu fainted to Torkoal's Overheat on Turn 7784.
-- Turn 7788: Cipher used Teleport (failed). Battle concluding into blackout full restore.
-- Battle 1 concluded in whiteout on Turn 7789. Preparing for rematch with full-health party.
+- Battle 1 Outcome: Defeated Numel Lv 24, Camerupt Lv 26, and Slugma Lv 24; chipped Torkoal Lv 29 to ~35% HP. Flannery exhausted both Hyper Potions. Sage was immobilized by infatuation/paralysis and fainted, concluding in a strategic whiteout on Turn 7789 to fully restore the entire party (Sage Lv 41, 124/124 HP, 15/15 Leaf Blades) for the rematch.
+- Verified Boss Team: Numel Lv 24 (Fire/Ground), Camerupt Lv 26 (Fire/Ground), Slugma Lv 24 (Fire), Torkoal Lv 29 (Fire - holds White Herb, moves: Overheat, Body Slam, Attract, Sunny Day).
+- Rematch Strategy: Sage sweeps Numel (Leaf Blade OHKO), Camerupt (Leaf Blade OHKO), Slugma (Leaf Blade OHKO), and Torkoal (Leaf Blade 2HKO).
 
 <hr>
 
@@ -2311,7 +2304,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 41, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Inside Lavaridge Gym on 1F Upper Terrace! All 8 Gym trainers defeated! Only Gym Leader Flannery remains! Party: Sage Lv 41 (OK, 124/124), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥48,592.
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Inside Lavaridge Gym navigating 1F Column 8 highway to Steam Pit 2 for Flannery rematch! All 8 Gym trainers defeated! Party: Sage Lv 41 (OK, 124/124, 15/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 124/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
