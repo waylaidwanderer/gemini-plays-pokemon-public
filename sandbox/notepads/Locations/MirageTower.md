@@ -13,3 +13,5 @@ A mystical tower that occasionally manifests in the Route 111 desert. Highly uns
 - Spawn: (10, 14) facing North on Mach Bike.
 - Small rocks at (9, 13) and (11, 13) flanking the entrance path.
 - Central rock formation at rows 10..12.
+- Wild Pokémon Encountered: Sandshrew (Lv 20).
+- Northern open sand corridor along row 3 (cols 4..6+).
