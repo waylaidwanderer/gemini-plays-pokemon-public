@@ -2266,6 +2266,14 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 - Fisherman Wade: (14, 14) - [DEFEATED]. Used Tentacool Lv 16. Prize: ¥640.
 - Beach Civilian: (12, 11) - Friendly woman NPC explaining how Surf allows crossing rivers and the sea.
 
+## Eastern Shore Topography & Mechanics
+- River Crossing: Spans cols 18..27 at row 10. Landing sand is at (28, 9).
+- Good Rod Fisherman: (28, 8) - Friendly NPC facing south. Answers YES to give the Good Rod.
+- Secret Power Rock Cave: Located at (28, 4) in the northern cliff wall.
+- Interviewers Gabby & Ty: Located at (33..34, 8) facing west. Requires manual interaction ('A') to initiate 2-on-2 Double Battle.
+  - Team: Magnemite Lv 27, Loudred Lv 27.
+- Grassy Plateau & Route 119 Trail: Trail wraps east and north around col 36 leading toward Route 119.
+
 
 <hr>
 
