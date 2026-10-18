@@ -155,4 +155,5 @@
 8. [x] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [x] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [x] Arrive in Fortree City and enter Pokémon Center.
-11. [ ] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+11. [x] Obtain Devon Scope from Steven on Route 120 and clear Kecleon blocking Fortree Gym.
+12. [ ] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
