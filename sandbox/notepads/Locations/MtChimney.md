@@ -25,7 +25,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 1. [x] Arrive at Mt. Chimney summit via Cable Car.
 2. [x] Exit Cable Car Station onto Mt. Chimney crater summit at (17, 37).
 3. [x] Read summit signpost at (24, 37) ("↓ JAGGED PATH / LAVARIDGE TOWN AHEAD").
-4. [ ] Navigate north along the path to the caldera.
+4. [ ] Ascend upper stairs at (25, 22..23) into the upper caldera.
 5. [ ] Witness Team Magma vs Team Aqua battles across the caldera.
 6. [ ] Defeat Team Magma Grunts guarding the path.
 7. [ ] Defeat Team Magma Admin Tabitha.
