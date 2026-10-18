@@ -3,15 +3,15 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 45, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 45 (PAR, 14/137 HP), Lilz Lv 20 (OK, 60/60), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut), Guava Lv 27 (OK). Total money: ¥67,620.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Guava Lv 27 (OK, 92/92 HP), Lilz Lv 20 (PAR, 60/60), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut), Sage Lv 45 (PAR, 14/137 HP). Total money: ¥67,620.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 45) - Evolved on turn 5632! Level 45 on turn 8707! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (2/15), Quick Attack (15/30). HP: 14/137. Max HP: 137. Stats: Atk 96, Def 72, Sp.Atk 110, Sp.Def 98, Speed 130. Status: PAR. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 20) - Evolved from Lotad on turn 4926! Level 20 on turn 8396! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 60/60. Max HP: 60. Stats: HP 60, Atk 29, Def 25, Sp.Atk 27, Sp.Def 35, Speed 29. Status: OK.
+1. GUAVA (Tropius ♀, Level 27) - Caught on Route 119 with Great Ball on turn 8460! Type: Grass/Flying. HP: 92/92. Max HP: 92. Moves: Whirlwind, Stomp, Sweet Scent, Magical Leaf. Status: OK.
+2. LILZ (Lombre ♀, Level 20) - Evolved from Lotad on turn 4926! Level 20 on turn 8396! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 60/60. Max HP: 60. Stats: HP 60, Atk 29, Def 25, Sp.Atk 27, Sp.Def 35, Speed 29. Status: PAR.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
-6. GUAVA (Tropius ♀, Level 27) - Caught on Route 119 with Great Ball on turn 8460! Type: Grass/Flying. Moves: Whirlwind, Stomp, Sweet Scent, Magical Leaf. Status: OK.
+6. SAGE (Sceptile ♂, Level 45) - Evolved on turn 5632! Level 45 on turn 8707! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (2/15), Quick Attack (15/30). HP: 14/137. Max HP: 137. Stats: Atk 96, Def 72, Sp.Atk 110, Sp.Def 98, Speed 130. Status: PAR. Nature: Lonely. Ability: Overgrow.
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - enables HM03 Surf outside battle, Defense boost, obedience up to Lv 60).
