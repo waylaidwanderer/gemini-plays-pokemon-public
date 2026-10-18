@@ -343,6 +343,8 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
    - Location: (18, 25) facing West on sunken central terrace. Inaccessible from eastern terrace.
 5. Camper Autumn:
    - Location: (14, 25) facing East on sunken central terrace. Inaccessible from eastern terrace.
+- Southern Exit: Row 32 final jump ledge drops to row 33. Stepping south across rows 34..36 exits Jagged Pass onto Route 112 towards Lavaridge Town!
+6. Camper: Located at (17, 34) facing South near the exit.
 
 <hr>
 
