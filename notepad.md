@@ -2308,6 +2308,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 6. [ ] Continue north into Fortree City.
 
 ## Trainers & NPCs
+- Ninja Boy Disguise Tree Line: (10..13, 115) - A horizontal row of pine trees with disguise eyes. Inert/defeated; blocks northward movement along cols 10..13. The open route north wraps around them via (14, 115) -> (17, 112).
 - Cyclist NPC: (17..22, 133) - Non-combat flavor NPC. Warns that the giant tall grass snares bike tires.
 ## Route Mechanics Verified
 - Giant Tall Grass Bicycle Collision: Giant tall grass is impassable while riding a Bicycle. The bike is completely blocked from entering giant tall grass tiles. The player must press Select to dismount onto foot before walking through giant tall grass.
@@ -2654,6 +2655,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 9. [x] Continue north along Route 110 into Mauville City.
 
 ## Engine / Harness Mechanics Verified
+- Giant Tall Grass Mechanics: In Gen 3 (RSE), giant tall grass cannot be entered while mounted on a Bicycle (the bike is completely blocked by the grass). The player must dismount (press Select) onto foot to traverse giant tall grass.
 - Mach Bike In-Place Turning: Tapping a directional button while stationary on the Mach Bike turns the player in place without taking a step. On foot, pressing a direction takes a step immediately.
 - Route 114 Topology & Navigation: The col 29 eastern path from row 44 is blocked at (29, 47) by a stationary unsmashable boulder and Acro Bike rails. The correct progression route to the lower valley floor and Meteor Falls uses the Western Stairs at (15, 49..50) -> Western Terrace col 12 -> row 55 -> col 17 -> row 60 dirt highway -> white staircase at (24, 60) down to (24, 61).
 - Soft Loamy Soil Collision: Soft loamy soil tiles (empty or planted) are impassable terrain in Gen 3. Walking into an empty soil tile triggers the berry planting prompt ("Want to plant a BERRY?"). To navigate around berry patches, route along adjacent grass/sand tiles (e.g. row 6).
@@ -2688,8 +2690,6 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Pokémon Center Nurse Joy Healing: Opening text requires A presses to advance to the YES/NO prompt. Never press B near the prompt as B selects NO and cancels healing. Allow ~4.0s for the healing animation and jingle before pressing B to dismiss completion text.
 - File Encoding: When accessing markdown files in python scripts, always specify encoding='utf-8' to safely handle gender symbols (♂, ♀).
 - Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
-
-- Giant Tall Grass Mechanics: In Gen 3 (RSE), giant tall grass cannot be entered while mounted on a Bicycle (the bike is completely blocked by the grass). The player must dismount (press Select) onto foot to traverse giant tall grass.
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.

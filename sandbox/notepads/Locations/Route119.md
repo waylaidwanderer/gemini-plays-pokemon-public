@@ -25,6 +25,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 6. [ ] Continue north into Fortree City.
 
 ## Trainers & NPCs
+- Ninja Boy Disguise Tree Line: (10..13, 115) - A horizontal row of pine trees with disguise eyes. Inert/defeated; blocks northward movement along cols 10..13. The open route north wraps around them via (14, 115) -> (17, 112).
 - Cyclist NPC: (17..22, 133) - Non-combat flavor NPC. Warns that the giant tall grass snares bike tires.
 ## Route Mechanics Verified
 - Giant Tall Grass Bicycle Collision: Giant tall grass is impassable while riding a Bicycle. The bike is completely blocked from entering giant tall grass tiles. The player must press Select to dismount onto foot before walking through giant tall grass.
