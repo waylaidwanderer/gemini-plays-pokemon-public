@@ -249,3 +249,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Walk to (10, 6) drop pit -> drops to B1F Middle Sector at (10, 6).
    - Hop row 11 ledge to (10, 12), walk to (12, 12) geyser -> launches directly to Flannery Platform at (13, 12)!
    - Walk to (14, 9), face West, and challenge Flannery!
+
+### Rematch (Active)
+- Numel ♀ Lv 24 (Fire/Ground) struck by Leaf Blade on Turn 7847.
