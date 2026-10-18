@@ -478,69 +478,7 @@ A majestic cave formed by meteorite impacts, famous for its roaring waterfall an
 
 <h1><code>Locations/MtChimney</code></h1>
 
-# Location: Mt. Chimney
 
-## Overview
-A massive active volcano dominating the northern landscape of Hoenn. Accessible via Cable Car from Route 112, or downhill via Jagged Pass.
-- Climax location for the Team Magma vs Team Aqua meteorite storyline.
-- Environment: Falling volcanic ash, red volcanic rock and crater terrain.
-
-## Key Landmarks
-- Cable Car Upper Station: Building at (16..18, 32..36). Exit door is at (17, 36), step outside onto (17, 37).
-- Upper Station Signpost: Located at (24, 37), read from (24, 38) facing North. Text: "↓ JAGGED PATH / LAVARIDGE TOWN AHEAD".
-- Eastern Staircases: Two-tier wooden stairs along col 26 (lower at rows 31..32, terrace at rows 29..30, upper at rows 27..28) leading up from Cable Car area to caldera rim at row 26.
-- Clashing Grunts: Directly southeast at (19..22, 38..39), an Aqua Grunt (left) and Magma Grunt (right) have their Poochyena clashing.
-- Jagged Pass Entrance: Located to the south/southeast with one-way downhill ledges (blocked until Team Magma defeated).
-- Middle Plateau Switchback: Terrace at row 25 is blocked directly north at (25, 24) by a cliff wall. To reach the upper stairs at (25, 22..23), take the switchback path: walk west along row 25 to western stairs at (20, 24..25), climb up to row 23 terrace, and walk east along row 23 to upper stairs at (25, 22..23). Magma Grunt stands on Tier 3 at (23, 21) facing South.
-- Tier 3 Grunt Skirmish: Located at cols 21..24, rows 17..21. A cross formation of 3 Magma Grunts, 1 Aqua Grunt, and multiple clashing Poochyena. Col 25 is a clear open path to the east running straight north.
-- Northeast Grunt Skirmish: Located at cols 28..31, rows 10..12. Magma Grunt at (28, 11) and Aqua Grunt at (31, 11) with two Poochyena clashing.
-- Western Caldera & Rock Mound: Rock mound at cols 12..14, rows 12..15. Clear dirt corridor along row 17 leads to the western pass at col 10.
-- Western Pass Grunts: Double Battle against Team Magma Grunts (Male at 9, 16 & Female at 11, 16) engaged at (10, 16). Defeated! Awarded ¥800.
-- Northern Pass Grunt: Grunt at (12, 11) facing West. Engaged at (10, 11). Guards the approach to Tabitha and the machine.
-- Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine. Lava pit visible at cols 14..18, rows 9..11.
-- Volcanic Device & Leader Maxie: Located at (13..14, 6). The machine is at (14, 6) with a glass dome housing the Meteorite. Team Magma Leader Maxie stands at (13, 6) facing East toward the machine.
-
-## Cable Car Mechanics
-- Lower Station (Route 112): Prompt says "The CABLE CAR is ready to go up."
-- Upper Station (Mt. Chimney): Prompt says "The CABLE CAR is ready to go down."
-- Disembarking: When arriving at either station, the player steps out at (6, 5) facing South. Do NOT turn North and talk to the attendant, or you will ride back. Walk straight South along col 6 to (6, 11) to exit outside at (17, 37).
-- Travel time: Scenic cutscene lasts ~12 seconds.
-
-## Progression Checklist - Mt. Chimney
-1. [x] Arrive at Mt. Chimney summit via Cable Car.
-2. [x] Exit Cable Car Station onto Mt. Chimney crater summit at (17, 37).
-3. [x] Read summit signpost at (24, 37) ("↓ JAGGED PATH / LAVARIDGE TOWN AHEAD").
-4. [x] Ascend switchback stairs at (20, 24..25) and (25, 22..23) into the upper caldera.
-5. [x] Witness Team Magma vs Team Aqua battles across the caldera.
-6. [x] Defeat Team Magma Grunts guarding the path (Double Battle won at 10, 16).
-7. [x] Defeat Team Magma Admin Tabitha.
-8. [ ] Defeat Team Magma Leader Maxie.
-9. [ ] Reclaim the Meteorite from the machine.
-10. [ ] Descend Jagged Pass to Lavaridge Town.
-## Trainers
-1. Team Magma Grunts (Double Battle):
-   - Location: Western pass at (10, 16).
-   - Format: 2-on-2 Double Battle.
-   - Male Grunt quote: "We of TEAM MAGMA are working hard for everyone's sake. Like, if that thing's power made more land, there'd be more places to live. Everyone'd be happy!"
-   - Female Grunt quote: "If there were more land, I'd be able to get a big house of my own! I'm going to build it on hardened lava!"
-   - Male Grunt defeat quote: "Hunh? What do you mean I lost?"
-   - Female Grunt defeat quote: "My dream of a big house..."
-   - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
-   - Reward: ¥800 prize money.
-   - Outcome: Complete victory! Zubat and Numel defeated.
-
-2. Magma Admin Tabitha: [DEFEATED]
-   - Location: Northern caldera pass at (11, 11) engaged from (10, 11).
-   - Pre-battle quote: "Hehehe! So you've come all the way here! But you're too late! I've already delivered the METEORITE from METEOR FALLS to the BOSS!"
-   - Defeat quote: "Hehehe... Even though I've lost, if our leader awakens that thing..."
-   - Team: 3 Pokémon (Numel ♂ Lv 18 - OHKO'd for 339 EXP; Numel ♂ Lv 22 - OHKO'd for 414 EXP; Poochyena ♂ Lv 20 - OHKO'd for 235 EXP).
-   - Reward: ¥880 prize money.
-   - Outcome: Complete victory! Tabitha defeated.
-
-3. Team Magma Leader Maxie:
-   - Location: Volcanic machine at (13, 6).
-   - Pre-battle quote: "The power contained in the METEORITE... By amplifying its power with this machine, MT. CHIMNEY's volcanic activity will instantly intensify... I'll teach you the consequences of meddling in our grand design!"
-   - Team: 3 Pokémon (Mightyena ♂ Lv 24 - OHKO'd for 657 EXP; Camerupt ♂ Lv 25 - OHKO'd for 937 EXP; Zubat ♂ Lv 24 - active).
 
 <hr>
 
@@ -1938,10 +1876,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 39, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Confront Team Magma Leader Maxie at the volcanic machine, defeat him, and retrieve the Meteorite! Total money: ¥38,808. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Retrieve Meteorite from the machine at (14, 6), descend Jagged Pass to Lavaridge Town, and challenge Gym 4 (Leader Flannery)! Total money: ¥40,808. Party: Sage Lv 40 (OK, 90/122), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (18/20), Leaf Blade (8/15), Quick Attack (28/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (17/20), Leaf Blade (8/15), Quick Attack (28/30). HP: 90/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 50/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -1962,7 +1900,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥38,808
+- Money: ¥40,808
 - Key Items: Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
