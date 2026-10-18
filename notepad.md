@@ -2357,6 +2357,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Max Ether x2 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
 - Carbos x1 (found in rock at 20, 57 on Route 114)
+- Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x4 (purchased at Slateport Mart, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
