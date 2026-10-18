@@ -599,7 +599,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 2. B1F Room 3 (8, 9): Walk Down 8 to (8, 17), Left 8 to (0, 17) geyser -> launches to 1F (1, 17).
 3. 1F Room 4 (1, 17): Walk Up 3 into (1, 14) drop pit -> drops to B1F (1, 14).
 4. B1F (1, 14): Walk Down 3 to (1, 17), Right 4 to (5, 17), Up 3 into (5, 14) geyser -> launches to 1F Upper Tier at (6, 14).
-5. 1F Upper Tier (6, 14): Walk Up 4 to (6, 10), Left 6 to (0, 10) drop pit -> drops to B1F Room 6 at (0, 10).
+5. 1F (6, 14): Hop south over row 15 ledge to (6, 16), walk Down 1 to row 17, West along row 17 to (1, 17), Up 1 to (1, 16) to avoid (0, 17) pit, West to (0, 16) into Column 0, and North along Column 0 to drop pit (0, 10) -> drops to B1F Room 6 at (0, 10).
 6. B1F Room 6 (0, 10): Walk Up 4 into (0, 6) geyser -> launches to 1F Upper Terrace at (1, 6).
 7. Winning Path from 1F Upper Terrace (1, 6):
    - Walk to (2, 3) drop pit -> B1F (2, 3).
@@ -2318,7 +2318,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 41, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Inside Lavaridge Gym navigating 1F Column 8 highway to Steam Pit 2 for Flannery rematch! All 8 Gym trainers defeated! Party: Sage Lv 41 (OK, 124/124, 15/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Inside Lavaridge Gym at B1F (5, 6) in Room 7 exiting to 1F (6, 14) for Flannery rematch! All 8 Gym trainers defeated! Party: Sage Lv 41 (OK, 124/124, 15/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 124/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
