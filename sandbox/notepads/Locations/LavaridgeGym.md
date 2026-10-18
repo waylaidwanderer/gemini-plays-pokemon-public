@@ -160,7 +160,8 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - North boundary: Row 5 has an impassable pink wall blocking north movement from (5, 6) and (6, 6).
   - West boundary: Column 4 has an impassable vertical railing blocking west movement from (5, 6).
   - East boundary: Column 7 has an impassable vertical railing blocking east movement from (6, 8).
-  - South path: Column 5 and 6 continue south through rows 9, 10, 11 toward the bottom of the room.
+  - South path: Column 5 and 6 continue south over row 11 ledge to steam pit at (5, 14).
+  - (5, 14): [TESTED] Active steam pit! Warps to 1F Entrance / Main Floor at (5, 14), landing at (6, 14)!
   - Visible Steam Pits:
     - (8, 9): Eastern bay steam pit (visible to the east).
     - (1, 4), (3, 4), (1, 7), (1, 10): Western bay steam pits.
