@@ -65,7 +65,23 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
   - North Door: GYM LEADER NORMAN'S ROOM (Unlocked!)
 
 
-## Tier 4: Gym Leader Norman's Room
+
+## Tier 4: Gym Leader Norman's Room (VICTORY!)
+- Coordinates: Entrance mat at (1, 7). Raised tatami platform in center.
+- Gym Leader Norman: [DEFEATED!]
+  - Location: (4, 2) facing South.
+  - Battle Team:
+    1. Spinda ♂ Lv 27 (OHKO'd by Sage's Leaf Blade critical hit for 490 EXP).
+    2. Vigoroth ♂ Lv 27 (OHKO'd by Sage's Leaf Blade for 729 EXP).
+    3. Linoone ♂ Lv 29 (defeated by Sage's Leaf Blade for 795 EXP; Sage grew to Lv 43, declined Slam).
+    4. Slaking ♂ Lv 31 (OHKO'd from ~45% HP on Truant turn by Sage's Overgrow-boosted Leaf Blade critical hit for 1,395 EXP!).
+  - Rewards:
+    - BALANCE BADGE earned! (Enables HM03 Surf in the field, increases party Defense stat, Pokémon up to Lv 60 obey).
+    - TM42 Facade obtained!
+    - Norman registered in Match Call!
+    - Prize money: ¥3,100. Total money: ¥58,916.
+    - Wally's Dad arrived to escort player to his house for HM03 Surf.
+
 - Coordinates: Entrance mat at (1, 7). Raised tatami platform in center.
 - Gym Leader Norman: Located at roughly (5, 3) facing South.
   - Team: Spinda Lv 27, Vigoroth Lv 27, Linoone Lv 29, Slaking Lv 31.
@@ -74,5 +90,5 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.
 3. [ ] Navigate chosen door path and defeat Gym trainers.
-4. [ ] Challenge and defeat Gym Leader Norman.
-5. [ ] Obtain Balance Badge, TM42 Facade, and register Norman in Match Call.
+4. [x] Challenge and defeat Gym Leader Norman.
+5. [x] Obtain Balance Badge, TM42 Facade, and register Norman in Match Call.
