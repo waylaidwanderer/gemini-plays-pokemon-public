@@ -57,6 +57,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Reward: ¥736 prize money. Total money: ¥44,728.
    - Post-battle: Stands at (5, 16).
 
+4. Cooltrainer Gerald: [DEFEATED]
+   - Location: Ambushed from steam pit at (2, 14) in 1F Southwest Room.
+   - Pre-battle quote: "Can your POKéMON withstand 392-degree heat?"
+   - Defeat quote: "It didn't burn hotly enough..."
+   - Team: Kecleon ♂ Lv 23 (OHKO'd by Sage's Leaf Blade critical hit).
+   - Reward: ¥1,104 prize money. Total money: ¥45,832.
+   - Post-battle: Stands at (2, 14).
+
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
 - Layout & Navigation:
