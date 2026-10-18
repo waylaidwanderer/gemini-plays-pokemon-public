@@ -581,6 +581,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Row 15 Jump Ledge: Connects column 4 pillar to column 7 wall. Jumping south from (6, 14) drops down to the row 16 lower level; cannot be climbed northbound.
 - Upper Tier Access: The B1F steam geyser at (5, 14) deposits the player at (6, 14) directly ON the upper tier, allowing northbound movement along Column 6 toward row 10.
 
+## Verified Winning Path to Gym Leader Flannery (Turns 7712-7723)
+1. 1F Upper Terrace: From (1, 6), walk to (2, 3) and drop into B1F upper floor at (2, 3).
+2. B1F Upper Floor: From (2, 3), step Up to (2, 2), Right to (3, 2), Down to (3, 3) on Row 3.
+3. B1F Row 3: Walk East to (7, 3), then step Up into steam geyser at (7, 2). Launches to 1F Middle Bay at (8, 2).
+4. 1F Middle Bay: Walk Right 2 to (10, 2), Down 4 to (10, 6). Step into steam pit at (10, 6) to drop into B1F Middle Sector at (10, 6).
+5. B1F Middle Sector: Walk Down column 10 to row 11, hop south-facing jump ledge to (10, 12), step Down to (10, 13), Right to (12, 13), and Up onto the steam geyser at (12, 12).
+6. 1F Flannery Platform / Upper Tier: Stepping onto (12, 12) geyser launches player to 1F at (13, 12) directly on the upper tier below Gym Leader Flannery (14, 8)!
+
 
 <hr>
 
