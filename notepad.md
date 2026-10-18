@@ -369,7 +369,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 ## Progression Checklist - Lavaridge Gym
 1. [x] Arrive in Lavaridge Town, heal party, and acquire Wynaut Egg.
 2. [x] Enter Lavaridge Gym.
-3. [ ] Consult Gym Guide at entrance.
+3. [x] Consult Gym Guide at entrance.
 4. [ ] Navigate steam pit teleport puzzle.
 5. [ ] Defeat all Gym trainers.
 6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
