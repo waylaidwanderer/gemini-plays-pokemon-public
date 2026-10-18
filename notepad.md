@@ -1046,6 +1046,7 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
 - Hop row 14 south-facing ledge to (14, 18).
 - Continue South down column 14 (bypassing NPC at 15, 20 on the west) and hop row 22 south-facing ledge to row 23/24.
 - Connect south along column 16..17 straight into the south exit gatehouse at (16..17, 38..39) leading to Southern Route 104 and Petalburg City!
+- Full Verified High-Speed Descent (Turns 8138-8145): North gate (14, 5) -> South along col 14 hopping row 14 ledge to (14, 18) -> South along col 14 hopping row 22 ledge to (14, 27) -> East to col 16 at (16, 27) -> South along col 16 hopping row 30 ledge to (16, 31) -> South along col 16 straight into south gatehouse at (16..17, 39).
 
 <hr>
 
