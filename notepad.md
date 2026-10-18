@@ -292,7 +292,7 @@ A rugged, multi-level cavern on Route 106 north of Dewford Town. Contains wild P
 A rugged volcanic mountainside route leading south from Mt. Chimney summit down to Route 112 (near the lower Cable Car Station and Lavaridge Town).
 - Constant falling white volcanic ash.
 - Features one-way downhill ledges, Acro Bike rail bars, and rocky terrain.
-- Wild Pokémon encountered: Spoink (Lv 20, fled).
+- Wild Pokémon encountered: Spoink (Lv 20, fled), Numel (Lv 22, fled).
 
 ## Connection Points
 - North: Mt. Chimney summit entrance at (13, 4).
