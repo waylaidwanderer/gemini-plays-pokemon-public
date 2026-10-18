@@ -9,12 +9,13 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Key Landmarks & Features
 - 1F Lobby: Entrance mat at (9, 12). Partition wall with archway at cols 5..6, row 8 leading into main research floor.
-- 1F Recovery Bed: Located in the northwest rest room at cols 1..2, rows 2..4; allows full party recovery (HP, PP, status conditions, revives fainted Pokémon).
+- 1F Recovery Bed: Located in the northwest rest room at cols 1..2, rows 2..4. Verified mechanic: Must interact from the mattress side at (2, 3) facing West (Left). Fully restores all HP, PP, cures status conditions, and revives fainted Pokémon.
 - 2F Admin Office: Site of confrontation with Team Aqua Admin Shelly.
 - Reward: Castform (Lv 25) holding Mystic Water gifted by head scientist after defeating Team Aqua.
 
 ## Trainers & NPCs
-- Team Aqua Grunt (1F): Located at (8, 5) facing West in the main research room.
+- Team Aqua Grunt (Female - 1F): Located at (10, 5) - [DEFEATED - Turn 8869]. Team: Carvanha Lv 28. Prize: ¥560. Note: Carvanha has Rough Skin ability (deals recoil damage on physical contact).
+- Team Aqua Grunt (Male - 1F): Located at (16, 2) facing West near northeast computer desks.
 
 ## Progression Checklist - Weather Institute
 1. [x] Arrive at Weather Institute and enter front doors.
