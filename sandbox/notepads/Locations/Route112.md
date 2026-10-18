@@ -77,3 +77,6 @@ A rugged, mountainous route wrapping around the southern base of Mt. Chimney. Co
    - Team: Shroomish ♀ Lv 18 (defeated by Leaf Blade + Quick Attack; inflicted PAR via Effect Spore), Roselia ♀ Lv 18 (defeated by Quick Attack).
    - Reward: ¥720 prize money.
    - Outcome: Complete victory! All 6 Route 112 trainers defeated!
+- Western Signpost: Located at (4, 49), read from (4, 50) facing North. Text: "ROUTE 112 / ⬅ LAVARIDGE TOWN".
+- Jagged Pass Exit: Emerges at (6, 47), connects south down an alley between trees to the sandy highway at row 50.
+- West Connection: Sandy road along row 50 leads directly west from col 4 into Lavaridge Town!
