@@ -63,5 +63,5 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 6. [x] Defeat Team Magma Grunts guarding the path (Double Battle at 10, 16).
 7. [x] Defeat Team Magma Admin Tabitha at (11, 11).
 8. [x] Defeat Team Magma Leader Maxie at (13, 6).
-9. [ ] Reclaim the Meteorite from the machine at (14, 6).
+9. [x] Reclaim the Meteorite from the machine at (14, 6).
 10. [ ] Descend Jagged Pass to Lavaridge Town.
