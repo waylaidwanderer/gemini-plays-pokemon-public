@@ -49,10 +49,13 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
    - Outcome: Complete victory! Total money: ¥42,048.
    - Note: Standing directly in front of the volcanic cliff face at (16, 18), confirming the secret Magma Hideout entrance!
 
-3. Camper Ethan:
+3. Camper Ethan: [DEFEATED]
    - Location: (17, 35) facing East near southern exit. Engaged player at (20, 35).
    - Pre-battle quote: "JAGGED PASS is hard to walk on. It's a good place for training."
+   - Defeat quote: "It was all over while we were still trying to find a good footing"
    - Team: Zigzagoon ♂ Lv 20 (OHKO'd by Quick Attack critical for 256 EXP), Taillow ♂ Lv 20 (OHKO'd by Quick Attack for 252 EXP).
+   - Reward: ¥320 prize money.
+   - Outcome: Complete victory! Total money: ¥42,368.
 4. Triathlete Julio (Cycling):
    - Location: (18, 25) facing West on sunken central terrace. Inaccessible from eastern terrace.
 5. Camper Autumn:
