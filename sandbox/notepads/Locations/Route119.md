@@ -70,3 +70,6 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Scott Encounter: Scott watched the battle with Brendan at (25, 30) and praised May's growth.
 
 - Northern Signpost: Located at (27, 19) facing South along the northern dirt highway leading into Fortree City.
+- Cut Tree (Northern Highway): Located at (28, 14) along the northern path toward Fortree City.
+- Berry Patch (Northern Route 119): Located at cols 24..27, rows 14..15 with 4 berry trees in soft loamy soil west of the cut tree.
+- Trainer Ambush: Located in giant tall grass at (31, 15) facing West toward col 28.
