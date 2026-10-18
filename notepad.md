@@ -381,6 +381,12 @@ A hot spring town situated at the southern base of Mt. Chimney. Famous for its v
 - Pokémon Center Entrance: (8..9, 4..5) entered from row 6 facing North.
 - Eastern Signpost: Located at (21, 8) east of the avenue.
 - Center Signpost: Located at (12, 7) between Pokémon Center and Poké Mart.
+## Pokémon Center Interior (1F)
+- Entrance mat at (7, 8).
+- Nurse Joy counter at (7, 3), interact from (7, 4) facing North.
+- 2F Escalator at (1, 6).
+- Table and chairs at cols 9..10, row 5.
+- Rear exit (to Hot Springs): Door at (7, 1) behind Nurse Joy / through rear corridor.
 
 <hr>
 
