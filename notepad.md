@@ -1515,7 +1515,7 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 ## Route 111 Desert (Active Mirage Tower Spawn - Turn 7981)
 - Environment: Swirling sandstorm. Traversed freely with Key Item GO-GOGGLES!
 - Entrance: South entrance from Route 111 junction at cols 8..11, row 70 heading north into open sand at cols 9..14, rows 58..63.
-- Active Mirage Tower: SPAWNED! Located at the southeastern desert border at cols 17..20, rows 50..58. Arched doorway entrance at cols 19..20, row 56. Contains Claw Fossil and Root Fossil on 4F (requires Mach Bike and Rock Smash).
+- Active Mirage Tower: SPAWNED! Located at the southeastern desert border at cols 17..20, rows 50..58. Arched doorway entrance at (19, 58), entered from (19, 59) facing North (cols 18 and 20 are the outer door pillars). Contains Claw Fossil and Root Fossil on 4F (requires Mach Bike and Rock Smash).
 - Item Ball: [COLLECTED] Located at (12, 54) nestled between stationary rocks at (11, 54) and (11, 56). Item: STARDUST!
 - Mirage Tower Camper NPC: Located at (14, 56). Dialogue: Points out Mirage Tower, notes it looks fragile and could crumble anytime, but lacks courage to enter. (Friendly NPC, non-trainer).
 - Wild Pokémon Encountered: Baltoy (Lv 19, Ground/Psychic), Sandshrew (Lv 19, Ground).
