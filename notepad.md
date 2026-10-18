@@ -2291,6 +2291,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - North Exit: Fortree City.
 
 ## Key Landmarks
+- Route 119 House: Located on the eastern bank at cols ~32..35, rows ~106..109 with a red tiled roof and yellow siding. Front door approached from row 110. Outdoor NPC stands outside.
 - Giant Tall Grass: Enormous grass where wild Pokémon hide and the Bicycle cannot be ridden at high speed.
 - Fishing Spots: River runs through the route (Feebas can be found in 6 random water tiles).
 - Weather Institute: Large two-story research facility invaded by Team Magma/Aqua.
@@ -2318,6 +2319,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 ## Wild Pokémon Discovered
 - Tropius: Caught GUAVA ♀ Lv 27 on turn 8460 with Great Ball.
 - Zigzagoon: Lv 25 encountered in lower giant grass.
+- Oddish: Encountered in upper giant grass on terrace (turn 8562).
 
 ## Items Obtained
 - Item Ball: (4, 96) - [OBTAINED] Zinc! Located in northern tree alcove on western terrace.
@@ -2328,7 +2330,6 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
 - Western Terrace: (rows 96..102, cols 3..12) accessed via stairs at (11..12, 103) from beach at (12..13, 104..105). Contains giant tall grass and Zinc at (4, 96). Bounded by solid northern pine tree wall. [FULLY CLEARED - Turn 8580].
 - River Rock Barrier: The river at rows 99..100 is completely blocked from east to west by stationary river rocks, preventing surfing directly north to the Weather Institute. Route 119 must be traversed via the eastern bank highway.
-- Tentacool: Encountered while surfing on Route 119 river (Lv 32, turn 8601).
 
 <hr>
 
@@ -2601,10 +2602,10 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 44, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 44 (106/134 HP, holding Cheri Berry), Lilz Lv 20 (OK, 60/60), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut), Guava Lv 27 (OK). Total money: ¥66,372.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 44 (PAR, 106/134 HP, holding Cheri Berry), Lilz Lv 20 (OK, 60/60), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut), Guava Lv 27 (OK). Total money: ¥66,372.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 44) [Held Item: Cheri Berry] - Evolved on turn 5632! Level 44 on turn 8408! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (3/15), Quick Attack (20/30). HP: 106/134. Max HP: 134. Stats: Atk 93, Def 71, Sp.Atk 107, Sp.Def 96, Speed 127. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 44) [Held Item: Cheri Berry] - Evolved on turn 5632! Level 44 on turn 8408! Moves: Fury Cutter (20/20), Pursuit (19/20), Leaf Blade (3/15), Quick Attack (20/30). HP: 106/134. Max HP: 134. Stats: Atk 93, Def 71, Sp.Atk 107, Sp.Def 96, Speed 127. Status: PAR. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 20) - Evolved from Lotad on turn 4926! Level 20 on turn 8396! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 60/60. Max HP: 60. Stats: HP 60, Atk 29, Def 25, Sp.Atk 27, Sp.Def 35, Speed 29. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.

@@ -8,6 +8,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - North Exit: Fortree City.
 
 ## Key Landmarks
+- Route 119 House: Located on the eastern bank at cols ~32..35, rows ~106..109 with a red tiled roof and yellow siding. Front door approached from row 110. Outdoor NPC stands outside.
 - Giant Tall Grass: Enormous grass where wild Pokémon hide and the Bicycle cannot be ridden at high speed.
 - Fishing Spots: River runs through the route (Feebas can be found in 6 random water tiles).
 - Weather Institute: Large two-story research facility invaded by Team Magma/Aqua.
@@ -35,6 +36,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 ## Wild Pokémon Discovered
 - Tropius: Caught GUAVA ♀ Lv 27 on turn 8460 with Great Ball.
 - Zigzagoon: Lv 25 encountered in lower giant grass.
+- Oddish: Encountered in upper giant grass on terrace (turn 8562).
 
 ## Items Obtained
 - Item Ball: (4, 96) - [OBTAINED] Zinc! Located in northern tree alcove on western terrace.
@@ -45,4 +47,3 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
 - Western Terrace: (rows 96..102, cols 3..12) accessed via stairs at (11..12, 103) from beach at (12..13, 104..105). Contains giant tall grass and Zinc at (4, 96). Bounded by solid northern pine tree wall. [FULLY CLEARED - Turn 8580].
 - River Rock Barrier: The river at rows 99..100 is completely blocked from east to west by stationary river rocks, preventing surfing directly north to the Weather Institute. Route 119 must be traversed via the eastern bank highway.
-- Tentacool: Encountered while surfing on Route 119 river (Lv 32, turn 8601).
