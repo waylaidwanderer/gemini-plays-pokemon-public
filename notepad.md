@@ -2312,6 +2312,10 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 ## Route Mechanics Verified
 - Giant Tall Grass Bicycle Collision: Giant tall grass is impassable while riding a Bicycle. The bike is completely blocked from entering giant tall grass tiles. The player must press Select to dismount onto foot before walking through giant tall grass.
 
+## Wild Pokémon Discovered
+- Tropius: Caught GUAVA ♀ Lv 27 on turn 8460 with Great Ball.
+- Zigzagoon: Lv 25 encountered in lower giant grass.
+
 
 <hr>
 
