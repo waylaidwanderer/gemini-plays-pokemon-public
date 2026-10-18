@@ -1012,9 +1012,11 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 
 ## Entrance Foyer
 - Entrance / Exit mat: (4, 111).
-- Gym Guide: Located at (3, 108) facing South.
+- Gym Guide: Located at (3, 109) facing South.
+  - Advice: "The TRAINERS of PETALBURG GYM use all kinds of items. The door at the left leads to the SPEED ROOM. The door at the right leads to the ACCURACY ROOM. The room's name will be on the door, so choose carefully. Once you've chosen the door... Well, hey, go for it!"
 - Gym Statues: Located at (2, 108) and (6, 108).
-- North Doors: Located at rows 104..105 leading to the first tier of challenge rooms.
+- Left Door (SPEED ROOM): (1, 105), interacted from (1, 106) facing North.
+- Right Door (ACCURACY ROOM): (7, 105) or (8, 105).
 
 ## Rooms & Door Structure
 - Tier 1 (Entrance Room):
@@ -1030,7 +1032,7 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
-2. [ ] Consult Gym Guide.
+2. [x] Consult Gym Guide.
 3. [ ] Navigate chosen door path and defeat Gym trainers.
 4. [ ] Challenge and defeat Gym Leader Norman.
 5. [ ] Obtain Balance Badge, TM42 Facade, and register Norman in Match Call.
