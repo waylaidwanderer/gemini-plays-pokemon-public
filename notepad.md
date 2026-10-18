@@ -399,9 +399,9 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Sage HP: 122/122.
 ## Gym Navigation & Mechanics (Verified)
 - Vertical Partitions: The vertical yellow/red columns (e.g. at col 7) are solid impassable room dividers spanning the entire height of the gym. There are NO walkable openings or crossways between wings on foot.
-- Room Navigation: All inter-room and inter-floor travel MUST be accomplished via the steam pit vent warps.
-- Entrance Foyer (1F): Wide foyer containing the entrance mat at (12..13, 18), Gym Guide at (12, 16), Gym Statues at (10, 14) and (15, 14), and steam pit at (10, 18).
-- Central Open Avenue (1F): The horizontal ledge only flanks the outer walls; the 4-tile gap between the statues (cols 11..14) is a completely open, walkable avenue leading straight north into the upper tier!
+- Room Navigation: All inter-room and inter-floor travel MUST be accomplished via steam pit warps.
+- 1F Row 13 Ledge: Row 13 is an impassable elevated ledge running continuously across the entire width of the entrance foyer (including between the statues at (11, 14)). Cannot be climbed on foot from the south.
+- 1F Entrance Foyer: Bounded by west partition (col 7), north ledge (row 13), and east wall. Contains the entrance mat at (12..13, 18), Gym Guide at (12, 16), and Gym Statues at (10, 14) and (15, 14).
 - Steam Pit 1 at (10, 18): The sole entrance into the gym puzzle network, warping between 1F Entrance Foyer and B1F Room 2.
 
 <hr>
@@ -2140,7 +2140,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥42,368
+- Money: ¥43,072
 - Key Items: Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -2237,6 +2237,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 7. [x] Visit Professor Cozmo's house and heal at Fallarbor Pokémon Center.
 8. [x] Explore Route 114 and Meteor Falls (confronted Magma/Aqua, spoke with Cozmo).
 9. [x] Stop Team Magma at Mt. Chimney (defeat Grunts, Admin Tabitha, and Leader Maxie; retrieve Meteorite).
-10. [ ] Descend Jagged Pass to Lavaridge Town and challenge Gym 4 (Leader Flannery - Heat Badge).
+10. [x] Descend Jagged Pass to Lavaridge Town (obtained Wynaut Egg, healed at Center).
+11. [ ] Defeat Gym Leader Flannery in Lavaridge Gym for Gym 4 (Heat Badge).
 
 <hr>

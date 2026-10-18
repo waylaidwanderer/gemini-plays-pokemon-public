@@ -41,7 +41,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Sage HP: 122/122.
 ## Gym Navigation & Mechanics (Verified)
 - Vertical Partitions: The vertical yellow/red columns (e.g. at col 7) are solid impassable room dividers spanning the entire height of the gym. There are NO walkable openings or crossways between wings on foot.
-- Room Navigation: All inter-room and inter-floor travel MUST be accomplished via the steam pit vent warps.
-- Entrance Foyer (1F): Wide foyer containing the entrance mat at (12..13, 18), Gym Guide at (12, 16), Gym Statues at (10, 14) and (15, 14), and steam pit at (10, 18).
-- Central Open Avenue (1F): The horizontal ledge only flanks the outer walls; the 4-tile gap between the statues (cols 11..14) is a completely open, walkable avenue leading straight north into the upper tier!
+- Room Navigation: All inter-room and inter-floor travel MUST be accomplished via steam pit warps.
+- 1F Row 13 Ledge: Row 13 is an impassable elevated ledge running continuously across the entire width of the entrance foyer (including between the statues at (11, 14)). Cannot be climbed on foot from the south.
+- 1F Entrance Foyer: Bounded by west partition (col 7), north ledge (row 13), and east wall. Contains the entrance mat at (12..13, 18), Gym Guide at (12, 16), and Gym Statues at (10, 14) and (15, 14).
 - Steam Pit 1 at (10, 18): The sole entrance into the gym puzzle network, warping between 1F Entrance Foyer and B1F Room 2.
