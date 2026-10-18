@@ -89,6 +89,6 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.
-3. [ ] Navigate chosen door path and defeat Gym trainers.
+3. [x] Navigate chosen door path and defeat Gym trainers.
 4. [x] Challenge and defeat Gym Leader Norman.
 5. [x] Obtain Balance Badge, TM42 Facade, and register Norman in Match Call.

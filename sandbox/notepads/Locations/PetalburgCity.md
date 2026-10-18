@@ -28,3 +28,13 @@
 - Doorway: Blue sliding doors at (20, 16), entered from (20, 17) facing North.
 - Approach from North: Main street along row 12/13 is blocked directly south by Center roof; route west along row 12/13 to col 16..17, south along col 16..17 to row 18/19, east to col 20, and north into door at (20, 16).
 - Interior: Spawn at (7, 8). Nurse Joy counter at (7, 3), interact from (7, 4) facing North.
+
+## Wally's House (Interior & HM03 Surf)
+- Location: Western Petalburg City, door at (7, 5).
+- Exterior: Step outside at (7, 6) facing South.
+- Interior:
+  - Entrance / Exit mat at (4, 8), spawn at (4, 7).
+  - Wally's Dad stands at (3, 4) facing West.
+  - Wally's Mom sits at dining table chair at (7, 5).
+  - Dining table spans cols 6..7, rows 4..5.
+- Story Event: After defeating Gym Leader Norman, Wally's Dad escorts player from the gym to his house and gifts Key Item / HM: HM03 SURF!

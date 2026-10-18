@@ -1002,6 +1002,16 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Approach from North: Main street along row 12/13 is blocked directly south by Center roof; route west along row 12/13 to col 16..17, south along col 16..17 to row 18/19, east to col 20, and north into door at (20, 16).
 - Interior: Spawn at (7, 8). Nurse Joy counter at (7, 3), interact from (7, 4) facing North.
 
+## Wally's House (Interior & HM03 Surf)
+- Location: Western Petalburg City, door at (7, 5).
+- Exterior: Step outside at (7, 6) facing South.
+- Interior:
+  - Entrance / Exit mat at (4, 8), spawn at (4, 7).
+  - Wally's Dad stands at (3, 4) facing West.
+  - Wally's Mom sits at dining table chair at (7, 5).
+  - Dining table spans cols 6..7, rows 4..5.
+- Story Event: After defeating Gym Leader Norman, Wally's Dad escorts player from the gym to his house and gifts Key Item / HM: HM03 SURF!
+
 
 <hr>
 
@@ -1098,7 +1108,7 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.
-3. [ ] Navigate chosen door path and defeat Gym trainers.
+3. [x] Navigate chosen door path and defeat Gym trainers.
 4. [x] Challenge and defeat Gym Leader Norman.
 5. [x] Obtain Balance Badge, TM42 Facade, and register Norman in Match Call.
 
@@ -2516,7 +2526,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Money: ¥58,916
 - Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
