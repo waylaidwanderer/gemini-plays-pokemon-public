@@ -340,7 +340,7 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 3. Camper Ethan:
    - Location: (17, 35) facing East near southern exit. Engaged player at (20, 35).
    - Pre-battle quote: "JAGGED PASS is hard to walk on. It's a good place for training."
-   - Team: Zigzagoon ♂ Lv 20 (#1), Pokémon #2.
+   - Team: Zigzagoon ♂ Lv 20 (OHKO'd by Quick Attack critical for 256 EXP), Taillow (#2).
 4. Triathlete Julio (Cycling):
    - Location: (18, 25) facing West on sunken central terrace. Inaccessible from eastern terrace.
 5. Camper Autumn:
