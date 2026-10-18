@@ -1041,6 +1041,11 @@ A dense forest connecting the southern and northern halves of Route 104. Shaded 
   - Location: (26, 21) confronting Devon researcher.
   - Team: Poochyena ♂ Lv 9.
   - Reward: ¥180, Great Ball (from Researcher).
+## Verified Southbound Traversal (Turn 8138)
+- High-Speed Mach Bike Route: From north gate at (14, 5), ride straight South down column 14.
+- Hop row 14 south-facing ledge to (14, 18).
+- Continue South down column 14 (bypassing NPC at 15, 20 on the west) and hop row 22 south-facing ledge to row 23/24.
+- Connect south along column 16..17 straight into the south exit gatehouse at (16..17, 38..39) leading to Southern Route 104 and Petalburg City!
 
 <hr>
 
