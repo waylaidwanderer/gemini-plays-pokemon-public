@@ -233,4 +233,5 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 
 ## Gym Leader Flannery Battle (Gym 4)
 - Lead Pokémon: Numel ♀ Lv 24 (Fire/Ground) - Defeated by Sage's Leaf Blade (451 EXP).
-- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) - Active.
+- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) - Defeated by Sage's critical Leaf Blade (975 EXP).
+- Third Pokémon: Slugma Lv 24 (Fire) - Active.
