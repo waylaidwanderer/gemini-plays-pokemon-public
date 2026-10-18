@@ -5,7 +5,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Connection Points
 - South Exit: Front entrance doors at (9, 12) lead outside to Route 119 (rows 30..35).
-- 2F Stairs: Located in the western area of 1F leading up to 2F.
+- 2F Stairs: Located in the northeast corner of 1F (cols 18..19, rows 1..2), guarded by the male Team Aqua Grunt at (16, 2).
 
 ## Key Landmarks & Features
 - 1F Lobby: Entrance mat at (9, 12). Partition wall with archway at cols 5..6, row 8 leading into main research floor.
