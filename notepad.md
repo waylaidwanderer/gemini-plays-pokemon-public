@@ -2644,6 +2644,8 @@ A large meteorological research institute located in northern Route 119 beside t
 5. [ ] Speak to Head Scientist, receive Castform holding Mystic Water.
 6. [x] Rest in 1F recovery bed to restore entire party to full health (verified and used on turn 8847!).
 7. [ ] Exit building and cross the now-unblocked bridge toward Fortree City.
+- 2F Layout: Stairs at (17, 1..2) in northeast. Desks and bookshelves in central-east area.
+- Team Aqua Grunt Pair (2F Double Battle): Male Grunt and Female Grunt facing each other along row 6 at cols 13..14 and 18..19.
 
 <hr>
 
