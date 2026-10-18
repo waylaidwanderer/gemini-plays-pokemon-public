@@ -56,3 +56,8 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Team: 3 Pokémon (Numel ♂ Lv 18 - OHKO'd for 339 EXP; Numel ♂ Lv 22 - OHKO'd for 414 EXP; Poochyena ♂ Lv 20 - OHKO'd for 235 EXP).
    - Reward: ¥880 prize money.
    - Outcome: Complete victory! Tabitha defeated.
+
+3. Team Magma Leader Maxie:
+   - Location: Volcanic machine at (13, 6).
+   - Pre-battle quote: "The power contained in the METEORITE... By its power, the volcano's activity will increase..."
+   - Team: Mightyena ♂ Lv 24, Zubat ♂ Lv 24, Camerupt ♂ Lv 25.
