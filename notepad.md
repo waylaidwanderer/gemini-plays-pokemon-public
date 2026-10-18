@@ -613,6 +613,13 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Third Pokémon: Slugma Lv 24 (Fire) OHKO'd by Sage's Leaf Blade (400 EXP) on Turn 7860; Sage grew to Level 42!
 - Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace brought to ~45% HP on Turn 7867; Sage survived Overheat with 9/127 HP (Overgrow active!).
 - Turn 7868: Sage selected Overgrow-boosted Leaf Blade for the final knockout!
+### Rematch (Completed - Victory!)
+- Numel ♀ Lv 24 (Fire/Ground) OHKO'd by Sage's Leaf Blade (451 EXP) on Turn 7848.
+- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) healed by Flannery's 1st Hyper Potion, then defeated by Sage's 2nd Leaf Blade (975 EXP) on Turn 7856.
+- Third Pokémon: Slugma Lv 24 (Fire) OHKO'd by Sage's Leaf Blade (400 EXP) on Turn 7860; Sage grew to Level 42!
+- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace OHKO'd from ~45% HP by Sage's Overgrow-boosted Leaf Blade (1,000 EXP) on Turn 7869!
+- Outcome: Complete victory! Gym Leader Flannery defeated!
+- Rewards: Heat Badge earned! TM50 Overheat obtained! Flannery registered in Match Call! Prize money: ¥3,480.
 
 <hr>
 
@@ -2324,7 +2331,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 41, Male), Nickname: SAGE
-- Status: HEAT BADGE EARNED! HM04 STRENGTH UNLOCKED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed: Gym Leader Flannery defeated! 4 Badges earned! Party: Sage Lv 42 (OK, 9/127 HP, 8/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
+- Status: HEAT BADGE EARNED! HM04 STRENGTH UNLOCKED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed: Gym Leader Flannery defeated! 4 Badges earned! Next destination: Petalburg Gym (Norman)! Party: Sage Lv 42 (OK, 9/127 HP, 8/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥52,072.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 42) [Held Item: None (consumed)] - Evolved on turn 5632! Level 42 on turn 7862! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 9/127. Max HP: 127. Stats: Atk 89, Def 67, Sp.Atk 102, Sp.Def 91, Speed 120. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -2334,7 +2341,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
 
 ## Bag Highlights
-- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30), Dynamo Badge (Wattson - enables HM06 Rock Smash outside battle, increases Pokémon Speed stat).
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - enables HM05 Flash outside battle, obedience up to Lv 30), Dynamo Badge (Wattson - enables HM06 Rock Smash outside battle, increases Pokémon Speed stat), Heat Badge (Flannery - enables HM04 Strength outside battle, obedience up to Lv 50).
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
@@ -2349,8 +2356,8 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥48,592
+- TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- Money: ¥52,072
 - Key Items: Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -2448,6 +2455,6 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [x] Explore Route 114 and Meteor Falls (confronted Magma/Aqua, spoke with Cozmo).
 9. [x] Stop Team Magma at Mt. Chimney (defeat Grunts, Admin Tabitha, and Leader Maxie; retrieve Meteorite).
 10. [x] Descend Jagged Pass to Lavaridge Town (obtained Wynaut Egg, healed at Center).
-11. [ ] Defeat Gym Leader Flannery in Lavaridge Gym for Gym 4 (Heat Badge).
+11. [x] Defeat Gym Leader Flannery in Lavaridge Gym for Gym 4 (Heat Badge).
 
 <hr>

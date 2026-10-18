@@ -255,3 +255,10 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Third Pokémon: Slugma Lv 24 (Fire) OHKO'd by Sage's Leaf Blade (400 EXP) on Turn 7860; Sage grew to Level 42!
 - Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace brought to ~45% HP on Turn 7867; Sage survived Overheat with 9/127 HP (Overgrow active!).
 - Turn 7868: Sage selected Overgrow-boosted Leaf Blade for the final knockout!
+### Rematch (Completed - Victory!)
+- Numel ♀ Lv 24 (Fire/Ground) OHKO'd by Sage's Leaf Blade (451 EXP) on Turn 7848.
+- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) healed by Flannery's 1st Hyper Potion, then defeated by Sage's 2nd Leaf Blade (975 EXP) on Turn 7856.
+- Third Pokémon: Slugma Lv 24 (Fire) OHKO'd by Sage's Leaf Blade (400 EXP) on Turn 7860; Sage grew to Level 42!
+- Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace OHKO'd from ~45% HP by Sage's Overgrow-boosted Leaf Blade (1,000 EXP) on Turn 7869!
+- Outcome: Complete victory! Gym Leader Flannery defeated!
+- Rewards: Heat Badge earned! TM50 Overheat obtained! Flannery registered in Match Call! Prize money: ¥3,480.
