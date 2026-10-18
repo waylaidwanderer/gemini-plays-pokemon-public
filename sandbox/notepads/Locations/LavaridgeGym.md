@@ -22,3 +22,4 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Steam Pit 1 (Entrance West): Located at (10, 18) west of entrance mat.
 - Steam Pit 2 (North Hall): Located at (11..12, 11) north of statues.
 - Upper Platform / Doorway: Located north at rows 7..9.
+- Gym Guide Advice: Flannery uses Fire-type Pokémon. Use Water, Ground, or Rock moves. Steam pits shoot you between rooms/levels.
