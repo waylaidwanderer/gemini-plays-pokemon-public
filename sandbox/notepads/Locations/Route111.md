@@ -160,5 +160,5 @@ A major north-south route connecting central Hoenn (Mauville City) to the northe
 - Entrance: South entrance from Route 111 junction at cols 8..11, row 70 heading north into open sand at cols 9..14, rows 58..63.
 - Active Mirage Tower: SPAWNED! Located at the southeastern desert border at cols 17..20, rows 50..58. Arched doorway entrance at cols 19..20, row 56. Contains Claw Fossil and Root Fossil on 4F (requires Mach Bike and Rock Smash).
 - Item Ball: [COLLECTED] Located at (12, 54) nestled between stationary rocks at (11, 54) and (11, 56). Item: STARDUST!
-- Camper Trainer: Located at (15, 55..56) facing South. Line of sight looks down column 15. Bypassed safely via column 12.
+- Camper Drew: Located at (14, 56). Engaged adjacent at (15, 56). Team: Sandshrew Lv 23.
 - Wild Pokémon Encountered: Baltoy (Lv 19, Ground/Psychic).
