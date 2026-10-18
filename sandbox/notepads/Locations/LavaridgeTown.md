@@ -18,7 +18,8 @@ A hot spring town situated at the southern base of Mt. Chimney. Famous for its v
 ## Discovered Coordinates & Layout
 - East entrance from Route 112: (19, 10) heading West onto main street along row 10.
 - North-South Mart Avenue: Located at col 14 leading from row 10 up to Poké Mart entrance at (14, 5).
-- Horizontal Connector: Row 8 connects the Mart avenue at col 14 to the Pokémon Center entrance at col 9.
-- Pokémon Center Entrance: (9, 5) entered from (9, 6) facing North.
+- Main Street (Horizontal Connector): Row 10 connects the Mart avenue at col 14 to the Pokémon Center avenue at cols 8..9. (Row 8 is blocked by the central green island containing the tree, flower pots, and signpost).
+- Pokémon Center Avenue: Located at cols 8..9 leading from row 10 north to the Pokémon Center entrance at (8..9, 4..5).
+- Pokémon Center Entrance: (8..9, 4..5) entered from row 6 facing North.
 - Eastern Signpost: Located at (21, 8) east of the avenue.
 - Center Signpost: Located at (12, 7) between Pokémon Center and Poké Mart.
