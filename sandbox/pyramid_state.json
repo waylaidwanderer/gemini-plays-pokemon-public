@@ -1,1 +1,1 @@
-{"floor": 3, "visited": [[29, 14]], "walls": [], "stack": [[[29, 14], 0]], "parent_dir": {}}
+{"floor": 3, "visited": [[27, 14]], "walls": [], "stack": [[[27, 14], 4]], "parent_dir": {}}
