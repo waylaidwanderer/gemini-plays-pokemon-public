@@ -304,8 +304,9 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 - Ledge jump at row 7 down to row 8.
 
 ## Trainers
-1. Hiker / Trainer 1:
-   - Location: (10, 8) facing East.
+1. Hiker Eric:
+   - Location: (10, 8) facing East. Engaged player at (13, 8).
+   - Pre-battle quote: "MT. CHIMNEY's JAGGED PASS... Now this is what I've always wanted in a mountain. This jagged bumpiness... It rocks my soul!"
 
 <hr>
 
