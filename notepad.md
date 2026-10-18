@@ -381,21 +381,22 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Elevated Platform Ledge: Row 13 is an elevated ledge running across the room. Impassable on foot from below. Steam Pit 2 at (12, 11) and the bather trainer are on this upper tier.
 - Upper Platform / Doorway: Located north at rows 7..9.
 - Gym Guide Advice: Flannery uses Fire-type Pokémon. Use Water, Ground, or Rock moves. Steam pits shoot you between rooms/levels.
-## Room 2 (Puzzle Room 1)
+## Room 2 (B1F Lower Puzzle Room)
 - Warp Source: Entrance Room Steam Pit 1 at (10, 18) drops here at (10, 18) facing North.
-- Layout:
-  - Arrival Steam Pit: Located at (10, 18) (returns to Entrance Room).
-  - Eastern Lower Steam Pit: Located at (13, 17) south of the col 13 pillar.
-  - Eastern Upper Steam Pit: Located at (12..13, 11) on upper platform.
-  - Western Corridor: 3-4 steam pits along cols 3..5 behind west divider pillars.
-  - North Ledge: Row 15 is an elevated ledge blocking walking directly north.
+- Layout & Collision (Fully Verified):
+  - Arrival Steam Pit: Located at (10, 18) (two-way warp returning to 1F Entrance Room).
+  - Accessible Lower Area: Columns 10..12, rows 16..18, plus col 13 row 18, and col 14 rows 11..18.
+  - Column 14 Corridor: A 1-tile wide dead-end hallway running north from (14, 18) up to (14, 11). Bounded on the west by the continuous column 13 pillar (no gaps), and dead-ends at (14, 11) against a north wall/ledge.
+  - North Ledge at Row 15: Impassable from the south across cols 10..12.
+  - Upper Platform: Elevated tier north of row 15 containing a steam pit at (11..12, 12..13). Cannot be climbed on foot from the lower floor.
+  - Eastern Lower Steam Pit: Located at (13, 17). Ambush trap pit housing Kindler Jeff. Defeated Jeff remains standing permanently at (13, 17), blocking the tile.
+  - Usable Exits: The steam pit at (10, 18) is the ONLY walkable exit from the lower level of Room 2.
 ### Trainers
 1. Kindler Jeff: [DEFEATED]
    - Location: Submerged in Eastern Lower Steam Pit at (13, 17) in Room 2.
    - Pre-battle quote: "See how the flames blaze wildly? They flare in anticipation of my win!"
    - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
-- Verified Mechanics: Steam Pit 1 at (10, 18) is a two-way warp connecting 1F Entrance Room to B1F Room 2. Defeated trainers remain standing on their trap pits (blocking entry). Col 14 in Room 2 is a dead-end corridor.
 ## Gym Navigation & Mechanics (Verified)
 - Vertical Partitions: The vertical yellow/red columns (e.g. at col 7) are solid impassable room dividers spanning the entire height of the gym. There are NO walkable openings or crossways between wings on foot.
 - Room Navigation: All inter-room and inter-floor travel MUST be accomplished via the steam pit vent warps.
