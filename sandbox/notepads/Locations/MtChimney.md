@@ -12,7 +12,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Clashing Grunts: Directly southeast at (19..22, 38..39), an Aqua Grunt (left) and Magma Grunt (right) have their Poochyena clashing.
 - Jagged Pass Entrance: Located to the south/southeast with one-way downhill ledges (blocked until Team Magma defeated).
 - Middle Plateau Switchback: Terrace at row 25 is blocked directly north at (25, 24) by a cliff wall. To reach the upper stairs at (25, 22..23), take the switchback path: walk west along row 25 to western stairs at (20, 24..25), climb up to row 23 terrace, and walk east along row 23 to upper stairs at (25, 22..23). Magma Grunt stands on Tier 3 at (23, 21) facing South.
-- Tier 3 Grunt Skirmish: At cols 22..24, rows 17..19, Magma and Aqua Grunts with their Poochyena are locked in battle.
+- Tier 3 Grunt Skirmish: Located at cols 21..24, rows 17..21. A cross formation of 3 Magma Grunts, 1 Aqua Grunt, and multiple clashing Poochyena. Col 25 is a clear open path to the east running straight north.
 - Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine.
 - Volcanic Device: Team Magma's machine powered by Professor Cozmo's Meteorite.
 
@@ -26,8 +26,8 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 1. [x] Arrive at Mt. Chimney summit via Cable Car.
 2. [x] Exit Cable Car Station onto Mt. Chimney crater summit at (17, 37).
 3. [x] Read summit signpost at (24, 37) ("↓ JAGGED PATH / LAVARIDGE TOWN AHEAD").
-4. [ ] Ascend upper stairs at (25, 22..23) into the upper caldera.
-5. [ ] Witness Team Magma vs Team Aqua battles across the caldera.
+4. [x] Ascend switchback stairs at (20, 24..25) and (25, 22..23) into the upper caldera.
+5. [x] Witness Team Magma vs Team Aqua battles across the caldera.
 6. [ ] Defeat Team Magma Grunts guarding the path.
 7. [ ] Defeat Team Magma Admin Tabitha.
 8. [ ] Defeat Team Magma Leader Maxie.
