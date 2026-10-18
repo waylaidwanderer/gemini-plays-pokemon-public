@@ -33,7 +33,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 4. [x] Ascend switchback stairs at (20, 24..25) and (25, 22..23) into the upper caldera.
 5. [x] Witness Team Magma vs Team Aqua battles across the caldera.
 6. [x] Defeat Team Magma Grunts guarding the path (Double Battle won at 10, 16).
-7. [ ] Defeat Team Magma Admin Tabitha.
+7. [x] Defeat Team Magma Admin Tabitha.
 8. [ ] Defeat Team Magma Leader Maxie.
 9. [ ] Reclaim the Meteorite from the machine.
 10. [ ] Descend Jagged Pass to Lavaridge Town.
@@ -49,7 +49,10 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Reward: ¥800 prize money.
    - Outcome: Complete victory! Zubat and Numel defeated.
 
-2. Magma Admin Tabitha:
+2. Magma Admin Tabitha: [DEFEATED]
    - Location: Northern caldera pass at (11, 11) engaged from (10, 11).
    - Pre-battle quote: "Hehehe! So you've come all the way here! But you're too late! I've already delivered the METEORITE from METEOR FALLS to the BOSS!"
-   - Team: 4 Pokémon (Numel ♂ Lv 18 - OHKO'd for 339 EXP; Numel ♂ Lv 22 - OHKO'd for 414 EXP; Poochyena ♂ Lv 20 - OHKO'd for 235 EXP; Zubat - incoming).
+   - Defeat quote: "Hehehe... Even though I've lost, if our leader awakens that thing..."
+   - Team: 3 Pokémon (Numel ♂ Lv 18 - OHKO'd for 339 EXP; Numel ♂ Lv 22 - OHKO'd for 414 EXP; Poochyena ♂ Lv 20 - OHKO'd for 235 EXP).
+   - Reward: ¥880 prize money.
+   - Outcome: Complete victory! Tabitha defeated.
