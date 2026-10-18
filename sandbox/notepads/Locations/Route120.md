@@ -33,3 +33,9 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
    - Location: (16, 6) on northern sand terrace.
    - Team: Roselia Lv 28, Wailmer Lv 28.
    - Reward: ¥1,120 prize money.
+
+2. Bird Keeper Robert: [DEFEATED - Turn 9198]
+   - Location: (34, 14) on eastern trail bend.
+   - Team: Swablu Lv 29.
+   - Reward: ¥928 prize money.
+   - Match Call registered!
