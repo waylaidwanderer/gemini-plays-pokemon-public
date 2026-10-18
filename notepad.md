@@ -2352,6 +2352,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Team Aqua Bridge Blockade: Two Team Aqua Grunts standing at (14, 32..33) blocking the eastern bridge over the river leading toward Fortree City.- Rival Brendan Battle #3: (25, 31) on trail east of river bridge - [DEFEATED - Turn 9022]. Team: Pelipper Lv 29, Combusken Lv 31, Lombre Lv 29. Reward: HM02 Fly!
 - Scott Encounter: Scott watched the battle with Brendan at (25, 30) and praised May's growth.
 
+- Northern Signpost: Located at (27, 19) facing South along the northern dirt highway leading into Fortree City.
 
 <hr>
 
