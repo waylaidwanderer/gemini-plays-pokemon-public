@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 40, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Entered Lavaridge Gym! Party fully restored! Next: Consult Gym Guide, navigate steam pit puzzle rooms, defeat gym trainers, and defeat Gym Leader Flannery for the Heat Badge! Total money: ¥42,368. Party: Sage Lv 40 (OK, 122/122), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Entered Lavaridge Gym! Party fully restored! Next: Consult Gym Guide, navigate steam pit puzzle rooms, defeat gym trainers, and defeat Gym Leader Flannery for the Heat Badge! Total money: ¥43,072. Party: Sage Lv 40 (OK, 122/122), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 40) [Held Item: None (consumed)] - Evolved on turn 5632! Level 40 on turn 6927! Moves: Fury Cutter (20/20), Pursuit (18/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 122/122. Max HP: 122. Stats: Atk 84, Def 64, Sp.Atk 96, Sp.Def 87, Speed 115. Status: OK. Nature: Lonely. Ability: Overgrow.

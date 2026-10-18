@@ -37,3 +37,4 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Pre-battle quote: "See how the flames blaze wildly? They flare in anticipation of my win!"
    - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
+- Verified Mechanics: Steam Pit 1 at (10, 18) is a two-way warp connecting 1F Entrance Room to B1F Room 2. Defeated trainers remain standing on their trap pits (blocking entry). Col 14 in Room 2 is a dead-end corridor.
