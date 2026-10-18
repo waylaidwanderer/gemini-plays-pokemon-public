@@ -144,7 +144,7 @@
 3. [x] Heal party at Petalburg City Pokémon Center.
 4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
 5. [x] Travel east from Mauville City onto Route 118.
-6. [ ] Surf across Route 118 river to meet Steven Stone.
+6. [x] Surf across Route 118 river to meet Steven Stone.
 7. [ ] Traverse Route 119 north to Weather Institute.
 8. [ ] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.

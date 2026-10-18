@@ -17,7 +17,7 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 1. [x] Enter Route 118 from Mauville City.
 2. [x] Defeat western shore trainers (Deandre, Rose, Dalton, Wade defeated; woman at 12, 11 is civilian).
 3. [x] Surf across the river to the eastern shore with Lombre (Lilz).
-4. [ ] Meet Steven Stone on the eastern shore.
+4. [x] Meet Steven Stone on the eastern shore (met at 44, 11; discussed Pokémon training).
 5. [x] Speak to Good Rod Fisherman on eastern shore to obtain Good Rod (obtained Good Rod!).
 6. [ ] Head north onto Route 119 towards Fortree City.
 
