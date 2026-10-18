@@ -279,6 +279,12 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Altaria (Lv 33, Dragon/Flying, Dragon Dance, Earthquake)
 
 ## Gym Mechanics & Puzzle
+
+## Interior Layout & Verified Coordinates (Turn 9234)
+- Entrance Mat: (15, 24), facing North.
+- Gym Guide: (15, 20), between statues at (14, 20) and (16, 20).
+- Turnstile 1: Located at (12, 21).
+
 - Rotating Turnstiles: Cross-shaped wooden revolving gates that rotate 90 degrees when pushed from open sides.
 - Gym Guide: Located near entrance.
 
