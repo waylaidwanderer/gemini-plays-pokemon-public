@@ -52,3 +52,5 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - High Suspension Bridge: Located at row 85, spanning from the eastern high ridge at col 34 across the river gorge to the western plateau at col 7.
 - Western Plateau: Located at cols 3..6, rows 82..85. White stone staircase at cols 4..5, row 81 leads up to the higher western mountain terrace.
 - PKMN Ranger Jackson: (7, 74) facing South - [DEFEATED - Turn 8707]. Team: Breloom Lv 27. Registered in Match Call.
+- Parasol Lady Rachel: (8, 68) facing South - [DEFEATED - Turn 8726]. Team: Goldeen Lv 26. Prize: ¥1,040. Note: Appears as a red parasol dome and face submerged in giant grass.
+- Northern Terrace Corridor: Giant grass ends at row 67, opening onto a short grass corridor along cols 7..9 past a puddle at (10..11, 65..67). Bypassed Rachel via col 9.

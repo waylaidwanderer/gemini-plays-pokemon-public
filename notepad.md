@@ -2335,6 +2335,8 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - High Suspension Bridge: Located at row 85, spanning from the eastern high ridge at col 34 across the river gorge to the western plateau at col 7.
 - Western Plateau: Located at cols 3..6, rows 82..85. White stone staircase at cols 4..5, row 81 leads up to the higher western mountain terrace.
 - PKMN Ranger Jackson: (7, 74) facing South - [DEFEATED - Turn 8707]. Team: Breloom Lv 27. Registered in Match Call.
+- Parasol Lady Rachel: (8, 68) facing South - [DEFEATED - Turn 8726]. Team: Goldeen Lv 26. Prize: ¥1,040. Note: Appears as a red parasol dome and face submerged in giant grass.
+- Northern Terrace Corridor: Giant grass ends at row 67, opening onto a short grass corridor along cols 7..9 past a puddle at (10..11, 65..67). Bypassed Rachel via col 9.
 
 <hr>
 
@@ -2607,7 +2609,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 45, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Guava Lv 27 (OK, 92/92 HP), Lilz Lv 20 (PAR, 60/60), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut), Sage Lv 45 (PAR, 14/137 HP). Total money: ¥67,620.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Traverse Route 119 to Fortree City, challenge Gym Leader Winona for Gym 6 (Feather Badge)! Party: Guava Lv 27 (OK, 92/92 HP), Lilz Lv 20 (PAR, 60/60), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut), Sage Lv 45 (PAR, 14/137 HP). Total money: ¥68,660.
 
 ## Party
 1. GUAVA (Tropius ♀, Level 27) - Caught on Route 119 with Great Ball on turn 8460! Type: Grass/Flying. HP: 92/92. Max HP: 92. Moves: Whirlwind, Stomp, Sweet Scent, Magical Leaf. Status: OK.
