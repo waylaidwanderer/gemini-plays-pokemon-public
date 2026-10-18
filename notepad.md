@@ -439,6 +439,13 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Reward: ¥736 prize money.
    - Post-battle: Stands at (3, 10) permanently blocking his ambush pit.
 
+7. Kindler Keegan: [IN BATTLE]
+   - Location: Ambushed from Northeast steam pit at (2, 6) in Room 6 (B1F Northwest).
+   - Pre-battle quote: "You must be getting tired by now. You'd like to rest in the hot sand, wouldn't you? But you should know that maintaining your willpower is an important ability for all TRAINERS."
+   - Team: Slugma ♂ Lv 23.
+   - Note: Keegan was submerged in the unexplored steam pit at (2, 6).
+
+
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
 - Layout & Navigation:
