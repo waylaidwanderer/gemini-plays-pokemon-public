@@ -15,7 +15,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Progression Checklist - Weather Institute
 1. [x] Arrive at Weather Institute and enter front doors.
-2. [ ] Heal and prepare party (restore Sage HP, rotate lead).
+2. [x] Heal and prepare party (restore Sage HP, rotate lead).
 3. [ ] Defeat Team Aqua Grunts on 1F.
 4. [ ] Ascend to 2F and defeat Team Aqua Grunts and Admin Shelly.
 5. [ ] Speak to Head Scientist, receive Castform holding Mystic Water.
