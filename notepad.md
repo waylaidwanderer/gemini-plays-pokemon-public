@@ -495,7 +495,8 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Tier 3 Grunt Skirmish: Located at cols 21..24, rows 17..21. A cross formation of 3 Magma Grunts, 1 Aqua Grunt, and multiple clashing Poochyena. Col 25 is a clear open path to the east running straight north.
 - Northeast Grunt Skirmish: Located at cols 28..31, rows 10..12. Magma Grunt at (28, 11) and Aqua Grunt at (31, 11) with two Poochyena clashing.
 - Western Caldera & Rock Mound: Rock mound at cols 12..14, rows 12..15. Clear dirt corridor along row 17 leads to the western pass at col 10.
-- Western Pass Grunts: Double Battle against Team Magma Grunts (Male at 9, 16 & Female at 11, 16) engaged at (10, 16). Defeating them clears the northern corridor into the caldera.
+- Western Pass Grunts: Double Battle against Team Magma Grunts (Male at 9, 16 & Female at 11, 16) engaged at (10, 16). Defeated! Awarded ¥800.
+- Northern Pass Grunt: Grunt at (12, 11) facing West. Engaged at (10, 11). Guards the approach to Tabitha and the machine.
 - Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine. Lava pit visible at cols 14..18, rows 9..11.
 - Volcanic Device: Team Magma's machine powered by Professor Cozmo's Meteorite.
 
@@ -527,7 +528,6 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
    - Reward: ¥800 prize money.
    - Outcome: Complete victory! Zubat and Numel defeated.
-
 
 <hr>
 
