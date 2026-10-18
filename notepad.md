@@ -2866,7 +2866,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 47 (OK, 143/143), Lilz Lv 23 (FNT, 0/67), Cipher Lv 14 (FNT, 0/32), Cobalu Lv 15 (OK, 38/42), EGG (Wynaut), Guava Lv 28 (OK, 14/95). Total money: ¥80,592.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (23/30). HP: 143/143. Max HP: 143. Stats: Atk 103, Def 76, Sp.Atk 114, Sp.Def 103, Speed 137. (Protein used on turn 9546). Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (30/30). HP: 143/143. Max HP: 143. Stats: Atk 103, Def 76, Sp.Atk 114, Sp.Def 103, Speed 137. (Protein used on turn 9546). Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 67/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 0/32. Status: FNT.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
@@ -2878,8 +2878,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
-- Elixir x2 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
-- Max Ether x2 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
+- Elixir x1 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
+- Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
 - Carbos x1 (found in rock at 20, 57 on Route 114)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
