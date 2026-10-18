@@ -989,7 +989,9 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 2. [x] Visit Petalburg Gym and speak to Dad (Norman).
 3. [x] Assist Wally with catching a wild Ralts using Norman's Zigzagoon.
 4. [x] Speak to Norman again to receive gym challenge directions.
-5. [ ] Proceed west to Route 104 toward Rustboro City.
+5. [x] Proceed west to Route 104 toward Rustboro City.
+6. [x] Return to Petalburg Gym with 4 badges, defeat Gym Leader Norman, and earn Balance Badge!
+7. [x] Follow Wally's Dad to Wally's house and receive HM03 Surf!
 
 ## Story Notes
 - Norman's Advice: Head west to Route 104 and through Petalburg Woods to Rustboro City; challenge Gym Leader Roxanne (Rock-type); return to Petalburg Gym after earning 4 badges.
@@ -2499,7 +2501,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 42, Male), Nickname: SAGE
+- Starter: Sceptile (Level 43, Male), Nickname: SAGE
 - Status: HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed! 4 Badges earned! Party fully healed at Lavaridge Center! Next destination: Challenge Petalburg Gym (Norman) for Gym 5! Party: Sage Lv 43 (OK, 130/130 HP, Leaf Blade 15/15), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut). Total money: ¥58,916.
 
 ## Party
@@ -2528,7 +2530,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Berries: Cheri Berry x1, Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM39 Rock Tomb (Roxanne), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Money: ¥58,916
-- Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman registered!), Old Rod (Fisherman in Dewford Town), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).

@@ -16,7 +16,9 @@
 2. [x] Visit Petalburg Gym and speak to Dad (Norman).
 3. [x] Assist Wally with catching a wild Ralts using Norman's Zigzagoon.
 4. [x] Speak to Norman again to receive gym challenge directions.
-5. [ ] Proceed west to Route 104 toward Rustboro City.
+5. [x] Proceed west to Route 104 toward Rustboro City.
+6. [x] Return to Petalburg Gym with 4 badges, defeat Gym Leader Norman, and earn Balance Badge!
+7. [x] Follow Wally's Dad to Wally's house and receive HM03 Surf!
 
 ## Story Notes
 - Norman's Advice: Head west to Route 104 and through Petalburg Woods to Rustboro City; challenge Gym Leader Roxanne (Rock-type); return to Petalburg Gym after earning 4 badges.
