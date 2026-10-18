@@ -594,6 +594,20 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Verified Boss Team: Numel Lv 24 (Fire/Ground), Camerupt Lv 26 (Fire/Ground), Slugma Lv 24 (Fire), Torkoal Lv 29 (Fire - holds White Herb, moves: Overheat, Body Slam, Attract, Sunny Day).
 - Rematch Strategy: Sage sweeps Numel (Leaf Blade OHKO), Camerupt (Leaf Blade OHKO), Slugma (Leaf Blade OHKO), and Torkoal (Leaf Blade 2HKO).
 
+## Full Transit Route from Entrance to Flannery (Verified)
+1. Entrance (13, 18): Walk Up 1, Left 5 to (8, 17), then Up 8 along Col 8 highway into Steam Pit 2 at (8, 9).
+2. B1F Room 3 (8, 9): Walk Down 8 to (8, 17), Left 8 to (0, 17) geyser -> launches to 1F (1, 17).
+3. 1F Room 4 (1, 17): Walk Up 3 into (1, 14) drop pit -> drops to B1F (1, 14).
+4. B1F (1, 14): Walk Down 3 to (1, 17), Right 4 to (5, 17), Up 3 into (5, 14) geyser -> launches to 1F Upper Tier at (6, 14).
+5. 1F Upper Tier (6, 14): Walk Up 4 to (6, 10), Left 6 to (0, 10) drop pit -> drops to B1F Room 6 at (0, 10).
+6. B1F Room 6 (0, 10): Walk Up 4 into (0, 6) geyser -> launches to 1F Upper Terrace at (1, 6).
+7. Winning Path from 1F Upper Terrace (1, 6):
+   - Walk to (2, 3) drop pit -> B1F (2, 3).
+   - Walk along Row 3 to (7, 3), step into (7, 2) geyser -> launches to 1F Middle Bay at (8, 2).
+   - Walk to (10, 6) drop pit -> drops to B1F Middle Sector at (10, 6).
+   - Hop row 11 ledge to (10, 12), walk to (12, 12) geyser -> launches directly to Flannery Platform at (13, 12)!
+   - Walk to (14, 9), face West, and challenge Flannery!
+
 <hr>
 
 <h1><code>Locations/LavaridgeTown</code></h1>
