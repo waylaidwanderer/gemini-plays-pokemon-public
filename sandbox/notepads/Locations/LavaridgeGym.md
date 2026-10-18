@@ -102,7 +102,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (0, 10): Upper tier pit above row 12 ledge.
     - (1, 15): [TESTED] Active warp pit! Stepping onto (1, 15) launches player in a steam geyser to Room 5 at (2, 14).
     - (0, 17): Bottom-left pit.
-    - (4, 15): Center corridor pit between pillars.
+    - (4, 15): [TESTING] Center corridor pit between pillars. Reached via row 17 gap (3, 17) -> col 4 north.
 
 ## Room 5 (1F South-Central Bay)
 ### Room 5 Upper Terrace (rows 1-6)
