@@ -116,7 +116,7 @@
 7. [x] Obtain HM04 Strength from Wanda's boyfriend.
 8. [x] Clear Rusturf Tunnel shortcut and collect Max Ether at (30, 2).
 
-## Progression Checklist - Phase 8: Route 111, Route 112, Mt. Chimney & Fallarbor Town (Active)
+## Progression Checklist - Phase 8: Route 111, Route 112, Mt. Chimney & Fallarbor Town (Completed)
 1. [x] Return east through Verdanturf Town and Route 117 to Mauville City.
 2. [x] Travel north from Mauville City onto Route 111.
 3. [x] Challenge Winstrate Family at the Winstrate House (Victor, Victoria, Vivi, Vicky) and receive Macho Brace.
@@ -128,3 +128,12 @@
 9. [x] Stop Team Magma at Mt. Chimney (defeat Grunts, Admin Tabitha, and Leader Maxie; retrieve Meteorite).
 10. [x] Descend Jagged Pass to Lavaridge Town (obtained Wynaut Egg, healed at Center).
 11. [x] Defeat Gym Leader Flannery in Lavaridge Gym for Gym 4 (Heat Badge).
+
+## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Active)
+1. [x] Receive Go-Goggles from Brendan outside Lavaridge Gym.
+2. [ ] Heal party at Lavaridge Pokémon Center (Sage at 9 HP!).
+3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
+4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
+5. [ ] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
+6. [ ] Challenge Petalburg Gym trainers (Room Doors: Speed, Accuracy, Defense, Recovery, Strength, One-Hit KO).
+7. [ ] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!
