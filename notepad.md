@@ -589,6 +589,10 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 5. B1F Middle Sector: Walk Down column 10 to row 11, hop south-facing jump ledge to (10, 12), step Down to (10, 13), Right to (12, 13), and Up onto the steam geyser at (12, 12).
 6. 1F Flannery Platform / Upper Tier: Stepping onto (12, 12) geyser launches player to 1F at (13, 12) directly on the upper tier below Gym Leader Flannery (14, 8)!
 
+## Gym Leader Flannery Battle (Gym 4)
+- Lead Pokémon: Numel ♀ Lv 24 (Fire/Ground) - Defeated by Sage's Leaf Blade (451 EXP).
+- Second Pokémon: Camerupt ♀ Lv 26 (Fire/Ground) - Active.
+
 <hr>
 
 <h1><code>Locations/LavaridgeTown</code></h1>
