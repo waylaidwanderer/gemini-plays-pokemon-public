@@ -241,3 +241,4 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Turn 7784: Cobalu selected Headbutt; Torkoal used Overheat.
 - Cobalu fainted to Torkoal's Overheat on Turn 7784.
 - Turn 7788: Cipher used Teleport (failed). Battle concluding into blackout full restore.
+- Battle 1 concluded in whiteout on Turn 7789. Preparing for rematch with full-health party.
