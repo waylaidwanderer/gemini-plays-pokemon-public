@@ -540,7 +540,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 3. Team Magma Leader Maxie:
    - Location: Volcanic machine at (13, 6).
    - Pre-battle quote: "The power contained in the METEORITE... By amplifying its power with this machine, MT. CHIMNEY's volcanic activity will instantly intensify... I'll teach you the consequences of meddling in our grand design!"
-   - Team: 3 Pokémon (Mightyena ♂ Lv 24 - OHKO'd for 657 EXP; Camerupt ♂ Lv 25 - active; Zubat ♂ Lv 24 incoming).
+   - Team: 3 Pokémon (Mightyena ♂ Lv 24 - OHKO'd for 657 EXP; Camerupt ♂ Lv 25 - defeated; Zubat ♂ Lv 24 - incoming).
 
 <hr>
 
@@ -1941,7 +1941,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 - Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! Phase 8 active: Arrived at Mt. Chimney summit via Cable Car! Next: Confront Team Magma Leader Maxie at the volcanic machine, defeat him, and retrieve the Meteorite! Total money: ¥38,808. Party: Sage Lv 39 (OK, 109/118), Lilz Lv 19 (OK, 50/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (28/30). HP: 109/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 39) [Held Item: None (consumed)] - Evolved on turn 5632! Level 39 on turn 6559! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (28/30). HP: 109/118. Max HP: 118. Stats: Atk 82, Def 63, Sp.Atk 93, Sp.Def 84, Speed 111. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 19) - Evolved from Lotad on turn 4926! Level 19 on turn 6606! Moves: Astonish (29/30), Nature Power (20/20), Absorb (25/25), Flash (20/20). HP: 50/57. Max HP: 57. Stats: HP 57, Atk 27, Def 24, Sp.Atk 25, Sp.Def 33, Speed 27. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
