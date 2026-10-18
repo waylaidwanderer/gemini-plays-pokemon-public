@@ -2302,7 +2302,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 
 ## Progression Checklist - Route 119
 1. [x] Enter Route 119 from Route 118.
-2. [ ] Navigate through lower giant grass and defeat trainers.
+2. [x] Navigate through lower giant grass and defeat trainers (Fisherman Chris, Ranger Catherine defeated; Zinc obtained).
 3. [ ] Reach and enter the Weather Institute.
 4. [ ] Defeat Team Magma/Aqua inside Weather Institute and rescue scientists (receive Castform).
 5. [ ] Cross the bridge and defeat Rival Brendan (obtain HM02 Fly).
