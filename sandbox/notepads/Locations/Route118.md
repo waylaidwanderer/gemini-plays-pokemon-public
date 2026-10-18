@@ -33,5 +33,5 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 - Good Rod Fisherman: (28, 8) - Friendly NPC facing south. Answers YES to give the Good Rod.
 - Secret Power Rock Cave: Located at (28, 4) in the northern cliff wall.
 - Interviewers Gabby & Ty: Located at (33..34, 8) facing west. Requires manual interaction ('A') to initiate 2-on-2 Double Battle.
-  - Team: Magnemite Lv 27, Loudred Lv 27.
+  - Team: Magnemite Lv 27, Loudred Lv 27. [DEFEATED - Turn 8398] Prize: ¥2,592.
 - Grassy Plateau & Route 119 Trail: Trail wraps east and north around col 36 leading toward Route 119.
