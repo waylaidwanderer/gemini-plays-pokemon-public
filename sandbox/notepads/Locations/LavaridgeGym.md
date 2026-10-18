@@ -13,7 +13,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 2. [x] Enter Lavaridge Gym.
 3. [x] Consult Gym Guide at entrance.
 4. [ ] Navigate steam pit teleport puzzle.
-5. [ ] Defeat all Gym trainers.
+5. [x] Defeat all 6 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle).
 6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
 ## Entrance Room (1F)
 - Entrance / Exit mat: (12..13, 18).
@@ -97,7 +97,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Access: Reached from B1F West Wing via Southwest Steam Pit at (0, 17), landing at (1, 17) on 1F.
 - Layout & Topology (Fully Verified):
   - Row 12 is an impassable south-facing jump ledge dividing the room into an elevated North Tier (rows 10-12) and Lower Tier (rows 13-18). Cannot walk north across row 12.
-  - Defeated Trainers: Pink-hat NPC at (3, 16), Blonde spiky-hair NPC at (3, 18).
   - Vertical dividing pillar at column 3.
   - Steam Pits:
     - (0, 10): Upper tier pit above row 12 ledge.
@@ -131,7 +130,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (1, 18): Bottom-left steam pit.
     - (0, 10): [TESTED] Northwest steam pit (warps to Room 6 at (0, 10)).
     - (3, 10): [BLOCKED] Ambush pit where Kindler Axle stands.
-    - (5, 14): Eastern corridor pit beyond pillar.
+    - (5, 14): Eastern corridor pit (warps to B1F at (5, 14), dropping into B1F row 17 corridor).
     - (5, 10): Northeast corridor pit beyond pillar.
 
 ## Gym Navigation & Mechanics (Verified)
