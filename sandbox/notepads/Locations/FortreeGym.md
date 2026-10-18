@@ -68,3 +68,28 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 3. Step Up to (7, 14), then walk East across row 14 through (8, 14) and (9, 14) directly into Column 9.
 4. Walk North up Column 9 via (9, 13) and (9, 12) through (9, 11) directly to (9, 10)!
 5. Both Turnstiles 4 and 5 are fully bypassed, arriving in the upper gym directly in front of the platform approach.
+
+## Complete Fortree Gym Turnstile Walkthrough (Master Solution)
+1. Turnstile 1 (Pivot at 12, 21):
+   - From entrance (15, 24), walk to (12, 22) facing West.
+   - Push Left into (11, 22) to rotate gate.
+2. Turnstile 2 (Pivot at 5, 22):
+   - Walk West along row 22 to (6, 22) facing West.
+   - Push Left into (5, 22) to rotate counter-clockwise (lands on 4, 22).
+3. Turnstile 3 (Pivot at 2, 18):
+   - Walk North up col 4 to (4, 19), step Left to (3, 19).
+   - Push Left into (2, 19) to rotate clockwise.
+   - Walk South down col 2 to (2, 22), Right to (4, 22), North up col 4 to row 18.
+4. Turnstile 4 & Central Bypass:
+   - From row 18, walk East to (7, 18), then North up col 7 to (7, 14).
+   - Push Down into (7, 15) to rotate Turnstile 4 clockwise, opening row 14.
+   - Step Up to (7, 14), then walk East across row 14 via (8, 14) and (9, 14) into col 9.
+   - Walk North up col 9 via (9, 13), (9, 12), (9, 11) to (9, 10).
+5. Defeat Trainers:
+   - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
+6. Upper Approach to Winona:
+   - From (9, 10), step Left to (8, 10), Up to (8, 9), Left to (7, 9).
+   - Step Up to (7, 8), then Up to (7, 7).
+   - From (7, 7), walk North up col 7: Up through (7, 6) into (7, 5) to push top turnstile open.
+   - Continue North through (7, 4), (7, 3), (7, 2) to row 1 (7, 1).
+   - Walk East along row 1 straight onto Gym Leader Winona's platform!
