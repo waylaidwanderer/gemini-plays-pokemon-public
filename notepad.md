@@ -372,7 +372,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 3. [x] Consult Gym Guide at entrance.
 4. [x] Navigate steam pit teleport puzzle.
 5. [x] Defeat all 8 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle, Keegan, Danielle).
-6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
+6. [x] Defeat Gym Leader Flannery and earn the Heat Badge!
 ## Entrance Room (1F)
 - Entrance / Exit mat: (12..13, 18).
 - Gym Guide: Located at (12, 16) facing North/East.
@@ -2324,7 +2324,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 41, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Gym Leader Flannery rematch active! Numel, Camerupt, and Slugma defeated! Sweeping with Sage Lv 41 (124/124 HP, 10/15 Leaf Blade)! Only Torkoal remains!
+- Status: HEAT BADGE EARNED! HM04 STRENGTH UNLOCKED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 completed: Gym Leader Flannery defeated! 4 Badges earned! Party: Sage Lv 42 (OK, 9/127 HP, 8/15 Leaf Blade), Lilz Lv 19 (OK, 57/57), Cipher Lv 10 (OK, 25/25), Cobalu Lv 13 (OK, 38/38), EGG (Wynaut).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 42) [Held Item: None (consumed)] - Evolved on turn 5632! Level 42 on turn 7862! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 9/127. Max HP: 127. Stats: Atk 89, Def 67, Sp.Atk 102, Sp.Def 91, Speed 120. Status: OK. Nature: Lonely. Ability: Overgrow.
