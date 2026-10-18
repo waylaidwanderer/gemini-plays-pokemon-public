@@ -256,3 +256,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace OHKO'd from ~45% HP by Sage's Overgrow-boosted Leaf Blade (1,000 EXP) on Turn 7869!
 - Outcome: Complete victory! Gym Leader Flannery defeated!
 - Rewards: Heat Badge earned! TM50 Overheat obtained! Flannery registered in Match Call! Prize money: ¥2,900.
+## Exit Path from Flannery Platform
+- The platform ledge at row 11 is a one-way south-facing ledge.
+- Jumping south from (13, 10) over row 11 lands directly back in the 1F Entrance Room above the statues, providing an immediate one-step exit shortcut back to the entrance door at (12..13, 18).
