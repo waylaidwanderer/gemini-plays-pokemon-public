@@ -237,3 +237,4 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Third Pokémon: Slugma Lv 24 (Fire) - Used Light Screen; healed by Flannery's 2nd Hyper Potion; defeated by Sage's Quick Attack (400 EXP).
 - Fourth Pokémon: Torkoal Lv 29 (Fire) - Flannery's final ace! At ~40% HP; Torkoal defeated Sage on Turn 7770.
 - Battle Mechanics Verified: Flannery has used BOTH of her Hyper Potions (1 on Camerupt, 1 on Slugma); she has 0 potions remaining! Camerupt used Attract; infatuation cures automatically when the infatuating Pokémon faints. Emerald move memory preserves last selected move in battle.
+- Lilz fainted to Torkoal's Overheat on Turn 7778; Torkoal's Sp.Atk harshly fell (-2 stages).
