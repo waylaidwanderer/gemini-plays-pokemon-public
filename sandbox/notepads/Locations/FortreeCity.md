@@ -25,7 +25,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 3. [ ] Explore town landmarks, shops, and treehouses.
 4. [x] Approach Fortree Gym and inspect invisible barrier (confirmed 'Something unseeable is in the way' at (25, 8) on turn 9150).
 5. [x] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope (obtained turn 9219).
-6. [ ] Unmask and clear the invisible Kecleon blocking Fortree Gym.
+6. [x] Unmask and clear the invisible Kecleon blocking Fortree Gym (used Devon Scope on turn 9226; Kecleon fled!).
 7. [ ] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
 
 ## Verified Navigation Mechanics - Treehouse Networks (Turn 9111)
