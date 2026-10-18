@@ -29,3 +29,5 @@ A mystical tower that occasionally manifests in the Route 111 desert. Highly uns
 - Northeast Alcove: (cols 16..18, rows 3..8) is a dead end! Blocked south at row 9 by a wall of rocks spanning cols 16..18.
 - 3F Ladder: Visible at southeast corner at (17..18, 12..13). Accessible ONLY from the south corridor coming from the southwest!
 - Progression Route: Must cross the western cracked tile corridor using the Mach Bike at top speed to reach the south corridor and the 3F ladder.
+- Puzzle Analysis: Columns 2..3 have 7 consecutive cracked tiles (rows 4..10) along the west wall. Row 3 is blocked by wall at col 3; col 4 has stationary pebble at (4, 8) and (3, 9); col 16 alcove is blocked at row 9 by rocks. 3F ladder at (18, 13) is accessible only via the south corridor past the cracked tiles.
+- Strategic Decision: Mirage Tower is an optional fossil dungeon. To avoid getting bogged down by high-speed Mach Bike turning execution, deferring fossil retrieval and proceeding directly to Petalburg Gym for Gym 5 (Norman / Balance Badge / Surf).
