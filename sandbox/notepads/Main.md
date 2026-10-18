@@ -7,7 +7,7 @@
 
 ## Party
 1. GUAVA (Tropius ♀, Level 27) - Caught on Route 119 with Great Ball on turn 8460! Type: Grass/Flying. HP: 92/92. Max HP: 92. Moves: Whirlwind, Stomp, Sweet Scent, Magical Leaf. Status: OK.
-2. LILZ (Lombre ♀, Level 20) - Evolved from Lotad on turn 4926! Level 20 on turn 8396! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 60/60. Max HP: 60. Stats: HP 60, Atk 29, Def 25, Sp.Atk 27, Sp.Def 35, Speed 29. Status: PAR.
+2. LILZ (Lombre ♀, Level 21) - Evolved from Lotad on turn 4926! Level 21 on turn 8821! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 62/62. Max HP: 62. Stats: HP 62, Atk 30, Def 26, Sp.Atk 27, Sp.Def 36, Speed 30. Status: PAR.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.

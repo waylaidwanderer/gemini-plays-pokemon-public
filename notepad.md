@@ -2341,8 +2341,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Item Ball: (3, 56) - [OBTAINED] Hyper Potion! Located in northwest alcove by puddle and mud slope.
 - Western Cliff Mud Slope: Located at cols 5..6, rows 53..54 leading to an upper ledge. Main progression route continues east toward the central river and Weather Institute.
 - Western Ridge East Bypass: To bypass the pine trees at (10..11, 62..64) and cliff wall at row 54, route south to row 66, cross east through the puddle at (10..11, 66..67) into the giant tall grass corridor at cols 12..15 heading north.- Acro Bike Rails: Located at (14, 54) along the cliff ledge above the giant grass.
-- Kindler Dayton & Ninja Boy Takashi (Double Battle): (18..19, 52) at top of white stairs - [DEFEATED - Turn 8821]. Dayton used Slugma Lv 25, Numel Lv 25; Takashi used Ninjask Lv 25.
-
+- Kindler Dayton & Ninja Boy Takashi (Double Battle): (18..19, 52) at top of white stairs - [DEFEATED - Turn 8821]. Dayton used Slugma Lv 25, Numel Lv 25; Takashi used Ninjask Lv 25, Koffing Lv 25.
 
 <hr>
 
@@ -2619,7 +2618,7 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 ## Party
 1. GUAVA (Tropius ♀, Level 27) - Caught on Route 119 with Great Ball on turn 8460! Type: Grass/Flying. HP: 92/92. Max HP: 92. Moves: Whirlwind, Stomp, Sweet Scent, Magical Leaf. Status: OK.
-2. LILZ (Lombre ♀, Level 20) - Evolved from Lotad on turn 4926! Level 20 on turn 8396! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 60/60. Max HP: 60. Stats: HP 60, Atk 29, Def 25, Sp.Atk 27, Sp.Def 35, Speed 29. Status: PAR.
+2. LILZ (Lombre ♀, Level 21) - Evolved from Lotad on turn 4926! Level 21 on turn 8821! Moves: Astonish (13/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 62/62. Max HP: 62. Stats: HP 62, Atk 30, Def 26, Sp.Atk 27, Sp.Def 36, Speed 30. Status: PAR.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 13) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 13 on turn 6142! HP: 38/38. Stats at Lv 13: HP 38, Atk 26, Def 37, Sp.Atk 17, Sp.Def 17, Speed 15. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (14/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
