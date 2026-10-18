@@ -17,9 +17,9 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
 
 ## Progression Checklist - Route 120
 1. [x] Enter Route 120 from Fortree City (turn 9152).
-2. [ ] Follow trail east and find Steven Stone on the bridge.
+2. [x] Follow trail east and find Steven Stone on the bridge (met turn 9201).
 3. [x] Obtain Devon Scope from Steven after clearing the invisible Kecleon (turn 9219!).
-4. [ ] Return to Fortree Gym to unmask and clear the Gym Kecleon!
+4. [x] Return to Fortree Gym to unmask and clear the Gym Kecleon (cleared turn 9226!).
 
 ## Verified Topography & Navigation (Turns 9152-9156)
 - Route 120 West Entrance: Boundary connects to Fortree City at (0, 7..9).

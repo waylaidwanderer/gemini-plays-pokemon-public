@@ -297,9 +297,9 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 
 ## Turnstile Puzzle Solutions
 - Turnstile 1 (Pivot at 12, 21):
-  - Initial orientation: Blocked passage through col 11/12.
-  - Solution: Approach from (12, 22) and push Left into (11, 22). Turnstile rotates so its arms are at (12, 22) and (13, 21), opening col 11 completely (rows 21..16).
-  - Walk North through col 11 (rows 21 -> 20 -> 19 -> 18 -> 17 -> 16).
+  - Initial orientation: Vertical arms at (12, 20) and (12, 22), right arm at (13, 21).
+  - Solution: Approach from (12, 22) and push Left into (11, 22). Turnstile rotates so an arm extends to (11, 21) and (12, 22).
+  - Navigation: At (11, 21), col 11 North is blocked by a pillar at (11, 20). The open path routes WEST along row 21 (cols 10 -> 9 -> 8 -> 7 -> 6) toward Turnstile 2 at col 5.
 
 ## Trainers in Gym
 - Trainer 1: Lower-left alcove around (1, 23).
@@ -2470,9 +2470,9 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
 
 ## Progression Checklist - Route 120
 1. [x] Enter Route 120 from Fortree City (turn 9152).
-2. [ ] Follow trail east and find Steven Stone on the bridge.
+2. [x] Follow trail east and find Steven Stone on the bridge (met turn 9201).
 3. [x] Obtain Devon Scope from Steven after clearing the invisible Kecleon (turn 9219!).
-4. [ ] Return to Fortree Gym to unmask and clear the Gym Kecleon!
+4. [x] Return to Fortree Gym to unmask and clear the Gym Kecleon (cleared turn 9226!).
 
 ## Verified Topography & Navigation (Turns 9152-9156)
 - Route 120 West Entrance: Boundary connects to Fortree City at (0, 7..9).
@@ -2802,7 +2802,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 140/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥77,904.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 120/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥77,904.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 120/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.

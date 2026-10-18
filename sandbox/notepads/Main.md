@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 140/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥77,904.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 120/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥77,904.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 120/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
