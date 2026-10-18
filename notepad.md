@@ -381,6 +381,12 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Elevated Platform Ledge: Row 13 is an elevated ledge running across the room. Impassable on foot from below. Steam Pit 2 at (12, 11) and the bather trainer are on this upper tier.
 - Upper Platform / Doorway: Located north at rows 7..9.
 - Gym Guide Advice: Flannery uses Fire-type Pokémon. Use Water, Ground, or Rock moves. Steam pits shoot you between rooms/levels.
+## Room 2 (Puzzle Room 1)
+- Warp Source: Entrance Room Steam Pit 1 at (10, 18) drops here at (10, 18) facing North.
+- Layout:
+  - Left corridor has 3 steam pits stacked vertically behind a divider wall.
+  - East side has a steam pit around (13..14, 16..17).
+  - Central floor extends north.
 
 <hr>
 
