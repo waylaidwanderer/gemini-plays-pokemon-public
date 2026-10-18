@@ -371,7 +371,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 2. [x] Enter Lavaridge Gym.
 3. [x] Consult Gym Guide at entrance.
 4. [ ] Navigate steam pit teleport puzzle.
-5. [x] Defeat all 7 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle, Keegan).
+5. [x] Defeat all 8 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle, Keegan, Danielle).
 6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
 ## Entrance Room (1F)
 - Entrance / Exit mat: (12..13, 18).
@@ -529,6 +529,22 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (3, 6): Ambush pit where Kindler Keegan stood (defeated).
     - (0, 10): Drop pit from 1F.
     - (1, 14): South pit (below row 12 ledge).
+
+## B1F Northern Corridor (Verified Turn 7673)
+- Access: Upper floor of B1F accessible via 1F Upper Terrace steam pit at (2, 3), dropping to B1F at (2, 3).
+- Layout: Row 3 connects columns 3 through 12 continuously.
+- Steam Geyser at (12, 3): Active steam geyser launching player to 1F at (13, 3) in the Northeast Bay!
+
+## 1F Northeast Bay (Verified Turn 7676)
+- Access: Launched from B1F geyser at (12, 3), landing at 1F (13, 3).
+- Layout: Columns 12-15, rows 2-6 open above Flannery's platform (which sits at rows 8-10, cols 13-15).
+- Steam Pits:
+  - (12, 3): Arrival geyser tile.
+  - (15, 6): Active drop steam pit! Stepping onto (15, 6) on 1F drops player straight to B1F at (14, 6) in the B1F Eastern Corridor!
+
+## B1F Eastern Corridor (Verified Turn 7680)
+- Access: Dropped from 1F Northeast Bay steam pit at (15, 6), landing at B1F (14, 6).
+- Layout: Column 14 runs south along the east gym wall toward row 11 jump ledge.
 
 ## Room 7 (B1F East Wing Network)
 - Access: Warped from Room 5 Upper Terrace via steam pit at (5, 6), landing at (5, 6) facing South.
