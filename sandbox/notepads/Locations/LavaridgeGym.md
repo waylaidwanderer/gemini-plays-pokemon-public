@@ -13,7 +13,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 2. [x] Enter Lavaridge Gym.
 3. [x] Consult Gym Guide at entrance.
 4. [ ] Navigate steam pit teleport puzzle.
-5. [x] Defeat all 6 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle).
+5. [x] Defeat all 7 Gym trainers (Jeff, Eli, Jace, Gerald, Cole, Axle, Keegan).
 6. [ ] Defeat Gym Leader Flannery and earn the Heat Badge!
 ## Entrance Room (1F)
 - Entrance / Exit mat: (12..13, 18).
@@ -81,11 +81,15 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Reward: ¥736 prize money.
    - Post-battle: Stands at (3, 10) permanently blocking his ambush pit.
 
-7. Kindler Keegan: [IN BATTLE]
+7. Kindler Keegan: [DEFEATED]
    - Location: Ambushed from Northeast steam pit at (2, 6) in Room 6 (B1F Northwest).
    - Pre-battle quote: "You must be getting tired by now. You'd like to rest in the hot sand, wouldn't you? But you should know that maintaining your willpower is an important ability for all TRAINERS."
-   - Team: Slugma ♂ Lv 23.
-   - Note: Keegan was submerged in the unexplored steam pit at (2, 6).
+   - Defeat quote: "Play with fire, and be burned..."
+   - Team: Slugma ♂ Lv 23 (OHKO'd by Sage's Pursuit).
+   - EXP gained: 384 EXP.
+   - Reward: ¥736 prize money.
+   - Outcome: Complete victory! Total money: ¥48,040.
+   - Post-battle: Stands at (2, 6), permanently blocking his ambush decoy pit.
 
 
 ## Room 3 (B1F West Wing Network)
