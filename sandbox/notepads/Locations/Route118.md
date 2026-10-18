@@ -24,3 +24,4 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 
 ## Trainers
 - Youngster Deandre: (7, 7) - [DEFEATED]. Used Zigzagoon Lv 14, Aron Lv 14, Electrike Lv 14. Prize: ¥224.
+- Aroma Lady Rose: (7, 9) - [DEFEATED]. Used Roselia Lv 14, Shroomish Lv 14. Prize: ¥560. Registered in Match Call.
