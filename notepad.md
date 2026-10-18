@@ -2626,7 +2626,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Key Landmarks & Features
 - 1F Lobby: Entrance mat at (9, 12). Partition wall with archway at cols 5..6, row 8 leading into main research floor.
-- 2F Recovery Bed: Located in the back room on 2F; allows full party recovery (HP, PP, status conditions).
+- 1F Recovery Bed: Located in the northwest rest room at cols 1..2, rows 2..4; allows full party recovery (HP, PP, status conditions, revives fainted Pokémon).
 - 2F Admin Office: Site of confrontation with Team Aqua Admin Shelly.
 - Reward: Castform (Lv 25) holding Mystic Water gifted by head scientist after defeating Team Aqua.
 
