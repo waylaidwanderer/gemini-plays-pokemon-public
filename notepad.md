@@ -342,10 +342,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Note: Exiting the Gym resets turnstiles 1-4 to initial orientations upon re-entry; all defeated trainers (Jared, Ashley) remain cleared permanently.
 
 
-- Upper Gym Progression (Columns 2 & 3 Corridor):
-  - Jared at (4, 14) blocks column 4 directly north.
-  - The correct passage routes through (4, 17) -> Left x 2 to (2, 17).
-  - Columns 2 & 3 form an unobstructed vertical corridor running North from row 17 through rows 16..13 to the upper-left turnstile at row 12 leading to Winona!
+- Upper Gym Progression (Column 3 Highway to Winona):
+  - Jared at (4, 14) blocks column 4, and column 2 has pillars at rows 14..16.
+  - The true progression corridor is COLUMN 3: from (4, 17), walk Left to (3, 17), then walk straight North along Column 3 through rows 16..7!
+  - Column 3 is completely open, unobstructed by turnstiles or walls, bypassing all obstacles and leading straight to the northern upper gym and Gym Leader Winona!
 
 <hr>
 
