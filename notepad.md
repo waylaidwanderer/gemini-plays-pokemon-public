@@ -2322,6 +2322,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Northwest Exit Corridor: An open grass lane runs diagonally through (14, 115) -> (17, 112) bypassing the tree line and emerging at the riverbank at (17, 111).
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
 
+- Water-to-land interaction: In Gen 3 (RSE), interacting across the shoreline boundary from water to an NPC on land does not trigger dialogue or battle. The player must disembark onto land to interact with land NPCs.
 
 <hr>
 
