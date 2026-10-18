@@ -884,6 +884,9 @@ A mystical tower that occasionally manifests in the Route 111 desert. Highly uns
 - Cracked Tiles: Located in the western corridor at cols 2..3, rows 4..6+.
 - Wild Pokémon Encountered: Trapinch (Lv 20).
 - Puzzle Mechanic: Requires Mach Bike at top speed to cross cracked crumbling tiles without falling to 1F.
+- Northeast Alcove: (cols 16..18, rows 3..8) is a dead end! Blocked south at row 9 by a wall of rocks spanning cols 16..18.
+- 3F Ladder: Visible at southeast corner at (17..18, 12..13). Accessible ONLY from the south corridor coming from the southwest!
+- Progression Route: Must cross the western cracked tile corridor using the Mach Bike at top speed to reach the south corridor and the 3F ladder.
 
 <hr>
 
