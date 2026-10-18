@@ -2291,7 +2291,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - North Exit: Fortree City.
 
 ## Key Landmarks
-- Route 119 House: Located on the eastern bank at cols ~32..35, rows ~106..109 with a red tiled roof and yellow siding. Front door approached from row 110. Outdoor NPC stands outside.
+- Route 119 House: Located on the eastern bank at cols ~32..35, rows ~106..109 with red tiled roof and yellow siding. Interior (Wingull House): Home to a woman and numerous Wingulls. Woman shares lore about the CAVE OF ORIGIN (does not offer party healing). Outdoor NPC stands outside.
 - Giant Tall Grass: Enormous grass where wild Pokémon hide and the Bicycle cannot be ridden at high speed.
 - Fishing Spots: River runs through the route (Feebas can be found in 6 random water tiles).
 - Weather Institute: Large two-story research facility invaded by Team Magma/Aqua.
