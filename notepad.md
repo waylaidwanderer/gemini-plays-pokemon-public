@@ -2307,8 +2307,8 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 5. [ ] Cross the bridge and defeat Rival Brendan (obtain HM02 Fly).
 6. [ ] Continue north into Fortree City.
 
-## Trainers
-- Cyclist / Trainer: (17, 134) near the southern entrance.
+## Trainers & NPCs
+- Cyclist NPC: (17..22, 133) - Non-combat flavor NPC. Warns that the giant tall grass snares bike tires.
 
 <hr>
 
