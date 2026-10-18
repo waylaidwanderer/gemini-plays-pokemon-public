@@ -155,14 +155,13 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 
 ## Room 7 (B1F East Wing Network)
 - Access: Warped from Room 5 Upper Terrace via steam pit at (5, 6), landing at (5, 6) facing South.
-- Layout:
-  - Vertical white corridors along columns 5 and 7, connected at north by row 5 horizontal walkway.
-  - Walkable floor along column 6 between columns 5 and 7.
-  - Divided into bays:
-    - Western bay (cols 0-4) with steam pits at (1, 4), (3, 4), and (1, 9).
-    - Central bay (col 6) where player is currently located.
-    - Eastern bay (col 8) with steam pit at (8, 9).
-  - Steam Pits:
-    - (8, 9): Eastern bay steam pit.
-    - (1, 4), (3, 4), (1, 9): Western bay steam pits.
-    - Upper northern terrace pits at rows 1-3.
+- Layout & Collision (Fully Verified):
+  - Central bay consists of columns 5 and 6 (walkable rows 6-8+).
+  - North boundary: Row 5 has an impassable pink wall blocking north movement from (5, 6) and (6, 6).
+  - West boundary: Column 4 has an impassable vertical railing blocking west movement from (5, 6).
+  - East boundary: Column 7 has an impassable vertical railing blocking east movement from (6, 8).
+  - South path: Column 5 and 6 continue south through rows 9, 10, 11 toward the bottom of the room.
+  - Visible Steam Pits:
+    - (8, 9): Eastern bay steam pit (visible to the east).
+    - (1, 4), (3, 4), (1, 7), (1, 10): Western bay steam pits.
+    - Upper northern terrace pits visible above row 5.
