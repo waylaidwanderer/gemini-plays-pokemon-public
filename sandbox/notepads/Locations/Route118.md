@@ -19,7 +19,7 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
 3. [x] Surf across the river to the eastern shore with Lombre (Lilz).
 4. [x] Meet Steven Stone on the eastern shore (met at 44, 11; discussed Pokémon training).
 5. [x] Speak to Good Rod Fisherman on eastern shore to obtain Good Rod (obtained Good Rod!).
-6. [ ] Head north onto Route 119 towards Fortree City.
+6. [x] Head north onto Route 119 towards Fortree City (reached Route 119 entrance at cols 56..59).
 
 ## Trainers & NPCs (Western Shore)
 - Youngster Deandre: (7, 7) - [DEFEATED]. Used Zigzagoon Lv 14, Aron Lv 14, Electrike Lv 14. Prize: ¥224.
@@ -36,3 +36,4 @@ A major east-west route connecting Mauville City on the west to Route 119 (north
   - Team: Magnemite Lv 27, Loudred Lv 27. [DEFEATED - Turn 8398] Prize: ¥2,592.
 - Grassy Plateau & Route 119 Trail: Trail wraps east and north around col 36 leading toward Route 119.
 - Fisherman Barny: (39, 15) - [DEFEATED - Turn 8408]. Used Tentacool Lv 25, Carvanha Lv 25. Prize: ¥1000.
+- Bird Keeper Chester: (56, 7) - [DEFEATED - Turn 8428]. Used Taillow Lv 25, Swellow Lv 25. Prize: ¥800.
