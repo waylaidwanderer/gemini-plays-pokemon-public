@@ -2646,5 +2646,6 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 8. [ ] Defeat Team Magma/Aqua at Weather Institute and obtain Castform.
 9. [ ] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [ ] Arrive in Fortree City and defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+- Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
 
 <hr>
