@@ -299,7 +299,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Turnstile 1 (Pivot at 12, 21):
   - Initial orientation: Vertical arms at (12, 20) and (12, 22), right arm at (13, 21).
   - Solution: Approach from (12, 22) and push Left into (11, 22). Turnstile rotates so an arm extends to (11, 21) and (12, 22).
-  - Navigation: At (11, 21), col 11 North is blocked by a pillar at (11, 20). The open path routes WEST along row 21 (cols 10 -> 9 -> 8 -> 7 -> 6) toward Turnstile 2 at col 5.
+  - Navigation: At (11, 21), col 10 is blocked by a pillar base at (10, 21). Step Down to row 22! The open horizontal corridor runs along ROW 22 (cols 11 -> 10 -> 9 -> 8 -> 7) toward Turnstile 2.
+- Turnstile 2 (Pivot at 5, 22):
+  - Initial orientation: T-shape with arms North at (5, 21), East at (6, 22), South at (5, 23). Open side is West.
+  - Trainer 1 is stationed at (4, 23) facing North.
 
 ## Trainers in Gym
 - Trainer 1: Lower-left alcove around (1, 23).
