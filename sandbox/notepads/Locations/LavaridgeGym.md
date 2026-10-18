@@ -92,6 +92,12 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Post-battle: Stands at (3, 6), permanently blocking his ambush pit.
 
 
+8. Battle Girl Danielle: [IN BATTLE]
+   - Location: Ambushed from steam pit at (5, 2) on 1F Upper Terrace.
+   - Pre-battle quote: "Um... Okay, I'll battle with you."
+   - Team: Meditite ♀ Lv 23 (Fighting/Psychic).
+   - Ambush triggered at (4, 2) facing East.
+
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
 - Layout & Navigation:
