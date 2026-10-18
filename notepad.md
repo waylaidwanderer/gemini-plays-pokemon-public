@@ -492,6 +492,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Clashing Grunts: Directly southeast at (19..22, 38..39), an Aqua Grunt (left) and Magma Grunt (right) have their Poochyena clashing.
 - Jagged Pass Entrance: Located to the south/southeast with one-way downhill ledges (blocked until Team Magma defeated).
 - Middle Plateau Switchback: Terrace at row 25 is blocked directly north at (25, 24) by a cliff wall. To reach the upper stairs at (25, 22..23), take the switchback path: walk west along row 25 to western stairs at (20, 24..25), climb up to row 23 terrace, and walk east along row 23 to upper stairs at (25, 22..23). Magma Grunt stands on Tier 3 at (23, 21) facing South.
+- Tier 3 Grunt Skirmish: At cols 22..24, rows 17..19, Magma and Aqua Grunts with their Poochyena are locked in battle.
 - Volcanic Caldera & Footbridges: Bridges spanning lava pits leading north/northwest to the machine.
 - Volcanic Device: Team Magma's machine powered by Professor Cozmo's Meteorite.
 
