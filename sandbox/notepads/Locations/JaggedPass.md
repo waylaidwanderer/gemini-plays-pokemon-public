@@ -16,7 +16,9 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 - Ledge jump at row 7 down to row 8.
 
 ## Trainers
-1. Hiker Eric:
-   - Location: (10, 8) facing East. Engaged player at (13, 8).
+1. Hiker Eric: [DEFEATED]
+   - Location: (10, 8) facing East. Engaged player at (13, 8). Stands at (12, 8).
    - Pre-battle quote: "MT. CHIMNEY's JAGGED PASS... Now this is what I've always wanted in a mountain. This jagged bumpiness... It rocks my soul!"
    - Team: Geodude ♂ Lv 20 (OHKO'd by Leaf Blade for 367 EXP), Baltoy Lv 20 (OHKO'd by Leaf Blade).
+   - Reward: ¥800 prize money.
+   - Outcome: Complete victory! Total money: ¥41,608. Sage HP 90/122, Leaf Blade PP 6/15.
