@@ -2424,7 +2424,7 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
 ## Progression Checklist - Route 120
 1. [x] Enter Route 120 from Fortree City (turn 9152).
 2. [ ] Follow trail east and find Steven Stone on the bridge.
-3. [ ] Obtain Devon Scope from Steven after clearing the invisible Kecleon.
+3. [x] Obtain Devon Scope from Steven after clearing the invisible Kecleon (turn 9219!).
 4. [ ] Return to Fortree Gym to unmask and clear the Gym Kecleon!
 
 ## Verified Topography & Navigation (Turns 9152-9156)
@@ -2758,7 +2758,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 140/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥77,904.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (11/15), Quick Attack (30/30). HP: 127/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 120/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 22) - Evolved from Lotad on turn 4926! Level 22 on turn 8925! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 65/65. Max HP: 65. Stats: HP 65, Atk 31, Def 27, Sp.Atk 28, Sp.Def 38, Speed 31. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 14) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 14 on turn 8826! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
