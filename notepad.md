@@ -2334,6 +2334,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Berry Patch (Lower Terrace): Located on the lower green grass terrace beside the river at rows 89..90, cols 28..31. Separated from the high mountain plateau by a cliff ledge; accessible from the lower bridge trail.
 - High Suspension Bridge: Located at row 85, spanning from the eastern high ridge at col 34 across the river gorge to the western plateau at col 7.
 - Western Plateau: Located at cols 3..6, rows 82..85. White stone staircase at cols 4..5, row 81 leads up to the higher western mountain terrace.
+- PKMN Ranger Jackson: (7, 74) facing South - [DEFEATED - Turn 8707]. Team: Breloom Lv 27. Registered in Match Call.
 
 <hr>
 
