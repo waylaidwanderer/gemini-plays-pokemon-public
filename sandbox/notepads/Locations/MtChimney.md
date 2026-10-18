@@ -48,3 +48,7 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
    - Opponents: Zubat ♂ Lv 20 & Numel ♀ Lv 20.
    - Reward: ¥800 prize money.
    - Outcome: Complete victory! Zubat and Numel defeated.
+
+2. Team Magma Grunt (Northern Pass):
+   - Location: (11, 11) engaged from (10, 11).
+   - Pre-battle quote: "Hehehe!"
