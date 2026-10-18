@@ -1030,6 +1030,17 @@ The fifth official Pokémon Gym in the Hoenn League, located in Petalburg City.
 - Tier 4:
   - GYM LEADER NORMAN'S ROOM
 
+
+## Tier 1: Speed Room (Cleared!)
+- Coordinates: Spawn at (7, 85). Tatami mat spans cols 2..6, rows 80..84.
+- Cooltrainer Randall: [DEFEATED]
+  - Location: (4, 81) facing South.
+  - Team: Swellow ♂ Lv 26 (OHKO'd by Sage's Leaf Blade for 901 EXP).
+  - Reward: ¥1,248 prize money. Total money: ¥53,320.
+- Exits:
+  - Left Door: CONFUSION ROOM
+  - Right Door: DEFENSE ROOM
+
 ## Progression Checklist - Petalburg Gym
 1. [x] Arrive at Petalburg Gym with 4 badges and enter foyer.
 2. [x] Consult Gym Guide.
