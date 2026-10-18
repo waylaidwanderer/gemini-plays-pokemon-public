@@ -399,11 +399,13 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Team: Slugma #1 ♂ Lv 22 (defeated by Pursuit), Slugma #2 ♂ Lv 22 (defeated by Leaf Blade).
    - Sage HP: 122/122.
 ## Gym Navigation & Mechanics (Verified)
-- Vertical Partitions: The vertical yellow/red columns (e.g. at col 7) are solid impassable room dividers spanning the entire height of the gym. There are NO walkable openings or crossways between wings on foot.
-- Room Navigation: All inter-room and inter-floor travel MUST be accomplished via steam pit warps.
-- 1F Row 13 Ledge: Row 13 is an impassable elevated ledge running continuously across the entire width of the entrance foyer (including between the statues at (11, 14)). Cannot be climbed on foot from the south.
-- 1F Entrance Foyer: Bounded by west partition (col 7), north ledge (row 13), and east wall. Contains the entrance mat at (12..13, 18), Gym Guide at (12, 16), and Gym Statues at (10, 14) and (15, 14).
-- Steam Pit 1 at (10, 18): The sole entrance into the gym puzzle network, warping between 1F Entrance Foyer and B1F Room 2.
+- 1F Central Highway (Major Breakthrough): Row 13 ledge ONLY blocks the central foyer (cols 11-15). Column 8 is an OPEN NORTHBOUND HIGHWAY running from row 16 past the left statue all the way to row 8!
+- Verified 1F Highway Path: From entrance mat (12..13, 18), walk Up 2 to row 16, Left 3 to col 8, and Up all the way along col 8 to (8, 10)!
+- 1F Upper Central Corridor:
+  - Accessible via col 8 highway.
+  - Gym Leader Flannery is directly visible in the East Wing on her raised platform at (13..15, 8..10)!
+  - Steam Pit 2 (Central): Located at (8, 9) directly north of (8, 10). Warps deeper into gym.
+- Steam Pit 1 at (10, 18): Entrance pit warping between 1F Entrance Foyer and lower B1F Room 2 (Kindler Jeff reset trap).
 
 <hr>
 
