@@ -7,7 +7,7 @@
 
 ## Party
 1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 120/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 65/65. Max HP: 65. Stats: HP 65, Atk 31, Def 27, Sp.Atk 28, Sp.Def 38, Speed 31. Status: OK.
+2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (13/15), Flash (20/20). HP: 0/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: FNT.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 14) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 14 on turn 8826! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
