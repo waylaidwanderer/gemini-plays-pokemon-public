@@ -29,6 +29,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Ninja Boy Disguise Tree Line: (10..13, 115) - A horizontal row of pine trees with disguise eyes. Inert/defeated; blocks northward movement along cols 10..13. The open route north wraps around them via (14, 115) -> (17, 112).
 - Cyclist NPC: (17..22, 133) - Non-combat flavor NPC. Warns that the giant tall grass snares bike tires.
 - Fisherman Chris: (13, 104) facing South - [DEFEATED - Turn 8549]. Team: Magikarp Lv 29, Tentacool Lv 20, Feebas Lv 26, Carvanha Lv 23. Prize: ¥920.
+- PKMN Ranger Catherine: (35, 84) facing South - [DEFEATED - Turn 8668]. Team: Gloom Lv 26, Roselia Lv 26. Prize: ¥1,248. Registered in Match Call.
 ## Route Mechanics Verified
 - Giant Tall Grass Bicycle Collision: Giant tall grass is impassable while riding a Bicycle. The bike is completely blocked from entering giant tall grass tiles. The player must press Select to dismount onto foot before walking through giant tall grass.
 - Water-to-land interaction: In Gen 3 (RSE), interacting across the shoreline boundary from water to an NPC on land does not trigger dialogue or battle. The player must disembark onto land to interact with land NPCs.
