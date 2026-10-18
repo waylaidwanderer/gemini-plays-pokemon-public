@@ -460,7 +460,7 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
     - (0, 10): Upper tier pit above row 12 ledge.
     - (1, 15): [TESTED] Active warp pit! Stepping onto (1, 15) launches player in a steam geyser to Room 5 at (2, 14).
     - (0, 17): Bottom-left pit.
-    - (5, 15): [TESTING] Center corridor pit between pillars. Reached via row 17 at (4, 17) -> Right to (5, 17) -> North to (5, 15).
+    - (5, 14): Center corridor pit (warps to 1F (6, 14)).
 
 ## Room 5 (1F South-Central Bay)
 ### Room 5 Upper Terrace (rows 1-6)
@@ -470,8 +470,6 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
   - Hopping South over row 7 drops down into the lower level where Kindler Axle stands at (3, 10).
   - Steam Pits:
     - (0, 6): Arrival pit (warps back to Room 6 (0, 6)).
-    - (3, 6): Walkway tile.
-    - (4, 6): Walkway tile.
     - (5, 6): [TESTED] Active steam pit! Warps to Room 7 (B1F East Wing) at (5, 6).
     - Additional pits visible on northern tier (rows 2-4).
 
