@@ -49,6 +49,14 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
    - Reward: ¥920 prize money. Total money: ¥43,992.
    - Post-battle: Stands at (4, 16) permanently blocking his trap pit.
 
+3. Kindler Jace: [DEFEATED]
+   - Location: Engaged player from (5, 16) in B1F West Wing.
+   - Pre-battle quote: "Come on, get with it! Let's go before my feelings cool!"
+   - Defeat quote: "It's so hot, and yet my heart is clutched by ice..."
+   - Team: Slugma ♂ Lv 23 (OHKO'd by Sage's Leaf Blade).
+   - Reward: ¥736 prize money. Total money: ¥44,728.
+   - Post-battle: Stands at (5, 16).
+
 ## Room 3 (B1F West Wing Network)
 - Access: Reached from 1F Upper Central Corridor via Steam Pit 2 at (8, 9), dropping at (8, 9) in B1F.
 - Verified Steam Pits:
