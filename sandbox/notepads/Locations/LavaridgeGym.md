@@ -27,8 +27,9 @@ The fourth official Pokémon Gym in the Hoenn League, located in Lavaridge Town.
 - Warp Source: Entrance Room Steam Pit 1 at (10, 18) drops here at (10, 18) facing North.
 - Layout & Collision (Fully Verified):
   - Arrival Steam Pit: Located at (10, 18) (two-way warp returning to 1F Entrance Room).
-  - Accessible Lower Area: Columns 10..12, rows 16..18, plus col 13 row 18, and col 14 rows 11..18.
-  - Column 14 Corridor: A 1-tile wide dead-end hallway running north from (14, 18) up to (14, 11). Bounded on the west by the continuous column 13 pillar (no gaps), and dead-ends at (14, 11) against a north wall/ledge.
+  - Accessible Lower Area: Columns 10..12, rows 16..18, plus col 13 row 18, and eastern hall (cols 14-16, rows 11-18).
+  - Eastern Hall (cols 14-16, rows 11-18): Exhaustively mapped. Contains NO steam pits, NO trainers, and NO exits. Bounded north at row 10, east at col 16 border, south at row 18 border, and west by solid col 13 pillar (rows 11-16).
+  - Western Partition: Column 9 is solid to the west across rows 16-17; no passage to west room.
   - North Ledge at Row 15: Impassable from the south across cols 10..12.
   - Upper Platform: Elevated tier north of row 15 containing a steam pit at (11..12, 12..13). Cannot be climbed on foot from the lower floor.
   - Eastern Lower Steam Pit: Located at (13, 17). Ambush trap pit housing Kindler Jeff. Defeated Jeff remains standing permanently at (13, 17), blocking the tile.
