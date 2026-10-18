@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 41, Male), Nickname: SAGE
-- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Gym Leader Flannery rematch active! Numel and Camerupt defeated! Sweeping with Sage Lv 41 (124/124 HP, 11/15 Leaf Blade)! All 8 Gym trainers defeated! Only Flannery remains!
+- Status: DYNAMO BADGE EARNED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! Phase 8 active: Gym Leader Flannery rematch active! Numel, Camerupt, and Slugma defeated! Sweeping with Sage Lv 41 (124/124 HP, 10/15 Leaf Blade)! Only Torkoal remains!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 41) [Held Item: None (consumed)] - Evolved on turn 5632! Level 41 on turn 7326! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (30/30). HP: 124/124. Max HP: 124. Stats: Atk 86, Def 66, Sp.Atk 99, Sp.Def 89, Speed 118. Status: OK. Nature: Lonely. Ability: Overgrow.
