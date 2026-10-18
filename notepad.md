@@ -2310,6 +2310,7 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 ## Trainers & NPCs
 - Ninja Boy Disguise Tree Line: (10..13, 115) - A horizontal row of pine trees with disguise eyes. Inert/defeated; blocks northward movement along cols 10..13. The open route north wraps around them via (14, 115) -> (17, 112).
 - Cyclist NPC: (17..22, 133) - Non-combat flavor NPC. Warns that the giant tall grass snares bike tires.
+- Fisherman Chris: (13, 104) facing South - [DEFEATED - Turn 8549]. Team: Magikarp Lv 29, Tentacool Lv 20, Feebas Lv 26, Carvanha Lv 23. Prize: ¥920.
 ## Route Mechanics Verified
 - Giant Tall Grass Bicycle Collision: Giant tall grass is impassable while riding a Bicycle. The bike is completely blocked from entering giant tall grass tiles. The player must press Select to dismount onto foot before walking through giant tall grass.
 - Water-to-land interaction: In Gen 3 (RSE), interacting across the shoreline boundary from water to an NPC on land does not trigger dialogue or battle. The player must disembark onto land to interact with land NPCs.
@@ -2318,13 +2319,14 @@ A vast, rainy temperate route connecting Route 118 in the south to Fortree City 
 - Tropius: Caught GUAVA ♀ Lv 27 on turn 8460 with Great Ball.
 - Zigzagoon: Lv 25 encountered in lower giant grass.
 
+## Items Obtained
+- Item Ball: (4, 96) - [OBTAINED] Zinc! Located in northern tree alcove on western terrace.
+
 ## Topography & Navigation
 - Lower Giant Grass Field: Spans rows 113..132. Impassable on Bicycle.
 - Northwest Exit Corridor: An open grass lane runs diagonally through (14, 115) -> (17, 112) bypassing the tree line and emerging at the riverbank at (17, 111).
 - River Highway: Golden sand highway begins at (20..25, 110) heading north along the eastern bank of the river. Bicycle can be mounted here.
-- Fisherman Chris: (13, 104) facing South - [DEFEATED - Turn 8549]. Team: Magikarp Lv 29, Tentacool Lv 20, Feebas Lv 26, Carvanha Lv 23. Prize: ¥920.
-- Oddish: Encountered in upper giant grass on terrace (turn 8562).
-- Item Ball: (4, 96) - [OBTAINED] Zinc! Located in northern tree alcove on western terrace.
+- Western Terrace: (rows 96..102, cols 3..12) accessed via stairs at (11..12, 103) from beach at (12..13, 104..105). Contains giant tall grass and Zinc at (4, 96). Bounded by solid northern pine tree wall. [FULLY CLEARED - Turn 8580].
 
 <hr>
 
