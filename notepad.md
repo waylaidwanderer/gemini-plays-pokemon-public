@@ -232,21 +232,22 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - East Exit: Route 120 (leading toward Ancient Tomb, Route 121, and Lilycove City).
 
 ## Key Landmarks & Buildings
-- Pokémon Center: Located on western avenue. Blue sliding front doors at (4..5, 5), approached via row 7 -> (4..5, 6) facing North.
+- Pokémon Center: Located on western avenue. Blue sliding front doors at (5, 6), approached via row 7 -> (5, 7) facing North. Interior: spawn at (7, 8), Nurse Joy counter at (7, 3), approached from (7, 4) facing North. Fully healed and checkpoint set on turn 9080!
 - Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
 - Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
-
 - Southern Signpost: Located at (5, 9) south of the Pokémon Center.
 - Main Avenue: Runs east along row 7 and row 8.
 
 ## Progression Checklist - Fortree City
 1. [x] Arrive in Fortree City and enter Pokémon Center.
-2. [ ] Explore town landmarks, shops, and treehouses.
-3. [ ] Approach Fortree Gym and inspect invisible barrier.
-4. [ ] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope.
-5. [ ] Unmask and clear the invisible Kecleon blocking Fortree Gym.
-6. [ ] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
+2. [x] Heal party with Nurse Joy and register checkpoint.
+3. [ ] Explore town landmarks, shops, and treehouses.
+4. [ ] Approach Fortree Gym and inspect invisible barrier.
+5. [ ] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope.
+6. [ ] Unmask and clear the invisible Kecleon blocking Fortree Gym.
+7. [ ] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
+
 
 <hr>
 
@@ -2698,11 +2699,11 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 46, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Heal at Fortree Center, explore city, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Guava Lv 27 (OK, 92/92 HP), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Sage Lv 45 (OK, 89/137 HP). Total money: ¥75,856.
+- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 46 (OK, 140/140), Lilz Lv 22 (OK, 65/65), Cipher Lv 10 (OK, 25/25), Cobalu Lv 14 (OK, 40/40), EGG (Wynaut), Guava Lv 27 (OK, 92/92). Total money: ¥75,856.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (11/15), Quick Attack (30/30). HP: 134/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 22) - Evolved from Lotad on turn 4926! Level 22 on turn 8925! Moves: Astonish (14/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 65/65. Max HP: 65. Stats: HP 65, Atk 31, Def 27, Sp.Atk 28, Sp.Def 38, Speed 31. Status: OK.
+1. SAGE (Sceptile ♂, Level 46) - Evolved on turn 5632! Level 46 on turn 8998! Moves: Fury Cutter (20/20), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 140/140. Max HP: 140. Stats: Atk 100, Def 74, Sp.Atk 112, Sp.Def 100, Speed 133. Status: OK. Nature: Lonely. Ability: Overgrow.
+2. LILZ (Lombre ♀, Level 22) - Evolved from Lotad on turn 4926! Level 22 on turn 8925! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 65/65. Max HP: 65. Stats: HP 65, Atk 31, Def 27, Sp.Atk 28, Sp.Def 38, Speed 31. Status: OK.
 3. CIPHER (Abra ♂, Level 10) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 25/25. Status: OK.
 4. COBALU (Aron ♂, Level 14) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 14 on turn 8826! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
