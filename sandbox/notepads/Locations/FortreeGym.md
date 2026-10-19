@@ -67,3 +67,8 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
    - West Bypass (Column 2): Walkable corridor from (2, 2) south to (2, 5). Turnstile 3 hub is at (2, 6).
    - Progression Route: Row 4 is a verified open horizontal floor corridor across cols 6..12 leading directly into Winona's arena platform at the northeast.
    - Party Combat Status: Sage Lv 47 fully ready (HP 143/143, Leaf Blade 10/15 PP restored with Elixir, Quick Attack 30/30 PP).
+
+## Verified Upper Gym Mechanics & Topology (Turn 9769)
+- Southern Hallway: From (5, 8), stepping Right leads to (6, 8) -> (7, 8) -> (7, 9) -> (8, 9) and (7, 10) -> (6, 10). Row 10 is blocked at (5, 10) by a green cylinder.
+- Lower Turnstile (hub at 6, 7): Pushing Down from (5, 6) into (5, 7) rotates it counter-clockwise, swinging its arm to the East across (7, 7) and (8, 7), clearing passage from Column 5 into the southern hallway.
+- Upper Turnstile: Hub at (6, 3). Row 4 corridor east to Winona is cleared when the vertical arm is rotated North. Column 4 (x=4) provides a vertical corridor adjacent to the horizontal arm at (5, 3).
