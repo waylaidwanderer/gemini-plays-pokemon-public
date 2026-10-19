@@ -2857,7 +2857,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Party
 1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Rock Tomb (10/10), Leaf Blade (15/15), Quick Attack (30/30). HP: 143/143. Max HP: 143. Stats: Atk 103, Def 76, Sp.Atk 114, Sp.Def 103, Speed 137. (Protein used on turn 9546). Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 67/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: OK.
-3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 0/32. Status: FNT.
+3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
 5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
 6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Moves: Whirlwind (20/20), Stomp (20/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
