@@ -237,7 +237,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - Invisible Barrier (Kecleon): Blocks the ground corridor to Fortree Gym at (25, 8). Interacting prompts 'Something unseeable is in the way.' Requires Devon Scope from Steven on Route 120.
 - Northeast Treehouse: Door at (32, 2) on elevated platform. Wingull delivery resident with Wingull.
 - Pokémon Center: Located on western avenue. Blue sliding front doors at (5, 6), approached via row 7 -> (5, 7) facing North. Interior: spawn at (7, 8), Nurse Joy counter at (7, 3), approached from (7, 4) facing North. Fully healed and checkpoint set on turn 9080!
-- Poké Mart: Blue-roofed shop stocking Great Balls, Super Potions, etc.
+- Poké Mart: Blue-roofed building located at cols 3..6, rows 11..14 south of the Pokémon Center. Exterior entrance door at (4, 14), approached from (4, 15) facing North. Interior entrance mat at (3, 7).
 - Fortree Gym: Located in the south-central area among the trees. Initially blocked by an invisible barrier (Kecleon) until Devon Scope is obtained from Steven on Route 120.
 - Treehouse Ladders & Rope Bridges: Suspended wooden walkways linking elevated treehouses.
 - Signpost: Located at (6, 9) south of the Pokémon Center. Text: "FORTREE CITY / “The treetop city that frolics with nature.”"
