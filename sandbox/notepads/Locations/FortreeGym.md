@@ -77,3 +77,11 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 2. Western Bypass (Column 2): From (5, 2), walk west along row 2 to (2, 2), then descend Column 2 south: (2, 2) -> (2, 5) -> push through (2, 6) -> (2, 8). This bypasses row 3 completely without reversing Turnstile A.
 3. Southern Highway & Column 5: From (2, 8), walk east along Row 8 to (5, 8), then north up Column 5 to (5, 4).
 4. Arena Entry: From (5, 4), step east into (6, 4) and follow Row 4 east directly into Gym Leader Winona's arena!
+
+## Gym Leader Winona - Verified Battle Intelligence (Turn 9870)
+- Winona holds at least 1 Hyper Potion.
+1. Swablu (Lv 29): Defeated in 2 Leaf Blades.
+2. Pelipper (Lv 30, Water/Flying): Uses Protect; Winona uses Hyper Potion on it. Defeated by Leaf Blade.
+3. Tropius (Lv 29, Grass/Flying): Double-resists Grass (0.25x). Moves: Sunny Day, Synthesis (recovers ~67% in sun), Aerial Ace (deals massive super-effective damage to Grass). Counter with Bug (Fury Cutter) or Rock (TM39 Rock Tomb).
+4. Skarmory (Lv 31, Steel/Flying): In reserves.
+5. Altaria (Lv 33, Dragon/Flying): In reserves.
