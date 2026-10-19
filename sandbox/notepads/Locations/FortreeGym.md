@@ -61,22 +61,10 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
    - Walk North up col 9 via (9, 13), (9, 12), (9, 11) to (9, 10).
 5. Defeat Trainers:
    - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
-6. Upper Approach to Winona (Verified Topology):
-   - Upper Turnstile (hub at 6, 2): 2-arm L-shaped gate with arms alternating between North (6, 1) and South (6, 4), and a horizontal arm along row 2/row 3.
-   - Pushing Up from row 3 (South to North) rotates the gate clockwise, swinging the arm up into (6, 1) and clearing (6, 4) along Row 4.
-   - West Bypass (Column 2): Walkable corridor from (2, 2) south to (2, 5). Turnstile 3 hub is at (2, 6).
-   - Progression Route: Row 4 is a verified open horizontal floor corridor across cols 6..12 leading directly into Winona's arena platform at the northeast.
-   - Party Combat Status: Sage Lv 47 fully ready (HP 143/143, Leaf Blade 10/15 PP restored with Elixir, Quick Attack 30/30 PP).
-
-## Verified Upper Gym Mechanics & Topology (Turn 9769)
-- Southern Hallway: From (5, 8), stepping Right leads to (6, 8) -> (7, 8) -> (7, 9) -> (8, 9) and (7, 10) -> (6, 10). Row 10 is blocked at (5, 10) by a green cylinder.
-- Lower Turnstile (hub at 6, 7): Pushing Down from (5, 6) into (5, 7) rotates it counter-clockwise, swinging its arm to the East across (7, 7) and (8, 7), clearing passage from Column 5 into the southern hallway.
-- Upper Turnstile: Hub at (6, 3). Row 4 corridor east to Winona is cleared when the vertical arm is rotated North. Column 4 (x=4) provides a vertical corridor adjacent to the horizontal arm at (5, 3).
-## Master Final Turnstile Puzzle Solution (Verified Turn 9824)
-1. Upper Turnstile A at (6, 3): Rotated clockwise from (5, 3) pushing Up, swinging vertical arm North to (6, 1..2) and opening Row 4 at (6, 4).
-2. Western Bypass (Column 2): From (5, 2), walk west along row 2 to (2, 2), then descend Column 2 south: (2, 2) -> (2, 5) -> push through (2, 6) -> (2, 8). This bypasses row 3 completely without reversing Turnstile A.
-3. Southern Highway & Column 5: From (2, 8), walk east along Row 8 to (5, 8), then north up Column 5 to (5, 4).
-4. Arena Entry: From (5, 4), step east into (6, 4) and follow Row 4 east directly into Gym Leader Winona's arena!
+6. Master Upper Turnstile Puzzle & Arena Approach:
+   - Upper Turnstile at (6, 3): From (5, 3), push Up into (6, 3) to rotate clockwise, swinging the vertical arm North to (6, 1..2) and opening Row 4 at (6, 4).
+   - Western Bypass (Column 2): From (5, 2), walk west along Row 2 to (2, 2), then descend Column 2 south to (2, 8). This bypasses Row 3 without disturbing the upper turnstile.
+   - Arena Entry: From (2, 8), walk east along Row 8 to (5, 8), north up Column 5 to (5, 4), then step east into (6, 4) and follow Row 4 east directly into Gym Leader Winona's arena.
 
 ## Gym Leader Winona - Verified Battle Intelligence (Turn 9870)
 - Winona holds at least 1 Hyper Potion.
