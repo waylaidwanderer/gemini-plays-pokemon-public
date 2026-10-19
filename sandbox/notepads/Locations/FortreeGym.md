@@ -31,27 +31,6 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 4. [x] Defeat Gym trainers (Jared & Ashley defeated!).
 5. [ ] Challenge and defeat Gym Leader Winona to earn the Feather Badge and TM40!
 
-## Turnstile Puzzle Solutions
-- Turnstile 1 (Pivot at 12, 21):
-  - Initial orientation: Vertical arms at (12, 20) and (12, 22), right arm at (13, 21).
-  - Solution: Approach from (12, 22) and push Left into (11, 22). Turnstile rotates so an arm extends to (11, 21) and (12, 22).
-  - Navigation: At (11, 21), col 10 is blocked by a pillar base at (10, 21). Step Down to row 22! The open horizontal corridor runs along ROW 22 (cols 11 -> 10 -> 9 -> 8 -> 7) toward Turnstile 2.
-- Turnstile 2 (Pivot at 5, 22):
-  - Initial orientation: T-shape with arms North at (5, 21), East at (6, 22), South at (5, 23). Open side is West.
-  - Solution: Approach along row 22 to (7, 22), then walk Left onto (6, 22) (on the east arm). Facing West, push Left against the vertical bar into (5, 22). Turnstile 2 rotates counter-clockwise, opening passage into (4, 22)! [SOLVED]
-  - Trainer 1: Stationed at (4, 23) facing East.
-  - Western Corridor: Column 4 is open from row 22 north through rows 21, 20, 19 toward Turnstile 3 at row 18.
-- Turnstile 3 (Pivot at 2, 18):
-  - Long T-turnstile: Hub at (2, 18). Arms initially at West (1, 18), South (2, 19), and long East arm spanning row 18 (cols 3..5).
-  - Rotation Mechanics: Pushing the vertical arm at (2, 19) West rotates it clockwise, swinging the long East arm down into column 2 (rows 19..21) and clearing row 18!
-  - Full Solution & Bypass:
-    1. From (4, 19), step Left to (3, 19), then push Left against (2, 19) to rotate clockwise.
-    2. Player lands at (2, 19). DO NOT press Right (it rotates the gate back!).
-    3. Walk South along column 2: Down x 3 to (2, 22) past the arm tip.
-    4. Walk East: Right x 2 to (4, 22).
-    5. Walk North up column 4 through the now-open row 18 directly to (4, 17)!
-  - Trainer 2: Stationed at (5, 17) facing West into (4, 17).
-
 ## Trainers in Gym
 - Trainer 1: Bird Keeper at (4, 23) facing East (bypassed).
 - Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
@@ -63,13 +42,6 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Reward: ¥1,392 prize money.
 
 - Trainer (Undefeated): Bird Keeper Darius stationed on upper-left platform near (2, 7) facing East/South.
-
-## Upper Turnstile Puzzle (Turnstiles 4 & 5) - Verified Solution (Turn 9498)
-1. Turnstile 4 is at (9, 15) and Turnstile 5 is at (9, 11).
-2. From (8, 12), step Left to (7, 12), Down to (7, 14), Down to (7, 15) pushing Turnstile 4's West arm down (rotates clockwise).
-3. Step Up to (7, 14), then walk East across row 14 through (8, 14) and (9, 14) directly into Column 9.
-4. Walk North up Column 9 via (9, 13) and (9, 12) through (9, 11) directly to (9, 10)!
-5. Both Turnstiles 4 and 5 are fully bypassed, arriving in the upper gym directly in front of the platform approach.
 
 ## Complete Fortree Gym Turnstile Walkthrough (Master Solution)
 1. Turnstile 1 (Pivot at 12, 21):
