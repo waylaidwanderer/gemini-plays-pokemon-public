@@ -90,9 +90,9 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 5. Defeat Trainers:
    - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
 6. Upper Approach to Winona (Verified Topology):
-   - Row 1 Eastward Blockade: programmatic collision check proves (7, 1), (7, 2), and (7, 3) are solid green pillars; row 1 is impassable eastward.
-   - True Progression Highway: ROW 4 is the verified open floor corridor running East across cols 7, 8, 9, 10, 11, 12, 13 to Winona's arena platform!
-   - Entrance to Row 4 is at (6, 4) or via Column 7 at (7, 4).
-   - Turnstile A (at 6, 3): Horizontal arm at row 3 (cols 4..5), vertical arm at col 6.
-   - Turnstile B (at 6, 7): Horizontal arm at row 7 (col 5), vertical arm at col 6 (row 8).
-   - Solution to traverse Row 4: Reach Row 4 on the east side and walk straight East to the arena archway at col 13!
+   - Upper Turnstile (hub at 6, 2): 2-arm L-shaped gate with arms alternating between North (6, 1) and South (6, 4), and a horizontal arm along row 2/row 3.
+   - Pushing Up from row 3 (South to North) rotates the gate clockwise, swinging the arm up into (6, 1) and clearing (6, 4) along Row 4.
+   - Pushing Down from row 2 (North to South) rotates the gate counter-clockwise, swinging the arm down into (6, 4) and clearing (6, 1) along row 1.
+   - West Bypass (Column 2): Walkable corridor from (2, 2) south to (2, 5). Turnstile 3 hub is at (2, 6).
+   - Progression Route: Row 4 is a verified open horizontal floor corridor across cols 6..12 leading directly into Winona's arena platform at the northeast.
+   - Party Combat Status: Sage Lv 47 fully ready (HP 143/143, Leaf Blade 10/15 PP restored with Elixir, Quick Attack 30/30 PP).
