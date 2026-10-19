@@ -41,7 +41,7 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
   - Edwardo: Doduo Lv 29 (fainted), Pelipper Lv 29 (fainted).
   - Reward: ¥1,392 prize money.
 
-- Trainer (Undefeated): Bird Keeper Darius stationed on upper-left platform near (2, 7) facing East/South.
+- Trainer 6: Bird Keeper Darius at (1, 9) - [DEFEATED - Turn 9805]. Team: Tropius Lv 30. Prize: ¥960.
 
 ## Complete Fortree Gym Turnstile Walkthrough (Master Solution)
 1. Turnstile 1 (Pivot at 12, 21):
