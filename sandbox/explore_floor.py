@@ -95,6 +95,8 @@ def is_wall_tile(im, dx, dy):
         return hits >= 14
 
 def has_item_ball(im, dx, dy):
+    if dx == 0 and dy == -1:
+        return False
     x0 = 112 + dx * 16
     y0 = 72 + dy * 16
     red_cap = 0
