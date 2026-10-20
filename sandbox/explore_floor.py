@@ -57,8 +57,15 @@ def try_flee_wild_or_stop_trainer():
         print(f"Wild RUN retry {retry+1}...")
         tools.press_buttons([
             "sleep 3000", "B", "sleep 2500", "B", "sleep 2000",
-            "Down", "Right", "A", "sleep 3500", "B", "sleep 2500"
+            "Down", "Right", "A", "sleep 3500"
         ])
+        mgba.take_screenshot("tmp_live.png")
+        im = Image.open("screenshots/tmp_live.png").convert("RGB")
+        if has_yes_no_box(im):
+            print("Trainer forfeit [YES/NO] box detected on retry! Canceling with B...")
+            tools.press_buttons(["B", "sleep 1500"])
+            return False
+        tools.press_buttons(["B", "sleep 2500"])
     mgba.take_screenshot("tmp_live.png")
     im = Image.open("screenshots/tmp_live.png").convert("RGB")
     return is_overworld(im)
