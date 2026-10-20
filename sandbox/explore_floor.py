@@ -265,8 +265,7 @@ for step in range(45):
         warp_target = w_tile
 
     d_next, tgt = find_nearest_frontier(
-        curr, visited, walls, pending_walls, illuminated, last_dir, warp_target,
-        max_x=(20 if floor_num == 5 else None)
+        curr, visited, walls, pending_walls, illuminated, last_dir, warp_target
     )
     if d_next is None:
         print(f"Step {step}: no frontier found from {curr}")
