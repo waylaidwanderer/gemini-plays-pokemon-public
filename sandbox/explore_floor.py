@@ -63,10 +63,10 @@ def try_flee_wild_or_stop_trainer():
         if is_overworld(im):
             return True
         green_hp = sum(
-            1 for y in range(97, 101) for x in range(174, 224)
-            if im.getpixel((x, y))[1] >= 160 and im.getpixel((x, y))[0] <= 140
+            1 for y in range(90, 104) for x in range(170, 226)
+            if im.getpixel((x, y))[1] >= 180 and im.getpixel((x, y))[0] <= 130 and im.getpixel((x, y))[2] <= 150
         )
-        if green_hp < 20:
+        if green_hp < 15:
             print(f"ATRITON HP bar is yellow/red (green_hp={green_hp}); stopping auto-flee to heal/pivot safely!")
             return False
         tools.press_buttons([
@@ -112,8 +112,6 @@ def has_item_ball(im, dx, dy):
         return False
     x0 = 112 + dx * 16
     y0 = 72 + dy * 16
-    if not all(sum(im.getpixel((x0 + xo, y0 + 14))) > 200 for xo in (5, 7, 9, 11)):
-        return False
     red_cap = 0
     white_body = 0
     for yo in range(1, 13):
