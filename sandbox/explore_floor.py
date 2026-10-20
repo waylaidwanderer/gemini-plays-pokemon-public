@@ -161,19 +161,10 @@ def find_nearest_frontier(curr, visited, walls, pending_walls, last_dir, target_
         for y in range(32):
             for x in range(32):
                 if (x, y) not in visited and (x, y) not in walls:
-                    if min(abs(x - vx) + abs(y - vy) for vx, vy in visited) >= 2:
+                    if min((x - vx) ** 2 + (y - vy) ** 2 for vx, vy in visited) > 5:
                         dark_seeds.add((x, y))
         if dark_seeds:
-            rq = deque(dark_seeds)
-            reach_dark = set(dark_seeds)
-            while rq:
-                ux, uy = rq.popleft()
-                for dx, dy in DIRS.values():
-                    vx, vy = ux + dx, uy + dy
-                    if 0 <= vx < 32 and 0 <= vy < 32 and (vx, vy) not in visited and (vx, vy) not in walls and (vx, vy) not in reach_dark:
-                        reach_dark.add((vx, vy))
-                        rq.append((vx, vy))
-            targets = reach_dark
+            targets = dark_seeds
         else:
             targets = {(x, y) for y in range(32) for x in range(32) if (x, y) not in visited and (x, y) not in walls}
 
