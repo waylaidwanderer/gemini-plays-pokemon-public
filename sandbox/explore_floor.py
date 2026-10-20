@@ -50,6 +50,9 @@ def try_flee_wild_or_stop_trainer():
         return False
     tools.press_buttons(["B", "sleep 2500"])
     for retry in range(4):
+        if time.time() - t_start > 75:
+            print("Reached 75s wall-clock budget during wild RUN retries; stopping cleanly!")
+            return False
         mgba.take_screenshot("tmp_live.png")
         im = Image.open("screenshots/tmp_live.png").convert("RGB")
         if is_overworld(im):
@@ -179,7 +182,7 @@ def scan_live_screen(curr, visited, walls, pending_walls, illuminated, last_dir)
 def is_blocked(u, v, walls, pending_walls):
     return v in walls or v in pending_walls.get(u, set())
 
-def find_nearest_frontier(curr, visited, walls, pending_walls, illuminated, last_dir, target_override=None):
+def find_nearest_frontier(curr, visited, walls, pending_walls, illuminated, last_dir, target_override=None, max_x=None):
     if target_override is not None:
         targets = {target_override}
     else:
@@ -190,6 +193,10 @@ def find_nearest_frontier(curr, visited, walls, pending_walls, illuminated, last
             if (x, y) not in illuminated and (x, y) not in walls
             and min((x - vx) ** 2 + (y - vy) ** 2 for vx, vy in visited) > 5
         }
+        if max_x is not None:
+            west_seeds = {(x, y) for (x, y) in dark_seeds if x <= max_x}
+            if west_seeds:
+                dark_seeds = west_seeds
         if dark_seeds:
             targets = dark_seeds
         else:
@@ -257,7 +264,10 @@ for step in range(45):
         print(f"Step {step}: BLUE WARP PAD SPOTTED at {w_tile}!")
         warp_target = w_tile
 
-    d_next, tgt = find_nearest_frontier(curr, visited, walls, pending_walls, illuminated, last_dir, warp_target)
+    d_next, tgt = find_nearest_frontier(
+        curr, visited, walls, pending_walls, illuminated, last_dir, warp_target,
+        max_x=(20 if floor_num == 5 else None)
+    )
     if d_next is None:
         print(f"Step {step}: no frontier found from {curr}")
         save_state(floor_num)
