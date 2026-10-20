@@ -20,7 +20,11 @@ wall_face_colors = {
 warp_colors = {(0, 74, 255), (41, 156, 247), (82, 239, 247)}
 
 def is_overworld(im):
-    return im.getpixel((5, 5)) == (0, 0, 0) and sum(im.getpixel((112, 78))) > 60
+    return (
+        im.getpixel((5, 5)) == (0, 0, 0)
+        and im.getpixel((120, 140)) == (0, 0, 0)
+        and sum(im.getpixel((112, 78))) > 60
+    )
 
 def has_yes_no_box(im):
     white_px = 0
@@ -275,6 +279,23 @@ for step in range(45):
             pending_walls = {}
             save_state(floor_num)
             print(f"Arrived on Floor {floor_num} at {new_pos2}!")
+            break
+        if "aborted" in str(res).lower():
+            print(f"Step {step}: movement to {curr} aborted (trainer sightline or wild encounter)!")
+            pending_walls.pop(curr, None)
+            save_state(floor_num)
+            tools.press_buttons(["sleep 2500"])
+            mgba.take_screenshot("tmp_live.png")
+            im_ab = Image.open("screenshots/tmp_live.png").convert("RGB")
+            if im_ab.getpixel((120, 140)) != (0, 0, 0) and im_ab.getpixel((5, 5)) == (0, 0, 0):
+                print("Overworld Trainer speech bubble detected! Advancing into battle menu...")
+                tools.press_buttons(["B", "sleep 7500", "B", "sleep 5500"])
+                break
+            if flee_count < 2 and try_flee_wild_or_stop_trainer():
+                flee_count += 1
+                print(f"Escaped wild battle #{flee_count} at {curr}! Continuing...")
+                continue
+            print("Stopping in battle to inspect opponent on CurrentScreen!")
             break
     else:
         mgba.take_screenshot("tmp_live.png")
