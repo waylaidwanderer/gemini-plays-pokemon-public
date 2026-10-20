@@ -196,16 +196,6 @@ walls = set(tuple(x) for x in st["walls"]) - visited
 pending_walls = {tuple(map(int, k.split(","))): set(tuple(x) for x in v) for k, v in st.get("pending_walls", {}).items()}
 last_dir = st.get("last_dir", "Down")
 
-mgba.take_screenshot("tmp_live.png")
-im_init = Image.open("screenshots/tmp_live.png").convert("RGB")
-if not is_overworld(im_init):
-    print("Finishing active wild battle escape at start of turn...")
-    tools.press_buttons([
-        "B", "sleep 2000",
-        "Down", "Right", "A", "sleep 3500",
-        "B", "sleep 2500"
-    ])
-
 pos = mgba.get_coordinates()
 curr = (pos["x"], pos["y"])
 visited.add(curr)
