@@ -70,6 +70,12 @@ def try_flee_wild_or_stop_trainer():
     im = Image.open("screenshots/tmp_live.png").convert("RGB")
     return is_overworld(im)
 
+def is_wall_pixel(rgb):
+    if rgb in wall_face_colors:
+        return True
+    r, g, b = rgb
+    return r >= 160 and g >= 145 and (r - b) >= 35 and (g - b) >= 20
+
 def is_wall_tile(im, dx, dy):
     x0 = 112 + dx * 16
     y0 = 72 + dy * 16
@@ -77,14 +83,14 @@ def is_wall_tile(im, dx, dy):
         hits = 0
         for xo in (1, 2, 13, 14):
             for yo in (2, 4, 6, 8, 10, 12):
-                if im.getpixel((x0 + xo, y0 + yo)) in wall_face_colors:
+                if is_wall_pixel(im.getpixel((x0 + xo, y0 + yo))):
                     hits += 1
         return hits >= 10
     else:
         hits = 0
         for xo in range(2, 15, 2):
             for yo in range(3, 14, 2):
-                if im.getpixel((x0 + xo, y0 + yo)) in wall_face_colors:
+                if is_wall_pixel(im.getpixel((x0 + xo, y0 + yo))):
                     hits += 1
         return hits >= 14
 
