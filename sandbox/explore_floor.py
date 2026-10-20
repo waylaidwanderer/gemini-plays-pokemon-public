@@ -50,13 +50,13 @@ def try_flee_wild_or_stop_trainer():
         return False
     tools.press_buttons(["B", "sleep 2500"])
     for retry in range(4):
-        if time.time() - t_start > 75:
-            print("Reached 75s wall-clock budget during wild RUN retries; stopping cleanly!")
-            return False
         mgba.take_screenshot("tmp_live.png")
         im = Image.open("screenshots/tmp_live.png").convert("RGB")
         if is_overworld(im):
             return True
+        if time.time() - t_start > 75:
+            print("Reached 75s wall-clock budget during wild RUN retries; stopping cleanly!")
+            return False
         print(f"Wild RUN retry {retry+1}...")
         tools.press_buttons([
             "sleep 3000", "B", "sleep 2500", "B", "sleep 2000"
