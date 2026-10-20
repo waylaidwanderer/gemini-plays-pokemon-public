@@ -102,7 +102,7 @@ def has_item_ball(im, dx, dy):
                 white_body += 1
     return red_cap >= 3 and white_body >= 2
 
-def scan_live_screen(curr, visited, walls, pending_walls, last_dir):
+def scan_live_screen(curr, visited, walls, pending_walls, illuminated, last_dir):
     mgba.take_screenshot("tmp_live.png")
     im = Image.open("screenshots/tmp_live.png").convert("RGB")
     if not is_overworld(im):
@@ -130,6 +130,8 @@ def scan_live_screen(curr, visited, walls, pending_walls, last_dir):
                     return False, None, last_dir
                 p_set.discard((nx, ny))
                 visited.add((nx, ny))
+                illuminated.add((nx, ny))
+    # Record all fully lit tiles on screen into illuminated & scan for blue warp pad
     best_warp = None
     best_cnt = 0
     for dy in range(-4, 6):
@@ -138,6 +140,9 @@ def scan_live_screen(curr, visited, walls, pending_walls, last_dir):
             if not (0 <= tx < 32 and 0 <= ty < 32):
                 continue
             x0, y0 = 112 + dx * 16, 72 + dy * 16
+            if 0 <= x0 and x0 + 16 <= 240 and 0 <= y0 and y0 + 16 <= 160:
+                if all(sum(im.getpixel((x0 + xo, y0 + yo))) > 40 for xo, yo in ((3, 3), (12, 3), (3, 12), (12, 12))):
+                    illuminated.add((tx, ty))
             cnt = 0
             for yo in range(16):
                 for xo in range(16):
@@ -153,16 +158,17 @@ def scan_live_screen(curr, visited, walls, pending_walls, last_dir):
 def is_blocked(u, v, walls, pending_walls):
     return v in walls or v in pending_walls.get(u, set())
 
-def find_nearest_frontier(curr, visited, walls, pending_walls, last_dir, target_override=None):
+def find_nearest_frontier(curr, visited, walls, pending_walls, illuminated, last_dir, target_override=None):
     if target_override is not None:
         targets = {target_override}
     else:
-        dark_seeds = set()
-        for y in range(32):
-            for x in range(32):
-                if (x, y) not in visited and (x, y) not in walls:
-                    if min((x - vx) ** 2 + (y - vy) ** 2 for vx, vy in visited) > 5:
-                        dark_seeds.add((x, y))
+        dark_seeds = {
+            (x, y)
+            for y in range(32)
+            for x in range(32)
+            if (x, y) not in illuminated and (x, y) not in walls
+            and min((x - vx) ** 2 + (y - vy) ** 2 for vx, vy in visited) > 5
+        }
         if dark_seeds:
             targets = dark_seeds
         else:
@@ -194,11 +200,13 @@ floor_num = st.get("floor", 1)
 visited = set(tuple(x) for x in st["visited"])
 walls = set(tuple(x) for x in st["walls"]) - visited
 pending_walls = {tuple(map(int, k.split(","))): set(tuple(x) for x in v) for k, v in st.get("pending_walls", {}).items()}
+illuminated = set(tuple(x) for x in st.get("illuminated", [])) | set(visited)
 last_dir = st.get("last_dir", "Down")
 
 pos = mgba.get_coordinates()
 curr = (pos["x"], pos["y"])
 visited.add(curr)
+illuminated.add(curr)
 flee_count = 0
 warp_target = None
 
@@ -209,6 +217,7 @@ def save_state(fl=floor_num):
             "visited": [list(x) for x in visited],
             "walls": [list(x) for x in (walls - visited)],
             "pending_walls": {f"{k[0]},{k[1]}": [list(x) for x in v] for k, v in pending_walls.items()},
+            "illuminated": [list(x) for x in illuminated],
             "last_dir": last_dir,
         }, f)
 
@@ -217,7 +226,7 @@ for step in range(45):
         print(f"Step {step}: reached 85s wall-clock budget at {curr}; stopping cleanly!")
         save_state(floor_num)
         break
-    ok, w_tile, last_dir = scan_live_screen(curr, visited, walls, pending_walls, last_dir)
+    ok, w_tile, last_dir = scan_live_screen(curr, visited, walls, pending_walls, illuminated, last_dir)
     if not ok:
         print(f"Step {step}: battle/text active before move at {curr}")
         pending_walls.pop(curr, None)
@@ -227,7 +236,7 @@ for step in range(45):
         print(f"Step {step}: BLUE WARP PAD SPOTTED at {w_tile}!")
         warp_target = w_tile
 
-    d_next, tgt = find_nearest_frontier(curr, visited, walls, pending_walls, last_dir, warp_target)
+    d_next, tgt = find_nearest_frontier(curr, visited, walls, pending_walls, illuminated, last_dir, warp_target)
     if d_next is None:
         print(f"Step {step}: no frontier found from {curr}")
         save_state(floor_num)
@@ -248,6 +257,7 @@ for step in range(45):
         visited = {new_pos2}
         walls = set()
         pending_walls = {}
+        illuminated = {new_pos2}
         last_dir = d_next
         save_state(floor_num)
         print(f"Settled on Floor {floor_num} at {new_pos2}!")
@@ -260,6 +270,7 @@ for step in range(45):
         walls.discard(new_pos)
         curr = new_pos
         visited.add(curr)
+        illuminated.add(curr)
         last_dir = d_next
         save_state(floor_num)
         if warp_target is not None and curr == warp_target:
@@ -271,6 +282,7 @@ for step in range(45):
             visited = {new_pos2}
             walls = set()
             pending_walls = {}
+            illuminated = {new_pos2}
             save_state(floor_num)
             print(f"Arrived on Floor {floor_num} at {new_pos2}!")
             break
@@ -314,6 +326,7 @@ for step in range(45):
             walls.discard(new_pos)
             curr = new_pos
             visited.add(curr)
+            illuminated.add(curr)
             last_dir = d_next
             save_state(floor_num)
         else:
@@ -328,6 +341,6 @@ for step in range(45):
             last_dir = d_next
             save_state(floor_num)
 
-print(f"End of turn: floor={floor_num}, pos={curr}, visited={len(visited)}, walls={len(walls)}")
+print(f"End of turn: floor={floor_num}, pos={curr}, visited={len(visited)}, illuminated={len(illuminated)}, walls={len(walls)}")
 if os.path.exists("screenshots/tmp_live.png"):
     os.remove("screenshots/tmp_live.png")
