@@ -99,6 +99,8 @@ def has_item_ball(im, dx, dy):
         return False
     x0 = 112 + dx * 16
     y0 = 72 + dy * 16
+    if not all(sum(im.getpixel((x0 + xo, y0 + 14))) > 200 for xo in (5, 7, 9, 11)):
+        return False
     red_cap = 0
     white_body = 0
     for yo in range(1, 13):
