@@ -18,6 +18,8 @@ wall_face_colors = {
     (189, 173, 132),
     (140, 148, 173),
     (181, 173, 148),
+    (156, 148, 173),
+    (231, 214, 173),
 }
 warp_colors = {(0, 74, 255), (41, 156, 247), (82, 239, 247)}
 
@@ -39,7 +41,11 @@ def has_yes_no_box(im):
 
 def try_flee_wild_or_stop_trainer():
     tools.press_buttons([
-        "sleep 6500", "B", "sleep 5000", "B", "sleep 2500",
+        "sleep 6500", "B", "sleep 5000", "B", "sleep 2500"
+    ])
+    return False
+def _unused_flee():
+    tools.press_buttons([
         "Down", "Right", "A", "sleep 3500"
     ])
     mgba.take_screenshot("tmp_live.png")
@@ -87,6 +93,8 @@ def try_flee_wild_or_stop_trainer():
     return is_overworld(im)
 
 def is_wall_pixel(rgb):
+    if rgb == (206, 198, 173):
+        return False
     if rgb == (206, 198, 173):
         return False
     if rgb in wall_face_colors:
