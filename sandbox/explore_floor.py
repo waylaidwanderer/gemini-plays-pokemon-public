@@ -39,7 +39,7 @@ def has_yes_no_box(im):
 
 def try_flee_wild_or_stop_trainer():
     tools.press_buttons([
-        "sleep 5500", "B", "sleep 4500", "B", "sleep 2500",
+        "sleep 6500", "B", "sleep 5000", "B", "sleep 2500",
         "Down", "Right", "A", "sleep 3500"
     ])
     mgba.take_screenshot("tmp_live.png")
