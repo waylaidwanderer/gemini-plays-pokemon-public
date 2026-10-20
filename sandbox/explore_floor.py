@@ -56,7 +56,20 @@ def try_flee_wild_or_stop_trainer():
             return True
         print(f"Wild RUN retry {retry+1}...")
         tools.press_buttons([
-            "sleep 3000", "B", "sleep 2500", "B", "sleep 2000",
+            "sleep 3000", "B", "sleep 2500", "B", "sleep 2000"
+        ])
+        mgba.take_screenshot("tmp_live.png")
+        im = Image.open("screenshots/tmp_live.png").convert("RGB")
+        if is_overworld(im):
+            return True
+        green_hp = sum(
+            1 for y in range(97, 101) for x in range(174, 224)
+            if im.getpixel((x, y))[1] >= 160 and im.getpixel((x, y))[0] <= 140
+        )
+        if green_hp < 20:
+            print(f"ATRITON HP bar is yellow/red (green_hp={green_hp}); stopping auto-flee to heal/pivot safely!")
+            return False
+        tools.press_buttons([
             "Down", "Right", "A", "sleep 3500"
         ])
         mgba.take_screenshot("tmp_live.png")
