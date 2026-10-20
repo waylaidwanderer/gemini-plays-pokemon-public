@@ -87,6 +87,8 @@ def try_flee_wild_or_stop_trainer():
     return is_overworld(im)
 
 def is_wall_pixel(rgb):
+    if rgb == (206, 198, 173):
+        return False
     if rgb in wall_face_colors:
         return True
     r, g, b = rgb
