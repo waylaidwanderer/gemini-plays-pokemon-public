@@ -43,7 +43,7 @@ def try_flee_wild_or_stop_trainer():
         tools.press_buttons(["B", "sleep 1500"])
         return False
     tools.press_buttons(["B", "sleep 2500"])
-    for retry in range(2):
+    for retry in range(4):
         mgba.take_screenshot("tmp_live.png")
         im = Image.open("screenshots/tmp_live.png").convert("RGB")
         if is_overworld(im):
@@ -190,6 +190,16 @@ visited = set(tuple(x) for x in st["visited"])
 walls = set(tuple(x) for x in st["walls"]) - visited
 pending_walls = {tuple(map(int, k.split(","))): set(tuple(x) for x in v) for k, v in st.get("pending_walls", {}).items()}
 last_dir = st.get("last_dir", "Down")
+
+mgba.take_screenshot("tmp_live.png")
+im_init = Image.open("screenshots/tmp_live.png").convert("RGB")
+if not is_overworld(im_init):
+    print("Finishing active wild battle escape at start of turn...")
+    tools.press_buttons([
+        "B", "sleep 2000",
+        "Down", "Right", "A", "sleep 3500",
+        "B", "sleep 2500"
+    ])
 
 pos = mgba.get_coordinates()
 curr = (pos["x"], pos["y"])
