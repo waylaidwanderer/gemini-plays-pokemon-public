@@ -22,7 +22,7 @@ warp_colors = {(0, 74, 255), (41, 156, 247), (82, 239, 247)}
 def is_overworld(im):
     return (
         im.getpixel((5, 5)) == (0, 0, 0)
-        and im.getpixel((120, 140)) == (0, 0, 0)
+        and im.getpixel((16, 140)) == (0, 0, 0)
         and sum(im.getpixel((112, 78))) > 60
     )
 
@@ -277,7 +277,7 @@ for step in range(45):
             tools.press_buttons(["sleep 2500"])
             mgba.take_screenshot("tmp_live.png")
             im_ab = Image.open("screenshots/tmp_live.png").convert("RGB")
-            if im_ab.getpixel((120, 140)) != (0, 0, 0) and im_ab.getpixel((5, 5)) == (0, 0, 0):
+            if im_ab.getpixel((16, 140)) != (0, 0, 0) and im_ab.getpixel((5, 5)) == (0, 0, 0):
                 print("Overworld Trainer speech bubble detected! Advancing into battle menu...")
                 tools.press_buttons(["B", "sleep 7500", "B", "sleep 5500"])
                 break
