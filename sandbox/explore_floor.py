@@ -116,6 +116,7 @@ def scan_live_screen(curr, visited, walls, pending_walls, last_dir):
                 if not is_overworld(im):
                     return False, None, last_dir
                 p_set.discard((nx, ny))
+                visited.add((nx, ny))
     best_warp = None
     best_cnt = 0
     for dy in range(-4, 6):
