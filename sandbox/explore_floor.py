@@ -1,7 +1,9 @@
-import os, json
+import os, json, time
 from collections import deque
 from PIL import Image
 import tools, mgba
+
+t_start = time.time()
 
 DIRS = {
     "Up": (0, -1),
@@ -213,6 +215,10 @@ def save_state(fl=floor_num):
         }, f)
 
 for step in range(45):
+    if time.time() - t_start > 85:
+        print(f"Step {step}: reached 85s wall-clock budget at {curr}; stopping cleanly!")
+        save_state(floor_num)
+        break
     ok, w_tile, last_dir = scan_live_screen(curr, visited, walls, pending_walls, last_dir)
     if not ok:
         print(f"Step {step}: battle/text active before move at {curr}")
