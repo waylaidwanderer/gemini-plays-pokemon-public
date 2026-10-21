@@ -68,9 +68,14 @@
     - **Storage Room `(11, 4)`** (entered from `(11, 5)` via `Up`): Locked until the **Storage Key** is found; contains **TM13 (Ice Beam)**.
     - **Sailor Duncan `(8, 6)`:** Watches `y = 6` — `Spheal Lv. 25`, `Machoke Lv. 25` [Defeated — money `$9,115`].
     - **Southern Doorway Recesses (`(5, 7)`, `(8, 7)`, `(11, 7)`):** Pressing `Down` at **`(8, 7)`** enters the **Dive Pool Cabin** at `(13, 2)`. Inside, walk `Down` 2 to `(13, 4)`, use **Surf** `Down` onto `(13, 5)`, surf `Down` 1 onto the dark-blue Dive tile at **`(13, 6)`**, and use **Dive** (`A -> YES -> B`) to descend into `AbandonedShip_Underwater1` at `(17, 4)`.
-  - **`AbandonedShip_Underwater1` (`(17, 4)` -> `(3, 3)`) & `AbandonedShip_Underwater2` (`(3, 7)` -> `(3, 4)`):**
+  - **`AbandonedShip_Underwater1` (`(17, 4)` -> `(3, 3)`), `AbandonedShip_Underwater2` (`(3, 7)` -> `(3, 4)`) & `AbandonedShip_HiddenFloorCorridors`:**
     - In `AbandonedShip_Underwater1` at `(17, 4)`, swim `Left` 14 along `y = 4` to `(3, 4)` and `Up` 1 into `(3, 3)` (warps to `AbandonedShip_Underwater2` at `(3, 7)`).
-    - In `AbandonedShip_Underwater2` at `(3, 7)`, swim `Up` 3 to **`(3, 4)`** on the light-filtered surface patch (`y = 4..6`, south of the table at `(3, 3)`) and press **`B`** (`B -> YES -> B`) to surface into `AbandonedShip_HiddenFloorCorridors`.
+    - In `AbandonedShip_Underwater2` at `(3, 7)`, swim `Up` 3 to **`(3, 4)`** on the light-filtered surface patch (`y = 4..6`, south of the table at `(3, 3)`) and press **`B`** (`B -> YES -> B`) to surface into `AbandonedShip_HiddenFloorCorridors` at `(0, 10)`.
+    - **Hidden Floor Mechanics & 6-Room Key Chain:** Note that hidden-item sparkles (`BG_EVENT_HIDDEN_ITEM`) are walkable floor tiles; you must stop **1 tile before** the sparkle tile so you are facing it when pressing `A` (stepping onto the tile faces the tile beyond it). Only the eastern hallway at `x = 11` (`y = 2..9`) connects the lower corridor (`y = 9`, doors at `(3, 8)`, `(6, 8)`, `(9, 8)`) and upper corridor (`y = 2`, doorways at `(3, 3)`, `(6, 3)`, `(9, 3)`):
+      1. **Room 3 (`(9, 8)` — Unlocked):** Visible Item Ball at `(31, 11)` (**Water Stone** [Obtained]) and sparkle at `(42, 10)` (**Rm. 1 Key** [Obtained from `(42, 11)` facing `Up`]).
+      2. **Room 1 (`(3, 8)` — Unlocked with `Rm. 1 Key`):** Visible Item Ball at `(5, 11)` (**TM18 Rain Dance** [Obtained]) and sparkle at `(1, 12)` (**Rm. 4 Key** [Obtained from `(2, 12)` facing `Left`]).
+      3. **Room 4 (`(3, 3)` — Unlocked with `Rm. 4 Key`):** Trash can at `(1, 2)` contains **Rm. 6 Key** [Obtained from `(2, 2)` facing `Left`].
+      4. **Room 6 (`(9, 3)` — Unlocked with `Rm. 6 Key`):** Visible Item Ball at `(41, 4)` (**Luxury Ball** [Obtained]). From `(36, 2)`, walk `Left` 5 along `y = 2` to `(31, 2)`, `Down` 2 to `(31, 4)`, and `Left` 4 through the broken wall passage into **Room 5** at `(27, 4)` (note that entering Room 5 from the corridor at `(6, 3)` boxes the player into `(21, 2)`).
 
 <hr>
 
