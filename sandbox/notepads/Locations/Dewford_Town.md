@@ -62,10 +62,17 @@
   - From `(30, 9)` on Route 108, surf `Up` 2 onto the shallow water (`MB_SHALLOW_WATER`) at `(30, 7)`, walk `Up` 1 to `(30, 6)`, `Left` 1 onto the boarding gangplank at `(29, 6)`, and `Up` 1 into `(29, 5)` (`AbandonedShip_Deck (13, 15)` -> walk `Up` 5 along `x = 13` into `AbandonedShip_Corridors_1F` at `(8, 11)`).
   - **`AbandonedShip_Corridors_1F` (`(8, 11)` -> B1F Staircase `(17, 2)`):** Walk `Up` 1 to `(8, 10)`, `Left` 1 to `(7, 10)`, `Up` 7 along `x = 7` to `(7, 3)`, `Right` 9 along `y = 3` to `(16, 3)`, `Up` 1 to `(16, 2)` (bypassing the bottom railing of `(17, 2)`), and `Right` 1 onto the staircase at **`(17, 2)`** (warps to `AbandonedShip_Corridors_B1F` at `(8, 2)`).
   - **`AbandonedShip_Corridors_B1F` (`(8, 2)` -> Dive Pool Cabin `(8, 7)` & Storage Room `(11, 4)`):**
-    - **Broken-Door Cabin `(6, 4)`** (entered from `(6, 5)` via `Up`): Contains an Item Ball at `(13, 3)` (**Dive Ball** [Obtained]).
-    - **Storage Room `(11, 4)`** (entered from `(11, 5)` via `Up`): Locked until the **Storage Key** is found; contains **TM13 (Ice Beam)**.
+    - **Eastern Staircase to 1F `(9, 2)`:** Warps to `AbandonedShip_Corridors_1F` `(16, 2)`.
+    - **Western Staircase to 1F `(1, 2)`:** Reached via `(0, 3) -> (0, 2) -> Right` onto `(1, 2)` (bypassing the bottom railing at `(1, 3)`).
+    - **Northern Cabins (`(3, 4)`, `(6, 4)`, `(11, 4)`):**
+      - **Cabin `(3, 4)`** (entered from `(3, 5)` via `Up`): Empty passenger cabin.
+      - **Broken-Door Cabin `(6, 4)`** (entered from `(6, 5)` via `Up`): Contains an Item Ball at `(13, 3)` (**Dive Ball** [Obtained]).
+      - **Storage Room `(11, 4)`** (entered from `(11, 5)` via `Up`): Locked until the **Storage Key** is found; contains **TM13 (Ice Beam)**.
     - **Sailor Duncan `(8, 6)`:** Watches `y = 6` — `Spheal Lv. 25`, `Machoke Lv. 25` [Defeated — money `$9,115`].
-    - **Southern Doorway Recesses (`(5, 7)`, `(8, 7)`, `(11, 7)`):** Pressing `Down` at **`(8, 7)`** enters the **Dive Pool Cabin** at `(13, 2)`. Inside, walk `Down` 2 to `(13, 4)`, use **Surf** `Down` onto `(13, 5)`, surf `Down` 1 onto the dark-blue Dive tile at **`(13, 6)`**, and use **Dive** (`A -> YES -> B`) to descend into `AbandonedShip_Underwater1` at `(17, 4)`.
+    - **Southern Doorway Recesses (`(5, 7)`, `(8, 7)`, `(11, 7)`):**
+      - **Cabin `(5, 7)`** (`Down` at `(5, 7)` -> arrives at `(4, 2)`): Contains an Item Ball at `(7, 7)` (**Escape Rope** [Obtained from `(6, 7)` facing `Right`]).
+      - **Dive Pool Cabin `(8, 7)`** (`Down` at `(8, 7)` -> arrives at `(13, 2)`): Walk `Down` 2 to `(13, 4)`, use **Surf** `Down` onto `(13, 5)`, surf `Down` 1 onto the dark-blue Dive tile at **`(13, 6)`**, and use **Dive** (`A -> YES -> B`) to descend into `AbandonedShip_Underwater1` at `(17, 4)`.
+      - **Cabin `(11, 7)`** (`Down` at `(11, 7)` -> arrives at `(22, 2)`): Contains a Hiker/man at `(25, 6)` and a trash can at `(24, 6)`.
   - **`AbandonedShip_Underwater1` (`(17, 4)` -> `(3, 3)`), `AbandonedShip_Underwater2` (`(3, 7)` -> `(3, 4)`) & `AbandonedShip_HiddenFloorCorridors`:**
     - In `AbandonedShip_Underwater1` at `(17, 4)`, swim `Left` 14 along `y = 4` to `(3, 4)` and `Up` 1 into `(3, 3)` (warps to `AbandonedShip_Underwater2` at `(3, 7)`).
     - In `AbandonedShip_Underwater2` at `(3, 7)`, swim `Up` 3 to **`(3, 4)`** on the light-filtered surface patch (`y = 4..6`, south of the table at `(3, 3)`) and press **`B`** (`B -> YES -> B`) to surface into `AbandonedShip_HiddenFloorCorridors` at `(0, 10)`.
