@@ -44,7 +44,13 @@
   - From `(10, 9)`, surf `Up` 4 along `x = 10` to step ashore onto `(10, 5)` and walk `Up` 2 into the northern cave doorway at **`(10, 3)`** (warps to `MeteorFalls_1F_2R` at `(10, 29)`). Note: `(5, 2)` and the down-ladder at `(6, 4)` are on an enclosed upper-left ledge in `MeteorFalls_1F_1R`.
 - **`MeteorFalls_1F_2R` Lower Basin (`(10, 29)` -> Down-Ladder `(21, 23)`):**
   - The northern tier above `y = 18` is blocked by south-facing 1-way purple ledges at `y = 17` and `y = 14` and a cliff wall at `x = 26`.
-  - From `(10, 29)`, walk `Right` 5 to `(15, 29)`, `Up` 3 to `(15, 26)`, `Right` 3 to `(18, 26)`, `Up` 3 to `(18, 23)`, and `Right` 3 onto the **Down-Ladder at `(21, 23)`** (warps to `MeteorFalls_B1F_1R`).
+  - From `(10, 29)`, walk `Right` 5 to `(15, 29)`, `Up` 3 to `(15, 26)`, `Right` 3 to `(18, 26)`, `Up` 3 to `(18, 23)`, and `Right` 3 onto the **Down-Ladder at `(21, 23)`** (warps to `MeteorFalls_B1F_1R` at `(18, 15)`).
+- **`MeteorFalls_B1F_1R` (`(18, 15)` -> Up-Ladder `(5, 6)`):**
+  - From the arrival ladder at `(18, 15)`, walk `Down` 4 to `(18, 19)`, `Left` 1 to `(17, 19)`, `Down` 1 to `(17, 20)`, `Left` 12 along `y = 20` to `(5, 20)`, `Up` 5 along `x = 5` to `(5, 15)`, `Left` 1 to `(4, 15)`, `Up` 9 along `x = 4` to `(4, 6)`, and `Right` 1 onto the **Up-Ladder at `(5, 6)`** (warps to `MeteorFalls_1F_2R` at `(4, 14)`). Note: `(10, 20)` is the shoreline north of the underground lake `(10, 21)`, `(4, 22)` is a raised southern ladder accessed via staircase `(7, 24)`, and `(8, 11)` is a raised central ladder accessed via staircase `(7, 15..16)`.
+- **`MeteorFalls_1F_2R` Upper West & North (`(4, 14)` -> `(9, 3)` & `(7, 20)`):**
+  - **Old Couple John & Jay `(6..7, 12)`:** Watch `(6..7, 13)` — `Medicham Lv. 39` & `Hariyama Lv. 39` [Defeated & Registered — money `$23,106`; `OBERON` grew to Lv. 22].
+  - **Dragon Tamer Nicolas `(12, 2)`:** Faces `Right` at the top of the staircases `(9, 11) -> (9, 3)` — `Altaria Lv. 37 x2` [Defeated & Registered — money `$24,882`]. Walking `Right` from `(12, 3)` to `(19, 3)` leads only to south-facing 1-way purple ledges dropping back down to the lower basin.
+  - **Western Down-Ladder at `(7, 20)`:** Reached from `(4, 14)` via `Right` 3 to `(7, 14)` and `Down` 6 along `x = 7` to `(7, 20)` (passing west of the rock at `(8..10, 14..15)`).
 
 ## Route 115
 - **North-East Cave Entrance (from Meteor Falls 1F `(6, 39)`):** `(27, 39)` (exiting steps to `(27, 40)`).
