@@ -214,10 +214,11 @@
   - From `SkyPillar_4F` `(7, 2)`, walk `Left` 4 along `y = 2` to `(3, 2)` and `Up` 1 into the staircase at **`(3, 1)`** (warps to `SkyPillar_5F` at `(3, 2)`).
 - **`SkyPillar_5F` (`(3, 2)` -> `(10, 1)`):**
   - On 5F, the central pit is wider and deeper (`x = 3..10, y = 4..11`), and rubble rocks at `(9, 2)` and `(8, 3)` block the direct northern path to `(10, 1)`.
-  - From `(3, 2)`, walk `Left` 1 to `(2, 2)`, `Down` 10 along `x = 2` to `(2, 12)`, `Right` 9 along `y = 12` to `(11, 12)`, `Up` 10 along `x = 11` to `(11, 2)`, `Left` 1 to `(10, 2)`, and `Up` 1 into the staircase at **`(10, 1)`** (warps to `SkyPillar_Top`).
-- **`SkyPillar_Top` (`(16, 15)` -> `(14, 9)`):**
+  - *First visit:* From `(3, 2)`, walk `Left` 1 to `(2, 2)`, `Down` 10 along `x = 2` to `(2, 12)`, `Right` 9 along `y = 12` to `(11, 12)`, `Up` 10 along `x = 11` to `(11, 2)`, `Left` 1 to `(10, 2)`, and `Up` 1 into the staircase at **`(10, 1)`** (warps to `SkyPillar_Top`).
+  - *Second visit (post-Sootopolis rubble):* From `(3, 2)`, walk `Left` 2 to `(1, 2)`, `Down` 3 along `x = 1` to `(1, 5)`, `Right` 1 to `(2, 5)`, `Down` 3 along `x = 2` to `(2, 8)`, `Left` 1 to `(1, 8)`, `Down` 4 along `x = 1` to `(1, 12)`, `Right` 5 along `y = 12` to `(6, 12)`, `Down` 1 to `(6, 13)`, `Right` 4 along `y = 13` to `(10, 13)`, `Up` 1 to `(10, 12)`, `Right` 1 to `(11, 12)`, `Up` 2 to `(11, 10)`, `Right` 1 to `(12, 10)`, `Up` 2 to `(12, 8)`, `Right` 1 to `(13, 8)`, `Up` 2 to `(13, 6)`, `Left` 1 to `(12, 6)`, `Up` 4 along `x = 12` to `(12, 2)`, `Left` 1 to `(11, 2)`, `Up` 1 to `(11, 1)`, `Left` 1 to `(10, 1)` (via `(11, 3) -> (10, 3) -> (10, 1)`), and `Up` 1 into **`(10, 1)`**.
+- **`SkyPillar_Top` (`(16, 15)` -> `(14, 8)`):**
   - No wild encounters on the summit.
-  - From `(16, 15)`, walk `Left` 4 to `(12, 15)`, `Up` 4 up the stairs to `(12, 11)`, `Right` 2 to `(14, 11)`, and `Up` 2 along `x = 14` to **`(14, 9)`** (stepping onto `(14, 9)` triggers the **Rayquaza Awakening Cutscene** [Completed]).
+  - From `(16, 15)`, walk `Left` 4 to `(12, 15)`, `Up` 4 up the stairs to `(12, 11)`, `Right` 2 to `(14, 11)`, and `Up` 3 along `x = 14` to **`(14, 8)`** facing **Rayquaza Lv. 70 at `(14, 7)`** (`Fly`, `Rest`, `ExtremeSpeed`, `Outrage`; Ability: `Air Lock`).
 ## Sootopolis City Post-Rayquaza Resolution & Sootopolis Gym
 - **Rayquaza Cutscene Trigger:** Surfacing into Sootopolis City at `(29, 53)` after awakening Rayquaza at `SkyPillar_Top (14, 9)` automatically plays the Rayquaza vs. Groudon & Kyogre cutscene (`~16s` total) and returns overworld control surfing at `(29, 53)` [Completed].
 - **Sootopolis Gym Island (`(29, 53)` -> `(29, 36)` -> `(31, 32)`):**
