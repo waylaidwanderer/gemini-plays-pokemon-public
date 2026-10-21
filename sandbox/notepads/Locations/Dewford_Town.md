@@ -49,3 +49,14 @@
   - **B2F (`(29, 13)` -> `(28, 21)`):** Walk `Down` 1 to `(29, 14)`, `Left` 23 along `y = 14` to `(6, 14)`, `Down` 1 to `(6, 15)`, `Left` 3 to `(3, 15)`, `Down` 2 to `(3, 17)`, `Left` 1 to `(2, 17)`, `Down` 1 to `(2, 18)`, `Right` 2 to `(4, 18)`, `Down` 3 to `(4, 21)`, `Right` 3 to `(7, 21)`, `Down` 1 to `(7, 22)`, `Right` 5 to `(12, 22)`, `Up` 3 to `(12, 19)`, `Left` 2 to `(10, 19)`, `Up` 1 to `(10, 18)`, `Right` 3 to `(13, 18)`, `Up` 1 to `(13, 17)`, `Right` 10 along `y = 17` to `(23, 17)`, `Up` 1 to `(23, 16)`, `Right` 5 to `(28, 16)`, and `Down` 5 onto the **B1F Ladder at `(28, 21)`**.
   - **B1F (`(28, 21)` -> `(4, 21)`):** Walk `Up` 1 to `(28, 20)`, `Left` 3 to `(25, 20)`, `Up` 3 to `(25, 17)`, `Left` 1 to `(24, 17)`, `Up` 1 to `(24, 16)`, `Left` 2 to `(22, 16)`, `Up` 3 to `(22, 13)`, `Left` 17 along `y = 13` to `(5, 13)`, `Down` 1 to `(5, 14)`, `Left` 2 to `(3, 14)`, `Down` 5 along `x = 3` to `(3, 19)`, `Right` 1 to `(4, 19)`, `Down` 1 to `(4, 20)`, `Right` 1 to `(5, 20)`, `Down` 1 to `(5, 21)`, and `Left` 1 onto the **1F Ladder at `(4, 21)`**.
   - **1F (`(17, 11)` -> `(37, 12)`):** Walk `Down` 1 to `(17, 12)`, `Left` 1 to `(16, 12)`, `Up` 3 to `(16, 9)`, `Right` 1 to `(17, 9)`, `Up` 1 to `(17, 8)`, `Right` 1 to `(18, 8)`, `Up` 1 to `(18, 7)`, `Right` 9 along `y = 7` to `(27, 7)`, `Down` 1 to `(27, 8)`, `Right` 10 along `y = 8` to `(37, 8)`, and `Down` 5 out `(37, 12)` onto Route 106 `(48, 17)`.
+
+## Route 107 & Route 108 (Dewford Town `(2, 11)` -> Abandoned Ship `(30, 5)`)
+- **Dewford Town Eastern Beach to Route 107 `(4, 11)`:** From the Dewford Pokémon Center `(2, 11)`, walk `Right` 22 along `y = 11` across the eastern border (`x = 19` -> Route 107 `x = 0`) to the shoreline at **`(4, 11)`** on Route 107, and use **Surf** `Right` onto `(5, 11)`.
+- **Route 107 Trainers & Eastbound Channel (`y = 9..10`):**
+  - **Swimmer♀ Denise `(16, 7)`:** Watches `(16, 10)` — `Wingull Lv. 25`, `Goldeen Lv. 25` [Defeated — money `$6,667`].
+  - **Swimmer♂ Tony `(23, 12)`:** Watches `(23, 10)` — `Carvanha Lv. 26` [Defeated & Registered — money `$6,875`].
+  - **Swimmer♂ Darrin `(41, 10)`:** Faces Left on `y = 10` — `Tentacool Lv. 24`, `Wingull Lv. 24`, `Tentacool Lv. 24` [Defeated — money `$7,067`; step `Up` 1 from `(40, 10)` to `(40, 9)` to pass north of him].
+  - **Swimmer♀ Beth `(50, 10)` & Triathlete♂ Camron `(50, 6)`:** Watch `(50, 9)` for a 2v2 Double Battle — `Goldeen Lv. 26` & `Staryu Lv. 26` [Defeated in 1 turn by `ATRITON`'s spread `Surf` — money `$8,315`].
+- **Route 108 & Abandoned Ship Exterior (`(30, 5)`):**
+  - Surfing `Right` 40 along `y = 9` from `(50, 9)` on Route 107 crosses `(59, 9)` into **Route 108** at `(0, 9)` and arrives at **`(30, 9)`**, directly south of the **Abandoned Ship (`S.S. Cactus`)**.
+  - From `(30, 9)` on Route 108, surf `Up` 2 onto the shallow water (`MB_SHALLOW_WATER`) at `(30, 7)` and walk `Up` 2 up the stairs `(29..30, 6)` into the **Abandoned Ship entrance at `(30, 5)`**.

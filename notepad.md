@@ -52,6 +52,17 @@
   - **B1F (`(28, 21)` -> `(4, 21)`):** Walk `Up` 1 to `(28, 20)`, `Left` 3 to `(25, 20)`, `Up` 3 to `(25, 17)`, `Left` 1 to `(24, 17)`, `Up` 1 to `(24, 16)`, `Left` 2 to `(22, 16)`, `Up` 3 to `(22, 13)`, `Left` 17 along `y = 13` to `(5, 13)`, `Down` 1 to `(5, 14)`, `Left` 2 to `(3, 14)`, `Down` 5 along `x = 3` to `(3, 19)`, `Right` 1 to `(4, 19)`, `Down` 1 to `(4, 20)`, `Right` 1 to `(5, 20)`, `Down` 1 to `(5, 21)`, and `Left` 1 onto the **1F Ladder at `(4, 21)`**.
   - **1F (`(17, 11)` -> `(37, 12)`):** Walk `Down` 1 to `(17, 12)`, `Left` 1 to `(16, 12)`, `Up` 3 to `(16, 9)`, `Right` 1 to `(17, 9)`, `Up` 1 to `(17, 8)`, `Right` 1 to `(18, 8)`, `Up` 1 to `(18, 7)`, `Right` 9 along `y = 7` to `(27, 7)`, `Down` 1 to `(27, 8)`, `Right` 10 along `y = 8` to `(37, 8)`, and `Down` 5 out `(37, 12)` onto Route 106 `(48, 17)`.
 
+## Route 107 & Route 108 (Dewford Town `(2, 11)` -> Abandoned Ship `(30, 5)`)
+- **Dewford Town Eastern Beach to Route 107 `(4, 11)`:** From the Dewford Pokémon Center `(2, 11)`, walk `Right` 22 along `y = 11` across the eastern border (`x = 19` -> Route 107 `x = 0`) to the shoreline at **`(4, 11)`** on Route 107, and use **Surf** `Right` onto `(5, 11)`.
+- **Route 107 Trainers & Eastbound Channel (`y = 9..10`):**
+  - **Swimmer♀ Denise `(16, 7)`:** Watches `(16, 10)` — `Wingull Lv. 25`, `Goldeen Lv. 25` [Defeated — money `$6,667`].
+  - **Swimmer♂ Tony `(23, 12)`:** Watches `(23, 10)` — `Carvanha Lv. 26` [Defeated & Registered — money `$6,875`].
+  - **Swimmer♂ Darrin `(41, 10)`:** Faces Left on `y = 10` — `Tentacool Lv. 24`, `Wingull Lv. 24`, `Tentacool Lv. 24` [Defeated — money `$7,067`; step `Up` 1 from `(40, 10)` to `(40, 9)` to pass north of him].
+  - **Swimmer♀ Beth `(50, 10)` & Triathlete♂ Camron `(50, 6)`:** Watch `(50, 9)` for a 2v2 Double Battle — `Goldeen Lv. 26` & `Staryu Lv. 26` [Defeated in 1 turn by `ATRITON`'s spread `Surf` — money `$8,315`].
+- **Route 108 & Abandoned Ship Exterior (`(30, 5)`):**
+  - Surfing `Right` 40 along `y = 9` from `(50, 9)` on Route 107 crosses `(59, 9)` into **Route 108** at `(0, 9)` and arrives at **`(30, 9)`**, directly south of the **Abandoned Ship (`S.S. Cactus`)**.
+  - From `(30, 9)` on Route 108, surf `Up` 2 onto the shallow water (`MB_SHALLOW_WATER`) at `(30, 7)` and walk `Up` 2 up the stairs `(29..30, 6)` into the **Abandoned Ship entrance at `(30, 5)`**.
+
 <hr>
 
 <h1><code>Locations/Littleroot_Town</code></h1>
@@ -1005,7 +1016,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $6,467 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,315 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
 - **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
