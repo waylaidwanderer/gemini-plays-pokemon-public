@@ -50,7 +50,7 @@
 - **`MeteorFalls_1F_2R` Upper West & North (`(4, 14)` -> `(9, 3)` & `(7, 20)`):**
   - **Old Couple John & Jay `(6..7, 12)`:** Watch `(6..7, 13)` — `Medicham Lv. 39` & `Hariyama Lv. 39` [Defeated & Registered — money `$23,106`; `OBERON` grew to Lv. 22].
   - **Dragon Tamer Nicolas `(12, 2)`:** Faces `Right` at the top of the staircases `(9, 11) -> (9, 3)` — `Altaria Lv. 37 x2` [Defeated & Registered — money `$24,882`]. Walking `Right` from `(12, 3)` to `(19, 3)` leads only to south-facing 1-way purple ledges dropping back down to the lower basin.
-  - **Western Down-Ladder at `(7, 20)`:** Reached from `(4, 14)` via `Right` 3 to `(7, 14)` and `Down` 6 along `x = 7` to `(7, 20)` (passing west of the rock at `(8..10, 14..15)`).
+  - **Western Down-Ladder at `(7, 20)` (to `MeteorFalls_B1F_1R` `(7, 11)`):** Reached from the top of the staircases `(9, 3)` by walking `Right` 5 along `y = 3` to `(14, 3)` and jumping down the left column of south-facing 1-way purple ledges: `Down` from `(14, 3)` to `(14, 6)`, `Down` to `(14, 10)`, `Left` 1 and `Down` to `(13, 12)`, `Left` 1 and `Down` to `(12, 16)`, `Left` 4 along `y = 16` (south of the `(8..10, 14..15)` rocks) to `(8, 16)`, `Down` 4 along `x = 8` to `(8, 20)`, and `Left` 1 onto **`(7, 20)`**.
 
 ## Route 115
 - **North-East Cave Entrance (from Meteor Falls 1F `(6, 39)`):** `(27, 39)` (exiting steps to `(27, 40)`).
