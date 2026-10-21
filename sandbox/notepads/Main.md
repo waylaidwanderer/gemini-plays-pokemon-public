@@ -1,12 +1,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $491 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION & CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES (BATTLE DOME, BATTLE PIKE, BATTLE FACTORY, BATTLE ARENA, BATTLE PALACE, BATTLE PYRAMID & BATTLE TOWER) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,171 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES & DEFEATER OF POST-GAME BOSS STEVEN STONE | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x6`, `1: Escape Rope x1`, `2: Super Repel x3`, `3: Full Restore x2`, `4: Full Heal x2`, `5: Max Repel x1`, `6: X Special x7`, `7: X Speed x3`, `8: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x5`, `1: Super Repel x2`, `2: X Special x1`, `3: X Speed x1`, `4: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 77, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Blizzard, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 78, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Blizzard, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)

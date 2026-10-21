@@ -473,7 +473,7 @@
     - From `(11, 20)`, walk `Down` 5 along the dry-land corridor `x = 11` (between the platform cliff at `x = 9..10` and the water cliff at `x = 14`) to `(11, 25)`, `Left` 3 along `y = 25` to `(8, 25)`, `Up` 3 up the staircase `(8, 24)` to `(8, 22)`, `Left` 4 along `y = 22` to `(4, 22)`, and `Down` 1, `Left` 1 onto the **Up-Ladder at `(3, 23)`** (warps to the enclosed upper-left ledge of `MeteorFalls_1F_1R` at `(5, 4)`).
     - In `MeteorFalls_1F_1R` at `(5, 4)`, walk `Left` 1 to `(4, 4)` and `Up` 2 along `x = 4` into the **Cave Doorway at `(4, 2)`** (warps to **`MeteorFalls_StevensCave` at `(10, 29)`**; note that `(2, 4)` in `MeteorFalls_1F_1R` has an Item Ball).
 - **`MeteorFalls_StevensCave` (`(10, 29)` -> PKMN Trainer Steven `(19, 3)`):**
-  - From `(10, 29)`, walk `Up` 4 to `(10, 25)`, `Right` 4 to `(14, 25)`, `Up` 4 to `(14, 21)`, `Right` 3 to `(17, 21)`, `Up` 7 along `x = 17` to `(17, 14)`, `Left` 1 to `(16, 14)`, `Up` 5 to `(16, 9)`, `Right` 1 to `(17, 9)`, `Up` 2 to `(17, 7)`, `Right` 2 to `(19, 7)`, and `Up` 3 along `x = 19` to **`(19, 4)`** facing **PKMN Trainer Steven at `(19, 3)`** (`Skarmory Lv. 77`, `Claydol Lv. 75`, `Aggron Lv. 76`, `Cradily Lv. 76`, `Armaldo Lv. 76`, `Metagross Lv. 78`).
+  - From `(10, 29)`, walk `Up` 4 to `(10, 25)`, `Right` 4 to `(14, 25)`, `Up` 4 to `(14, 21)`, `Right` 3 to `(17, 21)`, `Up` 7 along `x = 17` to `(17, 14)`, `Left` 1 to `(16, 14)`, `Up` 5 to `(16, 9)`, `Right` 1 to `(17, 9)`, `Up` 2 to `(17, 7)`, `Right` 2 to `(19, 7)`, and `Up` 3 along `x = 19` to **`(19, 4)`** facing **PKMN Trainer Steven at `(19, 3)`** (`Skarmory Lv. 77`, `Aggron Lv. 76`, `Cradily Lv. 76`, `Claydol Lv. 75`, `Metagross Lv. 78`, `Armaldo Lv. 76` [Defeated 6-0 by `+6 Sp. Atk` / `+2 Speed` `ATRITON` Lv. 78 — money `$5,171`]).
   - **Optional Northern Route (`(18, 15)` -> Up-Ladder `(5, 6)` -> `1F_2R` -> `(7, 20)` -> `B1F_2R`):**
     - From `(18, 15)`, walking via `(17, 20) -> (5, 20) -> (5, 15) -> (4, 15) -> (4, 6) -> (5, 6)` ascends to `MeteorFalls_1F_2R` at `(4, 14)`.
 - **`MeteorFalls_1F_2R` Upper West & North (`(4, 14)` -> `(9, 3)` & `(7, 20)`):**
@@ -993,12 +993,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $491 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION & CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES (BATTLE DOME, BATTLE PIKE, BATTLE FACTORY, BATTLE ARENA, BATTLE PALACE, BATTLE PYRAMID & BATTLE TOWER) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,171 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES & DEFEATER OF POST-GAME BOSS STEVEN STONE | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x6`, `1: Escape Rope x1`, `2: Super Repel x3`, `3: Full Restore x2`, `4: Full Heal x2`, `5: Max Repel x1`, `6: X Special x7`, `7: X Speed x3`, `8: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x5`, `1: Super Repel x2`, `2: X Special x1`, `3: X Speed x1`, `4: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 77, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Blizzard, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 78, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Blizzard, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
