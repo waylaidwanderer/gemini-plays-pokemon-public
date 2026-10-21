@@ -49,7 +49,9 @@
   - **Direct Route to `MeteorFalls_StevensCave` (`(18, 15)` -> Up-Ladder `(3, 23)` -> `MeteorFalls_1F_1R` `(4, 2)`):**
     - From the arrival ladder at `(18, 15)` (from `MeteorFalls_1F_2R (21, 23)`), walk `Down` 4 to `(18, 19)`, `Left` 1 to `(17, 19)`, `Down` 1 to `(17, 20)`, and `Left` 6 along `y = 20` to `(11, 20)`.
     - From `(11, 20)`, walk `Down` 5 along the dry-land corridor `x = 11` (between the platform cliff at `x = 9..10` and the water cliff at `x = 14`) to `(11, 25)`, `Left` 3 along `y = 25` to `(8, 25)`, `Up` 3 up the staircase `(8, 24)` to `(8, 22)`, `Left` 4 along `y = 22` to `(4, 22)`, and `Down` 1, `Left` 1 onto the **Up-Ladder at `(3, 23)`** (warps to the enclosed upper-left ledge of `MeteorFalls_1F_1R` at `(5, 4)`).
-    - In `MeteorFalls_1F_1R` at `(5, 4)`, walk `Left` 1 to `(4, 4)` and `Up` 2 along `x = 4` into the **Cave Doorway at `(4, 2)`** (warps to **`MeteorFalls_StevensCave` at `(10, 29)`**).
+    - In `MeteorFalls_1F_1R` at `(5, 4)`, walk `Left` 1 to `(4, 4)` and `Up` 2 along `x = 4` into the **Cave Doorway at `(4, 2)`** (warps to **`MeteorFalls_StevensCave` at `(10, 29)`**; note that `(2, 4)` in `MeteorFalls_1F_1R` has an Item Ball).
+- **`MeteorFalls_StevensCave` (`(10, 29)` -> PKMN Trainer Steven `(19, 3)`):**
+  - From `(10, 29)`, walk `Up` 4 to `(10, 25)`, `Right` 4 to `(14, 25)`, `Up` 4 to `(14, 21)`, `Right` 3 to `(17, 21)`, `Up` 7 along `x = 17` to `(17, 14)`, `Left` 1 to `(16, 14)`, `Up` 5 to `(16, 9)`, `Right` 1 to `(17, 9)`, `Up` 2 to `(17, 7)`, `Right` 2 to `(19, 7)`, and `Up` 3 along `x = 19` to **`(19, 4)`** facing **PKMN Trainer Steven at `(19, 3)`** (`Skarmory Lv. 77`, `Claydol Lv. 75`, `Aggron Lv. 76`, `Cradily Lv. 76`, `Armaldo Lv. 76`, `Metagross Lv. 78`).
   - **Optional Northern Route (`(18, 15)` -> Up-Ladder `(5, 6)` -> `1F_2R` -> `(7, 20)` -> `B1F_2R`):**
     - From `(18, 15)`, walking via `(17, 20) -> (5, 20) -> (5, 15) -> (4, 15) -> (4, 6) -> (5, 6)` ascends to `MeteorFalls_1F_2R` at `(4, 14)`.
 - **`MeteorFalls_1F_2R` Upper West & North (`(4, 14)` -> `(9, 3)` & `(7, 20)`):**
