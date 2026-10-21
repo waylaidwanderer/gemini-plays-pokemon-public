@@ -63,6 +63,11 @@
   - Surfing `Right` 40 along `y = 9` from `(50, 9)` on Route 107 crosses `(59, 9)` into **Route 108** at `(0, 9)` and arrives at **`(30, 9)`**, directly south of the **Abandoned Ship (`S.S. Cactus`)**.
   - From `(30, 9)` on Route 108, surf `Up` 2 onto the shallow water (`MB_SHALLOW_WATER`) at `(30, 7)`, walk `Up` 1 to `(30, 6)`, `Left` 1 onto the boarding gangplank at `(29, 6)`, and `Up` 1 into `(29, 5)` (`AbandonedShip_Deck (13, 15)` -> walk `Up` 5 along `x = 13` into `AbandonedShip_Corridors_1F` at `(8, 11)`).
   - **`AbandonedShip_Corridors_1F` (`(8, 11)` -> B1F Staircase `(17, 2)`):** Walk `Up` 1 to `(8, 10)`, `Left` 1 to `(7, 10)`, `Up` 7 along `x = 7` to `(7, 3)`, `Right` 9 along `y = 3` to `(16, 3)`, `Up` 1 to `(16, 2)` (bypassing the bottom railing of `(17, 2)`), and `Right` 1 onto the staircase at **`(17, 2)`** (warps to `AbandonedShip_Corridors_B1F` at `(8, 2)`).
+  - **`AbandonedShip_Corridors_1F` Western Wing (`(5, 2)` -> Cabin `(3, 9)` -> Upper Deck `(1, 11)` -> `AbandonedShip_CaptainsOffice` `(12, 5)`):**
+    - Reached from `AbandonedShip_Corridors_B1F` `(1, 2)` (arriving at `(5, 2)`).
+    - **Tuber Charlie `(5, 5)`:** Watches `(5, 2)` — `Marill Lv. 26` [Defeated — money `$9,219`].
+    - **Cabin `(3, 9)` (`AbandonedShip_Rooms2_1F`):** Walk via `(4, 16) -> (1, 16) -> (1, 11) -> (4, 11) -> (4, 5)` (bypassing **Young Couple Kira & Dan `(6..7, 13)`** in the lower room and the two trainers at `y = 2` in the upper room) to pick up the Item Ball at **`(4, 4)`** (**Revive** [Obtained]).
+    - **Captain's Office (`AbandonedShip_CaptainsOffice`):** Exit the western 1F wing at `(0..1, 11)` onto `AbandonedShip_Deck` at `(8, 10)`, walk `Right` 2 to `(10, 10)`, `Up` 4 up the deck staircase to `(10, 6)`, `Right` 2 to `(12, 6)`, and `Up` 1 into **`(12, 5)`** (arriving inside at `(7, 6)`). Walk via `(7, 2) -> (1, 2) -> (1, 6)` around **Researcher Kelvin `(3, 3)`** to pick up the Item Ball at **`(0, 6)`** (**Storage Key** [Obtained]).
   - **`AbandonedShip_Corridors_B1F` (`(8, 2)` -> Dive Pool Cabin `(8, 7)` & Storage Room `(11, 4)`):**
     - **Eastern Staircase to 1F `(9, 2)`:** Warps to `AbandonedShip_Corridors_1F` `(16, 2)`.
     - **Western Staircase to 1F `(1, 2)`:** Reached via `(0, 3) -> (0, 2) -> Right` onto `(1, 2)` (bypassing the bottom railing at `(1, 3)`).
