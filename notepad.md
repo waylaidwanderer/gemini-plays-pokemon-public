@@ -66,6 +66,7 @@
   - **`AbandonedShip_Corridors_1F` Western Wing (`(5, 2)` -> Cabin `(3, 9)` -> Upper Deck `(1, 11)` -> `AbandonedShip_CaptainsOffice` `(12, 5)`):**
     - Reached from `AbandonedShip_Corridors_B1F` `(1, 2)` (arriving at `(5, 2)`).
     - **Tuber Charlie `(5, 5)`:** Watches `(5, 2)` — `Marill Lv. 26` [Defeated — money `$9,219`].
+    - **Counter-Clockwise Looping Tuber (`(5, 10) -> (5, 3) -> (1, 3) -> (1, 10)`):** Runs in a continuous counter-clockwise loop around the `(2..4, 4..9)` cabin block; to walk north up `x = 1` from `(0..1, 11)` to `(1, 2)` without colliding, pause at the `(1, 11)` doormat for `~1200ms` until the Tuber turns `Right` onto `y = 10`, then walk straight `Up` 9 along `x = 1` to `(1, 2)` and `Right` 5 along `y = 2` onto the `(6, 2)` staircase.
     - **Cabin `(3, 9)` (`AbandonedShip_Rooms2_1F`):** Walk via `(4, 16) -> (1, 16) -> (1, 11) -> (4, 11) -> (4, 5)` (bypassing **Young Couple Kira & Dan `(6..7, 13)`** in the lower room and the two trainers at `y = 2` in the upper room) to pick up the Item Ball at **`(4, 4)`** (**Revive** [Obtained]).
     - **Captain's Office (`AbandonedShip_CaptainsOffice`):** Exit the western 1F wing at `(0..1, 11)` onto `AbandonedShip_Deck` at `(8, 10)`, walk `Right` 2 to `(10, 10)`, `Up` 4 up the deck staircase to `(10, 6)`, `Right` 2 to `(12, 6)`, and `Up` 1 into **`(12, 5)`** (arriving inside at `(7, 6)`). Walk via `(7, 2) -> (1, 2) -> (1, 6)` around **Researcher Kelvin `(3, 3)`** to pick up the Item Ball at **`(0, 6)`** (**Storage Key** [Obtained]).
   - **`AbandonedShip_Corridors_B1F` (`(8, 2)` -> Dive Pool Cabin `(8, 7)` & Storage Room `(11, 4)`):**
@@ -74,7 +75,7 @@
     - **Northern Cabins (`(3, 4)`, `(6, 4)`, `(11, 4)`):**
       - **Cabin `(3, 4)`** (entered from `(3, 5)` via `Up`): Empty passenger cabin.
       - **Broken-Door Cabin `(6, 4)`** (entered from `(6, 5)` via `Up`): Contains an Item Ball at `(13, 3)` (**Dive Ball** [Obtained]).
-      - **Storage Room `(11, 4)`** (entered from `(11, 5)` via `Up`): Locked until the **Storage Key** is found; contains **TM13 (Ice Beam)**.
+      - **Storage Room `(11, 4)`** (entered from `(11, 5)` via `Up`, unlocked with the **Storage Key**): Arrives inside at `(4, 7)`; walk `Up` 2 to `(4, 5)` facing `Up` to pick up the Item Ball at **`(4, 4)`** (**TM13 Ice Beam** [Obtained]).
     - **Sailor Duncan `(8, 6)`:** Watches `y = 6` — `Spheal Lv. 25`, `Machoke Lv. 25` [Defeated — money `$9,115`].
     - **Southern Doorway Recesses (`(5, 7)`, `(8, 7)`, `(11, 7)`):**
       - **Cabin `(5, 7)`** (`Down` at `(5, 7)` -> arrives at `(4, 2)`): Contains an Item Ball at `(7, 7)` (**Escape Rope** [Obtained from `(6, 7)` facing `Right`]).
