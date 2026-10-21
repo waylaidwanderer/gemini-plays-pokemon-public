@@ -1,13 +1,13 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,163 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF THE WEATHER TRIO (GROUDON, KYOGRE & RAYQUAZA) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,235 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF THE WEATHER TRIO (GROUDON, KYOGRE & RAYQUAZA) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld — All 16 Hoenn Cities/Towns + Battle Frontier Unlocked), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
 - **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x3`, `1: X Special x1`, `2: X Defend x1`, `3: Water Stone x1`, `4: Max Repel x3`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM27 (Return), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081 and taught to KRONOS on Turn 5241; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155; TM27 Return obtained in Pacifidlog Town on Turn 5269).*
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 79, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Rock Smash, Waterfall, Strength)
-  2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
+  2. OBERON (Beautifly, Male, Lv. 23 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
   5. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)

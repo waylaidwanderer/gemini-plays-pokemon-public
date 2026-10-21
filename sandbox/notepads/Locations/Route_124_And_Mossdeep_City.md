@@ -362,3 +362,9 @@
 - **Route 132 Southern Current #1 (`(78, 27)` -> `(50, 28)` Sandbar):**
   - From `(78, 27)`, surf via `(73, 27) -> (71, 27) -> (71, 28) -> (69, 28) -> (69, 30) -> (66, 30) -> (66, 31) -> (62, 31)` onto the current to `(54, 29)`, then step `Down` 1 to `(54, 30)` and `Left` 1 onto the current to land on the **southern Route 132 sandbar at `(50, 28)`**.
   - **Fisherman Ronald `(49, 28)`:** Faces `Right` on the southern sandbar — `Magikarp Lv. 19`, `Gyarados Lv. 21`, `Gyarados Lv. 23`, `Gyarados Lv. 26`, `Gyarados Lv. 30`, `Gyarados Lv. 35` [Defeated].
+- **Route 132 Southern Current #2 & #3 (`(50, 28)` -> `(33, 30)` Sandbar -> Route 133 `(69, 29)`):**
+  - From `(50, 28)`, walk via `(50, 29) -> (47, 29) -> (47, 26) -> (43, 26) -> (43, 30)` across the shallow water and use **Surf** `Left` onto `(42, 30)` to ride the current to `(34, 30)`, then step `Left` 1 onto the `(33, 30)` sandbar (**Cooltrainer♀ Darcy `(33, 29)`** — `Pelipper Lv. 33`, `Camerupt Lv. 33` [Defeated — money `$8,147`]).
+  - From `(32, 30)`, step `Down` 1 to dismount onto the shallow water at `(32, 31)`, walk `Left` 11 along `y = 31` to `(21, 31)` and `Down` 3 to `(21, 34)` on the southwestern tip of the Route 132 sandbar, and use **Surf** `Left` onto `(20, 34)` to ride the current across into **Route 133 at `(69, 29)`** (note: `(69, 30..32)` is the northward delivery current).
+- **Route 133 Southern Current #1 (`(69, 29)` -> `(56, 30)` Sandbar):**
+  - Stepping `Left` 1 from `(69, 29)` to `(68, 29)` triggers a Double Battle against **Swimmer♂ Franklin `(68, 26)`** (`Sealeo Lv. 34`) & **Swimmer♀ Debra `(68, 29)`** (`Seaking Lv. 34`) [Defeated — money `$9,235`; `OBERON` grew to Lv. 23].
+  - From `(68, 29)`, surf `Left` 4 to `(64, 29)`, `Down` 1 to `(64, 30)`, and `Left` 3 onto the current at `(61, 30)` to land on the shallow-water sandbar at **`(56, 30)`**.

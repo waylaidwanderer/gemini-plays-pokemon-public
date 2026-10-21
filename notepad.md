@@ -1091,6 +1091,12 @@
 - **Route 132 Southern Current #1 (`(78, 27)` -> `(50, 28)` Sandbar):**
   - From `(78, 27)`, surf via `(73, 27) -> (71, 27) -> (71, 28) -> (69, 28) -> (69, 30) -> (66, 30) -> (66, 31) -> (62, 31)` onto the current to `(54, 29)`, then step `Down` 1 to `(54, 30)` and `Left` 1 onto the current to land on the **southern Route 132 sandbar at `(50, 28)`**.
   - **Fisherman Ronald `(49, 28)`:** Faces `Right` on the southern sandbar — `Magikarp Lv. 19`, `Gyarados Lv. 21`, `Gyarados Lv. 23`, `Gyarados Lv. 26`, `Gyarados Lv. 30`, `Gyarados Lv. 35` [Defeated].
+- **Route 132 Southern Current #2 & #3 (`(50, 28)` -> `(33, 30)` Sandbar -> Route 133 `(69, 29)`):**
+  - From `(50, 28)`, walk via `(50, 29) -> (47, 29) -> (47, 26) -> (43, 26) -> (43, 30)` across the shallow water and use **Surf** `Left` onto `(42, 30)` to ride the current to `(34, 30)`, then step `Left` 1 onto the `(33, 30)` sandbar (**Cooltrainer♀ Darcy `(33, 29)`** — `Pelipper Lv. 33`, `Camerupt Lv. 33` [Defeated — money `$8,147`]).
+  - From `(32, 30)`, step `Down` 1 to dismount onto the shallow water at `(32, 31)`, walk `Left` 11 along `y = 31` to `(21, 31)` and `Down` 3 to `(21, 34)` on the southwestern tip of the Route 132 sandbar, and use **Surf** `Left` onto `(20, 34)` to ride the current across into **Route 133 at `(69, 29)`** (note: `(69, 30..32)` is the northward delivery current).
+- **Route 133 Southern Current #1 (`(69, 29)` -> `(56, 30)` Sandbar):**
+  - Stepping `Left` 1 from `(69, 29)` to `(68, 29)` triggers a Double Battle against **Swimmer♂ Franklin `(68, 26)`** (`Sealeo Lv. 34`) & **Swimmer♀ Debra `(68, 29)`** (`Seaking Lv. 34`) [Defeated — money `$9,235`; `OBERON` grew to Lv. 23].
+  - From `(68, 29)`, surf `Left` 4 to `(64, 29)`, `Down` 1 to `(64, 30)`, and `Left` 3 onto the current at `(61, 30)` to land on the shallow-water sandbar at **`(56, 30)`**.
 
 <hr>
 
@@ -1099,13 +1105,13 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $5,163 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF THE WEATHER TRIO (GROUDON, KYOGRE & RAYQUAZA) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,235 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF THE WEATHER TRIO (GROUDON, KYOGRE & RAYQUAZA) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld — All 16 Hoenn Cities/Towns + Battle Frontier Unlocked), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
 - **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x3`, `1: X Special x1`, `2: X Defend x1`, `3: Water Stone x1`, `4: Max Repel x3`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM27 (Return), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081 and taught to KRONOS on Turn 5241; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155; TM27 Return obtained in Pacifidlog Town on Turn 5269).*
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 79, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Rock Smash, Waterfall, Strength)
-  2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
+  2. OBERON (Beautifly, Male, Lv. 23 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
   5. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
