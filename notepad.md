@@ -75,7 +75,7 @@
       1. **Room 3 (`(9, 8)` — Unlocked):** Visible Item Ball at `(31, 11)` (**Water Stone** [Obtained]) and sparkle at `(42, 10)` (**Rm. 1 Key** [Obtained from `(42, 11)` facing `Up`]).
       2. **Room 1 (`(3, 8)` — Unlocked with `Rm. 1 Key`):** Visible Item Ball at `(5, 11)` (**TM18 Rain Dance** [Obtained]) and sparkle at `(1, 12)` (**Rm. 4 Key** [Obtained from `(2, 12)` facing `Left`]).
       3. **Room 4 (`(3, 3)` — Unlocked with `Rm. 4 Key`):** Trash can at `(1, 2)` contains **Rm. 6 Key** [Obtained from `(2, 2)` facing `Left`].
-      4. **Room 6 (`(9, 3)` — Unlocked with `Rm. 6 Key`):** Visible Item Ball at `(41, 4)` (**Luxury Ball** [Obtained]). From `(36, 2)`, walk `Left` 5 along `y = 2` to `(31, 2)`, `Down` 2 to `(31, 4)`, and `Left` 4 through the broken wall passage into **Room 5** at `(27, 4)` (note that entering Room 5 from the corridor at `(6, 3)` boxes the player into `(21, 2)`).
+      4. **Room 6 (`(9, 3)` — Unlocked with `Rm. 6 Key`):** Visible Item Ball at `(41, 4)` (**Luxury Ball** [Obtained]). From `(36, 2)`, walk `Left` 5 along `y = 2` to `(31, 2)`, `Down` 1 to `(31, 3)`, and `Left` 4 along `y = 3` through the broken wall passage into **Room 5** at `(27, 3)` (note that entering Room 5 from the corridor at `(6, 3)` boxes the player into `(21, 2)`).
 
 <hr>
 
