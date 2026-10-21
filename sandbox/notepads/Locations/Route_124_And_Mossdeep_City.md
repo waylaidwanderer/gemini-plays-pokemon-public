@@ -195,7 +195,7 @@
 - **`SkyPillar_1F` (`(6, 13)` -> `(10, 1)`):**
   - Central pit spans `x = 4..9, y = 4..10`.
   - *First visit (intact):* Walk `Right` 4 from `(6, 13)` to `(10, 13)` and `Up` 12 along `x = 10` into the staircase at **`(10, 1)`** (warps to `SkyPillar_2F` at `(10, 2)`).
-  - *Second visit (post-Sootopolis rubble):* From `(6, 13)`, walk `Up` 1 to `(6, 12)`, `Left` 5 along `y = 12` to `(1, 12)`, `Up` 4 along `x = 1` to `(1, 8)`, `Right` 2 to `(3, 8)`, `Up` 4 along `x = 3` to `(3, 4)`, `Left` 1 to `(2, 4)`, `Up` 2 to `(2, 2)`, `Right` 5 along `y = 2` to `(7, 2)`, `Down` 1 to `(7, 3)`, `Right` 3 along `y = 3` to `(10, 3)`, and `Up` 2 into **`(10, 1)`**.
+  - *Second visit (post-Sootopolis rubble):* From `(6, 13)`, walk `Up` 1 to `(6, 12)`, `Left` 5 along `y = 12` to `(1, 12)`, `Up` 4 along `x = 1` to `(1, 8)`, `Right` 2 to `(3, 8)`, `Up` 4 along `x = 3` to `(3, 4)`, `Left` 1 to `(2, 4)`, `Up` 2 to `(2, 2)`, `Right` 4 along `y = 2` to `(6, 2)`, `Down` 2 to `(6, 4)`, `Right` 4 along `y = 4` to `(10, 4)`, and `Up` 3 along `x = 10` into **`(10, 1)`**.
 - **`SkyPillar_2F` (`(10, 2)` -> `(3, 1)`):**
   - Walk `Left` 7 along `y = 2` from `(10, 2)` to `(3, 2)` and `Up` 1 into the staircase at **`(3, 1)`** (warps to `SkyPillar_3F` at `(3, 2)`).
 - **`SkyPillar_3F` (`(3, 2)` -> `(11, 1)` & Center Alcove `(7, 1)`):**
