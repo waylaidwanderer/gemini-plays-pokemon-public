@@ -377,7 +377,7 @@
 ## Route 111 (South)
 - **South Entrance (from Mauville City `(15..16, 0)`):** `(15..16, 139)`.
 - **Winstrate Family House Bypass (`(16, 138)` -> `(22, 116)`):**
-  - Walk `Up` 6 along `x = 16` to `(16, 132)`, `Right` 2 to `(18, 132)`, `Up` 1 to `(18, 131)`, `Right` 4 along `y = 131` (passing north of the woman at `(20, 132)`) to `(22, 131)`, and `Up` 15 along the eastern road `x = 22` (passing east of **Picnicker Bianca `(19, 121)`** and the trees at `(20, 117)..(20, 118)` blocking **Camper Tyron `(16, 118)`**) to `(22, 116)`.
+  - Walk `Up` 7 along `x = 16` from `(16, 139)` to `(16, 132)`, `Right` 2 to `(18, 132)`, `Up` 1 to `(18, 131)`, `Right` 4 along `y = 131` (passing north of **Aroma Lady Celina `(20, 132)`** — `Roselia Lv. 18` and **Camper Tyron `(23, 132)`** — `Sandshrew Lv. 19`, who watch `(21, 132)` [Defeated]) to `(22, 131)`, and `Up` 15 along the eastern road `x = 22` (passing east of **Picnicker Bianca `(19, 121)`**) to `(22, 116)`.
 - **Rock Smash Pass (`(22, 116)` -> `(19, 100)`):**
   - From `(22, 116)`, step `Left` 1 to `(21, 116)`, walk `Up` 11 along `x = 21` (passing the wandering townsperson near `(20..21, 114)`) to `(21, 105)`, `Left` 2 to `(19, 105)`, and `Up` 4 to `(19, 101)`.
   - Two breakable **Rock Smash boulders** block the pass at `(18, 101)` and `(19, 100)`. Use `Rock Smash` (`A` x2, `B`, `sleep 3000`) on `(19, 100)` to open the pass.
@@ -1061,7 +1061,7 @@
 - **Text Speed:** FAST
 - **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1`, `5: Escape Rope x1`, `6: Revive x1`, `7: Full Heal x1`, `8: Thunderstone x1` | **Key Items & HMs:** Itemfinder [Registered to Select], Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike, TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM28 (Dig), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081).*
 - **Party:**
-  1. ATRITON (Swampert, Male, Lv. 78, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Blizzard, Waterfall, Strength)
+  1. ATRITON (Swampert, Male, Lv. 78, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Rock Smash, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)

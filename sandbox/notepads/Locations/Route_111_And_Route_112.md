@@ -3,7 +3,7 @@
 ## Route 111 (South)
 - **South Entrance (from Mauville City `(15..16, 0)`):** `(15..16, 139)`.
 - **Winstrate Family House Bypass (`(16, 138)` -> `(22, 116)`):**
-  - Walk `Up` 6 along `x = 16` to `(16, 132)`, `Right` 2 to `(18, 132)`, `Up` 1 to `(18, 131)`, `Right` 4 along `y = 131` (passing north of the woman at `(20, 132)`) to `(22, 131)`, and `Up` 15 along the eastern road `x = 22` (passing east of **Picnicker Bianca `(19, 121)`** and the trees at `(20, 117)..(20, 118)` blocking **Camper Tyron `(16, 118)`**) to `(22, 116)`.
+  - Walk `Up` 7 along `x = 16` from `(16, 139)` to `(16, 132)`, `Right` 2 to `(18, 132)`, `Up` 1 to `(18, 131)`, `Right` 4 along `y = 131` (passing north of **Aroma Lady Celina `(20, 132)`** — `Roselia Lv. 18` and **Camper Tyron `(23, 132)`** — `Sandshrew Lv. 19`, who watch `(21, 132)` [Defeated]) to `(22, 131)`, and `Up` 15 along the eastern road `x = 22` (passing east of **Picnicker Bianca `(19, 121)`**) to `(22, 116)`.
 - **Rock Smash Pass (`(22, 116)` -> `(19, 100)`):**
   - From `(22, 116)`, step `Left` 1 to `(21, 116)`, walk `Up` 11 along `x = 21` (passing the wandering townsperson near `(20..21, 114)`) to `(21, 105)`, `Left` 2 to `(19, 105)`, and `Up` 4 to `(19, 101)`.
   - Two breakable **Rock Smash boulders** block the pass at `(18, 101)` and `(19, 100)`. Use `Rock Smash` (`A` x2, `B`, `sleep 3000`) on `(19, 100)` to open the pass.
