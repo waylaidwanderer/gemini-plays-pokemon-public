@@ -24,7 +24,8 @@
   - **Rest Bed `(1, 3)`:** Reached from `(9, 12)` via `Up` 1 to `(9, 11)`, `Left` 5 to `(4, 11)`, `Up` 5 through the doorway at `(4, 9..10)` to `(4, 6)`, `Left` 2 through the bedroom opening at `(3, 6..7)` to `(2, 6)`, `Up` 3 to `(2, 3)`, and `Left` 1 to face `(1, 3)` and press `A` (fully heals party HP and PP, though it does NOT update the whiteout respawn point).
   - **1F Trainers:** **Team Aqua Grunt (F) `(10, 5)`** (`Carvanha Lv. 28` [Defeated]) watches `(10, 7)`; **Team Aqua Grunt (M) `(15, 3)`** faces Left.
 - **Weather Institute 2F:**
-  - **Staircase Warp:** `(17, 1)` (arrives at `(17, 2)`; main east-west aisle runs along `y = 6` from `(18, 6)` to `(5, 6)` via `(18, 7)`).
+  - **Staircase Warp:** `(17, 1)` (arrives at `(17, 2)`; on 1F, route around the yellow desks via `(4, 7) -> (8, 7) -> (8, 3) -> (17, 3) -> (17, 1)`; on 2F, main east-west aisle runs along `y = 6` from `(18, 6)` to `(2, 6)` via `(18, 2)`).
+  - **Weather Scientist (Post-Game Terra Cave / Marine Cave Tracker):** Stands at **`(2, 2)`** facing the main weather monitor at `(2, 1)` (stand at `(2, 3)` facing `Up` and press `A`; reports which Hoenn route currently has a Drought [Terra Cave / Groudon] or Heavy Rain [Marine Cave / Kyogre]).
   - **2F Trainers:** **Team Aqua Grunt (F) `(19, 6)`** (`Zubat Lv. 27`, `Poochyena Lv. 27` [Defeated via 1v1 side-talk from `(19, 5)`]), **Team Aqua Grunt (M) `(15, 6)`** (`Poochyena Lv. 27`, `Carvanha Lv. 27` [Defeated]), **Team Aqua Grunt (M) `(10, 8)`** (`Poochyena Lv. 26`, `Zubat Lv. 26`, `Carvanha Lv. 26` [Defeated]), and **Team Aqua Admin Shelly `(4, 6)`** (`Carvanha Lv. 28`, `Mightyena Lv. 28` [Defeated — all Team Aqua Grunts leave the Weather Institute and the northern Route 119 bridge]).
   - **Gift Pokémon:** After defeating Shelly, the Institute Director awards **Castform Lv. 25** (holding `Mystic Water`) [Obtained — nicknamed `ZEPHYR`].
 ## Northern Route 119 (`(6, 33)` -> Fortree City)
