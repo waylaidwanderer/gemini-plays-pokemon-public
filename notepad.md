@@ -67,7 +67,10 @@
     - **Broken-Door Cabin `(6, 4)`** (entered from `(6, 5)` via `Up`): Contains an Item Ball at `(13, 3)` (**Dive Ball** [Obtained]).
     - **Storage Room `(11, 4)`** (entered from `(11, 5)` via `Up`): Locked until the **Storage Key** is found; contains **TM13 (Ice Beam)**.
     - **Sailor Duncan `(8, 6)`:** Watches `y = 6` — `Spheal Lv. 25`, `Machoke Lv. 25` [Defeated — money `$9,115`].
-    - **Southern Doorway Recesses (`(5, 7)`, `(8, 7)`, `(11, 7)`):** Pressing `Down` at **`(8, 7)`** enters the **Dive Pool Cabin** at `(13, 2)`. Inside, walk `Down` 2 to `(13, 4)`, use **Surf** `Down` onto `(13, 5)`, surf `Down` 1 onto the dark-blue Dive tile at **`(13, 6)`**, and use **Dive** (`A -> YES -> B`) to descend into `AbandonedShip_Underwater1`.
+    - **Southern Doorway Recesses (`(5, 7)`, `(8, 7)`, `(11, 7)`):** Pressing `Down` at **`(8, 7)`** enters the **Dive Pool Cabin** at `(13, 2)`. Inside, walk `Down` 2 to `(13, 4)`, use **Surf** `Down` onto `(13, 5)`, surf `Down` 1 onto the dark-blue Dive tile at **`(13, 6)`**, and use **Dive** (`A -> YES -> B`) to descend into `AbandonedShip_Underwater1` at `(17, 4)`.
+  - **`AbandonedShip_Underwater1` (`(17, 4)` -> `(3, 3)`) & `AbandonedShip_Underwater2` (`(3, 7)` -> `(3, 4)`):**
+    - In `AbandonedShip_Underwater1` at `(17, 4)`, swim `Left` 14 along `y = 4` to `(3, 4)` and `Up` 1 into `(3, 3)` (warps to `AbandonedShip_Underwater2` at `(3, 7)`).
+    - In `AbandonedShip_Underwater2` at `(3, 7)`, swim `Up` 3 to **`(3, 4)`** on the light-filtered surface patch (`y = 4..6`, south of the table at `(3, 3)`) and press **`B`** (`B -> YES -> B`) to surface into `AbandonedShip_HiddenFloorCorridors`.
 
 <hr>
 
@@ -1022,7 +1025,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $8,315 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,115 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
 - **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
