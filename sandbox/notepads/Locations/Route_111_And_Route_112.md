@@ -20,6 +20,10 @@
   - **`MirageTower_3F` (`(18, 12)` -> Staircase to 4F `(2, 4)`):**
     - From `(18, 12)`, walk `Left` 2 to `(16, 12)`, `Down` 1 to `(16, 13)`, `Left` 12 along `y = 13` to `(4, 13)`, and `Up` 4 along `x = 4` to `(4, 9)`.
     - At `(4, 9)` facing `Up`, use **Rock Smash** on the boulder at **`(4, 8)`**, then walk `Up` 2 to `(4, 7)`, face `Left` to use **Rock Smash** on the boulder at **`(3, 7)`** (or walk via `(4, 7) -> (4, 5) -> (3, 5)` around the rock at `(4, 6)`), and walk via `(3, 6) -> (3, 4) -> Left` onto the **Staircase to 4F at `(2, 4)`**.
+  - **`MirageTower_4F` (`(1, 4)` -> Fossil Pedestal `(6, 4)`):**
+    - From `(1, 4)`, walk `Right` 1 to `(2, 4)`, `Down` 3 to `(2, 7)`, and `Right` 3 along `y = 7` to `(5, 7)`.
+    - Face `Right` at `(5, 7)` to use **Rock Smash** on the boulder at **`(6, 7)`**, then walk `Right` 1 to `(6, 7)` and `Up` 3 up the pedestal steps `(6, 6)` to **`(6, 4)`** between the **Root Fossil `(5, 4)`** and **Claw Fossil `(7, 4)`**.
+    - Facing either Fossil and pressing **`A` 4 times** (`A` #1: `"You found the ROOT FOSSIL."`, `A` #2: `"If this FOSSIL is taken, the ground around it will likely crumble away..."`, `A` #3: `"Take the ROOT FOSSIL anyway?" [>YES / NO]`, `A` #4: confirms `YES`) claims the first Fossil (**Root Fossil** [Obtained]), causes the second Fossil (**Claw Fossil**) to sink into the **Desert Underpass** on Route 114, and collapses the Mirage Tower, returning the player to `Route 111 (19, 58)`.
 
 ## Route 112 (South)
 - **East Entrance (from Route 111 `(0, 70)`):** `(39, 49)` (sandy road runs west along `y = 50..51`, with a grass strip along `y = 52` above the white fence at `y = 53`).
