@@ -948,6 +948,7 @@
 - **`SkyPillar_Top` (`(16, 15)` -> `(14, 8)`):**
   - No wild encounters on the summit.
   - From `(16, 15)`, walk `Left` 4 to `(12, 15)`, `Up` 4 up the stairs to `(12, 11)`, `Right` 2 to `(14, 11)`, and `Up` 3 along `x = 14` to **`(14, 8)`** facing **Rayquaza Lv. 70 at `(14, 7)`** (`Fly`, `Rest`, `ExtremeSpeed`, `Outrage`; Ability: `Air Lock`) [Defeated by `+1 Speed` `ATRITON` Lv. 79's `Strength` — **Weather Trio Completed**].
+  - **Post-Battle Summit Descent Note:** After defeating Rayquaza, `SkyPillar_Top` swaps to `SkyPillar_Top_Layout` with a rock at `(13, 12)`; walk via `(14, 7) -> (14, 11) -> (11, 11) -> (11, 15) -> (16, 15) -> (16, 14)` to re-enter `SkyPillar_5F` (or use **Fly** directly from `SkyPillar_Top`). Note that on the post-Sootopolis layout, `SkyPillar_4F` (`x = 1..7, y = 2`, walled by rocks across `(1..9, 3)` and `(8, 2)`) and the `SkyPillar_3F` northern alcove (`x = 5..9, y = 2..4`, walled by rocks and the solid central pit rim at `y = 5`) form a one-way ascent path, so exiting `SkyPillar_3F..5F` to `SkyPillar_Outside (14, 6)` requires **Dig** (`TM28`) or an **Escape Rope**.
 ## Sootopolis City Post-Rayquaza Resolution & Sootopolis Gym
 - **Rayquaza Cutscene Trigger:** Surfacing into Sootopolis City at `(29, 53)` after awakening Rayquaza at `SkyPillar_Top (14, 9)` automatically plays the Rayquaza vs. Groudon & Kyogre cutscene (`~16s` total) and returns overworld control surfing at `(29, 53)` [Completed].
 - **Sootopolis Gym Island (`(29, 53)` -> `(29, 36)` -> `(31, 32)`):**
