@@ -21,8 +21,8 @@
 - **South Entrance (from Dewford Town `(6, 0)`):** `(66, 19)`
 - **Trainers:**
   - Fisherman Ned `(65, 14)` — Tentacool Lv. 11 [Defeated]
-  - Fisherman Elliot `(55, 13)` — Magikarp Lv. 10, Magikarp Lv. 10, Tentacool Lv. 7 (Match Call trainer on the northern shoreline).
-- **Granite Cave Exterior Entrance & Northern Surf Path to Route 105:** `(48, 16)` (exiting steps to `(48, 17)`). Reachable from `(66, 16)` on Route 106 by walking `Left` 15 along `y = 16` to `(51, 16)`, `Down` 1 to `(51, 17)`, `Left` 3 to `(48, 17)`, and `Up` 1 into `(48, 16)`. Note that trees at `x = 47` block walking west past Granite Cave on land; to reach **Route 105** (where **Marine Cave / Kyogre Lv. 70** spawns during Heavy Rain), walk to `(54, 13)` on the northern beach (1 tile west of Fisherman Elliot at `(55, 13)`), use **Surf** `Up` onto `(54, 12)`, and surf `Up` 2 to `(54, 10)`, `Left` 25 along `y = 10` around Granite Cave to `(29, 10)`, and `Up` across `y = 0` into **Route 105**.
+  - Fisherman Elliot `(56, 14)` — Watches `(55, 14)` — Magikarp Lv. 10, Tentacool Lv. 7, Magikarp Lv. 10 [Defeated & Registered — money `$6,051`].
+- **Granite Cave Exterior Entrance & Northern Surf Path to Route 105:** `(48, 16)` (exiting steps to `(48, 17)`). Reachable from `(66, 16)` on Route 106 by walking `Left` 15 along `y = 16` to `(51, 16)`, `Down` 1 to `(51, 17)`, `Left` 3 to `(48, 17)`, and `Up` 1 into `(48, 16)`. Note that trees at `x = 47` block walking west past Granite Cave on `y = 17`; to reach **Route 105** (where **Marine Cave / Kyogre Lv. 70** spawns during Heavy Rain), walk past Fisherman Elliot `(56, 14)` to the northern shoreline at `(55, 11) -> (41, 11)`, use **Surf** `Up` onto `(41, 10)`, and surf `Left` 16 along `y = 10` to `(25, 10)` and `Up` across `y = 0` into **Route 105**.
 ## Granite Cave
 - **1F Entrance (from Route 106 `(48, 16)`):** `(37, 12)`
 - **HM05 (Flash) Hiker:** Stands at `(36, 9)` on 1F (reachable from `(37, 12)` by walking `Up` 3 to `(37, 9)` and facing `Left`) [HM05 Flash obtained].
