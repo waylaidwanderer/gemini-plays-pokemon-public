@@ -74,8 +74,10 @@
     - **Hidden Floor Mechanics & 6-Room Key Chain:** Note that hidden-item sparkles (`BG_EVENT_HIDDEN_ITEM`) are walkable floor tiles; you must stop **1 tile before** the sparkle tile so you are facing it when pressing `A` (stepping onto the tile faces the tile beyond it). Only the eastern hallway at `x = 11` (`y = 2..9`) connects the lower corridor (`y = 9`, doors at `(3, 8)`, `(6, 8)`, `(9, 8)`) and upper corridor (`y = 2`, doorways at `(3, 3)`, `(6, 3)`, `(9, 3)`):
       1. **Room 3 (`(9, 8)` — Unlocked):** Visible Item Ball at `(31, 11)` (**Water Stone** [Obtained]) and sparkle at `(42, 10)` (**Rm. 1 Key** [Obtained from `(42, 11)` facing `Up`]).
       2. **Room 1 (`(3, 8)` — Unlocked with `Rm. 1 Key`):** Visible Item Ball at `(5, 11)` (**TM18 Rain Dance** [Obtained]) and sparkle at `(1, 12)` (**Rm. 4 Key** [Obtained from `(2, 12)` facing `Left`]).
-      3. **Room 4 (`(3, 3)` — Unlocked with `Rm. 4 Key`):** Trash can at `(1, 2)` contains **Rm. 6 Key** [Obtained from `(2, 2)` facing `Left`].
+      3. **Room 4 (`(3, 3)` — Unlocked with `Rm. 4 Key`):** Sparkle at `(1, 2)` contains **Rm. 6 Key** [Obtained from `(2, 2)` facing `Left`].
       4. **Room 6 (`(9, 3)` — Unlocked with `Rm. 6 Key`):** Visible Item Ball at `(41, 4)` (**Luxury Ball** [Obtained]). From `(36, 2)`, walk `Left` 5 along `y = 2` to `(31, 2)`, `Down` 1 to `(31, 3)`, and `Left` 4 along `y = 3` through the broken wall passage into **Room 5** at `(27, 3)` (note that entering Room 5 from the corridor at `(6, 3)` boxes the player into `(21, 2)`).
+      5. **Room 5 (entered via Room 6 `(31, 3) -> (27, 3)`):** Sparkle at `(20, 5)` contains **Rm. 2 Key** [Obtained from `(21, 5)` facing `Left`].
+      6. **Room 2 (`(6, 8)` — Unlocked with `Rm. 2 Key`):** Visible Item Ball at `(17, 10)` contains the **Scanner** [Obtained from `(18, 10)` facing `Left` via `(21, 14) -> (22, 14) -> (22, 10) -> (18, 10)`]. `Itemfinder` (registered to `Select`) confirmed all hidden items in the 6 Hidden Floor rooms have been collected.
 
 <hr>
 
@@ -1033,7 +1035,7 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,115 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1` | **Key Items & HMs:** S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Itemfinder, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
+- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1` | **Key Items & HMs:** Itemfinder [Registered to Select], Scanner, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike, HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive)
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 78, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Blizzard, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
