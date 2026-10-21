@@ -368,3 +368,5 @@
 - **Route 133 Southern Current #1 (`(69, 29)` -> `(56, 30)` Sandbar):**
   - Stepping `Left` 1 from `(69, 29)` to `(68, 29)` triggers a Double Battle against **Swimmer♂ Franklin `(68, 26)`** (`Sealeo Lv. 34`) & **Swimmer♀ Debra `(68, 29)`** (`Seaking Lv. 34`) [Defeated — money `$9,235`; `OBERON` grew to Lv. 23].
   - From `(68, 29)`, surf `Left` 4 to `(64, 29)`, `Down` 1 to `(64, 30)`, and `Left` 3 onto the current at `(61, 30)` to land on the shallow-water sandbar at **`(56, 30)`**.
+- **Route 133 Southern Current #2 (`(56, 30)` -> `(37, 29)` -> Route 134 `(79, 30)`):**
+  - From `(56, 30)`, walk north around the pointed rocks via `(56, 27) -> (54, 27) -> (54, 26) -> (50, 26) -> (50, 30)` (**Max Revive** Item Ball at `(48, 28)`, picked up from `(48, 29)` facing `Up` [Obtained]), then walk via `(45, 29) -> (45, 31) -> (43, 31) -> (43, 32) -> (41, 32) -> (41, 31) -> (39, 31) -> (39, 29) -> (37, 29)` and use **Surf** `Left` onto `(36, 29)` to ride the current across into **Route 134 at `(79, 30)`**.
