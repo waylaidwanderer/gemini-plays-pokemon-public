@@ -667,7 +667,7 @@
   - Surf `Right` 9 from `(0, 15)` to step onto the walkable shallow water (`MB_SHALLOW_WATER`) at `(9, 15)`.
   - Walk `Right` 3 to `(12, 15)`, `Down` 12 along `x = 12` to `(12, 27)` (passing south of the Black Belt at `(19, 25..26)` and the cliff corner at `y = 24..26`), `Right` 13 along `y = 27` to `(25, 27)`, and `Up` 10 along `x = 25` up the white staircase `(25..26, 24..26)` to `(25, 17)`.
   - From `(25, 17)`, walk `Right` 3 to `(28, 17)` and `Up` 1 into the **Mossdeep City Pokémon Center** at `(28, 16)` (exiting steps to `(28, 17)`).
-- **Steven Stone's House (`(19, 10)`):** Reached from the Pokémon Center `(28, 17)` via `Left` 7 along `y = 17` to `(21, 17)`, `Up` 6 along `x = 21` to `(21, 11)`, `Left` 2 to `(19, 11)`, and `Up` 1 into **`(19, 10)`** (exiting steps to `(19, 11)`). Entering after defeating Maxie & Tabitha at the Mossdeep Space Center automatically triggers Steven Stone to give **HM08 (Dive)** [Completed]. Note: `(18, 16)` is a resident's house to the south.
+- **Steven Stone's House (`(19, 10)`):** Reached from the Pokémon Center `(28, 17)` via `Left` 7 along `y = 17` to `(21, 17)`, `Up` 6 along `x = 21` to `(21, 11)`, `Left` 2 to `(19, 11)`, and `Up` 1 into **`(19, 10)`** (exiting steps to `(19, 11)`). Entering after defeating Maxie & Tabitha at the Mossdeep Space Center automatically triggers Steven Stone to give **HM08 (Dive)** [Completed]. Post-Hall of Fame, interacting with the Poké Ball on the table at **`(4, 3)`** from `(3, 3)` facing `Right` (with `<= 5` Pokémon in the party; Lanette's PC inside the Mossdeep Pokémon Center is at `(10, 1)`, stood at `(10, 2)` facing `Up`) awards Steven Stone's gift **Beldum Lv. 5** (`TALOS`) [Completed]. Note: `(18, 16)` is a resident's house to the south.
 - **Mossdeep Poké Mart:** Door at `(37, 18)` (reached from `(28, 17)` via `Right` 5 to `(33, 17)`, `Down` 2 to `(33, 19)`, `Right` 4 to `(37, 19)`, and `Up` 1 into `(37, 18)`; inside, walk `Up` 4 from `(3, 7)` to `(3, 3)` and face `Left` to speak to the clerk).
 - **Mossdeep City Gym:** Door at `(38, 9)` (exiting steps to `(38, 10)`). Reached from the Pokémon Center `(28, 17)` via `Right` 5 to `(33, 17)`, `Up` 7 along `x = 33` to `(33, 10)`, `Right` 5 along `y = 10` to `(38, 10)`, and `Up` 1 into `(38, 9)`.
 
@@ -1003,7 +1003,7 @@
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. ZEPHYR (Castform, Female, Lv. 29 — Powder Snow, Rain Dance, Sunny Day, Hail)
   5. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
-  6. TETHYS (Tentacool, Female, Lv. 17 — Poison Sting, Supersonic, Constrict, Waterfall)
+  6. TALOS (Beldum, Genderless, Lv. 5 — Take Down) [Gift from Steven Stone in Mossdeep City; TETHYS (Tentacool, Female, Lv. 17) stored in PC Box 1]
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
