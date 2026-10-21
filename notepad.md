@@ -906,7 +906,7 @@
 ## Route 129 (`(53, 0)` -> `(0, 18)` -> Route 130)
 - **North Entrance (from Route 128 `(59, 39)`):** `(53, 0)` (`x_route129 = x_route128 - 6`).
 - **Route 129 Trainers & Westbound Path:**
-  - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> west along `y = 13..16` to `(8, 16)`.
+  - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> `(27, 13)` -> `(27, 16)` (**Triathlete♂ Chase `(25, 16)` -> `(26, 16)`** — `Wingull Lv. 26`, `Staryu Lv. 34` [Defeated — money `$4,891`]) -> `(27, 14)` -> `(8, 14)`.
   - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Wingull Lv. 27`, `Staryu Lv. 33` [Defeated — money `$23,371`]. From `(8, 16)`, surf via `(8, 14)` -> `(7, 14)` -> `(7, 15)` -> `(5, 15)` -> `(5, 19)` -> `(0, 19)` into **Route 130 at `(79, 19)`**.
 ## Route 130 & Route 131 (`(79, 19)` -> Sky Pillar)
 - **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
@@ -1071,7 +1071,7 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,531 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,891 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
 - **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1`, `8: Max Repel x9` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM28 (Dig), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155).*

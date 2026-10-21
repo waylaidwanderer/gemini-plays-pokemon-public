@@ -177,7 +177,7 @@
 ## Route 129 (`(53, 0)` -> `(0, 18)` -> Route 130)
 - **North Entrance (from Route 128 `(59, 39)`):** `(53, 0)` (`x_route129 = x_route128 - 6`).
 - **Route 129 Trainers & Westbound Path:**
-  - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> west along `y = 13..16` to `(8, 16)`.
+  - **Swimmer♂ Reed `(35, 9)`:** Watches `(35, 8)` — `Spheal Lv. 33`, `Sharpedo Lv. 33` [Defeated — money `$22,051`]. Bypass or continue via `(36, 8)` -> `(36, 13)` -> `(27, 13)` -> `(27, 16)` (**Triathlete♂ Chase `(25, 16)` -> `(26, 16)`** — `Wingull Lv. 26`, `Staryu Lv. 34` [Defeated — money `$4,891`]) -> `(27, 14)` -> `(8, 14)`.
   - **Triathlete♀ Allison `(10, 16)`:** Watches `(8, 16)` — `Wingull Lv. 27`, `Staryu Lv. 33` [Defeated — money `$23,371`]. From `(8, 16)`, surf via `(8, 14)` -> `(7, 14)` -> `(7, 15)` -> `(5, 15)` -> `(5, 19)` -> `(0, 19)` into **Route 130 at `(79, 19)`**.
 ## Route 130 & Route 131 (`(79, 19)` -> Sky Pillar)
 - **East Entrance of Route 130 (from Route 129 `(0, 19)`):** `(79, 19)`.
