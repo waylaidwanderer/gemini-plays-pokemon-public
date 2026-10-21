@@ -455,11 +455,18 @@
   - From `(28, 72)`, walk `Down` 1 to `(28, 73)`, `Left` 4 to `(24, 73)`, `Up` 7 along `x = 24` up the double vertical staircases (`(24..25, 71)` and `(24..25, 68)`) to `(24, 66)`, and `Left` 11 along `y = 66` (or around **Hiker Lenny `(15, 65) -> (20, 65)`** — `Geodude Lv. 18 x2`, `Machop Lv. 18` [Defeated — money `$19,986`] via `(21, 64) -> (17, 64) -> (17, 66) -> (13, 66)`) to `(13, 66)`.
   - From `(13, 66)`, walk `Down` 4 down the double staircases (`(13..14, 67)` and `(13..14, 69)`) to `(13, 70)`, `Left` 5 along `y = 70` to `(8, 70)`, and `Up` 7 along `x = 8` into the **Meteor Falls Entrance `(8, 63)`** (signpost at `(7, 64)`, Rock Smash boulder at `(11, 64)`).
 
-## Meteor Falls (1F)
+## Meteor Falls (`MeteorFalls_1F_1R` -> `MeteorFalls_1F_2R` -> `MeteorFalls_B1F_1R`)
 - **East Entrance (from Route 114 `(8, 63)`):** `(27, 18)`.
 - **Path to Team Magma / Team Aqua Cutscene & Southern Exit (`(27, 18)` -> `(6, 39)`):**
   - Walk `Left` 13 along `y = 18` across the wooden bridge to `(14, 18)` to trigger the cutscene with **Professor Cozmo `(13, 23)`**, **Team Magma**, and **Team Aqua Leader Archie** (ends at `(13, 18)`).
   - From `(13, 18)`, walk `Right` 1 to `(14, 18)`, `Down` 2 down the stairs at `(14, 19)` to `(14, 20)`, `Left` 8 along `y = 20` to `(6, 20)`, `Down` 5 down the stairs at `(6, 23..24)` to `(6, 25)`, and `Down` along `x = 6` across the five southbound purple ledges (`y = 29, 31, 33, 35, 37`) into the **South Exit `(6, 39)`** (to Route 115).
+- **Waterfall Ascent in `MeteorFalls_1F_1R` (`(27, 18)` -> `(10, 3)`):**
+  - From `(27, 18)`, walk `Left` 13 across the wooden bridge to `(14, 18)`, `Down` 2 down the stairs at `(14, 19)` to `(14, 20)`, and `Left` 4 to the shoreline at **`(10, 20)`**.
+  - Face `Up` at `(10, 20)` to use **Surf** onto `(10, 19)`, surf `Up` 4 along `x = 10` to the base of the Waterfall at **`(10, 15)`**, and use **Waterfall** to climb to `(10, 9)`.
+  - From `(10, 9)`, surf `Up` 4 along `x = 10` to step ashore onto `(10, 5)` and walk `Up` 2 into the northern cave doorway at **`(10, 3)`** (warps to `MeteorFalls_1F_2R` at `(10, 29)`). Note: `(5, 2)` and the down-ladder at `(6, 4)` are on an enclosed upper-left ledge in `MeteorFalls_1F_1R`.
+- **`MeteorFalls_1F_2R` Lower Basin (`(10, 29)` -> Down-Ladder `(21, 23)`):**
+  - The northern tier above `y = 18` is blocked by south-facing 1-way purple ledges at `y = 17` and `y = 14` and a cliff wall at `x = 26`.
+  - From `(10, 29)`, walk `Right` 5 to `(15, 29)`, `Up` 3 to `(15, 26)`, `Right` 3 to `(18, 26)`, `Up` 3 to `(18, 23)`, and `Right` 3 onto the **Down-Ladder at `(21, 23)`** (warps to `MeteorFalls_B1F_1R`).
 
 ## Route 115
 - **North-East Cave Entrance (from Meteor Falls 1F `(6, 39)`):** `(27, 39)` (exiting steps to `(27, 40)`).
