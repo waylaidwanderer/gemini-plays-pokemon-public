@@ -391,6 +391,9 @@
     - From `(15, 2)`, step `Right` 1, `Down` 1 to `(16, 3)`, mount the **Mach Bike**, and ride `Left` along `y = 3` (`"hold Left 2000"`) across the sand path to `(4, 3)`.
     - From `(4, 3)`, step `Right` 2 to `(6, 3)` and `Down` 1 to **`(6, 4)` facing `Down`**, then execute **`["hold Left 650", "hold Down 1000"]`** to accelerate for 2 solid tiles (`(6, 4) -> (5, 4) -> (4, 4)`), cross `(3, 4) -> (2, 4)` at `PLAYER_SPEED_FASTEST`, turn `Down` on `(2, 4)`, and zip down column `x = 2` (`(2, 4) -> (2, 10)`) onto the solid southern floor at **`(2, 12)`**.
     - From `(2, 12)`, dismount the Mach Bike and walk `Right` 2 to `(4, 12)`, `Down` 1 to `(4, 13)`, `Right` 11 along `y = 13` to `(15, 13)`, `Up` 1 to `(15, 12)`, and `Right` 3 along `y = 12` onto the **Staircase to 3F at `(18, 12)`**.
+  - **`MirageTower_3F` (`(18, 12)` -> Staircase to 4F `(2, 4)`):**
+    - From `(18, 12)`, walk `Left` 2 to `(16, 12)`, `Down` 1 to `(16, 13)`, `Left` 12 along `y = 13` to `(4, 13)`, and `Up` 4 along `x = 4` to `(4, 9)`.
+    - At `(4, 9)` facing `Up`, use **Rock Smash** on the boulder at **`(4, 8)`**, then walk `Up` 2 to `(4, 7)`, face `Left` to use **Rock Smash** on the boulder at **`(3, 7)`** (or walk via `(4, 7) -> (4, 5) -> (3, 5)` around the rock at `(4, 6)`), and walk via `(3, 6) -> (3, 4) -> Left` onto the **Staircase to 4F at `(2, 4)`**.
 
 ## Route 112 (South)
 - **East Entrance (from Route 111 `(0, 70)`):** `(39, 49)` (sandy road runs west along `y = 50..51`, with a grass strip along `y = 52` above the white fence at `y = 53`).
