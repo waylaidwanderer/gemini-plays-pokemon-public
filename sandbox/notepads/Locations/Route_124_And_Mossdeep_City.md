@@ -191,7 +191,7 @@
   - **`SkyPillar_Entrance` (`(6, 16)` -> `(14, 5)`):** From `(6, 16)`, walk `Up` 12 along `x = 6` to `(6, 4)`, `Right` 8 along `y = 4` to `(14, 4)`, and `Down` 1 onto the exit warp mat at **`(14, 5)`** (warps to `SkyPillar_Outside`).
   - **`SkyPillar_Outside` (`(17, 14)` -> `(14, 5)`):** Emerging from `SkyPillar_Entrance` at `(17, 14)` automatically triggers **Wallace** to walk down, unlock the Sky Pillar tower door, and escort the player to **`(14, 7)`** directly in front of the **Sky Pillar 1F doorway at `(14, 5)`**. After Wallace departs, walk `Up` 2 from `(14, 7)` into `(14, 5)` (warps to `SkyPillar_1F` at `(7, 13)`).
 ## Sky Pillar (`SkyPillar_1F` -> `SkyPillar_Top`)
-- **Note:** Wild Pokémon (`Golbat`, `Sableye`, `Claydol`, `Banette`, `Altaria` Lv. 34–38) appear on interior floors `1F–5F`.
+- **Note:** Wild Pokémon (`Golbat`, `Sableye`, `Claydol`, `Banette`, `Altaria` Lv. 34–60) appear on interior floors `1F–5F` (completely blocked by a Repel when Lead Slot 0 is Lv. 61+). Also note that the `SkyPillar_2F` and `SkyPillar_4F` routes below were recorded during the first (story) visit when `2F` was intact; on the second visit after Sootopolis City, `SkyPillar_2F` and `SkyPillar_4F` feature Mach Bike cracked-floor puzzles (`MB_CRACKED_FLOOR`), so inspect the floor layouts upon arrival on `2F` and `4F`.
 - **`SkyPillar_1F` (`(6, 13)` -> `(10, 1)`):**
   - Central pit spans `x = 4..9, y = 4..10`.
   - Walk `Right` 4 from `(6, 13)` to `(10, 13)` and `Up` 12 along `x = 10` into the staircase at **`(10, 1)`** (warps to `SkyPillar_2F` at `(10, 2)`).
