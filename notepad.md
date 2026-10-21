@@ -259,7 +259,7 @@
   - Stepping onto `(30, 11)` with the recovered Devon Goods triggers the Researcher at `(30, 10)` (awards Great Ball x1 and escorts the player to Devon Corporation 3F to receive Steven's Letter and the PokéNav from President Stone).
 - **Devon Corporation Exit Route (3F -> 2F -> 1F -> Rustboro City):**
   - **3F (from `(14, 5)`):** Walk `Up` 2 to `(14, 3)`, `Left` 11 along `y = 3` (above the conference table) to `(3, 3)`, `Up` 1 to `(3, 2)`, `Left` 1 to `(2, 2)`, and `Up` 1 into `(2, 1)` to warp to 2F `(2, 2)`.
-  - **2F (from `(2, 2)`):** Walk `Right` 12 along `y = 2` to `(14, 2)` and `Up` 1 into `(14, 1)` to warp to 1F `(14, 2)`.
+  - **2F (from `(2, 2)`):** Walk `Right` 12 along `y = 2` to `(14, 2)` and `Up` 1 into `(14, 1)` to warp to 1F `(14, 2)`. The **Fossil Resurrection Researcher** sits at **`(14, 8)`** in the bottom-right corner of 2F (stand at `(15, 8)` facing `Left`; requires an open party slot to claim a revived Pokémon, and exiting Devon Corp 1F `(5, 8)` to Rustboro City `(11, 16)` and re-entering completes the regeneration timer) [Both **Claw Fossil -> Anorith Lv. 20 (`KRONOS`)** and **Root Fossil -> Lileep Lv. 20 (`FLORA`)** revived].
   - **1F (from `(14, 2)`):** Walk `Left` 1 to `(13, 2)`, `Down` 4 to `(13, 6)`, `Left` 8 along `y = 6` to `(5, 6)`, and `Down` 3 onto `(5, 8)` to exit to Rustboro City.
   - **Devon Corporation Exterior Door:** `(11, 15)` (exiting steps to `(11, 16)`; exiting after receiving the PokéNav triggers the Devon Researcher's Match Call tutorial, ending at `(11, 17)`). To return south to the Pokémon Center from `(11, 17)`, walk `Down` 4 to `(11, 21)`, `Right` 10 to `(21, 21)`, `Down` 18 along `x = 21` to `(21, 39)`, and `Left` 5 to `(16, 39)`.
 - **Cutter's House Door:** `(9, 38)` (exiting steps to `(9, 39)`), 7 tiles west of the Pokémon Center door `(16, 38)`. Interior entrance mat is `(5, 8)..(6, 8)`; the Cutter sits at `(7, 5)` (reachable at `(7, 6)`) and awards **HM01 (Cut)** [Obtained].
@@ -1074,13 +1074,14 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,219 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], Root Fossil, TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM28 (Dig), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081).*
+- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM28 (Dig), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155).*
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 79, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Rock Smash, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
-  5. KRONOS (Anorith, Lv. 20) [TALOS (Beldum, Genderless, Lv. 5), TETHYS (Tentacool, Female, Lv. 17), and ZEPHYR (Castform, Female, Lv. 29) stored in PC Box 1]
+  5. KRONOS (Anorith, Lv. 20)
+  6. FLORA (Lileep, Lv. 20) [TALOS (Beldum, Genderless, Lv. 5), TETHYS (Tentacool, Female, Lv. 17), and ZEPHYR (Castform, Female, Lv. 29) stored in PC Box 1]
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.

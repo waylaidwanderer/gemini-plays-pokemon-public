@@ -4,13 +4,14 @@
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $9,219 | **Battle Points:** 16 BP | **Status:** HOENN LEAGUE CHAMPION, CONQUEROR OF ALL 7 BATTLE FRONTIER FACILITIES, DEFEATER OF STEVEN STONE & CONQUEROR OF GROUDON (TERRA CAVE) AND KYOGRE (MARINE CAVE) | **Badges:** 8 (Stone Badge, Knuckle Badge, Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge)
 - **Key Features Unlocked:** National Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld), Strength (Overworld), Go-Goggles (Desert Access), Surf (Overworld), Devon Scope (Reveals Invisible Kecleon), Fly (Overworld), Dive (Overworld), Waterfall (Overworld), S.S. Ticket (Ferry / Battle Frontier Access), Roaming Latias (RED chosen on TV), Frontier Pass (Battle Frontier Access)
 - **Text Speed:** FAST
-- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], Root Fossil, TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM28 (Dig), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081).*
+- **Inventory (`ITEMS` Pocket Order):** `0: Hyper Potion x4`, `1: X Special x1`, `2: X Speed x1`, `3: X Defend x1`, `4: Water Stone x1`, `5: Revive x1`, `6: Full Heal x1`, `7: Thunderstone x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt), TM28 (Dig), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155).*
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 79, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Rock Smash, Waterfall, Strength)
   2. OBERON (Beautifly, Male, Lv. 22 — Gust, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   4. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
-  5. KRONOS (Anorith, Lv. 20) [TALOS (Beldum, Genderless, Lv. 5), TETHYS (Tentacool, Female, Lv. 17), and ZEPHYR (Castform, Female, Lv. 29) stored in PC Box 1]
+  5. KRONOS (Anorith, Lv. 20)
+  6. FLORA (Lileep, Lv. 20) [TALOS (Beldum, Genderless, Lv. 5), TETHYS (Tentacool, Female, Lv. 17), and ZEPHYR (Castform, Female, Lv. 29) stored in PC Box 1]
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
