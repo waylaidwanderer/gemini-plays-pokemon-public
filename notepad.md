@@ -1100,8 +1100,11 @@
 - **Route 133 Southern Current #2 (`(56, 30)` -> `(37, 29)` -> Route 134 `(79, 30)`):**
   - From `(56, 30)`, walk north around the pointed rocks via `(56, 27) -> (54, 27) -> (54, 26) -> (50, 26) -> (50, 30)` (**Max Revive** Item Ball at `(48, 28)`, picked up from `(48, 29)` facing `Up` [Obtained]), then walk via `(45, 29) -> (45, 31) -> (43, 31) -> (43, 32) -> (41, 32) -> (41, 31) -> (39, 31) -> (39, 29) -> (37, 29)` and use **Surf** `Left` onto `(36, 29)` to ride the current across into **Route 134 at `(79, 30)`**.
 - **Route 134 Currents (`(79, 30)` Sandbar -> Sealed Chamber vs Western Bypass):**
-  - On the eastern Route 134 shallow-water sandbar (`x = 76..80, y = 28..34`), surfing `Left` from `(76, 30)` (`y = 30`) slides along `y = 30` to `(54, 30)`, passing 2–3 rows north of the **Sealed Chamber sandbar (`(62..64, 32..34)`) and Dive Trench (`(60..61, 31..33)`)** (visible in `turn_5320/frame_070.png`). From `(54, 30)`, `(53, 33)` slides to `(50, 33)`, `(50, 34)` slides to `(46, 34)`, and `(46, 35) -> (44, 35)` slides to `(43, 35)`, from which `Up` 1 onto `(43, 34)` slides to `(30, 34)`.
-  - To land directly on the **Sealed Chamber sandbar (`(62..64, 32..34)`)**, walk `Left` 3 from `(79, 30)` to `(76, 30)` and `Down` 2–3 to **`(76, 32)` or `(76, 33)`** before using **Surf** `Left` onto `(75, 32..33)`.
+  - Note that landing on the eastern sandbar from Route 133 `(36, 29)` stops at `Route 133 (0, 30)`, so walking `Left` 4 (`0 -> 79 -> 78 -> 77 -> 76`) reaches the western edge `x = 76` of the Route 134 sandbar (`y = 28..34`).
+  - Surfing `Left` from `(76, 30)` (`y = 30`) slides along `y = 30` to `(54, 30)`, passing north of the **Sealed Chamber sandbar (`(60..62, 31..33)`) and Dive Trench (`(59..61, 30..32)`)** (`turn_5320/frame_070.png`).
+  - Surfing `Left` from `(76, 33)` (`y = 33`) hits a southward current to `y = 35` and slides past `(62, 35)` (1 row south of the Sealed Chamber sandbar) to `(50, 33)` (`turn_5345/frame_162.png` & `frame_167.png`).
+  - **Exact Sealed Chamber Current (`y = 32`, `(76, 32)`):** Walking `Left` 4 from `(0, 30)` to `(76, 30)` and **`Down` 2 to `(76, 32)`**, using **Surf** `Left` onto `(75, 32)`, and surfing `Left` 3 onto `(72, 32)` passes 1 row north of the `(65..66, 35..36)` rock into the 2-tile northward current at `(65, 32) -> (65, 30..31)`, landing directly on the **Sealed Chamber sandbar (`(62, 31..33)`)** (`turn_5345/frame_162.png`).
+  - Also, from anywhere on **Route 134** (`y_grid = 11`), opening the Fly map and stepping `["hold Right 50", "sleep 400", "A", "sleep 400"]` x 7 moves 1 grid cell at a time along `y_grid = 11` (`Route 134 -> Route 133 -> Route 132 -> Pacifidlog Town (17, 11)`) and flies directly to **Pacifidlog Town `(8, 16)`** in a single hop.
 
 <hr>
 
