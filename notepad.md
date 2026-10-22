@@ -1126,11 +1126,12 @@
 - **Inventory (`ITEMS` Pocket Order):** `0: X Special x1`, `1: X Defend x1`, `2: Water Stone x1`, `3: Max Repel x1`, `4: Revive x1`, `5: Full Heal x1`, `6: Thunderstone x1`, `7: Max Revive x1` | **Key Items & HMs:** Itemfinder, Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike [Registered to Select], Super Rod, TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt — held by ATRITON), TM27 (Return), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081 and taught to KRONOS on Turn 5241; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155; TM27 Return obtained in Pacifidlog Town on Turn 5269; Super Rod obtained in Mossdeep City at (49, 6) on Turn 5383).*
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 79, Calm Nature [+Sp. Def, -Attack], No Held Item — Surf, Rock Smash, Waterfall, Strength)
-  2. OBERON (Beautifly, Male, Lv. 23 — Gust, String Shot, Poison Sting, Harden)
-  3. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
-  4. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
-  5. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
-  6. TETHYS (Tentacool, Female, Lv. 17 — Dive) [TALOS (Beldum, Genderless, Lv. 5), ZEPHYR (Castform, Female, Lv. 29), and FLORA (Lileep, Lv. 20) stored in PC Box 1]
+  2. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
+  3. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
+  4. TETHYS (Tentacool, Female, Lv. 17 — Dive)
+  5. [Empty — reserved for Wailmer/Wailord]
+  6. [Empty — reserved for Relicanth]
+  *(Stored in PC Box 1: TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], OBERON [Beautifly Lv. 23], GAIA [Nincada Lv. 13])*
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
