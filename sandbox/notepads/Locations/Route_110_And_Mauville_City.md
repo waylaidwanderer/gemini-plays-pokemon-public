@@ -7,8 +7,9 @@
   - Pokéfan Isabel `(10, 76)` — Plusle Lv. 14, Minun Lv. 14 [Defeated & Registered]
   - Pokéfan Kaleb `(7, 76)` — Minun Lv. 14, Plusle Lv. 14 [Defeated]
 - **Trick House & Eastern Underpass:** The Trick House door is at `(11, 66)`. From `(9, 76)`, walk `Up` 7 along `x = 9` to `(9, 69)` and `Right` 12 along `y = 69` (passing north of the friendly NPC at `(14, 70)`) underneath the Cycling Road overpass to `(21, 69)`.
-- **Eastern Turn & Youngster Timmy Bypass (`(25, 70)` -> `(33, 60)`):**
-  - From `(25, 70)`, walk `Down` 1 to `(25, 71)`, `Right` 7 along `y = 71` to `(32, 71)`, and `Up` 6 along `x = 32` (passing behind Youngster Timmy at `(33, 69)`) to `(32, 65)`.
+- **Eastern Turn, Youngster Timmy & Rare Candy Island (`(25, 70)` -> `(33, 60)` & `(37, 68)`):**
+  - From `(25, 70)`, walk `Down` 1 to `(25, 71)`, `Right` 7 along `y = 71` to `(32, 71)` (note: walking `Up` 2 from `(31, 71)` to `(31, 69)` facing `Left` claims the **Dire Hit** Item Ball at `(30, 69)` [Obtained], and **Youngster Timmy `(33, 69)`** — `Aron Lv. 15`, `Electrike Lv. 13` [Defeated]), and `Up` 6 along `x = 32` to `(32, 65)`.
+  - **Route 110 Rare Candy Island (`(37, 68)`):** From `(31, 71)`, walk `Right` 2 to `(33, 71)` and `Down` 1 into the 2-tile fence gap at **`(33, 72)`**, then use **Surf** `Down` onto `(33, 73)`. From `(33, 73)`, surf `Down` 1 to `(33, 74)`, `Right` 2 to `(35, 74)`, `Down` 2 to `(35, 76)`, `Right` 3 through the `(36, 76)` gap (between the rocks at `(36, 75)` and `(36, 77)`) to `(38, 76)`, and `Up` 7 along `x = 38` to step ashore onto the **Rare Candy Island at `(38, 69)`** (Item Ball at **`(37, 68)`**).
   - From `(32, 65)`, walk `Right` 3 to `(35, 65)`, `Up` 2 to `(35, 63)`, `Left` 1 to `(34, 63)`, `Up` 1 to `(34, 62)`, `Left` 1 to `(33, 62)`, and `Up` 2 to `(33, 60)`.
 - **Rival May Battle (`(34, 54)`, triggered at `(34, 56)`):**
   - Reached from `(33, 60)` by walking `Right` 1 to `(34, 60)` and `Up` 4 along `x = 34` to `(34, 56)`.
