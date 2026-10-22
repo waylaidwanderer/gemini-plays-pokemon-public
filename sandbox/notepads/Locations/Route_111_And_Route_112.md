@@ -53,7 +53,7 @@
 ## Route 111 (North)
 - **West Entrance (from Route 112 North `(39, 9)`):** `(0, 29)`.
 - **Northbound Route & Trainer Bypasses (`(1, 29)` -> Route 113):**
-  - Walk `Right` 6 along `y = 29` to `(7, 29)` and `Up` 5 along `x = 7` to `(7, 24)` (bypassing **Cooltrainer Wilton `(9, 27)`**, who rotates Down/Left).
+  - Walk `Right` 6 along `y = 29` to `(7, 29)` and `Up` 5 along `x = 7` to `(7, 24)` (**Cooltrainer Wilton `(9, 27)`** — `Electrike Lv. 17`, `Wailmer Lv. 17`, `Makuhita Lv. 17` [Defeated & Registered on Turn 5601]).
   - Walk `Right` 8 along `y = 24` to `(15, 24)` and `Up` 4 along `x = 15` to `(15, 20)` (passing east of the **Secret Power Guy `(13, 20)`** at the big tree `(13..14, 19)`).
   - **Double Ledge Zig-Zag (`(15, 20)` -> `(21, 13)`):** Step `Right` 2 to `(17, 20)`, `Up` 3 through the left ledge gap to `(17, 17)`, `Right` 4 along `y = 17` to `(21, 17)`, and `Up` 4 through the right ledge gap to `(21, 13)` (west of the **Old Lady's Rest House** at `(26, 17)`).
   - **Black Belt Daisuke Bypass (`(21, 13)` -> `(16, 8)`):** Walk `Up` 2 to `(21, 11)`, `Left` 5 along `y = 11` to `(16, 11)`, and `Up` 3 along `x = 16` to `(16, 8)` (completely avoiding **Black Belt Daisuke `(22, 8)`**, who rotates Down/Right).
