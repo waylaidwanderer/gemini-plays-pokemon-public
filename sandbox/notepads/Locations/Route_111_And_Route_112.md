@@ -54,7 +54,7 @@
 - **West Entrance (from Route 112 North `(39, 9)`):** `(0, 29)`.
 - **Northbound Route & Trainer Bypasses (`(1, 29)` -> Route 113):**
   - Walk `Right` 6 along `y = 29` to `(7, 29)` and `Up` 5 along `x = 7` to `(7, 24)` (**Cooltrainer Wilton `(9, 27)`** — `Electrike Lv. 17`, `Wailmer Lv. 17`, `Makuhita Lv. 17` [Defeated & Registered on Turn 5601]).
-  - Walk `Right` 8 along `y = 24` to `(15, 24)` and `Up` 4 along `x = 15` to `(15, 20)` (passing east of the **Secret Power Guy `(13, 20)`** at the big tree `(13..14, 19)`).
+  - Walk `Right` 8 along `y = 24` to `(15, 24)` and `Up` 4 along `x = 15` to `(15, 20)` (passing east of the **Secret Power Guy `(13, 20)`** at the big tree `(13..14, 19)`; speaking to him from `(13, 21)` facing `Up` and pressing `A` on `"Will you use it to make your own room?" [>YES / NO]` awards **TM43 Secret Power** [Obtained on Turn 5621]).
   - **Double Ledge Zig-Zag (`(15, 20)` -> `(21, 13)`):** Step `Right` 2 to `(17, 20)`, `Up` 3 through the left ledge gap to `(17, 17)`, `Right` 4 along `y = 17` to `(21, 17)`, and `Up` 4 through the right ledge gap to `(21, 13)` (west of the **Old Lady's Rest House** at `(26, 17)`).
   - **Black Belt Daisuke Bypass (`(21, 13)` -> `(16, 8)`):** Walk `Up` 2 to `(21, 11)`, `Left` 5 along `y = 11` to `(16, 11)`, and `Up` 3 along `x = 16` to `(16, 8)` (completely avoiding **Black Belt Daisuke `(22, 8)`**, who rotates Down/Right).
   - **Cooltrainer Brooke `(11, 10)` -> `(11, 8)`** (facing Up — `Wingull Lv. 17`, `Roselia Lv. 17`, `Numel Lv. 17`) [Defeated & Registered]. From `(11, 7)`, step `Right` 1 to `(12, 7)`, `Down` 2 to `(12, 9)`, and `Left` 13 along `y = 9` onto **Route 113**.
