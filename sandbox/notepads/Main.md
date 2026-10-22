@@ -11,8 +11,8 @@
   3. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
   4. TETHYS (Tentacool, Female, Lv. 17 — Dive)
   5. BZ P (Wailord, Female, Lv. 40, Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist)
-  6. ATLAS (Relicanth, Male, Lv. 31 — Water Gun, Rock Tomb, Yawn, Take Down)
-  *(Stored in PC Box 1: TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], OBERON [Beautifly Lv. 23], GAIA [Nincada Lv. 13])*
+  6. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
+  *(Stored in PC Box 1: OBERON [Beautifly Lv. 23], TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], ATLAS [Relicanth Lv. 31])*
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, Professor Birch's Lab, and Northern Exit.
