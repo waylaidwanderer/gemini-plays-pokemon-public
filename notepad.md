@@ -378,8 +378,9 @@
 
 ## Route 111 (South)
 - **South Entrance (from Mauville City `(15..16, 0)`):** `(15..16, 139)`.
-- **Winstrate Family House Bypass (`(16, 138)` -> `(22, 116)`):**
+- **Winstrate Family House (`(13, 113)`) & Bypass (`(16, 138)` -> `(22, 116)`):**
   - Walk `Up` 7 along `x = 16` from `(16, 139)` to `(16, 132)`, `Right` 2 to `(18, 132)`, `Up` 1 to `(18, 131)`, `Right` 4 along `y = 131` (passing north of **Aroma Lady Celina `(20, 132)`** — `Roselia Lv. 18` and **Camper Tyron `(23, 132)`** — `Sandshrew Lv. 19`, who watch `(21, 132)` [Defeated]) to `(22, 131)`, and `Up` 15 along the eastern road `x = 22` (passing east of **Picnicker Bianca `(19, 121)`**) to `(22, 116)`.
+  - **The Winstrate Family's House (`(13, 113)`):** Signpost at `(16, 114)`. Speaking to **Victor Winstrate** at `(13, 114)` from `(13, 115)` facing `Up` and answering `YES` initiates a 4-battle 1v1 gauntlet against **Winstrate Victor** (`Taillow Lv. 15`, `Zigzagoon Lv. 15`), **Winstrate Victoria** (`Roselia Lv. 17`), **Winstrate Vivi** (`Marill Lv. 15`, `Shroomish Lv. 15`, `Numel Lv. 15`), and **Winstrate Vicky** (`Meditite Lv. 18`) [All 4 Defeated on Turn 5593–5595]. Inside `Route111_WinstrateFamilysHouse` (entrance mat at `(3..4, 7)`), walk via `(8, 7) -> (8, 3)` facing `Left` to speak with **Victoria Winstrate at `(7, 3)`** and receive the **Macho Brace** (`ITEM_MACHO_BRACE`). Note that in the northern Route 111 Desert, an Item Ball at `(12, 54)` contains a **Stardust** [Obtained on Turn 5588], and walking `Left` 4 from `(15, 42)` to `(11, 42)` and `Up` 8 along `x = 11` exits the northern end of the Route 111 Desert onto Route 111 North at `(11, 34)`.
 - **Rock Smash Pass (`(22, 116)` -> `(19, 100)`):**
   - From `(22, 116)`, step `Left` 1 to `(21, 116)`, walk `Up` 11 along `x = 21` (passing the wandering townsperson near `(20..21, 114)`) to `(21, 105)`, `Left` 2 to `(19, 105)`, and `Up` 4 to `(19, 101)`.
   - Two breakable **Rock Smash boulders** block the pass at `(18, 101)` and `(19, 100)`. Use `Rock Smash` (`A` x2, `B`, `sleep 3000`) on `(19, 100)` to open the pass.
@@ -1141,7 +1142,7 @@
   2. HALCYON (Wingull, Male, Lv. 18 — Water Gun, Supersonic, Wing Attack, Fly)
   3. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
   4. TETHYS (Tentacool, Female, Lv. 17 — Dive)
-  5. BZ P (Wailord, Female, Lv. 40, Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist)
+  5. BZ P (Wailord, Female, Lv. 41, Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist)
   6. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   *(Stored in PC Box 1: OBERON [Beautifly Lv. 23], TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], ATLAS [Relicanth Lv. 31])*
 

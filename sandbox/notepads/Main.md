@@ -10,7 +10,7 @@
   2. HALCYON (Wingull, Male, Lv. 18 — Water Gun, Supersonic, Wing Attack, Fly)
   3. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
   4. TETHYS (Tentacool, Female, Lv. 17 — Dive)
-  5. BZ P (Wailord, Female, Lv. 40, Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist)
+  5. BZ P (Wailord, Female, Lv. 41, Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist)
   6. GAIA (Nincada, Female, Lv. 13 — Scratch, Harden, Leech Life, Flash)
   *(Stored in PC Box 1: OBERON [Beautifly Lv. 23], TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], ATLAS [Relicanth Lv. 31])*
 
