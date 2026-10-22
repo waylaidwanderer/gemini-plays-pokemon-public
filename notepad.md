@@ -652,7 +652,7 @@
 ## Central & Southern Route 120 (`(7, 15)` -> `(36, 62)`)
 - **Western Puddle Corridor (`(7, 15)` <-> `(13, 35)`):**
   - From `(7, 15)`, walk `Down` 15 along `x = 7` to `(7, 30)` (passing **Bird Keeper Colin `(5..6, 22)`** — `Wingull Lv. 28`, `Natu Lv. 28` [Defeated]).
-  - From `(7, 30)`, walk `Right` 6 along `y = 30` (between the puddles at `(9..10, 28..29)` and `(8..10, 31..33)`) to `(13, 30)` and `Down` 5 along `x = 13` (between the trees at `x = 11..12, y = 31..32` and `x = 14..15, y = 29..34`) to `(13, 35)`.
+  - From `(7, 30)`, walk `Right` 5 along `y = 30` (between the puddles at `(9..10, 28..29)` and `(8..10, 31..33)`) to `(12, 30)` and `Down` 5 along `x = 12` (between the trees at `x = 10..11, y = 31..32` and `x = 13..14, y = 31..32`) to `(12, 35)`.
   - *(Optional Eastern Puddle Alcove `(16, 35)` -> `(29, 29)`):* **Ninja Boy Riley `(19, 28)`** (`Nincada Lv. 28`, `Koffing Lv. 28`) & **Battle Girl Callie `(18, 34)`** (`Meditite Lv. 28`, `Makuhita Lv. 28`) watch `(19, 31)` [Defeated]; **Cooltrainer Leonel `(15, 34)`** (`Manectric Lv. 30`) & **Parasol Lady Angelica `(18, 34)`** (`Castform Lv. 30`) watch `(16, 34)` [Defeated]. From `(16, 29)`, `Left` 5 to `(11, 29)`, `Down` 1 to `(11, 30)`, and `Left` 4 to `(7, 30)` rejoins the western puddle corridor.
 - **Extra-Tall Grass Maze Bypass (`(12, 35)` -> `(36, 62)`):**
   - From `(12, 35)`, walk `Right` 1 to `(13, 35)`, `Down` 4 to `(13, 39)`, `Right` 3 to `(16, 39)`, `Down` 3 to `(16, 42)`, `Right` 1 to `(17, 42)`, `Down` 2 to `(17, 44)`, `Right` 1 to `(18, 44)`, and `Down` 13 along `x = 18` to `(18, 57)` (note: `(19, 48)` is blocked by an optional invisible Kecleon; item ball at `(20, 55)`).
