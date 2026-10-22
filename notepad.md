@@ -1130,8 +1130,8 @@
   2. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
   3. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
   4. TETHYS (Tentacool, Female, Lv. 17 — Dive)
-  5. BZ P (Wailmer, Female, Lv. 38 [72,295 EXP; 4,965 EXP to Lv. 39], Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist; evolves into Wailord at Lv. 40)
-  6. ATLAS (Relicanth, Male, Lv. 31 — Water Gun, Rock Tomb, Yawn, Take Down)
+  5. ATLAS (Relicanth, Male, Lv. 31 — Water Gun, Rock Tomb, Yawn, Take Down)
+  6. BZ P (Wailmer, Female, Lv. 38 [72,295 EXP; 4,965 EXP to Lv. 39], Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist; evolves into Wailord at Lv. 40)
   *(Stored in PC Box 1: TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], OBERON [Beautifly Lv. 23], GAIA [Nincada Lv. 13])*
 
 ## Notepad Index
