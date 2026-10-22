@@ -189,6 +189,7 @@
     3. **Confusion Room `(7, 46)` -> Right Door `(7, 41)`:** Enters **Tier 3 Strength Room `(1, 20)`** (**Cooltrainer Jody `(4, 16)`** — `Zangoose Lv. 26` [Defeated]).
     4. **Strength Room `(1, 20)` -> Right Door `(7, 15)`:** Enters **Gym Leader Norman's Room `(1, 7)`** (**Gym Leader Norman `(4, 2)`** — `Spinda Lv. 27`, `Vigoroth Lv. 27`, `Linoone Lv. 29`, `Slaking Lv. 31` [Defeated & Registered — awards Balance Badge & TM42 Facade, followed by Wally's dad escorting the player to Wally's House to award HM03 Surf]).
 - **Wally Tutorial Event:** Completed on Turn 107–108, unlocking the western exit of Petalburg City into Route 104 South.
+- **Southwestern Pond Items (`(4, 28)` & Hidden Rare Candy `(6, 29)`):** From the Petalburg Pokémon Center `(20, 17)`, walk `Left` 7 to `(13, 17)` and `Down` 7 to `(13, 24)`, step `Left` 2 to `(11, 24)`, and use **Surf** `Left` onto `(10, 24)`. Surf `Down` 3 to `(10, 27)`, `Left` 5 along `y = 27` to `(5, 27)`, and step `Down` 1 to dismount onto `(5, 28)`: facing `Left` at `(5, 28)` claims the visible Item Ball at `(4, 28)` (**Ether**), and stepping `Right` 1 into the 1-tile grass gap at `(6, 28)` facing `Down` claims the hidden **Rare Candy** at `(6, 29)`.
 - **West Exit (to Route 104 South):** `(0, 12)` (Scott's cutscene at `(4, 12)` completed on Turn 110).
 
 ## Route 104 South
