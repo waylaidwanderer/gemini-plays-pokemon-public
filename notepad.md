@@ -1127,11 +1127,11 @@
 - **Inventory (`ITEMS` Pocket Order):** `0: X Defend x1`, `1: Water Stone x1`, `2: Revive x1`, `3: Full Heal x1`, `4: Dire Hit x1`, `5: Ether x1`, `6: Rare Candy x1` | **Poké Balls Pocket:** `0: Poké Ball x1`, `1: Great Ball x5`, `2: Ultra Ball x2` | **Key Items & HMs:** Itemfinder [Registered to Select], Basement Key, S.S. Ticket, Magma Emblem, Devon Scope, Go-Goggles, Mach Bike, Super Rod, TM13 (Ice Beam), TM18 (Rain Dance), TM24 (Thunderbolt — held by ATRITON), TM27 (Return), HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength), HM05 (Flash), HM06 (Rock Smash), HM07 (Waterfall), HM08 (Dive) *(Note: New Mauville generator shut down and TM24 Thunderbolt obtained from Wattson on Turn 5073; TM28 Dig obtained in Fossil Maniac's House on Turn 5081 and taught to KRONOS on Turn 5241; Claw Fossil and Root Fossil revived into Anorith [KRONOS] and Lileep [FLORA] at Devon Corp 2F on Turn 5155; TM27 Return obtained in Pacifidlog Town on Turn 5269; SealedChamber_InnerRoom unlocked with Dig on Turn 5366; Super Rod obtained in Mossdeep City at (49, 6) on Turn 5383; Exp. Share obtained from President Mr. Stone on Devon Corp 3F on Turn 5421 and held by BZ P; hidden Rare Candy at Petalburg City (11, 29) obtained on Turn 5486).*
 - **Party:**
   1. ATRITON (Swampert, Male, Lv. 80, Calm Nature [+Sp. Def, -Attack], Held Item: TM24 — Surf, Rock Smash, Waterfall, Strength)
-  2. HALCYON (Wingull, Male, Lv. 17 — Water Gun, Supersonic, Wing Attack, Fly)
+  2. HALCYON (Wingull, Male, Lv. 18 — Water Gun, Supersonic, Wing Attack, Fly)
   3. KRONOS (Anorith, Lv. 20 — Dig, Harden, Mud Sport, Water Gun)
   4. TETHYS (Tentacool, Female, Lv. 17 — Dive)
   5. ATLAS (Relicanth, Male, Lv. 31 — Water Gun, Rock Tomb, Yawn, Take Down)
-  6. BZ P (Wailmer, Female, Lv. 38 [72,295 EXP; 4,965 EXP to Lv. 39], Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist; evolves into Wailord at Lv. 40)
+  6. BZ P (Wailmer, Female, Lv. 38 [72,872 EXP; 4,388 EXP to Lv. 39], Calm Nature, Held Item: Exp. Share — Whirlpool, Astonish, Water Pulse, Mist; evolves into Wailord at Lv. 40)
   *(Stored in PC Box 1: TALOS [Beldum Lv. 5], ZEPHYR [Castform Lv. 29], FLORA [Lileep Lv. 20], OBERON [Beautifly Lv. 23], GAIA [Nincada Lv. 13])*
 
 ## Notepad Index
