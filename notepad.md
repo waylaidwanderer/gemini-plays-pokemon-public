@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | APOSEIDON | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | - | 4 | Forfeited | Broke out on Shake 0 at ~52% green HP; fled at 10/25 HP to avoid 14-damage Wing Attack crit range |
-| Route 102 | TBD | TBD | - | Pending | Catch before challenging Youngster Calvin at `(33, 14)` |
+| Route 102 | Ralts ♂ | APOLLO | 4 | Active | Caught at (38, 6) in red HP after 2x Bubble; knows Confusion |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -46,7 +46,8 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 9 (98% EXP to Lv. 10) | HP: 29/29 | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
+1. **APOSEIDON** (Mudkip ♂) — Lv. 9 (MAX EXP before cap) | HP: 23/29 | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
+2. **APOLLO** (Ralts ♂) — Lv. 4 | Caught on Route 102 | Moves: Confusion, Growl
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
