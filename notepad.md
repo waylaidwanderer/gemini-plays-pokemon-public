@@ -86,4 +86,24 @@
 - **Start Menu Cursor Memory (Turns 41–42):** The Start menu remembers its cursor row index across openings. Currently `0: POKéMON`, `1: BAG`, `2: ORION`, `3: SAVE`, `4: OPTION`, `5: EXIT`.
 - **Birch's Lab Coordinates (Turn 42):** Birch stands at `(6, 4)`, player stands at `(6, 5)`, exit mat is straight down at `(6, 12)`.
 
+## Pokémon Center Healing Formula (Verified Turn 57)
+- **Interior Coordinates:** Enter at `(7, 8)`. Walk 5 tiles `Up` to stand at `(7, 4)` facing Nurse Joy across the counter at `(7, 3)`.
+- **Button Sequence:**
+  - Press `A` **4 times** with `sleep 1200` between presses (clears Nurse Joy's 3 intro lines and confirms `▶YES` on the 4th `A`).
+  - Wait `sleep 5500` for the healing jingle to finish.
+  - Press `B` **4 times** with `sleep 1000` between presses to close her post-healing dialogue without re-talking.
+  - Press `Down` **5 times** to exit back to the overworld.
+
+## Verified Route & Town Coordinates (Turns 45–60)
+- **Littleroot Town (Lab to Route 101):**
+  - Birch's Lab exterior door: `(7, 16)`. Step `Down` to `(7, 17)` to bypass the Lab sign row, walk `Right` 3 tiles to `(10, 17)`, then `Up` 17 tiles along `x=10` to `(10, 0)`.
+- **Route 101 Pathing:**
+  - **Northbound (Littleroot -> Oldale):** Enter at `(10, 19)` -> `Up` 4 to `(10, 15)` -> `Left` 4 to `(6, 15)` -> `Up` 4 to `(6, 11)` -> `Right` 4 to `(10, 11)` -> `Up` 1 to `(10, 10)` -> `Right` 7 to `(17, 10)` -> `Up` 6 to `(17, 4)` -> `Left` 6 to `(11, 4)` -> `Up` 5 into Oldale Town.
+  - **Southbound (Oldale -> Littleroot):** Jump straight `Down` along `x=10` over the two south-facing ledges at `y=6` and `y=13`!
+- **Oldale Town:**
+  - South border (from Route 101): `(10, 19)` / `(11, 19)`.
+  - Pokémon Center door: `(6, 16)` (approach along `y=17` from `(9, 17)` or `(11, 17)`, then step `Up` into `(6, 16)`).
+  - Poké Mart door: `(14, 6)` (free Potion clerk started at `(13, 14)`, now stands at `(13, 7)`).
+  - North border (to Route 103): `x=10, y=0` (transitions to `(10, 21)` on Route 103).
+
 <hr>
