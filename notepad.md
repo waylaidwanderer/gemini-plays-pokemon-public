@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 (Starter) | TBD | TBD | 5 | Pending | Starter choice |
+| Route 101 (Starter) | Mudkip ♂ | TRITON | 5 | Active | Starter choice |
 
 <hr>
 
@@ -34,7 +34,7 @@
    - Elite Four / Champion: **Lv. 58**
 
 ## Active Party
-- *None yet (In intro sequence)*
+1. **TRITON** (Mudkip ♂) — Lv. 5 | HP: 20/20 | Moves: Tackle | Notes: Starter from Route 101
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps.
