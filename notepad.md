@@ -125,4 +125,19 @@
   - Poké Mart door: `(14, 6)` (free Potion clerk started at `(13, 14)`, now stands at `(13, 7)`).
   - North border (to Route 103): `x=10, y=0` (transitions to `(10, 21)` on Route 103).
 
+## Verified Findings (Turns 124–150)
+- **Mudkip Growth & Modified Learnset (Turn 124):**
+  - Uses the **Slow EXP group** (`5 * n^3 / 4`: 135 EXP for Lv. 5, 270 for Lv. 6, 428 for Lv. 7).
+  - Learns `Bubble` (20 BP Water Special, 30 PP) at **Lv. 6** and `Mud Sport` (15 PP) at **Lv. 7**.
+- **Wild Encounter Pools Observed:**
+  - **Route 101 (Claimed by Starter):** Lv. 2–3 `Wurmple` (`Tackle`, `String Shot`), `Weedle` (`Poison Sting`, `String Shot`), `Pidgey`, `Sentret` (`Quick Attack`), `Rattata` (`Quick Attack`, `Tail Whip`), `Zigzagoon` (`Swift`, `Sand-Attack`, holds `Berry Juice`).
+  - **Route 103:** Lv. 4 `Poliwag` (`Water Gun`, 44 EXP), `Skitty` (`Attract`), `Wingull` (`Water Gun`, `Wing Attack` 60 BP STAB, 10 Speed), `Ledyba`.
+- **Southbound Grass-Free Ledge Corridor & Mom's Heal (Turns 130–146):**
+  - Walking straight `Down` along column **`x=10`** from `(10, 4)` on Route 103 jumps over both ledges (`y=5`, `y=12`) into Oldale Town with **0 grass tiles**.
+  - Walking straight `Down` along column **`x=10`** across Route 101 jumps over both ledges (`y=6`, `y=13`) into Littleroot Town with **0 grass tiles**.
+  - Inside the Littleroot 1F house (door `(5, 8)` -> mat `(8, 8)`), **Mom** sits at **`(2, 6)`** (talk from `(2, 5)` facing `Down`) and provides a free full HP + status heal.
+- **Overworld Warp & Grass Timing Workarounds (Turns 124–149):**
+  - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
+  - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
+
 <hr>
