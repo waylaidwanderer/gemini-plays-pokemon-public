@@ -36,8 +36,9 @@
    - Elite Four / Champion: **Lv. 58**
 
 ## Key Tactical Rules (Learned from Attempt #1 & #2)
-- **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101 (consuming the ball and resetting to the battle menu). Do not throw Poké Balls on Route 101!
-- **Grind on Route 101 (Lv. 2–3) to Lv. 7 before Route 103:** Route 103 has Lv. 4 Wingull (10 Speed, 60 BP `Wing Attack`, traps Lv. 5 Mudkip on `RUN`) and Lv. 4 Skitty (`Attract`).
+- **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101.
+- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161):** Full-HP Poké Balls pop out on Shake 0 in this ROM. Always weaken wild encounters on Turn 1 while at 100% HP, and immediately `RUN` or heal if HP approaches `2x` enemy attack damage (crit range).
+- **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
