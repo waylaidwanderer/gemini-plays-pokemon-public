@@ -46,7 +46,7 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 10 (1267 EXP) | HP: 31/31 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 20 Atk / 14 Def / 17 SpA / 16 SpD / 15 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
+1. **APOSEIDON** (Mudkip ♂) — Lv. 10 (1485 EXP) | HP: 31/31 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 20 Atk / 14 Def / 17 SpA / 16 SpD / 15 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
 2. **APOLLO** (Ralts ♂) — Lv. 4 (80/156 EXP) | HP: 18/18 | Nature: Naughty (+Atk, -SpD) | Ability: Synchronize | Stats: 8 Atk / 7 Def / 9 SpA / 7 SpD / 8 Spd | Moves: Confusion (25 PP)
 
 ## Notepad Index
@@ -124,7 +124,7 @@
 ## Battle & Menu Persistence Mechanics (Turns 29–42)
 - **No In-Battle Bag Healing (Turn 36):** Selecting `POTION` in the `BAG` during battle only shows `▶CANCEL`. Healing items from the Bag can only be used in the overworld. Held items (e.g. `BERRY JUICE`) still activate automatically in battle.
 - **Battle Menu Cursor Memory (Turn 36, 238, 293):** The 2x2 battle menu (`FIGHT` / `BAG` / `POKéMON` / `RUN`) resets to `▶FIGHT` at the start of each new battle, and remembers the last used quadrant within the same battle. The move menu (`FIGHT`) and Bag pocket (`ITEMS` / `POKé BALLS`) persist across battles.
-- **Start Menu Cursor Memory (Turns 41–42, 296):** The Start menu remembers its cursor row index across openings. With the Pokédex obtained, rows are `0: POKéDEX`, `1: POKéMON` (current cursor position), `2: BAG`, `3: ORIQP`, `4: SAVE`, `5: OPTION`, `6: EXIT`.
+- **Start Menu Cursor Memory (Turns 41–42, 296, 306):** The Start menu remembers its cursor row index across openings. With the Pokédex obtained, rows are `0: POKéDEX`, `1: POKéMON`, `2: BAG` (current cursor position), `3: ORIQP`, `4: SAVE`, `5: OPTION`, `6: EXIT`. Opening or closing the `BAG` or `POKéMON` menu triggers a ~2.0–2.5s screen fade; always wait `sleep 2500` after selecting or backing out of those submenus.
 - **Birch's Lab Coordinates (Turn 42):** Birch stands at `(6, 4)`, player stands at `(6, 5)`, exit mat is straight down at `(6, 12)`.
 
 ## Pokémon Center Healing Formula (Verified Turn 57)
