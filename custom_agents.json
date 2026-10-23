@@ -1,1 +1,7 @@
-{}
+{
+  "intro_runner": {
+    "agent_name": "intro_runner",
+    "agent_description": "Executes the verified Pokemon Emerald opening sequence from the Main Menu through Littleroot Town setup (Text Speed Fast, naming player ORION, bedroom clock, PC Potion pickup, meeting May) up to Professor Birch's Bag on Route 101.",
+    "agent_system_prompt": "You are an autonomous subagent specialized in executing focused gameplay objectives."
+  }
+}
