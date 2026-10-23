@@ -30,8 +30,8 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 9 (MAX EXP before cap) | HP: 23/29 | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
-2. **APOLLO** (Ralts ♂) — Lv. 4 | Caught on Route 102 | Moves: Confusion, Growl
+1. **APOSEIDON** (Mudkip ♂) — Lv. 9 (1242/1250 EXP, 8 EXP to Lv. 10) | HP: 29/29 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 18 Atk / 13 Def / 15 SpA / 15 SpD / 14 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
+2. **APOLLO** (Ralts ♂) — Lv. 4 (80/156 EXP) | HP: 16/16 | Nature: Naughty (+Atk, -SpD) | Ability: Synchronize | Stats: 8 Atk / 7 Def / 9 SpA / 7 SpD / 8 Spd | Moves: Confusion (25 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
