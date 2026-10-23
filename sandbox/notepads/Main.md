@@ -2,8 +2,8 @@
 
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
-- **Player Name:** ORIQP (Boy / Brendan)
-- **Attempt:** #3
+- **Player Name:** ORION (Boy / Brendan)
+- **Attempt:** #4
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -21,20 +21,24 @@
    - Gym 8 (Juan): **Lv. 46**
    - Elite Four / Champion: **Lv. 58**
 
-## Key Tactical Rules (Learned from Attempts #1 & #2)
+## Key Tactical Rules (Learned from Attempts #1–#3)
+- **Deterministic Bounded 2x2 Move Selection (Verified Turn 328):** Opening the Bag or Party menu in the overworld resets the in-battle move cursor to Slot 1 (`Tackle`). Because the 2x2 move grid does not wrap, **ALWAYS press `Down, Right` for Slot 4 (`Water Gun`), `Up, Right` for Slot 2 (`Bubble`), and `Up, Left` for Slot 1 (`Tackle`)**!
 - **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101.
-- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** before throwing a Poké Ball, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
+- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252, 293):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** before throwing a Poké Ball, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
 - **Modified Move Mechanics — Immediate Yawn (Turn 169):** In this ROM, `Yawn` inflicts Sleep (`SLP`) immediately on the turn it is used rather than drowsy delayed sleep.
-- **Route 102 Trainer Scaling (Verified Turn 177–182):** Youngster Calvin at `(33, 14)` on Route 102 has **3 Lv. 6 Pokémon** (`Sentret` with `Assist` -> `Rock Smash` + `Quick Attack`; `Zigzagoon` with `Swift`; plus a 3rd Pokémon with `Rock Smash`). **DO NOT challenge Youngster Calvin at Level 7!** Grind to **Level 10+** and catch Route 103 / Route 102 encounters first!
+- **Route 102 Trainer Teams (Verified Turns 177–182, 303–328):**
+  1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash, Quick Attack], `Zigzagoon` [Swift], `Poochyena` [Rock Smash, Howl]).
+  2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna`, `Cascoon` [holds `Berry Juice`]).
+  3. **Lass Tiana `(15, 5)`:** 2 Lv. 6 Pokémon (`Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **MUST use non-contact `Water Gun` (`Down, Right`)!**], `Sunkern` [`Mega Drain` 40 BP Grass, 2x super effective vs Water — **enter at >25 HP with held Oran Berry and use `Tackle` (`Up, Left`)!**]).
+  4. **Youngster Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102.
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
-- **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
+- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 11 (1800 EXP) | HP: 7/33 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 21 Atk / 16 Def / 18 SpA / 17 SpD / 16 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
-- *Note: Deposit deceased APOLLO (Lv. 4 Ralts) into the PC Graveyard box at the Petalburg / Oldale Pokémon Center.*
+- *Resetting for Attempt #4 — Mudkip starter pending on Route 101.*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
 - `Locations/Encounters`: Route-by-route encounter tracking.
 - `Mechanics/Graveyard`: Fallen Pokémon, wipe post-mortems, and run history.
-- `Mechanics/UIAndControls`: Verified naming keyboard grid, warp/cutscene scripting patterns, Pokémon Center healing formula, and Littleroot/Route 101/Oldale/Route 103 coordinates.
+- `Mechanics/UIAndControls`: Verified naming keyboard grid, warp/cutscene scripting patterns, Pokémon Center healing formula, and Littleroot/Route 101/Oldale/Route 103/Route 102 coordinates.

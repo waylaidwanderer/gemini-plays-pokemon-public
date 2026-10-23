@@ -1,12 +1,12 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #3)
+# Route & Area Encounters (Attempt #4)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | APOSEIDON | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Wingull ♀ | - | 4 | Forfeited | Broke out on Shake 0 at ~52% green HP; fled at 10/25 HP to avoid 14-damage Wing Attack crit range |
-| Route 102 | Ralts ♂ | APOLLO | 4 | Deceased | Caught at (38, 6); fell on Turn 326 vs Lass Tiana's Lv. 6 Igglybuff (`Present`) while pivoting to cure APOSEIDON's infatuation |
+| Route 101 | TBD (Mudkip) | TBD | 5 | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Catch after obtaining Pokédex & Poké Balls (weaken to Yellow/Red HP first!) |
+| Route 102 | TBD | TBD | - | Pending | Catch before challenging Route 102 trainers (weaken to Yellow/Red HP first!) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -18,8 +18,8 @@
 
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
-- **Player Name:** ORIQP (Boy / Brendan)
-- **Attempt:** #3
+- **Player Name:** ORION (Boy / Brendan)
+- **Attempt:** #4
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -37,23 +37,27 @@
    - Gym 8 (Juan): **Lv. 46**
    - Elite Four / Champion: **Lv. 58**
 
-## Key Tactical Rules (Learned from Attempts #1 & #2)
+## Key Tactical Rules (Learned from Attempts #1–#3)
+- **Deterministic Bounded 2x2 Move Selection (Verified Turn 328):** Opening the Bag or Party menu in the overworld resets the in-battle move cursor to Slot 1 (`Tackle`). Because the 2x2 move grid does not wrap, **ALWAYS press `Down, Right` for Slot 4 (`Water Gun`), `Up, Right` for Slot 2 (`Bubble`), and `Up, Left` for Slot 1 (`Tackle`)**!
 - **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101.
-- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** before throwing a Poké Ball, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
+- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252, 293):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** before throwing a Poké Ball, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
 - **Modified Move Mechanics — Immediate Yawn (Turn 169):** In this ROM, `Yawn` inflicts Sleep (`SLP`) immediately on the turn it is used rather than drowsy delayed sleep.
-- **Route 102 Trainer Scaling (Verified Turn 177–182):** Youngster Calvin at `(33, 14)` on Route 102 has **3 Lv. 6 Pokémon** (`Sentret` with `Assist` -> `Rock Smash` + `Quick Attack`; `Zigzagoon` with `Swift`; plus a 3rd Pokémon with `Rock Smash`). **DO NOT challenge Youngster Calvin at Level 7!** Grind to **Level 10+** and catch Route 103 / Route 102 encounters first!
+- **Route 102 Trainer Teams (Verified Turns 177–182, 303–328):**
+  1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash, Quick Attack], `Zigzagoon` [Swift], `Poochyena` [Rock Smash, Howl]).
+  2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna`, `Cascoon` [holds `Berry Juice`]).
+  3. **Lass Tiana `(15, 5)`:** 2 Lv. 6 Pokémon (`Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **MUST use non-contact `Water Gun` (`Down, Right`)!**], `Sunkern` [`Mega Drain` 40 BP Grass, 2x super effective vs Water — **enter at >25 HP with held Oran Berry and use `Tackle` (`Up, Left`)!**]).
+  4. **Youngster Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102.
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
-- **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
+- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 11 (1800 EXP) | HP: 7/33 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 21 Atk / 16 Def / 18 SpA / 17 SpD / 16 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
-- *Note: Deposit deceased APOLLO (Lv. 4 Ralts) into the PC Graveyard box at the Petalburg / Oldale Pokémon Center.*
+- *Resetting for Attempt #4 — Mudkip starter pending on Route 101.*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
 - `Locations/Encounters`: Route-by-route encounter tracking.
 - `Mechanics/Graveyard`: Fallen Pokémon, wipe post-mortems, and run history.
-- `Mechanics/UIAndControls`: Verified naming keyboard grid, warp/cutscene scripting patterns, Pokémon Center healing formula, and Littleroot/Route 101/Oldale/Route 103 coordinates.
+- `Mechanics/UIAndControls`: Verified naming keyboard grid, warp/cutscene scripting patterns, Pokémon Center healing formula, and Littleroot/Route 101/Oldale/Route 103/Route 102 coordinates.
 
 <hr>
 
@@ -98,6 +102,15 @@
 - **APOLLO** (Ralts ♂, Lv. 4, Naughty, `Synchronize`) — Died on Turn 326 on Route 102 `(16, 5)` to Lass Tiana's Lv. 6 `Igglybuff` (`Present`, Ability: `Cute Charm`, held `Oran Berry`).
   - **Context & Lessons:** Using `Tackle` (a contact move) on Turn 1 against Igglybuff triggered `Cute Charm` (`50%` infatuation immobilization), because opening the Berry planting Bag screen in Turn 319 had reset our move cursor from `Water Gun` (Slot 4) to `Tackle` (Slot 1). After two consecutive infatuation immobilizations and `Present` hits dropped `APOSEIDON` to `7/33 HP`, `APOLLO` pivoted in to cure `APOSEIDON`'s infatuation, burned Igglybuff's held `Oran Berry` and dropped it into red HP with `Confusion`, and absorbed the next `Present` so `APOSEIDON` could re-enter safely with Torrent active (`90 BP` `Water Gun`) and sweep.
   - **Rule Going Forward:** Always verify that a non-contact move (`Water Gun` / `Bubble`) is selected after any overworld Bag/Party screen opening before attacking Pokémon with contact abilities (`Cute Charm`, `Static`, `Poison Point`, `Effect Spore`).
+- **APOSEIDON** (Mudkip ♂, Lv. 11, Gentle) — Died on Turn 328 on Route 102 `(16, 5)` to Lass Tiana's Lv. 6 `Sunkern` (`Mega Drain`) after entering the Sunkern matchup at `7/33 HP` — **TOTAL PARTY WIPEOUT (Attempt #3 Over)**.
+- **Root Causes of Attempt #3 Wipe:**
+  1. **Unbounded Move Cursor Assumption After Bag Opening:** In Turn 319, re-interacting with the Berry tree soil opened the Bag (`BERRIES POCKET`), which reset the in-battle move cursor to Slot 1 (`Tackle`). On Turn 1 vs Lass Tiana's `Lv. 6 Igglybuff`, pressing `A, A` used contact `Tackle` instead of non-contact `Water Gun`, triggering `Cute Charm` and locking `APOSEIDON` in love for 2 consecutive turns (`28 -> 7/33 HP`).
+  2. **Unequipped Oran Berries & Pre-Battle Chip (`28/33 HP`):** We had just picked 2 `Oran Berries` (`+10 HP` automatic in-battle heal) and held 3 `Potions`, but challenged Lass Tiana at `28/33 HP` without topping up or equipping an `Oran Berry`.
+  3. **Grass Weakness & `Mega Drain` on Lass Tiana's Sunkern:** Pure Water `Mudkip` is **2x weak to Grass**, and Lass Tiana's `Lv. 6 Sunkern` knows **`Mega Drain` (40 BP Grass)**, which heals Sunkern by 50% of damage dealt and KOs Mudkip from `7 HP`.
+- **Tactical Rules for Attempt #4:**
+  1. **Deterministic Bounded 2x2 Move Selection:** Because the 2x2 move menu does NOT wrap around, **ALWAYS press `Down, Right` before `A` to select Slot 4 (`Water Gun`), `Up, Right` for Slot 2 (`Bubble`), and `Up, Left` for Slot 1 (`Tackle`)**! This is 100% immune to cursor memory resets.
+  2. **Equip Held Oran Berry & Heal to 100% HP Before Every Trainer:** Harvest the 2 `Oran Berries` at `(24, 2)` and 2 `Pecha Berries` at `(25, 2)` on Route 102 and immediately `GIVE` an `Oran Berry` to our active Pokémon before challenging Lass Tiana (`(15, 5)`).
+  3. **Use Physical `Tackle` (`Up, Left`) at Full HP Against Lass Tiana's `Lv. 6 Sunkern`:** Do not let `Mudkip` face `Sunkern` (`Mega Drain`) at low HP; use `Water Gun` (`Down, Right`, non-contact) to 2HKO `Igglybuff` without triggering `Cute Charm`, then use `Tackle` (`Up, Left`) or a trained Bug/Flying/Normal teammate to 2HKO `Sunkern`.
 
 <hr>
 
