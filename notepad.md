@@ -14,6 +14,7 @@
 
 ## Run Status
 - **Game:** Pokémon Emerald Version (Verify if vanilla or modified upon gameplay)
+- **Player Name:** ORION (Boy / Brendan)
 - **Attempt:** #1
 - **Badges:** 0 / 8
 
