@@ -23,7 +23,7 @@
 
 ## Key Tactical Rules (Learned from Attempts #1 & #2)
 - **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101.
-- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161):** Full-HP Poké Balls pop out on Shake 0 in this ROM. Always weaken wild encounters on Turn 1 while at 100% HP, and immediately `RUN` or heal if HP approaches `2x` enemy attack damage (crit range).
+- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** before throwing a Poké Ball, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
 - **Modified Move Mechanics — Immediate Yawn (Turn 169):** In this ROM, `Yawn` inflicts Sleep (`SLP`) immediately on the turn it is used rather than drowsy delayed sleep.
 - **Route 102 Trainer Scaling (Verified Turn 177–182):** Youngster Calvin at `(33, 14)` on Route 102 has **3 Lv. 6 Pokémon** (`Sentret` with `Assist` -> `Rock Smash` + `Quick Attack`; `Zigzagoon` with `Swift`; plus a 3rd Pokémon with `Rock Smash`). **DO NOT challenge Youngster Calvin at Level 7!** Grind to **Level 10+** and catch Route 103 / Route 102 encounters first!
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
