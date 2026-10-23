@@ -65,7 +65,10 @@
   - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
   - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
 - **Nickname Prompt Transition (Turn 207):** Pressing `A` on `"YES"` to nickname a Pokémon immediately opens the naming keyboard at `(0, 0) = 'A'`. Do not send an extra `A` before directional inputs on the naming grid, or it will type `'A'` as the first character.
-- **Route 102 East Layout & Youngster Calvin (Turns 175–177):**
+- **Route 102 Layout & Trainers (Turns 175–177, 303–314):**
   - Enter Route 102 from Oldale Town `(0, 10)` at `(49, 10)`.
   - Grass-free path to Youngster Calvin: walk `Left` to `(38, 10)`, `Down` 4 tiles to `(38, 14)`, and `Left` 4 tiles to `(34, 14)`.
-  - **Youngster Calvin** stands at **`(33, 14)`** facing `Down` and has 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash, Quick Attack], `Zigzagoon` [Swift], 3rd Pokémon with `Rock Smash`).
+  - **Youngster Calvin** stands at **`(33, 14)`** facing `Down` and has 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash, Quick Attack], `Zigzagoon` [Swift], `Poochyena` [Rock Smash, Howl]).
+  - Grass-free path from `(34, 14)` to Bug Catcher Rick: `Down` 2 to `(34, 16)`, `Left` 6 to `(28, 16)`, `Up` 1 to `(28, 15)`, `Left` 2 to `(26, 15)`.
+  - **Bug Catcher Rick** stands at **`(25, 15)`** facing `Up` and has 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple` [String Shot], `Kakuna` [Poison Sting], `Cascoon` [holds `Berry Juice`, knows `Iron Defense`, `Tackle`]).
+  - **In-Battle Shift & Move Cursor Rules (Turns 308–313):** Using a Potion on a party Pokémon in the overworld resets the in-battle move cursor back to Slot 0 (`Tackle`). In Trainer battles with 2+ party Pokémon on `SHIFT` mode, follow potential KO attacks ONLY with `B` presses so `B` automatically selects `NO` on `"Will ORIQP change POKéMON?"`.
