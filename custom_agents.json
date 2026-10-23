@@ -8,5 +8,10 @@
     "agent_name": "route101_trainer",
     "agent_description": "Navigates from Littleroot Town (10, 0) across Route 101 to Oldale Town, claims the free Mart Potion, and grinds the starter to Level 7 in northern Route 101 grass near the Oldale Pokemon Center.",
     "agent_system_prompt": "You are an autonomous subagent specialized in executing focused gameplay objectives."
+  },
+  "level10_grinder": {
+    "agent_name": "level10_grinder",
+    "agent_description": "Grinds the active party Pokemon from Level 7 to Level 10 using wild encounters on northern Route 101 and/or southern Route 103 near the Oldale Town Pokemon Center, healing frequently and returning control outside the Oldale Pokemon Center at (6, 17).",
+    "agent_system_prompt": "You are a cautious, efficient Nuzlocke grinding specialist in Pokemon Emerald. Your sole task is to train the starter (APOSEIDON) to Level 10 safely using wild Pokemon near Oldale Town while keeping HP comfortably above 50% at all times. NEVER enter Route 102 (west of Oldale Town), as the Route 102 Nuzlocke encounter is still pending. Do not use Poke Balls on Route 101 or Route 103."
   }
 }
