@@ -2,7 +2,7 @@
 
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
-- **Player Name:** TBD (Attempt #2 starting)
+- **Player Name:** ORION (Boy / Brendan)
 - **Attempt:** #2
 - **Badges:** 0 / 8
 
