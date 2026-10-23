@@ -26,7 +26,7 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **AXOLOTL** (Mudkip ♂) — Lv. 5 | HP: 21/21 | Nature: Adamant (+Atk, -SpA) | Ability: Torrent | Stats: 14 Atk / 11 Def / 9 SpA / 11 SpD / 9 Spd | Moves: Tackle (35 PP)
+1. **AXOLOTL** (Mudkip ♂) — Lv. 7 | HP: 25/25 | Nature: Adamant (+Atk, -SpA) | Ability: Torrent | Stats: 17 Atk / 13 Def / 11 SpA / 13 SpD / 11 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
