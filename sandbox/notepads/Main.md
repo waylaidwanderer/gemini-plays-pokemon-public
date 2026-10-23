@@ -22,7 +22,7 @@
    - Elite Four / Champion: **Lv. 58**
 
 ## Active Party
-1. **TRITON** (Mudkip ♂) — Lv. 5 | HP: 20/20 | Moves: Tackle | Notes: Starter from Route 101
+1. **TRITON** (Mudkip ♂) — Lv. 5 | HP: 20/20 | Nature: Timid (+Spd, -Atk) | Ability: Torrent | Stats: 10 Atk / 10 Def / 10 SpA / 11 SpD / 9 Spd | Moves: Tackle (35 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps.

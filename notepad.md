@@ -34,7 +34,7 @@
    - Elite Four / Champion: **Lv. 58**
 
 ## Active Party
-1. **TRITON** (Mudkip ♂) — Lv. 5 | HP: 20/20 | Moves: Tackle | Notes: Starter from Route 101
+1. **TRITON** (Mudkip ♂) — Lv. 5 | HP: 20/20 | Nature: Timid (+Spd, -Atk) | Ability: Torrent | Stats: 10 Atk / 10 Def / 10 SpA / 11 SpD / 9 Spd | Moves: Tackle (35 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps.
@@ -79,5 +79,11 @@
   - 2F: Stairs doorway `(7, 1)` (step `Up` from `(7, 2)` to warp), Wall Clock `(5, 1)` (interact from `(5, 2)` facing `Up`; confirmation defaults to `NO`), Desk PC `(0, 1)` (interact from `(0, 2)` facing `Up`).
 - **Rival's House (May / Right House):**
   - Exterior Door: `(14, 8)`
+
+## Battle & Menu Persistence Mechanics (Turns 29–42)
+- **No In-Battle Bag Healing (Turn 36):** Selecting `POTION` in the `BAG` during battle only shows `▶CANCEL`. Healing items from the Bag can only be used in the overworld. Held items (e.g. `BERRY JUICE`) still activate automatically in battle.
+- **Battle Menu Cursor Memory (Turn 36):** The 2x2 battle menu (`FIGHT` / `BAG` / `POKéMON` / `RUN`) remembers the last used quadrant. Always press `Up`, `Left` before `A` if you previously opened `BAG`, `POKéMON`, or `RUN`.
+- **Start Menu Cursor Memory (Turns 41–42):** The Start menu remembers its cursor row index across openings. Currently `0: POKéMON`, `1: BAG`, `2: ORION`, `3: SAVE`, `4: OPTION`, `5: EXIT`.
+- **Birch's Lab Coordinates (Turn 42):** Birch stands at `(6, 4)`, player stands at `(6, 5)`, exit mat is straight down at `(6, 12)`.
 
 <hr>
