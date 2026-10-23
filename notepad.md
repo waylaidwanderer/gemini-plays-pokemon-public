@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | APOSEIDON | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | APOSEIDON | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | TBD | TBD | - | Pending | Catch after obtaining Pokédex & Poké Balls |
 | Route 102 | TBD | TBD | - | Pending | Catch before challenging Youngster Calvin at `(33, 14)` |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
@@ -46,7 +46,7 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-- *Resetting for Attempt #3 — Mudkip starter pending on Route 101.*
+1. **APOSEIDON** (Mudkip ♂) — Lv. 7 | HP: 25/25 | Ability: Torrent | Stats: 15 Atk / 11 Def / 13 SpA / 13 SpD / 12 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
