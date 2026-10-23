@@ -13,7 +13,7 @@
 # Pokémon Emerald Nuzlocke — Main Dashboard
 
 ## Run Status
-- **Game:** Pokémon Emerald Version (Note: Route 101 Tutorial Zigzagoon held a Berry Juice — watch for modified held items/trainer sets!)
+- **Game:** Pokémon Emerald (Modified / Kaizo-style ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon hold Berry Juice & custom movesets!)
 - **Player Name:** ORION (Boy / Brendan)
 - **Attempt:** #1
 - **Badges:** 0 / 8
