@@ -49,6 +49,7 @@
   4. **Youngster Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102.
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
+- **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
 
 ## Active Party
 - *Resetting for Attempt #4 — Mudkip starter pending on Route 101.*
@@ -139,7 +140,10 @@
   - 1F: Exit mat `(8, 8)` (step `Down` to exit), Stairs to 2F `(8, 2)` (step `Up` onto `(8, 2)` to warp).
   - 2F: Stairs doorway `(7, 1)` (step `Up` from `(7, 2)` to warp), Wall Clock `(5, 1)` (interact from `(5, 2)` facing `Up`; confirmation defaults to `NO`), Desk PC `(0, 1)` (interact from `(0, 2)` facing `Up`).
 - **Rival's House (May / Right House):**
-  - Exterior Door: `(14, 8)`
+  - Exterior Door: `(14, 8)` (exits to `(14, 9)`).
+  - 1F: Entry mat `(2, 8)`, Stairs to 2F at `(2, 2)` (walk `Up` 6 tiles from `(2, 8)` onto `(2, 2)` to warp!).
+  - 2F: Entry at `(1, 2)`, Poké Ball at `(5, 4)` (walk `Down, Down, Right, Right, Right` to `(4, 4)` facing `Right` and press `A` to trigger May's entrance; exit via stairs at `(1, 1)`).
+  - Littleroot North Exit (after meeting May): NPC girl stands at `(10, 1)`; bypass via `(11, 1) -> (11, 0)` onto Route 101!
 
 ## Battle & Menu Persistence Mechanics (Turns 29–42)
 - **No In-Battle Bag Healing (Turn 36):** Selecting `POTION` in the `BAG` during battle only shows `▶CANCEL`. Healing items from the Bag can only be used in the overworld. Held items (e.g. `BERRY JUICE`) still activate automatically in battle.

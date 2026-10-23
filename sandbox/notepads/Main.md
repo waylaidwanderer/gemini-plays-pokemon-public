@@ -33,6 +33,7 @@
   4. **Youngster Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102.
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
+- **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
 
 ## Active Party
 - *Resetting for Attempt #4 — Mudkip starter pending on Route 101.*
