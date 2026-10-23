@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | APOSEIDON | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | APOSEIDON | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | - | 4 | Forfeited | Broke out on Shake 0 at ~52% green HP; fled at 10/25 HP to avoid 14-damage Wing Attack crit range |
 | Route 102 | Ralts ♂ | APOLLO | 4 | Active | Caught at (38, 6) in red HP after 2x Bubble; knows Confusion |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
@@ -46,7 +46,7 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 9 (1242/1250 EXP, 8 EXP to Lv. 10) | HP: 29/29 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 18 Atk / 13 Def / 15 SpA / 15 SpD / 14 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
+1. **APOSEIDON** (Mudkip ♂) — Lv. 10 | HP: ~31/31 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), + Lv. 10 Move
 2. **APOLLO** (Ralts ♂) — Lv. 4 (80/156 EXP) | HP: 16/16 | Nature: Naughty (+Atk, -SpD) | Ability: Synchronize | Stats: 8 Atk / 7 Def / 9 SpA / 7 SpD / 8 Spd | Moves: Confusion (25 PP)
 
 ## Notepad Index
@@ -154,6 +154,7 @@
 - **Wild Encounter Pools Observed:**
   - **Route 101 (Claimed by Starter):** Lv. 2–3 `Wurmple` (`Tackle`, `String Shot`), `Weedle` (`Poison Sting`, `String Shot`), `Caterpie` (`Tackle`, `String Shot`), `Pidgey`, `Sentret` (`Quick Attack`), `Rattata` (`Quick Attack`, `Tail Whip`), `Poochyena` (`Tackle`, `Howl`), `Zigzagoon` (`Swift`, `Sand-Attack`, holds `Berry Juice`), `Pichu` (`ThunderShock`, `Charm`, Ability: `Static`), `Togepi` (`Growl`, `Charm`, `Metronome`), `Igglybuff` (`Sing`, `Charm`). Note: The left northern grass patch sits at `x=4..6, y=2..4` while `x=7..10, y=1..4` is a grass-free corridor.
   - **Route 103:** Lv. 4 `Poliwag` (`Water Gun`, 44 EXP), `Skitty` (`Attract`), `Wingull` (`Water Gun`, `Wing Attack` 60 BP STAB, 10 Speed), `Ledyba` (`Silver Wind`), `Sunkern` (`Absorb`, `Growth`), `Spoink` (`Confusion`), `Ekans`, `Spearow`, `Hoppip`, `Mareep` (`ThunderShock`). Note: Bypass the lower ledge (`y=12`) grass-free via the 1-tile gap at `(14, 12)`.
+  - **Route 102:** Lv. 6 `Gulpin` (`Yawn` [inflicts immediate sleep], `Acid`, `Pound`), Lv. 4 `Ralts` (`Confusion`, Ability: `Synchronize`).
 - **Southbound Grass-Free Ledge Corridor & Mom's Heal (Turns 130–146):**
   - Walking straight `Down` along column **`x=10`** from `(10, 4)` on Route 103 jumps over both ledges (`y=5`, `y=12`) into Oldale Town with **0 grass tiles**.
   - Walking straight `Down` along column **`x=10`** across Route 101 jumps over both ledges (`y=6`, `y=13`) into Littleroot Town with **0 grass tiles**.
