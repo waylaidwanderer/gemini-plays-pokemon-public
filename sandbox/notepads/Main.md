@@ -28,3 +28,4 @@
 - `Main`: High-level dashboard, party summary, level caps.
 - `Locations/Encounters`: Route-by-route encounter tracking.
 - `Mechanics/Graveyard`: Fallen Pokémon and run history.
+- `Mechanics/UIAndControls`: Verified naming keyboard grid, warp/cutscene scripting patterns, and Littleroot coordinates.
