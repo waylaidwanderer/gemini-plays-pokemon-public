@@ -30,8 +30,8 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 11 (1751 EXP) | HP: 28/33 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 21 Atk / 16 Def / 18 SpA / 17 SpD / 16 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
-2. **APOLLO** (Ralts ♂) — Lv. 4 (80/156 EXP) | HP: 18/18 | Nature: Naughty (+Atk, -SpD) | Ability: Synchronize | Stats: 8 Atk / 7 Def / 9 SpA / 7 SpD / 8 Spd | Moves: Confusion (25 PP)
+1. **APOSEIDON** (Mudkip ♂) — Lv. 11 (1800 EXP) | HP: 7/33 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 21 Atk / 16 Def / 18 SpA / 17 SpD / 16 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
+- *Note: Deposit deceased APOLLO (Lv. 4 Ralts) into the PC Graveyard box at the Petalburg / Oldale Pokémon Center.*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.

@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | APOSEIDON | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | - | 4 | Forfeited | Broke out on Shake 0 at ~52% green HP; fled at 10/25 HP to avoid 14-damage Wing Attack crit range |
-| Route 102 | Ralts ♂ | APOLLO | 4 | Active | Caught at (38, 6) in red HP after 2x Bubble; knows Confusion |
+| Route 102 | Ralts ♂ | APOLLO | 4 | Deceased | Caught at (38, 6); fell on Turn 326 vs Lass Tiana's Lv. 6 Igglybuff (`Present`) while pivoting to cure APOSEIDON's infatuation |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -46,8 +46,8 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 11 (1751 EXP) | HP: 28/33 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 21 Atk / 16 Def / 18 SpA / 17 SpD / 16 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
-2. **APOLLO** (Ralts ♂) — Lv. 4 (80/156 EXP) | HP: 18/18 | Nature: Naughty (+Atk, -SpD) | Ability: Synchronize | Stats: 8 Atk / 7 Def / 9 SpA / 7 SpD / 8 Spd | Moves: Confusion (25 PP)
+1. **APOSEIDON** (Mudkip ♂) — Lv. 11 (1800 EXP) | HP: 7/33 | Nature: Gentle (+SpD, -Def) | Ability: Torrent | Stats: 21 Atk / 16 Def / 18 SpA / 17 SpD / 16 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
+- *Note: Deposit deceased APOLLO (Lv. 4 Ralts) into the PC Graveyard box at the Petalburg / Oldale Pokémon Center.*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -91,6 +91,13 @@
 - **Tactical Rules for Attempt #3:**
   1. **Level 10+ Before Route 103/102 Catches & Route 102 Trainers:** Grind Mudkip to **Level 9–10** on Route 101 / Route 103 before attempting our Route 103 and Route 102 Nuzlocke catches or fighting Youngster Calvin. Higher bulk (`~32–35 HP`) allows safely throwing multiple Poké Balls to guarantee catches, and higher Attack (`~23–25 Atk`) cleanly 2HKOs/3HKOs Lv. 6 trainer Pokémon.
   2. **Never Fight Route 102 Trainers Solo at Lv. 7:** Ensure we have **at least Lv. 10+** (and ideally a 2nd caught Pokémon from Route 103 or Route 102 to pivot out of stat drops/Yawn) before challenging Youngster Calvin at `(33, 14)`.
+
+---
+
+## Attempt #3 Casualties (Starting Turn 184)
+- **APOLLO** (Ralts ♂, Lv. 4, Naughty, `Synchronize`) — Died on Turn 326 on Route 102 `(16, 5)` to Lass Tiana's Lv. 6 `Igglybuff` (`Present`, Ability: `Cute Charm`, held `Oran Berry`).
+  - **Context & Lessons:** Using `Tackle` (a contact move) on Turn 1 against Igglybuff triggered `Cute Charm` (`50%` infatuation immobilization), because opening the Berry planting Bag screen in Turn 319 had reset our move cursor from `Water Gun` (Slot 4) to `Tackle` (Slot 1). After two consecutive infatuation immobilizations and `Present` hits dropped `APOSEIDON` to `7/33 HP`, `APOLLO` pivoted in to cure `APOSEIDON`'s infatuation, burned Igglybuff's held `Oran Berry` and dropped it into red HP with `Confusion`, and absorbed the next `Present` so `APOSEIDON` could re-enter safely with Torrent active (`90 BP` `Water Gun`) and sweep.
+  - **Rule Going Forward:** Always verify that a non-contact move (`Water Gun` / `Bubble`) is selected after any overworld Bag/Party screen opening before attacking Pokémon with contact abilities (`Cute Charm`, `Static`, `Poison Point`, `Effect Spore`).
 
 <hr>
 
@@ -170,5 +177,7 @@
   - Grass-free path from `(34, 14)` to Bug Catcher Rick: `Down` 2 to `(34, 16)`, `Left` 6 to `(28, 16)`, `Up` 1 to `(28, 15)`, `Left` 2 to `(26, 15)`.
   - **Bug Catcher Rick** stands at **`(25, 15)`** facing `Up` and has 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple` [String Shot], `Kakuna` [Poison Sting], `Cascoon` [holds `Berry Juice`, knows `Iron Defense`, `Tackle`]).
   - **In-Battle Shift & Move Cursor Rules (Turns 308–313):** Using a Potion on a party Pokémon in the overworld resets the in-battle move cursor back to Slot 0 (`Tackle`). In Trainer battles with 2+ party Pokémon on `SHIFT` mode, follow potential KO attacks ONLY with `B` presses so `B` automatically selects `NO` on `"Will ORIQP change POKéMON?"`.
+  - **Lass Tiana** stands at **`(15, 5)`** facing `Up` and has 2 Lv. 6 Pokémon (`Igglybuff` [Ability: `Cute Charm`, holds `Oran Berry`, uses `Present`], `Sunkern` [`Absorb`]).
+  - **Berry Tree Harvesting Formula (Turn 319):** Press `A` **3 times** with `sleep 1200` (`sleep 3000` after the 3rd `A`) to confirm picking the Berries, then press `B` **twice** (`sleep 1200`) to close the text without re-interacting with the loamy soil (which otherwise opens the `BERRIES POCKET` and resets the in-battle move cursor to Slot 0).
 
 <hr>
