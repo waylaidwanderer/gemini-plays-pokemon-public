@@ -1,12 +1,12 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #2)
+# Route & Area Encounters (Attempt #3)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | AXOLOTL | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Sunkern ♀ | - | 4 | Forfeited | Fled at 10/25 HP to avoid 2x Absorb crit range |
-| Route 102 | Gulpin ♂ | - | 6 | Forfeited | Fled at 15/25 HP (SLP) to avoid fatal second immediate-sleep Yawn + Acid cycle |
+| Route 101 | TBD (Mudkip) | TBD | 5 | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Catch after obtaining Pokédex & Poké Balls |
+| Route 102 | TBD | TBD | - | Pending | Catch before challenging Youngster Calvin at `(33, 14)` |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -19,7 +19,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #2
+- **Attempt:** #3
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -37,15 +37,16 @@
    - Gym 8 (Juan): **Lv. 46**
    - Elite Four / Champion: **Lv. 58**
 
-## Key Tactical Rules (Learned from Attempt #1 & #2)
+## Key Tactical Rules (Learned from Attempts #1 & #2)
 - **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101.
 - **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161):** Full-HP Poké Balls pop out on Shake 0 in this ROM. Always weaken wild encounters on Turn 1 while at 100% HP, and immediately `RUN` or heal if HP approaches `2x` enemy attack damage (crit range).
 - **Modified Move Mechanics — Immediate Yawn (Turn 169):** In this ROM, `Yawn` inflicts Sleep (`SLP`) immediately on the turn it is used rather than drowsy delayed sleep.
+- **Route 102 Trainer Scaling (Verified Turn 177–182):** Youngster Calvin at `(33, 14)` on Route 102 has **3 Lv. 6 Pokémon** (`Sentret` with `Assist` -> `Rock Smash` + `Quick Attack`; `Zigzagoon` with `Swift`; plus a 3rd Pokémon with `Rock Smash`). **DO NOT challenge Youngster Calvin at Level 7!** Grind to **Level 10+** and catch Route 103 / Route 102 encounters first!
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **AXOLOTL** (Mudkip ♂) — Lv. 7 | HP: 25/25 | Nature: Adamant (+Atk, -SpA) | Ability: Torrent | Stats: 17 Atk / 13 Def / 11 SpA / 13 SpD / 11 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
+- *Resetting for Attempt #3 — Mudkip starter pending on Route 101.*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -73,6 +74,22 @@
 
 ## Attempt #2 (Starting Turn 79)
 - **Deaths:** None
+
+---
+
+## Attempt #2 Wipe Post-Mortem (Turn 183)
+- **Fallen Pokémon:** `AXOLOTL` (Mudkip ♂, Lv. 7, Adamant) — Fainted at `(34, 14)` on Route 102 against Youngster Calvin.
+- **Enemy Details (Youngster Calvin at `(33, 14)` on Route 102):**
+  - Has **3 Pokémon**:
+    1. **Sentret ♂ Lv. 6**: Knows `Assist` (called `Rock Smash` from a back-line teammate, inflicting `-1 Def` drops) and `Quick Attack` (+1 priority, dealt 9 HP after two Defense drops). Took 3 `Tackle` hits (`~36%` each from Lv. 7 Adamant Mudkip) plus 1 `Bubble` to KO, yielding `72 EXP`.
+    2. **Zigzagoon ♂ Lv. 6**: Outsped Lv. 7 Mudkip (`11 Spd`) and used `Swift` (60 BP STAB never-miss).
+    3. **3rd Pokémon (Unseen)**: Knows `Rock Smash` (verified via Sentret's `Assist`).
+- **Root Causes of Wipe:**
+  1. **Underleveled for Route 102 Trainers:** Challenged Youngster Calvin at **Level 7** (`15 EXP` short of Level 8), causing `Tackle` to miss the 3HKO on Lv. 6 Sentret by ~1 HP and allowing Sentret an extra turn to land a second `-2 Def` `Quick Attack` (`10 -> 2 HP`).
+  2. **Solo Party (0 Catch Captures on Routes 103 & 102):** At Level 7 (`25 HP`), wild Lv. 4 Sunkern on Route 103 and wild Lv. 6 Gulpin (`Yawn` + `Acid`) on Route 102 threatened AXOLOTL's HP too quickly, forcing us to flee both encounters and face Youngster Calvin solo with no switch-in to clear `Rock Smash` Defense drops.
+- **Tactical Rules for Attempt #3:**
+  1. **Level 10+ Before Route 103/102 Catches & Route 102 Trainers:** Grind Mudkip to **Level 9–10** on Route 101 / Route 103 before attempting our Route 103 and Route 102 Nuzlocke catches or fighting Youngster Calvin. Higher bulk (`~32–35 HP`) allows safely throwing multiple Poké Balls to guarantee catches, and higher Attack (`~23–25 Atk`) cleanly 2HKOs/3HKOs Lv. 6 trainer Pokémon.
+  2. **Never Fight Route 102 Trainers Solo at Lv. 7:** Ensure we have **at least Lv. 10+** (and ideally a 2nd caught Pokémon from Route 103 or Route 102 to pivot out of stat drops/Yawn) before challenging Youngster Calvin at `(33, 14)`.
 
 <hr>
 
