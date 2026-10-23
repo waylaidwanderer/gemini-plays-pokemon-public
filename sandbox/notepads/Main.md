@@ -1,7 +1,7 @@
 # Pokémon Emerald Nuzlocke — Main Dashboard
 
 ## Run Status
-- **Game:** Pokémon Emerald Version (Verify if vanilla or modified upon gameplay)
+- **Game:** Pokémon Emerald Version (Note: Route 101 Tutorial Zigzagoon held a Berry Juice — watch for modified held items/trainer sets!)
 - **Player Name:** ORION (Boy / Brendan)
 - **Attempt:** #1
 - **Badges:** 0 / 8
