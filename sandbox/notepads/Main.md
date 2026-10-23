@@ -30,7 +30,7 @@
 - **Heal in Overworld Above 75% HP:** Bag Potions cannot be used in battle.
 
 ## Active Party
-1. **APOSEIDON** (Mudkip ♂) — Lv. 7 | HP: 25/25 | Ability: Torrent | Stats: 15 Atk / 11 Def / 13 SpA / 13 SpD / 12 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
+1. **APOSEIDON** (Mudkip ♂) — Lv. 9 (98% EXP to Lv. 10) | HP: 29/29 | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
