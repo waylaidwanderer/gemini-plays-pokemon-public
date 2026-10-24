@@ -1011,6 +1011,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - A large lava pool occupies cols 8..14, rows 4..6.
   - An open 2-tile wide dirt corridor runs along rows 2..3 above the lava pool, leading West past col 10 into the western section of 4F.
   - The southern doorway at (21, 9/10) is blocked by cliff walls on this level.
+- 4F Lava Pool & Southwestern Crate Staircase:
+  - Row 3 above the lava pool is blocked by northern cliff walls at col 13.
+  - The walkable progression route goes South from (13, 4) down to row 7, then West along row 7 under the lava pool (cols 13..8).
+  - Crate staircase located at cols 7..8, rows 8..11 connects down to the next lower terrace!
 
 <hr>
 
