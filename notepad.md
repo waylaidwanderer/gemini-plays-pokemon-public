@@ -21,6 +21,9 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - 1F Central Water Basin (col 13, rows 20..22):
   - Entrance channel widens into a subterranean water basin spanning cols 8..18, rows 20..22.
   - Channel constricts at row 20 and continues North along col 13.
+- 1F North Dock & Guard Post (cols 13..14, rows 11..12):
+  - White stone/metal stairs at (13..14, 12) lead up from the water onto the metal facility floor.
+  - Two Team Aqua Grunts stand guard at (13, 11) and (14, 11) facing South, blocking the railing gap.
 
 <hr>
 
