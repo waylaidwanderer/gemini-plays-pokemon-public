@@ -16,3 +16,6 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - 1-tile wide water channel flanked by cavern rock walls at col 12 and col 14.
   - Spawns at (13, 27) surfing on water facing North.
   - Leads North into main 1F facility area.
+- 1F Central Water Basin (col 13, rows 20..22):
+  - Entrance channel widens into a subterranean water basin spanning cols 8..18, rows 20..22.
+  - Channel constricts at row 20 and continues North along col 13.
