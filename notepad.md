@@ -1081,6 +1081,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - 4F Lower Tier Crate Staircase (col 20, rows 12..15):
   - Located directly south of the 5F doorway at (21, 9..10).
   - 4-step crate staircase descends from row 11 down to the lower tier (row 16+) beside the lava river.
+- 4F Lower Tier (rows 16..22+, cols 15..22):
+  - Descended crate staircase at col 20 (rows 12..15) onto row 16.
+  - Flanked by massive lava lake on west and mountain cliff on east.
+  - Team Magma Grunt #8 stationed at (21..22, 21) facing West along the lower pathway.
 
 <hr>
 
