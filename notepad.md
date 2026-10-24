@@ -910,10 +910,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 3. [x] Teach HM04 Strength to Cobalu (Aron) replacing Headbutt (Turn 13778).
 4. [x] Solve 1F Boulder Puzzle at cols 4..7, rows 22..24 (Turn 13788).
 5. [x] Traverse 1F to southern doorway at (25, 35).
-6. [ ] Explore 2F chambers and lower floors.
-7. [ ] Defeat Team Magma Grunts and Admin Tabitha.
-8. [ ] Confront Team Magma Leader Maxie at the magma core.
-9. [ ] Witness Groudon's awakening and escape.
+6. [x] Explore 2F chambers and lower floors.
+7. [x] Defeat Team Magma Grunts and Admin Tabitha.
+8. [x] Confront Team Magma Leader Maxie at the magma core.
+9. [x] Witness Groudon's awakening and escape.
 
 ## Discovered Topography & Navigation - 1F
 - Entrance Area (rows 28..35):
@@ -1128,6 +1128,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - In battle Party screen, sending out a substitute Pokémon moves that Pokémon to Slot 1 (main left box) and places the fainted Pokémon into the substitute's previous slot (Sage moved to Slot 6 at bottom right).
 - To revive Sage, navigate from Slot 1 across to the right column (Right) and down 4 times to Slot 6 before confirming Revive.
 - Maxie's Crobat Lv 38 has Wing Attack and high speed, but Sage Lv 52 (Speed 153) outspeeds it once on the field and has Rock Tomb (2x SE).
+
+- Story Climax Complete (Turn 14995): Leader Maxie defeated (Prize: ¥3,120). Groudon awakened by the Blue Orb and escaped into the Hoenn skies. Escape warp at (17, 21) connects directly back to Jagged Pass.
 
 
 <hr>
@@ -3401,15 +3403,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: BATTLING LEADER MAXIE AT MAGMA CORE! Reached 6F (Inner Sanctum) at (46, 8), descended crate staircase to (46, 16), and advancing south down excavation terraces toward Tabitha, Maxie, and Groudon! Party: Sage Lv 52 (HP 80/159), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: MAGMA HIDEOUT COMPLETED! Leader Maxie defeated, Groudon fled. Exiting to Jagged Pass and returning to Lilycove City to stop Team Aqua! Reached 6F (Inner Sanctum) at (46, 8), descended crate staircase to (46, 16), and advancing south down excavation terraces toward Tabitha, Maxie, and Groudon! Party: Sage Lv 52 (HP 79/159), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 80/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153. (Note: Elixir x0 in Bag can restore all PP before Tabitha/Maxie).
+1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 79/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153. (Note: Elixir x0 in Bag can restore all PP before Tabitha/Maxie).
 2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (14/15), Flash (20/20). HP: 73/73. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 5) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 24/24. Max HP: 24. Status: OK. Nature: Lax. Ability: Shadow Tag.
-6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). Status: OK.
+6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 0/95. Max HP: 95. Status: FNT. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). Status: OK.
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - enables HM02 Fly outside battle, obedience up to Lv 70).
@@ -3440,7 +3442,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥12,369
+- Money: ¥15,489
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

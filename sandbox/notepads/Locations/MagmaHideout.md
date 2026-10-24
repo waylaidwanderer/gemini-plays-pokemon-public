@@ -14,10 +14,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 3. [x] Teach HM04 Strength to Cobalu (Aron) replacing Headbutt (Turn 13778).
 4. [x] Solve 1F Boulder Puzzle at cols 4..7, rows 22..24 (Turn 13788).
 5. [x] Traverse 1F to southern doorway at (25, 35).
-6. [ ] Explore 2F chambers and lower floors.
-7. [ ] Defeat Team Magma Grunts and Admin Tabitha.
-8. [ ] Confront Team Magma Leader Maxie at the magma core.
-9. [ ] Witness Groudon's awakening and escape.
+6. [x] Explore 2F chambers and lower floors.
+7. [x] Defeat Team Magma Grunts and Admin Tabitha.
+8. [x] Confront Team Magma Leader Maxie at the magma core.
+9. [x] Witness Groudon's awakening and escape.
 
 ## Discovered Topography & Navigation - 1F
 - Entrance Area (rows 28..35):
@@ -232,3 +232,5 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - In battle Party screen, sending out a substitute Pokémon moves that Pokémon to Slot 1 (main left box) and places the fainted Pokémon into the substitute's previous slot (Sage moved to Slot 6 at bottom right).
 - To revive Sage, navigate from Slot 1 across to the right column (Right) and down 4 times to Slot 6 before confirming Revive.
 - Maxie's Crobat Lv 38 has Wing Attack and high speed, but Sage Lv 52 (Speed 153) outspeeds it once on the field and has Rock Tomb (2x SE).
+
+- Story Climax Complete (Turn 14995): Leader Maxie defeated (Prize: ¥3,120). Groudon awakened by the Blue Orb and escaped into the Hoenn skies. Escape warp at (17, 21) connects directly back to Jagged Pass.
