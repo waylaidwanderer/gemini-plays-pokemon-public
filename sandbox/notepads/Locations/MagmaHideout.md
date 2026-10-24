@@ -64,3 +64,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Level 2 cliff edge drops into sunken courtyard (Level 3) to the west.
   - Crate steps #4 located at cols 16..17, rows 25..26 connect Level 2 down to Level 3 sunken courtyard (row 27).
   - Level 3 Sunken Courtyard: Wide open cavern floor containing the southern cave doorway cut into the north wall, leading deeper into Magma Hideout!
+
+## Discovered Topography & Navigation - 3F
+- Southern Entrance:
+  - Warp mat from 2F doorway at (10, 23). Player spawns at (10, 22) facing North.
+  - Open dirt canyon corridor flanked by rock walls leads North along cols 9..11 into the chamber.
