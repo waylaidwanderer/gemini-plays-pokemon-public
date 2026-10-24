@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Spearow ♀ | ATHENA | 4 | Active | Caught on Turn 796 (`Peck`, `Growl`) |
-| Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
+| Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -60,6 +60,7 @@
 ## Active Party
 1. **MUDKIP** — Mudkip ♀ (Lv. 10, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **ATHENA** — Spearow ♀ (Lv. 4, `Keen Eye`, Moves: `Peck`, `Growl`) — Met on Route 103.
+3. **MERLIN** — Ralts ♂ (Lv. 4, `Growl`, `Confusion`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
