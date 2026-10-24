@@ -111,3 +111,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Row 7 dead-ends at (20, 7) against a cliff corner.
   - The open horizontal path is on rows 4..5, running west from col 23 to col 17.
   - From (17, 5), the path leads south around the generator console down to the lower terrace (rows 10..12) where the southern cave doorway is entered from the south.
+- 4F Lava Pool & Northern Corridor (cols 8..14, rows 2..6):
+  - A large lava pool occupies cols 8..14, rows 4..6.
+  - An open 2-tile wide dirt corridor runs along rows 2..3 above the lava pool, leading West past col 10 into the western section of 4F.
+  - The southern doorway at (21, 9/10) is blocked by cliff walls on this level.
