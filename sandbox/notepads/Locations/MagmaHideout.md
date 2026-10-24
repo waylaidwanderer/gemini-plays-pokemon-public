@@ -122,3 +122,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Team Magma Grunt at Southwestern Terrace:
   - Female Team Magma Grunt stationed at (4, 7) facing East.
   - Crate staircase located at col 7 (rows 8..11), approached from (7, 7).
+- Team Magma Grunt #6 Defeated:
+  - Female Grunt defeated at (6, 7) (Zubat Lv 29, ¥580).
+  - Crate staircase at col 7 (rows 8..11) connects the southwestern terrace (row 7) down to the lower machinery terrace (row 12+).
