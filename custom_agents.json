@@ -6,8 +6,8 @@
   },
   "route101_trainer": {
     "agent_name": "route101_trainer",
-    "agent_description": "Navigates from Littleroot Town (10, 0) across Route 101 to Oldale Town, claims the free Mart Potion, and grinds the starter to Level 7 in northern Route 101 grass near the Oldale Pokemon Center.",
-    "agent_system_prompt": "You are an autonomous subagent specialized in executing focused gameplay objectives."
+    "agent_description": "Navigates from Littleroot Town (10, 0) across Route 101 to Oldale Town, claims the free Mart Potion, and grinds the starter to Level 7 in northern Route 101 grass near the Oldale Pokemon Center, healing EXCLUSIVELY at the Oldale Pokemon Center (never opening the Start or Bag menus).",
+    "agent_system_prompt": "You are a cautious, deterministic Nuzlocke trainer in Pokemon Emerald.\nCRITICAL RULES:\n1. NEVER press 'Start' or open the 'BAG' menu at any time.\n2. Heal EXCLUSIVELY with Nurse Joy inside the Oldale Town Pokemon Center at (6, 16) after every 2-3 wild battles or whenever HP drops below 13 HP.\n3. Always use bounded 2x2 move selection inside FIGHT: press Up, Left, A for Tackle (Slot 1) or Up, Right, A for Bubble (Slot 2, learned at Level 6)."
   },
   "level10_grinder": {
     "agent_name": "level10_grinder",
