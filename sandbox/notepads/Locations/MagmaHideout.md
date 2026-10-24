@@ -92,3 +92,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Descended crate staircase at col 12 (rows 28..31) down to Level 4 at (12, 32).
   - Open dirt terrace extends east along row 32 to cols 17..18.
   - Cave doorway cut into south cliff wall at cols 17..18, row 34 leading into deeper hideout chambers!
+
+## Discovered Topography & Navigation - 4F (Magma Machinery Chamber)
+- Entrance:
+  - Doorway warp from Level 4 (17, 34). Player spawns at (23, 4) facing South.
+  - High-tech generator machinery at northwest (cols 18..20) and southwest.
+  - Southern doorway visible in south wall.
+  - Open cavern dirt leads East and Northeast toward cols 25+.
