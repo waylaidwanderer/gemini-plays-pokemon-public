@@ -1107,7 +1107,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Entrance: Crate staircase at cols 46..47, rows 12..16 descends to row 17.
   - Drill Tanks: Tank 1 at cols 41..43, rows 17..19; Tank 2 at cols 48..50, rows 17..19.
   - Southern Terraces (Debunked): Rows 21, 23, 25 are solid impassable cliff faces with notched rock corners (cols 40..48 tested; cannot be jumped down on foot). South is a dead-end overlook.
-  - Northwest Passage: The true walkable route routes west along row 20 past Tank 1 to col 38, then leads north up cols 38..39 (rows 19..14) past a 4-sparkle Secret Base spot into the northwest cavern passage!
+  - West Ramp & Terrace 2 (Verified): From row 20, col 38 opens into a dirt ramp descending south through rows 21..22 onto Terrace 2 at row 23.
+  - Team Magma Grunt #9: Stationed at (31, 22) facing South on Terrace 2, guarding the western cavern passage (cols 30..32) that leads deeper into the magma core.
 
 <hr>
 
