@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: MAGMA HIDEOUT COMPLETED! Escaped via Cobalu's Dig to Jagged Pass. Heading south to Lavaridge Town to heal, then flying to Lilycove City to infiltrate Team Aqua Hideout! Party: Sage Lv 52 (HP 79/159), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: MAGMA HIDEOUT COMPLETED! Leader Maxie defeated, Groudon fled. Escaping Magma Hideout on foot along 1F Central Lower Highway, heading west to Column 5 Canyon and south to the Jagged Pass exit! Party: Sage Lv 52 (HP 79/159), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 79/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153. (Note: Elixir x0 in Bag can restore all PP before Tabitha/Maxie).
-2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (14/15), Flash (20/20). HP: 73/73. Status: OK.
+1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 79/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
+2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (14/15), Flash (20/20). HP: 55/78. Max HP: 78. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 5) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 24/24. Max HP: 24. Status: OK. Nature: Lax. Ability: Shadow Tag.
