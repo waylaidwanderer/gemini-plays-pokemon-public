@@ -937,7 +937,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Spawns at (8, 3) facing South from doorway at (8, 2).
   - Corridor runs along row 5 from col 6 to col 27. Impassable cliff drops off to the south along row 6 overlooking the main lower chamber.
   - Secret Base spot with 4 sparkle diamonds at (27..28, 2).
-  - Main chamber access: Columns 24–26 south of the crates (cols 22..23, rows 6..7) require systematic traversal to descend into the lower chamber.
+  - Main chamber access: The yellow/blue crates at cols 22..23, rows 7..8 are walkable crate steps! Walking south from (22, 6) onto (22, 7) and (22, 8) steps down off the upper ledge directly into the main lower chamber (row 9+) where Team Magma Grunt #3 is stationed at (22, 11).
 - Central Elevated Plateau & Northern Doorway (1F):
   - Ascended via white staircase at (23..24, 26) from Eastern Avenue (24, 27..28).
   - Small 3x2 landing platform at cols 22..24, rows 25..26.
