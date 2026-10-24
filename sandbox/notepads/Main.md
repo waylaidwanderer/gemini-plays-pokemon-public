@@ -38,7 +38,7 @@
 - **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
 
 ## Active Party
-- *Resetting for Attempt #5 — Mudkip starter pending on Route 101.*
+1. **OCEANUS** (Mudkip ♂) — Lv. 5 | HP: 21/21 | Ability: Torrent | Moves: Tackle (35 PP), Growl (40 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
