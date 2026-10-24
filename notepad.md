@@ -58,8 +58,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 1 `POKéMON`)
-1. **ATHENA** — Spearow ♀ (Lv. 12, `25/33 HP`, `Keen Eye`, Stats: `33 HP / 22 Atk / 12 Def / 16 SpA / 13 SpD / 24 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`]) — Met on Route 103.
-2. **MUDKIP** — Mudkip ♀ (Lv. 10, `28/31 HP`, Held: `Oran Berry`, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+1. **ATHENA** — Spearow ♀ (Lv. 12, `33/33 HP`, Held: `Oran Berry`, `Keen Eye`, Stats: `33 HP / 22 Atk / 12 Def / 16 SpA / 13 SpD / 24 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`]) — Met on Route 103.
+2. **MUDKIP** — Mudkip ♀ (Lv. 10, `31/31 HP`, Held: `Oran Berry`, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 3. **MERLIN** — Ralts ♂ (Lv. 4, `18/18 HP`, `Growl`, `Confusion`) — Met on Route 102.
 
 ## Notepad Index
@@ -244,10 +244,9 @@
     - Poké Mart door: `(25, 12)` (exits to `(25, 13)`; approach from `(18, 11)` via `Right` 5 to `(23, 11)`, `Down` 2 to `(23, 13)`, `Right` 2 to `(25, 13)`, `Up` 1 into `(25, 12)`).
     - Petalburg Gym door: `(15, 8)` (exits to `(15, 9)`).
     - West exit (to Route 104 South): From `(15, 9)`, walk `Left` 3 to `(12, 9)`, `Down` 2 to `(12, 11)`, `Left` 10 to `(2, 11)` (triggers Scott's intro dialogue at `(4, 11)`), `Down` 1 to `(2, 12)`, and `Left` 3 onto Route 104 South at `(39, 62)`.
-  - **Route 104 (South) Coordinates (Verified Turns 601–653, 885):**
-    - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free; trees occupy `x=34..38, y=59..60`).
-    - Berry trees at eastern entrance: `(37, 57)` and `(38, 57)` (approach from `(39, 62)` via `Up` 4 along `x=39` to `(39, 58)`, then `Left` 1 to `(38, 58)` facing `(38, 57)`).
-    - Tall grass patch: `(28, 58)`–`(28, 57)` (approach from `(34, 60)` via `Left` 6 to `(28, 60)`, `Up` 2 to `(28, 58)`).
+  - **Route 104 (South) Coordinates (Verified Turns 601–653, 885–886):**
+    - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free; solid forest trees occupy `x=33..42, y=56..60`, blocking the trees above `y=56`, and a non-trainer NPC stands at `(29, 61)`).
+    - Tall grass patch: `(28, 58)`–`(28, 57)` (approach from `(38, 61)` via `Left` 4 to `(34, 61)`, `Up` 1 to `(34, 60)`, `Left` 6 along `y=60` above the NPC at `(29, 61)` to `(28, 60)`, `Up` 2 to `(28, 58)`).
     - Stairs to lower beach: `x=27..28, y=69..70` (walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(26, 70)`, then `Left` onto the beach at `x=20`).
     - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
     - **Fisherman Darian `(15, 58)` / `(15, 59)`:** Has **2 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]).
