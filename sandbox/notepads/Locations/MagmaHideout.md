@@ -128,3 +128,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - 4F Western Canyon (cols 4..6, rows 11..16+):
   - From the base of the crate staircase (col 7, row 11), the corridor routes west through (6, 12) and (5, 12) into a north-south canyon running along cols 4..5.
   - The canyon extends straight South past row 15 between the western mountain wall and the central cliff/lava river.
+- 4F Lower Terrace Thoroughfare (row 11, cols 5..21):
+  - Row 12 is a cliff ridge dropping south into the lava chasm.
+  - Row 11 is the true east-west progression highway connecting the col 7 crate staircase directly to the cave doorway at (21, 10).
+  - Passing east above the generator consoles along row 11 leads straight to the cave doorway entrance.
