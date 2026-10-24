@@ -192,3 +192,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Team Magma Grunt #8 Defeated:
   - Female Grunt defeated at (21, 21) (Baltoy Lv 29, ¥580).
   - An enormous wide-open dirt highway extends South and West across rows 22..26+ beneath the lava lake, leading directly into the deeper hideout.
+- 4F Southwestern Cave Doorway (cols 6..7, row 22):
+  - Cut into the southern shore cliff wall beneath the lava lake at (7, 22).
+  - An item ball is visible on the high cliff ledge above the lava at (8, 15).
+  - Stepping into doorway at (7, 22) leads into the inner sanctum / magma core where Groudon and Leader Maxie are!

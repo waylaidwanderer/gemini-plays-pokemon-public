@@ -1088,6 +1088,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Team Magma Grunt #8 Defeated:
   - Female Grunt defeated at (21, 21) (Baltoy Lv 29, ¥580).
   - An enormous wide-open dirt highway extends South and West across rows 22..26+ beneath the lava lake, leading directly into the deeper hideout.
+- 4F Southwestern Cave Doorway (cols 6..7, row 22):
+  - Cut into the southern shore cliff wall beneath the lava lake at (7, 22).
+  - An item ball is visible on the high cliff ledge above the lava at (8, 15).
+  - Stepping into doorway at (7, 22) leads into the inner sanctum / magma core where Groudon and Leader Maxie are!
 
 <hr>
 
@@ -3360,7 +3364,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Returned to 4F at (21, 10). Descending crate staircase at col 20 (rows 12..15) down to the lower tier to confront the southern Grunt and advance toward the magma core! Party: Sage Lv 51 (HP 119/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Defeated Grunt #8 at (21, 21) on 4F lower tier. Entering southwestern cave doorway at (7, 22) beneath the lava lake to reach Groudon's sanctum! Party: Sage Lv 51 (HP 119/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (7/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (28/30). HP: 119/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
