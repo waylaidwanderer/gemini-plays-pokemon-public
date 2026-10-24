@@ -968,6 +968,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - 3F Junction (row 16..17):
   - North-West: Crate steps at (8, 14) confirmed to be a one-way downward ledge (cannot be ascended from the south at 8, 15). Upper ledge with Grunt at (7, 13) is an exit drop-point.
   - East: Open dirt highway along rows 16..17 is the true progression route leading east into the 3F main cavern.
+- 3F Eastern Highway:
+  - Cliff outcrop at cols 18..19, rows 16..17 requires routing south to row 18 at (16, 18).
+  - Rows 18..20 form a wide open highway extending east past col 21 toward the eastern section of 3F.
 
 <hr>
 
