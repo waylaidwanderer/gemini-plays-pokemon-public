@@ -953,6 +953,11 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Team Magma Grunt #4 stationed at (8, 8) facing East.
   - Crate steps #2 located at cols 9..10, rows 12..13 leading down to the southern lower terrace.
   - Team Magma Grunt #5 stationed on the southern lower terrace.
+- Southern Lower Terrace (2F):
+  - Descended Crate Steps #2 at cols 9..10, rows 12..15 to row 16 (player at 10, 16).
+  - Female Team Magma Grunt stationed at (13, 14) facing South.
+  - High-tech generator consoles at cols 16..19, rows 16..19.
+  - Corridor continues South (rows 17..20) and East around the machinery.
 
 <hr>
 
