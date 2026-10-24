@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Reached 6F (Inner Sanctum) at (46, 8), descended crate staircase to (46, 16), and advancing south down excavation terraces toward Tabitha, Maxie, and Groudon! Party: Sage Lv 52 (HP 80/159), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: BATTLING LEADER MAXIE AT MAGMA CORE! Reached 6F (Inner Sanctum) at (46, 8), descended crate staircase to (46, 16), and advancing south down excavation terraces toward Tabitha, Maxie, and Groudon! Party: Sage Lv 52 (HP 80/159), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 80/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153. (Note: Elixir x0 in Bag can restore all PP before Tabitha/Maxie).

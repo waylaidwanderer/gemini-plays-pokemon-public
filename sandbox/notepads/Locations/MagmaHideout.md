@@ -227,3 +227,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Groudon: Legendary super-ancient Pokémon resting in the volcanic lava pool at (15..17, 16..18).
   - Leader Maxie: Positioned at (16, 22) facing Groudon, holding the Blue Orb to awaken Groudon.
   - Max Revive: Found behind generator at (3, 7) on the northwest side of the basin.
+
+## Battle & Party Management Discoveries (Maxie Boss Fight)
+- In battle Party screen, sending out a substitute Pokémon moves that Pokémon to Slot 1 (main left box) and places the fainted Pokémon into the substitute's previous slot (Sage moved to Slot 6 at bottom right).
+- To revive Sage, navigate from Slot 1 across to the right column (Right) and down 4 times to Slot 6 before confirming Revive.
+- Maxie's Crobat Lv 38 has Wing Attack and high speed, but Sage Lv 52 (Speed 153) outspeeds it once on the field and has Rock Tomb (2x SE).
