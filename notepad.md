@@ -1015,6 +1015,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Row 3 above the lava pool is blocked by northern cliff walls at col 13.
   - The walkable progression route goes South from (13, 4) down to row 7, then West along row 7 under the lava pool (cols 13..8).
   - Crate staircase located at cols 7..8, rows 8..11 connects down to the next lower terrace!
+- Team Magma Grunt at Southwestern Terrace:
+  - Female Team Magma Grunt stationed at (4, 7) facing East.
+  - Crate staircase located at col 7 (rows 8..11), approached from (7, 7).
 
 <hr>
 
