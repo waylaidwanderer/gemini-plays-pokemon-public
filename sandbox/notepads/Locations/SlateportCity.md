@@ -49,3 +49,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Archie Encounter & Delivery: Archie confronted May on 2F, proclaimed Team Aqua's ideals, warned May not to interfere, and ordered a retreat. Captain Stern received the Devon Goods, concluding the delivery!
 - Scott Encounter: Upon exiting the Oceanic Museum, Scott greeted May, recognized her victory over Team Aqua, and registered himself in Match Call in the PokéNav. Scott then departed to the west.
 - Battle Tent Encounter: Scott greeted May outside the Battle Tent at (10, 13), praised her potential, encouraged challenging the Battle Tent, and walked east.
+## Active Story Event - Team Aqua Submarine Theft (Discovered Turn 15132)
+- Intel from Aqua Hideout Guards: Team Aqua Leader Archie has gone to Slateport Harbor in Slateport City to hijack Captain Stern's Submarine Explorer 1.
+- The Team Aqua Hideout entrance in Lilycove City is blocked by guards until the submarine hijacking in Slateport Harbor is resolved.
+- Objective: Fly to Slateport City, proceed to Slateport Harbor (northeast area), confront Archie and Team Aqua, and witness the submarine theft to unblock the Lilycove hideout.

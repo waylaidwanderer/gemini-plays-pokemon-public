@@ -3331,6 +3331,11 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Archie Encounter & Delivery: Archie confronted May on 2F, proclaimed Team Aqua's ideals, warned May not to interfere, and ordered a retreat. Captain Stern received the Devon Goods, concluding the delivery!
 - Scott Encounter: Upon exiting the Oceanic Museum, Scott greeted May, recognized her victory over Team Aqua, and registered himself in Match Call in the PokéNav. Scott then departed to the west.
 - Battle Tent Encounter: Scott greeted May outside the Battle Tent at (10, 13), praised her potential, encouraged challenging the Battle Tent, and walked east.
+## Active Story Event - Team Aqua Submarine Theft (Discovered Turn 15132)
+- Intel from Aqua Hideout Guards: Team Aqua Leader Archie has gone to Slateport Harbor in Slateport City to hijack Captain Stern's Submarine Explorer 1.
+- The Team Aqua Hideout entrance in Lilycove City is blocked by guards until the submarine hijacking in Slateport Harbor is resolved.
+- Objective: Fly to Slateport City, proceed to Slateport Harbor (northeast area), confront Archie and Team Aqua, and witness the submarine theft to unblock the Lilycove hideout.
+
 
 <hr>
 
@@ -3456,15 +3461,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: INFILTRATING TEAM AQUA HIDEOUT! Surfing into the northeastern cove to enter Team Aqua Hideout and stop Archie! Party: Sage Lv 52 (HP 79/159), Lilz Lv 26 (HP 57/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 0/95, FNT).
+- Status: TRAVELING TO SLATEPORT CITY! Aqua Hideout blocked by guards until Archie's submarine hijacking at Slateport Harbor is resolved. Flying to Slateport City to confront Archie! Party: Sage Lv 52 (HP 79/159), Lilz Lv 26 (HP 57/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 0/95, FNT).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
+1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 79/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
 2. LILZ (Lombre ♀, Level 26) - Evolved from Lotad on turn 4926! Level 26 on turn 15063! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 57/75. Max HP: 75. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 5) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 24/24. Max HP: 24. Status: OK. Nature: Lax. Ability: Shadow Tag.
-6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 0/95. Max HP: 95. Status: FNT. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). Status: OK.
+6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 0/95. Max HP: 95. Status: FNT. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15).
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - enables HM02 Fly outside battle, obedience up to Lv 70).
