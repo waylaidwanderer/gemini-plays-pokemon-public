@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Spearow ♀ | ATHENA | 11 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`) |
+| Route 103 | Spearow ♀ | ATHENA | 12 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`) |
 | Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
@@ -58,8 +58,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 1 `POKéMON`)
-1. **MUDKIP** — Mudkip ♀ (Lv. 10, `31/31 HP`, Held: `Oran Berry`, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **ATHENA** — Spearow ♀ (Lv. 11, `31/31 HP`, Held: `Oran Berry`, `Keen Eye`, Stats: `31 HP / 21 Atk / 11 Def / 15 SpA / 12 SpD / 22 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`]) — Met on Route 103.
+1. **ATHENA** — Spearow ♀ (Lv. 12, `25/33 HP`, `Keen Eye`, Stats: `33 HP / 22 Atk / 12 Def / 16 SpA / 13 SpD / 24 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`]) — Met on Route 103.
+2. **MUDKIP** — Mudkip ♀ (Lv. 10, `28/31 HP`, Held: `Oran Berry`, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 3. **MERLIN** — Ralts ♂ (Lv. 4, `18/18 HP`, `Growl`, `Confusion`) — Met on Route 102.
 
 ## Notepad Index
