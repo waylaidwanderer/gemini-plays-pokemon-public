@@ -2,7 +2,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | AAAAAAAAAA | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | AAAAAAAAAA | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Skitty ♂ | LYNX | 4 | Active | Caught at (12, 15) in red HP after 2x Bubble; knows Sing, Attract |
 | Route 102 | TBD | TBD | - | Pending | Catch before challenging Route 102 trainers (weaken to Yellow/Red HP first!) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
