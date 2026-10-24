@@ -169,3 +169,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Northern Drill Fleet & Row 5 Bypass:
   - Row 2 is occupied by the drill tank fleet across cols 10..15.
   - The walkable route routes south to row 5 (cols 15..17) to bypass the drill tanks and access the eastern avenues.
+- Column 19 Northbound Corridor (cols 18..19, rows 2..5):
+  - Runs North between the middle drill tank (cols 17..18) and the eastern generator console (cols 20..21).
+  - Connects row 5 directly up to row 2 at (19, 2), opening east into the massive northern canyon (cols 21..22, rows -1..1).
