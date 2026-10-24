@@ -930,7 +930,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Eastern Avenue & Southern Doorway (1F):
   - Eastern avenue extends south from col 24..26, row 10 past Team Magma Grunt #2 at (27, 20) (defeated).
   - Main dirt floor extends south through col 26 past generator consoles down to row 34.
-  - Southern Cave Doorway is at (25, 35) cut into the south cliff face, approached from (25, 34) stepping Down. Note: This doorway connects to an isolated upper observation balcony on 2F (cols 6..27, row 5 with Secret Base spot at 27, 2), NOT the main lower chamber.
+  - Southern Cave Doorway is at (25, 35) cut into the south cliff face, approached from (25, 34) stepping Down. Leads into Magma Hideout 2F.
 
 ## Discovered Topography & Navigation - 2F
 - Entrance Area:
