@@ -908,6 +908,11 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
   - From the beach (row 22, col 57+), interacting with the water initiates Surf with Lilz.
   - Surfing North into the northeastern cove waters leads directly to the Team Aqua Hideout cave entrance carved into the northern cliff wall.
 
+- Team Aqua Hideout Cove Navigation (Verified Turn 15112):
+  - Northeast cove contains tidal shallow water / wet sand where player walks on foot (Surf dismounts upon entering shallow water).
+  - Central large boulder is at cols 63..66, rows 4..7.
+  - Team Aqua Hideout cave entrance is in the northeastern cliff face at cols 68..69, rows 2..3.
+  - Pathway wraps south of the boulder along row 8+ or east through shallow water directly leading to the hideout cave entrance.
 
 <hr>
 
