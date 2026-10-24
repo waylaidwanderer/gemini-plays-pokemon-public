@@ -90,3 +90,9 @@
 - **Tactical Rules for Attempt #7:**
   1. **Train BOTH `Mudkip` AND our Secondary Sweeper to Lv. 13–14 Before Entering Petalburg Woods:** Train `Mudkip` to **Lv. 13–14** (`~38–40 HP`, `~17–19 Speed`) before fighting the Petalburg Woods Team Magma Grunt `(26, 23)` so `Mudkip` outspeeds `Lv. 9 Houndour` and OHKOs it with `Water Gun` (and uses `Mud Sport` + `Water Gun` to beat lead `Lv. 8 Magnemite`).
   2. **Equip `Pecha Berry` Against `Lv. 8 Koffing` & Never Switch Out Against `Lv. 9 Houndour` (`Pursuit`):** Equip a `Pecha Berry` to auto-cure `Koffing`'s `Toxic` (and deny `Thief`), and never switch out of `Lv. 9 Houndour` (`Pursuit`).
+
+---
+
+## Attempt #7 Casualties (Starting Turn 953)
+- **HELIOS** (Sunkern ♂, Lv. 4, `16 HP`, `Absorb`) — Died on Turn 1125 on Route 102 `(16, 5)` against Lass Tiana's `Lv. 6 Sunkern` (`Struggle` recoil from `1/16 HP`).
+  - **Context & Heroic Role:** Pivoted in twice to cure `AKRAKEN`'s `Leech Seed`, completely walled `Lv. 6 Sunkern`'s `Mega Drain` (taking only 2 damage/hit while healing +1 HP with `Absorb`), exhausted all of `Sunkern`'s `Mega Drain` (10 PP), `Protect` (10 PP), and `Synthesis` (8 PP), and used `Struggle` (1 HP recoil/turn in Gen 3) to chip `Sunkern` after its `Berry Juice` down to 40% HP so `AKRAKEN` could enter unseeded with `Torrent` active (`90 BP Water Gun`) and sweep.
