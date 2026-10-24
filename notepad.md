@@ -962,40 +962,20 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Level 3 Sunken Courtyard: Wide open cavern floor containing the southern cave doorway cut into the north wall, leading deeper into Magma Hideout!
 
 ## Discovered Topography & Navigation - 3F
-- Southern Entrance:
+- Southern Entrance & Wild Encounters:
   - Warp mat from 2F doorway at (10, 23). Player spawns at (10, 22) facing North.
-  - Open dirt canyon corridor flanked by rock walls leads North along cols 9..11 into the chamber.
+  - Open dirt canyon corridor flanked by rock walls leads North along cols 9..11 to row 16.
+  - Wild encounters: Geodude (Lv 27–30), Torkoal (Lv 28). Cleanly fled via RUN.
 - 3F Junction (row 16..17):
-  - North-West: Crate steps at (8, 14) confirmed to be a one-way downward ledge (cannot be ascended from the south at 8, 15). Upper ledge with Grunt at (7, 13) is an exit drop-point.
-  - East: Open dirt highway along rows 16..17 is the true progression route leading east into the 3F main cavern.
-- 3F Eastern Highway:
-  - Cliff outcrop at cols 18..19, rows 16..17 requires routing south to row 18 at (16, 18).
-  - Rows 18..20 form a wide open highway extending east past col 21 toward the eastern section of 3F.
-  - Crate steps at col 27, rows 14..15: Another one-way downward ledge connecting upper plateau (row 13) down to lower eastern hall (row 16).
-  - Highway continues wide open to the east past col 28 along rows 17..19.
-- Eastern Northbound Corridor:
-  - Flanked by cliff walls at col 38 (west) and col 40 (east).
-  - Column 39 is a 1-tile wide lane running north from row 18 to row 14, where crate steps sit directly ahead at (39, 12..13) and (39, 9..10).
-  - Open southeastern floor across rows 19+ extends east of col 30 into a large lower cavern.
-  - Verified: Crate steps at (39, 12..13) cannot be climbed from the south (one-way downward ledge). Progression route exits south down column 39 to row 19, which wraps east into the vast southeastern chamber.
-- Southeastern Ledge & Eastern Canyon:
-  - Row 18 dead-ends at col 40 against cliff wall at col 41.
-  - South-facing jump ledge at row 19 drops down to lower floor at row 20.
-  - Below row 19, the lower floor connects east past col 41 into a massive eastern canyon at cols 42..45 leading North.
-- Dead-End & Upper Plateau Route Verification:
-  - Row 18 dead-ends at col 40 against the cliff wall at col 41.
-  - Row 19 is a 2-tier cliff wall, not a jump ledge.
-  - Crate steps at col 39 are one-way downward drop ledges.
-  - True ascending route onto upper plateau: cols 21..22 form an open 2-tile wide corridor heading North from row 18 up to row 14!
-- 3F Central Southern Valley (cols 18..23, rows 20..24+):
-  - Col 24 forms the western edge of the eastern cliff wall at rows 21..24.
-  - Cols 18..23 form a wide, completely unobstructed natural dirt valley running South from row 20 down into the vast lower cavern (rows 21..25+).
-  - This connects the upper highway directly to the lower southern cavern without any ledges or crate steps.
-- 3F Western Canyon & Upper Plateau Ascent:
-  - Row 17 forms an open horizontal highway extending west from col 10 all the way to col 3.
-  - Columns 3 and 4 form a long north-south canyon running along the western perimeter from row 21 up to row 13.
-  - At row 13, the western canyon ascends directly onto the Upper Plateau, bypassing all one-way downward crate steps.
-  - This is the true progression route through Magma Hideout 3F.
+  - Northwest: Crate step at (8, 14) is a one-way downward drop ledge from upper ledge (Grunt at 7, 13). Cannot be climbed from below.
+  - East: Dirt highway (rows 16..18) extends to col 40.
+- Eastern & Southern Exploration Results (Debunked / Dead-Ends):
+  - Eastern Highway terminates at col 40 against a vertical cliff wall at col 41.
+  - Column 39 dead-ends at one-way downward crate steps at (39, 12..13).
+  - All southern ridges along row 19/21 (tested at col 40, col 24, col 22) are solid multi-tier cliff faces, not jump ledges.
+  - Rock mound north of (21, 18) blocks northward passage.
+- Active Progression Hypothesis - Western Canyon:
+  - Exploring west of the col 10 junction along row 16/17 toward columns 3–7 to locate a walkable path or ascent onto the upper plateau. (To be verified tile-by-tile via grid).
 
 <hr>
 
