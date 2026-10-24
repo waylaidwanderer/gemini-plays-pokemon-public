@@ -166,3 +166,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Team Magma Grunt #7 Defeated:
   - Female Grunt defeated at (16, 3) (Mightyena Lv 29, ¥580).
   - Row 2 corridor runs East above the Grunt and middle drill tanks (cols 15..20), connecting directly into the Northeast Canyon leading deeper into the magma core.
+- Northern Drill Fleet & Row 5 Bypass:
+  - Row 2 is occupied by the drill tank fleet across cols 10..15.
+  - The walkable route routes south to row 5 (cols 15..17) to bypass the drill tanks and access the eastern avenues.
