@@ -54,7 +54,7 @@
 - **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
 
 ## Active Party
-1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 6 (85% EXP to Lv. 7) | HP: 23/23 | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP)
+1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 6 (393/428 EXP, 35 EXP to Lv. 7) | HP: 23/23 | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 13 Atk / 12 Def / 13 SpA / 11 SpD / 8 Spd | Moves: Tackle (35 PP), Bubble (30 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
