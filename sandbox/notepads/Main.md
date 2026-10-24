@@ -41,10 +41,10 @@
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(37, 57)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
-## Active Party
-1. **MUDKIP** — Mudkip ♀ (Lv. 10, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **ATHENA** — Spearow ♀ (Lv. 4, `Keen Eye`, Moves: `Peck`, `Growl`) — Met on Route 103.
-3. **MERLIN** — Ralts ♂ (Lv. 4, `Growl`, `Confusion`) — Met on Route 102.
+## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 5 `OPTION`)
+1. **ATHENA** — Spearow ♀ (Lv. 4, `17/17 HP`, `Keen Eye`, Moves: `Peck` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 103.
+2. **MUDKIP** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+3. **MERLIN** — Ralts ♂ (Lv. 4, `18/18 HP`, `Growl`, `Confusion`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
