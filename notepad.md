@@ -949,6 +949,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Team Magma Grunt #3 defeated at (21, 11) (Numel Lv 29, ¥580).
   - Main corridor (rows 10..12) extends west toward an item ball / white object at (15..16, 10).
   - Additional Team Magma Grunt sighted on lower terrace to the south around row 15.
+- Main 2F Lower Chamber Topography:
+  - Team Magma Grunt #4 stationed at (8, 8) facing East.
+  - Crate steps #2 located at cols 9..10, rows 12..13 leading down to the southern lower terrace.
+  - Team Magma Grunt #5 stationed on the southern lower terrace.
 
 <hr>
 
