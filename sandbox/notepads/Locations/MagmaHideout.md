@@ -189,3 +189,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Descended crate staircase at col 20 (rows 12..15) onto row 16.
   - Flanked by massive lava lake on west and mountain cliff on east.
   - Team Magma Grunt #8 stationed at (21..22, 21) facing West along the lower pathway.
+- Team Magma Grunt #8 Defeated:
+  - Female Grunt defeated at (21, 21) (Baltoy Lv 29, ¥580).
+  - An enormous wide-open dirt highway extends South and West across rows 22..26+ beneath the lava lake, leading directly into the deeper hideout.
