@@ -1032,6 +1032,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - At (6, 11), east is blocked by the side of the crate step at (7, 11).
   - The generator console at cols 9..12, rows 13..15 touches the cliff wall above it (no path above console).
   - The true path leads South down column 6 (rows 12..15) into the lower area below the console and beside the lava pool.
+- 4F Lower Terrace Thoroughfare (row 10, cols 8..21):
+  - Row 10 is the true east-west highway connecting the western area directly to the cave doorway at (21, 10).
+  - Walkable across col 7 at row 10, passing north of the generator consoles.
 
 <hr>
 
