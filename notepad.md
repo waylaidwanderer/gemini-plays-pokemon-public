@@ -179,7 +179,7 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - South garden plot at cols -3..-1, rows 11..14.
   - Open west corridor along row 10 between garden plots.
 - Professor Cozmo's House (Yellow Roof / Telescope):
-  - Located at cols 5..8, rows 14..17 in southwest Fallarbor Town, east of the crater.
+  - Located at cols 4..8, rows 14..17 in southwest Fallarbor Town, east of the crater.
   - Front door at (6, 17), entered from (6, 18) facing North.
   - Surveying device / telescope mounted on roof at cols 6..7, rows 13..14.
   - Approach route: Row 18 is open dirt from col 4 to col 13. Walk south to row 18, west to (6, 18), and step North into door at (6, 17).
@@ -188,6 +188,8 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Central table and chairs at cols 4..5, rows 5..6.
   - Professor Cozmo's wife standing at (5, 6), talkable from (6, 6) facing West.
   - Story Event: Spoke with Cozmo's wife. Exact dialogue: "PROF. COZMO went off to METEOR FALLS on ROUTE 114 with some people from TEAM MAGMA." Sets plot objective for Route 114 and Meteor Falls!
+- Story Event: Returned stolen Meteorite to Professor Cozmo. Received TM27 Return!
+- Cozmo Trade Protocol: Speak to Cozmo at (5, 3) from (5, 4) facing North. Advance dialogue exclusively with 'A' to confirm the trade prompt. Pressing B cancels the trade with disappointment dialogue. Confirming YES trades Meteorite for TM27 Return.
 
 <hr>
 
@@ -250,7 +252,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 4. [x] Approach Fortree Gym and inspect invisible barrier (confirmed 'Something unseeable is in the way' at (25, 8) on turn 9150).
 5. [x] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope (obtained turn 9219).
 6. [x] Unmask and clear the invisible Kecleon blocking Fortree Gym (used Devon Scope on turn 9226; Kecleon fled!).
-7. [ ] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
+7. [x] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
 
 ## Verified Navigation Mechanics - Treehouse Networks (Turn 9111)
 - The southern ground road from the Poké Mart ends at (12, 17); col 13 is blocked by a dense palm tree and forest canopy.
@@ -261,6 +263,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - Northern treehouse deck at (10, 4) has a ladder at (10, 5..6) descending to ground at (10, 7).
 - Note: Row 7 has bushes at (8, 7) and (9, 7) blocking direct westward walking.
 - Correct ground route: Step Down to Row 8 at (10, 8), walk West along Row 8 past (9, 8), (8, 8), (7, 8), (6, 8) to (5, 8), then step North via (5, 7) into Pokémon Center doors at (5, 6).
+- Eastbound Canopy Route to Route 120: Ground level is blocked at (11, 8). Climb ladder at (10, 6) to deck (10, 4) -> walk East across suspension bridges along Row 4 past central treehouse (25, 4) to eastern deck at (33, 4) -> descend ladder at (32, 5..6) to ground at (32, 8) -> walk East along Row 8 past col 39 directly into Route 120.
 
 <hr>
 
@@ -276,72 +279,74 @@ The sixth Pokémon Gym in the Hoenn League, located in Fortree City. Specializes
 - Badge: Feather Badge (enables HM02 Fly outside battle, obedience up to Lv 70)
 - TM: TM40 Aerial Ace
 - Winona's Team (Emerald):
-  - Swellow (Lv 31)
-  - Pelipper (Lv 30, Water/Flying)
-  - Tropius (Lv 29, Grass/Flying)
-  - Skarmory (Lv 31, Steel/Flying)
-  - Altaria (Lv 33, Dragon/Flying, Dragon Dance, Earthquake)
+  1. Swablu (Lv 29, Normal/Flying): Defeated easily by Leaf Blade / Rock Tomb.
+  2. Tropius (Lv 29, Grass/Flying): Double-resists Grass. Counter with Rock Tomb (2x super effective).
+  3. Pelipper (Lv 30, Water/Flying): Uses Protect; Winona uses Hyper Potion. OHKO by Sage's Leaf Blade (Special STAB).
+  4. Skarmory (Lv 31, Steel/Flying): Physical defense is 140, but Special Defense is only 70! Winona burns both Hyper Potions here. Counter with Special attacks (Pursuit) or Rock Tomb.
+  5. Altaria (Lv 33, Dragon/Flying): Uses Dragon Dance (+Atk, +Spe), Aerial Ace, Earthquake, DragonBreath. Weak to Rock (2x). When weakened, use Quick Attack (+1 priority) to bypass Dragon Dance speed boosts and strike first!
 
-## Gym Mechanics & Puzzle
+## Master Navigation Guide & Canonical Solution
+- Reset Mechanic:
+  - Stepping Down from (15, 24) on entrance mat warps outside to Fortree City at (22, 12).
+  - Stepping Up from (22, 12) re-enters Fortree Gym at (15, 23). Resets all turnstiles to default State 0. All defeated trainers remain cleared.
+- Lower Gym Master Path:
+  1) Turnstile 1: From (15, 23), step Up to (15, 22), Row 22 to (12, 22), push Left to (11, 22).
+  2) Turnstile 2: Row 22 to (6, 22), push Left to (4, 22).
+  3) Turnstile 3 Transit: Down to row 21, East to (4, 21), ascend Col 4 to (4, 16).
+  4) Transit: Row 16 East to (7, 16), North to (7, 14).
+  5) Turnstile 4: Push Down from (7, 14) into (7, 15) to clear Column 9.
+  6) Turnstile 5 & Ascend to Upper Gym:
+     - From (7, 14), step Right 2 to (9, 14).
+     - Walk Up 2 along Column 9 to (9, 12).
+     - Step Left to (8, 12).
+     - Push Right into (9, 12) (`hold Right 800` or solid push) to rotate Turnstile 5 out of Column 9!
+     - Walk straight North up the opened Column 9: (9, 11) -> (9, 10) -> (9, 9) -> (9, 8).
+     - At Row 8, walk Left to (6, 8) / (5, 8) at the Upper Chamber entrance.
 
-## Interior Layout & Verified Coordinates (Turn 9234)
-- Entrance Mat: (15, 24), facing North.
-- Gym Guide: (15, 20), between statues at (14, 20) and (16, 20).
-- Turnstile 1: Located at (12, 21).
+- Gate B Courtyard Entry Mechanism (Verified Turns 12446-12455):
+  Pushing Up directly from (5, 7) or (5, 8) while Gate B is horizontal fails to enter the courtyard.
+  Prerequisite sequence to enter courtyard from Row 8:
+  1) From (5, 7)/(5, 8), walk East along Row 8 to (7, 8).
+  2) Push Up at (7, 8) into Gate B's eastern arm at (7, 7) to rotate Gate B.
+  3) Step Down to (7, 8) and walk West to (5, 8).
+  4) From (5, 8), execute `hold Up 800`, which cleanly moves through Gate B into the courtyard at (5, 5).
+  5) Step Up to (5, 4) and turn Right into (6, 4) onto the open Row 4 walkway straight to Winona at (15, 3)!
 
-- Rotating Turnstiles: Cross-shaped wooden revolving gates that rotate 90 degrees when pushed from open sides.
-- Gym Guide: Located near entrance.
+- Upper Chamber Canonical Solution (The Master Circuit):
+  1) Arrive at (5, 8) on Row 8 from Lower Gym.
+  2) CRITICAL PREREQUISITE - Pre-rotate Turnstile C from Row 8:
+     - In default State 0, Turnstile C has no North arm at (2, 5). It must be pre-rotated BEFORE pushing Gate A UP!
+     - From (5, 8), walk West along Row 8: (4, 8) -> (3, 8) -> (2, 8) -> (1, 8).
+     - Walk North along Column 1: (1, 8) -> (1, 7) -> (1, 6).
+     - Push Right into (2, 6) (`hold Right 800`) to rotate Turnstile C (now has North arm at 2, 5!).
+     - Walk South down Col 1 to (1, 8), then East along Row 8 back to (5, 8).
+  3) Enter Courtyard:
+     - From (5, 8), push Gate B UP (`hold Up 800`) at (5, 7) to step into courtyard at (5, 4).
+  4) Rotate Gate A:
+     - From (5, 4), push Gate A UP into (5, 2) (`hold Up 800`).
+     - Gate A rotates clockwise to {North, West}, opening Row 4 at (6, 4).
+     - Player lands in northern alcove at (5, 2).
+  5) Northern Circuit to Row 8:
+     - Walk West along Row 2: (5, 2) -> (4, 2) -> (3, 2) -> (2, 2).
+     - Walk South down Column 2: (2, 2) -> (2, 3) -> (2, 4) -> (2, 5).
+     - Push Turnstile C DOWN from (2, 5) into (2, 8) onto Row 8 (`hold Down 800`).
+     - Walk East along Row 8: (2, 8) -> (3, 8) -> (4, 8) -> (5, 8).
+  6) Re-enter Courtyard:
+     - Gate A remains rotated (Row 4 is open!). From (5, 8), push Gate B UP (`hold Up 800`) to step into courtyard at (5, 4).
+  7) Walk to Winona:
+     - At (5, 4), turn Right into (6, 4) on Row 4!
+     - Walk East along Row 4: (6, 4) -> (7, 4) -> (8, 4) -> (9, 4) -> (10, 4) -> (11, 4) -> (12, 4) -> (13, 4) -> (14, 4) -> (15, 4).
+     - Step North onto platform ramp at (15, 3) facing Gym Leader Winona at (15, 2)!
 
-## Progression Checklist - Fortree Gym
-1. [x] Unmask Kecleon outside Gym and enter front doors (turn 9227).
-2. [x] Speak to Gym Guide (turn 9235 - advised on Flying-type weaknesses and rotating doors).
-3. [x] Solve rotating turnstile puzzles (Turnstiles 1, 2, 3 solved!).
-4. [x] Defeat Gym trainers (Jared & Ashley defeated!).
-5. [ ] Challenge and defeat Gym Leader Winona to earn the Feather Badge and TM40!
+## Victory Record
+- Gym Leader Winona: [DEFEATED - Turn 12839]! Earned Feather Badge and received TM40 Aerial Ace. Winona registered in Match Call. HM02 Fly can now be used in the field!
 
-## Trainers in Gym
-- Trainer 1: Bird Keeper at (4, 23) facing East (bypassed).
-- Trainer 2 & 3 (Double Battle): Bird Keeper Jared at (4, 13) and Picnicker Ashley at (5, 17). [DEFEATED - Turn 9324]
-  - Jared: Doduo Lv 27 (fainted), Skarmory Lv 27 (fainted), Tropius Lv 27 (fainted).
-  - Ashley: Swablu Lv 27 x2 (both fainted).
-- Trainer 4 & 5 (Double Battle): Camper Flint at (10, 10) and Bird Keeper Edwardo at (9, 9). [DEFEATED - Turn 9537]
-  - Flint: Swellow Lv 29 (fainted), Xatu Lv 29 (fainted).
-  - Edwardo: Doduo Lv 29 (fainted), Pelipper Lv 29 (fainted).
-  - Reward: ¥1,392 prize money.
-
-- Trainer 6: Bird Keeper Darius at (1, 9) - [DEFEATED - Turn 9805]. Team: Tropius Lv 30. Prize: ¥960.
-
-## Complete Fortree Gym Turnstile Walkthrough (Master Solution)
-1. Turnstile 1 (Pivot at 12, 21):
-   - From entrance (15, 24), walk to (12, 22) facing West.
-   - Push Left into (11, 22) to rotate gate.
-2. Turnstile 2 (Pivot at 5, 22):
-   - Walk West along row 22 to (6, 22) facing West.
-   - Push Left into (5, 22) to rotate counter-clockwise (lands on 4, 22).
-3. Turnstile 3 (Pivot at 2, 18):
-   - Walk North up col 4 to (4, 19), step Left to (3, 19).
-   - Push Left into (2, 19) to rotate clockwise.
-   - Walk South down col 2 to (2, 22), Right to (4, 22), North up col 4 to row 18.
-4. Turnstile 4 & Central Bypass:
-   - From row 18, walk East to (7, 18), then North up col 7 to (7, 14).
-   - Push Down into (7, 15) to rotate Turnstile 4 clockwise, opening row 14.
-   - Step Up to (7, 14), then walk East across row 14 via (8, 14) and (9, 14) into col 9.
-   - Walk North up col 9 via (9, 13), (9, 12), (9, 11) to (9, 10).
-5. Defeat Trainers:
-   - Double Battle at (9, 10): Camper Flint & Bird Keeper Edwardo defeated!
-6. Master Upper Turnstile Puzzle & Arena Approach:
-   - Upper Turnstile at (6, 3): From (5, 3), push Up into (6, 3) to rotate clockwise, swinging the vertical arm North to (6, 1..2) and opening Row 4 at (6, 4).
-   - Western Bypass (Column 2): From (5, 2), walk west along Row 2 to (2, 2), then descend Column 2 south to (2, 8). This bypasses Row 3 without disturbing the upper turnstile.
-   - Arena Entry: From (2, 8), walk east along Row 8 to (5, 8), north up Column 5 to (5, 4), then step east into (6, 4) and follow Row 4 east directly into Gym Leader Winona's arena.
-
-## Gym Leader Winona - Verified Battle Intelligence (Turn 9870)
-- Winona holds at least 1 Hyper Potion.
-1. Swablu (Lv 29): Defeated in 2 Leaf Blades.
-2. Pelipper (Lv 30, Water/Flying): Uses Protect; Winona uses Hyper Potion on it. Defeated by Leaf Blade.
-3. Tropius (Lv 29, Grass/Flying): Double-resists Grass (0.25x). Moves: Sunny Day, Synthesis (recovers ~67% in sun), Aerial Ace (deals massive super-effective damage to Grass). Counter with Bug (Fury Cutter) or Rock (TM39 Rock Tomb).
-4. Skarmory (Lv 31, Steel/Flying): In reserves.
-5. Altaria (Lv 33, Dragon/Flying): In reserves.
-
+## Verified Exit Route Mechanics (Turns 12842-12852)
+- Gate B (Upper Chamber): Pushing South from (5, 6) with `hold Down 800` cleanly rotates Gate B counterclockwise and lands player at (5, 8)/(5, 9).
+- Route 9 Corridor: Row 9 from Col 5 to Col 9 is open, connecting to Column 9 heading south to Row 14, then West to (7, 14) and South to (7, 16).
+- Lower Gym Turnstile 2: From (4, 22), pushing East with `hold Right 800` against the West arm cleanly rotates Turnstile 2 clockwise, landing player at (7, 22) and opening Row 22 east to Col 10.
+- Lower Gym Turnstile 1: From (10, 22), pushing East with `hold Right 800` rotates Turnstile 1 and lands player at (13, 22) / (14, 22).
+- Exit Warp: Stepping Down from (15, 24) warps player outside to Fortree City at (22, 12).
 
 <hr>
 
@@ -476,6 +481,12 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 5. Camper Autumn:
    - Location: (14, 25) facing East on sunken central terrace. Inaccessible from eastern terrace.
 - Southern Exit: Row 32 final jump ledge drops to row 33. The exit to Route 112 is located at the wooden steps at (14..15, 36..37), stepping south onto row 38. The east side has Camper Ethan at (17, 35), but south of Ethan is a high cliff wall; the open descent ramp is at cols 14..15.
+- Magma Hideout Entrance Opened (Turn 13734):
+  - Descended Jagged Pass with the MAGMA EMBLEM in Bag.
+  - Rail Chute Traversal: Dismounted Mach Bike with Select onto foot at (14, 12). Hopped South on foot across the Acro Bike rail chute at (14, 13..14) to land at row 15.
+  - Event Trigger: Approaching the volcanic boulder at (14..16, 17..18) triggered: "Oh! This boulder is shaking in response to the MAGMA EMBLEM!"
+  - The boulder shakes and splits open, revealing the entrance to the Team Magma Hideout!
+
 
 <hr>
 
@@ -787,6 +798,154 @@ A hot spring town situated at the southern base of Mt. Chimney. Famous for its v
 
 <hr>
 
+<h1><code>Locations/LilycoveCity</code></h1>
+
+# Location: Lilycove City
+
+## Overview
+A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as the cultural and commercial capital of Hoenn, featuring the massive Lilycove Department Store, Pokémon Contest Hall, Lilycove Museum, Move Deleter's House, and the Team Aqua Hideout in the eastern cove.
+
+## Connection Points
+- West Exit: Route 121 (entered at cols 0..5, row 16).
+- East / Shore: Eastern ocean cove (Team Aqua Hideout) and sea route leading toward Mossdeep City.
+
+## Key Landmarks & Buildings
+- West Entrance Boulevard: Connects from Route 121 at (0, 16) into patterned brick plaza along rows 15..17.
+- Western Signpost: Located at (7, 15), read from (7, 16) facing North.
+- Move Deleter's House: Blue-roof house located directly north of the western entrance plaza at cols 11..16, rows 11..14. Door at (13, 14).
+- Pokémon Center: Located at cols 22..26, rows 11..14 on the main avenue. Blue sliding doors at (23..24, 14), approached from (24, 15) facing North.
+- Lilycove Department Store: Massive multi-story shopping complex.
+- Lilycove Museum: Art museum displaying paintings and sculptures.
+- Contest Hall: Master Rank Contest Hall.
+- Cove / Team Aqua Hideout: Coastal cove on the northeastern edge.
+
+## Progression Checklist - Lilycove City
+1. [x] Enter Lilycove City (arrived Turn 13267 at pos 5, 16!).
+2. [x] Return to Pokémon Center to properly heal party (cure Sage's paralysis, restore PP) and confirm checkpoint (Confirmed healed Turn 13328!).
+3. [x] Obtain Pokéblock Case from Contest Hall receptionist (Turn 13364!).
+4. [ ] Visit Move Deleter's House.
+5. [x] Explore Department Store floors (2F Trainer's Zone, 3F Vitamins, 4F TMs, 5F Rooftop).
+6. [ ] Explore town landmarks (Museum, Harbor, Cove).
+7. [ ] Investigate Team Aqua presence and advance toward Mossdeep City.
+- Pokémon Center Interior (1F):
+  - Entrance mat at (7, 8).
+  - Nurse Joy counter approached at (7, 4) facing North.
+  - 2F Escalator at (1, 6).
+  - Table at (10..11, 6..7).
+- Grand Staircase: White stone staircase located at cols 31..32, rows 11..14 connecting the middle avenue to the upper terrace. Approach from (31..32, 15). (Note: Col 30 at row 14 is blocked by fence corner post).
+- Contest Hall: Grand Master Rank Contest Hall located at cols 20..28, rows 18..24 on the southern tier. Double entrance doors at (23..24, 24), approached from (23..24, 25) facing North. (Note: Col 25 at row 24 is the red exterior wall). Signpost at (27, 24). Destination for obtaining the Pokéblock Case.
+- Eastern Signpost: Located at (34, 14) behind blue fence east of the staircase.
+- Lilycove Department Store: Located on the upper terrace at cols 24..32, rows 1..5. Grand multi-story shopping center. Blue sliding doors at (27..28, 5). Directory signpost at (29, 7).
+- Rival Brendan Battle #4: [DEFEATED - Turn 13319]
+  - Location: (27, 6) outside Department Store.
+  - Team: Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32.
+  - Reward: ¥2,040 prize money.
+  - Story Event: Brendan departed for Littleroot Town to help Birch with the Pokédex. Department Store entrance is now fully unblocked!
+- Team Aqua Grunt: Sighted patrolling the eastern terrace at (37, 8).
+- Upper Residential House: Blue roof located east of Department Store at cols 33..37, rows 4..6.
+- Contest Hall Interior:
+  - Entrance mat at (14, 11).
+  - Contest Reception Counter: Spans cols 4..18 at row 3.
+  - Left Receptionist at (14, 2): Single-player Contest registration. [GIFTED POKéBLOCK CASE on Turn 13364!]
+  - Right Receptionist at (15, 2): Multiplayer Link Contest registration.
+- Lilycove Department Store 1F:
+  - Entrance mat at (8, 7).
+  - Left Clerk at (8, 1), approached from (8, 4) facing North: Floor Directory.
+  - Right Clerk at (10, 1), approached from (10, 4) facing North: Pokémon Lottery Corner (Loto-ID). Tested on Turn 13378 (drew number 32047, no match). Daily ticket completed for today.
+  - Elevator (to upper floors): Red doors located at cols 2..3, rows 0..1 in northwest corner.
+  - Escalator (Up to 2F): Located at col 16, row 1 in northeast corner. Approached from (16, 2) facing North.
+
+- Lilycove Department Store 2F (Trainer's Zone):
+  - Arrived at (16, 2) from 1F escalator.
+  - Escalator down to 1F: Located at col 16, row 1.
+  - Escalator up to 3F: Located at col 13, row 1 (approached from 13, 2 facing North).
+  - Elevator: Located at cols 2..3, row 1 in northwest corner.
+  - Left Clerk: Located at (7, 6), approached from (7, 4) facing South across counter. Sells Poké Balls (Poke, Great, Ultra), Escape Rope, Full Heal, Status Heals, Fluffy Tail. (Purchased 10 Ultra Balls + bonus Premier Ball on Turn 13437).
+  - Right Clerk: Located at (10, 6), approached from (10, 4) facing South across counter. Sells Potions, Revives, Repels. (Purchased 5 Max Repels on Turn 13447).
+- Lilycove Department Store 3F (Battle Collection):
+  - Arrived at (13, 2) from 2F escalator.
+  - Escalator down to 2F: Located at col 13, row 1.
+  - Escalator up to 4F: Located at col 16, row 1 (approached from 16, 2 facing North).
+  - Left Clerk at (5, 2), approached from (5, 4) facing North: Stat Boosters / Vitamins (Protein, Iron, Carbos, Calcium, Zinc, HP Up - ¥9,800 each).
+  - Right Clerk at (8, 2), approached from (8, 4) facing North: Battle Items (X Attack, X Defend, X Speed, X Special, X Accuracy, Guard Spec., Dire Hit).
+
+- Lilycove Department Store 4F (TM Counter):
+  - Arrived at (16, 2) from 3F escalator.
+  - Escalator down to 3F: Located at col 16, row 1.
+  - Escalator up to 5F: Located at col 13, row 1 (approached from 13, 2 facing North).
+  - Left Clerk: Sells TM38 Fire Blast (¥5,500), TM25 Thunder (¥5,500), TM14 Blizzard (¥5,500), TM15 Hyper Beam (¥7,500).
+  - Right Clerk (Defense TMs): Sells TM17 Protect (¥3,000), TM20 Safeguard (¥3,000), TM33 Reflect (¥3,000), TM16 Light Screen (¥3,000). Approached from (9, 4) facing South across counter (TM17 purchased Turn 13427).
+
+- Lilycove Department Store 5F (Poké Doll Floor):
+  - Arrived at (13, 2) from 4F escalator.
+  - Escalator down to 4F: Located at col 13, row 1.
+  - Escalator up to Rooftop: Located at col 16, row 1 (approached from 16, 2 facing North).
+  - Clerks: Sell Dolls, Mats, Cushions, and Posters for Secret Bases.
+
+- Lilycove Department Store Rooftop:
+  - Arrived at (13, 5) from 5F escalator.
+  - Escalator down to 5F: Located at cols 12..14, row 3.
+  - Move Tutor (Substitute): Girl in red dress at (16, 5). Offers to teach Substitute (declined on Turn 13408 to save for later; remains available).
+  - Residents: Blond boy in red jacket at (9, 5); Camper in green at (4, 4).
+  - Vending Machines: Left machine at (9, 1), Right machine at (10, 1), approached from (9, 2) and (10, 2) facing North. Sells Fresh Water (¥200, 50 HP), Soda Pop (¥300, 60 HP), Lemonade (¥350, 80 HP).
+  - Planters / Benches: Planters at cols 1..2, rows 3 and 5; purple benches at (5..7, 5) and (10..12, 5).
+
+<hr>
+
+<h1><code>Locations/MagmaHideout</code></h1>
+
+# Location: Magma Hideout
+
+## Overview
+The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, accessed through a secret entrance on Jagged Pass unlocked by the Magma Emblem.
+- Environment: Volcanic caverns, lava rivers, and high-tech Team Magma installations.
+- Story Climax: Team Magma Leader Maxie is using the stolen Blue Orb to awaken the super-ancient Legendary Pokémon Groudon.
+
+## Connection Points
+- Entrance / Exit: Jagged Pass at (16, 18). Warp mat inside is at (10, 35); player spawns at (10, 34) facing North.
+
+## Progression Checklist - Magma Hideout
+1. [x] Unlock secret entrance on Jagged Pass using Magma Emblem (Turn 13734).
+2. [x] Enter Magma Hideout 1F (Turn 13743 at pos 10, 34).
+3. [x] Teach HM04 Strength to Cobalu (Aron) replacing Headbutt (Turn 13778).
+4. [x] Solve 1F Boulder Puzzle at cols 4..7, rows 22..24 (Turn 13788).
+5. [x] Traverse 1F to southern doorway at (25, 35).
+6. [ ] Explore 2F chambers and lower floors.
+7. [ ] Defeat Team Magma Grunts and Admin Tabitha.
+8. [ ] Confront Team Magma Leader Maxie at the magma core.
+9. [ ] Witness Groudon's awakening and escape.
+
+## Discovered Topography & Navigation - 1F
+- Entrance Area (rows 28..35):
+  - Warp mat to Jagged Pass at (10, 35). Player spawns at (10, 34).
+  - Main corridor extends north along cols 9..11 to row 22.
+- 1F Boulder Puzzle (cols 4..7, rows 22..24):
+  - Default layout: Boulder B at (5, 22), Boulder A at (7, 22), Boulder C at (6, 23).
+  - Pushing C West to (5, 23), stepping to (6, 22), and pushing B West to (4, 22) opens Column 5 Canyon.
+- Column 5 Canyon (rows 10..21):
+  - Vertical 1-tile wide canyon connecting row 21 north to row 10.
+- Central Lower Highway (rows 9..12, cols 6..24):
+  - Open dirt corridor connecting the west chamber to the eastern avenue.
+  - Northern wall: Cols 25..27 lead north from row 10 to row 8 before terminating at the row 6 cliff wall.
+- Eastern Avenue & Southern Doorway (1F):
+  - Eastern avenue extends south from col 24..26, row 10 past Team Magma Grunt #2 at (27, 20) (defeated).
+  - Main dirt floor extends south through col 26 past generator consoles down to row 34.
+  - Southern Cave Doorway is at (25, 35) cut into the south cliff face, approached from (25, 34) stepping Down. Note: This doorway connects to an isolated upper observation balcony on 2F (cols 6..27, row 5 with Secret Base spot at 27, 2), NOT the main lower chamber.
+
+## Discovered Topography & Navigation - 2F (Upper Balcony)
+- Entrance Area:
+  - Spawns at (8, 3) facing South from doorway at (8, 2).
+  - Corridor runs along row 5 from col 6 to col 27. Impassable cliff drops off to the south along row 6 overlooking the main lower chamber.
+  - Secret Base spot with 4 sparkle diamonds at (27..28, 2).
+  - Isolated balcony: No stairs or paths descend to the lower room from here. Main chamber must be reached from another 1F route.
+- Central Elevated Plateau & Northern Doorway (1F):
+  - Ascended via white staircase at (23..24, 26) from Eastern Avenue (24, 27..28).
+  - Row 24 is a south-facing one-way jumping ledge (jump down only from the doorway terrace above).
+  - Cave doorway is located at (18..19, 21) on the upper terrace.
+  - Progression path to the upper terrace wraps around the west side along row 25.
+
+<hr>
+
 <h1><code>Locations/MauvilleCity</code></h1>
 
 # Location: Mauville City
@@ -1091,6 +1250,86 @@ A massive active volcano dominating the northern landscape of Hoenn. Accessible 
 - Meteorite Retrieval: Inspecting the volcanic machine at (14, 6) triggers "A METEORITE is fitted on a mysterious machine... Do you want to remove the METEORITE?" Selecting YES confirms retrieval of the Key Item METEORITE into the Key Items pocket. Subsequent interactions confirm: "This mysterious machine... It makes no response whatsoever."
 - Complete Summit Evacuation: Defeating Leader Maxie causes all Team Magma and Team Aqua NPCs to completely vanish from Mt. Chimney, unblocking all passages including Jagged Pass.
 - Southbound Caldera Descent: Completed via switchback stairs down to the southern exit at (20, 42).
+
+<hr>
+
+<h1><code>Locations/MtPyre</code></h1>
+
+# Location: Mt. Pyre
+
+## Overview
+A sacred mountain rising from Route 122, serving as a memorial and burial ground for deceased Pokémon in Hoenn. Features multi-floor interior chambers (1F-6F) with wild Ghost-type Pokémon and trainer graves, and an exterior cliffside trail ascending to the foggy summit where the Red and Blue Orbs are enshrined.
+
+## Connection Points
+- South Exterior Entrance: Route 122 southern shore archway at (22, 28).
+
+## Key Landmarks & NPCs
+- 1F Reception / Memorial Hall: Old woman NPC near entrance gives the Cleanse Tag.
+  - Entrance mat located at cols 17..18, row 18. Corridor extends North.
+- Upper Floors (2F-6F): Gravestones, trainers (Psychics, Hex Maniacs), and wild Pokémon (Duskull, Shuppet).
+- Summit Trail: Exterior fog-shrouded mountain path leading to the peak where Team Aqua is confronting the shrine guardians.
+
+## Progression Checklist - Mt. Pyre
+1. [x] Enter Mt. Pyre 1F through south entrance (Turn 13548 at 17, 18).
+2. [-] Obtain Cleanse Tag from resident on 1F (verified mourner woman at 17, 8 does not give item).
+3. [x] Ascend through Mt. Pyre exterior trail to the Summit.
+4. [x] Confront Team Aqua Grunts and Leader Archie at the peak.
+5. [x] Obtain Magma Emblem / key story items from the shrine caretakers.
+
+## Discovered Topography & NPCs (1F)
+- Mourner Woman: Located at (17, 8) facing memorial gravestone. Dialogue: "Did you come to pay your respect to the spirits of departed POKéMON? You must care for your POKéMON a lot." (Does not give Cleanse Tag).
+- Mourner Boy: Located at (12, 10) facing West in front of gravestones.
+- Central Memorial Aisle: Row 9 runs horizontally East-West between gravestone blocks.
+- Western Exterior Doorway: Orange doormat at cols 3..4, row 7 (approached from 4, 6 facing South). Leads outside to the exterior mountain trail.
+
+## Discovered Topography (Exterior Trail)
+- 1F Cave Exit: Doorway at (10, 42), player spawns at (10, 43) facing South.
+- Base Trail: Extends East along row 44 across cols 10..17.
+- First Ascent Stairs: White stone staircase located at cols 27..28, rows 39..41 ascending North to the second mountain terrace (row 38).
+- Second Mountain Terrace: Runs West along row 38 above the cliff. Item Ball located around cols 20..22.
+- Second Ascent Stairs: Located at cols 9..10, rows 30..35 ascending North from (10, 36) to the third mountain terrace (row 29/30).
+- Lower Ledge Item Ball: Sighted on lower southern cliff ledge around (4..5, 40).
+- Third Mountain Terrace / Summit Approach: Higher terrace reached via second ascent stairs.
+- Third Mountain Terrace: Reached at (10, 27) via second ascent stairs. Wide open green lawn pathway runs East along rows 27..28 toward the summit ascent.
+- Third Ascent Stairs: Located at cols 23..24, rows 21..24 ascending North from row 25 to the fourth terrace / foggy summit approach.
+
+- Item Ball: (27, 15) - [OBTAINED - Turn 13574] Max Potion! Located in the gravestone alcove on the fourth mountain terrace.
+- Fourth Terrace Topography & Progression (Turns 13570-13588):
+  - Eastern Alcove: Cols 26..28, rows 15..17. Item Ball at (27, 15) contained a Max Potion. The alcove is enclosed by cliffs on the north, east, and west (above the central boulder).
+  - Central Boulder & Bypass: Located at cols 22..25, rows 16..18. Direct westward passage along row 18 is blocked by collision at (25, 18). Bypass by descending to row 19, which provides an open east-west corridor across cols 12..24.
+  - Western Cul-de-sac: Cols 8..11, row 17. Blocked by a rock pillar at (8..9, 16) and cliff face.
+  - Fourth Ascent Stairs: White stone staircase located at cols 19..20, rows 15..16 ascending North to the fifth mountain terrace.
+  - Fifth Mountain Terrace: Rows 11..14. Features an open corridor running North between pairs of gravestones (cols 15..17 west, cols 22..24 east) straight into the dense summit fog.
+- Mt. Pyre Summit Entrance (Turn 13594):
+  - Stepping North from (20, 10) on Mt. Pyre exterior warps into the Mt. Pyre Summit map at (23, 31) facing North.
+  - Central corridor runs North along cols 22..24 between western and eastern cliff bluffs into heavy fog.
+- Team Aqua Grunt #1: [DEFEATED - Turn 13609]
+  - Location: (24, 18) facing West on the first summit tier.
+  - Team: Carvanha Lv 32 (OHKO'd by Sage's Leaf Blade).
+  - Reward: ¥640 prize money.
+- Second Summit Tier (Turn 13609):
+  - White stone bridge flanked by stone lanterns at cols 22..24, rows 16..17.
+- Team Aqua Grunt #2: [DEFEATED - Turn 13619]
+  - Location: (22, 15) facing East on the second summit tier.
+  - Team: Zubat Lv 32 (OHKO'd by Sage's Rock Tomb).
+  - Reward: ¥640 prize money.
+- Third Summit Tier (Turn 13619):
+  - White stone staircase at cols 23..24, rows 12..13 ascending to the upper summit shrine approach.
+  - Team Aqua Grunt #3 (Male) stationed at (22, 10) facing East/South.
+  - Team Aqua Grunt #4 (Female) stationed at (25, 10) facing West/South.
+- Team Aqua Grunts #3 & #4 (Double Battle): [DEFEATED - Turn 13650]
+  - Location: (22, 11) and (24, 11) flanking col 23 on the third summit tier.
+  - Teams:
+    - Grunt #3 (Male): Poochyena Lv 30, Carvanha Lv 30.
+    - Grunt #4 (Female): Wailmer Lv 30, Zubat Lv 30.
+  - Reward: ¥1,200 prize money.
+- Mt. Pyre Summit Peak Shrine (Turn 13651):
+  - Approached via white stone stairs flanked by lanterns at cols 22..24, rows 8..9.
+  - Team Aqua Leader Archie is standing at the shrine (cols 22..24, rows 3..6) confronting the elderly shrine guardians.
+- Magma Emblem Obtained & Story Event Complete (Turn 13659):
+  - Confronted Team Aqua Leader Archie at the peak shrine. Archie announced he has the Red Orb, while Team Magma took the Blue Orb. Archie ordered Team Aqua to withdraw to Slateport City.
+  - Spoke with the Old Woman at (23, 6): Received the MAGMA EMBLEM, dropped by Team Magma when they took the Blue Orb.
+  - Key Item: MAGMA EMBLEM stored in Key Items pocket. Unlocks the hidden Magma Hideout in Jagged Pass!
 
 <hr>
 
@@ -2531,6 +2770,142 @@ A scenic, expansive route connecting Fortree City (west) to Route 121 (east/sout
    - Reward: ¥928 prize money.
    - Match Call registered!
 
+3. Bird Keeper Colin: [DEFEATED - Turn 12950]
+   - Location: (5, 22) facing East.
+   - Team: Wingull Lv 28, Natu Lv 28.
+   - Reward: ¥896 prize money.
+
+## Wild Pokémon Discovered
+- Mightyena: Lv 25 encountered in tall grass at (23, 8) (OHKO'd by Sage's Leaf Blade on turn 12922); Lv 27 encountered in giant tall grass at (18, 43) (escaped turn 12973).
+
+## Verified Topography & Navigation - Southbound Route 120 (Turns 12932-12960)
+- Northern Suspension Bridge: Spans horizontally from east bank at (28, 15) to west bank at (5, 15) over the river gorge. Rain begins on the western bank.
+- Western Bank & South Corridor: North of (5, 15) is impassable dense pine forest. The route corridor runs south along cols 5..6.
+- Bird Keeper Colin: Stationed at (5, 22) facing East. Bypassed via col 6.
+- Puddle Network: Puddles at (4..5, 28) and (8..9, 28). Path continues south along col 6 to row 32, then turns east along row 30 to col 11 to bypass southern trees at (6, 33).
+- Middle Section: Path runs south down col 11 to row 35, then east along row 35 to cols 12..13. Cliff ledge blocks southward progress at (13..14, 39).
+
+- Row 60 Terrace & Highway: Corridor runs east from (22, 60) above the pool past Secret Base at (26, 61) to col 39. At (37, 61), a 1-way ledge hops south into row 63 onto a wide open southbound highway along cols 35..38.
+- Secret Base Indentation: Located in the brown rock wall at (26, 61) above the elevated pool, east of the tree line.
+- Invisible Kecleon #2: Located at (19, 48) [DEFEATED - Turn 12987]! Unmasked with Devon Scope, wild Kecleon Lv 30 defeated by Sage. Central vertical corridor down Col 19 is now completely clear.
+
+## Verified Topography & Navigation - Southern Lake & Bridges (Turns 12975-12998)
+- Central Corridor: Vertical path down Col 19 was unblocked by defeating invisible Kecleon #2 at (19, 48) with Devon Scope. Path continues south to row 57.
+- Row 60 Terrace & Highway: From (19, 57), route wraps east along row 60 past Secret Base indentation at (26, 61) to col 39. At (36, 61), a 1-way ledge hops south into row 62/63 onto a wide open southbound highway (cols 35..38).
+- Southern Suspension Bridge: Located at rows 66..67, spanning horizontally across the lake from east bank at (31, 67) to west bank at (18, 67).
+- West Bank of Southern Bridge: Player lands at (18, 67) in a puddle. North leads to white stone stairs at (11, 62) ascending to an elevated pond. South corridor continues around the western cliff toward the Ancient Tomb lake and eastern path to Route 121.
+- Southern Route 120 Highway & Item Ball (Turn 13000): Southbound path along col 20 reaches row 83. Item Ball located at (23, 82) north of giant grass field (obtained Hyper Potion). A trainer with glasses and white shirt is patrolling to the northwest along the dirt path near (13..15, 76..78). Yellow dirt highway branches south at (15..16, 83) toward the southern lake and Route 121.
+- Item Ball: (23, 82) - [OBTAINED - Turn 13017] Hyper Potion! Located at col 23, row 82 north of giant grass field.
+- Absol: Lv 27 ♀ encountered in giant tall grass at (20, 83) (turn 13021).
+- Southern Route 120 Eastbound Highway (Turn 13035): Yellow dirt highway turns East at row 89..90, forming an open 2-tile wide corridor between the giant tall grass (north) and puddles/bushes (south) leading toward Route 121.
+- Eastern Route Signpost: Located at (38, 88), read from (38, 89) facing North. Marks the eastern boundary of Route 120 leading into Route 121.
+
+<hr>
+
+<h1><code>Locations/Route121</code></h1>
+
+# Location: Route 121
+
+## Overview
+A major east-west route connecting Route 120 (west) to Lilycove City (east). Features the Hoenn Safari Zone entrance and the southern water route (Route 122) leading to Mt. Pyre.
+
+## Connection Points
+- West Exit: Route 120 (connects at col 0, row 10).
+- East Exit: Lilycove City.
+- North Entrance: Safari Zone.
+- South Fork: Route 122 (requiring HM03 Surf to reach Mt. Pyre).
+
+## Progression Checklist - Route 121
+1. [x] Enter Route 121 from Route 120 (turn 13044 at pos 0, 10).
+2. [ ] Defeat route trainers and collect items.
+3. [x] Locate Safari Zone entrance (Turn 13100 at cols 36..40, rows 0..4).
+4. [x] Advance east into Lilycove City (crossed boundary Turn 13267 at pos 5, 16!).
+
+## Discovered Topography & Navigation (Turn 13044-13045)
+- West Entrance: Player arrives at (0, 10) from Route 120.
+- Dirt Highway: Extends along row 10 from col 0 to col 5, then branches north into a 2-tile wide eastbound highway along rows 8..9.
+- West Entrance Trainers: Bug Maniac Cale defeated at (11, 8..9); Hex Maniac stationed at (12, 10..11) in front of tall grass.
+- Item Ball: (55, 10) - [OBTAINED - Turn 13488] Carbos! Located in the fenced alcove.
+- Southeast Berry Grove: Soft loamy soil with 4 ripe berry trees located at cols 64..66, rows 14..15.
+- Highway Corridor: Yellow dirt highway runs along row 8 across cols 5..13. Stepping east through cols 11..13 passes between Bug Maniac Cale (north) and Hex Maniac (south).
+
+## Trainers
+1. Bug Maniac Cale: [DEFEATED - Turn 13067]
+   - Location: (11, 8..9) on dirt path.
+   - Team: Dustox Lv 29, Beautifly Lv 29.
+   - Reward: ¥1,740 prize money.
+2. Beauty Jessica: [DEFEATED - Turn 13091]
+   - Location: (22, 6) in front of upper blue fence.
+   - Team: Kecleon Lv 29, Seviper Lv 29.
+   - Reward: ¥2,320 prize money.
+   - Registered in Match Call!
+
+## Story Events
+- Team Aqua Meeting (Turn 13096): Cutscene triggers at (25, 7). Three Team Aqua Grunts gathered at cols 31..32 state: "Okay! We're to move out to MT. PYRE!" and depart toward Route 122 / Mt. Pyre.
+## Key Landmarks Discovered
+- Safari Zone Entrance Building: Located at cols 36..40, rows 0..4 in north-central Route 121. Front sliding doors at cols 37..38, row 4.
+- Cut Tree Shortcut: Located at (32, 5) blocking direct ground access to the Safari Zone plaza.
+- Sunken Stone Walkway (Main Route): Stairs down at (31..32, 9) lead to a stone corridor along row 10 across cols 31..36, with stairs up at (36..37, 9) opening into the Safari Zone plaza and eastern Route 121.
+- Item Ball: (38, 13) - [OBTAINED - Turn 13115] Zinc! Located on lower sunken walkway south of Safari Zone plaza.
+3. PKMN Breeder Myles & PKMN Breeder Pat (Double Battle): [DEFEATED - Turn 13185]
+   - Location: (59, 11..13) in tall grass.
+   - Myles's Team: Makuhita Lv 25, Wingull Lv 25, Tropius Lv 25, Electrike Lv 25.
+   - Pat's Team: Poochyena Lv 25, Shroomish Lv 25.
+   - Reward: ¥2,000 prize money.
+- Item Ball: (60, 10) - [OBTAINED - Turn 13188] Revive! Located on open ground east of Breeder Myles.
+4. Gentleman Walter: [UNENGAGED]
+   - Location: (55, 5..7) facing South behind blue metal fence.
+   - Team: Manectric Lv 31.
+## Wild Pokémon Discovered
+- Poochyena: Lv 26 ♂ encountered at (42, 12) on turn 13120 and at (57, 5) on turn 13200.
+
+5. Pokéfan Vanessa: [DEFEATED - Turn 13219]
+   - Location: (60, 5) facing West.
+   - Team: Pikachu Lv 30 (has Static ability).
+   - Reward: ¥2,400 prize money.
+6. Cooltrainer Marcel: [DEFEATED - Turn 13258]
+   - Location: (65, 10) facing South.
+   - Team: Manectric Lv 29, Shiftry Lv 29 (used Hyper Potion on Shiftry).
+   - Reward: ¥1,392 prize money.
+## Discovered Topography & Navigation - East Route 121 (Turn 13234)
+- Blue Fence Maze: Northern corridor along row 5 is a dead-end at col 73 (blocked by continuous vertical fence from row 4 to row 12).
+- Cooltrainer Cristin: [DEFEATED - Turn 13471] Located at (72, 9..11). Team: Loudred Lv 29 ♀, Vigoroth Lv 29 ♂ (both OHKO'd by Sage's Leaf Blade). Prize: ¥1,392. Registered in Match Call!
+- Route to Lilycove City: Bypass the fence maze by stepping West to col 62, South down col 62 behind Cooltrainer Marcel to row 13/14, then East along the southern highway past the Berry Grove directly into Lilycove City.
+## Eastern Fence Maze Verified Routing (Turn 13481)
+- Column 61 has a continuous vertical blue fence from row 7 to row 14, separating the eastern berry grove from the central highway.
+- Row 12 is a horizontal blue fence from col 61 to col 71.
+- Southern dead-end: The berry grove at cols 64..66 (rows 13..14) is blocked on the west by the col 61 fence and on the south by the cliff (row 15).
+- Reversal / Westbound Exit Route: From the eastern clearing (cols 71..74), route north around Cristin to (62, 11), ascend Column 62 North to row 5/6 (above the row 7 fence), then ride West along row 5/6 directly into the central Route 121 highway!
+
+7. Sr. and Jr. Kate & Joy (Double Battle): [DEFEATED - Turn 13521]
+   - Location: (40, 9) outside Safari Zone.
+   - Team: Spinda Lv 30, Slaking Lv 32.
+   - Reward: ¥1,024 prize money.
+
+
+<hr>
+
+<h1><code>Locations/Route122</code></h1>
+
+# Location: Route 122
+
+## Overview
+A circular water route surrounding Mt. Pyre in central-eastern Hoenn. Connects to Route 121 in the north and Route 123 in the south.
+
+## Connection Points
+- North Exit: Route 121 pier (entered via Surf at col 11, row 4 on Turn 13539).
+- South Exit: Route 123.
+- Central Island: Mt. Pyre (sacred cemetery mountain, site of Team Aqua / Magma summit confrontation).
+
+## Progression Checklist - Route 122
+1. [x] Surf south from Route 121 onto Route 122 (Turn 13539).
+2. [ ] Navigate around Mt. Pyre island to locate the entrance.
+3. [ ] Enter Mt. Pyre and confront Team Aqua.
+## Discovered Topography & Navigation
+- Mt. Pyre Southern Landing: Located at cols 19..25, rows 29..31 on the southern shore of the island.
+- Water approach: Reached via water lane at row 32. Disembark onto grass at (21, 31).
+- Mt. Pyre 1F Entrance: Dark archway doorway located at (22, 28).
+
 
 <hr>
 
@@ -2839,40 +3214,46 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 47, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 47 (OK, 143/143), Lilz Lv 23 (OK, 67/67), Cipher Lv 14 (OK, 32/32), Cobalu Lv 15 (OK, 42/42), EGG (Wynaut), Guava Lv 28 (OK, 95/95). Total money: ¥11,670.
+- Starter: Sceptile (Level 50, Male), Nickname: SAGE
+- Status: MT. PYRE SUMMIT CLEARED! MAGMA EMBLEM OBTAINED! Defeated all 4 Team Aqua Grunts! Archie fled with Red Orb to Slateport! Fully healed at Lavaridge Center! Next: Infiltrate Team Magma Hideout in Jagged Pass to stop Leader Maxie and Groudon! Party: Sage Lv 51, Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Rock Tomb (10/10), Leaf Blade (15/15), Quick Attack (30/30). HP: 143/143. Max HP: 143. Stats: Atk 103, Def 76, Sp.Atk 114, Sp.Def 103, Speed 137. (Protein used on turn 9546). Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 67/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: OK.
+1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149.
+2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 73/73. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
-4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
-5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
-6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Moves: Whirlwind (20/20), Stomp (20/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
+4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
+5. MOCHI (Wynaut ♂, Level 5) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 24/24. Max HP: 24. Status: OK. Nature: Lax. Ability: Shadow Tag.
+6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). Status: OK.
 
 ## Bag Highlights
-- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - enables HM03 Surf outside battle, Defense boost, obedience up to Lv 60).
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - enables HM02 Fly outside battle, obedience up to Lv 70).
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x1 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
-- Carbos x1 (found in rock at 20, 57 on Route 114)
+- Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
-- Zinc x1 (found at 4, 96 on Route 119 western terrace)
-- Hyper Potion x10 (purchased at Fortree Mart)
-- Revive x4 (purchased at Fortree Mart)
+- Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
+- Hyper Potion x11 (10 purchased at Fortree Mart, 1 found on Route 120 at 23, 82)
+- Max Potion x1 (found at 27, 15 on Mt. Pyre exterior)
+- Revive x4 (3 purchased at Fortree Mart, 1 used in Winona battle; 1 found on Route 121 at 60, 10)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
-- Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥11,670
-- Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- Fresh Water x2 (purchased at Lilycove Rooftop Vending Machine)
+- Lemonade x1 (purchased at Lilycove Rooftop Vending Machine)
+- TM17 Protect (purchased at Lilycove Dept Store 4F)
+- Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
+- Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
+- Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
+- Money: ¥7,569
+- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -2903,7 +3284,13 @@ A large meteorological research institute located in northern Route 119 beside t
 8. [x] Defeat Rival Brendan in Rival Battle #2 on Route 110 causeway and obtain Itemfinder.
 9. [x] Continue north along Route 110 into Mauville City.
 
+- Rival Battle #4 (Lilycove Department Store): Brendan defeated on Turn 13319! (Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32). Reward: ¥2,040. Brendan departed for Littleroot Town.
+
 ## Engine / Harness Mechanics Verified
+- Start Menu Memory: In Pokémon Emerald, the Start Menu remembers the last selected option (e.g. BAG or POKéMON) rather than resetting to POKéDEX.
+- TM/HM Move Replacement Workflow: Booting HM/TM in Bag -> select ABLE Pokémon -> confirm 'Delete a move' (default YES) -> BATTLE MOVES screen displays moves vertically -> select move to replace -> confirm deletion (default YES) -> teaches new move cleanly.
+- HM02 Fly Field Usage: HM02 Fly can only be used outdoors. Accessed via Start -> POKéMON -> select flyer (Guava) -> FLY option appears at top of pop-up menu.
+- Hoenn Fly Map Coordinates: From Fortree City, Fallarbor Town is located exactly 3 grid steps Left along the northern latitude (step 1=Route 119, step 2=Route 111, step 3=Fallarbor Town). Confirming with A on Fallarbor Town prompts 'Fly to FALLARBOR TOWN?' with default YES.
 - Giant Tall Grass Mechanics: In Gen 3 (RSE), giant tall grass cannot be entered while mounted on a Bicycle (the bike is completely blocked by the grass). The player must dismount (press Select) onto foot to traverse giant tall grass.
 - Mach Bike In-Place Turning: Tapping a directional button while stationary on the Mach Bike turns the player in place without taking a step. On foot, pressing a direction takes a step immediately.
 - Route 114 Topology & Navigation: The col 29 eastern path from row 44 is blocked at (29, 47) by a stationary unsmashable boulder and Acro Bike rails. The correct progression route to the lower valley floor and Meteor Falls uses the Western Stairs at (15, 49..50) -> Western Terrace col 12 -> row 55 -> col 17 -> row 60 dirt highway -> white staircase at (24, 60) down to (24, 61).
@@ -2921,7 +3308,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Use exclusively A presses with ~500ms delays to inspect and confirm YES without any risk of B cancelling. Once 'JADE picked...' appears, use B presses to advance and dismiss text, which prevents accidentally opening the planting menu on newly emptied soil. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
-- Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
+- Field Move Mechanics: Teleport cannot be used inside dungeons, caves, or Pokémon Gyms ('Can't use that here.'). Escape Ropes or walking must be used to exit.
 - Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Leaf Blade, Slot 4 (bottom-right) = Quick Attack.
 - Battle Move Memory: In Pokémon Emerald, opening the FIGHT menu automatically remembers and defaults cursor to the move used on the previous turn.
 - Naming Screen Mechanics: Pressing Start moves the cursor directly to the [ OK ] button on the right; pressing A on [ OK ] confirms and submits the name. Pressing B activates [BACK] (erases previous character).
@@ -2974,19 +3361,19 @@ A large meteorological research institute located in northern Route 119 beside t
 10. [x] Descend Jagged Pass to Lavaridge Town (obtained Wynaut Egg, healed at Center).
 11. [x] Defeat Gym Leader Flannery in Lavaridge Gym for Gym 4 (Heat Badge).
 
-## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Active)
+## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Completed)
 1. [x] Receive Go-Goggles from Brendan outside Lavaridge Gym.
 2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
-3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
+3. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return - completed turn 12903!).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
 5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
 6. [x] Challenge Petalburg Gym trainers (Speed, Defense, Strength cleared!).
 7. [x] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!
-## Progression Checklist - Phase 10: Route 118, Weather Institute & Fortree Gym (Active)
+## Progression Checklist - Phase 10: Route 118, Weather Institute & Fortree Gym (Completed)
 1. [x] Obtain HM03 Surf from Wally's Dad in Petalburg City.
 2. [x] Teach HM03 Surf to Lombre (Lilz).
 3. [x] Heal party at Petalburg City Pokémon Center.
-4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
+4. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (TM27 Return - completed turn 12903!).
 5. [x] Travel east from Mauville City onto Route 118.
 6. [x] Surf across Route 118 river to meet Steven Stone.
 7. [x] Traverse Route 119 north to Weather Institute.
@@ -2994,6 +3381,20 @@ A large meteorological research institute located in northern Route 119 beside t
 9. [x] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [x] Arrive in Fortree City and enter Pokémon Center.
 11. [x] Obtain Devon Scope from Steven on Route 120 and clear Kecleon blocking Fortree Gym.
-12. [ ] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+12. [x] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+
+## Progression Checklist - Phase 11: Route 120, Route 121 & Lilycove City (Active)
+1. [x] Heal party and set checkpoint at Fortree Pokémon Center.
+2. [x] Teach HM02 Fly to Guava (Tropius)!
+3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM27 Return)!
+4. [x] Traverse Route 120 east and south toward Route 121 (entered Route 121!).
+5. [ ] Explore Route 121 and Safari Zone entrance.
+6. [x] Arrive in Lilycove City and heal at Pokémon Center (Confirmed healed Turn 13328!).
+7. [ ] Confront Team Aqua/Magma events and advance toward Mossdeep Gym (Gym 7)!
+- Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
+- Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
+- Department Store 2F Clerk Inventory Distinction: In Lilycove Department Store 2F, the Left Clerk at (7, 6) specializes exclusively in Poké Balls (Poke, Great, Ultra) and Status Heals/Recovery items (Full Heal, Antidote, Parlyz Heal, Burn Heal, Ice Heal, Awakening, Escape Rope, Fluffy Tail). The Right Clerk at (10, 6) specializes in HP restoration (Potion, Super Potion, Hyper Potion, Max Potion), Revives, and Repels (Repel, Super Repel, Max Repel).
+- Menu Exit & Overworld Input Protocol: When exiting Mart or NPC shop menus, closing dialogue requires confirmation before overworld movement registers. Chaining movement inputs in the same sequence as menu exits risks triggering unintended options (such as SELL). Best practice is to dismiss the dialogue and verify overworld settlement on screen before executing navigation.
+- Hoenn Fly Map Cursor Navigation: Visited towns are marked with pink circles/rectangles. D-pad cursor movement has a sensitive auto-repeat threshold (~100ms); standard directional presses may step 2 tiles across adjacent nodes. Using calibrated short holds (~70-80ms) prevents overshooting adjacent map nodes.
 
 <hr>

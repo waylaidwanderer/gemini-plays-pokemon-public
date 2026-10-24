@@ -26,7 +26,7 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 4. [x] Approach Fortree Gym and inspect invisible barrier (confirmed 'Something unseeable is in the way' at (25, 8) on turn 9150).
 5. [x] Travel east onto Route 120 to meet Steven Stone and obtain the Devon Scope (obtained turn 9219).
 6. [x] Unmask and clear the invisible Kecleon blocking Fortree Gym (used Devon Scope on turn 9226; Kecleon fled!).
-7. [ ] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
+7. [x] Challenge and defeat Fortree Gym Leader Winona to earn the Feather Badge!
 
 ## Verified Navigation Mechanics - Treehouse Networks (Turn 9111)
 - The southern ground road from the Poké Mart ends at (12, 17); col 13 is blocked by a dense palm tree and forest canopy.
@@ -37,3 +37,4 @@ A unique Hoenn city built among the treetops, where houses are suspended in gian
 - Northern treehouse deck at (10, 4) has a ladder at (10, 5..6) descending to ground at (10, 7).
 - Note: Row 7 has bushes at (8, 7) and (9, 7) blocking direct westward walking.
 - Correct ground route: Step Down to Row 8 at (10, 8), walk West along Row 8 past (9, 8), (8, 8), (7, 8), (6, 8) to (5, 8), then step North via (5, 7) into Pokémon Center doors at (5, 6).
+- Eastbound Canopy Route to Route 120: Ground level is blocked at (11, 8). Climb ladder at (10, 6) to deck (10, 4) -> walk East across suspension bridges along Row 4 past central treehouse (25, 4) to eastern deck at (33, 4) -> descend ladder at (32, 5..6) to ground at (32, 8) -> walk East along Row 8 past col 39 directly into Route 120.

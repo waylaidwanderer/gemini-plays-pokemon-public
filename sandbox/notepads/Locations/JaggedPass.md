@@ -63,3 +63,8 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
 5. Camper Autumn:
    - Location: (14, 25) facing East on sunken central terrace. Inaccessible from eastern terrace.
 - Southern Exit: Row 32 final jump ledge drops to row 33. The exit to Route 112 is located at the wooden steps at (14..15, 36..37), stepping south onto row 38. The east side has Camper Ethan at (17, 35), but south of Ethan is a high cliff wall; the open descent ramp is at cols 14..15.
+- Magma Hideout Entrance Opened (Turn 13734):
+  - Descended Jagged Pass with the MAGMA EMBLEM in Bag.
+  - Rail Chute Traversal: Dismounted Mach Bike with Select onto foot at (14, 12). Hopped South on foot across the Acro Bike rail chute at (14, 13..14) to land at row 15.
+  - Event Trigger: Approaching the volcanic boulder at (14..16, 17..18) triggered: "Oh! This boulder is shaking in response to the MAGMA EMBLEM!"
+  - The boulder shakes and splits open, revealing the entrance to the Team Magma Hideout!

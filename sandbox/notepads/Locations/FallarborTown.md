@@ -43,7 +43,7 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - South garden plot at cols -3..-1, rows 11..14.
   - Open west corridor along row 10 between garden plots.
 - Professor Cozmo's House (Yellow Roof / Telescope):
-  - Located at cols 5..8, rows 14..17 in southwest Fallarbor Town, east of the crater.
+  - Located at cols 4..8, rows 14..17 in southwest Fallarbor Town, east of the crater.
   - Front door at (6, 17), entered from (6, 18) facing North.
   - Surveying device / telescope mounted on roof at cols 6..7, rows 13..14.
   - Approach route: Row 18 is open dirt from col 4 to col 13. Walk south to row 18, west to (6, 18), and step North into door at (6, 17).
@@ -52,3 +52,5 @@ A farming community blanketed in ash from Mt. Chimney. Located at the western en
   - Central table and chairs at cols 4..5, rows 5..6.
   - Professor Cozmo's wife standing at (5, 6), talkable from (6, 6) facing West.
   - Story Event: Spoke with Cozmo's wife. Exact dialogue: "PROF. COZMO went off to METEOR FALLS on ROUTE 114 with some people from TEAM MAGMA." Sets plot objective for Route 114 and Meteor Falls!
+- Story Event: Returned stolen Meteorite to Professor Cozmo. Received TM27 Return!
+- Cozmo Trade Protocol: Speak to Cozmo at (5, 3) from (5, 4) facing North. Advance dialogue exclusively with 'A' to confirm the trade prompt. Pressing B cancels the trade with disappointment dialogue. Confirming YES trades Meteorite for TM27 Return.

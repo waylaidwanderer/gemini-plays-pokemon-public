@@ -2,40 +2,46 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 47, Male), Nickname: SAGE
-- Status: BALANCE BADGE EARNED! HM03 SURF OBTAINED! HEAT BADGE EARNED! GO-GOGGLES OBTAINED! HM04 STRENGTH OBTAINED! MACHO BRACE OBTAINED! METEORITE RECOVERED! WYNAUT EGG OBTAINED! 5 Badges earned! Next destination: Explore Fortree City, obtain Devon Scope from Steven on Route 120, and defeat Gym Leader Winona for Gym 6 (Feather Badge)! Party: Sage Lv 47 (OK, 143/143), Lilz Lv 23 (OK, 67/67), Cipher Lv 14 (OK, 32/32), Cobalu Lv 15 (OK, 42/42), EGG (Wynaut), Guava Lv 28 (OK, 95/95). Total money: ¥11,670.
+- Starter: Sceptile (Level 50, Male), Nickname: SAGE
+- Status: MT. PYRE SUMMIT CLEARED! MAGMA EMBLEM OBTAINED! Defeated all 4 Team Aqua Grunts! Archie fled with Red Orb to Slateport! Fully healed at Lavaridge Center! Next: Infiltrate Team Magma Hideout in Jagged Pass to stop Leader Maxie and Groudon! Party: Sage Lv 51, Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 47) - Evolved on turn 5632! Level 47 on turn 9286! Moves: Fury Cutter (20/20), Rock Tomb (10/10), Leaf Blade (15/15), Quick Attack (30/30). HP: 143/143. Max HP: 143. Stats: Atk 103, Def 76, Sp.Atk 114, Sp.Def 103, Speed 137. (Protein used on turn 9546). Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 23) - Evolved from Lotad on turn 4926! Level 23 on turn 9286! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 67/67. Max HP: 67. Stats: HP 67, Atk 32, Def 28, Sp.Atk 29, Sp.Def 39, Speed 32. Status: OK.
+1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149.
+2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 73/73. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
-4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 40/40. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Headbutt (15/15). Status: OK.
-5. EGG (Wynaut Egg) - Received from Sand Bath Lady in Lavaridge Town on turn 7127! Party slot 5. Status: EGG.
-6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Moves: Whirlwind (20/20), Stomp (20/20), Sweet Scent (20/20), Magical Leaf (20/20). Status: OK.
+4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
+5. MOCHI (Wynaut ♂, Level 5) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 24/24. Max HP: 24. Status: OK. Nature: Lax. Ability: Shadow Tag.
+6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). Status: OK.
 
 ## Bag Highlights
-- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - enables HM03 Surf outside battle, Defense boost, obedience up to Lv 60).
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - enables HM02 Fly outside battle, obedience up to Lv 70).
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
 - Elixir x1 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x1 (found at 11, 37 behind smashable rock on Route 114)
-- Carbos x1 (found in rock at 20, 57 on Route 114)
+- Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
-- Zinc x1 (found at 4, 96 on Route 119 western terrace)
-- Hyper Potion x10 (purchased at Fortree Mart)
-- Revive x4 (purchased at Fortree Mart)
+- Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
+- Hyper Potion x11 (10 purchased at Fortree Mart, 1 found on Route 120 at 23, 82)
+- Max Potion x1 (found at 27, 15 on Mt. Pyre exterior)
+- Revive x4 (3 purchased at Fortree Mart, 1 used in Winona battle; 1 found on Route 121 at 60, 10)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
-- Premier Ball x1 (bonus for purchasing 10 Poké Balls)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
-- Money: ¥11,670
-- Key Items: Go-Goggles (gift from Brendan outside Lavaridge Gym), Meteorite, Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- Fresh Water x2 (purchased at Lilycove Rooftop Vending Machine)
+- Lemonade x1 (purchased at Lilycove Rooftop Vending Machine)
+- TM17 Protect (purchased at Lilycove Dept Store 4F)
+- Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
+- Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
+- Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
+- Money: ¥7,569
+- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -66,7 +72,13 @@
 8. [x] Defeat Rival Brendan in Rival Battle #2 on Route 110 causeway and obtain Itemfinder.
 9. [x] Continue north along Route 110 into Mauville City.
 
+- Rival Battle #4 (Lilycove Department Store): Brendan defeated on Turn 13319! (Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32). Reward: ¥2,040. Brendan departed for Littleroot Town.
+
 ## Engine / Harness Mechanics Verified
+- Start Menu Memory: In Pokémon Emerald, the Start Menu remembers the last selected option (e.g. BAG or POKéMON) rather than resetting to POKéDEX.
+- TM/HM Move Replacement Workflow: Booting HM/TM in Bag -> select ABLE Pokémon -> confirm 'Delete a move' (default YES) -> BATTLE MOVES screen displays moves vertically -> select move to replace -> confirm deletion (default YES) -> teaches new move cleanly.
+- HM02 Fly Field Usage: HM02 Fly can only be used outdoors. Accessed via Start -> POKéMON -> select flyer (Guava) -> FLY option appears at top of pop-up menu.
+- Hoenn Fly Map Coordinates: From Fortree City, Fallarbor Town is located exactly 3 grid steps Left along the northern latitude (step 1=Route 119, step 2=Route 111, step 3=Fallarbor Town). Confirming with A on Fallarbor Town prompts 'Fly to FALLARBOR TOWN?' with default YES.
 - Giant Tall Grass Mechanics: In Gen 3 (RSE), giant tall grass cannot be entered while mounted on a Bicycle (the bike is completely blocked by the grass). The player must dismount (press Select) onto foot to traverse giant tall grass.
 - Mach Bike In-Place Turning: Tapping a directional button while stationary on the Mach Bike turns the player in place without taking a step. On foot, pressing a direction takes a step immediately.
 - Route 114 Topology & Navigation: The col 29 eastern path from row 44 is blocked at (29, 47) by a stationary unsmashable boulder and Acro Bike rails. The correct progression route to the lower valley floor and Meteor Falls uses the Western Stairs at (15, 49..50) -> Western Terrace col 12 -> row 55 -> col 17 -> row 60 dirt highway -> white staircase at (24, 60) down to (24, 61).
@@ -84,7 +96,7 @@
 - Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Use exclusively A presses with ~500ms delays to inspect and confirm YES without any risk of B cancelling. Once 'JADE picked...' appears, use B presses to advance and dismiss text, which prevents accidentally opening the planting menu on newly emptied soil. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
-- Field Move Mechanics: Teleport cannot be used inside dungeons or caves ('Can't use that here.'). Escape Ropes or walking must be used to exit.
+- Field Move Mechanics: Teleport cannot be used inside dungeons, caves, or Pokémon Gyms ('Can't use that here.'). Escape Ropes or walking must be used to exit.
 - Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Leaf Blade, Slot 4 (bottom-right) = Quick Attack.
 - Battle Move Memory: In Pokémon Emerald, opening the FIGHT menu automatically remembers and defaults cursor to the move used on the previous turn.
 - Naming Screen Mechanics: Pressing Start moves the cursor directly to the [ OK ] button on the right; pressing A on [ OK ] confirms and submits the name. Pressing B activates [BACK] (erases previous character).
@@ -137,19 +149,19 @@
 10. [x] Descend Jagged Pass to Lavaridge Town (obtained Wynaut Egg, healed at Center).
 11. [x] Defeat Gym Leader Flannery in Lavaridge Gym for Gym 4 (Heat Badge).
 
-## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Active)
+## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Completed)
 1. [x] Receive Go-Goggles from Brendan outside Lavaridge Gym.
 2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
-3. [ ] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return).
+3. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return - completed turn 12903!).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
 5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
 6. [x] Challenge Petalburg Gym trainers (Speed, Defense, Strength cleared!).
 7. [x] Defeat Gym Leader Norman for Gym 5 (Balance Badge, unlocks HM03 Surf)!
-## Progression Checklist - Phase 10: Route 118, Weather Institute & Fortree Gym (Active)
+## Progression Checklist - Phase 10: Route 118, Weather Institute & Fortree Gym (Completed)
 1. [x] Obtain HM03 Surf from Wally's Dad in Petalburg City.
 2. [x] Teach HM03 Surf to Lombre (Lilz).
 3. [x] Heal party at Petalburg City Pokémon Center.
-4. [ ] Optional: Visit Fallarbor Town to return Meteorite to Professor Cozmo (TM27 Return).
+4. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (TM27 Return - completed turn 12903!).
 5. [x] Travel east from Mauville City onto Route 118.
 6. [x] Surf across Route 118 river to meet Steven Stone.
 7. [x] Traverse Route 119 north to Weather Institute.
@@ -157,4 +169,18 @@
 9. [x] Defeat Rival on Route 119 and obtain HM02 Fly.
 10. [x] Arrive in Fortree City and enter Pokémon Center.
 11. [x] Obtain Devon Scope from Steven on Route 120 and clear Kecleon blocking Fortree Gym.
-12. [ ] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+12. [x] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
+
+## Progression Checklist - Phase 11: Route 120, Route 121 & Lilycove City (Active)
+1. [x] Heal party and set checkpoint at Fortree Pokémon Center.
+2. [x] Teach HM02 Fly to Guava (Tropius)!
+3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM27 Return)!
+4. [x] Traverse Route 120 east and south toward Route 121 (entered Route 121!).
+5. [ ] Explore Route 121 and Safari Zone entrance.
+6. [x] Arrive in Lilycove City and heal at Pokémon Center (Confirmed healed Turn 13328!).
+7. [ ] Confront Team Aqua/Magma events and advance toward Mossdeep Gym (Gym 7)!
+- Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
+- Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
+- Department Store 2F Clerk Inventory Distinction: In Lilycove Department Store 2F, the Left Clerk at (7, 6) specializes exclusively in Poké Balls (Poke, Great, Ultra) and Status Heals/Recovery items (Full Heal, Antidote, Parlyz Heal, Burn Heal, Ice Heal, Awakening, Escape Rope, Fluffy Tail). The Right Clerk at (10, 6) specializes in HP restoration (Potion, Super Potion, Hyper Potion, Max Potion), Revives, and Repels (Repel, Super Repel, Max Repel).
+- Menu Exit & Overworld Input Protocol: When exiting Mart or NPC shop menus, closing dialogue requires confirmation before overworld movement registers. Chaining movement inputs in the same sequence as menu exits risks triggering unintended options (such as SELL). Best practice is to dismiss the dialogue and verify overworld settlement on screen before executing navigation.
+- Hoenn Fly Map Cursor Navigation: Visited towns are marked with pink circles/rectangles. D-pad cursor movement has a sensitive auto-repeat threshold (~100ms); standard directional presses may step 2 tiles across adjacent nodes. Using calibrated short holds (~70-80ms) prevents overshooting adjacent map nodes.
