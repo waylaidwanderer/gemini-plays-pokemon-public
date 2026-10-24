@@ -1035,6 +1035,11 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - 4F Lower Terrace Thoroughfare (row 10, cols 8..21):
   - Row 10 is the true east-west highway connecting the western area directly to the cave doorway at (21, 10).
   - Walkable across col 7 at row 10, passing north of the generator consoles.
+- 4F Southern Cave Doorway (col 21, rows 9..10):
+  - Row 10 thoroughfare leads directly East to col 21 in front of the doorway.
+  - Cave doorway is cut into the wall at (21, 9), entered by stepping Up from (21, 10).
+  - Crate staircase visible at col 20 (rows 12..15) leading to lower tier.
+  - Entering doorway at (21, 9) to advance into deeper hideout chambers!
 
 <hr>
 
