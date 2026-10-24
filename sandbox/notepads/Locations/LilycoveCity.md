@@ -87,19 +87,9 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
   - Residents: Blond boy in red jacket at (9, 5); Camper in green at (4, 4).
   - Vending Machines: Left machine at (9, 1), Right machine at (10, 1), approached from (9, 2) and (10, 2) facing North. Sells Fresh Water (¥200, 50 HP), Soda Pop (¥300, 60 HP), Lemonade (¥350, 80 HP).
   - Planters / Benches: Planters at cols 1..2, rows 3 and 5; purple benches at (5..7, 5) and (10..12, 5).
-- Eastern Terrace & Cove Approach (Verified Turn 15089):
-  - Grand Staircase (cols 31..32, rows 11..14) leads to upper avenue along row 8.
-  - Path extends east through cols 33..53 past Team Aqua Grunts at (37, 8), (45..46, 10), and (45, 18).
-  - Upper residential house with blue roof at cols 55..58, rows 13..15.
-  - North cliff at (53, 4) overlooks the ocean.
-  - Shoreline path descends to the beach and northeastern cove leading to the Team Aqua Hideout entrance.
-- Shoreline Descent & Team Aqua Hideout Route (Verified Turn 15091):
-  - White stone staircase at cols 54..56, rows 19..21 connects the eastern upper terrace directly down to the sandy beach at row 22+.
-  - From the beach (row 22, col 57+), interacting with the water initiates Surf with Lilz.
-  - Surfing North into the northeastern cove waters leads directly to the Team Aqua Hideout cave entrance carved into the northern cliff wall.
-
-- Team Aqua Hideout Cove Navigation (Verified Turn 15112):
-  - Northeast cove contains tidal shallow water / wet sand where player walks on foot (Surf dismounts upon entering shallow water).
-  - Central large boulder is at cols 63..66, rows 4..7.
-  - Team Aqua Hideout cave entrance is in the northeastern cliff face at cols 68..69, rows 2..3.
-  - Pathway wraps south of the boulder along row 8+ or east through shallow water directly leading to the hideout cave entrance.
+- Eastern Terrace & Cove Route to Team Aqua Hideout (Consolidated & Verified Turn 15123):
+  - Upper Avenue & Grunts: Grand Staircase at (31..32, 11..14) leads up to row 8. Path heads east through cols 33..53 past patrollers. Blue-roof house at (55..58, 13..15).
+  - Beach Descent: White stone staircase at (54..56, 19..21) descends to sandy beach (row 22+, col 57+).
+  - Cove Topography: Northeast cove has shallow tidal water (cols 58..65) where the player dismounts to walk on foot. Central boulder sits at (63..66, 4..7).
+  - Deep Water Channel & Entrance: Open deep water runs along cols 66..71, rows 6..10. Activating Surf at row 9/10 enables surfing north along the channel.
+  - Team Aqua Hideout Cave Entrance: Carved into northern cliff face at cols 69..71, rows 4..5. Left frame at (69, 5), right frame at (71, 5). Doorway warp is at (70, 5), approached from (70, 6) stepping North.
