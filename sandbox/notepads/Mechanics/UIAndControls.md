@@ -69,7 +69,7 @@
 - **Overworld Warp & Grass Timing Workarounds (Turns 124–149):**
   - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
   - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
-- **Nickname Prompt Transition (Turn 207):** Pressing `A` on `"YES"` to nickname a Pokémon immediately opens the naming keyboard at `(0, 0) = 'A'`. Do not send an extra `A` before directional inputs on the naming grid, or it will type `'A'` as the first character.
+- **Nickname Prompt Transition (Turns 207, 534):** When catching a **new** Pokédex species, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Do not send an extra `A` after the 4th `A` before directional inputs on the naming grid, or it will type `'A'` as the first character.
 - **Route 102 Layout & Trainers (Turns 175–177, 303–314):**
   - Enter Route 102 from Oldale Town `(0, 10)` at `(49, 10)`.
   - Grass-free path to Youngster Calvin: walk `Left` to `(38, 10)`, `Down` 4 tiles to `(38, 14)`, and `Left` 4 tiles to `(34, 14)`.

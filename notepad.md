@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | AAAAAAAAAA | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Skitty ♂ | LYNX | 4 | Active | Caught at (12, 15) in red HP after 2x Bubble; knows Sing, Attract |
-| Route 102 | Gulpin ♂ | TOXIN | 6 | Active | Caught at (38, 6) in Yellow HP after 1x Water Gun; resists Grass/Fighting/Poison, knows instant-sleep Yawn |
+| Route 102 | Gulpin ♂ | GULPIN | 6 | Active | Caught at (38, 6) in Yellow HP after 1x Water Gun; resists Grass/Fighting/Poison, knows instant-sleep Yawn |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -56,7 +56,7 @@
 ## Active Party
 1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 10 (1257 EXP) | HP: 29/32 | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 19 Atk / 18 Def / 18 SpA / 16 SpD / 11 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
 2. **LYNX** (Skitty ♂) — Lv. 4 | Caught on Route 103 | Ability: Cute Charm | Moves: Tackle, Growl, Sing, Attract
-3. **TOXIN** (Gulpin ♂) — Lv. 6 | Caught on Route 102 | Moves: Pound, Yawn (instant sleep), Poison Gas / Acid
+3. **GULPIN** (Gulpin ♂) — Lv. 6 | Caught on Route 102 | Moves: Pound, Yawn (instant sleep), Poison Gas / Acid
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -203,7 +203,7 @@
 - **Overworld Warp & Grass Timing Workarounds (Turns 124–149):**
   - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
   - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
-- **Nickname Prompt Transition (Turn 207):** Pressing `A` on `"YES"` to nickname a Pokémon immediately opens the naming keyboard at `(0, 0) = 'A'`. Do not send an extra `A` before directional inputs on the naming grid, or it will type `'A'` as the first character.
+- **Nickname Prompt Transition (Turns 207, 534):** When catching a **new** Pokédex species, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Do not send an extra `A` after the 4th `A` before directional inputs on the naming grid, or it will type `'A'` as the first character.
 - **Route 102 Layout & Trainers (Turns 175–177, 303–314):**
   - Enter Route 102 from Oldale Town `(0, 10)` at `(49, 10)`.
   - Grass-free path to Youngster Calvin: walk `Left` to `(38, 10)`, `Down` 4 tiles to `(38, 14)`, and `Left` 4 tiles to `(34, 14)`.
