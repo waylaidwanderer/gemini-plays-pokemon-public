@@ -78,8 +78,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Column 39 dead-ends at one-way downward crate steps at (39, 12..13).
   - All southern ridges along row 19/21 (tested at col 40, col 24, col 22) are solid multi-tier cliff faces, not jump ledges.
   - Rock mound north of (21, 18) blocks northward passage.
-- Active Progression Hypothesis - Western Canyon:
-  - Exploring west of the col 10 junction along row 16/17 toward columns 3–7 to locate a walkable path or ascent onto the upper plateau. (To be verified tile-by-tile via grid).
+- Western Sector Verification:
+  - Bounded on west by solid mountain cliff wall at col 6.
 - 3F Exploration Conclusion (One-Way Return Chute):
   - Fully verified: All three crate steps (at 8, 14; 27, 14..15; 39, 12..13) are one-way downward drops into the lower hallway from the upper plateau.
   - All boundaries (west cols 0..6, north row 14, east col 41, south rows 19..22) are solid cliffs.
