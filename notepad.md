@@ -1054,7 +1054,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Western passage at cols 7..10 leads North past the drill tank.
   - Eastern passage at cols 17..19 leads North past the generator cabinets.
 - 5F Inner Excavation Chamber:
-  - Item ball located at (5, 8..9) tucked between the subterranean drill tanks.
+  - Collected PP Max at (5, 9) tucked between the subterranean drill tanks!
   - Drill tank fleet stationed in northern cavern (cols 5..9, rows 0..3).
   - Open dirt highway leads Northeast toward the inner core.
 
@@ -3352,6 +3352,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
 - Hyper Potion x11 (10 purchased at Fortree Mart, 1 found on Route 120 at 23, 82)
 - Max Potion x1 (found at 27, 15 on Mt. Pyre exterior)
+- PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
 - Revive x4 (3 purchased at Fortree Mart, 1 used in Winona battle; 1 found on Route 121 at 60, 10)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
