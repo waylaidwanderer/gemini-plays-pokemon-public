@@ -43,6 +43,7 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♀ (Lv. 10, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+2. **ATHENA** — Spearow ♀ (Lv. 4, `Keen Eye`, Moves: `Peck`, `Growl`) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
