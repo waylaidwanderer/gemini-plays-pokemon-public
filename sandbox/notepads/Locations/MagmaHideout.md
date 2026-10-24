@@ -49,3 +49,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - West & South: vertical cliff drops into lower canyon and Eastern Avenue.
   - Conclusion: The Central Plateau is an exit drop-point from the doorway terrace, not an entrance.
   - Cave doorway at (18..19, 21) sits on upper terrace above a south-facing jump ledge.
+- Lower Chamber Exploration (2F):
+  - Team Magma Grunt #3 defeated at (21, 11) (Numel Lv 29, ¥580).
+  - Main corridor (rows 10..12) extends west toward an item ball / white object at (15..16, 10).
+  - Additional Team Magma Grunt sighted on lower terrace to the south around row 15.
