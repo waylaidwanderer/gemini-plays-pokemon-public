@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | KRAKEN | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | AKRAKEN | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
 | Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
@@ -67,7 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **KRAKEN** — Mudkip ♂ (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle`, `Growl`) — Met on Route 101 (Starter).
+1. **AKRAKEN** — Mudkip ♂ (Lv. 7, `25/25 HP`, `Torrent`, Stats: `25 HP / 16 Atk / 12 Def / 14 SpA / 12 SpD / 10 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Growl` [Slot 3: `Down, Left`], `Mud Sport` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -153,7 +153,7 @@
   2. **Missed Route 104 South Berry Trees at `(37, 57)`–`(38, 57)` (No Held `Oran Berry`):** After consuming our Route 102 `Oran Berries` against Lass Tiana and Bug Catcher Allen, we walked past the 2 Berry trees at `(37, 57)` and `(38, 57)` at the eastern entrance of Route 104 South without harvesting and equipping them.
   3. **Three Underleveled Teammates (`Lv. 4 LYNX`, `Lv. 7 GULPIN`, `Lv. 7 GAIA`):** Despite our rule to train teammates to Lv. 10+, we brought Lv. 4 and Lv. 7 teammates to Route 104 South and switched 2x Water-weak `GAIA` (`Cubone`) into `Feebas`'s `Water Pulse` (dying to a 4x SE+Crit hit).
 - **Tactical Rules for Attempt #6:**
-  1. **Harvest & Equip Route 104 South Berries at `(37, 57)`–`(38, 57)` Immediately Upon Entering Route 104 South:** Always keep an `Oran Berry` equipped on our lead and backup Pokémon before every trainer on Route 104 South.
+  1. **Harvest & Equip Route 104 South Berries at `(22, 41)` & `(24, 41)`:** Harvest the 2 `Oran Berries` at `(22, 41)` and 2 `Pecha Berries` at `(24, 41)` north of Mr. Briney's Cottage on Route 104 South (note: the trees north of `y=56` at the eastern entrance are behind an impassable forest wall).
   2. **Train Caught Teammates to Lv. 10–12 Before Route 104 South Trainers:** Do not leave caught teammates at Lv. 4–7; grind our primary backup teammate(s) to **Lv. 10–12** so they can independently defeat Lv. 8–9 trainer Pokémon (`Magikarp` / `Feebas`).
   3. **Against Fisherman Darian `(15, 58)` / `(15, 59)`:** Lead with a trained secondary teammate against `Lv. 9 Magikarp` (`Bounce`) so `Mudkip` enters `Lv. 8 Feebas` at **100% HP holding an `Oran Berry`**, and never switch a Ground-type into `Water Pulse`.
 
@@ -278,7 +278,7 @@
     - Safe tall grass patch near south entrance: `x=21..23, y=33..35` (approach from `(16, 38)` via `Up` 3 to `(16, 35)` and `Right` 5 to `(21, 35)`).
     - **Bug Maniac Lyle `(13, 35)`:** Faces `Up` across `(13, 34)`; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat` — all OHKO'd by `ATHENA`'s `Peck`).
     - **Western Grass-Free Corridor & Bug Catcher James (Verified Turns 923–924):** From `(13, 34)`, walk `Left` 6 to `(7, 34)`, `Up` 2 to `(7, 32)`, `Left` 2 to `(5, 32)`, `Up` 6 along grass-free `x=5` to `(5, 26)`, `Right` 1 to `(6, 26)`, `Up` 2 to `(6, 24)`, and `Right` 3 to `(9, 24)` (facing **Bug Catcher James** at `(10, 24)` with **0 grass tiles**). James has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada`).
-    - **Central Grass-Free Corridor to Team Aqua Grunt (Verified Turns 927–929):** From `(9, 24)`, walk `Left` 2 to `(7, 24)`, `Down` 1 to `(7, 25)`, `Right` 8 along grass-free `y=25` to `(15, 25)`, `Down` 1 to `(15, 26)`, `Right` 11 along grass-free `y=26` to `(26, 26)`, and `Up` along grass-free `x=26..28` to trigger the Devon Researcher & Team Aqua Grunt cutscene with **0 grass tiles**.
+    - **Central Grass-Free Corridor to Team Magma Grunt (Verified Turns 927–947):** From `(9, 24)`, walk `Left` 2 to `(7, 24)`, `Down` 1 to `(7, 25)`, `Right` 8 along grass-free `y=25` to `(15, 25)`, `Down` 1 to `(15, 26)`, `Right` 11 along grass-free `y=26` to `(26, 26)`, and `Up` along grass-free `x=26..28` to trigger the Devon Researcher & **Team Magma Grunt** `(26, 23)` cutscene with **0 grass tiles**. The Team Magma Grunt has **4 Pokémon** (`Lv. 8 Magnemite` [`Thunder Wave`, `ThunderShock`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief`], `Lv. 9 Houndour` [`Ember`, `Pursuit`], and 4th unseen).
   - **Grass-Free Path from Bug Catcher Rick `(26, 15)` to Berry Trees `(24, 3)` (Verified Turn 557):** There is a south-facing ledge along `x=19..25, y=6` with tall grass on `(19..25, 7)` and `(19..23, 8..9)`. Column **`x=18`** is the 1-tile grass-free corridor between the trees (`x=17`) and the tall grass (`x=19`). To reach `(24, 3)` with **0 grass tiles**, walk `Up` 2 to `(26, 13)`, `Left` 1 to `(25, 13)`, `Up` 3 to `(25, 10)`, `Left` 7 along grass-free `y=10` to `(18, 10)`, `Up` 6 along grass-free `x=18` to `(18, 4)`, `Right` 6 to `(24, 4)`, and `Up` 1 to `(24, 3)`.
   - **Berry Tree Harvesting & Equipping Formula (Turns 319, 560):** Press `A` **3 times** with `sleep 1200` (`sleep 3000` after the 3rd `A`) to confirm picking the Berries, then press `B` **3 times** (`sleep 1200`) to close the text without re-interacting with the loamy soil (which otherwise opens the `BERRIES POCKET` and resets the in-battle move cursor to Slot 0). Inside the `BAG -> BERRIES` pocket (Dot 4), Berries are sorted by Berry Number (`No03 PECHA BERRY` Row 0, `No07 ORAN BERRY` Row 1), and the 2-column Berry popup menu starts at `▶CHECK TAG` (`Down, Right, A` selects `GIVE`).
   - **Poké Mart Overworld Purchase Formula (Turns 377, 792):** Poké Mart interior entry mat is at `(3, 7)`; walk `Up` 4 tiles to `(3, 3)` and `Left` to face the clerk, and `Down` 5 tiles to exit back outside. Talking to a Mart clerk from the overworld requires **3 `A` presses** to open the `BUY` screen (`"A", "sleep 1200"` for `"Welcome!"`, `"A", "sleep 1200"` for `"How may I serve you?"`, and `"A", "sleep 3000"` to select `▶BUY` and wait for the 2.7s fade-in).
