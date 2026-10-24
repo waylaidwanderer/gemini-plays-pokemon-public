@@ -221,3 +221,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
     - Tabitha at (22, 7) is bypassed on the EAST via col 23 (rows 6..8).
     - Central rock mound at (20..22, 3) blocks direct northern advance along cols 21..22 at row 3.
     - Verified Progression Route: From (21, 4), walk west along row 4 to col 18 (east of the drill tank at col 15), north up col 18 to row 2, then east along row 2 to col 22, and north into Groudon's magma basin (row 0)!
+
+- Groudon's Magma Basin (Magma Core):
+  - Location: Southwestern volcanic cavern reached via western highway (cols 5..7, rows 10..20).
+  - Groudon: Legendary super-ancient Pokémon resting in the volcanic lava pool at (15..17, 16..18).
+  - Leader Maxie: Positioned at (16, 22) facing Groudon, holding the Blue Orb to awaken Groudon.
+  - Max Revive: Found behind generator at (3, 7) on the northwest side of the basin.
