@@ -172,3 +172,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Column 19 Northbound Corridor (cols 18..19, rows 2..5):
   - Runs North between the middle drill tank (cols 17..18) and the eastern generator console (cols 20..21).
   - Connects row 5 directly up to row 2 at (19, 2), opening east into the massive northern canyon (cols 21..22, rows -1..1).
+- 5F Eastern Avenue & Outer Canyon Route:
+  - Northbound passage at (19, 3) is blocked by drill tank and console geometry.
+  - The true thoroughfare into the outer canyon goes South down columns 18..19 (rows 5..12) between the central consoles and the eastern drill tanks.
+  - At row 11/12, the cavern wraps East into the massive outer magma canyon.
