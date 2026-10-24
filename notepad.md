@@ -966,8 +966,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Warp mat from 2F doorway at (10, 23). Player spawns at (10, 22) facing North.
   - Open dirt canyon corridor flanked by rock walls leads North along cols 9..11 into the chamber.
 - 3F Junction (row 16..17):
-  - North-West: Crate steps at cols 7..8, rows 14..15 with Team Magma Grunt on upper ledge at (7, 13) facing East.
-  - East: Open dirt highway along rows 16..17 leading east into the hideout.
+  - North-West: Crate steps at (8, 14) confirmed to be a one-way downward ledge (cannot be ascended from the south at 8, 15). Upper ledge with Grunt at (7, 13) is an exit drop-point.
+  - East: Open dirt highway along rows 16..17 is the true progression route leading east into the 3F main cavern.
 
 <hr>
 
