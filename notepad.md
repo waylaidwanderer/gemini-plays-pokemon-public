@@ -1078,6 +1078,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Defeated Team Magma Grunt #7 at (16, 3) (Mightyena Lv 29, ¥580).
   - All boundaries (north wall of drill tanks, east mountain wall, south cliff ridges, west mountain wall) are solid.
   - Returning through doorway at (12, 16) to 4F to explore the lower tier (where the southern Grunt and lava river are located).
+- 4F Lower Tier Crate Staircase (col 20, rows 12..15):
+  - Located directly south of the 5F doorway at (21, 9..10).
+  - 4-step crate staircase descends from row 11 down to the lower tier (row 16+) beside the lava river.
 
 <hr>
 
@@ -3350,7 +3353,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Collected PP Max at (5, 9). Navigating northeast along 5F row 4 highway past drill tank fleet and generator machinery to confront Tabitha and Maxie! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Returned to 4F at (21, 10). Descending crate staircase at col 20 (rows 12..15) down to the lower tier to confront the southern Grunt and advance toward the magma core! Party: Sage Lv 51 (HP 119/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (7/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (28/30). HP: 119/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).

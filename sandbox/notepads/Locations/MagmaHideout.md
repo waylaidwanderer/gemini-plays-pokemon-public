@@ -182,3 +182,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Defeated Team Magma Grunt #7 at (16, 3) (Mightyena Lv 29, ¥580).
   - All boundaries (north wall of drill tanks, east mountain wall, south cliff ridges, west mountain wall) are solid.
   - Returning through doorway at (12, 16) to 4F to explore the lower tier (where the southern Grunt and lava river are located).
+- 4F Lower Tier Crate Staircase (col 20, rows 12..15):
+  - Located directly south of the 5F doorway at (21, 9..10).
+  - 4-step crate staircase descends from row 11 down to the lower tier (row 16+) beside the lava river.
