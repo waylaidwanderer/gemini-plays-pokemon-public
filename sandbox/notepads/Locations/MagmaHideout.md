@@ -161,3 +161,5 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Collected PP Max at (5, 9) tucked between the subterranean drill tanks!
   - Drill tank fleet stationed in northern cavern (cols 5..9, rows 0..3).
   - Open dirt highway leads Northeast toward the inner core.
+- Team Magma Grunt #7:
+  - Stationed on 5F highway at (16..17, 4) facing West.
