@@ -973,6 +973,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Rows 18..20 form a wide open highway extending east past col 21 toward the eastern section of 3F.
   - Crate steps at col 27, rows 14..15: Another one-way downward ledge connecting upper plateau (row 13) down to lower eastern hall (row 16).
   - Highway continues wide open to the east past col 28 along rows 17..19.
+- Eastern Northbound Corridor:
+  - Eastern wall reached at col 41.
+  - A 2-tile wide highway at cols 39..40 runs North from row 18 past row 14 leading onto the upper plateau.
+  - Crate steps #6 located at cols 37..38, row 12 face south as another drop-point from the plateau.
 
 <hr>
 
