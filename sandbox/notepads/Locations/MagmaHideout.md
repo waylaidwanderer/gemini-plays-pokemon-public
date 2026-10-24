@@ -99,3 +99,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - High-tech generator machinery at northwest (cols 18..20) and southwest.
   - Southern doorway visible in south wall.
   - Open cavern dirt leads East and Northeast toward cols 25+.
+- 4F Transition Chamber Layout:
+  - Entrance doorway at (23, 3) from Level 4.
+  - Room is bounded by generator consoles on west (cols 16..17), north wall, and solid cliff on east (col 26).
+  - Single progression exit is Doorway 2 cut into south cliff wall at (21, 9), entered from (21, 8) stepping Down. Leads into the next chamber!
