@@ -61,5 +61,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Descended Crate Steps #2 at cols 9..10, rows 12..13 to row 16.
   - Wild encounters: Torkoal Lv 28, Geodude Lv 27.
   - Generator consoles at cols 14..17, rows 16..18.
-  - Patrolling Grunts: Grunt A patrols row 14 (cols 14..17); Grunt B patrols row 19/20 near machinery.
-  - Cave doorway visible in southern cliff wall below rows 19..20 around cols 11..13 leading deeper into Hideout!
+  - Team Magma Grunt #5 defeated at (12, 20) (Baltoy Lv 28, Numel Lv 28, ¥560).
+  - Crate steps #3 located at cols 20..21, rows 20..23 connecting row 20 to the lower terrace.
+  - Cave doorway visible in southern cliff wall at cols 11..12, row 24 leading deeper into Hideout!
