@@ -1053,6 +1053,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Drill tank at cols 5..6, rows 9..11.
   - Western passage at cols 7..10 leads North past the drill tank.
   - Eastern passage at cols 17..19 leads North past the generator cabinets.
+- 5F Inner Excavation Chamber:
+  - Item ball located at (5, 8..9) tucked between the subterranean drill tanks.
+  - Drill tank fleet stationed in northern cavern (cols 5..9, rows 0..3).
+  - Open dirt highway leads Northeast toward the inner core.
 
 <hr>
 
