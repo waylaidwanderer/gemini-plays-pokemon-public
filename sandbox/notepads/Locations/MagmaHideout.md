@@ -95,3 +95,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Col 24 forms the western edge of the eastern cliff wall at rows 21..24.
   - Cols 18..23 form a wide, completely unobstructed natural dirt valley running South from row 20 down into the vast lower cavern (rows 21..25+).
   - This connects the upper highway directly to the lower southern cavern without any ledges or crate steps.
+- 3F Western Canyon & Upper Plateau Ascent:
+  - Row 17 forms an open horizontal highway extending west from col 10 all the way to col 3.
+  - Columns 3 and 4 form a long north-south canyon running along the western perimeter from row 21 up to row 13.
+  - At row 13, the western canyon ascends directly onto the Upper Plateau, bypassing all one-way downward crate steps.
+  - This is the true progression route through Magma Hideout 3F.
