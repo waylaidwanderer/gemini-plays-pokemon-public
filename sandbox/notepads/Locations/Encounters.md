@@ -2,7 +2,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | AKRAKEN | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | AKRAKEN | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
 | Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
