@@ -49,10 +49,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 2 `BAG`)
-1. **ATHENA** — Spearow ♀ (Lv. 15 [AT CAP: `61/721 EXP`], `30/39 HP`, Held: `Oran Berry`, Rash, `Keen Eye`, Stats: `39 HP / 27 Atk / 14 Def / 18 SpA / 16 SpD / 29 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
+1. **ATHENA** — Spearow ♀ (Lv. 15 [AT CAP: `61/721 EXP`], `21/39 HP` [`PAR`], Rash, `Keen Eye`, Stats: `39 HP / 27 Atk / 14 Def / 18 SpA / 16 SpD / 29 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
 2. **MUDKIP** — Mudkip ♀ (Lv. 10 [`164/413 EXP`], `31/31 HP`, Held: `Oran Berry`, Brave, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-3. **MERLIN** — Ralts ♂ (Lv. 4, `16/16 HP`, Jolly, `Synchronize`, Stats: `16 HP / 7 Atk / 7 Def / 8 SpA / 7 SpD / 8 Spd`, Moves: `Confusion`) — Met on Route 102.
-4. **CIRCE** — Spoink ♀ (Lv. 7, `27/27 HP`, `Psywave`, `Splash`) — Met on Route 104 (South).
+3. **MERLIN** — Ralts ♂ (Lv. 4, `16/16 HP`, Held: `Oran Berry`, Jolly, `Synchronize`, Stats: `16 HP / 7 Atk / 7 Def / 8 SpA / 7 SpD / 8 Spd`, Moves: `Confusion`) — Met on Route 102.
+4. **CIRCE** — Spoink ♀ (Lv. 7, `19/27 HP`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`]) — Met on Route 104 (South).
 5. **NOCTIS** — Hoothoot ♂ (Lv. 8, `Confusion`, `Growl`) — Met in Petalburg Woods.
 
 ## Notepad Index
