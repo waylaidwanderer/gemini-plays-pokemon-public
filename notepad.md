@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♀ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Spearow ♀ | ATHENA | 15 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
-| Route 104 (South) | Spoink ♀ | CIRCE | 7 | Active | Caught on Turn 889 (`Confusion`, `Psywave`) |
+| Route 104 (South) | Spoink ♀ | CIRCE | 8 | Active | Caught on Turn 889 (`Confusion`, `Psywave`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTIS | 8 | Active | Caught on Turn 917 (`Confusion`, `Growl`) |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open encounter east of Route 116 |
@@ -58,7 +58,7 @@
 - **Petalburg Woods Trainers (Verified Turns 920–925):**
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat`).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada` [`Giga Drain`, `Scratch`]).
-  3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **4 Pokémon** (leads with `Lv. 8 Magnemite`).
+  3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **4 Pokémon** (`Lv. 8 Magnemite` [`Thunder Wave`, `ThunderShock`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief`], `Lv. 9 Houndour`, and 4th unseen).
 - **Level 15 Cap Management Plan (Roxanne Cap = Lv. 15):**
   - `ATHENA` (Lv. 15, `61 / 721 EXP` into Lv. 15 = `660 EXP` headroom before Lv. 16) will defeat the Team Aqua Grunt in Petalburg Woods (or pivot to `MUDKIP` on Water-weak foes), after which the Devon Researcher heals the party to 100% HP/PP.
   - Immediately after the Team Aqua Grunt battle, swap **`MUDKIP` (`Lv. 10`) into Party Slot 1** so `ATHENA` never reaches Lv. 16 before Roxanne, and feed all remaining trainers and wild encounters on Route 104 North / Route 116 to **`MUDKIP` (to reach Lv. 14–15 for Roxanne)** and **`CIRCE` / `NOCTIS`**.
