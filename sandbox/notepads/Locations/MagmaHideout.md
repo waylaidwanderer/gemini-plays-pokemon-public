@@ -234,3 +234,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Maxie's Crobat Lv 38 has Wing Attack and high speed, but Sage Lv 52 (Speed 153) outspeeds it once on the field and has Rock Tomb (2x SE).
 
 - Story Climax Complete (Turn 14995): Leader Maxie defeated (Prize: ¥3,120). Groudon awakened by the Blue Orb and escaped into the Hoenn skies. Warp at (17, 21) teleports to 4F at (16, 21), where the warps at (16, 22) and (20, 22) form a closed two-way loop. Escape requires using Dig or walking back to 1F entrance at (10, 35).
+
+- Central Plateau Staircase & Eastern Avenue Route (Verified):
+  - White staircase at cols 23..24, rows 25..27 connects landing platform (row 25) down to row 27.
+  - Col 25 is a solid vertical cliff wall; from base of stairs at (24, 27), step East x2 to col 26 onto Eastern Avenue before heading North along col 26 to row 10.
+  - Central Lower Highway (rows 9..11) connects col 26 west to Column 5 Canyon at (5, 10).
+  - Column 5 Canyon connects south to row 22, leading east across cleared boulder puzzle to main entrance corridor (col 10) and exit warp at (10, 35).
