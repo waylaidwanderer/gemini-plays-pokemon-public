@@ -1103,6 +1103,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Two subterranean drill tanks flank the northern avenue at cols 41..43 and cols 48..50.
   - Rows 20+ feature stepped dirt terraces with south-facing ledges descending toward the magma core / Groudon's chamber.
 
+- Switchback Ramp #1 (cols 38..40, rows 20..22):
+  - Ridge at row 21 terminates at col 41.
+  - Natural dirt opening at cols 38..40 connects Terrace 1 down to Terrace 2 (rows 22..23).
+  - Terrace 2 runs East across rows 22..23 beneath the upper ridge.
 
 <hr>
 
