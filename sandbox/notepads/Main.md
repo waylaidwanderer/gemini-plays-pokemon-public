@@ -6,7 +6,7 @@
 - Status: INFILTRATING MAGMA HIDEOUT! Cleared 2F southern terrace, defeated Grunt #5 at (12, 20), descended crate steps #3 to row 24, and navigating to southern cave doorway at (11, 22) to enter 3F! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149.
+1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
 2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 73/73. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.

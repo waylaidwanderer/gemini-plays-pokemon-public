@@ -35,13 +35,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Eastern avenue extends south from col 24..26, row 10 past Team Magma Grunt #2 at (27, 20) (defeated).
   - Main dirt floor extends south through col 26 past generator consoles down to row 34.
   - Southern Cave Doorway is at (25, 35) cut into the south cliff face, approached from (25, 34) stepping Down. Leads into Magma Hideout 2F.
-
-## Discovered Topography & Navigation - 2F
-- Entrance Area:
-  - Spawns at (8, 3) facing South from doorway at (8, 2).
-  - Corridor runs along row 5 from col 6 to col 27. Impassable cliff drops off to the south along row 6 overlooking the main lower chamber.
-  - Secret Base spot with 4 sparkle diamonds at (27..28, 2).
-  - Main chamber access: The yellow/blue crates at cols 22..23, rows 7..8 are walkable crate steps! Walking south from (22, 6) onto (22, 7) and (22, 8) steps down off the upper ledge directly into the main lower chamber (row 9+) where Team Magma Grunt #3 is stationed at (22, 11).
 - Central Elevated Plateau & Northern Doorway (1F):
   - Ascended via white staircase at (23..24, 26) from Eastern Avenue (24, 27..28).
   - Small 3x2 landing platform at cols 22..24, rows 25..26.
@@ -49,14 +42,19 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - West & South: vertical cliff drops into lower canyon and Eastern Avenue.
   - Conclusion: The Central Plateau is an exit drop-point from the doorway terrace, not an entrance.
   - Cave doorway at (18..19, 21) sits on upper terrace above a south-facing jump ledge.
+
+## Discovered Topography & Navigation - 2F
+- Entrance Area:
+  - Spawns at (8, 3) facing South from doorway at (8, 2).
+  - Corridor runs along row 5 from col 6 to col 27. Impassable cliff drops off to the south along row 6 overlooking the main lower chamber.
+  - Secret Base spot with 4 sparkle diamonds at (27..28, 2).
+  - Main chamber access: The yellow/blue crates at cols 22..23, rows 7..8 are walkable crate steps! Walking south from (22, 6) onto (22, 7) and (22, 8) steps down off the upper ledge directly into the main lower chamber (row 9+) where Team Magma Grunt #3 is stationed at (22, 11).
 - Lower Chamber Exploration (2F):
   - Team Magma Grunt #3 defeated at (21, 11) (Numel Lv 29, ¥580).
-  - Main corridor (rows 10..12) extends west toward an item ball / white object at (15..16, 10).
-  - Additional Team Magma Grunt sighted on lower terrace to the south around row 15.
+  - Main corridor (rows 10..12) extends west to crate steps #2 at cols 9..10.
 - Main 2F Lower Chamber Topography:
   - Team Magma Grunt #4 stationed at (8, 8) facing East.
   - Crate steps #2 located at cols 9..10, rows 12..13 leading down to the southern lower terrace.
-  - Team Magma Grunt #5 stationed on the southern lower terrace.
 - Southern Lower Terrace (2F):
   - Descended Crate Steps #2 at cols 9..10, rows 12..13 to row 16.
   - Wild encounters: Torkoal Lv 28, Geodude Lv 27.
