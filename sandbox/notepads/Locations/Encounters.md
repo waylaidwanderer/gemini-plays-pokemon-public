@@ -1,9 +1,9 @@
-# Route & Area Encounters (Attempt #5)
+# Route & Area Encounters (Attempt #6)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | AAAAAAAAAA | 12 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Skitty ♂ | LYNX | 4 | Deceased | Died on Turn 650 to Fisherman Darian's Lv. 8 Feebas (`Water Pulse`) |
-| Route 102 | Gulpin ♂ | GULPIN | 7 | Deceased | Died on Turn 645 to Fisherman Darian's Lv. 8 Feebas (`Water Pulse`) |
-| Route 104 (South) | Cubone ♀ | GAIA | 7 | Deceased | Died on Turn 643 to Fisherman Darian's Lv. 8 Feebas (2x SE + 2x Crit `Water Pulse` from 20/24 HP) |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
+| Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
+| Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |

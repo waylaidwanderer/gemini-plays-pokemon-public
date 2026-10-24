@@ -1,13 +1,13 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #5)
+# Route & Area Encounters (Attempt #6)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | AAAAAAAAAA | 12 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Skitty ♂ | LYNX | 4 | Deceased | Died on Turn 650 to Fisherman Darian's Lv. 8 Feebas (`Water Pulse`) |
-| Route 102 | Gulpin ♂ | GULPIN | 7 | Deceased | Died on Turn 645 to Fisherman Darian's Lv. 8 Feebas (`Water Pulse`) |
-| Route 104 (South) | Cubone ♀ | GAIA | 7 | Deceased | Died on Turn 643 to Fisherman Darian's Lv. 8 Feebas (2x SE + 2x Crit `Water Pulse` from 20/24 HP) |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
+| Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
+| Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
 <hr>
@@ -19,7 +19,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #5
+- **Attempt:** #6
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -134,6 +134,15 @@
 - **GULPIN** (Gulpin ♂, Lv. 7, Modest, `Liquid Ooze`) — Died on Turn 645 on Route 104 South `(18, 59)` to Fisherman Darian's Lv. 8 `Feebas` (`Water Pulse`), sacrificing himself after chipping `Feebas` to `~60% HP` so `LYNX` and `AAAAAAAAAA` would not have to take two consecutive hits on a hard switch into a faster `Feebas`.
   - **Enemy Details (Fisherman Darian `(15, 58)` on Route 104 South):** Has `Lv. 9 Magikarp` (`Bounce`, `Tackle`) and `Lv. 8 Feebas` (custom boosted bulk/stats; knows `Hypnosis`/`Yawn`, `Facade`, `Water Pulse`). Avoidable or only challenge after equipping `Chesto` / `Oran Berries` and training party to Lv. 13+.
 - **LYNX** (Skitty ♂, Lv. 4, Adamant, `Cute Charm`) — Died on Turn 650 on Route 104 South `(18, 59)` to Fisherman Darian's Lv. 8 `Feebas` (`Water Pulse`), giving `AAAAAAAAAA` a clean post-faint free switch.
+- **AAAAAAAAAA** (Mudkip ♂, Lv. 12, Quiet [`-Speed`], `Torrent`) — Died on Turn 653 on Route 104 South `(18, 59)` to Fisherman Darian's Lv. 8 `Feebas` (`Facade`) after `Feebas` consumed a held `Sitrus Berry` (`+30 HP`) — **TOTAL PARTY WIPEOUT (Attempt #5 Over)**.
+- **Root Causes of Attempt #5 Wipe:**
+  1. **Unhealed Chip From `Magikarp`'s `Bounce` + Quiet (`-Speed`) Nature (`15/37 HP` entering `Feebas`):** Because `AAAAAAAAAA` had a `-Speed` nature (`12 Spd` at Lv. 12), Fisherman Darian's `Lv. 9 Magikarp` (`~15 Spd`) outsped and stalled with `Bounce` for 10 turns, chipping `AAAAAAAAAA` from `37/37` down to `15/37 HP` before `Lv. 8 Feebas` (`~15 Spd`, `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`, held `Sitrus Berry`) entered and put `AAAAAAAAAA` to sleep immediately.
+  2. **Missed Route 104 South Berry Trees at `(37, 57)`–`(38, 57)` (No Held `Oran Berry`):** After consuming our Route 102 `Oran Berries` against Lass Tiana and Bug Catcher Allen, we walked past the 2 Berry trees at `(37, 57)` and `(38, 57)` at the eastern entrance of Route 104 South without harvesting and equipping them.
+  3. **Three Underleveled Teammates (`Lv. 4 LYNX`, `Lv. 7 GULPIN`, `Lv. 7 GAIA`):** Despite our rule to train teammates to Lv. 10+, we brought Lv. 4 and Lv. 7 teammates to Route 104 South and switched 2x Water-weak `GAIA` (`Cubone`) into `Feebas`'s `Water Pulse` (dying to a 4x SE+Crit hit).
+- **Tactical Rules for Attempt #6:**
+  1. **Harvest & Equip Route 104 South Berries at `(37, 57)`–`(38, 57)` Immediately Upon Entering Route 104 South:** Always keep an `Oran Berry` equipped on our lead and backup Pokémon before every trainer on Route 104 South.
+  2. **Train Caught Teammates to Lv. 10–12 Before Route 104 South Trainers:** Do not leave caught teammates at Lv. 4–7; grind our primary backup teammate(s) to **Lv. 10–12** so they can independently defeat Lv. 8–9 trainer Pokémon (`Magikarp` / `Feebas`).
+  3. **Against Fisherman Darian `(15, 58)` / `(15, 59)`:** Lead with a trained secondary teammate against `Lv. 9 Magikarp` (`Bounce`) so `Mudkip` enters `Lv. 8 Feebas` at **100% HP holding an `Oran Berry`**, and never switch a Ground-type into `Water Pulse`.
 
 <hr>
 
