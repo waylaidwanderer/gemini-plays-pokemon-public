@@ -3233,7 +3233,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Solved 1F boulder puzzle, traversed 2F upper balcony, navigated crate steps #1 down to middle terrace, defeated Grunt #3 (Numel Lv 29), descended crate steps #2 down to southern terrace (10, 16). Approaching Grunts guarding lower machinery. Next: Defeat Grunts on lower terrace and advance deeper into hideout to stop Leader Maxie and Groudon! Party: Sage Lv 51, Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Cleared 2F southern terrace, defeated Grunt #5 at (12, 20), descended crate steps #3 to row 24, and navigating to southern cave doorway at (11, 22) to enter 3F! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149.
