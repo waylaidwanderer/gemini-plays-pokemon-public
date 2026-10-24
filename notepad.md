@@ -971,6 +971,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - 3F Eastern Highway:
   - Cliff outcrop at cols 18..19, rows 16..17 requires routing south to row 18 at (16, 18).
   - Rows 18..20 form a wide open highway extending east past col 21 toward the eastern section of 3F.
+  - Crate steps at col 27, rows 14..15: Another one-way downward ledge connecting upper plateau (row 13) down to lower eastern hall (row 16).
+  - Highway continues wide open to the east past col 28 along rows 17..19.
 
 <hr>
 
