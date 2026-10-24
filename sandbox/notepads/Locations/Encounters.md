@@ -4,6 +4,6 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | AAAAAAAAAA | 12 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Skitty ♂ | LYNX | 4 | Active | Adamant, `Cute Charm`; knows `Assist`, `Attract`, `Sing` |
-| Route 102 | Gulpin ♂ | GULPIN | 6 | Active | Modest, `Liquid Ooze` (counters `Mega Drain`/`Absorb`!); knows `Acid`, `Yawn` (instant sleep) |
+| Route 102 | Gulpin ♂ | GULPIN | 7 | Active | Modest, `Liquid Ooze` (counters `Mega Drain`/`Absorb`!); knows `Acid`, `Yawn` |
 | Route 104 (South) | Cubone ♀ | GAIA | 7 | Active | Careful, `Rock Head`, 19 Def; knows `Bone Club` & `Rock Throw` |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
