@@ -144,3 +144,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Cave doorway is cut into the wall at (21, 9), entered by stepping Up from (21, 10).
   - Crate staircase visible at col 20 (rows 12..15) leading to lower tier.
   - Entering doorway at (21, 9) to advance into deeper hideout chambers!
+
+## Discovered Topography & Navigation - 5F (Magma Core / Drill Excavation Chamber)
+- Entrance:
+  - Warp mat from 4F doorway at (21, 9). Player spawns at (12, 15) facing North.
+  - Giant Team Magma drill excavator tank situated at northwest (cols 8..10, rows 9..11).
+  - High-tech generator consoles at north (cols 11..16, rows 9..11).
+  - Wide cavern dirt hall extends East and North.

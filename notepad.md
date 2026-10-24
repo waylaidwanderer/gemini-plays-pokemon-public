@@ -1041,6 +1041,13 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Crate staircase visible at col 20 (rows 12..15) leading to lower tier.
   - Entering doorway at (21, 9) to advance into deeper hideout chambers!
 
+## Discovered Topography & Navigation - 5F (Magma Core / Drill Excavation Chamber)
+- Entrance:
+  - Warp mat from 4F doorway at (21, 9). Player spawns at (12, 15) facing North.
+  - Giant Team Magma drill excavator tank situated at northwest (cols 8..10, rows 9..11).
+  - High-tech generator consoles at north (cols 11..16, rows 9..11).
+  - Wide cavern dirt hall extends East and North.
+
 <hr>
 
 <h1><code>Locations/MauvilleCity</code></h1>
@@ -3312,7 +3319,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Reached 4F (Magma Machinery Chamber)! Spawned at (23, 4) facing South. Exploring new chamber to confront Admin Tabitha and Leader Maxie! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Reached 5F (Magma Core / Drill Excavation Chamber)! Spawned at (12, 15) facing North in front of giant drill tank and machinery. Advancing to confront Tabitha and Maxie! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (7/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
