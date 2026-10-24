@@ -86,3 +86,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Row 18 dead-ends at col 40 against cliff wall at col 41.
   - South-facing jump ledge at row 19 drops down to lower floor at row 20.
   - Below row 19, the lower floor connects east past col 41 into a massive eastern canyon at cols 42..45 leading North.
+- Dead-End & Upper Plateau Route Verification:
+  - Row 18 dead-ends at col 40 against the cliff wall at col 41.
+  - Row 19 is a 2-tier cliff wall, not a jump ledge.
+  - Crate steps at col 39 are one-way downward drop ledges.
+  - True ascending route onto upper plateau: cols 21..22 form an open 2-tile wide corridor heading North from row 18 up to row 14!
