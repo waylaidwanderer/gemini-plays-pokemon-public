@@ -1103,10 +1103,11 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Two subterranean drill tanks flank the northern avenue at cols 41..43 and cols 48..50.
   - Rows 20+ feature stepped dirt terraces with south-facing ledges descending toward the magma core / Groudon's chamber.
 
-- Terraced Switchback System (rows 20..28+, cols 40..51):
-  - Terrace 1 (row 20): Bounded by Ridge 1 at row 21 (cols 41..48). Switchback Ramp #1 is on the EAST at cols 49..51, descending south to Terrace 2 (row 22).
-  - Terrace 2 (row 22): Wide shelf running west across cols 50..41 with Secret Base spots. Bounded by Ridge 2 at row 23 (cols 42..50). Switchback Ramp #2 is on the WEST at cols 40..41, descending south to Terrace 3 (row 24).
-  - Terrace 3 (row 24): Runs east across cols 41..50 to Switchback Ramp #3 on the east, descending south to Terrace 4 (row 26) toward the magma core and Groudon!
+- 6F Inner Sanctum Topography & Verified Collisions:
+  - Entrance: Crate staircase at cols 46..47, rows 12..16 descends to row 17.
+  - Drill Tanks: Tank 1 at cols 41..43, rows 17..19; Tank 2 at cols 48..50, rows 17..19.
+  - Southern Terraces (Debunked): Rows 21, 23, 25 are solid impassable cliff faces with notched rock corners (cols 40..48 tested; cannot be jumped down on foot). South is a dead-end overlook.
+  - Northwest Passage: The true walkable route routes west along row 20 past Tank 1 to col 38, then leads north up cols 38..39 (rows 19..14) past a 4-sparkle Secret Base spot into the northwest cavern passage!
 
 <hr>
 
