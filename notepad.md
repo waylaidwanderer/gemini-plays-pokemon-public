@@ -3416,7 +3416,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: ENTIRE PARTY HEALED! Ready to Fly to Lilycove City to infiltrate Team Aqua Hideout! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 78/78), Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28 (HP 95/95). Party: Sage Lv 52 (HP 159/159), Lilz Lv 26, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: ARRIVED IN LILYCOVE CITY! Party fully healed at Lilycove Pokémon Center. Infiltrating Team Aqua Hideout in the eastern cove to stop Archie and secure the Master Ball! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
