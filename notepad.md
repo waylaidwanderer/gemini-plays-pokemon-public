@@ -1072,6 +1072,12 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Northbound passage at (19, 3) is blocked by drill tank and console geometry.
   - The true thoroughfare into the outer canyon goes South down columns 18..19 (rows 5..12) between the central consoles and the eastern drill tanks.
   - At row 11/12, the cavern wraps East into the massive outer magma canyon.
+- 5F Exploration Conclusion:
+  - 5F is a self-contained subterranean excavation / treasure chamber.
+  - Successfully collected PP Max at (5, 9) between the drill tanks!
+  - Defeated Team Magma Grunt #7 at (16, 3) (Mightyena Lv 29, ¥580).
+  - All boundaries (north wall of drill tanks, east mountain wall, south cliff ridges, west mountain wall) are solid.
+  - Returning through doorway at (12, 16) to 4F to explore the lower tier (where the southern Grunt and lava river are located).
 
 <hr>
 
