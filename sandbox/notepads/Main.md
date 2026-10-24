@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Defeated Grunt #8 at (21, 21) on 4F lower tier. Entering southwestern cave doorway at (7, 22) beneath the lava lake to reach Groudon's sanctum! Party: Sage Lv 51 (HP 119/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Reached 6F (Inner Sanctum) at (46, 8), descended crate staircase to (46, 16), and advancing south down excavation terraces toward Tabitha, Maxie, and Groudon! Party: Sage Lv 51 (HP 119/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (7/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (28/30). HP: 119/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
+1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (7/10), Pursuit (19/20), Leaf Blade (0/15), Quick Attack (28/30). HP: 119/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
 2. LILZ (Lombre ♀, Level 25) - Evolved from Lotad on turn 4926! Level 25 on turn 13521! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 73/73. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
@@ -41,7 +41,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥7,569
+- Money: ¥9,309
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

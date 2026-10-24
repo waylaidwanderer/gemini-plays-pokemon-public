@@ -203,3 +203,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Landing platform (rows 8..11, cols 44..49).
   - Massive 2-wide crate staircase at cols 46..47, rows 12..16 descends directly South to the lower tier (row 17+).
   - Generator console at cols 42..45, row 16.
+- 6F Terraced Descent (rows 16..28+, cols 40..50):
+  - Two subterranean drill tanks flank the northern avenue at cols 41..43 and cols 48..50.
+  - Rows 20+ feature stepped dirt terraces with south-facing ledges descending toward the magma core / Groudon's chamber.
