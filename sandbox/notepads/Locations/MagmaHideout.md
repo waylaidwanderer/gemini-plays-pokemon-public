@@ -151,3 +151,9 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Giant Team Magma drill excavator tank situated at northwest (cols 8..10, rows 9..11).
   - High-tech generator consoles at north (cols 11..16, rows 9..11).
   - Wide cavern dirt hall extends East and North.
+- 5F Magma Core Entrance Area:
+  - Entrance doorway at (12, 15..16).
+  - Computer consoles at cols 11..16, rows 9..11.
+  - Drill tank at cols 5..6, rows 9..11.
+  - Western passage at cols 7..10 leads North past the drill tank.
+  - Eastern passage at cols 17..19 leads North past the generator cabinets.
