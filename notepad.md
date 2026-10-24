@@ -1,12 +1,12 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #7)
+# Route & Area Encounters (Attempt #8)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | AKRAKEN | 11 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Sunkern ♂ | HELIOS | 4 | Deceased | Fainted on Turn 1125 at `(16, 5)` vs Lass Tiana's `Lv. 6 Sunkern` (`Struggle` recoil after stalling out all `Mega Drain`, `Protect`, and `Synthesis` PP and chipping `Sunkern` to 40% HP for `AKRAKEN`) |
-| Route 102 | Electrike ♂ | - | 6 | Fainted | Crit `Water Gun` at `(38, 6)` — always use `Bubble` (`Up, Right`) to weaken wilds |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
+| Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
@@ -21,7 +21,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #7
+- **Attempt:** #8
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -39,17 +39,17 @@
    - Gym 8 (Juan): **Lv. 46**
    - Elite Four / Champion: **Lv. 58**
 
-## Key Tactical Rules (Learned from Attempts #1–#4)
+## Key Tactical Rules (Learned from Attempts #1–#7)
 - **Deterministic Bounded 2x2 Move Selection (Verified Turn 328):** Opening the Bag or Party menu in the overworld resets the in-battle move cursor to Slot 1 (`Tackle`). Because the 2x2 move grid does not wrap, **ALWAYS press `Down, Right` for Slot 4 (`Water Gun`), `Up, Right` for Slot 2 (`Bubble`), and `Up, Left` for Slot 1 (`Tackle`)**!
 - **Starter Claims Route 101 (Verified Turn 141):** Because the starter's summary reads `Met in ROUTE 101`, the Nuzlocke harness treats Route 101 as already used and blocks Poké Ball throws on Route 101.
-- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252, 293):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** before throwing a Poké Ball, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
+- **Lowered Wild Catch Rates & Crit Range Rule (Turns 158–161, 252, 293, 1090):** Poké Balls thrown at **Green HP (`>50%`)** pop out on Shake 0 in this ROM. Always weaken wild encounters into **Yellow (`<50%`) or Red (`<20%`) HP** using **`Bubble` (`Up, Right`, 20 BP — never `Water Gun`!)** so a `1/16` crit cannot KO, and immediately `RUN` if HP drops into `2x` enemy attack damage (crit range).
 - **Modified Move Mechanics (Turns 169, 384):**
   - `Yawn` inflicts Sleep (`SLP`) immediately on the turn it is used.
   - `Silver Wind` (`Ledyba` on Route 103) has a **100% omni-boost rate** (`+1 Atk/Def/SpA/SpD/Spd` on every hit).
-- **Route 102 Trainer Teams (Verified Turns 177–182, 303–328, 537–570, 1095–1110):**
+- **Route 102 Trainer Teams (Verified Turns 177–182, 303–328, 537–570, 1095–1127):**
   1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash / Mud-Slap / Super Fang, Quick Attack], `Zigzagoon` [Swift, Sand-Attack], `Poochyena` [Super Fang, Rock Smash, Howl]).
   2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie` [holds `Berry Juice`], `Wurmple` [String Shot, Tackle], `Kakuna` [holds `Berry Juice`, Poison Sting, Harden], `Cascoon` [holds `Berry Juice`, Iron Defense, Tackle]).
-  3. **Lass Tiana `(15..16, 5..6)` (wanders):** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **use non-contact `Water Gun` (`Down, Right`)!**], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed`, `Protect`, `Mega Drain` — **pivot to Grass-type `HELIOS` (`Sunkern`) to clear `Leech Seed` and wall `Mega Drain` (2 dmg/hit), and finish with `AKRAKEN`'s `Tackle`!**], `Lv. 5 Togepi`).
+  3. **Lass Tiana `(15..16, 5..6)` (OPTIONAL — wanders with 0 vision range):** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present`], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed` (16 PP), `Protect` (10 PP), `Mega Drain` (10 PP), `Synthesis` (8 PP)], `Lv. 5 Togepi`). **Bypass her along `y=4` (`(25, 4) -> (13, 4)`) unless we have a trained Flying/Bug/Poison sweeper!**
   4. **Bug Catcher Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102; has **4 Lv. 7 Pokémon** (`Weedle` [`Poison Sting`], `Silcoon` [holds `Sitrus Berry`, `Iron Defense`], `Wurmple` [`Tackle`], `Metapod`).
 - **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653, 886–913):**
   - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
@@ -174,9 +174,16 @@
 
 ---
 
-## Attempt #7 Casualties (Starting Turn 953)
+## Attempt #7 Casualties & Wipe Post-Mortem (Turn 1128 — Route 102)
 - **HELIOS** (Sunkern ♂, Lv. 4, `16 HP`, `Absorb`) — Died on Turn 1125 on Route 102 `(16, 5)` against Lass Tiana's `Lv. 6 Sunkern` (`Struggle` recoil from `1/16 HP`).
-  - **Context & Heroic Role:** Pivoted in twice to cure `AKRAKEN`'s `Leech Seed`, completely walled `Lv. 6 Sunkern`'s `Mega Drain` (taking only 2 damage/hit while healing +1 HP with `Absorb`), exhausted all of `Sunkern`'s `Mega Drain` (10 PP), `Protect` (10 PP), and `Synthesis` (8 PP), and used `Struggle` (1 HP recoil/turn in Gen 3) to chip `Sunkern` after its `Berry Juice` down to 40% HP so `AKRAKEN` could enter unseeded with `Torrent` active (`90 BP Water Gun`) and sweep.
+- **AKRAKEN** (Mudkip ♂, Lv. 11, `34 HP`, `Torrent`) — Died on Turn 1127 on Route 102 `(16, 5)` to end-of-turn `Leech Seed` sap (`1/34 -> 0/34 HP`) right as Lass Tiana sent out `Lv. 5 Togepi` after `AKRAKEN` KO'd `Lv. 6 Sunkern` — **TOTAL PARTY WIPEOUT (Attempt #7 Over)**.
+- **Root Causes of Attempt #7 Wipe:**
+  1. **Crit-KOing Our Route 102 Wild Encounter (`Lv. 6 Electrike`) with `Water Gun` (Turn 1090):** Used 40-BP `Water Gun` instead of 20-BP `Bubble` to weaken full-HP `Lv. 6 Electrike`, resulting in a `1/16` critical-hit OHKO and leaving us without a second real attacker on Route 102.
+  2. **Challenging Optional Trainer Lass Tiana `(15, 5)` Without a Grass Counter:** Lass Tiana (`Lv. 6 Igglybuff`, `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed` (16 PP), `Protect` (10 PP), `Mega Drain` (10 PP), `Synthesis` (8 PP)], `Lv. 5 Togepi`) has **0 vision range / is 100% optional** (walking along `y=4` from `(25, 4)` to `(13, 4)` bypasses her completely!). Fighting her with only `Mudkip` + `Lv. 4 Sunkern` allowed her `Sunkern` to stall with `Synthesis` + `Berry Juice` + `Leech Seed`.
+  3. **Gen 3 End-of-Turn `Leech Seed` Tick After KOing an Opponent (`Turn 1127 #118`):** In Gen 3, if you KO a Trainer's Pokémon while seeded by `Leech Seed`, end-of-turn `Leech Seed` STILL ticks at the end of that turn after the Trainer sends out their next Pokémon (`Togepi`). Because `Torrent Water Gun` left `40% HP` `Sunkern` at `1 HP` on Turn 1, `Sunkern` re-seeded `AKRAKEN` (`5 -> 1/34 HP`), and KOing `Sunkern` on Turn 2 triggered the fatal `1 -> 0/34 HP` `Leech Seed` tick upon `Togepi`'s send-out.
+- **Tactical Rules for Attempt #8:**
+  1. **Always Use `Bubble` (`Up, Right`, 20 BP) to Weaken Wild Encounters:** Never use `Water Gun` (40 BP) on a full-HP wild Pokémon so a `1/16` crit cannot KO our Nuzlocke encounter.
+  2. **Skip Optional Lass Tiana `(15, 5)` Unless We Have a Flying/Bug/Poison Sweeper:** After harvesting the Route 102 Berries at `(24, 2)` and `(25, 2)`, walk `Down` 1 to `(25, 4)` and `Left` 12 along `y=4` to `(13, 4)` to fight **Bug Catcher Allen `(13, 2)`** and enter **Petalburg City** (unlocking Route 104 South and Petalburg Woods encounters!) without talking to Lass Tiana unless we caught a Flying/Bug/Poison counter (`Spearow`, `Wingull`, `Hoothoot`, `Gulpin`, `Ledyba`).
 
 <hr>
 
