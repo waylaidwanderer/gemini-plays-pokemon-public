@@ -5,8 +5,8 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | AAAAAAAAAA | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Skitty ♂ | LYNX | 4 | Active | Caught at (12, 15) in red HP after 2x Bubble; knows Sing, Attract |
-| Route 102 | Gulpin ♂ | GULPIN | 6 | Active | Caught at (38, 6) in Yellow HP after 1x Water Gun; resists Grass/Fighting/Poison, knows instant-sleep Yawn |
+| Route 103 | Skitty ♂ | LYNX | 4 | Active | Adamant, `Cute Charm`; knows `Assist`, `Attract`, `Sing` |
+| Route 102 | Gulpin ♂ | GULPIN | 6 | Active | Modest, `Liquid Ooze` (counters `Mega Drain`/`Absorb`!); knows `Acid`, `Yawn` (instant sleep) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -54,9 +54,9 @@
 - **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
 
 ## Active Party
-1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 10 (1257 EXP) | HP: 32/32 | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 19 Atk / 18 Def / 18 SpA / 16 SpD / 11 Spd | Moves: Tackle (35 PP), Bubble (30 PP), Mud Sport (15 PP), Water Gun (25 PP)
-2. **LYNX** (Skitty ♂) — Lv. 4 | Caught on Route 103 | Ability: Cute Charm | Moves: Tackle, Growl, Sing, Attract
-3. **GULPIN** (Gulpin ♂) — Lv. 6 | Caught on Route 102 | Moves: Pound, Yawn (instant sleep), Poison Gas / Acid
+1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 10 (1475 EXP) | HP: 32/32 | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 19 Atk / 18 Def / 18 SpA / 16 SpD / 11 Spd | Moves: `1: Tackle` (35 PP), `2: Bubble` (30 PP), `3: Mud Sport` (15 PP), `4: Water Gun` (25 PP)
+2. **LYNX** (Skitty ♂) — Lv. 4 (51 EXP) | HP: 18/18 | Nature: Adamant (+Atk, -SpA) | Ability: Cute Charm | Stats: 9 Atk / 8 Def / 7 SpA / 8 SpD / 9 Spd | Moves: `1: Assist` (32 PP), `2: Attract` (15 PP), `3: Sing` (32 PP)
+3. **GULPIN** (Gulpin ♂) — Lv. 6 (172 EXP) | HP: 24/24 | Nature: Modest (+SpA, -Atk) | Ability: **Liquid Ooze** (draining moves like `Mega Drain`/`Absorb` damage the attacker instead of healing!) | Stats: 9 Atk / 12 Def / 11 SpA / 11 SpD / 11 Spd | Moves: `1: Acid` (30 PP), `2: Yawn` (10 PP, instant sleep)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
