@@ -36,16 +36,16 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Main dirt floor extends south through col 26 past generator consoles down to row 34.
   - Southern Cave Doorway is at (25, 35) cut into the south cliff face, approached from (25, 34) stepping Down. Note: This doorway connects to an isolated upper observation balcony on 2F (cols 6..27, row 5 with Secret Base spot at 27, 2), NOT the main lower chamber.
 
-## Discovered Topography & Navigation - 2F (Upper Balcony)
+## Discovered Topography & Navigation - 2F
 - Entrance Area:
   - Spawns at (8, 3) facing South from doorway at (8, 2).
   - Corridor runs along row 5 from col 6 to col 27. Impassable cliff drops off to the south along row 6 overlooking the main lower chamber.
   - Secret Base spot with 4 sparkle diamonds at (27..28, 2).
-  - Isolated balcony: No stairs or paths descend to the lower room from here. Main chamber must be reached from another 1F route.
+  - Main chamber access: Columns 24–26 south of the crates (cols 22..23, rows 6..7) require systematic traversal to descend into the lower chamber.
 - Central Elevated Plateau & Northern Doorway (1F):
   - Ascended via white staircase at (23..24, 26) from Eastern Avenue (24, 27..28).
   - Small 3x2 landing platform at cols 22..24, rows 25..26.
   - North: row 24 is a south-facing one-way jumping ledge (jump-down exit from the upper doorway terrace).
   - West & South: vertical cliff drops into lower canyon and Eastern Avenue.
   - Conclusion: The Central Plateau is an exit drop-point from the doorway terrace, not an entrance.
-  - Cave doorway at (18..19, 21) sits on upper terrace (row 22) whose western corridor originates from the west side of 1F (near boulder puzzle / entrance at row 22).
+  - Cave doorway at (18..19, 21) sits on upper terrace above a south-facing jump ledge.
