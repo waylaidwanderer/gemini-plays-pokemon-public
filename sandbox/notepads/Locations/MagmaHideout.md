@@ -216,4 +216,5 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Western Northbound Canyon: Runs North along cols 31..33 through rows 21..14.
   - Machinery Terrace & Grunt Duo (cols 26..30, rows 13..14): Both Team Magma Grunts defeated in Double Battle on Turn 14859! (Numel Lv 29, Zubat Lv 29, ¥1,160). Choke point cleared, bypassed via row 12 (col 27) into the northwest plateau.
   - Northwest Plateau (cols 22..27, rows 4..13): Wide open cavern floor northwest of generator console and Grunts, overlooking lava lake to the southwest.
-  - Team Magma Grunt #10: Stationed at (22, 4) facing South, guarding the northbound corridor leading deeper into the hideout.
+  - Magma Admin Tabitha: DEFEATED at (22, 7) on Turn 14888! (Numel Lv 26, Zubat Lv 30, Mightyena Lv 28, Camerupt Lv 33; Prize: ¥1,320).
+  - Inner Sanctum Northbound Corridor (cols 21..24, rows 1..6): Bypasses Tabitha via col 21, leading north into Groudon's magma basin and Leader Maxie's platform.
