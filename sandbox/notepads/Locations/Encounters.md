@@ -1,11 +1,11 @@
-# Route & Area Encounters (Attempt #6)
+# Route & Area Encounters (Attempt #7)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | MUDKIP | 10 | Deceased | Died on Turn 946 to Team Magma Grunt's Lv. 9 Houndour (`Pursuit` on switch) |
-| Route 103 | Spearow ♀ | ATHENA | 15 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
-| Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
-| Route 104 (South) | Spoink ♀ | CIRCE | 8 | Active | Caught on Turn 889 (`Confusion`, `Psywave`) |
-| Petalburg Woods | Hoothoot ♂ | NOCTIS | 8 | Deceased | Died on Turn 948 to Team Magma Grunt's Lv. 9 Houndour (`Ember`) |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
+| Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
+| Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
+| Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open encounter east of Route 116 |

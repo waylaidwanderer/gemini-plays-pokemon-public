@@ -41,19 +41,15 @@
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat`).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada` [`Giga Drain`, `Scratch`]).
   3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **4 Pokémon** (`Lv. 8 Magnemite` [`Thunder Wave`, `ThunderShock`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief` — steals held Berries!], `Lv. 9 Houndour` [`Ember`, `Pursuit` — punishes switches!], and 4th unseen).
-- **Level 15 Cap Management Plan (Roxanne Cap = Lv. 15):**
-  - `ATHENA` (Lv. 15, `61 / 721 EXP` into Lv. 15 = `660 EXP` headroom before Lv. 16) will defeat the Team Aqua Grunt in Petalburg Woods (or pivot to `MUDKIP` on Water-weak foes), after which the Devon Researcher heals the party to 100% HP/PP.
-  - Immediately after the Team Aqua Grunt battle, swap **`MUDKIP` (`Lv. 10`) into Party Slot 1** so `ATHENA` never reaches Lv. 16 before Roxanne, and feed all remaining trainers and wild encounters on Route 104 North / Route 116 to **`MUDKIP` (to reach Lv. 14–15 for Roxanne)** and **`CIRCE` / `NOCTIS`**.
+- **Level 15 Cap & Team Magma Grunt Strategy (Roxanne Cap = Lv. 15):**
+  - Train **BOTH `Mudkip` AND our Secondary Sweeper to Lv. 13–14** before fighting the Petalburg Woods Team Magma Grunt `(26, 23)` (`Lv. 8 Magnemite`, `Lv. 8 Koffing`, `Lv. 9 Houndour`, + 4th).
+  - Lead with **Lv. 13–14 `Mudkip`** (`Mud Sport` + `Water Gun`) against `Lv. 8 Magnemite`, equip a **`Pecha Berry`** on our `Koffing` answer so `Toxic` is immediately cured on Turn 1 (denying `Thief` on Turn 2), and **never switch out against `Lv. 9 Houndour` (`Pursuit`)**—use Lv. 13–14 `Mudkip` (`Water Gun` OHKO) or a full-HP physical sweeper (`Secret Power` OHKO).
 - **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(22, 41)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
-## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 2 `BAG`)
-1. **ATHENA** — Spearow ♀ (Lv. 15 [AT CAP: `61/721 EXP`], `21/39 HP` [`PAR`], Rash, `Keen Eye`, Stats: `39 HP / 27 Atk / 14 Def / 18 SpA / 16 SpD / 29 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
-2. **MUDKIP** — Mudkip ♀ (Lv. 10 [`164/413 EXP`], `31/31 HP`, Held: `Oran Berry`, Brave, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-3. **MERLIN** — Ralts ♂ (Lv. 4, `16/16 HP`, Held: `Oran Berry`, Jolly, `Synchronize`, Stats: `16 HP / 7 Atk / 7 Def / 8 SpA / 7 SpD / 8 Spd`, Moves: `Confusion`) — Met on Route 102.
-4. **CIRCE** — Spoink ♀ (Lv. 7, `19/27 HP`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`]) — Met on Route 104 (South).
-5. **NOCTIS** — Hoothoot ♂ (Lv. 8, `Confusion`, `Growl`) — Met in Petalburg Woods.
+## Active Party
+- None yet (Starting Attempt #7 — selecting Mudkip on Route 101).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.

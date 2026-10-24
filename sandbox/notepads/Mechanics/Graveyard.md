@@ -75,3 +75,18 @@
   1. **Harvest & Equip Route 104 South Berries at `(37, 57)`–`(38, 57)` Immediately Upon Entering Route 104 South:** Always keep an `Oran Berry` equipped on our lead and backup Pokémon before every trainer on Route 104 South.
   2. **Train Caught Teammates to Lv. 10–12 Before Route 104 South Trainers:** Do not leave caught teammates at Lv. 4–7; grind our primary backup teammate(s) to **Lv. 10–12** so they can independently defeat Lv. 8–9 trainer Pokémon (`Magikarp` / `Feebas`).
   3. **Against Fisherman Darian `(15, 58)` / `(15, 59)`:** Lead with a trained secondary teammate against `Lv. 9 Magikarp` (`Bounce`) so `Mudkip` enters `Lv. 8 Feebas` at **100% HP holding an `Oran Berry`**, and never switch a Ground-type into `Water Pulse`.
+
+---
+
+## Attempt #6 Wipe Post-Mortem (Turn 953 — Petalburg Woods)
+- **Casualties (vs Team Magma Grunt at `(26, 23)` in Petalburg Woods):**
+  - **MUDKIP** (Mudkip ♀, Lv. 10, Brave) — Died on Turn 946 to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` doubled to 80 BP on switch-out from `10/31 HP` after `Koffing`'s `Thief` had stolen `MUDKIP`'s held `Oran Berry`).
+  - **NOCTIS** (Hoothoot ♂, Lv. 8) — Died on Turn 948 to Team Magma Grunt's `Lv. 9 Houndour` (`Ember`).
+  - **ATHENA** (Spearow ♀, Lv. 15, Rash, `Keen Eye`, `Secret Power`) — Died on Turn 950 to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit`) after rolling 25% full paralysis at `2/39 HP`.
+  - **CIRCE** (Spoink ♀, Lv. 8) & **MERLIN** (Ralts ♂, Lv. 4) — Died on Turns 950–953 to `Lv. 9 Houndour` (immune to Psychic moves) — **TOTAL PARTY WIPEOUT (Attempt #6 Over)**.
+- **Root Causes of Attempt #6 Wipe:**
+  1. **Lopsided Party Levels (`Lv. 15 ATHENA` vs `Lv. 10 MUDKIP`):** We trained `ATHENA` all the way to the Lv. 15 cap while leaving `MUDKIP` at Lv. 10 (`13 Speed`, `31 HP`). Because `MUDKIP` was only Lv. 10, `Lv. 9 Houndour` (`~16 Speed`) outsped `MUDKIP`, forcing a switch at `10/31 HP` into `Houndour`'s `Pursuit`.
+  2. **Unequipped `Pecha Berries` Against `Lv. 8 Koffing` (`Toxic`, `Protect`, `Thief`):** We had 4 `Pecha Berries` in our Bag that we never equipped. Equipping a `Pecha Berry` against `Koffing` immediately cures Turn 1 `Toxic` AND consumes the berry before Turn 2 `Thief` can steal an `Oran Berry`!
+- **Tactical Rules for Attempt #7:**
+  1. **Train BOTH `Mudkip` AND our Secondary Sweeper to Lv. 13–14 Before Entering Petalburg Woods:** Train `Mudkip` to **Lv. 13–14** (`~38–40 HP`, `~17–19 Speed`) before fighting the Petalburg Woods Team Magma Grunt `(26, 23)` so `Mudkip` outspeeds `Lv. 9 Houndour` and OHKOs it with `Water Gun` (and uses `Mud Sport` + `Water Gun` to beat lead `Lv. 8 Magnemite`).
+  2. **Equip `Pecha Berry` Against `Lv. 8 Koffing` & Never Switch Out Against `Lv. 9 Houndour` (`Pursuit`):** Equip a `Pecha Berry` to auto-cure `Koffing`'s `Toxic` (and deny `Thief`), and never switch out of `Lv. 9 Houndour` (`Pursuit`).
