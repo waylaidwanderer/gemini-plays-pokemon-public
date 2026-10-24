@@ -68,3 +68,11 @@ A rugged volcanic mountainside route leading south from Mt. Chimney summit down 
   - Rail Chute Traversal: Dismounted Mach Bike with Select onto foot at (14, 12). Hopped South on foot across the Acro Bike rail chute at (14, 13..14) to land at row 15.
   - Event Trigger: Approaching the volcanic boulder at (14..16, 17..18) triggered: "Oh! This boulder is shaking in response to the MAGMA EMBLEM!"
   - The boulder shakes and splits open, revealing the entrance to the Team Magma Hideout!
+
+
+- Jagged Pass Descent & Exit Route (Verified Turn 15067):
+  - Emerged from Magma Hideout at (16, 18..19).
+  - Hopped south-facing ledges down through rows 20..35.
+  - Defeated Picnicker Autumn & Triathlete Julio at (15, 25).
+  - Wooden stairs at cols 14..15, rows 37..38 descend onto Route 112 at row 42.
+  - Dirt road at row 49/50 leads west into Lavaridge Town.
