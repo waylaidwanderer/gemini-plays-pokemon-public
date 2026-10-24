@@ -56,7 +56,7 @@
 ## Active Party
 1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 12 | HP: 37/37 | Held: None | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 22 Atk / 20 Def / 22 SpA / 18 SpD / 12 Spd | Moves: `1: Tackle` (35 PP), `2: Bubble` (30 PP), `3: Mud Sport` (15 PP), `4: Water Gun` (25 PP)
 2. **LYNX** (Skitty ♂) — Lv. 4 (51 EXP) | HP: 18/18 | Nature: Adamant (+Atk, -SpA) | Ability: Cute Charm | Stats: 9 Atk / 8 Def / 7 SpA / 8 SpD / 9 Spd | Moves: `1: Assist` (32 PP), `2: Attract` (15 PP), `3: Sing` (32 PP)
-3. **GULPIN** (Gulpin ♂) — Lv. 6 (172 EXP) | HP: 24/24 | Held: **Oran Berry** | Nature: Modest (+SpA, -Atk) | Ability: **Liquid Ooze** (draining moves like `Mega Drain`/`Absorb` damage the attacker instead of healing!) | Stats: 9 Atk / 12 Def / 11 SpA / 11 SpD / 11 Spd | Moves: `1: Acid` (30 PP), `2: Yawn` (10 PP, instant sleep)
+3. **GULPIN** (Gulpin ♂) — Lv. 6 | HP: 24/24 | Held: None | Nature: Modest (+SpA, -Atk) | Ability: **Liquid Ooze** (draining moves like `Mega Drain`/`Absorb` damage the attacker instead of healing!) | Stats: 9 Atk / 12 Def / 11 SpA / 11 SpD / 11 Spd | Moves: `1: Acid` (30 PP), `2: Yawn` (10 PP, instant sleep)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -220,7 +220,9 @@
     - Pokémon Center door: `(20, 16)` (exits to `(20, 17)`).
     - Poké Mart door: `(25, 12)` (exits to `(25, 13)`; approach from `(18, 11)` via `Right` 5 to `(23, 11)`, `Down` 2 to `(23, 13)`, `Right` 2 to `(25, 13)`, `Up` 1 into `(25, 12)`).
     - Petalburg Gym door: `(15, 8)` (exits to `(15, 9)`).
-    - West exit (to Route 104 South): From `(15, 9)`, walk `Left` 3 to `(12, 9)`, `Down` 2 to `(12, 11)`, `Left` 10 to `(2, 11)` (triggers Scott's intro dialogue at `(4, 11)`), `Down` 1 to `(2, 12)`, and `Left` 3 onto Route 104 South.
+    - West exit (to Route 104 South): From `(15, 9)`, walk `Left` 3 to `(12, 9)`, `Down` 2 to `(12, 11)`, `Left` 10 to `(2, 11)` (triggers Scott's intro dialogue at `(4, 11)`), `Down` 1 to `(2, 12)`, and `Left` 3 onto Route 104 South at `(39, 62)`.
+  - **Route 104 (South) Coordinates (Verified Turn 601):**
+    - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free).
   - **Grass-Free Path from Bug Catcher Rick `(26, 15)` to Berry Trees `(24, 3)` (Verified Turn 557):** There is a south-facing ledge along `x=19..25, y=6` with tall grass on `(19..25, 7)` and `(19..23, 8..9)`. Column **`x=18`** is the 1-tile grass-free corridor between the trees (`x=17`) and the tall grass (`x=19`). To reach `(24, 3)` with **0 grass tiles**, walk `Up` 2 to `(26, 13)`, `Left` 1 to `(25, 13)`, `Up` 3 to `(25, 10)`, `Left` 7 along grass-free `y=10` to `(18, 10)`, `Up` 6 along grass-free `x=18` to `(18, 4)`, `Right` 6 to `(24, 4)`, and `Up` 1 to `(24, 3)`.
   - **Berry Tree Harvesting & Equipping Formula (Turns 319, 560):** Press `A` **3 times** with `sleep 1200` (`sleep 3000` after the 3rd `A`) to confirm picking the Berries, then press `B` **3 times** (`sleep 1200`) to close the text without re-interacting with the loamy soil (which otherwise opens the `BERRIES POCKET` and resets the in-battle move cursor to Slot 0). Inside the `BAG -> BERRIES` pocket (Dot 4), Berries are sorted by Berry Number (`No03 PECHA BERRY` Row 0, `No07 ORAN BERRY` Row 1), and the 2-column Berry popup menu starts at `▶CHECK TAG` (`Down, Right, A` selects `GIVE`).
   - **Poké Mart Overworld Purchase Formula (Turn 377):** Talking to a Mart clerk from the overworld requires **3 `A` presses** to open the `BUY` screen (`"A", "sleep 1200"` for `"Welcome!"`, `"A", "sleep 1200"` for `"How may I serve you?"`, and `"A", "sleep 3000"` to select `▶BUY` and wait for the 2.7s fade-in).

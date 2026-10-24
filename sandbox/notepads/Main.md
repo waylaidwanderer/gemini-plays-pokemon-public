@@ -40,7 +40,7 @@
 ## Active Party
 1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 12 | HP: 37/37 | Held: None | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 22 Atk / 20 Def / 22 SpA / 18 SpD / 12 Spd | Moves: `1: Tackle` (35 PP), `2: Bubble` (30 PP), `3: Mud Sport` (15 PP), `4: Water Gun` (25 PP)
 2. **LYNX** (Skitty ♂) — Lv. 4 (51 EXP) | HP: 18/18 | Nature: Adamant (+Atk, -SpA) | Ability: Cute Charm | Stats: 9 Atk / 8 Def / 7 SpA / 8 SpD / 9 Spd | Moves: `1: Assist` (32 PP), `2: Attract` (15 PP), `3: Sing` (32 PP)
-3. **GULPIN** (Gulpin ♂) — Lv. 6 (172 EXP) | HP: 24/24 | Held: **Oran Berry** | Nature: Modest (+SpA, -Atk) | Ability: **Liquid Ooze** (draining moves like `Mega Drain`/`Absorb` damage the attacker instead of healing!) | Stats: 9 Atk / 12 Def / 11 SpA / 11 SpD / 11 Spd | Moves: `1: Acid` (30 PP), `2: Yawn` (10 PP, instant sleep)
+3. **GULPIN** (Gulpin ♂) — Lv. 6 | HP: 24/24 | Held: None | Nature: Modest (+SpA, -Atk) | Ability: **Liquid Ooze** (draining moves like `Mega Drain`/`Absorb` damage the attacker instead of healing!) | Stats: 9 Atk / 12 Def / 11 SpA / 11 SpD / 11 Spd | Moves: `1: Acid` (30 PP), `2: Yawn` (10 PP, instant sleep)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
