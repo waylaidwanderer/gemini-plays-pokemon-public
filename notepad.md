@@ -1003,6 +1003,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Entrance from Level 4 is at (23, 3) on the upper terrace.
   - The southern doorway at (21, 9/10) is entered from the SOUTH on the lower terrace (row 11), not from row 7.
   - The upper terrace extends west along row 7 past generator consoles toward col 15, looping south around the console to access the lower terrace.
+- 4F Machinery Chamber Navigation:
+  - Row 7 dead-ends at (20, 7) against a cliff corner.
+  - The open horizontal path is on rows 4..5, running west from col 23 to col 17.
+  - From (17, 5), the path leads south around the generator console down to the lower terrace (rows 10..12) where the southern cave doorway is entered from the south.
 
 <hr>
 
