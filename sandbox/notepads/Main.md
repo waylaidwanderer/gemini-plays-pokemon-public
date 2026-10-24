@@ -41,8 +41,8 @@
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
-## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 2 `BAG`)
-1. **ATHENA** — Spearow ♀ (Lv. 14, `37/37 HP`, Held: `Oran Berry`, Rash, `Keen Eye`, Stats: `37 HP / 25 Atk / 13 Def / 18 SpA / 15 SpD / 27 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
+## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 1 `POKéMON`)
+1. **ATHENA** — Spearow ♀ (Lv. 15 [AT CAP], `30/39 HP`, Held: `Oran Berry`, Rash, `Keen Eye`, Stats: `39 HP / 27 Atk / 14 Def / 18 SpA / 16 SpD / 29 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
 2. **MUDKIP** — Mudkip ♀ (Lv. 10 [85% EXP], `31/31 HP`, Held: `Oran Berry`, Brave, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 3. **MERLIN** — Ralts ♂ (Lv. 4, `16/16 HP`, Jolly, `Synchronize`, Stats: `16 HP / 7 Atk / 7 Def / 8 SpA / 7 SpD / 8 Spd`, Moves: `Confusion`) — Met on Route 102.
 4. **CIRCE** — Spoink ♀ (Lv. 7, `27/27 HP`, `Psywave`, `Splash`) — Met on Route 104 (South).

@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Spearow ♀ | ATHENA | 14 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
+| Route 103 | Spearow ♀ | ATHENA | 15 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
 | Route 104 (South) | Spoink ♀ | CIRCE | 7 | Active | Caught on Turn 889 (`Psywave`, `Splash`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTIS | 8 | Active | Caught on Turn 917 (`Confusion`, `Growl`) |
@@ -57,8 +57,8 @@
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
-## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 2 `BAG`)
-1. **ATHENA** — Spearow ♀ (Lv. 14, `37/37 HP`, Held: `Oran Berry`, Rash, `Keen Eye`, Stats: `37 HP / 25 Atk / 13 Def / 18 SpA / 15 SpD / 27 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
+## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 1 `POKéMON`)
+1. **ATHENA** — Spearow ♀ (Lv. 15 [AT CAP], `30/39 HP`, Held: `Oran Berry`, Rash, `Keen Eye`, Stats: `39 HP / 27 Atk / 14 Def / 18 SpA / 16 SpD / 29 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Down, Left`], `Secret Power` [Slot 4: `Down, Right`, 70 BP STAB Normal! Note: Party menu popup has `SECRET POWER` at Row 1 and `SWITCH` at Row 2]) — Met on Route 103.
 2. **MUDKIP** — Mudkip ♀ (Lv. 10 [85% EXP], `31/31 HP`, Held: `Oran Berry`, Brave, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 3. **MERLIN** — Ralts ♂ (Lv. 4, `16/16 HP`, Jolly, `Synchronize`, Stats: `16 HP / 7 Atk / 7 Def / 8 SpA / 7 SpD / 8 Spd`, Moves: `Confusion`) — Met on Route 102.
 4. **CIRCE** — Spoink ♀ (Lv. 7, `27/27 HP`, `Psywave`, `Splash`) — Met on Route 104 (South).
@@ -257,7 +257,7 @@
     - South entrance (from Route 104 South `(10, 38)`): `(16, 38)` (or `(17, 38)` from `(11, 38)`).
     - Safe tall grass patch near south entrance: `x=21..23, y=33..35` (approach from `(16, 38)` via `Up` 3 to `(16, 35)` and `Right` 5 to `(21, 35)`).
     - **Bug Maniac Lyle `(13, 35)`:** Faces `Up` across `(13, 34)`; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat` — all OHKO'd by `ATHENA`'s `Peck`).
-    - **Western Grass-Free Corridor (Verified Turn 923):** From `(13, 34)`, walk `Left` 6 to `(7, 34)`, `Up` 2 to `(7, 32)`, `Left` 2 to `(5, 32)`, `Up` 6 along grass-free `x=5` to `(5, 26)`, `Right` 1 to `(6, 26)`, `Up` 2 to `(6, 24)`, and `Right` 3 to `(9, 24)` (facing Bug Catcher at `(10, 24)` with **0 grass tiles**).
+    - **Western Grass-Free Corridor & Bug Catcher James (Verified Turns 923–924):** From `(13, 34)`, walk `Left` 6 to `(7, 34)`, `Up` 2 to `(7, 32)`, `Left` 2 to `(5, 32)`, `Up` 6 along grass-free `x=5` to `(5, 26)`, `Right` 1 to `(6, 26)`, `Up` 2 to `(6, 24)`, and `Right` 3 to `(9, 24)` (facing **Bug Catcher James** at `(10, 24)` with **0 grass tiles**). James has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada`).
   - **Grass-Free Path from Bug Catcher Rick `(26, 15)` to Berry Trees `(24, 3)` (Verified Turn 557):** There is a south-facing ledge along `x=19..25, y=6` with tall grass on `(19..25, 7)` and `(19..23, 8..9)`. Column **`x=18`** is the 1-tile grass-free corridor between the trees (`x=17`) and the tall grass (`x=19`). To reach `(24, 3)` with **0 grass tiles**, walk `Up` 2 to `(26, 13)`, `Left` 1 to `(25, 13)`, `Up` 3 to `(25, 10)`, `Left` 7 along grass-free `y=10` to `(18, 10)`, `Up` 6 along grass-free `x=18` to `(18, 4)`, `Right` 6 to `(24, 4)`, and `Up` 1 to `(24, 3)`.
   - **Berry Tree Harvesting & Equipping Formula (Turns 319, 560):** Press `A` **3 times** with `sleep 1200` (`sleep 3000` after the 3rd `A`) to confirm picking the Berries, then press `B` **3 times** (`sleep 1200`) to close the text without re-interacting with the loamy soil (which otherwise opens the `BERRIES POCKET` and resets the in-battle move cursor to Slot 0). Inside the `BAG -> BERRIES` pocket (Dot 4), Berries are sorted by Berry Number (`No03 PECHA BERRY` Row 0, `No07 ORAN BERRY` Row 1), and the 2-column Berry popup menu starts at `▶CHECK TAG` (`Down, Right, A` selects `GIVE`).
   - **Poké Mart Overworld Purchase Formula (Turns 377, 792):** Poké Mart interior entry mat is at `(3, 7)`; walk `Up` 4 tiles to `(3, 3)` and `Left` to face the clerk, and `Down` 5 tiles to exit back outside. Talking to a Mart clerk from the overworld requires **3 `A` presses** to open the `BUY` screen (`"A", "sleep 1200"` for `"Welcome!"`, `"A", "sleep 1200"` for `"How may I serve you?"`, and `"A", "sleep 3000"` to select `▶BUY` and wait for the 2.7s fade-in).
