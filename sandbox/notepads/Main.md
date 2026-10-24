@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Reached 5F (Magma Core / Drill Excavation Chamber)! Spawned at (12, 15) facing North in front of giant drill tank and machinery. Advancing to confront Tabitha and Maxie! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Collected PP Max at (5, 9). Navigating northeast along 5F row 4 highway past drill tank fleet and generator machinery to confront Tabitha and Maxie! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (7/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
