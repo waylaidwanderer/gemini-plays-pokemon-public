@@ -85,6 +85,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - All boundaries (west cols 0..6, north row 14, east col 41, south rows 19..22) are solid cliffs.
   - This room is an exit landing room designed to return players to 2F after completing upper/deeper chambers.
   - Returning through southern doorway at (10, 23) to 2F to descend the unvisited Level 4 crate staircase at cols 10..11, rows 28..31!
-- Level 4 Crate Staircase (cols 11..12, rows 27..29):
-  - Located directly south of the 3F doorway at (11, 23..24).
-  - 3-step crate staircase connects the Level 3 courtyard down to Level 4 (row 30+).
+- Level 4 Crate Staircase (col 12, rows 28..31):
+  - Located at col 12, directly south of the Level 3 courtyard.
+  - 4-step crate staircase connects Level 3 (row 27) down to Level 4 (row 32+).
