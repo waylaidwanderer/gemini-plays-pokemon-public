@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | AAAAAAAAAA | 12 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Skitty ♂ | LYNX | 4 | Active | Adamant, `Cute Charm`; knows `Assist`, `Attract`, `Sing` |
-| Route 102 | Gulpin ♂ | GULPIN | 7 | Active | Modest, `Liquid Ooze` (counters `Mega Drain`/`Absorb`!); knows `Acid`, `Yawn` |
+| Route 102 | Gulpin ♂ | GULPIN | 7 | Deceased | Died on Turn 645 to Fisherman Darian's Lv. 8 Feebas (`Water Pulse`) |
 | Route 104 (South) | Cubone ♀ | GAIA | 7 | Deceased | Died on Turn 643 to Fisherman Darian's Lv. 8 Feebas (2x SE + 2x Crit `Water Pulse` from 20/24 HP) |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 
@@ -56,7 +56,6 @@
 ## Active Party
 1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 12 | HP: 10/37 (SLP) | Held: None | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 22 Atk / 20 Def / 22 SpA / 18 SpD / 12 Spd | Moves: `1: Tackle` (35 PP), `2: Bubble` (30 PP), `3: Mud Sport` (15 PP), `4: Water Gun` (25 PP)
 2. **LYNX** (Skitty ♂) — Lv. 4 (51 EXP) | HP: 18/18 | Nature: Adamant (+Atk, -SpA) | Ability: Cute Charm | Stats: 9 Atk / 8 Def / 7 SpA / 8 SpD / 9 Spd | Moves: `1: Assist` (32 PP), `2: Attract` (15 PP), `3: Sing` (32 PP)
-3. **GULPIN** (Gulpin ♂) — Lv. 7 | HP: 14/27 | Held: None | Nature: Modest (+SpA, -Atk) | Ability: **Liquid Ooze** (draining moves like `Mega Drain`/`Absorb` damage the attacker instead of healing!) | Stats: 9 Atk / 14 Def / 12 SpA / 12 SpD / 12 Spd | Moves: `1: Acid` (30 PP), `2: Yawn` (10 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -133,6 +132,8 @@
 ## Attempt #5 Casualties (Starting Turn 419)
 - **GAIA** (Cubone ♀, Lv. 7, Careful, `Rock Head`) — Died on Turn 643 on Route 104 South `(18, 59)` to Fisherman Darian's Lv. 8 `Feebas` (`Water Pulse` — 2x Super Effective + 2x Critical Hit from `20/24 HP`).
   - **Lesson:** Never switch a 2x Water-weak Ground-type into an enemy Water-type that knows `Water Pulse` (60 BP STAB), because a `2x` Super Effective hit (`11–13 HP`) becomes `22–26 HP` on a `1/16` Critical Hit. Always use neutral/resistant pivots (`LYNX` / `GULPIN` / `AAAAAAAAAA`) against Water moves and train new catches to Lv. 10+ before using them against trainers.
+- **GULPIN** (Gulpin ♂, Lv. 7, Modest, `Liquid Ooze`) — Died on Turn 645 on Route 104 South `(18, 59)` to Fisherman Darian's Lv. 8 `Feebas` (`Water Pulse`), sacrificing himself after chipping `Feebas` to `~60% HP` so `LYNX` and `AAAAAAAAAA` would not have to take two consecutive hits on a hard switch into a faster `Feebas`.
+  - **Enemy Details (Fisherman Darian `(15, 58)` on Route 104 South):** Has `Lv. 9 Magikarp` (`Bounce`, `Tackle`) and `Lv. 8 Feebas` (custom boosted bulk/stats; knows `Hypnosis`/`Yawn`, `Facade`, `Water Pulse`). Avoidable or only challenge after equipping `Chesto` / `Oran Berries` and training party to Lv. 13+.
 
 <hr>
 
