@@ -233,4 +233,4 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - To revive Sage, navigate from Slot 1 across to the right column (Right) and down 4 times to Slot 6 before confirming Revive.
 - Maxie's Crobat Lv 38 has Wing Attack and high speed, but Sage Lv 52 (Speed 153) outspeeds it once on the field and has Rock Tomb (2x SE).
 
-- Story Climax Complete (Turn 14995): Leader Maxie defeated (Prize: ¥3,120). Groudon awakened by the Blue Orb and escaped into the Hoenn skies. Escape warp at (17, 21) connects directly back to Jagged Pass.
+- Story Climax Complete (Turn 14995): Leader Maxie defeated (Prize: ¥3,120). Groudon awakened by the Blue Orb and escaped into the Hoenn skies. Warp at (17, 21) teleports to 4F at (16, 21), where the warps at (16, 22) and (20, 22) form a closed two-way loop. Escape requires using Dig or walking back to 1F entrance at (10, 35).
