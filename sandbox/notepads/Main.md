@@ -33,12 +33,12 @@
   2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna` [holds `Berry Juice`, Poison Sting], `Cascoon` [holds `Berry Juice`, Iron Defense, Tackle]).
   3. **Lass Tiana `(15, 5)`:** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **use non-contact `Water Gun` (`Down, Right`)!**], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed`, `Protect`, `Mega Drain` — **counter with `Liquid Ooze` `GULPIN` (`Acid`) or physical `Tackle`!**], `Lv. 5 Togepi`).
   4. **Bug Catcher Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102; has **4 Lv. 7 Pokémon** (`Weedle` [`Poison Sting`], `Silcoon` [holds `Sitrus Berry`, `Iron Defense`], `Wurmple` [`Tackle`], `Metapod`).
-- **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653):**
-  - **Berry Trees at `(37, 57)` & `(38, 57)`:** Located in the grass-free clearing just north of the eastern entrance `(39, 62)` — harvest and equip before the beach trainers!
+- **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653, 886–895):**
+  - **Eastern Forest Wall (`x=33..42, y=56..60`):** Blocks access to the trees north of `y=56` from the eastern entrance, so preserve the Route 102 `Oran Berries` for Route 104 South.
   - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
-  - **Fisherman Darian `(15, 58)` / `(15, 59)`:** Has 2 Pokémon (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]). **Lead with a trained Lv. 10–12 secondary teammate against `Magikarp` so `Mudkip` enters `Feebas` at 100% HP holding an `Oran Berry`!**
+  - **Fisherman Darian `(15, 59)`:** Mandatory trainer facing `Right` across the 3-tile beach bottleneck `x=16..18, y=59`; has 2 Pokémon (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]). **Lead with fast Lv. 13 `ATHENA` (`Spearow`) against `Magikarp` to outspeed `Bounce` so `Mudkip` enters `Feebas` at 100% HP!**
 - **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
-- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(37, 57)` on Route 104 South) activate automatically in battle!
+- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 2 `BAG`)

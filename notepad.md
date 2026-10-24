@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Spearow ♀ | ATHENA | 12 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`) |
+| Route 103 | Spearow ♀ | ATHENA | 13 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`) |
 | Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
 | Route 104 (South) | Spoink ♀ | CIRCE | 7 | Active | Caught on Turn 889 (`Psywave`, `Splash`) |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
@@ -49,12 +49,12 @@
   2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna` [holds `Berry Juice`, Poison Sting], `Cascoon` [holds `Berry Juice`, Iron Defense, Tackle]).
   3. **Lass Tiana `(15, 5)`:** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **use non-contact `Water Gun` (`Down, Right`)!**], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed`, `Protect`, `Mega Drain` — **counter with `Liquid Ooze` `GULPIN` (`Acid`) or physical `Tackle`!**], `Lv. 5 Togepi`).
   4. **Bug Catcher Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102; has **4 Lv. 7 Pokémon** (`Weedle` [`Poison Sting`], `Silcoon` [holds `Sitrus Berry`, `Iron Defense`], `Wurmple` [`Tackle`], `Metapod`).
-- **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653):**
-  - **Berry Trees at `(37, 57)` & `(38, 57)`:** Located in the grass-free clearing just north of the eastern entrance `(39, 62)` — harvest and equip before the beach trainers!
+- **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653, 886–895):**
+  - **Eastern Forest Wall (`x=33..42, y=56..60`):** Blocks access to the trees north of `y=56` from the eastern entrance, so preserve the Route 102 `Oran Berries` for Route 104 South.
   - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
-  - **Fisherman Darian `(15, 58)` / `(15, 59)`:** Has 2 Pokémon (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]). **Lead with a trained Lv. 10–12 secondary teammate against `Magikarp` so `Mudkip` enters `Feebas` at 100% HP holding an `Oran Berry`!**
+  - **Fisherman Darian `(15, 59)`:** Mandatory trainer facing `Right` across the 3-tile beach bottleneck `x=16..18, y=59`; has 2 Pokémon (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]). **Lead with fast Lv. 13 `ATHENA` (`Spearow`) against `Magikarp` to outspeed `Bounce` so `Mudkip` enters `Feebas` at 100% HP!**
 - **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
-- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(37, 57)` on Route 104 South) activate automatically in battle!
+- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party (`BATTLE STYLE: SET`, `START` cursor on Row 2 `BAG`)
@@ -219,7 +219,7 @@
   - **Options `TEXT SPEED` Wrap-Around (Verified Turn 465):** In `OPTION`, `TEXT SPEED` wraps around (`SLOW -> MID -> FAST -> SLOW`). Pressing `Right` once from `MID` selects `FAST`, whereas pressing `Right` twice from `MID` wraps back to `SLOW`.
   - **Route 103:** Lv. 4 `Poliwag` (`Water Gun`, 44 EXP), `Skitty` (`Attract`), `Wingull` (`Water Gun`, `Wing Attack` 60 BP STAB, 10 Speed), `Ledyba` (`Silver Wind` — **100% chance to boost all 5 stats `+1 Atk/Def/SpA/SpD/Spd` on every hit in this ROM!**), `Sunkern` (`Absorb`, `Growth`), `Spoink` (`Confusion`), `Ekans`, `Spearow`, `Hoppip`, `Mareep` (`ThunderShock`). Note: Optimal **1-grass-tile** path to Rival May `(10, 3)`/`(10, 4)` (who wanders vertically between `(10, 3)` and `(10, 4)`): from Oldale `(10, 17)`, take **26** steps `Up` to `(10, 13)` -> `Right` 4 to `(14, 13)` -> `Up` **7** to `(14, 6)` -> `Left` 9 along `y=6` to `(5, 6)` (the **only** grass tile!) -> `Up` 2 through `(5, 5)` to `(5, 4)` -> `Right` 4 to `(9, 4)` (or `(9, 3)`). Initiate May's dialogue and confirm the battle starts before queuing move inputs.
   - **Route 102:** Lv. 6 `Gulpin` (`Yawn` [inflicts immediate sleep], `Acid`, `Pound`), Lv. 4 `Ralts` (`Confusion`, Ability: `Synchronize`), Lv. 6 `Hoothoot`.
-  - **Route 104 (South):** Lv. 7 `Cubone` (`Bone Club` / `Headbutt`).
+  - **Route 104 (South):** Lv. 7 `Cubone` (`Bone Club` / `Headbutt`), Lv. 7 `Spoink` (`Psywave`, `Splash`), Lv. 7 `Natu` (`Peck`, `Leer`, `Night Shade`).
 - **Southbound Grass-Free Ledge Corridor & Mom's Heal (Turns 130–146):**
   - Walking straight `Down` along column **`x=10`** from `(10, 4)` on Route 103 jumps over both ledges (`y=5`, `y=12`) into Oldale Town with **0 grass tiles**.
   - Walking straight `Down` along column **`x=10`** across Route 101 jumps over both ledges (`y=6`, `y=13`) into Littleroot Town with **0 grass tiles**.
