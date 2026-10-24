@@ -244,10 +244,10 @@
     - Poké Mart door: `(25, 12)` (exits to `(25, 13)`; approach from `(18, 11)` via `Right` 5 to `(23, 11)`, `Down` 2 to `(23, 13)`, `Right` 2 to `(25, 13)`, `Up` 1 into `(25, 12)`).
     - Petalburg Gym door: `(15, 8)` (exits to `(15, 9)`).
     - West exit (to Route 104 South): From `(15, 9)`, walk `Left` 3 to `(12, 9)`, `Down` 2 to `(12, 11)`, `Left` 10 to `(2, 11)` (triggers Scott's intro dialogue at `(4, 11)`), `Down` 1 to `(2, 12)`, and `Left` 3 onto Route 104 South at `(39, 62)`.
-  - **Route 104 (South) Coordinates (Verified Turns 601–653):**
-    - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free).
-    - Berry trees at eastern entrance: `(37, 57)` and `(38, 57)` (grass-free clearing directly above `(37..38, 62)`).
-    - Tall grass patch: `x=22..27, y=58..59` and `x=22..24, y=60..61` (bounded above by south-facing one-way ledges at `y=57` and `y=59`).
+  - **Route 104 (South) Coordinates (Verified Turns 601–653, 885):**
+    - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free; trees occupy `x=34..38, y=59..60`).
+    - Berry trees at eastern entrance: `(37, 57)` and `(38, 57)` (approach from `(39, 62)` via `Up` 4 along `x=39` to `(39, 58)`, then `Left` 1 to `(38, 58)` facing `(38, 57)`).
+    - Tall grass patch: `(28, 58)`–`(28, 57)` (approach from `(34, 60)` via `Left` 6 to `(28, 60)`, `Up` 2 to `(28, 58)`).
     - Stairs to lower beach: `x=27..28, y=69..70` (walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(26, 70)`, then `Left` onto the beach at `x=20`).
     - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
     - **Fisherman Darian `(15, 58)` / `(15, 59)`:** Has **2 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]).
