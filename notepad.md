@@ -47,14 +47,18 @@
 - **Route 102 Trainer Teams (Verified Turns 177–182, 303–328, 537–570):**
   1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash / Mud-Slap, Quick Attack], `Zigzagoon` [Swift], `Poochyena` [Rock Smash, Howl]).
   2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna` [holds `Berry Juice`, Poison Sting], `Cascoon` [holds `Berry Juice`, Iron Defense, Tackle]).
-  3. **Lass Tiana `(15, 5)`:** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **use non-contact `Water Gun` (`Down, Right`)!**], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed`, `Protect`, `Mega Drain` — **counter with `Liquid Ooze` `GULPIN` (`Acid`)!**], `Lv. 5 Togepi`).
+  3. **Lass Tiana `(15, 5)`:** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **use non-contact `Water Gun` (`Down, Right`)!**], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed`, `Protect`, `Mega Drain` — **counter with `Liquid Ooze` `GULPIN` (`Acid`) or physical `Tackle`!**], `Lv. 5 Togepi`).
   4. **Bug Catcher Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102; has **4 Lv. 7 Pokémon** (`Weedle` [`Poison Sting`], `Silcoon` [holds `Sitrus Berry`, `Iron Defense`], `Wurmple` [`Tackle`], `Metapod`).
-- **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
-- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
-- **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
+- **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653):**
+  - **Berry Trees at `(37, 57)` & `(38, 57)`:** Located in the grass-free clearing just north of the eastern entrance `(39, 62)` — harvest and equip before the beach trainers!
+  - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
+  - **Fisherman Darian `(15, 58)` / `(15, 59)`:** Has 2 Pokémon (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]). **Lead with a trained Lv. 10–12 secondary teammate against `Magikarp` so `Mudkip` enters `Feebas` at 100% HP holding an `Oran Berry`!**
+- **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
+- **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(37, 57)` on Route 104 South) activate automatically in battle!
+- **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 12 | HP: 10/37 (SLP) | Held: None | Nature: Quiet (+SpA, -Spd) | Ability: Torrent | Stats: 22 Atk / 20 Def / 22 SpA / 18 SpD / 12 Spd | Moves: `1: Tackle` (35 PP), `2: Bubble` (30 PP), `3: Mud Sport` (15 PP), `4: Water Gun` (25 PP)
+- None yet (Starting Attempt #6 — selecting Mudkip on Route 101).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -238,13 +242,13 @@
     - Poké Mart door: `(25, 12)` (exits to `(25, 13)`; approach from `(18, 11)` via `Right` 5 to `(23, 11)`, `Down` 2 to `(23, 13)`, `Right` 2 to `(25, 13)`, `Up` 1 into `(25, 12)`).
     - Petalburg Gym door: `(15, 8)` (exits to `(15, 9)`).
     - West exit (to Route 104 South): From `(15, 9)`, walk `Left` 3 to `(12, 9)`, `Down` 2 to `(12, 11)`, `Left` 10 to `(2, 11)` (triggers Scott's intro dialogue at `(4, 11)`), `Down` 1 to `(2, 12)`, and `Left` 3 onto Route 104 South at `(39, 62)`.
-  - **Route 104 (South) Coordinates (Verified Turns 601–613):**
+  - **Route 104 (South) Coordinates (Verified Turns 601–653):**
     - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free).
+    - Berry trees at eastern entrance: `(37, 57)` and `(38, 57)` (grass-free clearing directly above `(37..38, 62)`).
     - Tall grass patch: `x=22..27, y=58..59` and `x=22..24, y=60..61` (bounded above by south-facing one-way ledges at `y=57` and `y=59`).
     - Stairs to lower beach: `x=27..28, y=69..70` (walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(26, 70)`, then `Left` onto the beach at `x=20`).
     - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
-    - **NPC / Trainer at `(15, 59)`:** Straw-hat sprite facing `Down` at the water's edge; avoidable by walking along `x=18`.
-    - **Fisherman Darian `(15, 58)`:** Red-cap Fisherman facing `Right` across the 3-tile beach bottleneck (`x=16..18, y=58`); has **2 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle`] and `Lv. 8 Feebas`).
+    - **Fisherman Darian `(15, 58)` / `(15, 59)`:** Has **2 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle` — outspeeds 12-Spd Mudkip to jump on Odd turns and land on Even turns] and `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`]).
   - **Grass-Free Path from Bug Catcher Rick `(26, 15)` to Berry Trees `(24, 3)` (Verified Turn 557):** There is a south-facing ledge along `x=19..25, y=6` with tall grass on `(19..25, 7)` and `(19..23, 8..9)`. Column **`x=18`** is the 1-tile grass-free corridor between the trees (`x=17`) and the tall grass (`x=19`). To reach `(24, 3)` with **0 grass tiles**, walk `Up` 2 to `(26, 13)`, `Left` 1 to `(25, 13)`, `Up` 3 to `(25, 10)`, `Left` 7 along grass-free `y=10` to `(18, 10)`, `Up` 6 along grass-free `x=18` to `(18, 4)`, `Right` 6 to `(24, 4)`, and `Up` 1 to `(24, 3)`.
   - **Berry Tree Harvesting & Equipping Formula (Turns 319, 560):** Press `A` **3 times** with `sleep 1200` (`sleep 3000` after the 3rd `A`) to confirm picking the Berries, then press `B` **3 times** (`sleep 1200`) to close the text without re-interacting with the loamy soil (which otherwise opens the `BERRIES POCKET` and resets the in-battle move cursor to Slot 0). Inside the `BAG -> BERRIES` pocket (Dot 4), Berries are sorted by Berry Number (`No03 PECHA BERRY` Row 0, `No07 ORAN BERRY` Row 1), and the 2-column Berry popup menu starts at `▶CHECK TAG` (`Down, Right, A` selects `GIVE`).
   - **Poké Mart Overworld Purchase Formula (Turn 377):** Talking to a Mart clerk from the overworld requires **3 `A` presses** to open the `BUY` screen (`"A", "sleep 1200"` for `"Welcome!"`, `"A", "sleep 1200"` for `"How may I serve you?"`, and `"A", "sleep 3000"` to select `▶BUY` and wait for the 2.7s fade-in).
