@@ -28,10 +28,10 @@
 - **Modified Move Mechanics (Turns 169, 384):**
   - `Yawn` inflicts Sleep (`SLP`) immediately on the turn it is used.
   - `Silver Wind` (`Ledyba` on Route 103) has a **100% omni-boost rate** (`+1 Atk/Def/SpA/SpD/Spd` on every hit).
-- **Route 102 Trainer Teams (Verified Turns 177–182, 303–328):**
-  1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash, Quick Attack], `Zigzagoon` [Swift], `Poochyena` [Rock Smash, Howl]).
-  2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna`, `Cascoon` [holds `Berry Juice`]).
-  3. **Lass Tiana `(15, 5)`:** 2 Lv. 6 Pokémon (`Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **MUST use non-contact `Water Gun` (`Down, Right`)!**], `Sunkern` [`Mega Drain` 40 BP Grass, 2x super effective vs Water — **enter at >25 HP with held Oran Berry and use `Tackle` (`Up, Left`)!**]).
+- **Route 102 Trainer Teams (Verified Turns 177–182, 303–328, 537–570):**
+  1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash / Mud-Slap, Quick Attack], `Zigzagoon` [Swift], `Poochyena` [Rock Smash, Howl]).
+  2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie`, `Wurmple`, `Kakuna` [holds `Berry Juice`, Poison Sting], `Cascoon` [holds `Berry Juice`, Iron Defense, Tackle]).
+  3. **Lass Tiana `(15, 5)`:** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — **use non-contact `Water Gun` (`Down, Right`)!**], `Lv. 6 Sunkern` [holds `Berry Juice`, knows `Leech Seed`, `Protect`, `Mega Drain` — **counter with `Liquid Ooze` `GULPIN` (`Acid`)!**], `Lv. 5 Togepi`).
   4. **Youngster Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102.
 - **Oldale Mart Prices (Turn 153):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102) activate automatically in battle!
