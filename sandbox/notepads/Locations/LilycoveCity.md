@@ -87,3 +87,9 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
   - Residents: Blond boy in red jacket at (9, 5); Camper in green at (4, 4).
   - Vending Machines: Left machine at (9, 1), Right machine at (10, 1), approached from (9, 2) and (10, 2) facing North. Sells Fresh Water (¥200, 50 HP), Soda Pop (¥300, 60 HP), Lemonade (¥350, 80 HP).
   - Planters / Benches: Planters at cols 1..2, rows 3 and 5; purple benches at (5..7, 5) and (10..12, 5).
+- Eastern Terrace & Cove Approach (Verified Turn 15089):
+  - Grand Staircase (cols 31..32, rows 11..14) leads to upper avenue along row 8.
+  - Path extends east through cols 33..53 past Team Aqua Grunts at (37, 8), (45..46, 10), and (45, 18).
+  - Upper residential house with blue roof at cols 55..58, rows 13..15.
+  - North cliff at (53, 4) overlooks the ocean.
+  - Shoreline path descends to the beach and northeastern cove leading to the Team Aqua Hideout entrance.
