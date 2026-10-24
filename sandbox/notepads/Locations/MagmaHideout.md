@@ -88,3 +88,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Level 4 Crate Staircase (col 12, rows 28..31):
   - Located at col 12, directly south of the Level 3 courtyard.
   - 4-step crate staircase connects Level 3 (row 27) down to Level 4 (row 32+).
+- Level 4 & Southern Cave Doorway:
+  - Descended crate staircase at col 12 (rows 28..31) down to Level 4 at (12, 32).
+  - Open dirt terrace extends east along row 32 to cols 17..18.
+  - Cave doorway cut into south cliff wall at cols 17..18, row 34 leading into deeper hideout chambers!

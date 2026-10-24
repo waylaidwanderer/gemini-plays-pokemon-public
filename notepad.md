@@ -984,6 +984,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Level 4 Crate Staircase (col 12, rows 28..31):
   - Located at col 12, directly south of the Level 3 courtyard.
   - 4-step crate staircase connects Level 3 (row 27) down to Level 4 (row 32+).
+- Level 4 & Southern Cave Doorway:
+  - Descended crate staircase at col 12 (rows 28..31) down to Level 4 at (12, 32).
+  - Open dirt terrace extends east along row 32 to cols 17..18.
+  - Cave doorway cut into south cliff wall at cols 17..18, row 34 leading into deeper hideout chambers!
 
 <hr>
 
@@ -3256,7 +3260,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 50, Male), Nickname: SAGE
-- Status: INFILTRATING MAGMA HIDEOUT! Entered 3F via southern doorway! Spawned at (10, 22) facing North. Advancing north through canyon corridor to confront Team Magma and stop Leader Maxie! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
+- Status: INFILTRATING MAGMA HIDEOUT! Descended Level 4 crate staircase to (12, 32) and entering southern cave doorway at (17, 34) leading into deeper hideout chambers! Party: Sage Lv 51 (HP 128/156), Lilz Lv 25, Cipher Lv 14, Cobalu Lv 15, Mochi Lv 5, Guava Lv 28.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 51) - Evolved on turn 5632! Level 51 on turn 13471! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (0/15), Quick Attack (30/30). HP: 128/156. Max HP: 156. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 51: HP 156, Atk 112, Def 84, Sp.Atk 125, Sp.Def 113, Speed 149. (Note: Elixir x1 in Bag can restore all PP before Tabitha/Maxie).
