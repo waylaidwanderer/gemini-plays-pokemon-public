@@ -214,4 +214,5 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - West Ramp & Terrace 2 (Verified): From row 20, col 38 opens into a dirt ramp descending south through rows 21..22 onto Terrace 2 at row 23.
   - Team Magma Grunt #9: Defeated at (32, 22) on Turn 14838 (Baltoy Lv 29, ¥580; Sage reached Lv 52!).
   - Western Northbound Canyon: Runs North along cols 31..33 through rows 21..14.
-  - Machinery Terrace & Grunt Duo (cols 26..30, rows 13..14): Both Team Magma Grunts defeated in Double Battle on Turn 14859! (Numel Lv 29, Zubat Lv 29, ¥1,160). Choke point cleared, advancing west toward the magma core.
+  - Machinery Terrace & Grunt Duo (cols 26..30, rows 13..14): Both Team Magma Grunts defeated in Double Battle on Turn 14859! (Numel Lv 29, Zubat Lv 29, ¥1,160). Choke point cleared, bypassed via row 12 (col 27) into the northwest plateau.
+  - Northwest Plateau (cols 22..27, rows 7..13): Wide open cavern floor northwest of generator console and Grunts, overlooking lava lake to the southwest. Wide passage leads north and west toward the magma core.
