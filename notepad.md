@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | OCEANUS | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | AAAAAAAAAA | 6 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | TBD | TBD | - | Pending | Catch after obtaining Pokédex & Poké Balls (weaken to Yellow/Red HP first!) |
 | Route 102 | TBD | TBD | - | Pending | Catch before challenging Route 102 trainers (weaken to Yellow/Red HP first!) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
@@ -54,7 +54,7 @@
 - **Train Caught Teammates to Lv. 8–10 Before Route 102 Trainers:** Never bring a base-level (Lv. 4) catch into Route 102 trainer battles. Train any Route 103 / Route 102 catch up to **Lv. 8–10** alongside the starter before challenging Route 102's trainers.
 
 ## Active Party
-1. **OCEANUS** (Mudkip ♂) — Lv. 5 | HP: 21/21 | Ability: Torrent | Moves: Tackle (35 PP), Growl (40 PP)
+1. **AAAAAAAAAA** (Mudkip ♂) — Lv. 6 (85% EXP to Lv. 7) | HP: 23/23 | Ability: Torrent | Moves: Tackle (35 PP), Bubble (30 PP)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
