@@ -125,3 +125,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
 - Team Magma Grunt #6 Defeated:
   - Female Grunt defeated at (6, 7) (Zubat Lv 29, ¥580).
   - Crate staircase at col 7 (rows 8..11) connects the southwestern terrace (row 7) down to the lower machinery terrace (row 12+).
+- 4F Western Canyon (cols 4..6, rows 11..16+):
+  - From the base of the crate staircase (col 7, row 11), the corridor routes west through (6, 12) and (5, 12) into a north-south canyon running along cols 4..5.
+  - The canyon extends straight South past row 15 between the western mountain wall and the central cliff/lava river.
