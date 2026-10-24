@@ -978,6 +978,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Column 39 is a 1-tile wide lane running north from row 18 to row 14, where crate steps sit directly ahead at (39, 12..13) and (39, 9..10).
   - Open southeastern floor across rows 19+ extends east of col 30 into a large lower cavern.
   - Verified: Crate steps at (39, 12..13) cannot be climbed from the south (one-way downward ledge). Progression route exits south down column 39 to row 19, which wraps east into the vast southeastern chamber.
+- Southeastern Ledge & Eastern Canyon:
+  - Row 18 dead-ends at col 40 against cliff wall at col 41.
+  - South-facing jump ledge at row 19 drops down to lower floor at row 20.
+  - Below row 19, the lower floor connects east past col 41 into a massive eastern canyon at cols 42..45 leading North.
 
 <hr>
 
