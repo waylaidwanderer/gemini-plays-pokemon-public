@@ -132,3 +132,7 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Row 12 is a cliff ridge dropping south into the lava chasm.
   - Row 11 is the true east-west progression highway connecting the col 7 crate staircase directly to the cave doorway at (21, 10).
   - Passing east above the generator consoles along row 11 leads straight to the cave doorway entrance.
+- 4F Western Corridor & Generator Console Bypass:
+  - At (6, 11), east is blocked by the side of the crate step at (7, 11).
+  - The generator console at cols 9..12, rows 13..15 touches the cliff wall above it (no path above console).
+  - The true path leads South down column 6 (rows 12..15) into the lower area below the console and beside the lava pool.
