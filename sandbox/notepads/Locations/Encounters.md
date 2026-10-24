@@ -6,4 +6,4 @@
 | Route 103 | Spearow ♀ | ATHENA | 14 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
 | Route 104 (South) | Spoink ♀ | CIRCE | 7 | Active | Caught on Turn 889 (`Psywave`, `Splash`) |
-| Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
+| Petalburg Woods | Hoothoot ♂ | NOCTIS | 8 | Active | Caught on Turn 917 (`Confusion`, `Growl`) |

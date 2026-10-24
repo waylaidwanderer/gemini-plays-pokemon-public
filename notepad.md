@@ -8,7 +8,7 @@
 | Route 103 | Spearow ♀ | ATHENA | 14 | Active | Caught on Turn 796 (`Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Ralts ♂ | MERLIN | 4 | Active | Caught on Turn 799 (`Growl`, `Confusion`) |
 | Route 104 (South) | Spoink ♀ | CIRCE | 7 | Active | Caught on Turn 889 (`Psywave`, `Splash`) |
-| Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
+| Petalburg Woods | Hoothoot ♂ | NOCTIS | 8 | Active | Caught on Turn 917 (`Confusion`, `Growl`) |
 
 <hr>
 
@@ -62,6 +62,7 @@
 2. **MUDKIP** — Mudkip ♀ (Lv. 10 [85% EXP], `31/31 HP`, Held: `Oran Berry`, Brave, `Torrent`, Stats: `31 HP / 20 Atk / 18 Def / 17 SpA / 15 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 3. **MERLIN** — Ralts ♂ (Lv. 4, `16/16 HP`, Jolly, `Synchronize`, Stats: `16 HP / 7 Atk / 7 Def / 8 SpA / 7 SpD / 8 Spd`, Moves: `Confusion`) — Met on Route 102.
 4. **CIRCE** — Spoink ♀ (Lv. 7, `27/27 HP`, `Psywave`, `Splash`) — Met on Route 104 (South).
+5. **NOCTIS** — Hoothoot ♂ (Lv. 8, `Confusion`, `Growl`) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
