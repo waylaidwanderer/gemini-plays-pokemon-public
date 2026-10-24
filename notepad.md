@@ -1109,7 +1109,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Southern Terraces (Debunked): Rows 21, 23, 25 are solid impassable cliff faces with notched rock corners (cols 40..48 tested; cannot be jumped down on foot). South is a dead-end overlook.
   - West Ramp & Terrace 2 (Verified): From row 20, col 38 opens into a dirt ramp descending south through rows 21..22 onto Terrace 2 at row 23.
   - Team Magma Grunt #9: Defeated at (32, 22) on Turn 14838 (Baltoy Lv 29, ¥580; Sage reached Lv 52!).
-  - Terrace 2 West Corridor: Bypasses Grunt via row 23 (or row 21), leading west past col 30 deeper into the magma core.
+  - Western Northbound Canyon: Runs North along cols 31..33 through rows 21..14.
+  - Machinery Terrace & Grunt Duo (cols 27..30, rows 13..14): Two Team Magma Grunts face each other across row 13 beneath generator machinery (Grunt A at 27, 13 facing East; Grunt B at 30, 13 facing West). Row 14 passes south of them to the western corridor (cols 24..26).
 
 <hr>
 
