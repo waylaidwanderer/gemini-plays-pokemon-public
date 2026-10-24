@@ -987,9 +987,10 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Row 19 is a 2-tier cliff wall, not a jump ledge.
   - Crate steps at col 39 are one-way downward drop ledges.
   - True ascending route onto upper plateau: cols 21..22 form an open 2-tile wide corridor heading North from row 18 up to row 14!
-- 3F Central Southern Gap (cols 22..25, rows 18..22):
-  - A natural, wide dirt opening between the cliff ridges at cols 22..25 connects row 18 directly down to the lower southern cavern across rows 20..25+ without any jump ledges or crate steps!
-  - This is the true progression path connecting the upper highway to the vast lower cavern.
+- 3F Central Southern Valley (cols 18..23, rows 20..24+):
+  - Col 24 forms the western edge of the eastern cliff wall at rows 21..24.
+  - Cols 18..23 form a wide, completely unobstructed natural dirt valley running South from row 20 down into the vast lower cavern (rows 21..25+).
+  - This connects the upper highway directly to the lower southern cavern without any ledges or crate steps.
 
 <hr>
 
