@@ -44,6 +44,8 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Isolated balcony: No stairs or paths descend to the lower room from here. Main chamber must be reached from another 1F route.
 - Central Elevated Plateau & Northern Doorway (1F):
   - Ascended via white staircase at (23..24, 26) from Eastern Avenue (24, 27..28).
-  - Row 24 is a south-facing one-way jumping ledge (jump down only from the doorway terrace above).
-  - Cave doorway is located at (18..19, 21) on the upper terrace.
-  - Progression path to the upper terrace wraps around the west side along row 25.
+  - Small 3x2 landing platform at cols 22..24, rows 25..26.
+  - North: row 24 is a south-facing one-way jumping ledge (jump-down exit from the upper doorway terrace).
+  - West & South: vertical cliff drops into lower canyon and Eastern Avenue.
+  - Conclusion: The Central Plateau is an exit drop-point from the doorway terrace, not an entrance.
+  - Cave doorway at (18..19, 21) sits on upper terrace (row 22) whose western corridor originates from the west side of 1F (near boulder puzzle / entrance at row 22).
