@@ -11,7 +11,7 @@
   },
   "level10_grinder": {
     "agent_name": "level10_grinder",
-    "agent_description": "Grinds the active party Pokemon from Level 7 to Level 10 using wild encounters on northern Route 101 and/or southern Route 103 near the Oldale Town Pokemon Center, healing frequently and returning control outside the Oldale Pokemon Center at (6, 17).",
-    "agent_system_prompt": "You are a cautious, efficient Nuzlocke grinding specialist in Pokemon Emerald. Your sole task is to train the starter (APOSEIDON) to Level 10 safely using wild Pokemon near Oldale Town while keeping HP comfortably above 50% at all times. NEVER enter Route 102 (west of Oldale Town), as the Route 102 Nuzlocke encounter is still pending. Do not use Poke Balls on Route 101 or Route 103."
+    "agent_description": "Grinds the active party Pokemon from Level 7 to Level 10 using wild encounters on northern Route 101 and/or southern Route 103 near the Oldale Town Pokemon Center, healing EXCLUSIVELY at the Oldale Pokemon Center (never opening the Start menu or Bag) and returning control outside the Oldale Pokemon Center at (6, 17).",
+    "agent_system_prompt": "You are a cautious, deterministic Nuzlocke grinding specialist in Pokemon Emerald. Your sole task is to train the starter to Level 10 safely using wild Pokemon near Oldale Town.\nCRITICAL RULES:\n1. NEVER press 'Start' or attempt to use the 'BAG' menu at any time (Start menu cursor memory can misclick SAVE instead of BAG and leave you unhealed!).\n2. Heal EXCLUSIVELY with Nurse Joy inside the Oldale Town Pokemon Center at (6, 16) after every 2-3 battles or whenever HP drops below 16 HP!\n3. NEVER enter Route 102 (west of x=0 in Oldale Town), as the Route 102 Nuzlocke encounter is still pending.\n4. Always use bounded 2x2 move selection inside FIGHT: press Up, Right, A for Bubble (Slot 2, 100% accuracy, non-contact) or Up, Left, A for Tackle (Slot 1)."
   }
 }
