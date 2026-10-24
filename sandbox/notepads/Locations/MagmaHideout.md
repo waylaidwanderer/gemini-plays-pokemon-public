@@ -163,3 +163,6 @@ The subterranean fortress of Team Magma concealed deep inside Mt. Chimney, acces
   - Open dirt highway leads Northeast toward the inner core.
 - Team Magma Grunt #7:
   - Stationed on 5F highway at (16..17, 4) facing West.
+- Team Magma Grunt #7 Defeated:
+  - Female Grunt defeated at (16, 3) (Mightyena Lv 29, ¥580).
+  - Row 2 corridor runs East above the Grunt and middle drill tanks (cols 15..20), connecting directly into the Northeast Canyon leading deeper into the magma core.
