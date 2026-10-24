@@ -903,6 +903,11 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
   - Upper residential house with blue roof at cols 55..58, rows 13..15.
   - North cliff at (53, 4) overlooks the ocean.
   - Shoreline path descends to the beach and northeastern cove leading to the Team Aqua Hideout entrance.
+- Shoreline Descent & Team Aqua Hideout Route (Verified Turn 15091):
+  - White stone staircase at cols 54..56, rows 19..21 connects the eastern upper terrace directly down to the sandy beach at row 22+.
+  - From the beach (row 22, col 57+), interacting with the water initiates Surf with Lilz.
+  - Surfing North into the northeastern cove waters leads directly to the Team Aqua Hideout cave entrance carved into the northern cliff wall.
+
 
 <hr>
 
