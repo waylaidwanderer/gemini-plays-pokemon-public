@@ -89,3 +89,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Central laboratory corridor runs along row 18 past col 22 all the way to col 28!
   - Team Aqua Grunt duo stationed at eastern end (male Grunt against north wall, female Grunt against south wall).
   - Teleporter Warp Pad discovered at (31, 19) on eastern metal catwalk!
+- Eastern Laboratory Double Battle (Turn 15485-15523):
+  - Defeated Team Aqua Grunt duo at (28, 17..19) in Double Battle (Zubat Lv 31, Poochyena Lv 31, Carvanha Lv 31, Zubat Lv 31; Prize: ¥1,240).
+  - Grunt dialogue hint: "There's a submarine at the far end! But, by now... Kekekeke..."
+  - Warp Pad at (31, 19) is completely clear to enter!
