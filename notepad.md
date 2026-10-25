@@ -3555,7 +3555,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: INFILTRATING TEAM AQUA HIDEOUT! Reached the Warp Pad Maze in Team Aqua Hideout! Navigating teleporters to locate the Master Ball and confront the Aqua Admin! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
+- Status: INFILTRATING TEAM AQUA HIDEOUT! MASTER BALL & NUGGET SECURED! Navigating to Submarine Dock to confront Team Aqua Admin Matt! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (12/15), Quick Attack (30/30). HP: 133/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
