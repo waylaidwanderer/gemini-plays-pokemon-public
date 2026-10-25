@@ -50,6 +50,7 @@
 
 ## Active Party
 1. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+2. **ZEPHYR** — Wingull ♀ (Lv. 4, `Keen Eye`, Moves: `Water Gun`, `Wing Attack`, `Growl`, `Supersonic`) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
