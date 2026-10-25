@@ -37,7 +37,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Warp Maze Tier 4 Right (48, 17) | (42, 13) | Return pad to Tier 3 Left Pad. |
 | Warp Maze Tier 4 Center (45, 17) | (45, 9) | Loops back to Tier 2 Center Pad. |
 | Warp Maze Tier 4 Left (42, 17) | (23, 10) | SUCCESS! Teleports to Archie's Office / Master Ball 4-Item Room! |
-| Archie's Office Pad (23, 10) | (42, 17) | Return pad to Warp Maze Tier 4 Left Pad. |
+| Archie's Office Pad (23, 10) | (45, 2) | Return pad to Warp Maze Tier 1 Entrance (above 45, 3). |
 | Master Ball 4-Item Room | (15, 9) | FOUND & COLLECTED! Top-Left = Master Ball, Top-Right = Nugget, Bottom = 2 Electrodes. |
 
 ## Topography & Navigation - 1F (100% Fully Mapped & Verified)
