@@ -49,9 +49,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ZEPHYR** — Wingull ♀ (Lv. 4, `17/17 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `17 HP / 7 Atk / 8 Def / 11 SpA / 8 SpD / 9 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP]) — Met on Route 103.
+1. **RAIJU** — Electrike ♂ (Lv. 6, `21/21 HP`, Bashful, `Lightningrod`, Stats: `21 HP / 10 Atk / 11 Def / 13 SpA / 11 SpD / 14 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP]) — Met on Route 102.
 2. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-3. **RAIJU** — Electrike ♂ (Lv. 6, `21/21 HP`, Bashful, `Lightningrod`, Stats: `21 HP / 10 Atk / 11 Def / 13 SpA / 11 SpD / 14 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP]) — Met on Route 102.
+3. **ZEPHYR** — Wingull ♀ (Lv. 10, `29/29 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `29 HP / 12 Atk / 12 Def / 19 SpA / 12 SpD / 19 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP]) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
