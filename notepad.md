@@ -187,6 +187,16 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Tier 4 Center Pad loops back to Tier 2 Center Pad (45, 9).
   - Landing on (45, 9) opens up the western side of Tier 2, granting immediate access to the previously unreachable Tier 2 Left Pad at (42, 9)!
   - Next test: Walk Left x3 from (45, 9) to enter Tier 2 Left Pad at (42, 9).
+## Multi-Tier Canal Chamber Complete Cycle (Turn 15622)
+- Verified Connection: Tier 2 Left Pad (42, 9) -> teleports to Tier 1 Right Pad (48, 5)!
+- Complete Multi-Tier Loop Mapped:
+  - Tier 1 Left (42, 5) -> Tier 2 Right (48, 9).
+  - Tier 2 Center (45, 9) -> Tier 3 Center (45, 13).
+  - Tier 3 Left (42, 13) -> Tier 4 Right (48, 17).
+  - Tier 4 Center (45, 17) -> Tier 2 Center (45, 9).
+  - Tier 2 Left (42, 9) -> Tier 1 Right (48, 5).
+- Note on Tier 3 Right Pad (48, 13): Still untested if needed later.
+- Current Test: Tier 1 Center Pad at (45, 5).
 
 <hr>
 
