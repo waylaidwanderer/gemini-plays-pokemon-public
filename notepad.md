@@ -50,6 +50,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - 1F is 100% fully mapped: entrance channel, central pool perimeter, dock stairs, southeast scenic catwalks, and north doorway at (22, 2).
   - All progression deeper into the hideout lies strictly through B1F via the doorway at (22, 2)!
 
+- Water Basin & 1F West Wing Visual Discovery (Turns 15343..15346):
+  - Water basin water extends west to col 7, bounded by brown rock cliffs at col 6 and row 12. Cannot dismount onto the western cliff from water.
+  - Camera reveals a massive western facility wing at cols 1..5 on 1F, containing orange crates, distillation tanks, and a long north-south corridor.
+  - This western wing connects on foot from the walkways west of the central pool (row 9 or row 4).
+
 ## Topography & Navigation - Warp Pad Hub (B1F)
 - Entrance / Connection: Doorway at (22, 2) on 1F warps to this chamber at (29, 1) facing South. Doorway back to 1F is at (29, 0).
 - Layout:
