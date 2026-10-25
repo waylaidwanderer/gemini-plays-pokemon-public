@@ -197,6 +197,16 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Tier 2 Left (42, 9) -> Tier 1 Right (48, 5).
 - Note on Tier 3 Right Pad (48, 13): Still untested if needed later.
 - Current Test: Tier 1 Center Pad at (45, 5).
+## Junction 1 Center Pad Verified & Tier 3 Right Path Hypothesis (Turn 15625)
+- Verified Connection: Tier 1 Center Pad (45, 5) -> teleports to Tier 1 Arrival Pad (45, 3) (internal reset loop).
+- Key Branch Remaining in Multi-Tier Canal Chamber:
+  - On Tier 3, Center Pad (45, 13) branches Left (42, 13) vs Right (48, 13).
+  - Left (42, 13) was proven to lead to Tier 4 loop.
+  - Right (48, 13) is UNTESTED and is the prime candidate for forward progression (Left -> Center -> Right)!
+- Route to test Tier 3 Right Pad:
+  1. From (45, 3): Down to (45, 4), Left x3 to (42, 4), Down to (42, 5) [Tier 1 Left Pad].
+  2. Arrive at Tier 2 Right Pad (48, 9). Walk Left x3 into Tier 2 Center Pad (45, 9).
+  3. Arrive at Tier 3 Center Pad (45, 13). Walk Right x3 into Tier 3 Right Pad (48, 13)!
 
 <hr>
 
