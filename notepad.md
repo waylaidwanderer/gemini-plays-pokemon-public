@@ -68,9 +68,6 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Ship Model Room Pad (row 11) | UNVISITED | Visible in Ship Model Room behind solid divider wall |
 | Master Ball 4-Item Room | UNVISITED | Visible north of row 14! 4 items (Master Ball, Nugget, 2 Electrodes). Contains white warp pad in northeast corner. |
 
-## 1F Exploration Lead (Primary Route)
-- Unexplored Southeastern Corridor: On 1F, east of (14, 9) where Grunt #1 was defeated, there is an unexplored corridor heading southeast. Must explore this to find further stairs/warps!
-
 ## B1F Canal Chamber (Arrived Turn 15243)
 - Connection: Reached via B1F Hub Left pad (27, 4). Return warp pad is at (3, 15).
 - Layout:
