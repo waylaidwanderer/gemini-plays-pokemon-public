@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | .pw' | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
 | Route 103 | Ledyba ♂ | OBERON | 4 | Active | Caught at `(13, 14)` (Brave [`+Atk / -Spd`], `Swarm`, `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, `Silver Wind` [Slot 1, 5 PP]) |
-| Route 102 | Sandshrew ♂ | TERRA | 6 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `22 HP / 15 Atk / 15 Def / 7 SpA / 8 SpD / 10 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP]) |
+| Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Defense Curl` [Slot 2, 40 PP], `Poison Sting` [Slot 3, 35 PP]) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
@@ -72,8 +72,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TERRA** — Sandshrew ♂ (Lv. 6, `22/22 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `22 HP / 15 Atk / 15 Def / 7 SpA / 8 SpD / 10 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP]) — Met on Route 102.
-2. **OBERON** — Ledyba ♂ (Lv. 4, `18/18 HP`, Brave [`+Atk / -Spd`], `Swarm`, Stats: `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP]) — Met on Route 103.
+1. **OBERON** — Ledyba ♂ (Lv. 4, `18/18 HP`, Brave [`+Atk / -Spd`], `Swarm`, Stats: `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP]) — Met on Route 103.
+2. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
 3. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
