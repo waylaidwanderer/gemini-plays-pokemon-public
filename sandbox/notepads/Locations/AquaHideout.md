@@ -120,3 +120,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Collected NEST BALL at (3, 13) at western end of row 13 catwalk!
   - Dormitory room visible to the north (cols 1..4, rows 7..10) containing wooden bunk beds and a white teleporter warp pad at (5, 9)!
   - Adjacent northern room visible containing another white teleporter warp pad at (8, 9) and an item ball!
+
+## Western Machinery Chamber & Warp Maze Access Route (Turn 15576)
+- Eastern Chamber Warp Pad (18, 13) connects directly to Western Chamber Warp Pad (12, 13).
+- Topography:
+  - Southern Catwalk runs along row 13 above the water canal (railing at row 15/16).
+  - Horizontal facility divider wall at row 12 separates the catwalk from northern rooms across cols 7..13.
+  - Vending machines/cabinets located along row 13 at cols 9..11 (walkable in front or below).
+  - At western end (cols 3..6), the path opens North into the Dormitory (bunk beds, warp pad at 5, 9) and the central Warp Maze Room (warp pad at 8, 9 and item ball).
+  - Debunked: The Crate Room does NOT contain a Doorway 2. All western/northern rooms are accessed via the western catwalk opening!
