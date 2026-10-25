@@ -71,6 +71,13 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Items: Collected MAX ELIXIR at (29, 12)!
 - Features: Subterranean generator machinery at north (cols 30..33, rows 8..11). Dead-end treasure room.
 
+## B1F Ship Model Room (Discovered Turn 15251)
+- Connection: Reached from B1F Hub via western corridor (row 5 west to col 23, then south through rows 6..10).
+- Features:
+  - Cruise ship model on display table at (23, 8).
+  - Black sofa / seating area.
+  - Circular white teleporter warp pad located at south end (row 11).
+
 
 <hr>
 
