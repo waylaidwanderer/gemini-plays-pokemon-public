@@ -41,6 +41,8 @@
 - Lemonade x1 (purchased at Lilycove Rooftop Vending Machine)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
 - Nest Ball x1 (found in Team Aqua Hideout at 3, 13)
+- Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
+- Nugget x1
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
