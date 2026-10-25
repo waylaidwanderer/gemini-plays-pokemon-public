@@ -4,8 +4,8 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | CALYPSO | 12 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Wingull ♀ | ZEPHYR | 13 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `34 HP / 14 Atk / 14 Def / 24 SpA / 15 SpD / 24 Spd`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2], `Quick Attack` [Slot 3], `BubbleBeam` [Slot 4]) |
+| Route 101 | Mudkip ♀ | CALYPSO | 13 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | Wingull ♀ | ZEPHYR | 14 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `36 HP / 14 Atk / 15 Def / 25 SpA / 15 SpD / 26 Spd`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2], `Quick Attack` [Slot 3], `BubbleBeam` [Slot 4]) |
 | Route 102 | Electrike ♂ | RAIJU | 11 | Deceased | Caught at `(38, 6)` — Fainted Turn 1540 vs Lady Cindy's `Lv. 7 Azurill` (`Huge Power` + Physical `Uproar`) |
 | Route 104 (South) | Cubone ♂ | ATLAS | 7 | Active | Caught at `(23, 61)` (Mild, `Lightningrod`, `Bone Club` [Slot 1], `Rock Throw` [Slot 2]) |
 | Petalburg Woods | Teddiursa ♂ | ARCTURUS | 8 | Active | Caught at `(23, 35)` (Sassy, `Guts`, `27 HP / 18 Atk / 14 Def / 15 SpA / 16 SpD / 10 Spd`, `Scratch` [Slot 1], `Lick` [Slot 2], `Faint Attack` [Slot 3]) |
@@ -67,8 +67,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **CALYPSO** — Mudkip ♀ (Lv. 12, `35/35 HP`, `Torrent`, Stats: `35 HP / 26 Atk / 19 Def / 19 SpA / 15 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **ZEPHYR** — Wingull ♀ (Lv. 13, `34/34 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `34 HP / 14 Atk / 14 Def / 24 SpA / 15 SpD / 24 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
+1. **CALYPSO** — Mudkip ♀ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 20 SpA / 16 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+2. **ZEPHYR** — Wingull ♀ (Lv. 14, `36/36 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `36 HP / 14 Atk / 15 Def / 25 SpA / 15 SpD / 26 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
 3. **ATLAS** — Cubone ♂ (Lv. 7, `25/25 HP`, Mild [`+SpA / -Def`], `Lightningrod`, Stats: `25 HP / 12 Atk / 17 Def / 12 SpA / 13 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
 4. **ARCTURUS** — Teddiursa ♂ (Lv. 8, `27/27 HP`, Sassy [`+SpD / -Spd`], `Guts`, Stats: `27 HP / 18 Atk / 14 Def / 15 SpA / 16 SpD / 10 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Lick` [Slot 2: `Up, Right`, 30 PP], `Faint Attack` [Slot 3: `Down, Left`, 20 PP]) — Met in Petalburg Woods.
 
