@@ -49,7 +49,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
 | B1F Hub Left (27, 4) | (3, 15) | Teleported to new chamber |
-| B1F Hub Right (31, 4) | (27, 12) | Second branch |
+| B1F Hub Right (31, 4) | (27, 12) | B1F Generator Room (Max Elixir collected at 29, 12) |
+| B1F Generator Room (27, 12) | (31, 4) | Return pad to B1F Hub |
 
 ## B1F Canal Chamber (Arrived Turn 15243)
 - Connection: Reached via B1F Hub Left pad (27, 4). Return warp pad is at (3, 16) directly below player spawn (3, 15).
@@ -63,3 +64,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Located directly north of row 14 above the laboratory!
   - Features red carpet with 2 item balls visible, and a circular white warp pad in the northeast corner of that room.
   - Must find the corresponding source warp pad that teleports into this room!
+## B1F Generator Room (Discovered Turn 15249)
+- Connection: Reached via B1F Hub Right pad (31, 4). Return warp pad is at (27, 12).
+- Items: Collected MAX ELIXIR at (29, 12)!
+- Features: Subterranean generator machinery at north (cols 30..33, rows 8..11). Dead-end treasure room.

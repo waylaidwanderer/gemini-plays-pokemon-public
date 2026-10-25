@@ -25,6 +25,7 @@
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
 - Hyper Potion x10 (10 purchased at Fortree Mart, 1 found on Route 120 at 23, 82)
+- Max Elixir x1 (found in Team Aqua Hideout B1F Generator Room at 29, 12)
 - Max Potion x1 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
