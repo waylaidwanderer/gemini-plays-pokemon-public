@@ -56,6 +56,7 @@
 ## Active Party
 1. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **OBERON** — Ledyba ♂ (Lv. 4, Bug/Flying, Moves: `Silver Wind`) — Met on Route 103.
+3. **TERRA** — Sandshrew ♂ (Lv. 6, Ground, Moves: `Poison Sting`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
