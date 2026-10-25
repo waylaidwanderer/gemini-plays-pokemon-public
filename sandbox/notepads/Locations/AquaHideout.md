@@ -27,3 +27,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Archie has gone to Slateport City to steal Captain Stern's Submarine Explorer 1 at Slateport Harbor.
   - The two guards block the hideout stairs until the submarine hijacking event in Slateport City is triggered.
   - Progression requirement: Fly to Slateport City, confront Team Aqua at Slateport Harbor, then return to Lilycove to infiltrate the hideout.
+- Story Barrier Cleared (Verified Turn 15192):
+  - Submarine theft at Slateport Harbor is COMPLETE.
+  - Archie escaped in the submarine back to Lilycove Hideout.
+  - The two guards blocking the hideout stairs at (13..14, 11) are now cleared!
+  - Hideout is ready for full infiltration!

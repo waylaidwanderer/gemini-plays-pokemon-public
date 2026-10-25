@@ -64,3 +64,7 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
   - Captain Stern stands at (12, 13).
   - Waiting area features round tables and chairs at row 11.
   - Submarine dock gate located at cols 6..7, row 9, guarded by two Team Aqua members. Submarine dock is beyond this gate!
+- Submarine Theft Event Resolution (Turn 15192):
+  - Team Aqua Leader Archie and Grunts seized the Submarine Explorer 1 at Slateport Harbor and submerged into the ocean.
+  - Archie taunted May, confirming they are retreating to their HIDEOUT in LILYCOVE CITY to use the submarine to access the Seafloor Cavern.
+  - Event resolved! Team Aqua Hideout in Lilycove City is now unblocked.

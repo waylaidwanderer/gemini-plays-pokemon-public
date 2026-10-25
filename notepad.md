@@ -29,6 +29,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Archie has gone to Slateport City to steal Captain Stern's Submarine Explorer 1 at Slateport Harbor.
   - The two guards block the hideout stairs until the submarine hijacking event in Slateport City is triggered.
   - Progression requirement: Fly to Slateport City, confront Team Aqua at Slateport Harbor, then return to Lilycove to infiltrate the hideout.
+- Story Barrier Cleared (Verified Turn 15192):
+  - Submarine theft at Slateport Harbor is COMPLETE.
+  - Archie escaped in the submarine back to Lilycove Hideout.
+  - The two guards blocking the hideout stairs at (13..14, 11) are now cleared!
+  - Hideout is ready for full infiltration!
+
 
 <hr>
 
@@ -3346,6 +3352,11 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
   - Captain Stern stands at (12, 13).
   - Waiting area features round tables and chairs at row 11.
   - Submarine dock gate located at cols 6..7, row 9, guarded by two Team Aqua members. Submarine dock is beyond this gate!
+- Submarine Theft Event Resolution (Turn 15192):
+  - Team Aqua Leader Archie and Grunts seized the Submarine Explorer 1 at Slateport Harbor and submerged into the ocean.
+  - Archie taunted May, confirming they are retreating to their HIDEOUT in LILYCOVE CITY to use the submarine to access the Seafloor Cavern.
+  - Event resolved! Team Aqua Hideout in Lilycove City is now unblocked.
+
 
 <hr>
 
@@ -3471,7 +3482,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: CONFRONTING ARCHIE AT SLATEPORT HARBOR! Arrived at Slateport Harbor where Captain Stern is being interviewed outside the ferry building. Triggering submarine hijacking cutscene to stop Archie! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95). Fully healed at Slateport Pokémon Center!
+- Status: RETURNING TO LILYCOVE CITY! Submarine theft event resolved at Slateport Harbor. Archie retreated to Lilycove Hideout. Flying back to Lilycove to infiltrate Team Aqua Hideout! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
