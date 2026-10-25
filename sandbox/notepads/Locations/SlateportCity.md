@@ -59,3 +59,8 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
   - Distinctive red/orange striped roof, nautical porthole windows, lifebuoy above entrance doorway at (26..27, 12). Signpost at (24, 12).
   - Captain Stern is being interviewed outside the entrance at (27, 13) by a reporter with a crowd of citizens gathered around him.
   - Approaching and speaking with Captain Stern / interviewers initiates the Team Aqua submarine theft event!
+- Slateport Harbor Interior (Verified Turn 15188):
+  - Entrance mat at (10..11, 14). Player spawns at (11, 14) facing North.
+  - Captain Stern stands at (12, 13).
+  - Waiting area features round tables and chairs at row 11.
+  - Submarine dock gate located at cols 6..7, row 9, guarded by two Team Aqua members. Submarine dock is beyond this gate!
