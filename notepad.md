@@ -42,15 +42,15 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Entrance / Connection: Doorway at (22, 2) on 1F warps to this chamber at (29, 1) facing South. Doorway back to 1F is at (29, 0).
 - Layout:
   - Landing platform at cols 27..31, rows 1..4.
-  - Left Warp Pad: Located at (27, 3), circular white teleporter pad.
-  - Right Warp Pad: Located at (31, 3), circular white teleporter pad.
+  - Left Warp Pad: Located at (27, 4), circular white teleporter pad.
+  - Right Warp Pad: Located at (31, 4), circular white teleporter pad.
   - Southern path extends down to row 5+.
   - Western chamber (cols 20..25) visible behind wall with crates.
 
 ## Systematic Teleporter Warp Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
-| B1F Hub Left (27, 3) | TBD | Testing now |
+| B1F Hub Left (27, 4) | (3, 15) | Teleported to new chamber |
 | B1F Hub Right (31, 3) | TBD | Untested |
 
 
