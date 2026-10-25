@@ -5,8 +5,8 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | CALYPSO | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Wingull ♀ | ZEPHYR | 4 | Active | Caught at `(13, 15)` (`Water Gun`, `Wing Attack`) |
-| Route 102 | Electrike ♂ | RAIJU | 6 | Active | Caught at `(38, 6)` (`ThunderShock`, `Thunder Wave`) |
+| Route 103 | Wingull ♀ | ZEPHYR | 4 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2]) |
+| Route 102 | Electrike ♂ | RAIJU | 6 | Active | Caught at `(38, 6)` (Bashful, `Lightningrod`, `ThunderShock` [Slot 1], `Thunder Wave` [Slot 2]) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
@@ -67,9 +67,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **ZEPHYR** — Wingull ♀ (Lv. 4, `Keen Eye`, Moves: `Water Gun`, `Wing Attack`, `Growl`, `Supersonic`) — Met on Route 103.
-3. **RAIJU** — Electrike ♂ (Lv. 6, Moves: `ThunderShock`, `Thunder Wave`, `Tackle`, `Leer`) — Met on Route 102.
+1. **ZEPHYR** — Wingull ♀ (Lv. 4, `17/17 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `17 HP / 7 Atk / 8 Def / 11 SpA / 8 SpD / 9 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP]) — Met on Route 103.
+2. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+3. **RAIJU** — Electrike ♂ (Lv. 6, `21/21 HP`, Bashful, `Lightningrod`, Stats: `21 HP / 10 Atk / 11 Def / 13 SpA / 11 SpD / 14 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
