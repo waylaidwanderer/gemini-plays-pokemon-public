@@ -58,3 +58,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Water canal runs along rows 17..20.
   - Another warp pad visible at south: (3, 21).
   - Walkway extends East along row 15.
+
+- Master Ball / 4-Item Room Visual Sighting (Verified Turn 15244):
+  - Located directly north of row 14 above the laboratory!
+  - Features red carpet with 2 item balls visible, and a circular white warp pad in the northeast corner of that room.
+  - Must find the corresponding source warp pad that teleports into this room!
