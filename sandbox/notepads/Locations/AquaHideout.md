@@ -30,12 +30,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Southern path extends down to row 5+.
   - Western chamber (cols 20..25) visible behind wall with crates.
 
-- B1F Hub & Generator Room Exploration (Turn 15436):
-  - 1F was exhaustively verified: only ONE entrance to B1F exists at (22, 1).
-  - B1F Hub Left Pad (27, 4) -> Canal Chamber catwalk (dead-end overlook).
-  - B1F Hub Right Pad (31, 4) -> Generator Room at (27, 12).
-  - Generator Room west wall (col 25) verified 100% solid from row 8 down to row 13; no passage into Ship Model Room.
-  - Active Lead: Testing B1F Hub rows 1, 2, and 3 from col 31 heading West into Crate Room (cols 20..25) to access warp pad (20, 4) and Ship Model Room pad (23, 11).
+- B1F Hub & Verified Boundaries (Turn 15451):
+  - 1F is 100% fully verified: contains NO other exits, stairs, or secret passages. The north doorway at (22, 1/2) is the SOLE entrance to B1F.
+  - B1F Hub has two warp pads: Left Pad (27, 4) and Right Pad (31, 4).
+  - Generator Room (reached via Right Pad 31, 4) is a verified dead-end treasure room (Max Elixir at 29, 12). West wall (col 25) is solid pillar from row 8 down to row 13; no passage to Ship Model Room.
+  - Active Lead: In Canal Chamber (reached via Left Pad 27, 4), navigate along catwalk to (15, 15) and test stepping Down into row 16 east of the canal to access the Laboratory floor!
 
 ## Systematic Teleporter Warp Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
