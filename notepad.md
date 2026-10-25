@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | CALYPSO | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | ZEPHYR | 13 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `34 HP / 14 Atk / 14 Def / 24 SpA / 15 SpD / 24 Spd`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2], `Quick Attack` [Slot 3], `BubbleBeam` [Slot 4]) |
-| Route 102 | Electrike ♂ | RAIJU | 11 | Active | Caught at `(38, 6)` (Bashful, `Lightningrod`, `ThunderShock` [Slot 1], `Thunder Wave` [Slot 2], `Quick Attack` [Slot 3]) |
+| Route 102 | Electrike ♂ | RAIJU | 11 | Deceased | Caught at `(38, 6)` — Fainted Turn 1540 vs Lady Cindy's `Lv. 7 Azurill` (`Huge Power` + Physical `Uproar`) |
 | Route 104 (South) | Cubone ♂ | ATLAS | 7 | Active | Caught at `(23, 61)` (Mild, `Lightningrod`, `Bone Club` [Slot 1], `Rock Throw` [Slot 2]) |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
@@ -199,6 +199,12 @@
 - **Tactical Rules for Attempt #9:**
   1. **Immediately `RUN` (`Down, Right, A`) From Wild `Weedle` (`Poison Sting`) and `Pichu` (`ThunderShock` / `Static`) on Route 101:** Never trade hits with `Weedle` or `Pichu` during early Route 101 grinding.
   2. **Two-Call Pokémon Center Door Warp Rule:** Always separate stepping onto the Pokémon Center door `(6, 16)` (`tools.press_buttons([..., "Up"])`) from the interior healing sequence (`tools.press_buttons(["B", "sleep 1500", "Up", "Up", "Up", "Up", "Up", ...])`), and verify `HP == max_HP` before walking back into tall grass.
+
+---
+
+## Attempt #9 Casualties (Starting Turn 1225)
+- **RAIJU** (Electrike ♂, Lv. 11, `31 HP`, Bashful, `Lightningrod`) — Died on Turn 1540 on Route 104 South `(10, 40)` against Lady Cindy's `Lv. 7 Azurill` (`Uproar`).
+  - **Root Cause & Tactical Lesson:** In Generation 3, **ALL Normal-type moves (including `Uproar`, `Hyper Voice`, and `Swift`) are Physical**, and Lady Cindy's `Lv. 7 Azurill` is pure Normal-type (so it is NOT weak to Electric `ThunderShock`, unlike Water-type `Marill`) and can have **`Huge Power` (`2x Attack`)**, causing STAB `Uproar` (50 BP) to deal `23 HP` per hit (`31 -> 8 -> 0/31 HP`). Always use a fast high-power STAB sweeper (`ZEPHYR`'s 65-BP `BubbleBeam` or `CALYPSO`'s `Water Gun`) against `Azurill`, and remember that `Azurill` is Normal-type, not Water-type!
 
 <hr>
 
