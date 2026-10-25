@@ -1,16 +1,16 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #9)
+# Route & Area Encounters (Attempt #10)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | CALYPSO | 14 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
-| Route 103 | Wingull ♀ | ZEPHYR | 15 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `38 HP / 15 Atk / 16 Def / 26 SpA / 16 SpD / 27 Spd`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2], `Quick Attack` [Slot 3], `BubbleBeam` [Slot 4]) |
-| Route 102 | Electrike ♂ | RAIJU | 11 | Deceased | Caught at `(38, 6)` — Fainted Turn 1540 vs Lady Cindy's `Lv. 7 Azurill` (`Huge Power` + Physical `Uproar`) |
-| Route 104 (South) | Cubone ♂ | ATLAS | 8 | Active | Caught at `(23, 61)` (Mild, `Lightningrod`, `27 HP / 13 Atk / 18 Def / 13 SpA / 14 SpD / 10 Spd`, `Bone Club` [Slot 1], `Rock Throw` [Slot 2]) |
-| Petalburg Woods | Teddiursa ♂ | ARCTURUS | 8 | Active | Caught at `(23, 35)` (Sassy, `Guts`, `27 HP / 18 Atk / 14 Def / 15 SpA / 16 SpD / 10 Spd`, `Scratch` [Slot 1], `Lick` [Slot 2], `Faint Attack` [Slot 3]) |
-| Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
-| Rusturf Tunnel | TBD | TBD | - | Pending | Open encounter east of Route 116 |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
+| Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
+| Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
+| Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
+| Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
+| Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
 
 <hr>
 
@@ -21,7 +21,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #9
+- **Attempt:** #10
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -210,6 +210,13 @@
 ## Attempt #9 Casualties (Starting Turn 1225)
 - **RAIJU** (Electrike ♂, Lv. 11, `31 HP`, Bashful, `Lightningrod`) — Died on Turn 1540 on Route 104 South `(10, 40)` against Lady Cindy's `Lv. 7 Azurill` (`Uproar`).
   - **Root Cause & Tactical Lesson:** In Generation 3, **ALL Normal-type moves (including `Uproar`, `Hyper Voice`, and `Swift`) are Physical**, and Lady Cindy's `Lv. 7 Azurill` is pure Normal-type (so it is NOT weak to Electric `ThunderShock`, unlike Water-type `Marill`) and can have **`Huge Power` (`2x Attack`)**, causing STAB `Uproar` (50 BP) to deal `23 HP` per hit (`31 -> 8 -> 0/31 HP`). Always use a fast high-power STAB sweeper (`ZEPHYR`'s 65-BP `BubbleBeam` or `CALYPSO`'s `Water Gun`) against `Azurill`, and remember that `Azurill` is Normal-type, not Water-type!
+- **ZEPHYR** (Wingull ♀, Lv. 15, Quiet), **ARCTURUS** (Teddiursa ♂, Lv. 8, Sassy), **CALYPSO** (Mudkip ♀, Lv. 14), & **ATLAS** (Cubone ♂, Lv. 8, Mild) — Died on Turns 1638–1644 on Route 104 North `(24, 8)` against **PKMN Trainer Red**'s `Lv. 9 Pikachu` (`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry` [+30 HP], custom boosted stats `~36 HP` / `~21 Spd`) — **TOTAL PARTY WIPEOUT (Attempt #9 Over)**.
+- **Root Causes of Attempt #9 Wipe:**
+  1. **Didn't Set Up `Mud Sport` (`Down, Left`) Against Red's Passive Lead `Lv. 9 Eevee` (`Curse`):** Red's lead `Lv. 9 Eevee` used `Curse` 4 turns in a row for 0 damage. In Gen 3, `Mud Sport` (`STATUS3_MUDSPORT`) persists on `Mudkip` across enemy KOs as long as `Mudkip` stays on the field. Had `CALYPSO` used `Mud Sport` on Turn 1 against `Eevee` before 4HKOing `Eevee` with `Water Gun`, `CALYPSO` would have faced `Lv. 9 Pikachu` at `40/40 HP` with `Mud Sport` ALREADY active (halving `Shock Wave` from `23` to `11 damage`)!
+  2. **Entered PKMN Trainer Red `(29, 8)` with Two Untrained `Lv. 8` Teammates (`ATLAS` at `13/27 HP` Unhealed, `ARCTURUS` at `Lv. 8`) and Unused `Oran Berries` in the Bag:** We had 2 `Oran Berries` in the Bag that we never equipped on `CALYPSO` or `ATLAS`, left `ATLAS` at `13/27 HP`, and left both `ATLAS` and `ARCTURUS` at Level 8 instead of training our 3rd and 4th teammates to Level 13–14 before crossing the Route 104 North bridge.
+- **Tactical Rules for Attempt #10:**
+  1. **Train 3–4 Party Members to Level 13–14 Before Route 104 North:** Never challenge Route 104 North (`PKMN Trainer Red` at `(29, 8)` has 6 Lv. 9 Pokémon holding `Sitrus Berries`) with Lv. 8 filler teammates. Train `Mudkip` to **Lv. 14–15** AND train at least **2–3 caught teammates to Lv. 13–14** before crossing the Route 104 North bridge.
+  2. **Heal to 100% HP, Equip `Oran Berries`, and Use `Mud Sport` on Turn 1 vs Red's Lead `Lv. 9 Eevee`:** Before stepping onto `(24, 8)`, heal all party members to 100% HP and equip `Oran Berries` from `(3, 23)`. On Turn 1 vs `PKMN Trainer Red`'s lead `Lv. 9 Eevee` (`Curse`), use **`Mud Sport` (Slot 3: `Down, Left`)** on `Mudkip` BEFORE knocking out `Eevee` with `Water Gun` so `Mud Sport` is already active when `Lv. 9 Pikachu` (`Shock Wave`, `Surf`, `Thunder Wave`, `Sitrus Berry`) is sent out!
 
 <hr>
 
