@@ -41,9 +41,10 @@
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat` — all OHKO'd by `ZEPHYR`'s `Wing Attack`).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada` [`Giga Drain`, `Scratch`; Base 90 Def vs Base 30 SpD — OHKO'd by `ZEPHYR`'s `BubbleBeam`]).
   3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock` — 2HKO'd by `Lv. 13 CALYPSO`'s `Mud Sport` + `Water Gun`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief` — steals held Berries!], `Lv. 9 Houndour` [`Ember`, `Pursuit` — punishes switches!], `Lv. 8 Bagon` [`Headbutt` — 2HKO'd by `Lv. 15 ZEPHYR`'s `BubbleBeam`], and `Lv. 8 Duskull` [`Protect`, `Night Shade`]).
-- **Route 104 (North) Trainers (Verified Turns 1601–1614):**
+- **Route 104 (North) Trainers (Verified Turns 1601–1617):**
   1. **Rich Boy Winston `(21, 26)`:** Faces `Up` across `(21, 25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, holds `Oran Berry`]).
   2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`], `Lv. 9 Vulpix` [`Confuse Ray`]).
+  3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge; have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` and `Lv. 8 Smeargle ♂`).
 - **Level 15 Cap Preservation Rule for `ZEPHYR` (Roxanne Cap = Lv. 15, Verified Turn 1615):**
   - `ZEPHYR` (`Lv. 15`) is at **~85% of Level 15 (`~110 EXP` below Level 16)**. Do **NOT** send `ZEPHYR` into any trainer or wild battles before Gym Leader Roxanne so `ZEPHYR` stays at **Level 15** and remains 100% legal to use against Roxanne!
   - Use **`CALYPSO` (Lv. 14)**, **`ATLAS` (Lv. 8)**, **`ARCTURUS` (Lv. 8)**, and our upcoming **Route 116** and **Rusturf Tunnel** encounters for all remaining pre-Roxanne trainers.
