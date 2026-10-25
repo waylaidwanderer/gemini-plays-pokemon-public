@@ -67,9 +67,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ZEPHYR** — Wingull ♀ (Lv. 15, `38/38 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `38 HP / 15 Atk / 16 Def / 26 SpA / 16 SpD / 27 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
-2. **CALYPSO** — Mudkip ♀ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 20 SpA / 16 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-3. **ATLAS** — Cubone ♂ (Lv. 7, `25/25 HP`, Mild [`+SpA / -Def`], `Lightningrod`, Stats: `25 HP / 12 Atk / 17 Def / 12 SpA / 13 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
+1. **ATLAS** — Cubone ♂ (Lv. 7, `25/25 HP`, Mild [`+SpA / -Def`], `Lightningrod`, Stats: `25 HP / 12 Atk / 17 Def / 12 SpA / 13 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], Holds: `Oran Berry`) — Met on Route 104 South.
+2. **CALYPSO** — Mudkip ♀ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 20 SpA / 16 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Oran Berry`) — Met on Route 101 (Starter).
+3. **ZEPHYR** — Wingull ♀ (Lv. 15, `38/38 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `38 HP / 15 Atk / 16 Def / 26 SpA / 16 SpD / 27 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP], Holds: `Pecha Berry`) — Met on Route 103.
 4. **ARCTURUS** — Teddiursa ♂ (Lv. 8, `27/27 HP`, Sassy [`+SpD / -Spd`], `Guts`, Stats: `27 HP / 18 Atk / 14 Def / 15 SpA / 16 SpD / 10 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Lick` [Slot 2: `Up, Right`, 30 PP], `Faint Attack` [Slot 3: `Down, Left`, 20 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
