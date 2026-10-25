@@ -43,7 +43,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | B1F Hub Left (27, 4) | (3, 15) | Canal Chamber catwalk. East walkway (row 15) leads to (16, 15) dead-end overlook into Laboratory (blocked by furniture/beaker). |
 | B1F Hub Right (31, 4) | (27, 12) | B1F Generator Room (Max Elixir collected at 29, 12) |
 | B1F Generator Room (27, 12) | (31, 4) | Return pad to B1F Hub |
-| Canal Chamber South (3, 21) | UNVISITED | Isolated south of water canal; not reachable from north catwalk |
+| Canal Chamber South (3, 20) | (45, 3) | Connects to Warp Maze Junction 1 |
+| Warp Maze Junction 1 (45, 3) | (3, 20) | Return pad to Canal Chamber South |
 | Eastern Laboratory (32, 19) | (20, 4) | Crate Room |
 | Crate Room (20, 4) | (32, 19) | Return pad to Eastern Laboratory |
 | Machinery Chamber East (17, 13) | (12, 13) | Western Machinery Chamber |
