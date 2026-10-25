@@ -51,7 +51,7 @@
 ## Active Party
 1. **RAIJU** — Electrike ♂ (Lv. 11, `31/31 HP`, Bashful, `Lightningrod`, Stats: `31 HP / 15 Atk / 16 Def / 20 SpA / 17 SpD / 22 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP]) — Met on Route 102.
 2. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Oran Berry`) — Met on Route 101 (Starter).
-3. **ZEPHYR** — Wingull ♀ (Lv. 12, `32/32 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `32 HP / 13 Atk / 14 Def / 22 SpA / 14 SpD / 22 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], Holds: `Oran Berry`) — Met on Route 103.
+3. **ZEPHYR** — Wingull ♀ (Lv. 13, `34/34 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `34 HP / 14 Atk / 14 Def / 24 SpA / 15 SpD / 24 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
 4. **ATLAS** — Cubone ♂ (Lv. 7, `25/25 HP`, Mild [`+SpA / -Def`], `Lightningrod`, Stats: `25 HP / 12 Atk / 17 Def / 12 SpA / 13 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
 
 ## Notepad Index
