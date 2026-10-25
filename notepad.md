@@ -33,7 +33,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Warp Maze Tier 2 Left (42, 9) | (48, 5) | Warps to Tier 1 Right Pad. |
 | Warp Maze Tier 3 Center (45, 13) | (45, 9) | Return pad to Tier 2 Center Pad. |
 | Warp Maze Tier 3 Left (42, 13) | (48, 17) | Warps to Tier 4 Right Pad. |
-| Warp Maze Tier 3 Right (48, 13) | (45, 17) / NEXT | Prime forward progression candidate! (Testing Turn 15631). |
+| Warp Maze Tier 3 Right (48, 13) | (45, 3) | Reset loop to Tier 1 Arrival Pad. |
 | Warp Maze Tier 4 Right (48, 17) | (42, 13) | Return pad to Tier 3 Left Pad. |
 | Warp Maze Tier 4 Center (45, 17) | (45, 9) | Loops back to Tier 2 Center Pad. |
 | Warp Maze Tier 4 Left (42, 17) | UNTESTED | Bottom tier west pad. |
@@ -85,7 +85,6 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Tier 1 Center (45, 5) -> Tier 1 Arrival (45, 3).
 - Active Exploration Route:
   - From Tier 3 Center (45, 13), the Right Pad at (48, 13) is the prime branching candidate (Sequence: Tier 1 Left -> Tier 2 Center -> Tier 3 Right).
-
 
 <hr>
 
