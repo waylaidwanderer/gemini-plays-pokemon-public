@@ -41,8 +41,9 @@
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat` — all OHKO'd by `ZEPHYR`'s `Wing Attack`).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada` [`Giga Drain`, `Scratch`; Base 90 Def vs Base 30 SpD — OHKO'd by `ZEPHYR`'s `BubbleBeam`]).
   3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock` — 2HKO'd by `Lv. 13 CALYPSO`'s `Mud Sport` + `Water Gun`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief` — steals held Berries!], `Lv. 9 Houndour` [`Ember`, `Pursuit` — punishes switches!], `Lv. 8 Bagon` [`Headbutt` — 2HKO'd by `Lv. 15 ZEPHYR`'s `BubbleBeam`], and `Lv. 8 Duskull` [`Protect`, `Night Shade`]).
-- **Route 104 (North) Trainers (Verified Turns 1601–1606):**
+- **Route 104 (North) Trainers (Verified Turns 1601–1614):**
   1. **Rich Boy Winston `(21, 26)`:** Faces `Up` across `(21, 25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, holds `Oran Berry`]).
+  2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`], `Lv. 9 Vulpix` [`Confuse Ray`]).
 - **Level 15 Cap & Team Magma Grunt Strategy (Roxanne Cap = Lv. 15):**
   - Train **BOTH `Mudkip` AND our Secondary Sweeper to Lv. 13–14** before fighting the Petalburg Woods Team Magma Grunt `(26, 23)` (`Lv. 8 Magnemite`, `Lv. 8 Koffing`, `Lv. 9 Houndour`, + 4th).
   - Lead with **Lv. 13–14 `Mudkip`** (`Mud Sport` + `Water Gun`) against `Lv. 8 Magnemite`, equip a **`Pecha Berry`** on our `Koffing` answer so `Toxic` is immediately cured on Turn 1 (denying `Thief` on Turn 2), and **never switch out against `Lv. 9 Houndour` (`Pursuit`)**—use Lv. 13–14 `Mudkip` (`Water Gun` OHKO) or a full-HP physical sweeper (`Secret Power` OHKO).
