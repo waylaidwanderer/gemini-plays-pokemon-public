@@ -134,3 +134,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - South Canal Teleporter Destination:
   - Source Pad: Canal Chamber South at (3, 20).
   - Destination: Position (45, 3) in the deep Warp Maze facility!
+## Warp Maze - Junction 1 (Discovered Turn 15598)
+- Coordinates: cols 41..49, rows 1..7.
+- Arrival Pad: (45, 3) - Two-way return pad to South Canal Chamber (3, 20).
+- Row 5 Warp Pads:
+  - Left Pad: (43, 5) - Testing on Turn 15599.
+  - Center Pad: (45, 5) - Untested.
+  - Right Pad: (47, 5) - Untested.
+- South boundary: Railing at row 6 overlooking water canal.
+- East/West boundaries: Crates at cols 41..42 and 48..49.
