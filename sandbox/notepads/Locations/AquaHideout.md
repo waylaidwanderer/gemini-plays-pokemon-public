@@ -30,11 +30,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Southern path extends down to row 5+.
   - Western chamber (cols 20..25) visible behind wall with crates.
 
-- B1F Hub Exhaustive Verification (Turn 15323):
-  - Row 6 is solid wall across cols 26..31 (tested and verified). No southern exit on foot.
-  - Left Pad (27, 4) -> (3, 15) [Canal Chamber north catwalk, 100% verified dead-end overlook].
-  - Right Pad (31, 4) -> (27, 12) [Generator Room, 100% verified dead-end item room with Max Elixir].
-  - Conclusion: B1F Hub has NO other exits or warps. The rest of B1F (Ship Model Room, Western Sector, Laboratory, Master Ball Room) MUST be accessed from a different entrance on 1F!
+- B1F Hub & Generator Room Exploration (Turn 15426):
+  - 1F was exhaustively verified: only ONE entrance to B1F exists at (22, 1).
+  - B1F Hub Left Pad (27, 4) -> Canal Chamber catwalk (dead-end overlook).
+  - B1F Hub Right Pad (31, 4) -> Generator Room at (27, 12).
+  - Generator Room col 26 is walkable along rows 8..9 directly adjacent to Ship Model Room (display table at 23, 8 and warp pad at row 11).
+  - Active Lead: Test moving Left (West) from (26, 8..9) in Generator Room into the Ship Model Room!
 
 ## Systematic Teleporter Warp Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
