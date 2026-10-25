@@ -32,3 +32,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Archie escaped in the submarine back to Lilycove Hideout.
   - The two guards blocking the hideout stairs at (13..14, 11) are now cleared!
   - Hideout is ready for full infiltration!
+
+- 1F Central Pool & Facility Floor (Verified Turn 15224):
+  - Guard post at (13..14, 11) is completely CLEARED! Player walks freely through railing gap into the main facility.
+  - A large indoor water tank / pool surrounded by grey railings is located at cols 10..18, rows 4..8.
+  - Team Aqua Grunt #1 stationed at (16, 9) facing West along the southern walkway of the pool, challenges May upon entry.
