@@ -109,4 +109,4 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - (15, 9) [Top-Left]: MASTER BALL (Collected!)
   - (16, 9) [Top-Right]: Electrode 1 (Defeated Turn 15685)
   - (16, 10) [Bottom-Right]: Electrode 2 (Battling Turn 15693)
-  - (15, 10) [Bottom-Left]: NUGGET (Verified by elimination!)
+  - (15, 10) [Bottom-Left]: NUGGET (COLLECTED on Turn 15701!)
