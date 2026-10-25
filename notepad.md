@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♀ | CALYPSO | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | ZEPHYR | 12 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2], `Quick Attack` [Slot 3]) |
 | Route 102 | Electrike ♂ | RAIJU | 10 | Active | Caught at `(38, 6)` (Bashful, `Lightningrod`, `ThunderShock` [Slot 1], `Thunder Wave` [Slot 2], `Quick Attack` [Slot 3]) |
-| Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
+| Route 104 (South) | Cubone ♂ | ATLAS | 7 | Active | Caught at `(23, 61)` |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open encounter east of Route 116 |
@@ -67,9 +67,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ZEPHYR** — Wingull ♀ (Lv. 12, `32/32 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `32 HP / 13 Atk / 14 Def / 22 SpA / 14 SpD / 22 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], Holds: `Oran Berry`) — Met on Route 103.
+1. **RAIJU** — Electrike ♂ (Lv. 10, `29/29 HP`, Bashful, `Lightningrod`, Stats: `29 HP / 14 Atk / 15 Def / 19 SpA / 16 SpD / 20 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP]) — Met on Route 102.
 2. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Oran Berry`) — Met on Route 101 (Starter).
-3. **RAIJU** — Electrike ♂ (Lv. 10, `29/29 HP`, Bashful, `Lightningrod`, Stats: `29 HP / 14 Atk / 15 Def / 19 SpA / 16 SpD / 20 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP]) — Met on Route 102.
+3. **ZEPHYR** — Wingull ♀ (Lv. 12, `32/32 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `32 HP / 13 Atk / 14 Def / 22 SpA / 14 SpD / 22 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], Holds: `Oran Berry`) — Met on Route 103.
+4. **ATLAS** — Cubone ♂ (Lv. 7, Ground, Moves: `Bone Club`, `Headbutt`, `Growl`, `Tail Whip`) — Met on Route 104 South.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
