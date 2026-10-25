@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: INFILTRATING TEAM AQUA HIDEOUT! Arrived in Lilycove cove with fully healed party. Surfing into the hideout to recover the Master Ball and defeat the Aqua Admin! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95).
+- Status: INFILTRATING TEAM AQUA HIDEOUT! Reached the Warp Pad Maze in Team Aqua Hideout! Navigating teleporters to locate the Master Ball and confront the Aqua Admin! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
