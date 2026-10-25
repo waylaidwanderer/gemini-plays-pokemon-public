@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | CHARYBDIS | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | .pw' | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `26 HP / 16 Atk / 12 Def / 14 SpA / 12 SpD / 10 Spd`) |
 | Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
@@ -72,7 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **CHARYBDIS** — Mudkip ♂ (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 101 (Starter).
+1. **.pw'** — Mudkip ♂ (Lv. 7, `26/26 HP`, `Torrent`, Stats: `26 HP / 16 Atk / 12 Def / 14 SpA / 12 SpD / 10 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Growl` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
