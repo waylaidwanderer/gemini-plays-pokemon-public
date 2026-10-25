@@ -170,3 +170,18 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Right Pad (48, 17): Arrival pad / return pad to Tier 3 Left Pad.
   - Center Pad (45, 17): Onward forward warp pad (stepping onto it on Turn 15616).
   - Sequence discovered: Tier 1 Left (42, 5) -> Tier 2 Center (45, 9) -> Tier 3 Left (42, 13) -> Tier 4 Center (45, 17)!
+## Warp Maze Graph - Multi-Tier Canal Chamber (Turn 15619 Reflection)
+- Structure: 4 horizontal 1-tile-tall catwalk tiers across cols 41..49:
+  - Tier 1: Row 5 (Junction 1).
+  - Tier 2: Row 9.
+  - Tier 3: Row 13.
+  - Tier 4: Row 17 (Bottom tier, solid south wall).
+- Verified Teleporter Connections:
+  - Junction 1 Left Pad (42, 5) -> Tier 2 Right Pad (48, 9).
+  - Tier 2 Center Pad (45, 9) -> Tier 3 Center Pad (45, 13).
+  - Tier 3 Left Pad (42, 13) -> Tier 4 Right Pad (48, 17).
+  - Tier 4 Center Pad (45, 17) -> Tier 2 Center Pad (45, 9).
+- Key Discovery:
+  - Tier 4 Center Pad loops back to Tier 2 Center Pad (45, 9).
+  - Landing on (45, 9) opens up the western side of Tier 2, granting immediate access to the previously unreachable Tier 2 Left Pad at (42, 9)!
+  - Next test: Walk Left x3 from (45, 9) to enter Tier 2 Left Pad at (42, 9).
