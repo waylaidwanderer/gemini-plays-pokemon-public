@@ -3336,6 +3336,11 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - The Team Aqua Hideout entrance in Lilycove City is blocked by guards until the submarine hijacking in Slateport Harbor is resolved.
 - Objective: Fly to Slateport City, proceed to Slateport Harbor (northeast area), confront Archie and Team Aqua, and witness the submarine theft to unblock the Lilycove hideout.
 
+- Slateport Harbor Building (Verified Turn 15179):
+  - Located in northeast district at rows 10..14, cols 25..30.
+  - Distinctive red/orange striped roof, nautical porthole windows, lifebuoy above entrance doorway at (26..27, 12). Signpost at (24, 12).
+  - Captain Stern is being interviewed outside the entrance at (27, 13) by a reporter with a crowd of citizens gathered around him.
+  - Approaching and speaking with Captain Stern / interviewers initiates the Team Aqua submarine theft event!
 
 <hr>
 
