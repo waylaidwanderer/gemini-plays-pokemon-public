@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | .pw' | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
-| Route 103 | Ledyba ♂ | OBERON | 4 | Active | Caught at `(13, 14)` (Brave [`+Atk / -Spd`], `Swarm`, `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, `Silver Wind` [Slot 1, 5 PP]) |
+| Route 103 | Ledyba ♂ | OBERON | 9 | Active | Caught at `(13, 14)` (Brave [`+Atk / -Spd`], `Swarm`, `28 HP`, `Silver Wind` [Slot 1, 5 PP], `Supersonic` [Slot 2, 20 PP], `Comet Punch` [Slot 3, 15 PP]) |
 | Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Defense Curl` [Slot 2, 40 PP], `Poison Sting` [Slot 3, 35 PP]) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
@@ -72,9 +72,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OBERON** — Ledyba ♂ (Lv. 4, `18/18 HP`, Brave [`+Atk / -Spd`], `Swarm`, Stats: `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP]) — Met on Route 103.
+1. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
-3. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+3. **OBERON** — Ledyba ♂ (Lv. 9, `28/28 HP`, Brave [`+Atk / -Spd`], `Swarm`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP], `Supersonic` [Slot 2: `Up, Right`, 20 PP], `Comet Punch` [Slot 3: `Down, Left`, 15 PP]) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -296,7 +296,7 @@
 - **Overworld Warp & Grass Timing Workarounds (Turns 124–149):**
   - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
   - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
-- **Nickname Prompt Transition (Turns 207, 534):** When catching a **new** Pokédex species, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Do not send an extra `A` after the 4th `A` before directional inputs on the naming grid, or it will type `'A'` as the first character.
+- **Nickname Prompt Transition (Turns 207, 534, 1671, 1798):** When catching a **new** Pokédex species, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Always wait `sleep 3000` after the 4th `A` press so the naming screen fade-in finishes before sending directional/letter inputs, and do not send an extra `A` after the 4th `A` before moving the cursor or it will type `'A'` as the first character.
 - **Route 102 Layout & Trainers (Turns 175–177, 303–314, 529–570, 1095–1110):**
   - Enter Route 102 from Oldale Town `(0, 10)` at `(49, 10)`.
   - Safe northern tall grass patch (away from trainers): `x=37..38, y=3..6` (approach via `(38, 10) -> (38, 7) -> (37, 7) -> (37, 6)`).
