@@ -50,29 +50,32 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 ## Systematic Teleporter Warp Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
-| B1F Hub Left (27, 4) | (3, 15) | Teleported to new chamber |
+| B1F Hub Left (27, 4) | (3, 15) | Canal Chamber catwalk. East walkway (row 15) leads to (16, 15) dead-end overlook into Laboratory (blocked by furniture/beaker). |
 | B1F Hub Right (31, 4) | (27, 12) | B1F Generator Room (Max Elixir collected at 29, 12) |
 | B1F Generator Room (27, 12) | (31, 4) | Return pad to B1F Hub |
+| Canal Chamber South (3, 21) | UNVISITED | Isolated south of water canal; not reachable from north catwalk |
+| Western Sector Pad 1 (20, 4) | UNVISITED | Visible in western sector from B1F Hub |
+| Ship Model Room Pad (row 11) | UNVISITED | Visible in Ship Model Room behind solid divider wall |
+| Master Ball 4-Item Room | UNVISITED | Visible north of row 14! 4 items (Master Ball, Nugget, 2 Electrodes). Contains white warp pad in northeast corner. |
+
+## 1F Exploration Lead (Primary Route)
+- Unexplored Southeastern Corridor: On 1F, east of (14, 9) where Grunt #1 was defeated, there is an unexplored corridor heading southeast. Must explore this to find further stairs/warps!
 
 ## B1F Canal Chamber (Arrived Turn 15243)
-- Connection: Reached via B1F Hub Left pad (27, 4). Return warp pad is at (3, 16) directly below player spawn (3, 15).
+- Connection: Reached via B1F Hub Left pad (27, 4). Return warp pad is at (3, 15).
 - Layout:
-  - North wall at row 14; chamber above contains an item ball near (7, 11).
-  - Water canal runs along rows 17..20.
-  - Another warp pad visible at south: (3, 21).
-  - Walkway extends East along row 15.
+  - North wall at row 14; chamber above contains an item ball near (7, 11) and 4-Item Master Ball Room (cols 14..20, rows 9..13).
+  - Catwalk extends east along row 15 (cols 3..16) above water canal (rows 17..20).
+  - Row 15 dead-ends at (16, 15), blocked by blue beaker pedestal (16, 16), whiteboard (17, 15), and wall (row 14). Laboratory floor cannot be entered from catwalk.
+  - Another warp pad visible at south: (3, 21) across the canal.
 
-- Master Ball / 4-Item Room Visual Sighting (Verified Turn 15244):
-  - Located directly north of row 14 above the laboratory!
-  - Features red carpet with 2 item balls visible, and a circular white warp pad in the northeast corner of that room.
-  - Must find the corresponding source warp pad that teleports into this room!
 ## B1F Generator Room (Discovered Turn 15249)
 - Connection: Reached via B1F Hub Right pad (31, 4). Return warp pad is at (27, 12).
 - Items: Collected MAX ELIXIR at (29, 12)!
 - Features: Subterranean generator machinery at north (cols 30..33, rows 8..11). Dead-end treasure room.
 
 ## B1F Ship Model Room (Discovered Turn 15251)
-- Connection: Reached from B1F Hub via western corridor (row 5 west to col 23, then south through rows 6..10).
+- Connection: Observed from B1F Hub through dividing wall (row 5 is blocked by solid wall at col 25; room cannot be entered from row 5).
 - Features:
   - Cruise ship model on display table at (23, 8).
   - Black sofa / seating area.
