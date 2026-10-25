@@ -24,11 +24,6 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - 1F North Dock & Guard Post (cols 13..14, rows 11..12):
   - White stone/metal stairs at (13..14, 12) lead up from the water onto the metal facility floor.
   - Two Team Aqua Grunts stand guard at (13, 11) and (14, 11) facing South, blocking the railing gap.
-- Story Barrier / Prerequisite (Verified Turn 15132):
-  - Grunt dialogue: "Our BOSS isn't here! He's gone off to jack a submarine!... Where did he go?..."
-  - Archie has gone to Slateport City to steal Captain Stern's Submarine Explorer 1 at Slateport Harbor.
-  - The two guards block the hideout stairs until the submarine hijacking event in Slateport City is triggered.
-  - Progression requirement: Fly to Slateport City, confront Team Aqua at Slateport Harbor, then return to Lilycove to infiltrate the hideout.
 - Story Barrier Cleared (Verified Turn 15192):
   - Submarine theft at Slateport Harbor is COMPLETE.
   - Archie escaped in the submarine back to Lilycove Hideout.
@@ -51,6 +46,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Right Warp Pad: Located at (31, 3), circular white teleporter pad.
   - Southern path extends down to row 5+.
   - Western chamber (cols 20..25) visible behind wall with crates.
+
+## Systematic Teleporter Warp Map
+| Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
+| :--- | :--- | :--- |
+| B1F Hub Left (27, 3) | TBD | Testing now |
+| B1F Hub Right (31, 3) | TBD | Untested |
 
 
 <hr>
@@ -3534,7 +3535,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥16,665
+- Money: ¥17,305
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
