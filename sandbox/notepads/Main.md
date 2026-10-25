@@ -56,7 +56,7 @@
 ## Active Party
 1. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
-3. **OBERON** — Ledyba ♂ (Lv. 9, `28/28 HP`, Brave [`+Atk / -Spd`], `Swarm`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP], `Supersonic` [Slot 2: `Up, Right`, 20 PP], `Comet Punch` [Slot 3: `Down, Left`, 15 PP]) — Met on Route 103.
+3. **OBERON** — Ledyba ♂ (Lv. 4, `18/18 HP`, Brave [`+Atk / -Spd`], `Swarm`, Stats: `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP]) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
