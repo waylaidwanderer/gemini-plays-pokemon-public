@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♂ | CHARYBDIS | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
@@ -72,10 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **CALYPSO** — Mudkip ♀ (Lv. 14, `40/40 HP`, `Torrent`, Stats: `40 HP / 29 Atk / 21 Def / 22 SpA / 17 SpD / 19 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Cheri Berry`) — Met on Route 101 (Starter).
-2. **ATLAS** — Cubone ♂ (Lv. 8, `27/27 HP`, Mild [`+SpA / -Def`], `Lightningrod`, Stats: `27 HP / 13 Atk / 18 Def / 13 SpA / 14 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], Holds: `Pecha Berry`) — Met on Route 104 South.
-3. **ZEPHYR** — Wingull ♀ (Lv. 15, `38/38 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `38 HP / 15 Atk / 16 Def / 26 SpA / 16 SpD / 27 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP], Holds: `Pecha Berry`) — Met on Route 103.
-4. **ARCTURUS** — Teddiursa ♂ (Lv. 8, `27/27 HP`, Sassy [`+SpD / -Spd`], `Guts`, Stats: `27 HP / 18 Atk / 14 Def / 15 SpA / 16 SpD / 10 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Lick` [Slot 2: `Up, Right`, 30 PP], `Faint Attack` [Slot 3: `Down, Left`, 20 PP], Holds: `Cheri Berry`) — Met in Petalburg Woods.
+1. **CHARYBDIS** — Mudkip ♂ (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
