@@ -103,3 +103,15 @@
 - **Tactical Rules for Attempt #8:**
   1. **Always Use `Bubble` (`Up, Right`, 20 BP) to Weaken Wild Encounters:** Never use `Water Gun` (40 BP) on a full-HP wild Pokémon so a `1/16` crit cannot KO our Nuzlocke encounter.
   2. **Skip Optional Lass Tiana `(15, 5)` Unless We Have a Flying/Bug/Poison Sweeper:** After harvesting the Route 102 Berries at `(24, 2)` and `(25, 2)`, walk `Down` 1 to `(25, 4)` and `Left` 12 along `y=4` to `(13, 4)` to fight **Bug Catcher Allen `(13, 2)`** and enter **Petalburg City** (unlocking Route 104 South and Petalburg Woods encounters!) without talking to Lass Tiana unless we caught a Flying/Bug/Poison counter (`Spearow`, `Wingull`, `Hoothoot`, `Gulpin`, `Ledyba`).
+
+---
+
+## Attempt #8 Wipe Post-Mortem (Turn 1224 — Oldale Town / Route 101)
+- **Casualties:**
+  - **ALEVIATHAN** (Mudkip ♂, Lv. 6, `22 HP`) — Fainted on Turn 1222 inside the Oldale Town Pokémon Center `(7, 5)` to overworld Poison (`PSN`) ticks (`1/22 -> 0/22 HP`) after being poisoned by a wild `Lv. 3 Weedle` (`Poison Sting`) on northern Route 101 — **TOTAL PARTY WIPEOUT (Attempt #8 Over)**.
+- **Root Causes of Attempt #8 Wipe:**
+  1. **Battling Wild `Weedle` (`Poison Sting`) Instead of Running:** On northern Route 101, `route101_trainer` stayed in for 3 turns against a wild `Lv. 3 Weedle`, getting inflicted with `PSN` at `11/22 HP`.
+  2. **Single-Call Door Warp Desync in Subagent Healing Script:** When entering the Oldale Pokémon Center door `(6, 16)`, `route101_trainer` passed `["Up", "sleep 2000", "Up", "Up", "Up", "Up"]` in a single `press_buttons` call. Because `press_buttons` aborts the entire list as soon as the door warp triggers on the first `"Up"`, the `"sleep 2000"` and interior `"Up"` steps were skipped, and the subsequent call walked back out the door unhealed and took 7 overworld poison ticks walking back to Route 101 (`11 -> 4 -> 0/22 HP`).
+- **Tactical Rules for Attempt #9:**
+  1. **Immediately `RUN` (`Down, Right, A`) From Wild `Weedle` (`Poison Sting`) and `Pichu` (`ThunderShock` / `Static`) on Route 101:** Never trade hits with `Weedle` or `Pichu` during early Route 101 grinding.
+  2. **Two-Call Pokémon Center Door Warp Rule:** Always separate stepping onto the Pokémon Center door `(6, 16)` (`tools.press_buttons([..., "Up"])`) from the interior healing sequence (`tools.press_buttons(["B", "sleep 1500", "Up", "Up", "Up", "Up", "Up", ...])`), and verify `HP == max_HP` before walking back into tall grass.
