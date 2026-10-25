@@ -131,6 +131,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Vending machines/cabinets located along row 13 at cols 9..11 (walkable in front or below).
   - At western end (cols 3..6), the path opens North into the Dormitory (bunk beds, warp pad at 5, 9) and the central Warp Maze Room (warp pad at 8, 9 and item ball).
   - Debunked: The Crate Room does NOT contain a Doorway 2. All western/northern rooms are accessed via the western catwalk opening!
+## South Canal Teleporter & Warp Maze Entrance (Turn 15597)
+- Breakthrough: The southern metal-grate walkway below the canal pool (rows 21..22) connects the Laboratory floor (col 19) directly West across cols 18..3 to the South Canal Chamber teleporter pad at (3, 20)!
+- South Canal Teleporter Destination:
+  - Source Pad: Canal Chamber South at (3, 20).
+  - Destination: Position (45, 3) in the deep Warp Maze facility!
 
 <hr>
 
