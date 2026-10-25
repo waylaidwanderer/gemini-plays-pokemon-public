@@ -37,3 +37,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Guard post at (13..14, 11) is completely CLEARED! Player walks freely through railing gap into the main facility.
   - A large indoor water tank / pool surrounded by grey railings is located at cols 10..18, rows 4..8.
   - Team Aqua Grunt #1 stationed at (16, 9) facing West along the southern walkway of the pool, challenges May upon entry.
+- 1F Northern Corridor & Exit Doorway (Verified Turn 15236):
+  - Row 4 connects west and east across the top of the central pool (cols 5..20).
+  - Reinforced metal doorway located at cols 22..23, row 3 on the north wall, approached from (22..23, 4) stepping North. Leads deeper into the facility!
+  - Crane hook at (25, 2), orange crates at cols 26..27.
