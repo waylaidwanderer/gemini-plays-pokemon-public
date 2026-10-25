@@ -91,6 +91,20 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
     4. Tier 3 Left Pad (42, 13) -> Warps to Tier 4 Right Pad (48, 17).
     5. Tier 4 Navigation: From (48, 17), bypass the Center Pad (45, 17) via row 18 to reach the untested Tier 4 Left Pad at (42, 17)!
   - Tier 4 Left Pad (42, 17) is the verified path to the Master Ball 4-item room!
+## Archie's Office & Master Ball Room Discoveries (Turn 15684)
+- Exact Coordinates of Archie's Office (Master Ball Room):
+  - Return warp pad: (23, 10) (two-way return to Warp Maze Tier 4 Left Pad at 42, 17).
+  - Cruise ship display table: cols 23..24, rows 7..8.
+  - Black armchair: col 21, rows 9..10.
+  - Executive desk: cols 17..19, rows 7..9.
+  - Aquariums: cols 15..16, rows 7..8.
+  - 4 Item Balls on red carpet:
+    - (15, 9): Top-Left
+    - (16, 9): Top-Right (Encountered wild Electrode Lv 30 on Turn 15683)
+    - (15, 10): Bottom-Left
+    - (16, 10): Bottom-Right
+- Row 11 is the main horizontal thoroughfare south of the desk and couch (cols 15..23).
+- Once Electrode is cleared, the remaining items (including Master Ball!) can be collected directly.
 
 <hr>
 
