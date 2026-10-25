@@ -3337,10 +3337,6 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 - Archie Encounter & Delivery: Archie confronted May on 2F, proclaimed Team Aqua's ideals, warned May not to interfere, and ordered a retreat. Captain Stern received the Devon Goods, concluding the delivery!
 - Scott Encounter: Upon exiting the Oceanic Museum, Scott greeted May, recognized her victory over Team Aqua, and registered himself in Match Call in the PokéNav. Scott then departed to the west.
 - Battle Tent Encounter: Scott greeted May outside the Battle Tent at (10, 13), praised her potential, encouraged challenging the Battle Tent, and walked east.
-## Active Story Event - Team Aqua Submarine Theft (Discovered Turn 15132)
-- Intel from Aqua Hideout Guards: Team Aqua Leader Archie has gone to Slateport Harbor in Slateport City to hijack Captain Stern's Submarine Explorer 1.
-- The Team Aqua Hideout entrance in Lilycove City is blocked by guards until the submarine hijacking in Slateport Harbor is resolved.
-- Objective: Fly to Slateport City, proceed to Slateport Harbor (northeast area), confront Archie and Team Aqua, and witness the submarine theft to unblock the Lilycove hideout.
 
 - Slateport Harbor Building (Verified Turn 15179):
   - Located in northeast district at rows 10..14, cols 25..30.
@@ -3482,7 +3478,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: RETURNING TO LILYCOVE CITY! Submarine theft event resolved at Slateport Harbor. Archie retreated to Lilycove Hideout. Flying back to Lilycove to infiltrate Team Aqua Hideout! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95).
+- Status: INFILTRATING TEAM AQUA HIDEOUT! Arrived in Lilycove cove with fully healed party. Surfing into the hideout to recover the Master Ball and defeat the Aqua Admin! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
