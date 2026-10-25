@@ -105,6 +105,13 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
     - (16, 10): Bottom-Right
 - Row 11 is the main horizontal thoroughfare south of the desk and couch (cols 15..23).
 - Once Electrode is cleared, the remaining items (including Master Ball!) can be collected directly.
+## Master Ball Obtained & Item Layout Finalized (Turn 15693)
+- MASTER BALL COLLECTED from (15, 9) on Turn 15692!
+- Final layout of Archie's Office 4-Item Grid:
+  - (15, 9) [Top-Left]: MASTER BALL (Collected!)
+  - (16, 9) [Top-Right]: Electrode 1 (Defeated Turn 15685)
+  - (16, 10) [Bottom-Right]: Electrode 2 (Battling Turn 15693)
+  - (15, 10) [Bottom-Left]: NUGGET (Verified by elimination!)
 
 <hr>
 
