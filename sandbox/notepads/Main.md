@@ -44,9 +44,9 @@
 - **Route 104 (North) Trainers (Verified Turns 1601–1614):**
   1. **Rich Boy Winston `(21, 26)`:** Faces `Up` across `(21, 25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, holds `Oran Berry`]).
   2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`], `Lv. 9 Vulpix` [`Confuse Ray`]).
-- **Level 15 Cap & Team Magma Grunt Strategy (Roxanne Cap = Lv. 15):**
-  - Train **BOTH `Mudkip` AND our Secondary Sweeper to Lv. 13–14** before fighting the Petalburg Woods Team Magma Grunt `(26, 23)` (`Lv. 8 Magnemite`, `Lv. 8 Koffing`, `Lv. 9 Houndour`, + 4th).
-  - Lead with **Lv. 13–14 `Mudkip`** (`Mud Sport` + `Water Gun`) against `Lv. 8 Magnemite`, equip a **`Pecha Berry`** on our `Koffing` answer so `Toxic` is immediately cured on Turn 1 (denying `Thief` on Turn 2), and **never switch out against `Lv. 9 Houndour` (`Pursuit`)**—use Lv. 13–14 `Mudkip` (`Water Gun` OHKO) or a full-HP physical sweeper (`Secret Power` OHKO).
+- **Level 15 Cap Preservation Rule for `ZEPHYR` (Roxanne Cap = Lv. 15, Verified Turn 1615):**
+  - `ZEPHYR` (`Lv. 15`) is at **~85% of Level 15 (`~110 EXP` below Level 16)**. Do **NOT** send `ZEPHYR` into any trainer or wild battles before Gym Leader Roxanne so `ZEPHYR` stays at **Level 15** and remains 100% legal to use against Roxanne!
+  - Use **`CALYPSO` (Lv. 14)**, **`ATLAS` (Lv. 8)**, **`ARCTURUS` (Lv. 8)**, and our upcoming **Route 116** and **Rusturf Tunnel** encounters for all remaining pre-Roxanne trainers.
 - **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(22, 41)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
