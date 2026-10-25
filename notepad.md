@@ -45,7 +45,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | B1F Hub Right (31, 4) | (27, 12) | B1F Generator Room (Max Elixir collected at 29, 12) |
 | B1F Generator Room (27, 12) | (31, 4) | Return pad to B1F Hub |
 | Canal Chamber South (3, 21) | UNVISITED | Isolated south of water canal; not reachable from north catwalk |
-| Western Sector Pad 1 (20, 4) | UNVISITED | Visible in western sector from B1F Hub |
+| Eastern Laboratory (32, 19) | (20, 4) | Crate Room |
+| Crate Room (20, 4) | (32, 19) | Return pad to Eastern Laboratory |
 | Ship Model Room Pad (row 11) | UNVISITED | Visible in Ship Model Room behind solid divider wall |
 | Master Ball 4-Item Room | UNVISITED | Visible north of row 14! 4 items (Master Ball, Nugget, 2 Electrodes). Contains white warp pad in northeast corner. |
 
