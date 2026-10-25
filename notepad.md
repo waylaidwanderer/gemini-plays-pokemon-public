@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | CALYPSO | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♀ | CALYPSO | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | TBD | TBD | - | Pending | Open encounter north of Oldale Town |
 | Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
@@ -67,7 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **CALYPSO** — Mudkip ♀ (Lv. 5, `20/20 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 101 (Starter).
+1. **CALYPSO** — Mudkip ♀ (Lv. 7, `25/25 HP`, `Torrent`, Stats: `25 HP / 17 Atk / 13 Def / 13 SpA / 10 SpD / 12 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -248,7 +248,7 @@
 - **Littleroot Town (Lab to Route 101):**
   - Birch's Lab exterior door: `(7, 16)`; exiting the Lab places you at `(7, 17)` (already below the Lab sign row). From `(7, 17)`, walk `Right` 3 tiles to `(10, 17)`, then `Up` 17 tiles along `x=10` to `(10, 0)`.
 - **Route 101 Pathing:**
-  - **Northbound (Littleroot -> Oldale):** Enter at `(10, 19)` -> `Up` 4 to `(10, 15)` -> `Left` 4 to `(6, 15)` -> `Up` 4 to `(6, 11)` -> `Right` 4 to `(10, 11)` -> `Up` 1 to `(10, 10)` -> `Right` 7 to `(17, 10)` -> `Up` 6 to `(17, 4)` -> `Left` 6 to `(11, 4)` -> `Up` 5 into Oldale Town `(11, 19)`.
+  - **100% Grass-Free Northbound (Littleroot -> Oldale, Verified Turn 1287):** Enter at `(10, 19)` -> `Up` 4 to `(10, 15)` -> `Left` 3 to `(7, 15)` -> `Up` 5 to `(7, 10)` -> `Right` 6 to `(13, 10)` -> `Up` 1 to `(13, 9)` -> `Right` 4 to `(17, 9)` -> `Up` 5 to `(17, 4)` -> `Left` 2 to `(15, 4)` -> `Up` 1 to `(15, 3)` -> `Left` 1 to `(14, 3)` -> `Up` 1 to `(14, 2)` -> `Left` 4 to `(10, 2)` -> `Up` 5 into Oldale Town `(10, 17)`. Note: On northern Route 101 row `y=2`, `(5..10, 2)` is clear ground while `(3..4, 2)` is tall grass.
   - **Southbound (Oldale -> Littleroot):** Jump straight `Down` along `x=10` over the two south-facing ledges at `y=6` and `y=13`!
 - **Oldale Town:**
   - South border (from Route 101): `(10, 19)` / `(11, 19)`.
