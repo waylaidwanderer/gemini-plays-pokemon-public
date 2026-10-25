@@ -73,6 +73,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Catwalk extends east along row 15 (cols 3..16) above water canal (rows 17..20).
   - Row 15 dead-ends at (16, 15), blocked by blue beaker pedestal (16, 16), whiteboard (17, 15), and wall (row 14). Laboratory floor cannot be entered from catwalk.
   - Another warp pad visible at south: (3, 21) across the canal.
+  - Catwalk Collision Test (Turn 15311): Empirically verified all columns (4..15) along row 15. Railing at row 16 is completely solid and continuous; Surf cannot be triggered anywhere along the catwalk. The southern warp pad at (3, 21) and the Laboratory floor CANNOT be reached from the north catwalk and MUST be accessed via an external teleporter pad!
 
 ## B1F Generator Room (Discovered Turn 15249)
 - Connection: Reached via B1F Hub Right pad (31, 4). Return warp pad is at (27, 12).
