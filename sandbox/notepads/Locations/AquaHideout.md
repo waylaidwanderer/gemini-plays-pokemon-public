@@ -77,3 +77,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Cruise ship model on display table at (23, 8).
   - Black sofa / seating area.
   - Circular white teleporter warp pad located at south end (row 11).
+
+## Laboratory & Warp Maze Infiltration (Turn 15469)
+- Breakthrough: The row 14 ledge at (16..19, 14) connects the Canal Chamber catwalk directly into the Laboratory floor above the whiteboard!
+- Laboratory Floor (rows 15..26, cols 17..32+):
+  - Infiltrated at (19, 17)!
+  - Team Aqua Grunt stationed at (20, 18).
+  - Computer desks, submarine schematics whiteboards, and beakers.
+  - Pathway extends east into the main warp maze facility!
