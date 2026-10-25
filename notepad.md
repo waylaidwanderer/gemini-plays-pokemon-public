@@ -104,6 +104,10 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Distillation tank at (17, 6).
   - Thick vertical wall at col 14 separates this chamber from an adjacent western room (containing Aqua Grunt at 13, 5, computer desk, and second staircase at cols 11..12).
   - Main corridor extends South along cols 18..19 into the facility!
+- Grunt Defeated (Turn 15552):
+  - Defeated male Aqua Grunt at (20, 7) (Carvanha Lv 32, ¥640).
+  - Main corridor extends South along col 19 past row 8 into southern sector.
+
 
 <hr>
 
@@ -3547,10 +3551,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: INFILTRATING TEAM AQUA HIDEOUT! Reached the Warp Pad Maze in Team Aqua Hideout! Navigating teleporters to locate the Master Ball and confront the Aqua Admin! Party: Sage Lv 53 (HP 148/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
+- Status: INFILTRATING TEAM AQUA HIDEOUT! Reached the Warp Pad Maze in Team Aqua Hideout! Navigating teleporters to locate the Master Ball and confront the Aqua Admin! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 148/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
+1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (12/15), Quick Attack (30/30). HP: 133/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
 2. LILZ (Lombre ♀, Level 26) - Evolved from Lotad on turn 4926! Level 26 on turn 15063! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 0/75. Max HP: 75. Status: FNT.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
@@ -3587,7 +3591,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥19,185
+- Money: ¥19,825
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

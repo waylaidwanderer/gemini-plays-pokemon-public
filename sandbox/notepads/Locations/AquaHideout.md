@@ -102,3 +102,6 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Distillation tank at (17, 6).
   - Thick vertical wall at col 14 separates this chamber from an adjacent western room (containing Aqua Grunt at 13, 5, computer desk, and second staircase at cols 11..12).
   - Main corridor extends South along cols 18..19 into the facility!
+- Grunt Defeated (Turn 15552):
+  - Defeated male Aqua Grunt at (20, 7) (Carvanha Lv 32, ¥640).
+  - Main corridor extends South along col 19 past row 8 into southern sector.
