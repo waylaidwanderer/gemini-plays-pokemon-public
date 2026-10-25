@@ -42,9 +42,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Southern Catwalk at rows 25..26: Extends west to (16, 25) overlooking entrance channel and exit waterfall; dead-end.
   - Conclusion: Southeastern sector is a scenic overlook with no forward progression.
 
-- 1F Western Sector (Primary Exploration Priority):
-  - Row 4 connects west past the central pool into cols 5..9.
-  - Need to explore the western wing of 1F to find the entrance/stairs into the Western Wing of B1F (Ship Model Room, Submarine Dock, Master Ball Room)!
+- 1F Complete Mapping (Verified Turn 15330):
+  - NPC at (13, 4) is the already-defeated Grunt #1 displaying defeat text ('I took the loss for the TEAM...').
+  - Row 4 west of col 13 simply loops around the central pool back to cols 2..5 and row 9 (traversed in Turns 15232..15235).
+  - 1F is 100% fully mapped: entrance channel, central pool perimeter, dock stairs, southeast scenic catwalks, and north doorway at (22, 2).
+  - All progression deeper into the hideout lies strictly through B1F via the doorway at (22, 2)!
 
 ## Topography & Navigation - Warp Pad Hub (B1F)
 - Entrance / Connection: Doorway at (22, 2) on 1F warps to this chamber at (29, 1) facing South. Doorway back to 1F is at (29, 0).
