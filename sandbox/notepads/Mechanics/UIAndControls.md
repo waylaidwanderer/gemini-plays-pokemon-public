@@ -34,7 +34,7 @@
 - **Birch's Lab Coordinates (Turn 42):** Birch stands at `(6, 4)`, player stands at `(6, 5)`, exit mat is straight down at `(6, 12)`.
 
 ## Pokémon Center Healing Formula (Verified Turn 57)
-- **Interior Coordinates:** Enter at `(7, 8)`. Walk 5 tiles `Up` to stand at `(7, 4)` facing Nurse Joy across the counter at `(7, 3)`.
+- **Interior Coordinates:** Enter at `(7, 8)`. Walk 5 tiles `Up` to stand at `(7, 4)` facing Nurse Joy across the counter at `(7, 3)`. The Pokémon Storage PC is at `(10, 1)` (interact from `(10, 2)` facing `Up`).
 - **Button Sequence:**
   - Press `A` **4 times** with `sleep 1200` between presses (clears Nurse Joy's 3 intro lines and confirms `▶YES` on the 4th `A`).
   - Wait `sleep 5500` for the healing jingle to finish.
