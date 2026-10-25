@@ -3485,7 +3485,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: INFILTRATING TEAM AQUA HIDEOUT! Arrived in Lilycove cove with fully healed party. Surfing into the hideout to recover the Master Ball and defeat the Aqua Admin! Party: Sage Lv 52 (HP 159/159), Lilz Lv 26 (HP 75/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 5 (HP 24/24), Guava Lv 28 (HP 95/95).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
+1. SAGE (Sceptile ♂, Level 52) - Evolved on turn 5632! Level 52 on turn 14838! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). HP: 159/159. Max HP: 159. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
 2. LILZ (Lombre ♀, Level 26) - Evolved from Lotad on turn 4926! Level 26 on turn 15063! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 75/75. Max HP: 75. Status: OK.
 3. CIPHER (Abra ♂, Level 14) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
