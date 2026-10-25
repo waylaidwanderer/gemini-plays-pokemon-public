@@ -85,3 +85,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Team Aqua Grunt stationed at (20, 18).
   - Computer desks, submarine schematics whiteboards, and beakers.
   - Pathway extends east into the main warp maze facility!
+- Eastern Laboratory & Warp Pad (Turn 15484):
+  - Central laboratory corridor runs along row 18 past col 22 all the way to col 28!
+  - Team Aqua Grunt duo stationed at eastern end (male Grunt against north wall, female Grunt against south wall).
+  - Teleporter Warp Pad discovered at (31, 19) on eastern metal catwalk!
