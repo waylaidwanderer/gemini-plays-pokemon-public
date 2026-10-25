@@ -94,3 +94,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Defeated Team Aqua Grunt duo at (28, 17..19) in Double Battle (Zubat Lv 31, Poochyena Lv 31, Carvanha Lv 31, Zubat Lv 31; Prize: ¥1,240).
   - Grunt dialogue hint: "There's a submarine at the far end! But, by now... Kekekeke..."
   - Warp Pad at (31, 19) is completely clear to enter!
+
+## Subterranean Machinery Chamber (Turn 15534)
+- Entered via northern doorway from Crate Room (18, 0); arrived at (18, 2) in front of white staircase.
+- Topography:
+  - Giant generator machine at northeast (cols 20..24, rows 1..5).
+  - Male Aqua Grunt stationed at (20, 6) facing South.
+  - Distillation tank at (17, 6).
+  - Thick vertical wall at col 14 separates this chamber from an adjacent western room (containing Aqua Grunt at 13, 5, computer desk, and second staircase at cols 11..12).
+  - Main corridor extends South along cols 18..19 into the facility!
