@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♀ | CALYPSO | 14 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | ZEPHYR | 15 | Active | Caught at `(13, 15)` (Quiet, `Keen Eye`, `38 HP / 15 Atk / 16 Def / 26 SpA / 16 SpD / 27 Spd`, `Wing Attack` [Slot 1], `Water Gun` [Slot 2], `Quick Attack` [Slot 3], `BubbleBeam` [Slot 4]) |
 | Route 102 | Electrike ♂ | RAIJU | 11 | Deceased | Caught at `(38, 6)` — Fainted Turn 1540 vs Lady Cindy's `Lv. 7 Azurill` (`Huge Power` + Physical `Uproar`) |
-| Route 104 (South) | Cubone ♂ | ATLAS | 7 | Active | Caught at `(23, 61)` (Mild, `Lightningrod`, `Bone Club` [Slot 1], `Rock Throw` [Slot 2]) |
+| Route 104 (South) | Cubone ♂ | ATLAS | 8 | Active | Caught at `(23, 61)` (Mild, `Lightningrod`, `27 HP / 13 Atk / 18 Def / 13 SpA / 14 SpD / 10 Spd`, `Bone Club` [Slot 1], `Rock Throw` [Slot 2]) |
 | Petalburg Woods | Teddiursa ♂ | ARCTURUS | 8 | Active | Caught at `(23, 35)` (Sassy, `Guts`, `27 HP / 18 Atk / 14 Def / 15 SpA / 16 SpD / 10 Spd`, `Scratch` [Slot 1], `Lick` [Slot 2], `Faint Attack` [Slot 3]) |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open encounter east of Route 116 |
@@ -58,7 +58,9 @@
 - **Petalburg Woods Trainers (Verified Turns 920–925, 1561–1572):**
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Spinarak`, `Ledyba`, `Venonat` — all OHKO'd by `ZEPHYR`'s `Wing Attack`).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras`, `Lv. 8 Surskit`, `Lv. 9 Nincada` [`Giga Drain`, `Scratch`; Base 90 Def vs Base 30 SpD — OHKO'd by `ZEPHYR`'s `BubbleBeam`]).
-  3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock` — 2HKO'd by `Lv. 13 CALYPSO`'s `Mud Sport` + `Water Gun`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief` — steals held Berries!], `Lv. 9 Houndour` [`Ember`, `Pursuit` — punishes switches!], `Lv. 8 Bagon` [`Headbutt` — 2HKO'd by `Lv. 15 ZEPHYR`'s `BubbleBeam`], and `Lv. 8 Duskull`).
+  3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock` — 2HKO'd by `Lv. 13 CALYPSO`'s `Mud Sport` + `Water Gun`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief` — steals held Berries!], `Lv. 9 Houndour` [`Ember`, `Pursuit` — punishes switches!], `Lv. 8 Bagon` [`Headbutt` — 2HKO'd by `Lv. 15 ZEPHYR`'s `BubbleBeam`], and `Lv. 8 Duskull` [`Protect`, `Night Shade`]).
+- **Route 104 (North) Trainers (Verified Turns 1601–1606):**
+  1. **Rich Boy Winston `(21, 26)`:** Faces `Up` across `(21, 25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, holds `Oran Berry`]).
 - **Level 15 Cap & Team Magma Grunt Strategy (Roxanne Cap = Lv. 15):**
   - Train **BOTH `Mudkip` AND our Secondary Sweeper to Lv. 13–14** before fighting the Petalburg Woods Team Magma Grunt `(26, 23)` (`Lv. 8 Magnemite`, `Lv. 8 Koffing`, `Lv. 9 Houndour`, + 4th).
   - Lead with **Lv. 13–14 `Mudkip`** (`Mud Sport` + `Water Gun`) against `Lv. 8 Magnemite`, equip a **`Pecha Berry`** on our `Koffing` answer so `Toxic` is immediately cured on Turn 1 (denying `Thief` on Turn 2), and **never switch out against `Lv. 9 Houndour` (`Pursuit`)**—use Lv. 13–14 `Mudkip` (`Water Gun` OHKO) or a full-HP physical sweeper (`Secret Power` OHKO).
