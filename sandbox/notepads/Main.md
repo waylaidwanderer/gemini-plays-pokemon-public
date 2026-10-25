@@ -54,9 +54,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **OBERON** — Ledyba ♂ (Lv. 4, Bug/Flying, Moves: `Silver Wind`) — Met on Route 103.
-3. **TERRA** — Sandshrew ♂ (Lv. 6, Ground, Moves: `Poison Sting`) — Met on Route 102.
+1. **TERRA** — Sandshrew ♂ (Lv. 6, `22/22 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `22 HP / 15 Atk / 15 Def / 7 SpA / 8 SpD / 10 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP]) — Met on Route 102.
+2. **OBERON** — Ledyba ♂ (Lv. 4, `18/18 HP`, Brave [`+Atk / -Spd`], `Swarm`, Stats: `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP]) — Met on Route 103.
+3. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
