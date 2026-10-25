@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | CALYPSO | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
 | Route 103 | Wingull ♀ | ZEPHYR | 4 | Active | Caught at `(13, 15)` (`Water Gun`, `Wing Attack`) |
-| Route 102 | TBD | TBD | - | Pending | Open encounter west of Oldale Town |
+| Route 102 | Electrike ♂ | RAIJU | 6 | Active | Caught at `(38, 6)` (`ThunderShock`, `Thunder Wave`) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open encounter west of Petalburg City |
 | Petalburg Woods | TBD | TBD | - | Pending | Open encounter north of Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open encounter east of Rustboro City |
@@ -69,6 +69,7 @@
 ## Active Party
 1. **CALYPSO** — Mudkip ♀ (Lv. 10, `31/31 HP`, `Torrent`, Stats: `31 HP / 23 Atk / 16 Def / 17 SpA / 13 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **ZEPHYR** — Wingull ♀ (Lv. 4, `Keen Eye`, Moves: `Water Gun`, `Wing Attack`, `Growl`, `Supersonic`) — Met on Route 103.
+3. **RAIJU** — Electrike ♂ (Lv. 6, Moves: `ThunderShock`, `Thunder Wave`, `Tackle`, `Leer`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
