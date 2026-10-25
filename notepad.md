@@ -13,47 +13,15 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 ## Connection Points
 - Cove Entrance / Exit: South doorway at (13, 28) exits to Lilycove City eastern cove at (70, 5). Player spawns at (13, 27) facing North.
 
-## Topography & Navigation - 1F
-- Entrance Channel (col 13, rows 23..27):
-  - 1-tile wide water channel flanked by cavern rock walls at col 12 and col 14.
-  - Spawns at (13, 27) surfing on water facing North.
-  - Leads North into main 1F facility area.
-- 1F Central Water Basin (col 13, rows 20..22):
-  - Entrance channel widens into a subterranean water basin spanning cols 8..18, rows 20..22.
-  - Channel constricts at row 20 and continues North along col 13.
-- 1F North Dock & Guard Post (cols 13..14, rows 11..12):
-  - White stone/metal stairs at (13..14, 12) lead up from the water onto the metal facility floor.
-  - Two Team Aqua Grunts stand guard at (13, 11) and (14, 11) facing South, blocking the railing gap.
-- Story Barrier Cleared (Verified Turn 15192):
-  - Submarine theft at Slateport Harbor is COMPLETE.
-  - Archie escaped in the submarine back to Lilycove Hideout.
-  - The two guards blocking the hideout stairs at (13..14, 11) are now cleared!
-  - Hideout is ready for full infiltration!
-
-- 1F Central Pool & Facility Floor (Verified Turn 15224):
-  - Guard post at (13..14, 11) is completely CLEARED! Player walks freely through railing gap into the main facility.
-  - A large indoor water tank / pool surrounded by grey railings is located at cols 10..18, rows 4..8.
-  - Team Aqua Grunt #1 stationed at (16, 9) facing West along the southern walkway of the pool, challenges May upon entry.
-- 1F Northern Corridor & Exit Doorway (Verified Turn 15236):
-  - Row 4 connects west and east across the top of the central pool (cols 5..20).
-  - Reinforced metal doorway located at cols 22..23, row 3 on the north wall, approached from (22..23, 4) stepping North. Leads deeper into the facility!
-  - Crane hook at (25, 2), orange crates at cols 26..27.
-- 1F Southeastern Sector (Fully Explored Turns 15281..15296):
-  - Corridor runs south along col 23 (rows 10..25) past cylindrical tanks at (24..25, rows 18..19 and 23..24).
-  - Overlook Pier at rows 16..17: Extends west across cols 22..17 overlooking the water basin; dead-end.
-  - Southern Catwalk at rows 25..26: Extends west to (16, 25) overlooking entrance channel and exit waterfall; dead-end.
-  - Conclusion: Southeastern sector is a scenic overlook with no forward progression.
-
-- 1F Complete Mapping (Verified Turn 15330):
-  - NPC at (13, 4) is the already-defeated Grunt #1 displaying defeat text ('I took the loss for the TEAM...').
-  - Row 4 west of col 13 simply loops around the central pool back to cols 2..5 and row 9 (traversed in Turns 15232..15235).
-  - 1F is 100% fully mapped: entrance channel, central pool perimeter, dock stairs, southeast scenic catwalks, and north doorway at (22, 2).
-  - All progression deeper into the hideout lies strictly through B1F via the doorway at (22, 2)!
-
-- Water Basin & 1F West Wing Visual Discovery (Turns 15343..15346):
-  - Water basin water extends west to col 7, bounded by brown rock cliffs at col 6 and row 12. Cannot dismount onto the western cliff from water.
-  - Camera reveals a massive western facility wing at cols 1..5 on 1F, containing orange crates, distillation tanks, and a long north-south corridor.
-  - This western wing connects on foot from the walkways west of the central pool (row 9 or row 4).
+## Topography & Navigation - 1F (100% Fully Mapped & Verified)
+- 1F Summary & Boundaries:
+  - Entrance Water Channel: (13, 27) entered from cove, leads north to dock stairs.
+  - Central Water Basin: cols 7..14, rows 12..24. Bounded on north (row 12) and west (col 6) by impassable rock cliffs. Cannot dismount from water onto cliffs.
+  - Dock Stairs: (13..14, 11..12). Only dismount/boarding point between land and water on 1F.
+  - Central Indoor Pool: cols 7..18, rows 5..8. Bounded by grey railing. Walkways run above (row 4) and below (row 9).
+  - Western Corridor: cols 2..6, rows 4..25. Connects row 4 and row 9 around pool; extends south past distillation machines at (1..2, rows 13..15) and (2..3, rows 22..24). Terminates at southern scenic catwalk (rows 25..26, cols 2..10) overlooking waterfall. North end (cols 1..4, rows 1..7) blocked by solid walls and orange pipes. No doorways or stairs in western 1F!
+  - Eastern Corridor: col 23, rows 9..25. Extends south past machinery to scenic overlook pier (rows 16..17, cols 17..22) and southern catwalk (rows 25..26, cols 16..23). Both dead ends.
+  - North Doorway at (22, 1/2): THE SOLE ENTRANCE TO B1F AND DEEPER PROGRESSION! Leads into B1F Hub at (29, 1).
 
 ## Topography & Navigation - Warp Pad Hub (B1F)
 - Entrance / Connection: Doorway at (22, 2) on 1F warps to this chamber at (29, 1) facing South. Doorway back to 1F is at (29, 0).
@@ -82,6 +50,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Master Ball 4-Item Room | UNVISITED | Visible north of row 14! 4 items (Master Ball, Nugget, 2 Electrodes). Contains white warp pad in northeast corner. |
 
 ## B1F Canal Chamber (Arrived Turn 15243)
+- Turn 15360 Verification at (3, 15):
+  - West (Left) is blocked by wall at col 2.
+  - North (Up) is blocked by dividing wall at row 14.
+  - South (Down) is blocked by canal railing at row 16.
+  - Catwalk extends solely east along row 15 to (16, 15) dead-end overlook.
 - Connection: Reached via B1F Hub Left pad (27, 4). Return warp pad is at (3, 15).
 - Layout:
   - North wall at row 14; chamber above contains an item ball near (7, 11) and 4-Item Master Ball Room (cols 14..20, rows 9..13).
@@ -91,6 +64,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Catwalk Collision Test (Turn 15311): Empirically verified all columns (4..15) along row 15. Railing at row 16 is completely solid and continuous; Surf cannot be triggered anywhere along the catwalk. The southern warp pad at (3, 21) and the Laboratory floor CANNOT be reached from the north catwalk and MUST be accessed via an external teleporter pad!
 
 ## B1F Generator Room (Discovered Turn 15249)
+- Generator Room Row 14 Solid Wall Verification (Turn 15336):
+  - Row 13 is walkable across cols 27..32.
+  - Row 14 is a solid two-tier facility wall across cols 27..32 (tested and verified). No southern passage into the Laboratory.
+  - Col 33 is solid boundary wall.
+  - Pure dead-end treasure room (Max Elixir collected at 29, 12).
 - Connection: Reached via B1F Hub Right pad (31, 4). Return warp pad is at (27, 12).
 - Items: Collected MAX ELIXIR at (29, 12)!
 - Features: Subterranean generator machinery at north (cols 30..33, rows 8..11). Dead-end treasure room.
