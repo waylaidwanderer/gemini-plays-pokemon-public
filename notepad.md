@@ -67,7 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **CALYPSO** — Mudkip ♀ (Lv. 13, `35/35 HP`, `Torrent`, Stats: `35 HP / 26 Atk / 19 Def / 19 SpA / 15 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+1. **CALYPSO** — Mudkip ♀ (Lv. 12, `35/35 HP`, `Torrent`, Stats: `35 HP / 26 Atk / 19 Def / 19 SpA / 15 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **ZEPHYR** — Wingull ♀ (Lv. 13, `34/34 HP`, Quiet [`+SpA / -Spd`], `Keen Eye`, Stats: `34 HP / 14 Atk / 14 Def / 24 SpA / 15 SpD / 24 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
 3. **ATLAS** — Cubone ♂ (Lv. 7, `25/25 HP`, Mild [`+SpA / -Def`], `Lightningrod`, Stats: `25 HP / 12 Atk / 17 Def / 12 SpA / 13 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
 
