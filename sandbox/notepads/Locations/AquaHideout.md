@@ -36,6 +36,16 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Row 4 connects west and east across the top of the central pool (cols 5..20).
   - Reinforced metal doorway located at cols 22..23, row 3 on the north wall, approached from (22..23, 4) stepping North. Leads deeper into the facility!
   - Crane hook at (25, 2), orange crates at cols 26..27.
+- 1F Southeastern Sector (Fully Explored Turns 15281..15296):
+  - Corridor runs south along col 23 (rows 10..25) past cylindrical tanks at (24..25, rows 18..19 and 23..24).
+  - Overlook Pier at rows 16..17: Extends west across cols 22..17 overlooking the water basin; dead-end.
+  - Southern Catwalk at rows 25..26: Extends west to (16, 25) overlooking entrance channel and exit waterfall; dead-end.
+  - Conclusion: Southeastern sector is a scenic overlook with no forward progression.
+
+- 1F Western Sector (Primary Exploration Priority):
+  - Row 4 connects west past the central pool into cols 5..9.
+  - Need to explore the western wing of 1F to find the entrance/stairs into the Western Wing of B1F (Ship Model Room, Submarine Dock, Master Ball Room)!
+
 ## Topography & Navigation - Warp Pad Hub (B1F)
 - Entrance / Connection: Doorway at (22, 2) on 1F warps to this chamber at (29, 1) facing South. Doorway back to 1F is at (29, 0).
 - Layout:
