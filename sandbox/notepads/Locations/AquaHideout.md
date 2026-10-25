@@ -116,3 +116,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - South railing at row 16 overlooking the water canal / submarine docking bay.
   - Divided from eastern chamber by thick vertical wall at col 14.
   - Main floor extends North along cols 10..13 toward computer desks, Aqua Grunt at (13, 5), and northern staircase at cols 11..12.
+
+  - Collected NEST BALL at (3, 13) at western end of row 13 catwalk!
+  - Dormitory room visible to the north (cols 1..4, rows 7..10) containing wooden bunk beds and a white teleporter warp pad at (5, 9)!
+  - Adjacent northern room visible containing another white teleporter warp pad at (8, 9) and an item ball!
