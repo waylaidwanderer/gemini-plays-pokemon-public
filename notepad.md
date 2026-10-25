@@ -51,7 +51,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
 | B1F Hub Left (27, 4) | (3, 15) | Teleported to new chamber |
-| B1F Hub Right (31, 3) | TBD | Untested |
+| B1F Hub Right (31, 4) | (27, 12) | Second branch |
 
 ## B1F Canal Chamber (Arrived Turn 15243)
 - Connection: Reached via B1F Hub Left pad (27, 4). Return warp pad is at (3, 16) directly below player spawn (3, 15).
