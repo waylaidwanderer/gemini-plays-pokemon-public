@@ -44,6 +44,8 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Canal Chamber South (3, 21) | UNVISITED | Isolated south of water canal; not reachable from north catwalk |
 | Eastern Laboratory (32, 19) | (20, 4) | Crate Room |
 | Crate Room (20, 4) | (32, 19) | Return pad to Eastern Laboratory |
+| Machinery Chamber East (17, 13) | (12, 13) | Western Machinery Chamber |
+| Machinery Chamber West (12, 13) | (17, 13) | Return pad to Machinery Chamber East |
 | Ship Model Room Pad (row 11) | UNVISITED | Visible in Ship Model Room behind solid divider wall |
 | Master Ball 4-Item Room | UNVISITED | Visible north of row 14! 4 items (Master Ball, Nugget, 2 Electrodes). Contains white warp pad in northeast corner. |
 
@@ -105,3 +107,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Grunt Defeated (Turn 15552):
   - Defeated male Aqua Grunt at (20, 7) (Carvanha Lv 32, ¥640).
   - Main corridor extends South along col 19 past row 8 into southern sector.
+
+
+## Western Machinery Chamber (Turn 15557)
+- Arrived via teleporter pad from (17, 13) to (12, 13)!
+- Layout:
+  - Warp pad at (12, 13).
+  - South railing at row 16 overlooking the water canal / submarine docking bay.
+  - Divided from eastern chamber by thick vertical wall at col 14.
+  - Main floor extends North along cols 10..13 toward computer desks, Aqua Grunt at (13, 5), and northern staircase at cols 11..12.
