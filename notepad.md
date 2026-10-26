@@ -1,12 +1,12 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #10)
+# Route & Area Encounters (Attempt #11)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | .pw' | 10 | Deceased | Starter (`Met in ROUTE 101`) — Fainted Turn 1919 vs Bug Catcher Rick while poisoned |
-| Route 103 | Ledyba ♂ | OBERON | 8 | Deceased | Caught at `(13, 14)` — Fainted Turn 1915 on Route 101 to wild `Lv. 3 Pidgey` (`Quick Attack`) |
-| Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP]) |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
+| Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
@@ -21,7 +21,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #10
+- **Attempt:** #11
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -221,6 +221,15 @@
   - **Lesson:** Do not delegate fragile early-stage Bug/Flying Pokémon (`Lv. 4–8 Ledyba`, Base 30 Defense) to `level10_grinder` on Route 101 where wild `Sentret`, `Rattata`, and `Pidgey` spam priority `Quick Attack`; instead, switch-train fragile catches or level them directly with supervised healing.
 - **.pw'** (Mudkip ♂, Lv. 10, `32 HP`, `Torrent`, `Water Gun`) — Died on Turn 1919 on Route 102 `(26, 15)` against Bug Catcher Rick's `Lv. 5 Kakuna` / `Lv. 5 Cascoon` after queuing a 4-turn `Water Gun` loop while poisoned (`PSN`) instead of switching to `TERRA` or executing 1 turn at a time.
   - **Lesson:** NEVER queue multi-turn attack loops when your active Pokémon is poisoned (`PSN`); switch immediately to an unpoisoned teammate or step 1 turn at a time to monitor HP after every poison tick.
+- **TERRA** (Sandshrew ♂, Lv. 10, `31 HP`, Rash, `Sand Veil`) — Died on Turn 1933 on Route 102 `(15, 4)` against Lass Tiana's `Lv. 6 Sunkern` (`Mega Drain` + `Leech Seed` from `13/31 HP`) after accidentally stepping into Lass Tiana's upward line of sight at `(15, 4)` while unhealed (`21/31 HP`) and with our newly harvested `Oran Berries` still unequipped in the Bag — **TOTAL PARTY WIPEOUT (Attempt #10 Over)**.
+- **Root Causes of Attempt #10 Wipe:**
+  1. **Unsupervised Subagent Grinding with Fragile `Lv. 4–8 Ledyba` (`OBERON`):** Delegated `OBERON` (Base 30 Def) to `level10_grinder` on Route 101 where wild `Sentret`/`Pidgey` use priority `Quick Attack`.
+  2. **Multi-Turn Loop While Poisoned Against Bug Catcher Rick (`.pw'`):** Queued a 4-turn `Water Gun` loop while `.pw'` was poisoned (`PSN`) by `Kakuna`'s `Poison Sting`, instead of switching to `TERRA` or stepping 1 turn at a time.
+  3. **Walking Across `(15..16, 4)` Before Equipping `Oran Berries` or Checking Lass Tiana's Facing Direction (`TERRA`):** After harvesting the `Oran` and `Pecha` Berries at `(24..25, 2)`, we walked straight to `(14, 4)` before healing or equipping an `Oran Berry`, and stepped onto `(15, 4)` right when Lass Tiana at `(15, 5)` was facing `Up`.
+- **Tactical Rules for Attempt #11:**
+  1. **Never Queue Multi-Turn Loops When Poisoned (`PSN`):** Switch out immediately or execute 1 turn at a time whenever poisoned.
+  2. **Heal & Equip `Oran` / `Pecha` Berries Right at `(25, 3)` Immediately After Harvesting:** As soon as we pick the Berries at `(24, 2)` and `(25, 2)`, open the Bag right at `(25, 3)` to heal to 100% HP and equip an `Oran Berry` / `Pecha Berry` BEFORE taking a single step west toward `x=15..16`!
+  3. **Pause at `(17, 4)` to Check Lass Tiana `(15..16, 5..6)`:** Stop at `(17, 4)` and inspect `<CurrentScreen>`: if we have a Flying/Bug/Poison counter (`Wingull`/`Spearow`/`Ledyba`/`Gulpin`/`Hoothoot`), challenge her at 100% HP with an `Oran Berry` equipped; if not, wait until she is on `y=6` or facing away from `Up` before walking `Left` 4 across `(16..13, 4)` to `(13, 4)`.
 
 <hr>
 

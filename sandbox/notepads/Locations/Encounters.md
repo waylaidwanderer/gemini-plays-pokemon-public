@@ -1,10 +1,10 @@
-# Route & Area Encounters (Attempt #10)
+# Route & Area Encounters (Attempt #11)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | .pw' | 10 | Deceased | Starter (`Met in ROUTE 101`) — Fainted Turn 1919 vs Bug Catcher Rick while poisoned |
-| Route 103 | Ledyba ♂ | OBERON | 8 | Deceased | Caught at `(13, 14)` — Fainted Turn 1915 on Route 101 to wild `Lv. 3 Pidgey` (`Quick Attack`) |
-| Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP]) |
+| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
+| Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
