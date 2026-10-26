@@ -112,6 +112,12 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Two warp pads visible at bottom-left of chamber (approx cols 6 and 9, row 8).
 - Adjacent chamber to the east features another northern doorway arch and distillation unit.
 
+## Systematic Teleporter Warp Map (Additions)
+| Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
+| :--- | :--- | :--- |
+| Upper Northern Chamber (8, 8) | (31, 17) | Teleports to Crate Corridor / Dock Approach. |
+| Crate Corridor Return Pad (31, 17) | (8, 8) | Return pad to Upper Northern Chamber. |
+| Crate Corridor Recess Pad (32, 20) | UNVISITED | Located in crate recess at (32, 20). |
 
 <hr>
 
