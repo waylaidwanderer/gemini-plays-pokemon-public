@@ -108,3 +108,10 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - (16, 9) [Top-Right]: Electrode 1 (Defeated Turn 15685)
   - (16, 10) [Bottom-Right]: Electrode 2 (Battling Turn 15693)
   - (15, 10) [Bottom-Left]: NUGGET (COLLECTED on Turn 15701!)
+## Topography & Navigation - Submarine Dock Approach / Executive Lab
+- Entered via northern staircase doorway in Western Machinery Chamber at (3, 3) -> spawns at (3, 4) facing South.
+- Return doorway at (3, 3) leads back to Western Machinery Chamber.
+- Western corridor: 3-tile wide green metal-grate hallway spanning cols 2..4, extending south past row 9.
+- Distillation unit at cols 5..6, rows 3..4.
+- Female Aqua Grunt stationed at (6, 5) facing West behind computer desk.
+- Computer workstations with monitors, trash cans, and orange stools along cols 6..8 on teal circular tile floor.
