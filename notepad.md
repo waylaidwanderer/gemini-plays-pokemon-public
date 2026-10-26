@@ -8,7 +8,7 @@
 | Route 103 | Wingull ♂ | BOREAS | 13 | Deceased (Turn 2353) | Caught at `(13, 14)`; died to Team Magma Grunt's Lv. 8 Bagon crit + confusion self-hits in Petalburg Woods |
 | Route 102 | Gulpin ♀ | MEDEA | 16 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 15 PP]) |
 | Route 104 (South) | Cubone ♀ | GAIA | 15 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `42 HP / 22 Atk / 38 Def / 17 SpA / 20 SpD / 16 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP], `Secret Power` [Slot 3, 20 PP], `Headbutt` [Slot 4, 15 PP]) |
-| Petalburg Woods | Oddish ♂ | ADONIS | 15 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `42 HP / 20 Atk / 26 Def / 26 SpA / 29 SpD / 14 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 10 PP]) |
+| Petalburg Woods | Oddish ♂ | ADONIS | 16 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `45 HP / 21 Atk / 27 Def / 27 SpA / 31 SpD / 15 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 16 PP]) |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
 
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ADONIS** — Oddish ♂ (Lv. 15, `42/42 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `42 HP / 20 Atk / 26 Def / 26 SpA / 29 SpD / 14 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Left, Down`, 16 PP], Holds: `Oran Berry`) — Met in Petalburg Woods.
+1. **ADONIS** — Oddish ♂ (Lv. 16, `28/45 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `45 HP / 21 Atk / 27 Def / 27 SpA / 31 SpD / 15 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Left, Down`, 16 PP]) — Met in Petalburg Woods.
 2. **GAIA** — Cubone ♀ (Lv. 15, `42/42 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `42 HP / 22 Atk / 38 Def / 17 SpA / 20 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP], `Headbutt` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 104 South.
 3. **MEDEA** — Gulpin ♀ (Lv. 16, `50/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
 
