@@ -102,5 +102,5 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Return doorway at (3, 3) leads back to Western Machinery Chamber.
 - Western corridor: 3-tile wide green metal-grate hallway spanning cols 2..4, extending south past row 9.
 - Distillation unit at cols 5..6, rows 3..4.
-- - Female Aqua Grunt stationed at (4, 6) facing West. Pre-battle dialogue: "Fuel supply loaded A-OK! In-cruise snacks loaded A-OK!♥" (confirms Team Aqua submarine departure preparations nearing completion).
+- Female Aqua Grunt defeated at (4, 6) (Zubat Lv 32, ¥640; Sage Rock Tomb 6/10). Pre-battle: "Fuel supply loaded A-OK! In-cruise snacks loaded A-OK!♥" (confirms Team Aqua submarine departure preparations nearing completion).
 - Computer workstations with monitors, trash cans, and orange stools along cols 6..8 on teal circular tile floor.
