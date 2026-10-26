@@ -59,6 +59,7 @@
 2. **MUDKIP** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 16 Def / 18 SpA / 14 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Pecha Berry`) — Met on Route 101 (Starter).
 3. **BOREAS** — Wingull ♂ (Lv. 11, `30/30 HP`, Lax [`+Def / -SpD`], `Keen Eye`, Stats: `30 HP / 12 Atk / 12 Def / 20 SpA / 12 SpD / 26 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], Held `Oran Berry` consumed on Turn 2276) — Met on Route 103.
 4. **GAIA** — Cubone ♀ (Lv. 7, `25/25 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
+5. **ADONIS** — Oddish ♂ (Lv. 8, Grass/Poison, Moves: `Mega Drain` + TBD) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
