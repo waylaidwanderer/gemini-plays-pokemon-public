@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | .pw' | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
-| Route 103 | Ledyba ♂ | OBERON | 4 | Active | Caught at `(13, 14)` (Brave [`+Atk / -Spd`], `Swarm`, `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, `Silver Wind` [Slot 1, 5 PP]) |
+| Route 103 | Ledyba ♂ | OBERON | 8 | Deceased | Caught at `(13, 14)` — Fainted Turn 1915 on Route 101 to wild `Lv. 3 Pidgey` (`Quick Attack`) |
 | Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Defense Curl` [Slot 2, 40 PP], `Poison Sting` [Slot 3, 35 PP]) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
@@ -74,7 +74,6 @@
 ## Active Party
 1. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
-3. **OBERON** — Ledyba ♂ (Lv. 4, `18/18 HP`, Brave [`+Atk / -Spd`], `Swarm`, Stats: `18 HP / 7 Atk / 7 Def / 9 SpA / 11 SpD / 8 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP]) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -216,6 +215,11 @@
 - **Tactical Rules for Attempt #10:**
   1. **Train 3–4 Party Members to Level 13–14 Before Route 104 North:** Never challenge Route 104 North (`PKMN Trainer Red` at `(29, 8)` has 6 Lv. 9 Pokémon holding `Sitrus Berries`) with Lv. 8 filler teammates. Train `Mudkip` to **Lv. 14–15** AND train at least **2–3 caught teammates to Lv. 13–14** before crossing the Route 104 North bridge.
   2. **Heal to 100% HP, Equip `Oran Berries`, and Use `Mud Sport` on Turn 1 vs Red's Lead `Lv. 9 Eevee`:** Before stepping onto `(24, 8)`, heal all party members to 100% HP and equip `Oran Berries` from `(3, 23)`. On Turn 1 vs `PKMN Trainer Red`'s lead `Lv. 9 Eevee` (`Curse`), use **`Mud Sport` (Slot 3: `Down, Left`)** on `Mudkip` BEFORE knocking out `Eevee` with `Water Gun` so `Mud Sport` is already active when `Lv. 9 Pikachu` (`Shock Wave`, `Surf`, `Thunder Wave`, `Sitrus Berry`) is sent out!
+---
+
+## Attempt #10 Casualties (Starting Turn 1646)
+- **OBERON** (Ledyba ♂, Lv. 8, `26 HP`, Brave, `Swarm`, `Silver Wind`, `Aerial Ace`) — Died on Turn 1915 on Route 101 `(4, 2)` to a wild `Lv. 3 Pidgey` (`Quick Attack`) during `level10_grinder` execution after taking two `Quick Attack` hits from a wild `Lv. 3 Sentret` (`16 -> 6 -> 0/26 HP`).
+  - **Lesson:** Do not delegate fragile early-stage Bug/Flying Pokémon (`Lv. 4–8 Ledyba`, Base 30 Defense) to `level10_grinder` on Route 101 where wild `Sentret`, `Rattata`, and `Pidgey` spam priority `Quick Attack`; instead, switch-train fragile catches or level them directly with supervised healing.
 
 <hr>
 
