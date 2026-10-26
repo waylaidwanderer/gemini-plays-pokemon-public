@@ -89,33 +89,22 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Path: South Canal (3, 20) -> Tier 1 Left (42, 5) -> Tier 2 Center (45, 9) -> Tier 3 Left (42, 13) -> Tier 4 Left (42, 17) -> Archie's Office (Master Ball & Nugget obtained!).
   - Exit: Return pad in Archie's Office (23, 10) teleports directly to Tier 1 Entrance (45, 2); pad at (45, 3) returns to South Canal (3, 20).
 
-## Archie's Office & Master Ball Room Discoveries (Turn 15684)
-- Exact Coordinates of Archie's Office (Master Ball Room):
-  - Return warp pad: (23, 10) (two-way return to Warp Maze Tier 4 Left Pad at 42, 17).
-  - Cruise ship display table: cols 23..24, rows 7..8.
-  - Black armchair: col 21, rows 9..10.
-  - Executive desk: cols 17..19, rows 7..9.
-  - Aquariums: cols 15..16, rows 7..8.
-  - 4 Item Balls on red carpet:
-    - (15, 9): Top-Left
-    - (16, 9): Top-Right (Encountered wild Electrode Lv 30 on Turn 15683)
-    - (15, 10): Bottom-Left
-    - (16, 10): Bottom-Right
-- Row 11 is the main horizontal thoroughfare south of the desk and couch (cols 15..23).
-- Once Electrode is cleared, the remaining items (including Master Ball!) can be collected directly.
-## Master Ball Obtained & Item Layout Finalized (Turn 15693)
-- MASTER BALL COLLECTED from (15, 9) on Turn 15692!
-- Final layout of Archie's Office 4-Item Grid:
+## Archie's Office (Master Ball Room)
+- Reached via Warp Maze Tier 4 Left Pad at (42, 17).
+- Return warp pad at (23, 10) teleports directly to Warp Maze Tier 1 Entrance (45, 2), directly north of pad (45, 3).
+- Executive office layout: Desk at (17..19, 7..9), aquariums at (15..16, 7..8), armchair at (21, 9..10).
+- 4 Item Balls on red carpet (fully cleared Turns 15683-15701):
   - (15, 9) [Top-Left]: MASTER BALL (Collected!)
-  - (16, 9) [Top-Right]: Electrode 1 (Defeated Turn 15685)
-  - (16, 10) [Bottom-Right]: Electrode 2 (Battling Turn 15693)
-  - (15, 10) [Bottom-Left]: NUGGET (COLLECTED on Turn 15701!)
+  - (16, 9) [Top-Right]: Electrode Lv 30 (Defeated)
+  - (16, 10) [Bottom-Right]: Electrode Lv 30 (Defeated)
+  - (15, 10) [Bottom-Left]: Nugget (Collected!)
+
 ## Topography & Navigation - Submarine Dock Approach / Executive Lab
 - Entered via northern staircase doorway in Western Machinery Chamber at (3, 3) -> spawns at (3, 4) facing South.
 - Return doorway at (3, 3) leads back to Western Machinery Chamber.
 - Western corridor: 3-tile wide green metal-grate hallway spanning cols 2..4, extending south past row 9.
 - Distillation unit at cols 5..6, rows 3..4.
-- Female Aqua Grunt stationed at (6, 5) facing West behind computer desk.
+- - Female Aqua Grunt stationed at (4, 6) facing West. Pre-battle dialogue: "Fuel supply loaded A-OK! In-cruise snacks loaded A-OK!♥" (confirms Team Aqua submarine departure preparations nearing completion).
 - Computer workstations with monitors, trash cans, and orange stools along cols 6..8 on teal circular tile floor.
 
 <hr>
