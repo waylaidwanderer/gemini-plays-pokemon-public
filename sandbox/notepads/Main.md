@@ -56,10 +56,9 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Pecha Berry`) — Met on Route 101 (Starter).
-2. **MEDEA** — Gulpin ♀ (Lv. 15, `22/47 HP`, Quirky, `Sticky Hold`, Stats: `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 102.
-3. **BOREAS** — Wingull ♂ (Lv. 13, DECEASED Turn 2353 — must be deposited in PC Graveyard box) — Met on Route 103.
-4. **GAIA** — Cubone ♀ (Lv. 7, `25/25 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
-5. **ADONIS** — Oddish ♂ (Lv. 8, `27/27 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `27 HP / 13 Atk / 16 Def / 15 SpA / 18 SpD / 10 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP]) — Met in Petalburg Woods.
+2. **MEDEA** — Gulpin ♀ (Lv. 15, `47/47 HP`, Quirky, `Sticky Hold`, Stats: `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 102.
+3. **GAIA** — Cubone ♀ (Lv. 7, `25/25 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
+4. **ADONIS** — Oddish ♂ (Lv. 8, `27/27 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `27 HP / 13 Atk / 16 Def / 15 SpA / 18 SpD / 10 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
