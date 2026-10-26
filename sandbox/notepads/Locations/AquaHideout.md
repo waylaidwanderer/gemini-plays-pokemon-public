@@ -115,7 +115,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | :--- | :--- | :--- |
 | Upper Northern Chamber (8, 8) | (31, 17) | Teleports to Crate Corridor / Dock Approach. |
 | Crate Corridor Return Pad (31, 17) | (8, 8) | Return pad to Upper Northern Chamber. |
-| Crate Corridor Recess Pad (32, 20) | UNVISITED | Located in crate recess at (32, 20). |
+| Crate Corridor Recess Pad (32, 20) | (31, 4) | One-way exit warp directly to B1F Hub Right Pad! |
 ## Submarine Docking Bay
 - Location: Reached via Crate Corridor past (24, 17) -> dock entrance at (24, 19).
 - Team Aqua Admin Matt DEFEATED at (23, 19) (Mightyena Lv 34, Golbat Lv 34, Prize: ¥1,360).
