@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | SCYLLA | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `21 HP`) |
+| Route 101 | Mudkip ♂ | MUDKIP | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `25 HP / 16 Atk / 12 Def / 14 SpA / 11 SpD / 12 Spd`) |
 | Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SCYLLA** — Mudkip ♀ (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 101 (Starter).
+1. **MUDKIP** — Mudkip ♂ (Lv. 7, `25/25 HP`, `Torrent`, Stats: `25 HP / 16 Atk / 12 Def / 14 SpA / 11 SpD / 12 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], Slot 4: Empty) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -311,7 +311,7 @@
 - **Overworld Warp & Grass Timing Workarounds (Turns 124–149):**
   - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
   - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
-- **Nickname Prompt Transition (Turns 207, 534, 1671, 1798):** When catching a **new** Pokédex species, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Always wait `sleep 3000` after the 4th `A` press so the naming screen fade-in finishes before sending directional/letter inputs, and do not send an extra `A` after the 4th `A` before moving the cursor or it will type `'A'` as the first character.
+- **Nickname Prompt Transition (Turns 207, 534, 1671, 1798, 1960):** When catching a **new** Pokédex species in the wild, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Note that in Professor Birch's Lab when receiving the starter after `"I guess you have your father's blood in your veins after all!▼"`, it takes **5 `A` presses** (not 4) to open the naming keyboard. Always wait `sleep 3000` after the final `A` press so the naming screen fade-in finishes before sending directional/letter inputs.
 - **Route 102 Layout & Trainers (Turns 175–177, 303–314, 529–570, 1095–1110):**
   - Enter Route 102 from Oldale Town `(0, 10)` at `(49, 10)`.
   - Safe northern tall grass patch (away from trainers): `x=37..38, y=3..6` (approach via `(38, 10) -> (38, 7) -> (37, 7) -> (37, 6)`).
