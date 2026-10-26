@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
+| Route 101 | Mudkip ♂ | MUDKIP | 13 | Deceased (Turn 2521) | Starter (`Met in ROUTE 101` — died to Twins Gina & Mia's Lv. 8 Smeargle `Teeter Dance` + `Follow Me` + `Focus Punch` on Route 104 North) |
 | Route 103 | Wingull ♂ | BOREAS | 13 | Deceased (Turn 2353) | Caught at `(13, 14)`; died to Team Magma Grunt's Lv. 8 Bagon crit + confusion self-hits in Petalburg Woods |
 | Route 102 | Gulpin ♀ | MEDEA | 16 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 15 PP]) |
 | Route 104 (South) | Cubone ♀ | GAIA | 13 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `38 HP / 19 Atk / 33 Def / 15 SpA / 18 SpD / 15 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP], `Secret Power` [Slot 3, 20 PP], `Headbutt` [Slot 4, 15 PP]) |
@@ -240,6 +240,8 @@
 ## Attempt #11 Casualties (Starting Turn 1935)
 - **BOREAS** (Wingull ♂, Lv. 13, `34 HP`, Lax, `Keen Eye`, `BubbleBeam`, `Wing Attack`) — Died on Turn 2353 in Petalburg Woods `(26, 23)` to Team Magma Grunt's `Lv. 8 Bagon` (`Headbutt` critical hit `21 damage` + two consecutive confusion self-hits `34 -> 30 -> 9 -> 5 -> 0/34 HP`).
   - **Root Cause & Tactical Rule:** Queued a 2-turn `BubbleBeam` loop while `BOREAS` was still confused from `Duskull`'s `Confuse Ray`, instead of switching out to cure confusion or executing 1 turn at a time. **Rule:** NEVER queue multi-turn attack loops while confused (`Confuse Ray` / `Supersonic` / `Sweet Kiss` / `Water Pulse`); either switch out immediately to clear confusion for free or execute strictly 1 turn at a time.
+- **MUDKIP** (Mudkip ♂, Lv. 13, `38 HP`, `Torrent`, `Bubble`, `Water Gun`, `Mud Sport`) — Died on Turn 2521 on Route 104 North `(28, 16)` in the Double Battle against Twins Gina & Mia's two `Lv. 8 Smeargle`.
+  - **Root Cause & Tactical Lesson:** Right `Smeargle` (`Follow Me`, `Teeter Dance`, `Milk Drink`) re-confused `MUDKIP` with `Teeter Dance` on Turn 2519. On Turn 2521, `MUDKIP` hurt itself in confusion (`32 -> 26/38 HP`) while Right `Smeargle`'s `Follow Me` redirected `GAIA`'s single-target `Secret Power`, allowing Left `Smeargle` (`~10% HP`) to land an uninterrupted `Focus Punch` (`26 damage -> 0/38 HP`). **Rule:** Against Twins Gina & Mia, remember that Right `Smeargle` spams `Teeter Dance` (confusing the whole field) + `Follow Me`, and Left `Smeargle`'s `Focus Punch` deals `~26 HP` to neutral targets; use Poison-types (`Oddish` / `Gulpin`) that resist `Focus Punch` (`0.5x`) and use **`Acid`** (a 2-target spread move in Gen 3 that bypasses `Follow Me`!), and switch out confused Pokémon if in `Focus Punch` KO range.
 
 <hr>
 
