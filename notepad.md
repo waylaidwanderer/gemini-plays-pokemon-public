@@ -120,7 +120,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Team Aqua Admin Matt DEFEATED at (23, 19) (Mightyena Lv 34, Golbat Lv 34, Prize: ¥1,360).
 - Submarine Explorer 1 departed for the deep ocean trench!
 - Eastern sea route (Route 124) Wailmer blockade in Lilycove City is now cleared!
-- One-way exit teleporter pad located in crate recess at (32, 20).
+
 
 <hr>
 
