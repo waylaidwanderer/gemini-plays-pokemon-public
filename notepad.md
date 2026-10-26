@@ -83,14 +83,10 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
   - Tier 4 Center (45, 17) -> Tier 2 Center (45, 9).
   - Tier 2 Left (42, 9) -> Tier 1 Right (48, 5).
   - Tier 1 Center (45, 5) -> Tier 1 Arrival (45, 3).
-- Active Exploration Route (Targeting Master Ball Room):
-  - Progression Sequence:
-    1. South Canal (3, 20) -> Warp Maze Tier 1 Arrival (45, 3).
-    2. Tier 1 Left Pad (42, 5) -> Warps to Tier 2 Right Pad (48, 9).
-    3. Tier 2 Center Pad (45, 9) -> Warps to Tier 3 Center Pad (45, 13).
-    4. Tier 3 Left Pad (42, 13) -> Warps to Tier 4 Right Pad (48, 17).
-    5. Tier 4 Navigation: From (48, 17), bypass the Center Pad (45, 17) via row 18 to reach the untested Tier 4 Left Pad at (42, 17)!
-  - Tier 4 Left Pad (42, 17) is the verified path to the Master Ball 4-item room!
+- Master Ball Route Completed (Turns 15668-15703):
+  - Path: South Canal (3, 20) -> Tier 1 Left (42, 5) -> Tier 2 Center (45, 9) -> Tier 3 Left (42, 13) -> Tier 4 Left (42, 17) -> Archie's Office (Master Ball & Nugget obtained!).
+  - Exit: Return pad in Archie's Office (23, 10) teleports directly to Tier 1 Entrance (45, 2); pad at (45, 3) returns to South Canal (3, 20).
+
 ## Archie's Office & Master Ball Room Discoveries (Turn 15684)
 - Exact Coordinates of Archie's Office (Master Ball Room):
   - Return warp pad: (23, 10) (two-way return to Warp Maze Tier 4 Left Pad at 42, 17).
