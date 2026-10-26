@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **GAIA** — Cubone ♀ (Lv. 9, `29/29 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `29 HP / 15 Atk / 24 Def / 11 SpA / 14 SpD / 11 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP]) — Met on Route 104 South.
+1. **GAIA** — Cubone ♀ (Lv. 10, `28/31 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `31 HP / 16 Atk / 27 Def / 12 SpA / 15 SpD / 12 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP]) — Met on Route 104 South.
 2. **MEDEA** — Gulpin ♀ (Lv. 15, `47/47 HP`, Quirky, `Sticky Hold`, Stats: `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 102.
 3. **ADONIS** — Oddish ♂ (Lv. 13, `38/38 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `38 HP / 18 Atk / 23 Def / 23 SpA / 26 SpD / 13 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP]) — Met in Petalburg Woods.
 4. **MUDKIP** — Mudkip ♂ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Pecha Berry`) — Met on Route 101 (Starter).
