@@ -960,7 +960,8 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
 4. [ ] Visit Move Deleter's House.
 5. [x] Explore Department Store floors (2F Trainer's Zone, 3F Vitamins, 4F TMs, 5F Rooftop).
 6. [ ] Explore town landmarks (Museum, Harbor, Cove).
-7. [ ] Investigate Team Aqua presence and advance toward Mossdeep City.
+7. [x] Infiltrate Team Aqua Hideout, obtain Master Ball & Nugget, defeat Admin Matt, and witness submarine departure (Turn 15857)! Wailmer blockade to Route 124 is now cleared!
+8. [ ] Surf east across Route 124 to Mossdeep City for Gym 7 (Tate & Liza)!
 - Pokémon Center Interior (1F):
   - Entrance mat at (7, 8).
   - Nurse Joy counter approached at (7, 4) facing North.
@@ -3753,5 +3754,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - Hoenn Fly Map Cursor Navigation: Visited towns are marked with pink circles/rectangles. D-pad cursor movement has a sensitive auto-repeat threshold (~100ms); standard directional presses may step 2 tiles across adjacent nodes. Using calibrated short holds (~70-80ms) prevents overshooting adjacent map nodes.
 - Party Menu Field Move Order: When a Pokémon knows both a field move and an HM (e.g. Guava with Sweet Scent and Fly), the pop-up menu order is: SUMMARY, SWEET SCENT, FLY, SWITCH, ITEM, CANCEL. Cursor defaults to SUMMARY; navigate Down x2 to select FLY.
 - Hoenn Fly Map Single-Step Hold (Verified Turn 15163): On the Hoenn Fly Map, standard directional presses trigger auto-repeat and step 2 grid tiles (~32px). Using calibrated short holds (`hold <Direction> 70..75`) ensures single-tile grid steps (~16px) without overshooting adjacent town nodes. Location name updates in the bottom-right text box when hovering over a valid named node.
+- Surfing Fly Mechanic (Verified Turn 15890-15892): In Gen 3 (Emerald), HM02 Fly can be used while Surfing outdoors. Selecting the current city on the Hoenn Fly Map executes Fly normally and lands the player at that city's outdoor flight landing spot (outside the Pokémon Center) on foot, allowing instant return to town from water without manual backtracking.
 
 <hr>

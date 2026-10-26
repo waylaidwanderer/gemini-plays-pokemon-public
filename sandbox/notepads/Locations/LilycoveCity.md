@@ -24,7 +24,8 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
 4. [ ] Visit Move Deleter's House.
 5. [x] Explore Department Store floors (2F Trainer's Zone, 3F Vitamins, 4F TMs, 5F Rooftop).
 6. [ ] Explore town landmarks (Museum, Harbor, Cove).
-7. [ ] Investigate Team Aqua presence and advance toward Mossdeep City.
+7. [x] Infiltrate Team Aqua Hideout, obtain Master Ball & Nugget, defeat Admin Matt, and witness submarine departure (Turn 15857)! Wailmer blockade to Route 124 is now cleared!
+8. [ ] Surf east across Route 124 to Mossdeep City for Gym 7 (Tate & Liza)!
 - Pokémon Center Interior (1F):
   - Entrance mat at (7, 8).
   - Nurse Joy counter approached at (7, 4) facing North.
