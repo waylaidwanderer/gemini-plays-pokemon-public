@@ -73,10 +73,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **GAIA** — Cubone ♀ (Lv. 13, `38/38 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `38 HP / 19 Atk / 33 Def / 15 SpA / 18 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP], `Headbutt` [Slot 4: `Down, Right`, 15 PP], Holds: `Oran Berry`) — Met on Route 104 South.
-2. **MEDEA** — Gulpin ♀ (Lv. 16, `50/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
+1. **MUDKIP** — Mudkip ♂ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Cheri Berry`) — Met on Route 101 (Starter).
+2. **GAIA** — Cubone ♀ (Lv. 13, `38/38 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `38 HP / 19 Atk / 33 Def / 15 SpA / 18 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP], `Headbutt` [Slot 4: `Down, Right`, 15 PP], Holds: `Oran Berry`) — Met on Route 104 South.
 3. **ADONIS** — Oddish ♂ (Lv. 15, `42/42 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `42 HP / 20 Atk / 26 Def / 26 SpA / 29 SpD / 14 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Left, Down`, 10 PP], Holds: `Oran Berry`) — Met in Petalburg Woods.
-4. **MUDKIP** — Mudkip ♂ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Cheri Berry`) — Met on Route 101 (Starter).
+4. **MEDEA** — Gulpin ♀ (Lv. 16, `50/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
