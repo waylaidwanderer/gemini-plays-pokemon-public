@@ -46,15 +46,16 @@
   2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`], `Lv. 9 Vulpix` [`Confuse Ray`]).
   3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge; have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` [Left: `Focus Punch`] and `Lv. 8 Smeargle ♂` [Right: `Follow Me`, holds `Sitrus Berry`]). **Solution:** Use `CALYPSO`'s spread move **`Bubble` (Slot 2: `Up, Right`)**, which hits BOTH foes (skipping target selection), bypasses `Follow Me`, and causes Left `Smeargle`'s `Focus Punch` to fail every turn while `ATLAS`'s `Bone Club` KOs Right `Smeargle`!
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory 6-Pokémon boss trainer with a Fisherman overworld sprite facing `Left` with a 5-tile sight range across `(24..28, 8)` at the north end of the bridge; leads with `Lv. 9 Eevee ♂` (`Curse`, holds `Sitrus Berry`) and `Lv. 9 Pikachu ♂` (`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`, custom boosted stats `~36 HP` / `~21 Spd`). **Solution:** Train 3–4 party members to Lv. 13–14, equip `Oran Berries` from `(3, 23)`, and use **`Mud Sport` (Slot 3: `Down, Left`)** on `Mudkip` on Turn 1 against Red's passive lead `Lv. 9 Eevee` (`Curse`) BEFORE knocking out `Eevee` with `Water Gun` so `Mud Sport` (`0.5x` Electric power) is already active when `Lv. 9 Pikachu` enters battle!
-- **Attempt #10 Level 15 Cap & Balanced Team Training Rule (Roxanne Cap = Lv. 15):**
+- **Attempt #11 Level 15 Cap & Balanced Team Training Rule (Roxanne Cap = Lv. 15):**
   - Keep all party members at or below **Level 15** before challenging Gym Leader Roxanne.
-  - With `TERRA` (`Sandshrew`, Lv. 10) as our sole surviving Pokémon on Route 102, finish Bug Catcher Rick, deposit `.pw'` at the Oldale PC, harvest the Route 102 `Oran` and `Pecha` Berries at `(24..25, 2)` (equipping a `Pecha Berry` on `TERRA` for Bug Catcher Allen's `Weedle`), bypass optional Lass Tiana along `y=4`, defeat Bug Catcher Allen to reach Petalburg City, and immediately catch and train our **Route 104 South** encounter before fighting any Route 104 trainers.
+  - Before crossing the Route 104 North bridge to `PKMN Trainer Red` `(29, 8)`, train `Mudkip` and at least **2–3 caught teammates to Level 13–14**, equip each with a held `Oran Berry` (`+10 HP`), and use **`Mud Sport` (Slot 3: `Down, Left`)** on Turn 1 vs Red's passive lead `Lv. 9 Eevee` (`Curse`).
+  - Never queue multi-turn attack loops when poisoned (`PSN`); heal & equip `Oran`/`Pecha` Berries right at `(25, 3)` on Route 102 immediately after harvesting them; and pause at `(17, 4)` to visually verify Lass Tiana's position/facing before crossing `(15..16, 4)`.
 - **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(22, 41)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP]) — Met on Route 102.
+1. **TBD (Mudkip)** — Selecting from Professor Birch's Bag on Route 101.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
