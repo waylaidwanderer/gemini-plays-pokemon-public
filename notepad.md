@@ -23,6 +23,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Crate Room (20, 4) | (32, 19) | Return pad to Eastern Laboratory. |
 | Machinery Chamber East (18, 13) | (12, 13) | Western Machinery Chamber south catwalk (Nest Ball at 3, 13). |
 | Machinery Chamber West (12, 13) | (18, 13) | Return pad to Eastern Machinery Chamber. |
+| Machinery Chamber Far East (30, 9) | UNVISITED | Sighted Turn 15750; leads toward Submarine Dock. |
 | Canal Chamber South (3, 20) | (45, 3) | Reached via south canal walkway (rows 21..22); enters Warp Maze Tier 1. |
 | Warp Maze Tier 1 Arrival (45, 3) | (3, 20) | Return pad to Canal Chamber South. |
 | Warp Maze Tier 1 Left (42, 5) | (48, 9) | Warps to Tier 2 Right Pad. |
