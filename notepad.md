@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
 | Route 103 | Wingull ♂ | BOREAS | 13 | Deceased (Turn 2353) | Caught at `(13, 14)`; died to Team Magma Grunt's Lv. 8 Bagon crit + confusion self-hits in Petalburg Woods |
 | Route 102 | Gulpin ♀ | MEDEA | 15 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 15 PP]) |
-| Route 104 (South) | Cubone ♀ | GAIA | 12 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `36 HP / 18 Atk / 31 Def / 14 SpA / 17 SpD / 14 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP], `Secret Power` [Slot 3, 20 PP]) |
+| Route 104 (South) | Cubone ♀ | GAIA | 13 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `38 HP / 19 Atk / 33 Def / 15 SpA / 18 SpD / 15 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP], `Secret Power` [Slot 3, 20 PP], `Headbutt` [Slot 4, 15 PP]) |
 | Petalburg Woods | Oddish ♂ | ADONIS | 15 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `42 HP / 20 Atk / 26 Def / 26 SpA / 29 SpD / 14 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 10 PP]) |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **GAIA** — Cubone ♀ (Lv. 12, `36/36 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `36 HP / 18 Atk / 31 Def / 14 SpA / 17 SpD / 14 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 104 South.
+1. **GAIA** — Cubone ♀ (Lv. 13, `38/38 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `38 HP / 19 Atk / 33 Def / 15 SpA / 18 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP], `Headbutt` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 104 South.
 2. **MEDEA** — Gulpin ♀ (Lv. 15, `42/47 HP`, Quirky, `Sticky Hold`, Stats: `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 102.
 3. **ADONIS** — Oddish ♂ (Lv. 15, `42/42 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `42 HP / 20 Atk / 26 Def / 26 SpA / 29 SpD / 14 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Left, Down`, 10 PP]) — Met in Petalburg Woods.
 4. **MUDKIP** — Mudkip ♂ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Pecha Berry`) — Met on Route 101 (Starter).
