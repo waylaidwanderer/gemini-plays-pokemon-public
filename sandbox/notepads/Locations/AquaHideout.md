@@ -39,6 +39,9 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Warp Maze Tier 4 Left (42, 17) | (23, 10) | SUCCESS! Teleports to Archie's Office / Master Ball 4-Item Room! |
 | Archie's Office Pad (23, 10) | (45, 2) | Return pad to Warp Maze Tier 1 Entrance (above 45, 3). |
 | Master Ball 4-Item Room | (15, 9) | FOUND & COLLECTED! Top-Left = Master Ball, Top-Right = Nugget, Bottom = 2 Electrodes. |
+| Upper Northern Chamber (8, 8) | (31, 17) | Teleports to Crate Corridor / Dock Approach. |
+| Crate Corridor Return Pad (31, 17) | (8, 8) | Return pad to Upper Northern Chamber. |
+| Crate Corridor Recess Pad (32, 20) | (31, 4) | One-way exit warp directly to B1F Hub Right Pad! |
 
 ## Topography & Navigation - 1F (100% Fully Mapped & Verified)
 - Entrance Water Channel: (13, 27) entered from cove, leads north to dock stairs.
@@ -106,17 +109,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Computer workstations with monitors, trash cans, and orange stools along cols 6..8 on teal circular tile floor.
 ## Topography & Navigation - Upper Northern Chamber (Double Battle Chamber)
 - Entered via northeastern doorway in Executive Lab at (12, 1) -> spawns at (12, 2) facing South.
-- Team Aqua Grunt Duo (Female Grunt & Male Grunt) defeated at cols 11..13, row 5 in Double Battle (Zubat Lv 32, Carvanha Lv 32, Prize: ¥1,280; Sage Leaf Blade 8/15, Cipher reached Lv 15).
-- Two warp pads visible at bottom-left of chamber (approx cols 6 and 9, row 8).
-- Adjacent chamber to the east features another northern doorway arch and distillation unit.
-
-## Systematic Teleporter Warp Map (Additions)
-| Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
-| :--- | :--- | :--- |
-| Upper Northern Chamber (8, 8) | (31, 17) | Teleports to Crate Corridor / Dock Approach. |
-| Crate Corridor Return Pad (31, 17) | (8, 8) | Return pad to Upper Northern Chamber. |
-| Crate Corridor Recess Pad (32, 20) | (31, 4) | One-way exit warp directly to B1F Hub Right Pad! |
-## Submarine Docking Bay
+- Team Aqua Grunt Duo (Female Grunt & Male Grunt) defeated at cols 11..13, row 5 i## Submarine Docking Bay
 - Location: Reached via Crate Corridor past (24, 17) -> dock entrance at (24, 19).
 - Team Aqua Admin Matt DEFEATED at (23, 19) (Mightyena Lv 34, Golbat Lv 34, Prize: ¥1,360).
 - Submarine Explorer 1 departed for the deep ocean trench!

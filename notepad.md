@@ -41,6 +41,9 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 | Warp Maze Tier 4 Left (42, 17) | (23, 10) | SUCCESS! Teleports to Archie's Office / Master Ball 4-Item Room! |
 | Archie's Office Pad (23, 10) | (45, 2) | Return pad to Warp Maze Tier 1 Entrance (above 45, 3). |
 | Master Ball 4-Item Room | (15, 9) | FOUND & COLLECTED! Top-Left = Master Ball, Top-Right = Nugget, Bottom = 2 Electrodes. |
+| Upper Northern Chamber (8, 8) | (31, 17) | Teleports to Crate Corridor / Dock Approach. |
+| Crate Corridor Return Pad (31, 17) | (8, 8) | Return pad to Upper Northern Chamber. |
+| Crate Corridor Recess Pad (32, 20) | (31, 4) | One-way exit warp directly to B1F Hub Right Pad! |
 
 ## Topography & Navigation - 1F (100% Fully Mapped & Verified)
 - Entrance Water Channel: (13, 27) entered from cove, leads north to dock stairs.
@@ -108,17 +111,7 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Computer workstations with monitors, trash cans, and orange stools along cols 6..8 on teal circular tile floor.
 ## Topography & Navigation - Upper Northern Chamber (Double Battle Chamber)
 - Entered via northeastern doorway in Executive Lab at (12, 1) -> spawns at (12, 2) facing South.
-- Team Aqua Grunt Duo (Female Grunt & Male Grunt) defeated at cols 11..13, row 5 in Double Battle (Zubat Lv 32, Carvanha Lv 32, Prize: ¥1,280; Sage Leaf Blade 8/15, Cipher reached Lv 15).
-- Two warp pads visible at bottom-left of chamber (approx cols 6 and 9, row 8).
-- Adjacent chamber to the east features another northern doorway arch and distillation unit.
-
-## Systematic Teleporter Warp Map (Additions)
-| Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
-| :--- | :--- | :--- |
-| Upper Northern Chamber (8, 8) | (31, 17) | Teleports to Crate Corridor / Dock Approach. |
-| Crate Corridor Return Pad (31, 17) | (8, 8) | Return pad to Upper Northern Chamber. |
-| Crate Corridor Recess Pad (32, 20) | (31, 4) | One-way exit warp directly to B1F Hub Right Pad! |
-## Submarine Docking Bay
+- Team Aqua Grunt Duo (Female Grunt & Male Grunt) defeated at cols 11..13, row 5 i## Submarine Docking Bay
 - Location: Reached via Crate Corridor past (24, 17) -> dock entrance at (24, 19).
 - Team Aqua Admin Matt DEFEATED at (23, 19) (Mightyena Lv 34, Golbat Lv 34, Prize: ¥1,360).
 - Submarine Explorer 1 departed for the deep ocean trench!
@@ -3567,10 +3560,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: TEAM AQUA HIDEOUT COMPLETED! MASTER BALL & NUGGET SECURED! Admin Matt defeated, submarine departed. Exiting hideout to heal in Lilycove City, then advancing to Mossdeep City for Gym 7! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
+- Status: TEAM AQUA HIDEOUT COMPLETED! MASTER BALL & NUGGET SECURED! Admin Matt defeated, submarine departed. Exiting hideout to heal in Lilycove City, then advancing to Mossdeep City for Gym 7! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 15 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (5/10), Pursuit (19/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 133/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
+1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (5/10), Pursuit (19/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 68/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
 2. LILZ (Lombre ♀, Level 26) - Evolved from Lotad on turn 4926! Level 26 on turn 15063! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 0/75. Max HP: 75. Status: FNT.
 3. CIPHER (Abra ♂, Level 15) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.

@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 52, Male), Nickname: SAGE
-- Status: TEAM AQUA HIDEOUT COMPLETED! MASTER BALL & NUGGET SECURED! Admin Matt defeated, submarine departed. Exiting hideout to heal in Lilycove City, then advancing to Mossdeep City for Gym 7! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 14 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
+- Status: TEAM AQUA HIDEOUT COMPLETED! MASTER BALL & NUGGET SECURED! Admin Matt defeated, submarine departed. Exiting hideout to heal in Lilycove City, then advancing to Mossdeep City for Gym 7! Party: Sage Lv 53 (HP 133/162), Lilz Lv 26 (FNT 0/75), Cipher Lv 15 (HP 32/32), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 29/29), Guava Lv 28 (HP 95/95).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (5/10), Pursuit (19/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 133/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
+1. SAGE (Sceptile ♂, Level 53) - Evolved on turn 5632! Level 53 on turn 15481! Moves: Rock Tomb (5/10), Pursuit (19/20), Leaf Blade (7/15), Quick Attack (30/30). HP: 68/162. Max HP: 162. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 52: HP 159, Atk 115, Def 86, Sp.Atk 128, Sp.Def 115, Speed 153.
 2. LILZ (Lombre ♀, Level 26) - Evolved from Lotad on turn 4926! Level 26 on turn 15063! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 0/75. Max HP: 75. Status: FNT.
 3. CIPHER (Abra ♂, Level 15) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 32/32. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
