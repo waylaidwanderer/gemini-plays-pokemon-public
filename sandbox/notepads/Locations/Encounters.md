@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 11 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `34 HP / 22 Atk / 17 Def / 19 SpA / 16 SpD / 16 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
 | Route 103 | Wingull ♂ | BOREAS | 12 | Active | Caught at `(13, 14)` (Lax [`+Def / -SpD`], `Keen Eye`, `32 HP / 13 Atk / 13 Def / 21 SpA / 13 SpD / 28 Spd`, `Wing Attack` [Slot 1, 35 PP], `Water Gun` [Slot 2, 25 PP], `Quick Attack` [Slot 3, 30 PP]) |
-| Route 102 | Gulpin ♀ | MEDEA | 13 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `42 HP / 16 Atk / 20 Def / 18 SpA / 20 SpD / 15 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP]) |
+| Route 102 | Gulpin ♀ | MEDEA | 14 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `45 HP / 17 Atk / 21 Def / 19 SpA / 21 SpD / 16 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 10 PP]) |
 | Route 104 (South) | Cubone ♀ | GAIA | 7 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP]) |
 | Petalburg Woods | Oddish ♂ | ADONIS | 8 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `27 HP / 13 Atk / 16 Def / 15 SpA / 18 SpD / 10 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP]) |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
