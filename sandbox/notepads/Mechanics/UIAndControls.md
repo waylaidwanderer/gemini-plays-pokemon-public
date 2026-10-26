@@ -50,7 +50,7 @@
 - **Oldale Town:**
   - South border (from Route 101): `(10, 19)` / `(11, 19)`.
   - Pokémon Center door: `(6, 16)` (exits to `(6, 17)`). After stepping `Down` out of the Pokémon Center `(6, 16)` or Poké Mart `(14, 6)`, always wait `["B", "sleep 2500"]` for the door-exit step animation to finish before sending directional inputs. From `(6, 17)`, walk `Right` 5 to `(11, 17)` and `Up` 7 along column **`x=11`** to `(11, 10)` to bypass the wandering girl NPC at `x=8..9, y=13..14`, then walk `Left` along `y=10` into Route 102 `(49, 10)`.
-  - Poké Mart door: `(14, 6)` (exits to `(14, 7)`; free Potion clerk stands at `(13, 7)`, so step `Down` from `(14, 7)` to `(14, 8)` before walking `Left`).
+  - Poké Mart door: `(14, 6)` (exits to `(14, 7)`; free Potion clerk stands at `(13, 7)`, so step `Down` from `(14, 7)` to `(14, 8)` before walking `Left`). To reach `(14, 6)` from `(10, 17)` without hitting the wandering NPC at `x=8..10`, the signpost at `(11, 11)`, or the house at `x=13..16`, walk `Right` 2 to `(12, 17)`, `Up` 9 along clear column `x=12` to `(12, 8)`, `Right` 2 to `(14, 8)`, and `Up` 2 into `(14, 6)`.
   - North border (to Route 103): `x=10, y=0` (transitions to `(10, 21)` on Route 103).
 
 ## Verified Findings (Turns 124–150)
