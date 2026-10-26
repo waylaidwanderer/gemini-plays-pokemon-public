@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TBD (Mudkip)** — Selecting from Professor Birch's Bag on Route 101.
+1. **SCYLLA** — Mudkip ♀ (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.

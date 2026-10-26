@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | TBD | TBD | - | Pending | Starter (`Met in ROUTE 101` — claims Route 101 encounter) |
+| Route 101 | Mudkip ♀ | SCYLLA | 5 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `21 HP`) |
 | Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TBD (Mudkip)** — Selecting from Professor Birch's Bag on Route 101.
+1. **SCYLLA** — Mudkip ♀ (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Growl` [Slot 2: `Up, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
