@@ -133,3 +133,5 @@
 ## Attempt #10 Casualties (Starting Turn 1646)
 - **OBERON** (Ledyba ♂, Lv. 8, `26 HP`, Brave, `Swarm`, `Silver Wind`, `Aerial Ace`) — Died on Turn 1915 on Route 101 `(4, 2)` to a wild `Lv. 3 Pidgey` (`Quick Attack`) during `level10_grinder` execution after taking two `Quick Attack` hits from a wild `Lv. 3 Sentret` (`16 -> 6 -> 0/26 HP`).
   - **Lesson:** Do not delegate fragile early-stage Bug/Flying Pokémon (`Lv. 4–8 Ledyba`, Base 30 Defense) to `level10_grinder` on Route 101 where wild `Sentret`, `Rattata`, and `Pidgey` spam priority `Quick Attack`; instead, switch-train fragile catches or level them directly with supervised healing.
+- **.pw'** (Mudkip ♂, Lv. 10, `32 HP`, `Torrent`, `Water Gun`) — Died on Turn 1919 on Route 102 `(26, 15)` against Bug Catcher Rick's `Lv. 5 Kakuna` / `Lv. 5 Cascoon` after queuing a 4-turn `Water Gun` loop while poisoned (`PSN`) instead of switching to `TERRA` or executing 1 turn at a time.
+  - **Lesson:** NEVER queue multi-turn attack loops when your active Pokémon is poisoned (`PSN`); switch immediately to an unpoisoned teammate or step 1 turn at a time to monitor HP after every poison tick.

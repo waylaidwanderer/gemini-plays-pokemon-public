@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | .pw' | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
+| Route 101 | Mudkip ♂ | .pw' | 10 | Deceased | Starter (`Met in ROUTE 101`) — Fainted Turn 1919 vs Bug Catcher Rick while poisoned |
 | Route 103 | Ledyba ♂ | OBERON | 8 | Deceased | Caught at `(13, 14)` — Fainted Turn 1915 on Route 101 to wild `Lv. 3 Pidgey` (`Quick Attack`) |
 | Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Defense Curl` [Slot 2, 40 PP], `Poison Sting` [Slot 3, 35 PP]) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
@@ -66,14 +66,13 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory 6-Pokémon boss trainer with a Fisherman overworld sprite facing `Left` with a 5-tile sight range across `(24..28, 8)` at the north end of the bridge; leads with `Lv. 9 Eevee ♂` (`Curse`, holds `Sitrus Berry`) and `Lv. 9 Pikachu ♂` (`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`, custom boosted stats `~36 HP` / `~21 Spd`). **Solution:** Train 3–4 party members to Lv. 13–14, equip `Oran Berries` from `(3, 23)`, and use **`Mud Sport` (Slot 3: `Down, Left`)** on `Mudkip` on Turn 1 against Red's passive lead `Lv. 9 Eevee` (`Curse`) BEFORE knocking out `Eevee` with `Water Gun` so `Mud Sport` (`0.5x` Electric power) is already active when `Lv. 9 Pikachu` enters battle!
 - **Attempt #10 Level 15 Cap & Balanced Team Training Rule (Roxanne Cap = Lv. 15):**
   - Keep all party members at or below **Level 15** before challenging Gym Leader Roxanne.
-  - Before crossing the Route 104 North bridge to `PKMN Trainer Red` `(29, 8)`, train `.pw'` (`Mudkip`), `OBERON` (`Ledyba`), and our Route 102 / Route 104 South / Petalburg Woods teammates to **Level 13–14** and equip each with a held `Oran Berry` (`+10 HP`).
+  - With `TERRA` (`Sandshrew`, Lv. 10) as our sole surviving Pokémon on Route 102, finish Bug Catcher Rick, deposit `.pw'` at the Oldale PC, harvest the Route 102 `Oran` and `Pecha` Berries at `(24..25, 2)` (equipping a `Pecha Berry` on `TERRA` for Bug Catcher Allen's `Weedle`), bypass optional Lass Tiana along `y=4`, defeat Bug Catcher Allen to reach Petalburg City, and immediately catch and train our **Route 104 South** encounter before fighting any Route 104 trainers.
 - **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(22, 41)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **.pw'** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 15 Def / 17 SpA / 15 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
+1. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -220,6 +219,8 @@
 ## Attempt #10 Casualties (Starting Turn 1646)
 - **OBERON** (Ledyba ♂, Lv. 8, `26 HP`, Brave, `Swarm`, `Silver Wind`, `Aerial Ace`) — Died on Turn 1915 on Route 101 `(4, 2)` to a wild `Lv. 3 Pidgey` (`Quick Attack`) during `level10_grinder` execution after taking two `Quick Attack` hits from a wild `Lv. 3 Sentret` (`16 -> 6 -> 0/26 HP`).
   - **Lesson:** Do not delegate fragile early-stage Bug/Flying Pokémon (`Lv. 4–8 Ledyba`, Base 30 Defense) to `level10_grinder` on Route 101 where wild `Sentret`, `Rattata`, and `Pidgey` spam priority `Quick Attack`; instead, switch-train fragile catches or level them directly with supervised healing.
+- **.pw'** (Mudkip ♂, Lv. 10, `32 HP`, `Torrent`, `Water Gun`) — Died on Turn 1919 on Route 102 `(26, 15)` against Bug Catcher Rick's `Lv. 5 Kakuna` / `Lv. 5 Cascoon` after queuing a 4-turn `Water Gun` loop while poisoned (`PSN`) instead of switching to `TERRA` or executing 1 turn at a time.
+  - **Lesson:** NEVER queue multi-turn attack loops when your active Pokémon is poisoned (`PSN`); switch immediately to an unpoisoned teammate or step 1 turn at a time to monitor HP after every poison tick.
 
 <hr>
 
