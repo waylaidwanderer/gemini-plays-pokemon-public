@@ -327,7 +327,7 @@
   - **Grass-Free Exit from Bug Catcher Allen `(13, 4)` to Petalburg City (Verified Turn 586):** Walk `Left` 2 to `(11, 4)`, `Down` 4 to `(11, 8)`, and `Left` 12 along grass-free `y=8` into Petalburg City at `(29, 18)`.
   - **Petalburg City Coordinates (Verified Turns 588–590):**
     - East entrance (from Route 102): `(29, 18)`.
-    - Pokémon Center door: `(20, 16)` (exits to `(20, 17)`).
+    - Pokémon Center door: `(20, 16)` (exits to `(20, 17)`; note that the Pokémon Center signpost is at `(17, 16)`, so to reach the Petalburg Gym from `(20, 17)`, walk `Left` 5 to `(15, 17)` and straight `Up` 9 along clear column `x=15` into `(15, 8)`).
     - Poké Mart door: `(25, 12)` (exits to `(25, 13)`; approach from `(18, 11)` via `Right` 5 to `(23, 11)`, `Down` 2 to `(23, 13)`, `Right` 2 to `(25, 13)`, `Up` 1 into `(25, 12)`).
     - Petalburg Gym door: `(15, 8)` (exits to `(15, 9)`).
     - West exit (to Route 104 South): From `(15, 9)`, walk `Left` 3 to `(12, 9)`, `Down` 2 to `(12, 11)`, `Left` 10 to `(2, 11)` (triggers Scott's intro dialogue at `(4, 11)`), `Down` 1 to `(2, 12)`, and `Left` 3 onto Route 104 South at `(39, 62)`.
