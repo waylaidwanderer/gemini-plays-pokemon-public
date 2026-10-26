@@ -6,6 +6,6 @@
 | Route 103 | Wingull ♂ | BOREAS | 13 | Deceased (Turn 2353) | Caught at `(13, 14)`; died to Team Magma Grunt's Lv. 8 Bagon crit + confusion self-hits in Petalburg Woods |
 | Route 102 | Gulpin ♀ | MEDEA | 15 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 15 PP]) |
 | Route 104 (South) | Cubone ♀ | GAIA | 10 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `31 HP / 16 Atk / 27 Def / 12 SpA / 15 SpD / 12 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP], `Secret Power` [Slot 3, 20 PP]) |
-| Petalburg Woods | Oddish ♂ | ADONIS | 13 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `38 HP / 18 Atk / 23 Def / 23 SpA / 26 SpD / 13 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP]) |
+| Petalburg Woods | Oddish ♂ | ADONIS | 14 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `40 HP / 19 Atk / 24 Def / 24 SpA / 28 SpD / 13 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 10 PP]) |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
