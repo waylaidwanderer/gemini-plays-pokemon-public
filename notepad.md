@@ -9,7 +9,7 @@
 | Route 102 | Gulpin ♀ | MEDEA | 16 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 15 PP]) |
 | Route 104 (South) | Cubone ♀ | GAIA | 15 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `42 HP / 22 Atk / 38 Def / 17 SpA / 20 SpD / 16 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP], `Secret Power` [Slot 3, 20 PP], `Headbutt` [Slot 4, 15 PP]) |
 | Petalburg Woods | Gloom ♂ | ADONIS | 16 | Active | Caught at `(23, 35)` as `Oddish`, evolved into `Gloom` at Lv. 16 (Careful [`+SpD / -SpA`], `Chlorophyll`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 16 PP], `Magical Leaf` [Slot 4, 20 PP]) |
-| Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
+| Route 116 | Yanma ♂ | HERMES | 9 | Active | Caught at `(4, 13)` (`Speed Boost`, `Silver Wind`, `Quick Attack`, `Wing Attack`) |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
 
 <hr>
@@ -75,7 +75,8 @@
 ## Active Party
 1. **ADONIS** — Gloom ♂ (Lv. 16, `45/49 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Down, Left`, 16 PP], `Magical Leaf` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods (evolved from `Oddish` at Lv. 16).
 2. **GAIA** — Cubone ♀ (Lv. 15, `42/42 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `42 HP / 22 Atk / 38 Def / 17 SpA / 20 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP], `Secret Power` [Slot 3: `Down, Left`, 20 PP], `Headbutt` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 104 South.
-3. **MEDEA** — Gulpin ♀ (Lv. 16, `50/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
+3. **MEDEA** — Gulpin ♀ (Lv. 16, `38/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
+4. **HERMES** — Yanma ♂ (Lv. 9, `Speed Boost`, Moves: `Quick Attack`, `Silver Wind`, `Wing Attack`) — Met on Route 116.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
