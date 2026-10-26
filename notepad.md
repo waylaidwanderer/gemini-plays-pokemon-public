@@ -29,8 +29,8 @@
 2. **First Encounter Only:** Catch only the first wild Pokémon encountered in each unique area once Poké Balls are obtained (`Locations/Encounters.md`).
 3. **Nicknames:** Always give creative nicknames to every Pokémon caught/received.
 4. **Level Caps:**
-   - Gym 1 (Roxanne): **Lv. 15**
-   - Gym 2 (Brawly): **Lv. 19**
+   - Gym 1 (Roxanne): **Lv. 16*** (Harness cap = `16`; Roxanne's ace is Lv. 15)
+   - Gym 2 (Brawly): **Lv. 20*** (Harness cap = `20`; Brawly's ace is Lv. 19)
    - Gym 3 (Wattson): **Lv. 24**
    - Gym 4 (Flannery): **Lv. 29**
    - Gym 5 (Norman): **Lv. 31**
@@ -59,9 +59,9 @@
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Lv. 8 Spinarak` [holds `Berry Juice`, knows `Night Shade`], `Lv. 8 Ledyba` [knows `Protect`], `Lv. 8 Venonat` [knows `Stun Spore`]).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras` [4x weak to Fire], `Lv. 8 Surskit` [knows `Psybeam`, `Mega Drain`], `Lv. 9 Nincada` [`Giga Drain`, `Scratch`; Base 90 Def vs Base 30 SpD — OHKO'd by Special Fire/Water moves]).
   3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock` — 2HKO'd by `Mudkip`'s `Mud Sport` + `Water Gun` or OHKO'd from 52% HP by `Lv. 14 MEDEA`'s `Fire Punch`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief` — hard-countered by `Lv. 14 MEDEA`'s Poison typing + `Sticky Hold` + `Fire Punch`], `Lv. 9 Houndour` [`Ember`, `Pursuit` — OHKO'd by `Lv. 14 MEDEA`'s 90-BP STAB `Sludge Bomb` against its Base 30 Defense without switching out!], `Lv. 8 Bagon` [`Headbutt` — 2HKO'd by `BOREAS`'s `BubbleBeam`], and `Lv. 8 Duskull` [`Protect`, `Night Shade`, `Confuse Ray`, holds `Leftovers`]).
-- **Route 104 (North) Trainers (Verified Turns 1601–1617):**
-  1. **Rich Boy Winston `(21, 26)`:** Faces `Up` across `(21, 25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, holds `Oran Berry`]).
-  2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`], `Lv. 9 Vulpix` [`Confuse Ray`]).
+- **Route 104 (North) Trainers (Verified Turns 1601–1617, 2481–2489):**
+  1. **Rich Boy Winston `(21, 26)` (DEFEATED Turn 2485):** Faces `Up` across `(21, 25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, `Metronome`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, `Bite`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, holds `Oran Berry`]).
+  2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`/`PoisonPowder`], `Lv. 9 Vulpix` [`Confuse Ray`]).
   3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge; have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` [Left: `Focus Punch`] and `Lv. 8 Smeargle ♂` [Right: `Follow Me`, holds `Sitrus Berry`]). **Solution:** Use `CALYPSO`'s spread move **`Bubble` (Slot 2: `Up, Right`)**, which hits BOTH foes (skipping target selection), bypasses `Follow Me`, and causes Left `Smeargle`'s `Focus Punch` to fail every turn while `ATLAS`'s `Bone Club` KOs Right `Smeargle`!
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory 6-Pokémon boss trainer with a Fisherman overworld sprite facing `Left` with a 5-tile sight range across `(24..28, 8)` at the north end of the bridge; leads with `Lv. 9 Eevee ♂` (`Curse`, holds `Sitrus Berry`) and `Lv. 9 Pikachu ♂` (`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`, custom boosted stats `~36 HP` / `~21 Spd`). **Solution:** Train 3–4 party members to Lv. 13–14, equip `Oran Berries` from `(3, 23)`, and use **`Mud Sport` (Slot 3: `Down, Left`)** on `Mudkip` on Turn 1 against Red's passive lead `Lv. 9 Eevee` (`Curse`) BEFORE knocking out `Eevee` with `Water Gun` so `Mud Sport` (`0.5x` Electric power) is already active when `Lv. 9 Pikachu` enters battle!
 - **Attempt #11 Level 15 Cap & Balanced Team Training Rule (Roxanne Cap = Lv. 15):**
