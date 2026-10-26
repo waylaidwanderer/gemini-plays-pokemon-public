@@ -2,7 +2,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | MUDKIP | 7 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `25 HP / 16 Atk / 12 Def / 14 SpA / 11 SpD / 12 Spd`) |
+| Route 101 | Mudkip ♂ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `32 HP / 20 Atk / 16 Def / 18 SpA / 14 SpD / 15 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
 | Route 103 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 102 | TBD | TBD | - | Pending | Open after obtaining Poké Balls |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
