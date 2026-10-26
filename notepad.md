@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | MUDKIP | 10 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `32 HP / 20 Atk / 16 Def / 18 SpA / 14 SpD / 15 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
 | Route 103 | Wingull ♂ | BOREAS | 10 | Active | Caught at `(13, 14)` (Lax [`+Def / -SpD`], `Keen Eye`, `28 HP / 12 Atk / 12 Def / 18 SpA / 11 SpD / 24 Spd`, `Wing Attack` [Slot 1, 35 PP], `Water Gun` [Slot 2, 25 PP], `Quick Attack` [Slot 3, 30 PP]) |
 | Route 102 | Gulpin ♀ | MEDEA | 13 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `42 HP / 16 Atk / 20 Def / 18 SpA / 20 SpD / 15 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP]) |
-| Route 104 (South) | Cubone ♀ | GAIA | 7 | Active | Caught at `(24, 61)` (Ground, knows `Bone Club`, `Rock Throw`) |
+| Route 104 (South) | Cubone ♀ | GAIA | 7 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP]) |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
 | Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
@@ -73,9 +73,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MEDEA** — Gulpin ♀ (Lv. 13, `42/42 HP`, Quirky, `Sticky Hold`, Stats: `42 HP / 16 Atk / 20 Def / 18 SpA / 20 SpD / 15 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], Holds: `Oran Berry`) — Met on Route 102.
+1. **GAIA** — Cubone ♀ (Lv. 7, `25/25 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
 2. **MUDKIP** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 16 Def / 18 SpA / 14 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Pecha Berry`) — Met on Route 101 (Starter).
 3. **BOREAS** — Wingull ♂ (Lv. 10, `28/28 HP`, Lax [`+Def / -SpD`], `Keen Eye`, Stats: `28 HP / 12 Atk / 12 Def / 18 SpA / 11 SpD / 24 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], Holds: `Oran Berry`) — Met on Route 103.
+4. **MEDEA** — Gulpin ♀ (Lv. 13, `42/42 HP`, Quirky, `Sticky Hold`, Stats: `42 HP / 16 Atk / 20 Def / 18 SpA / 20 SpD / 15 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], Holds: `Oran Berry`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
