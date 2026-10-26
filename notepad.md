@@ -111,7 +111,11 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 - Computer workstations with monitors, trash cans, and orange stools along cols 6..8 on teal circular tile floor.
 ## Topography & Navigation - Upper Northern Chamber (Double Battle Chamber)
 - Entered via northeastern doorway in Executive Lab at (12, 1) -> spawns at (12, 2) facing South.
-- Team Aqua Grunt Duo (Female Grunt & Male Grunt) defeated at cols 11..13, row 5 i## Submarine Docking Bay
+- Team Aqua Grunt Duo (Female Grunt & Male Grunt) defeated at cols 11..13, row 5 in Double Battle (Zubat Lv 32, Carvanha Lv 32, Prize: ¥1,280; Sage Leaf Blade 8/15, Cipher reached Lv 15).
+- Two warp pads visible at bottom-left of chamber (approx cols 6 and 9, row 8).
+- Adjacent chamber to the east features another northern doorway arch and distillation unit.
+
+## Submarine Docking Bay
 - Location: Reached via Crate Corridor past (24, 17) -> dock entrance at (24, 19).
 - Team Aqua Admin Matt DEFEATED at (23, 19) (Mightyena Lv 34, Golbat Lv 34, Prize: ¥1,360).
 - Submarine Explorer 1 departed for the deep ocean trench!
