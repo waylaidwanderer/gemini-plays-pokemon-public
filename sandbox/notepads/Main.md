@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MEDEA** — Gulpin ♀ (Lv. 6, `25/25 HP`, Quirky, `Sticky Hold`, Stats: `25 HP / 10 Atk / 12 Def / 11 SpA / 12 SpD / 10 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP]) — Met on Route 102.
+1. **MEDEA** — Gulpin ♀ (Lv. 10, `35/35 HP`, Quirky, `Sticky Hold`, Stats: `35 HP / 13 Atk / 16 Def / 15 SpA / 17 SpD / 13 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP]) — Met on Route 102.
 2. **MUDKIP** — Mudkip ♂ (Lv. 10, `32/32 HP`, `Torrent`, Stats: `32 HP / 20 Atk / 16 Def / 18 SpA / 14 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 3. **BOREAS** — Wingull ♂ (Lv. 10, `28/28 HP`, Lax [`+Def / -SpD`], `Keen Eye`, Stats: `28 HP / 12 Atk / 12 Def / 18 SpA / 11 SpD / 24 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP]) — Met on Route 103.
 
