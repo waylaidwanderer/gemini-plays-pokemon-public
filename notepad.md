@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter (`Met in ROUTE 101` — claims Route 101 encounter; `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, `Tackle` [Slot 1], `Bubble` [Slot 2], `Mud Sport` [Slot 3], `Water Gun` [Slot 4]) |
 | Route 103 | Wingull ♂ | BOREAS | 13 | Active | Caught at `(13, 14)` (Lax [`+Def / -SpD`], `Keen Eye`, `34 HP / 14 Atk / 14 Def / 22 SpA / 13 SpD / 30 Spd`, `Wing Attack` [Slot 1, 35 PP], `Water Gun` [Slot 2, 25 PP], `Quick Attack` [Slot 3, 30 PP], `BubbleBeam` [Slot 4, 20 PP]) |
-| Route 102 | Gulpin ♀ | MEDEA | 14 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `45 HP / 17 Atk / 21 Def / 19 SpA / 21 SpD / 16 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 10 PP]) |
+| Route 102 | Gulpin ♀ | MEDEA | 15 | Active | Caught at `(38, 6)` (Quirky, `Sticky Hold`, `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, `Acid` [Slot 1, 30 PP], `Yawn` [Slot 2, 10 PP], `Fire Punch` [Slot 3, 15 PP], `Sludge Bomb` [Slot 4, 15 PP]) |
 | Route 104 (South) | Cubone ♀ | GAIA | 7 | Active | Caught at `(24, 61)` (Adamant [`+Atk / -SpA`], `Rock Head`, `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, `Bone Club` [Slot 1, 20 PP], `Rock Throw` [Slot 2, 15 PP]) |
 | Petalburg Woods | Oddish ♂ | ADONIS | 8 | Active | Caught at `(23, 35)` (Careful [`+SpD / -SpA`], `Chlorophyll`, `27 HP / 13 Atk / 16 Def / 15 SpA / 18 SpD / 10 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP]) |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
@@ -74,7 +74,7 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 13, `38/38 HP`, `Torrent`, Stats: `38 HP / 25 Atk / 19 Def / 21 SpA / 18 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`], Holds: `Pecha Berry`) — Met on Route 101 (Starter).
-2. **MEDEA** — Gulpin ♀ (Lv. 14, `45/45 HP`, Quirky, `Sticky Hold`, Stats: `45 HP / 17 Atk / 21 Def / 19 SpA / 21 SpD / 16 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 10 PP]) — Met on Route 102.
+2. **MEDEA** — Gulpin ♀ (Lv. 15, `22/47 HP`, Quirky, `Sticky Hold`, Stats: `47 HP / 18 Atk / 22 Def / 20 SpA / 23 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP]) — Met on Route 102.
 3. **BOREAS** — Wingull ♂ (Lv. 13, `34/34 HP`, Lax [`+Def / -SpD`], `Keen Eye`, Stats: `34 HP / 14 Atk / 14 Def / 22 SpA / 13 SpD / 30 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`, 35 PP], `Water Gun` [Slot 2: `Up, Right`, 25 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `BubbleBeam` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
 4. **GAIA** — Cubone ♀ (Lv. 7, `25/25 HP`, Adamant [`+Atk / -SpA`], `Rock Head`, Stats: `25 HP / 13 Atk / 20 Def / 9 SpA / 12 SpD / 10 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`, 20 PP], `Rock Throw` [Slot 2: `Up, Right`, 15 PP]) — Met on Route 104 South.
 5. **ADONIS** — Oddish ♂ (Lv. 8, `27/27 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `27 HP / 13 Atk / 16 Def / 15 SpA / 18 SpD / 10 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP]) — Met in Petalburg Woods.
