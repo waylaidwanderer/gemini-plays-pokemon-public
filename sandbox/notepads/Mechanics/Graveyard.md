@@ -144,3 +144,9 @@
   1. **Never Queue Multi-Turn Loops When Poisoned (`PSN`):** Switch out immediately or execute 1 turn at a time whenever poisoned.
   2. **Heal & Equip `Oran` / `Pecha` Berries Right at `(25, 3)` Immediately After Harvesting:** As soon as we pick the Berries at `(24, 2)` and `(25, 2)`, open the Bag right at `(25, 3)` to heal to 100% HP and equip an `Oran Berry` / `Pecha Berry` BEFORE taking a single step west toward `x=15..16`!
   3. **Pause at `(17, 4)` to Check Lass Tiana `(15..16, 5..6)`:** Stop at `(17, 4)` and inspect `<CurrentScreen>`: if we have a Flying/Bug/Poison counter (`Wingull`/`Spearow`/`Ledyba`/`Gulpin`/`Hoothoot`), challenge her at 100% HP with an `Oran Berry` equipped; if not, wait until she is on `y=6` or facing away from `Up` before walking `Left` 4 across `(16..13, 4)` to `(13, 4)`.
+
+---
+
+## Attempt #11 Casualties (Starting Turn 1935)
+- **BOREAS** (Wingull ♂, Lv. 13, `34 HP`, Lax, `Keen Eye`, `BubbleBeam`, `Wing Attack`) — Died on Turn 2353 in Petalburg Woods `(26, 23)` to Team Magma Grunt's `Lv. 8 Bagon` (`Headbutt` critical hit `21 damage` + two consecutive confusion self-hits `34 -> 30 -> 9 -> 5 -> 0/34 HP`).
+  - **Root Cause & Tactical Rule:** Queued a 2-turn `BubbleBeam` loop while `BOREAS` was still confused from `Duskull`'s `Confuse Ray`, instead of switching out to cure confusion or executing 1 turn at a time. **Rule:** NEVER queue multi-turn attack loops while confused (`Confuse Ray` / `Supersonic` / `Sweet Kiss` / `Water Pulse`); either switch out immediately to clear confusion for free or execute strictly 1 turn at a time.
