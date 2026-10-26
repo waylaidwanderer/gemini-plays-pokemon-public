@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | .pw' | 10 | Deceased | Starter (`Met in ROUTE 101`) — Fainted Turn 1919 vs Bug Catcher Rick while poisoned |
 | Route 103 | Ledyba ♂ | OBERON | 8 | Deceased | Caught at `(13, 14)` — Fainted Turn 1915 on Route 101 to wild `Lv. 3 Pidgey` (`Quick Attack`) |
-| Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Defense Curl` [Slot 2, 40 PP], `Poison Sting` [Slot 3, 35 PP]) |
+| Route 102 | Sandshrew ♂ | TERRA | 10 | Active | Caught at `(38, 6)` (Rash [`+SpA / -SpD`], `Sand Veil`, `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP]) |
 | Route 104 (South) | TBD | TBD | - | Pending | Open after Petalburg Gym Wally event |
 | Petalburg Woods | TBD | TBD | - | Pending | Open after Route 104 South |
 | Route 116 | TBD | TBD | - | Pending | Open east of Rustboro City |
@@ -72,7 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Defense Curl` [Slot 2: `Up, Right`, 40 PP], `Poison Sting` [Slot 3: `Down, Left`, 35 PP]) — Met on Route 102.
+1. **TERRA** — Sandshrew ♂ (Lv. 10, `31/31 HP`, Rash [`+SpA / -SpD`], `Sand Veil`, Stats: `31 HP / 22 Atk / 22 Def / 9 SpA / 11 SpD / 14 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
