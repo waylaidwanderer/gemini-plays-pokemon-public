@@ -48,3 +48,8 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Col 24 at row 25 is blocked by cliff corner.
   - Foot of stairs approached from (25..26, 26) facing North.
   - Top landing at (25..26, 21) opens onto city avenue.
+- Pokémon Center (Exterior):
+  - Located on the lower western avenue at cols 27..32, rows 11..15.
+  - Red roof with white Pokéball emblem, 'P.C' sign on right wall.
+  - Blue sliding entrance doors at (28..29, 15), approached from (28..29, 16) facing North.
+  - Signpost located to the left of the building at (25, 14).

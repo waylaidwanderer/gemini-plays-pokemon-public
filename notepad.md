@@ -1568,6 +1568,12 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Col 24 at row 25 is blocked by cliff corner.
   - Foot of stairs approached from (25..26, 26) facing North.
   - Top landing at (25..26, 21) opens onto city avenue.
+- Pokémon Center (Exterior):
+  - Located on the lower western avenue at cols 27..32, rows 11..15.
+  - Red roof with white Pokéball emblem, 'P.C' sign on right wall.
+  - Blue sliding entrance doors at (28..29, 15), approached from (28..29, 16) facing North.
+  - Signpost located to the left of the building at (25, 14).
+
 
 <hr>
 
@@ -3674,7 +3680,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 54, Male), Nickname: SAGE
-- Status: TEAM AQUA HIDEOUT COMPLETED! MASTER BALL & NUGGET SECURED! Admin Matt defeated, submarine departed. Party fully healed at Lilycove Pokémon Center! Advancing to Mossdeep City for Gym 7! Party: Sage Lv 54 (HP 165/165), Lilz Lv 26 (HP 75/75), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
+- Status: ARRIVED IN MOSSDEEP CITY! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Approaching Mossdeep Pokémon Center to register checkpoint! Party: Sage Lv 54 (HP 165/165), Lilz Lv 26 (HP 75/75), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (30/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.
