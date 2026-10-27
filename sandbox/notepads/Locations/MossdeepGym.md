@@ -45,3 +45,11 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
   - Eastern chamber visible across black void with green conveyor arrows and warp pads at (11, 34) and (13, 31).
 ## Trainers Defeated - Mossdeep Gym
 - Psychic ♂ Preston: Defeated at (1, 30) on Turn 16077 (Kirlia Lv 36 ♂, OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 14/15).
+- Psychic ♀ Maura: Defeated at (4, 30) on Turn 16084 (Kadabra Lv 36 ♂, OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 13/15).
+
+## Systematic Warp Teleporter Map
+| Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
+| :--- | :--- | :--- |
+| Room 1 SW Pad (1, 33) | Pending | Southwest corner of Room 1 |
+| Room 1 North Pad (3, 28) | Testing (Turn 16085) | North alcove behind yellow switch |
+| Room 1 East Pad (6, 30) | Pending | East alcove of Room 1 |
