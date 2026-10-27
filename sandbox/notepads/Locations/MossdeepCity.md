@@ -37,3 +37,8 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Shallow water channel extends south along col 13 toward the southwestern beach.
   - Sandy beach sighted to the southwest around cols 8..10, row 23+.
   - Trainer sighted to the southeast near (20, 25).
+- Southwest Beach Entrance (Turn 16044-16045):
+  - Shallow water channel along col 13 reaches open beach area at row 25.
+  - Western sandbar spans cols 7..8, rows 22..29.
+  - Trainer stationed at (20, 25) facing West.
+  - Main city entrance routes South to row 27..28, then East under the cliff toward the Pokémon Center.
