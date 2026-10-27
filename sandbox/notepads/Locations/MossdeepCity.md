@@ -20,7 +20,7 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 
 ## Progression Checklist - Mossdeep City
 1. [x] Arrive in Mossdeep City from Route 124 (Turn 16034 at pos 0, 13).
-2. [ ] Disembark onto land and register checkpoint at Pokémon Center.
+2. [x] Disembark onto land and register checkpoint at Pokémon Center (Turn 16055 at pos 7, 4)! Checkpoint set!
 3. [ ] Obtain Super Rod from the Fisherman's house.
 4. [ ] Visit Steven Stone's house (northwest).
 5. [ ] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge.
