@@ -69,6 +69,6 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 - Mossdeep Gym (Exterior):
   - Located in the north-central district at cols 35..41, rows 7..10.
   - Signpost at (34, 9): 'MOSSDEEP CITY POKéMON GYM / LEADERS: TATE & LIZA / THE MYSTIC COMBINATION!'.
-  - Double sliding entrance doors at cols 37..38, row 10, approached from (37..38, 11) facing North.
+  - Double sliding entrance doors at cols 37..38, row 9; entrance warp triggers at (38, 9) approached from (38, 10) stepping North.
   - Red-roofed residential house located directly west of Gym at cols 28..33, rows 7..9.
   - Sailor NPC stationed at (39, 11) east of Gym doors.
