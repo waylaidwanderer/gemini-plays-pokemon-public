@@ -1616,18 +1616,31 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 5. [ ] Defeat all Gym trainers.
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
-## Discovered Topography & Navigation - 1F Entrance Lobby
+## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
 - Spawns at (6, 35) on orange entrance mat (cols 6..7, row 35).
 - Gym Statues at (4, 34) and (7, 34).
 - Gym Guide stationed at (5, 33) facing South.
-- Main corridor leads North past statues along cols 6..7 to row 30+.
 - Gym Guide Advice: Gym Leaders Tate & Liza specialize in Psychic-type Pokémon in a Double Battle; avoid Fighting- and Poison-type Pokémon due to weakness; expect coordinated combination attacks.
-- Room 1 Puzzle Topography:
-  - Yellow conveyor loop surrounds central area: yellow arrows at (3, 30) [Left], (4, 28) [Left], (7, 30) [Up].
-  - Yellow square floor switch at (5, 30).
-  - Statues on the conveyor track at (4, 30), (6, 30), (7, 28).
-  - Trainers on/near track: Psychic ♀ at (2, 30), Psychic ♂ at (6, 29).
-  - Teleport warp pads: (2, 32) at southwest, (5, 29) at north center, (9, 29) at northeast.
+- Room 1 Puzzle Architecture (Verified via Crop Turn 16069):
+  - Track 1 (West 2x2, cols 2..3, rows 29..30):
+    - (2, 29): Statue
+    - (3, 29): Yellow conveyor arrow [Left]
+    - (2, 30): Psychic ♀ trainer (facing East)
+    - (3, 30): Statue
+  - Central Corridor (Col 4):
+    - (4, 28): Blue Warp Pad 2 (North Alcove)
+    - (4, 29): Walkway tile
+    - (4, 30): Yellow floor switch
+    - (4, 31..32): Walkway corridor connecting to lobby
+  - Track 2 (East 2x2, cols 5..6, rows 29..30):
+    - (5, 29): Psychic ♂ trainer (facing South)
+    - (6, 29): Statue
+    - (5, 30): Statue
+    - (6, 30): Yellow conveyor arrow [Up]
+  - Teleport Warp Pads:
+    - Warp Pad 1: (2, 33) in southwest corner
+    - Warp Pad 2: (4, 28) in north-center alcove
+    - Warp Pad 3: (7, 30) in east alcove
   - Eastern chamber visible across black void with green conveyor arrows and warp pads at (11, 34) and (13, 31).
 
 <hr>
