@@ -58,13 +58,19 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
-- Room 2 layout (cols 1..7, rows 18..23):
+- Room 2 layout (cols 1..8, rows 18..23):
   - (1, 23): Arrival warp pad (returns to Room 1 at 3, 28).
   - (3, 23): Walkway tile extending south from (3, 22).
-  - (3, 24): NPC with dark hair standing facing South overlooking the void (testing interaction).
+  - (3, 24): Non-interactable NPC with dark hair standing facing South overlooking the void.
   - (2, 21): Yellow floor switch.
   - (3, 21): Stationary orange divider block.
-  - (4..5, rows 20..21): Conveyor track with yellow arrows at (4, 21) [Right] and (5, 21) [Up].
-  - (3, 20): Psychic ♀ trainer on north wall facing East.
-  - (4, 20): Statue on track.
-  - Northeast Alcove: Progression warp pad located at (6, 18) behind orange divider at (6, 19).
+  - Track State after Switch 1 (Turn 16090):
+    - (4, 21): Psychic ♀ trainer (facing South).
+    - (4, 20): Statue (slid from 5, 20).
+    - (5, 20): Yellow conveyor arrow [Left].
+    - (5, 21): Yellow conveyor arrow [Up].
+    - (2..3, row 20): Walkway along north wall.
+  - Northeast Alcove:
+    - (6, 18): Blue circular warp pad.
+    - (8, 18): Blue circular warp pad.
+    - (7, 18..20): Walkway corridor connecting to northeast pads.
