@@ -190,3 +190,16 @@
      - NEVER queue an attack on Turn N+1 in the same `run_code` script as a switch on Turn N (because Trainer AI frequently switches out low-HP Pokémon on the same turn you switch!).
   2. **Verify Speed Strict Inequality Before Staying In at Low HP:** Moving first once only proves `YourSpeed >= EnemySpeed` (which includes a 50/50 Speed tie).
   3. **Evolve `Mudkip -> Lv. 16 Marshtomp` (`Mud Shot` + `Water Gun`) & Bring All 6 Teammates to Level 15–16 Before Rustboro Gym:** Use `Rare Candies` to bring our entire 6-Pokémon party to Level 15–16, preserve our Flying/Fire/Rock/Electric counters for Tammy's `Lv. 11 Yanma`, and never pre-queue moves across switches.
+
+---
+
+## Attempt #13 Wipe Post-Mortem (Turn 3293 — Route 103)
+- **Casualties:**
+  - **MUDKIP** (Mudkip ♂, Lv. 11, `32 HP`, `Torrent`) — Died on Turn 3293 on Route 103 `(11, 14)` to a wild `Lv. 4 Wingull` (`Wing Attack` critical hit from `8/32 HP`) — **TOTAL PARTY WIPEOUT (Attempt #13 Over)**.
+- **Root Causes of Attempt #13 Wipe:**
+  1. **Walking Across Tall Grass at Low HP (`8/32 HP`) Without Using Our Overworld `Potion` First:** After fleeing `Lv. 4 Sunkern` at `8/32 HP` on `(12, 14)`, we tried to walk across tall grass `(11, 14)` back to the Oldale Pokémon Center instead of opening the Bag right at `(12, 14)` to use our PC `Potion` (`+20 HP -> 28/32 HP`).
+  2. **Queueing `heal_seq` (`Up, A, A, A, A`) in the Same `run_code` Script After Walking Through Tall Grass:** Stepping onto `(11, 14)` triggered two consecutive wild encounters, so `heal_seq` executed inside the second wild battle (`Lv. 4 Wingull`) and selected `FIGHT -> Tackle` at `8/32 HP` instead of `RUN`.
+- **Tactical Rules for Attempt #14:**
+  1. **Never Queue Pokémon Center `heal_seq` (`Up, A, A, A, A`) in the Same `run_code` Script as Tall-Grass Movement:** Always confirm you have entered the Pokémon Center (or reached grass-free ground) before sending `A` presses.
+  2. **Buy 5 Potions Alongside 10 Poké Balls at the Oldale Poké Mart & Heal in Place Before Stepping in Grass:** Always heal to `100% HP` in the overworld immediately after a battle before taking a single step in tall grass.
+  3. **Enter Route 103 Grass at `(10, 15)` (1 Step from Grass-Free `(10, 16)`):** Step into `(10, 15)` from `(10, 16)` on Route 103 so that 1 step `Down` returns directly to grass-free `(10, 16)`.
