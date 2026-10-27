@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Mudkip ♀ (Lv. 15, `41/41 HP`, holding `Pecha Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter).
+1. **ATETHYS** — Mudkip ♀ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter).
 2. **SELENE** — Delcatty ♀ (Lv. 16, `48/48 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `48 HP / 28 Atk / 28 Def / 22 SpA / 20 SpD / 34 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 2/20 PP]) — Met on Route 103 (evolved via `Moon Stone` at Lv. 15; `482 EXP` remaining before Lv. 17 — keep benched unless needed!).
 
 ## Notepad Index
