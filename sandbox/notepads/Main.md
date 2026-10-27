@@ -55,8 +55,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ADONIS** — Gloom ♂ (Lv. 21 [Will be retired for the Roxanne & Brawly boss fights before unbenching for Wattson], `62/62 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `62 HP / 32 Atk / 40 Def / 38 SpA / 45 SpD / 22 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Down, Left`, 16 PP], `Magical Leaf` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
+1. **RHEA** — Sandshrew ♀ (Lv. 12 [`NEXT LV.: 469`], `14/36 HP`, Jolly [`+Spd / -SpA`], `Sand Veil`, Stats: `36 HP / 24 Atk / 27 Def / 9 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 5 PP]) — Met in Rusturf Tunnel.
 2. **MEDEA** — Gulpin ♀ (Lv. 18 [Will be retired for the Lv. 16 Roxanne boss fight before unbenching for Brawly], `55/55 HP`, Quirky, `Sticky Hold`, Stats: `55 HP / 20 Atk / 26 Def / 23 SpA / 26 SpD / 20 Spd`, Moves: `Giga Drain` [Slot 1: `Up, Left`, 5 PP — learned at Lv. 17 over `Acid`!], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
+3. **ADONIS** — Gloom ♂ (Lv. 21 [Will be retired for the Roxanne & Brawly boss fights before unbenching for Wattson], `58/62 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `62 HP / 32 Atk / 40 Def / 38 SpA / 45 SpD / 22 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Down, Left`, 16 PP], `Magical Leaf` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.

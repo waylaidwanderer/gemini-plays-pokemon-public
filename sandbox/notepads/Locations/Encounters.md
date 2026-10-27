@@ -8,4 +8,4 @@
 | Route 104 (South) | Cubone ♀ | GAIA | 16 | Deceased (Turn 2677) | Caught at `(24, 61)`; died to School Kid Josh's lead Lv. 15 Geodude `Selfdestruct` in Rustboro Gym after 85%-accurate `Bone Club` missed |
 | Petalburg Woods | Gloom ♂ | ADONIS | 21 | Active (Bench for Roxanne/Brawly) | Caught at `(23, 35)` as `Oddish`, evolved into `Gloom` at Lv. 16 (Careful [`+SpD / -SpA`], `Chlorophyll`, `62 HP / 32 Atk / 40 Def / 38 SpA / 45 SpD / 22 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 16 PP], `Magical Leaf` [Slot 4, 20 PP]) |
 | Route 116 | Yanma ♂ | HERMES | 12 | Deceased (Turn 2799) | Caught at `(4, 13)`; died to Bug Maniac Jose's `Lv. 10 Beedrill` (`Secret Power` crit on switch-in from `20/40 HP`) |
-| Rusturf Tunnel | TBD | TBD | - | Pending | Open east of Route 116 |
+| Rusturf Tunnel | Sandshrew ♀ | RHEA | 12 | Active | Caught at `(5, 10)` (Jolly [`+Spd / -SpA`], `Sand Veil`, `36 HP / 24 Atk / 27 Def / 9 SpA / 15 SpD / 18 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP], `Sand-Attack` [Slot 3, 5 PP]) |
