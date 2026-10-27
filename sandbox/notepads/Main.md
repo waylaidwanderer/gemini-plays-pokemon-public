@@ -55,9 +55,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OCEANUS** — Marshtomp ♂ (Lv. 16, `29/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 915 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-3. **AETHER** — Electrike ♂ (Lv. 16, `21/43 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `43 HP / 17 Atk / 18 Def / 29 SpA / 19 SpD / 28 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
+1. **OCEANUS** — Marshtomp ♂ (Lv. 16, `29/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 482 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+2. **AETHER** — Electrike ♂ (Lv. 16, `21/43 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `43 HP / 17 Atk / 18 Def / 29 SpA / 19 SpD / 28 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
