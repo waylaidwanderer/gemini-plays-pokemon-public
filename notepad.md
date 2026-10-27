@@ -1586,6 +1586,35 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Eastern cliff wall rises at col 41 east of the Poké Mart.
   - North-South avenue runs along cols 33..34 between Pokémon Center and Poké Mart, leading North toward the northern district / Gym.
   - South avenue routes under Poké Mart along row 19 heading East.
+- Mossdeep Gym (Exterior):
+  - Located in the north-central district at cols 35..41, rows 7..10.
+  - Signpost at (34, 9): 'MOSSDEEP CITY POKéMON GYM / LEADERS: TATE & LIZA / THE MYSTIC COMBINATION!'.
+  - Double sliding entrance doors at cols 37..38, row 10, approached from (37..38, 11) facing North.
+  - Red-roofed residential house located directly west of Gym at cols 28..33, rows 7..9.
+  - Sailor NPC stationed at (39, 11) east of Gym doors.
+
+<hr>
+
+<h1><code>Locations/MossdeepGym</code></h1>
+
+# Location: Mossdeep Gym
+
+## Overview
+The seventh official Pokémon Gym in Hoenn, located in the north-central district of Mossdeep City.
+- Gym Leaders: Tate & Liza (The Mystic Combination!)
+- Type Specialty: Psychic-type (Double Battle)
+- Badge Reward: Mind Badge (enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def) + TM04 Calm Mind.
+
+## Connection Points
+- Entrance / Exit: South doors leading out to Mossdeep City avenue at (37..38, 11).
+
+## Progression Checklist - Mossdeep Gym
+1. [x] Locate Mossdeep Gym in Mossdeep City (Turn 16063).
+2. [ ] Enter Mossdeep Gym.
+3. [ ] Consult Gym Guide at entrance.
+4. [ ] Navigate gym conveyor / teleporter switch puzzles.
+5. [ ] Defeat all Gym trainers.
+6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 <hr>
 
