@@ -57,7 +57,7 @@
 ## Active Party
 1. **ADONIS** — Gloom ♂ (Lv. 18 [Temporarily over Lv. 16 Roxanne cap; will clear non-boss trainers and be retired for the Roxanne battle itself before unbenching for Lv. 20 Brawly cap], `54/54 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `54 HP / 28 Atk / 35 Def / 33 SpA / 39 SpD / 20 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Down, Left`, 16 PP], `Magical Leaf` [Slot 4: `Down, Right`, 20 PP], Holds: `Cheri Berry`) — Met in Petalburg Woods.
 2. **MEDEA** — Gulpin ♀ (Lv. 16 [`NEXT LV.: 151`], `50/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
-3. **HERMES** — Yanma ♂ (Lv. 9, `32/32 HP`, Careful [`+SpD / -SpA`], `Speed Boost`, Stats: `32 HP / 16 Atk / 14 Def / 16 SpA / 14 SpD / 24 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP], `Foresight` [Slot 2: `Up, Right`, 5 PP], `Quick Attack` [Slot 3: `Left, Down`, 30 PP]) — Met on Route 116.
+3. **HERMES** — Yanma ♂ (Lv. 10, `35/35 HP`, Careful [`+SpD / -SpA`], `Speed Boost`, Stats: `35 HP / 18 Atk / 15 Def / 18 SpA / 15 SpD / 26 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP], `Foresight` [Slot 2: `Up, Right`, 5 PP], `Quick Attack` [Slot 3: `Left, Down`, 30 PP]) — Met on Route 116.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
