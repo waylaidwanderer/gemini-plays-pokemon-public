@@ -31,4 +31,4 @@ A massive open ocean route in eastern Hoenn connecting Lilycove City on the west
   - Open water channel runs east along rows 25..27.
 ## Trainers Defeated - Route 124
 - Swimmer ♂ Declan: Defeated at (7, 28) on Turn 15959 (Gyarados Lv 34; Prize: ¥272; Sage took 0 damage, Leaf Blade 13/15).
-- Swimmer ♀: Challenged at (7, 25) on Turn 15960.
+- Swimmer ♀ Grace: Defeated at (7, 25) on Turn 15969 (Marill Lv 34; Prize: ¥272; Sage took 0 damage, Leaf Blade 12/15).
