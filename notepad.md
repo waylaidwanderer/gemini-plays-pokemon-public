@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | — | — | — | Pending | Starter (`Met in ROUTE 101` claims Route 101) |
+| Route 101 | Mudkip ♂ | OCEANUS | 5 | Active | Starter (`Met in ROUTE 101` claims Route 101) |
 
 <hr>
 
@@ -67,7 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-- *Pending starter selection in Professor Birch's Bag on Route 101.*
+1. **OCEANUS** — Mudkip ♂ (Lv. 5, `Torrent`, Moves: `Tackle`, `Growl`) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
