@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | ATETHYS | 15 | Active | Starter (`Met in ROUTE 101`; Careful [`+SpD / -SpA`], `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`) |
-| Route 103 | Delcatty ♀ | SELENE | 16 | Active | Caught as `Skitty` at `(11, 14)` holding `Moon Stone`; evolved at Lv. 15 (`48 HP / 28 Atk / 28 Def / 22 SpA / 20 SpD / 34 Spd`, `Fake Out`, `Attract`, `Sing`, `Secret Power`) |
+| Route 103 | Delcatty ♀ | SELENE | 16 | Deceased | Died at `(26, 23)` in Petalburg Woods to Team Magma Grunt's `Lv. 8 Duskull` (`Will-O-Wisp` burn) |
 | Route 102 | Spoink ♂ | — | 6 | Fainted | Crit-KO'd at `(37, 5)` by `Water Gun` |
 | Route 104 (South) | Nidoran♀ | HERA | 14 | Deceased | Died at `(23, 35)` in Petalburg Woods to wild `Lv. 8 Phanpy` (`Mud Shot` crit) |
 | Petalburg Woods | Phanpy ♂ | — | 8 | Fled | Had `Cute Charm` + `Mud Shot`; fled after KOing `HERA` |
@@ -71,8 +71,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Mudkip ♀ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter).
-2. **SELENE** — Delcatty ♀ (Lv. 16, `48/48 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `48 HP / 28 Atk / 28 Def / 22 SpA / 20 SpD / 34 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 2/20 PP]) — Met on Route 103 (evolved via `Moon Stone` at Lv. 15; `482 EXP` remaining before Lv. 17 — keep benched unless needed!).
+1. **ATETHYS** — Mudkip ♀ (Lv. 15, `8/41 HP`, `PAR`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 13/25 PP]) — Met on Route 101 (Starter).
+*(Note: Deceased Slot 2 `SELENE` [Lv. 16 Delcatty] must be deposited in the PC Graveyard box as soon as we reach the Pokémon Center.)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -295,6 +295,8 @@
 ## Attempt #14 Casualties (Starting Turn 3294)
 - **HERA** (Nidoran♀, Lv. 14, `42 HP`, Bold, `Poison Point`, `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) — Died on Turn 3401 in Petalburg Woods `(23, 35)` to a wild `Lv. 8 Phanpy ♂` (`Mud Shot` — 2x Super Effective + `-1 Speed` drop on Turn 1 [`40 -> 27/42 HP`], followed by a 2x Super Effective + 2x Critical Hit `Mud Shot` [`27 -> 0/42 HP`] on Turn 2 of a pre-queued 2-turn `Double Kick` + `Scratch` sequence; `Phanpy` also had custom ability `Cute Charm`).
   - **Root Cause & Tactical Rule:** Kept a 2x Ground-weak Poison-type (`HERA`) in against a Ground-type (`Lv. 8 Phanpy`) and queued 2 consecutive weakening turns (`Double Kick` + `Scratch`) after seeing `Phanpy` use a weak move on Turn 1. When `Phanpy` used 55-BP STAB `Mud Shot` on Turn 1 of the queued sequence (`13 damage` + `-1 Speed` drop, leaving `HERA` at `27/42 HP` and slower than `Phanpy`), the pre-queued Turn 2 `Scratch` prevented switching out and allowed `Phanpy` to outspeed and land a `27-damage` critical-hit `Mud Shot` on Turn 2 (and the trailing `B` presses selected `No` on `"Use next POKéMON?"`, fleeing the encounter). **Rule:** NEVER keep a 2x type-weak Pokémon in against a wild Pokémon of that offensive type, and NEVER queue 2 turns in a row when weakening a wild encounter! Always execute wild weakening 1 turn at a time with a neutral/resistant Pokémon.
+- **SELENE** (Delcatty ♀, Lv. 16, `48 HP`, Lax, `Cute Charm`, `Fake Out`, `Attract`, `Sing`, `Secret Power`) — Died on Turn 3445 in Petalburg Woods `(26, 23)` to Team Magma Grunt's final Pokémon, `Lv. 8 Duskull` (`Will-O-Wisp` burn ticks + `Confuse Ray` + 3 consecutive `Protect`s).
+  - **Root Cause & Tactical Lesson:** Kept `SELENE` in to burn `Secret Power` / `Fake Out` PP while `Duskull` was asleep, not knowing `Duskull`'s 4th move was `Will-O-Wisp`. When `Duskull` woke up and inflicted `BRN` (`-6 HP/turn`), `SELENE` was placed on a burn timer and `Duskull` rolled 3 consecutive `Protect`s (`100% * 50% * 25%`) to stall out her remaining burn HP. **Rule:** Team Magma Grunt's `Lv. 8 Duskull` knows **4 moves: `Protect`, `Night Shade`, `Confuse Ray`, and `Will-O-Wisp`** (holds `Leftovers`). Always cure paralysis on `Mudkip` or keep `Mudkip` at high HP (`>25 HP`) entering `Duskull` so `Mudkip` outspeeds `Duskull` (`7 Speed`) and 2HKOs it with `Water Gun` without relying on sleep turns.
 
 <hr>
 
