@@ -1613,7 +1613,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 2. [x] Enter Mossdeep Gym (Turn 16065).
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
-5. [ ] Defeat all Gym trainers.
+5. [ ] Defeat all Gym trainers (4 defeated: Preston, Maura, Blake, Samantha).
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
@@ -3434,7 +3434,7 @@ A massive open ocean route in eastern Hoenn connecting Lilycove City on the west
 ## Progression Checklist - Route 124
 1. [x] Surf east from Lilycove City through the sea rock passage (Turn 15948).
 2. [x] Navigate across Route 124 to Mossdeep City (Arrived Turn 16034!).
-3. [ ] Register checkpoint at Mossdeep City Pokémon Center.
+3. [x] Register checkpoint at Mossdeep City Pokémon Center (Turn 16055).
 4. [ ] Challenge Gym 7 (Tate & Liza) for the Mind Badge.
 
 ## Discovered Topography & Navigation
