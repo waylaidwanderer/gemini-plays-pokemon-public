@@ -1574,6 +1574,12 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Blue sliding entrance doors at (28..29, 15), approached from (28..29, 16) facing North.
   - Signpost located to the left of the building at (25, 14).
 
+- Pokémon Center Interior (1F):
+  - Entrance mat at (7, 8).
+  - Nurse Joy counter approached at (7, 4) facing North.
+  - 2F Escalator at (1, 6).
+  - Table at (10..11, 6..7).
+  - PC Terminal on the right wall.
 
 <hr>
 
