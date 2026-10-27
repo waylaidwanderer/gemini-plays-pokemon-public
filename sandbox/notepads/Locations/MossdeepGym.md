@@ -64,18 +64,10 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
   - (3, 24): Non-interactable NPC with dark hair standing facing South overlooking the void.
   - (2, 21): Yellow floor switch.
   - (3, 21): Stationary orange divider block.
-  - Track State after Switch 1 (Turn 16090):
-    - (4, 21): Psychic ♀ trainer (facing South).
-    - (4, 20): Statue (slid from 5, 20).
-    - (5, 20): Yellow conveyor arrow [Left].
-    - (5, 21): Yellow conveyor arrow [Up].
-    - (2..3, row 20): Walkway along north wall.
-  - Track State after Switch 2 (Turn 16108):
-    - (4, 21): Statue (slid from 4, 20).
-    - (5, 21): Defeated Psychic Samantha (slid from 4, 21).
-    - (4, 20): Yellow conveyor arrow [Down].
-    - (5, 20): Yellow conveyor arrow [Left].
-    - (2..3, row 20): Walkway along north wall.
+  - 2x2 Conveyor Loop Mechanics (cols 4..5, rows 20..21):
+    - Conveyor arrows are fixed directional tiles: (4, 20) [Down], (4, 21) [Right], (5, 20) [Left], (5, 21) [Up].
+    - Yellow switch shifts the movable objects (Statue and defeated Samantha) around the loop.
+    - Arrow at (5, 20) pointing Left acts as a one-way return chute from the Northeast Alcove back into Room 2.
   - Northeast Alcove:
     - (6, 18): Blue circular warp pad.
     - (8, 18): Blue circular warp pad.
