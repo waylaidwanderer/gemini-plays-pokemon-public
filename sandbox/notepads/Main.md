@@ -55,8 +55,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Mudkip ♀ (Lv. 15, `8/41 HP`, `PAR`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 13/25 PP]) — Met on Route 101 (Starter).
-*(Note: Deceased Slot 2 `SELENE` [Lv. 16 Delcatty] must be deposited in the PC Graveyard box as soon as we reach the Pokémon Center.)*
+1. **ATETHYS** — Mudkip ♀ (Lv. 15, `41/41 HP`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25/25 PP]) — Met on Route 101 (Starter; automatically healed to 100% HP/PP/status by the Devon Researcher after defeating the Team Magma Grunt).
+*(Note: Deceased Slot 2 `SELENE` [Lv. 16 Delcatty] is being deposited in the PC Graveyard box at the Petalburg City Pokémon Center.)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
