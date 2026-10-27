@@ -10,7 +10,7 @@
 | Route 104 (South) | Cubone ♀ | GAIA | 16 | Deceased (Turn 2677) | Caught at `(24, 61)`; died to School Kid Josh's lead Lv. 15 Geodude `Selfdestruct` in Rustboro Gym after 85%-accurate `Bone Club` missed |
 | Petalburg Woods | Gloom ♂ | ADONIS | 21 | Active (Bench for Roxanne/Brawly) | Caught at `(23, 35)` as `Oddish`, evolved into `Gloom` at Lv. 16 (Careful [`+SpD / -SpA`], `Chlorophyll`, `62 HP / 32 Atk / 40 Def / 38 SpA / 45 SpD / 22 Spd`, `Mega Drain` [Slot 1, 10 PP], `Acid` [Slot 2, 30 PP], `Toxic` [Slot 3, 16 PP], `Magical Leaf` [Slot 4, 20 PP]) |
 | Route 116 | Yanma ♂ | HERMES | 12 | Deceased (Turn 2799) | Caught at `(4, 13)`; died to Bug Maniac Jose's `Lv. 10 Beedrill` (`Secret Power` crit on switch-in from `20/40 HP`) |
-| Rusturf Tunnel | Sandshrew ♀ | RHEA | 13 | Active | Caught at `(5, 10)` (Jolly [`+Spd / -SpA`], `Sand Veil`, `38 HP / 26 Atk / 28 Def / 9 SpA / 16 SpD / 20 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP], `Sand-Attack` [Slot 3, 5 PP]) |
+| Rusturf Tunnel | Sandshrew ♀ | RHEA | 14 | Active | Caught at `(5, 10)` (Jolly [`+Spd / -SpA`], `Sand Veil`, `40 HP / 27 Atk / 30 Def / 9 SpA / 17 SpD / 22 Spd`, `Scratch` [Slot 1, 35 PP], `Poison Sting` [Slot 2, 35 PP], `Sand-Attack` [Slot 3, 5 PP]) |
 
 <hr>
 
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **RHEA** — Sandshrew ♀ (Lv. 13 [`NEXT LV.: 535`], `38/38 HP`, Jolly [`+Spd / -SpA`], `Sand Veil`, Stats: `38 HP / 26 Atk / 28 Def / 9 SpA / 16 SpD / 20 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 5 PP], Holds: `Pecha Berry`) — Met in Rusturf Tunnel.
+1. **RHEA** — Sandshrew ♀ (Lv. 14 [`NEXT LV.: 565`], `40/40 HP`, Jolly [`+Spd / -SpA`], `Sand Veil`, Stats: `40 HP / 27 Atk / 30 Def / 9 SpA / 17 SpD / 22 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 5 PP], Holds: `Pecha Berry`) — Met in Rusturf Tunnel.
 2. **MEDEA** — Gulpin ♀ (Lv. 18 [Will be retired for the Lv. 16 Roxanne boss fight before unbenching for Brawly], `55/55 HP`, Quirky, `Sticky Hold`, Stats: `55 HP / 20 Atk / 26 Def / 23 SpA / 26 SpD / 20 Spd`, Moves: `Giga Drain` [Slot 1: `Up, Left`, 5 PP — learned at Lv. 17 over `Acid`!], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
 3. **ADONIS** — Gloom ♂ (Lv. 21 [Will be retired for the Roxanne & Brawly boss fights before unbenching for Wattson], `58/62 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `62 HP / 32 Atk / 40 Def / 38 SpA / 45 SpD / 22 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Down, Left`, 16 PP], `Magical Leaf` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
