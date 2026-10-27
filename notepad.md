@@ -1030,6 +1030,12 @@ A vast, multi-level port city on the eastern coast of mainland Hoenn. Known as t
   - Cove Topography: Northeast cove has shallow tidal water (cols 58..65) where the player dismounts to walk on foot. Central boulder sits at (63..66, 4..7).
   - Deep Water Channel & Entrance: Open deep water runs along cols 66..71, rows 6..10. Activating Surf at row 9/10 enables surfing north along the channel.
   - Team Aqua Hideout Cave Entrance: Carved into northern cliff face at cols 69..71, rows 4..5. Left frame at (69, 5), right frame at (71, 5). Doorway warp is at (70, 5), approached from (70, 6) stepping North.
+- Eastern Beach & Ocean Access (Verified Turn 15918-15935):
+  - Descending white stone staircase at (54..56, 19..21) reaches sand shore at row 22.
+  - Rows 24..25 in the cove channel are shallow tidal water (walkable on foot).
+  - Deep blue water boundary begins at col 69..70 along row 24.
+  - Interacting with deep water facing East with 'A' triggers Surf prompt ('Would you like to SURF?', default YES).
+  - Sea rock cluster blocks straight eastward advance at (75..76, 20..25). Clear bypass goes North along col 74 to row 16, where an unobstructed open water highway extends straight East into Route 124.
 
 <hr>
 
