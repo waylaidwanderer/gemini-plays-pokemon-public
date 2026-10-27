@@ -3291,6 +3291,9 @@ A massive open ocean route in eastern Hoenn connecting Lilycove City on the west
 - Central Island (Treasure Hunter Island):
   - Located at cols 65+, rows 20..30.
   - Wide open deep water channel wraps south around the island at rows 30..33+ leading east toward Mossdeep City.
+- Treasure Hunter's House Sighted:
+  - Located at cols 68..74, rows 44+ with orange/red roof.
+  - Water channel runs south along col 66 west of the house.
 
 <hr>
 
