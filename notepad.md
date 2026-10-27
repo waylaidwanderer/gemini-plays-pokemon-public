@@ -1545,6 +1545,12 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 4. [ ] Visit Steven Stone's house (northwest).
 5. [ ] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge.
 
+## Discovered Topography & Navigation
+- Western Water Approach (Turn 16034-16035):
+  - Arrived from Route 124 at (0, 13).
+  - Open deep water extends east from col 0 to col 8 along row 13.
+  - Shallow tidal water begins at col 9, row 13 leading onto the western beach.
+  - Sea rock sighted to the northeast at approx (11, 10..11).
 
 <hr>
 
