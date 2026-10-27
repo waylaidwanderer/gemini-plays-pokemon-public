@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OCEANUS** — Mudkip ♂ (Lv. 11, `8/32 HP` [`PAR`], `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
+1. **OCEANUS** — Mudkip ♂ (Lv. 11, `32/32 HP`, `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 2. **THETIS** — Poliwag ♀ (Lv. 4, `Damp`, Moves: `Water Gun`, `Hypnosis`) — Met on Route 103.
 3. **AETHER** — Electrike ♂ (Lv. 6, Moves: `Tackle`, `Thunder Wave`, `Leer`, `Howl` / `ThunderShock`) — Met on Route 102.
 
