@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | OCEANUS | 15 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `40 HP / 30 Atk / 21 Def / 24 SpA / 22 SpD / 17 Spd`) |
 | Route 103 | Poliwag ♀ | THETIS | 15 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
 | Route 102 | Electrike ♂ | AETHER | 15 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
-| Route 104 (South) | Jigglypuff ♀ | SIREN | 14 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `56 HP / 15 Atk / 13 Def / 19 SpA / 12 SpD / 14 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
+| Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `44 HP / 18 Atk / 14 Def / 19 SpA / 23 SpD / 18 Spd`, `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
 
 <hr>
@@ -74,7 +74,7 @@
 1. **OCEANUS** — Mudkip ♂ (Lv. 15, `40/40 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `40 HP / 30 Atk / 21 Def / 24 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 2. **NOCTUA** — Hoothoot ♂ (Lv. 15, `38/44 HP`, holding `Oran Berry`, Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `44 HP / 18 Atk / 14 Def / 19 SpA / 23 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Aerial Ace` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 3. **AETHER** — Electrike ♂ (Lv. 15, `33/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
-4. **SIREN** — Jigglypuff ♀ (Lv. 14, `45/56 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `56 HP / 15 Atk / 13 Def / 19 SpA / 12 SpD / 14 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
+4. **SIREN** — Jigglypuff ♀ (Lv. 15, `48/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
 5. **THETIS** — Poliwag ♀ (Lv. 15, `35/39 HP`, holding `Cheri Berry`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
 
 ## Notepad Index
