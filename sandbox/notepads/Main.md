@@ -55,9 +55,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Mudkip ♀ (Lv. 14, `39/39 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `39 HP / 24 Atk / 19 Def / 18 SpA / 24 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **SELENE** — Skitty ♀ (Lv. 15, `40/40 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `40 HP / 22 Atk / 20 Def / 15 SpA / 14 SpD / 21 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103 (Note: `1x Moon Stone` taken from `SELENE` is stored in `BAG -> ITEMS`).
-*(Note: Deceased Slot 1 `HERA` [Lv. 14 Nidoran♀] must be deposited in the PC Graveyard box immediately.)*
+1. **SELENE** — Delcatty ♀ (Lv. 15, `46/46 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `46 HP / 27 Atk / 27 Def / 21 SpA / 19 SpD / 32 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103 (evolved via `Moon Stone` at Lv. 15!).
+2. **ATETHYS** — Mudkip ♀ (Lv. 14, `39/39 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `39 HP / 24 Atk / 19 Def / 18 SpA / 24 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
