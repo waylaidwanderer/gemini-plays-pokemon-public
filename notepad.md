@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | OCEANUS | 11 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`) |
+| Route 101 | Mudkip ♂ | OCEANUS | 12 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `34 HP / 25 Atk / 18 Def / 20 SpA / 18 SpD / 15 Spd`) |
 | Route 103 | Poliwag ♀ | THETIS | 11 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `31 HP / 16 Atk / 14 Def / 13 SpA / 17 SpD / 26 Spd`, `Water Gun`, `Hypnosis`) |
 | Route 102 | Electrike ♂ | AETHER | 11 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `32 HP / 13 Atk / 14 Def / 22 SpA / 14 SpD / 21 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`) |
 
@@ -69,7 +69,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OCEANUS** — Mudkip ♂ (Lv. 11 [`NEXT LV.: 428`], `32/32 HP`, Hardy, `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+1. **OCEANUS** — Mudkip ♂ (Lv. 12, `27/34 HP`, Hardy, `Torrent`, Stats: `34 HP / 25 Atk / 18 Def / 20 SpA / 18 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 2. **THETIS** — Poliwag ♀ (Lv. 11, `31/31 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `31 HP / 16 Atk / 14 Def / 13 SpA / 17 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP]) — Met on Route 103.
 3. **AETHER** — Electrike ♂ (Lv. 11, `32/32 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `32 HP / 13 Atk / 14 Def / 22 SpA / 14 SpD / 21 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Left, Down`, 30 PP]) — Met on Route 102.
 
