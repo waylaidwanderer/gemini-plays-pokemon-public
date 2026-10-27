@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Marshtomp ♂ | OCEANUS | 16 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Poliwag ♀ | THETIS | 16 | Deceased | Fainted on Turn 3223 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` |
-| Route 102 | Electrike ♂ | AETHER | 16 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `43 HP / 17 Atk / 18 Def / 29 SpA / 19 SpD / 28 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
+| Route 102 | Electrike ♂ | AETHER | 16 | Deceased | Fainted on Turn 3245 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Deceased | Fainted on Turn 3243 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 16 | Deceased | Fainted on Turn 3237 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` |
 | Route 116 | Makuhita ♂ | HERACLES | 15 | Deceased | Fainted on Turn 3230 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 13 Aron` |
@@ -73,7 +73,6 @@
 
 ## Active Party
 1. **OCEANUS** — Marshtomp ♂ (Lv. 16, `29/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 482 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **AETHER** — Electrike ♂ (Lv. 16, `21/43 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `43 HP / 17 Atk / 18 Def / 29 SpA / 19 SpD / 28 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -264,6 +263,7 @@
   - **Root Cause & Tactical Rule:** When we switched from `AETHER` to `NOCTUA` against Tammy's `~15% HP` `Lv. 11 Yanma`, we queued `Aerial Ace` for the following turn in the same `run_code` script. Tammy's AI withdrew `15% HP` `Yanma` on the exact same turn we switched and sent in `Lv. 15 Rhyhorn`, causing the pre-queued `Aerial Ace` to keep `NOCTUA` in against `Rhyhorn`'s 2x Super Effective `Rock Tomb`. **Rule:** NEVER queue a switch on Turn N and an attack on Turn N+1 in the same `run_code` script! Trainer AI in this ROM frequently withdraws low-HP or disadvantaged Pokémon on the same turn you switch. Always execute a switch as a standalone turn and inspect `<CurrentScreen>` before selecting your next action.
 - **SIREN** (Jigglypuff ♀, Lv. 15, `59 HP`, Modest, `Cute Charm`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) — Died on Turn 3243 in Rustboro Gym `(5, 12)` to School Kid Tammy's final Pokémon, `Lv. 11 Yanma` (`AncientPower`), after chipping `Yanma` down to `6/34 HP` with `Seismic Toss` so `AETHER` could enter on a free switch.
   - **Note on Modified Move Mechanic (Verified Turn 3243):** In this ROM, both `Silver Wind` and `AncientPower` trigger the all-stats-up boost (`+1 Atk/Def/SpA/SpD/Spd`) reliably.
+- **AETHER** (Electrike ♂, Lv. 16, `43 HP`, Modest, `Static`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) — Died on Turn 3245 in Rustboro Gym `(5, 12)` to School Kid Tammy's final Pokémon, `Lv. 11 Yanma` (`Silver Wind` at `+2 Attack`).
 
 <hr>
 
