@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | ATETHYS | 14 | Active | Starter (`Met in ROUTE 101`; Careful [`+SpD / -SpA`], `39 HP / 24 Atk / 19 Def / 18 SpA / 24 SpD / 16 Spd`) |
+| Route 101 | Mudkip ♀ | ATETHYS | 15 | Active | Starter (`Met in ROUTE 101`; Careful [`+SpD / -SpA`], `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`) |
 | Route 103 | Delcatty ♀ | SELENE | 16 | Active | Caught as `Skitty` at `(11, 14)` holding `Moon Stone`; evolved at Lv. 15 (`48 HP / 28 Atk / 28 Def / 22 SpA / 20 SpD / 34 Spd`, `Fake Out`, `Attract`, `Sing`, `Secret Power`) |
 | Route 102 | Spoink ♂ | — | 6 | Fainted | Crit-KO'd at `(37, 5)` by `Water Gun` |
 | Route 104 (South) | Nidoran♀ | HERA | 14 | Deceased | Died at `(23, 35)` in Petalburg Woods to wild `Lv. 8 Phanpy` (`Mud Shot` crit) |
@@ -71,8 +71,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SELENE** — Delcatty ♀ (Lv. 16, `31/48 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `48 HP / 28 Atk / 28 Def / 22 SpA / 20 SpD / 34 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103 (evolved via `Moon Stone` at Lv. 15; `482 EXP` remaining before Lv. 17 — keep benched unless needed!).
-2. **ATETHYS** — Mudkip ♀ (Lv. 14, `39/39 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `39 HP / 24 Atk / 19 Def / 18 SpA / 24 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+1. **ATETHYS** — Mudkip ♀ (Lv. 15, `41/41 HP`, holding `Pecha Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `41 HP / 26 Atk / 20 Def / 19 SpA / 25 SpD / 17 Spd`, Moves: `Bide` [Slot 1: `Up, Left`, 10 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter).
+2. **SELENE** — Delcatty ♀ (Lv. 16, `48/48 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `48 HP / 28 Atk / 28 Def / 22 SpA / 20 SpD / 34 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 2/20 PP]) — Met on Route 103 (evolved via `Moon Stone` at Lv. 15; `482 EXP` remaining before Lv. 17 — keep benched unless needed!).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -358,7 +358,7 @@
 ## Verified Findings (Turns 124–150)
 - **Mudkip Growth, Rare Candy Cadence & Modified Learnset (Turns 124, 301, 2978–2981):**
   - Uses the **Slow EXP group** (`5 * n^3 / 4`: 135 EXP for Lv. 5, 270 for Lv. 6, 428 for Lv. 7, 1250 for Lv. 10).
-  - Starts at Lv. 5 knowing only **1 move (`Tackle` in Slot 1)**; learns `Bubble` (20 BP Water Special, 30 PP) into empty Slot 2 at **Lv. 6**, `Mud Sport` (15 PP) into empty Slot 3 at **Lv. 7**, and `Water Gun` (40 BP Water Special, 25 PP) into empty Slot 4 at **Lv. 10**.
+  - Starts at Lv. 5 knowing only **1 move (`Tackle` in Slot 1)**; learns `Bubble` (20 BP Water Special, 30 PP) into empty Slot 2 at **Lv. 6**, `Mud Sport` (15 PP) into empty Slot 3 at **Lv. 7**, `Water Gun` (40 BP Water Special, 25 PP) into empty Slot 4 at **Lv. 10**, and prompts to learn `Bide` (10 PP) at **Lv. 15**.
   - **Overworld Rare Candy Cadence (`BAG -> ITEMS -> RARE CANDY`, Verified Turns 2978–2981, 3007–3008):** Selecting `USE` (`A, sleep 600, A, sleep 2500`) and applying a `Rare Candy` (`A, sleep 3500`) requires **3 `B` presses** (`B, sleep 1500, B, sleep 1500, B, sleep 2500`) to return to the `BAG` when no move is learned, or **4 `B` presses** (`+ B, sleep 2500`) when a move is learned into an empty slot. Even better, when leveling a Pokémon multiple levels in a row while it has empty move slots, pressing **`A` with `sleep 2500`** (`6 A presses per level`, plus `1 extra A` per new move learned into an empty slot) continuously cycles `BAG -> USE -> Party (cursor stays on the same Pokémon) -> Level Up -> Stats -> BAG` without ever backing out of the Bag! Note that Rival May's `Lv. 5 Treecko` on Route 103 holds `Berry Juice` (`+20 HP`) and knows `Quick Attack` (taking 3 `Tackle` hits from a Lv. 11 `Mudkip`), and Lass Tiana at `(15, 5)` on Route 102 has a 2-tile sight range across `y=3..4` when facing `Up`.
 - **Wild Encounter Pools Observed:**
   - **Route 101 (Claimed by Starter):** Lv. 2–3 `Wurmple` (`Tackle`, `String Shot`), `Weedle` (`Poison Sting`, `String Shot`), `Caterpie` (`Tackle`, `String Shot`), `Pidgey`, `Sentret` (`Quick Attack`), `Rattata` (`Quick Attack`, `Tail Whip`), `Poochyena` (`Tackle`, `Howl`), `Zigzagoon` (`Swift`, `Sand-Attack`, holds `Berry Juice`), `Pichu` (`ThunderShock`, `Charm`, Ability: `Static`), `Togepi` (`Growl`, `Charm`, `Metronome`), `Igglybuff` (`Sing`, `Charm`), `Cleffa` (`Charm`, `Encore`, Ability: `Cute Charm`). Note: The left northern grass patch sits at `x=4..6, y=3..4` and `x=2..4, y=2`, while `(5..10, 2)` and `x=7..10, y=1..4` are grass-free ground.
