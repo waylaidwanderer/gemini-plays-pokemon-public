@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Marshtomp ♀ (Lv. 16, `100% HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 24 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 14/15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter; `5404 / 6141 EXP` [`737 EXP` before Lv. 17]).
+1. **ATETHYS** — Marshtomp ♀ (Lv. 16, `50/50 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `50 HP / 32 Atk / 28 Def / 23 SpA / 34 SpD / 21 Spd`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 24 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 14/15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter; `5464 / 6141 EXP` [`677 EXP` before Lv. 17]).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
