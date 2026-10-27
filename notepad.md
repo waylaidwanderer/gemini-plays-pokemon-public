@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | OCEANUS | 9 | Active | Starter (`Met in ROUTE 101` claims Route 101) |
+| Route 101 | Mudkip ♂ | OCEANUS | 11 | Active | Starter (`Met in ROUTE 101` claims Route 101) |
 
 <hr>
 
@@ -67,7 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OCEANUS** — Mudkip ♂ (Lv. 9, `28/28 HP`, `Torrent`, Stats: `28 HP / 20 Atk / 15 Def / 16 SpA / 15 SpD / 12 Spd`, Moves: `Tackle` [Slot 1], `Growl` [Slot 2], `Bubble` [Slot 3], `Mud Sport` [Slot 4]) — Met on Route 101 (Starter).
+1. **OCEANUS** — Mudkip ♂ (Lv. 11, `32/32 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
