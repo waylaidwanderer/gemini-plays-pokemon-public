@@ -1673,6 +1673,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
     - (6, 18): Blue circular warp pad.
     - (8, 18): Blue circular warp pad.
     - (7, 18..20): Walkway corridor connecting to northeast pads.
+- Psychic ♂ Blake & Psychic ♀ Samantha: Defeated in Double Battle at (4, 21..23) on Turn 16107 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Xatu Lv 36 ♀ defeated by Pursuit; Prize: ¥1,728; Sage & Lilz 0 damage).
 
 <hr>
 
@@ -3822,7 +3823,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥25,641
+- Money: ¥27,369
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

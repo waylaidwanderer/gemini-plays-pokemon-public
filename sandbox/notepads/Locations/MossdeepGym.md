@@ -74,3 +74,4 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
     - (6, 18): Blue circular warp pad.
     - (8, 18): Blue circular warp pad.
     - (7, 18..20): Walkway corridor connecting to northeast pads.
+- Psychic ♂ Blake & Psychic ♀ Samantha: Defeated in Double Battle at (4, 21..23) on Turn 16107 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Xatu Lv 36 ♀ defeated by Pursuit; Prize: ¥1,728; Sage & Lilz 0 damage).
