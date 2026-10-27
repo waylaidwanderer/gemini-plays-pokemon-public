@@ -307,9 +307,10 @@
   - North border (to Route 103): `x=10, y=0` (transitions to `(10, 21)` on Route 103).
 
 ## Verified Findings (Turns 124–150)
-- **Mudkip Growth & Modified Learnset (Turns 124, 301):**
+- **Mudkip Growth, Rare Candy Cadence & Modified Learnset (Turns 124, 301, 2978–2981):**
   - Uses the **Slow EXP group** (`5 * n^3 / 4`: 135 EXP for Lv. 5, 270 for Lv. 6, 428 for Lv. 7, 1250 for Lv. 10).
-  - Learns `Bubble` (20 BP Water Special, 30 PP) at **Lv. 6**, `Mud Sport` (15 PP) at **Lv. 7**, and `Water Gun` (40 BP Water Special, 25 PP) at **Lv. 10**.
+  - Starts at Lv. 5 knowing only **1 move (`Tackle` in Slot 1)**; learns `Bubble` (20 BP Water Special, 30 PP) into empty Slot 2 at **Lv. 6**, `Mud Sport` (15 PP) into empty Slot 3 at **Lv. 7**, and `Water Gun` (40 BP Water Special, 25 PP) into empty Slot 4 at **Lv. 10**.
+  - **Overworld Rare Candy Cadence (`BAG -> ITEMS -> RARE CANDY`):** Selecting `USE` (`A, sleep 600, A, sleep 2500`) and applying a `Rare Candy` (`A, sleep 3500`) requires **3 `B` presses** (`B, sleep 1500, B, sleep 1500, B, sleep 2500`) to return to the `BAG` when no move is learned, or **4 `B` presses** (`+ B, sleep 2500`) when a move is learned into an empty slot. Note that Rival May's `Lv. 5 Treecko` on Route 103 holds `Berry Juice` (`+20 HP`) and knows `Quick Attack` (taking 3 `Tackle` hits from a Lv. 11 `Mudkip`).
 - **Wild Encounter Pools Observed:**
   - **Route 101 (Claimed by Starter):** Lv. 2–3 `Wurmple` (`Tackle`, `String Shot`), `Weedle` (`Poison Sting`, `String Shot`), `Caterpie` (`Tackle`, `String Shot`), `Pidgey`, `Sentret` (`Quick Attack`), `Rattata` (`Quick Attack`, `Tail Whip`), `Poochyena` (`Tackle`, `Howl`), `Zigzagoon` (`Swift`, `Sand-Attack`, holds `Berry Juice`), `Pichu` (`ThunderShock`, `Charm`, Ability: `Static`), `Togepi` (`Growl`, `Charm`, `Metronome`), `Igglybuff` (`Sing`, `Charm`), `Cleffa` (`Charm`, `Encore`, Ability: `Cute Charm`). Note: The left northern grass patch sits at `x=4..6, y=3..4` and `x=2..4, y=2`, while `(5..10, 2)` and `x=7..10, y=1..4` are grass-free ground.
   - **Two-Attempt `RUN` Cadence (Verified Turn 472):** `"Can't escape!▼"` prints in 1.5s and waits for a `B` press before the wild Pokémon executes its ~7.5s attack. Use `["Down", "Right", "A", "sleep 1800", "B", "sleep 7500", "B", "sleep 1000", "A", "sleep 1800", "B", "sleep 2500"]`—if Attempt 1 succeeds, the trailing `A` and `B` are completely inert in the overworld; if Attempt 1 fails, the cursor stays on `▶RUN` so the second `A` triggers Attempt 2 cleanly.
