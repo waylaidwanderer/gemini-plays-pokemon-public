@@ -55,9 +55,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OCEANUS** — Mudkip ♂ (Lv. 11, `32/32 HP`, `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Met on Route 101 (Starter).
-2. **THETIS** — Poliwag ♀ (Lv. 4, `Damp`, Moves: `Water Gun`, `Hypnosis`) — Met on Route 103.
-3. **AETHER** — Electrike ♂ (Lv. 6, Moves: `Tackle`, `Thunder Wave`, `Leer`, `Howl` / `ThunderShock`) — Met on Route 102.
+1. **OCEANUS** — Mudkip ♂ (Lv. 11 [`NEXT LV.: 428`], `32/32 HP`, Hardy, `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+2. **THETIS** — Poliwag ♀ (Lv. 4 [`NEXT LV.: 39`], `17/17 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `17 HP / 9 Atk / 8 Def / 7 SpA / 9 SpD / 12 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP]) — Met on Route 103.
+3. **AETHER** — Electrike ♂ (Lv. 6 [`NEXT LV.: 57`], `22/22 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `22 HP / 9 Atk / 9 Def / 14 SpA / 10 SpD / 13 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
