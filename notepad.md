@@ -9,7 +9,7 @@
 | Route 102 | Electrike ♂ | AETHER | 15 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `44 HP / 18 Atk / 14 Def / 19 SpA / 23 SpD / 18 Spd`, `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
-| Route 116 | Makuhita ♂ | HERACLES | 9 | Active | Caught at `(6, 14)` (Modest [`+SpA / -Atk`], `Thick Fat`, `33 HP / 13 Atk / 11 Def / 11 SpA / 12 SpD / 11 Spd`, `Faint Attack`, `SmellingSalt`, `Sand-Attack`) |
+| Route 116 | Makuhita ♂ | HERACLES | 15 | Active | Caught at `(6, 14)` (Modest [`+SpA / -Atk`], `Thick Fat`, `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, `Faint Attack`, `SmellingSalt`, `Vital Throw`, `Force Palm`) |
 
 <hr>
 
@@ -77,7 +77,7 @@
 3. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 4. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
 5. **THETIS** — Poliwag ♀ (Lv. 15, `39/39 HP`, holding `Cheri Berry`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
-6. **HERACLES** — Makuhita ♂ (Lv. 9, `9/33 HP`, Modest [`+SpA / -Atk`], `Thick Fat`, Stats: `33 HP / 13 Atk / 11 Def / 11 SpA / 12 SpD / 11 Spd`, Moves: `Faint Attack` [Slot 1: `Up, Left`, 20 PP], `SmellingSalt` [Slot 2: `Up, Right`, 10 PP], `Sand-Attack` [Slot 3: `Left, Down`, 5 PP]) — Met on Route 116.
+6. **HERACLES** — Makuhita ♂ (Lv. 15, `49/49 HP`, Modest [`+SpA / -Atk`], `Thick Fat`, Stats: `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, Moves: `Faint Attack` [Slot 1: `Up, Left`, 20 PP], `SmellingSalt` [Slot 2: `Up, Right`, 10 PP], `Vital Throw` [Slot 3: `Down, Left`, 10 PP], `Force Palm` [Slot 4: `Down, Right`, 16 PP]) — Met on Route 116.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
