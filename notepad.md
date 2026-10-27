@@ -1617,30 +1617,30 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
-- Spawns at (6, 35) on orange entrance mat (cols 6..7, row 35).
+- Spawns at (6, 35) on orange entrance mat (cols 5..6, row 35).
 - Gym Statues at (4, 34) and (7, 34).
 - Gym Guide stationed at (5, 33) facing South.
 - Gym Guide Advice: Gym Leaders Tate & Liza specialize in Psychic-type Pokémon in a Double Battle; avoid Fighting- and Poison-type Pokémon due to weakness; expect coordinated combination attacks.
-- Room 1 Puzzle Architecture (Verified via Crop Turn 16069):
-  - Track 1 (West 2x2, cols 2..3, rows 29..30):
-    - (2, 29): Statue
-    - (3, 29): Yellow conveyor arrow [Left]
-    - (2, 30): Psychic ♀ trainer (facing East)
-    - (3, 30): Statue
-  - Central Corridor (Col 4):
-    - (4, 28): Blue Warp Pad 2 (North Alcove)
-    - (4, 29): Walkway tile
-    - (4, 30): Yellow floor switch
-    - (4, 31..32): Walkway corridor connecting to lobby
-  - Track 2 (East 2x2, cols 5..6, rows 29..30):
-    - (5, 29): Psychic ♂ trainer (facing South)
-    - (6, 29): Statue
-    - (5, 30): Statue
-    - (6, 30): Yellow conveyor arrow [Up]
+- Room 1 Puzzle Architecture (Exact Verified Grid):
+  - Track 1 (West 2x2, cols 1..2, rows 29..30):
+    - (1, 29): Statue
+    - (2, 29): Yellow conveyor arrow [Left]
+    - (1, 30): Psychic ♀ trainer (facing East)
+    - (2, 30): Statue
+  - Central Corridor (Col 3):
+    - (3, 28): Blue Warp Pad 2 (North Alcove)
+    - (3, 29): Walkway tile
+    - (3, 30): Yellow floor switch
+    - (3, 31..32): Walkway corridor connecting to lobby
+  - Track 2 (East 2x2, cols 4..5, rows 29..30):
+    - (4, 29): Psychic ♂ trainer (facing South)
+    - (5, 29): Statue
+    - (4, 30): Statue
+    - (5, 30): Yellow conveyor arrow [Up]
   - Teleport Warp Pads:
-    - Warp Pad 1: (2, 33) in southwest corner
-    - Warp Pad 2: (4, 28) in north-center alcove
-    - Warp Pad 3: (7, 30) in east alcove
+    - Warp Pad 1: (1, 33) in southwest corner
+    - Warp Pad 2: (3, 28) in north-center alcove
+    - Warp Pad 3: (6, 30) in east alcove
   - Eastern chamber visible across black void with green conveyor arrows and warp pads at (11, 34) and (13, 31).
 
 <hr>
