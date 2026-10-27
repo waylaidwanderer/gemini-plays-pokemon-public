@@ -8,7 +8,7 @@
 | Route 103 | Poliwag ♀ | THETIS | 14 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
 | Route 102 | Electrike ♂ | AETHER | 14 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 14 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `56 HP / 15 Atk / 13 Def / 19 SpA / 12 SpD / 14 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
-| Petalburg Woods | Hoothoot ♂ | NOCTUA | 13 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `40 HP / 16 Atk / 13 Def / 17 SpA / 21 SpD / 16 Spd`, `Tackle`, `Peck`, `Confusion`, `Hypnosis`) |
+| Petalburg Woods | Hoothoot ♂ | NOCTUA | 14 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `42 HP / 17 Atk / 13 Def / 18 SpA / 22 SpD / 17 Spd`, `Tackle`, `Peck`, `Confusion`, `Hypnosis`) |
 
 <hr>
 
@@ -75,7 +75,7 @@
 2. **AETHER** — Electrike ♂ (Lv. 14, `14/38 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 3. **OCEANUS** — Mudkip ♂ (Lv. 14, `22/38 HP`, holding `Oran Berry`, Hardy, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 23 SpA / 20 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 4. **SIREN** — Jigglypuff ♀ (Lv. 14, `34/56 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `56 HP / 15 Atk / 13 Def / 19 SpA / 12 SpD / 14 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-5. **NOCTUA** — Hoothoot ♂ (Lv. 13, `22/40 HP` [`PAR`], Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `40 HP / 16 Atk / 13 Def / 17 SpA / 21 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Hypnosis` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
+5. **NOCTUA** — Hoothoot ♂ (Lv. 14, `24/42 HP` [`PAR`], Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `42 HP / 17 Atk / 13 Def / 18 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Hypnosis` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
