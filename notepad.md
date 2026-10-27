@@ -1653,7 +1653,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 1 North Pad (3, 28) | Room 2 Arrival Pad (1, 23) | Teleports north into Room 2 |
 | Room 2 Arrival Pad (1, 23) | Room 1 North Pad (3, 28) | Return pad to Room 1 |
 | Room 2 Northeast Pad (6, 18) | Pending | Progression warp pad in northeast alcove |
-| Room 1 East Pad (6, 30) | Pending | East alcove of Room 1 |
+| Room 1 East Pad (6, 30) | Testing (Turn 16113) | East alcove of Room 1 |
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
