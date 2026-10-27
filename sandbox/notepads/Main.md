@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **HERMES** — Yanma ♂ (Lv. 10, `35/35 HP`, Careful [`+SpD / -SpA`], `Speed Boost`, Stats: `35 HP / 18 Atk / 15 Def / 18 SpA / 15 SpD / 26 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP], `Foresight` [Slot 2: `Up, Right`, 5 PP], `Quick Attack` [Slot 3: `Left, Down`, 30 PP]) — Met on Route 116.
+1. **HERMES** — Yanma ♂ (Lv. 11, `37/37 HP`, Careful [`+SpD / -SpA`], `Speed Boost`, Stats: `37 HP / 19 Atk / 16 Def / 18 SpA / 16 SpD / 29 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`, 5 PP], `Foresight` [Slot 2: `Up, Right`, 5 PP], `Quick Attack` [Slot 3: `Left, Down`, 30 PP]) — Met on Route 116.
 2. **MEDEA** — Gulpin ♀ (Lv. 16 [`NEXT LV.: 61`], `50/50 HP`, Quirky, `Sticky Hold`, Stats: `50 HP / 18 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`, 30 PP], `Yawn` [Slot 2: `Up, Right`, 10 PP], `Fire Punch` [Slot 3: `Down, Left`, 15 PP], `Sludge Bomb` [Slot 4: `Down, Right`, 15 PP], Holds: `Cheri Berry`) — Met on Route 102.
 3. **ADONIS** — Gloom ♂ (Lv. 19 [Temporarily over Lv. 16 Roxanne cap; will clear non-boss trainers and be retired for the Roxanne battle itself before unbenching for Lv. 20 Brawly cap], `57/57 HP`, Careful [`+SpD / -SpA`], `Chlorophyll`, Stats: `57 HP / 29 Atk / 37 Def / 35 SpA / 40 SpD / 20 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Acid` [Slot 2: `Up, Right`, 30 PP], `Toxic` [Slot 3: `Down, Left`, 16 PP], `Magical Leaf` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
