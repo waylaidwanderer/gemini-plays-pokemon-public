@@ -1659,7 +1659,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
 - Room 2 layout (cols 1..7, rows 18..23):
   - (1, 23): Arrival warp pad (returns to Room 1 at 3, 28).
-  - (3, 23): Dead-end floor tile where Psychic ♂ trainer stands facing South (verified: NO warp pad under trainer).
+  - (3, 23): Walkway tile extending south from (3, 22).
+  - (3, 24): NPC with dark hair standing facing South overlooking the void (testing interaction).
   - (2, 21): Yellow floor switch.
   - (3, 21): Stationary orange divider block.
   - (4..5, rows 20..21): Conveyor track with yellow arrows at (4, 21) [Right] and (5, 21) [Up].
