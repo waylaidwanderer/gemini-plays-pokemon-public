@@ -56,7 +56,7 @@
 
 ## Active Party
 1. **ATETHYS** — Mudkip ♀ (Lv. 12, `35/35 HP`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **SELENE** — Skitty ♀ (Lv. 4, `9/18 HP`, holding `Moon Stone`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `18 HP / 9 Atk / 8 Def / 7 SpA / 7 SpD / 9 Spd`, Moves: `Assist` [Slot 1: `Up, Left`, 32 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Left, Down`, 32 PP]) — Met on Route 103.
+2. **SELENE** — Skitty ♀ (Lv. 12, `34/34 HP`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `34 HP / 18 Atk / 17 Def / 13 SpA / 12 SpD / 17 Spd`, Moves: `Assist` [Slot 1: `Up, Left`, 32 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
