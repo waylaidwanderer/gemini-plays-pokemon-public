@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | OCEANUS | 14 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `38 HP / 28 Atk / 20 Def / 23 SpA / 20 SpD / 16 Spd`) |
-| Route 103 | Poliwag ♀ | THETIS | 14 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
+| Route 103 | Poliwag ♀ | THETIS | 15 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
 | Route 102 | Electrike ♂ | AETHER | 14 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 14 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `56 HP / 15 Atk / 13 Def / 19 SpA / 12 SpD / 14 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `44 HP / 18 Atk / 14 Def / 19 SpA / 23 SpD / 18 Spd`, `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
@@ -75,7 +75,7 @@
 2. **AETHER** — Electrike ♂ (Lv. 14, `38/38 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 3. **NOCTUA** — Hoothoot ♂ (Lv. 15, `44/44 HP`, Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `44 HP / 18 Atk / 14 Def / 19 SpA / 23 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Aerial Ace` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 4. **SIREN** — Jigglypuff ♀ (Lv. 14, `56/56 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `56 HP / 15 Atk / 13 Def / 19 SpA / 12 SpD / 14 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-5. **THETIS** — Poliwag ♀ (Lv. 14, `37/37 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
+5. **THETIS** — Poliwag ♀ (Lv. 15, `19/39 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
