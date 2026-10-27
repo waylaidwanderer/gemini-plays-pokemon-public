@@ -4,10 +4,10 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | ATETHYS | 13 | Active | Starter (`Met in ROUTE 101`; Careful [`+SpD / -SpA`], `37 HP / 23 Atk / 18 Def / 18 SpA / 23 SpD / 15 Spd`) |
+| Route 101 | Mudkip ♀ | ATETHYS | 14 | Active | Starter (`Met in ROUTE 101`; Careful [`+SpD / -SpA`], `39 HP / 24 Atk / 19 Def / 18 SpA / 24 SpD / 16 Spd`) |
 | Route 103 | Skitty ♀ | SELENE | 15 | Active | Caught at `(11, 14)` (came holding `Moon Stone`! Lax [`+Def / -SpD`], `Cute Charm`, `40 HP / 22 Atk / 20 Def / 15 SpA / 14 SpD / 21 Spd`, `Fake Out`, `Attract`, `Sing`, `Secret Power`) |
 | Route 102 | Spoink ♂ | — | 6 | Fainted | Crit-KO'd at `(37, 5)` by `Water Gun` |
-| Route 104 (South) | Nidoran♀ | HERA | 13 | Active | Caught at `(24, 60)` (Bold [`+Def / -Atk`], `Poison Point`, `39 HP / 16 Atk / 24 Def / 18 SpA / 15 SpD / 16 Spd`, `Poison Sting`, `Scratch`, `Bite`, `Double Kick`; evolves into `Nidorina` at Lv. 16 and `Nidoqueen` via `Moon Stone`!) |
+| Route 104 (South) | Nidoran♀ | HERA | 14 | Active | Caught at `(24, 60)` (Bold [`+Def / -Atk`], `Poison Point`, `42 HP / 17 Atk / 25 Def / 19 SpA / 16 SpD / 17 Spd`, `Poison Sting`, `Scratch`, `Bite`, `Double Kick`; evolves into `Nidorina` at Lv. 16 and `Nidoqueen` via `Moon Stone`!) |
 
 <hr>
 
@@ -70,9 +70,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SELENE** — Skitty ♀ (Lv. 15, `21/40 HP`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `40 HP / 22 Atk / 20 Def / 15 SpA / 14 SpD / 21 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103 (Note: `1x Moon Stone` taken from `SELENE` is stored in `BAG -> ITEMS`).
-2. **ATETHYS** — Mudkip ♀ (Lv. 13, `30/37 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `37 HP / 23 Atk / 18 Def / 18 SpA / 23 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-3. **HERA** — Nidoran♀ (Lv. 13, `39/39 HP`, Bold [`+Def / -Atk`], `Poison Point`, Stats: `39 HP / 16 Atk / 24 Def / 18 SpA / 15 SpD / 16 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`, 35 PP], `Scratch` [Slot 2: `Up, Right`, 35 PP], `Bite` [Slot 3: `Down, Left`, 25 PP], `Double Kick` [Slot 4: `Down, Right`, 30 PP]) — Met on Route 104 South (evolves into `Nidorina` at Lv. 16 and `Nidoqueen` via `Moon Stone`!).
+1. **HERA** — Nidoran♀ (Lv. 14, `42/42 HP`, holding `Oran Berry`, Bold [`+Def / -Atk`], `Poison Point`, Stats: `42 HP / 17 Atk / 25 Def / 19 SpA / 16 SpD / 17 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`, 35 PP], `Scratch` [Slot 2: `Up, Right`, 35 PP], `Bite` [Slot 3: `Down, Left`, 25 PP], `Double Kick` [Slot 4: `Down, Right`, 30 PP]) — Met on Route 104 South (evolves into `Nidorina` at Lv. 16 and `Nidoqueen` via `Moon Stone`!).
+2. **ATETHYS** — Mudkip ♀ (Lv. 14, `39/39 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `39 HP / 24 Atk / 19 Def / 18 SpA / 24 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+3. **SELENE** — Skitty ♀ (Lv. 15, `40/40 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `40 HP / 22 Atk / 20 Def / 15 SpA / 14 SpD / 21 Spd`, Moves: `Fake Out` [Slot 1: `Up, Left`, 10 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103 (Note: `1x Moon Stone` taken from `SELENE` is stored in `BAG -> ITEMS`).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -403,7 +403,7 @@
     - Stairs to lower beach: `x=27..28, y=69..70` (walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(25..26, 70)`, then walk `Left` 5 along `y=71` to `(23, 71)` FIRST before walking `Up` 4 to `(23, 67)` to challenge Bird Keeper Billy at `(23, 66)`).
     - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
     - **Fisherman Darian `(15, 59)`:** Mandatory trainer facing `Right` across the 3-tile beach bottleneck `x=16..18, y=59` (directly above the non-trainer straw-hat NPC at `(15, 60)`). Has **4 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle`], `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`], `Lv. 7 Goldeen` [holds `Berry Juice`, `Rain Dance`, `Peck`], and `Lv. 7 Luvdisc`).
-    - **Northern Route 104 South Berry Trees & Lady Cindy (Verified Turns 910–913, 1495, 2264):** Stairs from beach to Mr. Briney's Cottage are at `x=16..17, y=54`. From `(17, 52)`, walk `Right` 4 to `(21, 52)` and `Up` 10 along `x=21` to `(21, 42)` to reach the Berry trees at `(22, 41)` (`2 Oran Berries`) and `(24, 41)` (`2 Pecha Berries`). To reach **Lady Cindy `(11, 40)`** with **0 grass tiles** (avoiding the 2 grass tiles at `(15..16, 42)`), walk along row **`y=43`** (`(21, 43) -> (10, 43)`) and then `Up` 3 to `(10, 40)`. Lady Cindy faces `Left` across `(10..11, 40)` before Petalburg Woods (`(10..11, 38)`) and has **3 Pokémon** (`Lv. 8 Cleffa`, `Lv. 8 Pichu`, `Lv. 7 Azurill`, paying `$1,400`).
+    - **Northern Route 104 South Berry Trees & Lady Cindy (Verified Turns 910–913, 1495, 2264, 3393):** Stairs from beach to Mr. Briney's Cottage are at `x=15..16, y=54` (note `(17, 54)` is the right-hand stair post). From `(16, 52)`, walk `Right` 5 to `(21, 52)` and `Up` 10 along `x=21` to `(21, 42)` to reach the Berry trees at `(22, 41)` (`2 Oran Berries`) and `(24, 41)` (`2 Pecha Berries`). To reach **Lady Cindy `(11, 40)`** with **0 grass tiles** (avoiding the 2 grass tiles at `(15..16, 42)`), walk along row **`y=43`** (`(24, 43) -> (10, 43)`) and then `Up` 3 to `(10, 40)`. Lady Cindy faces `Left` across `(10..11, 40)` before Petalburg Woods (`(10..11, 38)`) and has **3 Pokémon** (`Lv. 8 Cleffa`, `Lv. 8 Pichu`, `Lv. 7 Azurill`, paying `$1,400`).
   - **Petalburg Woods Coordinates & Trainers (Verified Turns 915–921):**
     - South entrance (from Route 104 South `(10, 38)`): `(16, 38)` (or `(17, 38)` from `(11, 38)`).
     - Safe tall grass patch near south entrance: `x=21..23, y=33..35` (approach from `(16, 38)` via `Up` 3 to `(16, 35)` and `Right` 5 to `(21, 35)`).
