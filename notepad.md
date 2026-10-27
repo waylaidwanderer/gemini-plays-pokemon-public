@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Marshtomp ♂ | OCEANUS | 16 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Poliwag ♀ | THETIS | 16 | Deceased | Fainted on Turn 3223 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` |
-| Route 102 | Electrike ♂ | AETHER | 15 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
+| Route 102 | Electrike ♂ | AETHER | 16 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `43 HP / 17 Atk / 18 Def / 29 SpA / 19 SpD / 28 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 16 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `46 HP / 19 Atk / 14 Def / 19 SpA / 25 SpD / 18 Spd`, `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) |
 | Route 116 | Makuhita ♂ | HERACLES | 15 | Deceased | Fainted on Turn 3230 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 13 Aron` |
@@ -74,7 +74,7 @@
 ## Active Party
 1. **OCEANUS** — Marshtomp ♂ (Lv. 16, `49/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 1021 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 2. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-3. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
+3. **AETHER** — Electrike ♂ (Lv. 16, `43/43 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `43 HP / 17 Atk / 18 Def / 29 SpA / 19 SpD / 28 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 4. **NOCTUA** — Hoothoot ♂ (Lv. 16, `46/46 HP`, Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `46 HP / 19 Atk / 14 Def / 19 SpA / 25 SpD / 18 Spd`, Moves: `Hypnosis` [Slot 1: `Up, Left`, 20 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Aerial Ace` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
