@@ -8,7 +8,7 @@
 | Route 103 | Poliwag ♀ | THETIS | 14 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
 | Route 102 | Electrike ♂ | AETHER | 14 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 12 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `49 HP / 13 Atk / 12 Def / 17 SpA / 11 SpD / 13 Spd`, `Sing`, `Pound`, `Disable`) |
-| Petalburg Woods | Hoothoot ♂ | NOCTUA | 8 | Active | Caught at `(22, 35)` |
+| Petalburg Woods | Hoothoot ♂ | NOCTUA | 8 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `28 HP / 12 Atk / 9 Def / 12 SpA / 15 SpD / 11 Spd`, `Tackle`, `Peck`, `Confusion`) |
 
 <hr>
 
@@ -71,11 +71,11 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **AETHER** — Electrike ♂ (Lv. 14, `32/38 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
-2. **THETIS** — Poliwag ♀ (Lv. 14, `37/37 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
-3. **OCEANUS** — Mudkip ♂ (Lv. 14, `23/38 HP`, holding `Oran Berry`, Hardy, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 23 SpA / 20 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-4. **SIREN** — Jigglypuff ♀ (Lv. 12, `27/49 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `49 HP / 13 Atk / 12 Def / 17 SpA / 11 SpD / 13 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Left, Down`]) — Met on Route 104 (South).
-5. **NOCTUA** — Hoothoot ♂ (Lv. 8) — Met in Petalburg Woods.
+1. **THETIS** — Poliwag ♀ (Lv. 14, `37/37 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
+2. **AETHER** — Electrike ♂ (Lv. 14, `14/38 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
+3. **OCEANUS** — Mudkip ♂ (Lv. 14, `22/38 HP`, Hardy, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 23 SpA / 20 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+4. **SIREN** — Jigglypuff ♀ (Lv. 12, `27/49 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `49 HP / 13 Atk / 12 Def / 17 SpA / 11 SpD / 13 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 104 (South).
+5. **NOCTUA** — Hoothoot ♂ (Lv. 8, `10/28 HP` [`PAR`], Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `28 HP / 12 Atk / 9 Def / 12 SpA / 15 SpD / 11 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Left, Down`, 25 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
