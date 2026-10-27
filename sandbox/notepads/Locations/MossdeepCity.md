@@ -31,3 +31,9 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Open deep water extends east from col 0 to col 8 along row 13.
   - Shallow tidal water begins at col 9, row 13 leading onto the western beach.
   - Sea rock sighted to the northeast at approx (11, 10..11).
+- Northwest Coastal Bluffs (Turn 16040-16043):
+  - High cliff bluffs at cols 15..17 block eastward access from the northwest cove.
+  - Residential house located atop the bluff at (19, 17) with red/grey roof.
+  - Shallow water channel extends south along col 13 toward the southwestern beach.
+  - Sandy beach sighted to the southwest around cols 8..10, row 23+.
+  - Trainer sighted to the southeast near (20, 25).
