@@ -21,5 +21,5 @@ A massive open ocean route in eastern Hoenn connecting Lilycove City on the west
 - Lilycove Eastern Sea Exit:
   - Sandbar shallows end at cols 68..69.
   - Deep water begins at col 70, row 24.
-  - Sea rocks cluster at (75..76, 22..25): rock at (74, 25), grey sea rock at (75, 24), brown rock at (75..76, 22..23).
-  - Navigation route bypasses north through row 21..22 or south around the rock barrier.
+  - Sea rocks cluster at (75..78, 17..25): rock at (74, 25), grey rocks at (75, 24) and (75, 20), brown rocks at (76, 21..22) and (76, 17..18).
+  - Clean bypass routes North along col 74 to row 16, then turns East into the wide open ocean corridor leading to Route 124.
