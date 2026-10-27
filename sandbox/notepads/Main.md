@@ -50,7 +50,7 @@
   - Keep all party members at or below **Level 16** before challenging Gym Leader Roxanne.
   - Before crossing the Route 104 North bridge to `PKMN Trainer Red` `(29, 8)`, train `GAIA` (`Cubone`), `ADONIS` (`Oddish`), and `MEDEA` (`Gulpin`) to **Level 15–16** and equip held `Oran`/`Cheri` Berries.
   - Never queue multi-turn attack loops when poisoned (`PSN`) or confused (`Confuse Ray`/`Teeter Dance`).
-- **Oldale & Petalburg Mart Prices (Turns 153, 593):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Antidotes cost $100; Parlyz Heals cost $200; Awakenings cost $250; Repels cost $350.
+- **Oldale, Petalburg & Rustboro Mart Prices (Turns 153, 593, 2816):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Super Potions (at Rustboro Mart `(16, 45)`) cost $700; Antidotes cost $100; Parlyz Heals cost $200; Awakenings/Burn Heals cost $250; Repels cost $350; Escape Ropes cost $550.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(22, 41)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
