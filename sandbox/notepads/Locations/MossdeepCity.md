@@ -42,3 +42,8 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Western sandbar spans cols 7..8, rows 22..29.
   - Trainer stationed at (20, 25) facing West.
   - Main city entrance routes South to row 27..28, then East under the cliff toward the Pokémon Center.
+
+- Southwest Beach Staircase (Turn 16047):
+  - White stone staircase located at cols 24..25, rows 21..24 connecting the beach to the city streets.
+  - Foot of stairs approached from (24..25, 25) facing North.
+  - Top landing at (24..25, 21) opens onto city avenue.
