@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | ATETHYS | 12 | Active | Starter (`Met in ROUTE 101`; `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`) |
-| Route 103 | Skitty ♀ | SELENE | 12 | Active | Caught at `(11, 14)` (came holding `Moon Stone`! Lax [`+Def / -SpD`], `Cute Charm`, `34 HP / 18 Atk / 17 Def / 13 SpA / 12 SpD / 17 Spd`, `Assist`, `Attract`, `Sing`, `Secret Power`) |
+| Route 103 | Skitty ♀ | SELENE | 13 | Active | Caught at `(11, 14)` (came holding `Moon Stone`! Lax [`+Def / -SpD`], `Cute Charm`, `36 HP / 19 Atk / 18 Def / 14 SpA / 12 SpD / 18 Spd`, `Assist`, `Attract`, `Sing`, `Secret Power`) |
 | Route 102 | Spoink ♂ | — | 6 | Fainted | Crit-KO'd at `(37, 5)` by `Water Gun` |
 
 <hr>
@@ -69,7 +69,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SELENE** — Skitty ♀ (Lv. 12, `34/34 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `34 HP / 18 Atk / 17 Def / 13 SpA / 12 SpD / 17 Spd`, Moves: `Assist` [Slot 1: `Up, Left`, 32 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
+1. **SELENE** — Skitty ♀ (Lv. 13, `36/36 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `36 HP / 19 Atk / 18 Def / 14 SpA / 12 SpD / 18 Spd`, Moves: `Assist` [Slot 1: `Up, Left`, 32 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103.
 2. **ATETHYS** — Mudkip ♀ (Lv. 12, `33/35 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 
 ## Notepad Index

@@ -3,5 +3,5 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♀ | ATETHYS | 12 | Active | Starter (`Met in ROUTE 101`; `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`) |
-| Route 103 | Skitty ♀ | SELENE | 12 | Active | Caught at `(11, 14)` (came holding `Moon Stone`! Lax [`+Def / -SpD`], `Cute Charm`, `34 HP / 18 Atk / 17 Def / 13 SpA / 12 SpD / 17 Spd`, `Assist`, `Attract`, `Sing`, `Secret Power`) |
+| Route 103 | Skitty ♀ | SELENE | 13 | Active | Caught at `(11, 14)` (came holding `Moon Stone`! Lax [`+Def / -SpD`], `Cute Charm`, `36 HP / 19 Atk / 18 Def / 14 SpA / 12 SpD / 18 Spd`, `Assist`, `Attract`, `Sing`, `Secret Power`) |
 | Route 102 | Spoink ♂ | — | 6 | Fainted | Crit-KO'd at `(37, 5)` by `Water Gun` |
