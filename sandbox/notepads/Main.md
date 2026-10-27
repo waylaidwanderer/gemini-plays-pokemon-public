@@ -55,9 +55,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **AETHER** — Electrike ♂ (Lv. 14, `32/38 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
-2. **THETIS** — Poliwag ♀ (Lv. 12, `33/33 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `33 HP / 17 Atk / 15 Def / 14 SpA / 18 SpD / 28 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP]) — Met on Route 103.
-3. **OCEANUS** — Mudkip ♂ (Lv. 13, `21/36 HP`, Hardy, `Torrent`, Stats: `36 HP / 27 Atk / 19 Def / 21 SpA / 19 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+1. **AETHER** — Electrike ♂ (Lv. 14, `32/38 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
+2. **THETIS** — Poliwag ♀ (Lv. 14, `37/37 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
+3. **OCEANUS** — Mudkip ♂ (Lv. 14, `23/38 HP`, holding `Oran Berry`, Hardy, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 23 SpA / 20 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 4. **SIREN** — Jigglypuff ♀ (Lv. 12, `27/49 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `49 HP / 13 Atk / 12 Def / 17 SpA / 11 SpD / 13 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Left, Down`]) — Met on Route 104 (South).
 
 ## Notepad Index
