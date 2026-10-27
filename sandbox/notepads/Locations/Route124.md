@@ -13,7 +13,7 @@ A massive open ocean route in eastern Hoenn connecting Lilycove City on the west
 
 ## Progression Checklist - Route 124
 1. [x] Surf east from Lilycove City through the sea rock passage (Turn 15948).
-2. [ ] Navigate across Route 124 to Mossdeep City.
+2. [x] Navigate across Route 124 to Mossdeep City (Arrived Turn 16034!).
 3. [ ] Register checkpoint at Mossdeep City Pokémon Center.
 4. [ ] Challenge Gym 7 (Tate & Liza) for the Mind Badge.
 
