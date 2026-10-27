@@ -57,6 +57,7 @@
 ## Active Party
 1. **SELENE** — Skitty ♀ (Lv. 13, `36/36 HP`, holding `Oran Berry`, Lax [`+Def / -SpD`], `Cute Charm`, Stats: `36 HP / 19 Atk / 18 Def / 14 SpA / 12 SpD / 18 Spd`, Moves: `Assist` [Slot 1: `Up, Left`, 32 PP], `Attract` [Slot 2: `Up, Right`, 15 PP], `Sing` [Slot 3: `Down, Left`, 32 PP], `Secret Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 103 (Note: `1x Moon Stone` taken from `SELENE` is stored in `BAG -> ITEMS`).
 2. **ATETHYS** — Mudkip ♀ (Lv. 12, `35/35 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+3. **HERA** — Nidoran♀ (Lv. 7, `26/26 HP`, Bold [`+Def / -Atk`], `Poison Point`, Stats: `26 HP / 10 Atk / 15 Def / 12 SpA / 10 SpD / 11 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`, 35 PP], `Scratch` [Slot 2: `Up, Right`, 35 PP]) — Met on Route 104 South (evolves into `Nidorina` at Lv. 16 and `Nidoqueen` via `Moon Stone`!).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
