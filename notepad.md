@@ -9,7 +9,7 @@
 | Route 102 | Electrike ♂ | AETHER | 15 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 16 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `46 HP / 19 Atk / 14 Def / 19 SpA / 25 SpD / 18 Spd`, `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) |
-| Route 116 | Makuhita ♂ | HERACLES | 15 | Active | Caught at `(6, 14)` (Modest [`+SpA / -Atk`], `Thick Fat`, `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, `Faint Attack`, `SmellingSalt`, `Vital Throw`, `Force Palm`) |
+| Route 116 | Makuhita ♂ | HERACLES | 15 | Deceased | Fainted on Turn 3230 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 13 Aron` |
 
 <hr>
 
@@ -72,11 +72,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **HERACLES** — Makuhita ♂ (Lv. 15, `49/49 HP`, Modest [`+SpA / -Atk`], `Thick Fat`, Stats: `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, Moves: `Faint Attack` [Slot 1: `Up, Left`, 20 PP], `SmellingSalt` [Slot 2: `Up, Right`, 10 PP], `Vital Throw` [Slot 3: `Down, Left`, 10 PP], `Force Palm` [Slot 4: `Down, Right`, 16 PP]) — Met on Route 116.
-2. **OCEANUS** — Marshtomp ♂ (Lv. 16, `49/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 1021 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-3. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-4. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
-5. **NOCTUA** — Hoothoot ♂ (Lv. 16, `46/46 HP`, Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `46 HP / 19 Atk / 14 Def / 19 SpA / 25 SpD / 18 Spd`, Moves: `Hypnosis` [Slot 1: `Up, Left`, 20 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Aerial Ace` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
+1. **OCEANUS** — Marshtomp ♂ (Lv. 16, `49/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 1021 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+2. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
+3. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
+4. **NOCTUA** — Hoothoot ♂ (Lv. 16, `46/46 HP`, Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `46 HP / 19 Atk / 14 Def / 19 SpA / 25 SpD / 18 Spd`, Moves: `Hypnosis` [Slot 1: `Up, Left`, 20 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Aerial Ace` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -261,6 +260,8 @@
 ## Attempt #12 Casualties (Starting Turn 2951)
 - **THETIS** (Poliwag ♀, Lv. 16, `41 HP`, Careful, `Swift Swim`, `BubbleBeam`, `Water Gun`, `Hypnosis`) — Died on Turn 3223 in Rustboro Gym `(5, 14)` to School Kid Josh's final Pokémon, `Lv. 14 Omanyte` (`Rock Tomb` + `Water Pulse`).
   - **Root Cause & Tactical Rule:** After `SIREN`'s `Seismic Toss` (`-15 HP`) and `THETIS`'s first `BubbleBeam`, we queued the second `BubbleBeam` alongside post-battle exit steps and Pokémon Center `A` presses in a single `run_code` script. When `Omanyte` survived the second `BubbleBeam` at `1 HP` and dropped `THETIS` to `6/41 HP` and `-2 Speed` (`18 Speed` vs `Omanyte`'s `19–20 Speed`) with `Rock Tomb`, the trailing `Up` and `A` presses from the Pokémon Center healing sequence selected `FIGHT -> BubbleBeam` on the next turn instead of switching out. **Rule:** NEVER queue post-battle overworld movement or `A` presses in the same `run_code` script as an in-battle attack turn; always end battle turns with `B` presses only and visually confirm the battle has ended on `<CurrentScreen>` before sending overworld inputs.
+- **HERACLES** (Makuhita ♂, Lv. 15, `49 HP`, Modest, `Thick Fat`, `Vital Throw`, `Force Palm`) — Died on Turn 3230 in Rustboro Gym `(5, 12)` to School Kid Tammy's lead `Lv. 13 Aron` (`Aerial Ace`).
+  - **Root Cause & Tactical Rule:** On Turn 1, `HERACLES` (`15 Speed`) won a 50/50 Speed tie against `Lv. 13 Aron` (`15 Speed`) and left `Aron` at `1 HP` with `Force Palm` while `Aron`'s `Aerial Ace` dealt `32 damage` (`49 -> 17/49 HP`). We mistakenly assumed `HERACLES` moving first on Turn 1 meant `HERACLES` was strictly faster rather than speed-tied (`15 Speed == 15 Speed`), and stayed in at `17/49 HP` (`< 32` normal damage), losing the 50/50 Speed tie on Turn 2. **Rule:** Moving first once only proves `YourSpeed >= EnemySpeed` (which includes a 50/50 Speed tie!). Never stay in when `Current HP <= Enemy Attack Damage` (`17 <= 32`) unless your Speed is verified to be strictly higher than the enemy's maximum possible Speed.
 
 <hr>
 
