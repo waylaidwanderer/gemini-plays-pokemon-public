@@ -41,7 +41,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
   - Teleport Warp Pads:
     - Warp Pad 1: (1, 33) in southwest corner
     - Warp Pad 2: (3, 28) in north-center alcove
-    - Warp Pad 3: (6, 30) in east alcove
+    - Warp Pad 3: (7, 30) in east alcove
   - Eastern chamber visible across black void with green conveyor arrows and warp pads at (11, 34) and (13, 31).
 ## Trainers Defeated - Mossdeep Gym
 - Psychic ♂ Preston: Defeated at (1, 30) on Turn 16077 (Kirlia Lv 36 ♂, OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 14/15).
@@ -54,7 +54,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 1 North Pad (3, 28) | Room 2 Arrival Pad (1, 23) | Teleports north into Room 2 |
 | Room 2 Arrival Pad (1, 23) | Room 1 North Pad (3, 28) | Return pad to Room 1 |
 | Room 2 Northeast Pad (6, 18) | Pending | Progression warp pad in northeast alcove |
-| Room 1 East Pad (6, 30) | Testing (Turn 16113) | East alcove of Room 1 |
+| Room 1 East Pad (7, 30) | Testing (Turn 16114) | East alcove of Room 1 (approached from 7, 31) |
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
