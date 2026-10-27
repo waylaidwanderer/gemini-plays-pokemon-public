@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | OCEANUS | 11 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`) |
-| Route 103 | Poliwag ♀ | THETIS | 4 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `17 HP / 9 Atk / 8 Def / 7 SpA / 9 SpD / 12 Spd`, `Water Gun`) |
+| Route 103 | Poliwag ♀ | THETIS | 11 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `31 HP / 16 Atk / 14 Def / 13 SpA / 17 SpD / 26 Spd`, `Water Gun`, `Hypnosis`) |
 | Route 102 | Electrike ♂ | AETHER | 6 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `22 HP / 9 Atk / 9 Def / 14 SpA / 10 SpD / 13 Spd`, `ThunderShock`, `Thunder Wave`) |
 
 <hr>
@@ -70,7 +70,7 @@
 
 ## Active Party
 1. **OCEANUS** — Mudkip ♂ (Lv. 11 [`NEXT LV.: 428`], `32/32 HP`, Hardy, `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **THETIS** — Poliwag ♀ (Lv. 4 [`NEXT LV.: 39`], `17/17 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `17 HP / 9 Atk / 8 Def / 7 SpA / 9 SpD / 12 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP]) — Met on Route 103.
+2. **THETIS** — Poliwag ♀ (Lv. 11, `31/31 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `31 HP / 16 Atk / 14 Def / 13 SpA / 17 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP]) — Met on Route 103.
 3. **AETHER** — Electrike ♂ (Lv. 6 [`NEXT LV.: 57`], `22/22 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `22 HP / 9 Atk / 9 Def / 14 SpA / 10 SpD / 13 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP]) — Met on Route 102.
 
 ## Notepad Index
