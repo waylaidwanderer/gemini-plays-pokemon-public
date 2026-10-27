@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | OCEANUS | 15 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `40 HP / 30 Atk / 21 Def / 24 SpA / 22 SpD / 17 Spd`) |
-| Route 103 | Poliwag ♀ | THETIS | 15 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
+| Route 103 | Poliwag ♀ | THETIS | 16 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `41 HP / 22 Atk / 18 Def / 18 SpA / 24 SpD / 36 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
 | Route 102 | Electrike ♂ | AETHER | 15 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(22, 35)` (Quiet [`+SpA / -Spd`], `Insomnia`, `44 HP / 18 Atk / 14 Def / 19 SpA / 23 SpD / 18 Spd`, `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
@@ -72,7 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **THETIS** — Poliwag ♀ (Lv. 15, `39/39 HP`, holding `Cheri Berry`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `39 HP / 21 Atk / 17 Def / 17 SpA / 23 SpD / 34 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
+1. **THETIS** — Poliwag ♀ (Lv. 16, `41/41 HP`, holding `Cheri Berry`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `41 HP / 22 Atk / 18 Def / 18 SpA / 24 SpD / 36 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
 2. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 3. **HERACLES** — Makuhita ♂ (Lv. 15, `49/49 HP`, Modest [`+SpA / -Atk`], `Thick Fat`, Stats: `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, Moves: `Faint Attack` [Slot 1: `Up, Left`, 20 PP], `SmellingSalt` [Slot 2: `Up, Right`, 10 PP], `Vital Throw` [Slot 3: `Down, Left`, 10 PP], `Force Palm` [Slot 4: `Down, Right`, 16 PP]) — Met on Route 116.
 4. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
