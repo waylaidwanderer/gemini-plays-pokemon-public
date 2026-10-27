@@ -8,6 +8,7 @@
 | Route 103 | Poliwag ♀ | THETIS | 14 | Active | Caught at `(11, 14)` (Careful [`+SpD / -SpA`], `Swift Swim`, `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, `Water Gun`, `Hypnosis`, `BubbleBeam`) |
 | Route 102 | Electrike ♂ | AETHER | 14 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `38 HP / 16 Atk / 16 Def / 26 SpA / 17 SpD / 25 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 12 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `49 HP / 13 Atk / 12 Def / 17 SpA / 11 SpD / 13 Spd`, `Sing`, `Pound`, `Disable`) |
+| Petalburg Woods | Hoothoot ♂ | NOCTUA | 8 | Active | Caught at `(22, 35)` |
 
 <hr>
 
@@ -74,6 +75,7 @@
 2. **THETIS** — Poliwag ♀ (Lv. 14, `37/37 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `37 HP / 20 Atk / 16 Def / 16 SpA / 20 SpD / 32 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP], `BubbleBeam` [Slot 3: `Left, Down`, 20 PP]) — Met on Route 103.
 3. **OCEANUS** — Mudkip ♂ (Lv. 14, `23/38 HP`, holding `Oran Berry`, Hardy, `Torrent`, Stats: `38 HP / 28 Atk / 20 Def / 23 SpA / 20 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 4. **SIREN** — Jigglypuff ♀ (Lv. 12, `27/49 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `49 HP / 13 Atk / 12 Def / 17 SpA / 11 SpD / 13 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Left, Down`]) — Met on Route 104 (South).
+5. **NOCTUA** — Hoothoot ♂ (Lv. 8) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
