@@ -1,15 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #12)
+# Route & Area Encounters (Attempt #13)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Marshtomp ♂ | OCEANUS | 16 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Poliwag ♀ | THETIS | 16 | Deceased | Fainted on Turn 3223 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` |
-| Route 102 | Electrike ♂ | AETHER | 16 | Deceased | Fainted on Turn 3245 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` |
-| Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Deceased | Fainted on Turn 3243 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` |
-| Petalburg Woods | Hoothoot ♂ | NOCTUA | 16 | Deceased | Fainted on Turn 3237 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` |
-| Route 116 | Makuhita ♂ | HERACLES | 15 | Deceased | Fainted on Turn 3230 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 13 Aron` |
 
 <hr>
 
@@ -72,7 +66,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **OCEANUS** — Marshtomp ♂ (Lv. 16, `29/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 482 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+- None yet (Starting Attempt #13)
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -264,6 +258,18 @@
 - **SIREN** (Jigglypuff ♀, Lv. 15, `59 HP`, Modest, `Cute Charm`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) — Died on Turn 3243 in Rustboro Gym `(5, 12)` to School Kid Tammy's final Pokémon, `Lv. 11 Yanma` (`AncientPower`), after chipping `Yanma` down to `6/34 HP` with `Seismic Toss` so `AETHER` could enter on a free switch.
   - **Note on Modified Move Mechanic (Verified Turn 3243):** In this ROM, both `Silver Wind` and `AncientPower` trigger the all-stats-up boost (`+1 Atk/Def/SpA/SpD/Spd`) reliably.
 - **AETHER** (Electrike ♂, Lv. 16, `43 HP`, Modest, `Static`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) — Died on Turn 3245 in Rustboro Gym `(5, 12)` to School Kid Tammy's final Pokémon, `Lv. 11 Yanma` (`Silver Wind` at `+2 Attack`).
+- **OCEANUS** (Marshtomp ♂, Lv. 16, `49 HP`, Hardy, `Torrent`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 3247 in Rustboro Gym `(5, 12)` to School Kid Tammy's final Pokémon, `Lv. 11 Yanma` (`Giga Drain` at `+2 SpA` — 4x Super Effective) — **TOTAL PARTY WIPEOUT (Attempt #12 Over)**.
+- **Root Causes of Attempt #12 Wipe:**
+  1. **Queueing Post-Battle Overworld Inputs in the Same Script as an In-Battle Attack (`THETIS`, Turn 3223):** Queued `BubbleBeam` + post-battle Gym exit + Pokémon Center `A` presses in one script against School Kid Josh's `Lv. 14 Omanyte`. When `Omanyte` survived at `1 HP` and dropped `THETIS` to `6/41 HP` and `-2 Speed` with `Rock Tomb`, the trailing `Up` and `A` presses selected `FIGHT -> BubbleBeam` on the next turn instead of switching out.
+  2. **Staying In on a 50/50 Speed Tie (`HERACLES`, Turn 3230):** Won a 50/50 Speed tie (`15 Speed == 15 Speed`) on Turn 1 vs Tammy's lead `Lv. 13 Aron` and stayed in at `17/49 HP` (`< 32` `Aerial Ace` damage), losing the Speed tie on Turn 2.
+  3. **Queueing a Switch (Turn N) + Attack (Turn N+1) in a Single Script (`NOCTUA`, Turn 3237):** When switching from `AETHER` to `NOCTUA` against Tammy's `5 HP` `Lv. 11 Yanma`, we queued `Aerial Ace` for Turn N+1 in the same script. Tammy's AI withdrew `5 HP` `Yanma` on the same turn we switched and sent in `Lv. 15 Rhyhorn`, causing the pre-queued `Aerial Ace` to keep `NOCTUA` in against `Rhyhorn`'s `Rock Tomb` (costing us our `Yanma` counter!).
+  4. **Allowing `Lv. 11 Yanma` (`Speed Boost`, `Giga Drain`, `Silver Wind`, `AncientPower`) to Set Up Omni-Boosts:** Both `Silver Wind` and `AncientPower` reliably boost all 5 stats (`+1 Atk/Def/SpA/SpD/Spd`) in this ROM, allowing `Yanma` to snowball to `+2` all stats against `SIREN`.
+- **Tactical Rules for Attempt #13:**
+  1. **Strictly Separate Battle Turns From Overworld Inputs & Switches From Next-Turn Attacks:**
+     - NEVER queue post-battle overworld steps or `A` presses in the same `run_code` script as an attack turn.
+     - NEVER queue an attack on Turn N+1 in the same `run_code` script as a switch on Turn N (because Trainer AI frequently switches out low-HP Pokémon on the same turn you switch!).
+  2. **Verify Speed Strict Inequality Before Staying In at Low HP:** Moving first once only proves `YourSpeed >= EnemySpeed` (which includes a 50/50 Speed tie).
+  3. **Evolve `Mudkip -> Lv. 16 Marshtomp` (`Mud Shot` + `Water Gun`) & Bring All 6 Teammates to Level 15–16 Before Rustboro Gym:** Use `Rare Candies` to bring our entire 6-Pokémon party to Level 15–16, preserve our Flying/Fire/Rock/Electric counters for Tammy's `Lv. 11 Yanma`, and never pre-queue moves across switches.
 
 <hr>
 
