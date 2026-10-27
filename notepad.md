@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♀ | ATETHYS | 5 | Active | Starter (`Met in ROUTE 101`) |
+| Route 101 | Mudkip ♀ | ATETHYS | 12 | Active | Starter (`Met in ROUTE 101`; `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`) |
 
 <hr>
 
@@ -67,7 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Mudkip ♀ (Lv. 5, `20/20 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP]) — Met on Route 101 (Starter).
+1. **ATETHYS** — Mudkip ♀ (Lv. 12, `35/35 HP`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `35 HP / 21 Atk / 17 Def / 16 SpA / 20 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
