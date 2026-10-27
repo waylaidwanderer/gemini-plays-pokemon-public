@@ -32,3 +32,5 @@ A massive open ocean route in eastern Hoenn connecting Lilycove City on the west
 ## Trainers Defeated - Route 124
 - Swimmer ♂ Declan: Defeated at (7, 28) on Turn 15959 (Gyarados Lv 34; Prize: ¥272; Sage took 0 damage, Leaf Blade 13/15).
 - Swimmer ♀ Grace: Defeated at (7, 25) on Turn 15969 (Marill Lv 34; Prize: ¥272; Sage took 0 damage, Leaf Blade 12/15).
+- Swimmer ♂ Spencer: Defeated at (34, 25) on Turn 15995 (Tentacool Lv 33, Wingull Lv 33; Prize: ¥264; Sage reached Level 54! HP 165/165, Leaf Blade 10/15).
+- Deep Water Dive Trench: Located at cols 28..36, rows 28..30 south of the Spencer waterway.
