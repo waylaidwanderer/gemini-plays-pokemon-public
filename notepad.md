@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | OCEANUS | 15 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `40 HP / 30 Atk / 21 Def / 24 SpA / 22 SpD / 17 Spd`) |
+| Route 101 | Marshtomp ♂ | OCEANUS | 16 | Active | Starter (`Met in ROUTE 101`; Hardy, `Torrent`, `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Poliwag ♀ | THETIS | 16 | Deceased | Fainted on Turn 3223 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` |
 | Route 102 | Electrike ♂ | AETHER | 15 | Active | Caught at `(37, 5)` (Modest [`+SpA / -Atk`], `Static`, `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, `ThunderShock`, `Thunder Wave`, `Quick Attack`, `Bite`) |
 | Route 104 (South) | Jigglypuff ♀ | SIREN | 15 | Active | Caught at `(22, 60)` (Modest [`+SpA / -Atk`], `Cute Charm`, `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, `Sing`, `Pound`, `Disable`, `Seismic Toss`) |
@@ -72,10 +72,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
-2. **HERACLES** — Makuhita ♂ (Lv. 15, `49/49 HP`, Modest [`+SpA / -Atk`], `Thick Fat`, Stats: `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, Moves: `Faint Attack` [Slot 1: `Up, Left`, 20 PP], `SmellingSalt` [Slot 2: `Up, Right`, 10 PP], `Vital Throw` [Slot 3: `Down, Left`, 10 PP], `Force Palm` [Slot 4: `Down, Right`, 16 PP]) — Met on Route 116.
+1. **HERACLES** — Makuhita ♂ (Lv. 15, `49/49 HP`, Modest [`+SpA / -Atk`], `Thick Fat`, Stats: `49 HP / 20 Atk / 15 Def / 15 SpA / 17 SpD / 15 Spd`, Moves: `Faint Attack` [Slot 1: `Up, Left`, 20 PP], `SmellingSalt` [Slot 2: `Up, Right`, 10 PP], `Vital Throw` [Slot 3: `Down, Left`, 10 PP], `Force Palm` [Slot 4: `Down, Right`, 16 PP]) — Met on Route 116.
+2. **OCEANUS** — Marshtomp ♂ (Lv. 16, `49/49 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `49 HP / 37 Atk / 29 Def / 29 SpA / 29 SpD / 21 Spd`, `NEXT LV.: 1021 EXP`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 15 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 3. **SIREN** — Jigglypuff ♀ (Lv. 15, `59/59 HP`, Modest [`+SpA / -Atk`], `Cute Charm`, Stats: `59 HP / 16 Atk / 14 Def / 20 SpA / 12 SpD / 15 Spd`, Moves: `Sing` [Slot 1: `Up, Left`, 32 PP], `Pound` [Slot 2: `Up, Right`, 35 PP], `Disable` [Slot 3: `Down, Left`, 20 PP], `Seismic Toss` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-4. **OCEANUS** — Mudkip ♂ (Lv. 15, `40/40 HP`, holding `Pecha Berry`, Hardy, `Torrent`, Stats: `40 HP / 30 Atk / 21 Def / 24 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+4. **AETHER** — Electrike ♂ (Lv. 15, `41/41 HP`, holding `Oran Berry`, Modest [`+SpA / -Atk`], `Static`, Stats: `41 HP / 16 Atk / 17 Def / 28 SpA / 18 SpD / 27 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Down, Left`, 30 PP], `Bite` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 102.
 5. **NOCTUA** — Hoothoot ♂ (Lv. 16, `46/46 HP`, Quiet [`+SpA / -Spd`], `Insomnia`, Stats: `46 HP / 19 Atk / 14 Def / 19 SpA / 25 SpD / 18 Spd`, Moves: `Hypnosis` [Slot 1: `Up, Left`, 20 PP], `Peck` [Slot 2: `Up, Right`, 35 PP], `Confusion` [Slot 3: `Down, Left`, 25 PP], `Aerial Ace` [Slot 4: `Down, Right`, 20 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
