@@ -57,7 +57,7 @@
 ## Active Party
 1. **OCEANUS** — Mudkip ♂ (Lv. 11 [`NEXT LV.: 428`], `32/32 HP`, Hardy, `Torrent`, Stats: `32 HP / 23 Atk / 17 Def / 19 SpA / 17 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
 2. **THETIS** — Poliwag ♀ (Lv. 11, `31/31 HP`, Careful [`+SpD / -SpA`], `Swift Swim`, Stats: `31 HP / 16 Atk / 14 Def / 13 SpA / 17 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`, 25 PP], `Hypnosis` [Slot 2: `Up, Right`, 20 PP]) — Met on Route 103.
-3. **AETHER** — Electrike ♂ (Lv. 6 [`NEXT LV.: 57`], `22/22 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `22 HP / 9 Atk / 9 Def / 14 SpA / 10 SpD / 13 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP]) — Met on Route 102.
+3. **AETHER** — Electrike ♂ (Lv. 11, `32/32 HP`, Modest [`+SpA / -Atk`], `Static`, Stats: `32 HP / 13 Atk / 14 Def / 22 SpA / 14 SpD / 21 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Quick Attack` [Slot 3: `Left, Down`, 30 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
