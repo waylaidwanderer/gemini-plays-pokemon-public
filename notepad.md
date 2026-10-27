@@ -1669,6 +1669,12 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
     - (5, 20): Yellow conveyor arrow [Left].
     - (5, 21): Yellow conveyor arrow [Up].
     - (2..3, row 20): Walkway along north wall.
+  - Track State after Switch 2 (Turn 16108):
+    - (4, 21): Statue (slid from 4, 20).
+    - (5, 21): Defeated Psychic Samantha (slid from 4, 21).
+    - (4, 20): Yellow conveyor arrow [Down].
+    - (5, 20): Yellow conveyor arrow [Left].
+    - (2..3, row 20): Walkway along north wall.
   - Northeast Alcove:
     - (6, 18): Blue circular warp pad.
     - (8, 18): Blue circular warp pad.
