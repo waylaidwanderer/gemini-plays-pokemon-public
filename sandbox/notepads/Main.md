@@ -56,7 +56,7 @@
 
 ## Active Party
 1. **NEREUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Sassy [`+SpD / -Spd`], `Torrent`, Stats: `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **FLORA** — Hoppip ♀ (Lv. 11, Grass/Flying, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`) — Met on Route 103.
+2. **FLORA** — Hoppip ♀ (Lv. 11, `29/29 HP`, Grass/Flying, Stats: `29 HP / 15 Atk / 15 Def / 12 SpA / 16 SpD / 19 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `PoisonPowder` [Slot 2: `Up, Right`], `Mega Drain` [Slot 3: `Down, Left`], `Gust` [Slot 4: `Down, Right`]) — Met on Route 103.
 3. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Met on Route 102.
 
 ## Notepad Index
