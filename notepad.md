@@ -1543,7 +1543,7 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 2. [x] Disembark onto land and register checkpoint at Pokémon Center (Turn 16055 at pos 7, 4)! Checkpoint set!
 3. [ ] Obtain Super Rod from the Fisherman's house.
 4. [ ] Visit Steven Stone's house (northwest).
-5. [ ] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge.
+5. [x] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge (DEFEATED Turn 16536! Mind Badge earned, TM04 Calm Mind received, Tate & Liza registered in Match Call).
 
 ## Discovered Topography & Navigation
 ### Western Coast & Beach Approach
@@ -1661,7 +1661,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
 | Room 4 North Pad (11, 3) | 1F Eastern Chamber (11, 35) | Teleports to 1F Eastern Chamber |
 | 1F Eastern Chamber (11, 35) | Room 4 North Pad (11, 3) | Return pad to Room 4 |
-| 1F Eastern Chamber (13, 31) | Pending | Leads to Tate & Liza arena platform |
+| 1F Eastern Chamber (13, 31) | Gym Leader Arena (21, 10) | Warps to Tate & Liza arena platform |
+| Gym Leader Arena (21, 5) | 1F Lobby (7, 30) | One-way shortcut exit pad directly to Gym lobby |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).

@@ -23,7 +23,7 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 2. [x] Disembark onto land and register checkpoint at Pokémon Center (Turn 16055 at pos 7, 4)! Checkpoint set!
 3. [ ] Obtain Super Rod from the Fisherman's house.
 4. [ ] Visit Steven Stone's house (northwest).
-5. [ ] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge.
+5. [x] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge (DEFEATED Turn 16536! Mind Badge earned, TM04 Calm Mind received, Tate & Liza registered in Match Call).
 
 ## Discovered Topography & Navigation
 ### Western Coast & Beach Approach

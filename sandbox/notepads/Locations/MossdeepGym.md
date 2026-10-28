@@ -80,7 +80,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
 | Room 4 North Pad (11, 3) | 1F Eastern Chamber (11, 35) | Teleports to 1F Eastern Chamber |
 | 1F Eastern Chamber (11, 35) | Room 4 North Pad (11, 3) | Return pad to Room 4 |
-| 1F Eastern Chamber (13, 31) | Pending | Leads to Tate & Liza arena platform |
+| 1F Eastern Chamber (13, 31) | Gym Leader Arena (21, 10) | Warps to Tate & Liza arena platform |
+| Gym Leader Arena (21, 5) | 1F Lobby (7, 30) | One-way shortcut exit pad directly to Gym lobby |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
