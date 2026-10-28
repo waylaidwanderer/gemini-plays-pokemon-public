@@ -56,7 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♀ (Lv. 5, `21/21 HP`, Water, `Torrent`, Moves: `Tackle`) — Starter received on Route 101.
+1. **MUDKIP** — Mudkip ♀ (Lv. 11, `34/34 HP`, Water, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `34 HP / 20 Atk / 16 Def / 20 SpA / 16 SpD / 12 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
