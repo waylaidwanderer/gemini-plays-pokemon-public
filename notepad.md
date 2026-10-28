@@ -1594,7 +1594,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 2. [x] Enter Mossdeep Gym (Turn 16065).
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
-5. [x] Defeat all Gym trainers (8 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas - ALL DEFEATED!).
+5. [ ] Defeat all Gym trainers (8 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas; Room 4 trainers discovered).
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
@@ -1639,8 +1639,10 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 3 Arrival Pad (20, 24) | Room 1 SW Pad (1, 33) | Return pad to Room 1 |
 | Room 1 North Pad (3, 28) | Room 2 Arrival Pad (1, 23) | Teleports north into Room 2 |
 | Room 2 Arrival Pad (1, 23) | Room 1 North Pad (3, 28) | Return pad to Room 1 |
-| Room 2 Northeast Pad (6, 18) | Pending | Progression warp pad in northeast alcove |
-| Room 3 North Pad (23, 20) | Pending | North alcove of Room 3 |
+| Room 3 North Pad (23, 20) | Room 2 NE Alcove Arrival (9, 18) | Warps to Room 2 Northeast Alcove |
+| Room 2 NE Alcove Pad (7, 18) | Room 4 Arrival Pad (8, 12) | Progression pad in Room 2 NE Alcove |
+| Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
+| Room 4 North Pad (7, 8) | Pending | North alcove of Room 4 |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
@@ -1652,7 +1654,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
     - Hex Maniac Kathleen at (21, 22) facing South (defeated).
     - Gentleman Clifford at (23, 24) facing North (defeated).
     - Psychic ♀ Macey at (25, 25) facing West (defeated).
-    - Psychic ♂ Virgil at (25, 23) facing West.
+    - Psychic ♂ Nicholas at (25, 23) facing West.
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
@@ -1671,6 +1673,17 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
     - (8, 18): Blue circular warp pad.
     - (7, 18..20): Walkway corridor connecting to northeast pads.
 - Psychic ♂ Blake & Psychic ♀ Samantha: Defeated in Double Battle at (4, 21..23) on Turn 16107 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Xatu Lv 36 ♀ defeated by Pursuit; Prize: ¥1,728; Sage & Lilz 0 damage).
+
+## Discovered Topography & Navigation - Room 4
+- Arrival Warp Pad at (8, 12) from Room 2 NE Alcove pad (7, 18).
+- Room 4 layout (cols 5..12, rows 8..12):
+  - (8, 12): Arrival warp pad (returns to Room 2 at 7, 18).
+  - (8, 11): 1-tile wide causeway connecting pad to room.
+  - (8, 10): Blue floor switch at central junction.
+  - (7, 8): North alcove blue circular warp pad.
+  - Orange divider blocks at (8, 9) and (9, 9..10).
+  - Left Track (cols 6..7, rows 9..10): Female Psychic trainer at (6, 10), Statue at (7, 9), Blue arrows [Down] and [Left].
+  - Right Track (cols 10..11, rows 9..10): Gentleman trainer at (10, 9), Statue at (11, 9), Blue arrows [Right] and [Up].
 
 <hr>
 
