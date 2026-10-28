@@ -8,7 +8,7 @@
 | Route 103 | Hoppip ♀ | SYLPH | 11 | Active | Caught at `(11, 14)` (`32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Grass/Flying, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) |
 | Route 102 | Meowth ♀ | BASTET | 11 | Active | Caught at `(37, 5)` (`31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`) |
 | Route 104 (South) | Drowzee ♂ | HYPNOS | 13 | Active | Caught at `(24, 60)` (`42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
-| Petalburg Woods | Hoothoot ♂ | NOCTUA | 12 | Active | Caught at `(23, 35)` (`38 HP / 13 Atk / 14 Def / 14 SpA / 18 SpD / 17 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learned `Aerial Ace` at Lv. 11) |
+| Petalburg Woods | Hoothoot ♂ | NOCTUA | 13 | Active | Caught at `(23, 35)` (`40 HP / 13 Atk / 15 Def / 15 SpA / 18 SpD / 18 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learned `Aerial Ace` at Lv. 11) |
 
 <hr>
 
@@ -72,7 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **NOCTUA** — Hoothoot ♂ (Lv. 12, `38/38 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, Stats: `38 HP / 13 Atk / 14 Def / 14 SpA / 18 SpD / 17 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
+1. **NOCTUA** — Hoothoot ♂ (Lv. 13, `29/40 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, Stats: `40 HP / 13 Atk / 15 Def / 15 SpA / 18 SpD / 18 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, holding `Oran Berry`, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 3. **BASTET** — Meowth ♀ (Lv. 11, `31/31 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], holding `Oran Berry`, Stats: `31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
 4. **HYPNOS** — Drowzee ♂ (Lv. 13, `41/42 HP` [PAR], Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
