@@ -70,15 +70,16 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
-- Room 3 layout (cols 20..26, rows 18..28):
+- Room 3 layout (cols 20..26, rows 18..34):
   - (20, 24): Arrival warp pad (returns to Room 1 SW pad at 1, 33).
-  - (23, 20): North Alcove blue circular warp pad.
+  - (23, 20): North Alcove blue circular warp pad (connects to Room 2 NE Alcove at 9, 18).
   - Two Purple Floor Switches: (23, 24) [Center intersection] and (23, 21) [North alcove approach].
   - Four Gym Trainers:
     - Hex Maniac Kathleen at (21, 22) facing South (defeated).
     - Gentleman Clifford at (23, 24) facing North (defeated).
     - Psychic ♀ Macey at (25, 25) facing West (defeated).
-    - Psychic ♂ Nicholas at (25, 23) facing West.
+    - Psychic ♂ Nicholas at (25, 23) facing West (defeated).
+  - Southern Extension & Green Switch Route (Verified Turns 16464-16470): An open corridor runs south from row 24 along cols 22..25 down to row 31, wrapping west along row 32..33 to col 21, then down to row 34 runway connecting directly onto the Green Switch platform at (14..16, 34).
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).

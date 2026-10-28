@@ -1650,15 +1650,16 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
-- Room 3 layout (cols 20..26, rows 18..28):
+- Room 3 layout (cols 20..26, rows 18..34):
   - (20, 24): Arrival warp pad (returns to Room 1 SW pad at 1, 33).
-  - (23, 20): North Alcove blue circular warp pad.
+  - (23, 20): North Alcove blue circular warp pad (connects to Room 2 NE Alcove at 9, 18).
   - Two Purple Floor Switches: (23, 24) [Center intersection] and (23, 21) [North alcove approach].
   - Four Gym Trainers:
     - Hex Maniac Kathleen at (21, 22) facing South (defeated).
     - Gentleman Clifford at (23, 24) facing North (defeated).
     - Psychic ♀ Macey at (25, 25) facing West (defeated).
-    - Psychic ♂ Nicholas at (25, 23) facing West.
+    - Psychic ♂ Nicholas at (25, 23) facing West (defeated).
+  - Southern Extension & Green Switch Route (Verified Turns 16464-16470): An open corridor runs south from row 24 along cols 22..25 down to row 31, wrapping west along row 32..33 to col 21, then down to row 34 runway connecting directly onto the Green Switch platform at (14..16, 34).
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
@@ -3919,7 +3920,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Berry harvesting: When inspecting ripe berry trees, the prompt "Do you want to pick the [BERRY]?" defaults cursor to YES. Use exclusively A presses with ~500ms delays to inspect and confirm YES without any risk of B cancelling. Once 'JADE picked...' appears, use B presses to advance and dismiss text, which prevents accidentally opening the planting menu on newly emptied soil. Interacting with empty soft loamy soil prompts to plant berries from the Bag.
 - Mart purchasing bonus: Buying 10 or more Poké Balls at once awards 1 bonus Premier Ball.
 - Match Call (PokéNav): Devon Researcher installs Match Call upon exiting Devon Corp. Contacts registered: #1 Mr. Stone, #2 Brendan (Rustboro south exit), #3 Dad / Norman (received incoming call during boat voyage to Dewford). When navigating PokéNav or phone calls, pressing B advances dialogue and safely cancels out of menus without triggering repeat calls.
-- Field Move Mechanics: Teleport cannot be used inside dungeons, caves, or Pokémon Gyms ('Can't use that here.'). Escape Ropes or walking must be used to exit.
+- Field Move Mechanics: Teleport and Dig cannot be used inside dungeons, caves, or Pokémon Gyms ('Can't use that here.'). HM04 Strength also cannot be activated inside Pokémon Gyms ('Can't use that here.'). Statues in Gyms are puzzle elements rotated by switches, not movable Strength boulders. Escape Ropes or walking must be used to exit.
 - Battle Move Layout (Sage): Slot 1 (top-left) = Fury Cutter, Slot 2 (top-right) = Pursuit, Slot 3 (bottom-left) = Leaf Blade, Slot 4 (bottom-right) = Quick Attack.
 - Battle Move Memory: In Pokémon Emerald, opening the FIGHT menu automatically remembers and defaults cursor to the move used on the previous turn.
 - Naming Screen Mechanics: Pressing Start moves the cursor directly to the [ OK ] button on the right; pressing A on [ OK ] confirms and submits the name. Pressing B activates [BACK] (erases previous character).
