@@ -120,6 +120,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Lower Blue Tracks System:
   - Controlled by West Light-Blue Switch at (6, 7) and Lower Blue Switch at (8, 10).
   - Connects upper area (row 7) down to row 9 highway leading into Column 11.
-- Status & Current State:
-  - Upper-Right Track (cols 11..12, rows 5..6): Statues are verified in Column 12 at (12, 5) and (12, 6). Column 11 is 100% clear of statues for approach to North Warp Pad at (11, 3).
-  - Row 4 Walkway: Walkable east-west corridor (cols 4..8, row 4) connecting western hallway to eastern pocket.
+- Breakthrough & Verified Progress (Turn 16404):
+  - Field Mechanics: TM28 Dig learned by Cobalu (replacing Metal Claw). Proved in-game that Dig cannot be used inside Gyms ('Can't use that here.').
+  - Choke Point Crossed: Successfully navigated from North section onto the Central Causeway (8, 9) and into (9, 9)!
+  - Upper-Right Track: Permanently verified in State 4 with statues in Column 12 at (12, 5) and (12, 6). Column 11 is 100% clear straight to Gym Leaders Tate & Liza at North Warp Pad (11, 3)!
+  - Central Causeway Access: Player is at (9, 9), directly adjacent to Central Causeway (8, 9) and Lower Blue Switch at (8, 10).
