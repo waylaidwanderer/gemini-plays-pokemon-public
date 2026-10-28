@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | PELAGOS | 14 | Active | Starter received on Route 101 (`39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`) |
 | Route 103 | Spearow ♂ | SPEAROW | 15 | Active | Caught at `(11, 14)` (`37 HP`, Normal/Flying, Hardy, `Keen Eye`, `27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, knows `Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Sandshrew ♀ | CYBELE | 14 | Deceased | Died on Turn 3965 in Petalburg Woods to Team Magma Grunt's `Lv. 8 Bagon` (`Twister` crit + queued loop from `15/40 HP`) |
-| Route 104 (South) | Natu ♂ | HORUS | 15 | Active | Caught at `(22, 61)` (`40 HP`, Psychic/Flying, Rash [`+SpA, -SpD`], `Early Bird`, `21 Atk / 21 Def / 30 SpA / 18 SpD / 28 Spd`, knows `Peck`, `Psybeam`, `Night Shade`) |
+| Route 104 (South) | Natu ♂ | HORUS | 15 | Deceased | Died on Turn 4008 on Route 104 North `(24, 8)` to PKMN Trainer Red's `Lv. 9 Eevee` (`+5 Atk` `Snore` after `Psybeam` chipped `Eevee` to `~20% HP`) |
 | Petalburg Woods | Pineco ♂ | *(None)* | 7 | Fled | Fled at `(22, 35)` to avoid `Selfdestruct` risk |
 
 <hr>
@@ -72,9 +72,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **PELAGOS** — Mudkip ♂ (Lv. 14, `39/39 HP`, Water, `Torrent`, Holds `Oran Berry`, Stats: `39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **HORUS** — Natu ♂ (Lv. 15, `40/40 HP`, Psychic/Flying, Rash, `Early Bird`, Holds `Oran Berry`, Stats: `40 HP / 21 Atk / 21 Def / 30 SpA / 18 SpD / 28 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 104 (South).
-3. **SPEAROW** — Spearow ♂ (Lv. 15, `37/37 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Cheri Berry`, Stats: `37 HP / 27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103.
+1. **PELAGOS** — Mudkip ♂ (Lv. 14, `20/39 HP`, Water, `Torrent`, Stats: `39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+2. **SPEAROW** — Spearow ♂ (Lv. 15, `37/37 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Cheri Berry`, Stats: `37 HP / 27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -335,6 +334,8 @@
 ## Attempt #16 Casualties (Starting Turn 3821)
 - **CYBELE** (Sandshrew ♀, Lv. 14, `40 HP`, `Scratch`, `Poison Sting`, `Sand-Attack`) — Died on Turn 3965 in Petalburg Woods `(26, 23)` to Team Magma Grunt's final Pokémon, `Lv. 8 Bagon` (`Twister` critical hit `15 -> 2/40 HP` on Turn 1 + `Twister` `2 -> 0/40 HP` on Turn 2 of a pre-queued 3-turn `Scratch` loop).
   - **Root Cause & Tactical Lesson:** We assumed `Lv. 8 Bagon` only knew physical `Headbutt` (which `CYBELE`'s `26 Defense` tanks easily) and queued 3 turns of `Scratch` at `15/40 HP`. In fact, `Lv. 8 Bagon` ALSO knows **`Twister` (40 BP STAB Special Dragon, 20% flinch)**, which hits `Sandshrew`'s Base 30 Special Defense (`15 SpD`) for `6–7 damage` normal / `13 damage` on a critical hit (`15 -> 2/40 HP`), and the pre-queued Turn 2 `Scratch` kept `CYBELE` in at `2/40 HP` instead of switching to faster `HORUS` (`28 Speed`) once `Bagon` was chipped to `~3–4 HP`. **Rule:** Never queue multi-turn attack loops against trainers when at `<50% HP`; always execute 1 turn at a time so an unexpected Special move or critical hit can be answered with a safe switch.
+- **HORUS** (Natu ♂, Lv. 15, `40 HP`, Rash, `Early Bird`, `Peck`, `Psybeam`, `Night Shade`) — Died on Turn 4008 on Route 104 North `(24, 8)` against PKMN Trainer Red's lead `Lv. 9 Eevee` (`+5 Attack` Physical `Snore`).
+  - **Root Cause & Tactical Lesson:** On Turn 4007 (`Eevee`'s wakeup turn at `~8% red HP`), we selected `Night Shade` (`Slot 3`) instead of `Psybeam` (`Slot 2`) to save 1 `Psybeam` PP, forgetting that `Night Shade` is a Ghost-type move and therefore has `0x` immunity against Normal-type Pokémon (`Eevee`) in Gen 3 (unlike Fighting-type `Seismic Toss`). That allowed `Eevee` to get off a second `Rest`, forcing `HORUS` (`24/40 HP`) to sacrifice itself on Sleep Turn 1 with `Psybeam` (`100% -> ~20% HP`) so `PELAGOS` could finish `Eevee` on Sleep Turn 2. **Rule:** Never use Ghost-type `Night Shade` against a Normal-type Pokémon (`Eevee`, `Zigzagoon`, `Sentret`, `Meowth`, `Slakoth`, `Skitty`, `Azurill`); always use `Psybeam` / STAB moves!
 
 <hr>
 
