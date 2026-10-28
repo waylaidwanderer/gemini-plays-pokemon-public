@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | NEREUS | 11 | Active | Starter (`Met in ROUTE 101`; Sassy [`+SpD / -Spd`], `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`) |
+| Route 101 | Mudkip ♂ | NEREUS | 11 | Deceased | Died on Turn 3575 on Route 102 to Lass Tiana's Lv. 5 Togepi (`Metronome -> Smog` crit + `Leech Seed`) |
 | Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
 | Route 102 | Sandshrew ♂ | TALOS | 11 | Active | Caught at `(39, 5)` (`32 HP`, Ground, `23 Atk / 24 Def / 15 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 
@@ -69,8 +69,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **NEREUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Sassy [`+SpD / -Spd`], `Torrent`, Stats: `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+1. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -310,6 +309,8 @@
 ## Attempt #15 Casualties (Starting Turn 3475)
 - **FLORA** (Hoppip ♀, Lv. 11, `29 HP`, `Grass/Flying`, `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Died on Turn 3546 on Route 102 `(26, 15)` to Bug Catcher Rick's final Pokémon, `Lv. 5 Kakuna` (`Poison Sting` — 2x Super Effective `7 damage` + end-of-turn `PSN` tick `10 -> 3 -> 0/29 HP` after non-STAB `Confusion` from `12 SpA` left `Kakuna` at `1 HP`).
   - **Root Cause & Tactical Rule:** Kept a poisoned (`PSN`, `10/29 HP`) 2x Poison-weak `Grass/Flying` Pokémon in against `Lv. 5 Kakuna` (`Poison Sting`) expecting non-STAB `Confusion` (`50 BP` from `12 SpA`) to OHKO, instead of switching to our healthy `Ground`-type `TALOS` (`24/32 HP`, `24 Defense`, resists `Poison Sting` `0.5x`) or `NEREUS` (`Water Gun` `60 effective BP` from `18 SpA`). **Rule:** Never leave a poisoned (`PSN`) `<50% HP` Pokémon in against a 2x Super Effective enemy move when a healthy resistant teammate is available on the bench!
+- **NEREUS** (Mudkip ♂, Lv. 11, `33 HP`, Sassy, `Torrent`, `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 3575 on Route 102 `(15, 2)` to Lass Tiana's `Lv. 5 Togepi` (`Metronome` -> critical-hit `Smog` `7 -> 1/33 HP` + residual `Leech Seed` sap `1 -> 0/33 HP` from `Sunkern`).
+  - **Root Cause & Tactical Rule:** Kept `NEREUS` in while seeded by `Leech Seed` (`-4 HP/turn`) after knocking out `Lv. 6 Sunkern` at `15/33 HP`, instead of immediately pivoting `NEREUS` (`15/33 HP`) -> `TALOS` (`4/32 HP`) -> `NEREUS` (`15/33 HP`) on `Togepi`'s send-out turn to clear `Leech Seed` before attacking.
 
 <hr>
 

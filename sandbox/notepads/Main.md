@@ -55,8 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **NEREUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Sassy [`+SpD / -Spd`], `Torrent`, Stats: `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+1. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
