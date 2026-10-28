@@ -1644,7 +1644,9 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 3 North Pad (23, 20) | Room 2 NE Alcove Arrival (9, 18) | Warps to Room 2 Northeast Alcove |
 | Room 2 NE Alcove Pad (7, 18) | Room 4 Arrival Pad (8, 12) | Progression pad in Room 2 NE Alcove |
 | Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
-| Room 4 North Pad (11, 3) | Pending | North alcove of Room 4 |
+| Room 4 North Pad (11, 3) | 1F Eastern Chamber (11, 35) | Teleports to 1F Eastern Chamber |
+| 1F Eastern Chamber (11, 35) | Room 4 North Pad (11, 3) | Return pad to Room 4 |
+| 1F Eastern Chamber (13, 31) | Pending | Leads to Tate & Liza arena platform |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
@@ -1704,7 +1706,6 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
   - Field Mechanics: TM28 Dig learned by Cobalu (replacing Metal Claw). Proved in-game that Dig cannot be used inside Gyms ('Can't use that here.').
   - Choke Point Crossed: Successfully navigated from North section onto the Central Causeway (8, 9) and into (9, 9)!
   - Upper-Right Track: Permanently verified in State 4 with statues in Column 12 at (12, 5) and (12, 6). Column 11 is 100% clear straight to Gym Leaders Tate & Liza at North Warp Pad (11, 3)!
-  - Central Causeway Access: Player is at (9, 9), directly adjacent to Central Causeway (8, 9) and Lower Blue Switch at (8, 10).
 
 
 <hr>
