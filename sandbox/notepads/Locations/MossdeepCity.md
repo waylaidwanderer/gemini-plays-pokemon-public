@@ -30,10 +30,11 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 - Western Shore: Open water disembarkation point from Route 124 along row 13, transitioning to shallow tidal water at col 9. High bluffs block direct eastward access.
 - Southwest Beach & Staircase: Shallow water channel leads south along col 13 to the southwest sandbar (cols 7..8, rows 22..29). A white stone staircase at (25..26, rows 21..25) ascends north from the beach (approached from 25..26, row 26) onto the lower city avenue at (25..26, row 21).
 - Pokémon Center (Exterior):
-  - Located on the lower western avenue at cols 27..32, rows 11..15.
+  - Located on the lower western avenue at cols 27..32, rows 11..16.
   - Red roof with white Pokéball emblem, 'P.C' sign on right wall.
-  - Blue sliding entrance doors at (28..29, 15), approached from (28..29, 16) facing North.
-  - Signpost located to the left of the building at (25, 14).
+  - Main dirt avenue in front of Center runs along row 17.
+  - Blue sliding entrance doors at (28..29, 16), approached from (28..29, 17) facing North.
+  - Signpost located to the left of the building at (25, 14). Checkpoint confirmed!
 
 - Pokémon Center Interior (1F):
   - Entrance mat at (7, 8).
