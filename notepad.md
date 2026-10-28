@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | NEREUS | 11 | Active | Starter (`Met in ROUTE 101`; Sassy [`+SpD / -Spd`], `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`) |
-| Route 103 | Hoppip ♀ | FLORA | 11 | Active | Caught at `(12, 14)` (`29 HP`, Grass/Flying, knows `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) |
+| Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
 | Route 102 | Sandshrew ♂ | TALOS | 11 | Active | Caught at `(39, 5)` (`32 HP`, Ground, `23 Atk / 24 Def / 15 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 
 <hr>
@@ -70,8 +70,7 @@
 
 ## Active Party
 1. **NEREUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Sassy [`+SpD / -Spd`], `Torrent`, Stats: `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
-2. **FLORA** — Hoppip ♀ (Lv. 11, `29/29 HP`, Grass/Flying, Stats: `29 HP / 15 Atk / 15 Def / 12 SpA / 16 SpD / 19 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `PoisonPowder` [Slot 2: `Up, Right`], `Mega Drain` [Slot 3: `Down, Left`], `Gust` [Slot 4: `Down, Right`]) — Met on Route 103.
-3. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Met on Route 102.
+2. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -305,6 +304,12 @@
   1. **Strictly 1 Turn at a Time When Weakening Wild Encounters & Never Use a 2x Weak Type:** Always chip wild encounters 1 turn at a time with a neutral/resistant Pokémon (`Mudkip`'s 20-BP `Bubble` or `Tackle`).
   2. **Keep 4–5 Active Teammates Alive & at Level 13–14 Across Petalburg Woods and Route 104 North:** Spread trainer EXP across 4–5 teammates (`Mudkip` + Route 103, Route 102, Route 104, and Petalburg Woods catches) so no Pokémon exceeds **Level 15** before entering Rustboro City.
   3. **Against Team Magma Grunt's `Lv. 8 Duskull` (`Protect`, `Night Shade`, `Confuse Ray`, `Will-O-Wisp`):** Attack `Duskull` directly with `Bite` / `Water Gun` / `BubbleBeam` / `Aerial Ace` from a `>25 HP` unparalyzed attacker rather than attempting to PP-stall `Duskull`.
+
+---
+
+## Attempt #15 Casualties (Starting Turn 3475)
+- **FLORA** (Hoppip ♀, Lv. 11, `29 HP`, `Grass/Flying`, `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Died on Turn 3546 on Route 102 `(26, 15)` to Bug Catcher Rick's final Pokémon, `Lv. 5 Kakuna` (`Poison Sting` — 2x Super Effective `7 damage` + end-of-turn `PSN` tick `10 -> 3 -> 0/29 HP` after non-STAB `Confusion` from `12 SpA` left `Kakuna` at `1 HP`).
+  - **Root Cause & Tactical Rule:** Kept a poisoned (`PSN`, `10/29 HP`) 2x Poison-weak `Grass/Flying` Pokémon in against `Lv. 5 Kakuna` (`Poison Sting`) expecting non-STAB `Confusion` (`50 BP` from `12 SpA`) to OHKO, instead of switching to our healthy `Ground`-type `TALOS` (`24/32 HP`, `24 Defense`, resists `Poison Sting` `0.5x`) or `NEREUS` (`Water Gun` `60 effective BP` from `18 SpA`). **Rule:** Never leave a poisoned (`PSN`) `<50% HP` Pokémon in against a 2x Super Effective enemy move when a healthy resistant teammate is available on the bench!
 
 <hr>
 

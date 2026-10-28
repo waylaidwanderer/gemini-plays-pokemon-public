@@ -220,3 +220,9 @@
   1. **Strictly 1 Turn at a Time When Weakening Wild Encounters & Never Use a 2x Weak Type:** Always chip wild encounters 1 turn at a time with a neutral/resistant Pokémon (`Mudkip`'s 20-BP `Bubble` or `Tackle`).
   2. **Keep 4–5 Active Teammates Alive & at Level 13–14 Across Petalburg Woods and Route 104 North:** Spread trainer EXP across 4–5 teammates (`Mudkip` + Route 103, Route 102, Route 104, and Petalburg Woods catches) so no Pokémon exceeds **Level 15** before entering Rustboro City.
   3. **Against Team Magma Grunt's `Lv. 8 Duskull` (`Protect`, `Night Shade`, `Confuse Ray`, `Will-O-Wisp`):** Attack `Duskull` directly with `Bite` / `Water Gun` / `BubbleBeam` / `Aerial Ace` from a `>25 HP` unparalyzed attacker rather than attempting to PP-stall `Duskull`.
+
+---
+
+## Attempt #15 Casualties (Starting Turn 3475)
+- **FLORA** (Hoppip ♀, Lv. 11, `29 HP`, `Grass/Flying`, `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Died on Turn 3546 on Route 102 `(26, 15)` to Bug Catcher Rick's final Pokémon, `Lv. 5 Kakuna` (`Poison Sting` — 2x Super Effective `7 damage` + end-of-turn `PSN` tick `10 -> 3 -> 0/29 HP` after non-STAB `Confusion` from `12 SpA` left `Kakuna` at `1 HP`).
+  - **Root Cause & Tactical Rule:** Kept a poisoned (`PSN`, `10/29 HP`) 2x Poison-weak `Grass/Flying` Pokémon in against `Lv. 5 Kakuna` (`Poison Sting`) expecting non-STAB `Confusion` (`50 BP` from `12 SpA`) to OHKO, instead of switching to our healthy `Ground`-type `TALOS` (`24/32 HP`, `24 Defense`, resists `Poison Sting` `0.5x`) or `NEREUS` (`Water Gun` `60 effective BP` from `18 SpA`). **Rule:** Never leave a poisoned (`PSN`) `<50% HP` Pokémon in against a 2x Super Effective enemy move when a healthy resistant teammate is available on the bench!
