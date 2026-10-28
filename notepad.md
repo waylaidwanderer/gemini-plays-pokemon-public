@@ -9,7 +9,7 @@
 | Route 102 | Sandshrew ♀ | CYBELE | 14 | Deceased | Died on Turn 3965 in Petalburg Woods to Team Magma Grunt's `Lv. 8 Bagon` (`Twister` crit + queued loop from `15/40 HP`) |
 | Route 104 (South) | Natu ♂ | HORUS | 15 | Deceased | Died on Turn 4008 on Route 104 North `(24, 8)` to PKMN Trainer Red's `Lv. 9 Eevee` (`+5 Atk` `Snore` after `Psybeam` chipped `Eevee` to `~20% HP`) |
 | Petalburg Woods | Pineco ♂ | *(None)* | 7 | Fled | Fled at `(22, 35)` to avoid `Selfdestruct` risk |
-| Route 116 | Paras ♂ | SPOROS | 9 | Active | Caught at `(5, 12)` (`28 HP`, Bug/Grass, Quiet [`+SpA, -Spd`], `Effect Spore`, `19 Atk / 15 Def / 14 SpA / 15 SpD / 9 Spd`, knows `Stun Spore`, `Mega Drain`, `Toxic`) |
+| Route 116 | Paras ♂ | SPOROS | 14 | Active | Caught at `(5, 12)` (`38 HP`, Bug/Grass, Quiet [`+SpA, -Spd`], `Effect Spore`, `26 Atk / 21 Def / 19 SpA / 21 SpD / 11 Spd`, knows `Stun Spore`, `Mega Drain`, `Toxic`, `Knock Off`) |
 
 <hr>
 
@@ -75,7 +75,7 @@
 ## Active Party
 1. **PELAGOS** — Mudkip ♂ (Lv. 15, `41/41 HP`, Water, `Torrent`, Stats: `41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SPEAROW** — Spearow ♂ (Lv. 15, `37/37 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `37 HP / 27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103.
-3. **SPOROS** — Paras ♂ (Lv. 9, `28/28 HP`, Bug/Grass, Quiet [`+SpA, -Spd`], `Effect Spore`, Stats: `28 HP / 19 Atk / 15 Def / 14 SpA / 15 SpD / 9 Spd`, Moves: `Stun Spore` [Slot 1: `Up, Left`], `Mega Drain` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`]) — Caught on Route 116.
+3. **SPOROS** — Paras ♂ (Lv. 14, `38/38 HP`, Bug/Grass, Quiet [`+SpA, -Spd`], `Effect Spore`, Stats: `38 HP / 26 Atk / 21 Def / 19 SpA / 21 SpD / 11 Spd`, Moves: `Stun Spore` [Slot 1: `Up, Left`], `Mega Drain` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`], `Knock Off` [Slot 4: `Down, Right`]) — Caught on Route 116.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
