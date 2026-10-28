@@ -15,7 +15,21 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
 5. [x] Defeat all Gym trainers (12 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia, Hannah - ALL CLEARED!).
-6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
+6. [x] Defeat Gym Leaders Tate & Liza for the Mind Badge! (DEFEATED Turn 16536! Mind Badge and TM04 Calm Mind earned, Tate & Liza registered in Match Call).
+
+## Gym Leader Battle: Tate & Liza (The Mystic Combination!) [DEFEATED - Turn 16536]
+- Location: Mossdeep Gym arena platform at cols 23..25, rows 5..6.
+- Battle Format: Double Battle. Prize: ¥8,400.
+- Opponents:
+  1. Claydol Lv 42 (Ground/Psychic) - OHKOed by Sage's Leaf Blade.
+  2. Lunatone Lv 42 (Rock/Psychic) - OHKOed by Sage's Leaf Blade.
+  3. Solrock Lv 42 (Rock/Psychic) - OHKOed by Sage's Leaf Blade.
+  4. Xatu Lv 41 (Psychic/Flying) - Defeated by Sage's Rock Tomb & Leaf Blade.
+- Rewards:
+  - MIND BADGE received! (Enables HM08 Dive outside battle; boosts Sp.Atk & Sp.Def).
+  - TM04 Calm Mind received.
+  - Registered Tate & Liza in PokéNav Match Call.
+- Party Evolution: CIPHER (Abra) grew to Lv 16 and evolved into KADABRA, learning Confusion!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
 - Spawns at (6, 35) on orange entrance mat (cols 5..6, row 35).

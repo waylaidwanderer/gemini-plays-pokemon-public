@@ -1595,7 +1595,21 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
 5. [x] Defeat all Gym trainers (12 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia, Hannah - ALL CLEARED!).
-6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
+6. [x] Defeat Gym Leaders Tate & Liza for the Mind Badge! (DEFEATED Turn 16536! Mind Badge and TM04 Calm Mind earned, Tate & Liza registered in Match Call).
+
+## Gym Leader Battle: Tate & Liza (The Mystic Combination!) [DEFEATED - Turn 16536]
+- Location: Mossdeep Gym arena platform at cols 23..25, rows 5..6.
+- Battle Format: Double Battle. Prize: ¥8,400.
+- Opponents:
+  1. Claydol Lv 42 (Ground/Psychic) - OHKOed by Sage's Leaf Blade.
+  2. Lunatone Lv 42 (Rock/Psychic) - OHKOed by Sage's Leaf Blade.
+  3. Solrock Lv 42 (Rock/Psychic) - OHKOed by Sage's Leaf Blade.
+  4. Xatu Lv 41 (Psychic/Flying) - Defeated by Sage's Rock Tomb & Leaf Blade.
+- Rewards:
+  - MIND BADGE received! (Enables HM08 Dive outside battle; boosts Sp.Atk & Sp.Def).
+  - TM04 Calm Mind received.
+  - Registered Tate & Liza in PokéNav Match Call.
+- Party Evolution: CIPHER (Abra) grew to Lv 16 and evolved into KADABRA, learning Confusion!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
 - Spawns at (6, 35) on orange entrance mat (cols 5..6, row 35).
@@ -3823,7 +3837,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 54, Male), Nickname: SAGE
-- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 27 (HP 67/78), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
+- Status: MIND BADGE EARNED! Gym Leaders Tate & Liza defeated in official Double Battle! TM04 Calm Mind received, Tate & Liza registered in Match Call. Cipher evolved into Kadabra Lv 16! Sage reached Lv 55! Ready to stop Team Magma at the Mossdeep Space Center and obtain HM08 Dive.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (18/20), Leaf Blade (4/15), Quick Attack (29/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.
@@ -3834,7 +3848,7 @@ A large meteorological research institute located in northern Route 119 beside t
 6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Status: OK. Stats at Lv 28: Atk 48, Def 58, Sp.Atk 49, Sp.Def 54, Speed 41. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15).
 
 ## Bag Highlights
-- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - enables HM02 Fly outside battle, obedience up to Lv 70).
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def).
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Dire Hit x1 (picked up at 30, 69 on Route 110)
@@ -3856,7 +3870,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: HM02 Fly (Brendan on Route 119), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x2 (purchased at Lilycove Rooftop Vending Machine)
 - Lemonade x1 (purchased at Lilycove Rooftop Vending Machine)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
@@ -3866,8 +3880,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥38,313
-- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- Money: ¥46,713
+- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -3885,7 +3899,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Phase 1: Intro, clock set, PC Potion, rival meeting, Birch rescue, and Treecko (SAGE).
 - Phase 2: Oldale Center visit, promo Potion from clerk, Brendan Rival Battle 1 won on Route 103 (Sage Lv 7), Pokédex + 5 Poké Balls from Birch/Brendan, Running Shoes received from Mom.
 - Phase 3: Route 102 cleared (Calvin, Rick, Allen, Tiana defeated; caught Lotad LILZ), Petalburg City Gym visit with Dad, assisted Wally catching Ralts, Route 104 traversed (Cindy, Winston, Haley, Gina & Mia, Ivan defeated; Wailmer Pail and Bullet Seed obtained), Petalburg Woods cleared (rescued Devon researcher, defeated Aqua Grunt, Lyle, James), Rustboro City explored (Cut HM01 and Quick Claw obtained), Rustboro Gym cleared (Josh, Tommy & Marc, and Gym Leader Roxanne defeated; Stone Badge and TM39 Rock Tomb earned; Sage evolved to Grovyle Lv 16).
-- Phase 4: Recovered stolen Devon Goods & rescued Peeko in Rusturf Tunnel, met Mr. Stone at Devon Corp and received PokéNav + Letter, sailed with Mr. Briney to Dewford Town, obtained Old Rod and HM05 Flash, delivered Letter to Steven Stone in Granite Cave (received TM47 Steel Wing), and defeated Gym Leader Brawly to earn the Knuckle Badge and TM08 Bulk Up.
+- Phase 4: Recovered stolen Devon Goods & rescued Peeko in Rusturf Tunnel, met Mr. Stone at Devon Corp and received PokéNav + Letter, sailed with Mr. Briney to Dewford Town, obtained Old Rod and HM05 Flash, delivered Letter to Steven Stone in Granite Cave (received TM04 Calm Mind (Tate & Liza), TM47 Steel Wing), and defeated Gym Leader Brawly to earn the Knuckle Badge and TM08 Bulk Up.
 
 ## Progression Checklist - Phase 5: Slateport City & Route 110 (Completed)
 1. [x] Sail with Mr. Briney from Dewford Town to Route 109 beach.
