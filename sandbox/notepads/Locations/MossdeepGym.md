@@ -14,7 +14,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 2. [x] Enter Mossdeep Gym (Turn 16065).
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
-5. [ ] Defeat all Gym trainers (8 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas; Room 4 trainers discovered).
+5. [ ] Defeat all Gym trainers (10 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate; Hex Maniac in Room 4 north).
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
@@ -51,6 +51,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Psychic ♀ Macey: Defeated at (25, 25) on Turn 16137 (Natu Lv 36 ♀ OHKOed by Pursuit; Prize: ¥864; Sage HP 165/165).
 
 - Psychic ♂ Nicholas: Defeated at (25, 23) on Turn 16159 (Wobbuffet Lv 36 ♂ defeated by Leaf Blade, Destiny Bond fainted Sage; Prize: ¥864).
+
+- Psychic ♂ Virgil & Gentleman Nate: Defeated in Double Battle at (7..9, 9..10) on Turn 16185 (Ralts Lv 36 ♂ OHKOed by Leaf Blade, Spoink Lv 36 ♂ OHKOed by Leaf Blade; Prize: ¥3,744; Sage full HP, Leaf Blade 6/15).
 
 ## Systematic Warp Teleporter Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
