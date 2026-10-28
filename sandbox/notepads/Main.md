@@ -55,8 +55,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TALOS** — Sandshrew ♂ (Lv. 13, `36/36 HP`, Ground, Stats: `36 HP / 26 Atk / 27 Def / 11 SpA / 14 SpD / 17 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-2. **DRYAD** — Nuzleaf ♀ (Lv. 14, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Bide` [Slot 2: `Up, Right`, 10 PP], `Bullet Seed` [Slot 3: `Down, Left`, 30 PP], `Nature Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
+1. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+2. **DRYAD** — Nuzleaf ♀ (Lv. 14, `46/46 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll`, Stats: `46 HP / 26 Atk / 18 Def / 21 SpA / 15 SpD / 25 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Bide` [Slot 2: `Up, Right`, 10 PP], `Bullet Seed` [Slot 3: `Down, Left`, 30 PP], `Nature Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
