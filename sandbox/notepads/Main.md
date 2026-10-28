@@ -56,7 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♀ (Lv. 14, `40/40 HP`, Water, Quiet [`+SpA, -Spd`], `Torrent`, holding `Oran Berry`, Stats: `40 HP / 25 Atk / 19 Def / 24 SpA / 19 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **MUDKIP** — Mudkip ♀ (Lv. 15, `18/43 HP` [PAR], Water, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `43 HP / 26 Atk / 20 Def / 26 SpA / 20 SpD / 16 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, holding `Oran Berry`, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 3. **BASTET** — Meowth ♀ (Lv. 11, `31/31 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
 4. **HYPNOS** — Drowzee ♂ (Lv. 13, `42/42 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], holding `Pecha Berry`, Stats: `42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
