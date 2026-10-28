@@ -3,5 +3,5 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PELAGOS | 10 | Active | Starter received on Route 101 (`30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`) |
-| Route 103 | Spearow ♂ | SPEAROW | 9 | Active | Caught at `(11, 14)` (`26 HP`, Normal/Flying, Hardy, `Keen Eye`, `18 Atk / 11 Def / 13 SpA / 13 SpD / 18 Spd`, knows `Peck`, `Pursuit`, `Tackle`) |
+| Route 103 | Spearow ♂ | SPEAROW | 11 | Active | Caught at `(11, 14)` (`29 HP`, Normal/Flying, Hardy, `Keen Eye`, `21 Atk / 12 Def / 15 SpA / 15 SpD / 21 Spd`, knows `Peck`, `Pursuit`, `Tackle`) |
 | Route 102 | Sandshrew ♀ | CYBELE | 11 | Active | Caught at `(39, 5)` (`34 HP`, Ground, `24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
