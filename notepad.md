@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♀ | MUDKIP | 12 | Active | Starter received on Route 101 (`36 HP / 22 Atk / 17 Def / 22 SpA / 17 SpD / 13 Spd`, Quiet [`+SpA, -Spd`], female `12.5%` — immune to female `Cute Charm` / `Attract`) |
 | Route 103 | Hoppip ♀ | SYLPH | 11 | Active | Caught at `(11, 14)` (`32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Grass/Flying, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) |
 | Route 102 | Meowth ♀ | BASTET | 11 | Active | Caught at `(37, 5)` (`31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`) |
+| Route 104 (South) | Drowzee ♂ | HYPNOS | 7 | Active | Caught at `(24, 60)` (Psychic, Base 60 HP / 45 Def / 90 SpD) |
 
 <hr>
 
@@ -73,6 +74,7 @@
 1. **MUDKIP** — Mudkip ♀ (Lv. 12, `36/36 HP`, Water, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `36 HP / 22 Atk / 17 Def / 22 SpA / 17 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 3. **BASTET** — Meowth ♀ (Lv. 11, `31/31 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
+4. **HYPNOS** — Drowzee ♂ (Lv. 7, Psychic) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
