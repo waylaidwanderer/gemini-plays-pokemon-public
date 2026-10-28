@@ -131,6 +131,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 ## Discovered Topography & Navigation - 1F Eastern Chamber (Turn 16415)
 - Arrival Warp Pad: (11, 35) entered from Room 4 North Pad (11, 3). Return pad to Room 4.
-- Layout: Middle platform contains arrival pad (11, 35), floor tile (12, 35), 2x2 green track at (11..12, 33..34) with statues and Down arrow at (11, 33), and Tate & Liza Warp Pad at (13, 31).
-- Eastern Platform: Green square switch located at row 34 across void.
-- Next Steps: Re-enter 1F Eastern Chamber to thoroughly test physical interactions (Strength activation, pushing statues, movement options from (12, 35)).
+- Layout: Middle platform contains arrival pad (11, 35), floor tile (12, 35), 2x2 green track at (11..12, 33..34), and Tate & Liza Warp Pad at (13, 31).
+- Green Switch & Track Solution (Verified Turn 16476):
+  - Green Switch is located at (15, 34) on the eastern platform, accessed via Room 3's southern corridor (cols 22..25, rows 24..34).
+  - State 3 Solution: Toggled Green Switch to State 3, placing the Green Up Conveyor Arrow at (12, 34) with statues at (11, 34), (11, 33), and (12, 33).
+  - Traversal Path: From arrival pad (11, 35) -> step Right to (12, 35) -> step Up onto (12, 34) (conveyor slides Up into statue at 12, 33 and halts) -> step Right onto (13, 34) -> walk North along Column 13 into Tate & Liza Warp Pad at (13, 31)!
