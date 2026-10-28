@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | PELAGOS | 14 | Active | Starter received on Route 101 (`39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`) |
 | Route 103 | Spearow ♂ | SPEAROW | 14 | Active | Caught at `(11, 14)` (`35 HP`, Normal/Flying, Hardy, `Keen Eye`, `26 Atk / 14 Def / 17 SpA / 18 SpD / 25 Spd`, knows `Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Sandshrew ♀ | CYBELE | 14 | Active | Caught at `(39, 5)` (`40 HP`, Ground, `29 Atk / 26 Def / 13 SpA / 15 SpD / 18 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
-| Route 104 (South) | Natu ♂ | HORUS | 14 | Active | Caught at `(22, 61)` (`38 HP`, Psychic/Flying, Rash [`+SpA, -SpD`], `Early Bird`, `20 Atk / 20 Def / 28 SpA / 18 SpD / 26 Spd`, knows `Peck`, `Psybeam`, `Night Shade`) |
+| Route 104 (South) | Natu ♂ | HORUS | 15 | Active | Caught at `(22, 61)` (`40 HP`, Psychic/Flying, Rash [`+SpA, -SpD`], `Early Bird`, `21 Atk / 21 Def / 30 SpA / 18 SpD / 28 Spd`, knows `Peck`, `Psybeam`, `Night Shade`) |
 | Petalburg Woods | Pineco ♂ | *(None)* | 7 | Fled | Fled at `(22, 35)` to avoid `Selfdestruct` risk |
 
 <hr>
@@ -73,7 +73,7 @@
 
 ## Active Party
 1. **PELAGOS** — Mudkip ♂ (Lv. 14, `39/39 HP`, Water, `Torrent`, Holds `Pecha Berry`, Stats: `39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **HORUS** — Natu ♂ (Lv. 14, `38/38 HP`, Psychic/Flying, Rash, `Early Bird`, Holds `Oran Berry`, Stats: `38 HP / 20 Atk / 20 Def / 28 SpA / 18 SpD / 26 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 104 (South).
+2. **HORUS** — Natu ♂ (Lv. 15, `5/40 HP`, Psychic/Flying, Rash, `Early Bird`, Stats: `40 HP / 21 Atk / 21 Def / 30 SpA / 18 SpD / 28 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 104 (South).
 3. **CYBELE** — Sandshrew ♀ (Lv. 14, `40/40 HP`, Ground, Holds `Oran Berry`, Stats: `40 HP / 29 Atk / 26 Def / 13 SpA / 15 SpD / 18 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102.
 4. **SPEAROW** — Spearow ♂ (Lv. 14, `29/35 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `35 HP / 26 Atk / 14 Def / 17 SpA / 18 SpD / 25 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103.
 
