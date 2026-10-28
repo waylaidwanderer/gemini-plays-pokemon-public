@@ -3810,11 +3810,11 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 54, Male), Nickname: SAGE
-- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 27 (HP 78/78), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
+- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 27 (HP 67/78), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (18/20), Leaf Blade (4/15), Quick Attack (29/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.
-2. LILZ (Lombre ♀, Level 27) - Evolved from Lotad on turn 4926! Level 27 on turn 16132! Moves: Astonish (14/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 78/78. Max HP: 78. Status: OK.
+2. LILZ (Lombre ♀, Level 27) - Evolved from Lotad on turn 4926! Level 27 on turn 16132! Moves: Astonish (14/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 67/78. Max HP: 78. Status: OK.
 3. CIPHER (Abra ♂, Level 15) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 33/33. Max HP: 33. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
