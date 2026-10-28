@@ -49,13 +49,9 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Psychic ♂ Blake & Psychic ♀ Samantha: Defeated in Double Battle at (4, 21..23) on Turn 16107 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Xatu Lv 36 ♀ defeated by Pursuit; Prize: ¥1,728; Sage & Lilz 0 damage).
 - Gentleman Clifford & Hex Maniac Kathleen: Defeated in Double Battle at (22, 23..25) on Turn 16132 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Kadabra Lv 36 ♂ OHKOed by Leaf Blade; Prize: ¥3,744; Sage & Lilz undamaged, Lilz grew to Lv 27!).
 - Psychic ♀ Macey: Defeated at (25, 25) on Turn 16137 (Natu Lv 36 ♀ OHKOed by Pursuit; Prize: ¥864; Sage HP 165/165).
-
 - Psychic ♂ Nicholas: Defeated at (25, 23) on Turn 16159 (Wobbuffet Lv 36 ♂ defeated by Leaf Blade, Destiny Bond fainted Sage; Prize: ¥864).
-
 - Psychic ♂ Virgil & Gentleman Nate: Defeated in Double Battle at (7..9, 9..10) on Turn 16185 (Ralts Lv 36 ♂ OHKOed by Leaf Blade, Spoink Lv 36 ♂ OHKOed by Leaf Blade; Prize: ¥3,744; Sage full HP, Leaf Blade 6/15).
-
 - Hex Maniac Sylvia: Defeated at (7, 5) on Turn 16199 (Meditite Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 5/15).
-
 - Psychic ♀ Hannah: Defeated at (6, 3) on Turn 16214 (Kirlia Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 4/15).
 
 ## Systematic Warp Teleporter Map
@@ -68,7 +64,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 3 North Pad (23, 20) | Room 2 NE Alcove Arrival (9, 18) | Warps to Room 2 Northeast Alcove |
 | Room 2 NE Alcove Pad (7, 18) | Room 4 Arrival Pad (8, 12) | Progression pad in Room 2 NE Alcove |
 | Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
-| Room 4 North Pad (10, 4) | Pending | North alcove of Room 4 |
+| Room 4 North Pad (11, 3) | Pending | North alcove of Room 4 |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
@@ -102,13 +98,10 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 ## Discovered Topography & Navigation - Room 4
 - Arrival Warp Pad at (8, 12) from Room 2 NE Alcove pad (7, 18).
-- Room 4 layout (cols 5..12, rows 8..12):
-  - (8, 12): Arrival warp pad (returns to Room 2 at 7, 18).
-  - (8, 11): 1-tile wide causeway connecting pad to room.
-  - (8, 10): Causeway exit junction connecting south causeway to room.
-  - (7, 9): Light blue floor switch.
-  - North Warp Pad: Located on elevated northeast ledge at (10, 4) leading to Tate & Liza.
-  - Female NPC sighted at (7, 3) overlooking northern walkway.
-  - Orange divider blocks at (8, 9) and (9, 9..10).
-  - Left Track (cols 6..7, rows 9..10): Female Psychic trainer at (6, 10), Statue at (7, 9), Blue arrows [Down] and [Left].
-  - Right Track: Gentleman trainer at (9, 10) facing South, Statue at (11, 9), Blue arrows [Right] and [Up].
+- Causeway at (8, 11) leading north to central junction at (8, 10).
+- Lower Blue Switch at (8, 10) controls lower blue conveyor tracks (cols 6..10, rows 8..10).
+- West Light-Blue Switch at (6, 7) toggles lower track state.
+- Western Hallway (cols 4..5, rows 4..8) provides open bypass around lower tracks.
+- Orange Switch at (8, 6) activated on Turn 16229: shifts upper orange track statues to column 10 (rows 5 and 6), completely clearing the column 11 corridor straight to the warp pad!
+- North Warp Pad at (11, 3): Leads directly to Gym Leaders Tate & Liza.
+- All 4 Room 4 trainers defeated: Virgil, Nate, Sylvia, Hannah.
