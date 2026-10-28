@@ -1686,20 +1686,28 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - North Warp Pad at (11, 3): Leads directly to Gym Leaders Tate & Liza.
 - All 4 Room 4 trainers defeated: Virgil, Nate, Sylvia, Hannah.
 
-## Room 4 Puzzle Solution & Route to Tate & Liza
-- Upper Right 2x2 Track (cols 11..12, rows 5..6) controls access to North Warp Pad at (11, 3).
-- Orange Switch at (8, 6) rotates the two statues through 4 states:
-  - State 1: Statues at Row 5 (11, 5 & 12, 5)
-  - State 2: Statues at Column 11 (11, 5 & 11, 6) [Turn 16281]
-  - State 3: Statues at Row 6 (11, 6 & 12, 6)
-  - State 4: Statues at Column 12 (12, 5 & 12, 6) -> Column 11 is 100% CLEAR straight to (11, 3)!
+## Room 4 Puzzle Architecture & Solution (Verified Turn 16321)
+- Upper Tracks (Orange System): Controlled by Orange Switch at (8, 6).
+  - Both Upper-Left Track and Upper-Right Track rotate in lockstep when the Orange Switch is activated.
+  - Upper-Right 2x2 Track (cols 11..12, rows 5..6): Clockwise loop with 2 movable statues.
+    - Status: Statues are currently in Column 12 at (12, 5) and (12, 6)! Column 11 is completely clear of statues!
+  - Upper-Left Track: Controls Sylvia and 2 statues around cols 6..7.
+    - Currently: Two statues are blocking Row 4 at (6, 4) and (7, 4).
+    - When statues are in Row 4, player cannot exit the (8, 6) switch pocket along Row 4.
+- Row 4 Walkway Bypass:
+  - Row 4 is the corridor connecting the switch pocket (8, 4) to the western hallway (5, 4) below Hannah (6, 3).
+  - Exiting the switch pocket requires rotating the upper-left statues OUT of Row 4.
+- Lower Blue Tracks System:
+  - Controlled by West Light-Blue Switch at (6, 7) and Lower Blue Switch at (8, 10).
+  - Connects upper area (row 7) down to row 9 highway leading into Column 11.
 - Complete Navigation Route:
-  1. Cycle switch (8, 6) to State 4 so statues move to Column 12.
-  2. Exit switch pocket: Up x2 to (8, 4).
-  3. Ride Left arrow at (7, 4) across row 4 to (4, 4).
-  4. Walk Down col 4 to (4, 8), Right to (5, 8).
-  5. Ride blue conveyor across row 9 into Column 11 at (11, 9).
-  6. Walk straight North up Column 11 through (11, 8), (11, 7), (11, 6), (11, 5), (11, 4) into North Warp Pad at (11, 3)!
+  1. Cycle Orange Switch to rotate upper-left statues away from Row 4 while keeping exit clear.
+  2. Exit switch pocket along Row 4 to western hallway (cols 4..5).
+  3. Route south to row 9 via Column 6 or western bypass.
+  4. Walk east across row 9 into Column 11 at (11, 9).
+  5. Walk straight North up Column 11 to North Warp Pad at (11, 3).
+  6. Defeat Gym Leaders Tate & Liza for the Mind Badge!
+
 
 <hr>
 
