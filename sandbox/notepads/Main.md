@@ -59,6 +59,7 @@
 1. **SPEAROW** — Spearow ♂ (Lv. 12, `28/31 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Oran Berry`, Stats: `31 HP / 23 Atk / 13 Def / 16 SpA / 16 SpD / 22 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`]) — Caught on Route 103.
 2. **PELAGOS** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Holds `Oran Berry`, Stats: `32 HP / 22 Atk / 16 Def / 16 SpA / 15 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 3. **CYBELE** — Sandshrew ♀ (Lv. 11, `34/34 HP`, Ground, Stats: `34 HP / 24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102.
+4. **HORUS** — Natu ♂ (Lv. 7, Psychic/Flying) — Caught on Route 104 (South).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
