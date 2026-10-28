@@ -1707,6 +1707,14 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
   - Choke Point Crossed: Successfully navigated from North section onto the Central Causeway (8, 9) and into (9, 9)!
   - Upper-Right Track: Permanently verified in State 4 with statues in Column 12 at (12, 5) and (12, 6). Column 11 is 100% clear straight to Gym Leaders Tate & Liza at North Warp Pad (11, 3)!
 
+## Discovered Topography & Navigation - 1F Eastern Chamber (Turn 16415)
+- Arrival Warp Pad: (11, 35) entered from Room 4 North Pad (11, 3). Return pad to Room 4.
+- 2x2 Green Track (cols 11..12, rows 33..34):
+  - In default state, 3 statues occupy (11, 34), (12, 34), and (12, 33); (11, 33) is Down arrow.
+  - Gateway tile to warp pad runway is (12, 34) leading to col 13 floor runway (13, 32..34) and Tate & Liza Warp Pad at (13, 31).
+  - Green Switch: Located on eastern platform across black void at col 16..17, row 34.
+  - Navigation Objective: Access Green Switch via Room 2 NE Alcove warp pads (6, 18) or (8, 18) to rotate green track and clear (12, 34).
+
 
 <hr>
 
