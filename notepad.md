@@ -8,7 +8,7 @@
 | Route 103 | Hoppip ♀ | SYLPH | 11 | Active | Caught at `(11, 14)` (`32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Grass/Flying, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) |
 | Route 102 | Meowth ♀ | BASTET | 11 | Active | Caught at `(37, 5)` (`31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`) |
 | Route 104 (South) | Drowzee ♂ | HYPNOS | 13 | Active | Caught at `(24, 60)` (`42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
-| Petalburg Woods | Hoothoot ♂ | NOCTUA | 8 | Active | Caught at `(23, 35)` (Normal/Flying, learns `Aerial Ace` [60 BP STAB never-miss Flying Physical] at Lv. 10) |
+| Petalburg Woods | Hoothoot ♂ | NOCTUA | 8 | Active | Caught at `(23, 35)` (`28 HP / 9 Atk / 11 Def / 11 SpA / 13 SpD / 13 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learns `Aerial Ace` at Lv. 10) |
 
 <hr>
 
@@ -72,11 +72,11 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♀ (Lv. 12, `36/36 HP`, Water, Quiet [`+SpA, -Spd`], `Torrent`, holding `Oran Berry`, Stats: `36 HP / 22 Atk / 17 Def / 22 SpA / 17 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **NOCTUA** — Hoothoot ♂ (Lv. 8, `12/28 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, Stats: `28 HP / 9 Atk / 11 Def / 11 SpA / 13 SpD / 13 Spd`, Moves: `Tackle`, `Peck`, `Confusion`) — Caught in Petalburg Woods.
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, holding `Oran Berry`, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 3. **BASTET** — Meowth ♀ (Lv. 11, `31/31 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], holding `Oran Berry`, Stats: `31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
 4. **HYPNOS** — Drowzee ♂ (Lv. 13, `41/42 HP` [PAR], Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
-5. **NOCTUA** — Hoothoot ♂ (Lv. 8, Normal/Flying) — Caught in Petalburg Woods.
+5. **MUDKIP** — Mudkip ♀ (Lv. 12, `26/36 HP`, Water, Quiet [`+SpA, -Spd`], `Torrent`, holding `Oran Berry`, Stats: `36 HP / 22 Atk / 17 Def / 22 SpA / 17 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
