@@ -8,7 +8,7 @@
 | Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
 | Route 102 | Sandshrew ♂ | TALOS | 15 | Active | Caught at `(39, 5)` (`40 HP`, Ground, `29 Atk / 31 Def / 19 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 | Route 104 (South) | Nuzleaf ♀ | DRYAD | 19 | Retired (Cap) | Overleveled Lv. 16 cap; boxed until Gym 2 (Lv. 20 cap) |
-| Petalburg Woods | Illumise ♀ | ASTRAEA | 16 | Active | Caught at `(21, 34)` (`48 HP`, Bug, Hardy, `Oblivious`, `22 Atk / 33 Def / 29 SpA / 33 SpD / 33 Spd`, knows `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind`) |
+| Petalburg Woods | Illumise ♀ | ASTRAEA | 17 | Retired (Cap) | Caught at `(21, 34)` (`50 HP`, Bug, Hardy, `Oblivious`, `23 Atk / 35 Def / 31 SpA / 35 SpD / 35 Spd`, knows `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind`); boxed until Gym 2 (Lv. 20 cap) |
 
 <hr>
 
@@ -72,9 +72,9 @@
 
 ## Active Party
 1. **TALOS** — Sandshrew ♂ (Lv. 15, `40/40 HP`, Ground, Stats: `40 HP / 29 Atk / 31 Def / 12 SpA / 16 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-2. **ASTRAEA** — Illumise ♀ (Lv. 16, `48/48 HP`, Bug, Hardy, `Oblivious`, Stats: `48 HP / 22 Atk / 33 Def / 29 SpA / 33 SpD / 33 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 10 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
 
 ## Boxed (Retired Until Cap Advances)
+- **ASTRAEA** — Illumise ♀ (Lv. 17, `50/50 HP`, Bug, Hardy, `Oblivious`, Stats: `50 HP / 23 Atk / 35 Def / 31 SpA / 35 SpD / 35 Spd`, Moves: `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
 - **DRYAD** — Nuzleaf ♀ (Lv. 19, Grass/Dark, `Chlorophyll`, `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
 
 ## Notepad Index
