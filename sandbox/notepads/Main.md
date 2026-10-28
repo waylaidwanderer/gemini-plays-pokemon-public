@@ -55,7 +55,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ASTRAEA** — Illumise ♀ (Lv. 14, `43/43 HP`, Bug, Hardy, `Oblivious`, Stats: `43 HP / 20 Atk / 29 Def / 26 SpA / 30 SpD / 29 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 8 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
+1. **ASTRAEA** — Illumise ♀ (Lv. 15, `46/46 HP`, Bug, Hardy, `Oblivious`, Stats: `46 HP / 21 Atk / 31 Def / 28 SpA / 31 SpD / 31 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 10 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
 2. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
