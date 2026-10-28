@@ -1682,7 +1682,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Lower Blue Switch at (8, 10) controls lower blue conveyor tracks (cols 6..10, rows 8..10).
 - West Light-Blue Switch at (6, 7) toggles lower track state.
 - Western Hallway (cols 4..5, rows 4..8) provides open bypass around lower tracks.
-- Orange Switch at (8, 6) activated on Turn 16229: shifts upper orange track statues to column 10 (rows 5 and 6), completely clearing the column 11 corridor straight to the warp pad!
+- Orange Switch at (8, 6): Rotates upper orange conveyor tracks; column 11 access depends on switch alignment state.
 - North Warp Pad at (11, 3): Leads directly to Gym Leaders Tate & Liza.
 - All 4 Room 4 trainers defeated: Virgil, Nate, Sylvia, Hannah.
 
