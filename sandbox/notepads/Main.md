@@ -56,7 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SPOROS** — Paras ♂ (Lv. 14, `38/38 HP`, Bug/Grass, Quiet [`+SpA, -Spd`], `Effect Spore`, Holds `Pecha Berry`, Stats: `38 HP / 26 Atk / 21 Def / 19 SpA / 21 SpD / 11 Spd`, Moves: `Stun Spore` [Slot 1: `Up, Left`], `Mega Drain` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`], `Knock Off` [Slot 4: `Down, Right`]) — Caught on Route 116.
+1. **SPOROS** — Paras ♂ (Lv. 15, `38/40 HP`, Bug/Grass, Quiet [`+SpA, -Spd`], `Effect Spore`, Holds `Pecha Berry`, Stats: `40 HP / 28 Atk / 22 Def / 20 SpA / 22 SpD / 12 Spd`, Moves: `Stun Spore` [Slot 1: `Up, Left`], `Mega Drain` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`], `Knock Off` [Slot 4: `Down, Right`]) — Caught on Route 116.
 2. **SPEAROW** — Spearow ♂ (Lv. 16, `38/38 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Pecha Berry`, Stats: `38 HP / 29 Atk / 16 Def / 19 SpA / 19 SpD / 27 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103 (AT_CAP = Lv. 16 for Roxanne).
 3. **PELAGOS** — Mudkip ♂ (Lv. 15, `41/41 HP`, Water, `Torrent`, Holds `Pecha Berry`, Stats: `41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
