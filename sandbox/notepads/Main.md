@@ -56,10 +56,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **PELAGOS** — Mudkip ♂ (Lv. 15, `5/41 HP`, Water, `Torrent`, Holds `Pecha Berry`, Stats: `41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+- *(None yet — starting Attempt #17)*
 
 ## Boxed (Retired Until Cap Advances)
-- **SPEAROW** — Spearow ♂ (Lv. 17, `40/40 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Pecha Berry`, Stats: `40 HP / 30 Atk / 17 Def / 20 SpA / 20 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Retired until Gym Leader Roxanne is defeated and cap advances to Lv. 20.
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.

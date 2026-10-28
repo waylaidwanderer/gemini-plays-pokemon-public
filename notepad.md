@@ -1,15 +1,10 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #16)
+# Route & Area Encounters (Attempt #17)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | PELAGOS | 15 | Active | Starter received on Route 101 (`41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`) |
-| Route 103 | Spearow ♂ | SPEAROW | 17 | Retired (Boxed) | Caught at `(11, 14)` (`40 HP`, Normal/Flying, Hardy, `Keen Eye`, `30 Atk / 17 Def / 20 SpA / 20 SpD / 28 Spd`, knows `Peck`, `Pursuit`, `Tackle`, `Secret Power`; boxed until Roxanne is defeated) |
-| Route 102 | Sandshrew ♀ | CYBELE | 14 | Deceased | Died on Turn 3965 in Petalburg Woods to Team Magma Grunt's `Lv. 8 Bagon` (`Twister` crit + queued loop from `15/40 HP`) |
-| Route 104 (South) | Natu ♂ | HORUS | 15 | Deceased | Died on Turn 4008 on Route 104 North `(24, 8)` to PKMN Trainer Red's `Lv. 9 Eevee` (`+5 Atk` `Snore` after `Psybeam` chipped `Eevee` to `~20% HP`) |
-| Petalburg Woods | Pineco ♂ | *(None)* | 7 | Fled | Fled at `(22, 35)` to avoid `Selfdestruct` risk |
-| Route 116 | Paras ♂ | SPOROS | 16 | Deceased | Died on Turn 4079 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 12 Sudowoodo` (`+3 SpA` `Ice Punch`) |
+| Route 101 | *(Pending)* | *(Pending)* | - | - | Claimed by Starter (`Met in ROUTE 101`) |
 
 <hr>
 
@@ -73,10 +68,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **PELAGOS** — Mudkip ♂ (Lv. 15, `5/41 HP`, Water, `Torrent`, Holds `Pecha Berry`, Stats: `41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+- *(None yet — starting Attempt #17)*
 
 ## Boxed (Retired Until Cap Advances)
-- **SPEAROW** — Spearow ♂ (Lv. 17, `40/40 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Pecha Berry`, Stats: `40 HP / 30 Atk / 17 Def / 20 SpA / 20 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Retired until Gym Leader Roxanne is defeated and cap advances to Lv. 20.
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
