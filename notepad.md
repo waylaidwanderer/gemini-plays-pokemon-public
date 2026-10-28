@@ -1700,13 +1700,9 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Lower Blue Tracks System:
   - Controlled by West Light-Blue Switch at (6, 7) and Lower Blue Switch at (8, 10).
   - Connects upper area (row 7) down to row 9 highway leading into Column 11.
-- Complete Navigation Route:
-  1. Cycle Orange Switch to rotate upper-left statues away from Row 4 while keeping exit clear.
-  2. Exit switch pocket along Row 4 to western hallway (cols 4..5).
-  3. Route south to row 9 via Column 6 or western bypass.
-  4. Walk east across row 9 into Column 11 at (11, 9).
-  5. Walk straight North up Column 11 to North Warp Pad at (11, 3).
-  6. Defeat Gym Leaders Tate & Liza for the Mind Badge!
+- Status & Current State:
+  - Upper-Right Track (cols 11..12, rows 5..6): Statues are verified in Column 12 at (12, 5) and (12, 6). Column 11 is 100% clear of statues for approach to North Warp Pad at (11, 3).
+  - Row 4 Walkway: Walkable east-west corridor (cols 4..8, row 4) connecting western hallway to eastern pocket.
 
 
 <hr>
