@@ -1,15 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #15)
+# Route & Area Encounters (Attempt #16)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | NEREUS | 11 | Deceased | Died on Turn 3575 on Route 102 to Lass Tiana's Lv. 5 Togepi (`Metronome -> Smog` crit + `Leech Seed`) |
-| Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
-| Route 102 | Sandshrew ♂ | TALOS | 15 | Active | Caught at `(39, 5)` (`40 HP`, Ground, `29 Atk / 31 Def / 19 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
-| Route 104 (South) | Nuzleaf ♀ | DRYAD | 19 | Retired (Cap) | Overleveled Lv. 16 cap; boxed until Gym 2 (Lv. 20 cap) |
-| Petalburg Woods | Illumise ♀ | ASTRAEA | 17 | Retired (Cap) | Caught at `(21, 34)` (`50 HP`, Bug, Hardy, `Oblivious`, `23 Atk / 35 Def / 31 SpA / 35 SpD / 35 Spd`, knows `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind`); boxed until Gym 2 (Lv. 20 cap) |
-| Route 116 | Unown (?) | ORACLE | 14 | Active | Caught at `(4, 13)` (`38 HP`, Psychic, Lonely, `Levitate`, `27 Atk / 18 Def / 27 SpA / 18 SpD / 19 Spd`, knows `Hidden Power`) |
 
 <hr>
 
@@ -72,12 +66,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ORACLE** — Unown (?) (Lv. 14, `38/38 HP`, Psychic, Lonely, `Levitate`, Stats: `38 HP / 27 Atk / 18 Def / 27 SpA / 18 SpD / 19 Spd`, Moves: `Hidden Power` [Slot 1: `Up, Left`, 15 PP]) — Met on Route 116.
-2. **TALOS** — Sandshrew ♂ (Lv. 15, `40/40 HP`, Ground, Stats: `40 HP / 29 Atk / 31 Def / 12 SpA / 16 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+- *(None yet — starting Attempt #16)*
 
 ## Boxed (Retired Until Cap Advances)
-- **ASTRAEA** — Illumise ♀ (Lv. 17, `50/50 HP`, Bug, Hardy, `Oblivious`, Stats: `50 HP / 23 Atk / 35 Def / 31 SpA / 35 SpD / 35 Spd`, Moves: `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
-- **DRYAD** — Nuzleaf ♀ (Lv. 19, Grass/Dark, `Chlorophyll`, `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -319,6 +311,16 @@
   - **Root Cause & Tactical Rule:** Kept a poisoned (`PSN`, `10/29 HP`) 2x Poison-weak `Grass/Flying` Pokémon in against `Lv. 5 Kakuna` (`Poison Sting`) expecting non-STAB `Confusion` (`50 BP` from `12 SpA`) to OHKO, instead of switching to our healthy `Ground`-type `TALOS` (`24/32 HP`, `24 Defense`, resists `Poison Sting` `0.5x`) or `NEREUS` (`Water Gun` `60 effective BP` from `18 SpA`). **Rule:** Never leave a poisoned (`PSN`) `<50% HP` Pokémon in against a 2x Super Effective enemy move when a healthy resistant teammate is available on the bench!
 - **NEREUS** (Mudkip ♂, Lv. 11, `33 HP`, Sassy, `Torrent`, `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 3575 on Route 102 `(15, 2)` to Lass Tiana's `Lv. 5 Togepi` (`Metronome` -> critical-hit `Smog` `7 -> 1/33 HP` + residual `Leech Seed` sap `1 -> 0/33 HP` from `Sunkern`).
   - **Root Cause & Tactical Rule:** Kept `NEREUS` in while seeded by `Leech Seed` (`-4 HP/turn`) after knocking out `Lv. 6 Sunkern` at `15/33 HP`, instead of immediately pivoting `NEREUS` (`15/33 HP`) -> `TALOS` (`4/32 HP`) -> `NEREUS` (`15/33 HP`) on `Togepi`'s send-out turn to clear `Leech Seed` before attacking.
+- **ORACLE** (Unown (?), Lv. 14, `38 HP`, Lonely, `Levitate`, `Hidden Power`) — Died on Turn 3812 on Route 116 `(10, 6)` to Hiker Devan's lead `Lv. 10 Geodude` (`Secret Power` from `6/38 HP`).
+  - **Root Cause & Tactical Lesson:** Hiker Devan's `Lv. 10 Geodude` knows **`Secret Power` (70 BP Physical Normal)** in addition to `Dig` and `Rock Tomb` (and holds a `Sitrus Berry`), and `ORACLE`'s `Hidden Power` was resisted (`0.5x`) by Rock/Ground, dealing only ~4–5 HP per hit while `Geodude`'s `Secret Power` 4HKO'd `ORACLE`.
+- **TALOS** (Sandshrew ♂, Lv. 15, `40 HP`, `Scratch`, `Poison Sting`, `Sand-Attack`) — Died on Turn 3818 on Route 116 `(10, 6)` to Hiker Devan's 2nd Pokémon, `Lv. 9 Diglett` (`Dig` from `1/40 HP` after `TALOS` defeated `Geodude` with `Poison Sting` + `Scratch`) — **TOTAL USABLE PARTY WIPEOUT (Attempt #15 Over; boxed teammates `ASTRAEA` [Lv. 17] and `DRYAD` [Lv. 19] exceeded the Lv. 16 level cap)**.
+- **Root Causes of Attempt #15 Wipe:**
+  1. **Early Route 102 Casualties (`FLORA` on Turn 3546 & `NEREUS` on Turn 3575):** Keeping poisoned `FLORA` (`Hoppip`) in against Bug Catcher Rick's `Lv. 5 Kakuna` (`Poison Sting`) and keeping `Leech Seed`ed `NEREUS` (`Mudkip`) in against Lass Tiana's `Lv. 5 Togepi` without pivoting to clear `Leech Seed` cost us both our starter and our Route 103 Grass/Flying catch before Petalburg City.
+  2. **Overleveling `DRYAD` (`Lv. 19 Nuzleaf`) & `ASTRAEA` (`Lv. 17 Illumise`) Above the Lv. 16 Roxanne Cap:** With only 3 surviving Pokémon across Route 104 South, Petalburg Woods, and Route 104 North, mandatory trainer EXP pushed our Grass sweeper (`DRYAD`, Lv. 19) and `Seismic Toss`/`Moonlight` tank (`ASTRAEA`, Lv. 17) over the Level 16 cap, forcing both to be boxed in Rustboro City.
+  3. **Fighting Hiker Devan `(10, 7)` Without a Water/Grass Attacker or `Lv. 16 Dig` on `TALOS`:** At Level 15 (`1 level` before learning `Dig` at Lv. 16), `TALOS` only had Normal/Poison moves against `Lv. 10 Geodude` (`Dig`, `Rock Tomb`, `Secret Power`, `Sitrus Berry`), and `ORACLE`'s `Hidden Power` was resisted by Rock/Ground.
+- **Tactical Rules for Attempt #16:**
+  1. **Protect `Mudkip` & Route 103/102 Catches by Immediately Pivoting Out of `Leech Seed` and Never Leaving a Poisoned Grass-Type In Against `Kakuna`:** Always pivot `Mudkip` out and back in after KOing Lass Tiana's `Sunkern` to clear `Leech Seed` before `Togepi` attacks.
+  2. **Maintain 4–5 Active Teammates Below Level 16 Across Route 104 & Petalburg Woods:** Keep `Mudkip` and all caught teammates at **Level 13–14** entering Route 104 North so mandatory trainer EXP never pushes any teammate over the **Level 16** Roxanne cap.
 
 <hr>
 
@@ -395,7 +397,7 @@
   - **Route 116:** Lv. 9 `Yanma` (`Speed Boost`, `Silver Wind`, `Quick Attack`, `Wing Attack` — 4x resists Grass moves `0.25x`), Lv. 9 `Grimer` (observed at `(12, 9)`), Lv. 9 `Makuhita` (`Thick Fat` or `Guts`, starts with `Faint Attack`, `SmellingSalt`, `Sand-Attack`; learns `Force Palm` [60 BP STAB Fighting, 16 PP] at **Lv. 10** and `Vital Throw` [70 BP STAB never-miss Fighting, 10 PP] at **Lv. 13**!), Lv. 9 `Unown (?)` (observed at `(4, 13)`, Ability: `Levitate` [immune to Ground], knows `Hidden Power` [15 PP], Base Catch Rate `225`). Note that in the `BAG`, Pocket 2 is `POKé BALLS` (`1: ITEMS, 2: POKé BALLS, 3: TMs & HMs, 4: BERRIES, 5: KEY ITEMS`), so pressing `Right` once from `ITEMS` reaches `POKé BALLS`.
   - **Rusturf Tunnel:** West entrance interior warp is at `(4, 10)` (step `Down` to exit to Route 116 `(47, 9)`); wild encounters include Lv. 12 `Sandshrew` (`Sand-Attack`, `Poison Sting`; learns `Dig` [60 BP Physical Ground, 100% accuracy, 10 PP, field move] at **Lv. 16**, which inserts `DIG` at Row 1 of its overworld Party popup menu [`0: SUMMARY`, `1: DIG`, `2: SWITCH`, `3: ITEM`, `4: CANCEL`]!), Lv. 10–12 `Onix` (`Tackle`, `Bind`, `Magnitude` — wait `sleep 4500` after pressing `B` on `"Wild X appeared!▼"` before pressing `Down, Left, A` so `RHEA` switches to `ADONIS` on Turn 1 before `Onix` can trap `RHEA` with `Bind`!), Lv. 10–12 `Nosepass` (`Thunder Wave`, `Magnitude`), Lv. 11–12 `Cubone` (`Rock Throw`, `Bone Club`), Lv. 10–12 `Phanpy`, Lv. 10–11 `Rhyhorn` (`Rock Throw`, `Magnitude`), Lv. 11 `Dunsparce` (`Base 45 Speed` — Normal-type; `RUN` immediately on Turn 1 with `RHEA` [`23 Speed`] to save Grass PP), and Lv. 10–12 `Geodude` (`Base 20 Speed` — `RUN` immediately on Turn 1 with `RHEA` [`20+ Speed`] to avoid any `Selfdestruct` risk!).
   - **Route 116 Trainer Sightlines & Double Battle Traps (Verified Turns 2628–2652):**
-    - Row `y=7` (`x=11..14`) is watched by both **Hiker Devan `(10, 7)`** facing `Right` (has **3 Pokémon**: `Lv. 10 Geodude ♂` [`Dig`, `Rock Tomb`, holds `Sitrus Berry`], `Lv. 9 Diglett ♂` [`Dig`], and `Lv. 9 Trapinch ♂` [`Arena Trap`, `Rock Tomb`]) and **Bird Keeper Johnson `(15, 7)`** facing `Left` (has **3 Lv. 9 Pokémon**: `Lv. 9 Hoothoot ♂` [`Hypnosis`], `Lv. 9 Swablu ♂` [`Natural Cure`, `Sing`, `Secret Power`, `Rest`, `Aerial Ace`], and `Lv. 9 Natu ♂` [`Confuse Ray`]). Talk to Bird Keeper Johnson from behind at `(15, 6)` facing `Down` and Hiker Devan from behind at `(10, 6)` facing `Down` (note that `(12, 6)` has 1 tall grass tile, whereas row `y=5` [`(15, 5) <-> (10, 5)`] is 100% grass-free!) to isolate each into a grass-free 1v1 Single Battle.
+    - Row `y=7` (`x=11..14`) is watched by both **Hiker Devan `(10, 7)`** facing `Right` (has **3 Pokémon**: `Lv. 10 Geodude ♂` [`Dig`, `Rock Tomb`, `Secret Power`, holds `Sitrus Berry`], `Lv. 9 Diglett ♂` [`Dig`], and `Lv. 9 Trapinch ♂` [`Arena Trap`, `Rock Tomb`]) and **Bird Keeper Johnson `(15, 7)`** facing `Left` (has **3 Lv. 9 Pokémon**: `Lv. 9 Hoothoot ♂` [`Hypnosis`], `Lv. 9 Swablu ♂` [`Natural Cure`, `Sing`, `Secret Power`, `Rest`, `Aerial Ace`], and `Lv. 9 Natu ♂` [`Confuse Ray`]). Talk to Bird Keeper Johnson from behind at `(15, 6)` facing `Down` and Hiker Devan from behind at `(10, 6)` facing `Down` (note that `(12, 6)` has 1 tall grass tile, whereas row `y=5` [`(15, 5) <-> (10, 5)`] is 100% grass-free!) to isolate each into a grass-free 1v1 Single Battle.
     - Column `x=16` (`y=9..10`) is watched by both **School Kid Karen `(16, 8)` (Bug Catcher overworld sprite)** facing `Down` (has **3 Lv. 9 Johto Starters**: `Lv. 9 Totodile ♂` [`Dive`], `Lv. 9 Cyndaquil ♂` [`Ember`, `Dig`], and `Lv. 9 Chikorita ♂` [`Mega Drain`]) and **School Kid Jerry `(16, 11)` (Youngster overworld sprite)** facing `Up` (has **3 Pokémon**: `Lv. 10 Nidoran♂` [`Rock Tomb`, holds `Oran Berry`], `Lv. 9 Shuppet ♂`, and `Lv. 10 Phanpy ♂`). Talk to School Kid Karen from the side at `(15, 8)` facing `Right` to isolate her into a 1v1 Single Battle rather than stepping onto `(16, 9..10)` while both are undefeated.
     - Row `y=13` (`x=17..20`) is watched by both **Lady Sarah `(16, 13)`** facing `Right` (has **3 Lv. 10 Pokémon**: `Lv. 10 Spoink ♀` [`Confuse Ray`, `Bounce`, holds `Oran Berry`], `Lv. 10 Meowth ♀` [`Fake Out`, `Aerial Ace`], and `Lv. 10 Bellsprout ♀` [`Acid`]) and **Rich Boy Dawson `(21, 13)`** facing `Left` (has **3 Pokémon**: `Lv. 10 Swinub ♂` [`Rock Tomb`], `Lv. 9 Aipom ♂` [`Fake Out`, `Aerial Ace`], and `Lv. 10 Mareep ♂` [`Thunder Wave`, `Shock Wave`]). Walk grass-free along `(19, 9) -> (19, 12) -> (16, 12)` and talk to Lady Sarah from above at `(16, 12)` facing `Down` to isolate her into a 1v1 Single Battle before stepping onto `(20, 13)` to fight Rich Boy Dawson.
     - **Youngster Joey `(27, 17)`:** Faces `Up`; has **4 Lv. 10 Pokémon** (`Lv. 10 Rattata ♂` [`Secret Power`], `Lv. 10 Sandshrew ♂`, `Lv. 10 Ekans ♂` [`Intimidate`, `Glare`], and `Lv. 10 Slakoth ♂` [`Crush Claw`, `Truant`]).

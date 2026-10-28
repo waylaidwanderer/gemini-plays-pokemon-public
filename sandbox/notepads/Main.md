@@ -55,12 +55,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ORACLE** — Unown (?) (Lv. 14, `38/38 HP`, Psychic, Lonely, `Levitate`, Stats: `38 HP / 27 Atk / 18 Def / 27 SpA / 18 SpD / 19 Spd`, Moves: `Hidden Power` [Slot 1: `Up, Left`, 15 PP]) — Met on Route 116.
-2. **TALOS** — Sandshrew ♂ (Lv. 15, `40/40 HP`, Ground, Stats: `40 HP / 29 Atk / 31 Def / 12 SpA / 16 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+- *(None yet — starting Attempt #16)*
 
 ## Boxed (Retired Until Cap Advances)
-- **ASTRAEA** — Illumise ♀ (Lv. 17, `50/50 HP`, Bug, Hardy, `Oblivious`, Stats: `50 HP / 23 Atk / 35 Def / 31 SpA / 35 SpD / 35 Spd`, Moves: `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
-- **DRYAD** — Nuzleaf ♀ (Lv. 19, Grass/Dark, `Chlorophyll`, `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
