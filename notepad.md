@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PELAGOS | 11 | Active | Starter received on Route 101 (`32 HP / 22 Atk / 16 Def / 16 SpA / 15 SpD / 14 Spd`) |
-| Route 103 | Spearow ♂ | SPEAROW | 11 | Active | Caught at `(11, 14)` (`29 HP`, Normal/Flying, Hardy, `Keen Eye`, `21 Atk / 12 Def / 15 SpA / 15 SpD / 21 Spd`, knows `Peck`, `Pursuit`, `Tackle`) |
+| Route 103 | Spearow ♂ | SPEAROW | 12 | Active | Caught at `(11, 14)` (`31 HP`, Normal/Flying, Hardy, `Keen Eye`, knows `Peck`, `Pursuit`, `Tackle`) |
 | Route 102 | Sandshrew ♀ | CYBELE | 11 | Active | Caught at `(39, 5)` (`34 HP`, Ground, `24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 
 <hr>
@@ -46,7 +46,7 @@
 - **Route 102 Trainer Teams (Verified Turns 177–182, 303–328, 537–570, 1095–1127):**
   1. **Youngster Calvin `(33, 14)`:** 3 Lv. 6 Pokémon (`Sentret` [Assist->Rock Smash / Mud-Slap / Super Fang, Quick Attack], `Zigzagoon` [Swift, Sand-Attack], `Poochyena` [Super Fang, Rock Smash, Howl]).
   2. **Bug Catcher Rick `(25, 15)`:** 4 Lv. 5 Pokémon (`Caterpie` [holds `Berry Juice`], `Wurmple` [String Shot, Tackle], `Kakuna` [holds `Berry Juice`, Poison Sting, Harden], `Cascoon` [holds `Berry Juice`, Iron Defense, Tackle]).
-  3. **Lass Tiana `(15, 5)` (Mandatory trainer facing `Up` with a 3-tile sight range across `y=2..4`):** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — note that `Water Gun` and `Poison Sting` are non-contact moves in Gen 3 and bypass `Cute Charm`!], `Lv. 6 Sunkern` [pure Grass-type, holds `Berry Juice`, knows `Leech Seed` (16 PP), `Protect` (10 PP), `Mega Drain` (10 PP), `Synthesis` (8 PP) — weak to `Poison Sting` + `PSN`!], `Lv. 5 Togepi` [holds `Berry Juice`, knows `Hidden Power`, `Sing`, `Metronome` (`Lock-On`, `Softboiled`)]).
+  3. **Lass Tiana `(15, 5)` (Mandatory trainer facing `Up` with a 3-tile sight range across `y=2..4`):** 3 Pokémon (`Lv. 6 Igglybuff` [`Cute Charm` contact infatuation, holds `Oran Berry`, uses `Present` — note that `Water Gun` and `Poison Sting` are non-contact moves in Gen 3 and bypass `Cute Charm`!], `Lv. 6 Sunkern` [pure Grass-type, holds `Berry Juice`, knows `Leech Seed` (16 PP), `Protect` (10 PP), `Mega Drain` (10 PP), `Synthesis` (8 PP) — weak to `Poison Sting` + `PSN`!], `Lv. 5 Togepi` [holds `Berry Juice`, knows `Hidden Power`, `Sing`, `Softboiled`/`Synthesis`, `Metronome` (`Lock-On`, `Smog`, `Sky Attack`, `Sunny Day` — if `Sunny Day` is active, use physical `Tackle` until sunlight fades and `Water Gun` returns to full power!)]).
   4. **Bug Catcher Allen `(13, 2)`:** Faces `Down` at the western exit of Route 102; has **4 Lv. 7 Pokémon** (`Weedle` [`Poison Sting`], `Silcoon` [holds `Sitrus Berry`, `Iron Defense`], `Wurmple` [`Tackle`], `Metapod` [holds `Sitrus Berry`, `Iron Defense`]).
 - **Route 104 (South) Trainer Teams & Berries (Verified Turns 599–653, 886–913):**
   - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`, `Quick Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
