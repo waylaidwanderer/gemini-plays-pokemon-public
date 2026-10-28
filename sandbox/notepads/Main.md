@@ -55,9 +55,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **DRYAD** — Nuzleaf ♀ (Lv. 19, `44/59 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll` — **RETIRED / OVERLEVELED FOR GYM 1 CAP [Lv. 16]; TO BE BOXED UNTIL AFTER ROXANNE**) — Met on Route 104 (South).
+1. **ASTRAEA** — Illumise ♀ (Lv. 14, `42/43 HP`, Bug, Hardy, `Oblivious`, Stats: `43 HP / 20 Atk / 29 Def / 26 SpA / 30 SpD / 29 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 8 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
 2. **TALOS** — Sandshrew ♂ (Lv. 14, `23/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-3. **ASTRAEA** — Illumise ♀ (Lv. 11, `35/36 HP`, Bug, Hardy, `Oblivious`, Stats: `36 HP / 17 Atk / 24 Def / 22 SpA / 24 SpD / 24 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Flatter` [Slot 3: `Down, Left`, 24 PP], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
+3. **DRYAD** — Nuzleaf ♀ (Lv. 19, `44/59 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll` — **RETIRED / OVERLEVELED FOR GYM 1 CAP [Lv. 16]; TO BE BOXED UNTIL AFTER ROXANNE**) — Met on Route 104 (South).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
