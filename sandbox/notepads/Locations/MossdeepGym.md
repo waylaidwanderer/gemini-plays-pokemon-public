@@ -99,8 +99,9 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Room 4 layout (cols 5..12, rows 8..12):
   - (8, 12): Arrival warp pad (returns to Room 2 at 7, 18).
   - (8, 11): 1-tile wide causeway connecting pad to room.
-  - (8, 10): Blue floor switch at central junction.
+  - (8, 10): Causeway exit junction connecting south causeway to room.
+  - (7, 9): Light blue floor switch.
   - (7, 8): North alcove blue circular warp pad.
   - Orange divider blocks at (8, 9) and (9, 9..10).
   - Left Track (cols 6..7, rows 9..10): Female Psychic trainer at (6, 10), Statue at (7, 9), Blue arrows [Down] and [Left].
-  - Right Track (cols 10..11, rows 9..10): Gentleman trainer at (10, 9), Statue at (11, 9), Blue arrows [Right] and [Up].
+  - Right Track: Gentleman trainer at (9, 10) facing South, Statue at (11, 9), Blue arrows [Right] and [Up].
