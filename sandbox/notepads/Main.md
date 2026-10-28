@@ -60,7 +60,7 @@
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, holding `Oran Berry`, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 3. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `39/51 HP`, Water/Ground, Quiet [`+SpA, -Spd`], `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 4. **HYPNOS** — Drowzee ♂ (Lv. 13, `27/42 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
-5. **NOCTUA** — Hoothoot ♂ (Lv. 13, `40/40 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `40 HP / 13 Atk / 15 Def / 15 SpA / 18 SpD / 18 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
+5. **NOCTUA** — Hoothoot ♂ (Lv. 15, `45/45 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `45 HP / 15 Atk / 16 Def / 17 SpA / 21 SpD / 20 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
