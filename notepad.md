@@ -20,7 +20,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #16
+- **Attempt:** #17
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -338,6 +338,20 @@
   - **Root Cause & Tactical Lesson:** On Turn 4007 (`Eevee`'s wakeup turn at `~8% red HP`), we selected `Night Shade` (`Slot 3`) instead of `Psybeam` (`Slot 2`) to save 1 `Psybeam` PP, forgetting that `Night Shade` is a Ghost-type move and therefore has `0x` immunity against Normal-type Pokémon (`Eevee`) in Gen 3 (unlike Fighting-type `Seismic Toss`). That allowed `Eevee` to get off a second `Rest`, forcing `HORUS` (`24/40 HP`) to sacrifice itself on Sleep Turn 1 with `Psybeam` (`100% -> ~20% HP`) so `PELAGOS` could finish `Eevee` on Sleep Turn 2. **Rule:** Never use Ghost-type `Night Shade` against a Normal-type Pokémon (`Eevee`, `Zigzagoon`, `Sentret`, `Meowth`, `Slakoth`, `Skitty`, `Azurill`); always use `Psybeam` / STAB moves!
 - **SPOROS** (Paras ♂, Lv. 16, `42 HP`, Quiet, `Effect Spore`, `Body Slam`, `Mega Drain`, `Toxic`, `Knock Off`) — Died on Turn 4079 in Rustboro Gym `(5, 14)` against School Kid Josh's `Lv. 12 Sudowoodo` (`+3 SpA` `Ice Punch`).
   - **Root Cause & Tactical Lesson:** School Kid Josh's `Lv. 12 Sudowoodo` knows all 4 moves **`Calm Mind`, `Rock Tomb`, `ThunderPunch`, and `Ice Punch`** (holds `Sitrus Berry`). Because `Sudowoodo` set up 3 `Calm Mind`s (`+3 SpA / +3 SpD`) while `PELAGOS` was at `-1 Speed`, switching 2x Ice-weak `SPOROS` into `+3 SpA` `Ice Punch` (`29 damage`) left `SPOROS` slower (`12 Speed` vs `Sudowoodo`'s `14 Speed`) and in KO range of a second `Ice Punch`. **Rule:** Against `Lv. 12 Sudowoodo` (`Calm Mind`, `Rock Tomb`, `ThunderPunch`, `Ice Punch`, `Sitrus Berry`), evolve `Mudkip` into **`Lv. 16 Marshtomp`** (`50 HP`, `26 Def`, `25 SpA`, `25 SpD`, `22 Spd`, learns `Mud Shot` / `Water Gun`, `1x` neutral to `Ice Punch`, `0x` immune to `ThunderPunch`, `0.5x` resistant to `Rock Tomb`!) BEFORE entering Rustboro Gym so `Marshtomp` 2HKOs/3HKOs `Sudowoodo` before `Sudowoodo` can stack `Calm Mind`s!
+- **PELAGOS** (Mudkip ♂, Lv. 15, `41 HP`, Naughty, `Torrent`, `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 4081 in Rustboro Gym `(5, 14)` against School Kid Josh's `Lv. 12 Sudowoodo` (`Rock Tomb` from `5/41 HP` after `Torrent` `Water Gun` left `+3 SpD` `Sudowoodo` at `1 HP`) — **TOTAL USABLE PARTY WIPEOUT (Attempt #16 Over; boxed teammate `SPEAROW` [Lv. 17] exceeded the Lv. 16 level cap)**.
+- **Root Causes of Attempt #16 Wipe:**
+  1. **Avoidable Mid-Game Casualties (`CYBELE` on Turn 3965 & `HORUS` on Turn 4008):** Queued a 3-turn `Scratch` loop at `15/40 HP` with `CYBELE` against Team Magma Grunt's `Lv. 8 Bagon` (`Twister` crit), and clicked Ghost-type `Night Shade` (`0x` immunity against Normal-type `Eevee`!) instead of `Psybeam` on `Eevee`'s wakeup turn at `~8% red HP` against PKMN Trainer Red, allowing `Eevee` to get off a second `Rest` and costing us `HORUS`.
+  2. **Accidental Rare Candy Overlevel on `SPEAROW` (`Lv. 16 -> Lv. 17`, Turn 4068):** When `SPOROS` learned `Body Slam` at Level 16, clearing `"SPOROS forgot how to use STUN SPORE.▼"` + `"And... SPOROS learned BODY SLAM!▼"` only required **2 `B` presses**, so our 3rd `B` press fired during the Party-to-Bag fade and was dropped, causing our subsequent `Up, A, A, Down, A` (intended for `Start -> POKéMON -> SWITCH`) to execute inside `BAG -> ITEMS -> RARE CANDY` and level `SPEAROW` to Level 17 (forcing `SPEAROW` to be boxed).
+  3. **Challenging School Kid Josh's `Lv. 12 Sudowoodo` as a `Lv. 15 Mudkip` Instead of `Lv. 16 Marshtomp`:** As a `Lv. 15 Mudkip` (`21 SpA`), `PELAGOS` missed the 2HKO on `Lv. 12 Sudowoodo` before `Calm Mind` boosts stacked to `+3 SpD`, leaving `Sudowoodo` at `1 HP` after `Torrent` `Water Gun`, whereas evolving `PELAGOS` into **`Lv. 16 Marshtomp`** (`Water/Ground`, `50 HP`, `26 Def`, `25 SpA`, `25 SpD`, `22 Spd`, `0x` immune to `ThunderPunch`, `0.5x` resistant to `Rock Tomb`) before entering Rustboro Gym easily beats `Sudowoodo` while still having `1,021 EXP` (`5,120 -> 6,141 EXP`) before Level 17.
+- **Tactical Rules for Attempt #17:**
+  1. **Never Use Ghost-Type `Night Shade` Against Normal-Type Pokémon (`0x` Immunity):** Always use `Psybeam` / STAB moves against `Eevee` and other Normal-types.
+  2. **Never Chain Rare Candy Dismissal With `Start -> POKéMON` Inputs in the Same Script:** Always visually confirm on `<CurrentScreen>` that you have exited `BAG` before sending `POKéMON -> SWITCH` inputs, and always put a `< Lv. 16` Pokémon into **Slot 1 (`Left Box`)** and visually verify it on `<CurrentScreen>` before feeding Rare Candies.
+  3. **Evolve `Mudkip -> Lv. 16 Marshtomp` Before Rustboro Gym:** Evolve `Mudkip` into `Lv. 16 Marshtomp` (`1,021 EXP` buffer before Lv. 17) before challenging School Kid Josh so `Marshtomp` (`Water/Ground`) walls `Sudowoodo` (`0x` `ThunderPunch`, `0.5x` `Rock Tomb`) and sweeps Rustboro Gym alongside our 4–5 teammates.
+
+---
+
+## Attempt #17 (Starting Turn 4083)
+- **Deaths:** None
 
 <hr>
 

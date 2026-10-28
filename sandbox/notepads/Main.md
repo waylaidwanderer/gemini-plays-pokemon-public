@@ -3,7 +3,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #16
+- **Attempt:** #17
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
