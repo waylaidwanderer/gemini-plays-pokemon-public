@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | PELAGOS | 14 | Active | Starter received on Route 101 (`39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`) |
+| Route 101 | Mudkip ♂ | PELAGOS | 15 | Active | Starter received on Route 101 (`41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`) |
 | Route 103 | Spearow ♂ | SPEAROW | 15 | Active | Caught at `(11, 14)` (`37 HP`, Normal/Flying, Hardy, `Keen Eye`, `27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, knows `Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
 | Route 102 | Sandshrew ♀ | CYBELE | 14 | Deceased | Died on Turn 3965 in Petalburg Woods to Team Magma Grunt's `Lv. 8 Bagon` (`Twister` crit + queued loop from `15/40 HP`) |
 | Route 104 (South) | Natu ♂ | HORUS | 15 | Deceased | Died on Turn 4008 on Route 104 North `(24, 8)` to PKMN Trainer Red's `Lv. 9 Eevee` (`+5 Atk` `Snore` after `Psybeam` chipped `Eevee` to `~20% HP`) |
@@ -72,8 +72,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **PELAGOS** — Mudkip ♂ (Lv. 14, `14/39 HP` [`SLP`], Water, `Torrent`, Stats: `39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **SPEAROW** — Spearow ♂ (Lv. 15, `21/37 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `37 HP / 27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103.
+1. **PELAGOS** — Mudkip ♂ (Lv. 15, `41/41 HP`, Water, `Torrent`, Stats: `41 HP / 28 Atk / 20 Def / 21 SpA / 19 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+2. **SPEAROW** — Spearow ♂ (Lv. 15, `37/37 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `37 HP / 27 Atk / 15 Def / 18 SpA / 18 SpD / 26 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`], `Secret Power` [Slot 4: `Down, Right`]) — Caught on Route 103.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
