@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PELAGOS | 10 | Active | Starter received on Route 101 (`30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`) |
 | Route 103 | Spearow ♂ | SPEAROW | 9 | Active | Caught at `(11, 14)` (`26 HP`, Normal/Flying, Hardy, `Keen Eye`, `18 Atk / 11 Def / 13 SpA / 13 SpD / 18 Spd`, knows `Peck`, `Pursuit`, `Tackle`) |
-| Route 102 | Sandshrew ♀ | CYBELE | 6 | Active | Caught at `(39, 5)` on Route 102 |
+| Route 102 | Sandshrew ♀ | CYBELE | 11 | Active | Caught at `(39, 5)` (`34 HP`, Ground, `24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 
 <hr>
 
@@ -71,7 +71,7 @@
 ## Active Party
 1. **PELAGOS** — Mudkip ♂ (Lv. 10, `30/30 HP`, Water, `Torrent`, Stats: `30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SPEAROW** — Spearow ♂ (Lv. 9, `26/26 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `26 HP / 18 Atk / 11 Def / 13 SpA / 13 SpD / 18 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`) — Caught on Route 103.
-3. **CYBELE** — Sandshrew ♀ (Lv. 6, Ground) — Caught on Route 102.
+3. **CYBELE** — Sandshrew ♀ (Lv. 11, `34/34 HP`, Ground, Stats: `34 HP / 24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
