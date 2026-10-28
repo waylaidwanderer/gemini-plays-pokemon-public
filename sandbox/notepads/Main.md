@@ -56,7 +56,7 @@
 
 ## Active Party
 1. **TALOS** — Sandshrew ♂ (Lv. 13, `36/36 HP`, Ground, Stats: `36 HP / 26 Atk / 27 Def / 11 SpA / 14 SpD / 17 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-2. **DRYAD** — Seedot ♀ (Lv. 7, Grass, Moves: `Mega Drain`, `Bullet Seed`, `Bide`) — Met on Route 104 (South).
+2. **DRYAD** — Nuzleaf ♀ (Lv. 14, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Bide` [Slot 2: `Up, Right`, 10 PP], `Bullet Seed` [Slot 3: `Down, Left`, 30 PP], `Nature Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
