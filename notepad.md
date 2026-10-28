@@ -1686,6 +1686,21 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - North Warp Pad at (11, 3): Leads directly to Gym Leaders Tate & Liza.
 - All 4 Room 4 trainers defeated: Virgil, Nate, Sylvia, Hannah.
 
+## Room 4 Puzzle Solution & Route to Tate & Liza
+- Upper Right 2x2 Track (cols 11..12, rows 5..6) controls access to North Warp Pad at (11, 3).
+- Orange Switch at (8, 6) rotates the two statues through 4 states:
+  - State 1: Statues at Row 5 (11, 5 & 12, 5)
+  - State 2: Statues at Column 11 (11, 5 & 11, 6) [Turn 16281]
+  - State 3: Statues at Row 6 (11, 6 & 12, 6)
+  - State 4: Statues at Column 12 (12, 5 & 12, 6) -> Column 11 is 100% CLEAR straight to (11, 3)!
+- Complete Navigation Route:
+  1. Cycle switch (8, 6) to State 4 so statues move to Column 12.
+  2. Exit switch pocket: Up x2 to (8, 4).
+  3. Ride Left arrow at (7, 4) across row 4 to (4, 4).
+  4. Walk Down col 4 to (4, 8), Right to (5, 8).
+  5. Ride blue conveyor across row 9 into Column 11 at (11, 9).
+  6. Walk straight North up Column 11 through (11, 8), (11, 7), (11, 6), (11, 5), (11, 4) into North Warp Pad at (11, 3)!
+
 <hr>
 
 <h1><code>Locations/MtChimney</code></h1>
