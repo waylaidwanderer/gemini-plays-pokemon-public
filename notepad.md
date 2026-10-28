@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PELAGOS | 10 | Active | Starter received on Route 101 (`30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`) |
-| Route 103 | Spearow ♂ | *(Pending)* | 4 | Encountered | In wild battle at `(11, 14)` |
+| Route 103 | Spearow ♂ | SPEAROW | 4 | Active | Caught at `(11, 14)` on Route 103 |
 
 <hr>
 
@@ -69,6 +69,7 @@
 
 ## Active Party
 1. **PELAGOS** — Mudkip ♂ (Lv. 10, `30/30 HP`, Water, `Torrent`, Stats: `30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+2. **SPEAROW** — Spearow ♂ (Lv. 4, Normal/Flying) — Caught on Route 103.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -413,7 +414,7 @@
 - **Overworld Warp & Grass Timing Workarounds (Turns 124–149):**
   - Insert `["B", "sleep 800"]` (or `["B", "sleep 2500", "B"]`) between a door warp step and subsequent movement so the transition fade completes before walking.
   - Insert `"sleep 300"` before changing direction inside tall grass so the 4-frame grass-rustle animation does not drop the turn input.
-- **Nickname Prompt Transition (Turns 207, 534, 1671, 1798, 1960):** When catching a **new** Pokédex species in the wild, advancing from `"Gotcha! X was caught!▼"` to selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Note that in Professor Birch's Lab when receiving the starter after `"I guess you have your father's blood in your veins after all!▼"`, it takes **5 `A` presses** (not 4) to open the naming keyboard. Always wait `sleep 3000` after the final `A` press so the naming screen fade-in finishes before sending directional/letter inputs.
+- **Nickname Prompt Transition (Turns 207, 534, 1671, 1798, 1960):** When catching a **new** Pokédex species in the wild, a successful 3-shake catch finishes in ~8.8s (within `sleep 9500`), so **never append `B` presses after `sleep 9500` on a Poké Ball throw** (otherwise those `B` presses advance through `"Gotcha!"`, the Pokédex page, and select `No` on `"Give a nickname...?"`!). From `"Gotcha! X was caught!▼"`, selecting `▶YES` on `"Give a nickname to the captured X?"` requires **4 `A` presses** (`A #1` -> `"X's data was added to the POKéDEX.▼"`, `A #2` -> Pokédex entry page, `A #3` -> `"Give a nickname...?"`, `A #4` -> `▶YES` opens keyboard at `(0, 0) = 'A'`). Note that in Professor Birch's Lab when receiving the starter after `"I guess you have your father's blood in your veins after all!▼"`, it takes **5 `A` presses** (not 4) to open the naming keyboard. Always wait `sleep 3000` after the final `A` press so the naming screen fade-in finishes before sending directional/letter inputs.
 - **Route 102 Layout & Trainers (Turns 175–177, 303–314, 529–570, 1095–1110):**
   - Enter Route 102 from Oldale Town `(0, 10)` at `(49, 10)`.
   - Safe northern tall grass patch (away from trainers): `x=37..38, y=3..6` (approach via `(38, 10) -> (38, 7) -> (37, 7) -> (37, 6)`).
