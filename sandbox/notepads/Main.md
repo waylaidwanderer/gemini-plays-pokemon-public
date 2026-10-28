@@ -56,7 +56,7 @@
 
 ## Active Party
 1. **PELAGOS** — Mudkip ♂ (Lv. 10, `30/30 HP`, Water, `Torrent`, Stats: `30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **SPEAROW** — Spearow ♂ (Lv. 4, `17/17 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `17 HP / 11 Atk / 7 Def / 8 SpA / 8 SpD / 10 Spd`, Moves: `Peck`, `Pursuit`) — Caught on Route 103.
+2. **SPEAROW** — Spearow ♂ (Lv. 9, `26/26 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `26 HP / 18 Atk / 11 Def / 13 SpA / 13 SpD / 18 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`) — Caught on Route 103.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
