@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | NEREUS | 11 | Deceased | Died on Turn 3575 on Route 102 to Lass Tiana's Lv. 5 Togepi (`Metronome -> Smog` crit + `Leech Seed`) |
 | Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
-| Route 102 | Sandshrew ♂ | TALOS | 11 | Active | Caught at `(39, 5)` (`32 HP`, Ground, `23 Atk / 24 Def / 15 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
+| Route 102 | Sandshrew ♂ | TALOS | 13 | Active | Caught at `(39, 5)` (`36 HP`, Ground, `26 Atk / 27 Def / 17 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 
 <hr>
 
@@ -69,7 +69,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TALOS** — Sandshrew ♂ (Lv. 11, `32/32 HP`, Ground, Stats: `32 HP / 23 Atk / 24 Def / 9 SpA / 13 SpD / 15 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+1. **TALOS** — Sandshrew ♂ (Lv. 13, `36/36 HP`, Ground, Stats: `36 HP / 26 Atk / 27 Def / 11 SpA / 14 SpD / 17 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
