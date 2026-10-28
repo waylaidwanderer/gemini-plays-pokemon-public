@@ -14,7 +14,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 2. [x] Enter Mossdeep Gym (Turn 16065).
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
-5. [ ] Defeat all Gym trainers (10 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate; Hex Maniac in Room 4 north).
+5. [ ] Defeat all Gym trainers (11 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia).
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
@@ -53,6 +53,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Psychic ♂ Nicholas: Defeated at (25, 23) on Turn 16159 (Wobbuffet Lv 36 ♂ defeated by Leaf Blade, Destiny Bond fainted Sage; Prize: ¥864).
 
 - Psychic ♂ Virgil & Gentleman Nate: Defeated in Double Battle at (7..9, 9..10) on Turn 16185 (Ralts Lv 36 ♂ OHKOed by Leaf Blade, Spoink Lv 36 ♂ OHKOed by Leaf Blade; Prize: ¥3,744; Sage full HP, Leaf Blade 6/15).
+
+- Hex Maniac Sylvia: Defeated at (7, 5) on Turn 16199 (Meditite Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 5/15).
 
 ## Systematic Warp Teleporter Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
@@ -103,7 +105,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
   - (8, 11): 1-tile wide causeway connecting pad to room.
   - (8, 10): Causeway exit junction connecting south causeway to room.
   - (7, 9): Light blue floor switch.
-  - (7, 8): North alcove blue circular warp pad.
+  - North Warp Pad: Located on elevated northeast ledge at (10, 4) leading to Tate & Liza.
+  - Female NPC sighted at (7, 3) overlooking northern walkway.
   - Orange divider blocks at (8, 9) and (9, 9..10).
   - Left Track (cols 6..7, rows 9..10): Female Psychic trainer at (6, 10), Statue at (7, 9), Blue arrows [Down] and [Left].
   - Right Track: Gentleman trainer at (9, 10) facing South, Statue at (11, 9), Blue arrows [Right] and [Up].
