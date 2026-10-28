@@ -71,9 +71,11 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ASTRAEA** — Illumise ♀ (Lv. 14, `42/43 HP`, Bug, Hardy, `Oblivious`, Stats: `43 HP / 20 Atk / 29 Def / 26 SpA / 30 SpD / 29 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 8 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
-2. **TALOS** — Sandshrew ♂ (Lv. 14, `23/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-3. **DRYAD** — Nuzleaf ♀ (Lv. 19, `44/59 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll` — **RETIRED / OVERLEVELED FOR GYM 1 CAP [Lv. 16]; TO BE BOXED UNTIL AFTER ROXANNE**) — Met on Route 104 (South).
+1. **ASTRAEA** — Illumise ♀ (Lv. 14, `43/43 HP`, Bug, Hardy, `Oblivious`, Stats: `43 HP / 20 Atk / 29 Def / 26 SpA / 30 SpD / 29 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 8 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
+2. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+
+## Boxed (Retired Until Cap Advances)
+- **DRYAD** — Nuzleaf ♀ (Lv. 19, Grass/Dark, `Chlorophyll`, `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -426,7 +428,7 @@
   - **Route 104 (South) Coordinates (Verified Turns 601–653, 885–888):**
     - East entrance (from Petalburg City `(0, 12)`): `(39, 62)` (`x=32..39, y=61..63` is grass-free; solid forest trees occupy `x=33..42, y=56..60`, blocking the trees above `y=56`, and a non-trainer NPC stands at `(29, 61)`).
     - Tall grass patch: `x=22..24, y=60..61` (approach from `(38, 61)` via `Left` 4 to `(34, 61)`, `Up` 1 to `(34, 60)`, `Left` 6 along `y=60` above the NPC at `(29, 61)` to `(28, 60)`, `Down` 1 to `(28, 61)`, and `Left` 4 into `(24, 61)`).
-    - Stairs to lower beach: `x=27..28, y=69..70` (walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(25..26, 70)`, then walk `Left` 5 along `y=71` to `(23, 71)` FIRST before walking `Up` 4 to `(23, 67)` to challenge Bird Keeper Billy at `(23, 66)`).
+    - Stairs to lower beach: `x=28..29, y=69..70` (note `(27, 70)` and `(30, 70)` are the rock posts; walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(25..27, 70)`, then walk `Left` 5 along `y=71` to `(23, 71)` FIRST before walking `Up` 4 to `(23, 67)` to challenge Bird Keeper Billy at `(23, 66)`).
     - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`], `Taillow`).
     - **Fisherman Darian `(15, 59)`:** Mandatory trainer facing `Right` across the 3-tile beach bottleneck `x=16..18, y=59` (directly above the non-trainer straw-hat NPC at `(15, 60)`). Has **4 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle`], `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`], `Lv. 7 Goldeen` [holds `Berry Juice`, `Rain Dance`, `Peck`], and `Lv. 7 Luvdisc`).
     - **Northern Route 104 South Berry Trees & Lady Cindy (Verified Turns 910–913, 1495, 2264, 3393):** Stairs from beach to Mr. Briney's Cottage are at `x=15..16, y=54` (note `(17, 54)` is the right-hand stair post). From `(16, 52)`, walk `Right` 5 to `(21, 52)` and `Up` 10 along `x=21` to `(21, 42)` to reach the Berry trees at `(22, 41)` (`2 Oran Berries`) and `(24, 41)` (`2 Pecha Berries`). To reach **Lady Cindy `(11, 40)`** with **0 grass tiles** (avoiding the 2 grass tiles at `(15..16, 42)`), walk along row **`y=43`** (`(24, 43) -> (10, 43)`) and then `Up` 3 to `(10, 40)`. Lady Cindy faces `Left` across `(10..11, 40)` before Petalburg Woods (`(10..11, 38)`) and has **3 Pokémon** (`Lv. 8 Cleffa`, `Lv. 8 Pichu`, `Lv. 7 Azurill`, paying `$1,400`).
