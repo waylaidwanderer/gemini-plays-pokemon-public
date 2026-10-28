@@ -125,12 +125,11 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 - Breakthrough & Verified Progress (Turn 16404):
   - Field Mechanics: TM28 Dig learned by Cobalu (replacing Metal Claw). Proved in-game that Dig cannot be used inside Gyms ('Can't use that here.').
   - Choke Point Crossed: Successfully navigated from North section onto the Central Causeway (8, 9) and into (9, 9)!
-  - Upper-Right Track: Permanently verified in State 4 with statues in Column 12 at (12, 5) and (12, 6). Column 11 is 100% clear straight to Gym Leaders Tate & Liza at North Warp Pad (11, 3)!
+  - Upper-Right Track: Permanently verified in State 4 with statues in Column 12 at (12, 5) and (12, 6).
+  - Column 11 Bidirectional Traversal (Verified Turns 16434-16439): Column 11 in Room 4 is fully passable both South from (11, 4) down to (11, 9) and North from (11, 9) back to (11, 3). The conveyor arrows at (11, 5) and (11, 6) do not trap or impede movement.
 
 ## Discovered Topography & Navigation - 1F Eastern Chamber (Turn 16415)
 - Arrival Warp Pad: (11, 35) entered from Room 4 North Pad (11, 3). Return pad to Room 4.
-- 2x2 Green Track (cols 11..12, rows 33..34):
-  - In default state, 3 statues occupy (11, 34), (12, 34), and (12, 33); (11, 33) is Down arrow.
-  - Gateway tile to warp pad runway is (12, 34) leading to col 13 floor runway (13, 32..34) and Tate & Liza Warp Pad at (13, 31).
-  - Green Switch: Located on eastern platform across black void at col 16..17, row 34.
-  - Navigation Objective: Access Green Switch via Room 2 NE Alcove warp pads (6, 18) or (8, 18) to rotate green track and clear (12, 34).
+- Layout: Middle platform contains arrival pad (11, 35), floor tile (12, 35), 2x2 green track at (11..12, 33..34) with statues and Down arrow at (11, 33), and Tate & Liza Warp Pad at (13, 31).
+- Eastern Platform: Green square switch located at row 34 across void.
+- Next Steps: Re-enter 1F Eastern Chamber to thoroughly test physical interactions (Strength activation, pushing statues, movement options from (12, 35)).
