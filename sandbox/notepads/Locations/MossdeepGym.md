@@ -46,6 +46,9 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 ## Trainers Defeated - Mossdeep Gym
 - Psychic ♂ Preston: Defeated at (1, 30) on Turn 16077 (Kirlia Lv 36 ♂, OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 14/15).
 - Psychic ♀ Maura: Defeated at (4, 30) on Turn 16084 (Kadabra Lv 36 ♂, OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 13/15).
+- Psychic ♂ Blake & Psychic ♀ Samantha: Defeated in Double Battle at (4, 21..23) on Turn 16107 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Xatu Lv 36 ♀ defeated by Pursuit; Prize: ¥1,728; Sage & Lilz 0 damage).
+- Gentleman Clifford & Hex Maniac Kathleen: Defeated in Double Battle at (22, 23..25) on Turn 16132 (Girafarig Lv 36 ♂ OHKOed by Leaf Blade, Kadabra Lv 36 ♂ OHKOed by Leaf Blade; Prize: ¥3,744; Sage & Lilz undamaged, Lilz grew to Lv 27!).
+- Psychic ♀ Macey: Defeated at (25, 25) on Turn 16137 (Natu Lv 36 ♀ OHKOed by Pursuit; Prize: ¥864; Sage HP 165/165).
 
 ## Systematic Warp Teleporter Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
@@ -55,19 +58,19 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 1 North Pad (3, 28) | Room 2 Arrival Pad (1, 23) | Teleports north into Room 2 |
 | Room 2 Arrival Pad (1, 23) | Room 1 North Pad (3, 28) | Return pad to Room 1 |
 | Room 2 Northeast Pad (6, 18) | Pending | Progression warp pad in northeast alcove |
-| Room 3 North Pad (23, 18) | Pending | North alcove of Room 3 |
+| Room 3 North Pad (23, 20) | Pending | North alcove of Room 3 |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
 - Room 3 layout (cols 20..26, rows 18..28):
   - (20, 24): Arrival warp pad (returns to Room 1 SW pad at 1, 33).
-  - (23, 18): North Alcove blue circular warp pad.
-  - Two Purple Floor Switches: (23, 24) [Center intersection] and (23, 19) [North alcove].
+  - (23, 20): North Alcove blue circular warp pad.
+  - Two Purple Floor Switches: (23, 24) [Center intersection] and (23, 21) [North alcove approach].
   - Four Gym Trainers:
-    - Hex Maniac at (22, 22) facing South.
-    - Psychic ♂ at (25, 20) facing South.
-    - Gentleman at (22, 25) facing South.
-    - School Kid / Lass at (25, 25) facing West.
+    - Hex Maniac Kathleen at (21, 22) facing South (defeated).
+    - Gentleman Clifford at (23, 24) facing North (defeated).
+    - Psychic ♀ Macey at (25, 25) facing West (defeated).
+    - Psychic ♂ Virgil at (25, 23) facing West.
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
