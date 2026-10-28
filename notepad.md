@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♂ | NEREUS | 11 | Deceased | Died on Turn 3575 on Route 102 to Lass Tiana's Lv. 5 Togepi (`Metronome -> Smog` crit + `Leech Seed`) |
 | Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
 | Route 102 | Sandshrew ♂ | TALOS | 13 | Active | Caught at `(39, 5)` (`36 HP`, Ground, `26 Atk / 27 Def / 17 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
+| Route 104 (South) | Seedot ♀ | DRYAD | 7 | Active | Caught at `(22, 61)` (Grass, knows `Mega Drain`, `Bullet Seed`, `Bide`) |
 
 <hr>
 
@@ -70,6 +71,7 @@
 
 ## Active Party
 1. **TALOS** — Sandshrew ♂ (Lv. 13, `36/36 HP`, Ground, Stats: `36 HP / 26 Atk / 27 Def / 11 SpA / 14 SpD / 17 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+2. **DRYAD** — Seedot ♀ (Lv. 7, Grass, Moves: `Mega Drain`, `Bullet Seed`, `Bide`) — Met on Route 104 (South).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
