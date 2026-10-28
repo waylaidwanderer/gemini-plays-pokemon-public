@@ -56,6 +56,7 @@
 
 ## Active Party
 1. **NEREUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Sassy [`+SpD / -Spd`], `Torrent`, Stats: `33 HP / 22 Atk / 16 Def / 18 SpA / 20 SpD / 11 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 15 PP], `Water Gun` [Slot 4: `Down, Right`, 25 PP]) — Met on Route 101 (Starter).
+2. **FLORA** — Hoppip ♀ (Lv. 4, `18/18 HP`, Grass/Flying, Moves: `Confusion`) — Met on Route 103.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
