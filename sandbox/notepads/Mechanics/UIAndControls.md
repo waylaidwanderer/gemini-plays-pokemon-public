@@ -12,7 +12,7 @@
   - Row 3: `T` (0), `U` (1), `V` (2), `W` (3), `X` (4), `Y` (5), `Z` (6)
 
 ## Cutscene & Warp Scripting (Turns 11–20)
-- **Dialogue Advancement:** Pressing `B` with `sleep 1000` advances standard dialogue boxes cleanly at `FAST` text speed and is completely inert once overworld control returns (preventing accidental NPC/sign re-interactions).
+- **Cutscene & Post-Battle Fade Timing:** Pressing `B` with `sleep 1000` advances standard dialogue boxes cleanly at `FAST` text speed and is completely inert once overworld control returns (preventing accidental NPC/sign re-interactions). Note that after pressing `B` on a Trainer's final post-battle defeat line in the battle screen, the battle-to-overworld fade takes ~3.0s—always wait `sleep 3500` after that final `B` press before pressing `Start` so `Start` is not dropped during the screen fade (verified Turn 3710).
 - **Warp + Cutscene Combo in `run_code`:** A `tools.press_buttons` call that steps onto a warp tile automatically terminates upon leaving the overworld. A subsequent `tools.press_buttons(["B", "sleep 1000", ...])` call in the same `run_code` script executes during the post-warp cutscene, clearing both the warp and cutscene in one turn.
 
 ## Littleroot Town Coordinates (Turns 12–21)
