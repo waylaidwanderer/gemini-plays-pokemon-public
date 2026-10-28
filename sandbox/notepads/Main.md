@@ -59,7 +59,7 @@
 1. **MUDKIP** — Mudkip ♀ (Lv. 12, `36/36 HP`, Water, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `36 HP / 22 Atk / 17 Def / 22 SpA / 17 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 3. **BASTET** — Meowth ♀ (Lv. 11, `31/31 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `31 HP / 17 Atk / 15 Def / 14 SpA / 15 SpD / 25 Spd`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
-4. **HYPNOS** — Drowzee ♂ (Lv. 7, `8/27 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `27 HP / 12 Atk / 12 Def / 9 SpA / 19 SpD / 12 Spd`, Moves: `Confusion`, `Hypnosis`) — Caught on Route 104 South.
+4. **HYPNOS** — Drowzee ♂ (Lv. 12, `21/40 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `40 HP / 17 Atk / 17 Def / 14 SpA / 30 SpD / 18 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
