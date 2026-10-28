@@ -57,7 +57,7 @@
 ## Active Party
 1. **DRYAD** — Nuzleaf ♀ (Lv. 19, `44/59 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll` — **RETIRED / OVERLEVELED FOR GYM 1 CAP [Lv. 16]; TO BE BOXED UNTIL AFTER ROXANNE**) — Met on Route 104 (South).
 2. **TALOS** — Sandshrew ♂ (Lv. 14, `23/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-3. **ASTRAEA** — Illumise ♀ (Lv. 7, `25/26 HP`, Bug, Hardy, `Oblivious`, Stats: `26 HP / 12 Atk / 17 Def / 15 SpA / 17 SpD / 17 Spd`, Moves: `Quick Attack` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Flatter` [Slot 3: `Left, Down`, 24 PP]) — Met in Petalburg Woods.
+3. **ASTRAEA** — Illumise ♀ (Lv. 11, `35/36 HP`, Bug, Hardy, `Oblivious`, Stats: `36 HP / 17 Atk / 24 Def / 22 SpA / 24 SpD / 24 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Flatter` [Slot 3: `Down, Left`, 24 PP], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
