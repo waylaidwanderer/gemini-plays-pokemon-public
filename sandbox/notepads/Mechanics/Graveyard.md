@@ -238,3 +238,9 @@
 - **Tactical Rules for Attempt #16:**
   1. **Protect `Mudkip` & Route 103/102 Catches by Immediately Pivoting Out of `Leech Seed` and Never Leaving a Poisoned Grass-Type In Against `Kakuna`:** Always pivot `Mudkip` out and back in after KOing Lass Tiana's `Sunkern` to clear `Leech Seed` before `Togepi` attacks.
   2. **Maintain 4–5 Active Teammates Below Level 16 Across Route 104 & Petalburg Woods:** Keep `Mudkip` and all caught teammates at **Level 13–14** entering Route 104 North so mandatory trainer EXP never pushes any teammate over the **Level 16** Roxanne cap.
+
+---
+
+## Attempt #16 Casualties (Starting Turn 3821)
+- **CYBELE** (Sandshrew ♀, Lv. 14, `40 HP`, `Scratch`, `Poison Sting`, `Sand-Attack`) — Died on Turn 3965 in Petalburg Woods `(26, 23)` to Team Magma Grunt's final Pokémon, `Lv. 8 Bagon` (`Twister` critical hit `15 -> 2/40 HP` on Turn 1 + `Twister` `2 -> 0/40 HP` on Turn 2 of a pre-queued 3-turn `Scratch` loop).
+  - **Root Cause & Tactical Lesson:** We assumed `Lv. 8 Bagon` only knew physical `Headbutt` (which `CYBELE`'s `26 Defense` tanks easily) and queued 3 turns of `Scratch` at `15/40 HP`. In fact, `Lv. 8 Bagon` ALSO knows **`Twister` (40 BP STAB Special Dragon, 20% flinch)**, which hits `Sandshrew`'s Base 30 Special Defense (`15 SpD`) for `6–7 damage` normal / `13 damage` on a critical hit (`15 -> 2/40 HP`), and the pre-queued Turn 2 `Scratch` kept `CYBELE` in at `2/40 HP` instead of switching to faster `HORUS` (`28 Speed`) once `Bagon` was chipped to `~3–4 HP`. **Rule:** Never queue multi-turn attack loops against trainers when at `<50% HP`; always execute 1 turn at a time so an unexpected Special move or critical hit can be answered with a safe switch.

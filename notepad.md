@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PELAGOS | 14 | Active | Starter received on Route 101 (`39 HP / 26 Atk / 19 Def / 19 SpA / 18 SpD / 17 Spd`) |
 | Route 103 | Spearow ♂ | SPEAROW | 14 | Active | Caught at `(11, 14)` (`35 HP`, Normal/Flying, Hardy, `Keen Eye`, `26 Atk / 14 Def / 17 SpA / 18 SpD / 25 Spd`, knows `Peck`, `Pursuit`, `Tackle`, `Secret Power`) |
-| Route 102 | Sandshrew ♀ | CYBELE | 14 | Active | Caught at `(39, 5)` (`40 HP`, Ground, `29 Atk / 26 Def / 13 SpA / 15 SpD / 18 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
+| Route 102 | Sandshrew ♀ | CYBELE | 14 | Deceased | Died on Turn 3965 in Petalburg Woods to Team Magma Grunt's `Lv. 8 Bagon` (`Twister` crit + queued loop from `15/40 HP`) |
 | Route 104 (South) | Natu ♂ | HORUS | 15 | Active | Caught at `(22, 61)` (`40 HP`, Psychic/Flying, Rash [`+SpA, -SpD`], `Early Bird`, `21 Atk / 21 Def / 30 SpA / 18 SpD / 28 Spd`, knows `Peck`, `Psybeam`, `Night Shade`) |
 | Petalburg Woods | Pineco ♂ | *(None)* | 7 | Fled | Fled at `(22, 35)` to avoid `Selfdestruct` risk |
 
@@ -57,7 +57,7 @@
 - **Petalburg Woods Trainers (Verified Turns 920–925, 1561–1572, 2289–2299):**
   1. **Bug Maniac Lyle `(13, 35)`:** Faces `Up` near the south entrance; has **3 Lv. 8 Pokémon** (`Lv. 8 Spinarak` [holds `Berry Juice`, knows `Night Shade`, `Spider Web`], `Lv. 8 Ledyba` [knows `Protect`, `Supersonic`, `Gust`], `Lv. 8 Venonat` [knows `Stun Spore`, `Psybeam`, `Mega Drain`]).
   2. **Bug Catcher James `(10, 24)`:** Faces `Down`; has **3 Pokémon** (`Lv. 9 Paras` [knows `Spore`, `Aerial Ace`, 4x weak to Flying/Fire], `Lv. 8 Surskit` [knows `Mud Shot`, `Water Pulse`, `Psybeam`, `Mega Drain`], `Lv. 9 Nincada` [`Giga Drain`, `Aerial Ace`, `Scratch`; Base 90 Def vs Base 30 SpD]).
-  3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief`], `Lv. 9 Houndour` [`Ember`, `Pursuit`, `Super Fang`, holds `Berry Juice`], `Lv. 8 Bagon` [`Headbutt`], and `Lv. 8 Duskull` [`Protect`, `Night Shade`, `Confuse Ray`, `Will-O-Wisp`, holds `Leftovers`]).
+  3. **Team Magma Grunt `(26, 23)`:** Cutscene triggers along `x=26..28, y=23`; has **5 Pokémon** (`Lv. 8 Magnemite` [`Flash Cannon`, `Thunder Wave`, `ThunderShock`], `Lv. 8 Koffing` [`Toxic`, `Protect`, `Thief`], `Lv. 9 Houndour` [`Ember`, `Pursuit`, `Super Fang`, holds `Berry Juice`], `Lv. 8 Bagon` [`Headbutt`, `Twister`], and `Lv. 8 Duskull` [`Protect`, `Night Shade`, `Confuse Ray`, `Will-O-Wisp`, holds `Leftovers`]).
 - **Route 104 (North) Trainers (Verified Turns 1601–1617, 2481–2489, 3700–3718):**
   1. **Rich Boy Winston `(21, 26)`:** Mandatory trainer facing `Up` with a 4-tile sight range across `(21, 22..25)`; has **3 Lv. 8 Pokémon** (`Lv. 8 Snubbull` [`Intimidate`, `Pay Day`, `Bite`, `Metronome`, holds `Oran Berry`], `Lv. 8 Electrike` [`ThunderShock`, `Quick Attack`, `Bite`, holds `Oran Berry`], `Lv. 8 Growlithe` [`Intimidate`, `Bite`, `Ember`, holds `Oran Berry`]).
   2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`, `Attract`, `Cute Charm`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`/`PoisonPowder`], `Lv. 9 Vulpix ♀` [`Confuse Ray`, `Ember`]).
@@ -330,6 +330,12 @@
 - **Tactical Rules for Attempt #16:**
   1. **Protect `Mudkip` & Route 103/102 Catches by Immediately Pivoting Out of `Leech Seed` and Never Leaving a Poisoned Grass-Type In Against `Kakuna`:** Always pivot `Mudkip` out and back in after KOing Lass Tiana's `Sunkern` to clear `Leech Seed` before `Togepi` attacks.
   2. **Maintain 4–5 Active Teammates Below Level 16 Across Route 104 & Petalburg Woods:** Keep `Mudkip` and all caught teammates at **Level 13–14** entering Route 104 North so mandatory trainer EXP never pushes any teammate over the **Level 16** Roxanne cap.
+
+---
+
+## Attempt #16 Casualties (Starting Turn 3821)
+- **CYBELE** (Sandshrew ♀, Lv. 14, `40 HP`, `Scratch`, `Poison Sting`, `Sand-Attack`) — Died on Turn 3965 in Petalburg Woods `(26, 23)` to Team Magma Grunt's final Pokémon, `Lv. 8 Bagon` (`Twister` critical hit `15 -> 2/40 HP` on Turn 1 + `Twister` `2 -> 0/40 HP` on Turn 2 of a pre-queued 3-turn `Scratch` loop).
+  - **Root Cause & Tactical Lesson:** We assumed `Lv. 8 Bagon` only knew physical `Headbutt` (which `CYBELE`'s `26 Defense` tanks easily) and queued 3 turns of `Scratch` at `15/40 HP`. In fact, `Lv. 8 Bagon` ALSO knows **`Twister` (40 BP STAB Special Dragon, 20% flinch)**, which hits `Sandshrew`'s Base 30 Special Defense (`15 SpD`) for `6–7 damage` normal / `13 damage` on a critical hit (`15 -> 2/40 HP`), and the pre-queued Turn 2 `Scratch` kept `CYBELE` in at `2/40 HP` instead of switching to faster `HORUS` (`28 Speed`) once `Bagon` was chipped to `~3–4 HP`. **Rule:** Never queue multi-turn attack loops against trainers when at `<50% HP`; always execute 1 turn at a time so an unexpected Special move or critical hit can be answered with a safe switch.
 
 <hr>
 
