@@ -1,9 +1,5 @@
-# Route & Area Encounters (Attempt #14)
+# Route & Area Encounters (Attempt #15)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Marshtomp ♀ | ATETHYS | 16 | Active | Starter (`Met in ROUTE 101`; Careful [`+SpD / -SpA`], `50 HP / 32 Atk / 28 Def / 23 SpA / 34 SpD / 21 Spd`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Delcatty ♀ | SELENE | 16 | Deceased | Died at `(26, 23)` in Petalburg Woods to Team Magma Grunt's `Lv. 8 Duskull` (`Will-O-Wisp` burn) |
-| Route 102 | Spoink ♂ | — | 6 | Fainted | Crit-KO'd at `(37, 5)` by `Water Gun` |
-| Route 104 (South) | Nidoran♀ | HERA | 14 | Deceased | Died at `(23, 35)` in Petalburg Woods to wild `Lv. 8 Phanpy` (`Mud Shot` crit) |
-| Petalburg Woods | Phanpy ♂ | — | 8 | Fled | Had `Cute Charm` + `Mud Shot`; fled after KOing `HERA` |
+| Route 101 | Mudkip | NEREUS | 5 | Active | Starter (`Met in ROUTE 101`) |

@@ -3,7 +3,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #14
+- **Attempt:** #15
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -46,16 +46,16 @@
   2. **Lass Haley `(32, 22)`:** Faces `Left` across `(30..31, 22)` at the south end of the bridge; has **3 Lv. 9 Pokémon** (`Lv. 9 Skitty ♀` [`Assist`, `Attract`, `Cute Charm`], `Lv. 9 Oddish ♀` [`Acid`, `Protect`, `Sleep Powder`/`Stun Spore`/`PoisonPowder`], `Lv. 9 Vulpix` [`Confuse Ray`]).
   3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge (note: in Gen 3, Double Battle trainers cannot challenge you on sight if you only have 1 conscious Pokémon in your party, allowing a 1-Pokémon party to walk past `(27..28, 16)` without triggering them!); have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` [Left: `Focus Punch` (~26 damage), `Teeter Dance`] and `Lv. 8 Smeargle ♂` [Right: `Follow Me`, `Teeter Dance`, `Milk Drink`, `Light Screen`, holds `Sitrus Berry`]). **Solution:** Pair **`NOCTUA` (`Lv. 15 Hoothoot`, 60-BP STAB Physical `Aerial Ace` [`Down, Right`], ignoring `Light Screen`!)** in Slot 1 with **`OCEANUS` (`Lv. 14 Mudkip`, **`Bubble` [Slot 2: `Up, Right`]**, a 2-target spread move in Gen 3 that bypasses `Follow Me` and causes Left `Smeargle`'s `Focus Punch` to fail every turn!)** in Slot 2!
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory 5-Pokémon boss trainer with a Fisherman overworld sprite facing `Left` with a 5-tile sight range across `(24..28, 8)` at the north end of the bridge; has **5 Lv. 9 Pokémon**: `Lv. 9 Eevee ♂` (`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`), `Lv. 9 Charmander ♂` (`Will-O-Wisp`, `Ember`, holds `Berry Juice`), `Lv. 9 Pikachu ♂` (`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`, custom boosted stats `~36 HP` / `~21 Spd`), `Lv. 9 Bulbasaur ♂` (`Cut`, `Mega Drain`, holds `Berry Juice`), and `Lv. 9 Squirtle ♂` (`Fake Out`, `Water Pulse`, `Bite`, `Yawn`, holds `Berry Juice`). **Solution:** Lead with `OCEANUS` (`Mud Sport` + `Water Gun`) or `SIREN` (`Seismic Toss` + `Disable` against `Eevee`'s `Curse`/`Rest`), use `THETIS` (`34 Spd`, `BubbleBeam`) against `Charmander`, `NOCTUA` (`Aerial Ace`) against `Bulbasaur`, and `AETHER` (`28 SpA`, `27 Spd`, `Bite` / `ThunderShock`) + `NOCTUA` (`Insomnia` [immune to `Squirtle`'s `Yawn`!], `23 SpD`, `Aerial Ace`) against `Pikachu` and `Squirtle`!
-- **Attempt #14 Level 16 Cap & Rare Candy Team Budgeting Rule (Roxanne Cap = Lv. 16):**
+- **Attempt #15 Level 16 Cap & Rare Candy Team Budgeting Rule (Roxanne Cap = Lv. 16):**
   - Keep all party members at or below **Level 16** before challenging Gym Leader Roxanne (Pokemon above the active level cap cannot battle in any wild, trainer, or Gym encounter).
-  - Use our refilled `Rare Candies` in the overworld to elevate new catches (`SELENE`, `HERA`, and our Petalburg Woods and Route 116 catches) to **Level 13–15** before route trainers, and evolve `ATETHYS` (`Marshtomp`) and `HERA` (`Nidorina` -> `Nidoqueen` via `Moon Stone`) at **Level 16** for Rustboro Gym / Roxanne without exceeding **Level 16**.
+  - Always weaken wild encounters **strictly 1 turn at a time** using neutral/resistant moves (`Mudkip`'s 20-BP `Bubble` or `Tackle`) so we preserve all 4 pre-Rustboro catches (Route 103, Route 102, Route 104 South, Petalburg Woods) and spread trainer EXP across 4–5 teammates, keeping everyone at **Level 14–15** entering Rustboro City.
   - Never queue multi-turn attack loops when poisoned (`PSN`) or confused (`Confuse Ray`/`Teeter Dance`).
 - **Oldale, Petalburg & Rustboro Mart Prices (Turns 153, 593, 2816):** Poké Balls cost only **$10** each (10+ awards a Premier Ball); Potions cost $300; Super Potions (at Rustboro Mart `(16, 45)`) cost $700; Antidotes cost $100; Parlyz Heals cost $200; Awakenings/Burn Heals cost $250; Repels cost $350; Escape Ropes cost $550.
 - **Heal in Overworld to 100% HP & Equip Oran Berries:** Bag Potions cannot be used in battle, but held `Oran Berries` (`(24, 2)` on Route 102 and `(22, 41)` on Route 104 South) activate automatically in battle!
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ATETHYS** — Marshtomp ♀ (Lv. 16, `49/50 HP`, holding `Oran Berry`, Careful [`+SpD / -SpA`], `Torrent`, Stats: `50 HP / 32 Atk / 28 Def / 23 SpA / 34 SpD / 21 Spd`, Moves: `Mud Shot` [Slot 1: `Up, Left`, 24 PP], `Bubble` [Slot 2: `Up, Right`, 30 PP], `Mud Sport` [Slot 3: `Down, Left`, 14/15 PP], `Water Gun` [Slot 4: `Down, Right`, 22/25 PP]) — Met on Route 101 (Starter; `5859 / 6141 EXP` [`282 EXP` before Lv. 17]).
+1. **NEREUS** — Mudkip (Lv. 5, `21/21 HP`, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`, 35 PP]) — Met on Route 101 (Starter).
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
