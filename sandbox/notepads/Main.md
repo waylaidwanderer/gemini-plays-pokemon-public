@@ -55,9 +55,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
-2. **DRYAD** — Nuzleaf ♀ (Lv. 15, `48/48 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll`, Stats: `48 HP / 27 Atk / 19 Def / 23 SpA / 16 SpD / 26 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Bide` [Slot 2: `Up, Right`, 10 PP], `Bullet Seed` [Slot 3: `Down, Left`, 30 PP], `Nature Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
-3. **ASTRAEA** — Illumise ♀ (Lv. 7, Bug, Moves: `Quick Attack`, `Flatter`) — Met in Petalburg Woods.
+1. **DRYAD** — Nuzleaf ♀ (Lv. 19, `44/59 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll` — **RETIRED / OVERLEVELED FOR GYM 1 CAP [Lv. 16]; TO BE BOXED UNTIL AFTER ROXANNE**) — Met on Route 104 (South).
+2. **TALOS** — Sandshrew ♂ (Lv. 14, `23/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+3. **ASTRAEA** — Illumise ♀ (Lv. 7, `25/26 HP`, Bug, Hardy, `Oblivious`, Stats: `26 HP / 12 Atk / 17 Def / 15 SpA / 17 SpD / 17 Spd`, Moves: `Quick Attack` [Slot 1: `Up, Left`, 30 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Flatter` [Slot 3: `Left, Down`, 24 PP]) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
