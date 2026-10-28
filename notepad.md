@@ -1594,7 +1594,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 2. [x] Enter Mossdeep Gym (Turn 16065).
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
-5. [ ] Defeat all Gym trainers (11 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia).
+5. [x] Defeat all Gym trainers (12 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia, Hannah - ALL CLEARED!).
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
@@ -1636,6 +1636,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 - Hex Maniac Sylvia: Defeated at (7, 5) on Turn 16199 (Meditite Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 5/15).
 
+- Psychic ♀ Hannah: Defeated at (6, 3) on Turn 16214 (Kirlia Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 4/15).
+
 ## Systematic Warp Teleporter Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
@@ -1646,7 +1648,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 3 North Pad (23, 20) | Room 2 NE Alcove Arrival (9, 18) | Warps to Room 2 Northeast Alcove |
 | Room 2 NE Alcove Pad (7, 18) | Room 4 Arrival Pad (8, 12) | Progression pad in Room 2 NE Alcove |
 | Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
-| Room 4 North Pad (7, 8) | Pending | North alcove of Room 4 |
+| Room 4 North Pad (10, 4) | Pending | North alcove of Room 4 |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
@@ -3799,7 +3801,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 27 (HP 78/78), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
 
 ## Party
-1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (18/20), Leaf Blade (5/15), Quick Attack (29/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.
+1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (18/20), Leaf Blade (4/15), Quick Attack (29/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.
 2. LILZ (Lombre ♀, Level 27) - Evolved from Lotad on turn 4926! Level 27 on turn 16132! Moves: Astonish (14/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 78/78. Max HP: 78. Status: OK.
 3. CIPHER (Abra ♂, Level 15) - Caught in Granite Cave B2F with Great Ball! Moves: Teleport (20/20). HP: 33/33. Max HP: 33. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Stats at Lv 14: HP 40, Atk 27, Def 40, Sp.Atk 18, Sp.Def 18, Speed 16. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Metal Claw (35/35), Strength (15/15). Status: OK.
@@ -3839,7 +3841,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥37,449
+- Money: ¥38,313
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

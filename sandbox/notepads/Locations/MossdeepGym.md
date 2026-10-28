@@ -14,7 +14,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 2. [x] Enter Mossdeep Gym (Turn 16065).
 3. [x] Consult Gym Guide at entrance (Turn 16066).
 4. [ ] Navigate gym conveyor / teleporter switch puzzles.
-5. [ ] Defeat all Gym trainers (11 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia).
+5. [x] Defeat all Gym trainers (12 defeated: Preston, Maura, Blake, Samantha, Clifford, Kathleen, Macey, Nicholas, Virgil, Nate, Sylvia, Hannah - ALL CLEARED!).
 6. [ ] Defeat Gym Leaders Tate & Liza for the Mind Badge!
 
 ## Discovered Topography & Navigation - 1F Entrance Lobby & Room 1
@@ -56,6 +56,8 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 
 - Hex Maniac Sylvia: Defeated at (7, 5) on Turn 16199 (Meditite Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 5/15).
 
+- Psychic ♀ Hannah: Defeated at (6, 3) on Turn 16214 (Kirlia Lv 36 ♀ OHKOed by Leaf Blade; Prize: ¥864; Sage HP 165/165, Leaf Blade 4/15).
+
 ## Systematic Warp Teleporter Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
@@ -66,7 +68,7 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 | Room 3 North Pad (23, 20) | Room 2 NE Alcove Arrival (9, 18) | Warps to Room 2 Northeast Alcove |
 | Room 2 NE Alcove Pad (7, 18) | Room 4 Arrival Pad (8, 12) | Progression pad in Room 2 NE Alcove |
 | Room 4 Arrival Pad (8, 12) | Room 2 NE Alcove Pad (7, 18) | Return pad to Room 2 |
-| Room 4 North Pad (7, 8) | Pending | North alcove of Room 4 |
+| Room 4 North Pad (10, 4) | Pending | North alcove of Room 4 |
 
 ## Discovered Topography & Navigation - Room 3
 - Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
