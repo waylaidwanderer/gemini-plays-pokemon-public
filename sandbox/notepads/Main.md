@@ -55,8 +55,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ASTRAEA** — Illumise ♀ (Lv. 15, `46/46 HP`, Bug, Hardy, `Oblivious`, Stats: `46 HP / 21 Atk / 31 Def / 28 SpA / 31 SpD / 31 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 10 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
-2. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+1. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+2. **ASTRAEA** — Illumise ♀ (Lv. 16, `48/48 HP`, Bug, Hardy, `Oblivious`, Stats: `48 HP / 22 Atk / 33 Def / 29 SpA / 33 SpD / 33 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 10 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
 
 ## Boxed (Retired Until Cap Advances)
 - **DRYAD** — Nuzleaf ♀ (Lv. 19, Grass/Dark, `Chlorophyll`, `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power` — Boxed in `BOX 1` until Roxanne [Lv. 16 cap] is defeated; eligible for Brawly [Lv. 20 cap]!).
