@@ -72,9 +72,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♀ (Lv. 15, `18/43 HP` [PAR], Water, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `43 HP / 26 Atk / 20 Def / 26 SpA / 20 SpD / 16 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **MUDKIP** — Mudkip ♀ (Lv. 15, `43/43 HP` [PAR], Water, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `43 HP / 26 Atk / 20 Def / 26 SpA / 20 SpD / 16 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SYLPH** — Hoppip ♀ (Lv. 11, `32/32 HP`, Grass/Flying, holding `Oran Berry`, Stats: `32 HP / 13 Atk / 13 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
-3. **BASTET** — Meowth ♀ (Lv. 12, `13/33 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `33 HP / 18 Atk / 16 Def / 15 SpA / 16 SpD / 27 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
+3. **BASTET** — Meowth ♀ (Lv. 12, `33/33 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `33 HP / 18 Atk / 16 Def / 15 SpA / 16 SpD / 27 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
 4. **HYPNOS** — Drowzee ♂ (Lv. 13, `42/42 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], holding `Pecha Berry`, Stats: `42 HP / 18 Atk / 18 Def / 15 SpA / 32 SpD / 19 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
 5. **NOCTUA** — Hoothoot ♂ (Lv. 13, `40/40 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `40 HP / 13 Atk / 15 Def / 15 SpA / 18 SpD / 18 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
 
