@@ -56,10 +56,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SPEAROW** — Spearow ♂ (Lv. 12, `31/31 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `31 HP / 23 Atk / 13 Def / 16 SpA / 16 SpD / 22 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`]) — Caught on Route 103.
+1. **HORUS** — Natu ♂ (Lv. 12, `34/34 HP`, Psychic/Flying, Rash, `Early Bird`, Stats: `34 HP / 18 Atk / 18 Def / 25 SpA / 15 SpD / 23 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 104 (South).
 2. **PELAGOS** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats: `32 HP / 22 Atk / 16 Def / 16 SpA / 15 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 3. **CYBELE** — Sandshrew ♀ (Lv. 11, `34/34 HP`, Ground, Stats: `34 HP / 24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102.
-4. **HORUS** — Natu ♂ (Lv. 9, `28/28 HP`, Psychic/Flying, Rash, `Early Bird`, Stats: `28 HP / 15 Atk / 15 Def / 19 SpA / 12 SpD / 19 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`]) — Caught on Route 104 (South).
+4. **SPEAROW** — Spearow ♂ (Lv. 12, `31/31 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `31 HP / 23 Atk / 13 Def / 16 SpA / 16 SpD / 22 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`]) — Caught on Route 103.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
