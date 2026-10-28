@@ -8,6 +8,7 @@
 | Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
 | Route 102 | Sandshrew ♂ | TALOS | 14 | Active | Caught at `(39, 5)` (`38 HP`, Ground, `28 Atk / 29 Def / 18 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 | Route 104 (South) | Nuzleaf ♀ | DRYAD | 15 | Active | Caught as Lv. 7 Seedot at `(22, 61)` (`48 HP`, Grass/Dark, `Chlorophyll`, `27 Atk / 19 Def / 23 SpA / 16 SpD / 26 Spd`, knows `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power`) |
+| Petalburg Woods | Illumise ♀ | ASTRAEA | 7 | Active | Caught at `(21, 34)` (Bug, knows `Quick Attack`, `Flatter`) |
 
 <hr>
 
@@ -72,6 +73,7 @@
 ## Active Party
 1. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 2. **DRYAD** — Nuzleaf ♀ (Lv. 15, `48/48 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll`, Stats: `48 HP / 27 Atk / 19 Def / 23 SpA / 16 SpD / 26 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Bide` [Slot 2: `Up, Right`, 10 PP], `Bullet Seed` [Slot 3: `Down, Left`, 30 PP], `Nature Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
+3. **ASTRAEA** — Illumise ♀ (Lv. 7, Bug, Moves: `Quick Attack`, `Flatter`) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.

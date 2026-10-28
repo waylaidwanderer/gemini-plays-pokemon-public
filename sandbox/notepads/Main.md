@@ -57,6 +57,7 @@
 ## Active Party
 1. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 2. **DRYAD** — Nuzleaf ♀ (Lv. 15, `48/48 HP`, Grass/Dark, Lax [`+Def / -SpD`], `Chlorophyll`, Stats: `48 HP / 27 Atk / 19 Def / 23 SpA / 16 SpD / 26 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`, 10 PP], `Bide` [Slot 2: `Up, Right`, 10 PP], `Bullet Seed` [Slot 3: `Down, Left`, 30 PP], `Nature Power` [Slot 4: `Down, Right`, 20 PP]) — Met on Route 104 (South).
+3. **ASTRAEA** — Illumise ♀ (Lv. 7, Bug, Moves: `Quick Attack`, `Flatter`) — Met in Petalburg Woods.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
