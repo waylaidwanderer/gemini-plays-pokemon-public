@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | NEREUS | 11 | Deceased | Died on Turn 3575 on Route 102 to Lass Tiana's Lv. 5 Togepi (`Metronome -> Smog` crit + `Leech Seed`) |
 | Route 103 | Hoppip ♀ | FLORA | 11 | Deceased | Died on Turn 3546 on Route 102 to Bug Catcher Rick's Lv. 5 Kakuna (`Poison Sting` + `PSN`) |
-| Route 102 | Sandshrew ♂ | TALOS | 14 | Active | Caught at `(39, 5)` (`38 HP`, Ground, `28 Atk / 29 Def / 18 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
+| Route 102 | Sandshrew ♂ | TALOS | 15 | Active | Caught at `(39, 5)` (`40 HP`, Ground, `29 Atk / 31 Def / 19 Spd`, knows `Scratch`, `Poison Sting`, `Sand-Attack`) |
 | Route 104 (South) | Nuzleaf ♀ | DRYAD | 19 | Retired (Cap) | Overleveled Lv. 16 cap; boxed until Gym 2 (Lv. 20 cap) |
 | Petalburg Woods | Illumise ♀ | ASTRAEA | 16 | Active | Caught at `(21, 34)` (`48 HP`, Bug, Hardy, `Oblivious`, `22 Atk / 33 Def / 29 SpA / 33 SpD / 33 Spd`, knows `Seismic Toss`, `Thunder Wave`, `Moonlight`, `Silver Wind`) |
 
@@ -71,7 +71,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TALOS** — Sandshrew ♂ (Lv. 14, `38/38 HP`, Ground, Stats: `38 HP / 28 Atk / 29 Def / 11 SpA / 15 SpD / 18 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
+1. **TALOS** — Sandshrew ♂ (Lv. 15, `40/40 HP`, Ground, Stats: `40 HP / 29 Atk / 31 Def / 12 SpA / 16 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`, 35 PP], `Poison Sting` [Slot 2: `Up, Right`, 35 PP], `Sand-Attack` [Slot 3: `Left, Down`, 15 PP]) — Met on Route 102.
 2. **ASTRAEA** — Illumise ♀ (Lv. 16, `48/48 HP`, Bug, Hardy, `Oblivious`, Stats: `48 HP / 22 Atk / 33 Def / 29 SpA / 33 SpD / 33 Spd`, Moves: `Seismic Toss` [Slot 1: `Up, Left`, 20 PP], `Thunder Wave` [Slot 2: `Up, Right`, 16 PP], `Moonlight` [Slot 3: `Down, Left`, 10 PP — 50% Max HP heal!], `Silver Wind` [Slot 4: `Down, Right`, 5 PP — omni-boosts all 5 stats!]) — Met in Petalburg Woods.
 
 ## Boxed (Retired Until Cap Advances)
