@@ -55,8 +55,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SPEAROW** — Spearow ♂ (Lv. 11, `29/29 HP`, Normal/Flying, Hardy, `Keen Eye`, Stats: `29 HP / 21 Atk / 12 Def / 15 SpA / 15 SpD / 21 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`]) — Caught on Route 103.
-2. **PELAGOS** — Mudkip ♂ (Lv. 10, `30/30 HP`, Water, `Torrent`, Stats: `30 HP / 20 Atk / 15 Def / 15 SpA / 14 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **PELAGOS** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Holds `Oran Berry`, Stats: `32 HP / 22 Atk / 16 Def / 16 SpA / 15 SpD / 14 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+2. **SPEAROW** — Spearow ♂ (Lv. 11, `29/29 HP`, Normal/Flying, Hardy, `Keen Eye`, Holds `Oran Berry`, Stats: `29 HP / 21 Atk / 12 Def / 15 SpA / 15 SpD / 21 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Tackle` [Slot 3: `Left, Down`]) — Caught on Route 103.
 3. **CYBELE** — Sandshrew ♀ (Lv. 11, `34/34 HP`, Ground, Stats: `34 HP / 24 Atk / 21 Def / 11 SpA / 13 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
