@@ -50,10 +50,24 @@ The seventh official Pokémon Gym in Hoenn, located in the north-central distric
 ## Systematic Warp Teleporter Map
 | Source Pad (Room / Coord) | Destination (Room / Coord) | Notes / Contents |
 | :--- | :--- | :--- |
-| Room 1 SW Pad (1, 33) | Testing (Turn 16115) | Southwest corner of Room 1 |
+| Room 1 SW Pad (1, 33) | Room 3 Arrival Pad (20, 24) | Teleports east into Room 3 west wall |
+| Room 3 Arrival Pad (20, 24) | Room 1 SW Pad (1, 33) | Return pad to Room 1 |
 | Room 1 North Pad (3, 28) | Room 2 Arrival Pad (1, 23) | Teleports north into Room 2 |
 | Room 2 Arrival Pad (1, 23) | Room 1 North Pad (3, 28) | Return pad to Room 1 |
 | Room 2 Northeast Pad (6, 18) | Pending | Progression warp pad in northeast alcove |
+| Room 3 North Pad (23, 18) | Pending | North alcove of Room 3 |
+
+## Discovered Topography & Navigation - Room 3
+- Arrival Warp Pad at (20, 24) from Room 1 SW Pad (1, 33).
+- Room 3 layout (cols 20..26, rows 18..28):
+  - (20, 24): Arrival warp pad (returns to Room 1 SW pad at 1, 33).
+  - (23, 18): North Alcove blue circular warp pad.
+  - Two Purple Floor Switches: (23, 24) [Center intersection] and (23, 19) [North alcove].
+  - Four Gym Trainers:
+    - Hex Maniac at (22, 22) facing South.
+    - Psychic ♂ at (25, 20) facing South.
+    - Gentleman at (22, 25) facing South.
+    - School Kid / Lass at (25, 25) facing West.
 
 ## Discovered Topography & Navigation - Room 2
 - Arrival Warp Pad at (1, 23) from Room 1 North Pad (3, 28).
