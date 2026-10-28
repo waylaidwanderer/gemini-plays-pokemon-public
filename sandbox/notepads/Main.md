@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 54, Male), Nickname: SAGE
-- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 26 (HP 75/75), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
+- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 27 (HP 78/78), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (18/20), Leaf Blade (10/15), Quick Attack (29/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.

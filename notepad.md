@@ -1546,28 +1546,9 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 5. [ ] Challenge and defeat Gym Leaders Tate & Liza for the Mind Badge.
 
 ## Discovered Topography & Navigation
-- Western Water Approach (Turn 16034-16035):
-  - Arrived from Route 124 at (0, 13).
-  - Open deep water extends east from col 0 to col 8 along row 13.
-  - Shallow tidal water begins at col 9, row 13 leading onto the western beach.
-  - Sea rock sighted to the northeast at approx (11, 10..11).
-- Northwest Coastal Bluffs (Turn 16040-16043):
-  - High cliff bluffs at cols 15..17 block eastward access from the northwest cove.
-  - Residential house located atop the bluff at (19, 17) with red/grey roof.
-  - Shallow water channel extends south along col 13 toward the southwestern beach.
-  - Sandy beach sighted to the southwest around cols 8..10, row 23+.
-  - Trainer sighted to the southeast near (20, 25).
-- Southwest Beach Entrance (Turn 16044-16045):
-  - Shallow water channel along col 13 reaches open beach area at row 25.
-  - Western sandbar spans cols 7..8, rows 22..29.
-  - Trainer stationed at (20, 25) facing West.
-  - Main city entrance routes South to row 27..28, then East under the cliff toward the Pokémon Center.
-
-- Southwest Beach Staircase (Turn 16047):
-  - White stone staircase located at cols 25..26, rows 21..25 connecting the beach to the city streets.
-  - Col 24 at row 25 is blocked by cliff corner.
-  - Foot of stairs approached from (25..26, 26) facing North.
-  - Top landing at (25..26, 21) opens onto city avenue.
+### Western Coast & Beach Approach
+- Western Shore: Open water disembarkation point from Route 124 along row 13, transitioning to shallow tidal water at col 9. High bluffs block direct eastward access.
+- Southwest Beach & Staircase: Shallow water channel leads south along col 13 to the southwest sandbar (cols 7..8, rows 22..29). A white stone staircase at (25..26, rows 21..25) ascends north from the beach (approached from 25..26, row 26) onto the lower city avenue at (25..26, row 21).
 - Pokémon Center (Exterior):
   - Located on the lower western avenue at cols 27..32, rows 11..15.
   - Red roof with white Pokéball emblem, 'P.C' sign on right wall.
@@ -3791,7 +3772,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 54, Male), Nickname: SAGE
-- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 26 (HP 75/75), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
+- Status: MOSSDEEP CITY CHECKPOINT SET! Route 124 traversed, central island bypassed, and southwest beach staircase ascended. Party healed at Mossdeep Pokémon Center. Ready to challenge Gym 7 (Tate & Liza) for the Mind Badge! Party: Sage Lv 54 (HP 165/165), Lilz Lv 27 (HP 78/78), Cipher Lv 15 (HP 33/33), Cobalu Lv 15 (HP 42/42), Mochi Lv 7 (HP 30/30), Guava Lv 28 (HP 95/95).
 
 ## Party
 1. SAGE (Sceptile ♂, Level 54) - Evolved on turn 5632! Level 54 on turn 15995! Moves: Rock Tomb (10/10), Pursuit (18/20), Leaf Blade (10/15), Quick Attack (29/30). HP: 165/165. Max HP: 165. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 54: HP 165, Atk 122, Def 89, Sp.Atk 133, Sp.Def 120, Speed 161.
