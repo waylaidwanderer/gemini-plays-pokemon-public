@@ -7,7 +7,7 @@
 | Route 101 | Marshtomp ♂ | NAIAD | 17 | Retired (Cap) | Starter received on Route 101, evolved into Marshtomp; reached Lv. 17 against Tammy's Rhyhorn (retired until Brawly Lv. 20 cap) |
 | Route 103 | Fearow ♂ | AQUILA | 20 | Retired (Cap) | Caught at `(11, 14)`, evolved into Lv. 20 Fearow; retired until Brawly Lv. 20 cap |
 | Route 102 | Meowth ♂ | MIDAS | 16 | Deceased | Caught at `(38, 5)`; fainted to overworld poison ticks on Turn 4820 |
-| Route 104 (South) | Cubone ♀ | TERRA | 17 | Retired (Cap) | Caught at `(22, 61)` (`47 HP / 27 Atk / 36 Def / 21 SpA / 26 SpD / 17 Spd` at Lv. 17, Ground, Moves: `Bone Club`, `Rock Throw`, `Dig` [Lv. 17], `Headbutt` [Lv. 13]); retired until Brawly Lv. 20 cap |
+| Route 104 (South) | Cubone ♀ | TERRA | 17 | Retired (Cap) | Caught at `(22, 61)` (`47 HP / 27 Atk / 36 Def / 21 SpA / 26 SpD / 17 Spd` at Lv. 17, Ground, Moves: `Dig` [Lv. 17], `Rock Throw`, `Secret Power` [Lv. 9], `Headbutt` [Lv. 13]); retired until Brawly Lv. 20 cap |
 | Petalburg Woods | Illumise ♀ | LUMINA | 16 | Active | Caught at `(23, 35)` (`51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd` at Lv. 16, 400 BST Bug, `Oblivious`, Moves: `Moonlight` [Lv. 13], `Thunder Wave`, `Seismic Toss` [Lv. 11], `Silver Wind` [Lv. 9]) |
 | Route 116 | Butterfree ♀ | PSYCHE | 17 | Retired (Cap) | Caught at `(5, 12)` (`52 HP / 24 Atk / 23 Def / 38 SpA / 32 SpD / 31 Spd` at Lv. 17, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`); retired until Brawly Lv. 20 cap |
 | Rusturf Tunnel | Geodude ♀ | PETRA | 16 | Active | Caught at `(5, 9)` inside Rusturf Tunnel (`39 HP / 34 Atk / 36 Def / 15 SpA / 15 SpD / 15 Spd` at Lv. 16, Mild, `Sturdy`, Moves: `Rock Slide` [Lv. 16], `Rock Throw`, `Secret Power`, `Magnitude`) |
@@ -77,12 +77,12 @@
 1. **PETRA** — Geodude ♀ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Mild, `Sturdy`, Rock/Ground, Stats at Lv. 17: `41 HP / 36 Atk / 38 Def / 16 SpA / 16 SpD / 16 Spd`, Moves: `Rock Slide`, `Rock Throw`, `Secret Power`, `Magnitude`) — Caught in Rusturf Tunnel.
 2. **NAIAD** — Marshtomp ♂ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Water/Ground, `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 3. **LUMINA** — Illumise ♀ (Lv. 16, `21/51 HP`, `180 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
-4. **TERRA** — Cubone ♀ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Ground, Stats at Lv. 17: `47 HP / 27 Atk / 36 Def / 21 SpA / 26 SpD / 17 Spd`, Moves: `Bone Club`, `Rock Throw`, `Dig`, `Headbutt`) — Caught on Route 104 South.
+4. **TERRA** — Cubone ♀ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Ground, Stats at Lv. 17: `47 HP / 27 Atk / 36 Def / 21 SpA / 26 SpD / 17 Spd`, Moves: `Dig`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - **PSYCHE** — Butterfree ♀ (Lv. 17, `52/52 HP`, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Reached Lv. 17 against Bug Maniac Jose; retired in `BOX 1` until Brawly's Lv. 20 cap.
 - **AQUILA** — Fearow ♂ (Lv. 20, `60/60 HP`, Normal/Flying, `Keen Eye`, Moves: `Rage`, `Pursuit`, `Tackle`, `Secret Power`) — Leveled to Lv. 20 Fearow to survive overworld poison; retired in `BOX 1` until Brawly's Lv. 20 cap.
-- **TERRA** — Cubone ♀ (Lv. 17, `47/47 HP`, Ground, Moves: `Bone Club`, `Rock Throw`, `Dig`, `Headbutt`) — Reached Lv. 17 against School Kid Tammy's Corsola; retired until Brawly's Lv. 20 cap.
+- **TERRA** — Cubone ♀ (Lv. 17, `47/47 HP`, Ground, Moves: `Dig`, `Rock Throw`, `Secret Power`, `Headbutt`) — Reached Lv. 17 against School Kid Tammy's Corsola; retired until Brawly's Lv. 20 cap.
 - **PETRA** — Geodude ♀ (Lv. 17, `41/41 HP`, Rock/Ground, Moves: `Rock Slide`, `Rock Throw`, `Secret Power`, `Magnitude`) — Reached Lv. 17 against School Kid Tammy's Rhyhorn; retired until Brawly's Lv. 20 cap.
 - **NAIAD** — Marshtomp ♂ (Lv. 17, `52/52 HP`, Water/Ground, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Reached Lv. 17 against School Kid Tammy's Rhyhorn; retired until Brawly's Lv. 20 cap.
 
