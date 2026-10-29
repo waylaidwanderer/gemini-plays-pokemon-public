@@ -61,6 +61,7 @@
 3. **MIDAS** — Meowth ♂ (Lv. 15, `37/37 HP`, Normal, `Limber`, holding `Oran Berry`, Stats: `37 HP / 23 Atk / 15 Def / 21 SpA / 18 SpD / 32 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
 4. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 5. **NAIAD** — Mudkip ♂ (Lv. 14, `39/39 HP`, Water, `Torrent`, Stats: `39 HP / 30 Atk / 20 Def / 19 SpA / 22 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+6. **PSYCHE** — Metapod ♀ (Lv. 9, Bug, `Shed Skin`, Moves: `Tackle`, `Harden`) — Caught on Route 116.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
