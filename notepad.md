@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | NAIAD | 5 | Active | Starter received on Route 101 |
+| Route 101 | Mudkip ♂ | NAIAD | 11 | Active | Starter received on Route 101 (`32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd` at Lv. 11) |
 
 <hr>
 
@@ -68,7 +68,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **NAIAD** — Mudkip ♂ (Lv. 5, `20/20 HP`, Water, `Torrent`, Moves: `Tackle`) — Starter received on Route 101.
+1. **NAIAD** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats: `32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
