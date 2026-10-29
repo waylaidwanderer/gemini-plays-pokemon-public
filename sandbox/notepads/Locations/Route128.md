@@ -39,3 +39,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Ripple Rock Chain: A diagonal line of three grey rocks with water ripples at (28, 38), (30, 39), and (29, 41) southeast of Channel 2.
 - Central Ridge Southern Termination & Collision: The vertical cliff ridge extends east to (27, 37), blocking direct southbound movement at (27, 36). The clear bypass routes East along row 35 across cols 28..30 into the wide open eastern sea corridor.
 - Visual Mechanic (Animated Wave Shadows): Regular ocean water has moving diagonal wave shadows. Genuine dive trenches are static, solid dark indigo formations.
+- Wingull (Lv 13, Water/Flying) - Confirmed on Turn 16869 in deep water at (27, 36); fled on turn 1.
