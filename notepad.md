@@ -4158,5 +4158,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Party Menu Field Move Order: When a Pokémon knows both a field move and an HM (e.g. Guava with Sweet Scent and Fly), the pop-up menu order is: SUMMARY, SWEET SCENT, FLY, SWITCH, ITEM, CANCEL. Cursor defaults to SUMMARY; navigate Down x2 to select FLY.
 - Hoenn Fly Map Single-Step Hold (Verified Turn 15163): On the Hoenn Fly Map, standard directional presses trigger auto-repeat and step 2 grid tiles (~32px). Using calibrated short holds (`hold <Direction> 70..75`) ensures single-tile grid steps (~16px) without overshooting adjacent town nodes. Location name updates in the bottom-right text box when hovering over a valid named node.
 - Surfing Fly Mechanic (Verified Turn 15890-15892): In Gen 3 (Emerald), HM02 Fly can be used while Surfing outdoors. Selecting the current city on the Hoenn Fly Map executes Fly normally and lands the player at that city's outdoor flight landing spot (outside the Pokémon Center) on foot, allowing instant return to town from water without manual backtracking.
+## Key Story & Lore Discoveries
+- Rayquaza Sighting (Turn 16854): Brendan called via Match Call from Pacifidlog Town, reporting a huge green Pokémon flying across the sky.
 
 <hr>
