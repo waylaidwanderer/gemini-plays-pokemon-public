@@ -3568,6 +3568,8 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Open Ocean Expanses: Rows 45..50+ along col 25 open into wide unobstructed deep blue sea, continuing south toward Route 128.
 ## Wild Encounters (Surfing)
 - Tentacool (Lv 21, Water/Poison) - Confirmed on Turn 16825 in deep water; fled on turn 1.
+- Sea Rock Cluster 5: Large rock at (21..22, 66..67) and rock at (23..24, 68).
+- Swimmer ♀ Sighted: Swimmer with red swim cap spotted near (18..19, 68) west of the rock cluster.
 
 <hr>
 
