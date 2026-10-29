@@ -73,12 +73,11 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **LUMINA** — Illumise ♀ (Lv. 16, `18/51 HP`, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
-2. **PSYCHE** — Butterfree ♀ (Lv. 16, `49/49 HP`, Bug/Flying, `CompoundEyes`, Stats: `49 HP / 23 Atk / 22 Def / 36 SpA / 31 SpD / 30 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
-3. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
-4. **TERRA** — Cubone ♀ (Lv. 16, `39/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
-5. **NAIAD** — Mudkip ♂ (Lv. 15, `27/41 HP`, Water, `Torrent`, Stats: `41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-6. **MIDAS** — Meowth ♂ (Lv. 16, DECEASED — fainted to overworld poison ticks at `(39, 10)` on Turn 4820 after context summarization) — Caught on Route 102.
+1. **LUMINA** — Illumise ♀ (Lv. 16, `51/51 HP`, `643 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
+2. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, `587 EXP` to Lv. 17, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
+3. **PSYCHE** — Butterfree ♀ (Lv. 16, `49/49 HP`, `445 EXP` to Lv. 17, Bug/Flying, `CompoundEyes`, Stats: `49 HP / 23 Atk / 22 Def / 36 SpA / 31 SpD / 30 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
+4. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, `120 EXP` to Lv. 17, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
+5. **NAIAD** — Mudkip ♂ (Lv. 15, `41/41 HP`, `37 EXP` to Lv. 16, Water, `Torrent`, Stats: `41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
