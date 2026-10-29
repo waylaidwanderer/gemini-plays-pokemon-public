@@ -3619,6 +3619,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Central Ridge Southern Termination & Collision: The vertical cliff ridge extends east to (27, 37), blocking direct southbound movement at (27, 36). The clear bypass routes East along row 35 across cols 28..30 into the wide open eastern sea corridor.
 - Visual Mechanic (Animated Wave Shadows): Regular ocean water has moving diagonal wave shadows. Genuine dive trenches are static, solid dark indigo formations.
 - Wingull (Lv 13, Water/Flying) - Confirmed on Turn 16869 in deep water at (27, 36); fled on turn 1.
+- Swimmer ♂ Sighted: Swimmer with blue cap and goggles sighted at (36, 33) east of the Diamond Sandbar.
+- Eastern Bypass Highway: Column 31+ provides an open deep water highway heading south, bypassing the Ripple Rock chain (cols 28..30) to the east and the Swimmer (col 36) to the west.
 
 <hr>
 
