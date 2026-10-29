@@ -73,12 +73,12 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MIDAS** — Meowth ♂ (Lv. 16, `27/39 HP`, Normal, `Limber`, Stats: `39 HP / 25 Atk / 16 Def / 22 SpA / 18 SpD / 34 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Caught on Route 102.
-2. **TERRA** — Cubone ♀ (Lv. 16, `43/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
+1. **PSYCHE** — Butterfree ♀ (Lv. 15, `47/47 HP`, Bug/Flying, `CompoundEyes`, Stats: `47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
+2. **LUMINA** — Illumise ♀ (Lv. 15, `48/48 HP`, Bug, `Oblivious`, Stats: `48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
 3. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
-4. **LUMINA** — Illumise ♀ (Lv. 15, `43/48 HP`, Bug, `Oblivious`, Stats: `48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
+4. **TERRA** — Cubone ♀ (Lv. 16, `39/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 5. **NAIAD** — Mudkip ♂ (Lv. 15, `41/41 HP`, Water, `Torrent`, Stats: `41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-6. **PSYCHE** — Butterfree ♀ (Lv. 15, `43/47 HP`, Bug/Flying, `CompoundEyes`, Stats: `47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
+6. **MIDAS** — Meowth ♂ (Lv. 16, `39/39 HP`, Normal, `Limber`, Stats: `39 HP / 25 Atk / 16 Def / 22 SpA / 18 SpD / 34 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
