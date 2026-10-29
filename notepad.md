@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Marshtomp ♀ | MARSHTOMP | 16 | Active | Starter received on Route 101 (Quiet [`+SpA, -Spd`], female `12.5%` — immune to female `Cute Charm` / `Attract`; evolved into Marshtomp and learned `Mud Shot` at Lv. 16) |
+| Route 101 | Marshtomp ♀ | MARSHTOMP | 16 | Fallen (Turn 4423) | Starter received on Route 101; fell in Rustboro Gym to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain`) after dropping `Yanma` to `~11/34 HP` with `Torrent` `Water Gun` |
 | Route 103 | Hoppip ♀ | SYLPH | 16 | Active | Caught at `(11, 14)` (`42 HP / 17 Atk / 17 Def / 16 SpA / 24 SpD / 22 Spd`, Grass/Flying, Moves: `Confusion`, `Stun Spore` [Lv. 15], `Mega Drain`, `Aerial Ace` [Lv. 16]) |
 | Route 102 | Meowth ♀ | BASTET | 16 | Active | Caught at `(37, 5)` (`41 HP / 23 Atk / 20 Def / 18 SpA / 20 SpD / 34 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12], `Bite` [Lv. 16]) |
 | Route 104 (South) | Drowzee ♂ | HYPNOS | 16 | Active | Caught at `(24, 60)` (`50 HP / 21 Atk / 22 Def / 18 SpA / 38 SpD / 23 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
@@ -78,7 +78,7 @@
 3. **NOCTUA** — Hoothoot ♂ (Lv. 16, `47/47 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `47 HP / 15 Atk / 17 Def / 18 SpA / 22 SpD / 21 Spd`, Moves: `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
 4. **BASTET** — Meowth ♀ (Lv. 16, `41/41 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `41 HP / 23 Atk / 20 Def / 18 SpA / 20 SpD / 34 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Caught on Route 102.
 5. **TYPHON** — Grimer ♂ (Lv. 16, `0/52 HP` — **FALLEN Turn 4419 vs School Kid Tammy's Lv. 11 Yanma**, must be deposited in PC Graveyard after battle).
-6. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `51/51 HP`, Water/Ground, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `51 HP / 32 Atk / 27 Def / 30 SpA / 27 SpD / 19 Spd` [`54 EXP` to Lv. 17], Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+6. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `0/51 HP` — **FALLEN Turn 4423 vs School Kid Tammy's Lv. 11 Yanma**, must be deposited in PC Graveyard after battle).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -359,6 +359,7 @@
 - **Deaths:**
   - **TYPHON** (Grimer ♂, Lv. 16, `52 HP`, Timid, `Poison Point`, `Acid`, `Sludge Bomb`, `Lick`, `Disable`) — Died on Turn 4419 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain` critical hit `10 damage` through `0.5x` Poison resistance on switch-in from `18/52 HP`, followed by `Aerial Ace` from `8/52 HP`).
     - **Lesson:** School Kid Tammy's `Lv. 11 Yanma` knows all 4 moves `Giga Drain`, `Silver Wind`, `AncientPower`, and `Aerial Ace` (`60 BP STAB Physical Flying`).
+  - **MARSHTOMP** (Marshtomp ♀, Lv. 16, `51 HP`, Quiet, `Torrent`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 4423 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain` from `5/51 HP`) after tanking Turn 1 `Giga Drain` (`40 -> 5/51 HP`) and blasting `Yanma` down to `~11/34 HP` with `Torrent` `Water Gun` while locking `Yanma` into `Giga Drain` (`+0` omni-boosts).
 
 <hr>
 
