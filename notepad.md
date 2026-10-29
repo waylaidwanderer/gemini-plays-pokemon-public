@@ -3763,12 +3763,10 @@ A rocket launch complex and space research facility located on the highest easte
   - Computer terminals along rows 4..5.
   - Grunt 1 (Female): Located near (12, 8) facing West.
   - Grunt 2: Located near (11, 5) facing Left.
-## Discovered Topography & Navigation - 2F
-- Arrival / Stair Landing: Warp from 1F stairs lands player at (13, 2) facing South.
-- 3-Grunt Gauntlet: Player is immediately surrounded at (13, 2) upon arrival by three Team Magma Grunts:
-  - Left Grunt at (12, 2) facing East.
-  - Right Grunt at (14, 2) facing West.
-  - Bottom Grunt at (13, 3) facing North.
+- Staircase to 2F (Verified Turn 16638):
+  - Grunt 4 defeated and standing at (13, 3).
+  - Player is at (13, 2) directly in front of the staircase at (13, 1).
+  - Stepping Up from (13, 2) ascends to 2F.
 
 <hr>
 
