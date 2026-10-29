@@ -3786,9 +3786,11 @@ A rocket launch complex and space research facility located on the highest easte
     - Admin Tabitha: Positioned at (0, 8) facing East.
     - Leader Maxie: Positioned at (1, 9) facing North.
     - Approached from (1, 7) facing South along the column 1 corridor.
-- Climax Multi-Battle (Active Turn 16684):
-  - Allies: Player (Sage Lv 55, Lilz Lv 28, Guava Lv 28) & Steven Stone (Metagross Lv 44, Skarmory Lv 43, Aggron Lv 44).
-  - Opponents: Team Magma Leader Maxie (Mightyena Lv 42, Crobat Lv 43, Camerupt Lv 44) & Magma Admin Tabitha (Camerupt Lv 36, Mightyena Lv 38, Golbat Lv 40).
+- Climax Multi-Battle (CLEARED Turn 16729):
+  - Allies: Player (Sage Lv 56, Lilz Lv 28, Guava Lv 28) & Steven Stone (Metang Lv 42).
+  - Opponents: Team Magma Leader Maxie & Admin Tabitha (DEFEATED! Prize: ¥5,120).
+  - Story Resolution: Team Magma's plot to steal rocket fuel and erupt Mt. Chimney was thwarted. Team Magma retreated from Mossdeep City.
+  - Next Objective: Visit Steven Stone at his house on the northwest bluff of Mossdeep City to receive HM08 Dive!
 
 <hr>
 
