@@ -59,7 +59,7 @@
 1. **MUDKIP** — Mudkip ♂ (Lv. 13, `29/37 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 13: `37 HP / 20 Atk / 18 Def / 19 SpA / 20 SpD / 20 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SOLARIS** — Sunflora ♂ (Lv. 15, `50/50 HP`, Grass, `Chlorophyll`, Relaxed, holds `Oran Berry`, Stats at Lv. 15: `50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd`, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
 3. **VALKYRIE** — Farfetch'd ♀ (Lv. 15, `41/43 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 15: `43 HP / 34 Atk / 22 Def / 26 SpA / 25 SpD / 24 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`) — Caught on Route 102.
-4. **STRIX** — Hoothoot ♂ (Lv. 7, Normal/Flying) — Caught on Route 104 South.
+4. **STRIX** — Hoothoot ♂ (Lv. 13, `39/39 HP`, Normal/Flying, holds `Oran Berry`, Moves: `Tackle`/`Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
