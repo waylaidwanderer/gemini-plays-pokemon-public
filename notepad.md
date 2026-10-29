@@ -3606,6 +3606,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Wild Encounters (Surfing)
 - Tentacool (Lv 35, Water/Poison) - Confirmed on Turn 16846 in deep water; fled on turn 1.
 - Sandbar Reef 2 Sighted: Shallow tidal flat sighted at cols 33+, rows 14+ southeast of Sandbar Reef 1. Column 29 provides an unobstructed central channel between the two reefs.
+- Deep Ocean Dive Trench Sighted: Dark indigo dive trench sighted at (29, 17+) directly south along the column 29 central channel.
 
 <hr>
 
