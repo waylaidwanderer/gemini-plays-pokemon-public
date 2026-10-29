@@ -29,4 +29,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Sandbar Reef 2 Sighted: Shallow tidal flat sighted at cols 33+, rows 14+ southeast of Sandbar Reef 1. Column 29 provides an unobstructed central channel between the two reefs.
 - Sea Rock 2: Small grey sea rock with circular water ripples located at (29, 17). Bypassed to the west via cols 26..28.
 - Sea Rock 3: Small grey sea rock with circular water ripples located at (29, 21) south of Sea Rock 2.
-- Dark Water Dive Trench (Confirmed): Located at cols 25..28, rows 20+ directly south along column 27.
+- Central Ocean Channel: Columns 25..28 at rows 20..25 form an open water channel leading south between the western island (cols 18..22) and eastern shallow reef (cols 31+). B-button test confirmed row 21 is regular water, not a dive trench.
