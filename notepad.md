@@ -3623,6 +3623,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Eastern Bypass Highway: Column 31+ provides an open deep water highway heading south, bypassing the Ripple Rock chain (cols 28..30) to the east and the Swimmer (col 36) to the west.
 - Southern Boundary (Route 129 Transition): Route 128's southern boundary at col 32 is at row 41/42, connecting directly into Route 129.
 - Strategic Routing: Route 128 extends broadly to the EAST toward Ever Grande City. Seafloor Cavern's dive trench lies in the eastern/central expanse of Route 128. Exploring eastward from rows 35..38.
+- Tentacool (Lv 29, Water/Poison) - Confirmed on Turn 16882 in deep water at (35, 37); fled on turn 1.
 
 <hr>
 
