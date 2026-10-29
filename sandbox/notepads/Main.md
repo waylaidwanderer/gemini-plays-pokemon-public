@@ -58,6 +58,7 @@
 ## Active Party
 1. **POSEIDON** — Mudkip ♂ (Lv. 11, `35/35 HP`, Water, `Torrent`, Stats at Lv. 11: `35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **ZEPHYR** — Wingull ♂ (Lv. 4, Water/Flying, `Keen Eye`, Moves: `Water Gun`, `Wing Attack`, `Quick Attack`) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
+3. **TALOS** — Sandshrew ♂ (Lv. 6, Ground, `Sand Veil`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
