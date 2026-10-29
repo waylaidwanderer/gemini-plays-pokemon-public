@@ -7,7 +7,7 @@
 
 ## Party
 1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 171/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 127, Def 93, Sp.Atk 139, Sp.Def 124, Speed 167.
-2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 80/80. Max HP: 80. Status: OK.
+2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 71/71. Max HP: 71. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 35/35. Max HP: 35. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
@@ -177,14 +177,24 @@
 11. [x] Obtain Devon Scope from Steven on Route 120 and clear Kecleon blocking Fortree Gym.
 12. [x] Defeat Gym Leader Winona for Gym 6 (Feather Badge)!
 
-## Progression Checklist - Phase 11: Route 120, Route 121 & Lilycove City (Active)
+## Progression Checklist - Phase 11: Lilycove City & Mossdeep Gym (Completed)
 1. [x] Heal party and set checkpoint at Fortree Pokémon Center.
 2. [x] Teach HM02 Fly to Guava (Tropius)!
 3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM27 Return)!
-4. [x] Traverse Route 120 east and south toward Route 121 (entered Route 121!).
-5. [ ] Explore Route 121 and Safari Zone entrance.
-6. [x] Arrive in Lilycove City and heal at Pokémon Center (Confirmed healed Turn 13328!).
-7. [ ] Confront Team Aqua/Magma events and advance toward Mossdeep Gym (Gym 7)!
+4. [x] Traverse Route 120 east and south toward Route 121.
+5. [x] Arrive in Lilycove City and heal at Pokémon Center.
+6. [x] Infiltrate Team Aqua Hideout, obtain Master Ball, and defeat Admin Matt.
+7. [x] Surf across Route 124 to Mossdeep City.
+8. [x] Defeat Gym Leaders Tate & Liza for Gym 7 (Mind Badge)!
+9. [x] Defeat Team Magma at Mossdeep Space Center with Steven Stone.
+10. [x] Obtain HM08 Dive from Steven Stone and teach to Lombre (Lilz).
+
+## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Active)
+1. [ ] Surf south from Mossdeep City onto Route 127 and Route 128.
+2. [ ] Locate underwater trench on Route 128 and use Dive.
+3. [ ] Infiltrate Seafloor Cavern, navigate boulder puzzles, and confront Team Aqua.
+4. [ ] Prevent Archie from using the Red Orb to awaken Kyogre!
+
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
 - Department Store 2F Clerk Inventory Distinction: In Lilycove Department Store 2F, the Left Clerk at (7, 6) specializes exclusively in Poké Balls (Poke, Great, Ultra) and Status Heals/Recovery items (Full Heal, Antidote, Parlyz Heal, Burn Heal, Ice Heal, Awakening, Escape Rope, Fluffy Tail). The Right Clerk at (10, 6) specializes in HP restoration (Potion, Super Potion, Hyper Potion, Max Potion), Revives, and Repels (Repel, Super Repel, Max Repel).
