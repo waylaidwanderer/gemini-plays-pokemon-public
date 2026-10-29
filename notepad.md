@@ -73,12 +73,12 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **LUMINA** — Illumise ♀ (Lv. 15, `43/48 HP`, Bug, `Oblivious`, Stats: `48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
-2. **AQUILA** — Spearow ♂ (Lv. 15, `40/40 HP`, Normal/Flying, `Keen Eye`, Stats: `40 HP / 26 Atk / 16 Def / 15 SpA / 17 SpD / 27 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
+1. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
+2. **PSYCHE** — Butterfree ♀ (Lv. 15, `47/47 HP`, Bug/Flying, `CompoundEyes`, Stats: `47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
 3. **MIDAS** — Meowth ♂ (Lv. 15, `37/37 HP`, Normal, `Limber`, holding `Oran Berry`, Stats: `37 HP / 23 Atk / 15 Def / 21 SpA / 18 SpD / 32 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
-4. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
+4. **LUMINA** — Illumise ♀ (Lv. 15, `43/48 HP`, Bug, `Oblivious`, Stats: `48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
 5. **NAIAD** — Mudkip ♂ (Lv. 15, `39/41 HP`, Water, `Torrent`, Stats: `41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-6. **PSYCHE** — Butterfree ♀ (Lv. 15, `47/47 HP`, Bug/Flying, `CompoundEyes`, Stats: `47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
+6. **AQUILA** — Spearow ♂ (Lv. 15, `33/40 HP`, Normal/Flying, `Keen Eye`, Stats: `40 HP / 26 Atk / 16 Def / 15 SpA / 17 SpD / 27 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
