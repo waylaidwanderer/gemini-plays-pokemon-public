@@ -7,7 +7,7 @@
 | Route 101 | Marshtomp ♀ | MARSHTOMP | 16 | Fallen (Turn 4423) | Starter received on Route 101; fell in Rustboro Gym to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain`) after dropping `Yanma` to `~11/34 HP` with `Torrent` `Water Gun` |
 | Route 103 | Hoppip ♀ | SYLPH | 16 | Active | Caught at `(11, 14)` (`42 HP / 17 Atk / 17 Def / 16 SpA / 24 SpD / 22 Spd`, Grass/Flying, Moves: `Confusion`, `Stun Spore` [Lv. 15], `Mega Drain`, `Aerial Ace` [Lv. 16]) |
 | Route 102 | Meowth ♀ | BASTET | 16 | Fallen (Turn 4425) | Caught at `(37, 5)`; fell in Rustboro Gym to School Kid Tammy's `Lv. 11 Yanma` from `13/41 HP` |
-| Route 104 (South) | Drowzee ♂ | HYPNOS | 16 | Active | Caught at `(24, 60)` (`50 HP / 21 Atk / 22 Def / 18 SpA / 38 SpD / 23 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
+| Route 104 (South) | Drowzee ♂ | HYPNOS | 16 | Fallen (Turn 4429) | Caught at `(24, 60)`; chipped Tammy's `Lv. 15 Rhyhorn` to `~33/49 HP` (`>50% HP`) with `Seismic Toss` before falling to `Rock Tomb` |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 16 | Fallen (Turn 4428) | Caught at `(23, 35)`; KO'd Tammy's `Lv. 11 Yanma` at `1/47 HP`, then fell to `Lv. 15 Rhyhorn` (`Rock Tomb`) after `Hypnosis` missed |
 | Route 116 | Grimer ♂ | TYPHON | 16 | Fallen (Turn 4419) | Caught at `(4, 13)`; fell in Rustboro Gym to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain` critical hit + `Aerial Ace`) |
 
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **HYPNOS** — Drowzee ♂ (Lv. 16, `50/50 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `50 HP / 21 Atk / 22 Def / 18 SpA / 38 SpD / 23 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
+1. **HYPNOS** — Drowzee ♂ (Lv. 16, `0/50 HP` — **FALLEN Turn 4429 vs School Kid Tammy's Lv. 15 Rhyhorn**).
 2. **SYLPH** — Hoppip ♀ (Lv. 16, `42/42 HP`, Grass/Flying, Stats: `42 HP / 17 Atk / 17 Def / 16 SpA / 24 SpD / 22 Spd`, Moves: `Confusion`, `Stun Spore`, `Mega Drain`, `Aerial Ace`) — Caught on Route 103.
 3. **NOCTUA** — Hoothoot ♂ (Lv. 16, `0/47 HP` — **FALLEN Turn 4428 vs School Kid Tammy's Lv. 15 Rhyhorn**).
 4. **BASTET** — Meowth ♀ (Lv. 16, `0/41 HP` — **FALLEN Turn 4425 vs School Kid Tammy's Lv. 11 Yanma**).
@@ -362,6 +362,7 @@
   - **MARSHTOMP** (Marshtomp ♀, Lv. 16, `51 HP`, Quiet, `Torrent`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 4423 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain` from `5/51 HP`) after tanking Turn 1 `Giga Drain` (`40 -> 5/51 HP`) and blasting `Yanma` down to `~11/34 HP` with `Torrent` `Water Gun` while locking `Yanma` into `Giga Drain` (`+0` omni-boosts).
   - **BASTET** (Meowth ♀, Lv. 16, `41 HP`, Serious, `Limber`, `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Died on Turn 4425 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` from `13/41 HP`.
   - **NOCTUA** (Hoothoot ♂, Lv. 16, `47 HP`, Naughty, `Keen Eye`, `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Died on Turn 4428 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` (`Rock Tomb` from `1/47 HP` after `Hypnosis` missed).
+  - **HYPNOS** (Drowzee ♂, Lv. 16, `50 HP`, Impish, `Insomnia`, `Confusion`, `Hypnosis`, `Seismic Toss`) — Died on Turn 4429 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` (`Rock Tomb` from `10/50 HP`) after chipping `Rhyhorn` down to `~33/49 HP` (`>50% HP`) with `Seismic Toss` so `SYLPH`'s 4x SE `Mega Drain` could OHKO without triggering any held Berry.
 
 <hr>
 
