@@ -19,9 +19,15 @@ A rocket launch complex and space research facility located on the highest easte
   - Rocket blueprint drafting tables at (2..3, 3..4) and (4..5, 3..4).
   - Stools at (2, 5), (4, 5), (6, 4).
   - Civilian NPCs: Old man at (1, 4), woman at (0, 6), sailor at (1, 7), scientist at (3, 0).
+- North Observation Corridor (row 2, cols 0..14):
+  - Row 1 is the northern wall sill below the observation windows.
+  - Row 2 is the clear horizontal walkway along the north wall.
+  - Row 3 has round pink stools at cols 2, 5, 9, 12.
+  - Grunt 3: Stationed at (10, 2) facing South.
+  - Grunt 4: Stationed at (13, 2) facing South directly guarding the stairs to 2F.
+  - Stairs to 2F: Located at cols 13..15, rows 0..1 behind Grunt 4.
 - East Wing (cols 9..14):
   - Drafting tables at (10..11, 5..6) and (12..13, 5..6).
-  - Computer terminals along north wall at cols 10..15, rows 1..2.
-  - Team Magma Grunts stationed on 1F:
-    - Grunt 1 (Female): Located near (11..12, 8) facing West.
-    - Grunt 2: Located near (11, 4) facing South.
+  - Computer terminals along rows 4..5.
+  - Grunt 1 (Female): Located near (12, 8) facing West.
+  - Grunt 2: Located near (11, 5) facing Left.
