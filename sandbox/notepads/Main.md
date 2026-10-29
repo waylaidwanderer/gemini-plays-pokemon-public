@@ -56,10 +56,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TERRA** — Cubone ♀ (Lv. 16, `40/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
-2. **AQUILA** — Spearow ♂ (Lv. 13, `21/36 HP`, Normal/Flying, `Keen Eye`, holding `Oran Berry`, Stats: `36 HP / 23 Atk / 15 Def / 13 SpA / 15 SpD / 24 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
-3. **MIDAS** — Meowth ♂ (Lv. 12, `32/32 HP`, Normal, `Limber`, Stats: `32 HP / 19 Atk / 13 Def / 18 SpA / 15 SpD / 27 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
-4. **NAIAD** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, holding `Oran Berry`, Stats: `32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **NAIAD** — Mudkip ♂ (Lv. 14, `22/39 HP`, Water, `Torrent`, holding `Oran Berry`, Stats: `39 HP / 30 Atk / 20 Def / 19 SpA / 22 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+2. **AQUILA** — Spearow ♂ (Lv. 13, `14/36 HP`, Normal/Flying, `Keen Eye`, Stats: `36 HP / 23 Atk / 15 Def / 13 SpA / 15 SpD / 24 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
+3. **MIDAS** — Meowth ♂ (Lv. 14, `10/35 HP`, Normal, `Limber`, Stats: `35 HP / 22 Atk / 14 Def / 20 SpA / 17 SpD / 30 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
+4. **TERRA** — Cubone ♀ (Lv. 16, `29/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
