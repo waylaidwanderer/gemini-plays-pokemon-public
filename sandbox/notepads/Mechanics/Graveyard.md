@@ -261,4 +261,6 @@
 ---
 
 ## Attempt #17 (Starting Turn 4083)
-- **Deaths:** None
+- **Deaths:**
+  - **TYPHON** (Grimer ♂, Lv. 16, `52 HP`, Timid, `Poison Point`, `Acid`, `Sludge Bomb`, `Lick`, `Disable`) — Died on Turn 4419 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain` critical hit `10 damage` through `0.5x` Poison resistance on switch-in from `18/52 HP`, followed by `Aerial Ace` from `8/52 HP`).
+    - **Lesson:** School Kid Tammy's `Lv. 11 Yanma` knows all 4 moves `Giga Drain`, `Silver Wind`, `AncientPower`, and `Aerial Ace` (`60 BP STAB Physical Flying`).
