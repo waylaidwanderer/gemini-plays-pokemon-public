@@ -57,7 +57,7 @@
 
 ## Active Party
 1. **NAIAD** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats: `32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **AQUILA** — Spearow ♂ (Lv. 4, Normal/Flying, `Keen Eye`, Moves: `Peck`, `Pursuit`) — Caught on Route 103.
+2. **AQUILA** — Spearow ♂ (Lv. 11, `32/32 HP`, Normal/Flying, `Keen Eye`, Stats: `32 HP / 21 Atk / 13 Def / 12 SpA / 13 SpD / 21 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`) — Caught on Route 103.
 3. **MIDAS** — Meowth ♂ (Lv. 6, Normal, `Limber`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
