@@ -280,4 +280,6 @@
 ---
 
 ## Attempt #18 (Starting Turn 4431)
-- **Deaths:** None
+- **Deaths:**
+  - **MIDAS** (Meowth ♂, Lv. 16, `39 HP`, Normal, `Limber`, `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Died on Turn 4820 at `(39, 10)` entering Rustboro City from Route 116 to overworld Poison (`PSN`) ticks (`4 -> 0/39 HP`).
+    - **Root Cause & Tactical Rule:** After a context summarization boundary on Turn 4820, we saw we were at `(12, 5)` on Route 116 and assumed `MIDAS`'s poison had already been cured before walking there on Turn 4818, instead of checking `Start -> POKéMON` in-game before taking 16 steps into Rustboro City. **Rule:** Always verify party HP and status in-game after a context summarization boundary or before walking when `<CurrentObjectives>` mentions an active status condition.

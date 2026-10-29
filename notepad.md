@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | NAIAD | 15 | Active | Starter received on Route 101 (`41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd` at Lv. 15) |
 | Route 103 | Spearow ♂ | AQUILA | 16 | Active | Caught at `(11, 14)` (`42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd` at Lv. 16, Normal/Flying, `Keen Eye`, Moves: `Peck`, `Pursuit`, `Tackle` [Lv. 7], `Secret Power` [Lv. 13]) |
-| Route 102 | Meowth ♂ | MIDAS | 16 | Active | Caught at `(38, 5)` (`39 HP / 25 Atk / 16 Def / 22 SpA / 18 SpD / 34 Spd` at Lv. 16, Normal, `Limber`, Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12], `Bite` [Lv. 16]) |
+| Route 102 | Meowth ♂ | MIDAS | 16 | Deceased | Caught at `(38, 5)`; fainted to overworld poison ticks on Turn 4820 |
 | Route 104 (South) | Cubone ♀ | TERRA | 16 | Active | Caught at `(22, 61)` (`45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd` at Lv. 16, Ground, Moves: `Bone Club`, `Rock Throw`, `Secret Power` [Lv. 9], `Headbutt` [Lv. 13]) |
 | Petalburg Woods | Illumise ♀ | LUMINA | 16 | Active | Caught at `(23, 35)` (`51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd` at Lv. 16, 400 BST Bug, `Oblivious`, Moves: `Moonlight` [Lv. 13], `Thunder Wave`, `Seismic Toss` [Lv. 11], `Silver Wind` [Lv. 9]) |
 | Route 116 | Butterfree ♀ | PSYCHE | 16 | Active | Caught at `(5, 12)` (`49 HP / 23 Atk / 22 Def / 36 SpA / 31 SpD / 30 Spd` at Lv. 16, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace` [Lv. 15], `Supersonic` [Lv. 14], `Confusion` [Lv. 10], `PoisonPowder` [Lv. 13]) |
@@ -78,7 +78,7 @@
 3. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
 4. **TERRA** — Cubone ♀ (Lv. 16, `39/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 5. **NAIAD** — Mudkip ♂ (Lv. 15, `27/41 HP`, Water, `Torrent`, Stats: `41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-6. **MIDAS** — Meowth ♂ (Lv. 16, `24/39 HP`, Normal, `Limber`, Stats: `39 HP / 25 Atk / 16 Def / 22 SpA / 18 SpD / 34 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Caught on Route 102.
+6. **MIDAS** — Meowth ♂ (Lv. 16, DECEASED — fainted to overworld poison ticks at `(39, 10)` on Turn 4820 after context summarization) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -375,7 +375,9 @@
 ---
 
 ## Attempt #18 (Starting Turn 4431)
-- **Deaths:** None
+- **Deaths:**
+  - **MIDAS** (Meowth ♂, Lv. 16, `39 HP`, Normal, `Limber`, `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Died on Turn 4820 at `(39, 10)` entering Rustboro City from Route 116 to overworld Poison (`PSN`) ticks (`4 -> 0/39 HP`).
+    - **Root Cause & Tactical Rule:** After a context summarization boundary on Turn 4820, we saw we were at `(12, 5)` on Route 116 and assumed `MIDAS`'s poison had already been cured before walking there on Turn 4818, instead of checking `Start -> POKéMON` in-game before taking 16 steps into Rustboro City. **Rule:** Always verify party HP and status in-game after a context summarization boundary or before walking when `<CurrentObjectives>` mentions an active status condition.
 
 <hr>
 
