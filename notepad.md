@@ -3786,6 +3786,9 @@ A rocket launch complex and space research facility located on the highest easte
     - Admin Tabitha: Positioned at (0, 8) facing East.
     - Leader Maxie: Positioned at (1, 9) facing North.
     - Approached from (1, 7) facing South along the column 1 corridor.
+- Climax Multi-Battle (Active Turn 16684):
+  - Allies: Player (Sage Lv 55, Lilz Lv 28, Guava Lv 28) & Steven Stone (Metagross Lv 44, Skarmory Lv 43, Aggron Lv 44).
+  - Opponents: Team Magma Leader Maxie (Mightyena Lv 42, Crobat Lv 43, Camerupt Lv 44) & Magma Admin Tabitha (Camerupt Lv 36, Mightyena Lv 38, Golbat Lv 40).
 
 <hr>
 
