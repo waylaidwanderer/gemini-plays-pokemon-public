@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | NAIAD | 11 | Active | Starter received on Route 101 (`32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd` at Lv. 11) |
 | Route 103 | Spearow ♂ | AQUILA | 11 | Active | Caught at `(11, 14)` (`32 HP / 21 Atk / 13 Def / 12 SpA / 13 SpD / 21 Spd` at Lv. 11, Normal/Flying, `Keen Eye`, Moves: `Peck`, `Pursuit`, `Tackle` [Lv. 7]) |
-| Route 102 | Meowth ♂ | MIDAS | 6 | Active | Caught at `(38, 5)` (Normal, `Limber`, Moves: `Pay Day`, `Faint Attack`) |
+| Route 102 | Meowth ♂ | MIDAS | 12 | Active | Caught at `(38, 5)` (`32 HP / 19 Atk / 13 Def / 18 SpA / 15 SpD / 27 Spd` at Lv. 12, Normal, `Limber`, Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12]) |
 
 <hr>
 
@@ -70,9 +70,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **NAIAD** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats: `32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **AQUILA** — Spearow ♂ (Lv. 11, `32/32 HP`, Normal/Flying, `Keen Eye`, Stats: `32 HP / 21 Atk / 13 Def / 12 SpA / 13 SpD / 21 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`) — Caught on Route 103.
-3. **MIDAS** — Meowth ♂ (Lv. 6, Normal, `Limber`, Moves: `Pay Day`, `Faint Attack`) — Caught on Route 102.
+1. **AQUILA** — Spearow ♂ (Lv. 11, `32/32 HP`, Normal/Flying, `Keen Eye`, Stats: `32 HP / 21 Atk / 13 Def / 12 SpA / 13 SpD / 21 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`) — Caught on Route 103.
+2. **NAIAD** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats: `32 HP / 25 Atk / 17 Def / 16 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+3. **MIDAS** — Meowth ♂ (Lv. 12, `32/32 HP`, Normal, `Limber`, Stats: `32 HP / 19 Atk / 13 Def / 18 SpA / 15 SpD / 27 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
