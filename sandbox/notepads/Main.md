@@ -56,12 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **HYPNOS** — Drowzee ♂ (Lv. 16, `0/50 HP` — **FALLEN Turn 4429 vs School Kid Tammy's Lv. 15 Rhyhorn**).
-2. **SYLPH** — Hoppip ♀ (Lv. 16, `42/42 HP`, Grass/Flying, Stats: `42 HP / 17 Atk / 17 Def / 16 SpA / 24 SpD / 22 Spd`, Moves: `Confusion`, `Stun Spore`, `Mega Drain`, `Aerial Ace`) — Caught on Route 103.
-3. **NOCTUA** — Hoothoot ♂ (Lv. 16, `0/47 HP` — **FALLEN Turn 4428 vs School Kid Tammy's Lv. 15 Rhyhorn**).
-4. **BASTET** — Meowth ♀ (Lv. 16, `0/41 HP` — **FALLEN Turn 4425 vs School Kid Tammy's Lv. 11 Yanma**).
-5. **TYPHON** — Grimer ♂ (Lv. 16, `0/52 HP` — **FALLEN Turn 4419 vs School Kid Tammy's Lv. 11 Yanma**, must be deposited in PC Graveyard after battle).
-6. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `0/51 HP` — **FALLEN Turn 4423 vs School Kid Tammy's Lv. 11 Yanma**, must be deposited in PC Graveyard after battle).
+- *(None yet — starting Attempt #18)*
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
