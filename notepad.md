@@ -1,15 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #19)
+# Route & Area Encounters (Attempt #20)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Marshtomp ♂ | MARSHTOMP | 17 | Boxed (Over Cap) | Starter received on Route 101, evolved into `Marshtomp` at Lv. 16 (`50 HP / 28 Atk / 27 Def / 25 SpA / 30 SpD / 27 Spd`, `+Speed` nature, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`); boxed at Lv. 17 after Hiker Marc until Roxanne is defeated |
-| Route 103 | Sunflora ♂ | SOLARIS | 17 | Boxed (Over Cap) | Caught as `Sunkern` at `(12, 15)` on Route 103, leveled to Lv. 13 (`Growth`, `Mega Drain`), evolved via wild-held `Sun Stone`, and learned `Synthesis` at Lv. 16; boxed at Lv. 17 after Hiker Marc until Roxanne is defeated |
-| Route 102 | Farfetch'd ♀ | VALKYRIE | 17 | Boxed (Over Cap) | Caught at `(38, 5)` on Route 102 (`45 HP / 36 Atk / 23 Def / 28 SpA / 26 SpD / 25 Spd` at Lv. 16, Hardy, `Keen Eye`, **held `Stick` in the wild!**, Moves: `Peck`, `Sand-Attack`, `False Swipe` [Lv. 11], `Quick Attack` [Lv. 16]); boxed at Lv. 17 after School Kid Tammy until Roxanne is defeated |
-| Route 104 (South) | Hoothoot ♂ | STRIX | 17 | Boxed (Over Cap) | Caught at `(24, 60)` on Route 104 South (`46 HP / 15 Atk / 15 Def / 21 SpA / 25 SpD / 22 Spd` at Lv. 16, Normal/Flying, Moves: `Hypnosis` [Lv. 16], `Peck`, `Confusion`, `Aerial Ace` [Lv. 11]); boxed at Lv. 17 after Hiker Marc until Roxanne is defeated |
-| Petalburg Woods | Gloom ♀ | HEMLOCK | 16 | Active | Caught as `Oddish` at `(23, 35)` in Petalburg Woods, evolved into `Gloom` at Lv. 16 (`48 HP / 24 Atk / 34 Def / 33 SpA / 32 SpD / 21 Spd`, Bold [`+Def, -Atk`], `Chlorophyll`, Moves: `Mega Drain`, `Acid`, `Toxic` [Lv. 14], `Magical Leaf` [Lv. 16]) |
-| Route 116 | Grimer ♀ | — | 9 | Fainted (Memento) | Encountered at `(5, 12)`, weakened to ~28% yellow HP with `VALKYRIE`'s `False Swipe` on Turn 1, broke out of a Poké Ball on Turn 2 and immediately used `Memento` to faint itself |
 
 <hr>
 
@@ -20,7 +14,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #19
+- **Attempt:** #20
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -385,7 +379,26 @@
 
 ---
 
-## Attempt #19 (Starting Turn 4937)
+## Attempt #19 (Starting Turn 4937) — WIPEOUT (Turn 5196)
+- **Deaths:**
+  - **HEMLOCK** (Gloom ♀, Lv. 17, `50 HP`, Bold [`+Def, -Atk`], `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`, `Magical Leaf`, held `Oran Berry`) — Died on Turn 5196 in Rustboro Gym `(5, 3)` against Gym Leader Roxanne's 2nd Pokémon, `Lv. 15 Lunatone` (`Confusion`), from `16/50 HP` (and `PAR`) right after surviving lead `Lv. 15 Nosepass`'s 200-BP `Selfdestruct` at `4/48 HP` — **TOTAL USABLE PARTY WIPEOUT (Attempt #19 Over; all 4 other teammates `VALKYRIE` [Lv. 17 Farfetch'd], `SOLARIS` [Lv. 17 Sunflora], `MARSHTOMP` [Lv. 17 Marshtomp], and `STRIX` [Lv. 17 Hoothoot] had exceeded the Lv. 16 cap against School Kid Tammy and Hiker Marc and were boxed in `BOX 1`)**.
+- **Enemy Details (Gym Leader Roxanne at `(5, 2)` in Rustboro Gym):**
+  - Has **6 Pokémon**:
+    1. **Nosepass ♀ Lv. 15**: Holds `Sitrus Berry` (`+30 HP`), knows `Thunder Wave` and **`Selfdestruct` (`200 BP`)**; yields `346 EXP`.
+    2. **Lunatone Lv. 15**: `Rock/Psychic`, `Levitate`, knows STAB `Confusion` (2x SE vs Poison/Fighting).
+    3. **4 Remaining Pokémon (Unseen)**.
+- **Root Causes of Attempt #19 Wipe:**
+  1. **Rare-Candying Teammates (`SOLARIS`, `VALKYRIE`, `STRIX`, `MARSHTOMP`) to Level 16 BEFORE Route 104 North and the 3 Rustboro Gym Trainers:** Because 4 of our 5 teammates entered Rustboro Gym already at Level 16 (with only `227–666 EXP` left before Level 17), the `~3,700 EXP` from `School Kid Josh` (`1,110 EXP`), `School Kid Tammy` (`1,574 EXP`), and `Hiker Marc` (4 Pokémon: `Lv. 15 Onix`, `Lv. 14 Kabuto`, `Lv. 12 Cacnea`, `Lv. 12 Baltoy`, `~1,000 EXP`) pushed 4 of our 5 teammates (`VALKYRIE`, `SOLARIS`, `MARSHTOMP`, `STRIX`) to Level 17, forcing all 4 to be boxed before Gym Leader Roxanne.
+  2. **Forfeiting Our Route 116 Wild Encounter (`Lv. 9 Grimer`) to `Memento`:** Threw a `1.0x` Poké Ball instead of our `1.5x` Great Ball (or putting `Grimer` to sleep first), allowing `Grimer` to break out and faint itself with `Memento`.
+  3. **Facing Gym Leader Roxanne's 6-Pokémon Team (`Lv. 15 Nosepass` with `Selfdestruct` + `Lv. 15 Lunatone`) Solo with `HEMLOCK`:** Because `Lv. 15 Nosepass` uses `Thunder Wave` + 200-BP `Selfdestruct`, a solo Pokémon is left crippled in HP and Speed for `Lv. 15 Lunatone`.
+- **Tactical Rules for Attempt #20:**
+  1. **NEVER Rare-Candy ANY Pokémon to Level 16 Before Hiker Marc Is Defeated:** Keep all 6 party members at **Level 14–15.0** across Route 104 North and through all 3 mandatory Rustboro Gym trainers (`School Kid Josh`, `School Kid Tammy`, `Hiker Marc`). At Level 14–15.0, each Pokémon has `1,500–2,200 EXP` of room before Level 17 (`9,000+ EXP` across 6 Pokémon vs `~3,700 EXP` in Rustboro Gym), guaranteeing that **0 Pokémon reach Level 17** during the Gym trainers!
+  2. **Rare-Candy All 6 Teammates to Level 16.0 ONLY After Hiker Marc Is Defeated:** Once `Josh`, `Tammy`, and `Marc` are all defeated (0 trainers left before Roxanne!), use Rare Candies to bring every Level 15 teammate up to **Level 16.0** (evolving `Mudkip -> Lv. 16.0 Marshtomp` and `Oddish -> Lv. 16.0 Gloom` right before Roxanne!) so we challenge Gym Leader Roxanne with a **full 6-Pokémon Level 16 team**!
+  3. **Use Sleep + Great Ball on Route 116 (`Lv. 9 Grimer` Knows `Memento`):** Always put `Lv. 9 Grimer` (or any self-KO encounter) to sleep and/or use the Great Ball (`1.5x`) at low HP so we secure all 6 pre-Roxanne catches (`Route 101, 103, 102, 104 South, Petalburg Woods, Route 116`).
+
+---
+
+## Attempt #20 (Starting Turn 5197)
 - **Deaths:** None
 
 <hr>
