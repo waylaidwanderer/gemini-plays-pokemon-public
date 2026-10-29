@@ -3615,6 +3615,9 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Diamond Sandbar & Rock: Located at cols 29..34, rows 30..34 with a brown rock at center (31..32, 31..32) surrounded by diamond-shaped shallow tidal flats.
 - Central Ridge: Vertical cliff ridge extending along cols 24..25, rows 32..37+.
 - Channel 2: Column 27 provides an open water channel between the Central Ridge (col 25) and the Diamond Sandbar (col 29), heading straight South.
+- Ripple Rock Chain: A diagonal line of three grey rocks with water ripples at (28, 38), (30, 39), and (29, 41) southeast of Channel 2.
+- Central Ridge Southern Termination: The vertical cliff ridge ends at (25..26, 37). South of row 37, wide open deep water opens to the south and southwest across cols 18..27.
+- Visual Mechanic (Animated Wave Shadows): Regular ocean water has moving diagonal wave shadows. Genuine dive trenches are static, solid dark indigo formations.
 
 <hr>
 
