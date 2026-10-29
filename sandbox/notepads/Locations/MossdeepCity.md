@@ -69,3 +69,4 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 - Northwest Bluff Houses:
   - Northern House (Steven Stone's House): Located at cols 18..21, rows 7..9 on the northwest bluff. Red door is at (19, 9), entered stepping North from (19, 10).
   - Southern House: Located at cols 16..20, rows 14..16 on the northwest bluff.
+- Steven Stone's House Interior (Turn 16769): Spawns at (3, 7) on entrance mat facing North. Steven Stone stands at (3, 6) facing South. Speaking to Steven triggers the HM08 Dive gift event!
