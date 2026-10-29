@@ -26,3 +26,4 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Dark Water Dive Trench 1: Located at cols 24..27, rows 14..18+ extending south along the main navigation channel.
 - Sea Rock 2: Pointed brown rock located at (31, 16) east of the dive trench.
 - Sea Rock 3: Pointed rock at (20, 26) and rounded reef at (18..19, 27..28) west of the trench.
+- Trench & Western Cliff: Dark water trench continues uninterrupted past row 38 across cols 24..30+; western cliff island runs along cols 18..20.
