@@ -56,11 +56,12 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **HYPNOS** — Drowzee ♂ (Lv. 15, `47/47 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `47 HP / 20 Atk / 20 Def / 17 SpA / 36 SpD / 21 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
+1. **HYPNOS** — Drowzee ♂ (Lv. 15, `37/47 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `47 HP / 20 Atk / 20 Def / 17 SpA / 36 SpD / 21 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
 2. **NOCTUA** — Hoothoot ♂ (Lv. 15, `45/45 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `45 HP / 15 Atk / 16 Def / 17 SpA / 21 SpD / 20 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
 3. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `51/51 HP`, Water/Ground, Quiet [`+SpA, -Spd`], `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 4. **SYLPH** — Hoppip ♀ (Lv. 12, `34/34 HP`, Grass/Flying, holding `Oran Berry`, Stats: `34 HP / 14 Atk / 14 Def / 13 SpA / 19 SpD / 18 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 5. **BASTET** — Meowth ♀ (Lv. 15, `39/39 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `39 HP / 21 Atk / 19 Def / 17 SpA / 19 SpD / 33 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
+6. **TYPHON** — Grimer ♂ (Lv. 9, Poison, observed using `Lick`) — Caught on Route 116.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
