@@ -2,11 +2,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 54, Male), Nickname: SAGE
-- Status: MIND BADGE EARNED! Gym Leaders Tate & Liza defeated in official Double Battle! TM04 Calm Mind received, Tate & Liza registered in Match Call. Cipher evolved into Kadabra Lv 16! Sage reached Lv 55! Ready to stop Team Magma at the Mossdeep Space Center and obtain HM08 Dive.
+- Starter: Sceptile (Level 56, Male), Nickname: SAGE
+- Status: MIND BADGE EARNED! Gym Leaders Tate & Liza defeated! Team Magma defeated at Mossdeep Space Center by Jade & Steven Stone! Sage reached Lv 56! Ready to visit Steven's house in Mossdeep City to obtain HM08 Dive.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 55) - Evolved on turn 5632! Level 55 on turn 16536! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 168/168. Max HP: 168. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 55: HP 168, Atk 125, Def 91, Sp.Atk 136, Sp.Def 122, Speed 164.
+1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (5/15), Quick Attack (30/30). HP: ~145/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 127, Def 93, Sp.Atk 139, Sp.Def 124, Speed 167.
 2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Astonish (15/15), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 71/71. Max HP: 71. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 35/35. Max HP: 35. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
@@ -46,7 +46,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥49,873
+- Money: ¥54,993
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
