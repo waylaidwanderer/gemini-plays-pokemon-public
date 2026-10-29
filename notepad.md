@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter received on Route 101 (`37 HP / 20 Atk / 18 Def / 19 SpA / 20 SpD / 20 Spd` at Lv. 13, `+Speed` nature, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 101 | Mudkip ♂ | MUDKIP | 14 | Active | Starter received on Route 101 (`40 HP / 22 Atk / 19 Def / 20 SpA / 21 SpD / 22 Spd` at Lv. 14, `+Speed` nature, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Sunflora ♂ | SOLARIS | 15 | Active | Caught as `Sunkern` at `(12, 15)` on Route 103, leveled to Lv. 13 (`Growth`, `Mega Drain`) and evolved via wild-held `Sun Stone` (`50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd` at Lv. 15, Relaxed, `Chlorophyll`) |
 | Route 102 | Farfetch'd ♀ | VALKYRIE | 16 | Active | Caught at `(38, 5)` on Route 102 (`45 HP / 36 Atk / 23 Def / 28 SpA / 26 SpD / 25 Spd` at Lv. 16, Hardy, `Keen Eye`, **held `Stick` in the wild!**, Moves: `Peck`, `Sand-Attack`, `False Swipe` [Lv. 11], `Quick Attack` [Lv. 16]) |
 | Route 104 (South) | Hoothoot ♂ | STRIX | 13 | Active | Caught at `(24, 60)` on Route 104 South (`39 HP / 13 Atk / 13 Def / 18 SpA / 21 SpD / 19 Spd` at Lv. 13, Normal/Flying, learned `Aerial Ace` at Lv. 11) |
@@ -72,7 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♂ (Lv. 13, `37/37 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 13: `37 HP / 20 Atk / 18 Def / 19 SpA / 20 SpD / 20 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **MUDKIP** — Mudkip ♂ (Lv. 14, `40/40 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 14: `40 HP / 22 Atk / 19 Def / 20 SpA / 21 SpD / 22 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SOLARIS** — Sunflora ♂ (Lv. 15, `50/50 HP`, Grass, `Chlorophyll`, Relaxed, holds `Oran Berry`, Stats at Lv. 15: `50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd`, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
 3. **VALKYRIE** — Farfetch'd ♀ (Lv. 16, `37/45 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 16: `45 HP / 36 Atk / 23 Def / 28 SpA / 26 SpD / 25 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`, `Quick Attack`) — Caught on Route 102 (**At Lv. 16 cap — keep benched in trainer battles so she stays Lv. 16 for Rustboro Gym; safe to use `False Swipe` on wild catches for 0 EXP!**).
 4. **STRIX** — Hoothoot ♂ (Lv. 13, `39/39 HP`, Normal/Flying, holds `Oran Berry`, Stats at Lv. 13: `39 HP / 13 Atk / 13 Def / 18 SpA / 21 SpD / 19 Spd`, Moves: `Tackle`/`Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Caught on Route 104 South.
