@@ -55,3 +55,8 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Red-roofed residential house located directly west of Gym at cols 28..33, rows 7..9.
   - Sailor NPC stationed at (39, 11) east of Gym doors.
 - Minigame / Wireless House: Located at cols 35..40, rows 20..24 with red front door at (36, 24). NPC inside explains wireless communication minigames (Pokémon Jump, Dodrio Berry Picking). Note: This is not the Fisherman's house.
+
+### Eastern Plateau & Space Center Topography (Verified Turns 16580-16582)
+- Lower Eastern Staircase: White stone staircase at (57..58, rows 26..29) ascends North from row 29 dirt road onto the middle terrace at (57, 25).
+- Middle Terrace: Features the White Rock at (57, 20) and a girl NPC at (56, 20). Sandy path curves west and east.
+- Upper Space Center Staircase: White stone staircase located at cols 61..62, rows 20..22 ascending North onto the highest plateau at (61, 18), directly accessing the Mossdeep Space Center rocket launch complex.
