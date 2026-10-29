@@ -3609,6 +3609,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Southeastern Island: Large brown cliff island located at cols 46+, rows 41+ in the south-central waters. Row 37 provides a clear open ocean passage 4 tiles north of the island.
 - Eastbound Oceanic Highway: Row 37 is a clear, unobstructed horizontal highway spanning cols 32 to 50+, running 4-5 tiles north of the southern island cliffs.
 - Central Archipelago Western Edge: At cols 56+, sighted a cluster of four pointed sea rocks at cols 55..58, rows 40..42, and an elevated shallow water reef with cliff rocks at cols 58+, rows 30..36. An open deep water channel passes between them along rows 37..38.
+- Central Archipelago Western Barrier: At cols 57..60, rows 38..42 is a dense cluster of pointed sea rocks and a ripple rock at (59, 37). Direct eastward advance along row 37 is blocked at col 59. The clear passage routes North along cols 56..57 around the northern shallow reef.
 
 <hr>
 
