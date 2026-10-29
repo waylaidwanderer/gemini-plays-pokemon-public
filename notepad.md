@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter received on Route 101 (`37 HP / 20 Atk / 18 Def / 19 SpA / 20 SpD / 20 Spd` at Lv. 13, `+Speed` nature, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Sunflora ♂ | SOLARIS | 15 | Active | Caught as `Sunkern` at `(12, 15)` on Route 103, leveled to Lv. 13 (`Growth`, `Mega Drain`) and evolved via wild-held `Sun Stone` (`50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd` at Lv. 15, Relaxed, `Chlorophyll`) |
 | Route 102 | Farfetch'd ♀ | VALKYRIE | 15 | Active | Caught at `(38, 5)` on Route 102 (`43 HP / 34 Atk / 22 Def / 26 SpA / 25 SpD / 24 Spd` at Lv. 15, Hardy, `Keen Eye`, **held `Stick` in the wild!**, Moves: `Peck`, `Sand-Attack`, `False Swipe` [learned at Lv. 11]) |
+| Route 104 (South) | Hoothoot ♂ | STRIX | 7 | Active | Caught at `(24, 60)` on Route 104 South (Normal/Flying) |
 
 <hr>
 
@@ -72,7 +73,8 @@
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 13, `29/37 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 13: `37 HP / 20 Atk / 18 Def / 19 SpA / 20 SpD / 20 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **SOLARIS** — Sunflora ♂ (Lv. 15, `50/50 HP`, Grass, `Chlorophyll`, Relaxed, holds `Oran Berry`, Stats at Lv. 15: `50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd`, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
-3. **VALKYRIE** — Farfetch'd ♀ (Lv. 15, `28/43 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 15: `43 HP / 34 Atk / 22 Def / 26 SpA / 25 SpD / 24 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`) — Caught on Route 102.
+3. **VALKYRIE** — Farfetch'd ♀ (Lv. 15, `41/43 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 15: `43 HP / 34 Atk / 22 Def / 26 SpA / 25 SpD / 24 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`) — Caught on Route 102.
+4. **STRIX** — Hoothoot ♂ (Lv. 7, Normal/Flying) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
