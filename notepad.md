@@ -9,7 +9,7 @@
 | Route 102 | Meowth ♀ | BASTET | 15 | Active | Caught at `(37, 5)` (`39 HP / 21 Atk / 19 Def / 17 SpA / 19 SpD / 33 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12]) |
 | Route 104 (South) | Drowzee ♂ | HYPNOS | 15 | Active | Caught at `(24, 60)` (`47 HP / 20 Atk / 20 Def / 17 SpA / 36 SpD / 21 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(23, 35)` (`45 HP / 15 Atk / 16 Def / 17 SpA / 21 SpD / 20 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learned `Aerial Ace` at Lv. 11) |
-| Route 116 | Grimer ♂ | TYPHON | 9 | Active | Caught at `(4, 13)` (Poison, observed using `Lick` on Turn 4346) |
+| Route 116 | Grimer ♂ | TYPHON | 9 | Active | Caught at `(4, 13)` (`33 HP / 19 Atk / 15 Def / 13 SpA / 15 SpD / 11 Spd`, Timid, `Poison Point`, Moves: `Acid`, `Memento`, `Lick`, `Disable`) |
 
 <hr>
 
@@ -78,7 +78,7 @@
 3. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `51/51 HP`, Water/Ground, Quiet [`+SpA, -Spd`], `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 4. **SYLPH** — Hoppip ♀ (Lv. 12, `34/34 HP`, Grass/Flying, holding `Oran Berry`, Stats: `34 HP / 14 Atk / 14 Def / 13 SpA / 19 SpD / 18 Spd`, Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Caught on Route 103.
 5. **BASTET** — Meowth ♀ (Lv. 15, `39/39 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `39 HP / 21 Atk / 19 Def / 17 SpA / 19 SpD / 33 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
-6. **TYPHON** — Grimer ♂ (Lv. 9, Poison, observed using `Lick`) — Caught on Route 116.
+6. **TYPHON** — Grimer ♂ (Lv. 9, `33/33 HP`, Poison, Timid [`+Spd, -Atk`], `Poison Point`, Stats: `33 HP / 19 Atk / 15 Def / 13 SpA / 15 SpD / 11 Spd`, Moves: `Acid`, `Memento`, `Lick`, `Disable`) — Caught on Route 116.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
