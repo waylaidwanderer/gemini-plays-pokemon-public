@@ -45,3 +45,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Southern Boundary (Route 129 Transition): Route 128's southern boundary at col 32 is at row 41/42, connecting directly into Route 129.
 - Strategic Routing: Route 128 extends broadly to the EAST toward Ever Grande City. Seafloor Cavern's dive trench lies in the eastern/central expanse of Route 128. Exploring eastward from rows 35..38.
 - Tentacool (Lv 29, Water/Poison) - Confirmed on Turn 16882 in deep water at (35, 37); fled on turn 1.
+- Sea Rock 5 & Reef Base: Grey rock with water ripples sighted at roughly (44, 41) and brown rock at (45, 42). Row 38 provides a clear open ocean highway passing 3 tiles north of them.
