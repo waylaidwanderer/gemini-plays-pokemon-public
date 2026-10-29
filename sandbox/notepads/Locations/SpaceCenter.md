@@ -24,8 +24,8 @@ A rocket launch complex and space research facility located on the highest easte
   - Row 2 is the horizontal walkway along the north wall.
   - Row 3 is open floor from col 9 to col 14 (stools at cols 5 and 8).
   - Grunt 3: Defeated at (10, 2) on Turn 16611 (Baltoy Lv 32, Prize: ¥640).
-  - Grunt 4: Stationed at (14, 2) facing South, to the right of the stairs.
-  - Stairs to 2F: Located at cols 12..13, rows 0..1. Open and accessible!
+  - Grunt 4: Defeated on Turn 16634 (Numel Lv 26, Mightyena Lv 28, Prize: ¥600).
+  - Stairs to 2F: Located at cols 12..13, rows 0..1. Stepping Up from (13, 3) through (13, 2) ascends to 2F!
 - East Wing (cols 9..14):
   - Drafting tables at (10..11, 5..6) and (12..13, 5..6).
   - Computer terminals along rows 4..5.
