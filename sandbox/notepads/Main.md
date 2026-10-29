@@ -57,7 +57,7 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 11, `33/33 HP`, Water, `Torrent`, Stats at Lv. 11: `33 HP / 18 Atk / 16 Def / 16 SpA / 17 SpD / 17 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **SOLARIS** — Sunkern ♂ (Lv. 4, Grass) — Caught on Route 103.
+2. **SOLARIS** — Sunflora ♂ (Lv. 13, `45/45 HP`, Grass, `Chlorophyll`, Relaxed, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
 3. **VALKYRIE** — Farfetch'd ♀ (Lv. 6, Normal/Flying) — Caught on Route 102.
 
 ## Boxed (Retired Until Cap Advances)
