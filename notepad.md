@@ -74,10 +74,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **LUMINA** — Illumise ♀ (Lv. 16, `51/51 HP`, `215–300 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
-2. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, `6 EXP` to Lv. 17, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
-3. **NAIAD** — Marshtomp ♂ (Lv. 16, `49/49 HP`, `944 EXP` to Lv. 17, Water/Ground, `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-4. **PETRA** — Geodude ♀ (Lv. 16, `39/39 HP`, `697 EXP` to Lv. 17, Mild, `Sturdy`, Rock/Ground, Stats at Lv. 16: `39 HP / 34 Atk / 36 Def / 15 SpA / 15 SpD / 15 Spd`, Moves: `Rock Slide`, `Rock Throw`, `Secret Power`, `Magnitude`) — Caught in Rusturf Tunnel.
+1. **NAIAD** — Marshtomp ♂ (Lv. 16, `49/49 HP`, `944 EXP` to Lv. 17, Water/Ground, `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+2. **PETRA** — Geodude ♀ (Lv. 16, `39/39 HP`, `697 EXP` to Lv. 17, Mild, `Sturdy`, Rock/Ground, Stats at Lv. 16: `39 HP / 34 Atk / 36 Def / 15 SpA / 15 SpD / 15 Spd`, Moves: `Rock Slide`, `Rock Throw`, `Secret Power`, `Magnitude`) — Caught in Rusturf Tunnel.
+3. **LUMINA** — Illumise ♀ (Lv. 16, `51/51 HP`, `300 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
+4. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, `6 EXP` to Lv. 17, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 
 ## Boxed (Retired Until Cap Advances)
 - **PSYCHE** — Butterfree ♀ (Lv. 17, `52/52 HP`, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Reached Lv. 17 against Bug Maniac Jose; retired in `BOX 1` until Brawly's Lv. 20 cap.
