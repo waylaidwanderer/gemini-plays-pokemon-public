@@ -9,7 +9,7 @@
 | Route 102 | Meowth ♂ | MIDAS | 16 | Active | Caught at `(38, 5)` (`39 HP / 25 Atk / 16 Def / 22 SpA / 18 SpD / 34 Spd` at Lv. 16, Normal, `Limber`, Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12], `Bite` [Lv. 16]) |
 | Route 104 (South) | Cubone ♀ | TERRA | 16 | Active | Caught at `(22, 61)` (`45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd` at Lv. 16, Ground, Moves: `Bone Club`, `Rock Throw`, `Secret Power` [Lv. 9], `Headbutt` [Lv. 13]) |
 | Petalburg Woods | Illumise ♀ | LUMINA | 15 | Active | Caught at `(23, 35)` (`48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd` at Lv. 15, 400 BST Bug, `Oblivious`, Moves: `Moonlight` [Lv. 13], `Thunder Wave`, `Seismic Toss` [Lv. 11], `Silver Wind` [Lv. 9]) |
-| Route 116 | Butterfree ♀ | PSYCHE | 15 | Active | Caught at `(5, 12)` (`47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd` at Lv. 15, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace` [Lv. 15], `Supersonic` [Lv. 14], `Confusion` [Lv. 10], `PoisonPowder` [Lv. 13]) |
+| Route 116 | Butterfree ♀ | PSYCHE | 16 | Active | Caught at `(5, 12)` (`49 HP / 23 Atk / 22 Def / 36 SpA / 31 SpD / 30 Spd` at Lv. 16, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace` [Lv. 15], `Supersonic` [Lv. 14], `Confusion` [Lv. 10], `PoisonPowder` [Lv. 13]) |
 
 <hr>
 
@@ -73,7 +73,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **PSYCHE** — Butterfree ♀ (Lv. 15, `47/47 HP`, Bug/Flying, `CompoundEyes`, Stats: `47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
+1. **PSYCHE** — Butterfree ♀ (Lv. 16, `37/49 HP`, Bug/Flying, `CompoundEyes`, Stats: `49 HP / 23 Atk / 22 Def / 36 SpA / 31 SpD / 30 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
 2. **LUMINA** — Illumise ♀ (Lv. 15, `48/48 HP`, Bug, `Oblivious`, Stats: `48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
 3. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
 4. **TERRA** — Cubone ♀ (Lv. 16, `39/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
