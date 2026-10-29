@@ -3587,7 +3587,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Connection Points
 - North: Route 127 (entered at col 27, row 0).
 - East: Ever Grande City (Victory Road / Pokémon League entrance).
-- South: Route 129.
+- South: Route 129 (boundary at row 41/42).
 
 ## Progression Checklist - Route 128
 1. [x] Enter Route 128 from Route 127 (Turn 16844 at pos 27, 0).
@@ -3596,35 +3596,16 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 4. [ ] Locate the underwater cave entrance with the docked Submarine Explorer 1.
 5. [ ] Enter Seafloor Cavern and stop Archie and Team Aqua!
 
-## Topography & Landmarks Discovered
-- Northern Entrance: Open water corridor connecting south from Route 127 at col 27, row 0.
-- Sea Rock 1: Pointed brown rock at (21..22, 1..2) west of the entrance.
-- Sandbar / Reef Islet: Located at cols 22..25, rows 5+ south-southwest of the entrance.
-- Main Open Water Corridor: Col 27+ and eastern waters (cols 28..34) provide clear southbound and eastbound passage.
-- Sandbar Reef 1: Located at cols 21..27, rows 5..9. A large rock sits at cols 22..26, rows 6..8 surrounded by walkable shallow tidal flats. A girl trainer stands at (21, 8).
-- Eastern Open Ocean Highway: Col 29+ (cols 29..35+) provides an unobstructed deep water corridor continuing straight South past Sandbar Reef 1.
+## Topography & Landmarks Summary
+- Northern & Western Shallows: Sandbar reefs and cliff ridges occupy cols 21..27, rows 5..37, with scattered sea rocks.
+- Central Ridge (cols 24..27, rows 32..37): Blocks direct southbound passage along col 27 at row 37; bypassed east via rows 35..38.
+- Southern Border: Route 128 connects south into Route 129 around row 41/42 at col 32.
+- Eastern Open Ocean Highway: Rows 35..38 spanning eastward across cols 30..40+ provide an unobstructed deep water corridor extending into the main eastern basin toward Ever Grande City and Seafloor Cavern.
+- Trainers Sighted: Girl trainer at (21, 8); Swimmer ♂ at (36, 33).
+
 ## Wild Encounters (Surfing)
-- Tentacool (Lv 35, Water/Poison) - Confirmed on Turn 16846 in deep water; fled on turn 1.
-- Sandbar Reef 2 Sighted: Shallow tidal flat sighted at cols 33+, rows 14+ southeast of Sandbar Reef 1. Column 29 provides an unobstructed central channel between the two reefs.
-- Sea Rock 2: Small grey sea rock with circular water ripples located at (29, 17). Bypassed to the west via cols 26..28.
-- Sea Rock 3: Small grey sea rock with circular water ripples located at (29, 21) south of Sea Rock 2.
-- Central Ocean Channel: Columns 25..28 at rows 20..25 form an open water channel leading south between the western island (cols 18..22) and eastern shallow reef (cols 31+). B-button test confirmed row 21 is regular water, not a dive trench.
-- Sea Rock 4: Small grey rock with ripples at (31, 22).
-- Western Rocks: Pointed brown rocks along col 22 at rows 24 and 28 off the island cliff.
-- Central Channel Continues: Column 27 provides an open deep water highway through row 31.
-- Diamond Sandbar & Rock: Located at cols 29..34, rows 30..34 with a brown rock at center (31..32, 31..32) surrounded by diamond-shaped shallow tidal flats.
-- Central Ridge: Vertical cliff ridge extending along cols 24..25, rows 32..37+.
-- Channel 2: Column 27 provides an open water channel between the Central Ridge (col 25) and the Diamond Sandbar (col 29), heading straight South.
-- Ripple Rock Chain: A diagonal line of three grey rocks with water ripples at (28, 38), (30, 39), and (29, 41) southeast of Channel 2.
-- Central Ridge Southern Termination & Collision: The vertical cliff ridge extends east to (27, 37), blocking direct southbound movement at (27, 36). The clear bypass routes East along row 35 across cols 28..30 into the wide open eastern sea corridor.
-- Visual Mechanic (Animated Wave Shadows): Regular ocean water has moving diagonal wave shadows. Genuine dive trenches are static, solid dark indigo formations.
-- Wingull (Lv 13, Water/Flying) - Confirmed on Turn 16869 in deep water at (27, 36); fled on turn 1.
-- Swimmer ♂ Sighted: Swimmer with blue cap and goggles sighted at (36, 33) east of the Diamond Sandbar.
-- Eastern Bypass Highway: Column 31+ provides an open deep water highway heading south, bypassing the Ripple Rock chain (cols 28..30) to the east and the Swimmer (col 36) to the west.
-- Southern Boundary (Route 129 Transition): Route 128's southern boundary at col 32 is at row 41/42, connecting directly into Route 129.
-- Strategic Routing: Route 128 extends broadly to the EAST toward Ever Grande City. Seafloor Cavern's dive trench lies in the eastern/central expanse of Route 128. Exploring eastward from rows 35..38.
-- Tentacool (Lv 29, Water/Poison) - Confirmed on Turn 16882 in deep water at (35, 37); fled on turn 1.
-- Sea Rock 5 & Reef Base: Grey rock with water ripples sighted at roughly (44, 41) and brown rock at (45, 42). Row 38 provides a clear open ocean highway passing 3 tiles north of them.
+- Tentacool (Lv 29, Lv 35, Water/Poison) - Fled cleanly on turn 1.
+- Wingull (Lv 13, Water/Flying) - Fled cleanly on turn 1.
 
 <hr>
 
@@ -3999,7 +3980,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: MIND BADGE EARNED! Team Magma defeated at Space Center! HM08 DIVE OBTAINED and taught to Lilz! Sage Lv 56 fully healed! Ready to embark south onto Route 127/128 to locate Seafloor Cavern and stop Team Aqua.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 171/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 127, Def 93, Sp.Atk 139, Sp.Def 124, Speed 167.
+1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 142/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 127, Def 93, Sp.Atk 139, Sp.Def 124, Speed 167.
 2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 71/71. Max HP: 71. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 35/35. Max HP: 35. Status: OK.
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
