@@ -3607,6 +3607,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Tentacool (Lv 29, Lv 35, Water/Poison) - Fled cleanly on turn 1.
 - Wingull (Lv 13, Water/Flying) - Fled cleanly on turn 1.
 - Southeastern Island: Large brown cliff island located at cols 46+, rows 41+ in the south-central waters. Row 37 provides a clear open ocean passage 4 tiles north of the island.
+- Eastbound Oceanic Highway: Row 37 is a clear, unobstructed horizontal highway spanning cols 32 to 50+, running 4-5 tiles north of the southern island cliffs.
 
 <hr>
 
