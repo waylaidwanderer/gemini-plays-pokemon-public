@@ -33,3 +33,4 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Tentacool (Lv 21, Water/Poison) - Confirmed on Turn 16825 in deep water; fled on turn 1.
 - Sea Rock Cluster 5: Large rock at (21..22, 66..67) and rock at (23..24, 68).
 - Swimmer ♀ Sighted: Swimmer with red swim cap spotted near (18..19, 68) west of the rock cluster.
+- Southern Island & Ocean Highway: A large rocky cliff island extends along cols 20..22 from row 67 through row 76+. Column 27 provides an open, completely clear North-South oceanic highway past the island (4-tile buffer east of the cliff edge at col 22).
