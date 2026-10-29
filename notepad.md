@@ -20,7 +20,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #17
+- **Attempt:** #18
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -362,7 +362,20 @@
   - **MARSHTOMP** (Marshtomp ♀, Lv. 16, `51 HP`, Quiet, `Torrent`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 4423 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` (`Giga Drain` from `5/51 HP`) after tanking Turn 1 `Giga Drain` (`40 -> 5/51 HP`) and blasting `Yanma` down to `~11/34 HP` with `Torrent` `Water Gun` while locking `Yanma` into `Giga Drain` (`+0` omni-boosts).
   - **BASTET** (Meowth ♀, Lv. 16, `41 HP`, Serious, `Limber`, `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Died on Turn 4425 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 11 Yanma` from `13/41 HP`.
   - **NOCTUA** (Hoothoot ♂, Lv. 16, `47 HP`, Naughty, `Keen Eye`, `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Died on Turn 4428 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` (`Rock Tomb` from `1/47 HP` after `Hypnosis` missed).
-  - **HYPNOS** (Drowzee ♂, Lv. 16, `50 HP`, Impish, `Insomnia`, `Confusion`, `Hypnosis`, `Seismic Toss`) — Died on Turn 4429 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` (`Rock Tomb` from `10/50 HP`) after chipping `Rhyhorn` down to `~33/49 HP` (`>50% HP`) with `Seismic Toss` so `SYLPH`'s 4x SE `Mega Drain` could OHKO without triggering any held Berry.
+  - **HYPNOS** (Drowzee ♂, Lv. 16, `50 HP`, Impish, `Insomnia`, `Confusion`, `Hypnosis`, `Seismic Toss`) — Died on Turn 4429 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` (`Rock Tomb` from `10/50 HP`) after chipping `Rhyhorn` down to `37/53 HP` (`>50% HP`) with `Seismic Toss` so `SYLPH`'s 4x SE `Mega Drain` could attack from above 50% HP.
+  - **SYLPH** (Hoppip ♀, Lv. 16, `42 HP`, `Grass/Flying`, `Confusion`, `Stun Spore`, `Mega Drain`, `Aerial Ace`) — Died on Turn 4430 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Rhyhorn` (`Rock Tomb` after `Mega Drain` dealt `35 damage` [`+17 HP` drained], leaving `53 Max HP` `Rhyhorn` at `2/53 HP` [`37 - 35 = 2 HP`] where its held Berry activated) — **TOTAL PARTY WIPEOUT (Attempt #17 Over)**.
+- **Root Causes of Attempt #17 Wipe:**
+  1. **Entering Rustboro Gym With Only `54 EXP` of Cap Room on `MARSHTOMP` (`Lv. 16`):** Because `MARSHTOMP` was `54 EXP` away from Level 17 after School Kid Josh, we avoided using `MARSHTOMP` against School Kid Tammy's lead `Lv. 13 Aron` and 2nd Pokémon `Lv. 13 Corsola`, which resulted in all 5 of our other teammates getting chipped down to `3–18 HP` by `Rock Tomb` / `Water Pulse` / `Aurora Beam` before Tammy's `Lv. 11 Yanma` (`Speed Boost`, `Giga Drain`, `Silver Wind`, `AncientPower`, `Aerial Ace`) entered.
+  2. **Not Catching Our Rusturf Tunnel Encounter Before Rustboro Gym:** We entered Rustboro Gym with 6 catches (`Route 101, 103, 102, 104 South, Petalburg Woods, Route 116`) without visiting Rusturf Tunnel `(47, 8)`, which offers a guaranteed Rock/Ground encounter (`Geodude`, `Onix`, `Nosepass`, `Rhyhorn`, `Sandshrew`, `Cubone`) that walls `Lv. 11 Yanma` and sweeps Gym Trainers.
+  3. **Clicking 60%-Accurate `Hypnosis` Instead of 100%-Accurate `Confusion` with `1/47 HP` `NOCTUA` Against `Lv. 15 Rhyhorn` (`53 Max HP`, Turn 4428):** `NOCTUA` (`21 Spd`), `HYPNOS` (`23 Spd`), and `SYLPH` (`22 Spd`) all outsped `Lv. 15 Rhyhorn` (`14 Spd`). Had `NOCTUA` used 100%-accurate `Confusion` (`10 damage`) on Turn 4428 instead of 60%-accurate `Hypnosis` (which missed), `Confusion` (`10`) + `Seismic Toss` (`16`) + `Mega Drain` (`35`) would have dealt `61 guaranteed damage` (`> 53 Max HP`), OHKOing `Rhyhorn` from `27/53 HP` (`>50% HP`) without activating its held Berry; missing `Hypnosis` left `16 + 35 = 51 damage` (`2 HP` short of `53 Max HP`!).
+- **Tactical Rules for Attempt #18:**
+  1. **Keep `MARSHTOMP` at `800+ EXP` Below Lv. 17 Entering Rustboro Gym & Catch Our Rusturf Tunnel Encounter First:** Use our 5–6 teammates to share trainer EXP on Route 104 North so `Mudkip` evolves into `Lv. 16 Marshtomp` via Rare Candy right before Rustboro Gym with a full `1,021 EXP` buffer before Level 17, and catch our 7th encounter in **Rusturf Tunnel `(47, 8)`** before challenging Rustboro Gym.
+  2. **Always Choose 100%-Accurate Chip (`Confusion`) Over 60%-Accurate `Hypnosis` When Setting Up a Deterministic Multi-Pokémon KO Chain:** `Lv. 15 Rhyhorn` has `53 Max HP` and holds a Berry; `10 + 16 + 35 = 61 damage` guarantees the KO without Berry activation.
+
+---
+
+## Attempt #18 (Starting Turn 4431)
+- **Deaths:** None
 
 <hr>
 
