@@ -23,3 +23,5 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Sea Rock 1: Pointed brown rock located at (21..22, 6) off the western cliff face.
 - Open Water Highway: Col 25+ heading South is unobstructed.
 - Shallow Water Islet 1: Located at cols 18..21, rows 12+ southwest of the northern entrance.
+- Dark Water Dive Trench 1: Located at cols 24..27, rows 14..18+ extending south along the main navigation channel.
+- Sea Rock 2: Pointed brown rock located at (31, 16) east of the dive trench.
