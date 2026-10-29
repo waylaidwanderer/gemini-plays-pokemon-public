@@ -56,9 +56,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♂ (Lv. 11, `33/33 HP`, Water, `Torrent`, Stats at Lv. 11: `33 HP / 18 Atk / 16 Def / 16 SpA / 17 SpD / 17 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **SOLARIS** — Sunflora ♂ (Lv. 13, `45/45 HP`, Grass, `Chlorophyll`, Relaxed, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
-3. **VALKYRIE** — Farfetch'd ♀ (Lv. 13, `38/38 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 13: `38 HP / 30 Atk / 20 Def / 23 SpA / 22 SpD / 21 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`) — Caught on Route 102.
+1. **VALKYRIE** — Farfetch'd ♀ (Lv. 14, `41/41 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 14: `41 HP / 32 Atk / 21 Def / 25 SpA / 24 SpD / 23 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`) — Caught on Route 102.
+2. **SOLARIS** — Sunflora ♂ (Lv. 15, `50/50 HP`, Grass, `Chlorophyll`, Relaxed, Stats at Lv. 15: `50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd`, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
+3. **MUDKIP** — Mudkip ♂ (Lv. 13, `37/37 HP`, Water, `Torrent`, Stats at Lv. 13: `37 HP / 20 Atk / 18 Def / 19 SpA / 20 SpD / 20 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
