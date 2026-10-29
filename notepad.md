@@ -3751,13 +3751,13 @@ A rocket launch complex and space research facility located on the highest easte
   - Rocket blueprint drafting tables at (2..3, 3..4) and (4..5, 3..4).
   - Stools at (2, 5), (4, 5), (6, 4).
   - Civilian NPCs: Old man at (1, 4), woman at (0, 6), sailor at (1, 7), scientist at (3, 0).
-- North Observation Corridor (row 2, cols 0..14):
+- North Observation Corridor (row 2, cols 0..15):
   - Row 1 is the northern wall sill below the observation windows.
-  - Row 2 is the clear horizontal walkway along the north wall.
-  - Row 3 has round pink stools at cols 2, 5, 9, 12.
-  - Grunt 3: Stationed at (10, 2) facing South.
-  - Grunt 4: Stationed at (13, 2) facing South directly guarding the stairs to 2F.
-  - Stairs to 2F: Located at cols 13..15, rows 0..1 behind Grunt 4.
+  - Row 2 is the horizontal walkway along the north wall.
+  - Row 3 is open floor from col 9 to col 14 (stools at cols 5 and 8).
+  - Grunt 3: Defeated at (10, 2) on Turn 16611 (Baltoy Lv 32, Prize: ¥640).
+  - Grunt 4: Stationed at (14, 2) facing South, to the right of the stairs.
+  - Stairs to 2F: Located at cols 12..13, rows 0..1. Open and accessible!
 - East Wing (cols 9..14):
   - Drafting tables at (10..11, 5..6) and (12..13, 5..6).
   - Computer terminals along rows 4..5.
