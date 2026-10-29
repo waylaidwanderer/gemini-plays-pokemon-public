@@ -3549,8 +3549,8 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 
 ## Progression Checklist - Route 127
 1. [x] Enter Route 127 from Mossdeep City (Turn 16812).
-2. [ ] Navigate south through open water corridors past sea rocks and trainers.
-3. [ ] Transition south into Route 128 toward the Seafloor Cavern trench.
+2. [x] Navigate south through open water corridors past sea rocks and trainers.
+3. [x] Transition south into Route 128 toward the Seafloor Cavern trench (Turn 16844).
 
 ## Topography & Landmarks Discovered
 - Northern Entrance: Open ocean corridor leading south from Mossdeep City's southwest beach along cols 24..26.
@@ -3607,6 +3607,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Tentacool (Lv 35, Water/Poison) - Confirmed on Turn 16846 in deep water; fled on turn 1.
 - Sandbar Reef 2 Sighted: Shallow tidal flat sighted at cols 33+, rows 14+ southeast of Sandbar Reef 1. Column 29 provides an unobstructed central channel between the two reefs.
 - Sea Rock 2: Small grey sea rock with circular water ripples located at (29, 17). Bypassed to the west via cols 26..28.
+- Sea Rock 3: Small grey sea rock with circular water ripples located at (29, 21) south of Sea Rock 2.
+- Dark Water Dive Trench (Confirmed): Located at cols 25..28, rows 20+ directly south along column 27.
 
 <hr>
 

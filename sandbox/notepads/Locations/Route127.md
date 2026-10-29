@@ -12,8 +12,8 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 
 ## Progression Checklist - Route 127
 1. [x] Enter Route 127 from Mossdeep City (Turn 16812).
-2. [ ] Navigate south through open water corridors past sea rocks and trainers.
-3. [ ] Transition south into Route 128 toward the Seafloor Cavern trench.
+2. [x] Navigate south through open water corridors past sea rocks and trainers.
+3. [x] Transition south into Route 128 toward the Seafloor Cavern trench (Turn 16844).
 
 ## Topography & Landmarks Discovered
 - Northern Entrance: Open ocean corridor leading south from Mossdeep City's southwest beach along cols 24..26.
