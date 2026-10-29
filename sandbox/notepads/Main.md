@@ -56,9 +56,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MIDAS** — Meowth ♂ (Lv. 15, `37/37 HP`, Normal, `Limber`, holding `Oran Berry`, Stats: `37 HP / 23 Atk / 15 Def / 21 SpA / 18 SpD / 32 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
+1. **LUMINA** — Illumise ♀ (Lv. 14, `45/45 HP`, Bug, `Oblivious`, holding `Oran Berry`, Stats: `45 HP / 19 Atk / 29 Def / 29 SpA / 31 SpD / 32 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
 2. **AQUILA** — Spearow ♂ (Lv. 15, `40/40 HP`, Normal/Flying, `Keen Eye`, holding `Oran Berry`, Stats: `40 HP / 26 Atk / 16 Def / 15 SpA / 17 SpD / 27 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
-3. **LUMINA** — Illumise ♀ (Lv. 14, `45/45 HP`, Bug, `Oblivious`, holding `Oran Berry`, Stats: `45 HP / 19 Atk / 29 Def / 29 SpA / 31 SpD / 32 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
+3. **MIDAS** — Meowth ♂ (Lv. 15, `37/37 HP`, Normal, `Limber`, holding `Oran Berry`, Stats: `37 HP / 23 Atk / 15 Def / 21 SpA / 18 SpD / 32 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
 4. **TERRA** — Cubone ♀ (Lv. 16, `45/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 5. **NAIAD** — Mudkip ♂ (Lv. 14, `39/39 HP`, Water, `Torrent`, Stats: `39 HP / 30 Atk / 20 Def / 19 SpA / 22 SpD / 18 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
