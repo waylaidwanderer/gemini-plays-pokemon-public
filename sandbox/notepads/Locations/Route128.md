@@ -24,3 +24,5 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Main Open Water Corridor: Col 27+ and eastern waters (cols 28..34) provide clear southbound and eastbound passage.
 - Sandbar Reef 1: Located at cols 21..27, rows 5..9. A large rock sits at cols 22..26, rows 6..8 surrounded by walkable shallow tidal flats. A girl trainer stands at (21, 8).
 - Eastern Open Ocean Highway: Col 29+ (cols 29..35+) provides an unobstructed deep water corridor continuing straight South past Sandbar Reef 1.
+## Wild Encounters (Surfing)
+- Tentacool (Lv 35, Water/Poison) - Confirmed on Turn 16846 in deep water; fled on turn 1.
