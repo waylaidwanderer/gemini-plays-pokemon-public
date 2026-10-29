@@ -1548,7 +1548,7 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 ## Discovered Topography & Navigation
 ### Western Coast & Beach Approach
 - Western Shore: Open water disembarkation point from Route 124 along row 13, transitioning to shallow tidal water at col 9. High bluffs block direct eastward access.
-- Southwest Beach & Staircase: Shallow water channel leads south along col 13 to the southwest sandbar (cols 7..8, rows 22..29). A white stone staircase at (25..26, rows 21..25) ascends north from the beach (approached from 25..26, row 26) onto the lower city avenue at (25..26, row 21).
+- Southwest Beach & Staircase: A white stone staircase at cols 25..26, rows 24..27 descends south from the lower city avenue (col 25, rows 22..23) directly into the southwest ocean waters at row 27/28, providing immediate access to Surf south toward Route 127.
 - Pokémon Center (Exterior):
   - Located on the lower western avenue at cols 27..32, rows 11..16.
   - Red roof with white Pokéball emblem, 'P.C' sign on right wall.
