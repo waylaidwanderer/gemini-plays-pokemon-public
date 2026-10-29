@@ -190,7 +190,7 @@
 10. [x] Obtain HM08 Dive from Steven Stone and teach to Lombre (Lilz).
 
 ## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Active)
-1. [ ] Surf south from Mossdeep City onto Route 127 and Route 128.
+1. [x] Surf south from Mossdeep City onto Route 127 and Route 128.
 2. [ ] Locate underwater trench on Route 128 and use Dive.
 3. [ ] Infiltrate Seafloor Cavern, navigate boulder puzzles, and confront Team Aqua.
 4. [ ] Prevent Archie from using the Red Orb to awaken Kyogre!
