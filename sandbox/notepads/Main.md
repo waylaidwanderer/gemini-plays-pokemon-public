@@ -56,10 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **PETRA** — Geodude ♀ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Mild, `Sturdy`, Rock/Ground, Stats at Lv. 17: `41 HP / 36 Atk / 38 Def / 16 SpA / 16 SpD / 16 Spd`, Moves: `Rock Slide`, `Rock Throw`, `Secret Power`, `Magnitude`) — Caught in Rusturf Tunnel.
-2. **NAIAD** — Marshtomp ♂ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Water/Ground, `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-3. **LUMINA** — Illumise ♀ (Lv. 16, `21/51 HP`, `180 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
-4. **TERRA** — Cubone ♀ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Ground, Stats at Lv. 17: `47 HP / 27 Atk / 36 Def / 21 SpA / 26 SpD / 17 Spd`, Moves: `Dig`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
+1. **LUMINA** — Illumise ♀ (Lv. 16, `11/51 HP`, `180 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
 
 ## Boxed (Retired Until Cap Advances)
 - **PSYCHE** — Butterfree ♀ (Lv. 17, `52/52 HP`, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Reached Lv. 17 against Bug Maniac Jose; retired in `BOX 1` until Brawly's Lv. 20 cap.
