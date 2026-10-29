@@ -4,6 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
+| Route 101 | Mudkip ♂ | POSEIDON | 5 | Active | Starter received on Route 101 |
 
 <hr>
 
@@ -67,13 +68,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **HEMLOCK** — Gloom ♀ (Lv. 16, `48/48 HP`, Grass/Poison, `Chlorophyll`, Bold [`+Def, -Atk`], holds `Oran Berry`, Stats at Lv. 16: `48 HP / 24 Atk / 34 Def / 33 SpA / 32 SpD / 21 Spd`, `EXP: 3039 / NEXT LV: 81`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Down, Left`], `Magical Leaf` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods (`81 EXP` buffer before Lv. 17 — sole active `AT_CAP` party member for Gym Leader Roxanne!).
+1. **POSEIDON** — Mudkip ♂ (Lv. 5, Water, `Torrent`, Moves: `Tackle`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
-- **VALKYRIE** — Farfetch'd ♀ (Lv. 17, `47/47 HP`, Normal/Flying, holds `Stick`, `Peck`, `Sand-Attack`, `False Swipe`, `Quick Attack`) — Boxed in `BOX 1` after reaching Lv. 17 vs School Kid Tammy; unbench immediately after defeating Gym Leader Roxanne (Lv. 20 cap).
-- **SOLARIS** — Sunflora ♂ (Lv. 17, `55/55 HP`, Grass, `Chlorophyll`, Relaxed, `Absorb`, `Growth`, `Mega Drain`, `Synthesis`) — Boxed in `BOX 1` after reaching Lv. 17 vs Hiker Marc; unbench immediately after defeating Gym Leader Roxanne (Lv. 20 cap).
-- **MARSHTOMP** — Marshtomp ♂ (Lv. 17, `53/53 HP`, Water/Ground, `Torrent`, holds `Oran Berry`, `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Boxed in `BOX 1` after reaching Lv. 17 vs Hiker Marc; unbench immediately after defeating Gym Leader Roxanne (Lv. 20 cap).
-- **STRIX** — Hoothoot ♂ (Lv. 17, `49/49 HP`, Normal/Flying, holds `Oran Berry`, `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Boxed in `BOX 1` after reaching Lv. 17 vs Hiker Marc; unbench immediately after defeating Gym Leader Roxanne (Lv. 20 cap).
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
