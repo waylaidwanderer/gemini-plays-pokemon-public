@@ -65,4 +65,4 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 - Col 63 is the building wall/pillar to the left of the double doors.
 - Double sliding glass doors at (64, 15) or (65, 15) step North to warp inside.
 - Spawns player at (7, 9) on the 1F entrance mat.
-- Middle Terrace House (Fisherman's House): Located at cols 66..71, rows 21..25 on the middle terrace below the Space Center. Red door at (67, 25) entered stepping North. Home of the Super Rod fisherman!
+- Middle Terrace House (Fisherman's House): Located at cols 65..69, rows 21..24 on the middle terrace below the Space Center. Red door at (66, 24) entered stepping North from (66, 25). Home of the Super Rod fisherman!
