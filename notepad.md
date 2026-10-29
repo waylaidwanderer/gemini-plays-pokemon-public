@@ -3612,6 +3612,9 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Sea Rock 4: Small grey rock with ripples at (31, 22).
 - Western Rocks: Pointed brown rocks along col 22 at rows 24 and 28 off the island cliff.
 - Central Channel Continues: Column 27 provides an open deep water highway through row 31.
+- Diamond Sandbar & Rock: Located at cols 29..34, rows 30..34 with a brown rock at center (31..32, 31..32) surrounded by diamond-shaped shallow tidal flats.
+- Central Ridge: Vertical cliff ridge extending along cols 24..25, rows 32..37+.
+- Channel 2: Column 27 provides an open water channel between the Central Ridge (col 25) and the Diamond Sandbar (col 29), heading straight South.
 
 <hr>
 
