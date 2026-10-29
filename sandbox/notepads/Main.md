@@ -56,7 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♂ (Lv. 15, `43/43 HP`, Water, `Torrent`, holds `Oran Berry`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **MUDKIP** — Mudkip ♂ (Lv. 15, `42/42 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 15: `42 HP / 23 Atk / 20 Def / 21 SpA / 22 SpD / 23 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 2. **HEMLOCK** — Oddish ♀ (Lv. 15, `41/41 HP`, Grass/Poison, `Chlorophyll`, Bold [`+Def, -Atk`], holds `Oran Berry`, Stats at Lv. 15: `41 HP / 18 Atk / 27 Def / 28 SpA / 27 SpD / 17 Spd`, Moves: `Mega Drain`, `Acid`, `Toxic`) — Caught in Petalburg Woods.
 3. **SOLARIS** — Sunflora ♂ (Lv. 15, `50/50 HP`, Grass, `Chlorophyll`, Relaxed, holds `Oran Berry`, Stats at Lv. 15: `50 HP / 29 Atk / 25 Def / 41 SpA / 32 SpD / 13 Spd`, Moves: `Absorb`, `Growth`, `Mega Drain`) — Caught on Route 103 and evolved via `Sun Stone`.
 4. **VALKYRIE** — Farfetch'd ♀ (Lv. 16, `45/45 HP`, Normal/Flying, `Keen Eye`, Hardy, holds `Stick` [+2 crit stages], Stats at Lv. 16: `45 HP / 36 Atk / 23 Def / 28 SpA / 26 SpD / 25 Spd`, Moves: `Peck`, `Sand-Attack`, `False Swipe`, `Quick Attack`) — Caught on Route 102 (**At Lv. 16 cap — keep benched in trainer battles so she stays Lv. 16 for Rustboro Gym; safe to use `False Swipe` on wild catches for 0 EXP!**).
