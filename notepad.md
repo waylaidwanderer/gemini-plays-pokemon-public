@@ -4,8 +4,8 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | NAIAD | 15 | Active | Starter received on Route 101 (`41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd` at Lv. 15) |
-| Route 103 | Spearow ♂ | AQUILA | 16 | Active | Caught at `(11, 14)` (`42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd` at Lv. 16, Normal/Flying, `Keen Eye`, Moves: `Peck`, `Pursuit`, `Tackle` [Lv. 7], `Secret Power` [Lv. 13]) |
+| Route 101 | Marshtomp ♂ | NAIAD | 16 | Active | Starter received on Route 101, evolved into Lv. 16 Marshtomp (`944 EXP` to Lv. 17, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 103 | Fearow ♂ | AQUILA | 20 | Retired (Cap) | Caught at `(11, 14)`, evolved into Lv. 20 Fearow; retired until Brawly Lv. 20 cap |
 | Route 102 | Meowth ♂ | MIDAS | 16 | Deceased | Caught at `(38, 5)`; fainted to overworld poison ticks on Turn 4820 |
 | Route 104 (South) | Cubone ♀ | TERRA | 16 | Active | Caught at `(22, 61)` (`45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd` at Lv. 16, Ground, Moves: `Bone Club`, `Rock Throw`, `Secret Power` [Lv. 9], `Headbutt` [Lv. 13]) |
 | Petalburg Woods | Illumise ♀ | LUMINA | 16 | Active | Caught at `(23, 35)` (`51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd` at Lv. 16, 400 BST Bug, `Oblivious`, Moves: `Moonlight` [Lv. 13], `Thunder Wave`, `Seismic Toss` [Lv. 11], `Silver Wind` [Lv. 9]) |
@@ -74,13 +74,14 @@
 
 ## Active Party
 1. **LUMINA** — Illumise ♀ (Lv. 16, `51/51 HP`, `643 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
-2. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, `587 EXP` to Lv. 17, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
+2. **AQUILA** — Fearow ♂ (Lv. 20, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Normal/Flying, `Keen Eye`, Moves: `Rage`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
 3. **PSYCHE** — Butterfree ♀ (Lv. 17, RETIRED until Brawly Lv. 20 cap — to be boxed at Rustboro PC, Bug/Flying, `CompoundEyes`, Stats: `52 HP / 24 Atk / 23 Def / 38 SpA / 32 SpD / 31 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
 4. **TERRA** — Cubone ♀ (Lv. 16, `31/45 HP`, `6 EXP` to Lv. 17, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
 5. **NAIAD** — Mudkip -> Marshtomp ♂ (Lv. 16, `944 EXP` to Lv. 17, Water/Ground, `Torrent`, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - **PSYCHE** — Butterfree ♀ (Lv. 17, `52/52 HP`, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Reached Lv. 17 against Bug Maniac Jose; retired until Brawly's Lv. 20 cap.
+- **AQUILA** — Fearow ♂ (Lv. 20, Normal/Flying, `Keen Eye`) — Leveled to Lv. 20 Fearow to survive overworld poison; retired until Brawly's Lv. 20 cap.
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
