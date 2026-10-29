@@ -3559,6 +3559,7 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Route 127 Northern Boundary: Map transition from Mossdeep City occurs into Route 127 row 0. Player entered at (25, 0..3) facing South.
 - Sea Rock 1: Pointed brown rock located at (21..22, 6) off the western cliff face.
 - Open Water Highway: Col 25+ heading South is unobstructed.
+- Shallow Water Islet 1: Located at cols 18..21, rows 12+ southwest of the northern entrance.
 
 <hr>
 
