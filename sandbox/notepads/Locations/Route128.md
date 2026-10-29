@@ -30,3 +30,6 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Sea Rock 2: Small grey sea rock with circular water ripples located at (29, 17). Bypassed to the west via cols 26..28.
 - Sea Rock 3: Small grey sea rock with circular water ripples located at (29, 21) south of Sea Rock 2.
 - Central Ocean Channel: Columns 25..28 at rows 20..25 form an open water channel leading south between the western island (cols 18..22) and eastern shallow reef (cols 31+). B-button test confirmed row 21 is regular water, not a dive trench.
+- Sea Rock 4: Small grey rock with ripples at (31, 22).
+- Western Rocks: Pointed brown rocks along col 22 at rows 24 and 28 off the island cliff.
+- Central Channel Continues: Column 27 provides an open deep water highway through row 31.
