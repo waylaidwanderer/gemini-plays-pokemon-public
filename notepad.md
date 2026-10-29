@@ -8,7 +8,7 @@
 | Route 103 | Hoppip ♀ | SYLPH | 16 | Active | Caught at `(11, 14)` (`42 HP / 17 Atk / 17 Def / 16 SpA / 24 SpD / 22 Spd`, Grass/Flying, Moves: `Confusion`, `Stun Spore` [Lv. 15], `Mega Drain`, `Aerial Ace` [Lv. 16]) |
 | Route 102 | Meowth ♀ | BASTET | 16 | Active | Caught at `(37, 5)` (`41 HP / 23 Atk / 20 Def / 18 SpA / 20 SpD / 34 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12], `Bite` [Lv. 16]) |
 | Route 104 (South) | Drowzee ♂ | HYPNOS | 16 | Active | Caught at `(24, 60)` (`50 HP / 21 Atk / 22 Def / 18 SpA / 38 SpD / 23 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
-| Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(23, 35)` (`45 HP / 15 Atk / 16 Def / 17 SpA / 21 SpD / 20 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learned `Aerial Ace` at Lv. 11) |
+| Petalburg Woods | Hoothoot ♂ | NOCTUA | 16 | Active | Caught at `(23, 35)` (`47 HP / 15 Atk / 17 Def / 18 SpA / 22 SpD / 21 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learned `Aerial Ace` at Lv. 11 and `Hypnosis` at Lv. 16) |
 | Route 116 | Grimer ♂ | TYPHON | 16 | Active | Caught at `(4, 13)` (`52 HP / 31 Atk / 22 Def / 19 SpA / 23 SpD / 16 Spd`, Timid, `Poison Point`, Moves: `Acid`, `Sludge Bomb` [Lv. 13], `Lick`, `Disable`) |
 
 <hr>
@@ -73,10 +73,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **BASTET** — Meowth ♀ (Lv. 16, `41/41 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `41 HP / 23 Atk / 20 Def / 18 SpA / 20 SpD / 34 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Caught on Route 102.
+1. **NOCTUA** — Hoothoot ♂ (Lv. 16, `47/47 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `47 HP / 15 Atk / 17 Def / 18 SpA / 22 SpD / 21 Spd`, Moves: `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
 2. **SYLPH** — Hoppip ♀ (Lv. 16, `42/42 HP`, Grass/Flying, Stats: `42 HP / 17 Atk / 17 Def / 16 SpA / 24 SpD / 22 Spd`, Moves: `Confusion`, `Stun Spore`, `Mega Drain`, `Aerial Ace`) — Caught on Route 103.
 3. **HYPNOS** — Drowzee ♂ (Lv. 16, `50/50 HP`, Psychic, Impish [`+Def, -SpA`], `Insomnia` [immune to sleep!], Stats: `50 HP / 21 Atk / 22 Def / 18 SpA / 38 SpD / 23 Spd`, Moves: `Confusion`, `Hypnosis`, `Seismic Toss`) — Caught on Route 104 South.
-4. **NOCTUA** — Hoothoot ♂ (Lv. 15, `45/45 HP`, Normal/Flying, Naughty [`+Atk, -SpD`], `Keen Eye`, holding `Pecha Berry`, Stats: `45 HP / 15 Atk / 16 Def / 17 SpA / 21 SpD / 20 Spd`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) — Caught in Petalburg Woods.
+4. **BASTET** — Meowth ♀ (Lv. 16, `41/41 HP`, Normal, Serious [neutral], `Limber` [immune to paralysis!], Stats: `41 HP / 23 Atk / 20 Def / 18 SpA / 20 SpD / 34 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Caught on Route 102.
 5. **TYPHON** — Grimer ♂ (Lv. 16, `52/52 HP`, Poison, Timid [`+Spd, -Atk`], `Poison Point`, Stats: `52 HP / 31 Atk / 22 Def / 19 SpA / 23 SpD / 16 Spd`, Moves: `Acid`, `Sludge Bomb`, `Lick`, `Disable`) — Caught on Route 116.
 6. **MARSHTOMP** — Marshtomp ♀ (Lv. 16, `51/51 HP`, Water/Ground, Quiet [`+SpA, -Spd`], `Torrent`, Stats: `51 HP / 32 Atk / 27 Def / 30 SpA / 27 SpD / 19 Spd` [`54 EXP` to Lv. 17], Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
