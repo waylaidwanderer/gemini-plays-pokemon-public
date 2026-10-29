@@ -67,14 +67,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **LUMINA** — Illumise ♀ (Lv. 16, `11/51 HP`, `180 EXP` to Lv. 17, Bug, `Oblivious`, Stats: `51 HP / 22 Atk / 32 Def / 33 SpA / 35 SpD / 36 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
+1. **TETHYS** — Mudkip (Lv. 5, Water, `Torrent`, Moves: `Tackle`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
-- **PSYCHE** — Butterfree ♀ (Lv. 17, `52/52 HP`, Bug/Flying, `CompoundEyes`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Reached Lv. 17 against Bug Maniac Jose; retired in `BOX 1` until Brawly's Lv. 20 cap.
-- **AQUILA** — Fearow ♂ (Lv. 20, `60/60 HP`, Normal/Flying, `Keen Eye`, Moves: `Rage`, `Pursuit`, `Tackle`, `Secret Power`) — Leveled to Lv. 20 Fearow to survive overworld poison; retired in `BOX 1` until Brawly's Lv. 20 cap.
-- **TERRA** — Cubone ♀ (Lv. 17, `47/47 HP`, Ground, Moves: `Dig`, `Rock Throw`, `Secret Power`, `Headbutt`) — Reached Lv. 17 against School Kid Tammy's Corsola; retired until Brawly's Lv. 20 cap.
-- **PETRA** — Geodude ♀ (Lv. 17, `41/41 HP`, Rock/Ground, Moves: `Rock Slide`, `Rock Throw`, `Secret Power`, `Magnitude`) — Reached Lv. 17 against School Kid Tammy's Rhyhorn; retired until Brawly's Lv. 20 cap.
-- **NAIAD** — Marshtomp ♂ (Lv. 17, `52/52 HP`, Water/Ground, Moves: `Mud Shot`, `Bubble`, `Mud Sport`, `Water Gun`) — Reached Lv. 17 against School Kid Tammy's Rhyhorn; retired until Brawly's Lv. 20 cap.
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
