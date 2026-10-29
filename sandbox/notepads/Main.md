@@ -58,7 +58,7 @@
 ## Active Party
 1. **AQUILA** — Spearow ♂ (Lv. 16, `42/42 HP`, Normal/Flying, `Keen Eye`, Stats: `42 HP / 28 Atk / 17 Def / 15 SpA / 17 SpD / 28 Spd`, Moves: `Peck`, `Pursuit`, `Tackle`, `Secret Power`) — Caught on Route 103.
 2. **PSYCHE** — Butterfree ♀ (Lv. 15, `43/47 HP`, Bug/Flying, `CompoundEyes`, Stats: `47 HP / 22 Atk / 21 Def / 34 SpA / 29 SpD / 28 Spd`, Moves: `Aerial Ace`, `Supersonic`, `Confusion`, `PoisonPowder`) — Caught on Route 116.
-3. **MIDAS** — Meowth ♂ (Lv. 15, `37/37 HP`, Normal, `Limber`, holding `Oran Berry`, Stats: `37 HP / 23 Atk / 15 Def / 21 SpA / 18 SpD / 32 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
+3. **MIDAS** — Meowth ♂ (Lv. 15, `37/37 HP`, Normal, `Limber`, Stats: `37 HP / 23 Atk / 15 Def / 21 SpA / 18 SpD / 32 Spd`, Moves: `Pay Day`, `Faint Attack`, `Swift`) — Caught on Route 102.
 4. **LUMINA** — Illumise ♀ (Lv. 15, `43/48 HP`, Bug, `Oblivious`, Stats: `48 HP / 20 Atk / 31 Def / 31 SpA / 33 SpD / 34 Spd`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Caught in Petalburg Woods.
 5. **NAIAD** — Mudkip ♂ (Lv. 15, `41/41 HP`, Water, `Torrent`, Stats: `41 HP / 33 Atk / 21 Def / 20 SpA / 23 SpD / 19 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 6. **TERRA** — Cubone ♀ (Lv. 16, `43/45 HP`, Ground, Stats: `45 HP / 26 Atk / 34 Def / 20 SpA / 25 SpD / 16 Spd`, Moves: `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) — Caught on Route 104 South.
