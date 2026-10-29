@@ -37,9 +37,9 @@ A rocket launch complex and space research facility located on the highest easte
   - Stepping Up from (13, 2) ascends to 2F.
 ## Discovered Topography & Navigation - 2F
 - Arrival / Stair Landing: Warp from 1F stairs lands player at (13, 2) facing South.
-- 3-Grunt Gauntlet (Verified Turns 16640-16649):
+- 3-Grunt Gauntlet (Verified Turns 16640-16657):
   - Left Grunt at (12, 2), Right Grunt at (14, 2), Bottom Grunt at (13, 3).
   - Interaction: Dialogue prompt answered YES to start 3-Grunt gauntlet.
   - Battle 1: Defeated Grunt 1 (Zubat Lv 32, Prize: ¥640; Sage HP 168/168).
-  - Battle 2: Active on Turn 16649 against Grunt 2 (1 Pokémon).
-  - Battle 3: Follows immediately after Battle 2.
+  - Battle 2: Defeated Grunt 2 (Mightyena Lv 32, Prize: ¥640; Sage HP 168/168).
+  - Battle 3: Active on Turn 16657 against Grunt 3 ("I bet you want to take a break. But I'm not about to let you do that!").
