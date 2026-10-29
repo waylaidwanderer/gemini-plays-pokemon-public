@@ -54,3 +54,4 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
   - Double sliding entrance doors at cols 37..38, row 9; entrance warp triggers at (38, 9) approached from (38, 10) stepping North.
   - Red-roofed residential house located directly west of Gym at cols 28..33, rows 7..9.
   - Sailor NPC stationed at (39, 11) east of Gym doors.
+- Minigame / Wireless House: Located at cols 35..40, rows 20..24 with red front door at (36, 24). NPC inside explains wireless communication minigames (Pokémon Jump, Dodrio Berry Picking). Note: This is not the Fisherman's house.
