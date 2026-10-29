@@ -7,4 +7,4 @@
 | Route 102 | Meowth ♀ | BASTET | 15 | Active | Caught at `(37, 5)` (`39 HP / 21 Atk / 19 Def / 17 SpA / 19 SpD / 33 Spd`, Serious, `Limber` [immune to paralysis], Moves: `Pay Day`, `Faint Attack`, `Swift` [Lv. 12]) |
 | Route 104 (South) | Drowzee ♂ | HYPNOS | 16 | Active | Caught at `(24, 60)` (`50 HP / 21 Atk / 22 Def / 18 SpA / 38 SpD / 23 Spd`, Impish, `Insomnia` [immune to sleep], Moves: `Confusion`, `Hypnosis`, `Seismic Toss` [Lv. 10]) |
 | Petalburg Woods | Hoothoot ♂ | NOCTUA | 15 | Active | Caught at `(23, 35)` (`45 HP / 15 Atk / 16 Def / 17 SpA / 21 SpD / 20 Spd`, Naughty [`+Atk, -SpD`], `Keen Eye`, learned `Aerial Ace` at Lv. 11) |
-| Route 116 | Grimer ♂ | TYPHON | 15 | Active | Caught at `(4, 13)` (`49 HP / 29 Atk / 21 Def / 18 SpA / 22 SpD / 15 Spd`, Timid, `Poison Point`, Moves: `Acid`, `Sludge Bomb` [Lv. 13], `Lick`, `Disable`) |
+| Route 116 | Grimer ♂ | TYPHON | 16 | Active | Caught at `(4, 13)` (`52 HP / 31 Atk / 22 Def / 19 SpA / 23 SpD / 16 Spd`, Timid, `Poison Point`, Moves: `Acid`, `Sludge Bomb` [Lv. 13], `Lick`, `Disable`) |
