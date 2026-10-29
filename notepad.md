@@ -3777,6 +3777,11 @@ A rocket launch complex and space research facility located on the highest easte
 - Bypass & Main Control Room Access (Verified Turn 16669):
   - From stair landing (13, 2), step East to (14, 2) and South down col 14 to row 5.
   - Row 5 is the main open east-west corridor running into the western control room.
+- Main Control Room (cols 0..14, rows 5..8):
+  - Row 5 is the central open east-west thoroughfare connecting stair bypass to western wing.
+  - Computer workstations along rows 6..7 with stools at row 8.
+  - Hostage scientists and civilians at cols 0..4 along rows 2..3.
+  - Steven Stone, Maxie, and Tabitha located at the southwest corner at approx (0, 8..10)!
 
 <hr>
 
