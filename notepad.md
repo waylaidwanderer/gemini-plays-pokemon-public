@@ -3767,6 +3767,14 @@ A rocket launch complex and space research facility located on the highest easte
   - Grunt 4 defeated and standing at (13, 3).
   - Player is at (13, 2) directly in front of the staircase at (13, 1).
   - Stepping Up from (13, 2) ascends to 2F.
+## Discovered Topography & Navigation - 2F
+- Arrival / Stair Landing: Warp from 1F stairs lands player at (13, 2) facing South.
+- 3-Grunt Gauntlet (Verified Turn 16640):
+  - Left Grunt at (12, 2) facing East.
+  - Right Grunt at (14, 2) facing West.
+  - Bottom Grunt at (13, 3) facing North.
+  - Interaction: Triggers dialogue "You're outnumbered three to one, but you still want to take us on?" with [YES/NO] prompt (defaults to YES).
+  - Answering YES initiates the 3-Grunt gauntlet battle! Answering NO dismisses dialogue without battle.
 
 <hr>
 
