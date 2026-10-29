@@ -3769,12 +3769,14 @@ A rocket launch complex and space research facility located on the highest easte
   - Stepping Up from (13, 2) ascends to 2F.
 ## Discovered Topography & Navigation - 2F
 - Arrival / Stair Landing: Warp from 1F stairs lands player at (13, 2) facing South.
-- 3-Grunt Gauntlet (Verified Turns 16640-16657):
-  - Left Grunt at (12, 2), Right Grunt at (14, 2), Bottom Grunt at (13, 3).
-  - Interaction: Dialogue prompt answered YES to start 3-Grunt gauntlet.
+- 3-Grunt Gauntlet Cleared (Turns 16640-16668):
   - Battle 1: Defeated Grunt 1 (Zubat Lv 32, Prize: ¥640; Sage HP 168/168).
   - Battle 2: Defeated Grunt 2 (Mightyena Lv 32, Prize: ¥640; Sage HP 168/168).
-  - Battle 3: Active on Turn 16657 against Grunt 3 ("I bet you want to take a break. But I'm not about to let you do that!").
+  - Battle 3: Defeated Grunt 3 (Baltoy Lv 32, Prize: ¥640; Sage HP 168/168).
+  - All 3 Grunts in the gauntlet defeated!
+- Bypass & Main Control Room Access (Verified Turn 16669):
+  - From stair landing (13, 2), step East to (14, 2) and South down col 14 to row 5.
+  - Row 5 is the main open east-west corridor running into the western control room.
 
 <hr>
 
