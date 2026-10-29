@@ -279,7 +279,18 @@
 
 ---
 
-## Attempt #18 (Starting Turn 4431)
+## Attempt #18 (Starting Turn 4431) — WIPEOUT (Turn 4936)
 - **Deaths:**
   - **MIDAS** (Meowth ♂, Lv. 16, `39 HP`, Normal, `Limber`, `Pay Day`, `Faint Attack`, `Swift`, `Bite`) — Died on Turn 4820 at `(39, 10)` entering Rustboro City from Route 116 to overworld Poison (`PSN`) ticks (`4 -> 0/39 HP`).
     - **Root Cause & Tactical Rule:** After a context summarization boundary on Turn 4820, we saw we were at `(12, 5)` on Route 116 and assumed `MIDAS`'s poison had already been cured before walking there on Turn 4818, instead of checking `Start -> POKéMON` in-game before taking 16 steps into Rustboro City. **Rule:** Always verify party HP and status in-game after a context summarization boundary or before walking when `<CurrentObjectives>` mentions an active status condition.
+  - **LUMINA** (Illumise ♀, Lv. 16, `51 HP`, Bug, `Oblivious`, `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Died on Turn 4936 in Rustboro Gym `(1, 8)` to Hiker Marc's lead `Lv. 15 Onix` (`Rock Tomb` from `20/51 HP` after `Swagger` confusion self-hit) — **TOTAL USABLE PARTY WIPEOUT (Attempt #18 Over; all 5 other teammates `NAIAD` [Lv. 17 Marshtomp], `PETRA` [Lv. 17 Geodude], `TERRA` [Lv. 17 Cubone], `PSYCHE` [Lv. 17 Butterfree], and `AQUILA` [Lv. 20 Fearow] had exceeded the Lv. 16 cap)**.
+- **Root Causes of Attempt #18 Wipe:**
+  1. **Fighting All 10 Route 116 Trainers Before Rustboro Gym:** Clearing all 10 trainers on Route 116 poured `~8,000+ EXP` into our party before we entered Rustboro Gym, pushing `PSYCHE`, `AQUILA`, `TERRA`, `LUMINA`, and `NAIAD` right to the top of Level 16 (`95–99%` to Level 17) before facing the Gym trainers.
+  2. **Rustboro Gym Has 3 Mandatory Trainers (`Josh`, `Tammy`, AND `Hiker Marc` at `(1, 11)`) Awarding `~4,200 EXP` Total:** Hiker Marc at `(1, 11)` faces `Up` across `(1, 8..10)` (blocking the only path `(5, 8) -> (1, 8) -> (1, 4)` around the center wall) and has 5 Pokémon starting with `Lv. 15 Onix` (`Rock Tomb`, `Swagger`). Because `School Kid Josh` (4 Pokémon, `1,110 EXP`), `School Kid Tammy` (5 Pokémon, `1,574 EXP`), and `Hiker Marc` (5 Pokémon, `~1,500 EXP`) award `~4,200 EXP` total, entering Rustboro Gym with a team already at Level 16 guaranteed that 5 of our 6 teammates exceeded Level 16 before reaching Roxanne.
+- **Tactical Rules for Attempt #19:**
+  1. **Enter Rustboro Gym at Level 14–15 (Except `Lv. 16.0 Marshtomp`) & Save Route 116 Trainers Until After Roxanne:** Upon reaching Rustboro City, catch our Route 116 wild encounter at `(4, 13)` (and optionally sneak to Rusturf Tunnel `(47, 8)` by bypassing optional trainers or save Rusturf Tunnel for after Roxanne), evolve `Mudkip -> Lv. 16.0 Marshtomp` (`1,021 EXP` buffer before Lv. 17), and keep our other 4–5 teammates at **Level 14–15.0** (`~1,600 EXP` buffer before Lv. 17 each = `8,000+ EXP` total cap room!). That way, the `~4,200 EXP` from `School Kid Josh`, `School Kid Tammy`, and `Hiker Marc` levels our team from Level 15 to Level 16 inside Rustboro Gym, and any teammate still at Level 15 after Hiker Marc gets 1 Rare Candy to Level 16.0 right before challenging Gym Leader Roxanne with a full 6-Pokémon Level 16 team!
+
+---
+
+## Attempt #19 (Starting Turn 4937)
+- **Deaths:** None
