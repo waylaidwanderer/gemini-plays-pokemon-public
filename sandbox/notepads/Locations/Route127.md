@@ -28,3 +28,4 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Sea Rock 3: Pointed rock at (20, 26) and rounded reef at (18..19, 27..28) west of the trench.
 - Trench & Western Cliff: Dark water dive trench 1 extends from row 14 to row 36 across cols 24..27. South of row 36, open ocean returns to standard deep water waves heading south along col 25; western cliff island runs along cols 18..20.
 - Sea Rock 4: Pointed brown rock at (20, 44) marking the southern tip of the western island cliff; south of row 44 open sea expands west and south.
+- Open Ocean Expanses: Rows 45..50+ along col 25 open into wide unobstructed deep blue sea, continuing south toward Route 128.
