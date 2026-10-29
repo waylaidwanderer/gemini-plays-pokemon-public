@@ -67,6 +67,6 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 - Spawns player at (7, 9) on the 1F entrance mat.
 - Middle Terrace House (Pen Pal / Mail Sister's House): Located on the middle terrace below Space Center. Red door at (67, 25) entered stepping North from (67, 26). Resident boy notes his little sister exchanges mail with a distant friend.
 - Northwest Bluff Houses:
-  - Northern House (Steven Stone's House): Located at cols 18..21, rows 7..9 on the northwest bluff. Red door is at (19, 9), entered stepping North from (19, 10).
-  - Southern House: Located at cols 16..20, rows 14..16 on the northwest bluff.
+  - Northern House (Steven Stone's House): Located at cols 18..21, rows 7..9 on the northwest bluff. Red door is at (19, 9), entered stepping North from (19, 10). HM08 Dive obtained on Turn 16772!
+  - Southern House (Fisherman's House): Located at cols 16..20, rows 14..16 on the northwest bluff. Red door is at (18, 16), entered stepping North from (18, 17). Home of the Super Rod fisherman!
 - Steven Stone's House Interior (Turn 16769): Spawns at (3, 7) on entrance mat facing North. Steven Stone stands at (3, 6) facing South. Speaking to Steven triggers the HM08 Dive gift event!
