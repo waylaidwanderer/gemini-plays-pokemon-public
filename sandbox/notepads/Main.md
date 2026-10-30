@@ -56,9 +56,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ARTEMIS** — Nidoran♀ (Lv. 15, `34/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`2,522 EXP`, `13 EXP` to Lv. 16 `Nidorina`, `618 EXP` to Lv. 17).
-2. **POSEIDON** — Mudkip ♂ (Lv. 16, `21/46 HP`, Water, `Torrent`, Stats at Lv. 16: `46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,142 EXP`, evolves into `Marshtomp` after battle, `999 EXP` to Lv. 17).
-3. **LUMINA** — Illumise ♀ (Lv. 16, `0/51 HP`, Deceased Turn 5513 — deposit in PC Graveyard after battle).
+1. **POSEIDON** — Mudkip ♂ (Lv. 16, `21/46 HP`, Water, `Torrent`, Stats at Lv. 16: `46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,142 EXP`, evolves into `Marshtomp` after battle, `999 EXP` to Lv. 17).
+2. **ARTEMIS** — Nidoran♀ (Lv. 15, `0/45 HP`, Deceased Turn 5514).
+3. **LUMINA** — Illumise ♀ (Lv. 16, `0/51 HP`, Deceased Turn 5513).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
