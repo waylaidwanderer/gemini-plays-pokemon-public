@@ -3807,6 +3807,10 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 4. [ ] Confront and defeat Team Aqua Admin Shelly and Leader Archie.
 5. [ ] Prevent the catastrophic awakening of Kyogre!
 
+## Discovered Topography & Navigation - Room 1 (Entrance Chamber)
+- Surfacing Point: May surfaces at (10, 17) facing South in the entrance water pool.
+- Shoreline: Row 18 is dry cavern ground, flanked by rock walls on west (cols 0..4) and east (cols 16..20).
+
 <hr>
 
 <h1><code>Locations/SlateportCity</code></h1>
