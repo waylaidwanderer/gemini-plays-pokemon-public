@@ -3856,6 +3856,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Calm Water Pool: Tile (11, 19) directly in front of the dock is calm water where Surf is mounted. Testing North current at (11, 18).
 - Current Stream 1: Stepping Up from (11, 19) into (11, 18) carries May North and East to calm tile at (14, 16).
 - Column 14 North Current: Directly North of (14, 16) at (14, 15) is a vertical current flowing North toward the upper basin.
+- Current Stream 2: Stepping East from (14, 16) into (15, 16) carries May East to col 19 and North along the eastern wall to calm tile at (19, 11) facing North.
+- Cave Doorway Sighted: An arched cave doorway is located to the northwest on a rock island around cols 14..15, rows 4..6.
 
 
 <hr>
