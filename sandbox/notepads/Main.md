@@ -50,7 +50,7 @@
 
 ## Active Party
 1. **GLAUCUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Water, `Torrent`, Stats at Lv. 11: `33 HP / 25 Atk / 19 Def / 16 SpA / 19 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **PYTHON** — Ekans ♂ (Lv. 4, `16/16 HP`, Poison, Impish [`+Def, -SpA`], `Shed Skin`, Stats at Lv. 4: `16 HP / 10 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `-`, `-`) — Caught on Route 103 (`(12, 14)`).
+2. **PYTHON** — Ekans ♂ (Lv. 9, `25/25 HP`, Poison, Impish [`+Def, -SpA`], `Shed Skin`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
