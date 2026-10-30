@@ -49,14 +49,7 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **BELLONA** — Cubone ♀ (Lv. 13, `36/36 HP`, Ground, Held: **`Thick Club` (`2x Attack` = `32 effective Atk`!)**, Stats at Lv. 13: `36 HP / 16 Atk (32 w/ Thick Club) / 33 Def / 17 SpA / 21 SpD / 14 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(23, 60)`).
-2. **GLAUCUS** — Mudkip ♂ (Lv. 15, `41/41 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 15: `41 HP / 33 Atk / 24 Def / 21 SpA / 24 SpD / 18 Spd`, Moves: `Bide` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-
-## Deceased (To Be Deposited in Graveyard Box)
-- **DEMETER** — Sandshrew ♀ (Lv. 12, Ground, `Sand Veil`) — Died on Turn 6080 on Route 104 South `(17, 59)` to Fisherman Darian's `Lv. 7 Luvdisc` (`Dive`).
-
-## Deceased (Deposited in Graveyard Box)
-- **PYTHON** — Ekans ♂ (Lv. 11, Poison, Impish, `Shed Skin`) — Died on Turn 6033 on Route 102 `(15, 4)` to Lass Tiana's `Lv. 5 Togepi` (`Metronome -> Explosion`).
+- *(Starting Attempt #24 — choosing Mudkip on Route 101)*
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
