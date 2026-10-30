@@ -3833,6 +3833,14 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
 - Northwest Doorway: Ground-level doorway is centered at Column 6 (cols 5..6, rows 1..2), entered stepping North from (6, 3). Leads to Seafloor Cavern Room 3.
 
+## Discovered Topography & Navigation - Room 3 (Strength & Rock Smash Chamber)
+- Entrance: South entrance doorway from Room 2. Player spawns at (10, 7) facing North.
+- Southern Ledge: Jump ledge at row 8 (light sand notch at 10, 8).
+- Puzzle Elements:
+  - Cracked rocks at (9, 6) and (11, 4).
+  - Strength boulders at (5, 7), (5, 5), (8, 4), (12, 4), (14, 6), (15, 4).
+  - Rock pillar at (10, 5) dividing the west and east puzzle lanes.
+
 
 <hr>
 
