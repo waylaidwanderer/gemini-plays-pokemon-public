@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | APOSEIDON | 11 | Active | Starter received on Route 101 (`33 HP / 23 Atk / 18 Def / 17 SpA / 18 SpD / 13 Spd` at Lv. 11, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Sunkern ♀ | *(None)* | 4 | Fled (Turn 5562) | Encountered at `(11, 14)` on Route 103; fled when `Absorb` dropped `APOSEIDON` to `8/33 HP` (`<= 10` crit range) while `Absorb` drain kept `Sunkern` at `9/17 HP` (`>50%` Green HP) |
-| Route 102 | Hoothoot ♀ | MINERVA | 12 | Active | Caught at `(38, 5)` on Route 102 (Turn 5568; `37 HP / 15 Atk / 11 Def / 16 SpA / 20 SpD / 17 Spd` at Lv. 12, Held: `Oran Berry`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
+| Route 102 | Hoothoot ♀ | MINERVA | 13 | Active | Caught at `(38, 5)` on Route 102 (Turn 5568; `39 HP / 16 Atk / 12 Def / 17 SpA / 23 SpD / 18 Spd` at Lv. 13, Held: `Oran Berry`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
 
 <hr>
 
@@ -70,7 +70,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MINERVA** — Hoothoot ♀ (Lv. 12, `37/37 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 12: `37 HP / 15 Atk / 11 Def / 16 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+1. **MINERVA** — Hoothoot ♀ (Lv. 13, `39/39 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 13: `39 HP / 16 Atk / 12 Def / 17 SpA / 23 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
 2. **APOSEIDON** — Mudkip ♂ (Lv. 11, `33/33 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 11: `33 HP / 23 Atk / 18 Def / 17 SpA / 18 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
