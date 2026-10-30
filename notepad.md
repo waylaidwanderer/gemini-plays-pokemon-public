@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | PROTEUS | 13 | Active | Starter received on Route 101 (`Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 101 | Mudkip ♂ | PROTEUS | 13 | Dead (Turn 5822) | Died to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` after `Magnemite` paralyzed `PROTEUS` to `4 Speed`) |
 | Route 103 | Wingull ♂ | HALCYON | 14 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
 | Route 102 | Gulpin ♀ | CIRCE | 14 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) |
 | Route 104 (South) | Nidoran♀ | DIANA | 12 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
@@ -64,11 +64,11 @@
   3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge (note: in Gen 3, Double Battle trainers cannot challenge you on sight if you only have 1 conscious Pokémon in your party, allowing a 1-Pokémon party to walk past `(27..28, 16)` without triggering them!); have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` [Bottom HP box / Left: `Follow Me`, `Teeter Dance`, `Softboiled`/`Milk Drink`, `Light Screen`, holds `Sitrus Berry`] and `Lv. 8 Smeargle ♂` [Top HP box / Right: `Focus Punch` (~26 damage), `Teeter Dance`, `Reflect`]). **Verified Solutions:** (A) Pair `POSEIDON` (`Bubble` [`Up, Right`, `TARGET_BOTH`]) in Slot 1 with `ARTEMIS` (`Double Kick` [`Down, Right`, 2x SE]) in Slot 2 on Turn 1 to burn Left `Smeargle`'s `Sitrus Berry` and drop it to `~40% HP`; when Right `Smeargle` confuses the field with `Teeter Dance`, switch `POSEIDON` to `LUMINA` (`Illumise`, Bug-type `0.5x` resistance to `Focus Punch`, `31 Speed`, `Seismic Toss`) on Turn 2 (since both of your Pokémon are already confused at the start of Turn 2, `AI_CheckBadMove` prevents `Smeargle` from selecting `Teeter Dance`, so `LUMINA` enters Turn 3 guaranteed unconfused!), while `ARTEMIS` KOs Left `Smeargle` with `Double Kick` and `LUMINA` + `ARTEMIS` finish Right `Smeargle` on Turn 3! (B) Pair `MIDAS` (`Lv. 15 Meowth`, `Swift` [`TARGET_BOTH`]) with `AQUILA`/`TERRA`.
 
 ## Active Party
-1. **PROTEUS** — Mudkip ♂ (Lv. 13, `36/36 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 27 Atk / 21 Def / 21 SpA / 18 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+1. **PROTEUS** — Mudkip ♂ (Lv. 13, `0/36 HP [FAINTED — To be boxed in Graveyard]`, Water, `Torrent`) — Died on Turn 5822 to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit`).
 2. **CIRCE** — Gulpin ♀ (Lv. 14, `45/45 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 14: `45 HP / 20 Atk / 23 Def / 18 SpA / 20 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Down, Left`], `Sludge Bomb` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(39, 6)`).
 3. **HALCYON** — Wingull ♂ (Lv. 14, `35/35 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 14: `35 HP / 15 Atk / 14 Def / 23 SpA / 14 SpD / 31 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
 4. **DIANA** — Nidoran♀ (Lv. 12, `24/36 HP [SLP]`, Poison, `Poison Point`, Stats at Lv. 12: `36 HP / 17 Atk / 17 Def / 15 SpA / 15 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
-5. **PAN** — Oddish ♂ (Lv. 8, `SLP`, Grass/Poison, Moves: `Mega Drain`, `Acid`, `Sleep Powder` / `Stun Spore` / `PoisonPowder`) — Caught in Petalburg Woods (`(22, 35)`).
+5. **PAN** — Oddish ♂ (Lv. 8, `26/26 HP [SLP]`, Grass/Poison, Moves: `Mega Drain`, `Acid`, `Sleep Powder` / `Stun Spore` / `PoisonPowder`) — Caught in Petalburg Woods (`(22, 35)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -426,6 +426,12 @@
   1. **Strict Pre-Gym Rare Candy Cap (`<= Lv. 14` Before Route 104 North, `<= Lv. 15` Entering Rustboro Gym):** NEVER Rare-Candy any caught teammate above **Level 14** prior to Rustboro City! Keep all teammates at **Level 13–14** through Petalburg Woods and Route 104 North so every teammate enters Rustboro Gym at **Level 14–15.0** with `1,500–2,200 EXP` of cap room before Level 17 (`8,000–10,000 EXP` total cap room across 5–6 teammates!). Only evolve `Mudkip -> Lv. 16.0 Marshtomp` (`1,021 EXP` buffer) right before `School Kid Josh`, and Rare-Candy the rest of the party from Level 15 to **Level 16.0** AFTER `Hiker Marc` is defeated!
   2. **Throw `Great Ball` / `Poké Ball` Immediately on Sleeping Self-KO Encounters (`Grimer` / `Pineco`):** In Gen 3, Sleep (`SLP`) lasts `1–4` turns and provides a **`2.0x` catch multiplier**; as soon as a dangerous self-KO wild encounter (`Lv. 9 Grimer` with `Memento` or `Lv. 8 Pineco` with `Selfdestruct`) is asleep (or chipped once), throw a Ball immediately instead of wasting sleep turns switching!
   3. **Use Physical `Tackle` (`Up, Left`) on `Route 103` `Lv. 4 Sunkern`:** `Sunkern` is pure Grass-type (`0.5x` resistant to `Bubble`), so 1 physical `Tackle` from `Lv. 11 Mudkip` drops `Sunkern` cleanly into yellow/red HP for an immediate catch.
+
+---
+
+## Attempt #22 Casualties (Starting Turn 5712)
+- **PROTEUS** (Mudkip ♂, Lv. 13, `36 HP`, `Torrent`, `Water Gun`, `Mud Sport`, `Bubble`, `Tackle`) — Died on Turn 5822 in Petalburg Woods `(26, 23)` to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit`, `8 damage/turn` x 3 turns from `21/36 HP` while `PROTEUS` was paralyzed at `4 Speed`).
+  - **Root Cause & Tactical Lesson:** Kept a paralyzed (`PAR`, `4 Speed`) `Mudkip` in against `Lv. 8 Koffing` and into `Lv. 9 Houndour` (`19 Speed`, `Pursuit` `8 damage` unboosted / `16 damage` on switch-out) at `21/36 HP`, where `40-BP Water Gun` missed the OHKO on `Houndour` and triggered its `Berry Juice`, allowing `Houndour` to land 3 consecutive `8-damage` `Pursuit`s (`21 -> 13 -> 5 -> 0/36 HP`). Always switch out of `Lv. 8 Koffing` into a full-HP unparalyzed Poison-type (`CIRCE`) BEFORE `Lv. 9 Houndour` enters the field, or cure paralysis with a `Cheri Berry` before facing `Houndour`.
 
 <hr>
 
