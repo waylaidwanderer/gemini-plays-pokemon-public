@@ -3615,6 +3615,11 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Western Bypass & Shoreline: Large pointed rock occupies (60..61, 33). Shallow flat extends west to col 59, meeting deep ocean water at col 58 (row 32), providing an immediate launch point to Surf south down col 58 into the southern ocean basin.
 - Southwest Ocean Channel: At (55, 37..40), an open water channel passes south between the southern cliff (col 54, row 41+) and the pointed rock cluster (cols 56..60, rows 39..41), leading into the southern ocean basin.
 - Southwest Rock Collision: Pointed brown rock at (55, 40) blocks straight southbound movement along col 55. Open ocean expands west across cols 45..54, rows 36..39.
+- Southwest Cliff & Water Passage (Verified Turn 16994):
+  - Cliff NW corner is at (47, 40/41); cliff plateau spans cols 47..50+, rows 41..45+.
+  - Grey ripple rock is at (45, 41).
+  - Row 39 is open deep water spanning cols 43..55+.
+  - Column 43 is an unobstructed open north-south ocean highway from row 39 south past row 44 into the southern ocean basin.
 
 <hr>
 
