@@ -56,10 +56,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **SIBYL** — Natu ♀ (Lv. 14, `38/38 HP`, `Modest` [`+SpA, -Atk`], Psychic/Flying, `Synchronize`, holds `Oran Berry`, Stats at Lv. 14: `38 HP / 17 Atk / 19 Def / 30 SpA / 18 SpD / 27 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 116.
-2. **LUMINA** — Illumise ♀ (Lv. 16, `18/51 HP`, Bug, `Oblivious`, Stats at Lv. 16: `51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods (at Lv. 16.0 cap — has 1,037 EXP buffer before Lv. 17).
-3. **ARTEMIS** — Nidoran♀ (Lv. 15, `12/45 HP`, Poison, `Poison Point`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
-4. **POSEIDON** — Mudkip ♂ (Lv. 15, `11/44 HP`, Water, `Torrent`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+1. **LUMINA** — Illumise ♀ (Lv. 16, `18/51 HP`, Bug, `Oblivious`, Stats at Lv. 16: `51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods (at Lv. 16.0 cap).
+2. **ARTEMIS** — Nidoran♀ (Lv. 15, `12/45 HP`, Poison, `Poison Point`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
+3. **POSEIDON** — Mudkip ♂ (Lv. 15, `11/44 HP`, Water, `Torrent`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+4. **SIBYL** — Natu ♀ (Lv. 14, `0/38 HP`, Deceased Turn 5501 — deposit in PC Graveyard after battle).
 5. **ZEPHYR** — Wingull ♂ (Lv. 16, `0/41 HP`, Deceased Turn 5500 — deposit in PC Graveyard after battle).
 
 ## Boxed (Retired Until Cap Advances)
