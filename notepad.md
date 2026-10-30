@@ -3862,7 +3862,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 - Room 4 Loop Discovered: The rock island cave doorway at the end of Current Stream 4 exits back into Room 1 at (10, 1)! This is the return loop chute from the current maze.
 - Column 12 Boulder Pushed to T-junction: Boulder pushed North from (12, 11) to (12, 7). May bypassed East via (13, 8) and (13, 7) into the Northeast Corridor.
-- Row 18 Jump Ledge: Hopping South from (10, 18) lands on the lower floor at row 19. Row 19 extends unobstructed East to col 16/17, connecting directly into the Eastern Avenue toward Grunt 2 and the Northeast Doorway.
+- Row 18 South Boundary: (10, 18) is a solid cliff edge (cannot be walked south). The progression route is via Column 4, clearing the northwest puzzle, and entering the Northwest Doorway at (6, 1) into Room 3.
 
 
 <hr>
