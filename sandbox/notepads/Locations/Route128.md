@@ -59,3 +59,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Eastern Border Verification: Explored to col 100/101 along rows 22..24. Solid mountain cliff wall blocks eastward advance at col 102 (Ever Grande barrier). No dive trenches exist in the eastern sector.
 - Seafloor Cavern Search Target: The Seafloor Cavern dive trench is located in the central archipelago / atoll (cols 60..76, rows 27..40). Routing west along the row 22/23 highway to col 76, then south into the eastern channel of the central reef.
 - Wingull (Lv 10, Water/Flying) - Confirmed on Turn 16940 in deep water at (84, 22); fled on turn 1.
+- Eastern Atoll Channel (Cols 76..77): A deep water channel running south along cols 76..77 between the central reef (col 75) and the eastern rocks/swimmer (cols 78..80), connecting the northern bypass highway (row 22/23) directly into the central atoll lagoon.
