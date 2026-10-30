@@ -41,3 +41,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Trainer in Red: Located at (62, 28) facing North on the shallow flat.
 - Lagoon Bypass Highway (Row 23): Row 23 is a clear open deep water highway running east across cols 61..65+ directly above Sea Rock 7 (row 24) and 5 tiles north of the trainer (row 28).
 - Tentacool (Lv 5, Water/Poison) - Confirmed on Turn 16913 in deep water at (64, 23); fled on turn 1.
+- Eastern Reef Northern Channel: Row 23 is a wide open deep water highway spanning cols 64 to 75+, running 4 tiles north of the central shallow reef (row 27).
