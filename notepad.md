@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | POSEIDON | 11 | Active | Starter received on Route 101 (`35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd` at Lv. 11, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Wingull ♂ | ZEPHYR | 10 | Active | Caught at `(12, 14)` on Route 103 (`29 HP / 13 Atk / 12 Def / 16 SpA / 13 SpD / 23 Spd` at Lv. 10, `Water/Flying`, learns `BubbleBeam` at Lv. 13) |
+| Route 103 | Wingull ♂ | ZEPHYR | 11 | Active | Caught at `(12, 14)` on Route 103 (`31 HP`, `Water/Flying`, learns `BubbleBeam` at Lv. 13) |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Active | Caught at `(38, 6)` on Route 102 (`30 HP / 24 Atk / 23 Def / 9 SpA / 12 SpD / 15 Spd` at Lv. 10, `Ground`, learns `Dig` at Lv. 16) |
 
 <hr>
@@ -70,9 +70,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **TALOS** — Sandshrew ♂ (Lv. 10, `30/30 HP`, Ground, `Sand Veil`, Stats at Lv. 10: `30 HP / 24 Atk / 23 Def / 9 SpA / 12 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
-2. **ZEPHYR** — Wingull ♂ (Lv. 10, `25/29 HP`, Water/Flying, `Keen Eye`, Stats at Lv. 10: `29 HP / 13 Atk / 12 Def / 16 SpA / 13 SpD / 23 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
-3. **POSEIDON** — Mudkip ♂ (Lv. 11, `35/35 HP`, Water, `Torrent`, Stats at Lv. 11: `35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+1. **ZEPHYR** — Wingull ♂ (Lv. 11, `31/31 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
+2. **TALOS** — Sandshrew ♂ (Lv. 10, `30/30 HP`, Ground, `Sand Veil`, Stats at Lv. 10: `30 HP / 24 Atk / 23 Def / 9 SpA / 12 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
+3. **POSEIDON** — Mudkip ♂ (Lv. 11, `35/35 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 11: `35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
