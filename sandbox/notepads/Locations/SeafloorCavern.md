@@ -25,3 +25,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance Pool: Extends from row 10 down to row 18 (south cliff wall at row 19).
 - Northern Shoreline: Located at row 10 (cols 8..12). May disembarks onto land at (10, 10).
 - Northern Avenue: Dry sandy cavern floor extending North from row 9 between rock bluffs at cols 0..4 (west) and cols 16..20 (east).
+- Northern Cave Doorway: Located at (10, 1), entered stepping North from (10, 2). Leads to Seafloor Cavern Room 2.
