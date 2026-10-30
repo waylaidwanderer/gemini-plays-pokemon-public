@@ -56,9 +56,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MINERVA** — Hoothoot ♀ (Lv. 13, `22/39 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 13: `39 HP / 16 Atk / 12 Def / 17 SpA / 23 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-2. **APOSEIDON** — Mudkip ♂ (Lv. 11, `11/33 HP`, Water, `Torrent`, Stats at Lv. 11: `33 HP / 23 Atk / 18 Def / 17 SpA / 18 SpD / 13 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
-3. **PSYCHE** — Spoink ♀ (Lv. 7 -> training to Lv. 12, `12/26 HP`, Psychic, Bashful, `Own Tempo` [prevents confusion], Stats at Lv. 7: `26 HP / 9 Atk / 11 Def / 15 SpA / 17 SpD / 14 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`]) — Caught on Route 104 South (`(22, 61)`).
+1. **MINERVA** — Hoothoot ♀ (Lv. 13, `39/39 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 13: `39 HP / 16 Atk / 12 Def / 17 SpA / 23 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+2. **APOSEIDON** — Mudkip ♂ (Lv. 13, `37/37 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `37 HP / 27 Atk / 21 Def / 20 SpA / 22 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+3. **PSYCHE** — Spoink ♀ (Lv. 13, `40/40 HP`, Psychic, Bashful, `Own Tempo` [prevents confusion], Held: `Oran Berry`, Stats at Lv. 13: `40 HP / 13 Atk / 17 Def / 24 SpA / 27 SpD / 22 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`], `Odor Sleuth` [Slot 3: `Left, Down`]) — Caught on Route 104 South (`(22, 61)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
