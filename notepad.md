@@ -3815,8 +3815,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Northern Cave Doorway: Located at (10, 1), entered stepping North from (10, 2). Leads to Seafloor Cavern Room 2.
 ## Discovered Topography & Navigation - Room 2
 - Entrance: South doorway from Room 1 at (5, 19). Player spawns at (5, 18) facing North.
-- Western Corridor: Cols 4..5 run North past western rock wall.
-- Central Rock Mound: Rises at cols 6..12, rows 10..15.
+- Western Corridor: Col 5 is blocked at row 16 by the southwest corner of the rock mound. The walkable corridor runs along col 4 (rows 17..10+) between the western cliff and central rock mound.
+- Central Rock Mound: Rises at cols 5..12, rows 10..16.
 - Southern Corridor: Row 18 runs East below the central rock mound.
 
 <hr>
