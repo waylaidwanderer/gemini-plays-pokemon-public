@@ -3824,6 +3824,11 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Central Canyon & Second Boulder: Row 11 corridor connects col 5 to col 11. Second Strength boulder sits at (12, 11). The walkable canyon lane runs North along Column 11 (rows 11..5) between the western terrace (Grunt 1 at col 8, row 4) and eastern terrace (Grunt 2 at col 14, row 8 facing East).- Second Boulder Collision: Boulder at (12, 11) is braced against the solid eastern cliff at col 13 and cannot be pushed east. Row 11 is a dead end from the west.
 - Progression Route: Southern Corridor along Row 18 (cols 5..15+) provides the open bypass below the rock mound to access the eastern terrace.
 - Southern Bypass: Row 18 runs East from (5, 18) to (10, 18). Rock corner at (11, 18) is bypassed via row 17 (cols 10..14+) leading into the eastern corridor.
+- Column 12 Canyon: Open dirt lane connecting row 16 up to row 9 between the central mound and eastern pillar.
+- Northern Upper Terrace: Spans cols 6..13, rows 5..7.
+- Team Aqua Grunt 1: Stationed at (6..7, 5) facing East, guarding the Northwest wooden staircase at (7..8, 2).
+- Northwest Doorway: Located at (7..8, 1) at the top of the wooden stairs.
+- Northeast Corridor: Branches northeast past cols 14..18 toward a second doorway.
 
 
 <hr>
