@@ -7,8 +7,8 @@
 | Route 101 | Mudkip ♂ | PROTEUS | 13 | Dead (Turn 5822) | Died to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` after `Magnemite` paralyzed `PROTEUS` to `4 Speed`) |
 | Route 103 | Wingull ♂ | HALCYON | 15 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
 | Route 102 | Gulpin ♀ | CIRCE | 14 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) |
-| Route 104 (South) | Nidoran♀ | DIANA | 12 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
-| Petalburg Woods | Oddish ♂ | PAN | 8 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, evolves into `Gloom` at Lv. 16 learning `Magical Leaf`) |
+| Route 104 (South) | Nidoran♀ | DIANA | 14 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
+| Petalburg Woods | Oddish ♂ | PAN | 14 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`) |
 
 <hr>
 
@@ -66,8 +66,8 @@
 ## Active Party
 1. **CIRCE** — Gulpin ♀ (Lv. 14, `45/45 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 14: `45 HP / 20 Atk / 23 Def / 18 SpA / 20 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Down, Left`], `Sludge Bomb` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(39, 6)`).
 2. **HALCYON** — Wingull ♂ (Lv. 15, `37/37 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 15: `37 HP / 16 Atk / 15 Def / 24 SpA / 14 SpD / 33 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
-3. **DIANA** — Nidoran♀ (Lv. 12, `36/36 HP`, Poison, `Poison Point`, Stats at Lv. 12: `36 HP / 17 Atk / 17 Def / 15 SpA / 15 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
-4. **PAN** — Oddish ♂ (Lv. 8, `26/26 HP`, Grass/Poison) — Caught in Petalburg Woods (`(22, 35)`).
+3. **DIANA** — Nidoran♀ (Lv. 14, `42/42 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
+4. **PAN** — Oddish ♂ (Lv. 14, `39/39 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `Oran Berry`, Stats at Lv. 14: `39 HP / 21 Atk / 22 Def / 30 SpA / 24 SpD / 13 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught in Petalburg Woods (`(22, 35)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*

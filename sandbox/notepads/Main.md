@@ -50,8 +50,8 @@
 ## Active Party
 1. **CIRCE** — Gulpin ♀ (Lv. 14, `45/45 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 14: `45 HP / 20 Atk / 23 Def / 18 SpA / 20 SpD / 17 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Down, Left`], `Sludge Bomb` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(39, 6)`).
 2. **HALCYON** — Wingull ♂ (Lv. 15, `37/37 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 15: `37 HP / 16 Atk / 15 Def / 24 SpA / 14 SpD / 33 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
-3. **DIANA** — Nidoran♀ (Lv. 12, `36/36 HP`, Poison, `Poison Point`, Stats at Lv. 12: `36 HP / 17 Atk / 17 Def / 15 SpA / 15 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
-4. **PAN** — Oddish ♂ (Lv. 8, `26/26 HP`, Grass/Poison) — Caught in Petalburg Woods (`(22, 35)`).
+3. **DIANA** — Nidoran♀ (Lv. 14, `42/42 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
+4. **PAN** — Oddish ♂ (Lv. 14, `39/39 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `Oran Berry`, Stats at Lv. 14: `39 HP / 21 Atk / 22 Def / 30 SpA / 24 SpD / 13 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught in Petalburg Woods (`(22, 35)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
