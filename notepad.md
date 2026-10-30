@@ -1,15 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #20)
+# Route & Area Encounters (Attempt #21)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | POSEIDON | 16 | Active | Starter received on Route 101 (`46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd` at Lv. 16, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Wingull ♂ | ZEPHYR | 16 | Deceased (Turn 5500) | Caught at `(12, 14)` on Route 103; fell in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb`) after chipping `Omanyte` to `~68% HP` with `BubbleBeam` |
-| Route 102 | Sandshrew ♂ | TALOS | 10 | Deceased (Turn 5291) | Caught at `(38, 6)` on Route 102; fainted to overworld poison at `(7, 5)` inside the Petalburg Pokémon Center |
-| Route 104 (South) | Nidoran♀ | ARTEMIS | 15 | Deceased (Turn 5514) | Caught at `(22, 60)` on Route 104 South; fell in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Earthquake`, `20–21 Speed` > `19 Speed`) |
-| Petalburg Woods | Illumise ♀ | LUMINA | 16 | Deceased (Turn 5513) | Caught at `(22, 35)` in Petalburg Woods; fell in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Rock Slide`) |
-| Route 116 | Natu ♀ | SIBYL | 14 | Deceased (Turn 5501) | Caught at `(4, 13)` on Route 116; fell in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb` critical hit) after dropping `Omanyte` to `~18% red HP` with `Psybeam` |
 
 <hr>
 
@@ -73,9 +67,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **POSEIDON** — Mudkip ♂ (Lv. 16, `21/46 HP`, Water, `Torrent`, Stats at Lv. 16: `46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,142 EXP`, evolves into `Marshtomp` after battle, `999 EXP` to Lv. 17).
-2. **ARTEMIS** — Nidoran♀ (Lv. 15, `0/45 HP`, Deceased Turn 5514).
-3. **LUMINA** — Illumise ♀ (Lv. 16, `0/51 HP`, Deceased Turn 5513).
+- *(Starting Attempt #21 — selecting Mudkip on Route 101)*
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -414,6 +406,13 @@
   - **LUMINA** (Illumise ♀, Lv. 16, `51 HP`, Bug, `Oblivious`, `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Died on Turn 5513 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Rock Slide` from `14/51 HP`).
     - **Lesson:** When both `Rock Slide` (`18–22 damage`) and `Earthquake` (`25–30 damage`) can roll a KO (`>= 21 HP`) against a `21/46 HP` target in `Cmd_if_can_faint`, both moves receive the `+4` KO score (`104`) and the AI can pick either move at random. Always evolve `Mudkip -> Lv. 16 Marshtomp` BEFORE fighting School Kid Josh and School Kid Tammy so `Marshtomp` (`Water/Ground`, `0.5x` resistant to `Rock Slide` and `Rock Tomb`, `50 HP`, `27 Def`) can stay in and OHKO Rock-types without needing risky mid-battle pivots.
   - **ARTEMIS** (Nidoran♀, Lv. 15, `45 HP`, Poison, `Poison Point`, `Double Kick`, `Bite`, `Scratch`, `Poison Sting`, held `Oran Berry`) — Died on Turn 5514 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Earthquake` from `34/45 HP`; `Larvitar` outsped `19 Speed`, proving `Lv. 15 Larvitar` has `20–21 Speed`).
+  - **POSEIDON** (Mudkip ♂, Lv. 16, `46 HP`, Water, `Torrent`, `Water Gun`, `Bubble`, `Mud Sport`, `Tackle`) — Died on Turn 5515 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Earthquake` from `21/46 HP`) — **TOTAL PARTY WIPEOUT (Attempt #20 Over)**.
+- **Root Causes of Attempt #20 Wipe:**
+  1. **Losing Route 102 Catch (`TALOS`) to Overworld Poison (Turn 5291):** Left us with 5 catches instead of 6 entering Rustboro City.
+  2. **Not Evolving `POSEIDON` into `Lv. 16.0 Marshtomp` BEFORE School Kid Josh and School Kid Tammy:** Because `POSEIDON` fought School Kid Josh as a `Lv. 15 Mudkip` (`Water`, `44 HP`, `21 Def`, `17 Spd`, `1x` neutral to `Rock Tomb` and `2x` weak to `ThunderPunch`) instead of `Lv. 16.0 Marshtomp` (`Water/Ground`, `50 HP`, `27 Def`, `21 Spd`, `0x` immune to `ThunderPunch`, `0.5x` resistant to `Rock Tomb`/`Rock Slide`, knows `Mud Shot`), we had to pivot `ZEPHYR` and `SIBYL` into `Omanyte`'s `Rock Tomb`, losing both of them; and because `POSEIDON` leveled up to Lv. 16 mid-battle against Tammy's `Aron`, he was still an unevolved `Mudkip` against Tammy's `Lv. 15 Larvitar` (`20–21 Speed`, `Earthquake`, `Rock Slide`).
+- **Tactical Rules for Attempt #21:**
+  1. **Keep All 6 Catches Alive (Routes 101, 103, 102, 104 South, Petalburg Woods, Route 116):** Never walk with a poisoned Pokémon at low HP in the overworld.
+  2. **Evolve `Mudkip -> Lv. 16.0 Marshtomp` (`1,021 EXP` Buffer Before Lv. 17) BEFORE School Kid Josh, While Keeping the Other 5 Teammates at Level 14–15.0:** Reserve `Lv. 16.0 Marshtomp`'s `1,021 EXP` buffer strictly for the dangerous Rock/Ground attackers (`Josh`'s `Lv. 15 Geodude` [`276 EXP`] + shared `Lv. 12 Sudowoodo` [`172 EXP`], `Tammy`'s shared `Lv. 15 Rhyhorn` [`216 EXP`] + `Lv. 15 Larvitar` [`214 EXP`], and `Marc`'s shared `Lv. 15 Onix` [`115 EXP`] = `993 EXP < 1,021 EXP`!), while our other 5 teammates (entering at Level 14–15.0) handle `Zubat`, `Omanyte`, `Aron`, `Corsola`, `Yanma`, `Kabuto`, `Cacnea`, and `Baltoy` and get Rare-Candied to Level 16.0 right after Hiker Marc!
 
 <hr>
 
