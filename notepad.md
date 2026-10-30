@@ -3853,6 +3853,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Shore Platform: Sandy ground extending north from row 21 up to row 17, flanked by rock bluffs on west and east.
 - Water Currents: Subterranean water rapids begin around row 16, flowing through the central water basin.
 - Dock & Water Boundary: Sandy dock extends north to (11, 20). Deep water rapids begin at (11, 19) with a vertical north-flowing current.
+- Calm Water Pool: Tile (11, 19) directly in front of the dock is calm water where Surf is mounted. Testing North current at (11, 18).
 
 
 <hr>
