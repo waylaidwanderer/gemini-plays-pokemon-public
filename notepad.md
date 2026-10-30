@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | POSEIDON | 15 | Active | Starter received on Route 101 (`44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd` at Lv. 15, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Wingull ♂ | ZEPHYR | 16 | Active | Caught at `(12, 14)` on Route 103 (`41 HP / 18 Atk / 16 Def / 23 SpA / 18 SpD / 35 Spd` at Lv. 16, `Water/Flying`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
+| Route 103 | Wingull ♂ | ZEPHYR | 16 | Deceased (Turn 5500) | Caught at `(12, 14)` on Route 103; fell in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb`) after chipping `Omanyte` to `~68% HP` with `BubbleBeam` |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Deceased (Turn 5291) | Caught at `(38, 6)` on Route 102; fainted to overworld poison at `(7, 5)` inside the Petalburg Pokémon Center |
 | Route 104 (South) | Nidoran♀ | ARTEMIS | 15 | Active | Caught at `(22, 60)` on Route 104 South (`45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd` at Lv. 15, `Poison`, `Poison Point`, Moves: `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) |
 | Petalburg Woods | Illumise ♀ | LUMINA | 16 | Active | Caught at `(22, 35)` in Petalburg Woods (`51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd` at Lv. 16, `Oblivious`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) |
@@ -73,11 +73,11 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **POSEIDON** — Mudkip ♂ (Lv. 15, `11/44 HP`, Water, `Torrent`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+1. **SIBYL** — Natu ♀ (Lv. 14, `38/38 HP`, `Modest` [`+SpA, -Atk`], Psychic/Flying, `Synchronize`, holds `Oran Berry`, Stats at Lv. 14: `38 HP / 17 Atk / 19 Def / 30 SpA / 18 SpD / 27 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 116.
 2. **LUMINA** — Illumise ♀ (Lv. 16, `18/51 HP`, Bug, `Oblivious`, Stats at Lv. 16: `51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods (at Lv. 16.0 cap — has 1,037 EXP buffer before Lv. 17).
 3. **ARTEMIS** — Nidoran♀ (Lv. 15, `12/45 HP`, Poison, `Poison Point`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
-4. **ZEPHYR** — Wingull ♂ (Lv. 16, `41/41 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 16: `41 HP / 18 Atk / 16 Def / 23 SpA / 18 SpD / 35 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (at Lv. 16.0 cap — has 586 EXP buffer before Lv. 17).
-5. **SIBYL** — Natu ♀ (Lv. 14, `38/38 HP`, `Modest` [`+SpA, -Atk`], Psychic/Flying, `Synchronize`, holds `Oran Berry`, Stats at Lv. 14: `38 HP / 17 Atk / 19 Def / 30 SpA / 18 SpD / 27 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], `Night Shade` [Slot 3: `Left, Down`]) — Caught on Route 116.
+4. **POSEIDON** — Mudkip ♂ (Lv. 15, `11/44 HP`, Water, `Torrent`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+5. **ZEPHYR** — Wingull ♂ (Lv. 16, `0/41 HP`, Deceased Turn 5500 — deposit in PC Graveyard after battle).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -409,6 +409,8 @@
 - **Deaths:**
   - **TALOS** (Sandshrew ♂, Lv. 10, `30 HP`) — Died on Turn 5291 inside the Petalburg City Pokémon Center `(7, 5)` to overworld Poison (`PSN`) ticks (`1 -> 0/30 HP`), 1 tile short of Nurse Joy after catching `ARTEMIS` (`Lv. 7 Nidoran♀`, `Poison Point`) on Route 104 South `(22, 60)`.
   - **Root Cause & Tactical Rule:** Walked 52 steps from Route 104 South `(22, 60)` back to the Petalburg Pokémon Center while `TALOS` had `13/30 HP` (`PSN`) instead of feeding `TALOS` 1–2 `Rare Candies` in place (`+3–5 HP` in the overworld) or buying `Antidotes` at the Poké Mart before entering Route 104 South. **Rule:** Always carry `Antidotes` and `Potions` from the Poké Mart, and if any poisoned Pokémon is below `20 HP` in the overworld with no Antidote/Potion/Berry available, feed it 1–2 `Rare Candies` in place (`+3–5 HP`) BEFORE walking back to the Pokémon Center!
+  - **ZEPHYR** (Wingull ♂, Lv. 16, `41 HP`, `Water/Flying`, `Keen Eye`, `BubbleBeam`, `Wing Attack`, `Water Gun`, `Quick Attack`) — Died on Turn 5500 in Rustboro Gym `(5, 14)` to School Kid Josh's final Pokémon, `Lv. 14 Omanyte` (`Rock Tomb` from `27/41 HP` after `ZEPHYR` chipped `Omanyte` to `~68% HP` with `BubbleBeam`).
+    - **Lesson:** `Lv. 14 Omanyte`'s 2x Super Effective STAB `Rock Tomb` deals `27–32 damage` to `16 Defense` `Wingull`. Evolving `Mudkip` into `Lv. 16 Marshtomp` (`Water/Ground`, `0.5x` resistant to `Rock Tomb` and knows 2x SE STAB `Mud Shot`!) before fighting the Rustboro Gym trainers prevents needing to pivot fragile Flying-types into `Sudowoodo` / `Omanyte`.
 
 <hr>
 
