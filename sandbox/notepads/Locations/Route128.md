@@ -66,3 +66,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Central Atoll Shallow Sandbar: Entered on foot at (75, 27). A wide, walkable 3-tile wide runway runs west along rows 26..28 past cols 70..65, bounded on the south by rocks at row 29 and a cliff plateau at rows 30..32.
 - Central Atoll Trainer (Verified): Trainer in red cap/shirt confirmed at (64, 28) facing North on the shallow flat. Row 27 is clear along cols 75..65.
 - Fisherman Wayne: Defeated at (64, 27..28) on the central sandbar (Tentacool Lv 31, Wailmer Lv 36; Sage Leaf Blade). Defeat quote: "I'm crestfallen!".
+- Central Sandbar Southbound Runway: From Wayne at (63..64, 28), a wide walkable shallow flat runs south down cols 63..65 between the eastern cliff plateau (cols 66+) and western deep water (cols 60..62), leading directly into the central atoll lagoon.
