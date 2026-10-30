@@ -4,10 +4,10 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | PROTEUS | 5 | Active | Starter received on Route 101 |
-| Route 103 | Wingull ♂ | HALCYON | 4 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, starts with `Water Gun`, `Wing Attack`) |
+| Route 101 | Mudkip ♂ | PROTEUS | 11 | Active | Starter received on Route 101 (`Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 103 | Wingull ♂ | HALCYON | 11 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, `Water Gun`, `Wing Attack`, `Quick Attack`) |
 | Route 102 | Gulpin ♀ | CIRCE | 13 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, starts with `Acid`, `Yawn`, learned `Fire Punch` at Lv. 9) |
-| Route 104 (South) | Nidoran♀ | DIANA | 7 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`) |
+| Route 104 (South) | Nidoran♀ | DIANA | 12 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
 
 <hr>
 
@@ -63,9 +63,9 @@
   3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge (note: in Gen 3, Double Battle trainers cannot challenge you on sight if you only have 1 conscious Pokémon in your party, allowing a 1-Pokémon party to walk past `(27..28, 16)` without triggering them!); have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` [Bottom HP box / Left: `Follow Me`, `Teeter Dance`, `Softboiled`/`Milk Drink`, `Light Screen`, holds `Sitrus Berry`] and `Lv. 8 Smeargle ♂` [Top HP box / Right: `Focus Punch` (~26 damage), `Teeter Dance`, `Reflect`]). **Verified Solutions:** (A) Pair `POSEIDON` (`Bubble` [`Up, Right`, `TARGET_BOTH`]) in Slot 1 with `ARTEMIS` (`Double Kick` [`Down, Right`, 2x SE]) in Slot 2 on Turn 1 to burn Left `Smeargle`'s `Sitrus Berry` and drop it to `~40% HP`; when Right `Smeargle` confuses the field with `Teeter Dance`, switch `POSEIDON` to `LUMINA` (`Illumise`, Bug-type `0.5x` resistance to `Focus Punch`, `31 Speed`, `Seismic Toss`) on Turn 2 (since both of your Pokémon are already confused at the start of Turn 2, `AI_CheckBadMove` prevents `Smeargle` from selecting `Teeter Dance`, so `LUMINA` enters Turn 3 guaranteed unconfused!), while `ARTEMIS` KOs Left `Smeargle` with `Double Kick` and `LUMINA` + `ARTEMIS` finish Right `Smeargle` on Turn 3! (B) Pair `MIDAS` (`Lv. 15 Meowth`, `Swift` [`TARGET_BOTH`]) with `AQUILA`/`TERRA`.
 
 ## Active Party
-1. **CIRCE** — Gulpin ♀ (Lv. 13, `43/43 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 13: `43 HP / 19 Atk / 22 Def / 17 SpA / 19 SpD / 16 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught on Route 102 (`(39, 6)`).
+1. **CIRCE** — Gulpin ♀ (Lv. 13, `33/43 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 13: `43 HP / 19 Atk / 22 Def / 17 SpA / 19 SpD / 16 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught on Route 102 (`(39, 6)`).
 2. **HALCYON** — Wingull ♂ (Lv. 11, `29/29 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 11: `29 HP / 13 Atk / 12 Def / 18 SpA / 12 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`], `Wing Attack` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (`(12, 15)`).
-3. **PROTEUS** — Mudkip ♂ (Lv. 11, `30/32 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 11: `32 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+3. **PROTEUS** — Mudkip ♂ (Lv. 11, `20/32 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 11: `32 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 4. **DIANA** — Nidoran♀ (Lv. 12, `24/36 HP [SLP]`, Poison, `Poison Point`, Stats at Lv. 12: `36 HP / 17 Atk / 17 Def / 15 SpA / 15 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
 
 ## Boxed (Retired Until Cap Advances)
