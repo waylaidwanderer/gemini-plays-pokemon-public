@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PROTEUS | 13 | Dead (Turn 5822) | Died to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` after `Magnemite` paralyzed `PROTEUS` to `4 Speed`) |
-| Route 103 | Wingull ♂ | HALCYON | 16 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
+| Route 103 | Wingull ♂ | HALCYON | 16 | Dead (Turn 5953) | Died to School Kid Tammy's `Lv. 13 Corsola` (`Rock Tomb` `38 damage` from `38/38 HP`) |
 | Route 102 | Gulpin ♀ | CIRCE | 16 | Dead (Turn 5930) | Died to School Kid Josh's `Lv. 14 Omanyte` (`Water Pulse` `19 damage` from `19/51 HP`) |
 | Route 104 (South) | Nidoran♀ | DIANA | 15 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
 | Petalburg Woods | Gloom ♂ | PAN | 16 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`, `Magical Leaf`) |
@@ -66,10 +66,9 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **DIANA** — Nidoran♀ (Lv. 15, `43/43 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 15: `43 HP / 20 Atk / 21 Def / 18 SpA / 18 SpD / 23 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
-2. **HALCYON** — Wingull ♂ (Lv. 16, `38/38 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 16: `38 HP / 17 Atk / 16 Def / 25 SpA / 15 SpD / 35 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
-3. **PAN** — Gloom ♂ (Lv. 16, `48/48 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `Oran Berry`, Stats at Lv. 16: `48 HP / 28 Atk / 30 Def / 37 SpA / 29 SpD / 18 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Down, Left`], `Magical Leaf` [Slot 4: `Down, Right`, 60 BP STAB never-miss Grass Special]) — Caught in Petalburg Woods (`(22, 35)`).
-4. **ZEUS** — Voltorb (Lv. 15, `38/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `Oran Berry`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
+1. **PAN** — Gloom ♂ (Lv. 16, `11/48 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `None`, Stats at Lv. 16: `48 HP / 28 Atk / 30 Def / 37 SpA / 29 SpD / 18 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Down, Left`], `Magical Leaf` [Slot 4: `Down, Right`, 60 BP STAB never-miss Grass Special]) — Caught in Petalburg Woods (`(22, 35)`).
+2. **DIANA** — Nidoran♀ (Lv. 15, `10/43 HP`, Poison, `Poison Point`, Held: `None`, Stats at Lv. 15: `43 HP / 20 Atk / 21 Def / 18 SpA / 18 SpD / 23 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
+3. **ZEUS** — Voltorb (Lv. 15, `11/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `None`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -435,6 +434,8 @@
   - **Root Cause & Tactical Lesson:** Kept a paralyzed (`PAR`, `4 Speed`) `Mudkip` in against `Lv. 8 Koffing` and into `Lv. 9 Houndour` (`19 Speed`, `Pursuit` `8 damage` unboosted / `16 damage` on switch-out) at `21/36 HP`, where `40-BP Water Gun` missed the OHKO on `Houndour` and triggered its `Berry Juice`, allowing `Houndour` to land 3 consecutive `8-damage` `Pursuit`s (`21 -> 13 -> 5 -> 0/36 HP`). Always switch out of `Lv. 8 Koffing` into a full-HP unparalyzed Poison-type (`CIRCE`) BEFORE `Lv. 9 Houndour` enters the field, or cure paralysis with a `Cheri Berry` before facing `Houndour`.
 - **CIRCE** (Gulpin ♀, Lv. 16, `51 HP`, Quiet, `Liquid Ooze`, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) — Died on Turn 5930 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Water Pulse` `19 damage` from `19/51 HP` before `18-Speed` `CIRCE` could land `Yawn`).
   - **Root Cause & Tactical Lesson:** Estimated `Omanyte`'s `Water Pulse` at `15–18 damage` against `23 SpD` based on `Aurora Beam` dealing `13 damage` on the prior turn, when `13` was a low damage roll (`85%`) so `Water Pulse`'s high roll reached `19 damage`. Always assume any enemy attack was a minimum (`85%`) roll when back-calculating future damage (`max_roll = ceil(observed / 0.85)`).
+- **HALCYON** (Wingull ♂, Lv. 16, `38 HP`, `Water/Flying`, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`, held `Oran Berry`) — Died on Turn 5953 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 13 Corsola` (`Rock Tomb` `38 damage` from `38/38 HP` on switch-in).
+  - **Root Cause & Tactical Lesson:** `Lv. 13 Corsola` has `Hustle` (`1.5x` Physical Attack), making its 2x Super Effective STAB `Rock Tomb` deal `38+ damage` (bypassing `HALCYON`'s held `Oran Berry` and OHKOing `16 Defense` `Wingull` from `100% HP`). Never switch a `2x` Rock-weak `Flying`-type into `Lv. 13 Corsola`.
 
 <hr>
 
