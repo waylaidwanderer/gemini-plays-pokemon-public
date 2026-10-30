@@ -71,7 +71,7 @@
 
 ## Active Party
 1. **TALOS** — Sandshrew ♂ (Lv. 10, `30/30 HP`, Ground, `Sand Veil`, Stats at Lv. 10: `30 HP / 24 Atk / 23 Def / 9 SpA / 12 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
-2. **ZEPHYR** — Wingull ♂ (Lv. 10, `29/29 HP`, Water/Flying, `Keen Eye`, Stats at Lv. 10: `29 HP / 13 Atk / 12 Def / 16 SpA / 13 SpD / 23 Spd`, Moves: `Water Gun`, `Wing Attack`, `Quick Attack` [Lv. 7]) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
+2. **ZEPHYR** — Wingull ♂ (Lv. 10, `25/29 HP`, Water/Flying, `Keen Eye`, Stats at Lv. 10: `29 HP / 13 Atk / 12 Def / 16 SpA / 13 SpD / 23 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
 3. **POSEIDON** — Mudkip ♂ (Lv. 11, `35/35 HP`, Water, `Torrent`, Stats at Lv. 11: `35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
