@@ -3617,6 +3617,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Match Calls Received:
   - Turn 16996: Pokémon Breeder Lydia.
   - Turn 17006: Fisherman Elliot at (43, 37).
+  - Turn 17052: Sr. and Jr. Anna & Meg (Anna) at (51, 25).
 
 ## Wild Encounters (Surfing)
 - Tentacool (Lv 5–35, Water/Poison) - Encountered frequently in deep water; fled cleanly on turn 1.
