@@ -1,13 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #23)
+# Route & Area Encounters (Attempt #24)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | GLAUCUS | 15 | Active | Starter (`Met in ROUTE 101`, Turn 5986; `Bide`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Ekans ♂ | PYTHON | 11 | Deceased | Caught at `(12, 14)` on Route 103 (Turn 6000); died on Turn 6033 to Lass Tiana's `Lv. 5 Togepi` (`Metronome -> Explosion`) |
-| Route 102 | Sandshrew ♀ | DEMETER | 12 | Deceased | Caught at `(38, 6)` on Route 102 (Turn 6011); died on Turn 6080 to Fisherman Darian's `Lv. 7 Luvdisc` (`Dive`) |
-| Route 104 (South) | Cubone ♀ | BELLONA | 13 | Active | Caught at `(23, 60)` on Route 104 South (Turn 6051; Ground, holds `Thick Club` [`2x Attack`], `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) |
 
 <hr>
 
@@ -18,7 +14,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #23
+- **Attempt:** #24
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -458,6 +454,14 @@
   - **Context & Lesson:** `Metronome` has a ~`1/250` chance of calling `Explosion` (`250 BP` halving Defense = `500 effective BP`) or `Selfdestruct` (`200 BP` halving Defense = `400 effective BP`). Against `Metronome` users (`Lv. 5 Togepi` on Route 102, `Lv. 8 Cleffa` on Route 104 South, `Lv. 8 Snubbull` on Route 104 North), only a Rock/Steel/Ghost type or a high-Defense/high-HP Pokémon can survive a rolled `Selfdestruct`/`Explosion`, so knock them out in as few turns as possible.
 - **DEMETER** (Sandshrew ♀, Lv. 12, `35 HP`, Ground, `Sand Veil`, `Scratch`, `Poison Sting`, `Sand-Attack`) — Died on Turn 6080 on Route 104 South `(17, 59)` to Fisherman Darian's final Pokémon, `Lv. 7 Luvdisc` (`Dive` from `13/35 HP`), sacrificing herself on `Luvdisc`'s surfacing turn so `18-Speed` `GLAUCUS` (`2/41 HP`) could enter on the surface turn and finish `~10% HP` `Luvdisc` while preserving `GLAUCUS` and `Thick Club` `BELLONA`.
   - **Context & Lesson:** Against Fisherman Darian (`Lv. 9 Magikarp`, `Lv. 8 Feebas`, `Lv. 7 Goldeen`, `Lv. 7 Luvdisc`), always keep `Mudkip` above `10 HP` entering `Lv. 7 Luvdisc` (or bring a Grass/Electric/Flying/Normal pivot with higher Special Defense) so `Mudkip` can absorb `Luvdisc`'s `2-damage` surfacing `Dive`s without needing a sacrifice.
+- **Attempt #23 Post-Mortem (Turn 6091 — Strategic Reset in Petalburg Woods):**
+  - **Root Causes:**
+    1. **Two Early Casualties (`PYTHON` on Turn 6033 to `Togepi`'s `Metronome -> Explosion`, and `DEMETER` on Turn 6080 to Fisherman Darian's `Luvdisc`):** Left us with only 2 surviving Pokémon (`GLAUCUS` and `BELLONA`, both 2x weak to Grass) entering Petalburg Woods, where we encountered a wild `Lv. 8 Oddish` whose STAB `Mega Drain` dealt `14 damage` (`28` crit vs `27/41 HP` `GLAUCUS`) while healing `Oddish` for `+7 HP/turn`.
+    2. **Accidental 3-Rare-Candy Overlevel on `GLAUCUS` (`Lv. 12 -> Lv. 15.0`, Turn 6052):** Because depositing `PYTHON` at the PC did not reset `gPartyMenu.slotId = 2`, pressing `Right, Down` in `BAG -> USE` selected `CANCEL` (resetting the cursor to `Slot 1 GLAUCUS`) and fed 3 Rare Candies (`2,490 EXP` of cap room) into `GLAUCUS`.
+  - **Tactical Rules for Attempt #24:**
+    1. **Always Press `Left` First on the `BAG -> USE` Party Screen (`Anchor on Slot 1`):** Never navigate to `Slot 2` (`Right`) or `Slot 3` (`Right, Down`) without pressing `Left` first to anchor the Party cursor on `Slot 1`.
+    2. **Keep a Grass-Resistant Teammate (`Poison` / `Flying` / `Bug` / `Grass`) Alive Entering Petalburg Woods:** Never try to weaken a wild `Lv. 8 Oddish` (`Mega Drain` deals `14 damage` normal / `28` crit to `24 SpD` `Mudkip`) using 2x Grass-weak Water/Ground types.
+    3. **Never Rare-Candy Any Pokémon Above Level 12 Before Petalburg Woods, or Above Level 14 Before Rustboro City:** Keep all 6 catches alive and at `Lv. 13–14` through Petalburg Woods and Route 104 North so we enter Rustboro Gym with 6 Pokémon and `9,000+ EXP` of cap room before Level 17.
 
 <hr>
 
@@ -571,7 +575,7 @@
     - Tall grass patch: `x=22..25, y=60` and `x=22..24, y=61` (approach from `(38, 61)` via `Left` 4 to `(34, 61)`, `Up` 1 to `(34, 60)`, `Left` 6 along `y=60` above the NPC at `(29, 61)` to `(28, 60)`, `Down` 1 to `(28, 61)`, and `Left` 4 into `(24, 61)`; note `(22..24, 62)` is a tree wall, so to exit `(22, 60..61)` grass-free, step `Right` 3 to `(25, 60..61)` and `Down` to grass-free `(25, 62)`).
     - Stairs to lower beach: `x=28..29, y=69..70` (note `(27, 70)` and `(30, 70)` are the rock posts; walk `Down` along `x=28` to `(28, 71)` to clear the cliff corner at `(25..27, 70)`, then walk `Left` 5 along `y=71` to `(23, 71)` FIRST before walking `Up` 4 to `(23, 67)` to challenge Bird Keeper Billy at `(23, 66)`).
     - **Bird Keeper Billy `(23, 66)`:** Turns toward footsteps on sand; has 3 Lv. 7 Pokémon (`Pidgey` [`Sand-Attack`], `Wingull` [holds `Oran Berry`, `Supersonic`, `Gust`, `Water Gun`, `Pursuit`], `Taillow`).
-    - **Fisherman Darian `(15, 59)`:** Mandatory trainer facing `Right` across the 3-tile beach bottleneck `x=16..18, y=59` (directly above the non-trainer straw-hat NPC at `(15, 60)`). Note that after being defeated from `(17, 59)`, Fisherman Darian stands at `(16, 59)` until the map reloads (to walk north past him from `(17, 59)`, step `Up` 1 to `(17, 58)`, `Left` 1 to `(16, 58)`, and `Up` 6 along `x=16` up the stairs to `(16, 52)`; leaving and re-entering Route 104 South resets him back to `(15, 59)` so `(16, 59)` is clear again; also note that `x=17, y=54..57` is the cliff wall beside the `(16, 52..58)` stairs, so when walking southbound down the stairs, step all 19 tiles `Down` along `x=16..17` to `y=71` before moving `Right` to `(28, 71)` so you clear the `x=20..26, y=59..70` upper cliff wall). Also note that `(28, 58..59)` is a solid ledge corner wall above the beach stairs, so always pass through `(27, 60) <-> (28, 60)` when routing east of the `(22..25, 58..61)` tall grass patch. Has **4 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle`, `>=19 Speed`], `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`, `Icy Wind`], `Lv. 7 Goldeen` [holds `Berry Juice`, `Rain Dance`, `Dive`, `Peck`, `Swift Swim`], and `Lv. 7 Luvdisc` [`Dive`, `Swift Swim`]).
+    - **Fisherman Darian `(15, 59)`:** Mandatory trainer facing `Right` across the 3-tile beach bottleneck `x=16..18, y=59` (directly above the non-trainer straw-hat NPC at `(15, 60)`). Note that after being defeated from `(17, 59)`, Fisherman Darian stands at `(16, 59)` until the map reloads (to walk north past him from `(17, 59)`, step `Up` 1 to `(17, 58)`, `Left` 1 to `(16, 58)`, and `Up` 6 along `x=16` up the stairs to `(16, 52)`; leaving and re-entering Route 104 South resets him back to `(15, 59)` so `(16, 59)` is clear again; also note that `x=17, y=54..57` is the cliff wall beside the `(16, 52..58)` stairs, so when walking southbound down the stairs, step all 19 tiles `Down` along `x=16..17` to `y=71` before moving `Right` to `(28, 71)` so you clear the `x=20..26, y=59..70` upper cliff wall). Also note that `(28, 58..59)` is a solid ledge corner wall above the beach stairs, so always pass through `(27, 60) <-> (28, 60)` when routing east of the `(22..25, 58..61)` tall grass patch. Has **4 Pokémon** (`Lv. 9 Magikarp` [`Bounce`, `Tackle`, `>=19 Speed`], `Lv. 8 Feebas` [holds `Sitrus Berry` +30 HP, knows `Yawn`/`Hypnosis`, `Water Pulse`, `Facade`, `Icy Wind`], `Lv. 7 Goldeen` [holds `Berry Juice`, `Rain Dance`, `Dive`, `Horn Attack`, `Peck`, `Aerial Ace`, `Swift Swim`], and `Lv. 7 Luvdisc` [`Dive`, `Swift Swim`]).
     - **Northern Route 104 South Berry Trees & Lady Cindy (Verified Turns 910–913, 1495, 2264, 3393):** Stairs from beach to Mr. Briney's Cottage are at `x=15..16, y=54` (note `(17, 54)` is the right-hand stair post). From `(16, 52)`, walk `Right` 5 to `(21, 52)` and `Up` 10 along `x=21` to `(21, 42)` to reach the Berry trees at `(22, 41)` (`2 Oran Berries`) and `(24, 41)` (`2 Pecha Berries`). To reach **Lady Cindy `(11, 40)`** with **0 grass tiles** (avoiding the 2 grass tiles at `(15..16, 42)`), walk along row **`y=43`** (`(24, 43) -> (10, 43)`) and then `Up` 3 to `(10, 40)`. Lady Cindy faces `Left` across `(10..11, 40)` before Petalburg Woods (`(10..11, 38)`) and has **3 Pokémon** (`Lv. 8 Cleffa`, `Lv. 8 Pichu`, `Lv. 7 Azurill`, paying `$1,400`).
   - **Petalburg Woods Coordinates & Trainers (Verified Turns 915–921):**
     - South entrance (from Route 104 South `(10, 38)`): `(16, 38)` (or `(17, 38)` from `(11, 38)`).
