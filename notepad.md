@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♂ | POSEIDON | 11 | Active | Starter received on Route 101 (`35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd` at Lv. 11, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Wingull ♂ | ZEPHYR | 12 | Active | Caught at `(12, 14)` on Route 103 (`33 HP / 15 Atk / 13 Def / 19 SpA / 15 SpD / 27 Spd` at Lv. 12, `Water/Flying`, learns `BubbleBeam` at Lv. 13) |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Active | Caught at `(38, 6)` on Route 102 (`30 HP / 24 Atk / 23 Def / 9 SpA / 12 SpD / 15 Spd` at Lv. 10, `Ground`, learns `Dig` at Lv. 16) |
+| Route 104 (South) | Nidoran♀ | ARTEMIS | 7 | Active | Caught at `(22, 60)` on Route 104 South (`Poison`, `Poison Point`, learns `Bite` at Lv. 8, `Double Kick` at Lv. 12, evolves into `Nidorina` at Lv. 16) |
 
 <hr>
 
@@ -73,6 +74,7 @@
 1. **ZEPHYR** — Wingull ♂ (Lv. 12, `33/33 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 12: `33 HP / 15 Atk / 13 Def / 19 SpA / 15 SpD / 27 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
 2. **TALOS** — Sandshrew ♂ (Lv. 10, `30/30 HP`, Ground, `Sand Veil`, Stats at Lv. 10: `30 HP / 24 Atk / 23 Def / 9 SpA / 12 SpD / 15 Spd`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
 3. **POSEIDON** — Mudkip ♂ (Lv. 11, `35/35 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 11: `35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
+4. **ARTEMIS** — Nidoran♀ (Lv. 7, Poison, `Poison Point`, Moves: `Poison Sting`, `Scratch`) — Caught on Route 104 South (learns `Bite` at Lv. 8, `Double Kick` at Lv. 12, evolves into `Nidorina` at Lv. 16!).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
