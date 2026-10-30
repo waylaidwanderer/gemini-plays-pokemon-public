@@ -3836,17 +3836,12 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Discovered Topography & Navigation - Room 3 (Strength & Rock Smash Chamber)
 - Entrance: South entrance doorway from Room 2. Player spawns at (10, 7) facing North.
 - Southern Ledge: Jump ledge at row 8 (light sand notch at 10, 8).
-- Puzzle Elements:
-  - Cracked rocks at (9, 6) and (11, 4).
-  - Strength boulders at (5, 7), (5, 5), (8, 4), (12, 4), (14, 6), (15, 4).
-  - Rock pillar at (10, 5) dividing the west and east puzzle lanes.
-- Central Lane: Column 10 is open at row 6 and row 5. Leads between rock mounds to (10, 4).
-- Northern Doorways: Two doorways visible in north wall: Northwest Doorway (cols 4..5, row 0) and North-Center Doorway (cols 10..11, row 0).
-- Puzzle Solution: From (10, 4), step Left to (9, 4), smash cracked rock at (9, 3) with Rock Smash, clearing a direct lane North to row 0.
-- Column 10 Central Boulder Solution: From (10, 4), face North and push boulder at (10, 3) Up to (10, 2). Step into (10, 3), cut Right to (11, 3), and walk North through (11, 2..0) directly into the North-Center Doorway!
-- Column 10 Dead End: Boulder at (10, 3) is braced against the northern cliff at row 2 and cannot be pushed north.
-- Western Progression Route: Return south to (10, 7), step Left to (9, 7), smash cracked rock at (8, 7) with Rock Smash, and follow the western corridor (cols 6..2) north to the Northwest Doorway at (4..5, 0).
-- Rock Smash at (8, 7): Cracked rock shattered with Rock Smash, clearing access from the entrance (10, 7) west to (6, 7) and into the western corridor.
+- Column 10 Dead End: Column 10 runs North from (10, 7) through (10, 6) and (10, 5) to (10, 4). Boulder at (10, 3) is braced against the northern cliff at row 2 and cannot be pushed north.
+- Western Progression Route: From (10, 7), step Left to (9, 7). Cracked rock at (8, 7) shattered with Rock Smash on Turn 17220!
+- Western Corridor: Tile (8, 7) is open dirt, connecting west into cols 6..7 and north along cols 2..6 toward the Northwest Doorway at row 0.
+
+## Wild Encounters - Seafloor Cavern Room 3
+- Zubat (Lv 28, Poison/Flying) - Encountered on Turn 17214 at (9, 7); fled cleanly on Turn 17216.
 
 
 <hr>
