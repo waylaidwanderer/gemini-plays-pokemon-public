@@ -56,7 +56,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **ZEPHYR** — Wingull ♂ (Lv. 13, `35/35 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 13: `35 HP / 16 Atk / 14 Def / 20 SpA / 15 SpD / 29 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103.
+1. **ZEPHYR** — Wingull ♂ (Lv. 14, `37/37 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 14: `37 HP / 17 Atk / 14 Def / 21 SpA / 16 SpD / 31 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103.
 2. **POSEIDON** — Mudkip ♂ (Lv. 13, `39/39 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 13: `39 HP / 27 Atk / 19 Def / 23 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 3. **ARTEMIS** — Nidoran♀ (Lv. 13, `40/40 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 13: `40 HP / 18 Atk / 20 Def / 16 SpA / 18 SpD / 17 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
 
