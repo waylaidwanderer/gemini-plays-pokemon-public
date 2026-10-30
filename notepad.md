@@ -8,7 +8,7 @@
 | Route 103 | Wingull ♂ | ZEPHYR | 14 | Active | Caught at `(12, 14)` on Route 103 (`37 HP / 17 Atk / 14 Def / 21 SpA / 16 SpD / 31 Spd` at Lv. 14, `Water/Flying`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Deceased (Turn 5291) | Caught at `(38, 6)` on Route 102; fainted to overworld poison at `(7, 5)` inside the Petalburg Pokémon Center |
 | Route 104 (South) | Nidoran♀ | ARTEMIS | 13 | Active | Caught at `(22, 60)` on Route 104 South (`40 HP / 18 Atk / 20 Def / 16 SpA / 18 SpD / 17 Spd` at Lv. 13, `Poison Point`, Moves: `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) |
-| Petalburg Woods | Illumise ♀ | LUMINA | 7 | Active | Caught at `(22, 35)` in Petalburg Woods (`Bug`, `Oblivious`, learns `Silver Wind` at Lv. 9, `Seismic Toss` at Lv. 11, `Moonlight` at Lv. 13) |
+| Petalburg Woods | Illumise ♀ | LUMINA | 13 | Active | Caught at `(22, 35)` in Petalburg Woods (`43 HP / 18 Atk / 23 Def / 30 SpA / 29 SpD / 29 Spd` at Lv. 13, `Oblivious`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) |
 
 <hr>
 
@@ -75,7 +75,7 @@
 1. **ZEPHYR** — Wingull ♂ (Lv. 14, `37/37 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 14: `37 HP / 17 Atk / 14 Def / 21 SpA / 16 SpD / 31 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103.
 2. **POSEIDON** — Mudkip ♂ (Lv. 13, `39/39 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 13: `39 HP / 27 Atk / 19 Def / 23 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 3. **ARTEMIS** — Nidoran♀ (Lv. 13, `40/40 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 13: `40 HP / 18 Atk / 20 Def / 16 SpA / 18 SpD / 17 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
-4. **LUMINA** — Illumise ♀ (Lv. 7, Bug, `Oblivious`, Moves: `Quick Attack`, `Thunder Wave`, `Flatter`) — Caught in Petalburg Woods (learns `Silver Wind` at Lv. 9, `Seismic Toss` at Lv. 11, `Moonlight` at Lv. 13!).
+4. **LUMINA** — Illumise ♀ (Lv. 13, `43/43 HP`, Bug, `Oblivious`, holds `Oran Berry`, Stats at Lv. 13: `43 HP / 18 Atk / 23 Def / 30 SpA / 29 SpD / 29 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
