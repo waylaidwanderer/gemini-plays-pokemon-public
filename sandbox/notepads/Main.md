@@ -59,3 +59,4 @@
 - `Locations/Encounters`: Route-by-route encounter tracking.
 - `Mechanics/Graveyard`: Fallen Pokémon, wipe post-mortems, and run history.
 - `Mechanics/UIAndControls`: Verified naming keyboard grid, warp/cutscene scripting patterns, Pokémon Center healing formula, and Littleroot/Route 101/Oldale/Route 103/Route 102 coordinates.
+2. **PYTHON** — Ekans ♂ (Lv. 4, Poison, `Shed Skin`, Moves: `Pursuit`...) — Caught on Route 103 (`(12, 14)`).
