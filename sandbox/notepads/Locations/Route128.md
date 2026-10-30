@@ -48,3 +48,5 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Sea Rocks at (78..81, 28..30): Pointed brown rocks east of the central reef.
 - Swimmer ♀ (Verified): Facing South at (80, 24). Row 23 passes 1 tile north of her without triggering battle.
 - Sea Rock 8: Grey rock with ripples at roughly (82, 30) southeast of the swimmer.
+- Eastern Rocks: Pointed brown rocks and grey ripple rocks along rows 29..30 south of row 23 (cols 84..89).
+- Northern Cliff (East): Brown cliff base at cols 89..91, rows 18..19 northeast of col 84.
