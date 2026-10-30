@@ -60,3 +60,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Wild Encounters - Seafloor Cavern Room 3
 - Zubat (Lv 28, Poison/Flying) - Encountered on Turn 17214 at (9, 7); fled cleanly on Turn 17216.
 - Room 3 Puzzle Solved: Pushed boulder at (7, 5) Up to (7, 3), stepped Left to (6, 4), and walked North through Column 6 into the Northwest Doorway at (6..7, 0)!
+- Room 3 Final Solution Verified: Pushed boulder at (7, 5) to (7, 4), then to (7, 2). Stepped Left to (6, 3) and walked North through Column 6 into the Northwest Doorway at (6..7, 0)!
