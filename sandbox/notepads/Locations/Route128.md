@@ -53,3 +53,6 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Eastern Grand Channel: A wide 7-tile open water channel runs east along rows 21..26 across cols 85..95+ toward the eastern boundary / Ever Grande City, flanked by rocks to the north (rows 18..19) and south (rows 27..28).
 - Eastern Gate Trainers: Swimmer ♂ at roughly (101, 24) facing West and Swimmer ♀ at roughly (101, 27) guarding the eastern channel approach toward Ever Grande City.
 - Channel Route: Row 22 provides an open water passage 2 tiles north of the Swimmer ♂.
+- Swimmer ♂ (Eastern Gate): Verified at (101, 22) facing West, guarding the entrance to the northern cliff approach.
+- Eastern Channel Exploration Result: The channel along rows 22..24 across cols 80..101 contains no dive trenches and leads toward the Ever Grande City approaches. Seafloor Cavern dive trench lies in the central archipelago / lagoon (cols 60..75).
+- Tentacool (Lv 8, Water/Poison) - Confirmed on Turn 16930 in deep water at (97, 22); fled on turn 1.
