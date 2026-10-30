@@ -31,3 +31,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Western Corridor: Col 5 is blocked at row 16 by the southwest corner of the rock mound. The walkable corridor runs along col 4 (rows 17..10+) between the western cliff and central rock mound.
 - Central Rock Mound: Rises at cols 5..12, rows 10..16.
 - Southern Corridor: Row 18 runs East below the central rock mound.
+- Northwest Puzzle (cols 4..6, rows 10..12):
+  - Boulder at (5, 11) (Strength movable).
+  - Cracked rock at (5, 10) (Rock Smash breakable).
+  - Western bypass: Column 4 leads from row 18 up to row 10.
+  - Team Aqua Grunt sighted on upper terrace around (8..10, 4..6).
