@@ -3635,6 +3635,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Swimmer ♂ (Eastern Gate): Verified at (101, 22) facing West, guarding the entrance to the northern cliff approach.
 - Eastern Channel Exploration Result: The channel along rows 22..24 across cols 80..101 contains no dive trenches and leads toward the Ever Grande City approaches. Seafloor Cavern dive trench lies in the central archipelago / lagoon (cols 60..75).
 - Tentacool (Lv 8, Water/Poison) - Confirmed on Turn 16930 in deep water at (97, 22); fled on turn 1.
+- Eastern Border Verification: Explored to col 100/101 along rows 22..24. Solid mountain cliff wall blocks eastward advance at col 102 (Ever Grande barrier). No dive trenches exist in the eastern sector.
+- Seafloor Cavern Search Target: The Seafloor Cavern dive trench is located in the central archipelago / atoll (cols 60..76, rows 27..40). Routing west along the row 22/23 highway to col 76, then south into the eastern channel of the central reef.
 
 <hr>
 
