@@ -5,6 +5,6 @@
 | Route 101 | Mudkip ♂ | PROTEUS | 13 | Dead (Turn 5822) | Died to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` after `Magnemite` paralyzed `PROTEUS` to `4 Speed`) |
 | Route 103 | Wingull ♂ | HALCYON | 15 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
 | Route 102 | Gulpin ♀ | CIRCE | 15 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) |
-| Route 104 (South) | Nidoran♀ | DIANA | 14 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
-| Petalburg Woods | Oddish ♂ | PAN | 14 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`) |
-| Route 116 | Voltorb | ZEUS | 9 | Active | Caught at `(5, 12)` on Route 116 (Turn 5896; Electric, `Static`, `Shock Wave`) |
+| Route 104 (South) | Nidoran♀ | DIANA | 15 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
+| Petalburg Woods | Oddish ♂ | PAN | 15 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`) |
+| Route 116 | Voltorb | ZEUS | 15 | Active | Caught at `(5, 12)` on Route 116 (Turn 5896; Electric, Rash [`+SpA, -SpD`], `Static`, `ThunderShock`, `Secret Power`, `Shock Wave`, `SonicBoom`) |
