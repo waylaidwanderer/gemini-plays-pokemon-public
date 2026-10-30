@@ -312,4 +312,6 @@
 ---
 
 ## Attempt #20 (Starting Turn 5197)
-- **Deaths:** None
+- **Deaths:**
+  - **TALOS** (Sandshrew ♂, Lv. 10, `30 HP`) — Died on Turn 5291 inside the Petalburg City Pokémon Center `(7, 5)` to overworld Poison (`PSN`) ticks (`1 -> 0/30 HP`), 1 tile short of Nurse Joy after catching `ARTEMIS` (`Lv. 7 Nidoran♀`, `Poison Point`) on Route 104 South `(22, 60)`.
+  - **Root Cause & Tactical Rule:** Walked 52 steps from Route 104 South `(22, 60)` back to the Petalburg Pokémon Center while `TALOS` had `13/30 HP` (`PSN`) instead of feeding `TALOS` 1–2 `Rare Candies` in place (`+3–5 HP` in the overworld) or buying `Antidotes` at the Poké Mart before entering Route 104 South. **Rule:** Always carry `Antidotes` and `Potions` from the Poké Mart, and if any poisoned Pokémon is below `20 HP` in the overworld with no Antidote/Potion/Berry available, feed it 1–2 `Rare Candies` in place (`+3–5 HP`) BEFORE walking back to the Pokémon Center!
