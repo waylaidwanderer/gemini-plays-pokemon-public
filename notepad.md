@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | POSEIDON | 15 | Active | Starter received on Route 101 (`44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd` at Lv. 15, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 101 | Mudkip ♂ | POSEIDON | 16 | Active | Starter received on Route 101 (`46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd` at Lv. 16, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Wingull ♂ | ZEPHYR | 16 | Deceased (Turn 5500) | Caught at `(12, 14)` on Route 103; fell in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb`) after chipping `Omanyte` to `~68% HP` with `BubbleBeam` |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Deceased (Turn 5291) | Caught at `(38, 6)` on Route 102; fainted to overworld poison at `(7, 5)` inside the Petalburg Pokémon Center |
 | Route 104 (South) | Nidoran♀ | ARTEMIS | 15 | Active | Caught at `(22, 60)` on Route 104 South (`45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd` at Lv. 15, `Poison`, `Poison Point`, Moves: `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) |
@@ -73,8 +73,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **POSEIDON** — Mudkip ♂ (Lv. 15, `44/44 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,009 EXP`, `111 EXP` to Lv. 16, `1,132 EXP` to Lv. 17).
-2. **ARTEMIS** — Nidoran♀ (Lv. 15, `45/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`2,389 EXP`, `146 EXP` to Lv. 16 `Nidorina`, `751 EXP` to Lv. 17).
+1. **ARTEMIS** — Nidoran♀ (Lv. 15, `34/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`2,522 EXP`, `13 EXP` to Lv. 16 `Nidorina`, `618 EXP` to Lv. 17).
+2. **POSEIDON** — Mudkip ♂ (Lv. 16, `32/46 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 16: `46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,142 EXP`, evolves into `Marshtomp` after battle, `999 EXP` to Lv. 17).
 3. **LUMINA** — Illumise ♀ (Lv. 16, `51/51 HP`, Bug, `Oblivious`, holds `Oran Berry`, Stats at Lv. 16: `51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods (`3,497 EXP`, `433 EXP` to Lv. 17).
 
 ## Boxed (Retired Until Cap Advances)
