@@ -3614,6 +3614,9 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Channel 3 & Surrounding Reefs: A 4-tile wide deep water channel along cols 55..57 leads north between the Northwest Sandbar (cols 50..53, rows 26..30) and Eastern Reef (cols 58+).
 - Sea Rock 6: Grey rock with water ripples at (59, 29).
 - Trainer Sighted: Trainer in red cap/shirt at (63, 28) standing on the eastern shallow flat.
+- Northern Shallow Reef: Shallow water flat visible at cols 56..60, rows 22..23 directly north of Channel 3.
+- Sea Rock 7: Grey rock with ripples at roughly (63, 25) north of the trainer.
+- Northeast Lagoon Channel: Rows 24..26 form an open deep water channel leading east into the central lagoon between the northern reef (row 23) and southern rocks/trainer (row 28).
 
 <hr>
 
