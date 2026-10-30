@@ -11,3 +11,6 @@ An ocean route in southern Hoenn connecting Route 128 on the north/east to Route
 
 ## Progression Checklist - Route 129
 1. [x] Discovered northern entrance from Route 128 at (32, 1) (Turn 16878).
+
+- Northern entrance from Route 128 also connects at (43, 0..2) (Turn 17001).
+- Note: Bounded on east by southern cliff face of Route 128; grey ripple rocks sit at (38, 3 in R129) and (45, 1 in R129 / R128 border). North is open water back to Route 128.
