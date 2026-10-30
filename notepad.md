@@ -4,6 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
+| Route 101 | Mudkip ♂ | POSEIDON | 5 | Active | Starter received on Route 101 (`20/20 HP` at Lv. 5) |
 
 <hr>
 
@@ -67,7 +68,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-- *(Starting Attempt #21 — selecting Mudkip on Route 101)*
+1. **POSEIDON** — Mudkip ♂ (Lv. 5, `20/20 HP`, Water, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`]) — Starter received on Route 101.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
