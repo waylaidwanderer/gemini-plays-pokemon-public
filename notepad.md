@@ -3802,7 +3802,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 ## Progression Checklist - Seafloor Cavern
 1. [x] Locate underwater cave entrance on Route 128 and discover Submarine Explorer 1 (Turn 17148-17149).
-2. [ ] Surface into Seafloor Cavern Room 1.
+2. [x] Surface into Seafloor Cavern Room 1 (Turn 17150).
 3. [ ] Solve boulder and current puzzles through the cavern chambers.
 4. [ ] Confront and defeat Team Aqua Admin Shelly and Leader Archie.
 5. [ ] Prevent the catastrophic awakening of Kyogre!
