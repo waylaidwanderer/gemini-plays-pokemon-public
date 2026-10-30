@@ -84,3 +84,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Room 2 Thoroughfare: Row 11 connects cleanly between the western corridor (col 4) and Column 12 (col 12).
 - Room 2 Eastern Branch (Verified Turn 17308-17315): Column 13 (col 13, rows 7..16) runs parallel to Column 12. An NPC with green goggles stands at (13, 12). Team Aqua Grunt 2 is stationed at (16, 7..8) facing down/right, guarding the Northeast Doorway.
 - Verified Turn 17320: Field test proved Cobalu's Rock Smash cannot be used on the obstacle at (13, 12) ('Can't use that here.'). Column 13 is blocked at row 12.
+## Reset & Routing Strategy (Turn 17323)
+- Reset Executed: Exited south into Room 1 at (10, 1) to reset all Room 2 puzzle boulders to their pristine initial states.
+- Room 2 Reset State: Boulder returns to (12, 11); Row 7 is completely open at (12, 7); cracked rock resets at (5, 10); boulder resets at (5, 11).
+- Northwest Path: From entrance (5, 18), advance via Column 4 to (4, 10), smash rock at (5, 10), push boulder at (5, 11) down, and navigate via (5, 10) -> (5, 9) / (6, 10) north to Northwest Doorway at (6, 1) into Room 3.
+- Room 4 Objective: Re-traverse Room 3 into Room 4 (Water Currents) to solve the current maze and access the Northeast Cave Doorway leading deeper toward Kyogre's chamber.
