@@ -43,3 +43,6 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Tentacool (Lv 5, Water/Poison) - Confirmed on Turn 16913 in deep water at (64, 23); fled on turn 1.
 - Eastern Reef Northern Channel: Row 23 is a wide open deep water highway spanning cols 64 to 75+, running 4 tiles north of the central shallow reef (row 27).
 - Wingull (Lv 17, Water/Flying) - Confirmed on Turn 16919 in deep water at (70, 23); fled on turn 1.
+- Swimmer ♀ Sighted: Swimmer with red swim cap sighted at roughly (79, 24) east of the central reef.
+- Eastern Reef Termination: Central shallow reef terminates on the east at col 75, with deep water opening south and east.
+- Sea Rocks at (78..81, 28..30): Pointed brown rocks east of the central reef.
