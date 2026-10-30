@@ -44,7 +44,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
 
 ## Wild Encounters - Seafloor Cavern Room 2
-- Zubat (Lv 30, Lv 33, Poison/Flying) - Encountered on turns 17170 and 17186; fled cleanly or defeated with Rock Tomb.
+- Zubat (Lv 30, Lv 31, Lv 33, Poison/Flying) - Encountered on turns 17170, 17186, and 17250; fled cleanly or defeated with Rock Tomb.
 
 ## Trainers - Seafloor Cavern Room 2
 - Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
@@ -59,11 +59,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 ## Wild Encounters - Seafloor Cavern Room 3
 - Zubat (Lv 28, Poison/Flying) - Encountered on Turn 17214 at (9, 7); fled cleanly on Turn 17216.
-- Room 3 Puzzle Solved: Pushed boulder at (7, 5) Up to (7, 3), stepped Left to (6, 4), and walked North through Column 6 into the Northwest Doorway at (6..7, 0)!
-- Room 3 Final Solution Verified: Pushed boulder at (7, 5) to (7, 4), then to (7, 2). Stepped Left to (6, 3) and walked North through Column 6 into the Northwest Doorway at (6..7, 0)!
-- Western Boulder Puzzle Solution: Boulder is located at (4, 5). Approached from (4, 6) directly South. Pushing boulder North along Column 4 into (4, 3) clears access to rows 1..3, opening the path into the Northwest Doorway at (5..6, 0)!
-- Room 3 Northwest Doorway Entered: Successfully bypassed northern boulder and entered the Northwest Doorway at (5..6, 0) into Room 4!
-- Room 3 Solved: Stepped Right from (4, 3) to (6, 3) and walked North through the Northwest Doorway into Room 4!
+- Room 3 Verified Solution: From entrance (10, 7), walk West along row 7 to (9, 7). Smash cracked rock at (8, 7) with Rock Smash. Walk West to (4, 6), push boulder at (4, 5) North to (4, 2), step to (4, 3), cut Right to (5, 3) and (6, 3), and walk North through the Northwest Doorway at (6, 0) into Room 4!
 
 ## Discovered Topography & Navigation - Room 4 (Water Current Chamber)
 - Entrance: South doorway from Room 3 Northwest Doorway. Player spawns at (11, 21) facing North.
@@ -79,7 +75,6 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Northeast Cave Doorway: Sighted at cols 13..15, rows 2..3 in the northern cliff wall.
 - Calm Tile at (8, 12): Arrived via Current Stream 3. Tile (8, 11) directly north is a south-flowing current. Testing East current at (9, 12).
 
-- Room 4 Cleared: Stepping East from (8, 12) into (9, 12) carried May through the rapids directly into the rock island cave doorway, exiting Room 4 into Room 5!
 
 
 - Room 4 Loop Discovered: The rock island cave doorway at the end of Current Stream 4 exits back into Room 1 at (10, 1)! This is the return loop chute from the current maze.
