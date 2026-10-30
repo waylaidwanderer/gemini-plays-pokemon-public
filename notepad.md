@@ -8,7 +8,7 @@
 | Route 103 | Wingull ♂ | ZEPHYR | 16 | Active | Caught at `(12, 14)` on Route 103 (`41 HP / 18 Atk / 16 Def / 23 SpA / 18 SpD / 35 Spd` at Lv. 16, `Water/Flying`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Deceased (Turn 5291) | Caught at `(38, 6)` on Route 102; fainted to overworld poison at `(7, 5)` inside the Petalburg Pokémon Center |
 | Route 104 (South) | Nidoran♀ | ARTEMIS | 15 | Active | Caught at `(22, 60)` on Route 104 South (`45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd` at Lv. 15, `Poison Point`, Moves: `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) |
-| Petalburg Woods | Illumise ♀ | LUMINA | 14 | Active | Caught at `(22, 35)` in Petalburg Woods (`46 HP / 19 Atk / 25 Def / 31 SpA / 31 SpD / 31 Spd` at Lv. 14, `Oblivious`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) |
+| Petalburg Woods | Illumise ♀ | LUMINA | 15 | Active | Caught at `(22, 35)` in Petalburg Woods (`48 HP / 20 Atk / 26 Def / 34 SpA / 33 SpD / 32 Spd` at Lv. 15, `Oblivious`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) |
 
 <hr>
 
@@ -72,10 +72,10 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **POSEIDON** — Mudkip ♂ (Lv. 15, `37/44 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+1. **LUMINA** — Illumise ♀ (Lv. 15, `48/48 HP`, Bug, `Oblivious`, holds `Oran Berry`, Stats at Lv. 15: `48 HP / 20 Atk / 26 Def / 34 SpA / 33 SpD / 32 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods.
 2. **ARTEMIS** — Nidoran♀ (Lv. 15, `45/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
-3. **LUMINA** — Illumise ♀ (Lv. 14, `46/46 HP`, Bug, `Oblivious`, holds `Oran Berry`, Stats at Lv. 14: `46 HP / 19 Atk / 25 Def / 31 SpA / 31 SpD / 31 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods.
-4. **ZEPHYR** — Wingull ♂ (Lv. 16, `41/41 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 16: `41 HP / 18 Atk / 16 Def / 23 SpA / 18 SpD / 35 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (at Lv. 16.0 cap — keep benched on Route 104 North so he stays <= Lv. 16 for Roxanne!).
+3. **POSEIDON** — Mudkip ♂ (Lv. 15, `44/44 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+4. **ZEPHYR** — Wingull ♂ (Lv. 16, `41/41 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 16: `41 HP / 18 Atk / 16 Def / 23 SpA / 18 SpD / 35 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (at Lv. 16.0 cap — has 586 EXP buffer before Lv. 17).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
