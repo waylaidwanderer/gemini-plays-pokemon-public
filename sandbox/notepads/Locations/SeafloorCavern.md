@@ -83,3 +83,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Room 2 Northwest Dead-End (Verified Turn 17289): Tile (4, 9) is a solid cliff wall. Smashed rock at (5, 10) and boulder at (5, 12) only connect Column 4 into Row 11 (cols 5..12), not to the northern terrace.
 - Room 2 Thoroughfare: Row 11 connects cleanly between the western corridor (col 4) and Column 12 (col 12).
 - Room 2 Eastern Branch (Verified Turn 17308-17315): Column 13 (col 13, rows 7..16) runs parallel to Column 12. An NPC with green goggles stands at (13, 12). Team Aqua Grunt 2 is stationed at (16, 7..8) facing down/right, guarding the Northeast Doorway.
+- Verified Turn 17320: Field test proved Cobalu's Rock Smash cannot be used on the obstacle at (13, 12) ('Can't use that here.'). Column 13 is blocked at row 12.
