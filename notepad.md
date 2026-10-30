@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | APOSEIDON | 14 | Active | Starter received on Route 101 (`39 HP / 28 Atk / 22 Def / 21 SpA / 23 SpD / 16 Spd` at Lv. 14, Held: `Oran Berry`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Sunkern ♀ | *(None)* | 4 | Fled (Turn 5562) | Encountered at `(11, 14)` on Route 103; fled when `Absorb` dropped `APOSEIDON` to `8/33 HP` (`<= 10` crit range) while `Absorb` drain kept `Sunkern` at `9/17 HP` (`>50%` Green HP) |
 | Route 102 | Hoothoot ♀ | MINERVA | 15 | Active | Caught at `(38, 5)` on Route 102 (Turn 5568; `44 HP / 18 Atk / 13 Def / 19 SpA / 25 SpD / 20 Spd` at Lv. 15, Held: `Oran Berry`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
-| Route 104 (South) | Spoink ♀ | PSYCHE | 14 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5601; Bashful, `Own Tempo`, `42 HP / 13 Atk / 18 Def / 26 SpA / 29 SpD / 23 Spd` at Lv. 14, Held: `Oran Berry`, Moves: `Confusion`, `Psywave`, `Odor Sleuth`) |
+| Route 104 (South) | Spoink ♀ | PSYCHE | 15 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5601; Bashful, `Own Tempo`, `45 HP / 14 Atk / 18 Def / 27 SpA / 30 SpD / 24 Spd` at Lv. 15, Held: `Oran Berry`, Moves: `Confusion`, `Psywave`, `Odor Sleuth`) |
 | Petalburg Woods | Pineco ♀ | *(None)* | 8 | Fled (Turn 5625) | Encountered at `(21, 35)` in Petalburg Woods; fled immediately due to `Selfdestruct` risk |
 
 <hr>
@@ -74,7 +74,7 @@
 ## Active Party
 1. **APOSEIDON** — Mudkip ♂ (Lv. 14, `39/39 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 14: `39 HP / 28 Atk / 22 Def / 21 SpA / 23 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 2. **MINERVA** — Hoothoot ♀ (Lv. 15, `44/44 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 15: `44 HP / 18 Atk / 13 Def / 19 SpA / 25 SpD / 20 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-3. **PSYCHE** — Spoink ♀ (Lv. 14, `42/42 HP [BRN]`, Psychic, Bashful, `Own Tempo` [prevents confusion], Held: `Oran Berry`, Stats at Lv. 14: `42 HP / 13 Atk / 18 Def / 26 SpA / 29 SpD / 23 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`], `Odor Sleuth` [Slot 3: `Left, Down`]) — Caught on Route 104 South (`(22, 61)`).
+3. **PSYCHE** — Spoink ♀ (Lv. 15, `20/45 HP [BRN]`, Psychic, Bashful, `Own Tempo` [prevents confusion], Held: `Oran Berry`, Stats at Lv. 15: `45 HP / 14 Atk / 18 Def / 27 SpA / 30 SpD / 24 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`], `Odor Sleuth` [Slot 3: `Left, Down`]) — Caught on Route 104 South (`(22, 61)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
