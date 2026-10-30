@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PROTEUS | 5 | Active | Starter received on Route 101 |
 | Route 103 | Wingull ♂ | HALCYON | 4 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, starts with `Water Gun`, `Wing Attack`) |
+| Route 102 | Gulpin ♀ | CIRCE | 6 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, starts with `Pound`, `Yawn`, `Acid`) |
 
 <hr>
 
@@ -61,8 +62,9 @@
   3. **Twins Gina & Mia `(27..28, 15)`:** Mandatory Double Battle facing `Down` across `(27..28, 16)` on the bridge (note: in Gen 3, Double Battle trainers cannot challenge you on sight if you only have 1 conscious Pokémon in your party, allowing a 1-Pokémon party to walk past `(27..28, 16)` without triggering them!); have **2 Lv. 8 Pokémon** (`Lv. 8 Smeargle ♂` [Bottom HP box / Left: `Follow Me`, `Teeter Dance`, `Softboiled`/`Milk Drink`, `Light Screen`, holds `Sitrus Berry`] and `Lv. 8 Smeargle ♂` [Top HP box / Right: `Focus Punch` (~26 damage), `Teeter Dance`, `Reflect`]). **Verified Solutions:** (A) Pair `POSEIDON` (`Bubble` [`Up, Right`, `TARGET_BOTH`]) in Slot 1 with `ARTEMIS` (`Double Kick` [`Down, Right`, 2x SE]) in Slot 2 on Turn 1 to burn Left `Smeargle`'s `Sitrus Berry` and drop it to `~40% HP`; when Right `Smeargle` confuses the field with `Teeter Dance`, switch `POSEIDON` to `LUMINA` (`Illumise`, Bug-type `0.5x` resistance to `Focus Punch`, `31 Speed`, `Seismic Toss`) on Turn 2 (since both of your Pokémon are already confused at the start of Turn 2, `AI_CheckBadMove` prevents `Smeargle` from selecting `Teeter Dance`, so `LUMINA` enters Turn 3 guaranteed unconfused!), while `ARTEMIS` KOs Left `Smeargle` with `Double Kick` and `LUMINA` + `ARTEMIS` finish Right `Smeargle` on Turn 3! (B) Pair `MIDAS` (`Lv. 15 Meowth`, `Swift` [`TARGET_BOTH`]) with `AQUILA`/`TERRA`.
 
 ## Active Party
-1. **PROTEUS** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats at Lv. 11: `32 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
+1. **PROTEUS** — Mudkip ♂ (Lv. 11, `29/32 HP`, Water, `Torrent`, Stats at Lv. 11: `32 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 2. **HALCYON** — Wingull ♂ (Lv. 11, `29/29 HP`, Water/Flying, `Keen Eye`, Stats at Lv. 11: `29 HP / 13 Atk / 12 Def / 18 SpA / 12 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`], `Wing Attack` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (`(12, 15)`).
+3. **CIRCE** — Gulpin ♀ (Lv. 6, Poison, Moves: `Pound` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`]) — Caught on Route 102 (`(39, 6)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
