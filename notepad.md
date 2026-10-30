@@ -3809,7 +3809,9 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 ## Discovered Topography & Navigation - Room 1 (Entrance Chamber)
 - Surfacing Point: May surfaces at (10, 17) facing South in the entrance water pool.
-- Shoreline: Row 18 is dry cavern ground, flanked by rock walls on west (cols 0..4) and east (cols 16..20).
+- Entrance Pool: Extends from row 10 down to row 18 (south cliff wall at row 19).
+- Northern Shoreline: Located at row 10 (cols 8..12). May disembarks onto land at (10, 10).
+- Northern Avenue: Dry sandy cavern floor extending North from row 9 between rock bluffs at cols 0..4 (west) and cols 16..20 (east).
 
 <hr>
 
