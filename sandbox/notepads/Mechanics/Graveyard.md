@@ -362,3 +362,9 @@
   1. **Keep `Mudkip` Alive Through Petalburg Woods (`Never Leave a Paralyzed Pokémon In Against Koffing/Houndour!`) & Evolve Into `Lv. 16.0 Marshtomp` Before Rustboro Gym:** Cure paralysis before `Koffing` faints or switch out of `Koffing` into a full-HP teammate BEFORE `Lv. 9 Houndour` (`Pursuit`) enters so `Mudkip` survives to evolve into `Lv. 16.0 Marshtomp` (`1,021 EXP` buffer before Lv. 17) for Rustboro Gym!
   2. **Always Calculate `max_roll = ceil(observed_damage / 0.85)` When Back-Calculating Enemy Damage:** Never assume an observed hit was a max roll.
   3. **Against School Kid Tammy (`(1, 12)`):** Keep `ZEUS` / our `Yanma` counter at **`100% HP`** on the bench until `Lv. 11 Yanma` enters, and use `Lv. 16 Marshtomp` (`0.5x` resistant to `Rock Tomb`) + `Lv. 16 Gloom` (`18 Speed > 15 Speed`, `4x SE Magical Leaf` / `Mega Drain`) to sweep `Aron`, `Corsola`, `Rhyhorn`, and `Larvitar`.
+
+---
+
+## Attempt #23 Casualties (Starting Turn 5963)
+- **PYTHON** (Ekans ♂, Lv. 11, `28 HP`, Poison, Impish, `Shed Skin`, `Wrap`, `Pursuit`, `Acid`, held `Oran Berry`) — Died on Turn 6033 on Route 102 `(15, 4)` to Lass Tiana's final Pokémon, `Lv. 5 Togepi` (`Metronome -> Explosion` from `25/28 HP`).
+  - **Context & Lesson:** `Metronome` has a ~`1/250` chance of calling `Explosion` (`250 BP` halving Defense = `500 effective BP`) or `Selfdestruct` (`200 BP` halving Defense = `400 effective BP`). Against `Metronome` users (`Lv. 5 Togepi` on Route 102, `Lv. 8 Cleffa` on Route 104 South, `Lv. 8 Snubbull` on Route 104 North), only a Rock/Steel/Ghost type or a high-Defense/high-HP Pokémon can survive a rolled `Selfdestruct`/`Explosion`, so knock them out in as few turns as possible.

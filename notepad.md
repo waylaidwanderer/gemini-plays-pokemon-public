@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | GLAUCUS | 12 | Active | Starter (`Met in ROUTE 101`, Turn 5986; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Ekans ♂ | PYTHON | 11 | Active | Caught at `(12, 14)` on Route 103 (Turn 6000; Poison, Impish [`+Def, -SpA`], `Shed Skin`, `Wrap`, `Pursuit`, `Acid`) |
+| Route 103 | Ekans ♂ | PYTHON | 11 | Deceased | Caught at `(12, 14)` on Route 103 (Turn 6000); died on Turn 6033 to Lass Tiana's `Lv. 5 Togepi` (`Metronome -> Explosion`) |
 | Route 102 | Sandshrew ♀ | DEMETER | 11 | Active | Caught at `(38, 6)` on Route 102 (Turn 6011; Ground, `Sand Veil`, `Scratch`, `Poison Sting`, `Sand-Attack`) |
 
 <hr>
@@ -64,8 +64,10 @@
 
 ## Active Party
 1. **GLAUCUS** — Mudkip ♂ (Lv. 12, `35/35 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `35 HP / 27 Atk / 20 Def / 17 SpA / 20 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **PYTHON** — Ekans ♂ (Lv. 11, `28/28 HP`, Poison, Impish [`+Def, -SpA`], `Shed Skin`, Held: `Oran Berry`, Stats at Lv. 11: `28 HP / 20 Atk / 16 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
-3. **DEMETER** — Sandshrew ♀ (Lv. 11, `33/33 HP`, Ground, `Sand Veil`, Held: `Oran Berry`, Stats at Lv. 11: `33 HP / 20 Atk / 24 Def / 12 SpA / 11 SpD / 16 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Sand-Attack` [Slot 3: `Left, Down`], `-`) — Caught on Route 102 (`(38, 6)`).
+2. **DEMETER** — Sandshrew ♀ (Lv. 11, `33/33 HP`, Ground, `Sand Veil`, Held: `Oran Berry`, Stats at Lv. 11: `33 HP / 20 Atk / 24 Def / 12 SpA / 11 SpD / 16 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Sand-Attack` [Slot 3: `Left, Down`], `-`) — Caught on Route 102 (`(38, 6)`).
+
+## Deceased (To Be Deposited in Graveyard Box)
+- **PYTHON** — Ekans ♂ (Lv. 11, Poison, Impish, `Shed Skin`) — Died on Turn 6033 on Route 102 `(15, 4)` to Lass Tiana's `Lv. 5 Togepi` (`Metronome -> Explosion`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -444,6 +446,12 @@
   1. **Keep `Mudkip` Alive Through Petalburg Woods (`Never Leave a Paralyzed Pokémon In Against Koffing/Houndour!`) & Evolve Into `Lv. 16.0 Marshtomp` Before Rustboro Gym:** Cure paralysis before `Koffing` faints or switch out of `Koffing` into a full-HP teammate BEFORE `Lv. 9 Houndour` (`Pursuit`) enters so `Mudkip` survives to evolve into `Lv. 16.0 Marshtomp` (`1,021 EXP` buffer before Lv. 17) for Rustboro Gym!
   2. **Always Calculate `max_roll = ceil(observed_damage / 0.85)` When Back-Calculating Enemy Damage:** Never assume an observed hit was a max roll.
   3. **Against School Kid Tammy (`(1, 12)`):** Keep `ZEUS` / our `Yanma` counter at **`100% HP`** on the bench until `Lv. 11 Yanma` enters, and use `Lv. 16 Marshtomp` (`0.5x` resistant to `Rock Tomb`) + `Lv. 16 Gloom` (`18 Speed > 15 Speed`, `4x SE Magical Leaf` / `Mega Drain`) to sweep `Aron`, `Corsola`, `Rhyhorn`, and `Larvitar`.
+
+---
+
+## Attempt #23 Casualties (Starting Turn 5963)
+- **PYTHON** (Ekans ♂, Lv. 11, `28 HP`, Poison, Impish, `Shed Skin`, `Wrap`, `Pursuit`, `Acid`, held `Oran Berry`) — Died on Turn 6033 on Route 102 `(15, 4)` to Lass Tiana's final Pokémon, `Lv. 5 Togepi` (`Metronome -> Explosion` from `25/28 HP`).
+  - **Context & Lesson:** `Metronome` has a ~`1/250` chance of calling `Explosion` (`250 BP` halving Defense = `500 effective BP`) or `Selfdestruct` (`200 BP` halving Defense = `400 effective BP`). Against `Metronome` users (`Lv. 5 Togepi` on Route 102, `Lv. 8 Cleffa` on Route 104 South, `Lv. 8 Snubbull` on Route 104 North), only a Rock/Steel/Ghost type or a high-Defense/high-HP Pokémon can survive a rolled `Selfdestruct`/`Explosion`, so knock them out in as few turns as possible.
 
 <hr>
 
