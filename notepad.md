@@ -3861,6 +3861,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 
 - Room 4 Loop Discovered: The rock island cave doorway at the end of Current Stream 4 exits back into Room 1 at (10, 1)! This is the return loop chute from the current maze.
+- Column 12 Boulder Pushed to T-junction: Boulder pushed North from (12, 11) to (12, 7). May bypassed East via (13, 8) and (13, 7) into the Northeast Corridor.
 
 
 <hr>
