@@ -75,3 +75,5 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Column 14 North Current: Directly North of (14, 16) at (14, 15) is a vertical current flowing North toward the upper basin.
 - Current Stream 2: Stepping East from (14, 16) into (15, 16) carries May East to col 19 and North along the eastern wall to calm tile at (19, 11) facing North.
 - Cave Doorway Sighted: An arched cave doorway is located to the northwest on a rock island around cols 14..15, rows 4..6.
+- Current Stream 3: Stepping North from (19, 11) into (19, 10) carries May West across the room to calm water tile at (8, 12) facing North.
+- Northeast Cave Doorway: Sighted at cols 13..15, rows 2..3 in the northern cliff wall.
