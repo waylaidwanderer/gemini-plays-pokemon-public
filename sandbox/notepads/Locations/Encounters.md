@@ -5,3 +5,4 @@
 | Route 101 | Mudkip ♂ | MUDKIP | 12 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | OPHION | 13 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
 | Route 102 | Nidoran♂ | ARES | 12 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
+| Route 104 (South) | Cubone ♀ | BELLONA | 12 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, holds `Thick Club` [`2x Attack`], `Bone Club`, `Rock Throw`, `Secret Power`) |

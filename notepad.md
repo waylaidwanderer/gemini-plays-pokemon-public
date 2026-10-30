@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♂ | MUDKIP | 12 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | OPHION | 13 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
 | Route 102 | Nidoran♂ | ARES | 12 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
+| Route 104 (South) | Cubone ♀ | BELLONA | 12 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, holds `Thick Club` [`2x Attack`], `Bone Club`, `Rock Throw`, `Secret Power`) |
 
 <hr>
 
@@ -64,8 +65,9 @@
 
 ## Active Party
 1. **OPHION** — Ekans ♂ (Lv. 13, `32/32 HP`, Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 13: `32 HP / 22 Atk / 17 Def / 19 SpA / 21 SpD / 24 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
-2. **MUDKIP** — Mudkip ♂ (Lv. 12, `34/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+2. **MUDKIP** — Mudkip ♂ (Lv. 12, `28/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 3. **ARES** — Nidoran♂ (Lv. 12, `34/34 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 22 Atk / 17 Def / 17 SpA / 15 SpD / 16 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+4. **BELLONA** — Cubone ♀ (Lv. 7 -> 12, Ground, Held: **`Thick Club` (`2x Attack`!)**, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Left, Down`], `-`) — Caught on Route 104 South (`(24, 61)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
