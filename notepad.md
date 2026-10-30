@@ -3854,6 +3854,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Water Currents: Subterranean water rapids begin around row 16, flowing through the central water basin.
 - Dock & Water Boundary: Sandy dock extends north to (11, 20). Deep water rapids begin at (11, 19) with a vertical north-flowing current.
 - Calm Water Pool: Tile (11, 19) directly in front of the dock is calm water where Surf is mounted. Testing North current at (11, 18).
+- Current Stream 1: Stepping Up from (11, 19) into (11, 18) carries May North and East to calm tile at (14, 16).
+- Column 14 North Current: Directly North of (14, 16) at (14, 15) is a vertical current flowing North toward the upper basin.
 
 
 <hr>
