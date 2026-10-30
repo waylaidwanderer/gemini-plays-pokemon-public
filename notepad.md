@@ -4117,6 +4117,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
 - Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
 - Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
+- Field Dive Mechanics: Pressing 'B' while surfing on the surface does NOT activate Dive (B is only used while underwater to surface). To submerge from the surface, stand on a dark indigo water tile and either interact with 'A' (triggers prompt: 'The sea is deep here. Would you like to use DIVE?') or open the Party Menu (`Start -> POKéMON -> LILZ -> DIVE`).
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
 1. [x] Arrive in Mauville City and heal/register checkpoint at Pokémon Center.
