@@ -3827,7 +3827,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
 
 ## Wild Encounters - Seafloor Cavern Room 2
-- Zubat (Lv 30, Lv 31, Lv 33, Poison/Flying) - Encountered on turns 17170, 17186, 17250, 17265, and 17277; fled cleanly or defeated with Rock Tomb.
+- Zubat (Lv 30, Lv 31, Lv 33, Poison/Flying) - Encountered on turns 17170, 17186, 17250, 17265, 17277, and 17327 (Lv 33 ♀); fled cleanly via battle_agent or defeated.
 
 ## Trainers - Seafloor Cavern Room 2
 - Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
@@ -3870,8 +3870,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Reset & Routing Strategy (Turn 17323)
 - Reset Executed: Exited south into Room 1 at (10, 1) to reset all Room 2 puzzle boulders to their pristine initial states.
 - Room 2 Reset State: Boulder returns to (12, 11); Row 7 is completely open at (12, 7); cracked rock resets at (5, 10); boulder resets at (5, 11).
-- Northwest Path: From entrance (5, 18), advance via Column 4 to (4, 10), smash rock at (5, 10), push boulder at (5, 11) down, and navigate via (5, 10) -> (5, 9) / (6, 10) north to Northwest Doorway at (6, 1) into Room 3.
-- Room 4 Objective: Re-traverse Room 3 into Room 4 (Water Currents) to solve the current maze and access the Northeast Cave Doorway leading deeper toward Kyogre's chamber.
+- Northwest Path: Smashed rock at (5, 10), pushed boulder at (5, 11) Down to (5, 12). Row 11 connects east toward Column 12.
+- Room 4 Objective: Re-traverse Room 3 into Room 4 (Water Currents) to solve the water currents puzzle and reach the true Northeast Cave Doorway at cols 13..15, leading toward Kyogre's chamber.
 
 <hr>
 
