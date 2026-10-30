@@ -3644,6 +3644,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Eastern Channel Obstacle: At (76, 28) is a grey rock with ripples blocking straight southbound surfing along col 76. To the west, the central shallow reef sandbar is entered at (75, 27) along row 27.
 - Central Atoll Shallow Sandbar: Entered on foot at (75, 27). A wide, walkable 3-tile wide runway runs west along rows 26..28 past cols 70..65, bounded on the south by rocks at row 29 and a cliff plateau at rows 30..32.
 - Central Atoll Trainer (Verified): Trainer in red cap/shirt confirmed at (64, 28) facing North on the shallow flat. Row 27 is clear along cols 75..65.
+- Fisherman Wayne: Defeated at (64, 27..28) on the central sandbar (Tentacool Lv 31, Wailmer Lv 36; Sage Leaf Blade). Defeat quote: "I'm crestfallen!".
 
 <hr>
 
