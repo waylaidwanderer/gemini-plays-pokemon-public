@@ -48,4 +48,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 ## Trainers - Seafloor Cavern Room 2
 - Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
-- Northwest Doorway Approach: Ground-level doorway is located at (7, 1), accessed stepping North from (7, 6) via Column 7 (rows 5..2). Leads to Seafloor Cavern Room 3.
+- Northwest Doorway: Ground-level doorway is centered at Column 6 (cols 5..6, rows 1..2), entered stepping North from (6, 3). Leads to Seafloor Cavern Room 3.
