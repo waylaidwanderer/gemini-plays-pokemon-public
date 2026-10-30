@@ -3597,7 +3597,11 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 5. [ ] Enter Seafloor Cavern and stop Archie and Team Aqua!
 
 ## Topography & Landmarks Summary
-- Northern Entrance & Western Channel: Bounded by Sandbar Reef 1 (cols 21..27, rows 5..9) and Central Ridge (cols 24..27, rows 32..37). Suspected dark water dive trench at (27, 21) near northern entrance channel!
+- Northern Entrance & Western Channel:
+  - Sandbar Reef 1 (cols 21..28, rows 4..9): Shallow sandbar dismounts surf onto foot at (27, 4) and (28, 5). Brown rock occupies cols 24..27 (rows 5..8) with northeast shoulder at (28, 6). Girl trainer in red swimsuit wanders southwest corner around (24, 8).
+  - Column 29 Bypass: Column 29 is completely open deep water from row 4 past row 10, providing an unobstructed eastern bypass around Sandbar Reef 1.
+  - Central Channel: Row 10 is clear open water south of Sandbar Reef 1 across cols 26..30+, connecting back to column 27. Suspected dark water dive trench at (27, 21)!
+  - Central Ridge: Sits at cols 24..27, rows 32..37.
 - Eastern Grand Channel: Rows 21..26 spanning cols 80..101 provide an open deep water highway to the Ever Grande City mountain barrier at col 102.
 - Central Atoll & Island Formation: A massive island and reef structure spanning cols 58..76, rows 26..36.
   - Northern Runway: Row 27 provides a clear walkable sandbar across cols 65..75.
@@ -3627,7 +3631,6 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Mechanics: Surfacing and Diving
 - Overworld Dive Activation: Pressing 'B' while surfing on the surface does NOT activate Dive (B is only for surfacing while already underwater).
 - Verified Submerge Protocol: Stand on a suspected dark water tile and either press 'A' (triggers Dive prompt: 'The sea is deep here. Would you like to use DIVE?') or open the Party Menu (`Start -> POKéMON -> LILZ -> DIVE`). If on valid dive tile, Lilz will use Dive to submerge underwater.
-
 
 <hr>
 
