@@ -35,3 +35,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Wingull (Lv 10–17, Water/Flying) - Encountered frequently in deep water; fled cleanly on turn 1.
 - Western Bypass & Shoreline: Large pointed rock occupies (60..61, 33). Shallow flat extends west to col 59, meeting deep ocean water at col 58 (row 32), providing an immediate launch point to Surf south down col 58 into the southern ocean basin.
 - Southwest Ocean Channel: At (55, 37..40), an open water channel passes south between the southern cliff (col 54, row 41+) and the pointed rock cluster (cols 56..60, rows 39..41), leading into the southern ocean basin.
+- Southwest Rock Collision: Pointed brown rock at (55, 40) blocks straight southbound movement along col 55. Open ocean expands west across cols 45..54, rows 36..39.
