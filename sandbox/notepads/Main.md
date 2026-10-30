@@ -56,8 +56,8 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **APOSEIDON** — Mudkip ♂ (Lv. 14, `39/39 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 14: `39 HP / 28 Atk / 22 Def / 21 SpA / 23 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
-2. **MINERVA** — Hoothoot ♀ (Lv. 15, `44/44 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 15: `44 HP / 18 Atk / 13 Def / 19 SpA / 25 SpD / 20 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+1. **MINERVA** — Hoothoot ♀ (Lv. 16, `27/46 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 16: `46 HP / 19 Atk / 14 Def / 20 SpA / 26 SpD / 21 Spd`, Moves: `Hypnosis` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+2. **APOSEIDON** — Mudkip ♂ (Lv. 14, `13/39 HP [PAR]`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 14: `39 HP / 28 Atk / 22 Def / 21 SpA / 23 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 3. **PSYCHE** — Spoink ♀ (Lv. 15, `20/45 HP [BRN]`, Psychic, Bashful, `Own Tempo` [prevents confusion], Held: `Oran Berry`, Stats at Lv. 15: `45 HP / 14 Atk / 18 Def / 27 SpA / 30 SpD / 24 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`], `Odor Sleuth` [Slot 3: `Left, Down`]) — Caught on Route 104 South (`(22, 61)`).
 
 ## Boxed (Retired Until Cap Advances)
