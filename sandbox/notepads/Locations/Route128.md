@@ -36,7 +36,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Sea Rock 6: Grey rock with water ripples at (59, 29).
 - Trainer Sighted: Trainer in red cap/shirt at (63, 28) standing on the eastern shallow flat.
 - Northern Shallow Reef: Shallow water flat visible at cols 56..60, rows 22..23 directly north of Channel 3.
-- Sea Rock 7: Grey rock with ripples at roughly (63, 25) north of the trainer.
-- Northeast Lagoon Channel: Rows 24..26 form an open deep water channel leading east into the central lagoon between the northern reef (row 23) and southern rocks/trainer (row 28).
 - Northern Sandbar & Rock: Shallow water flat at cols 55..62, rows 19..22 with a large brown rock at (58..60, 19..21).
-- Lagoon Entrance Highway: Row 24 provides a clear 2-tile wide open water highway running east above the ripple rock at (63, 25) and trainer at (63, 28).
+- Sea Rock 7 (Verified): Small grey rock with ripples at (62, 24).
+- Trainer in Red: Located at (62, 28) facing North on the shallow flat.
+- Lagoon Bypass Highway (Row 23): Row 23 is a clear open deep water highway running east across cols 61..65+ directly above Sea Rock 7 (row 24) and 5 tiles north of the trainer (row 28).
