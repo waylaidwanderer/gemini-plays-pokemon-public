@@ -3630,6 +3630,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Eastern Rocks: Pointed brown rocks and grey ripple rocks along rows 29..30 south of row 23 (cols 84..89).
 - Northern Cliff (East): Brown cliff base at cols 89..91, rows 18..19 northeast of col 84.
 - Eastern Grand Channel: A wide 7-tile open water channel runs east along rows 21..26 across cols 85..95+ toward the eastern boundary / Ever Grande City, flanked by rocks to the north (rows 18..19) and south (rows 27..28).
+- Eastern Gate Trainers: Swimmer ♂ at roughly (101, 24) facing West and Swimmer ♀ at roughly (101, 27) guarding the eastern channel approach toward Ever Grande City.
+- Channel Route: Row 22 provides an open water passage 2 tiles north of the Swimmer ♂.
 
 <hr>
 
