@@ -64,7 +64,7 @@
 ## Active Party
 1. **PROTEUS** — Mudkip ♂ (Lv. 11, `29/32 HP`, Water, `Torrent`, Stats at Lv. 11: `32 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 2. **HALCYON** — Wingull ♂ (Lv. 11, `29/29 HP`, Water/Flying, `Keen Eye`, Stats at Lv. 11: `29 HP / 13 Atk / 12 Def / 18 SpA / 12 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`], `Wing Attack` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (`(12, 15)`).
-3. **CIRCE** — Gulpin ♀ (Lv. 11, `38/38 HP`, Poison, Stats at Lv. 11: `38 HP / 17 Atk / 19 Def / 16 SpA / 17 SpD / 14 Spd`, Moves: `Pound` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Fire Punch` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(39, 6)`).
+3. **CIRCE** — Gulpin ♀ (Lv. 11, `38/38 HP`, Poison, Stats at Lv. 11: `38 HP / 17 Atk / 19 Def / 16 SpA / 17 SpD / 14 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught on Route 102 (`(39, 6)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
