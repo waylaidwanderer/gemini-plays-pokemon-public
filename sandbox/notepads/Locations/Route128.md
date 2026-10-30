@@ -52,3 +52,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Brown sea rock sits on shallow reef at (52..53, 28..29); reef spans cols 50..55, rows 27..30 south of the highway.
   - Grey ripple rock at (44..45, 23) sits north of the highway.
   - Safe navigation corridor runs straight East along row 25.
+- Grey Ripple Rock & Bypass (Verified Turn 17059):
+  - Grey ripple rock at (62, 24..25) blocks row 24 and row 25.
+  - Row 26 is completely open deep water across cols 61..68, passing cleanly between the rock (row 25) and Fisherman Wayne (63, 28).
+  - Row 26 serves as the primary eastern water gateway into the central lagoon.
