@@ -8,7 +8,7 @@
 | Route 103 | Wingull ♂ | ZEPHYR | 16 | Deceased (Turn 5500) | Caught at `(12, 14)` on Route 103; fell in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb`) after chipping `Omanyte` to `~68% HP` with `BubbleBeam` |
 | Route 102 | Sandshrew ♂ | TALOS | 10 | Deceased (Turn 5291) | Caught at `(38, 6)` on Route 102; fainted to overworld poison at `(7, 5)` inside the Petalburg Pokémon Center |
 | Route 104 (South) | Nidoran♀ | ARTEMIS | 15 | Active | Caught at `(22, 60)` on Route 104 South (`45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd` at Lv. 15, `Poison`, `Poison Point`, Moves: `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) |
-| Petalburg Woods | Illumise ♀ | LUMINA | 16 | Active | Caught at `(22, 35)` in Petalburg Woods (`51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd` at Lv. 16, `Oblivious`, Moves: `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) |
+| Petalburg Woods | Illumise ♀ | LUMINA | 16 | Deceased (Turn 5513) | Caught at `(22, 35)` in Petalburg Woods; fell in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Rock Slide`) |
 | Route 116 | Natu ♀ | SIBYL | 14 | Deceased (Turn 5501) | Caught at `(4, 13)` on Route 116; fell in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb` critical hit) after dropping `Omanyte` to `~18% red HP` with `Psybeam` |
 
 <hr>
@@ -73,9 +73,9 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **POSEIDON** — Mudkip ♂ (Lv. 16, `21/46 HP`, Water, `Torrent`, Stats at Lv. 16: `46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,142 EXP`, evolves into `Marshtomp` after battle, `999 EXP` to Lv. 17).
-2. **LUMINA** — Illumise ♀ (Lv. 16, `14/51 HP`, Bug, `Oblivious`, Stats at Lv. 16: `51 HP / 21 Atk / 27 Def / 36 SpA / 35 SpD / 34 Spd`, Moves: `Moonlight` [Slot 1: `Up, Left`], `Thunder Wave` [Slot 2: `Up, Right`], `Seismic Toss` [Slot 3: `Down, Left`], `Silver Wind` [Slot 4: `Down, Right`]) — Caught in Petalburg Woods (`3,497 EXP`, `433 EXP` to Lv. 17).
-3. **ARTEMIS** — Nidoran♀ (Lv. 15, `34/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`2,522 EXP`, `13 EXP` to Lv. 16 `Nidorina`, `618 EXP` to Lv. 17).
+1. **ARTEMIS** — Nidoran♀ (Lv. 15, `34/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`2,522 EXP`, `13 EXP` to Lv. 16 `Nidorina`, `618 EXP` to Lv. 17).
+2. **POSEIDON** — Mudkip ♂ (Lv. 16, `21/46 HP`, Water, `Torrent`, Stats at Lv. 16: `46 HP / 32 Atk / 22 Def / 27 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101 (`5,142 EXP`, evolves into `Marshtomp` after battle, `999 EXP` to Lv. 17).
+3. **LUMINA** — Illumise ♀ (Lv. 16, `0/51 HP`, Deceased Turn 5513 — deposit in PC Graveyard after battle).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -411,6 +411,8 @@
     - **Lesson:** `Lv. 14 Omanyte`'s 2x Super Effective STAB `Rock Tomb` deals `27–32 damage` to `16 Defense` `Wingull`. Evolving `Mudkip` into `Lv. 16 Marshtomp` (`Water/Ground`, `0.5x` resistant to `Rock Tomb` and knows 2x SE STAB `Mud Shot`!) before fighting the Rustboro Gym trainers prevents needing to pivot fragile Flying-types into `Sudowoodo` / `Omanyte`.
   - **SIBYL** (Natu ♀, Lv. 14, `38 HP`, `Modest`, `Psychic/Flying`, `Synchronize`, `Psybeam`, `Peck`, `Night Shade`, held `Oran Berry`) — Died on Turn 5501 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Rock Tomb` critical hit from `38/38 HP` after `SIBYL` dropped `Omanyte` to `~18% red HP` with `Psybeam`).
     - **Lesson:** Even when a `Flying`-type can survive a normal `2x` Super Effective `Rock Tomb` (`~25 damage` vs `38 HP`), a `1/16` critical hit (`~50 damage`) bypasses a held `Oran Berry` and OHKOs from `100% HP`. Never use `2x` Rock-weak `Flying`-types against `Rock Tomb` users in Rustboro Gym when `Lv. 16 Marshtomp` (`0.5x` resistant to Rock!) and `Lv. 16 Illumise` (`Moonlight` + `Thunder Wave` + `Seismic Toss`) can beat them without critical-hit OHKO risk.
+  - **LUMINA** (Illumise ♀, Lv. 16, `51 HP`, Bug, `Oblivious`, `Moonlight`, `Thunder Wave`, `Seismic Toss`, `Silver Wind`) — Died on Turn 5513 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 15 Larvitar` (`Rock Slide` from `14/51 HP`).
+    - **Lesson:** When both `Rock Slide` (`18–22 damage`) and `Earthquake` (`25–30 damage`) can roll a KO (`>= 21 HP`) against a `21/46 HP` target in `Cmd_if_can_faint`, both moves receive the `+4` KO score (`104`) and the AI can pick either move at random. Always evolve `Mudkip -> Lv. 16 Marshtomp` BEFORE fighting School Kid Josh and School Kid Tammy so `Marshtomp` (`Water/Ground`, `0.5x` resistant to `Rock Slide` and `Rock Tomb`, `50 HP`, `27 Def`) can stay in and OHKO Rock-types without needing risky mid-battle pivots.
 
 <hr>
 
