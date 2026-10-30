@@ -5,6 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip | MUDKIP | 11 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 103 | Ekans ♂ | OPHION | 10 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `Wrap`, `Pursuit`, `Acid`) |
 
 <hr>
 
@@ -61,7 +62,8 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♂ (Lv. 11, `32/32 HP`, Water, `Torrent`, Stats at Lv. 11: `32 HP / 25 Atk / 16 Def / 18 SpA / 18 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+1. **MUDKIP** — Mudkip ♂ (Lv. 11, `21/32 HP`, Water, `Torrent`, Stats at Lv. 11: `32 HP / 25 Atk / 16 Def / 18 SpA / 18 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+2. **OPHION** — Ekans ♂ (Lv. 4 -> 10, Poison, `Intimidate`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
