@@ -41,3 +41,6 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Grey ripple rock is at (45, 41).
   - Row 39 is open deep water spanning cols 43..55+.
   - Column 43 is an unobstructed open north-south ocean highway from row 39 south past row 44 into the southern ocean basin.
+- Match Calls received while navigating southwestern Route 128:
+  - Turn 16996: Pokémon Breeder Lydia.
+  - Turn 17006: Fisherman Elliot at (43, 37).
