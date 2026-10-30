@@ -192,7 +192,7 @@
 
 ## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Active)
 1. [x] Surf south from Mossdeep City onto Route 127 and Route 128.
-2. [ ] Locate underwater trench on Route 128 and use Dive.
+2. [x] Locate underwater trench on Route 128 at (27, 21), use Dive, and find Submarine Explorer 1 (Turn 17143-17149).
 3. [ ] Infiltrate Seafloor Cavern, navigate boulder puzzles, and confront Team Aqua.
 4. [ ] Prevent Archie from using the Red Orb to awaken Kyogre!
 

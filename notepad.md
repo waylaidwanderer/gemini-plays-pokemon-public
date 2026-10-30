@@ -3591,10 +3591,10 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 
 ## Progression Checklist - Route 128
 1. [x] Enter Route 128 from Route 127 (Turn 16844 at pos 27, 0).
-2. [ ] Locate the deep underwater dive trench on Route 128 (test dark water tiles via Party Menu: POKéMON -> LILZ -> DIVE).
-3. [ ] Use HM08 Dive with Lombre (Lilz) to submerge underwater.
-4. [ ] Locate the underwater cave entrance with the docked Submarine Explorer 1.
-5. [ ] Enter Seafloor Cavern and stop Archie and Team Aqua!
+2. [x] Locate the deep underwater dive trench on Route 128 at (27, 21) (Turn 17143).
+3. [x] Use HM08 Dive with Lombre (Lilz) to submerge underwater into the Route 128 trench (Turn 17144).
+4. [x] Locate the underwater cave entrance to Seafloor Cavern at cols 37..38, row 25 (Turn 17147).
+5. [x] Enter Seafloor Cavern and discover Submarine Explorer 1 (Turn 17149-17152)!
 
 ## Topography & Landmarks Summary
 - Northern Entrance & Western Channel:
@@ -3619,10 +3619,6 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Triathlete ♀ Katelyn: Defeated at (76..77, 24) (Staryu Lv 35, prize ¥1,400). Registered in Match Call.
   - Fisherman Wayne: Defeated at (63..64, 28) (Tentacool Lv 31, Wailmer Lv 36, prize ¥1,440).
 - Other Trainers Sighted: Girl trainer at (21, 8); Swimmer ♂ at (36, 33); Swimmer ♂ at (38, 33); Swimmer ♀ at (79..80, 24); Swimmer ♂ at (101, 23); Swimmer ♀ at (98..101, 27).
-- Match Calls Received:
-  - Turn 16996: Pokémon Breeder Lydia.
-  - Turn 17006: Fisherman Elliot at (43, 37).
-  - Turn 17052: Sr. and Jr. Anna & Meg (Anna) at (51, 25).
 
 ## Wild Encounters (Surfing)
 - Tentacool (Lv 5–35, Water/Poison) - Encountered frequently in deep water; fled cleanly on turn 1.
@@ -4236,7 +4232,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Active)
 1. [x] Surf south from Mossdeep City onto Route 127 and Route 128.
-2. [ ] Locate underwater trench on Route 128 and use Dive.
+2. [x] Locate underwater trench on Route 128 at (27, 21), use Dive, and find Submarine Explorer 1 (Turn 17143-17149).
 3. [ ] Infiltrate Seafloor Cavern, navigate boulder puzzles, and confront Team Aqua.
 4. [ ] Prevent Archie from using the Red Orb to awaken Kyogre!
 
