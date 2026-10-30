@@ -3611,6 +3611,9 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Central Archipelago Western Edge: At cols 56+, sighted a cluster of four pointed sea rocks at cols 55..58, rows 40..42, and an elevated shallow water reef with cliff rocks at cols 58+, rows 30..36. An open deep water channel passes between them along rows 37..38.
 - Central Archipelago Western Barrier: At cols 57..60, rows 38..42 is a dense cluster of pointed sea rocks and a ripple rock at (59, 37). Direct eastward advance along row 37 is blocked at col 59. The clear passage routes North along cols 56..57 around the northern shallow reef.
 - Tentacool (Lv 25, Water/Poison) - Confirmed on Turn 16903 in deep water at (57, 36); fled on turn 1.
+- Channel 3 & Surrounding Reefs: A 4-tile wide deep water channel along cols 55..57 leads north between the Northwest Sandbar (cols 50..53, rows 26..30) and Eastern Reef (cols 58+).
+- Sea Rock 6: Grey rock with water ripples at (59, 29).
+- Trainer Sighted: Trainer in red cap/shirt at (63, 28) standing on the eastern shallow flat.
 
 <hr>
 
