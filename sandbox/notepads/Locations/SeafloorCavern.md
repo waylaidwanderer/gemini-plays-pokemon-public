@@ -84,3 +84,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Discovered Topography & Navigation - Room 5
 - Entrance: North doorway from Room 4 rock island exit. Player spawns at (10, 2) facing South.
 - Topography: Open sandy cavern floor extending South between rock walls.
+- Shoreline & Lake: Shallow water extends across row 8 and row 9. Deep water begins at row 10 across cols 7..13. Mounting Surf at (10, 10) to explore South across the underground lake.
