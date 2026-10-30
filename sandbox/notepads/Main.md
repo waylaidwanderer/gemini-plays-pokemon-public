@@ -50,7 +50,7 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 11, `21/32 HP`, Water, `Torrent`, Stats at Lv. 11: `32 HP / 25 Atk / 16 Def / 18 SpA / 18 SpD / 16 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **OPHION** — Ekans ♂ (Lv. 4 -> 10, Poison, `Intimidate`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
+2. **OPHION** — Ekans ♂ (Lv. 11, Poison, `Intimidate`, `+Speed` nature, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
