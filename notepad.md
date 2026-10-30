@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | PROTEUS | 13 | Dead (Turn 5822) | Died to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` after `Magnemite` paralyzed `PROTEUS` to `4 Speed`) |
 | Route 103 | Wingull ♂ | HALCYON | 15 | Active | Caught at `(12, 15)` on Route 103 (Turn 5751; Water/Flying, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`) |
-| Route 102 | Gulpin ♀ | CIRCE | 15 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) |
+| Route 102 | Gulpin ♀ | CIRCE | 16 | Dead (Turn 5930) | Died to School Kid Josh's `Lv. 14 Omanyte` (`Water Pulse` `19 damage` from `19/51 HP`) |
 | Route 104 (South) | Nidoran♀ | DIANA | 15 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
 | Petalburg Woods | Oddish ♂ | PAN | 15 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`) |
 | Route 116 | Voltorb | ZEUS | 15 | Active | Caught at `(5, 12)` on Route 116 (Turn 5896; Electric, Rash [`+SpA, -SpD`], `Static`, `ThunderShock`, `Secret Power`, `Shock Wave`, `SonicBoom`) |
@@ -69,8 +69,7 @@
 1. **HALCYON** — Wingull ♂ (Lv. 16, `38/38 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 16: `38 HP / 17 Atk / 16 Def / 25 SpA / 15 SpD / 35 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
 2. **PAN** — Oddish ♂ (Lv. 15, `41/41 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `Oran Berry`, Stats at Lv. 15: `41 HP / 22 Atk / 24 Def / 32 SpA / 25 SpD / 14 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught in Petalburg Woods (`(22, 35)`).
 3. **DIANA** — Nidoran♀ (Lv. 15, `43/43 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 15: `43 HP / 20 Atk / 21 Def / 18 SpA / 18 SpD / 23 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
-4. **ZEUS** — Voltorb (Lv. 15, `38/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `Oran Berry`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
-5. **CIRCE** — Gulpin ♀ (Lv. 16, `32/51 HP`, Poison, Quiet [`+SpA, -Spd`], `Liquid Ooze`, Held: `None`, Stats at Lv. 16: `51 HP / 22 Atk / 26 Def / 20 SpA / 23 SpD / 18 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Down, Left`], `Sludge Bomb` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(39, 6)`).
+4. **ZEUS** — Voltorb (Lv. 15, `19/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `None`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -434,6 +433,8 @@
 ## Attempt #22 Casualties (Starting Turn 5712)
 - **PROTEUS** (Mudkip ♂, Lv. 13, `36 HP`, `Torrent`, `Water Gun`, `Mud Sport`, `Bubble`, `Tackle`) — Died on Turn 5822 in Petalburg Woods `(26, 23)` to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit`, `8 damage/turn` x 3 turns from `21/36 HP` while `PROTEUS` was paralyzed at `4 Speed`).
   - **Root Cause & Tactical Lesson:** Kept a paralyzed (`PAR`, `4 Speed`) `Mudkip` in against `Lv. 8 Koffing` and into `Lv. 9 Houndour` (`19 Speed`, `Pursuit` `8 damage` unboosted / `16 damage` on switch-out) at `21/36 HP`, where `40-BP Water Gun` missed the OHKO on `Houndour` and triggered its `Berry Juice`, allowing `Houndour` to land 3 consecutive `8-damage` `Pursuit`s (`21 -> 13 -> 5 -> 0/36 HP`). Always switch out of `Lv. 8 Koffing` into a full-HP unparalyzed Poison-type (`CIRCE`) BEFORE `Lv. 9 Houndour` enters the field, or cure paralysis with a `Cheri Berry` before facing `Houndour`.
+- **CIRCE** (Gulpin ♀, Lv. 16, `51 HP`, Quiet, `Liquid Ooze`, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) — Died on Turn 5930 in Rustboro Gym `(5, 14)` to School Kid Josh's `Lv. 14 Omanyte` (`Water Pulse` `19 damage` from `19/51 HP` before `18-Speed` `CIRCE` could land `Yawn`).
+  - **Root Cause & Tactical Lesson:** Estimated `Omanyte`'s `Water Pulse` at `15–18 damage` against `23 SpD` based on `Aurora Beam` dealing `13 damage` on the prior turn, when `13` was a low damage roll (`85%`) so `Water Pulse`'s high roll reached `19 damage`. Always assume any enemy attack was a minimum (`85%`) roll when back-calculating future damage (`max_roll = ceil(observed / 0.85)`).
 
 <hr>
 
