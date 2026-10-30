@@ -3872,6 +3872,13 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Room 2 Reset State: Boulder returns to (12, 11); Row 7 is completely open at (12, 7); cracked rock resets at (5, 10); boulder resets at (5, 11).
 - Northwest Path: Smashed rock at (5, 10), pushed boulder at (5, 11) Down to (5, 12). Row 11 connects east toward Column 12.
 - Room 4 Objective: Re-traverse Room 3 into Room 4 (Water Currents) to solve the water currents puzzle and reach the true Northeast Cave Doorway at cols 13..15, leading toward Kyogre's chamber.
+## Room 2 Verified Puzzle Solution
+1. Advance via Column 4 to (4, 10), face East and smash cracked rock at (5, 10) with Rock Smash.
+2. Step onto (5, 10), face South and push Boulder 1 Down from (5, 11) to (5, 12).
+3. Step onto (5, 11) and walk East along Row 11 to (11, 11).
+4. Face East and push Boulder 2 East from (12, 11) into the alcove at (13, 11).
+5. Column 12 is now completely clear! Walk North up Column 12 from (12, 12) to (12, 7), then West along Row 7 to (6, 7), and North to Northwest Doorway at (6, 1) into Room 3!
+
 
 <hr>
 
