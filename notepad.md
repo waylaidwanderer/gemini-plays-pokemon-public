@@ -1,15 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #21)
+# Route & Area Encounters (Attempt #22)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | APOSEIDON | 14 | Active | Starter received on Route 101 (`39 HP / 28 Atk / 22 Def / 21 SpA / 23 SpD / 16 Spd` at Lv. 14, Held: `Oran Berry`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Sunkern ♀ | *(None)* | 4 | Fled (Turn 5562) | Encountered at `(11, 14)` on Route 103; fled when `Absorb` dropped `APOSEIDON` to `8/33 HP` (`<= 10` crit range) while `Absorb` drain kept `Sunkern` at `9/17 HP` (`>50%` Green HP) |
-| Route 102 | Hoothoot ♀ | MINERVA | 16 | Active | Caught at `(38, 5)` on Route 102 (Turn 5568; `46 HP / 19 Atk / 14 Def / 20 SpA / 26 SpD / 21 Spd` at Lv. 16, Held: `Oran Berry`, Moves: `Hypnosis`, `Peck`, `Confusion`, `Aerial Ace`) |
-| Route 104 (South) | Spoink ♀ | PSYCHE | 16 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5601; Bashful, `Own Tempo`, `47 HP / 15 Atk / 19 Def / 29 SpA / 32 SpD / 26 Spd` at Lv. 16, Held: `Oran Berry`, Moves: `Confusion`, `Psywave`, `Odor Sleuth`, `Psybeam`) |
-| Petalburg Woods | Pineco ♀ | *(None)* | 8 | Fled (Turn 5625) | Encountered at `(21, 35)` in Petalburg Woods; fled immediately due to `Selfdestruct` risk |
-| Route 116 | Grimer ♀ | *(None)* | 9 | Fainted (Turn 5688) | Encountered at `(4, 13)` on Route 116; put to sleep with `Hypnosis` and chipped to `65% HP` with `Peck`, then woke up after a 1-turn sleep on our switch to `APOSEIDON` and fainted itself with `Memento` |
 
 <hr>
 
@@ -20,7 +14,7 @@
 ## Run Status
 - **Game:** Pokémon Emerald (Emerald Kaizo / Modified ruleset: In-battle Bag healing items are DISABLED [Cancel only]; wild/trainer Pokémon have custom movesets & held items!)
 - **Player Name:** ORION (Boy / Brendan)
-- **Attempt:** #21
+- **Attempt:** #22
 - **Badges:** 0 / 8
 
 ## Nuzlocke Rules & Level Caps
@@ -413,6 +407,18 @@
 - **Tactical Rules for Attempt #21:**
   1. **Keep All 6 Catches Alive (Routes 101, 103, 102, 104 South, Petalburg Woods, Route 116):** Never walk with a poisoned Pokémon at low HP in the overworld.
   2. **Evolve `Mudkip -> Lv. 16.0 Marshtomp` (`1,021 EXP` Buffer Before Lv. 17) BEFORE School Kid Josh, While Keeping the Other 5 Teammates at Level 14–15.0:** Reserve `Lv. 16.0 Marshtomp`'s `1,021 EXP` buffer strictly for the dangerous Rock/Ground attackers (`Josh`'s `Lv. 15 Geodude` [`276 EXP`] + shared `Lv. 12 Sudowoodo` [`172 EXP`], `Tammy`'s shared `Lv. 15 Rhyhorn` [`216 EXP`] + `Lv. 15 Larvitar` [`214 EXP`], and `Marc`'s shared `Lv. 15 Onix` [`115 EXP`] = `993 EXP < 1,021 EXP`!), while our other 5 teammates (entering at Level 14–15.0) handle `Zubat`, `Omanyte`, `Aron`, `Corsola`, `Yanma`, `Kabuto`, `Cacnea`, and `Baltoy` and get Rare-Candied to Level 16.0 right after Hiker Marc!
+
+---
+
+## Attempt #21 Post-Mortem (Turn 5711 — Rustboro Gym Level Cap Lock)
+- **Casualties:** None (`0 deaths`), but mathematically locked by the Level 16 cap before Gym Leader Roxanne (`2,056 EXP` total party room before Level 17 vs `3,706 EXP` across the 3 mandatory Rustboro Gym trainers `School Kid Josh` [`1,110 EXP`], `School Kid Tammy` [`1,574 EXP`], and `Hiker Marc` [`1,022 EXP`], and `~4,200 EXP` across the 6 mandatory Route 116 trainers blocking Rusturf Tunnel).
+- **Root Causes of Attempt #21 Cap Lock:**
+  1. **Rare-Candying `MINERVA` (`Hoothoot`) and `PSYCHE` (`Spoink`) to Level 16 Before Petalburg Woods / Route 104 North:** Leveling `MINERVA` and `PSYCHE` to `Lv. 16.0` early meant that clearing Petalburg Woods and Route 104 North pushed them to `3,861 / 3,930 EXP` (`69 EXP` left) and `3,914 / 3,930 EXP` (`16 EXP` left), leaving neither able to take even a single KO in Rustboro Gym without hitting Level 17 and being immediately retired.
+  2. **Losing 3 of 6 Pre-Roxanne Encounters (`Route 103 Sunkern`, `Petalburg Woods Pineco`, `Route 116 Grimer`):** On Route 116, after `MINERVA` put `Lv. 9 Grimer` to sleep with `Hypnosis` on Turn 1, we chipped with `Peck` on Turn 2 and switched to `APOSEIDON` on Turn 3 instead of throwing our `Great Ball` (`1.5x * 2.0x Sleep = 3.0x` catch multiplier!), allowing `Grimer` to wake up from a 1-turn sleep and faint itself with `Memento`.
+- **Tactical Rules for Attempt #22:**
+  1. **Strict Pre-Gym Rare Candy Cap (`<= Lv. 14` Before Route 104 North, `<= Lv. 15` Entering Rustboro Gym):** NEVER Rare-Candy any caught teammate above **Level 14** prior to Rustboro City! Keep all teammates at **Level 13–14** through Petalburg Woods and Route 104 North so every teammate enters Rustboro Gym at **Level 14–15.0** with `1,500–2,200 EXP` of cap room before Level 17 (`8,000–10,000 EXP` total cap room across 5–6 teammates!). Only evolve `Mudkip -> Lv. 16.0 Marshtomp` (`1,021 EXP` buffer) right before `School Kid Josh`, and Rare-Candy the rest of the party from Level 15 to **Level 16.0** AFTER `Hiker Marc` is defeated!
+  2. **Throw `Great Ball` / `Poké Ball` Immediately on Sleeping Self-KO Encounters (`Grimer` / `Pineco`):** In Gen 3, Sleep (`SLP`) lasts `1–4` turns and provides a **`2.0x` catch multiplier**; as soon as a dangerous self-KO wild encounter (`Lv. 9 Grimer` with `Memento` or `Lv. 8 Pineco` with `Selfdestruct`) is asleep (or chipped once), throw a Ball immediately instead of wasting sleep turns switching!
+  3. **Use Physical `Tackle` (`Up, Left`) on `Route 103` `Lv. 4 Sunkern`:** `Sunkern` is pure Grass-type (`0.5x` resistant to `Bubble`), so 1 physical `Tackle` from `Lv. 11 Mudkip` drops `Sunkern` cleanly into yellow/red HP for an immediate catch.
 
 <hr>
 
