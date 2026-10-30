@@ -56,3 +56,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Grey ripple rock at (62, 24..25) blocks row 24 and row 25.
   - Row 26 is completely open deep water across cols 61..68, passing cleanly between the rock (row 25) and Fisherman Wayne (63, 28).
   - Row 26 serves as the primary eastern water gateway into the central lagoon.
+- Central Atoll Perimeter & Trench Search Plan (Verified Turn 17069):
+  - Row 25 is an open deep water highway spanning cols 65..75 north of the shallow sandbar (which occupies rows 26..31).
+  - The atoll interior is solid sandbar and cliff (cliff at cols 68..74, rows 31..35).
+  - Ocean waters surround the atoll on North (rows 21..25), East (cols 75..85), and South (rows 36..40).
+  - Systematic search route: Surf East along row 25 to col 75, turn South down cols 75..78 around the eastern cliff face, and sweep into the southern basin (cols 60..80, rows 36..40) to locate the Seafloor Cavern dark indigo dive trench.
