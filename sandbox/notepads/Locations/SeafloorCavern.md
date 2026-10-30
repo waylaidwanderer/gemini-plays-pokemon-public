@@ -63,3 +63,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Room 3 Final Solution Verified: Pushed boulder at (7, 5) to (7, 4), then to (7, 2). Stepped Left to (6, 3) and walked North through Column 6 into the Northwest Doorway at (6..7, 0)!
 - Western Boulder Puzzle Solution: Boulder is located at (4, 5). Approached from (4, 6) directly South. Pushing boulder North along Column 4 into (4, 3) clears access to rows 1..3, opening the path into the Northwest Doorway at (5..6, 0)!
 - Room 3 Northwest Doorway Entered: Successfully bypassed northern boulder and entered the Northwest Doorway at (5..6, 0) into Room 4!
+- Room 3 Solved: Stepped Right from (4, 3) to (6, 3) and walked North through the Northwest Doorway into Room 4!
