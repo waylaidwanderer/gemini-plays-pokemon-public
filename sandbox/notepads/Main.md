@@ -60,6 +60,7 @@
 2. **ARTEMIS** — Nidoran♀ (Lv. 15, `45/45 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 15: `45 HP / 19 Atk / 23 Def / 18 SpA / 20 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
 3. **POSEIDON** — Mudkip ♂ (Lv. 15, `44/44 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 15: `44 HP / 30 Atk / 21 Def / 26 SpA / 20 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 4. **ZEPHYR** — Wingull ♂ (Lv. 16, `41/41 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 16: `41 HP / 18 Atk / 16 Def / 23 SpA / 18 SpD / 35 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (at Lv. 16.0 cap — has 586 EXP buffer before Lv. 17).
+5. **SIBYL** — Natu ♀ (Lv. 9, `Modest` [`+SpA, -Atk`], Psychic/Flying, `Synchronize`, Moves: `Peck` [Slot 1: `Up, Left`], `Psybeam` [Slot 2: `Up, Right`], learns `Night Shade` [Slot 3: `Left, Down`] at Lv. 10) — Caught on Route 116.
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
