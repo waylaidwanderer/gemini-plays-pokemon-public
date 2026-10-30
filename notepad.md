@@ -3625,6 +3625,11 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Mechanics: Surfacing and Diving
 - Overworld Dive Activation: Pressing 'B' while surfing on the surface does NOT activate Dive (B is only for surfacing while already underwater).
 - To submerge from the surface: Stand on a dark indigo water tile and either interact with 'A' (triggers Dive prompt) or open the Party Menu (`Start -> POKéMON -> LILZ -> DIVE`).
+- Northern Water Highway (Verified Turn 17049):
+  - Row 25 is an open deep water highway spanning cols 43..55+ connecting the western ocean to the central archipelago.
+  - Brown sea rock sits on shallow reef at (52..53, 28..29); reef spans cols 50..55, rows 27..30 south of the highway.
+  - Grey ripple rock at (44..45, 23) sits north of the highway.
+  - Safe navigation corridor runs straight East along row 25.
 
 <hr>
 
