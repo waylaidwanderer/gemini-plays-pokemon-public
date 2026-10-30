@@ -3821,7 +3821,9 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Team Aqua Grunt sighted on upper terrace around (8..10, 4..6).
   - Puzzle Solution: Rock at (5, 10) smashed with Rock Smash, providing access to (5, 10) above the boulder. Pushing the boulder at (5, 11) Down to (5, 12) opens the Row 11 corridor leading East.
 - Row 11 Corridor: Horizontal passage connecting col 5 east toward the upper terrace and Team Aqua Grunt.
-- Central Canyon & Second Boulder: Row 11 corridor connects col 5 to col 11. Second Strength boulder sits at (12, 11). The walkable canyon lane runs North along Column 11 (rows 11..5) between the western terrace (Grunt 1 at col 8, row 4) and eastern terrace (Grunt 2 at col 14, row 8 facing East).
+- Central Canyon & Second Boulder: Row 11 corridor connects col 5 to col 11. Second Strength boulder sits at (12, 11). The walkable canyon lane runs North along Column 11 (rows 11..5) between the western terrace (Grunt 1 at col 8, row 4) and eastern terrace (Grunt 2 at col 14, row 8 facing East).- Second Boulder Collision: Boulder at (12, 11) is braced against the solid eastern cliff at col 13 and cannot be pushed east. Row 11 is a dead end from the west.
+- Progression Route: Southern Corridor along Row 18 (cols 5..15+) provides the open bypass below the rock mound to access the eastern terrace.
+
 
 <hr>
 
