@@ -7,7 +7,7 @@
 | Route 101 | Mudkip ♂ | PROTEUS | 13 | Dead (Turn 5822) | Died to Team Magma Grunt's `Lv. 9 Houndour` (`Pursuit` after `Magnemite` paralyzed `PROTEUS` to `4 Speed`) |
 | Route 103 | Wingull ♂ | HALCYON | 16 | Dead (Turn 5953) | Died to School Kid Tammy's `Lv. 13 Corsola` (`Rock Tomb` `38 damage` from `38/38 HP`) |
 | Route 102 | Gulpin ♀ | CIRCE | 16 | Dead (Turn 5930) | Died to School Kid Josh's `Lv. 14 Omanyte` (`Water Pulse` `19 damage` from `19/51 HP`) |
-| Route 104 (South) | Nidoran♀ | DIANA | 15 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
+| Route 104 (South) | Nidoran♀ | DIANA | 15 | Dead (Turn 5957) | Died to School Kid Tammy's `Lv. 11 Yanma` (`Aerial Ace` from `10/43 HP`, triggering `Poison Point`) |
 | Petalburg Woods | Gloom ♂ | PAN | 16 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`, `Magical Leaf`) |
 | Route 116 | Voltorb | ZEUS | 15 | Active | Caught at `(5, 12)` on Route 116 (Turn 5896; Electric, Rash [`+SpA, -SpD`], `Static`, `ThunderShock`, `Secret Power`, `Shock Wave`, `SonicBoom`) |
 
@@ -66,9 +66,8 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **PAN** — Gloom ♂ (Lv. 16, `11/48 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `None`, Stats at Lv. 16: `48 HP / 28 Atk / 30 Def / 37 SpA / 29 SpD / 18 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Down, Left`], `Magical Leaf` [Slot 4: `Down, Right`, 60 BP STAB never-miss Grass Special]) — Caught in Petalburg Woods (`(22, 35)`).
-2. **DIANA** — Nidoran♀ (Lv. 15, `10/43 HP`, Poison, `Poison Point`, Held: `None`, Stats at Lv. 15: `43 HP / 20 Atk / 21 Def / 18 SpA / 18 SpD / 23 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
-3. **ZEUS** — Voltorb (Lv. 15, `11/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `None`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
+1. **PAN** — Gloom ♂ (Lv. 16, `8/48 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `None`, Stats at Lv. 16: `48 HP / 28 Atk / 30 Def / 37 SpA / 29 SpD / 18 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Down, Left`], `Magical Leaf` [Slot 4: `Down, Right`, 60 BP STAB never-miss Grass Special]) — Caught in Petalburg Woods (`(22, 35)`).
+2. **ZEUS** — Voltorb (Lv. 15, `11/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `None`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -436,6 +435,7 @@
   - **Root Cause & Tactical Lesson:** Estimated `Omanyte`'s `Water Pulse` at `15–18 damage` against `23 SpD` based on `Aurora Beam` dealing `13 damage` on the prior turn, when `13` was a low damage roll (`85%`) so `Water Pulse`'s high roll reached `19 damage`. Always assume any enemy attack was a minimum (`85%`) roll when back-calculating future damage (`max_roll = ceil(observed / 0.85)`).
 - **HALCYON** (Wingull ♂, Lv. 16, `38 HP`, `Water/Flying`, `Keen Eye`, `Wing Attack`, `Water Gun`, `Quick Attack`, `BubbleBeam`, held `Oran Berry`) — Died on Turn 5953 in Rustboro Gym `(5, 12)` to School Kid Tammy's `Lv. 13 Corsola` (`Rock Tomb` `38 damage` from `38/38 HP` on switch-in).
   - **Root Cause & Tactical Lesson:** `Lv. 13 Corsola` has `Hustle` (`1.5x` Physical Attack), making its 2x Super Effective STAB `Rock Tomb` deal `38+ damage` (bypassing `HALCYON`'s held `Oran Berry` and OHKOing `16 Defense` `Wingull` from `100% HP`). Never switch a `2x` Rock-weak `Flying`-type into `Lv. 13 Corsola`.
+- **DIANA** (Nidoran♀, Lv. 15, `43 HP`, Poison, `Poison Point`, `Poison Sting`, `Scratch`, `Bite`, `Double Kick`) — Died on Turn 5957 in Rustboro Gym `(5, 12)` to School Kid Tammy's final Pokémon, `Lv. 11 Yanma` (`Aerial Ace` from `10/43 HP`), poisoning `Yanma` with `Poison Point` and giving `ZEUS` (`11/38 HP`) a clean post-faint free send-out while `Yanma` remained at `+0 Attack / +0 SpA`.
 
 <hr>
 
