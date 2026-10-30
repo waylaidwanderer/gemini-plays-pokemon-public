@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 12 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | OPHION | 11 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`) |
-| Route 102 | Nidoran♂ | ARES | 11 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`) |
+| Route 102 | Nidoran♂ | ARES | 12 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
 
 <hr>
 
@@ -63,9 +63,9 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♂ (Lv. 12, `30/34 HP` [`PSN`], Water, `Torrent`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **OPHION** — Ekans ♂ (Lv. 11, `22/29 HP`, Poison, `Intimidate`, `+Speed` nature, Stats at Lv. 11: `29 HP / 20 Atk / 14 Def / 16 SpA / 18 SpD / 20 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
-3. **ARES** — Nidoran♂ (Lv. 11, `18/32 HP`, Poison, `Poison Point`, Stats at Lv. 11: `32 HP / 20 Atk / 16 Def / 16 SpA / 14 SpD / 15 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Left, Down`], `-`) — Caught on Route 102 (`(38, 5)`).
+1. **OPHION** — Ekans ♂ (Lv. 11, `27/29 HP`, Poison, `Intimidate`, `+Speed` nature, Stats at Lv. 11: `29 HP / 20 Atk / 14 Def / 16 SpA / 18 SpD / 20 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
+2. **MUDKIP** — Mudkip ♂ (Lv. 12, `28/34 HP` [`PSN`], Water, `Torrent`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+3. **ARES** — Nidoran♂ (Lv. 12, `28/34 HP`, Poison, `Poison Point`, Stats at Lv. 12: `34 HP / 22 Atk / 17 Def / 17 SpA / 15 SpD / 16 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
