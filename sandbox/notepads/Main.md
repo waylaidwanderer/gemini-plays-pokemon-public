@@ -49,8 +49,7 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **PAN** — Gloom ♂ (Lv. 16, `8/48 HP`, Grass/Poison, Hardy, `Chlorophyll`, Held: `None`, Stats at Lv. 16: `48 HP / 28 Atk / 30 Def / 37 SpA / 29 SpD / 18 Spd`, Moves: `Mega Drain` [Slot 1: `Up, Left`], `Acid` [Slot 2: `Up, Right`], `Toxic` [Slot 3: `Down, Left`], `Magical Leaf` [Slot 4: `Down, Right`, 60 BP STAB never-miss Grass Special]) — Caught in Petalburg Woods (`(22, 35)`).
-2. **ZEUS** — Voltorb (Lv. 15, `11/38 HP`, Electric, Rash [`+SpA, -SpD`], `Static`, Held: `None`, Stats at Lv. 15: `38 HP / 17 Atk / 24 Def / 24 SpA / 22 SpD / 39 Spd`, Moves: `ThunderShock` [Slot 1: `Up, Left`], `Secret Power` [Slot 2: `Up, Right`, field move], `Shock Wave` [Slot 3: `Down, Left`], `SonicBoom` [Slot 4: `Down, Right`, fixed 20 HP damage]) — Caught on Route 116 (`(5, 12)`).
+- *(None yet — starting Attempt #23)*
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
