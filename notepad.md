@@ -3819,6 +3819,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Cracked rock at (5, 10) (Rock Smash breakable).
   - Western bypass: Column 4 leads from row 18 up to row 10.
   - Team Aqua Grunt sighted on upper terrace around (8..10, 4..6).
+  - Puzzle Solution: Rock at (5, 10) smashed with Rock Smash, providing access to (5, 10) above the boulder. Pushing the boulder at (5, 11) Down to (5, 12) opens the Row 11 corridor leading East.
+- Row 11 Corridor: Horizontal passage connecting col 5 east toward the upper terrace and Team Aqua Grunt.
 
 <hr>
 
