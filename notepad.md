@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♂ | GLAUCUS | 12 | Active | Starter (`Met in ROUTE 101`, Turn 5986; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | PYTHON | 11 | Deceased | Caught at `(12, 14)` on Route 103 (Turn 6000); died on Turn 6033 to Lass Tiana's `Lv. 5 Togepi` (`Metronome -> Explosion`) |
 | Route 102 | Sandshrew ♀ | DEMETER | 11 | Active | Caught at `(38, 6)` on Route 102 (Turn 6011; Ground, `Sand Veil`, `Scratch`, `Poison Sting`, `Sand-Attack`) |
+| Route 104 (South) | Cubone ♀ | BELLONA | 7 | Active | Caught at `(23, 60)` on Route 104 South (Turn 6051; Ground, `Bone Club`, `Rock Throw`, `Secret Power`) |
 
 <hr>
 
@@ -65,6 +66,7 @@
 ## Active Party
 1. **GLAUCUS** — Mudkip ♂ (Lv. 12, `35/35 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `35 HP / 27 Atk / 20 Def / 17 SpA / 20 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 2. **DEMETER** — Sandshrew ♀ (Lv. 11, `33/33 HP`, Ground, `Sand Veil`, Held: `Oran Berry`, Stats at Lv. 11: `33 HP / 20 Atk / 24 Def / 12 SpA / 11 SpD / 16 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Sand-Attack` [Slot 3: `Left, Down`], `-`) — Caught on Route 102 (`(38, 6)`).
+3. **BELLONA** — Cubone ♀ (Lv. 7 -> 12, Ground, Moves: `Bone Club`, `Rock Throw`, `Secret Power`) — Caught on Route 104 South (`(23, 60)`).
 
 ## Deceased (Deposited in Graveyard Box)
 - **PYTHON** — Ekans ♂ (Lv. 11, Poison, Impish, `Shed Skin`) — Died on Turn 6033 on Route 102 `(15, 4)` to Lass Tiana's `Lv. 5 Togepi` (`Metronome -> Explosion`).
