@@ -3823,8 +3823,14 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Column 12 Canyon runs North from row 16 up to row 7 between the central rock mound and eastern rock pillar.
 - Northern T-Junction (12, 7):
   - Dividing cliff wall directly north at (12, 6).
-  - Western Branch: Row 7 (cols 11..6) leads to Team Aqua Grunt 1 at (6, 5) and the wooden staircase at (7..8, 2) leading to the Northwest Doorway.
+  - Western Branch: Row 7 (cols 11..6) leads to Team Aqua Grunt 1 at (8, 6) facing West and the ground-level Northwest Doorway at (6..7, 1). Wooden stairs at (9..10, 3) lead to an elevated side ledge.
   - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
+
+## Wild Encounters - Seafloor Cavern Room 2
+- Zubat (Lv 30, Lv 33, Poison/Flying) - Encountered on turns 17170 and 17186; fled cleanly or defeated with Rock Tomb.
+
+## Trainers - Seafloor Cavern Room 2
+- Team Aqua Grunt 1: Stationed at (8, 6) facing West. Engaged in battle on Turn 17191.
 
 
 <hr>
@@ -4053,7 +4059,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: MIND BADGE EARNED! Team Magma defeated at Space Center! HM08 DIVE OBTAINED and taught to Lilz! Sage Lv 56 fully healed! Ready to embark south onto Route 127/128 to locate Seafloor Cavern and stop Team Aqua.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). (Max Elixir used Turn 17028!) HP: 171/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 126, Def 92, Sp.Atk 138, Sp.Def 124, Speed 166. (Verified Turn 17034)
+1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). (Max Elixir used Turn 17028!) HP: 171/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 126, Def 92, Sp.Atk 138, Sp.Def 124, Speed 166. (Verified Turn 17034)
 2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 80/80. Max HP: 80. Status: OK. (Verified Turn 17018)
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.

@@ -40,5 +40,11 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Column 12 Canyon runs North from row 16 up to row 7 between the central rock mound and eastern rock pillar.
 - Northern T-Junction (12, 7):
   - Dividing cliff wall directly north at (12, 6).
-  - Western Branch: Row 7 (cols 11..6) leads to Team Aqua Grunt 1 at (6, 5) and the wooden staircase at (7..8, 2) leading to the Northwest Doorway.
+  - Western Branch: Row 7 (cols 11..6) leads to Team Aqua Grunt 1 at (8, 6) facing West and the ground-level Northwest Doorway at (6..7, 1). Wooden stairs at (9..10, 3) lead to an elevated side ledge.
   - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
+
+## Wild Encounters - Seafloor Cavern Room 2
+- Zubat (Lv 30, Lv 33, Poison/Flying) - Encountered on turns 17170 and 17186; fled cleanly or defeated with Rock Tomb.
+
+## Trainers - Seafloor Cavern Room 2
+- Team Aqua Grunt 1: Stationed at (8, 6) facing West. Engaged in battle on Turn 17191.
