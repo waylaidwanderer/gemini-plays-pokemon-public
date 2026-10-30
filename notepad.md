@@ -3840,6 +3840,9 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Cracked rocks at (9, 6) and (11, 4).
   - Strength boulders at (5, 7), (5, 5), (8, 4), (12, 4), (14, 6), (15, 4).
   - Rock pillar at (10, 5) dividing the west and east puzzle lanes.
+- Central Lane: Column 10 is open at row 6 and row 5. Leads between rock mounds to (10, 4).
+- Northern Doorways: Two doorways visible in north wall: Northwest Doorway (cols 4..5, row 0) and North-Center Doorway (cols 10..11, row 0).
+- Puzzle Solution: From (10, 4), step Left to (9, 4), smash cracked rock at (9, 3) with Rock Smash, clearing a direct lane North to row 0.
 
 
 <hr>
