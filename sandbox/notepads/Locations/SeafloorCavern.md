@@ -61,3 +61,5 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Northern Doorways: Two doorways visible in north wall: Northwest Doorway (cols 4..5, row 0) and North-Center Doorway (cols 10..11, row 0).
 - Puzzle Solution: From (10, 4), step Left to (9, 4), smash cracked rock at (9, 3) with Rock Smash, clearing a direct lane North to row 0.
 - Column 10 Central Boulder Solution: From (10, 4), face North and push boulder at (10, 3) Up to (10, 2). Step into (10, 3), cut Right to (11, 3), and walk North through (11, 2..0) directly into the North-Center Doorway!
+- Column 10 Dead End: Boulder at (10, 3) is braced against the northern cliff at row 2 and cannot be pushed north.
+- Western Progression Route: Return south to (10, 7), step Left to (9, 7), smash cracked rock at (8, 7) with Rock Smash, and follow the western corridor (cols 6..2) north to the Northwest Doorway at (4..5, 0).
