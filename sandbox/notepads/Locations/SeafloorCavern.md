@@ -26,3 +26,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Northern Shoreline: Located at row 10 (cols 8..12). May disembarks onto land at (10, 10).
 - Northern Avenue: Dry sandy cavern floor extending North from row 9 between rock bluffs at cols 0..4 (west) and cols 16..20 (east).
 - Northern Cave Doorway: Located at (10, 1), entered stepping North from (10, 2). Leads to Seafloor Cavern Room 2.
+## Discovered Topography & Navigation - Room 2
+- Entrance: South doorway from Room 1 at (5, 19). Player spawns at (5, 18) facing North.
+- Western Corridor: Cols 4..5 run North past western rock wall.
+- Central Rock Mound: Rises at cols 6..12, rows 10..15.
+- Southern Corridor: Row 18 runs East below the central rock mound.
