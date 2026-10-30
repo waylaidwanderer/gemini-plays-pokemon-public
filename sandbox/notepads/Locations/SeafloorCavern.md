@@ -69,3 +69,4 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance: South doorway from Room 3 Northwest Doorway. Player spawns at (11, 21) facing North.
 - Shore Platform: Sandy ground extending north from row 21 up to row 17, flanked by rock bluffs on west and east.
 - Water Currents: Subterranean water rapids begin around row 16, flowing through the central water basin.
+- Dock & Water Boundary: Sandy dock extends north to (11, 20). Deep water rapids begin at (11, 19) with a vertical north-flowing current.
