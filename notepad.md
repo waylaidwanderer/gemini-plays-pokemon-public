@@ -3809,26 +3809,22 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Northern Shoreline: Located at row 10 (cols 8..12). May disembarks onto land at (10, 10).
 - Northern Avenue: Dry sandy cavern floor extending North from row 9 between rock bluffs at cols 0..4 (west) and cols 16..20 (east).
 - Northern Cave Doorway: Located at (10, 1), entered stepping North from (10, 2). Leads to Seafloor Cavern Room 2.
-## Discovered Topography & Navigation - Room 2
+
+## Discovered Topography & Navigation - Room 2 (First Puzzle Chamber)
 - Entrance: South doorway from Room 1 at (5, 19). Player spawns at (5, 18) facing North.
-- Western Corridor: Col 5 is blocked at row 16 by the southwest corner of the rock mound. The walkable corridor runs along col 4 (rows 17..10+) between the western cliff and central rock mound.
-- Central Rock Mound: Rises at cols 5..12, rows 10..16.
-- Southern Corridor: Row 18 runs East below the central rock mound.
+- Western Corridor: Col 4 runs North from row 18 to row 10.
 - Northwest Puzzle (cols 4..6, rows 10..12):
-  - Boulder at (5, 11) (Strength movable).
-  - Cracked rock at (5, 10) (Rock Smash breakable).
-  - Western bypass: Column 4 leads from row 18 up to row 10.
-  - Team Aqua Grunt sighted on upper terrace around (8..10, 4..6).
-  - Puzzle Solution: Rock at (5, 10) smashed with Rock Smash, providing access to (5, 10) above the boulder. Pushing the boulder at (5, 11) Down to (5, 12) opens the Row 11 corridor leading East.
-- Row 11 Corridor: Horizontal passage connecting col 5 east toward the upper terrace and Team Aqua Grunt.
-- Central Canyon & Second Boulder: Row 11 corridor connects col 5 to col 11. Second Strength boulder sits at (12, 11). The walkable canyon lane runs North along Column 11 (rows 11..5) between the western terrace (Grunt 1 at col 8, row 4) and eastern terrace (Grunt 2 at col 14, row 8 facing East).- Second Boulder Collision: Boulder at (12, 11) is braced against the solid eastern cliff at col 13 and cannot be pushed east. Row 11 is a dead end from the west.
-- Progression Route: Southern Corridor along Row 18 (cols 5..15+) provides the open bypass below the rock mound to access the eastern terrace.
-- Southern Bypass: Row 18 runs East from (5, 18) to (10, 18). Rock corner at (11, 18) is bypassed via row 17 (cols 10..14+) leading into the eastern corridor.
-- Column 12 Canyon: Open dirt lane connecting row 16 up to row 9 between the central mound and eastern pillar.
-- Northern Upper Terrace: Spans cols 6..13, rows 5..7.
-- Team Aqua Grunt 1: Stationed at (6..7, 5) facing East, guarding the Northwest wooden staircase at (7..8, 2).
-- Northwest Doorway: Located at (7..8, 1) at the top of the wooden stairs.
-- Northeast Corridor: Branches northeast past cols 14..18 toward a second doorway.
+  - Cracked rock at (5, 10) smashed with Rock Smash!
+  - Strength boulder at (5, 11) pushed Down to (5, 12), opening access to Row 11.
+  - Row 11 Corridor: Runs East from (5, 11) to (11, 11). Second Strength boulder at (12, 11) is braced against the eastern cliff face (dead end from the west).
+- Southern Bypass & Column 12 Canyon:
+  - From entrance (5, 18), Row 18 runs East to (10, 18).
+  - Bypassed around rock corner via (10, 17) -> (10, 16) -> (11, 16) -> (12, 16).
+  - Column 12 Canyon runs North from row 16 up to row 7 between the central rock mound and eastern rock pillar.
+- Northern T-Junction (12, 7):
+  - Dividing cliff wall directly north at (12, 6).
+  - Western Branch: Row 7 (cols 11..6) leads to Team Aqua Grunt 1 at (6, 5) and the wooden staircase at (7..8, 2) leading to the Northwest Doorway.
+  - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
 
 
 <hr>
