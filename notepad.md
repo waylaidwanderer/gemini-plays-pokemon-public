@@ -3637,6 +3637,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Tentacool (Lv 8, Water/Poison) - Confirmed on Turn 16930 in deep water at (97, 22); fled on turn 1.
 - Eastern Border Verification: Explored to col 100/101 along rows 22..24. Solid mountain cliff wall blocks eastward advance at col 102 (Ever Grande barrier). No dive trenches exist in the eastern sector.
 - Seafloor Cavern Search Target: The Seafloor Cavern dive trench is located in the central archipelago / atoll (cols 60..76, rows 27..40). Routing west along the row 22/23 highway to col 76, then south into the eastern channel of the central reef.
+- Wingull (Lv 10, Water/Flying) - Confirmed on Turn 16940 in deep water at (84, 22); fled on turn 1.
 
 <hr>
 
