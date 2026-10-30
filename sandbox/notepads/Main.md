@@ -51,7 +51,7 @@
 1. **CIRCE** — Gulpin ♀ (Lv. 13, `43/43 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 13: `43 HP / 19 Atk / 22 Def / 17 SpA / 19 SpD / 16 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught on Route 102 (`(39, 6)`).
 2. **HALCYON** — Wingull ♂ (Lv. 11, `29/29 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 11: `29 HP / 13 Atk / 12 Def / 18 SpA / 12 SpD / 26 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`], `Wing Attack` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Left, Down`]) — Caught on Route 103 (`(12, 15)`).
 3. **PROTEUS** — Mudkip ♂ (Lv. 11, `30/32 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 11: `32 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
-4. **DIANA** — Nidoran♀ (Lv. 7, Poison, `Poison Point`, Moves: `Scratch` / `Poison Sting`) — Caught on Route 104 South (`(22, 61)`).
+4. **DIANA** — Nidoran♀ (Lv. 12, `24/36 HP [SLP]`, Poison, `Poison Point`, Stats at Lv. 12: `36 HP / 17 Atk / 17 Def / 15 SpA / 15 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
