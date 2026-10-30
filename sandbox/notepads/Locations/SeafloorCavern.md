@@ -82,3 +82,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Row 18 South Boundary: (10, 18) is a solid cliff edge (cannot be walked south). The progression route is via Column 4, clearing the northwest puzzle, and entering the Northwest Doorway at (6, 1) into Room 3.
 
 - Verified Turn 17289: Tile (4, 9) is a solid cliff wall. The northwest pocket at (4..5, 10) does NOT connect north to row 7. Progression between lower and upper Room 2 requires Row 11 (cols 5..12) and Column 12 (rows 7..16).
+## Reflection Discoveries (Turn 17301)
+- Room 2 Northwest Dead-End: Tile (4, 9) is solid cliff. Smashed rock at (5, 10) and boulder at (5, 12) only connect Column 4 into Row 11 (cols 5..12), not to the northern terrace.
+- Room 2 Thoroughfare: Row 11 connects cleanly between the western corridor (col 4) and Column 12 (col 12).
+- Room 2 Eastern Branch: Column 12 (col 12, rows 8..16) is the vertical corridor. At row 8, (13, 8) is a rock wall, but the boulder at (12, 7) sits at the T-junction. Team Aqua Grunt 2 is stationed at (16, 10) overlooking the eastern corridor to the Northeast Doorway.
