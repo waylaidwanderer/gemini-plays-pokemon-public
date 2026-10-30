@@ -3848,6 +3848,11 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Room 3 Northwest Doorway Entered: Successfully bypassed northern boulder and entered the Northwest Doorway at (5..6, 0) into Room 4!
 - Room 3 Solved: Stepped Right from (4, 3) to (6, 3) and walked North through the Northwest Doorway into Room 4!
 
+## Discovered Topography & Navigation - Room 4 (Water Current Chamber)
+- Entrance: South doorway from Room 3 Northwest Doorway. Player spawns at (11, 21) facing North.
+- Shore Platform: Sandy ground extending north from row 21 up to row 17, flanked by rock bluffs on west and east.
+- Water Currents: Subterranean water rapids begin around row 16, flowing through the central water basin.
+
 
 <hr>
 
