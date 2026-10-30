@@ -61,3 +61,4 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Wingull (Lv 10, Water/Flying) - Confirmed on Turn 16940 in deep water at (84, 22); fled on turn 1.
 - Eastern Atoll Channel (Cols 76..77): A deep water channel running south along cols 76..77 between the central reef (col 75) and the eastern rocks/swimmer (cols 78..80), connecting the northern bypass highway (row 22/23) directly into the central atoll lagoon.
 - Eastern Atoll Channel Navigation (Verified): Column 76 is clear from row 24 to row 28, flanked on the west by the central shallow reef (col 75) and on the east by rocks at (78, 28) and (77, 29).
+- Triathlete ♀ Katelyn: Defeated at (76..77, 24) on Turn 16947 (Staryu Lv 35, OHKOed by Sage's Leaf Blade; Prize: ¥1,400). Registered in Match Call.

@@ -3640,6 +3640,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Wingull (Lv 10, Water/Flying) - Confirmed on Turn 16940 in deep water at (84, 22); fled on turn 1.
 - Eastern Atoll Channel (Cols 76..77): A deep water channel running south along cols 76..77 between the central reef (col 75) and the eastern rocks/swimmer (cols 78..80), connecting the northern bypass highway (row 22/23) directly into the central atoll lagoon.
 - Eastern Atoll Channel Navigation (Verified): Column 76 is clear from row 24 to row 28, flanked on the west by the central shallow reef (col 75) and on the east by rocks at (78, 28) and (77, 29).
+- Triathlete ♀ Katelyn: Defeated at (76..77, 24) on Turn 16947 (Staryu Lv 35, OHKOed by Sage's Leaf Blade; Prize: ¥1,400). Registered in Match Call.
 
 <hr>
 
@@ -4054,7 +4055,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥54,993
+- Money: ¥56,393
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
