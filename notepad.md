@@ -3625,6 +3625,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Swimmer ♀ Sighted: Swimmer with red swim cap sighted at roughly (79, 24) east of the central reef.
 - Eastern Reef Termination: Central shallow reef terminates on the east at col 75, with deep water opening south and east.
 - Sea Rocks at (78..81, 28..30): Pointed brown rocks east of the central reef.
+- Swimmer ♀ (Verified): Facing South at (80, 24). Row 23 passes 1 tile north of her without triggering battle.
+- Sea Rock 8: Grey rock with ripples at roughly (82, 30) southeast of the swimmer.
 
 <hr>
 
