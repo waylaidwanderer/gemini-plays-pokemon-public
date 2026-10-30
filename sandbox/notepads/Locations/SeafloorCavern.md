@@ -47,4 +47,5 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Zubat (Lv 30, Lv 33, Poison/Flying) - Encountered on turns 17170 and 17186; fled cleanly or defeated with Rock Tomb.
 
 ## Trainers - Seafloor Cavern Room 2
-- Team Aqua Grunt 1: Stationed at (8, 6) facing West. Engaged in battle on Turn 17191.
+- Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
+- Northwest Doorway Approach: Ground-level doorway is located at (7, 1), accessed stepping North from (7, 6) via Column 7 (rows 5..2). Leads to Seafloor Cavern Room 3.
