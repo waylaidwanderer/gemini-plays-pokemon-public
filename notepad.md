@@ -5,8 +5,8 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | POSEIDON | 11 | Active | Starter received on Route 101 (`35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd` at Lv. 11, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Wingull ♂ | ZEPHYR | 4 | Active | Caught at `(12, 14)` on Route 103 (`Water/Flying`, learns `BubbleBeam` at Lv. 13) |
-| Route 102 | Sandshrew ♂ | TALOS | 6 | Active | Caught at `(38, 6)` on Route 102 (`Ground`, learns `Dig` at Lv. 16) |
+| Route 103 | Wingull ♂ | ZEPHYR | 10 | Active | Caught at `(12, 14)` on Route 103 (`29 HP / 13 Atk / 12 Def / 16 SpA / 13 SpD / 23 Spd` at Lv. 10, `Water/Flying`, learns `BubbleBeam` at Lv. 13) |
+| Route 102 | Sandshrew ♂ | TALOS | 10 | Active | Caught at `(38, 6)` on Route 102 (`Ground`, learns `Dig` at Lv. 16) |
 
 <hr>
 
@@ -71,8 +71,8 @@
 
 ## Active Party
 1. **POSEIDON** — Mudkip ♂ (Lv. 11, `35/35 HP`, Water, `Torrent`, Stats at Lv. 11: `35 HP / 23 Atk / 17 Def / 20 SpA / 16 SpD / 13 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
-2. **ZEPHYR** — Wingull ♂ (Lv. 4, Water/Flying, `Keen Eye`, Moves: `Water Gun`, `Wing Attack`, `Quick Attack`) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
-3. **TALOS** — Sandshrew ♂ (Lv. 6, Ground, `Sand Veil`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
+2. **ZEPHYR** — Wingull ♂ (Lv. 10, `29/29 HP`, Water/Flying, `Keen Eye`, Stats at Lv. 10: `29 HP / 13 Atk / 12 Def / 16 SpA / 13 SpD / 23 Spd`, Moves: `Water Gun`, `Wing Attack`, `Quick Attack` [Lv. 7]) — Caught on Route 103 (learns `BubbleBeam` at Lv. 13!).
+3. **TALOS** — Sandshrew ♂ (Lv. 10, Ground, `Sand Veil`, Moves: `Scratch`, `Poison Sting`, `Sand-Attack`) — Caught on Route 102 (learns `Dig` at Lv. 16!).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
