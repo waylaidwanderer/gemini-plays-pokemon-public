@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | GLAUCUS | 11 | Active | Starter (`Met in ROUTE 101`, Turn 5986; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | PYTHON | 11 | Active | Caught at `(12, 14)` on Route 103 (Turn 6000; Poison, Impish [`+Def, -SpA`], `Shed Skin`, `Wrap`, `Pursuit`, `Acid`) |
+| Route 102 | Sandshrew ♀ | DEMETER | 6 | Active | Caught at `(38, 6)` on Route 102 (Turn 6011; Ground, `Sand Veil`, `Scratch`, `Sand-Attack`, `Poison Sting`) |
 
 <hr>
 
@@ -62,8 +63,9 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **GLAUCUS** — Mudkip ♂ (Lv. 11, `33/33 HP`, Water, `Torrent`, Stats at Lv. 11: `33 HP / 25 Atk / 19 Def / 16 SpA / 19 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+1. **GLAUCUS** — Mudkip ♂ (Lv. 11, `21/33 HP`, Water, `Torrent`, Stats at Lv. 11: `33 HP / 25 Atk / 19 Def / 16 SpA / 19 SpD / 14 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 2. **PYTHON** — Ekans ♂ (Lv. 11, `28/28 HP`, Poison, Impish [`+Def, -SpA`], `Shed Skin`, Stats at Lv. 11: `28 HP / 20 Atk / 16 Def / 12 SpA / 18 SpD / 17 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Left, Down`], `-`) — Caught on Route 103 (`(12, 14)`).
+3. **DEMETER** — Sandshrew ♀ (Lv. 6, Ground, `Sand Veil`, Moves: `Scratch`, `Sand-Attack`, `Poison Sting`) — Caught on Route 102 (`(38, 6)`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
