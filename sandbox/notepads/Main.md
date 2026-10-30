@@ -59,6 +59,7 @@
 1. **ZEPHYR** — Wingull ♂ (Lv. 14, `37/37 HP`, Water/Flying, `Keen Eye`, holds `Oran Berry`, Stats at Lv. 14: `37 HP / 17 Atk / 14 Def / 21 SpA / 16 SpD / 31 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103.
 2. **POSEIDON** — Mudkip ♂ (Lv. 13, `39/39 HP`, Water, `Torrent`, holds `Oran Berry`, Stats at Lv. 13: `39 HP / 27 Atk / 19 Def / 23 SpA / 18 SpD / 15 Spd`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Starter received on Route 101.
 3. **ARTEMIS** — Nidoran♀ (Lv. 13, `40/40 HP`, Poison, `Poison Point`, holds `Oran Berry`, Stats at Lv. 13: `40 HP / 18 Atk / 20 Def / 16 SpA / 18 SpD / 17 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Scratch` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (evolves into `Nidorina` at Lv. 16!).
+4. **LUMINA** — Illumise ♀ (Lv. 7, Bug, `Oblivious`, Moves: `Quick Attack`, `Thunder Wave`, `Flatter`) — Caught in Petalburg Woods (learns `Silver Wind` at Lv. 9, `Seismic Toss` at Lv. 11, `Moonlight` at Lv. 13!).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
