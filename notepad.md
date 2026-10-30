@@ -3843,6 +3843,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Central Lane: Column 10 is open at row 6 and row 5. Leads between rock mounds to (10, 4).
 - Northern Doorways: Two doorways visible in north wall: Northwest Doorway (cols 4..5, row 0) and North-Center Doorway (cols 10..11, row 0).
 - Puzzle Solution: From (10, 4), step Left to (9, 4), smash cracked rock at (9, 3) with Rock Smash, clearing a direct lane North to row 0.
+- Column 10 Central Boulder Solution: From (10, 4), face North and push boulder at (10, 3) Up to (10, 2). Step into (10, 3), cut Right to (11, 3), and walk North through (11, 2..0) directly into the North-Center Doorway!
 
 
 <hr>
