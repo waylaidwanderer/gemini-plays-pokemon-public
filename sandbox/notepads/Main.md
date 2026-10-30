@@ -49,7 +49,7 @@
 
 ## Active Party
 1. **CIRCE** — Gulpin ♀ (Lv. 13, `43/43 HP`, Poison, Held: `Oran Berry`, Stats at Lv. 13: `43 HP / 19 Atk / 22 Def / 17 SpA / 19 SpD / 16 Spd`, Moves: `Acid` [Slot 1: `Up, Left`], `Yawn` [Slot 2: `Up, Right`], `Fire Punch` [Slot 3: `Left, Down`], `-` [Slot 4: empty]) — Caught on Route 102 (`(39, 6)`).
-2. **HALCYON** — Wingull ♂ (Lv. 13, `33/33 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 13: `33 HP / 14 Atk / 13 Def / 22 SpA / 13 SpD / 29 Spd`, Moves: `Water Gun` [Slot 1: `Up, Left`], `Wing Attack` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
+2. **HALCYON** — Wingull ♂ (Lv. 13, `21/33 HP`, Water/Flying, `Keen Eye`, Held: `Oran Berry`, Stats at Lv. 13: `33 HP / 14 Atk / 13 Def / 22 SpA / 13 SpD / 29 Spd`, Moves: `Wing Attack` [Slot 1: `Up, Left`], `Water Gun` [Slot 2: `Up, Right`], `Quick Attack` [Slot 3: `Down, Left`], `BubbleBeam` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 15)`).
 3. **PROTEUS** — Mudkip ♂ (Lv. 12, `32/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 25 Atk / 19 Def / 19 SpA / 17 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 4. **DIANA** — Nidoran♀ (Lv. 12, `24/36 HP [SLP]`, Poison, `Poison Point`, Stats at Lv. 12: `36 HP / 17 Atk / 17 Def / 15 SpA / 15 SpD / 19 Spd`, Moves: `Scratch` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Bite` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(22, 61)`).
 
