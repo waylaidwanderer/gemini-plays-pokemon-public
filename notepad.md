@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | APOSEIDON | 13 | Active | Starter received on Route 101 (`37 HP / 27 Atk / 21 Def / 20 SpA / 22 SpD / 15 Spd` at Lv. 13, Held: `Oran Berry`, Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Sunkern ♀ | *(None)* | 4 | Fled (Turn 5562) | Encountered at `(11, 14)` on Route 103; fled when `Absorb` dropped `APOSEIDON` to `8/33 HP` (`<= 10` crit range) while `Absorb` drain kept `Sunkern` at `9/17 HP` (`>50%` Green HP) |
-| Route 102 | Hoothoot ♀ | MINERVA | 13 | Active | Caught at `(38, 5)` on Route 102 (Turn 5568; `39 HP / 16 Atk / 12 Def / 17 SpA / 23 SpD / 18 Spd` at Lv. 13, Held: `Oran Berry`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
+| Route 102 | Hoothoot ♀ | MINERVA | 14 | Active | Caught at `(38, 5)` on Route 102 (Turn 5568; `42 HP / 17 Atk / 13 Def / 18 SpA / 24 SpD / 19 Spd` at Lv. 14, Held: `Oran Berry`, Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace`) |
 | Route 104 (South) | Spoink ♀ | PSYCHE | 14 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5601; Bashful, `Own Tempo`, `42 HP / 13 Atk / 18 Def / 26 SpA / 29 SpD / 23 Spd` at Lv. 14, Held: `Oran Berry`, Moves: `Confusion`, `Psywave`, `Odor Sleuth`) |
 | Petalburg Woods | Pineco ♀ | *(None)* | 8 | Fled (Turn 5625) | Encountered at `(21, 35)` in Petalburg Woods; fled immediately due to `Selfdestruct` risk |
 
@@ -72,7 +72,7 @@
 - **Train Caught Teammates to Lv. 10–12 Before Trainers:** Never bring a base-level (Lv. 4–7) catch into Route 102 or Route 104 trainer battles. Train our caught teammates up to **Lv. 10–12** alongside the starter before challenging route trainers.
 
 ## Active Party
-1. **MINERVA** — Hoothoot ♀ (Lv. 13, `39/39 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 13: `39 HP / 16 Atk / 12 Def / 17 SpA / 23 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+1. **MINERVA** — Hoothoot ♀ (Lv. 14, `42/42 HP`, Normal/Flying, Held: `Oran Berry`, Stats at Lv. 14: `42 HP / 17 Atk / 13 Def / 18 SpA / 24 SpD / 19 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Confusion` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
 2. **APOSEIDON** — Mudkip ♂ (Lv. 13, `37/37 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `37 HP / 27 Atk / 21 Def / 20 SpA / 22 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter received on Route 101.
 3. **PSYCHE** — Spoink ♀ (Lv. 14, `42/42 HP`, Psychic, Bashful, `Own Tempo` [prevents confusion], Held: `Oran Berry`, Stats at Lv. 14: `42 HP / 13 Atk / 18 Def / 26 SpA / 29 SpD / 23 Spd`, Moves: `Confusion` [Slot 1: `Up, Left`], `Psywave` [Slot 2: `Up, Right`], `Odor Sleuth` [Slot 3: `Left, Down`]) — Caught on Route 104 South (`(22, 61)`).
 
