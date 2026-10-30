@@ -9,6 +9,7 @@
 | Route 102 | Gulpin ♀ | CIRCE | 15 | Active | Caught at `(39, 6)` on Route 102 (Turn 5758; Poison, `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb`) |
 | Route 104 (South) | Nidoran♀ | DIANA | 14 | Active | Caught at `(22, 61)` on Route 104 South (Turn 5782; Poison, `Poison Point`, `Scratch`, `Poison Sting`, `Bite`, `Double Kick`) |
 | Petalburg Woods | Oddish ♂ | PAN | 14 | Active | Caught at `(22, 35)` in Petalburg Woods (Turn 5810; Grass/Poison, `Chlorophyll`, `Mega Drain`, `Acid`, `Toxic`) |
+| Route 116 | Voltorb | ZEUS | 9 | Active | Caught at `(5, 12)` on Route 116 (Turn 5896; Electric, `Static`, `Shock Wave`) |
 
 <hr>
 
