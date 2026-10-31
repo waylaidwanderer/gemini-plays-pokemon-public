@@ -3572,6 +3572,11 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 - Clean sandy corridor extends North along col 31 toward the northern submerged rock wall and cave entrance into Sootopolis City.
 - (31, 64): Submerged rock wall blocks northward advance in this alcove. Sandy corridor leads West along row 64 into the western basin (cols 25..30).
 - (25, 64): A 3-tile wide sandy highway (cols 24..26) extends North between kelp patches toward row 56 and the submerged caldera wall.
+## Sootopolis Underwater Cave Location
+- Caldera center is at X ≈ 40 (south wall spans cols 23..57).
+- Position (25, 60) is the southwest corner wall.
+- Cave entrance to Sootopolis City is at the southern center: cols 38..42 along row 60..64.
+- Route: Down x4 to row 64 sandy highway, then East toward col 40.
 
 <hr>
 
