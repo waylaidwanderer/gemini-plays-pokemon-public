@@ -4054,7 +4054,7 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 3. [x] Approach the central lagoon to observe Groudon and Kyogre clashing (Turn 17844).
 4. [x] Speak with Steven Stone on the western shore terrace at (20, 35) (Turn 17868).
 5. [x] Accompany Steven to Cave of Origin entrance at (31, 18) (Turn 17875).
-6. [ ] Enter the Cave of Origin to learn of Rayquaza's slumber at the Sky Pillar.
+6. [ ] Traverse Cave of Origin to locate Wallace and discuss Rayquaza (Entered Turn 17877 at 9, 20).
 7. [ ] Journey to Sky Pillar to awaken Rayquaza and quell the ancient conflict!
 
 ## Discovered Topography & Navigation
