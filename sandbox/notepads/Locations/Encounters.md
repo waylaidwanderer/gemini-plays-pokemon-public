@@ -9,7 +9,7 @@
 | Route 102 | Meowth (M, Lv 14) | HERMES | Active | Lv 14 stats: 35/21/18/17/20/37; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 15 stats: 42/13/19/11/19/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 14) | CALLIOPE | Active | Mild (+SpA), `Cute Charm`; Lv 14 stats: 59/21/9/22/12/11; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) (also observed on Route 104: `Cubone` Lv 7) |
-| Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
+| Petalburg Woods | Bellsprout (F, Lv 8) | CHLORIS | Active | Caught at `(22, 35)` on Turn 642; knows `Acid`; leveling with Rare Candies |
 
 ## Attempt #1 Encounter History
 - **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
