@@ -32,3 +32,4 @@
     - **Bug Catcher Allen** at `(13, 2)` facing `Down` — **DEFEATED**:
       - Team (4 Pokemon): `Weedle` (Lv 7), `Silcoon` (Lv 7, holds `Sitrus Berry`), `Wurmple` (Lv 7), `Metapod` (Lv 7).
     - **Trainer in tall grass** at `(18, 12)`.
+  - **Grass-Free Path to Petalburg City**: From `(13, 3)`, step `Left` to `(12, 3)`, `Down x4` to `(12, 7)`, `Left` to `(11, 7)`, `Down` to `(11, 8)`, and `Left x12` along `y=8` straight into Petalburg City.
