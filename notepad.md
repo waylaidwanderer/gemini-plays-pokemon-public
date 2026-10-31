@@ -3915,6 +3915,12 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   10. Step 9: Walk to (6, 4), push boulder at (5, 4) West to (4, 4).
   11. Column 5 is completely clear! Walk North through (5, 4) and (5, 3) straight into the doorway at (5, 2) to enter Kyogre's chamber!
 
+## Discovered Topography & Navigation - Room 9 (Kyogre's Chamber / Deep Basin)
+- Entrance: Entered via Room 8 northern doorway at (5, 2). Player spawns at (5, 4) facing North on the entrance landing.
+- Return doorway to Room 8: (5, 5) directly south.
+- Atmosphere: Swirling subterranean mist and fog.
+- Visual Features: Upper terrace with rock formations; wooden stairs at southeast leading to the lower subterranean water basin where Kyogre sleeps!
+
 
 <hr>
 
