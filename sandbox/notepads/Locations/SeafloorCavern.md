@@ -118,16 +118,26 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance: Entered via Room 5 northern doorway at (8, 1). Player spawns at (5, 12) facing North.
 - Layout: Flanked by vertical rock columns. Ahead is an entrance corridor leading to a massive matrix of Strength boulders guarding the northern doorway to Kyogre's shrine!
 
-## Room 8 Boulder Puzzle Mechanics & Deadlock Caution
-- CRITICAL DEADLOCK: Pushing boulder (5, 5) directly North all the way to (5, 2) blocks the northern doorway at (5, 1) and cannot be pushed further or flanked. A room reset is required if this occurs.
-- Reset Procedure: Walk south along the bypass around row 7 boulders to (5, 12), step south into Room 5, and re-enter Room 8 to reset all boulders to pristine state.
-
-## Room 8 Master Puzzle Solution (Verified)
-1. Spawns at (5, 12), walk to (3, 7) via Column 3 bypass.
-2. Activate Strength on boulder at (3, 6).
-3. Push (3, 6) North to (3, 5) (occupy 3, 6).
-4. Walk Right to (4, 6) then (5, 6).
-5. Push (5, 5) North x3 to (5, 2) (occupy 5, 3).
-6. Walk Left to (4, 3), then Up to (4, 2).
-7. Push boulder at (5, 2) Right into (6, 2) (occupy 5, 2).
-8. Walk Up into doorway at (5, 1) to enter Kyogre's chamber!
+## Room 8 Boulder Puzzle Mechanics & Master Solution (Verified 9-Push BFS)
+- Initial Layout:
+  - Row 4: (3, 4), (4, 4), [GAP at 5, 4], (6, 4), (7, 4)
+  - Row 5: (4, 5), (5, 5), (6, 5)
+  - Row 6: (3, 6), (7, 6)
+  - Row 7: (4, 7), (5, 7), (6, 7)
+  - Row 8: Walkway across cols 3..7
+  - Row 9: One-way ledge across cols 4..6 (bypassed via col 3 on west and col 7 on east).
+  - Row 2: North wall / cave doorway to Kyogre's chamber at (5, 2).
+- Deadlock Warning: Pushing (5, 5) directly North to (5, 3) jams it flush against the north doorway/wall with no flanking access from (4, 3) or (6, 3), requiring a room reset.
+- Reset Procedure: Exit south through doorway at (5, 12) into Room 5, then step north back into Room 8.
+- 9-Push Master Solution:
+  1. Activate Strength on (3, 6). Walk to (5, 8) via Row 8 walkway.
+  2. Step 1: From (5, 8), push boulder at (5, 7) North to (5, 6).
+  3. Step 2: Walk around to (7, 7), push boulder at (6, 7) West to (5, 7).
+  4. Step 3: Walk to (6, 6), push boulder at (5, 6) West to (4, 6).
+  5. Step 4: Walk to (5, 6), push boulder at (5, 5) North to (5, 4).
+  6. Step 5: Walk to (5, 5), push boulder at (6, 5) East to (7, 5).
+  7. Step 6: Walk to (6, 5), push boulder at (6, 4) North to (6, 3).
+  8. Step 7: Walk to (5, 5), push boulder at (4, 5) West to (3, 5).
+  9. Step 8: Walk to (4, 5), push boulder at (4, 4) North to (4, 3).
+  10. Step 9: Walk to (6, 4), push boulder at (5, 4) West to (4, 4).
+  11. Column 5 is completely clear! Walk North through (5, 4) and (5, 3) straight into the doorway at (5, 2) to enter Kyogre's chamber!
