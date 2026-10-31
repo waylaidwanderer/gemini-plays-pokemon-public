@@ -6,7 +6,8 @@
 - **PC Item Withdrawal Exit**: Takes 4 `B` presses after withdrawing an item to return to the overworld (`Dismiss text -> Item list -> Item Storage submenu -> Top-level PC menu`).
 - **Bag Pocket Navigation & Cursor Clamping**:
   - Bag pockets (`1: ITEMS`, `2: POKE BALLS`, `3: TMs & HMs`, `4: BERRIES`, `5: KEY ITEMS`) wrap around between `ITEMS` and `KEY ITEMS`.
-  - Switching through an empty pocket (`TMs & HMs` or `BERRIES`) clamps the item cursor onto `>CLOSE BAG`; always press `Up` before `A` when arriving at a target pocket if you passed through an empty pocket.
+  - Switching through an empty pocket (`TMs & HMs` or `BERRIES`) clamps the item cursor onto `>CLOSE BAG`; since `Up` never wraps past index 0 inside a Bag pocket or Poke Mart list, pressing `Up` multiple times deterministically clamps to index 0 (and `Up, Up, Down` deterministically selects index 1).
+  - Giving a held item (`GIVE`) to a Pokemon already holding an item prompts `"Would you like to switch the two items? [>YES / NO]"`; press `A` to swap the items, and allow `~1200ms` for the Party screen to fade back to the Bag.
   - In `KEY ITEMS`, the `USE / REGISTER / CANCEL` submenu is arranged in 2 columns (`>USE` on left, `REGISTER` on right); press `A, Right, A` to register a Key Item to `Select`.
   - In `BERRIES`, the submenu is a 2-column grid (`Row 0: >CHECK TAG`; `Row 1: USE | GIVE`; `Row 2: TOSS | CANCEL`); press `A, Down, A` to `USE` a Berry or `A, Down, Right, A` to `GIVE` a Berry.
 - **Rare Candy Chaining**: From the Bag (`>RARE CANDY` at index 0), pressing `A` repeatedly (`sleep 900`) automatically chains Rare Candies onto Party Slot 1 as long as that Pokemon has `< 4` moves.
