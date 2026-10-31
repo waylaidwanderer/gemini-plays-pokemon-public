@@ -16,20 +16,18 @@
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
 - **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102.
 ## Route 102
-- **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
-- **First Tall Grass Patch**: Located at `(38..39, 5..6)` just west of the pond bank at `(40, 6)`. Caught `Meowth` (Lv 6, `MIDAS`) at `(39, 6)`.
+- **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`. Caught `Meowth` (Lv 6, `MIDAS`) at `(39, 6)`.
 - **Trainers**:
-  1. **Youngster Calvin** at `(33, 14)` facing `Down` (approached from `(36, 11) -> (36, 14) -> (34, 14)`):
-     - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
-  2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`) — **DEFEATED**:
-     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), `Kakuna` (Lv 5).
-- **Northern Berry Patch & Grass-Free Route**:
+  - **Defeated**: Youngster Calvin `(33, 14)`, Bug Catcher Rick `(25, 15)`, Lass Tiana `(15, 5)`, Bug Catcher Allen `(13, 2)`.
+  - **Remaining**: Trainer in tall grass at `(18, 12)`.
+- **Northern Berry Patch & Grass-Free Routes**:
   - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
   - **Berry Trees**: Located at `(24, 2)` (`Oran Berry`) and `(25, 2)` (`Pecha Berry`); harvested on Turn 144 (auto-refill to 99 in the overworld).
-  - **Western Trainers Observed**:
-    - **Lass Tiana** at `(15, 5)` facing `Up` — **DEFEATED**:
-      - Team (3 Pokemon): `Igglybuff` (Lv 6, `Present`), `Sunkern` (Lv 6, `Protect`, `Leech Seed`, `Mega Drain`, holds `Berry Juice`), `Togepi` (Lv 5, `Metronome`, holds `Berry Juice`).
-    - **Bug Catcher Allen** at `(13, 2)` facing `Down` — **DEFEATED**:
-      - Team (4 Pokemon): `Weedle` (Lv 7), `Silcoon` (Lv 7, holds `Sitrus Berry`), `Wurmple` (Lv 7), `Metapod` (Lv 7).
-    - **Trainer in tall grass** at `(18, 12)`.
   - **Grass-Free Path to Petalburg City**: From `(13, 3)`, step `Left` to `(12, 3)`, `Down x4` to `(12, 7)`, `Left` to `(11, 7)`, `Down` to `(11, 8)`, and `Left x12` along `y=8` straight into Petalburg City.
+
+## Petalburg City
+- **Eastern Entrance**: Enters from Route 102 onto `y=18` (`x=29`).
+- **Landmarks**:
+  - **Pokemon Center**: Door at `(20, 16)`.
+  - **Wally's House**: Door at `(12, 19)`.
+  - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish.
