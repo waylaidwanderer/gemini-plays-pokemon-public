@@ -171,6 +171,7 @@
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Ember`, `Disable`).
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on the horizontal bridge section) — **DEFEATED**:
     - Team (2 Pokemon): `Smeargle` (M, Lv 8, `Follow Me`) & `Smeargle` (M, Lv 8, `Focus Punch`).
-  - **Red-Cap Trainer ("...")** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at the northern exit of the bridge).
+  - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at the northern exit of the bridge):
+    - Team (6 Pokemon): Lead `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, holds `Sitrus Berry`), plus 5 remaining Pokemon.
 
 <hr>
