@@ -28,3 +28,7 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 ## Trainers Defeated - Route 126
 - Swimmer ♂ Barry: Defeated at (45, 62) on Turn 17779 (Gyarados Lv 34; Prize: ¥272; Sage Leaf Blade x2, 0 damage taken).
 - Sootopolis Southern Dive Trench: Discovered at cols 29..35+, rows 64..70+ south of the caldera rim. Deep indigo dive trench confirmed. Interacting with 'A' on (29, 68) activates HM08 Dive to enter Sootopolis City.
+## Route 126 Underwater
+- Submerged at (31, 68) facing North into the underwater trench.
+- Seabed features open sandy corridors and kelp/seaweed patches.
+- Clean sandy corridor extends North along col 31 toward the northern submerged rock wall and cave entrance into Sootopolis City.
