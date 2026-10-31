@@ -74,7 +74,7 @@
   - Opening the Party menu (`Start -> POKEMON` or `BAG -> USE`) takes ~800ms to fade in; directional inputs sent within 300ms of opening are ignored during the fade-in.
   - `BAG -> USE` remembers the last active Party `slotId` (including slots selected during a prior `GIVE`), whereas `Start -> POKEMON` and `BAG -> GIVE` always open at `slotId = 0` (Slot 1).
   - `Down` steps sequentially (`Slot 1 -> Slot 2 -> ... -> Last Slot -> CANCEL -> Slot 1`), `Up` steps in reverse (`Slot 1 -> CANCEL -> Last Slot`), and `Left` from any slot (`Slots 1..6`) deterministically clamps the cursor onto `Slot 1` (`slotId = 0`).
-- **Battle Menu Action Cursor**: At the start of every new battle turn (`What will [POKEMON] do?`), the action cursor always resets to `>FIGHT` (top-left, index 0). It only remains on `>BAG` or `>POKEMON` if you cancel out of the Bag or Party screen with `B` during the same turn, or after a failed Poke Ball throw (`>BAG`).
+- **Battle Menu Action Cursor & Bag Exit Timing**: At the start of every new battle turn (`What will [POKEMON] do?`), the action cursor always resets to `>FIGHT` (top-left, index 0). It only remains on `>BAG` or `>POKEMON` if you cancel out of the Bag or Party screen with `B` during the same turn, or after a failed Poke Ball throw (`>BAG`). Closing the Bag in battle with `B` takes `~1000ms` to fade back to the battle menu; inputs sent after only `600ms` are ignored during the black fade-out (verified Turn 359).
 - **Berry Tree Harvesting**: Interacting with a Berry Tree takes **3 `A` presses** (`Interact -> "You found N [X] BERRIES!" -> "Do you want to pick the [X] BERRIES? [>YES]"`), followed by `sleep 3500` for the fanfare and **3 `B` presses** (`sleep 1500` apart) to dismiss the put-away and loamy-soil messages without replanting.
   - **Loamy Soil `USE` Trap**: Selecting `USE` on a Berry in the `BERRIES` pocket while facing a soft, loamy soil patch in the overworld automatically plants the Berry into the soil and exits the Bag/Start menu to the overworld instead of opening the Party menu. Always turn away or step off the loamy soil before selecting `USE` on a Berry.
 - **Overworld Item Balls**: Picking up an item ball displays **2 text boxes**: `"[PLAYER] found one [ITEM]!"` (`~2500ms` fanfare + `A`/`B`) followed by `"[PLAYER] put away the [ITEM] in the [POCKET]."` (`~1000ms` + `A`/`B`).
@@ -149,6 +149,7 @@
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)` (bounded on the west by a solid cliff wall at `x=28`). Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
   - **Grass-Free Path to Central Clearing**: From Bug Catcher James at `(10, 25)`, step `Down` to `y=26`, walk `Right` along `y=26` to `(26, 26)` (bypassing the tall grass at `(18..24, 24..25)`), and walk `Up` along `x=26` to `(26, 23)`.
   - **Team Magma Grunt Ambush**: Triggers at `(26, 23)` when approaching the Devon Researcher at `(26, 20)`.
-    - Team (3 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`), 3rd TBD.
+    - Team (3 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), 3rd TBD.
+  - **Remaining Forest Items**: Item ball spotted at `(32, 29)` on the eastern ledge (Turn 345).
 
 <hr>
