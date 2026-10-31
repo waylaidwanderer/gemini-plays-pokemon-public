@@ -76,3 +76,5 @@
   - **Loamy Soil & Berry Trees**: Vertical 4-tile loamy soil column at `x=3, y=22..25` (stand at `x=4` facing `Left`):
     - `(3, 22)` & `(3, 24)`: Empty loamy soil (planted `Oran Berry` on Turn 418).
     - `(3, 23)` & `(3, 25)`: `Oran Berry` (`(3, 23)`) and `Cheri Berry` (`(3, 25)`) trees harvested on Turn 419.
+- **Trainers & Bridge Path**:
+  - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`).
