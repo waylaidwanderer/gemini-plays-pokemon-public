@@ -2,4 +2,4 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 10) | TRITON | Active | Bashful, Torrent; learned `Bubble` (Lv 6), `Mud Sport` (Lv 7); checking Lv 8-10 moves |
+| Starter (Route 101) | Mudkip (M, Lv 10) | TRITON | Active | Bashful, Torrent; Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`; Stats: 30/19/15/17/17/15 |
