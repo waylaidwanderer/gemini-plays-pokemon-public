@@ -170,7 +170,7 @@
   - **South-West patch at `(6..13, 27..33)`**: From `(17, 33)`, step `Down` to `(17, 34)`, walk `Left x11` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, walk `Up x4` to `(6, 30)`, step `Left` to `(5, 30)`, walk `Up x5` along `x=5` to `(5, 25)`, step `Right` to `(6, 25)`, and `Up` to `(6, 24)` for a 100% grass-free northbound corridor around the west edge of this patch.
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of southern entrance; 3 Pokemon: `Spinarak` Lv 8 [`Mega Drain`, `Spider Web`, holds `Berry Juice`], `Ledyba` Lv 8 [`Supersonic`, `Mach Punch`], `Venonat` Lv 8 [`Psybeam`, `Stun Spore`, `Confusion`]).
-  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`], `Surskit` Lv 8 [`Mega Drain`]).
+  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`], `Surskit` Lv 8 [`Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`]).
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`; `Poke Ball` item ball at `(29, 53)`.
   - **Grass-Free Path to Central Clearing**: From `(9, 25)` below Bug Catcher James, walk `Right x4` along `y=25` to `(13, 25)` (north of the `(8..12, 26)` grass row), step `Down` to `(13, 26)`, walk `Right x13` along `y=26` to `(26, 26)` (bypassing tall grass at `(18..24, 24..25)`), and walk `Up x3` along `x=26` to `(26, 23)`.
   - **Team Magma Grunt Ambush** at `(26, 23)` (Devon Researcher rewards `Great Ball`):
