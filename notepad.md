@@ -8,6 +8,7 @@
 | Route 103 | Ekans ♂ | OPHION | 13 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
 | Route 102 | Nidoran♂ | ARES | 12 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
 | Route 104 (South) | Cubone ♀ | BELLONA | 12 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, no held item [`Thick Club` is a 5% wild roll], `Bone Club`, `Rock Throw`, `Secret Power`) |
+| Petalburg Woods | Volbeat ♂ | HELIOS | 7 | Active | Caught at `(23, 35)` in Petalburg Woods (Turn 6235; Bug, `Quick Attack`, `Confuse Ray`, held `Berry Juice` consumed in battle) |
 
 <hr>
 
