@@ -5,7 +5,7 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 12 | Active | Starter (`Met in ROUTE 101`, Turn 6398; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Ledyba ♂ | AOBERON | 4 | Active | Caught at `(11, 14)` on Route 103 (Turn 6409; Bug/Flying, `Silver Wind`, `Supersonic`, `Comet Punch`) |
+| Route 103 | Ledyba ♂ | AOBERON | 12 | Active | Caught at `(11, 14)` on Route 103 (Turn 6409; Bug/Flying, `Silver Wind`, `Supersonic`, `Comet Punch`, `Aerial Ace`) |
 | Route 102 | Meowth ♀ | BASTET | 12 | Active | Caught at `(38, 6)` on Route 102 (Turn 6414; Normal, `Limber`, `+Speed` nature, holds `Berry Juice`, `Pay Day`, `Faint Attack`, `Swift`) |
 
 <hr>
@@ -64,7 +64,7 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 12, `34/34 HP`, Water, `Torrent`, Stats at Lv. 12: `34 HP / 23 Atk / 18 Def / 18 SpA / 18 SpD / 15 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **AOBERON** — Ledyba ♂ (Lv. 4, `17/17 HP`, Bug/Flying, Moves: `Silver Wind`, `Supersonic`, `Comet Punch`) — Caught on Route 103 (`(11, 14)`).
+2. **AOBERON** — Ledyba ♂ (Lv. 12, Bug/Flying, Held: `Pecha Berry`, Moves: `Silver Wind` [Slot 1: `Up, Left`], `Supersonic` [Slot 2: `Up, Right`], `Comet Punch` [Slot 3: `Down, Left`], `Aerial Ace` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(11, 14)`).
 3. **BASTET** — Meowth ♀ (Lv. 12, `33/33 HP`, Normal, `Limber`, `+Speed` nature, Held: `Berry Juice`, Stats at Lv. 12: `33 HP / 16 Atk / 14 Def / 14 SpA / 17 SpD / 31 Spd`, Moves: `Pay Day` [Slot 1: `Up, Left`], `Faint Attack` [Slot 2: `Up, Right`], `Swift` [Slot 3: `Left, Down`]) — Caught on Route 102 (`(38, 6)`).
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
