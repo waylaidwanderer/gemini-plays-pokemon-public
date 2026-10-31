@@ -29,5 +29,6 @@
   - **Western Trainers Observed**:
     - **Lass Tiana** at `(15, 5)` facing `Up` — **DEFEATED**:
       - Team (3 Pokemon): `Igglybuff` (Lv 6, `Present`), `Sunkern` (Lv 6, `Protect`, `Leech Seed`, `Mega Drain`, holds `Berry Juice`), `Togepi` (Lv 5, `Metronome`, holds `Berry Juice`).
-    - **Bug Catcher** at `(13, 2)` facing `Down` (west of the signpost at `(17, 2)`).
+    - **Bug Catcher Allen** at `(13, 2)` facing `Down` — **DEFEATED**:
+      - Team (3 Pokemon): `Weedle` (Lv 7), `Silcoon` (Lv 7, holds `Sitrus Berry`), `Wurmple` (Lv 7).
     - **Trainer in tall grass** at `(18, 12)`.
