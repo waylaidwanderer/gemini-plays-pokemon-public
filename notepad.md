@@ -106,12 +106,14 @@
 # Early Game Routing & Verified Trainer Data
 
 ## Littleroot Town
-- **Landmarks**: Player's House (East): `(14, 8)`; Rival's House (West): `(5, 8)`; Birch's Lab: `(7, 16)`.
-- **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod.
-- **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..17`) to bypass the wandering NPC near `(10..11, 12..14)`.
+- **Landmarks**: Player's House (East): `(14, 8)`; Rival's House (West): `(5, 8)`; Birch's Lab: door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`).
+- **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, Mom stands at `(14, 9)` outside the Player's House. Interact with her from `(14, 10)` facing `Up` to receive the Running Shoes.
+- **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod (route from `(10, 12)` via `Right x7` along `y=12` to `(17, 12)`, then `Down` to `(17, 13)`).
+- **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..15`) to bypass the wandering NPC near `(10..11, 12..14)`.
 
 ## Route 101
-- **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3).
+- **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2).
+- **Southern Tall Grass Patch**: Located at `x=5, y=14..16` (accessible from `(11, 14)` by walking `Left x6` to `(5, 14)`).
 - **Grass-Free Path (Northbound)**: `(11, 19)` -> `Up x5` to `(11, 14)` -> `Left x4` to `(7, 14)` -> `Up x4` to `(7, 10)` -> `Right x6` to `(13, 10)` -> `Up` to `(13, 9)` -> `Right x2` to `(15, 9)` -> `Up` to `(15, 8)`, then through `(15, 7..5)` (3 grass tiles) to `(15, 4)` -> `Left x3` (2 grass tiles) to `(12, 4)` -> `Left x2` to `(10, 4)` -> `Up` into Oldale Town.
 - **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down` along `x=9` (jumping ledges at `y=6` and `y=13`) to `(9, 14)`, then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(11, 0)`.
 
