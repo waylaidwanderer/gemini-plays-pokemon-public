@@ -9,3 +9,4 @@
 | Route 102 | Meowth (M, Lv 11) | MIDAS | Active | Naughty, Limber; Held: `Oran Berry`; Moves: `Pay Day`, `Faint Attack`; Stats: 29/17/13/14/11/25 |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Active | Bashful, Huge Power; Held: `Oran Berry`; Moves: `Water Gun`, `Charm`, `Secret Power`, `BubbleBeam`; Stats: 32/9/14/9/14/10 |
 | Route 104 | Jigglypuff (F, Lv 10) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`; Stats: 45/16/11/15/12/10 |
+| Petalburg Woods | Oddish (F, Lv 8) | ARTEMISIA | Active (Box 1) | Caught at `(22, 35)`; Observed moves: `Acid`, `Mega Drain` |
