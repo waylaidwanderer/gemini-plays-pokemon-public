@@ -168,6 +168,8 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 ## Discovered Topography & Navigation - B4F (Lowest Basin)
 - Entrance Area: Spawns at (9, 6) facing South from B3F doorway at (9, 5).
 - Central Southbound Canyon (cols 8..10, rows 6..12+): A 3-tile wide open dirt corridor flanked by vertical basalt rock ridges, leading south into the lowest chamber where Wallace is located.
+## Wild Encounters - Cave of Origin
+- Zubat: Wild encounter on B4F at (9, 14) (Turn 17938).
 
 <hr>
 
