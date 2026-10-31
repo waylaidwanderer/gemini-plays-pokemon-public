@@ -124,6 +124,30 @@ The secret high-tech coastal base of Team Aqua carved into the cliffs of Lilycov
 
 <hr>
 
+<h1><code>Locations/CaveOfOrigin</code></h1>
+
+# Location: Cave of Origin
+
+## Overview
+A sacred, ancient subterranean cavern situated beneath northern Sootopolis City, said to be where life in Hoenn originated and where Legendary Pokémon sleep.
+- Story Event: Wallace (former Gym Leader and ancient lorekeeper) is waiting deep within the Cave of Origin to discuss how to quell the catastrophic battle between Groudon and Kyogre.
+- Key Objective: Locate Wallace and tell him about Rayquaza at the Sky Pillar so he can unlock the Sky Pillar entrance.
+
+## Connection Points
+- 1F South Entrance / Exit: Light patch at (9, 21) exiting out to northern Sootopolis City at (31, 17). Spawns inside at (9, 20) facing North.
+
+## Progression Checklist - Cave of Origin
+1. [x] Enter Cave of Origin 1F from Sootopolis City with Steven Stone's escort (Turn 17877 at 9, 20).
+2. [ ] Navigate through 1F northern canyon to locate entrance/ladder to lower chambers.
+3. [ ] Locate Wallace deep within the Cave of Origin.
+4. [ ] Discuss the super-ancient Pokémon with Wallace and select "SKY PILLAR" to direct him to awaken Rayquaza.
+
+## Discovered Topography & Navigation - 1F
+- Entrance Area: Spawns at (9, 20) on 1F facing North. Exit light patch at (9, 21).
+- Central Northbound Canyon (rows 8..20, cols 8..10): A 3-tile wide dirt corridor flanked by rocky ridges on the west (cols 6..7) and east (cols 11..12). Extends straight North toward the inner chamber.
+
+<hr>
+
 <h1><code>Locations/DewfordGym</code></h1>
 
 # Location: Dewford Gym
@@ -4045,7 +4069,8 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 ## Connection Points
 - Underwater Entrance / Exit: Submerged cave tunnel leading south out to Route 126.
 - Dive Spot in Lagoon: Located at (29, 53) in the southern lagoon.
-- Disembarkation Landing: Stepped onto land from lagoon at (22, 37) onto the western grass terrace.
+- Western Shore Disembarkation Point: Located at (22, 37). Stepping Up from lagoon onto (22, 37) dismounts Surf onto the western terrace.
+- Cave of Origin Entrance: Located at (31, 17) on the northern terrace.
 - Sky / Exterior: Sealed off by volcanic caldera walls; outdoor flying unlocks once visited!
 
 ## Progression Checklist - Sootopolis City
@@ -4054,20 +4079,20 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 3. [x] Approach the central lagoon to observe Groudon and Kyogre clashing (Turn 17844).
 4. [x] Speak with Steven Stone on the western shore terrace at (20, 35) (Turn 17868).
 5. [x] Accompany Steven to Cave of Origin entrance at (31, 18) (Turn 17875).
-6. [ ] Traverse Cave of Origin to locate Wallace and discuss Rayquaza (Entered Turn 17877 at 9, 20).
+6. [x] Enter Cave of Origin to locate Wallace and discuss Rayquaza (Turn 17877 at 9, 20).
 7. [ ] Journey to Sky Pillar to awaken Rayquaza and quell the ancient conflict!
 
 ## Discovered Topography & Navigation
 - Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays prompts to surface.
 - Caldera Lagoon & Dive Spot: Surfaced at (29, 53) facing North on the dive spot. Extreme weather alternates between torrential downpour and intense drought sunlight. Open water extends North into the central caldera.
 - Ancient Clashing Site: Ancient Groudon is stationed on a volcanic rock island at (28, 44); Ancient Kyogre floats in the lagoon at (33, 44). Energy beams and weather hazards clash between them.
-- Western Shore Disembarkation Point: Located at (22, 37). Stepping Up from water onto (22, 37) dismounts Surf onto the western terrace.
 - Western Grass Terrace (rows 34..37, cols 17..22):
   - Steven Stone stationed at (20, 35) facing South overlooking the lagoon.
   - Young boy stationed at (19, 36) facing South.
   - Green tree at (17..18, 35..36).
   - White stone staircase behind Steven at (19..20, 34) leading up to the higher caldera cliff.
 - Sightings: Team Magma Grunt spotted observing the conflict from the eastern terrace at (26, 32).
+- Northern Terrace & Cave of Origin Entrance: Approached via northern caldera path. Elder stands at (30, 18), Steven Stone at (32, 18), and cave doorway at (31, 17).
 
 <hr>
 
