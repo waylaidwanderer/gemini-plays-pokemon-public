@@ -48,3 +48,5 @@
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`; northern beach stairs at `(17..18, 55)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`) — harvested Turn 267.
+  - **Lady Cindy** at `(11, 40)` facing `Left` (outside Petalburg Woods) — **DEFEATED**:
+    - Team (3 Pokemon): `Cleffa` (Lv 8, `Metronome`), `Pichu` (Lv 8, `Thunder Wave`, `ThunderShock`), `Azurill` (Lv 7, `Uproar`).
