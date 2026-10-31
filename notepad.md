@@ -141,7 +141,8 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 2. [x] Navigate through 1F to B1F (Turn 17883 at 9, 5).
 3. [x] Navigate through B1F to B2F (Turn 17902 at 14, 5).
 4. [x] Navigate B2F western corridor to locate Wallace at (9, 13) in the southern basin (Turn 17980)!
-5. [ ] Speak with Wallace and select "SKY PILLAR" to direct him to awaken Rayquaza at the Sky Pillar.
+5. [x] Spoke with Wallace and selected "SKY PILLAR" to direct him to awaken Rayquaza at the Sky Pillar (Turn 17992)!
+6. [ ] Exit Cave of Origin and travel to Route 131 / Sky Pillar to awaken Rayquaza.
 
 ## Discovered Topography & Navigation
 ### 1F (Entrance Hall)
