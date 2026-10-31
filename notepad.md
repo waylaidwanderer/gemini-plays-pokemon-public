@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Active | Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); Stats: 25/16/13/12/12/10 |
 | Littleroot Town | TBD | TBD | Pending | Custom pond at `(18, 12..14)`; stand at `(17, 13)` facing `Right` with Old Rod |
 | Route 101 | TBD | TBD | Pending | Observed species: `Togepi`, `Caterpie`, `Igglybuff` |
-| Route 103 | TBD | TBD | Pending | Observed species: `Hoppip` |
+| Route 103 | TBD | TBD | Pending | Observed species: `Hoppip`, `Spearow` |
 | Route 102 | TBD | TBD | Pending | Observed species: `Meowth` |
 | Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
 | Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
@@ -117,7 +117,7 @@
 
 ## Oldale Town & Route 103
 - **Oldale Central Road**: `x=10` (`y=0..19`) is a straight vertical road between Route 101 and Route 103.
-- **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east to `(20, 11)` facing `Down` at `(20, 12)` for the **Old Rod Fisherman**, or north to `(13, 7)` -> `Left x7` to `(6, 7)` -> `(5, 6)` -> `Up x3` to `(5, 3)` for the Rival battle at `(9, 3)`).
+- **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east to `(20..21, 8..10)` for the **Old Rod Fisherman**, or north to `(13, 7)` -> `Left x7` to `(6, 7)` -> `Up` to `(6, 6)` -> `Left` to `(5, 6)` -> `Up x3` to `(5, 3)` -> `Right x4` to `(9, 3)` for the Rival battle at `(10, 3)`).
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
 - **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102.
 
