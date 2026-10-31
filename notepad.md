@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 (deposit in PC next) |
 | Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Caught at `(17, 13)` pond; Lv 4 stats: 17/7/8/8/10/14; Moves: `Secret Power`, `Charm` |
-| Route 101 | Poochyena (F, Lv 7) | AHECATE | Active | Quirky, `Run Away`; learned `Sand-Attack` (Lv 4), `Bite` (Lv 5) + `Tackle` |
+| Route 101 | Poochyena (F, Lv 12) | AHECATE | Active | Quirky, `Run Away`; Stats: 30/18/15/13/13/17; Moves: `Tackle`, `Sand-Attack` (Lv 4), `Bite` (Lv 5), `Secret Power` (Lv 10) |
 | Route 103 | Spearow (F, Lv 4) | NIKE | Active | Lv 4 stats: 17/8/7/8/8/10; Moves: `Peck`, `Pursuit` |
 | Route 102 | Meowth (M, Lv 6) | HERMES | Active | Lv 6 stats: 20/11/10/9/11/18; Moves: `Pay Day`, `Faint Attack` |
 | Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
