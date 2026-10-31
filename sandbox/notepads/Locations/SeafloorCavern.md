@@ -136,5 +136,11 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance: Entered via Room 8 northern doorway at (5, 2). Player spawns at (5, 4) facing North on the entrance landing.
 - Return doorway to Room 8: (5, 5) directly south.
 - Atmosphere: Swirling subterranean mist and fog.
-- Items: TM26 Earthquake collected on eastern ledge at (14, 5)!
-- Visual Features: Upper terrace with rock formations; wooden stairs at southeast leading to the lower subterranean water basin where Kyogre sleeps!
+- Upper Terrace: Cols 5..14 along row 4. Item ball containing TM26 Earthquake collected on eastern ledge at (14, 5)!
+- Multi-Flight Wooden Staircase Descent (Verified Turns 17567-17579):
+  - Flight 1: Located at (12, 6..7), descends South from upper terrace (row 6) onto Landing 1 at (12, 8).
+  - Flight 2: Located at (12, 9..10), descends South from Landing 1 (row 9) onto Landing 2 at (12, 11).
+  - Flight 3: Located at (12, 12..13), descends South from Landing 2 onto Landing 3 at (12, 14).
+  - Flight 4: Located at (12, 15..16), descends South from Landing 3 onto Landing 4 at (12, 17).
+  - Flight 5: Located at (12, 19..20), descends South from Landing 4 onto the lower basin floor at (12, 21).
+- Deep Basin Floor: Sandy corridor extends South along col 12 from row 21 past row 26 toward the central subterranean pool where Kyogre rests!

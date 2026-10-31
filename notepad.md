@@ -3919,8 +3919,14 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance: Entered via Room 8 northern doorway at (5, 2). Player spawns at (5, 4) facing North on the entrance landing.
 - Return doorway to Room 8: (5, 5) directly south.
 - Atmosphere: Swirling subterranean mist and fog.
-- Items: TM26 Earthquake collected on eastern ledge at (14, 5)!
-- Visual Features: Upper terrace with rock formations; wooden stairs at southeast leading to the lower subterranean water basin where Kyogre sleeps!
+- Upper Terrace: Cols 5..14 along row 4. Item ball containing TM26 Earthquake collected on eastern ledge at (14, 5)!
+- Multi-Flight Wooden Staircase Descent (Verified Turns 17567-17579):
+  - Flight 1: Located at (12, 6..7), descends South from upper terrace (row 6) onto Landing 1 at (12, 8).
+  - Flight 2: Located at (12, 9..10), descends South from Landing 1 (row 9) onto Landing 2 at (12, 11).
+  - Flight 3: Located at (12, 12..13), descends South from Landing 2 onto Landing 3 at (12, 14).
+  - Flight 4: Located at (12, 15..16), descends South from Landing 3 onto Landing 4 at (12, 17).
+  - Flight 5: Located at (12, 19..20), descends South from Landing 4 onto the lower basin floor at (12, 21).
+- Deep Basin Floor: Sandy corridor extends South along col 12 from row 21 past row 26 toward the central subterranean pool where Kyogre rests!
 
 
 <hr>
@@ -4179,7 +4185,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
@@ -4302,7 +4308,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Completed)
 1. [x] Receive Go-Goggles from Brendan outside Lavaridge Gym.
 2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
-3. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return - completed turn 12903!).
+3. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return - completed turn 12903!).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
 5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
 6. [x] Challenge Petalburg Gym trainers (Speed, Defense, Strength cleared!).
@@ -4311,7 +4317,7 @@ A large meteorological research institute located in northern Route 119 beside t
 1. [x] Obtain HM03 Surf from Wally's Dad in Petalburg City.
 2. [x] Teach HM03 Surf to Lombre (Lilz).
 3. [x] Heal party at Petalburg City Pokémon Center.
-4. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return - completed turn 12903!).
+4. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (TM27 Return - completed turn 12903!).
 5. [x] Travel east from Mauville City onto Route 118.
 6. [x] Surf across Route 118 river to meet Steven Stone.
 7. [x] Traverse Route 119 north to Weather Institute.
@@ -4324,7 +4330,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Progression Checklist - Phase 11: Lilycove City & Mossdeep Gym (Completed)
 1. [x] Heal party and set checkpoint at Fortree Pokémon Center.
 2. [x] Teach HM02 Fly to Guava (Tropius)!
-3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return)!
+3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM27 Return)!
 4. [x] Traverse Route 120 east and south toward Route 121.
 5. [x] Arrive in Lilycove City and heal at Pokémon Center.
 6. [x] Infiltrate Team Aqua Hideout, obtain Master Ball, and defeat Admin Matt.
