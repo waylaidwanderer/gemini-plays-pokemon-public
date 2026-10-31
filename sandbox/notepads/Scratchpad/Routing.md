@@ -9,3 +9,7 @@
   1. Go downstairs to 1F and complete Mom's TV cutscene.
   2. Exit house and visit Rival's house (West house at `(5, 8)`) -> went upstairs to 2F.
   3. Head north to Route 101 (`x=11, y=0`): The girl at `(10, 1)` triggers a one-time dialogue at `y=1` (`"There are scary POKEMON outside! ... Can you go see what's happening for me?"`) and lets you pass into Route 101.
+
+## Route 101 — Starter Rescue
+- **Starter Trio**: Treecko (Left), Torchic (Middle), Mudkip (Right). Chose **Mudkip**.
+- **Birch Rescue Battle**: Wild `Zigzagoon Lv 2` knows `Swift` and holds `Berry Juice`; `Mudkip Lv 5` starts with only `Tackle` (no `Growl`). Takes 4 `Tackle`s total to KO through `Berry Juice`.
