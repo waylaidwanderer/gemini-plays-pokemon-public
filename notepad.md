@@ -4048,8 +4048,8 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 
 ## Progression Checklist - Sootopolis City
 1. [x] Enter Sootopolis City submerged tunnel from Route 126 (Turn 17822 at 9, 8).
-2. [ ] Surface into the central caldera lagoon.
-3. [ ] Witness the clash between Ancient Groudon and Ancient Kyogre.
+2. [x] Surface into the central caldera lagoon (Turn 17826 at 29, 53).
+3. [x] Witness the clash between Ancient Groudon and Ancient Kyogre (Turn 17827)!
 4. [ ] Speak with Steven Stone on the western shore.
 5. [ ] Accompany Steven to meet Wallace outside the Cave of Origin.
 6. [ ] Enter the Cave of Origin to learn of Rayquaza's slumber at the Sky Pillar.
@@ -4057,6 +4057,8 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 
 ## Discovered Topography & Navigation
 - Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays surfaces directly into the city lagoon.
+
+- Caldera Lagoon & Dive Spot: Surfaced at (29, 53) at the southern entrance dive spot. Central lagoon features Ancient Groudon and Ancient Kyogre clashing! Western shore holds Steven Stone.
 
 
 <hr>
