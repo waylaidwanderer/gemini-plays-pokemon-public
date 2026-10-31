@@ -46,8 +46,7 @@
   - PC at `(8, 2)` facing Up: Withdrew `Potion x1` (Note: takes 4 `B` presses after withdrawing to close the text box, item list, Item Storage menu, and top-level PC menu).
 - **Next Steps**:
   1. Go downstairs to 1F and complete Mom's TV cutscene.
-  2. Exit house and visit Rival's house (West house at `(5, 8)`) -> go upstairs to meet Brendan by examining Poke Ball at `(3, 4)` from `(3, 5)`.
-     - **Important Mechanic**: When turning in place to face an adjacent obstacle/NPC, you MUST include `"sleep 300"` between the directional press and `"A"` (or step onto the tile already facing the target), otherwise `"A"` fires during the turn animation and is ignored.
-  3. Head north to Route 101 (`x=10..11, y=0`) to rescue Prof. Birch and choose our Starter Pokemon.
+  2. Exit house and visit Rival's house (West house at `(5, 8)`) -> went upstairs to 2F.
+  3. Head north to Route 101 (`x=11, y=0`): The girl at `(10, 1)` triggers a one-time dialogue at `y=1` (`"There are scary POKEMON outside! ... Can you go see what's happening for me?"`) and lets you pass into Route 101.
 
 <hr>
