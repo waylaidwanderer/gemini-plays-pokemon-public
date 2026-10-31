@@ -140,7 +140,7 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 1. [x] Enter Cave of Origin 1F from Sootopolis City with Steven Stone's escort (Turn 17877 at 9, 20).
 2. [x] Navigate through 1F to B1F (Turn 17883 at 9, 5).
 3. [x] Navigate through B1F to B2F (Turn 17902 at 14, 5).
-4. [ ] Navigate B2F past red/blue crystals or south jump ledges to find ladder down to B3F/Wallace.
+4. [ ] Navigate B2F past red crystals to find ladder down to B3F / lowest basin.
 5. [ ] Locate Wallace deep within the Cave of Origin.
 6. [ ] Discuss the super-ancient Pokémon with Wallace and select "SKY PILLAR" to direct him to awaken Rayquaza.
 
@@ -158,10 +158,10 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Ladder to B2F: Located at (14, 5) entered from (14, 6) stepping North in the northeast corner of B1F.
 
 ### B2F (Elemental Crystal Chamber)
-- Entrance / Return Ladder: Spawns at (9, 3) facing North. The ladder directly at/above (9, 3) returns up to B1F at (14, 5)! Do not re-enter (9, 3) when navigating B2F.
+- Entrance / Return Ladder: Spawns at (9, 3) facing North. The ladder directly at/above (9, 3) returns up to B1F at (14, 5)!
 - Upper Northern Highway (row 3, cols 4..14): Horizontal corridor running along the northern rock wall.
 - Western Sector: Col 6 forms a short dead-end pocket terminating at (6, 5) against blue crystals at (6, 6).
-- Eastern Sector (cols 10..14, row 3): Open upper highway extending east toward the red glowing crystal corridor (Groudon aura).
+- Eastern Sector (cols 11..15, rows 3..8+): Row 3 corners south at (12, 3); path bypasses via (11, 4) -> (12, 4) -> (12, 5). Flanked by glowing red crystals (Groudon aura) on the east (cols 14..15).
 - Central Terraces (rows 4..8): Stepped rocky terraces with south-facing ledges.
 
 ## Wild Encounters - Cave of Origin
