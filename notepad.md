@@ -3937,6 +3937,12 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Turn 1: Sage Lv 56 OHKOed Mightyena Lv 41 with Leaf Blade!
   - Turn 2: Archie sent out Crobat Lv 41. Sage hit Crobat with Rock Tomb (2x Super Effective), bringing it to ~35% HP.
   - Turn 3: Switched Guava (Tropius Lv 29) then brought Sage back in at full 171/171 HP.
+- Archie Defeated (Turn 17635):
+  - Foe Mightyena Lv 41 OHKOed by Sage's Leaf Blade!
+  - Foe Crobat Lv 41 hit by Rock Tomb (critical hit) and fainted!
+  - Foe Sharpedo Lv 43 OHKOed by Sage's Leaf Blade!
+  - Sage grew to Level 57 (HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169)!
+  - Prize money earned: ¥3,440!
 
 
 <hr>
@@ -4165,7 +4171,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: MIND BADGE EARNED! Team Magma defeated at Space Center! HM08 DIVE OBTAINED and taught to Lilz! Sage Lv 56 fully healed! Ready to embark south onto Route 127/128 to locate Seafloor Cavern and stop Team Aqua.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). (Max Elixir used Turn 17028!) HP: 149/171. Max HP: 171. (Fresh Water used Turn 17573) Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 126, Def 92, Sp.Atk 138, Sp.Def 124, Speed 166. (Verified Turn 17034)
+1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 108/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Verified Turn 17635)
 2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 0/80. Max HP: 80. Status: FNT (Fainted in Shelly battle; still usable for HMs). (Verified Turn 17018)
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
@@ -4205,7 +4211,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥60,733 (Earned ¥2,180 from Aqua Admin Shelly on Turn 17431)
+- Money: ¥64,173 (Earned ¥3,440 from Aqua Leader Archie on Turn 17635) (Earned ¥2,180 from Aqua Admin Shelly on Turn 17431)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

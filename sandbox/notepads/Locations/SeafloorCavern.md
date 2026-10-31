@@ -154,3 +154,9 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Turn 1: Sage Lv 56 OHKOed Mightyena Lv 41 with Leaf Blade!
   - Turn 2: Archie sent out Crobat Lv 41. Sage hit Crobat with Rock Tomb (2x Super Effective), bringing it to ~35% HP.
   - Turn 3: Switched Guava (Tropius Lv 29) then brought Sage back in at full 171/171 HP.
+- Archie Defeated (Turn 17635):
+  - Foe Mightyena Lv 41 OHKOed by Sage's Leaf Blade!
+  - Foe Crobat Lv 41 hit by Rock Tomb (critical hit) and fainted!
+  - Foe Sharpedo Lv 43 OHKOed by Sage's Leaf Blade!
+  - Sage grew to Level 57 (HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169)!
+  - Prize money earned: ¥3,440!
