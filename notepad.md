@@ -65,6 +65,7 @@
 # UI, Menu, and Tool Mechanics
 
 ## Menu & Cursor Mechanics
+- **New Game Options Reset**: Configuring `OPTION` on the Title Screen before `NEW GAME` is overwritten by `StartNewGame()`; always configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via the Start menu after arriving in the moving truck.
 - **Start Menu Cursor Memory**: The Start menu preserves its last-used index across openings. When `POKEMON` or `POKEDEX` is added at index 0, the stored index shifts relative to older items.
 - **Pokemon Summary Exit**: Takes 3 `B` presses to return from Summary to the Start menu (`Summary -> Party submenu -> Party slot list -> Start menu`) and a 4th `B` to close the Start menu.
 - **PC Item Withdrawal Exit**: Takes 4 `B` presses after withdrawing an item to return to the overworld (`Dismiss text -> Item list -> Item Storage submenu -> Top-level PC menu`).
