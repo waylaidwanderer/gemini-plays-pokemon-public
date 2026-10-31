@@ -27,6 +27,7 @@
   - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
   - **Berry Trees**: Located at `(24, 2)` (`Oran Berry`) and `(25, 2)` (`Pecha Berry`); harvested on Turn 144 (auto-refill to 99 in the overworld).
   - **Western Trainers Observed**:
-    - **Lass Tiana** at `(15, 5)` facing `Up` (3 Pokemon: leads with `Igglybuff`).
+    - **Lass Tiana** at `(15, 5)` facing `Up` — **DEFEATED**:
+      - Team (3 Pokemon): `Igglybuff` (Lv 6, `Present`), `Sunkern` (Lv 6, `Protect`, `Leech Seed`, `Mega Drain`, holds `Berry Juice`), `Togepi` (Lv 5, `Metronome`, holds `Berry Juice`).
     - **Bug Catcher** at `(13, 2)` facing `Down` (west of the signpost at `(17, 2)`).
     - **Trainer in tall grass** at `(18, 12)`.
