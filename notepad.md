@@ -5,6 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 10) | TRITON | Active | Bashful, Torrent; Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`; Stats: 30/19/15/17/17/15 |
+| Littleroot Town | TBD | TBD | Pending | Custom pond at `(17, 13..14)` — Old Rod fishing |
 | Route 101 | TBD | TBD | Pending | Saw wild `Togepi` Lv 2 pre-Pokedex |
 | Route 103 | TBD | TBD | Pending | Grass & Old Rod fishing available |
 | Route 102 | TBD | TBD | Pending | Grass & Old Rod fishing available |
@@ -20,7 +21,7 @@
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 13; Text Speed `Fast`)
 - **Unlimited Items**: Rare Candies & any acquired Berries auto-refill to 99 in the overworld.
-- **Key Items Obtained**: `Pokedex`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
+- **Key Items Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16

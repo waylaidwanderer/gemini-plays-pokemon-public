@@ -5,7 +5,7 @@
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 13; Text Speed `Fast`)
 - **Unlimited Items**: Rare Candies & any acquired Berries auto-refill to 99 in the overworld.
-- **Key Items Obtained**: `Pokedex`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
+- **Key Items Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16
