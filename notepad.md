@@ -3556,6 +3556,8 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 4. [ ] Use HM08 Dive with Lombre (Lilz) to submerge underwater.
 5. [ ] Enter the submerged cave opening and surface inside Sootopolis City!
 
+## Discovered Topography & Navigation
+- Eastern Ocean Entrance: Entered Route 126 from Route 127 at (79, 45) along row 45 facing West. Open deep blue ocean extends to the west toward the central caldera.
 
 <hr>
 
