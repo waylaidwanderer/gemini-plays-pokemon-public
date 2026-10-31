@@ -42,3 +42,6 @@
   - **Friendly Boy** at `(28, 74)` on the shoreline (not a trainer).
   - **Bird Keeper Billy** at `(23, 66)` facing `Left` — **DEFEATED**:
     - Team (3 Pokemon): `Pidgey` (Lv 7, holds `Berry Juice`), `Wingull` (Lv 7, `Supersonic`, `Water Gun`, `Gust`), `Taillow` (Lv 7).
+  - **Friendly Fisherman** at `(15, 60)` facing `Right` (not a trainer).
+  - **Fisherman Darian** at `(15, 59)` facing `Right` — **DEFEATED**:
+    - Team (2 Pokemon): `Magikarp` (Lv 9, `Bounce`), `Feebas` (Lv 8, `Icy Wind`, `Facade`, holds `Sitrus Berry`).
