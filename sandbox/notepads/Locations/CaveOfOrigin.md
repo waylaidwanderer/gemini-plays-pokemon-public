@@ -37,3 +37,6 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Southern Terraces: South-facing jump ledges descending from the upper terrace into the southern floor.
 - Southern Floor (rows 12..14+): Cavern floor wrapping east beneath the central rock plateau toward the ladder down to B4F.
 - Ladder to B4F: Located at (11, 16..17) along the southern corridor beneath the central rock plateau.
+## Discovered Topography & Navigation - B4F (Lowest Basin)
+- Entrance Area: Spawns at (9, 6) facing South from B3F doorway at (9, 5).
+- Central Southbound Canyon (cols 8..10, rows 6..12+): A 3-tile wide open dirt corridor flanked by vertical basalt rock ridges, leading south into the lowest chamber where Wallace is located.
