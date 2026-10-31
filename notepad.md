@@ -4465,8 +4465,8 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Progression Checklist - Phase 13: The Ancient Conflict & Sootopolis City (Active)
 1. [x] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone (Turn 17645).
 2. [x] Travel to Sootopolis City to witness the clash between Groudon and Kyogre (Turn 17822).
-3. [ ] Locate Steven Stone and Wallace at the Cave of Origin.
-4. [ ] Awaken Rayquaza at the Sky Pillar to quell the catastrophe.
+3. [x] Located Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
+4. [ ] Exit Cave of Origin and travel to Route 131 / Sky Pillar to awaken Rayquaza.
 5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
