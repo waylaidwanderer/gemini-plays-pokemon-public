@@ -10,7 +10,7 @@
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 14) | HERMES | Active | Lv 14 stats: 35/21/18/17/20/37; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
 | Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 14 stats: 40/12/18/10/18/11; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
-| Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
+| Route 104 | Jigglypuff (F, Lv 7) | CALLIOPE | Active | Caught at `(24, 60)` on Turn 619; leveling to Lv 14 for `Seismic Toss` |
 | Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
 
 ## Attempt #1 Encounter History
