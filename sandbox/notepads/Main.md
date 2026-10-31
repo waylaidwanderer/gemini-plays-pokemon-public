@@ -190,11 +190,19 @@
 9. [x] Defeat Team Magma at Mossdeep Space Center with Steven Stone.
 10. [x] Obtain HM08 Dive from Steven Stone and teach to Lombre (Lilz).
 
-## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Active)
+## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Completed)
 1. [x] Surf south from Mossdeep City onto Route 127 and Route 128.
 2. [x] Locate underwater trench on Route 128 at (27, 21), use Dive, and find Submarine Explorer 1 (Turn 17143-17149).
-3. [ ] Infiltrate Seafloor Cavern, navigate boulder puzzles, and confront Team Aqua.
-4. [ ] Prevent Archie from using the Red Orb to awaken Kyogre!
+3. [x] Infiltrate Seafloor Cavern, navigate boulder puzzles, and collect TM26 Earthquake (Turns 17150-17563).
+4. [x] Defeat Team Aqua Admin Shelly and Leader Archie at Kyogre's shrine (Turns 17431, 17635).
+5. [x] Witness Kyogre's awakening and surface onto Route 128 amidst the weather crisis (Turn 17640).
+
+## Progression Checklist - Phase 13: The Ancient Conflict & Sootopolis City (Active)
+1. [ ] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone.
+2. [ ] Travel to Sootopolis City to witness the clash between Groudon and Kyogre.
+3. [ ] Locate Steven Stone and Wallace at the Cave of Origin.
+4. [ ] Awaken Rayquaza at the Sky Pillar to quell the catastrophe.
+5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.

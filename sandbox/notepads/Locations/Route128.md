@@ -48,3 +48,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Mechanics: Surfacing and Diving
 - Overworld Dive Activation: Pressing 'B' while surfing on the surface does NOT activate Dive (B is only for surfacing while already underwater).
 - Verified Submerge Protocol: Stand on a suspected dark water tile and either press 'A' (triggers Dive prompt: 'The sea is deep here. Would you like to use DIVE?') or open the Party Menu (`Start -> POKéMON -> LILZ -> DIVE`). If on valid dive tile, Lilz will use Dive to submerge underwater.
+## Story Climax Event: Kyogre Awakening & Weather Crisis (Turn 17640+)
+- Location: Surfaced at (38, 22) above the deep dive trench.
+- Weather Calamity: Torrents of rain and scorching sunlight alternate in violent succession as Kyogre and Groudon's ancient power clashes across Hoenn!
+- Story Progression: Archie and Maxie witness the catastrophe and depart. Steven Stone arrives to direct May to Sootopolis City.

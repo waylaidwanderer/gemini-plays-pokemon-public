@@ -13,12 +13,12 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Submarine Cove (Underwater): Warp entrance from Route 128 underwater trench at cols 37..38, row 25. Submarine Explorer 01 is moored here at (6, 7).
 - Surfacing warp: Pressing B / using Dive in the submarine cove surfaces directly into Seafloor Cavern Room 1.
 
-## Progression Checklist - Seafloor Cavern
+## Progression Checklist - Seafloor Cavern (100% Completed)
 1. [x] Locate underwater cave entrance on Route 128 and discover Submarine Explorer 1 (Turn 17148-17149).
 2. [x] Surface into Seafloor Cavern Room 1 (Turn 17150).
-3. [ ] Solve boulder and current puzzles through the cavern chambers.
-4. [ ] Confront and defeat Team Aqua Admin Shelly and Leader Archie.
-5. [ ] Prevent the catastrophic awakening of Kyogre!
+3. [x] Solve boulder and current puzzles through all chambers and collect TM26 Earthquake (Turns 17155-17563).
+4. [x] Confront and defeat Team Aqua Admin Shelly and Leader Archie (Turns 17431, 17635).
+5. [x] Witness Kyogre's awakening via Red Orb and escape to Route 128 surface (Turns 17637-17640)!
 
 ## Discovered Topography & Navigation - Room 1 (Entrance Chamber)
 - Surfacing Point: May surfaces at (10, 17) facing South in the entrance water pool.
@@ -147,16 +147,11 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 - Kyogre Sighted (Turn 17591): Reached the subterranean pool at (12, 40). The Legendary Pokémon KYOGRE is floating asleep in the center of the subterranean lake!
 
-## Boss Battle: Team Aqua Leader Archie (Turn 17595+)
+## Boss Battle: Team Aqua Leader Archie [DEFEATED - Turn 17635]
 - Location: Seafloor Cavern Kyogre Shrine at (17, 42).
 - Opponent Team: Mightyena Lv 41, Crobat Lv 41, Sharpedo Lv 43.
-- Combat Progression:
-  - Turn 1: Sage Lv 56 OHKOed Mightyena Lv 41 with Leaf Blade!
-  - Turn 2: Archie sent out Crobat Lv 41. Sage hit Crobat with Rock Tomb (2x Super Effective), bringing it to ~35% HP.
-  - Turn 3: Switched Guava (Tropius Lv 29) then brought Sage back in at full 171/171 HP.
-- Archie Defeated (Turn 17635):
-  - Foe Mightyena Lv 41 OHKOed by Sage's Leaf Blade!
-  - Foe Crobat Lv 41 hit by Rock Tomb (critical hit) and fainted!
-  - Foe Sharpedo Lv 43 OHKOed by Sage's Leaf Blade!
-  - Sage grew to Level 57 (HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169)!
-  - Prize money earned: ¥3,440!
+- Result: DEFEATED! Prize: ¥3,440.
+  - Mightyena Lv 41 OHKOed by Sage's Leaf Blade.
+  - Crobat Lv 41 hit by Rock Tomb (critical hit) and fainted.
+  - Sharpedo Lv 43 OHKOed by Sage's Leaf Blade.
+  - SAGE grew to Level 57 (HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169)!

@@ -3627,6 +3627,11 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Mechanics: Surfacing and Diving
 - Overworld Dive Activation: Pressing 'B' while surfing on the surface does NOT activate Dive (B is only for surfacing while already underwater).
 - Verified Submerge Protocol: Stand on a suspected dark water tile and either press 'A' (triggers Dive prompt: 'The sea is deep here. Would you like to use DIVE?') or open the Party Menu (`Start -> POKéMON -> LILZ -> DIVE`). If on valid dive tile, Lilz will use Dive to submerge underwater.
+## Story Climax Event: Kyogre Awakening & Weather Crisis (Turn 17640+)
+- Location: Surfaced at (38, 22) above the deep dive trench.
+- Weather Calamity: Torrents of rain and scorching sunlight alternate in violent succession as Kyogre and Groudon's ancient power clashes across Hoenn!
+- Story Progression: Archie and Maxie witness the catastrophe and depart. Steven Stone arrives to direct May to Sootopolis City.
+
 
 <hr>
 
@@ -3796,12 +3801,12 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Submarine Cove (Underwater): Warp entrance from Route 128 underwater trench at cols 37..38, row 25. Submarine Explorer 01 is moored here at (6, 7).
 - Surfacing warp: Pressing B / using Dive in the submarine cove surfaces directly into Seafloor Cavern Room 1.
 
-## Progression Checklist - Seafloor Cavern
+## Progression Checklist - Seafloor Cavern (100% Completed)
 1. [x] Locate underwater cave entrance on Route 128 and discover Submarine Explorer 1 (Turn 17148-17149).
 2. [x] Surface into Seafloor Cavern Room 1 (Turn 17150).
-3. [ ] Solve boulder and current puzzles through the cavern chambers.
-4. [ ] Confront and defeat Team Aqua Admin Shelly and Leader Archie.
-5. [ ] Prevent the catastrophic awakening of Kyogre!
+3. [x] Solve boulder and current puzzles through all chambers and collect TM26 Earthquake (Turns 17155-17563).
+4. [x] Confront and defeat Team Aqua Admin Shelly and Leader Archie (Turns 17431, 17635).
+5. [x] Witness Kyogre's awakening via Red Orb and escape to Route 128 surface (Turns 17637-17640)!
 
 ## Discovered Topography & Navigation - Room 1 (Entrance Chamber)
 - Surfacing Point: May surfaces at (10, 17) facing South in the entrance water pool.
@@ -3930,19 +3935,14 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 - Kyogre Sighted (Turn 17591): Reached the subterranean pool at (12, 40). The Legendary Pokémon KYOGRE is floating asleep in the center of the subterranean lake!
 
-## Boss Battle: Team Aqua Leader Archie (Turn 17595+)
+## Boss Battle: Team Aqua Leader Archie [DEFEATED - Turn 17635]
 - Location: Seafloor Cavern Kyogre Shrine at (17, 42).
 - Opponent Team: Mightyena Lv 41, Crobat Lv 41, Sharpedo Lv 43.
-- Combat Progression:
-  - Turn 1: Sage Lv 56 OHKOed Mightyena Lv 41 with Leaf Blade!
-  - Turn 2: Archie sent out Crobat Lv 41. Sage hit Crobat with Rock Tomb (2x Super Effective), bringing it to ~35% HP.
-  - Turn 3: Switched Guava (Tropius Lv 29) then brought Sage back in at full 171/171 HP.
-- Archie Defeated (Turn 17635):
-  - Foe Mightyena Lv 41 OHKOed by Sage's Leaf Blade!
-  - Foe Crobat Lv 41 hit by Rock Tomb (critical hit) and fainted!
-  - Foe Sharpedo Lv 43 OHKOed by Sage's Leaf Blade!
-  - Sage grew to Level 57 (HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169)!
-  - Prize money earned: ¥3,440!
+- Result: DEFEATED! Prize: ¥3,440.
+  - Mightyena Lv 41 OHKOed by Sage's Leaf Blade.
+  - Crobat Lv 41 hit by Rock Tomb (critical hit) and fainted.
+  - Sharpedo Lv 43 OHKOed by Sage's Leaf Blade.
+  - SAGE grew to Level 57 (HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169)!
 
 
 <hr>
@@ -4355,11 +4355,19 @@ A large meteorological research institute located in northern Route 119 beside t
 9. [x] Defeat Team Magma at Mossdeep Space Center with Steven Stone.
 10. [x] Obtain HM08 Dive from Steven Stone and teach to Lombre (Lilz).
 
-## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Active)
+## Progression Checklist - Phase 12: Route 127, Route 128 & Seafloor Cavern (Completed)
 1. [x] Surf south from Mossdeep City onto Route 127 and Route 128.
 2. [x] Locate underwater trench on Route 128 at (27, 21), use Dive, and find Submarine Explorer 1 (Turn 17143-17149).
-3. [ ] Infiltrate Seafloor Cavern, navigate boulder puzzles, and confront Team Aqua.
-4. [ ] Prevent Archie from using the Red Orb to awaken Kyogre!
+3. [x] Infiltrate Seafloor Cavern, navigate boulder puzzles, and collect TM26 Earthquake (Turns 17150-17563).
+4. [x] Defeat Team Aqua Admin Shelly and Leader Archie at Kyogre's shrine (Turns 17431, 17635).
+5. [x] Witness Kyogre's awakening and surface onto Route 128 amidst the weather crisis (Turn 17640).
+
+## Progression Checklist - Phase 13: The Ancient Conflict & Sootopolis City (Active)
+1. [ ] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone.
+2. [ ] Travel to Sootopolis City to witness the clash between Groudon and Kyogre.
+3. [ ] Locate Steven Stone and Wallace at the Cave of Origin.
+4. [ ] Awaken Rayquaza at the Sky Pillar to quell the catastrophe.
+5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
