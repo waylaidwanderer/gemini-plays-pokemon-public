@@ -2,4 +2,4 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | TBD | TBD | Pending | |
+| Starter (Route 101) | Mudkip (M, Lv 5) | TRITON | Active | Saved Prof. Birch on Route 101 |
