@@ -9,7 +9,7 @@
 | Route 101 | Poochyena (F, Lv 15) | AHECATE | Active | Quirky, `Run Away`; Lv 15 stats: 36/22/17/15/15/20; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 15) | HERMES | Active | Lv 15 stats: 37/22/19/18/21/39; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
-| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 15 stats: 42/13/19/11/19/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
+| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Active | Mild (+SpA), `Cute Charm`; Lv 15 stats: 62/22/9/23/12/12; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) (also observed on Route 104: `Cubone` Lv 7) |
 | Petalburg Woods | Bellsprout (F, Lv 15) | CHLORIS | Active | Bold (+Def), `Chlorophyll`; Lv 15 stats: 42/27/16/29/18/17; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15) (also observed: `Oddish`, `Volbeat` Lv 7) |
 
@@ -174,7 +174,7 @@
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`; `Poke Ball` item ball at `(29, 53)`.
   - **Grass-Free Path to Central Clearing**: From `(9, 25)` below Bug Catcher James, walk `Right x4` along `y=25` to `(13, 25)` (north of the `(8..12, 26)` grass row), step `Down` to `(13, 26)`, walk `Right x13` along `y=26` to `(26, 26)` (bypassing tall grass at `(18..24, 24..25)`), and walk `Up x3` along `x=26` to `(26, 23)`.
   - **Team Magma Grunt Ambush** at `(26, 23)` (Devon Researcher rewards `Great Ball`):
-    - Team (5 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), `Bagon` (Lv 8, `Headbutt`), `Koffing` (Lv 8, `Protect`, `Thief`), `Duskull` (Lv 8, `Protect`, `Shadow Sneak`, holds `Leftovers`).
+    - Team (5 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), `Bagon` (Lv 8, `Headbutt`), `Koffing` (Lv 8, `Protect`, `Toxic`, `Thief`), `Duskull` (Lv 8, `Protect`, `Shadow Sneak`, holds `Leftovers`).
   - **Grass-Free Path to Northern Exit**: From `(26, 23)`, walk `Up x7` to `(26, 16)`, `Left x13` to `(13, 16)`, `Down x3` to `(13, 19)`, `Left x8` to `(5, 19)`, `Up x6` along `x=5` to `(5, 13)`, `Left` to `(4, 13)`, `Up x5` along `x=4` to `(4, 8)`, `Right x6` to `(10, 8)`, `Down` to `(10, 9)` (below signpost at `(11, 8)`), `Right x4` to `(14, 9)`, and `Up x5` through the northern exit gate at `(14..15, 5)` onto Route 104 North `(10, 29)`.
   - **Remaining Forest Items**: Eastern path (`x=32..37`, including item ball at `(32, 29)`) is blocked by two Cut trees at `(18, 10..11)` near the northern exit; return after obtaining `HM01 Cut` in Rustboro City.
 

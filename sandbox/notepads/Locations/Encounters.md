@@ -7,7 +7,7 @@
 | Route 101 | Poochyena (F, Lv 15) | AHECATE | Active | Quirky, `Run Away`; Lv 15 stats: 36/22/17/15/15/20; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 15) | HERMES | Active | Lv 15 stats: 37/22/19/18/21/39; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
-| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 15 stats: 42/13/19/11/19/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
+| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Active | Mild (+SpA), `Cute Charm`; Lv 15 stats: 62/22/9/23/12/12; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) (also observed on Route 104: `Cubone` Lv 7) |
 | Petalburg Woods | Bellsprout (F, Lv 15) | CHLORIS | Active | Bold (+Def), `Chlorophyll`; Lv 15 stats: 42/27/16/29/18/17; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15) (also observed: `Oddish`, `Volbeat` Lv 7) |
 
