@@ -84,7 +84,7 @@
 
 ## Overworld & Fishing Mechanics
 - **NPC Sprite Coordinates**: Gen 3 NPC sprites are 32px tall (2 vertical tiles); their true collision/interaction tile is always the bottom half (feet/shadow), while their head overlaps `y - 1`.
-- **Turn-in-Place Delay**: When turning to face an adjacent obstacle/NPC without stepping onto a new tile, include `"sleep 300"` between the directional input and `"A"`, otherwise `"A"` fires during the 8-frame turn animation and is ignored.
+- **Turn-in-Place Delay & Wandering NPC Detection**: When turning to face an adjacent obstacle/NPC without stepping onto a new tile, include `"sleep 300"` between the directional input and `"A"`, otherwise `"A"` fires during the 8-frame turn animation and is ignored. For wandering NPCs (such as the Route 103 Old Rod Fisherman inside the obstacle-free `x=18..21, y=9..12` grass rectangle) who can move during turn startup, step tile-by-tile in `run_code` and check `mgba.get_coordinates() == prev_pos`; a blocked interior step guarantees the player just bumped into and is facing the NPC.
 - **Old Rod Timing (`Task_Fishing`)**:
   - Cast animation before the 1st dot takes ~1.5s, and each of the 3..10 dots takes ~0.33s (`3 dots = 2.5s` .. `10 dots = 4.8s`), with a ~0.55s `"Oh! A bite!"` window.
   - **Battle-Safe Multi-Cast Loop**: Chaining `Select, sleep <3300..4800>, A, sleep 1200, B, sleep 1000` across multiple casts in a single `press_buttons` call is 100% battle-safe: once a cast hooks a fish (`"A"` -> `"A POKEMON's on the hook!"` -> `"B"` starts the battle), any remaining `A` + `B` pairs harmlessly open and close the `FIGHT` menu without using a move (verified Turn 182 when hooking Lv 5 Azurill at `4500ms`).
