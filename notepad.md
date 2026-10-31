@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Caught at `(17, 13)` pond with Old Rod on Turn 567; knows `Charm`, `Secret Power` |
 | Route 101 | Poochyena (F, Lv 2) | AHECATE | Active | Caught at `(5, 15)` on Turn 546 |
 | Route 103 | Spearow (F, Lv 4) | NIKE | Active | Caught at `(15, 11)` on Turn 554; knows `Pursuit` |
-| Route 102 | TBD | TBD | Pending | Observed species: `Meowth` |
+| Route 102 | Meowth (M, Lv 6) | HERMES | Active | Caught at `(39, 6)` on Turn 578; knows `Faint Attack`, `Pay Day` |
 | Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
 | Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
 | Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
@@ -38,7 +38,7 @@
 ## Attempt #1 Post-Mortem & Key Tactical Lessons
 - **Result**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North, 8 tiles south of Rustboro City).
 - **Root Causes & Fixes for Attempt #2**:
-  1. **Pre-Level Before Ambush Bosses**: In Attempt #1, we entered the 5-Pokemon **Team Magma Grunt ambush** at `(26, 23)` in Petalburg Woods (`Magnemite` Lv 8, `Houndour` Lv 9 with `Super Fang` + `Pursuit` + `Ember`, `Bagon` Lv 8, `Koffing` Lv 8 with `Protect` + `Thief`, `Duskull` Lv 8 with `Protect` + `Shadow Sneak` + `Leftovers`) at Lv 10–12 and lost 3 party members (`Triton`, `Calypso`, `Midas`). In Attempt #2, use unlimited Rare Candies to pre-level our full 6-Pokemon party to **Lv 14–15** with held `Oran Berries` *before* fighting the Team Magma Grunt!
+  1. **Pre-Level Immediately Upon Catching**: Never walk around hunting wild encounters or trainers with Lv 2–7 party members (`POSEIDON` fainted at Lv 7 on Turn 577 to a wild Lv 6 Meowth's critical `Pay Day` on Route 102). Use unlimited Rare Candies immediately to bring all active party members up to **Lv 12–13** for early routes and **Lv 14–15** with held `Oran Berries` before the Petalburg Woods Team Magma Grunt and Route 104 North's PKMN Trainer Red!
   2. **Keep a Full 6-Pokemon Active Party**: We have 7+ available encounters before Petalburg Woods/Route 104 North (`Starter`, `Littleroot Pond`, `Route 101`, `Route 103`, `Route 102`, `Petalburg City Pond`, `Route 104 South`, `Petalburg Woods`). Never enter Petalburg Woods or Route 104 North with empty/fainted party slots when healthy encounters are available in the Petalburg City PC (`(20, 16)`).
   3. **Cheri Berry Auto-Refill (`(3, 25)` on Route 104 North)**: Immediately after harvesting the `Cheri Berry` tree at `(3, 25)` outside the Pretty Petal Flower Shop, end a turn in the free overworld (with no textbox or menu open) so `Cheri Berries` auto-refill from `2 -> 99`!
   4. **Countering PKMN Trainer Red (`(29, 8)` on Route 104 North)**: Red has a 6-Pokemon team leading with `Eevee` (M, Lv 9, 31 Max HP, holds `Sitrus Berry`, moves: `Curse`, `Rest`, `Snore`, `Quick Attack`). The AI spams `Curse` + `Rest`/`Snore` until `+1` priority `Quick Attack` enters KO range or `Curse` is maxed. Do NOT let `Eevee` stack `Curse` boosts—hit it hard on the Special side (since `Curse` only boosts physical `Defense`, not `Sp.Def`), use Fighting moves / `Leech Seed` / `Encore`, or finish it from `> 50%` HP before it can `Rest`.
