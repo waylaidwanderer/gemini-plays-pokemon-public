@@ -21,5 +21,7 @@
 - **Trainers**:
   1. **Youngster Calvin** at `(33, 14)` facing `Down` (approached from `(36, 11) -> (36, 14) -> (34, 14)`):
      - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
-  2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`):
-     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), + 1 more Bug-type.
+  2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`) — **DEFEATED**:
+     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), `Kakuna` (Lv 5).
+- **Immediate Next Action at `(25, 14)`**:
+  - `ZEPHYR` (Slot 1) is at `3/31 HP` and `PSN`! Do NOT walk before opening `Start -> BAG -> ITEMS -> POTION` to heal `ZEPHYR` (+20 HP -> `23/31 HP`), swap `MORPHEUS` (`Butterfree`) to Slot 1, and walk north along `x=24..25` to pick the **Pecha & Oran Berries** on northern Route 102 (which auto-refill to 99 and cure poison!).

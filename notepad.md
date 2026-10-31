@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 10) | TRITON | Active | Bashful, Torrent; Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`; Stats: 30/19/15/17/17/15 |
 | Littleroot Town | TBD | TBD | Deferred | Custom pond at `(17, 13..14)` — deferred to catch grass encounters first |
 | Route 101 | Butterfree (M, Lv 10) | MORPHEUS | Active | Naughty, Compound Eyes; Moves: `Tackle`, `String Shot`, `Harden`, `Confusion`; Stats: 35/18/15/24/19/19 |
-| Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 |
+| Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 (**URGENT: Currently 3/31 HP & Poisoned at `(25, 14)` — heal with Potion before walking!**) |
 | Route 102 | Meowth (M, Lv 10) | MIDAS | Active | Naughty, Limber; Moves: `Pay Day`, `Faint Attack`; Stats: 28/16/12/13/11/23 |
 
 <hr>
@@ -92,7 +92,9 @@
 - **Trainers**:
   1. **Youngster Calvin** at `(33, 14)` facing `Down` (approached from `(36, 11) -> (36, 14) -> (34, 14)`):
      - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
-  2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`):
-     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), + 1 more Bug-type.
+  2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`) — **DEFEATED**:
+     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), `Kakuna` (Lv 5).
+- **Immediate Next Action at `(25, 14)`**:
+  - `ZEPHYR` (Slot 1) is at `3/31 HP` and `PSN`! Do NOT walk before opening `Start -> BAG -> ITEMS -> POTION` to heal `ZEPHYR` (+20 HP -> `23/31 HP`), swap `MORPHEUS` (`Butterfree`) to Slot 1, and walk north along `x=24..25` to pick the **Pecha & Oran Berries** on northern Route 102 (which auto-refill to 99 and cure poison!).
 
 <hr>
