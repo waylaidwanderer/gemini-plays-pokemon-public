@@ -150,7 +150,8 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Lower Thoroughfare (row 15, cols 6..16): East-west hallway connecting the entrance to the western ramp.
 - Central Ridge (rows 13..14, cols 8..16): Impassable south-facing rock ridge separating the lower thoroughfare from the upper plateau. The eastern end at col 15 is a dead end.
 - Western Ramp (cols 5..7, rows 12..15): Open, unobstructed dirt ramp connecting the lower thoroughfare north onto the upper plateau.
-- Upper Plateau (rows 7..12, cols 5..16): Wide elevated cavern floor spanning across the northern half of B1F, leading to the ladder down to B2F.
+- Upper Plateau (rows 6..12, cols 5..16): Wide elevated cavern floor spanning across the northern half of B1F.
+- Ladder to B2F: Located at (14, 6) in the northeast corner of B1F.
 
 <hr>
 
