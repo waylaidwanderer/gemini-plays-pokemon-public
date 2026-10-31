@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased (Box 1) | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 |
 | Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Caught at `(17, 13)` pond; Lv 14 stats: 36/14/18/18/25/36; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Poochyena (F, Lv 14) | AHECATE | Active | Quirky, `Run Away`; Lv 14 stats: 34/21/17/14/15/19; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
-| Route 103 | Spearow (F, Lv 12) | NIKE | Deceased | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` (deposit in Petalburg PC next) |
+| Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 14) | HERMES | Active | Lv 14 stats: 35/21/18/17/20/37; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
 | Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
 | Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
@@ -133,7 +133,7 @@
   - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`])
   - **Bug Catcher Rick** `(25, 15)` facing `Up` (4 Pokemon: `Caterpie` Lv 5, `Wurmple` Lv 5, `Kakuna` Lv 5, `Cascoon` Lv 5 [`Iron Defense`, holds `Berry Juice`])
   - **Lass Tiana** `(15, 5)` facing `Down` (3 Pokemon: `Igglybuff` Lv 6 [`Present`], `Sunkern` Lv 6 [`Protect`, `Leech Seed`], `Togepi` Lv 5 [`Softboiled`, `Metronome`])
-  - **Bug Catcher Allen** `(13, 2)`
+  - **Bug Catcher Allen** `(13, 2)` facing `Down` (3 Pokemon: `Weedle` Lv 7, `Silcoon` Lv 7 [`Iron Defense`, `Shed Skin`, holds `Berry Juice`], `Wurmple` Lv 7)
   - **Trainer in tall grass** `(18, 12)` (avoidable via northern berry patch path).
 - **Northern Berry Patch & Grass-Free Routes**:
   - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
