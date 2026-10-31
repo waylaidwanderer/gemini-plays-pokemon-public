@@ -20,4 +20,4 @@
 - **First Tall Grass Patch**: Located at `(38..39, 5..6)` just west of the pond bank at `(40, 6)`. Caught `Meowth` (Lv 6, `MIDAS`) at `(39, 6)`.
 - **Trainers**:
   1. **Youngster Calvin** at `(33, 14)` facing `Down` (approached from `(36, 11) -> (36, 14) -> (34, 14)`):
-     - Has 3 Pokemon: `Sentret` (Lv 6, knows `Quick Attack`), `Zigzagoon` (Lv 6), and 1 more Pokemon.
+     - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
