@@ -134,5 +134,11 @@
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`) — harvested Turn 267.
   - **Lady Cindy** at `(11, 40)` facing `Left` (outside Petalburg Woods) — **DEFEATED**:
     - Team (3 Pokemon): `Cleffa` (Lv 8, `Metronome`), `Pichu` (Lv 8, `Thunder Wave`, `ThunderShock`), `Azurill` (Lv 7, `Uproar`).
+## Petalburg Woods
+- **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
+- **Tall Grass Patch (South-East)**: Located at `(20..25, 32..35)`; caught `Oddish` (F, Lv 8, `ARTEMISIA`, sent to Box 1) at `(22, 35)`.
+- **NPCs & Items**:
+  - Friendly boy wandering near `(14, 35)` west of the southern entrance.
+  - Friendly man wandering near `(27..28, 33..34)` east of the tall grass patch.
 
 <hr>
