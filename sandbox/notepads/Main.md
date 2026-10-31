@@ -20,4 +20,5 @@
 
 ## Notepad Index
 - `Locations/Encounters`: Route-by-route Nuzlocke encounter tracking & status
+- `Mechanics/UI_And_Tools`: Verified menu, Bag, fishing, and overworld mechanics
 - `Scratchpad/Routing`: Active early-game notes and routing
