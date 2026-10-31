@@ -4171,8 +4171,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: MIND BADGE EARNED! Team Magma defeated at Space Center! HM08 DIVE OBTAINED and taught to Lilz! Sage Lv 56 fully healed! Ready to embark south onto Route 127/128 to locate Seafloor Cavern and stop Team Aqua.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 108/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Verified Turn 17635)
-2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 0/80. Max HP: 80. Status: FNT (Fainted in Shelly battle; still usable for HMs). (Verified Turn 17018)
+1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 174/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Fully Healed Turn 17656)
+2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 80/80. Max HP: 80. Status: OK. (Revived & Fully Healed Turn 17656)
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
