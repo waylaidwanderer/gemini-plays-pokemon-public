@@ -160,7 +160,7 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 ### B2F (Elemental Crystal Chamber)
 - Entrance / Return Ladder: Spawns at (9, 3) facing North. The ladder directly at/above (9, 3) returns up to B1F at (14, 5)!
 - Upper Northern Highway (row 3, cols 4..14): Horizontal corridor running along the northern rock wall.
-- Western Sector & Column 3 Corridor: Reached from (7, 4) -> Left x2 to (5, 4) -> Down to (5, 5) and (5, 6). Tile (5, 7) is blocked by a solid ledge wall. Testing western gap at (4, 6) into the open Column 3 vertical corridor running south.
+- Western Sector (Column 4 Corridor): Reached from (7, 4) -> Left x2 to (5, 4) -> Down to (5, 5) and (5, 6) -> Left to (4, 6) -> Down to (4, 7). Path bypasses the solid ledge wall at (5, 7) through column 4 toward row 8.
 - Eastern Sector (cols 11..15, rows 3..6): Row 3 corners south at (12, 3); path bypasses via (11, 4) -> (12, 4) -> (12, 5) -> (13, 5) -> (13, 6). Tile (13, 6) is a dead-end pocket bordered by red crystals at (14, 6) and a solid ledge wall at (13, 7). No southbound passage here.
 - Central Terraces (rows 4..8): Stepped rocky terraces with south-facing ledges.
 
