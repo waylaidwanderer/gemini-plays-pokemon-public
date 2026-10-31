@@ -39,3 +39,4 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 - Position (25, 60) is the southwest corner wall.
 - Cave entrance to Sootopolis City is at the southern center: cols 38..42 along row 60..64.
 - Route: Down x4 to row 64 sandy highway, then East toward col 40.
+- (32, 64): Cleared the western kelp patch onto open sand. Row 64 continues East between the northern rock wall and southern kelp field toward the Sootopolis entrance at col 40.
