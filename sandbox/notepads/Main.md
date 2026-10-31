@@ -36,7 +36,7 @@
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x1 (purchased at Lilycove Rooftop Vending Machine; 1 used on Sage Turn 17032)
 - Lemonade x1 (purchased at Lilycove Rooftop Vending Machine)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
@@ -159,7 +159,7 @@
 ## Progression Checklist - Phase 9: Petalburg Gym (Balance Badge) & Route 111 Desert (Completed)
 1. [x] Receive Go-Goggles from Brendan outside Lavaridge Gym.
 2. [x] Heal party at Lavaridge Pokémon Center (fully healed!).
-3. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM27 Return - completed turn 12903!).
+3. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (obtain TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return - completed turn 12903!).
 4. [ ] Explore Route 111 Desert with Go-Goggles (Mirage Tower, Fossils, trainers).
 5. [x] Travel to Petalburg City via Rusturf Tunnel / Route 104 / Route 102.
 6. [x] Challenge Petalburg Gym trainers (Speed, Defense, Strength cleared!).
@@ -168,7 +168,7 @@
 1. [x] Obtain HM03 Surf from Wally's Dad in Petalburg City.
 2. [x] Teach HM03 Surf to Lombre (Lilz).
 3. [x] Heal party at Petalburg City Pokémon Center.
-4. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (TM27 Return - completed turn 12903!).
+4. [x] Return Meteorite to Professor Cozmo in Fallarbor Town (TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return - completed turn 12903!).
 5. [x] Travel east from Mauville City onto Route 118.
 6. [x] Surf across Route 118 river to meet Steven Stone.
 7. [x] Traverse Route 119 north to Weather Institute.
@@ -181,7 +181,7 @@
 ## Progression Checklist - Phase 11: Lilycove City & Mossdeep Gym (Completed)
 1. [x] Heal party and set checkpoint at Fortree Pokémon Center.
 2. [x] Teach HM02 Fly to Guava (Tropius)!
-3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM27 Return)!
+3. [x] Deliver Meteorite to Professor Cozmo in Fallarbor Town (obtained TM26 Earthquake (Seafloor Cavern Kyogre chamber), TM27 Return)!
 4. [x] Traverse Route 120 east and south toward Route 121.
 5. [x] Arrive in Lilycove City and heal at Pokémon Center.
 6. [x] Infiltrate Team Aqua Hideout, obtain Master Ball, and defeat Admin Matt.

@@ -136,4 +136,5 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance: Entered via Room 8 northern doorway at (5, 2). Player spawns at (5, 4) facing North on the entrance landing.
 - Return doorway to Room 8: (5, 5) directly south.
 - Atmosphere: Swirling subterranean mist and fog.
+- Items: TM26 Earthquake collected on eastern ledge at (14, 5)!
 - Visual Features: Upper terrace with rock formations; wooden stairs at southeast leading to the lower subterranean water basin where Kyogre sleeps!
