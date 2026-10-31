@@ -115,5 +115,12 @@
   - **Wally's House**: Door at `(12, 19)`.
   - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish (caught `Azurill` Lv 5, `CALYPSO`).
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`).
+## Route 104 (South)
+- **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
+- **Tall Grass Patch**: Located at `(22..24, 56..61)`; caught `Jigglypuff` (Lv 7, `LYRA`) at `(23, 60)`.
+- **Beach Staircase**: Located at `(28..29, 70)` (the northern ledges at `y=57..59` are one-way southbound).
+- **Trainers**:
+  - **Bird Keeper Billy** at `(23, 66)` facing `Left`:
+    - Team (3 Pokemon): `Pidgey` (Lv 7, holds `Berry Juice`), `Wingull` (Lv 7, `Supersonic`, `Water Gun`, `Gust`), `Taillow` (Lv 7).
 
 <hr>
