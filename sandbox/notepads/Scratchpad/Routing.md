@@ -23,5 +23,9 @@
      - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
   2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`) — **DEFEATED**:
      - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), `Kakuna` (Lv 5).
-- **Immediate Next Action at `(25, 14)`**:
-  - `ZEPHYR` (Slot 1) is at `3/31 HP` and `PSN`! Do NOT walk before opening `Start -> BAG -> ITEMS -> POTION` to heal `ZEPHYR` (+20 HP -> `23/31 HP`), swap `MORPHEUS` (`Butterfree`) to Slot 1, and walk north along `x=24..25` to pick the **Pecha & Oran Berries** on northern Route 102 (which auto-refill to 99 and cure poison!).
+- **Northern Berry Patch & Grass-Free Route**:
+  - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
+  - **Berry Trees**: Located at `(24, 2)` (`Oran Berry`) and `(25, 2)` (`Pecha Berry`); harvested on Turn 144 (auto-refill to 99 in the overworld).
+  - **Western Trainers Observed**:
+    - Trainer in tall grass at `(18, 12)`.
+    - Female Trainer (Lass) at `(16, 2)` facing `Down` near the signpost at `(19, 2)`.

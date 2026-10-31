@@ -4,7 +4,7 @@
 - **Attempt**: #1
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 13; Text Speed `Fast`)
-- **Unlimited Items**: Rare Candies & any acquired Berries auto-refill to 99 in the overworld.
+- **Unlimited Items**: Rare Candies & any acquired Berries (`Oran Berry` +10 HP, `Pecha Berry` cures Poison — picked at `(24..25, 2)` on Route 102) auto-refill to 99 in the overworld.
 - **Key Items Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
 
 ## Level Cap Schedule

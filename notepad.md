@@ -20,7 +20,7 @@
 - **Attempt**: #1
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 13; Text Speed `Fast`)
-- **Unlimited Items**: Rare Candies & any acquired Berries auto-refill to 99 in the overworld.
+- **Unlimited Items**: Rare Candies & any acquired Berries (`Oran Berry` +10 HP, `Pecha Berry` cures Poison — picked at `(24..25, 2)` on Route 102) auto-refill to 99 in the overworld.
 - **Key Items Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
 
 ## Level Cap Schedule
@@ -67,7 +67,7 @@
 - **Poke Mart Purchasing**: Poke Balls cost only `$10` each (`$100` for 10 + 1 bonus Premier Ball). After confirming a 10+ ball purchase, it takes **6 `B` presses** (`Thank you -> Premier Ball -> BUY list -> Anything else -> QUIT -> Please come again!`) to return to overworld control.
 - **Party Menu Fade-In & Navigation**:
   - Opening the Party menu (`Start -> POKEMON` or `BAG -> USE`) takes ~800ms to fade in; directional inputs sent within 300ms of opening are ignored during the fade-in.
-  - `BAG -> USE` remembers the last active Party `slotId`, whereas `Start -> POKEMON` opens at `slotId = 0` (Slot 1).
+  - `BAG -> USE` remembers the last active Party `slotId` (including slots selected during a prior `GIVE`), whereas `Start -> POKEMON` and `BAG -> GIVE` always open at `slotId = 0` (Slot 1).
   - `Down` steps sequentially (`Slot 1 -> Slot 2 -> ... -> Last Slot -> CANCEL -> Slot 1`), `Up` steps in reverse (`Slot 1 -> CANCEL -> Last Slot`), and `Left` from any right-column slot (`Slots 2..6`) jumps directly to `Slot 1`.
 - **Berry Tree Harvesting**: Interacting with a Berry Tree takes **3 `A` presses** (`Interact -> "You found N [X] BERRIES!" -> "Do you want to pick the [X] BERRIES? [>YES]"`), followed by `sleep 3500` for the fanfare and **3 `B` presses** (`sleep 1500` apart) to dismiss the put-away and loamy-soil messages without replanting.
   - **Loamy Soil `USE` Trap**: Selecting `USE` on a Berry in the `BERRIES` pocket while facing a soft, loamy soil patch in the overworld automatically plants the Berry into the soil and exits the Bag/Start menu to the overworld instead of opening the Party menu. Always turn away or step off the loamy soil before selecting `USE` on a Berry.
@@ -101,7 +101,11 @@
      - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
   2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`) — **DEFEATED**:
      - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), `Kakuna` (Lv 5).
-- **Immediate Next Action at `(25, 14)`**:
-  - `ZEPHYR` (Slot 1) is at `3/31 HP` and `PSN`! Do NOT walk before opening `Start -> BAG -> ITEMS -> POTION` to heal `ZEPHYR` (+20 HP -> `23/31 HP`), swap `MORPHEUS` (`Butterfree`) to Slot 1, and walk north along `x=24..25` to pick the **Pecha & Oran Berries** on northern Route 102 (which auto-refill to 99 and cure poison!).
+- **Northern Berry Patch & Grass-Free Route**:
+  - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
+  - **Berry Trees**: Located at `(24, 2)` (`Oran Berry`) and `(25, 2)` (`Pecha Berry`); harvested on Turn 144 (auto-refill to 99 in the overworld).
+  - **Western Trainers Observed**:
+    - Trainer in tall grass at `(18, 12)`.
+    - Female Trainer (Lass) at `(16, 2)` facing `Down` near the signpost at `(19, 2)`.
 
 <hr>
