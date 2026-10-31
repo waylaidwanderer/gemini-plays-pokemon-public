@@ -155,8 +155,8 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 ## Discovered Topography & Navigation - B2F
 - Upper Northern Highway (row 3, cols 4..14): Horizontal corridor running along the northern rock wall.
 - Return Ladder to B1F: Located directly north of spawn at (9, 2).
-- Western Sector: Col 6 forms an open north-south corridor (rows 4..8+) flanked by glowing blue crystals (Kyogre aura) on the west (cols 4..5) and central rock formation on the east (cols 7..11), leading south from row 3.
-- Eastern Sector (cols 12..14): Corridor flanked by glowing red crystals (Groudon elemental aura), leading south.
+- Western Sector: Col 6 forms a short dead-end pocket terminating at (6, 5) against blue crystals at (6, 6).
+- Eastern Sector (cols 10..14, row 3): Open upper highway extending east past the return ladder (9, 2) toward the red glowing crystal corridor (Groudon aura).
 - Central Terraces (rows 4..8): Stepped rocky terraces with south-facing ledges.
 
 <hr>
