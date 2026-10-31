@@ -63,6 +63,6 @@
   - Friendly man wandering near `(27..31, 33..35)` east of the south-east grass patch.
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)` (bounded on the west by a solid cliff wall at `x=28`). Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
   - **Grass-Free Path to Central Clearing**: From Bug Catcher James at `(10, 25)`, step `Down` to `y=26`, walk `Right` along `y=26` to `(26, 26)` (bypassing the tall grass at `(18..24, 24..25)`), and walk `Up` along `x=26` to `(26, 23)`.
-  - **Team Magma Grunt Ambush**: Triggers at `(26, 23)` when approaching the Devon Researcher at `(26, 20)`.
+  - **Team Magma Grunt Ambush** at `(26, 23)` — **DEFEATED**:
     - Team (3 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), `Bagon` (Lv 8, `Headbutt`).
   - **Remaining Forest Items**: Item ball spotted at `(32, 29)` on the eastern ledge (Turn 345).

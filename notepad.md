@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 11) | TRITON | Deceased | Fainted Turn 355 to Team Magma Grunt's Lv 9 Houndour (`Super Fang` + `Pursuit`) in Petalburg Woods |
 | Littleroot Town | TBD | TBD | Deferred | Custom pond at `(17, 13..14)` — deferred to catch grass encounters first |
 | Route 101 | Butterfree (M, Lv 14) | MORPHEUS | Active | Naughty, Compound Eyes; Held: `Oran Berry`; Moves: `Tackle`, `PoisonPowder` (Lv 13), `Supersonic` (Lv 14), `Confusion` (Lv 10); Max HP: 45 |
-| Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 |
+| Route 103 | Hoppip (M, Lv 12) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 33/14/16/15/22/19 |
 | Route 102 | Meowth (M, Lv 11) | MIDAS | Active | Naughty, Limber; Held: `Oran Berry`; Moves: `Pay Day`, `Faint Attack`; Stats: 29/17/13/14/11/25 |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Deceased | Fainted Turn 361 to critical-hit `Ember` from Team Magma Grunt's Lv 9 Houndour in Petalburg Woods |
 | Route 104 | Jigglypuff (F, Lv 10) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`; Stats: 45/16/11/15/12/10 |
@@ -148,7 +148,7 @@
   - Friendly man wandering near `(27..31, 33..35)` east of the south-east grass patch.
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)` (bounded on the west by a solid cliff wall at `x=28`). Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
   - **Grass-Free Path to Central Clearing**: From Bug Catcher James at `(10, 25)`, step `Down` to `y=26`, walk `Right` along `y=26` to `(26, 26)` (bypassing the tall grass at `(18..24, 24..25)`), and walk `Up` along `x=26` to `(26, 23)`.
-  - **Team Magma Grunt Ambush**: Triggers at `(26, 23)` when approaching the Devon Researcher at `(26, 20)`.
+  - **Team Magma Grunt Ambush** at `(26, 23)` — **DEFEATED**:
     - Team (3 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), `Bagon` (Lv 8, `Headbutt`).
   - **Remaining Forest Items**: Item ball spotted at `(32, 29)` on the eastern ledge (Turn 345).
 
