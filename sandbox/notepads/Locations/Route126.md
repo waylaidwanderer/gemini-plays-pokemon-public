@@ -25,3 +25,5 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 - Southern Caldera Base (Row 60): Surfed to (60, 60). The caldera's southeastern corner is at (57, 57). Grey ripple rocks at (61, 57) and (57, 62). Row 60 forms a clear east-west oceanic highway running west along the southern base of the caldera toward the dark water dive trench (cols 35..50).
 - Southern Caldera Base (Cols 45..55, Row 60): Surfed west along row 60 to (49, 60). The white caldera wall borders immediately north at row 58. Swimmer ♂ sighted to the south near (53, 64). Approaching the southern dive trench (cols 40..45).
 - Southern Caldera Bypass (Row 62): From alcove at (46, 60), stepped south to row 62 to clear the cliff step and rock at (46, 63). Row 62 provides an open westward corridor toward the dark water dive trench (cols 35..45).
+## Trainers Defeated - Route 126
+- Swimmer ♂ Barry: Defeated at (45, 62) on Turn 17779 (Gyarados Lv 34; Prize: ¥272; Sage Leaf Blade x2, 0 damage taken).
