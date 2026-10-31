@@ -67,7 +67,7 @@
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 13, `36/36 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 29 Atk / 18 Def / 20 SpA / 20 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 2. **BELLONA** — Cubone ♀ (Lv. 13, `36/36 HP`, Ground, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 19 Atk / 27 Def / 18 SpA / 18 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
-3. **ARES** — Nidoran♂ (Lv. 13, `36/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+3. **ARES** — Nidoran♂ (Lv. 13, `36/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
 4. **OPHION** — Ekans ♂ (Lv. 14, `34/34 HP`, Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
