@@ -166,5 +166,7 @@
 - **Trainers & Bridge Path**:
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`) — **DEFEATED**:
     - Team (3 Pokemon): `Snubbull` (Lv 8, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Rock Smash`, `Ember`, holds `Berry Juice`), `Electrike` (Lv 8, `ThunderShock`, holds `Oran Berry`).
+  - **Wooden Bridge**: Runs north from `x=30..31, y=21` (with a Cut tree east of it at `(34, 22)`).
+  - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching the bridge entrance at `(30..31, 22)`).
 
 <hr>
