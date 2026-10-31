@@ -64,5 +64,10 @@
 - **Menu & Leveling Mechanics**:
   - Exiting Pokemon Summary takes 3 `B` presses to reach the Start menu (`Summary -> Party submenu -> Party slot list -> Start menu`) and a 4th `B` to close the Start menu.
   - Rare Candies can be chained from the Bag (`>RARE CANDY`) using `A` presses (`sleep 900`) as long as the target Pokemon has `< 4` moves.
+- **Rival 1 Battle (Route 103)**: Defeated Brendan's `Treecko Lv 5` with Lv 10 `TRITON` (+69 EXP, +300 Pokedollars).
+- **Fast Southbound Return (Route 103 -> Littleroot)**:
+  - Route 103: From `(9, 3)`, step `Right` to `(10, 3)` and walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
+  - Oldale Town: Walk straight `Down` along `x=10` (`y=0..19`) into Route 101 `(10, 0)`.
+  - Route 101: Step `Left` to `(9, 0)`, walk straight `Down` along `x=9` (jumping ledges at `y=6` and `y=13`) to `(9, 14)`, then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(11, 0)`.
 
 <hr>
