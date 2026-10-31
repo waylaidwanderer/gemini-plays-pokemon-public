@@ -4169,7 +4169,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: MIND BADGE EARNED! Team Magma defeated at Space Center! HM08 DIVE OBTAINED and taught to Lilz! Sage Lv 56 fully healed! Ready to embark south onto Route 127/128 to locate Seafloor Cavern and stop Team Aqua.
+- Status: MIND BADGE EARNED! Seafloor Cavern completed and Archie defeated! Kyogre & Groudon awakened, causing Hoenn-wide weather crisis! Party fully healed! Navigating to Route 126 to enter Sootopolis City and resolve the ancient conflict.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 174/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Fully Healed Turn 17656)
@@ -4212,7 +4212,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥64,173 (Earned ¥3,440 from Aqua Leader Archie on Turn 17635) (Earned ¥2,180 from Aqua Admin Shelly on Turn 17431)
+- Money: ¥64,173
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -4364,7 +4364,7 @@ A large meteorological research institute located in northern Route 119 beside t
 5. [x] Witness Kyogre's awakening and surface onto Route 128 amidst the weather crisis (Turn 17640).
 
 ## Progression Checklist - Phase 13: The Ancient Conflict & Sootopolis City (Active)
-1. [ ] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone.
+1. [x] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone (Turn 17645).
 2. [ ] Travel to Sootopolis City to witness the clash between Groudon and Kyogre.
 3. [ ] Locate Steven Stone and Wallace at the Cave of Origin.
 4. [ ] Awaken Rayquaza at the Sky Pillar to quell the catastrophe.
