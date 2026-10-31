@@ -17,3 +17,9 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 ## Discovered Topography & Navigation - 1F
 - Entrance Area: Spawns at (9, 20) on 1F facing North. Exit light patch at (9, 21).
 - Central Northbound Canyon (rows 5..20, cols 8..10): A 3-tile wide dirt corridor flanked by rocky ridges on the west (cols 6..7) and east (cols 11..12). Extends straight North to the northern cave doorway at (9, 4..5) leading down to B1F.
+## Discovered Topography & Navigation - B1F
+- Entrance Area: Spawns at (11, 17) facing North. Light patch at (11, 18) leads back up to 1F.
+- Lower Thoroughfare (row 15, cols 6..16): East-west hallway connecting the entrance to the western ramp.
+- Central Ridge (rows 13..14, cols 8..16): Impassable south-facing rock ridge separating the lower thoroughfare from the upper plateau. The eastern end at col 15 is a dead end.
+- Western Ramp (cols 5..7, rows 12..15): Open, unobstructed dirt ramp connecting the lower thoroughfare north onto the upper plateau.
+- Upper Plateau (rows 7..12, cols 5..16): Wide elevated cavern floor spanning across the northern half of B1F, leading to the ladder down to B2F.
