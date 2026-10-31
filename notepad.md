@@ -3928,6 +3928,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Flight 5: Located at (12, 19..20), descends South from Landing 4 onto the lower basin floor at (12, 21).
 - Deep Basin Floor: Sandy corridor extends South along col 12 from row 21 past row 26 toward the central subterranean pool where Kyogre rests!
 
+- Kyogre Sighted (Turn 17591): Reached the subterranean pool at (12, 40). The Legendary Pokémon KYOGRE is floating asleep in the center of the subterranean lake!
+
 
 <hr>
 
