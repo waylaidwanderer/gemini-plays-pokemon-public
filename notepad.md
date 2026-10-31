@@ -3880,6 +3880,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 5. Column 12 is now completely clear! Walk North up Column 12 from (12, 12) to (12, 7), then West along Row 7 to (6, 7), and North to Northwest Doorway at (6, 1) into Room 3!
 
 - Room 4 Western Route (Verified Turn 17367-17371): From calm tile (8, 12), stepping Left into (7, 12) carries May to a western calm pool spanning (4, 8) and (4, 7). To the west is an elevated terrace (cols 0..3), to the north is a solid cliff wall at row 6, and to the east are currents along row 7 and row 8.
+- Room 4 Northern Approach (Verified Turn 17372-17374): Navigated calm water from (4, 7) -> (5, 7) -> (6, 7) -> (6, 6). Column 7 to the east flows south, but row 4 flows east above the central sea rock (cols 9..11, rows 5..8) toward the Northeast Cave Doorway.
 
 <hr>
 
