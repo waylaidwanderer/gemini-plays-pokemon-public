@@ -63,6 +63,7 @@
   - Pressing `A` or `B` while the initial dots (`. . .`) are still printing cancels the cast into `"Not even a nibble..."`.
   - When the bite timer expires without `A`, the player sprite pulls the rod out of the water (~0.3s) while `"Oh! A bite!"` remains displayed before `"It got away..."` prints.
   - Active rod-in-water `"Oh! A bite!"` frames were observed at `+3.66s` into the post-`Select` sleep for 8 dots (Turn 84 `#46`) and `+4.29s` into the sleep for 9 dots (Turn 85 `#47`).
+- **Poke Mart Purchasing**: Poke Balls cost only `$10` each (`$100` for 10 + 1 bonus Premier Ball). After confirming a 10+ ball purchase, it takes **6 `B` presses** (`Thank you -> Premier Ball -> BUY list -> Anything else -> QUIT -> Please come again!`) to return to overworld control.
 
 <hr>
 
