@@ -105,7 +105,7 @@
 # Early Game Routing & Verified Trainer Data
 
 ## Littleroot Town
-- **Landmarks**: Player's House (West): `(5, 8)`; Rival's House (East): `(14, 8)`; Birch's Lab: `(7, 16)`.
+- **Landmarks**: Player's House (East): `(14, 8)`; Rival's House (West): `(5, 8)`; Birch's Lab: `(7, 16)`.
 - **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod.
 - **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..17`) to bypass the wandering NPC near `(10..11, 12..14)`.
 
