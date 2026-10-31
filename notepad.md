@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Active | Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); Stats: 25/16/13/12/12/10 |
 | Littleroot Town | TBD | TBD | Pending | Custom pond at `(18, 12..14)`; stand at `(17, 13)` facing `Right` with Old Rod |
 | Route 101 | Poochyena (F, Lv 2) | AHECATE | Active | Caught at `(5, 15)` on Turn 546 |
-| Route 103 | TBD | TBD | Pending | Observed species: `Hoppip`, `Spearow` |
+| Route 103 | Spearow (F, Lv 4) | NIKE | Active | Caught at `(15, 11)` on Turn 554; knows `Pursuit` |
 | Route 102 | TBD | TBD | Pending | Observed species: `Meowth` |
 | Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
 | Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
