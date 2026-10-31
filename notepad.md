@@ -154,4 +154,13 @@
   - **Grass-Free Path to Northern Exit**: From `(26, 23)`, walk `Up x7` to `(26, 16)`, `Left x13` to `(13, 16)`, `Down x3` to `(13, 19)`, `Left x8` to `(5, 19)`, `Up x6` along `x=5` to `(5, 13)`, `Left` to `(4, 13)`, `Up x5` along `x=4` to `(4, 8)`, `Right x6` to `(10, 8)`, `Down` to `(10, 9)` (below the signpost at `(11, 8)`), `Right x4` to `(14, 9)`, and `Up x5` through the northern exit gate at `(14..15, 5)` onto Route 104 North `(10, 29)`.
   - **Remaining Forest Items**: Eastern path (`x=32..37`, including item ball at `(32, 29)`) is blocked by two Cut trees at `(18, 10..11)` near the northern exit; return after obtaining `HM01 Cut` in Rustboro City.
 
+## Route 104 (North)
+- **Southern Entrance (from Petalburg Woods)**: Exits Petalburg Woods `(14..15, 5)` onto Route 104 North at `(10, 29)`.
+- **Pretty Petal Flower Shop & Surroundings**:
+  - **Flower Shop Door**: Located at `(5, 18)`, blocked by a boy standing at `(5, 19)`.
+  - **TM09 Giver**: Boy at `(5, 19)` directly in front of the Flower Shop door gives `TM09` (`Bullet Seed`).
+  - **Loamy Soil & Berry Trees**: Vertical 4-tile loamy soil column at `x=3, y=22..25` (stand at `x=4` facing `Left`):
+    - `(3, 22)` & `(3, 24)`: Empty loamy soil (planted `Oran Berry` on Turn 418).
+    - `(3, 23)` & `(3, 25)`: Berry trees harvested on Turn 419.
+
 <hr>
