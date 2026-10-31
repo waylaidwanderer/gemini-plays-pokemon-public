@@ -77,4 +77,5 @@
     - `(3, 22)` & `(3, 24)`: Empty loamy soil (planted `Oran Berry` on Turn 418).
     - `(3, 23)` & `(3, 25)`: `Oran Berry` (`(3, 23)`) and `Cheri Berry` (`(3, 25)`) trees harvested on Turn 419.
 - **Trainers & Bridge Path**:
-  - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`).
+  - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`) — **DEFEATED**:
+    - Team (3 Pokemon): `Snubbull` (Lv 8, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Rock Smash`, `Ember`, holds `Berry Juice`), `Electrike` (Lv 8, `ThunderShock`, holds `Oran Berry`).
