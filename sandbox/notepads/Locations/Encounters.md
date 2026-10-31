@@ -8,5 +8,5 @@
 | Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 37/16/18/17/25/21 |
 | Route 102 | Meowth (M, Lv 11) | MIDAS | Deceased | Fainted Turn 379 to Team Magma Grunt's Lv 8 Koffing in Petalburg Woods |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Deceased | Fainted Turn 361 to critical-hit `Ember` from Team Magma Grunt's Lv 9 Houndour in Petalburg Woods |
-| Route 104 | Jigglypuff (F, Lv 14) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`, `Seismic Toss` (Lv 14); Stats: 60/20/13/18/15/12 |
+| Route 104 | Jigglypuff (F, Lv 15) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`, `Seismic Toss` (Lv 14); Stats: 63/21/14/19/15/13 |
 | Petalburg Woods | Oddish (F, Lv 8) | ARTEMISIA | Active (Box 1) | Caught at `(22, 35)`; Observed moves: `Acid`, `Mega Drain` |

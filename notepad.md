@@ -10,7 +10,7 @@
 | Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 37/16/18/17/25/21 |
 | Route 102 | Meowth (M, Lv 11) | MIDAS | Deceased | Fainted Turn 379 to Team Magma Grunt's Lv 8 Koffing in Petalburg Woods |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Deceased | Fainted Turn 361 to critical-hit `Ember` from Team Magma Grunt's Lv 9 Houndour in Petalburg Woods |
-| Route 104 | Jigglypuff (F, Lv 14) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`, `Seismic Toss` (Lv 14); Stats: 60/20/13/18/15/12 |
+| Route 104 | Jigglypuff (F, Lv 15) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`, `Seismic Toss` (Lv 14); Stats: 63/21/14/19/15/13 |
 | Petalburg Woods | Oddish (F, Lv 8) | ARTEMISIA | Active (Box 1) | Caught at `(22, 35)`; Observed moves: `Acid`, `Mega Drain` |
 
 <hr>
@@ -169,7 +169,7 @@
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)` (return after obtaining `HM01 Cut` in Rustboro City).
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching the bridge entrance at `(30..31, 22)`) — **DEFEATED**:
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Ember`, `Disable`).
-  - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on the horizontal bridge section):
+  - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on the horizontal bridge section) — **DEFEATED**:
     - Team (2 Pokemon): `Smeargle` (M, Lv 8, `Follow Me`) & `Smeargle` (M, Lv 8, `Focus Punch`).
 
 <hr>
