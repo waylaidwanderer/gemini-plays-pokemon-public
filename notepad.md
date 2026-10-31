@@ -3573,6 +3573,7 @@ A vast open ocean route in eastern Hoenn connecting Mossdeep City on the north t
 - Swimmer ♀ Sighted: Swimmer with red swim cap spotted near (18..19, 68) west of the rock cluster.
 - Southern Island & Ocean Highway: A large rocky cliff island extends along cols 20..22 from row 67 through row 76+. Column 27 provides an open, completely clear North-South oceanic highway past the island (4-tile buffer east of the cliff edge at col 22).
 - Wingull (Lv 15, Water/Flying) - Confirmed on Turn 16843 in deep water; fled on turn 1.
+- Tentacool (Lv 32, Water/Poison) - Confirmed on Turn 17718 at (25, 14) in deep water.
 
 <hr>
 
