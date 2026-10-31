@@ -170,6 +170,7 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Central Southbound Canyon (cols 8..10, rows 6..12+): A 3-tile wide open dirt corridor flanked by vertical basalt rock ridges, leading south into the lowest chamber where Wallace is located.
 ## Wild Encounters - Cave of Origin
 - Zubat: Wild encounter on B4F at (9, 14) (Turn 17938).
+- South Jump Ledges: Row 21 and row 23 jump ledges lead directly down into the lowest basin (rows 24+) where Wallace is located.
 
 <hr>
 
