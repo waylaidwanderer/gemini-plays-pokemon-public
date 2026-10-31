@@ -3930,6 +3930,14 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 - Kyogre Sighted (Turn 17591): Reached the subterranean pool at (12, 40). The Legendary Pokémon KYOGRE is floating asleep in the center of the subterranean lake!
 
+## Boss Battle: Team Aqua Leader Archie (Turn 17595+)
+- Location: Seafloor Cavern Kyogre Shrine at (17, 42).
+- Opponent Team: Mightyena Lv 41, Crobat Lv 41, Sharpedo Lv 43.
+- Combat Progression:
+  - Turn 1: Sage Lv 56 OHKOed Mightyena Lv 41 with Leaf Blade!
+  - Turn 2: Archie sent out Crobat Lv 41. Sage hit Crobat with Rock Tomb (2x Super Effective), bringing it to ~35% HP.
+  - Turn 3: Switched Guava (Tropius Lv 29) then brought Sage back in at full 171/171 HP.
+
 
 <hr>
 
