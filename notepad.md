@@ -3905,6 +3905,16 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - CRITICAL DEADLOCK: Pushing boulder (5, 5) directly North all the way to (5, 2) blocks the northern doorway at (5, 1) and cannot be pushed further or flanked. A room reset is required if this occurs.
 - Reset Procedure: Walk south along the bypass around row 7 boulders to (5, 12), step south into Room 5, and re-enter Room 8 to reset all boulders to pristine state.
 
+## Room 8 Master Puzzle Solution (Verified)
+1. Spawns at (5, 12), walk to (3, 7) via Column 3 bypass.
+2. Activate Strength on boulder at (3, 6).
+3. Push (3, 6) North to (3, 5) (occupy 3, 6).
+4. Walk Right to (4, 6) then (5, 6).
+5. Push (5, 5) North x3 to (5, 2) (occupy 5, 3).
+6. Walk Left to (4, 3), then Up to (4, 2).
+7. Push boulder at (5, 2) Right into (6, 2) (occupy 5, 2).
+8. Walk Up into doorway at (5, 1) to enter Kyogre's chamber!
+
 
 <hr>
 
