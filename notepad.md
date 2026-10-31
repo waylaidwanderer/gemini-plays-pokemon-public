@@ -126,5 +126,8 @@
   - **Friendly Fisherman** at `(15, 60)` facing `Right` (not a trainer).
   - **Fisherman Darian** at `(15, 59)` facing `Right` — **DEFEATED**:
     - Team (4 Pokemon): `Magikarp` (Lv 9, `Bounce`), `Feebas` (Lv 8, `Icy Wind`, `Facade`, holds `Sitrus Berry`), `Goldeen` (Lv 7, `Swift Swim`; `Rain Dance`, `Peck`, `Horn Attack`, `Dive`), `Luvdisc` (Lv 7, `Attract`).
+- **Mr. Briney's Cottage & Northern Berry Patch**:
+  - Cottage door at `(17, 51)`; northern beach stairs at `(17..18, 55)`.
+  - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`) — harvested Turn 267.
 
 <hr>
