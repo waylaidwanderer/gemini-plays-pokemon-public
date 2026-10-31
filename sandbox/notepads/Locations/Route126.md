@@ -27,3 +27,4 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 - Southern Caldera Bypass (Row 62): From alcove at (46, 60), stepped south to row 62 to clear the cliff step and rock at (46, 63). Row 62 provides an open westward corridor toward the dark water dive trench (cols 35..45).
 ## Trainers Defeated - Route 126
 - Swimmer ♂ Barry: Defeated at (45, 62) on Turn 17779 (Gyarados Lv 34; Prize: ¥272; Sage Leaf Blade x2, 0 damage taken).
+- Sootopolis Southern Dive Trench: Discovered at cols 29..35+, rows 64..70+ south of the caldera rim. Deep indigo dive trench confirmed. Interacting with 'A' on (29, 68) activates HM08 Dive to enter Sootopolis City.
