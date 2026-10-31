@@ -3826,8 +3826,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Western Branch: Row 7 (cols 11..6) leads to Team Aqua Grunt 1 at (8, 6) facing West and the ground-level Northwest Doorway at (6..7, 1). Wooden stairs at (9..10, 3) lead to an elevated side ledge.
   - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
 
-## Wild Encounters - Seafloor Cavern Room 2
-- Zubat (Lv 30, Lv 31, Lv 33, Poison/Flying) - Encountered on turns 17170, 17186, 17250, 17265, 17277, and 17327 (Lv 33 ♀); fled cleanly via battle_agent or defeated.
+## Wild Encounters - Seafloor Cavern
+- Zubat (Lv 28-34, Poison/Flying) - Encountered across cavern rooms (turns 17170, 17186, 17214, 17250, 17265, 17277, 17327, 17470 [Lv 34]); fled cleanly via battle_agent or defeated.
 
 ## Trainers - Seafloor Cavern Room 2
 - Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
@@ -3851,17 +3851,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Dock & Water Boundary: Sandy dock extends north to (11, 20). Deep water rapids begin at (11, 19) with a vertical north-flowing current.
 - Calm Water Pool: Tile (11, 19) directly in front of the dock is calm water where Surf is mounted. Testing North current at (11, 18).
 - Room 4 Traversal: Superseded by verified Northwest Doorway Route below.
-- Column 12 Boulder Pushed to T-junction: Boulder pushed North from (12, 11) to (12, 7), where it jams against the northern cliff at (12, 6) and blocks Row 7. Tile (13, 8) is a solid cliff wall between Column 12 and Column 13.
-- Row 18 South Boundary: (10, 18) is a solid cliff edge (cannot be walked south).
-- Room 2 Northwest Dead-End (Verified Turn 17289): Tile (4, 9) is a solid cliff wall. Smashed rock at (5, 10) and boulder at (5, 12) only connect Column 4 into Row 11 (cols 5..12), not to the northern terrace.
-- Room 2 Thoroughfare: Row 11 connects cleanly between the western corridor (col 4) and Column 12 (col 12).
-- Room 2 Eastern Branch (Verified Turn 17308-17315): Column 13 (col 13, rows 7..16) runs parallel to Column 12. An NPC with green goggles stands at (13, 12). Team Aqua Grunt 2 is stationed at (16, 7..8) facing down/right, guarding the Northeast Doorway.
-- Verified Turn 17320: Field test proved Cobalu's Rock Smash cannot be used on the obstacle at (13, 12) ('Can't use that here.'). Column 13 is blocked at row 12.
-## Reset & Routing Strategy (Turn 17323)
-- Reset Executed: Exited south into Room 1 at (10, 1) to reset all Room 2 puzzle boulders to their pristine initial states.
-- Room 2 Reset State: Boulder returns to (12, 11); Row 7 is completely open at (12, 7); cracked rock resets at (5, 10); boulder resets at (5, 11).
-- Northwest Path: Smashed rock at (5, 10), pushed boulder at (5, 11) Down to (5, 12). Row 11 connects east toward Column 12.
-- Room 4 Objective: Re-traverse Room 3 into Room 4 (Water Currents) to solve the water currents puzzle and reach the true Northeast Cave Doorway at cols 13..15, leading toward Kyogre's chamber.
+
 ## Room 2 Verified Puzzle Solution
 1. Advance via Column 4 to (4, 10), face East and smash cracked rock at (5, 10) with Rock Smash.
 2. Step onto (5, 10), face South and push Boulder 1 Down from (5, 11) to (5, 12).
