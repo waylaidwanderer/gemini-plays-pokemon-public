@@ -7,6 +7,7 @@
 | Route 101 | Mudkip ♂ | MUDKIP | 14 | Active | Starter (`Met in ROUTE 101`, Turn 6398; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ledyba ♂ | AOBERON | 12 | Active | Caught at `(11, 14)` on Route 103 (Turn 6409; Bug/Flying, `Silver Wind` [Slot 1], `Aerial Ace` [Slot 2, Lv. 8], `Supersonic` [Slot 3, Lv. 10]) |
 | Route 102 | Meowth ♀ | BASTET | 12 | Active | Caught at `(38, 6)` on Route 102 (Turn 6414; Normal, `Limber`, `+Speed` nature, holds `Berry Juice`, `Pay Day`, `Faint Attack`, `Swift`) |
+| Route 104 (South) | Snubbull ♂ | FENRIR | 7 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6451; Normal, `Intimidate`) |
 
 <hr>
 
@@ -63,9 +64,10 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **AOBERON** — Ledyba ♂ (Lv. 12, `32/32 HP`, Bug/Flying, Held: `Oran Berry`, Stats at Lv. 12: `32 HP / 11 Atk / 14 Def / 16 SpA / 24 SpD / 20 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`], `Aerial Ace` [Slot 2: `Up, Right`], `Supersonic` [Slot 3: `Left, Down`]) — Caught on Route 103 (`(11, 14)`).
+1. **BASTET** — Meowth ♀ (Lv. 12, `33/33 HP`, Normal, `Limber`, `+Speed` nature, Held: `Berry Juice`, Stats at Lv. 12: `33 HP / 16 Atk / 14 Def / 14 SpA / 17 SpD / 31 Spd`, Moves: `Pay Day` [Slot 1: `Up, Left`], `Faint Attack` [Slot 2: `Up, Right`], `Swift` [Slot 3: `Left, Down`]) — Caught on Route 102 (`(38, 6)`).
 2. **MUDKIP** — Mudkip ♂ (Lv. 14, `38/38 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 14: `38 HP / 26 Atk / 20 Def / 20 SpA / 22 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-3. **BASTET** — Meowth ♀ (Lv. 12, `33/33 HP`, Normal, `Limber`, `+Speed` nature, Held: `Berry Juice`, Stats at Lv. 12: `33 HP / 16 Atk / 14 Def / 14 SpA / 17 SpD / 31 Spd`, Moves: `Pay Day` [Slot 1: `Up, Left`], `Faint Attack` [Slot 2: `Up, Right`], `Swift` [Slot 3: `Left, Down`]) — Caught on Route 102 (`(38, 6)`).
+3. **AOBERON** — Ledyba ♂ (Lv. 12, `29/32 HP`, Bug/Flying, Held: `Oran Berry`, Stats at Lv. 12: `32 HP / 11 Atk / 14 Def / 16 SpA / 24 SpD / 20 Spd`, Moves: `Silver Wind` [Slot 1: `Up, Left`], `Aerial Ace` [Slot 2: `Up, Right`], `Supersonic` [Slot 3: `Left, Down`]) — Caught on Route 103 (`(11, 14)`).
+4. **FENRIR** — Snubbull ♂ (Lv. 7, Normal, `Intimidate`) — Caught on Route 104 South (`(24, 61)`).
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
 - *(None)*
