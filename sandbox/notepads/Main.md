@@ -50,7 +50,7 @@
 
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 11, Water, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **OBERON** — Ledyba ♂ (Lv. 4, Bug/Flying, Moves: `Silver Wind`, `Supersonic`, `Comet Punch`) — Caught on Route 103 (`(11, 14)`).
+2. **AOBERON** — Ledyba ♂ (Lv. 4, Bug/Flying, Moves: `Silver Wind`, `Supersonic`, `Comet Punch`) — Caught on Route 103 (`(11, 14)`).
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
 - *(None)*
