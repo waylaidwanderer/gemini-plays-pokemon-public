@@ -11,7 +11,7 @@
 | Route 102 | Meowth (M, Lv 15) | HERMES | Active | Lv 15 stats: 37/22/19/18/21/39; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out (deposit in PC after battle) |
-| Petalburg Woods | Bellsprout (F, Lv 15) | CHLORIS | Active | Bold (+Def), `Chlorophyll`; Lv 15 stats: 42/27/16/29/18/17; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15) (also observed: `Oddish`, `Volbeat` Lv 7) |
+| Petalburg Woods | Bellsprout (F, Lv 15) | CHLORIS | Active | Bold (+Def), `Chlorophyll`; Lv 15 stats: 42/27/16/29/18/17; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15) (also observed: `Oddish`, `Volbeat` Lv 7, `Phanpy` Lv 8) |
 
 ## Attempt #1 Encounter History
 - **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
@@ -151,8 +151,9 @@
 
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
-- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7).
-- **Beach Staircase**: Located at `(28..29, 70)` (northern beach stairs at `(17..18, 55)`).
+- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7).
+- **Fast Grass-Free Southbound Shortcut (Petalburg Woods to Petalburg City)**: Going southbound from `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along the grass-free `x=25` column (jumping the ledge at `(25, 55)` just east of the `(22..24, 56..61)` tall grass patch) to `(25, 62)`, and `Right x15` along `y=62` straight into Petalburg City `(0, 12)`.
+- **Beach Staircase**: Located at `(28..29, 70)` (northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
   - **Friendly Boy** at `(28, 74)` on the shoreline.
   - **Bird Keeper Billy** at `(23, 66)` facing `Left` (3 Pokemon: `Pidgey` Lv 7 [holds `Berry Juice`], `Wingull` Lv 7 [`Supersonic`, `Water Gun`, `Gust`], `Taillow` Lv 7).
