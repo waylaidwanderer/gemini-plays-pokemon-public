@@ -54,7 +54,7 @@
 - **Bag Pocket Navigation & Cursor Clamping**:
   - Bag pockets (`1: ITEMS`, `2: POKE BALLS`, `3: TMs & HMs`, `4: BERRIES`, `5: KEY ITEMS`) wrap around between `ITEMS` and `KEY ITEMS`.
   - Switching through an empty pocket (`TMs & HMs` or `BERRIES`) clamps the item cursor onto `>CLOSE BAG`; since `Up` never wraps past index 0 inside a Bag pocket or Poke Mart list, pressing `Up` multiple times deterministically clamps to index 0 (and `Up, Up, Down` deterministically selects index 1).
-  - Giving a held item (`GIVE`) to a Pokemon already holding an item prompts `"Would you like to switch the two items? [>YES / NO]"`; press `A` to swap the items, and allow `~1200ms` for the Party screen to fade back to the Bag.
+  - Giving a held item (`GIVE`) to a Pokemon already holding an item takes **4 `A` presses** on the Party screen: `1st A` selects the slot (`"[POKEMON] is already holding one [ITEM].♥"`), `2nd A` advances to `"Would you like to switch the two items? [>YES / NO]"`, `3rd A` confirms `YES` (`"The [OLD ITEM] was taken and replaced with the [NEW ITEM]."`), and `4th A` dismisses the text and fades back to the Bag (`~1200ms`).
   - In `KEY ITEMS`, the `USE / REGISTER / CANCEL` submenu is arranged in 2 columns (`>USE` on left, `REGISTER` on right); press `A, Right, A` to register a Key Item to `Select`.
   - In `BERRIES`, berries are sorted numerically by Berry ID (`index 0: No03 PECHA BERRY`, `index 1: No07 ORAN BERRY`), so clamping with `Up, Up` selects `PECHA BERRY` and `Up, Up, Down` selects `ORAN BERRY`. The submenu is a 2-column grid (`Row 0: >CHECK TAG`; `Row 1: USE | GIVE`; `Row 2: TOSS | CANCEL`); press `A, Down, A` to `USE` a Berry or `A, Down, Right, A` to `GIVE` a Berry.
 - **Rare Candy Chaining & Move Replacement**:
