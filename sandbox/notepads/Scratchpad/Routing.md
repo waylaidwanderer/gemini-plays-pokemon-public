@@ -85,4 +85,4 @@
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on the horizontal bridge section) — **DEFEATED**:
     - Team (2 Pokemon): `Smeargle` (M, Lv 8, `Follow Me`) & `Smeargle` (M, Lv 8, `Focus Punch`).
   - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at the northern exit of the bridge):
-    - Team (6 Pokemon): Lead `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, holds `Sitrus Berry`), plus 5 remaining Pokemon.
+    - Team (6 Pokemon): Lead `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`), plus 5 remaining Pokemon. (Note: AI spams `Curse` + `Rest`/`Snore` until `Quick Attack` enters KO range or boosts are maxed; must not let `Eevee` stack `Curse` boosts!)

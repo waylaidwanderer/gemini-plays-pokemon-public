@@ -8,5 +8,5 @@
 | Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Deceased | Fainted Turn 490 to PKMN Trainer Red's Lv 9 Eevee (`+4 Atk Snore`) on Route 104 North |
 | Route 102 | Meowth (M, Lv 11) | MIDAS | Deceased | Fainted Turn 379 to Team Magma Grunt's Lv 8 Koffing in Petalburg Woods |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Deceased | Fainted Turn 361 to critical-hit `Ember` from Team Magma Grunt's Lv 9 Houndour in Petalburg Woods |
-| Route 104 | Jigglypuff (F, Lv 15) | LYRA | Active | Quiet, Cute Charm; Held: `Oran Berry`; Moves: `Sing`, `Pound`, `Disable`, `Seismic Toss` (Lv 14); Stats: 63/21/14/19/15/13 |
+| Route 104 | Jigglypuff (F, Lv 15) | LYRA | Deceased | Fainted Turn 494 to PKMN Trainer Red's Lv 9 Eevee (`+5 Atk Quick Attack`) on Route 104 North |
 | Petalburg Woods | Oddish (F, Lv 8) | ARTEMISIA | Active (Box 1) | Caught at `(22, 35)`; Observed moves: `Acid`, `Mega Drain` |
