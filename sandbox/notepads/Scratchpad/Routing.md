@@ -80,4 +80,5 @@
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`) — **DEFEATED**:
     - Team (3 Pokemon): `Snubbull` (Lv 8, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Rock Smash`, `Ember`, holds `Berry Juice`), `Electrike` (Lv 8, `ThunderShock`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)` (return after obtaining `HM01 Cut` in Rustboro City).
-  - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching the bridge entrance at `(30..31, 22)`).
+  - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching the bridge entrance at `(30..31, 22)`):
+    - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Ember`).
