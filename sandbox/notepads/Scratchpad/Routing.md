@@ -19,7 +19,8 @@
 - Path to Route 103: From `(13, 8)`, walk `Left x3` to `(10, 8)` and `Up x9` onto Route 103.
 ## Route 103
 - **Grass-Free Path (South -> North)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)`, and `Right x6` to `(20, 10)`.
-- **Brendan Location**: `(20, 11)` (Note: Gen 3 NPC sprites are 32px tall, so their head overlaps `y-1` while their true interaction tile is at their feet/shadow).
+- **Old Rod Fisherman**: Wanders in 2x2 box `(20..21, 11..12)` on the eastern beach of Route 103; speaking to him and answering `YES` grants the **`Old Rod`** early!
+- **Path to Northern Plateau (Brendan)**: From `(20, 10)`, walk `Left x3` to `(17, 10)` and `Up x6` through the gap at `x=16..17, y=6` to `(17, 4)`, then `Left` to Brendan.
 - **Menu & Leveling Mechanics**:
   - Exiting Pokemon Summary takes 3 `B` presses to reach the Start menu (`Summary -> Party submenu -> Party slot list -> Start menu`) and a 4th `B` to close the Start menu.
   - Rare Candies can be chained from the Bag (`>RARE CANDY`) using `A` presses (`sleep 900`) as long as the target Pokemon has `< 4` moves.
