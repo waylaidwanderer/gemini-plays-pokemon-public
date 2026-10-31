@@ -6,4 +6,4 @@
 | Littleroot Town | TBD | TBD | Deferred | Custom pond at `(17, 13..14)` — deferred to catch grass encounters first |
 | Route 101 | Caterpie (M, Lv 2) | MORPHEUS | Active | Caught at `(4, 15)` on 1st Poke Ball |
 | Route 103 | Hoppip (M, Lv 4) | ZEPHYR | Active | Caught at `(12, 15)` on 2nd Poke Ball; knows `Confusion` |
-| Route 102 | Meowth (M, Lv 6) | MIDAS | Catching | Encountered at `(39, 6)` |
+| Route 102 | Meowth (M, Lv 6) | MIDAS | Active | Caught at `(39, 6)` on 1st Poke Ball |
