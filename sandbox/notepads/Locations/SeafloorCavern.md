@@ -95,3 +95,5 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 3. Step onto (5, 11) and walk East along Row 11 to (11, 11).
 4. Face East and push Boulder 2 East from (12, 11) into the alcove at (13, 11).
 5. Column 12 is now completely clear! Walk North up Column 12 from (12, 12) to (12, 7), then West along Row 7 to (6, 7), and North to Northwest Doorway at (6, 1) into Room 3!
+
+- Room 4 Western Route (Verified Turn 17367): From calm tile (8, 12), stepping Left into (7, 12) carries May to an unmapped western calm pool at (4, 8). To the west is an elevated terrace (cols 0..3), to the north is row 7 cliff/shore, and to the east is an east-flowing current at (5, 8).
