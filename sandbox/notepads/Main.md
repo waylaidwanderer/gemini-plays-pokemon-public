@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: MIND BADGE EARNED! Seafloor Cavern completed and Archie defeated! Kyogre & Groudon awakened, causing Hoenn-wide weather crisis! Party fully healed! Navigating to Route 126 to enter Sootopolis City and resolve the ancient conflict.
+- Status: SOOTOPOLIS CITY ENTERED! Ancient conflict active! Groudon & Kyogre clashing in the caldera lagoon! Meeting Steven Stone and Wallace to unlock Cave of Origin and summon Rayquaza.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 174/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Fully Healed Turn 17656)
@@ -199,7 +199,7 @@
 
 ## Progression Checklist - Phase 13: The Ancient Conflict & Sootopolis City (Active)
 1. [x] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone (Turn 17645).
-2. [ ] Travel to Sootopolis City to witness the clash between Groudon and Kyogre.
+2. [x] Travel to Sootopolis City to witness the clash between Groudon and Kyogre (Turn 17822).
 3. [ ] Locate Steven Stone and Wallace at the Cave of Origin.
 4. [ ] Awaken Rayquaza at the Sky Pillar to quell the catastrophe.
 5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).

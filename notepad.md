@@ -3554,7 +3554,7 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 2. [x] Locate the massive white volcanic caldera of Sootopolis City.
 3. [x] Navigate to the southern rim and locate the deep water dive trench (Turn 17802 at 31, 68).
 4. [x] Use HM08 Dive with Lombre (Lilz) to submerge underwater (Turn 17805 at 31, 68).
-5. [ ] Enter the submerged cave opening at (45, 65) and surface inside Sootopolis City!
+5. [x] Enter the submerged cave opening at (45, 65) and surface inside Sootopolis City (Turn 17822)!
 
 ## Discovered Topography & Navigation
 - Eastern Ocean Entrance: Entered Route 126 from Route 127 at (79, 45) along row 45 facing West. Open deep blue ocean extends to the west toward the central caldera.
@@ -4032,6 +4032,35 @@ A bustling port city in southeastern Hoenn, home to the Oceanic Museum, Stern's 
 
 <hr>
 
+<h1><code>Locations/SootopolisCity</code></h1>
+
+# Location: Sootopolis City
+
+## Overview
+A mystical city built entirely inside the hollow crater of an extinct volcanic island, surrounded by water.
+- Environment: Massive white stone caldera walls, terraced white stone stairs, a central lagoon, and ancient architecture.
+- Story Climax: Groudon and Kyogre are clashing in the central lagoon, causing catastrophic weather across all of Hoenn!
+- Key Figures: Steven Stone (former Champion), Wallace (Sootopolis Gym Leader / ancient lorekeeper), and Juan (current Gym Leader).
+
+## Connection Points
+- Underwater Entrance / Exit: Submerged cave tunnel leading south out to Route 126.
+- Sky / Exterior: Sealed off by volcanic caldera walls; outdoor flying unlocks once visited!
+
+## Progression Checklist - Sootopolis City
+1. [x] Enter Sootopolis City submerged tunnel from Route 126 (Turn 17822 at 9, 8).
+2. [ ] Surface into the central caldera lagoon.
+3. [ ] Witness the clash between Ancient Groudon and Ancient Kyogre.
+4. [ ] Speak with Steven Stone on the western shore.
+5. [ ] Accompany Steven to meet Wallace outside the Cave of Origin.
+6. [ ] Enter the Cave of Origin to learn of Rayquaza's slumber at the Sky Pillar.
+7. [ ] Journey to Sky Pillar to awaken Rayquaza and quell the ancient conflict!
+
+## Discovered Topography & Navigation
+- Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays surfaces directly into the city lagoon.
+
+
+<hr>
+
 <h1><code>Locations/SpaceCenter</code></h1>
 
 # Location: Mossdeep Space Center
@@ -4181,7 +4210,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: MIND BADGE EARNED! Seafloor Cavern completed and Archie defeated! Kyogre & Groudon awakened, causing Hoenn-wide weather crisis! Party fully healed! Navigating to Route 126 to enter Sootopolis City and resolve the ancient conflict.
+- Status: SOOTOPOLIS CITY ENTERED! Ancient conflict active! Groudon & Kyogre clashing in the caldera lagoon! Meeting Steven Stone and Wallace to unlock Cave of Origin and summon Rayquaza.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 174/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Fully Healed Turn 17656)
@@ -4377,7 +4406,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Progression Checklist - Phase 13: The Ancient Conflict & Sootopolis City (Active)
 1. [x] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone (Turn 17645).
-2. [ ] Travel to Sootopolis City to witness the clash between Groudon and Kyogre.
+2. [x] Travel to Sootopolis City to witness the clash between Groudon and Kyogre (Turn 17822).
 3. [ ] Locate Steven Stone and Wallace at the Cave of Origin.
 4. [ ] Awaken Rayquaza at the Sky Pillar to quell the catastrophe.
 5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
