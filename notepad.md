@@ -10,6 +10,7 @@
 | Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 |
 | Route 102 | Meowth (M, Lv 10) | MIDAS | Active | Naughty, Limber; Held: `Oran Berry`; Moves: `Pay Day`, `Faint Attack`; Stats: 28/16/12/13/11/23 |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Active | Bashful, Huge Power; Held: `Oran Berry`; Moves: `Water Gun`, `Charm`, `Secret Power`, `BubbleBeam`; Stats: 32/9/14/9/14/10 |
+| Route 104 | TBD | TBD | Pending | Heading west from Petalburg City `(8, 12)` onto Route 104 |
 
 <hr>
 
@@ -109,8 +110,9 @@
 - **Landmarks**:
   - **Pokemon Center**: Door at `(20, 16)`.
   - **Poke Mart**: Door at `(25, 12)` (`Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
-  - **Petalburg Gym**: Door at `(15, 8)`.
+  - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside — **Norman & Wally tutorial event COMPLETED (Turns 207-208)**.
   - **Wally's House**: Door at `(12, 19)`.
   - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish (caught `Azurill` Lv 5, `CALYPSO`).
+  - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`).
 
 <hr>
