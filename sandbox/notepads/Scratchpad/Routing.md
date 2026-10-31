@@ -21,7 +21,7 @@
 ## Route 102
 - **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
 - **Trainers**:
-  - **Youngster Calvin** `(33, 14)`
+  - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`])
   - **Bug Catcher Rick** `(25, 15)`
   - **Lass Tiana** `(15, 5)`
   - **Bug Catcher Allen** `(13, 2)`
