@@ -143,7 +143,8 @@
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of the southern entrance) — **DEFEATED**:
     - Team (3 Pokemon): `Spinarak` (Lv 8, `Mega Drain`, `Spider Web`, holds `Berry Juice`), `Ledyba` (Lv 8, `Supersonic`, `Mach Punch`), `Venonat` (Lv 8, `Stun Spore`, `Confusion`).
-  - Friendly boy in straw hat wandering near `(9..10, 24)` north of the south-west grass patch.
+  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of the south-west grass patch) — **DEFEATED**:
+    - Team (3 Pokemon): `Paras` (Lv 9, `Spore`, `Aerial Ace`), `Nincada` (Lv 9, `Aerial Ace`, `Giga Drain`), `Surskit` (Lv 8, `Mega Drain`).
   - Friendly man wandering near `(27..31, 33..35)` east of the south-east grass patch.
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)` (bounded on the west by a solid cliff wall at `x=28`). Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
 
