@@ -3881,6 +3881,17 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 - Room 4 Western Route (Verified Turn 17367-17371): From calm tile (8, 12), stepping Left into (7, 12) carries May to a western calm pool spanning (4, 8) and (4, 7). To the west is an elevated terrace (cols 0..3), to the north is a solid cliff wall at row 6, and to the east are currents along row 7 and row 8.
 - Room 4 Northern Approach (Verified Turn 17372-17374): Navigated calm water from (4, 7) -> (5, 7) -> (6, 7) -> (6, 6). Column 7 to the east flows south, but row 4 flows east above the central sea rock (cols 9..11, rows 5..8) toward the Northeast Cave Doorway.
+## Room 4 Verified Solution (Northwest Doorway Route)
+- Solution Path:
+  1. Spawns at (11, 21), advance to shore at (11, 20) and mount Surf at (11, 19).
+  2. Step Up into Current Stream 1 at (11, 18) -> carries to calm tile at (14, 16).
+  3. Step East into Current Stream 2 at (15, 16) -> carries to eastern calm pool at (19, 11).
+  4. Step North into Current Stream 3 at (19, 10) -> carries across room to calm tile at (8, 12).
+  5. From (8, 12), step Left into (7, 12) -> carries West to western calm pool at (4, 8).
+  6. From (4, 8), navigate calm water: Up to (4, 7), Right to (5, 7), Right to (6, 7), Up to (6, 6), Up to (6, 4).
+  7. Step Left onto northwest sandy shore at (5, 4) (dismounting Surf).
+  8. Walk North along platform to (5, 2), directly in front of the northern cave doorway at (5, 1)!
+
 
 <hr>
 
