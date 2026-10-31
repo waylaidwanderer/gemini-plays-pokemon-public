@@ -78,16 +78,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 
 - Room 4 Western Route (Verified Turn 17367-17371): From calm tile (8, 12), stepping Left into (7, 12) carries May to a western calm pool spanning (4, 8) and (4, 7). To the west is an elevated terrace (cols 0..3), to the north is a solid cliff wall at row 6, and to the east are currents along row 7 and row 8.
 - Room 4 Northern Approach (Verified Turn 17372-17374): Navigated calm water from (4, 7) -> (5, 7) -> (6, 7) -> (6, 6). Column 7 to the east flows south, but row 4 flows east above the central sea rock (cols 9..11, rows 5..8) toward the Northeast Cave Doorway.
-## Room 4 Verified Solution (Northwest Doorway Route)
-- Solution Path:
-  1. Spawns at (11, 21), advance to shore at (11, 20) and mount Surf at (11, 19).
-  2. Step Up into Current Stream 1 at (11, 18) -> carries to calm tile at (14, 16).
-  3. Step East into Current Stream 2 at (15, 16) -> carries to eastern calm pool at (19, 11).
-  4. Step North into Current Stream 3 at (19, 10) -> carries across room to calm tile at (8, 12).
-  5. From (8, 12), step Left into (7, 12) -> carries West to western calm pool at (4, 8).
-  6. From (4, 8), navigate calm water: Up to (4, 7), Right to (5, 7), Right to (6, 7), Up to (6, 6), Up to (6, 4).
-  7. Step Left onto northwest sandy shore at (5, 4) (dismounting Surf).
-  8. Walk North along platform to (5, 2), directly in front of the northern cave doorway at (5, 1)!
+## Room 4 Puzzle Summary (Completed)
+- Navigated water currents from southern shore across the eastern eddies into the northwest calm basin, reaching the northern cave doorway at (5, 1).
 
 ## Discovered Topography & Navigation - Room 5 (Chamber beyond Room 4)
 - Entrance: Entered via Room 4 northwest doorway at (4, 1). Player spawns at (4, 15) facing North.
@@ -108,29 +100,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Entrance: Entered via Room 5 northern doorway at (8, 1). Player spawns at (5, 12) facing North.
 - Layout: Flanked by vertical rock columns. Ahead is an entrance corridor leading to a massive matrix of Strength boulders guarding the northern doorway to Kyogre's shrine!
 
-## Room 8 Boulder Puzzle Mechanics & Master Solution (Verified 9-Push BFS)
-- Initial Layout:
-  - Row 4: (3, 4), (4, 4), [GAP at 5, 4], (6, 4), (7, 4)
-  - Row 5: (4, 5), (5, 5), (6, 5)
-  - Row 6: (3, 6), (7, 6)
-  - Row 7: (4, 7), (5, 7), (6, 7)
-  - Row 8: Walkway across cols 3..7
-  - Row 9: One-way ledge across cols 4..6 (bypassed via col 3 on west and col 7 on east).
-  - Row 2: North wall / cave doorway to Kyogre's chamber at (5, 2).
-- Deadlock Warning: Pushing (5, 5) directly North to (5, 3) jams it flush against the north doorway/wall with no flanking access from (4, 3) or (6, 3), requiring a room reset.
-- Reset Procedure: Exit south through doorway at (5, 12) into Room 5, then step north back into Room 8.
-- 9-Push Master Solution:
-  1. Activate Strength on (3, 6). Walk to (5, 8) via Row 8 walkway.
-  2. Step 1: From (5, 8), push boulder at (5, 7) North to (5, 6).
-  3. Step 2: Walk around to (7, 7), push boulder at (6, 7) West to (5, 7).
-  4. Step 3: Walk to (6, 6), push boulder at (5, 6) West to (4, 6).
-  5. Step 4: Walk to (5, 6), push boulder at (5, 5) North to (5, 4).
-  6. Step 5: Walk to (5, 5), push boulder at (6, 5) East to (7, 5).
-  7. Step 6: Walk to (6, 5), push boulder at (6, 4) North to (6, 3).
-  8. Step 7: Walk to (5, 5), push boulder at (4, 5) West to (3, 5).
-  9. Step 8: Walk to (4, 5), push boulder at (4, 4) North to (4, 3).
-  10. Step 9: Walk to (6, 4), push boulder at (5, 4) West to (4, 4).
-  11. Column 5 is completely clear! Walk North through (5, 4) and (5, 3) straight into the doorway at (5, 2) to enter Kyogre's chamber!
+## Room 8 Boulder Puzzle Summary (Completed)
+- Solved via 9-push perimeter rotation sequence using Strength to clear Column 5 without deadlock, unlocking the northern entrance at (5, 2) into Kyogre's shrine.
 
 ## Discovered Topography & Navigation - Room 9 (Kyogre's Chamber / Deep Basin)
 - Entrance: Entered via Room 8 northern doorway at (5, 2). Player spawns at (5, 4) facing North on the entrance landing.
