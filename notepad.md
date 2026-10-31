@@ -33,7 +33,7 @@
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 505; Text Speed `Fast`)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` cures Paralysis, `Pecha Berry` cures Poison, `Oran Berry` +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
-- **Key Items Obtained**: `Pokedex` (need to re-talk to Fisherman on Route 103 with `A` instead of `B` to answer `YES` and receive `Old Rod`).
+- **Key Items Obtained**: `Pokedex`, `Running Shoes` (need to re-talk to Fisherman on Route 103 with `A` instead of `B` to answer `YES` and receive `Old Rod`).
 
 ## Attempt #1 Post-Mortem & Key Tactical Lessons
 - **Result**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North, 8 tiles south of Rustboro City).
