@@ -112,3 +112,8 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Discovered Topography & Navigation - Room 5 (Chamber beyond Room 4)
 - Entrance: Entered via Room 4 northwest doorway at (4, 1). Player spawns at (4, 15) facing North.
 - Layout: Cavern with dirt paths, elevated rock plateaus, one-way jump ledges, and Strength boulders (boulder visible at northeast).
+- Room 5 Central Highway & Trainers:
+  - Southern ridge at row 13 bypassed via Column 6.
+  - Central avenue runs North along cols 6..7 past central rock ridge.
+  - Team Aqua Grunts stationed at row 2/3: Male Grunt at col 5 facing East, Female Grunt at col 9 facing West (Double Battle zone at row 2/3).
+  - Eastern sector features a multi-boulder Strength formation (cols 10..12, rows 4..9).
