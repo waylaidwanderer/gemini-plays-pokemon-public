@@ -108,7 +108,9 @@
 - **Eastern Entrance**: Enters from Route 102 onto `y=18` (`x=29`).
 - **Landmarks**:
   - **Pokemon Center**: Door at `(20, 16)`.
+  - **Poke Mart**: Door at `(25, 12)` (`Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
+  - **Petalburg Gym**: Door at `(15, 8)`.
   - **Wally's House**: Door at `(12, 19)`.
-  - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish.
+  - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish (caught `Azurill` Lv 5, `CALYPSO`).
 
 <hr>
