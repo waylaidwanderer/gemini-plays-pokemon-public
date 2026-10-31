@@ -56,3 +56,4 @@
 - **NPCs & Items**:
   - Friendly boy wandering near `(14, 35)` west of the southern entrance.
   - Friendly man wandering near `(27..28, 33..34)` east of the tall grass patch.
+  - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`. Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.

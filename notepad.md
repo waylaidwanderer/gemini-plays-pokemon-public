@@ -77,6 +77,7 @@
 - **Battle Menu Action Cursor**: At the start of every new battle turn (`What will [POKEMON] do?`), the action cursor always resets to `>FIGHT` (top-left, index 0). It only remains on `>BAG` or `>POKEMON` if you cancel out of the Bag or Party screen with `B` during the same turn, or after a failed Poke Ball throw (`>BAG`).
 - **Berry Tree Harvesting**: Interacting with a Berry Tree takes **3 `A` presses** (`Interact -> "You found N [X] BERRIES!" -> "Do you want to pick the [X] BERRIES? [>YES]"`), followed by `sleep 3500` for the fanfare and **3 `B` presses** (`sleep 1500` apart) to dismiss the put-away and loamy-soil messages without replanting.
   - **Loamy Soil `USE` Trap**: Selecting `USE` on a Berry in the `BERRIES` pocket while facing a soft, loamy soil patch in the overworld automatically plants the Berry into the soil and exits the Bag/Start menu to the overworld instead of opening the Party menu. Always turn away or step off the loamy soil before selecting `USE` on a Berry.
+- **Overworld Item Balls**: Picking up an item ball displays **2 text boxes**: `"[PLAYER] found one [ITEM]!"` (`~2500ms` fanfare + `A`/`B`) followed by `"[PLAYER] put away the [ITEM] in the [POCKET]."` (`~1000ms` + `A`/`B`).
 
 <hr>
 
@@ -140,5 +141,6 @@
 - **NPCs & Items**:
   - Friendly boy wandering near `(14, 35)` west of the southern entrance.
   - Friendly man wandering near `(27..28, 33..34)` east of the tall grass patch.
+  - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`. Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
 
 <hr>
