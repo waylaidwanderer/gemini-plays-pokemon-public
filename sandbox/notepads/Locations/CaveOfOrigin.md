@@ -30,3 +30,7 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Western Sector: Col 6 forms a short dead-end pocket terminating at (6, 5) against blue crystals at (6, 6).
 - Eastern Sector (cols 10..14, row 3): Open upper highway extending east past the return ladder (9, 2) toward the red glowing crystal corridor (Groudon aura).
 - Central Terraces (rows 4..8): Stepped rocky terraces with south-facing ledges.
+## Discovered Topography & Navigation - B3F
+- Entrance Area: Spawns at (14, 5) facing South from B2F ladder/warp.
+- Upper Highway (rows 5..6, cols 7..14): Wide open dirt corridor leading west across the upper terrace.
+- Southern Terraces: South-facing jump ledges descending to the lower levels.
