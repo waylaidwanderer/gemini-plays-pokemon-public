@@ -52,9 +52,12 @@
     - Team (3 Pokemon): `Cleffa` (Lv 8, `Metronome`), `Pichu` (Lv 8, `Thunder Wave`, `ThunderShock`), `Azurill` (Lv 7, `Uproar`).
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
-- **Tall Grass Patch (South-East)**: Located at `(20..25, 32..35)`; caught `Oddish` (F, Lv 8, `ARTEMISIA`, sent to Box 1) at `(22, 35)`.
+- **Tall Grass Patches (South)**:
+  - South-East patch at `(20..25, 32..35)`: caught `Oddish` (F, Lv 8, `ARTEMISIA`, sent to Box 1) at `(22, 35)`.
+  - South-West patch at `(7..13, 27..33)`: column `x=6` (`y=35 -> 24`) is a grass-free northbound corridor around the west edge of this patch.
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of the southern entrance) — **DEFEATED**:
     - Team (3 Pokemon): `Spinarak` (Lv 8, `Mega Drain`, `Spider Web`, holds `Berry Juice`), `Ledyba` (Lv 8, `Supersonic`, `Mach Punch`), `Venonat` (Lv 8, `Stun Spore`, `Confusion`).
-  - Friendly man wandering near `(27..31, 33..35)` east of the tall grass patch.
+  - Friendly boy in straw hat wandering near `(9..10, 24)` north of the south-west grass patch.
+  - Friendly man wandering near `(27..31, 33..35)` east of the south-east grass patch.
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)` (bounded on the west by a solid cliff wall at `x=28`). Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
