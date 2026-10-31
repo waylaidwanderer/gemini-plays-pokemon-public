@@ -3,10 +3,10 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 (deposit in PC next) |
-| Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Caught at `(17, 13)` pond with Old Rod on Turn 567; knows `Charm`, `Secret Power` |
-| Route 101 | Poochyena (F, Lv 2) | AHECATE | Active | Caught at `(5, 15)` on Turn 546 |
-| Route 103 | Spearow (F, Lv 4) | NIKE | Active | Caught at `(15, 11)` on Turn 554; knows `Pursuit` |
-| Route 102 | Meowth (M, Lv 6) | HERMES | Active | Caught at `(39, 6)` on Turn 578; knows `Faint Attack`, `Pay Day` |
+| Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Caught at `(17, 13)` pond; Lv 4 stats: 17/7/8/8/10/14; Moves: `Secret Power`, `Charm` |
+| Route 101 | Poochyena (F, Lv 7) | AHECATE | Active | Quirky, `Run Away`; learned `Sand-Attack` (Lv 4), `Bite` (Lv 5) + `Tackle` |
+| Route 103 | Spearow (F, Lv 4) | NIKE | Active | Lv 4 stats: 17/8/7/8/8/10; Moves: `Peck`, `Pursuit` |
+| Route 102 | Meowth (M, Lv 6) | HERMES | Active | Lv 6 stats: 20/11/10/9/11/18; Moves: `Pay Day`, `Faint Attack` |
 | Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
 | Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
 | Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
