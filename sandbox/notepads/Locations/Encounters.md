@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 11) | TRITON | Active | Bashful, Torrent; Held: `Oran Berry`; Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`; Stats: 32/21/16/18/19/16 |
+| Starter (Route 101) | Mudkip (M, Lv 11) | TRITON | Deceased | Fainted Turn 355 to Team Magma Grunt's Lv 9 Houndour (`Super Fang` + `Pursuit`) in Petalburg Woods |
 | Littleroot Town | TBD | TBD | Deferred | Custom pond at `(17, 13..14)` — deferred to catch grass encounters first |
 | Route 101 | Butterfree (M, Lv 14) | MORPHEUS | Active | Naughty, Compound Eyes; Held: `Oran Berry`; Moves: `Tackle`, `PoisonPowder` (Lv 13), `Supersonic` (Lv 14), `Confusion` (Lv 10); Max HP: 45 |
 | Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 |
