@@ -151,6 +151,7 @@
   - **Grass-Free Path to Central Clearing**: From Bug Catcher James at `(10, 25)`, step `Down` to `y=26`, walk `Right` along `y=26` to `(26, 26)` (bypassing the tall grass at `(18..24, 24..25)`), and walk `Up` along `x=26` to `(26, 23)`.
   - **Team Magma Grunt Ambush** at `(26, 23)` — **DEFEATED** (Devon Researcher rewards `Great Ball`):
     - Team (5 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), `Bagon` (Lv 8, `Headbutt`), `Koffing` (Lv 8, `Protect`, `Thief`), `Duskull` (Lv 8, `Protect`, `Shadow Sneak`, holds `Leftovers`).
+  - **Grass-Free Path to Northern Exit**: From `(26, 23)`, walk `Up x7` to `(26, 16)`, `Left x13` to `(13, 16)`, `Down x3` to `(13, 19)`, `Left x8` to `(5, 19)`, `Up x6` along `x=5` to `(5, 13)`, `Left` to `(4, 13)`, and `Up x5` along `x=4` to `(4, 8)`.
   - **Remaining Forest Items**: Item ball spotted at `(32, 29)` on the eastern ledge (Turn 345).
 
 <hr>
