@@ -504,7 +504,7 @@
 - **Rival's House (May / Right House):**
   - Exterior Door: `(14, 8)` (exits to `(14, 9)`).
   - 1F: Entry mat `(2, 8)`, Stairs to 2F at `(2, 2)` (stepping onto `(2, 4)` on 1F or going upstairs to 2F triggers May's scene).
-  - 2F: Entry at `(1, 2)`, Poké Ball at `(5, 4)` (walk `Down, Down, Right, Right, Right` to `(4, 4)` facing `Right` and press `A` to trigger May's entrance, or interact with May at her PC desk at `(8, 2)` from `(7, 2)` facing `Right`; exit downstairs by stepping `Left` from `(2, 2)` onto `(1, 2)`).
+  - 2F: Entry at `(1, 2)`, Poké Ball at `(5, 3)` (walk `Down, Right, Right, Right` to `(4, 3)` facing `Right` and press `A` to trigger May's entrance, or interact with May at her PC desk at `(8, 2)` from `(7, 2)` facing `Right`; exit downstairs by stepping `Left` from `(2, 2)` onto `(1, 2)`).
   - Littleroot North Exit (after meeting May): NPC girl stands at `(10, 1)`; bypass via `(11, 1) -> (11, 0) -> (10, 0)` and step `Up` onto Route 101 `(10, 19)`!
 
 ## Battle & Menu Persistence Mechanics (Turns 29–42)
