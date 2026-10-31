@@ -14,8 +14,8 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 ## Progression Checklist - Route 126
 1. [ ] Enter Route 126 from Route 127 western boundary.
 2. [ ] Locate the massive white volcanic caldera of Sootopolis City.
-3. [ ] Navigate to the southern rim and locate the deep water dive trench.
-4. [ ] Use HM08 Dive with Lombre (Lilz) to submerge underwater.
+3. [x] Navigate to the southern rim and locate the deep water dive trench (Turn 17802 at 31, 68).
+4. [x] Use HM08 Dive with Lombre (Lilz) to submerge underwater (Turn 17805 at 31, 68).
 5. [ ] Enter the submerged cave opening and surface inside Sootopolis City!
 
 ## Discovered Topography & Navigation
