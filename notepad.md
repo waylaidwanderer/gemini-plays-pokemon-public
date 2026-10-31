@@ -86,5 +86,11 @@
 - **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east to `(20, 11)` for the Old Rod Fisherman, or north to `(13, 7)` -> `Left x7` to `(6, 7)` -> `(5, 6)` -> `Up x3` to `(5, 3)` for the upper plateau).
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
 - **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102.
+## Route 102
+- **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
+- **First Tall Grass Patch**: Located at `(38..39, 5..6)` just west of the pond bank at `(40, 6)`. Caught `Meowth` (Lv 6, `MIDAS`) at `(39, 6)`.
+- **Trainers**:
+  1. **Youngster Calvin** at `(33, 14)` facing `Down` (approached from `(36, 11) -> (36, 14) -> (34, 14)`):
+     - Has 3 Pokemon: `Sentret` (Lv 6, knows `Quick Attack`), `Zigzagoon` (Lv 6), and 1 more Pokemon.
 
 <hr>
