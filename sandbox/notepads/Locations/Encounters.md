@@ -1,12 +1,21 @@
-# Nuzlocke Encounters (Attempt #1)
+# Nuzlocke Encounters (Attempt #2)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 11) | TRITON | Deceased | Fainted Turn 355 to Team Magma Grunt's Lv 9 Houndour (`Super Fang` + `Pursuit`) in Petalburg Woods |
-| Littleroot Town | TBD | TBD | Deferred | Custom pond at `(17, 13..14)` — deferred to catch grass encounters first |
-| Route 101 | Butterfree (M, Lv 15) | MORPHEUS | Active | Naughty, Compound Eyes; Held: `Oran Berry`; Moves: `Aerial Ace` (Lv 15), `PoisonPowder` (Lv 13), `Supersonic` (Lv 14), `Confusion` (Lv 10); Stats: 47/25/20/34/27/27 |
-| Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Deceased | Fainted Turn 490 to PKMN Trainer Red's Lv 9 Eevee (`+4 Atk Snore`) on Route 104 North |
-| Route 102 | Meowth (M, Lv 11) | MIDAS | Deceased | Fainted Turn 379 to Team Magma Grunt's Lv 8 Koffing in Petalburg Woods |
-| Petalburg City | Azurill (F, Lv 10) | CALYPSO | Deceased | Fainted Turn 361 to critical-hit `Ember` from Team Magma Grunt's Lv 9 Houndour in Petalburg Woods |
-| Route 104 | Jigglypuff (F, Lv 15) | LYRA | Deceased | Fainted Turn 494 to PKMN Trainer Red's Lv 9 Eevee (`+5 Atk Quick Attack`) on Route 104 North |
-| Petalburg Woods | Oddish (F, Lv 8) | ARTEMISIA | Active (Box 1) | Caught at `(22, 35)`; Observed moves: `Acid`, `Mega Drain` |
+| Starter (Route 101) | TBD | TBD | Pending | |
+| Littleroot Town | TBD | TBD | Pending | Custom pond at `(18, 12..14)`; stand at `(17, 13)` facing `Right` with Old Rod |
+| Route 101 | TBD | TBD | Pending | Observed species: `Togepi`, `Caterpie`, `Igglybuff` |
+| Route 103 | TBD | TBD | Pending | Observed species: `Hoppip` |
+| Route 102 | TBD | TBD | Pending | Observed species: `Meowth` |
+| Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
+| Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
+| Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
+
+## Attempt #1 Encounter History
+- **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
+- **Route 101**: `Caterpie -> Butterfree` (`MORPHEUS`, Lv 15, `Compound Eyes`; learned `Confusion` Lv 10, `PoisonPowder` Lv 13, `Supersonic` Lv 14, `Aerial Ace` Lv 15) — Fainted to Red's Lv 9 `Eevee`
+- **Route 103**: `Hoppip` (`ZEPHYR`, Lv 14; learned `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Fainted to Red's Lv 9 `Eevee`
+- **Route 102**: `Meowth` (`MIDAS`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 8 `Koffing`
+- **Petalburg City (Old Rod)**: `Azurill` (`CALYPSO`, Lv 10, `Thick Fat`) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour`
+- **Route 104**: `Jigglypuff` (`LYRA`, Lv 15; learned `Seismic Toss` at Lv 14) — Fainted to Red's Lv 9 `Eevee`
+- **Petalburg Woods**: `Oddish` (`ARTEMISIA`, Lv 8; knew `Acid`, `Mega Drain`) — Boxed

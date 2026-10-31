@@ -1,4 +1,4 @@
-# Early Game Routing & Notes (Attempt #1)
+# Early Game Routing & Verified Trainer Data
 
 ## Littleroot Town
 - **Landmarks**: Player's House (East): `(14, 8)`; Rival's House (West): `(5, 8)`; Birch's Lab: `(7, 16)`.
@@ -12,17 +12,21 @@
 
 ## Oldale Town & Route 103
 - **Oldale Central Road**: `x=10` (`y=0..19`) is a straight vertical road between Route 101 and Route 103.
-- **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east to `(20, 11)` for the Old Rod Fisherman, or north to `(13, 7)` -> `Left x7` to `(6, 7)` -> `(5, 6)` -> `Up x3` to `(5, 3)` for the upper plateau).
+- **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east to `(20, 11)` facing `Down` at `(20, 12)` for the **Old Rod Fisherman**, or north to `(13, 7)` -> `Left x7` to `(6, 7)` -> `(5, 6)` -> `Up x3` to `(5, 3)` for the Rival battle at `(9, 3)`).
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
 - **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102.
+
 ## Route 102
-- **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`. Caught `Meowth` (Lv 6, `MIDAS`) at `(39, 6)`.
+- **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
 - **Trainers**:
-  - **Defeated**: Youngster Calvin `(33, 14)`, Bug Catcher Rick `(25, 15)`, Lass Tiana `(15, 5)`, Bug Catcher Allen `(13, 2)`.
-  - **Remaining**: Trainer in tall grass at `(18, 12)`.
+  - **Youngster Calvin** `(33, 14)`
+  - **Bug Catcher Rick** `(25, 15)`
+  - **Lass Tiana** `(15, 5)`
+  - **Bug Catcher Allen** `(13, 2)`
+  - **Trainer in tall grass** `(18, 12)` (avoidable via northern berry patch path).
 - **Northern Berry Patch & Grass-Free Routes**:
   - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
-  - **Berry Trees**: Located at `(24, 2)` (`Oran Berry`) and `(25, 2)` (`Pecha Berry`); harvested on Turn 144 (auto-refill to 99 in the overworld).
+  - **Berry Trees**: Located at `(24, 2)` (`Oran Berry`) and `(25, 2)` (`Pecha Berry`) — harvest both and end a turn in the free overworld so they auto-refill to 99!
   - **Grass-Free Path to Petalburg City**: From `(13, 3)`, step `Left` to `(12, 3)`, `Down x4` to `(12, 7)`, `Left` to `(11, 7)`, `Down` to `(11, 8)`, and `Left x12` along `y=8` straight into Petalburg City.
 
 ## Petalburg City
@@ -30,42 +34,37 @@
 - **Landmarks**:
   - **Pokemon Center**: Door at `(20, 16)`.
   - **Poke Mart**: Door at `(25, 12)` (`Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
-  - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside — **Norman & Wally tutorial event COMPLETED (Turns 207-208)**.
-  - **Wally's House**: Door at `(12, 19)`.
-  - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish (caught `Azurill` Lv 5, `CALYPSO`).
+  - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event).
+  - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish with Old Rod.
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`).
+
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
-- **Tall Grass Patch**: Located at `(22..24, 56..61)`; caught `Jigglypuff` (Lv 7, `LYRA`) at `(23, 60)`.
-- **Beach Staircase**: Located at `(28..29, 70)` (the northern ledges at `y=57..59` are one-way southbound).
+- **Tall Grass Patch**: Located at `(22..24, 56..61)`.
+- **Beach Staircase**: Located at `(28..29, 70)` (northern beach stairs at `(17..18, 55)`).
 - **Trainers & NPCs**:
-  - **Friendly Boy** at `(28, 74)` on the shoreline (not a trainer).
-  - **Bird Keeper Billy** at `(23, 66)` facing `Left` — **DEFEATED**:
-    - Team (3 Pokemon): `Pidgey` (Lv 7, holds `Berry Juice`), `Wingull` (Lv 7, `Supersonic`, `Water Gun`, `Gust`), `Taillow` (Lv 7).
-  - **Friendly Fisherman** at `(15, 60)` facing `Right` (not a trainer).
-  - **Fisherman Darian** at `(15, 59)` facing `Right` — **DEFEATED**:
-    - Team (4 Pokemon): `Magikarp` (Lv 9, `Bounce`), `Feebas` (Lv 8, `Icy Wind`, `Facade`, holds `Sitrus Berry`), `Goldeen` (Lv 7, `Swift Swim`; `Rain Dance`, `Peck`, `Horn Attack`, `Dive`), `Luvdisc` (Lv 7, `Attract`).
+  - **Friendly Boy** at `(28, 74)` on the shoreline.
+  - **Bird Keeper Billy** at `(23, 66)` facing `Left` (3 Pokemon: `Pidgey` Lv 7 [holds `Berry Juice`], `Wingull` Lv 7 [`Supersonic`, `Water Gun`, `Gust`], `Taillow` Lv 7).
+  - **Friendly Fisherman** at `(15, 60)` facing `Right`.
+  - **Fisherman Darian** at `(15, 59)` facing `Right` (4 Pokemon: `Magikarp` Lv 9 [`Bounce`], `Feebas` Lv 8 [`Icy Wind`, `Facade`, holds `Sitrus Berry`], `Goldeen` Lv 7 [`Swift Swim`; `Rain Dance`, `Peck`, `Horn Attack`, `Dive`], `Luvdisc` Lv 7 [`Attract`]).
 - **Mr. Briney's Cottage & Northern Berry Patch**:
-  - Cottage door at `(17, 51)`; northern beach stairs at `(17..18, 55)`.
-  - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`) — harvested Turn 267.
-  - **Lady Cindy** at `(11, 40)` facing `Left` (outside Petalburg Woods) — **DEFEATED**:
-    - Team (3 Pokemon): `Cleffa` (Lv 8, `Metronome`), `Pichu` (Lv 8, `Thunder Wave`, `ThunderShock`), `Azurill` (Lv 7, `Uproar`).
+  - Cottage door at `(17, 51)`.
+  - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
+  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Metronome`], `Pichu` Lv 8 [`Thunder Wave`, `ThunderShock`], `Azurill` Lv 7 [`Uproar`]).
+
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
 - **Tall Grass Patches (South)**:
-  - South-East patch at `(20..25, 32..35)`: caught `Oddish` (F, Lv 8, `ARTEMISIA`, sent to Box 1) at `(22, 35)`.
+  - South-East patch at `(20..25, 32..35)`.
   - South-West patch at `(7..13, 27..33)`: column `x=6` (`y=35 -> 24`) is a grass-free northbound corridor around the west edge of this patch.
 - **NPCs, Trainers & Items**:
-  - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of the southern entrance) — **DEFEATED**:
-    - Team (3 Pokemon): `Spinarak` (Lv 8, `Mega Drain`, `Spider Web`, holds `Berry Juice`), `Ledyba` (Lv 8, `Supersonic`, `Mach Punch`), `Venonat` (Lv 8, `Stun Spore`, `Confusion`).
-  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of the south-west grass patch) — **DEFEATED**:
-    - Team (3 Pokemon): `Paras` (Lv 9, `Spore`, `Aerial Ace`), `Nincada` (Lv 9, `Aerial Ace`, `Giga Drain`), `Surskit` (Lv 8, `Mega Drain`).
-  - Friendly man wandering near `(27..31, 33..35)` east of the south-east grass patch.
-  - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)` (bounded on the west by a solid cliff wall at `x=28`). Picked up `Poke Ball` item ball at `(29, 53)` on Turn 305.
-  - **Grass-Free Path to Central Clearing**: From Bug Catcher James at `(10, 25)`, step `Down` to `y=26`, walk `Right` along `y=26` to `(26, 26)` (bypassing the tall grass at `(18..24, 24..25)`), and walk `Up` along `x=26` to `(26, 23)`.
-  - **Team Magma Grunt Ambush** at `(26, 23)` — **DEFEATED** (Devon Researcher rewards `Great Ball`):
+  - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of southern entrance; 3 Pokemon: `Spinarak` Lv 8 [`Mega Drain`, `Spider Web`, holds `Berry Juice`], `Ledyba` Lv 8 [`Supersonic`, `Mach Punch`], `Venonat` Lv 8 [`Stun Spore`, `Confusion`]).
+  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`], `Surskit` Lv 8 [`Mega Drain`]).
+  - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`; `Poke Ball` item ball at `(29, 53)`.
+  - **Grass-Free Path to Central Clearing**: From Bug Catcher James at `(10, 25)`, step `Down` to `y=26`, walk `Right` along `y=26` to `(26, 26)` (bypassing tall grass at `(18..24, 24..25)`), and walk `Up` along `x=26` to `(26, 23)`.
+  - **Team Magma Grunt Ambush** at `(26, 23)` (Devon Researcher rewards `Great Ball`):
     - Team (5 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit`, `Ember`), `Bagon` (Lv 8, `Headbutt`), `Koffing` (Lv 8, `Protect`, `Thief`), `Duskull` (Lv 8, `Protect`, `Shadow Sneak`, holds `Leftovers`).
-  - **Grass-Free Path to Northern Exit**: From `(26, 23)`, walk `Up x7` to `(26, 16)`, `Left x13` to `(13, 16)`, `Down x3` to `(13, 19)`, `Left x8` to `(5, 19)`, `Up x6` along `x=5` to `(5, 13)`, `Left` to `(4, 13)`, `Up x5` along `x=4` to `(4, 8)`, `Right x6` to `(10, 8)`, `Down` to `(10, 9)` (below the signpost at `(11, 8)`), `Right x4` to `(14, 9)`, and `Up x5` through the northern exit gate at `(14..15, 5)` onto Route 104 North `(10, 29)`.
+  - **Grass-Free Path to Northern Exit**: From `(26, 23)`, walk `Up x7` to `(26, 16)`, `Left x13` to `(13, 16)`, `Down x3` to `(13, 19)`, `Left x8` to `(5, 19)`, `Up x6` along `x=5` to `(5, 13)`, `Left` to `(4, 13)`, `Up x5` along `x=4` to `(4, 8)`, `Right x6` to `(10, 8)`, `Down` to `(10, 9)` (below signpost at `(11, 8)`), `Right x4` to `(14, 9)`, and `Up x5` through the northern exit gate at `(14..15, 5)` onto Route 104 North `(10, 29)`.
   - **Remaining Forest Items**: Eastern path (`x=32..37`, including item ball at `(32, 29)`) is blocked by two Cut trees at `(18, 10..11)` near the northern exit; return after obtaining `HM01 Cut` in Rustboro City.
 
 ## Route 104 (North)
@@ -74,15 +73,15 @@
   - **Flower Shop Door**: Located at `(5, 18)`, blocked by a boy standing at `(5, 19)`.
   - **TM09 Giver**: Boy at `(5, 19)` directly in front of the Flower Shop door gives `TM09` (`Bullet Seed`).
   - **Loamy Soil & Berry Trees**: Vertical 4-tile loamy soil column at `x=3, y=22..25` (stand at `x=4` facing `Left`):
-    - `(3, 22)` & `(3, 24)`: Empty loamy soil (planted `Oran Berry` on Turn 418).
-    - `(3, 23)` & `(3, 25)`: `Oran Berry` (`(3, 23)`) and `Cheri Berry` (`(3, 25)`) trees harvested on Turn 419.
+    - `(3, 23)`: `Oran Berry` tree.
+    - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
 - **Trainers & Bridge Path**:
-  - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`) — **DEFEATED**:
+  - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`):
     - Team (3 Pokemon): `Snubbull` (Lv 8, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Rock Smash`, `Ember`, holds `Berry Juice`), `Electrike` (Lv 8, `ThunderShock`, holds `Oran Berry`).
-  - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)` (return after obtaining `HM01 Cut` in Rustboro City).
-  - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching the bridge entrance at `(30..31, 22)`) — **DEFEATED**:
+  - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
+  - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Ember`, `Disable`).
-  - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on the horizontal bridge section) — **DEFEATED**:
+  - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on horizontal bridge section):
     - Team (2 Pokemon): `Smeargle` (M, Lv 8, `Follow Me`) & `Smeargle` (M, Lv 8, `Focus Punch`).
-  - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at the northern exit of the bridge):
-    - Team (6 Pokemon): Lead `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`), plus 5 remaining Pokemon. (Note: AI spams `Curse` + `Rest`/`Snore` until `Quick Attack` enters KO range or boosts are maxed; must not let `Eevee` stack `Curse` boosts!)
+  - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge):
+    - Team (6 Pokemon): Lead `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`), plus 5 remaining Pokemon.
