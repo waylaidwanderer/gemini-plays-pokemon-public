@@ -23,7 +23,7 @@
 - **Trainers**:
   - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`])
   - **Bug Catcher Rick** `(25, 15)` facing `Up` (4 Pokemon: `Caterpie` Lv 5, `Wurmple` Lv 5, `Kakuna` Lv 5, `Cascoon` Lv 5 [`Iron Defense`, holds `Berry Juice`])
-  - **Lass Tiana** `(15, 5)` facing `Down` (3 Pokemon: `Igglybuff` Lv 6 [`Present`], `Sunkern` Lv 6 [`Protect`, `Leech Seed`], `Togepi` Lv 5 [`Metronome`])
+  - **Lass Tiana** `(15, 5)` facing `Down` (3 Pokemon: `Igglybuff` Lv 6 [`Present`], `Sunkern` Lv 6 [`Protect`, `Leech Seed`], `Togepi` Lv 5 [`Softboiled`, `Metronome`])
   - **Bug Catcher Allen** `(13, 2)`
   - **Trainer in tall grass** `(18, 12)` (avoidable via northern berry patch path).
 - **Northern Berry Patch & Grass-Free Routes**:
