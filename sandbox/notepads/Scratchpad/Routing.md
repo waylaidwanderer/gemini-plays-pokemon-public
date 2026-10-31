@@ -22,4 +22,4 @@
   1. **Youngster Calvin** at `(33, 14)` facing `Down` (approached from `(36, 11) -> (36, 14) -> (34, 14)`):
      - Team (3 Pokemon): `Sentret` (Lv 6, `Quick Attack`), `Zigzagoon` (Lv 6, `Sand-Attack`), `Poochyena` (Lv 6, `Super Fang`).
   2. **Bug Catcher Rick** at `(25, 15)` (rotates/spots `(25, 14)`):
-     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), + 2 more Bug-types.
+     - Team (4 Pokemon): `Caterpie` (Lv 5), `Wurmple` (Lv 5), `Cascoon` (Lv 5, `Poison Sting`, `Iron Defense`, holds `Berry Juice`), + 1 more Bug-type.
