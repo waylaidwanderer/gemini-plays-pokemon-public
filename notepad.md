@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 8) | TRITON | Active | Bashful, Torrent; learned `Bubble` at Lv 6 |
+| Starter (Route 101) | Mudkip (M, Lv 7) | TRITON | Active | Bashful, Torrent; learned `Bubble` (Lv 6), `Mud Sport` (Lv 7) |
 
 <hr>
 
