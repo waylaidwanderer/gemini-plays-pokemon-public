@@ -50,9 +50,9 @@
 
 ## Active Party
 1. **OPHION** — Ekans ♂ (Lv. 14, `18/34 HP` [`BRN`], Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
-2. **BELLONA** — Cubone ♀ (Lv. 13, `23/34 HP` [`PAR`], Ground, Held: `None` [wild `Thick Club` is a random held item roll, not 100%], Stats at Lv. 13: `36 HP / 22 Atk / 30 Def / 16 SpA / 18 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
-3. **ARES** — Nidoran♂ (Lv. 13, `35/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-4. **MUDKIP** — Mudkip ♂ (Lv. 12 -> 13, `34/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+2. **BELLONA** — Cubone ♀ (Lv. 12, `23/34 HP` [`PAR`], Ground, Held: `None` [wild `Thick Club` is a random held item roll, not 100%], Stats at Lv. 12: `34 HP / 20 Atk / 28 Def / 15 SpA / 16 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Left, Down`], `-`) — Caught on Route 104 South (`(24, 61)`).
+3. **ARES** — Nidoran♂ (Lv. 13, `26/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+4. **MUDKIP** — Mudkip ♂ (Lv. 13, `21/36 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 29 Atk / 18 Def / 20 SpA / 20 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*

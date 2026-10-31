@@ -4,7 +4,7 @@
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | MUDKIP | 12 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
+| Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | OPHION | 14 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
 | Route 102 | Nidoran♂ | ARES | 13 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
 | Route 104 (South) | Cubone ♀ | BELLONA | 12 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, no held item [`Thick Club` is a 5% wild roll], `Bone Club`, `Rock Throw`, `Secret Power`) |
@@ -66,9 +66,9 @@
 
 ## Active Party
 1. **OPHION** — Ekans ♂ (Lv. 14, `18/34 HP` [`BRN`], Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
-2. **BELLONA** — Cubone ♀ (Lv. 13, `23/34 HP` [`PAR`], Ground, Held: `None` [wild `Thick Club` is a random held item roll, not 100%], Stats at Lv. 13: `36 HP / 22 Atk / 30 Def / 16 SpA / 18 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
-3. **ARES** — Nidoran♂ (Lv. 13, `35/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-4. **MUDKIP** — Mudkip ♂ (Lv. 12 -> 13, `34/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+2. **BELLONA** — Cubone ♀ (Lv. 12, `23/34 HP` [`PAR`], Ground, Held: `None` [wild `Thick Club` is a random held item roll, not 100%], Stats at Lv. 12: `34 HP / 20 Atk / 28 Def / 15 SpA / 16 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Left, Down`], `-`) — Caught on Route 104 South (`(24, 61)`).
+3. **ARES** — Nidoran♂ (Lv. 13, `26/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+4. **MUDKIP** — Mudkip ♂ (Lv. 13, `21/36 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 29 Atk / 18 Def / 20 SpA / 20 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
