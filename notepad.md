@@ -23,7 +23,7 @@
 - **Attempt**: #1
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 13; Text Speed `Fast`)
-- **Unlimited Items**: Rare Candies & any acquired Berries (`Oran Berry` +10 HP, `Pecha Berry` cures Poison — picked at `(24..25, 2)` on Route 102) auto-refill to 99 in the overworld.
+- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any acquired Berries (`Oran Berry` +10 HP, `Pecha Berry` cures Poison — picked at `(24..25, 2)` on Route 102) auto-refill to 99 in the overworld. **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 - **Key Items Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (from Fisherman on Route 103 at `(20, 12)`).
 
 ## Level Cap Schedule
@@ -57,7 +57,7 @@
   - Switching through an empty pocket (`TMs & HMs` or `BERRIES`) clamps the item cursor onto `>CLOSE BAG`; since `Up` never wraps past index 0 inside a Bag pocket or Poke Mart list, pressing `Up` multiple times deterministically clamps to index 0 (and `Up, Up, Down` deterministically selects index 1).
   - Giving a held item (`GIVE`) to a Pokemon already holding an item takes **4 `A` presses** on the Party screen: `1st A` selects the slot (`"[POKEMON] is already holding one [ITEM].♥"`), `2nd A` advances to `"Would you like to switch the two items? [>YES / NO]"`, `3rd A` confirms `YES` (`"The [OLD ITEM] was taken and replaced with the [NEW ITEM]."`), and `4th A` dismisses the text and fades back to the Bag (`~1200ms`).
   - In `KEY ITEMS`, the `USE / REGISTER / CANCEL` submenu is arranged in 2 columns (`>USE` on left, `REGISTER` on right); press `A, Right, A` to register a Key Item to `Select`.
-  - In `BERRIES`, berries are sorted numerically by Berry ID (`index 0: No03 PECHA BERRY`, `index 1: No07 ORAN BERRY`), so clamping with `Up, Up` selects `PECHA BERRY` and `Up, Up, Down` selects `ORAN BERRY`. The submenu is a 2-column grid (`Row 0: >CHECK TAG`; `Row 1: USE | GIVE`; `Row 2: TOSS | CANCEL`); press `A, Down, A` to `USE` a Berry or `A, Down, Right, A` to `GIVE` a Berry.
+  - In `BERRIES`, berries are sorted numerically by Berry ID (`index 0: No03 PECHA BERRY`, `index 1: No07 ORAN BERRY`), so clamping with `Up, Up` selects `PECHA BERRY` and `Up, Up, Down` selects `ORAN BERRY`. In the overworld, the submenu is a 2-column grid (`Row 0: >CHECK TAG`; `Row 1: USE | GIVE`; `Row 2: TOSS | CANCEL`); press `A, Down, A` to `USE` a Berry or `A, Down, Right, A` to `GIVE` a Berry. **In battle, `USE` is disabled on Berries (only `>CANCEL` appears).**
 - **Rare Candy Chaining & Move Replacement**:
   - From the Bag (`>RARE CANDY` at index 0), pressing `A` repeatedly (`sleep 900`) automatically chains Rare Candies onto Party Slot 1 as long as that Pokemon has `< 4` moves.
   - When replacing a move on a Pokemon with 4 moves, selecting the move to forget triggers **4 sequential text boxes**: `"1, 2, and... ... ... Poof!♥"` (`~2500ms`) -> `"[POKEMON] forgot how to use [MOVE].♥"` (`~1500ms`) -> `"And...♥"` (`~1200ms`) -> `"[POKEMON] learned [NEW MOVE]!"` (`~3000ms` fanfare + `A`/`B` to return to Bag).
