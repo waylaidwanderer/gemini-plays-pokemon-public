@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 13 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ekans ♂ | OPHION | 14 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
-| Route 102 | Nidoran♂ | ARES | 13 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
+| Route 102 | Nidoran♂ | ARES | 14 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Poison Sting`, `Peck`, `Horn Attack`, `Double Kick`) |
 | Route 104 (South) | Cubone ♀ | BELLONA | 13 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, no held item [`Thick Club` is a 5% wild roll], `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) |
 | Petalburg Woods | Volbeat ♂ | HELIOS | 13 | Deceased | Caught at `(23, 35)` in Petalburg Woods (Turn 6235); died Turn 6284 to Team Magma Grunt's `Lv. 9 Houndour` (`Ember` after rolling 25% full paralysis) |
 
@@ -65,10 +65,10 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **MUDKIP** — Mudkip ♂ (Lv. 13, `36/36 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 29 Atk / 18 Def / 20 SpA / 20 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-2. **BELLONA** — Cubone ♀ (Lv. 13, `36/36 HP`, Ground, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 19 Atk / 27 Def / 18 SpA / 18 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
-3. **ARES** — Nidoran♂ (Lv. 13, `36/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-4. **OPHION** — Ekans ♂ (Lv. 14, `34/34 HP`, Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
+1. **OPHION** — Ekans ♂ (Lv. 14, `34/34 HP`, Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
+2. **ARES** — Nidoran♂ (Lv. 14, `38/38 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 14: `38 HP / 25 Atk / 19 Def / 19 SpA / 17 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
+3. **MUDKIP** — Mudkip ♂ (Lv. 13, `36/36 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 29 Atk / 18 Def / 20 SpA / 20 SpD / 18 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
+4. **BELLONA** — Cubone ♀ (Lv. 13, `36/36 HP`, Ground, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 19 Atk / 27 Def / 18 SpA / 18 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
 - **HELIOS** — Volbeat ♂ (Lv. 13, Deceased, stored in `BOX 1`)
