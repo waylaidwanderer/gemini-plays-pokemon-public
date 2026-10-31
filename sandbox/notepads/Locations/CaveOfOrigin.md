@@ -36,3 +36,4 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Western Slope & Canyon (cols 5..7, rows 6..12): Unobstructed dirt corridor bypassing the central rock formation on the west, connecting the upper highway down to the southern floor.
 - Southern Terraces: South-facing jump ledges descending from the upper terrace into the southern floor.
 - Southern Floor (rows 12..14+): Cavern floor wrapping east beneath the central rock plateau toward the ladder down to B4F.
+- Ladder to B4F: Located at (11, 16..17) along the southern corridor beneath the central rock plateau.
