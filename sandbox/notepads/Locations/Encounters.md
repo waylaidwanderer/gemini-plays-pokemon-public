@@ -7,7 +7,7 @@
 | Route 101 | Poochyena (F, Lv 14) | AHECATE | Active | Quirky, `Run Away`; Lv 14 stats: 34/21/17/14/15/19; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 14) | HERMES | Active | Lv 14 stats: 35/21/18/17/20/37; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
-| Petalburg City | TBD | TBD | Pending | Pond at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` with Old Rod (observed: `Azurill`) |
+| Petalburg City | Azurill (F, Lv 5) | THETIS | Active | Caught at `(12, 23)` pond with Old Rod on Turn 609; knows `Water Gun`, `Charm` |
 | Route 104 | TBD | TBD | Pending | Tall grass at `(22..24, 56..61)` (observed: `Jigglypuff`) |
 | Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
 
