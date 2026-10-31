@@ -3558,6 +3558,7 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 
 ## Discovered Topography & Navigation
 - Eastern Ocean Entrance: Entered Route 126 from Route 127 at (79, 45) along row 45 facing West. Open deep blue ocean extends to the west toward the central caldera.
+- Sootopolis Caldera (Eastern Flank): Discovered at cols 60..61 along row 45. White rock crater walls rise out of the ocean. Swimmer ♀ sighted at (62..63, 42). Brown/white sea rock at (61..62, 49..51). Column 64 provides a clear southbound channel toward the southern caldera rim.
 
 <hr>
 
