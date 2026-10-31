@@ -10,7 +10,7 @@
 | Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Held: `Oran Berry`; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 |
 | Route 102 | Meowth (M, Lv 10) | MIDAS | Active | Naughty, Limber; Held: `Oran Berry`; Moves: `Pay Day`, `Faint Attack`; Stats: 28/16/12/13/11/23 |
 | Petalburg City | Azurill (F, Lv 10) | CALYPSO | Active | Bashful, Huge Power; Held: `Oran Berry`; Moves: `Water Gun`, `Charm`, `Secret Power`, `BubbleBeam`; Stats: 32/9/14/9/14/10 |
-| Route 104 | Jigglypuff (F, Lv 7) | LYRA | Active | Caught in Premier Ball at `(23, 60)`; checking Summary |
+| Route 104 | Jigglypuff (F, Lv 7) | LYRA | Active | Quiet, Cute Charm; Moves: `Sing`, `Pound`; Stats: 35/12/9/12/10/8 (leveling to Lv 10) |
 
 <hr>
 
