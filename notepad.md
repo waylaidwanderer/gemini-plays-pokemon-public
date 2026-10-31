@@ -3827,7 +3827,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Eastern Branch: Row 7 (cols 13..18) leads past Grunt 2 (15, 11) into the Northeast Corridor and second doorway.
 
 ## Wild Encounters - Seafloor Cavern
-- Zubat (Lv 28-34, Poison/Flying) - Encountered across cavern rooms (turns 17170, 17186, 17214, 17250, 17265, 17277, 17327, 17470 [Lv 34], 17526 [Lv 29], 17533 [Lv 32], 17543 [Lv 31]); fled cleanly via battle_agent or defeated.
+- Zubat (Lv 28-34, Poison/Flying) - Encountered across cavern rooms (turns 17170, 17186, 17214, 17250, 17265, 17277, 17327, 17470 [Lv 34], 17526 [Lv 29], 17533 [Lv 32], 17543 [Lv 31], 17549 [Lv 28]); fled cleanly via battle_agent or defeated.
 
 ## Trainers - Seafloor Cavern Room 2
 - Team Aqua Grunt 1: DEFEATED on Turn 17192 (Poochyena Lv 36 ♂ OHKOed by Leaf Blade, prize ¥720). Stationed at (8, 6).
