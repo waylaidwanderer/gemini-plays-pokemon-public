@@ -117,3 +117,10 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Central avenue runs North along cols 6..7 past central rock ridge.
   - Team Aqua Grunts stationed at row 2/3: Male Grunt at col 5 facing East, Female Grunt at col 9 facing West (Double Battle zone at row 2/3).
   - Eastern sector features a multi-boulder Strength formation (cols 10..12, rows 4..9).
+## Boss Encounter - Aqua Admin Shelly & Grunt (Room 5)
+- Defeated Aqua Admin Shelly & Team Aqua Grunt in Double Battle at (6, 5) on Turn 17384-17431!
+  - Shelly's Team: Sharpedo Lv 37, Mightyena Lv 37.
+  - Grunt's Team: Mightyena Lv 35, Golbat Lv 35.
+  - Prize: ¥2,180.
+  - Sage (Lv 56) swept with Leaf Blade and Rock Tomb. Guava leveled up to Lv 29.
+- Progression: The northern cave doorway at (6, 1) is now fully unblocked!
