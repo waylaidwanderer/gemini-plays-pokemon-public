@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Active | Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); Stats: 25/16/13/12/12/10 |
+| Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 (deposit in PC next) |
 | Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Caught at `(17, 13)` pond with Old Rod on Turn 567; knows `Charm`, `Secret Power` |
 | Route 101 | Poochyena (F, Lv 2) | AHECATE | Active | Caught at `(5, 15)` on Turn 546 |
 | Route 103 | Spearow (F, Lv 4) | NIKE | Active | Caught at `(15, 11)` on Turn 554; knows `Pursuit` |
