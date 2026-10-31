@@ -42,7 +42,7 @@
 
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
-- **Tall Grass Patch**: Located at `(22..24, 56..61)`.
+- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7).
 - **Beach Staircase**: Located at `(28..29, 70)` (northern beach stairs at `(17..18, 55)`).
 - **Trainers & NPCs**:
   - **Friendly Boy** at `(28, 74)` on the shoreline.
