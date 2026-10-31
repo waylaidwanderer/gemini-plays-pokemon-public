@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 11 | Active | Starter (`Met in ROUTE 101`, Turn 6398; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
 | Route 103 | Ledyba ♂ | AOBERON | 4 | Active | Caught at `(11, 14)` on Route 103 (Turn 6409; Bug/Flying, `Silver Wind`, `Supersonic`, `Comet Punch`) |
+| Route 102 | Meowth ♀ | BASTET | 11 | Active | Caught at `(38, 6)` on Route 102 (Turn 6414; Normal, `Limber`, `Pay Day`, `Faint Attack`) |
 
 <hr>
 
@@ -64,6 +65,7 @@
 ## Active Party
 1. **MUDKIP** — Mudkip ♂ (Lv. 11, Water, `Torrent`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 2. **AOBERON** — Ledyba ♂ (Lv. 4, Bug/Flying, Moves: `Silver Wind`, `Supersonic`, `Comet Punch`) — Caught on Route 103 (`(11, 14)`).
+3. **BASTET** — Meowth ♀ (Lv. 11, Normal, `Limber`, Moves: `Pay Day` [Slot 1: `Up, Left`], `Faint Attack` [Slot 2: `Up, Right`]) — Caught on Route 102 (`(38, 6)`).
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
 - *(None)*
