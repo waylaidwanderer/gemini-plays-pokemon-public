@@ -378,3 +378,9 @@
     1. **Always Press `Left` First on the `BAG -> USE` Party Screen (`Anchor on Slot 1`):** Never navigate to `Slot 2` (`Right`) or `Slot 3` (`Right, Down`) without pressing `Left` first to anchor the Party cursor on `Slot 1`.
     2. **Keep a Grass-Resistant Teammate (`Poison` / `Flying` / `Bug` / `Grass`) Alive Entering Petalburg Woods:** Never try to weaken a wild `Lv. 8 Oddish` (`Mega Drain` deals `14 damage` normal / `28` crit to `24 SpD` `Mudkip`) using 2x Grass-weak Water/Ground types.
     3. **Never Rare-Candy Any Pokémon Above Level 12 Before Petalburg Woods, or Above Level 14 Before Rustboro City:** Keep all 6 catches alive and at `Lv. 13–14` through Petalburg Woods and Route 104 North so we enter Rustboro Gym with 6 Pokémon and `9,000+ EXP` of cap room before Level 17.
+
+---
+
+## Attempt #24 Casualties (Starting Turn 6092)
+- **HELIOS** (Volbeat ♂, Lv. 13, `42 HP`, Bug, Quiet, `Swarm`, `Quick Attack`, `Confuse Ray`, `Silver Wind`, `Moonlight`) — Died on Turn 6284 in Petalburg Woods `(27, 23)` to Team Magma Grunt's `Lv. 9 Houndour` (`Ember` `15 damage` from `15/42 HP` after `HELIOS` rolled 25% full paralysis on `+1 priority Quick Attack` against `~18% red HP` `Houndour`).
+  - **Root Cause & Tactical Lesson:** In Generation 3 (`CalculateBaseDamage`), the `+2` constant is added **BEFORE** STAB (`* 1.5`) and Type Effectiveness (`* 2.0`), so on a 2x Super Effective STAB move (`1.5 * 2.0 = 3.0x`), the `+2` constant alone contributes `+6 damage` (`(base + 2) * 1.5 * 2.0`), making `Lv. 9 Houndour`'s `Ember` deal `15 damage` to `30 SpD` (which is why `Houndour` clicked `Super Fang` for `19` and `15` damage at `39/42` and `30/42 HP`, and then switched to `Ember` for `15 damage` once `HELIOS` dropped to `15/42 HP`). Never leave a paralyzed Pokémon (`25%` full paralysis) in at `<=` enemy attack damage (`15/42 HP`) even with a `+1 priority` move when `Moonlight` or a full-HP resistant teammate (`MUDKIP`) is available.

@@ -5,10 +5,10 @@
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
 | Route 101 | Mudkip ♂ | MUDKIP | 12 | Active | Starter (`Met in ROUTE 101`, Turn 6117; `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) |
-| Route 103 | Ekans ♂ | OPHION | 13 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
+| Route 103 | Ekans ♂ | OPHION | 14 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
 | Route 102 | Nidoran♂ | ARES | 13 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Peck`, `Poison Sting`, `Horn Attack`, `Double Kick`) |
 | Route 104 (South) | Cubone ♀ | BELLONA | 12 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, no held item [`Thick Club` is a 5% wild roll], `Bone Club`, `Rock Throw`, `Secret Power`) |
-| Petalburg Woods | Volbeat ♂ | HELIOS | 13 | Active | Caught at `(23, 35)` in Petalburg Woods (Turn 6235; Bug, `Swarm`, Quiet, `Quick Attack`, `Confuse Ray`, `Silver Wind`, `Moonlight`) |
+| Petalburg Woods | Volbeat ♂ | HELIOS | 13 | Deceased | Caught at `(23, 35)` in Petalburg Woods (Turn 6235); died Turn 6284 to Team Magma Grunt's `Lv. 9 Houndour` (`Ember` after rolling 25% full paralysis) |
 
 <hr>
 
@@ -65,11 +65,10 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Gun`/`Surf`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **OPHION** — Ekans ♂ (Lv. 13, `24/32 HP` [`BRN`], Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 13: `32 HP / 22 Atk / 17 Def / 19 SpA / 21 SpD / 24 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
-2. **BELLONA** — Cubone ♀ (Lv. 12, `23/34 HP` [`PAR`], Ground, Held: `None` [wild `Thick Club` is a random held item roll, not 100%], Stats at Lv. 12: `34 HP / 20 Atk / 28 Def / 15 SpA / 16 SpD / 15 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Left, Down`], `-`) — Caught on Route 104 South (`(24, 61)`).
+1. **OPHION** — Ekans ♂ (Lv. 14, `18/34 HP` [`BRN`], Poison, `Intimidate`, `+Speed` nature, Held: `Oran Berry`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
+2. **BELLONA** — Cubone ♀ (Lv. 13, `23/34 HP` [`PAR`], Ground, Held: `None` [wild `Thick Club` is a random held item roll, not 100%], Stats at Lv. 13: `36 HP / 22 Atk / 30 Def / 16 SpA / 18 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
 3. **ARES** — Nidoran♂ (Lv. 13, `35/36 HP`, Poison, `Poison Point`, Held: `Oran Berry`, Stats at Lv. 13: `36 HP / 23 Atk / 18 Def / 18 SpA / 16 SpD / 18 Spd`, Moves: `Peck` [Slot 1: `Up, Left`], `Poison Sting` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-4. **MUDKIP** — Mudkip ♂ (Lv. 12, `34/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
-5. **HELIOS** — Volbeat ♂ (Lv. 13, `39/42 HP` [`PAR`], Bug, `Swarm`, Quiet [`+SpA, -Spd`], Held: `Oran Berry`, Stats at Lv. 13: `42 HP / 24 Atk / 27 Def / 20 SpA / 30 SpD / 26 Spd`, Moves: `Quick Attack` [Slot 1: `Up, Left`], `Confuse Ray` [Slot 2: `Up, Right`], `Silver Wind` [Slot 3: `Down, Left`, 60 BP STAB Bug], `Moonlight` [Slot 4: `Down, Right`, 50% Max HP heal]) — Caught in Petalburg Woods (`(23, 35)`).
+4. **MUDKIP** — Mudkip ♂ (Lv. 12 -> 13, `34/34 HP`, Water, `Torrent`, Held: `Oran Berry`, Stats at Lv. 12: `34 HP / 27 Atk / 18 Def / 19 SpA / 19 SpD / 17 Spd`, Moves: `Tackle` [Slot 1: `Up, Left`], `Bubble` [Slot 2: `Up, Right`], `Mud Sport` [Slot 3: `Down, Left`], `Water Gun` [Slot 4: `Down, Right`]) — Starter (`Met in ROUTE 101`).
 
 ## Boxed (Retired Until Cap Advances)
 - *(None)*
@@ -464,6 +463,12 @@
     1. **Always Press `Left` First on the `BAG -> USE` Party Screen (`Anchor on Slot 1`):** Never navigate to `Slot 2` (`Right`) or `Slot 3` (`Right, Down`) without pressing `Left` first to anchor the Party cursor on `Slot 1`.
     2. **Keep a Grass-Resistant Teammate (`Poison` / `Flying` / `Bug` / `Grass`) Alive Entering Petalburg Woods:** Never try to weaken a wild `Lv. 8 Oddish` (`Mega Drain` deals `14 damage` normal / `28` crit to `24 SpD` `Mudkip`) using 2x Grass-weak Water/Ground types.
     3. **Never Rare-Candy Any Pokémon Above Level 12 Before Petalburg Woods, or Above Level 14 Before Rustboro City:** Keep all 6 catches alive and at `Lv. 13–14` through Petalburg Woods and Route 104 North so we enter Rustboro Gym with 6 Pokémon and `9,000+ EXP` of cap room before Level 17.
+
+---
+
+## Attempt #24 Casualties (Starting Turn 6092)
+- **HELIOS** (Volbeat ♂, Lv. 13, `42 HP`, Bug, Quiet, `Swarm`, `Quick Attack`, `Confuse Ray`, `Silver Wind`, `Moonlight`) — Died on Turn 6284 in Petalburg Woods `(27, 23)` to Team Magma Grunt's `Lv. 9 Houndour` (`Ember` `15 damage` from `15/42 HP` after `HELIOS` rolled 25% full paralysis on `+1 priority Quick Attack` against `~18% red HP` `Houndour`).
+  - **Root Cause & Tactical Lesson:** In Generation 3 (`CalculateBaseDamage`), the `+2` constant is added **BEFORE** STAB (`* 1.5`) and Type Effectiveness (`* 2.0`), so on a 2x Super Effective STAB move (`1.5 * 2.0 = 3.0x`), the `+2` constant alone contributes `+6 damage` (`(base + 2) * 1.5 * 2.0`), making `Lv. 9 Houndour`'s `Ember` deal `15 damage` to `30 SpD` (which is why `Houndour` clicked `Super Fang` for `19` and `15` damage at `39/42` and `30/42 HP`, and then switched to `Ember` for `15 damage` once `HELIOS` dropped to `15/42 HP`). Never leave a paralyzed Pokémon (`25%` full paralysis) in at `<=` enemy attack damage (`15/42 HP`) even with a `+1 priority` move when `Moonlight` or a full-HP resistant teammate (`MUDKIP`) is available.
 
 <hr>
 
