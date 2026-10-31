@@ -3571,6 +3571,7 @@ A large ocean route in southeastern Hoenn dominated by a massive white volcanic 
 - Seabed features open sandy corridors and kelp/seaweed patches.
 - Clean sandy corridor extends North along col 31 toward the northern submerged rock wall and cave entrance into Sootopolis City.
 - (31, 64): Submerged rock wall blocks northward advance in this alcove. Sandy corridor leads West along row 64 into the western basin (cols 25..30).
+- (25, 64): A 3-tile wide sandy highway (cols 24..26) extends North between kelp patches toward row 56 and the submerged caldera wall.
 
 <hr>
 
