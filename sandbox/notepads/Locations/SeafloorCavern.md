@@ -67,17 +67,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Water Currents: Subterranean water rapids begin around row 16, flowing through the central water basin.
 - Dock & Water Boundary: Sandy dock extends north to (11, 20). Deep water rapids begin at (11, 19) with a vertical north-flowing current.
 - Calm Water Pool: Tile (11, 19) directly in front of the dock is calm water where Surf is mounted. Testing North current at (11, 18).
-- Current Stream 1: Stepping Up from (11, 19) into (11, 18) carries May North and East to calm tile at (14, 16).
-- Column 14 North Current: Directly North of (14, 16) at (14, 15) is a vertical current flowing North toward the upper basin.
-- Current Stream 2: Stepping East from (14, 16) into (15, 16) carries May East to col 19 and North along the eastern wall to calm tile at (19, 11) facing North.
-- Cave Doorway Sighted: An arched cave doorway is located to the northwest on a rock island around cols 14..15, rows 4..6.
-- Current Stream 3: Stepping North from (19, 11) into (19, 10) carries May West across the room to calm water tile at (8, 12) facing North.
-- Northeast Cave Doorway: Sighted at cols 13..15, rows 2..3 in the northern cliff wall.
-- Calm Tile at (8, 12): Arrived via Current Stream 3. Tile (8, 11) directly north is a south-flowing current. Testing East current at (9, 12).
-
-
-
-- Room 4 Loop Discovered: The rock island cave doorway at the end of Current Stream 4 exits back into Room 1 at (10, 1)! This is the return loop chute from the current maze.
+- Room 4 Traversal: Superseded by verified Northwest Doorway Route below.
 - Column 12 Boulder Pushed to T-junction: Boulder pushed North from (12, 11) to (12, 7), where it jams against the northern cliff at (12, 6) and blocks Row 7. Tile (13, 8) is a solid cliff wall between Column 12 and Column 13.
 - Row 18 South Boundary: (10, 18) is a solid cliff edge (cannot be walked south).
 - Room 2 Northwest Dead-End (Verified Turn 17289): Tile (4, 9) is a solid cliff wall. Smashed rock at (5, 10) and boulder at (5, 12) only connect Column 4 into Row 11 (cols 5..12), not to the northern terrace.
@@ -127,3 +117,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Discovered Topography & Navigation - Room 8 (Final Boulder Puzzle Chamber)
 - Entrance: Entered via Room 5 northern doorway at (8, 1). Player spawns at (5, 12) facing North.
 - Layout: Flanked by vertical rock columns. Ahead is an entrance corridor leading to a massive matrix of Strength boulders guarding the northern doorway to Kyogre's shrine!
+
+## Room 8 Boulder Puzzle Mechanics & Deadlock Caution
+- CRITICAL DEADLOCK: Pushing boulder (5, 5) directly North all the way to (5, 2) blocks the northern doorway at (5, 1) and cannot be pushed further or flanked. A room reset is required if this occurs.
+- Reset Procedure: Walk south along the bypass around row 7 boulders to (5, 12), step south into Room 5, and re-enter Room 8 to reset all boulders to pristine state.

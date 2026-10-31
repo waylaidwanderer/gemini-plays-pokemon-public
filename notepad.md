@@ -3850,17 +3850,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 - Water Currents: Subterranean water rapids begin around row 16, flowing through the central water basin.
 - Dock & Water Boundary: Sandy dock extends north to (11, 20). Deep water rapids begin at (11, 19) with a vertical north-flowing current.
 - Calm Water Pool: Tile (11, 19) directly in front of the dock is calm water where Surf is mounted. Testing North current at (11, 18).
-- Current Stream 1: Stepping Up from (11, 19) into (11, 18) carries May North and East to calm tile at (14, 16).
-- Column 14 North Current: Directly North of (14, 16) at (14, 15) is a vertical current flowing North toward the upper basin.
-- Current Stream 2: Stepping East from (14, 16) into (15, 16) carries May East to col 19 and North along the eastern wall to calm tile at (19, 11) facing North.
-- Cave Doorway Sighted: An arched cave doorway is located to the northwest on a rock island around cols 14..15, rows 4..6.
-- Current Stream 3: Stepping North from (19, 11) into (19, 10) carries May West across the room to calm water tile at (8, 12) facing North.
-- Northeast Cave Doorway: Sighted at cols 13..15, rows 2..3 in the northern cliff wall.
-- Calm Tile at (8, 12): Arrived via Current Stream 3. Tile (8, 11) directly north is a south-flowing current. Testing East current at (9, 12).
-
-
-
-- Room 4 Loop Discovered: The rock island cave doorway at the end of Current Stream 4 exits back into Room 1 at (10, 1)! This is the return loop chute from the current maze.
+- Room 4 Traversal: Superseded by verified Northwest Doorway Route below.
 - Column 12 Boulder Pushed to T-junction: Boulder pushed North from (12, 11) to (12, 7), where it jams against the northern cliff at (12, 6) and blocks Row 7. Tile (13, 8) is a solid cliff wall between Column 12 and Column 13.
 - Row 18 South Boundary: (10, 18) is a solid cliff edge (cannot be walked south).
 - Room 2 Northwest Dead-End (Verified Turn 17289): Tile (4, 9) is a solid cliff wall. Smashed rock at (5, 10) and boulder at (5, 12) only connect Column 4 into Row 11 (cols 5..12), not to the northern terrace.
@@ -3910,6 +3900,10 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
 ## Discovered Topography & Navigation - Room 8 (Final Boulder Puzzle Chamber)
 - Entrance: Entered via Room 5 northern doorway at (8, 1). Player spawns at (5, 12) facing North.
 - Layout: Flanked by vertical rock columns. Ahead is an entrance corridor leading to a massive matrix of Strength boulders guarding the northern doorway to Kyogre's shrine!
+
+## Room 8 Boulder Puzzle Mechanics & Deadlock Caution
+- CRITICAL DEADLOCK: Pushing boulder (5, 5) directly North all the way to (5, 2) blocks the northern doorway at (5, 1) and cannot be pushed further or flanked. A room reset is required if this occurs.
+- Reset Procedure: Walk south along the bypass around row 7 boulders to (5, 12), step south into Room 5, and re-enter Room 8 to reset all boulders to pristine state.
 
 
 <hr>
@@ -4138,12 +4132,12 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: MIND BADGE EARNED! Team Magma defeated at Space Center! HM08 DIVE OBTAINED and taught to Lilz! Sage Lv 56 fully healed! Ready to embark south onto Route 127/128 to locate Seafloor Cavern and stop Team Aqua.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). (Max Elixir used Turn 17028!) HP: 171/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 126, Def 92, Sp.Atk 138, Sp.Def 124, Speed 166. (Verified Turn 17034)
-2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 80/80. Max HP: 80. Status: OK. (Verified Turn 17018)
+1. SAGE (Sceptile ♂, Level 56) - Evolved on turn 5632! Level 56 on turn 16729! Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (14/15), Quick Attack (30/30). (Max Elixir used Turn 17028!) HP: 99/171. Max HP: 171. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 56: HP 171, Atk 126, Def 92, Sp.Atk 138, Sp.Def 124, Speed 166. (Verified Turn 17034)
+2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 0/80. Max HP: 80. Status: FNT (Fainted in Shelly battle; still usable for HMs). (Verified Turn 17018)
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
-6. GUAVA (Tropius ♀, Level 28) - Caught on Route 119 with Great Ball on turn 8460! Level 28 on turn 9322! Type: Grass/Flying. HP: 95/95. Max HP: 95. Status: OK. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15).
+6. GUAVA (Tropius ♀, Level 29) - Caught on Route 119 with Great Ball on turn 8460! Level 29 on turn 17431! Type: Grass/Flying. HP: 95/95. Max HP: 95. Status: OK. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15).
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def).
@@ -4178,7 +4172,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (all 5 purchased at Lilycove Dept Store used)
-- Money: ¥58,553
+- Money: ¥60,733 (Earned ¥2,180 from Aqua Admin Shelly on Turn 17431)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
