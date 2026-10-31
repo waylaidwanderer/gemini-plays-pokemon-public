@@ -52,7 +52,7 @@
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
-  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Metronome`], `Pichu` Lv 8 [`Thunder Wave`, `ThunderShock`], `Azurill` Lv 7 [`Uproar`]).
+  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Wish`, `Metronome`], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`], `Azurill` Lv 7 [`Uproar`]).
 
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.

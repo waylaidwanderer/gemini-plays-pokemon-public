@@ -9,7 +9,7 @@
 | Route 101 | Poochyena (F, Lv 14) | AHECATE | Active | Quirky, `Run Away`; Lv 14 stats: 34/21/17/14/15/19; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 14) | HERMES | Active | Lv 14 stats: 35/21/18/17/20/37; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
-| Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 14 stats: 40/12/18/10/18/11; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
+| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 15 stats: 42/13/19/11/19/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 14) | CALLIOPE | Active | Mild (+SpA), `Cute Charm`; Lv 14 stats: 59/21/9/22/12/11; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) (also observed on Route 104: `Cubone` Lv 7) |
 | Petalburg Woods | TBD | TBD | Pending | Tall grass at `(20..25, 32..35)` (observed: `Oddish`) |
 
@@ -161,7 +161,7 @@
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
-  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Metronome`], `Pichu` Lv 8 [`Thunder Wave`, `ThunderShock`], `Azurill` Lv 7 [`Uproar`]).
+  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Wish`, `Metronome`], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`], `Azurill` Lv 7 [`Uproar`]).
 
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
