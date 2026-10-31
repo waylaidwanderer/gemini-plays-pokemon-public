@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 10) | TRITON | Active | Bashful, Torrent; Moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`; Stats: 30/19/15/17/17/15 |
 | Littleroot Town | TBD | TBD | Deferred | Custom pond at `(17, 13..14)` — deferred to catch grass encounters first |
 | Route 101 | Butterfree (M, Lv 10) | MORPHEUS | Active | Naughty, Compound Eyes; Moves: `Tackle`, `String Shot`, `Harden`, `Confusion`; Stats: 35/18/15/24/19/19 |
-| Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 (**URGENT: Currently 3/31 HP & Poisoned at `(25, 14)` — heal with Potion before walking!**) |
+| Route 103 | Hoppip (M, Lv 11) | ZEPHYR | Active | Calm, Chlorophyll; Moves: `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`; Stats: 31/13/15/14/20/18 |
 | Route 102 | Meowth (M, Lv 10) | MIDAS | Active | Naughty, Limber; Moves: `Pay Day`, `Faint Attack`; Stats: 28/16/12/13/11/23 |
 
 <hr>
@@ -64,6 +64,10 @@
   - When the bite timer expires without `A`, the player sprite pulls the rod out of the water (~0.3s) while `"Oh! A bite!"` remains displayed before `"It got away..."` prints.
   - Active rod-in-water `"Oh! A bite!"` frames were observed at `+3.66s` into the post-`Select` sleep for 8 dots (Turn 84 `#46`) and `+4.29s` into the sleep for 9 dots (Turn 85 `#47`).
 - **Poke Mart Purchasing**: Poke Balls cost only `$10` each (`$100` for 10 + 1 bonus Premier Ball). After confirming a 10+ ball purchase, it takes **6 `B` presses** (`Thank you -> Premier Ball -> BUY list -> Anything else -> QUIT -> Please come again!`) to return to overworld control.
+- **Party Menu Fade-In & Navigation**:
+  - Opening the Party menu (`Start -> POKEMON` or `BAG -> USE`) takes ~800ms to fade in; directional inputs sent within 300ms of opening are ignored during the fade-in.
+  - `BAG -> USE` remembers the last active Party `slotId`, whereas `Start -> POKEMON` opens at `slotId = 0` (Slot 1).
+  - `Down` steps sequentially (`Slot 1 -> Slot 2 -> ... -> Last Slot -> CANCEL -> Slot 1`), `Up` steps in reverse (`Slot 1 -> CANCEL -> Last Slot`), and `Left` from any right-column slot (`Slots 2..6`) jumps directly to `Slot 1`.
 
 <hr>
 
