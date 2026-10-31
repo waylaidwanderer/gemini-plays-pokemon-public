@@ -38,6 +38,7 @@
 - **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
 - **Tall Grass Patch**: Located at `(22..24, 56..61)`; caught `Jigglypuff` (Lv 7, `LYRA`) at `(23, 60)`.
 - **Beach Staircase**: Located at `(28..29, 70)` (the northern ledges at `y=57..59` are one-way southbound).
-- **Trainers**:
-  - **Bird Keeper Billy** at `(23, 66)` facing `Left`:
+- **Trainers & NPCs**:
+  - **Friendly Boy** at `(28, 74)` on the shoreline (not a trainer).
+  - **Bird Keeper Billy** at `(23, 66)` facing `Left` — **DEFEATED**:
     - Team (3 Pokemon): `Pidgey` (Lv 7, holds `Berry Juice`), `Wingull` (Lv 7, `Supersonic`, `Water Gun`, `Gust`), `Taillow` (Lv 7).
