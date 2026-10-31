@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | TBD | TBD | Pending | |
+| Starter (Route 101) | Mudkip (Lv 5) | POSEIDON | Active | Starter from Prof. Birch |
 | Littleroot Town | TBD | TBD | Pending | Custom pond at `(18, 12..14)`; stand at `(17, 13)` facing `Right` with Old Rod |
 | Route 101 | TBD | TBD | Pending | Observed species: `Togepi`, `Caterpie`, `Igglybuff` |
 | Route 103 | TBD | TBD | Pending | Observed species: `Hoppip` |
