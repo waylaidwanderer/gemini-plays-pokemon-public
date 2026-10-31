@@ -33,4 +33,6 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 ## Discovered Topography & Navigation - B3F
 - Entrance Area: Spawns at (14, 5) facing South from B2F ladder/warp.
 - Upper Highway (rows 5..6, cols 7..14): Wide open dirt corridor leading west across the upper terrace.
-- Southern Terraces: South-facing jump ledges descending to the lower levels.
+- Western Slope & Canyon (cols 5..7, rows 6..12): Unobstructed dirt corridor bypassing the central rock formation on the west, connecting the upper highway down to the southern floor.
+- Southern Terraces: South-facing jump ledges descending from the upper terrace into the southern floor.
+- Southern Floor (rows 12..14+): Cavern floor wrapping east beneath the central rock plateau toward the ladder down to B4F.
