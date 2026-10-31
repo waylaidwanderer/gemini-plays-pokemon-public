@@ -138,8 +138,8 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 
 ## Progression Checklist - Cave of Origin
 1. [x] Enter Cave of Origin 1F from Sootopolis City with Steven Stone's escort (Turn 17877 at 9, 20).
-2. [ ] Navigate through 1F northern canyon to locate entrance/ladder to lower chambers.
-3. [ ] Locate Wallace deep within the Cave of Origin.
+2. [x] Navigate through 1F and B1F to locate ladder to B2F (Turn 17900 at 14, 6).
+3. [ ] Navigate lower floors (B2F+) to locate Wallace.
 4. [ ] Discuss the super-ancient Pokémon with Wallace and select "SKY PILLAR" to direct him to awaken Rayquaza.
 
 ## Discovered Topography & Navigation - 1F
