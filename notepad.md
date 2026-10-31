@@ -1,14 +1,9 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Route & Area Encounters (Attempt #24)
+# Route & Area Encounters (Attempt #25)
 
 | Location | Pokémon | Nickname | Level | Status | Notes |
 |---|---|---|---|---|---|
-| Route 101 | Mudkip ♂ | MUDKIP | 14 | Deceased | Starter (`Met in ROUTE 101`, Turn 6117; died Turn 6365 to PKMN Trainer Red's `Lv. 9 Squirtle` [`Bite` critical hit from `9/38 HP`]) |
-| Route 103 | Ekans ♂ | OPHION | 14 | Active | Caught at `(12, 14)` on Route 103 (Turn 6129; Poison, `Intimidate`, `+Speed` nature, `Wrap`, `Pursuit`, `Acid`, `Bite`) |
-| Route 102 | Nidoran♂ | ARES | 14 | Active | Caught at `(38, 5)` on Route 102 (Turn 6136; Poison, `Poison Point`, `Poison Sting`, `Peck`, `Horn Attack`, `Double Kick`) |
-| Route 104 (South) | Cubone ♀ | BELLONA | 14 | Active | Caught at `(24, 61)` on Route 104 South (Turn 6168; Ground, no held item [`Thick Club` is a 5% wild roll], `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt`) |
-| Petalburg Woods | Volbeat ♂ | HELIOS | 13 | Deceased | Caught at `(23, 35)` in Petalburg Woods (Turn 6235); died Turn 6284 to Team Magma Grunt's `Lv. 9 Houndour` (`Ember` after rolling 25% full paralysis) |
 
 <hr>
 
@@ -65,13 +60,10 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **BELLONA** — Cubone ♀ (Lv. 14, `38/38 HP`, Ground, Held: `Oran Berry`, Stats at Lv. 14: `38 HP / 20 Atk / 29 Def / 19 SpA / 19 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
-2. **ARES** — Nidoran♂ (Lv. 14, `11/38 HP`, Poison, `Poison Point`, Held: `None`, Stats at Lv. 14: `38 HP / 25 Atk / 19 Def / 19 SpA / 17 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-3. **OPHION** — Ekans ♂ (Lv. 14, `10/34 HP` [`SLP`], Poison, `Intimidate`, `+Speed` nature, Held: `None`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
+- *(Starting Attempt #25 — choosing Mudkip at Route 101)*
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
-- **HELIOS** — Volbeat ♂ (Lv. 13, Deceased, stored in `BOX 1`)
-- **MUDKIP** — Mudkip ♂ (Lv. 14, Deceased)
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
@@ -471,6 +463,12 @@
   - **Root Cause & Tactical Lesson:** In Generation 3 (`CalculateBaseDamage`), the `+2` constant is added **BEFORE** STAB (`* 1.5`) and Type Effectiveness (`* 2.0`), so on a 2x Super Effective STAB move (`1.5 * 2.0 = 3.0x`), the `+2` constant alone contributes `+6 damage` (`(base + 2) * 1.5 * 2.0`), making `Lv. 9 Houndour`'s `Ember` deal `15 damage` to `30 SpD` (which is why `Houndour` clicked `Super Fang` for `19` and `15` damage at `39/42` and `30/42 HP`, and then switched to `Ember` for `15 damage` once `HELIOS` dropped to `15/42 HP`). Never leave a paralyzed Pokémon (`25%` full paralysis) in at `<=` enemy attack damage (`15/42 HP`) even with a `+1 priority` move when `Moonlight` or a full-HP resistant teammate (`MUDKIP`) is available.
 - **MUDKIP** (Mudkip ♂, Lv. 14, `38 HP`, Water, `Torrent`, `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`) — Died on Turn 6365 on Route 104 North `(24, 8)` to PKMN Trainer Red's final Pokémon, `Lv. 9 Squirtle` (`Bite` critical hit `9 damage` from `9/38 HP`).
   - **Root Cause & Tactical Lesson:** `Lv. 9 Squirtle` knows all 4 moves `Fake Out`, `Yawn`, `Water Pulse`, and **`Bite` (`60 BP Special Dark`)**. While `Water Pulse` (`60 * 1.5 * 0.5 = 45 effective BP` vs Water-type `MUDKIP`) only dealt `3 damage` (`6` crit), neutral `Bite` (`60 effective BP`) dealt `5 damage` normal / `9–10 damage` on a `1/16` critical hit (`9 -> 0/38 HP`). Never leave a Water-type in at `< 10 HP` against `Lv. 9 Squirtle`.
+- **Attempt #24 Post-Mortem (Turn 6369 — Strategic Reset on Route 104 North):**
+  - **Root Causes:**
+    1. **Losing `HELIOS` (`Lv. 13 Volbeat`) to Team Magma Grunt's `Lv. 9 Houndour` (Turn 6284) & `MUDKIP` (`Lv. 14`) to PKMN Trainer Red's `Lv. 9 Squirtle` (`Bite` Crit from `9/38 HP`, Turn 6365):** Left us with only 3 surviving Pokémon (`Ekans`, `Nidoran♂`, `Cubone`) and 0 Water- or Grass-type attackers entering Rustboro City, where `Lv. 16.0 Marshtomp` + a Grass/Water/Fighting core and 5–6 teammates (`8,000+ EXP` cap room) are required to clear `School Kid Josh`, `School Kid Tammy`, `Hiker Marc`, and `Gym Leader Roxanne` within the Level 16 cap.
+  - **Tactical Rules for Attempt #25:**
+    1. **Against PKMN Trainer Red's `Lv. 9 Squirtle` (`Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`):** Remember that `Squirtle`'s 4th move is neutral `60 BP` Special `Bite` (`5 damage` normal / `9–10 damage` crit against `Mudkip`), so never leave `Mudkip` in below `12 HP` against `Squirtle`.
+    2. **Preserve All 6 Pre-Roxanne Encounters at `Lv. 14–15.0` Entering Rustboro City:** Keep `Mudkip` alive to evolve into `Lv. 16.0 Marshtomp` right before Rustboro Gym while our other 5 catches share trainer EXP across Josh, Tammy, and Marc.
 
 <hr>
 

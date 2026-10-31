@@ -49,13 +49,10 @@
   4. **PKMN Trainer Red `(29, 8)`:** Mandatory trainer facing `Left` across `(24..28, 8)` before Rustboro City; has **5 Lv. 9 Pokémon** (`Lv. 9 Eevee ♂` [`Curse`, `Rest`, `Snore`, holds `Sitrus Berry`], `Lv. 9 Bulbasaur ♂` [`Cut`, `Sleep Powder`, `Leech Seed`, holds `Berry Juice`], `Lv. 9 Charmander ♂` [`Ember`], `Lv. 9 Squirtle ♂` [`Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`], and `Lv. 9 Pikachu ♂` [`Shock Wave`, `Surf`, `Thunder Wave`, holds `Sitrus Berry`]).
 
 ## Active Party
-1. **BELLONA** — Cubone ♀ (Lv. 14, `38/38 HP`, Ground, Held: `Oran Berry`, Stats at Lv. 14: `38 HP / 20 Atk / 29 Def / 19 SpA / 19 SpD / 16 Spd`, Moves: `Bone Club` [Slot 1: `Up, Left`], `Rock Throw` [Slot 2: `Up, Right`], `Secret Power` [Slot 3: `Down, Left`], `Headbutt` [Slot 4: `Down, Right`]) — Caught on Route 104 South (`(24, 61)`).
-2. **ARES** — Nidoran♂ (Lv. 14, `11/38 HP`, Poison, `Poison Point`, Held: `None`, Stats at Lv. 14: `38 HP / 25 Atk / 19 Def / 19 SpA / 17 SpD / 19 Spd`, Moves: `Poison Sting` [Slot 1: `Up, Left`], `Peck` [Slot 2: `Up, Right`], `Horn Attack` [Slot 3: `Down, Left`], `Double Kick` [Slot 4: `Down, Right`]) — Caught on Route 102 (`(38, 5)`).
-3. **OPHION** — Ekans ♂ (Lv. 14, `10/34 HP` [`SLP`], Poison, `Intimidate`, `+Speed` nature, Held: `None`, Stats at Lv. 14: `34 HP / 24 Atk / 18 Def / 20 SpA / 22 SpD / 25 Spd`, Moves: `Wrap` [Slot 1: `Up, Left`], `Pursuit` [Slot 2: `Up, Right`], `Acid` [Slot 3: `Down, Left`], `Bite` [Slot 4: `Down, Right`]) — Caught on Route 103 (`(12, 14)`).
+- *(Starting Attempt #25 — choosing Mudkip at Route 101)*
 
 ## Boxed (Retired Until Cap Advances / Graveyard)
-- **HELIOS** — Volbeat ♂ (Lv. 13, Deceased, stored in `BOX 1`)
-- **MUDKIP** — Mudkip ♂ (Lv. 14, Deceased)
+- *(None)*
 
 ## Notepad Index
 - `Main`: High-level dashboard, party summary, level caps, and core tactical rules.
