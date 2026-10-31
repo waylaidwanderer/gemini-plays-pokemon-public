@@ -124,3 +124,6 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   - Prize: ¥2,180.
   - Sage (Lv 56) swept with Leaf Blade and Rock Tomb. Guava leveled up to Lv 29.
 - Progression: The northern cave doorway at (6, 1) is now fully unblocked!
+## Discovered Topography & Navigation - Room 8 (Final Boulder Puzzle Chamber)
+- Entrance: Entered via Room 5 northern doorway at (8, 1). Player spawns at (5, 12) facing North.
+- Layout: Flanked by vertical rock columns. Ahead is an entrance corridor leading to a massive matrix of Strength boulders guarding the northern doorway to Kyogre's shrine!
