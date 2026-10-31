@@ -25,7 +25,7 @@
   - Exiting Pokemon Summary takes 3 `B` presses to reach the Start menu (`Summary -> Party submenu -> Party slot list -> Start menu`) and a 4th `B` to close the Start menu.
   - Rare Candies can be chained from the Bag (`>RARE CANDY`) using `A` presses (`sleep 900`) as long as the target Pokemon has `< 4` moves.
   - Key Items submenu (`USE / REGISTER / CANCEL`) is arranged in 2 columns (`>USE` on left, `REGISTER` on right); press `A, Right, A` to register a Key Item to `Select` (press `Up` first if switching from an empty pocket like `BERRIES`, which clamps the cursor onto `CLOSE BAG`).
-  - **Old Rod Timing**: Casting with `Select` prints 3–10 dots taking `2.0s–4.4s` before `"Oh! A bite!"` appears (which stays open for `1.0s`). Pressing `A` or `B` while dots are still printing cancels the cast (`"Not even a nibble..."`). Wait `~3500ms` after `Select` before pressing `A`.
+  - **Old Rod Timing**: Casting with `Select` prints up to 10 dots taking `~5.1s–5.4s` total from `Select` before `"Oh! A bite!"` appears (Turn 79 had ~1.0s of Turn 78 settle prior to `+0.00s`). Pressing `A` at `4.87s` (Turn 83 `#85`) still hits the 10th dot and cancels into `"Not even a nibble..."`. Wait **`sleep 5600`** after `Select` before pressing `A` (and `sleep 5200` before a 2nd `A` since `"A POKEMON's on the hook!"` never times out).
 - **Rival 1 Battle (Route 103)**: Defeated Brendan's `Treecko Lv 5` with Lv 10 `TRITON` (+69 EXP, +300 Pokedollars).
 - **Fast Southbound Return (Route 103 -> Littleroot)**:
   - Route 103: From `(9, 3)`, step `Right` to `(10, 3)` and walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
