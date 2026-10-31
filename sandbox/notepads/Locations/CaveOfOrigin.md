@@ -40,3 +40,4 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 ## Wild Encounters - Cave of Origin
 - Zubat: Wild encounter on 1F at (9, 14) (Turn 17938).
 - Golbat: Wild encounter on B1F at (9, 7) (Turn 17951).
+- Sableye: Wild encounter on B1F at (6, 13) (Turn 17995).
