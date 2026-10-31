@@ -108,3 +108,7 @@ An ancient subterranean cavern beneath Route 128, accessible only by diving into
   6. From (4, 8), navigate calm water: Up to (4, 7), Right to (5, 7), Right to (6, 7), Up to (6, 6), Up to (6, 4).
   7. Step Left onto northwest sandy shore at (5, 4) (dismounting Surf).
   8. Walk North along platform to (5, 2), directly in front of the northern cave doorway at (5, 1)!
+
+## Discovered Topography & Navigation - Room 5 (Chamber beyond Room 4)
+- Entrance: Entered via Room 4 northwest doorway at (4, 1). Player spawns at (4, 15) facing North.
+- Layout: Cavern with dirt paths, elevated rock plateaus, one-way jump ledges, and Strength boulders (boulder visible at northeast).
