@@ -33,7 +33,7 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 - Entrance / Return Ladder: Spawns at (9, 3) facing North. The ladder directly at/above (9, 3) returns up to B1F at (14, 5)!
 - Upper Northern Highway (row 3, cols 4..14): Horizontal corridor running along the northern rock wall.
 - Western Sector: Col 6 forms a short dead-end pocket terminating at (6, 5) against blue crystals at (6, 6).
-- Eastern Sector (cols 11..15, rows 3..8+): Row 3 corners south at (12, 3); path bypasses via (11, 4) -> (12, 4) -> (12, 5). Flanked by glowing red crystals (Groudon aura) on the east (cols 14..15).
+- Eastern Sector (cols 11..15, rows 3..6): Row 3 corners south at (12, 3); path bypasses via (11, 4) -> (12, 4) -> (12, 5) -> (13, 5) -> (13, 6). Tile (13, 6) is a dead-end pocket bordered by red crystals at (14, 6) and a solid ledge wall at (13, 7). No southbound passage here.
 - Central Terraces (rows 4..8): Stepped rocky terraces with south-facing ledges.
 
 ## Wild Encounters - Cave of Origin
