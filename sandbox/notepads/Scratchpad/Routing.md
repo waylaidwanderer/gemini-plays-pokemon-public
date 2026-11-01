@@ -101,4 +101,5 @@
   - **Pokemon Center**: Door at `(16, 38)`.
   - **Cutter's House**: Door at `(9, 38)`; Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`).
   - **Pokemon Trainer's School**: Door at `(27, 34)` (fountain at `(27, 38)`); NPC at `(5, 3)` inside has no interaction script in this hack.
-  - **Eastern Exit (to Route 116)**: Pass west of the `(34..35, 31)` iron fence along `x=33` (`y=35 -> y=27`), then walk `Right` onto Route 116.
+  - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=33..35, y=25`).
+  - **Eastern Exit (to Route 116)**: Walk west of the `(30, 28)` house along `x=26..27` up to `y=20..21`, then walk `Right` onto Route 116.
