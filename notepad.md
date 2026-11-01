@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 10) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 10 stats: 30/18/17/16/17/15; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
-| Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Caught at `(17, 13)` with Old Rod |
+| Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 4 stats: 18/7/9/9/11/13; Moves: `Secret Power`, `Charm` |
 | Route 101 | Cleffa (F, Lv 3) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 3 stats: 16/6/5/7/8/6; Moves: `Present`, `Attract` |
 | Route 103 | Wingull (F, Lv 4) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 4 stats: 18/7/7/10/7/12; Moves: `Wing Attack`, `Water Gun` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
@@ -163,9 +163,9 @@
 
 ## Route 101
 - **Birch's Bag Rescue**: Cutscene places player at `(11, 15)` on Route 101; Birch's Bag is at `(7, 14)` (walk `Up` to `(11, 14)`, `Left x3` to `(8, 14)`, `sleep 300`, `A` to open Bag, `Right, A, A` to choose `Mudkip`).
-- **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2), `Pidgey` (Lv 3), `Rattata` (Lv 3), `Wurmple` (Lv 2), `Cleffa` (Lv 3).
+- **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2), `Pidgey` (Lv 3), `Rattata` (Lv 3), `Wurmple` (Lv 2), `Cleffa` (Lv 3), `Sentret` (Lv 3).
 - **Southern Tall Grass Patch**: Located at `x=5, y=14..16` (accessible from `(11, 14)` by walking `Left x6` to `(5, 14)`).
-- **Grass-Free Path (Northbound)**: `(11, 19)` -> `Up x5` to `(11, 14)` -> `Left x4` to `(7, 14)` -> `Up x4` to `(7, 10)` -> `Right x6` to `(13, 10)` -> `Up` to `(13, 9)` -> `Right x2` to `(15, 9)` -> `Up` to `(15, 8)`, then through `(15, 7..5)` (3 grass tiles) to `(15, 4)` -> `Left x3` (2 grass tiles) to `(12, 4)` -> `Left x2` to `(10, 4)` -> `Up` into Oldale Town.
+- **Grass-Free Path (Northbound)**: Entering from Littleroot Town `(10..11, 0)` places the player at `(10, 19)`; step `Right` to `(11, 19)` first (`(10, 16)` is a tree!), then `Up x5` to `(11, 14)` -> `Left x4` to `(7, 14)` -> `Up x4` to `(7, 10)` -> `Right x6` to `(13, 10)` -> `Up` to `(13, 9)` -> `Right x2` to `(15, 9)` -> `Up` to `(15, 8)`, then through `(15, 7..5)` (3 grass tiles) to `(15, 4)` -> `Left x3` (2 grass tiles) to `(12, 4)` -> `Left x2` to `(10, 4)` -> `Up` into Oldale Town.
 - **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down` along `x=9` (jumping ledges at `y=6` and `y=13`) to `(9, 14)`, then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(10, 0)`.
 
 ## Oldale Town & Route 103
