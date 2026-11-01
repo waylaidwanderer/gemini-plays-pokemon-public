@@ -142,7 +142,7 @@ A sacred, ancient subterranean cavern situated beneath northern Sootopolis City,
 3. [x] Navigate through B1F to B2F (Turn 17902 at 14, 5).
 4. [x] Navigate B2F western corridor to locate Wallace at (9, 13) in the southern basin (Turn 17980)!
 5. [x] Spoke with Wallace and selected "SKY PILLAR" to direct him to awaken Rayquaza at the Sky Pillar (Turn 17992)!
-6. [ ] Exit Cave of Origin and travel to Route 131 / Sky Pillar to awaken Rayquaza.
+6. [x] Exited Cave of Origin into Sootopolis City (Turn 18003)! Journeying to Sky Pillar on Route 131.
 
 ## Discovered Topography & Navigation
 ### 1F (Entrance Hall)
@@ -4270,7 +4270,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: SOOTOPOLIS CITY ENTERED! Ancient conflict active! Groudon & Kyogre clashing in the caldera lagoon! Meeting Steven Stone and Wallace to unlock Cave of Origin and summon Rayquaza.
+- Status: CAVE OF ORIGIN CLEARED! Wallace dispatched to Sky Pillar on Route 131! Surfing south through Route 127/128/129 towards Route 130/131 to awaken Rayquaza.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 174/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169. (Fully Healed Turn 17656)
