@@ -12,7 +12,7 @@
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
 | Petalburg Woods | Bellsprout (F, Lv 16) | CHLORIS | Active | Bold (+Def), `Chlorophyll`; Lv 16 stats: 44/29/17/30/19/18 (evolves at Lv 16 in this hack); Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15) (also observed: `Oddish`, `Volbeat` Lv 7, `Phanpy` Lv 8) |
-| Route 116 | Yanma (F, Lv 14) | IRIS | Active | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 14 stats: 43/27/19/28/18/32; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
+| Route 116 | Yanma (F, Lv 15) | IRIS | Active | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
 
 ## Attempt #1 Encounter History
 - **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
