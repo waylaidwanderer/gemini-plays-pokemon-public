@@ -55,4 +55,4 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Staircase to Summit (6F / Rayquaza) located in north wall at (6..7, 1).
 - Direct northern access blocked from west by rocks at (4, 2) and central rock cluster (cols 5..7).
 - Route: Full perimeter loop around central pit (South down col 3 to row 11 -> East across row 11 to col 10 -> North up col 10 to row 2 -> West into Summit stairs at 6..7, 1).
-- Eastern Summit staircase located at col 11, row 1 (rock at 10, 2 blocks col 10; col 11 provides clear approach straight into Summit stairs).
+- Eastern staircase at (11, 1) connects 4F and 5F. The true Summit staircase is the middle archway at (6..7, 1)!
