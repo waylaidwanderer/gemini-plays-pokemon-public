@@ -13,7 +13,7 @@
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
 | Petalburg Woods | Weepinbell (F, Lv 17) | CHLORIS | Retired (Box 1 until Stone Badge) | Bold (+Def), `Chlorophyll`; evolved into `Weepinbell` Turn 783; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15); reached Lv 17 Turn 778 vs Hiker Devan; deposited in Box 1 Turn 785 |
 | Route 116 | Yanma (F, Lv 15) | IRIS | Deceased (Box 1) | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13); fainted Turn 796 to School Kid Jerry's Lv 10 Phanpy's `Rock Tomb`; deposited in Box 1 Turn 808 |
-| Route 115 | Kabuto (M, Lv 16) | PROTEUS | Active | Quirky, **`Battle Armor`** (blocks critical hits!); caught at `(7, 71)` on southern beach with Old Rod; Lv 16 stats: 36/34/37/25/20/24; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13) |
+| Route 115 | Kabuto (M, Lv 17) | PROTEUS | Retired (Box 1 until Stone Badge) | Quirky, **`Battle Armor`** (blocks critical hits!); caught at `(7, 71)` on southern beach with Old Rod; Lv 17 stats: 38/36/39/27/21/25; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13); reached Lv 17 Turn 851 vs School Kid Josh (deposit in Box 1 until Roxanne is defeated) |
 
 ## Attempt #1 Encounter History
 - **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
@@ -243,7 +243,7 @@
 - **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
-  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
-    - Team (4 Pokemon): `Geodude` (M, Lv 11, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 11).
+  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)` (defeated Turn 851).
+    - Team (4 Pokemon): `Geodude` (M, Lv 11, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`).
 
 <hr>
