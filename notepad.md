@@ -11,7 +11,7 @@
 | Route 102 | Meowth (M, Lv 16) | HERMES | Active | Lv 16 stats: 38/23/20/18/22/41; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12), `Bite` (Lv 16) |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
-| Petalburg Woods | Bellsprout (F, Lv 17) | CHLORIS | Retired (Box until Stone Badge) | Bold (+Def), `Chlorophyll`; Lv 16 stats: 44/29/17/30/19/18 (evolves at Lv 16 in this hack; attempts `Wrap` at Lv 17); Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15); reached Lv 17 Turn 778 vs Hiker Devan (deposit in PC until Roxanne is defeated) |
+| Petalburg Woods | Weepinbell (F, Lv 17) | CHLORIS | Retired (Box until Stone Badge) | Bold (+Def), `Chlorophyll`; evolved into `Weepinbell` Turn 783; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15); reached Lv 17 Turn 778 vs Hiker Devan (deposit in PC until Roxanne is defeated) |
 | Route 116 | Yanma (F, Lv 15) | IRIS | Active | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
 
 ## Attempt #1 Encounter History
