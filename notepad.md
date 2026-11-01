@@ -41,7 +41,7 @@
   1. **Pre-Level Immediately & Respect Omniscient `Pursuit` AI**: Never walk around hunting wild encounters or trainers with Lv 2–7 party members (`POSEIDON` fainted at Lv 7 on Turn 577 to a wild Lv 6 Meowth's critical `Pay Day` on Route 102). Use unlimited Rare Candies immediately to bring all active party members up to **Lv 12–13** for early routes and **Lv 15–16** with held `Oran Berries` before bosses. **CRITICAL**: Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (`CALLIOPE` fainted at 24/62 HP on Turn 660 when switching out on the Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`!
   2. **Keep a Full 6-Pokemon Active Party**: We have 7+ available encounters before Petalburg Woods/Route 104 North (`Starter`, `Littleroot Pond`, `Route 101`, `Route 103`, `Route 102`, `Petalburg City Pond`, `Route 104 South`, `Petalburg Woods`). Never enter Petalburg Woods or Route 104 North with empty/fainted party slots when healthy encounters are available in the Petalburg City PC (`(20, 16)`).
   3. **Cheri Berry Auto-Refill (`(3, 25)` on Route 104 North)**: Immediately after harvesting the `Cheri Berry` tree at `(3, 25)` outside the Pretty Petal Flower Shop, end a turn in the free overworld (with no textbox or menu open) so `Cheri Berries` auto-refill from `2 -> 99`!
-  4. **Countering PKMN Trainer Red (`(29, 8)` on Route 104 North)**: Red has a 6-Pokemon team leading with `Eevee` (M, Lv 9, 31 Max HP, holds `Sitrus Berry`, moves: `Curse`, `Rest`, `Snore`, `Quick Attack`). The AI spams `Curse` + `Rest`/`Snore` until `+1` priority `Quick Attack` enters KO range or `Curse` is maxed. Do NOT let `Eevee` stack `Curse` boosts—hit it hard on the Special side (since `Curse` only boosts physical `Defense`, not `Sp.Def`), use Fighting moves / `Leech Seed` / `Encore`, or finish it from `> 50%` HP before it can `Rest`.
+  4. **Countering PKMN Trainer Red (`(29, 8)` on Route 104 North)**: Red has a 5-Pokemon team (`Eevee` Lv 9, `Pikachu` Lv 9, `Charmander` Lv 9, `Bulbasaur` Lv 9, `Squirtle` Lv 9) leading with `Eevee` (M, Lv 9, 31 Max HP, holds `Sitrus Berry`, moves: `Curse`, `Rest`, `Snore`, `Quick Attack`). Defeated cleanly with 0 casualties on Turn 723 by leading Lv 16 `Eros` (`Water Pulse` 2HKO on `Eevee`), pivoting to Lv 16 `Chloris` (`Acid` on `Pikachu`, `Vine Whip` OHKO on `Squirtle`), and Lv 16 `Thetis` (`Huge Power Secret Power` on `Charmander` and `Bulbasaur`).
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16
@@ -196,12 +196,12 @@
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Confuse Ray`, `Ember`, `Disable`).
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on horizontal bridge section):
     - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). Focus physical attacks (`Secret Power` / `Acid`) to break `Focus Punch` and overwhelm `Follow Me` recovery.
-  - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge):
-    - Team (6 Pokemon):
+  - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge; defeated Turn 723):
+    - Team (5 Pokemon):
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
       2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, holds `Oran/Sitrus Berry`)
       3. `Charmander` (M, Lv 9, `Flame Wheel`, holds `Oran/Sitrus Berry`)
-      4. `Bulbasaur` (M, Lv 9)
-      5–6. 2 remaining Pokemon.
+      4. `Bulbasaur` (M, Lv 9, holds `Oran Berry`)
+      5. `Squirtle` (M, Lv 9, `Fake Out`)
 
 <hr>
