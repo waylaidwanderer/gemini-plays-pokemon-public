@@ -13,7 +13,7 @@
 | Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
 | Route 115 | Kabuto (M, Lv 14) | NEREUS | Active | Mild (+SpAtk, -Def), `Swift Swim`; caught at `(7, 71)` with Old Rod into Party Slot 6; Lv 14 stats: 32/29/27/26/21/20; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13) |
-| Route 116 | Makuhita (F, Lv 12) | BELLONA | Active | Impish (+Def, -SpAtk), `Guts`; caught at `(5, 14)` into Box 1, withdrawn into Slot 6 at Turn 1077; Lv 12 stats: 40/21/14/9/13/11; Moves: `Faint Attack`, `SmellingSalt`, `Sand-Attack`, `Force Palm` (Lv 10) |
+| Route 116 | Makuhita (F, Lv 15) | BELLONA | Active | Impish (+Def, -SpAtk), `Guts`; caught at `(5, 14)` into Box 1, withdrawn into Slot 6 at Turn 1077; Lv 15 stats: 48/25/16/10/15/13; Moves: `Faint Attack`, `SmellingSalt`, `Vital Throw` (Lv 13), `Force Palm` (Lv 10) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
