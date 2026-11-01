@@ -49,3 +49,4 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Staircase to 5F visible in north wall around cols 5..6 (middle) and cols 1..2 (left).
 - North passage blocked by diagonal rock wall at (10, 2), (9, 3), (8, 4) and pit.
 - Route: Move South along eastern corridor (col 10), loop around south edge of central pit, and ascend western corridor to the 5F stairs.
+- 5F stairs located at (6..7, 1). Western approach: North along col 3 to (3, 2), East along row 2 to (6, 2), North into (6, 1).
