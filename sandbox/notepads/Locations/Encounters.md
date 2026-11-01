@@ -9,7 +9,7 @@
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 16) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 16 stats: 40/16/26/21/30/40; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
 | Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
-| Petalburg Woods | Phanpy (M, Lv 16) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 16 stats: 58/24/24/18/20/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
+| Petalburg Woods | Phanpy (M, Lv 16) | ATLAS | Deceased | Fainted at Lv 16 to Hiker Marc's Lv 14 Kabuto (crit `Giga Drain`) in Rustboro Gym |
 | Route 115 | Kabuto (M, Lv 14) | NEREUS | Deceased | Fainted at Lv 14 to School Kid Tammy's Lv 13 Corsola (crit `Water Pulse` on switch-in) in Rustboro Gym |
 | Route 116 | Makuhita (F, Lv 15) | BELLONA | Active | Impish (+Def, -SpAtk), `Guts`; caught at `(5, 14)` into Box 1, withdrawn into Slot 6 at Turn 1077; Lv 15 stats: 48/25/16/10/15/13; Moves: `Faint Attack`, `SmellingSalt`, `Vital Throw` (Lv 13), `Force Palm` (Lv 10) |
 
