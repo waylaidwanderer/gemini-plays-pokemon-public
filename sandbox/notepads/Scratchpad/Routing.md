@@ -109,7 +109,7 @@
 - **Western Entrance**: Enters from Rustboro City `(39, 11)` onto `(0, 11)`.
 - **Tall Grass & Berry Trees**:
   - **Western Tall Grass Patch**: Located at `(4, 13..15)` (observed wild species: `Yanma` Lv 9 with `Speed Boost` and `Silver Wind`).
-  - **Grass-Free Northern Path**: From `(3, 11)`, walk `Up x6` to `(3, 5)` and `Right x10` along `y=5` to `(13, 5)` -> `Down` to `(13, 6)` -> `Right x2` to `(15, 6)`.
+  - **Grass-Free Northern Path**: Eastbound from `(3, 11)`, walk `Up x4` to `(3, 7)`, `Right x2` to `(5, 7)`, `Up x2` to `(5, 5)` (trees block `x=1..4, y=5`, and signpost is at `(5, 10)`), and `Right x10` along `y=5` to `(15, 5)` -> `Down` to `(15, 6)`. Westbound from `(14, 7)`, walk `Up x2` to `(14, 5)`, `Left x9` to `(5, 5)`, `Down x2` to `(5, 7)`, `Left x3` to `(2, 7)`, `Down x3` to `(2, 10)`, and `Left x3` into Rustboro City `(39, 10)`.
   - **4-Tree Berry Patch (`(18..21, 2)`)**: Enclosed behind Cut trees at `(17, 4), (18..22, 5..7)` above a left-facing ledge at `x=16, y=2..7`; contains `Chesto Berry` trees at `(19..20, 2)` (return immediately after defeating Roxanne and earning the Stone Badge to cut through and auto-refill `Chesto Berries` to 99).
 - **Trainers**:
   - **Bird Keeper Johnson** at `(15, 7)` facing `Left` across `(11..14, 7)` (can be challenged grass-free from `(15, 6)` facing `Down`; 3 Pokemon: `Hoothoot` Lv 9 [`Hypnosis`, `Confusion`], `Swablu` Lv 9 [`Natural Cure`; `Sing`, `Rest`], `Natu` Lv 9 [`Confuse Ray`, `Confusion`, `Night Shade`]).
