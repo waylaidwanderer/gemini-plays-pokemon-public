@@ -138,3 +138,4 @@
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, **`Earthquake`** [100 BP], 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (just south of Gym Leader Roxanne's platform stairs).
+    - Team (5 Pokemon): `Onix` (M, Lv 15, 346 EXP), `Kabuto` (M, Lv 14, 357 EXP).
