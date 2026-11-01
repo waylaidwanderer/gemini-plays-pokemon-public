@@ -33,3 +33,10 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 - Swimmer ♀ Kara: Defeated at (26, 25) on Turn 18289 (Seaking Lv 34; prize ¥272). Stationed at (26, 25).- Swimmer ♂ Richard: Defeated at (41, 26..27) on Turn 18302 (Pelipper Lv 34; prize ¥272). Stationed at (41, 27).
 ## Eastern Channel to Sky Pillar (Cols 40..46)
 - Wide open deep water channel running North from row 26 into the upper half of Route 131.
+
+## Verified Sky Pillar Approach Route
+- Western rocks (cols 0..34) are walled off to the north.
+- The entrance to the Sky Pillar northern bay is reached by surfing EAST along row 25..26 past the central cliff to the Eastern Channel at (41, 26).
+- From (41, 26), surf North along col 41 to (41, 17).
+- From (41, 17), surf Down to row 17, then Left along row 17 to col 32 (bypassing the submerged rock at 36, 16 to the south).
+- From (32, 17), the western water corridor (cols 32..35) runs straight North past row 11 up to the sandy beach and cave entrance of Sky Pillar at rows 4..6!
