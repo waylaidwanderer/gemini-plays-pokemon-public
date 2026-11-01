@@ -6,6 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 10) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 10 stats: 32/19/16/17/16/13; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Caught at `(17, 13)` pond with Old Rod |
+| Route 101 | Pidgey (F, Lv 3) | ATHENA | Active | Caught at `(5, 16)` in southern tall grass patch |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
