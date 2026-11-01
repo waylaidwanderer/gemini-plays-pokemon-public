@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: CAVE OF ORIGIN CLEARED! Wallace dispatched to Sky Pillar on Route 131! Surfing south through Route 127/128/129 towards Route 130/131 to awaken Rayquaza.
+- Status: PACIFIDLOG TOWN REACHED! Flight checkpoint unlocked! Journeying to Sky Pillar on Route 131 to awaken Rayquaza with Wallace.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 58) - Evolved on turn 5632! Level 58 on turn 18177! Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (3/15), Quick Attack (30/30). Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -201,8 +201,10 @@
 1. [x] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone (Turn 17645).
 2. [x] Travel to Sootopolis City to witness the clash between Groudon and Kyogre (Turn 17822).
 3. [x] Located Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
-4. [x] Exited Cave of Origin into Sootopolis City (Turn 18003); currently navigating ocean transit across Route 128/129 toward Route 131 / Sky Pillar!
-5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
+4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
+5. [ ] Navigate Route 131 northern channel to enter Sky Pillar and meet Wallace.
+6. [ ] Ascend Sky Pillar and awaken Rayquaza to quell the weather calamity.
+7. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
