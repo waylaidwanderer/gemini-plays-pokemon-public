@@ -2,9 +2,8 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 8) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 8 stats: 28/16/14/14/13/11; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7) |
+| Starter (Route 101) | Mudkip (M, Lv 8) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 8 stats: 28/16/14/14/13/11; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); uses up `Route 101` encounter |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
-| Route 101 | Pidgey (M, Lv 3) | — | Fled (Unobtained) | Fled Turn 1444 after 2 breakouts dropped Lv 5 `Mudkip` to `2/21 HP` |
 | Route 103 | Wingull (F, Lv 4) | HALCYONE | Active | Caught at `(18, 12)` in tall grass |
 | Route 102 | — | — | Pending | Eastern tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |

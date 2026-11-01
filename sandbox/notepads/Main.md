@@ -30,17 +30,16 @@
      - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death). Whenever ANY party member is poisoned (`PSN`) at the end of a battle, **NEVER chain overworld walking after the battle**—always cure poison with a `Pecha Berry` at `0` steps before walking anywhere!
      - **Never chain a damaging chip attack and a Poke Ball throw in the same `press_buttons` call** (extra stat-drop/crit textboxes shift turn timing and turn the queued `BAG -> POKE BALL` input into a 2nd `FIGHT` attack). Always execute the chip move alone, verify HP on the next turn, and then throw Poke Balls.
      - **In-Battle Party Slot Swap Rule**: Every in-battle switch swaps the incoming Pokemon with `Slot 1` (`gPlayerParty[0]`). Always track `Slot 1 <-> Slot k` swaps when switching in battle.
-  3. **10 Pre-Roxanne Encounter Locations**:
-     1. `Starter` (Route 101 bag — `Mudkip`)
+  3. **9 Pre-Roxanne Encounter Locations** (Note: `Starter` is met on `Route 101`, so `Route 101` wild catches are NOT permitted):
+     1. `Starter` (`Route 101` — `Mudkip`)
      2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right` — `Luvdisc`)
-     3. `Route 101` (tall grass at `x=5, y=14..16`)
-     4. `Route 103` (tall grass)
-     5. `Route 102` (tall grass)
-     6. `Petalburg City` (Old Rod at `(12, 23)` facing `Left` — `Luvdisc` / `Azurill`)
-     7. `Route 104` (tall grass at `(22..24, 56..61)`)
-     8. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
-     9. `Route 116` (tall grass at `(4, 13..15)`)
-     10. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto`)
+     3. `Route 103` (tall grass)
+     4. `Route 102` (tall grass)
+     5. `Petalburg City` (Old Rod at `(12, 23)` facing `Left` — `Luvdisc` / `Azurill`)
+     6. `Route 104` (tall grass at `(22..24, 56..61)`)
+     7. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
+     8. `Route 116` (tall grass at `(4, 13..15)`)
+     9. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto`)
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16
