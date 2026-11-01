@@ -3689,6 +3689,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 ## Topography & Landmarks Summary
 - Northern Entrance & Western Channel:
   - Sandbar Reef 1 (cols 21..28, rows 4..9): Shallow sandbar dismounts surf onto foot at (27, 4) and (28, 5). Brown rock occupies cols 24..27 (rows 5..8) with northeast shoulder at (28, 6). Girl trainer in red swimsuit wanders southwest corner around (24, 8).
+  - Sandbar Reef 2 (cols 32..36, rows 14..20): Shallow sandbar along col 32 dismounts surf onto foot from row 14 to row 20. Water edge at row 21.
+  - Sea Rock at (30..31, 31..32): Pointed brown rock in shallow reef at (32, 31), east of Central Ridge. Deep water continues south at row 33 and east.
   - Column 29 Bypass: Column 29 is completely open deep water from row 4 past row 10, providing an unobstructed eastern bypass around Sandbar Reef 1.
   - Central Channel: Row 10 is clear open water south of Sandbar Reef 1 across cols 26..30+, connecting back to column 27. Suspected dark water dive trench at (27, 21)!
   - Central Ridge: Sits at cols 24..27, rows 32..37.
@@ -4468,7 +4470,7 @@ A large meteorological research institute located in northern Route 119 beside t
 1. [x] Complete Route 128 weather cutscene with Archie, Maxie, and Steven Stone (Turn 17645).
 2. [x] Travel to Sootopolis City to witness the clash between Groudon and Kyogre (Turn 17822).
 3. [x] Located Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
-4. [ ] Exit Cave of Origin and travel to Route 131 / Sky Pillar to awaken Rayquaza.
+4. [x] Exited Cave of Origin into Sootopolis City (Turn 18003); currently navigating ocean transit across Route 128/129 toward Route 131 / Sky Pillar!
 5. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
