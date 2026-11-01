@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 15 stats: 43/26/21/23/21/17; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
+| Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Deceased | Fainted at Lv 15 to School Kid Tammy's Lv 15 Larvitar (`Earthquake`) in Rustboro Gym |
 | Littleroot Town | Luvdisc (F, Lv 20) | APHRODITE | Benched (Cap) | Sassy (+SpDef, -Speed), `Swift Swim`; learned `Ice Beam` at Lv 16; benched until Roxanne is defeated (eligible for Brawly Lv 20 cap) |
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
 | Route 103 | Skitty (F, Lv 15) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 15 stats: 43/22/18/16/15/19; Moves: `Fake Out` (Lv 15), `Attract`, `Sing`, `Secret Power` (Lv 7) |
@@ -275,6 +275,6 @@
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
     - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
-    - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15).
+    - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, **`Earthquake`** [100 BP], 18+ Speed).
 
 <hr>

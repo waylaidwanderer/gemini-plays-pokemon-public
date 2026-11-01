@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 15 stats: 43/26/21/23/21/17; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
+| Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Deceased | Fainted at Lv 15 to School Kid Tammy's Lv 15 Larvitar (`Earthquake`) in Rustboro Gym |
 | Littleroot Town | Luvdisc (F, Lv 20) | APHRODITE | Benched (Cap) | Sassy (+SpDef, -Speed), `Swift Swim`; learned `Ice Beam` at Lv 16; benched until Roxanne is defeated (eligible for Brawly Lv 20 cap) |
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
 | Route 103 | Skitty (F, Lv 15) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 15 stats: 43/22/18/16/15/19; Moves: `Fake Out` (Lv 15), `Attract`, `Sing`, `Secret Power` (Lv 7) |
