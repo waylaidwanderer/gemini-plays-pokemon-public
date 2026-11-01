@@ -9,7 +9,7 @@
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 15) | GLAUCUS | Deceased | Fainted Turn 1393 to School Kid Tammy's Lv 13 `Aron` (`Brick Break`, 2x effective vs pure Normal-type `Azurill` and outsped 13 Speed) |
 | Route 104 | Jigglypuff (F, Lv 16) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 16 stats: 63/21/12/24/13/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
-| Petalburg Woods | Oddish (M, Lv 16) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 16 stats: 43/22/26/32/27/16; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
+| Petalburg Woods | Oddish (M, Lv 17) | HYACINTH | Benched (Overleveled) | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; reached Lv 17 Turn 1405 after OHKOing Tammy's Lv 15 `Rhyhorn`; bench until Roxanne is defeated |
 | Route 115 | Kabuto (M, Lv 9) | — | Fainted (Unobtained) | Fainted Turn 1364 to accidental 2nd `Seismic Toss` after `Rock Tomb` speed-drop textbox delayed turn |
 | Route 116 | Yanma (M, Lv 15) | BOREAS | Deceased | Fainted Turn 1394 to School Kid Tammy's Lv 13 `Aron` (`Rock Tomb`, 4x effective vs Bug/Flying after surviving `SonicBoom` with ~2 HP) |
 
