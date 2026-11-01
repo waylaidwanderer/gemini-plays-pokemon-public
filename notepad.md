@@ -12,7 +12,7 @@
 | Petalburg City | Luvdisc (M, Lv 15) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 15 stats: 38/15/25/20/28/38; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
 | Petalburg Woods | Phanpy (M, Lv 16) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 16 stats: 58/24/24/18/20/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
-| Route 115 | Kabuto (M, Lv 14) | NEREUS | Active | Mild (+SpAtk, -Def), `Swift Swim`; caught at `(7, 71)` with Old Rod into Party Slot 6; Lv 14 stats: 32/29/27/26/21/20; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13) |
+| Route 115 | Kabuto (M, Lv 14) | NEREUS | Deceased | Fainted at Lv 14 to School Kid Tammy's Lv 13 Corsola (crit `Water Pulse` on switch-in) in Rustboro Gym |
 | Route 116 | Makuhita (F, Lv 15) | BELLONA | Active | Impish (+Def, -SpAtk), `Guts`; caught at `(5, 14)` into Box 1, withdrawn into Slot 6 at Turn 1077; Lv 15 stats: 48/25/16/10/15/13; Moves: `Faint Attack`, `SmellingSalt`, `Vital Throw` (Lv 13), `Force Palm` (Lv 10) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
