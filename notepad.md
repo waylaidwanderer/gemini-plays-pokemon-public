@@ -13,7 +13,7 @@
 | Route 104 | Jigglypuff (F, Lv 16) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 16 stats: 63/21/12/24/13/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
 | Petalburg Woods | Oddish (M, Lv 16) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 16 stats: 43/22/26/32/27/16; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
 | Route 115 | Kabuto (M, Lv 9) | — | Fainted (Unobtained) | Fainted Turn 1364 to accidental 2nd `Seismic Toss` after `Rock Tomb` speed-drop textbox delayed turn |
-| Route 116 | Yanma (M, Lv 15) | BOREAS | Active | Naughty (+Atk, -SpDef), `Compoundeyes`; caught at `(4, 15)` in tall grass; Lv 15 stats: 44/30/21/31/19/36; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
+| Route 116 | Yanma (M, Lv 15) | BOREAS | Deceased | Fainted Turn 1394 to School Kid Tammy's Lv 13 `Aron` (`Rock Tomb`, 4x effective vs Bug/Flying after surviving `SonicBoom` with ~2 HP) |
 
 ## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
 - **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
@@ -296,7 +296,7 @@
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
     - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP, `Hypnosis`, `Aerial Ace`, `Giga Drain`), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
-    - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Brick Break` [75 BP Fighting], `Secret Power`, `Iron Defense`, 14+ Speed), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, **`Earthquake`** [100 BP], 18+ Speed).
+    - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Rock Tomb`, `Brick Break` [75 BP Fighting], `Secret Power`, `Iron Defense`, 14+ Speed), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, **`Earthquake`** [100 BP], 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (just south of Gym Leader Roxanne's platform stairs).
     - Team (5 Pokemon): `Onix` (M, Lv 15, 346 EXP), `Kabuto` (M, Lv 14, 357 EXP, `Giga Drain` [75 BP, 10 PP], `Rock Tomb`, `Aerial Ace`, 20 Speed).
 

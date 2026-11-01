@@ -11,7 +11,7 @@
 | Route 104 | Jigglypuff (F, Lv 16) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 16 stats: 63/21/12/24/13/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
 | Petalburg Woods | Oddish (M, Lv 16) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 16 stats: 43/22/26/32/27/16; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
 | Route 115 | Kabuto (M, Lv 9) | — | Fainted (Unobtained) | Fainted Turn 1364 to accidental 2nd `Seismic Toss` after `Rock Tomb` speed-drop textbox delayed turn |
-| Route 116 | Yanma (M, Lv 15) | BOREAS | Active | Naughty (+Atk, -SpDef), `Compoundeyes`; caught at `(4, 15)` in tall grass; Lv 15 stats: 44/30/21/31/19/36; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
+| Route 116 | Yanma (M, Lv 15) | BOREAS | Deceased | Fainted Turn 1394 to School Kid Tammy's Lv 13 `Aron` (`Rock Tomb`, 4x effective vs Bug/Flying after surviving `SonicBoom` with ~2 HP) |
 
 ## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
 - **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
