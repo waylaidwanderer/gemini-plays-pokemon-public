@@ -224,7 +224,7 @@
   - **4-Tree Berry Patch (`(18..21, 2)`)**: Enclosed behind Cut trees at `(17, 4), (18..22, 5..7)` above a left-facing ledge at `x=16, y=2..7`; contains `Chesto Berry` trees at `(19..20, 2)` (return immediately after defeating Roxanne and earning the Stone Badge to cut through and auto-refill `Chesto Berries` to 99).
 - **Trainers**:
   - **Bird Keeper Johnson** at `(15, 7)` facing `Left` across `(11..14, 7)` (can be challenged grass-free from `(15, 6)` facing `Down`; 3 Pokemon: `Hoothoot` Lv 9 [`Hypnosis`, `Confusion`], `Swablu` Lv 9 [`Natural Cure`; `Sing`, `Rest`], `Natu` Lv 9 [`Confuse Ray`, `Confusion`, `Night Shade`]).
-  - **Hiker Devan** at `(10, 7)` facing `Right` across `(11..14, 7)` (4 Pokemon: `Geodude` Lv 10 [`Rock Tomb`, `Dig`, holds `Sitrus Berry`], `Diglett` Lv 9 [`Dig`], `Trapinch` Lv 9–10, and 1 remaining Pokemon).
+  - **Hiker Devan** at `(10, 7)` facing `Right` across `(11..14, 7)` (3 Pokemon: `Geodude` Lv 10 [`Rock Tomb`, `Dig`, holds `Sitrus Berry`], `Diglett` Lv 9 [`Dig`], `Trapinch` Lv 9–10).
   - **Lass** at `(16, 8)` facing `Down` onto `(16, 9)` (blocks the grass-free corridor at `(18..20, 8..11)`).
 
 <hr>
