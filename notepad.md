@@ -4104,7 +4104,8 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 4. [x] Speak with Steven Stone on the western shore terrace at (20, 35) (Turn 17868).
 5. [x] Accompany Steven to Cave of Origin entrance at (31, 18) (Turn 17875).
 6. [x] Enter Cave of Origin to locate Wallace and discuss Rayquaza (Turn 17877 at 9, 20).
-7. [ ] Journey to Sky Pillar to awaken Rayquaza and quell the ancient conflict!
+7. [x] Spoke with Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
+8. [ ] Journey to Sky Pillar on Route 131 to awaken Rayquaza and quell the ancient conflict!
 
 ## Discovered Topography & Navigation
 - Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays prompts to surface.
