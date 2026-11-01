@@ -5,10 +5,10 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 12) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 12 stats: 35/21/20/18/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
-| Littleroot Town | Luvdisc (F, Lv 11) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 11 stats: 32/12/17/16/22/28; Moves: `Secret Power`, `Charm` |
+| Littleroot Town | Luvdisc (F, Lv 12) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 12 stats: 34/12/18/17/24/30; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Cleffa (F, Lv 3) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 3 stats: 16/6/5/7/8/6; Moves: `Present`, `Attract` |
 | Route 103 | Wingull (F, Lv 4) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 4 stats: 18/7/7/10/7/12; Moves: `Wing Attack`, `Water Gun` |
-| Route 102 | Ralts (F, Lv 4) | PSYCHE | Active | Relaxed (+Def, -Speed), `Synchronize`; caught at `(39, 6)` in tall grass; Lv 4 stats: 17/7/7/8/8/7; Moves: `Confusion` |
+| Route 102 | Ralts (F, Lv 11) | PSYCHE | Active | Relaxed (+Def, -Speed), `Synchronize`; caught at `(39, 6)` in tall grass; Lv 11 stats: 29/12/11/15/13/13; Moves: `Confusion`, `Teleport` (Lv 8), `Secret Power` (Lv 11) |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
