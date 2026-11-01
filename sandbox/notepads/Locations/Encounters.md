@@ -11,7 +11,7 @@
 | Route 104 | Jigglypuff (F, Lv 15) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 15 stats: 60/20/11/23/12/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
 | Petalburg Woods | Oddish (M, Lv 15) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 15 stats: 41/21/24/30/25/15; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
-| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+| Route 116 | Yanma (M, Lv 9) | BOREAS | Active | Caught at `(4, 15)` in tall grass |
 
 ## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
 - **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
