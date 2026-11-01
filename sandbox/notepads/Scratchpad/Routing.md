@@ -93,3 +93,12 @@
       3. `Charmander` (M, Lv 9, `Flame Wheel`, holds `Oran/Sitrus Berry`)
       4. `Bulbasaur` (M, Lv 9, holds `Oran Berry`)
       5. `Squirtle` (M, Lv 9, `Fake Out`)
+
+## Rustboro City
+- **Southern Entrance**: Enters from Route 104 North `(17..20, 0)` onto `(19, 59)`.
+- **Landmarks**:
+  - **Poke Mart**: Door at `(16, 45)` (building covers `x=14..17, y=42..45` with a streetlamp at `(18, 45)`; use `x=19..21` for the main vertical avenue).
+  - **Pokemon Center**: Door at `(16, 38)`.
+  - **Cutter's House**: Door at `(9, 38)`; Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`).
+  - **Pokemon Trainer's School**: Door at `(27, 34)` (fountain at `(27, 38)`); NPC at `(5, 3)` inside has no interaction script in this hack.
+  - **Eastern Exit (to Route 116)**: Pass west of the `(34..35, 31)` iron fence along `x=33` (`y=35 -> y=27`), then walk `Right` onto Route 116.
