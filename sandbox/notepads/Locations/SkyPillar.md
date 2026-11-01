@@ -24,5 +24,6 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
   - Cave Exit Warp: The bright oval light patch at (14, 4) is the exit warp! Stepping DOWN on (14, 4) warps player outside to Sky Pillar Exterior at (17, 14).
 - Exterior Base:
   - Sandy mountain plateau surrounded by sea rocks.
-  - Player arrives at (17, 14) facing Wallace at (16, 14).
-  - Tower entrance doorway is directly north at (16..17, 13).
+  - Tower approach path leads to the base at (14, 7).
+  - Wallace stands at (14, 6) directly in front of the Sky Pillar tower entrance doorway at (14, 5).
+  - Extreme weather effects active on the summit exterior.
