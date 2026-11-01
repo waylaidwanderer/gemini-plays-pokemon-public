@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc (F, Lv 12) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 12 stats: 34/12/18/17/24/30; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Cleffa (F, Lv 12) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 12 stats: 34/12/10/16/20/9; Moves: `Present`, `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
 | Route 103 | Wingull (F, Lv 14) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 13 stats: 36/13/13/22/13/30; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
-| Route 102 | Ralts (F, Lv 12) | PSYCHE | Active | Relaxed (+Def, -Speed), `Synchronize`; caught at `(39, 6)` in tall grass; Lv 12 stats: 31/13/12/16/14/14; Moves: `Confusion`, `Teleport` (Lv 8), `Secret Power` (Lv 11) |
+| Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 12) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 12 stats: 34/10/14/11/15/11; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 7) | EUTERPE | Boxed (Box 1) | Caught at `(24, 59)` in tall grass |
 | Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
