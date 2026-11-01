@@ -275,6 +275,6 @@
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
     - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
-    - Team (4 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13).
+    - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15).
 
 <hr>
