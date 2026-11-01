@@ -4160,15 +4160,9 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Floor 5F connects to 4F via these archways.
 - Central pit dominates the lower half of each floor, with perimeter corridors wrapping around.
 - Rayquaza rests on the Summit (6F) above.
-## Floor 4F & 5F Navigation Architecture (Verified Turn 18565)
-- Floor 4F / 5F Interconnection:
-  - North wall features three archways: Left (col 3), Middle (col 7), and Right (col 11).
-  - The middle archway at (7, 1..2) connects between floors into a confined pocket flanked by rock clusters.
-  - On the upper floor at (7, 2):
-    - East (8, 2) is blocked by a rock cluster.
-    - South (row 3) is blocked by a continuous horizontal wall of rock boulders extending across cols 2..10.
-    - West along row 2 (cols 6 down to 3) is completely open.
-  - At (3, 2), the Left Archway at (3, 1) contains an ascending staircase leading up toward the higher floors/Summit.
+- Floor 4F/5F: North wall has archways at (3, 1), (7, 1), and (11, 1).
+- At (3, 2), the western corridor (cols 1..3) is completely open to the south along the west edge of the central pit.
+- Route: Walk south along the western corridor (cols 1..3) around the central pit toward the southern and eastern corridors.
 
 <hr>
 
