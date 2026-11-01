@@ -104,3 +104,14 @@
   - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=24..35, y=25`; Trade Boy is inside at `(4, 4)`).
   - **Rustboro Gym & Adjacent House**: Rustboro Gym door at `(27, 19)`; house east of Gym has door at `(33, 19)` (doormat inside at `(5, 7)`).
   - **Eastern Exit (to Route 116)**: From the main avenue at `(21, 20)`, walk `Up x9` to `(21, 11)` and `Right x19` onto Route 116 `(0, 11)` (tall grass starts at `(4, 13..15)`).
+
+## Route 116
+- **Western Entrance**: Enters from Rustboro City `(39, 11)` onto `(0, 11)`.
+- **Tall Grass & Berry Trees**:
+  - **Western Tall Grass Patch**: Located at `(4, 13..15)` (observed wild species: `Yanma` Lv 9 with `Speed Boost` and `Silver Wind`).
+  - **Grass-Free Northern Path**: From `(3, 11)`, walk `Up x6` to `(3, 5)` and `Right x10` along `y=5` to `(13, 5)` -> `Down` to `(13, 6)` -> `Right x2` to `(15, 6)`.
+  - **4-Tree Berry Patch (`(18..21, 2)`)**: Enclosed behind Cut trees at `(17, 4), (18..22, 5..7)` above a left-facing ledge at `x=16, y=2..7`; contains `Chesto Berry` trees at `(19..20, 2)` (return immediately after defeating Roxanne and earning the Stone Badge to cut through and auto-refill `Chesto Berries` to 99).
+- **Trainers**:
+  - **Bird Keeper Johnson** at `(15, 7)` facing `Left` across `(11..14, 7)` (can be challenged grass-free from `(15, 6)` facing `Down`; 3 Pokemon: `Hoothoot` Lv 9 [`Hypnosis`, `Confusion`], `Swablu` Lv 9 [`Natural Cure`; `Sing`, `Rest`], `Natu` Lv 9 [`Confuse Ray`, `Confusion`, `Night Shade`]).
+  - **Hiker Devan** at `(10, 7)` facing `Right` across `(11..14, 7)` (4 Pokemon: `Geodude` Lv 10 [`Rock Tomb`, `Dig`, holds `Sitrus Berry`], `Diglett` Lv 9 [`Dig`], `Trapinch` Lv 9–10, and 1 remaining Pokemon).
+  - **Lass** at `(16, 8)` facing `Down` onto `(16, 9)` (blocks the grass-free corridor at `(18..20, 8..11)`).
