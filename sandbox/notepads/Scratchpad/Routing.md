@@ -137,7 +137,7 @@
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
-    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
+    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP, `Hypnosis`, Flying move), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, **`Earthquake`** [100 BP], 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (just south of Gym Leader Roxanne's platform stairs).
