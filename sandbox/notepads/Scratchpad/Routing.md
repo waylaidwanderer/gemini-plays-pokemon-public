@@ -131,4 +131,5 @@
 - **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
-  - **First Central-Corridor Gym Trainer (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
+  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
+    - Team (4 Pokemon): `Geodude` (M, Lv 11, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 11).
