@@ -26,3 +26,8 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 - Sea rocks border north at (9..13, 11..13) and (15, 12).
 - Swimmer visible to the south at (10..11, 22).
 - Swimmer ♂ Herman: Defeated at (17, 19) on Turn 18269 (Wingull Lv 33, Tentacruel Lv 33; prize ¥264). Stationed at (17, 19).
+## Topography & Rock Obstacles (Cols 15..34)
+- Northern Pocket (cols 14..17, rows 10..13): Cul-de-sac completely walled off by submerged rocks at (16, 11), (17, 11) and brown rocks. Not a viable path north.
+- Rock Cluster (cols 24..33, rows 20..24): Submerged rocks at (24, 21), (25, 20..21), (26, 22), brown rocks at (24, 18), (27, 21), and central flat cliff at (29..33, 22..24).
+- Southern Bypass Highway: Row 25 runs clear under the rocks past cols 24..30 toward the eastern channels.
+- Swimmer ♀ Susie: Stationed at (26, 25) on Route 131 (engaged Turn 18282).
