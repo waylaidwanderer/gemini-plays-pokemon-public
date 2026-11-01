@@ -7,8 +7,8 @@
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
 | Route 103 | Skitty (F, Lv 13) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 13 stats: 38/19/16/14/14/18; Moves: `Teeter Dance` (Lv 13), `Attract`, `Sing`, `Secret Power` (Lv 7) |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
-| Petalburg City | Luvdisc (M, Lv 13) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 13 stats: 34/14/22/18/25/33; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 104 | Natu (M, Lv 13) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 13 stats: 34/19/18/23/17/26; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
+| Petalburg City | Luvdisc (M, Lv 14) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 14 stats: 36/15/23/19/27/36; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Route 104 | Natu (M, Lv 14) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 14 stats: 36/20/19/24/18/28; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)

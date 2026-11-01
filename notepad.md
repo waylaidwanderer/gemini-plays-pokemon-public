@@ -9,8 +9,8 @@
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
 | Route 103 | Skitty (F, Lv 13) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 13 stats: 38/19/16/14/14/18; Moves: `Teeter Dance` (Lv 13), `Attract`, `Sing`, `Secret Power` (Lv 7) |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
-| Petalburg City | Luvdisc (M, Lv 13) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 13 stats: 34/14/22/18/25/33; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 104 | Natu (M, Lv 13) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 13 stats: 34/19/18/23/17/26; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
+| Petalburg City | Luvdisc (M, Lv 14) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 14 stats: 36/15/23/19/27/36; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Route 104 | Natu (M, Lv 14) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 14 stats: 36/20/19/24/18/28; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
@@ -222,7 +222,7 @@
     - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Pay Day`, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
-    - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Confuse Ray`, `Ember`, `Disable`).
+    - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Confuse Ray`, `Ember`, `Disable`, `Bite`).
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on horizontal bridge section):
     - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). Focus physical attacks (`Secret Power` / `Acid`) to break `Focus Punch` and overwhelm `Follow Me` recovery.
   - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge; defeated Turn 723):
