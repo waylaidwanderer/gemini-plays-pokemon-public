@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 9) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 9 stats: 28/17/16/14/16/14; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7) |
+| Starter (Route 101) | Mudkip (F, Lv 10) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 10 stats: 30/18/17/16/17/15; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
