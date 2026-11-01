@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 15) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 15 stats: 41/26/24/21/24/19; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); declined `Bide` (Lv 15) |
+| Starter (Route 101) | Mudkip (F, Lv 15) | AGALATEA | Deceased | Fainted Turn 1384 to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`) after in-battle party slot swap (`Slot 1 <-> Slot 5`) sent `AGALATEA` in instead of `EUTERPE` |
 | Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Deceased | Fainted Turn 1288 to overworld poison ticks (`72 steps`) after Koffing's `Toxic` in Petalburg Woods |
 | Route 101 | Cleffa (F, Lv 14) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 14 stats: 38/13/11/18/23/10; Moves: `Sweet Kiss` (Lv 13), `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
 | Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Docile (neutral), `Keen Eye`; Moves: `Supersonic` (Lv 21), `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13); benched Turn 1295 at Lv 21 (unbench after Brawly when cap reaches Lv 29) |
