@@ -12,7 +12,7 @@
 | Petalburg City | Luvdisc (M, Lv 15) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 15 stats: 38/15/25/20/28/38; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 104 | Natu (M, Lv 15) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 15 stats: 38/21/20/26/19/29; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
-| Route 115 | Kabuto (M, Lv 14) | NEREUS | Active | +SpAtk nature; caught at `(7, 71)` with Old Rod into Party Slot 6; Lv 14 stats: 32/29/27/26/21/20; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13) |
+| Route 115 | Kabuto (M, Lv 14) | NEREUS | Active | Mild (+SpAtk, -Def), `Swift Swim`; caught at `(7, 71)` with Old Rod into Party Slot 6; Lv 14 stats: 32/29/27/26/21/20; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13) |
 | Route 116 | Makuhita (F, Lv 9) | BELLONA | Boxed (Box 1) | Caught at `(5, 14)`; knows `SmellingSalt`, `Faint Attack` |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
@@ -273,7 +273,7 @@
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)` (walks 2 tiles left from `(8, 14)` to `(6, 14)`, opening the far-right `x=8` corridor `(8, 15) -> (8, 11)` behind the right display case!).
-    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 11, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`).
+    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Watches across the 1-tile gap between the left display cases into `(5, 12)` (can be bypassed via the eastern `x=8` corridor `(8, 14) -> (8, 11)` after School Kid Josh moves to `(6, 14)`!).
     - Team (3 Pokemon): `Aron` (M, Lv 13, 267 EXP), `Yanma` (M, Lv 11, 183 EXP, `Speed Boost`, `Giga Drain`), `Rhyhorn` (M, Lv 15, **`Megahorn`** [120 BP]).
 
