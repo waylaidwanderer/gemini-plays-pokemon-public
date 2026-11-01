@@ -1972,8 +1972,9 @@ A peaceful settlement floating on wooden rafts atop a coral reef in the ocean of
   - Mirage Island Watcher: Old man in southeast house looking for Mirage Island.
 
 ## Progression Checklist - Pacifidlog Town
-1. [ ] Enter Pacifidlog Town and register flight checkpoint.
-2. [ ] Heal party at Pokémon Center (restore Sage's Leaf Blade PP).
+1. [x] Entered Pacifidlog Town from Route 131 (Turn 18185)! Flight checkpoint registered.
+2. [ ] Visit Pokémon Center to heal party and restore Sage's Leaf Blade PP to 15/15.
+3. [ ] Surf east onto Route 131 along northern rocks to enter Sky Pillar.
 
 <hr>
 
