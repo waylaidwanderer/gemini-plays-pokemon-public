@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | — | — | Pending | Choose `Mudkip` (middle bag ball) |
+| Starter (Route 101) | Mudkip (F, Lv 5) | GALATEA | Active | Rightmost ball in Birch's Bag (`Right, A, A`) |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
@@ -159,7 +159,7 @@
 - **Landmarks**: Player's House (East, Female Protagonist): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` above the dining table so exit via `Left x4` to `(2, 5)` then `Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`, TV at `(4, 1)`, bedroom PC at `(6, 1)`); Rival's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`); Birch's Lab: door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`).
 - **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, Mom stands at `(14, 9)` outside the Player's House. Interact with her from `(14, 10)` facing `Up` to receive the Running Shoes.
 - **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod (route from `(14, 10)` after receiving Running Shoes via `Down x2` to `(14, 12)`, `Right x3` to `(17, 12)`, `Down` to `(17, 13)`, `Right`; or from `(10, 12)` via `Right x7` along `y=12` to `(17, 12)`, then `Down` to `(17, 13)`).
-- **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..15`) to bypass the wandering NPC near `(10..11, 12..14)`.
+- **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..15`) to bypass the wandering NPC near `(10..11, 12..14)`. Before rescuing Birch, a girl stands at `(10, 1)` and triggers a one-time dialogue when stepping onto `(11, 1)` before allowing passage north onto Route 101 via `(11, 0)`.
 
 ## Route 101
 - **Birch's Bag Rescue**: Cutscene places player at `(11, 15)` on Route 101; Birch's Bag is at `(7, 14)` (walk `Up` to `(11, 14)`, `Left x3` to `(8, 14)`, `sleep 300`, `A` to open Bag, `Right, A, A` to choose `Mudkip`).
