@@ -4,12 +4,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 10) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 10 stats: 32/19/16/17/16/13; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
-| Littleroot Town | Luvdisc (F, Lv 13) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 13 stats: 38/15/19/15/24/27; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Starter (Route 101) | Mudkip (M, Lv 14) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 14 stats: 40/24/20/22/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
+| Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 14 stats: 40/16/20/16/26/28; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 13 stats: 34/18/15/14/15/20; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9), `Swift` (Lv 13) |
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
-| Petalburg City | Luvdisc (M, Lv 5) | EROS | Active | Caught at `(12, 23)` pond with Old Rod |
+| Petalburg City | Luvdisc (M, Lv 13) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 13 stats: 34/14/22/18/25/33; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 104 | Natu (M, Lv 13) | APOLLO | Active | Caught at `(25, 59)`; Lv 13 stats: 34/19/18/23/17/26; Moves: `Psybeam`, `Night Shade` (Lv 10) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
