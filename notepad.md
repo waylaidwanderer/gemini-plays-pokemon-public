@@ -4147,7 +4147,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Arrived from 1F via stairs at (10, 2).
 - Layout: North corridor (rows 2..5) completely clear and intact without cracked tiles.
 - Story visit mechanic: In Pokémon Emerald's story event, Sky Pillar floors have intact solid floors (no cracked tiles/bike puzzles required).
-- Staircase to 3F located in northwest wall at (2, 2..1).
+- Staircase to 3F located in northwest wall at (3, 1..2).
 
 <hr>
 
