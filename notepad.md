@@ -4122,7 +4122,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 1. [x] Navigated Route 131 and entered Sky Pillar Entrance Cave at (36, 6) -> arrived at (6, 16) (Turn 18351).
 2. [x] Ascended cave stairs and exited through light patch at (14, 4) by pressing Down -> arrived outside at (17, 14) (Turn 18377)!
 3. [x] Met Wallace outside the Sky Pillar tower entrance at (16, 14) (Turn 18378)!
-4. [ ] Advance Wallace's dialogue as he unlocks the tower entrance.
+4. [x] Completed Wallace's dialogue unlocking the tower entrance (Turn 18378)!
 5. [ ] Enter Sky Pillar tower and ascend to the summit.
 6. [ ] Awaken Rayquaza!
 
@@ -4602,8 +4602,9 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Located Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
 4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
 5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
-6. [ ] Meet Wallace inside Sky Pillar, ascend tower, and awaken Rayquaza.
-7. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
+6. [x] Reached Sky Pillar exterior and met Wallace outside the tower (Turn 18378)!
+7. [ ] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza.
+8. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.

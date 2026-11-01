@@ -11,7 +11,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 1. [x] Navigated Route 131 and entered Sky Pillar Entrance Cave at (36, 6) -> arrived at (6, 16) (Turn 18351).
 2. [x] Ascended cave stairs and exited through light patch at (14, 4) by pressing Down -> arrived outside at (17, 14) (Turn 18377)!
 3. [x] Met Wallace outside the Sky Pillar tower entrance at (16, 14) (Turn 18378)!
-4. [ ] Advance Wallace's dialogue as he unlocks the tower entrance.
+4. [x] Completed Wallace's dialogue unlocking the tower entrance (Turn 18378)!
 5. [ ] Enter Sky Pillar tower and ascend to the summit.
 6. [ ] Awaken Rayquaza!
 

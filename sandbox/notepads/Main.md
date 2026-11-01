@@ -203,8 +203,9 @@
 3. [x] Located Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
 4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
 5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
-6. [ ] Meet Wallace inside Sky Pillar, ascend tower, and awaken Rayquaza.
-7. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
+6. [x] Reached Sky Pillar exterior and met Wallace outside the tower (Turn 18378)!
+7. [ ] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza.
+8. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
