@@ -11,7 +11,7 @@
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 12) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 12 stats: 34/10/14/11/15/11; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 7) | EUTERPE | Boxed (Box 1) | Caught at `(24, 59)` in tall grass |
-| Petalburg Woods | Oddish (M, Lv 8) | HYACINTH | Boxed (Box 1) | Caught at `(21, 35)` in tall grass; knows `Acid`; withdraw at Petalburg City PC |
+| Petalburg Woods | Oddish (M, Lv 8) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 8 stats: 26/13/15/18/15/9; Moves: `Mega Drain`, `Acid` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 
