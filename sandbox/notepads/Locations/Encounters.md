@@ -10,7 +10,7 @@
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
 | Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
 | Petalburg Woods | Weepinbell (F, Lv 17) | CHLORIS | Retired (Box until Stone Badge) | Bold (+Def), `Chlorophyll`; evolved into `Weepinbell` Turn 783; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15); reached Lv 17 Turn 778 vs Hiker Devan (deposit in PC until Roxanne is defeated) |
-| Route 116 | Yanma (F, Lv 15) | IRIS | Active | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
+| Route 116 | Yanma (F, Lv 15) | IRIS | Deceased | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13); fainted Turn 796 to School Kid Jerry's Lv 10 Phanpy's `Rock Tomb` (deposit in Box 1 after battle) |
 
 ## Attempt #1 Encounter History
 - **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
