@@ -1973,10 +1973,12 @@ A peaceful settlement floating on wooden rafts atop a coral reef in the ocean of
 
 ## Progression Checklist - Pacifidlog Town
 1. [x] Entered Pacifidlog Town from Route 131 (Turn 18185)! Flight checkpoint registered.
-2. [ ] Visit Pokémon Center to heal party and restore Sage's Leaf Blade PP to 15/15.
+2. [x] Visit Pokémon Center to heal party and restore Sage's Leaf Blade PP to 15/15 (Turn 18212).
 3. [ ] Surf east onto Route 131 along northern rocks to enter Sky Pillar.
 ## Discovered Topography & Navigation
+- Pokémon Center: Located on the north raft platform. Exterior door at (8, 15), entrance at (8, 16). Interior: entrance mat at (7, 8), Nurse Joy counter at (7, 3..4). Checkpoint and healing verified.
 - Southeast House (cols 14..20, rows 16..22 exterior): Mirage Island Watcher stands at the east window. Doorway at (4, 8) exits to (17, 22).
+- Walkway Mechanics: Log bridges and raft platforms are solid ground walkable on foot, but impassable barriers when surfing on water. To board water from rafts/logs, step to the edge facing open water and interact with A to Surf.
 - Flight Checkpoint: Confirmed permanently unlocked on Turn 18185! Pacifidlog Town is now an active destination on the Hoenn Fly Map.
 
 <hr>
@@ -4357,7 +4359,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: PACIFIDLOG TOWN REACHED! Flight checkpoint unlocked! Journeying to Sky Pillar on Route 131 to awaken Rayquaza with Wallace.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 58) - Evolved on turn 5632! Level 58 on turn 18177! Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (3/15), Quick Attack (30/30). Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 58) - Evolved on turn 5632! Level 58 on turn 18177! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 174/174. Status: OK. Nature: Lonely. Ability: Overgrow. (Fully Healed at Pacifidlog Center Turn 18212)
 2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 80/80. Max HP: 80. Status: OK. (Revived & Fully Healed Turn 17656)
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
