@@ -14,3 +14,4 @@ An ocean route in southern Hoenn connecting Route 128 on the north/east to Route
 
 - Northern entrance from Route 128 also connects at (43, 0..2) (Turn 17001).
 - Note: Bounded on east by southern cliff face of Route 128; grey ripple rocks sit at (38, 3 in R129) and (45, 1 in R129 / R128 border). North is open water back to Route 128.
+- Column 32 Rock & Column 35..37 Bypass: Northern entrance at col 32 is blocked at (32, 4) by a grey ripple rock. Bypass by shifting East to cols 35..37, which form a wide open 3-tile channel heading South past row 10 into the main ocean expanse.
