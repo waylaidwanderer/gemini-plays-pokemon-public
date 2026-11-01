@@ -6,11 +6,11 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 10) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 10 stats: 32/19/16/17/16/13; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | Luvdisc (F, Lv 13) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 13 stats: 38/15/19/15/24/27; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 101 | Pidgey (F, Lv 10) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 10 stats: 28/15/13/12/13/17; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9) |
+| Route 101 | Pidgey (F, Lv 13) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 13 stats: 34/18/15/14/15/20; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9), `Swift` (Lv 13) |
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 5) | EROS | Active | Caught at `(12, 23)` pond with Old Rod |
-| Route 104 | Natu (M, Lv 7) | APOLLO | Boxed (Box 1) | Caught at `(25, 59)`; knows `Psybeam` at Lv 7 |
+| Route 104 | Natu (M, Lv 13) | APOLLO | Active | Caught at `(25, 59)`; Lv 13 stats: 34/19/18/23/17/26; Moves: `Psybeam`, `Night Shade` (Lv 10) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
