@@ -4142,6 +4142,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Entrance from Exterior Base at (6, 13).
 - Arrived at (6, 12).
 - Layout: Central pit/barrier with perimeter corridors leading around it.
+- Staircase to 2F located in north wall around cols 10..11, row 2.
 
 <hr>
 
