@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 14 stats: 40/24/20/22/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 14 stats: 40/16/20/16/26/28; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 101 | Pidgey (F, Lv 13) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 13 stats: 34/18/15/14/15/20; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9), `Swift` (Lv 13) |
+| Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 13) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 13 stats: 34/14/22/18/25/33; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
@@ -54,7 +54,9 @@
      - Level party members to **Lv 12–13** for early routes (`Route 102`, `Route 104 South`), **Lv 14** for `Petalburg Woods` and `Route 104 North`, and **Lv 14–15** for **PKMN Trainer Red** (`(29, 8)` on Route 104 North; defeated easily in Attempt #2).
      - **DO NOT fight ANY trainers on Route 116 before defeating Roxanne!** Only catch the Route 116 wild encounter in the western tall grass at `(4, 13)` and the Route 115 Old Rod encounter on the trainer-free southern beach at `(7, 71)`. Save all Route 116 trainers until after defeating Roxanne (when the Level Cap advances to **Lv 20** and `HM01 Cut` unlocks the `Chesto Berry` patch at `(19..20, 2)`).
      - **Enter Rustboro Gym with a full 6-Pokemon party at Lv 14–15** (never Lv 16!) so your team has `6,000+ EXP` of buffer to clear the Gym Trainers (`School Kid Josh` gives `1,108 EXP` across 4 Pokemon; `School Kid Tammy` gives `~800 EXP` across 3 Pokemon), and **only Rare-Candy up to Lv 16 when standing directly in front of Gym Leader Roxanne!**
-  2. **Respect Omniscient `Pursuit` AI**: Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (such as Petalburg Woods Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`.
+  2. **Respect Omniscient `Pursuit` AI & Never Blind-Chain Battle Turns**:
+     - Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (such as Petalburg Woods Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`.
+     - **Never start a trainer battle AND clamp move slots in the same blind `press_buttons` call** (if `sleep 5500` runs before `"[TRAINER] would like to battle!♥"` is dismissed, your move-slot clamp fires during the send-out animation and defaults to Move Slot 1). Instead, advance the trainer intro with `["B", "sleep 1200"] * 10` so you visually confirm `"What will [POKEMON] do?"` first, and only execute 1–3 combat turns per turn so you can react to status/damage.
   3. **9 Pre-Roxanne Encounter Locations**:
      1. `Starter` (Route 101 bag)
      2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right`)
