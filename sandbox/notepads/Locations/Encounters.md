@@ -8,7 +8,7 @@
 | Route 103 | Wingull (F, Lv 14) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 13 stats: 36/13/13/22/13/30; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Active | Relaxed (+Def, -Speed), `Synchronize`; caught at `(39, 6)` in tall grass; Lv 12 stats: 31/13/12/16/14/14; Moves: `Confusion`, `Teleport` (Lv 8), `Secret Power` (Lv 11) |
 | Petalburg City | Azurill (M, Lv 12) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 12 stats: 34/10/14/11/15/11; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
-| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 104 | Jigglypuff (F, Lv 7) | EUTERPE | Boxed (Box 1) | Caught at `(24, 59)` in tall grass |
 | Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
