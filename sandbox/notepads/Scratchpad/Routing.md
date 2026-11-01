@@ -91,8 +91,8 @@
   - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge; defeated Turn 723):
     - Team (5 Pokemon):
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
-      2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, holds `Oran/Sitrus Berry`)
-      3. `Charmander` (M, Lv 9, `Flame Wheel`, holds `Oran/Sitrus Berry`)
+      2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, `Surf`, holds `Oran/Sitrus Berry`)
+      3. `Charmander` (M, Lv 9, `Flame Wheel`, `Bite`, holds `Oran/Sitrus Berry`)
       4. `Bulbasaur` (M, Lv 9, holds `Oran Berry`)
       5. `Squirtle` (M, Lv 9, `Fake Out`)
 
