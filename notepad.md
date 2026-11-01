@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 13) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 13 stats: 38/15/19/15/24/27; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Pidgey (F, Lv 10) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 10 stats: 28/15/13/12/13/17; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9) |
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
-| Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Active | Impish (+Def, -SpAtk), **`Insomnia`** (prevents sleep!); caught at `(38, 6)`; Lv 12 stats: 39/12/14/13/21/18; Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace` (Lv 11) |
+| Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 5) | EROS | Active | Caught at `(12, 23)` pond with Old Rod |
 | Route 104 | Natu (M, Lv 7) | APOLLO | Boxed (Box 1) | Caught at `(25, 59)`; knows `Psybeam` at Lv 7 |
 
