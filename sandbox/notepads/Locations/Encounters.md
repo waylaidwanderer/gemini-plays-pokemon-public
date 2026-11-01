@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased (Box 1) | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 |
-| Littleroot Town | Luvdisc (M, Lv 16) | EROS | Active | Caught at `(17, 13)` pond; Lv 16 stats: 39/15/20/20/28/40; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
+| Littleroot Town | Luvdisc (M, Lv 17) | EROS | Retired (Box until Stone Badge) | Caught at `(17, 13)` pond; Lv 17 stats: 41/16/21/21/30/42; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16); reached Lv 17 Turn 858 vs School Kid Tammy (deposit in Box 1 until Roxanne is defeated) |
 | Route 101 | Poochyena (F, Lv 17) | AHECATE | Retired (Box 1 until Stone Badge) | Quirky, `Run Away`; Lv 16 stats: 37/23/18/16/16/21; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle`; reached Lv 17 Turn 793 vs School Kid Karen & Jerry; deposited in Box 1 Turn 807 |
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 16) | HERMES | Active | Lv 16 stats: 38/23/20/18/22/41; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12), `Bite` (Lv 16) |
