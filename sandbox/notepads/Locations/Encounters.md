@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Deceased | Fainted at Lv 15 to School Kid Tammy's Lv 15 Larvitar (`Earthquake`) in Rustboro Gym |
 | Littleroot Town | Luvdisc (F, Lv 20) | APHRODITE | Benched (Cap) | Sassy (+SpDef, -Speed), `Swift Swim`; learned `Ice Beam` at Lv 16; benched until Roxanne is defeated (eligible for Brawly Lv 20 cap) |
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
-| Route 103 | Skitty (F, Lv 15) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 15 stats: 43/22/18/16/15/19; Moves: `Fake Out` (Lv 15), `Attract`, `Sing`, `Secret Power` (Lv 7) |
+| Route 103 | Skitty (F, Lv 15) | SELENE | Deceased | Fainted at Lv 15 to Hiker Marc's Lv 14 Kabuto (`Giga Drain`) in Rustboro Gym |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 16) | EROS | Deceased | Fainted at Lv 16 to Hiker Marc's Lv 14 Kabuto (`Giga Drain`) in Rustboro Gym |
 | Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
