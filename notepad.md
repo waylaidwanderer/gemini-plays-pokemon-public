@@ -13,6 +13,7 @@
 | Route 104 | Natu (M, Lv 15) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 15 stats: 38/21/20/26/19/29; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
 | Route 115 | Kabuto (M, Lv 9) | NEREUS | Active | Caught at `(7, 71)` with Old Rod into Party Slot 6; knows `Rock Tomb`, `Water Pulse` |
+| Route 116 | Makuhita (F, Lv 9) | BELLONA | Boxed (Box 1) | Caught at `(5, 14)`; knows `SmellingSalt`, `Faint Attack` |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
@@ -248,7 +249,7 @@
 ## Route 116
 - **Western Entrance**: Enters from Rustboro City `(39, 11)` onto `(0, 11)`.
 - **Tall Grass & Berry Trees**:
-  - **Western Tall Grass Patch**: Located at `(4, 13..15)` (observed wild species: `Yanma` Lv 9 with `Speed Boost` and `Silver Wind`, `Grimer` Lv 9).
+  - **Western Tall Grass Patch**: Located at `(4..7, 12..16)` (note: `(5, 13)` is a bare dirt tile inside the patch; observed wild species: `Yanma` Lv 9 with `Speed Boost` and `Silver Wind`, `Grimer` Lv 9, `Makuhita` Lv 9 with `SmellingSalt` and `Faint Attack`).
   - **Grass-Free Northern Path**: Eastbound from `(0, 11)`, walk `Right x3` to `(3, 11)`, `Up x4` to `(3, 7)`, `Right x3` to `(6, 7)`, `Up` to `(6, 6)` (trees block `x=1..5, y=5..6` and `(2, 7)`, and signpost is at `(5, 10)`), and `Right x9` along `y=6` to `(15, 6)` (or `Right x8` to `(14, 6)` -> `Down` to `(14, 7)`). Westbound from `(14, 7)`, walk `Up` to `(14, 6)`, `Left x8` to `(6, 6)`, `Down` to `(6, 7)`, `Left x3` to `(3, 7)`, `Down x3` to `(3, 10)`, and `Left x4` into Rustboro City `(39, 10)`. From `(16, 9)` (between School Kid Karen at `(16, 8)` and School Kid Jerry at `(16, 11)`), the shortest exit back to `(14, 7)` crosses only 3 tall grass tiles (`Left` to `(15, 9)`, `Up` to `(15, 8)`, `Left` to `(14, 8)`, `Up` to `(14, 7)`).
   - **4-Tree Berry Patch (`(18..21, 2)`) & Eastern Ridge**: Enclosed behind Cut trees at `(17, 4), (18..22, 5..7)` above a ridge at `x=16, y=2..7`; contains `Chesto Berry` trees at `(19..20, 2)`. A second Cut tree at `(25, 5)` guards an item ball at `(25, 4)`. The impassable ridge continues along `y=7` (`x=16..20`) and `x=20` (`y=7..12`), forcing non-Cut travel south through `y=13` between the trainers at `(16, 13)` (Lass facing `Right`) and `(20, 13)` (Youngster/Bug Catcher facing `Left`). Defeat Roxanne first to earn the Stone Badge (unlocking overworld `Cut` and raising the Level Cap to Lv 20) before clearing the eastern half of Route 116.
 - **Trainers**:
