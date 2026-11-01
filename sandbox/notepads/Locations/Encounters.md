@@ -7,7 +7,7 @@
 | Route 101 | Cleffa (F, Lv 12) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 12 stats: 34/12/10/16/20/9; Moves: `Present`, `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
 | Route 103 | Wingull (F, Lv 14) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 13 stats: 36/13/13/22/13/30; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Active | Relaxed (+Def, -Speed), `Synchronize`; caught at `(39, 6)` in tall grass; Lv 12 stats: 31/13/12/16/14/14; Moves: `Confusion`, `Teleport` (Lv 8), `Secret Power` (Lv 11) |
-| Petalburg City | Azurill (M, Lv 5) | GLAUCUS | Active | Caught at `(12, 23)` with Old Rod; inspect Nature/Ability (`Huge Power` / `Thick Fat`) and level to Lv 13 (`BubbleBeam`) |
+| Petalburg City | Azurill (M, Lv 5) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 5 stats: 20/7/9/7/9/7; Moves: `Water Gun`, `Charm` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
