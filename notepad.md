@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 5) | AGALATEA | Active | Rightmost ball in Birch's Bag (`Right, A, A`) |
+| Starter (Route 101) | Mudkip (F, Lv 9) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 9 stats: 28/17/16/14/16/14; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7) |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
