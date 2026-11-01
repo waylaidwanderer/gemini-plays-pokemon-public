@@ -4153,6 +4153,8 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - North corridor blocked by rock rubble at (4, 2), (5, 3), (5, 4) and central pit.
 - Target staircase to 4F visible in north wall at (7, 1..2).
 - Route: Move South along western corridor (col 3), loop around south edge of central pit, and ascend eastern corridor to (7, 1).
+- Right staircase located at col 11, row 1 with unobstructed approach corridor along col 11.
+- Middle staircase located at col 5..6, row 1.
 
 <hr>
 
