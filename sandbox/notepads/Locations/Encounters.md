@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 10) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 10 stats: 30/18/17/16/17/15; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
-| Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
+| Route 101 | Cleffa (F, Lv 3) | ASTRAEA | Active | Caught at `(5, 15)` in tall grass; knows `Attract`, `Present` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
