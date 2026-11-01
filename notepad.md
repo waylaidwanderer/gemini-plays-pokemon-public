@@ -10,7 +10,7 @@
 | Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Benched Turn 1295 at Lv 21 (accidental Rare Candies; unbench after Brawly when cap reaches Lv 29) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 14) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 14 stats: 38/11/16/12/17/12; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
-| Route 104 | Jigglypuff (F, Lv 7) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 7 stats: 33/12/8/13/8/8; Moves: `Sing`, `Pound` |
+| Route 104 | Jigglypuff (F, Lv 14) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 14 stats: 56/19/11/22/12/12; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
 | Petalburg Woods | Oddish (M, Lv 14) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 14 stats: 38/20/22/28/23/14; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
