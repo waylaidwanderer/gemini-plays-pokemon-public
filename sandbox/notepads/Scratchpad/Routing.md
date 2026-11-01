@@ -126,3 +126,9 @@
   - **Beach Trainer** at `(11, 61)` facing `Right` across the northern beach staircase at `(14, 61)` (item ball at `(20, 60)` is on the northern beach shoreline).
 - **Old Rod Encounter (`(7, 71)` facing `Left`)**:
   - **Wild `Kabuto`** (M, Lv 9; knows `Rock Tomb` and `Water Pulse`).
+
+## Rustboro Gym
+- **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
+- **Corridor Layout & Trainers**:
+  - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
+  - **First Central-Corridor Gym Trainer (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
