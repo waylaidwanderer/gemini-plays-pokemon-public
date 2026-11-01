@@ -94,7 +94,7 @@
       2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, `Surf`, holds `Oran/Sitrus Berry`)
       3. `Charmander` (M, Lv 9, `Flame Wheel`, `Bite`, holds `Oran/Sitrus Berry`)
       4. `Bulbasaur` (M, Lv 9, holds `Oran Berry`)
-      5. `Squirtle` (M, Lv 9, `Fake Out`)
+      5. `Squirtle` (M, Lv 9, `Fake Out`, `Bite`, holds `Berry Juice`)
 
 ## Rustboro City
 - **Southern Entrance**: Enters from Route 104 North `(17..20, 0)` onto `(19, 59)`.
