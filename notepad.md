@@ -180,7 +180,7 @@
 - **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
 - **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7).
 - **Fast Grass-Free Southbound Shortcut (Petalburg Woods to Petalburg City)**: Going southbound from `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along the grass-free `x=25` column (jumping the ledge at `(25, 55)` just east of the `(22..24, 56..61)` tall grass patch) to `(25, 62)`, and `Right x15` along `y=62` straight into Petalburg City `(0, 12)`.
-- **Beach Staircase**: Located at `(28..29, 70)` (northern beach stairs at `(16..17, 55)`).
+- **Beach Staircase**: Located at `(28..29, 70)` (step down to `y=71` before moving `Left` onto the sand; northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
   - **Friendly Boy** at `(28, 74)` on the shoreline.
   - **Bird Keeper Billy** at `(23, 66)` facing `Left` (3 Pokemon: `Pidgey` Lv 7 [holds `Berry Juice`], `Wingull` Lv 7 [`Supersonic`, `Water Gun`, `Gust`], `Taillow` Lv 7).
