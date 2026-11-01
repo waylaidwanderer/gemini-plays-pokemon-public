@@ -16,3 +16,4 @@ An ocean route in southern Hoenn connecting Route 128 on the north/east to Route
 - Note: Bounded on east by southern cliff face of Route 128; grey ripple rocks sit at (38, 3 in R129) and (45, 1 in R129 / R128 border). North is open water back to Route 128.
 - Column 32 Rock & Column 35..37 Bypass: Northern entrance at col 32 is blocked at (32, 4) by a grey ripple rock. Bypass by shifting East to cols 35..37, which form a wide open 3-tile channel heading South past row 10 into the main ocean expanse.
 - Swimmer ♂ Reed: Defeated at (36, 9) on Turn 18075 (Spheal Lv 33, Sharpedo Lv 33, prize ¥264). Stationed at (35, 9).
+- Westbound Channel to Route 130: From (36, 15), water runs west along rows 14..15. Swimmer ♀ is stationed at (14, 16). Row 14 provides an unobstructed northern bypass channel beneath the cliff, running straight West to Column 0 into Route 130.
