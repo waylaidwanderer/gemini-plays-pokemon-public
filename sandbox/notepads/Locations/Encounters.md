@@ -8,7 +8,7 @@
 | Route 103 | Skitty (F, Lv 15) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 15 stats: 43/22/18/16/15/19; Moves: `Fake Out` (Lv 15), `Attract`, `Sing`, `Secret Power` (Lv 7) |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 15) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 15 stats: 38/15/25/20/28/38; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 104 | Natu (M, Lv 15) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 15 stats: 38/21/20/26/19/29; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
+| Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
 | Route 115 | Kabuto (M, Lv 14) | NEREUS | Active | Mild (+SpAtk, -Def), `Swift Swim`; caught at `(7, 71)` with Old Rod into Party Slot 6; Lv 14 stats: 32/29/27/26/21/20; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13) |
 | Route 116 | Makuhita (F, Lv 9) | BELLONA | Boxed (Box 1) | Caught at `(5, 14)`; knows `SmellingSalt`, `Faint Attack` |
