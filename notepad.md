@@ -3766,14 +3766,17 @@ A vast open ocean route in southern Hoenn connecting Route 129 on the east (col 
 
 ## Progression Checklist - Route 130
 1. [x] Entered Route 130 from Route 129 at (79, 17) (Turn 18094).
-2. [ ] Surf west across Route 130 to Route 131 boundary (col 0).
+2. [x] Traversed Route 130 to Route 131 boundary (col 0) (Turn 18151).
 
 ## Trainers - Route 130
 - Swimmer ♂ Rodney: Defeated at (70, 15) on Turn 18106 (Gyarados Lv 34, prize ¥272). Stationed at (69, 15).
+- Swimmer ♂ Santiago: Defeated at (7, 28) on Turn 18140 (Tentacruel Lv 33, Wailmer Lv 33, prize ¥264). Stationed at (7, 29).
+- Swimmer ♀ Katie: Defeated at (7, 28) on Turn 18148 (Goldeen Lv 33, Spheal Lv 33, prize ¥264). Stationed at (7, 27).
 
 ## Discovered Topography & Navigation
 - Central Island & Southern Highway: Brown island sits at cols 55..60, rows 14..17 with pointed rocks at (61, 17..18) and (60..61, 13). The open progression route is the southern ocean highway along rows 20..24, which runs unobstructed straight West underneath the island toward Route 131.
-- Swimmer ♂: Stationed at (7, 29) facing North, challenged at (7, 28) (Turn 18135).
+- Western Channel (cols 0..10, rows 25..28): Flanked by Swimmers Katie (7, 27) and Santiago (7, 29). Rows 27..28 run unobstructed straight West into Route 131 at Column 0.
+
 
 <hr>
 
@@ -4304,7 +4307,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: CAVE OF ORIGIN CLEARED! Wallace dispatched to Sky Pillar on Route 131! Surfing south through Route 127/128/129 towards Route 130/131 to awaken Rayquaza.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (9/15), Quick Attack (30/30). HP: 164/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169.
+1. SAGE (Sceptile ♂, Level 57) - Evolved on turn 5632! Level 57 on turn 17635! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (4/15), Quick Attack (30/30). HP: 164/174. Max HP: 174. Status: OK. Nature: Lonely. Ability: Overgrow. Stats at Lv 57: HP 174, Atk 128, Def 93, Sp.Atk 140, Sp.Def 126, Speed 169.
 2. LILZ (Lombre ♀, Level 28) - Evolved from Lotad on turn 4926! Level 28 on turn 16536! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 80/80. Max HP: 80. Status: OK. (Revived & Fully Healed Turn 17656)
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
