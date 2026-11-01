@@ -46,7 +46,9 @@
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
 - **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7).
-- **True 100% Grass-Free & Ledge-Free Corridor (`x=21`, Petalburg Woods <-> Petalburg City)**: Going southbound from `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x14` straight along the grass-free, ledge-free `x=21` sand ramp (just west of the `(22..24, 56..61)` tall grass patch) to `(21, 62)`, and `Right x16` along `y=62` straight into Petalburg City `(0, 12)` (reverse this exact path going northbound!).
+- **Southbound & Northbound Shortcuts (Petalburg Woods <-> Petalburg City)**:
+  - **Southbound**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along `x=25` (jumping the ledge at `(25, 55)` onto `(25, 57)` which is 1 grass tile, while `(25, 58..62)` is bare) to `(25, 62)`, and `Right x12` along `y=62` straight into Petalburg City `(0, 12)`.
+  - **Northbound (100% Grass-Free)**: From `(36, 62)`, walk `Left x8` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.
 - **Beach Staircase**: Located at `(28..29, 70)` (step down to `y=71` before moving `Left` onto the sand; northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
   - **Friendly Boy** at `(28, 74)` on the shoreline.
