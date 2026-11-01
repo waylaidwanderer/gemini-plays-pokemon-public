@@ -20,3 +20,8 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 - Eastern Channel: Entered from Route 130 at (59, 26). Rows 22..24 run west past Swimmers Kevin and Talia (52, 22..24).
 - Col 34 Rock Cluster: Sea rocks at (31..33, 22..24) and (34, 22) block north advance at col 34.
 - Southern Main Highway (rows 25..28): Clear, open deep water highway running straight West across Route 131 toward Pacifidlog Town and Sky Pillar passages.
+- Sis and Bro Reli & Ian: Defeated in Double Battle at (8, 16..17) on Turn 18244 (Ian: Azumarill Lv 35; Reli: Wingull Lv 33; prize ¥792). Stationed at (8, 16) and (9, 16).
+## Northern Channel & Sky Pillar Approach
+- Channel at rows 16..19 runs east from Pacifidlog Town past Reli & Ian (8..9, 16).
+- Sea rocks border north at (9..13, 11..13) and (15, 12).
+- Swimmer visible to the south at (10..11, 22).
