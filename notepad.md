@@ -198,7 +198,7 @@
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
 - **Tall Grass Patches (South)**:
   - South-East patch at `(20..25, 32..35)`.
-  - **South-West patch at `(6..13, 27..33)`**: From `(17, 33)`, step `Down` to `(17, 34)`, walk `Left x11` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, walk `Up x4` to `(6, 30)`, step `Left` to `(5, 30)`, walk `Up x4` along `x=5` to `(5, 26)` (`(5, 25)` is a tree), step `Right` to `(6, 26)`, and `Up` to `(6, 25)` for a 100% grass-free northbound corridor around the west edge of this patch.
+  - **South-West patch at `(6..13, 27..33)`**: From `(17, 33)`, step `Down` to `(17, 34)`, walk `Left x11` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, walk `Up x4` to `(6, 30)` (note: `(6, 31..34)` and `(5, 26..30)` are bare dirt, while `(6, 30)` is 1 tall grass tile at the corner of the patch, verified Turns 970 and 976), step `Left` to `(5, 30)`, walk `Up x4` along `x=5` to `(5, 26)` (`(5, 25)` is a tree), step `Right` to `(6, 26)`, and `Up` to `(6, 25)`.
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of southern entrance; 3 Pokemon: `Spinarak` Lv 8 [`Mega Drain`, `Spider Web`, holds `Berry Juice`], `Ledyba` Lv 8 [`Supersonic`, `Mach Punch`], `Venonat` Lv 8 [`Psybeam`, `Stun Spore`, `Confusion`]).
   - **Bug Catcher James** at `(9, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`], `Surskit` Lv 8 [`Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`]).
