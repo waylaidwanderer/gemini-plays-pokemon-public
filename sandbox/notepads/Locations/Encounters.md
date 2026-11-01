@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 15) | AGALATEA | Deceased | Fainted Turn 1384 to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`) after in-battle party slot swap (`Slot 1 <-> Slot 5`) sent `AGALATEA` in instead of `EUTERPE` |
 | Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Deceased | Fainted Turn 1288 to overworld poison ticks (`72 steps`) after Koffing's `Toxic` in Petalburg Woods |
-| Route 101 | Cleffa (F, Lv 15) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 15 stats: 41/14/11/18/25/10; Moves: `Sweet Kiss` (Lv 13), `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
+| Route 101 | Cleffa (F, Lv 15) | ASTRAEA | Deceased | Fainted Turn 1404 to School Kid Tammy's Lv 15 `Rhyhorn` (`Magnitude 7`) |
 | Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Docile (neutral), `Keen Eye`; Moves: `Supersonic` (Lv 21), `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13); benched Turn 1295 at Lv 21 (unbench after Brawly when cap reaches Lv 29) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 15) | GLAUCUS | Deceased | Fainted Turn 1393 to School Kid Tammy's Lv 13 `Aron` (`Brick Break`, 2x effective vs pure Normal-type `Azurill` and outsped 13 Speed) |
