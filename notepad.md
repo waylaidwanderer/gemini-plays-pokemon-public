@@ -272,9 +272,9 @@
 - **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
-  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)` (walks 2 tiles left from `(8, 14)` to `(6, 14)`, opening the far-right `x=8` corridor `(8, 15) -> (8, 11)` behind the right display case!).
+  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
     - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
-  - **School Kid Tammy (`(1, 12)` facing `Right`)**: Watches across the 1-tile gap between the left display cases into `(5, 12)` (can be bypassed via the eastern `x=8` corridor `(8, 14) -> (8, 11)` after School Kid Josh moves to `(6, 14)`!).
+  - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
     - Team (3 Pokemon): `Aron` (M, Lv 13, 267 EXP), `Yanma` (M, Lv 11, 183 EXP, `Speed Boost`, `Giga Drain`), `Rhyhorn` (M, Lv 15, **`Megahorn`** [120 BP]).
 
 <hr>
