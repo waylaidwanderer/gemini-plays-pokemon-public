@@ -27,3 +27,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
   - Tower approach path leads to the base at (14, 7).
   - Wallace stands at (14, 6) directly in front of the Sky Pillar tower entrance doorway at (14, 5).
   - Extreme weather effects active on the summit exterior.
+## Floor 1F
+- Entrance from Exterior Base at (6, 13).
+- Arrived at (6, 12).
+- Layout: Central pit/barrier with perimeter corridors leading around it.
