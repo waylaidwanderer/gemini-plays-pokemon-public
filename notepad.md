@@ -6,14 +6,14 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 15) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 15 stats: 41/26/24/21/24/19; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); declined `Bide` (Lv 15) |
 | Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Deceased | Fainted Turn 1288 to overworld poison ticks (`72 steps`) after Koffing's `Toxic` in Petalburg Woods |
-| Route 101 | Cleffa (F, Lv 12) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 12 stats: 34/12/10/16/20/9; Moves: `Present`, `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
+| Route 101 | Cleffa (F, Lv 14) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 14 stats: 38/13/11/18/23/10; Moves: `Sweet Kiss` (Lv 13), `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
 | Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Docile (neutral), `Keen Eye`; Moves: `Supersonic` (Lv 21), `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13); benched Turn 1295 at Lv 21 (unbench after Brawly when cap reaches Lv 29) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 14) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 14 stats: 38/11/16/12/17/12; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
-| Route 104 | Jigglypuff (F, Lv 15) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 15 stats: 60/20/11/23/12/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
-| Petalburg Woods | Oddish (M, Lv 15) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 15 stats: 41/21/24/30/25/15; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
+| Route 104 | Jigglypuff (F, Lv 16) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 16 stats: 63/21/12/24/13/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
+| Petalburg Woods | Oddish (M, Lv 16) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 16 stats: 43/22/26/32/27/16; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
 | Route 115 | Kabuto (M, Lv 9) | — | Fainted (Unobtained) | Fainted Turn 1364 to accidental 2nd `Seismic Toss` after `Rock Tomb` speed-drop textbox delayed turn |
-| Route 116 | Yanma (M, Lv 9) | BOREAS | Active | Naughty (+Atk, -SpDef), `Compoundeyes`; caught at `(4, 15)` in tall grass; Lv 9 stats: 30/20/14/21/13/23; Moves: `Silver Wind`, `Foresight`, `Quick Attack` |
+| Route 116 | Yanma (M, Lv 14) | BOREAS | Active | Naughty (+Atk, -SpDef), `Compoundeyes`; caught at `(4, 15)` in tall grass; Lv 14 stats: 42/28/20/30/18/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13) |
 
 ## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
 - **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
