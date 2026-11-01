@@ -9,6 +9,7 @@
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
 | Petalburg City | Luvdisc (M, Lv 13) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 13 stats: 34/14/22/18/25/33; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 104 | Natu (M, Lv 13) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 13 stats: 34/19/18/23/17/26; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
+| Petalburg Woods | Phanpy (M, Lv 8) | ATLAS | Boxed (Box 1) | Caught at `(21, 35)` |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
