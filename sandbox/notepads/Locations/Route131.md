@@ -30,4 +30,6 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 - Northern Pocket (cols 14..17, rows 10..13): Cul-de-sac completely walled off by submerged rocks at (16, 11), (17, 11) and brown rocks. Not a viable path north.
 - Rock Cluster (cols 24..33, rows 20..24): Submerged rocks at (24, 21), (25, 20..21), (26, 22), brown rocks at (24, 18), (27, 21), and central flat cliff at (29..33, 22..24).
 - Southern Bypass Highway: Row 25 runs clear under the rocks past cols 24..30 toward the eastern channels.
-- Swimmer ♀ Kara: Defeated at (26, 25) on Turn 18289 (Seaking Lv 34; prize ¥272). Stationed at (26, 25).
+- Swimmer ♀ Kara: Defeated at (26, 25) on Turn 18289 (Seaking Lv 34; prize ¥272). Stationed at (26, 25).- Swimmer ♂ Richard: Defeated at (41, 26..27) on Turn 18302 (Pelipper Lv 34; prize ¥272). Stationed at (41, 27).
+## Eastern Channel to Sky Pillar (Cols 40..46)
+- Wide open deep water channel running North from row 26 into the upper half of Route 131.
