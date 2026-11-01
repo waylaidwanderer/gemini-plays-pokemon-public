@@ -4163,6 +4163,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Floor 4F/5F: North wall has archways at (3, 1), (7, 1), and (11, 1).
 - At (3, 2), the western corridor (cols 1..3) is completely open to the south along the west edge of the central pit.
 - Route: Walk south along the western corridor (cols 1..3) around the central pit toward the southern and eastern corridors.
+- Southwest corner at (1, 11..13): Southern perimeter corridor extends east along rows 12..13 unobstructed under the central pit.
 
 <hr>
 
