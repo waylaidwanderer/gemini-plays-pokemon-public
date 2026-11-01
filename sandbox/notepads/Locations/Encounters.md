@@ -2,12 +2,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 12) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 12 stats: 35/21/20/18/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
-| Littleroot Town | Luvdisc (F, Lv 12) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 12 stats: 34/12/18/17/24/30; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Starter (Route 101) | Mudkip (F, Lv 14) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 14 stats: 39/24/22/20/23/18; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
+| Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 14 stats: 38/14/20/19/27/34; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Cleffa (F, Lv 12) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 12 stats: 34/12/10/16/20/9; Moves: `Present`, `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
 | Route 103 | Wingull (F, Lv 15) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 15 stats: 40/15/14/25/15/34; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
-| Petalburg City | Azurill (M, Lv 12) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 12 stats: 34/10/14/11/15/11; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
+| Petalburg City | Azurill (M, Lv 14) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 14 stats: 38/11/16/12/17/12; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 7) | EUTERPE | Boxed (Box 1) | Caught at `(24, 59)` in tall grass |
 | Petalburg Woods | Oddish (M, Lv 14) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 14 stats: 38/20/22/28/23/14; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
