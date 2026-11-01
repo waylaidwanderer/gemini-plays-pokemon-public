@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (F, Lv 14) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 14 stats: 39/24/22/20/23/18; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Deceased | Fainted Turn 1288 to overworld poison ticks (`72 steps`) after Koffing's `Toxic` in Petalburg Woods |
 | Route 101 | Cleffa (F, Lv 12) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 12 stats: 34/12/10/16/20/9; Moves: `Present`, `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
-| Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Benched Turn 1295 at Lv 21 (accidental Rare Candies; unbench after Brawly when cap reaches Lv 29) |
+| Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Docile (neutral), `Keen Eye`; Moves: `Supersonic` (Lv 21), `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13); benched Turn 1295 at Lv 21 (unbench after Brawly when cap reaches Lv 29) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 14) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 14 stats: 38/11/16/12/17/12; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 14) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 14 stats: 56/19/11/22/12/12; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
@@ -241,12 +241,12 @@
     - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
 - **Trainers & Bridge Path**:
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`):
-    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Pay Day`, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, holds `Oran Berry`).
+    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Pay Day`, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, `Bite`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Confuse Ray`, `Ember`, `Disable`, `Bite`).
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on horizontal bridge section):
-    - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). Focus physical attacks (`Secret Power` / `Acid`) to break `Focus Punch` and overwhelm `Follow Me` recovery.
+    - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). Focus physical attacks (`Secret Power` / `Seismic Toss`) and spread `Acid` (`MOVE_TARGET_BOTH`, which hits both `Smeargles` simultaneously and cannot be redirected by `Follow Me`, breaking `Focus Punch` every turn) to overwhelm `Follow Me` recovery.
   - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge; defeated Turn 723):
     - Team (5 Pokemon):
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
