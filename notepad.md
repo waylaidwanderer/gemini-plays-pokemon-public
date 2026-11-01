@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (Lv 5) | OCEANUS | Active | Chosen from Birch's Bag on Route 101 |
+| Starter (Route 101) | Mudkip (M, Lv 5) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 5 stats: 21/12/10/11/9/9; Moves: `Tackle` |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
