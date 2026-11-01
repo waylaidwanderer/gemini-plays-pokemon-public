@@ -10,6 +10,7 @@
 | Petalburg City | Luvdisc (M, Lv 15) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 15 stats: 38/15/25/20/28/38; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 104 | Natu (M, Lv 15) | APOLLO | Active | Jolly (+Speed, -SpAtk), `Early Bird` (halves sleep turns); caught at `(25, 59)`; Lv 15 stats: 38/21/20/26/19/29; Moves: `Peck`, `Psybeam`, `Night Shade` (Lv 10) |
 | Petalburg Woods | Phanpy (M, Lv 15) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 15 stats: 55/22/23/17/19/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
+| Route 115 | Kabuto (M, Lv 9) | NEREUS | Active | Caught at `(7, 71)` with Old Rod into Party Slot 6; knows `Rock Tomb`, `Water Pulse` |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
