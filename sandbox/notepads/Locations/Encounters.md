@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 8) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 8 stats: 28/16/14/14/13/11; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Caught at `(17, 13)` with Old Rod |
 | Route 103 | Wingull (F, Lv 4) | HALCYONE | Active | Caught at `(18, 12)` in tall grass |
-| Route 102 | — | — | Pending | Eastern tall grass at `(37..39, 5..6)` |
+| Route 102 | Sandshrew (M, Lv 6) | ATLAS | Active | Caught at `(38, 6)` in tall grass |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass |
