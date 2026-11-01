@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 10) | OCEANUS | Active | Rash (+SpAtk, -SpDef), `Torrent`; Lv 10 stats: 32/19/16/17/16/13; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | Luvdisc (F, Lv 13) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 13 stats: 38/15/19/15/24/27; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 101 | Pidgey (F, Lv 3) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 3 stats: 15/8/7/7/7/8; Moves: `Quick Attack` |
+| Route 101 | Pidgey (F, Lv 10) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 10 stats: 28/15/13/12/13/17; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9) |
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
