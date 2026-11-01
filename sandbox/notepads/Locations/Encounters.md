@@ -10,7 +10,7 @@
 | Petalburg City | Azurill (M, Lv 14) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 14 stats: 38/11/16/12/17/12; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 15) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 15 stats: 60/20/11/23/12/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
 | Petalburg Woods | Oddish (M, Lv 15) | HYACINTH | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 15 stats: 41/21/24/30/25/15; Moves: `Mega Drain`, `Acid`, `Toxic` (Lv 14) |
-| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Route 115 | Kabuto (M, Lv 9) | — | Fainted (Unobtained) | Fainted Turn 1364 to accidental 2nd `Seismic Toss` after `Rock Tomb` speed-drop textbox delayed turn |
 | Route 116 | Yanma (M, Lv 9) | BOREAS | Active | Caught at `(4, 15)` in tall grass |
 
 ## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
