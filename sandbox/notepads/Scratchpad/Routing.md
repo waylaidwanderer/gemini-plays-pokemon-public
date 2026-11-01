@@ -7,13 +7,14 @@
 - **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..15`) to bypass the wandering NPC near `(10..11, 12..14)`.
 
 ## Route 101
-- **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2).
+- **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2), `Pidgey` (Lv 3).
 - **Southern Tall Grass Patch**: Located at `x=5, y=14..16` (accessible from `(11, 14)` by walking `Left x6` to `(5, 14)`).
 - **Grass-Free Path (Northbound)**: `(11, 19)` -> `Up x5` to `(11, 14)` -> `Left x4` to `(7, 14)` -> `Up x4` to `(7, 10)` -> `Right x6` to `(13, 10)` -> `Up` to `(13, 9)` -> `Right x2` to `(15, 9)` -> `Up` to `(15, 8)`, then through `(15, 7..5)` (3 grass tiles) to `(15, 4)` -> `Left x3` (2 grass tiles) to `(12, 4)` -> `Left x2` to `(10, 4)` -> `Up` into Oldale Town.
 - **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down` along `x=9` (jumping ledges at `y=6` and `y=13`) to `(9, 14)`, then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(11, 0)`.
 
 ## Oldale Town & Route 103
 - **Oldale Central Road**: `x=10` (`y=0..19`) is a straight vertical road between Route 101 and Route 103.
+- **Route 103 Tall Grass Patch**: Located at `(11..14, 15..16)` just east of `x=10` (observed wild species: `Hoppip` Lv 3, `Spearow` Lv 3, `Skitty` Lv 4).
 - **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east to `(20..21, 8..10)` for the **Old Rod Fisherman**, or north to `(13, 7)` -> `Left x7` to `(6, 7)` -> `Up` to `(6, 6)` -> `Left` to `(5, 6)` -> `Up x3` to `(5, 3)` -> `Right x4` to `(9, 3)` for the Rival battle at `(10, 3)`).
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
 - **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102.
@@ -25,7 +26,7 @@
   - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`])
   - **Bug Catcher Rick** `(25, 15)` facing `Up` (4 Pokemon: `Caterpie` Lv 5, `Wurmple` Lv 5, `Kakuna` Lv 5, `Cascoon` Lv 5 [`Iron Defense`, holds `Berry Juice`])
   - **Lass Tiana** `(15, 5)` rotating `Up` and `Down` (watches `(15, 3..4)` above her as well as below her; 3 Pokemon: `Igglybuff` Lv 6 [`Present`, `Cute Charm`], `Sunkern` Lv 6 [`Protect`, `Leech Seed`], `Togepi` Lv 5 [`Softboiled`, `Metronome`])
-  - **Bug Catcher Allen** `(13, 2)` facing `Down` (3 Pokemon: `Silcoon` Lv 7 [`Iron Defense`, `Shed Skin`, holds `Berry Juice`], `Wurmple` Lv 7, `Metapod` Lv 7 [`Iron Defense`, `Shed Skin`, holds `Sitrus Berry`])
+  - **Bug Catcher Allen** `(13, 2)` facing `Down` (4 Pokemon: `Weedle` Lv 7, `Silcoon` Lv 7 [`Iron Defense`, `Poison Sting`, `Shed Skin`, holds `Sitrus Berry`], `Wurmple` Lv 7, `Metapod` Lv 7 [`Iron Defense`, `Tackle`, `Shed Skin`, holds `Sitrus Berry`])
   - **Trainer in tall grass** `(18, 12)` (avoidable via northern berry patch path).
 - **Northern Berry Patch & Grass-Free Routes**:
   - **Grass-Free Path North**: `(25, 14)` -> `Up x4` to `(25, 10)` -> `Left x4` to `(21, 10)` -> `Up x2` to `(21, 8)` -> `Left x2` to `(19, 8)` -> `Up x3` to `(19, 5)`.
