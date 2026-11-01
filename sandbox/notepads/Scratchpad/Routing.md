@@ -80,7 +80,7 @@
     - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
 - **Trainers & Bridge Path**:
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`):
-    - Team (3 Pokemon): `Snubbull` (Lv 8, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Rock Smash`, `Ember`, holds `Berry Juice`), `Electrike` (Lv 8, `ThunderShock`, holds `Oran Berry`).
+    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Pay Day`, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Ember`, `Disable`).

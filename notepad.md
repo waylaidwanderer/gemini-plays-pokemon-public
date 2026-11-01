@@ -10,7 +10,7 @@
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 15) | HERMES | Active | Lv 15 stats: 37/22/19/18/21/39; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
-| Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out (deposit in PC after battle) |
+| Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
 | Petalburg Woods | Bellsprout (F, Lv 15) | CHLORIS | Active | Bold (+Def), `Chlorophyll`; Lv 15 stats: 42/27/16/29/18/17; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15) (also observed: `Oddish`, `Volbeat` Lv 7, `Phanpy` Lv 8) |
 
 ## Attempt #1 Encounter History
@@ -32,8 +32,8 @@
 - **Attempt**: #2
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configured & verified Turn 505; Text Speed `Fast`)
-- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` cures Paralysis, `Pecha Berry` cures Poison, `Oran Berry` +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
-- **Key Items Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (registered to `Select`).
+- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` & verified x99 Turn 680], `Pecha Berry` x99 cures Poison, `Oran Berry` x99 +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
+- **Key Items & TMs Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (registered to `Select`), `TM09 Bullet Seed` (obtained Turn 672 at `(5, 19)` on Route 104 North).
 
 ## Attempt #1 Post-Mortem & Key Tactical Lessons
 - **Result**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North, 8 tiles south of Rustboro City).
@@ -189,7 +189,7 @@
     - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
 - **Trainers & Bridge Path**:
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`):
-    - Team (3 Pokemon): `Snubbull` (Lv 8, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Rock Smash`, `Ember`, holds `Berry Juice`), `Electrike` (Lv 8, `ThunderShock`, holds `Oran Berry`).
+    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Pay Day`, `Metronome`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Ember`, `Disable`).
