@@ -7,7 +7,7 @@
 | Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
 | Route 103 | Skitty (F, Lv 15) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 15 stats: 43/22/18/16/15/19; Moves: `Fake Out` (Lv 15), `Attract`, `Sing`, `Secret Power` (Lv 7) |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
-| Petalburg City | Luvdisc (M, Lv 15) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 15 stats: 38/15/25/20/28/38; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Petalburg City | Luvdisc (M, Lv 16) | EROS | Active | Caught at `(12, 23)` pond with Old Rod; Lv 16 stats: 40/16/26/21/30/40; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
 | Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
 | Petalburg Woods | Phanpy (M, Lv 16) | ATLAS | Active | Calm (+SpDef, -Atk), `Cute Charm`; caught at `(21, 35)`; Lv 16 stats: 58/24/24/18/20/17; Moves: `Tackle`, `Mud Shot`, `Ice Shard` (Lv 10), `Rock Throw` (Lv 15) |
 | Route 115 | Kabuto (M, Lv 14) | NEREUS | Deceased | Fainted at Lv 14 to School Kid Tammy's Lv 13 Corsola (crit `Water Pulse` on switch-in) in Rustboro Gym |
