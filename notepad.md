@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (F, Lv 10) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 10 stats: 30/18/17/16/17/15; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 101 | Cleffa (F, Lv 3) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 3 stats: 16/6/5/7/8/6; Moves: `Present`, `Attract` |
-| Route 103 | Wingull (F, Lv 4) | ALCYONE | Active | Caught at `(13, 15)` in tall grass |
+| Route 103 | Wingull (F, Lv 4) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 4 stats: 18/7/7/10/7/12; Moves: `Wing Attack`, `Water Gun` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
