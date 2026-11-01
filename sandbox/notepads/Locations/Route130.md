@@ -11,3 +11,4 @@ A vast open ocean route in southern Hoenn connecting Route 129 on the east (col 
 ## Progression Checklist - Route 130
 1. [x] Entered Route 130 from Route 129 at (79, 17) (Turn 18094).
 2. [ ] Surf west across Route 130 to Route 131 boundary (col 0).
+- Swimmer ♂ Santiago: Stationed at (69, 15) facing East, challenged at (70, 15) (Turn 18100).
