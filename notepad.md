@@ -1,23 +1,35 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #4)
+# Nuzlocke Encounters (Attempt #5)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 15) | AGALATEA | Deceased | Fainted Turn 1384 to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`) after in-battle party slot swap (`Slot 1 <-> Slot 5`) sent `AGALATEA` in instead of `EUTERPE` |
-| Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Deceased | Fainted Turn 1288 to overworld poison ticks (`72 steps`) after Koffing's `Toxic` in Petalburg Woods |
-| Route 101 | Cleffa (F, Lv 15) | ASTRAEA | Deceased | Fainted Turn 1404 to School Kid Tammy's Lv 15 `Rhyhorn` (`Magnitude 7`) |
-| Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Docile (neutral), `Keen Eye`; Moves: `Supersonic` (Lv 21), `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13); benched Turn 1295 at Lv 21 (unbench after Brawly when cap reaches Lv 29) |
-| Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
-| Petalburg City | Azurill (M, Lv 15) | GLAUCUS | Deceased | Fainted Turn 1393 to School Kid Tammy's Lv 13 `Aron` (`Brick Break`, 2x effective vs pure Normal-type `Azurill` and outsped 13 Speed) |
-| Route 104 | Jigglypuff (F, Lv 16) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 16 stats: 63/21/12/24/13/13; Moves: `Sing`, `Pound`, `Disable` (Lv 9), `Seismic Toss` (Lv 14) |
-| Petalburg Woods | Oddish (M, Lv 17) | HYACINTH | Benched (Overleveled) | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; reached Lv 17 Turn 1405 after OHKOing Tammy's Lv 15 `Rhyhorn`; bench until Roxanne is defeated |
-| Route 115 | Kabuto (M, Lv 9) | — | Fainted (Unobtained) | Fainted Turn 1364 to accidental 2nd `Seismic Toss` after `Rock Tomb` speed-drop textbox delayed turn |
-| Route 116 | Yanma (M, Lv 15) | BOREAS | Deceased | Fainted Turn 1394 to School Kid Tammy's Lv 13 `Aron` (`Rock Tomb`, 4x effective vs Bug/Flying after surviving `SonicBoom` with ~2 HP) |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Eastern tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass |
+| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+
+## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
+- **Starter**: `Mudkip` (`AGALATEA`, Lv 15; `Slow` EXP group with `1,021 EXP` buffer at Lv 16) — Fainted to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`) after in-battle party slot swap (`Slot 1 <-> Slot 5`)
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, Lv 14) — Fainted to overworld poison ticks (`72 steps`) in Petalburg Woods
+- **Route 101**: `Cleffa` (`ASTRAEA`, Lv 15; `Sweet Kiss` Lv 13, `Attract`, `Follow Me`, `Pound`) — Fainted to School Kid Tammy's Lv 15 `Rhyhorn` (`Magnitude 7`)
+- **Route 103**: `Wingull` (`ALCYONE`, Lv 21; `BubbleBeam` Lv 13, `Supersonic` Lv 21) — Benched at Lv 21
+- **Route 102**: `Ralts` (`PSYCHE`, Lv 12) — Fainted to Lady Cindy's Lv 7 `Azurill` (`Uproar`)
+- **Petalburg City (Old Rod)**: `Azurill` (`GLAUCUS`, Lv 15, `Thick Fat`; `Body Slam` Lv 15, `BubbleBeam` Lv 10) — Fainted to School Kid Tammy's Lv 13 `Aron` (`Brick Break`)
+- **Route 104**: `Jigglypuff` (`EUTERPE`, Lv 16; `Seismic Toss` Lv 14) — Fainted to School Kid Tammy's Lv 11 `Yanma` (`Aerial Ace`)
+- **Petalburg Woods**: `Oddish` (`HYACINTH`, Lv 17, attempts evolution to `Gloom` at Lv 16; `Mega Drain`, `Acid`, `Toxic` Lv 14) — Benched at Lv 17 after OHKOing Tammy's `Rhyhorn`
+- **Route 115 (Old Rod)**: `Kabuto` (Lv 9) — Fainted in wild battle to accidental 2nd `Seismic Toss`
+- **Route 116**: `Yanma` (`BOREAS`, Lv 15, `Compoundeyes`; `Silver Wind`, `Quick Attack`, `SonicBoom` Lv 13) — Fainted to School Kid Tammy's Lv 13 `Aron` (`Rock Tomb`)
 
 ## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
-- **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
-- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, Lv 20) — Benched at Lv 20 due to accidental extra Rare Candies
+- **Starter**: `Mudkip` (`OCEANUS`, Lv 15) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, Lv 20) — Benched at Lv 20
 - **Route 101**: `Pidgey` (`ATHENA`, Lv 13) — Fainted to Bug Catcher James's Lv 9 `Paras`
 - **Route 103**: `Skitty` (`SELENE`, Lv 15; `Fake Out` Lv 15, `Attract`, `Sing`, `Secret Power` Lv 7) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Giga Drain`)
 - **Route 102**: `Hoothoot` (`HYPNOS`, Lv 13) — Fainted to Fisherman Darian's Lv 8 `Feebas` (`Facade`)
@@ -28,65 +40,64 @@
 - **Route 116**: `Makuhita` (`BELLONA`, Lv 15, `Guts`; `Faint Attack`, `SmellingSalt`, `Force Palm` Lv 10, `Vital Throw` Lv 13) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Aerial Ace`)
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
-- **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
-- **Littleroot Town (Old Rod)**: `Luvdisc` (`EROS`, Lv 17; `Water Pulse` Lv 12, `Ice Beam` Lv 16, `Charm`) — Benched at Lv 17
-- **Route 101**: `Poochyena` (`AHECATE`, Lv 17; `Secret Power`, `Bite`) — Benched at Lv 17
-- **Route 103**: `Spearow` (`NIKE`, Lv 12) — Fainted to Lass Tiana's Togepi (`Metronome -> Volt Tackle`)
-- **Route 102**: `Meowth` (`HERMES`, Lv 16; `Pay Day`, `Faint Attack`, `Swift` Lv 12, `Bite` Lv 16) — Fainted to School Kid Tammy's Lv 15 `Rhyhorn` (`Megahorn`)
-- **Petalburg City (Old Rod)**: `Azurill` (`THETIS`, Lv 17, `Huge Power`; `BubbleBeam` Lv 13, `Charm`, `Secret Power`) — Benched at Lv 17
-- **Route 104**: `Jigglypuff` (`CALLIOPE`, Lv 15; `Seismic Toss` Lv 14) — Fainted to Magma Grunt's Houndour (`Pursuit`)
-- **Petalburg Woods**: `Bellsprout -> Weepinbell` (`CHLORIS`, Lv 17, evolved at Lv 16; `Vine Whip`, `Acid`, `Sweet Scent` Lv 11, `Toxic` Lv 15) — Benched at Lv 17
-- **Route 116**: `Yanma` (`IRIS`, Lv 15, `Speed Boost`; `Silver Wind`, `Quick Attack`, `SonicBoom` Lv 13) — Fainted to School Kid Jerry's Phanpy (`Rock Tomb`)
-- **Route 115 (Old Rod)**: `Kabuto` (`PROTEUS`, Lv 17, `Battle Armor`; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13) — Benched at Lv 17
-
-## Attempt #1 Encounter History
-- **Starter**: `Mudkip` (`TRITON`, Lv 11)
-- **Route 101**: `Caterpie -> Butterfree` (`MORPHEUS`, Lv 15, `Compound Eyes`; `Confusion` Lv 10, `PoisonPowder` Lv 13, `Supersonic` Lv 14, `Aerial Ace` Lv 15)
-- **Route 103**: `Hoppip` (`ZEPHYR`, Lv 14; `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`)
-- **Route 102**: `Meowth` (`MIDAS`, Lv 11)
-- **Petalburg City (Old Rod)**: `Azurill` (`CALYPSO`, Lv 10, `Thick Fat`)
-- **Route 104**: `Jigglypuff` (`LYRA`, Lv 15; `Seismic Toss` Lv 14)
-- **Petalburg Woods**: `Oddish` (`ARTEMISIA`, Lv 8; `Acid`, `Mega Drain`)
+- **Starter**: `Mudkip` (`POSEIDON`, Lv 7)
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`EROS`, Lv 17; `Water Pulse` Lv 12, `Ice Beam` Lv 16, `Charm`)
+- **Route 101**: `Poochyena` (`AHECATE`, Lv 17; `Secret Power`, `Bite`)
+- **Route 103**: `Spearow` (`NIKE`, Lv 12)
+- **Route 102**: `Meowth` (`HERMES`, Lv 16; `Pay Day`, `Faint Attack`, `Swift` Lv 12, `Bite` Lv 16)
+- **Petalburg City (Old Rod)**: `Azurill` (`THETIS`, Lv 17, `Huge Power`; `BubbleBeam` Lv 13, `Charm`, `Secret Power`)
+- **Route 104**: `Jigglypuff` (`CALLIOPE`, Lv 15; `Seismic Toss` Lv 14)
+- **Petalburg Woods**: `Bellsprout -> Weepinbell` (`CHLORIS`, Lv 17, evolved at Lv 16; `Vine Whip`, `Acid`, `Sweet Scent` Lv 11, `Toxic` Lv 15)
+- **Route 116**: `Yanma` (`IRIS`, Lv 15, `Speed Boost`; `Silver Wind`, `Quick Attack`, `SonicBoom` Lv 13)
+- **Route 115 (Old Rod)**: `Kabuto` (`PROTEUS`, Lv 17, `Battle Armor`; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13)
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #4
+# Nuzlocke Dashboard — Attempt #5
 
 ## Active Rules & Status
-- **Attempt**: #4
+- **Attempt**: #5
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Leppa Berry` x99 +10 PP [taken from wild Route 101 `Cleffa`], `Oran Berry` x99 +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1, #2 & #3)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#4)
 - **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
-- **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap, leaving only `Hermes` (Lv 16 Meowth) usable.
-- **Attempt #3**: Defeated **School Kid Josh** and **School Kid Tammy** in Rustboro Gym, but wiped at Turn 1134 against the 3rd Gym Trainer, **Hiker Marc** at `(1, 8)`, specifically to his Lv 14 `Kabuto` (`75 BP / 10 PP Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`), because we kept `Mudkip` unevolved at Lv 15 (fainting to Tammy's Lv 15 `Larvitar`'s `Earthquake`) and spent multiple turns pivoting around `Kabuto` to split its EXP instead of rotating high-EXP Lv 16s through the PC between Gym Trainers.
-- **Core Rules for Attempt #4**:
-  1. **Strict Level Cap Buffer Management & Rustboro Gym 3-Trainer PC Rotation**:
-     - Level party members to **Lv 12–13** for early routes (`Route 102`, `Route 104 South`), **Lv 14** for `Petalburg Woods` and `Route 104 North`, and **Lv 14–15** for **PKMN Trainer Red** (`(29, 8)` on Route 104 North; defeated easily in Attempts #2 and #3).
-     - **DO NOT fight ANY trainers on Route 116 before defeating Roxanne!** Only catch the Route 116 wild encounter in the western tall grass at `(4, 13)` and the Route 115 Old Rod encounter on the trainer-free southern beach at `(7, 71)`. Save all Route 116 trainers until after defeating Roxanne (when the Level Cap advances to **Lv 20** and `HM01 Cut` unlocks the `Chesto Berry` patch at `(19..20, 2)`).
-     - **Enter Rustboro Gym with a full 6-Pokemon party at Lv 15–16 and rotate high-EXP Lv 16s through the PC between the 3 Gym Trainers (`Josh -> Tammy -> Marc -> Roxanne`)**:
-       - Rustboro Gym has **3 mandatory trainers** before Roxanne: **School Kid Josh** at `(5, 14)` (`4 Pokemon, 1,108 EXP`), **School Kid Tammy** at `(5, 12)` (`5 Pokemon, ~1,568 EXP`, ends with Lv 15 `Larvitar` with `18+ Speed` and `Earthquake`), and **Hiker Marc** at `(1, 8)` (`5 Pokemon`, leads with Lv 15 `Onix` 346 EXP and Lv 14 `Kabuto` 357 EXP with `75 BP / 10 PP Giga Drain`, `Rock Tomb`, `Aerial Ace`, and `20 Speed`).
-       - **Evolve `Mudkip -> Marshtomp` at Lv 16** (`0 EXP` into Lv 16 = `763 EXP` buffer before Lv 17!) before fighting **School Kid Tammy** so `Marshtomp` (`23+ Speed`, `53+ HP`, `Mud Shot`) outspeeds and OHKOs Tammy's `Aron`, `Rhyhorn`, and `Larvitar` (`18+ Speed`, `Earthquake`).
-       - **Never do multi-turn in-battle pivots to split EXP!** Instead, OHKO/2HKO every Gym Trainer Pokemon directly, and during your Pokemon Center heal trip between `Josh`, `Tammy`, and `Marc`, temporarily deposit any Lv 16 Pokemon whose EXP bar is >50% full into `Box 1` (swapping in a fresh Lv 15–16 encounter from `Box 1`), then withdraw your 6 best Lv 16 Pokemon right before walking up to **Gym Leader Roxanne**!
-  2. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison Immediately & Never Blind-Chain Battle Turns**:
-     - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death, observed Turn 1288 with `APHRODITE`). Whenever ANY party member is poisoned (`PSN`) at the end of a battle, **NEVER chain overworld walking after the battle**—always cure poison with a `Pecha Berry` at `0` steps before walking anywhere!
-     - Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (such as Petalburg Woods Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`.
-     - **Never start a trainer battle AND clamp move slots in the same blind `press_buttons` call** (if `sleep 5500` runs before `"[TRAINER] would like to battle!♥"` is dismissed, your move-slot clamp fires during the send-out animation and defaults to Move Slot 1). Instead, advance the trainer intro with `["B", "sleep 1200"] * 10` so you visually confirm `"What will [POKEMON] do?"` first, and only execute 1–3 combat turns per turn so you can react to status/damage.
-  3. **9 Pre-Roxanne Encounter Locations**:
-     1. `Starter` (Route 101 bag)
-     2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right`)
+- **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap.
+- **Attempt #3**: Wiped at Turn 1134 in **Rustboro Gym** against **Hiker Marc**'s Lv 14 `Kabuto` (`Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`).
+- **Attempt #4**: Wiped at Turn 1408 in **Rustboro Gym** against **School Kid Tammy** after losing `Luvdisc` to overworld poison ticks in Petalburg Woods, losing wild Route 115 `Kabuto` to a chained chip+ball input after `Rock Tomb`'s speed-drop textbox, losing unevolved Lv 15 `Mudkip` in School Kid Josh's battle due to an in-battle party slot swap (`Slot 1 <-> Slot 5`) into `Zubat`'s `Giga Drain`, and losing `Azurill` (pure Normal-type, weak to `Brick Break`) and `Yanma` (`4x` weak to `Rock Tomb`) to Tammy's lead Lv 13 `Aron`.
+- **Core Rules for Attempt #5**:
+  1. **Evolve `Mudkip -> Marshtomp` (`1,021 EXP` buffer!) and `Oddish -> Gloom` / `Bellsprout -> Weepinbell` (`763 EXP` buffer!) to Lv 16 With Rare Candies BEFORE Entering Rustboro Gym**:
+     - In this ROM hack, `Mudkip -> Marshtomp`, `Oddish -> Gloom`, and `Bellsprout -> Weepinbell` all evolve at **Lv 16**! Always use **only `A` presses** (never `B`) after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled.
+     - Keep `Mudkip` and your Grass-type at **Lv 14–15** through Route 104 North (`PKMN Trainer Red`), then feed Rare Candies in the overworld right before Rustboro Gym so they evolve into **Lv 16 `Marshtomp` (`0/1,021 EXP` into Lv 16!)** and **Lv 16 `Gloom`/`Weepinbell` (`0/763 EXP` into Lv 16!)** with **0 EXP into Lv 16**!
+     - Never do multi-turn in-battle switches to split EXP (which gives opponents free `Hypnosis`/`Rock Tomb`/`Brick Break` turns and scrambles `gPlayerParty` slot indices via `Slot 1 <-> Slot k` swaps). Instead, assign each Rustboro Gym Trainer Pokemon to a dedicated OHKO/2HKO counter:
+       - **School Kid Josh (`(5, 14)`, 4 Pokemon)**:
+         - Lead with **Lv 16 `Luvdisc`** (`0/653 EXP`, `Water Pulse` Lv 12 + `Ice Beam` Lv 16, `~40+ Speed`) or **Lv 16 `Kabuto`** (`0/817 EXP`, `Water Pulse` + `Mega Drain` Lv 13) to OHKO `Geodude` (`276 EXP`) with `Water Pulse`, 2HKO `Zubat` (`126 EXP`, `Hypnosis`/`Giga Drain`/`Aerial Ace`) with `Ice Beam`/`Rock Tomb`, and 2HKO `Sudowoodo` (`346 EXP`), while **Lv 16 `Gloom`/`Weepinbell`** (`0/763 EXP`) or `Kabuto` OHKOs `Omanyte` (`360 EXP`) with `4x Mega Drain`!
+       - **School Kid Tammy (`(5, 12)`, 5 Pokemon)**:
+         - Lead with **Lv 16 `Marshtomp`** (`0/1,021 EXP`, `25+ Speed`, `Water Gun`/`Mud Shot`)! `Marshtomp` outspeeds and OHKOs `Aron` (`267 EXP`, knows `Brick Break` & `Rock Tomb`), `Rhyhorn` (`432 EXP`, knows `Megahorn`, `Magnitude`, `Ice Beam`), and `Larvitar` (`~300 EXP`, knows `Earthquake`) for `267 + 432 + 300 = 999 / 1,021 EXP` (staying at Lv 16!).
+         - Switch in `Luvdisc` (`Ice Beam`) or `Yanma` (`SonicBoom`) against Tammy's Lv 11 `Yanma` (`345 EXP`), and `Gloom`/`Weepinbell` or `Kabuto` (`4x Mega Drain`) against Tammy's Lv 13 `Corsola` (`312 EXP`, knows `Aurora Beam`, `Rock Tomb`, `Water Pulse`).
+       - **Hiker Marc (`(1, 8)`, 5 Pokemon)**:
+         - Temporarily deposit `Marshtomp` (`999/1,021 EXP`) into `Box 1` during the Pokemon Center heal after Tammy!
+         - Use **Lv 16 `Gloom`/`Weepinbell`** (`360/763 EXP`, `4x Mega Drain`) to OHKO Marc's Lv 14 `Kabuto` (`357 EXP`), and use `Luvdisc` / `Kabuto` / remaining Water/Grass/Rock answers (`Water Pulse`, `Mega Drain`, `BubbleBeam`) to sweep Marc's `Onix` (`346 EXP`) and remaining Rock/Ground Pokemon!
+       - **Gym Leader Roxanne**:
+         - Withdraw `Marshtomp` (`Lv 16`) and all 6 best Lv 16 Pokemon from `Box 1` before walking up to Roxanne (since party members at `<= Lv 16` when a Boss battle starts may legally level up to Lv 17+ during the Boss battle!).
+  2. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison at `0` Steps & Never Chain Chip Moves With Poke Ball Throws**:
+     - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death). Whenever ANY party member is poisoned (`PSN`) at the end of a battle, **NEVER chain overworld walking after the battle**—always cure poison with a `Pecha Berry` at `0` steps before walking anywhere!
+     - **Never chain a damaging chip attack and a Poke Ball throw in the same `press_buttons` call** (extra stat-drop/crit textboxes shift turn timing and turn the queued `BAG -> POKE BALL` input into a 2nd `FIGHT` attack). Always execute the chip move alone, verify HP on the next turn, and then throw Poke Balls.
+     - **In-Battle Party Slot Swap Rule**: Every in-battle switch swaps the incoming Pokemon with `Slot 1` (`gPlayerParty[0]`). Always track `Slot 1 <-> Slot k` swaps when switching in battle.
+  3. **10 Pre-Roxanne Encounter Locations**:
+     1. `Starter` (Route 101 bag — `Mudkip`)
+     2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right` — `Luvdisc`)
      3. `Route 101` (tall grass at `x=5, y=14..16`)
      4. `Route 103` (tall grass)
      5. `Route 102` (tall grass)
-     6. `Petalburg City` (Old Rod at `(12, 23)` facing `Left`)
+     6. `Petalburg City` (Old Rod at `(12, 23)` facing `Left` — `Luvdisc` / `Azurill`)
      7. `Route 104` (tall grass at `(22..24, 56..61)`)
-     8. `Petalburg Woods` (tall grass)
+     8. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
      9. `Route 116` (tall grass at `(4, 13..15)`)
-     10. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach)
+     10. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto`)
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16
