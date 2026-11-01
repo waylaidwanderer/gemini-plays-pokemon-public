@@ -1,17 +1,29 @@
-# Nuzlocke Encounters (Attempt #3)
+# Nuzlocke Encounters (Attempt #4)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Deceased | Fainted at Lv 15 to School Kid Tammy's Lv 15 Larvitar (`Earthquake`) in Rustboro Gym |
-| Littleroot Town | Luvdisc (F, Lv 20) | APHRODITE | Benched (Cap) | Sassy (+SpDef, -Speed), `Swift Swim`; learned `Ice Beam` at Lv 16; benched until Roxanne is defeated (eligible for Brawly Lv 20 cap) |
-| Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
-| Route 103 | Skitty (F, Lv 15) | SELENE | Deceased | Fainted at Lv 15 to Hiker Marc's Lv 14 Kabuto (`Giga Drain`) in Rustboro Gym |
-| Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
-| Petalburg City | Luvdisc (M, Lv 16) | EROS | Deceased | Fainted at Lv 16 to Hiker Marc's Lv 14 Kabuto (`Giga Drain`) in Rustboro Gym |
-| Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
-| Petalburg Woods | Phanpy (M, Lv 16) | ATLAS | Deceased | Fainted at Lv 16 to Hiker Marc's Lv 14 Kabuto (crit `Giga Drain`) in Rustboro Gym |
-| Route 115 | Kabuto (M, Lv 14) | NEREUS | Deceased | Fainted at Lv 14 to School Kid Tammy's Lv 13 Corsola (crit `Water Pulse` on switch-in) in Rustboro Gym |
-| Route 116 | Makuhita (F, Lv 15) | BELLONA | Active | Impish (+Def, -SpAtk), `Guts`; caught at `(5, 14)` into Box 1, withdrawn into Slot 6 at Turn 1077; Lv 15 stats: 48/25/16/10/15/13; Moves: `Faint Attack`, `SmellingSalt`, `Vital Throw` (Lv 13), `Force Palm` (Lv 10) |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` (middle bag ball) |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+
+## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
+- **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, Lv 20) — Benched at Lv 20 due to accidental extra Rare Candies
+- **Route 101**: `Pidgey` (`ATHENA`, Lv 13) — Fainted to Bug Catcher James's Lv 9 `Paras`
+- **Route 103**: `Skitty` (`SELENE`, Lv 15; `Fake Out` Lv 15, `Attract`, `Sing`, `Secret Power` Lv 7) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Giga Drain`)
+- **Route 102**: `Hoothoot` (`HYPNOS`, Lv 13) — Fainted to Fisherman Darian's Lv 8 `Feebas` (`Facade`)
+- **Petalburg City (Old Rod)**: `Luvdisc` (`EROS`, Lv 16; `Secret Power`, `Charm`, `Water Pulse` Lv 12, `Ice Beam` Lv 16) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Giga Drain`)
+- **Route 104**: `Natu` (`APOLLO`, Lv 15; `Peck`, `Leer`, `Night Shade`, `Teleport`) — Fainted to School Kid Josh's Lv 14 `Omanyte` (crit `Aurora Beam`)
+- **Petalburg Woods**: `Phanpy` (`ATLAS`, Lv 16; `Tackle`, `Mud Shot`, `Ice Shard` Lv 10, `Rock Throw` Lv 15) — Fainted to Hiker Marc's Lv 14 `Kabuto` (crit `Giga Drain`)
+- **Route 115 (Old Rod)**: `Kabuto` (`NEREUS`, Lv 14; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13) — Fainted to School Kid Tammy's Lv 13 `Corsola` (crit `Water Pulse`)
+- **Route 116**: `Makuhita` (`BELLONA`, Lv 15, `Guts`; `Faint Attack`, `SmellingSalt`, `Force Palm` Lv 10, `Vital Throw` Lv 13) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Aerial Ace`)
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102

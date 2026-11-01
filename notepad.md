@@ -1,19 +1,31 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #3)
+# Nuzlocke Encounters (Attempt #4)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | OCEANUS | Deceased | Fainted at Lv 15 to School Kid Tammy's Lv 15 Larvitar (`Earthquake`) in Rustboro Gym |
-| Littleroot Town | Luvdisc (F, Lv 20) | APHRODITE | Benched (Cap) | Sassy (+SpDef, -Speed), `Swift Swim`; learned `Ice Beam` at Lv 16; benched until Roxanne is defeated (eligible for Brawly Lv 20 cap) |
-| Route 101 | Pidgey (F, Lv 13) | ATHENA | Deceased | Fainted at Lv 13 to Bug Catcher James's Lv 9 Paras (`Spore` + `Secret Power`) after pre-battle move clamp fired during send-out animation |
-| Route 103 | Skitty (F, Lv 15) | SELENE | Deceased | Fainted at Lv 15 to Hiker Marc's Lv 14 Kabuto (`Giga Drain`) in Rustboro Gym |
-| Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Deceased | Fainted at Lv 13 to Fisherman Darian's Lv 8 Feebas (`Facade`) after 3 consecutive full-paralysis turns on Route 104 South |
-| Petalburg City | Luvdisc (M, Lv 16) | EROS | Deceased | Fainted at Lv 16 to Hiker Marc's Lv 14 Kabuto (`Giga Drain`) in Rustboro Gym |
-| Route 104 | Natu (M, Lv 15) | APOLLO | Deceased | Fainted at Lv 15 to School Kid Josh's Lv 14 Omanyte (crit `Aurora Beam` predicted on switch-in) in Rustboro Gym |
-| Petalburg Woods | Phanpy (M, Lv 16) | ATLAS | Deceased | Fainted at Lv 16 to Hiker Marc's Lv 14 Kabuto (crit `Giga Drain`) in Rustboro Gym |
-| Route 115 | Kabuto (M, Lv 14) | NEREUS | Deceased | Fainted at Lv 14 to School Kid Tammy's Lv 13 Corsola (crit `Water Pulse` on switch-in) in Rustboro Gym |
-| Route 116 | Makuhita (F, Lv 15) | BELLONA | Active | Impish (+Def, -SpAtk), `Guts`; caught at `(5, 14)` into Box 1, withdrawn into Slot 6 at Turn 1077; Lv 15 stats: 48/25/16/10/15/13; Moves: `Faint Attack`, `SmellingSalt`, `Vital Throw` (Lv 13), `Force Palm` (Lv 10) |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` (middle bag ball) |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+
+## Attempt #3 Encounter History (Wiped Turn 1134 in Rustboro Gym to Hiker Marc's Lv 14 Kabuto)
+- **Starter**: `Mudkip` (`OCEANUS`, Lv 15; `Tackle`, `Bubble` Lv 6, `Mud Sport` Lv 7, `Water Gun` Lv 10) — Fainted to School Kid Tammy's Lv 15 `Larvitar` (`Earthquake`)
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, Lv 20) — Benched at Lv 20 due to accidental extra Rare Candies
+- **Route 101**: `Pidgey` (`ATHENA`, Lv 13) — Fainted to Bug Catcher James's Lv 9 `Paras`
+- **Route 103**: `Skitty` (`SELENE`, Lv 15; `Fake Out` Lv 15, `Attract`, `Sing`, `Secret Power` Lv 7) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Giga Drain`)
+- **Route 102**: `Hoothoot` (`HYPNOS`, Lv 13) — Fainted to Fisherman Darian's Lv 8 `Feebas` (`Facade`)
+- **Petalburg City (Old Rod)**: `Luvdisc` (`EROS`, Lv 16; `Secret Power`, `Charm`, `Water Pulse` Lv 12, `Ice Beam` Lv 16) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Giga Drain`)
+- **Route 104**: `Natu` (`APOLLO`, Lv 15; `Peck`, `Leer`, `Night Shade`, `Teleport`) — Fainted to School Kid Josh's Lv 14 `Omanyte` (crit `Aurora Beam`)
+- **Petalburg Woods**: `Phanpy` (`ATLAS`, Lv 16; `Tackle`, `Mud Shot`, `Ice Shard` Lv 10, `Rock Throw` Lv 15) — Fainted to Hiker Marc's Lv 14 `Kabuto` (crit `Giga Drain`)
+- **Route 115 (Old Rod)**: `Kabuto` (`NEREUS`, Lv 14; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13) — Fainted to School Kid Tammy's Lv 13 `Corsola` (crit `Water Pulse`)
+- **Route 116**: `Makuhita` (`BELLONA`, Lv 15, `Guts`; `Faint Attack`, `SmellingSalt`, `Force Palm` Lv 10, `Vital Throw` Lv 13) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Aerial Ace`)
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
@@ -40,25 +52,26 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #3
+# Nuzlocke Dashboard — Attempt #4
 
 ## Active Rules & Status
-- **Attempt**: #3
+- **Attempt**: #4
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
-- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North, currently `index 0` in `BERRIES`], `Oran Berry` x99 +10 HP [currently `index 1` in `BERRIES`]; note: the last `Pecha Berry` was consumed on Turn 1007, with an unharvested `Pecha Berry` tree available at `(24, 41)` on Route 104 South) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
+- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1 & #2)
+## Post-Mortem & Key Tactical Lessons (Attempts #1, #2 & #3)
 - **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
 - **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap, leaving only `Hermes` (Lv 16 Meowth) usable.
-- **Core Rules for Attempt #3**:
-  1. **Strict Level Cap Buffer Management (Do Not Pre-Level to Lv 16 Too Early!)**:
-     - Level party members to **Lv 12–13** for early routes (`Route 102`, `Route 104 South`), **Lv 14** for `Petalburg Woods` and `Route 104 North`, and **Lv 14–15** for **PKMN Trainer Red** (`(29, 8)` on Route 104 North; defeated easily in Attempt #2).
+- **Attempt #3**: Defeated **School Kid Josh** and **School Kid Tammy** in Rustboro Gym, but wiped at Turn 1134 against the 3rd Gym Trainer, **Hiker Marc** at `(1, 8)`, specifically to his Lv 14 `Kabuto` (`75 BP / 10 PP Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`), because we kept `Mudkip` unevolved at Lv 15 (fainting to Tammy's Lv 15 `Larvitar`'s `Earthquake`) and spent multiple turns pivoting around `Kabuto` to split its EXP instead of rotating high-EXP Lv 16s through the PC between Gym Trainers.
+- **Core Rules for Attempt #4**:
+  1. **Strict Level Cap Buffer Management & Rustboro Gym 3-Trainer PC Rotation**:
+     - Level party members to **Lv 12–13** for early routes (`Route 102`, `Route 104 South`), **Lv 14** for `Petalburg Woods` and `Route 104 North`, and **Lv 14–15** for **PKMN Trainer Red** (`(29, 8)` on Route 104 North; defeated easily in Attempts #2 and #3).
      - **DO NOT fight ANY trainers on Route 116 before defeating Roxanne!** Only catch the Route 116 wild encounter in the western tall grass at `(4, 13)` and the Route 115 Old Rod encounter on the trainer-free southern beach at `(7, 71)`. Save all Route 116 trainers until after defeating Roxanne (when the Level Cap advances to **Lv 20** and `HM01 Cut` unlocks the `Chesto Berry` patch at `(19..20, 2)`).
      - **Enter Rustboro Gym with a full 6-Pokemon party at Lv 15–16 and rotate high-EXP Lv 16s through the PC between the 3 Gym Trainers (`Josh -> Tammy -> Marc -> Roxanne`)**:
-       - Rustboro Gym has **3 mandatory trainers** before Roxanne: **School Kid Josh** at `(5, 14)` (`4 Pokemon, 1,108 EXP`), **School Kid Tammy** at `(5, 12)` (`5 Pokemon, ~1,568 EXP`, ends with Lv 15 `Larvitar` with `18+ Speed` and `Earthquake`), and **Hiker Marc** at `(1, 8)` (`5 Pokemon`, leads with Lv 15 `Onix` 346 EXP and Lv 14 `Kabuto` 357 EXP with `75 BP / 10 PP Giga Drain` and `20 Speed`).
+       - Rustboro Gym has **3 mandatory trainers** before Roxanne: **School Kid Josh** at `(5, 14)` (`4 Pokemon, 1,108 EXP`), **School Kid Tammy** at `(5, 12)` (`5 Pokemon, ~1,568 EXP`, ends with Lv 15 `Larvitar` with `18+ Speed` and `Earthquake`), and **Hiker Marc** at `(1, 8)` (`5 Pokemon`, leads with Lv 15 `Onix` 346 EXP and Lv 14 `Kabuto` 357 EXP with `75 BP / 10 PP Giga Drain`, `Rock Tomb`, `Aerial Ace`, and `20 Speed`).
        - **Evolve `Mudkip -> Marshtomp` at Lv 16** (`0 EXP` into Lv 16 = `763 EXP` buffer before Lv 17!) before fighting **School Kid Tammy** so `Marshtomp` (`23+ Speed`, `53+ HP`, `Mud Shot`) outspeeds and OHKOs Tammy's `Aron`, `Rhyhorn`, and `Larvitar` (`18+ Speed`, `Earthquake`).
-       - **Never do multi-turn in-battle pivots to split EXP!** Instead, OHKO/2HKO every Gym Trainer Pokemon directly, and during your Pokemon Center heal trip between `Josh`, `Tammy`, and `Marc`, temporarily deposit any Lv 16 Pokemon whose EXP bar is >60% full into `Box 1` (swapping in a fresh Lv 15 encounter from `Box 1`), then withdraw your 6 best Lv 16 Pokemon right before walking up to **Gym Leader Roxanne**!
+       - **Never do multi-turn in-battle pivots to split EXP!** Instead, OHKO/2HKO every Gym Trainer Pokemon directly, and during your Pokemon Center heal trip between `Josh`, `Tammy`, and `Marc`, temporarily deposit any Lv 16 Pokemon whose EXP bar is >50% full into `Box 1` (swapping in a fresh Lv 15–16 encounter from `Box 1`), then withdraw your 6 best Lv 16 Pokemon right before walking up to **Gym Leader Roxanne**!
   2. **Respect Omniscient `Pursuit` AI & Never Blind-Chain Battle Turns**:
      - Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (such as Petalburg Woods Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`.
      - **Never start a trainer battle AND clamp move slots in the same blind `press_buttons` call** (if `sleep 5500` runs before `"[TRAINER] would like to battle!♥"` is dismissed, your move-slot clamp fires during the send-out animation and defaults to Move Slot 1). Instead, advance the trainer intro with `["B", "sleep 1200"] * 10` so you visually confirm `"What will [POKEMON] do?"` first, and only execute 1–3 combat turns per turn so you can react to status/damage.
@@ -280,6 +293,6 @@
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Secret Power`, `Iron Defense`), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, **`Earthquake`** [100 BP], 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (just south of Gym Leader Roxanne's platform stairs).
-    - Team (5 Pokemon): `Onix` (M, Lv 15, 346 EXP), `Kabuto` (M, Lv 14, 357 EXP).
+    - Team (5 Pokemon): `Onix` (M, Lv 15, 346 EXP), `Kabuto` (M, Lv 14, 357 EXP, `Giga Drain` [75 BP, 10 PP], `Rock Tomb`, `Aerial Ace`, 20 Speed).
 
 <hr>
