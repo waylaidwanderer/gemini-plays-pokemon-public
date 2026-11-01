@@ -32,3 +32,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Arrived at (6, 12).
 - Layout: Central pit/barrier with perimeter corridors leading around it.
 - Staircase to 2F located in north wall around cols 10..11, row 2.
+## Floor 2F
+- Arrived from 1F via stairs at (10, 2).
+- Layout: North corridor (rows 2..5) clear and intact without cracked tiles.
+- Staircase to 3F located in northwest wall around cols 1..2, row 2.
