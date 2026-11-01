@@ -1,49 +1,63 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #2)
+# Nuzlocke Encounters (Attempt #3)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased (Box 1) | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 |
-| Littleroot Town | Luvdisc (M, Lv 17) | EROS | Retired (Box until Stone Badge) | Caught at `(17, 13)` pond; Lv 17 stats: 41/16/21/21/30/42; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16); reached Lv 17 Turn 858 vs School Kid Tammy (deposit in Box 1 until Roxanne is defeated) |
-| Route 101 | Poochyena (F, Lv 17) | AHECATE | Retired (Box 1 until Stone Badge) | Quirky, `Run Away`; Lv 16 stats: 37/23/18/16/16/21; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle`; reached Lv 17 Turn 793 vs School Kid Karen & Jerry; deposited in Box 1 Turn 807 |
-| Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
-| Route 102 | Meowth (M, Lv 16) | HERMES | Active | Lv 16 stats: 38/23/20/18/22/41; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12), `Bite` (Lv 16) |
-| Petalburg City | Azurill (F, Lv 17) | THETIS | Retired (Box 1 until Stone Badge) | Brave (+Atk), **`Huge Power`**; Lv 17 stats: 46/14/21/12/20/13; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4); reached Lv 17 Turn 801 vs School Kid Karen & Jerry; deposited in Box 1 Turn 808 |
-| Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
-| Petalburg Woods | Weepinbell (F, Lv 17) | CHLORIS | Retired (Box 1 until Stone Badge) | Bold (+Def), `Chlorophyll`; evolved into `Weepinbell` Turn 783; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15); reached Lv 17 Turn 778 vs Hiker Devan; deposited in Box 1 Turn 785 |
-| Route 116 | Yanma (F, Lv 15) | IRIS | Deceased (Box 1) | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13); fainted Turn 796 to School Kid Jerry's Lv 10 Phanpy's `Rock Tomb`; deposited in Box 1 Turn 808 |
-| Route 115 | Kabuto (M, Lv 17) | PROTEUS | Retired (Box 1 until Stone Badge) | Quirky, **`Battle Armor`** (blocks critical hits!); caught at `(7, 71)` on southern beach with Old Rod; Lv 17 stats: 38/36/39/27/21/25; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13); reached Lv 17 Turn 851 vs School Kid Josh (deposit in Box 1 until Roxanne is defeated) |
+
+## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
+- **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`EROS`, Lv 17; `Water Pulse` Lv 12, `Ice Beam` Lv 16, `Charm`) — Benched at Lv 17
+- **Route 101**: `Poochyena` (`AHECATE`, Lv 17; `Secret Power`, `Bite`) — Benched at Lv 17
+- **Route 103**: `Spearow` (`NIKE`, Lv 12) — Fainted to Lass Tiana's Togepi (`Metronome -> Volt Tackle`)
+- **Route 102**: `Meowth` (`HERMES`, Lv 16; `Pay Day`, `Faint Attack`, `Swift` Lv 12, `Bite` Lv 16) — Fainted to School Kid Tammy's Lv 15 `Rhyhorn` (`Megahorn`)
+- **Petalburg City (Old Rod)**: `Azurill` (`THETIS`, Lv 17, `Huge Power`; `BubbleBeam` Lv 13, `Charm`, `Secret Power`) — Benched at Lv 17
+- **Route 104**: `Jigglypuff` (`CALLIOPE`, Lv 15; `Seismic Toss` Lv 14) — Fainted to Magma Grunt's Houndour (`Pursuit`)
+- **Petalburg Woods**: `Bellsprout -> Weepinbell` (`CHLORIS`, Lv 17, evolved at Lv 16; `Vine Whip`, `Acid`, `Sweet Scent` Lv 11, `Toxic` Lv 15) — Benched at Lv 17
+- **Route 116**: `Yanma` (`IRIS`, Lv 15, `Speed Boost`; `Silver Wind`, `Quick Attack`, `SonicBoom` Lv 13) — Fainted to School Kid Jerry's Phanpy (`Rock Tomb`)
+- **Route 115 (Old Rod)**: `Kabuto` (`PROTEUS`, Lv 17, `Battle Armor`; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13) — Benched at Lv 17
 
 ## Attempt #1 Encounter History
-- **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
-- **Route 101**: `Caterpie -> Butterfree` (`MORPHEUS`, Lv 15, `Compound Eyes`; learned `Confusion` Lv 10, `PoisonPowder` Lv 13, `Supersonic` Lv 14, `Aerial Ace` Lv 15) — Fainted to Red's Lv 9 `Eevee`
-- **Route 103**: `Hoppip` (`ZEPHYR`, Lv 14; learned `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Fainted to Red's Lv 9 `Eevee`
-- **Route 102**: `Meowth` (`MIDAS`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 8 `Koffing`
-- **Petalburg City (Old Rod)**: `Azurill` (`CALYPSO`, Lv 10, `Thick Fat`) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour`
-- **Route 104**: `Jigglypuff` (`LYRA`, Lv 15; learned `Seismic Toss` at Lv 14) — Fainted to Red's Lv 9 `Eevee`
-- **Petalburg Woods**: `Oddish` (`ARTEMISIA`, Lv 8; knew `Acid`, `Mega Drain`) — Boxed
+- **Starter**: `Mudkip` (`TRITON`, Lv 11)
+- **Route 101**: `Caterpie -> Butterfree` (`MORPHEUS`, Lv 15, `Compound Eyes`; `Confusion` Lv 10, `PoisonPowder` Lv 13, `Supersonic` Lv 14, `Aerial Ace` Lv 15)
+- **Route 103**: `Hoppip` (`ZEPHYR`, Lv 14; `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`)
+- **Route 102**: `Meowth` (`MIDAS`, Lv 11)
+- **Petalburg City (Old Rod)**: `Azurill` (`CALYPSO`, Lv 10, `Thick Fat`)
+- **Route 104**: `Jigglypuff` (`LYRA`, Lv 15; `Seismic Toss` Lv 14)
+- **Petalburg Woods**: `Oddish` (`ARTEMISIA`, Lv 8; `Acid`, `Mega Drain`)
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #2
+# Nuzlocke Dashboard — Attempt #3
 
 ## Active Rules & Status
-- **Attempt**: #2
+- **Attempt**: #3
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
-- **Battle Style**: `Set` (Configured & verified Turn 505; Text Speed `Fast`)
-- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` & verified x99 Turn 680], `Pecha Berry` x99 cures Poison, `Oran Berry` x99 +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
-- **Key Items, HMs & TMs Obtained**: `Pokedex`, `Running Shoes`, `Old Rod` (registered to `Select`), `HM01 Cut` (obtained Turn 729 in Rustboro Cutter's House; requires Stone Badge for overworld use), `TM09 Bullet Seed` (obtained Turn 672 at `(5, 19)` on Route 104 North).
+- **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
+- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison, `Oran Berry` x99 +10 HP) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Attempt #1 Post-Mortem & Key Tactical Lessons
-- **Result**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North, 8 tiles south of Rustboro City).
-- **Root Causes & Fixes for Attempt #2**:
-  1. **Pre-Level Immediately & Respect Omniscient `Pursuit` AI**: Never walk around hunting wild encounters or trainers with Lv 2–7 party members (`POSEIDON` fainted at Lv 7 on Turn 577 to a wild Lv 6 Meowth's critical `Pay Day` on Route 102). Use unlimited Rare Candies immediately to bring all active party members up to **Lv 12–13** for early routes and **Lv 15–16** with held `Oran Berries` before bosses. **CRITICAL**: Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (`CALLIOPE` fainted at 24/62 HP on Turn 660 when switching out on the Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`!
-  2. **Keep a Full 6-Pokemon Active Party**: We have 7+ available encounters before Petalburg Woods/Route 104 North (`Starter`, `Littleroot Pond`, `Route 101`, `Route 103`, `Route 102`, `Petalburg City Pond`, `Route 104 South`, `Petalburg Woods`). Never enter Petalburg Woods or Route 104 North with empty/fainted party slots when healthy encounters are available in the Petalburg City PC (`(20, 16)`).
-  3. **Cheri Berry Auto-Refill (`(3, 25)` on Route 104 North)**: Immediately after harvesting the `Cheri Berry` tree at `(3, 25)` outside the Pretty Petal Flower Shop, end a turn in the free overworld (with no textbox or menu open) so `Cheri Berries` auto-refill from `2 -> 99`!
-  4. **Countering PKMN Trainer Red (`(29, 8)` on Route 104 North)**: Red has a 5-Pokemon team (`Eevee` Lv 9, `Pikachu` Lv 9, `Charmander` Lv 9, `Bulbasaur` Lv 9, `Squirtle` Lv 9) leading with `Eevee` (M, Lv 9, 31 Max HP, holds `Sitrus Berry`, moves: `Curse`, `Rest`, `Snore`, `Quick Attack`). Defeated cleanly with 0 casualties on Turn 723 by leading Lv 16 `Eros` (`Water Pulse` 2HKO on `Eevee`), pivoting to Lv 16 `Chloris` (`Acid` on `Pikachu`, `Vine Whip` OHKO on `Squirtle`), and Lv 16 `Thetis` (`Huge Power Secret Power` on `Charmander` and `Bulbasaur`).
+## Post-Mortem & Key Tactical Lessons (Attempts #1 & #2)
+- **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
+- **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap, leaving only `Hermes` (Lv 16 Meowth) usable.
+- **Core Rules for Attempt #3**:
+  1. **Strict Level Cap Buffer Management (Do Not Pre-Level to Lv 16 Too Early!)**:
+     - Level party members to **Lv 12–13** for early routes (`Route 102`, `Route 104 South`), **Lv 14** for `Petalburg Woods` and `Route 104 North`, and **Lv 14–15** for **PKMN Trainer Red** (`(29, 8)` on Route 104 North; defeated easily in Attempt #2).
+     - **DO NOT fight ANY trainers on Route 116 before defeating Roxanne!** Only catch the Route 116 wild encounter in the western tall grass at `(4, 13)` and the Route 115 Old Rod encounter on the trainer-free southern beach at `(7, 71)`. Save all Route 116 trainers until after defeating Roxanne (when the Level Cap advances to **Lv 20** and `HM01 Cut` unlocks the `Chesto Berry` patch at `(19..20, 2)`).
+     - **Enter Rustboro Gym with a full 6-Pokemon party at Lv 14–15** (never Lv 16!) so your team has `6,000+ EXP` of buffer to clear the Gym Trainers (`School Kid Josh` gives `1,108 EXP` across 4 Pokemon; `School Kid Tammy` gives `~800 EXP` across 3 Pokemon), and **only Rare-Candy up to Lv 16 when standing directly in front of Gym Leader Roxanne!**
+  2. **Respect Omniscient `Pursuit` AI**: Enemy AI predicts player switches and **always clicks `Pursuit` (`80 BP` doubled)** if you switch out against a Pokemon that knows `Pursuit` (such as Petalburg Woods Magma Grunt's Lv 9 `Houndour`). Never switch out against a `Pursuit` user unless the active Pokemon can safely tank an `80 BP` STAB `Pursuit`.
+  3. **9 Pre-Roxanne Encounter Locations**:
+     1. `Starter` (Route 101 bag)
+     2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right`)
+     3. `Route 101` (tall grass at `x=5, y=14..16`)
+     4. `Route 103` (tall grass)
+     5. `Route 102` (tall grass)
+     6. `Petalburg City` (Old Rod at `(12, 23)` facing `Left`)
+     7. `Route 104` (tall grass at `(22..24, 56..61)`)
+     8. `Petalburg Woods` (tall grass)
+     9. `Route 116` (tall grass at `(4, 13..15)`)
+     10. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach)
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16
@@ -243,7 +257,9 @@
 - **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
-  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)` (defeated Turn 851).
-    - Team (4 Pokemon): `Geodude` (M, Lv 11, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`).
+  - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)` (walks 2 tiles left from `(8, 14)` to `(6, 14)`, opening the far-right `x=8` corridor `(8, 15) -> (8, 11)` behind the right display case!).
+    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 11, 276 EXP), `Zubat` (M, Lv 11, 126 EXP), `Sudowoodo` (M, Lv 12, 346 EXP, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`).
+  - **School Kid Tammy (`(1, 12)` facing `Right`)**: Watches across the 1-tile gap between the left display cases into `(5, 12)` (can be bypassed via the eastern `x=8` corridor `(8, 14) -> (8, 11)` after School Kid Josh moves to `(6, 14)`!).
+    - Team (3 Pokemon): `Aron` (M, Lv 13, 267 EXP), `Yanma` (M, Lv 11, 183 EXP, `Speed Boost`, `Giga Drain`), `Rhyhorn` (M, Lv 15, **`Megahorn`** [120 BP]).
 
 <hr>

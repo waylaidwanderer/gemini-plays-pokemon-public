@@ -1,23 +1,25 @@
-# Nuzlocke Encounters (Attempt #2)
+# Nuzlocke Encounters (Attempt #3)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased (Box 1) | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 |
-| Littleroot Town | Luvdisc (M, Lv 17) | EROS | Retired (Box until Stone Badge) | Caught at `(17, 13)` pond; Lv 17 stats: 41/16/21/21/30/42; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16); reached Lv 17 Turn 858 vs School Kid Tammy (deposit in Box 1 until Roxanne is defeated) |
-| Route 101 | Poochyena (F, Lv 17) | AHECATE | Retired (Box 1 until Stone Badge) | Quirky, `Run Away`; Lv 16 stats: 37/23/18/16/16/21; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle`; reached Lv 17 Turn 793 vs School Kid Karen & Jerry; deposited in Box 1 Turn 807 |
-| Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
-| Route 102 | Meowth (M, Lv 16) | HERMES | Active | Lv 16 stats: 38/23/20/18/22/41; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12), `Bite` (Lv 16) |
-| Petalburg City | Azurill (F, Lv 17) | THETIS | Retired (Box 1 until Stone Badge) | Brave (+Atk), **`Huge Power`**; Lv 17 stats: 46/14/21/12/20/13; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4); reached Lv 17 Turn 801 vs School Kid Karen & Jerry; deposited in Box 1 Turn 808 |
-| Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased (Box 1) | Fainted Turn 660 to Team Magma Grunt's Lv 9 Houndour's double-power `Pursuit` on switch-out; deposited in Box 1 Turn 677 |
-| Petalburg Woods | Weepinbell (F, Lv 17) | CHLORIS | Retired (Box 1 until Stone Badge) | Bold (+Def), `Chlorophyll`; evolved into `Weepinbell` Turn 783; Moves: `Vine Whip`, `Acid`, `Sweet Scent` (Lv 11), `Toxic` (Lv 15); reached Lv 17 Turn 778 vs Hiker Devan; deposited in Box 1 Turn 785 |
-| Route 116 | Yanma (F, Lv 15) | IRIS | Deceased (Box 1) | Serious, `Speed Boost`; caught at `(4, 13)`; Lv 15 stats: 45/29/20/30/19/34; Moves: `Silver Wind`, `Foresight`, `Quick Attack`, `SonicBoom` (Lv 13); fainted Turn 796 to School Kid Jerry's Lv 10 Phanpy's `Rock Tomb`; deposited in Box 1 Turn 808 |
-| Route 115 | Kabuto (M, Lv 17) | PROTEUS | Retired (Box 1 until Stone Badge) | Quirky, **`Battle Armor`** (blocks critical hits!); caught at `(7, 71)` on southern beach with Old Rod; Lv 17 stats: 38/36/39/27/21/25; Moves: `Rock Tomb`, `Water Pulse`, `Mega Drain` (Lv 13); reached Lv 17 Turn 851 vs School Kid Josh (deposit in Box 1 until Roxanne is defeated) |
+
+## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
+- **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`EROS`, Lv 17; `Water Pulse` Lv 12, `Ice Beam` Lv 16, `Charm`) — Benched at Lv 17
+- **Route 101**: `Poochyena` (`AHECATE`, Lv 17; `Secret Power`, `Bite`) — Benched at Lv 17
+- **Route 103**: `Spearow` (`NIKE`, Lv 12) — Fainted to Lass Tiana's Togepi (`Metronome -> Volt Tackle`)
+- **Route 102**: `Meowth` (`HERMES`, Lv 16; `Pay Day`, `Faint Attack`, `Swift` Lv 12, `Bite` Lv 16) — Fainted to School Kid Tammy's Lv 15 `Rhyhorn` (`Megahorn`)
+- **Petalburg City (Old Rod)**: `Azurill` (`THETIS`, Lv 17, `Huge Power`; `BubbleBeam` Lv 13, `Charm`, `Secret Power`) — Benched at Lv 17
+- **Route 104**: `Jigglypuff` (`CALLIOPE`, Lv 15; `Seismic Toss` Lv 14) — Fainted to Magma Grunt's Houndour (`Pursuit`)
+- **Petalburg Woods**: `Bellsprout -> Weepinbell` (`CHLORIS`, Lv 17, evolved at Lv 16; `Vine Whip`, `Acid`, `Sweet Scent` Lv 11, `Toxic` Lv 15) — Benched at Lv 17
+- **Route 116**: `Yanma` (`IRIS`, Lv 15, `Speed Boost`; `Silver Wind`, `Quick Attack`, `SonicBoom` Lv 13) — Fainted to School Kid Jerry's Phanpy (`Rock Tomb`)
+- **Route 115 (Old Rod)**: `Kabuto` (`PROTEUS`, Lv 17, `Battle Armor`; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13) — Benched at Lv 17
 
 ## Attempt #1 Encounter History
-- **Starter**: `Mudkip` (`TRITON`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour` (`Super Fang` + `Pursuit`)
-- **Route 101**: `Caterpie -> Butterfree` (`MORPHEUS`, Lv 15, `Compound Eyes`; learned `Confusion` Lv 10, `PoisonPowder` Lv 13, `Supersonic` Lv 14, `Aerial Ace` Lv 15) — Fainted to Red's Lv 9 `Eevee`
-- **Route 103**: `Hoppip` (`ZEPHYR`, Lv 14; learned `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`) — Fainted to Red's Lv 9 `Eevee`
-- **Route 102**: `Meowth` (`MIDAS`, Lv 11) — Fainted to Petalburg Woods Magma Grunt's Lv 8 `Koffing`
-- **Petalburg City (Old Rod)**: `Azurill` (`CALYPSO`, Lv 10, `Thick Fat`) — Fainted to Petalburg Woods Magma Grunt's Lv 9 `Houndour`
-- **Route 104**: `Jigglypuff` (`LYRA`, Lv 15; learned `Seismic Toss` at Lv 14) — Fainted to Red's Lv 9 `Eevee`
-- **Petalburg Woods**: `Oddish` (`ARTEMISIA`, Lv 8; knew `Acid`, `Mega Drain`) — Boxed
+- **Starter**: `Mudkip` (`TRITON`, Lv 11)
+- **Route 101**: `Caterpie -> Butterfree` (`MORPHEUS`, Lv 15, `Compound Eyes`; `Confusion` Lv 10, `PoisonPowder` Lv 13, `Supersonic` Lv 14, `Aerial Ace` Lv 15)
+- **Route 103**: `Hoppip` (`ZEPHYR`, Lv 14; `Confusion`, `PoisonPowder`, `Mega Drain`, `Gust`)
+- **Route 102**: `Meowth` (`MIDAS`, Lv 11)
+- **Petalburg City (Old Rod)**: `Azurill` (`CALYPSO`, Lv 10, `Thick Fat`)
+- **Route 104**: `Jigglypuff` (`LYRA`, Lv 15; `Seismic Toss` Lv 14)
+- **Petalburg Woods**: `Oddish` (`ARTEMISIA`, Lv 8; `Acid`, `Mega Drain`)
