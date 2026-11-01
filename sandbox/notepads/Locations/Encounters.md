@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip (F, Lv 14) | AGALATEA | Active | Timid (+Speed, -Atk), `Torrent`; Lv 14 stats: 39/24/22/20/23/18; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10) |
 | Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Deceased | Fainted Turn 1288 to overworld poison ticks (`72 steps`) after Koffing's `Toxic` in Petalburg Woods |
 | Route 101 | Cleffa (F, Lv 12) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 12 stats: 34/12/10/16/20/9; Moves: `Present`, `Attract`, `Follow Me` (Lv 4), `Pound` (Lv 8) |
-| Route 103 | Wingull (F, Lv 15) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 15 stats: 40/15/14/25/15/34; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
+| Route 103 | Wingull (F, Lv 21) | ALCYONE | Benched (Box 1) | Benched Turn 1295 at Lv 21 (accidental Rare Candies; unbench after Brawly when cap reaches Lv 29) |
 | Route 102 | Ralts (F, Lv 12) | PSYCHE | Deceased | Fainted Turn 1251 to Lady Cindy's Lv 7 `Azurill` (`Huge Power` Physical `Uproar` at `-2 Def` from `Cleffa`'s `Tickle`) |
 | Petalburg City | Azurill (M, Lv 14) | GLAUCUS | Active | Quiet (+SpAtk, -Speed), `Thick Fat`; caught at `(12, 23)` with Old Rod; Lv 14 stats: 38/11/16/12/17/12; Moves: `Water Gun`, `Charm`, `Secret Power` (Lv 6), `BubbleBeam` (Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 7) | EUTERPE | Active | Quiet (+SpAtk, -Speed), `Cute Charm`; caught at `(24, 59)` in tall grass; Lv 7 stats: 33/12/8/13/8/8; Moves: `Sing`, `Pound` |
