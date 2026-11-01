@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 7) | POSEIDON | Deceased (Box 1) | Fainted Turn 577 to wild Lv 6 Meowth's critical `Pay Day` (`11/25 -> 0/25 HP`) on Route 102 |
 | Littleroot Town | Luvdisc (M, Lv 16) | EROS | Active | Caught at `(17, 13)` pond; Lv 16 stats: 39/15/20/20/28/40; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
-| Route 101 | Poochyena (F, Lv 15) | AHECATE | Active | Quirky, `Run Away`; Lv 15 stats: 36/22/17/15/15/20; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
+| Route 101 | Poochyena (F, Lv 16) | AHECATE | Active | Quirky, `Run Away`; Lv 16 stats: 37/23/18/16/16/21; Moves: `Secret Power` (Slot 1), `Bite` (Slot 2), `Sand-Attack`, `Tackle` |
 | Route 103 | Spearow (F, Lv 12) | NIKE | Deceased (Box 1) | Fainted Turn 597 to Lass Tiana's Lv 5 Togepi rolling `Volt Tackle` via `Metronome` |
 | Route 102 | Meowth (M, Lv 15) | HERMES | Active | Lv 15 stats: 37/22/19/18/21/39; Moves: `Pay Day`, `Faint Attack`, `Swift` (Lv 12) |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Brave (+Atk), **`Huge Power`**; Lv 16 stats: 44/13/20/11/20/12; Moves: `BubbleBeam` (Slot 1), `Charm` (Slot 2), `Secret Power` (Slot 3), `Water Gun` (Slot 4) |
