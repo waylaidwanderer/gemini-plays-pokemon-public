@@ -25,3 +25,4 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 - Channel at rows 16..19 runs east from Pacifidlog Town past Reli & Ian (8..9, 16).
 - Sea rocks border north at (9..13, 11..13) and (15, 12).
 - Swimmer visible to the south at (10..11, 22).
+- Swimmer ♂ Herman: Defeated at (17, 19) on Turn 18269 (Wingull Lv 33, Tentacruel Lv 33; prize ¥264). Stationed at (17, 19).
