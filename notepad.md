@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Hardy (neutral), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 4 stats: 18/7/9/9/11/13; Moves: `Secret Power`, `Charm` |
 | Route 101 | Cleffa (F, Lv 3) | ASTRAEA | Active | Gentle (+SpDef, -Def), `Cute Charm`; caught at `(5, 15)` holding a wild `Leppa Berry`; Lv 3 stats: 16/6/5/7/8/6; Moves: `Present`, `Attract` |
 | Route 103 | Wingull (F, Lv 4) | ALCYONE | Active | Docile (neutral), `Keen Eye`; caught at `(13, 15)`; Lv 4 stats: 18/7/7/10/7/12; Moves: `Wing Attack`, `Water Gun` |
-| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Route 102 | Ralts (F, Lv 4) | PSYCHE | Active | Caught at `(39, 6)` in tall grass; knows `Confusion` |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(20..25, 32..35)` |
