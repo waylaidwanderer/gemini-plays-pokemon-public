@@ -4165,6 +4165,7 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Route: Walk south along the western corridor (cols 1..3) around the central pit toward the southern and eastern corridors.
 - Southwest corner at (1, 11..13): Southern perimeter corridor extends east along rows 12..13 unobstructed under the central pit.
 - Eastern corridor (cols 11..13): Unobstructed vertical path extending north along the east edge of the central pit toward the right archway at (11, 1).
+- Wild encounters on upper floors: Sableye (Lv 33), Claydol (Lv 35), Banette. Sage easily outspeeds and flees safely.
 
 <hr>
 
