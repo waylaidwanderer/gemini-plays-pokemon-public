@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 13) | APHRODITE | Active | Sassy (+SpDef, -Speed), `Swift Swim`; caught at `(17, 13)` pond; Lv 13 stats: 38/15/19/15/24/27; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 101 | Pidgey (F, Lv 10) | ATHENA | Active | Serious, `Keen Eye`; caught at `(5, 16)`; Lv 10 stats: 28/15/13/12/13/17; Moves: `Quick Attack`, `Sand-Attack` (Lv 5), `Gust` (Lv 9) |
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
-| Route 102 | Hoothoot (M, Lv 6) | HYPNOS | Active | Caught at `(38, 6)` in eastern tall grass patch |
+| Route 102 | Hoothoot (M, Lv 11) | HYPNOS | Active | Impish (+Def, -SpAtk), **`Insomnia`** (prevents sleep!); caught at `(38, 6)`; Lv 11 stats: 36/12/13/12/20/17; Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace` (Lv 11) |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
