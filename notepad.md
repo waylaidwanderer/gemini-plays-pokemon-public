@@ -4157,12 +4157,17 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Middle staircase located at col 5..6, row 1.
 ## Floor 4F
 - Arrived from 3F right staircase at (11, 1..2).
-- Northwest stairs at (3, 1) leads directly to 5F northwest corner at (3, 2).
-- Row 2 is completely clear from col 8 west to col 3.
+- Contains 3 upward staircases to 5F:
+  - Northwest (3, 1) -> leads to 5F Section A (dead-end north strip).
+  - Middle (7, 1) -> leads to 5F Section A (dead-end north strip).
+  - Northeast (11, 1) -> leads to 5F Section B (main floor & Summit path!).
+- Diagonal rock wall at (10, 2), (9, 3), (8, 4) blocks direct eastward access along row 2.
+- Verified route to (11, 1): From (7, 2), step West along row 2 to (3, 2) -> South down col 3 to row 11 -> East across row 11 to col 11 -> North up col 11 into (11, 1) to enter 5F Section B!
+
 ## Floor 5F
-- Arrived from 4F northwest staircase at (3, 1..2).
-- The true staircase to the Summit (6F / Rayquaza) is the middle archway at (6, 1)!
-- Direct route on 5F: From (3, 2), step East along row 2 to (6, 2), then North into (6, 1) to reach the Summit!
+- Divided into two distinct sections:
+  - Section A (North strip, row 2): Accessible via (3, 1) and (7, 1). Blocked from main floor by horizontal rock wall across row 3.
+  - Section B (Main floor): Accessible via Northeast staircase at (11, 1). Contains open eastern and southern corridors leading to the Summit path!
 
 <hr>
 
