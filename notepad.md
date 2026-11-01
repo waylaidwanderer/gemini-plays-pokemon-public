@@ -227,4 +227,15 @@
   - **Hiker Devan** at `(10, 7)` facing `Right` across `(11..14, 7)` (3 Pokemon: `Geodude` Lv 10 [`Rock Tomb`, `Dig`, holds `Sitrus Berry`], `Diglett` Lv 9 [`Dig`], `Trapinch` Lv 9–10).
   - **School Kid Karen & School Kid Jerry** at `(16, 8)` & `(16, 11)` (stepping onto `(16, 9)` triggers a Double Battle; Karen has 3 Pokemon: `Totodile` Lv 9 [`Dive`, holds `Oran Berry`], `Cyndaquil` Lv 9, `Chikorita` Lv 9 [`Secret Power`, holds `Oran Berry`]; Jerry has 3 Pokemon: `Nidoran M` Lv 10 [`Rock Tomb`, holds `Oran Berry`], `Phanpy` Lv 10 [`Mud Shot`, `Rock Tomb`, holds `Oran Berry`], `Shuppet` Lv 9 [`Shadow Sneak`, holds `Oran Berry`]).
 
+## Route 115 (South — Accessible Before Roxanne)
+- **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x12` along `x=21`) onto Route 115 `(21, 79)`.
+- **Trainer-Free Path to Southern Beach**:
+  - From `(21, 77)`, step `Right` to `(22, 77)`, `Up x3` through the 2-tile ledge gap at `x=22..23, y=76` to `(22, 74)`, `Left` to `(21, 74)`, and `Up x12` straight up `x=21` (passing east of the wandering friendly girl in the brown hat near `(17, 68)` and west of the cliff ridge at `x=22, y=68..69`) to `(21, 62)`.
+  - From `(21, 62)`, walk `Left x6` above the trees at `x=19..20, y=63..66` and the signpost at `(16, 64)` to `(15, 62)`, `Down x5` along `x=15` to `(15, 67)`, `Left x4` to `(11, 67)`, `Down x4` down the southern beach staircase at `(10..11, 70)` to `(11, 71)`, and `Left x4` to `(7, 71)` facing `Left` at the ocean `(6, 71)`.
+- **Trainers & Items Observed**:
+  - **Black Belt** at `(24, 62)` facing `Right` & **Battle Girl** at `(28, 62)` facing `Left` (guarding the eastern sand path to the item ball at `(26, 68)`).
+  - **Beach Trainer** at `(11, 61)` facing `Right` across the northern beach staircase at `(14, 61)` (item ball at `(20, 60)` is on the northern beach shoreline).
+- **Old Rod Encounter (`(7, 71)` facing `Left`)**:
+  - **Wild `Kabuto`** (M, Lv 9; knows `Rock Tomb` and `Water Pulse`).
+
 <hr>
