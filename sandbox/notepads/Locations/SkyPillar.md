@@ -16,6 +16,9 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 
 ## Discovered Topography & Navigation
 - Entrance Cave:
-  - South exit doormat to Route 131 at (6, 16).
-  - Walkway: 3-tile wide corridor (cols 5..7) from row 16 north to row 11.
-  - Northern staircase at (6, 11) leads up to the exterior tower base.
+  - South entrance/exit doormat to Route 131 at (6, 16).
+  - Walkway: 3-tile wide lower corridor (cols 5..7, rows 12..16).
+  - First staircase at (6, 11) up to middle landing (rows 8..10).
+  - Second staircase at (6, 7) up to top landing (rows 5..6).
+  - Eastern upper terrace (rows 3..5, cols 7..15) leads to a decorative skylight at (14, 4); verified dead end on Turn 18359.
+  - Western path from top landing (col 5, row 5) undergoing exploration.

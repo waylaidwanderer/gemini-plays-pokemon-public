@@ -4127,9 +4127,13 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 
 ## Discovered Topography & Navigation
 - Entrance Cave:
-  - South exit doormat to Route 131 at (6, 16).
-  - Walkway: 3-tile wide corridor (cols 5..7) from row 16 north to row 11.
-  - Northern staircase at (6, 11) leads up to the exterior tower base.
+  - South entrance/exit doormat to Route 131 at (6, 16).
+  - Walkway: 3-tile wide lower corridor (cols 5..7, rows 12..16).
+  - First staircase at (6, 11) up to middle landing (rows 8..10).
+  - Second staircase at (6, 7) up to top landing (rows 5..6).
+  - Eastern upper terrace (rows 3..5, cols 7..15) leads to a decorative skylight at (14, 4); verified dead end on Turn 18359.
+  - Western path from top landing (col 5, row 5) undergoing exploration.
+
 
 <hr>
 
@@ -4596,7 +4600,6 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
 5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
 6. [ ] Meet Wallace inside Sky Pillar, ascend tower, and awaken Rayquaza.
-6. [ ] Ascend Sky Pillar and awaken Rayquaza to quell the weather calamity.
 7. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
