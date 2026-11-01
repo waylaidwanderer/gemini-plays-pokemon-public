@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 5) | POSEIDON | Active | Chosen from Birch's Bag to rescue Professor Birch |
+| Starter (Route 101) | Mudkip (M, Lv 5) | MUDKIP | Active | Chosen from Birch's Bag to rescue Professor Birch |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 101 | — | — | Pending | Tall grass at `x=5, y=14..16` |
 | Route 103 | — | — | Pending | Tall grass |
