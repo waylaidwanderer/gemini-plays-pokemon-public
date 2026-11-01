@@ -15,5 +15,4 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 3. [ ] Enter Sky Pillar and meet Wallace.
 
 ## Trainers - Route 131
-- Swimmer ♀: Stationed at (52, 26).
-- Swimmer ♂: Stationed at (52, 21) facing South, challenged at (52, 23) (Turn 18162).
+- Swimmer ♂ Kevin & Triathlete ♀ Talia: Defeated in Double Battle at (52, 23) on Turn 18177 (Kevin: Spheal Lv 34; Talia: Staryu Lv 34; prize ¥1,632). Stationed at (52, 22) and (52, 24).
