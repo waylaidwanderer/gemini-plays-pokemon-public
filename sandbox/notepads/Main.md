@@ -202,7 +202,8 @@
 2. [x] Travel to Sootopolis City to witness the clash between Groudon and Kyogre (Turn 17822).
 3. [x] Located Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
 4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
-5. [ ] Navigate Route 131 northern channel to enter Sky Pillar and meet Wallace.
+5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
+6. [ ] Meet Wallace inside Sky Pillar, ascend tower, and awaken Rayquaza.
 6. [ ] Ascend Sky Pillar and awaken Rayquaza to quell the weather calamity.
 7. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 

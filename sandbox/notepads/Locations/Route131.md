@@ -12,7 +12,8 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 ## Progression Checklist - Route 131
 1. [x] Entered Route 131 from Route 130 at (59, 26) (Turn 18159)!
 2. [x] Scout northern rock formations to locate the channel to Sky Pillar (Sighted entrance cave Turn 18307)!
-3. [ ] Enter Sky Pillar and meet Wallace.
+3. [x] Reached Sky Pillar sandy shore and entered cave entrance at (36, 6) (Turn 18351)!
+4. [ ] Meet Wallace inside Sky Pillar and ascend to awaken Rayquaza.
 
 ## Trainers - Route 131
 - Swimmer ♂ Kevin & Triathlete ♀ Talia: Defeated in Double Battle at (52, 23) on Turn 18177 (Kevin: Spheal Lv 34; Talia: Staryu Lv 34; prize ¥1,632). Stationed at (52, 22) and (52, 24).
