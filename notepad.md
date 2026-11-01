@@ -211,7 +211,8 @@
   - **Pokemon Center**: Door at `(16, 38)`.
   - **Cutter's House**: Door at `(9, 38)`; Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`).
   - **Pokemon Trainer's School**: Door at `(27, 34)` (fountain at `(27, 38)`); NPC at `(5, 3)` inside has no interaction script in this hack.
-  - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=33..35, y=25`).
-  - **Eastern Exit (to Route 116)**: Walk west of the `(30, 28)` house along `x=26..27` up to `y=20..21`, then walk `Right` onto Route 116.
+  - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=24..35, y=25`; Trade Boy is inside at `(4, 4)`).
+  - **Rustboro Gym & Adjacent House**: Rustboro Gym door at `(27, 19)`; house east of Gym has door at `(33, 19)` (doormat inside at `(5, 7)`).
+  - **Eastern Exit (to Route 116)**: From the main avenue at `(21, 20)`, walk `Up x9` to `(21, 11)` and `Right x19` onto Route 116 `(0, 11)` (tall grass starts at `(4, 13..15)`).
 
 <hr>
