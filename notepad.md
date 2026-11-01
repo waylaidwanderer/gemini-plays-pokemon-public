@@ -3800,7 +3800,7 @@ An ocean route in southern Hoenn connecting Route 130 on the east to Pacifidlog 
 
 ## Trainers - Route 131
 - Swimmer ♀: Stationed at (52, 26).
-- Swimmer ♂: Stationed at (52, 24) facing South.
+- Swimmer ♂: Stationed at (52, 21) facing South, challenged at (52, 23) (Turn 18162).
 
 <hr>
 
