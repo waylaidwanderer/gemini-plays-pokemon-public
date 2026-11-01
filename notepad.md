@@ -4,10 +4,10 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 8) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 8 stats: 28/16/14/14/13/11; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Caught at `(17, 13)` with Old Rod |
-| Route 103 | Wingull (F, Lv 4) | HALCYONE | Active | Caught at `(18, 12)` in tall grass |
-| Route 102 | Sandshrew (M, Lv 6) | ATLAS | Active | Caught at `(38, 6)` in tall grass |
+| Starter (Route 101) | Mudkip (M, Lv 12) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 12 stats: 37/22/19/18/17/14; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
+| Littleroot Town | Luvdisc (F, Lv 4) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 4 stats: 17/8/8/9/11/13; Moves: `Secret Power`, `Charm` |
+| Route 103 | Wingull (F, Lv 4) | HALCYONE | Active | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 4 stats: 18/7/7/9/8/12; Moves: `Wing Attack`, `Water Gun` |
+| Route 102 | Sandshrew (M, Lv 6) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 6 stats: 22/16/16/6/9/10; Moves: `Scratch`, `Poison Sting` |
 | Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass |
