@@ -10,6 +10,7 @@
 | Route 103 | Skitty (F, Lv 4) | SELENE | Active | Brave (+Atk, -Speed), `Cute Charm`; caught at `(12, 15)`; Lv 4 stats: 18/9/8/8/7/8; Moves: `Assist`, `Attract`, `Sing` |
 | Route 102 | Hoothoot (M, Lv 12) | HYPNOS | Active | Impish (+Def, -SpAtk), **`Insomnia`** (prevents sleep!); caught at `(38, 6)`; Lv 12 stats: 39/12/14/13/21/18; Moves: `Tackle`, `Peck`, `Confusion`, `Aerial Ace` (Lv 11) |
 | Petalburg City | Luvdisc (M, Lv 5) | EROS | Active | Caught at `(12, 23)` pond with Old Rod |
+| Route 104 | Natu (M, Lv 7) | APOLLO | Boxed (Box 1) | Caught at `(25, 59)`; knows `Psybeam` at Lv 7 |
 
 ## Attempt #2 Encounter History (Wiped Turn 864 in Rustboro Gym due to overleveling 5 Pokemon to Lv 17)
 - **Starter**: `Mudkip` (`POSEIDON`, Lv 7) — Fainted to wild Lv 6 Meowth's crit `Pay Day` on Route 102
