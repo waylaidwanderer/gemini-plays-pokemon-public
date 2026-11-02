@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); knows `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` (`95 BP` Ice); `653 EXP` buffer at Lv 16 |
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; `585 EXP` buffer at Lv 16) |
 | Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`) |
-| Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 14); knows `Secret Power` (Slot 3) and `BubbleBeam` (Slot 4) |
+| Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 16); knows `1: Body Slam` (`85 BP` STAB Normal), `2: Charm`, `3: Secret Power`, `4: BubbleBeam`; `653 EXP` buffer at Lv 16 |
 | Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; `585 EXP` buffer at Lv 16) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
 | Route 116 | Makuhita | ATHENA | Box 1 | Caught at `(4, 13)` (Turn 2102, Female, Lv 9); `Fighting`-type, learns `Vital Throw` (`70 BP` STAB Fighting) at Lv 13; sent directly to `Box 1` |
