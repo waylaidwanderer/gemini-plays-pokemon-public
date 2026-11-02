@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 7) | MUDKIP | Active | Lonely (+Atk, -Def), `Torrent`; Lv 7 stats: 24/17/10/13/13/12; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` |
+| Littleroot Town | Goldeen (F, Lv 5) | GALATEA | Active | Timid (+Speed, -Atk), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 5 stats: 20/10/12/9/10/13 (`Medium Fast` 817 EXP buffer at Lv 16); Moves: `BubbleBeam`, `Psybeam`, `Haze` |
 | Route 103 | Wingull (F, Lv 4) | - | Forfeited | Fled Turn 1738 because `Mudkip` was at 6/24 HP (unhealed from Rival battle) |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(12, 23)` facing `Left` |
