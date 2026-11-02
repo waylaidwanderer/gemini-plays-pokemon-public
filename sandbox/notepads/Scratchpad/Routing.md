@@ -40,7 +40,7 @@
   - **Pokemon Center**: Door at `(20, 16)` (inside from `(7, 8)`, walk `Up x4, Right x3, Up x2` via `(7, 4) -> (10, 4) -> (10, 2)` to reach the PC at `(10, 2)`, avoiding NPCs at `(10, 7)` and `(9, 5)`).
   - **Poke Mart**: Door at `(25, 12)` (`Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
   - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event).
-  - **Southern Pond**: Located at `x=6..11, y=22..25`; stand at `(12, 23)` facing `Left` at `(11, 23)` to fish with Old Rod (from `(16, 23)`, walk `Up x2` to `(16, 21)`, `Left x4` above the trees at `x=13..14` to `(12, 21)`, `Down x2` to `(12, 23)`, and `Left`).
+  - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (from `(20, 17)` outside the Pokemon Center, walk `Down x4` to `(20, 21)`, `Left x9` to `(11, 21)`, and `Down` to `(11, 22)` facing `Down`).
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`).
 
 ## Route 104 (South)
