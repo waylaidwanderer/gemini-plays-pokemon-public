@@ -4354,6 +4354,17 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 - Defeated Lass Andrea (Luvdisc Lv 40) at (7, 17) on Turn 18764. Prize: ¥640.
 - Return ladder clearly located on southern basement platform at (11, 22).
 - Defeated Beauty Connie (Goldeen Lv 40) at (9, 19) on Turn 18776. Prize: ¥3,200.
+## Gym Leader Juan - Team & Battle Mechanics
+- Confirmed Team:
+  1. Luvdisc (Lv 41, Water) - Moves: Water Pulse, Attract, Sweet Kiss, Flail. Defeated by Sage's Leaf Blade.
+  2. Sealeo (Lv 43, Ice/Water) - Moves: Encore, Body Slam, Aurora Beam, Water Pulse. Defeated by Sage's Leaf Blade.
+  3. Kingdra (Lv 46, Water/Dragon) - Held Item: Chesto Berry (consumed). Moves: Double Team (+6 evasion stall), Rest, Ice Beam, Water Pulse.
+  4. Whiscash (Lv 41, Water/Ground) - In reserve. 4x weak to Grass (Leaf Blade).
+  5. Crawdaunt (Lv 43, Water/Dark) - In reserve. 2x weak to Grass (Leaf Blade).
+- Rematch Strategy:
+  - Sage is now Level 59!
+  - STAB Leaf Blade with 15 PP sweeps Luvdisc, Sealeo, Whiscash (4x OHKO), and Crawdaunt (2x OHKO).
+  - Against Kingdra: attack aggressively immediately with Leaf Blade / Quick Attack before Kingdra can stack Double Team. If Kingdra Rests without its Chesto Berry, it remains asleep for 2 turns.
 
 <hr>
 
