@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 14 stats: 42/25/22/21/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc (F, Lv 15) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 15 stats: 39/16/20/21/28/35; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
-| Route 103 | Wingull (F, Lv 16) | HALCYONE | Active | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 16 HP: 42/42 (`556/817 EXP` into Lv 16); Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
+| Route 103 | Wingull (F, Lv 17) | HALCYONE | Benched (Cap) | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 17 HP: 45/45; benched until Roxanne is defeated (Lv 20 cap) |
 | Route 102 | Sandshrew (M, Lv 15) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 15 stats: 40/34/33/10/17/18; Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11) |
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposit in PC graveyard in Rustboro City |
 | Route 104 | Cubone (M, Lv 15) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 15 stats: 43/21/37/17/23/17; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
