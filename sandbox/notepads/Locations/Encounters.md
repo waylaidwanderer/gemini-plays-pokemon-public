@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 7) | MUDKIP | Active | Lonely (+Atk, -Def), `Torrent`; Lv 7 stats: 24/17/10/13/13/12; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` |
-| Route 103 | - | - | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 103 | Wingull (F, Lv 4) | - | Forfeited | Fled Turn 1738 because `Mudkip` was at 6/24 HP (unhealed from Rival battle) |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(12, 23)` facing `Left` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
