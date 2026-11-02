@@ -9,8 +9,8 @@
 | Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 16); knows `1: Body Slam` (`85 BP` STAB Normal), `2: Charm`, `3: Secret Power`, `4: BubbleBeam`; `653 EXP` buffer at Lv 16 |
 | Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; `585 EXP` buffer at Lv 16) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
-| Route 116 | Makuhita | ATHENA | Box 1 | Caught at `(4, 13)` (Turn 2102, Female, Lv 9); `Fighting`-type, learns `Vital Throw` (`70 BP` STAB Fighting) at Lv 13; sent directly to `Box 1` |
-| Route 115 | Kabuto | TRITON (`wm,t`) | Box 1 | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 9); `Rock/Water`-type (`90 Base Def`, `0.5x` resists `Selfdestruct` & `Rock Slide`); sent directly to `Box 1` |
+| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 13 -> 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]) |
+| Route 115 | Kabuto | TRITON (`wm.t`) | Active | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 13 -> 16); `Rock/Water`-type (`90 Base Def`; `2: Rock Tomb`, `3: Water Pulse`, `4: Mega Drain`) |
 
 ## Attempt #5 Encounter History (Wiped Turn 1698 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
 - **Starter (Route 101)**: `Mudkip -> Marshtomp` (`MARSHTOMP`, M, Lv 17, evolved at Lv 16; `Slow` EXP group with `1,021 EXP` buffer at Lv 16; `Mud Shot` Lv 16, `Water Gun` Lv 10) — Fainted to Roxanne's Lv 15 `Lunatone` (`Rock Slide`)
