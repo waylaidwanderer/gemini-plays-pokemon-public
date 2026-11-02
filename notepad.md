@@ -1,16 +1,16 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #8)
+# Nuzlocke Encounters (Attempt #9)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AMPHITRITE | Active | Rescued Prof. Birch on Route 101 (Turn 1894, Female — immune to Roxanne's Female `Nosepass`'s `Attract`!); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc | APHRODITE | Active | Caught with Old Rod at `(17, 13)` (Turn 1917, Female, Lv 4); learns `Water Pulse` at Lv 12 and `Ice Beam` at Lv 16 |
-| Route 103 | Hoppip | FLORA | Active | Caught at `(17, 11)` (Turn 1906, Female, raised to Lv 11 with Rare Candies on Turn 1919); `Grass/Flying` (immune to Ground, 4x vs Water/Rock) |
-| Route 102 | Meowth | TYCHE | Deceased | Caught at `(39, 6)` (Turn 1922, Female, Lv 12); fainted to Fisherman Darian's Lv 7 `Luvdisc` (`Dive`) on Turn 1955 |
-| Petalburg City | Azurill | GLAUCUS | Deceased | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, Lv 11); fainted to Lady Cindy's Lv 7 `Azurill` (`Huge Power` `Uproar`) on Turn 1960 |
-| Route 104 | Natu | ATHENA | Active | Caught at `(23, 61)` (Turn 1946, Female, raised to Lv 12 on Turn 1947); `Psychic/Flying`, knows `Psybeam` (65 BP STAB) and `Night Shade` (Lv 10) |
-| Petalburg Woods | Oddish | HYACINTH | Active | Caught at `(8, 32)` (Turn 1971, Male, raised to Lv 14 on Turn 1972); evolves into `Gloom` at Lv 16 (`585 EXP` buffer), knows `Mega Drain`, `Acid` (spread), and `Toxic` (Lv 14) |
+| Starter (Route 101) | - | - | Pending | Rescue Prof. Birch on Route 101 (`Mudkip` — evolves into `Marshtomp` at Lv 16 with `1,021 EXP` buffer; uses up `Route 101` encounter) |
+| Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Route 103 | - | - | Pending | Tall grass at `(18, 11..12)` |
+| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
+| Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(11, 22)` facing `Down` |
+| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach (`Kabuto` / `Omanyte`) |
 
@@ -41,25 +41,27 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #8
+# Nuzlocke Dashboard — Attempt #9
 
 ## Active Rules & Status
-- **Attempt**: #8
+- **Attempt**: #9
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#7)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#8)
 - **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
 - **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap.
 - **Attempt #3**: Wiped at Turn 1134 in **Rustboro Gym** against **Hiker Marc**'s Lv 14 `Kabuto` (`Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`).
 - **Attempt #4**: Wiped at Turn 1408 in **Rustboro Gym** against **School Kid Tammy** after losing `Luvdisc` to overworld poison ticks in Petalburg Woods, losing wild Route 115 `Kabuto` to a chained chip+ball input, and losing `Mudkip` in School Kid Josh's battle due to an in-battle party slot swap (`Slot 1 <-> Slot 5`).
 - **Attempt #5**: Defeated all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) for the first time and reached **Gym Leader Roxanne**, defeating her lead Lv 15 `Nosepass` (`Seismic Toss`, `Attract`, `Selfdestruct`, holds `Berry Juice`/`Sitrus Berry`) and Lv 14 `Lileep` (`Giga Drain`, `AncientPower`, holds `Berry Juice`/`Sitrus Berry`) before wiping at Turn 1698 to her 3rd Pokemon, Lv 15 `Lunatone` (`Rock Slide`), because 4 of our living powerhouses (`Aphrodite` the Luvdisc, `Halcyone` the Wingull, `Adonis` the Weepinbell, and `Triton` the Omanyte) had reached **Lv 17** prior to Roxanne and were benched in `Box 1`, leaving us with only a 3-Pokemon squad (`Marshtomp`, `Sandshrew`, `Grimer`) for Roxanne's 6-Pokemon team.
 - **Attempt #6**: Reset early on Route 102 at Turn 1758 before fighting any Route 102 trainers because we entered Route 103/102 wild grass with a Lv 7 `Mudkip` (`24 HP`) and an un-leveled Lv 5 `Goldeen` (`20 HP`), forfeiting `Route 103` (`Wingull`) at `6/24 HP` and losing Lv 5 `Goldeen` (`Galatea`) to a critical hit `Confusion` (`20/20 HP`) from a wild Lv 6 `Spoink`.
-- **Attempt #7**: Our new "Rare-Candy Mudkip to Lv 12 in Littleroot Town and Rare-Candy every catch to Lv 12–13 at 0 steps" strategy went **7-for-7 on catches with 0 deaths in just 118 turns** (`Mudkip`, `Wingull`, `Luvdisc`, `Sandshrew`, `Azurill`, `Cubone`, `Oddish`), but at Turn 1878 we stepped onto `(26, 23)` in Petalburg Woods *before* doing our pre-Magma-Grunt menu prep. Stepping onto `(26, 23)` locks player control immediately while the Devon Researcher walks around for 2.2s before opening a textbox, so `<CurrentScreen>` at `+0.00s` looked like the normal overworld and our queued Rare Candy / Oran Berry menu inputs fired during the Team Magma Grunt battle, fainting `POSEIDON` (`Mudkip` Lv 14) and `HALCYONE` (`Wingull` Lv 15) to `Magnemite`'s `ThunderShock`. Reset at Turn 1880 to preserve a full 9-encounter roster with `Marshtomp` for Roxanne.
-- **Core Rules for Attempt #8 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
-  1. **Immediately Rare-Candy `Mudkip` to Lv 12–13 Before Catching Wild Encounters, and Rare-Candy Every New Catch to Lv 12–14 at `0` Steps**:
-     - Never walk into wild grass with a Lv 4–7 Pokemon (`20–24 HP`) that can be 2-shot or crit-OHKO'd by a wild Lv 6 `Spoink` (`Confusion`)! As soon as we obtain the Pokedex and buy 22 Poke Balls in Oldale Town, heal at the Oldale Pokemon Center and feed Rare Candies to bring `Mudkip` to **Lv 12–13 (`36+ HP`, learns `Water Gun` at Lv 10)** before entering Route 103/102/Littleroot encounters. Throw Poke Balls directly at full HP against high-catch-rate early encounters (`Luvdisc` CR 225, `Goldeen` CR 225, `Wingull` CR 190, `Sandshrew`/`Meowth` CR 255) while Lv 12–13 `Mudkip` tanks hits for 2–3 damage, and immediately Rare-Candy every newly caught Pokemon to **Lv 12–14** at `0` steps!
+- **Attempt #7**: Our "Rare-Candy Mudkip in Littleroot Town and Rare-Candy every catch at 0 steps" strategy went **7-for-7 on catches with 0 deaths in just 118 turns** (`Mudkip`, `Wingull`, `Luvdisc`, `Sandshrew`, `Azurill`, `Cubone`, `Oddish`), but at Turn 1878 we stepped onto `(26, 23)` in Petalburg Woods *before* doing our pre-Magma-Grunt menu prep.
+- **Attempt #8**: Went **7-for-7 on catches** again (`Mudkip`, `Hoppip`, `Luvdisc`, `Meowth`, `Azurill`, `Natu`, `Oddish`), but lost `TYCHE` (`Meowth` Lv 12), `GLAUCUS` (`Azurill` Lv 11), and `HYACINTH` (`Oddish` Lv 14) in trainer battles because (a) we only leveled our early team to Lv 11–12 instead of Lv 13–14, (b) we used `Psybeam` instead of `4x` `Peck` on Bug Catcher James's `Paras` (`Spore`), and (c) after switching in `HYACINTH` on `Paras`, the split-EXP message (`2` EXP textboxes instead of `1`) swallowed our move-reclamping input (`Up, Left`), leaving the cursor on `Acid` against `Surskit` (`Psybeam`) and `Nincada` (`Aerial Ace`). Reset at Turn 1976 to preserve a full 9-Pokemon roster with `Gloom`/`Weepinbell` for Roxanne.
+- **Core Rules for Attempt #9 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
+  1. **Immediately Rare-Candy `Mudkip` to Lv 13–14 Before Catching Wild Encounters, and Rare-Candy Every New Catch to Lv 13–14 at `0` Steps**:
+     - Never walk into wild grass or trainer battles with a Lv 11–12 Pokemon when the cap is Lv 16! Raise `Mudkip` to **Lv 13 (`36+ HP`)** in Birch's Lab and raise every newly caught Pokemon directly to **Lv 13–14** at `0` steps!
+     - Never use `Select` move-swapping in battle; clamp explicitly on Turn 1 (`Up, Left` / `Up, Right` / `Up, Left, Down` / `Down, Right`), and when 2 Pokemon participated in a KO (`split EXP` = 2 `"gained EXP"` textboxes), wait for the 2nd send-out (`["B", "sleep 1200", "B", "sleep 5000"]`) before clamping to a new move slot! Against Bug Catcher James's lead `Paras` (`Bug/Grass`), always use a `4x` Flying move (`Peck` / `Wing Attack`) on Turn 1 to OHKO before `Spore`.
      - Keep all 9 pre-Roxanne encounters at **Lv 14–15** through Route 104 North (`PKMN Trainer Red`), then in Rustboro City Rare-Candy all 8–9 encounters to **Lv 16 (`0 EXP` into Lv 16!)** (`Mudkip -> Marshtomp` `1,021 EXP` buffer, `Oddish -> Gloom` / `Bellsprout -> Weepinbell` `585 EXP` buffer; always use **only `A` presses** after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled).
   2. **Exact Rustboro Gym EXP Budget (`3,773 EXP` Total Across Josh, Tammy, and Marc) to Keep All 6 Best Pokemon at Lv 16 for Roxanne**:
      - Use secondary encounters (#7, #8, #9 — e.g. `Wingull`, 2nd `Luvdisc`/`Azurill`, `Route 102`/`Route 104`/`Route 116` encounters) via PC rotation to absorb EXP on `Marc's Onix` (`346 EXP`), `Marc's Baltoy` (`148 EXP`), `Marc's Cacnea` (`248 EXP`), and split EXP on `Josh's Omanyte` / `Tammy's Corsola` / `Marc's Kabuto`, keeping our **Top 6 Roxanne Team** strictly `< Lv 17`:
@@ -231,7 +233,7 @@
   - **South-West patch at `(6..13, 27..33)`**: From `(17, 33)`, step `Down` to `(17, 34)`, walk `Left x11` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, walk `Up x4` to `(6, 30)` (note: `(6, 31..34)` and `(5, 26..30)` are bare dirt, while `(6, 30)` is 1 tall grass tile at the corner of the patch, verified Turns 970 and 976), step `Left` to `(5, 30)`, walk `Up x4` along `x=5` to `(5, 26)` (`(5, 25)` is a tree), step `Right` to `(6, 26)`, and `Up` to `(6, 25)`.
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of southern entrance; 3 Pokemon: `Spinarak` Lv 8 [`Mega Drain`, `Spider Web`, holds `Berry Juice`], `Ledyba` Lv 8 [`Supersonic`, `Mach Punch`], `Venonat` Lv 8 [`Psybeam`, `Stun Spore`, `Confusion`]).
-  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`], `Surskit` Lv 8 [`Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`]).
+  - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`, `Secret Power` — `4x` weak to Flying, always OHKO on Turn 1 with a Flying move like `Peck`/`Wing Attack` so it never uses `Spore`!], `Surskit` Lv 8 [`Psybeam`, `Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`]).
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`; `Poke Ball` item ball at `(29, 53)`.
   - **Grass-Free Path to Central Clearing**: From `(6, 25)` (or `(9, 25)` below Bug Catcher James), walk `Right` along `y=25` to `(13, 25)` (north of the `(7..12, 26)` grass row; going southbound, walk `Left x7` along `y=25` from `(13, 25)` to `(6, 25)`, `Down` to `(6, 26)`, `Left` to `(5, 26)`, and `Down x4` along `x=5` to `(5, 30)`), step `Down` to `(13, 26)`, walk `Right x13` along `y=26` to `(26, 26)` (bypassing tall grass at `(18..24, 24..25)`), and walk `Up x3` along `x=26` to `(26, 23)`.
   - **Team Magma Grunt Ambush** at `(26, 23)` (**CRITICAL**: stepping onto `(26, 23)` immediately locks player control while the Devon Researcher walks around for `~2.2s` before opening the first textbox, so `<CurrentScreen>` at `+0.00s` looks like the normal overworld! Always stop at **`(26, 24)`** to complete all Rare Candy + Oran Berry + Slot 1 lead prep before stepping onto `(26, 23)`! Devon Researcher rewards `Great Ball`):
