@@ -29,6 +29,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Central Atoll & Island Formation: A massive island and reef structure spanning cols 58..76, rows 26..36.
   - Northern Runway: Row 27 provides a clear walkable sandbar across cols 65..75.
   - Northern Water Highway: Row 25 is an open deep water highway spanning cols 43..75 connecting the western ocean across the north side of the sandbar.
+  - Grey ripple rock at (37, 25): blocks row 25; cleanly bypassed via rows 26..27 heading East.
   - Grey Ripple Rock & Bypass: Grey ripple rock at (62, 24..25) blocks rows 24..25. Row 26 provides clear deep water bypass at cols 61..65.
   - Interior Structure: Solid shallow sandbar (rows 26..31) and central cliff plateau (cols 68..74, rows 31..35).
   - Eastern Flank Obstacles: Col 76 is blocked at row 28 by a grey ripple rock; cols 78..81 are blocked by pointed rocks at rows 28..30. Clear southbound passage around the reef is at col 82+ past Swimmer ♀ at (80, 24).
