@@ -46,16 +46,9 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 - Right staircase located at col 11, row 1 with unobstructed approach corridor along col 11.
 - Middle staircase located at col 5..6, row 1.
 ## Floor 4F & 5F
-- Floor 4F contains 3 archways along the north wall at (3, 1), (7, 1), and (11, 1).
-- Floor 5F connects to 4F via these archways.
-- Central pit dominates the lower half of each floor, with perimeter corridors wrapping around.
-- Rayquaza rests on the Summit (6F) above.
-- Floor 4F/5F: North wall has archways at (3, 1), (7, 1), and (11, 1).
-- At (3, 2), the western corridor (cols 1..3) is completely open to the south along the west edge of the central pit.
-- Route: Walk south along the western corridor (cols 1..3) around the central pit toward the southern and eastern corridors.
-- Southwest corner at (1, 11..13): Southern perimeter corridor extends east along rows 12..13 unobstructed under the central pit.
-- Eastern corridor (cols 11..13): Unobstructed vertical path extending north along the east edge of the central pit toward the right archway at (11, 1).
-- Wild encounters on upper floors: Sableye (Lv 33), Claydol (Lv 35), Banette. Sage easily outspeeds and flees safely.
+- Floor 4F contains 3 archways along the north wall at (3, 1), (7, 1), and (11, 1) connecting to Floor 5F.
+- Perimeter corridors wrap around the central pits leading to the upper terrace and the Summit (6F) staircase.
+- Wild encounters: Sableye (Lv 33), Claydol (Lv 35), Banette. Sage easily outspeeds and flees safely.
 ## Floor 5F (Upper Floor) - Discovered Turn 18604
 - Arrived via Right Archway at (16, 15) facing Down.
 - Layout:
