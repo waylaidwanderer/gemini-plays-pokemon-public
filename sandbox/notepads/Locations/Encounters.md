@@ -9,7 +9,7 @@
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposited in Box 1 |
 | Route 104 | Cubone (M, Lv 16) | HADES | Deceased | Fainted Turn 1632 to School Kid Tammy's Lv 11 `Yanma` (critical hit `Giga Drain` for 30/45 HP from 30/45 HP, bypassing `Oran Berry` at <=22 HP) |
 | Petalburg Woods | Weepinbell (M, Lv 17) | ADONIS | Benched (Cap) | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16; Lv 16 stats: 51/33/21/36/18/27; Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15); benched after KOing Hiker Marc's `Kabuto` until Roxanne is defeated |
-| Route 116 | Grimer (F, Lv 16) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 16 stats: 54/28/21/18/24/15 (`197/817 EXP`); Moves: `Acid`, `Sludge Bomb` (Lv 13), `Lick`, `Disable` |
+| Route 116 | Grimer (F, Lv 16) | CIRCE | Deceased | Fainted Turn 1695 to Gym Leader Roxanne's Lv 15 `Lunatone` (`Rock Slide`) after KOing Roxanne's `Lileep` |
 | Route 115 | Omanyte (M, Lv 17) | TRITON | Benched (Cap) | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 17 stats: 42/21/44/32/30/19; Moves: `BubbleBeam`, `Rock Tomb`, `Aurora Beam` (Lv 15), `Mud Shot` (Lv 15); benched after Hiker Marc's `Kabuto` until Roxanne is defeated |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)

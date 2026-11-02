@@ -11,7 +11,7 @@
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposited in Box 1 |
 | Route 104 | Cubone (M, Lv 16) | HADES | Deceased | Fainted Turn 1632 to School Kid Tammy's Lv 11 `Yanma` (critical hit `Giga Drain` for 30/45 HP from 30/45 HP, bypassing `Oran Berry` at <=22 HP) |
 | Petalburg Woods | Weepinbell (M, Lv 17) | ADONIS | Benched (Cap) | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16; Lv 16 stats: 51/33/21/36/18/27; Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15); benched after KOing Hiker Marc's `Kabuto` until Roxanne is defeated |
-| Route 116 | Grimer (F, Lv 16) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 16 stats: 54/28/21/18/24/15 (`197/817 EXP`); Moves: `Acid`, `Sludge Bomb` (Lv 13), `Lick`, `Disable` |
+| Route 116 | Grimer (F, Lv 16) | CIRCE | Deceased | Fainted Turn 1695 to Gym Leader Roxanne's Lv 15 `Lunatone` (`Rock Slide`) after KOing Roxanne's `Lileep` |
 | Route 115 | Omanyte (M, Lv 17) | TRITON | Benched (Cap) | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 17 stats: 42/21/44/32/30/19; Moves: `BubbleBeam`, `Rock Tomb`, `Aurora Beam` (Lv 15), `Mud Shot` (Lv 15); benched after Hiker Marc's `Kabuto` until Roxanne is defeated |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
@@ -308,6 +308,6 @@
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Rock Tomb`, `Brick Break` [75 BP Fighting], `Secret Power`, `Iron Defense`, 14+ Speed), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Magnitude`, `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Aurora Beam`, `Rock Tomb`, `Water Pulse`), `Larvitar` (M, Lv 15, 213 EXP, **`Earthquake`** [100 BP], 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (reached from `(5, 12)` via `Up x4` to `(5, 8)` then `Left x4` to `(1, 8)`, just south of Gym Leader Roxanne's platform stairs).
     - Team (4 Pokemon): `Onix` (M, Lv 15, 346 EXP, `Dig`), `Kabuto` (M, Lv 14, 357 EXP, `Giga Drain` [75 BP, 10 PP], `Rock Tomb`, `Aerial Ace`, 20 Speed), `Baltoy` (Lv 12, 148 EXP, `Rock Tomb`, `Psybeam`, holds `Oran/Sitrus Berry`), `Cacnea` (M, Lv 12, 248 EXP, `Needle Arm`).
-  - **Gym Leader Roxanne (`(5, 2)` facing `Down`)**: Reached from `(1, 8)` via `Up x3` to `(1, 5)`, `Right x4` to `(5, 5)`, and `Up x2` to `(5, 3)` facing `Up` (6 Pokemon: lead `Nosepass` F Lv 15 [`Seismic Toss`, `Attract`, `Selfdestruct`, holds `Berry Juice`/`Sitrus Berry`], `Lileep` M Lv 14 [363 EXP, `Giga Drain`, `AncientPower`, holds `Berry Juice`/`Sitrus Berry`], `Lunatone`).
+  - **Gym Leader Roxanne (`(5, 2)` facing `Down`)**: Reached from `(1, 8)` via `Up x3` to `(1, 5)`, `Right x4` to `(5, 5)`, and `Up x2` to `(5, 3)` facing `Up` (6 Pokemon: lead `Nosepass` F Lv 15 [`Seismic Toss`, `Attract`, `Selfdestruct`, holds `Berry Juice`/`Sitrus Berry`], `Lileep` M Lv 14 [363 EXP, `Giga Drain`, `AncientPower`, holds `Berry Juice`/`Sitrus Berry`], `Lunatone` Lv 15 [`Rock Slide`]).
 
 <hr>
