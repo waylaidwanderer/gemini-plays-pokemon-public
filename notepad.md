@@ -4293,7 +4293,7 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 - May is positioned at (31, 34) facing Wallace outside the Sootopolis Gym to receive HM07 Waterfall.
 - Eastern Terrace (rows 31..42, cols 41..48):
   - Pokémon Center located at (43, 31..32). Checkpoint verified.
-  - Elevated cliff rim prevents surfing directly into the lagoon from upper/middle grass edges (e.g. at 41, 39). Water access requires descending stairs to sea level.
+  - Eastern Shore Disembarkation & Surf Point: Located at (40, 39). Facing West into the water at (39, 39) and pressing A directly triggers the Surf prompt to mount onto the central lagoon.
 
 <hr>
 
