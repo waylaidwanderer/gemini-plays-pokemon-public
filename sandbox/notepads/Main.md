@@ -211,12 +211,15 @@
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
 1. [x] Exit Sootopolis Gym into Sootopolis City (Turn 19018)!
-2. [ ] Teach HM07 Waterfall to Lombre (Lilz).
-3. [ ] Fly to Route 128 / Mossdeep City and surf east to the Ever Grande City waterfall.
-4. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
-5. [ ] Enter Ever Grande City Pokémon Center to register flight checkpoint.
-6. [ ] Traverse Victory Road (defeat Wally, navigate cave).
-7. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+2. [x] Teach HM07 Waterfall to Lombre (Lilz) (Turn 19040)!
+3. [x] Fly to Mossdeep City (Turn 19065)!
+4. [ ] Heal at Mossdeep Pokémon Center.
+5. [ ] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart.
+6. [ ] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall.
+7. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
+8. [ ] Enter Ever Grande City Pokémon Center to register flight checkpoint.
+9. [ ] Traverse Victory Road (defeat Wally, navigate cave).
+10. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
