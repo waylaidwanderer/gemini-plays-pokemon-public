@@ -5,11 +5,11 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 14 stats: 42/25/22/21/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 14 stats: 37/15/19/20/27/33; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Littleroot Town | Luvdisc (F, Lv 15) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 15 stats: 39/16/20/21/28/35; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 103 | Wingull (F, Lv 16) | HALCYONE | Active | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 16 HP: 42/42 (`556/817 EXP` into Lv 16); Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
-| Route 102 | Sandshrew (M, Lv 14) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 14 stats: 38/31/31/9/16/17; Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11) |
-| Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP |
-| Route 104 | Cubone (M, Lv 14) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 14 stats: 41/20/34/16/22/16; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
+| Route 102 | Sandshrew (M, Lv 15) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 15 stats: 40/34/33/10/17/18; Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11) |
+| Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposit in PC graveyard in Rustboro City |
+| Route 104 | Cubone (M, Lv 15) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 15 stats: 43/21/37/17/23/17; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
 | Petalburg Woods | Bellsprout (M, Lv 8) | ADONIS | Active (Box 1) | Caught at `(21, 35)` in tall grass; knows `Vine Whip`, `Acid`; evolves into `Weepinbell` at Lv 16 (`763 EXP` buffer) |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
@@ -256,7 +256,7 @@
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` (Lv 9, `Sing`, `Assist`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Confuse Ray`, `Ember`, `Disable`, `Bite`).
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on horizontal bridge section):
-    - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, `Reflect`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). Focus fixed-damage (`Seismic Toss` / `SonicBoom`) and spread `Acid` (`MOVE_TARGET_BOTH`, which hits both `Smeargles` simultaneously and cannot be redirected by `Follow Me`, breaking `Focus Punch` every turn) to overwhelm `Follow Me` recovery.
+    - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, `Reflect`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). Focus fixed-damage (`Seismic Toss` / `SonicBoom`) and spread `Acid` or `Bubble` (`MOVE_TARGET_BOTH`, which hits both `Smeargles` simultaneously and cannot be redirected by `Follow Me`, breaking `Focus Punch` every turn) to overwhelm `Follow Me` recovery.
   - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge; defeated Turn 723):
     - Team (5 Pokemon):
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
