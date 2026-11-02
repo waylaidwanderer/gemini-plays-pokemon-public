@@ -11,7 +11,7 @@
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposit in PC graveyard in Rustboro City |
 | Route 104 | Cubone (M, Lv 15) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 15 stats: 43/21/37/17/23/17; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
 | Petalburg Woods | Bellsprout (M, Lv 8) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 8 stats: 28/17/12/18/11/14; Moves: `Vine Whip`, `Acid`; evolves into `Weepinbell` at Lv 16 (`763 EXP` buffer) |
-| Route 116 | Grimer (F, Lv 9) | CIRCE | Active | Caught at `(4, 13)` in tall grass |
+| Route 116 | Grimer (F, Lv 9) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 9 stats: 34/18/14/13/16/10; Moves: `Acid`, `Memento`, `Lick`, `Disable` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
