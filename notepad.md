@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 12) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 12 stats: 33/14/17/18/24/29; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 103 | Wingull (F, Lv 14) | HALCYONE | Active | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 14 stats: 38/15/14/24/17/31; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
 | Route 102 | Sandshrew (M, Lv 12) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 12 stats: 34/28/27/9/14/15; Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11) |
-| Petalburg City | — | — | Pending | Old Rod at `(12, 23)` facing `Left` |
+| Petalburg City | Luvdisc (M, Lv 5) | EROS | Active | Caught at `(12, 23)` with Old Rod |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
