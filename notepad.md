@@ -1,16 +1,16 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #7)
+# Nuzlocke Encounters (Attempt #8)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1785); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc | APHRODITE | Active | Caught Lv 4 F with Old Rod at `(17, 13)` (Turn 1816); raised to Lv 12 (`Water Pulse`) at `0` steps |
-| Route 103 | Wingull | HALCYONE | Active | Caught Lv 4 F at `(18, 12)` (Turn 1805); raised to Lv 12 at `0` steps |
-| Route 102 | Sandshrew | GAIA | Active | Caught Lv 6 F at `(39, 6)` on 1st Poke Ball (Turn 1819); raised to Lv 12 at `0` steps |
-| Petalburg City | Azurill | THETIS | Active | Caught Lv 5 F with Old Rod at `(11, 22)` (Turn 1838); raised to Lv 12 (`BubbleBeam`) at `0` steps |
-| Route 104 | Cubone | HADES | Active | Caught Lv 7 M at `(26, 59)` (Turn 1848); raised to Lv 13 (`Headbutt`) at `0` steps |
-| Petalburg Woods | Oddish | CHLORIS | Active (Box 1) | Caught Lv 8 F at `(6, 30)` (Turn 1875); evolves into `Gloom` at Lv 16 (`585 EXP` buffer) |
+| Starter (Route 101) | - | - | Pending | Rescue Prof. Birch on Route 101 (`Mudkip`; evolves into `Marshtomp` at Lv 16 with `1,021 EXP` buffer; uses up `Route 101` encounter) |
+| Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Route 103 | - | - | Pending | Tall grass at `(18, 11..12)` |
+| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
+| Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(11, 22)` facing `Down` |
+| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach (`Kabuto` / `Omanyte`) |
 
@@ -41,22 +41,23 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #7
+# Nuzlocke Dashboard — Attempt #8
 
 ## Active Rules & Status
-- **Attempt**: #7
+- **Attempt**: #8
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
-- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refill to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
+- **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#5)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#7)
 - **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
 - **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap.
 - **Attempt #3**: Wiped at Turn 1134 in **Rustboro Gym** against **Hiker Marc**'s Lv 14 `Kabuto` (`Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`).
 - **Attempt #4**: Wiped at Turn 1408 in **Rustboro Gym** against **School Kid Tammy** after losing `Luvdisc` to overworld poison ticks in Petalburg Woods, losing wild Route 115 `Kabuto` to a chained chip+ball input, and losing `Mudkip` in School Kid Josh's battle due to an in-battle party slot swap (`Slot 1 <-> Slot 5`).
 - **Attempt #5**: Defeated all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) for the first time and reached **Gym Leader Roxanne**, defeating her lead Lv 15 `Nosepass` (`Seismic Toss`, `Attract`, `Selfdestruct`, holds `Berry Juice`/`Sitrus Berry`) and Lv 14 `Lileep` (`Giga Drain`, `AncientPower`, holds `Berry Juice`/`Sitrus Berry`) before wiping at Turn 1698 to her 3rd Pokemon, Lv 15 `Lunatone` (`Rock Slide`), because 4 of our living powerhouses (`Aphrodite` the Luvdisc, `Halcyone` the Wingull, `Adonis` the Weepinbell, and `Triton` the Omanyte) had reached **Lv 17** prior to Roxanne and were benched in `Box 1`, leaving us with only a 3-Pokemon squad (`Marshtomp`, `Sandshrew`, `Grimer`) for Roxanne's 6-Pokemon team.
 - **Attempt #6**: Reset early on Route 102 at Turn 1758 before fighting any Route 102 trainers because we entered Route 103/102 wild grass with a Lv 7 `Mudkip` (`24 HP`) and an un-leveled Lv 5 `Goldeen` (`20 HP`), forfeiting `Route 103` (`Wingull`) at `6/24 HP` and losing Lv 5 `Goldeen` (`Galatea`) to a critical hit `Confusion` (`20/20 HP`) from a wild Lv 6 `Spoink`.
-- **Core Rules for Attempt #7 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
+- **Attempt #7**: Our new "Rare-Candy Mudkip to Lv 12 in Littleroot Town and Rare-Candy every catch to Lv 12–13 at 0 steps" strategy went **7-for-7 on catches with 0 deaths in just 118 turns** (`Mudkip`, `Wingull`, `Luvdisc`, `Sandshrew`, `Azurill`, `Cubone`, `Oddish`), but at Turn 1878 we stepped onto `(26, 23)` in Petalburg Woods *before* doing our pre-Magma-Grunt menu prep. Stepping onto `(26, 23)` locks player control immediately while the Devon Researcher walks around for 2.2s before opening a textbox, so `<CurrentScreen>` at `+0.00s` looked like the normal overworld and our queued Rare Candy / Oran Berry menu inputs fired during the Team Magma Grunt battle, fainting `POSEIDON` (`Mudkip` Lv 14) and `HALCYONE` (`Wingull` Lv 15) to `Magnemite`'s `ThunderShock`. Reset at Turn 1880 to preserve a full 9-encounter roster with `Marshtomp` for Roxanne.
+- **Core Rules for Attempt #8 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
   1. **Immediately Rare-Candy `Mudkip` to Lv 12–13 Before Catching Wild Encounters, and Rare-Candy Every New Catch to Lv 12–14 at `0` Steps**:
      - Never walk into wild grass with a Lv 4–7 Pokemon (`20–24 HP`) that can be 2-shot or crit-OHKO'd by a wild Lv 6 `Spoink` (`Confusion`)! As soon as we obtain the Pokedex and buy 22 Poke Balls in Oldale Town, heal at the Oldale Pokemon Center and feed Rare Candies to bring `Mudkip` to **Lv 12–13 (`36+ HP`, learns `Water Gun` at Lv 10)** before entering Route 103/102/Littleroot encounters. Throw Poke Balls directly at full HP against high-catch-rate early encounters (`Luvdisc` CR 225, `Goldeen` CR 225, `Wingull` CR 190, `Sandshrew`/`Meowth` CR 255) while Lv 12–13 `Mudkip` tanks hits for 2–3 damage, and immediately Rare-Candy every newly caught Pokemon to **Lv 12–14** at `0` steps!
      - Keep all 9 pre-Roxanne encounters at **Lv 14–15** through Route 104 North (`PKMN Trainer Red`), then in Rustboro City Rare-Candy all 8–9 encounters to **Lv 16 (`0 EXP` into Lv 16!)** (`Mudkip -> Marshtomp` `1,021 EXP` buffer, `Oddish -> Gloom` / `Bellsprout -> Weepinbell` `585 EXP` buffer; always use **only `A` presses** after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled).
@@ -230,7 +231,7 @@
   - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`], `Surskit` Lv 8 [`Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`]).
   - **Southeastern Exit (to Route 104 Plateau)**: Gate at `(36..37, 38..40)` exits to Route 104 `(32, 45)`; `Poke Ball` item ball at `(29, 53)`.
   - **Grass-Free Path to Central Clearing**: From `(6, 25)` (or `(9, 25)` below Bug Catcher James), walk `Right` along `y=25` to `(13, 25)` (north of the `(7..12, 26)` grass row; going southbound, walk `Left x7` along `y=25` from `(13, 25)` to `(6, 25)`, `Down` to `(6, 26)`, `Left` to `(5, 26)`, and `Down x4` along `x=5` to `(5, 30)`), step `Down` to `(13, 26)`, walk `Right x13` along `y=26` to `(26, 26)` (bypassing tall grass at `(18..24, 24..25)`), and walk `Up x3` along `x=26` to `(26, 23)`.
-  - **Team Magma Grunt Ambush** at `(26, 23)` (Devon Researcher rewards `Great Ball`):
+  - **Team Magma Grunt Ambush** at `(26, 23)` (**CRITICAL**: stepping onto `(26, 23)` immediately locks player control while the Devon Researcher walks around for `~2.2s` before opening the first textbox, so `<CurrentScreen>` at `+0.00s` looks like the normal overworld! Always stop at **`(26, 24)`** to complete all Rare Candy + Oran Berry + Slot 1 lead prep before stepping onto `(26, 23)`! Devon Researcher rewards `Great Ball`):
     - Team (5 Pokemon): `Magnemite` (Lv 8, `Flash Cannon`, `Thunder Wave`, `ThunderShock`), `Houndour` (Lv 9, `Super Fang`, `Pursuit` [AI predicts switches and always clicks `Pursuit` if you switch!], `Ember`), `Bagon` (Lv 8, `Headbutt`), `Koffing` (Lv 8, `Protect`, `Toxic`, `Thief`), `Duskull` (Lv 8, `Protect`, `Shadow Sneak`, `Will-O-Wisp`, holds `Leftovers`).
   - **Grass-Free Path to Northern Exit**: From `(26, 23)`, walk `Up x7` to `(26, 16)`, `Left x13` to `(13, 16)`, `Down x3` to `(13, 19)`, `Left x8` to `(5, 19)`, `Up x6` along `x=5` to `(5, 13)`, `Left` to `(4, 13)`, `Up x5` along `x=4` to `(4, 8)`, `Right x6` to `(10, 8)`, `Down` to `(10, 9)` (below signpost at `(11, 8)`), `Right x4` to `(14, 9)`, and `Up x5` through the northern exit gate at `(14..15, 5)` onto Route 104 North `(10, 29)`.
   - **Remaining Forest Items**: Eastern path (`x=32..37`, including item ball at `(32, 29)`) is blocked by two Cut trees at `(18, 10..11)` near the northern exit; return after obtaining `HM01 Cut` in Rustboro City.
