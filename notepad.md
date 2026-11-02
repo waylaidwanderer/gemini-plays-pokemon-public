@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active | Caught with Old Rod at `(17, 13)` (Turn 1917, Female, Lv 4); learns `Water Pulse` at Lv 12 and `Ice Beam` at Lv 16 |
 | Route 103 | Hoppip | FLORA | Active | Caught at `(17, 11)` (Turn 1906, Female, raised to Lv 11 with Rare Candies on Turn 1919); `Grass/Flying` (immune to Ground, 4x vs Water/Rock) |
 | Route 102 | Meowth | TYCHE | Active | Caught at `(39, 6)` (Turn 1922, Female, raised to Lv 12 with Rare Candies on Turn 1923); `Pickup`, `Fake Out`, `Bite`, `Swift` |
-| Petalburg City | Azurill | GLAUCUS | Active | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, Lv 5); learns `BubbleBeam` at Lv 10 and `Body Slam` at Lv 15 |
+| Petalburg City | Azurill | GLAUCUS | Active | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, raised to Lv 11 on Turn 1940); knows `Secret Power` (Lv 6) and `BubbleBeam` (Lv 10), learns `Body Slam` at Lv 15 |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
@@ -204,7 +204,7 @@
   - **Pokemon Center**: Door at `(20, 16)` (inside from `(7, 8)`, walk `Up x4, Right x3, Up x2` via `(7, 4) -> (10, 4) -> (10, 2)` to reach the PC at `(10, 2)`, avoiding NPCs at `(10, 7)` and `(9, 5)`).
   - **Poke Mart**: Door at `(25, 12)` (`Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
   - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event).
-  - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (from `(20, 17)` outside the Pokemon Center, walk `Down x4` to `(20, 21)`, `Left x9` to `(11, 21)`, and `Down` to `(11, 22)` facing `Down`).
+  - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (from `(20, 17)` outside the Pokemon Center, walk `Down x4` to `(20, 21)`, `Left x9` to `(11, 21)`, and `Down` to `(11, 22)` facing `Down`; to reach the Petalburg Gym at `(15, 8)` from `(11, 22)`, walk `Up` to `(11, 21)`, `Right x4` to `(15, 21)`, and `Up x13` straight up the obstacle-free `x=15` lane).
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`).
 
 ## Route 104 (South)
