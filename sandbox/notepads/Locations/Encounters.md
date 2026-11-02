@@ -2,15 +2,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`51 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; `1,021 EXP` buffer at Lv 16); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); knows `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` (`95 BP` Ice); `653 EXP` buffer at Lv 16 |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; `585 EXP` buffer at Lv 16) |
-| Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`) |
-| Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 16); knows `1: Body Slam` (`85 BP` STAB Normal), `2: Charm`, `3: Secret Power`, `4: BubbleBeam`; `653 EXP` buffer at Lv 16 |
-| Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; `585 EXP` buffer at Lv 16) |
+| Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Box 1 | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`51 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; **`0 / 1,021 EXP`** at Lv 16) |
+| Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); knows `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` (`95 BP` Ice); **`42 / 653 EXP`** at Lv 16 |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; **`286 / 585 EXP`** at Lv 16) |
+| Route 102 | Spoink | CIRCE | Box 1 | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`; **`~552 / 654 EXP`** at Lv 16) |
+| Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 16); knows `1: Body Slam` (`85 BP` STAB Normal), `2: Charm`, `3: Secret Power`, `4: BubbleBeam`; **`581 / 653 EXP`** at Lv 16 |
+| Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; **`461 / 585 EXP`** at Lv 16) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
-| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 13 -> 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]) |
-| Route 115 | Kabuto | TRITON (`wm.t`) | Active | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 13 -> 16); `Rock/Water`-type (`90 Base Def`; `2: Rock Tomb`, `3: Water Pulse`, `4: Mega Drain`) |
+| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]; **`214 / 572 EXP`** at Lv 16) |
+| Route 115 | Kabuto | TRITON (`wm.t`) | Active | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); `Rock/Water`-type (`90 Base Def`; `2: Rock Tomb`, `3: Water Pulse`, `4: Mega Drain`; **`0 / 817 EXP`** at Lv 16) |
 
 ## Attempt #5 Encounter History (Wiped Turn 1698 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
 - **Starter (Route 101)**: `Mudkip -> Marshtomp` (`MARSHTOMP`, M, Lv 17, evolved at Lv 16; `Slow` EXP group with `1,021 EXP` buffer at Lv 16; `Mud Shot` Lv 16, `Water Gun` Lv 10) — Fainted to Roxanne's Lv 15 `Lunatone` (`Rock Slide`)
