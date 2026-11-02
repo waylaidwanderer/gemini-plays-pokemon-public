@@ -4290,7 +4290,6 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 - Maxie is at (33, 35) and Archie is at (34, 35). Speaking with them triggers their reflection on their reckless ambition.
 - Once their dialogue concludes, Wallace rewards May with HM07 Waterfall and unblocks the Sootopolis Gym entrance.
 - Maxie and Archie have departed Sootopolis City (Turn 18687)!
-- May is positioned at (31, 34) facing Wallace outside the Sootopolis Gym to receive HM07 Waterfall.
 - Eastern Terrace (rows 31..42, cols 41..48):
   - Pokémon Center located at (43, 31..32). Checkpoint verified.
   - Eastern Shore Disembarkation & Surf Point: Located at (40, 39). Facing West into the water at (39, 39) and pressing A directly triggers the Surf prompt to mount onto the central lagoon.
