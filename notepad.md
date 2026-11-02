@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, raised to Lv 12 on Turn 1993); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 4); raising to Lv 13 at 0 steps (learns `Water Pulse` at Lv 12 and `Ice Beam` at Lv 16) |
 | Route 103 | Sunkern | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, raised to Lv 12 on Turn 2002); `Grass`-type |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(11, 22)` facing `Down` |
