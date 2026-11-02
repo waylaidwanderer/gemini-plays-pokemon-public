@@ -1613,6 +1613,7 @@ A peaceful island city located on the eastern edge of Hoenn, surrounded by ocean
 - Central Avenues & Poké Mart (Exterior):
   - Main East-West avenue runs along row 17 from Pokémon Center (col 28) to intersection at (34, 17).
   - Poké Mart located directly east at cols 36..40, rows 14..18 (blue roof, 'MART' sign).
+  - Poké Mart entrance door: Blue sliding door is at (37, 18), approached stepping North from (37, 19). Supplies purchased: 9 Hyper Potions, 5 Revives (7 total), 16 Max Repels.
   - Eastern cliff wall rises at col 41 east of the Poké Mart.
   - North-South avenue runs along cols 33..34 between Pokémon Center and Poké Mart, leading North toward the northern district / Gym.
   - South avenue routes under Poké Mart along row 19 heading East.
