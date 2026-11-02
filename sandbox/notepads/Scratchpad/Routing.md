@@ -130,7 +130,7 @@
   - **Black Belt** at `(24, 62)` facing `Right` & **Battle Girl** at `(28, 62)` facing `Left` (guarding the eastern sand path to the item ball at `(26, 68)`).
   - **Beach Trainer** at `(11, 61)` facing `Right` across the northern beach staircase at `(14, 61)` (item ball at `(20, 60)` is on the northern beach shoreline).
 - **Old Rod Encounter (`(7, 71)` facing `Left`)**:
-  - **Wild `Kabuto`** (M, Lv 9; knows `Rock Tomb` and `Water Pulse`).
+  - **Wild `Kabuto` or `Omanyte`** (M, Lv 9; `Rock/Water`, knows `Rock Tomb` and `Water Pulse`). Note: using `Secret Power` on beach terrain has a 30% chance to lower the target's Accuracy by 1 stage (`-1 Accuracy`) while dealing safe `0.5x`-resisted chip damage against their high Defense.
 
 ## Rustboro Gym
 - **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
