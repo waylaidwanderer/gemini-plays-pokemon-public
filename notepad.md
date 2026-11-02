@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Box 1 | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`51 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; **`0 / 1,021 EXP`** at Lv 16) |
-| Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); knows `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` (`95 BP` Ice); **`42 / 653 EXP`** at Lv 16 |
+| Littleroot Town | Luvdisc | EROS | Deceased | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); fainted to Hiker Marc's Lv 14 `Kabuto` (`Rock Tomb`) on Turn 2146 |
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active -> Box 1 (for Marc) | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; **`584 / 585 EXP` at Lv 16 — 1 EXP below Lv 17, saving in Box 1 during Marc for Gym Leader Roxanne!**) |
 | Route 102 | Spoink | CIRCE | Box 1 | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`; **`~552 / 654 EXP`** at Lv 16) |
 | Petalburg City | Azurill | THETIS | Retired (Lv 17) | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 17); OHKO'd Tammy's Yanma with `Huge Power` `Body Slam` on Turn 2133; depositing in `Box 1` until Roxanne is defeated |
