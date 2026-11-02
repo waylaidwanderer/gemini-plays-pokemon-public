@@ -1,13 +1,13 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #6)
+# Nuzlocke Encounters (Attempt #7)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 7) | MUDKIP | Active | Lonely (+Atk, -Def), `Torrent`; Lv 7 stats: 24/17/10/13/13/12; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | Goldeen (F, Lv 5) | GALATEA | Active | Timid (+Speed, -Atk), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 5 stats: 20/10/12/9/10/13 (`Medium Fast` 817 EXP buffer at Lv 16); Moves: `BubbleBeam`, `Psybeam`, `Haze` |
-| Route 103 | Wingull (F, Lv 4) | - | Forfeited | Fled Turn 1738 because `Mudkip` was at 6/24 HP (unhealed from Rival battle) |
-| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
+| Starter (Route 101) | - | - | Pending | Rescue Prof. Birch on Route 101 (`Mudkip`; evolves into `Marshtomp` at Lv 16 with `1,021 EXP` buffer; uses up `Route 101` encounter) |
+| Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Route 103 | - | - | Pending | Tall grass at `(18, 11..12)` |
+| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(12, 23)` facing `Left` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
@@ -55,10 +55,11 @@
 - **Attempt #3**: Wiped at Turn 1134 in **Rustboro Gym** against **Hiker Marc**'s Lv 14 `Kabuto` (`Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`).
 - **Attempt #4**: Wiped at Turn 1408 in **Rustboro Gym** against **School Kid Tammy** after losing `Luvdisc` to overworld poison ticks in Petalburg Woods, losing wild Route 115 `Kabuto` to a chained chip+ball input, and losing `Mudkip` in School Kid Josh's battle due to an in-battle party slot swap (`Slot 1 <-> Slot 5`).
 - **Attempt #5**: Defeated all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) for the first time and reached **Gym Leader Roxanne**, defeating her lead Lv 15 `Nosepass` (`Seismic Toss`, `Attract`, `Selfdestruct`, holds `Berry Juice`/`Sitrus Berry`) and Lv 14 `Lileep` (`Giga Drain`, `AncientPower`, holds `Berry Juice`/`Sitrus Berry`) before wiping at Turn 1698 to her 3rd Pokemon, Lv 15 `Lunatone` (`Rock Slide`), because 4 of our living powerhouses (`Aphrodite` the Luvdisc, `Halcyone` the Wingull, `Adonis` the Weepinbell, and `Triton` the Omanyte) had reached **Lv 17** prior to Roxanne and were benched in `Box 1`, leaving us with only a 3-Pokemon squad (`Marshtomp`, `Sandshrew`, `Grimer`) for Roxanne's 6-Pokemon team.
-- **Core Rules for Attempt #6 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
-  1. **Keep ALL 9 Pre-Roxanne Encounters at `<= Lv 15` Through Route 104 North, Then Rare-Candy All 8–9 to Lv 16 (`0 EXP` Into Lv 16!) in Rustboro City**:
-     - In this ROM hack, `Mudkip -> Marshtomp` (`1,021 EXP` buffer at Lv 16, `Slow` group), `Oddish -> Gloom` (`585 EXP` buffer at Lv 16, `Medium Slow` group), and `Bellsprout -> Weepinbell` (`585 EXP` buffer at Lv 16, `Medium Slow` group) all evolve at **Lv 16**! Always use **only `A` presses** (never `B`) after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled.
-     - Never let `Wingull`, `Luvdisc`, or any other encounter reach Lv 16 on Route 102–104 trainers! Cap them at **Lv 14–15** through `PKMN Trainer Red`, then feed Rare Candies in Rustboro City right before Rustboro Gym so **every single Pokemon starts Lv 16 with `0 EXP` into Lv 16**!
+- **Attempt #6**: Reset early on Route 102 at Turn 1758 before fighting any Route 102 trainers because we entered Route 103/102 wild grass with a Lv 7 `Mudkip` (`24 HP`) and an un-leveled Lv 5 `Goldeen` (`20 HP`), forfeiting `Route 103` (`Wingull`) at `6/24 HP` and losing Lv 5 `Goldeen` (`Galatea`) to a critical hit `Confusion` (`20/20 HP`) from a wild Lv 6 `Spoink`.
+- **Core Rules for Attempt #7 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
+  1. **Immediately Rare-Candy `Mudkip` to Lv 12–13 Before Catching Wild Encounters, and Rare-Candy Every New Catch to Lv 12–14 at `0` Steps**:
+     - Never walk into wild grass with a Lv 4–7 Pokemon (`20–24 HP`) that can be 2-shot or crit-OHKO'd by a wild Lv 6 `Spoink` (`Confusion`)! As soon as we obtain the Pokedex and buy 22 Poke Balls in Oldale Town, heal at the Oldale Pokemon Center and feed Rare Candies to bring `Mudkip` to **Lv 12–13 (`36+ HP`, learns `Water Gun` at Lv 10)** before entering Route 103/102/Littleroot encounters. Throw Poke Balls directly at full HP against high-catch-rate early encounters (`Luvdisc` CR 225, `Goldeen` CR 225, `Wingull` CR 190, `Sandshrew`/`Meowth` CR 255) while Lv 12–13 `Mudkip` tanks hits for 2–3 damage, and immediately Rare-Candy every newly caught Pokemon to **Lv 12–14** at `0` steps!
+     - Keep all 9 pre-Roxanne encounters at **Lv 14–15** through Route 104 North (`PKMN Trainer Red`), then in Rustboro City Rare-Candy all 8–9 encounters to **Lv 16 (`0 EXP` into Lv 16!)** (`Mudkip -> Marshtomp` `1,021 EXP` buffer, `Oddish -> Gloom` / `Bellsprout -> Weepinbell` `585 EXP` buffer; always use **only `A` presses** after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled).
   2. **Exact Rustboro Gym EXP Budget (`3,773 EXP` Total Across Josh, Tammy, and Marc) to Keep All 6 Best Pokemon at Lv 16 for Roxanne**:
      - Use secondary encounters (#7, #8, #9 — e.g. `Wingull`, 2nd `Luvdisc`/`Azurill`, `Route 102`/`Route 104`/`Route 116` encounters) via PC rotation to absorb EXP on `Marc's Onix` (`346 EXP`), `Marc's Baltoy` (`148 EXP`), `Marc's Cacnea` (`248 EXP`), and split EXP on `Josh's Omanyte` / `Tammy's Corsola` / `Marc's Kabuto`, keeping our **Top 6 Roxanne Team** strictly `< Lv 17`:
        - **`Weepinbell` / `Gloom` (`0 / 585 EXP` buffer — `Medium Slow`)**:
