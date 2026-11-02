@@ -4558,8 +4558,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Nugget x1
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
-- Max Repel x0
-- Money: ¥29,570
+- Max Repel x16 (purchased at Mossdeep Mart Turn 19108)
+- Money: ¥18,370
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -4727,7 +4727,7 @@ A large meteorological research institute located in northern Route 119 beside t
 2. [x] Teach HM07 Waterfall to Lombre (Lilz) (Turn 19040)!
 3. [x] Fly to Mossdeep City (Turn 19065)!
 4. [x] Heal at Mossdeep Pokémon Center (Turn 19073)!
-5. [ ] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart.
+5. [x] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart (Turn 19108)!
 6. [ ] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall.
 7. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
 8. [ ] Enter Ever Grande City Pokémon Center to register flight checkpoint.
