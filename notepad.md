@@ -12,7 +12,7 @@
 | Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; **`461 / 585 EXP`** at Lv 16) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
 | Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]; **`214 / 572 EXP`** at Lv 16) |
-| Route 115 | Kabuto | TRITON (`wm.t`) | Active | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); `Rock/Water`-type (`90 Base Def`; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain`, `4: -`; **`0 / 817 EXP`** at Lv 16) |
+| Route 115 | Kabuto | TRITON (`wm.t`) | Deceased | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); fainted to a critical-hit `Megahorn` from School Kid Tammy's Lv 15 `Rhyhorn` on Turn 2135 |
 
 ## Attempt #5 Encounter History (Wiped Turn 1698 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
 - **Starter (Route 101)**: `Mudkip -> Marshtomp` (`MARSHTOMP`, M, Lv 17, evolved at Lv 16; `Slow` EXP group with `1,021 EXP` buffer at Lv 16; `Mud Shot` Lv 16, `Water Gun` Lv 10) — Fainted to Roxanne's Lv 15 `Lunatone` (`Rock Slide`)
