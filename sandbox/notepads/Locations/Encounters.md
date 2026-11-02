@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 14); knows `1: Tackle`, `2: Bubble` (spread), `3: Mud Sport`, `4: Water Gun`; evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
+| Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`51 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; `1,021 EXP` buffer at Lv 16); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); knows `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` (`95 BP` Ice); `653 EXP` buffer at Lv 16 |
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; `585 EXP` buffer at Lv 16) |
 | Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`) |
