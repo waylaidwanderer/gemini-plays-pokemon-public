@@ -11,7 +11,7 @@
 - **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2), `Pidgey` (Lv 3), `Rattata` (Lv 3), `Wurmple` (Lv 2), `Cleffa` (Lv 3), `Sentret` (Lv 3).
 - **Southern Tall Grass Patch**: Located at `x=5, y=14..16` (accessible from `(11, 14)` by walking `Left x6` to `(5, 14)`).
 - **Grass-Free Path (Northbound)**: Entering from Littleroot Town `(10, 0)` places the player at `(10, 19)` (while `(11, 0)` places the player directly at `(11, 19)`); from `(11, 19)`, walk `Up x5` to `(11, 14)` -> `Left x4` to `(7, 14)` -> `Up x4` to `(7, 10)` -> `Right x6` to `(13, 10)` -> `Up` to `(13, 9)` -> `Right x2` to `(15, 9)` -> `Up` to `(15, 8)`, then through `(15, 7..5)` (3 grass tiles) to `(15, 4)` -> `Left x3` (2 grass tiles) to `(12, 4)` -> `Left x2` to `(10, 4)` -> `Up` into Oldale Town.
-- **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down` along `x=9` (jumping ledges at `y=6` and `y=13`) to `(9, 14)`, then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(10, 0)`.
+- **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down x13` along `x=9` (jumping ledges at `y=6` and `y=13`) to `(9, 14)`, then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(10, 0)`.
 
 ## Oldale Town & Route 103
 - **Oldale Landmarks & Central Road**: `x=10` (`y=0..19`) is a straight vertical road between Route 101 and Route 103; **Pokemon Center** door is at `(6, 16)` and **Poke Mart** door is at `(14, 6)` (note: after defeating Rival Brendan on Route 103, Brendan stands at `(11, 19)` at the southern exit of Oldale Town and triggers a brief dialogue when you step onto `(10, 19)`).
