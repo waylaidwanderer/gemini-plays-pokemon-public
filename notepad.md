@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 12) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 12 stats: 33/14/17/18/24/29; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 103 | Wingull (F, Lv 14) | HALCYONE | Active | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 14 stats: 38/15/14/24/17/31; Moves: `Wing Attack`, `Water Gun`, `Quick Attack` (Lv 7), `BubbleBeam` (Lv 13) |
 | Route 102 | Sandshrew (M, Lv 12) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 12 stats: 34/28/27/9/14/15; Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11) |
-| Petalburg City | Luvdisc (M, Lv 12) | EROS | Active | Quirky (neutral), `Swift Swim`; caught at `(12, 23)` with Old Rod; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
+| Petalburg City | Luvdisc (M, Lv 12) | EROS | Active | Quirky (neutral), `Swift Swim`; caught at `(12, 23)` with Old Rod; Lv 12 HP: 34/34; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12) |
 | Route 104 | Cubone (M, Lv 13) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 13 stats: 38/19/32/15/21/16; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
 | Petalburg Woods | — | — | Pending | Tall grass |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
@@ -192,7 +192,7 @@
 - **Trainers**:
   - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`])
   - **Bug Catcher Rick** `(25, 15)` facing `Up` (4 Pokemon: `Caterpie` Lv 5, `Wurmple` Lv 5, `Kakuna` Lv 5, `Cascoon` Lv 5 [`Iron Defense`, holds `Berry Juice`])
-  - **Lass Tiana** `(15, 5)` rotating `Up` and `Down` (watches `(15, 3..4)` above her as well as below her; 3 Pokemon: `Igglybuff` Lv 6 [`Present`, `Cute Charm`], `Sunkern` Lv 6 [`Protect`, `Leech Seed`], `Togepi` Lv 5 [`Softboiled`, `Metronome`])
+  - **Lass Tiana** `(15, 5)` rotating `Up` and `Down` (watches `(15, 3..4)` above her as well as below her; 3 Pokemon: `Igglybuff` Lv 6 [`Present`, `Cute Charm`], `Sunkern` Lv 6 [`Protect`, `Leech Seed`], `Togepi` Lv 5 [`Softboiled`, `Metronome`, holds `Berry Juice`])
   - **Bug Catcher Allen** `(13, 2)` facing `Down` (4 Pokemon: `Weedle` Lv 7, `Silcoon` Lv 7 [`Iron Defense`, `Poison Sting`, `Shed Skin`, holds `Sitrus Berry`], `Wurmple` Lv 7, `Metapod` Lv 7 [`Iron Defense`, `Tackle`, `Shed Skin`, holds `Sitrus Berry`])
   - **Trainer in tall grass** `(18, 12)` (avoidable via northern berry patch path).
 - **Northern Berry Patch & Grass-Free Routes**:
