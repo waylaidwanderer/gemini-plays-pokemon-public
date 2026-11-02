@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AMPHITRITE | Active | Rescued Prof. Birch on Route 101 (Turn 1894, Female — immune to Roxanne's Female `Nosepass`'s `Attract`!); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc | APHRODITE | Active | Caught with Old Rod at `(17, 13)` (Turn 1917, Female, Lv 4); learns `Water Pulse` at Lv 12 and `Ice Beam` at Lv 16 |
-| Route 103 | Hoppip | FLORA | Active | Caught at `(17, 11)` (Turn 1906, Female, Lv 4); `Grass/Flying` (immune to Ground, 4x vs Water/Rock) |
+| Route 103 | Hoppip | FLORA | Active | Caught at `(17, 11)` (Turn 1906, Female, raised to Lv 11 with Rare Candies on Turn 1919); `Grass/Flying` (immune to Ground, 4x vs Water/Rock) |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(11, 22)` facing `Down` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
