@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | - | - | Pending | Rescue Prof. Birch on Route 101 (`Mudkip`; evolves into `Marshtomp` at Lv 16 with `1,021 EXP` buffer; uses up `Route 101` encounter) |
+| Starter (Route 101) | Mudkip | POSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1785); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
 | Route 103 | - | - | Pending | Tall grass at `(18, 11..12)` |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
