@@ -44,3 +44,6 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 - Once their dialogue concludes, Wallace rewards May with HM07 Waterfall and unblocks the Sootopolis Gym entrance.
 - Maxie and Archie have departed Sootopolis City (Turn 18687)!
 - May is positioned at (31, 34) facing Wallace outside the Sootopolis Gym to receive HM07 Waterfall.
+- Eastern Terrace (rows 31..42, cols 41..48):
+  - Pokémon Center located at (43, 31..32). Checkpoint verified.
+  - Elevated cliff rim prevents surfing directly into the lagoon from upper/middle grass edges (e.g. at 41, 39). Water access requires descending stairs to sea level.
