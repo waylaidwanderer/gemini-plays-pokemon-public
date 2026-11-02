@@ -10,7 +10,7 @@
 | Route 102 | Meowth | TYCHE | Deceased | Caught at `(39, 6)` (Turn 1922, Female, Lv 12); fainted to Fisherman Darian's Lv 7 `Luvdisc` (`Dive`) on Turn 1955 |
 | Petalburg City | Azurill | GLAUCUS | Deceased | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, Lv 11); fainted to Lady Cindy's Lv 7 `Azurill` (`Huge Power` `Uproar`) on Turn 1960 |
 | Route 104 | Natu | ATHENA | Active | Caught at `(23, 61)` (Turn 1946, Female, raised to Lv 12 on Turn 1947); `Psychic/Flying`, knows `Psybeam` (65 BP STAB) and `Night Shade` (Lv 10) |
-| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
+| Petalburg Woods | Oddish | HYACINTH | Active | Caught at `(8, 32)` (Turn 1971, Male, Lv 8); evolves into `Gloom` at Lv 16 (`585 EXP` buffer), knows `Mega Drain`, `Acid` (spread), and `Toxic` (Lv 14) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach (`Kabuto` / `Omanyte`) |
 
