@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Bashful (neutral), `Torrent`; Lv 14 stats: 42/25/22/21/20/16; Moves: `Tackle`, `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
+| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Bashful (neutral), `Torrent`; evolved at Lv 16 (`0/1,021 EXP`); Moves: `Mud Shot` (Lv 16), `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc (F, Lv 16) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 16 stats: 41/17/21/22/30/37 (`0/653 EXP`); Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
 | Route 103 | Wingull (F, Lv 17) | HALCYONE | Benched (Cap) | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 17 HP: 45/45; benched until Roxanne is defeated (Lv 20 cap) |
 | Route 102 | Sandshrew (M, Lv 16) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 16 stats: 42/36/35/10/17/19 (`0/817 EXP`); Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11), `Dig` (Lv 16) |
