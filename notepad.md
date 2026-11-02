@@ -4,15 +4,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Bashful (neutral), `Torrent`; evolved at Lv 16 (`0/1,021 EXP`); Moves: `Mud Shot` (Lv 16), `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc (F, Lv 16) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 16 stats: 41/17/21/22/30/37 (`0/653 EXP`); Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
+| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Bashful (neutral), `Torrent`; evolved at Lv 16; Lv 16 stats: 53/32/29/26/27/22 (`120/1,021 EXP`); Moves: `Mud Shot` (Lv 16), `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
+| Littleroot Town | Luvdisc (F, Lv 16) | APHRODITE | Active | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 16 stats: 41/17/21/22/30/37 (`610/653 EXP`); Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16) |
 | Route 103 | Wingull (F, Lv 17) | HALCYONE | Benched (Cap) | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 17 HP: 45/45; benched until Roxanne is defeated (Lv 20 cap) |
 | Route 102 | Sandshrew (M, Lv 16) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 16 stats: 42/36/35/10/17/19 (`0/817 EXP`); Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11), `Dig` (Lv 16) |
-| Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposit in PC graveyard in Rustboro City |
-| Route 104 | Cubone (M, Lv 16) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 16 stats: 45/22/39/18/25/18 (`0/817 EXP`); Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
-| Petalburg Woods | Weepinbell (M, Lv 16) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16 (`0/763 EXP`); Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15) |
+| Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposited in Box 1 |
+| Route 104 | Cubone (M, Lv 16) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 16 stats: 45/22/39/18/25/18 (`42/817 EXP`); Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
+| Petalburg Woods | Weepinbell (M, Lv 16) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16; Lv 16 stats: 51/33/21/36/18/27 (`120/763 EXP`); Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15) |
 | Route 116 | Grimer (F, Lv 9) | CIRCE | Active (Box 1) | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 9 stats: 34/18/14/13/16/10; Moves: `Acid`, `Memento`, `Lick`, `Disable` |
-| Route 115 | Omanyte (M, Lv 16) | TRITON | Active | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 16 stats: 40/20/41/30/29/18 (`0/817 EXP`); Moves: `BubbleBeam`, `Rock Tomb`, `Aurora Beam` (Lv 15), `Mud Shot` (Lv 15) |
+| Route 115 | Omanyte (M, Lv 16) | TRITON | Active | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 16 stats: 40/20/41/30/29/18 (`214/817 EXP`); Moves: `BubbleBeam`, `Rock Tomb`, `Aurora Beam` (Lv 15), `Mud Shot` (Lv 15) |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
 - **Starter**: `Mudkip` (`AGALATEA`, Lv 15; `Slow` EXP group with `1,021 EXP` buffer at Lv 16) — Fainted to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`) after in-battle party slot swap (`Slot 1 <-> Slot 5`)
@@ -95,7 +95,7 @@
      6. `Route 104` (tall grass at `(22..24, 56..61)`)
      7. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
      8. `Route 116` (tall grass at `(4, 13..15)`)
-     9. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto`)
+     9. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto` / `Omanyte`)
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16

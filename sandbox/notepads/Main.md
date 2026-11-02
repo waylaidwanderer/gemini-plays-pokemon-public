@@ -39,7 +39,7 @@
      6. `Route 104` (tall grass at `(22..24, 56..61)`)
      7. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
      8. `Route 116` (tall grass at `(4, 13..15)`)
-     9. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto`)
+     9. `Route 115` (Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach — `Kabuto` / `Omanyte`)
 
 ## Level Cap Schedule
 1. **Roxanne (Rustboro Gym)**: Lv 16
