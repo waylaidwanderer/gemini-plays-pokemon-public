@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: SOOTOPOLIS CONFLICT RESOLVED! Rayquaza quelled Groudon & Kyogre! Assembled outside Sootopolis Gym with Wallace, Steven, Archie, and Maxie.
+- Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 59) - Evolved on turn 5632! Level 58 on turn 18177! Level 59 on turn 18904 (declined False Swipe, kept moveset). Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 179/179. Status: OK. Nature: Lonely. Ability: Overgrow.
@@ -36,7 +36,7 @@
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
@@ -47,7 +47,7 @@
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0
 - Money: ¥80,805
-- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
 - Player's House (East): 1F, 2F (Clock set 10:00 AM, Potion in PC).
@@ -207,7 +207,16 @@
 7. [x] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza (Turn 18627)!
 8. [x] Return to Sootopolis City; Rayquaza quelled the ancient titans! (Turn 18660)
 9. [x] Spoke with Steven, Wallace, Archie, and Maxie outside Sootopolis Gym; received HM07 Waterfall from Wallace (Turn 18697)!
-10. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
+10. [x] Defeat Gym Leader Juan in Sootopolis Gym for Gym 8 (Rain Badge & TM03 Water Pulse - Turn 19008)!
+
+## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
+1. [ ] Exit Sootopolis Gym into Sootopolis City.
+2. [ ] Teach HM07 Waterfall to Lombre (Lilz).
+3. [ ] Fly to Route 128 / Mossdeep City and surf east to the Ever Grande City waterfall.
+4. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
+5. [ ] Enter Ever Grande City Pokémon Center to register flight checkpoint.
+6. [ ] Traverse Victory Road (defeat Wally, navigate cave).
+7. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
