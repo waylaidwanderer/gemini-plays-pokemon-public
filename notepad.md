@@ -4322,7 +4322,7 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 1. [x] Unlocked Sootopolis Gym entrance by quelling Groudon/Kyogre and speaking with Wallace (Turn 18699)!
 2. [x] Entered Sootopolis Gym entrance lobby at (8, 25) (Turn 18700)!
 3. [x] Consult Gym Guide at (7, 24) (Turn 18701).
-4. [ ] Solve Tier 1 Ice Puzzle.
+4. [x] Solve Tier 1 Ice Puzzle (Turn 18712)!
 5. [ ] Solve Tier 2 Ice Puzzle.
 6. [ ] Solve Tier 3 Ice Puzzle.
 7. [ ] Defeat Gym Leader Juan for the Rain Badge and TM03 Water Pulse.
