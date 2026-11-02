@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active | Caught with Old Rod at `(17, 13)` (Turn 1917, Female, Lv 4); learns `Water Pulse` at Lv 12 and `Ice Beam` at Lv 16 |
 | Route 103 | Hoppip | FLORA | Active | Caught at `(17, 11)` (Turn 1906, Female, raised to Lv 11 with Rare Candies on Turn 1919); `Grass/Flying` (immune to Ground, 4x vs Water/Rock) |
 | Route 102 | Meowth | TYCHE | Deceased | Caught at `(39, 6)` (Turn 1922, Female, Lv 12); fainted to Fisherman Darian's Lv 7 `Luvdisc` (`Dive`) on Turn 1955 |
-| Petalburg City | Azurill | GLAUCUS | Active | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, raised to Lv 11 on Turn 1940); knows `Secret Power` (Lv 6) and `BubbleBeam` (Lv 10), learns `Body Slam` at Lv 15 |
+| Petalburg City | Azurill | GLAUCUS | Deceased | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, Lv 11); fainted to Lady Cindy's Lv 7 `Azurill` (`Huge Power` `Uproar`) on Turn 1960 |
 | Route 104 | Natu | ATHENA | Active | Caught at `(23, 61)` (Turn 1946, Female, raised to Lv 12 on Turn 1947); `Psychic/Flying`, knows `Psybeam` (65 BP STAB) and `Night Shade` (Lv 10) |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
