@@ -44,3 +44,4 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 - Ice chutes connecting platforms are strictly ONE-WAY DOWNWARD slides (cannot be climbed).
 - Trainers are stationed on snow platforms and challenge when stepping into their line of sight.
 - Southern slide at (8, 14..16) leads down toward the southern platform where the return ladder to the entrance lobby is located.
+- Defeated Lady Daphne (Luvdisc Lv 39 x2) & Pokéfan Annika (Feebas Lv 39 x2) in Double Battle at (8, 13) on Turn 18754. Prize: ¥10,920. Lilz leveled to Lv 29!
