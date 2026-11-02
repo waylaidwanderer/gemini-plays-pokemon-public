@@ -6,10 +6,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 14); knows `1: Tackle`, `2: Bubble` (spread), `3: Mud Sport`, `4: Water Gun`; evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 15); knows `Secret Power` (Slot 1), `Water Pulse` (Slot 3), learns `Ice Beam` at Lv 16 |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 15); came holding a wild `Sun Stone`, evolved into `Sunflora` (`105 Base Sp.Atk`, `Mega Drain` Slot 3, `Bullet Seed` [buffed to `25 BP/hit`!] Slot 4; `Medium Slow` EXP group with `585 EXP` buffer at Lv 16 for Rustboro Gym `4x` Grass role) |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; `585 EXP` buffer at Lv 16) |
 | Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`) |
 | Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 14); knows `Secret Power` (Slot 3) and `BubbleBeam` (Slot 4) |
-| Route 104 | Nidoran♀ | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 15); `Poison`-type (`Bite` Slot 3, `Double Kick` Slot 4), evolves into `Nidorina` at Lv 16 (`585 EXP` buffer) |
+| Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; `585 EXP` buffer at Lv 16) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
 | Route 116 | Makuhita | ATHENA | Box 1 | Caught at `(4, 13)` (Turn 2102, Female, Lv 9); `Fighting`-type, learns `Vital Throw` (`70 BP` STAB Fighting) at Lv 13; sent directly to `Box 1` |
 | Route 115 | Kabuto | TRITON (`wm,t`) | Box 1 | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 9); `Rock/Water`-type (`90 Base Def`, `0.5x` resists `Selfdestruct` & `Rock Slide`); sent directly to `Box 1` |
