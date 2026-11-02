@@ -9,7 +9,7 @@
 | Route 103 | Sunkern | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, raised to Lv 13 on Turn 2008); `Grass`-type, learned `Mega Drain` at Lv 13 |
 | Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, raised to Lv 14 on Turn 2024); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: -`) |
 | Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, raised to Lv 13 on Turn 2036); knows `Secret Power` (Slot 3) and `BubbleBeam` (Slot 4) |
-| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 104 | Nidoran♀ | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, raising to Lv 13-14 on Turn 2043); `Poison`-type (immune to Poison/Toxic), evolves into `Nidorina` at Lv 16 (`585 EXP` buffer) |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach (`Kabuto` / `Omanyte`) |
