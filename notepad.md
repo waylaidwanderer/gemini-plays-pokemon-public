@@ -4320,7 +4320,7 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 4. [x] Solve Tier 1 Ice Puzzle (Turn 18712)!
 5. [x] Solve Tier 2 Ice Puzzle (Turn 18831)!
 6. [x] Solve Tier 3 Ice Puzzle (Turn 18884)!
-7. [ ] Defeat Gym Leader Juan for the Rain Badge and TM03 Water Pulse.
+7. [x] Defeat Gym Leader Juan for the Rain Badge and TM03 Water Pulse (Turn 19008)!
 
 ## Discovered Topography & Navigation
 - Entrance Lobby (rows 20..26, cols 5..11):
