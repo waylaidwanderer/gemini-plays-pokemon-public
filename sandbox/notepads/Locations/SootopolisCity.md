@@ -21,7 +21,10 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 5. [x] Accompany Steven to Cave of Origin entrance at (31, 18) (Turn 17875).
 6. [x] Enter Cave of Origin to locate Wallace and discuss Rayquaza (Turn 17877 at 9, 20).
 7. [x] Spoke with Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
-8. [ ] Journey to Sky Pillar on Route 131 to awaken Rayquaza and quell the ancient conflict!
+8. [x] Journeyed to Sky Pillar, ascended to Summit, and awakened Rayquaza (Turn 18627)!
+9. [x] Returned to Sootopolis City; Rayquaza quelled Groudon & Kyogre, restoring peaceful weather (Turn 18660)!
+10. [ ] Speak with Steven, Wallace, Archie, and Maxie assembled outside Sootopolis Gym at (31, 35..36).
+11. [ ] Enter Sootopolis Gym and defeat Gym Leader Juan for the Rain Badge.
 
 ## Discovered Topography & Navigation
 - Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays prompts to surface.

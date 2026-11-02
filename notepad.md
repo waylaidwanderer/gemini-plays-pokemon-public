@@ -4275,7 +4275,10 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 5. [x] Accompany Steven to Cave of Origin entrance at (31, 18) (Turn 17875).
 6. [x] Enter Cave of Origin to locate Wallace and discuss Rayquaza (Turn 17877 at 9, 20).
 7. [x] Spoke with Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
-8. [ ] Journey to Sky Pillar on Route 131 to awaken Rayquaza and quell the ancient conflict!
+8. [x] Journeyed to Sky Pillar, ascended to Summit, and awakened Rayquaza (Turn 18627)!
+9. [x] Returned to Sootopolis City; Rayquaza quelled Groudon & Kyogre, restoring peaceful weather (Turn 18660)!
+10. [ ] Speak with Steven, Wallace, Archie, and Maxie assembled outside Sootopolis Gym at (31, 35..36).
+11. [ ] Enter Sootopolis Gym and defeat Gym Leader Juan for the Rain Badge.
 
 ## Discovered Topography & Navigation
 - Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays prompts to surface.
@@ -4440,7 +4443,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: PACIFIDLOG TOWN REACHED! Flight checkpoint unlocked! Journeying to Sky Pillar on Route 131 to awaken Rayquaza with Wallace.
+- Status: SOOTOPOLIS CONFLICT RESOLVED! Rayquaza quelled Groudon & Kyogre! Assembled outside Sootopolis Gym with Wallace, Steven, Archie, and Maxie.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 58) - Evolved on turn 5632! Level 58 on turn 18177! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 174/177. Status: OK. Nature: Lonely. Ability: Overgrow. (Defeated Richard Turn 18302)
@@ -4642,8 +4645,9 @@ A large meteorological research institute located in northern Route 119 beside t
 5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
 6. [x] Reached Sky Pillar exterior and met Wallace outside the tower (Turn 18378)!
 7. [x] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza (Turn 18627)!
-8. [ ] Travel to Sootopolis City to witness Rayquaza stop Groudon and Kyogre.
-8. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
+8. [x] Return to Sootopolis City; Rayquaza quelled the ancient titans! (Turn 18660)
+9. [ ] Speak with Steven, Wallace, Archie, and Maxie outside Sootopolis Gym.
+10. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
