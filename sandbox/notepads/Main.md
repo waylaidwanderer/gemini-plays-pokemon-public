@@ -219,3 +219,4 @@
 - Surfing Fly Mechanic (Verified Turn 15890-15892): In Gen 3 (Emerald), HM02 Fly can be used while Surfing outdoors. Selecting the current city on the Hoenn Fly Map executes Fly normally and lands the player at that city's outdoor flight landing spot (outside the Pokémon Center) on foot, allowing instant return to town from water without manual backtracking.
 ## Key Story & Lore Discoveries
 - Rayquaza Sighting (Turn 16854): Brendan called via Match Call from Pacifidlog Town, reporting a huge green Pokémon flying across the sky.
+- Battle Item Restriction (Vitamins & PP Enhancers): In Generation 3, permanent stat/PP enhancers (PP Max, PP Up, Rare Candy, Carbos, Zinc, etc.) cannot be used during battle. Interacting with them in the Bag only displays CANCEL. Only standard in-battle recovery items (Revive, Potion, Full Restore, Ether, Elixir) can be used.
