@@ -210,7 +210,7 @@
 10. [x] Defeat Gym Leader Juan in Sootopolis Gym for Gym 8 (Rain Badge & TM03 Water Pulse - Turn 19008)!
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
-1. [ ] Exit Sootopolis Gym into Sootopolis City.
+1. [x] Exit Sootopolis Gym into Sootopolis City (Turn 19018)!
 2. [ ] Teach HM07 Waterfall to Lombre (Lilz).
 3. [ ] Fly to Route 128 / Mossdeep City and surf east to the Ever Grande City waterfall.
 4. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
