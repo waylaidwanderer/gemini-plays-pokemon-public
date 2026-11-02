@@ -10,7 +10,7 @@
 | Route 102 | Spoink | CIRCE | Retired (Lv 17) | Caught at `(39, 6)` (Turn 2017, Female, Lv 17); KO'd Hiker Marc's `Cacnea` with `Psybeam` on Turn 2150; in `Box 1` until Roxanne is defeated |
 | Petalburg City | Azurill | THETIS | Retired (Lv 17) | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 17); OHKO'd Tammy's Yanma with `Huge Power` `Body Slam` on Turn 2133; in `Box 1` until Roxanne is defeated |
 | Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 17); evolved into `Nidorina` (`55 HP`, `28 Atk`, `31 Def`, `28 Sp.Atk`, `23 Sp.Def`, `24 Spd`; `1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`) |
-| Petalburg Woods | Hoothoot | APOLLO (`OFE E`) | Active | Caught at `(6, 30)` (Turn 2061, Male, Lv 16); `Normal/Flying`-type, learned `Aerial Ace` (`60 BP` STAB Flying) in Slot 4 at Lv 11; **`118 / 817 EXP`** at Lv 16 |
+| Petalburg Woods | Hoothoot | APOLLO (`OFE E`) | Deceased | Caught at `(6, 30)` (Turn 2061, Male, Lv 16); fainted to Gym Leader Roxanne's Lv 15 `Lunatone` (`Rock Slide`) on Turn 2162 |
 | Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 17); `Fighting`-type (`54 HP`, `30 Atk`; `1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]) |
 | Route 115 | Kabuto | TRITON (`wm.t`) | Deceased | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); fainted to a critical-hit `Megahorn` from School Kid Tammy's Lv 15 `Rhyhorn` on Turn 2135 |
 
