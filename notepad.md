@@ -4277,7 +4277,7 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 7. [x] Spoke with Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
 8. [x] Journeyed to Sky Pillar, ascended to Summit, and awakened Rayquaza (Turn 18627)!
 9. [x] Returned to Sootopolis City; Rayquaza quelled Groudon & Kyogre, restoring peaceful weather (Turn 18660)!
-10. [ ] Speak with Steven, Wallace, Archie, and Maxie assembled outside Sootopolis Gym at (31, 35..36).
+10. [x] Spoke with Steven, Wallace, Archie, and Maxie outside Sootopolis Gym; received HM07 Waterfall from Wallace (Turn 18697)!
 11. [ ] Enter Sootopolis Gym and defeat Gym Leader Juan for the Rain Badge.
 
 ## Discovered Topography & Navigation
@@ -4483,7 +4483,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)

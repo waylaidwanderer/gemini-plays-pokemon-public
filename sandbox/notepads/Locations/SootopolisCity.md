@@ -23,7 +23,7 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 7. [x] Spoke with Wallace in Cave of Origin B2F and directed him to Sky Pillar (Turn 17992)!
 8. [x] Journeyed to Sky Pillar, ascended to Summit, and awakened Rayquaza (Turn 18627)!
 9. [x] Returned to Sootopolis City; Rayquaza quelled Groudon & Kyogre, restoring peaceful weather (Turn 18660)!
-10. [ ] Speak with Steven, Wallace, Archie, and Maxie assembled outside Sootopolis Gym at (31, 35..36).
+10. [x] Spoke with Steven, Wallace, Archie, and Maxie outside Sootopolis Gym; received HM07 Waterfall from Wallace (Turn 18697)!
 11. [ ] Enter Sootopolis Gym and defeat Gym Leader Juan for the Rain Badge.
 
 ## Discovered Topography & Navigation
