@@ -16,7 +16,7 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 ## Progression Checklist - Sootopolis Gym
 1. [x] Unlocked Sootopolis Gym entrance by quelling Groudon/Kyogre and speaking with Wallace (Turn 18699)!
 2. [x] Entered Sootopolis Gym entrance lobby at (8, 25) (Turn 18700)!
-3. [ ] Consult Gym Guide at (7, 24).
+3. [x] Consult Gym Guide at (7, 24) (Turn 18701).
 4. [ ] Solve Tier 1 Ice Puzzle.
 5. [ ] Solve Tier 2 Ice Puzzle.
 6. [ ] Solve Tier 3 Ice Puzzle.
@@ -29,3 +29,8 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
   - Statues at (6, 23..24) and (10, 23..24).
   - Basement return ladder at (10, 22).
   - Central staircase up to Tier 1 at (8..9, 21..22).
+- Tier 1 Ice Puzzle (rows 17..19, cols 7..9):
+  - 3x3 grid with 2 rock obstacles at (9, 19) and (7, 17). Total: 7 ice tiles.
+  - Start tile: (8, 19) from stairs at (8, 20).
+  - Exit tile: (8, 17) leading up to stairs at (8, 16).
+  - Verified Hamiltonian Path: Up -> Left -> Up -> Right -> Right -> Up -> Left -> Up to (8, 16).
