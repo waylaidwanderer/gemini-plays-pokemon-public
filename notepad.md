@@ -86,7 +86,7 @@
      2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right` — `Luvdisc`)
      3. `Route 103` (tall grass)
      4. `Route 102` (tall grass)
-     5. `Petalburg City` (Old Rod at `(12, 23)` facing `Left` — `Luvdisc` / `Azurill`)
+     5. `Petalburg City` (Old Rod at `(11, 22)` facing `Down` — `Luvdisc` / `Azurill`)
      6. `Route 104` (tall grass at `(22..24, 56..61)`)
      7. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
      8. `Route 116` (tall grass at `(4, 13..15)` — `Grimer` learns `Sludge Bomb` at Lv 13; `Yanma` learns `SonicBoom` at Lv 13; `Makuhita` learns `Vital Throw` at Lv 13)
@@ -162,8 +162,11 @@
 # Early Game Routing & Verified Trainer Data
 
 ## Littleroot Town
-- **Landmarks**: Player's House (East, Female Protagonist): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` above the dining table so exit via `Left x4` to `(2, 5)` then `Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`, TV at `(4, 1)`, bedroom PC at `(6, 1)`); Rival's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`); Birch's Lab: door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`).
-- **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, Mom stands at `(14, 9)` outside the Player's House. Stepping onto `(10..11, 9)` along the central road automatically triggers `"MOM: Wait, [PLAYER]!"` (or interact with her from `(14, 10)` facing `Up`) to receive the Running Shoes.
+- **Landmarks**:
+  - *Female Protagonist (`AURORA`)*: Player's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` so exit via `Left x4, Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`); Rival Brendan's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`).
+  - *Male Protagonist (`TONO` — Active in Attempt #8)*: Player's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`, 1F TV cutscene ends at `(4, 5)` so exit via `Right x4, Down x4`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, wall clock at `(5, 1)`); Rival May's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, Poke Ball at `(5, 4)`).
+  - *Birch's Lab*: Door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`).
+- **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, stepping onto `(10..11, 9)` along the central road automatically triggers `"MOM: Wait, [PLAYER]!"` to receive the Running Shoes.
 - **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod (observed species: `Luvdisc` Lv 5, `Goldeen` Lv 5; note: a signpost stands at `(14, 13)` and the wandering NPC can reach `(12..13, 14)`, so always walk east along `y=12` via `(12, 12) -> Right x5 to (17, 12) -> Down to (17, 13) -> Right`).
 - **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Use `x=12` (`y=10..15`) to bypass the wandering NPC near `(10..11, 12..14)`. Before rescuing Birch, a girl stands at `(10, 1)` and triggers a one-time dialogue when stepping onto `(11, 1)` before allowing passage north onto Route 101 via `(11, 0)`.
 

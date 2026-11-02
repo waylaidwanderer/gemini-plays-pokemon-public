@@ -43,7 +43,7 @@
      2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right` — `Luvdisc`)
      3. `Route 103` (tall grass)
      4. `Route 102` (tall grass)
-     5. `Petalburg City` (Old Rod at `(12, 23)` facing `Left` — `Luvdisc` / `Azurill`)
+     5. `Petalburg City` (Old Rod at `(11, 22)` facing `Down` — `Luvdisc` / `Azurill`)
      6. `Route 104` (tall grass at `(22..24, 56..61)`)
      7. `Petalburg Woods` (tall grass — `Oddish` / `Bellsprout` / `Phanpy`)
      8. `Route 116` (tall grass at `(4, 13..15)` — `Grimer` learns `Sludge Bomb` at Lv 13; `Yanma` learns `SonicBoom` at Lv 13; `Makuhita` learns `Vital Throw` at Lv 13)
