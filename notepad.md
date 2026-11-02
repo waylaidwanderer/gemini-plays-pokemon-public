@@ -4339,6 +4339,11 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
   - Start tile: (8, 19) from stairs at (8, 20).
   - Exit tile: (8, 17) leading up to stairs at (8, 16).
   - Verified Hamiltonian Path: Up -> Left -> Up -> Right -> Right -> Up -> Left -> Up to (8, 16).
+- Tier 2 Ice Puzzle (rows 13..15, cols 5..11):
+  - 7x3 grid with 2 rock obstacles at (6, 14) and (10, 14). Total: 19 ice tiles.
+  - Start tile: (8, 15) from stairs at (8, 16).
+  - Exit tile: (8, 13) leading up to stairs at (8, 12).
+  - Verified Hamiltonian Path: Up -> Left x3 -> Up x2 -> Right x2 -> Down -> Right x2 -> Down -> Right x2 -> Up x2 -> Left x3 -> Up to (8, 12).
 
 <hr>
 
