@@ -19,7 +19,7 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 3. [x] Consult Gym Guide at (7, 24) (Turn 18701).
 4. [x] Solve Tier 1 Ice Puzzle (Turn 18712)!
 5. [x] Solve Tier 2 Ice Puzzle (Turn 18831)!
-6. [ ] Solve Tier 3 Ice Puzzle.
+6. [x] Solve Tier 3 Ice Puzzle (Turn 18884)!
 7. [ ] Defeat Gym Leader Juan for the Rain Badge and TM03 Water Pulse.
 
 ## Discovered Topography & Navigation
@@ -39,6 +39,11 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
   - Start tile: (8, 14) entered from stair landing at (8, 15).
   - Exit tile: (8, 12) leading up to Tier 3 stairs at (8, 11).
   - Verified Hamiltonian Path: Up -> Left x3 -> Up x2 -> Right x2 -> Down -> Right x2 -> Down -> Right x2 -> Up x2 -> Left x3 -> Up to (8, 11).
+- Tier 3 Ice Puzzle (rows 6..9, cols 3..13):
+  - 11x4 grid with 6 rock obstacles at (5, 6), (9, 7), (12, 7), (4, 8), (7, 8), (11, 9). Total: 38 ice tiles.
+  - Start tile: (8, 9) entered from stair landing at (8, 10).
+  - Exit tile: (8, 6) leading up to Juan's staircase at (8, 5..3).
+  - Verified Hamiltonian Path: Up -> Left x5 -> Up x3 -> Right -> Down -> Right -> Down -> Right -> Up x2 -> Right -> Down -> Right -> Down -> Right -> Down -> Right -> Up -> Right x2 -> Down -> Right -> Up x3 -> Left x2 -> Down -> Left -> Up -> Left x2 to (8, 6) -> Up to stairs!
 ## Basement Floor (Under Ice)
 - Falling through cracked ice lands on snow platforms in the basement (dropped to 8, 12).
 - Ice chutes connecting platforms are strictly ONE-WAY DOWNWARD slides (cannot be climbed).
