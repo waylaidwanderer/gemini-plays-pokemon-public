@@ -4337,6 +4337,11 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
   - Start tile: (8, 15) from stairs at (8, 16).
   - Exit tile: (8, 13) leading up to stairs at (8, 12).
   - Verified Hamiltonian Path: Up -> Left x3 -> Up x2 -> Right x2 -> Down -> Right x2 -> Down -> Right x2 -> Up x2 -> Left x3 -> Up to (8, 12).
+## Basement Floor (Under Ice)
+- Falling through cracked ice lands on snow platforms in the basement (dropped to 8, 12).
+- Ice chutes connecting platforms are strictly ONE-WAY DOWNWARD slides (cannot be climbed).
+- Trainers are stationed on snow platforms and challenge when stepping into their line of sight.
+- Southern slide at (8, 14..16) leads down toward the southern platform where the return ladder to the entrance lobby is located.
 
 <hr>
 
