@@ -2,14 +2,14 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Box 1 | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`51 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; **`0 / 1,021 EXP`** at Lv 16) |
+| Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`49 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; **`197 / 1,021 EXP`** at Lv 16) |
 | Littleroot Town | Luvdisc | EROS | Deceased | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); fainted to Hiker Marc's Lv 14 `Kabuto` (`Rock Tomb`) on Turn 2146 |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active -> Box 1 (for Marc) | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; **`584 / 585 EXP` at Lv 16 — 1 EXP below Lv 17, saving in Box 1 during Marc for Gym Leader Roxanne!**) |
-| Route 102 | Spoink | CIRCE | Box 1 | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`; **`~552 / 654 EXP`** at Lv 16) |
-| Petalburg City | Azurill | THETIS | Retired (Lv 17) | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 17); OHKO'd Tammy's Yanma with `Huge Power` `Body Slam` on Turn 2133; depositing in `Box 1` until Roxanne is defeated |
-| Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; **`461 / 585 EXP`** at Lv 16) |
-| Petalburg Woods | Hoothoot | APOLLO (`OFE E`) | Active | Caught at `(6, 30)` (Turn 2061, Male, Lv 14 -> 16); `Normal/Flying`-type, learned `Aerial Ace` (`60 BP` STAB Flying) in Slot 4 at Lv 11; **`0 / 817 EXP`** at Lv 16 |
-| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]; **`358 / 572 EXP`** at Lv 16) |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Box 1 -> Active (for Roxanne) | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; **`584 / 585 EXP` at Lv 16 — 1 EXP below Lv 17, ready for Gym Leader Roxanne!**) |
+| Route 102 | Spoink | CIRCE | Retired (Lv 17) | Caught at `(39, 6)` (Turn 2017, Female, Lv 17); KO'd Hiker Marc's `Cacnea` with `Psybeam` on Turn 2150; depositing in `Box 1` until Roxanne is defeated |
+| Petalburg City | Azurill | THETIS | Retired (Lv 17) | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 17); OHKO'd Tammy's Yanma with `Huge Power` `Body Slam` on Turn 2133; in `Box 1` until Roxanne is defeated |
+| Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; **`579 / 585 EXP` at Lv 16 — 6 EXP below Lv 17!**) |
+| Petalburg Woods | Hoothoot | APOLLO (`OFE E`) | Active | Caught at `(6, 30)` (Turn 2061, Male, Lv 16); `Normal/Flying`-type, learned `Aerial Ace` (`60 BP` STAB Flying) in Slot 4 at Lv 11; **`118 / 817 EXP`** at Lv 16 |
+| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]; **`549 / 572 EXP` at Lv 16 — 23 EXP below Lv 17!**) |
 | Route 115 | Kabuto | TRITON (`wm.t`) | Deceased | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); fainted to a critical-hit `Megahorn` from School Kid Tammy's Lv 15 `Rhyhorn` on Turn 2135 |
 
 ## Attempt #5 Encounter History (Wiped Turn 1698 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
