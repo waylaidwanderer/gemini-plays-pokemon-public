@@ -5,11 +5,11 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 14); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, raised to Lv 13 on Turn 2008); knows `Water Pulse` (Lv 12), learns `Ice Beam` at Lv 16 |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 13); came holding a wild `Sun Stone` and evolved into `Sunflora` (`105 Base Sp.Atk`, `Mega Drain`) on Turn 2054! |
-| Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 15); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: -`) |
-| Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, raised to Lv 13 on Turn 2036); knows `Secret Power` (Slot 3) and `BubbleBeam` (Slot 4) |
-| Route 104 | Nidoran♀ | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, raised to Lv 13 on Turn 2043); `Poison`-type (`Bite` Slot 3, `Double Kick` Slot 4), evolves into `Nidorina` at Lv 16 (`585 EXP` buffer) |
+| Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 14); knows `Secret Power` (Slot 1), `Water Pulse` (Slot 3), learns `Ice Beam` at Lv 16 |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 14); came holding a wild `Sun Stone` and evolved into `Sunflora` (`105 Base Sp.Atk`, `Mega Drain` Slot 3) on Turn 2054! |
+| Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`) |
+| Petalburg City | Azurill | THETIS | Active | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 14); knows `Secret Power` (Slot 3) and `BubbleBeam` (Slot 4) |
+| Route 104 | Nidoran♀ | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 15); `Poison`-type (`Bite` Slot 3, `Double Kick` Slot 4), evolves into `Nidorina` at Lv 16 (`585 EXP` buffer) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach (`Kabuto` / `Omanyte`) |
