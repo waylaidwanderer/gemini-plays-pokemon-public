@@ -4733,5 +4733,6 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Key Story & Lore Discoveries
 - Rayquaza Sighting (Turn 16854): Brendan called via Match Call from Pacifidlog Town, reporting a huge green Pokémon flying across the sky.
 - Battle Item Restriction (Vitamins & PP Enhancers): In Generation 3, permanent stat/PP enhancers (PP Max, PP Up, Rare Candy, Carbos, Zinc, etc.) cannot be used during battle. Interacting with them in the Bag only displays CANCEL. Only standard in-battle recovery items (Revive, Potion, Full Restore, Ether, Elixir) can be used.
+- In-Battle Item Targeting (Verified Turn 18944): When using an item from the Bag in battle (such as Revive or Potion), the Party screen cursor starts on the ACTIVE battling Pokémon in the left box, not Slot 1. To target reserve or fainted Pokémon, press Right to move into the right column.
 
 <hr>
