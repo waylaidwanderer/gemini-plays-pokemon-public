@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip | POSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1785); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc | APHRODITE | Active | Caught Lv 4 F with Old Rod at `(17, 13)` (Turn 1816); raised to Lv 12 (`Water Pulse`) at `0` steps |
 | Route 103 | Wingull | HALCYONE | Active | Caught Lv 4 F at `(18, 12)` (Turn 1805); raised to Lv 12 at `0` steps |
-| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
+| Route 102 | Sandshrew | GAIA | Active | Caught Lv 6 F at `(39, 6)` on 1st Poke Ball (Turn 1819); raised to Lv 12 at `0` steps |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(12, 23)` facing `Left` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
