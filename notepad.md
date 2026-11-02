@@ -4296,6 +4296,8 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 - Wallace at (31, 33) instructs May to hear what Maxie and Archie have to say ('It wouldn't hurt to hear what they have to say for themselves').
 - Maxie is at (33, 35) and Archie is at (34, 35). Speaking with them triggers their reflection on their reckless ambition.
 - Once their dialogue concludes, Wallace rewards May with HM07 Waterfall and unblocks the Sootopolis Gym entrance.
+- Maxie and Archie have departed Sootopolis City (Turn 18687)!
+- May is positioned at (31, 34) facing Wallace outside the Sootopolis Gym to receive HM07 Waterfall.
 
 <hr>
 
