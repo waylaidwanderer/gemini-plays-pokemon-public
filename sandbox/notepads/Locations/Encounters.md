@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | - | - | Pending | Rescue Prof. Birch on Route 101 (`Mudkip`; evolves into `Marshtomp` at Lv 16 with `1,021 EXP` buffer; uses up `Route 101` encounter) |
+| Starter (Route 101) | Mudkip (M, Lv 7) | MUDKIP | Active | Lonely (+Atk, -Def), `Torrent`; Lv 7 stats: 24/17/10/13/13/12; Moves: `Tackle`, `Growl`, `Bubble` (Lv 6), `Mud Sport` (Lv 7); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | - | - | Pending | Fish with Old Rod at eastern pond `(17, 13)` facing `Right` |
 | Route 103 | - | - | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
