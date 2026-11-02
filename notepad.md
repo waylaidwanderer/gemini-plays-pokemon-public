@@ -12,7 +12,7 @@
 | Route 104 | Cubone (M, Lv 15) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 15 stats: 43/21/37/17/23/17; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
 | Petalburg Woods | Bellsprout (M, Lv 8) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 8 stats: 28/17/12/18/11/14; Moves: `Vine Whip`, `Acid`; evolves into `Weepinbell` at Lv 16 (`763 EXP` buffer) |
 | Route 116 | Grimer (F, Lv 9) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 9 stats: 34/18/14/13/16/10; Moves: `Acid`, `Memento`, `Lick`, `Disable` |
-| Route 115 | Omanyte (M, Lv 9) | TRITON | Active (Box 1) | Caught at `(7, 71)` with Old Rod; `Rock/Water`, knows `Rock Tomb`, `BubbleBeam` |
+| Route 115 | Omanyte (M, Lv 9) | TRITON | Active | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 9 stats: 27/13/25/18/18/12; Moves: `BubbleBeam`, `Rock Tomb` |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
 - **Starter**: `Mudkip` (`AGALATEA`, Lv 15; `Slow` EXP group with `1,021 EXP` buffer at Lv 16) — Fainted to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`) after in-battle party slot swap (`Slot 1 <-> Slot 5`)
