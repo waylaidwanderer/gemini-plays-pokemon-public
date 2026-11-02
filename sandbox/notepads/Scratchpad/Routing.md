@@ -47,11 +47,11 @@
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`; to route between `(0, 12)` and the Pokemon Center at `(20, 16)`, use `x=16` for the vertical road `(0, 12) <-> (16, 12) <-> (16, 18) <-> (20, 18) <-> (20, 16)` to avoid Wally's house at `x=11..14, y=15..18`, the wandering boy on `x=14..15`, and the signpost at `(17, 16)`).
 
 ## Route 104 (South)
-- **Eastern Entrance**: Enters from Petalburg City at `(36, 62)`.
+- **Eastern Entrance**: Enters from Petalburg City `(0, 12)` onto `(39, 62)`.
 - **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7).
 - **Southbound & Northbound Shortcuts (Petalburg Woods <-> Petalburg City)**:
-  - **Southbound**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along `x=25` (jumping the ledge at `(25, 55)` onto `(25, 57)` which is 1 grass tile, while `(25, 58..62)` is bare) to `(25, 62)`, and `Right x12` along `y=62` straight into Petalburg City `(0, 12)`.
-  - **Northbound (100% Grass-Free)**: From `(36, 62)`, walk `Left x8` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.
+  - **Southbound**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along `x=25` (jumping the ledge at `(25, 55)` onto `(25, 57)` which is 1 grass tile, while `(25, 58..62)` is bare) to `(25, 62)`, and `Right x15` along `y=62` straight into Petalburg City `(0, 12)`.
+  - **Northbound (100% Grass-Free)**: From `(39, 62)`, walk `Left x11` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.
 - **Beach Staircase**: Located at `(28..29, 70)` (note: a signpost stands at `(27, 66)` and the cliff ridge blocks `(22..24, 62)` and `(28, 63)`, so when routing from the `(22..24, 56..61)` grass patch to the beach stairs, walk east along `y=61` or `y=62` via `(23, 61) -> Right x5 to (28, 61) -> Down x10 to (28, 71)`; northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
   - **Friendly Boy** at `(28, 74)` on the shoreline.
