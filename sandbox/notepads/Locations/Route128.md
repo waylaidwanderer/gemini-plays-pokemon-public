@@ -27,7 +27,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Central Ridge: Sits at cols 24..27, rows 32..37.
 - Eastern Grand Channel: Rows 21..26 spanning cols 80..101 provide an open deep water highway to the Ever Grande City mountain barrier at col 102.
 - Central Atoll & Island Formation: A massive island and reef structure spanning cols 58..76, rows 26..36.
-  - Northern Runway: Row 27 provides a clear walkable sandbar across cols 65..75.
+  - Northern Runway: Sandbar reaches row 26 across cols 67..75; row 25 directly north remains deep water.
   - Northern Water Highway: Row 25 is an open deep water highway spanning cols 43..75 connecting the western ocean across the north side of the sandbar.
   - Grey ripple rock at (37, 26): blocks row 25; cleanly bypassed via rows 26..27 heading East.
   - Grey Ripple Rock & Bypass: Grey ripple rock at (62, 24..25) blocks rows 24..25. Row 26 provides clear deep water bypass at cols 61..65.
