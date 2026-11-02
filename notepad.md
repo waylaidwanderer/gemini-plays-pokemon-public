@@ -10,7 +10,7 @@
 | Route 102 | Sandshrew (M, Lv 15) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 15 stats: 40/34/33/10/17/18; Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11) |
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposit in PC graveyard in Rustboro City |
 | Route 104 | Cubone (M, Lv 15) | HADES | Active | Hardy (neutral), `Rock Head`; caught at `(23, 60)` in tall grass; Lv 15 stats: 43/21/37/17/23/17; Moves: `Bone Club`, `Rock Throw`, `Secret Power` (Lv 9), `Headbutt` (Lv 13) |
-| Petalburg Woods | Bellsprout (M, Lv 8) | ADONIS | Active (Box 1) | Caught at `(21, 35)` in tall grass; knows `Vine Whip`, `Acid`; evolves into `Weepinbell` at Lv 16 (`763 EXP` buffer) |
+| Petalburg Woods | Bellsprout (M, Lv 8) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; Lv 8 stats: 28/17/12/18/11/14; Moves: `Vine Whip`, `Acid`; evolves into `Weepinbell` at Lv 16 (`763 EXP` buffer) |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
