@@ -4509,7 +4509,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: SOOTOPOLIS CONFLICT RESOLVED! Rayquaza quelled Groudon & Kyogre! Assembled outside Sootopolis Gym with Wallace, Steven, Archie, and Maxie.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 58) - Evolved on turn 5632! Level 58 on turn 18177! Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 177/177. Status: OK. Nature: Lonely. Ability: Overgrow. (Fully Healed Turn 18784)
+1. SAGE (Sceptile ♂, Level 59) - Evolved on turn 5632! Level 58 on turn 18177! Level 59 on turn 18904 (declined False Swipe, kept moveset). Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 179/179. Status: OK. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 29) - Evolved from Lotad on turn 4926! Level 29 on turn 18754! Moves: Dive (10/10), Nature Power (20/20), Surf (15/15), Flash (20/20). HP: 83/83. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
