@@ -1,63 +1,55 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #9)
+# Nuzlocke Encounters (Attempt #10)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`49 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; **`197 / 1,021 EXP`** at Lv 16) |
-| Littleroot Town | Luvdisc | EROS | Deceased | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); fainted to Hiker Marc's Lv 14 `Kabuto` (`Rock Tomb`) on Turn 2146 |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Deceased | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); fainted to Gym Leader Roxanne's lead Lv 15 `Nosepass` (`Selfdestruct` from 80% HP) on Turn 2156 |
-| Route 102 | Spoink | CIRCE | Retired (Lv 17) | Caught at `(39, 6)` (Turn 2017, Female, Lv 17); KO'd Hiker Marc's `Cacnea` with `Psybeam` on Turn 2150; in `Box 1` until Roxanne is defeated |
-| Petalburg City | Azurill | THETIS | Retired (Lv 17) | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 17); OHKO'd Tammy's Yanma with `Huge Power` `Body Slam` on Turn 2133; in `Box 1` until Roxanne is defeated |
-| Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 17); evolved into `Nidorina` (`55 HP`, `28 Atk`, `31 Def`, `28 Sp.Atk`, `23 Sp.Def`, `24 Spd`; `1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`) |
-| Petalburg Woods | Hoothoot | APOLLO (`OFE E`) | Deceased | Caught at `(6, 30)` (Turn 2061, Male, Lv 16); fainted to Gym Leader Roxanne's Lv 15 `Lunatone` (`Rock Slide`) on Turn 2162 |
-| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 17); `Fighting`-type (`54 HP`, `30 Atk`; `1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]) |
-| Route 115 | Kabuto | TRITON (`wm.t`) | Deceased | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); fainted to a critical-hit `Megahorn` from School Kid Tammy's Lv 15 `Rhyhorn` on Turn 2135 |
+| Starter (Route 101) | - | - | Pending | Choose `Mudkip` from Prof. Birch's Bag (`evolves into Marshtomp at Lv 16 with 1,021 EXP buffer`); uses up `Route 101` encounter |
+| Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` learns `Water Pulse` Lv 12, `Ice Beam` Lv 16) |
+| Route 103 | - | - | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Azurill` learns `BubbleBeam` Lv 10, `Body Slam` Lv 15) |
+| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16 with `585 EXP` buffer) |
+| Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` (`Grimer` learns `Sludge Bomb` Lv 13; `Makuhita` learns `Vital Throw` Lv 13) |
+| Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16; `Kabuto` learns `Mega Drain` Lv 13) |
 
-## Attempt #5 Encounter History (Wiped Turn 1698 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
-- **Starter (Route 101)**: `Mudkip -> Marshtomp` (`MARSHTOMP`, M, Lv 17, evolved at Lv 16; `Slow` EXP group with `1,021 EXP` buffer at Lv 16; `Mud Shot` Lv 16, `Water Gun` Lv 10) — Fainted to Roxanne's Lv 15 `Lunatone` (`Rock Slide`)
-- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, F, Lv 17; `Water Pulse` Lv 12, `Ice Beam` Lv 16) — Benched at Lv 17 after Tammy's `Yanma` because she entered Rustboro Gym with `334/653 EXP` already in Lv 16
-- **Route 103**: `Wingull` (`HALCYONE`, F, Lv 17) — Benched at Lv 17 on Route 104
-- **Route 102**: `Sandshrew` (`ATLAS`, M, Lv 16; `Dig` Lv 16) — Fainted to Roxanne's lead Lv 15 `Nosepass` (`Selfdestruct`)
-- **Petalburg City (Old Rod)**: `Luvdisc` (`EROS`, M, Lv 12) — Fainted to Team Magma Grunt's `Houndour` (`Pursuit`)
-- **Route 104**: `Cubone` (`HADES`, M, Lv 16; `Bone Club`, `Rock Throw`, `Headbutt` Lv 13) — Fainted to School Kid Tammy's Lv 11 `Yanma` (crit `Giga Drain`)
-- **Petalburg Woods**: `Bellsprout -> Weepinbell` (`ADONIS`, M, Lv 17, evolved at Lv 16; `Medium Slow` EXP group with `585 EXP` buffer at Lv 16; `Vine Whip`, `Acid`, `Bullet Seed`, `Toxic` Lv 15) — Benched at Lv 17 after Hiker Marc's `Kabuto`
-- **Route 116**: `Grimer` (`CIRCE`, F, Lv 16; `Acid`, `Sludge Bomb` Lv 13, `Lick`, `Disable`) — Defeated Roxanne's Lv 14 `Lileep`, fainted to Roxanne's Lv 15 `Lunatone` (`Rock Slide`)
-- **Route 115 (Old Rod)**: `Omanyte` (`TRITON`, M, Lv 17; `BubbleBeam`, `Rock Tomb`, `Aurora Beam` Lv 15, `Mud Shot` Lv 15) — Benched at Lv 17 after Hiker Marc's `Kabuto`
-
-## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
-- **Starter**: `Mudkip` (`AGALATEA`, Lv 15) — Fainted to School Kid Josh's Lv 11 `Zubat` (`Giga Drain`)
-- **Littleroot Town (Old Rod)**: `Luvdisc` (`APHRODITE`, Lv 14) — Fainted to overworld poison ticks in Petalburg Woods
-- **Route 101**: `Cleffa` (`ASTRAEA`, Lv 15; `Sweet Kiss` Lv 13, `Attract`, `Follow Me`, `Pound`) — Fainted to School Kid Tammy's Lv 15 `Rhyhorn` (`Magnitude 7`)
-- **Route 103**: `Wingull` (`ALCYONE`, Lv 21; `BubbleBeam` Lv 13, `Supersonic` Lv 21) — Benched at Lv 21
-- **Route 102**: `Ralts` (`PSYCHE`, Lv 12) — Fainted to Lady Cindy's Lv 7 `Azurill` (`Uproar`)
-- **Petalburg City (Old Rod)**: `Azurill` (`GLAUCUS`, Lv 15, `Thick Fat`; `Body Slam` Lv 15, `BubbleBeam` Lv 10) — Fainted to School Kid Tammy's Lv 13 `Aron` (`Brick Break`)
-- **Route 104**: `Jigglypuff` (`EUTERPE`, Lv 16; `Seismic Toss` Lv 14) — Fainted to School Kid Tammy's Lv 11 `Yanma` (`Aerial Ace`)
-- **Petalburg Woods**: `Oddish` (`HYACINTH`, Lv 17, attempts evolution to `Gloom` at Lv 16; `Mega Drain`, `Acid`, `Toxic` Lv 14) — Benched at Lv 17 after OHKOing Tammy's `Rhyhorn`
-- **Route 115 (Old Rod)**: `Kabuto` (Lv 9) — Fainted in wild battle to accidental 2nd `Seismic Toss`
-- **Route 116**: `Yanma` (`BOREAS`, Lv 15, `Compoundeyes`; `Silver Wind`, `Quick Attack`, `SonicBoom` Lv 13) — Fainted to School Kid Tammy's Lv 13 `Aron` (`Rock Tomb`)
+## Attempt #9 Encounter History (Wiped Turn 2166 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
+- **Starter (Route 101)**: `Mudkip -> Marshtomp` (`APOSEIDON`, M, Lv 16; `Mud Shot` Lv 16, `Water Gun`, `Bubble`) — Fainted to Roxanne's Lv 15 `Lunatone` (`Confusion`)
+- **Littleroot Town (Old Rod)**: `Luvdisc` (`EROS`, M, Lv 16; `Water Pulse` Lv 12, `Ice Beam` Lv 16) — Fainted to Hiker Marc's Lv 14 `Kabuto` (`Rock Tomb`)
+- **Route 103**: `Sunkern -> Sunflora` (`HELIOS`, M, Lv 16, held wild `Sun Stone`; `Synthesis` Lv 16, `Mega Drain` Lv 13, `Bullet Seed` [25 BP/hit]) — Fainted to Roxanne's lead Lv 15 `Nosepass` (`Selfdestruct` from 80% HP)
+- **Route 102**: `Spoink` (`CIRCE`, F, Lv 17; `Psybeam` Lv 16, `Confusion`) — Benched at Lv 17 after Hiker Marc's `Cacnea`
+- **Petalburg City (Old Rod)**: `Azurill` (`THETIS`, F, Lv 17, `Huge Power`; `Body Slam` Lv 15, `BubbleBeam` Lv 10, `Secret Power` Lv 6) — Benched at Lv 17 after School Kid Tammy's `Yanma`
+- **Route 104**: `Nidoran♀ -> Nidorina` (`ARTEMIS`, F, Lv 17, evolved at Lv 16; `Crunch` Lv 16, `Double Kick` Lv 12, `Bite` Lv 8) — Fainted to Roxanne's Lv 15 `Lunatone` (`Hypnosis` + `Confusion`)
+- **Petalburg Woods**: `Hoothoot` (`APOLLO / OFE E`, M, Lv 16; `Aerial Ace` Lv 11) — Fainted to Roxanne's Lv 15 `Lunatone` (`Rock Slide`)
+- **Route 116**: `Makuhita` (`ATHENA / UNCYIU`, F, Lv 17; `Vital Throw` Lv 13, `Force Palm` Lv 10) — Fainted to Roxanne's Lv 15 `Lunatone` (`Confusion`)
+- **Route 115 (Old Rod)**: `Kabuto` (`TRITON / wm.t`, M, Lv 16; `Mega Drain` Lv 13, `Water Pulse`, `Rock Tomb`) — Fainted to a critical-hit `Megahorn` from School Kid Tammy's Lv 15 `Rhyhorn`
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #9
+# Nuzlocke Dashboard — Attempt #10
 
 ## Active Rules & Status
-- **Attempt**: #9
+- **Attempt**: #10
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#8)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#9)
 - **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
 - **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap.
 - **Attempt #3**: Wiped at Turn 1134 in **Rustboro Gym** against **Hiker Marc**'s Lv 14 `Kabuto` (`Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`).
 - **Attempt #4**: Wiped at Turn 1408 in **Rustboro Gym** against **School Kid Tammy** after losing `Luvdisc` to overworld poison ticks in Petalburg Woods, losing wild Route 115 `Kabuto` to a chained chip+ball input, and losing `Mudkip` in School Kid Josh's battle due to an in-battle party slot swap (`Slot 1 <-> Slot 5`).
-- **Attempt #5**: Defeated all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) for the first time and reached **Gym Leader Roxanne**, defeating her lead Lv 15 `Nosepass` (`Seismic Toss`, `Attract`, `Selfdestruct`, holds `Berry Juice`/`Sitrus Berry`) and Lv 14 `Lileep` (`Giga Drain`, `AncientPower`, holds `Berry Juice`/`Sitrus Berry`) before wiping at Turn 1698 to her 3rd Pokemon, Lv 15 `Lunatone` (`Rock Slide`), because 4 of our living powerhouses (`Aphrodite` the Luvdisc, `Halcyone` the Wingull, `Adonis` the Weepinbell, and `Triton` the Omanyte) had reached **Lv 17** prior to Roxanne and were benched in `Box 1`, leaving us with only a 3-Pokemon squad (`Marshtomp`, `Sandshrew`, `Grimer`) for Roxanne's 6-Pokemon team.
-- **Attempt #6**: Reset early on Route 102 at Turn 1758 before fighting any Route 102 trainers because we entered Route 103/102 wild grass with a Lv 7 `Mudkip` (`24 HP`) and an un-leveled Lv 5 `Goldeen` (`20 HP`), forfeiting `Route 103` (`Wingull`) at `6/24 HP` and losing Lv 5 `Goldeen` (`Galatea`) to a critical hit `Confusion` (`20/20 HP`) from a wild Lv 6 `Spoink`.
-- **Attempt #7**: Our "Rare-Candy Mudkip in Littleroot Town and Rare-Candy every catch at 0 steps" strategy went **7-for-7 on catches with 0 deaths in just 118 turns** (`Mudkip`, `Wingull`, `Luvdisc`, `Sandshrew`, `Azurill`, `Cubone`, `Oddish`), but at Turn 1878 we stepped onto `(26, 23)` in Petalburg Woods *before* doing our pre-Magma-Grunt menu prep.
-- **Attempt #8**: Went **7-for-7 on catches** again (`Mudkip`, `Hoppip`, `Luvdisc`, `Meowth`, `Azurill`, `Natu`, `Oddish`), but lost `TYCHE` (`Meowth` Lv 12), `GLAUCUS` (`Azurill` Lv 11), and `HYACINTH` (`Oddish` Lv 14) in trainer battles because (a) we only leveled our early team to Lv 11–12 instead of Lv 13–14, (b) we used `Psybeam` instead of `4x` `Peck` on Bug Catcher James's `Paras` (`Spore`), and (c) after switching in `HYACINTH` on `Paras`, the split-EXP message (`2` EXP textboxes instead of `1`) swallowed our move-reclamping input (`Up, Left`), leaving the cursor on `Acid` against `Surskit` (`Psybeam`) and `Nincada` (`Aerial Ace`). Reset at Turn 1976 to preserve a full 9-Pokemon roster with `Gloom`/`Weepinbell` for Roxanne.
+- **Attempt #5**: Defeated all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) for the first time and reached **Gym Leader Roxanne**, defeating her lead Lv 15 `Nosepass` and Lv 14 `Lileep` before wiping at Turn 1698 to her 3rd Pokemon, Lv 15 `Lunatone` (`Rock Slide`), because 4 of our living powerhouses had reached **Lv 17** prior to Roxanne.
+- **Attempt #6**: Reset early on Route 102 at Turn 1758 after losing Lv 5 `Goldeen` to a wild Lv 6 `Spoink`.
+- **Attempt #7**: Went 7-for-7 on catches with 0 deaths in 118 turns, but stepped onto `(26, 23)` in Petalburg Woods before pre-Magma-Grunt menu prep.
+- **Attempt #8**: Went 7-for-7 on catches, reset at Turn 1976 in Petalburg Woods after losing `Oddish` to Bug Catcher James.
+- **Attempt #9**: Went **9-for-9 on pre-Roxanne catches with 0 deaths** (`Mudkip -> Marshtomp`, `Luvdisc`, `Sunkern -> Sunflora` [wild `Sun Stone`!], `Spoink`, `Azurill`, `Nidoran♀ -> Nidorina`, `Hoothoot`, `Makuhita`, `Kabuto`), cleared all 3 Rustboro Gym trainers, and reached **Gym Leader Roxanne** with a 5-Pokemon Lv 16 squad (`Marshtomp`, `Sunflora`, `Makuhita`, `Nidorina`, `Hoothoot`), defeating her lead `Nosepass` before wiping at Turn 2166 to her Lv 15 `Lunatone` (`Hypnosis` + `Confusion` + `Rock Slide`, `29 Speed`). Key lessons from Attempt #9:
+  - **Preserve `Kabuto`/`Omanyte` (`Route 115`) and `Luvdisc` (`Littleroot Town`) for Gym Leader Roxanne**: In Attempt #9, we lost `Kabuto` (`TRITON`) to a crit `Megahorn` from Tammy's `Rhyhorn` and lost `Luvdisc` (`EROS`) to Marc's `Kabuto` because we used `Sunflora` on Tammy's `Larvitar` and `Rhyhorn` instead of saving `Sunflora`'s EXP strictly for the three `4x`-weak `Water/Rock` threats (`Josh's Omanyte`, `Tammy's Corsola`, `Marc's Kabuto`). Always use `Marshtomp`'s `4x` `Water Gun` on Tammy's `Rhyhorn` and `Larvitar`, and save our Grass-type (`Gloom`/`Weepinbell`/`Sunflora`) strictly for `Omanyte`, `Corsola`, and `Kabuto` (`512 / 585 EXP`).
+  - **Roxanne's Lead `Nosepass` Lv 15 Can Use `Selfdestruct` Even From ~80% Green HP**: Never switch an unresisted Grass-type (`Sunflora`) into `Nosepass`! Use `Kabuto`/`Omanyte` (`Rock/Water`, `36–41 Defense`, `0.5x` resists `Selfdestruct` — takes only ~16 HP!) against `Nosepass`.
+  - **Roxanne's `Lunatone` Lv 15 (`29 Speed`, `Hypnosis`, `Confusion`, `Rock Slide`)**: Outspeed `Lunatone` with `Luvdisc` (`38 Speed` at Lv 16, `2x` STAB `Water Pulse`) and back it up with `Kabuto`/`Omanyte` (`0.5x` resists `Rock Slide`, `Water Pulse`/`Mega Drain`) and `Marshtomp` (`0.5x` resists `Rock Slide`, `Water Gun`).
 - **Core Rules for Attempt #9 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
   1. **Immediately Rare-Candy `Mudkip` to Lv 13–14 Before Catching Wild Encounters, and Rare-Candy Every New Catch to Lv 13–14 at `0` Steps**:
      - Never walk into wild grass or trainer battles with a Lv 11–12 Pokemon when the cap is Lv 16! Raise `Mudkip` to **Lv 13 (`36+ HP`)** in Birch's Lab and raise every newly caught Pokemon directly to **Lv 13–14** at `0` steps!
