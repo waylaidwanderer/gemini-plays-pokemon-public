@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active | Caught with Old Rod at `(17, 13)` (Turn 1917, Female, Lv 4); learns `Water Pulse` at Lv 12 and `Ice Beam` at Lv 16 |
 | Route 103 | Hoppip | FLORA | Active | Caught at `(17, 11)` (Turn 1906, Female, raised to Lv 11 with Rare Candies on Turn 1919); `Grass/Flying` (immune to Ground, 4x vs Water/Rock) |
 | Route 102 | Meowth | TYCHE | Active | Caught at `(39, 6)` (Turn 1922, Female, raised to Lv 12 with Rare Candies on Turn 1923); `Pickup`, `Fake Out`, `Bite`, `Swift` |
-| Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(11, 22)` facing `Down` |
+| Petalburg City | Azurill | GLAUCUS | Active | Caught with Old Rod at `(11, 22)` (Turn 1939, Male, Lv 5); learns `BubbleBeam` at Lv 10 and `Body Slam` at Lv 15 |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
