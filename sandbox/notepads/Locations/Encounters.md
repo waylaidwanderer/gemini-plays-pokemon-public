@@ -8,7 +8,7 @@
 | Route 102 | Sandshrew | GAIA | Active | Caught Lv 6 F at `(39, 6)` on 1st Poke Ball (Turn 1819); raised to Lv 12 at `0` steps |
 | Petalburg City | Azurill | THETIS | Active | Caught Lv 5 F with Old Rod at `(11, 22)` (Turn 1838); raised to Lv 12 (`BubbleBeam`) at `0` steps |
 | Route 104 | Cubone | HADES | Active | Caught Lv 7 M at `(26, 59)` (Turn 1848); raised to Lv 13 (`Headbutt`) at `0` steps |
-| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
+| Petalburg Woods | Oddish | CHLORIS | Active (Box 1) | Caught Lv 8 F at `(6, 30)` (Turn 1875); evolves into `Gloom` at Lv 16 (`585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` on trainer-free southern beach (`Kabuto` / `Omanyte`) |
 
