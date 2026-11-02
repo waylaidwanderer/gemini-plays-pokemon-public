@@ -98,8 +98,8 @@
     - Team (5 Pokemon):
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
       2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, `Surf`, holds `Oran/Sitrus Berry`)
-      3. `Charmander` (M, Lv 9, `Flame Wheel`, `Bite`, holds `Oran/Sitrus Berry`)
-      4. `Bulbasaur` (M, Lv 9, holds `Oran Berry`)
+      3. `Charmander` (M, Lv 9, `Will-O-Wisp`, `Flame Wheel`, `Bite`, holds `Berry Juice`)
+      4. `Bulbasaur` (M, Lv 9, `Light Screen`, holds `Oran Berry`)
       5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Bite`, holds `Berry Juice`)
 
 ## Rustboro City
