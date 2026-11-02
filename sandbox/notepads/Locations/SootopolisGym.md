@@ -47,3 +47,4 @@ The 8th and final Pokémon Gym in Hoenn, specializing in Water-type Pokémon.
 - Defeated Lady Daphne (Luvdisc Lv 39 x2) & Pokéfan Annika (Feebas Lv 39 x2) in Double Battle at (8, 13) on Turn 18754. Prize: ¥10,920. Lilz leveled to Lv 29!
 - Defeated Lass Andrea (Luvdisc Lv 40) at (7, 17) on Turn 18764. Prize: ¥640.
 - Return ladder clearly located on southern basement platform at (11, 22).
+- Defeated Beauty Connie (Goldeen Lv 40) at (9, 19) on Turn 18776. Prize: ¥3,200.
