@@ -11,7 +11,7 @@
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposited in Box 1 |
 | Route 104 | Cubone (M, Lv 16) | HADES | Deceased | Fainted Turn 1632 to School Kid Tammy's Lv 11 `Yanma` (critical hit `Giga Drain` for 30/45 HP from 30/45 HP, bypassing `Oran Berry` at <=22 HP) |
 | Petalburg Woods | Weepinbell (M, Lv 16) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16; Lv 16 stats: 51/33/21/36/18/27 (`535/763 EXP`); Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15) |
-| Route 116 | Grimer (F, Lv 14) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Moves: `Acid`, `Sludge Bomb` (Lv 13), `Lick`, `Disable` |
+| Route 116 | Grimer (F, Lv 16) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 16 stats: 54/28/21/18/24/15 (`0/817 EXP`); Moves: `Acid`, `Sludge Bomb` (Lv 13), `Lick`, `Disable` |
 | Route 115 | Omanyte (M, Lv 16) | TRITON | Active | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 16 stats: 40/20/41/30/29/18 (`214/817 EXP`); Moves: `BubbleBeam`, `Rock Tomb`, `Aurora Beam` (Lv 15), `Mud Shot` (Lv 15) |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
