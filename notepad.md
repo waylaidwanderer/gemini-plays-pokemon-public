@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip | APOSEIDON | Active | Rescued Prof. Birch on Route 101 (Turn 1990, Male, raised to Lv 13 on Turn 2008); evolves into `Marshtomp` at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, raised to Lv 13 on Turn 2008); knows `Water Pulse` (Lv 12), learns `Ice Beam` at Lv 16 |
 | Route 103 | Sunkern | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, raised to Lv 13 on Turn 2008); `Grass`-type, learned `Mega Drain` at Lv 13 |
-| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` (`Sandshrew` / `Meowth` / `Hoothoot` / `Ralts` / `Spoink`) |
+| Route 102 | Spoink | CIRCE | Active | Caught at `(39, 6)` (Turn 2017, Female, Lv 6); raising to Lv 13 at 0 steps |
 | Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(11, 22)` facing `Down` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
