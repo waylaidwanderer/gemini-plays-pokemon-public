@@ -24,7 +24,7 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
 8. [x] Journeyed to Sky Pillar, ascended to Summit, and awakened Rayquaza (Turn 18627)!
 9. [x] Returned to Sootopolis City; Rayquaza quelled Groudon & Kyogre, restoring peaceful weather (Turn 18660)!
 10. [x] Spoke with Steven, Wallace, Archie, and Maxie outside Sootopolis Gym; received HM07 Waterfall from Wallace (Turn 18697)!
-11. [ ] Enter Sootopolis Gym and defeat Gym Leader Juan for the Rain Badge.
+11. [x] Enter Sootopolis Gym and defeat Gym Leader Juan for the Rain Badge (Turn 19008)!
 
 ## Discovered Topography & Navigation
 - Submerged Entrance Tunnel: Connects Route 126 cave at (45, 65) to Sootopolis City lagoon. Spawns at (9, 8) facing North. Light rays illuminate cols 8..10, rows 4..7. Pressing B / Dive under light rays prompts to surface.

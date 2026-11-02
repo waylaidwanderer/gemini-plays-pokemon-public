@@ -213,7 +213,7 @@
 1. [x] Exit Sootopolis Gym into Sootopolis City (Turn 19018)!
 2. [x] Teach HM07 Waterfall to Lombre (Lilz) (Turn 19040)!
 3. [x] Fly to Mossdeep City (Turn 19065)!
-4. [ ] Heal at Mossdeep Pokémon Center.
+4. [x] Heal at Mossdeep Pokémon Center (Turn 19073)!
 5. [ ] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart.
 6. [ ] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall.
 7. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
