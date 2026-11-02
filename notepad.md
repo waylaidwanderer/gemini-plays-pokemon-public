@@ -82,7 +82,7 @@
   3. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison at `0` Steps & Never Chain Chip Moves With Poke Ball Throws**:
      - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death). Cure poison with a `Pecha Berry` at `0` steps before walking anywhere! Against trainers who have both a `Toxic` user (`Koffing`) and a `Pursuit` user (`Houndour`), switch the `Toxic`-poisoned Pokemon out *before* KOing the `Toxic` user so `Houndour` cannot trap it at low HP.
      - **Never chain a damaging chip attack and a Poke Ball throw in the same `press_buttons` call**.
-     - **In-Battle Party Slot Swap Rule**: Every in-battle switch swaps the incoming Pokemon with `Slot 1` (`gPlayerParty[0]`) for the remainder of that battle, reverting to the pre-battle overworld order when the battle ends (`B_OUTCOME_WON`).
+     - **In-Battle Party Slot Swap Rule & `Set`-Mode 3-Way EXP Split Pivot**: Every in-battle switch swaps the incoming Pokemon with `Slot 1` (`gPlayerParty[0]`) for the remainder of that battle, reverting to the pre-battle overworld order when the battle ends (`B_OUTCOME_WON`). In `Set` mode, the Pokemon that KOs enemy #N automatically faces enemy #(N+1) on Turn 1; if its remaining Lv 16 EXP buffer is smaller than a 50/50 split (`EXP // 2`), pivot through a high-buffer teammate (`A -> B -> C`) so enemy #(N+1)'s EXP is divided **3 ways (`EXP // 3`)** instead of 2!
   4. **9 Pre-Roxanne Encounter Locations** (Note: `Starter` is met on `Route 101`, so `Route 101` wild catches are NOT permitted):
      1. `Starter` (`Route 101` — `Mudkip`)
      2. `Littleroot Town` (Old Rod at `(17, 13)` facing `Right` — `Luvdisc`)
