@@ -4,12 +4,12 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip -> Marshtomp | APOSEIDON | Box 1 | Rescued Prof. Birch on Route 101 (Turn 1990, Male, Lv 16); evolved into `Marshtomp` (`51 HP`; `1: Mud Shot`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun`; **`0 / 1,021 EXP`** at Lv 16) |
 | Littleroot Town | Luvdisc | EROS | Active | Caught with Old Rod at `(17, 13)` (Turn 2006, Male, Lv 16); knows `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` (`95 BP` Ice); **`42 / 653 EXP`** at Lv 16 |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; **`286 / 585 EXP`** at Lv 16) |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active -> Box 1 (for Marc) | Caught at `(17, 11)` (Turn 2001, Male, Lv 16); evolved into `Sunflora` (`52 HP`, `39 Sp.Atk`, `35 Sp.Def`; `1: Synthesis`, `2: Growth`, `3: Mega Drain`, `4: Bullet Seed` [`25 BP/hit`]; **`584 / 585 EXP` at Lv 16 — 1 EXP below Lv 17, saving in Box 1 during Marc for Gym Leader Roxanne!**) |
 | Route 102 | Spoink | CIRCE | Box 1 | Caught at `(39, 6)` (Turn 2017, Female, Lv 16); `Psychic`-type (`1: Confusion`, `2: Psywave`, `3: Odor Sleuth`, `4: Psybeam`; **`~552 / 654 EXP`** at Lv 16) |
 | Petalburg City | Azurill | THETIS | Retired (Lv 17) | Caught with Old Rod at `(11, 22)` (Turn 2035, Female, Lv 17); OHKO'd Tammy's Yanma with `Huge Power` `Body Slam` on Turn 2133; depositing in `Box 1` until Roxanne is defeated |
 | Route 104 | Nidoran♀ -> Nidorina | ARTEMIS | Active | Caught at `(23, 59)` (Turn 2042, Female, Lv 16); evolved into `Nidorina` (`1: Crunch` [`80 BP` Dark], `2: Scratch`, `3: Bite`, `4: Double Kick`; **`461 / 585 EXP`** at Lv 16) |
 | Petalburg Woods | Hoothoot | APOLLO | Box 1 | Caught at `(6, 30)` (Turn 2061, Male, Lv 8); sent directly to `Box 1` |
-| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]; **`214 / 572 EXP`** at Lv 16) |
+| Route 116 | Makuhita | ATHENA (`UNCYIU`) | Active | Caught at `(4, 13)` (Turn 2102, Female, Lv 16); `Fighting`-type (`1: Vital Throw` [`70 BP` STAB], `2: SmellingSalt`, `3: Sand-Attack`, `4: Force Palm` [`60 BP` STAB]; **`358 / 572 EXP`** at Lv 16) |
 | Route 115 | Kabuto | TRITON (`wm.t`) | Deceased | Caught with Old Rod at `(7, 71)` (Turn 2110, Male, Lv 16); fainted to a critical-hit `Megahorn` from School Kid Tammy's Lv 15 `Rhyhorn` on Turn 2135 |
 
 ## Attempt #5 Encounter History (Wiped Turn 1698 in Rustboro Gym to Gym Leader Roxanne's Lv 15 Lunatone)
