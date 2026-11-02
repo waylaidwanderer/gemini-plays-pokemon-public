@@ -37,3 +37,8 @@ A mystical city built entirely inside the hollow crater of an extinct volcanic i
   - White stone staircase behind Steven at (19..20, 34) leading up to the higher caldera cliff.
 - Sightings: Team Magma Grunt spotted observing the conflict from the eastern terrace at (26, 32).
 - Northern Terrace & Cave of Origin Entrance: Approached via northern caldera path. Elder stands at (30, 18), Steven Stone at (32, 18), and cave doorway at (31, 17).
+## Post-Clash Gym Courtyard Protocol (Verified Turn 18683)
+- After Rayquaza quells the titans, Wallace, Steven, Maxie, and Archie gather outside Sootopolis Gym on the central island.
+- Wallace at (31, 33) instructs May to hear what Maxie and Archie have to say ('It wouldn't hurt to hear what they have to say for themselves').
+- Maxie is at (33, 35) and Archie is at (34, 35). Speaking with them triggers their reflection on their reckless ambition.
+- Once their dialogue concludes, Wallace rewards May with HM07 Waterfall and unblocks the Sootopolis Gym entrance.
