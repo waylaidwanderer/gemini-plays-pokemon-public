@@ -4,14 +4,14 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Bashful (neutral), `Torrent`; evolved at Lv 16; Lv 16 stats: 53/32/29/26/27/22 (`120/1,021 EXP`); Moves: `Mud Shot` (Lv 16), `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
+| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Bashful (neutral), `Torrent`; evolved at Lv 16; Lv 16 stats: 53/32/29/26/27/22 (`881/1,021 EXP`); Moves: `Mud Shot` (Lv 16), `Bubble` (Lv 6), `Mud Sport` (Lv 7), `Water Gun` (Lv 10); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc (F, Lv 17) | APHRODITE | Benched (Cap) | Gentle (+SpDef, -Def), `Swift Swim`; caught at `(17, 13)` with Old Rod; Lv 17 stats: 43/18/23/23/31/39; Moves: `Secret Power`, `Charm`, `Water Pulse` (Lv 12), `Ice Beam` (Lv 16); benched after KOing Tammy's `Yanma` until Roxanne is defeated |
 | Route 103 | Wingull (F, Lv 17) | HALCYONE | Benched (Cap) | Mild (+SpAtk, -Def), `Keen Eye`; caught at `(18, 12)` in tall grass; Lv 17 HP: 45/45; benched until Roxanne is defeated (Lv 20 cap) |
 | Route 102 | Sandshrew (M, Lv 16) | ATLAS | Active | Adamant (+Atk, -SpAtk), `Sand Veil`; caught at `(38, 6)` in tall grass; Lv 16 stats: 42/36/35/10/17/19 (`0/817 EXP`); Moves: `Scratch`, `Poison Sting`, `Sand-Attack` (Lv 11), `Dig` (Lv 16) |
 | Petalburg City | Luvdisc (M, Lv 12) | EROS | Deceased | Fainted Turn 1540 to Team Magma Grunt's `Houndour` (`Pursuit`) after `Koffing`'s `Toxic` dropped him to 8/34 HP; deposited in Box 1 |
 | Route 104 | Cubone (M, Lv 16) | HADES | Deceased | Fainted Turn 1632 to School Kid Tammy's Lv 11 `Yanma` (critical hit `Giga Drain` for 30/45 HP from 30/45 HP, bypassing `Oran Berry` at <=22 HP) |
-| Petalburg Woods | Weepinbell (M, Lv 16) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16; Lv 16 stats: 51/33/21/36/18/27 (`120/763 EXP`); Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15) |
-| Route 116 | Grimer (F, Lv 9) | CIRCE | Active (Box 1) | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Lv 9 stats: 34/18/14/13/16/10; Moves: `Acid`, `Memento`, `Lick`, `Disable` |
+| Petalburg Woods | Weepinbell (M, Lv 16) | ADONIS | Active | Timid (+Speed, -Atk), `Chlorophyll`; caught at `(21, 35)` in tall grass; evolved at Lv 16; Lv 16 stats: 51/33/21/36/18/27 (`535/763 EXP`); Moves: `Vine Whip`, `Acid`, `Bullet Seed` (TM09), `Toxic` (Lv 15) |
+| Route 116 | Grimer (F, Lv 14) | CIRCE | Active | Modest (+SpAtk, -Atk), `Sticky Hold`; caught at `(4, 13)` in tall grass; Moves: `Acid`, `Sludge Bomb` (Lv 13), `Lick`, `Disable` |
 | Route 115 | Omanyte (M, Lv 16) | TRITON | Active | Careful (+SpDef, -SpAtk), `Swift Swim`; caught at `(7, 71)` with Old Rod; Lv 16 stats: 40/20/41/30/29/18 (`214/817 EXP`); Moves: `BubbleBeam`, `Rock Tomb`, `Aurora Beam` (Lv 15), `Mud Shot` (Lv 15) |
 
 ## Attempt #4 Encounter History (Wiped Turn 1408 in Rustboro Gym to School Kid Tammy)
