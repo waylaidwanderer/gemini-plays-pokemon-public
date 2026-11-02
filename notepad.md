@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active | Caught Lv 4 F with Old Rod at `(17, 13)` (Turn 1816); raised to Lv 12 (`Water Pulse`) at `0` steps |
 | Route 103 | Wingull | HALCYONE | Active | Caught Lv 4 F at `(18, 12)` (Turn 1805); raised to Lv 12 at `0` steps |
 | Route 102 | Sandshrew | GAIA | Active | Caught Lv 6 F at `(39, 6)` on 1st Poke Ball (Turn 1819); raised to Lv 12 at `0` steps |
-| Petalburg City | - | - | Pending | Fish with Old Rod at southern pond `(12, 23)` facing `Left` |
+| Petalburg City | Azurill | THETIS | Active | Caught Lv 5 F with Old Rod at `(11, 22)` (Turn 1838); raised to Lv 12 (`BubbleBeam`) at `0` steps |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish` / `Bellsprout` evolve at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` |
