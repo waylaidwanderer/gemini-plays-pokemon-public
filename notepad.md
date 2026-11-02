@@ -4123,8 +4123,9 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 2. [x] Ascended cave stairs and exited through light patch at (14, 4) by pressing Down -> arrived outside at (17, 14) (Turn 18377)!
 3. [x] Met Wallace outside the Sky Pillar tower entrance at (16, 14) (Turn 18378)!
 4. [x] Completed Wallace's dialogue unlocking the tower entrance (Turn 18378)!
-5. [ ] Enter Sky Pillar tower and ascend to the summit.
-6. [ ] Awaken Rayquaza!
+5. [x] Enter Sky Pillar tower and ascend to the summit (Turn 18626)!
+6. [x] Awaken Rayquaza at the Summit! Rayquaza awoke and flew off to Sootopolis City (Turn 18627)!
+7. [ ] Return to Sootopolis City to witness Rayquaza quell the clash between Groudon and Kyogre!
 
 ## Discovered Topography & Navigation
 - Entrance Cave:
@@ -4640,7 +4641,8 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
 5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
 6. [x] Reached Sky Pillar exterior and met Wallace outside the tower (Turn 18378)!
-7. [ ] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza.
+7. [x] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza (Turn 18627)!
+8. [ ] Travel to Sootopolis City to witness Rayquaza stop Groudon and Kyogre.
 8. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.

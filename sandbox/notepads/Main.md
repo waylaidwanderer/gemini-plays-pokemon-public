@@ -204,7 +204,8 @@
 4. [x] Traversed ocean routes to arrive in Pacifidlog Town (Turn 18185)! Flight checkpoint unlocked!
 5. [x] Navigate Route 131 northern channel and enter Sky Pillar (Turn 18351)!
 6. [x] Reached Sky Pillar exterior and met Wallace outside the tower (Turn 18378)!
-7. [ ] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza.
+7. [x] Enter Sky Pillar tower, ascend to the summit, and awaken Rayquaza (Turn 18627)!
+8. [ ] Travel to Sootopolis City to witness Rayquaza stop Groudon and Kyogre.
 8. [ ] Challenge Sootopolis Gym (Leader Juan) for Gym 8 (Rain Badge).
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.

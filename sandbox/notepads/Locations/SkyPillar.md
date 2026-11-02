@@ -12,8 +12,9 @@ Ancient, legendary tower located in northern Route 131 where the super-ancient d
 2. [x] Ascended cave stairs and exited through light patch at (14, 4) by pressing Down -> arrived outside at (17, 14) (Turn 18377)!
 3. [x] Met Wallace outside the Sky Pillar tower entrance at (16, 14) (Turn 18378)!
 4. [x] Completed Wallace's dialogue unlocking the tower entrance (Turn 18378)!
-5. [ ] Enter Sky Pillar tower and ascend to the summit.
-6. [ ] Awaken Rayquaza!
+5. [x] Enter Sky Pillar tower and ascend to the summit (Turn 18626)!
+6. [x] Awaken Rayquaza at the Summit! Rayquaza awoke and flew off to Sootopolis City (Turn 18627)!
+7. [ ] Return to Sootopolis City to witness Rayquaza quell the clash between Groudon and Kyogre!
 
 ## Discovered Topography & Navigation
 - Entrance Cave:
