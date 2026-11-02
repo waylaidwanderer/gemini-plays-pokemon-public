@@ -100,7 +100,7 @@
       5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Bite`, holds `Berry Juice`)
 
 ## Rustboro City
-- **Southern Entrance**: Enters from Route 104 North `(17..20, 0)` onto `(19, 59)`.
+- **Southern Entrance**: Enters from Route 104 North `(15..16, 0)` onto `(16, 59)` (from `(25, 8)` after PKMN Trainer Red, walk `Up x6` to `(25, 2)`, `Left x9` to `(16, 2)`, and `Up x3` into Rustboro City; in Rustboro City, step `Right x4` at `y=50` around the signpost at `(18, 49)` onto the main vertical avenue at `x=20..21`).
 - **Landmarks**:
   - **Poke Mart**: Door at `(16, 45)` (building covers `x=14..17, y=42..45` with a streetlamp at `(18, 45)` and a boy at `(19, 44)`; use `x=20..21` for the main vertical avenue).
   - **Pokemon Center**: Door at `(16, 38)`.
