@@ -9,7 +9,7 @@
 | Petalburg City | Azurill (M) | TRITON | Active (Slot 6) | Lv 16 (`Huge Power`; `1: Body Slam` [85 BP Normal], `2: Charm`, `3: Secret Power`, `4: BubbleBeam`) |
 | Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`0/585 EXP`; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power`) |
 | Petalburg Woods | Oddish -> Gloom (F) | CHLORIS | Benched (Box 1) | Lv 17 (`Acid`, `Mega Drain`, `Toxic`, `Magical Leaf`; evolved into `Gloom` at Lv 16; benched until Roxanne is defeated and cap becomes Lv 20) |
-| Route 116 | Voltorb | HELIOS | Box 1 | Caught Lv 9 at `(6, 16)` (knows `Secret Power`) |
+| Route 116 | Voltorb | HELIOS | Active (Slot 5) | Lv 16 (`0/817 EXP`, 39 Speed; learned `SonicBoom` [20 fixed dmg] at Lv 15; caught Lv 9 at `(6, 16)`) |
 | Route 115 | Kabuto (F) | - | Fainted | Hooked Lv 9 with Old Rod at `(7, 71)`; fainted on Turn 2343 when `SHIFT` + `Rock Tomb` (`~13s`) shifted queued `BAG` inputs into `FIGHT -> Mega Drain` |
 
 ## Attempt #10 Summary (Reset Turn 2213 on Route 102)
