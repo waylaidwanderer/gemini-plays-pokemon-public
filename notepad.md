@@ -4556,7 +4556,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party
 1. SAGE (Sceptile ♂, Level 59) - Evolved on turn 5632! Level 58 on turn 18177! Level 59 on turn 18904 (declined False Swipe, kept moveset). Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 179/179. Status: OK. Nature: Lonely. Ability: Overgrow.
-2. LILZ (Lombre ♀, Level 29) - Evolved from Lotad on turn 4926! Level 29 on turn 18754! Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 83/83. Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 83/83. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
 5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
@@ -4595,7 +4595,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x15 (1 used Turn 19134, active; 15 remaining in Bag)
-- Money: ¥19,770
+- Money: ¥20,330
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -4764,7 +4764,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Fly to Mossdeep City (Turn 19065)!
 4. [x] Heal at Mossdeep Pokémon Center (Turn 19073)!
 5. [x] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart (Turn 19108)!
-6. [ ] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall.
+6. [x] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall (reached col 101/102 on Turn 19214)!
 7. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
 8. [ ] Enter Ever Grande City Pokémon Center to register flight checkpoint.
 9. [ ] Traverse Victory Road (defeat Wally, navigate cave).
