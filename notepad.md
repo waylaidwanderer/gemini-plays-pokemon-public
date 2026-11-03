@@ -11,7 +11,7 @@
 | Petalburg City | Azurill (M) | TRITON | Active (Slot 5) | Lv 14 (`Huge Power`; `Water Gun`, `Charm`, `Secret Power` Lv 6, `BubbleBeam` Lv 10; learns `Body Slam` Lv 15); caught Lv 5 with Old Rod at `(11, 22)` |
 | Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 15 (`Grass/Dark`; `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical], `Nature Power` Lv 13); caught Lv 7 at `(23, 61)`, evolved at Lv 14 |
 | Petalburg Woods | Oddish (F) | CHLORIS | Box 1 | Caught Lv 8 at `(12, 33)` (`Acid`, `Mega Drain`; evolves into `Gloom` at Lv 16 with `585 EXP` buffer) |
-| Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` (`Grimer` learns `Sludge Bomb` Lv 13; `Makuhita` learns `Vital Throw` Lv 13) |
+| Route 116 | Voltorb | HELIOS | Box 1 | Caught Lv 9 at `(6, 16)` (knows `Secret Power`) |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16; `Kabuto` learns `Mega Drain` Lv 13) |
 
 ## Attempt #10 Summary (Reset Turn 2213 on Route 102)
