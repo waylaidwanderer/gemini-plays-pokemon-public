@@ -17,7 +17,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Pokémon League HQ (North Plateau): Houses the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace.
 
 ## Progression Checklist - Ever Grande City
-1. [ ] Scale Route 128 col 102 waterfall using HM07 Waterfall.
+1. [ ] Scale Ever Grande City waterfall using HM07 Waterfall.
 2. [ ] Arrive at Ever Grande City south plateau.
 3. [ ] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint!
 4. [ ] Enter Victory Road cave entrance.
