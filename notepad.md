@@ -12,7 +12,7 @@
 | Route 104 | Nidorina (F) | ARTEMIS | Box 1 `(3, 0)` | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `~566 / 585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
 | Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 3) | Lv 16 (`0 / 817 EXP` buffer, `Insomnia` [immune to Sleep!], holds `Oran Berry`, `48 HP, 25 SpD, 26 Speed`; `1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11); caught Lv 8 at `(6, 29)` |
 | Route 116 | Makuhita (M) | HERACLES | Active (Slot 5) | Lv 16 (`0 / 702 EXP` buffer, `53 HP, 28 Atk, 19 Def, 18 Speed`, holds `Oran Berry`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10); caught Lv 9 at `(4, 13)` |
-| Route 115 | Kabuto (M) | POSEIDON | Active (Slot 6) | Lv 16 (`0 / 817 EXP` buffer, `Rock/Water`, `37 HP, 35 Atk, 30 Def, 24 SpA, 23 SpD, 27 Speed`, holds `Oran Berry`; `Rock Tomb`, `Water Pulse`, `Mega Drain` Lv 13); caught Lv 9 at `(7, 71)` |
+| Route 115 | Kabuto (M) | POSEIDON | Active (Slot 6) | Lv 16 (`0 / 817 EXP` buffer, `Rock/Water`, `37 HP, 35 Atk, 30 Def, 24 SpA, 23 SpD, 27 Speed`, holds `Oran Berry`; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13); caught Lv 9 at `(7, 71)` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
