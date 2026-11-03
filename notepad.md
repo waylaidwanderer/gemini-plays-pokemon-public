@@ -9,8 +9,8 @@
 | Route 103 | Ledyba (M) | ORION | Active (Slot 4) | Lv 14 (`Early Bird`, `Hasty`, `36 HP, 25 Speed`; `1: Silver Wind`, `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10; `Fast` EXP group `654 EXP` buffer at Lv 16); caught Lv 4 at `(16, 11)` |
 | Route 102 | Meowth (M) | HERMES | Box 1 | Lv 16 (`Limber`, `Gentle`, `40 HP, 24 Atk, 22 SpA, 37 Speed`, holds `Pecha Berry`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12, `4: Bite` Lv 16; `Medium Fast` `~765 / 817 EXP` buffer remaining at Lv 16); caught Lv 6 at `(38, 6)` |
 | Petalburg City | Azurill (F) | THETIS | Deceased (Turn 2562) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit); deposit into PC graveyard in Rustboro City |
-| Route 104 | Nidoran♀ (F) | ARTEMIS | Active (Slot 3) | Lv 15 (`Poison Point`, holds `Oran Berry`; `1: Growl`, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; evolves into `Nidorina` at Lv 16 with `80 BP Crunch` and `585 EXP` buffer); caught Lv 7 at `(24, 61)` |
-| Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 5) | Lv 14 (`1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 8 at `(6, 29)` |
+| Route 104 | Nidorina (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
+| Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 5) | Lv 15 (`Insomnia` [immune to Sleep!], holds `Oran Berry`, `45 HP, 24 Speed`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 8 at `(6, 29)` |
 | Route 116 | - | - | Pending | Tall grass at `(6, 13..16)` (`Voltorb` [Slow group, `1,021 EXP` buffer, `SonicBoom` Lv 15], `Grimer`, `Makuhita`, `Yanma`) |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16) |
 
@@ -260,8 +260,8 @@
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
       2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, `Surf`, holds `Oran/Sitrus Berry`)
       3. `Charmander` (M, Lv 9, `Will-O-Wisp`, `Flame Wheel`, `Bite`, holds `Berry Juice`)
-      4. `Bulbasaur` (M, Lv 9, `Light Screen`, holds `Oran Berry`)
-      5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Bite`, holds `Berry Juice`)
+      4. `Bulbasaur` (M, Lv 9, `Light Screen`, `Cut`, holds `Berry Juice`)
+      5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`)
 
 ## Rustboro City
 - **Southern Entrance**: Enters from Route 104 North `(15..16, 0)` onto `(16, 59)` (from `(25, 8)` after PKMN Trainer Red, walk `Up x6` to `(25, 2)`, `Left x9` to `(16, 2)`, and `Up x3` into Rustboro City; in Rustboro City, step `Right x4` at `y=50` around the signpost at `(18, 49)` onto the main vertical avenue at `x=20..21`).

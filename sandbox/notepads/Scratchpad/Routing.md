@@ -99,8 +99,8 @@
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
       2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, `Surf`, holds `Oran/Sitrus Berry`)
       3. `Charmander` (M, Lv 9, `Will-O-Wisp`, `Flame Wheel`, `Bite`, holds `Berry Juice`)
-      4. `Bulbasaur` (M, Lv 9, `Light Screen`, holds `Oran Berry`)
-      5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Bite`, holds `Berry Juice`)
+      4. `Bulbasaur` (M, Lv 9, `Light Screen`, `Cut`, holds `Berry Juice`)
+      5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`)
 
 ## Rustboro City
 - **Southern Entrance**: Enters from Route 104 North `(15..16, 0)` onto `(16, 59)` (from `(25, 8)` after PKMN Trainer Red, walk `Up x6` to `(25, 2)`, `Left x9` to `(16, 2)`, and `Up x3` into Rustboro City; in Rustboro City, step `Right x4` at `y=50` around the signpost at `(18, 49)` onto the main vertical avenue at `x=20..21`).
