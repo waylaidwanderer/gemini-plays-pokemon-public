@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M) | MUDKIP | Active (Slot 2) | Lv 14 (`Tackle`, `Bubble` [spread], `Mud Sport`, `Water Gun` Lv 10); evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc (F) | EROS | Active (Slot 6) | Lv 14 (`Secret Power`, `Charm`, `Water Pulse` Lv 12; learns `Ice Beam` Lv 16, 38 Speed at Lv 16); caught Lv 4 with Old Rod at `(17, 13)` |
 | Route 103 | Wingull (M) | ZEPHYR | Active (Slot 1) | Lv 15 (`Wing Attack`, `Water Gun`, `Quick Attack` Lv 7, `BubbleBeam` Lv 13; 38 Speed); caught Lv 4 at `(17, 11)` |
-| Route 102 | Meowth (M) | HERMES | Active (Slot 4) | Lv 14 (`Scratch`, `Growl`, `Bite` [60 BP Dark], `Swift` Lv 12 [60 BP Normal]; 27 Speed); caught Lv 6 at `(39, 6)` |
+| Route 102 | Meowth (M) | HERMES | Active (Slot 4) | Lv 14 (`1: Pay Day`, `2: Faint Attack` [60 BP Dark], `3: Swift` Lv 12 [60 BP Normal]; 27 Speed); caught Lv 6 at `(39, 6)` |
 | Petalburg City | Azurill (M) | TRITON | Active (Slot 5) | Lv 14 (`Huge Power`; `Water Gun`, `Charm`, `Secret Power` Lv 6, `BubbleBeam` Lv 10; learns `Body Slam` Lv 15); caught Lv 5 with Old Rod at `(11, 22)` |
 | Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 15 (`Grass/Dark`; `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical], `Nature Power` Lv 13); caught Lv 7 at `(23, 61)`, evolved at Lv 14 |
 | Petalburg Woods | Oddish (F) | CHLORIS | Box 1 | Caught Lv 8 at `(12, 33)` (`Acid`, `Mega Drain`; evolves into `Gloom` at Lv 16 with `585 EXP` buffer) |
