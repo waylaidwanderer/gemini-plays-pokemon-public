@@ -44,7 +44,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
 - Triathlete Isaiah: Defeated at (37, 28) on Turn 19160 (Staryu Lv 35, prize ¥1,400). Registered in Match Call.
   - Triathlete ♀ Katelyn: Defeated at (76..77, 24) (Staryu Lv 35, prize ¥1,400). Registered in Match Call.
   - Fisherman Wayne: Defeated at (63..64, 28) (Tentacool Lv 31, Wailmer Lv 36, prize ¥1,440).
-- Other Trainers Sighted: Girl trainer at (21, 8); Swimmer ♂ at (36, 33); Swimmer ♂ at (38, 33); Swimmer ♀ at (79..80, 24); Swimmer ♂ at (101, 23); Swimmer ♀ at (98..101, 27).
+- Other Trainers Sighted: Girl trainer at (21, 8); Swimmer ♂ at (36, 33); Swimmer ♂ at (38, 33); Swimmer ♀ at (79..80, 24).
+- Map Boundary: Route 128 (cols 120/121, rows 27/28) connects East directly into Ever Grande City (cols 0/1, rows 67/68).
 
 ## Wild Encounters (Surfing)
 - Tentacool (Lv 5–35, Water/Poison) - Encountered frequently in deep water; fled cleanly on turn 1.
