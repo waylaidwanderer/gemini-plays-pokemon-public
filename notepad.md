@@ -12,7 +12,7 @@
 | Route 104 | Nidorina (F) | ARTEMIS | Active (Slot 2) | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
 | Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 4) | Lv 15 (`Insomnia` [immune to Sleep!], holds `Oran Berry`, `45 HP, 24 Speed`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 8 at `(6, 29)` |
 | Route 116 | Makuhita (M) | HERACLES | Active (Slot 6) | Lv 9 (`Thick Fat` or `Guts`; `SmellingSalt`, `Faint Attack`, learns `Force Palm` Lv 10, `Vital Throw` Lv 13; `Fluctuating` EXP group); caught Lv 9 at `(4, 13)` |
-| Route 115 | Kabuto (M) | POSEIDON | Capturing -> Box 1 `(2, 0)` | Lv 9 (`Rock/Water`; `Rock Tomb`, `Water Pulse`, learns `Mega Drain` Lv 13; `817 EXP` buffer at Lv 16); hooked at `(7, 71)` |
+| Route 115 | Kabuto (M) | POSEIDON | Box 1 `(2, 0)` | Lv 9 (`Rock/Water`; `Rock Tomb`, `Water Pulse`, learns `Mega Drain` Lv 13; `817 EXP` buffer at Lv 16); caught Lv 9 at `(7, 71)` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
