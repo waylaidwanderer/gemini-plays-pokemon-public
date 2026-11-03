@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F) | EROS | Active (Slot 3) | Lv 14 (`Water Pulse` Lv 12; learns `Ice Beam` Lv 16, 38 Speed at Lv 16); caught Lv 4 with Old Rod at `(17, 13)` |
 | Route 103 | Wingull (M) | ZEPHYR | Active (Slot 1) | Lv 14 (`Wing Attack`, `Water Gun`, `Quick Attack` Lv 7, `BubbleBeam` Lv 13; 36 Speed); caught Lv 4 at `(17, 11)` |
 | Route 102 | Meowth (M) | HERMES | Active (Slot 4) | Lv 14 (`Scratch`, `Growl`, `Bite` [60 BP Dark], `Swift` Lv 12 [60 BP Normal]; 27 Speed); caught Lv 6 at `(39, 6)` |
-| Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Azurill` learns `BubbleBeam` Lv 10, `Body Slam` Lv 15; skip duplicate `Luvdisc`) |
+| Petalburg City | Azurill (M) | TRITON | Active (Slot 5) | Lv 13–14 (`Secret Power` Lv 6, `BubbleBeam` Lv 10; learns `Body Slam` Lv 15); caught Lv 5 with Old Rod at `(11, 22)` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` (`Grimer` learns `Sludge Bomb` Lv 13; `Makuhita` learns `Vital Throw` Lv 13) |
