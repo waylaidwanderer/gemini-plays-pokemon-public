@@ -10,7 +10,7 @@
 | Route 104 | Nidorina (F) | ARTEMIS | Active (Slot 6) | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `~446 / 585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
 | Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 2) | Lv 16 (`467 / 817 EXP` buffer, `Insomnia` [immune to Sleep!], holds `Oran Berry`, `48 HP, 25 SpD, 26 Speed`; `1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11); caught Lv 8 at `(6, 29)` |
 | Route 116 | Makuhita (M) | HERACLES | Active (Slot 4) | Lv 17 (`56 HP, 29 Atk, 20 Def`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10); leveled to Lv 17 mid-battle vs Roxanne |
-| Route 115 | Kabuto (M) | POSEIDON | Active (Slot 5) | Lv 17 (`Rock/Water`, `39 HP, 36 Atk, 32 Def, 26 SpA, 24 SpD, 28 Speed`; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13); leveled to Lv 17 mid-battle vs Roxanne |
+| Route 115 | Kabuto (M) | POSEIDON | Deceased (Turn 2700) | Lost at Lv 17 against Gym Leader Roxanne's 6th and final Pokemon, Lv 15 `Lunatone`, after defeating `Relicanth` and `Shuckle`; deposit into PC graveyard after battle |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
