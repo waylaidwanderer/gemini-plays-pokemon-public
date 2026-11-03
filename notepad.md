@@ -335,6 +335,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 6. [ ] Exit Victory Road onto the north plateau.
 7. [ ] Enter Pokémon League HQ and heal.
 8. [ ] Challenge and defeat the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+## Discovered Topography & Navigation (Entrance Basin)
+- Map Connection: Route 128 (119, 28) connects East into Ever Grande City at (0, 68). Stepping Left from col 0 returns to Route 128 col 119.
+- Entrance Basin Layout:
+  - Spawns at (0, 68) facing East.
+  - Rock cones block straight northern advance at (0..1, 66).
+  - Walkable tiles verified: (0, 67), (0, 68), (0, 69), (1, 67), (1, 68).
+  - Row 67 col 2 is blocked by the corner of rock cone at (2, 68).
+  - Active Max Repel with Lv 59 Sage prevents all wild encounters.
 
 <hr>
 
