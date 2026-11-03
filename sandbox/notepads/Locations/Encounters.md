@@ -9,7 +9,7 @@
 | Petalburg City | Azurill (F) | THETIS | Deceased (Graveyard Box) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit) |
 | Route 104 | Nidorina (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
 | Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 5) | Lv 15 (`Insomnia` [immune to Sleep!], holds `Oran Berry`, `45 HP, 24 Speed`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 8 at `(6, 29)` |
-| Route 116 | - | - | Pending | Tall grass at `(6, 13..16)` (`Voltorb` [Slow group, `1,021 EXP` buffer, `SonicBoom` Lv 15], `Grimer`, `Makuhita`, `Yanma`) |
+| Route 116 | Makuhita (M) | HERACLES | Active (Slot 6) | Lv 9 (`Thick Fat` or `Guts`; `SmellingSalt`, `Faint Attack`, learns `Force Palm` Lv 10, `Vital Throw` Lv 13; `Fluctuating` EXP group); caught Lv 9 at `(4, 13)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
