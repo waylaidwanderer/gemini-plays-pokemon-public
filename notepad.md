@@ -4,15 +4,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M) | PROTEUS | Active (Slot 3) | Lv 16 (`979 / 1,021 EXP` buffer, `50 HP`; `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Cheri Berry`); uses up `Route 101` encounter |
-| Littleroot Town | Luvdisc (F) | EROS | Active (Slot 4) | Lv 16 (`611 / 654 EXP` buffer, `43 HP, 37 Speed`, holds `Oran Berry`; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16); caught Lv 4 at `(17, 13)` |
-| Route 103 | Ledyba (M) | ORION | Active (Slot 2) | Lv 16 (`343 / 654 EXP` buffer, `Early Bird`, `Hasty`, `40 HP, 29 Speed`; `1: Silver Wind`, `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16); caught Lv 4 at `(16, 11)` |
+| Starter (Route 101) | Marshtomp (M) | PROTEUS | Active (Slot 1) | Lv 16 (`979 / 1,021 EXP` buffer, `50 HP`; `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Cheri Berry`); uses up `Route 101` encounter |
+| Littleroot Town | Luvdisc (F) | EROS | Active (Slot 3) | Lv 16 (`611 / 654 EXP` buffer, `43 HP, 37 Speed`, holds `Oran Berry`; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16); caught Lv 4 at `(17, 13)` |
+| Route 103 | Ledyba (M) | ORION | Box 1 `(2, 0)` | Lv 16 (`343 / 654 EXP` buffer, `Early Bird`, `Hasty`, `40 HP, 29 Speed`, holds `Oran Berry`; `1: Silver Wind`, `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16); caught Lv 4 at `(16, 11)` |
 | Route 102 | Meowth (M) | HERMES | Box 1 `(0, 0)` | Lv 16 (`Limber`, `Gentle`, `40 HP, 24 Atk, 22 SpA, 37 Speed`, holds `Pecha Berry`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12, `4: Bite` Lv 16; `Medium Fast` `~765 / 817 EXP` buffer remaining at Lv 16); caught Lv 6 at `(38, 6)` |
 | Petalburg City | Azurill (F) | THETIS | Deceased (Box 1 `(1, 0)`) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit) |
-| Route 104 | Nidorina (F) | ARTEMIS | Box 1 `(3, 0)` | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `~566 / 585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
-| Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 1) | Lv 16 (`467 / 817 EXP` buffer, `Insomnia` [immune to Sleep!], holds `Oran Berry`, `48 HP, 25 SpD, 26 Speed`; `1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11); caught Lv 8 at `(6, 29)` |
-| Route 116 | Makuhita (M) | HERACLES | Active (Slot 5) | Lv 16 (`556 / 702 EXP` buffer, `53 HP, 28 Atk, 19 Def, 18 Speed`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10); caught Lv 9 at `(4, 13)` |
-| Route 115 | Kabuto (M) | POSEIDON | Active (Slot 6) | Lv 16 (`802 / 817 EXP` buffer, `Rock/Water`, `37 HP, 35 Atk, 30 Def, 24 SpA, 23 SpD, 27 Speed`; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13); caught Lv 9 at `(7, 71)` |
+| Route 104 | Nidorina (F) | ARTEMIS | Active (Slot 6) | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `~566 / 585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
+| Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 2) | Lv 16 (`467 / 817 EXP` buffer, `Insomnia` [immune to Sleep!], holds `Oran Berry`, `48 HP, 25 SpD, 26 Speed`; `1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11); caught Lv 8 at `(6, 29)` |
+| Route 116 | Makuhita (M) | HERACLES | Active (Slot 4) | Lv 16 (`556 / 702 EXP` buffer, `53 HP, 28 Atk, 19 Def, 18 Speed`, holds `Oran Berry`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10); caught Lv 9 at `(4, 13)` |
+| Route 115 | Kabuto (M) | POSEIDON | Active (Slot 5) | Lv 16 (`802 / 817 EXP` buffer, `Rock/Water`, `37 HP, 35 Atk, 30 Def, 24 SpA, 23 SpD, 27 Speed`, holds `Oran Berry`; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13); caught Lv 9 at `(7, 71)` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
