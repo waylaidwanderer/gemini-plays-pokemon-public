@@ -4,9 +4,9 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M) | PROTEUS | Active (Slot 1) | Lv 12 (`1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10); evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
+| Starter (Route 101) | Mudkip (M) | PROTEUS | Active (Slot 1) | Lv 14 (`1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10); evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
-| Route 103 | - | - | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 103 | Ledyba (M) | ORION | Active (Slot 2) | Caught Lv 4 at `(16, 11)`; `Fast` EXP group (`654 EXP` buffer at Lv 16) |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Luvdisc` / `Azurill`) |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
