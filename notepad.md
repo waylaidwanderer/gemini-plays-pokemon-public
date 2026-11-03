@@ -328,7 +328,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Progression Checklist - Ever Grande City
 1. [x] Scale Ever Grande City waterfall using HM07 Waterfall (Turn 19412 at 24, 68 -> 24, 59)!
-2. [ ] Arrive at Ever Grande City south plateau.
+2. [x] Arrive at Ever Grande City south plateau (Turn 19420 at 18, 55)!
 3. [ ] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint!
 4. [ ] Enter Victory Road cave entrance.
 5. [ ] Defeat Rival Wally in Victory Road.
