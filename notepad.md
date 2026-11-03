@@ -4796,5 +4796,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - In-Battle Item Targeting (Verified Turn 18944): When using an item from the Bag in battle (such as Revive or Potion), the Party screen cursor starts on the ACTIVE battling Pokémon in the left box, not Slot 1. To target reserve or fainted Pokémon, press Right to move into the right column.
 - Harness Sleep vs Python time.sleep(): Emulator frames only advance when executing buttons or emulator sleep delays ('sleep <ms>') via press_buttons / tools.press_buttons(). Python's host time.sleep() pauses script execution without advancing emulator frames. All in-game animation and transition delays must be passed as 'sleep <ms>' inside press_buttons.
 - Party Menu Field Move Order (Lilz with Dive, Waterfall, Surf, Flash): Pop-up order is SUMMARY, DIVE, WATERFALL, SURF, FLASH, SWITCH, ITEM, CANCEL. Cursor defaults to SUMMARY; navigate Down x2 to select WATERFALL.
+- Start Menu D-Pad Wrapping: In Pokémon Emerald, the Start Menu wraps around vertically! Pressing Up from POKéDEX wraps to EXIT (the bottom option). Pressing Down from EXIT wraps to POKéDEX (the top option).
 
 <hr>
