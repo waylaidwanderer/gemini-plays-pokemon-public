@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M) | APOSEIDON | Active (Slot 1) | Lv 12; evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Goldeen (M) | NEREUS | Active (Slot 3) | Lv 12 (`Swift Swim`; `BubbleBeam`, `Psybeam`, `Haze`, `Supersonic` Lv 10); caught Lv 5 with Old Rod at `(17, 13)` |
 | Route 103 | Poliwag (F) | CALYPSO | Active (Slot 2) | Lv 12 (`Bubble`, `Hypnosis` Lv 7, `Water Gun` Lv 11); caught Lv 4 at `(18, 13)` |
-| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
+| Route 102 | Sandshrew (F) | GAIA | Active (Slot 4) | Lv 12 (`Scratch`, `Defense Curl`, `Sand-Attack`, `Poison Sting` Lv 11); caught Lv 6 at `(38, 6)` |
 | Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Azurill` learns `BubbleBeam` Lv 10, `Body Slam` Lv 15) |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16 with `585 EXP` buffer) |
