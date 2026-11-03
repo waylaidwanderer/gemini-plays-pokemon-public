@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp (M) | PROTEUS | Active (Slot 1) | Lv 17 (`53 HP, 37 Atk, 33 Def, 27 SpA, 29 SpD, 28 Speed`; `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Cheri Berry`); leveled to Lv 17 mid-battle vs Roxanne |
-| Littleroot Town | Luvdisc (F) | EROS | Active (Slot 3) | Lv 17 (`45 HP, 28 Def, 19 SpA, 27 SpD, 39 Speed`; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16); leveled to Lv 17 mid-battle vs Roxanne |
+| Littleroot Town | Luvdisc (F) | EROS | Deceased (Turn 2709) | Lost at Lv 17 to Gym Leader Roxanne's `Lunatone` (`Rock Slide`) after knocking `Lunatone` down to 29% yellow HP with `Water Pulse`; deposit into PC graveyard after battle |
 | Route 103 | Ledyba (M) | ORION | Box 1 `(2, 0)` | Lv 16 (`343 / 654 EXP` buffer, `Early Bird`, `Hasty`, `40 HP, 29 Speed`, holds `Oran Berry`; `1: Silver Wind`, `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16); caught Lv 4 at `(16, 11)` |
 | Route 102 | Meowth (M) | HERMES | Box 1 `(0, 0)` | Lv 16 (`Limber`, `Gentle`, `40 HP, 24 Atk, 22 SpA, 37 Speed`, holds `Pecha Berry`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12, `4: Bite` Lv 16; `Medium Fast` `~765 / 817 EXP` buffer remaining at Lv 16); caught Lv 6 at `(38, 6)` |
 | Petalburg City | Azurill (F) | THETIS | Deceased (Box 1 `(1, 0)`) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit) |
