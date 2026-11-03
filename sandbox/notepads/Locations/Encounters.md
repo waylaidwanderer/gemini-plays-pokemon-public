@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #11)
+# Nuzlocke Encounters (Attempt #12)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip -> Marshtomp (M) | MARSHTOMP | Active (Slot 1) | Lv 16 (`786 EXP` to Lv 17; `1: Mud Shot` [55 BP Ground], `2: Bide`, `3: Mud Sport`, `4: Water Gun`); evolved at Lv 16 |
-| Littleroot Town | Luvdisc (F) | EROS | Benched (Box 1) | Lv 22 (exceeded Lv 16 cap via Rare Candy on Turn 2361 when `Up, Up` was used without `Left` first; benched until Wattson Lv 29 cap) |
-| Route 103 | Wingull (M) | ZEPHYR | Active (Slot 2) | Lv 16 (`629 EXP` to Lv 17; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack`, `4: BubbleBeam`; 40 Speed) |
-| Route 102 | Meowth (M) | HERMES | Deceased (Turn 2356) | Fainted at Lv 16 to School Kid Josh's `Zubat` Lv 11 (`Hypnosis` + crit `Giga Drain`) |
-| Petalburg City | Azurill (M) | TRITON | Active (Slot 4) | Lv 16 (`244 EXP` to Lv 17; `Huge Power`; `1: Body Slam` [85 BP Normal], `2: Charm`, `3: Secret Power`, `4: BubbleBeam`) |
-| Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`162 EXP` to Lv 17; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power`) |
-| Petalburg Woods | Oddish -> Gloom (F) | CHLORIS | Benched (Box 1) | Lv 17 (`Acid`, `Mega Drain`, `Toxic`, `Magical Leaf`; evolved into `Gloom` at Lv 16; benched until Roxanne is defeated and cap becomes Lv 20) |
-| Route 116 | Voltorb | HELIOS | Active (Slot 5) | Lv 16 (`1,021 EXP` to Lv 17 [Slow group!], 39 Speed; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave` [60 BP], `4: SonicBoom` [20 fixed dmg]) |
-| Route 115 | Kabuto (F) | - | Fainted | Hooked Lv 9 with Old Rod at `(7, 71)`; fainted on Turn 2343 when `SHIFT` + `Rock Tomb` (`~13s`) shifted queued `BAG` inputs into `FIGHT -> Mega Drain` |
+| Starter (Route 101) | - | - | Pending | Choose `Mudkip` (`evolves into Marshtomp at Lv 16 with 1,021 EXP buffer`); uses up `Route 101` encounter |
+| Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Route 103 | - | - | Pending | Tall grass at `(11..14, 15..16)` or `(15..18, 11..13)` |
+| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Azurill` / `Luvdisc`) |
+| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16) |
+| Route 116 | - | - | Pending | Tall grass at `(6, 13..16)` (`Voltorb` [Slow group, `1,021 EXP` buffer, `SonicBoom` Lv 15], `Grimer`, `Makuhita`, `Yanma`) |
+| Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16) |
 
 ## Attempt #10 Summary (Reset Turn 2213 on Route 102)
 - Lost `Sandshrew` (`GAIA`, F, Lv 12) to Lass Tiana's Lv 6 `Sunkern` (`Protect` + `Synthesis` + `Leech Seed` + `2x` `Mega Drain`) while spamming `Scratch` at Lv 12 instead of raising catches to Lv 13–14 (`68` `["A", "sleep 950"]` presses) and using `2x` super-effective moves against `Sunkern`.
