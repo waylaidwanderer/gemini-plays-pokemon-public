@@ -10,7 +10,7 @@
 | Route 102 | Meowth (M) | HERMES | Box 1 `(0, 0)` | Lv 16 (`Limber`, `Gentle`, `40 HP, 24 Atk, 22 SpA, 37 Speed`, holds `Pecha Berry`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12, `4: Bite` Lv 16; `Medium Fast` `~765 / 817 EXP` buffer remaining at Lv 16); caught Lv 6 at `(38, 6)` |
 | Petalburg City | Azurill (F) | THETIS | Deceased (Box 1 `(1, 0)`) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit) |
 | Route 104 | Nidorina (F) | ARTEMIS | Active (Slot 6) | Lv 16 (`Poison Point`, holds `Cheri Berry`; `1: Crunch` Lv 16, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; `~446 / 585 EXP` buffer at Lv 16); caught Lv 7 at `(24, 61)` |
-| Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 2) | Lv 16 (`467 / 817 EXP` buffer, `Insomnia` [immune to Sleep!], holds `Oran Berry`, `48 HP, 25 SpD, 26 Speed`; `1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11); caught Lv 8 at `(6, 29)` |
+| Petalburg Woods | Hoothoot (M) | ATHENA | Deceased (Turn 2706) | Lost at Lv 16 to Gym Leader Roxanne's `Lunatone` (`Rock Slide`); deposit into PC graveyard after battle |
 | Route 116 | Makuhita (M) | HERACLES | Active (Slot 4) | Lv 17 (`56 HP, 29 Atk, 20 Def`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10); leveled to Lv 17 mid-battle vs Roxanne |
 | Route 115 | Kabuto (M) | POSEIDON | Deceased (Turn 2700) | Lost at Lv 17 against Gym Leader Roxanne's 6th and final Pokemon, Lv 15 `Lunatone`, after defeating `Relicanth` and `Shuckle`; deposit into PC graveyard after battle |
 
