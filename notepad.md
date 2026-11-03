@@ -4788,7 +4788,7 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [x] Heal at Mossdeep Pokémon Center (Turn 19073)!
 5. [x] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart (Turn 19108)!
 6. [x] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall (reached col 101/102 on Turn 19214)!
-7. [ ] Scale the waterfall using HM07 Waterfall to reach Ever Grande City.
+7. [x] Scale the waterfall using HM07 Waterfall to reach Ever Grande City (Turn 19412 at 24, 68 -> 24, 59)!
 8. [ ] Enter Ever Grande City Pokémon Center to register flight checkpoint.
 9. [ ] Traverse Victory Road (defeat Wally, navigate cave).
 10. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
