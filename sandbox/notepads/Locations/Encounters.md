@@ -10,7 +10,7 @@
 | Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 15 (`Grass/Dark`; `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical], `Nature Power` Lv 13); caught Lv 7 at `(23, 61)`, evolved at Lv 14 |
 | Petalburg Woods | Oddish (F) | CHLORIS | Box 1 | Caught Lv 8 at `(12, 33)` (`Acid`, `Mega Drain`; evolves into `Gloom` at Lv 16 with `585 EXP` buffer) |
 | Route 116 | Voltorb | HELIOS | Box 1 | Caught Lv 9 at `(6, 16)` (knows `Secret Power`) |
-| Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16; `Kabuto` learns `Mega Drain` Lv 13) |
+| Route 115 | Kabuto (F) | - | Fainted | Hooked Lv 9 with Old Rod at `(7, 71)`; fainted on Turn 2343 when `SHIFT` + `Rock Tomb` (`~13s`) shifted queued `BAG` inputs into `FIGHT -> Mega Drain` |
 
 ## Attempt #10 Summary (Reset Turn 2213 on Route 102)
 - Lost `Sandshrew` (`GAIA`, F, Lv 12) to Lass Tiana's Lv 6 `Sunkern` (`Protect` + `Synthesis` + `Leech Seed` + `2x` `Mega Drain`) while spamming `Scratch` at Lv 12 instead of raising catches to Lv 13–14 (`68` `["A", "sleep 950"]` presses) and using `2x` super-effective moves against `Sunkern`.
