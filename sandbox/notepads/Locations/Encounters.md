@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc (F) | EROS | Active (Slot 2) | Lv 15 (`0 EXP` into Lv 15; `Secret Power`, `Charm`, `Water Pulse` Lv 12; learns `Ice Beam` Lv 16, `654 EXP` buffer at Lv 16); caught Lv 4 at `(19, 14)` |
 | Route 103 | Skitty (F) | SELENE | Active (Slot 3) | Lv 14 (`1: Assist`, `2: Sing`, `3: Attract`, `4: Secret Power` Lv 7; declined `Teeter Dance` Lv 13; held wild **`Moon Stone`**! Fast group `654 EXP` buffer at Lv 16) |
 | Route 102 | Sandshrew (M) | ATLAS | Active (Slot 4) | Lv 14 (`1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`; `33 Defense` at Lv 14; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 6 at `(39, 6)` |
-| Petalburg City | Azurill (F) | - | In Battle | Hooked Lv 5 with Old Rod at `(11, 22)` facing `Down` |
+| Petalburg City | Azurill (F) | THETIS | Active (Slot 5) | Lv 14 (`Huge Power`; `Water Gun`, `Charm`, `Secret Power` Lv 6, `BubbleBeam` Lv 10; learns `Body Slam` Lv 15; `Fast` group `654 EXP` buffer at Lv 16); caught Lv 5 at `(11, 22)` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16) |
 | Route 116 | - | - | Pending | Tall grass at `(6, 13..16)` (`Voltorb` [Slow group, `1,021 EXP` buffer, `SonicBoom` Lv 15], `Grimer`, `Makuhita`, `Yanma`) |
