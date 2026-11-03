@@ -18,6 +18,17 @@
 - Lost `Sandshrew` (`GAIA`, F, Lv 12) to Lass Tiana's Lv 6 `Sunkern` (`Protect` + `Synthesis` + `Leech Seed` + `2x` `Mega Drain`) while spamming `Scratch` at Lv 12 instead of raising catches to Lv 13–14 (`68` `["A", "sleep 950"]` presses) and using `2x` super-effective moves against `Sunkern`.
 - Discovered that wild `Goldeen` (M, Lv 5, `Swift Swim`) at the Littleroot Town pond knows `BubbleBeam` (65 BP), `Psybeam` (65 BP), `Haze`, and learns `Supersonic` at Lv 10.
 
+## Verified Species Learnsets & Evolutions (Attempts #9–#10)
+- **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; learns `Mud-Slap` Lv 6, `Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
+- **Littleroot Town (`Old Rod`)**: `Luvdisc` (`Water Pulse` Lv 12, `Ice Beam` Lv 16, `38 Speed` at Lv 16); `Goldeen` (`Swift Swim`; starts with `BubbleBeam` 65 BP, `Psybeam` 65 BP, `Haze`, learns `Supersonic` Lv 10).
+- **Route 103**: `Sunkern -> Sunflora` (can hold wild `Sun Stone`; `Sunflora` learns `Mega Drain` Lv 13, `Synthesis` Lv 16, compatible with `TM09 Bullet Seed`); `Poliwag` (`Bubble`, `Hypnosis` Lv 7, `Water Gun` Lv 11).
+- **Route 102**: `Spoink` (`Confusion`, `Psybeam` Lv 16); `Sandshrew` (`Scratch`, `Defense Curl`, `Sand-Attack`, `Poison Sting` Lv 11).
+- **Petalburg City (`Old Rod`)**: `Azurill` (`Huge Power`; `Secret Power` Lv 6, `BubbleBeam` Lv 10, `Body Slam` Lv 15).
+- **Route 104**: `Nidoran♀ -> Nidorina` at Lv 16 (`Bite` Lv 8, `Double Kick` Lv 12, `Crunch` Lv 16).
+- **Petalburg Woods**: `Hoothoot` (`Hypnosis`, `Peck`, `Uproar`, `Aerial Ace` Lv 11); `Oddish -> Gloom` at Lv 16 (`585 EXP` buffer); `Bellsprout -> Weepinbell` at Lv 16 (`585 EXP` buffer).
+- **Route 116**: `Makuhita` (`SmellingSalt`, `Faint Attack`, `Force Palm` Lv 10, `Vital Throw` Lv 13); `Grimer` (`Sludge Bomb` Lv 13); `Yanma` (`Speed Boost`/`Compoundeyes`, `SonicBoom` Lv 13).
+- **Route 115 (`Old Rod`)**: `Kabuto` / `Omanyte` (`817 EXP` buffer at Lv 16; starts with `Rock Tomb` and `Water Pulse`; `Kabuto` learns `Mega Drain` Lv 13).
+
 <hr>
 
 <h1><code>Main</code></h1>
@@ -43,7 +54,7 @@
   - **Preserve `Kabuto`/`Omanyte` (`Route 115`) and `Luvdisc` (`Littleroot Town`) for Gym Leader Roxanne**: In Attempt #9, we lost `Kabuto` (`TRITON`) to a crit `Megahorn` from Tammy's `Rhyhorn` and lost `Luvdisc` (`EROS`) to Marc's `Kabuto` because we used `Sunflora` on Tammy's `Larvitar` and `Rhyhorn` instead of saving `Sunflora`'s EXP strictly for the three `4x`-weak `Water/Rock` threats (`Josh's Omanyte`, `Tammy's Corsola`, `Marc's Kabuto`). Always use `Marshtomp`'s `4x` `Water Gun` on Tammy's `Rhyhorn` and `Larvitar`, and save our Grass-type (`Gloom`/`Weepinbell`/`Sunflora`) strictly for `Omanyte`, `Corsola`, and `Kabuto` (`512 / 585 EXP`).
   - **Roxanne's Lead `Nosepass` Lv 15 Can Use `Selfdestruct` Even From ~80% Green HP**: Never switch an unresisted Grass-type (`Sunflora`) into `Nosepass`! Use `Kabuto`/`Omanyte` (`Rock/Water`, `36–41 Defense`, `0.5x` resists `Selfdestruct` — takes only ~16 HP!) against `Nosepass`.
   - **Roxanne's `Lunatone` Lv 15 (`29 Speed`, `Hypnosis`, `Confusion`, `Rock Slide`)**: Outspeed `Lunatone` with `Luvdisc` (`38 Speed` at Lv 16, `2x` STAB `Water Pulse`) and back it up with `Kabuto`/`Omanyte` (`0.5x` resists `Rock Slide`, `Water Pulse`/`Mega Drain`) and `Marshtomp` (`0.5x` resists `Rock Slide`, `Water Gun`).
-- **Core Rules for Attempt #10 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
+- **Core Rules for Attempt #11 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
   1. **Immediately Rare-Candy `Mudkip` to Lv 13–14 Before Catching Wild Encounters, and Rare-Candy Every New Catch to Lv 13–14 at `0` Steps**:
      - Never walk into wild grass or trainer battles with a Lv 11–12 Pokemon when the cap is Lv 16! Raise `Mudkip` to **Lv 13 (`36+ HP`)** in Birch's Lab and raise every newly caught Pokemon directly to **Lv 13–14** at `0` steps!
      - Never use `Select` move-swapping in battle; clamp explicitly on Turn 1 (`Up, Left` / `Up, Right` / `Up, Left, Down` / `Down, Right`), and when 2 Pokemon participated in a KO (`split EXP` = 2 `"gained EXP"` textboxes), wait for the 2nd send-out (`["B", "sleep 1200", "B", "sleep 5000"]`) before clamping to a new move slot! Against Bug Catcher James's lead `Paras` (`Bug/Grass`), always use a `4x` Flying move (`Peck` / `Wing Attack`) on Turn 1 to OHKO before `Spore`.
@@ -150,9 +161,9 @@
 
 ## Littleroot Town
 - **Landmarks**:
-  - *Female Protagonist (`AURORA` — Active in Attempt #10)*: Player's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` so exit via `Left x4, Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`); Rival Brendan's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`).
+  - *Female Protagonist (`AURORA` — Active in Attempt #11)*: Player's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` so exit via `Left x4, Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`); Rival Brendan's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`).
   - *Male Protagonist (`TONO`)*: Player's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`, 1F TV cutscene ends at `(4, 5)` so exit via `Right x4, Down x4`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, wall clock at `(5, 1)`); Rival May's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, Poke Ball at `(5, 4)`).
-  - *Birch's Lab*: Door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`).
+  - *Birch's Lab*: Door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`; note that after receiving the Pokedex at `(6, 5)` inside Birch's Lab, Rival Brendan stands at `(6, 6)` directly south of the player, so exit via `Left, Down x7, Right, Down` along `x=5`).
 - **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, stepping onto `(10..11, 9)` along the central road automatically triggers `"MOM: Wait, [PLAYER]!"` to receive the Running Shoes.
 - **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod (observed species: `Luvdisc` Lv 5, `Goldeen` Lv 5; note: a signpost stands at `(14, 13)` and the wandering NPC can reach `(12..13, 14)`, so always walk east along `y=12` via `(12, 12) -> Right x5 to (17, 12) -> Down to (17, 13) -> Right`).
 - **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Note that `(12, 8)` is the eastern house's mailbox, so walk along `x=11` from `y=0..10` and step onto `x=12` (`y=10..15`) at `y=10` to bypass the wandering NPC near `(10..11, 12..14)`. Before rescuing Birch, a girl stands at `(10, 1)` and triggers a one-time dialogue when stepping onto `(11, 1)` before allowing passage north onto Route 101 via `(11, 0)`.
