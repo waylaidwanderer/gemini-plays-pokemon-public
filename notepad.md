@@ -345,6 +345,19 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     2. Surf East along row 75 from col 0 past submerged rocks and rock cones all the way to col 19.
     3. Surf North up col 19 directly to the waterfall base at (19, 68).
   - Active Max Repel with Lv 59 Sage prevents all wild encounters.
+## Discovered Topography & Navigation (South Plateau)
+- Upper Basin & Staircases:
+  - Waterfall ascent arrives at upper pool at (24, 61) -> (24, 59).
+  - White stone staircases at cols 19-20 (rows 55..50) lead out of water onto the south plateau.
+  - Middle terrace at row 53 has a signpost at (18, 52).
+- South Plateau Layout:
+  - Main north-south path runs along col 19 from row 50 to row 44.
+  - Victory Road cave entrance is at (18..19, 39).
+  - Large white stone monument is at (19, 43).
+  - Pink and orange flower beds across the plateau are 100% walkable!
+  - Ever Grande Pokémon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
+  - A cliff wall along cols 24..25 separates the flower bed from the Pokémon Center terrace.
+
 
 <hr>
 
