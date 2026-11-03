@@ -9,7 +9,7 @@
 | Petalburg City | Azurill (F) | THETIS | Deceased (Box 1 `(1, 0)`) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit) |
 | Route 104 | Nidorina (F) | ARTEMIS | Deceased (Turn 2711) | Lost at Lv 16 to Gym Leader Roxanne's `Lunatone` (`Rock Slide` 30% flinch on Turn 2709 followed by 2nd `Rock Slide` on Turn 2710) |
 | Petalburg Woods | Hoothoot (M) | ATHENA | Deceased (Turn 2706) | Lost at Lv 16 to Gym Leader Roxanne's `Lunatone` (`Rock Slide`); deposit into PC graveyard after battle |
-| Route 116 | Makuhita (M) | HERACLES | Active (Slot 4) | Lv 17 (`56 HP, 29 Atk, 20 Def`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10); leveled to Lv 17 mid-battle vs Roxanne |
+| Route 116 | Makuhita (M) | HERACLES | Deceased (Turn 2712) | Lost at Lv 17 to Gym Leader Roxanne's `Lunatone` (`Confusion`) |
 | Route 115 | Kabuto (M) | POSEIDON | Deceased (Turn 2700) | Lost at Lv 17 against Gym Leader Roxanne's 6th and final Pokemon, Lv 15 `Lunatone`, after defeating `Relicanth` and `Shuckle`; deposit into PC graveyard after battle |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
