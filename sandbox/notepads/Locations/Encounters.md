@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M) | POSEIDON | Active (Slot 1) | Lv 5; evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
+| Starter (Route 101) | Mudkip (M) | MUDKIP | Active (Slot 1) | Lv 14 (`Tackle`, `Growl`, `Mud-Slap` Lv 6, `Water Gun` Lv 10); evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` learns `Water Pulse` Lv 12, `Ice Beam` Lv 16; `Goldeen` has `Swift Swim`, `BubbleBeam`, `Psybeam`, `Haze`) |
 | Route 103 | - | - | Pending | Tall grass at `(15..18, 11..13)` |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
