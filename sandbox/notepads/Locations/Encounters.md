@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip -> Marshtomp (M) | MARSHTOMP | Active (Slot 5) | Lv 16 (`0/1024 EXP`; `1: Mud Shot` [55 BP Ground], `2: Bide`, `3: Mud Sport`, `4: Water Gun`); evolved at Lv 16 |
 | Littleroot Town | Luvdisc (F) | EROS | Active (Slot 1) | Lv 16 (`0/654 EXP`; `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` [95 BP]; 42 Speed) |
 | Route 103 | Wingull (M) | ZEPHYR | Active (Slot 4) | Lv 16 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack`, `4: BubbleBeam`; 38 Speed) |
-| Route 102 | Meowth (M) | HERMES | Active (Slot 2) | Lv 16 (`0/817 EXP`; `1: Pay Day`, `2: Faint Attack` [60 BP Dark], `3: Swift` [60 BP spread], `4: Bite` [60 BP Dark]; 30 Speed) |
+| Route 102 | Meowth (M) | HERMES | Deceased (Turn 2356) | Fainted at Lv 16 to School Kid Josh's `Zubat` Lv 11 (`Hypnosis` + crit `Giga Drain`) |
 | Petalburg City | Azurill (M) | TRITON | Active (Slot 6) | Lv 16 (`Huge Power`; `1: Body Slam` [85 BP Normal], `2: Charm`, `3: Secret Power`, `4: BubbleBeam`) |
 | Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`0/585 EXP`; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power`) |
 | Petalburg Woods | Oddish (F) | CHLORIS | Box 1 | Caught Lv 8 at `(12, 33)` (`Acid`, `Mega Drain`; evolves into `Gloom` at Lv 16 with `585 EXP` buffer) |
