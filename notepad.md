@@ -316,7 +316,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Key Landmark: Massive waterfall at eastern edge of Route 128 (east of col 108), scaled with HM07 Waterfall.
 
 ## Connection Points
-- West / South: Route 128 (waterfall at eastern edge of Route 128).
+- West / South: Route 128 (waterfall at eastern edge of Route 128; boundary connects Route 128 cols 120/121, rows 27/28 <-> Ever Grande City cols 0/1, rows 67/68).
 - North: Victory Road (cave entrance).
 - Far North: Pokémon League HQ (Elite Four & Champion).
 
