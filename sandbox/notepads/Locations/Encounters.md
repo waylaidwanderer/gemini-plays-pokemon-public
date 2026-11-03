@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M) | MUDKIP | Active (Slot 1) | Lv 14 (`Tackle`, `Growl`, `Mud-Slap` Lv 6, `Water Gun` Lv 10); evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
-| Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` learns `Water Pulse` Lv 12, `Ice Beam` Lv 16; `Goldeen` has `Swift Swim`, `BubbleBeam`, `Psybeam`, `Haze`) |
+| Littleroot Town | Luvdisc (F) | EROS | Active (Slot 3) | Lv 13–14 (`Water Pulse` Lv 12; learns `Ice Beam` Lv 16, 38 Speed at Lv 16); caught Lv 4 with Old Rod at `(17, 13)` |
 | Route 103 | Wingull (M) | ZEPHYR | Active (Slot 2) | Lv 13 (`Wing Attack`, `BubbleBeam` Lv 13, `Quick Attack` Lv 7, `Water Gun`; 34 Speed); caught Lv 4 at `(17, 11)` |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Azurill` learns `BubbleBeam` Lv 10, `Body Slam` Lv 15) |
