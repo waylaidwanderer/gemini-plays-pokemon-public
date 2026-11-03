@@ -2,7 +2,7 @@
 
 ## Littleroot Town
 - **Landmarks**:
-  - *Female Protagonist (`AURORA` — Active in Attempt #9)*: Player's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` so exit via `Left x4, Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`); Rival Brendan's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`).
+  - *Female Protagonist (`AURORA` — Active in Attempt #10)*: Player's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`, 1F TV cutscene ends at `(6, 5)` so exit via `Left x4, Down x4`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, wall clock at `(3, 1)`); Rival Brendan's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, Poke Ball at `(3, 4)`).
   - *Male Protagonist (`TONO`)*: Player's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`, 1F TV cutscene ends at `(4, 5)` so exit via `Right x4, Down x4`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, wall clock at `(5, 1)`); Rival May's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, Poke Ball at `(5, 4)`).
   - *Birch's Lab*: Door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`; tree at `(11, 17)`, so route between `(7, 17)` and the central road via `(10, 17)` -> `Up` along `x=10`).
 - **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, stepping onto `(10..11, 9)` along the central road automatically triggers `"MOM: Wait, [PLAYER]!"` to receive the Running Shoes.
