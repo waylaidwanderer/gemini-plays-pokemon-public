@@ -4,14 +4,14 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip -> Marshtomp (M) | MARSHTOMP | Active (Slot 5) | Lv 16 (`0/1024 EXP`; `1: Mud Shot` [55 BP Ground], `2: Bide`, `3: Mud Sport`, `4: Water Gun`); evolved at Lv 16 |
+| Starter (Route 101) | Mudkip -> Marshtomp (M) | MARSHTOMP | Active (Slot 1) | Lv 16 (`786 EXP` to Lv 17; `1: Mud Shot` [55 BP Ground], `2: Bide`, `3: Mud Sport`, `4: Water Gun`); evolved at Lv 16 |
 | Littleroot Town | Luvdisc (F) | EROS | Benched (Box 1) | Lv 22 (exceeded Lv 16 cap via Rare Candy on Turn 2361 when `Up, Up` was used without `Left` first; benched until Wattson Lv 29 cap) |
-| Route 103 | Wingull (M) | ZEPHYR | Active (Slot 4) | Lv 16 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack`, `4: BubbleBeam`; 38 Speed) |
+| Route 103 | Wingull (M) | ZEPHYR | Active (Slot 2) | Lv 16 (`629 EXP` to Lv 17; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack`, `4: BubbleBeam`; 40 Speed) |
 | Route 102 | Meowth (M) | HERMES | Deceased (Turn 2356) | Fainted at Lv 16 to School Kid Josh's `Zubat` Lv 11 (`Hypnosis` + crit `Giga Drain`) |
-| Petalburg City | Azurill (M) | TRITON | Active (Slot 6) | Lv 16 (`Huge Power`; `1: Body Slam` [85 BP Normal], `2: Charm`, `3: Secret Power`, `4: BubbleBeam`) |
-| Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`0/585 EXP`; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power`) |
+| Petalburg City | Azurill (M) | TRITON | Active (Slot 4) | Lv 16 (`244 EXP` to Lv 17; `Huge Power`; `1: Body Slam` [85 BP Normal], `2: Charm`, `3: Secret Power`, `4: BubbleBeam`) |
+| Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 3) | Lv 16 (`162 EXP` to Lv 17; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power`) |
 | Petalburg Woods | Oddish -> Gloom (F) | CHLORIS | Benched (Box 1) | Lv 17 (`Acid`, `Mega Drain`, `Toxic`, `Magical Leaf`; evolved into `Gloom` at Lv 16; benched until Roxanne is defeated and cap becomes Lv 20) |
-| Route 116 | Voltorb | HELIOS | Active (Slot 5) | Lv 16 (`0/817 EXP`, 39 Speed; learned `SonicBoom` [20 fixed dmg] at Lv 15; caught Lv 9 at `(6, 16)`) |
+| Route 116 | Voltorb | HELIOS | Active (Slot 5) | Lv 16 (`1,021 EXP` to Lv 17 [Slow group!], 39 Speed; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave` [60 BP], `4: SonicBoom` [20 fixed dmg]) |
 | Route 115 | Kabuto (F) | - | Fainted | Hooked Lv 9 with Old Rod at `(7, 71)`; fainted on Turn 2343 when `SHIFT` + `Rock Tomb` (`~13s`) shifted queued `BAG` inputs into `FIGHT -> Mega Drain` |
 
 ## Attempt #10 Summary (Reset Turn 2213 on Route 102)
