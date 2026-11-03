@@ -3767,7 +3767,8 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Grey ripple rocks at (45, 41) and (38, 43).
   - Open water highway runs along row 39 (cols 43..55) and down column 43 (connecting to Route 129 at row 40/41).
 - Trainers Defeated:
-  - Triathlete Isaiah: Defeated at (37, 28) on Turn 19160 (Staryu Lv 35, prize ¥1,400). Registered in Match Call.
+  - Swimmer ♀ Carlee & Swimmer ♂ Harrison: Defeated in Double Battle at (101, 25) on Turn 19237 (Seaking Lv 35, Tentacruel Lv 35; prize ¥560).
+- Triathlete Isaiah: Defeated at (37, 28) on Turn 19160 (Staryu Lv 35, prize ¥1,400). Registered in Match Call.
   - Triathlete ♀ Katelyn: Defeated at (76..77, 24) (Staryu Lv 35, prize ¥1,400). Registered in Match Call.
   - Fisherman Wayne: Defeated at (63..64, 28) (Tentacool Lv 31, Wailmer Lv 36, prize ¥1,440).
 - Other Trainers Sighted: Girl trainer at (21, 8); Swimmer ♂ at (36, 33); Swimmer ♂ at (38, 33); Swimmer ♀ at (79..80, 24); Swimmer ♂ at (101, 23); Swimmer ♀ at (98..101, 27).
