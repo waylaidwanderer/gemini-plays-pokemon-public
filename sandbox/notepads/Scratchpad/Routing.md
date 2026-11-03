@@ -125,7 +125,7 @@
   - **School Kid Karen & School Kid Jerry** at `(16, 8)` & `(16, 11)` (stepping onto `(16, 9)` triggers a Double Battle; Karen has 3 Pokemon: `Totodile` Lv 9 [`Dive`, holds `Oran Berry`], `Cyndaquil` Lv 9, `Chikorita` Lv 9 [`Secret Power`, holds `Oran Berry`]; Jerry has 3 Pokemon: `Nidoran M` Lv 10 [`Rock Tomb`, holds `Oran Berry`], `Phanpy` Lv 10 [`Mud Shot`, `Rock Tomb`, holds `Oran Berry`], `Shuppet` Lv 9 [`Shadow Sneak`, holds `Oran Berry`]).
 
 ## Route 115 (South — Accessible Before Roxanne)
-- **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x12` along `x=21`) onto Route 115 `(21, 79)`.
+- **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
 - **Trainer-Free Path to Southern Beach**:
   - From `(21, 77)`, step `Right` to `(22, 77)`, `Up x3` through the 2-tile ledge gap at `x=22..23, y=76` to `(22, 74)`, `Left` to `(21, 74)`, and `Up x12` straight up `x=21` (passing east of the wandering friendly girl in the brown hat near `(17, 68)` and west of the cliff ridge at `x=22, y=68..69`) to `(21, 62)`.
   - From `(21, 62)`, walk `Left x6` above the trees at `x=19..20, y=63..66` and the signpost at `(16, 64)` to `(15, 62)`, `Down x5` along `x=15` to `(15, 67)`, `Left x4` to `(11, 67)`, `Down x4` down the southern beach staircase at `(10..11, 70)` to `(11, 71)`, and `Left x4` to `(7, 71)` facing `Left` at the ocean `(6, 71)`.
