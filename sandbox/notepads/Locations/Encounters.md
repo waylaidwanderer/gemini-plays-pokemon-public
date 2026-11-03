@@ -7,7 +7,7 @@
 | Route 103 | Wingull (M) | ZEPHYR | Active (Slot 1) | Lv 14 (`Wing Attack`, `Water Gun`, `Quick Attack` Lv 7, `BubbleBeam` Lv 13; 36 Speed); caught Lv 4 at `(17, 11)` |
 | Route 102 | Meowth (M) | HERMES | Active (Slot 4) | Lv 14 (`Scratch`, `Growl`, `Bite` [60 BP Dark], `Swift` Lv 12 [60 BP Normal]; 27 Speed); caught Lv 6 at `(39, 6)` |
 | Petalburg City | Azurill (M) | TRITON | Active (Slot 5) | Lv 14 (`Huge Power`; `Water Gun`, `Charm`, `Secret Power` Lv 6, `BubbleBeam` Lv 10; learns `Body Slam` Lv 15); caught Lv 5 with Old Rod at `(11, 22)` |
-| Route 104 | Seedot (F) | ARTEMIS | Active (Slot 6) | Lv 13 (`Chlorophyll`; `Mega Drain`, `Bide`, `Bullet Seed`, `Nature Power` Lv 13); caught Lv 7 at `(23, 61)`; evolves into `Nuzleaf` (`Grass/Dark`) at Lv 14 |
+| Route 104 | Seedot -> Nuzleaf (F) | ARTEMIS | Active (Slot 6) | Lv 14 (`Grass/Dark`; `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical], `Nature Power` Lv 13); caught Lv 7 at `(23, 61)`, evolved at Lv 14 |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16 with `585 EXP` buffer) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 13..15)` (`Grimer` learns `Sludge Bomb` Lv 13; `Makuhita` learns `Vital Throw` Lv 13) |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16; `Kabuto` learns `Mega Drain` Lv 13) |
