@@ -3,10 +3,10 @@
 ## Overview
 The ultimate destination for Pokémon Trainers in the Hoenn region, located atop a high mountain plateau at the far eastern edge of Route 128.
 - Environment: Massive stone cliffs, cascading waterfall, flower-filled mountain plateau, Victory Road cave, and the Pokémon League headquarters.
-- Key Landmark: Massive waterfall at Route 128 col 102, scaled with HM07 Waterfall.
+- Key Landmark: Massive waterfall at eastern edge of Route 128 (east of col 108), scaled with HM07 Waterfall.
 
 ## Connection Points
-- West / South: Route 128 (waterfall at col 102).
+- West / South: Route 128 (waterfall at eastern edge of Route 128).
 - North: Victory Road (cave entrance).
 - Far North: Pokémon League HQ (Elite Four & Champion).
 

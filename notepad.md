@@ -313,10 +313,10 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 ## Overview
 The ultimate destination for Pokémon Trainers in the Hoenn region, located atop a high mountain plateau at the far eastern edge of Route 128.
 - Environment: Massive stone cliffs, cascading waterfall, flower-filled mountain plateau, Victory Road cave, and the Pokémon League headquarters.
-- Key Landmark: Massive waterfall at Route 128 col 102, scaled with HM07 Waterfall.
+- Key Landmark: Massive waterfall at eastern edge of Route 128 (east of col 108), scaled with HM07 Waterfall.
 
 ## Connection Points
-- West / South: Route 128 (waterfall at col 102).
+- West / South: Route 128 (waterfall at eastern edge of Route 128).
 - North: Victory Road (cave entrance).
 - Far North: Pokémon League HQ (Elite Four & Champion).
 
@@ -3752,7 +3752,7 @@ A critical oceanic route in southeastern Hoenn, connecting Route 127 on the nort
   - Column 29 Bypass: Column 29 is completely open deep water from row 4 past row 10, providing an unobstructed eastern bypass around Sandbar Reef 1.
   - Central Channel: Row 10 is clear open water south of Sandbar Reef 1 across cols 26..30+, connecting back to column 27. Suspected dark water dive trench at (27, 21)!
   - Central Ridge: Sits at cols 24..27, rows 32..37.
-- Eastern Grand Channel: Rows 21..26 spanning cols 80..101 provide an open deep water highway to the Ever Grande City mountain barrier at col 102.
+- Eastern Grand Channel: Rows 21..26 spanning cols 80..108+ provide an open deep water highway leading eastward toward the Ever Grande City waterfall.
 - Central Atoll & Island Formation: A massive island and reef structure spanning cols 58..76, rows 26..36.
   - Northern Runway: Sandbar reaches row 26 across cols 67..75; row 25 directly north remains deep water.
   - Northern Water Highway: Row 25 is an open deep water highway spanning cols 43..75 connecting the western ocean across the north side of the sandbar.
