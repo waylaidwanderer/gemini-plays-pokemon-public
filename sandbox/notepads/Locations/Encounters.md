@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #13)
+# Nuzlocke Encounters (Attempt #14)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M) | PROTEUS | Active (Slot 1) | Lv 17 (`53 HP, 37 Atk, 33 Def, 27 SpA, 29 SpD, 28 Speed`; `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Cheri Berry`); leveled to Lv 17 mid-battle vs Roxanne |
-| Littleroot Town | Luvdisc (F) | EROS | Deceased (Turn 2709) | Lost at Lv 17 to Gym Leader Roxanne's `Lunatone` (`Rock Slide`) after knocking `Lunatone` down to 29% yellow HP with `Water Pulse`; deposit into PC graveyard after battle |
-| Route 103 | Ledyba (M) | ORION | Box 1 `(2, 0)` | Lv 16 (`343 / 654 EXP` buffer, `Early Bird`, `Hasty`, `40 HP, 29 Speed`, holds `Oran Berry`; `1: Silver Wind`, `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16); caught Lv 4 at `(16, 11)` |
-| Route 102 | Meowth (M) | HERMES | Box 1 `(0, 0)` | Lv 16 (`Limber`, `Gentle`, `40 HP, 24 Atk, 22 SpA, 37 Speed`, holds `Pecha Berry`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12, `4: Bite` Lv 16; `Medium Fast` `~765 / 817 EXP` buffer remaining at Lv 16); caught Lv 6 at `(38, 6)` |
-| Petalburg City | Azurill (F) | THETIS | Deceased (Box 1 `(1, 0)`) | Lost at Lv 16 to Twins Gina & Mia's Left `Smeargle` (`2x` super-effective `150 BP Focus Punch` after `Teeter Dance` double confusion self-hit) |
-| Route 104 | Nidorina (F) | ARTEMIS | Deceased (Turn 2711) | Lost at Lv 16 to Gym Leader Roxanne's `Lunatone` (`Rock Slide` 30% flinch on Turn 2709 followed by 2nd `Rock Slide` on Turn 2710) |
-| Petalburg Woods | Hoothoot (M) | ATHENA | Deceased (Turn 2706) | Lost at Lv 16 to Gym Leader Roxanne's `Lunatone` (`Rock Slide`); deposit into PC graveyard after battle |
-| Route 116 | Makuhita (M) | HERACLES | Deceased (Turn 2712) | Lost at Lv 17 to Gym Leader Roxanne's `Lunatone` (`Confusion`) |
-| Route 115 | Kabuto (M) | POSEIDON | Deceased (Turn 2700) | Lost at Lv 17 against Gym Leader Roxanne's 6th and final Pokemon, Lv 15 `Lunatone`, after defeating `Relicanth` and `Shuckle`; deposit into PC graveyard after battle |
+| Starter (Route 101) | - | - | Pending | Choose `Mudkip` from Birch's Bag at `(7, 14)` on Route 101; uses up `Route 101` encounter |
+| Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Route 103 | - | - | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Luvdisc` / `Azurill`) |
+| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` |
+| Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
+| Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#13)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
