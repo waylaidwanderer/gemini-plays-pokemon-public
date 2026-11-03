@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M) | MUDKIP | Active (Slot 1) | Lv 14 (`1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10); evolves into Marshtomp at Lv 16 (`1,021 EXP` buffer); uses up `Route 101` encounter |
 | Littleroot Town | Luvdisc (F) | EROS | Active (Slot 3) | Lv 14 (`Secret Power`, `Charm`, `Water Pulse` Lv 12; learns `Ice Beam` Lv 16, `654 EXP` buffer at Lv 16); caught Lv 4 at `(19, 14)` |
 | Route 103 | Skitty (F) | SELENE | Active (Slot 2) | Lv 14 (`Attract`, `Sing`, `Assist`, `Secret Power` Lv 7; declined `Teeter Dance` Lv 13; held wild **`Moon Stone`**! Fast group `654 EXP` buffer at Lv 16) |
-| Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
+| Route 102 | Sandshrew (M) | ATLAS | Active (Slot 4) | Caught Lv 6 at `(39, 6)` (`Medium Fast` `817 EXP` buffer at Lv 16) |
 | Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Azurill` / `Luvdisc`) |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16) |
