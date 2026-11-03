@@ -8,7 +8,7 @@
 | Route 102 | Meowth (M) | HERMES | Box 1 | Lv 16 (`Limber`, `Gentle`, `40 HP, 24 Atk, 22 SpA, 37 Speed`, holds `Pecha Berry`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12, `4: Bite` Lv 16; `Medium Fast` `~765 / 817 EXP` buffer remaining at Lv 16); caught Lv 6 at `(38, 6)` |
 | Petalburg City | Azurill (F) | THETIS | Active (Slot 1) | Lv 15 (`Huge Power`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; `Fast` group `654 EXP` buffer at Lv 16); caught Lv 5 at `(11, 22)` |
 | Route 104 | Nidoran♀ (F) | ARTEMIS | Active (Slot 5) | Lv 14 (`Poison Point`; `1: Growl`, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; evolves into `Nidorina` at Lv 16 with `80 BP Crunch` and `585 EXP` buffer); caught Lv 7 at `(24, 61)` |
-| Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16) |
+| Petalburg Woods | Hoothoot (M) | ATHENA | Active (Slot 6) | Lv 14 (`1: Hypnosis`, `2: Peck`, `3: Uproar`, `4: Aerial Ace` Lv 11; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 8 at `(6, 29)` |
 | Route 116 | - | - | Pending | Tall grass at `(6, 13..16)` (`Voltorb` [Slow group, `1,021 EXP` buffer, `SonicBoom` Lv 15], `Grimer`, `Makuhita`, `Yanma`) |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte` with `817 EXP` buffer at Lv 16) |
 
