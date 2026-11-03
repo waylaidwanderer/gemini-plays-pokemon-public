@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc (F) | EROS | Active (Slot 3) | Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12; learns `Ice Beam` Lv 16, `654 EXP` buffer at Lv 16); caught Lv 4 at `(17, 13)` |
 | Route 103 | Ledyba (M) | ORION | Active (Slot 2) | Lv 14 (`Early Bird`, `Hasty`, `36 HP, 25 Speed`; `1: Silver Wind`, `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10; `Fast` EXP group `654 EXP` buffer at Lv 16); caught Lv 4 at `(16, 11)` |
 | Route 102 | Meowth (M) | HERMES | Active (Slot 4) | Lv 15 (`Limber`, `Gentle`, `38 HP, 23 Atk, 21 SpA, 35 Speed`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12; `Medium Fast` `817 EXP` buffer at Lv 16); caught Lv 6 at `(38, 6)` |
-| Petalburg City | Azurill (F) | THETIS | Active (Slot 5) | Lv 14 (`Huge Power`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; learns `Body Slam` Lv 15; `Fast` group `654 EXP` buffer at Lv 16); caught Lv 5 at `(11, 22)` |
+| Petalburg City | Azurill (F) | THETIS | Active (Slot 5) | Lv 15 (`Huge Power`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; `Fast` group `654 EXP` buffer at Lv 16); caught Lv 5 at `(11, 22)` |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` (`Oddish -> Gloom` / `Bellsprout -> Weepinbell` at Lv 16) |
 | Route 116 | - | - | Pending | Tall grass at `(6, 13..16)` (`Voltorb` [Slow group, `1,021 EXP` buffer, `SonicBoom` Lv 15], `Grimer`, `Makuhita`, `Yanma`) |
