@@ -50,7 +50,7 @@
 - **Eastern Entrance**: Enters from Petalburg City `(0, 12)` onto `(39, 62)`.
 - **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7, `Nidoran♀` Lv 7).
 - **Southbound & Northbound Shortcuts (Petalburg Woods <-> Petalburg City)**:
-  - **Southbound**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along `x=25` (jumping the ledge at `(25, 55)` onto `(25, 57)` which is 1 grass tile, while `(25, 58..62)` is bare) to `(25, 62)`, and `Right x15` along `y=62` straight into Petalburg City `(0, 12)`.
+  - **Southbound**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along `x=25` (jumping the ledge at `(25, 55)` onto `(25, 57..59)` which has tall grass, while `(25, 60..62)` is bare) to `(25, 62)`, and `Right x15` along `y=62` straight into Petalburg City `(0, 12)`.
   - **Northbound (100% Grass-Free)**: From `(39, 62)`, walk `Left x11` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.
 - **Beach Staircase**: Located at `(28..29, 70)` (note: a signpost stands at `(27, 66)` and the cliff ridge blocks `(22..24, 62)` and `(28, 63)`, so when routing from the `(22..24, 56..61)` grass patch to the beach stairs, walk east along `y=61` or `y=62` via `(23, 61) -> Right x5 to (28, 61) -> Down x10 to (28, 71)`; northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
@@ -61,13 +61,13 @@
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
-  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Tickle`, `Wish`, `Metronome`], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`], `Azurill` Lv 7 [`Huge Power`; Physical `Uproar`]).
+  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Tickle`, `Wish`, `Metronome`], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`, `Thief`], `Azurill` Lv 7 [`Huge Power`; Physical `Uproar`]).
 
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
 - **Tall Grass Patches (South)**:
   - South-East patch at `(20..25, 32..35)`.
-  - **South-West patch at `(6..13, 27..33)`**: Observed wild species: `Oddish` Lv 8, `Bellsprout` Lv 8, `Phanpy` Lv 8, `Hoothoot` Lv 8, `Pineco` Lv 8 (`Pin Missile`). From `(17, 33)`, step `Down` to `(17, 34)`, walk `Left x11` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, walk `Up x4` to `(6, 30)` (note: `(6, 31..34)` and `(5, 26..30)` are bare dirt, while `(6, 30)` is 1 tall grass tile at the corner of the patch, verified Turns 970 and 976), step `Left` to `(5, 30)`, walk `Up x4` along `x=5` to `(5, 26)` (`(5, 25)` is a tree), step `Right` to `(6, 26)`, and `Up` to `(6, 25)`.
+  - **South-West patch at `(6..13, 27..33)`**: Observed wild species: `Oddish` Lv 8, `Bellsprout` Lv 8, `Phanpy` Lv 8, `Hoothoot` Lv 8, `Pineco` Lv 8 (`Pin Missile`, `Selfdestruct`). From `(17, 33)`, step `Down` to `(17, 34)`, walk `Left x11` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, walk `Up x4` to `(6, 30)` (note: `(6, 31..34)` and `(5, 26..30)` are bare dirt, while `(6, 30)` is 1 tall grass tile at the corner of the patch, verified Turns 970 and 976), step `Left` to `(5, 30)`, walk `Up x4` along `x=5` to `(5, 26)` (`(5, 25)` is a tree), step `Right` to `(6, 26)`, and `Up` to `(6, 25)`.
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of southern entrance; 3 Pokemon: `Spinarak` Lv 8 [`Mega Drain`, `Spider Web`, holds `Berry Juice`], `Ledyba` Lv 8 [`Supersonic`, `Mach Punch`], `Venonat` Lv 8 [`Psybeam`, `Mega Drain`, `Stun Spore`, `Confusion`]).
   - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`, `Secret Power` — `4x` weak to Flying and `2x` weak to Poison; always OHKO on Turn 1 with a Flying move like `Peck`/`Wing Attack` or Lv 14 `Bellsprout`'s `2x` STAB `Acid` so it never uses `Spore`!], `Surskit` Lv 8 [`Psybeam`, `Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`, `Dig`]).
