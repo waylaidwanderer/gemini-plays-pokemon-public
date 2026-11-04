@@ -4562,7 +4562,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 4. [x] Descend ladder at (8, 13) to Victory Road B1F (Turn 19588)!
 5. [x] Illuminate B1F using Flash (Turn 19594)!
 6. [x] Confirmed B1F northwest enclave is a sealed return destination with incoming one-way ledges.
-7. [ ] Cross southern suspension bridge on 1F to access eastern plateau.
+7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
 8. [ ] Explore eastern plateau ladder (21, 32) and upper staircase (21, 28).
 9. [ ] Navigate B2F (use Surf and Waterfall).
 10. [ ] Ascend back to 1F exit corridor.
@@ -4624,26 +4624,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Contains the one-way forward jump ledge at row 14 leading into the southern main cavern of B1F.
   - Return to 1F via ladder at (8, 2).
 
-## Verified Dungeon Architecture & Progression Route (Turn 19664)
-- 1F Eastern Plateau Isolation: The eastern plateau containing the ladder at (21, 32) and upper staircase at (21, 28) is completely sealed from the entrance floor by one-way ledges jumping west at (17, 36) and (19, 39).
-- Level 0 Cavern Floor: Northern advance from row 29 is blocked by solid cliff walls at row 28.
-- Canonical Progression Flow:
-  1. 1F Western Terrace: Defeat Wally -> Defeat Hope -> Enter B1F ladder at (8, 13).
-  2. B1F Enclave: Strength boulders already pushed (9, 13). Jump south over row 14 ledge into main B1F cavern!
-  3. B1F / B2F: Traverse subterranean puzzles with Flash, Strength, Rock Smash, Surf, and Waterfall to reach the eastern B1F return ladder.
-  4. 1F Eastern Plateau: Ascend via (21, 32) ladder and take the upper staircase at (21, 28) to the Victory Road exit!
-
-
-## 1F Progression Strategy & Southern Suspension Bridge (Turn 19708)
-- B1F Northwest Enclave Conclusion: Fully collision-tested all candidate tiles; (8, 11), (8, 12), (3, 8), and (4, 11) are solid natural cliffs (no Rock Smash cracked rocks). Col 11 is an incoming one-way ledge jumping west. The enclave functions as a one-way return destination.
-- Forward Progression: The unexplored 1F southern suspension bridge (rows 33..34) connects the western staircase at (8, 36) to the eastern plateau at cols 20..22.
-- Eastern Plateau Landmarks:
-  1. Ladder at (21, 32) leading down into the main B1F cavern.
-  2. Upper staircase at (21, 28) leading north to higher elevations.
-
-## 1F Level 0 Routing & Southern Bridge Bypass (Turn 19734)
-- Level 0 Western Channel: From central stairs base (13, 29), row 29 connects west to col 7 and col 5. The canyon at cols 5..6 bypasses the central mound on the west side.
-- South Approach to Bridge Stairs: Descending cols 5..6 reaches the base of the western bridge stairs (rows 35..36), allowing direct ascent onto the southern suspension bridge to access the eastern plateau (21, 32).
+## Verified 1F & B1F Terrain Collision Record (Consolidated Turn 19741)
+- 1F Level 0 Cavern Floor: Central stairs (13, 29) connect west via row 29 to col 7. Canyon at cols 5..6 (rows 31..39) bypasses the central cliff mound and rock cluster, leading directly to the base of the western bridge staircase at (9, 36).
+- 1F Southern Suspension Bridge: Spans cols 10..20 at row 34 from the western cliff (col 9) to the eastern bridge landing at (21, 34).
+- 1F Eastern Plateau Landing: At (21, 34), row 33 directly to the north is an elevated cliff face. Southern staircase at (21, 35..37) descends to the lower eastern terrace.
+- B1F Northwest Enclave: Sealed return sector. Tested all candidate boundary tiles (3, 8), (3, 9), (4, 11), (8, 11), (8, 12), (9, 13), (10, 3), (10, 7) - all are solid natural cliffs. Col 11 is an incoming one-way ledge jumping west. Ladder at (8, 2) exits up to 1F western terrace at (9, 14).
 
 
 <hr>
