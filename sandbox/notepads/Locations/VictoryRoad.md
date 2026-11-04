@@ -89,7 +89,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - B1F Northwest Enclave (cols 4..10, rows 2..13):
   - Sealed enclave accessible from 1F ladder at (8, 13) -> (8, 3).
   - All southern and eastern boundaries are solid cliffs or incoming one-way ledges (col 11 vertical ledge jumps west; row 11/14 ledges are impassable).
-  - Functions as a one-way return destination from the main B1F cavern.
+  - Contains the one-way forward jump ledge at row 14 leading into the southern main cavern of B1F.
   - Return to 1F via ladder at (8, 2).
 
 ## Verified Dungeon Architecture & Progression Route (Turn 19664)
