@@ -2,8 +2,8 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Active | Slot 2 (in-battle Slot 1); `1: Mud Shot` Lv 16, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 (`326 / 1,021 EXP` after 1/2 Aron + 1/3 Yanma + 1/4 Corsola) |
-| Littleroot Town | Goldeen (F, Lv 16) | SIREN | Active | Slot 1 (in-battle Slot 2); `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 (`43 HP, 27 Speed`; `581 / 817 EXP` after 1/2 Aron) |
+| Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Active | Slot 2 (in-battle Slot 1); `1: Mud Shot` Lv 16, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 (`759 / 1,021 EXP` after Rhyhorn -> `865 / 1,021 EXP` after 1/2 Larvitar) |
+| Littleroot Town | Goldeen (F, Lv 16) | SIREN | Active | Slot 1 (in-battle Slot 2); `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 (`43 HP, 27 Speed`; `581 / 817 EXP` -> `687 / 817 EXP` after 1/2 Larvitar) |
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Box 1 | Deposited at `(4, 0)` of `Box 1`; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
 | Route 102 | Sandshrew (F, Lv 15) | GAIA | Box 1 | Deposited at `(3, 0)` of `Box 1`; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 |
 | Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 3 (in-battle Slot 4); `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `358 / 653 EXP` after 1/3 Yanma) |
