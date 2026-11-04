@@ -63,3 +63,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Ladder lands at (8, 3).
   - A rock mound sits directly south at (4..8, 5..6).
   - Open 2-tile corridor runs south along cols 9..10 between the rock mound and the ledge at col 11.
+- Boulder Puzzle 1 (cols 8..10, rows 9..11):
+  - Round Strength boulder located at (9, 10) in the north-south corridor.
+  - Flanked by cliff walls at (8, 10) and (10, 10).
+  - Open space to push South into row 11.
