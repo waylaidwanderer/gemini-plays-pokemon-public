@@ -21,7 +21,7 @@
 - **Route 103 Tall Grass Patch**: Located at `(11..14, 15..16)` just east of `x=10` and `(15..18, 11..13)` west of the Fisherman (observed wild species: `Hoppip` Lv 3–4, `Spearow` Lv 3, `Skitty` Lv 4 [can hold wild `Moon Stone`!], `Poliwag` Lv 4, `Wingull` Lv 3–4, `Sunkern` Lv 4 [can hold wild `Sun Stone`!]).
 - **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east along `y=10` to the grass-free **`x=19..20, y=8..12`** rectangle for the **Old Rod Fisherman** [note: `(21, 11)` is an impassable shoreline corner, while `x=19..20, y=8..12` is completely grass-free!], or north to `(13, 7)` -> `Left x4` to `(9, 7)` -> `Up` to `(9, 6)` [avoiding the single grass tile at `(8, 7)`] -> `Left x4` to `(5, 6)` -> `Up x3` to `(5, 3)` -> `Right x4` to `(9, 3)` for the Rival battle at `(10, 3)`).
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
-- **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102.
+- **Oldale West Exit (to Route 102)**: From `(10, 9)`, step `Down x2` to `(10, 11)` (passing south of the scientist at `(8, 9)`) and walk `Left x11` onto Route 102 (note: trees at `(1..2, 16..17)` and a signpost at `(3, 16)` block the direct west approach to the Oldale Pokemon Center at `(6, 16)`, so route between Route 102 and the Oldale Pokemon Center via `(0, 11) <-> (9, 11) <-> (9, 17) <-> (6, 17) <-> (6, 16)`, verified Turn 3012).
 
 ## Route 102
 - **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
