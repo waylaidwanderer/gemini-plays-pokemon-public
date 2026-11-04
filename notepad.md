@@ -4581,6 +4581,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Gardevoir moves: Calm Mind, Double Team, Future Sight, Psychic. Held: Wally used Full Restore.
   - SAGE reached Level 60 (Max HP 182, Atk 135, Def 99, SpA 147, SpD 132, Spe 178).
   - Overgrow activates at <= 1/3 HP (48/182 HP activates Overgrow 1.5x boost for Grass moves).
+- Western Terrace Corridor & B1F Ladder (cols 2..8, rows 13..19):
+  - Corridor runs north along col 2 from Wally's position at (2, 24) to row 14.
+  - One-way jump ledge borders the west side at col 1.
+  - Cooltrainer ♀ stationed at (7, 14) facing Left overlooking the corridor.
+  - Ladder down to B1F located at the top right corner at approximately (8, 13)!
 
 <hr>
 
