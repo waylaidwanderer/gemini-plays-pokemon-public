@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, learns `4: Ice Beam` Lv 16; holds `Oran Berry` |
 | Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 6; `Water/Flying`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Nidoran M (M, Lv 14) | ARES | Active | Slot 4; `Poison`; `Poison Point`; `1: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12; holds `Oran Berry` |
-| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 5; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
+| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 5; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (M, Lv 14) | HADES | Active | Slot 1; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
 | Petalburg Woods | Pineco (M, Lv 8) | — | Forfeited (Selfdestruct) | Used `Selfdestruct` on Turn 2 (`THETIS` tanked it at `43 -> 9 HP`, saving `HADES` with 0 casualties) |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
