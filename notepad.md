@@ -4560,7 +4560,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 2. [x] Battle and defeat Rival Wally on 1F western terrace (Turn 19548)! (Earned ¥2,700).
 3. [x] Defeat Cooltrainer Hope (Roselia Lv 45) at (3, 15) on 1F western terrace (Turn 19585)! (Earned ¥2,160).
 4. [x] Descend ladder at (8, 13) to Victory Road B1F (Turn 19588)! Arrived at (8, 3).
-5. [ ] Illuminate B1F using Flash.
+5. [x] Illuminate B1F using Flash (Turn 19594)!
 6. [ ] Navigate B1F (use Strength and Rock Smash to clear boulder puzzles).
 7. [ ] Locate ladder to B2F.
 8. [ ] Navigate B2F (use Surf and Waterfall).
