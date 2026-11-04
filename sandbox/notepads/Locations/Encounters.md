@@ -2,11 +2,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 13) | MUDKIP | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
-| Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, learns `4: Ice Beam` Lv 16 |
-| Route 103 | Wingull (M, Lv 14) | ZEPHYR | Active | Slot 1; `Water/Flying`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13 |
-| Route 102 | Nidoran M (M, Lv 14) | ARES | Active | Slot 4; `Poison`; `Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12 |
-| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Starter (Route 101) | Mudkip (M, Lv 13) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, learns `4: Ice Beam` Lv 16; holds `Oran Berry` |
+| Route 103 | Wingull (M, Lv 15) | ZEPHYR | Active | Slot 1; `Water/Flying`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
+| Route 102 | Nidoran M (M, Lv 14) | ARES | Active | Slot 4; `Poison`; `Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12; holds `Oran Berry` |
+| Petalburg City | Azurill (F, Lv 5) | THETIS | Active | Slot 5; `1: Water Gun`, `2: Charm`, learns `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10, `Body Slam` Lv 15 |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
