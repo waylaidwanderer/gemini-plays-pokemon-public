@@ -219,7 +219,12 @@
 7. [x] Scale the waterfall using HM07 Waterfall to reach Ever Grande City (Turn 19412 at 24, 68 -> 24, 59)!
 8. [x] Enter Ever Grande City Pokémon Center to register flight checkpoint (Turn 19443 at 7, 8)!
 9. [x] Defeat Rival Wally on Victory Road 1F (Turn 19548)! (Earned ¥2,700).
-10. [ ] Traverse Victory Road (navigate 1F, B1F, B2F).
+10. [ ] Traverse Victory Road:
+    - [x] Clear 1F western terrace (Wally and Hope defeated).
+    - [x] Enter B1F via western ladder at (8, 13) -> (8, 3).
+    - [ ] Illuminate B1F with Flash and jump south over row 14 ledge into main cavern.
+    - [ ] Traverse B1F / B2F (use Strength, Rock Smash, Surf, Waterfall) to reach exit ladder.
+    - [ ] Ascend to 1F eastern plateau and exit to Pokémon League HQ!
 11. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
