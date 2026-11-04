@@ -1,18 +1,18 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #16)
+# Nuzlocke Encounters (Attempt #17)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (F, Lv 17) | MUDKIP | Retired (Box 1) | Benched in `Box 1` until Roxanne is defeated (Lv 20 cap); `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10 |
-| Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16; holds `Oran Berry` |
-| Route 103 | Skitty (F, Lv 16) | SELENE | Active | Slot 1; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
-| Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
-| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 4; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Nuzleaf (F, Lv 15) | ARTEMIS | Deceased | Faint to PKMN Trainer Red's Charmander (`Flame Wheel`) at Turn 3125 after Red switched Pikachu out on Turn 1 while Artemis was paralyzed |
-| Petalburg Woods | Weepinbell (M, Lv 16) | CHLORIS | Active | Slot 2; `Chlorophyll`; `1: Vine Whip`, `2: Acid`, `3: Toxic` Lv 15, `4: Bullet Seed` (`TM09`); holds `Oran Berry` |
-| Route 116 | Yanma (M, Lv 16) | BOREAS | Active | Slot 5; `Compoundeyes`; `Quick Attack`, `Silver Wind`, `SonicBoom` Lv 13; holds `Oran Berry` |
-| Route 115 | Kabuto (F, Lv 16) | SCYLLA | Active | Slot 6; `Swift Swim`, `Docile`; `Rock Tomb`, `Water Pulse`, `4: Mega Drain` Lv 13; holds `Oran Berry` |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#16)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
@@ -22,17 +22,17 @@
 - **Petalburg City (`Old Rod`)**: `Azurill` (`Huge Power` or `Thick Fat`; starts at Lv 5 with `1: Water Gun`, `2: Charm`, learns `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10, `Body Slam` Lv 15).
 - **Route 104**: `Cubone` (starts with `1: Bone Club` [65 BP STAB Ground, non-contact], `2: Rock Throw` [50 BP Rock]; learns `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; `35–37 Defense` at Lv 14–15); `Snubbull` (`Intimidate`; starts with `Tackle`, `Bite`, `Lick`, learns `Roar` Lv 8, `Headbutt` Lv 13); `Seedot -> Nuzleaf` (`Grass/Dark`) at Lv 14 (caught Lv 7 knowing `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical]; learns `Nature Power` Lv 13); `Nidoran♀ -> Nidorina` at Lv 16 (`Bite` Lv 8, `Double Kick` Lv 12, `Crunch` Lv 16).
 - **Petalburg Woods**: `Phanpy` (`53–56 HP` at Lv 14–15; starts with `1: Tackle`, `2: Mud Shot`, learns `3: Ice Shard` Lv 10, `4: Rock Throw` Lv 15); `Hoothoot` (`Insomnia`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11, `Hypnosis` Lv 16); `Oddish -> Gloom` at Lv 16 (`585 EXP` buffer; learns `Toxic` Lv 14, `Magical Leaf` Lv 16 upon evolving); `Bellsprout -> Weepinbell` at Lv 16 (`585 EXP` buffer; `Chlorophyll`; starts at Lv 8 with `1: Vine Whip`, `2: Acid`, learns `3: Sweet Scent` Lv 11, `Toxic` Lv 15).
-- **Route 116**: `Voltorb` (`Slow` EXP group with `1,021 EXP` buffer at Lv 16; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15; `39 Speed` at Lv 16); `Makuhita` (starts with `1: Faint Attack`, `2: SmellingSalt`, `3: Sand-Attack`, `4: Tackle`, learns `Force Palm` Lv 10, `Vital Throw` Lv 13); `Grimer` (`Sludge Bomb` Lv 13); `Yanma` (`Speed Boost`/`Compoundeyes`, `SonicBoom` Lv 13).
+- **Route 116**: `Voltorb` (`Slow` EXP group with `1,021 EXP` buffer at Lv 16; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15; `39 Speed` at Lv 16); `Makuhita` (starts with `1: Faint Attack`, `2: SmellingSalt`, `3: Sand-Attack`, `4: Tackle`, learns `Force Palm` Lv 10, `Vital Throw` at Lv 13); `Grimer` (`Sludge Bomb` Lv 13); `Yanma` (`Speed Boost`/`Compoundeyes`, `Quick Attack`, `Silver Wind`, `SonicBoom` Lv 13; `49 HP, 34 Sp.Atk, 37 Speed` at Lv 16).
 - **Route 115 (`Old Rod`)**: `Kabuto` / `Omanyte` (`817 EXP` buffer at Lv 16; starts with `Rock Tomb` and `Water Pulse`; `Kabuto` learns `Mega Drain` Lv 13).
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #16
+# Nuzlocke Dashboard — Attempt #17
 
 ## Active Rules & Status
-- **Attempt**: #16
+- **Attempt**: #17
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
@@ -309,7 +309,7 @@
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
-    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP), `Zubat` (M, Lv 11, 126 EXP, `Hypnosis`, `Aerial Ace`, `Giga Drain`), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, `ThunderPunch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
+    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP, **`Selfdestruct`** — **ALWAYS OHKO ON TURN 1** with a faster Water/Grass move before it can move; never switch on Turn 1!), `Zubat` (M, Lv 11, 126 EXP, `Hypnosis`, `Aerial Ace`, `Giga Drain`), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, `ThunderPunch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Rock Tomb`, `Brick Break` [75 BP Fighting], `Secret Power`, `Iron Defense`, 14+ Speed), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `AncientPower`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Magnitude`, `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Aurora Beam`, `Rock Tomb`, `Water Pulse`, `Recover`), `Larvitar` (M, Lv 15, 213 EXP, **`Earthquake`** [100 BP], `Rock Slide`, 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (reached from `(5, 12)` via `Up x4` to `(5, 8)` then `Left x4` to `(1, 8)`, just south of Gym Leader Roxanne's platform stairs).
