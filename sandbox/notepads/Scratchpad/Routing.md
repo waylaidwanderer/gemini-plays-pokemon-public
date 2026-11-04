@@ -25,7 +25,7 @@
 
 ## Route 102
 - **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
-- **Eastern Tall Grass Patch**: Located at `(37..39, 5..6)` (walk `Left x10` from `(48, 11)` to `(38, 11)`, then `Up x5` to `(38, 6)`; observed wild species: `Meowth` Lv 6, `Hoothoot` Lv 6, `Ralts` Lv 4, `Sandshrew` Lv 6 [`Scratch`, `Poison Sting`], `Spoink` Lv 6 [`Confusion`]).
+- **Eastern Tall Grass Patch**: Located at `(37..39, 5..6)` (walk `Left x10` from `(48, 11)` to `(38, 11)`, then `Up x5` to `(38, 6)`; observed wild species: `Meowth` Lv 6, `Hoothoot` Lv 6, `Ralts` Lv 4, `Sandshrew` Lv 6 [`Scratch`, `Poison Sting`], `Spoink` Lv 6 [`Confusion`], `Electrike` Lv 6 [`ThunderShock`]).
 - **Trainers**:
   - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`])
   - **Bug Catcher Rick** `(25, 15)` facing `Up` (4 Pokemon: `Caterpie` Lv 5, `Wurmple` Lv 5, `Kakuna` Lv 5, `Cascoon` Lv 5 [`Iron Defense`, holds `Berry Juice`])
