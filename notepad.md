@@ -7,7 +7,7 @@
 | Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Active | Slot 2; `1: Mud Shot` Lv 16, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 (`865 / 1,021 EXP` after Tammy) |
 | Littleroot Town | Goldeen (F, Lv 17) | SIREN | Benched (Cap) | Slot 1; reached Lv 17 on Tammy's final Pokemon; depositing in `Box 1` at `(0, 0)` until Roxanne is defeated |
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Box 1 | Deposited at `(4, 0)` of `Box 1`; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
-| Route 102 | Sandshrew (F, Lv 15) | GAIA | Box 1 | Deposited at `(3, 0)` of `Box 1`; withdrawing to replace `SIREN` and raising to Lv 16 (`0 / 817 EXP`) |
+| Route 102 | Sandshrew (F, Lv 16) | GAIA | Active | Slot 5; `1: Scratch`, `2: Defense Curl`, `3: Poison Sting` Lv 11, `4: Dig` Lv 16 (`43 HP, 29 Attack, 31 Defense, 20 Speed`; `0 / 817 EXP`) |
 | Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 3 (in-battle Slot 4); `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `358 / 653 EXP` after 1/3 Yanma) |
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited at `(1, 0)` of `Box 1`; fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
 | Petalburg Woods | Phanpy (F, Lv 16) | RHEA | Active | Slot 4 (in-battle Slot 6); `1: Tackle`, `2: Mud Shot`, `3: Ice Shard` Lv 10, `4: Rock Throw` Lv 15 (`59 HP, 24 Attack, 24 Defense, 21 Speed`; `193 / 817 EXP` after 1/3 Yanma + 1/4 Corsola) |
