@@ -8,7 +8,7 @@
 | Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
 | Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Slot 5; `Thick Fat`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10 |
 | Route 104 | Nuzleaf (F, Lv 15) | ARTEMIS | Active | Slot 1; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed`, `4: Nature Power` Lv 13; holds `Oran Berry` |
-| Petalburg Woods | — | — | Pending | Tall grass |
+| Petalburg Woods | Bellsprout (M, Lv 8) | CHLORIS | Active | Slot 6; caught at `(6, 30)` |
 | Route 116 | — | — | Pending | Tall grass |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
