@@ -12,7 +12,7 @@
 | Route 104 | Nuzleaf (F, Lv 15) | ARTEMIS | Deceased | Faint to PKMN Trainer Red's Charmander (`Flame Wheel`) at Turn 3125 after Red switched Pikachu out on Turn 1 while Artemis was paralyzed |
 | Petalburg Woods | Weepinbell (M, Lv 16) | CHLORIS | Active | Slot 2; `Chlorophyll`; `1: Vine Whip`, `2: Acid`, `3: Toxic` Lv 15, `4: Bullet Seed` (`TM09`); holds `Oran Berry` |
 | Route 116 | Yanma (M, Lv 9) | BOREAS | Active | Slot 6; `Compoundeyes`; starts with `Quick Attack`, `Silver Wind`; learns `SonicBoom` Lv 13 |
-| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Route 115 | Kabuto (F, Lv 9) | SCYLLA | Active (Box 1) | `Rock/Water`; starts with `Rock Tomb`, `Water Pulse`; learns `Mega Drain` Lv 13; immune to female `Nosepass`'s `Attract` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#16)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
