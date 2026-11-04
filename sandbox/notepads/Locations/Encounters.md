@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen (F, Lv 5) | SIREN | Active | Caught at `(17, 13)` (`BubbleBeam`, `Psybeam`, `Haze`, `Supersonic` Lv 10) |
 | Route 103 | Spearow (M, Lv 4) | ZEPHYR | Active | Lv 13 (`1: Peck`, `2: Tackle` Lv 7, `3: Secret Power` Lv 13) |
 | Route 102 | Sandshrew (F, Lv 6) | GAIA | Active | Caught at `(39, 6)` (`Ground`-type, immune to `Thunder Wave` / Electric!) |
-| Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Luvdisc` / `Azurill`) |
+| Petalburg City | Luvdisc (F, Lv 5) | EROS | Active | Caught at `(11, 22)` (`Water Pulse` Lv 12, `Ice Beam` Lv 16, `38–39 Speed` at Lv 16–17!) |
 | Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
