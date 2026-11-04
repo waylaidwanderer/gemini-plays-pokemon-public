@@ -45,7 +45,7 @@
 - Nugget x1
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
-- Max Repel x12 (1 used Turn 19613, ~240 active repel steps remaining; 12 remaining in Bag)
+- Max Repel x12 (used Turn 19711, 250 active repel steps; 12 remaining in Bag)
 - Money: ¥25,190
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
@@ -222,7 +222,6 @@
 10. [ ] Traverse Victory Road:
     - [x] Clear 1F western terrace (Wally and Hope defeated).
     - [x] Enter B1F via western ladder at (8, 13) -> (8, 3).
-    - [ ] Illuminate B1F with Flash and jump south over row 14 ledge into main cavern.
     - [ ] Traverse B1F / B2F (use Strength, Rock Smash, Surf, Waterfall) to reach exit ladder.
     - [ ] Ascend to 1F eastern plateau and exit to Pokémon League HQ!
 11. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!

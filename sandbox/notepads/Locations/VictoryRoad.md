@@ -97,13 +97,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   2. B1F Enclave: Strength boulders already pushed (9, 13). Jump south over row 14 ledge into main B1F cavern!
   3. B1F / B2F: Traverse subterranean puzzles with Flash, Strength, Rock Smash, Surf, and Waterfall to reach the eastern B1F return ladder.
   4. 1F Eastern Plateau: Ascend via (21, 32) ladder and take the upper staircase at (21, 28) to the Victory Road exit!
-## B1F Enclave Puzzle Solution (Verified Turn 19688)
-- Western path (col 3/4) dead-ends at natural cliff (3, 8); boulder at (4, 7) does not lead to an open exit.
-- Eastern path (col 9) is the true progression puzzle:
-  1. Boulder starts at (9, 10). Push SOUTH ONCE to (9, 11).
-  2. Step Left from (9, 10) into (8, 10).
-  3. Tile (8, 11) is a cracked breakable rock. Use HM06 Rock Smash with Cobalu to destroy it.
-  4. Walk South through cleared (8, 11) -> (8, 13) and jump south over the row 14 ledge into the main B1F cavern!
+
 
 ## 1F Progression Strategy & Southern Suspension Bridge (Turn 19708)
 - B1F Northwest Enclave Conclusion: Fully collision-tested all candidate tiles; (8, 11), (8, 12), (3, 8), and (4, 11) are solid natural cliffs (no Rock Smash cracked rocks). Col 11 is an incoming one-way ledge jumping west. The enclave functions as a one-way return destination.

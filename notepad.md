@@ -4632,13 +4632,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   2. B1F Enclave: Strength boulders already pushed (9, 13). Jump south over row 14 ledge into main B1F cavern!
   3. B1F / B2F: Traverse subterranean puzzles with Flash, Strength, Rock Smash, Surf, and Waterfall to reach the eastern B1F return ladder.
   4. 1F Eastern Plateau: Ascend via (21, 32) ladder and take the upper staircase at (21, 28) to the Victory Road exit!
-## B1F Enclave Puzzle Solution (Verified Turn 19688)
-- Western path (col 3/4) dead-ends at natural cliff (3, 8); boulder at (4, 7) does not lead to an open exit.
-- Eastern path (col 9) is the true progression puzzle:
-  1. Boulder starts at (9, 10). Push SOUTH ONCE to (9, 11).
-  2. Step Left from (9, 10) into (8, 10).
-  3. Tile (8, 11) is a cracked breakable rock. Use HM06 Rock Smash with Cobalu to destroy it.
-  4. Walk South through cleared (8, 11) -> (8, 13) and jump south over the row 14 ledge into the main B1F cavern!
+
 
 ## 1F Progression Strategy & Southern Suspension Bridge (Turn 19708)
 - B1F Northwest Enclave Conclusion: Fully collision-tested all candidate tiles; (8, 11), (8, 12), (3, 8), and (4, 11) are solid natural cliffs (no Rock Smash cracked rocks). Col 11 is an incoming one-way ledge jumping west. The enclave functions as a one-way return destination.
@@ -4736,7 +4730,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Nugget x1
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
-- Max Repel x12 (1 used Turn 19613, ~240 active repel steps remaining; 12 remaining in Bag)
+- Max Repel x12 (used Turn 19711, 250 active repel steps; 12 remaining in Bag)
 - Money: ¥25,190
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
@@ -4913,7 +4907,6 @@ A large meteorological research institute located in northern Route 119 beside t
 10. [ ] Traverse Victory Road:
     - [x] Clear 1F western terrace (Wally and Hope defeated).
     - [x] Enter B1F via western ladder at (8, 13) -> (8, 3).
-    - [ ] Illuminate B1F with Flash and jump south over row 14 ledge into main cavern.
     - [ ] Traverse B1F / B2F (use Strength, Rock Smash, Surf, Waterfall) to reach exit ladder.
     - [ ] Ascend to 1F eastern plateau and exit to Pokémon League HQ!
 11. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
