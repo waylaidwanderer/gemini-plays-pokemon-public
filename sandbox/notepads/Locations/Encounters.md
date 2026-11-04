@@ -10,7 +10,7 @@
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited in PC (`Box 1`); fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
 | Petalburg Woods | Phanpy (F, Lv 15) | RHEA | Active | Slot 6; `1: Tackle`, `2: Mud Shot`, `3: Ice Shard` Lv 10, `4: Rock Throw` Lv 15 (`56 HP, 23 Attack, 23 Defense, 20 Speed`) |
 | Route 116 | Makuhita (M, Lv 9) | ATLAS | Box 1 | Caught at `(4, 15)` (`placed at (0, 0) of Box 1`; learns `Force Palm` Lv 10, `Vital Throw` Lv 13) |
-| Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
+| Route 115 | Kabuto (M, Lv 9) | CRONUS | Box 1 | Caught at `(7, 71)` (`placed at (2, 0) of Box 1`; `Rock/Water`, learns `Mega Drain` Lv 13) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#14)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
