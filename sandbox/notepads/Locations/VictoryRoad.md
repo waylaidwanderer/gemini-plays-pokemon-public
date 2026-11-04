@@ -41,3 +41,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - North Cavern Floor: Visible north of the pillar; Level 0 floor continues north with another staircase ascending around row 21.
 - Western Suspension Bridge (rows 25..26, cols 3..11): Elevated wooden suspension bridge spanning across the western chasm between the central pillar (col 12) and the western terrace (col 3).
 - Western Terrace (cols 0..3): High ledge against the western cave wall accessible from the western suspension bridge.
+- Rival Wally Battle: Triggered at (2, 23) on 1F western terrace immediately upon stepping north off the western suspension bridge. Wally runs over from the bridge to challenge May!
