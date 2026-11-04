@@ -37,3 +37,5 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Eastern cliff staircase is at col 21 (rows 35..37) leading to an upper cave entrance/ladder at (21, 29).
 - Lower Cavern Corridor (rows 30..35): Passing under the suspension bridge at cols 14..16 is fully clear. A staircase leading up to the central-west plateau is visible around col 13, row 29.
 - Eastern Plateau: Features ladder down to B1F at (21, 30) and another staircase ascending further north at col 21, row 26.
+- Central Platform (cols 12..14, rows 25..26): Elevated pillar island. South has stairs down to Level 0; north and east drop off to Level 0 cavern floor. West connects to a second suspension bridge at cols 0..11, row 25..26 heading west across the chasm.
+- North Cavern Floor: Visible north of the pillar; Level 0 floor continues north with another staircase ascending around row 21.
