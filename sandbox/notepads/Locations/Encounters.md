@@ -3,11 +3,11 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 14) | MUDKIP | Active | Slot 3; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
-| Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Slot 1; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12 |
+| Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Slot 4; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12 |
 | Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 2; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
-| Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Slot 4; `Thick Fat`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10 |
-| Route 104 | Seedot (F, Lv 13) | ARTEMIS | Active | Slot 5; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed`, `4: Nature Power` Lv 13; evolves into `Nuzleaf` (`Grass/Dark`) at Lv 14 |
+| Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Slot 1; `Thick Fat`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10 |
+| Route 104 | Nuzleaf (F, Lv 14) | ARTEMIS | Active | Slot 5; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed`, `4: Nature Power` Lv 13 |
 | Petalburg Woods | — | — | Pending | Tall grass |
 | Route 116 | — | — | Pending | Tall grass |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
