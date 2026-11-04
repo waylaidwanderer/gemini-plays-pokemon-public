@@ -9,7 +9,7 @@
 | Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 3; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 5; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Nuzleaf (F, Lv 15) | ARTEMIS | Active | Slot 6; `Grass/Dark`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed`, `4: Nature Power` Lv 13; holds `Oran Berry` |
+| Route 104 | Nuzleaf (F, Lv 15) | ARTEMIS | Deceased | Faint to PKMN Trainer Red's Charmander (`Flame Wheel`) at Turn 3125 after Red switched Pikachu out on Turn 1 while Artemis was paralyzed |
 | Petalburg Woods | Weepinbell (M, Lv 16) | CHLORIS | Active | Slot 2; `Chlorophyll`; `1: Vine Whip`, `2: Acid`, `3: Toxic` Lv 15, `4: Bullet Seed` (`TM09`); holds `Oran Berry` |
 | Route 116 | — | — | Pending | Tall grass |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
