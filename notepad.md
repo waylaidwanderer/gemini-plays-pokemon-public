@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 5) | PROTEUS | Active | Female (`immune to Nosepass's Attract!`); rescuing Birch on Route 101 |
-| Littleroot Town | - | - | Pending | Fish with Old Rod at `(17, 13)` facing `Right` (`Luvdisc` / `Goldeen`) |
+| Littleroot Town | Goldeen (F, Lv 5) | SIREN | Active | Caught at `(17, 13)` (`BubbleBeam`, `Psybeam`, `Haze`, `Supersonic` Lv 10) |
 | Route 103 | Spearow (M, Lv 4) | ZEPHYR | Active | Lv 13 (`1: Peck`, `2: Tackle` Lv 7, `3: Secret Power` Lv 13) |
 | Route 102 | - | - | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | - | - | Pending | Fish with Old Rod at `(11, 22)` facing `Down` (`Luvdisc` / `Azurill`) |
