@@ -6,7 +6,7 @@
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 59) - Evolved on turn 5632! Level 58 on turn 18177! Level 59 on turn 18904 (declined False Swipe, kept moveset). Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). HP: 179/179. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 60) - Evolved on turn 5632! Level 60 on turn 19490 during Wally battle! (Stats: HP 182, Atk 135, Def 99, SpA 147, SpD 132, Spe 178). Moves: Rock Tomb (8/10), Pursuit (20/20), Leaf Blade (11/15), Quick Attack (29/30). HP: 0/182 (FNT). Status: Fainted. Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 83/83. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
