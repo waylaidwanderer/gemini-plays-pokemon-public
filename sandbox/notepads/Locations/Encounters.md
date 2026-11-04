@@ -2,15 +2,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 15) | MUDKIP | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Slot 4; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12; holds `Oran Berry` |
-| Route 103 | Skitty (F, Lv 15) | SELENE | Active | Slot 3; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
+| Starter (Route 101) | Marshtomp (F, Lv 17) | MUDKIP | Retired (Box 1) | Benched in `Box 1` until Roxanne is defeated (Lv 20 cap); `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10 |
+| Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16; holds `Oran Berry` |
+| Route 103 | Skitty (F, Lv 16) | SELENE | Active | Slot 1; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
-| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 5; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
+| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 4; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Nuzleaf (F, Lv 15) | ARTEMIS | Deceased | Faint to PKMN Trainer Red's Charmander (`Flame Wheel`) at Turn 3125 after Red switched Pikachu out on Turn 1 while Artemis was paralyzed |
 | Petalburg Woods | Weepinbell (M, Lv 16) | CHLORIS | Active | Slot 2; `Chlorophyll`; `1: Vine Whip`, `2: Acid`, `3: Toxic` Lv 15, `4: Bullet Seed` (`TM09`); holds `Oran Berry` |
-| Route 116 | Yanma (M, Lv 9) | BOREAS | Active | Slot 6; `Compoundeyes`; starts with `Quick Attack`, `Silver Wind`; learns `SonicBoom` Lv 13 |
-| Route 115 | Kabuto (F, Lv 9) | SCYLLA | Active (Box 1) | `Rock/Water`; starts with `Rock Tomb`, `Water Pulse`; learns `Mega Drain` Lv 13; immune to female `Nosepass`'s `Attract` |
+| Route 116 | Yanma (M, Lv 16) | BOREAS | Active | Slot 5; `Compoundeyes`; `Quick Attack`, `Silver Wind`, `SonicBoom` Lv 13; holds `Oran Berry` |
+| Route 115 | Kabuto (F, Lv 16) | SCYLLA | Active | Slot 6; `Swift Swim`, `Docile`; `Rock Tomb`, `Water Pulse`, `4: Mega Drain` Lv 13; holds `Oran Berry` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#16)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
