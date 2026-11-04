@@ -4557,7 +4557,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Progression Checklist - Victory Road
 1. [x] Enter Victory Road 1F from Ever Grande City south plateau (Turn 19463)!
-5. [x] Battle and defeat Rival Wally (Turn 19548)!
+5. [x] Battle and defeat Rival Wally (Turn 19548)! (Earned ¥2,700). Wally remains at (2, 24).
 6. [ ] Navigate 1F and locate ladder to B1F.
 7. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
 8. [ ] Navigate B2F (use Surf and Waterfall).
