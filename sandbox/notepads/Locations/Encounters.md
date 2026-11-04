@@ -3,13 +3,13 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Active | Slot 2; `1: Mud Shot` Lv 16, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 (`0 / 1,021 EXP`) |
-| Littleroot Town | Goldeen (F, Lv 16) | SIREN | Active | Slot 1; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 (`43 HP, 30 Attack, 29 Defense, 27 Speed`; `0 / 817 EXP`) |
+| Littleroot Town | Goldeen (F, Lv 16) | SIREN | Active | Slot 1; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 (`43 HP, 27 Speed`; `448 / 817 EXP` after Geodude + 1/2 Sudowoodo) |
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Box 1 | Deposited at `(4, 0)` of `Box 1`; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
 | Route 102 | Sandshrew (F, Lv 15) | GAIA | Box 1 | Deposited at `(3, 0)` of `Box 1`; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 |
-| Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `0 / 653 EXP`) |
+| Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `0 / 653 EXP` -> `63 / 653 EXP` after 1/2 Zubat) |
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited at `(1, 0)` of `Box 1`; fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
 | Petalburg Woods | Phanpy (F, Lv 16) | RHEA | Active | Slot 4; `1: Tackle`, `2: Mud Shot`, `3: Ice Shard` Lv 10, `4: Rock Throw` Lv 15 (`59 HP, 24 Attack, 24 Defense, 21 Speed`; `0 / 817 EXP`) |
-| Route 116 | Makuhita (M, Lv 16) | ATLAS | Active | Slot 5; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10 (`49 HP, 25 Attack`; `0 / 928 EXP`) |
+| Route 116 | Makuhita (M, Lv 16) | ATLAS | Active | Slot 5; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10 (`49 HP, 25 Attack`; `172 / 928 EXP` -> `235 / 928 EXP` after 1/2 Sudowoodo + 1/2 Zubat) |
 | Route 115 | Kabuto (M, Lv 16) | CRONUS | Active | Slot 6; `Rock/Water`, `Rock Tomb`, `Water Pulse`, `4: Mega Drain` Lv 13 (`39 HP, 36 Attack, 38 Defense, 26 Speed`; `0 / 817 EXP`) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#14)
