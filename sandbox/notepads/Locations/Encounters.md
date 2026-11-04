@@ -7,7 +7,7 @@
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Active | Slot 6; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
 | Route 102 | Sandshrew (F, Lv 14) | GAIA | Active | Slot 4; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 |
 | Petalburg City | Luvdisc (F, Lv 14) | EROS | Active | Slot 5; `1: Tackle`, `2: Charm`, `3: Water Pulse` Lv 12 (`35+ Speed`!) |
-| Route 104 | Cubone (M, Lv 15) | HADES | Active | Slot 1; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13 (`37+ Defense`!) |
+| Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Fainted Turn 2788 vs Rich Boy Winston's `Growlithe` (`Sunny Day`-boosted `Ember` after `Intimidate` send-out took `10.3s` and ate `Up, Left`) |
 | Petalburg Woods | Phanpy (F, Lv 8) | RHEA | Box 1 | Caught at `(6, 30)` (`Ground`-type, knows `Mud Shot`) |
 | Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
