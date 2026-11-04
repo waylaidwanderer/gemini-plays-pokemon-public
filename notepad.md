@@ -4,15 +4,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Active | Slot 1; `1: Mud Shot` Lv 16, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 (`865 / 1,021 EXP`, holding `Oran Berry`) |
+| Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Deceased | Slot 1; fainted Turn 2903 vs Gym Leader Roxanne's `Nosepass` (`Selfdestruct`) |
 | Littleroot Town | Goldeen (F, Lv 17) | SIREN | Benched (Cap) | Deposited at `(0, 0)` of `Box 1` until Roxanne is defeated |
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Active | Slot 5; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 (`124 / 817 EXP`, holding `Oran Berry`) |
 | Route 102 | Sandshrew (F, Lv 16) | GAIA | Deceased | Deposited at `(3, 0)` of `Box 1`; fainted Turn 2879 vs Hiker Marc's `Kabuto` (`Giga Drain`) |
 | Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 4; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `644 / 653 EXP`, holding `Oran Berry`) |
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited at `(1, 0)` of `Box 1`; fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
 | Petalburg Woods | Phanpy (F, Lv 16) | RHEA | Active | Slot 2; `1: Tackle`, `2: Mud Shot`, `3: Ice Shard` Lv 10, `4: Rock Throw` Lv 15 (`59 HP, 24 Attack, 24 Defense, 21 Speed`; `282 / 817 EXP`, holding `Oran Berry`) |
-| Route 116 | Makuhita (M, Lv 16) | ATLAS | Active | Slot 3; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10 (`49 HP, 25 Attack`; `402 / 928 EXP`, holding `Oran Berry`) |
-| Route 115 | Kabuto (M, Lv 16) | CRONUS | Active | Slot 6; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13 (`39 HP, 36 Attack, 38 Defense, 26 Speed`; `767 / 817 EXP`, holding `Cheri Berry`) |
+| Route 116 | Makuhita (M, Lv 16) | ATLAS | Active | Slot 3 (in-battle Slot 1); `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10 (`49 HP, 25 Attack`; `402 / 928 EXP`, holding `Oran Berry`) |
+| Route 115 | Kabuto (M, Lv 17) | CRONUS | Active | Slot 6; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13 (`41 HP, 38 Attack, 40 Defense, 28 Speed`; unparalyzed at `31/41 HP`) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#14)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
