@@ -4561,9 +4561,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 3. [x] Defeat Cooltrainer Hope (Roselia Lv 45) at (3, 15) on 1F western terrace (Turn 19585)! (Earned ¥2,160).
 4. [x] Descend ladder at (8, 13) to Victory Road B1F (Turn 19588)!
 5. [x] Illuminate B1F using Flash (Turn 19594)!
-6. [x] Re-entered B1F via western ladder at (8, 3) (Turn 19680).
-7. [ ] Solve B1F boulder and Rock Smash puzzles to access main cavern.
-8. [ ] Locate ladder to B2F.
+6. [x] Confirmed B1F northwest enclave is a sealed return destination with incoming one-way ledges.
+7. [ ] Cross southern suspension bridge on 1F to access eastern plateau.
+8. [ ] Explore eastern plateau ladder (21, 32) and upper staircase (21, 28).
 9. [ ] Navigate B2F (use Surf and Waterfall).
 10. [ ] Ascend back to 1F exit corridor.
 11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
@@ -4639,6 +4639,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   2. Step Left from (9, 10) into (8, 10).
   3. Tile (8, 11) is a cracked breakable rock. Use HM06 Rock Smash with Cobalu to destroy it.
   4. Walk South through cleared (8, 11) -> (8, 13) and jump south over the row 14 ledge into the main B1F cavern!
+
+## 1F Progression Strategy & Southern Suspension Bridge (Turn 19708)
+- B1F Northwest Enclave Conclusion: Fully collision-tested all candidate tiles; (8, 11), (8, 12), (3, 8), and (4, 11) are solid natural cliffs (no Rock Smash cracked rocks). Col 11 is an incoming one-way ledge jumping west. The enclave functions as a one-way return destination.
+- Forward Progression: The unexplored 1F southern suspension bridge (rows 33..34) connects the western staircase at (8, 36) to the eastern plateau at cols 20..22.
+- Eastern Plateau Landmarks:
+  1. Ladder at (21, 32) leading down into the main B1F cavern.
+  2. Upper staircase at (21, 28) leading north to higher elevations.
 
 
 <hr>
