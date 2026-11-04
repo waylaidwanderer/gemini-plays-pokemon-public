@@ -4567,7 +4567,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.
   - The bridge is elevated overhead: May can walk completely UNDER it along the lower cavern floor!
-  - Stepped Up from (15, 36) to (15, 35) directly underneath the bridge decking.
   - Western cliff staircase is at col 9 (rows 35..37) leading onto the upper bridge level.
   - Eastern cliff staircase is at col 21 (rows 35..37) leading to an upper cave entrance/ladder at (21, 29).
 - Lower Cavern Corridor (rows 30..35): Passing under the suspension bridge at cols 14..16 is fully clear. A staircase leading up to the central-west plateau is visible around col 13, row 29.
