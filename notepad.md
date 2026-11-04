@@ -9,7 +9,7 @@
 | Route 103 | Wingull (M, Lv 15) | ZEPHYR | Active | Slot 1; `Water/Flying`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Nidoran M (M, Lv 14) | ARES | Active | Slot 4; `Poison`; `Poison Point`; `Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 5; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Cubone (M, Lv 13) | HADES | Active | Slot 6; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13 |
+| Route 104 | Cubone (M, Lv 14) | HADES | Active | Slot 1; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
