@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 14) | MUDKIP | Active | Slot 3; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Starter (Route 101) | Mudkip (F, Lv 15) | MUDKIP | Active | Slot 3; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Slot 4; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12; holds `Oran Berry` |
 | Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 2; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
