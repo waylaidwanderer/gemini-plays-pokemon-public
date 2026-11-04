@@ -4594,6 +4594,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - One-way jump ledge borders the west side at col 1.
   - Cooltrainer ♀ stationed at (7, 14) facing Left overlooking the corridor.
   - Ladder down to B1F located at the top right corner at approximately (8, 13)!
+- Topography around 1F Ladder (8, 2):
+  - Ladder lands at (8, 3).
+  - A rock mound sits directly south at (4..8, 5..6).
+  - Open 2-tile corridor runs south along cols 9..10 between the rock mound and the ledge at col 11.
 
 <hr>
 
