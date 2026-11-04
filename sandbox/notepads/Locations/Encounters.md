@@ -6,9 +6,9 @@
 | Littleroot Town | Goldeen (F, Lv 15) | SIREN | Active | Slot 1; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 (`41 HP, 29 Attack, 27 Defense, 25 Speed`) |
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Active | Slot 5; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
 | Route 102 | Sandshrew (F, Lv 15) | GAIA | Active | Slot 3; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 (`41 HP, 28 Attack, 29 Defense`) |
-| Petalburg City | Luvdisc (F, Lv 14) | EROS | Active | Slot 4; `1: Tackle`, `2: Charm`, `3: Water Pulse` Lv 12 (`37 Speed` at Lv 14!) |
+| Petalburg City | Luvdisc (F, Lv 15) | EROS | Active | Slot 4; `1: Tackle`, `2: Charm`, `3: Water Pulse` Lv 12 (`38+ Speed`!) |
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited in PC (`Box 1`); fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
-| Petalburg Woods | Phanpy (F, Lv 14) | RHEA | Active | Slot 6; `Ground`-type (`53 HP, 22 Attack, 22 Defense`), knows `Mud Shot`, learns `Ice Shard` Lv 10 |
+| Petalburg Woods | Phanpy (F, Lv 15) | RHEA | Active | Slot 6; `Ground`-type (`56+ HP`), knows `Mud Shot`, learns `Ice Shard` Lv 10 |
 | Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
 
