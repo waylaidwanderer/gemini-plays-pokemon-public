@@ -80,6 +80,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Col 9 chute boulder pushed to (9, 13) flush against row 14 ledge.
 - Tile (8, 12) opens west onto the row 13 ledge runway.
 - Jumping south over row 14 ledge lands on row 15 of the southern main cavern.
-- Northeast Passage to Eastern Plateau (cols 9..14+, rows 2..3):
-  - Corridor runs east from 1F entrance ladder past col 9 along row 3.
-  - Bypasses the col 11 vertical ledge to access the elevated eastern plateau.
+- Northeast Ramp to Eastern Plateau (cols 9..13+, rows 2..3):
+  - At col 10, row 3 is the cliff face supporting the ramp.
+  - The ramp itself is aligned along row 2 at (10..11, 2) directly east of the ladder landing at (9, 2).
+  - Ascending row 2 ramp accesses the elevated eastern plateau (cols 12..20+).
