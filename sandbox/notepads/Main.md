@@ -30,21 +30,29 @@
      - Never use `Select` move-swapping in battle; clamp explicitly on Turn 1 (`Up, Left` / `Up, Right` / `Up, Left, Down` / `Down, Right`), and when 2 Pokemon participated in a KO (`split EXP` = 2 `"gained EXP"` textboxes), wait for the 2nd send-out (`["B", "sleep 1200", "B", "sleep 5000"]`) before clamping to a new move slot! Against Bug Catcher James's lead `Paras` (`Bug/Grass`), always use a `4x` Flying move (`Peck` / `Wing Attack`) on Turn 1 to OHKO before `Spore`.
      - Keep all 9 pre-Roxanne encounters at **Lv 14–15** through Route 104 North (`PKMN Trainer Red`), then in Rustboro City Rare-Candy all 8–9 encounters to **Lv 16 (`0 EXP` into Lv 16!)** (`Mudkip -> Marshtomp` `1,021 EXP` buffer, `Oddish -> Gloom` / `Bellsprout -> Weepinbell` `585 EXP` buffer; always use **only `A` presses** after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled).
   2. **Exact Rustboro Gym EXP Budget (`3,773 EXP` Total Across Josh, Tammy, and Marc) to Keep All 6 Best Pokemon at Lv 16 for Roxanne**:
-     - Use secondary encounters (#7, #8, #9 — e.g. `Wingull`, 2nd `Luvdisc`/`Azurill`, `Route 102`/`Route 104`/`Route 116` encounters) via PC rotation to absorb EXP on `Marc's Onix` (`346 EXP`), `Marc's Baltoy` (`148 EXP`), `Marc's Cacnea` (`248 EXP`), and split EXP on `Josh's Omanyte` / `Tammy's Corsola` / `Marc's Kabuto`, keeping our **Top 6 Roxanne Team** strictly `< Lv 17`:
-       - **`Weepinbell` / `Gloom` (`0 / 585 EXP` buffer — `Medium Slow`)**:
-         - **ONLY** use on the three `4x`-weak `Water/Rock` threats by **switching in (`50/50` EXP split!)**:
-           1. `Josh`'s Lv 14 `Omanyte` (`360 / 2 = 180 EXP`)
-           2. `Tammy`'s Lv 13 `Corsola` (`309 / 2 = 154 EXP`, note `Vine Whip` 2HKOs if low roll, taking 12 dmg from `Rock Tomb`)
-           3. `Marc`'s Lv 14 `Kabuto` (`357 / 2 = 178 EXP`)
-         - Total = **`180 + 154 + 178 = 512 / 585 EXP`** -> **Enters Gym Leader Roxanne at Lv 16 (`512/585 EXP`) and levels to Lv 17 after Roxanne's 1st Pokemon!**
-       - **`Marshtomp` (`0 / 1,021 EXP` buffer — `Slow`)**:
-         - Lead vs `Tammy`: OHKO `Aron` (`267 EXP`) with `Mud Shot`, switch out on `Yanma` (`345 / 2 = 172 EXP`), switch in on `Rhyhorn` (`432 / 2 = 216 EXP`) and OHKO with `Water Gun`, switch out on `Larvitar` (`213 / 2 = 106 EXP`) = **`761 / 1,021 EXP`** -> **Deposit/bench during Marc so `Marshtomp` enters Gym Leader Roxanne at Lv 16 (`761/1,021 EXP`) and levels to Lv 17 after Roxanne's 1st Pokemon (`Nosepass` gives `346 EXP`)!**
-       - **`Omanyte` / `Kabuto` (`0 / 817 EXP` buffer — `Medium Fast`)**:
-         - Use on `Josh`'s `Sudowoodo` (`346 EXP`) + `180 EXP` split from `Josh`'s `Omanyte` + `178 EXP` split from `Marc`'s `Kabuto` = **`704 / 817 EXP`** (let `Wingull` / 2nd `Luvdisc` / `Azurill` OHKO `Marc`'s `Onix` `346 EXP`!) -> **Enters Gym Leader Roxanne at Lv 16 (`704/817 EXP`), where `Omanyte`/`Kabuto`'s `41+ Defense` and `Rock` typing `0.5x` resists `Nosepass`'s `Selfdestruct` and `Lunatone`'s `Rock Slide`!**
-       - **`Luvdisc #1` (`0 / 653 EXP` buffer — `Fast`)**:
-         - Lead vs `Josh`: OHKO `Geodude` (`276 EXP`) with `Water Pulse`, 2HKO `Zubat` (`126 EXP`) with `Ice Beam`, and switch in to OHKO `Tammy`'s `Yanma` (`345 / 2 = 172 EXP`) with `Ice Beam` = **`574 / 653 EXP`** -> **Enters Gym Leader Roxanne at Lv 16 (`574/653 EXP`)!**
-       - **`Slots 5 & 6 for Roxanne` (`Wingull` / `Azurill` / 2nd `Luvdisc` / `Grimer` [learns `90 BP` `Sludge Bomb` at Lv 13!] / `Phanpy` / `Cubone` / `Sandshrew`)**:
-         - Rotate through `Box 1` between Josh, Tammy, and Marc so we walk up to **Gym Leader Roxanne** with a **full 6-Pokemon Lv 16 team**!
+     - **Battle 1 — School Kid Josh (`1,108 EXP`)**:
+       - `#1 Geodude` (`276 EXP`): Lead **`THETIS` (`Azurill`, `0 / 653 EXP`)**, OHKO with `4: BubbleBeam` -> `THETIS = 276 / 653 EXP`.
+       - `#2 Zubat` (`126 EXP`): **`THETIS`** stays in, 2HKOs with `1: Body Slam` -> `THETIS = 402 / 653 EXP`.
+       - `#3 Sudowoodo` (`346 EXP`): **`THETIS`** switches on Turn 1 to **`SCYLLA` (`Kabuto`, `0 / 817 EXP`)**, who 2HKOs with `Water Pulse` -> `THETIS = 575 / 653 EXP`, `SCYLLA = 173 / 817 EXP`.
+       - `#4 Omanyte` (`360 EXP`): **`SCYLLA`** switches on Turn 1 to **`CHLORIS` (`Weepinbell`, `0 / 585 EXP`)**, who OHKOs with `1: Vine Whip` -> `SCYLLA = 353 / 817 EXP`, `CHLORIS = 180 / 585 EXP`.
+     - **Battle 2 — School Kid Tammy (`1,566 EXP`)**:
+       - `#1 Aron` (`267 EXP`): Lead **`MARSHTOMP` (`0 / 1,021 EXP`)**, OHKO with `2: Mud Shot` -> `MARSHTOMP = 267 / 1,021 EXP`.
+       - `#2 Yanma` (`345 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`EROS` (`Luvdisc`, `0 / 653 EXP`)**, who OHKOs/2HKOs with `4: Ice Beam` -> `MARSHTOMP = 439 / 1,021 EXP`, `EROS = 172 / 653 EXP`.
+       - `#3 Rhyhorn` (`432 EXP`): **`EROS`** switches on Turn 1 back to **`MARSHTOMP`**, who OHKOs with `4: Water Gun` -> `EROS = 388 / 653 EXP`, `MARSHTOMP = 655 / 1,021 EXP`.
+       - `#4 Corsola` (`309 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`CHLORIS` (`Weepinbell`, `180 / 585 EXP`)**, who 2HKOs with `1: Vine Whip` -> `MARSHTOMP = 809 / 1,021 EXP`, `CHLORIS = 334 / 585 EXP`.
+       - `#5 Larvitar` (`213 EXP`): **`CHLORIS`** pivots through **`EROS`** -> **`MARSHTOMP`** (`3-way split: 213 // 3 = 71 EXP each`), and `MARSHTOMP` OHKOs with `4: Water Gun` -> `CHLORIS = 405 / 585 EXP`, `EROS = 459 / 653 EXP`, `MARSHTOMP = 880 / 1,021 EXP`.
+     - **Battle 3 — Hiker Marc (`1,099 EXP`)**:
+       - `#1 Onix` (`346 EXP`): Lead **`SELENE` (`Skitty`, `0 / 653 EXP`)**, switch on Turn 1 to **`SCYLLA` (`Kabuto`, `353 / 817 EXP`)**, who OHKOs with `Water Pulse` / `Mega Drain` -> `SELENE = 173 / 653 EXP`, `SCYLLA = 526 / 817 EXP`.
+       - `#2 Kabuto` (`357 EXP`): **`SCYLLA`** pivots through **`SELENE`** -> **`CHLORIS` (`Weepinbell`, `405 / 585 EXP`)** (`3-way split: 357 // 3 = 119 EXP each`), and `CHLORIS` OHKOs with `1: Vine Whip` -> `SCYLLA = 645 / 817 EXP`, `SELENE = 292 / 653 EXP`, `CHLORIS = 524 / 585 EXP`.
+       - `#3 Baltoy` (`148 EXP`): **`CHLORIS`** pivots through **`SELENE`** -> **`BOREAS` (`Yanma`, `0 / 817 EXP`)** (`3-way split: 148 // 3 = 49 EXP each`), and `BOREAS` 2HKOs with `Silver Wind` -> `CHLORIS = 573 / 585 EXP`, `SELENE = 341 / 653 EXP`, `BOREAS = 49 / 817 EXP`.
+       - `#4 Cacnea` (`248 EXP`): **`BOREAS`** stays in and 2HKOs with `Aerial Ace` / `Silver Wind` -> `BOREAS = 297 / 817 EXP`.
+     - **Resulting 6-Pokemon Squad Entering Gym Leader Roxanne (0 Overlevels!)**:
+       1. **`MARSHTOMP`** (Lv 16, `880 / 1,021 EXP` -> hits **Lv 17** on `#1 Nosepass`!)
+       2. **`SCYLLA` (`Kabuto`)** (Lv 16, `645 / 817 EXP`, holds `Cheri Berry` -> hits **Lv 17** [`818 / 817 EXP`] on `#1 Nosepass`!)
+       3. **`CHLORIS` (`Weepinbell`)** (Lv 16, `573 / 585 EXP` -> hits **Lv 17** on `#2 Lileep`!)
+       4. **`EROS` (`Luvdisc`)** (Lv 16, `459 / 653 EXP`, holds `Oran Berry`)
+       5. **`THETIS` (`Azurill`)** (Lv 16, `575 / 653 EXP`, holds `Oran Berry`)
+       6. **`BOREAS` (`Yanma`)** (Lv 16, `297 / 817 EXP`, holds `Oran Berry`)
   3. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison at `0` Steps & Never Chain Chip Moves With Poke Ball Throws**:
      - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death). Cure poison with a `Pecha Berry` at `0` steps before walking anywhere! Against trainers who have both a `Toxic` user (`Koffing`) and a `Pursuit` user (`Houndour`), switch the `Toxic`-poisoned Pokemon out *before* KOing the `Toxic` user so `Houndour` cannot trap it at low HP.
      - **Never chain a damaging chip attack and a Poke Ball throw in the same `press_buttons` call**.
