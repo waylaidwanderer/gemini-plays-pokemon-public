@@ -26,13 +26,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 3. [x] Defeat Cooltrainer Hope (Roselia Lv 45) at (3, 15) on 1F western terrace (Turn 19585)! (Earned ¥2,160).
 4. [x] Descend ladder at (8, 13) to Victory Road B1F (Turn 19588)!
 5. [x] Illuminate B1F using Flash (Turn 19594)!
-6. [x] Explored B1F northwest enclave; confirmed it is a sealed return area with incoming one-way ledges.
-7. [x] Return to 1F via ladder at (8, 2) on Turn 19648!
-8. [ ] Return across western suspension bridge to central/eastern 1F.
-9. [ ] Explore 1F central staircase (13, 21) and eastern plateau ladder (21, 30).
-10. [ ] Navigate B2F (use Surf and Waterfall).
-11. [ ] Ascend back to 1F exit corridor.
-12. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+6. [x] Re-entered B1F via western ladder at (8, 3) (Turn 19680).
+7. [ ] Solve B1F boulder and Rock Smash puzzles to access main cavern.
+8. [ ] Locate ladder to B2F.
+9. [ ] Navigate B2F (use Surf and Waterfall).
+10. [ ] Ascend back to 1F exit corridor.
+11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -82,10 +81,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Col 9 chute boulder pushed to (9, 13) flush against row 14 ledge.
 - Tile (8, 12) opens west onto the row 13 ledge runway.
 - Jumping south over row 14 ledge lands on row 15 of the southern main cavern.
-- Northeast Ramp to Eastern Plateau (cols 9..13+, rows 2..3):
-  - At col 10, row 3 is the cliff face supporting the ramp.
-  - The ramp itself is aligned along row 2 at (10..11, 2) directly east of the ladder landing at (9, 2).
-  - Ascending row 2 ramp accesses the elevated eastern plateau (cols 12..20+).
+- Northeast Area (cols 9..11, rows 2..4):
+  - Col 10, row 3 is a solid cliff face; col 11, row 4 is a vertical one-way ledge jumping west. Collision testing confirmed no ramp exists here.
 - B1F Northwest Enclave (cols 4..10, rows 2..13):
   - Sealed enclave accessible from 1F ladder at (8, 13) -> (8, 3).
   - All southern and eastern boundaries are solid cliffs or incoming one-way ledges (col 11 vertical ledge jumps west; row 11/14 ledges are impassable).
