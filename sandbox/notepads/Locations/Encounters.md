@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 13) | MUDKIP | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
-| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, learns `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 |
 | Route 103 | Wingull (M, Lv 4) | ZEPHYR | Active | Slot 2; `Water/Flying`; starts with `1: Wing Attack`, `2: Water Gun`, learns `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13 |
 | Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
