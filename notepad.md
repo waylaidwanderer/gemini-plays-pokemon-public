@@ -4559,11 +4559,18 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 1. [x] Enter Victory Road 1F from Ever Grande City south plateau (Turn 19463)!
 2. [x] Battle and defeat Rival Wally on 1F western terrace (Turn 19548)! (Earned ¥2,700).
 3. [x] Defeat Cooltrainer Hope (Roselia Lv 45) at (3, 15) on 1F western terrace (Turn 19585)! (Earned ¥2,160).
-4. [ ] Descend ladder at (8..9, 13) to Victory Road B1F.
-5. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
-6. [ ] Navigate B2F (use Surf and Waterfall).
-7. [ ] Ascend back to 1F exit corridor.
-8. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+4. [x] Descend ladder at (8, 13) to Victory Road B1F (Turn 19588)! Arrived at (8, 3).
+5. [ ] Illuminate B1F using Flash.
+6. [ ] Navigate B1F (use Strength and Rock Smash to clear boulder puzzles).
+7. [ ] Locate ladder to B2F.
+8. [ ] Navigate B2F (use Surf and Waterfall).
+9. [ ] Ascend back to 1F exit corridor.
+10. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+
+## Floor B1F (Dark Basement Floor)
+- Entrance ladder from 1F at (8, 3) facing South.
+- Environment: Pitch dark cave requiring HM05 Flash.
+- Required HMs: Flash (Lilz), Strength (Cobalu), Rock Smash (Cobalu).
 ## Discovered Spatial Mechanics & Navigation (1F)
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.
