@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 14) | MUDKIP | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
-| Route 103 | Skitty (F, Lv 12) | SELENE | Active | Slot 2; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
+| Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 2; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass |
@@ -175,7 +175,7 @@
   - *Male Protagonist (`TONO`)*: Player's House (West): `(5, 8)` (1F doormat at `(8, 8)`, 1F stairs at `(8, 2)`, 1F TV cutscene ends at `(4, 5)` so exit via `Right x4, Down x4`; 2F stairs at `(7, 1)` arriving at `(7, 2)`, wall clock at `(5, 1)`); Rival May's House (East): `(14, 8)` (1F doormat at `(2, 8)`, 1F stairs at `(2, 2)`; 2F stairs at `(1, 1)` arriving at `(1, 2)`, Poke Ball at `(5, 4)`).
   - *Birch's Lab*: Door at `(7, 16)`, yellow doormat at `(7, 17)` (building covers `x=3..9, y=11..16`, flowers at `x=2, y=13..15` and `x=5..6, y=17`, tree at `(11, 17)`; route between `(7, 17)` and `(10, 10)` along `x=10..11`, stepping `Right, Down, Down, Left` around the wandering fat man if `mgba.get_coordinates()` is blocked on `x=10`! Note that receiving the Pokedex + 5 Poke Balls at `(6, 5)` inside Birch's Lab takes `["sleep 4500"] + ["B", "sleep 900"] * 32 + ["sleep 1500"]` before walking `Down x8` to exit).
 - **Mom's Running Shoes Trigger**: After receiving the Pokedex in Birch's Lab, stepping onto `(10..11, 9)` along the central road automatically triggers `"MOM: Wait, [PLAYER]!"` to receive the Running Shoes (`note: receiving the Running Shoes plays a ~3.5s fanfare`).
-- **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod (observed species: `Luvdisc` Lv 5, `Goldeen` Lv 5; note: a signpost stands at `(14, 13)` and the wandering NPC can reach `(12..13, 14)`, so always walk east along `y=12` via `(12, 12) -> Right x5 to (17, 12) -> Down to (17, 13) -> Right`).
+- **Custom Pond**: Located on the east side at `(18, 12..14)`; stand at `(17, 13)` facing `Right` to fish with the Old Rod (observed species: `Luvdisc` Lv 5, `Goldeen` Lv 5; route between `(11, 10)` and `(17, 13)` **100% NPC-free** via `(11, 10) <-> (17, 10) <-> (17, 13)` along `y=10` and `x=17`!).
 - **Navigation Note**: Central vertical road runs along `x=10..11` from `y=17` north to `y=0` (Route 101). Note that `(12, 8)` is the eastern house's mailbox, so walk along `x=11` from `y=0..10` and step onto `x=12..13` (`y=10..15`) at `y=10` to bypass the wandering NPC near `(10..11, 12..14)`. Before rescuing Birch, a girl stands at `(10, 1)` and triggers a one-time dialogue when stepping onto `(11, 1)` before allowing passage north onto Route 101 via `(11, 0)`.
 
 ## Route 101
