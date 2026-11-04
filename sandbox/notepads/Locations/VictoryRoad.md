@@ -73,8 +73,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Cooltrainer ♀ stationed at (7, 14) facing Left overlooking the corridor.
   - Ladder down to B1F located at the top right corner at approximately (8, 13)!
 
-- Row 10 Runway & Row 11 Jump Ledge (cols 4..8, rows 10..12):
-  - Row 10 runs east-west between middle rock mound (rows 8-9) and row 11 ledge.
-  - Western boulder sits at (4, 10) flush against ledge.
-  - Tiles (5..8, 10) form the jump runway.
-  - Jumping south over row 11 ledge lands on row 12 of the lower cavern floor.
+- Row 10 Terrace & Eastern Chute (cols 4..9, rows 8..13):
+  - Row 10 runs east-west between middle rock mound (rows 8-9) and solid cliff wall at row 11.
+  - Western end (cols 4..6) dead-ends at boulder (4, 10) and cliff wall.
+  - Eastern exit connects to col 9 at (9, 10).
+  - Col 9 chute leads south past boulder at (9, 12) directly into the southern main cavern.
