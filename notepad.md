@@ -4654,7 +4654,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x9 (purchased at Mossdeep Mart Turn 19098)
+- Hyper Potion x8 (1 used on Sage Turn 19566)
 - Max Elixir x0 (found in Team Aqua Hideout B1F Generator Room at 29, 12; used on Sage Turn 17028)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
