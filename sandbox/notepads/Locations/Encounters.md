@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 14) | MUDKIP | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
-| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Littleroot Town | Luvdisc (F, Lv 12) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12 |
 | Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 2; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
