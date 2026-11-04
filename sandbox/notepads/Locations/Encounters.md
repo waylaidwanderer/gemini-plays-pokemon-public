@@ -3,9 +3,9 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 13) | MUDKIP | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
-| Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, learns `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 |
-| Route 103 | Wingull (M, Lv 4) | ZEPHYR | Active | Slot 2; `Water/Flying`; starts with `1: Wing Attack`, `2: Water Gun`, learns `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13 |
-| Route 102 | Nidoran M (M, Lv 6) | ARES | Active | Slot 4; `Poison`; learns `Double Kick` Lv 12 |
+| Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, learns `4: Ice Beam` Lv 16 |
+| Route 103 | Wingull (M, Lv 14) | ZEPHYR | Active | Slot 1; `Water/Flying`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13 |
+| Route 102 | Nidoran M (M, Lv 14) | ARES | Active | Slot 4; `Poison`; `Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12 |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
