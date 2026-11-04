@@ -29,7 +29,7 @@
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
-- Revive x7 (5 purchased at Mossdeep Mart Turn 19104; 2 previously)
+- Revive x4 (3 consumed across the Wally encounter)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)

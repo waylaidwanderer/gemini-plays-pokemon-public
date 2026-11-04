@@ -22,12 +22,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Progression Checklist - Victory Road
 1. [x] Enter Victory Road 1F from Ever Grande City south plateau (Turn 19463)!
-5. [x] Battle and defeat Rival Wally (Turn 19548)! (Earned ¥2,700). Wally remains at (2, 24).
-6. [ ] Navigate 1F and locate ladder to B1F.
-7. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
-8. [ ] Navigate B2F (use Surf and Waterfall).
-9. [ ] Ascend back to 1F exit corridor.
-10. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+2. [x] Battle and defeat Rival Wally on 1F western terrace (Turn 19548)! (Earned ¥2,700).
+3. [ ] Navigate 1F and reach ladder to B1F at (8, 13).
+4. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
+5. [ ] Navigate B2F (use Surf and Waterfall).
+6. [ ] Ascend back to 1F exit corridor.
+7. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
 ## Discovered Spatial Mechanics & Navigation (1F)
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.

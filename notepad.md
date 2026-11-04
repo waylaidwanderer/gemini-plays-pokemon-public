@@ -4557,12 +4557,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Progression Checklist - Victory Road
 1. [x] Enter Victory Road 1F from Ever Grande City south plateau (Turn 19463)!
-5. [x] Battle and defeat Rival Wally (Turn 19548)! (Earned ¥2,700). Wally remains at (2, 24).
-6. [ ] Navigate 1F and locate ladder to B1F.
-7. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
-8. [ ] Navigate B2F (use Surf and Waterfall).
-9. [ ] Ascend back to 1F exit corridor.
-10. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+2. [x] Battle and defeat Rival Wally on 1F western terrace (Turn 19548)! (Earned ¥2,700).
+3. [ ] Navigate 1F and reach ladder to B1F at (8, 13).
+4. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
+5. [ ] Navigate B2F (use Surf and Waterfall).
+6. [ ] Ascend back to 1F exit corridor.
+7. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
 ## Discovered Spatial Mechanics & Navigation (1F)
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.
@@ -4659,7 +4659,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
-- Revive x7 (5 purchased at Mossdeep Mart Turn 19104; 2 previously)
+- Revive x4 (3 consumed across the Wally encounter)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
