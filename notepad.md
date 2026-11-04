@@ -4561,9 +4561,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 3. [x] Defeat Cooltrainer Hope (Roselia Lv 45) at (3, 15) on 1F western terrace (Turn 19585)! (Earned ¥2,160).
 4. [ ] Descend ladder at (8..9, 13) to Victory Road B1F.
 5. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
-5. [ ] Navigate B2F (use Surf and Waterfall).
-6. [ ] Ascend back to 1F exit corridor.
-7. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+6. [ ] Navigate B2F (use Surf and Waterfall).
+7. [ ] Ascend back to 1F exit corridor.
+8. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
 ## Discovered Spatial Mechanics & Navigation (1F)
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.
