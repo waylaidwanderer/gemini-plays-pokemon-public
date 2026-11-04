@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Deceased | Slot 1; fainted Turn 2903 vs Gym Leader Roxanne's `Nosepass` (`Selfdestruct`) |
 | Littleroot Town | Goldeen (F, Lv 17) | SIREN | Benched (Cap) | Deposited at `(0, 0)` of `Box 1` until Roxanne is defeated |
-| Route 103 | Spearow (M, Lv 16) | ZEPHYR | Active | Slot 5; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 (`124 / 817 EXP`, holding `Oran Berry`) |
+| Route 103 | Spearow (M, Lv 16) | ZEPHYR | Deceased | Slot 5; fainted Turn 2911 vs Gym Leader Roxanne's `Lileep` (`AncientPower`) |
 | Route 102 | Sandshrew (F, Lv 16) | GAIA | Deceased | Deposited at `(3, 0)` of `Box 1`; fainted Turn 2879 vs Hiker Marc's `Kabuto` (`Giga Drain`) |
 | Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 4; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `644 / 653 EXP`, holding `Oran Berry`) |
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited at `(1, 0)` of `Box 1`; fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
