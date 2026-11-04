@@ -4531,6 +4531,41 @@ A peaceful, rural town nestled in the highlands at the foot of the mountains. Kn
 
 <hr>
 
+<h1><code>Locations/VictoryRoad</code></h1>
+
+# Location: Victory Road (Hoenn)
+
+## Overview
+The ultimate cave challenge connecting Ever Grande City's south plateau to the Pokémon League HQ on the north plateau.
+- Environment: Multi-floor subterranean cave system with elevated log suspension bridges, dark caverns requiring Flash, Strength boulder puzzles, Rock Smash barriers, and waterfalls.
+- Rival Climax: Wally challenges May near the exit of Victory Road with his fully evolved team (Gardevoir, Altaria, Magneton, Roselia, Delcatty).
+- Required HMs: Flash, Strength, Rock Smash, Surf, Waterfall. (All currently equipped on Lilz and Cobalu!).
+
+## Connection Points
+- South: Ever Grande City South Plateau (cave doorway at 15, 40; exit leads to 18, 39 outside).
+- North: Ever Grande City North Plateau (Pokémon League HQ exit).
+
+## Floor 1F (Entrance Floor)
+- Entrance warp from Ever Grande City at (15, 40) facing North.
+- Layout:
+  - Southern entrance area spanning rows 36..40.
+  - Elevated log suspension bridge overhead across cols 11..19 at row 33/34.
+  - Western cliff staircase at (9, 36).
+  - Eastern cliff staircase at (21, 36).
+  - Wild encounters: Hariyama, Loudred, Golbat, Aron, Lairon, Medicham.
+  - Max Repel active with Lv 59 Sceptile in lead prevents wild encounters.
+
+## Progression Checklist - Victory Road
+1. [x] Enter Victory Road 1F from Ever Grande City south plateau (Turn 19463)!
+2. [ ] Navigate 1F and locate ladder to B1F.
+3. [ ] Navigate B1F (use Flash to illuminate, Strength and Rock Smash to clear path).
+4. [ ] Navigate B2F (use Surf and Waterfall).
+5. [ ] Ascend back to 1F exit corridor.
+6. [ ] Battle and defeat Rival Wally!
+7. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+
+<hr>
+
 <h1><code>Locations/WeatherInstitute</code></h1>
 
 # Location: Weather Institute
