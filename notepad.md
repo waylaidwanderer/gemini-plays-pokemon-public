@@ -4641,6 +4641,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   1. Ladder at (21, 32) leading down into the main B1F cavern.
   2. Upper staircase at (21, 28) leading north to higher elevations.
 
+## 1F Level 0 Routing & Southern Bridge Bypass (Turn 19734)
+- Level 0 Western Channel: From central stairs base (13, 29), row 29 connects west to col 7 and col 5. The canyon at cols 5..6 bypasses the central mound on the west side.
+- South Approach to Bridge Stairs: Descending cols 5..6 reaches the base of the western bridge stairs (rows 35..36), allowing direct ascent onto the southern suspension bridge to access the eastern plateau (21, 32).
+
 
 <hr>
 
