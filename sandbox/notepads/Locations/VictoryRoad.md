@@ -34,8 +34,21 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
-- Environment: Pitch dark cave requiring HM05 Flash.
+- Environment: Pitch dark cave requiring HM05 Flash (illuminated on Turn 19594).
 - Required HMs: Flash (Lilz), Strength (Cobalu), Rock Smash (Cobalu).
+- Topography around 1F Ladder (8, 2):
+  - Ladder lands at (8, 3).
+  - A rock mound sits directly south at (4..8, 5..6).
+  - Open 2-tile corridor runs south along cols 9..10 between the rock mound and the ledge at col 11.
+- Boulder Puzzle 1 (cols 8..10, rows 9..11):
+  - Round Strength boulder located at (9, 10) in the north-south corridor. Pushed south to (9, 12).
+  - Flanked by cliff walls at (8, 10) and (10, 10).
+  - Leads south toward row 14 horizontal one-way jump ledge.
+- Western Corridor & Boulder Puzzle (cols 3..5, rows 4..9):
+  - From 1F ladder at (8, 2), northern path runs west along row 4 to (4, 4).
+  - Corridor turns south down col 4 (rows 4..7).
+  - Round Strength boulder at (4, 7) was pushed south to (4, 8) on Turn 19619.
+  - Pushing boulder to (4, 8) opens the eastern corridor at (5, 7) between the upper and lower rock mounds, as well as passage south down col 4.
 ## Discovered Spatial Mechanics & Navigation (1F)
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.
@@ -59,16 +72,3 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - One-way jump ledge borders the west side at col 1.
   - Cooltrainer ♀ stationed at (7, 14) facing Left overlooking the corridor.
   - Ladder down to B1F located at the top right corner at approximately (8, 13)!
-- Topography around 1F Ladder (8, 2):
-  - Ladder lands at (8, 3).
-  - A rock mound sits directly south at (4..8, 5..6).
-  - Open 2-tile corridor runs south along cols 9..10 between the rock mound and the ledge at col 11.
-- Boulder Puzzle 1 (cols 8..10, rows 9..11):
-  - Round Strength boulder located at (9, 10) in the north-south corridor.
-  - Flanked by cliff walls at (8, 10) and (10, 10).
-  - Open space to push South into row 11.
-- Western Corridor & Boulder Puzzle (cols 3..5, rows 4..9):
-  - From 1F ladder at (8, 2), northern path runs west along row 4 to (4, 4).
-  - Corridor turns south down col 4 (rows 4..7).
-  - Round Strength boulder located at (4, 7).
-  - Open space to push South into (4, 8) and (4, 9) to advance through the western cavern.
