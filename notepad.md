@@ -4,12 +4,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 13) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, learns `4: Ice Beam` Lv 16; holds `Oran Berry` |
+| Starter (Route 101) | Mudkip (M, Lv 15) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Littleroot Town | Luvdisc (M, Lv 15) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, learns `4: Ice Beam` Lv 16; holds `Oran Berry` |
 | Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 6; `Water/Flying`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
-| Route 102 | Nidoran M (M, Lv 15) | ARES | Active | Slot 1; `Poison`; `Poison Point`; `1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12; holds `Oran Berry` |
+| Route 102 | Nidoran M (M, Lv 15) | ARES | Active | Slot 4; `Poison`; `Poison Point`; `1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 5; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Cubone (M, Lv 14) | HADES | Active | Slot 1; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
+| Route 104 | Cubone (M, Lv 15) | HADES | Active | Slot 1; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
 | Petalburg Woods | Pineco (M, Lv 8) | — | Forfeited (Selfdestruct) | Used `Selfdestruct` on Turn 2 (`THETIS` tanked it at `43 -> 9 HP`, saving `HADES` with 0 casualties) |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
@@ -66,7 +66,7 @@
        - `#1 Geodude` (`276 EXP`): Lead **`Luvdisc` (`0 / 653 EXP`)**, OHKO on Turn 1 with `3: Water Pulse` -> `Luvdisc = 276 / 653 EXP`.
        - `#2 Zubat` (`126 EXP`): **`Luvdisc`** stays in, 2HKOs with `4: Ice Beam` -> `Luvdisc = 402 / 653 EXP`.
        - `#3 Sudowoodo` (`346 EXP`): **`Luvdisc`** switches on Turn 1 to **`Kabuto`/`Omanyte` (`0 / 817 EXP`)**, who 2HKOs with `Water Pulse` -> `Luvdisc = 575 / 653 EXP`, `Kabuto/Omanyte = 173 / 817 EXP`.
-       - `#4 Omanyte` (`360 EXP`): **`Kabuto`/`Omanyte`** switches on Turn 1 to **`Weepinbell`/`Gloom` (`0 / 585 EXP`)**, who OHKOs with `Vine Whip`/`Magical Leaf` -> `Kabuto/Omanyte = 353 / 817 EXP`, `Weepinbell/Gloom = 180 / 585 EXP`.
+       - `#4 Omanyte` (`360 EXP`): **`Kabuto`/`Omanyte`** stays in and OHKOs with `4x` `Mega Drain` (or switches to Route 116 encounter / `Azurill` / `Nidorino`) -> `Kabuto = 533 / 817 EXP`.
      - **Battle 2 — School Kid Tammy (`1,566 EXP`)**:
        - `#1 Aron` (`267 EXP`): Lead **`Marshtomp` (`0 / 1,021 EXP`)**, OHKO with `Mud Shot` -> `Marshtomp = 267 / 1,021 EXP`.
        - `#2 Yanma` (`345 EXP`): **`Marshtomp`** switches on Turn 1 to **`Wingull` (`0 / 817 EXP`)**, who 2HKOs with `Wing Attack` -> `Marshtomp = 439 / 1,021 EXP`, `Wingull = 172 / 817 EXP`.

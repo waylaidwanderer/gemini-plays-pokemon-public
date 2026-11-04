@@ -35,7 +35,7 @@
        - `#1 Geodude` (`276 EXP`): Lead **`Luvdisc` (`0 / 653 EXP`)**, OHKO on Turn 1 with `3: Water Pulse` -> `Luvdisc = 276 / 653 EXP`.
        - `#2 Zubat` (`126 EXP`): **`Luvdisc`** stays in, 2HKOs with `4: Ice Beam` -> `Luvdisc = 402 / 653 EXP`.
        - `#3 Sudowoodo` (`346 EXP`): **`Luvdisc`** switches on Turn 1 to **`Kabuto`/`Omanyte` (`0 / 817 EXP`)**, who 2HKOs with `Water Pulse` -> `Luvdisc = 575 / 653 EXP`, `Kabuto/Omanyte = 173 / 817 EXP`.
-       - `#4 Omanyte` (`360 EXP`): **`Kabuto`/`Omanyte`** switches on Turn 1 to **`Weepinbell`/`Gloom` (`0 / 585 EXP`)**, who OHKOs with `Vine Whip`/`Magical Leaf` -> `Kabuto/Omanyte = 353 / 817 EXP`, `Weepinbell/Gloom = 180 / 585 EXP`.
+       - `#4 Omanyte` (`360 EXP`): **`Kabuto`/`Omanyte`** stays in and OHKOs with `4x` `Mega Drain` (or switches to Route 116 encounter / `Azurill` / `Nidorino`) -> `Kabuto = 533 / 817 EXP`.
      - **Battle 2 — School Kid Tammy (`1,566 EXP`)**:
        - `#1 Aron` (`267 EXP`): Lead **`Marshtomp` (`0 / 1,021 EXP`)**, OHKO with `Mud Shot` -> `Marshtomp = 267 / 1,021 EXP`.
        - `#2 Yanma` (`345 EXP`): **`Marshtomp`** switches on Turn 1 to **`Wingull` (`0 / 817 EXP`)**, who 2HKOs with `Wing Attack` -> `Marshtomp = 439 / 1,021 EXP`, `Wingull = 172 / 817 EXP`.
