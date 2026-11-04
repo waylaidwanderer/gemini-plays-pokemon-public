@@ -7,10 +7,10 @@
 | Starter (Route 101) | Mudkip (F, Lv 14) | PROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
 | Littleroot Town | Goldeen (F, Lv 14) | SIREN | Active | Slot 2; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 |
 | Route 103 | Spearow (M, Lv 16) | ZEPHYR | Active | Slot 5; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
-| Route 102 | Sandshrew (F, Lv 14) | GAIA | Active | Slot 3; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 |
+| Route 102 | Sandshrew (F, Lv 15) | GAIA | Active | Slot 3; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 (`41 HP, 28 Attack, 29 Defense`) |
 | Petalburg City | Luvdisc (F, Lv 14) | EROS | Active | Slot 4; `1: Tackle`, `2: Charm`, `3: Water Pulse` Lv 12 (`37 Speed` at Lv 14!) |
 | Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited in PC (`Box 1`); fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
-| Petalburg Woods | Phanpy (F, Lv 8) | RHEA | Active | Slot 6; `Ground`-type, knows `Mud Shot`; raising to Lv 14 |
+| Petalburg Woods | Phanpy (F, Lv 14) | RHEA | Active | Slot 6; `Ground`-type (`53 HP, 22 Attack, 22 Defense`), knows `Mud Shot`, learns `Ice Shard` Lv 10 |
 | Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
 
@@ -21,7 +21,7 @@
 - **Route 102**: `Meowth` (`Limber` [prevents paralysis]; starts at Lv 6 with `1: Pay Day`, `2: Faint Attack`, learns spread `3: Swift` Lv 12 [60 BP Normal], `4: Bite` Lv 16 [60 BP Dark]); `Spoink` (`Confusion`, `Psybeam` Lv 16); `Sandshrew` (`Scratch`, `Defense Curl`, `Sand-Attack`, `Poison Sting` Lv 11).
 - **Petalburg City (`Old Rod`)**: `Azurill` (`Huge Power`; `Secret Power` Lv 6, `BubbleBeam` Lv 10, `Body Slam` Lv 15).
 - **Route 104**: `Cubone` (starts with `1: Bone Club` [65 BP STAB Ground, non-contact], `2: Rock Throw` [50 BP Rock]; learns `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; `35–37 Defense` at Lv 14–15); `Snubbull` (`Intimidate`; starts with `Tackle`, `Bite`, `Lick`, learns `Roar` Lv 8, `Headbutt` Lv 13); `Seedot -> Nuzleaf` (`Grass/Dark`) at Lv 14 (caught Lv 7 knowing `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical]; learns `Nature Power` Lv 13); `Nidoran♀ -> Nidorina` at Lv 16 (`Bite` Lv 8, `Double Kick` Lv 12, `Crunch` Lv 16).
-- **Petalburg Woods**: `Hoothoot` (`Insomnia`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11, `Hypnosis` Lv 16); `Oddish -> Gloom` at Lv 16 (`585 EXP` buffer; learns `Toxic` Lv 14, `Magical Leaf` Lv 16 upon evolving); `Bellsprout -> Weepinbell` at Lv 16 (`585 EXP` buffer).
+- **Petalburg Woods**: `Phanpy` (`53 HP` at Lv 14; starts with `Mud Shot`, learns `Ice Shard` Lv 10); `Hoothoot` (`Insomnia`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11, `Hypnosis` Lv 16); `Oddish -> Gloom` at Lv 16 (`585 EXP` buffer; learns `Toxic` Lv 14, `Magical Leaf` Lv 16 upon evolving); `Bellsprout -> Weepinbell` at Lv 16 (`585 EXP` buffer).
 - **Route 116**: `Voltorb` (`Slow` EXP group with `1,021 EXP` buffer at Lv 16; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15; `39 Speed` at Lv 16); `Makuhita` (starts with `1: Faint Attack`, `2: SmellingSalt`, `3: Sand-Attack`, `4: Tackle`, learns `Force Palm` Lv 10, `Vital Throw` Lv 13); `Grimer` (`Sludge Bomb` Lv 13); `Yanma` (`Speed Boost`/`Compoundeyes`, `SonicBoom` Lv 13).
 - **Route 115 (`Old Rod`)**: `Kabuto` / `Omanyte` (`817 EXP` buffer at Lv 16; starts with `Rock Tomb` and `Water Pulse`; `Kabuto` learns `Mega Drain` Lv 13).
 
