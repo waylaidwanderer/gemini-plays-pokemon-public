@@ -2,10 +2,10 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 14) | MUDKIP | Active | Slot 3 (in-battle Slot 1); `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
-| Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Slot 1 (in-battle Slot 2); `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12 |
-| Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 2 (in-battle Slot 3); `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
-| Route 102 | — | — | Pending | Tall grass (battling wild `Farfetch'd` M Lv 6) |
+| Starter (Route 101) | Mudkip (F, Lv 14) | MUDKIP | Active | Slot 3; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
+| Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Slot 1; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12 |
+| Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 2; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
+| Route 102 | Farfetch'd (M, Lv 6) | — | Forfeited (Fled) | Broke out of 10 Poke Balls at full HP while landing repeated `Stick` critical hits; fled at `8/39 HP` to preserve `EROS`, `MUDKIP`, and `SELENE` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass |
 | Petalburg Woods | — | — | Pending | Tall grass |
