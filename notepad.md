@@ -9,7 +9,7 @@
 | Route 103 | Spearow (M, Lv 14) | ZEPHYR | Active | Slot 1; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
 | Route 102 | Sandshrew (F, Lv 13) | GAIA | Active | Slot 4; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 |
 | Petalburg City | Luvdisc (F, Lv 13) | EROS | Active | Slot 5; `1: Tackle`, `2: Charm`, `3: Water Pulse` Lv 12 (`35 Speed` at Lv 13!) |
-| Route 104 | Cubone (M, Lv 7) | - | Pending | Encountered at `(26, 58)` on Route 104; catching |
+| Route 104 | Cubone (M, Lv 7) | HADES | Active | Slot 6; caught at `(26, 58)` on Route 104 |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
