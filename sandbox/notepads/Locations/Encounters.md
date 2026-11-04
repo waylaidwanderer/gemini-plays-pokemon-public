@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 14) | PROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
 | Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Slot 3; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12 |
 | Route 103 | Sunflora (F, Lv 14) | DEMETER | Active | Slot 2; evolved via wild `Sun Stone`; `1: Absorb`, `2: Growth` Lv 6, `3: Razor Leaf` Lv 10, `4: Mega Drain` Lv 13 (`42 HP, 34 Sp. Atk, 26 Sp. Def` at Lv 12) |
-| Route 102 | — | — | Pending | Tall grass |
+| Route 102 | Electrike (F, Lv 13) | ASTRAEA | Active | Slot 4; `ThunderShock`, `Thunder Wave` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass |
 | Petalburg Woods | — | — | Pending | Tall grass |
