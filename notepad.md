@@ -1,18 +1,18 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #14)
+# Nuzlocke Encounters (Attempt #15)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (F, Lv 16) | PROTEUS | Deceased | Slot 1; fainted Turn 2903 vs Gym Leader Roxanne's `Nosepass` (`Selfdestruct`) |
-| Littleroot Town | Goldeen (F, Lv 17) | SIREN | Benched (Cap) | Deposited at `(0, 0)` of `Box 1` until Roxanne is defeated |
-| Route 103 | Spearow (M, Lv 16) | ZEPHYR | Deceased | Slot 5; fainted Turn 2911 vs Gym Leader Roxanne's `Lileep` (`AncientPower`) |
-| Route 102 | Sandshrew (F, Lv 16) | GAIA | Deceased | Deposited at `(3, 0)` of `Box 1`; fainted Turn 2879 vs Hiker Marc's `Kabuto` (`Giga Drain`) |
-| Petalburg City | Luvdisc (F, Lv 16) | EROS | Active | Slot 4; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`44 HP, 21 Sp. Atk, 26 Sp. Def, 42 Speed`!; `644 / 653 EXP`, holding `Oran Berry`) |
-| Route 104 | Cubone (M, Lv 15) | HADES | Deceased | Deposited at `(1, 0)` of `Box 1`; fainted Turn 2788 vs Rich Boy Winston's `Growlithe` |
-| Petalburg Woods | Phanpy (F, Lv 16) | RHEA | Active | Slot 2; `1: Tackle`, `2: Mud Shot`, `3: Ice Shard` Lv 10, `4: Rock Throw` Lv 15 (`59 HP, 24 Attack, 24 Defense, 21 Speed`; `282 / 817 EXP`, holding `Oran Berry`) |
-| Route 116 | Makuhita (M, Lv 16) | ATLAS | Active | Slot 3 (in-battle Slot 1); `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10 (`49 HP, 25 Attack`; `402 / 928 EXP`, holding `Oran Berry`) |
-| Route 115 | Kabuto (M, Lv 17) | CRONUS | Deceased | Slot 6; fainted Turn 2915 vs Gym Leader Roxanne's `Lileep` (`Giga Drain`) |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass |
+| Petalburg Woods | — | — | Pending | Tall grass |
+| Route 116 | — | — | Pending | Tall grass |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#14)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
@@ -29,15 +29,15 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #14
+# Nuzlocke Dashboard — Attempt #15
 
 ## Active Rules & Status
-- **Attempt**: #14
+- **Attempt**: #15
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#11)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#14)
 - **Attempt #1**: Wiped at Turn 497 against **PKMN Trainer Red** (`(29, 8)` on Route 104 North).
 - **Attempt #2**: Wiped at Turn 864 in **Rustboro Gym** against **School Kid Tammy**'s Lv 15 `Rhyhorn` (`Megahorn`), because 5 of our living Pokemon (`Chloris`, `Ahecate`, `Thetis`, `Proteus`, `Eros`) had hit **Lv 17** and been benched under the Lv 16 Level Cap.
 - **Attempt #3**: Wiped at Turn 1134 in **Rustboro Gym** against **Hiker Marc**'s Lv 14 `Kabuto` (`Giga Drain`, `Rock Tomb`, `Aerial Ace`, `20 Speed`).
@@ -53,9 +53,14 @@
   2. Pressing `Up, Up` without `Left` first on the Party screen (`accidentally selecting Slot 1 EROS instead of Slot 6 CHLORIS`) and batching a PC interaction right after `Oddish -> Gloom`'s Lv 16 evolution (`where Magical Leaf's 3s fanfare caused the queued PC A presses to feed a 2nd Rare Candy to Lv 17`).
   3. Chaining `"B", "sleep 1500", "B", "sleep 5000"` (`to dismiss "Foe ARON fainted!" and "MARSHTOMP gained 267 EXP"`) with `"Down", "Left", "A"` (`to switch MARSHTOMP out on School Kid Tammy's Yanma`), where the `267 EXP` bar fill + `Yanma` send-out took `5.2s` instead of `5.0s`, so `"Down"` fired `0.17s` before `"What will MARSHTOMP do?"` opened and `"A"` clicked `FIGHT -> Mud Sport` instead of `POKEMON`, letting `Yanma` KO `Marshtomp` with `4x` `Giga Drain`.
 - **Attempt #12**: Caught 7 encounters with 0 deaths (discovering that Route 103 `Skitty` holding a wild `Moon Stone` evolves into `Delcatty` with `50 HP, 32 Speed` at Lv 15 and `Sing` + `Attract` + `70 BP STAB Secret Power`, and that Route 104 `Snubbull` has `Intimidate` and learns `70 BP STAB Headbutt` at Lv 13), but reset at Turn 2471 in Petalburg Woods after leading pure-Water `Mudkip` against the Team Magma Grunt's lead `Magnemite` (`Thunder Wave` + `2x` `ThunderShock`) and leaving paralyzed `16/44 HP` `Mudkip` in to KO `Koffing`, allowing incoming `Houndour` (`Pursuit`) to outspeed paralyzed `Mudkip` and KO him after a Turn 1 full paralysis. Never lead pure-Water `Mudkip` into `Magnemite` (`Thunder Wave` + `ThunderShock`), and never leave a paralyzed or `< 75% HP` Pokemon in to KO `Koffing` before `Houndour` enters! Also, in Attempt #13 against Twins Gina & Mia (`2x` Lv 8 `Smeargle`), never bring a `Normal`-type (`2x` weak to Left `Smeargle`'s `150 BP Focus Punch`), as Right `Smeargle`'s `Teeter Dance` confuses both allies and a double confusion self-hit lets `Focus Punch` OHKO a `Normal`-type.
-- **Attempt #13 (Full 6-Pokemon Roxanne Team Verified!)**: Went 9-for-9 on pre-Roxanne catches, cleared all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) with **0 deaths and all 8 living Pokemon at exact Lv 16**, leveled 4 Pokemon (`Marshtomp`, `Kabuto`, `Luvdisc`, `Makuhita`) to **Lv 17 mid-battle** against Gym Leader Roxanne, and defeated her first **5 Pokemon** (`1. Nosepass Lv 15`, `2. Lileep Lv 14`, `3. Anorith Lv 14`, `4. Relicanth Lv 14`, `5. Shuckle Lv 14`) with **all 6 of our Pokemon still alive** before wiping at Turn 2714 with her 6th and final Pokemon, `6. Lunatone Lv 15` (`Psychic` 90 BP, `Confusion` 50 BP, `Rock Slide` 75 BP, `Hypnosis`, `29 Speed`, holds `Sitrus Berry`), down to **29% yellow HP**. **CRITICAL LESSONS FOR ROXANNE IN ATTEMPT #14**:
-  1. `Luvdisc` at Lv 16–17 has **`37–39 Speed` (`8–10 points FASTER than Lv 15 Lunatone's 29 Speed!`)**, and `Kabuto` at Lv 17 has **`28 Speed`**, but BOTH were paralyzed (`PAR` -> `9` and `7` Speed) because we switched them into `#1 Nosepass` (`Thunder Wave`)! Never switch `Luvdisc` into `Nosepass` (`lead Ground-type Marshtomp [immune to Thunder Wave!] and pivot to Kabuto holding a Cheri Berry on Nosepass, and use Kabuto on #3 Anorith so Marshtomp stays at 100% HP`), keeping **`Luvdisc` (`37–39 Speed`, holding `Oran Berry`, `Water Pulse`) 100% UNPARALYZED AND AT 100% FULL HP ON THE BENCH UNTIL `#6 LUNATONE` ENTERS** so `Luvdisc` outspeeds `Lunatone` (`39 > 29 Speed`) and 2HKOs it cleanly!
-  2. `#5 Shuckle` uses **`Sunny Day`** (which halves `Water` moves by `0.5x` for 5 turns); always make sure `Sunny Day` has faded before `#6 Lunatone` enters so `Luvdisc`'s `Water Pulse` and `Marshtomp`'s `Water Gun` hit `Lunatone` at 100% full `2x` super-effective power!
+- **Attempt #13 & #14 (Full 6-Pokemon Roxanne Team & Exact Move/Ability Data Verified!)**: Went 9-for-9 on pre-Roxanne catches and cleared all 3 Rustboro Gym trainers (`Josh`, `Tammy`, `Marc`) with our entire 6-Pokemon Roxanne squad at exact Lv 16 (`and Marshtomp, Kabuto, and Luvdisc all within 1 KO of Lv 17!`). In Attempt #13 we defeated Roxanne's first **5 Pokemon** (`1. Nosepass Lv 15`, `2. Lileep Lv 14`, `3. Anorith Lv 14`, `4. Relicanth Lv 14`, `5. Shuckle Lv 14`) with **all 6 of our Pokemon still alive** before wiping with `6. Lunatone Lv 15` at 29% yellow HP; in Attempt #14, equipping `Kabuto` with a `Cheri Berry` cured `Nosepass`'s `Thunder Wave` and leveled `Kabuto` to Lv 17 (`28 Speed`) unparalyzed, but switching `Marshtomp` (`35/50 HP`, `1x` neutral to Normal) back into `Nosepass` on Turn 4 let `Nosepass`'s `Selfdestruct` crit/KO `Marshtomp`, and switching `Makuhita` out of `Lileep` after `Sitrus Berry` gave `Lileep` a free `Giga Drain` heal back to full HP. **CRITICAL LESSONS FOR ROXANNE IN ATTEMPT #15**:
+  1. **Never Switch `Marshtomp` Back Into `#1 Nosepass` (`Selfdestruct`)**: Lead `Marshtomp` (`Mud Shot` on Turn 1 -> `-1 Speed` on `Nosepass`), switch to `Kabuto`/`Omanyte` (**holding `Cheri Berry`**) on Turn 2, and **STAY IN with `Kabuto`/`Omanyte` (`38–40 Defense`, `0.5x` resists `Selfdestruct`, taking only ~15 dmg!)** using `Water Pulse` / `Mega Drain` until `Nosepass` faints! That guarantees **BOTH `Marshtomp` (`35/50 -> 38/53 HP`, holding `Oran Berry`) AND `Kabuto`/`Omanyte` reach Level 17 with 0 deaths and 0 paralysis**!
+  2. **How to Beat `#2 Lileep` (Lv 14, `Thick Fat` [0.5x Ice/Fire], `15 Speed` [faster than Lv 16 Makuhita], `Giga Drain`, `AncientPower`, `Recover`, `Sitrus Berry`)**:
+     - Do **NOT** use `Ice Beam` (`not super-effective due to Thick Fat`) and do **NOT** switch `Makuhita` out after `Vital Throw` triggers `Lileep`'s `Sitrus Berry` (switching out gives `Lileep` a free `Giga Drain` heal out of `Vital Throw` KO range!). Instead, either:
+       - Use a `Grass` / `Poison` / `Bug` / `Flying` attacker that **`0.5x` resists `Giga Drain`** (`Gloom` / `Weepinbell` / `Grimer` [`90 BP Sludge Bomb`!] / `Yanma` / `Ledyba` / `Nuzleaf`), OR
+       - Chip `Lileep` to ~75% HP first (`e.g. with a 0.5x Giga-Drain-resisting pivot or Kabuto's Rock Tomb/Mega Drain`) BEFORE sending in `Makuhita` (`49/49 HP`, `Oran Berry`) so `Vital Throw` (`~72% dmg`) knocks `Lileep` straight into red HP or KOs in 2 hits!
+  3. **Use `Marshtomp` (Lv 17, `53 HP`, `1x` neutral to `Brick Break`) on `#3 Anorith` (`Aerial Ace`, `Brick Break`)**: Because `Anorith` knows `75 BP Brick Break` (`2x` super-effective vs `Kabuto`/`Omanyte`), keep `Kabuto`/`Omanyte` healthy for `#4 Relicanth` (`4x` weak to `Kabuto`'s `Mega Drain`!) and use Lv 17 `Marshtomp` (`Water Gun` / `Mud Shot`) on `#3 Anorith`!
+  4. **Keep `Luvdisc` (`42–44 Speed`, holding `Oran Berry`) Unparalyzed for `#6 Lunatone` (`29 Speed`) & Wait Out `#5 Shuckle`'s `Sunny Day`**: Never switch `Luvdisc` into `#1 Nosepass` (`Thunder Wave`) or `#2 Lileep` (`Giga Drain`), and always make sure `#5 Shuckle`'s `Sunny Day` (`0.5x` Water for 5 turns) has faded before `#6 Lunatone` enters so `Luvdisc`'s `Water Pulse` and `Marshtomp`'s `Water Gun` hit `Lunatone` at full `2x` super-effective power!
 - **Core Rules for Attempt #13 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
   1. **Strict Separation of Enemy Send-Outs, Party Switches, and Lv 16 Rare Candies**:
      - **NEVER chain `"B"` (dismissing `"fainted!"` / `"gained EXP"`) and a Party switch (`Down, Left, A`) in the same `press_buttons` call**! Always advance `"fainted!"` + `"gained EXP"` first so that the trainer's next Pokemon is visibly on the field and `"What will [POKEMON] do?"` is open at `+0.00s` on `<CurrentScreen>` before executing a Party switch!
@@ -309,6 +314,6 @@
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Rock Tomb`, `Brick Break` [75 BP Fighting], `Secret Power`, `Iron Defense`, 14+ Speed), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `AncientPower`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Magnitude`, `Ice Beam`), `Corsola` (F, Lv 13, 309 EXP, `Aurora Beam`, `Rock Tomb`, `Water Pulse`, `Recover`), `Larvitar` (M, Lv 15, 213 EXP, **`Earthquake`** [100 BP], `Rock Slide`, 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (reached from `(5, 12)` via `Up x4` to `(5, 8)` then `Left x4` to `(1, 8)`, just south of Gym Leader Roxanne's platform stairs).
     - Team (4 Pokemon): `Onix` (M, Lv 15, 346 EXP, `Dig`, `Swagger`, `Rock Tomb`, 28 Speed), `Kabuto` (M, Lv 14, 357 EXP, `Giga Drain` [75 BP, 10 PP], `Rock Tomb`, `Aerial Ace`, `Mud Shot`, 22+ Speed), `Baltoy` (Lv 12, 148 EXP, `Rock Tomb`, `Psybeam`, `Selfdestruct`, holds `Oran/Sitrus Berry`), `Cacnea` (M, Lv 12, 248 EXP, `Needle Arm`, `Thunder Wave`, `Stomp`, `Teeter Dance`/`Swagger`).
-  - **Gym Leader Roxanne (`(5, 2)` facing `Down`)**: Reached from `(1, 8)` via `Up x3` to `(1, 5)`, `Right x4` to `(5, 5)`, and `Up x2` to `(5, 3)` facing `Up` (6 Pokemon: lead `Nosepass` F Lv 15 [346 EXP, `Seismic Toss`, `Thunder Wave`, `Attract`, `Selfdestruct` (can be used even from ~80% green HP!), holds `Sitrus Berry`], `Lileep` M Lv 14 [363 EXP, `Giga Drain`, `AncientPower`, `Recover`, holds `Sitrus Berry`], `Anorith` M Lv 14 [`Rock/Bug`, `Aerial Ace`, `Brick Break`, holds `Sitrus Berry`], `Relicanth` M Lv 14 [594 EXP, `Water/Rock`, `Yawn`, holds `Sitrus Berry`], `Shuckle` F Lv 14 [240 EXP, `Bug/Rock`, `Curse`, `Sunny Day`, `Rollout`, holds `Sitrus Berry`], `Lunatone` Lv 15 [`Rock/Psychic`, `Psychic` 90 BP, `Confusion` 50 BP, `Rock Slide` 75 BP, `Hypnosis`, `29 Speed`, holds `Sitrus Berry`]).
+  - **Gym Leader Roxanne (`(5, 2)` facing `Down`)**: Reached from `(1, 8)` via `Up x3` to `(1, 5)`, `Right x4` to `(5, 5)`, and `Up x2` to `(5, 3)` facing `Up` (6 Pokemon: lead `Nosepass` F Lv 15 [346 EXP, `Seismic Toss`, `Thunder Wave`, `Attract`, `Selfdestruct` (can be used even from ~80% green HP!), holds `Sitrus Berry`], `Lileep` M Lv 14 [363 EXP, `Thick Fat` (0.5x Ice/Fire), `15+ Speed` (faster than Lv 16 Makuhita), `Giga Drain`, `AncientPower`, `Recover`, holds `Sitrus Berry`], `Anorith` M Lv 14 [357 EXP, `Rock/Bug`, `Aerial Ace`, `Brick Break`, holds `Sitrus Berry`], `Relicanth` M Lv 14 [594 EXP, `Water/Rock`, `Yawn`, holds `Sitrus Berry`], `Shuckle` F Lv 14 [240 EXP, `Bug/Rock`, `Curse`, `Sunny Day`, `Rollout`, holds `Sitrus Berry`], `Lunatone` Lv 15 [`Rock/Psychic`, `Psychic` 90 BP, `Confusion` 50 BP, `Rock Slide` 75 BP, `Hypnosis`, `29 Speed`, holds `Sitrus Berry`]).
 
 <hr>
