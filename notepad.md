@@ -4,20 +4,20 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 5) | PROTEUS | Active | Female (`immune to Nosepass's Attract!`); rescuing Birch on Route 101 |
-| Littleroot Town | Goldeen (F, Lv 5) | SIREN | Active | Caught at `(17, 13)` (`BubbleBeam`, `Psybeam`, `Haze`, `Supersonic` Lv 10) |
-| Route 103 | Spearow (M, Lv 4) | ZEPHYR | Active | Lv 13 (`1: Peck`, `2: Tackle` Lv 7, `3: Secret Power` Lv 13) |
-| Route 102 | Sandshrew (F, Lv 6) | GAIA | Active | Caught at `(39, 6)` (`Ground`-type, immune to `Thunder Wave` / Electric!) |
-| Petalburg City | Luvdisc (F, Lv 5) | EROS | Active | Caught at `(11, 22)` (`Water Pulse` Lv 12, `Ice Beam` Lv 16, `38–39 Speed` at Lv 16–17!) |
-| Route 104 | - | - | Pending | Tall grass at `(22..24, 56..61)` |
+| Starter (Route 101) | Mudkip (F, Lv 13) | PROTEUS | Active | Slot 2; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun` Lv 10 |
+| Littleroot Town | Goldeen (F, Lv 13) | SIREN | Active | Slot 3; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 |
+| Route 103 | Spearow (M, Lv 14) | ZEPHYR | Active | Slot 1; `1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13 |
+| Route 102 | Sandshrew (F, Lv 13) | GAIA | Active | Slot 4; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11 |
+| Petalburg City | Luvdisc (F, Lv 13) | EROS | Active | Slot 5; `1: Tackle`, `2: Charm`, `3: Water Pulse` Lv 12 (`35 Speed` at Lv 13!) |
+| Route 104 | Cubone (M, Lv 7) | - | Pending | Encountered at `(26, 58)` on Route 104; catching |
 | Petalburg Woods | - | - | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | - | - | Pending | Tall grass at `(4, 12..15)` |
 | Route 115 | - | - | Pending | Fish with Old Rod at `(7, 71)` facing `Left` (`Kabuto` / `Omanyte`) |
 
-## Verified Species Learnsets & Evolutions (Attempts #9–#13)
+## Verified Species Learnsets & Evolutions (Attempts #9–#14)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; `1: Tackle`, `2: Bubble` [spread], `3: Mud Sport`, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
 - **Littleroot Town (`Old Rod`)**: `Luvdisc` (`Secret Power`, `Charm`, `Water Pulse` Lv 12, `Ice Beam` Lv 16, `38 Speed` at Lv 16); `Goldeen` (`Swift Swim`; starts with `BubbleBeam` 65 BP, `Psybeam` 65 BP, `Haze`, learns `Supersonic` Lv 10).
-- **Route 103**: `Ledyba` (`Early Bird`; starts with `1: Silver Wind`, learns `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16; `Fast` EXP group); `Wingull` (`1: Wing Attack` at Lv 4, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13); `Skitty -> Delcatty` (can hold wild **`Moon Stone`**! `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7, `Teeter Dance` Lv 13; `Delcatty` has `50 HP, 32 Speed` at Lv 15); `Sunkern -> Sunflora` (can hold wild `Sun Stone`; `Sunflora` learns `Mega Drain` Lv 13, `Synthesis` Lv 16, compatible with `TM09 Bullet Seed`); `Poliwag` (`Bubble`, `Hypnosis` Lv 7, `Water Gun` Lv 11).
+- **Route 103**: `Spearow` (`Keen Eye`; starts with `1: Peck`, `2: Pursuit`, learns `3: Tackle` Lv 7, `4: Secret Power` Lv 13); `Ledyba` (`Early Bird`; starts with `1: Silver Wind`, learns `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16; `Fast` EXP group); `Wingull` (`1: Wing Attack` at Lv 4, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13); `Skitty -> Delcatty` (can hold wild **`Moon Stone`**! `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7, `Teeter Dance` Lv 13; `Delcatty` has `50 HP, 32 Speed` at Lv 15); `Sunkern -> Sunflora` (can hold wild `Sun Stone`; `Sunflora` learns `Mega Drain` Lv 13, `Synthesis` Lv 16, compatible with `TM09 Bullet Seed`); `Poliwag` (`Bubble`, `Hypnosis` Lv 7, `Water Gun` Lv 11).
 - **Route 102**: `Meowth` (`Limber` [prevents paralysis]; starts at Lv 6 with `1: Pay Day`, `2: Faint Attack`, learns spread `3: Swift` Lv 12 [60 BP Normal], `4: Bite` Lv 16 [60 BP Dark]); `Spoink` (`Confusion`, `Psybeam` Lv 16); `Sandshrew` (`Scratch`, `Defense Curl`, `Sand-Attack`, `Poison Sting` Lv 11).
 - **Petalburg City (`Old Rod`)**: `Azurill` (`Huge Power`; `Secret Power` Lv 6, `BubbleBeam` Lv 10, `Body Slam` Lv 15).
 - **Route 104**: `Snubbull` (`Intimidate`; starts with `Tackle`, `Bite`, `Lick`, learns `Roar` Lv 8, `Headbutt` Lv 13); `Seedot -> Nuzleaf` (`Grass/Dark`) at Lv 14 (caught Lv 7 knowing `Mega Drain`, `Bide`, `Bullet Seed` [25 BP/hit Physical]; learns `Nature Power` Lv 13); `Nidoran♀ -> Nidorina` at Lv 16 (`Bite` Lv 8, `Double Kick` Lv 12, `Crunch` Lv 16).
