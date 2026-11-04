@@ -67,8 +67,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Round Strength boulder located at (9, 10) in the north-south corridor.
   - Flanked by cliff walls at (8, 10) and (10, 10).
   - Open space to push South into row 11.
-- Northwest Corridor & Western Avenue (cols 1..4, rows 2..8):
+- Western Corridor & Boulder Puzzle (cols 3..5, rows 4..9):
   - From 1F ladder at (8, 2), northern path runs west along row 4 to (4, 4).
-  - Vertical cliff ridge at col 3 (rows 4..8) separates col 4 corridor from western avenue.
-  - A Strength boulder sits at (4, 8) leading south.
-  - Path loops north above the ridge at rows 2..3 via (4, 2) -> (1..3, 2) to access the western avenue (cols 1..2), which runs south down the western edge of B1F.
+  - Corridor turns south down col 4 (rows 4..7).
+  - Round Strength boulder located at (4, 7).
+  - Open space to push South into (4, 8) and (4, 9) to advance through the western cavern.
