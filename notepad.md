@@ -4627,6 +4627,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Functions as a one-way return destination from the main B1F cavern.
   - Return to 1F via ladder at (8, 2).
 
+## Verified Dungeon Architecture & Progression Route (Turn 19664)
+- 1F Eastern Plateau Isolation: The eastern plateau containing the ladder at (21, 32) and upper staircase at (21, 28) is completely sealed from the entrance floor by one-way ledges jumping west at (17, 36) and (19, 39).
+- Level 0 Cavern Floor: Northern advance from row 29 is blocked by solid cliff walls at row 28.
+- Canonical Progression Flow:
+  1. 1F Western Terrace: Defeat Wally -> Defeat Hope -> Enter B1F ladder at (8, 13).
+  2. B1F Enclave: Strength boulders already pushed (9, 13). Jump south over row 14 ledge into main B1F cavern!
+  3. B1F / B2F: Traverse subterranean puzzles with Flash, Strength, Rock Smash, Surf, and Waterfall to reach the eastern B1F return ladder.
+  4. 1F Eastern Plateau: Ascend via (21, 32) ladder and take the upper staircase at (21, 28) to the Victory Road exit!
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
