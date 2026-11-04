@@ -4619,6 +4619,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - At col 10, row 3 is the cliff face supporting the ramp.
   - The ramp itself is aligned along row 2 at (10..11, 2) directly east of the ladder landing at (9, 2).
   - Ascending row 2 ramp accesses the elevated eastern plateau (cols 12..20+).
+- B1F Northwest Enclave (cols 4..10, rows 2..13):
+  - Sealed enclave accessible from 1F ladder at (8, 13) -> (8, 3).
+  - All southern and eastern boundaries are solid cliffs or incoming one-way ledges (col 11 vertical ledge jumps west; row 11/14 ledges are impassable).
+  - Functions as a one-way return destination from the main B1F cavern.
+  - Return to 1F via ladder at (8, 2).
 
 <hr>
 
