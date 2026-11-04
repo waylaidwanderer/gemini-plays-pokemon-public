@@ -77,4 +77,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 10 runs east-west between middle rock mound (rows 8-9) and solid cliff wall at row 11.
   - Western end (cols 4..6) dead-ends at boulder (4, 10) and cliff wall.
   - Eastern exit connects to col 9 at (9, 10).
-  - Col 9 chute leads south past boulder at (9, 12) directly into the southern main cavern.
+  - Col 9 chute boulder pushed to (9, 13) flush against row 14 ledge.
+- Tile (8, 12) opens west onto the row 13 ledge runway.
+- Jumping south over row 14 ledge lands on row 15 of the southern main cavern.
