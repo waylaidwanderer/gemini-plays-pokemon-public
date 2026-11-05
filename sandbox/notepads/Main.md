@@ -6,7 +6,7 @@
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 60) - Evolved on turn 5632! Level 60 on turn 19490 during Wally battle! (Stats: HP 182, Atk 135, Def 99, SpA 147, SpD 132, Spe 178). Moves: Rock Tomb (5/10), Pursuit (18/20), Leaf Blade (0/15), Quick Attack (27/30). HP: 0/182. Status: Fainted (defeated Albert's Magneton). Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 60) - Evolved on turn 5632! Level 60 on turn 19490 during Wally battle! (Stats: HP 182, Atk 135, Def 99, SpA 147, SpD 132, Spe 178). Moves: Rock Tomb (5/10), Pursuit (18/20), Leaf Blade (0/15), Quick Attack (27/30). HP: 182/182. Status: OK. (Revived and healed after Albert battle). Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: Fainted.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 17) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 17 on turn 19837! HP: 47/47. Max HP: 47. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (23/30), Rock Smash (0/15), Dig (0/10), Strength (9/15). Status: OK. (Defeated Albert's Muk!).
@@ -24,12 +24,12 @@
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x2 (used across Wally and Albert battles)
+- Hyper Potion x1 (1 used on Sage Turn 19843)
 - Max Elixir x0 (found in Team Aqua Hideout B1F Generator Room at 29, 12; used on Sage Turn 17028)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
-- Revive x3 (consumed across Wally and Albert encounters)
+- Revive x2 (1 used on Sage Turn 19843)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
