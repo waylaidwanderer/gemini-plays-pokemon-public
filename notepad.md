@@ -4,9 +4,9 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (F, Lv 16) | AAPROTEUS | Active | Slot 3; `Water/Ground`; `148 / 1,021 EXP` into Lv 16 (`873 EXP` buffer); `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Starter (Route 101) | Marshtomp (F, Lv 16) | AAPROTEUS | Active | Slot 1; `Water/Ground`; `148 / 1,021 EXP` into Lv 16 (`873 EXP` buffer); `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Goldeen (F, Lv 17) | SIREN | Retired (Benched for Cap) | In Box 1 `(0, 0)`; benched at Lv 17 until Roxanne is defeated |
-| Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 1; `Water/Flying`; `Keen Eye`; `~177 / 817 EXP` into Lv 16 (`~640 EXP` buffer remaining); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
+| Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 3; `Water/Flying`; `Keen Eye`; `~177 / 817 EXP` into Lv 16 (`~640 EXP` buffer remaining); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1 `(1, 0)`; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 6; `Normal`; `Thick Fat`; `~120 / 576 EXP` into Lv 16 (`~456 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 16) | GAIA | Active | Slot 2; `Ground`; `85 / 817 EXP` into Lv 16 (`732 EXP` buffer); `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
