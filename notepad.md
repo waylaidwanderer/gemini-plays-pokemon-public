@@ -4563,7 +4563,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 5. [x] Illuminate B1F using Flash (Turn 19594)!
 6. [x] Confirmed B1F northwest enclave is a sealed return destination with incoming one-way ledges.
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
-8. [ ] Explore eastern plateau ladder (21, 32) and upper staircase (21, 28).
+8. [x] Confirmed (21, 32) on 1F eastern plateau is the exit/return destination from B1F, not an accessible 1F entrance.
 9. [ ] Navigate B2F (use Surf and Waterfall).
 10. [ ] Ascend back to 1F exit corridor.
 11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
@@ -4654,10 +4654,21 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   3. Re-enter 1F, cross western bridge to western terrace ladder at (8, 13).
   4. Descend to B1F (8, 3), use Flash, and solve the boulder puzzle to advance toward B2F!
 
-## B1F Northwest Boulder Chute Topography (Turn 19948)
-- Boulder 1 at (9, 10): Pushed south into (9, 11).
-- Row 10 West Corridor: Opens west across cols 9..4 to Boulder 2 at (4, 8), which pushes up into (4, 7) against the northern wall at (4, 6) (side chamber).
-- Main Progression Path: Return to (9, 10), step down col 9 to push Boulder 1 further south through the narrow 1-tile chute (col 9, rows 11..14) into the southern cavern.
+
+## B1F Northwest Boulder Puzzle Solution (Verified Turn 19951)
+- Puzzle Mechanics & Reset:
+  - Stepping up to 1F via ladder at (8, 2) and re-entering B1F at (8, 3) resets all boulders.
+  - Pushing Boulder 1 south down col 9 permanently wedges it at (9, 13) against the row 14 ledge (fatal dead end).
+- Verified Solution:
+  1. From ladder (8, 3), do NOT touch Boulder 1 at (9, 10).
+  2. Walk West along northern corridor (row 3) to col 3/4.
+  3. Approach Boulder 2 at (4, 7..8) from the WEST at (3, 7).
+  4. Push Boulder 2 EAST into the open row 7 corridor, clearing column 4 completely.
+  5. Walk South down col 4 to row 10.
+  6. Walk East along row 10 to (8, 10), directly facing Boulder 1 at (9, 10).
+  7. Push Boulder 1 EAST from (8, 10) into the open alcove at (10, 10).
+  8. Column 9 is now completely clear from row 10 all the way to row 14!
+  9. Walk South down column 9 to row 14 and hop over the ledge into the main southern B1F cavern!
 
 
 <hr>
