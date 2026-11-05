@@ -4,15 +4,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Evolved at Lv 16 (`0 / 1,021 EXP`; `48 HP`; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`); holds `Oran Berry` |
+| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Evolved at Lv 16 (`0 / 1,021 EXP`; `53 HP`; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`); holds `Oran Berry` |
 | Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; Relaxed (`+Def, -Speed`); raised to Lv 16 (`0 / 653 EXP`; `41 HP, 25 Def, 36 Speed`; `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` Lv 16); holds `Oran Berry` |
 | Route 103 | Hoppip (M, Lv 15) | ZEPHYR | Active (Box 1) | Caught at `(15, 11)`; `Grass/Flying`; raised to Lv 15 (`1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10; declined `Stun Spore` Lv 15); holds `Oran Berry` |
 | Route 102 | Gulpin (M, Lv 17) | BACCHUS | Benched (Cap) | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Medium Fast` EXP group in this hack; `1: Giga Drain` Lv 17, `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14; benched at Lv 17 until Roxanne is defeated |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 16 (`0 / 653 EXP`; `45 HP`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); holds `Oran Berry` |
 | Route 104 | Venonat (F, Lv 16) | ARACHNE | Active (Box 1) | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 16 (`0 / 973 EXP`; `1: Foresight`, `2: Leech Life`, `3: Psybeam`, `4: Toxic` Lv 16); holds `Oran Berry` |
-| Petalburg Woods | Weepinbell (F, Lv 16) | DEMETER | Active | Caught at `(6, 30)`; evolved into `Weepinbell` at Lv 16 (`0 / 585 EXP`; `48 HP`; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); holds `Oran Berry` |
+| Petalburg Woods | Weepinbell (F, Lv 16) | DEMETER | Active | Caught at `(6, 30)`; evolved into `Weepinbell` at Lv 16 (`0 / 585 EXP`; `47 HP`; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); holds `Oran Berry` |
 | Route 116 | Voltorb (Lv 16) | ASTRAPE | Active | Caught at `(4, 13)` on Turn 1; `Electric`; Rash (`+Sp.Atk, -Sp.Def`), `Static`; `Slow` EXP group (`0 / 1,021 EXP` buffer at Lv 16; `41 HP, 29 Sp.Atk, 39 Speed`; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15); holds `Oran Berry` |
-| Route 115 | Omanyte (M, Lv 16) | PROTEUS | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; Brave (`+Atk, -Speed`), `Swift Swim`; raised to Lv 16 (`0 / 817 EXP`; `37 HP, 38 Def, 37 Sp.Atk, 27 Sp.Def, 17 Speed`; learned `Aurora Beam` and `Mud Shot` at Lv 15); holds `Oran Berry` |
+| Route 115 | Omanyte (M, Lv 16) | PROTEUS | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; Brave (`+Atk, -Speed`), `Swift Swim`; `Medium Slow` EXP group (`0 / 585 EXP`; `37 HP, 38 Def, 37 Sp.Atk, 27 Sp.Def, 17 Speed`; `1: BubbleBeam`, `2: Rock Tomb`, `3: Aurora Beam` Lv 15, `4: Mud Shot` Lv 15); holds `Oran Berry` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#22)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
@@ -69,15 +69,15 @@
        - `#4 Omanyte` (`360 EXP`): **`PROTEUS`** switches on Turn 1 to **`ASTRAPE`**, who KOs with `3: Shock Wave` -> `PROTEUS = 353 / 585 EXP`, `ASTRAPE = 416 / 1,021 EXP`.
      - **Battle 2 — School Kid Tammy (`1,566 EXP`)**:
        - `#1 Aron` (`267 EXP`): Lead **`MARSHTOMP` (`0 / 1,021 EXP`)**, OHKO with `3: Mud Shot` -> `MARSHTOMP = 267 / 1,021 EXP`.
-       - `#2 Yanma` (`345 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`THETIS` (`Azurill`, `0 / 653 EXP`)**, who 2HKOs with `1: Body Slam` -> `MARSHTOMP = 439 / 1,021 EXP`, `THETIS = 172 / 653 EXP`.
+       - `#2 Yanma` (`345 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`THETIS` (`Azurill`, `0 / 653 EXP`)**, who KOs with `1: Body Slam` -> `MARSHTOMP = 439 / 1,021 EXP`, `THETIS = 172 / 653 EXP`.
        - `#3 Rhyhorn` (`432 EXP`): **`THETIS`** switches on Turn 1 to **`MARSHTOMP`**, who OHKOs with `4: Water Gun` -> `THETIS = 388 / 653 EXP`, `MARSHTOMP = 655 / 1,021 EXP`.
        - `#4 Corsola` (`309 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`DEMETER` (`Weepinbell`, `0 / 585 EXP`)**, who 2HKOs with `1: Vine Whip` -> `MARSHTOMP = 809 / 1,021 EXP`, `DEMETER = 154 / 585 EXP`.
-       - `#5 Larvitar` (`213 EXP`): **`DEMETER`** switches on Turn 1 to **`THETIS`**, who OHKOs with `4: BubbleBeam` -> `DEMETER = 260 / 585 EXP`, `THETIS = 494 / 653 EXP`.
+       - `#5 Larvitar` (`213 EXP`): **`DEMETER`** (`27 Speed > Larvitar's 18 Speed`) stays in and OHKOs on Turn 1 with `4x` super-effective `1: Vine Whip` -> `DEMETER = 367 / 585 EXP`, `THETIS = 388 / 653 EXP`.
      - **Battle 3 — Hiker Marc (`1,099 EXP`)**:
-       - `#1 Onix` (`345 EXP`): Lead **`MARSHTOMP` (`809 / 1,021 EXP`)**, switch on Turn 1 to **`EROS` (`339 / 653 EXP`)**, who OHKOs with `3: Water Pulse` -> `MARSHTOMP = 981 / 1,021 EXP`, `EROS = 511 / 653 EXP`.
-       - `#2 Kabuto` (`356 EXP`, `25+ Speed`): **`EROS`** pivots through **`THETIS` (`494 / 653 EXP`)** -> **`ASTRAPE` (`416 / 1,021 EXP`, `39 Speed`)** (`3-way split: 118 EXP each`), and `ASTRAPE` OHKOs `Kabuto` with `2x` super-effective `3: Shock Wave` -> `EROS = 629 / 653 EXP`, `THETIS = 612 / 653 EXP`, `ASTRAPE = 534 / 1,021 EXP`.
-       - `#3 Cacnea` (`248 EXP`, `Needle Arm` [Special Grass], `Thunder Wave`): **`ASTRAPE`** switches on Turn 1 to **`DEMETER` (`260 / 585 EXP`, `0.25x` 4x-resists `Needle Arm`!)** and 2HKOs `Cacnea` with **`2x` super-effective STAB `2: Acid`** -> `ASTRAPE = 658 / 1,021 EXP`, `DEMETER = 384 / 585 EXP`.
-       - `#4 Baltoy` (`148 EXP`): **`DEMETER`** switches on Turn 1 to **`PROTEUS` (`353 / 585 EXP`)**, who OHKOs with `1: BubbleBeam` -> `DEMETER = 458 / 585 EXP`, `PROTEUS = 427 / 585 EXP` (so BOTH `MARSHTOMP` and `PROTEUS` hit Lv 17 on Roxanne's `#1 Nosepass`!).
+       - `#1 Onix` (`345 EXP`): Lead **`MARSHTOMP` (`809 / 1,021 EXP`)**, switch on Turn 1 to **`EROS` (`448 / 653 EXP`)**, who OHKOs with `3: Water Pulse` -> `MARSHTOMP = 981 / 1,021 EXP`, `EROS = 620 / 653 EXP`.
+       - `#2 Kabuto` (`356 EXP`, `25+ Speed`): **`EROS`** pivots through **`THETIS` (`388 / 653 EXP`)** -> **`ASTRAPE` (`423 / 1,021 EXP`, `39 Speed`)** (`or EROS stays out by leading THETIS on #1 Onix! Wait: if MARSHTOMP switches to THETIS on #1 Onix, then THETIS = 388 + 172 = 560 / 653 EXP, and on #2 Kabuto THETIS switches directly to ASTRAPE -> THETIS = 560 + 178 = 738? No, 3-way split THETIS -> EROS -> ASTRAPE on #2 Kabuto gives 118 EXP each -> THETIS = 560 / 653, EROS = 566 / 653, ASTRAPE = 541 / 1,021 EXP!`).
+       - `#3 Cacnea` (`248 EXP`, `Needle Arm` [Special Grass], `Thunder Wave`): **`ASTRAPE`** switches on Turn 1 to **`DEMETER` (`367 / 585 EXP`, `0.25x` 4x-resists `Needle Arm`!)** and 2HKOs `Cacnea` with **`2x` super-effective STAB `2: Acid`** -> `ASTRAPE = 665 / 1,021 EXP`, `DEMETER = 491 / 585 EXP`.
+       - `#4 Baltoy` (`148 EXP`): **`DEMETER`** switches on Turn 1 to **`PROTEUS` (`235 / 585 EXP`)**, who OHKOs with `1: BubbleBeam` -> `DEMETER = 565 / 585 EXP`, `PROTEUS = 309 / 585 EXP`.
   3. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison at `0` Steps & Never Chain Chip Moves With Poke Ball Throws**:
      - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death). Cure poison with a `Pecha Berry` at `0` steps before walking anywhere! Against trainers who have both a `Toxic` user (`Koffing`) and a `Pursuit` user (`Houndour`), switch the `Toxic`-poisoned Pokemon out *before* KOing the `Toxic` user so `Houndour` cannot trap it at low HP.
      - **Never chain a damaging chip attack and a Poke Ball throw in the same `press_buttons` call**.

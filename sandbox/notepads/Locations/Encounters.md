@@ -2,15 +2,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Evolved at Lv 16 (`0 / 1,021 EXP`; `48 HP`; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`); holds `Oran Berry` |
+| Starter (Route 101) | Marshtomp (M, Lv 16) | MARSHTOMP | Active | Evolved at Lv 16 (`0 / 1,021 EXP`; `53 HP`; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`); holds `Oran Berry` |
 | Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; Relaxed (`+Def, -Speed`); raised to Lv 16 (`0 / 653 EXP`; `41 HP, 25 Def, 36 Speed`; `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` Lv 16); holds `Oran Berry` |
 | Route 103 | Hoppip (M, Lv 15) | ZEPHYR | Active (Box 1) | Caught at `(15, 11)`; `Grass/Flying`; raised to Lv 15 (`1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10; declined `Stun Spore` Lv 15); holds `Oran Berry` |
 | Route 102 | Gulpin (M, Lv 17) | BACCHUS | Benched (Cap) | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Medium Fast` EXP group in this hack; `1: Giga Drain` Lv 17, `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14; benched at Lv 17 until Roxanne is defeated |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 16 (`0 / 653 EXP`; `45 HP`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); holds `Oran Berry` |
 | Route 104 | Venonat (F, Lv 16) | ARACHNE | Active (Box 1) | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 16 (`0 / 973 EXP`; `1: Foresight`, `2: Leech Life`, `3: Psybeam`, `4: Toxic` Lv 16); holds `Oran Berry` |
-| Petalburg Woods | Weepinbell (F, Lv 16) | DEMETER | Active | Caught at `(6, 30)`; evolved into `Weepinbell` at Lv 16 (`0 / 585 EXP`; `48 HP`; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); holds `Oran Berry` |
+| Petalburg Woods | Weepinbell (F, Lv 16) | DEMETER | Active | Caught at `(6, 30)`; evolved into `Weepinbell` at Lv 16 (`0 / 585 EXP`; `47 HP`; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); holds `Oran Berry` |
 | Route 116 | Voltorb (Lv 16) | ASTRAPE | Active | Caught at `(4, 13)` on Turn 1; `Electric`; Rash (`+Sp.Atk, -Sp.Def`), `Static`; `Slow` EXP group (`0 / 1,021 EXP` buffer at Lv 16; `41 HP, 29 Sp.Atk, 39 Speed`; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15); holds `Oran Berry` |
-| Route 115 | Omanyte (M, Lv 16) | PROTEUS | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; Brave (`+Atk, -Speed`), `Swift Swim`; raised to Lv 16 (`0 / 817 EXP`; `37 HP, 38 Def, 37 Sp.Atk, 27 Sp.Def, 17 Speed`; learned `Aurora Beam` and `Mud Shot` at Lv 15); holds `Oran Berry` |
+| Route 115 | Omanyte (M, Lv 16) | PROTEUS | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; Brave (`+Atk, -Speed`), `Swift Swim`; `Medium Slow` EXP group (`0 / 585 EXP`; `37 HP, 38 Def, 37 Sp.Atk, 27 Sp.Def, 17 Speed`; `1: BubbleBeam`, `2: Rock Tomb`, `3: Aurora Beam` Lv 15, `4: Mud Shot` Lv 15); holds `Oran Berry` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#22)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
