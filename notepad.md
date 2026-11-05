@@ -4662,7 +4662,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 60) - Evolved on turn 5632! Level 60 on turn 19490 during Wally battle! (Stats: HP 182, Atk 135, Def 99, SpA 147, SpD 132, Spe 178). Moves: Rock Tomb (5/10), Pursuit (20/20), Leaf Blade (7/15), Quick Attack (28/30). HP: 182/182. Status: OK. Nature: Lonely. Ability: Overgrow.
+1. SAGE (Sceptile ♂, Level 60) - Evolved on turn 5632! Level 60 on turn 19490 during Wally battle! (Stats: HP 182, Atk 135, Def 99, SpA 147, SpD 132, Spe 178). Moves: Rock Tomb (5/10), Pursuit (18/20), Leaf Blade (0/15), Quick Attack (27/30). HP: 0/182. Status: Fainted (defeated Albert's Magneton). Nature: Lonely. Ability: Overgrow.
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: Fainted.
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. (Verified Turn 17018)
 4. COBALU (Aron ♂, Level 15) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 15 on turn 9537! HP: 42/42. Max HP: 42. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK.
@@ -4680,12 +4680,12 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x8 (1 used on Sage Turn 19566)
+- Hyper Potion x2 (used across Wally and Albert battles)
 - Max Elixir x0 (found in Team Aqua Hideout B1F Generator Room at 29, 12; used on Sage Turn 17028)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
-- Revive x4 (3 consumed across the Wally encounter)
+- Revive x3 (consumed across Wally and Albert encounters)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x1 (found buried at 25, 6 on Route 109)
@@ -4702,7 +4702,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x12 (used Turn 19711, 250 active repel steps; 12 remaining in Bag)
-- Money: ¥25,190
+- Money: ¥27,254 (earned ¥2,064 from Cooltrainer Albert)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
