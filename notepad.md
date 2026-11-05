@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 13) | PROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport` Lv 6, `4: Water Gun` Lv 10 |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
-| Route 103 | Skitty (F, Lv 12) | SELENE | Active | Slot 2; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
+| Route 103 | Delcatty (F, Lv 13) | SELENE | Active | Slot 2; `Normal`; held wild `Moon Stone`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
