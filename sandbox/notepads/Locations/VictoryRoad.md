@@ -118,3 +118,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   2. Heal party at Pokémon Center (revives Lombre Lilz with Flash/Surf/Waterfall, restores Leaf Blade 15/15, Rock Smash 15/15, Dig 10/10).
   3. Re-enter 1F, cross western bridge to western terrace ladder at (8, 13).
   4. Descend to B1F (8, 3), use Flash, and solve the boulder puzzle to advance toward B2F!
+
+## B1F Northwest Boulder Chute Topography (Turn 19948)
+- Boulder 1 at (9, 10): Pushed south into (9, 11).
+- Row 10 West Corridor: Opens west across cols 9..4 to Boulder 2 at (4, 8), which pushes up into (4, 7) against the northern wall at (4, 6) (side chamber).
+- Main Progression Path: Return to (9, 10), step down col 9 to push Boulder 1 further south through the narrow 1-tile chute (col 9, rows 11..14) into the southern cavern.
