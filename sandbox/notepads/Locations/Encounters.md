@@ -7,8 +7,8 @@
 | Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Overworld Slot 3; `Water/Flying`; `Keen Eye`; `610 / 817 EXP` into Lv 16 (`207 EXP` buffer); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1 `(1, 0)`; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Overworld Slot 6; `Normal`; `Thick Fat`; `240 / 576 EXP` into Lv 16 (`336 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Cubone (F, Lv 16) | GAIA | Active | Overworld Slot 1; `Ground`; `2 / 817 EXP` into Lv 16 (`815 EXP` buffer); `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
-| Petalburg Woods | Gloom (M, Lv 16) | CHLORIS | Active | Overworld Slot 4; `Grass/Poison`; `277 / 585 EXP` into Lv 16 (`308 EXP` buffer); `1: Mega Drain`, `2: Acid` [spread], `3: Toxic` Lv 14, `4: Magical Leaf` Lv 16; holds `Oran Berry` |
+| Route 104 | Cubone (F, Lv 16) | GAIA | Deceased | Fainted Turn 3837 to Hiker Marc's Cacnea (`Needle Arm`, since Grass is Special in Gen 3) |
+| Petalburg Woods | Gloom (M, Lv 16) | CHLORIS | Deceased | Fainted Turn 3831 to Hiker Marc's Kabuto (`2x` `Aerial Ace`, outsped at 24 Speed) |
 | Route 116 | Grimer (M, Lv 9) | — | Forfeited | Fainted itself on Turn 2 with `Memento`; note: throw ball on Turn 1 against wild `Grimer`! |
 | Route 115 | Kabuto (M, Lv 16) | CRONUS | Active | Overworld Slot 5; `Rock/Water`; `565 / 817 EXP` into Lv 16 (`252 EXP` buffer); `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13; holds `Oran Berry` |
 
