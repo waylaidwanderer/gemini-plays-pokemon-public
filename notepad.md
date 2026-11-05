@@ -5,12 +5,12 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 13) | AAPROTEUS | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Goldeen (F, Lv 14) | SIREN | Active | Slot 5; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
-| Route 103 | Wingull (M, Lv 14) | ZEPHYR | Active | Slot 3; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
-| Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | Slot 4; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
-| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 1; `Normal`; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Cubone (F, Lv 14) | GAIA | Active | Slot 6; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
-| Petalburg Woods | Oddish (M, Lv 8) | CHLORIS | Active | In Box 1 (withdrawing for PSYCHE); `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer) |
+| Littleroot Town | Goldeen (F, Lv 14) | SIREN | Active | Slot 4; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
+| Route 103 | Wingull (M, Lv 14) | ZEPHYR | Active | Slot 1; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
+| Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
+| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 5; `Normal`; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
+| Route 104 | Cubone (F, Lv 14) | GAIA | Active | Slot 3; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
+| Petalburg Woods | Oddish (M, Lv 14) | CHLORIS | Active | Slot 6; `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer); `1: Mega Drain`, `2: Acid`, `3: Sweet Scent`, `4: Toxic` Lv 14; holds `Oran Berry` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
@@ -211,7 +211,7 @@
 - **Eastern Entrance**: Enters from Petalburg City `(0, 12)` onto `(39, 62)`.
 - **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7, `Nidoran♀` Lv 7).
 - **Southbound & Northbound Shortcuts (Petalburg Woods <-> Petalburg City)**:
-  - **Southbound**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Right x4` to `(25, 53)`, `Down x9` along `x=25` (jumping the ledge at `(25, 55)` onto `(25, 57..59)` which has tall grass, while `(25, 60..62)` is bare) to `(25, 62)`, and `Right x15` along `y=62` straight into Petalburg City `(0, 12)`.
+  - **Southbound (100% Grass-Free)**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Left x4` to `(17, 53)`, `Down x18` down the northern beach stairs to `(17, 71)`, `Right x11` along `y=71` to `(28, 71)`, `Up x9` up the eastern beach stairs to `(28, 62)`, and `Right x12` along `y=62` straight into Petalburg City `(0, 12)`.
   - **Northbound (100% Grass-Free)**: From `(39, 62)`, walk `Left x11` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.
 - **Beach Staircase**: Located at `(28..29, 70)` (note: a signpost stands at `(27, 66)` and the cliff ridge blocks `(22..24, 62)` and `(28, 63)`, so when routing from the `(22..24, 56..61)` grass patch to the beach stairs, walk east along `y=61` or `y=62` via `(23, 61) -> Right x5 to (28, 61) -> Down x10 to (28, 71)`; northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
