@@ -76,3 +76,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
 - Cooltrainer ♂ Albert: Defeated at (27, 36) on 1F eastern plateau (Magneton Lv 43, Muk Lv 43). Prize: ¥2,064.
+
+## 1F North Highway & Northern Staircase (Turn 19849)
+- 1F North Highway (row 24): Fully verified 12-tile continuous corridor connecting eastern plateau (29, 24) to the central platform northern approach (17, 24).
+- Northern Staircase at (16, 21): Located directly north of the central suspension bridge at col 16, ascending into the northern cliff wall.
