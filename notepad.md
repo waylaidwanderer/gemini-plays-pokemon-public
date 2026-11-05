@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 13) | EROS | Active | Slot 3; `Water`; `Swift Swim`; `1: Secret Power`, `2: Charm` Lv 6, `3: Water Pulse` Lv 12; holds `Oran Berry` |
 | Route 103 | Delcatty (F, Lv 15) | SELENE | Active | Slot 1; `Normal`; evolved from `Skitty` via wild **`Moon Stone`**; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | Sandshrew (M, Lv 13) | GAIA | Active | Slot 4; `Ground`; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11; holds `Oran Berry` |
-| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Petalburg City | Azurill (M, Lv 5) | PONTUS | Active | Slot 5; `Normal`; `1: Water Gun`, `2: Charm` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
