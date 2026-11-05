@@ -10,7 +10,7 @@
 | Route 102 | Gulpin (M, Lv 16) | BACCHUS | Active | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Fluctuating` EXP group (`~1,300 / 1,329 EXP` buffer left at Lv 16!); `1: Acid` [spread], `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14 |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); holds `Oran Berry` |
 | Route 104 | Venonat (F, Lv 14) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 14 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`) |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Petalburg Woods | Bellsprout (F, Lv 8) | DEMETER | Active (Box 1) | Caught at `(6, 30)`; evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15) |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` (throw Ball on Turn 1 against wild `Grimer` before `Memento`!) |
 | Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
 
