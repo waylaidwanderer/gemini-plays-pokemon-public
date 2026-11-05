@@ -10,7 +10,7 @@
 | Route 104 | Venonat (F, Lv 16) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 16 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`, `4: Toxic` Lv 16); holds `Oran Berry` |
 | Petalburg Woods | Bellsprout (F, Lv 15) | DEMETER | Active | Caught at `(6, 30)`; raised to Lv 15 (`1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer); holds `Oran Berry` |
 | Route 116 | Voltorb (Lv 9) | ASTRAPE | Active (Box 1) | Caught at `(4, 13)` on Turn 1; `Electric`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15; `39 Speed` at Lv 16) |
-| Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
+| Route 115 | Omanyte (M, Lv 9) | PROTEUS | Active (Box 1) | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; `817 EXP` buffer at Lv 16 (`Rock Tomb`, `BubbleBeam`, `Water Pulse`) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#22)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
