@@ -4576,15 +4576,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Ladder lands at (8, 3).
   - A rock mound sits directly south at (4..8, 5..6).
   - Open 2-tile corridor runs south along cols 9..10 between the rock mound and the ledge at col 11.
-- Boulder Puzzle 1 (cols 8..10, rows 9..11):
-  - Round Strength boulder located at (9, 10) in the north-south corridor. Pushed south to (9, 12).
-  - Flanked by cliff walls at (8, 10) and (10, 10).
-  - Leads south toward row 14 horizontal one-way jump ledge.
-- Western Corridor & Boulder Puzzle (cols 3..5, rows 4..9):
-  - From 1F ladder at (8, 2), northern path runs west along row 4 to (4, 4).
-  - Corridor turns south down col 4 (rows 4..7).
-  - Round Strength boulder at (4, 7) was pushed south to (4, 8) on Turn 19619.
-  - Pushing boulder to (4, 8) opens the eastern corridor at (5, 7) between the upper and lower rock mounds, as well as passage south down col 4.
 ## Discovered Spatial Mechanics & Navigation (1F)
 - Elevated Suspension Bridge:
   - Spans across cols 11..19 at rows 33..34.
@@ -4609,20 +4600,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Cooltrainer ♀ stationed at (7, 14) facing Left overlooking the corridor.
   - Ladder down to B1F located at the top right corner at approximately (8, 13)!
 
-- Row 10 Terrace & Eastern Chute (cols 4..9, rows 8..13):
-  - Row 10 runs east-west between middle rock mound (rows 8-9) and solid cliff wall at row 11.
-  - Western end (cols 4..6) dead-ends at boulder (4, 10) and cliff wall.
-  - Eastern exit connects to col 9 at (9, 10).
-  - Col 9 chute boulder pushed to (9, 13) flush against row 14 ledge.
-- Tile (8, 12) opens west onto the row 13 ledge runway.
-- Jumping south over row 14 ledge lands on row 15 of the southern main cavern.
-- Northeast Area (cols 9..11, rows 2..4):
-  - Col 10, row 3 is a solid cliff face; col 11, row 4 is a vertical one-way ledge jumping west. Collision testing confirmed no ramp exists here.
-- B1F Northwest Enclave (cols 4..10, rows 2..13):
-  - Sealed enclave accessible from 1F ladder at (8, 13) -> (8, 3).
-  - All southern and eastern boundaries are solid cliffs or incoming one-way ledges (col 11 vertical ledge jumps west; row 11/14 ledges are impassable).
-  - Contains the one-way forward jump ledge at row 14 leading into the southern main cavern of B1F.
-  - Return to 1F via ladder at (8, 2).
 
 ## Verified 1F & B1F Terrain Collision Record (Consolidated Turn 19741)
 - 1F Level 0 Cavern Floor: Central stairs (13, 29) connect west via row 29 to col 7. Canyon at cols 5..6 (rows 31..39) bypasses the central cliff mound and rock cluster, leading directly to the base of the western bridge staircase at (9, 36).
