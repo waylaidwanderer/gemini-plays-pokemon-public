@@ -10,7 +10,7 @@
 | Route 102 | Gulpin (M, Lv 17) | BACCHUS | Benched (Cap) | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Medium Fast` EXP group in this hack; `1: Giga Drain` Lv 17, `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14; benched at Lv 17 until Roxanne is defeated |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); holds `Oran Berry` |
 | Route 104 | Venonat (F, Lv 14) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 14 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`) |
-| Petalburg Woods | Bellsprout (F, Lv 8) | DEMETER | Active (Box 1) | Caught at `(6, 30)`; evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15) |
+| Petalburg Woods | Bellsprout (F, Lv 14) | DEMETER | Active | Caught at `(6, 30)`; raised to Lv 14 (`1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`); evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer; learns `4: Toxic` Lv 15) |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` (throw Ball on Turn 1 against wild `Grimer` before `Memento`!) |
 | Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
 
