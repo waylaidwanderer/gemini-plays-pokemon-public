@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (F, Lv 15) | AAPROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Starter (Route 101) | Marshtomp (F, Lv 16) | AAPROTEUS | Active | Slot 1; `Water/Ground`; `0 / 1,021 EXP` into Lv 16 (`1,021 EXP` buffer); `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Goldeen (F, Lv 16) | SIREN | Active | Slot 4; `Water`; `Swift Swim`; `~60 / 817 EXP` into Lv 16 (`~757 EXP` buffer); `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
 | Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 2; `Water/Flying`; `Keen Eye`; `~177 / 817 EXP` into Lv 16 (`~640 EXP` buffer remaining); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1 `(1, 0)`; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
