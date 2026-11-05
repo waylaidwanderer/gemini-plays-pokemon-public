@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen (F, Lv 14) | SIREN | Active | Slot 3; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
 | Route 103 | Wingull (M, Lv 14) | ZEPHYR | Active | Slot 1; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | Slot 4; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
-| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Petalburg City | Azurill (F, Lv 13) | THETIS | Active | Slot 5; `Normal`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
