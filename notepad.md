@@ -4,13 +4,13 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Active (Box 1) | Caught at `(15, 11)`; `Grass/Flying`; `1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10 |
+| Starter (Route 101) | Mudkip (Lv 15) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 15 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`; declined `Bide` Lv 15); holds `Oran Berry` |
+| Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; raised to Lv 15 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12); holds `Oran Berry` |
+| Route 103 | Hoppip (M, Lv 15) | ZEPHYR | Active | Caught at `(15, 11)`; `Grass/Flying`; raised to Lv 15 (`1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10; declined `Stun Spore` Lv 15); holds `Oran Berry` |
 | Route 102 | Gulpin (M, Lv 17) | BACCHUS | Benched (Cap) | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Medium Fast` EXP group in this hack; `1: Giga Drain` Lv 17, `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14; benched at Lv 17 until Roxanne is defeated |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); holds `Oran Berry` |
-| Route 104 | Venonat (F, Lv 14) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 14 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`) |
-| Petalburg Woods | Bellsprout (F, Lv 14) | DEMETER | Active | Caught at `(6, 30)`; raised to Lv 14 (`1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`); evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer; learns `4: Toxic` Lv 15) |
+| Route 104 | Venonat (F, Lv 15) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 15 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`); holds `Oran Berry` |
+| Petalburg Woods | Bellsprout (F, Lv 15) | DEMETER | Active | Caught at `(6, 30)`; raised to Lv 15 (`1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer); holds `Oran Berry` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` (throw Ball on Turn 1 against wild `Grimer` before `Memento`!) |
 | Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
 
@@ -210,7 +210,7 @@
 
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City `(0, 12)` onto `(39, 62)`.
-- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7, `Nidoran♀` Lv 7).
+- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Venonat` Lv 7 [`Bug/Poison`, `Compoundeyes`, `Foresight`, `Leech Life`, learns `Psybeam` by Lv 12], `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7, `Nidoran♀` Lv 7).
 - **Southbound & Northbound Shortcuts (Petalburg Woods <-> Petalburg City)**:
   - **Southbound (100% Grass-Free)**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Left x4` to `(17, 53)`, `Down x18` down the northern beach stairs to `(17, 71)`, `Right x11` along `y=71` to `(28, 71)`, `Up x9` up the eastern beach stairs to `(28, 62)`, and `Right x12` along `y=62` straight into Petalburg City `(0, 12)`.
   - **Northbound (100% Grass-Free)**: From `(39, 62)`, walk `Left x11` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.

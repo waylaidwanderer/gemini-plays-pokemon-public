@@ -2,13 +2,13 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Active (Box 1) | Caught at `(15, 11)`; `Grass/Flying`; `1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10 |
+| Starter (Route 101) | Mudkip (Lv 15) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 15 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`; declined `Bide` Lv 15); holds `Oran Berry` |
+| Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; raised to Lv 15 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12); holds `Oran Berry` |
+| Route 103 | Hoppip (M, Lv 15) | ZEPHYR | Active | Caught at `(15, 11)`; `Grass/Flying`; raised to Lv 15 (`1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10; declined `Stun Spore` Lv 15); holds `Oran Berry` |
 | Route 102 | Gulpin (M, Lv 17) | BACCHUS | Benched (Cap) | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Medium Fast` EXP group in this hack; `1: Giga Drain` Lv 17, `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14; benched at Lv 17 until Roxanne is defeated |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); holds `Oran Berry` |
-| Route 104 | Venonat (F, Lv 14) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 14 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`) |
-| Petalburg Woods | Bellsprout (F, Lv 14) | DEMETER | Active | Caught at `(6, 30)`; raised to Lv 14 (`1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`); evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer; learns `4: Toxic` Lv 15) |
+| Route 104 | Venonat (F, Lv 15) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 15 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`); holds `Oran Berry` |
+| Petalburg Woods | Bellsprout (F, Lv 15) | DEMETER | Active | Caught at `(6, 30)`; raised to Lv 15 (`1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); evolves into `Weepinbell` at Lv 16 (`585 EXP` buffer); holds `Oran Berry` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` (throw Ball on Turn 1 against wild `Grimer` before `Memento`!) |
 | Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
 
