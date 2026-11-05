@@ -90,5 +90,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Intermediate Stone Pillar spans cols 24..25 along row 17.
   - Second Northern Bridge begins at col 26 along row 17, extending East.
   - Second Northern Bridge spans cols 26..37 along row 17 across the chasm to the northeastern plateau.
-  - Golden object/trainer located on the northern bank at (34, 16).
-  - Cooltrainer (blonde, red jacket) visible on the lower cavern floor below at (35, 24).
+  - Eastern bridge landing reached at (38..39, 17).
+  - Upper northern shelf (row 16) is blocked by a horizontal cliff face from the bridge landing.
+  - Wooden staircase located at (39, 18) descending South down to row 25 on the lower cavern floor.
+  - Cooltrainer (blonde, red jacket) stationed at (35, 25) on the lower cavern floor below.
