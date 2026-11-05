@@ -4667,6 +4667,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Descend to B1F (8, 3), activate Flash with Lilz.
   - Explore the northern row 4 westward corridor towards column 4 from ABOVE (4, 6) and the eastern column 10 corridor to determine the true layout and alternate boulder paths.
 
+- Flash Persistence & Usage (Turn 19992): Once Flash has been cast in Victory Road B1F during a session, attempting to cast Flash again displays 'This is in use already.' The illuminated circle of sight remains expanded across ladder transitions.
+- 1F Western Ladder Coordinates: Ladder down to B1F is at (9, 14) on 1F. Stepping onto (9, 14) warps player down to B1F at (8, 3). Stepping up from B1F ladder at (8, 2) places player at (9, 14).
 
 <hr>
 
