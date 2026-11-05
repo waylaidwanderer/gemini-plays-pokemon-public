@@ -99,7 +99,7 @@
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
       2. `Pikachu` (M, Lv 9, `Thunder Wave`, `Shock Wave`, `Surf`, holds `Oran/Sitrus Berry`)
       3. `Charmander` (M, Lv 9, `Will-O-Wisp`, `Flame Wheel`, `Bite`, holds `Berry Juice`)
-      4. `Bulbasaur` (M, Lv 9, `Mega Drain`, `Light Screen`, `Cut`, holds `Berry Juice`)
+      4. `Bulbasaur` (M, Lv 9, `Sleep Powder`, `Mega Drain`, `Light Screen`, `Cut`, holds `Berry Juice`)
       5. `Squirtle` (M, Lv 9, `Fake Out`, `Yawn`, `Water Pulse`, `Bite`, holds `Berry Juice`)
 
 ## Rustboro City
