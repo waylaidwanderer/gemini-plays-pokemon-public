@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | PROTEUS | Active | Slot 3; `1: Tackle`, `2: Bubble`, `3: Mud Sport` Lv 6, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Goldeen (M, Lv 14) | NEREUS | Active | Slot 1; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
+| Littleroot Town | Goldeen (M, Lv 15) | NEREUS | Active | Slot 1; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
 | Route 103 | Skitty (F, Lv 14) | SELENE | Active | Slot 6; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Meowth (M, Lv 15) | HERMES | Active | Slot 2; `Normal`; `Limber`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12; holds `Oran Berry` |
 | Petalburg City | Azurill (M, Lv 15) | PONTUS | Active | Slot 5; `Normal`; `Huge Power`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
