@@ -4632,6 +4632,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - One-way jump ledge at row 27 across cols 39..42 hops South onto row 28.
   - Eastern Terrace (cols 39..41, rows 28+): Elevated corridor continuing South along the eastern cave wall.
 
+## 1F Southern Bypass Corridor & Wooden Staircase (Turn 19888)
+- Southern Bypass Corridor (row 34): Connects eastern terrace at (39, 34) West past (38, 34) to (31, 34), remaining above the southern one-way return ledges.
+- Wooden Staircase at (30..31, 30): Ascends North from row 30 up to row 26 onto the central-eastern plateau.
+- Cooltrainer (blonde, red jacket) stationed on lower floor at (27, 36) facing South.
 
 <hr>
 
