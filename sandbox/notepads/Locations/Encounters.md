@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen (M, Lv 14) | NEREUS | Active | Slot 2; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
 | Route 103 | Skitty (F, Lv 13) | SELENE | Active | Slot 1; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Meowth (M, Lv 13) | HERMES | Active | Slot 4; `Normal`; `Limber`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12; holds `Oran Berry` |
-| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Petalburg City | Azurill (M, Lv 13) | PONTUS | Active | Slot 5; `Normal`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
