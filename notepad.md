@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag |
+| Starter (Route 101) | Mudkip (M, Lv 13) | PROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport` Lv 6, `4: Water Gun` Lv 10 |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
