@@ -4,10 +4,10 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 13) | PROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport` Lv 6, `4: Water Gun` Lv 10 |
-| Littleroot Town | Goldeen (M, Lv 13) | NEREUS | Active | Slot 3; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 |
-| Route 103 | Skitty (F, Lv 13) | SELENE | Active | Slot 2; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
-| Route 102 | Meowth (M, Lv 13) | HERMES | Active | Slot 4; `Normal`; `Limber`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12 |
+| Starter (Route 101) | Mudkip (M, Lv 13) | PROTEUS | Active | Slot 3; `1: Tackle`, `2: Bubble`, `3: Mud Sport` Lv 6, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Littleroot Town | Goldeen (M, Lv 13) | NEREUS | Active | Slot 2; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
+| Route 103 | Skitty (F, Lv 13) | SELENE | Active | Slot 1; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
+| Route 102 | Meowth (M, Lv 13) | HERMES | Active | Slot 4; `Normal`; `Limber`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12; holds `Oran Berry` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
@@ -52,7 +52,7 @@
        - Chip `Lileep` to ~75% HP first (`e.g. with a 0.5x Giga-Drain-resisting pivot or Kabuto's Rock Tomb/Mega Drain`) BEFORE sending in `Makuhita` (`49/49 HP`, `Oran Berry`) so `Vital Throw` (`~72% dmg`) knocks `Lileep` straight into red HP or KOs in 2 hits!
   3. **Use `Marshtomp` (Lv 17, `53 HP`, `1x` neutral to `Brick Break`) on `#3 Anorith` (`Aerial Ace`, `Brick Break`)**: Because `Anorith` knows `75 BP Brick Break` (`2x` super-effective vs `Kabuto`/`Omanyte`), keep `Kabuto`/`Omanyte` healthy for `#4 Relicanth` (`4x` weak to `Kabuto`'s `Mega Drain`!) and use Lv 17 `Marshtomp` (`Water Gun` / `Mud Shot`) on `#3 Anorith`!
   4. **Keep `Luvdisc` (`42–44 Speed`, holding `Oran Berry`) Unparalyzed for `#6 Lunatone` (`29 Speed`) & Wait Out `#5 Shuckle`'s `Sunny Day`**: Never switch `Luvdisc` into `#1 Nosepass` (`Thunder Wave`) or `#2 Lileep` (`Giga Drain`), and always make sure `#5 Shuckle`'s `Sunny Day` (`0.5x` Water for 5 turns) has faded before `#6 Lunatone` enters so `Luvdisc`'s `Water Pulse` and `Marshtomp`'s `Water Gun` hit `Lunatone` at full `2x` super-effective power!
-- **Core Rules for Attempt #17 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
+- **Core Rules for Attempt #18 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
   1. **Strict Separation of Enemy Send-Outs, Party Switches, and Lv 16 Rare Candies**:
      - **NEVER chain `"B"` (dismissing `"fainted!"` / `"gained EXP"`) and a Party switch (`Down, Left, A`) in the same `press_buttons` call**! Always advance `"fainted!"` + `"gained EXP"` first so that the trainer's next Pokemon is visibly on the field and `"What will [POKEMON] do?"` is open at `+0.00s` on `<CurrentScreen>` before executing a Party switch!
      - **NEVER chain a Party switch (`SHIFT`) or chip attack with a Poke Ball throw in the same `press_buttons` call**!
@@ -175,7 +175,7 @@
 - **Observed Wild Species**: `Togepi` (Lv 2), `Caterpie` (Lv 2), `Igglybuff` (Lv 3), `Poochyena` (Lv 2), `Pidgey` (Lv 3), `Rattata` (Lv 3), `Wurmple` (Lv 2), `Cleffa` (Lv 3), `Sentret` (Lv 3).
 - **Southern Tall Grass Patch**: Located at `x=5, y=14..16` (accessible from `(11, 14)` by walking `Left x6` to `(5, 14)`).
 - **Grass-Free Path (Northbound)**: Entering from Littleroot Town `(10, 0)` places the player at `(10, 19)` (while `(11, 0)` places the player directly at `(11, 19)`; note that walking from `(11, 10)` in Littleroot Town to `(11, 14)` on Route 101 requires `Up x16` total: `Up x10` to reach `(11, 0)`, `1 Up` to cross the map boundary onto `(11, 19)`, and `Up x5` to `(11, 14)`); from `(11, 19)`, walk `Up x5` to `(11, 14)` -> `Left x4` to `(7, 14)` -> `Up x4` to `(7, 10)` -> `Right x6` to `(13, 10)` -> `Up` to `(13, 9)` -> `Right x2` to `(15, 9)` -> `Up` to `(15, 8)`, then through `(15, 7..5)` (3 grass tiles) to `(15, 4)` -> `Left x3` (2 grass tiles) to `(12, 4)` -> `Left x2` to `(10, 4)` -> `Up` into Oldale Town.
-- **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down x15` along `x=9` (jumping ledges at `y=6` and `y=10`, which each consume 2 `Down` presses, and clamping against the tree at `(9, 15)` so you stop on `(9, 14)`), then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(11, 0)`.
+- **Grass-Free Path (Southbound)**: From `(10, 0)`, step `Left` to `(9, 0)`, walk straight `Down x15` along `x=9` (jumping ledges at `y=6` and `y=10`, which each consume 2 `Down` presses, and clamping against the tree at `(9, 15)` so you stop on `(9, 14)`), then `Right x2` to `(11, 14)` and `Down x6` into Littleroot Town `(11, 1)` (note: entering Littleroot Town from `(11, 19)` places the player on `y=1` at `(11, 1)`, so `Down x9` reaches `(11, 10)` when routing to the Littleroot pond at `(17, 13)`, verified Turn 3371).
 
 ## Oldale Town & Route 103
 - **Oldale Landmarks & Central Road**: `x=10` (`y=0..19`) is a straight vertical road between Route 101 and Route 103; **Pokemon Center** door is at `(6, 16)` and **Poke Mart** door is at `(14, 6)` (note: after defeating Rival Brendan on Route 103, Brendan stands at `(10, 19)` / `(11, 19)` at the southern exit of Oldale Town and triggers a brief dialogue when you step onto `(9..10, 19)`).
