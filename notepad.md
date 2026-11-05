@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 13) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Luvdisc (F, Lv 13) | EROS | Active | Slot 3; `Water`; `Swift Swim`; `1: Secret Power`, `2: Charm` Lv 6, `3: Water Pulse` Lv 12; holds `Oran Berry` |
-| Route 103 | Delcatty (F, Lv 14) | SELENE | Active | Slot 1; `Normal`; evolved from `Skitty` via wild **`Moon Stone`**; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
+| Route 103 | Delcatty (F, Lv 15) | SELENE | Active | Slot 1; `Normal`; evolved from `Skitty` via wild **`Moon Stone`**; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | Sandshrew (M, Lv 13) | GAIA | Active | Slot 4; `Ground`; `1: Scratch`, `2: Defense Curl`, `3: Sand-Attack`, `4: Poison Sting` Lv 11; holds `Oran Berry` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
