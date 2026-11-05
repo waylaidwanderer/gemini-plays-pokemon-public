@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | — | — | Pending | Choose `Mudkip` |
+| Starter (Route 101) | Mudkip (Lv 5) | PROTEUS | Active | Chosen from Birch's Bag on Route 101 |
 | Littleroot Town | — | — | Pending | Fish with `Old Rod` at `(17, 13)` facing `Right` |
 | Route 103 | — | — | Pending | Tall grass at `(15..18, 11..13)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
