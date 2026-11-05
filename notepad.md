@@ -5,12 +5,12 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 14) | AAPROTEUS | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Goldeen (F, Lv 15) | SIREN | Active | Slot 6; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
+| Littleroot Town | Goldeen (F, Lv 15) | SIREN | Active | Slot 1; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
 | Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 3; `Water/Flying`; `Keen Eye`; `~75 / 817 EXP` into Lv 16 (`~742 EXP` buffer remaining); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 5; `Normal`; `Thick Fat`; `~40 / 576 EXP` into Lv 16 (`~536 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 15) | GAIA | Active | Slot 4; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
-| Petalburg Woods | Oddish (M, Lv 15) | CHLORIS | Active | Slot 1; `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer); `1: Mega Drain`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 14; holds `Oran Berry` |
+| Petalburg Woods | Oddish (M, Lv 15) | CHLORIS | Active | Slot 6; `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer); `1: Mega Drain`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 14; holds `Oran Berry` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
@@ -254,7 +254,7 @@
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` F (Lv 9, `Sing`, `Assist`, `Attract`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` (Lv 9, `Confuse Ray`, `Ember`, `Disable`, `Bite`).
   - **Twins Gina & Mia** at `(27..28, 15)` facing `Down` onto `(27..28, 16)` (mandatory Double Battle on horizontal bridge section):
-    - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, `Reflect`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). **NEVER bring a `Normal`-type (`2x` weak to `150 BP Focus Punch`) into this battle**, as `Teeter Dance` confuses both allies and a double confusion self-hit lets `Focus Punch` OHKO a `Normal`-type! Use `Poison`/`Bug`/`Flying`-type attackers (`0.5x`/`0.25x` resist `Focus Punch`, e.g. `Nidoran♀`'s `2x` super-effective `Double Kick`) paired with spread `Bubble` (`MOVE_TARGET_BOTH`).
+    - Team (2 Pokemon): Left `Smeargle` (M, Lv 8, `Focus Punch`, `Super Fang`, `Light Screen`, `Reflect`, holds `Oran Berry`) & Right `Smeargle` (M, Lv 8, `Follow Me`, `Teeter Dance`, `Milk Drink`, `Softboiled`, holds `Oran Berry`). **NEVER bring a `Normal`-type (`2x` weak to `150 BP Focus Punch`) into this battle**, as `Teeter Dance` confuses both allies and a double confusion self-hit lets `Focus Punch` OHKO a `Normal`-type! Best strategy (verified Turns 3733–3740): lead `Oddish`/`Bellsprout` (`0.5x` resists `Focus Punch`, knows spread `2: Acid` [`MOVE_TARGET_BOTH`]) + `Mudkip` (knows spread `2: Bubble` [`MOVE_TARGET_BOTH`]) so neither partner ever opens the single-target selection cursor, both hit through `Follow Me`, and both break `Focus Punch` focus every turn!
   - **PKMN Trainer Red** at `(29, 8)` facing `Left` across `(24..28, 8)` (mandatory 5-tile vision trainer at northern exit of bridge; **CRITICAL AI SWITCH WARNING**: Red's AI actively switches mid-battle when his active Pokemon's moves are resisted—e.g. withdrawing `Pikachu` to send in `Charmander` against a Grass-type—so NEVER queue 2 turns in a single `press_buttons` call against Red! Note that pure-Normal Lv 15 `Azurill` [`Thick Fat`, `Body Slam` + `BubbleBeam`] solo-sweeps `Charmander`, `Bulbasaur`, `Squirtle`, and `Pikachu`):
     - Team (5 Pokemon):
       1. `Eevee` (M, Lv 9, 31 Max HP, `Curse`, `Rest`, `Snore`, `Quick Attack`, holds `Sitrus Berry`) — 2HKO with Special moves (`Water Pulse` / `Ice Beam`)
