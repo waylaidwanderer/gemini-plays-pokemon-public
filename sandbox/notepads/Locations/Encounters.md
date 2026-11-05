@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 13) | PROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble`, `3: Mud Sport` Lv 6, `4: Water Gun` Lv 10 |
-| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Littleroot Town | Goldeen (M, Lv 13) | NEREUS | Active | Slot 3; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 |
 | Route 103 | Skitty (F, Lv 13) | SELENE | Active | Slot 2; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7 |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
