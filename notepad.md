@@ -12,7 +12,7 @@
 | Route 104 | Cubone (F, Lv 15) | GAIA | Active | Slot 4; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
 | Petalburg Woods | Oddish (M, Lv 15) | CHLORIS | Active | Slot 6; `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer); `1: Mega Drain`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 14; holds `Oran Berry` |
 | Route 116 | Grimer (M, Lv 9) | — | Forfeited | Fainted itself on Turn 2 with `Memento`; note: throw ball on Turn 1 against wild `Grimer`! |
-| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Route 115 | Kabuto (M, Lv 9) | CRONUS | Active | In Box 1 `(0, 0)`; `Rock/Water`; `817 EXP` buffer at Lv 16; `1: Rock Tomb`, `2: Water Pulse`, learns `3: Mega Drain` Lv 13 |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#19)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
