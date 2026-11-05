@@ -1,14 +1,14 @@
-# Nuzlocke Encounters (Attempt #19)
+# Nuzlocke Encounters (Attempt #20)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Slot 5; `Water`; `Swift Swim`; `1: Secret Power`, `2: Charm` Lv 6, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`39 / 653 EXP`); holds `Oran Berry` |
-| Route 103 | Delcatty (F, Lv 16) | SELENE | Active | Slot 3; `Normal`; evolved from `Skitty` via wild **`Moon Stone`**; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
-| Route 102 | Sandshrew (M, Lv 15) | GAIA | Active | Slot 4; `Ground`; `1: Scratch`, `2: Defense Curl`, `3: Poison Sting`, `4: Sand-Attack` Lv 11; holds `Oran Berry` |
-| Petalburg City | Azurill (M, Lv 15) | PONTUS | Active | Slot 1; `Normal`; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Jigglypuff (M, Lv 13) | ORPHEUS | Boxed (PC) | `Normal`; `Cute Charm`; `Sing`, `Disable` Lv 9; holds `Oran Berry` |
-| Petalburg Woods | Hoothoot (M, Lv 14) | GLAUKOS | Active | Slot 6; `Normal/Flying`; `Insomnia`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11; holds `Oran Berry` |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` (`PROTEUS`) |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 

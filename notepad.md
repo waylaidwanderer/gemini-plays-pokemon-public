@@ -1,16 +1,16 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #19)
+# Nuzlocke Encounters (Attempt #20)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Slot 5; `Water`; `Swift Swim`; `1: Secret Power`, `2: Charm` Lv 6, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`39 / 653 EXP`); holds `Oran Berry` |
-| Route 103 | Delcatty (F, Lv 16) | SELENE | Active | Slot 3; `Normal`; evolved from `Skitty` via wild **`Moon Stone`**; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
-| Route 102 | Sandshrew (M, Lv 15) | GAIA | Active | Slot 4; `Ground`; `1: Scratch`, `2: Defense Curl`, `3: Poison Sting`, `4: Sand-Attack` Lv 11; holds `Oran Berry` |
-| Petalburg City | Azurill (M, Lv 15) | PONTUS | Active | Slot 1; `Normal`; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | Jigglypuff (M, Lv 13) | ORPHEUS | Boxed (PC) | `Normal`; `Cute Charm`; `Sing`, `Disable` Lv 9; holds `Oran Berry` |
-| Petalburg Woods | Hoothoot (M, Lv 14) | GLAUKOS | Active | Slot 6; `Normal/Flying`; `Insomnia`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11; holds `Oran Berry` |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` (`PROTEUS`) |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
@@ -29,10 +29,10 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #19
+# Nuzlocke Dashboard — Attempt #20
 
 ## Active Rules & Status
-- **Attempt**: #19
+- **Attempt**: #20
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu immediately upon arriving in the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
