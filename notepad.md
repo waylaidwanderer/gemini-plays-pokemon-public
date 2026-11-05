@@ -4607,6 +4607,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Eastern Plateau Landing: At (21, 34), row 33 directly to the north is an elevated cliff face. Southern staircase at (21, 35..37) descends to the lower eastern terrace.
 - B1F Northwest Enclave: Sealed return sector. Tested all candidate boundary tiles (3, 8), (3, 9), (4, 11), (8, 11), (8, 12), (9, 13), (10, 3), (10, 7) - all are solid natural cliffs. Col 11 is an incoming one-way ledge jumping west. Ladder at (8, 2) exits up to 1F western terrace at (9, 14).
 
+## Trainers Defeated - Victory Road 1F
+- Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
+- Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
+- Cooltrainer ♂ Albert: Defeated at (27, 36) on 1F eastern plateau (Magneton Lv 43, Muk Lv 43). Prize: ¥2,064.
+
 
 <hr>
 
