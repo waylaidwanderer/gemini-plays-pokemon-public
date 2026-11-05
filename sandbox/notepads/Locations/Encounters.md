@@ -12,17 +12,6 @@
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` (throw Ball on Turn 1 against wild `Grimer` before `Memento`!) |
 | Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
 
-## Key Matchup Rules for Hiker Marc & Gym Leader Roxanne (Verified Attempt #20)
-- **Hiker Marc (`1,099 EXP`)**:
-  - **`#1 Onix` (`345 EXP`)**: Lead high-buffer teammate, switch on Turn 1 to `Marshtomp` (`or attack on Turn 2 of Dig so Onix surfaces first and is immediately OHKO'd on the surface by 4x Water Gun!`).
-  - **`#2 Kabuto` (`356 EXP`, `25+ Speed`, knows `Aerial Ace` & `Giga Drain`)**: **NEVER switch `Gloom` (`24 Speed`, `2x` weak to `Aerial Ace`) into Marc's `Kabuto`!** Instead, use our own **Lv 16 `Kabuto` (`27 Speed > 25 Speed`, `0.5x` resists `Aerial Ace`)**, which outspeeds Marc's `Kabuto` and **OHKOs it from 100% HP with `4x` super-effective `3: Mega Drain` (verified Turn 3832)**!
-  - **`#3 Cacnea` (`248 EXP`, `Needle Arm` [Special Grass], `Thunder Wave`)**: **NEVER switch a Ground/Water/Rock type into `Cacnea`'s Special `Needle Arm`!** Instead, switch in **`Gloom` / `Weepinbell` (`Grass/Poison`, `0.25x` 4x-resists `Needle Arm`!)** and 2HKO `Cacnea` with **`2x` super-effective STAB `2: Acid`**!
-  - **`#4 Baltoy` (`148 EXP`)**: KO with `Luvdisc` / `Wingull` / `Azurill` (`Water Pulse` / `BubbleBeam`).
-- **Gym Leader Roxanne**:
-  - **`#1 Nosepass` (`346 EXP`)**: `Marshtomp` (`3: Mud Shot` on Turn 1 -> `-1 Speed`) -> switch on Turn 2 to `Kabuto` (`holding Cheri Berry`) -> `2: Water Pulse` KOs `Nosepass` from ~55% green HP, leveling **both `Marshtomp` and `Kabuto` to Level 17**!
-  - **`#2 Anorith` (`357 EXP`)**: Lv 17 `Marshtomp` (`holding Oran Berry`) uses `3: Mud Shot` (`-1 Speed`) on Turn 1, then outspeeds at `22 Speed` on Turn 2 and KOs `Anorith` with `4: Water Gun`!
-  - **`#3 Lileep` (`363 EXP`, `Rock/Grass`, `Giga Drain`, `AncientPower`, `Recover`, `Sitrus Berry`)**: Keep **`Gloom` / `Weepinbell` (`Grass/Poison`, `0.5x` resists `Giga Drain`, `1x` neutral to `AncientPower`, knows `3: Toxic` + `2: Acid` + `4: Magical Leaf`)** alive through Hiker Marc (by using `Kabuto` on Marc's `Kabuto` and `Gloom` on Marc's `Cacnea`!) so `Gloom` / `Weepinbell` lands **`3: Toxic`** on `Lileep` and beats `Lileep` effortlessly!
-
 ## Verified Species Learnsets & Evolutions (Attempts #9–#20)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
 - **Littleroot Town (`Old Rod`)**: `Luvdisc` (`Secret Power`, `Charm`, `Water Pulse` Lv 12, `Ice Beam` Lv 16, `38 Speed` at Lv 16); `Goldeen` (`Swift Swim`; starts with `BubbleBeam` 65 BP, `Psybeam` 65 BP, `Haze`, learns `Supersonic` Lv 10, `Water Pulse` Lv 15).
