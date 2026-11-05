@@ -84,3 +84,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## 1F Northern Staircase & Upper Suspension Bridge (Turn 19850)
 - Northern Staircase: Located at col 16, ascending from row 22 up to row 17.
 - Upper Northern Tier (rows 14..17): Houses a third elevated suspension bridge spanning east across the northern cavern.
+
+## 1F Upper Northern Corridor (Turn 19851)
+- Upper Northern Corridor: Ascended northern staircase at col 16 to row 14. A clear elevated corridor runs East along rows 13..14 above the northern suspension bridge, bypassing obstacles to reach the northeastern cavern.
