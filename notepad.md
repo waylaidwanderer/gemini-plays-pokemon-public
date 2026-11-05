@@ -10,7 +10,7 @@
 | Route 102 | Sandshrew (M, Lv 13) | GAIA | Active | Slot 4; `Ground`; `1: Scratch`, `2: Defense Curl`, `3: Poison Sting`, `4: Sand-Attack` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (M, Lv 13) | PONTUS | Active | Slot 5; `Normal`; `Thick Fat`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Jigglypuff (M, Lv 13) | ORPHEUS | Active | Slot 6; `Normal`; `Cute Charm`; `Sing`, `Disable` Lv 9; holds `Oran Berry` |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Petalburg Woods | Hoothoot (M, Lv 8) | GLAUKOS | Boxed (PC) | `Normal/Flying`; `Insomnia`; caught at `(9, 33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
