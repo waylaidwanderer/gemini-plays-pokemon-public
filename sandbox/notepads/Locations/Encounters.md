@@ -5,7 +5,7 @@
 | Starter (Route 101) | Marshtomp (F, Lv 16) | AAPROTEUS | Active | Overworld Slot 1; `Water/Ground`; `1,006 / 1,021 EXP` into Lv 16 (`15 EXP` buffer — levels to Lv 17 on Roxanne's `#1 Nosepass`!); `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Goldeen (F, Lv 17) | SIREN | Retired (Benched for Cap) | In Box 1 `(0, 0)`; benched at Lv 17 until Roxanne is defeated |
 | Route 103 | Wingull (M, Lv 16) | ZEPHYR | Deceased | Fainted Turn 3862 to Gym Leader Roxanne's Lileep (`AncientPower`) |
-| Route 102 | Ralts (F, Lv 16) | PSYCHE | Active | Overworld Slot 5; `Psychic`; `Slow` EXP group (`0 / 1,021 EXP` into Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11, `4: Magical Leaf` Lv 16; holds `Oran Berry` |
+| Route 102 | Ralts (F, Lv 16) | PSYCHE | Deceased | Fainted Turn 3865 to Gym Leader Roxanne's `+1` omniboosted Lileep (`Giga Drain`) |
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Overworld Slot 4; `Normal`; `Thick Fat`; `476 / 576 EXP` into Lv 16 (`100 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 16) | GAIA | Deceased | Fainted Turn 3837 to Hiker Marc's Cacnea (`Needle Arm`, since Grass is Special in Gen 3) |
 | Petalburg Woods | Gloom (M, Lv 16) | CHLORIS | Deceased | Fainted Turn 3831 to Hiker Marc's Kabuto (`2x` `Aerial Ace`, outsped at 24 Speed) |
