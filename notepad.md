@@ -10,7 +10,7 @@
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | Slot 4; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 1; `Normal`; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 14) | GAIA | Active | Slot 6; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Petalburg Woods | Oddish (M, Lv 8) | CHLORIS | Active | In Box 1 (withdrawing for PSYCHE); `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer) |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
