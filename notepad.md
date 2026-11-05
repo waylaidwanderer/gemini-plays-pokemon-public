@@ -63,21 +63,21 @@
   2. **Exact Rustboro Gym EXP Budget (`3,773 EXP` Total Across Josh, Tammy, and Marc) to Keep All 6 Best Pokemon at Lv 16 for Roxanne**:
      - **ALWAYS OHKO School Kid Josh's `#1 Geodude` (Lv 15, `276 EXP`) ON TURN 1** with a faster Water/Grass lead (`Luvdisc` / `Wingull` / `Marshtomp`) before `Geodude` can use `Selfdestruct`!
      - **Battle 1 — School Kid Josh (`1,108 EXP`)**:
-       - `#1 Geodude` (`276 EXP`): Lead **`Luvdisc` (`0 / 653 EXP`)**, OHKO on Turn 1 with `3: Water Pulse` -> `Luvdisc = 276 / 653 EXP`.
-       - `#2 Zubat` (`126 EXP`): **`Luvdisc`** stays in, 2HKOs with `4: Ice Beam` -> `Luvdisc = 402 / 653 EXP`.
-       - `#3 Sudowoodo` (`346 EXP`): **`Luvdisc`** switches on Turn 1 to **`Kabuto`/`Omanyte` (`0 / 817 EXP`)**, who 2HKOs with `Water Pulse` -> `Luvdisc = 575 / 653 EXP`, `Kabuto/Omanyte = 173 / 817 EXP`.
-       - `#4 Omanyte` (`360 EXP`): **`Kabuto`/`Omanyte`** stays in and OHKOs with `4x` `Mega Drain` (or switches to Route 116 encounter / `Azurill` / `Nidorino`) -> `Kabuto = 533 / 817 EXP`.
+       - `#1 Geodude` (`276 EXP`): Lead **`EROS` (`Luvdisc`, `0 / 653 EXP`)**, OHKO on Turn 1 with `3: Water Pulse` -> `EROS = 276 / 653 EXP`.
+       - `#2 Zubat` (`126 EXP`): **`EROS`** switches on Turn 1 to **`ASTRAPE` (`Voltorb`, `0 / 1,021 EXP`)**, who OHKOs with `3: Shock Wave` -> `EROS = 339 / 653 EXP`, `ASTRAPE = 63 / 1,021 EXP`.
+       - `#3 Sudowoodo` (`346 EXP`): **`ASTRAPE`** switches on Turn 1 to **`PROTEUS` (`Omanyte`, `0 / 585 EXP` [Medium Slow in this hack!])**, who 2HKOs with `1: BubbleBeam` -> `ASTRAPE = 236 / 1,021 EXP`, `PROTEUS = 173 / 585 EXP`.
+       - `#4 Omanyte` (`360 EXP`): **`PROTEUS`** switches on Turn 1 to **`ASTRAPE`**, who KOs with `3: Shock Wave` -> `PROTEUS = 353 / 585 EXP`, `ASTRAPE = 416 / 1,021 EXP`.
      - **Battle 2 — School Kid Tammy (`1,566 EXP`)**:
-       - `#1 Aron` (`267 EXP`): Lead **`Marshtomp` (`0 / 1,021 EXP`)**, OHKO with `Mud Shot` -> `Marshtomp = 267 / 1,021 EXP`.
-       - `#2 Yanma` (`345 EXP`): **`Marshtomp`** switches on Turn 1 to **`Wingull` (`0 / 817 EXP`)**, who 2HKOs with `Wing Attack` -> `Marshtomp = 439 / 1,021 EXP`, `Wingull = 172 / 817 EXP`.
-       - `#3 Rhyhorn` (`432 EXP`): **`Wingull`** (`immune to Magnitude`) switches on Turn 1 back to **`Marshtomp`**, who OHKOs with `4: Water Gun` -> `Wingull = 388 / 817 EXP`, `Marshtomp = 655 / 1,021 EXP`.
-       - `#4 Corsola` (`309 EXP`): **`Marshtomp`** switches on Turn 1 to **`Weepinbell`/`Gloom` (`180 / 585 EXP`)**, who 2HKOs with `Vine Whip`/`Magical Leaf` -> `Marshtomp = 809 / 1,021 EXP`, `Weepinbell/Gloom = 334 / 585 EXP`.
-       - `#5 Larvitar` (`213 EXP`): **`Weepinbell`/`Gloom`** pivots through **`Wingull` (`388 / 817 EXP`)** -> **`Marshtomp` (`809 / 1,021 EXP`)** (`3-way split: 213 // 3 = 71 EXP each`), and `Marshtomp` OHKOs with `4: Water Gun` -> `Weepinbell/Gloom = 405 / 585 EXP`, `Wingull = 459 / 817 EXP`, `Marshtomp = 880 / 1,021 EXP`.
+       - `#1 Aron` (`267 EXP`): Lead **`MARSHTOMP` (`0 / 1,021 EXP`)**, OHKO with `3: Mud Shot` -> `MARSHTOMP = 267 / 1,021 EXP`.
+       - `#2 Yanma` (`345 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`THETIS` (`Azurill`, `0 / 653 EXP`)**, who 2HKOs with `1: Body Slam` -> `MARSHTOMP = 439 / 1,021 EXP`, `THETIS = 172 / 653 EXP`.
+       - `#3 Rhyhorn` (`432 EXP`): **`THETIS`** switches on Turn 1 to **`MARSHTOMP`**, who OHKOs with `4: Water Gun` -> `THETIS = 388 / 653 EXP`, `MARSHTOMP = 655 / 1,021 EXP`.
+       - `#4 Corsola` (`309 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`DEMETER` (`Weepinbell`, `0 / 585 EXP`)**, who 2HKOs with `1: Vine Whip` -> `MARSHTOMP = 809 / 1,021 EXP`, `DEMETER = 154 / 585 EXP`.
+       - `#5 Larvitar` (`213 EXP`): **`DEMETER`** switches on Turn 1 to **`THETIS`**, who OHKOs with `4: BubbleBeam` -> `DEMETER = 260 / 585 EXP`, `THETIS = 494 / 653 EXP`.
      - **Battle 3 — Hiker Marc (`1,099 EXP`)**:
-       - `#1 Onix` (`345 EXP`): Lead high-buffer teammate, switch on Turn 1 to **`Marshtomp`** (or **`Kabuto`/`Omanyte`**), who OHKOs with `Water Gun`/`Water Pulse` (`if Onix burrows underground with Dig, attack on Turn 2 of Dig so Onix surfaces first and is immediately OHKO'd on the surface!`).
-       - `#2 Kabuto` (`356 EXP`, `25+ Speed`, knows `Aerial Ace` & `Giga Drain`): **NEVER switch `Gloom` (`24 Speed`, `2x` weak to `Aerial Ace`) into Marc's `Kabuto`!** Instead, use our own **Lv 16 `Kabuto` (`27 Speed > 25 Speed`, `0.5x` resists `Aerial Ace`)**, which outspeeds Marc's `Kabuto` and **OHKOs it from 100% HP with `4x` super-effective `3: Mega Drain` (verified Turn 3832)**!
-       - `#3 Cacnea` (`248 EXP`, `Needle Arm` [Special Grass], `Thunder Wave`): **NEVER switch a Ground/Water/Rock type into `Cacnea`'s Special `Needle Arm`!** Instead, switch in **`Gloom`/`Weepinbell` (`Grass/Poison`, `0.25x` 4x-resists `Needle Arm`!)** and 2HKO `Cacnea` with **`2x` super-effective STAB `2: Acid`** (preserving `Gloom`/`Weepinbell` at full health to `3: Toxic` Roxanne's `#3 Lileep`)!
-       - `#4 Baltoy` (`148 EXP`): KO with `Luvdisc` / `Wingull` / `Azurill` (`Water Pulse` / `BubbleBeam`).
+       - `#1 Onix` (`345 EXP`): Lead **`MARSHTOMP` (`809 / 1,021 EXP`)**, switch on Turn 1 to **`EROS` (`339 / 653 EXP`)**, who OHKOs with `3: Water Pulse` -> `MARSHTOMP = 981 / 1,021 EXP`, `EROS = 511 / 653 EXP`.
+       - `#2 Kabuto` (`356 EXP`, `25+ Speed`): **`EROS`** pivots through **`THETIS` (`494 / 653 EXP`)** -> **`ASTRAPE` (`416 / 1,021 EXP`, `39 Speed`)** (`3-way split: 118 EXP each`), and `ASTRAPE` OHKOs `Kabuto` with `2x` super-effective `3: Shock Wave` -> `EROS = 629 / 653 EXP`, `THETIS = 612 / 653 EXP`, `ASTRAPE = 534 / 1,021 EXP`.
+       - `#3 Cacnea` (`248 EXP`, `Needle Arm` [Special Grass], `Thunder Wave`): **`ASTRAPE`** switches on Turn 1 to **`DEMETER` (`260 / 585 EXP`, `0.25x` 4x-resists `Needle Arm`!)** and 2HKOs `Cacnea` with **`2x` super-effective STAB `2: Acid`** -> `ASTRAPE = 658 / 1,021 EXP`, `DEMETER = 384 / 585 EXP`.
+       - `#4 Baltoy` (`148 EXP`): **`DEMETER`** switches on Turn 1 to **`PROTEUS` (`353 / 585 EXP`)**, who OHKOs with `1: BubbleBeam` -> `DEMETER = 458 / 585 EXP`, `PROTEUS = 427 / 585 EXP` (so BOTH `MARSHTOMP` and `PROTEUS` hit Lv 17 on Roxanne's `#1 Nosepass`!).
   3. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison at `0` Steps & Never Chain Chip Moves With Poke Ball Throws**:
      - **CRITICAL OVERWORLD POISON RULE**: Overworld poison ticks for `1 HP` every `4 steps` and will kill a poisoned Pokemon (`0 HP` = Nuzlocke death). Cure poison with a `Pecha Berry` at `0` steps before walking anywhere! Against trainers who have both a `Toxic` user (`Koffing`) and a `Pursuit` user (`Houndour`), switch the `Toxic`-poisoned Pokemon out *before* KOing the `Toxic` user so `Houndour` cannot trap it at low HP.
      - **Never chain a damaging chip attack and a Poke Ball throw in the same `press_buttons` call**.
