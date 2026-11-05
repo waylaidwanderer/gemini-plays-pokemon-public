@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 13) | AAPROTEUS | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Goldeen (F, Lv 14) | SIREN | Active | Slot 4; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10; holds `Oran Berry` |
-| Route 103 | Wingull (M, Lv 14) | ZEPHYR | Active | Slot 1; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
+| Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Slot 3; `Water/Flying`; `Keen Eye`; `~75 / 817 EXP` into Lv 16 (`~742 EXP` buffer remaining); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
 | Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Slot 5; `Normal`; `Thick Fat`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 14) | GAIA | Active | Slot 3; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
