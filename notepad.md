@@ -9,7 +9,7 @@
 | Route 103 | Hoppip (M, Lv 13) | ZEPHYR | Active | Caught at `(15, 11)`; `Grass/Flying`; `1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10 |
 | Route 102 | Gulpin (M, Lv 15) | BACCHUS | Active | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Fluctuating` EXP group (`1,329 EXP` buffer at Lv 16!); `1: Acid` [spread], `2: Yawn` [**puts target to sleep immediately on the same turn in this hack!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14 |
 | Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 14 (`1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Venonat (F, Lv 13) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; raised to Lv 13 |
+| Route 104 | Venonat (F, Lv 14) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 14 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`) |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` (throw Ball on Turn 1 against wild `Grimer` before `Memento`!) |
 | Route 115 | — | — | Pending | Fish with `Old Rod` at `(7, 71)` facing `Left` |
