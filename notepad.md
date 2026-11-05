@@ -4,10 +4,10 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (Lv 13) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 13 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
+| Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Hoppip (M, Lv 13) | ZEPHYR | Active | Caught at `(15, 11)`; `Grass/Flying`; `1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10 |
-| Route 102 | Gulpin (M, Lv 15) | BACCHUS | Active | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Fluctuating` EXP group (`1,329 EXP` buffer at Lv 16!); `1: Acid` [spread], `2: Yawn` [**puts target to sleep immediately on the same turn in this hack!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14 |
+| Route 103 | Hoppip (M, Lv 14) | ZEPHYR | Active | Caught at `(15, 11)`; `Grass/Flying`; `1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10 |
+| Route 102 | Gulpin (M, Lv 16) | BACCHUS | Active | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Fluctuating` EXP group (`~1,300 / 1,329 EXP` buffer left at Lv 16!); `1: Acid` [spread], `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14 |
 | Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 14 (`1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Venonat (F, Lv 14) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 14 (`1: Foresight`, `2: Leech Life`, `3: Psybeam`) |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
