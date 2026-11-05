@@ -9,7 +9,7 @@
 | Route 103 | Skitty (F, Lv 13) | SELENE | Active | Slot 1; `Normal`; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Meowth (M, Lv 13) | HERMES | Active | Slot 4; `Normal`; `Limber`; `1: Pay Day`, `2: Faint Attack`, `3: Swift` Lv 12; holds `Oran Berry` |
 | Petalburg City | Azurill (M, Lv 13) | PONTUS | Active | Slot 5; `Normal`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
-| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 104 | Natu (M, Lv 7) | APOLLO | Active | Slot 6; `Psychic/Flying`; `65 BP STAB Psybeam`; holds `Oran Berry` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
