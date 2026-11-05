@@ -108,3 +108,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   2. Northeast wooden staircase sits at cols 30..31 (rows 28..31) ascending to upper shelf.
   3. Westward corridor along row 32 connects directly to the B1F ladder at (21, 32)!
   4. South corridor leads back to defeated Cooltrainer Albert at (27, 36).
+
+## 1F Primary B1F Ladder Access Solution (Turn 19905)
+- Spatial Puzzle Solution:
+  - The primary B1F entrance ladder is at (21, 32).
+  - South of the ladder is a one-way hop ledge dropping to (21, 34).
+  - North of the ladder is an isolated middle plateau (cols 21..24, rows 27..29) with a descending staircase at (21, 28..31).
+  - The middle plateau can ONLY be reached by crossing the Central Suspension Bridge (rows 27..28, cols 22..29) heading WEST.
+  - The east entrance of the Central Suspension Bridge is reached by climbing the Northeast Wooden Staircase at cols 30..31 (rows 28..31).
+  - Complete navigation circuit: From row 29, walk East to col 30 -> climb stairs North to row 27 -> cross bridge West to col 21 -> descend stairs South to (21, 32) -> enter B1F ladder!
