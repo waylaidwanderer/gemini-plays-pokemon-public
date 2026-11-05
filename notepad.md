@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 13) | AAPROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10 |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
-| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 103 | Wingull (M, Lv 4) | ZEPHYR | Active | Slot 2; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
