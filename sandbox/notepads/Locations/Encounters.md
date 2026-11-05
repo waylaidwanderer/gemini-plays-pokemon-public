@@ -9,7 +9,7 @@
 | Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Slot 1; `Normal`; `Thick Fat`; `~40 / 576 EXP` into Lv 16 (`~536 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 15) | GAIA | Active | Slot 4; `Ground`; `1: Bone Club`, `2: Rock Throw`, `3: Secret Power` Lv 9, `4: Headbutt` Lv 13; holds `Oran Berry` |
 | Petalburg Woods | Oddish (M, Lv 15) | CHLORIS | Active | Slot 6; `Grass/Poison`; evolves into `Gloom` (`Magical Leaf`) at Lv 16 (`585 EXP` buffer); `1: Mega Drain`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 14; holds `Oran Berry` |
-| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+| Route 116 | Grimer (M, Lv 9) | — | Forfeited | Fainted itself on Turn 2 with `Memento`; note: throw ball on Turn 1 against wild `Grimer`! |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#19)
