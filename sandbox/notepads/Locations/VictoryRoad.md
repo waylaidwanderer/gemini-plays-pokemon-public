@@ -120,17 +120,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   4. Descend to B1F (8, 3), use Flash, and solve the boulder puzzle to advance toward B2F!
 
 
-## B1F Northwest Boulder Puzzle Solution (Verified Turn 19951)
-- Puzzle Mechanics & Reset:
-  - Stepping up to 1F via ladder at (8, 2) and re-entering B1F at (8, 3) resets all boulders.
-  - Pushing Boulder 1 south down col 9 permanently wedges it at (9, 13) against the row 14 ledge (fatal dead end).
-- Verified Solution:
-  1. From ladder (8, 3), do NOT touch Boulder 1 at (9, 10).
-  2. Walk West along northern corridor (row 3) to col 3/4.
-  3. Approach Boulder 2 at (4, 7..8) from the WEST at (3, 7).
-  4. Push Boulder 2 EAST into the open row 7 corridor, clearing column 4 completely.
-  5. Walk South down col 4 to row 10.
-  6. Walk East along row 10 to (8, 10), directly facing Boulder 1 at (9, 10).
-  7. Push Boulder 1 EAST from (8, 10) into the open alcove at (10, 10).
-  8. Column 9 is now completely clear from row 10 all the way to row 14!
-  9. Walk South down column 9 to row 14 and hop over the ledge into the main southern B1F cavern!
+## B1F Northwest Chamber Topography & Verified Pathways (Turn 19980)
+- Reset Mechanic: Ascending to 1F via ladder at (8, 2) and re-entering B1F at (8, 3) resets all boulders.
+- Verified Collision & Boundaries:
+  - Ladder lands at (8, 3) facing South.
+  - Column 9 Corridor: Runs south past central rock mounds to Boulder 1 at (9, 10). Pushing Boulder 1 south down column 9 wedges it at (9, 13) against the row 14 ledge, permanently sealing the chute.
+  - Eastern Branch (Column 10): Open and walkable at rows 4, 5, and 6 ((10, 4), (10, 5), (10, 6) entered from column 9). Rows 7..9 on column 10 are blocked.
+  - Western Branch (Row 4): Open corridor from (8, 4) leading west across row 4 towards column 4 and (4, 6).
+  - Boulder 2 at (4, 7..8): Flanked on the west by solid natural cliff at (3, 7); tile (3, 7) is impassable.
+- Active Strategy:
+  - Descend to B1F (8, 3), activate Flash with Lilz.
+  - Explore the northern row 4 westward corridor towards column 4 from ABOVE (4, 6) and the eastern column 10 corridor to determine the true layout and alternate boulder paths.
