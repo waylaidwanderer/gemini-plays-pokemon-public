@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (Lv 13) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 13 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (F, Lv 14) | EROS | Active | Caught at `(17, 13)` with `Old Rod`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
 | Route 103 | Hoppip (M, Lv 13) | ZEPHYR | Active | Caught at `(15, 11)`; `Grass/Flying`; `1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10 |
-| Route 102 | Gulpin (M, Lv 11) | BACCHUS | Active | Caught at `(39, 6)`; `Poison`; `Fluctuating` EXP group (`1,329 EXP` buffer at Lv 16!); starts with `Yawn` and spread `Acid` |
+| Route 102 | Gulpin (M, Lv 14) | BACCHUS | Active | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Fluctuating` EXP group (`1,329 EXP` buffer at Lv 16!); `1: Acid` [spread], `2: Yawn`, `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14 |
 | Petalburg City | — | — | Pending | Fish with `Old Rod` at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
