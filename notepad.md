@@ -4636,6 +4636,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Southern Bypass Corridor (row 34): Connects eastern terrace at (39, 34) West past (38, 34) to (31, 34), remaining above the southern one-way return ledges.
 - Wooden Staircase at (30..31, 30): Ascends North from row 30 up to row 26 onto the central-eastern plateau.
 - Cooltrainer (blonde, red jacket) stationed on lower floor at (27, 36) facing South.
+## 1F Central-Eastern Junction (Turn 19891)
+- Position: (27, 33) facing Up.
+- Topography:
+  1. Northward passage extends under the overhead bridge along cols 26..29.
+  2. Northeast wooden staircase sits at cols 30..31 (rows 28..31) ascending to upper shelf.
+  3. Westward corridor along row 32 connects directly to the B1F ladder at (21, 32)!
+  4. South corridor leads back to defeated Cooltrainer Albert at (27, 36).
+
 
 <hr>
 
