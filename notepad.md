@@ -4616,6 +4616,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F North Highway (row 24): Fully verified 12-tile continuous corridor connecting eastern plateau (29, 24) to the central platform northern approach (17, 24).
 - Northern Staircase at (16, 21): Located directly north of the central suspension bridge at col 16, ascending into the northern cliff wall.
 
+## 1F Northern Staircase & Upper Suspension Bridge (Turn 19850)
+- Northern Staircase: Located at col 16, ascending from row 22 up to row 17.
+- Upper Northern Tier (rows 14..17): Houses a third elevated suspension bridge spanning east across the northern cavern.
+
 
 <hr>
 
