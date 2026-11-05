@@ -117,3 +117,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The middle plateau can ONLY be reached by crossing the Central Suspension Bridge (rows 27..28, cols 22..29) heading WEST.
   - The east entrance of the Central Suspension Bridge is reached by climbing the Northeast Wooden Staircase at cols 30..31 (rows 28..31).
   - Complete navigation circuit: From row 29, walk East to col 30 -> climb stairs North to row 27 -> cross bridge West to col 21 -> descend stairs South to (21, 32) -> enter B1F ladder!
+
+## 1F Definitive Progression Route to B1F (Turn 19914)
+- Verified Puzzle Topography & Complete Solution:
+  1. Ascend Northern Staircase at (16, 21..17) to row 17.
+  2. Cross Northern Bridge 1 (row 17, cols 18..23) and Bridge 2 (row 17, cols 26..37) to Eastern Landing at (39, 17).
+  3. Descend wooden staircase at (39, 18..24) down to (39, 25) onto the upper shelf. (DO NOT jump the one-way ledge at row 27!).
+  4. Walk West along row 25 across cols 38..35 to reach the Central Suspension Bridge eastern entrance at (34..35, 27..28).
+  5. Cross Central Suspension Bridge West along row 28 across cols 34..21 to the isolated middle plateau.
+  6. Descend wooden staircase South at (21, 28..31) directly into the primary B1F entrance ladder at (21, 32)!
