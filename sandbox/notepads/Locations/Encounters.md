@@ -2,15 +2,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (F, Lv 16) | AAPROTEUS | Active | Overworld Slot 2; `Water/Ground`; `680 / 1,021 EXP` into Lv 16 (`341 EXP` buffer); `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Oran Berry` |
+| Starter (Route 101) | Marshtomp (F, Lv 16) | AAPROTEUS | Active | Overworld Slot 1; `Water/Ground`; `1,006 / 1,021 EXP` into Lv 16 (`15 EXP` buffer — levels to Lv 17 on Roxanne's `#1 Nosepass`!); `1: Tackle`, `2: Bubble` [spread], `3: Mud Shot` Lv 16, `4: Water Gun` Lv 10; holds `Oran Berry` |
 | Littleroot Town | Goldeen (F, Lv 17) | SIREN | Retired (Benched for Cap) | In Box 1 `(0, 0)`; benched at Lv 17 until Roxanne is defeated |
-| Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Overworld Slot 3; `Water/Flying`; `Keen Eye`; `610 / 817 EXP` into Lv 16 (`207 EXP` buffer); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
-| Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | In Box 1 `(1, 0)`; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11; holds `Oran Berry` |
-| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Overworld Slot 6; `Normal`; `Thick Fat`; `240 / 576 EXP` into Lv 16 (`336 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
+| Route 103 | Wingull (M, Lv 16) | ZEPHYR | Active | Overworld Slot 2; `Water/Flying`; `Keen Eye`; `728 / 817 EXP` into Lv 16 (`89 EXP` buffer); `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13; holds `Oran Berry` |
+| Route 102 | Ralts (F, Lv 16) | PSYCHE | Active | Overworld Slot 5; `Psychic`; `Slow` EXP group (`0 / 1,021 EXP` into Lv 16); `1: Confusion`, `2: Teleport` Lv 8, `3: Secret Power` Lv 11, `4: Magical Leaf` Lv 16; holds `Oran Berry` |
+| Petalburg City | Azurill (F, Lv 16) | THETIS | Active | Overworld Slot 4; `Normal`; `Thick Fat`; `476 / 576 EXP` into Lv 16 (`100 EXP` buffer); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
 | Route 104 | Cubone (F, Lv 16) | GAIA | Deceased | Fainted Turn 3837 to Hiker Marc's Cacnea (`Needle Arm`, since Grass is Special in Gen 3) |
 | Petalburg Woods | Gloom (M, Lv 16) | CHLORIS | Deceased | Fainted Turn 3831 to Hiker Marc's Kabuto (`2x` `Aerial Ace`, outsped at 24 Speed) |
 | Route 116 | Grimer (M, Lv 9) | — | Forfeited | Fainted itself on Turn 2 with `Memento`; note: throw ball on Turn 1 against wild `Grimer`! |
-| Route 115 | Kabuto (M, Lv 16) | CRONUS | Active | Overworld Slot 5; `Rock/Water`; `565 / 817 EXP` into Lv 16 (`252 EXP` buffer); `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13; holds `Oran Berry` |
+| Route 115 | Kabuto (M, Lv 16) | CRONUS | Active | Overworld Slot 3; `Rock/Water`; `801 / 817 EXP` into Lv 16 (`16 EXP` buffer — levels to Lv 17 on Roxanne's `#1 Nosepass`!); `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13; holds `Cheri Berry` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#19)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
