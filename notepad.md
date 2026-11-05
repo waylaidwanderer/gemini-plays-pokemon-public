@@ -4627,8 +4627,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Second Northern Bridge spans cols 26..37 along row 17 across the chasm to the northeastern plateau.
   - Eastern bridge landing reached at (38..39, 17).
   - Upper northern shelf (row 16) is blocked by a horizontal cliff face from the bridge landing.
-  - Wooden staircase located at (39, 18) descending South down to row 25 on the lower cavern floor.
-  - Cooltrainer (blonde, red jacket) stationed at (35, 25) on the lower cavern floor below.
+  - Wooden staircase located at (39, 18) descending South down to row 25 onto an intermediate shelf (cols 39..42, rows 24..26).
+  - Item: MAX ELIXIR collected at (40, 26) on Turn 19881!
+  - One-way jump ledge at row 27 across cols 39..42 hops South onto row 28.
+  - Eastern Terrace (cols 39..41, rows 28+): Elevated corridor continuing South along the eastern cave wall.
 
 
 <hr>
