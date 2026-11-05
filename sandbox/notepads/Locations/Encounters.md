@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10; holds `Oran Berry` |
-| Littleroot Town | Luvdisc (F, Lv 15) | EROS | Active | Slot 1; `Water`; `Swift Swim`; `1: Secret Power`, `2: Charm` Lv 6, `3: Water Pulse` Lv 12; holds `Oran Berry` |
+| Littleroot Town | Luvdisc (F, Lv 16) | EROS | Active | Slot 1; `Water`; `Swift Swim`; `1: Secret Power`, `2: Charm` Lv 6, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16 (`39 / 653 EXP`); holds `Oran Berry` |
 | Route 103 | Delcatty (F, Lv 16) | SELENE | Active | Slot 3; `Normal`; evolved from `Skitty` via wild **`Moon Stone`**; `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7; holds `Oran Berry` |
 | Route 102 | Sandshrew (M, Lv 14) | GAIA | Active | Slot 4; `Ground`; `1: Scratch`, `2: Defense Curl`, `3: Poison Sting`, `4: Sand-Attack` Lv 11; holds `Oran Berry` |
 | Petalburg City | Azurill (M, Lv 14) | PONTUS | Active | Slot 5; `Normal`; `Thick Fat`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; holds `Oran Berry` |
