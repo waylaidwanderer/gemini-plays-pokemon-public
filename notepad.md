@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (Lv 5) | PROTEUS | Active | Slot 1; `1: Tackle` |
+| Starter (Route 101) | Mudkip (F, Lv 13) | AAPROTEUS | Active | Slot 1; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10 |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
