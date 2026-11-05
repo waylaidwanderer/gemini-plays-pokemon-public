@@ -106,23 +106,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Topography:
   1. Northward passage extends under the overhead bridge along cols 26..29.
   2. Northeast wooden staircase sits at cols 30..31 (rows 28..31) ascending to upper shelf.
-  3. Westward corridor along row 32 connects directly to the B1F ladder at (21, 32)!
+  3. Westward advance along row 32 is blocked at col 26 by a solid cliff. Tile (21, 32) is the B1F return/exit ladder, NOT a 1F entrance.
   4. South corridor leads back to defeated Cooltrainer Albert at (27, 36).
 
-## 1F Primary B1F Ladder Access Solution (Turn 19905)
-- Spatial Puzzle Solution:
-  - The primary B1F entrance ladder is at (21, 32).
-  - South of the ladder is a one-way hop ledge dropping to (21, 34).
-  - North of the ladder is an isolated middle plateau (cols 21..24, rows 27..29) with a descending staircase at (21, 28..31).
-  - The middle plateau can ONLY be reached by crossing the Central Suspension Bridge (rows 27..28, cols 22..29) heading WEST.
-  - The east entrance of the Central Suspension Bridge is reached by climbing the Northeast Wooden Staircase at cols 30..31 (rows 28..31).
-  - Complete navigation circuit: From row 29, walk East to col 30 -> climb stairs North to row 27 -> cross bridge West to col 21 -> descend stairs South to (21, 32) -> enter B1F ladder!
 
-## 1F Definitive Progression Route to B1F (Turn 19914)
-- Verified Puzzle Topography & Complete Solution:
-  1. Ascend Northern Staircase at (16, 21..17) to row 17.
-  2. Cross Northern Bridge 1 (row 17, cols 18..23) and Bridge 2 (row 17, cols 26..37) to Eastern Landing at (39, 17).
-  3. Descend wooden staircase at (39, 18..24) down to (39, 25) onto the upper shelf. (DO NOT jump the one-way ledge at row 27!).
-  4. Walk West along row 25 across cols 38..35 to reach the Central Suspension Bridge eastern entrance at (34..35, 27..28).
-  5. Cross Central Suspension Bridge West along row 28 across cols 34..21 to the isolated middle plateau.
-  6. Descend wooden staircase South at (21, 28..31) directly into the primary B1F entrance ladder at (21, 32)!
+## B1F Ladder Roles & Progression Strategy (Turn 19921)
+- Ladder (8, 13) on 1F Western Terrace: The TRUE and ONLY progression entrance into Victory Road B1F. Leads to B1F (8, 3) where the Strength boulder & Rock Smash puzzle connects to B2F.
+- Ladder (21, 32) on 1F Eastern Plateau: The one-way RETURN / EXIT ladder from B1F. Drops down to row 34 via one-way ledge.
+- Immediate Strategy:
+  1. Exit 1F South at (15, 40) to Ever Grande City South Plateau.
+  2. Heal party at Pokémon Center (revives Lombre Lilz with Flash/Surf/Waterfall, restores Leaf Blade 15/15, Rock Smash 15/15, Dig 10/10).
+  3. Re-enter 1F, cross western bridge to western terrace ladder at (8, 13).
+  4. Descend to B1F (8, 3), use Flash, and solve the boulder puzzle to advance toward B2F!
