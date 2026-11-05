@@ -5,9 +5,9 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (F, Lv 13) | AAPROTEUS | Active | Slot 2; `1: Tackle`, `2: Bubble` Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10 |
-| Littleroot Town | Goldeen (F, Lv 13) | SIREN | Active | Slot 3; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 |
-| Route 103 | Wingull (M, Lv 13) | ZEPHYR | Active | Slot 1; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13 |
-| Route 102 | Ralts (F, Lv 11) | PSYCHE | Active | Slot 4; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `Confusion` |
+| Littleroot Town | Goldeen (F, Lv 13) | SIREN | Active | Slot 1; `Water`; `Swift Swim`; `1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10 |
+| Route 103 | Wingull (M, Lv 13) | ZEPHYR | Active | Slot 3; `Water/Flying`; `Keen Eye`; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13 |
+| Route 102 | Ralts (F, Lv 13) | PSYCHE | Active | Slot 4; `Psychic`; `Slow` EXP group (`1,021 EXP` buffer at Lv 16); `Confusion`, `Teleport` Lv 8 |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
