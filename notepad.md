@@ -4650,6 +4650,17 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B2F entrance ladder located at (17, 16).
 
 
+## B1F Eastern Terrace & Southern Highway Topography (Turn 20094)
+- Upper Suspension Bridge (row 8): Spans cols 23..28 East to eastern landing at (29..32, 8).
+- Staircase (32, 10..11): Descends South to landing at (32, 12). Exit from landing is East.
+- Cooltrainer ♂ Samuel: Defeated at (35, 12) on eastern terrace.
+- Southern Overhead Suspension Bridge (rows 15..16): Elevated overhead spanning cols 34..40. Player walks completely UNDER it via col 37 into the southern highway.
+- Southern Cavern Highway (rows 22..26):
+  - Column 37 extends south from (37, 17) to row 24.
+  - Rock mound occupies rows 23..24 at cols 30..35.
+  - Row 26 is an open horizontal highway running West beneath the rock mound across cols 30..36, directly above double jump ledges at rows 27..28, heading toward the western lower terrace and B2F ladder.
+
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
