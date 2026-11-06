@@ -4697,6 +4697,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - (23, 15): South edge is a solid cliff wall (tested Turn 20183).
 - (24, 14): Vertical ridge at x=24 faces west (high ground on east).
 - Northwest chamber has NO progression exits beyond Column 9 chute to row 13. All forward progression is in the eastern half of B1F.
+- Eastern Landing Architecture (Turn 20199-20200):
+  - Row 7 at (32, 7) is a one-way south-facing jump ledge hopping down onto row 8. Upper plateau cannot be ascended from row 8.
+  - Wooden staircase at (32, 10..11) descends South to row 12 landing.
 
 <hr>
 
