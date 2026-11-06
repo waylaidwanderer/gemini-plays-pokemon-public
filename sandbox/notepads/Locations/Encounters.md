@@ -10,7 +10,7 @@
 | Route 104 | Nidorina (F, Lv 17) | ELECTRA | Deceased | Caught at `(24, 61)` as `Nidoran♀`, evolved at Lv 16; `Poison`; `Poison Point`; defeated Roxanne's `#3 Lileep` to reach Lv 17, then fainted at Turn 4581 to Roxanne's `#4 Lunatone` (`Confusion`) |
 | Petalburg Woods | Hoothoot (M, Lv 17) | ATHENA | Retired (Overleveled) | Caught at `(6, 30)`; `Normal/Flying`; `Keen Eye`; reached Lv 17 vs Hiker Marc's Cacnea; bench in `BOX 1` until Roxanne is defeated (`1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11) |
 | Route 116 | Makuhita (M, Lv 16) | HERACLES | Deceased | Caught at `(4, 13)`; `Fighting`; raised to Lv 16; fainted at Turn 4560 to Hiker Marc's `Cacnea` (`16–20 Speed` outsped `15 Speed` Makuhita at `23/51 HP`) |
-| Route 115 | Kabuto (M, Lv 16) | TRITON | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; withdrawn from `BOX 1` and raised to Lv 16 (`0 / 817 EXP` into Lv 16; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13) |
+| Route 115 | Kabuto (M, Lv 17) | TRITON | Deceased | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; defeated Roxanne's `#1 Nosepass` and reached Lv 17 on `#2 Anorith`, then fainted at Turn 4582 to Roxanne's `#4 Lunatone` (`Confusion` 10% confusion + self-hit) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
