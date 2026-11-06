@@ -156,3 +156,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Upper Suspension Bridge (row 8): Spans cols 21-31. Eastern landing at (32, 8) has south-facing jump ledge at row 7 and wooden stairs descending to (32, 12).
   - Lower Terrace: Cooltrainer at (14, 16), rock at (16, 16), B2F entrance ladder at (17, 16).
   - Southern Cavern: Under-bridge corridor at cols 37-38 connects Samuel's platform at (35, 12) south to row 24-26 highway. Row 27 is an Acro Bike rail. Wooden stairs at (40, 24) ascend to landing at (41, 21).
+- Northeast Puzzle Breakthrough (Turn 20223):
+  - Boulder 1 at (20, 5) pushed South from (20, 4) into (20, 6)!
+  - This unblocks row 5 at (20, 5) and opens access toward the lower highway.
