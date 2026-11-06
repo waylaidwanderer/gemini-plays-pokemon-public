@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Goldeen (F, Lv 14) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10) |
+| Littleroot Town | Goldeen (F, Lv 15) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10), reached Lv 15 (`43 HP, 28 Speed`) on Rich Boy Winston |
 | Route 103 | Spearow (F, Lv 16) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13), reached Lv 16 on Bug Catcher James |
 | Route 102 | Spinarak (F, Lv 14) | ARACHNE | Boxed | Caught at `(39, 5)`; `Bug/Poison`; raised to Lv 14 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`; `36 HP, 20 Atk, 20 Def, 20 Sp.Atk, 20 Sp.Def, 17 Speed`) |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
