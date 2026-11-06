@@ -4683,6 +4683,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northeast Corridor (Rows 4-5, Cols 18-26):
   - Solved! Rocks at (19, 5) and (20, 4) shattered with Rock Smash.
   - Boulder 2 pushed along Row 4 East to (25..26, 4), clearing the corridor to the open northeastern cavern.
+## B1F Cavern Architecture & Under-Bridge Passage (Verified Turns 20161-20181)
+- 1F Ladder Reset: Ascending from B1F (8, 3) to 1F (9, 14) and descending resets all boulders. Flash persists.
+- Row 13 Southern Cliff: Continuous 2-tile solid cliff along row 14 from col 9 to col 17. No direct descent from row 13 to row 16 lower terrace.
+- Lower Terrace Layout: Cooltrainer at (14, 16), rock at (16, 16), B2F entrance ladder at (17, 16).
+- Ground Level Passage Under Suspension Bridge:
+  - From (17, 12), smashing rock at (18, 12) opens row 12 to (21, 12).
+  - At (21, 12), staircase ascends North to upper bridge (row 8).
+  - Continuing East along row 11-12 passes completely UNDER the overhead suspension bridge at cols 23..26.
+  - Lower ground extends southeast toward a cave opening / descent in the southeastern cavern!
 
 <hr>
 
