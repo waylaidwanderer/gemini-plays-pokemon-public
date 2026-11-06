@@ -40,13 +40,13 @@
        - `#4 Omanyte` (`360 EXP`): **`PROTEUS`** switches on Turn 1 to **`ASTRAPE`**, who KOs with `3: Shock Wave` -> `PROTEUS = 353 / 585 EXP`, `ASTRAPE = 416 / 1,021 EXP`.
      - **Battle 2 — School Kid Tammy (`1,566 EXP`)**:
        - `#1 Aron` (`267 EXP`): Lead **`MARSHTOMP` (`0 / 1,021 EXP`)**, OHKO with `3: Mud Shot` -> `MARSHTOMP = 267 / 1,021 EXP`.
-       - `#2 Yanma` (`345 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`THETIS` (`Azurill`, `0 / 653 EXP`)**, who KOs with `1: Body Slam` -> `MARSHTOMP = 439 / 1,021 EXP`, `THETIS = 172 / 653 EXP`.
-       - `#3 Rhyhorn` (`432 EXP`): **`THETIS`** switches on Turn 1 to **`MARSHTOMP`**, who OHKOs with `4: Water Gun` -> `THETIS = 388 / 653 EXP`, `MARSHTOMP = 655 / 1,021 EXP`.
+       - `#2 Yanma` (`345 EXP`): **`MARSHTOMP`** switches on Turn 1 to **`THETIS` (`Azurill`, `0 / 585 EXP` [Medium Slow in this hack!])**, who KOs with `1: Body Slam` -> `MARSHTOMP = 439 / 1,021 EXP`, `THETIS = 172 / 585 EXP`.
+       - `#3 Rhyhorn` (`432 EXP`): **`THETIS`** switches on Turn 1 to **`MARSHTOMP`**, who OHKOs with `4: Water Gun` -> `THETIS = 388 / 585 EXP`, `MARSHTOMP = 655 / 1,021 EXP`.
        - `#4 Larvitar` (`214 EXP`): **`MARSHTOMP`** (`26 Speed > Larvitar's 18 Speed`) stays in and OHKOs on Turn 1 with `4: Water Gun` -> `MARSHTOMP = 869 / 1,021 EXP`.
        - `#5 Corsola` (`309 EXP`): **`MARSHTOMP`** pivots through **`EROS` (`448 / 653 EXP`)** -> **`DEMETER` (`Weepinbell`, `0 / 585 EXP`)** (`3-way split: 103 EXP each`), and `DEMETER` 2HKOs with `1: Vine Whip` -> `MARSHTOMP = 972 / 1,021 EXP`, `EROS = 551 / 653 EXP`, `DEMETER = 103 / 585 EXP`.
      - **Battle 3 — Hiker Marc (`1,099 EXP`)**:
        - `#1 Onix` (`345 EXP`): Lead **`DEMETER` (`103 / 585 EXP`)**, switch on Turn 1 to **`PROTEUS` (`235 / 585 EXP`)**, who OHKOs with `1: BubbleBeam` -> `DEMETER = 275 / 585 EXP`, `PROTEUS = 407 / 585 EXP`.
-       - `#2 Kabuto` (`356 EXP`, `25+ Speed`): **`PROTEUS`** pivots through **`THETIS` (`388 / 653 EXP`)** -> **`ASTRAPE` (`423 / 1,021 EXP`, `39 Speed`)** (`3-way split: 118 EXP each`), and `ASTRAPE` KOs `Kabuto` with `2x` super-effective `3: Shock Wave` -> `PROTEUS = 525 / 585 EXP`, `THETIS = 506 / 653 EXP`, `ASTRAPE = 541 / 1,021 EXP`.
+       - `#2 Kabuto` (`356 EXP`, `25+ Speed`): **`PROTEUS`** pivots through **`THETIS` (`388 / 585 EXP`)** -> **`ASTRAPE` (`423 / 1,021 EXP`, `39 Speed`)** (`3-way split: 118 EXP each`), and `ASTRAPE` KOs `Kabuto` with `2x` super-effective `3: Shock Wave` -> `PROTEUS = 525 / 585 EXP`, `THETIS = 506 / 585 EXP`, `ASTRAPE = 541 / 1,021 EXP`.
        - `#3 Cacnea` (`248 EXP`, `Needle Arm` [Special Grass], `Thunder Wave`): **`ASTRAPE`** switches on Turn 1 to **`DEMETER` (`275 / 585 EXP`, `0.25x` 4x-resists `Needle Arm`!)** and 2HKOs `Cacnea` with **`2x` super-effective STAB `2: Acid`** -> `ASTRAPE = 665 / 1,021 EXP`, `DEMETER = 399 / 585 EXP`.
        - `#4 Baltoy` (`148 EXP`): **`DEMETER`** switches on Turn 1 to **`EROS` (`551 / 653 EXP`)**, who OHKOs with `3: Water Pulse` -> `DEMETER = 473 / 585 EXP`, `EROS = 625 / 653 EXP` (so `MARSHTOMP` [972/1021], `PROTEUS` [525/585], `DEMETER` [473/585], and `EROS` [625/653] all hit Lv 17 during Roxanne!).
   3. **Respect Omniscient `Pursuit` AI, Cure Overworld Poison at `0` Steps & Never Chain Chip Moves With Poke Ball Throws**:
