@@ -134,6 +134,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Active progression path leads North from (31, 8) onto the upper northern plateau and smashable rock at (34, 6), and Column 15 heading North from (15, 12).
 
 
-- Row 8 Elevated Highway (Turn 20122):
-  - Connects western bridgehead at (22, 8) West across cols 21..15 directly into Column 15 at (15, 8).
-  - Bypasses lower staircase (21, 10..12) entirely, providing direct high-tier access to northern canyon.
+- Upper Tier Western Landing (Turn 20123):
+  - Row 8 terminates on the west at (19, 8) against a cliff at x=18.
+  - To reach Column 15, descend the wooden staircase at (21, 10..12) down to row 12, then ride West past the smashed rock at (18, 12) to (15, 12).
