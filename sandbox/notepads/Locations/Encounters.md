@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc (F, Lv 14) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
 | Route 103 | Skitty (M, Lv 14) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; raised to Lv 14 (`1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
 | Route 102 | Electrike (F, Lv 14) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; raised to Lv 14 (`1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
-| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Petalburg City | Azurill (F, Lv 5) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; raising to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
