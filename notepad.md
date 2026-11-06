@@ -11,7 +11,7 @@
 | Petalburg City | Azurill (M, Lv 16) | NEREUS | Deceased | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; fainted at Turn 4558 to Hiker Marc's `Cacnea` (`2x Stomp` after chaining a switch and attack in one call) |
 | Route 104 | Nidorina (F, Lv 16) | ELECTRA | Active | Caught at `(24, 61)` as `Nidoran♀`, evolved at Lv 16; `Poison`; `Poison Point`; withdrawn from `BOX 1` (`50 HP` at Lv 16, `~415 / 585 EXP` into Lv 16 [~170 EXP buffer remaining]; `1: Poison Sting`, `2: Crunch` Lv 16, `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Hoothoot (M, Lv 16) | ATHENA | Active | Caught at `(6, 30)`; `Normal/Flying`; `Keen Eye`; withdrawn from `BOX 1` and raised to Lv 16 (`0 / 653 EXP` into Lv 16; `1: Hypnosis` Lv 16, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11) |
-| Route 116 | Makuhita (M, Lv 16) | HERACLES | Active | Caught at `(4, 13)`; `Fighting`; raised to Lv 16 (`51 HP, 22 Atk, 18 Def, 15 Sp.Atk, 17 Sp.Def, 15 Speed`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10) |
+| Route 116 | Makuhita (M, Lv 16) | HERACLES | Deceased | Caught at `(4, 13)`; `Fighting`; raised to Lv 16; fainted at Turn 4560 to Hiker Marc's `Cacnea` (`16–20 Speed` outsped `15 Speed` Makuhita at `23/51 HP`) |
 | Route 115 | Kabuto (M, Lv 16) | TRITON | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; withdrawn from `BOX 1` and raised to Lv 16 (`0 / 817 EXP` into Lv 16; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
