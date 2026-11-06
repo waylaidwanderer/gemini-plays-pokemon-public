@@ -9,7 +9,7 @@
 | Route 103 | Wingull (F, Lv 15) | HALCYON | Active | Caught at `(11, 14)`; `Water/Flying`; `Keen Eye`; raised to Lv 14 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13), reached Lv 15 (`37 HP, 36 Speed`) on Lass Tiana |
 | Route 102 | Nidoran♂ (M, Lv 14) | CADMUS | Active | Caught at `(39, 5)`; `Poison`; `Poison Point`; raised to Lv 14 (`1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg City | Azurill (M, Lv 14) | NEREUS | Active | Caught at `(11, 22)` with `Old Rod`; raised to Lv 14 (`41 HP, 15 Atk, 16 Def, 17 Sp.Def`; `1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 104 | Nidoran♀ (F, Lv 12) | ELECTRA | Active | Caught at `(24, 61)`; `Poison`; `Poison Point`; raised toward Lv 14 (`Bite` Lv 8, `Double Kick` Lv 12) |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6, 30)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
