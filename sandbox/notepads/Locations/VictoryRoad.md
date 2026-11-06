@@ -137,3 +137,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Upper Tier Western Landing (Turn 20123):
   - Row 8 terminates on the west at (19, 8) against a cliff at x=18.
   - To reach Column 15, descend the wooden staircase at (21, 10..12) down to row 12, then ride West past the smashed rock at (18, 12) to (15, 12).
+
+## B1F Northern Terrace & Descent Route (Discovered Turns 20130-20139)
+- Smashing the rock at (18, 12) cleared access between the eastern stairs (21, 12) and western corridor at (15, 12).
+- Column 15 Corridor: Runs straight North from (15, 12) through rows 11..6 between western cliff (col 13) and eastern cliff (col 16), arriving at the northern terrace junction at (15, 5).
+- Northern Terrace Junction (15, 5):
+  - Row 4 directly north is bounded by a cliff wall.
+  - East path (row 5) leads to a breakable rock at (19, 5) and northeast canyon.
+  - West path (rows 4..5, cols 10..14) leads directly to a wooden staircase on the west edge (approx cols 9..10) descending south to the lower terrace where Cooltrainer (14, 16) and the B2F entrance ladder (17, 16) are located!
