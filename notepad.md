@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MLCMIH | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (F, Lv 14) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raising to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | — | — | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 103 | Skitty (M, Lv 4) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; raising to Lv 14 (`1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
