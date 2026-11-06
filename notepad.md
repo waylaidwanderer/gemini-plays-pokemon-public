@@ -4685,6 +4685,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Rock 1 at (19, 5) shattered with Rock Smash.
   - Stepped to (19, 4) and shattered Rock 2 at (20, 4) with Rock Smash.
   - Boulder 2 at (21, 4) pushed East into (22, 4), opening rows 4-5 leading into the northeast cavern corridor.
+- Northeast Corridor Progression (Turn 20158-20159):
+  - Boulder 2 pushed East to (24, 4).
+  - Cliff at (22, 5) ended, opening Row 5 from col 23 East as a clear bypass around Boulder 2 into the northeastern cavern.
 
 <hr>
 
