@@ -5,11 +5,11 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim` |
+| Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
 | Route 103 | Wingull (F, Lv 14) | HALCYON | Active | Caught at `(16, 11)`; `Water/Flying`; raised to Lv 14 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
-| Route 102 | Gulpin (M, Lv 6) | BACCHUS | Active | Caught at `(39, 5)`; `Poison`; raising to Lv 14 (`1: Acid`, `2: Yawn`, `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14) |
-| Petalburg City | Azurill (M, Lv 5) | APEPGF | Active | Fished at `(11, 22)` with `Old Rod`; `Thick Fat`; raising to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 102 | Gulpin (M, Lv 15) | BACCHUS | Active | Caught at `(39, 5)`; `Poison`; Lv 15 (~95% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Acid`, `2: Yawn`, `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14) |
+| Petalburg City | Azurill (M, Lv 15) | APEPGF | Active | Fished at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
+| Route 104 | Natu (F, Lv 7) | PYTHIA | Active | Caught at `(24, 61)`; `Psychic/Flying`; raising to Lv 14 (`1: Peck`, `2: Psybeam`, `3: Night Shade` Lv 10) |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
