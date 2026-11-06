@@ -12,7 +12,7 @@
 | Route 104 | Nidorina (F, Lv 16) | ELECTRA | Active | Caught at `(24, 61)` as `Nidoran♀`, evolved at Lv 16; `Poison`; `Poison Point`; `50 HP` at Lv 16 (`~415 / 585 EXP` into Lv 16 [~170 EXP buffer remaining]; `1: Poison Sting`, `2: Crunch` Lv 16, `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Hoothoot (M, Lv 8) | ATHENA | Boxed | Caught at `(6, 30)`; `Normal/Flying`; `Insomnia`; transferred to `BOX 1` |
 | Route 116 | Makuhita (M, Lv 9) | HERACLES | Boxed | Caught at `(4, 13)`; `Fighting`; transferred to `BOX 1` (`learns Force Palm Lv 10, 70 BP STAB Vital Throw Lv 13`) |
-| Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
+| Route 115 | Kabuto (M, Lv 9) | TRITON | Boxed | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; transferred to `BOX 1` (`817 EXP` buffer at Lv 16; `1: Rock Tomb`, `2: Water Pulse`, learns `3: Mega Drain` Lv 13) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
