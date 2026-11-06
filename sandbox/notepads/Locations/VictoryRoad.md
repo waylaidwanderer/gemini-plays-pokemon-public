@@ -143,13 +143,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Column 15 Corridor: Runs straight North from (15, 12) through rows 11..6 between western cliff (col 13) and eastern cliff (col 16), arriving at the northern terrace junction at (15, 5).
 - Northern Terrace Junction (15, 5):
   - Row 4 directly north is bounded by a cliff wall.
-  - East path (row 5) leads to a breakable rock at (19, 5) and northeast canyon.
-  - West path (rows 4..5, cols 10..14) leads directly to a wooden staircase on the west edge (approx cols 9..10) descending south to the lower terrace where Cooltrainer (14, 16) and the B2F entrance ladder (17, 16) are located!
-- Northeast Rock Smash & Strength Puzzle (Rows 4-5, Cols 18-22):
-  - Solved Turn 20153-20155!
-  - Rock 1 at (19, 5) shattered with Rock Smash.
-  - Stepped to (19, 4) and shattered Rock 2 at (20, 4) with Rock Smash.
-  - Boulder 2 at (21, 4) pushed East into (22, 4), opening rows 4-5 leading into the northeast cavern corridor.
-- Northeast Corridor Progression (Turn 20158-20159):
-  - Boulder 2 pushed East to (24, 4).
-  - Cliff at (22, 5) ended, opening Row 5 from col 23 East as a clear bypass around Boulder 2 into the northeastern cavern.
+  - West path (row 5, col 11) has a one-way jump ledge hopping West back into the 1F entrance chamber.
+  - East path (row 4..5) leads into the Northeast Boulder & Rock puzzle.
+- Northeast Corridor (Rows 4-5, Cols 18-26):
+  - Solved! Rocks at (19, 5) and (20, 4) shattered with Rock Smash.
+  - Boulder 2 pushed along Row 4 East to (25..26, 4), clearing the corridor to the open northeastern cavern.
