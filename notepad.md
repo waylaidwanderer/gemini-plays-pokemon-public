@@ -4612,63 +4612,25 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
 - Cooltrainer ♂ Albert: Defeated at (27, 36) on 1F eastern plateau (Magneton Lv 43, Muk Lv 43). Prize: ¥2,064.
 
-## 1F North Highway & Northern Staircase (Turn 19849)
-- 1F North Highway (row 24): Fully verified 12-tile continuous corridor connecting eastern plateau (29, 24) to the central platform northern approach (17, 24).
-- Northern Staircase at (16, 21): Located directly north of the central suspension bridge at col 16, ascending into the northern cliff wall.
+## 1F Northern Bridges & Eastern Plateau Layout
+- Northern Suspension Bridges: From northern staircase at (16, 21), suspension bridge spans cols 18..37 at row 17 across the central chasm to northeastern plateau at (38..39, 17).
+- Northeastern Shelf & Item: Staircase at (39, 18) descends south to shelf at (39..42, rows 24..26). Item MAX ELIXIR collected at (40, 26). One-way ledge at row 27 hops south onto eastern terrace.
+- Central-Eastern Junction (27, 33): B1F return ladder is at (21, 32). South path leads to Cooltrainer Albert at (27, 36).
 
-## 1F Northern Staircase & Northern Suspension Bridges (Turn 19862)
-- Northern Staircase: Located at col 16, ascending from row 22 up to row 17.
-- Northern Tier Topography (Verified Turns 19857-19862):
-  - Rows 13..16 are an elevated cul-de-sac bounded by a vertical cliff at col 18. Row 13 east is blocked.
-  - The verified route East is the Northern Suspension Bridge along row 17!
-  - First Northern Bridge spans cols 18..23 along row 17 over the lower cavern chasm.
-  - Intermediate Stone Pillar spans cols 24..25 along row 17.
-  - Second Northern Bridge begins at col 26 along row 17, extending East.
-  - Second Northern Bridge spans cols 26..37 along row 17 across the chasm to the northeastern plateau.
-  - Eastern bridge landing reached at (38..39, 17).
-  - Upper northern shelf (row 16) is blocked by a horizontal cliff face from the bridge landing.
-  - Wooden staircase located at (39, 18) descending South down to row 25 onto an intermediate shelf (cols 39..42, rows 24..26).
-  - Item: MAX ELIXIR collected at (40, 26) on Turn 19881!
-  - One-way jump ledge at row 27 across cols 39..42 hops South onto row 28.
-  - Eastern Terrace (cols 39..41, rows 28+): Elevated corridor continuing South along the eastern cave wall.
+## B1F Northwest Chamber Layout & Verified Mechanics
+- Entrance Ladder: Ladder from 1F western terrace at (9, 14) enters B1F at (8, 3). Stepping on ladder at (8, 2) returns to 1F. Ascending resets all boulders.
+- Flash: Cast with Lombre (Lilz); illuminates the floor and persists across floor transitions within the session.
+- Upper/Lower Rock Mounds: Upper mound sits at (5..8, 5..6). Lower mound sits at (5..8, 8..9).
+- Connecting Corridors:
+  - Row 4 runs west from (8, 4) to (4, 4..6).
+  - Row 7 runs east-west between mounds across cols 4..9.
+  - Row 10 runs east-west below lower mound across cols 4..8.
+- Boulder 1 & Southern Chute:
+  - Boulder 1 starts at (9, 10). Pushing Down moves it to (9, 11), vacating (9, 10) as open ground.
+  - From (9, 10), player can step Left into Row 10 at (8, 10).
+  - Chute at col 9 runs down past Boulder 1 to a one-way ledge jumping South at row 14.
+- Boulder 2: Starts at (4, 7). Flanked on west by cliff at col 3. Pushing Down moves it to (4, 8) and (4, 9) against the southern cliff face at row 10. Column 4 terminates at row 9 in a dead end.
 
-## 1F Southern Bypass Corridor & Wooden Staircase (Turn 19888)
-- Southern Bypass Corridor (row 34): Connects eastern terrace at (39, 34) West past (38, 34) to (31, 34), remaining above the southern one-way return ledges.
-- Wooden Staircase at (30..31, 30): Ascends North from row 30 up to row 26 onto the central-eastern plateau.
-- Cooltrainer (blonde, red jacket) stationed on lower floor at (27, 36) facing South.
-## 1F Central-Eastern Junction (Turn 19891)
-- Position: (27, 33) facing Up.
-- Topography:
-  1. Northward passage extends under the overhead bridge along cols 26..29.
-  2. Northeast wooden staircase sits at cols 30..31 (rows 28..31) ascending to upper shelf.
-  3. Westward advance along row 32 is blocked at col 26 by a solid cliff. Tile (21, 32) is the B1F return/exit ladder, NOT a 1F entrance.
-  4. South corridor leads back to defeated Cooltrainer Albert at (27, 36).
-
-
-## B1F Ladder Roles & Progression Strategy (Turn 19921)
-- Ladder (8, 13) on 1F Western Terrace: The TRUE and ONLY progression entrance into Victory Road B1F. Leads to B1F (8, 3) where the Strength boulder & Rock Smash puzzle connects to B2F.
-- Ladder (21, 32) on 1F Eastern Plateau: The one-way RETURN / EXIT ladder from B1F. Drops down to row 34 via one-way ledge.
-- Immediate Strategy:
-  1. Exit 1F South at (15, 40) to Ever Grande City South Plateau.
-  2. Heal party at Pokémon Center (revives Lombre Lilz with Flash/Surf/Waterfall, restores Leaf Blade 15/15, Rock Smash 15/15, Dig 10/10).
-  3. Re-enter 1F, cross western bridge to western terrace ladder at (8, 13).
-  4. Descend to B1F (8, 3), use Flash, and solve the boulder puzzle to advance toward B2F!
-
-
-## B1F Northwest Chamber Topography & Verified Pathways (Turn 19980)
-- Reset Mechanic: Ascending to 1F via ladder at (8, 2) and re-entering B1F at (8, 3) resets all boulders.
-- Verified Collision & Boundaries:
-  - Ladder lands at (8, 3) facing South.
-  - Column 9 Corridor: Runs south past central rock mounds to Boulder 1 at (9, 10). Pushing Boulder 1 south down column 9 wedges it at (9, 13) against the row 14 ledge, permanently sealing the chute.
-  - Eastern Branch (Column 10): Open and walkable at rows 4, 5, and 6 ((10, 4), (10, 5), (10, 6) entered from column 9). Rows 7..9 on column 10 are blocked.
-  - Western Branch (Row 4): Open corridor from (8, 4) leading west across row 4 towards column 4 and (4, 6).
-  - Boulder 2 at (4, 7..8): Flanked on the west by solid natural cliff at (3, 7); tile (3, 7) is impassable.
-- Active Strategy:
-  - Descend to B1F (8, 3), activate Flash with Lilz.
-  - Explore the northern row 4 westward corridor towards column 4 from ABOVE (4, 6) and the eastern column 10 corridor to determine the true layout and alternate boulder paths.
-
-- Flash Persistence & Usage (Turn 19992): Once Flash has been cast in Victory Road B1F during a session, attempting to cast Flash again displays 'This is in use already.' The illuminated circle of sight remains expanded across ladder transitions.
-- 1F Western Ladder Coordinates: Ladder down to B1F is at (9, 14) on 1F. Stepping onto (9, 14) warps player down to B1F at (8, 3). Stepping up from B1F ladder at (8, 2) places player at (9, 14).
 
 <hr>
 
