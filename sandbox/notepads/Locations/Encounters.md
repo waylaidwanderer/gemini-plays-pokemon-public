@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim` |
 | Route 103 | Wingull (F, Lv 14) | HALCYON | Active | Caught at `(16, 11)`; `Water/Flying`; raised to Lv 14 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
 | Route 102 | Gulpin (M, Lv 6) | BACCHUS | Active | Caught at `(39, 5)`; `Poison`; raising to Lv 14 (`1: Acid`, `2: Yawn`, `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14) |
-| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Petalburg City | Azurill (M, Lv 5) | NEREUS | Active | Fished at `(11, 22)` with `Old Rod`; raising to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
