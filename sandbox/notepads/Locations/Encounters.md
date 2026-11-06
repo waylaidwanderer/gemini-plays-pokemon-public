@@ -1,14 +1,14 @@
-# Nuzlocke Encounters (Attempt #23)
+# Nuzlocke Encounters (Attempt #24)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Goldeen (F, Lv 15) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10), reached Lv 15 (`43 HP, 28 Speed`) on Rich Boy Winston |
-| Route 103 | Spearow (F, Lv 16) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13), reached Lv 16 on Bug Catcher James |
-| Route 102 | Spinarak (F, Lv 14) | ARACHNE | Boxed | Caught at `(39, 5)`; `Bug/Poison`; raised to Lv 14 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`; `36 HP, 20 Atk, 20 Def, 20 Sp.Atk, 20 Sp.Def, 17 Speed`) |
-| Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Jigglypuff (F, Lv 15) | CALLIOPE | Deceased | Caught at `(23, 61)`; `Normal`; fainted to Team Magma Grunt's Bagon after KOing Magnemite and chipping Bagon to yellow HP |
-| Petalburg Woods | Oddish (M, Lv 14) | CHLORIS | Active | Caught at `(6, 30)`; `Grass/Poison`; raised to Lv 14 (`1: Mega Drain`, `2: Acid`, `3: Toxic` Lv 14, `4: Bullet Seed` TM09); evolves into `Gloom` at Lv 16 (`585 EXP` buffer) |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag on Route 101 |
+| Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6, 30)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
