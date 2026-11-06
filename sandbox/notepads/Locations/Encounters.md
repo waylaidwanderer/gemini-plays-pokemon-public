@@ -3,8 +3,8 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MLCMIH | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 14) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Skitty (M, Lv 15) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; holds wild **`Moon Stone`**; Lv 15 (`1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
+| Littleroot Town | Luvdisc (F, Lv 15) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; Lv 15 (~88% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
+| Route 103 | Skitty (M, Lv 15) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; holds wild **`Moon Stone`**; Lv 15 (~90% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
 | Route 102 | Electrike (F, Lv 15) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; Lv 15 (`1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
 | Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; raised to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Nidoran♀ (F, Lv 15) | HERA | Active | Caught at `(24, 61)`; `Poison`; `Poison Point`; raised to Lv 15 (`1: Poison Sting`, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; evolves to `Nidorina` [`Crunch`] -> `Nidoqueen` [`Moon Stone`] at Lv 16!) |
