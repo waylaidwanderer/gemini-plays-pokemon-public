@@ -4,10 +4,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MLCMIH | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (F, Lv 15) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; Lv 15 (~88% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Skitty (M, Lv 15) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; holds wild **`Moon Stone`**; Lv 15 (~90% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
-| Route 102 | Electrike (F, Lv 15) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; Lv 15 (`1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
-| Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; raised to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Nidoqueen (F, Lv 16) | HERA | Active | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16 (`543 EXP` buffer remaining before Lv 17; `1: Poison Sting`, `2: Crunch` [80 BP Special Dark], `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
+| Route 103 | Skitty (M, Lv 15) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; held wild **`Moon Stone`** (swapped for `Oran Berry` and used on `HERA` in Turn 4789); Lv 15 (`83 EXP` to Lv 16 — do not use in battle until Lv 16 in Rustboro!; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
+| Route 102 | Electrike (F, Lv 15) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; Lv 15 (`15 EXP` to Lv 16; `1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
+| Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; Lv 15 (`25/44 HP`, `BRN`, `149 EXP` to Lv 16 + `585 EXP` buffer at Lv 16; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
+| Route 104 | Nidoqueen (F, Lv 16) | HERA | Active | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16 (`158 EXP` buffer remaining before Lv 17 after Oddish split — keep in back row for Gina & Mia and Red!; `1: Poison Sting`, `2: Crunch` [80 BP Special Dark], `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Cascoon (F, Lv 8) | MOTHRA | Active (Box) | Caught at `(12, 33)`; `Bug`; evolves to `Dustox` (`Bug/Poison`, `Shield Dust`) at Lv 10 |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
