@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 16) | ATRITON | Active | Chosen from Birch's Bag on Route 101; evolved at Lv 16 (`0 / 1,021 EXP` into Lv 16; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`) |
+| Starter (Route 101) | Marshtomp (M, Lv 17) | ATRITON | Deceased | Chosen from Birch's Bag on Route 101; evolved at Lv 16; reached Lv 17 vs Roxanne's `#1 Nosepass`, took 34 dmg from `#2 Anorith`'s `X-Scissor` (`Anorith` has `28 Speed > Marshtomp's 27 Speed`), and fainted at Turn 4584 to `#4 Lunatone` (`Hypnosis + Confusion`) |
 | Littleroot Town | Luvdisc (F, Lv 19) | APHRODITE | Retired (Overleveled) | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; benched in `BOX 1` until Roxanne is defeated (`1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` Lv 16) |
 | Route 103 | Wingull (F, Lv 17) | HALCYON | Retired (Overleveled) | Caught at `(11, 14)`; `Water/Flying`; `Keen Eye`; reached Lv 17 vs School Kid Tammy's Rhyhorn; bench in `BOX 1` until Roxanne is defeated (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
 | Route 102 | Nidorino (M, Lv 16) | CADMUS | Active | Caught at `(39, 5)` as `Nidoran♂`, evolved at Lv 16; `Poison`; `Poison Point`; withdrawn from `BOX 1` (`47 HP` at Lv 16, `533 / 585 EXP` into Lv 16 [52 EXP buffer remaining]; `1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12, declined `Helping Hand` Lv 16) |
