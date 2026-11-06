@@ -8,7 +8,7 @@
 | Littleroot Town | Goldeen (F, Lv 14) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10) |
 | Route 103 | Spearow (F, Lv 14) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13) |
 | Route 102 | Spinarak (F, Lv 14) | ARACHNE | Active | Caught at `(39, 5)`; `Bug/Poison`; starts at Lv 7 with `Mega Drain`; raised to Lv 14 (`36 HP, 20 Atk, 20 Def, 20 Sp.Atk, 20 Sp.Def, 17 Speed`) |
-| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Petalburg City | Azurill (F, Lv 5) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; starts with `1: Water Gun`, `2: Charm` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6, 30)` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
