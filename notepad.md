@@ -1,15 +1,15 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #25)
+# Nuzlocke Encounters (Attempt #26)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (M, Lv 14) | EROS | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Wingull (F, Lv 14) | HALCYON | Active | Caught at `(16, 11)`; `Water/Flying`; raised to Lv 14 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
-| Route 102 | Gulpin (M, Lv 15) | BACCHUS | Active | Caught at `(39, 5)`; `Poison`; Lv 15 (~95% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Acid`, `2: Yawn`, `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14) |
-| Petalburg City | Azurill (M, Lv 15) | APEPGF | Active | Fished at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Natu (F, Lv 7) | PYTHIA | Active | Caught at `(24, 61)`; `Psychic/Flying`; raising to Lv 14 (`1: Peck`, `2: Psybeam`, `3: Night Shade` Lv 10) |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag on Route 101 |
+| Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
+| Route 103 | — | — | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
@@ -29,10 +29,10 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #25
+# Nuzlocke Dashboard — Attempt #26
 
 ## Active Rules & Status
-- **Attempt**: #25
+- **Attempt**: #26
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu after Mom's initial 1F greeting inside the Player's House, as `Start` is disabled inside the moving truck)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
@@ -226,7 +226,7 @@
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
-  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Tickle`, `Wish`, `Metronome`], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`, `Thief`], `Azurill` Lv 7 [`Huge Power`; Physical `Uproar`]).
+  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Tickle`, `Wish`, `Metronome` — **CRITICAL**: `Metronome` can roll `250 BP Explosion` [observed Turn 4661, OHKOing Lv 14 Mudkip from 35 HP!]; **ALWAYS OHKO `#1 Cleffa` ON TURN 1** with a faster 85–90 BP STAB move like Lv 15 `Azurill`'s `Body Slam` or Lv 14 `Gulpin`'s `Sludge Bomb` so `Cleffa` never gets a `Metronome` roll!], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`, `Thief`], `Azurill` Lv 7 [`Huge Power`; Physical `Uproar`]).
 
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
