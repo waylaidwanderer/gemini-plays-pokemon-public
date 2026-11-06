@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (M, Lv 4) | EROS | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim` |
 | Route 103 | Wingull (F, Lv 14) | HALCYON | Active | Caught at `(16, 11)`; `Water/Flying`; raised to Lv 14 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
-| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Route 102 | Gulpin (M, Lv 6) | BACCHUS | Active | Caught at `(39, 5)`; `Poison`; raising to Lv 14 (`1: Acid`, `2: Yawn`, `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14) |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
