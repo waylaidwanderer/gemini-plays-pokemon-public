@@ -165,3 +165,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Eastern Landing Architecture (Turn 20199-20200):
   - Row 7 at (32, 7) is a one-way south-facing jump ledge hopping down onto row 8. Upper plateau cannot be ascended from row 8.
   - Wooden staircase at (32, 10..11) descends South to row 12 landing.
+- Northeast Puzzle Collision (Turn 20218):
+  - Empirically verified that (22, 5) is a solid rock cliff. Row 5 cannot be walked as a bypass.
+  - Row 4 is the only route East through the Northeast puzzle.
