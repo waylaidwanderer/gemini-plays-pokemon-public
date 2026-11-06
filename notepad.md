@@ -4634,6 +4634,21 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Boulder 2 starts at (4, 7). Facing it from (5, 7) allows activating Strength and testing west push into (3, 7).
 
 
+## B1F Main Cavern & Eastern Corridor Topography (Turn 20058)
+- Progression Route from Northwest Chamber:
+  1. From (9, 13) at the base of the chute, follow the horizontal dirt highway East along row 13 through cols 10..15.
+  2. At (15, 13), step North into row 12, then East to (17, 12).
+  3. Break the cracked rock at (18, 12) using HM06 Rock Smash.
+  4. Continue East along row 12 past (18, 12) through (19..20, 12) to (21, 12).
+- Wooden Staircase at (21, 10..11):
+  - Ascends North from (21, 12) up to row 9 onto an elevated northern cliff shelf.
+- Upper Northern Shelf & Suspension Bridge (rows 7..9):
+  - At the top of the wooden staircase, an elevated wooden suspension bridge extends East across a chasm starting around (23, 8..9).
+- Lower Terrace Sighting:
+  - Cooltrainer stationed at (14, 16).
+  - B2F entrance ladder located at (17, 16).
+
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
