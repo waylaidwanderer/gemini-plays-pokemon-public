@@ -145,26 +145,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 4 directly north is bounded by a cliff wall.
   - West path (row 5, col 11) has a one-way jump ledge hopping West back into the 1F entrance chamber.
   - East path (row 4..5) leads into the Northeast Boulder & Rock puzzle.
-- Northeast Corridor (Rows 4-5, Cols 18-26):
-  - Solved! Rocks at (19, 5) and (20, 4) shattered with Rock Smash.
-  - Boulder 2 pushed along Row 4 East to (25..26, 4), clearing the corridor to the open northeastern cavern.
-## B1F Cavern Architecture & Under-Bridge Passage (Verified Turns 20161-20181)
-- 1F Ladder Reset: Ascending from B1F (8, 3) to 1F (9, 14) and descending resets all boulders. Flash persists.
-- Row 13 Southern Cliff: Continuous 2-tile solid cliff along row 14 from col 9 to col 17. No direct descent from row 13 to row 16 lower terrace.
-- Lower Terrace Layout: Cooltrainer at (14, 16), rock at (16, 16), B2F entrance ladder at (17, 16).
-- Ground Level Passage Under Suspension Bridge:
-  - From (17, 12), smashing rock at (18, 12) opens row 12 to (21, 12).
-  - At (21, 12), staircase ascends North to upper bridge (row 8).
-  - Continuing East along row 11-12 passes completely UNDER the overhead suspension bridge at cols 23..26.
-  - Lower ground extends southeast toward a cave opening / descent in the southeastern cavern!
-## B1F Empirical Collision Record (Turns 20183-20189)
-- (4, 10): South edge is a solid cliff wall (tested Turn 20189). Column 4 does NOT connect south to row 16.
-- (23, 15): South edge is a solid cliff wall (tested Turn 20183).
-- (24, 14): Vertical ridge at x=24 faces west (high ground on east).
-- Northwest chamber has NO progression exits beyond Column 9 chute to row 13. All forward progression is in the eastern half of B1F.
-- Eastern Landing Architecture (Turn 20199-20200):
-  - Row 7 at (32, 7) is a one-way south-facing jump ledge hopping down onto row 8. Upper plateau cannot be ascended from row 8.
-  - Wooden staircase at (32, 10..11) descends South to row 12 landing.
-- Northeast Puzzle Collision (Turn 20218):
-  - Empirically verified that (22, 5) is a solid rock cliff. Row 5 cannot be walked as a bypass.
-  - Row 4 is the only route East through the Northeast puzzle.
+- Northeast Puzzle (Rows 4-5, Cols 18-26):
+  - Starting layout: Rock 1 at (19, 5), Boulder 1 at (20, 5), Rock 2 at (20, 4), Boulder 2 at (21, 4).
+  - Both rocks at (19, 5) and (20, 4) shattered with Rock Smash.
+  - Tile (26, 4) is a confirmed solid rock cliff face; Boulder 2 cannot be pushed East past column 25.
+  - Tile (22, 5) is a confirmed solid rock cliff face; Row 5 cannot be walked as an eastern bypass.
+- B1F Landmark & Collision Summary:
+  - Northwest Chamber: 1F entrance ladder at (8, 2); Column 4 dead-ends at row 10 cliff; Column 9 chute is the sole exit to row 13.
+  - Level 1 Highway (rows 12-13): Runs east from (9, 13) to (17, 12); south edge along row 14 is a continuous 2-tile high cliff overlooking row 16. Smashed rock at (18, 12) connects to wooden stairs at (21, 12).
+  - Upper Suspension Bridge (row 8): Spans cols 21-31. Eastern landing at (32, 8) has south-facing jump ledge at row 7 and wooden stairs descending to (32, 12).
+  - Lower Terrace: Cooltrainer at (14, 16), rock at (16, 16), B2F entrance ladder at (17, 16).
+  - Southern Cavern: Under-bridge corridor at cols 37-38 connects Samuel's platform at (35, 12) south to row 24-26 highway. Row 27 is an Acro Bike rail. Wooden stairs at (40, 24) ascend to landing at (41, 21).
