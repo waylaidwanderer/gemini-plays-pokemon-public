@@ -57,7 +57,7 @@
   - **Friendly Boy** at `(28, 74)` on the shoreline.
   - **Bird Keeper Billy** at `(23, 66)` facing `Left` (3 Pokemon: `Pidgey` Lv 7 [`Quick Attack`, holds `Berry Juice`], `Wingull` Lv 7 [`Supersonic`, `Water Gun`, `Gust`], `Taillow` Lv 7 [`Swagger`, `Quick Attack`]).
   - **Friendly Fisherman** at `(15, 60)` facing `Right`.
-  - **Fisherman Darian** at `(15, 59)` facing `Right` (mandatory trainer; 4 Pokemon: `Magikarp` Lv 9 [`Bounce`], `Feebas` Lv 8 [`Water Pulse`, `Hypnosis`, `Icy Wind`, `Facade`, holds `Sitrus Berry`], `Goldeen` Lv 7 [`Swift Swim`; `Rain Dance`, `Peck`, `Horn Attack`, `Dive`, `Aerial Ace`], `Luvdisc` F Lv 7 [`Attract`, `Sweet Kiss`, `Dive`, `Toxic`]).
+  - **Fisherman Darian** at `(15, 59)` facing `Right` (mandatory trainer; 4 Pokemon: `Magikarp` Lv 9 [`Bounce`], `Feebas` Lv 8 [`Water Pulse`, `Hypnosis`, `Icy Wind`, `Facade`, holds `Sitrus Berry`], `Goldeen` Lv 7 [`Swift Swim`; `Rain Dance`, `Peck`, `Horn Attack`, `Dive`, `Aerial Ace`], `Luvdisc` F Lv 7 [`Swift Swim`; `Attract`, `Sweet Kiss`, `Dive`, `Toxic`]).
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
