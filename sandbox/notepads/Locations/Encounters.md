@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #22)
+# Nuzlocke Encounters (Attempt #23)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 17) | MARSHTOMP | Deceased | Evolved at Lv 16; reached Lv 17 on Roxanne's Nosepass; fainted Turn 4152 to back-to-back crits (`Brick Break` crit + `80 BP STAB X-Scissor` crit) from Roxanne's Anorith |
-| Littleroot Town | Luvdisc (F, Lv 16) | EROS | Deceased | Caught at `(17, 13)` with `Old Rod`; Relaxed (`+Def, -Speed`); raised to Lv 16 (`41 HP, 25 Def, 36 Speed`; `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` Lv 16); fainted Turn 4172 to a critical hit `Confusion` from Roxanne's `Lunatone` after chipping it to 68% HP |
-| Route 103 | Hoppip (M, Lv 15) | ZEPHYR | Active (Box 1) | Caught at `(15, 11)`; `Grass/Flying`; raised to Lv 15 (`1: Confusion`, `2: PoisonPowder` Lv 5, `3: Mega Drain` Lv 5, `4: Gust` Lv 10; declined `Stun Spore` Lv 15); holds `Oran Berry` |
-| Route 102 | Gulpin (M, Lv 17) | BACCHUS | Benched (Cap) | Caught at `(39, 6)` holding `Big Pearl`; `Poison`; `Sticky Hold`; `Medium Fast` EXP group in this hack; `1: Giga Drain` Lv 17, `2: Yawn` [**immediate sleep on Turn 1!**], `3: Fire Punch` Lv 9, `4: Sludge Bomb` Lv 14; benched at Lv 17 until Roxanne is defeated |
-| Petalburg City | Azurill (F, Lv 17) | THETIS | Benched (Cap) | Caught at `(11, 22)` with `Old Rod`; `Medium Slow` EXP group (`585 EXP` buffer at Lv 16 in this hack); `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10; benched at Lv 17 after Hiker Marc's Kabuto (to be swapped at the PC for Lv 16 `ARACHNE` before Roxanne) |
-| Route 104 | Venonat (F, Lv 16) | ARACHNE | Active | Caught at `(22, 61)`; `Bug/Poison`; `Compoundeyes`; raised to Lv 16 (`0 / 973 EXP`; `48 HP`; `1: Foresight`, `2: Leech Life`, `3: Psybeam`, `4: Toxic` Lv 16); holds `Oran Berry` |
-| Petalburg Woods | Weepinbell (F, Lv 16) | DEMETER | Active | Caught at `(6, 30)`; evolved into `Weepinbell` at Lv 16 (`460 / 585 EXP`; `47 HP`; `1: Vine Whip`, `2: Acid` [spread], `3: Sweet Scent`, `4: Toxic` Lv 15); holds `Oran Berry` |
-| Route 116 | Voltorb (Lv 16) | ASTRAPE | Deceased | Caught at `(4, 13)` on Turn 1; `Electric`; Rash (`+Sp.Atk, -Sp.Def`), `Static`; `Slow` EXP group (`41 HP, 29 Sp.Atk, 39 Speed`; `1: ThunderShock`, `2: Secret Power`, `3: Shock Wave`, `4: SonicBoom` Lv 15); KO'd Roxanne's `Anorith` and landed a 20-fixed-damage `SonicBoom` on `Lunatone` (dropping it to 21% HP) before fainting Turn 4173 |
-| Route 115 | Omanyte (M, Lv 17) | PROTEUS | Deceased | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; Brave (`+Atk, -Speed`), `Swift Swim`; `Medium Slow` EXP group (`39 HP, 40 Def, 39 Sp.Atk, 28 Sp.Def, 18 Speed` at Lv 17); KO'd Roxanne's `Nosepass` and knocked `Lunatone` to 1 HP before fainting Turn 4175 to a critical hit `Confusion` |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag on Route 101 |
+| Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
+| Route 103 | — | — | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6, 30)` |
+| Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
+| Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#22)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
