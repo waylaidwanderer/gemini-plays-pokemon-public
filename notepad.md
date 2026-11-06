@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | ATRITON | Active | Chosen from Birch's Bag on Route 101; raised to Lv 15 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`, declined `Bide` Lv 15) |
+| Starter (Route 101) | Marshtomp (M, Lv 16) | ATRITON | Active | Chosen from Birch's Bag on Route 101; evolved at Lv 16 (`0 / 1,021 EXP` into Lv 16; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (F, Lv 19) | APHRODITE | Retired (Overleveled) | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; benched in `BOX 1` until Roxanne is defeated (`1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` Lv 16) |
 | Route 103 | Wingull (F, Lv 16) | HALCYON | Active | Caught at `(11, 14)`; `Water/Flying`; `Keen Eye`; `39 HP, 26 Sp.Atk, 38 Speed` at Lv 16 (`~60 / 653 EXP` into Lv 16; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
 | Route 102 | Nidorino (M, Lv 16) | CADMUS | Boxed | Caught at `(39, 5)` as `Nidoran♂`, evolved at Lv 16; `Poison`; `Poison Point`; `47 HP` at Lv 16 (`533 / 585 EXP` into Lv 16 [52 EXP buffer remaining]; `1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12, declined `Helping Hand` Lv 16) |
