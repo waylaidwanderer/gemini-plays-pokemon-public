@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Goldeen (F, Lv 14) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10) |
-| Route 103 | Spearow (F, Lv 14) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13) |
+| Route 103 | Spearow (F, Lv 15) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13), reached Lv 15 on Route 102 |
 | Route 102 | Spinarak (F, Lv 14) | ARACHNE | Active | Caught at `(39, 5)`; `Bug/Poison`; starts at Lv 7 with `Mega Drain`; raised to Lv 14 (`36 HP, 20 Atk, 20 Def, 20 Sp.Atk, 20 Sp.Def, 17 Speed`) |
 | Petalburg City | Azurill (F, Lv 14) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 14 (`1: Water Gun`, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
@@ -189,7 +189,7 @@
 
 ## Route 102
 - **Eastern Entrance**: Enters from Oldale Town at `(48, 11)`.
-- **Eastern Tall Grass Patch**: Located at `(37..39, 5..6)` (walk `Left x10` from `(48, 11)` to `(38, 11)`, then `Up x5` to `(38, 6)`; observed wild species: `Gulpin` Lv 6 [`Sticky Hold`, `Acid`, `Yawn`, can hold wild `Big Pearl`], `Nidoran♂` Lv 6 [`Poison Point`, `Peck`], `Meowth` Lv 6, `Hoothoot` Lv 6, `Ralts` Lv 4, `Sandshrew` Lv 6 [`Scratch`, `Poison Sting`], `Spoink` Lv 6 [`Confusion`], `Electrike` Lv 6 [`ThunderShock`], `Farfetch'd` Lv 6 [`Sand-Attack`]).
+- **Eastern Tall Grass Patch**: Located at `(37..39, 5..6)` (walk `Left x10` from `(48, 11)` to `(38, 11)`, then `Up x5` to `(38, 6)`; observed wild species: `Gulpin` Lv 6 [`Sticky Hold`, `Acid`, `Yawn`, can hold wild `Big Pearl`], `Spinarak` Lv 7 [`Mega Drain`], `Nidoran♂` Lv 6 [`Poison Point`, `Peck`], `Meowth` Lv 6, `Hoothoot` Lv 6, `Ralts` Lv 4, `Sandshrew` Lv 6 [`Scratch`, `Poison Sting`], `Spoink` Lv 6 [`Confusion`], `Electrike` Lv 6 [`ThunderShock`], `Farfetch'd` Lv 6 [`Sand-Attack`]).
 - **Trainers**:
   - **Youngster Calvin** `(33, 14)` facing `Down` (3 Pokemon: `Sentret` Lv 6 [`Assist`], `Poochyena` Lv 6 [`Super Fang`], `Zigzagoon` Lv 6 [`Swift`]; from `(33, 15)` after defeating Calvin, walk `Left x7` along grass-free `y=15` to `(26, 15)`, `Up` to `(26, 14)`, and `Left` to `(25, 14)` to avoid the `(29..31, 14)` grass patch!)
   - **Bug Catcher Rick** `(25, 15)` facing `Up` (4 Pokemon: `Caterpie` Lv 5, `Wurmple` Lv 5, `Kakuna` Lv 5, `Cascoon` Lv 5 [`Iron Defense`, holds `Berry Juice`])
