@@ -4680,6 +4680,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 4 directly north is bounded by a cliff wall.
   - East path (row 5) leads to a breakable rock at (19, 5) and northeast canyon.
   - West path (rows 4..5, cols 10..14) leads directly to a wooden staircase on the west edge (approx cols 9..10) descending south to the lower terrace where Cooltrainer (14, 16) and the B2F entrance ladder (17, 16) are located!
+- Northeast Rock Smash & Strength Puzzle (Rows 4-5, Cols 18-22):
+  - Solved Turn 20153-20155!
+  - Rock 1 at (19, 5) shattered with Rock Smash.
+  - Stepped to (19, 4) and shattered Rock 2 at (20, 4) with Rock Smash.
+  - Boulder 2 at (21, 4) pushed East into (22, 4), opening rows 4-5 leading into the northeast cavern corridor.
 
 <hr>
 
