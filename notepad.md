@@ -4561,7 +4561,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 3. [x] Defeat Cooltrainer Hope (Roselia Lv 45) at (3, 15) on 1F western terrace (Turn 19585)! (Earned ¥2,160).
 4. [x] Descend ladder at (8, 13) to Victory Road B1F (Turn 19588)!
 5. [x] Illuminate B1F using Flash (Turn 19594)!
-6. [x] Confirmed B1F northwest enclave is a sealed return destination with incoming one-way ledges.
+6. [x] Solved B1F Northwest 2-boulder puzzle: pushed Boulder 2 West into (3, 7) alcove, opening Column 4.
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
 8. [x] Confirmed (21, 32) on 1F eastern plateau is the exit/return destination from B1F, not an accessible 1F entrance.
 9. [ ] Navigate B2F (use Surf and Waterfall).
@@ -4605,7 +4605,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Level 0 Cavern Floor: Central stairs (13, 29) connect west via row 29 to col 7. Canyon at cols 5..6 (rows 31..39) bypasses the central cliff mound and rock cluster, leading directly to the base of the western bridge staircase at (9, 36).
 - 1F Southern Suspension Bridge: Spans cols 10..20 at row 34 from the western cliff (col 9) to the eastern bridge landing at (21, 34).
 - 1F Eastern Plateau Landing: At (21, 34), row 33 directly to the north is an elevated cliff face. Southern staircase at (21, 35..37) descends to the lower eastern terrace.
-- B1F Northwest Enclave: Sealed return sector. Tested all candidate boundary tiles (3, 8), (3, 9), (4, 11), (8, 11), (8, 12), (9, 13), (10, 3), (10, 7) - all are solid natural cliffs. Col 11 is an incoming one-way ledge jumping west. Ladder at (8, 2) exits up to 1F western terrace at (9, 14).
+- B1F Northwest Chamber Puzzle: Solved! Boulder 2 pushed West into (3, 7) alcove, opening Column 4 to Row 10. From (8, 10), Boulder 1 is pushed East into (10, 10) alcove, clearing the Column 9 chute to the row 14 ledge.
 
 ## Trainers Defeated - Victory Road 1F
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
