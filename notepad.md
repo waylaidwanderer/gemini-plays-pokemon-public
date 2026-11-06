@@ -11,7 +11,7 @@
 | Petalburg City | Azurill (M, Lv 15) | NEREUS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`43 HP`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Nidorina (F, Lv 16) | ELECTRA | Active | Caught at `(24, 61)` as `Nidoran♀`, evolved at Lv 16; `Poison`; `Poison Point`; `50 HP` at Lv 16 (`~415 / 585 EXP` into Lv 16 [~170 EXP buffer remaining]; `1: Poison Sting`, `2: Crunch` Lv 16, `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Hoothoot (M, Lv 8) | ATHENA | Boxed | Caught at `(6, 30)`; `Normal/Flying`; `Insomnia`; transferred to `BOX 1` |
-| Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
+| Route 116 | Makuhita (M, Lv 9) | HERACLES | Boxed | Caught at `(4, 13)`; `Fighting`; transferred to `BOX 1` (`learns Force Palm Lv 10, 70 BP STAB Vital Throw Lv 13`) |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
