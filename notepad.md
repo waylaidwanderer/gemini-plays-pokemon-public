@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Goldeen (F, Lv 14) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10) |
-| Route 103 | — | — | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 103 | Spearow (F, Lv 14) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13) |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
