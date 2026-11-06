@@ -76,6 +76,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
 - Cooltrainer ♂ Albert: Defeated at (27, 36) on 1F eastern plateau (Magneton Lv 43, Muk Lv 43). Prize: ¥2,064.
+- Cooltrainer ♂ Samuel: Defeated at (35, 12) on B1F eastern terrace (Swellow Lv 42, Mawile Lv 42, Kadabra Lv 42). Prize: ¥2,016. Sage leveled to 61!
 
 ## 1F Northern Bridges & Eastern Plateau Layout
 - Northern Suspension Bridges: From northern staircase at (16, 21), suspension bridge spans cols 18..37 at row 17 across the central chasm to northeastern plateau at (38..39, 17).
