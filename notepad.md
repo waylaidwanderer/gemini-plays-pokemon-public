@@ -4620,16 +4620,18 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## B1F Northwest Chamber Layout & Verified Mechanics
 - Entrance Ladder: Ladder from 1F western terrace at (9, 14) enters B1F at (8, 3). Stepping on ladder at (8, 2) returns to 1F. Ascending resets all boulders.
 - Flash: Cast with Lombre (Lilz); illuminates the floor and persists across floor transitions within the session.
-- Upper/Lower Rock Mounds: Upper mound sits at (5..8, 5..6). Lower mound sits at (5..8, 8..9).
+- Rock Mounds: Upper mound at (5..8, 5..6). Lower mound at (5..8, 8..9) — verified completely solid across cols 5, 6, 7, 8 on Turn 20034.
 - Connecting Corridors:
   - Row 4 runs west from (8, 4) to (4, 4..6).
   - Row 7 runs east-west between mounds across cols 4..9.
   - Row 10 runs east-west below lower mound across cols 4..8.
-- Boulder 1 & Southern Chute:
-  - Boulder 1 starts at (9, 10). Pushing Down moves it to (9, 11), vacating (9, 10) as open ground.
-  - From (9, 10), player can step Left into Row 10 at (8, 10).
-  - Chute at col 9 runs down past Boulder 1 to a one-way ledge jumping South at row 14.
-- Boulder 2: Starts at (4, 7). Flanked on west by cliff at col 3. Pushing Down moves it to (4, 8) and (4, 9) against the southern cliff face at row 10. Column 4 terminates at row 9 in a dead end.
+- Boulder 1 & Chute Mechanics (Empirically Verified Turn 20026):
+  - Boulder 1 starts at (9, 10). Pushing it Down moves it through the chute to (9, 13) flush against the row 14 ledge.
+  - At (9, 13), it CANNOT be pushed over the ledge or to the sides (walls at 8, 12 and 10, 13), permanently sealing the chute!
+  - Tile (10, 10) is a 1-tile alcove directly east of Boulder 1's starting position. Pushing Boulder 1 EAST into (10, 10) clears Column 9 entirely, allowing unobstructed passage to hop the row 14 ledge.
+  - To push Boulder 1 East into (10, 10), the player must arrive at (8, 10) via Row 10.
+- Boulder 2 & Column 4:
+  - Boulder 2 starts at (4, 7). Facing it from (5, 7) allows activating Strength and testing west push into (3, 7).
 
 
 <hr>
