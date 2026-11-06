@@ -23,7 +23,7 @@
   4. **Never Leave Two `Poison`-Types (`2x` Weak to Psychic) as Your Final Backline Against `#4/#6 Lunatone` (`29 Speed`, `Confusion`, `Rock Slide`, `Hypnosis`)**:
      - `Lunatone` (`29 Speed`) outspeeds `Weepinbell`/`Gloom` (`24–27 Speed`) and `Venonat` (`25 Speed`) and 1-2HKOs `Poison`-types with `2x` super-effective `Confusion`/`Rock Slide`!
      - Keep **Lv 17 `Marshtomp` (`41/56 HP` + `Oran Berry`)**, **Lv 16 `Luvdisc` (`36–38 Speed`, `Water Pulse`)**, **Lv 17 `Omanyte`/`Kabuto` (`BubbleBeam`/`Water Pulse`)**, and a non-Poison 6th teammate (`Azurill` / `Voltorb` / `Wingull` / `Makuhita`) healthy for `Lunatone`! If `Voltorb` (`39 Speed`) is on the team, use **`3: Shock Wave`** (or `4: SonicBoom`) alongside `Luvdisc` (`36 Speed`) and `Marshtomp` (`Water Gun`) so `Lunatone` is KO'd cleanly!
-- **Core Rules for Attempt #22 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
+- **Core Rules for Attempt #24 (Guaranteed 6v6 Lv 16 Squad vs Gym Leader Roxanne)**:
   1. **Strict Separation of Enemy Send-Outs, Party Switches, and Lv 16 Rare Candies**:
      - **NEVER chain `"B"` (dismissing `"fainted!"` / `"gained EXP"`) and a Party switch (`Down, Left, A`) in the same `press_buttons` call**! Always advance `"fainted!"` + `"gained EXP"` first so that the trainer's next Pokemon is visibly on the field and `"What will [POKEMON] do?"` is open at `+0.00s` on `<CurrentScreen>` before executing a Party switch!
      - **NEVER chain a Party switch (`SHIFT`) or chip attack with a Poke Ball throw in the same `press_buttons` call**!
@@ -31,7 +31,7 @@
      - Never walk into wild grass or trainer battles with a Lv 11–12 Pokemon when the cap is Lv 16! Raise `Mudkip` to **Lv 13 (`36+ HP`)** in Birch's Lab and raise every newly caught Pokemon directly to **Lv 13–14** at `0` steps!
      - Never use `Select` move-swapping in battle; clamp explicitly on Turn 1 (`Up, Left` / `Up, Right` / `Up, Left, Down` / `Down, Right`), and when 2 Pokemon participated in a KO (`split EXP` = 2 `"gained EXP"` textboxes), wait for the 2nd send-out (`["B", "sleep 1200", "B", "sleep 5000"]`) before clamping to a new move slot! Against Bug Catcher James's lead `Paras` (`Bug/Grass`), always use a `4x` Flying move (`Peck` / `Wing Attack`) on Turn 1 to OHKO before `Spore`.
      - Keep all 9 pre-Roxanne encounters at **Lv 14–15** through Route 104 North (`PKMN Trainer Red`), then in Rustboro City Rare-Candy all 8–9 encounters to **Lv 16 (`0 EXP` into Lv 16!)** (`Mudkip -> Marshtomp` `1,021 EXP` buffer, `Oddish -> Gloom` / `Bellsprout -> Weepinbell` `585 EXP` buffer; always use **only `A` presses** after Rare Candy or in-battle level-ups so the ~15s evolution animation is never cancelled).
-  2. **Exact Rustboro Gym EXP Budget (`3,773 EXP` Total Across Josh, Tammy, and Marc) to Keep All 6 Best Pokemon at Lv 16 for Roxanne**:
+  2. **Reference Rustboro Gym EXP Budget (`3,773 EXP` Total Across Josh, Tammy, and Marc — Adapt to Attempt #24's Caught Species & EXP Buffers)**:
      - **ALWAYS OHKO School Kid Josh's `#1 Geodude` (Lv 15, `276 EXP`) ON TURN 1** with a faster Water/Grass lead (`Luvdisc` / `Wingull` / `Marshtomp`) before `Geodude` can use `Selfdestruct`!
      - **Battle 1 — School Kid Josh (`1,108 EXP`)**:
        - `#1 Geodude` (`276 EXP`): Lead **`EROS` (`Luvdisc`, `0 / 653 EXP`)**, OHKO on Turn 1 with `3: Water Pulse` -> `EROS = 276 / 653 EXP`.
