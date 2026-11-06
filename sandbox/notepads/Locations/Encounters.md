@@ -12,7 +12,7 @@
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
-## Verified Species Learnsets & Evolutions (Attempts #9–#23)
+## Verified Species Learnsets & Evolutions (Attempts #9–#24)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
 - **Littleroot Town (`Old Rod`)**: `Luvdisc` (`Secret Power`, `Charm`, `Water Pulse` Lv 12, `Ice Beam` Lv 16, `38 Speed` at Lv 16); `Goldeen` (`Swift Swim`; starts with `BubbleBeam` 65 BP, `Psybeam` 65 BP, `Haze`, learns `Supersonic` Lv 10, `Water Pulse` Lv 15).
 - **Route 103**: `Hoppip` (`Grass/Flying`, starts with `1: Confusion` at Lv 4, learns `2: PoisonPowder` and `3: Mega Drain` at Lv 5, `4: Gust` at Lv 10, `Stun Spore` at Lv 15); `Spearow` (`Keen Eye`; starts with `1: Peck`, `2: Pursuit`, learns `3: Tackle` Lv 7, `4: Secret Power` Lv 13); `Ledyba` (`Early Bird`; starts with `1: Silver Wind`, learns `2: Aerial Ace` Lv 8, `3: Supersonic` Lv 10, `4: Knock Off` Lv 16; `Fast` EXP group); `Wingull` (`1: Wing Attack` at Lv 4, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13); `Skitty -> Delcatty` (can hold wild **`Moon Stone`**! `1: Assist`, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7, `Teeter Dance` Lv 13, `Fake Out` Lv 15; `Delcatty` has `50 HP, 32 Speed` at Lv 15); `Sunkern -> Sunflora` (can hold wild `Sun Stone`; `Sunflora` learns `Growth` Lv 6, `Razor Leaf` Lv 10, `Mega Drain` Lv 13, `Synthesis` Lv 16, compatible with `TM09 Bullet Seed`); `Poliwag` (`Bubble`, `Hypnosis` Lv 7, `Water Gun` Lv 11).
