@@ -157,3 +157,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - At (21, 12), staircase ascends North to upper bridge (row 8).
   - Continuing East along row 11-12 passes completely UNDER the overhead suspension bridge at cols 23..26.
   - Lower ground extends southeast toward a cave opening / descent in the southeastern cavern!
+## Verified B1F Descent Route to Lower Terrace & B2F Ladder (Turn 20183)
+- True Descent Route:
+  1. From (17, 12), walk East along row 12 past smashed rock at (18, 12) and past the wooden staircase at (21, 12) to (23, 12).
+  2. Walk South down Column 23 to (23, 15).
+  3. Hop the one-way south-facing jump ledge at (23, 15) down onto row 16 at (23, 16).
+  4. Walk West along row 16 directly to the B2F entrance ladder at (17, 16)!
+  5. Cooltrainer sits further west at (14, 16); ladder at (17, 16) is reached before engaging the trainer.
