@@ -9,7 +9,7 @@
 | Route 103 | Skitty (M, Lv 15) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; holds wild **`Moon Stone`**; Lv 15 (~90% EXP — do not use in battle until Lv 16 in Rustboro!; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
 | Route 102 | Electrike (F, Lv 15) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; Lv 15 (`1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
 | Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; raised to Lv 15 (`1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Nidoran♀ (F, Lv 15) | HERA | Active | Caught at `(24, 61)`; `Poison`; `Poison Point`; raised to Lv 15 (`1: Poison Sting`, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; evolves to `Nidorina` [`Crunch`] -> `Nidoqueen` [`Moon Stone`] at Lv 16!) |
+| Route 104 | Nidoran♀ (F, Lv 15) | HERA | Active | Caught at `(24, 61)`; `Poison`; `Poison Point`; raised to Lv 15 (`403 EXP` from Lv 15 to Lv 16; `1: Poison Sting`, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12; reaches Lv 16 vs Team Magma Grunt — use only `A` at end of battle so she evolves to `Nidorina` [`Crunch` replacing `2: Scratch`] -> `Nidoqueen` [`Moon Stone`], and re-equip a fresh `Oran Berry` after battle!) |
 | Petalburg Woods | Cascoon (F, Lv 8) | MOTHRA | Active (Box) | Caught at `(12, 33)`; `Bug`; evolves to `Dustox` (`Bug/Poison`, `Shield Dust`) at Lv 10 |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
