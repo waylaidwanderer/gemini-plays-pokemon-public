@@ -11,7 +11,7 @@
 | Petalburg City | Azurill (M, Lv 15) | NEREUS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`43 HP`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Nidorina (F, Lv 16) | ELECTRA | Boxed | Caught at `(24, 61)` as `Nidoran♀`, evolved at Lv 16; `Poison`; `Poison Point`; `50 HP` at Lv 16 (`~415 / 585 EXP` into Lv 16 [~170 EXP buffer remaining]; `1: Poison Sting`, `2: Crunch` Lv 16, `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Hoothoot (M, Lv 15) | ATHENA | Active | Caught at `(6, 30)`; `Normal/Flying`; `Insomnia`; withdrawn from `BOX 1` and raised to Lv 15 (`43 HP, 17 Atk, 17 Def, 19 Sp.Atk, 23 Sp.Def, 20 Speed`; `1: Tackle`, `2: Peck`, `3: Confusion`, `4: Aerial Ace` Lv 11) |
-| Route 116 | Makuhita (M, Lv 10) | HERACLES | Active | Caught at `(4, 13)`; `Fighting`; withdrawn from `BOX 1` (`starts with 3 moves at Lv 9, learns 4: Force Palm into empty Slot 4 at Lv 10, 70 BP STAB Vital Throw Lv 13`) |
+| Route 116 | Makuhita (M, Lv 16) | HERACLES | Active | Caught at `(4, 13)`; `Fighting`; raised to Lv 16 (`51 HP, 22 Atk, 18 Def, 15 Sp.Atk, 17 Sp.Def, 15 Speed`; `1: Faint Attack`, `2: SmellingSalt`, `3: Vital Throw` Lv 13, `4: Force Palm` Lv 10) |
 | Route 115 | Kabuto (M, Lv 15) | TRITON | Active | Caught at `(7, 71)` with `Old Rod`; `Rock/Water`; withdrawn from `BOX 1` and raised to Lv 15 (`37 HP, 36 Atk, 34 Def, 23 Sp.Atk, 20 Sp.Def, 23 Speed`; `817 EXP` buffer at Lv 16; `1: Rock Tomb`, `2: Water Pulse`, `3: Mega Drain` Lv 13) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
