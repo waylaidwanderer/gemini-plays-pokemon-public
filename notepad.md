@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc (F, Lv 15) | APHRODITE | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; `38 HP, 25 Def, 17 Sp.Atk, 27 Sp.Def, 35 Speed` at Lv 15 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
 | Route 103 | Wingull (F, Lv 16) | HALCYON | Active | Caught at `(11, 14)`; `Water/Flying`; `Keen Eye`; `39 HP, 26 Sp.Atk, 38 Speed` at Lv 16 (`~60 EXP` into Lv 16; `1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
 | Route 102 | Nidorino (M, Lv 16) | CADMUS | Active | Caught at `(39, 5)` as `Nidoran♂`, evolved at Lv 16; `Poison`; `Poison Point`; (`~117 / 585 EXP` into Lv 16; `1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12, declined `Helping Hand` Lv 16) |
-| Petalburg City | Azurill (M, Lv 15) | NEREUS | Active | Caught at `(11, 22)` with `Old Rod`; **`Huge Power`**; raised to Lv 15 (`43 HP`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
+| Petalburg City | Azurill (M, Lv 15) | NEREUS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`43 HP`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Nidorina (F, Lv 16) | ELECTRA | Active | Caught at `(24, 61)` as `Nidoran♀`, evolved at Lv 16; `Poison`; `Poison Point`; (`1: Poison Sting`, `2: Crunch` Lv 16, `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Hoothoot (M, Lv 8) | ATHENA | Boxed | Caught at `(6, 30)`; `Normal/Flying`; `Insomnia`; transferred to `BOX 1` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
