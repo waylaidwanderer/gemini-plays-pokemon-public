@@ -8,7 +8,7 @@
 | Route 102 | Nidoran♂ (M, Lv 15) | CADMUS | Active | Caught at `(39, 5)`; `Poison`; `Poison Point`; `41 HP, 23 Atk, 17 Def, 19 Sp.Atk, 19 Sp.Def, 20 Speed` at Lv 15 (`1: Poison Sting`, `2: Peck`, `3: Horn Attack` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg City | Azurill (M, Lv 15) | NEREUS | Active | Caught at `(11, 22)` with `Old Rod`; **`Huge Power`**; raised to Lv 15 (`43 HP`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Nidoran♀ (F, Lv 14) | ELECTRA | Active | Caught at `(24, 61)`; `Poison`; `Poison Point`; raised to Lv 14 (`41 HP`; `1: Poison Sting`, `2: Scratch`, `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6, 30)` |
+| Petalburg Woods | Hoothoot (M, Lv 8) | ATHENA | Boxed | Caught at `(6, 30)`; `Normal/Flying`; `Insomnia`; transferred to `BOX 1` |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
