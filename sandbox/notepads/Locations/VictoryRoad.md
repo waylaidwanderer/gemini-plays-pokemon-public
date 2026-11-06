@@ -132,3 +132,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Rows 27..30 below row 26 are horizontal Acro Bike rails that block foot and Mach Bike transit.
   - Staircase at (40, 21..25) leads to an isolated landing at (41..42, 21) bounded by row 20 cliff.
   - Active progression path leads North from (31, 8) onto the upper northern plateau and smashable rock at (34, 6), and Column 15 heading North from (15, 12).
+
+
+- Row 8 Elevated Highway (Turn 20122):
+  - Connects western bridgehead at (22, 8) West across cols 21..15 directly into Column 15 at (15, 8).
+  - Bypasses lower staircase (21, 10..12) entirely, providing direct high-tier access to northern canyon.
