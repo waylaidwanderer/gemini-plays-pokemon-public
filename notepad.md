@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
-| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 103 | Wingull (F, Lv 14) | HALCYON | Active | Caught at `(16, 11)`; `Water/Flying`; raised to Lv 14 (`1: Wing Attack`, `2: Water Gun`, `3: Quick Attack` Lv 7, `4: BubbleBeam` Lv 13) |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
