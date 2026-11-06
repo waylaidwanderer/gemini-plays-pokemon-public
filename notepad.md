@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | ATRITON | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
+| Littleroot Town | Luvdisc (F, Lv 14) | APHRODITE | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
