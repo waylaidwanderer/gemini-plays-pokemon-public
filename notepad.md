@@ -7,10 +7,10 @@
 | Starter (Route 101) | Mudkip (Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Goldeen (F, Lv 14) | CALYPSO | Active | Caught at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: BubbleBeam`, `2: Psybeam`, `3: Haze`, `4: Supersonic` Lv 10) |
 | Route 103 | Spearow (F, Lv 15) | HARPY | Active | Caught at `(14, 15)`; `Normal/Flying`; `Keen Eye`; raised to Lv 14 (`1: Peck`, `2: Pursuit`, `3: Tackle` Lv 7, `4: Secret Power` Lv 13), reached Lv 15 on Route 102 |
-| Route 102 | Spinarak (F, Lv 14) | ARACHNE | Active | Caught at `(39, 5)`; `Bug/Poison`; raised to Lv 14 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`; `36 HP, 20 Atk, 20 Def, 20 Sp.Atk, 20 Sp.Def, 17 Speed`) |
+| Route 102 | Spinarak (F, Lv 14) | ARACHNE | Boxed | Caught at `(39, 5)`; `Bug/Poison`; raised to Lv 14 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`; `36 HP, 20 Atk, 20 Def, 20 Sp.Atk, 20 Sp.Def, 17 Speed`) |
 | Petalburg City | Azurill (F, Lv 15) | THETIS | Active | Caught at `(11, 22)` with `Old Rod`; `Thick Fat`; raised to Lv 15 (`1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Jigglypuff (F, Lv 14) | CALLIOPE | Active | Caught at `(23, 61)`; `Normal`; raised to Lv 14 (`1: Sing`, `2: Pound`, `3: Disable` Lv 9, `4: Seismic Toss` Lv 14) |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6, 30)` |
+| Petalburg Woods | Oddish (M, Lv 8) | CHLORIS | Active | Caught at `(6, 30)`; `Grass/Poison`; evolves into `Gloom` at Lv 16 (`585 EXP` buffer) |
 | Route 116 | — | — | Pending | Tall grass at `(4, 13)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
