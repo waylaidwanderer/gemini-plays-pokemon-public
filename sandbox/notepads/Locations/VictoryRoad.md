@@ -234,3 +234,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   4. Step onto (20, 5), step East onto (21, 5) directly below Boulder 2 at (21, 4).
   5. Face North and push Boulder 2 North (Up) into the (21, 3) alcove!
   6. This completely clears Row 4 (and Row 5) for unobstructed eastward transit into the eastern cavern and B2F descent route.
+## Strength Text & Northeast Puzzle Mechanics (Turn 20378 Reflection)
+- Strength Overworld Activation Text:
+  - Page 1: "COBALU used STRENGTH! [red down arrow]". Must press 'A' to advance (B does not advance the prompt arrow).
+  - Page 2: "COBALU's STRENGTH made it possible to move boulders around." Dismissed with 'A' or 'B'.
+- Northeast Boulder 2 Jam Mechanics:
+  - Pushing Boulder 2 East along row 4 drives it to (25, 4) flush against (26, 4) east wall and (25, 3) north wall, permanently sealing off Column 25.
+  - Correct Protocol: Stand at (21, 5) facing North and push Boulder 2 North (Up) into the (21, 3) alcove. This keeps row 4 open to (25, 4) and preserves unobstructed access into Column 25.
