@@ -4865,7 +4865,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Nugget x1
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
-- Max Repel x2 (used Turn 20382, 250 active repel steps; 2 remaining in Bag)
+- Max Repel x2 (1 used Turn 20401, 250 active repel steps; 2 remaining in Bag)
 - Money: ¥29,270 (earned ¥2,016 from Cooltrainer Samuel)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
