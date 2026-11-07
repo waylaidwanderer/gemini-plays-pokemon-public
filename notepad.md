@@ -4683,8 +4683,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northeast Puzzle (Rows 4-5, Cols 18-26):
   - Starting layout: Rock 1 at (19, 5), Boulder 1 at (20, 5), Rock 2 at (20, 4), Boulder 2 at (21, 4).
   - Both rocks at (19, 5) and (20, 4) shattered with Rock Smash.
-  - Tile (26, 4) is a confirmed solid rock cliff face; Boulder 2 cannot be pushed East past column 25.
-  - Tile (22, 5) is a confirmed solid rock cliff face; Row 5 cannot be walked as an eastern bypass.
+  - Verified Alcove Solution: Push Boulder 1 South into (20, 6); from (21, 5), push Boulder 2 North into (21, 3) alcove, completely opening Row 4 to Column 25.
+  - Column 25 extends straight South past row 15 onto the lower floor at rows 17-18, connecting unobstructed West to the Lower Terrace and B2F ladder at (17, 16).
 - B1F Landmark & Collision Summary:
   - Northwest Chamber: 1F entrance ladder at (8, 2); Column 4 dead-ends at row 10 cliff; Column 9 chute is the sole exit to row 13.
   - Level 1 Highway (rows 12-13): Runs east from (9, 13) to (17, 12); south edge along row 14 is a continuous 2-tile high cliff overlooking row 16. Smashed rock at (18, 12) connects to wooden stairs at (21, 12).
