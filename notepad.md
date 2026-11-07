@@ -237,7 +237,7 @@
 - **Southern Entrance (from Petalburg Woods)**: Exits Petalburg Woods `(14..15, 5)` onto Route 104 North at `(10, 29)`.
 - **Pretty Petal Flower Shop & Surroundings**:
   - **Flower Shop Door**: Located at `(5, 18)`, blocked by a boy standing at `(5, 19)`.
-  - **TM09 Giver**: Boy at `(5, 19)` directly in front of the Flower Shop door gives `TM09` (`Bullet Seed` — buffed to **25 BP per hit**, 100% accuracy, 30 PP, and calculated as a **Physical** move in this hack); approach from `(4, 25)` by walking straight `Up x6` along the flower-free `x=4` column to `(4, 19)` and turning `Right` (flower beds block `x=5..6, y=20..21`).
+  - **TM09 Giver**: Boy at `(5, 19)` directly in front of the Flower Shop door gives `TM09` (`Bullet Seed` — buffed to **25 BP per hit**, 100% accuracy, 30 PP; note that in Gen 3 all `Grass` moves are **Special**, whereas `Nature Power` on plain/road/bridge terrain calls **`Swift` [60 BP Physical Normal]** using Physical `Attack`!); approach from `(4, 25)` by walking straight `Up x6` along the flower-free `x=4` column to `(4, 19)` and turning `Right` (flower beds block `x=5..6, y=20..21`).
   - **Loamy Soil & Berry Trees**: Vertical 4-tile loamy soil column at `x=3, y=22..25` (stand at `x=4` facing `Left`):
     - `(3, 23)`: `Oran Berry` tree.
     - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
