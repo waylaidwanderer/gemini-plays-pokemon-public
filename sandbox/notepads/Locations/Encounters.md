@@ -10,7 +10,7 @@
 | Route 104 | Seedot -> Nuzleaf (M, Lv 16) | SYLVAN | Active | Caught at `(23, 61)`; `Grass/Dark`; **`Early Bird`**; raised to Lv 14 and leveled to Lv 16 (`50 HP, 29 Atk, 21 Def, 24 Sp.Atk, 20 Sp.Def, 27 Speed`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power` Lv 13) |
 | Petalburg Woods | Oddish (M, Lv 8) | DIONYSUS | Boxed (`BOX 1`) | Caught at `(21, 34)`; `Grass/Poison`; transferred to `BOX 1` (withdraw at Rustboro PC to evolve into `Gloom` at Lv 16 with `3: Toxic` and `4: Magical Leaf`!) |
 | Route 116 | Natu (M, Lv 9) | APOLLO | Active | Caught at `(5, 14)`; `Psychic/Flying` (`4x` resists Fighting, `0x` immune to Ground, `0.5x` resists Grass) |
-| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Route 115 | Omanyte (M, Lv 9) | POSEIDON | Catching / Active | Hooked at `(7, 71)` facing `Left` with `Old Rod`; `Rock/Water` (`90 base Sp.Atk, 100 base Def`; `1: BubbleBeam`, `2: Rock Tomb`, learns `3: Aurora Beam` and `4: Mud Shot` at Lv 15) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#27)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
