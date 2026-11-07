@@ -165,3 +165,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - From (22..23, 14..15): The south edge at row 15 is a continuous cliff wall overlooking the Lower Terrace floor.
 - Row 13/14 Topography: Proven continuous solid cliff wall overlooking row 16 from col 9 through col 15. There is NO jump ledge or southern path from row 12/13 down to the Lower Terrace at (17, 16).
 - The Lower Terrace and ladder at (17, 16) cannot be entered from B1F Northwest, Row 12/13, or Column 25.
+## 1F Upper Northern Plateau & Suspension Bridge (Verified Turns 20648-20653)
+- Northern Staircase at (16, 21..17): Ascends north onto row 17.
+- Corridor at rows 13-14 (cols 9-16): Connects Hope's western terrace / ladder (8, 13) directly East to the top of the northern staircase at (16, 17).
+- Northern Suspension Bridge (Row 17): Spans East from (18, 17) across cols 18..37 to northeastern plateau at (38..39, 17).
+- Staircase at (39, 18): Descends South to the middle terrace where an undefeated Cooltrainer is stationed at (34, 20).
