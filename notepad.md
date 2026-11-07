@@ -4706,10 +4706,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Suspension Bridge (Row 17): Spans East from (18, 17) across cols 18..37 to northeastern plateau at (38..39, 17).
 - Staircase at (39, 18): Descends South to the middle terrace where an undefeated Cooltrainer is stationed at (34, 20).
 
-## 1F Northern High Road (Row 15-16) - Discovered Turn 20656
-- From northeastern plateau at (38, 17), stepping North into rows 15-16 accesses a wide horizontal highway running West behind the northern suspension bridge across cols 18..38.
-- Two trainers sighted along row 16: yellow-cap trainer around col 33, brown-cap trainer around col 28.
-- This northern high road bypasses the one-way ledge at row 27 and leads west toward the upper caverns / Victory Road progression!
+## 1F Northeastern Plateau & Suspension Bridge (Verified Turns 20658-20679)
+- Northern suspension bridge (Row 17) connects west at (18, 17) and east at (36, 17) to the northeastern plateau landing at (37..39, 17).
+- Rows 15-16 directly north of the landing at (38..39, 16) are an impassable cliff face. Trainer sprites seen behind the bridge railing are standing on the lower cavern floor beneath the elevated suspension bridge.
+- The only path off the northeastern landing is the wooden staircase at (39, 18) descending south into an isolated corridor at cols 39-40, rows 24-26.
+- A deep vertical trench separates this corridor from the middle terrace (cols 30-36). The Cooltrainer at (33, 20) cannot be reached from this corridor; that terrace is accessed from a suspension bridge entering at its southwest corner (around cols 28-30, row 28).
+- Row 27 in this corridor is a one-way ledge hopping South onto the lower eastern plateau near Albert (27, 36) and the B1F return ladder (21, 32).
 
 
 <hr>
