@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag on Route 101 |
+| Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 in Birch's Lab (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
