@@ -4706,6 +4706,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Suspension Bridge (Row 17): Spans East from (18, 17) across cols 18..37 to northeastern plateau at (38..39, 17).
 - Staircase at (39, 18): Descends South to the middle terrace where an undefeated Cooltrainer is stationed at (34, 20).
 
+## 1F Northern High Road (Row 15-16) - Discovered Turn 20656
+- From northeastern plateau at (38, 17), stepping North into rows 15-16 accesses a wide horizontal highway running West behind the northern suspension bridge across cols 18..38.
+- Two trainers sighted along row 16: yellow-cap trainer around col 33, brown-cap trainer around col 28.
+- This northern high road bypasses the one-way ledge at row 27 and leads west toward the upper caverns / Victory Road progression!
+
 
 <hr>
 
