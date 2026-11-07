@@ -11,7 +11,7 @@
 | Petalburg City | Azurill (F, Lv 16) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; `Thick Fat` (`0.5x` Fire/Ice); raised to Lv 15 and leveled to Lv 16 (`45 HP, 14 Atk, 20 Def, 14 Sp.Atk, 19 Sp.Def, 13 Speed`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Seedot -> Nuzleaf (M, Lv 16) | SYLVAN | Active | Caught at `(23, 61)`; `Grass/Dark`; **`Early Bird`**; raised to Lv 14 and leveled to Lv 16 (`50 HP, 29 Atk, 21 Def, 24 Sp.Atk, 20 Sp.Def, 27 Speed`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power` Lv 13) |
 | Petalburg Woods | Oddish (M, Lv 8) | DIONYSUS | Boxed (`BOX 1`) | Caught at `(21, 34)`; `Grass/Poison`; transferred to `BOX 1` (withdraw at Rustboro PC to evolve into `Gloom` at Lv 16 with `3: Toxic` and `4: Magical Leaf`!) |
-| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+| Route 116 | Natu (M, Lv 9) | APOLLO | Active | Caught at `(5, 14)`; `Psychic/Flying` (`4x` resists Fighting, `0x` immune to Ground, `0.5x` resists Grass) |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#27)
