@@ -194,3 +194,17 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Northern suspension bridge along row 17 spans from (18, 17) to (38, 17).
   - Northeastern plateau at (38..39, 17) has NO northern exit or pathway to Pokémon League HQ (verified Turn 20278-20279). It connects solely to the wooden staircase at (39, 18) descending to the one-way Max Elixir shelf at rows 24-26.
   - This confirms 100% that progression to the Pokémon League HQ must pass through B1F and B2F (using Surf and Waterfall).
+## 1F Western Terrace & B1F Entrance Ladder Verified Route (Turns 20293-20313)
+- Central Route to Western Terrace:
+  - From southern suspension bridge west landing (9, 34), descend stairs to (9, 38).
+  - Walk West to (6, 38) and North along canyon to (6, 30).
+  - Walk East to (13, 30), ascend stairs North to central platform (13, 25).
+  - Walk West across western suspension bridge (cols 12..3 at row 25) to western terrace (3, 25).
+- Wally Bypass at (2, 24):
+  - Wally stands at (2, 24) facing South.
+  - Tile (3, 24) is open ground directly east of Wally!
+  - 4-step bypass: (2, 25) -> Right to (3, 25) -> Up x2 to (3, 23) -> Left to (2, 23).
+- Approach to B1F Entrance Ladder:
+  - From (2, 23), walk North along col 2 to row 14 (2, 14).
+  - Walk East along row 14 to (8, 14).
+  - Exact B1F ladder coordinates: (9, 14). Stepping on (9, 14) enters Victory Road B1F at (8, 3).
