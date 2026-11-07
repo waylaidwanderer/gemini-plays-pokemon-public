@@ -4713,6 +4713,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - A deep vertical trench separates this corridor from the middle terrace (cols 30-36). The Cooltrainer at (33, 20) cannot be reached from this corridor; that terrace is accessed from a suspension bridge entering at its southwest corner (around cols 28-30, row 28).
 - Row 27 in this corridor is a one-way ledge hopping South onto the lower eastern plateau near Albert (27, 36) and the B1F return ladder (21, 32).
 
+## 1F Level 0 Northern Canyon & Cooltrainer Terrace (Discovered Turns 20683-20690)
+- Northern Staircase: Descends south from (16, 17) to Level 0 floor at (16, 22..23).
+- Level 0 Highway: Wide open sandy canyon floor runs East from (16, 23) through (24, 24) to (28, 24).
+- Middle Suspension Bridge: Elevated bridge spans horizontally across rows 27-28 between col 24 and col 31; the Level 0 highway passes immediately north of it.
+- Cooltrainer Terrace (cols 28-35, rows 20-25): Wide open terrace extending north. An undefeated Cooltrainer (blond hair, red suit) is stationed at (33, 20) facing South.
+- Northern Canyon Beyond: The terrace connects north beneath the overhead northern suspension bridge (row 17) where two additional undefeated trainers (brown-haired trainer at col 29, yellow-capped trainer at col 33) and the deeper cave progression are located.
+
 
 <hr>
 
