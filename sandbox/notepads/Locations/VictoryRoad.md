@@ -72,6 +72,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Eastern Plateau Landing: At (21, 34), row 33 directly to the north is an elevated cliff face. Southern staircase at (21, 35..37) descends to the lower eastern terrace.
 - B1F Northwest Chamber Puzzle: Solved! Boulder 2 pushed West into (3, 7) alcove, opening Column 4 to Row 10. From (8, 10), Boulder 1 is pushed East into (10, 10) alcove, clearing the Column 9 chute to the row 14 ledge.
 
+- 1F Level 0 Southeast Ladder & Poké Ball: Located at cols 41-42, rows 38-39 (discovered turn 20285).
+
 ## Trainers Defeated - Victory Road 1F
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
