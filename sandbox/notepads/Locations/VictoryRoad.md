@@ -182,3 +182,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Wooden staircase directly North at cols 33..34 (rows 31..33) ascends onto the elevated eastern plateau.
 - A second staircase visible at the north edge ascends further north toward row 17.
 - An item Poké Ball is visible on the southeastern terrace.
+## 1F Central-Eastern Corridor & Northern Staircase Verified Route (Turns 20260-20276)
+- Albert's Location: Cooltrainer Albert is stationed at (27, 34) facing South (defeated).
+- Northern Corridor from Albert: Runs north along cols 27-28 under the row 27 suspension bridge up to row 24.
+- Row 24 Bypass to Northern Staircase:
+  - Row 23 is an impassable cliff face from col 24 to col 31.
+  - Bypass: From (28, 24), walk West to (23, 24) -> North to (23, 23) -> West to (16, 23).
+- Northern Staircase (16, 21..22):
+  - Ascends North from (16, 23) to landing at (16, 17).
+  - North of landing (cols 16-17, rows 13-16): Terminating cul-de-sac bounded by row 12 cliff face and col 19 cliff wall.
+  - From (16, 17), the main path heads East across the northern suspension bridge along row 17.
