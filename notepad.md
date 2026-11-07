@@ -11,7 +11,7 @@
 | Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; Lv 15 (`49 EXP` to Lv 16 — Rare Candy to Lv 16 with `0 / 585 EXP` buffer!; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
 | Route 104 | Nidoqueen (F, Lv 16) | HERA | Active | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16 (`31 EXP` buffer remaining before Lv 17 — keep in PC/back row during Gym trainers and save for Roxanne's `#3 Lileep`!; `1: Poison Sting`, `2: Crunch` [80 BP Special Dark], `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Cascoon (F, Lv 8) | MOTHRA | Active (Box) | Caught at `(12, 33)`; `Bug`; evolves to `Dustox` (`Bug/Poison`, `Shield Dust`) at Lv 10 |
-| Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
+| Route 116 | Yanma (F, Lv 9) | NIKE | Active (Box) | Caught at `(4, 13)`; `Bug/Flying`; **`Speed Boost`** (`49 HP, 34 Sp.Atk, 37 Speed` at Lv 16; learns `SonicBoom` [20 fixed damage] at Lv 13; immune to Ground!) |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
