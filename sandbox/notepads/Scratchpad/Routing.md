@@ -61,7 +61,7 @@
 - **Mr. Briney's Cottage & Northern Berry Patch**:
   - Cottage door at `(17, 51)`.
   - **Berry Trees**: Located at `(22, 41)` (`Oran Berry`) and `(24, 41)` (`Pecha Berry`).
-  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Tickle`, `Wish`, `Metronome` — **CRITICAL**: `Metronome` can roll `250 BP Explosion` [observed Turn 4661, OHKOing Lv 14 Mudkip from 35 HP!]; **ALWAYS OHKO `#1 Cleffa` ON TURN 1** with a faster 85–90 BP STAB move like Lv 15 `Azurill`'s `Body Slam` or Lv 14 `Gulpin`'s `Sludge Bomb` so `Cleffa` never gets a `Metronome` roll!], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`, `Thief`], `Azurill` Lv 7 [`Huge Power`; Physical `Uproar`]).
+  - **Lady Cindy** at `(11, 40)` facing `Left` outside Petalburg Woods (3 Pokemon: `Cleffa` Lv 8 [`Tickle`, `Wish`, `Metronome` — **CRITICAL**: `Metronome` can roll `250 BP Explosion` [observed Turn 4661, OHKOing Lv 14 Mudkip from 35 HP!]; **ALWAYS OHKO `#1 Cleffa` ON TURN 1** with a faster 70–90 BP STAB move like Lv 15 `Snubbull`'s `Headbutt`, Lv 15 `Azurill`'s `Body Slam`, or Lv 14 `Gulpin`'s `Sludge Bomb` so `Cleffa` never gets a `Metronome` roll!], `Pichu` Lv 8 [`Sweet Kiss`, `Thunder Wave`, `ThunderShock`, `Thief`], `Azurill` Lv 7 [`Huge Power`; Physical `Uproar`]).
 
 ## Petalburg Woods
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
