@@ -208,3 +208,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - From (2, 23), walk North along col 2 to row 14 (2, 14).
   - Walk East along row 14 to (8, 14).
   - Exact B1F ladder coordinates: (9, 14). Stepping on (9, 14) enters Victory Road B1F at (8, 3).
+## B1F Northwest Puzzle & HM Interaction Mechanics (Turn 20334 Reflection)
+- Rock Mound Topography:
+  - Upper rock mound occupies cols 5..8 at rows 5..6. (Tile 5, 6 is impassable rock!).
+  - Row 7 is the open east-west corridor between upper and lower rock mounds.
+  - To reach (5, 7) facing Boulder 2: Route from ladder (8, 3) east to col 9, south to row 7, and west along row 7 to (5, 7).
+- Verified Northwest Boulder Solution:
+  1. From (5, 7), face West and push Boulder 2 into (3, 7) alcove.
+  2. Walk onto (4, 7), south down col 4 to row 10, and east along row 10 to (8, 10).
+  3. From (8, 10), face East and push Boulder 1 into (10, 10) alcove.
+  4. Walk down col 9 chute and hop row 14 ledge to (9, 14).
+- Flash Radius in Gen 3: Flash expands light circle to ~10-12 tiles; darkness vignette remains at screen perimeter. Persists across transitions.
+- HM Prompt Timing: Facing breakable rock/boulder, press A to trigger dialogue, wait/press A to confirm YES on YES/NO box. Never press B on prompt. Allow ~1.5s for move animation before movement.
