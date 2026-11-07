@@ -4694,6 +4694,19 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northeast Puzzle Breakthrough (Turn 20223):
   - Boulder 1 at (20, 5) pushed South from (20, 4) into (20, 6)!
   - This unblocks row 5 at (20, 5) and opens access toward the lower highway.
+## 1F Southern Bridges & Eastern Landing Topology (Verified Turns 20226-20246)
+- Western Bridge & Central Pillar:
+  - Western terrace (cols 0..3) connects via western bridge (rows 25..26, cols 4..12) to central pillar island at (13, 25).
+  - Central pillar stairs at (13, 25..29) descend south to Level 0 floor.
+- Western Approach to Southern Bridge:
+  - Level 0 canyon at cols 5..6 (rows 31..38) bypasses central rock mound, leading to southern bridge staircase at (9, 37..38).
+  - Staircase ascends North onto the southern suspension bridge at (9, 34).
+- Southern Suspension Bridge (Row 34):
+  - Spans cols 10..20 at row 34 East across central chasm, landing on the eastern plateau at (21, 34).
+- Eastern Landing Structure at (21, 34):
+  - Directly North along col 21: cave ladder hole at (21, 30).
+  - Above ladder hole along col 21: wooden staircase at (21, 26..27) ascending to northern tier and northern suspension bridge (row 17).
+  - Directly South along col 21: wooden staircase descending to Cooltrainer Albert's eastern terrace at (27, 36).
 
 <hr>
 
