@@ -220,3 +220,17 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   4. Walk down col 9 chute and hop row 14 ledge to (9, 14).
 - Flash Radius in Gen 3: Flash expands light circle to ~10-12 tiles; darkness vignette remains at screen perimeter. Persists across transitions.
 - HM Prompt Timing: Facing breakable rock/boulder, press A to trigger dialogue, wait/press A to confirm YES on YES/NO box. Never press B on prompt. Allow ~1.5s for move animation before movement.
+## 1F Level 0 Southeast Ladder & Poké Ball Discovery (Turn 20285)
+- Location: Far southeast corner of 1F Level 0 (cols 41-42, rows 38-39).
+- Features: An item Poké Ball and a descending cave ladder hole leading to a lower cavern/floor.
+- Access: Reached from 1F entrance at (15, 40) by walking East across Level 0 beneath the cliffs, or dropping down from row 35.
+
+## B1F Northeast Puzzle Definitive Solution & Breakthrough (Turns 20338-20341)
+- Starting Layout: Rock 1 at (19, 5), Boulder 1 at (20, 5), Rock 2 at (20, 4), Boulder 2 at (21, 4).
+- Definitive Solution Steps:
+  1. Shatter Rock 1 at (19, 5) with Rock Smash.
+  2. Walk to (19, 4) and shatter Rock 2 at (20, 4) with Rock Smash.
+  3. Walk to (20, 4), face South, and push Boulder 1 South into (20, 6) alcove.
+  4. Step onto (20, 5), step East onto (21, 5) directly below Boulder 2 at (21, 4).
+  5. Face North and push Boulder 2 North (Up) into the (21, 3) alcove!
+  6. This completely clears Row 4 (and Row 5) for unobstructed eastward transit into the eastern cavern and B2F descent route.
