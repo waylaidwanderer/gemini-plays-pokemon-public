@@ -4678,27 +4678,17 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 8 terminates on the west at (19, 8) against a cliff at x=18.
   - To reach Column 15, descend the wooden staircase at (21, 10..12) down to row 12, then ride West past the smashed rock at (18, 12) to (15, 12).
 
-## B1F Northeast Puzzle & Column 25 Topography (Definitive Ground Truth Turn 20443)
-- Physical Starting Layout (Default upon floor entry/reset):
-  - Rock 1 at (19, 5) [Breakable Rock]
-  - Rock 2 at (20, 4) [Breakable Rock]
-  - Boulder 1 at (20, 5) [Movable Boulder]
-  - Boulder 2 at (21, 4) [Movable Boulder]
-  - Alcove 1 at (20, 6) [Directly south of Boulder 1]
-  - Alcove 2 at (21, 3) [Directly north of Boulder 2]
-  - Tile (21, 5) is empty floor directly south of Boulder 2.
-  - Column 25 entry is at (25, 4).
-- WARNING ON INCORRECT PUSH:
-  - Pushing Boulder 2 East along row 4 drives it to (25, 4) flush against the east wall (26, 4) and north wall (25, 3), permanently blocking Column 25 entrance. Boulder 2 must NEVER be pushed East!
-- Definitive Execution Sequence:
-  1. Shatter Rock 1 at (19, 5) with Rock Smash.
-  2. Walk to (19, 4) and shatter Rock 2 at (20, 4) with Rock Smash.
-  3. Walk onto (20, 4) facing South.
-  4. Push Boulder 1 SOUTH from (20, 5) into the (20, 6) alcove!
-  5. Step onto (20, 5), then step East onto (21, 5) directly below Boulder 2 at (21, 4).
-  6. Face North and push Boulder 2 NORTH from (21, 4) into the (21, 3) alcove!
-  7. Row 4 is now completely open from col 20 to col 25!
-  8. Walk East along row 4 to (25, 4), then turn South down Column 25 past Shannon at (26, 16) to staircase at (32, 19). (Note: Column 25 does NOT connect west to Lower Terrace, which is blocked by continuous cliffs).
+## B1F Northeast Boulder Puzzle (Dead-End)
+- The Northeast boulder puzzle at cols 19-21, rows 3-6 leads only to Column 25.
+- Column 25 leads south past Cooltrainer Shannon (26, 16) to the staircase at (32, 19) and the eastern plateau / one-way ledge. It does NOT lead to the Lower Terrace at (17, 16).
+
+## 1F Level 0 Ground Route to Southeast Ladder (41-42, 38-39)
+- From 1F western terrace ladder at (9, 14):
+  1. Descend south past Wally to (3, 25).
+  2. Cross the western suspension bridge east to central platform at (13, 25).
+  3. Descend central stairs to Level 0 floor at (13, 29).
+  4. Follow rows 38-40 directly East across the cavern floor to column 42, completely bypassing all overhead suspension bridges.
+  5. Arrive at the unexplored descending ladder at (41-42, 38-39).
 
 ## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
 - Southern Suspension Bridge (Row 15):
