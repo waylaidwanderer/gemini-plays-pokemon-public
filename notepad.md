@@ -4673,109 +4673,20 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 8 terminates on the west at (19, 8) against a cliff at x=18.
   - To reach Column 15, descend the wooden staircase at (21, 10..12) down to row 12, then ride West past the smashed rock at (18, 12) to (15, 12).
 
-## B1F Northern Terrace & Descent Route (Discovered Turns 20130-20139)
-- Smashing the rock at (18, 12) cleared access between the eastern stairs (21, 12) and western corridor at (15, 12).
-- Column 15 Corridor: Runs straight North from (15, 12) through rows 11..6 between western cliff (col 13) and eastern cliff (col 16), arriving at the northern terrace junction at (15, 5).
-- Northern Terrace Junction (15, 5):
-  - Row 4 directly north is bounded by a cliff wall.
-  - West path (row 5, col 11) has a one-way jump ledge hopping West back into the 1F entrance chamber.
-  - East path (row 4..5) leads into the Northeast Boulder & Rock puzzle.
-- Northeast Puzzle (Rows 4-5, Cols 18-26):
-  - Starting layout: Rock 1 at (19, 5), Boulder 1 at (20, 5), Rock 2 at (20, 4), Boulder 2 at (21, 4).
-  - Both rocks at (19, 5) and (20, 4) shattered with Rock Smash.
-  - Verified Alcove Solution: Push Boulder 1 South into (20, 6); from (21, 5), push Boulder 2 North into (21, 3) alcove, completely opening Row 4 to Column 25.
-  - Column 25 extends straight South past row 15 onto the lower floor at rows 17-18, connecting unobstructed West to the Lower Terrace and B2F ladder at (17, 16).
-- B1F Landmark & Collision Summary:
-  - Northwest Chamber: 1F entrance ladder at (8, 2); Column 4 dead-ends at row 10 cliff; Column 9 chute is the sole exit to row 13.
-  - Level 1 Highway (rows 12-13): Runs east from (9, 13) to (17, 12); south edge along row 14 is a continuous 2-tile high cliff overlooking row 16. Smashed rock at (18, 12) connects to wooden stairs at (21, 12).
-  - Upper Suspension Bridge (row 8): Spans cols 21-31. Eastern landing at (32, 8) has south-facing jump ledge at row 7 and wooden stairs descending to (32, 12).
-  - Lower Terrace: Cooltrainer at (14, 16), rock at (16, 16), B2F entrance ladder at (17, 16).
-  - Southern Cavern: Under-bridge corridor at cols 37-38 connects Samuel's platform at (35, 12) south to row 24-26 highway. Row 27 is an Acro Bike rail. Wooden stairs at (40, 24) ascend to landing at (41, 21).
-- Northeast Puzzle Breakthrough (Turn 20223):
-  - Boulder 1 at (20, 5) pushed South from (20, 4) into (20, 6)!
-  - This unblocks row 5 at (20, 5) and opens access toward the lower highway.
-## 1F Southern Bridges & Eastern Landing Topology (Verified Turns 20226-20246)
-- Western Bridge & Central Pillar:
-  - Western terrace (cols 0..3) connects via western bridge (rows 25..26, cols 4..12) to central pillar island at (13, 25).
-  - Central pillar stairs at (13, 25..29) descend south to Level 0 floor.
-- Western Approach to Southern Bridge:
-  - Level 0 canyon at cols 5..6 (rows 31..38) bypasses central rock mound, leading to southern bridge staircase at (9, 37..38).
-  - Staircase ascends North onto the southern suspension bridge at (9, 34).
-- Southern Suspension Bridge (Row 34):
-  - Spans cols 10..20 at row 34 East across central chasm, landing on the eastern plateau at (21, 34).
-- Eastern Landing Structure at (21, 34):
-  - Row 33 directly North is an impassable elevated cliff face; ladder at (21, 30) sits in a sunken pit and is an exit-only one-way return from B1F.
-  - Wooden staircase at (21, 35) descends South to the lower eastern terrace (Albert's area at 27, 36).
-  - Progression route to northern suspension bridge (row 17): Descend southern stairs to row 36/37, walk East past Albert (27, 36), and follow the eastern corridor straight North to the northern staircase.
-## 1F Upper Eastern Tier & Northern Bridge Approach (Turn 20253-20254)
-- Reached via eastern corridor north from Albert (27, 36) at (28, 24).
-- Wooden suspension bridge spans horizontally at rows 26..27.
-- Trainer sighted at (34, 20) facing South.
-- Open corridor at cols 30..32 leads North toward row 17 suspension bridge.
-## 1F Eastern Highway & Tiered Plateau (Discovered Turn 20257-20258)
-- Reached via row 35 east from Albert's terrace to Column 34, then north to (34, 34).
-- Wooden staircase directly North at cols 33..34 (rows 31..33) ascends onto the elevated eastern plateau.
-- A second staircase visible at the north edge ascends further north toward row 17.
-- An item Poké Ball is visible on the southeastern terrace.
-## 1F Central-Eastern Corridor & Northern Staircase Verified Route (Turns 20260-20276)
-- Albert's Location: Cooltrainer Albert is stationed at (27, 34) facing South (defeated).
-- Northern Corridor from Albert: Runs north along cols 27-28 under the row 27 suspension bridge up to row 24.
-- Row 24 Bypass to Northern Staircase:
-  - Row 23 is an impassable cliff face from col 24 to col 31.
-  - Bypass: From (28, 24), walk West to (23, 24) -> North to (23, 23) -> West to (16, 23).
-- Northern Staircase (16, 21..22):
-  - Ascends North from (16, 23) to landing at (16, 17).
-  - North of landing (cols 16-17, rows 13-16): Terminating cul-de-sac bounded by row 12 cliff face and col 19 cliff wall.
-  - Northern suspension bridge along row 17 spans from (18, 17) to (38, 17).
-  - Northeastern plateau at (38..39, 17) has NO northern exit or pathway to Pokémon League HQ (verified Turn 20278-20279). It connects solely to the wooden staircase at (39, 18) descending to the one-way Max Elixir shelf at rows 24-26.
-  - This confirms 100% that progression to the Pokémon League HQ must pass through B1F and B2F (using Surf and Waterfall).
-## 1F Western Terrace & B1F Entrance Ladder Verified Route (Turns 20293-20313)
-- Central Route to Western Terrace:
-  - From southern suspension bridge west landing (9, 34), descend stairs to (9, 38).
-  - Walk West to (6, 38) and North along canyon to (6, 30).
-  - Walk East to (13, 30), ascend stairs North to central platform (13, 25).
-  - Walk West across western suspension bridge (cols 12..3 at row 25) to western terrace (3, 25).
-- Wally Bypass at (2, 24):
-  - Wally stands at (2, 24) facing South.
-  - Tile (3, 24) is open ground directly east of Wally!
-  - 4-step bypass: (2, 25) -> Right to (3, 25) -> Up x2 to (3, 23) -> Left to (2, 23).
-- Approach to B1F Entrance Ladder:
-  - From (2, 23), walk North along col 2 to row 14 (2, 14).
-  - Walk East along row 14 to (8, 14).
-  - Exact B1F ladder coordinates: (9, 14). Stepping on (9, 14) enters Victory Road B1F at (8, 3).
-## B1F Northwest Puzzle & HM Interaction Mechanics (Turn 20334 Reflection)
-- Rock Mound Topography:
-  - Upper rock mound occupies cols 5..8 at rows 5..6. (Tile 5, 6 is impassable rock!).
-  - Row 7 is the open east-west corridor between upper and lower rock mounds.
-  - To reach (5, 7) facing Boulder 2: Route from ladder (8, 3) east to col 9, south to row 7, and west along row 7 to (5, 7).
-- Verified Northwest Boulder Solution:
-  1. From (5, 7), face West and push Boulder 2 into (3, 7) alcove.
-  2. Walk onto (4, 7), south down col 4 to row 10, and east along row 10 to (8, 10).
-  3. From (8, 10), face East and push Boulder 1 into (10, 10) alcove.
-  4. Walk down col 9 chute and hop row 14 ledge to (9, 14).
-- Flash Radius in Gen 3: Flash expands light circle to ~10-12 tiles; darkness vignette remains at screen perimeter. Persists across transitions.
-- HM Prompt Timing: Facing breakable rock/boulder, press A to trigger dialogue, wait/press A to confirm YES on YES/NO box. Never press B on prompt. Allow ~1.5s for move animation before movement.
-## 1F Level 0 Southeast Ladder & Poké Ball Discovery (Turn 20285)
-- Location: Far southeast corner of 1F Level 0 (cols 41-42, rows 38-39).
-- Features: An item Poké Ball and a descending cave ladder hole leading to a lower cavern/floor.
-- Access: Reached from 1F entrance at (15, 40) by walking East across Level 0 beneath the cliffs, or dropping down from row 35.
+## B1F Northeast Puzzle: Verified Definitive Solution
+- Starting Layout (after B1F entry/reset):
+  - Rock 1 at (19, 5), Boulder 1 at (20, 5).
+  - Rock 2 at (20, 4), Boulder 2 at (21, 4).
+- Definitive Execution Steps:
+  1. Shatter Rock 1 at (19, 5) with Rock Smash. [Done Turn 20381]
+  2. Walk to (19, 4) and shatter Rock 2 at (20, 4) with Rock Smash. [Done Turn 20384]
+  3. Stand at (20, 4) facing South. Activate Strength with Cobalu and push Boulder 1 South into the (20, 6) alcove.
+  4. Step Down onto (20, 5), then East onto (21, 5) directly below Boulder 2 at (21, 4).
+  5. Face North and push Boulder 2 North into the (21, 3) alcove. (NEVER push Boulder 2 East along row 4 into the corner!).
+  6. Row 4 is now completely open! Walk East along row 4 (cols 22-25) to Column 25.
+  7. At Column 25, walk straight SOUTH past row 15 down to rows 17-18 (NEVER step West at row 15 over the jump ledge!).
+  8. From rows 17-18, follow the open lower floor West to the Lower Terrace and enter the B2F ladder at (17, 16).
 
-## B1F Northeast Puzzle Definitive Solution & Breakthrough (Turns 20338-20341)
-- Starting Layout: Rock 1 at (19, 5), Boulder 1 at (20, 5), Rock 2 at (20, 4), Boulder 2 at (21, 4).
-- Definitive Solution Steps:
-  1. Shatter Rock 1 at (19, 5) with Rock Smash.
-  2. Walk to (19, 4) and shatter Rock 2 at (20, 4) with Rock Smash.
-  3. Walk to (20, 4), face South, and push Boulder 1 South into (20, 6) alcove.
-  4. Step onto (20, 5), step East onto (21, 5) directly below Boulder 2 at (21, 4).
-  5. Face North and push Boulder 2 North (Up) into the (21, 3) alcove!
-  6. This completely clears Row 4 (and Row 5) for unobstructed eastward transit into the eastern cavern and B2F descent route.
-## Strength Text & Northeast Puzzle Mechanics (Turn 20378 Reflection)
-- Strength Overworld Activation Text:
-  - Page 1: "COBALU used STRENGTH! [red down arrow]". Must press 'A' to advance (B does not advance the prompt arrow).
-  - Page 2: "COBALU's STRENGTH made it possible to move boulders around." Dismissed with 'A' or 'B'.
-- Northeast Boulder 2 Jam Mechanics:
-  - Pushing Boulder 2 East along row 4 drives it to (25, 4) flush against (26, 4) east wall and (25, 3) north wall, permanently sealing off Column 25.
-  - Correct Protocol: Stand at (21, 5) facing North and push Boulder 2 North (Up) into the (21, 3) alcove. This keeps row 4 open to (25, 4) and preserves unobstructed access into Column 25.
 
 <hr>
 
