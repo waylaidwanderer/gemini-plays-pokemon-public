@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 14) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 in Birch's Lab (`1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
 | Littleroot Town | Luvdisc (F, Lv 14) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Ekans (M, Lv 14) | APOPHIS | Active | Caught at `(14, 15)`; `Poison`; **`Intimidate`**; raised to Lv 14 (`36 HP, 20 Atk, 18 Def, 20 Sp.Atk, 24 Sp.Def, 23 Speed`; `1: Wrap`, `2: Leer`, `3: Acid` [spread] Lv 8, `4: Bite` Lv 13) |
+| Route 103 | Ekans (M, Lv 14) | APOPHIS | Active | Caught at `(14, 15)`; `Poison`; **`Intimidate`**; raised to Lv 14 (`36 HP, 20 Atk, 18 Def, 20 Sp.Atk, 24 Sp.Def, 23 Speed`; `1: Wrap`, `2: Pursuit`, `3: Acid` [spread] Lv 8, `4: Bite` Lv 13) |
 | Route 102 | Spinarak (F, Lv 12) | ARACHNE | Active | Caught at `(38, 5)`; `Bug/Poison`; raised to Lv 12 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`) |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
