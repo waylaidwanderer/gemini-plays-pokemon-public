@@ -174,3 +174,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Bridge connects to landing at (40, 15).
   - Northern Edge: Terminated at (41..42, 13) by a solid cliff face; no northern passage.
   - Southern Corridor: cols 40..42 extend South through rows 16..21 toward staircase at (40, 24).
+
+## B1F Vertical Ledge & Lower Terrace Access (Verified Turns 20528-20539)
+- Vertical Ledge at Col 24: This one-way ledge hops WEST (from East to West). You cannot hop it from the west. Hopping west over it lands at (23, 14..15).
+- From (22..23, 14..15): The south edge at row 15 is a cliff drop down to the Lower Terrace floor. To reach the Lower Terrace and the B2F ladder at (17, 16):
+  1. Walk North to row 12 at (22, 12).
+  2. Walk West along row 12 past the wooden stairs at (21, 10..11) to (19, 12).
+  3. Break the smashable rock at (18, 12) using HM06 Rock Smash.
+  4. Continue West along row 12 to col 15, then South to row 16 to access the B2F entrance ladder at (17, 16).
