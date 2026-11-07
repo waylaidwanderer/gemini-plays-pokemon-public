@@ -172,5 +172,5 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Sits elevated above Samuel's lower terrace corridor at col 37.
 - Eastern Plateau Layout:
   - Bridge connects to landing at (40, 15).
-  - Northern Corridor: cols 41..42 extend North through rows 14..10 around the eastern cavern wall.
+  - Northern Edge: Terminated at (41..42, 13) by a solid cliff face; no northern passage.
   - Southern Corridor: cols 40..42 extend South through rows 16..21 toward staircase at (40, 24).
