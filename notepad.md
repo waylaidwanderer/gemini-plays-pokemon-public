@@ -4682,18 +4682,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - The Northeast boulder puzzle at cols 19-21, rows 3-6 leads only to Column 25.
 - Column 25 leads south past Cooltrainer Shannon (26, 16) to the staircase at (32, 19) and the eastern plateau / one-way ledge. It does NOT lead to the Lower Terrace at (17, 16).
 
-## 1F Verified Route to Southeast Ladder (41-42, 38-39)
-- Note: Row 39 is blocked at (19, 39) by a continuous vertical cliff wall, so Level 0 floor does not connect directly East across row 39.
-- Verified Route from Western Terrace Ladder (9, 14):
-  1. Descend south past Wally to (3, 25).
-  2. Cross western suspension bridge East to central platform at (13, 25).
-  3. Descend stairs to Level 0 floor at (13, 29).
-  4. Walk West along row 29 to col 7, then South down the col 6 canyon to row 39.
-  5. Step East to col 9 and climb the western bridge stairs (9, 36..34) onto the southern suspension bridge.
-  6. Cross southern suspension bridge East to (21, 34) on the Eastern Plateau.
-  7. Descend southern staircase at (21, 35..37) down to row 38.
-  8. Walk East past Cooltrainer Albert (27, 34) along row 35 across cols 28..40 to (40, 35).
-  9. Hop south down the one-way ledges to access item ball at (38..39, 40) and the descending ladder at (42, 39).
+## 1F Southeast Sector (Exit Area Only)
+- Southeast Ledges & Item: Visible from row 35 (cols 35-40) and south of Albert, but empirical testing (Turns 20607-20639) proved rows 35-37 are solid cliff drops that cannot be hopped down, and col 28 at rows 38-39 is blocked by cliffs.
+- The ladder at (42, 39) and Poké Ball at (38, 40) are an exit from B1F/B2F, NOT an accessible entrance from 1F. Cease attempting to enter this sector from 1F.
 
 ## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
 - Southern Suspension Bridge (Row 15):
@@ -4798,7 +4789,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Nugget x1
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
-- Max Repel x1 (1 used Turn 20401, 1 used Turn 20576, 250 active repel steps; 1 remaining in Bag)
+- Max Repel x0 (1 used Turn 20401, 1 used Turn 20631, ~240 active repel steps remaining; 0 in Bag)
 - Money: ¥31,430 (earned ¥2,160 from Cooltrainer Shannon)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
