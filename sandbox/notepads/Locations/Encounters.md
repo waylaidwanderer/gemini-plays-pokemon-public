@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip (M, Lv 15) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 in Birch's Lab and leveled to Lv 15 (`44 HP, 27 Atk, 22 Def, 22 Sp.Atk, 18 Sp.Def, 19 Speed`; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 14) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 14 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
+| Littleroot Town | Luvdisc (F, Lv 15) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 15 (`1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12; learns `Ice Beam` Lv 16) |
 | Route 103 | Ekans (M, Lv 15) | APOPHIS | Active | Caught at `(14, 15)`; `Poison`; **`Intimidate`**; raised to Lv 15 (`38 HP, 22 Atk, 19 Def, 22 Sp.Atk, 25 Sp.Def, 24 Speed`; `1: Wrap`, `2: Pursuit`, `3: Acid` [spread] Lv 8, `4: Bite` Lv 13) |
 | Route 102 | Spinarak (F, Lv 12) | ARACHNE | Active | Caught at `(38, 5)`; `Bug/Poison`; raised to Lv 12 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`) |
 | Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; `Thick Fat` (`0.5x` Fire/Ice); raised to Lv 15 (`43 HP, 14 Atk, 19 Def, 14 Sp.Atk, 18 Sp.Def, 12 Speed`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
