@@ -169,6 +169,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Southern Suspension Bridge (Row 34):
   - Spans cols 10..20 at row 34 East across central chasm, landing on the eastern plateau at (21, 34).
 - Eastern Landing Structure at (21, 34):
-  - Directly North along col 21: cave ladder hole at (21, 30).
-  - Above ladder hole along col 21: wooden staircase at (21, 26..27) ascending to northern tier and northern suspension bridge (row 17).
-  - Directly South along col 21: wooden staircase descending to Cooltrainer Albert's eastern terrace at (27, 36).
+  - Row 33 directly North is an impassable elevated cliff face; ladder at (21, 30) sits in a sunken pit and is an exit-only one-way return from B1F.
+  - Wooden staircase at (21, 35) descends South to the lower eastern terrace (Albert's area at 27, 36).
+  - Progression route to northern suspension bridge (row 17): Descend southern stairs to row 36/37, walk East past Albert (27, 36), and follow the eastern corridor straight North to the northern staircase.
