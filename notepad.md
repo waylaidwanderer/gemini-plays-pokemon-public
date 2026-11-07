@@ -4712,6 +4712,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Wooden suspension bridge spans horizontally at rows 26..27.
 - Trainer sighted at (34, 20) facing South.
 - Open corridor at cols 30..32 leads North toward row 17 suspension bridge.
+## 1F Eastern Highway & Tiered Plateau (Discovered Turn 20257-20258)
+- Reached via row 35 east from Albert's terrace to Column 34, then north to (34, 34).
+- Wooden staircase directly North at cols 33..34 (rows 31..33) ascends onto the elevated eastern plateau.
+- A second staircase visible at the north edge ascends further north toward row 17.
+- An item Poké Ball is visible on the southeastern terrace.
 
 <hr>
 
