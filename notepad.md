@@ -4,12 +4,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | MLCMIH | Active | Chosen from Birch's Bag on Route 101; Lv 15 (`671 EXP` remaining before Lv 16; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 15) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; Lv 15 (`34 EXP` to Lv 16 — do not use in battle until Lv 16 in Rustboro!; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12) |
-| Route 103 | Skitty (M, Lv 15) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; held wild **`Moon Stone`** (swapped for `Oran Berry` and used on `HERA` in Turn 4789); Lv 15 (`83 EXP` to Lv 16 — do not use in battle until Lv 16 in Rustboro!; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
-| Route 102 | Electrike (F, Lv 16) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; Lv 16 (`285 EXP` buffer remaining before Lv 17; `1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
-| Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; Lv 15 (`44/44 HP`, `BRN`, `149 EXP` to Lv 16 + `585 EXP` buffer at Lv 16; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Nidoqueen (F, Lv 16) | HERA | Active | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16 (`70 EXP` buffer remaining before Lv 17 after Eevee split — use 3-way EXP pivot on Red's #2!; `1: Poison Sting`, `2: Crunch` [80 BP Special Dark], `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
+| Starter (Route 101) | Mudkip (M, Lv 15) | MLCMIH | Active | Chosen from Birch's Bag on Route 101; Lv 15 (`546 EXP` remaining before Lv 16 — Rare Candy to Lv 16 `Marshtomp` with `0 / 1,021 EXP` buffer!; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
+| Littleroot Town | Luvdisc (F, Lv 16) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; Lv 16 (`624 EXP` buffer remaining before Lv 17; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12, `4: Ice Beam` Lv 16) |
+| Route 103 | Skitty (M, Lv 16) | APOLLO | Active | Caught at `(16, 12)`; `Normal`; held wild **`Moon Stone`** (swapped for `Oran Berry` and used on `HERA` in Turn 4789); Lv 16 (`574 EXP` buffer remaining before Lv 17; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7) |
+| Route 102 | Electrike (F, Lv 16) | ELECTRA | Active | Caught at `(39, 6)`; `Electric`; Lv 16 (`246 EXP` buffer remaining before Lv 17; `1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12) |
+| Petalburg City | Azurill (F, Lv 15) | GALATEA | Active | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; Lv 15 (`49 EXP` to Lv 16 — Rare Candy to Lv 16 with `0 / 585 EXP` buffer!; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
+| Route 104 | Nidoqueen (F, Lv 16) | HERA | Active | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16 (`31 EXP` buffer remaining before Lv 17 — keep in PC/back row during Gym trainers and save for Roxanne's `#3 Lileep`!; `1: Poison Sting`, `2: Crunch` [80 BP Special Dark], `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Cascoon (F, Lv 8) | MOTHRA | Active (Box) | Caught at `(12, 33)`; `Bug`; evolves to `Dustox` (`Bug/Poison`, `Shield Dust`) at Lv 10 |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
