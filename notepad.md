@@ -4707,6 +4707,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 33 directly North is an impassable elevated cliff face; ladder at (21, 30) sits in a sunken pit and is an exit-only one-way return from B1F.
   - Wooden staircase at (21, 35) descends South to the lower eastern terrace (Albert's area at 27, 36).
   - Progression route to northern suspension bridge (row 17): Descend southern stairs to row 36/37, walk East past Albert (27, 36), and follow the eastern corridor straight North to the northern staircase.
+## 1F Upper Eastern Tier & Northern Bridge Approach (Turn 20253-20254)
+- Reached via eastern corridor north from Albert (27, 36) at (28, 24).
+- Wooden suspension bridge spans horizontally at rows 26..27.
+- Trainer sighted at (34, 20) facing South.
+- Open corridor at cols 30..32 leads North toward row 17 suspension bridge.
 
 <hr>
 
