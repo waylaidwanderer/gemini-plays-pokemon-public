@@ -4682,13 +4682,18 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - The Northeast boulder puzzle at cols 19-21, rows 3-6 leads only to Column 25.
 - Column 25 leads south past Cooltrainer Shannon (26, 16) to the staircase at (32, 19) and the eastern plateau / one-way ledge. It does NOT lead to the Lower Terrace at (17, 16).
 
-## 1F Level 0 Ground Route to Southeast Ladder (41-42, 38-39)
-- From 1F western terrace ladder at (9, 14):
+## 1F Verified Route to Southeast Ladder (41-42, 38-39)
+- Note: Row 39 is blocked at (19, 39) by a continuous vertical cliff wall, so Level 0 floor does not connect directly East across row 39.
+- Verified Route from Western Terrace Ladder (9, 14):
   1. Descend south past Wally to (3, 25).
-  2. Cross the western suspension bridge east to central platform at (13, 25).
-  3. Descend central stairs to Level 0 floor at (13, 29).
-  4. Follow rows 38-40 directly East across the cavern floor to column 42, completely bypassing all overhead suspension bridges.
-  5. Arrive at the unexplored descending ladder at (41-42, 38-39).
+  2. Cross western suspension bridge East to central platform at (13, 25).
+  3. Descend stairs to Level 0 floor at (13, 29).
+  4. Walk West along row 29 to col 7, then South down the col 6 canyon to row 39.
+  5. Step East to col 9 and climb the western bridge stairs (9, 36..34) onto the southern suspension bridge.
+  6. Cross southern suspension bridge East to (21, 34) on the Eastern Plateau.
+  7. Descend southern staircase at (21, 35..37) down to row 38.
+  8. Walk East past Cooltrainer Albert (27, 34) along row 35 across cols 28..40 to (40, 35).
+  9. Hop south down the one-way ledges to access item ball at (38..39, 40) and the descending ladder at (42, 39).
 
 ## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
 - Southern Suspension Bridge (Row 15):
