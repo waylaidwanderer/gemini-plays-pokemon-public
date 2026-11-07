@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #26)
+# Nuzlocke Encounters (Attempt #27)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp (M, Lv 16) | MLCMIH | Active | Chosen from Birch's Bag on Route 101; evolved to `Marshtomp` at Lv 16 (`861 / 1,021 EXP` -> `160 EXP` buffer remaining, levels to Lv 17 on Roxanne's `#1 Nosepass`!; `50 HP`, `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 17) | PSYCHE | Deceased | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; reached Lv 17 (`43 HP, 37 Speed`) on Roxanne's `Anorith`, outsped and confused `Lunatone` with `Water Pulse`, and fainted to `Lunatone` in Turn 4985 |
-| Route 103 | Skitty (M, Lv 16) | APOLLO | Deceased | Caught at `(16, 12)`; `Normal`; held wild **`Moon Stone`** (swapped for `Oran Berry` and used on `HERA` in Turn 4789); Lv 16 (`44 HP`; `1: Fake Out` Lv 15, `2: Attract`, `3: Sing`, `4: Secret Power` Lv 7); fainted to Roxanne's `Lunatone` (`Confusion`) in Turn 4987 |
-| Route 102 | Electrike (F, Lv 16) | ELECTRA | Deceased | Caught at `(39, 6)`; `Electric`; Lv 16 (`39 HP`; `1: ThunderShock`, `2: Thunder Wave`, `3: Quick Attack` Lv 9, `4: Bite` Lv 12); fainted to Hiker Marc's `Kabuto` (`2x` `Mud Shot`) in Turn 4947 |
-| Petalburg City | Azurill (F, Lv 16) | GALATEA | Deceased | Fished at `(11, 22)` with `Old Rod`; **`Huge Power`**; Lv 16 (`46 HP, 15 Atk [30 w/ Huge Power], 20 Def`; `1: Water Gun`, `2: Body Slam` Lv 15, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10); fainted to Hiker Marc's `Onix` (`Selfdestruct`) in Turn 4942 |
-| Route 104 | Nidoqueen (F, Lv 17) | HERA | Deceased | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16; reached Lv 17 (`59 HP, 34 Atk, 37 Def, 35 Sp.Atk, 34 Sp.Def, 30 Speed`) on Roxanne's `Anorith`, defeated `Lileep` and `Relicanth`, and fainted to `Lunatone` (`Confusion`, which outsped `30 Speed`) in Turn 4983 |
-| Petalburg Woods | Dustox (F, Lv 17) | MOTHRA | Retired (Box) | Caught at `(12, 33)`; evolved from `Cascoon` at Lv 10 (`Bug/Poison`, `Shield Dust`, `Fast` [`653 EXP`] group at Lv 16); reached Lv 17 (`49 HP`) on Hiker Marc's `Cacnea` (`benched until Roxanne is defeated`; `1: Poison Sting`, `2: Harden`, `3: Psybeam` Lv 10, `4: Silver Wind` Lv 16) |
-| Route 116 | Yanma (F, Lv 16) | NIKE | Deceased | Caught at `(4, 13)`; `Bug/Flying`; **`Speed Boost`**; Lv 16 (`50 HP, 34 Sp.Atk, 37 Speed`; `1: Silver Wind`, `2: Foresight`, `3: Quick Attack`, `4: SonicBoom` [20 fixed damage] Lv 13); fainted to Hiker Marc's `Onix` (`4x` `Rock Tomb`) in Turn 4935 |
-| Route 115 | Kabuto (M, Lv 17) | TRITON | Deceased | Fished at `(7, 71)` with `Old Rod`; `Rock/Water`; reached Lv 17 (`37 HP, 42 Def, 28 Speed`) on Roxanne's `Nosepass` and fainted to `Lunatone` (`Confusion`) in Turn 4986 |
+| Starter (Route 101) | — | — | Pending | Choose `Mudkip` from Birch's Bag on Route 101 |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Route 116 | — | — | Pending | Tall grass at `(4, 13..15)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
