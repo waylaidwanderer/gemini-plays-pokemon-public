@@ -138,16 +138,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 8 terminates on the west at (19, 8) against a cliff at x=18.
   - To reach Column 15, descend the wooden staircase at (21, 10..12) down to row 12, then ride West past the smashed rock at (18, 12) to (15, 12).
 
-## B1F Northeast Puzzle: Verified Definitive Solution
-- Starting Layout (after B1F entry/reset):
-  - Rock 1 at (19, 5), Boulder 1 at (20, 5).
-  - Rock 2 at (20, 4), Boulder 2 at (21, 4).
-- Definitive Execution Steps:
-  1. Shatter Rock 1 at (19, 5) with Rock Smash. [Done Turn 20381]
-  2. Walk to (19, 4) and shatter Rock 2 at (20, 4) with Rock Smash. [Done Turn 20384]
-  3. Stand at (20, 4) facing South. Activate Strength with Cobalu and push Boulder 1 South into the (20, 6) alcove.
-  4. Step Down onto (20, 5), then East onto (21, 5) directly below Boulder 2 at (21, 4).
-  5. Face North and push Boulder 2 North into the (21, 3) alcove. (NEVER push Boulder 2 East along row 4 into the corner!).
-  6. Row 4 is now completely open! Walk East along row 4 (cols 22-25) to Column 25.
-  7. At Column 25, walk straight SOUTH past row 15 down to rows 17-18 (NEVER step West at row 15 over the jump ledge!).
-  8. From rows 17-18, follow the open lower floor West to the Lower Terrace and enter the B2F ladder at (17, 16).
+## B1F Northeast Puzzle & Column 25 Topography (Verified Turn 20431)
+- Starting Layout:
+  - Rocks at (19, 5) and (20, 4) shattered with Rock Smash.
+  - Boulders are at (21, 4) and (21, 5).
+  - (20, 5) and (20, 6) are open walkable cave floor.
+  - (21, 5) boulder cannot be pushed East (cliff wall) or South (cliff edge).
+- Solved Progression Route:
+  1. Push boulder at (21, 4) East along row 4 through (22, 4), (23, 4) to (24, 4) / (25, 4).
+  2. Follow along row 4 to Column 25 at x=25.
+  3. Walk straight South down Column 25 past row 15 to rows 17-18.
+  4. From rows 17-18, follow open lower floor West to Lower Terrace and B2F ladder at (17, 16).
