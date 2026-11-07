@@ -4698,8 +4698,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   5. Step onto (20, 5), then step East onto (21, 5) directly below Boulder 2 at (21, 4).
   6. Face North and push Boulder 2 NORTH from (21, 4) into the (21, 3) alcove!
   7. Row 4 is now completely open from col 20 to col 25!
-  8. Walk East along row 4 to (25, 4), then turn South down Column 25 to rows 17-18.
-  9. Walk West along rows 17-18 to Lower Terrace and enter B2F ladder at (17, 16).
+  8. Walk East along row 4 to (25, 4), then turn South down Column 25 past Shannon at (26, 16) to staircase at (32, 19). (Note: Column 25 does NOT connect west to Lower Terrace, which is blocked by continuous cliffs).
 
 ## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
 - Southern Suspension Bridge (Row 15):
@@ -4712,11 +4711,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## B1F Vertical Ledge & Lower Terrace Access (Verified Turns 20528-20539)
 - Vertical Ledge at Col 24: This one-way ledge hops WEST (from East to West). You cannot hop it from the west. Hopping west over it lands at (23, 14..15).
-- From (22..23, 14..15): The south edge at row 15 is a cliff drop down to the Lower Terrace floor. To reach the Lower Terrace and the B2F ladder at (17, 16):
-  1. Walk North to row 12 at (22, 12).
-  2. Walk West along row 12 past the wooden stairs at (21, 10..11) to (19, 12).
-  3. Break the smashable rock at (18, 12) using HM06 Rock Smash.
-  4. Continue West along row 12 to col 15, then South to row 16 to access the B2F entrance ladder at (17, 16).
+- From (22..23, 14..15): The south edge at row 15 is a continuous cliff wall overlooking the Lower Terrace floor.
+- Row 13/14 Topography: Proven continuous solid cliff wall overlooking row 16 from col 9 through col 15. There is NO jump ledge or southern path from row 12/13 down to the Lower Terrace at (17, 16).
+- The Lower Terrace and ladder at (17, 16) cannot be entered from B1F Northwest, Row 12/13, or Column 25.
 
 <hr>
 
