@@ -12,7 +12,7 @@
 | Route 104 | Nidoqueen (F, Lv 16) | HERA | Active | Caught at `(24, 61)`; `Ground/Poison`; `Poison Point`; evolved to `Nidorina` -> `Nidoqueen` (`Moon Stone`) at Lv 16 (`31 EXP` buffer remaining before Lv 17 — keep in PC/back row during Gym trainers and save for Roxanne's `#3 Lileep`!; `1: Poison Sting`, `2: Crunch` [80 BP Special Dark], `3: Bite` Lv 8, `4: Double Kick` Lv 12) |
 | Petalburg Woods | Cascoon (F, Lv 8) | MOTHRA | Active (Box) | Caught at `(12, 33)`; `Bug`; evolves to `Dustox` (`Bug/Poison`, `Shield Dust`) at Lv 10 |
 | Route 116 | Yanma (F, Lv 9) | NIKE | Active (Box) | Caught at `(4, 13)`; `Bug/Flying`; **`Speed Boost`** (`49 HP, 34 Sp.Atk, 37 Speed` at Lv 16; learns `SonicBoom` [20 fixed damage] at Lv 13; immune to Ground!) |
-| Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
+| Route 115 | Kabuto (M, Lv 9) | TRITON | Active (Box) | Fished at `(7, 71)` with `Old Rod`; `Rock/Water`; `817 EXP` buffer at Lv 16; learns `Mega Drain` at Lv 13; `0.5x` resists `Nosepass`'s `Selfdestruct`! |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#24)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
