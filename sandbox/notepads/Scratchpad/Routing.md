@@ -88,7 +88,7 @@
     - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
 - **Trainers & Bridge Path**:
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`):
-    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Sunny Day`, `Pay Day`, `Metronome`, `Toxic`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, `Bite`, holds `Oran Berry`).
+    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Sunny Day`, `Pay Day`, `Metronome`, `Toxic`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, `Bite`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Thunder Wave`, `ThunderShock`, `Bite`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` F (Lv 9, `Sing`, `Assist` [calls `PoisonPowder` and `Confuse Ray` from her teammates!], `Attract`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` F (Lv 9, `19+ Speed` [outspeeds Lv 14 Mudkip at 17 Speed!], `Confuse Ray`, `Ember`, `Disable`, `Bite` [30% flinch], `Quick Attack`).
