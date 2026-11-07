@@ -4701,6 +4701,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   8. Walk East along row 4 to (25, 4), then turn South down Column 25 to rows 17-18.
   9. Walk West along rows 17-18 to Lower Terrace and enter B2F ladder at (17, 16).
 
+## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
+- Southern Suspension Bridge (Row 15):
+  - Spans cols 34..39 at row 15 East across the chasm from (32, 16) staircase landing to (40, 15) eastern plateau.
+  - Sits elevated above Samuel's lower terrace corridor at col 37.
+- Eastern Plateau Layout:
+  - Bridge connects to landing at (40, 15).
+  - Northern Corridor: cols 41..42 extend North through rows 14..10 around the eastern cavern wall.
+  - Southern Corridor: cols 40..42 extend South through rows 16..21 toward staircase at (40, 24).
+
 
 <hr>
 
