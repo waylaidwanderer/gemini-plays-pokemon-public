@@ -74,6 +74,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 - 1F Level 0 Southeast Ladder & Poké Ball: Located at cols 41-42, rows 38-39 (discovered turn 20285).
 
+- Cooltrainer ♂ Shannon: Defeated at (26, 16) on B1F Column 26 (Claydol Lv 45). Prize: ¥2,160.
 ## Trainers Defeated - Victory Road 1F
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
