@@ -74,12 +74,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 - 1F Level 0 Southeast Ladder & Poké Ball: Located at cols 41-42, rows 38-39 (discovered turn 20285).
 
+## Trainers Defeated - Victory Road B1F
+- Cooltrainer ♂ Samuel: Defeated at (35, 12) on B1F eastern terrace (Swellow Lv 42, Mawile Lv 42, Kadabra Lv 42). Prize: ¥2,016. Sage leveled to 61!
 - Cooltrainer ♂ Shannon: Defeated at (26, 16) on B1F Column 26 (Claydol Lv 45). Prize: ¥2,160.
+
 ## Trainers Defeated - Victory Road 1F
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
 - Cooltrainer ♂ Albert: Defeated at (27, 36) on 1F eastern plateau (Magneton Lv 43, Muk Lv 43). Prize: ¥2,064.
-- Cooltrainer ♂ Samuel: Defeated at (35, 12) on B1F eastern terrace (Swellow Lv 42, Mawile Lv 42, Kadabra Lv 42). Prize: ¥2,016. Sage leveled to 61!
 
 ## 1F Northern Bridges & Eastern Plateau Layout
 - Northern Suspension Bridges: From northern staircase at (16, 21), suspension bridge spans cols 18..37 at row 17 across the central chasm to northeastern plateau at (38..39, 17).
@@ -126,7 +128,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Southern Cavern Highway (rows 22..26):
   - Column 37 extends south from (37, 17) to row 24.
   - Rock mound occupies rows 23..24 at cols 30..35.
-  - Row 26 is an open horizontal highway running West beneath the rock mound across cols 30..36, directly above double jump ledges at rows 27..28, heading toward the western lower terrace and B2F ladder.
+  - Row 26 is an open horizontal highway running West beneath the rock mound across cols 30..36.
 
 
 - Southern Highway & Acro Rails (Verified Turns 20101-20112):
