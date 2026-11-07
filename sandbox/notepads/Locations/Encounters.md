@@ -8,7 +8,7 @@
 | Route 102 | Meowth | FORTUNA | Active (Lv 14) | Caught at `(39, 5)`; knows Pay Day, Faint Attack (60 BP Dark), Swift (Lv 12) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at `(11, 22)` with `Old Rod`; knows Body Slam (85 BP), Charm, Secret Power, BubbleBeam |
 | Route 104 | Snubbull | HERA | Active (Lv 15) | Caught at `(23, 60)`; knows Headbutt (70 BP STAB), Bite (60 BP Dark), Lick, Roar |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Petalburg Woods | Bellsprout | SILVANUS | Active (Lv 8, Box 1) | Caught at `(7, 31)`; Chlorophyll; sent to Box 1 (`evolves into Weepinbell at Lv 16, compatible with TM09 Bullet Seed`) |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
