@@ -4726,7 +4726,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Staircase (16, 21..22):
   - Ascends North from (16, 23) to landing at (16, 17).
   - North of landing (cols 16-17, rows 13-16): Terminating cul-de-sac bounded by row 12 cliff face and col 19 cliff wall.
-  - From (16, 17), the main path heads East across the northern suspension bridge along row 17.
+  - Northern suspension bridge along row 17 spans from (18, 17) to (38, 17).
+  - Northeastern plateau at (38..39, 17) has NO northern exit or pathway to Pokémon League HQ (verified Turn 20278-20279). It connects solely to the wooden staircase at (39, 18) descending to the one-way Max Elixir shelf at rows 24-26.
+  - This confirms 100% that progression to the Pokémon League HQ must pass through B1F and B2F (using Surf and Waterfall).
 
 <hr>
 
