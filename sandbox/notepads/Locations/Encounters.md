@@ -2,15 +2,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip (M, Lv 15) | MUDKIP | Active | Chosen from Birch's Bag on Route 101; raised to Lv 14 in Birch's Lab and leveled to Lv 15 (`44 HP, 27 Atk, 22 Def, 22 Sp.Atk, 18 Sp.Def, 19 Speed`; `1: Tackle`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`) |
-| Littleroot Town | Luvdisc (F, Lv 15) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 15 (`40 HP, 15 Atk, 26 Def, 23 Sp.Atk, 27 Sp.Def, 32 Speed`; `1: Secret Power`, `2: Charm`, `3: Water Pulse` Lv 12; learns `Ice Beam` Lv 16) |
-| Route 103 | Ekans (M, Lv 16) | APOPHIS | Active | Caught at `(14, 15)`; `Poison`; **`Intimidate`**; raised to Lv 15 and leveled to Lv 16 (`40 HP, 23 Atk, 20 Def, 23 Sp.Atk, 26 Sp.Def, 25 Speed`; `1: Wrap`, `2: Pursuit`, `3: Acid` [spread] Lv 8, `4: Bite` Lv 13) |
-| Route 102 | Spinarak (F, Lv 12) | ARACHNE | Boxed (`BOX 1`) | Caught at `(38, 5)`; `Bug/Poison`; raised to Lv 12 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`); deposited in `BOX 1` at Rustboro PC |
+| Starter (Route 101) | Mudkip -> Marshtomp (M, Lv 16) | MARSHTOMP | Active | Chosen from Birch's Bag on Route 101; evolved at Lv 16 (`51 HP, 34 Atk, 29 Def, 27 Sp.Atk, 24 Sp.Def, 25 Speed`; `1,021 EXP` buffer; `1: Tackle`, `2: Bubble`, `3: Mud Shot` Lv 16, `4: Water Gun`) |
+| Littleroot Town | Luvdisc (F, Lv 16) | PSYCHE | Active | Fished at `(17, 13)` with `Old Rod`; `Swift Swim`; raised to Lv 16 (`42 HP, 16 Atk, 27 Def, 24 Sp.Atk, 28 Sp.Def, 35 Speed`; `653 EXP` buffer; `1: Secret Power`, `2: Charm`, `3: Water Pulse`, `4: Ice Beam` Lv 16) |
+| Route 103 | Ekans (M, Lv 16) | APOPHIS | Active | Caught at `(14, 15)`; `Poison`; **`Intimidate`**; `MODEST` (`40 HP, 23 Atk, 20 Def, 23 Sp.Atk, 26 Sp.Def, 25 Speed`; `714 EXP` remaining to Lv 17; `1: Wrap`, `2: Pursuit`, `3: Acid` [spread] Lv 8, `4: Bite` Lv 13) |
+| Route 102 | Spinarak (F, Lv 12) | ARACHNE | Boxed (`BOX 1` `(1, 0)`) | Caught at `(38, 5)`; `Bug/Poison`; raised to Lv 12 (`1: Toxic`, `2: Leech Life`, `3: Mega Drain`, `4: Pursuit`); deposited in `BOX 1` at Rustboro PC |
 | Petalburg City | Azurill (F, Lv 16) | GALATEA | Boxed (`BOX 1` `(3, 0)`) | Fished at `(11, 22)` with `Old Rod`; `Thick Fat` (`0.5x` Fire/Ice); raised to Lv 15 and leveled to Lv 16 (`45 HP, 14 Atk, 20 Def, 14 Sp.Atk, 19 Sp.Def, 13 Speed`; `1: Body Slam` Lv 15, `2: Charm`, `3: Secret Power` Lv 6, `4: BubbleBeam` Lv 10) |
-| Route 104 | Seedot -> Nuzleaf (M, Lv 16) | SYLVAN | Active | Caught at `(23, 61)`; `Grass/Dark`; **`Early Bird`**; raised to Lv 14 and leveled to Lv 16 (`50 HP, 29 Atk, 21 Def, 24 Sp.Atk, 20 Sp.Def, 27 Speed`; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit Physical], `4: Nature Power` Lv 13) |
-| Petalburg Woods | Oddish (M, Lv 8) | DIONYSUS | Active | Caught at `(21, 34)`; `Grass/Poison`; withdrawn at Rustboro PC to evolve into `Gloom` at Lv 16 with `3: Toxic` and `4: Magical Leaf` |
+| Route 104 | Seedot -> Nuzleaf (M, Lv 16) | SYLVAN | Active | Caught at `(23, 61)`; `Grass/Dark`; **`Early Bird`** (`50 HP, 29 Atk, 21 Def, 24 Sp.Atk, 20 Sp.Def, 27 Speed`; `347 EXP` remaining to Lv 17; `1: Mega Drain`, `2: Bide`, `3: Bullet Seed` [25 BP/hit], `4: Nature Power` Lv 13) |
+| Petalburg Woods | Oddish -> Gloom (M, Lv 16) | DIONYSUS | Active | Caught at `(21, 34)`; `Grass/Poison`; evolved at Lv 16 (`585 EXP` buffer; `1: Mega Drain`, `2: Acid`, `3: Toxic` Lv 14, `4: Magical Leaf` Lv 16) |
 | Route 116 | Natu (M, Lv 9) | APOLLO | Boxed (`BOX 1` `(4, 0)`) | Caught at `(5, 14)`; `Psychic/Flying` (`4x` resists Fighting, `0x` immune to Ground, `0.5x` resists Grass) |
-| Route 115 | Omanyte (M, Lv 9) | POSEIDON | Active | Caught at `(7, 71)` facing `Left` with `Old Rod`; `Rock/Water` (`90 base Sp.Atk, 100 base Def`; `1: BubbleBeam`, `2: Rock Tomb`, learns `3: Aurora Beam` and `4: Mud Shot` at Lv 15) |
+| Route 115 | Omanyte (M, Lv 16) | POSEIDON | Active | Caught at `(7, 71)` facing `Left` with `Old Rod`; `Rock/Water`; raised to Lv 16 (`39 HP, 16 Atk, 40 Def, 39 Sp.Atk, 24 Sp.Def, 17 Speed`; `1: BubbleBeam`, `2: Rock Tomb`, `3: Aurora Beam` Lv 15, `4: Mud Shot` Lv 15) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#27)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
