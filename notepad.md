@@ -4733,6 +4733,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western Suspension Bridge (Row 26): Spans from Central Platform at (13, 26) across cols 3..12 to Western Terrace at (3, 26).
 - Central Platform Access: Entered from Level 0 via the southern staircase at (13, 27..28).
 
+## Level 0 Navigation & Central Platform Access (Verified Turns 20860-20877)
+- From (16, 23), walking south down col 16 is blocked at (16, 24) by the Central Platform northeast cliff corner.
+- Col 17 provides a clear passage south through (17, 25..27).
+- At (17, 27), the west tile (16, 27) is the solid cliff wall of the Central Platform, and (17, 28) is a vertical cliff ridge separating the upper canyon from the lower canyon floor.
+- The Central Platform southern stairs at (13, 28) sit on the lower level.
+- Progression Route: Return north along col 17 to row 23 and advance east along the Level 0 Highway toward the Cooltrainer Terrace (cols 28-35, rows 20-25) and Northern Canyon.
 
 <hr>
 
