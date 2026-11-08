@@ -4724,6 +4724,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Cooltrainer Terrace (cols 28-35, rows 20-25): Wide open terrace extending north. An undefeated Cooltrainer (blond hair, red suit) is stationed at (33, 20) facing South.
 - Northern Canyon Beyond: The terrace connects north beneath the overhead northern suspension bridge (row 17) where two additional undefeated trainers (brown-haired trainer at col 29, yellow-capped trainer at col 33) and the deeper cave progression are located.
 
+## 1F Middle Bridge & Exit Chute Topography (Discovered Turns 20720-20750)
+- Middle Suspension Bridge (rows 27-28): Spans between col 24 (west) and col 34 (east).
+- West Access: Wooden staircase at col 21 (rows 27..30) ascends North from row 31 on Eastern Plateau (directly north of B1F ladder 21, 32).
+- East Landing & Chute: Terrace at cols 31..36 (rows 29..32) terminates at a one-way jump ledge at row 33 hopping South to row 34. The wooden staircase at cols 31..32 is a one-way exit chute descending from the northern terrace onto the Eastern Plateau.
+- Dungeon Routing: Victory Road progression requires descending to B1F to reach the B2F subterranean lake system via the B2F entrance ladder at (17, 16).
+
 
 <hr>
 
