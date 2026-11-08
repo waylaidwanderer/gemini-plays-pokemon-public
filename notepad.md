@@ -4698,8 +4698,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## B1F Vertical Ledge & Lower Terrace Access (Verified Turns 20528-20539)
 - Vertical Ledge at Col 24: This one-way ledge hops WEST (from East to West). You cannot hop it from the west. Hopping west over it lands at (23, 14..15).
 - From (22..23, 14..15): The south edge at row 15 is a continuous cliff wall overlooking the Lower Terrace floor.
-- Row 13/14 Topography: Proven continuous solid cliff wall overlooking row 16 from col 9 through col 15. There is NO jump ledge or southern path from row 12/13 down to the Lower Terrace at (17, 16).
-- The Lower Terrace and ladder at (17, 16) cannot be entered from B1F Northwest, Row 12/13, or Column 25.
+- B1F Column 9 Chute & Row 14 Ledge (Turn 20026 / Re-evaluated Turn 20821):
+  - Column 9 serves as the cleared chute from the Northwest boulder puzzle down to (9, 13).
+  - Row 14 at (9, 14) is a one-way jump ledge hopping South.
+  - Stepping South over the row 14 ledge at (9, 13) while facing South accesses the Lower Terrace (cols 14..17, row 16) and the B2F entrance ladder at (17, 16)!
 ## 1F Upper Northern Plateau & Suspension Bridge (Verified Turns 20648-20653)
 - Northern Staircase at (16, 21..17): Ascends north onto row 17.
 - Corridor at rows 13-14 (cols 9-16): Connects Hope's western terrace / ladder (8, 13) directly East to the top of the northern staircase at (16, 17).
@@ -4713,11 +4715,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 27 in this corridor is a one-way ledge hopping South onto the lower eastern plateau near Albert (27, 36) and the B1F return ladder (21, 32).
 
 ## 1F Level 0 Northern Canyon & Cooltrainer Terrace (Discovered Turns 20683-20690)
-- Empirical Collision Details (Turns 20686-20700):
-  - (24, 23) is an impassable cliff corner.
-  - (29, 23) is a cliff wall blocking northward movement.
-  - (30, 24) is a cliff wall blocking eastward movement.
-  - The walkable Level 0 corridor between (16, 23) and (28, 24) runs strictly along row 24.
 - Northern Staircase: Descends south from (16, 17) to Level 0 floor at (16, 22..23).
 - Level 0 Highway: Wide open sandy canyon floor runs East from (16, 23) through (24, 24) to (28, 24).
 - Middle Suspension Bridge: Elevated bridge spans horizontally across rows 27-28 between col 24 and col 31; the Level 0 highway passes immediately north of it.
