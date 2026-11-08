@@ -10,7 +10,7 @@
 | Route 104 | Snubbull | HERA | Active (Lv 15) | Caught at `(23, 60)`; knows Headbutt (70 BP STAB), Bite (60 BP Dark), Lick, Roar |
 | Petalburg Woods | Bellsprout | SILVANUS | Active (Lv 15) | Caught at `(7, 31)`; Chlorophyll; `31 Sp.Atk`; knows Vine Whip, Acid (spread), Toxic, Bullet Seed (TM09) |
 | Route 116 | Makuhita | HERCULES | Active (Lv 9) | Caught at `(6, 15)`; knows Faint Attack, SmellingSalt, Sand-Attack |
-| Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
+| Route 115 | Kabuto | TRITON | Active (Lv 9) | Caught at `(7, 71)` with `Old Rod`; knows Rock Tomb, Water Pulse |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#27)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
