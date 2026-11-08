@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Active (Lv 13) | Caught at Lv 5 at `(18, 11)` facing `Down` with `Old Rod`; knows BubbleBeam, Psybeam, Haze, Supersonic |
 | Route 103 | Wingull | ZEPHYR | Active (Lv 15) | Caught at Lv 4 in tall grass at `(16, 11)`; knows Wing Attack, Water Gun, Quick Attack, BubbleBeam |
-| Route 102 | Gulpin | CIRCE | Active (Lv 14) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
+| Route 102 | Gulpin | CIRCE | Active (Lv 15) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Natu | PYTHIA | Active (Lv 15) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
@@ -209,7 +209,7 @@
 - **Beach Staircase**: Located at `(28..29, 70)` (note: a signpost stands at `(27, 66)` and the cliff ridge blocks `(22..24, 62)` and `(28, 63)`, so when routing from the `(22..24, 56..61)` grass patch to the beach stairs, walk east along `y=61` or `y=62` via `(23, 61) -> Right x5 to (28, 61) -> Down x10 to (28, 71)`; northern beach stairs at `(16..17, 55)`).
 - **Trainers & NPCs**:
   - **Friendly Boy** at `(28, 74)` on the shoreline.
-  - **Bird Keeper Billy** at `(23, 66)` facing `Left` (3 Pokemon: `Pidgey` Lv 7 [`Quick Attack`, holds `Berry Juice`], `Wingull` Lv 7 [`Supersonic`, `Water Gun`, `Gust`], `Taillow` Lv 7 [`Swagger`, `Quick Attack`]).
+  - **Bird Keeper Billy** at `(23, 66)` facing `Left` across `(17..22, 66)` (6-tile line of sight; 3 Pokemon: `Pidgey` Lv 7 [`Quick Attack`, holds `Berry Juice`], `Wingull` Lv 7 [`Supersonic`, `Water Gun`, `Gust`], `Taillow` Lv 7 [`Swagger`, `Quick Attack`]).
   - **Friendly Fisherman** at `(15, 60)` facing `Right`.
   - **Fisherman Darian** at `(15, 59)` facing `Right` (mandatory trainer; 4 Pokemon: `Magikarp` Lv 9 [`Bounce`], `Feebas` Lv 8 [`Water Pulse`, `Hypnosis`, `Icy Wind`, `Facade`, holds `Sitrus Berry`], `Goldeen` Lv 7 [`Swift Swim`; `Rain Dance`, `Peck`, `Horn Attack`, `Dive`, `Aerial Ace`], `Luvdisc` F Lv 7 [`Swift Swim`; `Attract`, `Sweet Kiss`, `Dive`, `Toxic`]).
 - **Mr. Briney's Cottage & Northern Berry Patch**:
