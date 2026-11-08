@@ -9,7 +9,7 @@
 | Route 103 | Wingull | ZEPHYR | Active (Lv 15) | Caught at Lv 4 in tall grass at `(16, 11)`; knows Wing Attack, Water Gun, Quick Attack, BubbleBeam |
 | Route 102 | Gulpin | CIRCE | Active (Lv 14) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
-| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 104 | Natu | PYTHIA | Active (Lv 14) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
