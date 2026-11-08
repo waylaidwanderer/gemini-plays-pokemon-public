@@ -218,8 +218,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Boulder 1 pushed East into (10, 10) alcove from (8, 10), clearing Column 9 completely.
 - Row 14 below (9, 13) is a solid cliff edge overlooking the Lower Terrace (Cooltrainer at 14, 16 visible below).
 - From (9, 13), the confirmed forward progression route runs East along row 13 through cols 10..16+ toward the eastern chambers.
-## Eastern Corridor to Lower Terrace & B2F Ladder Route (Turn 21023)
+## Working Hypothesis: Eastern Corridor to Lower Terrace & B2F Ladder (Turn 21023)
 - From (32, 12), row 7 to the north is an impassable south-facing jump ledge.
-- The forward progression route runs East along row 12 past Samuel (35, 12) to Col 37.
-- Col 37 leads South under the overhead suspension bridge (rows 15-16) to row 19.
-- At row 19, head West to the staircase at (32, 19), ascend onto row 16, and advance West past Shannon (26, 16) directly to the B2F entrance ladder at (17, 16).
+- Active Path Test: Head East past Samuel (37, 12) to Col 37, then South under the overhead suspension bridge (rows 15-16) to row 19.
+- Hypothesis: Test whether the staircase at (32, 19) or the southern corridor connects west toward Shannon (26, 16) and the Lower Terrace at (17, 16). (Note: if blocked by dead-ends/ledges, alternate route is Column 15 heading North from 15, 12).
