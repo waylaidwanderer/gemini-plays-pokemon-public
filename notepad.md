@@ -4678,9 +4678,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 8 terminates on the west at (19, 8) against a cliff at x=18.
   - To reach Column 15, descend the wooden staircase at (21, 10..12) down to row 12, then ride West past the smashed rock at (18, 12) to (15, 12).
 
-## B1F Northeast Boulder Puzzle (Dead-End)
-- The Northeast boulder puzzle at cols 19-21, rows 3-6 leads only to Column 25.
-- Column 25 leads south past Cooltrainer Shannon (26, 16) to the staircase at (32, 19) and the eastern plateau / one-way ledge. It does NOT lead to the Lower Terrace at (17, 16).
+## B1F Column 25 Progression Route (Verified Turn 21241)
+- The Northeast 4-rock puzzle at cols 19-21, rows 4-5 opens into Column 25.
+- Column 25 leads south past Cooltrainer Shannon (26, 16) to the true B2F entrance route.
 
 ## 1F Southeast Sector (Exit Area Only)
 - Southeast Ledges & Item: Visible from row 35 (cols 35-40) and south of Albert, but empirical testing (Turns 20607-20639) proved rows 35-37 are solid cliff drops that cannot be hopped down, and col 28 at rows 38-39 is blocked by cliffs.
@@ -4748,11 +4748,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Central Platform Safety Rule: At (13, 26), avoid pressing Up (which hops the north ledge down into Level 0). Walk strictly West across row 26 onto the Western Suspension Bridge (cols 11..3).
 - Western Suspension Bridge to Western Terrace: Spans cols 11..3 at row 26, landing on the Western Terrace at (3, 26).
 - Western Terrace to B1F Northwest Ladder: Column 3 runs north past Wally (2, 24) and Hope (7, 14) to row 13/14, leading east directly into the B1F entrance ladder at (9, 14).
-## Northwest Boulder Puzzle Solved & Row 13 Highway (Verified Turns 20966-20993)
-- Boulder 2 pushed West into (3, 7) alcove, opening Column 4.
-- Boulder 1 pushed East into (10, 10) alcove from (8, 10), clearing Column 9 completely.
-- Row 14 below (9, 13) is a solid cliff edge overlooking the Lower Terrace (Cooltrainer at 14, 16 visible below).
-- From (9, 13), the confirmed forward progression route runs East along row 13 through cols 10..16+ toward the eastern chambers.
+
 ## Confirmed B1F Southeastern Sector Topography (Consolidated Turns 21023-21051)
 - Southern Overhead Suspension Bridge (rows 15-16): Spans overhead across Column 37. Player walks completely beneath it along Column 37 from Samuel's terrace (row 12..13) down to row 19 without obstruction.
 - While under the bridge, the player sprite is occluded by the bridge graphics, but the dark cave flashlight circle remains centered on the player.
