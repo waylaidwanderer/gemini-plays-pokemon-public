@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Active (Lv 15) | Caught at Lv 5 at `(18, 11)` facing `Down` with `Old Rod`; knows BubbleBeam, Psybeam, Haze, Supersonic |
 | Route 103 | Wingull | ZEPHYR | Active (Lv 15) | Caught at Lv 4 in tall grass at `(16, 11)`; knows Wing Attack, Water Gun, Quick Attack, BubbleBeam |
-| Route 102 | Gulpin | CIRCE | Active (Lv 15) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
+| Route 102 | Gulpin | CIRCE | Active (Lv 16) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Natu | PYTHIA | Active (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
 | Petalburg Woods | Bellsprout | SILENUS | Active (Lv 8, PC Box 1) | Caught at Lv 8 in tall grass at `(8, 30)`; knows Vine Whip, Acid |
