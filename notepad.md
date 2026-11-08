@@ -4763,6 +4763,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
 - The current viewport on B1F is already fully expanded with Flash active.
+## Verified Upper Landing Row 7 Ledge (Turn 21073)
+- Landing at (32, 8): Row 7 directly north of the staircase landing is an impassable south-facing one-way jump ledge.
+- The northern plateau and boulder area cannot be entered from row 8.
+- The ONLY exit from this landing is the Upper Suspension Bridge spanning West along row 8 across cols 28..23 to the western landing at (21, 8).
 
 <hr>
 
