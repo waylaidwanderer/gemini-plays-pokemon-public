@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` or `(18, 11)` facing `Down` |
-| Route 103 | Skitty | SELENE | Active (Lv 12) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
+| Route 103 | Skitty | SELENE | Active (Lv 14) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
