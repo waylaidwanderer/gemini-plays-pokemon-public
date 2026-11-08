@@ -222,3 +222,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - From (32, 12), row 7 to the north is an impassable south-facing jump ledge.
 - Active Path Test: Head East past Samuel (37, 12) to Col 37, then South under the overhead suspension bridge (rows 15-16) to row 19.
 - Hypothesis: Test whether the staircase at (32, 19) or the southern corridor connects west toward Shannon (26, 16) and the Lower Terrace at (17, 16). (Note: if blocked by dead-ends/ledges, alternate route is Column 15 heading North from 15, 12).
+## Verified B1F Overhead Suspension Bridge & Row 19 Junction (Turn 21048)
+- Southern Overhead Suspension Bridge (rows 15-16): Spans overhead across Column 37. Player walks completely beneath it from (37, 13) to (37, 19) without obstruction.
+- While under the bridge, the player sprite is occluded by the bridge graphics, but the dark cave flashlight circle remains centered on the player.
+- Row 19 Junction: At (37, 19), Column 37 connects West along row 19 between the northern cliff (rows 17-18) and the southern cliff (rows 20-21), heading directly toward the staircase at (32, 19).
