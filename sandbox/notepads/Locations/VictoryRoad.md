@@ -226,3 +226,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Southern Overhead Suspension Bridge (rows 15-16): Spans overhead across Column 37. Player walks completely beneath it from (37, 13) to (37, 19) without obstruction.
 - While under the bridge, the player sprite is occluded by the bridge graphics, but the dark cave flashlight circle remains centered on the player.
 - Row 19 Junction: At (37, 19), Column 37 connects West along row 19 between the northern cliff (rows 17-18) and the southern cliff (rows 20-21), heading directly toward the staircase at (32, 19).
+## Refuted Hypothesis: Column 37 / Row 19 Dead End (Turn 21051)
+- Stepping West from (37, 19) into (36, 19) bumps directly into a solid vertical cliff wall.
+- The southern corridor (Column 37, rows 22-26) leads only to Acro Bike rails and cliff cul-de-sacs.
+- There is NO access to the Lower Terrace or B2F ladder from Column 37 or row 19.
+- Progression focus shifted back to the central-west sector: Column 15 / (15, 12..13) and the northern elevated plateau.
