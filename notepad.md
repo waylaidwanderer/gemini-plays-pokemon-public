@@ -9,7 +9,7 @@
 | Route 103 | Wingull | ZEPHYR | Deceased (Lv 16) | Caught at Lv 4 in tall grass at `(16, 11)`; outsped Roxanne's `#2 Lunatone` and dropped it from 56% HP to red HP with BubbleBeam (consuming Lunatone's Sitrus Berry) before fainting to Rock Slide |
 | Route 102 | Gulpin | CIRCE | Active (Lv 16) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb (primed near Lv 17!) |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; halved `#1 Nosepass`'s Attack with Charm before fainting to `#2 Lunatone`'s Rock Slide |
-| Route 104 | Natu | PYTHIA | Active (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
+| Route 104 | Natu | PYTHIA | Deceased (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; pivoted on Roxanne's `#2 Lunatone` to cure Marshtomp's confusion and give Circe a free 52/52 HP send-out |
 | Petalburg Woods | Weepinbell | SILENUS | Active (Lv 17) | Caught as Bellsprout at Lv 8 in tall grass at `(8, 30)`; evolved into Weepinbell at Lv 16; reached Lv 17 on Roxanne's `#1 Nosepass`; knows Vine Whip, Acid, Bullet Seed, Toxic |
 | Route 116 | Butterfree | PSYCHE | Deceased (Lv 16) | Caught as Metapod at Lv 9 in tall grass at `(4, 13)`; evolved into Butterfree at Lv 10; fainted at 10/48 HP to Hiker Marc's `#4 Cacnea` after surviving `#3 Baltoy`'s Selfdestruct |
 | Route 115 | Kabuto | — | Fled | Fled at `(7, 71)` on Turn 5681 to preserve `ZEPHYR` at 20/37 HP with 0 deaths |
