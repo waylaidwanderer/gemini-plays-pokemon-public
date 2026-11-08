@@ -3,9 +3,9 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
-| Littleroot Town | Luvdisc | APHRODITE | Active (Lv 13) | Caught at `(17, 13)` with `Old Rod`; knows Secret Power, Charm, Water Pulse |
+| Littleroot Town | Luvdisc | APHRODITE | Active (Lv 15) | Caught at `(17, 13)` with `Old Rod`; `37 Speed`; knows Secret Power, Charm, Water Pulse |
 | Route 103 | Sunkern | HELIOS | Active (Lv 4) | Caught at `(13, 15)` |
-| Route 102 | Sandshrew | GAIA | Active (Lv 13) | Caught at `(39, 5)`; knows Scratch, Defense Curl, Poison Sting, Sand-Attack |
+| Route 102 | Sandshrew | GAIA | Active (Lv 15) | Caught at `(39, 5)`; `33 Def`; knows Scratch, Defense Curl, Poison Sting, Sand-Attack |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
