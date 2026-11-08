@@ -4798,6 +4798,21 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   5. Push upper boulder at (21, 4) North into (21, 3).
   6. Step onto (21, 4).
 - Outcome: Completely opens the eastern corridor along rows 4-5 into Column 25!
+## Verified Route to Lower Terrace & B2F Ladder (Turn 21158)
+- Complete Routing from Northwest Room to Lower Terrace:
+  1. Solve Northwest Room: Boulder 2 -> (3, 7) alcove, Boulder 1 -> (10, 10) alcove. Column 9 chute is clear.
+  2. Descend Column 9 chute to (9, 13) row 13 highway.
+  3. Follow row 13 East to (15, 13) -> step North to (15, 12).
+  4. Ascend Column 15 canyon North to (15, 6) -> step North to row 5.
+  5. Follow row 5 East to (18, 5) -> smash cracked rock at (19, 5) with Rock Smash.
+  6. Smash second cracked rock at (20, 4) with Rock Smash.
+  7. Push lower boulder at (20, 5) South into (20, 6) alcove.
+  8. Step around via (20, 5) -> (21, 5) and push upper boulder at (21, 4) North into (21, 3).
+  9. Step through (21, 4) into row 4/5 eastern corridor, walking East into Column 25 at (25, 4).
+  10. Walk South down Column 25 under the overhead bridge to (25, 14).
+  11. Hop WEST over the Column 24 vertical ledge to (23, 14).
+  12. Hop SOUTH over the row 15 horizontal ledge to (23, 16) directly onto the Lower Terrace floor!
+  13. Walk West along row 16 from (23, 16) to (17, 16) to reach the B2F ladder!
 
 <hr>
 
