@@ -231,3 +231,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - The southern corridor (Column 37, rows 22-26) leads only to Acro Bike rails and cliff cul-de-sacs.
 - There is NO access to the Lower Terrace or B2F ladder from Column 37 or row 19.
 - Progression focus shifted back to the central-west sector: Column 15 / (15, 12..13) and the northern elevated plateau.
+## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
+- In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
+- Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
+- The current viewport on B1F is already fully expanded with Flash active.
