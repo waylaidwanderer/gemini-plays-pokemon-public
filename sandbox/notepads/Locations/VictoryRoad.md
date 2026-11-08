@@ -203,4 +203,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Col 17 provides a clear passage south through (17, 25..27).
 - At (17, 27), the west tile (16, 27) is the solid cliff wall of the Central Platform, and (17, 28) is a vertical cliff ridge separating the upper canyon from the lower canyon floor.
 - The Central Platform southern stairs at (13, 28) sit on the lower level.
-- Progression Route: Return north along col 17 to row 23 and advance east along the Level 0 Highway toward the Cooltrainer Terrace (cols 28-35, rows 20-25) and Northern Canyon.
+- Level 0 Highway East at row 23/24 dead-ends against continuous cliff walls at (24..29, 23) and (30, 24); it does NOT connect to the Cooltrainer Terrace.
