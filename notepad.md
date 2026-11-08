@@ -4730,6 +4730,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - East Landing & Chute: Terrace at cols 31..36 (rows 29..32) terminates at a one-way jump ledge at row 33 hopping South to row 34. The wooden staircase at cols 31..32 is a one-way exit chute descending from the northern terrace onto the Eastern Plateau.
 - Dungeon Routing: Victory Road progression requires descending to B1F to reach the B2F subterranean lake system via the B2F entrance ladder at (17, 16).
 
+## 1F Western Terrace & B1F Ladder Access (Verified Turns 20770-20782)
+- Col 12 Rock Wall: A solid, continuous rock wall along column 12 completely separates the eastern corridor (cols 13-16, rows 13-15) from the ladder room. There is NO eastern access to the ladder at (8..9, 13).
+- Western Access Only: The B1F ladder at (8..9, 13) is strictly accessed from the Western Terrace by walking North past Wally at (2, 24) and Cooltrainer Hope at (3, 15) along column 3 to row 14, then turning East into the ladder chamber.
+- Western Suspension Bridge (Row 26): Spans from Central Platform at (13, 26) across cols 3..12 to Western Terrace at (3, 26).
+- Central Platform Access: Entered from Level 0 via the southern staircase at (13, 27..28).
+
 
 <hr>
 
