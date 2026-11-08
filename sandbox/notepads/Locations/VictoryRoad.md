@@ -238,3 +238,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - West: Wide corridor along row 6 (cols 14..11) terminates at a vertical one-way ledge at Column 11 hopping WEST into the Northwest chamber at (10, 6).
   - Northeast: Connects to the Northeast boulder puzzle / rock at (19, 5).
 - Northwest Loop Verified: The Northwest room connects via Column 9 chute -> row 13 East -> (15, 13) -> (15, 12) -> Column 15 North -> (15, 6) -> row 6 West -> hops Col 11 ledge back to (10, 6). This is a closed circuit on the upper level.
+## Verified Clean Northwest Room Reset & Chute Traversal (Turns 21105-21118)
+- Reset Procedure: Ascending the Northwest ladder at (8, 2) to 1F and immediately stepping back down to B1F resets Boulder 1 to (9, 10) and Boulder 2 to (4, 7).
+- Flawless Solution:
+  1. Route around upper rock mound via Column 9 and row 7 to (5, 7).
+  2. Activate Strength and push Boulder 2 West into (3, 7) alcove.
+  3. Walk down Column 4 (rows 7-10) and East along row 10 to (8, 10).
+  4. From (8, 10), push Boulder 1 East into (10, 10) alcove.
+  5. Column 9 chute is completely cleared. Walk down Column 9 (rows 10-13) onto row 13 highway.
+- Rock Smash Field Prompt Timing: The prompt "This rock appears to be breakable. Would you like to use ROCK SMASH?" requires ~800ms for text typing before the YES/NO box is active; confirm with A before pressing B.
