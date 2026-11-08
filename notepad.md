@@ -4808,6 +4808,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 14 Cliff: Bounded continuously along row 14 from col 9 to col 19.
 - Lower Terrace (17, 16): Sighted with B2F ladder and Cooltrainer at (14, 16), but has no direct walkable descent from row 13, Column 4, or Column 22.
 
+## Verified Strength Mechanics & Northwest Room Execution (Turn 21276)
+- Strength Boulder Push Mechanic: When pushing a boulder, the boulder advances 1 tile away while the player remains in place; an additional step in that direction is required to step onto the vacated tile.
+- Canonical Northwest Room Route: Push Boulder 2 West into (3, 7) from (5, 7) -> walk down Col 4 to (4, 10) -> walk East to (8, 10) -> push Boulder 1 East into (10, 10) -> step Right into (9, 10) -> descend Column 9 chute to (9, 13) highway.
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
