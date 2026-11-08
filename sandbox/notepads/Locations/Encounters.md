@@ -1,4 +1,4 @@
-# Nuzlocke Encounters (Attempt #32)
+# Nuzlocke Encounters (Attempt #33)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
