@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | TRITON | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
+| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
 | Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` or `(18, 11)` facing `Down` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` or `(15..18, 11..13)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
