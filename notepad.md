@@ -1,18 +1,18 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #28)
+# Nuzlocke Encounters (Attempt #29)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | `946/1021 EXP` (75 EXP to Lv 17!); knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Luvdisc | APHRODITE | Deceased | Lost at Turn 5386 to Team Magma Grunt's Bagon (crit Headbutt + Bite) |
-| Route 103 | Spearow | ZEPHYR | Box 1 (Lv 16) | Caught at `(13, 15)`; Keen Eye; `~15/653 EXP` at Lv 16; knows Peck, Pursuit, Tackle, Secret Power |
-| Route 102 | Meowth | FORTUNA | Active (Lv 16) | `236/817 EXP`; `36 Speed`; knows Pay Day, Faint Attack (60 BP Dark), Swift, Bite (60 BP Dark) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 16) | `465/585 EXP` (120 EXP to Lv 17!); Thick Fat; knows Body Slam (85 BP), Charm, Secret Power, BubbleBeam |
-| Route 104 | Snubbull | HERA | Box 1 (Lv 15) | Caught at `(23, 60)`; Intimidate; knows Headbutt (70 BP STAB), Bite (60 BP Dark), Lick, Roar |
-| Petalburg Woods | Weepinbell | SILVANUS | Active (Lv 16) | `533/585 EXP` (52 EXP to Lv 17!); Chlorophyll; knows Vine Whip, Acid (spread), Bullet Seed (TM09), Toxic |
-| Route 116 | Makuhita | HERCULES | Deceased | Lost at Turn 5474 to School Kid Tammy's Corsola (crit Water Pulse after -1 priority Vital Throw) |
-| Route 115 | Kabuto | TRITON | Active (Lv 16) | `320/817 EXP`; `29 Speed, 25 Sp.Atk, 31 Def`; knows Rock Tomb, Water Pulse, Mega Drain |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip from Professor Birch's Bag |
+| Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
+| Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#27)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
