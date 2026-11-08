@@ -4719,7 +4719,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Level 0 Highway: Wide open sandy canyon floor runs East from (16, 23) through (24, 24) to (28, 24).
 - Middle Suspension Bridge: Elevated bridge spans horizontally across rows 27-28 between col 24 and col 31; the Level 0 highway passes immediately north of it.
 - Cooltrainer Terrace (cols 28-35, rows 20-25): Wide open terrace extending north. An undefeated Cooltrainer (blond hair, red suit) is stationed at (33, 20) facing South.
-- Northern Canyon Beyond: The terrace connects north beneath the overhead northern suspension bridge (row 17) where two additional undefeated trainers (brown-haired trainer at col 29, yellow-capped trainer at col 33) and the deeper cave progression are located.
+- Northern Canyon Beyond: The terrace connects north beneath the overhead northern suspension bridge (row 17) where two additional undefeated trainers (brown-haired trainer at col 29, yellow-capped trainer at col 33) are visible in the exit sector, accessible only after completing B1F and B2F.
 
 ## 1F Middle Bridge & Exit Chute Topography (Discovered Turns 20720-20750)
 - Middle Suspension Bridge (rows 27-28): Spans between col 24 (west) and col 34 (east).
