@@ -4563,7 +4563,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 5. [x] Illuminate B1F using Flash (Turn 19594)!
 6. [x] Solved B1F Northwest 2-boulder puzzle: pushed Boulder 2 West into (3, 7) alcove, opening Column 4.
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
-8. [ ] Test ladder at (21, 32) on 1F eastern plateau to descend directly to B1F.
+8. [x] Confirmed (21, 32) on 1F eastern plateau is an exit destination whose B1F counterpart at (40, 24) is blocked from B2F by one-way ledges. Main B2F route is via Western Terrace ladder (9, 14).
 9. [ ] Navigate B2F (use Surf and Waterfall).
 10. [ ] Ascend back to 1F exit corridor.
 11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
