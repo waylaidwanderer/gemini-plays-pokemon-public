@@ -163,10 +163,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## B1F Vertical Ledge & Lower Terrace Access (Verified Turns 20528-20539)
 - Vertical Ledge at Col 24: This one-way ledge hops WEST (from East to West). You cannot hop it from the west. Hopping west over it lands at (23, 14..15).
 - From (22..23, 14..15): The south edge at row 15 is a continuous cliff wall overlooking the Lower Terrace floor.
-- B1F Column 9 Chute & Row 14 Ledge (Turn 20026 / Re-evaluated Turn 20821):
+- B1F Column 9 Chute (Verified Turns 20026, 20986):
   - Column 9 serves as the cleared chute from the Northwest boulder puzzle down to (9, 13).
-  - Row 14 at (9, 14) is a one-way jump ledge hopping South.
-  - Stepping South over the row 14 ledge at (9, 13) while facing South accesses the Lower Terrace (cols 14..17, row 16) and the B2F entrance ladder at (17, 16)!
+  - Row 14 below (9, 13) is an impassable solid cliff drop (not a jump ledge); the path turns East along the row 13 highway.
 ## 1F Upper Northern Plateau & Suspension Bridge (Verified Turns 20648-20653)
 - Northern Staircase at (16, 21..17): Ascends north onto row 17.
 - Corridor at rows 13-14 (cols 9-16): Connects Hope's western terrace / ladder (8, 13) directly East to the top of the northern staircase at (16, 17).
@@ -198,12 +197,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western Suspension Bridge (Row 26): Spans from Central Platform at (13, 26) across cols 3..12 to Western Terrace at (3, 26).
 - Central Platform Access: Entered from Level 0 via the southern staircase at (13, 27..28).
 
-## Level 0 Navigation & Central Platform Access (Verified Turns 20860-20877)
-- From (16, 23), walking south down col 16 is blocked at (16, 24) by the Central Platform northeast cliff corner.
-- Col 17 provides a clear passage south through (17, 25..27).
-- At (17, 27), the west tile (16, 27) is the solid cliff wall of the Central Platform, and (17, 28) is a vertical cliff ridge separating the upper canyon from the lower canyon floor.
-- The Central Platform southern stairs at (13, 28) sit on the lower level.
-- Level 0 Highway East at row 23/24 dead-ends against continuous cliff walls at (24..29, 23) and (30, 24); it does NOT connect to the Cooltrainer Terrace.
+## Level 0 Topography (Archived)
+- Level 0 East (row 23/24) dead-ends against continuous cliffs at (24..29, 23).
+- 1F Central Platform is accessed exclusively via southern stairs at (13, 28..29) from the Level 0 western canyon.
 ## Southern Suspension Bridge & Western Cliff Access (Verified Turns 20914-20924)
 - Access to the southern suspension bridge from the eastern plateau is via the lower corridor at row 38.
 - The southern wooden staircase at (21, 35..37) ascends north from row 38 to the bridge landing at (21, 34).
