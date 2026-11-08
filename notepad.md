@@ -4758,7 +4758,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - While under the bridge, the player sprite is occluded by the bridge graphics, but the dark cave flashlight circle remains centered on the player.
 - Dead-End Verification: At (37, 19), stepping West into (36, 19) bumps directly into a solid vertical cliff wall. The southern corridor (Column 37, rows 22-26) leads only to Acro Bike rails and cul-de-sacs.
 - There is NO connection to the Lower Terrace or B2F ladder from Column 37 or row 19.
-- Progression Route: Return North up Column 37 to Samuel's terrace (32, 12), cross the upper bridge west to (21, 12), and investigate Column 15 heading North from (15, 12) or the northern plateau at (31, 8) / (34, 6).
+- Progression Route: Column 37 dead-ends at Acro rails. Northward movement from (31, 8) / (34, 6) is blocked by row 7 ledge. Active progression requires solving the Northeast 4-rock puzzle at (19-21, 4-5) and exploring south down Column 25 past Shannon to locate the B2F entrance ladder.
+
+## 1F Level 0 Row 28 Cliff (Verified Turns 21219-21231)
+- Row 28 on 1F Level 0 is a continuous solid cliff wall across cols 14-19 blocking northward passage from (15, 29) and (16, 29) to the Northern Canyon.
+- The crevice at (15..16, 28) is an impassable vertical cliff seam, not an open path.
+
+## B1F to B2F Progression Routing (Turn 21241)
+- The sighted ladder on B1F at (17, 16) is the EXIT from B2F (leading up from the subterranean lake), NOT the entrance.
+- The true entrance into B2F lies along the unexplored path south down Column 25 past Cooltrainer Shannon (26, 16).
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
