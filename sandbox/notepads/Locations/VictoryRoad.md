@@ -251,3 +251,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Landing at (21, 8): Row 7 directly north of the western staircase landing is also an impassable south-facing one-way jump ledge.
 - The 4-rock Northeast puzzle cannot be entered from row 8.
 - Progression Route: Descend wooden stairs to (21, 12), walk West along row 12 past smashed rock (18, 12) to (15, 12), ascend Column 15 canyon North to (15, 6), and walk East along row 6 directly into (19, 6) in front of the puzzle!
+## Verified Northeast 4-Rock Puzzle Solution (Turns 21145-21149)
+- Puzzle Layout: Rows 4-5, cols 19-21.
+  - Rock Smash rocks at (19, 5) and (20, 4).
+  - Strength boulders at (20, 5) and (21, 4).
+- Solution:
+  1. Smash rock at (19, 5) and step to (19, 4).
+  2. Smash rock at (20, 4) and step to (20, 4).
+  3. Push lower boulder at (20, 5) South into (20, 6).
+  4. Step around via (20, 5) -> (21, 5).
+  5. Push upper boulder at (21, 4) North into (21, 3).
+  6. Step onto (21, 4).
+- Outcome: Completely opens the eastern corridor along rows 4-5 into Column 25!
