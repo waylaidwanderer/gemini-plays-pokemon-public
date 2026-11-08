@@ -232,3 +232,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Landing at (32, 8): Row 7 directly north of the staircase landing is an impassable south-facing one-way jump ledge.
 - The northern plateau and boulder area cannot be entered from row 8.
 - The ONLY exit from this landing is the Upper Suspension Bridge spanning West along row 8 across cols 28..23 to the western landing at (21, 8).
+## Verified Column 15 Canyon & Row 6 Loop (Turns 21081-21092)
+- Column 15 Canyon: Open vertical canyon corridor connecting (15, 12) directly North to (15, 6) between the western high cliff (col 14) and eastern stepped cliff (cols 16-18).
+- Row 6 Junction:
+  - West: Wide corridor along row 6 (cols 14..11) terminates at a vertical one-way ledge at Column 11 hopping WEST into the Northwest chamber at (10, 6).
+  - Northeast: Connects to the Northeast boulder puzzle / rock at (19, 5).
+- Northwest Loop Verified: The Northwest room connects via Column 9 chute -> row 13 East -> (15, 13) -> (15, 12) -> Column 15 North -> (15, 6) -> row 6 West -> hops Col 11 ledge back to (10, 6). This is a closed circuit on the upper level.
