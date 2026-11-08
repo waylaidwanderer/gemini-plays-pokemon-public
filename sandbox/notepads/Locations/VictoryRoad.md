@@ -204,3 +204,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - At (17, 27), the west tile (16, 27) is the solid cliff wall of the Central Platform, and (17, 28) is a vertical cliff ridge separating the upper canyon from the lower canyon floor.
 - The Central Platform southern stairs at (13, 28) sit on the lower level.
 - Level 0 Highway East at row 23/24 dead-ends against continuous cliff walls at (24..29, 23) and (30, 24); it does NOT connect to the Cooltrainer Terrace.
+## Southern Suspension Bridge & Western Cliff Access (Verified Turns 20914-20924)
+- Access to the southern suspension bridge from the eastern plateau is via the lower corridor at row 38.
+- The southern wooden staircase at (21, 35..37) ascends north from row 38 to the bridge landing at (21, 34).
+- Row 33 directly north of (21, 34) is a solid vertical cliff wall blocking access to the ladder at (21, 32).
+- The Southern Suspension Bridge spans row 34 across cols 10..20 to the western cliff landing at (9, 34).
+- Western cliff staircase at (9, 36) descends to Level 0 western canyon (cols 5..7), providing the confirmed link north to row 29, the Central Platform stairs at (13, 29), and the Western Suspension Bridge to the Western Terrace.
