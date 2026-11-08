@@ -12,7 +12,7 @@
 | Route 104 | Natu | PYTHIA | Active (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
 | Petalburg Woods | Bellsprout | SILENUS | Active (Lv 8) | Caught at Lv 8 in tall grass at `(8, 30)`; knows Vine Whip, Acid |
 | Route 116 | Metapod | PSYCHE | Active (Lv 9) | Caught at Lv 9 in tall grass at `(4, 13)`; evolves into Butterfree at Lv 10 |
-| Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
+| Route 115 | Kabuto | — | Fled | Fled at `(7, 71)` on Turn 5681 to preserve `ZEPHYR` at 20/37 HP with 0 deaths |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#29)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
