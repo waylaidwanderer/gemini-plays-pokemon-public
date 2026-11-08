@@ -4745,6 +4745,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 33 directly north of (21, 34) is a solid vertical cliff wall blocking access to the ladder at (21, 32).
 - The Southern Suspension Bridge spans row 34 across cols 10..20 to the western cliff landing at (9, 34).
 - Western cliff staircase at (9, 36) descends to Level 0 western canyon (cols 5..7), providing the confirmed link north to row 29, the Central Platform stairs at (13, 29), and the Western Suspension Bridge to the Western Terrace.
+## Verified Complete 1F Circuit & Western Terrace Routing (Turns 20910-20960)
+- Eastern Plateau to Western Cliff: Southern wooden staircase at (21, 35..37) ascends north to bridge landing at (21, 34). The Southern Suspension Bridge spans row 34 across cols 20..10 to the western cliff landing at (9, 34).
+- Level 0 Western Canyon: Staircase at (9, 35..37) descends to Level 0 canyon (cols 5..7, rows 31..38), which runs north to row 29/30.
+- Central Platform Access: Row 29/30 connects east to the southern staircase at (13, 29), ascending to (13, 26) onto the Central Platform.
+- Central Platform Safety Rule: At (13, 26), avoid pressing Up (which hops the north ledge down into Level 0). Walk strictly West across row 26 onto the Western Suspension Bridge (cols 11..3).
+- Western Suspension Bridge to Western Terrace: Spans cols 11..3 at row 26, landing on the Western Terrace at (3, 26).
+- Western Terrace to B1F Northwest Ladder: Column 3 runs north past Wally (2, 24) and Hope (7, 14) to row 13/14, leading east directly into the B1F entrance ladder at (9, 14).
 
 <hr>
 
