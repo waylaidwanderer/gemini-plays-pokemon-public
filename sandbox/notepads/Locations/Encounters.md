@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | GALATEA | Active (Lv 15, PC Box 1) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Natu | PYTHIA | Active (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
 | Petalburg Woods | Bellsprout | SILENUS | Active (Lv 8) | Caught at Lv 8 in tall grass at `(8, 30)`; knows Vine Whip, Acid |
-| Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
+| Route 116 | Metapod | PSYCHE | Active (Lv 9) | Caught at Lv 9 in tall grass at `(4, 13)`; evolves into Butterfree at Lv 10 |
 | Route 115 | — | — | Pending | Fish at `(7, 71)` facing `Left` with `Old Rod` |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#29)
