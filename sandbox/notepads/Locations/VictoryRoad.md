@@ -247,3 +247,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   4. From (8, 10), push Boulder 1 East into (10, 10) alcove.
   5. Column 9 chute is completely cleared. Walk down Column 9 (rows 10-13) onto row 13 highway.
 - Rock Smash Field Prompt Timing: The prompt "This rock appears to be breakable. Would you like to use ROCK SMASH?" requires ~800ms for text typing before the YES/NO box is active; confirm with A before pressing B.
+## Verified Upper Western Landing Row 7 Ledge (Turn 21133)
+- Landing at (21, 8): Row 7 directly north of the western staircase landing is also an impassable south-facing one-way jump ledge.
+- The 4-rock Northeast puzzle cannot be entered from row 8.
+- Progression Route: Descend wooden stairs to (21, 12), walk West along row 12 past smashed rock (18, 12) to (15, 12), ascend Column 15 canyon North to (15, 6), and walk East along row 6 directly into (19, 6) in front of the puzzle!
