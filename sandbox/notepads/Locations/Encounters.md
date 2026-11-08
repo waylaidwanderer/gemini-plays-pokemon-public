@@ -5,7 +5,7 @@
 | Starter (Route 101) | Marshtomp | MUDKIP | Active (Lv 17) | Chosen from Professor Birch's Bag on Route 101; evolved into Marshtomp at Lv 16; reached Lv 17 on Roxanne's `#1 Nosepass`; knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Benched (Lv 17, Over Cap) | Caught at Lv 5 at `(18, 11)` facing `Down` with `Old Rod`; reached Lv 17 on School Kid Josh's `#4 Omanyte` (`Fast` 653 EXP group); benched until Stone Badge |
 | Route 103 | Wingull | ZEPHYR | Deceased (Lv 16) | Caught at Lv 4 in tall grass at `(16, 11)`; outsped Roxanne's `#2 Lunatone` and dropped it from 56% HP to red HP with BubbleBeam (consuming Lunatone's Sitrus Berry) before fainting to Rock Slide |
-| Route 102 | Gulpin | CIRCE | Active (Lv 16) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb (primed near Lv 17!) |
+| Route 102 | Gulpin | CIRCE | Deceased (Lv 16) | Caught at Lv 6 in tall grass at `(38, 5)`; chipped Roxanne's `#2 Lunatone` to 1 HP with Sludge Bomb before fainting to Confusion |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; halved `#1 Nosepass`'s Attack with Charm before fainting to `#2 Lunatone`'s Rock Slide |
 | Route 104 | Natu | PYTHIA | Deceased (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; pivoted on Roxanne's `#2 Lunatone` to cure Marshtomp's confusion and give Circe a free 52/52 HP send-out |
 | Petalburg Woods | Weepinbell | SILENUS | Active (Lv 17) | Caught as Bellsprout at Lv 8 in tall grass at `(8, 30)`; evolved into Weepinbell at Lv 16; reached Lv 17 on Roxanne's `#1 Nosepass`; knows Vine Whip, Acid, Bullet Seed, Toxic |
