@@ -4753,19 +4753,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Boulder 1 pushed East into (10, 10) alcove from (8, 10), clearing Column 9 completely.
 - Row 14 below (9, 13) is a solid cliff edge overlooking the Lower Terrace (Cooltrainer at 14, 16 visible below).
 - From (9, 13), the confirmed forward progression route runs East along row 13 through cols 10..16+ toward the eastern chambers.
-## Working Hypothesis: Eastern Corridor to Lower Terrace & B2F Ladder (Turn 21023)
-- From (32, 12), row 7 to the north is an impassable south-facing jump ledge.
-- Active Path Test: Head East past Samuel (37, 12) to Col 37, then South under the overhead suspension bridge (rows 15-16) to row 19.
-- Hypothesis: Test whether the staircase at (32, 19) or the southern corridor connects west toward Shannon (26, 16) and the Lower Terrace at (17, 16). (Note: if blocked by dead-ends/ledges, alternate route is Column 15 heading North from 15, 12).
-## Verified B1F Overhead Suspension Bridge & Row 19 Junction (Turn 21048)
-- Southern Overhead Suspension Bridge (rows 15-16): Spans overhead across Column 37. Player walks completely beneath it from (37, 13) to (37, 19) without obstruction.
+## Confirmed B1F Southeastern Sector Topography (Consolidated Turns 21023-21051)
+- Southern Overhead Suspension Bridge (rows 15-16): Spans overhead across Column 37. Player walks completely beneath it along Column 37 from Samuel's terrace (row 12..13) down to row 19 without obstruction.
 - While under the bridge, the player sprite is occluded by the bridge graphics, but the dark cave flashlight circle remains centered on the player.
-- Row 19 Junction: At (37, 19), Column 37 connects West along row 19 between the northern cliff (rows 17-18) and the southern cliff (rows 20-21), heading directly toward the staircase at (32, 19).
-## Refuted Hypothesis: Column 37 / Row 19 Dead End (Turn 21051)
-- Stepping West from (37, 19) into (36, 19) bumps directly into a solid vertical cliff wall.
-- The southern corridor (Column 37, rows 22-26) leads only to Acro Bike rails and cliff cul-de-sacs.
-- There is NO access to the Lower Terrace or B2F ladder from Column 37 or row 19.
-- Progression focus shifted back to the central-west sector: Column 15 / (15, 12..13) and the northern elevated plateau.
+- Dead-End Verification: At (37, 19), stepping West into (36, 19) bumps directly into a solid vertical cliff wall. The southern corridor (Column 37, rows 22-26) leads only to Acro Bike rails and cul-de-sacs.
+- There is NO connection to the Lower Terrace or B2F ladder from Column 37 or row 19.
+- Progression Route: Return North up Column 37 to Samuel's terrace (32, 12), cross the upper bridge west to (21, 12), and investigate Column 15 heading North from (15, 12) or the northern plateau at (31, 8) / (34, 6).
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
