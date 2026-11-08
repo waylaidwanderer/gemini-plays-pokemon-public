@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MUDKIP | Active (Lv 16) | Chosen from Professor Birch's Bag on Route 101; evolved into Marshtomp at Lv 16; knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 15, PC Box 1) | Caught at Lv 5 at `(18, 11)` facing `Down` with `Old Rod`; knows BubbleBeam, Psybeam, Haze, Supersonic |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 16) | Caught at Lv 5 at `(18, 11)` facing `Down` with `Old Rod`; knows BubbleBeam, Psybeam, Haze, Supersonic |
 | Route 103 | Wingull | ZEPHYR | Active (Lv 16) | Caught at Lv 4 in tall grass at `(16, 11)`; knows Wing Attack, Water Gun, Quick Attack, BubbleBeam |
 | Route 102 | Gulpin | CIRCE | Active (Lv 16, PC Box 1) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb (primed near Lv 17!) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15, PC Box 1) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
