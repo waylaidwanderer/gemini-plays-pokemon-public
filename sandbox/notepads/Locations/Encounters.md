@@ -1,16 +1,19 @@
-# Nuzlocke Encounters (Attempt #31)
+# Nuzlocke Encounters (Attempt #32)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MUDKIP | Active (Lv 17) | Chosen from Professor Birch's Bag on Route 101; evolved into Marshtomp at Lv 16; reached Lv 17 on Roxanne's `#1 Nosepass`; knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Benched (Lv 17, Over Cap) | Caught at Lv 5 at `(18, 11)` facing `Down` with `Old Rod`; reached Lv 17 on School Kid Josh's `#4 Omanyte` (`Fast` 653 EXP group); benched until Stone Badge |
-| Route 103 | Wingull | ZEPHYR | Deceased (Lv 16) | Caught at Lv 4 in tall grass at `(16, 11)`; outsped Roxanne's `#2 Lunatone` and dropped it from 56% HP to red HP with BubbleBeam (consuming Lunatone's Sitrus Berry) before fainting to Rock Slide |
-| Route 102 | Gulpin | CIRCE | Deceased (Lv 16) | Caught at Lv 6 in tall grass at `(38, 5)`; chipped Roxanne's `#2 Lunatone` to 1 HP with Sludge Bomb before fainting to Confusion |
-| Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; halved `#1 Nosepass`'s Attack with Charm before fainting to `#2 Lunatone`'s Rock Slide |
-| Route 104 | Natu | PYTHIA | Deceased (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; pivoted on Roxanne's `#2 Lunatone` to cure Marshtomp's confusion and give Circe a free 52/52 HP send-out |
-| Petalburg Woods | Weepinbell | SILENUS | Deceased (Lv 17) | Caught as Bellsprout at Lv 8 in tall grass at `(8, 30)`; evolved into Weepinbell at Lv 16; reached Lv 17 on Roxanne's `#1 Nosepass`; fainted to `#2 Lunatone`'s Confusion |
-| Route 116 | Butterfree | PSYCHE | Deceased (Lv 16) | Caught as Metapod at Lv 9 in tall grass at `(4, 13)`; evolved into Butterfree at Lv 10; fainted at 10/48 HP to Hiker Marc's `#4 Cacnea` after surviving `#3 Baltoy`'s Selfdestruct |
-| Route 115 | Kabuto | — | Fled | Fled at `(7, 71)` on Turn 5681 to preserve `ZEPHYR` at 20/37 HP with 0 deaths |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip from Professor Birch's Bag on Route 101 |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` or `(18, 11)` facing `Down` |
+| Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` or `(15..18, 11..13)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+
+## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
+- **NEVER have a `Poison`- or `Fighting`-type (`Weepinbell`, `Gloom`, `Gulpin`, `Makuhita`, etc. — `2x` weak to `Lunatone`'s `50 BP STAB Confusion`!) on the field when Roxanne's `#1 Nosepass` faints!** In Attempt #31, we primed our 6-Pokemon squad right below Lv 17 and used `Azurill`'s `2: Charm` (`-2 Attack`) so `Nosepass`'s `Selfdestruct` only dealt 29 damage (and awarded full `346 EXP`, leveling `Marshtomp` and `Weepinbell` to Lv 17!), but because `Grass/Poison` `Weepinbell` was on the field when `Nosepass` fainted, Roxanne's AI sent out `#2 Lunatone` SECOND (`while 4 of our 6 Pokemon were still Lv 16!`) and survived at **1 HP**! Always finish `#1 Nosepass` (`or absorb its -2 Attack Selfdestruct`) with a **non-Poison/non-Fighting Pokemon (`Kabuto`, `Omanyte`, `Azurill`, `Luvdisc`, `Wingull`, `Goldeen`, or `Marshtomp`)** so `Lunatone` comes out `#6 LAST` after our entire team is Level 17! Also note that `Goldeen` is in the `Fast` (`653 EXP`) group at Lv 16, and `Natu` can have `Early Bird` (`585/817 EXP` group).
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#29)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
