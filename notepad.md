@@ -4752,6 +4752,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Central Platform Safety Rule: At (13, 26), avoid pressing Up (which hops the north ledge down into Level 0). Walk strictly West across row 26 onto the Western Suspension Bridge (cols 11..3).
 - Western Suspension Bridge to Western Terrace: Spans cols 11..3 at row 26, landing on the Western Terrace at (3, 26).
 - Western Terrace to B1F Northwest Ladder: Column 3 runs north past Wally (2, 24) and Hope (7, 14) to row 13/14, leading east directly into the B1F entrance ladder at (9, 14).
+## Northwest Boulder Puzzle Solved & Row 13 Highway (Verified Turns 20966-20993)
+- Boulder 2 pushed West into (3, 7) alcove, opening Column 4.
+- Boulder 1 pushed East into (10, 10) alcove from (8, 10), clearing Column 9 completely.
+- Row 14 below (9, 13) is a solid cliff edge overlooking the Lower Terrace (Cooltrainer at 14, 16 visible below).
+- From (9, 13), the confirmed forward progression route runs East along row 13 through cols 10..16+ toward the eastern chambers.
 
 <hr>
 
