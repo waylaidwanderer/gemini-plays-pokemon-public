@@ -2,8 +2,8 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active (Lv 5) | Chosen from Professor Birch's Bag on Route 101 |
-| Littleroot Town | — | — | Pending | Fish at `(17, 13)` facing `Right` with `Old Rod` |
+| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
+| Littleroot Town | Luvdisc | APHRODITE | Active (Lv 4) | Caught at `(17, 13)` with `Old Rod` |
 | Route 103 | — | — | Pending | Tall grass at `(11..14, 15..16)` |
 | Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
 | Petalburg City | — | — | Pending | Fish at `(11, 22)` facing `Down` with `Old Rod` |
