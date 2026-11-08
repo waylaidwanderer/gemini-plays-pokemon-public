@@ -7,7 +7,7 @@
 | Route 103 | Skitty | SELENE | Active (Lv 14) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
 | Route 102 | Gulpin | BACCHUS | Active (Lv 14) | Caught at Lv 6 in tall grass at `(39, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
-| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Route 104 | Snubbull | ARES | Active (Lv 14) | Caught at Lv 7 in tall grass at `(24, 60)`; knows Headbutt, Bite, Lick, Roar |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
