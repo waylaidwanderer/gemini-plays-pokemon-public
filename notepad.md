@@ -4,15 +4,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Met on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | `0/1021 EXP`; knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased | Lost at Turn 5386 to Team Magma Grunt's Bagon (crit Headbutt + Bite) |
-| Route 103 | Spearow | ZEPHYR | Active (Lv 16) | Caught at `(13, 15)`; Keen Eye; `~15/653 EXP` at Lv 16; knows Peck, Pursuit, Tackle, Secret Power |
-| Route 102 | Meowth | FORTUNA | Active (Lv 14) | Caught at `(39, 5)`; knows Pay Day, Faint Attack (60 BP Dark), Swift (Lv 12) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at `(11, 22)` with `Old Rod`; knows Body Slam (85 BP), Charm, Secret Power, BubbleBeam |
-| Route 104 | Snubbull | HERA | Active (Lv 15) | Caught at `(23, 60)`; knows Headbutt (70 BP STAB), Bite (60 BP Dark), Lick, Roar |
-| Petalburg Woods | Bellsprout | SILVANUS | Active (Lv 15) | Caught at `(7, 31)`; Chlorophyll; `31 Sp.Atk`; knows Vine Whip, Acid (spread), Toxic, Bullet Seed (TM09) |
-| Route 116 | Makuhita | HERCULES | Active (Lv 9) | Caught at `(6, 15)`; knows Faint Attack, SmellingSalt, Sand-Attack |
-| Route 115 | Kabuto | TRITON | Active (Lv 9) | Caught at `(7, 71)` with `Old Rod`; knows Rock Tomb, Water Pulse |
+| Route 103 | Spearow | ZEPHYR | Box 1 (Lv 16) | Caught at `(13, 15)`; Keen Eye; `~15/653 EXP` at Lv 16; knows Peck, Pursuit, Tackle, Secret Power |
+| Route 102 | Meowth | FORTUNA | Active (Lv 16) | `236/817 EXP`; `36 Speed`; knows Pay Day, Faint Attack (60 BP Dark), Swift, Bite (60 BP Dark) |
+| Petalburg City | Azurill | GALATEA | Active (Lv 16) | `0/585 EXP`; Thick Fat; knows Body Slam (85 BP), Charm, Secret Power, BubbleBeam |
+| Route 104 | Snubbull | HERA | Box 1 (Lv 15) | Caught at `(23, 60)`; Intimidate; knows Headbutt (70 BP STAB), Bite (60 BP Dark), Lick, Roar |
+| Petalburg Woods | Weepinbell | SILVANUS | Active (Lv 16) | `456/585 EXP`; Chlorophyll; knows Vine Whip, Acid (spread), Bullet Seed (TM09), Toxic |
+| Route 116 | Makuhita | HERCULES | Active (Lv 16) | `173/585 EXP`; knows Faint Attack, SmellingSalt, Vital Throw (70 BP Fighting), Force Palm |
+| Route 115 | Kabuto | TRITON | Active (Lv 16) | `243/817 EXP`; `29 Speed, 25 Sp.Atk, 31 Def`; knows Rock Tomb, Water Pulse, Mega Drain |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#27)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`1,021 EXP` buffer; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16).
