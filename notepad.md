@@ -10,8 +10,8 @@
 | Route 102 | Gulpin | CIRCE | Active (Lv 16, PC Box 1) | Caught at Lv 6 in tall grass at `(38, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb (primed near Lv 17!) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15, PC Box 1) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Natu | PYTHIA | Active (Lv 16) | Caught at Lv 7 in tall grass at `(22, 59)`; knows Peck, Psybeam, Night Shade |
-| Petalburg Woods | Bellsprout | SILENUS | Active (Lv 8) | Caught at Lv 8 in tall grass at `(8, 30)`; knows Vine Whip, Acid |
-| Route 116 | Metapod | PSYCHE | Active (Lv 9) | Caught at Lv 9 in tall grass at `(4, 13)`; evolves into Butterfree at Lv 10 |
+| Petalburg Woods | Bellsprout | SILENUS | Active (Lv 15) | Caught at Lv 8 in tall grass at `(8, 30)`; knows Vine Whip, Acid, Sweet Scent, Toxic |
+| Route 116 | Butterfree | PSYCHE | Active (Lv 10) | Caught as Metapod at Lv 9 in tall grass at `(4, 13)`; evolved into Butterfree at Lv 10; knows Tackle, Harden, Confusion |
 | Route 115 | Kabuto | — | Fled | Fled at `(7, 71)` on Turn 5681 to preserve `ZEPHYR` at 20/37 HP with 0 deaths |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#29)
