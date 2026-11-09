@@ -3,13 +3,13 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Boxed (Lv 16) | Evolved at Lv 16 (52 HP, 992 / 1,021 EXP — primed 29 EXP from Lv 17!); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim (551 / 653 EXP); holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim (Medium Fast 817 EXP group: 675 / 817 EXP — primed 142 EXP from Lv 17!); holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
 | Route 103 | Skitty | SELENE | Boxed (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone used on ARES; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
 | Route 102 | Nidoking | ARES | Active (Lv 16) | Evolved into Nidorino -> Nidoking at Lv 16 (55 HP, 561 / 585 EXP — primed 24 EXP from Lv 17!); Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
 | Petalburg Woods | Weepinbell | FLORA | Active (Lv 16) | Evolved at Lv 16 (47 HP, 35 Atk, 35 Sp.Atk, 24 Speed, 560 / 585 EXP — primed 25 EXP from Lv 17!); Chlorophyll; holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
-| Route 116 | Paras | HYPNOS | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 24 Def, 23 Sp.Atk, 27 Sp.Def, 16 Speed, 0 / 653 EXP); Effect Spore; holds Oran Berry; knows Body Slam, Mega Drain, Toxic, Knock Off |
+| Route 116 | Paras | HYPNOS | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 24 Def, 23 Sp.Atk, 27 Sp.Def, 16 Speed, 124 / 653 EXP); Effect Spore; knows Body Slam, Mega Drain, Toxic, Knock Off |
 | Route 115 | Kabuto | TRITON | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 38 Def, 26 Sp.Atk, 24 Sp.Def, 22 Speed, 798 / 817 EXP — primed 19 EXP from Lv 17!); holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain |
 
 ## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
