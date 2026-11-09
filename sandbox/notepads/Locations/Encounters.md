@@ -2,11 +2,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 15) | Caught at Lv 5 with Old Rod; Swift Swim; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
-| Route 103 | Skitty | SELENE | Active (Lv 12) | Caught at Lv 4 in tall grass; holds wild Moon Stone; knows Assist, Attract, Sing, Secret Power |
-| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 with Old Rod; knows Body Slam, Charm, Secret Power, BubbleBeam |
+| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 15) | Caught at Lv 5 with Old Rod; Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Route 103 | Skitty | SELENE | Active (Lv 12) | Caught at Lv 4 in tall grass; wild Moon Stone stored in Bag; holds Oran Berry; knows Assist, Attract, Sing, Secret Power |
+| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
+| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 with Old Rod; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |

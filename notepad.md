@@ -4,11 +4,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 15) | Caught at Lv 5 with Old Rod; Swift Swim; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
-| Route 103 | Skitty | SELENE | Active (Lv 12) | Caught at Lv 4 in tall grass; holds wild Moon Stone; knows Assist, Attract, Sing, Secret Power |
-| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 with Old Rod; knows Body Slam, Charm, Secret Power, BubbleBeam |
+| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 15) | Caught at Lv 5 with Old Rod; Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Route 103 | Skitty | SELENE | Active (Lv 12) | Caught at Lv 4 in tall grass; wild Moon Stone stored in Bag; holds Oran Berry; knows Assist, Attract, Sing, Secret Power |
+| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
+| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 with Old Rod; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
@@ -200,7 +200,7 @@
   - **Pokemon Center**: Door at `(20, 16)` (inside from `(7, 8)`, walk `Up x4, Right x3, Up x2` via `(7, 4) -> (10, 4) -> (10, 2)` to reach the PC at `(10, 2)`, avoiding NPCs at `(10, 7)` and `(9, 5)`).
   - **Poke Mart**: Door at `(25, 12)` (from `(20, 17)` outside the Pokemon Center, walk `Right x4` along `y=17` to `(24, 17)`, `Up x4` to `(24, 13)`, `Right` to `(25, 13)`, and `Up` into `(25, 12)` to avoid the signpost at `(17, 16)` and the wandering girl at `(16, 17)`; `Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
   - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event; after pressing `A` at `(4, 108)` facing `Up`, `["B", "sleep 1000"] * 95` advances the entire Norman + Wally Ralts-catching tutorial back to `(4, 108)`).
-  - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (from `(20, 17)` outside the Pokemon Center, walk `Down x4` to `(20, 21)`, `Left x9` along `y=21` to `(11, 21)`, and `Down x2` to `(11, 22)` facing `Down`; to reach the Petalburg Gym at `(15, 8)` from `(11, 22)`, walk `Up` to `(11, 21)`, `Right x4` to `(15, 21)`, and `Up x13` straight up the obstacle-free `x=15` lane).
+  - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (from `(20, 17)` outside the Pokemon Center, walk `Down x4` to `(20, 21)`, `Left x9` along `y=21` to `(11, 21)`? Note: hedge blocks `(18, 21)`, so route between `(11, 22)` and the Pokemon Center at `(20, 16)` via `(11, 22) <-> (11, 21) <-> (16, 21) <-> (16, 18) <-> (20, 18) <-> (20, 16)`; to reach the Petalburg Gym at `(15, 8)` from `(11, 22)`, walk `Up` to `(11, 21)`, `Right x4` to `(15, 21)`, and `Up x13` straight up the obstacle-free `x=15` lane).
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`; to route between `(0, 12)` and the Pokemon Center at `(20, 16)`, use `x=16` for the vertical road `(0, 12) <-> (16, 12) <-> (16, 18) <-> (20, 18) <-> (20, 16)` to avoid Wally's house at `x=11..14, y=15..18`, the wandering boy on `x=14..15`, and the signpost at `(17, 16)`).
 
 ## Route 104 (South)
