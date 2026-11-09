@@ -10,7 +10,7 @@
 | Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught at Lv 5 with Old Rod; Huge Power; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Jigglypuff | MELODY | Active (Lv 14) | Caught at Lv 7 in tall grass; Cute Charm; holds Oran Berry; knows Sing, Pound, Disable, Seismic Toss |
-| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Petalburg Woods | Bellsprout | FLORA | Boxed (Lv 8) | Caught at Lv 8 in tall grass; Chlorophyll; knows Vine Whip, Acid |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` (use `Luvdisc` `2: Charm` + `1: Secret Power` chip + `Yawn`/`Sing` sleep + `Great Ball`!) |
 
