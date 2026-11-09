@@ -13,6 +13,11 @@
 | Petalburg Woods | Weepinbell | FLORA | Active (Lv 19) | Raised to Lv 19 (54 HP, 41 Atk, 26 Def, 42 Sp.Atk, 24 Sp.Def, 29 Speed; offered Body Slam Lv 18 & Stun Spore Lv 19); holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
+| Rusturf Tunnel | — | — | Pending | Accessible from eastern Route 116; open 6th party slot! |
+| Dewford Town | — | — | Pending | Old Rod fishing encounter |
+| Route 106 | — | — | Pending | Old Rod fishing encounter |
+| Granite Cave | — | — | Pending | Cave encounter |
+| Route 107 | — | — | Pending | Old Rod fishing encounter |
 
 ## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
 - **NEVER have a `Poison`- or `Fighting`-type (`Weepinbell`, `Gloom`, `Gulpin`, `Makuhita`, etc. — `2x` weak to `Lunatone`'s `50 BP STAB Confusion`!) on the field when Roxanne's `#1 Nosepass` faints!** In Attempt #31, we primed our 6-Pokemon squad right below Lv 17 and used `Azurill`'s `2: Charm` (`-2 Attack`) so `Nosepass`'s `Selfdestruct` only dealt 29 damage (and awarded full `346 EXP`, leveling `Marshtomp` and `Weepinbell` to Lv 17!), but because `Grass/Poison` `Weepinbell` was on the field when `Nosepass` fainted, Roxanne's AI sent out `#2 Lunatone` SECOND (`while 4 of our 6 Pokemon were still Lv 16!`) and survived at **1 HP**! Always finish `#1 Nosepass` (`or absorb its -2 Attack Selfdestruct`) with a **non-Poison/non-Fighting Pokemon (`Kabuto`, `Omanyte`, `Azurill`, `Luvdisc`, `Wingull`, `Goldeen`, or `Marshtomp`)** so `Lunatone` comes out `#6 LAST` after our entire team is Level 17! Also note that `Goldeen` is in the `Medium Fast` (`817 EXP`) group at Lv 16 (verified Turn 6154), and `Natu` can have `Early Bird` (`585/817 EXP` group).
