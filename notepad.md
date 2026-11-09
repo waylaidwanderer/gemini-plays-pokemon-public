@@ -4760,9 +4760,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 28 on 1F Level 0 is a continuous solid cliff wall across cols 14-19 blocking northward passage from (15, 29) and (16, 29) to the Northern Canyon.
 - The crevice at (15..16, 28) is an impassable vertical cliff seam, not an open path.
 
-## B1F to B2F Progression Routing (Turn 21241)
-- The sighted ladder on B1F at (17, 16) is the EXIT from B2F (leading up from the subterranean lake), NOT the entrance.
-- The true entrance into B2F lies along the unexplored path south down Column 25 past Cooltrainer Shannon (26, 16).
+## B1F to B2F Progression Routing & Circuit Reality (Turn 21331)
+- Southern Suspension Bridge connects (32, 16) East across cols 33-39 to (40, 16) on the Eastern Plateau.
+- The path south of Shannon (Column 25/27 -> row 19 -> stairs 32, 18 -> bridge 32, 16 -> 40, 16) forms a complete upper circuit leading back to the 1F return ladder (40, 24) and Acro rails. It does NOT contain a separate entrance to B2F.
+- The sighted ladder at (17, 16) and Cooltrainer at (14, 16) remain the prime B2F objective. Systematic verification of the row 13/14 boundary across cols 10-18 is required to locate the physical descent into that chamber.
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
@@ -4777,15 +4778,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - West: Wide corridor along row 6 (cols 14..11) terminates at a vertical one-way ledge at Column 11 hopping WEST into the Northwest chamber at (10, 6).
   - Northeast: Connects to the Northeast boulder puzzle / rock at (19, 5).
 - Northwest Loop Verified: The Northwest room connects via Column 9 chute -> row 13 East -> (15, 13) -> (15, 12) -> Column 15 North -> (15, 6) -> row 6 West -> hops Col 11 ledge back to (10, 6). This is a closed circuit on the upper level.
-## Verified Clean Northwest Room Reset & Chute Traversal (Turns 21105-21118)
-- Reset Procedure: Ascending the Northwest ladder at (8, 2) to 1F and immediately stepping back down to B1F resets Boulder 1 to (9, 10) and Boulder 2 to (4, 7).
-- Flawless Solution:
-  1. Route around upper rock mound via Column 9 and row 7 to (5, 7).
-  2. Activate Strength and push Boulder 2 West into (3, 7) alcove.
-  3. Walk down Column 4 (rows 7-10) and East along row 10 to (8, 10).
-  4. From (8, 10), push Boulder 1 East into (10, 10) alcove.
-  5. Column 9 chute is completely cleared. Walk down Column 9 (rows 10-13) onto row 13 highway.
-- Rock Smash Field Prompt Timing: The prompt "This rock appears to be breakable. Would you like to use ROCK SMASH?" requires ~800ms for text typing before the YES/NO box is active; confirm with A before pressing B.
 ## Verified Upper Western Landing Row 7 Ledge (Turn 21133)
 - Landing at (21, 8): Row 7 directly north of the western staircase landing is also an impassable south-facing one-way jump ledge.
 - The 4-rock Northeast puzzle cannot be entered from row 8.
