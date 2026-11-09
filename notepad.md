@@ -4,11 +4,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Evolved at Lv 16 (52 HP, 992 / 1,021 EXP — primed 29 EXP from Lv 17!); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Boxed (Lv 16) | Evolved at Lv 16 (52 HP, 992 / 1,021 EXP — primed 29 EXP from Lv 17!); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Active (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim (478 / 653 EXP); holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
 | Route 103 | Skitty | SELENE | Boxed (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone used on ARES; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
 | Route 102 | Nidoking | ARES | Active (Lv 16) | Evolved into Nidorino -> Nidoking at Lv 16 (55 HP, 370 / 585 EXP); Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick |
-| Petalburg City | Azurill | GALATEA | Boxed (Lv 16) | Caught at Lv 5 with Old Rod; Huge Power; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam (boxed until Rustboro City with ~450 EXP buffer!) |
+| Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught at Lv 5 with Old Rod; Huge Power; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam (~135 / 585 EXP) |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
 | Petalburg Woods | Weepinbell | FLORA | Active (Lv 16) | Evolved at Lv 16 (47 HP, 35 Atk, 35 Sp.Atk, 24 Speed, 388 / 585 EXP); Chlorophyll; holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
 | Route 116 | Paras | HYPNOS | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 24 Def, 23 Sp.Atk, 27 Sp.Def, 16 Speed, 0 / 653 EXP); Effect Spore; holds Oran Berry; knows Body Slam, Mega Drain, Toxic, Knock Off |
