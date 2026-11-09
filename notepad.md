@@ -285,12 +285,12 @@
 - **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
 - **Trainer-Free Path to Southern Beach**:
   - From `(21, 77)`, step `Right` to `(22, 77)`, `Up x3` through the 2-tile ledge gap at `x=22..23, y=76` to `(22, 74)`, `Left` to `(21, 74)`, and `Up x12` straight up `x=21` (passing east of the wandering friendly girl in the brown hat near `(17, 68)` and west of the cliff ridge at `x=22, y=68..69`) to `(21, 62)`.
-  - From `(21, 62)`, walk `Left x6` above the trees at `x=19..20, y=63..66` and the signpost at `(16, 64)` to `(15, 62)`, `Down x5` along `x=15` to `(15, 67)`, `Left x4` to `(11, 67)`, `Down x4` down the southern beach staircase at `(10..11, 70)` to `(11, 71)`, and `Left x4` to `(7, 71)` facing `Left` at the ocean `(6, 71)`.
+  - From `(21, 62)`, walk `Left x7` above the trees at `x=19..20, y=63..66` and the signpost at `(16, 64)` to `(14, 62)` (west of the `x=15` vertical ridge), `Down x7` along `x=14` to `(14, 69)`, `Left x3` along `y=69` to `(11, 69)` (since the cliff ridge blocks `(12, 70)` and the beach staircase at `x=10..11, y=70` is entered from the north at `y=69`), `Down x2` down the staircase to `(11, 71)`, and `Left x4` to `(7, 71)` facing `Left` at the ocean `(6, 71)`.
 - **Trainers & Items Observed**:
   - **Black Belt** at `(24, 62)` facing `Right` & **Battle Girl** at `(28, 62)` facing `Left` (guarding the eastern sand path to the item ball at `(26, 68)`).
   - **Beach Trainer** at `(11, 61)` facing `Right` across the northern beach staircase at `(14, 61)` (item ball at `(20, 60)` is on the northern beach shoreline).
 - **Old Rod Encounter (`(7, 71)` facing `Left`)**:
-  - **Wild `Kabuto` or `Omanyte`** (M, Lv 9; `Rock/Water`, knows `Rock Tomb` and `Water Pulse`). Note: using `Secret Power` on beach terrain has a 30% chance to lower the target's Accuracy by 1 stage (`-1 Accuracy`) while dealing safe `0.5x`-resisted chip damage against their high Defense.
+  - **Wild `Kabuto` or `Omanyte`** (M, Lv 9, catch rate `45`; `Rock/Water`, `Kabuto` knows `Rock Tomb` and `Water Pulse`, while `Omanyte` carries **`65 BP STAB BubbleBeam`** in addition to `Rock Tomb` [which crit-KO'd `Galatea` from `21/44 HP` on Turn 5935!]). Always chip with `Luvdisc` (`0.5x` resists `Water Pulse`/`BubbleBeam`, `2: Charm` cuts `Rock Tomb` to 3 dmg, and `1: Secret Power` on beach terrain has a 30% chance to lower Accuracy while dealing safe `0.5x`-resisted 3–4 dmg chip), keep a `Water`-resisting Pokemon (`Luvdisc` / `Mudkip`) healthy on the field, inflict `SLP` (`2x` catch rate), and use the `Great Ball` from the Devon Researcher!
 
 ## Rustboro Gym
 - **Entrance**: Enters from Rustboro City `(27, 19)` onto `(5, 19)`.
