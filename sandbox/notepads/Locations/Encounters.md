@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #33)
+# Nuzlocke Encounters (Attempt #34)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 15) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
-| Littleroot Town | Luvdisc | APHRODITE | Active (Lv 15) | Caught at Lv 4 at `(17, 13)` facing `Right` with `Old Rod`; knows Secret Power, Charm, Water Pulse |
-| Route 103 | Skitty | SELENE | Active (Lv 14) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
-| Route 102 | Gulpin | BACCHUS | Retired (Lv 17, Boxed until Brawly) | Caught at Lv 6 in tall grass at `(39, 5)`; knows Acid, Giga Drain, Fire Punch, Sludge Bomb (exceeded Lv 16 cap on Darian) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; **`Thick Fat`** (`0.5x` Fire/Ice); knows Body Slam, Charm, Secret Power, BubbleBeam |
-| Route 104 | Snubbull | ARES | Active (Lv 15) | Caught at Lv 7 in tall grass at `(24, 60)`; `Run Away`; knows Headbutt, Bite, Lick, Roar |
-| Petalburg Woods | Hoothoot | ATHENA | Active (Lv 15) | Caught at Lv 8 in tall grass at `(12, 33)`; **`Insomnia`** (immune to sleep!); knows Tackle, Peck, Confusion, Aerial Ace |
-| Route 116 | Makuhita | NIKE | Active (Lv 15) | Caught at Lv 9 in tall grass at `(5, 14)`; knows Faint Attack, SmellingSalt, Vital Throw, Force Palm |
-| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip from Birch's Bag |
+| Littleroot Town | — | — | Pending | Old Rod at `(17, 13)` facing `Right` |
+| Route 103 | — | — | Pending | Tall grass at `(15..18, 11..13)` |
+| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
+| Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
+| Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
+| Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
+| Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` (use `Luvdisc` `2: Charm` + `1: Secret Power` chip + `Yawn`/`Sing` sleep + `Great Ball`!) |
 
 ## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
 - **NEVER have a `Poison`- or `Fighting`-type (`Weepinbell`, `Gloom`, `Gulpin`, `Makuhita`, etc. — `2x` weak to `Lunatone`'s `50 BP STAB Confusion`!) on the field when Roxanne's `#1 Nosepass` faints!** In Attempt #31, we primed our 6-Pokemon squad right below Lv 17 and used `Azurill`'s `2: Charm` (`-2 Attack`) so `Nosepass`'s `Selfdestruct` only dealt 29 damage (and awarded full `346 EXP`, leveling `Marshtomp` and `Weepinbell` to Lv 17!), but because `Grass/Poison` `Weepinbell` was on the field when `Nosepass` fainted, Roxanne's AI sent out `#2 Lunatone` SECOND (`while 4 of our 6 Pokemon were still Lv 16!`) and survived at **1 HP**! Always finish `#1 Nosepass` (`or absorb its -2 Attack Selfdestruct`) with a **non-Poison/non-Fighting Pokemon (`Kabuto`, `Omanyte`, `Azurill`, `Luvdisc`, `Wingull`, `Goldeen`, or `Marshtomp`)** so `Lunatone` comes out `#6 LAST` after our entire team is Level 17! Also note that `Goldeen` is in the `Fast` (`653 EXP`) group at Lv 16, and `Natu` can have `Early Bird` (`585/817 EXP` group).
