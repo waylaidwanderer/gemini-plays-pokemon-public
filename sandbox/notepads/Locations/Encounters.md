@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
 | Petalburg Woods | Weepinbell | FLORA | Active (Lv 16) | Evolved at Lv 16 (47 HP, 35 Atk, 35 Sp.Atk, 24 Speed, 560 / 585 EXP — primed 25 EXP from Lv 17!); Chlorophyll; holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
-| Route 116 | Paras | HYPNOS | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 24 Def, 23 Sp.Atk, 27 Sp.Def, 16 Speed, 124 / 653 EXP); Effect Spore; holds Oran Berry; knows Body Slam, Mega Drain, Toxic, Knock Off |
+| Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
 
 ## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
