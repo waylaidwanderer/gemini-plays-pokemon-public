@@ -4810,6 +4810,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western corridor along row 12 is open across cols 15-20 leading past the smashed rock at (18, 12).
 - Active exploration target: Walk West along row 12 past (18, 12) to test south-facing openings at cols 18, 17, 16, 15 directly above the B2F ladder (17, 16) and Cooltrainer (14, 16).
 
+## B1F Row 13 & Western Canyon Route (Verified Turns 21428-21441)
+- Systematic Probing of Row 13: Cols 15 down to 9 along row 13 were tested with south-facing steps; all bumped. Row 14 is a continuous solid cliff drop across cols 9-15 (not a jump ledge).
+- True Descent Route to Lower Terrace & B2F Ladder:
+  - From (9, 13) at base of Column 9 chute, row 13 continues West through (8, 13) to (7, 13).
+  - At cols 7-8, the terrain opens into a wide north-south canyon descending South down to row 16.
+  - Row 16 runs unobstructed East directly to Cooltrainer Vito Winstrate (14, 16) and the B2F entrance ladder (17, 16)!
+
 
 <hr>
 
