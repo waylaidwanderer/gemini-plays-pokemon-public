@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 14) | Caught at Lv 4 at `(17, 13)` facing `Right` with `Old Rod`; knows Secret Power, Charm, Water Pulse |
 | Route 103 | Skitty | SELENE | Active (Lv 14) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
 | Route 102 | Gulpin | BACCHUS | Retired (Lv 17, Boxed until Brawly) | Caught at Lv 6 in tall grass at `(39, 5)`; knows Acid, Giga Drain, Fire Punch, Sludge Bomb (exceeded Lv 16 cap on Darian) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; **`Thick Fat`** (`0.5x` Fire/Ice); knows Body Slam, Charm, Secret Power, BubbleBeam |
+| Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; **`Thick Fat`** (`0.5x` Fire/Ice); knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Snubbull | ARES | Active (Lv 15) | Caught at Lv 7 in tall grass at `(24, 60)`; `Run Away`; knows Headbutt, Bite, Lick, Roar |
 | Petalburg Woods | Hoothoot | ATHENA | Active (Lv 14) | Caught at Lv 8 in tall grass at `(12, 33)`; **`Insomnia`** (immune to sleep!); knows Tackle, Peck, Confusion, Aerial Ace |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
