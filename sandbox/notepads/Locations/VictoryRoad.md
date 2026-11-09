@@ -275,3 +275,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 13 Termination: Systematic probing confirmed that row 14 is a continuous solid cliff drop across cols 9-15.
 - At (9, 13), tile (8, 13) to the West is a solid vertical cliff corner. Row 13 terminates at (9, 13) and does not connect to the western canyon.
 - The western canyon (cols 5-7, descending to row 16 and B2F ladder) is accessible from the Northwest chamber via Column 4 / Row 10.
+
+## B1F Northwest Puzzle & Row 10 Collision Summary (Verified Turns 21473-21505)
+- Boulder 2: Pushed West from (4, 7) into (3, 7) alcove, completely clearing Column 4.
+- Row 10 Impassable Boundary: Downward steps along Row 10 (cols 4, 5, 6, 7, 8) all bumped against continuous solid cliffs at row 11. Tile (3, 10) is also solid.
+- Boulder 1: Pushed East from (9, 10) into (10, 10) alcove, completely opening Column 9 chute to row 13.
+- Northeast Puzzle Solution: Lower boulder pushed South into (20, 6); upper boulder pushed North into (21, 3), opening the eastern corridor into Column 25.
+- Target Route: Column 25 leads South to Shannon (26, 16). Row 16 connects Shannon West directly to B2F ladder (17, 16) and Vito Winstrate (14, 16).
