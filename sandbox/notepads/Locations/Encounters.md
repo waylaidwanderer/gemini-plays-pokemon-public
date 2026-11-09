@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; **`Thick Fat`** (`0.5x` Fire/Ice); knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Snubbull | ARES | Active (Lv 15) | Caught at Lv 7 in tall grass at `(24, 60)`; `Run Away`; knows Headbutt, Bite, Lick, Roar |
 | Petalburg Woods | Hoothoot | ATHENA | Active (Lv 15) | Caught at Lv 8 in tall grass at `(12, 33)`; **`Insomnia`** (immune to sleep!); knows Tackle, Peck, Confusion, Aerial Ace |
-| Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
+| Route 116 | Makuhita | NIKE | Active (Lv 15) | Caught at Lv 9 in tall grass at `(5, 14)`; knows Faint Attack, SmellingSalt, Vital Throw, Force Palm |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
 
 ## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
