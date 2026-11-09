@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass (55 HP); defeated #5 Lunatone and #6 Shuckle; knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Active (Lv 17) | Reached Lv 17 on Roxanne's #2 Anorith (45 HP, 28 Speed); Swift Swim; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
-| Route 103 | Skitty | SELENE | Boxed (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone used on ARES; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
+| Route 103 | Skitty | SELENE | Active (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone used on ARES; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
 | Route 102 | Nidoking | ARES | Active (Lv 17) | Reached Lv 17 on Roxanne's #2 Anorith (57 HP, 37 Atk, 36 Def, 39 Sp.Atk, 32 Sp.Def, 34 Speed); KO'd #3 Lileep with Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
