@@ -4,13 +4,13 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Evolved at Lv 16 (52 HP, 992 / 1,021 EXP — primed 29 EXP from Lv 17!); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim (Medium Fast 817 EXP group: 675 / 817 EXP — primed 142 EXP from Lv 17!); holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass (55 HP); defeated #5 Lunatone and #6 Shuckle; knows Tackle, Bubble, Mud Shot, Water Gun |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 17) | Reached Lv 17 on Roxanne's #2 Anorith (45 HP, 28 Speed); Swift Swim; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
 | Route 103 | Skitty | SELENE | Boxed (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone used on ARES; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
-| Route 102 | Nidoking | ARES | Active (Lv 16) | Evolved into Nidorino -> Nidoking at Lv 16 (55 HP, 561 / 585 EXP — primed 24 EXP from Lv 17!); Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick |
+| Route 102 | Nidoking | ARES | Active (Lv 17) | Reached Lv 17 on Roxanne's #2 Anorith (57 HP, 37 Atk, 36 Def, 39 Sp.Atk, 32 Sp.Def, 34 Speed); KO'd #3 Lileep with Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
-| Petalburg Woods | Weepinbell | FLORA | Active (Lv 16) | Evolved at Lv 16 (47 HP, 35 Atk, 35 Sp.Atk, 24 Speed, 560 / 585 EXP — primed 25 EXP from Lv 17!); Chlorophyll; holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
+| Petalburg Woods | Weepinbell | FLORA | Active (Lv 17) | Reached Lv 17 on Roxanne's #3 Lileep (49 HP, 37 Atk, 37 Sp.Atk, 25 Speed); OHKO'd #4 Relicanth from 100% HP with Special Vine Whip! |
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
 
@@ -36,7 +36,7 @@
 
 ## Active Rules & Status
 - **Attempt**: #34
-- **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
+- **Current Level Cap**: Lv 20 (Brawly - Dewford Gym; Stone Badge earned on Turn 6194!)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
