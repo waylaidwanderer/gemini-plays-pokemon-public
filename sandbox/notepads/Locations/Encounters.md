@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 14) | Caught at Lv 4 at `(17, 13)` facing `Right` with `Old Rod`; knows Secret Power, Charm, Water Pulse |
 | Route 103 | Skitty | SELENE | Active (Lv 14) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
-| Route 102 | Gulpin | BACCHUS | Active (Lv 14) | Caught at Lv 6 in tall grass at `(39, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
+| Route 102 | Gulpin | BACCHUS | Active (Lv 15) | Caught at Lv 6 in tall grass at `(39, 5)`; knows Acid, Yawn, Fire Punch, Sludge Bomb |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Snubbull | ARES | Active (Lv 14) | Caught at Lv 7 in tall grass at `(24, 60)`; knows Headbutt, Bite, Lick, Roar |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
