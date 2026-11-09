@@ -225,10 +225,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 28 on 1F Level 0 is a continuous solid cliff wall across cols 14-19 blocking northward passage from (15, 29) and (16, 29) to the Northern Canyon.
 - The crevice at (15..16, 28) is an impassable vertical cliff seam, not an open path.
 
-## B1F to B2F Progression Routing & Circuit Reality (Turn 21331)
-- Southern Suspension Bridge connects (32, 16) East across cols 33-39 to (40, 16) on the Eastern Plateau.
-- The path south of Shannon (Column 25/27 -> row 19 -> stairs 32, 18 -> bridge 32, 16 -> 40, 16) forms a complete upper circuit leading back to the 1F return ladder (40, 24) and Acro rails. It does NOT contain a separate entrance to B2F.
-- The sighted ladder at (17, 16) and Cooltrainer at (14, 16) remain the prime B2F objective. Systematic verification of the row 13/14 boundary across cols 10-18 is required to locate the physical descent into that chamber.
+## B1F to B2F Verified Progression Route (Turn 21361)
+- Row 12 Topography: Row 12 is bounded to the south by a solid cliff wall; it does NOT descend into the Lower Terrace. It leads strictly East past smashed rock (18, 12) to the wooden staircase at (21, 12).
+- Upper Circuit vs Lower Basin: The path past Shannon (Column 25/27 -> row 19 -> stairs 32, 18 -> bridge 32, 16 -> 40, 16) is an upper elevated circuit leading to the 1F return ladder (40, 24).
+- True Route to B2F Ladder & Vito Winstrate:
+  1. From (17, 12), step East past smashed rock (18, 12) to wooden staircase at (21, 12).
+  2. Ascend staircase to row 9 and cross Upper Suspension Bridge at row 8 East to (32, 8).
+  3. Descend staircase at (32, 10..11) to Samuel's terrace (35, 12).
+  4. Walk South completely under the overhead suspension bridge down Column 37 into the Southern Cavern Highway (rows 22-26).
+  5. The Southern Cavern Highway (rows 22-26) shares the same lower elevation as Vito Winstrate (14, 16) and the B2F ladder (17, 16). Advance West and Northwest across the lower basin to access the ladder!
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
@@ -264,10 +269,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Column 4 Termination: Stepping Down from (4, 10) bumps into a solid cliff wall at (4, 11); Column 4 does not continue south.
 - Row 14 Cliff: Bounded continuously along row 14 from col 9 to col 19.
 - Lower Terrace (17, 16): Sighted with B2F ladder and Cooltrainer at (14, 16), but has no direct walkable descent from row 13, Column 4, or Column 22.
-
-## Verified Strength Mechanics & Northwest Room Execution (Turn 21276)
-- Strength Boulder Push Mechanic: When pushing a boulder, the boulder advances 1 tile away while the player remains in place; an additional step in that direction is required to step onto the vacated tile.
-- Canonical Northwest Room Route: Push Boulder 2 West into (3, 7) from (5, 7) -> walk down Col 4 to (4, 10) -> walk East to (8, 10) -> push Boulder 1 East into (10, 10) -> step Right into (9, 10) -> descend Column 9 chute to (9, 13) highway.
 
 ## Verified B1F Southern Shelf & Shannon Bypass (Turns 21309-21328)
 - Shannon Bypass: Column 25 terminates at row 15 cliff edge. Defeated Cooltrainer Shannon stands at (26, 16). Column 27 is an unobstructed vertical corridor east of Shannon connecting row 14 directly south to row 19.
