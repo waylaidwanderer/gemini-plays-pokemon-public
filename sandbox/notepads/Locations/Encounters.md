@@ -8,7 +8,7 @@
 | Route 102 | Nidoking | ARES | Active (Lv 19) | Raised to Lv 19 (63 HP, 41 Atk, 39 Def, 43 Sp.Atk, 35 Sp.Def, 37 Speed); Poison Point; holds Oran Berry; knows Cut (50 BP, 100% acc), Peck, Horn Attack, Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
-| Petalburg Woods | Weepinbell | FLORA | Active (Lv 19) | Raised to Lv 19 (54 HP, 41 Atk, 26 Def, 42 Sp.Atk, 24 Sp.Def, 29 Speed; offered Body Slam Lv 18 & Stun Spore Lv 19); holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
+| Petalburg Woods | Weepinbell | FLORA | Active (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy (57 HP, 43 Atk, 27 Def, 44 Sp.Atk, 25 Sp.Def, 31 Speed; 0 EXP into Lv 20 — keep in back row until Brawly!); holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
 | Rusturf Tunnel | — | — | Pending | Accessible from eastern Route 116; open 6th party slot! |
