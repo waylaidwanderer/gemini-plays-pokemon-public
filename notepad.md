@@ -8,8 +8,8 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 14) | Caught at Lv 4 at `(17, 13)` facing `Right` with `Old Rod`; knows Secret Power, Charm, Water Pulse |
 | Route 103 | Skitty | SELENE | Active (Lv 14) | Caught at Lv 4 in tall grass at `(17, 11)`; knows Assist, Attract, Sing, Secret Power |
 | Route 102 | Gulpin | BACCHUS | Retired (Lv 17, Boxed until Brawly) | Caught at Lv 6 in tall grass at `(39, 5)`; knows Acid, Giga Drain, Fire Punch, Sludge Bomb (exceeded Lv 16 cap on Darian) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; knows Body Slam, Charm, Secret Power, BubbleBeam |
-| Route 104 | Snubbull | ARES | Active (Lv 15) | Caught at Lv 7 in tall grass at `(24, 60)`; knows Headbutt, Bite, Lick, Roar |
+| Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught at Lv 5 at `(11, 22)` facing `Down` with `Old Rod`; **`Thick Fat`** (`0.5x` Fire/Ice); knows Body Slam, Charm, Secret Power, BubbleBeam |
+| Route 104 | Snubbull | ARES | Active (Lv 15) | Caught at Lv 7 in tall grass at `(24, 60)`; `Run Away`; knows Headbutt, Bite, Lick, Roar |
 | Petalburg Woods | Hoothoot | ATHENA | Active (Lv 14) | Caught at Lv 8 in tall grass at `(12, 33)`; **`Insomnia`** (immune to sleep!); knows Tackle, Peck, Confusion, Aerial Ace |
 | Route 116 | — | — | Pending | Tall grass at `(4..7, 12..16)` |
 | Route 115 | — | — | Pending | Old Rod at `(7, 71)` facing `Left` |
@@ -297,7 +297,7 @@
 - **Corridor Layout & Trainers**:
   - **Western Corridor (`x=1`)**: Physically blocked at `(1, 12)` and `(1, 11)` by two stationary trainers to prevent the vanilla Gym skip.
   - **School Kid Josh (`(8, 14)` facing `Left`)**: Triggers when stepping onto `(5, 14)`.
-    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP, **`Selfdestruct`** — **ALWAYS OHKO ON TURN 1** with a faster Water/Grass move before it can move; never switch on Turn 1!), `Zubat` (M, Lv 11, 126 EXP, `Hypnosis`, `Aerial Ace`, `Giga Drain`), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, `ThunderPunch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
+    - Team (4 Pokemon, `1,108 EXP` total): `Geodude` (M, Lv 15, 276 EXP, **`Selfdestruct`** — **ALWAYS OHKO ON TURN 1** with a faster Water/Grass move before it can move; never switch on Turn 1! Note that when a pure-Water Pokemon KOs `#1 Geodude`, Josh's AI sends out `#2 Sudowoodo` [`ThunderPunch`] second before `Zubat`, verified Turn 5695), `Zubat` (M, Lv 11, 126 EXP, `Hypnosis`, `Aerial Ace`, `Giga Drain`), `Sudowoodo` (M, Lv 12, 346 EXP, `Calm Mind`, `Rock Tomb`, `Ice Punch`, `ThunderPunch`, holds `Sitrus Berry`), `Omanyte` (M, Lv 14, 360 EXP, `Water Pulse`, `Rock Tomb`, `Bite`, `Aurora Beam`).
   - **School Kid Tammy (`(1, 12)` facing `Right`)**: Mandatory trainer watching across the 1-tile gap between the left display cases into `(4..5, 12)` (`(7..8, 13)` is a solid display-case wall).
     - Team (5 Pokemon): `Aron` (M, Lv 13, 267 EXP, `Rock Tomb`, `Brick Break` [75 BP Fighting], `Secret Power`, `Iron Defense`, 14+ Speed), `Yanma` (M, Lv 11, 345 EXP, `Speed Boost`, `Giga Drain`, `AncientPower`, `Silver Wind`, `Aerial Ace`), `Rhyhorn` (M, Lv 15, 432 EXP, **`Megahorn`** [120 BP], `Magnitude`, `Ice Beam`, `Rock Tomb`), `Corsola` (F, Lv 13, 309 EXP, `Aurora Beam`, `Rock Tomb`, `Water Pulse`, `Recover`, holds `Sitrus Berry` — never use `-1` priority `Vital Throw` on `Corsola`; use `4x` Grass like `Weepinbell`'s `Bullet Seed` or `Gloom`'s `Magical Leaf`!), `Larvitar` (M, Lv 15, 214 EXP, **`Earthquake`** [100 BP], `Rock Slide`, `Facade`, 18+ Speed).
   - **Hiker Marc (`(1, 11)` facing `Up`)**: Mandatory 3rd and final Gym Trainer watching north along `x=1` into `(1, 8)` (reached from `(5, 12)` via `Up x4` to `(5, 8)` then `Left x4` to `(1, 8)`, just south of Gym Leader Roxanne's platform stairs).
