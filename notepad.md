@@ -267,7 +267,7 @@
   - **Cutter's House**: Door at `(9, 38)` (enters at `(5, 8)` on a 2-tile doormat `(5..6, 8)`); Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`).
   - **Pokemon Trainer's School**: Door at `(27, 34)` (fountain at `(27, 38)`); NPC at `(5, 3)` inside has no interaction script in this hack.
   - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=24..35, y=25`; Trade Boy is inside at `(4, 4)`).
-  - **Rustboro Gym & Adjacent House**: Rustboro Gym door at `(27, 19)`; house east of Gym has door at `(33, 19)` (doormat inside at `(5, 7)`).
+  - **Rustboro Gym & Adjacent House**: Rustboro Gym door at `(27, 19)`; house east of Gym has door at `(33, 19)` (doormat inside at `(5, 7)`). Exiting Rustboro Gym after earning the Stone Badge and walking west onto `(23, 20)` triggers the Devon Goods theft cutscene (`require ["sleep 6500"] + ["B", "sleep 1000", "L", "sleep 200"] * 12 + ["sleep 3000"]`, verified Turn 6196).
   - **Eastern Exit (to Route 116)**: From the main avenue at `(21, 20)`, walk `Up x9` to `(21, 11)` and `Right x19` onto Route 116 `(0, 11)` (tall grass starts at `(4, 13..15)`).
 
 ## Route 116
