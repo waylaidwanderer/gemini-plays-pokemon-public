@@ -4812,6 +4812,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Strength Boulder Push Mechanic: When pushing a boulder, the boulder advances 1 tile away while the player remains in place; an additional step in that direction is required to step onto the vacated tile.
 - Canonical Northwest Room Route: Push Boulder 2 West into (3, 7) from (5, 7) -> walk down Col 4 to (4, 10) -> walk East to (8, 10) -> push Boulder 1 East into (10, 10) -> step Right into (9, 10) -> descend Column 9 chute to (9, 13) highway.
 
+## Verified B1F Southern Shelf & Shannon Bypass (Turns 21309-21328)
+- Shannon Bypass: Column 25 terminates at row 15 cliff edge. Defeated Cooltrainer Shannon stands at (26, 16). Column 27 is an unobstructed vertical corridor east of Shannon connecting row 14 directly south to row 19.
+- Row 20 Cliff Wall: The horizontal boundary along row 20 across cols 27-32 is a solid cliff wall overlooking the southern lower basin (not a jump ledge); it cannot be hopped downward.
+- Wooden Staircase (32, 18..19): Ascends North from row 19 up to the elevated bridge landing at (32, 16).
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
