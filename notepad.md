@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Littleroot Town | Goldeen | NEREUS | Boxed (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic (~590 EXP buffer!) |
 | Route 103 | Skitty | SELENE | Active (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone stored in Bag; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
 | Petalburg City | Azurill | GALATEA | Boxed (Lv 16) | Caught at Lv 5 with Old Rod; Huge Power; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam (boxed until Rustboro City with ~450 EXP buffer!) |
