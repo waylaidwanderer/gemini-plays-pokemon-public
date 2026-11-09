@@ -4804,18 +4804,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Shannon Bypass: Column 25 terminates at row 15 cliff edge. Defeated Cooltrainer Shannon stands at (26, 16). Column 27 is an unobstructed vertical corridor east of Shannon connecting row 14 directly south to row 19.
 - Row 20 Cliff Wall: The horizontal boundary along row 20 across cols 27-32 is a solid cliff wall overlooking the southern lower basin (not a jump ledge); it cannot be hopped downward.
 - Wooden Staircase (32, 18..19): Ascends North from row 19 up to the elevated bridge landing at (32, 16).
-## B1F Row 12 / Col 21 Topography (Verified Turn 21413-21417)
-- Stepping Down from (21, 12) lands on (21, 13).
-- Stepping Down from (21, 13) into (21, 14) bumps into an impassable cliff boundary/corner. South descent at col 21 is blocked.
-- Western corridor along row 12 is open across cols 15-20 leading past the smashed rock at (18, 12).
-- Active exploration target: Walk West along row 12 past (18, 12) to test south-facing openings at cols 18, 17, 16, 15 directly above the B2F ladder (17, 16) and Cooltrainer (14, 16).
 
-## B1F Row 13 & Western Canyon Route (Verified Turns 21428-21441)
-- Systematic Probing of Row 13: Cols 15 down to 9 along row 13 were tested with south-facing steps; all bumped. Row 14 is a continuous solid cliff drop across cols 9-15 (not a jump ledge).
-- True Descent Route to Lower Terrace & B2F Ladder:
-  - From (9, 13) at base of Column 9 chute, row 13 continues West through (8, 13) to (7, 13).
-  - At cols 7-8, the terrain opens into a wide north-south canyon descending South down to row 16.
-  - Row 16 runs unobstructed East directly to Cooltrainer Vito Winstrate (14, 16) and the B2F entrance ladder (17, 16)!
+
+## B1F Row 13 Topography (Verified Turns 21428-21442)
+- Row 13 Termination: Systematic probing confirmed that row 14 is a continuous solid cliff drop across cols 9-15.
+- At (9, 13), tile (8, 13) to the West is a solid vertical cliff corner. Row 13 terminates at (9, 13) and does not connect to the western canyon.
+- The western canyon (cols 5-7, descending to row 16 and B2F ladder) is accessible from the Northwest chamber via Column 4 / Row 10.
 
 
 <hr>
