@@ -4,15 +4,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 14) | Chosen from Professor Birch's Bag on Route 101; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Evolved at Lv 16 (52 HP, 1,021 EXP buffer); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Boxed (Lv 16) | Caught at Lv 5 with Old Rod; Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic (~590 EXP buffer!) |
-| Route 103 | Skitty | SELENE | Active (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone stored in Bag; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
-| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
+| Route 103 | Skitty | SELENE | Active (Lv 16) | Caught at Lv 4 in tall grass; wild Moon Stone used on ARES; holds Oran Berry; knows Fake Out, Attract, Sing, Secret Power |
+| Route 102 | Nidoking | ARES | Active (Lv 16) | Evolved into Nidorino -> Nidoking at Lv 16 (55 HP, 585 EXP buffer); Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick |
 | Petalburg City | Azurill | GALATEA | Boxed (Lv 16) | Caught at Lv 5 with Old Rod; Huge Power; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam (boxed until Rustboro City with ~450 EXP buffer!) |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
-| Petalburg Woods | Bellsprout | FLORA | Active (Lv 15) | Caught at Lv 8 in tall grass; Chlorophyll; holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
-| Route 116 | Paras | HYPNOS | Active (Lv 9) | Caught at Lv 9 in tall grass; Effect Spore; Fast EXP group; starts with Stun Spore, Mega Drain, Toxic |
-| Route 115 | Kabuto | TRITON | Active (Lv 9) | Caught at Lv 9 with Old Rod; starts with Rock Tomb, Water Pulse (learns Mega Drain at Lv 13; 817 EXP buffer at Lv 16!) |
+| Petalburg Woods | Weepinbell | FLORA | Active (Lv 16) | Evolved at Lv 16 (47 HP, 35 Atk, 35 Sp.Atk, 24 Speed, 585 EXP buffer); Chlorophyll; holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
+| Route 116 | Paras | HYPNOS | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 24 Def, 23 Sp.Atk, 27 Sp.Def, 16 Speed, 653 EXP buffer); Effect Spore; holds Oran Berry; knows Body Slam, Mega Drain, Toxic, Knock Off |
+| Route 115 | Kabuto | TRITON | Active (Lv 16) | Raised to Lv 16 (37 HP, 29 Atk, 38 Def, 26 Sp.Atk, 24 Sp.Def, 22 Speed, 817 EXP buffer); holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain |
 
 ## Key Attempt #31 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
 - **NEVER have a `Poison`- or `Fighting`-type (`Weepinbell`, `Gloom`, `Gulpin`, `Makuhita`, etc. — `2x` weak to `Lunatone`'s `50 BP STAB Confusion`!) on the field when Roxanne's `#1 Nosepass` faints!** In Attempt #31, we primed our 6-Pokemon squad right below Lv 17 and used `Azurill`'s `2: Charm` (`-2 Attack`) so `Nosepass`'s `Selfdestruct` only dealt 29 damage (and awarded full `346 EXP`, leveling `Marshtomp` and `Weepinbell` to Lv 17!), but because `Grass/Poison` `Weepinbell` was on the field when `Nosepass` fainted, Roxanne's AI sent out `#2 Lunatone` SECOND (`while 4 of our 6 Pokemon were still Lv 16!`) and survived at **1 HP**! Always finish `#1 Nosepass` (`or absorb its -2 Attack Selfdestruct`) with a **non-Poison/non-Fighting Pokemon (`Kabuto`, `Omanyte`, `Azurill`, `Luvdisc`, `Wingull`, `Goldeen`, or `Marshtomp`)** so `Lunatone` comes out `#6 LAST` after our entire team is Level 17! Also note that `Goldeen` is in the `Fast` (`653 EXP`) group at Lv 16, and `Natu` can have `Early Bird` (`585/817 EXP` group).
