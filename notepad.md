@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Chosen from Professor Birch's Bag on Route 101; knows Tackle, Bubble, Mud Sport, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Active (Lv 14) | Caught at Lv 5 with Old Rod; Swift Swim; knows BubbleBeam, Psybeam, Haze, Supersonic |
 | Route 103 | Skitty | SELENE | Active (Lv 12) | Caught at Lv 4 in tall grass; knows Assist, Attract, Sing, Secret Power |
-| Route 102 | — | — | Pending | Tall grass at `(37..39, 5..6)` |
+| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught at Lv 6 in tall grass; Poison Point; knows Poison Sting, Peck, Horn Attack, Double Kick (evolves into Nidorino -> Nidoking at Lv 16 with SELENE's Moon Stone!) |
 | Petalburg City | — | — | Pending | Old Rod at `(11, 22)` facing `Down` |
 | Route 104 | — | — | Pending | Tall grass at `(22..24, 56..61)` |
 | Petalburg Woods | — | — | Pending | Tall grass at `(6..13, 27..33)` |
