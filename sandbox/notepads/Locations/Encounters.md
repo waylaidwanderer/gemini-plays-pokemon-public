@@ -5,7 +5,7 @@
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 19) | Raised to Lv 19 (60 HP, 40 Atk, 33 Def, 35 Sp.Atk, 31 Sp.Def, 25 Speed); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Active (Lv 19) | Raised to Lv 19 (49 HP, 38 Atk, 32 Def, 21 Sp.Atk, 25 Sp.Def, 31 Speed); Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
 | Route 103 | Skitty | SELENE | Active (Lv 19) | Raised to Lv 19 (53 HP, 27 Atk, 24 Def, 22 Sp.Atk, 21 Sp.Def, 29 Speed); Cute Charm; holds Oran Berry; knows Fake Out, Heal Bell (learned Lv 19), Sing, Secret Power |
-| Route 102 | Nidoking | ARES | Active (Lv 19) | Raised to Lv 19 (63 HP, 41 Atk, 39 Def, 43 Sp.Atk, 35 Sp.Def, 37 Speed); Poison Point; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick |
+| Route 102 | Nidoking | ARES | Active (Lv 19) | Raised to Lv 19 (63 HP, 41 Atk, 39 Def, 43 Sp.Atk, 35 Sp.Def, 37 Speed); Poison Point; holds Oran Berry; knows Cut (50 BP, 100% acc), Peck, Horn Attack, Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
 | Petalburg Woods | Weepinbell | FLORA | Active (Lv 19) | Raised to Lv 19 (54 HP, 41 Atk, 26 Def, 42 Sp.Atk, 24 Sp.Def, 29 Speed; offered Body Slam Lv 18 & Stun Spore Lv 19); holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
