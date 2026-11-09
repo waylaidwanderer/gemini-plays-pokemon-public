@@ -4760,15 +4760,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 28 on 1F Level 0 is a continuous solid cliff wall across cols 14-19 blocking northward passage from (15, 29) and (16, 29) to the Northern Canyon.
 - The crevice at (15..16, 28) is an impassable vertical cliff seam, not an open path.
 
-## B1F to B2F Verified Progression Route (Turn 21361)
-- Row 12 Topography: Row 12 is bounded to the south by a solid cliff wall; it does NOT descend into the Lower Terrace. It leads strictly East past smashed rock (18, 12) to the wooden staircase at (21, 12).
-- Upper Circuit vs Lower Basin: The path past Shannon (Column 25/27 -> row 19 -> stairs 32, 18 -> bridge 32, 16 -> 40, 16) is an upper elevated circuit leading to the 1F return ladder (40, 24).
-- True Route to B2F Ladder & Vito Winstrate:
-  1. From (17, 12), step East past smashed rock (18, 12) to wooden staircase at (21, 12).
-  2. Ascend staircase to row 9 and cross Upper Suspension Bridge at row 8 East to (32, 8).
-  3. Descend staircase at (32, 10..11) to Samuel's terrace (35, 12).
-  4. Walk South completely under the overhead suspension bridge down Column 37 into the Southern Cavern Highway (rows 22-26).
-  5. The Southern Cavern Highway (rows 22-26) shares the same lower elevation as Vito Winstrate (14, 16) and the B2F ladder (17, 16). Advance West and Northwest across the lower basin to access the ladder!
+## Refuted B1F Row 26 / Column 37 Hypothesis (Refuted Turns 21376-21395)
+- Physical verification at (30, 26) confirms the corridor terminates in a solid cliff cul-de-sac at x=28/29 on the west and north, with horizontal Acro Bike rails running across rows 27-29 to the south.
+- The Southern Cavern Highway (row 26) does NOT connect to the lower basin, Vito Winstrate, or the B2F ladder.
+- Backtracking East along row 26 to Column 37 and returning North to explore around row 12 / row 13 where the B2F ladder (17, 16) and Cooltrainer (14, 16) were visually sighted.
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
