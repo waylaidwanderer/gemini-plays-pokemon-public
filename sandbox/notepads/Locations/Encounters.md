@@ -8,7 +8,7 @@
 | Route 102 | Sandshrew | TERRA | Active (Lv 14) | Caught F Lv 6 at (39, 4); raised to Lv 14 (holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 16 on Cindy's Cleffa (44 HP, 15 Atk, 21 Def, 13 Sp.Atk, 17 Sp.Def, 15 Speed; ~545/585 EXP buffer left); holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Nidoran♀ | ARTEMIS | Active (Lv 14) | Caught F Lv 7 at (26, 59); raised to Lv 14 (holds Oran Berry; knows Poison Sting, Scratch, Bite, Double Kick) |
-| Petalburg Woods | — | — | Pending | Tall grass |
+| Petalburg Woods | Pineco | AEGIS | Active (Lv 7) | Caught F Lv 7 at (7, 30) on Turn 6498 |
 | Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
