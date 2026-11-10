@@ -12,7 +12,7 @@
 | Route 104 | Nidorina | ARTEMIS | Active (Lv 16) | Caught F Lv 7 at (26, 59); evolved into Nidorina at Lv 16 after Red (~450/585 EXP buffer left; knows Crunch, Scratch, Bite, Double Kick) |
 | Petalburg Woods | Pineco | AEGIS | Active (Lv 15) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (1,021 EXP buffer at Lv 16); raised to Lv 15 (44 HP, 27 Atk, 33 Def, 15 Sp.Atk, 16 Sp.Def, 9 Speed; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
 | Route 116 | Makuhita | ATLAS | Active (Lv 15) | Caught M Lv 9 at (5, 14); raised to Lv 15 (50 HP, 26 Atk, 18 Def, 12 Sp.Atk, 16 Sp.Def, 14 Speed; knows Faint Attack, SmellingSalt, Vital Throw, Force Palm) |
-| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Route 115 | Kabuto | TRITON | Active (Lv 9, Boxed) | Caught M Lv 9 with Old Rod at (7, 71) on Turn 6590 |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
