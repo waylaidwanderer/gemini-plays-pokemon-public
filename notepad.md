@@ -10,7 +10,7 @@
 | Route 102 | Sandshrew | TERRA | Active (Lv 14) | Caught F Lv 6 at (39, 4); raised to Lv 14 (holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 16 on Cindy's Cleffa (44 HP, 15 Atk, 21 Def, 13 Sp.Atk, 17 Sp.Def, 15 Speed; ~545/585 EXP buffer left); holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Nidoran♀ | ARTEMIS | Active (Lv 14) | Caught F Lv 7 at (26, 59); raised to Lv 14 (holds Oran Berry; knows Poison Sting, Scratch, Bite, Double Kick) |
-| Petalburg Woods | Pineco | AEGIS | Active (Lv 7) | Caught F Lv 7 at (7, 30) on Turn 6498 |
+| Petalburg Woods | Pineco | AEGIS | Active (Lv 14) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (1,021 EXP buffer at Lv 16); raised to Lv 14 (42 HP, 25 Atk, 31 Def, 14 Sp.Atk, 15 Sp.Def, 9 Speed; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
 | Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
@@ -239,7 +239,7 @@
 - **Southern Entrance**: Enters from Route 104 `(10..11, 38)` onto `(16, 38)` inside Petalburg Woods.
 - **Tall Grass Patches (South)**:
   - South-East patch at `(20..25, 32..35)`.
-  - **South-West patch at `(6..13, 27..33)`**: Observed wild species: `Oddish` Lv 8, `Bellsprout` Lv 8, `Phanpy` Lv 8, `Hoothoot` Lv 8, `Pineco` Lv 8 (`Pin Missile`, `Selfdestruct`), `Cascoon` Lv 8. From `(16, 38)`, walk `Up x4` to `(16, 34)`, `Left x10` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, `Up x4` to `(6, 30)` (`1 grass tile at the corner`), `Left x2` through `(5, 30)` to `(4, 30)` (`note: (5, 29) is 1 tall grass tile while x=4, y=26..30 is 100% bare dirt!`), `Up x4` along `x=4` to `(4, 26)`, `Right x2` to `(6, 26)`, and `Up` to `(6, 25)`.
+  - **South-West patch at `(6..13, 27..30)` and `(9..13, 31..33)`** (`note: (6..8, 31..33) is bare ground!`): Observed wild species: `Oddish` Lv 8, `Bellsprout` Lv 8, `Phanpy` Lv 8, `Hoothoot` Lv 8, `Pineco` Lv 7–8 (`Sturdy`, `Slow` EXP group, `Pin Missile`, learns `Selfdestruct` Lv 8, `Secret Power` Lv 12), `Cascoon` Lv 8. From `(16, 38)`, walk `Up x4` to `(16, 34)`, `Left x10` along `y=34` (passing 1 tile north of Bug Maniac Lyle at `(13, 35)`) to `(6, 34)`, `Up x4` to `(6, 30)` (`1 grass tile at the corner`), `Left x2` through `(5, 30)` to `(4, 30)` (`note: (5, 29) is 1 tall grass tile while x=4, y=26..30 is 100% bare dirt!`), `Up x4` along `x=4` to `(4, 26)`, `Right x2` to `(6, 26)`, and `Up` to `(6, 25)`.
 - **NPCs, Trainers & Items**:
   - **Bug Maniac Lyle** at `(13, 35)` (spinning trainer west of southern entrance; 3 Pokemon: `Spinarak` Lv 8 [`Mega Drain`, `Night Shade`, `Spider Web`, holds `Berry Juice`], `Ledyba` Lv 8 [`Gust`, `Supersonic`, `Mach Punch`], `Venonat` Lv 8 [`Psybeam`, `Mega Drain`, `Stun Spore`, `Confusion`]).
   - **Bug Catcher James** at `(10, 24)` (spinning trainer in straw hat north of south-west grass patch; 3 Pokemon: `Paras` Lv 9 [`Spore`, `Aerial Ace`, `Secret Power` — `4x` weak to Flying and `2x` weak to Poison; always OHKO on Turn 1 with a Flying move like `Peck`/`Wing Attack` or Lv 14 `Bellsprout`'s `2x` STAB `Acid` so it never uses `Spore`!], `Surskit` Lv 8 [`Psybeam`, `Water Pulse`, `Mud Shot`, `Mega Drain`], `Nincada` Lv 9 [`Aerial Ace`, `Giga Drain`, `Dig`]).
