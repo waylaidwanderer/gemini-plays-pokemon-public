@@ -4818,6 +4818,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northeast Puzzle Solution: Lower boulder pushed South into (20, 6); upper boulder pushed North into (21, 3), opening the eastern corridor into Column 25.
 - Target Route: Column 25 leads South to Shannon (26, 16). Row 16 connects Shannon West directly to B2F ladder (17, 16) and Vito Winstrate (14, 16).
 
+## B1F Unified Topology & Lower Floor Route (Verified Turns 21512-21545)
+- Northeast Puzzle Chute: The corridor behind the 4-rock puzzle (cols 22-25, rows 4-7) terminates at (25, 7) at a south-facing jump ledge hopping directly onto the Row 8 Upper Suspension Bridge at (25, 8).
+- Column 24 Vertical Ledge: Hopping West over the Column 24 vertical ledge lands at (22, 15) on an elevated shelf that connects North to row 12 and the (21, 12) wooden staircase, but is blocked to the South by a continuous cliff at row 16.
+- True Lower Floor Progression Route:
+  1. From Samuel's terrace, walk South under the overhead suspension bridge down Column 37 to row 19 at (37, 19).
+  2. Walk West along row 19 to Column 27 at (27, 19).
+  3. Walk North up Column 27 to row 17 at (27, 17).
+  4. Walk West along row 17 / row 16 past the south side of Shannon (26, 16) directly to the B2F entrance ladder at (17, 16) and Cooltrainer Vito Winstrate at (14, 16)!
+
 
 <hr>
 
