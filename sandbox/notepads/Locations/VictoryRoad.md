@@ -265,17 +265,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 14 Cliff: Bounded continuously along row 14 from col 9 to col 19.
 - Lower Terrace (17, 16): Sighted with B2F ladder and Cooltrainer at (14, 16), but has no direct walkable descent from row 13, Column 4, or Column 22.
 
-## Verified B1F Southern Shelf & Shannon Bypass (Turns 21309-21328)
-- Shannon Bypass: Column 25 terminates at row 15 cliff edge. Defeated Cooltrainer Shannon stands at (26, 16). Column 27 is an unobstructed vertical corridor east of Shannon connecting row 14 directly south to row 19.
-- Row 20 Cliff Wall: The horizontal boundary along row 20 across cols 27-32 is a solid cliff wall overlooking the southern lower basin (not a jump ledge); it cannot be hopped downward.
-- Wooden Staircase (32, 18..19): Ascends North from row 19 up to the elevated bridge landing at (32, 16).
-
-
-## B1F Row 13 Topography (Verified Turns 21428-21442)
-- Row 13 Termination: Systematic probing confirmed that row 14 is a continuous solid cliff drop across cols 9-15.
-- At (9, 13), tile (8, 13) to the West is a solid vertical cliff corner. Row 13 terminates at (9, 13) and does not connect to the western canyon.
-- The western canyon (cols 5-7, descending to row 16 and B2F ladder) is accessible from the Northwest chamber via Column 4 / Row 10.
-
 ## B1F Verified Collision Boundaries & Elevation Model (Consolidated Turn 21634)
 - Row 14 Cliff: Continuous solid cliff wall across cols 9-17 at rows 14-15 dropping down into the central basin (where Cooltrainer Vito Winstrate at (14, 16) and the B2F ladder at (17, 16) are located). Cannot be jumped down from row 13.
 - Row 16 Cliff: Continuous solid horizontal cliff wall across cols 20-23 at row 16 below the (23, 14..15) shelf.
@@ -288,8 +277,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 19 connects East to the wooden staircase at (32, 18..19) ascending to the Southern Suspension Bridge.
 - Macro Loop: The entire upper B1F network (Northwest room -> Column 9 -> Row 13 -> Row 12 -> Upper Bridge -> Samuel -> Column 37 -> Row 26 / Northeast Puzzle -> Column 25 -> Column 27 -> Southern Bridge) forms a closed upper circuit elevated above the central basin.
 
-## 1F Western Terrace to Northern Bridge Corridor (Verified Turn 21652)
-- From B1F ladder at (9, 14), step North to (9, 13) / (10, 13).
-- Row 14 is blocked to the East at (11, 14) by a cliff wall.
-- The open horizontal corridor to the Northern Suspension Bridge runs along Row 13 across cols 9..16.
-- At (16, 13), the corridor turns South along col 16 down to the bridgehead at (16, 17).
+## 1F Western Terrace to Northern Bridge Corridor (Verified Turns 21658-21662)
+- From B1F ladder at (9, 14), step South down Column 9 to (9, 16).
+- Row 13 and Row 14 are blocked to the East at x=11 by a continuous cliff wall.
+- The true open horizontal corridor runs along Row 16 across cols 9..16, passing between the row 15 cliff (north) and row 17 cliff (south).
+- At (16, 16), step South to (16, 17) to access the Northern Suspension Bridge (spanning East to 38, 17) and Northern Staircase (descending South to Level 0 canyon at 16, 23)!
