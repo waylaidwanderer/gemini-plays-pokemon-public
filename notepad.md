@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AEO | Active (Lv 13) | Starter on Route 101 (37 HP, 25 Atk, 19 Def, 18 Sp.Atk, 18 Sp.Def, 16 Speed; knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
-| Route 103 | Ledyba | ASTRAEA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Early Bird; knows Silver Wind, Aerial Ace, Supersonic |
+| Route 103 | Ledyba | ASTRAEA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Early Bird (34 HP, 13 Atk, 15 Def, 15 Sp.Atk, 25 Sp.Def, 18 Speed; knows Silver Wind, Aerial Ace, Supersonic) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
