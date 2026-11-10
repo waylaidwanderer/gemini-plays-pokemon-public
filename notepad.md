@@ -4,13 +4,13 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 19) | Raised to Lv 19 (60 HP, 40 Atk, 33 Def, 35 Sp.Atk, 31 Sp.Def, 25 Speed); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (51 HP, 40 Atk, 34 Def, 22 Sp.Atk, 27 Sp.Def, 33 Speed; note: Goldeen -> Seaking evolves at Lv 20 in this hack — always use A at end of battle so NEREUS evolves at Lv 21!); Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 20) | Reached Lv 20 on Route 106 Grunt's Porygon (63 HP, 42 Atk, 35 Def, 36 Sp.Atk, 33 Sp.Def, 26 Speed; 0 EXP into Lv 20; declined Foresight Lv 20); knows Tackle, Bubble, Mud Shot, Water Gun |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (51 HP, 40 Atk, 34 Def, 22 Sp.Atk, 27 Sp.Def, 33 Speed; note: Goldeen -> Seaking evolves at Lv 20 in this hack — always use A at end of battle so NEREUS evolves at Lv 21!); Swift Swim; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
 | Route 103 | Skitty | SELENE | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (56 HP, 29 Atk, 25 Def, 23 Sp.Atk, 22 Sp.Def, 30 Speed); Cute Charm; holds Oran Berry; knows Fake Out, Heal Bell (learned Lv 19), Sing, Secret Power |
-| Route 102 | Nidoking | ARES | Active (Lv 20) | Reached Lv 20 on Dawson's Swinub (66 HP, 44 Atk, 41 Def, 45 Sp.Atk, 37 Sp.Def, 39 Speed; keep in back row until Brawly!); Poison Point; holds Oran Berry; knows Cut (50 BP, 100% acc), Peck, Horn Attack, Double Kick |
+| Route 102 | Nidoking | ARES | Active (Lv 20) | Reached Lv 20 on Dawson's Swinub (66 HP, 44 Atk, 41 Def, 45 Sp.Atk, 37 Sp.Def, 39 Speed; ~750/998 EXP into Lv 20 — keep in back row until Brawly!); Poison Point; knows Cut (50 BP, 100% acc), Peck, Horn Attack, Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
-| Petalburg Woods | Weepinbell | FLORA | Active (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy (57 HP, 43 Atk, 27 Def, 44 Sp.Atk, 25 Sp.Def, 31 Speed; 0 EXP into Lv 20 — keep in back row until Brawly!); holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
+| Petalburg Woods | Weepinbell | FLORA | Active (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy (57 HP, 43 Atk, 27 Def, 44 Sp.Atk, 25 Sp.Def, 31 Speed; ~937/998 EXP into Lv 20 — within ~61 EXP of Lv 21!); knows Vine Whip, Acid, Toxic, Bullet Seed |
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
 | Rusturf Tunnel | Phanpy | GAIA | Active (Lv 20) | Caught F Lv 11 at (4, 9), raised to Lv 20 (68 HP, 31 Atk, 32 Def, 25 Sp.Atk, 26 Sp.Def, 25 Speed; 0 EXP into Lv 20); Pickup; holds Oran Berry; knows Tackle, Mud Shot, Ice Shard, Rock Throw (declined Endeavor Lv 19) |
@@ -327,6 +327,6 @@
   - **Dewford Gym**: Located in the southern part of town (Gym Leader Brawly — Level Cap 20).
 - **Route 106**:
   - **Old Rod Fishing Spot**: Stand at `(70, 19)` facing `Right` at `(71, 19)` (observed wild species: `Seel` F Lv 15 [`Headbutt`, `Aurora Beam`]).
-  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed...").
+  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`], plus 2 more).
 
 <hr>
