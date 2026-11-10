@@ -1,19 +1,19 @@
-# Nuzlocke Encounters (Attempt #34)
+# Nuzlocke Encounters (Attempt #35)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 20) | Reached Lv 20 on Route 106 Grunt's Porygon (63 HP, 42 Atk, 35 Def, 36 Sp.Atk, 33 Sp.Def, 26 Speed; 0 EXP into Lv 20; declined Foresight Lv 20); knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Deceased (Lv 20) | Reached Lv 20 on Jose's Beautifly; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Secret Power when saving Marshtomp |
-| Route 103 | Skitty | SELENE | Retired (Lv 21) | Reached Lv 21 on Route 106 Grunt's Sneasel (58 HP, 30 Atk, 26 Def, 23 Sp.Atk, 22 Sp.Def, 32 Speed; benched until after Brawly); Cute Charm; knows Fake Out, Heal Bell, Sing, Secret Power |
-| Route 102 | Nidoking | ARES | Deceased (Lv 20) | Reached Lv 20 on Dawson's Swinub; fainted to a critical hit Ice Beam from Route 106 Team Aqua Grunt's #5 Sneasel on switch-in |
-| Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
-| Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
-| Petalburg Woods | Weepinbell | FLORA | Deceased (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy; fainted to Route 106 Team Aqua Grunt's #4 Clamperl's Aurora Beam after 2-hit Bullet Seed left Clamperl at 1 HP |
-| Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
-| Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
-| Rusturf Tunnel | Phanpy | GAIA | Deceased (Lv 20) | Caught F Lv 11 at (4, 9), raised to Lv 20; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Surf after priority Ice Shard left Sneasel at 1 HP |
-| Dewford Town | Spheal | THALASSA | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (16, 10) facing Up at (16, 9) |
-| Route 106 | Seel | CHIONE | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (70, 19) facing Right at (71, 19); knows Headbutt, Aurora Beam |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass |
+| Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
+| Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
+| Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
 | Granite Cave | — | — | Pending | Cave encounter |
 | Route 107 | — | — | Pending | Old Rod fishing encounter |
 

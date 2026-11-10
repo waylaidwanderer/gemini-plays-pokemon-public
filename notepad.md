@@ -1,21 +1,21 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #34)
+# Nuzlocke Encounters (Attempt #35)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 20) | Reached Lv 20 on Route 106 Grunt's Porygon (63 HP, 42 Atk, 35 Def, 36 Sp.Atk, 33 Sp.Def, 26 Speed; 0 EXP into Lv 20; declined Foresight Lv 20); knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Deceased (Lv 20) | Reached Lv 20 on Jose's Beautifly; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Secret Power when saving Marshtomp |
-| Route 103 | Skitty | SELENE | Retired (Lv 21) | Reached Lv 21 on Route 106 Grunt's Sneasel (58 HP, 30 Atk, 26 Def, 23 Sp.Atk, 22 Sp.Def, 32 Speed; benched until after Brawly); Cute Charm; knows Fake Out, Heal Bell, Sing, Secret Power |
-| Route 102 | Nidoking | ARES | Deceased (Lv 20) | Reached Lv 20 on Dawson's Swinub; fainted to a critical hit Ice Beam from Route 106 Team Aqua Grunt's #5 Sneasel on switch-in |
-| Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
-| Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
-| Petalburg Woods | Weepinbell | FLORA | Deceased (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy; fainted to Route 106 Team Aqua Grunt's #4 Clamperl's Aurora Beam after 2-hit Bullet Seed left Clamperl at 1 HP |
-| Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
-| Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
-| Rusturf Tunnel | Phanpy | GAIA | Deceased (Lv 20) | Caught F Lv 11 at (4, 9), raised to Lv 20; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Surf after priority Ice Shard left Sneasel at 1 HP |
-| Dewford Town | Spheal | THALASSA | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (16, 10) facing Up at (16, 9) |
-| Route 106 | Seel | CHIONE | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (70, 19) facing Right at (71, 19); knows Headbutt, Aurora Beam |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass |
+| Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
+| Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
+| Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
 | Granite Cave | — | — | Pending | Cave encounter |
 | Route 107 | — | — | Pending | Old Rod fishing encounter |
 
@@ -37,15 +37,21 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #34
+# Nuzlocke Dashboard — Attempt #35
 
 ## Active Rules & Status
-- **Attempt**: #34
-- **Current Level Cap**: Lv 20 (Brawly - Dewford Gym; Stone Badge earned on Turn 6194!)
+- **Attempt**: #35
+- **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#30)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#34)
+- **Attempt #34 (Defeated Gym Leader Roxanne, Cleared Route 116 & Rusturf Tunnel, Reached Dewford Town & Route 106!)**:
+  - **Roxanne Victory**: Earned the Stone Badge on Turn 6194 by priming our squad right below Lv 17, absorbing `#1 Nosepass`'s `Selfdestruct` with `Kabuto` (holding `Oran Berry`) so `#6 Lunatone` stayed last, pivoting `Kabuto -> Nidoking -> Marshtomp` on `#2 Anorith`, `Toxic`-stalling `#3 Lileep` with `Weepinbell`, KOing `#4 Relicanth` with `Paras` (`Stun Spore` + `Mega Drain`) + `Weepinbell` (`Vine Whip`), KOing `#5 Shuckle` with `Goldeen` (`BubbleBeam` + `Water Pulse`), and defeating `#6 Lunatone` with `Weepinbell`, `Marshtomp`, `Goldeen`, `Skitty` (`Sing` + `Fake Out`), and `Nidoking` (`Double Kick`).
+  - **Post-Roxanne Progression & Why We Wiped on Route 106**: Cleared all 7 trainer battles on Route 116, caught `Phanpy` in Rusturf Tunnel, defeated the 6-Pokemon Rusturf Tunnel Team Aqua Grunt, got the `Letter` and `PokeNav` from Mr. Stone, declined Rival Brendan's optional battle in Rustboro City (`press B on [>YES / NO]`), sailed to Dewford Town, and caught **Lv 15 `Spheal`** in Dewford Town `(16, 10)` and **Lv 15 `Seel`** on Route 106 `(70, 19)`. However, we walked west from `(70, 19)` into a mandatory **6-Pokemon Team Aqua Grunt at `(60, 13)` on Route 106** while `Nidoking` (`32/66 HP`) and `Goldeen` (`30/51 HP`) were still unhealed from catching `Seel` and while `Nidoking`, `Weepinbell`, and `Skitty` already had 55%–92% of their Lv 20 EXP bars filled from Route 116!
+  - **CRITICAL RULES FOR POST-ROXANNE (ROUTE 116 -> RUSTURF TUNNEL -> DEWFORD TOWN -> ROUTE 106)**:
+    1. **Keep Party at Lv 17–18 Through Route 116 & Rusturf Tunnel**: Never Rare-Candy your party to Lv 19–20 right after Roxanne! Keep your team at **Lv 17–18** through Route 116 (`7 trainer battles`) and Rusturf Tunnel (`6-Pokemon Aqua Grunt`) so they naturally absorb trainer EXP into Lv 18–19 without eating into their Lv 20 EXP buffer (`998–1,261 EXP`). Only raise to **Lv 19–20** right before the **Route 106 Team Aqua Grunt (`(60, 13)`)**!
+    2. **Heal to 100% HP + Re-Equip `Oran Berries` at `(70, 19)` After Catching Route 106 `Seel`, and Bring `Spheal`/`Seel`**: Before walking west past `x=61` on Route 106, heal every party member to 100% HP and re-equip `Oran Berries`! Even better, withdraw Dewford Town's **`Spheal` (`Thick Fat` `Ice/Water` — `4x` resists Ice and `2x` resists Water!)** and raise it to Lv 19–20: `Spheal` completely walls the Route 106 Team Aqua Grunt's `#3 Marshtomp` (`Mud Shot`, `Ice Punch`), `#4 Clamperl` (`Aurora Beam`, `Toxic`, `Water Pulse`), and `#5 Sneasel` (`Ice Beam`, `Surf`, `Secret Power`). Never switch a `Ground`-type (`Phanpy` / `Nidoking`) into `#5 Sneasel`, as `Sneasel` carries **both `95 BP Ice Beam` AND `95 BP Surf`**!
 - **Attempts #1–#10 Summary**: Wiped to PKMN Trainer Red (Attempt #1), Rustboro Gym trainers due to hitting Lv 17 over the Lv 16 Level Cap or `Kabuto`'s `Giga Drain` (Attempts #2–#4), and Gym Leader Roxanne's `Lunatone` (Attempts #5 & #9); reset early on Route 102 or Petalburg Woods in Attempts #6–#8 & #10.
 - **Attempt #11**: Reached Rustboro City with 0 deaths (discovering that `Azurill` learns `85 BP Body Slam` at Lv 15 which sweeps Lass Haley, Twins Gina & Mia alongside `Meowth`'s spread `Swift`, and PKMN Trainer Red, and that `Voltorb` is in the `Slow` EXP group [`1,021 EXP` buffer at Lv 16!] and learns `60 BP Shock Wave` + `20-fixed-damage SonicBoom` at Lv 15!), but reset at Turn 2372 in Rustboro Gym after:
   1. Chaining a Party switch (`SHIFT`) with a Poke Ball throw against wild Route 115 `Kabuto` (where `SHIFT + Rock Tomb + Speed fell` took `13.0s`, shifting `Up, Right` into the animation so `A, A` clicked `FIGHT -> Mega Drain`).
@@ -327,6 +333,6 @@
   - **Dewford Gym**: Located in the southern part of town (Gym Leader Brawly — Level Cap 20).
 - **Route 106**:
   - **Old Rod Fishing Spot**: Stand at `(70, 19)` facing `Right` at `(71, 19)` (observed wild species: `Seel` F Lv 15 [`Headbutt`, `Aurora Beam`]).
-  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`, `Toxic`, `Water Pulse`, high Sp.Def / `DeepSeaScale`], `#5 Sneasel` M Lv 13 [366 EXP, `Ice Beam`, `Secret Power`, `Surf`], `#6 Drowzee` M Lv 14).
+  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`, `Toxic`, `Water Pulse`, high Sp.Def / `DeepSeaScale`], `#5 Sneasel` M Lv 13 [366 EXP, `Ice Beam`, `Secret Power`, `Surf` — never switch a Ground-type into Sneasel as it carries both 95 BP Ice Beam and 95 BP Surf!], `#6 Drowzee` M Lv 14 [`Brick Break`]). Always heal to 100% HP and re-equip Oran Berries at `(70, 19)` after catching the Route 106 fishing encounter before walking west onto `x=60`, and keep your squad at Lv 17–18 through Route 116 & Rusturf Tunnel so they enter this battle at Lv 19 (or Lv 20 with 0 EXP) with full EXP buffers!
 
 <hr>
