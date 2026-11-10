@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 15) | Caught F Lv 4 with Old Rod at (17, 13); reached Lv 15 (40 HP, 16 Atk, 24 Def, 18 Sp.Atk, 26 Sp.Def, 41 Speed; holds Oran Berry; knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
 | Route 102 | Sandshrew | TERRA | Active (Lv 14) | Caught F Lv 6 at (39, 4); raised to Lv 14 (holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
-| Petalburg City | Azurill | GALATEA | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 16 on Cindy's Cleffa (44 HP, 15 Atk, 21 Def, 13 Sp.Atk, 17 Sp.Def, 15 Speed; ~545/585 EXP buffer left); holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam |
+| Petalburg City | Azurill | GALATEA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 17 on Lass Haley's Vulpix (benched until after Roxanne; deposit in Rustboro PC) |
 | Route 104 | Nidoran♀ | ARTEMIS | Active (Lv 15) | Caught F Lv 7 at (26, 59); reached Lv 15 (46 HP, 20 Atk, 20 Def, 21 Sp.Atk, 18 Sp.Def, 19 Speed; holds Oran Berry; knows Poison Sting, Scratch, Bite, Double Kick) |
 | Petalburg Woods | Pineco | AEGIS | Active (Lv 14) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (1,021 EXP buffer at Lv 16); raised to Lv 14 (42 HP, 25 Atk, 31 Def, 14 Sp.Atk, 15 Sp.Def, 9 Speed; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
 | Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
