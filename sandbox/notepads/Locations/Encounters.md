@@ -11,7 +11,7 @@
 | Petalburg Woods | Weepinbell | FLORA | Active (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy (57 HP, 43 Atk, 27 Def, 44 Sp.Atk, 25 Sp.Def, 31 Speed; 0 EXP into Lv 20 — keep in back row until Brawly!); holds Oran Berry; knows Vine Whip, Acid, Toxic, Bullet Seed |
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
-| Rusturf Tunnel | — | — | Pending | Accessible from eastern Route 116; open 6th party slot! |
+| Rusturf Tunnel | Phanpy | GAIA | Active (Lv 11) | Caught F Lv 11 at (4, 9); knows Tackle, Mud Shot, Ice Shard; raise to Lv 19–20 and equip Oran Berry at 0 steps! |
 | Dewford Town | — | — | Pending | Old Rod fishing encounter |
 | Route 106 | — | — | Pending | Old Rod fishing encounter |
 | Granite Cave | — | — | Pending | Cave encounter |
