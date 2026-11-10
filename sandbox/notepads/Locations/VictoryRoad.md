@@ -291,3 +291,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   2. Walk West along row 19 to Column 27 at (27, 19).
   3. Walk North up Column 27 to row 17 at (27, 17).
   4. Walk West along row 17 / row 16 past the south side of Shannon (26, 16) directly to the B2F entrance ladder at (17, 16) and Cooltrainer Vito Winstrate at (14, 16)!
+
+## B1F Critical Topological Resolution (Verified Turn 21547)
+- Row 19 Disconnection: Column 37 at (37, 19) is separated from row 19 (cols 27-32) by a solid vertical cliff wall at (36, 19). Column 37 does NOT connect west to Column 27.
+- True Access to Shannon & Lower Floor:
+  1. Shannon (26, 16) and Column 27 are accessed exclusively from the North via the Northeast 4-rock puzzle chute: hop South from (25, 7) directly onto (26, 12) above Shannon!
+  2. From (26, 12), walk South to (26, 14), then step East into Column 27 at (27, 14).
+  3. DO NOT hop West over the Column 24 ledge (which traps the player on the (22, 15) upper shelf).
+  4. From Column 27, walk South to row 16/17 and head West along the lower floor directly to the B2F entrance ladder at (17, 16) and Vito Winstrate at (14, 16)!
