@@ -160,6 +160,6 @@
 ## Dewford Town, Route 106 & Granite Cave
 - **Dewford Town**:
   - **Dock**: Arrives from Route 104 South at `(11, 9)` with Mr. Briney at `(12, 9)`.
-  - **Fishing Spot (`Old Rod`)**: Step `Down` from `(11, 9)` onto `(11, 10)` facing `Down` at the ocean water `(11, 11)`.
+  - **Fishing Spot (`Old Rod`)**: The dock at `(11, 9)` is an elevated bridge tile where fishing is disabled; walk `Left x2, Down x2, Right x7, Up` from `(11, 9)` onto the sea-level beach shoreline at `(16, 10)` facing `Up` at the ocean water `(16, 9)`.
   - **Pokemon Center**: Door at `(2, 11)` (west of the dock).
   - **Dewford Gym**: Located in the southern part of town (Gym Leader Brawly — Level Cap 20).
