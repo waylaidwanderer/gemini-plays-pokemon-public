@@ -125,6 +125,12 @@
   - **Youngster Joey** at `(27, 17)` (rotating trainer watching north to `(27, 14)` and south; 4 Pokemon: `Rattata` M Lv 10 [`Secret Power`, holds `Berry Juice`, 121 EXP], `Ekans` M Lv 10 [`Intimidate`, `Glare`, `Mega Drain`, 132 EXP], `Sandshrew` M Lv 10 [`Rock Tomb`], `Slakoth` M Lv 10 [`Crush Claw`]).
   - **Hiker Clark & Lass Janice** at `(31, 13)` facing `Down` & `(31, 17)` facing `Up` (stepping onto `(31, 14..16)` triggers a Double Battle; Clark has 3 Pokemon: `Slugma` M Lv 10, `Teddiursa` M Lv 10 [`Facade`], `Gulpin` M Lv 10; Janice has 3 Pokemon: `Jigglypuff` F Lv 10 [82 EXP], `Nidoran♀` Lv 10, `Marill` F Lv 9 [55 EXP]).
   - **Bug Maniac Jose** at `(36, 12)` facing `Down` (mandatory trainer guarding `x=36` before the Rusturf Tunnel stairs; 4 Pokemon: `Dustox` M Lv 10 [`Shield Dust`, `Iron Defense`, `Light Screen`, `Confusion`, holds `Sitrus Berry`, 342 EXP], `Beautifly` M Lv 10 [`Stun Spore`, 345 EXP], `Beedrill` M Lv 10 [`Brick Break`, 340 EXP], `Butterfree` M Lv 10 [`Confusion`, `Stun Spore`, `Supersonic`, holds `Sitrus Berry`, 342 EXP]).
+  - **Rusturf Tunnel Entrance**: Located at `(47, 8)` on eastern Route 116 (stepping onto `(47, 9)` triggers Mr. Briney's outside dialogue at `(46, 9)` before entering `(47, 8)`).
+
+## Rusturf Tunnel
+- **Western Entrance**: Enters from Route 116 `(47, 8)` onto `(4, 10)` inside Rusturf Tunnel.
+- **Observed Wild Species**: `Phanpy` Lv 11, `Nosepass` Lv 12, `Onix` Lv 12.
+- **Layout & Item Ball**: Item ball in top-left alcove at `(3, 1)`. Main corridor runs north from `(4, 10)` to `(4, 5)` and east along `y=5` to `(10, 5)`. Stepping onto `(9, 5)` triggers a 1-textbox warning from the **Team Aqua Grunt** standing at `(11, 5)`; interact from `(10, 5)` facing `Right` to battle him for the stolen `Devon Goods`.
 
 ## Route 115 (South — Accessible Before Roxanne)
 - **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
