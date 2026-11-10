@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 20) | Reached Lv 20 on Route 106 Grunt's Porygon (63 HP, 42 Atk, 35 Def, 36 Sp.Atk, 33 Sp.Def, 26 Speed; 0 EXP into Lv 20; declined Foresight Lv 20); knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (51 HP, 40 Atk, 34 Def, 22 Sp.Atk, 27 Sp.Def, 33 Speed; note: Goldeen -> Seaking evolves at Lv 20 in this hack — always use A at end of battle so NEREUS evolves at Lv 21!); Swift Swim; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Littleroot Town | Goldeen | NEREUS | Deceased (Lv 20) | Reached Lv 20 on Jose's Beautifly; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Secret Power when saving Marshtomp |
 | Route 103 | Skitty | SELENE | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (56 HP, 29 Atk, 25 Def, 23 Sp.Atk, 22 Sp.Def, 30 Speed); Cute Charm; holds Oran Berry; knows Fake Out, Heal Bell (learned Lv 19), Sing, Secret Power |
 | Route 102 | Nidoking | ARES | Deceased (Lv 20) | Reached Lv 20 on Dawson's Swinub; fainted to a critical hit Ice Beam from Route 106 Team Aqua Grunt's #5 Sneasel on switch-in |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
