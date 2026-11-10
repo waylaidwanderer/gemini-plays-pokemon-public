@@ -9,7 +9,7 @@
 | Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
 | Route 102 | Sandshrew | TERRA | Active (Lv 14) | Caught F Lv 6 at (39, 4); raised to Lv 14 (holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
 | Petalburg City | Azurill | GALATEA | Active (Lv 15) | Caught F Lv 5 with Old Rod at (11, 22); raised to Lv 15 (holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
-| Route 104 | Nidoran♀ | ARTEMIS | Active (Lv 14) | Caught F Lv 7 at (26, 59); raised to Lv 14 (learns Bite Lv 8, Double Kick Lv 12) |
+| Route 104 | Nidoran♀ | ARTEMIS | Active (Lv 14) | Caught F Lv 7 at (26, 59); raised to Lv 14 (holds Oran Berry; knows Poison Sting, Scratch, Bite, Double Kick) |
 | Petalburg Woods | — | — | Pending | Tall grass |
 | Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
