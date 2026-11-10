@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 20) | Reached Lv 20 on Route 106 Grunt's Porygon (63 HP, 42 Atk, 35 Def, 36 Sp.Atk, 33 Sp.Def, 26 Speed; 0 EXP into Lv 20; declined Foresight Lv 20); knows Tackle, Bubble, Mud Shot, Water Gun |
 | Littleroot Town | Goldeen | NEREUS | Deceased (Lv 20) | Reached Lv 20 on Jose's Beautifly; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Secret Power when saving Marshtomp |
-| Route 103 | Skitty | SELENE | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (56 HP, 29 Atk, 25 Def, 23 Sp.Atk, 22 Sp.Def, 30 Speed); Cute Charm; holds Oran Berry; knows Fake Out, Heal Bell (learned Lv 19), Sing, Secret Power |
+| Route 103 | Skitty | SELENE | Retired (Lv 21) | Reached Lv 21 on Route 106 Grunt's Sneasel (58 HP, 30 Atk, 26 Def, 23 Sp.Atk, 22 Sp.Def, 32 Speed; benched until after Brawly); Cute Charm; knows Fake Out, Heal Bell, Sing, Secret Power |
 | Route 102 | Nidoking | ARES | Deceased (Lv 20) | Reached Lv 20 on Dawson's Swinub; fainted to a critical hit Ice Beam from Route 106 Team Aqua Grunt's #5 Sneasel on switch-in |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
