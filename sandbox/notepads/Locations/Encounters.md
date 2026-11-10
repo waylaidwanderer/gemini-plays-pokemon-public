@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AEO | Active (Lv 5) | Starter on Route 101 |
+| Starter (Route 101) | Mudkip | AEO | Active (Lv 13) | Starter on Route 101 (37 HP, 25 Atk, 19 Def, 18 Sp.Atk, 18 Sp.Def, 16 Speed; knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
 | Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
