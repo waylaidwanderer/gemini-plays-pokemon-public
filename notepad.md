@@ -327,6 +327,6 @@
   - **Dewford Gym**: Located in the southern part of town (Gym Leader Brawly — Level Cap 20).
 - **Route 106**:
   - **Old Rod Fishing Spot**: Stand at `(70, 19)` facing `Right` at `(71, 19)` (observed wild species: `Seel` F Lv 15 [`Headbutt`, `Aurora Beam`]).
-  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`, `Toxic`, `Water Pulse`, high Sp.Def / `DeepSeaScale`], `#5 Sneasel` M Lv 13 [`Ice Beam`, `Secret Power`, `Surf`], plus 1 more).
+  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`, `Toxic`, `Water Pulse`, high Sp.Def / `DeepSeaScale`], `#5 Sneasel` M Lv 13 [366 EXP, `Ice Beam`, `Secret Power`, `Surf`], `#6 Drowzee` M Lv 14).
 
 <hr>
