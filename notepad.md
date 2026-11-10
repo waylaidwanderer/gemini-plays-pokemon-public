@@ -4811,33 +4811,18 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - At (9, 13), tile (8, 13) to the West is a solid vertical cliff corner. Row 13 terminates at (9, 13) and does not connect to the western canyon.
 - The western canyon (cols 5-7, descending to row 16 and B2F ladder) is accessible from the Northwest chamber via Column 4 / Row 10.
 
-## B1F Northwest Puzzle & Row 10 Collision Summary (Verified Turns 21473-21505)
-- Boulder 2: Pushed West from (4, 7) into (3, 7) alcove, completely clearing Column 4.
-- Row 10 Impassable Boundary: Downward steps along Row 10 (cols 4, 5, 6, 7, 8) all bumped against continuous solid cliffs at row 11. Tile (3, 10) is also solid.
-- Boulder 1: Pushed East from (9, 10) into (10, 10) alcove, completely opening Column 9 chute to row 13.
-- Northeast Puzzle Solution: Lower boulder pushed South into (20, 6); upper boulder pushed North into (21, 3), opening the eastern corridor into Column 25.
-- Target Route: Column 25 leads South to Shannon (26, 16). Row 16 connects Shannon West directly to B2F ladder (17, 16) and Vito Winstrate (14, 16).
+## B1F Verified Collision Boundaries & Elevation Model (Consolidated Turn 21634)
+- Row 14 Cliff: Continuous solid cliff wall across cols 9-17 at rows 14-15 dropping down into the central basin (where Cooltrainer Vito Winstrate at (14, 16) and the B2F ladder at (17, 16) are located). Cannot be jumped down from row 13.
+- Row 16 Cliff: Continuous solid horizontal cliff wall across cols 20-23 at row 16 below the (23, 14..15) shelf.
+- Column 24 Vertical Ledge: One-way jump ledge between col 24 and col 23 hopping West from (25, 14) onto (23, 14). The (23, 14..15) shelf connects North to row 12 at (21, 12), but is blocked to the South by the row 16 cliff.
+- Column 25 / Column 27 (East Side):
+  - Column 25 canyon runs South from (25, 4) under the Upper Suspension Bridge at (25, 8..9) to (25, 14).
+  - Column 27 (cols 26-27, rows 14-19) runs South past Shannon (26, 16) to row 19.
+  - Cliff at x=25: Continuous vertical cliff wall running from row 16 down to row 20, completely separating Column 27 from the central basin (cannot walk West into basin from Column 27).
+  - Cliff at row 20: Continuous solid cliff drop across cols 26-32.
+  - Row 19 connects East to the wooden staircase at (32, 18..19) ascending to the Southern Suspension Bridge.
+- Macro Loop: The entire upper B1F network (Northwest room -> Column 9 -> Row 13 -> Row 12 -> Upper Bridge -> Samuel -> Column 37 -> Row 26 / Northeast Puzzle -> Column 25 -> Column 27 -> Southern Bridge) forms a closed upper circuit elevated above the central basin.
 
-## B1F Column 15 to Row 5 Connection (Verified Turns 21568-21570)
-- Stepping Right from (15, 6) bumps into the cliff corner at (16, 6).
-- The correct path ascends from (15, 6) North to (15, 5), which connects unobstructed East along row 5 into (16, 5) heading toward the Northeast puzzle.
-
-## B1F Critical Topological Resolution (Verified Turn 21547)
-- Row 19 Disconnection: Column 37 at (37, 19) is separated from row 19 (cols 27-32) by a solid vertical cliff wall at (36, 19). Column 37 does NOT connect west to Column 27.
-- True Access to Shannon & Lower Floor:
-  1. Shannon (26, 16) and Column 27 are accessed exclusively from the North via the Northeast 4-rock puzzle chute: hop South from (25, 7) directly onto (26, 12) above Shannon!
-  2. From (26, 12), walk South to (26, 14), then step East into Column 27 at (27, 14).
-  3. DO NOT hop West over the Column 24 ledge (which traps the player on the (22, 15) upper shelf).
-  4. From Column 27, walk South to row 16/17 and head West along the lower floor directly to the B2F entrance ladder at (17, 16) and Vito Winstrate at (14, 16)!
-
-## B1F Column 25 & Column 27 Topography (Verified Turns 21575-21595)
-- Northeast Puzzle Corridor: Cleared via (20, 4) push Down -> lower boulder to (20, 6); (21, 5) push Up -> upper boulder to (21, 3). Row 4 runs East to (25, 4).
-- Column 25 Canyon: Runs South from (25, 4) under the Upper Suspension Bridge at (25, 8..9) directly to (25, 14).
-- Column 27 (cols 26-27, rows 14-19): Accessed from (25, 14) by stepping East to (27, 14). Runs South past Cooltrainer Shannon (26, 16) to row 19.
-- Boundary Walls:
-  - West of (26, 17..19) is a continuous vertical cliff wall at x=25 (blocked going West).
-  - South of row 19 is a continuous horizontal cliff wall at row 20 across cols 26-32 (blocked going South).
-  - East of (27, 19) connects along row 19 to the wooden staircase at (32, 18..19) ascending North to the Southern Suspension Bridge.
 
 <hr>
 
