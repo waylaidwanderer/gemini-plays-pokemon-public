@@ -12,7 +12,7 @@
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
 | Rusturf Tunnel | Phanpy | GAIA | Active (Lv 20) | Caught F Lv 11 at (4, 9), raised to Lv 20 (68 HP, 31 Atk, 32 Def, 25 Sp.Atk, 26 Sp.Def, 25 Speed; 0 EXP into Lv 20); Pickup; holds Oran Berry; knows Tackle, Mud Shot, Ice Shard, Rock Throw (declined Endeavor Lv 19) |
-| Dewford Town | — | — | Pending | Old Rod fishing encounter |
+| Dewford Town | Spheal | THALASSA | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (16, 10) facing Up at (16, 9) |
 | Route 106 | — | — | Pending | Old Rod fishing encounter |
 | Granite Cave | — | — | Pending | Cave encounter |
 | Route 107 | — | — | Pending | Old Rod fishing encounter |
