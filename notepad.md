@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | ANEPTUNE | Active (Lv 13) | Starter on Route 101; raised to Lv 13 (knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right |
-| Route 103 | — | — | Pending | Tall grass |
+| Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
 | Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
@@ -191,7 +191,7 @@
 ## Oldale Town & Route 103
 - **Oldale Landmarks & Central Road**: `x=10` (`y=0..19`) is a straight vertical road between Route 101 and Route 103; **Pokemon Center** door is at `(6, 16)` and **Poke Mart** door is at `(14, 6)` (note: after defeating Rival Brendan on Route 103, Brendan stands at `(10, 19)` / `(11, 19)` at the southern exit of Oldale Town and triggers a brief dialogue when you step onto `(9..10, 19)`).
 - **Route 103 Tall Grass Patch**: Located at `(11..14, 15..16)` just east of `x=10` and `(15..18, 11..13)` west of the Fisherman (observed wild species: `Hoppip` Lv 3–4, `Spearow` Lv 3, `Skitty` Lv 4 [can hold wild `Moon Stone`!], `Poliwag` Lv 4, `Wingull` Lv 3–4, `Sunkern` Lv 4 [can hold wild `Sun Stone`!]).
-- **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)`, walk `Up x8` to `(10, 13)`, `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east along `y=10` to the grass-free **`x=19..20, y=8..12`** rectangle for the **Old Rod Fisherman** [note: `(21, 11)` is an impassable shoreline corner, while `x=19..20, y=8..12` is completely grass-free!], or north to `(13, 7)` -> `Left x4` to `(9, 7)` -> `Up` to `(9, 6)` [avoiding the single grass tile at `(8, 7)`] -> `Left x4` to `(5, 6)` -> `Up x3` to `(5, 3)` -> `Right x4` to `(9, 3)` for the Rival battle at `(10, 3)`).
+- **Route 103 Grass-Free Path (Northbound)**: From `(10, 21)` (note: from Oldale Mart `(14, 7)`, walk `Left x4` to `(10, 7)` and `Up x8` to cross into Route 103 `(10, 21)`), walk `Up x8` to `(10, 13)` (`Up x16` total from `(10, 7)`!), `Right x4` to `(14, 13)`, `Up x3` to `(14, 10)` (east along `y=10` to the grass-free **`x=19..20, y=8..12`** rectangle for the **Old Rod Fisherman** [note: `(21, 11)` is an impassable shoreline corner, while `x=19..20, y=8..12` is completely grass-free!], or north to `(13, 7)` -> `Left x4` to `(9, 7)` -> `Up` to `(9, 6)` [avoiding the single grass tile at `(8, 7)`] -> `Left x4` to `(5, 6)` -> `Up x3` to `(5, 3)` -> `Right x4` to `(9, 3)` for the Rival battle at `(10, 3)`).
 - **Route 103 Grass-Free Path (Southbound)**: From `(10, 3)`, walk straight `Down` along `x=10` (jumping ledges at `y=5` and `y=12`) into Oldale Town `(10, 0)`.
 - **Oldale West Exit (to Route 102)**: Note the **2-tile vertical map offset** between Oldale Town and Route 102 (`Oldale (0, 9) <-> Route 102 (48, 11)` and `Oldale (0, 11) <-> Route 102 (48, 13)`), and note that the Oldale Pokemon Center roof covers `x=4..8, y=13..16` (so `x=8` is blocked by the roof edge while `x=9..10` is the clear vertical road east of the Center). When entering Oldale Town from Route 102, step onto `y=11` after crossing into Oldale Town, walk `Right` all the way to `x=9..10` before walking `Down x6` to `y=17`, then `Left` to `(6, 17)` and `Up` into `(6, 16)`.
 
