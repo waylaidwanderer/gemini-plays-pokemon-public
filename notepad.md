@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | ANEPTUNE | Active (Lv 16) | Starter on Route 101; evolved into Marshtomp at Lv 16 (52 HP; 547/1,021 EXP after Tammy; holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun) |
-| Littleroot Town | Luvdisc | APHRODITE | Active (Lv 16) | Caught F Lv 4 with Old Rod at (17, 13); Lv 16 (42 HP, 17 Atk, 26 Def, 19 Sp.Atk, 27 Sp.Def, 45 Speed; 401/653 EXP after Tammy [252 EXP buffer left]; knows Secret Power, Charm, Water Pulse, Ice Beam) |
+| Littleroot Town | Luvdisc | APHRODITE | Deceased (Lv 16) | Caught F Lv 4 with Old Rod at (17, 13); fainted at Lv 16 on Turn 6647 to Hiker Marc's #4 Cacnea (Needle Arm after Ice Beam left Cacnea at 1 HP) |
 | Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
 | Route 102 | Sandshrew | TERRA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 6 at (39, 4); learned Dig into empty Slot 4 at Lv 16 and reached Lv 17 (benched in PC until after Roxanne) |
 | Petalburg City | Azurill | GALATEA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 17 on Lass Haley's Vulpix (benched until after Roxanne; deposit in Rustboro PC) |
