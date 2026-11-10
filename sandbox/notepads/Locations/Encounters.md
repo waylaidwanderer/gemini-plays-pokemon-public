@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip | ANEPTUNE | Active (Lv 13) | Starter on Route 101; raised to Lv 13 (knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 14) | Caught F Lv 4 with Old Rod at (17, 13); raised to Lv 14 (knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
-| Route 102 | — | — | Pending | Tall grass |
+| Route 102 | Sandshrew | TERRA | Active (Lv 12) | Caught F Lv 6 at (39, 4); raising to Lv 14 |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass |
