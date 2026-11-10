@@ -5,8 +5,8 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 19) | Raised to Lv 19 (60 HP, 40 Atk, 33 Def, 35 Sp.Atk, 31 Sp.Def, 25 Speed); holds Oran Berry; knows Tackle, Bubble, Mud Shot, Water Gun |
-| Littleroot Town | Goldeen | NEREUS | Active (Lv 19) | Raised to Lv 19 (49 HP, 38 Atk, 32 Def, 21 Sp.Atk, 25 Sp.Def, 31 Speed); Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
-| Route 103 | Skitty | SELENE | Active (Lv 19) | Raised to Lv 19 (53 HP, 27 Atk, 24 Def, 22 Sp.Atk, 21 Sp.Def, 29 Speed); Cute Charm; holds Oran Berry; knows Fake Out, Heal Bell (learned Lv 19), Sing, Secret Power |
+| Littleroot Town | Goldeen | NEREUS | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (51 HP, 40 Atk, 34 Def, 22 Sp.Atk, 27 Sp.Def, 33 Speed; note: Goldeen -> Seaking evolves at Lv 20 in this hack — always use A at end of battle so NEREUS evolves at Lv 21!); Swift Swim; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic |
+| Route 103 | Skitty | SELENE | Active (Lv 20) | Reached Lv 20 on Jose's Beautifly (56 HP, 29 Atk, 25 Def, 23 Sp.Atk, 22 Sp.Def, 30 Speed); Cute Charm; holds Oran Berry; knows Fake Out, Heal Bell (learned Lv 19), Sing, Secret Power |
 | Route 102 | Nidoking | ARES | Active (Lv 20) | Reached Lv 20 on Dawson's Swinub (66 HP, 44 Atk, 41 Def, 45 Sp.Atk, 37 Sp.Def, 39 Speed; keep in back row until Brawly!); Poison Point; holds Oran Berry; knows Cut (50 BP, 100% acc), Peck, Horn Attack, Double Kick |
 | Petalburg City | Azurill | GALATEA | Deceased (Lv 16) | Caught at Lv 5 with Old Rod; fainted to Hiker Marc's #4 Cacnea's Stomp after helping 3-way split #2 Kabuto |
 | Route 104 | Jigglypuff | MELODY | Deceased (Lv 14) | Caught at Lv 7 in tall grass; fainted to PKMN Trainer Red's +2 Attack Eevee's Snore after bringing Eevee down to 3/31 HP |
@@ -286,7 +286,7 @@
   - **Path from `(20, 13)` to `(31, 14)`**: Walk `Down x3, Right x2` on bare ground to `(22, 16)`, then `Up, Right, Up, Right x6` along `y=14` (`(23, 14)` and `(25..27, 14)` are tall grass while `(24, 14)` and `(28..29, 14)` are bare ground) to `(29, 14)`, and `Right x2` through `(30, 14)` (tall grass) onto `(31, 14)`.
   - **Youngster Joey** at `(27, 17)` (rotating trainer watching north to `(27, 14)` and south; 4 Pokemon: `Rattata` M Lv 10 [`Secret Power`, holds `Berry Juice`, 121 EXP], `Ekans` M Lv 10 [`Intimidate`, `Glare`, `Mega Drain`, 132 EXP], `Sandshrew` M Lv 10 [`Rock Tomb`], `Slakoth` M Lv 10 [`Crush Claw`]).
   - **Hiker Clark & Lass Janice** at `(31, 13)` facing `Down` & `(31, 17)` facing `Up` (stepping onto `(31, 14..16)` triggers a Double Battle; Clark has 3 Pokemon: `Slugma` M Lv 10, `Teddiursa` M Lv 10 [`Facade`], `Gulpin` M Lv 10; Janice has 3 Pokemon: `Jigglypuff` F Lv 10 [82 EXP], `Nidoran♀` Lv 10, `Marill` F Lv 9 [55 EXP]).
-  - **Bug Maniac Jose** at `(36, 12)` facing `Down` (mandatory trainer guarding `x=36` before the Rusturf Tunnel stairs at `(37..38, 10)`; 3 Pokemon: `Dustox` M Lv 10 [`Shield Dust`, `Iron Defense`, `Confusion`, holds `Sitrus Berry`, 342 EXP], + 2 more).
+  - **Bug Maniac Jose** at `(36, 12)` facing `Down` (mandatory trainer guarding `x=36` before the Rusturf Tunnel stairs; 4 Pokemon: `Dustox` M Lv 10 [`Shield Dust`, `Iron Defense`, `Light Screen`, `Confusion`, holds `Sitrus Berry`, 342 EXP], `Beautifly` M Lv 10 [`Stun Spore`, 345 EXP], `Beedrill` M Lv 10 [`Brick Break`, 340 EXP], `Butterfree` M Lv 10 [`Confusion`, `Stun Spore`, `Supersonic`, holds `Sitrus Berry`, 342 EXP]).
 
 ## Route 115 (South — Accessible Before Roxanne)
 - **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
