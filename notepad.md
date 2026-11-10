@@ -4817,6 +4817,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 13 and Row 14 are blocked to the East at x=11 by a continuous cliff wall.
 - The true open horizontal corridor runs along Row 16 across cols 9..16, passing between the row 15 cliff (north) and row 17 cliff (south).
 - At (16, 16), step South to (16, 17) to access the Northern Suspension Bridge (spanning East to 38, 17) and Northern Staircase (descending South to Level 0 canyon at 16, 23)!
+## 1F Western Terrace to Southern Bridge Traversal (Verified Turns 21665-21680)
+- Ladder Room Exit: The ladder at (8, 14) / (9, 14) is bounded on the east by a continuous cliff wall at x=11 (rows 11-17). The exit routes around Hope at (6, 15): step Down to row 16-18, then West into Column 3.
+- Western Terrace Highway: Column 3 runs South from row 14 down past Wally (2, 24) directly to the Western Suspension Bridge at (3, 26).
+- Western Bridge & Central Platform: Spans cols 3..12 at row 26 to Central Platform at (13, 26). Southern stairs at (13, 27..29) descend to Level 0 canyon at (13, 29).
+- Level 0 Western Canyon: Row 29 connects West to col 5. Column 5 runs South (rows 31..38) beneath the overhead Southern Suspension Bridge (row 34). Row 38 connects East to western cliff staircase at (9, 36).
+- Southern Suspension Bridge Landing (9, 34): Western cliff staircase ascends North from row 38 to bridge landing at (9, 34). Bridge spans East across row 34 (cols 10..20) directly to Eastern Plateau landing at (21, 34).
 
 <hr>
 
