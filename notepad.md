@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | NEPTUNE | Active (Lv 5) | Starter on Route 101 |
+| Starter (Route 101) | Mudkip | ANEPTUNE | Active (Lv 13) | Starter on Route 101; raised to Lv 13 (knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right |
 | Route 103 | — | — | Pending | Tall grass |
 | Route 102 | — | — | Pending | Tall grass |
