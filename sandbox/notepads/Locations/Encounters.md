@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | ANEPTUNE | Active (Lv 14) | Starter on Route 101; raised to Lv 14 (holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun) |
+| Starter (Route 101) | Mudkip | ANEPTUNE | Active (Lv 15) | Starter on Route 101; reached Lv 15 on Gina & Mia (43 HP, 28 Atk, 21 Def, 23 Sp.Atk, 21 Sp.Def, 16 Speed; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 15) | Caught F Lv 4 with Old Rod at (17, 13); reached Lv 15 (40 HP, 16 Atk, 24 Def, 18 Sp.Atk, 26 Sp.Def, 41 Speed; holds Oran Berry; knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
 | Route 102 | Sandshrew | TERRA | Active (Lv 14) | Caught F Lv 6 at (39, 4); raised to Lv 14 (holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
