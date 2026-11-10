@@ -13,7 +13,7 @@
 | Petalburg Woods | Weepinbell | FLORA | Deceased (Lv 20) | Reached Lv 20 on School Kid Jerry's Phanpy; fainted to Route 106 Team Aqua Grunt's #4 Clamperl's Aurora Beam after 2-hit Bullet Seed left Clamperl at 1 HP |
 | Route 116 | Paras | HYPNOS | Deceased (Lv 16) | Caught at Lv 9 in tall grass; fainted to Roxanne's #4 Relicanth's Rock Throw after baiting Lileep and pivoting |
 | Route 115 | Kabuto | TRITON | Deceased (Lv 17) | Reached Lv 17 on Roxanne's #1 Nosepass; fainted to #3 Lileep's Giga Drain after Mega Drain brought Lileep into fatal Toxic range |
-| Rusturf Tunnel | Phanpy | GAIA | Active (Lv 20) | Caught F Lv 11 at (4, 9), raised to Lv 20 (68 HP, 31 Atk, 32 Def, 25 Sp.Atk, 26 Sp.Def, 25 Speed; 0 EXP into Lv 20); Pickup; holds Oran Berry; knows Tackle, Mud Shot, Ice Shard, Rock Throw (declined Endeavor Lv 19) |
+| Rusturf Tunnel | Phanpy | GAIA | Deceased (Lv 20) | Caught F Lv 11 at (4, 9), raised to Lv 20; fainted to Route 106 Team Aqua Grunt's #5 Sneasel's Surf after priority Ice Shard left Sneasel at 1 HP |
 | Dewford Town | Spheal | THALASSA | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (16, 10) facing Up at (16, 9) |
 | Route 106 | Seel | CHIONE | Boxed (Lv 15) | Hooked F Lv 15 with Old Rod at (70, 19) facing Right at (71, 19); knows Headbutt, Aurora Beam |
 | Granite Cave | — | — | Pending | Cave encounter |
@@ -327,6 +327,6 @@
   - **Dewford Gym**: Located in the southern part of town (Gym Leader Brawly — Level Cap 20).
 - **Route 106**:
   - **Old Rod Fishing Spot**: Stand at `(70, 19)` facing `Right` at `(71, 19)` (observed wild species: `Seel` F Lv 15 [`Headbutt`, `Aurora Beam`]).
-  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`, `Toxic`, `Water Pulse`, high Sp.Def / `DeepSeaScale`], plus 2 more).
+  - **Team Aqua Grunt** at `(60, 13)` facing `Down` across the narrow choke point `(60, 14..18)` ("I got word that a brat has messed..."; 6 Pokemon: `#1 Gastly` M Lv 14 [283 EXP, `Hypnosis`, `Sludge Bomb`, `Night Shade`/`Shadow Ball`, `Selfdestruct`], `#2 Porygon` Lv 14 [390 EXP, `Tri Attack`, `Recover` (5 PP)], `#3 Marshtomp` M Lv 16 [489 EXP, `Mud Shot`, `Ice Punch`], `#4 Clamperl` M Lv 15 [`Aurora Beam`, `Toxic`, `Water Pulse`, high Sp.Def / `DeepSeaScale`], `#5 Sneasel` M Lv 13 [`Ice Beam`, `Secret Power`, `Surf`], plus 1 more).
 
 <hr>
