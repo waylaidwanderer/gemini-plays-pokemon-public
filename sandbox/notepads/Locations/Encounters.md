@@ -8,7 +8,7 @@
 | Route 102 | Sandshrew | TERRA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 6 at (39, 4); learned Dig into empty Slot 4 at Lv 16 and reached Lv 17 (benched in PC until after Roxanne) |
 | Petalburg City | Azurill | GALATEA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 17 on Lass Haley's Vulpix (benched until after Roxanne; deposit in Rustboro PC) |
 | Route 104 | Nidorina | ARTEMIS | Active (Lv 16) | Caught F Lv 7 at (26, 59); evolved into Nidorina at Lv 16 after Red (53 HP, 26 Atk, 26 Def, 27 Sp.Atk, 23 Sp.Def, 26 Speed; 347/585 EXP after Tammy [238 EXP buffer left]; holds Oran Berry; knows Crunch, Scratch, Bite, Double Kick) |
-| Petalburg Woods | Pineco | AEGIS | Active (Lv 16) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (328/1,021 EXP after Tammy [693 EXP buffer left]; 46 HP, 28 Atk, 34 Def; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
+| Petalburg Woods | Pineco | AEGIS | Deceased (Lv 16) | Caught F Lv 7 at (7, 30); fainted at Lv 16 on Turn 6644 to Hiker Marc's #4 Cacnea (Stomp after Needle Arm bypassed Oran Berry) |
 | Route 116 | Makuhita | ATLAS | Active (Lv 16) | Caught M Lv 9 at (5, 14); Lv 16 (460/585 EXP after Tammy [125 EXP buffer left]; 53 HP, 28 Atk, 18 Def; holds Oran Berry; knows Faint Attack, SmellingSalt, Vital Throw, Force Palm) |
 | Route 115 | Kabuto | TRITON | Active (Lv 16) | Caught M Lv 9 with Old Rod at (7, 71); Lv 16 (783/817 EXP after Tammy [34 EXP buffer left — PRIMED for Roxanne's Nosepass!]; 37 HP, 30 Atk, 37 Def, 25 Sp.Atk, 24 Sp.Def, 26 Speed; holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
