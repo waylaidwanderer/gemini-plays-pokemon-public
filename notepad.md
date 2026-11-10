@@ -11,7 +11,7 @@
 | Petalburg City | Azurill | GALATEA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 17 on Lass Haley's Vulpix (benched until after Roxanne; deposit in Rustboro PC) |
 | Route 104 | Nidorina | ARTEMIS | Active (Lv 16) | Caught F Lv 7 at (26, 59); evolved into Nidorina at Lv 16 after Red (~450/585 EXP buffer left; knows Crunch, Scratch, Bite, Double Kick) |
 | Petalburg Woods | Pineco | AEGIS | Active (Lv 15) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (1,021 EXP buffer at Lv 16); raised to Lv 15 (44 HP, 27 Atk, 33 Def, 15 Sp.Atk, 16 Sp.Def, 9 Speed; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
-| Route 116 | Makuhita | ATLAS | Active (Lv 9) | Caught M Lv 9 at (5, 14) on Turn 6582 |
+| Route 116 | Makuhita | ATLAS | Active (Lv 15) | Caught M Lv 9 at (5, 14); raised to Lv 15 (50 HP, 26 Atk, 18 Def, 12 Sp.Atk, 16 Sp.Def, 14 Speed; knows Faint Attack, SmellingSalt, Vital Throw, Force Palm) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
