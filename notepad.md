@@ -7,10 +7,10 @@
 | Starter (Route 101) | Mudkip | ANEPTUNE | Active (Lv 15) | Starter on Route 101; reached Lv 15 on Gina & Mia (43 HP, 28 Atk, 21 Def, 23 Sp.Atk, 21 Sp.Def, 16 Speed; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Luvdisc | APHRODITE | Active (Lv 15) | Caught F Lv 4 with Old Rod at (17, 13); reached Lv 15 (40 HP, 16 Atk, 24 Def, 18 Sp.Atk, 26 Sp.Def, 41 Speed; holds Oran Berry; knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Wingull | — | Forfeited | First encounter Lv 4 fainted at (12, 14) on Turn 6435 |
-| Route 102 | Sandshrew | TERRA | Active (Lv 14) | Caught F Lv 6 at (39, 4); raised to Lv 14 (holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
+| Route 102 | Sandshrew | TERRA | Active (Lv 15) | Caught F Lv 6 at (39, 4); raised to Lv 15 (42 HP, 27 Atk, 32 Def, 15 Sp.Atk, 17 Sp.Def, 18 Speed; holds Oran Berry; knows Scratch, Defense Curl, Poison Sting, Sand-Attack) |
 | Petalburg City | Azurill | GALATEA | Retired (Lv 17, Overleveled for Roxanne) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power; reached Lv 17 on Lass Haley's Vulpix (benched until after Roxanne; deposit in Rustboro PC) |
 | Route 104 | Nidoran♀ | ARTEMIS | Active (Lv 15) | Caught F Lv 7 at (26, 59); reached Lv 15 (46 HP, 20 Atk, 20 Def, 21 Sp.Atk, 18 Sp.Def, 19 Speed; holds Oran Berry; knows Poison Sting, Scratch, Bite, Double Kick) |
-| Petalburg Woods | Pineco | AEGIS | Active (Lv 14) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (1,021 EXP buffer at Lv 16); raised to Lv 14 (42 HP, 25 Atk, 31 Def, 14 Sp.Atk, 15 Sp.Def, 9 Speed; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
+| Petalburg Woods | Pineco | AEGIS | Active (Lv 15) | Caught F Lv 7 at (7, 30); Sturdy, Naughty (+Atk), Slow EXP group (1,021 EXP buffer at Lv 16); raised to Lv 15 (44 HP, 27 Atk, 33 Def, 15 Sp.Atk, 16 Sp.Def, 9 Speed; holds Oran Berry; knows Tackle, Pin Missile, Selfdestruct, Secret Power) |
 | Route 116 | — | — | Pending | Tall grass at (4, 13..15) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
