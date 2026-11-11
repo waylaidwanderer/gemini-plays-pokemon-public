@@ -4877,6 +4877,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Corridor at rows 13..14 (cols 9..16) connects East directly to the top of the Northern Staircase at (16, 17).
   - Northern Staircase descends south to the Level 0 Highway (rows 23..24), which runs East across cols 16..28 to the Cooltrainer Terrace (cols 28..35) and the Northern Canyon Exit Sector!
 
+## 1F Southwest Ledge & Row 26 Central Connection (Verified Turns 22201-22213)
+- B1F Exit Ladder at (5, 26) emerges at (5, 26) on 1F facing Down.
+- Tile (5, 25) to the North is an impassable solid cliff face.
+- Rows 27..29 directly South are three one-way jump ledges that drop down into the Level 0 entrance canyon (cols 5..7, row 30). DO NOT HOP DOWN unless intending to return to the cave entrance.
+- Row 26 Highway: Runs completely unobstructed East across cols 6..13 between the northern cliff and the southern ledges, connecting (5, 26) directly to the Central Platform at (13, 26).
+- Northern Avenue from Central Platform: From (13, 26), an open sandy canyon avenue leads straight North along cols 13..15 across rows 25..21, passing completely UNDER the overhead Northern Suspension Bridge (row 17) toward the Northern Canyon, Cooltrainer Terrace, and the cave exit!
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
