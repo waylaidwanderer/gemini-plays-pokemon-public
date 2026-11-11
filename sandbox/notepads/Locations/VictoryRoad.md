@@ -322,3 +322,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - B1F Lower Basin Trainers & Stealth Route (Turn 21949): Vito Winstrate is at (14, 16) facing South; a second trainer is at (14, 20) facing North. Column 16 (rows 17..20) is completely clear of both lines of sight, providing a clean stealth route to the southern highway at row 21 and the 1F exit ladder at (20, 20).
 - B1F Exit Ladder Route (Verified Turn 21950): From (16, 20), step Down to (16, 21), then East along row 21 across cols 17..20 directly to the base of the 1F exit ladder at (20, 21). Ascending at (20, 20) leads to 1F exit canyon!
 - Trainers Defeated: Cooltrainer ♀ Halle defeated at (15, 20) on B1F on Turn 21963 (Sableye Lv 43, Absol Lv 43; prize ¥2,064). SAGE Lv 61 took 0 damage (HP 167/185, Leaf Blade 10/15).
+- B1F Southern Highway to 1F Exit Ladder (Verified Turn 21964):
+  - Tile (16, 21) is an impassable cliff corner.
+  - The correct route from (16, 19): walk West along row 19 via (15, 19) -> (14, 19), South down column 14 through (14, 21..22) onto the open Southern Highway at row 22.
+  - Walk East along row 22 across cols 15..20 to (20, 22), then step North to (20, 21) into the 1F ascent ladder at (20, 20)!
