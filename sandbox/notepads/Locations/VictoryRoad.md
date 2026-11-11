@@ -295,3 +295,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - At (29..30, 29..31), x=30 is a solid vertical cliff wall.
 - The ladder at (21, 32) sits in an elevated alcove with a south-facing jump ledge at row 33 and western staircase descending from the Middle Suspension Bridge (rows 27-28).
 - The Middle Suspension Bridge is accessed via the eastern wooden staircase at cols 33-34.
+
+## 1F Eastern Plateau & Middle Bridge Refutation (Conclusively Verified Turn 21742)
+- Trench at Column 39: From (39, 34), Column 39 runs north between the cliff and cave wall to (39, 30).
+- Row 27 Ledge: Tile (39, 29) is bounded by the south-facing jump ledge coming down from the Max Elixir shelf (40, 26).
+- Eastern Stairs at (33..34, 27..30): The stairs lead DOWN onto landing (33..35, 31..32), which terminates at a south-facing jump ledge at row 33. The vertical cliff at col 38 completely separates Column 39 from the stairs.
+- Exit Status: Both the Middle Suspension Bridge (rows 27-28) and ladder (21, 32) are ONE-WAY EXITS from deeper in Victory Road / B1F return. They cannot be entered from 1F.
+- Verified Progression: The ONLY forward path through Victory Road is entering B1F via the Western Terrace ladder at (8, 13).
