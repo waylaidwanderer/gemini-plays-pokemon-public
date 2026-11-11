@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Starter F Lv 5 on Route 101 (knows Tackle, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
+| Littleroot Town | Goldeen | CALYPSO | Active (Lv 13) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (knows BubbleBeam, Psybeam, Haze, Supersonic) |
 | Route 103 | Ekans | MEDUSA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (33 HP, 22 Atk, 20 Def, 18 Sp.Atk, 21 Sp.Def, 19 Speed; knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
