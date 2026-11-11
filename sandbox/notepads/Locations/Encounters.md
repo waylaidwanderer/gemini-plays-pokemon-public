@@ -8,7 +8,7 @@
 | Route 102 | Nidoran♂ | ARES | Active (Lv 15) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | Azurill | NEREUS | Active (Lv 15) | Caught M Lv 5 with Old Rod at (11, 22); knows Body Slam, Charm, Secret Power, BubbleBeam |
 | Route 104 | Snubbull | HERA | Active (Lv 15) | Caught F Lv 7 at (23, 61); knows Headbutt, Bite, Lick, Roar |
-| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
