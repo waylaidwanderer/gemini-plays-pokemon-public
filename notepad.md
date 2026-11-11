@@ -4878,6 +4878,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Definitive Exit Route: Return East to (18, 17), step East into (19, 17), East to (20, 17), and South down column 20 directly to the 1F exit ladder at (20, 20)!
 - B1F Chamber Classification (Verified Turn 22004): The basin entered from (17, 16) is an isolated combat chamber with Halle and Mitchell; all perimeter tiles are confirmed solid barriers. Returning to B2F to explore the eastern water channel past col 19!
 - B2F Rock Bypass & Southern Shore (Verified Turn 22009): The lower rock occupies (23..24, 14..15). Row 12 (cols 21..27) provides an open northern bypass channel. Moving East past the rocks leads to open water at col 25, connecting south to a dirt shoreline at (25, 16) with an undefeated trainer at (25, 18).
+- B2F Eastern Channel & Shore Exploration (Verified Turn 22010):
+  - Row 15 at (22, 15) provides open water leading East past the (19, 12) landing.
+  - The southern shoreline at rows 16..17 connects to a plateau with an undefeated female trainer at (25, 18).
+  - Actively disembarking onto the southern shore to locate the true 1F ascent ladder.
 
 <hr>
 
