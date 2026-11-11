@@ -303,3 +303,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Trainer spotted at approximately (36..37, 23..24) in red shirt.
 ## Trainers Defeated - Victory Road B2F
 - Cooltrainer ♀ Julie: Defeated at (35, 22) on Turn 21868 (Sandslash Lv 42, Ninetales Lv 42, Tropius Lv 42). Prize: ¥2,016.
+## B2F Subterranean Lake & Waterfall Topography (Verified Turns 21872-21887)
+- Lake Shoreline: Located at (34, 17) north of the overhead bridge. Facing North into (34, 16) prompts to Surf with Lilz.
+- Water Channel: From (34, 16), surf North to row 14 to clear cliff corner at (32, 16), then West along row 14 (cols 33..25) to the waterfall basin.
+- Waterfall Base: Located at cols 26..28, row 12. Interacting with A prompts to use Waterfall. Confirming YES and dismissing 'LILZ used WATERFALL.' scales the waterfall to landing at (27, 8).
+- Upper Water Channel: From (27, 8), water extends North along column 27 to row 1. At (27, 1), the northern cliff wall (row 0) turns the water channel WEST along rows 1..2.
