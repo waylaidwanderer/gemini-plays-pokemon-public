@@ -4870,6 +4870,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
     1. Ascend Column 14 North (bypassing Halle and Mitchell via row 17..19) up to row 12.
     2. Head East along Row 12 (cols 14..20) past the Rock Smash rock at (18, 12).
     3. Descend South down Columns 20..21 (rows 12..20) onto the eastern plateau directly to the 1F exit ladder at (20, 20)!
+- B1F Western Lower Basin (Verified Turn 21993): The basin extends West across cols 10..13 (rows 16..20). Directly above is the row 14/15 cliff dropping down from the row 13 upper highway.
 
 <hr>
 
