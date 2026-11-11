@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Starter F Lv 5 on Route 101 (knows Mud Shot, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Goldeen | CALYPSO | Active (Lv 15) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (42 HP, 26 Atk, 25 Def, 19 Sp.Atk, 24 Sp.Def, 24 Speed; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic) |
+| Littleroot Town | Goldeen | CALYPSO | Active (Lv 16) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic) |
 | Route 103 | Ekans | MEDUSA | Active (Lv 15) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 15) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | Azurill | NEREUS | Active (Lv 16) | Caught M Lv 5 with Old Rod at (11, 22); Thick Fat (44 HP, 12 Atk, 22 Def, 12 Sp.Atk, 18 Sp.Def, 14 Speed; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
