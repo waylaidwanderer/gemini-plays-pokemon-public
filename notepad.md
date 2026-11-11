@@ -8,7 +8,7 @@
 | Littleroot Town | Goldeen | GLAUCUS | Active | Male, Lv 14, Relaxed, Water Veil (40 HP, 24 Atk, 28 Def, 15 Sp.Atk, 23 Sp.Def, 19 Speed; BubbleBeam, Psybeam, Haze, Supersonic); hooked at (17, 13) |
 | Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 13, Gentle, Chlorophyll (35 HP, 15 Atk, 15 Def, 17 Sp.Atk, 20 Sp.Def, 21 Speed; Confusion, PoisonPowder, Mega Drain, Gust); caught at (14, 15) |
 | Route 102 | Sandshrew | CRONUS | Active | Male, Lv 13, Serious, Sand Veil (37 HP, 28 Atk, 29 Def, 12 Sp.Atk, 13 Sp.Def, 17 Speed; Scratch, Defense Curl, Poison Sting, Sand-Attack); caught at (39, 2) |
-| Petalburg City | Luvdisc | VENUS | Active | Female, Lv 5; hooked at (11, 22) |
+| Petalburg City | Luvdisc | VENUS | Active | Female, Lv 14 (36 HP, 15 Atk, 24 Def, 19 Sp.Atk, 24 Sp.Def, 30 Speed; Secret Power, Charm, Water Pulse); hooked at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (5..6, 14..16) |
