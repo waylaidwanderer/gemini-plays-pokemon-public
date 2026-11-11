@@ -4855,6 +4855,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - B1F Lower Basin Navigation (Turn 21941): Row 15 directly north of (18, 16) is the impassable cliff wall. The lower basin corridor runs South along column 18 (rows 16..20) toward a wooden ladder/staircase structure at (19, 20).
 - B1F Lower Basin Route to Exit Ladder (Turn 21943): The landing at (18, 16..17) connects West along row 17 into the main lower basin. The ladder ascending to 1F is located at (20, 20), reached via column 16 down to the southern highway at row 21.
 - B1F Lower Basin Trainers & Stealth Route (Turn 21949): Vito Winstrate is at (14, 16) facing South; a second trainer is at (14, 20) facing North. Column 16 (rows 17..20) is completely clear of both lines of sight, providing a clean stealth route to the southern highway at row 21 and the 1F exit ladder at (20, 20).
+- B1F Exit Ladder Route (Verified Turn 21950): From (16, 20), step Down to (16, 21), then East along row 21 across cols 17..20 directly to the base of the 1F exit ladder at (20, 21). Ascending at (20, 20) leads to 1F exit canyon!
 
 <hr>
 
