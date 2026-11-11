@@ -4884,6 +4884,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Actively disembarking onto the southern shore to locate the true 1F ascent ladder.
 - B2F Column 21 Rock Bypass (Verified Turn 22012): The rocks occupy cols 22..24. The open bypass route steps Left to column 21 (rows 14..12), Up to row 12, then East along row 12 across cols 22..26 into the open lake, then South to the dirt shore at (26, 16).
 - B2F Eastern Rock Barrier (Verified Turn 22013): The water rocks at (22..23, 12..13) and (23..24, 14..15) touch diagonally, completely sealing off the eastern water channel. The only exit from this water is the landing at (19, 12) leading to B1F.
+- B1F Southwest Corridor (Discovered Turn 22019): At (7, 17), the cavern floor curves southwest between the cliffs, opening into an unexplored corridor across cols 5..7, rows 17..20+.
 
 <hr>
 
