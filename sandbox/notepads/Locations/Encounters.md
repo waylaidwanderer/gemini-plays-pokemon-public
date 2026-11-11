@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip | AEO | Active (Lv 13) | Starter on Route 101 (37 HP, 25 Atk, 19 Def, 18 Sp.Atk, 18 Sp.Def, 16 Speed; knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Luvdisc | EROS | Active (Lv 13) | Caught M Lv 4 with Old Rod at (17, 13); Swift Swim (34 HP, 13 Atk, 19 Def, 19 Sp.Atk, 26 Sp.Def, 32 Speed; knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Ledyba | ASTRAEA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Early Bird (34 HP, 13 Atk, 15 Def, 15 Sp.Atk, 25 Sp.Def, 18 Speed; knows Silver Wind, Aerial Ace, Supersonic) |
-| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Route 102 | Sandshrew | CYBELE | Active (Lv 13) | Caught F Lv 6 at (39, 6); Sand Veil; knows Scratch, Defense Curl, Poison Sting |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
