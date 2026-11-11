@@ -336,3 +336,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
     2. Head East along Row 12 (cols 14..20) past the Rock Smash rock at (18, 12).
     3. Descend South down Columns 20..21 (rows 12..20) onto the eastern plateau directly to the 1F exit ladder at (20, 20)!
 - B1F Western Lower Basin (Verified Turn 21993): The basin extends West across cols 10..13 (rows 16..20). Directly above is the row 14/15 cliff dropping down from the row 13 upper highway.
+- B1F Lower Basin Complete Topographical Proof (Verified Turn 21994):
+  - West perimeter bounded at cols 7..8 (dead end).
+  - South perimeter bounded at rows 23..24 (dead end).
+  - North perimeter bounded at row 15 (continuous cliff wall).
+  - Definitive Exit Route: Return East to (18, 17), step East into (19, 17), East to (20, 17), and South down column 20 directly to the 1F exit ladder at (20, 20)!
