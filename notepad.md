@@ -4882,6 +4882,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 15 at (22, 15) provides open water leading East past the (19, 12) landing.
   - The southern shoreline at rows 16..17 connects to a plateau with an undefeated female trainer at (25, 18).
   - Actively disembarking onto the southern shore to locate the true 1F ascent ladder.
+- B2F Column 21 Rock Bypass (Verified Turn 22012): The rocks occupy cols 22..24. The open bypass route steps Left to column 21 (rows 14..12), Up to row 12, then East along row 12 across cols 22..26 into the open lake, then South to the dirt shore at (26, 16).
 
 <hr>
 
