@@ -4,12 +4,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AEO | Active (Lv 14) | Starter on Route 101 (39 HP, 27 Atk, 20 Def, 19 Sp.Atk, 19 Sp.Def, 17 Speed; holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Luvdisc | EROS | Active (Lv 14) | Caught M Lv 4 with Old Rod at (17, 13); Swift Swim (36 HP, 14 Atk, 20 Def, 20 Sp.Atk, 28 Sp.Def, 34 Speed; knows Secret Power, Charm, Water Pulse) |
-| Route 103 | Ledyba | ASTRAEA | Active (Lv 14) | Caught F Lv 4 at (17, 11); Early Bird (36 HP, 13 Atk, 16 Def, 16 Sp.Atk, 27 Sp.Def, 18 Speed; knows Silver Wind, Aerial Ace, Supersonic) |
-| Route 102 | Sandshrew | CYBELE | Active (Lv 14) | Caught F Lv 6 at (39, 6); Sand Veil (40 HP, 30 Atk, 30 Def, 14 Sp.Atk, 13 Sp.Def, 16 Speed; knows Scratch, Defense Curl, Sand-Attack) |
-| Petalburg City | Azurill | THETIS | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (44 HP, 15 Atk [30 Huge Power], 19 Def, 17 Sp.Atk, 18 Sp.Def, 15 Speed; ~495/585 EXP buffer left; knows Body Slam, Charm, Secret Power, BubbleBeam) |
-| Route 104 | Natu | HORUS | Active (Lv 16) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (40 HP, 24 Atk, 23 Def, 25 Sp.Atk, 20 Sp.Def, 31 Speed; ~670/817 EXP buffer left; knows Peck, Psybeam, Night Shade) |
+| Starter (Route 101) | Mudkip | AEO | Active (Lv 15) | Starter on Route 101 (41 HP, holds Oran Berry; knows Tackle, Bubble, Mud Sport, Water Gun) |
+| Littleroot Town | Luvdisc | EROS | Active (Lv 15) | Caught M Lv 4 with Old Rod at (17, 13); Swift Swim (38 HP, 22 Def, 21 Sp.Atk, 29 Sp.Def, 36 Speed, holds Oran Berry; knows Secret Power, Charm, Water Pulse) |
+| Route 103 | Ledyba | ASTRAEA | Active (Lv 15) | Caught F Lv 4 at (17, 11); Early Bird (38 HP, 14 Atk, 17 Def, 17 Sp.Atk, 29 Sp.Def, 19 Speed, holds Oran Berry; knows Silver Wind, Aerial Ace, Supersonic) |
+| Route 102 | Sandshrew | CYBELE | Active (Lv 15) | Caught F Lv 6 at (39, 6); Sand Veil (42 HP, 32 Atk, 32 Def, 15 Sp.Atk, 14 Sp.Def, 17 Speed, holds Oran Berry; knows Scratch, Defense Curl, Sand-Attack) |
+| Petalburg City | Azurill | THETIS | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (44 HP, 15 Atk [30 Huge Power], 19 Def, 17 Sp.Atk, 18 Sp.Def, 15 Speed; 68 EXP to Lv 17 [3052/3120]; knows Body Slam, Charm, Secret Power, BubbleBeam) |
+| Route 104 | Natu | HORUS | Active (Lv 16) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (40 HP, 24 Atk, 23 Def, 25 Sp.Atk, 20 Sp.Def, 31 Speed; 90 EXP to Lv 17 [4823/4913]; knows Peck, Psybeam, Night Shade) |
 | Petalburg Woods | Illumise | SELENE | Active (Lv 8, Boxed) | Caught F Lv 8 at (21, 35); Fluctuating EXP group, 85 base Speed; knows Quick Attack, Thunder Wave |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
