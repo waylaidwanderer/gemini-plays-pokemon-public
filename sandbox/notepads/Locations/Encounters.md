@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 5; met on Route 101 |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 5; met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
 | Route 103 | — | — | Pending | Tall grass at (15..18, 11..13) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
