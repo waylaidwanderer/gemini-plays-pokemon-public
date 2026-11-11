@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | EROS | Active (Lv 14) | Caught M Lv 4 with Old Rod at (17, 13); Swift Swim (36 HP, 14 Atk, 20 Def, 20 Sp.Atk, 28 Sp.Def, 34 Speed; knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Ledyba | ASTRAEA | Active (Lv 14) | Caught F Lv 4 at (17, 11); Early Bird (36 HP, 13 Atk, 16 Def, 16 Sp.Atk, 27 Sp.Def, 18 Speed; knows Silver Wind, Aerial Ace, Supersonic) |
 | Route 102 | Sandshrew | CYBELE | Active (Lv 14) | Caught F Lv 6 at (39, 6); Sand Veil (40 HP, 30 Atk, 30 Def, 14 Sp.Atk, 13 Sp.Def, 16 Speed; knows Scratch, Defense Curl, Sand-Attack) |
-| Petalburg City | Azurill | THETIS | Active (Lv 15) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (42 HP, 14 Atk [28 Huge Power], 18 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; knows Body Slam, Charm, Secret Power, BubbleBeam) |
+| Petalburg City | Azurill | THETIS | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (44 HP, 15 Atk [30 Huge Power], 19 Def, 17 Sp.Atk, 18 Sp.Def, 15 Speed; ~495/585 EXP buffer left; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Natu | HORUS | Active (Lv 15) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (38 HP, 23 Atk, 22 Def, 24 Sp.Atk, 19 Sp.Def, 29 Speed; knows Peck, Psybeam, Night Shade) |
 | Petalburg Woods | Illumise | SELENE | Active (Lv 8, Boxed) | Caught F Lv 8 at (21, 35); Fluctuating EXP group, 85 base Speed; knows Quick Attack, Thunder Wave |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
