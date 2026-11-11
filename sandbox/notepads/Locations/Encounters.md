@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #36)
+# Nuzlocke Encounters (Attempt #37)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | AEO | Active (Lv 16) | Starter on Route 101 (50 HP, 34 Atk, 28 Def, 25 Sp.Atk, 26 Sp.Def, 22 Speed, holds Oran Berry; 0/1021 EXP; knows Mud Shot, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Luvdisc | EROS | Active (Lv 16) | Caught M Lv 4 with Old Rod at (17, 13); Swift Swim (40 HP, 15 Atk, 23 Def, 22 Sp.Atk, 31 Sp.Def, 38 Speed, holds Oran Berry; 0/653 EXP; knows Secret Power, Charm, Water Pulse, Ice Beam) |
-| Route 103 | Ledyba | ASTRAEA | Deceased (Lv 15) | Caught F Lv 4 at (17, 11); Swarm (fainted Turn 6795 to Red's Squirtle while asleep) |
-| Route 102 | Sandshrew | CYBELE | Active (Lv 16) | Caught F Lv 6 at (39, 6); Sand Veil (45 HP, 33 Atk, 34 Def, 15 Sp.Atk, 14 Sp.Def, 18 Speed, holds Oran Berry; 0/817 EXP; knows Scratch, Defense Curl, Sand-Attack, Dig) |
-| Petalburg City | Azurill | THETIS | Active (Lv 16, Boxed) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (44 HP, 15 Atk [30 Huge Power], 19 Def, 17 Sp.Atk, 18 Sp.Def, 15 Speed; 68 EXP to Lv 17 [3052/3120]; knows Body Slam, Charm, Secret Power, BubbleBeam) |
-| Route 104 | Natu | HORUS | Active (Lv 16, Boxed) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (40 HP, 24 Atk, 23 Def, 25 Sp.Atk, 20 Sp.Def, 31 Speed; 90 EXP to Lv 17 [4823/4913]; knows Peck, Psybeam, Night Shade) |
-| Petalburg Woods | Illumise | SELENE | Active (Lv 16) | Caught F Lv 8 at (21, 35); Oblivious, Gentle (+Sp.Def) (49 HP, 21 Atk, 28 Def, 32 Sp.Atk, 36 Sp.Def, 33 Speed, holds Oran Berry; 0/~920 EXP; knows Moonlight, Thunder Wave, Flatter, Silver Wind) |
-| Route 116 | Makuhita | HERACLES | Deceased (Lv 16) | Caught M Lv 9 at (4, 13); fainted Turn 6845 to School Kid Tammy's Larvitar (Rock Slide + Earthquake while using -1 priority Vital Throw) |
-| Route 115 | Kabuto | SCYLLA | Deceased (Lv 16) | Caught F Lv 9 with Old Rod at (7, 71); fainted Turn 6837 to School Kid Tammy's +2 Speed Yanma's 4x Giga Drain |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip from Birch's bag on Route 101 |
+| Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
+| Route 103 | — | — | Pending | Tall grass at (15..18, 11..13) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
