@@ -12,7 +12,7 @@
 | Route 104 | Snubbull | HERA | Active (Lv 16) | Caught F Lv 7 at (23, 61); Run Away (49 HP, 35 Atk, 22 Def, 19 Sp.Atk, 18 Sp.Def, 17 Speed; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
 | Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
 | Route 116 | Natu | HORUS | Active (Lv 16) | Caught M Lv 9 at (6, 14); (39 HP, 25 Atk, 18 Def, 31 Sp.Atk, 23 Sp.Def, 31 Speed; holds Oran Berry; knows Peck, Psybeam, Night Shade) |
-| Route 115 | Kabuto | TRITON | Active (Lv 16) | Caught M Lv 9 with Old Rod at (7, 71); (holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain) |
+| Route 115 | Kabuto | TRITON | Active (Lv 16) | Caught M Lv 9 with Old Rod at (7, 71); (39 HP, 35 Atk, 36 Def, 23 Sp.Atk, 19 Sp.Def, 19 Speed; holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
