@@ -4857,25 +4857,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - B1F Lower Basin Trainers & Stealth Route (Turn 21949): Vito Winstrate is at (14, 16) facing South; a second trainer is at (14, 20) facing North. Column 16 (rows 17..20) is completely clear of both lines of sight, providing a clean stealth route to the southern highway at row 21 and the 1F exit ladder at (20, 20).
 - B1F Exit Ladder Route (Verified Turn 21950): From (16, 20), step Down to (16, 21), then East along row 21 across cols 17..20 directly to the base of the 1F exit ladder at (20, 21). Ascending at (20, 20) leads to 1F exit canyon!
 - Trainers Defeated: Cooltrainer ♀ Halle defeated at (15, 20) on B1F on Turn 21963 (Sableye Lv 43, Absol Lv 43; prize ¥2,064). SAGE Lv 61 took 0 damage (HP 167/185, Leaf Blade 10/15).
-- B1F Southern Highway to 1F Exit Ladder (Verified Turn 21964):
-  - Tile (16, 21) is an impassable cliff corner.
-  - The correct route from (16, 19): walk West along row 19 via (15, 19) -> (14, 19), South down column 14 through (14, 21..22) onto the open Southern Highway at row 22.
-  - Walk East along row 22 across cols 15..20 to (20, 22), then step North to (20, 21) into the 1F ascent ladder at (20, 20)!
-- Vito Winstrate Encounter (Turn 21965): Stepping onto column 14 at (14, 19) triggered Cooltrainer Vito Winstrate from (14, 16). Vito challenged May with his full team!
-- Trainers Defeated: Cooltrainer ♂ Mitchell defeated at (14, 18) on B1F on Turn 21979 (Lunatone Lv 43, Solrock Lv 43; prize ¥2,064). SAGE grew to Level 62! (HP 170/188, Leaf Blade 8/15).
-- B1F Row 23 Southern Highway (Verified Turn 21980): The central cliff runs south to row 22. The open horizontal highway is at row 23 across cols 14..20. From (15, 21), step Down twice to (15, 23), East across cols 16..20 to (20, 23), then North up column 20 directly into the ladder at (20, 20) to 1F!
-- B1F Lower Basin Macro Topology & Exit Route (Verified Turn 21981):
-  - Row 23/24 is a dead-end southern cliff wall; cannot exit south.
-  - The true route is a northern U-shaped corridor:
-    1. Ascend Column 14 North (bypassing Halle and Mitchell via row 17..19) up to row 12.
-    2. Head East along Row 12 (cols 14..20) past the Rock Smash rock at (18, 12).
-    3. Descend South down Columns 20..21 (rows 12..20) onto the eastern plateau directly to the 1F exit ladder at (20, 20)!
-- B1F Western Lower Basin (Verified Turn 21993): The basin extends West across cols 10..13 (rows 16..20). Directly above is the row 14/15 cliff dropping down from the row 13 upper highway.
-- B1F Southwest Corridor & Exit Progression (Verified Turns 22019-22021):
-  - Row 17 connects West past (7, 17) to (6, 17) and (5, 17), curving South into a long vertical canyon along cols 3..6.
-  - Undefeated female trainer stationed at (5, 20) facing West.
-  - The canyon continues South past row 20 toward the ascent ladder to 1F!
-- Trainers Defeated: Cooltrainer ♀ Michelle defeated at (5, 21) on B1F on Turn 22048 (Torkoal Lv 42, Medicham Lv 42, Ludicolo Lv 42; prize ¥2,016). SAGE Lv 62 HP: 92/188. Canyon continues South down Column 4!
+- B1F Basin & Southwest Canyon Summary (Verified Turns 21963-22051):
+  - Lower Central Basin (rows 16..20, cols 14..18) entered from B2F ladder (17, 16) contains Cooltrainer Halle at (15, 20) and Cooltrainer Mitchell at (14, 18).
+  - Both Halle (¥2,064) and Mitchell (¥2,064) defeated cleanly by Sage Lv 61->62.
+  - The basin connects West along row 17 across cols 13..6, curving South at (5, 17) into the Southwest Canyon (cols 3..5, rows 18..26).
+  - Cooltrainer ♀ Michelle defeated at (5, 21) on Turn 22048 (Torkoal Lv 42, Medicham Lv 42, Ludicolo Lv 42; prize ¥2,016). SAGE Lv 62 HP: 92/188.
+  - True 1F Exit Ladder: Located at (5, 26) at the southern end of the southwest canyon! Ascends directly into 1F exit canyon!
 
 <hr>
 
@@ -4966,7 +4953,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥33,446 (earned ¥2,016 from Cooltrainer Julie Turn 21868)
+- Money: ¥39,590 (earned ¥2,064 from Halle, ¥2,064 from Mitchell, ¥2,016 from Michelle)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
