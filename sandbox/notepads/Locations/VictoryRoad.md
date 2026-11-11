@@ -341,4 +341,3 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Progression routes via the Western Terrace (cols 2..3) past Wally and Hope to rows 13..14.
   - Corridor at rows 13..14 (cols 9..16) connects East directly to the top of the Northern Staircase at (16, 17).
   - Northern Staircase descends south to the Level 0 Highway (rows 23..24), which runs East across cols 16..28 to the Cooltrainer Terrace (cols 28..35) and the Northern Canyon Exit Sector!
-- Western Terrace Traversal (Verified Turn 22162): Stepped from (4, 26) onto Western Terrace at (3, 26) and walked North along Column 3 past Wally at (2, 23) to row 20. Route to row 14 is open!
