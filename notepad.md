@@ -4863,6 +4863,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Walk East along row 22 across cols 15..20 to (20, 22), then step North to (20, 21) into the 1F ascent ladder at (20, 20)!
 - Vito Winstrate Encounter (Turn 21965): Stepping onto column 14 at (14, 19) triggered Cooltrainer Vito Winstrate from (14, 16). Vito challenged May with his full team!
 - Trainers Defeated: Cooltrainer ♂ Mitchell defeated at (14, 18) on B1F on Turn 21979 (Lunatone Lv 43, Solrock Lv 43; prize ¥2,064). SAGE grew to Level 62! (HP 170/188, Leaf Blade 8/15).
+- B1F Row 23 Southern Highway (Verified Turn 21980): The central cliff runs south to row 22. The open horizontal highway is at row 23 across cols 14..20. From (15, 21), step Down twice to (15, 23), East across cols 16..20 to (20, 23), then North up column 20 directly into the ladder at (20, 20) to 1F!
 
 <hr>
 
