@@ -11,7 +11,7 @@
 | Petalburg City | Azurill | THETIS | Active (Lv 16) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (44 HP, 15 Atk [30 Huge Power], 19 Def, 17 Sp.Atk, 18 Sp.Def, 15 Speed; 68 EXP to Lv 17 [3052/3120]; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Natu | HORUS | Active (Lv 16) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (40 HP, 24 Atk, 23 Def, 25 Sp.Atk, 20 Sp.Def, 31 Speed; 90 EXP to Lv 17 [4823/4913]; knows Peck, Psybeam, Night Shade) |
 | Petalburg Woods | Illumise | SELENE | Active (Lv 8, Boxed) | Caught F Lv 8 at (21, 35); Fluctuating EXP group, 85 base Speed; knows Quick Attack, Thunder Wave |
-| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 116 | Makuhita | HERACLES | Active (Lv 9) | Caught M Lv 9 at (4, 13); Fighting-type (knows Faint Attack, SmellingSalt, Sand-Attack) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
