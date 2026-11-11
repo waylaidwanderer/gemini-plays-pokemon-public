@@ -4874,15 +4874,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The Northern Suspension Bridge (rows 18..20) is fully passable underneath along columns 13..15.
   - Heading North under the bridge leads directly onto the shore of a 1F subterranean lake at (15, 18).
   - Open water extends North across rows 14..17 (cols 12..18).
-- 1F Final Exit Ladder (Verified Turn 22065):
-  - 1F lake canal ends at row 12.
-  - Shoreline located at (18, 12).
-  - Final exit ladder located at (19, 12), climbing up to the Victory Road exit platform!
-- 1F Waterfall & Ascent Route (Verified Turn 22073):
-  - Trainer at (14, 16) on B1F is Cooltrainer Edgar (defeated).
-  - The ladder at (17, 16) ascends to 1F landing at (19, 12).
-  - On 1F, surf West from (18, 12) to (15, 12).
-  - The 1F waterfall is located at (15, 11), scaled using HM07 Waterfall with Lilz to reach the upper exit platform of Victory Road!
+- 1F Descent Ladder Trap & Waterfall Progression (Verified Turns 22065-22081):
+  - The ladder at (19, 12) on 1F is NOT an exit ladder; it is a descent ladder leading down to B1F (17, 16). (AVOID THIS LADDER!).
+  - The ladder at (17, 16) on B1F is a descent ladder leading down to B2F (19, 12).
+  - The TRUE EXIT PROGRESSION on 1F: From the lake canal at (15, 12), face North into tile (15, 11) and activate HM07 Waterfall with Lilz to scale up to the upper exit platform of Victory Road!
 
 <hr>
 
