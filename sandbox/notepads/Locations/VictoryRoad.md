@@ -118,7 +118,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - At the top of the wooden staircase, an elevated wooden suspension bridge extends East across a chasm starting around (23, 8..9).
 - Lower Terrace Sighting:
   - Cooltrainer stationed at (14, 16).
-  - B2F entrance ladder located at (17, 16).
+  - B1F lower basin ladder sighted at (17, 16) from the cliff above.
 
 
 ## B1F Eastern Terrace & Southern Highway Topography (Turn 20094)
@@ -134,7 +134,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 - Southern Highway & Acro Rails (Verified Turns 20101-20112):
   - Row 26 runs West from (40, 26) to (27, 26), terminating in a natural cliff cul-de-sac at (27, 25..26).
-  - Tile (30, 25) is an ordinary floor tile, NOT a ladder warp.
+  - Tile (30, 25) is the verified ladder down to B2F! (Discovered Turn 21830).
   - Rows 27..30 below row 26 are horizontal Acro Bike rails that block foot and Mach Bike transit.
   - Staircase at (40, 21..25) leads to an isolated landing at (41..42, 21) bounded by row 20 cliff.
   - Active progression path leads through Column 15 canyon heading North from (15, 12) to (15, 6). (Note: northward movement from (31, 8) was refuted on Turn 21073 by the row 7 ledge).
@@ -190,7 +190,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Middle Suspension Bridge (rows 27-28): Spans between col 24 (west) and col 34 (east).
 - West Access: Wooden staircase at col 21 (rows 27..30) ascends North from row 31 on Eastern Plateau (directly north of B1F ladder 21, 32).
 - East Landing & Chute: Terrace at cols 31..36 (rows 29..32) terminates at a one-way jump ledge at row 33 hopping South to row 34. The wooden staircase at cols 31..32 is a one-way exit chute descending from the northern terrace onto the Eastern Plateau.
-- Dungeon Routing: Victory Road progression requires descending to B1F to reach the B2F subterranean lake system via the B2F entrance ladder at (17, 16).
+- Dungeon Routing: Victory Road progression requires descending to B1F to reach the B2F subterranean lake system via the B2F ladder at (30, 25).
 
 ## 1F Western Terrace & B1F Ladder Access (Verified Turns 20770-20782)
 - Col 12 Rock Wall: A solid, continuous rock wall along column 12 completely separates the eastern corridor (cols 13-16, rows 13-15) from the ladder room. There is NO eastern access to the ladder at (8..9, 13).
@@ -228,7 +228,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Refuted B1F Row 26 / Column 37 Hypothesis (Refuted Turns 21376-21395)
 - Physical verification at (30, 26) confirms the corridor terminates in a solid cliff cul-de-sac at x=28/29 on the west and north, with horizontal Acro Bike rails running across rows 27-29 to the south.
-- The Southern Cavern Highway (row 26) does NOT connect to the lower basin, Vito Winstrate, or the B2F ladder.
+- The Southern Cavern Highway (row 26) contains the ladder to B2F at (30, 25)!
 - Backtracking East along row 26 to Column 37 and returning North to explore around row 12 / row 13 where the B2F ladder (17, 16) and Cooltrainer (14, 16) were visually sighted.
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
