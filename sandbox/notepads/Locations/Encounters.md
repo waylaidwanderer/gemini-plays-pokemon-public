@@ -7,10 +7,10 @@
 | Route 103 | Ekans | MEDUSA | Active (Lv 16) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (39 HP, 26 Atk, 26 Def, 21 Sp.Atk, 27 Sp.Def, 22 Speed; 235/817 EXP; holds Oran Berry; knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidorino | ARES | Box 1 (Lv 16) | Caught M Lv 6 at (38, 4); Poison Point (48 HP, 31 Atk, 23 Def, 25 Sp.Atk, 19 Sp.Def, 28 Speed; 292/585 EXP; holds Oran Berry; knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | Azurill | NEREUS | Deceased (Lv 16) | Caught M Lv 5 at (11, 22); fainted Turn 7017 to School Kid Tammy's Rhyhorn (crit Rock Tomb on switch-in) |
-| Route 104 | Snubbull | HERA | Active (Lv 16) | Caught F Lv 7 at (23, 61); Run Away (49 HP, 35 Atk, 22 Def, 19 Sp.Atk, 18 Sp.Def, 17 Speed; ~415/653 EXP; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
+| Route 104 | Snubbull | HERA | Active (Lv 16) | Caught F Lv 7 at (23, 61); Run Away (49 HP, 35 Atk, 22 Def, 19 Sp.Atk, 18 Sp.Def, 17 Speed; 631/653 EXP; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
 | Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
 | Route 116 | Natu | HORUS | Active (Lv 16) | Caught M Lv 9 at (6, 14); (39 HP, 25 Atk, 18 Def, 31 Sp.Atk, 23 Sp.Def, 31 Speed; 235/817 EXP; holds Oran Berry; knows Peck, Psybeam, Night Shade) |
-| Route 115 | Kabuto | TRITON | Active (Lv 16) | Caught M Lv 9 with Old Rod at (7, 71); (39 HP, 35 Atk, 36 Def, 23 Sp.Atk, 19 Sp.Def, 19 Speed; 459/817 EXP; holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain) |
+| Route 115 | Kabuto | TRITON | Active (Lv 16) | Caught M Lv 9 with Old Rod at (7, 71); (39 HP, 35 Atk, 36 Def, 23 Sp.Atk, 19 Sp.Def, 19 Speed; 675/817 EXP; holds Oran Berry; knows Rock Tomb, Water Pulse, Mega Drain) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
