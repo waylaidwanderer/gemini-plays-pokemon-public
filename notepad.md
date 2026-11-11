@@ -4798,10 +4798,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 15 / Row 16 Cliff: Stepping Down from (22, 15) bumps into a continuous solid cliff wall at row 16; row 15 is NOT a jump ledge into the Lower Terrace.
 - Column 4 Termination: Stepping Down from (4, 10) bumps into a solid cliff wall at (4, 11); Column 4 does not continue south.
 - Row 14 Cliff: Bounded continuously along row 14 from col 9 to col 19.
-- Lower Terrace (17, 16): Sighted with B2F ladder and Cooltrainer at (14, 16), but has no direct walkable descent from row 13, Column 4, or Column 22.
+- Lower Terrace (17, 16): Sighted with 1F exit ladder and Cooltrainer at (14, 16), reached via the ladder ascending from B2F.
 
 ## B1F Verified Collision Boundaries & Elevation Model (Consolidated Turn 21634)
-- Row 14 Cliff: Continuous solid cliff wall across cols 9-17 at rows 14-15 dropping down into the central basin (where Cooltrainer Vito Winstrate at (14, 16) and the B2F ladder at (17, 16) are located). Cannot be jumped down from row 13.
+- Row 14 Cliff: Continuous solid cliff wall across cols 9-17 at rows 14-15 dropping down into the central basin (where Cooltrainer Vito Winstrate at (14, 16) and the 1F exit ladder at (17, 16) are located). Cannot be jumped down from row 13.
 - Row 16 Cliff: Continuous solid horizontal cliff wall across cols 20-23 at row 16 below the (23, 14..15) shelf.
 - Column 24 Vertical Ledge: One-way jump ledge between col 24 and col 23 hopping West from (25, 14) onto (23, 14). The (23, 14..15) shelf connects North to row 12 at (21, 12), but is blocked to the South by the row 16 cliff.
 - Column 25 / Column 27 (East Side):
@@ -4847,7 +4847,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western Landing: Dirt landing located at cols 4..6, rows 6..10.
 - Waterfall 2 Crest: Stream at col 7 plunges south over a second waterfall at row 11.
 - Facing East from (6, 10) into (7, 10) allows mounting Surf with Lilz.
-- Sliding Down Waterfall 2 drops into the lower central basin with Cooltrainer Vito Winstrate at (14, 16) and the ladder to 1F exit sector at (17, 16)!
+- Sliding Down Waterfall 2 stays on B2F, leading to B2F's ascent ladder; that ladder climbs up into B1F's lower central basin where Cooltrainer Vito Winstrate (14, 16) is stationed, from which ladder (17, 16) ascends to 1F's exit canyon!
 
 <hr>
 
@@ -4898,8 +4898,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 61) - Level 61 on turn 20083 during Samuel battle! (Stats: HP 185, Atk 137, Def 99, SpA 150, SpD 134, Spe 181). Moves: Rock Tomb (9/10), Pursuit (20/20), Leaf Blade (13/15), Quick Attack (30/30). HP: 167/185. Status: OK. (Damage taken from Julie's Tropius Turn 21868).
-2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK. Revived and fully restored Turn 19931!
+1. SAGE (Sceptile ♂, Level 61) - Level 61 on turn 20083 during Samuel battle! (Stats: HP 185, Atk 137, Def 99, SpA 150, SpD 134, Spe 181). Moves: Rock Tomb (6/10), Pursuit (20/20), Leaf Blade (12/15), Quick Attack (30/30). HP: 167/185. Status: OK. (Damage taken from Julie's Tropius Turn 21868).
+2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (14/15), Surf (14/15), Flash (20/20). HP: 85/85. Status: OK. Revived and fully restored Turn 19931!
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 17 on turn 19837! HP: 47/47. Max HP: 47. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK. Fully restored Turn 19931!
 5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.

@@ -263,10 +263,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 15 / Row 16 Cliff: Stepping Down from (22, 15) bumps into a continuous solid cliff wall at row 16; row 15 is NOT a jump ledge into the Lower Terrace.
 - Column 4 Termination: Stepping Down from (4, 10) bumps into a solid cliff wall at (4, 11); Column 4 does not continue south.
 - Row 14 Cliff: Bounded continuously along row 14 from col 9 to col 19.
-- Lower Terrace (17, 16): Sighted with B2F ladder and Cooltrainer at (14, 16), but has no direct walkable descent from row 13, Column 4, or Column 22.
+- Lower Terrace (17, 16): Sighted with 1F exit ladder and Cooltrainer at (14, 16), reached via the ladder ascending from B2F.
 
 ## B1F Verified Collision Boundaries & Elevation Model (Consolidated Turn 21634)
-- Row 14 Cliff: Continuous solid cliff wall across cols 9-17 at rows 14-15 dropping down into the central basin (where Cooltrainer Vito Winstrate at (14, 16) and the B2F ladder at (17, 16) are located). Cannot be jumped down from row 13.
+- Row 14 Cliff: Continuous solid cliff wall across cols 9-17 at rows 14-15 dropping down into the central basin (where Cooltrainer Vito Winstrate at (14, 16) and the 1F exit ladder at (17, 16) are located). Cannot be jumped down from row 13.
 - Row 16 Cliff: Continuous solid horizontal cliff wall across cols 20-23 at row 16 below the (23, 14..15) shelf.
 - Column 24 Vertical Ledge: One-way jump ledge between col 24 and col 23 hopping West from (25, 14) onto (23, 14). The (23, 14..15) shelf connects North to row 12 at (21, 12), but is blocked to the South by the row 16 cliff.
 - Column 25 / Column 27 (East Side):
@@ -312,4 +312,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western Landing: Dirt landing located at cols 4..6, rows 6..10.
 - Waterfall 2 Crest: Stream at col 7 plunges south over a second waterfall at row 11.
 - Facing East from (6, 10) into (7, 10) allows mounting Surf with Lilz.
-- Sliding Down Waterfall 2 drops into the lower central basin with Cooltrainer Vito Winstrate at (14, 16) and the ladder to 1F exit sector at (17, 16)!
+- Sliding Down Waterfall 2 stays on B2F, leading to B2F's ascent ladder; that ladder climbs up into B1F's lower central basin where Cooltrainer Vito Winstrate (14, 16) is stationed, from which ladder (17, 16) ascends to 1F's exit canyon!
