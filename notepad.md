@@ -10,7 +10,7 @@
 | Route 102 | Sandshrew | CYBELE | Active (Lv 13) | Caught F Lv 6 at (39, 6); Sand Veil (38 HP, 28 Atk, 28 Def, 13 Sp.Atk, 12 Sp.Def, 15 Speed; knows Scratch, Defense Curl, Sand-Attack) |
 | Petalburg City | Azurill | THETIS | Active (Lv 15) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (42 HP, 14 Atk [28 Huge Power], 18 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Natu | HORUS | Active (Lv 15) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (38 HP, 23 Atk, 22 Def, 24 Sp.Atk, 19 Sp.Def, 29 Speed; knows Peck, Psybeam, Night Shade) |
-| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Petalburg Woods | Illumise | SELENE | Active (Lv 8, Boxed) | Caught F Lv 8 at (21, 35); Fluctuating EXP group, 85 base Speed; knows Quick Attack, Thunder Wave |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
