@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | THETIS | Active (Lv 16, Boxed) | Caught F Lv 5 with Old Rod at (11, 22); Huge Power (44 HP, 15 Atk [30 Huge Power], 19 Def, 17 Sp.Atk, 18 Sp.Def, 15 Speed; 68 EXP to Lv 17 [3052/3120]; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Natu | HORUS | Active (Lv 16, Boxed) | Caught M Lv 7 at (24, 61); Early Bird, Jolly (+Speed) (40 HP, 24 Atk, 23 Def, 25 Sp.Atk, 20 Sp.Def, 31 Speed; 90 EXP to Lv 17 [4823/4913]; knows Peck, Psybeam, Night Shade) |
 | Petalburg Woods | Illumise | SELENE | Active (Lv 16) | Caught F Lv 8 at (21, 35); Oblivious, Gentle (+Sp.Def) (49 HP, 21 Atk, 28 Def, 32 Sp.Atk, 36 Sp.Def, 33 Speed, holds Oran Berry; 0/~920 EXP; knows Moonlight, Thunder Wave, Flatter, Silver Wind) |
-| Route 116 | Makuhita | HERACLES | Active (Lv 16) | Caught M Lv 9 at (4, 13); Fighting-type (50 HP, 28 Atk, 14 Def, 14 Sp.Atk, 18 Sp.Def, 15 Speed, holds Oran Berry; 0/585 EXP; knows Faint Attack, SmellingSalt, Vital Throw, Force Palm) |
+| Route 116 | Makuhita | HERACLES | Deceased (Lv 16) | Caught M Lv 9 at (4, 13); fainted Turn 6845 to School Kid Tammy's Larvitar (Rock Slide + Earthquake while using -1 priority Vital Throw) |
 | Route 115 | Kabuto | SCYLLA | Deceased (Lv 16) | Caught F Lv 9 with Old Rod at (7, 71); fainted Turn 6837 to School Kid Tammy's +2 Speed Yanma's 4x Giga Drain |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
