@@ -4867,6 +4867,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Emerged at (5, 26) on 1F!
   - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
   - Forward progression routes Left to (4, 26) and straight North up Column 4 into the northern exit canyon!
+- 1F Southwest Ladder Chute (Verified Turn 22053): Tile (5, 26) is bounded by cliff walls on East and West. The only exit is hopping South over the two jump ledges at rows 27 and 28, landing directly at (5, 29) on the Level 0 canyon floor.
 
 <hr>
 
