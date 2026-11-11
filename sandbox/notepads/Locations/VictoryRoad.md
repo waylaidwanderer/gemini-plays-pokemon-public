@@ -335,3 +335,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Southwest Ladder Chute (Verified Turn 22053): Tile (5, 26) is bounded by cliff walls on East and West. The only exit is hopping South over the two jump ledges at rows 27 and 28, landing directly at (5, 29) on the Level 0 canyon floor.
 - 1F Southwest Ladder Plateau (Verified Turn 22054): From the ladder at (5, 26), the open plateau extends East across columns 6..9 (rows 22..26). South at row 27 is the cliff drop, and West at col 4 is cliff wall.
 - 1F Subterranean Lake (Discovered Turn 22060): Passed under the northern suspension bridge to (15, 18). A subterranean lake extends across the northern sector starting at row 17!
+- 1F Northern Suspension Bridge Underside & Subterranean Lake (Verified Turns 22058-22061):
+  - The Northern Suspension Bridge (rows 18..20) is fully passable underneath along columns 13..15.
+  - Heading North under the bridge leads directly onto the shore of a 1F subterranean lake at (15, 18).
+  - Open water extends North across rows 14..17 (cols 12..18).
