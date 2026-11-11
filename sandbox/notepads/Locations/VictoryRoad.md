@@ -229,7 +229,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## Refuted B1F Row 26 / Column 37 Hypothesis (Refuted Turns 21376-21395)
 - Physical verification at (30, 26) confirms the corridor terminates in a solid cliff cul-de-sac at x=28/29 on the west and north, with horizontal Acro Bike rails running across rows 27-29 to the south.
 - The Southern Cavern Highway (row 26) contains the ladder to B2F at (30, 25)!
-- Backtracking East along row 26 to Column 37 and returning North to explore around row 12 / row 13 where the B2F ladder (17, 16) and Cooltrainer (14, 16) were visually sighted.
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
