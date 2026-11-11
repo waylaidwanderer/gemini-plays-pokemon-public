@@ -4878,6 +4878,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - 1F lake canal ends at row 12.
   - Shoreline located at (18, 12).
   - Final exit ladder located at (19, 12), climbing up to the Victory Road exit platform!
+- 1F Waterfall & Ascent Route (Verified Turn 22073):
+  - Trainer at (14, 16) on B1F is Cooltrainer Edgar (defeated).
+  - The ladder at (17, 16) ascends to 1F landing at (19, 12).
+  - On 1F, surf West from (18, 12) to (15, 12).
+  - The 1F waterfall is located at (15, 11), scaled using HM07 Waterfall with Lilz to reach the upper exit platform of Victory Road!
 
 <hr>
 
