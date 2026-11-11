@@ -4,12 +4,12 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Starter F Lv 5 on Route 101 (knows Mud Shot, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Goldeen | CALYPSO | Deceased (Lv 16) | Caught F Lv 5 at (17, 13); fainted Turn 6972 to PKMN Trainer Red's Squirtle (Bite flinch + crit Bite + Burn ticks) |
-| Route 103 | Ekans | MEDUSA | Active (Lv 16) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (holds Oran Berry; knows Wrap, Pursuit, Acid, Bite) |
+| Route 103 | Ekans | MEDUSA | Active (Lv 16) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (39 HP, 26 Atk, 26 Def, 21 Sp.Atk, 27 Sp.Def, 22 Speed; holds Oran Berry; knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 15) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | Azurill | NEREUS | Active (Lv 16) | Caught M Lv 5 with Old Rod at (11, 22); Thick Fat (44 HP, 12 Atk, 22 Def, 12 Sp.Atk, 18 Sp.Def, 14 Speed; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Snubbull | HERA | Active (Lv 16) | Caught F Lv 7 at (23, 61); Run Away (49 HP, 35 Atk, 22 Def, 19 Sp.Atk, 18 Sp.Def, 17 Speed; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
 | Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
-| Route 116 | Natu | HORUS | Active (Lv 15) | Caught M Lv 9 at (6, 14); knows Peck, Psybeam, Night Shade |
+| Route 116 | Natu | HORUS | Active (Lv 16) | Caught M Lv 9 at (6, 14); (36 HP, 23 Atk, 17 Def, 26 Sp.Atk, 22 Sp.Def, 28 Speed at Lv 15; knows Peck, Psybeam, Night Shade) |
 | Route 115 | Kabuto | IRITON | Box 1 (Lv 9) | Caught M Lv 9 with Old Rod at (7, 71); knows Rock Tomb, Water Pulse, learns Mega Drain Lv 13 |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |

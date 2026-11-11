@@ -6,12 +6,12 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Starter F Lv 5 on Route 101 (knows Mud Shot, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Goldeen | CALYPSO | Deceased (Lv 16) | Caught F Lv 5 at (17, 13); fainted Turn 6972 to PKMN Trainer Red's Squirtle (Bite flinch + crit Bite + Burn ticks) |
-| Route 103 | Ekans | MEDUSA | Active (Lv 16) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (holds Oran Berry; knows Wrap, Pursuit, Acid, Bite) |
+| Route 103 | Ekans | MEDUSA | Active (Lv 16) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (39 HP, 26 Atk, 26 Def, 21 Sp.Atk, 27 Sp.Def, 22 Speed; holds Oran Berry; knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 15) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | Azurill | NEREUS | Active (Lv 16) | Caught M Lv 5 with Old Rod at (11, 22); Thick Fat (44 HP, 12 Atk, 22 Def, 12 Sp.Atk, 18 Sp.Def, 14 Speed; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Snubbull | HERA | Active (Lv 16) | Caught F Lv 7 at (23, 61); Run Away (49 HP, 35 Atk, 22 Def, 19 Sp.Atk, 18 Sp.Def, 17 Speed; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
 | Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
-| Route 116 | Natu | HORUS | Active (Lv 15) | Caught M Lv 9 at (6, 14); knows Peck, Psybeam, Night Shade |
+| Route 116 | Natu | HORUS | Active (Lv 16) | Caught M Lv 9 at (6, 14); (36 HP, 23 Atk, 17 Def, 26 Sp.Atk, 22 Sp.Def, 28 Speed at Lv 15; knows Peck, Psybeam, Night Shade) |
 | Route 115 | Kabuto | IRITON | Box 1 (Lv 9) | Caught M Lv 9 with Old Rod at (7, 71); knows Rock Tomb, Water Pulse, learns Mega Drain Lv 13 |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
@@ -294,7 +294,7 @@
 ## Route 116
 - **Western Entrance**: Enters from Rustboro City `(39, 11)` onto `(0, 11)`.
 - **Tall Grass & Berry Trees**:
-  - **Western Tall Grass Patch**: Located at `(4..7, 12..16)` (note: `(3, 11..15)` immediately west of the patch is bare dirt, and `(4, 14)` and `(5, 13)` are bare dirt tiles inside the patch while `(4, 12..13)` and `(5..7, 14..16)` are continuous tall grass; observed wild species: `Voltorb` Lv 9, `Yanma` Lv 9 with `Speed Boost`/`Compoundeyes` and `Silver Wind`, `Grimer` Lv 9 [knows `Lick` and **`Memento`** — throw a Ball on Turn 1 before it uses `Memento`!], `Makuhita` Lv 9 with `SmellingSalt` and `Faint Attack`).
+  - **Western Tall Grass Patch**: Located at `(4..7, 12..16)` (note: `(3, 11..15)` immediately west of the patch is bare dirt, and `(4, 14)` and `(5, 13)` are bare dirt tiles inside the patch while `(4, 12..13)` and `(5..7, 14..16)` are continuous tall grass; observed wild species: `Natu` Lv 9 [verified Turn 6976], `Voltorb` Lv 9, `Yanma` Lv 9 with `Speed Boost`/`Compoundeyes` and `Silver Wind`, `Grimer` Lv 9 [knows `Lick` and **`Memento`** — throw a Ball on Turn 1 before it uses `Memento`!], `Makuhita` Lv 9 with `SmellingSalt` and `Faint Attack`).
   - **Grass-Free Northern Path & Berry Trees**: Eastbound from `(0, 11)`, walk `Right x3` to `(3, 11)`, `Up x4` to `(3, 7)`, `Right x3` to `(6, 7)`, `Up` to `(6, 6)`, `Right x2` to `(8, 6)` (`note: (9, 6) is a tall grass tile!`), and `Up` to `(8, 5)` -> `Right x7` along 100% grass-free `y=5` (`(8..15, 5)`) to `(15, 5)` -> `Down` to `(15, 6)`. Note that the cliff wall at `x=16, y=2..7` extends all the way up to the northern tree line at `y=1`, so the `Chesto Berry` trees at `(19..20, 2)` cannot be reached directly from `(15, 2)`.
   - **Hiker Devan** at `(10, 7)` facing `Right` across `(11..14, 7)` (can be challenged 100% grass-free from `(10, 6)` facing `Down` via `y=5`; 3 Pokemon: `Geodude` Lv 10 [`Rock Tomb`, `Dig`, holds `Sitrus Berry`], `Diglett` Lv 9 [`Dig`], `Trapinch` Lv 9–10).
   - **Bird Keeper Johnson** at `(15, 7)` (challenged from `(15, 6)` facing `Down`; 3 Pokemon: `Hoothoot` M Lv 9, `Swablu` M Lv 9 [`Astonish`], `Natu` M Lv 9 [`Night Shade`]).
