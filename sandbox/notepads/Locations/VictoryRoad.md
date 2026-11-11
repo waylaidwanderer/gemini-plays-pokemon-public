@@ -336,17 +336,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
     2. Head East along Row 12 (cols 14..20) past the Rock Smash rock at (18, 12).
     3. Descend South down Columns 20..21 (rows 12..20) onto the eastern plateau directly to the 1F exit ladder at (20, 20)!
 - B1F Western Lower Basin (Verified Turn 21993): The basin extends West across cols 10..13 (rows 16..20). Directly above is the row 14/15 cliff dropping down from the row 13 upper highway.
-- B1F Lower Basin Complete Topographical Proof (Verified Turn 21994):
-  - West perimeter bounded at cols 7..8 (dead end).
-  - South perimeter bounded at rows 23..24 (dead end).
-  - North perimeter bounded at row 15 (continuous cliff wall).
-  - Definitive Exit Route: Return East to (18, 17), step East into (19, 17), East to (20, 17), and South down column 20 directly to the 1F exit ladder at (20, 20)!
-- B1F Chamber Classification (Verified Turn 22004): The basin entered from (17, 16) is an isolated combat chamber with Halle and Mitchell; all perimeter tiles are confirmed solid barriers. Returning to B2F to explore the eastern water channel past col 19!
-- B2F Rock Bypass & Southern Shore (Verified Turn 22009): The lower rock occupies (23..24, 14..15). Row 12 (cols 21..27) provides an open northern bypass channel. Moving East past the rocks leads to open water at col 25, connecting south to a dirt shoreline at (25, 16) with an undefeated trainer at (25, 18).
-- B2F Eastern Channel & Shore Exploration (Verified Turn 22010):
-  - Row 15 at (22, 15) provides open water leading East past the (19, 12) landing.
-  - The southern shoreline at rows 16..17 connects to a plateau with an undefeated female trainer at (25, 18).
-  - Actively disembarking onto the southern shore to locate the true 1F ascent ladder.
-- B2F Column 21 Rock Bypass (Verified Turn 22012): The rocks occupy cols 22..24. The open bypass route steps Left to column 21 (rows 14..12), Up to row 12, then East along row 12 across cols 22..26 into the open lake, then South to the dirt shore at (26, 16).
-- B2F Eastern Rock Barrier (Verified Turn 22013): The water rocks at (22..23, 12..13) and (23..24, 14..15) touch diagonally, completely sealing off the eastern water channel. The only exit from this water is the landing at (19, 12) leading to B1F.
-- B1F Southwest Corridor (Discovered Turn 22019): At (7, 17), the cavern floor curves southwest between the cliffs, opening into an unexplored corridor across cols 5..7, rows 17..20+.
+- B1F Southwest Corridor & Exit Progression (Verified Turns 22019-22021):
+  - Row 17 connects West past (7, 17) to (6, 17) and (5, 17), curving South into a long vertical canyon along cols 3..6.
+  - Undefeated female trainer stationed at (5, 20) facing West.
+  - The canyon continues South past row 20 toward the ascent ladder to 1F!
