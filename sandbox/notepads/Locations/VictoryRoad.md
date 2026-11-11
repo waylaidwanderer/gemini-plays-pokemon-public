@@ -313,3 +313,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Waterfall 2 Crest: Stream at col 7 plunges south over a second waterfall at row 11.
 - Facing East from (6, 10) into (7, 10) allows mounting Surf with Lilz.
 - Sliding Down Waterfall 2 stays on B2F, leading to B2F's ascent ladder; that ladder climbs up into B1F's lower central basin where Cooltrainer Vito Winstrate (14, 16) is stationed, from which ladder (17, 16) ascends to 1F's exit canyon!
+- Lower Pool & East Channel (Verified Turn 21934): Slid down Waterfall 2 into lower pool at (9, 14). Channel opens East along row 14 toward the ascent ladder.
