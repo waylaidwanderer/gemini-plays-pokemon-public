@@ -4564,7 +4564,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 6. [x] Solved B1F Northwest 2-boulder puzzle: pushed Boulder 2 West into (3, 7) alcove, opening Column 4.
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
 8. [x] Eastern Plateau ladder at (21, 32) & Middle Bridge: Verified as one-way return exits from deeper in Victory Road, not accessible entrances from 1F (Refuted Turn 21742).
-9. [ ] Navigate B2F (use Surf and Waterfall).
+9. [x] Navigate B2F: Surfed subterranean lake and scaled waterfall with Lilz (Turns 21872-21884)!
 10. [ ] Ascend back to 1F exit corridor.
 11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
 
@@ -4761,7 +4761,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 28 on 1F Level 0 is a continuous solid cliff wall across cols 14-19 blocking northward passage from (15, 29) and (16, 29) to the Northern Canyon.
 - The crevice at (15..16, 28) is an impassable vertical cliff seam, not an open path.
 
-## Refuted B1F Row 26 / Column 37 Hypothesis (Refuted Turns 21376-21395)
+## B1F Row 26 / Column 37 Topography & B2F Entrance (Verified Turn 21830)
 - Physical verification at (30, 26) confirms the corridor terminates in a solid cliff cul-de-sac at x=28/29 on the west and north, with horizontal Acro Bike rails running across rows 27-29 to the south.
 - The Southern Cavern Highway (row 26) contains the ladder to B2F at (30, 25)!
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
