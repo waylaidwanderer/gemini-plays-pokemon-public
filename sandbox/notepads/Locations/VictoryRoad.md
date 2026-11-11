@@ -339,3 +339,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Exit Route Architecture (Verified Turns 22083-22111):
   - Middle Suspension Bridge cannot be entered from Eastern Plateau (refuted Turn 21742).
   - Cooltrainer Terrace (cols 28..35) and Northern Canyon Exit Sector are reached from the northern 1F area via the Northern Staircase at col 16, rows 17..22!
+- 1F Central Corridor Topography (Verified Turns 22125-22132):
+  - Column 15 connects North-South between the lake (row 18) and row 25 under the bridge.
+  - Column 16 is bounded by a vertical cliff wall across rows 18..24.
+  - Row 25 connects (15, 25) East to (17, 25) around the cliff.
