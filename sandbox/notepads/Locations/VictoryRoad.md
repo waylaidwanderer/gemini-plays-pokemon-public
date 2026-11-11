@@ -340,3 +340,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 17 connects West past (7, 17) to (6, 17) and (5, 17), curving South into a long vertical canyon along cols 3..6.
   - Undefeated female trainer stationed at (5, 20) facing West.
   - The canyon continues South past row 20 toward the ascent ladder to 1F!
+- Trainers Defeated: Cooltrainer ♀ Michelle defeated at (5, 21) on B1F on Turn 22048 (Torkoal Lv 42, Medicham Lv 42, Ludicolo Lv 42; prize ¥2,016). SAGE Lv 62 HP: 92/188. Canyon continues South down Column 4!

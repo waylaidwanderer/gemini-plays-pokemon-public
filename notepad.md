@@ -4875,6 +4875,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 17 connects West past (7, 17) to (6, 17) and (5, 17), curving South into a long vertical canyon along cols 3..6.
   - Undefeated female trainer stationed at (5, 20) facing West.
   - The canyon continues South past row 20 toward the ascent ladder to 1F!
+- Trainers Defeated: Cooltrainer ♀ Michelle defeated at (5, 21) on B1F on Turn 22048 (Torkoal Lv 42, Medicham Lv 42, Ludicolo Lv 42; prize ¥2,016). SAGE Lv 62 HP: 92/188. Canyon continues South down Column 4!
 
 <hr>
 
@@ -4925,7 +4926,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978 during Mitchell battle! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (6/10), Pursuit (20/20), Leaf Blade (8/15), Quick Attack (30/30). HP: 170/188. Status: OK.
+1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (4/15), Quick Attack (30/30). HP: 92/188. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (14/15), Surf (14/15), Flash (20/20). HP: 85/85. Status: OK. Revived and fully restored Turn 19931!
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 17 on turn 19837! HP: 47/47. Max HP: 47. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK. Fully restored Turn 19931!
