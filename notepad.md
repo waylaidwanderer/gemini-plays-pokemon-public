@@ -4812,11 +4812,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Row 19 connects East to the wooden staircase at (32, 18..19) ascending to the Southern Suspension Bridge.
 - Macro Loop: The entire upper B1F network (Northwest room -> Column 9 -> Row 13 -> Row 12 -> Upper Bridge -> Samuel -> Column 37 -> Row 26 / Northeast Puzzle -> Column 25 -> Column 27 -> Southern Bridge) forms a closed upper circuit elevated above the central basin.
 
-## 1F Western Terrace to Northern Bridge Corridor (Verified Turns 21658-21662)
-- From B1F ladder at (9, 14), step South down Column 9 to (9, 16).
-- Row 13 and Row 14 are blocked to the East at x=11 by a continuous cliff wall.
-- The true open horizontal corridor runs along Row 16 across cols 9..16, passing between the row 15 cliff (north) and row 17 cliff (south).
-- At (16, 16), step South to (16, 17) to access the Northern Suspension Bridge (spanning East to 38, 17) and Northern Staircase (descending South to Level 0 canyon at 16, 23)!
+## 1F Western Terrace Ladder Exit (Verified Turns 21664-21667)
+- The B1F ladder room on 1F (cols 8-10, rows 13-16) is bounded on the east by a solid cliff wall at x=11 (rows 11-17); there is NO eastern exit from this room.
+- To exit: from (9, 14), step Down to (9, 15), Left to (7, 15), Up to (7, 14), and Left along row 14 across (6, 14) above Hope into Column 3.
+- Column 3 runs South past Wally (2, 24) directly to the Western Suspension Bridge at (3, 26).
 ## 1F Western Terrace to Southern Bridge Traversal (Verified Turns 21665-21680)
 - Ladder Room Exit: The ladder at (8, 14) / (9, 14) is bounded on the east by a continuous cliff wall at x=11 (rows 11-17). The exit routes around Hope at (6, 15): step Down to row 16-18, then West into Column 3.
 - Western Terrace Highway: Column 3 runs South from row 14 down past Wally (2, 24) directly to the Western Suspension Bridge at (3, 26).
