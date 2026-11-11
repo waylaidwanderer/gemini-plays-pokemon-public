@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Starter F Lv 5 on Route 101 (knows Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
-| Route 103 | — | — | Pending | Tall grass at (15..18, 11..13) |
+| Route 103 | Ekans | MEDUSA | Active (Lv 4) | Caught F Lv 4 at (17, 11); Poison-type |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
