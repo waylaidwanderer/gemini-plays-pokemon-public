@@ -326,3 +326,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Tile (16, 21) is an impassable cliff corner.
   - The correct route from (16, 19): walk West along row 19 via (15, 19) -> (14, 19), South down column 14 through (14, 21..22) onto the open Southern Highway at row 22.
   - Walk East along row 22 across cols 15..20 to (20, 22), then step North to (20, 21) into the 1F ascent ladder at (20, 20)!
+- Vito Winstrate Encounter (Turn 21965): Stepping onto column 14 at (14, 19) triggered Cooltrainer Vito Winstrate from (14, 16). Vito challenged May with his full team!
