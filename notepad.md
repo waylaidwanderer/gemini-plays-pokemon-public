@@ -8,8 +8,8 @@
 | Littleroot Town | Goldeen | CALYPSO | Active (Lv 14) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (knows BubbleBeam, Psybeam, Haze, Supersonic) |
 | Route 103 | Ekans | MEDUSA | Active (Lv 15) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 15) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
-| Petalburg City | Azurill | NEREUS | Active (Lv 15) | Caught M Lv 5 with Old Rod at (11, 22); knows Body Slam, Charm, Secret Power, BubbleBeam |
-| Route 104 | Snubbull | HERA | Active (Lv 15) | Caught F Lv 7 at (23, 61); knows Headbutt, Bite, Lick, Roar |
+| Petalburg City | Azurill | NEREUS | Active (Lv 15) | Caught M Lv 5 with Old Rod at (11, 22); Huge Power (42 HP, 14 Atk [28 Huge Power], 19 Def, 16 Sp.Atk, 17 Sp.Def, 12 Speed; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
+| Route 104 | Snubbull | HERA | Active (Lv 15) | Caught F Lv 7 at (23, 61); Run Away (47 HP, 33 Atk, 22 Def, 18 Sp.Atk, 18 Sp.Def, 17 Speed; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
 | Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
@@ -222,7 +222,7 @@
   - **Poke Mart**: Door at `(25, 12)` (from `(20, 17)` outside the Pokemon Center, walk `Right x4` along `y=17` to `(24, 17)`, `Up x4` to `(24, 13)`, `Right` to `(25, 13)`, and `Up` into `(25, 12)` to avoid the signpost at `(17, 16)` and the wandering girl at `(16, 17)`; `Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
   - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event; after pressing `A` at `(4, 108)` facing `Up`, `["B", "sleep 1000"] * 95` advances the entire Norman + Wally Ralts-catching tutorial back to `(4, 108)`).
   - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (from `(20, 17)` outside the Pokemon Center, walk `Down x4` to `(20, 21)`, `Left x9` along `y=21` to `(11, 21)`? Note: hedge blocks `(18, 21)`, so route between `(11, 22)` and the Pokemon Center at `(20, 16)` via `(11, 22) <-> (11, 21) <-> (16, 21) <-> (16, 18) <-> (20, 18) <-> (20, 16)`; to reach the Petalburg Gym at `(15, 8)` from `(11, 22)`, walk `Up` to `(11, 21)`, `Right x4` to `(15, 21)`, and `Up x13` straight up the obstacle-free `x=15` lane).
-  - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`; to route between `(0, 12)` and the Pokemon Center at `(20, 16)`, use `x=16` for the vertical road `(0, 12) <-> (16, 12) <-> (16, 18) <-> (20, 18) <-> (20, 16)` to avoid Wally's house at `x=11..14, y=15..18`, the wandering boy on `x=14..15`, and the signpost at `(17, 16)`).
+  - **Western Exit (to Route 104)**: Straight west along `y=12..13` past `(8, 12)` to `x=0` (triggers Scott cutscene near `x=4`; to route between `(0, 12)` and the Pokemon Center at `(20, 16)`, use `x=16` for the vertical road `(0, 12) <-> (16, 12) <-> (16, 18) <-> (20, 18) <-> (20, 16)` to avoid Wally's house at `x=11..14, y=15..18`, the wandering boy on `x=14..15`, and the signpost at `(17, 16)`; note that walking from `(16, 12)` in Petalburg City to `(28, 62)` on Route 104 South requires `Left x28` total: `Left x16` to `(0, 12)`, `1 Left` to cross the map boundary onto `(39, 62)`, and `Left x11` to `(28, 62)`, verified Turn 6929).
 
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City `(0, 12)` onto `(39, 62)`.
