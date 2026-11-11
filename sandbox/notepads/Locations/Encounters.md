@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | EROS | Active (Lv 14) | Caught M Lv 4 with Old Rod at (17, 13); Swift Swim (36 HP, 14 Atk, 20 Def, 20 Sp.Atk, 28 Sp.Def, 34 Speed; knows Secret Power, Charm, Water Pulse) |
 | Route 103 | Ledyba | ASTRAEA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Early Bird (34 HP, 13 Atk, 15 Def, 15 Sp.Atk, 25 Sp.Def, 18 Speed; knows Silver Wind, Aerial Ace, Supersonic) |
 | Route 102 | Sandshrew | CYBELE | Active (Lv 13) | Caught F Lv 6 at (39, 6); Sand Veil (38 HP, 28 Atk, 28 Def, 13 Sp.Atk, 12 Sp.Def, 15 Speed; knows Scratch, Defense Curl, Sand-Attack) |
-| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
+| Petalburg City | Azurill | THETIS | Active (Lv 13) | Caught F Lv 5 with Old Rod at (11, 22); knows Water Gun, Charm, Secret Power, BubbleBeam |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
