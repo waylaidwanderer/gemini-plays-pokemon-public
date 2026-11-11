@@ -316,3 +316,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Lower Pool & East Channel (Verified Turn 21934): Slid down Waterfall 2 into lower pool at (9, 14). Channel opens East along row 14 toward the ascent ladder.
 - B2F Lower Channel Topography (Turn 21936): Tile (14, 13) is solid cliff wall. Open water channel runs East along rows 14..16 across cols 14..17+.
 - B2F Ascent Ladder to B1F (Discovered Turn 21937): Located at (19, 12) on a dirt landing at (18..19, 13) accessed directly from the lower water channel. Climbs into B1F's lower central basin!
+- B1F Lower Central Basin (Verified Turn 21939): B2F ladder emerges at (17, 16). Cooltrainer Vito Winstrate stationed at (14, 16) facing South. Open dirt path leads East to (18, 16) and North along column 18.
