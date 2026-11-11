@@ -5,9 +5,9 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Starter F Lv 5 on Route 101 (knows Mud Shot, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Goldeen | CALYPSO | Active (Lv 13) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (knows BubbleBeam, Psybeam, Haze, Supersonic) |
-| Route 103 | Ekans | MEDUSA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (33 HP, 22 Atk, 20 Def, 18 Sp.Atk, 21 Sp.Def, 19 Speed; knows Wrap, Pursuit, Acid, Bite) |
-| Route 102 | Nidoran♂ | ARES | Active (Lv 13) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
+| Littleroot Town | Goldeen | CALYPSO | Active (Lv 14) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (knows BubbleBeam, Psybeam, Haze, Supersonic) |
+| Route 103 | Ekans | MEDUSA | Active (Lv 14) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (35 HP, 23 Atk, 22 Def, 19 Sp.Atk, 23 Sp.Def, 20 Speed; knows Wrap, Pursuit, Acid, Bite) |
+| Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught M Lv 6 at (38, 4); Poison Point (37 HP, 23 Atk, 18 Def, 20 Sp.Atk, 14 Sp.Def, 22 Speed; knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
