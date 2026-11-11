@@ -8,7 +8,7 @@
 | Littleroot Town | Goldeen | CALYPSO | Active (Lv 15) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (42 HP, 26 Atk, 25 Def, 19 Sp.Atk, 24 Sp.Def, 24 Speed; holds Oran Berry; knows BubbleBeam, Psybeam, Water Pulse, Supersonic) |
 | Route 103 | Ekans | MEDUSA | Active (Lv 15) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 15) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
-| Petalburg City | Azurill | NEREUS | Active (Lv 15) | Caught M Lv 5 with Old Rod at (11, 22); Huge Power (42 HP, 14 Atk [28 Huge Power], 19 Def, 16 Sp.Atk, 17 Sp.Def, 12 Speed; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
+| Petalburg City | Azurill | NEREUS | Active (Lv 15) | Caught M Lv 5 with Old Rod at (11, 22); Thick Fat (42 HP, 14 Atk, 19 Def, 16 Sp.Atk, 17 Sp.Def, 12 Speed; holds Oran Berry; knows Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Snubbull | HERA | Active (Lv 15) | Caught F Lv 7 at (23, 61); Run Away (47 HP, 33 Atk, 22 Def, 18 Sp.Atk, 18 Sp.Def, 17 Speed; holds Oran Berry; knows Headbutt, Bite, Lick, Roar) |
 | Petalburg Woods | Cascoon | THANATOS | Box 1 (Lv 8) | Caught M Lv 8 at (21, 35); evolves into Dustox at Lv 10 (Psybeam Lv 10, Silver Wind Lv 16) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
