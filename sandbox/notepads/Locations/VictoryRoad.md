@@ -288,14 +288,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western Bridge & Central Platform: Spans cols 3..12 at row 26 to Central Platform at (13, 26). Southern stairs at (13, 27..29) descend to Level 0 canyon at (13, 29).
 - Level 0 Western Canyon: Row 29 connects West to col 5. Column 5 runs South (rows 31..38) beneath the overhead Southern Suspension Bridge (row 34). Row 38 connects East to western cliff staircase at (9, 36).
 - Southern Suspension Bridge Landing (9, 34): Western cliff staircase ascends North from row 38 to bridge landing at (9, 34). Bridge spans East across row 34 (cols 10..20) directly to Eastern Plateau landing at (21, 34).
-## 1F Eastern Plateau to Ladder (21, 32) Access (Verified Turns 21698-21721)
-- Albert is stationed at (27, 36) facing Down.
-- At (27, 31) and (26, 29), x=25/26 is a cliff tongue blocking westward access to the ladder alcove beneath the bridge.
-- Row 29 beneath the Middle Suspension Bridge terminates West at (26, 29) against the cliff tongue (does NOT connect directly across to col 21).
-- At (29..30, 29..31), x=30 is a solid vertical cliff wall.
-- The ladder at (21, 32) sits in an elevated alcove with a south-facing jump ledge at row 33 and western staircase descending from the Middle Suspension Bridge (rows 27-28).
-- The Middle Suspension Bridge is accessed via the eastern wooden staircase at cols 33-34.
-
 ## 1F Eastern Plateau & Middle Bridge Refutation (Conclusively Verified Turn 21742)
 - Trench at Column 39: From (39, 34), Column 39 runs north between the cliff and cave wall to (39, 30).
 - Row 27 Ledge: Tile (39, 29) is bounded by the south-facing jump ledge coming down from the Max Elixir shelf (40, 26).
