@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active (Lv 13) | Starter F Lv 5 on Route 101 (knows Tackle, Bubble, Mud Sport, Water Gun) |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active (Lv 16) | Starter F Lv 5 on Route 101 (knows Mud Shot, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Goldeen | CALYPSO | Active (Lv 13) | Caught F Lv 5 with Old Rod at (17, 13); Swift Swim (knows BubbleBeam, Psybeam, Haze, Supersonic) |
 | Route 103 | Ekans | MEDUSA | Active (Lv 13) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (33 HP, 22 Atk, 20 Def, 18 Sp.Atk, 21 Sp.Def, 19 Speed; knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 13) | Caught M Lv 6 at (38, 4); Poison Point (knows Poison Sting, Peck, Horn Attack, Double Kick) |
