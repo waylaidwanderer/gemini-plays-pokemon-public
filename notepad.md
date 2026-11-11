@@ -9,7 +9,7 @@
 | Route 103 | Ekans | MEDUSA | Active (Lv 14) | Caught F Lv 4 at (17, 11); Intimidate, Relaxed (+Def) (35 HP, 23 Atk, 22 Def, 19 Sp.Atk, 23 Sp.Def, 20 Speed; knows Wrap, Pursuit, Acid, Bite) |
 | Route 102 | Nidoran♂ | ARES | Active (Lv 14) | Caught M Lv 6 at (38, 4); Poison Point (37 HP, 23 Atk, 18 Def, 20 Sp.Atk, 14 Sp.Def, 22 Speed; knows Poison Sting, Peck, Horn Attack, Double Kick) |
 | Petalburg City | Azurill | NEREUS | Active (Lv 15) | Caught M Lv 5 with Old Rod at (11, 22); knows Body Slam, Charm, Secret Power, BubbleBeam |
-| Route 104 | Snubbull | HERA | Active (Lv 14) | Caught F Lv 7 at (23, 61); knows Headbutt, Bite, Lick, Roar |
+| Route 104 | Snubbull | HERA | Active (Lv 15) | Caught F Lv 7 at (23, 61); knows Headbutt, Bite, Lick, Roar |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
