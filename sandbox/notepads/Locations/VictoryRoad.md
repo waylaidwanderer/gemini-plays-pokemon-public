@@ -302,3 +302,5 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - South (rows 27..29): Horizontal Acro Bike rails.
   - East (cols 31..37): Open dirt pathway leading East and Northeast.
   - Trainer spotted at approximately (36..37, 23..24) in red shirt.
+## Trainers Defeated - Victory Road B2F
+- Cooltrainer ♀ Julie: Defeated at (35, 22) on Turn 21868 (Sandslash Lv 42, Ninetales Lv 42, Tropius Lv 42). Prize: ¥2,016.
