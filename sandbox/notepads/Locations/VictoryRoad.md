@@ -308,3 +308,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Water Channel: From (34, 16), surf North to row 14 to clear cliff corner at (32, 16), then West along row 14 (cols 33..25) to the waterfall basin.
 - Waterfall Base: Located at cols 26..28, row 12. Interacting with A prompts to use Waterfall. Confirming YES and dismissing 'LILZ used WATERFALL.' scales the waterfall to landing at (27, 8).
 - Upper Water Channel: From (27, 8), water extends North along column 27 to row 1. At (27, 1), the northern cliff wall (row 0) turns the water channel WEST along rows 1..2.
+## B2F Western Plateau & Waterfall 2 (Discovered Turn 21928!)
+- Western Landing: Dirt landing located at cols 4..6, rows 6..10.
+- Waterfall 2 Crest: Stream at col 7 plunges south over a second waterfall at row 11.
+- Facing East from (6, 10) into (7, 10) allows mounting Surf with Lilz.
+- Sliding Down Waterfall 2 drops into the lower central basin with Cooltrainer Vito Winstrate at (14, 16) and the ladder to 1F exit sector at (17, 16)!
