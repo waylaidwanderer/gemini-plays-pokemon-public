@@ -332,14 +332,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Emerged at (5, 26) on 1F!
   - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
   - Forward progression routes Left to (4, 26) and straight North up Column 4 into the northern exit canyon!
-- 1F Southwest Ladder Plateau (Verified Turn 22054): From the ladder at (5, 26), the open plateau extends East across columns 6..13 (row 26) to the Central Platform at (13, 26).
-- 1F Northern Lake Refutation (Verified Turns 22060-22090):
-  - Subterranean lake at (15, 12..18) north of the overhead bridge is an optional grotto bounded North by solid cliff at row 11 with a Poké Ball item (no waterfall).
-  - Ladder at (19, 12) is a one-way descent trap to B1F (17, 16). (AVOID!).
-- 1F Exit Route Architecture (Verified Turns 22083-22111):
-  - Middle Suspension Bridge cannot be entered from Eastern Plateau (refuted Turn 21742).
-  - Cooltrainer Terrace (cols 28..35) and Northern Canyon Exit Sector are reached from the northern 1F area via the Northern Staircase at col 16, rows 17..22!
-- 1F Central Corridor Topography (Verified Turns 22125-22132):
-  - Column 15 connects North-South between the lake (row 18) and row 25 under the bridge.
-  - Column 16 is bounded by a vertical cliff wall across rows 18..24.
-  - Row 25 connects (15, 25) East to (17, 25) around the cliff.
+- 1F Northern Lake & Grotto (Verified Turns 22060-22090):
+  - Subterranean lake at (15, 12..18) north of the overhead bridge is an optional grotto bounded North by solid cliff at row 11 with a visible Poké Ball item (no waterfall).
+  - Ladder at (19, 12) is a one-way descent trap leading down to B1F (17, 16).
+- B1F Edgar Verification (Verified Turn 22072):
+  - Trainer at (14, 16) on B1F confirmed as Cooltrainer Edgar (defeated, dialogue: "Even outside of battle, I sense incredible power emanating from you and your POKéMON.").
+- 1F True Exit Route (Verified Turns 22083-22141):
+  - Progression routes via the Western Terrace (cols 2..3) past Wally and Hope to rows 13..14.
+  - Corridor at rows 13..14 (cols 9..16) connects East directly to the top of the Northern Staircase at (16, 17).
+  - Northern Staircase descends south to the Level 0 Highway (rows 23..24), which runs East across cols 16..28 to the Cooltrainer Terrace (cols 28..35) and the Northern Canyon Exit Sector!
