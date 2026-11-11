@@ -332,17 +332,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Emerged at (5, 26) on 1F!
   - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
   - Forward progression routes Left to (4, 26) and straight North up Column 4 into the northern exit canyon!
-- 1F Southwest Ladder Chute (Verified Turn 22053): Tile (5, 26) is bounded by cliff walls on East and West. The only exit is hopping South over the two jump ledges at rows 27 and 28, landing directly at (5, 29) on the Level 0 canyon floor.
-- 1F Southwest Ladder Plateau (Verified Turn 22054): From the ladder at (5, 26), the open plateau extends East across columns 6..9 (rows 22..26). South at row 27 is the cliff drop, and West at col 4 is cliff wall.
-- 1F Subterranean Lake (Discovered Turn 22060): Passed under the northern suspension bridge to (15, 18). A subterranean lake extends across the northern sector starting at row 17!
-- 1F Northern Suspension Bridge Underside & Subterranean Lake (Verified Turns 22058-22061):
-  - The Northern Suspension Bridge (rows 18..20) is fully passable underneath along columns 13..15.
-  - Heading North under the bridge leads directly onto the shore of a 1F subterranean lake at (15, 18).
-  - Open water extends North across rows 14..17 (cols 12..18).
-- 1F Descent Ladder Trap & Waterfall Progression (Verified Turns 22065-22081):
-  - The ladder at (19, 12) on 1F is NOT an exit ladder; it is a descent ladder leading down to B1F (17, 16). (AVOID THIS LADDER!).
-  - The ladder at (17, 16) on B1F is a descent ladder leading down to B2F (19, 12).
-  - The TRUE EXIT PROGRESSION on 1F: From the lake canal at (15, 12), face North into tile (15, 11) and activate HM07 Waterfall with Lilz to scale up to the upper exit platform of Victory Road!
-- 1F Exit Route Clarification (Verified Turn 22090):
-  - 1F lake at (15, 12..18) is bounded North by solid cliff at row 11 with a Poké Ball item.
-  - The TRUE EXIT PROGRESSION: Disembark at (15, 18), walk South under the bridge to row 25, and follow the Level 0 Highway East across cols 16..28 to the Cooltrainer Terrace (cols 28..35, rows 20..25) and Northern Canyon Exit Sector!
+- 1F Southwest Ladder Plateau (Verified Turn 22054): From the ladder at (5, 26), the open plateau extends East across columns 6..13 (row 26) to the Central Platform at (13, 26).
+- 1F Northern Lake Refutation (Verified Turns 22060-22090):
+  - Subterranean lake at (15, 12..18) north of the overhead bridge is an optional grotto bounded North by solid cliff at row 11 with a Poké Ball item (no waterfall).
+  - Ladder at (19, 12) is a one-way descent trap to B1F (17, 16). (AVOID!).
+- 1F Exit Route Architecture (Verified Turns 22083-22111):
+  - Middle Suspension Bridge cannot be entered from Eastern Plateau (refuted Turn 21742).
+  - Cooltrainer Terrace (cols 28..35) and Northern Canyon Exit Sector are reached from the northern 1F area via the Northern Staircase at col 16, rows 17..22!
