@@ -294,3 +294,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Eastern Stairs at (33..34, 27..30): The stairs lead DOWN onto landing (33..35, 31..32), which terminates at a south-facing jump ledge at row 33. The vertical cliff at col 38 completely separates Column 39 from the stairs.
 - Exit Status: Both the Middle Suspension Bridge (rows 27-28) and ladder (21, 32) are ONE-WAY EXITS from deeper in Victory Road / B1F return. They cannot be entered from 1F.
 - Verified Progression: The ONLY forward path through Victory Road is entering B1F via the Western Terrace ladder at (8, 13).
+## Floor B2F (Subterranean Water Floor) - Discovered Turn 21830!
+- Entrance Ladder from B1F: Located at (30, 25) at the western end of the Southern Cavern Highway!
+- Spawns at (30, 25) facing South off the ladder rungs.
+- Topography:
+  - North: Cave wall behind the ladder.
+  - South (rows 27..29): Horizontal Acro Bike rails.
+  - East (cols 31..37): Open dirt pathway leading East and Northeast.
+  - Trainer spotted at approximately (36..37, 23..24) in red shirt.
