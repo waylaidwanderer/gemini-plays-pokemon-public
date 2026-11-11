@@ -328,3 +328,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The basin connects West along row 17 across cols 13..6, curving South at (5, 17) into the Southwest Canyon (cols 3..5, rows 18..26).
   - Cooltrainer ♀ Michelle defeated at (5, 21) on Turn 22048 (Torkoal Lv 42, Medicham Lv 42, Ludicolo Lv 42; prize ¥2,016). SAGE Lv 62 HP: 92/188.
   - True 1F Exit Ladder: Located at (5, 26) at the southern end of the southwest canyon! Ascends directly into 1F exit canyon!
+- 1F Ascent from B1F Southwest Ladder (Verified Turn 22052):
+  - Emerged at (5, 26) on 1F!
+  - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
+  - Forward progression routes Left to (4, 26) and straight North up Column 4 into the northern exit canyon!
