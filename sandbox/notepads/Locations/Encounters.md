@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 5; met on Route 101 |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 13 (36 HP, 23 Atk, 21 Def, 18 Sp.Atk, 20 Sp.Def, 16 Speed; Tackle, Bubble, Mud Sport, Water Gun); met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
 | Route 103 | — | — | Pending | Tall grass at (15..18, 11..13) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
