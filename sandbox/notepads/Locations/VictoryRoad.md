@@ -329,3 +329,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Vito Winstrate Encounter (Turn 21965): Stepping onto column 14 at (14, 19) triggered Cooltrainer Vito Winstrate from (14, 16). Vito challenged May with his full team!
 - Trainers Defeated: Cooltrainer ♂ Mitchell defeated at (14, 18) on B1F on Turn 21979 (Lunatone Lv 43, Solrock Lv 43; prize ¥2,064). SAGE grew to Level 62! (HP 170/188, Leaf Blade 8/15).
 - B1F Row 23 Southern Highway (Verified Turn 21980): The central cliff runs south to row 22. The open horizontal highway is at row 23 across cols 14..20. From (15, 21), step Down twice to (15, 23), East across cols 16..20 to (20, 23), then North up column 20 directly into the ladder at (20, 20) to 1F!
+- B1F Lower Basin Macro Topology & Exit Route (Verified Turn 21981):
+  - Row 23/24 is a dead-end southern cliff wall; cannot exit south.
+  - The true route is a northern U-shaped corridor:
+    1. Ascend Column 14 North (bypassing Halle and Mitchell via row 17..19) up to row 12.
+    2. Head East along Row 12 (cols 14..20) past the Rock Smash rock at (18, 12).
+    3. Descend South down Columns 20..21 (rows 12..20) onto the eastern plateau directly to the 1F exit ladder at (20, 20)!
