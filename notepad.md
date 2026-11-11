@@ -4563,7 +4563,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 5. [x] Illuminate B1F using Flash (Turn 19594)!
 6. [x] Solved B1F Northwest 2-boulder puzzle: pushed Boulder 2 West into (3, 7) alcove, opening Column 4.
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
-8. [x] Confirmed (21, 32) on 1F eastern plateau is an exit destination whose B1F counterpart at (40, 24) is blocked from B2F by one-way ledges. Main B2F route is via Western Terrace ladder (9, 14).
+8. [ ] Eastern Plateau ladder at (21, 32): Unvisited ladder on 1F whose true destination is currently being accessed to enter the lower basin / B2F.
 9. [ ] Navigate B2F (use Surf and Waterfall).
 10. [ ] Ascend back to 1F exit corridor.
 11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
@@ -4625,6 +4625,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## B1F Northwest Chamber Layout & Verified Mechanics
 - Entrance Ladder: Ladder from 1F western terrace at (9, 14) enters B1F at (8, 3). Stepping on ladder at (8, 2) returns to 1F. Ascending resets all boulders.
+- Ladder Warp Tile Mechanic: In Gen 3, spawning on warp tile (8, 3) does not re-trigger the warp; to ascend to 1F, step Down off the warp tile to (8, 4), then step Up back onto (8, 3) to warp to 1F at (9, 14).
 - Flash: Cast with Lombre (Lilz); illuminates the floor and persists across floor transitions within the session.
 - Rock Mounds: Upper mound at (5..8, 5..6). Lower mound at (5..8, 8..9) — verified completely solid across cols 5, 6, 7, 8 on Turn 20034.
 - Connecting Corridors:
@@ -4822,12 +4823,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Western Bridge & Central Platform: Spans cols 3..12 at row 26 to Central Platform at (13, 26). Southern stairs at (13, 27..29) descend to Level 0 canyon at (13, 29).
 - Level 0 Western Canyon: Row 29 connects West to col 5. Column 5 runs South (rows 31..38) beneath the overhead Southern Suspension Bridge (row 34). Row 38 connects East to western cliff staircase at (9, 36).
 - Southern Suspension Bridge Landing (9, 34): Western cliff staircase ascends North from row 38 to bridge landing at (9, 34). Bridge spans East across row 34 (cols 10..20) directly to Eastern Plateau landing at (21, 34).
-## 1F Eastern Plateau to Ladder (21, 32) Access (Verified Turns 21698-21717)
+## 1F Eastern Plateau to Ladder (21, 32) Access (Verified Turns 21698-21721)
 - Albert is stationed at (27, 36) facing Down.
-- Column 28 connects North past Albert from row 35 to row 31.
-- At (27, 31), x=26 is a cliff tongue blocking direct westward access to the ladder at row 31.
-- Row 29 is the open east-west corridor beneath the Middle Suspension Bridge (rows 27-28), connecting col 29 West to the western staircase at col 21.
-- From (21, 29), descending the wooden staircase South leads to row 31/32 directly onto the unexplored ladder at (21, 32)!
+- At (27, 31) and (26, 29), x=25/26 is a cliff tongue blocking westward access to the ladder alcove beneath the bridge.
+- Row 29 beneath the Middle Suspension Bridge terminates West at (26, 29) against the cliff tongue (does NOT connect directly across to col 21).
+- At (29..30, 29..31), x=30 is a solid vertical cliff wall.
+- The ladder at (21, 32) sits in an elevated alcove with a south-facing jump ledge at row 33 and western staircase descending from the Middle Suspension Bridge (rows 27-28).
+- The Middle Suspension Bridge is accessed via the eastern wooden staircase at cols 33-34.
 
 
 <hr>
