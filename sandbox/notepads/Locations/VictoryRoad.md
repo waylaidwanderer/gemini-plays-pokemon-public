@@ -343,3 +343,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The ladder at (19, 12) on 1F is NOT an exit ladder; it is a descent ladder leading down to B1F (17, 16). (AVOID THIS LADDER!).
   - The ladder at (17, 16) on B1F is a descent ladder leading down to B2F (19, 12).
   - The TRUE EXIT PROGRESSION on 1F: From the lake canal at (15, 12), face North into tile (15, 11) and activate HM07 Waterfall with Lilz to scale up to the upper exit platform of Victory Road!
+- 1F Exit Route Clarification (Verified Turn 22090):
+  - 1F lake at (15, 12..18) is bounded North by solid cliff at row 11 with a Poké Ball item.
+  - The TRUE EXIT PROGRESSION: Disembark at (15, 18), walk South under the bridge to row 25, and follow the Level 0 Highway East across cols 16..28 to the Cooltrainer Terrace (cols 28..35, rows 20..25) and Northern Canyon Exit Sector!
