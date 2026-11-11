@@ -4874,6 +4874,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The Northern Suspension Bridge (rows 18..20) is fully passable underneath along columns 13..15.
   - Heading North under the bridge leads directly onto the shore of a 1F subterranean lake at (15, 18).
   - Open water extends North across rows 14..17 (cols 12..18).
+- 1F Final Exit Ladder (Verified Turn 22065):
+  - 1F lake canal ends at row 12.
+  - Shoreline located at (18, 12).
+  - Final exit ladder located at (19, 12), climbing up to the Victory Road exit platform!
 
 <hr>
 
