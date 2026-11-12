@@ -2,10 +2,10 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 13 (36 HP, 23 Atk, 21 Def, 18 Sp.Atk, 20 Sp.Def, 16 Speed; Tackle, Bubble, Mud Sport, Water Gun); met on Route 101 |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 14 (38 HP, 25 Atk, 22 Def, 19 Sp.Atk, 21 Sp.Def, 17 Speed; Tackle, Bubble, Mud Sport, Water Gun); met on Route 101 |
 | Littleroot Town | Goldeen | GLAUCUS | Active | Male, Lv 15, Relaxed, Water Veil (42 HP, 25 Atk, 29 Def, 16 Sp.Atk, 24 Sp.Def, 21 Speed; BubbleBeam, Psybeam, Water Pulse, Supersonic); hooked at (17, 13) |
 | Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 15, Gentle, Chlorophyll (39 HP, 17 Atk, 16 Def, 19 Sp.Atk, 24 Sp.Def, 24 Speed; Stun Spore, PoisonPowder, Mega Drain, Gust); caught at (14, 15) |
-| Route 102 | Sandshrew | CRONUS | Active | Male, Lv 13, Serious, Sand Veil (37 HP, 28 Atk, 29 Def, 12 Sp.Atk, 13 Sp.Def, 17 Speed; Scratch, Defense Curl, Poison Sting [Lv 9], Sand-Attack [Lv 11]); caught at (39, 2) |
+| Route 102 | Sandshrew | CRONUS | Active | Male, Lv 14, Serious, Sand Veil (39 HP, 30 Atk, 31 Def, 12 Sp.Atk, 13 Sp.Def, 18 Speed; Scratch, Defense Curl, Poison Sting [Lv 9], Sand-Attack [Lv 11]); caught at (39, 2) |
 | Petalburg City | Luvdisc | VENUS | Active | Female, Lv 14 (36 HP, 15 Atk, 24 Def, 19 Sp.Atk, 24 Sp.Def, 30 Speed; Secret Power, Charm, Water Pulse); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 15 (41 HP, 21 Atk, 36 Def, 16 Sp.Atk, 21 Sp.Def, 18 Speed; Bone Club, Rock Throw, Secret Power, Headbutt); caught at (24, 61) |
 | Petalburg Woods | Pineco | — | Forfeited | Female, Lv 8; used Selfdestruct after breaking out of 3 Poke Balls at (21, 35) |
