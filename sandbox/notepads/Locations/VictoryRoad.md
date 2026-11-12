@@ -80,6 +80,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Cooltrainer ♂ Shannon: Defeated at (26, 16) on B1F Column 26 (Claydol Lv 45). Prize: ¥2,160.
 
 ## Trainers Defeated - Victory Road 1F
+- Cooltrainer ♂ Vito Winstrate: Defeated at (15, 6) on Turn 22376! Team: Dodrio Lv 42, Kadabra Lv 42, Electrode Lv 42, Shiftry Lv 42. Prize: ¥2,064. Dialogue: "I couldn't win... Was my family wrong? No, they can't be wrong... Maybe I'm just weak..."
 - Rival Wally: Defeated at (2, 23) (Altaria Lv 44, Roselia Lv 44, Delcatty Lv 43, Magneton Lv 41, Gardevoir Lv 45). Prize: ¥2,700.
 - Cooltrainer ♀ Hope: Defeated at (3, 15) (Roselia Lv 45, Claydol Lv 45). Prize: ¥2,160.
 - Cooltrainer ♂ Albert: Defeated at (27, 36) on 1F eastern plateau (Magneton Lv 43, Muk Lv 43). Prize: ¥2,064.

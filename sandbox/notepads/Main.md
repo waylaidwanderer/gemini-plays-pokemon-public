@@ -6,7 +6,7 @@
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (4/15), Quick Attack (30/30). HP: 92/188. Status: OK.
+1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (4/15), Quick Attack (30/30). HP: 40/188. Status: OK. (Leaf Blade 0/15, Quick Attack 25/30, Rock Tomb 2/10, Pursuit 16/20).
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (14/15), Surf (14/15), Flash (20/20). HP: 85/85. Status: OK. Revived and fully restored Turn 19931!
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 17 on turn 19837! HP: 47/47. Max HP: 47. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK. Fully restored Turn 19931!
@@ -46,7 +46,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥39,590 (earned ¥2,064 from Halle, ¥2,064 from Mitchell, ¥2,016 from Michelle)
+- Money: ¥41,654 (earned ¥2,064 from Halle, ¥2,064 from Mitchell, ¥2,016 from Michelle, ¥2,064 from Vito)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
