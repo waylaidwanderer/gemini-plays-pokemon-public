@@ -4565,8 +4565,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
 8. [x] Eastern Plateau ladder at (21, 32) & Middle Bridge: Verified as one-way return exits from deeper in Victory Road, not accessible entrances from 1F (Refuted Turn 21742).
 9. [x] Navigate B2F: Surfed subterranean lake and scaled waterfall with Lilz (Turns 21872-21884)!
-10. [ ] Ascend back to 1F exit corridor.
-11. [ ] Exit Victory Road onto the north plateau of Ever Grande City!
+10. [x] Scale 1F waterfall using HM07 Waterfall with Lilz (Turn 22336 at 9, 14 -> 9, 10)!
+11. [x] Explore upper water channel and reach northern sandy landing at (16, 6) (Turn 22344)!
+12. [ ] Defeat Cooltrainer at (15, 6) and exit Victory Road to Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4884,6 +4885,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## 1F Row 26 Southern Boundary (Verified Turn 22299)
 - Stepped Strata Collision: The 4 horizontal stepped strata directly south of row 26 (rows 27..30) across cols 5..14 are solid cliff faces, NOT jumpable ledges; pressing Down at (13, 26) bumps into them. Navigation from row 26 proceeds North through the canyon into rows 23..19.
+## 1F Upper Waterway & Northern Landing (Verified Turns 22334-22345)
+- 1F Waterfall: Located at cols 7-9, rows 12-13. Interacting with A prompts to use HM07 Waterfall. Scaled with Lilz on Turn 22336 to upper pool at (9, 10).
+- Upper Water Channel: Extends North from (9, 10) along column 9 (rows 10..3) to northern cave boundary (row 1). Opens into a wide horizontal canal at rows 2-5 spanning east past col 16.
+- Poké Ball Item: Visible on elevated cliff at roughly (12, 8).
+- Cooltrainer Station: Undefeated blonde male Cooltrainer in red tracksuit stationed at (15, 6) facing North.
+- Shoreline Landing: Sandy bank begins at row 6 (cols 16..18+), allowing disembarkation onto the upper northern terrace on foot.
+
 
 <hr>
 
