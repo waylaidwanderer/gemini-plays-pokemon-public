@@ -10,7 +10,7 @@
 | Route 104 | Cubone | HADES | Active | Male, Lv 16 (46 HP, 23 Atk, 35 Def, 22 Sp.Atk, 22 Sp.Def, 17 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Oddish | CHLORIS | Active | Female, Lv 15 (42 HP, 23 Atk, 23 Def, 27 Sp.Atk, 28 Sp.Def, 15 Speed; 1: Mega Drain, 2: Acid, 3: Toxic [Slot 4 empty]); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Active (Boxed at BOX 1 (0, 0)) | Lv 9 (Slow EXP group [1,021 EXP buffer at Lv 16]; 1: ThunderShock, 2: Secret Power, 3: Shock Wave, learns 4: SonicBoom Lv 15); caught at (6, 14) |
-| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
+| Route 115 | Kabuto | TRITON | Active (Boxed at BOX 1 (2, 0)) | Male, Lv 9 (Medium Fast [817 EXP buffer at Lv 16]; 1: Rock Tomb, 2: Water Pulse, learns 3: Mega Drain Lv 13); hooked at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
