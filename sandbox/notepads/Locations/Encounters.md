@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #38)
+# Nuzlocke Encounters (Attempt #39)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Male, Lv 16 (50+ HP; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
-| Littleroot Town | Goldeen | GLAUCUS | Deceased (Turn 7216) | Male, Lv 16; fainted to School Kid Josh's Zubat (4-turn Hypnosis sleep + Giga Drain bypassing held Oran Berry check) |
-| Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 16, Gentle, Chlorophyll (41 HP, 17 Atk, 17 Def, 20 Sp.Atk, 25 Sp.Def, 25 Speed; 1: Stun Spore, 2: Aerial Ace, 3: Mega Drain, 4: Gust); caught at (14, 15) |
-| Route 102 | Sandshrew | CRONUS | Retired (Lv 17 > Cap 16, BOX 1 (2, 0)) | Male, Lv 17, Serious, Sand Veil (1: Scratch, 2: Defense Curl, 3: Poison Sting, 4: Dig); benched at (2, 0) in BOX 1 until Roxanne is defeated |
-| Petalburg City | Luvdisc | VENUS | Active | Female, Lv 16 (40 HP, 16 Atk, 27 Def, 21 Sp.Atk, 27 Sp.Def, 34 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (11, 22) |
-| Route 104 | Cubone | HADES | Active | Male, Lv 16 (44 HP, 22 Atk, 38 Def, 17 Sp.Atk, 22 Sp.Def, 19 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
-| Petalburg Woods | Pineco | — | Forfeited | Female, Lv 8; used Selfdestruct after breaking out of 3 Poke Balls at (21, 35) |
-| Route 116 | Makuhita | ATLAS | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 16 (54 HP, 25 Atk, 19 Def, 12 Sp.Atk, 15 Sp.Def, 12 Speed; 1: Vital Throw, 2: SmellingSalt, 3: Sand-Attack, 4: Force Palm); caught at (6, 14) |
-| Route 115 | Kabuto | TRITON | Active | Male, Lv 16 (37 HP, 31 Atk, 41 Def, 24 Sp.Atk, 20 Sp.Def, 22 Speed; 1: Rock Tomb, 2: Water Pulse, 3: Mega Drain); hooked at (7, 71) |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Route 116 | — | — | Pending | Tall grass at (6, 14..15) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
