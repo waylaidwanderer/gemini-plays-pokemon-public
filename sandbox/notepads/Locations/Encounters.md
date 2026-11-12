@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 15 (40 HP, 17 Atk, 19 Def, 18 Sp.Atk, 25 Sp.Def, 34 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse); hooked at (18, 11) |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 16 (51 HP, 32 Atk, 27 Def, 39 Sp.Atk, 29 Sp.Def, 17 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (1, 0)) | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 16, Huge Power (42 HP, 12 Atk [24 w/ Huge Power], 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 16, Thick Fat (42 HP, 12 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 16 (46 HP, 23 Atk, 35 Def, 22 Sp.Atk, 22 Sp.Def, 17 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Oddish | CHLORIS | Active | Female, Lv 15 (42 HP, 23 Atk, 23 Def, 27 Sp.Atk, 28 Sp.Def, 15 Speed; 1: Mega Drain, 2: Acid, 3: Toxic [Slot 4 empty]); caught at (6, 30) |
 | Route 116 | — | — | Pending | Tall grass at (6, 14..15) |
