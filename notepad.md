@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 13; met on Route 101 |
-| Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
+| Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 13 (1: Secret Power, 2: Charm, 3: Water Pulse); hooked at (18, 11) |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 13 (43 HP, 26 Atk, 23 Def, 32 Sp.Atk, 24 Sp.Def, 15 Speed; 1: Absorb, 2: Growth, 3: Razor Leaf [Slot 4 empty]; caught holding wild Sun Stone!); caught at (12, 15) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
