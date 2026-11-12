@@ -135,7 +135,7 @@
   - **Team Aqua Grunt** `(14, 5)` (6 Pokemon: `Dratini` M Lv 14 [`Headbutt`, 201 EXP], `Barboach` M Lv 14 [`Water Pulse`, 276 EXP], `Carvanha` M Lv 15 [`Rough Skin`, 282 EXP], `Snorunt` M Lv 13 [`Ice Shard`, `Body Slam`, 206 EXP], `Voltorb` Lv 13 [`SonicBoom`, 284 EXP], `Tentacool` M Lv 14 [`Water Pulse`, `Icy Wind`, `Supersonic`, 315 EXP]).
 
 ## Route 115 (South — Accessible Before Roxanne)
-- **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
+- **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`, reached from Route 116 `(3, 11)` via `Left x22`!) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
 - **Trainer-Free Path to Southern Beach**:
   - From `(21, 77)`, step `Right` to `(22, 77)`, `Up x3` through the 2-tile ledge gap at `x=22..23, y=76` to `(22, 74)`, `Left` to `(21, 74)`, and `Up x12` straight up `x=21` (passing east of the wandering friendly girl in the brown hat near `(17, 68)` and west of the cliff ridge at `x=22, y=68..69`) to `(21, 62)`.
   - From `(21, 62)`, walk `Left x7` above the trees at `x=19..20, y=63..66` and the signpost at `(16, 64)` to `(14, 62)` (west of the `x=15` vertical ridge), `Down x7` along `x=14` to `(14, 69)`, `Left x3` along `y=69` to `(11, 69)` (since the cliff ridge blocks `(12, 70)` and the beach staircase at `x=10..11, y=70` is entered from the north at `y=69`), `Down x2` down the staircase to `(11, 71)`, and `Left x4` to `(7, 71)` facing `Left` at the ocean `(6, 71)`.
