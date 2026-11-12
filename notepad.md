@@ -304,7 +304,7 @@
 - **Western Entrance**: Enters from Route 116 `(47, 8)` onto `(4, 10)` inside Rusturf Tunnel.
 - **Observed Wild Species**: `Phanpy` Lv 11, `Nosepass` Lv 12, `Onix` Lv 12, `Geodude` Lv 10 (verified Turn 7523).
 - **Layout & Item Ball**: Item ball in top-left alcove at `(3, 1)` (reached via stairs at `(8, 3)`, as `(5, 3)` is a rock wall). Main corridor runs north from `(4, 10)` to `(4..5, 5)` and east along `y=5` to `(13, 5)`. Stepping onto `(9, 5)` triggers a 1-textbox warning from the **Team Aqua Grunt** (who backs up to `(14, 5)`); interact from `(13, 5)` facing `Right` (`4 pre-battle textboxes: A + 3 B presses before sleep 5500`, verified Turn 7526) to battle him for the stolen `Devon Goods`:
-  - **Team Aqua Grunt** `(14, 5)` (6 Pokemon: `Dratini` M Lv 14 [`Headbutt`, 201 EXP], `Barboach` M Lv 14 [`Water Pulse`, 276 EXP], `Carvanha` M Lv 15 [`Rough Skin`, 282 EXP], `Snorunt` M Lv 13 [`Ice Shard`, `Body Slam`, 206 EXP], `Voltorb` Lv 13 [`SonicBoom`, 284 EXP], `Tentacool` M Lv 14 [`Water Pulse`, `Icy Wind`, `Supersonic`, 315 EXP]).
+  - **Team Aqua Grunt** `(14, 5)` (6 Pokemon: `Dratini` M Lv 14 [`Headbutt`, `Water Pulse` (verified Turn 7527), 201 EXP], `Barboach` M Lv 14 [`Water Pulse`, 276 EXP], `Carvanha` M Lv 15 [`Rough Skin`, 282 EXP], `Snorunt` M Lv 13 [`Ice Shard`, `Body Slam`, 206 EXP], `Voltorb` Lv 13 [`SonicBoom`, 284 EXP], `Tentacool` M Lv 14 [`Water Pulse`, `Icy Wind`, `Supersonic`, 315 EXP]).
 
 ## Route 115 (South — Accessible Before Roxanne)
 - **Southern Entrance**: Walk straight north from Rustboro City `(21, 11)` (`Up x14` along `x=21`, reached from Route 116 `(3, 11)` via `Left x22`!) onto Route 115 `(21, 77)` (`Up x12` crosses the boundary onto `(21, 79)`).
