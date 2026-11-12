@@ -302,7 +302,7 @@
 
 ## Rusturf Tunnel
 - **Western Entrance**: Enters from Route 116 `(47, 8)` onto `(4, 10)` inside Rusturf Tunnel.
-- **Observed Wild Species**: `Phanpy` Lv 11, `Nosepass` Lv 12, `Onix` Lv 12, `Geodude` Lv 10 (verified Turn 7523).
+- **Observed Wild Species**: `Phanpy` Lv 11, `Nosepass` Lv 12, `Onix` Lv 12, `Geodude` Lv 10 (verified Turn 7523), `Rhyhorn` Lv 10–11, `Dunsparce` Lv 12 (verified Turn 7544).
 - **Layout & Item Ball**: Item ball in top-left alcove at `(3, 1)` (reached via stairs at `(8, 3)`, as `(5, 3)` is a rock wall). Main corridor runs north from `(4, 10)` to `(4..5, 5)` and east along `y=5` to `(13, 5)`. Stepping onto `(9, 5)` triggers a 1-textbox warning from the **Team Aqua Grunt** (who backs up to `(14, 5)`); interact from `(13, 5)` facing `Right` (`4 pre-battle textboxes: A + 3 B presses before sleep 5500`, verified Turn 7526) to battle him for the stolen `Devon Goods`:
   - **Team Aqua Grunt** `(14, 5)` (6 Pokemon: `Dratini` M Lv 14 [`Headbutt`, `Water Pulse`, `DragonBreath` (verified Turn 7528), 201 EXP], `Barboach` M Lv 14 [`Water Pulse`, `Secret Power`, 276 EXP], `Carvanha` M Lv 15 [`Rough Skin`, `Bounce`, `Crunch` (verified Turns 7533–7535), 282 EXP], `Snorunt` M Lv 13 [`Ice Shard`, `Body Slam`, `Attract` (verified Turn 7536), 206 EXP], `Voltorb` Lv 13 [`SonicBoom`, 284 EXP], `Tentacool` M Lv 14 [`Water Pulse`, `Icy Wind`, `Supersonic`, 315 EXP]).
 
