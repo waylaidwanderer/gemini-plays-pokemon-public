@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 14 (38 HP, 25 Atk, 22 Def, 19 Sp.Atk, 21 Sp.Def, 17 Speed; Tackle, Bubble, Mud Sport, Water Gun); met on Route 101 |
 | Littleroot Town | Goldeen | GLAUCUS | Active | Male, Lv 15, Relaxed, Water Veil (42 HP, 25 Atk, 29 Def, 16 Sp.Atk, 24 Sp.Def, 21 Speed; BubbleBeam, Psybeam, Water Pulse, Supersonic); hooked at (17, 13) |
-| Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 15, Gentle, Chlorophyll (39 HP, 17 Atk, 16 Def, 19 Sp.Atk, 24 Sp.Def, 24 Speed; Stun Spore, PoisonPowder, Mega Drain, Gust); caught at (14, 15) |
+| Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 16, Gentle, Chlorophyll (41 HP, 17 Atk, 17 Def, 20 Sp.Atk, 25 Sp.Def, 25 Speed; Stun Spore, Aerial Ace [Lv 16], Mega Drain, Gust); caught at (14, 15) |
 | Route 102 | Sandshrew | CRONUS | Active | Male, Lv 15, Serious, Sand Veil (41 HP, 32 Atk, 33 Def, 13 Sp.Atk, 14 Sp.Def, 19 Speed; Scratch, Defense Curl, Poison Sting [Lv 9], Sand-Attack [Lv 11]); caught at (39, 2) |
 | Petalburg City | Luvdisc | VENUS | Active | Female, Lv 15 (38 HP, 16 Atk, 26 Def, 20 Sp.Atk, 26 Sp.Def, 32 Speed; Secret Power, Charm, Water Pulse); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 15 (41 HP, 21 Atk, 36 Def, 16 Sp.Atk, 21 Sp.Def, 18 Speed; Bone Club, Rock Throw, Secret Power, Headbutt); caught at (24, 61) |
