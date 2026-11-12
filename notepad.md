@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 16 (51 HP, ~35 Atk, ~27 Def, ~28 Sp.Atk, ~27 Sp.Def, ~23 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 17 (54 HP, 37 Atk, 30 Def, 28 Sp.Atk, 28 Sp.Def, 25 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 17 (54 HP, 33 Atk, 28 Def, 40 Sp.Atk, 30 Sp.Def, 18 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (1, 0)) | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
@@ -45,7 +45,7 @@
 
 ## Active Rules & Status
 - **Attempt**: #39
-- **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
+- **Current Level Cap**: Lv 20 (Brawly - Dewford Gym; Stone Badge earned Turn 7467!)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
