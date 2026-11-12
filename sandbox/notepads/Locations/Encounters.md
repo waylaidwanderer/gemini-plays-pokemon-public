@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Male, Lv 16 (50+ HP; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
-| Littleroot Town | Goldeen | GLAUCUS | Active | Male, Lv 16, Relaxed, Water Veil (44 HP, 27 Atk, 31 Def, 16 Sp.Atk, 25 Sp.Def, 22 Speed; 1: BubbleBeam, 2: Psybeam, 3: Water Pulse, 4: Supersonic); hooked at (17, 13) |
+| Littleroot Town | Goldeen | GLAUCUS | Deceased (Turn 7216) | Male, Lv 16; fainted to School Kid Josh's Zubat (4-turn Hypnosis sleep + Giga Drain bypassing held Oran Berry check) |
 | Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 16, Gentle, Chlorophyll (41 HP, 17 Atk, 17 Def, 20 Sp.Atk, 25 Sp.Def, 25 Speed; 1: Stun Spore, 2: Aerial Ace, 3: Mega Drain, 4: Gust); caught at (14, 15) |
 | Route 102 | Sandshrew | CRONUS | Retired (Lv 17 > Cap 16, BOX 1 (2, 0)) | Male, Lv 17, Serious, Sand Veil (1: Scratch, 2: Defense Curl, 3: Poison Sting, 4: Dig); benched at (2, 0) in BOX 1 until Roxanne is defeated |
 | Petalburg City | Luvdisc | VENUS | Active | Female, Lv 16 (40 HP, 16 Atk, 27 Def, 21 Sp.Atk, 27 Sp.Def, 34 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (11, 22) |
