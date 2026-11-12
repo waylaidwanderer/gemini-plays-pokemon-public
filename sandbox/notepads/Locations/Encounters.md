@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 13; met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
-| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 103 | Sunkern | HELIOS | Active | Male, Lv 4; caught at (12, 15) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down (Azurill / Luvdisc) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
