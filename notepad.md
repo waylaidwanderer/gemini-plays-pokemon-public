@@ -4886,6 +4886,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Shelf Pocket (17, 25) Collision: Physical testing (Turns 22218-22228) confirms (17, 25) is an enclosed dead-end pocket, bounded East by the col 18 vertical cliff, North by the row 24 cliff, and South by the row 27 ledges.
 - True Exit Route Deduction: The exit sector (Cooltrainer Terrace cols 28-35 and northern exit) cannot be reached from 1F central/west shelves. The true ascent ladder from B1F is located at (20, 20) in the lower basin (sighted Turns 21943/21950 near Halle and Mitchell)! The ladder at (5, 26) was merely a one-way return shortcut to the 1F entrance ledges.
 
+## B1F Lower Basin True Exit Ladder Access (Verified Turns 22254-22256)
+- Column 16 Collision: Column 16 terminates at (16, 20); row 21 directly south of (16, 20) is a solid cliff wall, NOT a walkable corridor.
+- Eastern Exit Ladder Corridor Access: From the basin, walk along row 17 past Edgar (14, 16) to (16, 17) -> East to (18, 17) on the landing south of the B2F ladder -> South along column 18/19 directly down to the true wooden exit ladder at (19..20, 20) ascending to the 1F Exit Canyon!
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
