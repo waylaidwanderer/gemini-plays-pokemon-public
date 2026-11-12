@@ -356,3 +356,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - South (18, 18) is a solid cliff drop-off; cannot step South from (18, 17).
   - East (19, 16) and (19, 17) are rock wall corners; cannot step East directly from row 16 or 17.
   - The upper northeast highway (cols 18..24, rows 11..15) extends North of row 16, accessible via stepping North through (18, 15) around the B2F ladder cliff.
+
+## 1F Row 26 Southern Boundary (Verified Turn 22299)
+- Stepped Strata Collision: The 4 horizontal stepped strata directly south of row 26 (rows 27..30) across cols 5..14 are solid cliff faces, NOT jumpable ledges; pressing Down at (13, 26) bumps into them. Navigation from row 26 proceeds North through the canyon into rows 23..19.
