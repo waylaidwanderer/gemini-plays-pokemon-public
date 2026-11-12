@@ -4865,7 +4865,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
   - Forward progression routes Left to (4, 26) and straight North up Column 4 into the northern exit canyon!
 - 1F Northern Lake & Grotto (Verified Turns 22060-22090):
-  - Subterranean lake at (15, 12..18) north of the overhead bridge is an optional grotto bounded North by solid cliff at row 11 with a visible Poké Ball item (no waterfall).
+  - Subterranean lake on 1F: Entered from shore at (15, 18). A western water channel along rows 14-15 leads to a massive Waterfall at cols 7-9, rows 12-13. Scaling this waterfall with Lilz leads directly up to the 1F upper exit plateau!
   - Ladder at (19, 12) is a one-way descent trap leading down to B1F (17, 16).
 - B1F Edgar Verification (Verified Turn 22072):
   - Trainer at (14, 16) on B1F confirmed as Cooltrainer Edgar (defeated, dialogue: "Even outside of battle, I sense incredible power emanating from you and your POKéMON.").
