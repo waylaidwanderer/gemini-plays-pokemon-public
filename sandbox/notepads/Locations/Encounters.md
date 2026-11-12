@@ -5,10 +5,10 @@
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 13; met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 14 (38 HP, 16 Atk, 18 Def, 17 Sp.Atk, 24 Sp.Def, 32 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse); hooked at (18, 11) |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 14 (46 HP, 28 Atk, 24 Def, 34 Sp.Atk, 26 Sp.Def, 16 Speed; 1: Absorb, 2: Growth, 3: Razor Leaf [Slot 4 empty]; caught holding wild Sun Stone!); caught at (12, 15) |
-| Route 102 | Sandshrew | TERRA | Active | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
+| Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (1, 0)) | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 15, Huge Power (40 HP, 12 Atk [24 w/ Huge Power], 21 Def, 15 Sp.Atk, 17 Sp.Def, 13 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 14 (42 HP, 21 Atk, 31 Def, 19 Sp.Atk, 19 Sp.Def, 15 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
-| Petalburg Woods | Oddish | CHLORIS | Active (Boxed at BOX 1 (0, 0)) | Female, Lv 8; caught at (6, 30) |
+| Petalburg Woods | Oddish | CHLORIS | Active | Female, Lv 14 (1: Mega Drain, 2: Acid, 3: Toxic [Slot 4 empty]); caught at (6, 30) |
 | Route 116 | — | — | Pending | Tall grass at (6, 14..15) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
