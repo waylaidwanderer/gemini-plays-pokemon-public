@@ -2,8 +2,8 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 15 (43 HP, 29 Atk, 21 Def, 22 Sp.Atk, 20 Sp.Def, 19 Speed; 1: Tackle, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
-| Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 15 (40 HP, 17 Atk, 19 Def, 18 Sp.Atk, 25 Sp.Def, 34 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse); hooked at (18, 11) |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 16 (~50 HP, ~35 Atk, ~27 Def, ~28 Sp.Atk, ~27 Sp.Def, ~23 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
+| Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 16 (42 HP, 17 Atk, 20 Def, 19 Sp.Atk, 27 Sp.Def, 36 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 16 (51 HP, 32 Atk, 27 Def, 39 Sp.Atk, 29 Sp.Def, 17 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (1, 0)) | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 16, Thick Fat (42 HP, 12 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
