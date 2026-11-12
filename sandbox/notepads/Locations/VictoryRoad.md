@@ -337,10 +337,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Ladder at (19, 12) is a one-way descent trap leading down to B1F (17, 16).
 - B1F Edgar Verification (Verified Turn 22072):
   - Trainer at (14, 16) on B1F confirmed as Cooltrainer Edgar (defeated, dialogue: "Even outside of battle, I sense incredible power emanating from you and your POKéMON.").
-- 1F True Exit Route (Verified Turns 22083-22141):
-  - Progression routes via the Western Terrace (cols 2..3) past Wally and Hope to rows 13..14.
-  - Corridor at rows 13..14 (cols 9..16) connects East directly to the top of the Northern Staircase at (16, 17).
-  - Northern Staircase descends south to the Level 0 Highway (rows 23..24), which runs East across cols 16..28 to the Cooltrainer Terrace (cols 28..35) and the Northern Canyon Exit Sector!
 
 ## 1F Southwest Ledge & Row 26 Central Connection (Verified Turns 22201-22213)
 - B1F Exit Ladder at (5, 26) emerges at (5, 26) on 1F facing Down.
