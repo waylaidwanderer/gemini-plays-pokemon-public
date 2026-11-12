@@ -11,7 +11,7 @@
 | Petalburg City | Luvdisc | VENUS | Active | Female, Lv 15 (38 HP, 16 Atk, 26 Def, 20 Sp.Atk, 26 Sp.Def, 32 Speed; Secret Power, Charm, Water Pulse); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 15 (41 HP, 21 Atk, 36 Def, 16 Sp.Atk, 21 Sp.Def, 18 Speed; Bone Club, Rock Throw, Secret Power, Headbutt); caught at (24, 61) |
 | Petalburg Woods | Pineco | — | Forfeited | Female, Lv 8; used Selfdestruct after breaking out of 3 Poke Balls at (21, 35) |
-| Route 116 | — | — | Pending | Tall grass at (5..6, 14..16) |
+| Route 116 | Makuhita | ATLAS | Active (Boxed) | Male, Lv 9; caught at (6, 14) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
