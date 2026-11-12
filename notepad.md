@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | NEPTUNE | Active | Lv 13; met on Route 101 |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 13; met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (17, 13) facing Right (Luvdisc / Goldeen) |
 | Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
