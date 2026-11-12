@@ -4568,7 +4568,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 10. [x] Scale 1F waterfall using HM07 Waterfall with Lilz (Turn 22336 at 9, 14 -> 9, 10)!
 11. [x] Explore upper water channel and reach northern sandy landing at (16, 6) (Turn 22344)!
 12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
-13. [ ] Follow upper terrace east to the exit doorway and reach Pokémon League HQ!
+13. [x] Descended eastern waterfall at (25, 8) -> (25, 12) (Turn 22385)!
+14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)!
+15. [ ] Step through exit doorway onto Ever Grande City north plateau and enter Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4882,6 +4884,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Poké Ball Item: Visible on elevated cliff at roughly (12, 8).
 - Cooltrainer Vito Winstrate: Stationed at (15, 6) facing North! Pre-battle quote: "I trained together with my whole family, every one of us!" Confirmed as the eldest Winstrate brother from Route 111!
 - Shoreline Landing: Sandy bank begins at row 6 (cols 16..18+), allowing disembarkation onto the upper northern terrace on foot.
+## 1F Eastern Outflow & Exit Staircase (Verified Turns 22383-22391)
+- Eastern Outflow Waterfall: Located at (25, 8). Plunges South over a 3-tile cliff into the lower exit basin at (25, 12).
+- Exit Basin Shorelines: The southern boundary at (25, 15) is an impassable vertical cliff face dropping down to rows 17-18 where a Cooltrainer is stationed.
+- Northeastern Landing: Water channel runs East along rows 14-15 (cols 26..33) directly to a sandy bank at (33..35, 13).
+- Wooden Exit Staircase: Located at cols 34-35, rows 10-11. Ascends North up to the final upper plateau (row 7) leading to the Victory Road exit doorway!
+
 
 <hr>
 
