@@ -2,12 +2,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 14 (38 HP, 25 Atk, 22 Def, 19 Sp.Atk, 21 Sp.Def, 17 Speed; Tackle, Bubble, Mud Sport, Water Gun); met on Route 101 |
-| Littleroot Town | Goldeen | GLAUCUS | Active | Male, Lv 15, Relaxed, Water Veil (42 HP, 25 Atk, 29 Def, 16 Sp.Atk, 24 Sp.Def, 21 Speed; BubbleBeam, Psybeam, Water Pulse, Supersonic); hooked at (17, 13) |
-| Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 16, Gentle, Chlorophyll (41 HP, 17 Atk, 17 Def, 20 Sp.Atk, 25 Sp.Def, 25 Speed; Stun Spore, Aerial Ace [Lv 16], Mega Drain, Gust); caught at (14, 15) |
-| Route 102 | Sandshrew | CRONUS | Active | Male, Lv 15, Serious, Sand Veil (41 HP, 32 Atk, 33 Def, 13 Sp.Atk, 14 Sp.Def, 19 Speed; Scratch, Defense Curl, Poison Sting [Lv 9], Sand-Attack [Lv 11]); caught at (39, 2) |
-| Petalburg City | Luvdisc | VENUS | Active | Female, Lv 15 (38 HP, 16 Atk, 26 Def, 20 Sp.Atk, 26 Sp.Def, 32 Speed; Secret Power, Charm, Water Pulse); hooked at (11, 22) |
-| Route 104 | Cubone | HADES | Active | Male, Lv 15 (41 HP, 21 Atk, 36 Def, 16 Sp.Atk, 21 Sp.Def, 18 Speed; Bone Club, Rock Throw, Secret Power, Headbutt); caught at (24, 61) |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Male, Lv 16 (50+ HP; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
+| Littleroot Town | Goldeen | GLAUCUS | Active | Male, Lv 16, Relaxed, Water Veil (44 HP, 27 Atk, 31 Def, 16 Sp.Atk, 25 Sp.Def, 22 Speed; 1: BubbleBeam, 2: Psybeam, 3: Water Pulse, 4: Supersonic); hooked at (17, 13) |
+| Route 103 | Hoppip | ZEPHYR | Active | Male, Lv 16, Gentle, Chlorophyll (41 HP, 17 Atk, 17 Def, 20 Sp.Atk, 25 Sp.Def, 25 Speed; 1: Stun Spore, 2: Aerial Ace, 3: Mega Drain, 4: Gust); caught at (14, 15) |
+| Route 102 | Sandshrew | CRONUS | Active | Male, Lv 16, Serious, Sand Veil (1: Dig, 2: Defense Curl, 3: Poison Sting, 4: Sand-Attack); caught at (39, 2) |
+| Petalburg City | Luvdisc | VENUS | Active | Female, Lv 16 (40 HP, 16 Atk, 27 Def, 21 Sp.Atk, 27 Sp.Def, 34 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (11, 22) |
+| Route 104 | Cubone | HADES | Active | Male, Lv 16 (44 HP, 22 Atk, 38 Def, 17 Sp.Atk, 22 Sp.Def, 19 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Pineco | — | Forfeited | Female, Lv 8; used Selfdestruct after breaking out of 3 Poke Balls at (21, 35) |
 | Route 116 | Makuhita | ATLAS | Active (Boxed) | Male, Lv 9; caught at (6, 14) |
 | Route 115 | Kabuto | TRITON | Active (Boxed) | Male, Lv 9; hooked at (7, 71) |
