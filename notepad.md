@@ -10,7 +10,7 @@
 | Route 102 | Sandshrew | TERRA | Active | Female, Lv 17 (46 HP, 30 Atk, 34 Def, 16 Sp.Atk, 16 Sp.Def, 21 Speed; 1: Cut, 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 17, Thick Fat (44 HP, 13 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 17 (48 HP, 25 Atk, 37 Def, 23 Sp.Atk, 23 Sp.Def, 17 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
-| Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 19 (57 HP, 34 Atk, 33 Def, 37 Sp.Atk, 38 Sp.Def, 21 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
+| Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 20 (59 HP, 36 Atk, 35 Def, 39 Sp.Atk, 40 Sp.Def, 22 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | Geodude | ATLAS | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 10; caught at (4, 9) |
