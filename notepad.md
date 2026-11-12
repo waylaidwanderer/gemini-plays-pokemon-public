@@ -4880,7 +4880,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Row 26 Highway: Runs completely unobstructed East across cols 6..13 between the northern cliff and the southern ledges, connecting (5, 26) directly to the Central Platform at (13, 26).
 - Northern Avenue from Central Platform: From (13, 26), the canyon avenue leads North along cols 13..15 across rows 25..21 beneath the Northern Suspension Bridge, but leads ONLY to the subterranean lake grotto (rows 12..18). It is walled off to the East across rows 19..24 by continuous solid cliffs and does NOT connect to Cooltrainer Terrace.
 - Shelf Pocket (17, 25) Collision: Physical testing (Turns 22218-22228) confirms (17, 25) is an enclosed dead-end pocket, bounded East by the col 18 vertical cliff, North by the row 24 cliff, and South by the row 27 ledges.
-- True Exit Route Deduction: The exit sector (Cooltrainer Terrace cols 28-35 and northern exit) cannot be reached from 1F central/west shelves. The true ascent ladder from B1F is located at (20, 20) in the lower basin (sighted Turns 21943/21950 near Halle and Mitchell)! The ladder at (5, 26) was merely a one-way return shortcut to the 1F entrance ledges.
+- B1F Basin Elevation Verification (Turns 22254-22282): The lower central basin (Edgar, Halle, Mitchell) is completely walled off from the eastern ladder at (20, 20) by continuous solid cliffs at (18, 18), (19, 16), and (18, 15). The only viable exit from this subterranean basin is the Southwest Canyon ladder at (5, 26) leading up to 1F.
 
 ## B1F Lower Basin True Exit Ladder Access (Verified Turns 22254-22256)
 - Column 16 Collision: Column 16 terminates at (16, 20); row 21 directly south of (16, 20) is a solid cliff wall, NOT a walkable corridor.
