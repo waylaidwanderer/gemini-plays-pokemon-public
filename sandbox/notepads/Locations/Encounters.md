@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | GALATEA | Active (Boxed at BOX 1 (4, 0)) | Female, Lv 16, Thick Fat (42 HP, 12 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 16 (46 HP, 23 Atk, 35 Def, 22 Sp.Atk, 22 Sp.Def, 17 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 16 (49 HP, 25 Atk, 24 Def, 29 Sp.Atk, 29 Sp.Def, 16 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
-| Route 116 | Voltorb | ZEUS | Active | Lv 16 (Slow EXP group [1,021 EXP buffer at Lv 16]; 42 HP, 16 Atk, 23 Def, 22 Sp.Atk, 27 Sp.Def, 36 Speed; 1: ThunderShock, 2: Secret Power, 3: Shock Wave, 4: SonicBoom); caught at (6, 14) |
+| Route 116 | Voltorb | ZEUS | Active | Lv 16, Static (Slow EXP group [1,021 EXP buffer at Lv 16]; 42 HP, 16 Atk, 23 Def, 22 Sp.Atk, 27 Sp.Def, 36 Speed; 1: ThunderShock, 2: Secret Power, 3: Shock Wave, 4: SonicBoom); caught at (6, 14) |
 | Route 115 | Kabuto | TRITON | Active | Male, Lv 16 (Medium Fast [817 EXP buffer at Lv 16]; 38 HP, 33 Atk, 35 Def, 27 Sp.Atk, 22 Sp.Def, 27 Speed; 1: Rock Tomb, 2: Water Pulse, 3: Mega Drain); hooked at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
