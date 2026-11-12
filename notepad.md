@@ -5,12 +5,12 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 16 (51 HP, ~35 Atk, ~27 Def, ~28 Sp.Atk, ~27 Sp.Def, ~23 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
-| Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 16 (42 HP, 17 Atk, 20 Def, 19 Sp.Atk, 27 Sp.Def, 36 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
-| Route 103 | Sunflora | HELIOS | Active | Male, Lv 16 (51 HP, 32 Atk, 27 Def, 39 Sp.Atk, 29 Sp.Def, 17 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
+| Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 17 (44 HP, 18 Atk, 22 Def, 19 Sp.Atk, 28 Sp.Def, 38 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
+| Route 103 | Sunflora | HELIOS | Active | Male, Lv 17 (54 HP, 33 Atk, 28 Def, 40 Sp.Atk, 30 Sp.Def, 18 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (1, 0)) | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Active (Boxed at BOX 1 (4, 0)) | Female, Lv 16, Thick Fat (42 HP, 12 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 16 (46 HP, 23 Atk, 35 Def, 22 Sp.Atk, 22 Sp.Def, 17 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
-| Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 16 (49 HP, 25 Atk, 24 Def, 29 Sp.Atk, 29 Sp.Def, 16 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
+| Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 17 (52 HP, 31 Atk, 30 Def, 34 Sp.Atk, 34 Sp.Def, 20 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Active | Lv 16, Static (Slow EXP group [1,021 EXP buffer at Lv 16]; 42 HP, 16 Atk, 23 Def, 22 Sp.Atk, 27 Sp.Def, 36 Speed; 1: ThunderShock, 2: Secret Power, 3: Shock Wave, 4: SonicBoom); caught at (6, 14) |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
