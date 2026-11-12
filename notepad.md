@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 19 (56+ HP, 39+ Atk, 31+ Def, 29+ Sp.Atk, 30+ Sp.Def, 26+ Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 19 (59 HP, 41 Atk, 33 Def, 30 Sp.Atk, 31 Sp.Def, 27 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 18 (56 HP, 35 Atk, 30 Def, 42 Sp.Atk, 32 Sp.Def, 19 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active | Female, Lv 17 (46 HP, 30 Atk, 34 Def, 16 Sp.Atk, 16 Sp.Def, 21 Speed; 1: Cut, 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
