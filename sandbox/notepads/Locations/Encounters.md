@@ -6,7 +6,7 @@
 | Littleroot Town | Luvdisc | APHRODITE | Active | Female, Lv 13 (36 HP, 15 Atk, 18 Def, 16 Sp.Atk, 23 Sp.Def, 30 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse); hooked at (18, 11) |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 13 (43 HP, 26 Atk, 23 Def, 32 Sp.Atk, 24 Sp.Def, 15 Speed; 1: Absorb, 2: Growth, 3: Razor Leaf [Slot 4 empty]; caught holding wild Sun Stone!); caught at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 10 (1: Water Gun, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 14 (1: Water Gun, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
 | Route 116 | — | — | Pending | Tall grass at (6, 14..15) |
