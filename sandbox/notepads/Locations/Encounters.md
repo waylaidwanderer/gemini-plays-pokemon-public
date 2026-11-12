@@ -11,7 +11,7 @@
 | Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 19 (57 HP, 34 Atk, 33 Def, 37 Sp.Atk, 38 Sp.Def, 21 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
-| Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
+| Rusturf Tunnel | Geodude | ATLAS | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 10; caught at (4, 9) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
 | Granite Cave | — | — | Pending | Cave encounter |
