@@ -5,7 +5,7 @@
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 17 (54 HP, 37 Atk, 30 Def, 28 Sp.Atk, 28 Sp.Def, 25 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
 | Route 103 | Sunflora | HELIOS | Active | Male, Lv 17 (54 HP, 33 Atk, 28 Def, 40 Sp.Atk, 30 Sp.Def, 18 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
-| Route 102 | Sandshrew | TERRA | Active | Female, Lv 17 (46 HP, 30 Atk, 34 Def, 16 Sp.Atk, 16 Sp.Def, 21 Speed; 1: Scratch, 2: Defense Curl, 3: Poison Sting, 4: Dig); caught at (39, 4) |
+| Route 102 | Sandshrew | TERRA | Active | Female, Lv 17 (46 HP, 30 Atk, 34 Def, 16 Sp.Atk, 16 Sp.Def, 21 Speed; 1: Cut, 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 17, Thick Fat (44 HP, 13 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 17 (48 HP, 25 Atk, 37 Def, 23 Sp.Atk, 23 Sp.Def, 17 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 17 (52 HP, 31 Atk, 30 Def, 34 Sp.Atk, 34 Sp.Def, 20 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
