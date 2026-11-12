@@ -346,7 +346,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## 1F Upper Waterway & Northern Landing (Verified Turns 22334-22345)
 - 1F Waterfall: Located at cols 7-9, rows 12-13. Interacting with A prompts to use HM07 Waterfall. Scaled with Lilz on Turn 22336 to upper pool at (9, 10).
 - Upper Water Channel: Extends North from (9, 10) along column 9 (rows 10..3) to northern cave boundary (row 1). Opens into a wide horizontal canal at rows 2-5 spanning east past col 16.
-- Poké Ball Item: Visible on elevated cliff at roughly (12, 8).
+- Poké Ball Item: Collected as Full Heal at (13, 8) on Turn 22379.
 - Cooltrainer Vito Winstrate: Stationed at (15, 6) facing North! Pre-battle quote: "I trained together with my whole family, every one of us!" Confirmed as the eldest Winstrate brother from Route 111!
 - Shoreline Landing: Sandy bank begins at row 6 (cols 16..18+), allowing disembarkation onto the upper northern terrace on foot.
 ## 1F Eastern Outflow & Exit Staircase (Verified Turns 22383-22391)
