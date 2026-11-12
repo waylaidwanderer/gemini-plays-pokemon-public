@@ -4714,12 +4714,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - A deep vertical trench separates this corridor from the middle terrace (cols 30-36). The Cooltrainer at (33, 20) cannot be reached from this corridor; that terrace is accessed from a suspension bridge entering at its southwest corner (around cols 28-30, row 28).
 - Row 27 in this corridor is a one-way ledge hopping South onto the lower eastern plateau near Albert (27, 36) and the B1F return ladder (21, 32).
 
-## 1F Level 0 Northern Canyon & Cooltrainer Terrace (Discovered Turns 20683-20690)
-- Northern Staircase: Descends south from (16, 17) to Level 0 floor at (16, 22..23).
-- Level 0 Highway: Wide open sandy canyon floor runs East from (16, 23) through (24, 24) to (28, 24).
-- Middle Suspension Bridge: Elevated bridge spans horizontally across rows 27-28 between col 24 and col 31; the Level 0 highway passes immediately north of it.
-- Cooltrainer Terrace (cols 28-35, rows 20-25): Wide open terrace extending north. An undefeated Cooltrainer (blond hair, red suit) is stationed at (33, 20) facing South.
-- Northern Canyon Beyond: The terrace connects north beneath the overhead northern suspension bridge (row 17) where two additional undefeated trainers (brown-haired trainer at col 29, yellow-capped trainer at col 33) are visible in the exit sector, accessible only after completing B1F and B2F.
+## 1F Level 0 Northern Canyon & Cooltrainer Terrace (Refuted Access from Row 23)
+- Refuted Access: Empirical collision testing on Turns 22121, 22127, and 22218-22228 confirmed columns 16-18 form a solid vertical cliff wall blocking eastward movement across rows 18-27. There is NO walkable 'Level 0 Highway' connecting row 23 to Cooltrainer Terrace (cols 28-35).
+- Cooltrainer Terrace Access: Cooltrainer Terrace (cols 28-35) must be accessed via the northern water passage/caverns or after navigating the upper waterways.
 
 ## 1F Middle Bridge & Exit Chute Topography (Discovered Turns 20720-20750)
 - Middle Suspension Bridge (rows 27-28): Spans between col 24 (west) and col 34 (east).
@@ -4882,15 +4879,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Shelf Pocket (17, 25) Collision: Physical testing (Turns 22218-22228) confirms (17, 25) is an enclosed dead-end pocket, bounded East by the col 18 vertical cliff, North by the row 24 cliff, and South by the row 27 ledges.
 - B1F Basin Elevation Verification (Turns 22254-22282): The lower central basin (Edgar, Halle, Mitchell) is completely walled off from the eastern ladder at (20, 20) by continuous solid cliffs at (18, 18), (19, 16), and (18, 15). The only viable exit from this subterranean basin is the Southwest Canyon ladder at (5, 26) leading up to 1F.
 
-## B1F Lower Basin True Exit Ladder Access (Verified Turns 22254-22256)
-- Column 16 Collision: Column 16 terminates at (16, 20); row 21 directly south of (16, 20) is a solid cliff wall, NOT a walkable corridor.
-- Eastern Exit Ladder Corridor Access: From the basin, walk along row 17 past Edgar (14, 16) to (16, 17) -> East to (18, 17) on the landing south of the B2F ladder -> South along column 18/19 directly down to the true wooden exit ladder at (19..20, 20) ascending to the 1F Exit Canyon!
-
-## B1F Lower Basin B2F Ladder Landing Collision (Verified Turns 22265-22278)
-- Landing (18, 16..17) Collision Boundaries:
-  - South (18, 18) is a solid cliff drop-off; cannot step South from (18, 17).
-  - East (19, 16) and (19, 17) are rock wall corners; cannot step East directly from row 16 or 17.
-  - The upper northeast highway (cols 18..24, rows 11..15) extends North of row 16, accessible via stepping North through (18, 15) around the B2F ladder cliff.
+## B1F Lower Basin Boundary Summary (Verified Turns 22254-22282)
+- Lower Central Basin Boundaries: The basin containing Edgar, Halle, and Mitchell is completely walled off to the east and south by continuous solid cliffs at (18, 18), (19, 16), (18, 15), and (16, 21). The Southwest Canyon ladder at (5, 26) is the sole viable ascent route to 1F.
 
 ## 1F Row 26 Southern Boundary (Verified Turn 22299)
 - Stepped Strata Collision: The 4 horizontal stepped strata directly south of row 26 (rows 27..30) across cols 5..14 are solid cliff faces, NOT jumpable ledges; pressing Down at (13, 26) bumps into them. Navigation from row 26 proceeds North through the canyon into rows 23..19.
@@ -5061,6 +5051,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Battle Menu Root Cursor: When closing sub-menus (like BAG) during battle with B, the root battle menu remembers cursor position on BAG. Pressing Down from BAG navigates directly to RUN.
 - Party Screen TM/HM Navigation: In the Party screen, Slot 1 (lead) is on the left; Slot 2 is on the top right. Pressing Right from Slot 1 moves directly across to Slot 2. Allow ~1.5s for the Bag-to-Party transition to settle before sending directional inputs.
 - Field Surf Mechanics: In Gen 3 (RSE), interacting with water using 'A' while mounted on the Bicycle directly triggers the Surf prompt ('Would you like to SURF?'). Confirming YES automatically transitions the player into Surfing without requiring manual dismounting.
+- Battle Flee Navigation Guarantee: In wild battles, regardless of whether the battle menu cursor starts on FIGHT, BAG, POKéMON, or RUN, inputting Down then Right is mathematically guaranteed to position the cursor on RUN (Down clamps to the bottom row, Right clamps to the right column). Confirming with A initiates escape.
 - Field Dive Mechanics: Pressing 'B' while surfing on the surface does NOT activate Dive (B is only used while underwater to surface). To submerge from the surface, stand on a dark indigo water tile and either interact with 'A' (triggers prompt: 'The sea is deep here. Would you like to use DIVE?') or open the Party Menu (`Start -> POKéMON -> LILZ -> DIVE`).
 
 ## Progression Checklist - Phase 6: Mauville City & Gym 3 (Completed)
