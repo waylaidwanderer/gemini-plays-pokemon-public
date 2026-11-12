@@ -4886,6 +4886,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Column 16 Collision: Column 16 terminates at (16, 20); row 21 directly south of (16, 20) is a solid cliff wall, NOT a walkable corridor.
 - Eastern Exit Ladder Corridor Access: From the basin, walk along row 17 past Edgar (14, 16) to (16, 17) -> East to (18, 17) on the landing south of the B2F ladder -> South along column 18/19 directly down to the true wooden exit ladder at (19..20, 20) ascending to the 1F Exit Canyon!
 
+## B1F Lower Basin B2F Ladder Landing Collision (Verified Turns 22265-22278)
+- Landing (18, 16..17) Collision Boundaries:
+  - South (18, 18) is a solid cliff drop-off; cannot step South from (18, 17).
+  - East (19, 16) and (19, 17) are rock wall corners; cannot step East directly from row 16 or 17.
+  - The upper northeast highway (cols 18..24, rows 11..15) extends North of row 16, accessible via stepping North through (18, 15) around the B2F ladder cliff.
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
