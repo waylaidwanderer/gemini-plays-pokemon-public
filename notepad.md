@@ -4567,7 +4567,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 9. [x] Navigate B2F: Surfed subterranean lake and scaled waterfall with Lilz (Turns 21872-21884)!
 10. [x] Scale 1F waterfall using HM07 Waterfall with Lilz (Turn 22336 at 9, 14 -> 9, 10)!
 11. [x] Explore upper water channel and reach northern sandy landing at (16, 6) (Turn 22344)!
-12. [ ] Defeat Cooltrainer at (15, 6) and exit Victory Road to Pokémon League HQ!
+12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
+13. [ ] Follow upper terrace east to the exit doorway and reach Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4872,20 +4873,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - B1F Edgar Verification (Verified Turn 22072):
   - Trainer at (14, 16) on B1F confirmed as Cooltrainer Edgar (defeated, dialogue: "Even outside of battle, I sense incredible power emanating from you and your POKéMON.").
 
-## 1F Southwest Ledge & Row 26 Central Connection (Verified Turns 22201-22213)
-- B1F Exit Ladder at (5, 26) emerges at (5, 26) on 1F facing Down.
-- Tile (5, 25) to the North is an impassable solid cliff face.
-- Rows 27..29 directly South are three one-way jump ledges that drop down into the Level 0 entrance canyon (cols 5..7, row 30). DO NOT HOP DOWN unless intending to return to the cave entrance.
-- Row 26 Highway: Runs completely unobstructed East across cols 6..13 between the northern cliff and the southern ledges, connecting (5, 26) directly to the Central Platform at (13, 26).
-- Northern Avenue from Central Platform: From (13, 26), the canyon avenue leads North along cols 13..15 across rows 25..21 beneath the Northern Suspension Bridge, but leads ONLY to the subterranean lake grotto (rows 12..18). It is walled off to the East across rows 19..24 by continuous solid cliffs and does NOT connect to Cooltrainer Terrace.
-- Shelf Pocket (17, 25) Collision: Physical testing (Turns 22218-22228) confirms (17, 25) is an enclosed dead-end pocket, bounded East by the col 18 vertical cliff, North by the row 24 cliff, and South by the row 27 ledges.
-- B1F Basin Elevation Verification (Turns 22254-22282): The lower central basin (Edgar, Halle, Mitchell) is completely walled off from the eastern ladder at (20, 20) by continuous solid cliffs at (18, 18), (19, 16), and (18, 15). The only viable exit from this subterranean basin is the Southwest Canyon ladder at (5, 26) leading up to 1F.
+## Lower Level Routing Summary (Completed)
+- The entire lower dungeon network (B1F/B2F) culminates in ascending the Southwest Canyon ladder at (5, 26) to 1F, traversing the 1F subterranean lake, and scaling the 1F waterfall (cols 7-9, rows 12-13) with HM07 Waterfall to reach this upper exit terrace.
 
-## B1F Lower Basin Boundary Summary (Verified Turns 22254-22282)
-- Lower Central Basin Boundaries: The basin containing Edgar, Halle, and Mitchell is completely walled off to the east and south by continuous solid cliffs at (18, 18), (19, 16), (18, 15), and (16, 21). The Southwest Canyon ladder at (5, 26) is the sole viable ascent route to 1F.
-
-## 1F Row 26 Southern Boundary (Verified Turn 22299)
-- Stepped Strata Collision: The 4 horizontal stepped strata directly south of row 26 (rows 27..30) across cols 5..14 are solid cliff faces, NOT jumpable ledges; pressing Down at (13, 26) bumps into them. Navigation from row 26 proceeds North through the canyon into rows 23..19.
 ## 1F Upper Waterway & Northern Landing (Verified Turns 22334-22345)
 - 1F Waterfall: Located at cols 7-9, rows 12-13. Interacting with A prompts to use HM07 Waterfall. Scaled with Lilz on Turn 22336 to upper pool at (9, 10).
 - Upper Water Channel: Extends North from (9, 10) along column 9 (rows 10..3) to northern cave boundary (row 1). Opens into a wide horizontal canal at rows 2-5 spanning east past col 16.
@@ -4961,7 +4951,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x1 (1 used on Sage Turn 19843)
+- Hyper Potion x0 (1 used on Sage Turn 19843, 1 used in Vito battle Turn 22359)
 - Max Elixir x1 (found in Team Aqua Hideout, used Turn 17028; found at 40, 26 on Victory Road 1F Turn 19881!)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)

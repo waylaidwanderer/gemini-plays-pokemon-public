@@ -25,7 +25,7 @@
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x1 (1 used on Sage Turn 19843)
+- Hyper Potion x0 (1 used on Sage Turn 19843, 1 used in Vito battle Turn 22359)
 - Max Elixir x1 (found in Team Aqua Hideout, used Turn 17028; found at 40, 26 on Victory Road 1F Turn 19881!)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
