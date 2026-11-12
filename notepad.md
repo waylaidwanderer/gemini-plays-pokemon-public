@@ -10,7 +10,7 @@
 | Route 102 | Sandshrew | TERRA | Active | Female, Lv 13 (1: Scratch, 2: Defense Curl, 3: Poison Sting); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 15, Huge Power (40 HP, 12 Atk [24 w/ Huge Power], 21 Def, 15 Sp.Atk, 17 Sp.Def, 13 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active | Male, Lv 14 (42 HP, 21 Atk, 31 Def, 19 Sp.Atk, 19 Sp.Def, 15 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
-| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Petalburg Woods | Oddish | CHLORIS | Active (Boxed at BOX 1 (0, 0)) | Female, Lv 8; caught at (6, 30) |
 | Route 116 | — | — | Pending | Tall grass at (6, 14..15) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left (Kabuto / Omanyte) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
