@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | GALATEA | Active (Boxed at BOX 1 (4, 0)) | Female, Lv 16, Thick Fat (42 HP, 12 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Cubone | HADES | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 16 (46 HP, 23 Atk, 35 Def, 22 Sp.Atk, 22 Sp.Def, 17 Speed; 1: Bone Club, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 17 (52 HP, 31 Atk, 30 Def, 34 Sp.Atk, 34 Sp.Def, 20 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
-| Route 116 | Voltorb | ZEUS | Active | Lv 16, Static (Slow EXP group [1,021 EXP buffer at Lv 16]; 42 HP, 16 Atk, 23 Def, 22 Sp.Atk, 27 Sp.Def, 36 Speed; 1: ThunderShock, 2: Secret Power, 3: Shock Wave, 4: SonicBoom); caught at (6, 14) |
+| Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter (Phanpy / Nosepass / Onix) |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up at (16, 9) (Spheal Lv 15) |
