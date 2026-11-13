@@ -4570,7 +4570,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
 13. [x] Descended eastern waterfall at (25, 8) -> (25, 12) (Turn 22385)!
 14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)! (Verified as an isolated overlook shelf, rows 2-8, cols 33-38).
-15. [ ] Navigate northern corridor (cols 37..38, rows 1..3) and cross the Northeast Suspension Bridge (cols 41..43) to reach the Pokémon League exit doorway!
+15. [x] Ascended ladder at (43, 2) to upper exit level at (42, 2) (Turn 22586)!
+16. [ ] Follow elevated corridor south from (42, 2) to locate the exit doorway to Ever Grande City north plateau!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4899,6 +4900,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Rock Protrusion: Located at (39..40, 3..4), blocking straight east/north passage from (39, 4).
 - Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion.
 - Northeast Wooden Structure (cols 41..43, rows 1..3): Visual sighting of an elevated wooden suspension bridge ramp/railing in the northeast corner of the cavern!
+
+## Victory Road Upper Exit Level (Discovered Turn 22586)
+- Emerged via ladder at (42, 2) facing South.
+- Layout: North is bounded by cliff wall at row 1.
+- Elevated ridge/corridor spans cols 42..43 bounded by cliff edges at col 41 (west) and col 44 (east).
+- Path runs straight South along cols 42..43 toward the exit doorway.
 
 
 <hr>
