@@ -4890,6 +4890,20 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northeastern Landing: Water channel runs East along rows 14-15 (cols 26..33) directly to a sandy bank at (33..35, 13).
 - Wooden Exit Staircase: Located at cols 34-35, rows 10-11. Ascends North up to the final upper plateau (row 7) leading to the Victory Road exit doorway!
 
+## 1F Upper Waterway & Canal System (Comprehensive Summary Turns 22334-22468)
+- 1F Waterfall: Located at cols 7-9, rows 12-13. Scaled with HM07 Waterfall (Lilz) to upper pool at (9, 10).
+- Row 3 Waterway Junction (9, 3): Upper channel extends North from (9, 10) to (9, 3), where it branches East and West.
+- East Branch (cols 9..25, rows 3..7):
+  - Cooltrainer Vito Winstrate defeated at (15, 6) (Dodrio, Kadabra, Electrode, Shiftry Lv 42; prize ¥2,064).
+  - Full Heal collected at (13, 8).
+  - Outflow Waterfall at (25, 8): Plunges South to B1F basin at (25, 12). Verified that Lilz can scale back UP this waterfall with HM07 Waterfall, providing an instant bidirectional elevator between B1F and the upper tier!
+  - Wooden Overlook Staircase at cols 34-35, rows 10-11 ascends to an isolated shelf (rows 2-8, cols 33-38).
+- West Branch (cols 9..4, rows 3..4):
+  - Clear water canal running West from (9, 3) to (4, 3).
+  - Southern Shoreline at (5, 5): Water ends at row 4; sandy shore is at row 5, leading into the southwest corridor.
+- B1F Cooltrainer Dianne: Defeated at (35, 22) on Cooltrainer Terrace (post-battle: "Gaze on your collected BADGES and remember the TRAINERS you've faced.").
+- B1F Ladder at (30, 25): Verified as the ladder descending to B2F.
+
 
 <hr>
 
