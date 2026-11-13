@@ -13,7 +13,7 @@
 | Petalburg Woods | Gloom | CHLORIS | Retired (Lv 21, Boxed at BOX 1 (1, 1)) | Female, Lv 21 (reached Lv 21 at end of Black Belt Takao battle; unbench after defeating Brawly when cap advances to 29!); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
-| Rusturf Tunnel | Geodude | ATLAS | Active | Male, Lv 19, Rock Head, Calm (47 HP, 33 Atk, 45 Def, 17 Sp.Atk, 22 Sp.Def, 14 Speed; 1: Rock Slide [learned Lv 16], 2: Rock Throw, 3: Secret Power, 4: Magnitude [learned Lv 11]); caught at (4, 9) |
+| Rusturf Tunnel | Geodude | ATLAS | Deceased (Turn 7758) | Male, Lv 19, Rock Head; fainted to Sailor Brenden's Guts-boosted Machoke after paralyzing Machoke with Secret Power |
 | Dewford Town | Spheal | CHIONE | Active | Female, Lv 19, Thick Fat, Careful (57 HP, 23 Atk, 25 Def, 24 Sp.Atk, 26 Sp.Def, 14 Speed; 1: Body Slam [learned Lv 18], 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
 | Route 106 | Seel | THETIS | Deceased (Turn 7756) | Female, Lv 19, Thick Fat, Gentle, pure Water; fainted to Sailor Brenden's Machoke after hitting Breloom with Icy Wind |
 | Granite Cave | Spinda | PSYCHE | Active | Female, Lv 19, Own Tempo, Serious (59 HP, 39 Atk, 38 Def, 41 Sp.Atk, 36 Sp.Def, 37 Speed; 1: Dizzy Punch [buffed to 90 BP / 100% acc!], 2: Recycle [learned Lv 18], 3: Fake Out, 4: Hypnosis); caught at (32, 10) on 1F |
