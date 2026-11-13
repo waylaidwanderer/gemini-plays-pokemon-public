@@ -161,7 +161,7 @@
 - **Dewford Town**:
   - **Dock**: Arrives from Route 104 South at `(11, 9)` with Mr. Briney at `(12, 9)`.
   - **Fishing Spot (`Old Rod`)**: The dock at `(11, 9)` is an elevated bridge tile where fishing is disabled; walk `Left x2, Down x2, Right x7, Up` from `(11, 9)` onto the sea-level beach shoreline at `(16, 10)` facing `Up` at the ocean water `(16, 9)`.
-  - **Pokemon Center**: Door at `(2, 10)` (west of the dock; vertical road at `x=6` between the Pokemon Center and the northern house at `(8, 8)` leads north onto Route 106 `(66, 19)`).
+  - **Pokemon Center**: Door at `(2, 10)` (inside, a wandering blond boy patrols `x=5..7, y=6..7` below Nurse Joy `(7, 4)`, so exit from `(7, 4)` via `Right, Down x4, Left, Down` along `x=8` to `(2, 11)`, verified Turn 7570; outside, the vertical road at `x=6` between the Pokemon Center and the northern house at `(8, 8)` leads north onto Route 106 `(66, 19)`).
   - **Dewford Gym**: Located in the southern part of town (Gym Leader Brawly — Level Cap 20).
 - **Route 106**:
   - **Old Rod Fishing Spot**: Stand at `(70, 19)` facing `Right` at `(71, 19)` (observed wild species: `Seel` F Lv 15 [`Headbutt`, `Aurora Beam`]).
