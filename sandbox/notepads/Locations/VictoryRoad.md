@@ -356,5 +356,5 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - West Branch (cols 9..4, rows 3..4):
   - Clear water canal running West from (9, 3) to (4, 3).
   - Southern Shoreline at (5, 5): Water ends at row 4; sandy shore is at row 5, leading into the southwest corridor.
-- B1F Cooltrainer Dianne: Defeated at (35, 22) on Cooltrainer Terrace (post-battle: "Gaze on your collected BADGES and remember the TRAINERS you've faced.").
-- B1F Ladder at (30, 25): Verified as the ladder descending to B2F.
+- 1F Lower Canyon Cooltrainer Dianne: Defeated at (35, 22) on Cooltrainer Terrace (post-battle: "Gaze on your collected BADGES and remember the TRAINERS you've faced.").
+- 1F Ladder at (30, 25): Sighted on canyon floor west of Dianne.
