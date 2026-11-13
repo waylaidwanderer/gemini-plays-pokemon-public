@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 20 (1,445 EXP to Lv 21; 62 HP, 43 Atk, 35 Def, 33 Sp.Atk, 33 Sp.Def, 28 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
-| Route 103 | Sunflora | HELIOS | Active | Male, Lv 20 (62 HP, 38 Atk, 33 Def, 47 Sp.Atk, 35 Sp.Def, 20 Speed; 1: Synthesis, 2: Sludge Bomb [learned Lv 20, Physical Poison in Gen 3], 3: Cut [50 BP, replaced Razor Leaf Turn 7697], 4: Bullet Seed [TM09, Physical]); caught holding wild Sun Stone at (12, 15) |
+| Route 103 | Sunflora | HELIOS | Deceased (Turn 7711) | Male, Lv 20; fainted to Black Belt Cristian's +3 Attack Makuhita's Revenge after chipping it to 37% yellow HP |
 | Route 102 | Sandshrew | TERRA | Active | Female, Lv 19 (51 HP, 33 Atk, 37 Def, 17 Sp.Atk, 17 Sp.Def, 23 Speed; 1: Cut [50 BP], 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Deceased (Turn 7607) | Female, Lv 19, Thick Fat; fainted to a critical Water Pulse from Fisherman Elliot's 1-HP Horsea after tanking the Route 106 Team Aqua Grunt's Gastly Selfdestruct |
 | Route 104 | Cubone | HADES | Active | Male, Lv 19 (53 HP, 27 Atk, 41 Def, 25 Sp.Atk, 25 Sp.Def, 19 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
