@@ -4,15 +4,15 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 19 (59 HP, 41 Atk, 33 Def, 30 Sp.Atk, 31 Sp.Def, 27 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
-| Route 103 | Sunflora | HELIOS | Active | Male, Lv 18 (56 HP, 35 Atk, 30 Def, 42 Sp.Atk, 32 Sp.Def, 19 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
+| Route 103 | Sunflora | HELIOS | Active | Male, Lv 19 (59 HP, 36 Atk, 31 Def, 45 Sp.Atk, 33 Sp.Def, 19 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (0, 1)) | Female, Lv 17 (46 HP, 30 Atk, 34 Def, 16 Sp.Atk, 16 Sp.Def, 21 Speed; 1: Cut, 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 17, Thick Fat (44 HP, 13 Atk, 23 Def, 16 Sp.Atk, 18 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
-| Route 104 | Cubone | HADES | Active | Male, Lv 17 (48 HP, 25 Atk, 37 Def, 23 Sp.Atk, 23 Sp.Def, 17 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 19, Thick Fat (48 HP, 14 Atk, 25 Def, 18 Sp.Atk, 20 Sp.Def, 16 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
+| Route 104 | Cubone | HADES | Active | Male, Lv 19 (53 HP, 27 Atk, 41 Def, 25 Sp.Atk, 25 Sp.Def, 19 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
 | Petalburg Woods | Gloom | CHLORIS | Active | Female, Lv 20 (59 HP, 36 Atk, 35 Def, 39 Sp.Atk, 40 Sp.Def, 22 Speed; 1: Mega Drain, 2: Acid, 3: Toxic, 4: Magical Leaf); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | Geodude | ATLAS | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 10; caught at (4, 9) |
-| Dewford Town | Spheal | CHIONE | Active | Female, Lv 15; hooked at (16, 10) |
+| Dewford Town | Spheal | CHIONE | Active | Female, Lv 15 -> 19, Thick Fat, Careful (1: Powder Snow, 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
 | Route 106 | Seel | THETIS | Active (Boxed at BOX 1 (4, 0)) | Female, Lv 15; hooked at (70, 19) |
 | Granite Cave | — | — | Pending | Cave encounter |
 | Route 107 | — | — | Pending | Old Rod at (16, 10) / ocean |
