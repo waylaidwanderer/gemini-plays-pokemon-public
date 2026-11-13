@@ -12,7 +12,7 @@
 | Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | Geodude | ATLAS | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 10; caught at (4, 9) |
-| Dewford Town | Spheal | CHIONE | Active | Female, Lv 15 -> 19, Thick Fat, Careful (1: Powder Snow, 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
+| Dewford Town | Spheal | CHIONE | Active | Female, Lv 19, Thick Fat, Careful (1: Body Slam [learned Lv 18], 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
 | Route 106 | Seel | THETIS | Active (Boxed at BOX 1 (4, 0)) | Female, Lv 15; hooked at (70, 19) |
 | Granite Cave | — | — | Pending | Cave encounter |
 | Route 107 | — | — | Pending | Old Rod at (16, 10) / ocean |
