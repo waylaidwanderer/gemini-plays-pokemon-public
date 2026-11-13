@@ -13,7 +13,7 @@
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | Geodude | ATLAS | Active | Male, Lv 10, Rock Head, Calm (29 HP, 19 Atk, 26 Def, 11 Sp.Atk, 14 Sp.Def, 10 Speed; 1: Tackle, 2: Rock Throw, 3: Secret Power); caught at (4, 9) |
 | Dewford Town | Spheal | CHIONE | Active | Female, Lv 19, Thick Fat, Careful (57 HP, 23 Atk, 25 Def, 24 Sp.Atk, 26 Sp.Def, 14 Speed; 1: Body Slam [learned Lv 18], 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
-| Route 106 | Seel | THETIS | Active | Female, Lv 15, Thick Fat, Gentle, pure Water (49 HP, 19 Atk, 21 Def, 19 Sp.Atk, 31 Sp.Def, 23 Speed; 1: Headbutt, 2: BubbleBeam, 3: Aurora Beam); hooked at (70, 19) |
+| Route 106 | Seel | THETIS | Active | Female, Lv 19, Thick Fat, Gentle, pure Water (59 HP, 23 Atk, 26 Def, 22 Sp.Atk, 38 Sp.Def, 27 Speed; 1: Headbutt, 2: BubbleBeam, 3: Aurora Beam, 4: Icy Wind [learned Lv 17]); hooked at (70, 19) |
 | Granite Cave | Spinda | PSYCHE | Active | Female, Lv 19, Own Tempo, Serious (59 HP, 39 Atk, 38 Def, 41 Sp.Atk, 36 Sp.Def, 37 Speed; 1: Dizzy Punch [buffed to 90 BP / 100% acc!], 2: Recycle [learned Lv 18], 3: Fake Out, 4: Hypnosis); caught at (32, 10) on 1F |
 | Route 107 | — | — | Pending | Old Rod at (16, 10) / ocean |
 
