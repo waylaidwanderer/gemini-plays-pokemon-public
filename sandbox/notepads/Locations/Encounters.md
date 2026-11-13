@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Active | Lv 20 (1,445 EXP to Lv 21; 62 HP, 43 Atk, 35 Def, 33 Sp.Atk, 33 Sp.Def, 28 Speed; 1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
-| Route 103 | Sunflora | HELIOS | Active | Male, Lv 19 (59 HP, 36 Atk, 31 Def, 45 Sp.Atk, 33 Sp.Def, 19 Speed; 1: Synthesis, 2: Growth, 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
+| Route 103 | Sunflora | HELIOS | Active | Male, Lv 20 (62 HP, 38 Atk, 33 Def, 47 Sp.Atk, 35 Sp.Def, 20 Speed; 1: Synthesis, 2: Sludge Bomb [learned Lv 20], 3: Razor Leaf, 4: Bullet Seed [TM09]); caught holding wild Sun Stone at (12, 15) |
 | Route 102 | Sandshrew | TERRA | Active (Boxed at BOX 1 (0, 1)) | Female, Lv 17 (46 HP, 30 Atk, 34 Def, 16 Sp.Atk, 16 Sp.Def, 21 Speed; 1: Cut, 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Deceased (Turn 7607) | Female, Lv 19, Thick Fat; fainted to a critical Water Pulse from Fisherman Elliot's 1-HP Horsea after tanking the Route 106 Team Aqua Grunt's Gastly Selfdestruct |
 | Route 104 | Cubone | HADES | Active | Male, Lv 19 (53 HP, 27 Atk, 41 Def, 25 Sp.Atk, 25 Sp.Def, 19 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
