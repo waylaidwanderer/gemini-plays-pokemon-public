@@ -5,7 +5,7 @@
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Lv 21, Boxed in BOX 1) | Lv 21 (64 HP, 45 Atk, 36 Def, 34 Sp.Atk, 34 Sp.Def, 29 Speed; reached Lv 21 at end of Black Belt Cristian battle — unbench immediately after defeating Brawly when cap advances to 29!); met on Route 101 |
 | Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
 | Route 103 | Sunflora | HELIOS | Deceased (Turn 7711) | Male, Lv 20; fainted to Black Belt Cristian's +3 Attack Makuhita's Revenge after chipping it to 37% yellow HP |
-| Route 102 | Sandshrew | TERRA | Active | Female, Lv 19 (51 HP, 33 Atk, 37 Def, 17 Sp.Atk, 17 Sp.Def, 23 Speed; 1: Cut [50 BP], 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
+| Route 102 | Sandshrew | TERRA | Deceased (Turn 7755) | Female, Lv 19; fainted to Sailor Brenden's Machoke after landing 3 Sand-Attacks to drop Machoke to -3 Accuracy (50%) |
 | Petalburg City | Azurill | GALATEA | Deceased (Turn 7607) | Female, Lv 19, Thick Fat; fainted to a critical Water Pulse from Fisherman Elliot's 1-HP Horsea after tanking the Route 106 Team Aqua Grunt's Gastly Selfdestruct |
 | Route 104 | Cubone | HADES | Deceased (Turn 7752) | Male, Lv 19; fainted to Sailor Brenden's +2 Attack Machoke's Karate Chop after chipping it to 85% HP with Dig |
 | Petalburg Woods | Gloom | CHLORIS | Retired (Lv 21, Boxed at BOX 1 (1, 1)) | Female, Lv 21 (reached Lv 21 at end of Black Belt Takao battle; unbench after defeating Brawly when cap advances to 29!); caught at (6, 30) |
