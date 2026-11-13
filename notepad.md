@@ -341,5 +341,6 @@
   - **Fisherman Elliot** at `(51, 16)` facing `Right` across `(52..54, 16)` (mandatory trainer using Red's sprite between the boulder at `(51, 15)` and the tree at `(55, 16)` just east of Granite Cave `(48, 16)`; bypassed after defeat via `y=17` `(52, 17) -> (48, 17) -> (48, 16)`; 4 Pokemon: `#1 Poliwag` M Lv 15 [246 EXP, `Hypnosis`, `Water Gun`/`BubbleBeam`], `#2 Remoraid` M Lv 15 [248 EXP, `Flamethrower` 95 BP, `Psybeam`, holds `Oran Berry` — **never leave a Grass-type in against Remoraid; switch to a Thick Fat Water-type like Spheal!** Verified Turns 7602–7603], `#3 Wooper` M Lv 15 [164 EXP, `Magnitude`], `#4 Horsea` M Lv 15 [`Water Pulse`, holds `Oran Berry`]).
 - **Granite Cave**:
   - **Entrance (`1F`)**: Enters from Route 106 `(48, 16)` onto `(37, 12)` (note: 1F is dark from the entrance in this hack!).
+  - **HM05 Flash Hiker (`1F`)**: Stands at `(36, 9)` (`Up x2, Left` from `(37, 12)` onto `(36, 10)` facing `Up`; requires `4 A` presses + `sleep 3500` + `7 B` presses to obtain `HM05 Flash`; `(30..36, 10)` is an obstacle-free horizontal cave floor strip with a rock at `(29, 10)`).
 
 <hr>
