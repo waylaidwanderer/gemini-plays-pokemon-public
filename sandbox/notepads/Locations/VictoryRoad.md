@@ -371,3 +371,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Layout: North is bounded by cliff wall at row 1.
 - Elevated ridge/corridor spans cols 42..43 bounded by cliff edges at col 41 (west) and col 44 (east).
 - Path runs straight South along cols 42..43 toward the exit doorway.
+- TM29 Psychic: Collected at (42, 8) on Turn 22595 in the isolated B1F alcove accessed via ladder (43, 2) on 1F.
