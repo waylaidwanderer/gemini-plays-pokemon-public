@@ -4569,8 +4569,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 11. [x] Explore upper water channel and reach northern sandy landing at (16, 6) (Turn 22344)!
 12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
 13. [x] Descended eastern waterfall at (25, 8) -> (25, 12) (Turn 22385)!
-14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)!
-15. [ ] Step through exit doorway onto Ever Grande City north plateau and enter Pokémon League HQ!
+14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)! (Verified as an isolated overlook shelf, rows 2-8, cols 33-38).
+15. [ ] Explore lower canyon floor east of Cooltrainer Dianne (35, 22) and waterways to locate the true exit doorway to Ever Grande City north plateau!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4887,8 +4887,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Full Heal collected at (13, 8).
   - Outflow Waterfall at (25, 8): Plunges South to B1F basin at (25, 12). Verified that Lilz can scale back UP this waterfall with HM07 Waterfall, providing an instant bidirectional elevator between B1F and the upper tier!
   - Wooden Overlook Staircase at cols 34-35, rows 10-11 ascends to an isolated shelf (rows 2-8, cols 33-38).
-- Column 0 Highway (cols 0-1, rows 0-8): The cliff corner at (1, 7) is bypassed via (0, 8). Column 0 is a completely clear sand highway leading straight North all the way to row 0 to the exit doorway!
-- Northwest Exit Highway (cols 0-2, rows 0-8): Bypassing the column 2 cliff at row 8 (2, 8) opens into a clear vertical sand highway running straight North along column 1 all the way to row 0 toward the Pokémon League HQ exit doorway!
+- Western Sand Cul-de-Sac (cols 1..5, rows 5..10): Closed dead-end shelf bounded by cliffs to the west (cols 0-1), south (row 10-11), and north (row 5-6). No passage north. The only way out is mounting Surf at (5, 5) or (6, 6) to return to the upper canal.
 - West Branch (cols 9..4, rows 3..4):
   - Clear water canal running West from (9, 3) to (4, 3).
   - Southern Shoreline at (5, 5): Water ends at row 4; sandy shore is at row 5, leading into the southwest corridor.
