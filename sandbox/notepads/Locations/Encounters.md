@@ -2,10 +2,10 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 13; met on Route 101 |
-| Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 4; hooked at (18, 11) |
+|Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 14 (38 HP, 26 Atk at Lv 13); met on Route 101 |
+| Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 14; hooked at (18, 11) |
 | Route 103 | Skitty | SELENE | Active | Female, Lv 4; caught at (18, 12) |
-| Route 102 | — | — | Pending | Tall grass |
+| Route 102 | Sandshrew | GAIA | Active | Female, Lv 6; caught at (39, 5) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..30) |
