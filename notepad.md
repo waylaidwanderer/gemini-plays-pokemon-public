@@ -4878,17 +4878,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## Lower Level Routing Summary (Completed)
 - The entire lower dungeon network (B1F/B2F) culminates in ascending the Southwest Canyon ladder at (5, 26) to 1F, traversing the 1F subterranean lake, and scaling the 1F waterfall (cols 7-9, rows 12-13) with HM07 Waterfall to reach this upper exit terrace.
 
-## 1F Upper Waterway & Northern Landing (Verified Turns 22334-22345)
-- 1F Waterfall: Located at cols 7-9, rows 12-13. Interacting with A prompts to use HM07 Waterfall. Scaled with Lilz on Turn 22336 to upper pool at (9, 10).
-- Upper Water Channel: Extends North from (9, 10) along column 9 (rows 10..3) to northern cave boundary (row 1). Opens into a wide horizontal canal at rows 2-5 spanning east past col 16.
-- Poké Ball Item: Collected as Full Heal at (13, 8) on Turn 22379.
-- Cooltrainer Vito Winstrate: Stationed at (15, 6) facing North! Pre-battle quote: "I trained together with my whole family, every one of us!" Confirmed as the eldest Winstrate brother from Route 111!
-- Shoreline Landing: Sandy bank begins at row 6 (cols 16..18+), allowing disembarkation onto the upper northern terrace on foot.
-## 1F Eastern Outflow & Exit Staircase (Verified Turns 22383-22391)
-- Eastern Outflow Waterfall: Located at (25, 8). Plunges South over a 3-tile cliff into the lower exit basin at (25, 12).
-- Exit Basin Shorelines: The southern boundary at (25, 15) is an impassable vertical cliff face dropping down to rows 17-18 where a Cooltrainer is stationed.
-- Northeastern Landing: Water channel runs East along rows 14-15 (cols 26..33) directly to a sandy bank at (33..35, 13).
-- Wooden Exit Staircase: Located at cols 34-35, rows 10-11. Ascends North up to the final upper plateau (row 7) leading to the Victory Road exit doorway!
 
 ## 1F Upper Waterway & Canal System (Comprehensive Summary Turns 22334-22468)
 - 1F Waterfall: Located at cols 7-9, rows 12-13. Scaled with HM07 Waterfall (Lilz) to upper pool at (9, 10).
@@ -4954,7 +4943,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (4/15), Quick Attack (30/30). HP: 40/188. Status: OK. (Leaf Blade 0/15, Quick Attack 25/30, Rock Tomb 2/10, Pursuit 16/20).
+1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (0/10), Pursuit (16/20), Leaf Blade (0/15), Quick Attack (25/30). HP: 40/188. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (14/15), Surf (14/15), Flash (20/20). HP: 85/85. Status: OK. Revived and fully restored Turn 19931!
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 17 on turn 19837! HP: 47/47. Max HP: 47. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK. Fully restored Turn 19931!
