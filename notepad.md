@@ -1,23 +1,22 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #39)
+# Nuzlocke Encounters (Attempt #40)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Lv 21, Boxed in BOX 1) | Lv 21 (64 HP, 45 Atk, 36 Def, 34 Sp.Atk, 34 Sp.Def, 29 Speed; reached Lv 21 at end of Black Belt Cristian battle — unbench immediately after defeating Brawly when cap advances to 29!); met on Route 101 |
-| Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
-| Route 103 | Sunflora | HELIOS | Deceased (Turn 7711) | Male, Lv 20; fainted to Black Belt Cristian's +3 Attack Makuhita's Revenge after chipping it to 37% yellow HP |
-| Route 102 | Sandshrew | TERRA | Deceased (Turn 7755) | Female, Lv 19; fainted to Sailor Brenden's Machoke after landing 3 Sand-Attacks to drop Machoke to -3 Accuracy (50%) |
-| Petalburg City | Azurill | GALATEA | Deceased (Turn 7607) | Female, Lv 19, Thick Fat; fainted to a critical Water Pulse from Fisherman Elliot's 1-HP Horsea after tanking the Route 106 Team Aqua Grunt's Gastly Selfdestruct |
-| Route 104 | Cubone | HADES | Deceased (Turn 7752) | Male, Lv 19; fainted to Sailor Brenden's +2 Attack Machoke's Karate Chop after chipping it to 85% HP with Dig |
-| Petalburg Woods | Gloom | CHLORIS | Retired (Lv 21, Boxed at BOX 1 (1, 1)) | Female, Lv 21 (reached Lv 21 at end of Black Belt Takao battle; unbench after defeating Brawly when cap advances to 29!); caught at (6, 30) |
-| Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
-| Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
-| Rusturf Tunnel | Geodude | ATLAS | Deceased (Turn 7758) | Male, Lv 19, Rock Head; fainted to Sailor Brenden's Guts-boosted Machoke after paralyzing Machoke with Secret Power |
-| Dewford Town | Spheal | CHIONE | Active | Female, Lv 19, Thick Fat, Careful (57 HP, 23 Atk, 25 Def, 24 Sp.Atk, 26 Sp.Def, 14 Speed; 1: Body Slam [learned Lv 18], 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
-| Route 106 | Seel | THETIS | Deceased (Turn 7756) | Female, Lv 19, Thick Fat, Gentle, pure Water; fainted to Sailor Brenden's Machoke after hitting Breloom with Icy Wind |
-| Granite Cave | Spinda | PSYCHE | Deceased (Turn 7760) | Female, Lv 19, Own Tempo; fainted to Sailor Brenden's Machoke after getting fully paralyzed on Turn 1 Fake Out |
-| Route 107 | — | — | Pending | Ocean route east of Dewford Town; blocked by trees/rocks before HM03 Surf (verified Turns 7632–7633) |
+| Starter (Route 101) | — | — | Pending | Mudkip (met on Route 101) |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..30) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Rusturf Tunnel | — | — | Pending | Cave encounter |
+| Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
+| Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
+| Granite Cave | — | — | Pending | Cave encounter (1F) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#37)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`Medium Slow` `~658 EXP` buffer [NOT 1,021 EXP, verified Turn 7015!]; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16, offers `Foresight` Lv 20 [verified Turn 6384]).
@@ -39,15 +38,23 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #39
+# Nuzlocke Dashboard — Attempt #40
 
 ## Active Rules & Status
-- **Attempt**: #39
-- **Current Level Cap**: Lv 20 (Brawly - Dewford Gym; Stone Badge earned Turn 7467!)
+- **Attempt**: #40
+- **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#38)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#39)
+- **Attempt #39 Post-Mortem (Reached Sailor Brenden — 5th Trainer in Dewford Gym!)**:
+  - **Progression**: Defeated Gym Leader Roxanne (Turn 7467), cleared all 7 trainers on Route 116 and the 6-Pokemon Team Aqua Grunt in Rusturf Tunnel with 0 casualties, defeated the 6-Pokemon Route 106 Team Aqua Grunt with 0 casualties, caught `Spheal` (Dewford Town), `Seel` (Route 106), and `Spinda` (Granite Cave 1F — `Own Tempo`, `90 BP / 100% acc Dizzy Punch`, `Fake Out`, `Hypnosis`, `Recycle`), and defeated 4 of the 5 Dewford Gym trainers (`Battle Girl Laura`, `Black Belt Takao`, `Battle Girl Lilith`, `Black Belt Cristian`).
+  - **Why We Wiped to Sailor Brenden (`(12, 8)`)**:
+    1. Because we Rare-Candied `Marshtomp` and `Chloris` (`Gloom`) to Lv 19 right after Roxanne (before Route 116 & Rusturf Tunnel), they entered Dewford Island already at Lv 20 and leveled up to **Lv 21 (`OVERLEVELED`)** during the Dewford Gym trainers (`Gloom` on Takao, `Marshtomp` on Cristian), forcing both of our strongest Special attackers to be benched before Sailor Brenden and Brawly!
+    2. Against `Black Belt Cristian`'s `#2 Makuhita` (`Bulk Up`, `Shadow Punch`, `Revenge`) and `Sailor Brenden`'s `#2 Machoke` (`Guts`, `Bulk Up`, `Karate Chop`, `Rock Tomb`), we used physical moves (`Bullet Seed` against `Bulk Up` Defense boosts, and `Geodude`'s `Secret Power` which paralyzed `Guts` `Machoke` and triggered its `1.5x` `Guts` Attack boost at `+2 Attack`!).
+  - **CRITICAL RULES FOR DEWFORD ISLAND & DEWFORD GYM (ATTEMPT #40)**:
+    1. **Keep Party at Lv 17 After Roxanne & Enter Dewford Island at Lv 18–19 (`0 EXP` Into Lv 19)**: Never Rare-Candy `Marshtomp` or `Gloom`/`Weepinbell` to Lv 19 before Route 116! Keep them at **Lv 17** through Route 116 & Rusturf Tunnel so they enter Dewford Island at **Lv 18–19** with a **full 2-level (`~1,400–2,000 EXP`) buffer** before Lv 21, guaranteeing `Marshtomp` and `Gloom`/`Weepinbell` stay `<= Lv 20` through all 5 Dewford Gym trainers and are active for Gym Leader Brawly!
+    2. **Never Use Physical Chip Against `Bulk Up` + `Revenge` (`Makuhita`) or Inflict Status on `Guts` `Machoke`**: Always hit `Bulk Up` Fighting-types with **Special** moves (`Gloom` `4: Magical Leaf`, `Marshtomp` `4: Water Gun`, `Spheal` `4: BubbleBeam`, `Seel` `3: Aurora Beam` + `Icy Wind`, `Dustox`/`Butterfree`/`Natu`/`Ralts` `Confusion`/`Psybeam`), use `Spinda`'s `3: Fake Out` + `1: Dizzy Punch` (`90 BP STAB`), and against `Sailor Brenden` (`#1 Breloom` + `#2 Machoke`), KO `#1 Breloom` with a Poison/Flying/Psychic/Ice attacker (`Gloom` `2: Acid`, `Sunflora` `2: Sludge Bomb` [90 BP learned at Lv 20!], `Seel`/`Spheal`) and sweep `#2 Machoke` with Special moves without ever paralyzing/poisoning/burning its `Guts` ability!
 - **Attempts #35–#38 Consolidated Checklist (Pre-Roxanne EXP & Rustboro Gym Rules)**:
   1. **Keep All 9 Pre-Roxanne Encounters at Lv 14–15 Until Rustboro City (`Mudkip -> Marshtomp` Is `Medium Slow` `~658 EXP` at Lv 16!)**: Never evolve `Mudkip` or Rare-Candy any encounter to Lv 16 before Rustboro City, and throw Poke Balls directly at 100% HP against early `Poison Point`/`Effect Spore` wild Pokemon rather than using contact `Tackle`. In Rustboro City, raise all 8–9 encounters from **Lv 15 -> Lv 16 (`0 EXP` into Lv 16)** using standalone Lv 15 -> Lv 16 Rare Candy calls (note: Rare-Candied `Sandshrew` `Lv 6 -> Lv 15` only knows 3 moves and learns `4: Dig` into empty Slot 4 at Lv 16, so never send 4-move replacement `A` presses on `Sandshrew`!).
   2. **The `Kabuto` & `Luvdisc` Sweep of School Kid Tammy (`#3 Rhyhorn` / `#4 Corsola` / `#5 Larvitar`)**: Never switch `Kabuto`/`Omanyte`/`Marshtomp` (`4x` weak to `Giga Drain`) into Tammy's `#2 Yanma` (`pivot Marshtomp -> Gloom [4x resists Giga Drain for 1 dmg] -> Luvdisc [4: Ice Beam OHKOs #2 Yanma]`). Note the verified AI send-out distinction: when a Flying/Grass Pokemon (`2x` weak to `Aurora Beam`/`Rock Tomb`, like `Hoppip`) KOs `#2 Yanma`, Tammy sends out `Corsola` (`312 EXP`) third, whereas when pure-Water `Luvdisc` (`36 Speed`) KOs `#2 Yanma` (verified Turn 7396), Tammy sends out `#3 Rhyhorn` (`432 EXP`, `11 Speed`) third—allowing `36-Speed` `Luvdisc` to **STAY IN and OHKO `#3 Rhyhorn` from 100% HP on Turn 1 with `3: Water Pulse` (`zero switch needed!`)**, followed by a 4-way EXP split (`Luvdisc -> Voltorb -> Gloom -> Kabuto`) on `#4 Corsola` (`78 EXP` each, priming `Luvdisc` at `626 / 654 EXP`) and `Sunflora` (`0.5x` resists `Earthquake`, `4: Bullet Seed` OHKO) on `#5 Larvitar`!

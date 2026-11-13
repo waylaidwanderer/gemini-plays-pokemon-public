@@ -1,21 +1,20 @@
-# Nuzlocke Encounters (Attempt #39)
+# Nuzlocke Encounters (Attempt #40)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Lv 21, Boxed in BOX 1) | Lv 21 (64 HP, 45 Atk, 36 Def, 34 Sp.Atk, 34 Sp.Def, 29 Speed; reached Lv 21 at end of Black Belt Cristian battle — unbench immediately after defeating Brawly when cap advances to 29!); met on Route 101 |
-| Littleroot Town | Luvdisc | APHRODITE | Deceased (Turn 7464) | Female, Lv 17; fainted to Roxanne's #6 Lunatone after defeating Anorith and setting up Relicanth's KO |
-| Route 103 | Sunflora | HELIOS | Deceased (Turn 7711) | Male, Lv 20; fainted to Black Belt Cristian's +3 Attack Makuhita's Revenge after chipping it to 37% yellow HP |
-| Route 102 | Sandshrew | TERRA | Deceased (Turn 7755) | Female, Lv 19; fainted to Sailor Brenden's Machoke after landing 3 Sand-Attacks to drop Machoke to -3 Accuracy (50%) |
-| Petalburg City | Azurill | GALATEA | Deceased (Turn 7607) | Female, Lv 19, Thick Fat; fainted to a critical Water Pulse from Fisherman Elliot's 1-HP Horsea after tanking the Route 106 Team Aqua Grunt's Gastly Selfdestruct |
-| Route 104 | Cubone | HADES | Deceased (Turn 7752) | Male, Lv 19; fainted to Sailor Brenden's +2 Attack Machoke's Karate Chop after chipping it to 85% HP with Dig |
-| Petalburg Woods | Gloom | CHLORIS | Retired (Lv 21, Boxed at BOX 1 (1, 1)) | Female, Lv 21 (reached Lv 21 at end of Black Belt Takao battle; unbench after defeating Brawly when cap advances to 29!); caught at (6, 30) |
-| Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
-| Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
-| Rusturf Tunnel | Geodude | ATLAS | Deceased (Turn 7758) | Male, Lv 19, Rock Head; fainted to Sailor Brenden's Guts-boosted Machoke after paralyzing Machoke with Secret Power |
-| Dewford Town | Spheal | CHIONE | Active | Female, Lv 19, Thick Fat, Careful (57 HP, 23 Atk, 25 Def, 24 Sp.Atk, 26 Sp.Def, 14 Speed; 1: Body Slam [learned Lv 18], 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
-| Route 106 | Seel | THETIS | Deceased (Turn 7756) | Female, Lv 19, Thick Fat, Gentle, pure Water; fainted to Sailor Brenden's Machoke after hitting Breloom with Icy Wind |
-| Granite Cave | Spinda | PSYCHE | Deceased (Turn 7760) | Female, Lv 19, Own Tempo; fainted to Sailor Brenden's Machoke after getting fully paralyzed on Turn 1 Fake Out |
-| Route 107 | — | — | Pending | Ocean route east of Dewford Town; blocked by trees/rocks before HM03 Surf (verified Turns 7632–7633) |
+| Starter (Route 101) | — | — | Pending | Mudkip (met on Route 101) |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..30) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Rusturf Tunnel | — | — | Pending | Cave encounter |
+| Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
+| Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
+| Granite Cave | — | — | Pending | Cave encounter (1F) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#37)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`Medium Slow` `~658 EXP` buffer [NOT 1,021 EXP, verified Turn 7015!]; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16, offers `Foresight` Lv 20 [verified Turn 6384]).
