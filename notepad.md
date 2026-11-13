@@ -15,7 +15,7 @@
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
 | Rusturf Tunnel | Geodude | ATLAS | Active (Boxed at BOX 1 (0, 0)) | Male, Lv 10; caught at (4, 9) |
 | Dewford Town | Spheal | CHIONE | Active (Boxed at BOX 1 (1, 0)) | Female, Lv 15; hooked at (16, 10) |
-| Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right at (71, 19) (Seel Lv 15) |
+| Route 106 | Seel | THETIS | Active (Boxed at BOX 1 (4, 0)) | Female, Lv 15; hooked at (70, 19) |
 | Granite Cave | — | — | Pending | Cave encounter |
 | Route 107 | — | — | Pending | Old Rod at (16, 10) / ocean |
 
