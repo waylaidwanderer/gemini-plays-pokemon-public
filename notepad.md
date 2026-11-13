@@ -4887,6 +4887,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Full Heal collected at (13, 8).
   - Outflow Waterfall at (25, 8): Plunges South to B1F basin at (25, 12). Verified that Lilz can scale back UP this waterfall with HM07 Waterfall, providing an instant bidirectional elevator between B1F and the upper tier!
   - Wooden Overlook Staircase at cols 34-35, rows 10-11 ascends to an isolated shelf (rows 2-8, cols 33-38).
+- Northwest Exit Highway (cols 0-2, rows 0-8): Bypassing the column 2 cliff at row 8 (2, 8) opens into a clear vertical sand highway running straight North along column 1 all the way to row 0 toward the Pokémon League HQ exit doorway!
 - West Branch (cols 9..4, rows 3..4):
   - Clear water canal running West from (9, 3) to (4, 3).
   - Southern Shoreline at (5, 5): Water ends at row 4; sandy shore is at row 5, leading into the southwest corridor.
