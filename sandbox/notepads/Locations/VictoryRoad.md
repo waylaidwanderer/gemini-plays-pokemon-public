@@ -358,3 +358,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Southern Shoreline at (5, 5): Water ends at row 4; sandy shore is at row 5, leading into the southwest corridor.
 - 1F Lower Canyon Cooltrainer Dianne: Defeated at (35, 22) on Cooltrainer Terrace (post-battle: "Gaze on your collected BADGES and remember the TRAINERS you've faced.").
 - 1F Ladder at (30, 25): Sighted on canyon floor west of Dianne.
+
+## 1F Upper Shelf & Northeast Suspension Bridge (Discovered Turns 22544-22558)
+- Wooden Staircase at (34, 11): Ascends North to upper landing at (34, 9).
+- Highway at Row 4: Runs East unobstructed from (34, 4) across cols 34..39 to (39, 4).
+- Rock Protrusion: Located at (39..40, 3..4), blocking straight east/north passage from (39, 4).
+- Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion.
+- Northeast Wooden Structure (cols 41..43, rows 1..3): Visual sighting of an elevated wooden suspension bridge ramp/railing in the northeast corner of the cavern!
