@@ -4570,7 +4570,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
 13. [x] Descended eastern waterfall at (25, 8) -> (25, 12) (Turn 22385)!
 14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)! (Verified as an isolated overlook shelf, rows 2-8, cols 33-38).
-15. [ ] Explore lower canyon floor east of Cooltrainer Dianne (35, 22) and waterways to locate the true exit doorway to Ever Grande City north plateau!
+15. [ ] Navigate northern corridor (cols 37..38, rows 1..3) and cross the Northeast Suspension Bridge (cols 41..43) to reach the Pokémon League exit doorway!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4868,7 +4868,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Ascent from B1F Southwest Ladder (Verified Turn 22052):
   - Emerged at (5, 26) on 1F!
   - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
-  - Forward progression routes Left to (4, 26) and straight North up Column 4 into the northern exit canyon!
 - 1F Northern Lake & Grotto (Verified Turns 22060-22090):
   - Subterranean lake on 1F: Entered from shore at (15, 18). A western water channel along rows 14-15 leads to a massive Waterfall at cols 7-9, rows 12-13. Scaling this waterfall with Lilz leads directly up to the 1F upper exit plateau!
   - Ladder at (19, 12) is a one-way descent trap leading down to B1F (17, 16).
