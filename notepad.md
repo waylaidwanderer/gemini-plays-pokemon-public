@@ -9,7 +9,7 @@
 | Route 103 | Sunflora | HELIOS | Deceased (Turn 7711) | Male, Lv 20; fainted to Black Belt Cristian's +3 Attack Makuhita's Revenge after chipping it to 37% yellow HP |
 | Route 102 | Sandshrew | TERRA | Active | Female, Lv 19 (51 HP, 33 Atk, 37 Def, 17 Sp.Atk, 17 Sp.Def, 23 Speed; 1: Cut [50 BP], 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 4) |
 | Petalburg City | Azurill | GALATEA | Deceased (Turn 7607) | Female, Lv 19, Thick Fat; fainted to a critical Water Pulse from Fisherman Elliot's 1-HP Horsea after tanking the Route 106 Team Aqua Grunt's Gastly Selfdestruct |
-| Route 104 | Cubone | HADES | Active | Male, Lv 19 (53 HP, 27 Atk, 41 Def, 25 Sp.Atk, 25 Sp.Def, 19 Speed; 1: Dig, 2: Rock Throw, 3: Secret Power, 4: Headbutt); caught at (24, 61) |
+| Route 104 | Cubone | HADES | Deceased (Turn 7752) | Male, Lv 19; fainted to Sailor Brenden's +2 Attack Machoke's Karate Chop after chipping it to 85% HP with Dig |
 | Petalburg Woods | Gloom | CHLORIS | Retired (Lv 21, Boxed at BOX 1 (1, 1)) | Female, Lv 21 (reached Lv 21 at end of Black Belt Takao battle; unbench after defeating Brawly when cap advances to 29!); caught at (6, 30) |
 | Route 116 | Voltorb | ZEUS | Deceased (Turn 7465) | Lv 16, Static; knocked out Roxanne's Lileep with SonicBoom, paralyzed Anorith with Static, and outsped Lunatone to chip it to ~68% HP with Shock Wave before fainting |
 | Route 115 | Kabuto | TRITON | Deceased (Turn 7430) | Male, Lv 16; fainted to Roxanne's #1 Nosepass Selfdestruct (trading 1-for-1 with Nosepass) |
