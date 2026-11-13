@@ -360,16 +360,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - 1F Lower Canyon Cooltrainer Dianne: Defeated at (35, 22) on Cooltrainer Terrace (post-battle: "Gaze on your collected BADGES and remember the TRAINERS you've faced.").
 - 1F Ladder at (30, 25): Sighted on canyon floor west of Dianne.
 
-## 1F Upper Shelf & Northeast Suspension Bridge (Discovered Turns 22544-22558)
+## 1F Upper Shelf & TM29 Alcove (Verified Turns 22544-22603)
 - Wooden Staircase at (34, 11): Ascends North to upper landing at (34, 9).
 - Highway at Row 4: Runs East unobstructed from (34, 4) across cols 34..39 to (39, 4).
 - Rock Protrusion: Located at (39..40, 3..4), blocking straight east/north passage from (39, 4).
-- Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion.
-- Northeast Wooden Structure (cols 41..43, rows 1..3): Visual sighting of an elevated wooden suspension bridge ramp/railing in the northeast corner of the cavern!
-
-## Victory Road Upper Exit Level (Discovered Turn 22586)
-- Emerged via ladder at (42, 2) facing South.
-- Layout: North is bounded by cliff wall at row 1.
-- Elevated ridge/corridor spans cols 42..43 bounded by cliff edges at col 41 (west) and col 44 (east).
-- Path runs straight South along cols 42..43 toward the exit doorway.
-- TM29 Psychic: Collected at (42, 8) on Turn 22595 in the isolated B1F alcove accessed via ladder (43, 2) on 1F.
+- Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion to ladder at (43, 1).
+- TM29 Psychic Alcove: Ladder at (43, 1) on 1F descends into an isolated, sealed B1F dead-end corridor (cols 42..43, rows 2..8). TM29 Psychic was collected at (42, 8). This is NOT an exit route; ladder returns back to 1F at (43, 2).
