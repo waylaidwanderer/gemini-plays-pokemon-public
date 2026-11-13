@@ -4570,8 +4570,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
 13. [x] Descended eastern waterfall at (25, 8) -> (25, 12) (Turn 22385)!
 14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)! (Verified as an isolated overlook shelf, rows 2-8, cols 33-38).
-15. [x] Ascended ladder at (43, 2) to upper exit level at (42, 2) (Turn 22586)!
-16. [ ] Follow elevated corridor south from (42, 2) to locate the exit doorway to Ever Grande City north plateau!
+15. [x] Explored isolated B1F alcove via ladder at (43, 2) on 1F -> (42, 2) and collected TM29 Psychic at (42, 8) (Turns 22586-22596)!
+16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
+17. [ ] Descend wooden staircase at (34, 11) to lower canyon and explore east of Cooltrainer Dianne (cols 35..40, rows 22..26) to locate the exit doorway to Ever Grande City north plateau!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
