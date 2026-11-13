@@ -15,10 +15,7 @@
 | Dewford Town | Spheal | CHIONE | Active | Female, Lv 19, Thick Fat, Careful (57 HP, 23 Atk, 25 Def, 24 Sp.Atk, 26 Sp.Def, 14 Speed; 1: Body Slam [learned Lv 18], 2: Water Gun, 3: Headbutt, 4: BubbleBeam); hooked at (16, 10) |
 | Route 106 | Seel | THETIS | Active | Female, Lv 19, Thick Fat, Gentle, pure Water (59 HP, 23 Atk, 26 Def, 22 Sp.Atk, 38 Sp.Def, 27 Speed; 1: Headbutt, 2: BubbleBeam, 3: Aurora Beam, 4: Icy Wind [learned Lv 17]); hooked at (70, 19) |
 | Granite Cave | Spinda | PSYCHE | Active | Female, Lv 19, Own Tempo, Serious (59 HP, 39 Atk, 38 Def, 41 Sp.Atk, 36 Sp.Def, 37 Speed; 1: Dizzy Punch [buffed to 90 BP / 100% acc!], 2: Recycle [learned Lv 18], 3: Fake Out, 4: Hypnosis); caught at (32, 10) on 1F |
-| Route 107 | — | — | Pending | Old Rod at (16, 10) / ocean |
-
-## Key Attempt #31 & #35 Lesson for Gym Leader Roxanne (`#1 Nosepass` -> `#6 Lunatone`)
-- **NEVER have a `Poison`- or `Fighting`-type (`Weepinbell`, `Gloom`, `Gulpin`, `Nidorina`, `Nidorino`, `Makuhita`, etc. — `2x` weak to `Lunatone`'s `50 BP STAB Confusion`!) on the field when ANY of Roxanne's Pokemon (`#1 Nosepass`, `#2 Anorith`, `#3 Lileep`, etc.) faints!** In Attempt #31 (`after #1 Nosepass`) and Attempt #35 (`after #2 Anorith`), having a `Poison`-type on the field when Roxanne's active Pokemon fainted caused Roxanne's AI to immediately send out **`Lunatone`** next! Always finish `#1 Nosepass`, `#2 Anorith`, `#3 Lileep`, `#4 Relicanth`, and `#5 Shuckle` with a **non-Poison/non-Fighting Pokemon (`Kabuto`, `Omanyte`, `Azurill`, `Luvdisc`, `Wingull`, `Goldeen`, `Paras`, or `Marshtomp`)** so `Lunatone` comes out `#6 LAST`! Also note that `Goldeen` is in the `Medium Fast` (`817 EXP`) group at Lv 16 (verified Turn 6154), and `Natu` can have `Early Bird` (`817 EXP` group).
+| Route 107 | — | — | Pending | Ocean route east of Dewford Town; blocked by trees/rocks before HM03 Surf (verified Turns 7632–7633) |
 
 ## Verified Species Learnsets & Evolutions (Attempts #9–#37)
 - **Starter (`Route 101`)**: `Mudkip -> Marshtomp` at Lv 16 (`Medium Slow` `~658 EXP` buffer [NOT 1,021 EXP, verified Turn 7015!]; starts at Lv 5 with `1: Tackle`, learns `2: Bubble` [spread] Lv 6, `3: Mud Sport` Lv 7, `4: Water Gun` Lv 10, `Bide` Lv 15, `Mud Shot` Lv 16, offers `Foresight` Lv 20 [verified Turn 6384]).
