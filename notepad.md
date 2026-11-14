@@ -4573,7 +4573,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 15. [x] Explored isolated B1F alcove via ladder at (43, 2) on 1F -> (42, 2) and collected TM29 Psychic at (42, 8) (Turns 22586-22596)!
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
-18. [ ] Return to 1F via the eastern waterfall elevator at (26, 12) -> (25, 8) and explore northern corridors around Vito Winstrate to locate the true exit doorway to Pokémon League HQ!
+18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
+19. [ ] Navigate to the true 1F exit route via ladder at (19, 12) -> B1F (17, 16) -> Southwest Canyon -> ladder at (5, 26) to 1F!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4881,20 +4882,21 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - The entire lower dungeon network (B1F/B2F) culminates in ascending the Southwest Canyon ladder at (5, 26) to 1F, traversing the 1F subterranean lake, and scaling the 1F waterfall (cols 7-9, rows 12-13) with HM07 Waterfall to reach this upper exit terrace.
 
 
-## 1F Upper Waterway & Canal System (Comprehensive Summary Turns 22334-22468)
-- 1F Waterfall: Located at cols 7-9, rows 12-13. Scaled with HM07 Waterfall (Lilz) to upper pool at (9, 10).
-- Row 3 Waterway Junction (9, 3): Upper channel extends North from (9, 10) to (9, 3), where it branches East and West.
+## Subterranean Upper Waterway & Canal System (Flash Cavern B2F/B1F)
+- Note: This entire canal system has an active Flash circular spotlight, proving it is within the subterranean levels (B2F/B1F), NOT the bright, fully lit 1F!
+- Subterranean Waterfall 2: Located at cols 7-9, rows 12-13. Scaled with HM07 Waterfall (Lilz) from (9, 14) to upper pool at (9, 10).
+- Row 3 Waterway Junction (9, 3): Upper channel extends North from (9, 10) to (9, 3), branching East and West.
 - East Branch (cols 9..25, rows 3..7):
   - Cooltrainer Vito Winstrate defeated at (15, 6) (Dodrio, Kadabra, Electrode, Shiftry Lv 42; prize ¥2,064).
   - Full Heal collected at (13, 8).
-  - Outflow Waterfall at (25, 8): Plunges South to B1F basin at (25, 12). Verified that Lilz can scale back UP this waterfall with HM07 Waterfall, providing an instant bidirectional elevator between B1F and the upper tier!
-  - Wooden Overlook Staircase at cols 34-35, rows 10-11 ascends to an isolated shelf (rows 2-8, cols 33-38).
-- Western Sand Cul-de-Sac (cols 1..5, rows 5..10): Closed dead-end shelf bounded by cliffs to the west (cols 0-1), south (row 10-11), and north (row 5-6). No passage north. The only way out is mounting Surf at (5, 5) or (6, 6) to return to the upper canal.
+  - Outflow Eastern Waterfall at (25, 8): Plunges South to B1F basin at (25, 12). Can be scaled back UP with HM07 Waterfall.
+  - Wooden Staircase at (34, 11) ascends to TM29 Psychic alcove ladder at (43, 1).
 - West Branch (cols 9..4, rows 3..4):
   - Clear water canal running West from (9, 3) to (4, 3).
-  - Southern Shoreline at (5, 5): Water ends at row 4; sandy shore is at row 5, leading into the southwest corridor.
-- 1F Lower Canyon Cooltrainer Dianne: Defeated at (35, 22) on Cooltrainer Terrace (post-battle: "Gaze on your collected BADGES and remember the TRAINERS you've faced.").
-- 1F Ladder at (30, 25): Sighted on canyon floor west of Dianne.
+  - Western Sand Cul-de-Sac (cols 1..5, rows 5..10): Closed dead-end shelf.
+- Cooltrainer Dianne: Stationed at (35, 22) on lower canyon floor. Acro Bike rails at rows 27-30 block foot progression south.
+- B2F Descent Ladder at (30, 25): Descends to B2F water area.
+- True 1F Exit Route: The true exit to 1F and the Pokémon League is accessed via the B2F ladder at (19, 12) -> B1F (17, 16) -> Southwest Canyon -> 1F ladder at (5, 26)!
 
 ## 1F Upper Shelf & TM29 Alcove (Verified Turns 22544-22603)
 - Wooden Staircase at (34, 11): Ascends North to upper landing at (34, 9).
