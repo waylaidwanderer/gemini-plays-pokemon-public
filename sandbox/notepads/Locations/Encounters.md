@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | — | — | Pending | Choose Mudkip from Birch's Bag |
+| Starter (Route 101) | Mudkip | NEPTUNE | Active | Lv 5; met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
 | Route 103 | — | — | Pending | Tall grass |
 | Route 102 | — | — | Pending | Tall grass |
