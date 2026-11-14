@@ -2,12 +2,12 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 14, Adamant (41 HP, 28 Atk, 22 Def, 21 Sp.Atk, 20 Sp.Def, 20 Speed); met on Route 101 |
+| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 15, Adamant (41 HP, 28 Atk, 22 Def, 21 Sp.Atk, 20 Sp.Def, 20 Speed at Lv 14); met on Route 101 |
 | Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 14 (39 HP, 13 Atk, 18 Def, 18 Sp.Atk, 22 Sp.Def, 37 Speed); hooked at (18, 11) |
 | Route 103 | Delcatty | SELENE | Active | Female, Lv 15 (Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
 | Route 102 | Sandshrew | GAIA | Active | Female, Lv 14 (42 HP, 26 Atk, 30 Def; 1: Scratch, 2: Defense Curl, 3: Sand-Attack); caught at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Female, Lv 15 (1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
-| Route 104 | Natu | ATHENA | Active | Female, Lv 14 (38 HP, 22 Atk, 19 Def, 30 Sp.Atk, 16 Sp.Def, 26 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
+| Route 104 | Natu | ATHENA | Active | Female, Lv 15 (40 HP at Lv 15; 30 Sp.Atk, 26 Speed at Lv 14; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
 | Petalburg Woods | Oddish | SYLVANUS | Active (Boxed in BOX 1) | Male, Lv 8; caught at (12, 33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
