@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 16, Adamant (45 HP, 30 Atk, 25 Def, 23 Sp.Atk, 22 Sp.Def, 22 Speed; evolves into Marshtomp at end of Red battle!); met on Route 101 |
+| Starter (Route 101) | Marshtomp | POSEIDON | Active | Male, Lv 16, Adamant (1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun; evolved at end of Red battle!); met on Route 101 |
 | Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 16 (43 HP, 15 Atk, 20 Def, 21 Sp.Atk, 26 Sp.Def, 41 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
 | Route 103 | Delcatty | SELENE | Active | Female, Lv 16 (51 HP, 25 Atk, 28 Def, 20 Sp.Atk, 28 Sp.Def, 36 Speed; Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
 | Route 102 | Sandshrew | GAIA | Active | Female, Lv 15 (44 HP, 27 Atk, 32 Def, 16 Sp.Atk, 15 Sp.Def, 20 Speed; Modest, Sand Veil; 1: Scratch, 2: Poison Sting, 3: Sand-Attack); caught at (39, 5) |
