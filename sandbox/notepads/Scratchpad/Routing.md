@@ -106,7 +106,7 @@
 - **Southern Entrance & Optional Rival Battle**: Enters from Route 104 North `(15..16, 0)` onto `(16, 59)` (from `(25, 8)` after PKMN Trainer Red, walk `Up x6` to `(25, 2)`, `Left x9` to `(16, 2)`, and `Up x3` into Rustboro City; in Rustboro City, step `Right x4` at `y=50` around the signpost at `(18, 49)` onto the main vertical avenue at `x=20..21`). After receiving the `PokeNav` from Mr. Stone, Rival Brendan stands at `(16, 50)` and triggers when stepping onto `y=53` (e.g. `(15, 53)`), registering himself in the `PokeNav` and asking `"Want to have a battle to test how far you've progressed? [>YES / NO]"`; pressing `B` selects `NO` and skips the optional battle completely (verified Turn 6345).
 - **Landmarks**:
   - **Poke Mart**: Door at `(16, 45)` (building covers `x=14..17, y=42..45` with a streetlamp at `(18, 45)` and a boy at `(19, 44)`; use `x=20..21` for the main vertical avenue).
-  - **Pokemon Center**: Door at `(16, 38)`.
+  - **Pokemon Center**: Door at `(16, 38)` (note: a streetlamp at `(18, 39)` blocks horizontal movement along `y=39` east of the Pokemon Center, so step onto `y=40` or `y=41` when routing between `(16, 39)` and the `x=21` avenue, verified Turn 7908).
   - **Cutter's House**: Door at `(9, 38)` (enters at `(5, 8)` on a 2-tile doormat `(5..6, 8)`); Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`).
   - **Pokemon Trainer's School**: Door at `(27, 34)` (fountain at `(27, 38)`); NPC at `(5, 3)` inside has no interaction script in this hack.
   - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=24..35, y=25`; Trade Boy is inside at `(4, 4)`).
