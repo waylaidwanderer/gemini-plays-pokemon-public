@@ -1,13 +1,13 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #41)
+# Nuzlocke Encounters (Attempt #42)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MZ  B | Active | Female, Lv 5; met on Route 101 |
-| Littleroot Town | Goldeen | TRITON | Active | Male, Lv 5; caught at (18, 11) |
-| Route 103 | Poliwag | NAIAD | Deceased | Female, Lv 4, Swift Swim, Careful; fainted to Bug Catcher Allen's Wurmple on Turn 8060 |
-| Route 102 | Sandshrew | TERRA | Active | Male, Lv 6; caught at (39, 5) |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip from Birch's Bag |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass |
+| Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass |
@@ -38,15 +38,18 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #41
+# Nuzlocke Dashboard — Attempt #42
 
 ## Active Rules & Status
-- **Attempt**: #41
+- **Attempt**: #42
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#40)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#41)
+- **Attempt #41 Post-Mortem (Reset at Bug Catcher Allen on Route 102)**:
+  - **Why We Reset**: Queuing 3 `Water Gun` cycles (`"Up", "Left", "A", ...`) against Lass Tiana's final Pokemon (`#3 Togepi`) caused the unused `"Up", "Left", "A"` inputs after `#3 Togepi` fainted on Cycle 1 to execute in the overworld at `(15, 3)`, walking the player to `(14, 2)` and talking to **Bug Catcher Allen** at `(13, 2)` while `Triton` was at `4/40 HP PAR` and `Mudkip`'s `Oran Berry` was already consumed. Furthermore, in Generation 3, when your active Pokemon faints to the opponent's attack mid-turn, **the end-of-turn status block (`Poison`/`Burn` tick) of that turn runs immediately AFTER the replacement Pokemon is sent out** (verified Turn 8061 frames #65–#78, ticking `Mudkip` from `5 -> 1 HP` before the new turn even started!).
+  - **CRITICAL RULES**: (1) **Never queue multi-turn `"Up"/"Left"/"Down"/"Right"` attack loops against a trainer's final Pokemon** (execute 1 turn at a time on a trainer's last Pokemon, or use D-pad-free `"A", "sleep 600", "L", "sleep 300"` once the move cursor is already positioned, so extra inputs can never walk into the next trainer before healing!). (2) **Against Lass Tiana's `#2 Sunkern`, always raise a `Poison`/`Flying`/`Bug` encounter (`or Sandshrew's Poison Sting / Lv 15 Goldeen`) and never leave a `Leech Seed`ed Pokemon in against `#3 Togepi`**.
 - **Attempt #40 Post-Mortem (Reached Gym Leader Roxanne's #4 Relicanth with 5 Teammates at Lv 17!)**:
   - **What Worked**: Cleared School Kid Josh, School Kid Tammy, and Hiker Marc with **ZERO overlevels** by checking exact `NEXT LV.` EXP on the Summary screen and temporarily banking primed sweepers (`Marshtomp`, `Gloom`, `Kabuto` at `<140 EXP` to Lv 17) in `BOX 1`; defeated Roxanne's `#1 Nosepass`, `#2 Lileep`, and `#3 Anorith` with 0 casualties while leveling 5 teammates to Lv 17 inside the boss fight.
   - **Why We Reset at `#4 Relicanth`**: Roxanne's `#4 Relicanth` (`M Lv 14`) had **`23+ Speed`**, outspeeding `22-Speed` Lv 17 `Gloom` to land `Yawn` before `Magical Leaf`, and queued trailing `A` presses (`["A", "sleep 1500"] * 9`) kept selecting moves while `Gloom` was asleep. See consolidated rules under **Rustboro Gym & Roxanne Key Tactics** below.
