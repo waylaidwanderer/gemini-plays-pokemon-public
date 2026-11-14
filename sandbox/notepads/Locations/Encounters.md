@@ -8,7 +8,7 @@
 | Route 102 | Sandshrew | GAIA | Active | Female, Lv 14 (42 HP, 26 Atk, 30 Def; 1: Scratch, 2: Defense Curl, 3: Sand-Attack); caught at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Female, Lv 15 (1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Natu | ATHENA | Active | Female, Lv 14 (38 HP, 22 Atk, 19 Def, 30 Sp.Atk, 16 Sp.Def, 26 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
-| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..30) |
+| Petalburg Woods | Oddish | SYLVANUS | Active (Boxed in BOX 1) | Male, Lv 8; caught at (12, 33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
