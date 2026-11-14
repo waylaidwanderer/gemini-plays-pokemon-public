@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 17 (45 HP, 16 Atk, 21 Def, 22 Sp.Atk, 27 Sp.Def, 44 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
 | Route 103 | Delcatty | SELENE | Active | Female, Lv 16 (51 HP, 25 Atk, 28 Def, 20 Sp.Atk, 28 Sp.Def, 36 Speed; Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
 | Route 102 | Sandshrew | GAIA | Deceased | Fainted at Lv 16 to Hiker Marc's #1 Onix Selfdestruct (Turn 7946) |
-| Petalburg City | Azurill | CALYPSO | Active | Female, Lv 17, Thick Fat (47 HP, 12 Atk, 21 Def, 16 Sp.Atk, 23 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
+| Petalburg City | Azurill | CALYPSO | Deceased | Fainted at Lv 17 to Gym Leader Roxanne's #4 Relicanth Secret Power (Turn 8005) |
 | Route 104 | Natu | ATHENA | Active (Boxed in BOX 1) | Female, Lv 16 (42 HP, 24 Atk, 22 Def, 35 Sp.Atk, 18 Sp.Def, 30 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
 | Petalburg Woods | Gloom | SYLVANUS | Deceased | Fainted at Lv 17 to Gym Leader Roxanne's #4 Relicanth (outsped 22-Speed Gloom with Yawn -> Rock Throw, Turn 7993) |
 | Route 116 | Grimer | TARTARUS | Active (Boxed in BOX 1) | Male, Lv 16, Naughty, Sticky Hold (53 HP, 33 Atk, 22 Def, 18 Sp.Atk, 22 Sp.Def, 14 Speed; 1: Acid, 2: Memento, 3: Lick, 4: Disable; prompts to replace 1 of 4 moves with Sludge Bomb at Lv 13); caught at (6, 14) |
