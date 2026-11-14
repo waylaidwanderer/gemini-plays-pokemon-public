@@ -4910,6 +4910,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Waterfall 2 (cols 7-9, rows 12-13) is strictly a one-way downward slide into the lower pool at (9, 14) and CANNOT be ascended with HM07 Waterfall.
 - True Route to Exit: Navigate to the canyon floor where Cooltrainer Dianne stands at (35, 22). Systematically explore EAST past Dianne into cols 36..40 (rows 21..24) to locate the exit doorway leading north to Ever Grande City north plateau and the Pokémon League HQ!
 - Exit Path from Lower Pool: Climb ladder at (19, 12) to B1F, navigate to the eastern canyon floor at Dianne (35, 22), and head east.
+## B1F Lower Basin to Exit Canyon Navigation (Verified Turn 22805)
+- From B2F ascent ladder at (17, 16): Column 17 is blocked south by cliff at (17, 18). Step West to Column 16 at (16, 17) to walk south.
+- Column 16 runs south past Cooltrainer Halle (15, 20) to row 21/22.
+- At row 21/22, wrap East beneath the cliff edge directly into the wooden ladder structure at cols 19-20 leading up to the exit canyon where Cooltrainer Dianne (35, 22) is stationed.
 
 <hr>
 
