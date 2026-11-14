@@ -8,7 +8,7 @@
 | Route 102 | Sandshrew | GAIA | Deceased | Fainted at Lv 16 to Hiker Marc's #1 Onix Selfdestruct (Turn 7946) |
 | Petalburg City | Azurill | CALYPSO | Active | Female, Lv 17, Thick Fat (47 HP, 12 Atk, 21 Def, 16 Sp.Atk, 23 Sp.Def, 14 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Natu | ATHENA | Active (Boxed in BOX 1) | Female, Lv 16 (42 HP, 24 Atk, 22 Def, 35 Sp.Atk, 18 Sp.Def, 30 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
-| Petalburg Woods | Gloom | SYLVANUS | Active | Male, Lv 16, Docile, Chlorophyll (46 HP, 28 Atk, 27 Def, 35 Sp.Atk, 33 Sp.Def, 21 Speed; 10 EXP to Lv 17; 1: Magical Leaf, 2: Acid, 3: Toxic, 4: Bullet Seed); caught at (12, 33) |
+| Petalburg Woods | Gloom | SYLVANUS | Deceased | Fainted at Lv 17 to Gym Leader Roxanne's #4 Relicanth (outsped 22-Speed Gloom with Yawn -> Rock Throw, Turn 7993) |
 | Route 116 | Grimer | TARTARUS | Active (Boxed in BOX 1) | Male, Lv 16, Naughty, Sticky Hold (53 HP, 33 Atk, 22 Def, 18 Sp.Atk, 22 Sp.Def, 14 Speed; 1: Acid, 2: Memento, 3: Lick, 4: Disable; prompts to replace 1 of 4 moves with Sludge Bomb at Lv 13); caught at (6, 14) |
 | Route 115 | Kabuto | CRONUS | Active | Male, Lv 16, Serious, Battle Armor (39 HP, 31 Atk, 34 Def, 23 Sp.Atk, 20 Sp.Def, 24 Speed; 46 EXP to Lv 17; 1: Rock Tomb, 2: Water Pulse, 3: Mega Drain); hooked at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
