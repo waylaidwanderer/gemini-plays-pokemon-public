@@ -7,7 +7,7 @@
 | Starter (Route 101) | Marshtomp | POSEIDON | Active | Male, Lv 16, Adamant (1: Mud Shot, 2: Bubble, 3: Mud Sport, 4: Water Gun; evolved at end of Red battle!); met on Route 101 |
 | Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 16 (43 HP, 15 Atk, 20 Def, 21 Sp.Atk, 26 Sp.Def, 41 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
 | Route 103 | Delcatty | SELENE | Active | Female, Lv 16 (51 HP, 25 Atk, 28 Def, 20 Sp.Atk, 28 Sp.Def, 36 Speed; Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
-| Route 102 | Sandshrew | GAIA | Active | Female, Lv 16 (46 HP, 27 Atk, 32 Def, 16 Sp.Atk, 15 Sp.Def, 20 Speed; Modest, Sand Veil; 1: Scratch, 2: Poison Sting, 3: Sand-Attack, 4: Dig); caught at (39, 5) |
+| Route 102 | Sandshrew | GAIA | Deceased | Fainted at Lv 16 to Hiker Marc's #1 Onix Selfdestruct (Turn 7946) |
 | Petalburg City | Azurill | CALYPSO | Active | Female, Lv 16, Thick Fat (45 HP, 11 Atk, 19 Def, 14 Sp.Atk, 21 Sp.Def, 12 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Natu | ATHENA | Active (Boxed in BOX 1) | Female, Lv 16 (42 HP, 24 Atk, 22 Def, 35 Sp.Atk, 18 Sp.Def, 30 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
 | Petalburg Woods | Gloom | SYLVANUS | Active | Male, Lv 16, Docile, Chlorophyll (48 HP; 1: Magical Leaf, 2: Acid, 3: Toxic, 4: Bullet Seed); caught at (12, 33) |
