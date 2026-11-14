@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip | MZ  B | Active | Female, Lv 5; met on Route 101 |
 | Littleroot Town | Goldeen | TRITON | Active | Male, Lv 5; caught at (18, 11) |
 | Route 103 | Poliwag | NAIAD | Active | Female, Lv 4, Swift Swim, Careful; caught at (13, 15) |
-| Route 102 | — | — | Pending | Tall grass |
+| Route 102 | Sandshrew | TERRA | Active | Male, Lv 6; caught at (39, 5) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass |
