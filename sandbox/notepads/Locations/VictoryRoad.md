@@ -37,7 +37,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 14. [x] Disembarked at northeastern landing (33, 13) and ascended wooden staircase at (34, 11) (Turns 22390-22391)! (Verified as an isolated overlook shelf, rows 2-8, cols 33-38).
 15. [x] Explored isolated B1F alcove via ladder at (43, 2) on 1F -> (42, 2) and collected TM29 Psychic at (42, 8) (Turns 22586-22596)!
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
-17. [ ] Descend wooden staircase at (34, 11) to lower canyon and explore east of Cooltrainer Dianne (cols 35..40, rows 22..26) to locate the exit doorway to Ever Grande City north plateau!
+17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
+18. [ ] Return to 1F via the eastern waterfall elevator at (26, 12) -> (25, 8) and explore northern corridors around Vito Winstrate to locate the true exit doorway to Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
