@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MZ  B | Active | Female, Lv 5; met on Route 101 |
-| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Littleroot Town | Goldeen | TRITON | Active | Male, Lv 5; caught at (18, 11) |
 | Route 103 | Poliwag | NAIAD | Active | Female, Lv 4, Swift Swim, Careful; caught at (13, 15) |
 | Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
