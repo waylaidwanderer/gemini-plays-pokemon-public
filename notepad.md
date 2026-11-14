@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | NEPTUNE | Active | Lv 5; met on Route 101 |
+| Starter (Route 101) | Mudkip | MZ  B | Active | Female, Lv 5; met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
 | Route 103 | — | — | Pending | Tall grass |
 | Route 102 | — | — | Pending | Tall grass |
