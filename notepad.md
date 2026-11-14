@@ -4905,6 +4905,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion to ladder at (43, 1).
 - TM29 Psychic Alcove: Ladder at (43, 1) on 1F descends into an isolated, sealed B1F dead-end corridor (cols 42..43, rows 2..8). TM29 Psychic was collected at (42, 8). This is NOT an exit route; ladder returns back to 1F at (43, 2).
 
+## Victory Road Macro Progression Model (Verified Turn 22756)
+- B1F/B2F Separation: Flash darkness confirms B1F and B2F are the subterranean floors.
+- Waterfall 2 is located at cols 7-9, rows 12-13, scaled from (9, 14) to (9, 10).
+- Vito Winstrate at (15, 6) is the final trainer of Victory Road. The path to the exit of Victory Road lies on or beyond Vito Winstrate's northern plateau, NOT south toward Dianne or B2F entrance (30, 25).
+- Route to Exit: Scale Waterfall 2 -> surf to (16, 6) -> systematically explore north, east, and west of Vito Winstrate (15, 6) to locate the ladder/doorway leading out to the Pokémon League HQ.
 
 <hr>
 
