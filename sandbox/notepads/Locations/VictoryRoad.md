@@ -39,7 +39,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
-19. [ ] Navigate to the true 1F exit route via ladder at (19, 12) -> B1F (17, 16) -> Southwest Canyon -> ladder at (5, 26) to 1F!
+19. [ ] Navigate to Cooltrainer Dianne at (35, 22) and explore EAST past Dianne (cols 36..40, rows 21..24) to locate the true exit doorway leading north to Ever Grande City north plateau and Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -159,7 +159,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## 1F Southeast Sector (Exit Area Only)
 - Southeast Ledges & Item: Visible from row 35 (cols 35-40) and south of Albert, but empirical testing (Turns 20607-20639) proved rows 35-37 are solid cliff drops that cannot be hopped down, and col 28 at rows 38-39 is blocked by cliffs.
-- The ladder at (42, 39) and Poké Ball at (38, 40) are an exit from B1F/B2F, NOT an accessible entrance from 1F. Cease attempting to enter this sector from 1F.
+- Southern Entrance Sector (rows 35-40): Adjacent to Route 128 southern entrance from Ever Grande City. The ladder at (42, 39) is an elevated return ladder in the entrance room, NOT the exit to Pokémon League HQ (which lies to the far north).
 
 ## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
 - Southern Suspension Bridge (Row 15):
@@ -177,7 +177,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Column 9 serves as the cleared chute from the Northwest boulder puzzle down to (9, 13).
   - Row 14 below (9, 13) is an impassable solid cliff drop (not a jump ledge); the path turns East along the row 13 highway.
 ## 1F Upper Northern Plateau & Suspension Bridge (Verified Turns 20648-20653)
-- Northern Staircase at (16, 21..17): Ascends north onto row 17.
+- Northern Staircase Refutation: Collision testing on Turns 22690, 22708, and 22709 confirmed column 16 at rows 21-23 is a continuous solid vertical cliff face, not a walkable staircase. Column 15 is a narrow canyon passing under the row 19/20 suspension bridge directly into the subterranean lake at (15, 18).
 - Corridor at rows 13-14 (cols 9-16): Connects Hope's western terrace / ladder (8, 13) directly East to the top of the northern staircase at (16, 17).
 - Northern Suspension Bridge (Row 17): Spans East from (18, 17) across cols 18..37 to northeastern plateau at (38..39, 17).
 
