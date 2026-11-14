@@ -9,7 +9,7 @@
 | Route 103 | Delcatty | SELENE | Active | Female, Lv 15 (Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
 | Route 102 | Sandshrew | GAIA | Active | Female, Lv 15 (42 HP, 26 Atk, 30 Def at Lv 14; 1: Scratch, 2: Poison Sting, 3: Sand-Attack); caught at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Female, Lv 15 (1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
-| Route 104 | Natu | ATHENA | Active | Female, Lv 15 (40 HP at Lv 15; 30 Sp.Atk, 26 Speed at Lv 14; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
+| Route 104 | Natu | ATHENA | Active | Female, Lv 16 (42 HP, 24 Atk, 22 Def, 35 Sp.Atk, 18 Sp.Def, 30 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
 | Petalburg Woods | Oddish | SYLVANUS | Active (Boxed in BOX 1) | Male, Lv 8; caught at (12, 33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
