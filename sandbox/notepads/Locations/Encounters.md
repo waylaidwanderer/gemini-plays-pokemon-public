@@ -10,7 +10,7 @@
 | Route 104 | Natu | ATHENA | Active | Female, Lv 16 (42 HP, 24 Atk, 22 Def, 35 Sp.Atk, 18 Sp.Def, 30 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
 | Petalburg Woods | Oddish | SYLVANUS | Active (Boxed in BOX 1) | Male, Lv 8; caught at (12, 33) |
 | Route 116 | Grimer | TARTARUS | Active (Boxed in BOX 1) | Male, Lv 9; caught at (6, 14) |
-| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Route 115 | Kabuto | CRONUS | Active (Boxed in BOX 1) | Male, Lv 9; hooked at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
