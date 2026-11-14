@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 5; met on Route 101 |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
-| Route 103 | — | — | Pending | Tall grass |
+| Route 103 | Spearow | ZEUS | Active | Male, Lv 4; caught at (12, 15) |
 | Route 102 | — | — | Pending | Tall grass |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
