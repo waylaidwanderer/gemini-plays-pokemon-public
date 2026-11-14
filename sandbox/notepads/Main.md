@@ -1,12 +1,22 @@
-# Nuzlocke Dashboard — Attempt #40
+# Nuzlocke Dashboard — Attempt #41
 
 ## Active Rules & Status
-- **Attempt**: #40
+- **Attempt**: #41
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#39)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#40)
+- **Attempt #40 Post-Mortem (Reached Gym Leader Roxanne's #4 Relicanth with 5 Teammates at Lv 17!)**:
+  - **What Worked Brilliantly**:
+    1. Cleared School Kid Josh, School Kid Tammy, and Hiker Marc with **ZERO overlevels** by checking exact `NEXT LV.` EXP on the Summary screen and temporarily banking primed sweepers (`Marshtomp`, `Gloom`, `Kabuto` at `<140 EXP` to Lv 17) in `BOX 1`.
+    2. Defeated Roxanne's `#1 Nosepass` (`F Lv 15`), `#2 Lileep` (`M Lv 14`), and `#3 Anorith` (`M Lv 14`) with **0 casualties**, leveling 5 teammates up to Lv 17 inside the boss fight! Notably, `#1 Nosepass` is **female (`♀`)**, so female teammates (`Luvdisc ♀`, `Azurill ♀`, `Delcatty ♀`) are 100% immune to `Attract`, and switching out a `PAR` teammate locks `#1 Nosepass` out of `Thunder Wave` on the switch turn (`STATUS1_ANY` lockout), allowing `2: Charm` to drop `#1 Nosepass` to **`-4 Attack`** so `Selfdestruct` deals only ~5–12 damage!
+  - **Why We Lost `Gloom` & `Marshtomp` to Roxanne's `#4 Relicanth` (And How to Fix It in Attempt #41)**:
+    1. **Roxanne's `#4 Relicanth` (`M Lv 14`) Has `23+ Speed` (Outspeeds `22-Speed` Lv 17 `Gloom`!)**: In Turn 7993, we switched `22-Speed` Lv 17 `Gloom` (`Sylvanus`) into `#4 Relicanth` expecting `Gloom` to outspeed and OHKO `#4 Relicanth` with `1: Magical Leaf`, but `23+ Speed` `#4 Relicanth` moved first and used **`Yawn`** (putting `Gloom` to sleep on the same turn!). Furthermore, because we had queued `["A", "sleep 1500", "L"] * 9` after `1: Magical Leaf` expecting a KO + level-up, those trailing `A` presses kept selecting `FIGHT -> Magical Leaf` while `Gloom` was asleep until `Relicanth` KO'd `Gloom`!
+    2. **CRITICAL FIXES FOR ATTEMPT #41**:
+       - **Always Drop `#4 Relicanth`'s Speed to `-1` (`15 Speed`) BEFORE Switching in `Gloom`/`Weepinbell`**: `25–27 Speed` `Marshtomp` (`1: Mud Shot`) or `24-Speed` `Kabuto` (`1: Rock Tomb`) outspeeds `#4 Relicanth` on Turn 1 and lowers `#4 Relicanth` to `-1 Speed` (`~15 Speed`) while burning its `Sitrus Berry`. Then pivot through a `PAR` teammate (`locking #4 Relicanth out of Yawn on the switch turn!`) into `Gloom`/`Weepinbell` (`21–24 Speed` > `15-Speed` `-1` `Relicanth`!), or finish `-1 Speed` `#4 Relicanth` directly with `Kabuto`'s `4x` `3: Mega Drain` / `Marshtomp`'s `1: Mud Shot`!
+       - **Never Queue Trailing `A` Presses (`["A", "sleep 1500"] * N`) After an Attack in the Same Turn**: Stop right after the attack (`sleep 8500`) and only press `A` to advance level-up boxes on the following turn AFTER visually confirming `"Foe [POKEMON] fainted!♥"` on `<CurrentScreen>`!
+       - **Always OHKO Hiker Marc's `#1 Onix` (`Lv 15`, holds `Sitrus Berry`) With a `21+ Sp.Atk` STAB Water/Grass Move**: Never use `Azurill`'s non-STAB `BubbleBeam` (`15 Sp.Atk`) on Marc's `#1 Onix` (which leaves it in yellow HP after `Sitrus Berry` and triggers a `46+ damage` `Selfdestruct`); always keep `>= 346 EXP` buffer on `Luvdisc` (`3: Water Pulse`), `Kabuto` (`2: Water Pulse`), `Marshtomp` (`4: Water Gun`), or `Gloom` (`1: Magical Leaf`) to OHKO `#1 Onix` from 100% HP in one hit!
 - **Attempt #39 Post-Mortem (Reached Sailor Brenden — 5th Trainer in Dewford Gym!)**:
   - **Progression**: Defeated Gym Leader Roxanne (Turn 7467), cleared all 7 trainers on Route 116 and the 6-Pokemon Team Aqua Grunt in Rusturf Tunnel with 0 casualties, defeated the 6-Pokemon Route 106 Team Aqua Grunt with 0 casualties, caught `Spheal` (Dewford Town), `Seel` (Route 106), and `Spinda` (Granite Cave 1F — `Own Tempo`, `90 BP / 100% acc Dizzy Punch`, `Fake Out`, `Hypnosis`, `Recycle`), and defeated 4 of the 5 Dewford Gym trainers (`Battle Girl Laura`, `Black Belt Takao`, `Battle Girl Lilith`, `Black Belt Cristian`).
   - **Why We Wiped to Sailor Brenden (`(12, 8)`)**:
