@@ -4,11 +4,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 15, Adamant (41 HP, 28 Atk, 22 Def, 21 Sp.Atk, 20 Sp.Def, 20 Speed at Lv 14); met on Route 101 |
-| Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 15 (41 HP, 15 Atk, 19 Def, 20 Sp.Atk, 25 Sp.Def, 39 Speed); hooked at (18, 11) |
-| Route 103 | Delcatty | SELENE | Active | Female, Lv 15 (Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
-| Route 102 | Sandshrew | GAIA | Active | Female, Lv 15 (42 HP, 26 Atk, 30 Def at Lv 14; 1: Scratch, 2: Poison Sting, 3: Sand-Attack); caught at (39, 5) |
-| Petalburg City | Azurill | CALYPSO | Active | Female, Lv 15 (1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
+| Starter (Route 101) | Mudkip | POSEIDON | Active | Male, Lv 16, Adamant (45 HP, 30 Atk, 25 Def, 23 Sp.Atk, 22 Sp.Def, 22 Speed; evolves into Marshtomp at end of Red battle!); met on Route 101 |
+| Littleroot Town | Luvdisc | SIREN | Active | Female, Lv 16 (43 HP, 15 Atk, 20 Def, 21 Sp.Atk, 26 Sp.Def, 41 Speed; 1: Secret Power, 2: Charm, 3: Water Pulse, 4: Ice Beam); hooked at (18, 11) |
+| Route 103 | Delcatty | SELENE | Active | Female, Lv 16 (51 HP, 25 Atk, 28 Def, 20 Sp.Atk, 28 Sp.Def, 36 Speed; Careful, Cute Charm; held wild Moon Stone! 1: Fake Out, 2: Attract, 3: Sing, 4: Secret Power); caught at (18, 12) |
+| Route 102 | Sandshrew | GAIA | Active | Female, Lv 15 (44 HP, 27 Atk, 32 Def, 16 Sp.Atk, 15 Sp.Def, 20 Speed; Modest, Sand Veil; 1: Scratch, 2: Poison Sting, 3: Sand-Attack); caught at (39, 5) |
+| Petalburg City | Azurill | CALYPSO | Active | Female, Lv 15, Thick Fat (43 HP, 11 Atk, 19 Def, 14 Sp.Atk, 21 Sp.Def, 12 Speed; 1: Body Slam, 2: Charm, 3: Secret Power, 4: BubbleBeam); hooked at (11, 22) |
 | Route 104 | Natu | ATHENA | Active | Female, Lv 16 (42 HP, 24 Atk, 22 Def, 35 Sp.Atk, 18 Sp.Def, 30 Speed; 1: Peck, 2: Psybeam, 3: Night Shade); caught at (24, 60) |
 | Petalburg Woods | Oddish | SYLVANUS | Active (Boxed in BOX 1) | Male, Lv 8; caught at (12, 33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
