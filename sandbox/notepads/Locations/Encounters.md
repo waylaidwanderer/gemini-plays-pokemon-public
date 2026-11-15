@@ -1,8 +1,8 @@
-# Nuzlocke Encounters (Attempt #44)
+# Nuzlocke Encounters (Attempt #45)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | M Lv 5 Water |
+| Starter (Route 101) | — | — | Pending | Mudkip |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
 | Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |

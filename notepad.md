@@ -1,10 +1,10 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #44)
+# Nuzlocke Encounters (Attempt #45)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | M Lv 5 Water |
+| Starter (Route 101) | — | — | Pending | Mudkip |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
 | Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
@@ -38,15 +38,16 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #44
+# Nuzlocke Dashboard — Attempt #45
 
 ## Active Rules & Status
-- **Attempt**: #44
+- **Attempt**: #45
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#43)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#44)
+- **Attempt #44 Lesson**: Rival Brendan's Lv 5 `Treecko` on Route 103 holds a `Berry Juice` and knows `Quick Attack`, so two critical hits can beat an unboosted Lv 5 `Mudkip`. **Always feed 2 Rare Candies (`Lv 5 -> Lv 7`) to `Mudkip` right after exiting Professor Birch's Lab** before walking to Route 103 so Rival 1 is 100% crit-proof!
 - **Attempt #43 Post-Mortem**:
   - **What Worked**: Verified the **`[3350, 4700] * 7`** Old Rod cast cycle (which hooked our fishing encounter on the 2nd cast in both Littleroot Town and Petalburg City!), caught a wild `Sun Stone` `Sunkern -> Sunflora` and wild `Mareep` (Route 104), and verified that `Normal`-type + `PAR` `Azurill` locks the Team Magma Grunt's `#3 Koffing` and `#4 Duskull` out of `Toxic`, `Will-O-Wisp`, and `Shadow Sneak`, allowing `Electrike` (`4: Bite` [60 BP Special Dark]) to switch in for 0 damage and OHKO `#4 Duskull` and 2HKO `#5 Bagon`.
   - **Two Avoidable Mistakes & Rules for Attempt #44**:
