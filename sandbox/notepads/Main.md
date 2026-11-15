@@ -1,13 +1,15 @@
-# Nuzlocke Dashboard — Attempt #45
+# Nuzlocke Dashboard — Attempt #46
 
 ## Active Rules & Status
-- **Attempt**: #45
+- **Attempt**: #46
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
 ## Post-Mortem & Key Tactical Lessons (Attempts #1–#45)
-- **Attempt #45 Route 104 South Lesson**: Always raise all active party members (including `Triton`, `Galatea`, `Artemis`, and `Mudkip`) to **Lv 12–14** with Rare Candies and heal to 100% HP right after catching the Route 104 encounter at `(23, 60)` *before* stepping onto the `x=17` beach path where Bird Keeper Billy `(17, 66)` and Fisherman Darian `(17, 59)` trigger.
+- **Attempt #45 Route 102 Berry & Route 104 South Lessons**:
+  1. **Always End a Turn in the Free Overworld After Picking Route 102 `Oran` & `Pecha` Berries Before Using/Giving Them**: If a turn times out while `"The soil returned to its soft and loamy state."` is still open on screen, the Berry stays at `x 2` and using `2` copies removes it from the Bag (`x 2 -> x 0`) before auto-refilling!
+  2. **Always Return to the Petalburg City Pokemon Center After Catching the Route 104 Encounter at `(23, 60)`**: Raise all 6 party members to **Lv 13–14** with Rare Candies, heal to 100% HP, and equip held `Oran Berries` *before* stepping onto the Route 104 South beach to challenge Bird Keeper Billy `(17, 66)` and Fisherman Darian `(17, 59)`, and heal between Billy and Darian!
 - **Attempt #44 Lesson**: Rival Brendan's Lv 5 `Treecko` on Route 103 holds a `Berry Juice` and knows `Quick Attack`, so two critical hits can beat an unboosted Lv 5 `Mudkip`. **Always feed 2 Rare Candies (`Lv 5 -> Lv 7`) to `Mudkip` right after exiting Professor Birch's Lab** before walking to Route 103 so Rival 1 is 100% crit-proof!
 - **Attempts #34–#43 Consolidated Strategic Rules**:
   1. **Old Rod Timing**: Cycle **`[2500, 3150, 3850, 4500] * 4`** (`or * 3`) to hit every 2-dot bite window before timeout.

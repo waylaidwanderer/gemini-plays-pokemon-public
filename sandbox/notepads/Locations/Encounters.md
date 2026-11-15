@@ -1,13 +1,13 @@
-# Nuzlocke Encounters (Attempt #45)
+# Nuzlocke Encounters (Attempt #46)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 10; Starter from Prof. Birch |
-| Littleroot Town | Goldeen | TRITON | Active | Lv 5; Caught M Lv 5 at (17, 12) |
-| Route 103 | Wingull | ZEPHYRUS | Deceased | Lv 12; Fainted to Fisherman Darian's Goldeen after full paralysis (Turn 8524) |
-| Route 102 | Gulpin | MEDEA | Deceased | Lv 13; Fainted to Fisherman Darian's Goldeen crit Horn Attack (Turn 8515) |
-| Petalburg City | Azurill | GALATEA | Active | Lv 5; Caught F Lv 5 at (11, 22) |
-| Route 104 | Cubone | ARTEMIS | Deceased | Lv 7; Fainted to Fisherman Darian's Goldeen Dive (Turn 8525) |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 14..15) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
