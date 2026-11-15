@@ -4905,19 +4905,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion to ladder at (43, 1).
 - TM29 Psychic Alcove: Ladder at (43, 1) on 1F descends into an isolated, sealed B1F dead-end corridor (cols 42..43, rows 2..8). TM29 Psychic was collected at (42, 8). This is NOT an exit route; ladder returns back to 1F at (43, 2).
 
-## Victory Road Macro Progression & Elevation Model (Consolidated Turn 22953)
-- Subterranean Levels (Dark, Flash required):
-  - B1F & B2F require Flash.
-  - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended.
-  - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24. There is NO water connection to cols 26..28.
-  - The ONLY physical exit from B2F lower pool is ladder (19, 12) -> B1F (17, 16) -> row 17 west to Southwest Canyon (5, 17) -> south past Michelle (5, 21) -> ladder (5, 26) ascending to 1F.
-- Floor 1F:
-  - Spawns at (5, 26).
-  - South of (5, 26) and row 26 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
-  - Central Platform (13, 26): DO NOT HOP NORTH into the canyon (resets back to lower pool).
-  - Row 26 East: Blocked at (17, 26) by a solid cliff wall at column 18.
-  - Central Platform (13, 26) Warning: Hopping north off Central Platform drops into the canyon leading directly under the bridge into the lake at (15, 18), which resets the player into the closed B2F lower pool. This canyon descent must be avoided!
-  - Eastern Plateau Route on 1F: From Central Platform (13, 26), continue East along row 26 past (15, 26) to (17, 26), and explore the path around/past column 17 onto the eastern plateau without hopping north into the canyon or lake.
+## Victory Road Macro Progression & Verified Elevation Model (Consolidated Turn 23043)
+- Subterranean Floors & Flash Lighting:
+  - B1F and B2F require HM05 Flash.
+  - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended ("Can't use that here.").
+  - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
+  - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated subterranean shelf bounded on the south by impassable horizontal Acro Bike rails (rows 27..30), NOT an exit to 1F.
+- Canonical Progression Route to Exit:
+  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
 
 
 <hr>
