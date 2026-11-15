@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | POSEIDON | Active | Starter from Prof. Birch |
-| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Littleroot Town | Goldeen | TRITON | Active | Caught M Lv 5 at (17, 12) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Caught M Lv 4 at (12, 15) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
