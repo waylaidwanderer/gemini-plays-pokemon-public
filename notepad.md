@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AEOTNA | Active | M Lv 10 Water (Tackle, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Goldeen | TRITON | Active | M Lv 11 Water (BubbleBeam, Psybeam, Haze, Supersonic) |
+| Littleroot Town | Goldeen | TRITON | Deceased | M Lv 14 Water (Fainted Turn 8389 vs Magma Grunt Magnemite) |
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 15 Grass (Chlorophyll; Absorb, Growth, Razor Leaf) |
 | Route 102 | Electrike | ASTRAEA | Active | F Lv 15 Electric (Static; ThunderShock, Thunder Wave, Quick Attack, Bite) |
 | Petalburg City | Azurill | GALATEA | Active | F Lv 15 Normal (Thick Fat; Body Slam, Charm, Secret Power, BubbleBeam) |
