@@ -1,14 +1,14 @@
-# Nuzlocke Encounters (Attempt #43)
+# Nuzlocke Encounters (Attempt #44)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AEOTNA | Active | M Lv 14 Water (Tackle, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Goldeen | TRITON | Deceased | M Lv 14 Water (Fainted Turn 8389 vs Magma Grunt Magnemite) |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 16 Grass (Chlorophyll; Absorb, Growth, Razor Leaf, Synthesis) |
-| Route 102 | Electrike | ASTRAEA | Active | F Lv 16 Electric (Static; ThunderShock, Thunder Wave, Quick Attack, Bite) |
-| Petalburg City | Azurill | GALATEA | Active | F Lv 15 Normal (Thick Fat; Body Slam, Charm, Secret Power, BubbleBeam) |
-| Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static; Tackle, Growl) |
-| Petalburg Woods | Oddish | SYLVANUS | Boxed (BOX 1) | M Lv 8 Grass/Poison (Mega Drain, Acid) |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |

@@ -1,16 +1,16 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #43)
+# Nuzlocke Encounters (Attempt #44)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AEOTNA | Active | M Lv 14 Water (Tackle, Bubble, Mud Sport, Water Gun) |
-| Littleroot Town | Goldeen | TRITON | Deceased | M Lv 14 Water (Fainted Turn 8389 vs Magma Grunt Magnemite) |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 16 Grass (Chlorophyll; Absorb, Growth, Razor Leaf, Synthesis) |
-| Route 102 | Electrike | ASTRAEA | Active | F Lv 16 Electric (Static; ThunderShock, Thunder Wave, Quick Attack, Bite) |
-| Petalburg City | Azurill | GALATEA | Active | F Lv 15 Normal (Thick Fat; Body Slam, Charm, Secret Power, BubbleBeam) |
-| Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static; Tackle, Growl) |
-| Petalburg Woods | Oddish | SYLVANUS | Boxed (BOX 1) | M Lv 8 Grass/Poison (Mega Drain, Acid) |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
@@ -38,15 +38,20 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #43
+# Nuzlocke Dashboard — Attempt #44
 
 ## Active Rules & Status
-- **Attempt**: #43
+- **Attempt**: #44
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#41)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#43)
+- **Attempt #43 Post-Mortem**:
+  - **What Worked**: Verified the **`[3350, 4700] * 7`** Old Rod cast cycle (which hooked our fishing encounter on the 2nd cast in both Littleroot Town and Petalburg City!), caught a wild `Sun Stone` `Sunkern -> Sunflora` and wild `Mareep` (Route 104), and verified that `Normal`-type + `PAR` `Azurill` locks the Team Magma Grunt's `#3 Koffing` and `#4 Duskull` out of `Toxic`, `Will-O-Wisp`, and `Shadow Sneak`, allowing `Electrike` (`4: Bite` [60 BP Special Dark]) to switch in for 0 damage and OHKO `#4 Duskull` and 2HKO `#5 Bagon`.
+  - **Two Avoidable Mistakes & Rules for Attempt #44**:
+    1. **Never Chain the Team Magma Grunt Cutscene (`(26, 23)`) and Turn 1 Battle Inputs in One Turn**: Stop right after advancing the cutscene into battle so `"What will [POKEMON] do?"` is visually confirmed on `<CurrentScreen>` before issuing Turn 1 battle inputs.
+    2. **Never Chain a `Start -> BAG` `Pecha Berry` Cure and a Long Overworld Walk in the Same Turn**: If `sStartMenuCursorPos` is off by 1 index, the `Pecha Berry` cure is skipped and a 64-step walk faints a `16-HP` poisoned Pokemon (`1 HP` per 4 steps). Whenever any party member has `PSN`, cure `PSN` first and verify it is cleared (or open `Start` alone first to see the exact cursor position) before walking!
 - **Attempt #42 Post-Mortem (Reached Gym Leader Roxanne's #4 Lunatone with 3 Teammates at Lv 17)**:
   - **What Worked**: Caught all 9 pre-Roxanne encounters (`Marshtomp`, `Luvdisc`, `Spearow`, `Gulpin`, `Azurill`, `Jigglypuff`, `Pineco`, `Voltorb`, and Female `Kabuto`), verified that Josh's `#3 Sudowoodo` is `Rock/Grass` (`1.0x` neutral to Water; countered by `Voltorb`'s `20-fixed-damage SonicBoom`), verified that `Gulpin` learns `75 BP / 16 PP Giga Drain` at Lv 17 and `Yawn` (`100% accuracy`) puts the target to sleep immediately on hit (`like a 100%-accuracy Spore!`), and defeated Roxanne's `#1 Nosepass`, `#2 Anorith`, and `#3 Lileep`.
   - **Two Decisive Mistakes & How We Fix Them in Attempt #43**:
