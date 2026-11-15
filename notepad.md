@@ -4914,12 +4914,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - From B2F ascent ladder at (17, 16): Column 17 is blocked south by cliff at (17, 18). Step West to Column 16 at (16, 17).
 - Note on Row 21/25 Cul-de-sac: Heading south past Halle (15, 20) into rows 21..26 terminates at impassable Acro rails and cliff walls at (16, 21), (16, 23), and (19, 25); there is NO walkable eastward passage to Dianne on B1F.
 - Verified Progression Route: Follow row 17 west across cols 17..5 to the mouth of the Southwest Canyon at (5, 17). Follow column 4/5 south past Cooltrainer Michelle (5, 21) directly to the exit ladder at (5, 26) which ascends to 1F!
-## 1F Subterranean Lake & Waterfall Navigation (Verified Turn 22889)
-- Starting at (13, 17) on the subterranean lake:
-  - Western cliff blocks westward movement at row 17.
-  - Stepping Up x3 reaches row 14 at (13, 14), clearing the cliff corner.
-  - Waterway channel runs west along row 14 directly to the waterfall base at (9, 14).
-  - HM07 Waterfall ascends to upper canal at (9, 10), leading to Vito Winstrate at (15, 6) and the final exit path.
+## 1F Subterranean Lake & Waterfall Navigation (Verified Turns 22889-22904)
+- At (8, 14) on the 1F lake, Waterfall 2 at (8, 13) CANNOT be ascended with HM07 Waterfall ("Can't use that here."). It is strictly a one-way downward flow.
+- Surfing west to (8, 14) is a dead end.
+- The correct path on the 1F lake is to surf EAST:
+  - From (8, 14), surf East along row 14 to (13, 14) and continue East across the lake.
+  - Open water extends east to the eastern basin at (25, 12).
+  - Northeastern landing is at (33, 13).
+  - From (33, 13), walk south to Cooltrainer Dianne at (35, 22).
+  - Explore EAST of Dianne (cols 36..40, rows 21..24) to locate the exit doorway to Pokémon League HQ!
 
 <hr>
 
