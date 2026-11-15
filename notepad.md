@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 15; met on Route 101 |
 | Littleroot Town | Luvdisc | EROS | Active | Male, Lv 15; caught at (18, 11) |
-| Route 103 | Spearow | ZEUS | Active | Male, Lv 15; caught at (12, 15) |
+| Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 16; caught at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 15, Huge Power; caught at (11, 22) |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
