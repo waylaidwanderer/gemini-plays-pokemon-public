@@ -4,9 +4,9 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AEOTNA | Active | M Lv 10 Water (Tackle, Bubble, Mud Sport, Water Gun) |
+| Starter (Route 101) | Mudkip | AEOTNA | Active | M Lv 14 Water (Tackle, Bubble, Mud Sport, Water Gun) |
 | Littleroot Town | Goldeen | TRITON | Deceased | M Lv 14 Water (Fainted Turn 8389 vs Magma Grunt Magnemite) |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 15 Grass (Chlorophyll; Absorb, Growth, Razor Leaf) |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 16 Grass (Chlorophyll; Absorb, Growth, Razor Leaf, Synthesis) |
 | Route 102 | Electrike | ASTRAEA | Active | F Lv 15 Electric (Static; ThunderShock, Thunder Wave, Quick Attack, Bite) |
 | Petalburg City | Azurill | GALATEA | Active | F Lv 15 Normal (Thick Fat; Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static; Tackle, Growl) |
@@ -199,7 +199,7 @@
 
 ## Route 104 (South)
 - **Eastern Entrance**: Enters from Petalburg City `(0, 12)` onto `(39, 62)`.
-- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Venonat` Lv 7 [`Bug/Poison`, `Compoundeyes`, `Foresight`, `Leech Life`, learns `Psybeam` by Lv 12], `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7, `Nidoran♀` Lv 7).
+- **Tall Grass Patch**: Located at `(22..24, 56..61)` (observed wild species: `Mareep` Lv 7 [`Static`, `Tackle`, `Growl`, evolves into `Flaaffy` at Lv 15, verified Turn 8354], `Venonat` Lv 7 [`Bug/Poison`, `Compoundeyes`, `Foresight`, `Leech Life`, learns `Psybeam` by Lv 12], `Jigglypuff` Lv 7, `Cubone` Lv 7, `Natu` Lv 7, `Nidoran♀` Lv 7).
 - **Southbound & Northbound Shortcuts (Petalburg Woods <-> Petalburg City)**:
   - **Southbound (100% Grass-Free)**: From `(10, 39)` outside Petalburg Woods, walk `Down x5` to `(10, 44)`, `Right x10` to `(20, 44)`, `Down x4` to `(20, 48)`, `Right` to `(21, 48)`, `Down x5` to `(21, 53)`, `Left x4` to `(17, 53)`, `Down x18` down the northern beach stairs to `(17, 71)`, `Right x11` along `y=71` to `(28, 71)`, `Up x9` up the eastern beach stairs to `(28, 62)`, and `Right x12` along `y=62` straight into Petalburg City `(0, 12)`.
   - **Northbound (100% Grass-Free)**: From `(39, 62)`, walk `Left x11` to `(28, 62)`, `Down x9` down the beach stairs to `(28, 71)`, `Left x11` to `(17, 71)`, `Up x18` along `x=17` up the right side of the northern beach stairs at `(17, 55)` to `(17, 53)`, `Right x4` to `(21, 53)`, `Up x5` to `(21, 48)`, `Left` to `(20, 48)`, `Up x4` to `(20, 44)`, `Left x10` to `(10, 44)`, and `Up x6` into Petalburg Woods `(10, 38)`.
