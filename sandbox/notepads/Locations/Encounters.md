@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Starter from Prof. Birch |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Starter from Prof. Birch |
 | Littleroot Town | Goldeen | TRITON | Active | Caught M Lv 5 at (17, 12) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Caught M Lv 4 at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Caught F Lv 6 at (39, 5) |
