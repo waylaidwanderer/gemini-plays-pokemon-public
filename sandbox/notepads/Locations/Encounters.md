@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | APOSEIDON | Active | Lv 14; Starter from Prof. Birch |
-| Littleroot Town | Luvdisc | APHRODITE | Active | Lv 15; Caught F Lv 4 at (18, 11) |
+| Littleroot Town | Luvdisc | APHRODITE | Active | Lv 16; Caught F Lv 4 at (18, 11) |
 | Route 103 | Ledyba | — | Forfeited | Fled from F Lv 4 Ledyba to protect 6/25 HP Aposeidon |
 | Route 102 | Sandshrew | ATLAS | Active | Lv 14; Caught M Lv 6 at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Active | Lv 16; Caught F Lv 5 at (11, 22) |
