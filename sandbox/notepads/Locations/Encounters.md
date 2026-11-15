@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen | TRITON | Active | Caught M Lv 5 at (17, 12) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Caught M Lv 4 at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Caught F Lv 6 at (39, 5) |
-| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Petalburg City | Azurill | GALATEA | Active | Caught F Lv 5 at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
