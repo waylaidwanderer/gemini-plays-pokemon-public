@@ -379,3 +379,9 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - From B2F ascent ladder at (17, 16): Column 17 is blocked south by cliff at (17, 18). Step West to Column 16 at (16, 17).
 - Note on Row 21/25 Cul-de-sac: Heading south past Halle (15, 20) into rows 21..26 terminates at impassable Acro rails and cliff walls at (16, 21), (16, 23), and (19, 25); there is NO walkable eastward passage to Dianne on B1F.
 - Verified Progression Route: Follow row 17 west across cols 17..5 to the mouth of the Southwest Canyon at (5, 17). Follow column 4/5 south past Cooltrainer Michelle (5, 21) directly to the exit ladder at (5, 26) which ascends to 1F!
+## 1F Subterranean Lake & Waterfall Navigation (Verified Turn 22889)
+- Starting at (13, 17) on the subterranean lake:
+  - Western cliff blocks westward movement at row 17.
+  - Stepping Up x3 reaches row 14 at (13, 14), clearing the cliff corner.
+  - Waterway channel runs west along row 14 directly to the waterfall base at (9, 14).
+  - HM07 Waterfall ascends to upper canal at (9, 10), leading to Vito Winstrate at (15, 6) and the final exit path.
