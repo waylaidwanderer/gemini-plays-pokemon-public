@@ -4884,7 +4884,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Subterranean Upper Waterway & Canal System (Flash Cavern B2F/B1F)
 - Note: This entire canal system has an active Flash circular spotlight, proving it is within the subterranean levels (B2F/B1F), NOT the bright, fully lit 1F!
-- Subterranean Waterfall 2: Located at cols 7-9, rows 12-13. Scaled with HM07 Waterfall (Lilz) from (9, 14) to upper pool at (9, 10).
+- Subterranean Waterfall 2: Located at cols 7-9, rows 12-13. One-way slide plunging south into lower pool at (9, 14). Cannot be ascended.
 - Row 3 Waterway Junction (9, 3): Upper channel extends North from (9, 10) to (9, 3), branching East and West.
 - East Branch (cols 9..25, rows 3..7):
   - Cooltrainer Vito Winstrate defeated at (15, 6) (Dodrio, Kadabra, Electrode, Shiftry Lv 42; prize ¥2,064).
@@ -4923,13 +4923,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Northeastern landing is at (33, 13).
   - From (33, 13), walk south to Cooltrainer Dianne at (35, 22).
   - Explore EAST of Dianne (cols 36..40, rows 21..24) to locate the exit doorway to Pokémon League HQ!
-## B2F Dual Waterfall Mechanics (Verified Turn 22913)
-- Western Waterfall 2 (cols 7..9, rows 12..13): One-way downward flow into lower pool at (9, 14). CANNOT be ascended with HM07 Waterfall ("Can't use that here.").
-- Eastern Waterfall 1 (cols 26..28, row 12): The true scalable waterfall!
-  - Reached by surfing East along row 14 channel across cols 15..26.
-  - Base located at cols 26..28, row 12.
-  - Scaled with HM07 Waterfall (Lilz) to upper landing at (27, 8).
-  - From (27, 8), upper channel runs north to row 1, then west to northern landing at (16, 6) near Vito Winstrate and the final exit!
+## B2F Dual Waterfall Mechanics & Lower Pool Boundaries (Verified Turn 22923)
+- Western Waterfall 2 (cols 7..9, rows 12..13): Strictly a one-way downward flow into the lower pool at (9, 14). CANNOT be ascended with HM07 Waterfall ("Can't use that here.").
+- Lower Pool Boundaries: Lower pool (cols 7..21, rows 12..16) is completely blocked on the east by cliffs and water rocks at cols 21..24 (empirically verified across Turns 22678, 22712, 22713, 22734). There is NO water connection from this pool to cols 26..28.
+- Lower Pool Exit Route: The ONLY physical exit from this lower pool is disembarking at (18, 13) and climbing ladder (19, 12) to B1F (17, 16).
+- Eastern Waterfall 1 (cols 26..28, row 12): Located in the separate eastern basin, scaled with HM07 Waterfall to upper landing at (27, 8).
 
 <hr>
 
