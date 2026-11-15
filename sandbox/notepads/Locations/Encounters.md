@@ -2,11 +2,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 5; met on Route 101 |
-| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 4; caught at (18, 11) |
-| Route 103 | Spearow | ZEUS | Active | Male, Lv 4; caught at (12, 15) |
-| Route 102 | Gulpin | MEDEA | Active | Female, Lv 6; caught at (38, 6) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 5, Huge Power; caught at (11, 22) |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 14; met on Route 101 |
+| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 15; caught at (18, 11) |
+| Route 103 | Spearow | ZEUS | Active | Male, Lv 15; caught at (12, 15) |
+| Route 102 | Gulpin | MEDEA | Active | Female, Lv 15; caught at (38, 6) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 14, Huge Power; caught at (11, 22) |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 7; caught at (12, 33) (in PC Box 1) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |

@@ -4,11 +4,11 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 5; met on Route 101 |
-| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 4; caught at (18, 11) |
-| Route 103 | Spearow | ZEUS | Active | Male, Lv 4; caught at (12, 15) |
-| Route 102 | Gulpin | MEDEA | Active | Female, Lv 6; caught at (38, 6) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 5, Huge Power; caught at (11, 22) |
+| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 14; met on Route 101 |
+| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 15; caught at (18, 11) |
+| Route 103 | Spearow | ZEUS | Active | Male, Lv 15; caught at (12, 15) |
+| Route 102 | Gulpin | MEDEA | Active | Female, Lv 15; caught at (38, 6) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 14, Huge Power; caught at (11, 22) |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 7; caught at (12, 33) (in PC Box 1) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
@@ -237,7 +237,7 @@
     - `(3, 25)`: `Cheri Berry` tree (CRITICAL: end a turn in the free overworld right after picking so `Cheri Berries` auto-refill from `2 -> 99`!).
 - **Trainers & Bridge Path**:
   - **Rich Boy Winston** at `(21, 26)` facing `Up` (mandatory trainer watching `y=22..25`):
-    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Sunny Day`, `Pay Day`, `Metronome`, `Toxic`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate`, `Rock Smash`, `Ember`, `Bite`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Static` [paralyzes on contact moves, verified Turn 7130], `Thunder Wave`, `ThunderShock`, `Bite`, holds `Oran Berry`).
+    - Team (3 Pokemon): `Snubbull` (Lv 8, `Intimidate`, `Sunny Day`, `Pay Day`, `Metronome`, `Toxic`, holds `Oran/Sitrus Berry`), `Growlithe` (Lv 8, `Intimidate` or `Flash Fire` [verified Turn 8158], `Rock Smash`, `Ember`, `Bite`, holds `Oran Berry` / `Berry Juice`), `Electrike` (Lv 8, `Static` [paralyzes on contact moves, verified Turn 7130], `Thunder Wave`, `ThunderShock`, `Bite`, holds `Oran Berry`).
   - **Wooden Bridge & Cut Item**: Runs north from `x=30..31, y=21`. A Cut tree at `(35, 22)` east of the bridge blocks an item ball at `(37, 22)`.
   - **Lass Haley** at `(32, 22)` facing `Left` (mandatory trainer watching bridge entrance at `(30..31, 22)`):
     - Team (3 Pokemon): `Skitty` F (Lv 9, `Sing`, `Assist` [calls `PoisonPowder` and `Confuse Ray` from her teammates!], `Attract`, `Cute Charm`), `Oddish` (Lv 9, `Protect`, `Acid`, `Mega Drain`), `Vulpix` F (Lv 9, `19+ Speed` [outspeeds Lv 14 Mudkip at 17 Speed!], `Confuse Ray`, `Ember`, `Disable`, `Bite` [30% flinch], `Quick Attack`).
