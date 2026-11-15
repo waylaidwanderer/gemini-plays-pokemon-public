@@ -4916,7 +4916,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - South of (5, 26) and row 26 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
   - Central Platform (13, 26): DO NOT HOP NORTH into the canyon (resets back to lower pool).
   - Row 26 East: Blocked at (17, 26) by a solid cliff wall at column 18.
-  - Northern Progression Route on 1F: From Central Platform (13, 26), dirt highway leads North-East across cols 14-16, rows 21-25 toward northern staircase at (16, 21) and Northern Suspension Bridge (row 17, cols 18..37), connecting to the eastern plateau and the Pokémon League exit!
+  - Central Platform (13, 26) Warning: Hopping north off Central Platform drops into the canyon leading directly under the bridge into the lake at (15, 18), which resets the player into the closed B2F lower pool. This canyon descent must be avoided!
+  - Eastern Plateau Route on 1F: From Central Platform (13, 26), continue East along row 26 past (15, 26) to (17, 26), and explore the path around/past column 17 onto the eastern plateau without hopping north into the canyon or lake.
 
 
 <hr>
