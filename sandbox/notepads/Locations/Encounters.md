@@ -7,7 +7,7 @@
 | Route 103 | Spearow | ZEUS | Active | Male, Lv 4; caught at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 6; caught at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 5; caught at (11, 22) |
-| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Route 104 | Jigglypuff | CALLIOPE | Active | Female, Lv 7; caught at (23, 61) |
 | Petalburg Woods | — | — | Pending | Tall grass |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
