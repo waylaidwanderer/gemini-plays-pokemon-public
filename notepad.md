@@ -4574,7 +4574,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
-19. [ ] Hop south over ledges at rows 27-30 to Level 0 entrance cavern, heal at Ever Grande Center, and take canonical circuit: Western staircase (9, 36) -> Western Terrace -> B1F boulder puzzle -> upper bridge -> Samuel (35, 12) -> B2F ladder (30, 25) -> scale Waterfall 1 -> upper canal -> Vito Winstrate (15, 6) -> proceed north through the exit doorway to Ever Grande City north plateau and Pokémon League HQ!
+19. [ ] Execute whiteout reset to escape lower basin loop, restoring full HP/PP at Ever Grande Center, then take canonical circuit: Western staircase (9, 36) -> Western Terrace -> B1F boulder puzzle -> upper bridge -> Samuel (35, 12) -> B2F ladder (30, 25) -> scale Waterfall 1 -> upper canal -> Vito Winstrate (15, 6) -> proceed north through the exit doorway to Ever Grande City north plateau and Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4908,7 +4908,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## Victory Road Macro Progression & Verified Elevation Model (Consolidated Turn 23043)
 - Subterranean Floors & Flash Lighting:
   - B1F and B2F require HM05 Flash.
-  - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended ("Can't use that here.").
+  - B2F Western Waterfall 2 (cols 7..9, rows 12..14) is strictly a one-way downward outflow into the lower pool at (8..9, 14) that cannot be scaled from below, whereas Waterfall 1 (cols 26-28, row 12) is the scalable waterfall in the eastern basin.
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
@@ -4990,10 +4990,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x2 (1 used on Sage Turn 19843)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
-- Potion x1 (found buried at 25, 6 on Route 109)
+- Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x9 (verified 10 in Bag on turn 3303 before throwing second ball)
-- Berries: Cheri Berry x0 (held by Sage), Oran Berry x4 (harvested on Route 111), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
+- Berries: Cheri Berry x0 (held by Sage), Oran Berry x3 (harvested on Route 111, 1 held by Sage), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: TM29 Psychic (Victory Road alcove), TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)

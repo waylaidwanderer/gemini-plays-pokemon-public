@@ -39,7 +39,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
-19. [ ] Hop south over ledges at rows 27-30 to Level 0 entrance cavern, heal at Ever Grande Center, and take canonical circuit: Western staircase (9, 36) -> Western Terrace -> B1F boulder puzzle -> upper bridge -> Samuel (35, 12) -> B2F ladder (30, 25) -> scale Waterfall 1 -> upper canal -> Vito Winstrate (15, 6) -> proceed north through the exit doorway to Ever Grande City north plateau and Pokémon League HQ!
+19. [ ] Execute whiteout reset to escape lower basin loop, restoring full HP/PP at Ever Grande Center, then take canonical circuit: Western staircase (9, 36) -> Western Terrace -> B1F boulder puzzle -> upper bridge -> Samuel (35, 12) -> B2F ladder (30, 25) -> scale Waterfall 1 -> upper canal -> Vito Winstrate (15, 6) -> proceed north through the exit doorway to Ever Grande City north plateau and Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -373,7 +373,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 ## Victory Road Macro Progression & Verified Elevation Model (Consolidated Turn 23043)
 - Subterranean Floors & Flash Lighting:
   - B1F and B2F require HM05 Flash.
-  - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended ("Can't use that here.").
+  - B2F Western Waterfall 2 (cols 7..9, rows 12..14) is strictly a one-way downward outflow into the lower pool at (8..9, 14) that cannot be scaled from below, whereas Waterfall 1 (cols 26-28, row 12) is the scalable waterfall in the eastern basin.
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
