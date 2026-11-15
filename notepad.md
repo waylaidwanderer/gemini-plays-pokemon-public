@@ -12,7 +12,7 @@
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 7; caught at (12, 33) (in PC Box 1) |
 | Route 116 | Voltorb | HELIOS | Active | Genderless, Lv 9; caught at (6, 14) |
-| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Route 115 | Kabuto | TETHYS | Active | Female, Lv 9; caught at (7, 71) (in PC Box 1) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
