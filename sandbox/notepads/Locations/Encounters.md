@@ -8,7 +8,7 @@
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 17; caught at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Deceased | Female, Lv 16, Huge Power; fainted to Tammy's #5 Rhyhorn Megahorn on Turn 8238 |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
-| Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 16; caught at (12, 33) |
+| Petalburg Woods | Pineco | FORTRESS | Deceased | Male, Lv 16; fainted to Roxanne's #4 Lunatone Rock Slide on Turn 8281 after KOing #3 Lileep |
 | Route 116 | Voltorb | HELIOS | Deceased | Genderless, Lv 16; fainted to Roxanne's #2 Anorith on Turn 8264 after chipping it to ~42% HP with SonicBoom |
 | Route 115 | Kabuto | TETHYS | Active | Female, Lv 17; caught at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
