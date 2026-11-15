@@ -11,7 +11,7 @@
 | Petalburg City | Azurill | GALATEA | Active | Female, Lv 15, Huge Power; caught at (11, 22) |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 7; caught at (12, 33) (in PC Box 1) |
-| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 116 | Voltorb | HELIOS | Active | Genderless, Lv 9; caught at (6, 14) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
