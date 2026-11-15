@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | APOSEIDON | Active | Lv 7; Starter from Prof. Birch |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
-| Route 103 | — | — | Pending | Tall grass at (11..14, 14..15) |
+| Route 103 | Ledyba | — | Forfeited | Fled from F Lv 4 Ledyba to protect 6/25 HP Aposeidon |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
