@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | EROS | Active | Male, Lv 4; caught at (18, 11) |
 | Route 103 | Spearow | ZEUS | Active | Male, Lv 4; caught at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 6; caught at (38, 6) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 5; caught at (11, 22) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 5, Huge Power; caught at (11, 22) |
 | Route 104 | Jigglypuff | CALLIOPE | Active | Female, Lv 7; caught at (23, 61) |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 7; caught at (12, 33) (in PC Box 1) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
