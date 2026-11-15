@@ -4923,6 +4923,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Northeastern landing is at (33, 13).
   - From (33, 13), walk south to Cooltrainer Dianne at (35, 22).
   - Explore EAST of Dianne (cols 36..40, rows 21..24) to locate the exit doorway to Pokémon League HQ!
+## B2F Dual Waterfall Mechanics (Verified Turn 22913)
+- Western Waterfall 2 (cols 7..9, rows 12..13): One-way downward flow into lower pool at (9, 14). CANNOT be ascended with HM07 Waterfall ("Can't use that here.").
+- Eastern Waterfall 1 (cols 26..28, row 12): The true scalable waterfall!
+  - Reached by surfing East along row 14 channel across cols 15..26.
+  - Base located at cols 26..28, row 12.
+  - Scaled with HM07 Waterfall (Lilz) to upper landing at (27, 8).
+  - From (27, 8), upper channel runs north to row 1, then west to northern landing at (16, 6) near Vito Winstrate and the final exit!
 
 <hr>
 
