@@ -6,11 +6,11 @@
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (0/10), Pursuit (16/20), Leaf Blade (0/15), Quick Attack (25/30). HP: 60/188. Held: Oran Berry. Status: OK.
+1. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
 2. LILZ (Lombre ♀, Level 30) - Evolved from Lotad on turn 4926! Level 30 on turn 19237! Moves: Dive (10/10), Waterfall (14/15), Surf (14/15), Flash (20/20). HP: 85/85. Status: OK. Revived and fully restored Turn 19931!
 3. CIPHER (Kadabra ♂, Level 16) - Caught in Granite Cave B2F with Great Ball! Evolved on turn 16536! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Caught in Granite Cave B1F with Poké Ball. Type: Steel/Rock. Level 17 on turn 19837! HP: 47/47. Max HP: 47. Nature: Impish (+Def, -Sp.Atk). Ability: Rock Head. Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). Status: OK. Fully restored Turn 19931!
-5. MOCHI (Wynaut ♂, Level 7) - Hatched from Lavaridge Egg on turn 10243! Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. Nature: Lax. Ability: Shadow Tag.
+5. SAGE (Sceptile ♂, Level 62) - Level 62 on turn 21978! (Stats: HP 188, Atk 140, Def 101, SpA 152, SpD 137, Spe 184). Moves: Rock Tomb (0/10), Pursuit (16/20), Leaf Blade (0/15), Quick Attack (25/30). HP: 60/188. Held: Oran Berry. Status: OK.
 6. GUAVA (Tropius ♀, Level 29) - Caught on Route 119 with Great Ball on turn 8460! Level 29 on turn 17431! Type: Grass/Flying. HP: 95/95. Max HP: 95. Status: OK. Nature: Lax. Ability: Chlorophyll. Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15).
 
 ## Bag Highlights
