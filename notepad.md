@@ -1,18 +1,18 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #42)
+# Nuzlocke Encounters (Attempt #43)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Temp) | Male, Lv 17; reached Lv 17 on Hiker Marc's #2 Kabuto (benched until Roxanne is defeated) |
-| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 17; caught at (18, 11) |
-| Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) |
-| Route 102 | Gulpin | MEDEA | Active | Female, Lv 17; caught at (38, 6) |
-| Petalburg City | Azurill | GALATEA | Deceased | Female, Lv 16, Huge Power; fainted to Tammy's #5 Rhyhorn Megahorn on Turn 8238 |
-| Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
-| Petalburg Woods | Pineco | FORTRESS | Deceased | Male, Lv 16; fainted to Roxanne's #4 Lunatone Rock Slide on Turn 8281 after KOing #3 Lileep |
-| Route 116 | Voltorb | HELIOS | Deceased | Genderless, Lv 16; fainted to Roxanne's #2 Anorith on Turn 8264 after chipping it to ~42% HP with SonicBoom |
-| Route 115 | Kabuto | TETHYS | Deceased | Female, Lv 17; fainted to Roxanne's #4 Lunatone Confusion on Turn 8284 |
+| Starter (Route 101) | — | — | Pending | Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
@@ -38,10 +38,10 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #42
+# Nuzlocke Dashboard — Attempt #43
 
 ## Active Rules & Status
-- **Attempt**: #42
+- **Attempt**: #43
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
