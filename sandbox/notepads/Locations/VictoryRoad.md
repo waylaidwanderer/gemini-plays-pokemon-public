@@ -30,7 +30,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 7. [x] Crossed southern suspension bridge on 1F to reach eastern landing at (21, 34) (Turn 19736)!
 8. [x] Eastern Plateau ladder at (21, 32) & Middle Bridge: Verified as one-way return exits from deeper in Victory Road, not accessible entrances from 1F (Refuted Turn 21742).
 9. [x] Navigate B2F: Surfed subterranean lake and scaled waterfall with Lilz (Turns 21872-21884)!
-10. [x] Scale 1F waterfall using HM07 Waterfall with Lilz (Turn 22336 at 9, 14 -> 9, 10)!
+10. [x] Scaled eastern waterfall (Waterfall 1) using HM07 Waterfall with Lilz (Turn 22336 at 26..28, 12 -> 27, 8)!
 11. [x] Explore upper water channel and reach northern sandy landing at (16, 6) (Turn 22344)!
 12. [x] Defeat Cooltrainer Vito Winstrate at (15, 6) (Turn 22376)!
 13. [x] Descended eastern waterfall at (25, 8) -> (25, 12) (Turn 22385)!
@@ -370,26 +370,15 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion to ladder at (43, 1).
 - TM29 Psychic Alcove: Ladder at (43, 1) on 1F descends into an isolated, sealed B1F dead-end corridor (cols 42..43, rows 2..8). TM29 Psychic was collected at (42, 8). This is NOT an exit route; ladder returns back to 1F at (43, 2).
 
-## Victory Road Macro Progression Model (Verified Turn 22774)
-- B1F/B2F Separation: Flash darkness confirms B1F and B2F are the subterranean floors.
-- Waterfall 2 (cols 7-9, rows 12-13) is strictly a one-way downward slide into the lower pool at (9, 14) and CANNOT be ascended with HM07 Waterfall.
-- True Route to Exit: Navigate to the canyon floor where Cooltrainer Dianne stands at (35, 22). Systematically explore EAST past Dianne into cols 36..40 (rows 21..24) to locate the exit doorway leading north to Ever Grande City north plateau and the Pokémon League HQ!
-- Exit Path from Lower Pool: Climb ladder at (19, 12) to B1F, navigate to the eastern canyon floor at Dianne (35, 22), and head east.
-## B1F Lower Basin & Southwest Canyon Routing (Verified Turn 22861)
-- From B2F ascent ladder at (17, 16): Column 17 is blocked south by cliff at (17, 18). Step West to Column 16 at (16, 17).
-- Note on Row 21/25 Cul-de-sac: Heading south past Halle (15, 20) into rows 21..26 terminates at impassable Acro rails and cliff walls at (16, 21), (16, 23), and (19, 25); there is NO walkable eastward passage to Dianne on B1F.
-- Verified Progression Route: Follow row 17 west across cols 17..5 to the mouth of the Southwest Canyon at (5, 17). Follow column 4/5 south past Cooltrainer Michelle (5, 21) directly to the exit ladder at (5, 26) which ascends to 1F!
-## 1F Subterranean Lake & Waterfall Navigation (Verified Turns 22889-22904)
-- At (8, 14) on the 1F lake, Waterfall 2 at (8, 13) CANNOT be ascended with HM07 Waterfall ("Can't use that here."). It is strictly a one-way downward flow.
-- Surfing west to (8, 14) is a dead end.
-- The correct path on the 1F lake is to surf EAST:
-  - From (8, 14), surf East along row 14 to (13, 14) and continue East across the lake.
-  - Open water extends east to the eastern basin at (25, 12).
-  - Northeastern landing is at (33, 13).
-  - From (33, 13), walk south to Cooltrainer Dianne at (35, 22).
-  - Explore EAST of Dianne (cols 36..40, rows 21..24) to locate the exit doorway to Pokémon League HQ!
-## B2F Dual Waterfall Mechanics & Lower Pool Boundaries (Verified Turn 22923)
-- Western Waterfall 2 (cols 7..9, rows 12..13): Strictly a one-way downward flow into the lower pool at (9, 14). CANNOT be ascended with HM07 Waterfall ("Can't use that here.").
-- Lower Pool Boundaries: Lower pool (cols 7..21, rows 12..16) is completely blocked on the east by cliffs and water rocks at cols 21..24 (empirically verified across Turns 22678, 22712, 22713, 22734). There is NO water connection from this pool to cols 26..28.
-- Lower Pool Exit Route: The ONLY physical exit from this lower pool is disembarking at (18, 13) and climbing ladder (19, 12) to B1F (17, 16).
-- Eastern Waterfall 1 (cols 26..28, row 12): Located in the separate eastern basin, scaled with HM07 Waterfall to upper landing at (27, 8).
+## Victory Road Macro Progression & Elevation Model (Consolidated Turn 22953)
+- Subterranean Levels (Dark, Flash required):
+  - B1F & B2F require Flash.
+  - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended.
+  - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24. There is NO water connection to cols 26..28.
+  - The ONLY physical exit from B2F lower pool is ladder (19, 12) -> B1F (17, 16) -> row 17 west to Southwest Canyon (5, 17) -> south past Michelle (5, 21) -> ladder (5, 26) ascending to 1F.
+- Floor 1F:
+  - Spawns at (5, 26).
+  - South of (5, 26) and row 26 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
+  - Central Platform (13, 26): DO NOT HOP NORTH into the canyon (resets back to lower pool).
+  - Row 26 East: Blocked at (17, 26) by a solid cliff wall at column 18.
+  - Northern Progression Route on 1F: From Central Platform (13, 26), dirt highway leads North-East across cols 14-16, rows 21-25 toward northern staircase at (16, 21) and Northern Suspension Bridge (row 17, cols 18..37), connecting to the eastern plateau and the Pokémon League exit!
