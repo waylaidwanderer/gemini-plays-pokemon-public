@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AEOTNA | Active | Lv 5 Water |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
-| Route 103 | Sunkern | HELIOS | Active | F Lv 4 Grass (Chlorophyll) |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 4 Grass (Chlorophyll, held wild Sun Stone!) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
