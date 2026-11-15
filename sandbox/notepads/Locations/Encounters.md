@@ -10,7 +10,7 @@
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Deceased | Male, Lv 16; fainted to Roxanne's #4 Lunatone Rock Slide on Turn 8281 after KOing #3 Lileep |
 | Route 116 | Voltorb | HELIOS | Deceased | Genderless, Lv 16; fainted to Roxanne's #2 Anorith on Turn 8264 after chipping it to ~42% HP with SonicBoom |
-| Route 115 | Kabuto | TETHYS | Active | Female, Lv 17; caught at (7, 71) |
+| Route 115 | Kabuto | TETHYS | Deceased | Female, Lv 17; fainted to Roxanne's #4 Lunatone Confusion on Turn 8284 |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
