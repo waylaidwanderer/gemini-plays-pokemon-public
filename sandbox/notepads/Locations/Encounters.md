@@ -7,7 +7,7 @@
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 4 Grass (Chlorophyll, held wild Sun Stone!) |
 | Route 102 | Electrike | ASTRAEA | Active | F Lv 6 Electric (ThunderShock, Thunder Wave) |
 | Petalburg City | Azurill | GALATEA | Active | F Lv 5 Normal (Water Gun, Charm) |
-| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static, Tackle, Growl) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
