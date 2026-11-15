@@ -5,7 +5,7 @@
 | Starter (Route 101) | Mudkip | POSEIDON | Active | Starter from Prof. Birch |
 | Littleroot Town | Goldeen | TRITON | Active | Caught M Lv 5 at (17, 12) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Caught M Lv 4 at (12, 15) |
-| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Route 102 | Gulpin | MEDEA | Active | Caught F Lv 6 at (39, 5) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
