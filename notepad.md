@@ -10,7 +10,7 @@
 | Route 102 | Electrike | ASTRAEA | Active | F Lv 15 Electric (Static; ThunderShock, Thunder Wave, Quick Attack, Bite) |
 | Petalburg City | Azurill | GALATEA | Active | F Lv 15 Normal (Thick Fat; Body Slam, Charm, Secret Power, BubbleBeam) |
 | Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static; Tackle, Growl) |
-| Petalburg Woods | Oddish | — | Pending | M Lv 8 Grass/Poison at (21, 35) |
+| Petalburg Woods | Oddish | SYLVANUS | Boxed (BOX 1) | M Lv 8 Grass/Poison (Mega Drain, Acid) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
