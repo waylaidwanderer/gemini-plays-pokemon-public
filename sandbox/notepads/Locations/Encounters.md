@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | MUDKIP | Active | Male, Lv 16; met on Route 101 |
+| Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Temp) | Male, Lv 17; reached Lv 17 on Hiker Marc's #2 Kabuto (benched until Roxanne is defeated) |
 | Littleroot Town | Luvdisc | EROS | Active | Male, Lv 16; caught at (18, 11) |
 | Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 16; caught at (38, 6) (banked at 13 EXP to Lv 17 in PC Box 1) |
