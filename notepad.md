@@ -4914,6 +4914,26 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
 
+## Macro Routing Discovery & Closed Loop Resolution (Verified Turns 23070-23162)
+- Lower Basin Closed Loop Identified:
+  1. Waterfall 2 (cols 7..9, rows 12..14) is strictly a one-way downward outflow into the lower pool at (8..9, 14); it CANNOT be climbed from below with HM07 Waterfall (verified Turn 23131).
+  2. The horizontal structures across rows 27..30 south of row 26 are impassable Acro Bike rails, not jump ledges; they cannot be hopped or crossed on foot or on the Mach Bike (verified Turns 23074, 23078, 23124).
+  3. B1F Lower Central Basin has no walkable eastern exit to the upper circuit (verified Turns 23118-23121).
+  4. The network (lower pool -> ladder 19, 12 -> B1F lower basin -> Michelle -> ladder 5, 26 -> return shelf -> lake 15, 18 -> lower pool) is a closed 1-way trap entered by sliding down Waterfall 2.
+- Deliberate Whiteout Strategy:
+  - Whiting out in battle safely teleports the player directly outside the last visited Pokémon Center (Ever Grande City Center on 1F South Plateau, registered Turn 19443).
+  - All six party Pokémon are 100% fully restored to Max HP and Max PP, escaping the trap with zero lost items.
+- Canonical Exit Circuit from 1F Entrance:
+  1. From 1F entrance, take western staircase at (9, 36) onto the Western Suspension Bridge.
+  2. Cross to Western Terrace and descend ladder (8, 13) to B1F Northwest chamber (boulder puzzle already solved).
+  3. Follow row 13 east past smashed rock (18, 12) to wooden stairs at (21, 10).
+  4. Cross Upper Suspension Bridge (row 8) past Samuel (35, 12) to Column 37 south.
+  5. Follow Southern Cavern Highway (row 26) to ladder (30, 25) descending to B2F.
+  6. At B2F lake (34, 17), surf west to Waterfall 1 (cols 26..28, row 12) and scale it with Lilz!
+  7. Follow upper stream to northern sandy landing at (16, 6) past Vito Winstrate (15, 6).
+  8. Walk straight north through the exit doorway to Ever Grande City North Plateau and Pokémon League HQ!
+
+
 <hr>
 
 <h1><code>Locations/WeatherInstitute</code></h1>
