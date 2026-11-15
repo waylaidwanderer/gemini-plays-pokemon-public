@@ -2,15 +2,15 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | MUDKIP | Active | Male, Lv 15; met on Route 101 |
-| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 15; caught at (18, 11) |
-| Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) |
+| Starter (Route 101) | Marshtomp | MUDKIP | Active | Male, Lv 16; met on Route 101 |
+| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 16; caught at (18, 11) |
+| Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) (in PC Box 1) |
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 16; caught at (38, 6) |
-| Petalburg City | Azurill | GALATEA | Active | Female, Lv 15, Huge Power; caught at (11, 22) |
+| Petalburg City | Azurill | GALATEA | Active | Female, Lv 16, Huge Power; caught at (11, 22) |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 7; caught at (12, 33) (in PC Box 1) |
-| Route 116 | Voltorb | HELIOS | Active | Genderless, Lv 9; caught at (6, 14) |
-| Route 115 | Kabuto | TETHYS | Active | Female, Lv 9; caught at (7, 71) (in PC Box 1) |
+| Route 116 | Voltorb | HELIOS | Active | Genderless, Lv 16; caught at (6, 14) |
+| Route 115 | Kabuto | TETHYS | Active | Female, Lv 16; caught at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
