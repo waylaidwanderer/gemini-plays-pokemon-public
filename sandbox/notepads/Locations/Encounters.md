@@ -2,8 +2,8 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | APOSEIDON | Active | Lv 7; Starter from Prof. Birch |
-| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Starter (Route 101) | Mudkip | APOSEIDON | Active | Lv 10; Starter from Prof. Birch |
+| Littleroot Town | Luvdisc | APHRODITE | Active | Lv 4; Caught F Lv 4 at (18, 11) |
 | Route 103 | Ledyba | — | Forfeited | Fled from F Lv 4 Ledyba to protect 6/25 HP Aposeidon |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
