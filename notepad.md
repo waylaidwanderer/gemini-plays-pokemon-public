@@ -4861,7 +4861,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - B1F Lower Basin Navigation (Turn 21941): Row 15 directly north of (18, 16) is the impassable cliff wall. The lower basin corridor runs South along column 18 (rows 16..20) toward a wooden ladder/staircase structure at (19, 20).
 - B1F Lower Basin Route to Exit Ladder (Turn 21943): The landing at (18, 16..17) connects West along row 17 into the main lower basin. The ladder ascending to 1F is located at (20, 20), reached via column 16 down to the southern highway at row 21.
 - B1F Lower Basin Trainers & Stealth Route (Turn 21949): Vito Winstrate is at (14, 16) facing South; a second trainer is at (14, 20) facing North. Column 16 (rows 17..20) is completely clear of both lines of sight, providing a clean stealth route to the southern highway at row 21 and the 1F exit ladder at (20, 20).
-- B1F Exit Ladder Route (Verified Turn 21950): From (16, 20), step Down to (16, 21), then East along row 21 across cols 17..20 directly to the base of the 1F exit ladder at (20, 21). Ascending at (20, 20) leads to 1F exit canyon!
+- B1F Exit Ladder Route (Hypothesized Turn 21950, Refuted): Sighted ladder rungs in southeastern rock face at (20, 20/21), but empirical testing confirmed rows 21-25 are blocked by cliff walls at (16, 21), (16, 23), and (19, 16). Progression does NOT exit via (20, 20).
 - Trainers Defeated: Cooltrainer ♀ Halle defeated at (15, 20) on B1F on Turn 21963 (Sableye Lv 43, Absol Lv 43; prize ¥2,064). SAGE Lv 61 took 0 damage (HP 167/185, Leaf Blade 10/15).
 - B1F Basin & Southwest Canyon Summary (Verified Turns 21963-22051):
   - Lower Central Basin (rows 16..20, cols 14..18) entered from B2F ladder (17, 16) contains Cooltrainer Halle at (15, 20) and Cooltrainer Mitchell at (14, 18).
@@ -4910,7 +4910,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B1F and B2F require HM05 Flash.
   - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended ("Can't use that here.").
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
-  - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated one-way return shelf on 1F bounded on the south by one-way jump ledges (rows 27..30) dropping south into Level 0 entrance cavern.
+  - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
 
