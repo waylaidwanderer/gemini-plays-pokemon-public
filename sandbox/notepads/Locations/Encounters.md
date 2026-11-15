@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Temp) | Male, Lv 17; reached Lv 17 on Hiker Marc's #2 Kabuto (benched until Roxanne is defeated) |
-| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 16; caught at (18, 11) |
+| Littleroot Town | Luvdisc | EROS | Active | Male, Lv 17; caught at (18, 11) |
 | Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) |
 | Route 102 | Gulpin | MEDEA | Active | Female, Lv 17; caught at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Deceased | Female, Lv 16, Huge Power; fainted to Tammy's #5 Rhyhorn Megahorn on Turn 8238 |
