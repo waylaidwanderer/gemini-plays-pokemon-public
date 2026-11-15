@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | GALATEA | Deceased | Female, Lv 16, Huge Power; fainted to Tammy's #5 Rhyhorn Megahorn on Turn 8238 |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 16; caught at (12, 33) |
-| Route 116 | Voltorb | HELIOS | Active | Genderless, Lv 16; caught at (6, 14) |
+| Route 116 | Voltorb | HELIOS | Deceased | Genderless, Lv 16; fainted to Roxanne's #2 Anorith on Turn 8264 after chipping it to ~42% HP with SonicBoom |
 | Route 115 | Kabuto | TETHYS | Active | Female, Lv 17; caught at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
