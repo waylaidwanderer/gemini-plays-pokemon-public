@@ -4574,7 +4574,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
-19. [ ] Navigate to Cooltrainer Dianne at (35, 22) and explore EAST past Dianne (cols 36..40, rows 21..24) to locate the true exit doorway leading north to Ever Grande City north plateau and Pokémon League HQ!
+19. [ ] Hop south over ledges at rows 27-30 to Level 0 entrance cavern, heal at Ever Grande Center, and take canonical circuit: Western staircase (9, 36) -> Western Terrace -> B1F boulder puzzle -> upper bridge -> Samuel (35, 12) -> B2F ladder (30, 25) -> scale Waterfall 1 -> upper canal -> Vito Winstrate (15, 6) -> proceed north through the exit doorway to Ever Grande City north plateau and Pokémon League HQ!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4913,7 +4913,6 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated subterranean shelf bounded on the south by impassable horizontal Acro Bike rails (rows 27..30), NOT an exit to 1F.
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
-
 
 <hr>
 
