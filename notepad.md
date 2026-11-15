@@ -7,12 +7,12 @@
 | Starter (Route 101) | Marshtomp | MARSHTOMP | Retired (Temp) | Male, Lv 17; reached Lv 17 on Hiker Marc's #2 Kabuto (benched until Roxanne is defeated) |
 | Littleroot Town | Luvdisc | EROS | Active | Male, Lv 16; caught at (18, 11) |
 | Route 103 | Spearow | ZEUS | Active | Male, Lv 16; caught at (12, 15) |
-| Route 102 | Gulpin | MEDEA | Active | Female, Lv 16; caught at (38, 6) (banked at 13 EXP to Lv 17 in PC Box 1) |
+| Route 102 | Gulpin | MEDEA | Active | Female, Lv 17; caught at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Deceased | Female, Lv 16, Huge Power; fainted to Tammy's #5 Rhyhorn Megahorn on Turn 8238 |
 | Route 104 | Jigglypuff | CALLIOPE | Deceased | Female, Lv 7; fainted to overworld poison at (4, 15) on Turn 8152 |
 | Petalburg Woods | Pineco | FORTRESS | Active | Male, Lv 16; caught at (12, 33) |
 | Route 116 | Voltorb | HELIOS | Active | Genderless, Lv 16; caught at (6, 14) |
-| Route 115 | Kabuto | TETHYS | Active | Female, Lv 16; caught at (7, 71) |
+| Route 115 | Kabuto | TETHYS | Active | Female, Lv 17; caught at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
