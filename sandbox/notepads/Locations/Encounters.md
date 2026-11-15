@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen | TRITON | Active | M Lv 5 Water (BubbleBeam, Psybeam, Haze) |
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 4 Grass (Chlorophyll, held wild Sun Stone!) |
 | Route 102 | Electrike | ASTRAEA | Active | F Lv 6 Electric (ThunderShock, Thunder Wave) |
-| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Petalburg City | Azurill | GALATEA | Active | F Lv 5 Normal (Water Gun, Charm) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
