@@ -2,13 +2,13 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AEOTNA | Active | Lv 5 Water |
-| Littleroot Town | Goldeen | TRITON | Active | M Lv 5 Water (BubbleBeam, Psybeam, Haze) |
-| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 4 Grass (Chlorophyll, held wild Sun Stone!) |
-| Route 102 | Electrike | ASTRAEA | Active | F Lv 6 Electric (ThunderShock, Thunder Wave) |
-| Petalburg City | Azurill | GALATEA | Active | F Lv 5 Normal (Water Gun, Charm) |
-| Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static, Tackle, Growl) |
-| Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
+| Starter (Route 101) | Mudkip | AEOTNA | Active | M Lv 10 Water (Tackle, Bubble, Mud Sport, Water Gun) |
+| Littleroot Town | Goldeen | TRITON | Active | M Lv 11 Water (BubbleBeam, Psybeam, Haze, Supersonic) |
+| Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 15 Grass (Chlorophyll; Absorb, Growth, Razor Leaf) |
+| Route 102 | Electrike | ASTRAEA | Active | F Lv 15 Electric (Static; ThunderShock, Thunder Wave, Quick Attack, Bite) |
+| Petalburg City | Azurill | GALATEA | Active | F Lv 15 Normal (Thick Fat; Body Slam, Charm, Secret Power, BubbleBeam) |
+| Route 104 | Mareep | AMALTHEA | Active | F Lv 7 Electric (Static; Tackle, Growl) |
+| Petalburg Woods | Oddish | — | Pending | M Lv 8 Grass/Poison at (21, 35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
