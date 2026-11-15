@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | MUDKIP | Active | Lv 10; Starter from Prof. Birch |
 | Littleroot Town | Goldeen | TRITON | Active | Lv 5; Caught M Lv 5 at (17, 12) |
-| Route 103 | Wingull | ZEPHYRUS | Active | Lv 12; Caught M Lv 4 at (12, 15) |
+| Route 103 | Wingull | ZEPHYRUS | Deceased | Lv 12; Fainted to Fisherman Darian's Goldeen after full paralysis (Turn 8524) |
 | Route 102 | Gulpin | MEDEA | Deceased | Lv 13; Fainted to Fisherman Darian's Goldeen crit Horn Attack (Turn 8515) |
 | Petalburg City | Azurill | GALATEA | Active | Lv 5; Caught F Lv 5 at (11, 22) |
 | Route 104 | Cubone | ARTEMIS | Active | Lv 7; Caught F Lv 7 at (23, 60) holding a wild item |
