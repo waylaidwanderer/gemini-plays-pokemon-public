@@ -7,7 +7,7 @@
 | Route 103 | Ledyba | — | Forfeited | Fled from F Lv 4 Ledyba to protect 6/25 HP Aposeidon |
 | Route 102 | Sandshrew | ATLAS | Active | Lv 13; Caught M Lv 6 at (38, 6) |
 | Petalburg City | Azurill | GALATEA | Active | Lv 13; Caught F Lv 5 at (11, 22) |
-| Route 104 | Natu | APOLLO | Active | Lv 13; Caught M Lv 7 at (23, 60) |
+| Route 104 | Natu | APOLLO | Active | Lv 14; Caught M Lv 7 at (23, 60) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
