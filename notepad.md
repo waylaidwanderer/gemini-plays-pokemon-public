@@ -4910,7 +4910,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B1F and B2F require HM05 Flash.
   - B2F Western Waterfall 2 (cols 7..9, rows 12..13) is strictly a one-way slide down into the lower pool at (9, 14). Cannot be ascended ("Can't use that here.").
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
-  - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated subterranean shelf bounded on the south by impassable horizontal Acro Bike rails (rows 27..30), NOT an exit to 1F.
+  - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated one-way return shelf on 1F bounded on the south by one-way jump ledges (rows 27..30) dropping south into Level 0 entrance cavern.
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
 
