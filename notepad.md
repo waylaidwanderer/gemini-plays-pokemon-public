@@ -7,7 +7,7 @@
 | Starter (Route 101) | Mudkip | AEOTNA | Active | Lv 5 Water |
 | Littleroot Town | Goldeen | TRITON | Active | M Lv 5 Water (BubbleBeam, Psybeam, Haze) |
 | Route 103 | Sunkern -> Sunflora | HELIOS | Active | F Lv 4 Grass (Chlorophyll, held wild Sun Stone!) |
-| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Route 102 | Electrike | ASTRAEA | Active | F Lv 6 Electric (ThunderShock, Thunder Wave) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (6..13, 27..33) |
