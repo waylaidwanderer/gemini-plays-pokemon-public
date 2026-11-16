@@ -379,6 +379,17 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
 
+## Exit Route to Ever Grande Pokémon Center & Refutation of Softlock Loop
+- Softlock Loop Refuted: The previous theory that sliding down Waterfall 2 trapped the player in an inescapable whiteout loop was FALSE. Hopping the south ledge at rows 27-28 on 1F leads directly to Level 0 entrance canyon!
+- Verified Exit to Pokémon Center:
+  1. From B2F lower pool, surf east along rows 14-16 to landing at (18..19, 13).
+  2. Take ladder at (19, 12) up to B1F lower central basin at (17, 16).
+  3. Walk west along row 17 across cols 13..6 to (5, 17), then south down Column 5 to ladder at (5, 26).
+  4. Ascend ladder at (5, 26) to 1F.
+  5. On 1F, hop the south-facing ledges at rows 27-28 down into Level 0 entrance canyon.
+  6. Walk south along Level 0 to the Victory Road southern entrance doorway at (15, 40).
+  7. Step outside into Ever Grande City south plateau and walk east to the Pokémon Center for a full team restore at Nurse Joy, saving over ¥5,000 in whiteout penalties!
+
 ## Macro Routing Discovery & Closed Loop Resolution (Verified Turns 23070-23162)
 - Lower Basin Closed Loop Identified:
   1. Waterfall 2 (cols 7..9, rows 12..14) is strictly a one-way downward outflow into the lower pool at (8..9, 14); it CANNOT be climbed from below with HM07 Waterfall (verified Turn 23131).
