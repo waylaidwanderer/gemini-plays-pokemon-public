@@ -39,7 +39,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
-19. [ ] Execute whiteout reset to escape lower basin loop, restoring full HP/PP at Ever Grande Center, then take canonical circuit: Western staircase (9, 36) -> Western Terrace -> B1F boulder puzzle -> upper bridge -> Samuel (35, 12) -> B2F ladder (30, 25) -> scale Waterfall 1 -> upper canal -> Vito Winstrate (15, 6) -> proceed north through the exit doorway to Ever Grande City north plateau and Pokémon League HQ!
+19. [x] Executed whiteout reset on Turn 23233 to escape lower basin loop, restoring 100% HP/PP to all 6 Pokémon at Ever Grande Center! Now traversing canonical circuit to Vito Winstrate (15, 6) and Pokémon League HQ exit!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -385,21 +385,4 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Closed Loop Confirmed: The lower network (B2F lower pool -> ladder 19, 12 -> B1F lower basin -> ladder 5, 26 -> row 26 shelf -> lake 15, 18 -> slide Waterfall 2) is a closed 1-way loop with no foot exit.
 - Whiteout Reset Protocol: Whiting out in a wild battle safely teleports May directly outside the Ever Grande City Pokémon Center, reviving all 6 Pokémon with 100% HP and 100% PP to take the canonical upper circuit.
 
-## Macro Routing Discovery & Closed Loop Resolution (Verified Turns 23070-23162)
-- Lower Basin Closed Loop Identified:
-  1. Waterfall 2 (cols 7..9, rows 12..14) is strictly a one-way downward outflow into the lower pool at (8..9, 14); it CANNOT be climbed from below with HM07 Waterfall (verified Turn 23131).
-  2. The horizontal structures across rows 27..30 south of row 26 are impassable Acro Bike rails, not jump ledges; they cannot be hopped or crossed on foot or on the Mach Bike (verified Turns 23074, 23078, 23124).
-  3. B1F Lower Central Basin has no walkable eastern exit to the upper circuit (verified Turns 23118-23121).
-  4. The network (lower pool -> ladder 19, 12 -> B1F lower basin -> Michelle -> ladder 5, 26 -> return shelf -> lake 15, 18 -> lower pool) is a closed 1-way trap entered by sliding down Waterfall 2.
-- Deliberate Whiteout Strategy:
-  - Whiting out in battle safely teleports the player directly outside the last visited Pokémon Center (Ever Grande City Center on 1F South Plateau, registered Turn 19443).
-  - All six party Pokémon are 100% fully restored to Max HP and Max PP, escaping the trap with zero lost items.
-- Canonical Exit Circuit from 1F Entrance:
-  1. From 1F entrance, take western staircase at (9, 36) onto the Western Suspension Bridge.
-  2. Cross to Western Terrace and descend ladder (8, 13) to B1F Northwest chamber (boulder puzzle already solved).
-  3. Follow row 13 east past smashed rock (18, 12) to wooden stairs at (21, 10).
-  4. Cross Upper Suspension Bridge (row 8) past Samuel (35, 12) to Column 37 south.
-  5. Follow Southern Cavern Highway (row 26) to ladder (30, 25) descending to B2F.
-  6. At B2F lake (34, 17), surf west to Waterfall 1 (cols 26..28, row 12) and scale it with Lilz!
-  7. Follow upper stream to northern sandy landing at (16, 6) past Vito Winstrate (15, 6).
-  8. Walk straight north through the exit doorway to Ever Grande City North Plateau and Pokémon League HQ!
+
