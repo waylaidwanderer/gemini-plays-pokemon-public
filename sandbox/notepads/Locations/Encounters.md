@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | APOSEIDON | Active | Lv 14; Starter from Prof. Birch |
+| Starter (Route 101) | Mudkip | APOSEIDON | Deceased | Lv 14; Fainted to Red's Squirtle on Route 104 |
 | Littleroot Town | Luvdisc | APHRODITE | Active | Lv 16; Caught F Lv 4 at (18, 11) |
 | Route 103 | Ledyba | — | Forfeited | Fled from F Lv 4 Ledyba to protect 6/25 HP Aposeidon |
 | Route 102 | Sandshrew | ATLAS | Active | Lv 15; Caught M Lv 6 at (38, 6) |
