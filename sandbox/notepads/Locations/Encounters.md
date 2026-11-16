@@ -2,9 +2,9 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 10; Starter from Prof. Birch |
-| Littleroot Town | Luvdisc | GALATEA | Active | Lv 10; Caught M Lv 4 with Old Rod at (18, 11) |
-| Route 103 | Wingull | ZEPHYRUS | Active | Lv 13; Caught M Lv 4 at (11, 15) |
+| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 14; Starter from Prof. Birch |
+| Littleroot Town | Luvdisc | GALATEA | Active | Lv 14; Caught M Lv 4 with Old Rod at (18, 11) |
+| Route 103 | Wingull | ZEPHYRUS | Active | Lv 14; Caught M Lv 4 at (11, 15) |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 5; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Nidoran♀ | ARTEMIS | Active | Lv 7; Caught F Lv 7 at (24, 61) |
