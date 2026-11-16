@@ -3,7 +3,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 10; Starter from Prof. Birch |
-| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Littleroot Town | Luvdisc | GALATEA | Active | Lv 4; Caught M Lv 4 with Old Rod at (18, 11) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Lv 4; Caught M Lv 4 at (11, 15) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
