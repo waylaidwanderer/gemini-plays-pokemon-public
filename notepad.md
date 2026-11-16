@@ -1,18 +1,18 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #47)
+# Nuzlocke Encounters (Attempt #48)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | AAPOSEIDON | Active | Lv 16 (`1: Mud Shot`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`); evolved Turn 8843 |
-| Littleroot Town | Luvdisc | GALATEA | Retired (Lv 17) | Lv 17; Caught M Lv 4 with Old Rod at (18, 11); benched until Roxanne is defeated |
-| Route 103 | Wingull | ZEPHYRUS | Retired (Lv 17) | Lv 17; Caught M Lv 4 at (11, 15); reached Lv 17 on Turn 8847 vs Hiker Marc; deposit in PC before Roxanne |
-| Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
-| Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
-| Route 104 | Nidorina | ARTEMIS | Deceased | Lv 17; Caught F Lv 7 at (24, 61); fainted Turn 8883 to Gym Leader Roxanne's Lunatone Confusion after KOing Lileep with Poison-type Artemis baited Lunatone 4th |
-| Petalburg Woods | Gloom | RAFFLESIA | Retired (Lv 17) | Lv 17; Caught M Lv 8 at (21, 34) (`1: Magical Leaf`, `2: Acid`, `3: Toxic`, `4: Bullet Seed`); reached Lv 17 on Turn 8860 vs Hiker Marc (Medium Slow 688 EXP buffer); bench in PC until Roxanne is defeated |
-| Route 116 | Natu | ORACLE | Deceased | Lv 16; Caught F Lv 9 at (5, 14); fainted Turn 8839 to School Kid Tammy's Larvitar Rock Slide (AI scores all moves that KO a low-HP target equally at +4) |
-| Route 115 | Kabuto | TRILOBITE | Active | Lv 16; Caught M Lv 9 with Old Rod at (7, 71) |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
@@ -38,15 +38,19 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #47
+# Nuzlocke Dashboard — Attempt #48
 
 ## Active Rules & Status
-- **Attempt**: #47
+- **Attempt**: #48
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#46)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#47)
+- **Attempt #47 Lessons (Rustboro Gym EXP Buffers, `NEXT LV.` Verification & Roxanne `Lunatone` Baiting)**:
+  1. **Never Let `Luvdisc` or `Wingull` Reach Lv 16 Before Rustboro City**: In Attempt #47, `Galatea` (`Luvdisc`) and `Zephyrus` (`Wingull`) reached Lv 16 on Route 104 North (`Twins Gina & Mia` and `PKMN Trainer Red`) and entered Rustboro Gym with ~470/653 EXP already filled, causing both of our `38–39 Speed` `Lunatone` counters to cross into Lv 17 against Tammy and Hiker Marc and get benched before Roxanne! Keep all pre-Roxanne encounters at **Lv 14–15** until arriving in Rustboro City, then use Rare Candies in Rustboro City so every Lv 16 party member starts Rustboro Gym with **`0 EXP` into Lv 16** (`full 585–817 EXP buffer`).
+  2. **Check Exact `NEXT LV.` Integer EXP on the Pokemon Summary Screen (`Page 2`) Before Tammy & Hiker Marc**: Never estimate remaining EXP from EXP-bar pixels (`Oddish -> Gloom` is `Medium Slow` `585 EXP` at Lv 16, so `520 + 82 = 602 > 585` leveled `Rafflesia` to Lv 17 on Hiker Marc's `Cacnea` when a 4-way split of `62 EXP` would have kept `Rafflesia` at `582 / 585 EXP`!).
+  3. **Never Finish Roxanne's `Lileep` with a `Poison`-Type While Back-Row Teammates Are at Low HP (`<=16 HP`)**: Finishing `#3 Lileep` with `Poison`-type `Nidorina` baited `#4 Lunatone` (`31–35 Speed`, `Confusion` deals `16 dmg` neutral / `32–38 dmg` `2x` super-effective) while `Marshtomp`, `Kabuto`, and `Azurill` were all at `10–12 HP`. Keep `38–39 Speed` `Luvdisc` (`2: Charm` + `3: Water Pulse`) and `Marshtomp` active and healthy (`>30 HP`) for Roxanne!
 - **Attempt #46 Lessons (Post-Send-Out Burn/Poison Timing & Route 115 Fossil Capture)**:
   1. **Never Chain EXP Dismissal (`"B", "sleep 8000"`) and an In-Battle Party Switch When Active Pokemon Has `BRN` or `PSN`**: After a KO, the trainer's next send-out + `"is hurt by its burn/poison!"` takes `~9.5–10.5s` total; if `Down, Left, A` fires at `8.0s`, it is eaten during the burn tick and leaves the burned Pokemon in (costing `Aposeidon` vs Red's `Squirtle` on Turn 8649). Always wait until `"What will [POKEMON] do?"` is visually open on `<CurrentScreen>` before queuing a Party switch!
   2. **Buy 22+ Poke Balls at the Rustboro Mart & Never Switch a `Rock`-Weak `Flying`-Type into Route 115 `Kabuto`/`Omanyte`**: In Gen 3, critical hits ignore negative Attack stages (`-2 Attack` from `Charm`), so a crit `2x` `Rock Tomb` dealt 26+ dmg to `Hoothoot` on Turn 8668. Always buy 22+ Poke Balls at the Rustboro Mart `(16, 45)` upon arriving in Rustboro City, and keep `Water`-resisting `Luvdisc`/`Goldeen`/`Marshtomp` on the field the entire time while chipping `Kabuto`/`Omanyte` to `<20%` red HP and throwing `Great Ball` + `25+ Poke Balls`!

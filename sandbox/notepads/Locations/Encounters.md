@@ -1,16 +1,16 @@
-# Nuzlocke Encounters (Attempt #47)
+# Nuzlocke Encounters (Attempt #48)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Marshtomp | AAPOSEIDON | Active | Lv 16 (`1: Mud Shot`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`); evolved Turn 8843 |
-| Littleroot Town | Luvdisc | GALATEA | Retired (Lv 17) | Lv 17; Caught M Lv 4 with Old Rod at (18, 11); benched until Roxanne is defeated |
-| Route 103 | Wingull | ZEPHYRUS | Retired (Lv 17) | Lv 17; Caught M Lv 4 at (11, 15); reached Lv 17 on Turn 8847 vs Hiker Marc; deposit in PC before Roxanne |
-| Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
-| Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
-| Route 104 | Nidorina | ARTEMIS | Deceased | Lv 17; Caught F Lv 7 at (24, 61); fainted Turn 8883 to Gym Leader Roxanne's Lunatone Confusion after KOing Lileep with Poison-type Artemis baited Lunatone 4th |
-| Petalburg Woods | Gloom | RAFFLESIA | Retired (Lv 17) | Lv 17; Caught M Lv 8 at (21, 34) (`1: Magical Leaf`, `2: Acid`, `3: Toxic`, `4: Bullet Seed`); reached Lv 17 on Turn 8860 vs Hiker Marc (Medium Slow 688 EXP buffer); bench in PC until Roxanne is defeated |
-| Route 116 | Natu | ORACLE | Deceased | Lv 16; Caught F Lv 9 at (5, 14); fainted Turn 8839 to School Kid Tammy's Larvitar Rock Slide (AI scores all moves that KO a low-HP target equally at +4) |
-| Route 115 | Kabuto | TRILOBITE | Active | Lv 16; Caught M Lv 9 with Old Rod at (7, 71) |
+| Starter (Route 101) | — | — | Pending | Choose Mudkip |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
