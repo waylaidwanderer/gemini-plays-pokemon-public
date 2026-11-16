@@ -8,7 +8,7 @@
 | Littleroot Town | Luvdisc | GALATEA | Active | Lv 10; Caught M Lv 4 with Old Rod at (18, 11) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Lv 13; Caught M Lv 4 at (11, 15) |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
-| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Petalburg City | Azurill | CALYPSO | Active | Lv 5; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
