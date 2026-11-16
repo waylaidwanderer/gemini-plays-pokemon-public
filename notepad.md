@@ -1,17 +1,17 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Nuzlocke Encounters (Attempt #46)
+# Nuzlocke Encounters (Attempt #47)
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | APOSEIDON | Deceased | Lv 14; Fainted to Red's Squirtle on Route 104 |
-| Littleroot Town | Luvdisc | APHRODITE | Active | Lv 16; Caught F Lv 4 at (18, 11) |
-| Route 103 | Ledyba | — | Forfeited | Fled from F Lv 4 Ledyba to protect 6/25 HP Aposeidon |
-| Route 102 | Sandshrew | ATLAS | Active | Lv 15; Caught M Lv 6 at (38, 6) |
-| Petalburg City | Azurill | GALATEA | Active | Lv 16; Caught F Lv 5 at (11, 22) |
-| Route 104 | Natu | APOLLO | Active | Lv 15; Caught M Lv 7 at (23, 60) |
-| Petalburg Woods | Hoothoot | HERMES | Active | Lv 16; Caught M Lv 8 at (21, 35) |
-| Route 116 | Grimer | TARTARUS | Active | Lv 9; Caught M Lv 9 at (6, 14) |
+| Starter (Route 101) | — | — | Pending | Mudkip from Prof. Birch's Bag |
+| Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
+| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
+| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
+| Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
+| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
@@ -38,15 +38,19 @@
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #46
+# Nuzlocke Dashboard — Attempt #47
 
 ## Active Rules & Status
-- **Attempt**: #46
+- **Attempt**: #47
 - **Current Level Cap**: Lv 16 (Roxanne - Rustboro Gym)
 - **Battle Style**: `Set` (Configure `TEXT SPEED: FAST` and `BATTLE STYLE: SET` via Start menu **once** inside the moving truck after `sleep 6500` or inside the Player's House 1F; never run the `OPTION` toggle twice as `Right` wraps `FAST -> SLOW` and `SET -> SHIFT`!)
 - **Unlimited Items & In-Battle Bag Restriction**: Rare Candies & any Berries currently in the Bag (`Cheri Berry` x99 cures Paralysis [harvested at `(3, 25)` on Route 104 North], `Pecha Berry` x99 cures Poison [harvested at `(25, 2)` on Route 102 and `(24, 41)` on Route 104 South], `Oran Berry` x99 +10 HP [harvested at `(24, 2)` on Route 102], plus `Leppa Berry` x99 +10 PP if taken from a wild `Cleffa`) auto-refilled to 99 at the **turn boundary** in the overworld (never consume the last copy `x 1 -> x 0` of a newly harvested Berry before ending a turn in the free overworld!). **Using Berries/healing items directly from the Bag during battle is disabled** (selecting a Berry in battle only shows `>CANCEL`; Berries work as held items in battle or from the Bag in the overworld).
 
-## Post-Mortem & Key Tactical Lessons (Attempts #1–#45)
+## Post-Mortem & Key Tactical Lessons (Attempts #1–#46)
+- **Attempt #46 Lessons (Post-Send-Out Burn/Poison Timing & Route 115 Fossil Capture)**:
+  1. **Never Chain EXP Dismissal (`"B", "sleep 8000"`) and an In-Battle Party Switch When Active Pokemon Has `BRN` or `PSN`**: After a KO, the trainer's next send-out + `"is hurt by its burn/poison!"` takes `~9.5–10.5s` total; if `Down, Left, A` fires at `8.0s`, it is eaten during the burn tick and leaves the burned Pokemon in (costing `Aposeidon` vs Red's `Squirtle` on Turn 8649). Always wait until `"What will [POKEMON] do?"` is visually open on `<CurrentScreen>` before queuing a Party switch!
+  2. **Buy 22+ Poke Balls at the Rustboro Mart & Never Switch a `Rock`-Weak `Flying`-Type into Route 115 `Kabuto`/`Omanyte`**: In Gen 3, critical hits ignore negative Attack stages (`-2 Attack` from `Charm`), so a crit `2x` `Rock Tomb` dealt 26+ dmg to `Hoothoot` on Turn 8668. Always buy 22+ Poke Balls at the Rustboro Mart `(16, 45)` upon arriving in Rustboro City, and keep `Water`-resisting `Luvdisc`/`Goldeen`/`Marshtomp` on the field the entire time while chipping `Kabuto`/`Omanyte` to `<20%` red HP and throwing `Great Ball` + `25+ Poke Balls`!
+  3. **Keep `Luvdisc` at Lv 14–15 Through Route 104 North**: Don't raise `Luvdisc` to Lv 15 before Petalburg Woods if she will gain ~400 EXP on Route 104 North; keep `Luvdisc` at Lv 14 until Rustboro City so she enters Rustboro Gym at Lv 16 with `0 EXP` (`full 653 EXP buffer`)!
 - **Attempt #45 Route 102 Berry & Route 104 South Lessons**:
   1. **Always End a Turn in the Free Overworld After Picking Route 102 `Oran` & `Pecha` Berries Before Using/Giving Them**: If a turn times out while `"The soil returned to its soft and loamy state."` is still open on screen, the Berry stays at `x 2` and using `2` copies removes it from the Bag (`x 2 -> x 0`) before auto-refilling!
   2. **Always Return to the Petalburg City Pokemon Center After Catching the Route 104 Encounter at `(23, 60)`**: Raise all 6 party members to **Lv 13–14** with Rare Candies, heal to 100% HP, and equip held `Oran Berries` *before* stepping onto the Route 104 South beach to challenge Bird Keeper Billy `(17, 66)` and Fisherman Darian `(17, 59)`, and heal between Billy and Darian!
