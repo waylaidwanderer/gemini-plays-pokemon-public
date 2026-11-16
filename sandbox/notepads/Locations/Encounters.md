@@ -9,7 +9,7 @@
 | Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Nidoran♀ | ARTEMIS | Active | Lv 14; Caught F Lv 7 at (24, 61) |
 | Petalburg Woods | Oddish | RAFFLESIA | Active | Lv 15; Caught M Lv 8 at (21, 34) |
-| Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
+| Route 116 | Natu | ORACLE | Boxed | Lv 9; Caught F Lv 9 at (5, 14) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
