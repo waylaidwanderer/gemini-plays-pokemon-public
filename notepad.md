@@ -4928,6 +4928,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Empirical Collision Testing (Turns 23301-23311): Walking to (30, 26) and facing/stepping North into (30, 25) confirms it is a solid brown rock cliff wall with no ladder rungs.
 - Column 37 dead-ends at row 26.
 - True Progression: Retrace steps back to (15, 12), ascend Column 15 canyon north to row 6, solve Northeast 4-rock puzzle (cols 19-21, rows 4-5), and follow Column 25 south past Cooltrainer Shannon (26, 16) to reach the true B2F entrance ladder!
+- Northeast 4-Rock Puzzle (Turns 23320-23326): 100% SOLVED! Both rocks shattered, lower boulder pushed South into (20, 6), upper boulder pushed North into (21, 3). Column 25 pathway is completely open!
 
 <hr>
 
