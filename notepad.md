@@ -4678,7 +4678,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 - Southern Highway & Acro Rails (Verified Turns 20101-20112):
   - Row 26 runs West from (40, 26) to (27, 26), terminating in a natural cliff cul-de-sac at (27, 25..26).
-  - Tile (30, 25) is the verified ladder down to B2F! (Discovered Turn 21830).
+  - Tile (30, 25) Refuted (Turn 23311): Tile (30, 25) is a solid rock wall forming a dead-end cul-de-sac above row 26, NOT a descent ladder.
   - Rows 27..30 below row 26 are horizontal Acro Bike rails that block foot and Mach Bike transit.
   - Staircase at (40, 21..25) leads to an isolated landing at (41..42, 21) bounded by row 20 cliff.
   - Active progression path leads through Column 15 canyon heading North from (15, 12) to (15, 6). (Note: northward movement from (31, 8) was refuted on Turn 21073 by the row 7 ledge).
@@ -4769,7 +4769,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## B1F Row 26 / Column 37 Topography & B2F Entrance (Verified Turn 21830)
 - Physical verification at (30, 26) confirms the corridor terminates in a solid cliff cul-de-sac at x=28/29 on the west and north, with horizontal Acro Bike rails running across rows 27-29 to the south.
-- The Southern Cavern Highway (row 26) contains the ladder to B2F at (30, 25)!
+- The Southern Cavern Highway (row 26) terminates in a solid cliff cul-de-sac at (30, 26) with no exit.
 ## Verified Flash Field Mechanic in Pokémon Emerald (Turn 21058)
 - In Pokémon Emerald, HM05 Flash expands the circular viewport around the player to a medium radius (~5 tiles) rather than illuminating the entire rectangular screen.
 - Flash remains active and persists across floor transitions; attempting to re-cast Flash displays: "This is in use already."
@@ -4890,7 +4890,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Clear water canal running West from (9, 3) to (4, 3).
   - Western Sand Cul-de-Sac (cols 1..5, rows 5..10): Closed dead-end shelf.
 - Cooltrainer Dianne: Stationed at (35, 22) on lower canyon floor. Acro Bike rails at rows 27-30 block foot progression south.
-- B2F Descent Ladder at (30, 25): Descends to B2F water area.
+- Row 26 Cul-de-sac: Confirmed dead-end with horizontal Acro rails to south and solid cliffs to north/west.
 
 
 ## 1F Upper Shelf & TM29 Alcove (Verified Turns 22544-22603)
@@ -4907,7 +4907,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
-  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> col 37 south -> B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
+  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
 
 ## Lower Network Closed Loop & Verified Whiteout Reset Protocol
 - Acro Rail Barrier (Empirically Verified Turns 23074, 23078, 23124, 23218): Rows 27-30 south of row 26 are horizontal cross-hatched Acro Bike rails, NOT jump ledges. They are completely impassable on foot or on the Mach Bike.
@@ -4923,6 +4923,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - SAGE (Lv 62 Sceptile, 184 Speed) moved to Slot 1 lead on Turn 23238, guaranteeing 100% first-turn flee success against all wild encounters.
 - B1F Northwest Boulder Puzzle: Solved on Turns 23282-23287 (Boulder 2 into 3, 7; Boulder 1 into 10, 10; Column 9 chute cleared to row 13).
 - HM06 Rock Smash: Cracked rock at (18, 12) successfully shattered on Turn 23292 using Cobalu. Row 12 corridor is open to wooden stairs at (21, 10).
+
+## Empirical Refutation of Tile (30, 25) (Turn 23311)
+- Empirical Collision Testing (Turns 23301-23311): Walking to (30, 26) and facing/stepping North into (30, 25) confirms it is a solid brown rock cliff wall with no ladder rungs.
+- Column 37 dead-ends at row 26.
+- True Progression: Retrace steps back to (15, 12), ascend Column 15 canyon north to row 6, solve Northeast 4-rock puzzle (cols 19-21, rows 4-5), and follow Column 25 south past Cooltrainer Shannon (26, 16) to reach the true B2F entrance ladder!
 
 <hr>
 
