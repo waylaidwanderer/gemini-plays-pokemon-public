@@ -6,7 +6,7 @@
 - Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 62) - Lead! HP: 188/188. Max HP: 188. Stats: Atk 140, Def 101, SpA 152, SpD 137, Spe 184. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
+1. SAGE (Sceptile ♂, Level 62) - Lead! HP: 151/188. Max HP: 188. Stats: Atk 140, Def 101, SpA 152, SpD 137, Spe 184. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
