@@ -9,7 +9,7 @@
 | Route 103 | Wingull | ZEPHYRUS | Boxed | Lv 16; Caught M Lv 4 at (11, 15) |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
-| Route 104 | Nidoran♀ | ARTEMIS | Active | Lv 14; Caught F Lv 7 at (24, 61) |
+| Route 104 | Nidorina | ARTEMIS | Active | Lv 16; Caught F Lv 7 at (24, 61) |
 | Petalburg Woods | Gloom | RAFFLESIA | Active | Lv 16; Caught M Lv 8 at (21, 34) |
 | Route 116 | Natu | ORACLE | Active | Lv 16; Caught F Lv 9 at (5, 14) |
 | Route 115 | Kabuto | TRILOBITE | Active | Lv 16; Caught M Lv 9 with Old Rod at (7, 71) |
