@@ -3,13 +3,13 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Boxed | Lv 15; Banked in BOX 1 before Gym trainers |
-| Littleroot Town | Luvdisc | GALATEA | Active | Lv 16; Caught M Lv 4 with Old Rod at (18, 11) |
+| Littleroot Town | Luvdisc | GALATEA | Retired (Lv 17) | Lv 17; Caught M Lv 4 with Old Rod at (18, 11); benched until Roxanne is defeated |
 | Route 103 | Wingull | ZEPHYRUS | Boxed | Lv 16; Caught M Lv 4 at (11, 15) |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Nidorina | ARTEMIS | Active | Lv 16; Caught F Lv 7 at (24, 61) |
-| Petalburg Woods | Gloom | RAFFLESIA | Active | Lv 16; Caught M Lv 8 at (21, 34) |
-| Route 116 | Natu | ORACLE | Active | Lv 16; Caught F Lv 9 at (5, 14) |
+| Petalburg Woods | Gloom | RAFFLESIA | Active | Lv 16; Caught M Lv 8 at (21, 34) (`1: Magical Leaf`, `2: Acid`, `3: Toxic`, `4: Bullet Seed`) |
+| Route 116 | Natu | ORACLE | Deceased | Lv 16; Caught F Lv 9 at (5, 14); fainted Turn 8839 to School Kid Tammy's Larvitar Rock Slide (AI scores all moves that KO a low-HP target equally at +4) |
 | Route 115 | Kabuto | TRILOBITE | Active | Lv 16; Caught M Lv 9 with Old Rod at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
