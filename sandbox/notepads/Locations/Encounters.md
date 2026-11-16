@@ -10,7 +10,7 @@
 | Route 104 | Nidoran♀ | ARTEMIS | Active | Lv 14; Caught F Lv 7 at (24, 61) |
 | Petalburg Woods | Oddish | RAFFLESIA | Active | Lv 15; Caught M Lv 8 at (21, 34) |
 | Route 116 | Natu | ORACLE | Boxed | Lv 9; Caught F Lv 9 at (5, 14) |
-| Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
+| Route 115 | Kabuto | TRILOBITE | Boxed | Lv 9; Caught M Lv 9 with Old Rod at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
