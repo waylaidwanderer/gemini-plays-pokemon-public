@@ -4575,6 +4575,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
 19. [x] Executed whiteout reset on Turn 23233 to escape lower basin loop, restoring 100% HP/PP to all 6 Pokémon at Ever Grande Center! Now traversing canonical circuit to Vito Winstrate (15, 6) and Pokémon League HQ exit!
+20. [x] Solved Northeast 4-rock puzzle (Turn 23326), clearing Column 25 south past Shannon (26, 16) toward B2F entrance!
 
 ## Floor B1F (Dark Basement Floor)
 - Entrance ladder from 1F at (8, 3) facing South.
@@ -4907,7 +4908,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
-  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> landing (33, 13) -> Cooltrainer Dianne (35, 22) -> exit doorway in cols 36..40.
+  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> exit north to Pokémon League HQ.
 
 ## Lower Network Closed Loop & Verified Whiteout Reset Protocol
 - Acro Rail Barrier (Empirically Verified Turns 23074, 23078, 23124, 23218): Rows 27-30 south of row 26 are horizontal cross-hatched Acro Bike rails, NOT jump ledges. They are completely impassable on foot or on the Mach Bike.
