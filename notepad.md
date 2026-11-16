@@ -10,7 +10,7 @@
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Nidoran♀ | ARTEMIS | Active | Lv 14; Caught F Lv 7 at (24, 61) |
-| Petalburg Woods | Oddish | RAFFLESIA | Active | Lv 14; Caught M Lv 8 at (21, 34) |
+| Petalburg Woods | Oddish | RAFFLESIA | Active | Lv 15; Caught M Lv 8 at (21, 34) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
