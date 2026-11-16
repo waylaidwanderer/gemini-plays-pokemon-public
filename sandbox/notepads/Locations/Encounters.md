@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | POSEIDON | Active | Lv 7; Starter from Prof. Birch |
+| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 7; Starter from Prof. Birch |
 | Littleroot Town | — | — | Pending | Old Rod at (18, 11) facing Down |
 | Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
