@@ -4,9 +4,9 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AAPOSEIDON | Boxed | Lv 15; Banked in BOX 1 before Gym trainers |
+| Starter (Route 101) | Marshtomp | AAPOSEIDON | Active | Lv 16 (`1: Mud Shot`, `2: Bubble`, `3: Mud Sport`, `4: Water Gun`); evolved Turn 8843 |
 | Littleroot Town | Luvdisc | GALATEA | Retired (Lv 17) | Lv 17; Caught M Lv 4 with Old Rod at (18, 11); benched until Roxanne is defeated |
-| Route 103 | Wingull | ZEPHYRUS | Boxed | Lv 16; Caught M Lv 4 at (11, 15) |
+| Route 103 | Wingull | ZEPHYRUS | Retired (Lv 17) | Lv 17; Caught M Lv 4 at (11, 15); reached Lv 17 on Turn 8847 vs Hiker Marc; deposit in PC before Roxanne |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Nidorina | ARTEMIS | Active | Lv 16; Caught F Lv 7 at (24, 61) |
