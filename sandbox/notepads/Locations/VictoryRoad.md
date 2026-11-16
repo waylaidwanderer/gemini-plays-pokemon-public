@@ -333,18 +333,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Both Halle (¥2,064) and Mitchell (¥2,064) defeated cleanly by Sage Lv 61->62.
   - The basin connects West along row 17 across cols 13..6, curving South at (5, 17) into the Southwest Canyon (cols 3..5, rows 18..26).
   - Cooltrainer ♀ Michelle defeated at (5, 21) on Turn 22048 (Torkoal Lv 42, Medicham Lv 42, Ludicolo Lv 42; prize ¥2,016). SAGE Lv 62 HP: 92/188.
-  - True 1F Exit Ladder: Located at (5, 26) at the southern end of the southwest canyon! Ascends directly into 1F exit canyon!
-- 1F Ascent from B1F Southwest Ladder (Verified Turn 22052):
-  - Emerged at (5, 26) on 1F!
-  - South of (5, 26) at rows 27-28 are one-way jump ledges dropping down to Level 0 entrance canyon (DO NOT HOP DOWN).
-- 1F Northern Lake & Grotto (Verified Turns 22060-22090):
-  - Subterranean lake on 1F: Entered from shore at (15, 18). A western water channel along rows 14-15 leads to a massive Waterfall at cols 7-9, rows 12-13. Scaling this waterfall with Lilz leads directly up to the 1F upper exit plateau!
-  - Ladder at (19, 12) is a one-way descent trap leading down to B1F (17, 16).
+  
+
+
 - B1F Edgar Verification (Verified Turn 22072):
   - Trainer at (14, 16) on B1F confirmed as Cooltrainer Edgar (defeated, dialogue: "Even outside of battle, I sense incredible power emanating from you and your POKéMON.").
 
-## Lower Level Routing Summary (Completed)
-- The entire lower dungeon network (B1F/B2F) culminates in ascending the Southwest Canyon ladder at (5, 26) to 1F, traversing the 1F subterranean lake, and scaling the 1F waterfall (cols 7-9, rows 12-13) with HM07 Waterfall to reach this upper exit terrace.
+
 
 
 ## Subterranean Upper Waterway & Canal System (Flash Cavern B2F/B1F)
@@ -361,7 +356,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - Western Sand Cul-de-Sac (cols 1..5, rows 5..10): Closed dead-end shelf.
 - Cooltrainer Dianne: Stationed at (35, 22) on lower canyon floor. Acro Bike rails at rows 27-30 block foot progression south.
 - B2F Descent Ladder at (30, 25): Descends to B2F water area.
-- True 1F Exit Route: The true exit to 1F and the Pokémon League is accessed via the B2F ladder at (19, 12) -> B1F (17, 16) -> Southwest Canyon -> 1F ladder at (5, 26)!
+
 
 ## 1F Upper Shelf & TM29 Alcove (Verified Turns 22544-22603)
 - Wooden Staircase at (34, 11): Ascends North to upper landing at (34, 9).
