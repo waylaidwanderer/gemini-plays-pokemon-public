@@ -5,14 +5,14 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Boxed | Lv 15; Banked in BOX 1 before Gym trainers |
-| Littleroot Town | Luvdisc | GALATEA | Active | Lv 14; Caught M Lv 4 with Old Rod at (18, 11) |
+| Littleroot Town | Luvdisc | GALATEA | Active | Lv 16; Caught M Lv 4 with Old Rod at (18, 11) |
 | Route 103 | Wingull | ZEPHYRUS | Boxed | Lv 16; Caught M Lv 4 at (11, 15) |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Nidoran♀ | ARTEMIS | Active | Lv 14; Caught F Lv 7 at (24, 61) |
 | Petalburg Woods | Oddish | RAFFLESIA | Active | Lv 15; Caught M Lv 8 at (21, 34) |
 | Route 116 | Natu | ORACLE | Active | Lv 9; Caught F Lv 9 at (5, 14) |
-| Route 115 | Kabuto | TRILOBITE | Active | Lv 9; Caught M Lv 9 with Old Rod at (7, 71) |
+| Route 115 | Kabuto | TRILOBITE | Active | Lv 16; Caught M Lv 9 with Old Rod at (7, 71) |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
