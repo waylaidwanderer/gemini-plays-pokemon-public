@@ -2,7 +2,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 14; Starter from Prof. Birch |
+| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 15; Starter from Prof. Birch |
 | Littleroot Town | Luvdisc | GALATEA | Active | Lv 14; Caught M Lv 4 with Old Rod at (18, 11) |
 | Route 103 | Wingull | ZEPHYRUS | Active | Lv 16; Caught M Lv 4 at (11, 15) |
 | Route 102 | Electrike | — | Forfeited | Fled M Lv 6 at (38, 4) when Aaposeidon dropped to 2/32 HP |
