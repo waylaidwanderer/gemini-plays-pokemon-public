@@ -250,7 +250,7 @@
 - **Landmarks**:
   - **Poke Mart**: Door at `(16, 45)` (building covers `x=14..17, y=42..45` with a streetlamp at `(18, 45)` and a boy at `(19, 44)`; use `x=20..21` for the main vertical avenue).
   - **Pokemon Center**: Door at `(16, 38)` (note: a streetlamp at `(18, 39)` blocks horizontal movement along `y=39` east of the Pokemon Center, so step onto `y=40` or `y=41` when routing between `(16, 39)` and the `x=21` avenue, verified Turn 7908).
-  - **Cutter's House**: Door at `(9, 38)` (enters at `(5, 8)` on a 2-tile doormat `(5..6, 8)`); Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`).
+  - **Cutter's House**: Door at `(9, 38)` (enters at `(5, 8)` on a 2-tile doormat `(5..6, 8)`); Cutter at `(7, 5)` inside gives `HM01 Cut` (interact from `(7, 6)` facing `Up`; requires 5 pre-fanfare textboxes + fanfare + put-away + 4 post-fanfare textboxes = `11` textboxes total, verified Turns 9037–9038).
   - **Pokemon Trainer's School**: Door at `(27, 34)` (fountain at `(27, 38)`); NPC at `(5, 3)` inside has no interaction script in this hack.
   - **House South-East of Gym**: Door at `(30, 28)` (building covers `x=28..32, y=25..28` with a fence blocking `x=24..35, y=25`; Trade Boy is inside at `(4, 4)`).
   - **Rustboro Gym & Adjacent House**: Rustboro Gym door at `(27, 19)`; house east of Gym has door at `(33, 19)` (doormat inside at `(5, 7)`). Exiting Rustboro Gym after earning the Stone Badge and walking west onto `(23, 20)` triggers the Devon Goods theft cutscene (`require ["sleep 6500"] + ["B", "sleep 1000", "L", "sleep 200"] * 12 + ["sleep 3000"]`, verified Turn 6196).
