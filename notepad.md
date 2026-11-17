@@ -4927,6 +4927,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> slide down Waterfall 2 (col 7, row 11) -> lower pool -> ladder at (19, 12) up to B1F Lower Central Basin (17, 16) -> Southwest Canyon past Michelle (5, 21) -> ladder at (5, 26) up to 1F North -> Pokémon League HQ exit!
 
+## Verified Spatial Mechanics & Waterfall Topography (Turns 23470-23489)
+- Lower Lake Waterfall 1 Base: Located at cols 24..26, row 11/12. Column 27 at row 11 is a solid brown rock cliff corner bounding the east side of the waterfall. The correct approach column to scale Waterfall 1 is Column 25 (or 26).
+- Scaling Waterfall 1: Position at (25, 12) facing North, press A to trigger 'It's a large waterfall. Would you like to use WATERFALL?', confirm YES with A, and Lilz scales the waterfall up to (25, 8).
+- Field Surf Prompt Timing: Interacting with water edge via 'A' takes ~600ms for dialogue and YES/NO prompt to populate; confirm with 'A', never press 'B' while prompt is active.
+- TM29 Shelf Isolation: Shelf accessed via wooden staircase at (34, 11) is verified 100% isolated for TM29 Psychic. Canonical exit path requires B2F Waterfall 2 -> B1F basin -> ladder at (5, 26) to 1F North.
+
 
 <hr>
 
