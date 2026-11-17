@@ -2,9 +2,9 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 7; Chosen M Lv 5 from Birch's Bag on Route 101 |
-| Littleroot Town | Goldeen | NEREID | Active | Lv 5; Caught F Lv 5 with Old Rod at (18, 11) |
-| Route 103 | — | — | Pending | Tall grass at (11..14, 15..16) |
+| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 10; Chosen M Lv 5 from Birch's Bag on Route 101 |
+| Littleroot Town | Goldeen | NEREID | Active | Lv 10; Caught F Lv 5 with Old Rod at (18, 11) |
+| Route 103 | Spearow | AQUILA | Active | Lv 10; Caught M Lv 4 at (12, 15) |
 | Route 102 | — | — | Pending | Tall grass at (37..39, 5..6) |
 | Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
