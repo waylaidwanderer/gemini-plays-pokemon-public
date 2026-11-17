@@ -2,7 +2,7 @@
 
 ## Run Status
 - **Attempt:** #1
-- **ROM Hack:** TBD (verifying on title screen)
+- **ROM Hack:** Custom Emerald Hack (vanilla title banner; custom map area/NPC/signpost spotted west of Littleroot Town tree border on Turn 31)
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
 - **Battle Style:** `SET` & Text Speed `FAST` (Verified in-game Start Menu Turn 19)
 
