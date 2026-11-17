@@ -10,3 +10,4 @@
 - **Custom Littleroot Pond & NPC (Turns 31–32):**
   - Spotted a custom 2x2 water pond in SE Littleroot Town (`x=16..17, y=11..12`, below May's house)—potential Littleroot Town fishing/Surf encounter later!
   - Spotted a custom pink-haired NPC in May's House 1F (`x=9, y=5`, top-right of pink rug). Talk using `A` + `B` advances so we don't blindly accept any unexpected prompt before reading it.
+  - Checked pink-haired NPC in May's House 1F (`(9,5)`, Turn 33): says `"Hi, neighbor! Do you already have your own POKéMON?"` — re-visit her AFTER obtaining our starter!
