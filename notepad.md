@@ -4932,6 +4932,11 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Scaling Waterfall 1: Position at (25, 12) facing North, press A to trigger 'It's a large waterfall. Would you like to use WATERFALL?', confirm YES with A, and Lilz scales the waterfall up to (25, 8).
 - Field Surf Prompt Timing: Interacting with water edge via 'A' takes ~600ms for dialogue and YES/NO prompt to populate; confirm with 'A', never press 'B' while prompt is active.
 - TM29 Shelf Isolation: Shelf accessed via wooden staircase at (34, 11) is verified 100% isolated for TM29 Psychic. Canonical exit path requires B2F Waterfall 2 -> B1F basin -> ladder at (5, 26) to 1F North.
+## 1F Southwest Ladder & Western Canyon Topography (Turns 23546-23552)
+- Ladder at (5, 26): Ascends from B1F Southwest Canyon (5, 26) to 1F shelf at (5, 26).
+- Tile (5, 25) directly north is a solid vertical cliff wall where the ladder hangs (bumping occurs if pressing Up). Direct northward movement along Column 5 is completely blocked.
+- Rows 27..29 directly south are horizontal Acro Bike rails.
+- Progression exit from (5, 26) requires stepping West across row 26 into the open Western Canyon corridor (cols 2..3) which runs freely to the North!
 
 
 <hr>
