@@ -369,6 +369,13 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Northern Corridor (cols 37..38, rows 2..3): Connects north from row 4, curving northeast around the rock protrusion to ladder at (43, 1).
 - TM29 Psychic Alcove: Ladder at (43, 1) on 1F descends into an isolated, sealed B1F dead-end corridor (cols 42..43, rows 2..8). TM29 Psychic was collected at (42, 8). This is NOT an exit route; ladder returns back to 1F at (43, 2).
 
+## Northeastern Upper Shelf (34, 11) Isolation Verified (Turns 23440-23450)
+- Wooden Staircase at (34, 11): Ascends from lower lake (34, 12) to (34, 9).
+- Highway at Row 4: Westward advance from (34, 4) is completely blocked by solid vertical cliff at col 32.
+- Northern Corridor at (38, 2): Westward advance is completely blocked by solid vertical cliff corner at (36..37, 2).
+- Eastern Path: The only passable corridor wraps northeast around rock protrusion (cols 39-41) to ladder at (43, 1), which descends exclusively to the TM29 Psychic alcove at (42, 8).
+- Conclusive Finding: This entire northeastern shelf is a self-contained, isolated dead-end area for TM29 Psychic. It contains NO connection to Pokémon League HQ.
+
 ## Victory Road Macro Progression & Verified Elevation Model (Consolidated Turn 23043)
 - Subterranean Floors & Flash Lighting:
   - B1F and B2F require HM05 Flash.
