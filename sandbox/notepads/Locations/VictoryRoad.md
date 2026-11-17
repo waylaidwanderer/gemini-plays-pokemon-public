@@ -162,14 +162,17 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Southeast Ledges & Item: Visible from row 35 (cols 35-40) and south of Albert, but empirical testing (Turns 20607-20639) proved rows 35-37 are solid cliff drops that cannot be hopped down, and col 28 at rows 38-39 is blocked by cliffs.
 - Southern Entrance Sector (rows 35-40): Adjacent to Route 128 southern entrance from Ever Grande City. The ladder at (42, 39) is an elevated return ladder in the entrance room, NOT the exit to Pokémon League HQ (which lies to the far north).
 
-## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516)
+## B1F Eastern Plateau & Southern Suspension Bridge Topography (Discovered Turn 20516, Mapped Turn 23376)
 - Southern Suspension Bridge (Row 15):
-  - Spans cols 34..39 at row 15 East across the chasm from (32, 16) staircase landing to (40, 15) eastern plateau.
+  - Spans cols 34..39 at row 15 East across the chasm from (32, 16) staircase landing to (40, 15..16) eastern plateau.
   - Sits elevated above Samuel's lower terrace corridor at col 37.
 - Eastern Plateau Layout:
-  - Bridge connects to landing at (40, 15).
+  - Bridge connects to landing at (40, 15..16).
   - Northern Edge: Terminated at (41..42, 13) by a solid cliff face; no northern passage.
-  - Southern Corridor: cols 40..42 extend South through rows 16..21 toward staircase at (40, 24).
+  - Southern Corridor: cols 40..42 extend South through rows 16..20 toward wooden staircase at (41, 21..24).
+  - Wooden Staircase at (41, 21..24): Descends South to landing at (41, 24..26). Wooden structure at (42, 23..24) sits against east cliff.
+  - Southern Barrier: Horizontal Acro Bike rails (rows 27..29) block south progression from (41, 26).
+  - Vertical One-Way Ledge at Col 39 (Verified Turn 23376): Jump ledge hopping WEST from (40, 26) into (38, 26) on the Southern Cavern Highway (Row 26). Confirms eastern plateau is a one-way bypass returning to Row 26.
 
 ## B1F Vertical Ledge & Lower Terrace Access (Verified Turns 20528-20539)
 - Vertical Ledge at Col 24: This one-way ledge hops WEST (from East to West). You cannot hop it from the west. Hopping west over it lands at (23, 14..15).
@@ -374,24 +377,3 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> exit north to Pokémon League HQ.
-
-## Lower Network Closed Loop & Verified Whiteout Reset Protocol
-- Acro Rail Barrier (Empirically Verified Turns 23074, 23078, 23124, 23218): Rows 27-30 south of row 26 are horizontal cross-hatched Acro Bike rails, NOT jump ledges. They are completely impassable on foot or on the Mach Bike.
-- Western Waterfall 2: Strictly a one-way downward slide into B2F lower pool; cannot be scaled from below with Waterfall.
-- Closed Loop Confirmed: The lower network (B2F lower pool -> ladder 19, 12 -> B1F lower basin -> ladder 5, 26 -> row 26 shelf -> lake 15, 18 -> slide Waterfall 2) is a closed 1-way loop with no foot exit.
-- Whiteout Reset Protocol: Whiting out in a wild battle safely teleports May directly outside the Ever Grande City Pokémon Center, reviving all 6 Pokémon with 100% HP and 100% PP to take the canonical upper circuit.
-
-
-
-
-## Reflection & Verified Progress (Turns 23233-23293)
-- Intentional Whiteout Reset: Executed on Turn 23233 to escape lower network trap; team 100% restored at Ever Grande Center.
-- SAGE (Lv 62 Sceptile, 184 Speed) moved to Slot 1 lead on Turn 23238, guaranteeing 100% first-turn flee success against all wild encounters.
-- B1F Northwest Boulder Puzzle: Solved on Turns 23282-23287 (Boulder 2 into 3, 7; Boulder 1 into 10, 10; Column 9 chute cleared to row 13).
-- HM06 Rock Smash: Cracked rock at (18, 12) successfully shattered on Turn 23292 using Cobalu. Row 12 corridor is open to wooden stairs at (21, 10).
-
-## Empirical Refutation of Tile (30, 25) (Turn 23311)
-- Empirical Collision Testing (Turns 23301-23311): Walking to (30, 26) and facing/stepping North into (30, 25) confirms it is a solid brown rock cliff wall with no ladder rungs.
-- Column 37 dead-ends at row 26.
-- True Progression: Retrace steps back to (15, 12), ascend Column 15 canyon north to row 6, solve Northeast 4-rock puzzle (cols 19-21, rows 4-5), and follow Column 25 south past Cooltrainer Shannon (26, 16) to reach the true B2F entrance ladder!
-- Northeast 4-Rock Puzzle (Turns 23320-23326): 100% SOLVED! Both rocks shattered, lower boulder pushed South into (20, 6), upper boulder pushed North into (21, 3). Column 25 pathway is completely open!
