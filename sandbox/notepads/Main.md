@@ -3,15 +3,15 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ALL 8 HOENN GYM BADGES COLLECTED! Rain Badge earned from Juan! Next stop: Ever Grande City & The Pokémon League!
+- Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 62) - Lead! HP: 151/188. Max HP: 188. Stats: Atk 140, Def 101, SpA 152, SpD 137, Spe 184. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
+1. SAGE (Sceptile ♂, Level 63) - Lead! HP: 191/191. Max HP: 191. Stats: Atk 141, Def 103, SpA 154, SpD 139, Spe 187. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
-5. MOCHI (Wynaut ♂, Level 7) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 30/30. Max HP: 30. Status: OK. 100% fully restored!
-6. GUAVA (Tropius ♀, Level 29) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 98/98. Max HP: 98. Status: OK. 100% fully restored!
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK. 100% fully restored!
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK. 100% fully restored!
 
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
@@ -47,7 +47,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥41,654 (earned ¥2,064 from Halle, ¥2,064 from Mitchell, ¥2,016 from Michelle, ¥2,064 from Vito)
+- Money: ¥47,846 (earned ¥2,064 from Edgar, ¥4,128 from Quincy & Katelynn)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -222,14 +222,9 @@
 7. [x] Scale the waterfall using HM07 Waterfall to reach Ever Grande City (Turn 19412 at 24, 68 -> 24, 59)!
 8. [x] Enter Ever Grande City Pokémon Center to register flight checkpoint (Turn 19443 at 7, 8)!
 9. [x] Defeat Rival Wally on Victory Road 1F (Turn 19548)! (Earned ¥2,700).
-10. [ ] Traverse Victory Road:
-    - [x] Clear 1F western terrace (Wally and Hope defeated).
-    - [x] Enter B1F via western ladder at (8, 13) -> (8, 3).
-    - [x] Traverse B1F / B2F (solved boulder puzzles, surfed subterranean lake, scaled waterfall, defeated Julie, Halle, Mitchell, Michelle).
-    - [x] Scaled B2F waterfall with Lilz, defeated Vito Winstrate on B2F, collected TM29 Psychic.
-    - [x] Verified wooden staircase at (34, 11) is isolated shelf for TM29 Psychic (Turn 23450).
-    - [ ] Scale Waterfall 1 to B2F upper canal, slide down Waterfall 2, climb ladder to B1F basin, and ascend ladder (5, 26) to 1F North to exit to Pokémon League HQ!
-11. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+10. [x] Traverse Victory Road (COMPLETED Turn 23825)! All trainers defeated, boulder puzzles solved, exited onto Ever Grande City North Plateau!
+11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
+12. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
