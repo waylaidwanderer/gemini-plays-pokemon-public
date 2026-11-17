@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 10; Chosen M Lv 5 from Birch's Bag on Route 101 |
 | Littleroot Town | Goldeen | NEREID | Active | Lv 10; Caught F Lv 5 with Old Rod at (18, 11) |
-| Route 103 | Spearow | AQUILA | Active | Lv 10; Caught M Lv 4 at (12, 15) |
+| Route 103 | Spearow | AQUILA | Active | Lv 12; Caught M Lv 4 at (12, 15) |
 | Route 102 | Meowth | MIDAS | Active | Lv 10; Caught M Lv 6 at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 5; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
@@ -185,7 +185,7 @@
 - **Landmarks**:
   - **Pokemon Center**: Door at `(20, 16)` (inside from `(7, 8)`, walk `Up x4, Right x3, Up x2` via `(7, 4) -> (10, 4) -> (10, 2)` to reach the PC at `(10, 2)`, avoiding NPCs at `(10, 7)` and `(9, 5)`).
   - **Poke Mart**: Door at `(25, 12)` (from `(20, 17)` outside the Pokemon Center, walk `Right x4` along `y=17` to `(24, 17)`, `Up x4` to `(24, 13)`, `Right` to `(25, 13)`, and `Up` into `(25, 12)` to avoid the signpost at `(17, 16)` and the wandering girl at `(16, 17)`; `Poke Ball` $10, `Potion` $300, `Antidote` $100, `Parlyz Heal` $200, `Awakening` $250, `Escape Rope` $550, `Repel` $350, `X Speed` $350, `X Attack` $500, `X Defend` $550, `Orange Mail` $50).
-  - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event; after pressing `A` at `(4, 108)` facing `Up`, `["B", "sleep 1000"] * 95` advances the entire Norman + Wally Ralts-catching tutorial back to `(4, 108)`).
+  - **Petalburg Gym**: Door at `(15, 8)`; Norman at `(4, 107)` inside (triggers Wally tutorial event; after pressing `A` at `(4, 108)` facing `Up`, `["B", "sleep 1000"] * 110` advances the entire Norman + Wally Ralts-catching tutorial back to `(4, 108)` — note that after Wally returns to the Gym at `"I promise I'll take really good care of it.♥"`, it takes 14 `B` presses + `sleep 2500` for Wally to exit and Norman to finish speaking before overworld movement is accepted, verified Turn 8939).
   - **Southern Pond**: Located at `x=6..11, y=23..25` (tree blocks `x=12..13, y=23..24`); stand on the northern shoreline at `(11, 22)` facing `Down` at `(11, 23)` to fish with Old Rod (route between `(11, 22)` and the Pokemon Center at `(20, 16)` via `(11, 22) <-> (11, 21) <-> (16, 21) <-> (16, 18) <-> (20, 18) <-> (20, 16)`; to reach the Petalburg Gym at `(15, 8)`, route north along `x=16` via `(16, 18) -> (16, 9) -> (15, 9) -> (15, 8)` to avoid the wandering boy/girl on `x=15..16, y=15..17`).
   - **Western Exit (to Route 104)**: Straight west along `y=12..13` to `x=0` (triggers Scott cutscene at `(4, 12)`, verified Turn 7817; to route between `(0, 12)` and the Pokemon Center at `(20, 16)`, use `x=16` for the vertical road `(0, 12) <-> (16, 12) <-> (16, 18) <-> (20, 18) <-> (20, 16)` to avoid Wally's house at `x=11..14, y=15..18`, the wandering boy on `x=14..15`, and the signpost at `(17, 16)`; note that walking from `(16, 12)` in Petalburg City to `(28, 62)` on Route 104 South requires `Left x28` total: `Left x16` to `(0, 12)`, `1 Left` to cross the map boundary onto `(39, 62)`, and `Left x11` to `(28, 62)`, verified Turn 6929).
 

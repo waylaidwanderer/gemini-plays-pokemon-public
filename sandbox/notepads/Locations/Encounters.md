@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 10; Chosen M Lv 5 from Birch's Bag on Route 101 |
 | Littleroot Town | Goldeen | NEREID | Active | Lv 10; Caught F Lv 5 with Old Rod at (18, 11) |
-| Route 103 | Spearow | AQUILA | Active | Lv 10; Caught M Lv 4 at (12, 15) |
+| Route 103 | Spearow | AQUILA | Active | Lv 12; Caught M Lv 4 at (12, 15) |
 | Route 102 | Meowth | MIDAS | Active | Lv 10; Caught M Lv 6 at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 5; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
