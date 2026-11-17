@@ -227,7 +227,8 @@
     - [x] Enter B1F via western ladder at (8, 13) -> (8, 3).
     - [x] Traverse B1F / B2F (solved boulder puzzles, surfed subterranean lake, scaled waterfall, defeated Julie, Halle, Mitchell, Michelle).
     - [x] Scaled B2F waterfall with Lilz, defeated Vito Winstrate on B2F, collected TM29 Psychic.
-    - [ ] Ascend wooden staircase at (34, 11) to 1F upper shelf and explore row 4 to locate the true exit doorway to Pokémon League HQ!
+    - [x] Verified wooden staircase at (34, 11) is isolated shelf for TM29 Psychic (Turn 23450).
+    - [ ] Scale Waterfall 1 to B2F upper canal, slide down Waterfall 2, climb ladder to B1F basin, and ascend ladder (5, 26) to 1F North to exit to Pokémon League HQ!
 11. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.

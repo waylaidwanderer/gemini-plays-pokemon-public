@@ -4574,7 +4574,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 16. [x] Climbed ladder back to 1F at (43, 2) (Turn 22602)!
 17. [x] Explored lower canyon south of Dianne on B1F (Turn 22640): Canyon terminates at horizontal Acro Bike rails (rows 27..30) and B2F descent ladder at (30, 25). This is NOT an exit route.
 18. [x] Scaled eastern waterfall back to (25, 8) and verified upper terrace (Turn 22650).
-19. [x] Executed whiteout reset on Turn 23233 to escape lower basin loop, restoring 100% HP/PP to all 6 Pokémon at Ever Grande Center! Now traversing canonical circuit to Vito Winstrate (15, 6) and Pokémon League HQ exit!
+19. [x] Executed whiteout reset on Turn 23233 to escape lower basin loop, restoring 100% HP/PP to all 6 Pokémon at Ever Grande Center! Now traversing canonical circuit: B2F Waterfall 1 -> upper canal -> B2F Waterfall 2 -> B1F basin -> ladder at (5, 26) to 1F North and Pokémon League HQ exit!
 20. [x] Solved Northeast 4-rock puzzle (Turn 23326), clearing Column 25 south past Shannon (26, 16) toward B2F entrance!
 
 ## Floor B1F (Dark Basement Floor)
@@ -4928,7 +4928,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to B2F ladder (30, 25) -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> slide down Waterfall 2 (col 7, row 11) -> lower pool -> ladder at (19, 12) up to B1F Lower Central Basin (17, 16) -> Southwest Canyon past Michelle (5, 21) -> ladder at (5, 26) up to 1F North -> Pokémon League HQ exit!
 
 ## Verified Spatial Mechanics & Waterfall Topography (Turns 23470-23489)
-- Lower Lake Waterfall 1 Base: Located at cols 24..26, row 11/12. Column 27 at row 11 is a solid brown rock cliff corner bounding the east side of the waterfall. The correct approach column to scale Waterfall 1 is Column 25 (or 26).
+- Lower Lake Waterfall 1 Base: Located at cols 25..27, row 11/12. Waterfall 1 is directly scalable from (27, 12) facing North by pressing A without pressing Up into the collision boundary.
 - Scaling Waterfall 1: Position at (25, 12) facing North, press A to trigger 'It's a large waterfall. Would you like to use WATERFALL?', confirm YES with A, and Lilz scales the waterfall up to (25, 8).
 - Field Surf Prompt Timing: Interacting with water edge via 'A' takes ~600ms for dialogue and YES/NO prompt to populate; confirm with 'A', never press 'B' while prompt is active.
 - TM29 Shelf Isolation: Shelf accessed via wooden staircase at (34, 11) is verified 100% isolated for TM29 Psychic. Canonical exit path requires B2F Waterfall 2 -> B1F basin -> ladder at (5, 26) to 1F North.
@@ -5204,7 +5204,8 @@ A large meteorological research institute located in northern Route 119 beside t
     - [x] Enter B1F via western ladder at (8, 13) -> (8, 3).
     - [x] Traverse B1F / B2F (solved boulder puzzles, surfed subterranean lake, scaled waterfall, defeated Julie, Halle, Mitchell, Michelle).
     - [x] Scaled B2F waterfall with Lilz, defeated Vito Winstrate on B2F, collected TM29 Psychic.
-    - [ ] Ascend wooden staircase at (34, 11) to 1F upper shelf and explore row 4 to locate the true exit doorway to Pokémon League HQ!
+    - [x] Verified wooden staircase at (34, 11) is isolated shelf for TM29 Psychic (Turn 23450).
+    - [ ] Scale Waterfall 1 to B2F upper canal, slide down Waterfall 2, climb ladder to B1F basin, and ascend ladder (5, 26) to 1F North to exit to Pokémon League HQ!
 11. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
