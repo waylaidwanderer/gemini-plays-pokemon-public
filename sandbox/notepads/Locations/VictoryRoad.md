@@ -412,11 +412,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Surfing Outflow Trap: Stepping into the water at (15, 18) under the overhead suspension bridge enters the lower pool loop. Forward progression on that floor is on LAND across cols 9..14 at rows 21..25, exploring for the ascent onto the suspension bridge or the northern exit corridor.
 - Southwest Canyon Chute: Column 4 provides clear open passage from row 18 past Michelle (5, 21) down to row 25. From (4, 25), step Right to (5, 25) and Down into the ladder hole at (5, 26).
 
-## 1F Northern Land Highway under Suspension Bridge (Turn 23620)
-- Western Land Highway: At (13, 22), column 13 is an open dirt corridor running straight North beneath the elevated wooden suspension bridge (rows 19..20).
-- May passes completely under the suspension bridge along column 13 onto rows 18..16, navigating north on foot along the western bank without entering the water trap at (15, 18).
+## Subterranean Land under Suspension Bridge (Refuted Turn 23621)
+- Column 13 passes under the overhead suspension bridge (rows 19..20) from row 22 to row 18, but terminates directly at the subterranean water shoreline at row 17/18. It does not provide a dry land route past row 17.
 
-## 1F Row 21 Eastern Corridor Discovery (Turn 23622)
-- Water Boundary at (13, 18): Column 13 north of the suspension bridge terminates at water row 17.
-- Row 21 Eastern Highway: At (13..15, 21), south of the overhead suspension bridge, row 21 runs East beneath the bridge toward cols 17..24.
-- Target: Cooltrainer at (24, 19..20) sighted on the eastern terrace. Row 21 East is the confirmed land route leading toward her and the northern exit!
+## Subterranean Row 21/22 Eastern Corridor (Refuted Turns 23628-23630)
+- Testing in Turns 23628-23630 confirmed row 21/22 is bounded to the east at col 15 by continuous solid cliff faces. There is NO open land highway connecting row 21 to the eastern terrace.
