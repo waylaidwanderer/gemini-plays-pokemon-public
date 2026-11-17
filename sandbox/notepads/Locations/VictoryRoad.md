@@ -436,3 +436,8 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Descending wooden stairs South to (33, 31), moving East across the terrace to (37, 31), and advancing North along Column 37 leads to row 24.
 - Row 24 connects directly West across cols 37..33 to the Cooltrainer terrace at (33, 20)!
 - From (33, 20), the northern canyon leads directly to the exit opening out onto Ever Grande City North Plateau and Pokémon League HQ!
+
+## Final Victory Road Trainers Defeated (Turn 23743-23809)
+- Cooltrainer Edgar: Defeated at (33, 23) on 1F (Cacturne Lv 43, Pelipper Lv 43). Prize: ¥2,064. SAGE leveled to 63!
+- Cooltrainer Quincy & Cooltrainer Katelynn: Defeated in Double Battle at (31, 17) on 1F (Slaking ♂ Lv 43, Slaking ♀ Lv 43, Gardevoir Lv 43, Dusclops Lv 43). Prize: ¥4,128. GUAVA leveled to 30, MOCHI leveled to 11!
+- All Victory Road trainers cleared! The northern exit doorway lies straight North along Column 31!
