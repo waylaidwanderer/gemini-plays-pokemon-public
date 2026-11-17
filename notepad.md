@@ -5,14 +5,14 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 14; Chosen M Lv 5 from Birch's Bag on Route 101 |
-| Littleroot Town | Goldeen | NEREID | Active | Lv 15; Caught F Lv 5 with Old Rod at (18, 11); learned 4: Water Pulse (replaced Supersonic, Turn 8998) |
-| Route 103 | Spearow | AQUILA | Active | Lv 16 (AT_CAP); Caught M Lv 4 at (12, 15) — do NOT use before Roxanne! |
+| Littleroot Town | Goldeen | NEREID | Active | Lv 16; Caught F Lv 5 with Old Rod at (18, 11); learned 4: Water Pulse (replaced Supersonic, Turn 8998) |
+| Route 103 | Spearow | AQUILA | Active | Lv 16 (AT_CAP); Caught M Lv 4 at (12, 15) — boxed in BOX 1 before Roxanne |
 | Route 102 | Meowth | MIDAS | Active | Lv 14; Caught M Lv 6 at (39, 5) |
-| Petalburg City | Azurill | CALYPSO | Active | Lv 15; Caught F Lv 5 with Old Rod at (11, 22); Huge Power, learned 1: Body Slam (replaced Water Gun, Turn 9008) |
+| Petalburg City | Azurill | CALYPSO | Active | Lv 16; Caught F Lv 5 with Old Rod at (11, 22); Huge Power, learned 1: Body Slam (replaced Water Gun, Turn 9008) |
 | Route 104 | Cubone | VALKYRIE | Active | Lv 14; Caught F Lv 7 at (24, 61) |
 | Petalburg Woods | Pineco | — | Forfeited | Fainted to crit 2nd Pursuit at Lv 7 (first Pursuit dealt 39.6% HP) |
 | Route 116 | Grimer | — | Forfeited | Wild Grimer M Lv 9 used Memento after 6 Poke Ball breakouts (Turn 9041) |
-| Route 115 | Kabuto | TRILOBITE | Active | Lv 9; Caught M Lv 9 with Old Rod at (7, 71) |
+| Route 115 | Kabuto | TRILOBITE | Active | Lv 16; Caught M Lv 9 with Old Rod at (7, 71); learned 3: Mega Drain at Lv 13 |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
 | Dewford Town | — | — | Pending | Old Rod at (16, 10) facing Up |
 | Route 106 | — | — | Pending | Old Rod at (70, 19) facing Right |
