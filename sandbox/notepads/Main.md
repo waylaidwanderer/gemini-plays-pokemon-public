@@ -20,7 +20,7 @@
   2. **Always Return to the Petalburg City Pokemon Center After Catching the Route 104 Encounter at `(23, 60)`**: Raise all 6 party members to **Lv 13–14** with Rare Candies, heal to 100% HP, and equip held `Oran Berries` *before* stepping onto the Route 104 South beach to challenge Bird Keeper Billy `(17, 66)` and Fisherman Darian `(17, 59)`, and heal between Billy and Darian!
 - **Attempt #44 Lesson**: Rival Brendan's Lv 5 `Treecko` on Route 103 holds a `Berry Juice` and knows `Quick Attack`, so two critical hits can beat an unboosted Lv 5 `Mudkip`. **Always feed 2 Rare Candies (`Lv 5 -> Lv 7`) to `Mudkip` right after exiting Professor Birch's Lab** before walking to Route 103 so Rival 1 is 100% crit-proof!
 - **Attempts #34–#43 Consolidated Strategic Rules**:
-  1. **Old Rod Timing**: Cycle **`[2500, 3150, 3850, 4500] * 4`** (`or * 3`) to hit every 2-dot bite window before timeout.
+  1. **Old Rod Timing**: Cycle **`[2500, 2900, 3300, 3700, 4100, 4500, 4900] * 2`** (`400ms` spacing across `3..10` dots, `< 550ms` bite window) to hit every active bite window without timing out.
   2. **Overworld & Cutscene Hygiene**: Never chain the Team Magma Grunt cutscene `(26, 23)` and Turn 1 battle inputs in one turn; never chain a `Pecha Berry` cure and a long overworld walk in one turn; and always walk `Down x2, Left x3, Down, Up` from the PC `(10, 2)` to Nurse Joy `(7, 4)`.
   3. **Pre-Roxanne EXP & Rustboro Gym Rules**:
      - Keep all 9 pre-Roxanne encounters at Lv 14–15 until Rustboro City (`Mudkip -> Marshtomp` is `Medium Slow` `~658 EXP` at Lv 16), then raise them to Lv 16 (`0 EXP` into Lv 16) in Rustboro City.
