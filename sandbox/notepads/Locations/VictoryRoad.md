@@ -411,3 +411,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Lake Southern Cliff: Row 16 south of the boulders at (22..23, 12..15) is a continuous cliff wall that cannot be disembarked onto.
 - Surfing Outflow Trap: Stepping into the water at (15, 18) under the overhead suspension bridge enters the lower pool loop. Forward progression on that floor is on LAND across cols 9..14 at rows 21..25, exploring for the ascent onto the suspension bridge or the northern exit corridor.
 - Southwest Canyon Chute: Column 4 provides clear open passage from row 18 past Michelle (5, 21) down to row 25. From (4, 25), step Right to (5, 25) and Down into the ladder hole at (5, 26).
+
+## 1F Northern Land Highway under Suspension Bridge (Turn 23620)
+- Western Land Highway: At (13, 22), column 13 is an open dirt corridor running straight North beneath the elevated wooden suspension bridge (rows 19..20).
+- May passes completely under the suspension bridge along column 13 onto rows 18..16, navigating north on foot along the western bank without entering the water trap at (15, 18).
