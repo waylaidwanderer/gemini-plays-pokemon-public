@@ -4941,6 +4941,12 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Subterranean Lake Navigation: Surfing northeast from (15, 17) clears the corner cliff at (15, 15) and leads east/northeast across row 15.
 - Northern Lake Ladder Platform: Located at cols 18..20, rows 12..14. Accessible by surfing to (20, 14), disembarking North onto the dirt platform at (20, 13), moving West to (19, 13), and climbing the ascending wooden ladder at (19, 12)!
 
+## B2F Lower Pool & B1F Basin Loop Verification (Turns 23580-23606)
+- Lower Pool Direct Elevator: The ladder at (19, 12) on the northern lake platform connects directly to B1F Lower Central Basin at (17, 16) beside Edgar. Stepping onto (17, 16) warps down to (19, 12); ascending (19, 12) warps up to (17, 16).
+- Lake Southern Cliff: Row 16 south of the boulders at (22..23, 12..15) is a continuous cliff wall that cannot be disembarked onto.
+- Surfing Outflow Trap: Stepping into the water at (15, 18) under the overhead suspension bridge enters the lower pool loop. Forward progression on that floor is on LAND across cols 9..14 at rows 21..25, exploring for the ascent onto the suspension bridge or the northern exit corridor.
+- Southwest Canyon Chute: Column 4 provides clear open passage from row 18 past Michelle (5, 21) down to row 25. From (4, 25), step Right to (5, 25) and Down into the ladder hole at (5, 26).
+
 
 <hr>
 
