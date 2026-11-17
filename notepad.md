@@ -4,7 +4,7 @@
 
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 14; Chosen M Lv 5 from Birch's Bag on Route 101 |
+| Starter (Route 101) | Marshtomp | AAPOSEIDON | Active | Lv 16; Evolved from Mudkip at Lv 16, learned 1: Mud Shot (replaced Tackle, Turn 9065) |
 | Littleroot Town | Goldeen | NEREID | Active | Lv 16; Caught F Lv 5 with Old Rod at (18, 11); learned 4: Water Pulse (replaced Supersonic, Turn 8998) |
 | Route 103 | Spearow | AQUILA | Active | Lv 16 (AT_CAP); Caught M Lv 4 at (12, 15) — boxed in BOX 1 before Roxanne |
 | Route 102 | Meowth | MIDAS | Active | Lv 16; Caught M Lv 6 at (39, 5); Limber, 38 Speed, learned 4: Bite at Lv 16 |
