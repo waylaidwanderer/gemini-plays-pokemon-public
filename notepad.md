@@ -5,7 +5,7 @@
 | Location | Pokemon | Nickname | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | Starter (Route 101) | Mudkip | AAPOSEIDON | Active | Lv 14; Chosen M Lv 5 from Birch's Bag on Route 101 |
-| Littleroot Town | Goldeen | NEREID | Active | Lv 14; Caught F Lv 5 with Old Rod at (18, 11) |
+| Littleroot Town | Goldeen | NEREID | Active | Lv 15; Caught F Lv 5 with Old Rod at (18, 11); learned 4: Water Pulse (replaced Supersonic, Turn 8998) |
 | Route 103 | Spearow | AQUILA | Active | Lv 16 (AT_CAP); Caught M Lv 4 at (12, 15) — do NOT use before Roxanne! |
 | Route 102 | Meowth | MIDAS | Active | Lv 14; Caught M Lv 6 at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 14; Caught F Lv 5 with Old Rod at (11, 22) |
