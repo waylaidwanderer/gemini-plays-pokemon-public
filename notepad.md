@@ -4964,6 +4964,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Solution Protocol: Smash rock at (20, 25), push boulder (21, 25) East into (22, 25), smash rock at (21, 26), step Down to (21, 26), step Right to (22, 26), and push boulder at (22, 25) UP through Column 22 to clear the way to the ladder!
 - Rock Smash Field Prompt: Never send 'B' while interacting with Rock Smash prompts as B cancels the YES/NO choice. Use consecutive 'A' presses spaced by ~800ms to advance text and confirm YES cleanly.
 
+## 1F Middle Bridge & Northern Canyon Connection (Verified Turns 23704-23721)
+- Ascending ladder at (20, 21) on B1F lands at (21, 31) on 1F Eastern Plateau.
+- Wooden staircase at (21, 30..28) ascends to the Middle Suspension Bridge landing at (21, 27).
+- Crossing East across the Middle Suspension Bridge lands at (33, 27).
+- Descending wooden stairs South to (33, 31), moving East across the terrace to (37, 31), and advancing North along Column 37 leads to row 24.
+- Row 24 connects directly West across cols 37..33 to the Cooltrainer terrace at (33, 20)!
+- From (33, 20), the northern canyon leads directly to the exit opening out onto Ever Grande City North Plateau and Pokémon League HQ!
+
 
 <hr>
 
