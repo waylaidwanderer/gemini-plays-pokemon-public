@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen | NEREID | Active | Lv 10; Caught F Lv 5 with Old Rod at (18, 11) |
 | Route 103 | Spearow | AQUILA | Active | Lv 10; Caught M Lv 4 at (12, 15) |
 | Route 102 | Meowth | MIDAS | Active | Lv 10; Caught M Lv 6 at (39, 5) |
-| Petalburg City | — | — | Pending | Old Rod at (11, 22) facing Down |
+| Petalburg City | Azurill | CALYPSO | Active | Lv 5; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | — | — | Pending | Tall grass at (22..24, 56..61) |
 | Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
