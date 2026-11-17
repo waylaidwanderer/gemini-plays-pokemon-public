@@ -6,7 +6,7 @@
 | Littleroot Town | Goldeen | NEREID | Active | Lv 15; Caught F Lv 5 with Old Rod at (18, 11); learned 4: Water Pulse (replaced Supersonic, Turn 8998) |
 | Route 103 | Spearow | AQUILA | Active | Lv 16 (AT_CAP); Caught M Lv 4 at (12, 15) — do NOT use before Roxanne! |
 | Route 102 | Meowth | MIDAS | Active | Lv 14; Caught M Lv 6 at (39, 5) |
-| Petalburg City | Azurill | CALYPSO | Active | Lv 14; Caught F Lv 5 with Old Rod at (11, 22) |
+| Petalburg City | Azurill | CALYPSO | Active | Lv 15; Caught F Lv 5 with Old Rod at (11, 22); Huge Power, learned 1: Body Slam (replaced Water Gun, Turn 9008) |
 | Route 104 | Cubone | VALKYRIE | Active | Lv 14; Caught F Lv 7 at (24, 61) |
 | Petalburg Woods | Pineco | — | Forfeited | Fainted to crit 2nd Pursuit at Lv 7 (first Pursuit dealt 39.6% HP) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
