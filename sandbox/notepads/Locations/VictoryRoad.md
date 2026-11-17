@@ -417,3 +417,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 ## Subterranean Row 21/22 Eastern Corridor (Refuted Turns 23628-23630)
 - Testing in Turns 23628-23630 confirmed row 21/22 is bounded to the east at col 15 by continuous solid cliff faces. There is NO open land highway connecting row 21 to the eastern terrace.
+
+## B1F Southeastern 4-Rock Puzzle & Ladder Discovery (Turns 23674-23687)
+- Location: B1F southeastern corner at cols 20-22, rows 24-26.
+- Guarded by a 2x2 interlocking Rock Smash & Strength puzzle:
+  - (20, 25): Rock Smash rock (cracked) - Smashed Turn 23680!
+  - (21, 25): Strength boulder (round) - Pushed East into (22, 25) Turn 23682!
+  - (20, 26): Strength boulder (round)
+  - (21, 26): Rock Smash rock (cracked) - Smashing from (21, 25) facing Down.
+- Column 22 is the true vertical ascending corridor leading straight North to the Southeastern Wooden Ladder hanging at (21, 20)!
+- Solution Protocol: Smash rock at (20, 25), push boulder (21, 25) East into (22, 25), smash rock at (21, 26), step Down to (21, 26), step Right to (22, 26), and push boulder at (22, 25) UP through Column 22 to clear the way to the ladder!
+- Rock Smash Field Prompt: Never send 'B' while interacting with Rock Smash prompts as B cancels the YES/NO choice. Use consecutive 'A' presses spaced by ~800ms to advance text and confirm YES cleanly.
