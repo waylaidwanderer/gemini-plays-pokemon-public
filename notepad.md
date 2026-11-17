@@ -10,7 +10,7 @@
 | Route 102 | Meowth | MIDAS | Active | Lv 14; Caught M Lv 6 at (39, 5) |
 | Petalburg City | Azurill | CALYPSO | Active | Lv 14; Caught F Lv 5 with Old Rod at (11, 22) |
 | Route 104 | Cubone | VALKYRIE | Active | Lv 14; Caught F Lv 7 at (24, 61) |
-| Petalburg Woods | — | — | Pending | Tall grass at (20..25, 32..35) |
+| Petalburg Woods | Pineco | — | Forfeited | Fainted to crit 2nd Pursuit at Lv 7 (first Pursuit dealt 39.6% HP) |
 | Route 116 | — | — | Pending | Tall grass at (4..7, 12..16) |
 | Route 115 | — | — | Pending | Old Rod at (7, 71) facing Left |
 | Rusturf Tunnel | — | — | Pending | Cave encounter |
