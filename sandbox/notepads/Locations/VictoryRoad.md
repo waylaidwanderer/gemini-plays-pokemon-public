@@ -375,5 +375,14 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B2F Western Waterfall 2 (cols 7..9, rows 12..14) is strictly a one-way downward outflow into the lower pool at (8..9, 14) that cannot be scaled from below, whereas Waterfall 1 (cols 26-28, row 12) is the scalable waterfall in the eastern basin.
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
+## Upper Water Canal & Vito Winstrate Empirical Findings (Verified Turns 23404-23420)
+- Northern Perimeter Wall: Rows 0-2 across cols 3..27 form a continuous, solid rock cliff face with NO cave doorway or exit opening.
+- Cooltrainer Vito Winstrate: Stationed on B2F at (15, 6) on the southern shore of the upper canal. Vito is an optional defeated trainer on a dead-end terrace, NOT the exit guardian.
+- The dirt walkway along rows 6-7 (cols 15..23) is a narrow strip bounded on the south by a cliff drop and terminating east at the outflow waterfall (25, 8).
+- Canonical exit progression requires accessing 1F via the wooden staircase at (34, 11) from the northeastern lake landing (33, 13).
+
+- Canonical Progression Route to Exit (Archived):
 - Canonical Progression Route to Exit:
+  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25/27 past Shannon to B2F ladder (30, 25) -> lake (34, 17) -> northeastern landing (33, 13) -> ascend wooden staircase (34, 11) to 1F upper corridor -> explore 1F upper shelf (row 4) to exit doorway leading to Pokémon League HQ.
+- Old:
   - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> exit north to Pokémon League HQ.
