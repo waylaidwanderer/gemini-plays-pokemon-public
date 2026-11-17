@@ -5047,7 +5047,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Full Heal x1 (found on 1F upper terrace at 13, 8 Turn 22379)
+- Full Heal x6 (found on 1F upper terrace at 13, 8 Turn 22379)
 - Dire Hit x0 (picked up at 30, 69 on Route 110, used Turn 23188)
 - Elixir x0 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
@@ -5055,12 +5055,12 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x0 (1 used on Sage Turn 19843, 1 used in Vito battle Turn 22359)
+- Hyper Potion x7 (1 used on Sage Turn 19843, 1 used in Vito battle Turn 22359)
 - Max Elixir x1 (found in Team Aqua Hideout, used Turn 17028; found at 40, 26 on Victory Road 1F Turn 19881!)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x1 (found between drill tanks at 5, 9 in Magma Hideout 5F)
-- Revive x2 (1 used on Sage Turn 19843)
+- Revive x6 (1 used on Sage Turn 19843)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -5077,7 +5077,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥47,846 (earned ¥2,064 from Edgar, ¥4,128 from Quincy & Katelynn)
+- Money: ¥595 (Purchased 7x Hyper Potion, 3x Full Restore, 5x Full Heal, 4x Revive at League Mart)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
