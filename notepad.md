@@ -363,6 +363,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Paved brick road runs East along row 29 across cols 21..27, then turns North toward the Pokémon League Headquarters entrance!
 - North: Pokémon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
+## Pokémon League HQ Lobby & Elite Four Entrance (Turn 23832-23847)
+- Nurse Joy Counter: Located at cols 2..5, rows 2..3. Talk from (3, 4) facing Up to fully heal party. Sets permanent Hoenn Fly Map flight checkpoint!
+- Poké Mart Counter: Located at cols 13..16, rows 2..3. Talk from (16, 4) facing Up. Sells Ultra Ball, Hyper Potion, Max Potion, Full Restore, Full Heal, Revive, Max Repel.
+- Badge Check Gate: Located at cols 9..10, row 2. Guards inspect all 8 Badges. Upon confirmation, guards step aside to (8, 2) and (11, 2), unlocking the entrance doorway into Elite Four Room 1 (Sidney)!
+
 
 <hr>
 
