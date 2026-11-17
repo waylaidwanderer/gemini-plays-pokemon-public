@@ -358,6 +358,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Ever Grande Pokémon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
   - A cliff wall along cols 24..25 separates the flower bed from the Pokémon Center terrace.
 
+## North Plateau Topography & Pokémon League HQ (Turn 23825+)
+- Cave Exit from Victory Road: Spawns at (18, 28..29) facing South.
+- Paved brick road runs East along row 29 across cols 21..27, then turns North toward the Pokémon League Headquarters entrance!
+- North: Pokémon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+
 
 <hr>
 
@@ -4976,6 +4981,10 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 - Cooltrainer Edgar: Defeated at (33, 23) on 1F (Cacturne Lv 43, Pelipper Lv 43). Prize: ¥2,064. SAGE leveled to 63!
 - Cooltrainer Quincy & Cooltrainer Katelynn: Defeated in Double Battle at (31, 17) on 1F (Slaking ♂ Lv 43, Slaking ♀ Lv 43, Gardevoir Lv 43, Dusclops Lv 43). Prize: ¥4,128. GUAVA leveled to 30, MOCHI leveled to 11!
 - All Victory Road trainers cleared! The northern exit doorway lies straight North along Column 31!
+
+## Victory Road Completed! (Turn 23825)
+- True 1F Exit Warp: Located at (39, 6) on 1F! Stepping South through the bright oval light patch at (39, 6) warps player directly outside onto Ever Grande City North Plateau at (18, 28..29)!
+- Victory Road is 100% conquered: All 8 badges, all HMs utilized (Flash, Strength, Rock Smash, Surf, Waterfall), all trainers and rival Wally defeated!
 
 
 <hr>

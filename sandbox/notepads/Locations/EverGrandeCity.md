@@ -47,3 +47,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Pink and orange flower beds across the plateau are 100% walkable!
   - Ever Grande Pokémon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
   - A cliff wall along cols 24..25 separates the flower bed from the Pokémon Center terrace.
+
+## North Plateau Topography & Pokémon League HQ (Turn 23825+)
+- Cave Exit from Victory Road: Spawns at (18, 28..29) facing South.
+- Paved brick road runs East along row 29 across cols 21..27, then turns North toward the Pokémon League Headquarters entrance!
+- North: Pokémon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
