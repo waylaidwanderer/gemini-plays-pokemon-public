@@ -4679,7 +4679,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
 
 - Southern Highway & Acro Rails (Verified Turns 20101-20112):
   - Row 26 runs West from (40, 26) to (27, 26), terminating in a natural cliff cul-de-sac at (27, 25..26).
-  - Tile (30, 25) Refuted (Turn 23311): Tile (30, 25) is a solid rock wall forming a dead-end cul-de-sac above row 26, NOT a descent ladder.
+  - Tile (30, 25) Verified B2F Ladder (Turn 23385): (30, 25) is the verified functioning ladder hole descending from B1F down into B2F at (30, 25).
   - Rows 27..30 below row 26 are horizontal Acro Bike rails that block foot and Mach Bike transit.
   - Staircase at (40, 21..25) leads to an isolated landing at (41..42, 21) bounded by row 20 cliff.
   - Active progression path leads through Column 15 canyon heading North from (15, 12) to (15, 6). (Note: northward movement from (31, 8) was refuted on Turn 21073 by the row 7 ledge).
@@ -4911,7 +4911,7 @@ The ultimate cave challenge connecting Ever Grande City's south plateau to the P
   - B2F Lower Pool (cols 7..21, rows 12..16) is completely sealed on the east by cliffs/rocks at cols 21..24.
   - The ladder at (5, 26) connects B1F Southwest Canyon to an isolated return shelf on 1F bounded on the south by horizontal Acro Bike rails (rows 27..30).
 - Canonical Progression Route to Exit:
-  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> eastern waterfall slide to (25, 12) -> exit north to Pokémon League HQ.
+  - 1F entrance ladder (8, 13) -> B1F Northwest boulder puzzle -> row 13 east -> rock smash (18, 12) -> stairs (21, 10) -> upper bridge (row 8) -> Samuel (35, 12) -> Column 15 canyon north -> Northeast 4-rock puzzle -> Column 25 past Shannon to true B2F ladder -> lake (34, 17) -> scale Waterfall 1 (cols 26-28, row 12) -> upper canal -> Vito Winstrate (15, 6) -> exit north to Pokémon League HQ.
 
 
 <hr>
