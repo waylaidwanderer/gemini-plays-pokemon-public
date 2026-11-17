@@ -6,7 +6,7 @@
 - Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 63) - Lead! HP: 191/191. Max HP: 191. Stats: Atk 141, Def 103, SpA 154, SpD 139, Spe 187. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (15/15), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
+1. SAGE (Sceptile ♂, Level 64) - Lead! HP: 194/194. Max HP: 194. Stats: Atk 144, Def 105, SpA 157, SpD 141, Spe 189. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (10/15), Quick Attack (26/30). Held: Oran Berry. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
@@ -47,7 +47,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥5,695 (Purchased 7x Hyper Potion, 2x Full Restore, 4x Full Heal, 3x Revive at League Mart)
+- Money: ¥10,595 (Earned ¥4,900 from Elite Four Sidney!)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -224,7 +224,12 @@
 9. [x] Defeat Rival Wally on Victory Road 1F (Turn 19548)! (Earned ¥2,700).
 10. [x] Traverse Victory Road (COMPLETED Turn 23825)! All trainers defeated, boulder puzzles solved, exited onto Ever Grande City North Plateau!
 11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
-12. [ ] Challenge the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+12. [ ] Challenge the Elite Four:
+    - [x] Elite Four Member #1 Sidney DEFEATED (Turn 23876)! Earned ¥4,900, Sage reached Lv 64!
+    - [ ] Elite Four Member #2 Phoebe
+    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #4 Drake
+    - [ ] Champion Wallace
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
 - Move Tutor Retention: Declining a Move Tutor (such as the Substitute tutor on the Lilycove Department Store Rooftop) via NO or pressing B does NOT consume or permanently lock the tutor; they remain available to speak with and learn from at any future time.
