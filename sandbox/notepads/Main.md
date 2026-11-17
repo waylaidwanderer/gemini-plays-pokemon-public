@@ -4,7 +4,7 @@
 - **Attempt:** #1
 - **ROM Hack:** TBD (verifying on title screen)
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style:** Pending configuration to `SET`
+- **Battle Style:** Configured to `SET` (and Text Speed `FAST`) on Main Menu (Turn 4); re-verify in Start Menu once in overworld
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
