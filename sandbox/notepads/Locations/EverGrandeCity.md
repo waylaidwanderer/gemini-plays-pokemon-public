@@ -68,3 +68,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Salamence Lv 55 (Dragon/Flying - Drake's Ace): Active (~50% HP, -1 Speed from Rock Tomb). Intimidate, Flamethrower, Dragon Claw, Crunch, Rock Slide. 2x weak to Rock Tomb.
   - Shelgon Lv 52 (Dragon): In reserve (~15% HP remaining). Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef.
   - Kingdra Lv 53 (Water/Dragon): In reserve (full HP). Swift Swim, Dragon Dance, Smokescreen, Body Slam, Surf. Neutral to Grass (2HKOed by Leaf Blade).
+
+## League Lobby & Elite Four Re-entry Protocol (Turn 24123)
+- Whiteout Respawn: Whiting out in the Elite Four respawns the player outside the League entrance at (18, 6). Stepping North re-enters the lobby at (9, 11). Entire party is 100% restored (HP/PP).
+- Mart Access: Walk North to row 5, then East to (16, 5), and North to (16, 4) to access the Mart counter.
+- Gate Access: The central badge-check guards remain permanently stepped aside at (8, 2) and (11, 2) after the initial inspection, allowing unimpeded entry into the Elite Four staircase at (9, 1).
+- Grand Staircase: Halls between lobby and Elite Four chambers are straight vertical stairways (col 5). Walking North directly enters the next chamber.
