@@ -100,5 +100,16 @@
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible.
 - **Multi-Warp Chaining:** Insert `sleep 2200` immediately after an indoor warp step to continue overworld movement on the destination map.
 - **Poké Mart Purchase Flow (Turn 107):** After adjusting quantity spinner: `A` (opens `YES/NO`) -> `A` (`"Here you go! Thank you very much."`) -> `B` (returns directly to `BUY` list, or shows `"I'll throw in a PREMIER BALL, too."` on ≥10 Poké Balls requiring 1 more `B` to return to `BUY`). Pressing an extra `B` on `BUY` exits back to Cashier menu.
+- **Poké Ball Catch & Nickname Timings (Turns 115–129):**
+  - After a failed Poké Ball throw, battle cursor stays on `BAG` and Bag stays on `POKé BALLS` pocket (`A -> sleep 2300 -> A -> sleep 450 -> A` repeats throw).
+  - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
+  - Exiting `SUMMARY` back to `PARTY` needs `sleep 2500` after `B` before pressing `A` to open the `SUMMARY/SWITCH/ITEM/CANCEL` popup.
+
+## Live Tactical State (Turn 130 — Entering Route 102 Progression)
+- **CRITICAL:** **Bayou (`Lv 13 Mudkip`) is `SLP` (`26/36 HP`)** from wild Gulpin's `Yawn`! Walk ~18 steps east from `(39, 7)` back into **Oldale Pokémon Center (`(6, 16)`)** to heal Bayou + buy `Awakening` before engaging ANY Route 102 trainer!
+- **Pending Party Checks:**
+  1. Inspect **Matcha (`Lv 6 Gulpin ♀`)** Summary & **check/take any wild held item** (wild Gulpin often hold `Oran Berry`—taking 1 into Bag auto-refills to `99`!).
+  2. `TAKE` **Girasol's (`Lv 4 Sunkern ♀`)** wild-held **`SUN STONE`** into Bag; level Girasol with Rare Candies to check Sunkern's early custom moves BEFORE deciding the optimal level to use `SUN STONE`!
+- **Route 102 Hazard Note:** Rotating trainer stands in grass at `(37, 3)` on Route 102; `(38..39, 7)` is bare ground south of the grass.
 
 <hr>
