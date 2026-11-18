@@ -82,6 +82,7 @@
 - Rival Battle #4 (Lilycove Department Store): Brendan defeated on Turn 13319! (Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32). Reward: ¥2,040. Brendan departed for Littleroot Town.
 
 ## Engine / Harness Mechanics Verified
+- Altaria Battle Mechanics: Drake's Altaria Lv 54 has base 80 Speed (~110 Speed). After 1 Dragon Dance, its speed reaches ~165. Sceptile Lv 65 has 192 Speed, retaining speed priority even after Altaria's Dragon Dance! 2x Super Effective Rock Tomb deals 109-128 damage to Altaria, easily knocking it out.
 - In-Battle Party Targeting Grid Navigation: On the in-battle party targeting screen, the active battler is in the left box. Pressing Right moves cursor into the right column at Row 1. The fainted lead (SAGE) is in Row 2! To target Sage from the left box, the exact D-pad sequence is: Right -> Down! Confirming without Down targets Row 1.
 - In-Battle Bag Exit Latency: Closing the Bag in battle takes ~1.2 seconds for the screen to fade back to the arena and load the battle menu. Directional inputs sent before ~1.2s will be dropped. Always allow at least 1200-1400ms after B to let the battle menu settle before sending directional inputs.
 - Elite Four Drake Battle Insights: Drake's team includes Shelgon Lv 52 (Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef), Altaria Lv 54 (Natural Cure, Aerial Ace, Dragon Breath, Dragon Dance; 2x weak to Rock Tomb, 0.25x resists Grass). Altaria's Aerial Ace deals lethal Flying physical damage to Grass types; counter immediately with Rock Tomb.
