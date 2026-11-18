@@ -5074,7 +5074,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Hyper Potion x0 (consumed Turn 24091)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
-- Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
+- Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
 - Revive x0
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
