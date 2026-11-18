@@ -24,3 +24,4 @@
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
+- **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.

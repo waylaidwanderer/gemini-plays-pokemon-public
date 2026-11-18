@@ -10,7 +10,7 @@
 - **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified on Summary Turn 55, `#19`). **USED.**
 - **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
 - **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
-- **ROUTE 102:** **Matcha** — Gulpin (`♀`, caught at Lv 6 on Turn 128–129; nicknaming Matcha & checking Summary/held item next). **USED.**
+- **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
 
 ## Obtained Evolution Families (Dupes Clause)
 - Mudkip / Marshtomp / Swampert
@@ -74,6 +74,7 @@
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
+- **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 
 <hr>
 
@@ -103,7 +104,7 @@
 - **Poké Ball Catch & Nickname Timings (Turns 115–129):**
   - After a failed Poké Ball throw, battle cursor stays on `BAG` and Bag stays on `POKé BALLS` pocket (`A -> sleep 2300 -> A -> sleep 450 -> A` repeats throw).
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
-  - Exiting `SUMMARY` back to `PARTY` needs `sleep 2500` after `B` before pressing `A` to open the `SUMMARY/SWITCH/ITEM/CANCEL` popup.
+  - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
 ## Live Tactical State (Turn 130 — Entering Route 102 Progression)
 - **CRITICAL:** **Bayou (`Lv 13 Mudkip`) is `SLP` (`26/36 HP`)** from wild Gulpin's `Yawn`! Walk ~18 steps east from `(39, 7)` back into **Oldale Pokémon Center (`(6, 16)`)** to heal Bayou + buy `Awakening` before engaging ANY Route 102 trainer!

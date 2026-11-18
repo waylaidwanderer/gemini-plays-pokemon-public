@@ -22,7 +22,7 @@
 - **Poké Ball Catch & Nickname Timings (Turns 115–129):**
   - After a failed Poké Ball throw, battle cursor stays on `BAG` and Bag stays on `POKé BALLS` pocket (`A -> sleep 2300 -> A -> sleep 450 -> A` repeats throw).
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
-  - Exiting `SUMMARY` back to `PARTY` needs `sleep 2500` after `B` before pressing `A` to open the `SUMMARY/SWITCH/ITEM/CANCEL` popup.
+  - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
 ## Live Tactical State (Turn 130 — Entering Route 102 Progression)
 - **CRITICAL:** **Bayou (`Lv 13 Mudkip`) is `SLP` (`26/36 HP`)** from wild Gulpin's `Yawn`! Walk ~18 steps east from `(39, 7)` back into **Oldale Pokémon Center (`(6, 16)`)** to heal Bayou + buy `Awakening` before engaging ANY Route 102 trainer!
