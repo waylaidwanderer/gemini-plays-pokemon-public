@@ -62,12 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: ¥4,900.
 - Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: ¥5,100.
 - Elite Four Member #3 Glacia (Ice): Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Glalie Lv 52, Walrein Lv 53. Consumed exactly 2 Full Restores on Walrein and Glalie Lv 50. Defeated Turn 24005. Prize: ¥5,300.
-- Elite Four Member #4 Drake (Dragon):
-  - Altaria Lv 54 (Dragon/Flying): Dragon Dance, Aerial Ace, Dragon Breath, Take Down. Resists Grass 0.25x; 2x weak to Rock Tomb. DEFEATED Turn 24069 by Quick Attack!
-  - Flygon Lv 53 (Ground/Dragon): Levitate. Earthquake, Dragon Breath, Crunch, Sand Tomb. Neutral to Grass. DEFEATED Turn 24075 by Overgrow Leaf Blade!
-  - Salamence Lv 55 (Dragon/Flying - Drake's Ace): Active (~50% HP, -1 Speed from Rock Tomb). Intimidate, Flamethrower, Dragon Claw, Crunch, Rock Slide. 2x weak to Rock Tomb.
-  - Shelgon Lv 52 (Dragon): In reserve (~15% HP remaining). Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef.
-  - Kingdra Lv 53 (Water/Dragon): In reserve (full HP). Swift Swim, Dragon Dance, Smokescreen, Body Slam, Surf. Neutral to Grass (2HKOed by Leaf Blade).
+- Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24342! Earned ¥5,500. Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53 all defeated by Sage! Sage reached Lv 68. Door to Champion Wallace unlocked!
 
 ## League Lobby & Elite Four Re-entry Protocol (Turn 24123)
 - Whiteout Respawn: Whiting out in the Elite Four respawns the player outside the League entrance at (18, 6). Stepping North re-enters the lobby at (9, 11). Entire party is 100% restored (HP/PP).
