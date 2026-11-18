@@ -25,3 +25,6 @@
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
+## Verified Party Learnsets (Early Squad)
+- **Sunkern (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP** — non-vanilla PP, check if effect is buffed!) -> `Lv 13 Mega Drain` (10 PP) *(Verified Turns 137–151; Lv 13 Sunkern stats: `31 HP / 11 Atk / 13 Def / 14 SpA / 16 SpD / 15 Spe`)*.
+- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** *(Custom Fire coverage move verified Turns 137–151; Lv 12 Gulpin stats: `42 HP / 17 Atk / 18 Def / 17 SpA / 17 SpD / 16 Spe`)*.
