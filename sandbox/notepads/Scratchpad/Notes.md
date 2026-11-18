@@ -25,9 +25,9 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 176 — Pushing North to Route 102 Berry Patch)
+## Live Tactical State (Turn 182 — Equipping Infinite Oran Berries at (24, 3))
 - **Active Party Order (All Lv 13, Cap = Lv 16):**
   1. **Matcha (`Lv 13 Gulpin ♀`, Lead, `31/44 HP`):** `44 HP / 18 Atk / 19 Def / 18 SpA / 19 SpD / 17 Spe` (`Acid`, `Yawn`, `Fire Punch [9/15 PP]`, `Liquid Ooze`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`):** `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe` (`Absorb`, `Growth [5 PP]`, `Mega Drain`, `Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`):** `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe` (`Tackle`, `Bubble`, `Mud Sport`, `Water Gun`). Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Route 102 Progress:** Defeated Youngster Calvin (`(33, 14)`) & Bug Catcher Rick (`(25, 15)`); cash now `¥1,096`. Heading north along bare lane `x=25` from `(25, 16)` to `(25, 11)` to locate and harvest Oran/Pecha Berries (auto-refill to `99`!) before fighting western Route 102 trainers (trainer spotted at `(18, 11)`).
+- **Berries Secured (`x99` Verified):** Both `PECHA BERRY x99` and `ORAN BERRY x99` are live in the `BERRIES` pocket! Topping off Matcha's HP and equipping `ORAN BERRY` onto all 3 party members before reading the `(17, 2)` signpost and clearing western Route 102 trainers (`(15, 5)`, `(13, 2)`, `(18, 11)`) into Petalburg City.
