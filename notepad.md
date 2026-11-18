@@ -5289,7 +5289,7 @@ A large meteorological research institute located in northern Route 119 beside t
     - [x] Elite Four Member #1 Sidney DEFEATED (Turn 23876)! Earned ¥4,900, Sage reached Lv 64!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 23942)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 24005)! Earned ¥5,300, Sealeo x2, Glalie x2, Walrein defeated!
-    - [ ] Elite Four Member #4 Drake
+    - [x] Elite Four Member #4 Drake DEFEATED (Turn 24342)! Earned ¥5,500. Shelgon, Flygon, Altaria, Salamence, Kingdra defeated!
     - [ ] Champion Wallace
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
