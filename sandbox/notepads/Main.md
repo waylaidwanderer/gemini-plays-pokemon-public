@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Conquering the Hoenn Elite Four! Sidney, Phoebe & Glacia DEFEATED! Sage Lv 67 with 202/202 HP, 4 Revives, and 1 Full Restore. Facing Drake in Room 4!
+- Status: CONQUERED THE HOENN ELITE FOUR! Sidney, Phoebe, Glacia, and Drake ALL DEFEATED! Sage Lv 68 with 65 HP. Teaching TM26 Earthquake and TM40 Aerial Ace for Champion Wallace!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 67) - Lead! HP: 202/202. Max HP: 202. Moves: Rock Tomb (10/10), Return (20/20), Leaf Blade (0/24), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% full HP!
