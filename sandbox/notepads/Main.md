@@ -82,6 +82,9 @@
 - Rival Battle #4 (Lilycove Department Store): Brendan defeated on Turn 13319! (Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32). Reward: ¥2,040. Brendan departed for Littleroot Town.
 
 ## Engine / Harness Mechanics Verified
+- In-Battle Forced Switch Protocol: When the active Pokémon faints, the game displays 'Choose a POKéMON.' The cursor highlights the fainted battler in the left box. Pressing Right moves directly across to the top slot in the right column, pressing A opens SEND OUT / SUMMARY / CANCEL, and confirming with A sends out the replacement.
+- In-Battle Revive & Priority: Using Revive from the Bag takes turn priority at the start of the turn before Pokémon execute moves, guaranteeing the target is revived. On the party targeting screen, cursor defaults to the active battler; pressing Right targets reserve/fainted Pokémon in the right column.
+- Elite Four Glacia Full Restore Limit: Glacia has exactly 2 Full Restores. In our battle, both Full Restores were consumed on Walrein and Glalie Lv 50, leaving her remaining Pokémon with 0 healing items.
 - Elite Four Battle #2 Phoebe Mechanics: Phoebe's team consists of Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Normal moves deal 0 damage to pure Ghost and Ghost/Dark. Dark-type Pursuit (Special in Gen 3) is 2x super-effective against Dusclops and Banette; Grass-type Leaf Blade deals neutral STAB damage against Sableye. Defeating Phoebe awards ¥5,100 and opens the door at (6, 1) to Room 3 (Glacia).
 - Overworld HP Restoration Timing: Restoring a large amount of HP via medicine (e.g. 168 HP with Hyper Potion) takes ~1.5s for the counter animation to tick up to full. Dismissing '[POKéMON]'s HP was restored...' with B returns to the Party screen, and pressing B again returns to the Bag.
 - Start Menu Memory: In Pokémon Emerald, the Start Menu remembers the last selected option (e.g. BAG or POKéMON) rather than resetting to POKéDEX.
