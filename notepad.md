@@ -5049,7 +5049,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Respawned at Pokémon League HQ after Drake battle! Entire party 100% fully restored (HP/PP). Sage Lv 65 with 24 PP Leaf Blade! Stocking up at Mart counter before perfected Elite Four sweep!
+- Status: Conquering the Hoenn Elite Four! Sage Lv 65 with 24 PP Leaf Blade, backed by 5 Revives and 2 Hyper Potions. Ascending grand staircase to sweep Sidney!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 197/197. Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
