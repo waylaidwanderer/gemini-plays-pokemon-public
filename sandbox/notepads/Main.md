@@ -6,7 +6,7 @@
 - Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 197/197. Status: OK (healed to full with Hyper Potion Turn 24085). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (4/10), Pursuit (20/20), Leaf Blade (8/24), Quick Attack (29/30). Held: Oran Berry. Status: OK.
+1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 118/197. Status: OK (took 79 damage from Salamence). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (8/24), Quick Attack (29/30). Held: Oran Berry. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted to Altaria's Aerial Ace Turn 24046).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted to Altaria's Aerial Ace Turn 24051).
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/47. Max HP: 47. Status: FNT (fainted in Drake battle Turn 24065).
