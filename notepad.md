@@ -53,6 +53,7 @@
 ## In-Battle Bag Usage Restricted
 - **Healing Items Banned in Battle:** Selecting `POTION` from the `ITEMS` pocket in battle displays **only `CANCEL`** (no `USE` option), confirming Bag healing items cannot be used mid-battle *(Verified Turn 49, `#56` vs wild Lv 2 Zigzagoon)*.
 - **Held Berries & Unlimited Refill:** Because Bag healing is disabled in battle, **held Berries** (Oran Berry, Cheri/Pecha/Persim/Lum Berries, etc.) are critical for survival. Once at least 1 of any Berry is obtained, the harness refills it to `99` in the overworld (`RARE CANDY x99` verified auto-populated in `ITEMS` pocket on Turn 48, `#49`).
+  - **Route 102 Berry Patch (`(24..25, 2)`):** `(24, 2)` yields `2x Oran Berry`; `(25, 2)` yields `2x Pecha Berry` *(Harvested Turn 179)*.
 
 ## Early ROM Hack Difficulty Signals
 - **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
@@ -89,8 +90,6 @@
 # Scratchpad — UI, Routing & Active Leads
 
 ## Active Exploration Leads (Post-Poké Balls)
-- ~~**Oldale Town Custom Grass (`(14..15, 2)`):**~~ Encountered `Lv 3 Growlithe` (packs `Roar` at Lv 3!); broke out of Ball #1 and Roared on Turn 110–111. Oldale Town encounter forfeited (not a dupe).
-- ~~**Route 101 East Clearing (`x=16..19`):**~~ Verified closed by eastern border trees at `x=20..21` on Turn 104 `<CurrentScreen>`. Resolved.
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects (likely south/west of Route 101/102 or via later route).
 - **Littleroot SE Pond (`x=18..19, y=12..14`):** Custom water pond inside Littleroot Town—save for Fishing/Surf encounter if no Littleroot gift is taken.
 
