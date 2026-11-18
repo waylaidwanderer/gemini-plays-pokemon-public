@@ -13,7 +13,7 @@
   - Checked pink-haired NPC in May's House 1F (`(9,5)`, Turns 33 & 59): flavor dialogue only (`"Hi, neighbor! Do you already have your own POKéMON?"` both before and after obtaining Bayou). Resolved.
 - **Route 101 Starters & East Corridor (Turn 42):**
   - Birch's Bag holds the Hoenn trio: Left = Treecko, Middle = Torchic, Right = Mudkip. Choosing **Mudkip** (evolves to Marshtomp right at Roxanne's Lv 16 cap and gives Electric immunity for Wattson).
-  - Spotted a custom east corridor through the trees on Route 101 (`x >= 17, y=14..16`).
+  - Confirmed a custom east exit corridor on Route 101 (`y=10..11, x >= 18`, visible in Turn 70 `#60`). **Visit immediately AFTER obtaining Poké Balls** in case it leads to a new named encounter area!
 - **Multi-Warp Chaining:** Inserting `sleep 2200` after a stair/door warp step allows chaining movement across warps in one `press_buttons` call (verified Turn 36).
 - **Starter Moveset Clue (Turn 44):** Lv 5 Mudkip (`♂`, 20 HP) starts with ONLY `Tackle` (35 PP) and **no `Growl`**—characteristic of Kaizo-style / competitive Emerald hacks where early stat-drop moves are stripped. Expect significantly buffed trainers and custom movesets!
 - **Littleroot SE Pond NPC Lead (Turn 58):** Spotted a custom red-bun woman NPC wandering near the custom SE pond in Littleroot Town (`(16, 10)`–`(17, 12)`). Speak to her upon exiting May's House.
