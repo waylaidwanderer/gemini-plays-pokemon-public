@@ -17,3 +17,7 @@
 - **Multi-Warp Chaining:** Inserting `sleep 2200` after a stair/door warp step allows chaining movement across warps in one `press_buttons` call (verified Turn 36).
 - **Starter Moveset Clue (Turn 44):** Lv 5 Mudkip (`♂`, 20 HP) starts with ONLY `Tackle` (35 PP) and **no `Growl`**—characteristic of Kaizo-style / competitive Emerald hacks where early stat-drop moves are stripped. Expect significantly buffed trainers and custom movesets!
 - **Littleroot SE Pond NPC Lead (Turn 58):** Spotted a custom red-bun woman NPC wandering near the custom SE pond in Littleroot Town (`(16, 10)`–`(17, 12)`). Speak to her upon exiting May's House.
+- **Start Menu & Bag Cursor Memory (Turns 63–64):**
+  - The **Start Menu** persists its last selected row across indoor/outdoor warps (does NOT reset to top row `POKéMON`). Always verify or track which Start Menu entry was last used before pressing `Up`/`Down`.
+  - The **Bag** persists both the last viewed **pocket** AND the last highlighted **item row** inside each pocket.
+- **Littleroot SE Pond NPC Resolved (Turn 63):** The sprite at `(16, 10)` near the SE pond was the Little Girl with a red bow relocated from `(10, 1)` after Birch's rescue.
