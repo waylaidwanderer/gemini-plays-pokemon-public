@@ -5041,7 +5041,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 64) - Lead! HP: 194/194. Max HP: 194. Stats: Atk 144, Def 105, SpA 157, SpD 141, Spe 189. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (9/24), Quick Attack (26/30). Held: Oran Berry. Status: OK.
+1. SAGE (Sceptile ♂, Level 64) - Lead! HP: 194/194. Max HP: 194. Stats: Atk 144, Def 105, SpA 157, SpD 141, Spe 189. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
@@ -5061,7 +5061,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
 - Hyper Potion x7 (1 used on Sage Turn 19843, 1 used in Vito battle Turn 22359)
-- Max Elixir x1 (found in Team Aqua Hideout, used Turn 17028; found at 40, 26 on Victory Road 1F Turn 19881!)
+- Max Elixir x0 (used on Sage Turn 23954 - all PP fully restored: Leaf Blade 24/24, Rock Tomb 10/10, Pursuit 20/20, Quick Attack 30/30!)
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x0 (used on Sage's Leaf Blade Turn 23953 - Max PP boosted from 15 to 24!)
