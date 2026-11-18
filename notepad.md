@@ -52,6 +52,9 @@
 ## Early ROM Hack Difficulty Signals
 - **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
 - **Buffed Wild Movesets/Stats:** Even the tutorial Lv 2 Zigzagoon on Route 101 knows `Swift` + `Sand-Attack` and takes 5–6 Tackles from Lv 5 Mudkip *(Verified Turns 44–49)*.
+## Verified Starter Learnset (Mudkip)
+- **Lv 5:** `Tackle` only (no `Growl`)
+- **Lv 6:** `Bubble` *(Verified Turn 65, `#80` — non-vanilla level-up move)*
 
 <hr>
 
