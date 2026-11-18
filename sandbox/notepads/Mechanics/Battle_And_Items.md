@@ -23,3 +23,4 @@
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
+- **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
