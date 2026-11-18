@@ -5042,8 +5042,8 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party
 1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 98/197. Status: OK (revived with Revive Turn 24045). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK (revived with Revive Turn 24040).
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted to Altaria's Aerial Ace Turn 24041).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted to Altaria's Aerial Ace Turn 24046).
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 20/40. Max HP: 40. Status: OK (revived with Revive Turn 24045).
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK. 100% fully restored!
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK. 100% fully restored!
@@ -5117,6 +5117,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Rival Battle #4 (Lilycove Department Store): Brendan defeated on Turn 13319! (Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32). Reward: ¥2,040. Brendan departed for Littleroot Town.
 
 ## Engine / Harness Mechanics Verified
+- In-Battle Party Targeting Grid Navigation: On the in-battle party targeting screen, the active battler is in the left box. Pressing Right moves cursor into the right column at Row 1. The fainted lead (SAGE) is in Row 2! To target Sage from the left box, the exact D-pad sequence is: Right -> Down! Confirming without Down targets Row 1.
 - In-Battle Bag Exit Latency: Closing the Bag in battle takes ~1.2 seconds for the screen to fade back to the arena and load the battle menu. Directional inputs sent before ~1.2s will be dropped. Always allow at least 1200-1400ms after B to let the battle menu settle before sending directional inputs.
 - Elite Four Drake Battle Insights: Drake's team includes Shelgon Lv 52 (Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef), Altaria Lv 54 (Natural Cure, Aerial Ace, Dragon Breath, Dragon Dance; 2x weak to Rock Tomb, 0.25x resists Grass). Altaria's Aerial Ace deals lethal Flying physical damage to Grass types; counter immediately with Rock Tomb.
 - In-Battle Forced Switch Protocol: When the active Pokémon faints, the game displays 'Choose a POKéMON.' The cursor highlights the fainted battler in the left box. Pressing Right moves directly across to the top slot in the right column, pressing A opens SEND OUT / SUMMARY / CANCEL, and confirming with A sends out the replacement.
