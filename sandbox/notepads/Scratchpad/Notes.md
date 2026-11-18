@@ -1,7 +1,7 @@
 # Scratchpad — UI, Routing & Active Leads
 
 ## Active Exploration Leads (Post-Poké Balls)
-- **Oldale Town Custom Grass (`(15..16, 2)`):** Two custom tall grass tiles right behind Oldale Poké Mart *(spotted Turn 87)*—gives a dedicated **`OLDALE TOWN`** encounter!
+- ~~**Oldale Town Custom Grass (`(14..15, 2)`):**~~ Encountered `Lv 3 Growlithe` (packs `Roar` at Lv 3!); broke out of Ball #1 and Roared on Turn 110–111. Oldale Town encounter forfeited (not a dupe).
 - ~~**Route 101 East Clearing (`x=16..19`):**~~ Verified closed by eastern border trees at `x=20..21` on Turn 104 `<CurrentScreen>`. Resolved.
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects (likely south/west of Route 101/102 or via later route).
 - **Littleroot SE Pond (`x=18..19, y=12..14`):** Custom water pond inside Littleroot Town—save for Fishing/Surf encounter if no Littleroot gift is taken.
