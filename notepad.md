@@ -64,6 +64,9 @@
 - **Oldale Poké Mart:**
   - **Post-Pokédex:** **`Poké Ball (¥10 — massive discount from vanilla ¥200!)`**, `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)` *(Verified Turn 106–107)*.
   - *(Pre-Pokédex: same list minus Poké Ball, verified Turns 78–79).*
+## Early Boss / Rival Log & Wild Pool Clues
+- **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
+- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*—expect Gen 1–3 National Dex species in grass tables.
 
 <hr>
 
@@ -89,5 +92,6 @@
 - **Safe Rare Candy Cycle (4 Full Moves):** `3x A` (`Candy -> Use -> Pokémon`) + `3x B` (`+Stats -> Total Stats -> dismiss`) + `sleep 2400` avoids exiting Bag if no move is learned and avoids overwriting Move Slot 1 if a move is learned.
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible.
 - **Multi-Warp Chaining:** Insert `sleep 2200` immediately after an indoor warp step to continue overworld movement on the destination map.
+- **Poké Mart Purchase Flow (Turn 107):** After adjusting quantity spinner: `A` (opens `YES/NO`) -> `A` (`"Here you go! Thank you very much."`) -> `B` (returns directly to `BUY` list, or shows `"I'll throw in a PREMIER BALL, too."` on ≥10 Poké Balls requiring 1 more `B` to return to `BUY`). Pressing an extra `B` on `BUY` exits back to Cashier menu.
 
 <hr>
