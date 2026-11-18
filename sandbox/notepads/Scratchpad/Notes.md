@@ -25,10 +25,9 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 153 — Sunflora Evolution & Route 102 Sweep)
-- **Party Healed & Trained (Cap = Lv 16):**
-  1. **Bayou (`Lv 13 Mudkip ♂`):** `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe` (`Tackle`, `Bubble`, `Mud Sport`, `Water Gun`). Healed at Oldale PC Turn 152. Keep below Lv 16 until right before Roxanne (`Lv 16 Marshtomp`)!
-  2. **Girasol (`Lv 13 Sunkern ♀` -> evolving to `Sunflora` now):** Learned `Growth (5 PP)` at Lv 6 and `Mega Drain (10 PP)` at Lv 13. Using `SUN STONE` now!
-  3. **Matcha (`Lv 12 Gulpin ♀`):** `42 HP / 17 Atk / 18 Def / 17 SpA / 17 SpD / 16 Spe` (`Acid`, `Yawn`, `Fire Punch`).
-- **Inventory & Cash:** `¥800`; `Poké Ball x94`, `Premier Ball x1`, `Potion x2`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x3`, `Rare Candy x99`.
-- **Route 102 Plan:** Clear Route 102 trainers leading with Girasol (`Sunflora`) / Matcha (`Gulpin`), harvest Oran & Pecha Berries on northern Route 102 so they auto-refill to `99`, and reach Petalburg City.
+## Live Tactical State (Turn 158 — Route 102 Reconnaissance & Berry Priority)
+- **Active Party Order (Cap = Lv 16):**
+  1. **Matcha (`Lv 12 Gulpin ♀`, Lead):** `42 HP / 17 Atk / 18 Def / 17 SpA / 17 SpD / 16 Spe` (`Acid`, `Yawn`, `Fire Punch`, `Liquid Ooze`).
+  2. **Girasol (`Lv 13 Sunflora ♀`):** `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe` (`Absorb`, `Growth [5 PP]`, `Mega Drain`, `Chlorophyll`).
+  3. **Bayou (`Lv 13 Mudkip ♂`):** `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe` (`Tackle`, `Bubble`, `Mud Sport`, `Water Gun`). Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
+- **Route 102 Sightings:** Rotating trainer in north grass at `(38, 4)`; Youngster spotted at `(33, 14)` facing `Down` on the southwest road. Priority: reach Route 102's Berry patch (`Oran` & `Pecha` Berries) so Berries auto-refill to `99` for held-item healing!
