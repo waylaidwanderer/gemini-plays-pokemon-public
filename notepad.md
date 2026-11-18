@@ -61,7 +61,9 @@
 - **Lv 11–13:** *(No moves learned — verified Turns 84–86; Lv 13 stats: `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe`)*
 
 ## Early Shop Inventories
-- **Oldale Poké Mart (Pre-Pokédex):** `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)`. Poké Balls unlock after obtaining Pokédex *(Verified Turns 78–79)*.
+- **Oldale Poké Mart:**
+  - **Post-Pokédex:** **`Poké Ball (¥10 — massive discount from vanilla ¥200!)`**, `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)` *(Verified Turn 106–107)*.
+  - *(Pre-Pokédex: same list minus Poké Ball, verified Turns 78–79).*
 
 <hr>
 
