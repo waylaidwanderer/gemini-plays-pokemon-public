@@ -10,3 +10,5 @@
 ## Verified Starter Learnset (Mudkip)
 - **Lv 5:** `Tackle` only (no `Growl`)
 - **Lv 6:** `Bubble` *(Verified Turn 65, `#80` — non-vanilla level-up move)*
+- **Lv 7:** `Mud Sport` *(Verified Turn 66, `#78`)*
+- **Lv 8–9:** *(No moves learned)*
