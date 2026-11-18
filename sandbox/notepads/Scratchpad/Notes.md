@@ -10,7 +10,7 @@
 - **Custom Littleroot Pond & NPC (Turns 31–32):**
   - Spotted a custom 2x2 water pond in SE Littleroot Town (`x=16..17, y=11..12`, below May's house)—potential Littleroot Town fishing/Surf encounter later!
   - Spotted a custom pink-haired NPC in May's House 1F (`x=9, y=5`, top-right of pink rug). Talk using `A` + `B` advances so we don't blindly accept any unexpected prompt before reading it.
-  - Checked pink-haired NPC in May's House 1F (`(9,5)`, Turn 33): says `"Hi, neighbor! Do you already have your own POKéMON?"` — re-visit her AFTER obtaining our starter!
+  - Checked pink-haired NPC in May's House 1F (`(9,5)`, Turns 33 & 59): flavor dialogue only (`"Hi, neighbor! Do you already have your own POKéMON?"` both before and after obtaining Bayou). Resolved.
 - **Route 101 Starters & East Corridor (Turn 42):**
   - Birch's Bag holds the Hoenn trio: Left = Treecko, Middle = Torchic, Right = Mudkip. Choosing **Mudkip** (evolves to Marshtomp right at Roxanne's Lv 16 cap and gives Electric immunity for Wattson).
   - Spotted a custom east corridor through the trees on Route 101 (`x >= 17, y=14..16`).
