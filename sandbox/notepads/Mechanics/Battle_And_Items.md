@@ -27,5 +27,7 @@
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
-- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** *(Custom Fire coverage move verified Turns 137–151; Lv 12 Gulpin stats: `42 HP / 17 Atk / 18 Def / 17 SpA / 17 SpD / 16 Spe`)*.
-- **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets—Route 102's first trainer (**Youngster Calvin** at `(33, 14)`) has **3 Pokémon** (`Lv 6 Sentret` [with `Swift`], `Lv 6 Poochyena`, `Lv 6 Zigzagoon`) instead of vanilla's single Lv 5 Poochyena *(Verified Turns 161–167)*.
+- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves learned; Lv 13 stats: `44 HP / 18 Atk / 19 Def / 18 SpA / 19 SpD / 17 Spe` — verified Turn 174 `#58–#65`)*.
+- **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
+  - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
+  - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
