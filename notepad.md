@@ -5082,7 +5082,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥10,595 (Earned ¥4,900 from Elite Four Sidney!)
+- Money: ¥15,695 (Earned ¥4,900 from Sidney, ¥5,100 from Phoebe!)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -5261,7 +5261,7 @@ A large meteorological research institute located in northern Route 119 beside t
 11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 12. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Turn 23876)! Earned ¥4,900, Sage reached Lv 64!
-    - [ ] Elite Four Member #2 Phoebe
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 23942)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
