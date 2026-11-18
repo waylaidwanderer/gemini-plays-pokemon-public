@@ -5063,7 +5063,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: CONQUERED THE HOENN ELITE FOUR! Sidney, Phoebe, Glacia, and Drake ALL DEFEATED! SAGE Lv 68 equipped with Earthquake (10/10) and Aerial Ace (20/20). Entering Champion's Chamber to defeat Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 68) - Lead! HP: 65/205. Max HP: 205. Moves: Rock Tomb (4/10), Earthquake (10/10), Aerial Ace (20/20), Quick Attack (23/30). Held: Oran Berry. Status: OK. Ready to sweep Champion Wallace!
+1. SAGE (Sceptile ♂, Level 68) - Lead! HP: 65/205. Max HP: 205. Moves: Rock Tomb (4/10), Earthquake (10/10), Leaf Blade (0/24), Quick Attack (23/30). Held: Oran Berry. Status: OK. Ready to sweep Champion Wallace!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
