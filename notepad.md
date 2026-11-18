@@ -82,6 +82,7 @@
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
+- **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 
 <hr>
 
@@ -116,11 +117,11 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 182 — Equipping Infinite Oran Berries at (24, 3))
-- **Active Party Order (All Lv 13, Cap = Lv 16):**
-  1. **Matcha (`Lv 13 Gulpin ♀`, Lead, `31/44 HP`):** `44 HP / 18 Atk / 19 Def / 18 SpA / 19 SpD / 17 Spe` (`Acid`, `Yawn`, `Fire Punch [9/15 PP]`, `Liquid Ooze`).
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`):** `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe` (`Absorb`, `Growth [5 PP]`, `Mega Drain`, `Chlorophyll`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`):** `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe` (`Tackle`, `Bubble`, `Mud Sport`, `Water Gun`). Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Berries Secured (`x99` Verified):** Both `PECHA BERRY x99` and `ORAN BERRY x99` are live in the `BERRIES` pocket! Topping off Matcha's HP and equipping `ORAN BERRY` onto all 3 party members before reading the `(17, 2)` signpost and clearing western Route 102 trainers (`(15, 5)`, `(13, 2)`, `(18, 11)`) into Petalburg City.
+## Live Tactical State (Turn 188 — Clearing Western Route 102 Trainers)
+- **Active Party Order (All Lv 13, All Holding `ORAN BERRY`, Cap = Lv 16):**
+  1. **Matcha (`Lv 13 Gulpin ♀`, Lead, `41/44 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [9/15 PP]`, `Liquid Ooze`.
+  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain`, `Chlorophyll`.
+  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
+- **Western Route 102 Progress:** Read `(17, 2)` signpost; currently battling **Lass Tiana** (`(15, 5)`, 3 Pokémon). Remaining Route 102 checks before Petalburg City: check NPC at `(13, 2)`, defeat Youngster Allen at `(18, 11)`, and collect the SW Route 102 item ball!
 
 <hr>
