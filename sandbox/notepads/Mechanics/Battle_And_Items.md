@@ -1,0 +1,9 @@
+# Verified Battle & Item Mechanics
+
+## In-Battle Bag Usage Restricted
+- **Healing Items Banned in Battle:** Selecting `POTION` from the `ITEMS` pocket in battle displays **only `CANCEL`** (no `USE` option), confirming Bag healing items cannot be used mid-battle *(Verified Turn 49, `#56` vs wild Lv 2 Zigzagoon)*.
+- **Held Berries & Unlimited Refill:** Because Bag healing is disabled in battle, **held Berries** (Oran Berry, Cheri/Pecha/Persim/Lum Berries, etc.) are critical for survival. Once at least 1 of any Berry is obtained, the harness refills it to `99` in the overworld (`RARE CANDY x99` verified auto-populated in `ITEMS` pocket on Turn 48, `#49`).
+
+## Early ROM Hack Difficulty Signals
+- **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
+- **Buffed Wild Movesets/Stats:** Even the tutorial Lv 2 Zigzagoon on Route 101 knows `Swift` + `Sand-Attack` and takes 5–6 Tackles from Lv 5 Mudkip *(Verified Turns 44–49)*.

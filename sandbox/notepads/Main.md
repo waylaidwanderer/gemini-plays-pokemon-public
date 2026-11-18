@@ -19,3 +19,4 @@
 
 ## Notepad Index
 - `Locations/Encounters` — Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics (in-battle Bag healing disabled, starter/wild buffs, auto-refills)
