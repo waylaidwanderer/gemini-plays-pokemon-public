@@ -5041,7 +5041,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 64) - Lead! HP: 194/194. Max HP: 194. Stats: Atk 144, Def 105, SpA 157, SpD 141, Spe 189. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK.
+1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 98/197. Max HP: 194. Stats: Atk 144, Def 105, SpA 157, SpD 141, Spe 189. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
@@ -5065,7 +5065,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x0 (used on Sage's Leaf Blade Turn 23953 - Max PP boosted from 15 to 24!)
-- Revive x5 (1 used on Sage Turn 19843)
+- Revive x4 (1 used on Sage Turn 19843, 1 used on Sage in Glacia battle Turn 23990)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
