@@ -5041,7 +5041,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 0/197. Status: FNT (fainted in Drake battle Turn 24059). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK.
+1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 98/197. Status: OK (revived with Revive Turn 24064). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted to Altaria's Aerial Ace Turn 24046).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted to Altaria's Aerial Ace Turn 24051).
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
@@ -5065,7 +5065,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
 - PP Max x0 (used on Sage's Leaf Blade Turn 23953 - Max PP boosted from 15 to 24!)
-- Revive x1 (used on Sage Turns 19843, 23990, 24050; Lilz Turn 24040; Cipher Turn 24045)
+- Revive x0 (used on Sage Turns 19843, 23990, 24064; Lilz Turn 24040; Cipher Turn 24045)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -5117,7 +5117,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Rival Battle #4 (Lilycove Department Store): Brendan defeated on Turn 13319! (Tropius Lv 31, Pelipper Lv 32, Combusken Lv 34, Ludicolo Lv 32). Reward: ¥2,040. Brendan departed for Littleroot Town.
 
 ## Engine / Harness Mechanics Verified
-- In-Battle Party Targeting Grid Navigation: On the in-battle party targeting screen, the active battler is in the left box. Pressing Right moves cursor into the right column at Row 1. The fainted lead (SAGE) is in Row 2! To target Sage from the left box, the exact D-pad sequence is: Right -> Down! Confirming without Down targets Row 1.
+- In-Battle Party Targeting Grid Navigation: On the in-battle party targeting screen, the active battler is in the left box. The reserve column lists remaining party members in party order. When Cobalu is active, SAGE is in Row 3! Moving from Row 2 (Cipher) to Row 3 (Sage) requires pressing Down once.
 - In-Battle Bag Exit Latency: Closing the Bag in battle takes ~1.2 seconds for the screen to fade back to the arena and load the battle menu. Directional inputs sent before ~1.2s will be dropped. Always allow at least 1200-1400ms after B to let the battle menu settle before sending directional inputs.
 - Elite Four Drake Battle Insights: Drake's team includes Shelgon Lv 52 (Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef), Altaria Lv 54 (Natural Cure, Aerial Ace, Dragon Breath, Dragon Dance; 2x weak to Rock Tomb, 0.25x resists Grass). Altaria's Aerial Ace deals lethal Flying physical damage to Grass types; counter immediately with Rock Tomb.
 - In-Battle Forced Switch Protocol: When the active Pokémon faints, the game displays 'Choose a POKéMON.' The cursor highlights the fainted battler in the left box. Pressing Right moves directly across to the top slot in the right column, pressing A opens SEND OUT / SUMMARY / CANCEL, and confirming with A sends out the replacement.
