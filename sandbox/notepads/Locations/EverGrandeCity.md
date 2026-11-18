@@ -57,3 +57,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Nurse Joy Counter: Located at cols 2..5, rows 2..3. Talk from (3, 4) facing Up to fully heal party. Sets permanent Hoenn Fly Map flight checkpoint!
 - Poké Mart Counter: Located at cols 13..16, rows 2..3. Talk from (16, 4) facing Up. Sells Ultra Ball, Hyper Potion, Max Potion, Full Restore, Full Heal, Revive, Max Repel.
 - Badge Check Gate: Located at cols 9..10, row 2. Guards inspect all 8 Badges. Upon confirmation, guards step aside to (8, 2) and (11, 2), unlocking the entrance doorway into Elite Four Room 1 (Sidney)!
+
+## Elite Four Battle Notes & Scouting
+- Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: ¥4,900.
+- Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: ¥5,100.
+- Elite Four Member #3 Glacia (Ice): Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Glalie Lv 52, Walrein Lv 53. Consumed exactly 2 Full Restores on Walrein and Glalie Lv 50. Defeated Turn 24005. Prize: ¥5,300.
+- Elite Four Member #4 Drake (Dragon):
+  - Altaria Lv 54 (Dragon/Flying): Dragon Dance, Aerial Ace, Dragon Breath, Take Down. Resists Grass 0.25x; 2x weak to Rock Tomb. DEFEATED Turn 24069 by Quick Attack!
+  - Flygon Lv 53 (Ground/Dragon): Levitate. Earthquake, Dragon Breath, Crunch, Sand Tomb. Neutral to Grass. DEFEATED Turn 24075 by Overgrow Leaf Blade!
+  - Salamence Lv 55 (Dragon/Flying - Drake's Ace): Active (~50% HP, -1 Speed from Rock Tomb). Intimidate, Flamethrower, Dragon Claw, Crunch, Rock Slide. 2x weak to Rock Tomb.
+  - Shelgon Lv 52 (Dragon): In reserve (~15% HP remaining). Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef.
+  - Kingdra Lv 53 (Water/Dragon): In reserve (full HP). Swift Swim, Dragon Dance, Smokescreen, Body Slam, Surf. Neutral to Grass (2HKOed by Leaf Blade).

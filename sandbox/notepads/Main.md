@@ -6,7 +6,7 @@
 - Status: AT POKÉMON LEAGUE HQ! All 8 Badges collected, Victory Road conquered! Ready to challenge the Hoenn Elite Four & Champion Wallace!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 118/197. Status: OK (took 79 damage from Salamence). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (8/24), Quick Attack (29/30). Held: Oran Berry. Status: OK.
+1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 197/197. Status: OK (healed to full with Hyper Potion Turn 24091). Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (3/10), Pursuit (20/20), Leaf Blade (8/24), Quick Attack (29/30). Held: Oran Berry. Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted to Altaria's Aerial Ace Turn 24046).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted to Altaria's Aerial Ace Turn 24051).
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/47. Max HP: 47. Status: FNT (fainted in Drake battle Turn 24065).
@@ -25,12 +25,12 @@
 - Carbos x2 (found at 20, 57 on Route 114; found at 55, 10 on Route 121)
 - Stardust x1 (found at 12, 54 on Route 111 Desert)
 - Zinc x2 (found at 4, 96 on Route 119 western terrace; found at 38, 13 on Route 121)
-- Hyper Potion x1 (used on Sage Turns 19843, 22359, 23947, 23997, 24078, 24085)
-- Max Elixir x0 (used on Sage Turn 23954 - all PP fully restored: Leaf Blade 24/24, Rock Tomb 10/10, Pursuit 20/20, Quick Attack 30/30!)
+- Hyper Potion x0 (consumed Turn 24091)
+- Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x1 (found behind generator at 3, 7 in Magma Hideout 6F)
-- PP Max x0 (used on Sage's Leaf Blade Turn 23953 - Max PP boosted from 15 to 24!)
-- Revive x0 (used on Sage Turns 19843, 23990, 24064; Lilz Turn 24040; Cipher Turn 24045)
+- PP Max x0
+- Revive x0
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -84,11 +84,8 @@
 ## Engine / Harness Mechanics Verified
 - In-Battle Party Targeting Grid Navigation: On the in-battle party targeting screen, the active battler is in the left box. The reserve column lists remaining party members in party order. When Cobalu is active, SAGE is in Row 3! Moving from Row 2 (Cipher) to Row 3 (Sage) requires pressing Down once.
 - In-Battle Bag Exit Latency: Closing the Bag in battle takes ~1.2 seconds for the screen to fade back to the arena and load the battle menu. Directional inputs sent before ~1.2s will be dropped. Always allow at least 1200-1400ms after B to let the battle menu settle before sending directional inputs.
-- Elite Four Drake Battle Insights: Drake's team includes Shelgon Lv 52 (Rock Head, Protect, Double-Edge, Rock Tomb; low 50 SpDef), Altaria Lv 54 (Natural Cure, Aerial Ace, Dragon Breath, Dragon Dance; 2x weak to Rock Tomb, 0.25x resists Grass). Altaria's Aerial Ace deals lethal Flying physical damage to Grass types; counter immediately with Rock Tomb.
 - In-Battle Forced Switch Protocol: When the active Pokémon faints, the game displays 'Choose a POKéMON.' The cursor highlights the fainted battler in the left box. Pressing Right moves directly across to the top slot in the right column, pressing A opens SEND OUT / SUMMARY / CANCEL, and confirming with A sends out the replacement.
 - In-Battle Revive & Priority: Using Revive from the Bag takes turn priority at the start of the turn before Pokémon execute moves, guaranteeing the target is revived. On the party targeting screen, cursor defaults to the active battler; pressing Right targets reserve/fainted Pokémon in the right column.
-- Elite Four Glacia Full Restore Limit: Glacia has exactly 2 Full Restores. In our battle, both Full Restores were consumed on Walrein and Glalie Lv 50, leaving her remaining Pokémon with 0 healing items.
-- Elite Four Battle #2 Phoebe Mechanics: Phoebe's team consists of Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Normal moves deal 0 damage to pure Ghost and Ghost/Dark. Dark-type Pursuit (Special in Gen 3) is 2x super-effective against Dusclops and Banette; Grass-type Leaf Blade deals neutral STAB damage against Sableye. Defeating Phoebe awards ¥5,100 and opens the door at (6, 1) to Room 3 (Glacia).
 - Overworld HP Restoration Timing: Restoring a large amount of HP via medicine (e.g. 168 HP with Hyper Potion) takes ~1.5s for the counter animation to tick up to full. Dismissing '[POKéMON]'s HP was restored...' with B returns to the Party screen, and pressing B again returns to the Bag.
 - Start Menu Memory: In Pokémon Emerald, the Start Menu remembers the last selected option (e.g. BAG or POKéMON) rather than resetting to POKéDEX.
 - TM/HM Move Replacement Workflow: Booting HM/TM in Bag -> select ABLE Pokémon -> confirm 'Delete a move' (default YES) -> BATTLE MOVES screen displays moves vertically -> select move to replace -> confirm deletion (default YES) -> teaches new move cleanly.
