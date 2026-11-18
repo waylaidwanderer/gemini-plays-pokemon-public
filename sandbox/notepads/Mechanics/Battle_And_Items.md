@@ -13,7 +13,7 @@
 - **Lv 7:** `Mud Sport` *(Verified Turn 66, `#78`)*
 - **Lv 8–9:** *(No moves learned)*
 - **Lv 10:** `Water Gun` *(Verified Turn 67, `#48`; current 4 moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`)*
-- **Lv 11–12:** *(No moves learned — verified Turns 84–85)*
+- **Lv 11–13:** *(No moves learned — verified Turns 84–86; Lv 13 stats: `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe`)*
 
 ## Early Shop Inventories
 - **Oldale Poké Mart (Pre-Pokédex):** `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)`. Poké Balls unlock after obtaining Pokédex *(Verified Turns 78–79)*.

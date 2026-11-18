@@ -1,6 +1,7 @@
 # Scratchpad — UI, Routing & Active Leads
 
 ## Active Exploration Leads (Post-Poké Balls)
+- **Oldale Town Custom Grass (`(15..16, 2)`):** Two custom tall grass tiles right behind Oldale Poké Mart *(spotted Turn 87)*—gives a dedicated **`OLDALE TOWN`** encounter!
 - **Route 101 Custom East Exit (`y=10..11, x >= 18`):** Confirmed open corridor through eastern trees on Route 101 *(Turn 70 `#60`)*. **Visit immediately after obtaining Poké Balls** in case it enters a new named encounter location!
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects (likely south/west of Route 101/102 or via later route).
 - **Littleroot SE Pond (`x=18..19, y=12..14`):** Custom water pond inside Littleroot Town—save for Fishing/Surf encounter if no Littleroot gift is taken.
