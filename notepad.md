@@ -5060,7 +5060,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: CONQUERED THE HOENN ELITE FOUR! Sidney, Phoebe, Glacia, and Drake ALL DEFEATED! SAGE Lv 68 equipped with Earthquake (10/10) and Aerial Ace (20/20). Entering Champion's Chamber to defeat Champion Wallace!
+- Status: POKÉMON LEAGUE CHAMPIONSHIP BATTLE! All 4 Elite Four members (Sidney, Phoebe, Glacia, Drake) DEFEATED! Facing Champion Wallace in the Champion's Chamber! SAGE Lv 68 equipped with Earthquake (10/10 PP), Rock Tomb (4/10 PP), and Quick Attack (23/30 PP). Ready to become Hoenn Champion!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 68) - Lead! HP: 65/205. Max HP: 205. Moves: Rock Tomb (4/10), Earthquake (10/10), Leaf Blade (0/24), Quick Attack (23/30). Held: Oran Berry. Status: OK. Ready to sweep Champion Wallace!
