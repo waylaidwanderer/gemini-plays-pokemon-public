@@ -78,6 +78,7 @@
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** *(Custom Fire coverage move verified Turns 137–151; Lv 12 Gulpin stats: `42 HP / 17 Atk / 18 Def / 17 SpA / 17 SpD / 16 Spe`)*.
+- **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets—Route 102's first trainer (**Youngster Calvin** at `(33, 14)`) has **3 Pokémon** (`Lv 6 Sentret` [with `Swift`], `Lv 6 Poochyena`, `Lv 6 Zigzagoon`) instead of vanilla's single Lv 5 Poochyena *(Verified Turns 161–167)*.
 
 <hr>
 
@@ -99,7 +100,8 @@
 - **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade!
 - **Naming Screen:** `Select` page-flip takes ~500ms (`sleep 800+` required). Contiguous columns `0..5` (no blank col between `C` and `D`).
 - **Options Binary Toggles:** `Left` and `Right` both wrap/toggle 2-state options; visually inspect before pressing.
-- **Cursor Persistence:** Both **Start Menu** (last row) and **Bag** (last pocket + last item row) persist across indoor/outdoor warps. Using items via `BAG -> USE` keeps the Party cursor on the previously selected slot, whereas `Start -> POKéMON` resets to Slot 1.
+- **Cursor Persistence & Auto-Refill Reordering:** Both **Start Menu** (last row) and **Bag** (last pocket + last item row) persist across indoor/outdoor warps. Using items via `BAG -> USE` keeps the Party cursor on the previously selected slot, whereas `Start -> POKéMON` resets to Slot 1. **Caution:** Overworld auto-refill places `RARE CANDY x99` (and refilled Berries) at **Row 0**, shifting other items down—always verify item row visually after returning to the overworld *(Turn 153 `#51`)*.
+- **Battle KO & `B`-Button Idempotency:** Because `B` is a harmless no-op on both `"What will <PKMN> do?"` and the overworld, chaining `sleep 6800 -> B` (`fainted!`) -> `sleep 4500 -> B` (`EXP!`) (plus `3x [sleep 2500–3500 -> B]` on a trainer's final Pokémon) safely clears OHKOs straight out of battle while staying harmless if the foe survives *(Turns 163–167)*.
 - **Pokémon Center Nurse Joy Flow:** Requires **`4x A`** (`1: Talk` -> `2: "Hello..."` -> `3: "We restore..."` -> `4: "Would you like..." [YES]`), then `sleep 8500` for healing jingle, then `B` presses. Pressing only `3x A` followed by `B` selects `NO` without healing!
 - **Safe Rare Candy Cycle (4 Full Moves):** `3x A` (`Candy -> Use -> Pokémon`) + `3x B` (`+Stats -> Total Stats -> dismiss`) + `sleep 2400` avoids exiting Bag if no move is learned and avoids overwriting Move Slot 1 if a move is learned.
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible.
