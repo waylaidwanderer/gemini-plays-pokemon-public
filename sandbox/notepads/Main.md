@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Conquering the Hoenn Elite Four! Sage Lv 65 with 24 PP Leaf Blade, backed by 5 Revives and 2 Hyper Potions. Ascending grand staircase to sweep Sidney!
+- Status: Conquering the Hoenn Elite Four! Sidney & Phoebe DEFEATED! Sage Lv 67 with 202 HP, backed by 5 Revives and 1 Hyper Potion. Teaching TM27 Return to replace Pursuit, then sweeping Glacia!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 65) - Lead! HP: 197/197. Max HP: 197. Stats: Atk 146, Def 106, SpA 159, SpD 143, Spe 192. Moves: Rock Tomb (10/10), Pursuit (20/20), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
+1. SAGE (Sceptile ♂, Level 67) - Lead! HP: 202/202. Max HP: 202. Moves: Rock Tomb (10/10), Return (20/20), Leaf Blade (0/24), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% full HP!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
