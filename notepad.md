@@ -106,11 +106,9 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 130 — Entering Route 102 Progression)
-- **CRITICAL:** **Bayou (`Lv 13 Mudkip`) is `SLP` (`26/36 HP`)** from wild Gulpin's `Yawn`! Walk ~18 steps east from `(39, 7)` back into **Oldale Pokémon Center (`(6, 16)`)** to heal Bayou + buy `Awakening` before engaging ANY Route 102 trainer!
-- **Pending Party Checks:**
-  1. Inspect **Matcha (`Lv 6 Gulpin ♀`)** Summary & **check/take any wild held item** (wild Gulpin often hold `Oran Berry`—taking 1 into Bag auto-refills to `99`!).
-  2. `TAKE` **Girasol's (`Lv 4 Sunkern ♀`)** wild-held **`SUN STONE`** into Bag; level Girasol with Rare Candies to check Sunkern's early custom moves BEFORE deciding the optimal level to use `SUN STONE`!
-- **Route 102 Hazard Note:** Rotating trainer stands in grass at `(37, 3)` on Route 102; `(38..39, 7)` is bare ground south of the grass.
+## Live Tactical State (Turn 136 — Town Prep Before Route 102 Sweep)
+- **Party Healed:** Bayou (`Lv 13 Mudkip`), Girasol (`Lv 4 Sunkern`), and Matcha (`Lv 6 Gulpin`) fully healed at Oldale Pokémon Center; Girasol's wild `SUN STONE` is safely stored in `ITEMS` pocket.
+- **Level Cap Plan (Roxanne Cap = Lv 16):** Keep Bayou below Lv 16 through Rustboro Gym trainers so Bayou can legally enter Roxanne's battle as a freshly evolved **`Lv 16 Marshtomp`**! Level **Girasol -> Lv 13** (keep as Sunkern first to inspect custom Lv 5–13 learnset before deciding when to use `SUN STONE`) and **Matcha -> Lv 12** so they can handle Route 102 trainers without overleveling Bayou.
+- **Route 102 Hazard Note:** Rotating trainer stands in grass at `(38, 4)` on Route 102 (looks `Up` and `Down`); `(39, 7)` and `(39..46, 8)` are safe bare ground out of his line of sight.
 
 <hr>
