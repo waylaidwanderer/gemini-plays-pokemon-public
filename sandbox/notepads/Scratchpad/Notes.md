@@ -12,7 +12,7 @@
   1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 through Gym trainers so Bayou evolves into `Lv 16 Marshtomp` right before Roxanne!)*
-  4. **Calavera (`Lv 12 -> Lv 13 Cubone ♂`, `NONE` -> equipping `ORAN BERRY` next):** `Bone Club`, `Rock Throw`, `Secret Power` (`Lightningrod`, Quirky; no moves learned at Lv 11–12).
-- **Immediate Route 104 South Plan (`Position x=27 y=60`):**
-  1. Feed 6th Rare Candy (`Lv 12 -> Lv 13`) to Calavera & check for any `Lv 13` move, then equip `ORAN BERRY` onto Calavera.
-  2. Collect item ball spotted at `(32, 53)` above the northern ledge, sweep Route 104 South's beach/road trainers & items, and enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).
+  4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, **`Headbutt`** (`31 Def!` `Lightningrod`, Quirky).
+- **Immediate Route 104 South Plan (`Position x=27 y=60 -> x=25 y=60`):**
+  1. Equipping `ORAN BERRY` onto Calavera now (all 4 teammates Lv 13–14 holding Oran Berries!) and scouting west to `(25, 60)`.
+  2. Sweep Route 104 South's beach/road trainers & `(32, 53)` upper-ledge item ball, then enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).

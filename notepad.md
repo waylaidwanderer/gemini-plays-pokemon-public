@@ -85,7 +85,7 @@
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`)*.
-- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10` *(no move; Lv 10 stats: `30 HP / 15 Atk / 25 Def / 13 SpA / 17 SpD / 14 Spe` — verified Turn 238 `#106–#136`)*.
+- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** *(Lv 13 stats: `37 HP / 18 Atk / 31 Def / 16 SpA / 20 SpD / 17 Spe` — verified Turn 241 `#19–#28`)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
@@ -142,9 +142,9 @@
   1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 through Gym trainers so Bayou evolves into `Lv 16 Marshtomp` right before Roxanne!)*
-  4. **Calavera (`Lv 12 -> Lv 13 Cubone ♂`, `NONE` -> equipping `ORAN BERRY` next):** `Bone Club`, `Rock Throw`, `Secret Power` (`Lightningrod`, Quirky; no moves learned at Lv 11–12).
-- **Immediate Route 104 South Plan (`Position x=27 y=60`):**
-  1. Feed 6th Rare Candy (`Lv 12 -> Lv 13`) to Calavera & check for any `Lv 13` move, then equip `ORAN BERRY` onto Calavera.
-  2. Collect item ball spotted at `(32, 53)` above the northern ledge, sweep Route 104 South's beach/road trainers & items, and enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).
+  4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, **`Headbutt`** (`31 Def!` `Lightningrod`, Quirky).
+- **Immediate Route 104 South Plan (`Position x=27 y=60 -> x=25 y=60`):**
+  1. Equipping `ORAN BERRY` onto Calavera now (all 4 teammates Lv 13–14 holding Oran Berries!) and scouting west to `(25, 60)`.
+  2. Sweep Route 104 South's beach/road trainers & `(32, 53)` upper-ledge item ball, then enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).
 
 <hr>
