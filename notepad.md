@@ -83,7 +83,7 @@
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`)*.
-- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** *(Custom EdgeQuake starting moveset verified Turn 234 `#182`; Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`)*.
+- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10` *(no move; Lv 10 stats: `30 HP / 15 Atk / 25 Def / 13 SpA / 17 SpD / 14 Spe` — verified Turn 238 `#106–#136`)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
@@ -134,7 +134,7 @@
   1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-  4. **Calavera (`Lv 7 Cubone ♂`, `24/24 HP`, `NONE`):** `Bone Club`, `Rock Throw` (`Lightningrod`, Quirky). Next on bare ground `(27, 60)`: Rare Candy to `Lv 13` (logging Lv 8–13 learnset!) & equip `ORAN BERRY`!
+  4. **Calavera (`Lv 10 -> Lv 12 Cubone ♂`, `30/30 HP`, `NONE`):** `Bone Club`, `Rock Throw`, **`Secret Power`** (`Lightningrod`, Quirky). Finishing Rare Candies to `Lv 13` & equipping `ORAN BERRY` next!
 - **Route 104 South Targets:** Step out of grass to `(27, 60)`, train/equip Calavera, grab item ball spotted at `(32, 53)`, check Mr. Briney's / beach trainers, and reach **Petalburg Woods** (next Nuzlocke encounter!).
 
 <hr>

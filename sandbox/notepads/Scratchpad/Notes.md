@@ -37,5 +37,5 @@
   1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-  4. **Calavera (`Lv 7 Cubone ♂`, `24/24 HP`, `NONE`):** `Bone Club`, `Rock Throw` (`Lightningrod`, Quirky). Next on bare ground `(27, 60)`: Rare Candy to `Lv 13` (logging Lv 8–13 learnset!) & equip `ORAN BERRY`!
+  4. **Calavera (`Lv 10 -> Lv 12 Cubone ♂`, `30/30 HP`, `NONE`):** `Bone Club`, `Rock Throw`, **`Secret Power`** (`Lightningrod`, Quirky). Finishing Rare Candies to `Lv 13` & equipping `ORAN BERRY` next!
 - **Route 104 South Targets:** Step out of grass to `(27, 60)`, train/equip Calavera, grab item ball spotted at `(32, 53)`, check Mr. Briney's / beach trainers, and reach **Petalburg Woods** (next Nuzlocke encounter!).
