@@ -129,8 +129,8 @@
 - **Route 102 Wrap-Up:** SW alcove item ball `(11, 15)` yielded `1x Potion` *(Turn 203 `#11`; Turn 202 `#14–#17` at `(10, 15)` confirmed solid southern border trees across `y=17..18`, resolving the `x=8..9` chute as a closed alcove rather than a path to western Littleroot)*. Optional trainers at `(18, 11)` and `(38, 4)` saved for later EXP if needed.
 - **Petalburg City Checklist:**
   1. **Petalburg Pokémon Center (`(20, 16)`):** Healed full HP/PP & set respawn checkpoint *(Turn 205)*.
-  2. **Petalburg Poké Mart (`(25, 12)`):** Full `BUY` list verified *(Turn 208)*; purchasing `2x Repel` (`¥700`, leaving `¥756`) for cave/encounter routing!
-  3. Check town houses *(caution: Petalburg City has ponds, so do NOT blindly accept a town gift Pokémon without evaluating first!)*.
+  2. **Petalburg Poké Mart (`(25, 12)`):** Full `BUY` list verified *(Turn 208)*; purchased `1x Repel` (`¥350`, leaving **`¥1,106`** verified on `turn_209/frame_075.png`) for cave/encounter routing!
+  3. **Petalburg Town Houses & Ponds:** Custom swimmer spotted in SW pond at `(8, 24)` *(Turn 212 — check once Surf is unlocked)*. Checking SE House `(20, 24)` and SW House `(10, 19)` now!
   4. Speak to **Norman in Petalburg Gym** to complete Wally's tutorial and unlock Route 104 West!
 
 <hr>
