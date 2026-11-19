@@ -3,15 +3,15 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: CONQUERING THE POKÉMON LEAGUE! All 6 Pokémon 100% fully restored (HP/PP). Sage Lv 68 with 24 PP Leaf Blade, 10 PP Earthquake, 10 PP Rock Tomb, 30 PP Quick Attack. Restocking at League Mart before championship sweep!
+- Status: CONQUERING THE POKÉMON LEAGUE! Sidney and Phoebe DEFEATED! Sage Lv 69 (104/208 HP) with Earthquake (7/10), Rock Tomb (10/10), Quick Attack (28/30). 5 Revives, 2 Hyper Potions. Entering Room 3 to sweep Glacia (Ice)!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 68) - Lead! HP: 205/205. Max HP: 205. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
-4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK. 100% fully restored!
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK. 100% fully restored!
+1. SAGE (Sceptile ♂, Level 69) - Lead! HP: 104/208. Max HP: 208. Moves: Rock Tomb (10/10), Earthquake (7/10), Leaf Blade (0/24), Quick Attack (28/30). Held: Oran Berry. Status: OK. Ready for Glacia!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
+4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Max HP: 101. Status: FNT.
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
@@ -29,7 +29,7 @@
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x7 (purchased at League Mart Turn 24380)
+- Revive x5 (2 used in Phoebe fight Turn 24471)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -46,7 +46,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥5,198 (verified Turn 24380)
+- Money: ~¥15,198 (Sidney & Phoebe defeated!)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
