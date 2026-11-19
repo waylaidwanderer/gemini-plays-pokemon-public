@@ -3,15 +3,15 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: CONQUERING THE POKÉMON LEAGUE! Sidney and Phoebe DEFEATED! Sage Lv 69 (104/208 HP) with Earthquake (7/10), Rock Tomb (10/10), Quick Attack (28/30). 5 Revives, 2 Hyper Potions. Entering Room 3 to sweep Glacia (Ice)!
+- Status: In Pokémon League HQ Lobby preparing final run! Sage Lv 69 (208/208 HP) with Earthquake (10/10), Rock Tomb (10/10), Leaf Blade (24/24), Quick Attack (30/30). All 6 Pokémon at 100% HP. Money: ¥7,599. Restocking at Mart!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 69) - Lead! HP: 104/208. Max HP: 208. Moves: Rock Tomb (10/10), Earthquake (7/10), Leaf Blade (0/24), Quick Attack (28/30). Held: Oran Berry. Status: OK. Ready for Glacia!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK.
+1. SAGE (Sceptile ♂, Level 69) - Lead! HP: 208/208. Max HP: 208. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (24/24), Quick Attack (30/30). Held: None. Status: OK. Ready to sweep!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Max HP: 101. Status: FNT.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK.
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
