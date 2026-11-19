@@ -79,4 +79,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Final Run & Restock Discoveries (Turn 24560+)
 - Mart Restocking: Sold Carbos x2 (¥9,800), Zinc x2 (¥9,800), and Stardust x1 (¥1,000) for ¥20,600 total. Purchased 10 Revives (¥15,000) and 10 Hyper Potions (¥12,000). Bag stock: 11 Revives, 10 Hyper Potions, 5 Full Heals, 1 Burn Heal, Quick Claw. Remaining cash: ¥1,199.
 - Fresh Elite Four Run: Re-entered Elite Four Room 1 with fully restored team (Sage Lv 69, 208/208 HP, Leaf Blade 24 PP, Earthquake 10 PP, Rock Tomb 10 PP).
-- Sidney Battle: Mightyena Lv 46 OHKOed on Turn 1 with Leaf Blade! Sweeping remaining team with Leaf Blade.
+- Sidney Battle: Mightyena Lv 46, Absol Lv 49, and Shiftry Lv 48 defeated. Sage reached Lv 70 (81/211 HP). Cacturne is active at ~35% HP. Sweeping with Leaf Blade!
