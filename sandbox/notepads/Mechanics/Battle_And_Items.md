@@ -20,6 +20,8 @@
 - **Oldale Poké Mart:**
   - **Post-Pokédex:** **`Poké Ball (¥10 — massive discount from vanilla ¥200!)`**, `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)` *(Verified Turn 106–107)*.
   - *(Pre-Pokédex: same list minus Poké Ball, verified Turns 78–79).*
+- **Petalburg Poké Mart (Pre-Gym):**
+  - `Poké Ball (¥10)`, `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)`, **`Escape Rope (¥550)`**, **`Repel (¥350)`**, `X Speed (¥350)`, `X Attack (¥500)`, `X Defend (¥550)`, `Orange Mail (¥50)` *(Verified Turn 208 `#10–#42`)*.
 ## Early Boss / Rival Log & Wild Pool Clues
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*—expect Gen 1–3 National Dex species in grass tables.
