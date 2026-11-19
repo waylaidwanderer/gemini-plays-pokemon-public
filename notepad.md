@@ -386,6 +386,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before Pokémon moves execute.
 - Champion Wallace Preparation: Equipping Sage Lv 68 with TM26 Earthquake (100 Power Ground physical, counters Tentacruel and deals massive physical damage) and TM40 Aerial Ace (60 Power Flying physical, never misses, counters Ludicolo through Double Team).
 
+## Elite Four Rematch & Restock Discoveries (Turn 24466)
+- Mart Restocking: Sold Nugget for ¥5,000. Purchased 7 Revives (¥10,500) and 2 Hyper Potions (¥2,400). Remaining cash: ¥5,198.
+- Elite Four Sidney Rematch: Sidney defeated cleanly in 5 turns with Leaf Blade!
+- Elite Four Phoebe Progress: Dusclops Lv 48, Dusclops Lv 51, and Banette #1 Lv 49 defeated. Sage reached Level 69 (Max HP 208).
+- Status & Priority Mechanics: Fainting and reviving a Pokémon completely cures all status conditions (including Burn). Using a Revive from the Bag executes with absolute turn priority at turn start before enemy moves.
+
 <hr>
 
 <h1><code>Locations/FallarborTown</code></h1>
