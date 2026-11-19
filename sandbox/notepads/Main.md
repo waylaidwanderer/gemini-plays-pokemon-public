@@ -19,4 +19,5 @@
 
 ## Notepad Index
 - `Locations/Encounters` — Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
-- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics (in-battle Bag healing disabled, starter/wild buffs, auto-refills)
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics (in-battle Bag healing disabled, starter/wild/trainer buffs, learnsets, auto-refills)
+- `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart flows, Naming grid, and battle KO timings

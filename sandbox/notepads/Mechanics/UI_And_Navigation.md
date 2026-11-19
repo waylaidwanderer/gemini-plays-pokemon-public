@@ -1,0 +1,26 @@
+# Verified UI, Menu & Spatial Mechanics
+
+## Overworld, Fades & Scripting
+- **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade! *(Verified Turn 156 `#01–#48`)*.
+- **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible, and inside NPC houses step down to an open floor row before aligning `x` with the mat *(Turns 215, 224)*.
+- **Multi-Warp Chaining:** Insert `sleep 2200–2400` immediately after an indoor warp step to continue overworld movement on the destination map.
+- **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) to stay well clear of the 150-button and 120s script limits.
+
+## Menus, Bag & Berries
+- **Cursor Persistence & Auto-Refill Reordering:** Both **Start Menu** (last row) and **Bag** (last pocket + per-pocket item row, including in-battle pocket switches!) persist across warps/battles. `BAG -> USE` preserves the Party cursor (`gPartyMenu.slotId`), whereas **`BAG -> GIVE` and `Start -> POKéMON` always reset the Party cursor to Slot 1** *(Verified Turn 184 `#167`, Turn 237)*. **Caution:** Overworld auto-refill places `RARE CANDY x99` at **Row 0** of `ITEMS`, shifting other items down *(Turn 153 `#51`)*.
+- **Summary Exit Quirk:** Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133 `#75–#80`)*.
+- **Options Binary Toggles:** `Left` and `Right` both wrap/toggle 2-state options; visually inspect before pressing.
+- **Naming Screen Grid (`cols 0..6`):** `Select` page-flip takes ~500ms (`sleep 800+` required); `Start -> A` confirms `OK`.
+  - Row 0: `0:A 1:B 2:C 3:D 4:E 5:F 6:.` | Row 1: `0:G 1:H 2:I 3:J 4:K 5:L 6:,`
+  - Row 2: `0:M 1:N 2:O 3:P 4:Q 5:R 6:S` | Row 3: `0:T 1:U 2:V 3:W 4:X 5:Y 6:Z` *(Verified Turn 234)*.
+- **Berry Tree Harvest & `BERRIES` Pocket UI:**
+  - **Harvesting:** Requires **`3x A`** (`1: Interact` -> `2: "You found X BERRIES!"` -> `3: "Do you want to pick...?" [YES]`), then `sleep 3500` for jingle, then **`3x B`** (use `B` afterward to avoid opening replant prompt) *(Turns 178–179)*.
+  - **`BERRIES` Pocket Popup Grid (`2x3`):** `(0,0) CHECK TAG` | `(0,1) USE`, `(1,1) GIVE` | `(0,2) TOSS`, `(1,2) CANCEL` — from `CHECK TAG`, `USE` is `Down` and `GIVE` is `Down, Right` (`Down, Down` is `TOSS`!) *(Verified Turn 183)*.
+  - **Loamy Soil Quirk:** Selecting `USE` on a Berry while facing empty loamy soil plants the Berry instead of opening the Party screen (`GIVE` always opens Party; step off loamy soil before selecting `USE`!) *(Turn 183 `#08`)*.
+- **Safe Rare Candy Cycle (4 Full Moves):** `3x A` (`Candy -> Use -> Pokémon`) + `3x B` (`+Stats -> Total Stats -> dismiss`) + `sleep 2400` avoids exiting Bag if no move is learned and avoids overwriting Move Slot 1 if a move is learned.
+
+## Town Facilities & Battle Flows
+- **Pokémon Center Nurse Joy Flow:** Entry mat `(7, 8)`, counter `(7, 4)` (`4` steps `Up`). Requires **`4x A`** (`1: Talk` -> `2: "Hello..."` -> `3: "We restore..."` -> `4: "Would you like..." [YES]`), then `sleep 8500` for healing jingle, then `3x B` *(Verified Turn 152)*.
+- **Poké Mart Flow:** Entry mat `(3, 7)`, Cashier `(3, 3)` (`4` steps `Up`, face `Left`). Requires **`3x A`** (`1: Talk` -> `2: "Welcome!"` -> `3: [►BUY]`) + `sleep 2400` fade into `BUY` *(Turns 207–208)*. Quantity purchase: `A` (`YES/NO`) -> `A` (`"Here you go!"`) -> `B` (returns to `BUY`, or `2x B` if ≥10 Poké Balls triggers Premier Ball); `B` on `BUY` fades (`sleep 2400`) out.
+- **Battle KO & `B`-Button Idempotency:** Because `B` is a harmless no-op on both `"What will <PKMN> do?"` and the overworld, chaining `sleep 7800 -> B` (`fainted!`, covering super-effective text) -> `sleep 4500 -> B` (`EXP!`) -> `sleep 4500 -> B` (mid-trainer send-out, or `sleep 4000 -> B -> sleep 2500 -> B -> sleep 2500 -> B -> sleep 3000 -> B` on final Pokémon) safely clears OHKOs while staying harmless if the foe survives *(Turns 173–188)*.
+- **Poké Ball Catch & Nickname Entry:** All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) stay active in battle (`BERRIES -> POKé BALLS` is `2x Left`!) *(Turn 232)*. Use harmless `"Up"` while waiting out ball shakes. From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0) 'A'` *(Turns 115–233)*.

@@ -24,6 +24,7 @@
   - `Poké Ball (¥10)`, `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)`, **`Escape Rope (¥550)`**, **`Repel (¥350)`**, `X Speed (¥350)`, `X Attack (¥500)`, `X Defend (¥550)`, `Orange Mail (¥50)` *(Verified Turn 208 `#10–#42`)*.
 ## Early Boss / Rival Log & Wild Pool Clues
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
+- **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
