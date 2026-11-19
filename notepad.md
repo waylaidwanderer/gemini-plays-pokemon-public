@@ -5055,10 +5055,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: POKÉMON LEAGUE CHAMPIONSHIP BATTLE! All 4 Elite Four members (Sidney, Phoebe, Glacia, Drake) DEFEATED! Facing Champion Wallace in the Champion's Chamber! SAGE Lv 68 equipped with Earthquake (10/10 PP), Rock Tomb (4/10 PP), and Quick Attack (23/30 PP). Ready to become Hoenn Champion!
+- Status: CONQUERING THE POKÉMON LEAGUE! All 6 Pokémon 100% fully restored (HP/PP). Sage Lv 68 with 24 PP Leaf Blade, 10 PP Earthquake, 10 PP Rock Tomb, 30 PP Quick Attack. Restocking at League Mart before championship sweep!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 68) - Lead! HP: 65/205. Max HP: 205. Moves: Rock Tomb (4/10), Earthquake (10/10), Leaf Blade (0/24), Quick Attack (23/30). Held: Oran Berry. Status: OK. Ready to sweep Champion Wallace!
+1. SAGE (Sceptile ♂, Level 68) - Lead! HP: 205/205. Max HP: 205. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (24/24), Quick Attack (30/30). Held: Oran Berry. Status: OK. 100% fully restored!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK. 100% fully restored!
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK. 100% fully restored!
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. 100% fully restored!
