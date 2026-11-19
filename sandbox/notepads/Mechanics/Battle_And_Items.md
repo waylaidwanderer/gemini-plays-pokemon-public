@@ -41,3 +41,4 @@
   - **Bird Keeper Billy** (`(23, 66)` on Route 104 South beach — upgraded from vanilla Youngster): **3 Pokémon** — `Lv 7 Pidgey` (`Gust`), `Lv 7 Wingull` (`Water Gun`), `Lv 7 Taillow` *(Turns 247–253)*.
   - **Fisherman Darian** (`(15, 59)` on Route 104 South beach): **3 Pokémon** — `#1 Lv 9 Magikarp` (`Bounce`, `Flail`, held `Berry Juice`/`Oran Berry`), `#2 Lv 8 Feebas` (`Water Pulse`, `Hypnosis`), `#3 TBD` *(Turns 257–271)*.
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
+- **No AI Sleep Clause:** Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Verified Turn 272 — Fisherman Darian's `Lv 8 Feebas` put both Girasol and Matcha to sleep with `Hypnosis`)*.
