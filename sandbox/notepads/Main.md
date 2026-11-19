@@ -1,8 +1,8 @@
 # Nuzlocke Dashboard — Attempt #1
 
 ## Run Status
-- **Attempt:** #1
-- **ROM Hack:** Custom Emerald Hack (vanilla title banner; custom map area/NPC/signpost spotted west of Littleroot Town tree border on Turn 31)
+- **Attempt:** #1 (Deaths: `1` — Bayou `Lv 13 Mudkip`, Turn 380)
+- **ROM Hack:** Custom Emerald Hack (Team Magma swapped into Petalburg Woods; custom map area west of Littleroot Town spotted Turn 31)
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
 - **Battle Style:** `SET` & Text Speed `FAST` (Verified in-game Start Menu Turn 19)
 

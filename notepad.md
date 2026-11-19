@@ -7,7 +7,7 @@
 - Dupes Clause active across evolution families obtained in Attempt #1.
 
 ## Locations & Encounters
-- **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified on Summary Turn 55, `#19`). **USED.**
+- **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified Turn 55 `#19`). **USED — DECEASED Turn 380** *(crit `Pursuit` vs Team Magma Grunt's `Lv 9 Houndour`; family remains Dupes-locked)*.
 - **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
 - **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
@@ -28,8 +28,8 @@
 # Nuzlocke Dashboard — Attempt #1
 
 ## Run Status
-- **Attempt:** #1
-- **ROM Hack:** Custom Emerald Hack (vanilla title banner; custom map area/NPC/signpost spotted west of Littleroot Town tree border on Turn 31)
+- **Attempt:** #1 (Deaths: `1` — Bayou `Lv 13 Mudkip`, Turn 380)
+- **ROM Hack:** Custom Emerald Hack (Team Magma swapped into Petalburg Woods; custom map area west of Littleroot Town spotted Turn 31)
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
 - **Battle Style:** `SET` & Text Speed `FAST` (Verified in-game Start Menu Turn 19)
 
@@ -99,7 +99,8 @@
   - **Lady Cindy** (`(11, 40)` on Route 104 South): **3 Pokémon** — `#1 Lv 8 Cleffa ♀` (`Metronome`), `#2 Lv 8 Pichu ♀`, `#3 Lv 7 Azurill ♀` (`¥1,400` payout, Turns 309–314).
   - **Bug Maniac Lyle** (`(13, 34)` in Petalburg Woods — upgraded from Bug Catcher): **3 Pokémon** — `#1 Lv 8 Spinarak ♂`, `#2 Lv 8 Venonat`, `#3 Lv 8 Ledyba ♂` (`¥576` payout, Turns 343–347).
   - **Bug Catcher James** (`(10, 24)` in Petalburg Woods): **3 Pokémon** — `#1 Lv 9 Paras ♂` (**`Spore` at Lv 9!**), `#2 Lv 8 Surskit ♂` (`Water Pulse`), `#3 Lv 9 Nincada ♂` (`Dig`) (`¥360` payout, Turns 352–362).
-  - **Team Magma Grunt** (`(26, 23)` in Petalburg Woods — replaces vanilla Team Aqua!): **4 Pokémon** — `#1 Lv 8 Magnemite`, `#2 Lv 8 Koffing ♂` (`Smokescreen`, `Protect`, **`Thief` [permanently steals held item!]**, `Will-O-Wisp`), `#3 Lv 9 Houndour ♂` (`Ember`, **`Pursuit`**, `>19 Spe`!), `#4 Lv 8 Duskull ♂` *(Turns 367–383)*.
+  - **Team Magma Grunt** (`(26, 23)` in Petalburg Woods — replaces vanilla Team Aqua!): **4 Pokémon** — `#1 Lv 8 Magnemite`, `#2 Lv 8 Koffing ♂` (`Smokescreen`, `Protect`, **`Thief` [permanently steals held item!]**, `Will-O-Wisp`), `#3 Lv 9 Houndour ♂` (`Ember`, **`Pursuit`**, `>19 Spe`!), `#4 Lv 8 Duskull ♂` (`Protect`) *(Turns 367–384)*.
+- **Widespread Enemy `Protect`:** Early trainers and bosses (`Sunkern`, `Koffing`, `Duskull`) frequently carry `Protect` to scout and stall PP *(Turns 190, 372, 382)*.
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 - **No AI Sleep Clause & Gen 3 `Spore` Counterplay:** Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Turn 272)*, and Grass-types are NOT immune to `Spore`/`Sleep Powder` in Gen 3. Against a slower `Spore` user (`Lv 9 Paras`), staying in with a faster `Oran Berry` holder lets you wake up, move first, and KO before it can re-Spore a switch-in *(Verified Turns 353–356)*.
