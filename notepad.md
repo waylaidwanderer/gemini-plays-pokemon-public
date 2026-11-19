@@ -5315,5 +5315,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - League Lobby Navigation & Mart Access: From entrance at (8, 11), walk North 6 steps to row 5, East 8 steps to (16, 5), North 1 step to (16, 4) facing Up to speak with Poké Mart clerk.
 - Start Menu Order: POKéDEX, POKéMON, BAG, POKéNAV, JADE, SAVE, OPTION, EXIT. From BAG, Down x1 selects POKéNAV; Down x2 selects JADE.
 - Item Sale Prices: Carbos and Zinc sell for ¥4,900 each; Stardust sells for ¥1,000.
+- Torment Mechanic in Gen 3: Torment is a volatile status applied to the battler (Sage) that persists across opposing Pokémon until Sage switches out or the battle ends. Consecutive identical moves are blocked; alternating moves (e.g. Leaf Blade -> Quick Attack -> Leaf Blade) operates smoothly.
 
 <hr>
