@@ -36,5 +36,5 @@
 - **Petalburg City Checklist:**
   1. **Petalburg Pokémon Center (`(20, 16)`):** Healed full HP/PP & set respawn checkpoint *(Turn 205)*.
   2. **Petalburg Poké Mart (`(25, 12)`):** Full `BUY` list verified *(Turn 208)*; purchased `1x Repel` (`¥350`, leaving **`¥1,106`** verified on `turn_209/frame_075.png`) for cave/encounter routing!
-  3. **Petalburg Town Houses & Ponds:** Custom swimmer spotted in SW pond at `(8, 24)` *(Turn 212 — check once Surf is unlocked)*. Checking SE House `(20, 24)` and SW House `(10, 19)` now!
+  3. **Petalburg Town Houses & Ponds:** SE House `(20, 24)` (Norman flavor) & SW House `(10, 19)` (traveling old man flavor) verified; `(8, 24)` water sprite verified as the `(8, 22)` boy's upside-down water reflection *(Turns 213–216)*. Checking **Wally's House `(7, 5)`** and **Petalburg Gym `(15, 8)`** next!
   4. Speak to **Norman in Petalburg Gym** to complete Wally's tutorial and unlock Route 104 West!
