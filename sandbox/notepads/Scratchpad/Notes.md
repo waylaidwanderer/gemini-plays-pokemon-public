@@ -1,6 +1,7 @@
 # Scratchpad — Active Leads & Live Tactical Routing
 
 ## Active Exploration & Future Encounter Leads
+- **Petalburg Woods Cut Ledge (`(19, 10..11)`):** Two `Cut` trees right below the North Exit gate the eastern upper ledge (`Miracle Seed` NPC + `(32, 30)` item ball — return immediately after obtaining `HM01 Cut` & Stone Badge in Rustboro City! Verified Turn 395).
 - **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*—anticipate custom Magma and Aqua boss fights in Rustboro City / Rusturf Tunnel!
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects via later routes/Surf.
 - **Unused Town Water Ponds (Save for Rod / Surf Encounters):**
