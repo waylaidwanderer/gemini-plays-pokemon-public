@@ -120,6 +120,7 @@
   - **`BERRIES` Pocket Popup Grid (`2x3`):** `(0,0) CHECK TAG` | `(0,1) USE`, `(1,1) GIVE` | `(0,2) TOSS`, `(1,2) CANCEL` — from `CHECK TAG`, `USE` is `Down` and `GIVE` is `Down, Right` (`Down, Down` is `TOSS`!) *(Verified Turn 183)*.
   - **Loamy Soil Quirk:** Selecting `USE` on a Berry while facing empty loamy soil plants the Berry instead of opening the Party screen (`GIVE` always opens Party; step off loamy soil before selecting `USE`!) *(Turn 183 `#08`)*.
 - **Safe Rare Candy Cycle (4 Full Moves):** `3x A` (`Candy -> Use -> Pokémon`) + `3x B` (`+Stats -> Total Stats -> dismiss`) + `sleep 2400` avoids exiting Bag if no move is learned and avoids overwriting Move Slot 1 if a move is learned.
+- **Unmapped `L` Fade-Settle & Party Column Navigation:** `L` is unmapped in Emerald's Bag and Party menus, so appending `"sleep 1800", "L"` after a fading action (`Start -> BAG`, `USE`, etc.) settles `<CurrentScreen>` inside the destination screen without moving cursors *(Turns 293–294)*. In single-battle Party layout, `Left` clamps from any right-column slot (`2..6`) directly to `Slot 1` (no-op if already on `Slot 1`), while `Right` from `Slot 1` moves directly to `Slot 2`; `sleep 2200` covers all `USE`/`GIVE` fades and `+10 HP` heal prompts *(Turns 295–297)*.
 
 ## Town Facilities & Battle Flows
 - **Pokémon Center Nurse Joy Flow:** Entry mat `(7, 8)`, counter `(7, 4)` (`4` steps `Up`). Requires **`4x A`** (`1: Talk` -> `2: "Hello..."` -> `3: "We restore..."` -> `4: "Would you like..." [YES]`), then `sleep 8500` for healing jingle, then `3x B` *(Verified Turn 152)*.
@@ -142,18 +143,17 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 288 — Fisherman Darian Cleared at (18, 59)!)
-- **Post-Battle Party Status (Cap = Lv 16 — Roxanne):**
-  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `21/42 HP`, `SLP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain [10/10 PP]` (`Chlorophyll`).
-  2. **Matcha (`Lv 14 Gulpin ♀`, `20/47 HP`, `NONE`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `~15/36 HP`, `NONE`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
-  4. **Calavera (`Lv 13 Cubone ♂`, `18/37 HP`, `NONE`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+## Live Tactical State (Turn 298 — Full Squad Restored on Route 104 South!)
+- **Party Status (Cap = Lv 16 — Roxanne):**
+  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain [10/10 PP]` (`Chlorophyll`).
+  2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
+  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
+  4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥1,330` (+ Fisherman Darian payout)
-  - **Non-Refilling Stock:** `Poké Ball x93`, `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x3`, `Repel x1`
+  - **Non-Refilling Stock:** `Poké Ball x93` (`x92` + `x1`), `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x2`, `Repel x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(18, 59)` on Route 104 South:**
-  1. **Field Recovery in Bag (No PC Backtrack Needed!):** Everyone has high PP—use `1x Awakening` (`ITEMS` pocket) to wake **Girasol**, use infinite `Oran Berry x99` (`BERRIES` pocket -> `USE`) to top all 4 Pokémon back to **100% HP**, and `GIVE` `Oran Berry` back onto **Matcha (Slot 2)**, **Bayou (Slot 3)**, and **Calavera (Slot 4)**!
-  2. Check adjacent `(15, 60)` straw-hat trainer & Mr. Briney's Cottage, climb northern beach stairs `(16..17, 54)` to collect the `(32, 53)` upper-ledge item ball, and enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).
+- **Immediate Next Steps on Route 104 South:**
+  1. Check `(15, 60)` beach NPC and Mr. Briney's Cottage area for custom items/NPCs.
+  2. Climb northern beach stairs `(16..17, 54)`, collect the `(32, 53)` upper-ledge item ball, and enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).
 
 <hr>
