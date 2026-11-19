@@ -127,7 +127,7 @@
 - **Pokémon Center Nurse Joy Flow:** Entry mat `(7, 8)`, counter `(7, 4)` (`4` steps `Up`). Requires **`4x A`** (`1: Talk` -> `2: "Hello..."` -> `3: "We restore..."` -> `4: "Would you like..." [YES]`), then `sleep 8500` for healing jingle, then `3x B` *(Verified Turn 152)*.
 - **Poké Mart Flow:** Entry mat `(3, 7)`, Cashier `(3, 3)` (`4` steps `Up`, face `Left`). Requires **`3x A`** (`1: Talk` -> `2: "Welcome!"` -> `3: [►BUY]`) + `sleep 2400` fade into `BUY` *(Turns 207–208)*. Quantity purchase: `A` (`YES/NO`) -> `A` (`"Here you go!"`) -> `B` (returns to `BUY`, or `2x B` if ≥10 Poké Balls triggers Premier Ball); `B` on `BUY` fades (`sleep 2400`) out.
 - **Battle KO & `B`-Button Idempotency:** Because `B` is a harmless no-op on both `"What will <PKMN> do?"` and the overworld, chaining `sleep 7800 -> B` (`fainted!`, covering super-effective text) -> `sleep 4500 -> B` (`EXP!`) -> `sleep 4500 -> B` (mid-trainer send-out, or `sleep 4000 -> B -> sleep 2500 -> B -> sleep 2500 -> B -> sleep 3000 -> B` on final Pokémon) safely clears OHKOs while staying harmless if the foe survives *(Turns 173–188)*.
-- **Poké Ball Catch & Nickname Entry:** All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) stay active in battle (`BERRIES -> POKé BALLS` is `2x Left`!) *(Turn 232)*. Use harmless `"Up"` while waiting out ball shakes. From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0) 'A'` *(Turns 115–233)*.
+- **Poké Ball Catch & Nickname Entry:** All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) stay active in battle (`BERRIES -> POKé BALLS` is `2x Left`!) *(Turn 232)*. Use `sleep 5000` after dismissing `"Wild <PKMN> appeared! ▼"` before battle menu inputs (`sleep 4200` can clip the end of `"Go! <PKMN>!"`, verified Turn 317), and use unmapped `"L"` (`"sleep 7000", "L", "sleep 6500", "L"`) while waiting out Poké Ball shakes so neither battle cursors nor `"Gotcha!"` prompts are disturbed *(Turn 318)*. From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0) 'A'` *(Turns 115–233)*.
 - **Rare Candy `<4` Moves `A`-Only Invariant:** Once `gPartyMenu.slotId` is locked onto a target with `<4` moves, `6x A` (`sleep 2500` each) advances 1 level (`+1 A` per new move learned into an empty slot) without ever exiting the Bag (`whereas B exits the Bag if no move is learned`) *(Verified Turns 238–241)*.
 - **In-Battle Switch Order & Split EXP:** Switching Slot `1` with Slot `k` mid-battle swaps only Slots `1` and `k` in the Battle Party menu (leaving untouched middle slots in place) and reverts to original order post-battle; add `1` extra `sleep 4500 -> B` when 2 Pokémon split EXP on a KO *(Verified Turns 248–253)*.
 
@@ -144,17 +144,18 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 298 — Full Squad Restored on Route 104 South!)
+## Live Tactical State (Turn 319 — Capturing Wild Lv 8 Teddiursa in Petalburg Woods!)
 - **Party Status (Cap = Lv 16 — Roxanne):**
-  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain [10/10 PP]` (`Chlorophyll`).
-  2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
+  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `39/47 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
+  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
 - **Wallet & Bag Inventory:**
-  - **Non-Refilling Stock:** `Poké Ball x93` (`x92` + `x1`), `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x2`, `Repel x1`
+  - **Cash:** `¥2,730+` (after Fisherman Darian + Lady Cindy `¥1,400`)
+  - **Non-Refilling Stock:** `Poké Ball x92` (`x91` + `x1`), `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x2`, `Repel x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps on Route 104 South:**
-  1. Check `(15, 60)` beach NPC and Mr. Briney's Cottage area for custom items/NPCs.
-  2. Climb northern beach stairs `(16..17, 54)`, collect the `(32, 53)` upper-ledge item ball, and enter **Petalburg Woods** (with Matcha's `Yawn` ready for our **Petalburg Woods Nuzlocke encounter**!).
+- **Immediate Next Steps in Petalburg Woods (`(21, 34)`):**
+  1. Catch our Petalburg Woods encounter (`Lv 8 Teddiursa ♂` -> nickname **Arctos**), inspect Summary/nature/ability/moves/held item, and record in `Locations/Encounters`.
+  2. Explore Petalburg Woods' southeast branch (`Bug Catcher Lyle` -> drop onto Route 104's `(29, 53)` cliff item ball), jump west over `(28, 53)`, re-enter Petalburg Woods, and clear the Team Aqua Grunt up the west branch to Route 104 North.
 
 <hr>
