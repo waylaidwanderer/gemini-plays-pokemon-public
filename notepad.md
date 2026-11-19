@@ -91,6 +91,7 @@
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
   - **Lass Tiana** (`(15, 5)` on Route 102): **3 Pokémon** — `Lv 6 Igglybuff` (`Present`), `Lv 6 Sunkern` (`Protect`), **`Lv 5 Togepi` (`Metronome`, holding `BERRY JUICE`!)** *(Turns 186–193 — expect `Berry Juice` `+20 HP` on trainer aces & early bosses!)*.
   - **Bug Catcher Allen** (`(13, 2)` on Route 102): **4 Pokémon** — `Lv 7 Weedle`, `Lv 7 Wurmple`, `Lv 7 Metapod`, `Lv 7 Silcoon` *(Turns 195–199)*.
+  - **Bird Keeper Billy** (`(23, 66)` on Route 104 South beach — upgraded from vanilla Youngster): **2 Pokémon** — `Lv 7 Pidgey` (`Gust`), `Lv 7 Wingull` (`Water Gun`) *(Turns 247–252)*.
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 
 <hr>
