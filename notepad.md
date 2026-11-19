@@ -86,7 +86,7 @@
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
-- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`, Turn 252 `#64`)*.
+- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** -> `Lv 15` *(no move; Lv 15 stats: `50 HP / 19 Atk / 22 Def / 20 SpA / 21 SpD / 18 Spe` — verified Turn 345)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** *(Lv 13 stats: `37 HP / 18 Atk / 31 Def / 16 SpA / 20 SpD / 17 Spe` — verified Turn 241 `#19–#28`)*.
 - **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (20 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** *(Lv 13 Relaxed stats: `39 HP / 28 Atk / 19 Def / 18 SpA / 21 SpD / 14 Spe` — verified Turn 323 `#288–#293` & Turn 327 `#123`–Turn 328)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
@@ -148,18 +148,18 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 328 — Full 5-Pokémon Squad Ready at (21, 34)!)
+## Live Tactical State (Turn 348 — Bug Maniac Lyle Cleared at (13, 33)!)
 - **Party Status (Cap = Lv 16 — Roxanne):**
-  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `47/47 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
+  1. **Arctos (`Lv 13 Teddiursa ♂`, Lead, `39/39 HP`, Healthy, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`28 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
-  5. **Arctos (`Lv 13 Teddiursa ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`28 Atk`, `Guts`, Relaxed `+Def/-Spe`).
+  5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [13/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥2,730+`
+  - **Cash:** `¥3,306+` (after Bug Maniac Lyle `¥576`)
   - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Repel x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps in Petalburg Woods (`(16, 37)`):**
-  1. Advance up Petalburg Woods' west branch (check western item alcoves, defeat Bug Catcher Lyle and the Team Aqua Grunt, receive Devon Researcher's reward) and exit north onto Route 104 North.
+- **Immediate Next Steps in Petalburg Woods (`(13, 33)`):**
+  1. Pop `Repel x1` (`100` encounter-free steps with `Lv 13` Arctos leading!) and sweep Petalburg Woods' west branch (collect western item balls, defeat the Team Aqua Grunt + Bug Catcher James, and exit north onto Route 104 North).
 
 <hr>
