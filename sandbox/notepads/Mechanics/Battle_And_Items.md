@@ -26,7 +26,7 @@
 ## Early Boss / Rival Log & Wild Pool Clues
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
 - **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
-- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)* and Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*—expect Gen 1–3 National Dex species in grass tables.
+- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` on Route 104 North *(Turns 403, 405)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.

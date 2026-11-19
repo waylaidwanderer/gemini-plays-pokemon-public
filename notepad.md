@@ -81,7 +81,7 @@
 ## Early Boss / Rival Log & Wild Pool Clues
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
 - **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
-- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)* and Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*—expect Gen 1–3 National Dex species in grass tables.
+- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` on Route 104 North *(Turns 403, 405)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
@@ -121,6 +121,7 @@
 ## Menus, Bag & Berries
 - **Cursor Persistence & Auto-Refill Reordering:** Both **Start Menu** (last row) and **Bag** (last pocket + per-pocket item row, including in-battle pocket switches!) persist across warps/battles. `BAG -> USE` preserves the Party cursor (`gPartyMenu.slotId`), whereas **`BAG -> GIVE` and `Start -> POKéMON` always reset the Party cursor to Slot 1** *(Verified Turn 184 `#167`, Turn 237)*. **Caution:** Overworld auto-refill places `RARE CANDY x99` at **Row 0** of `ITEMS`, shifting other items down *(Turn 153 `#51`)*.
 - **Summary Exit Quirk:** Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133 `#75–#80`)*.
+- **Party `SWITCH` Animation & Hidden-Item Approach Angle:** The two-sprite swap slide in `POKéMON -> SWITCH` takes ~1.6s (`sleep 2200` required before `B` or a second `SWITCH`, verified Turns 389 & 397). Because overworld directions always step onto walkable tiles, inspect a walkable hidden-item tile `(tx, ty)` by stepping from `(tx - 2*dx, ty - 2*dy)` onto `(tx - dx, ty - dy)` so Gem lands adjacent and facing `(tx, ty)` *(Verified Turn 405)*.
 - **Options Binary Toggles:** `Left` and `Right` both wrap/toggle 2-state options; visually inspect before pressing.
 - **Naming Screen Grid (`cols 0..6`):** `Select` page-flip takes ~500ms (`sleep 800+` required); `Start -> A` confirms `OK`.
   - Row 0: `0:A 1:B 2:C 3:D 4:E 5:F 6:.` | Row 1: `0:G 1:H 2:I 3:J 4:K 5:L 6:,`
@@ -165,10 +166,10 @@
   5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, `BRN`, `ORAN BERRY`):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥4,434+`
-  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
+  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(4, 20)` on Route 104 North:**
-  1. Check behind the Pretty Petal Flower Shop (`x=2, y<=15`) and speak with the sisters inside (`Wailmer Pail` + Berry gift).
+- **Immediate Next Steps at `(4, 9)` behind Pretty Petal Flower Shop:**
+  1. Check `(7, 8)` hidden Super Potion spot, walk down `x=2` into the Pretty Petal Flower Shop (`(5, 18)`) for `Wailmer Pail` + Berry sister's free Berry (potentially unlocking another `x99` Berry!).
   2. Cross Route 104 North's bridge into Rustboro City and **immediately deposit Bayou into the PC Graveyard Box** at Rustboro Pokémon Center!
 
 <hr>

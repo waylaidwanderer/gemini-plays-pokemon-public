@@ -18,8 +18,8 @@
   5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, `BRN`, `ORAN BERRY`):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥4,434+`
-  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
+  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(4, 20)` on Route 104 North:**
-  1. Check behind the Pretty Petal Flower Shop (`x=2, y<=15`) and speak with the sisters inside (`Wailmer Pail` + Berry gift).
+- **Immediate Next Steps at `(4, 9)` behind Pretty Petal Flower Shop:**
+  1. Check `(7, 8)` hidden Super Potion spot, walk down `x=2` into the Pretty Petal Flower Shop (`(5, 18)`) for `Wailmer Pail` + Berry sister's free Berry (potentially unlocking another `x99` Berry!).
   2. Cross Route 104 North's bridge into Rustboro City and **immediately deposit Bayou into the PC Graveyard Box** at Rustboro Pokémon Center!
