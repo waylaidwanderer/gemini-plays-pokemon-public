@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Conquering the Pokémon League! Sage Lv 69 (208/208 HP) with Earthquake (10/10), Rock Tomb (10/10), Leaf Blade (24/24), Quick Attack (30/30). 11 Revives, 10 Hyper Potions, 5 Full Heals. Entering Elite Four Room 1 to sweep Sidney!
+- Status: Conquering the Pokémon League! Sage Lv 70 (81/211 HP) with Earthquake (10/10), Rock Tomb (10/10), Leaf Blade (16/24), Quick Attack (29/30). 11 Revives, 10 Hyper Potions, 5 Full Heals. Battling Sidney in Room 1 (Cacturne active at ~35% HP)!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 70) - Lead! HP: 81/211. Max HP: 211. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (18/24), Quick Attack (29/30). Stats: Atk 157, Def 114, SpA 171, SpD 154, Spe 207. Status: OK. Ready to sweep!
