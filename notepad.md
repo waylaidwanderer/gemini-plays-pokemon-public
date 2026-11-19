@@ -126,7 +126,7 @@
   1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, **`Sludge Bomb`** (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Route 102 Wrap-Up:** SW alcove item ball `(11, 15)` yielded `1x Potion` *(Turn 203 `#11`)*; optional remaining trainers at `(18, 11)` and `(38, 4)` saved for later EXP if needed.
+- **Route 102 Wrap-Up:** SW alcove item ball `(11, 15)` yielded `1x Potion` *(Turn 203 `#11`; Turn 202 `#14–#17` at `(10, 15)` confirmed solid southern border trees across `y=17..18`, resolving the `x=8..9` chute as a closed alcove rather than a path to western Littleroot)*. Optional trainers at `(18, 11)` and `(38, 4)` saved for later EXP if needed.
 - **Petalburg City Checklist:**
   1. **Petalburg Pokémon Center (`(20, 16)`):** Healed full HP/PP & set respawn checkpoint *(Turn 205)*.
   2. **Petalburg Poké Mart (`(25, 12)`):** Full `BUY` list verified *(Turn 208)*; purchasing `2x Repel` (`¥700`, leaving `¥756`) for cave/encounter routing!
