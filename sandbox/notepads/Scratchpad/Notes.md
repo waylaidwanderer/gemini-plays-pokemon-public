@@ -32,9 +32,10 @@
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
   - **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) and step to an open floor row before horizontal welcome-mat alignment inside NPC houses *(Turns 215, 224)*.
 
-## Live Tactical State (Turn 227 — Scouting Route 104 South & New Encounter!)
-- **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
-  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn` *(0-damage 100% Sleep catcher!)*, `Fire Punch [15/15 PP]`, `Sludge Bomb [10/10 PP]` (`Liquid Ooze`).
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+## Live Tactical State (Turn 235 — 4-Pokémon Squad Assembled on Route 104!)
+- **Active Party Order (Swapping Girasol to Lead, Cap = Lv 16):**
+  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+  2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Route 104 South (`Position x=38 y=62`):** Stepping to `(32, 59)` to inspect the `(30..32, 58)` Berry patch and locate Route 104 South's tall grass for our **Route 104 Nuzlocke Encounter** (shared across Route 104 South & North!).
+  4. **Calavera (`Lv 7 Cubone ♂`, `24/24 HP`, `NONE`):** `Bone Club`, `Rock Throw` (`Lightningrod`, Quirky). Next on bare ground `(27, 60)`: Rare Candy to `Lv 13` (logging Lv 8–13 learnset!) & equip `ORAN BERRY`!
+- **Route 104 South Targets:** Step out of grass to `(27, 60)`, train/equip Calavera, grab item ball spotted at `(32, 53)`, check Mr. Briney's / beach trainers, and reach **Petalburg Woods** (next Nuzlocke encounter!).

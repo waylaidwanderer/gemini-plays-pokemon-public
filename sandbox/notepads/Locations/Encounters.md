@@ -9,7 +9,7 @@
 - **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
 - **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
-- **ROUTE 104:** **Calavera** — Cubone (`♂`, caught at Lv 7 on Turn 232, packs `Bone Club`; nicknaming `Calavera` & verifying Nature/Ability/Stats/Held Item next). **USED.**
+- **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
 
 ## Obtained Evolution Families (Dupes Clause)
 - Mudkip / Marshtomp / Swampert

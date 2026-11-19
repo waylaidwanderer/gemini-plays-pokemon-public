@@ -11,7 +11,7 @@
 - **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
 - **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
-- **ROUTE 104:** **Calavera** — Cubone (`♂`, caught at Lv 7 on Turn 232, packs `Bone Club`; nicknaming `Calavera` & verifying Nature/Ability/Stats/Held Item next). **USED.**
+- **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
 
 ## Obtained Evolution Families (Dupes Clause)
 - Mudkip / Marshtomp / Swampert
@@ -83,6 +83,7 @@
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`)*.
+- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** *(Custom EdgeQuake starting moveset verified Turn 234 `#182`; Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
@@ -128,11 +129,12 @@
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
   - **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) and step to an open floor row before horizontal welcome-mat alignment inside NPC houses *(Turns 215, 224)*.
 
-## Live Tactical State (Turn 227 — Scouting Route 104 South & New Encounter!)
-- **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
-  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn` *(0-damage 100% Sleep catcher!)*, `Fire Punch [15/15 PP]`, `Sludge Bomb [10/10 PP]` (`Liquid Ooze`).
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+## Live Tactical State (Turn 235 — 4-Pokémon Squad Assembled on Route 104!)
+- **Active Party Order (Swapping Girasol to Lead, Cap = Lv 16):**
+  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+  2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Route 104 South (`Position x=38 y=62`):** Stepping to `(32, 59)` to inspect the `(30..32, 58)` Berry patch and locate Route 104 South's tall grass for our **Route 104 Nuzlocke Encounter** (shared across Route 104 South & North!).
+  4. **Calavera (`Lv 7 Cubone ♂`, `24/24 HP`, `NONE`):** `Bone Club`, `Rock Throw` (`Lightningrod`, Quirky). Next on bare ground `(27, 60)`: Rare Candy to `Lv 13` (logging Lv 8–13 learnset!) & equip `ORAN BERRY`!
+- **Route 104 South Targets:** Step out of grass to `(27, 60)`, train/equip Calavera, grab item ball spotted at `(32, 53)`, check Mr. Briney's / beach trainers, and reach **Petalburg Woods** (next Nuzlocke encounter!).
 
 <hr>
