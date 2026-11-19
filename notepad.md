@@ -122,14 +122,11 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 224 — Entering Route 104 South!)
-- **Active Party Order (Swapping Matcha to Lead for Route 104 Catch, Cap = Lv 16):**
-  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn` *(0-damage 100% Sleep catcher!)*, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
+## Live Tactical State (Turn 227 — Scouting Route 104 South & New Encounter!)
+- **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
+  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn` *(0-damage 100% Sleep catcher!)*, `Fire Punch [15/15 PP]`, `Sludge Bomb [10/10 PP]` (`Liquid Ooze`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Petalburg City Complete:** Norman & Wally catching tutorial cleared *(Turn 222)*; checking Wally's parents in `(7, 5)` now, clearing Scott's intro at Petalburg's west exit, and stepping onto **Route 104 South**!
-- **Route 104 Priorities:**
-  1. **Catch our Route 104 Nuzlocke Encounter** (first non-dupe wild Pokémon—shared across Route 104 South & North!). Use `Yawn` + `Poké Ball` (or Turn 1 `Poké Ball` if `Abra`/`Growlithe` with Teleport/Roar!).
-  2. Harvest Route 104's Berry trees (especially `Cheri` / `Chesto` / `Leppa` Berries so they auto-refill to `99`!) and collect visible/custom items.
+- **Route 104 South (`Position x=38 y=62`):** Stepping to `(32, 59)` to inspect the `(30..32, 58)` Berry patch and locate Route 104 South's tall grass for our **Route 104 Nuzlocke Encounter** (shared across Route 104 South & North!).
 
 <hr>
