@@ -137,7 +137,7 @@
 - **Poké Ball Catch & Nickname Entry:** All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) stay active in battle (`BERRIES -> POKé BALLS` is `2x Left`!) *(Turn 232)*. Use `sleep 5000` after dismissing `"Wild <PKMN> appeared! ▼"` before battle menu inputs (`sleep 4200` can clip the end of `"Go! <PKMN>!"`, verified Turn 317), and use unmapped `"L"` (`"sleep 7000", "L", "sleep 6500", "L"`) while waiting out Poké Ball shakes so neither battle cursors nor `"Gotcha!"` prompts are disturbed *(Turn 318)*. From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0) 'A'` *(Turns 115–233)*.
 - **Rare Candy `<4` Moves `A`-Only Invariant & Hybrid Cap:** Once `gPartyMenu.slotId` is locked onto a target with `<4` moves, `6x A` (`sleep 2500` each) advances 1 level (`+1 A` per new move learned into an empty slot) without ever exiting the Bag *(Turns 238–241)*. On a 3-move Pokémon, chaining `6x A` on earlier Candies and `3x A + 3x B` on the final Candy safely levels across 3 stages in 1 turn with zero move-overwrite risk even if two moves are offered *(Turn 327)*.
 - **Wandering NPC Interception (`mgba.get_coordinates()`):** To talk to a wandering NPC inside an open box without missing, step along adjacent Manhattan-1 waypoints and check `new_pos == old_pos`; a blocked step confirms Gem is facing the NPC, so immediately calling `tools.press_buttons(["A"])` opens dialogue in 1 turn *(Verified Turn 340)*.
-- **In-Battle Switch Order & Split EXP:** Switching Slot `1` with Slot `k` mid-battle swaps only Slots `1` and `k` in the Battle Party menu (leaving untouched middle slots in place) and reverts to original order post-battle; add `1` extra `sleep 4500 -> B` when 2 Pokémon split EXP on a KO *(Verified Turns 248–253)*.
+- **In-Battle Switch Order, `Pursuit` Faint Queue & Split EXP:** Switching Slot `1` with Slot `k` mid-battle swaps only Slots `1` and `k` in the Battle Party menu (leaving untouched middle slots in place) and reverts to original order post-battle; add `1` extra `sleep 4500 -> B` when 2 Pokémon split EXP on a KO *(Turns 248–253)*. If `Pursuit` faints a switching-out Pokémon, dismissing `"<PKMN> fainted! ▼"` skips `Choose a POKéMON.` and immediately sends out the already-queued switch target *(Verified Turn 380 `#43–#46`)*.
 
 <hr>
 
@@ -152,19 +152,20 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 363 — Bug Catcher James Cleared & Full Squad Restored at (10, 25)!)
-- **Party Status (Cap = Lv 16 — Roxanne):**
-  1. **Arctos (`Lv 13 Teddiursa ♂`, Lead, `39/39 HP`, Healthy, `ORAN BERRY`):** `Scratch [31/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`28 Atk`, `Guts`, Relaxed `+Def/-Spe`).
+## Live Tactical State (Turn 381 — Avenging Bayou vs Team Magma Grunt at (26, 23)!)
+- **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
+  1. **Arctos (`Lv 14 Teddiursa ♂`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Scratch [31/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`30 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport [14/15 PP]`, `Water Gun [20/25 PP]`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
-  4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
-  5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [13/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
+  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [Deposit in PC Graveyard Box immediately at Rustboro Pokémon Center!]).**
+  4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [19/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+  5. **Matcha (`Lv 15 Gulpin ♀`, `28/50 HP`, `BRN`, `NONE` [Oran Berry stolen by Koffing's Thief]):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet, Repel & Bag Inventory:**
-  - **Active Repel:** ~84 steps remaining (`Repel x0` left in Bag)
-  - **Cash:** `¥3,666+` (after Bug Catcher James `¥360`)
+  - **Active Repel:** ~64 steps remaining (`Repel x0` left in Bag)
+  - **Cash:** `¥3,666+` (+ Team Magma Grunt payout incoming)
   - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(10, 25)` in Petalburg Woods:**
-  1. Follow the upper corridor east/north past `(12..16, 24)` to defeat the Team Aqua Grunt, receive the Devon Researcher's gift, check the western/northern item alcoves before leaving the woods, and exit north onto Route 104 North.
+- **Immediate Post-Battle Steps at `(26, 23)` in Petalburg Woods:**
+  1. Top off **Arctos** & **Matcha (`28 -> 50/50 HP`)** with `Oran Berry x99` and re-equip **`Oran Berry` onto Matcha (`Slot 5`)** (and Arctos if consumed).
+  2. Collect Petalburg Woods' remaining northern/western item balls (`Ether` / `Miracle Seed` / `Paralyz Heal`), cross Route 104 North into Rustboro City, and **deposit Bayou in the PC Graveyard Box** at Rustboro Pokémon Center!
 
 <hr>
