@@ -157,9 +157,9 @@
   5. **Arctos (`Lv 13 Teddiursa ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`28 Atk`, `Guts`, Relaxed `+Def/-Spe`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥2,730+`
-  - **Non-Refilling Stock:** `Poké Ball x89` (`x88` + `x1`), `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Repel x1`
+  - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Repel x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps in Petalburg Woods (`(21, 34)`):**
-  1. Sweep Petalburg Woods' southeast branch (`Bug Catcher Lyle` -> drop onto Route 104's `(29, 53)` cliff item ball), jump west over `(28, 53)`, re-enter Petalburg Woods, and clear the Team Aqua Grunt up the west branch to Route 104 North.
+- **Immediate Next Steps in Petalburg Woods (`(16, 37)`):**
+  1. Advance up Petalburg Woods' west branch (check western item alcoves, defeat Bug Catcher Lyle and the Team Aqua Grunt, receive Devon Researcher's reward) and exit north onto Route 104 North.
 
 <hr>
