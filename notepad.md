@@ -107,7 +107,9 @@
 
 ## Verified UI & Spatial Mechanics
 - **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade!
-- **Naming Screen:** `Select` page-flip takes ~500ms (`sleep 800+` required). Contiguous columns `0..5` (no blank col between `C` and `D`).
+- **Naming Screen:** `Select` page-flip takes ~500ms (`sleep 800+` required). Exact grid (`cols 0..6`):
+  - Row 0: `0:A 1:B 2:C 3:D 4:E 5:F 6:.` | Row 1: `0:G 1:H 2:I 3:J 4:K 5:L 6:,`
+  - Row 2: `0:M 1:N 2:O 3:P 4:Q 5:R 6:S` | Row 3: `0:T 1:U 2:V 3:W 4:X 5:Y 6:Z` *(Verified Turn 234)*; `Start -> A` confirms `OK`.
 - **Options Binary Toggles:** `Left` and `Right` both wrap/toggle 2-state options; visually inspect before pressing.
 - **Cursor Persistence & Auto-Refill Reordering:** Both **Start Menu** (last row) and **Bag** (last pocket + last item row) persist across indoor/outdoor warps. `BAG -> USE` keeps the Party cursor on the previously selected slot, whereas **`BAG -> GIVE` and `Start -> POKéMON` always reset the Party cursor to Slot 1** *(Verified Turn 184 `#167`)*. **Caution:** Overworld auto-refill places `RARE CANDY x99` at **Row 0** of `ITEMS`, shifting other items down *(Turn 153 `#51`)*.
 - **Battle KO & `B`-Button Idempotency:** Because `B` is a harmless no-op on both `"What will <PKMN> do?"` and the overworld, chaining `sleep 7800 -> B` (`fainted!`, covering super-effective text too) -> `sleep 4500 -> B` (`EXP!`) -> `sleep 4500 -> B` (mid-trainer send-out, or `sleep 4000 -> B -> sleep 2500 -> B -> sleep 2500 -> B -> sleep 3000 -> B` on a trainer's final Pokémon) safely clears OHKOs straight to the next Pokémon or overworld while staying harmless if the foe survives *(Verified Turns 173–188)*.
