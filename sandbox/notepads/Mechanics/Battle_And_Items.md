@@ -4,6 +4,7 @@
 - **Healing Items Banned in Battle:** Selecting `POTION` from the `ITEMS` pocket in battle displays **only `CANCEL`** (no `USE` option), confirming Bag healing items cannot be used mid-battle *(Verified Turn 49, `#56` vs wild Lv 2 Zigzagoon)*.
 - **Held Berries & Unlimited Refill:** Because Bag healing is disabled in battle, **held Berries** (Oran Berry, Cheri/Pecha/Persim/Lum Berries, etc.) are critical for survival. Once at least 1 of any Berry is obtained, the harness refills it to `99` in the overworld (`RARE CANDY x99` verified auto-populated in `ITEMS` pocket on Turn 48, `#49`).
   - **Route 102 Berry Patch (`(24..25, 2)`):** `(24, 2)` yields `2x Oran Berry`; `(25, 2)` yields `2x Pecha Berry` *(Harvested Turn 179; `No03 PECHA BERRY x99` and `No07 ORAN BERRY x99` auto-refill verified in `BERRIES` pocket Turn 182 — also provides infinite free overworld HP/poison healing via `USE`!)*.
+  - **Route 104 North Flower Shop Patch (`(3, 23..25)`):** `(3, 25)` yields **`2x Cheri Berry`** (`auto-refills to x99` — infinite held & overworld Paralysis cure! Harvested Turn 396); `(3, 23)` has Oran Berries.
 
 ## Early ROM Hack Difficulty Signals
 - **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
