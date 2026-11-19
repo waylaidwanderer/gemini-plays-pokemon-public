@@ -98,6 +98,7 @@
   - **Fisherman Darian** (`(15, 59)` on Route 104 South beach): **4 Pokémon** — `#1 Lv 9 Magikarp` (`Bounce`, `Flail`, held `Berry Juice`/`Oran Berry`), `#2 Lv 8 Feebas` (`Water Pulse`, `Hypnosis`, `Facade`, held `Sitrus Berry`), `#3 Lv 7 Goldeen` (`Rain Dance`, `Dive`, `Swift Swim`), `#4 Lv 7 Luvdisc ♀` *(Turns 257–289)*.
   - **Lady Cindy** (`(11, 40)` on Route 104 South): **3 Pokémon** — `#1 Lv 8 Cleffa ♀` (`Metronome`), `#2 Lv 8 Pichu ♀`, `#3 Lv 7 Azurill ♀` (`¥1,400` payout, Turns 309–314).
   - **Bug Maniac Lyle** (`(13, 34)` in Petalburg Woods — upgraded from Bug Catcher): **3 Pokémon** — `#1 Lv 8 Spinarak ♂`, `#2 Lv 8 Venonat`, `#3 Lv 8 Ledyba ♂` (`¥576` payout, Turns 343–347).
+  - **Bug Catcher James** (`(10, 24)` in Petalburg Woods): **3 Pokémon** — `#1 Lv 9 Paras ♂` (**`Spore` at Lv 9!**), `#2 Lv 8 Surskit ♂` (`Water Pulse`), `#3 Lv 9 Nincada ♂` (`Dig`) *(Turns 352–362)*.
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 - **No AI Sleep Clause:** Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Verified Turn 272 — Fisherman Darian's `Lv 8 Feebas` put both Girasol and Matcha to sleep with `Hypnosis`)*.
 
@@ -149,18 +150,20 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 348 — Bug Maniac Lyle Cleared at (13, 33)!)
+## Live Tactical State (Turn 361 — Finishing Bug Catcher James at (10, 25)!)
 - **Party Status (Cap = Lv 16 — Roxanne):**
-  1. **Arctos (`Lv 13 Teddiursa ♂`, Lead, `39/39 HP`, Healthy, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`28 Atk`, `Guts`, Relaxed `+Def/-Spe`).
+  1. **Arctos (`Lv 13 Teddiursa ♂`, Lead, `16/39 HP`, Healthy, `NONE` [consumed Oran Berry Turn 357]):** `Scratch [31/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`28 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
+  3. **Bayou (`Lv 13 Mudkip ♂`, Active in battle, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
   5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [13/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
-- **Wallet & Bag Inventory:**
-  - **Cash:** `¥3,306+` (after Bug Maniac Lyle `¥576`)
-  - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Repel x1`
+- **Wallet, Repel & Bag Inventory:**
+  - **Active Repel:** ~86 steps remaining (`Repel x0` left in Bag)
+  - **Cash:** `¥3,306+` (+ Bug Catcher James payout incoming)
+  - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps in Petalburg Woods (`(13, 33)`):**
-  1. Pop `Repel x1` (`100` encounter-free steps with `Lv 13` Arctos leading!) and sweep Petalburg Woods' west branch (collect western item balls, defeat the Team Aqua Grunt + Bug Catcher James, and exit north onto Route 104 North).
+- **Immediate Mandatory Post-Battle Steps at `(10, 25)` BEFORE Walking Forward:**
+  1. **Heal & Re-Equip in Bag:** Use infinite `Oran Berry x99` (`USE`) to restore **Arctos (`16 -> 39/39 HP`)** and any chip on **Bayou**, then **`GIVE` `Oran Berry` back onto Arctos (`Slot 1`)** (and Bayou if consumed) so all 5 Pokémon are at 100% HP holding Oran Berries before triggering the Team Aqua Grunt!
+  2. Follow the upper corridor east/north past `(12..16, 24)` to collect remaining western Petalburg Woods item balls, defeat the Team Aqua Grunt, and exit north onto Route 104 North.
 
 <hr>
