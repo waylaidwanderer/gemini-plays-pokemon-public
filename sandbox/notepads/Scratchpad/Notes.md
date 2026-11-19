@@ -27,9 +27,9 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 188 — Clearing Western Route 102 Trainers)
-- **Active Party Order (All Lv 13, All Holding `ORAN BERRY`, Cap = Lv 16):**
-  1. **Matcha (`Lv 13 Gulpin ♀`, Lead, `41/44 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [9/15 PP]`, `Liquid Ooze`.
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain`, `Chlorophyll`.
+## Live Tactical State (Turn 199 — Wrapping Up Western Route 102 Into Petalburg City)
+- **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
+  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `30/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, **`Sludge Bomb`** (`Liquid Ooze`).
+  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Western Route 102 Progress:** Read `(17, 2)` signpost; currently battling **Lass Tiana** (`(15, 5)`, 3 Pokémon). Remaining Route 102 checks before Petalburg City: check NPC at `(13, 2)`, defeat Youngster Allen at `(18, 11)`, and collect the SW Route 102 item ball!
+- **Western Route 102 Progress:** Defeated Calvin (`(33, 14)`), Rick (`(25, 15)`), Tiana (`(15, 5)`), and finishing Allen (`(13, 2)`). Swap **Girasol (`Lv 13 Sunflora`)** to Lead next so she takes EXP from SW Route 102 (`(18, 11)` trainer + SW item ball) while keeping Matcha cleanly at `Lv 14` before entering Petalburg City!

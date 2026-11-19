@@ -83,7 +83,7 @@
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
   - **Lass Tiana** (`(15, 5)` on Route 102): **3 Pokémon** — `Lv 6 Igglybuff` (`Present`), `Lv 6 Sunkern` (`Protect`), **`Lv 5 Togepi` (`Metronome`, holding `BERRY JUICE`!)** *(Turns 186–193 — expect `Berry Juice` `+20 HP` on trainer aces & early bosses!)*.
-  - **Bug Catcher Allen** (`(13, 2)` on Route 102): **3 Pokémon** — `Lv 7 Weedle`, `Lv 7 Wurmple`, `Metapod` *(Turns 195–198)*.
+  - **Bug Catcher Allen** (`(13, 2)` on Route 102): **4 Pokémon** — `Lv 7 Weedle`, `Lv 7 Wurmple`, `Lv 7 Metapod`, `Lv 7 Silcoon` *(Turns 195–199)*.
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 
 <hr>
@@ -119,11 +119,11 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 188 — Clearing Western Route 102 Trainers)
-- **Active Party Order (All Lv 13, All Holding `ORAN BERRY`, Cap = Lv 16):**
-  1. **Matcha (`Lv 13 Gulpin ♀`, Lead, `41/44 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [9/15 PP]`, `Liquid Ooze`.
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain`, `Chlorophyll`.
+## Live Tactical State (Turn 199 — Wrapping Up Western Route 102 Into Petalburg City)
+- **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
+  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `30/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, **`Sludge Bomb`** (`Liquid Ooze`).
+  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Western Route 102 Progress:** Read `(17, 2)` signpost; currently battling **Lass Tiana** (`(15, 5)`, 3 Pokémon). Remaining Route 102 checks before Petalburg City: check NPC at `(13, 2)`, defeat Youngster Allen at `(18, 11)`, and collect the SW Route 102 item ball!
+- **Western Route 102 Progress:** Defeated Calvin (`(33, 14)`), Rick (`(25, 15)`), Tiana (`(15, 5)`), and finishing Allen (`(13, 2)`). Swap **Girasol (`Lv 13 Sunflora`)** to Lead next so she takes EXP from SW Route 102 (`(18, 11)` trainer + SW item ball) while keeping Matcha cleanly at `Lv 14` before entering Petalburg City!
 
 <hr>
