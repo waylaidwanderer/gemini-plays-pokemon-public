@@ -93,6 +93,7 @@
   - **Bug Catcher Allen** (`(13, 2)` on Route 102): **4 Pokémon** — `Lv 7 Weedle`, `Lv 7 Wurmple`, `Lv 7 Metapod`, `Lv 7 Silcoon` *(Turns 195–199)*.
   - **Bird Keeper Billy** (`(23, 66)` on Route 104 South beach — upgraded from vanilla Youngster): **3 Pokémon** — `Lv 7 Pidgey` (`Gust`), `Lv 7 Wingull` (`Water Gun`), `Lv 7 Taillow` *(Turns 247–253)*.
   - **Fisherman Darian** (`(15, 59)` on Route 104 South beach): **4 Pokémon** — `#1 Lv 9 Magikarp` (`Bounce`, `Flail`, held `Berry Juice`/`Oran Berry`), `#2 Lv 8 Feebas` (`Water Pulse`, `Hypnosis`, `Facade`, held `Sitrus Berry`), `#3 Lv 7 Goldeen` (`Rain Dance`, `Dive`, `Swift Swim`), `#4 Lv 7 Luvdisc ♀` *(Turns 257–289)*.
+  - **Lady Cindy** (`(11, 40)` on Route 104 South): **3 Pokémon** — `#1 Lv 8 Cleffa ♀` (`Metronome`), `#2 Lv 8 Pichu ♀`, `#3 Lv 7 Azurill ♀` (`¥1,400` payout, Turns 309–314).
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 - **No AI Sleep Clause:** Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Verified Turn 272 — Fisherman Darian's `Lv 8 Feebas` put both Girasol and Matcha to sleep with `Hypnosis`)*.
 
