@@ -13,4 +13,8 @@
   2. **Matcha (`Lv 14 Gulpin ♀`, `36/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
   4. **Calavera (`Lv 13 Cubone ♂`, `18/37 HP`, `NONE` — Oran Berry consumed vs Magikarp):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
-- **Route 104 South Progress (`Position x=18 y=59`):** Defeated Bird Keeper Billy `(23, 66)`; mid-battle vs Fisherman Darian `(15, 59)` (KO'd #1 `Lv 9 Magikarp` with `Bounce`, now vs #2 `Lv 8 Feebas` with `Water Pulse` + `Hypnosis`, 1 more foe left). Post-battle: re-equip `ORAN BERRY` + top off Calavera, check `(15, 60)` trainer & Mr. Briney's Cottage, climb `(16..17, 54)` stairs to grab `(32, 53)` item ball, and enter **Petalburg Woods**!
+- **Wallet & Bag Inventory (Verified Pre-Summarization):**
+  - **Cash:** `¥1,330`
+  - **Non-Refilling Stock:** `Poké Ball x93`, `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x3`, `Repel x1`
+  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
+- **Route 104 South Progress (`Position x=18 y=59`):** Defeated Bird Keeper Billy `(23, 66)`; mid-battle vs Fisherman Darian `(15, 59)` (`#1 Lv 9 Magikarp` KO'd; pivoting **Matcha** into `#2 Lv 8 Feebas` to clear Girasol's confusion on a sleep-blocked free switch!). Post-battle: cure Girasol's `SLP` (`Awakening`), re-equip `ORAN BERRY` + top off Calavera, check `(15, 60)` trainer & Mr. Briney's Cottage, climb `(16..17, 54)` stairs to grab `(32, 53)` item ball, and enter **Petalburg Woods**!
