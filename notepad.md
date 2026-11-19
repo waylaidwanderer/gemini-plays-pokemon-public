@@ -117,10 +117,12 @@
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible.
 - **Multi-Warp Chaining:** Insert `sleep 2200` immediately after an indoor warp step to continue overworld movement on the destination map.
 - **Poké Mart Interior & Purchase Flow:** Entry mat is `(3, 7)`; Cashier counter is **4 steps `Up`** at `(3, 3)` facing `Left` *(Turn 207)*. Talking to Cashier requires **`3x A`** (`1: Talk` -> `2: "Welcome!"` -> `3: [►BUY]`) + `sleep 2400` for fade into `BUY` *(Turn 207–208)*. After adjusting quantity spinner: `A` (`YES/NO`) -> `A` (`"Here you go!..."`) -> `B` (returns to `BUY`, or 2x `B` if ≥10 Poké Balls triggers Premier Ball). Pressing `B` on `BUY` fades (`sleep 2400`) back to Cashier menu.
-- **Poké Ball Catch & Nickname Timings (Turns 115–129):**
-  - After a failed Poké Ball throw, battle cursor stays on `BAG` and Bag stays on `POKé BALLS` pocket (`A -> sleep 2300 -> A -> sleep 450 -> A` repeats throw).
+- **Poké Ball Catch & Nickname Timings (Turns 115–129, 232):**
+  - All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) remain present in battle (`BERRIES -> POKé BALLS` is **`2x Left`**!).
+  - After a failed Poké Ball throw, battle cursor stays on `BAG` and Bag stays on `POKé BALLS` pocket (`A -> sleep 2300 -> A -> sleep 450 -> A` repeats throw). Use harmless `"Up"` (never `A`/`B`) when waiting out a Poké Ball throw so you never skip the nickname prompt on a catch!
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
+  - **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) and step to an open floor row before horizontal welcome-mat alignment inside NPC houses *(Turns 215, 224)*.
 
 ## Live Tactical State (Turn 227 — Scouting Route 104 South & New Encounter!)
 - **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
