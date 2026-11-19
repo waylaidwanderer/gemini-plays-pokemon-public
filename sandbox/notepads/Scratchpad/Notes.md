@@ -34,6 +34,7 @@
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
 - **Route 102 Wrap-Up:** SW alcove item ball `(11, 15)` yielded `1x Potion` *(Turn 203 `#11`)*; optional remaining trainers at `(18, 11)` and `(38, 4)` saved for later EXP if needed.
 - **Petalburg City Checklist:**
-  1. Heal at **Petalburg Pokémon Center (`(20, 16)`)** to restore Matcha's HP/PP and set respawn point.
-  2. Check **Petalburg Poké Mart** inventory & town houses *(caution: Petalburg City has ponds, so do NOT blindly accept a town gift Pokémon without evaluating first!)*.
-  3. Speak to **Norman in Petalburg Gym** to complete Wally's tutorial and unlock Route 104 West!
+  1. **Petalburg Pokémon Center (`(20, 16)`):** Healed full HP/PP & set respawn checkpoint *(Turn 205; standard indoor NPCs verified)*.
+  2. **Petalburg Poké Mart (`(25, 12)`):** Inspecting full `BUY` inventory & indoor NPCs now!
+  3. Check town houses *(caution: Petalburg City has ponds, so do NOT blindly accept a town gift Pokémon without evaluating first!)*.
+  4. Speak to **Norman in Petalburg Gym** to complete Wally's tutorial and unlock Route 104 West!
