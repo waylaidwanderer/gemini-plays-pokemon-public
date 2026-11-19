@@ -5061,7 +5061,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: In Pokémon League HQ Lobby preparing final run! Sage Lv 69 (208/208 HP) with Earthquake (10/10), Rock Tomb (10/10), Leaf Blade (24/24), Quick Attack (30/30). All 6 Pokémon at 100% HP. Money: ¥7,599. Restocking at Mart!
+- Status: Conquering the Pokémon League! Sage Lv 69 (208/208 HP) with Earthquake (10/10), Rock Tomb (10/10), Leaf Blade (24/24), Quick Attack (30/30). 11 Revives, 10 Hyper Potions, 5 Full Heals. Entering Elite Four Room 1 to sweep Sidney!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 69) - Lead! HP: 208/208. Max HP: 208. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (24/24), Quick Attack (30/30). Held: None. Status: OK. Ready to sweep!
