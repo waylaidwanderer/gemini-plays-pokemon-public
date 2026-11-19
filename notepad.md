@@ -141,12 +141,12 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 254 — Advancing Up Route 104 South Beach)
+## Live Tactical State (Turn 268 — Battling Fisherman Darian on Route 104 Beach)
 - **Active Party Order (Cap = Lv 16 — Roxanne):**
-  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `35/42 HP`, `SLP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain [10/10 PP]` (`Chlorophyll`).
   2. **Matcha (`Lv 14 Gulpin ♀`, `36/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
-  4. **Calavera (`Lv 13 Cubone ♂`, `28/37 HP`, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
-- **Route 104 South Progress:** Defeated Bird Keeper Billy at `(23, 66)` (`¥1,330` cash); walking north up verified beach sand `(22, 67 -> 22, 59)` toward Fisherman Darian, Mr. Briney's Cottage, the `(32, 53)` cliff item ball, and **Petalburg Woods**!
+  4. **Calavera (`Lv 13 Cubone ♂`, `18/37 HP`, `NONE` — Oran Berry consumed vs Magikarp):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+- **Route 104 South Progress (`Position x=18 y=59`):** Defeated Bird Keeper Billy `(23, 66)`; mid-battle vs Fisherman Darian `(15, 59)` (KO'd #1 `Lv 9 Magikarp` with `Bounce`, now vs #2 `Lv 8 Feebas` with `Water Pulse` + `Hypnosis`, 1 more foe left). Post-battle: re-equip `ORAN BERRY` + top off Calavera, check `(15, 60)` trainer & Mr. Briney's Cottage, climb `(16..17, 54)` stairs to grab `(32, 53)` item ball, and enter **Petalburg Woods**!
 
 <hr>
