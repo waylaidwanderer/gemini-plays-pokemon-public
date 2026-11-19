@@ -122,16 +122,14 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 209 — Exploring Petalburg City & Heading to Gym)
-- **Active Party Order (100% Healed, All Holding `ORAN BERRY`, Cap = Lv 16):**
-  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
-  2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, **`Sludge Bomb`** (`Liquid Ooze`).
+## Live Tactical State (Turn 224 — Entering Route 104 South!)
+- **Active Party Order (Swapping Matcha to Lead for Route 104 Catch, Cap = Lv 16):**
+  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn` *(0-damage 100% Sleep catcher!)*, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
+  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Route 102 Wrap-Up:** SW alcove item ball `(11, 15)` yielded `1x Potion` *(Turn 203 `#11`; Turn 202 `#14–#17` at `(10, 15)` confirmed solid southern border trees across `y=17..18`, resolving the `x=8..9` chute as a closed alcove rather than a path to western Littleroot)*. Optional trainers at `(18, 11)` and `(38, 4)` saved for later EXP if needed.
-- **Petalburg City Checklist:**
-  1. **Petalburg Pokémon Center (`(20, 16)`):** Healed full HP/PP & set respawn checkpoint *(Turn 205)*.
-  2. **Petalburg Poké Mart (`(25, 12)`):** Full `BUY` list verified *(Turn 208)*; purchased `1x Repel` (`¥350`, leaving **`¥1,106`** verified on `turn_209/frame_075.png`) for cave/encounter routing!
-  3. **Petalburg Town Houses & Ponds:** SE House `(20, 24)` (Norman flavor) & SW House `(10, 19)` (traveling old man flavor) verified; `(8, 24)` water sprite verified as the `(8, 22)` boy's upside-down water reflection *(Turns 213–216)*. Checking **Wally's House `(7, 5)`** and **Petalburg Gym `(15, 8)`** next!
-  4. Speak to **Norman in Petalburg Gym** to complete Wally's tutorial and unlock Route 104 West!
+- **Petalburg City Complete:** Norman & Wally catching tutorial cleared *(Turn 222)*; checking Wally's parents in `(7, 5)` now, clearing Scott's intro at Petalburg's west exit, and stepping onto **Route 104 South**!
+- **Route 104 Priorities:**
+  1. **Catch our Route 104 Nuzlocke Encounter** (first non-dupe wild Pokémon—shared across Route 104 South & North!). Use `Yawn` + `Poké Ball` (or Turn 1 `Poké Ball` if `Abra`/`Growlithe` with Teleport/Roar!).
+  2. Harvest Route 104's Berry trees (especially `Cheri` / `Chesto` / `Leppa` Berries so they auto-refill to `99`!) and collect visible/custom items.
 
 <hr>
