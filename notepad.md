@@ -5063,7 +5063,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Conquering the Pokémon League! Sage Lv 69 (208/208 HP) with Earthquake (10/10), Rock Tomb (10/10), Leaf Blade (24/24), Quick Attack (30/30). 11 Revives, 10 Hyper Potions, 5 Full Heals. Entering Elite Four Room 1 to sweep Sidney!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 69) - Lead! HP: 208/208. Max HP: 208. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (24/24), Quick Attack (30/30). Held: None. Status: OK. Ready to sweep!
+1. SAGE (Sceptile ♂, Level 70) - Lead! HP: 81/211. Max HP: 211. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (18/24), Quick Attack (29/30). Stats: Atk 157, Def 114, SpA 171, SpD 154, Spe 207. Status: OK. Ready to sweep!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
