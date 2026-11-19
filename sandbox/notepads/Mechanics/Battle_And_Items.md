@@ -39,6 +39,6 @@
   - **Lass Tiana** (`(15, 5)` on Route 102): **3 Pokémon** — `Lv 6 Igglybuff` (`Present`), `Lv 6 Sunkern` (`Protect`), **`Lv 5 Togepi` (`Metronome`, holding `BERRY JUICE`!)** *(Turns 186–193 — expect `Berry Juice` `+20 HP` on trainer aces & early bosses!)*.
   - **Bug Catcher Allen** (`(13, 2)` on Route 102): **4 Pokémon** — `Lv 7 Weedle`, `Lv 7 Wurmple`, `Lv 7 Metapod`, `Lv 7 Silcoon` *(Turns 195–199)*.
   - **Bird Keeper Billy** (`(23, 66)` on Route 104 South beach — upgraded from vanilla Youngster): **3 Pokémon** — `Lv 7 Pidgey` (`Gust`), `Lv 7 Wingull` (`Water Gun`), `Lv 7 Taillow` *(Turns 247–253)*.
-  - **Fisherman Darian** (`(15, 59)` on Route 104 South beach): **3 Pokémon** — `#1 Lv 9 Magikarp` (`Bounce`, `Flail`, held `Berry Juice`/`Oran Berry`), `#2 Lv 8 Feebas` (`Water Pulse`, `Hypnosis`, `Facade`, held `Sitrus Berry`), `#3 Goldeen` *(Turns 257–284)*.
+  - **Fisherman Darian** (`(15, 59)` on Route 104 South beach): **3 Pokémon** — `#1 Lv 9 Magikarp` (`Bounce`, `Flail`, held `Berry Juice`/`Oran Berry`), `#2 Lv 8 Feebas` (`Water Pulse`, `Hypnosis`, `Facade`, held `Sitrus Berry`), `#3 Lv 7 Goldeen` (`Rain Dance`, `Dive`, `Swift Swim`) *(Turns 257–286)*.
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 - **No AI Sleep Clause:** Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Verified Turn 272 — Fisherman Darian's `Lv 8 Feebas` put both Girasol and Matcha to sleep with `Hypnosis`)*.
