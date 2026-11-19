@@ -7,7 +7,7 @@
 ## Completed Town Checks
 - **Littleroot Town:** Bedroom PC (`1x Potion` withdrawn), May's House 1F pink-haired NPC (flavor only both pre/post-starter), SE pond red-bow girl (relocated Route 101 blocker).
 - **Oldale Town:** SE House (flavor), Mart Clerk (`1x Potion` free sample -> `Potion x 2`), NW House (flavor), Pokémon Center Gentleman (flavor).
-- **Petalburg City:** Pokémon Center `(20, 16)` (standard NPCs), Poké Mart `(25, 12)` (`Repel ¥350`, `Escape Rope ¥550`), SE House `(20, 24)` (flavor), SW House `(10, 19)` (flavor), `(8, 22)` pond boy & `(20, 9)` NE pond Gentleman (flavor), Petalburg Gym `(15, 8)` (Norman & Wally catching tutorial completed Turn 222 — Wally caught `Lv 5 Ralts` with `Confusion`). Checking Wally's House `(7, 5)` last!
+- **Petalburg City:** Pokémon Center `(20, 16)` (standard NPCs), Poké Mart `(25, 12)` (`Repel ¥350`, `Escape Rope ¥550`), SE House `(20, 24)` (flavor), SW House `(10, 19)` (flavor), `(8, 22)` pond boy & `(20, 9)` NE pond Gentleman (flavor), Petalburg Gym `(15, 8)` (Norman & Wally catching tutorial completed Turn 222 — Wally caught `Lv 5 Ralts` with `Confusion`), Wally's House `(7, 5)` (pre-Surf flavor verified Turn 224).
 
 ## Verified UI & Spatial Mechanics
 - **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade!
