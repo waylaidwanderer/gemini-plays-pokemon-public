@@ -124,6 +124,8 @@
 - **Poké Mart Flow:** Entry mat `(3, 7)`, Cashier `(3, 3)` (`4` steps `Up`, face `Left`). Requires **`3x A`** (`1: Talk` -> `2: "Welcome!"` -> `3: [►BUY]`) + `sleep 2400` fade into `BUY` *(Turns 207–208)*. Quantity purchase: `A` (`YES/NO`) -> `A` (`"Here you go!"`) -> `B` (returns to `BUY`, or `2x B` if ≥10 Poké Balls triggers Premier Ball); `B` on `BUY` fades (`sleep 2400`) out.
 - **Battle KO & `B`-Button Idempotency:** Because `B` is a harmless no-op on both `"What will <PKMN> do?"` and the overworld, chaining `sleep 7800 -> B` (`fainted!`, covering super-effective text) -> `sleep 4500 -> B` (`EXP!`) -> `sleep 4500 -> B` (mid-trainer send-out, or `sleep 4000 -> B -> sleep 2500 -> B -> sleep 2500 -> B -> sleep 3000 -> B` on final Pokémon) safely clears OHKOs while staying harmless if the foe survives *(Turns 173–188)*.
 - **Poké Ball Catch & Nickname Entry:** All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) stay active in battle (`BERRIES -> POKé BALLS` is `2x Left`!) *(Turn 232)*. Use harmless `"Up"` while waiting out ball shakes. From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0) 'A'` *(Turns 115–233)*.
+- **Rare Candy `<4` Moves `A`-Only Invariant:** Once `gPartyMenu.slotId` is locked onto a target with `<4` moves, `6x A` (`sleep 2500` each) advances 1 level (`+1 A` per new move learned into an empty slot) without ever exiting the Bag (`whereas B exits the Bag if no move is learned`) *(Verified Turns 238–241)*.
+- **In-Battle Switch Order & Split EXP:** Switching Slot `1` with Slot `k` mid-battle swaps only Slots `1` and `k` in the Battle Party menu (leaving untouched middle slots in place) and reverts to original order post-battle; add `1` extra `sleep 4500 -> B` when 2 Pokémon split EXP on a KO *(Verified Turns 248–253)*.
 
 <hr>
 
@@ -138,14 +140,12 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 241 — Route 104 South -> Petalburg Woods)
+## Live Tactical State (Turn 254 — Advancing Up Route 104 South Beach)
 - **Active Party Order (Cap = Lv 16 — Roxanne):**
   1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `40/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
-  2. **Matcha (`Lv 14 Gulpin ♀`, `47/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 through Gym trainers so Bayou evolves into `Lv 16 Marshtomp` right before Roxanne!)*
-  4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, **`Headbutt`** (`31 Def!` `Lightningrod`, Quirky).
-- **Immediate Route 104 South Plan (`Beach at x=28, y=70`):**
-  1. Check shoreline NPC at `(28, 74)`, sweep beach trainers (`Youngster Billy` at `(23, 66)`, `Fisherman Darian` further north) with **Girasol (`Lv 13 Sunflora`)** leading, and check Mr. Briney's Cottage.
-  2. Climb northern beach stairs to grab the `(32, 53)` upper-ledge item ball, then enter **Petalburg Woods** (swap Matcha's `Yawn` to Lead for our **Petalburg Woods Nuzlocke encounter**!).
+  2. **Matcha (`Lv 14 Gulpin ♀`, `36/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
+  3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
+  4. **Calavera (`Lv 13 Cubone ♂`, `28/37 HP`, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+- **Route 104 South Progress:** Defeated Bird Keeper Billy at `(23, 66)` (`¥1,330` cash); walking north up verified beach sand `(22, 67 -> 22, 59)` toward Fisherman Darian, Mr. Briney's Cottage, the `(32, 53)` cliff item ball, and **Petalburg Woods**!
 
 <hr>
