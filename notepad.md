@@ -12,12 +12,14 @@
 - **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
 - **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
+- **PETALBURG WOODS:** **Arctos** — Teddiursa (`♂`, **Relaxed** `+Def/-Spe`, Ability: **`Guts`** [buffed from vanilla `Pickup`!], Lv 8 stats: `28 HP / 19 Atk / 14 Def / 13 SpA / 15 SpD / 10 Spe`, Moves: `Scratch`, `Lick`, `Faint Attack`, Held Item: `NONE` — verified Summary Turn 323 `#288–#293` & Turn 324). **USED.**
 
 ## Obtained Evolution Families (Dupes Clause)
 - Mudkip / Marshtomp / Swampert
 - Sunkern / Sunflora
 - Gulpin / Swalot
 - Cubone / Marowak
+- Teddiursa / Ursaring
 
 <hr>
 
@@ -86,6 +88,7 @@
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`, Turn 252 `#64`)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** *(Lv 13 stats: `37 HP / 18 Atk / 31 Def / 16 SpA / 20 SpD / 17 Spe` — verified Turn 241 `#19–#28`)*.
+- **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** *(Lv 8 Relaxed stats: `28 HP / 19 Atk / 14 Def / 13 SpA / 15 SpD / 10 Spe` — verified Turn 323 `#288–#293` & Turn 324)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
@@ -144,18 +147,19 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 319 — Capturing Wild Lv 8 Teddiursa in Petalburg Woods!)
+## Live Tactical State (Turn 324 — Arctos the Guts Teddiursa Joined at (21, 34)!)
 - **Party Status (Cap = Lv 16 — Roxanne):**
-  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `39/47 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
+  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `39/47 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [14/16 PP]` (`Liquid Ooze`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, Healthy, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. *(Keep below Lv 16 until Roxanne -> `Lv 16 Marshtomp`!)*
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+  5. **Arctos (`Lv 8 Teddiursa ♂`, `28/28 HP`, `SLP`, `NONE`):** `Scratch`, `Lick`, `Faint Attack` (`Guts`! Relaxed `+Def/-Spe`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥2,730+` (after Fisherman Darian + Lady Cindy `¥1,400`)
-  - **Non-Refilling Stock:** `Poké Ball x92` (`x91` + `x1`), `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x2`, `Repel x1`
+  - **Cash:** `¥2,730+`
+  - **Non-Refilling Stock:** `Poké Ball x89` (`x88` + `x1`), `Premier Ball x1`, `Potion x3`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x2`, `Repel x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Immediate Next Steps in Petalburg Woods (`(21, 34)`):**
-  1. Catch our Petalburg Woods encounter (`Lv 8 Teddiursa ♂` -> nickname **Arctos**), inspect Summary/nature/ability/moves/held item, and record in `Locations/Encounters`.
-  2. Explore Petalburg Woods' southeast branch (`Bug Catcher Lyle` -> drop onto Route 104's `(29, 53)` cliff item ball), jump west over `(28, 53)`, re-enter Petalburg Woods, and clear the Team Aqua Grunt up the west branch to Route 104 North.
+  1. Give Arctos an `Oran Berry` + level Arctos from `Lv 8 -> Lv 13` with Rare Candies (unlocking his `Lv 9–13` learnset and topping off Matcha's `39 -> 47 HP`).
+  2. Sweep Petalburg Woods' southeast branch (`Bug Catcher Lyle` -> drop onto Route 104's `(29, 53)` cliff item ball), jump west over `(28, 53)`, re-enter Petalburg Woods, and clear the Team Aqua Grunt up the west branch to Route 104 North.
 
 <hr>
