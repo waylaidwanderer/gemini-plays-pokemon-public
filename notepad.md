@@ -119,11 +119,15 @@
   - From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0)` `A`.
   - Exiting `SUMMARY` with `B` (`sleep 2500`) returns to `PARTY` **with the `SUMMARY/SWITCH/ITEM/CANCEL` popup STILL OPEN** (`►SUMMARY`)! Press a second `B` (`sleep 300`) to close the popup before moving `Up`/`Down` between party slots *(Verified Turn 133, `#75–#80`)*.
 
-## Live Tactical State (Turn 199 — Wrapping Up Western Route 102 Into Petalburg City)
+## Live Tactical State (Turn 204 — Arrived in Petalburg City!)
 - **Active Party Order (All Holding `ORAN BERRY`, Cap = Lv 16):**
-  1. **Matcha (`Lv 14 Gulpin ♀`, Lead, `30/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, **`Sludge Bomb`** (`Liquid Ooze`).
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, `ORAN BERRY`):** `Absorb`, `Growth [5 PP]`, `Mega Drain` (`Chlorophyll`).
+  2. **Matcha (`Lv 14 Gulpin ♀`, `30/47 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [2/15 PP]`, **`Sludge Bomb`** (`Liquid Ooze`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `36/36 HP`, `ORAN BERRY`):** `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`. Keep below Lv 16 until Roxanne (`Lv 16 Marshtomp`)!
-- **Western Route 102 Progress:** Defeated Calvin (`(33, 14)`), Rick (`(25, 15)`), Tiana (`(15, 5)`), and finishing Allen (`(13, 2)`). Swap **Girasol (`Lv 13 Sunflora`)** to Lead next so she takes EXP from SW Route 102 (`(18, 11)` trainer + SW item ball) while keeping Matcha cleanly at `Lv 14` before entering Petalburg City!
+- **Route 102 Wrap-Up:** SW alcove item ball `(11, 15)` yielded `1x Potion` *(Turn 203 `#11`)*; optional remaining trainers at `(18, 11)` and `(38, 4)` saved for later EXP if needed.
+- **Petalburg City Checklist:**
+  1. Heal at **Petalburg Pokémon Center (`(20, 16)`)** to restore Matcha's HP/PP and set respawn point.
+  2. Check **Petalburg Poké Mart** inventory & town houses *(caution: Petalburg City has ponds, so do NOT blindly accept a town gift Pokémon without evaluating first!)*.
+  3. Speak to **Norman in Petalburg Gym** to complete Wally's tutorial and unlock Route 104 West!
 
 <hr>
