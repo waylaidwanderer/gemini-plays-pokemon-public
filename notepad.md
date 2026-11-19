@@ -153,13 +153,13 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 387 — Team Magma Grunt Defeated at (26, 23)!)
+## Live Tactical State (Turn 389 — Squad Restored & Advancing to North Petalburg Woods!)
 - **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
-  1. **Arctos (`Lv 15 Teddiursa ♂`, Lead, `29/44 HP`, Healthy, `NONE` [consumed Oran Berry vs Bagon]):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
-  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
+  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
+  2. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [Deposit in PC Graveyard Box immediately at Rustboro Pokémon Center!]).**
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [19/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
-  5. **Matcha (`Lv 15 Gulpin ♀`, `28/50 HP`, `BRN`, `NONE` [Oran Berry stolen by Koffing's Thief]):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
+  5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, `BRN`, `ORAN BERRY`):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet, Repel & Bag Inventory:**
   - **Active Repel:** ~64 steps remaining (`Repel x0` left in Bag)
   - **Cash:** `¥4,434+` (after Team Magma Grunt `¥768`)
