@@ -16,8 +16,8 @@
   5. **Matcha (`Lv 15 Gulpin ♀`, `28/50 HP`, `BRN`, `NONE` [Oran Berry stolen by Koffing's Thief]):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet, Repel & Bag Inventory:**
   - **Active Repel:** ~64 steps remaining (`Repel x0` left in Bag)
-  - **Cash:** `¥3,666+` (+ Team Magma Grunt payout)
-  - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
+  - **Cash:** `¥4,434+` (after Team Magma Grunt `¥768`)
+  - **Non-Refilling Stock:** `Great Ball x1`, `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Immediate Post-Cutscene Steps at `(26, 23)` in Petalburg Woods:**
   1. Rotate **Girasol (`Lv 13`)** or **Calavera (`Lv 13`)** into Lead (protecting `Lv 15` Arctos & `Lv 15` Matcha from overleveling on Route 104 North!), heal **Arctos (`29->44 HP`)** & **Matcha (`28->50 HP`)**, and re-equip **`Oran Berry` onto Arctos & Matcha**!
