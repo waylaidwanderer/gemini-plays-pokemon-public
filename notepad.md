@@ -99,7 +99,7 @@
   - **Lady Cindy** (`(11, 40)` on Route 104 South): **3 Pokémon** — `#1 Lv 8 Cleffa ♀` (`Metronome`), `#2 Lv 8 Pichu ♀`, `#3 Lv 7 Azurill ♀` (`¥1,400` payout, Turns 309–314).
   - **Bug Maniac Lyle** (`(13, 34)` in Petalburg Woods — upgraded from Bug Catcher): **3 Pokémon** — `#1 Lv 8 Spinarak ♂`, `#2 Lv 8 Venonat`, `#3 Lv 8 Ledyba ♂` (`¥576` payout, Turns 343–347).
   - **Bug Catcher James** (`(10, 24)` in Petalburg Woods): **3 Pokémon** — `#1 Lv 9 Paras ♂` (**`Spore` at Lv 9!**), `#2 Lv 8 Surskit ♂` (`Water Pulse`), `#3 Lv 9 Nincada ♂` (`Dig`) (`¥360` payout, Turns 352–362).
-  - **Team Magma Grunt** (`(26, 23)` in Petalburg Woods — replaces vanilla Team Aqua!): **5 Pokémon** — `#1 Lv 8 Magnemite`, `#2 Lv 8 Koffing ♂` (`Smokescreen`, `Protect`, **`Thief` [permanently steals held item!]**, `Will-O-Wisp`), `#3 Lv 9 Houndour ♂` (`Ember`, **`Pursuit`**, `>19 Spe`!), `#4 Lv 8 Duskull ♂` (`Protect`), `#5 Lv 8 Bagon ♂` *(Turns 367–386)*.
+  - **Team Magma Grunt** (`(26, 23)` in Petalburg Woods — replaces vanilla Team Aqua!): **5 Pokémon** — `#1 Lv 8 Magnemite`, `#2 Lv 8 Koffing ♂` (`Smokescreen`, `Protect`, **`Thief` [permanently steals held item!]**, `Will-O-Wisp`), `#3 Lv 9 Houndour ♂` (`Ember`, **`Pursuit`**, `>19 Spe`!), `#4 Lv 8 Duskull ♂` (`Protect`), `#5 Lv 8 Bagon ♂` (`Headbutt`) (`¥768` payout + `Great Ball` from Devon Researcher; **Story Clue:** Grunt warned that rival **Team Aqua** is ALSO targeting something in Rustboro — expect both Magma and Aqua encounters around Rustboro/Devon/Rusturf Tunnel! Turns 367–388).
 - **Widespread Enemy `Protect`:** Early trainers and bosses (`Sunkern`, `Koffing`, `Duskull`) frequently carry `Protect` to scout and stall PP *(Turns 190, 372, 382)*.
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
@@ -147,26 +147,26 @@
 # Scratchpad — Active Leads & Live Tactical Routing
 
 ## Active Exploration & Future Encounter Leads
+- **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*—anticipate custom Magma and Aqua boss fights in Rustboro City / Rusturf Tunnel!
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects via later routes/Surf.
 - **Unused Town Water Ponds (Save for Rod / Surf Encounters):**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 389 — Squad Restored & Advancing to North Petalburg Woods!)
+## Live Tactical State (Turn 391 — Scouting Upper Petalburg Woods from (26, 19)!)
 - **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
-  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
-  2. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
+  1. **Arctos (`Lv 15 Teddiursa ♂`, Lead, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
+  2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [Deposit in PC Graveyard Box immediately at Rustboro Pokémon Center!]).**
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [19/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
   5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, `BRN`, `ORAN BERRY`):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet, Repel & Bag Inventory:**
-  - **Active Repel:** ~64 steps remaining (`Repel x0` left in Bag)
+  - **Active Repel:** ~60 steps remaining (`Lv 15` Arctos lead repels up to `Lv 14` wilds!)
   - **Cash:** `¥4,434+` (after Team Magma Grunt `¥768`)
   - **Non-Refilling Stock:** `Great Ball x1`, `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Post-Cutscene Steps at `(26, 23)` in Petalburg Woods:**
-  1. Rotate **Girasol (`Lv 13`)** or **Calavera (`Lv 13`)** into Lead (protecting `Lv 15` Arctos & `Lv 15` Matcha from overleveling on Route 104 North!), heal **Arctos (`29->44 HP`)** & **Matcha (`28->50 HP`)**, and re-equip **`Oran Berry` onto Arctos & Matcha**!
-  2. Grab Petalburg Woods' remaining northern/western item balls (`Ether` / `Paralyz Heal`), cross Route 104 North into Rustboro City, and **deposit Bayou in the PC Graveyard Box** at Rustboro Pokémon Center!
+- **Immediate Next Steps from `(26, 19)` in Petalburg Woods:**
+  1. Follow `y=16` west to collect Petalburg Woods' remaining northern/western item balls, rotate `Lv 13` Girasol/Calavera into Lead before Route 104 North trainers, cross Route 104 North into Rustboro City, and **deposit Bayou in the PC Graveyard Box** at Rustboro Pokémon Center!
 
 <hr>
