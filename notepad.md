@@ -84,14 +84,14 @@
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
-- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`)*.
+- **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** *(Lv 14 stats: `47 HP / 18 Atk / 21 Def / 19 SpA / 20 SpD / 17 Spe` — verified Turn 197 `#59–#64`, Turn 252 `#64`)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** *(Lv 13 stats: `37 HP / 18 Atk / 31 Def / 16 SpA / 20 SpD / 17 Spe` — verified Turn 241 `#19–#28`)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
   - **Lass Tiana** (`(15, 5)` on Route 102): **3 Pokémon** — `Lv 6 Igglybuff` (`Present`), `Lv 6 Sunkern` (`Protect`), **`Lv 5 Togepi` (`Metronome`, holding `BERRY JUICE`!)** *(Turns 186–193 — expect `Berry Juice` `+20 HP` on trainer aces & early bosses!)*.
   - **Bug Catcher Allen** (`(13, 2)` on Route 102): **4 Pokémon** — `Lv 7 Weedle`, `Lv 7 Wurmple`, `Lv 7 Metapod`, `Lv 7 Silcoon` *(Turns 195–199)*.
-  - **Bird Keeper Billy** (`(23, 66)` on Route 104 South beach — upgraded from vanilla Youngster): **2 Pokémon** — `Lv 7 Pidgey` (`Gust`), `Lv 7 Wingull` (`Water Gun`) *(Turns 247–252)*.
+  - **Bird Keeper Billy** (`(23, 66)` on Route 104 South beach — upgraded from vanilla Youngster): **3 Pokémon** — `Lv 7 Pidgey` (`Gust`), `Lv 7 Wingull` (`Water Gun`), `Lv 7 Taillow` *(Turns 247–253)*.
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 
 <hr>
