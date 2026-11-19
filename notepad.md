@@ -88,7 +88,7 @@
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** -> `Lv 15` *(no move; Lv 15 stats: `50 HP / 19 Atk / 22 Def / 20 SpA / 21 SpD / 18 Spe` — verified Turn 345)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** *(Lv 13 stats: `37 HP / 18 Atk / 31 Def / 16 SpA / 20 SpD / 17 Spe` — verified Turn 241 `#19–#28`)*.
-- **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (20 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** -> `Lv 14` *(no move; Lv 14 Relaxed stats: `42 HP / 30 Atk / 20 Def / 19 SpA / 22 SpD / 15 Spe` — verified Turn 370 `#01–#03`)*.
+- **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (20 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** -> `Lv 14–15` *(no moves; Lv 15 Relaxed stats: `44 HP / 32 Atk / 22 Def / 20 SpA / 23 SpD / 16 Spe` — verified Turn 386 `#59`)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
@@ -153,20 +153,20 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 381 — Avenging Bayou vs Team Magma Grunt at (26, 23)!)
+## Live Tactical State (Turn 387 — Team Magma Grunt Defeated at (26, 23)!)
 - **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
-  1. **Arctos (`Lv 14 Teddiursa ♂`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Scratch [31/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`30 Atk`, `Guts`, Relaxed `+Def/-Spe`).
+  1. **Arctos (`Lv 15 Teddiursa ♂`, Lead, `29/44 HP`, Healthy, `NONE` [consumed Oran Berry vs Bagon]):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   2. **Girasol (`Lv 13 Sunflora ♀`, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
   3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [Deposit in PC Graveyard Box immediately at Rustboro Pokémon Center!]).**
   4. **Calavera (`Lv 13 Cubone ♂`, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [19/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
   5. **Matcha (`Lv 15 Gulpin ♀`, `28/50 HP`, `BRN`, `NONE` [Oran Berry stolen by Koffing's Thief]):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet, Repel & Bag Inventory:**
   - **Active Repel:** ~64 steps remaining (`Repel x0` left in Bag)
-  - **Cash:** `¥3,666+` (+ Team Magma Grunt payout incoming)
+  - **Cash:** `¥3,666+` (+ Team Magma Grunt payout)
   - **Non-Refilling Stock:** `Poké Ball x90` (`x89` + `x1`), `Premier Ball x1`, `Potion x4`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Post-Battle Steps at `(26, 23)` in Petalburg Woods:**
-  1. Top off **Arctos** & **Matcha (`28 -> 50/50 HP`)** with `Oran Berry x99` and re-equip **`Oran Berry` onto Matcha (`Slot 5`)** (and Arctos if consumed).
-  2. Collect Petalburg Woods' remaining northern/western item balls (`Ether` / `Miracle Seed` / `Paralyz Heal`), cross Route 104 North into Rustboro City, and **deposit Bayou in the PC Graveyard Box** at Rustboro Pokémon Center!
+- **Immediate Post-Cutscene Steps at `(26, 23)` in Petalburg Woods:**
+  1. Rotate **Girasol (`Lv 13`)** or **Calavera (`Lv 13`)** into Lead (protecting `Lv 15` Arctos & `Lv 15` Matcha from overleveling on Route 104 North!), heal **Arctos (`29->44 HP`)** & **Matcha (`28->50 HP`)**, and re-equip **`Oran Berry` onto Arctos & Matcha**!
+  2. Grab Petalburg Woods' remaining northern/western item balls (`Ether` / `Paralyz Heal`), cross Route 104 North into Rustboro City, and **deposit Bayou in the PC Graveyard Box** at Rustboro Pokémon Center!
 
 <hr>
