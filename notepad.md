@@ -5073,7 +5073,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (16/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: Revived (108 HP, Curse Cured!). Level 72!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed after executing Revive on Sage).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
