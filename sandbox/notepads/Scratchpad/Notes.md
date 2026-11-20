@@ -16,7 +16,7 @@
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Trainers (EXP & Rich Payouts Post-Roxanne):**
-  - **Route 116:** `Bug Catcher Jose (11, 7)`, `Lass Janice (16, 8)`, **`Lady Sarah (16, 13)`**, and **`Rich Boy Dawson (21, 13)`** (`~¥3,000+` combined rich payouts saved for post-Roxanne cap jump!).
+  - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Live Tactical State (Turn 546 — Hiker Devan Cleared at (14, 7), Swapping Calavera to Lead [96 Repel Steps]!)
