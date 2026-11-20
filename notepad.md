@@ -13,7 +13,7 @@
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
 - **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
 - **PETALBURG WOODS:** **Arctos** — Teddiursa (`♂`, **Relaxed** `+Def/-Spe`, Ability: **`Guts`** [buffed from vanilla `Pickup`!], Lv 8 stats: `28 HP / 19 Atk / 14 Def / 13 SpA / 15 SpD / 10 Spe`, Moves: `Scratch`, `Lick`, `Faint Attack`, Held Item: `NONE` — verified Summary Turn 323 `#288–#293` & Turn 324). **USED.**
-- **ROUTE 116:** **Joule** — Voltorb (genderless, **Bashful** neutral, Ability: **`Static`**, Lv 9 stats: `28 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe`, Moves: `ThunderShock` [30 PP], `Secret Power` [20 PP], **`Shock Wave` [20 PP — 60 BP never-miss!]**, Held Item: `NONE` — verified Summary & Party Turns 525–526 `#98, #113–#126`). **USED.**
+- **ROUTE 116:** **Joule** — Voltorb (genderless, **Bashful** neutral, Ability: **`Static`**, Lv 9 stats: `28 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe`, Moves: `ThunderShock` [30 PP], `Secret Power` [20 PP], **`Shock Wave` [20 PP — 60 BP never-miss!]**, Held Item: `NONE` — verified Summary & Party Turns 525–526 `#98, #113–#126`). **USED — DECEASED Turn 562** *(OHKO'd from ~25/36 HP by `Hustle` `Lv 10 Nidoran♂`'s `Dig` in School Kid Karen & Jerry Double Battle; deposit in PC `BOX 14` Graveyard immediately upon returning to Rustboro Pokémon Center; family remains Dupes-locked)*.
 
 ## Obtained Evolution Families (Dupes Clause)
 - Mudkip / Marshtomp / Swampert
@@ -30,7 +30,7 @@
 # Nuzlocke Dashboard — Attempt #1
 
 ## Run Status
-- **Attempt:** #1 (Deaths: `1` — Bayou `Lv 13 Mudkip`, Turn 380)
+- **Attempt:** #1 (Deaths: `2` — Bayou `Lv 13 Mudkip` Turn 380; Joule `Lv 14 Voltorb` Turn 562)
 - **ROM Hack:** Custom Emerald Hack (Team Magma swapped into Petalburg Woods; custom map area west of Littleroot Town spotted Turn 31)
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
 - **Battle Style:** `SET` & Text Speed `FAST` (Verified in-game Start Menu Turn 19)
@@ -178,17 +178,16 @@
   - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 559 — Double Battle vs School Kid Karen & Jerry at (16, 10) [90 Repel Steps]!)
+## Live Tactical State (Turn 562 — Double Battle vs Karen & Jerry at (16, 10), Joule Deceased!)
 - **Active Battle (`(16, 10)` on Route 116):**
-  - **School Kid Karen `(16, 8)`:** `#1 Lv 9 Totodile ♂` (defeated), `#2 Lv 9 Chikorita ♂` (`Mega Drain`, `Secret Power` — active), `#3` unknown (`likely Cyndaquil`).
-  - **School Kid Jerry `(18, 10)`:** `#1 Lv 10 Nidoran♂` (`Rock Tomb`, `Dig` — active), `#2–#3` unknown.
-  - **Field Pivot:** `Calavera (22/41 HP)` & `Arctos (19/44 HP)` safely double-switched out into **`Joule (Lv 14, 32/36 HP, Oran Berry)`** & **`Matcha (Lv 16, 53/53 HP, Oran Berry, ~440 EXP below Lv 17!)`**.
-- **Active Party (5 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
-  1. **Calavera (`Lv 15 Cubone ♂`, `22/41 HP`, Healthy, berry used):** `Bone Club [16/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
-  2. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~18% EXP toward Lv 17], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
-  3. **Arctos (`Lv 15 Teddiursa ♂`, `19/44 HP`, Healthy, berry used):** `Scratch [33/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
-  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17 = ~440 EXP cushion!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
-  5. **Joule (`Lv 14 Voltorb`, `32/36 HP`, Healthy, `ORAN BERRY`):** `ThunderShock`, `Secret Power [19/20 PP]`, `Shock Wave [17/20 PP]` (`34 Spe!`, `Static`).
+  - **School Kid Karen `(16, 8)`:** `#1 Lv 9 Totodile ♂` (defeated), `#2 Lv 9 Chikorita ♂` (defeated), `#3 Lv 9 Cyndaquil ♂` (final Pokémon — active on Top HP Bar!).
+  - **School Kid Jerry `(18, 10)`:** `#1 Lv 10 Nidoran♂` (`Hustle`, `Rock Tomb`, `Dig` — **`PAR`** from Joule's `Static`, active on Bottom HP Bar!), `#2–#3` unknown.
+- **Active Party (4 Survivors + 1 Deceased — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 2):**
+  1. **Joule (`Lv 14 Voltorb`, `0/36 HP` — `DECEASED` Turn 562 [MANDATORY: Deposit in PC `BOX 14` Graveyard immediately after battle!]).**
+  2. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~28% EXP toward Lv 17 = ~415 EXP cushion!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [15/16 PP]` (`Liquid Ooze`).
+  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~22% EXP toward Lv 17], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
+  4. **Arctos (`Lv 15 Teddiursa ♂`, `19/44 HP`, Healthy, berry used):** `Scratch [33/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
+  5. **Calavera (`Lv 15 Cubone ♂`, `22/41 HP`, Healthy, berry used):** `Bone Club [16/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥5,288` (after Hiker Devan `¥360`)
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(1 active!)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
