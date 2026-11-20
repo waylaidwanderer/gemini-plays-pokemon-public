@@ -395,13 +395,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Phoebe Conquered: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette #1 Lv 49, Sableye Lv 50, and Banette #2 Lv 49 all DEFEATED! Sage finished at 159/211 HP. Earned ¥5,100 prize money (total cash: ¥11,199). Northern door unlocked and open!
 - Elite Four Glacia Battle Mechanics (Turns 24699-24791): Glacia DEFEATED! Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. Sage reached Lv 71 (Max HP 214, 94 HP). Cobalu reached Lv 18 (25/49 HP). Prize: ¥5,300 (total cash: ¥16,499). Northern door unlocked and open!
 - Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
-- Drake Battle Progress (Turns 24825-24859):
-  1. Shelgon Lv 52: DEFEATED by Sage's Aerial Ace (critical hits on Turn 2 & Turn 6). Drake burned Full Restore #1 on Shelgon.
-  2. Flygon Lv 53: DEFEATED by Sage's Aerial Ace + Quick Attack (+1 priority). Sage survived Flamethrower with 17 HP.
-  3. Pivot & Heal: Shifted to Rock/Steel Cobalu Lv 18 (49/49 HP). Altaria used DragonBreath (resisted). Cobalu used Hyper Potion from Bag, fully restoring Sage to 214/214 HP! Cobalu fainted, giving free switch to full-health Sage.
-  4. Altaria Lv 54: Slashed by 2x super-effective Rock Tomb down to deep red (~5% HP). Fainting to Quick Attack! Sage at 83/214 HP.
-  5. Drake remaining: Salamence Lv 55 (Dragon/Flying - 2x weak to Rock Tomb!), Kingdra Lv 53 (Water/Dragon - Aerial Ace bypasses Smokescreen!). Drake has at most 1 Full Restore left.
-- Salamence & Kingdra Endgame (Turns 24860-24883): Drake sent in ace Salamence Lv 55. Sage used Rock Tomb on Turn 24868, dealing 2x super-effective damage (~45% HP) and lowering Salamence's Speed (-1 stage). Sage fainted, Intimidate debuff cleared! Guava pivoted and used Revive from Bag with turn priority, revitalizing Sage to 107/214 HP at full 157 Attack and 207 Speed! Guava absorbed Salamence's attack. Sage ready to enter and OHKO weakened Salamence with final Rock Tomb PP, then sweep Kingdra with Aerial Ace!
+- Drake Battle Summary (Turns 24825-24918): SAGE Lv 71 defeated Shelgon Lv 52 and Flygon Lv 53 with Aerial Ace/Quick Attack. Pivoted to Cobalu and Guava to execute strategic item healing and Revives. Defeated Altaria Lv 54 with Rock Tomb, felled ace Salamence Lv 55 with a critical Rock Tomb, and overcame Kingdra Lv 53 after surviving Body Slam on 1 HP, executing an in-battle Revive via Mochi, and landing a decisive priority Quick Attack to win!
 
 <hr>
 
