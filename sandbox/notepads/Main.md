@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49 DEFEATED! SAGE on field at 108 HP (clean status) launching Aerial Ace to KO Sableye Lv 50 (~5% red HP). Remaining Revives: 1. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50 DEFEATED! SAGE on field at 108 HP (clean status). Phoebe down to 1 final Pokémon (Banette Lv 49). Remaining Revives: 1. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (13/20), Facade (18/20), Quick Attack (28/30). Status: Revived (108 HP, Curse Cured!). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (12/20), Facade (18/20), Quick Attack (28/30). Status: OK (108 HP). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).
