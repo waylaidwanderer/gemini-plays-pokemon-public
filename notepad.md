@@ -5064,10 +5064,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Defeating Glacia's last Glalie Lv 52! Rooms 1, 2, and 3 cleared! Sage Lv 71 (90/214 HP). 4 Hyper Potions, 10 Revives, 5 Full Heals. Cash: ~¥16,499. Advancing to Drake in Room 4!
+- Status: Glacia DEFEATED! Rooms 1, 2, and 3 cleared! Sage Lv 71 (24/214 HP). 4 Hyper Potions, 10 Revives, 5 Full Heals. Cash: ~¥16,499. Preparing to heal Sage and challenge Drake in Room 4!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 90/214. Max HP: 214. Moves: Rock Tomb (4/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (26/30). Status: OK. Ready to sweep!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 24/214. Max HP: 214. Moves: Rock Tomb (4/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (25/30). Status: OK. Ready to sweep!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
