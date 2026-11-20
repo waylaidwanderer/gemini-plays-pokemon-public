@@ -15,7 +15,9 @@
 - **Unused Town Water Ponds (Save for Rod / Surf Encounters):**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
-- **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
+- **Optional Saved Trainers (EXP & Rich Payouts Post-Roxanne):**
+  - **Route 116:** `Bug Catcher Jose (11, 7)`, `Lass Janice (16, 8)`, **`Lady Sarah (16, 13)`**, and **`Rich Boy Dawson (21, 13)`** (`~¥3,000+` combined rich payouts saved for post-Roxanne cap jump!).
+  - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Live Tactical State (Turn 546 — Hiker Devan Cleared at (14, 7), Swapping Calavera to Lead [96 Repel Steps]!)
 - **Active Party (5 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
