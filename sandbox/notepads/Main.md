@@ -230,8 +230,8 @@
 11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 12. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Turn 24613)! Earned ¥4,900, Sage reached Lv 70!
-    - [ ] Elite Four Member #2 Phoebe (Active in Room 2!)
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
+    - [ ] Elite Four Member #3 Glacia (Active in Room 3!)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
