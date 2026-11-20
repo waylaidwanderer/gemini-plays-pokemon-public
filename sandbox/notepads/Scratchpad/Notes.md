@@ -23,6 +23,10 @@
   - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Rustboro City & Pre-Roxanne Plan:**
-  1. Re-equip `ORAN BERRY` onto `Girasol` (`Slot 1`), inspect `Matcha`'s `Yawn` description if convenient, and exit Rustboro Pokémon Center `(16, 38)`.
-  2. Visit **Cutter's House** (immediately west of Rustboro Pokémon Center) for `HM01 Cut`, **Pokémon Trainer's School** for `Quick Claw` / custom items, and Rustboro apartments/NPCs (watching carefully for the two **Team Magma Grunts** spotted north of the Pokémon Center at `(13, 35)` and `(22, 35)`!).
-  3. Catch new encounters on **Route 116** and **Rusturf Tunnel** (keeping `Lv 16 Matcha` out of non-boss EXP), then challenge **Gym Leader Roxanne** (`Cap = Lv 16`).
+  1. **HM01 Cut** obtained (`Turn 498`) and `Girasol`'s `Oran Berry` re-equipped (`Turn 495`); outer Team Magma Grunts confirmed to be harmless wandering town NPCs (`Turn 500`).
+  2. Enter **Pokémon Trainer's School** `(27, 34)` for `Quick Claw` & check students/Scott.
+  3. **THREE Legal Pre-Roxanne Encounters Available:**
+     - **NEW! Rustboro City Custom Grass (`x >= 31, y <= 32` immediately east of Trainer's School — spotted Turn 501!)**
+     - **Route 116**
+     - **Rusturf Tunnel**
+     *(Keep `Lv 16 Matcha` out of non-boss EXP so she never hits `Lv 17` before Roxanne!)*
