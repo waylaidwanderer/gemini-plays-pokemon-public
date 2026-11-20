@@ -5066,7 +5066,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR DRAKE DEFEATED! Earned ¥5,500 (Total Cash: ¥21,999). ALL FOUR ELITE FOUR MEMBERS CONQUERED! Northern door unlocked! Preparing Sage for the final battle against Champion Wallace! 3 Revives, 5 Full Heals.
+- Status: CHAMPION WALLACE BATTLE ACTIVE! Lead Wailord Lv 57 weakened to ~55% HP by Bullet Seed! Sage Lv 71 (107/214 HP) launching next Bullet Seed to KO Wailord! Mochi (21 HP) and Guava (50 HP) conscious in reserve; 1 Revive in Bag. Cash: ¥21,999.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214. Max HP: 214. Moves: Bullet Seed (30/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK. Ready for Champion Wallace!
