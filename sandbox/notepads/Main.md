@@ -6,7 +6,7 @@
 - Status: Glacia's final Pokémon (Glalie Lv 52) is in red HP! Reviving Sage Lv 71 (Max HP 214) to finish Glacia and unlock Drake in Room 4! 4 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ~¥11,199.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 0/214 (Reviving now!). Max HP: 214. Moves: Rock Tomb (5/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (27/30). Status: FNT -> Revived. Ready to sweep!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (5/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (27/30). Status: OK. Ready to sweep!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
@@ -29,7 +29,7 @@
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x11 (10 purchased at League Mart Turn 24560)
+- Revive x10 (1 used on Sage Turn 24752)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
