@@ -3,7 +3,7 @@
 ## Overworld, Fades & Scripting
 - **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade! *(Verified Turn 156 `#01–#48`)*.
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible, and inside NPC houses step down to an open floor row before aligning `x` with the mat *(Turns 215, 224)*.
-- **Multi-Warp Chaining:** Insert `sleep 2200–2400` immediately after an indoor warp step to continue overworld movement on the destination map.
+- **Multi-Warp Chaining & Long NPC Speeches:** Insert `sleep 2200–2400` immediately after an indoor warp step to continue overworld movement on the destination map. Long NPC speeches (such as Gym Guides, ~10–12 pages) eat subsequent directional inputs if under-counted *(Turn 515)*; clear with `12x ["B", "sleep 650"]` (harmless no-ops once closed) or verify `mgba.get_coordinates()` changes on the first post-dialogue step.
 - **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) to stay well clear of the 150-button and 120s script limits.
 
 ## Menus, Bag & Berries
