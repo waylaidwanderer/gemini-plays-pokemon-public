@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon, Flygon, Altaria DEFEATED! Sage Lv 71 (32/214 HP) striking Drake's ace Salamence Lv 55 with 2x super-effective Rock Tomb! 7 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Shelgon, Flygon, Altaria DEFEATED! Rock Tomb hit Salamence Lv 55, dropping it to ~45% HP and lowering its Speed! Resolving turn. 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 32/214. Max HP: 214. Moves: Rock Tomb (1/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (20/30). Status: OK. Ready to sweep Drake!
