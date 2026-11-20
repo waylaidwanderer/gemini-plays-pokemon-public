@@ -13,17 +13,17 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 509 — Finishing Trainer's School Check, Heading to Route 116!)
-- **Active Party (4 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
+## Live Tactical State (Turn 526 — Caught Joule [Voltorb] on Route 116, Heading to Rusturf Tunnel!)
+- **Active Party (5 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
   1. **Girasol (`Lv 15 Sunflora ♀`, `47/47 HP`, Healthy, `ORAN BERRY`):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]` (`38 SpA / 34 SpD`, `Chlorophyll`).
   2. **Calavera (`Lv 14 Cubone ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`33 Def`, `Lightningrod`).
   3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
-  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
+  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of non-boss EXP!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
+  5. **Joule (`Lv 9 Voltorb`, `26/26 HP`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [20/20 PP]` (`23 Spe` at `Lv 9`!, `Static`, Bashful).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥4,640` (after Rustboro Poké Mart haul)
-  - **Non-Refilling Stock:** **`HM01 (Cut)`**, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Cash:** `¥4,640`
+  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Rustboro City & Pre-Roxanne Plan:**
-  1. **Checked in Rustboro so far:** Poké Mart (`Fluffy Tail`, `Burn Heals`, `Repels` — `Turn 488`), Pokémon Center (`Turn 494`), Cutter's House (`HM01 Cut` — `Turn 498`), outer Magma Grunts (`wandering town NPCs` — `Turn 500`), `(31..33, 30..32)` lawn (`decorative, non-wild` — `Turn 506`), `(30, 28)` house (`flavor dialogue` — `Turn 508`), and Pokémon Trainer's School (`Teacher at (5, 3) has no active script from (4, 3) or (5, 5) pre-Gym; Quick Claw removed/relocated` — `Turns 504, 508, 509`).
-  2. Walk north up Rustboro's main avenue (`x=20..21`) to check Rustboro Apartments / `(33, 19)` house beside the Gym and head east onto **Route 116**!
-  3. **Two Pre-Roxanne Route/Cave Encounters Ahead:** **Route 116** and **Rusturf Tunnel** *(keep `Lv 16 Matcha` out of non-boss EXP!)*.
+- **Next Steps on Route 116:**
+  1. Grab nearby Route 116 item balls (`(13, 18)` etc.) and navigate east across Route 116 into **Rusturf Tunnel** to catch our **6th party member** (`Rusturf Tunnel` encounter)!
+  2. Return to Rustboro City, check Rustboro Apartments / northwest item ball, level `Joule` / `Calavera` as desired within `Cap = Lv 16`, and challenge **Gym Leader Roxanne**!
