@@ -23,6 +23,6 @@
   - **Non-Refilling Stock:** **`HM01 (Cut)`**, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Rustboro City & Pre-Roxanne Plan:**
-  1. **Checked in Rustboro so far:** Poké Mart (`Turn 488`), Pokémon Center (`Turn 494`), Cutter's House (`HM01 Cut`, `Turn 498`), `(30, 28)` house (`flavor dialogue only`, `Turn 508`), and `(31..33, 30..32)` lawn (`decorative, non-wild`, `Turn 506`).
-  2. Test Teacher across desk `(5, 4)` from `(5, 5)` + Scott at `(0, 9)` inside Pokémon Trainer's School (`direct side-talk at (4, 3) -> (5, 3) had no script`), exit to `(27, 35)`, check `(33, 19)` house / Rustboro Apartments on the way north, and head east onto **Route 116**!
+  1. **Checked in Rustboro so far:** Poké Mart (`Fluffy Tail`, `Burn Heals`, `Repels` — `Turn 488`), Pokémon Center (`Turn 494`), Cutter's House (`HM01 Cut` — `Turn 498`), outer Magma Grunts (`wandering town NPCs` — `Turn 500`), `(31..33, 30..32)` lawn (`decorative, non-wild` — `Turn 506`), `(30, 28)` house (`flavor dialogue` — `Turn 508`), and Pokémon Trainer's School (`Teacher at (5, 3) has no active script from (4, 3) or (5, 5) pre-Gym; Quick Claw removed/relocated` — `Turns 504, 508, 509`).
+  2. Walk north up Rustboro's main avenue (`x=20..21`) to check Rustboro Apartments / `(33, 19)` house beside the Gym and head east onto **Route 116**!
   3. **Two Pre-Roxanne Route/Cave Encounters Ahead:** **Route 116** and **Rusturf Tunnel** *(keep `Lv 16 Matcha` out of non-boss EXP!)*.
