@@ -396,7 +396,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
   - Sableye Lv 50: Aerial Ace struck Sableye to critical red (~5% HP). Shadow Ball knocked out Sage at 22 HP Turn 25090.
-  - Active Plan: Sending in healthy reserve to execute priority Revive on Sage (108 HP). Revived Sage returns to finish Sableye (~5% HP) and sweep final Banette Lv 49!
+  - Active State: Sage revitalized to 108 HP with ZERO Curse via Cobalu Turn 25096! Sage re-enters to finish Sableye (~5% HP) and sweep final Banette Lv 49!
   - Phoebe Remaining: 2 Pokémon (Sableye Lv 50 in red, final Banette Lv 49).
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
@@ -5098,7 +5098,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x2 (3 used: Sage T25051, Lilz T25069, Sage T25075; 2 remaining)
+- Revive x1 (4 used: Sage T25051, Lilz T25069, Sage T25075, Sage T25096; 1 remaining)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
