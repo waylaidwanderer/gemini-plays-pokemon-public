@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon and Flygon DEFEATED! Drake sending in Altaria Lv 54 (3 Pokémon left, 1 Full Restore). Cobalu (49/49 HP) shifting in to heal Sage to full! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Shelgon and Flygon DEFEATED! Sage restored to 214/214 HP! Cobalu active on field against Altaria Lv 54. 1 Hyper Potion, 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 17/214. Max HP: 214. Moves: Rock Tomb (3/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 214/214. Max HP: 214. Moves: Rock Tomb (3/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK. (Full health!).
@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x2 (1 used on Cobalu Turn 24796, 1 on Sage Turn 24797)
+- Hyper Potion x1 (1 used on Sage Turn 24852)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
