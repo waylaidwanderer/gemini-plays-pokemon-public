@@ -99,6 +99,7 @@
   - **Rich Boy Winston** (`(21, 26)` on Route 104 North): **3 Pokémon** — `#1 Lv 8 Snubbull ♀` (`Intimidate`, `Metronome`), `#2 Lv 8 Growlithe ♂` (`Intimidate`, `Ember`), `#3 Lv 8 Electrike ♂` (`¥1,600` payout, Turns 415–422).
   - **Lass Haley** (`(32, 22)` on Route 104 North): **3 Pokémon** — `#1 Lv 9 Skitty ♀` (`Assist`), `#2 Lv 9 Vulpix ♀` (`Ember`), `#3 Lv 9 Oddish ♀` (`Protect` spam) (`¥144` payout, Turns 429–440).
   - **Twins Gina & Mia** (`(27..28, 15)` on Route 104 North bridge — Double Battle): **2 Pokémon** — `Lv 8 Smeargle ♂` (`Focus Punch`) + `Lv 8 Smeargle ♂` (`Follow Me`) *(Turns 444–451 — expect coordinated redirection + setup/charge synergies in future Double Battles! Countered by having the faster attacker KO the low-HP `Follow Me` user so the slower partner auto-retargets and breaks `Focus Punch`)*.
+  - **PKMN Trainer Red** (`(28, 8)` on Route 104 North — custom mandatory 5-tile-sight mini-boss replacing Fisherman Ivan right before Rustboro City!): **5 Pokémon** — `#1 Lv 9 Eevee ♂` (`Curse`, smart AI switch), `#2 Lv 9 Charmander ♂` (`Will-O-Wisp`, `Flame Wheel`, held `Berry Juice`), `#3 Lv 9 Bulbasaur ♂` (`Mega Drain`), `#4 Lv 9 Squirtle ♂` (`Fake Out`, `Yawn` [instant sleep!], `Water Pulse`, `Bite`, held `Berry Juice`), `#5 Lv 9 Pikachu ♂` (paralysis move, held `Sitrus Berry`) *(Turns 454–482+ — anticipate custom franchise mini-bosses with 5–6 Pokémon, `Berry Juice`/`Sitrus Berry`, and smart AI switching guarding town/route entrances!)*.
 - **Widespread Enemy `Protect`:** Early trainers and bosses (`Sunkern`, `Koffing`, `Duskull`) frequently carry `Protect` to scout and stall PP *(Turns 190, 372, 382)*.
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
@@ -161,25 +162,19 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 472 — Battling PKMN Trainer Red at (24, 8)!)
-- **Active Boss Fight — PKMN Trainer Red (`(28, 8)` -> `(25, 8)` on Route 104 North, 5 Pokémon):**
-  - `#1 Lv 9 Eevee ♂` (`Curse`) — **DEFEATED**
-  - `#2 Lv 9 Charmander ♂` (`Will-O-Wisp`, `Flame Wheel`, `Berry Juice`) — **DEFEATED**
-  - `#3 Lv 9 Bulbasaur ♂` (`Mega Drain`) — **DEFEATED**
-  - `#4 Lv 9 Squirtle ♂` (`Fake Out`, `Yawn` [instant sleep!], `Water Pulse`, `Bite`, `Berry Juice` consumed) — **ON FIELD**
-  - `#5` Unknown final Pokémon (likely `Pikachu` — `Calavera` healthy in reserve with `Lightningrod`!)
-- **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
-  1. **Girasol (`Lv 14 Sunflora ♀`, ~95% EXP to Lv 15, `19/45 HP`):** `Absorb [15/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [0/10 PP]`.
+## Live Tactical State (Turn 481 — Finishing PKMN Trainer Red's Final Pokémon at (24, 8)!)
+- **Party Status (Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1):**
+  1. **Girasol (`Lv 14 Sunflora ♀`, ~99% EXP to Lv 15, `37/45 HP`, `PAR`, berry used):** `Absorb [10/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [0/10 PP]` (finishing Red's final `Lv 9 Pikachu` at ~58% HP, `Sitrus Berry` consumed).
   2. **Calavera (`Lv 14 Cubone ♂`, `31/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`33 Def`, `Lightningrod`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [Deposit in PC Graveyard Box immediately at Rustboro Pokémon Center!]).**
+  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [MANDATORY: Deposit in PC Graveyard Box immediately upon entering Rustboro Pokémon Center!]).**
   4. **Arctos (`Lv 15 Teddiursa ♂`, `22/44 HP`, `BRN`, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`Guts`).
-  5. **Matcha (`Lv 16 Gulpin ♀` [AT CAP!], `39/53 HP`, `BRN`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [6/15 PP]`, `Sludge Bomb [11/16 PP]` (`Liquid Ooze`).
+  5. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `39/53 HP`, `BRN`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [6/15 PP]`, `Sludge Bomb [11/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥6,370+` (after Twins Gina & Mia)
+  - **Cash:** `¥6,370+` (plus PKMN Trainer Red payout upcoming)
   - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps from `(28, 16)` on Route 104 North Bridge:**
-  1. Finish crossing the northern bridge span (`(28, 16) -> Rustboro City`), scout/avoid optional trainers along the shoreline if desired, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing Matcha's `BRN` & restoring all PP), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
-  2. Explore Rustboro City (`Poké Mart`, `Cutter's House` for `HM01 Cut`, `Trainer's School` for `Quick Claw`, apartments) and capture new encounters on **Route 116** and **Rusturf Tunnel** before challenging Roxanne (`Cap = Lv 16`).
+- **Immediate Next Steps from `(24, 8)` on Route 104 North:**
+  1. Finish off PKMN Trainer Red's `Lv 9 Pikachu`, walk straight north (`x = 24`) across the Route 104 border into **Rustboro City**, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing `PAR`/`BRN` & restoring all PP), re-equip `Girasol`'s `Oran Berry` (`or Cheri Berry`), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
+  2. Keep **`Lv 16` `Matcha`** out of non-boss EXP until Roxanne so she never hits `Lv 17`; explore Rustboro City (`Poké Mart`, `Cutter's House` for `HM01 Cut`, `Trainer's School` for `Quick Claw`, apartments) and capture new encounters on **Route 116** and **Rusturf Tunnel** before challenging Roxanne (`Cap = Lv 16`).
 
 <hr>
