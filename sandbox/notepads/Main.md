@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Rooms 1, 2, 3 cleared! Sage Lv 71 (214/214 HP) learned TM40 Aerial Ace over Earthquake! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499. Advancing to Drake in Room 4!
+- Status: Rooms 1, 2, 3 cleared! Sage (214/214 HP) and Cobalu (49/49 HP) full HP. 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499. Teaching TM40 Aerial Ace to Sage before Drake in Room 4!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 214/214. Max HP: 214. Moves: Rock Tomb (3/10), Aerial Ace (20/20), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 214/214. Max HP: 214. Moves: Rock Tomb (3/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK. (Full health!).
@@ -36,7 +36,7 @@
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x8 (1 used to catch wild Golbat Lv 25 on Turn 23196, sent to Lanette's PC Box 1)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x3 (harvested on Route 111, 1 held by Sage), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM29 Psychic (Victory Road alcove), TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
+- TMs & HMs: TM29 Psychic (Victory Road alcove), TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM09 Bullet Seed (boy on Route 104), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM40 Aerial Ace (Winona), TM42 Facade (Norman), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy)
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
