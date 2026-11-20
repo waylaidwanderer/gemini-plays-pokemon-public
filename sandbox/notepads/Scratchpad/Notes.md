@@ -4,6 +4,7 @@
 - **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch closely for `Nincada` on **Route 116**!
 - **Pretty Petal Flower Shop Gated (`(5, 18)` on Route 104 North):** The `TM09 Bullet Seed` boy stands stationary at `(5, 19)` blocking the Flower Shop door *(verified across 105s Turn 412 `#01–#126`)*—re-check right after earning the Stone Badge in case custom Berries/items are sold inside!
 - **Post-Roxanne `HM01 Cut` Return Targets:**
+  - **Route 116 Berry Ledge (`(17, 5)` Cut trees -> `(18..21, 2)` Berry patch):** Contains **2x `Chesto Berry` trees (`(19..20, 2)` — unlocks `Chesto Berry x99` infinite Sleep cure!)** plus 2 more Berry trees at `(18, 2)` and `(21, 2)` *(spotted Turn 529)*.
   - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.
   - **Petalburg Woods Cut Ledge (`(19, 10..11)`):** Two `Cut` trees right below the North Exit gate the eastern upper ledge (`Miracle Seed` NPC + `(32, 30)` item ball — verified Turn 395).
 - **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*—anticipate custom Magma and Aqua boss fights in Rustboro City / Rusturf Tunnel!
