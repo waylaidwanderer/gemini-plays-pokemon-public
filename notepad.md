@@ -393,7 +393,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Team: Dusclops Lv 48 (Pressure), Banette Lv 49 (Insomnia), Sableye Lv 50 (Keen Eye), Banette Lv 49 (Insomnia), Dusclops Lv 51 (Pressure).
   - CRITICAL MOVE CONSTRAINT: Ghost types are 100% immune to Normal moves. NEVER use Facade or Quick Attack against Phoebe's Pokémon!
   - Active Moves: Aerial Ace (60 BP Flying physical, never misses, ignores Sableye's Double Team) and Bullet Seed (Grass special STAB, high multi-hit damage).
-  - Dusclops Lv 48: Used Protect on Turn 1; Phoebe burned Full Restore #1 on Turn 25041. Dusclops used Curse (Sage loses 54 HP/turn).
+  - Dusclops Lv 48: Defeated! (Used Protect Turn 1, Full Restore #1 burned Turn 25041, Curse inflicted; KO'd by Overgrow Bullet Seed Turn 25046).
+  - Next Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Faint Attack; frail Def 65 / SpDef 63).
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 - Elite Four Glacia Battle Mechanics (Turns 24699-24791): Glacia DEFEATED! Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. Sage reached Lv 71 (Max HP 214, 94 HP). Cobalu reached Lv 18 (25/49 HP). Prize: ¥5,300 (total cash: ¥16,499). Northern door unlocked and open!
 - Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
