@@ -3,13 +3,13 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Glalie Lv 52 in red HP (~15%)! Cipher revived to 20 HP. Resolving Glalie's turn with Cobalu (47/47 HP) active. 4 Hyper Potions, 9 Revives, 5 Full Heals. Cash: ~¥16,499.
+- Status: Sage revived to 107/214 HP! Cipher alive (20 HP). Cobalu active (45 HP). Glalie Lv 52 attacking. Preparing to bring in Sage to sweep with Rock Tomb & Quick Attack! 4 Hyper Potions, 8 Revives, 5 Full Heals. Cash: ~¥16,499.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 0/214. Max HP: 214. Moves: Rock Tomb (4/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (25/30). Status: FNT. (Row 3 on targeting screen).
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (4/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (25/30). Status: OK. Ready to sweep!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 20/40. Max HP: 40. Status: OK. (Revived!).
-4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK. Active on field!
+4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 45/47. Max HP: 47. Status: OK. Active on field!
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK.
 ## Bag Highlights
