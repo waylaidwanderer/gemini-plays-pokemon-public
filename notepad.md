@@ -5072,7 +5072,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Sage took Surf and fainted. Drake's Kingdra Lv 53 is at ~75% HP with 0 Full Restores left. Forced switch to healthy Mochi Lv 11 (42/42 HP) to execute in-battle Revive on Sage! 4 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Drake's Kingdra Lv 53 at ~75% HP (0 Full Restores left). Mochi in Bag selecting Revive to restore Sage to 107 HP! 4 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 0/214. Max HP: 214. Moves: Rock Tomb (0/10), Aerial Ace (10/20), Leaf Blade (0/24), Quick Attack (18/30). Status: FNT. Ready to be revived!
