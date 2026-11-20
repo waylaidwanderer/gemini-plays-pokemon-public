@@ -5066,10 +5066,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Elite Four Sidney active! Mightyena Lv 46 DEFEATED! Sage Lv 72 (~180/217 HP, 213 Speed) ready to sweep Sidney's remaining 4 Pokémon with Aerial Ace and Bullet Seed! 5 Revives, 2 Hyper Potions. Cash: ¥1,099.
+- Status: Elite Four Sidney active! Mightyena DEFEATED! Absol Lv 49 active. Sage Lv 72 (182/217 HP, 213 Speed) attacking with Bullet Seed! 5 Revives, 2 Hyper Potions. Cash: ¥1,099.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 217/217. Max HP: 217. Moves: Bullet Seed (27/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Full HP!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 182/217. Max HP: 217. Moves: Bullet Seed (27/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
