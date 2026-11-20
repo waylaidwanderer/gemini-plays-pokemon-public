@@ -11,6 +11,7 @@
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
 - **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
 - **PETALBURG WOODS:** **Arctos** — Teddiursa (`♂`, **Relaxed** `+Def/-Spe`, Ability: **`Guts`** [buffed from vanilla `Pickup`!], Lv 8 stats: `28 HP / 19 Atk / 14 Def / 13 SpA / 15 SpD / 10 Spe`, Moves: `Scratch`, `Lick`, `Faint Attack`, Held Item: `NONE` — verified Summary Turn 323 `#288–#293` & Turn 324). **USED.**
+- **ROUTE 116:** **Joule** — Voltorb (`Lv 9`, caught Turn 523 at `(5, 14)` — inspecting Summary Turn 525 for Nature, Ability, Stats, Moves & Held Item). **USED.**
 
 ## Obtained Evolution Families (Dupes Clause)
 - Mudkip / Marshtomp / Swampert
@@ -18,3 +19,4 @@
 - Gulpin / Swalot
 - Cubone / Marowak
 - Teddiursa / Ursaring
+- Voltorb / Electrode
