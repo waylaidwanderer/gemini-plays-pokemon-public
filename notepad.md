@@ -5072,7 +5072,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49 DEFEATED! Phoebe burned Full Restore #2 on Sableye (0 Full Restores left!). Sage queued Aerial Ace deals ~70% damage. Revives: 2. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49 DEFEATED! Sableye Lv 50 at ~35% HP; SAGE on field at 22 HP (Overgrow Active) executing Aerial Ace to KO Sableye. Revives: 2. Cash: ¥5,999.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 22/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (14/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (22 HP). Level 72!
