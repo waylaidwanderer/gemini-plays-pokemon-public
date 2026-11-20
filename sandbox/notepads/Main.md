@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Rooms 1, 2, 3 cleared! Sage Lv 71 (194/214 HP) striking Shelgon Lv 52 (red HP) with Aerial Ace to knock it out! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Drake used Full Restore #1 on Shelgon! Sage Lv 71 (194/214 HP) striking Shelgon with Aerial Ace to chip it to ~55%! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 194/214. Max HP: 214. Moves: Rock Tomb (3/10), Aerial Ace (15/20), Leaf Blade (0/24), Quick Attack (25/30). Status: OK. Ready to sweep Drake!

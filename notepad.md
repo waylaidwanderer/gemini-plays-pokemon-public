@@ -395,6 +395,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Phoebe Conquered: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette #1 Lv 49, Sableye Lv 50, and Banette #2 Lv 49 all DEFEATED! Sage finished at 159/211 HP. Earned ¥5,100 prize money (total cash: ¥11,199). Northern door unlocked and open!
 - Elite Four Glacia Battle Mechanics (Turns 24699-24791): Glacia DEFEATED! Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. Sage reached Lv 71 (Max HP 214, 94 HP). Cobalu reached Lv 18 (25/49 HP). Prize: ¥5,300 (total cash: ¥16,499). Northern door unlocked and open!
 - Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
+- Drake Battle Progress (Turns 24825-24835): Drake leads with Shelgon Lv 52. Shelgon used Protect on Turn 1 and Turn 3. Sage landed a critical Aerial Ace on Turn 2, taking 20 damage from Rock Tomb (194/214 HP). Drake consumed Full Restore #1 on Shelgon on Turn 4 (1 Full Restore remaining for Drake's entire team!). Sage executing Aerial Ace.
 
 <hr>
 
@@ -5065,7 +5066,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Rooms 1, 2, 3 cleared! Sage Lv 71 (194/214 HP) striking Shelgon Lv 52 (red HP) with Aerial Ace to knock it out! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Drake used Full Restore #1 on Shelgon! Sage Lv 71 (194/214 HP) striking Shelgon with Aerial Ace to chip it to ~55%! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 194/214. Max HP: 214. Moves: Rock Tomb (3/10), Aerial Ace (15/20), Leaf Blade (0/24), Quick Attack (25/30). Status: OK. Ready to sweep Drake!
