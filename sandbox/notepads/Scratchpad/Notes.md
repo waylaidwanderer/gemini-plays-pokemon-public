@@ -19,13 +19,17 @@
   - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 546 — Hiker Devan Cleared at (14, 7), Swapping Calavera to Lead [96 Repel Steps]!)
+## Live Tactical State (Turn 559 — Double Battle vs School Kid Karen & Jerry at (16, 10) [90 Repel Steps]!)
+- **Active Battle (`(16, 10)` on Route 116):**
+  - **School Kid Karen `(16, 8)`:** `#1 Lv 9 Totodile ♂` (defeated), `#2 Lv 9 Chikorita ♂` (`Mega Drain`, `Secret Power` — active), `#3` unknown (`likely Cyndaquil`).
+  - **School Kid Jerry `(18, 10)`:** `#1 Lv 10 Nidoran♂` (`Rock Tomb`, `Dig` — active), `#2–#3` unknown.
+  - **Field Pivot:** `Calavera (22/41 HP)` & `Arctos (19/44 HP)` safely double-switched out into **`Joule (Lv 14, 32/36 HP, Oran Berry)`** & **`Matcha (Lv 16, 53/53 HP, Oran Berry, ~440 EXP below Lv 17!)`**.
 - **Active Party (5 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
-  1. **Calavera (`Lv 15 Cubone ♂`, Lead [0% EXP to Lv 16!], `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`35 Def!`, `Lightningrod`).
-  2. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~5% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [9/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`, `Chlorophyll`).
-  3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
-  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of non-boss EXP!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
-  5. **Joule (`Lv 14 Voltorb`, `32/36 HP`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [17/20 PP]` (`34 Spe!`, `Static`, Bashful).
+  1. **Calavera (`Lv 15 Cubone ♂`, `22/41 HP`, Healthy, berry used):** `Bone Club [16/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
+  2. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~18% EXP toward Lv 17], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
+  3. **Arctos (`Lv 15 Teddiursa ♂`, `19/44 HP`, Healthy, berry used):** `Scratch [33/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
+  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17 = ~440 EXP cushion!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
+  5. **Joule (`Lv 14 Voltorb`, `32/36 HP`, Healthy, `ORAN BERRY`):** `ThunderShock`, `Secret Power [19/20 PP]`, `Shock Wave [17/20 PP]` (`34 Spe!`, `Static`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥5,288` (after Hiker Devan `¥360`)
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(1 active!)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
