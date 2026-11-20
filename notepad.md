@@ -398,12 +398,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Champion Wallace Battle Notes (Turn 24958+)
 - Champion Wallace (Water): ACTIVE BATTLE!
   1. Wailord Lv 57 (Water) - DEFEATED Turn 24962 by Bullet Seed!
-  2. Milotic Lv 58 (Water, Ace) - ACTIVE! SAGE outspeeds (213 vs 110 Speed). Counter: Bullet Seed / Facade.
+  2. Milotic Lv 58 (Water, Ace) - In deep red HP (~5%), fainting to Bullet Seed!
   3. Tentacruel Lv 55 (Water/Poison) - In reserve. Counter: Facade (70/140 physical).
   4. Ludicolo Lv 56 (Water/Grass) - In reserve. Counter: Aerial Ace (2x super effective, never misses).
   5. Whiscash Lv 56 (Water/Ground) - In reserve. Counter: Bullet Seed (4x super effective).
   6. Gyarados Lv 56 (Water/Flying) - In reserve. Counter: Facade / Quick Attack.
-- Party Status: SAGE Lv 72 lead (110/217 HP, 213 Speed, Bullet Seed 28/30, Aerial Ace 7/20, Facade 20/20, Quick Attack 17/30). Reserves: MOCHI Lv 11 (21/42 HP, OK), GUAVA Lv 30 (50/101 HP, OK). Bag: 1 Revive, 5 Full Heals.
+- Party Status: SAGE Lv 72 lead (108/217 HP, 213 Speed, Bullet Seed 25/30, Aerial Ace 7/20, Facade 20/20, Quick Attack 17/30). Reserves: MOCHI Lv 11 (0/42 HP, FNT), GUAVA Lv 30 (50/101 HP, OK). Bag: 0 Revives, 5 Full Heals.
 
 <hr>
 
