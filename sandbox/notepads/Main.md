@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Mochi used Revive on Sage! Sage restored to 107/214 HP at full 207 Speed with paralysis cleared! Mochi fainted from Surf. Ready to send Sage back out to finish Drake's Kingdra! 3 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Mochi used Revive on Sage! Sage restored to 107/214 HP at full 207 Speed with paralysis cleared! Sending Sage out on forced switch to finish Drake's Kingdra! 3 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (0/10), Aerial Ace (10/20), Leaf Blade (0/24), Quick Attack (18/30). Status: OK. Ready to sweep Kingdra!
