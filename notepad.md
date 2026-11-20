@@ -5064,7 +5064,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Glalie Lv 52 attacking Cipher. Sage (107/214 HP) and Cobalu (23/47 HP) both ALIVE! Preparing to send in Sage to sweep with Rock Tomb & Quick Attack! 4 Hyper Potions, 8 Revives, 5 Full Heals. Cash: ~¥16,499.
+- Status: Cipher fainted. Sage Lv 71 (107/214 HP) active against full-health Glalie Lv 52! Cobalu (23/47 HP) alive in reserve. Using Rock Tomb (4 PP) to crush Glalie! 4 Hyper Potions, 8 Revives, 5 Full Heals. Cash: ~¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (4/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (25/30). Status: OK. Ready to sweep!
@@ -5090,7 +5090,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x10 (1 used on Sage Turn 24752)
+- Revive x8 (verified on Turn 24776 screen: 8 Revives in Bag)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
