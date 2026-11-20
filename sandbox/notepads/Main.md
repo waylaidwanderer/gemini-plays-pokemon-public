@@ -231,7 +231,7 @@
 12. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Turn 24613)! Earned ¥4,900, Sage reached Lv 70!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
-    - [ ] Elite Four Member #3 Glacia (Active in Room 3!)
+    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 24785)! Earned ¥5,300, Sage Lv 71, Cobalu Lv 18!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
