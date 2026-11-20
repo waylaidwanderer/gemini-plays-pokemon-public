@@ -5072,7 +5072,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon, Flygon, Altaria, Salamence DEFEATED! Kingdra Lv 53 down to ~55% HP after Aerial Ace! Sage Lv 71 (107/214 HP) launching next Aerial Ace to defeat Drake! 4 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Shelgon, Flygon, Altaria, Salamence DEFEATED! Kingdra Lv 53 down to ~15% HP after second Aerial Ace! Kingdra using Body Slam; Sage Lv 71 ready to finish Kingdra next turn! 4 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (0/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (20/30). Status: OK. Ready to sweep Drake!
