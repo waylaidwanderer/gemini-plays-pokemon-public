@@ -96,7 +96,7 @@
   - **Bug Maniac Lyle** (`(13, 34)` in Petalburg Woods — upgraded from Bug Catcher): **3 Pokémon** — `#1 Lv 8 Spinarak ♂`, `#2 Lv 8 Venonat`, `#3 Lv 8 Ledyba ♂` (`¥576` payout, Turns 343–347).
   - **Bug Catcher James** (`(10, 24)` in Petalburg Woods): **3 Pokémon** — `#1 Lv 9 Paras ♂` (**`Spore` at Lv 9!**), `#2 Lv 8 Surskit ♂` (`Water Pulse`), `#3 Lv 9 Nincada ♂` (`Dig`) (`¥360` payout, Turns 352–362).
   - **Team Magma Grunt** (`(26, 23)` in Petalburg Woods — replaces vanilla Team Aqua!): **5 Pokémon** — `#1 Lv 8 Magnemite`, `#2 Lv 8 Koffing ♂` (`Smokescreen`, `Protect`, **`Thief` [permanently steals held item!]**, `Will-O-Wisp`), `#3 Lv 9 Houndour ♂` (`Ember`, **`Pursuit`**, `>19 Spe`!), `#4 Lv 8 Duskull ♂` (`Protect`), `#5 Lv 8 Bagon ♂` (`Headbutt`) (`¥768` payout + `Great Ball` from Devon Researcher; **Story Clue:** Grunt warned that rival **Team Aqua** is ALSO targeting something in Rustboro — expect both Magma and Aqua encounters around Rustboro/Devon/Rusturf Tunnel! Turns 367–388).
-  - **Rich Boy Winston** (`(21, 26)` on Route 104 North): **3+ Pokémon** — `#1 Lv 8 Snubbull ♀` (`Intimidate`, `Metronome`), `#2 Lv 8 Growlithe ♂` (`Intimidate`, `Ember`), `#3 Lv 8 Electrike ♂` *(Turns 415–421)*.
+  - **Rich Boy Winston** (`(21, 26)` on Route 104 North): **3 Pokémon** — `#1 Lv 8 Snubbull ♀` (`Intimidate`, `Metronome`), `#2 Lv 8 Growlithe ♂` (`Intimidate`, `Ember`), `#3 Lv 8 Electrike ♂` (`¥1,600` payout, Turns 415–422).
 - **Widespread Enemy `Protect`:** Early trainers and bosses (`Sunkern`, `Koffing`, `Duskull`) frequently carry `Protect` to scout and stall PP *(Turns 190, 372, 382)*.
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
@@ -154,19 +154,19 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 421 — Finishing Rich Boy Winston at (21, 24) on Route 104 North!)
+## Live Tactical State (Turn 422 — Rich Boy Winston Cleared, Approaching Bridge at (24, 24)!)
 - **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
   1. **Girasol (`Lv 14 Sunflora ♀`, Lead, Full HP, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [6/10 PP]` (`Chlorophyll`).
-  2. **Calavera (`Lv 13 Cubone ♂`, Slot 2 [Active in battle], `31/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [18/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+  2. **Calavera (`Lv 13 Cubone ♂`, Slot 2, `26/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [17/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
   3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [MANDATORY: Deposit in PC Graveyard Box immediately upon entering Rustboro Pokémon Center!]).**
   4. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, `BRN`, `ORAN BERRY`):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥4,434+`
+  - **Cash:** `¥6,034+` (after Rich Boy Winston `¥1,600`)
   - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(21, 24)` on Route 104 North:**
-  1. Finish Rich Boy Winston (`¥1,400+` payout), cross Route 104 North's wooden bridge into **Rustboro City**, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing Matcha's `BRN` & restoring all PP), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
+- **Immediate Next Steps at `(24, 24)` on Route 104 North:**
+  1. Cross Route 104 North's wooden bridge into **Rustboro City** (top off Calavera `26->37 HP` before Twins Gina & Mia if Double Battle blocks the bridge!), enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing Matcha's `BRN` & restoring all PP), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
   2. Explore Rustboro City (`Poké Mart`, `Cutter's House` for `HM01 Cut`, `Trainer's School` for `Quick Claw`, apartments) and capture new encounters on **Route 116** and **Rusturf Tunnel** before challenging Roxanne (`Cap = Lv 16`).
 
 <hr>
