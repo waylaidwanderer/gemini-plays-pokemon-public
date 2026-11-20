@@ -1,13 +1,16 @@
 # Scratchpad — Active Leads & Live Tactical Routing
 
 ## Active Exploration & Future Encounter Leads
-- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch closely for `Nincada` on **Route 116**!
-- **Pretty Petal Flower Shop Gated (`(5, 18)` on Route 104 North):** The `TM09 Bullet Seed` boy stands stationary at `(5, 19)` blocking the Flower Shop door *(verified across 105s Turn 412 `#01–#126`)*—re-check right after earning the Stone Badge in case custom Berries/items are sold inside!
+- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! *(Route 116 yielded `Voltorb`; watch for `Nincada` on future routes/caves given the hack's customized National Dex encounter tables).*
+- **Post-Stone Badge Re-Check Targets (Pre-Gym Gated / Checked):**
+  - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by stationary `TM09` boy at `(5, 19)` pre-Gym *(Turn 412)*—re-check post-Roxanne!
+  - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Teacher at `(5, 3)` had no active `Quick Claw` script from `(4, 3)` or `(5, 5)` pre-Gym *(Turns 504, 508, 509)*—re-check post-Roxanne! *(Other Rustboro locations already verified pre-Gym: Poké Mart `Turn 488`, Pokémon Center `Turn 494`, Cutter's House `HM01 Cut Turn 498`, `(31..33, 30..32)` decorative non-wild lawn `Turn 506`, `(30, 28)` flavor-only house `Turn 508`, `(33, 19)` trade house `Turn 514`; Rustboro Apartments & NW alley still to check before Gym!)*
 - **Post-Roxanne `HM01 Cut` Return Targets:**
   - **Route 116 Berry Ledge (`(17, 5)` Cut trees -> `(18..21, 2)` Berry patch):** Contains **2x `Chesto Berry` trees (`(19..20, 2)` — unlocks `Chesto Berry x99` infinite Sleep cure!)** plus 2 more Berry trees at `(18, 2)` and `(21, 2)` *(spotted Turn 529)*.
   - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.
   - **Petalburg Woods Cut Ledge (`(19, 10..11)`):** Two `Cut` trees right below the North Exit gate the eastern upper ledge (`Miracle Seed` NPC + `(32, 30)` item ball — verified Turn 395).
-- **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*—anticipate custom Magma and Aqua boss fights in Rustboro City / Rusturf Tunnel!
+- **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*. Both wandering **Team Magma Grunts** (`(13, 35)` & `(22, 35)`, *Turns 490, 500*) and a wandering **Team Aqua Grunt** (`near Rustboro Apartments at (20, 27)`, *Turn 512*) were spotted roaming Rustboro City as non-hostile NPCs pre-Gym—anticipate custom Magma and Aqua boss fights in Rusturf Tunnel / post-Gym Rustboro!
+- **Pending Summary Check:** Inspect `Matcha`'s `Yawn` move description next time Summary is open to confirm accuracy/text of the instant-sleep buff.
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects via later routes/Surf.
 - **Unused Town Water Ponds (Save for Rod / Surf Encounters):**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
