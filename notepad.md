@@ -5066,7 +5066,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Whited out at Champion Wallace after defeating Wailord and burning Wallace's Full Restore on Milotic. Respawning at Pokémon League HQ with party 100% restored! Sage Lv 72 (217/217 HP, full PP). Restocking Revives at Mart and re-challenging the League to claim the Championship!
+- Status: Supplies restocked (5 Revives, 2 Hyper Potions)! Party 100% healed with Lv 72 SAGE (217 HP, 213 Speed, full PP). Marching through the open gate to sweep the Elite Four and Champion Wallace into the Hall of Fame!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 217/217. Max HP: 217. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Full HP/PP!
