@@ -18,6 +18,8 @@
   - *(Pre-Pokédex: same list minus Poké Ball, verified Turns 78–79).*
 - **Petalburg Poké Mart (Pre-Gym):**
   - `Poké Ball (¥10)`, `Potion (¥300)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Awakening (¥250)`, **`Escape Rope (¥550)`**, **`Repel (¥350)`**, `X Speed (¥350)`, `X Attack (¥500)`, `X Defend (¥550)`, `Orange Mail (¥50)` *(Verified Turn 208 `#10–#42`)*.
+- **Rustboro Poké Mart (Pre-Gym):**
+  - `Poké Ball (¥10)`, `Potion (¥300)`, `Super Potion (¥700)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Escape Rope (¥550)`, `Repel (¥350)`, `Burn Heal (¥250)`, `Ice Heal (¥250)`, **`Fluffy Tail (¥1000)`** *(Verified Turn 487 `#43–#62`)*.
 ## Early Boss / Rival Log & Wild Pool Clues
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
 - **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
