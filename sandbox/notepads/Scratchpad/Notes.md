@@ -20,7 +20,7 @@
   2. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`35 Def!`, `Lightningrod`).
   3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
   4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of non-boss EXP!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
-  5. **Joule (`Lv 12 -> Lv 14 Voltorb`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [20/20 PP]` (`30+ Spe`, `Static`, Bashful).
+  5. **Joule (`Lv 14 Voltorb`, `36/36 HP`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [20/20 PP]` (`34 Spe!`, `Static`, Bashful).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥4,640`
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(1 active!)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
