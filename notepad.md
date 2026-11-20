@@ -387,18 +387,16 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Re-Run (Current Run)
 - Restocked at Mart: 5 Revives, 2 Hyper Potions. SAGE Lv 72 (217 HP, 213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack).
 - Sidney Conquered: Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt defeated! Prize money: ¥4,900 (Total Cash: ¥5,999).
-- Sage Restored: Consumed 1 Hyper Potion on Turn 25029 to restore Sage to full 217/217 HP! Entire party at 100% full health (5 Revives, 0 Hyper Potions remaining).
-- Room 1 to Room 2 Navigation: Exited Room 1 via (6, 0). Grand Staircase spans (5, 12) to (5, 1). Doorway at top leads into Room 2.
 - Phoebe Battle Tactics (Current Run - Attempt 2):
   - Team: Dusclops Lv 48 (Pressure), Banette Lv 49 (Insomnia), Sableye Lv 50 (Keen Eye), Banette Lv 49 (Insomnia), Dusclops Lv 51 (Pressure).
   - CRITICAL MOVE CONSTRAINT: Ghost types are 100% immune to Normal moves. NEVER use Facade or Quick Attack against Phoebe's Pokémon!
   - Active Moves: Aerial Ace (60 BP Flying physical, never misses, ignores Sableye's Double Team) and Bullet Seed (Grass special STAB, high multi-hit damage).
-  - Dusclops Lv 48: DEFEATED! (Protect Turns 1 & 3, burned Phoebe's Full Restore #1, Curse inflicted; finished by Sage's Bullet Seed Turn 25055).
+  - Dusclops Lv 48: DEFEATED! (Burned Phoebe's Full Restore #1).
+  - Dusclops Lv 51 (Ace): DEFEATED!
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
-  - Opponents Defeated: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette Lv 49 (KO'd Turn 25078).
-  - Active State: SAGE on field at 108 HP with ZERO Curse! (213 Speed).
-  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50, Banette Lv 49).
-  - Sableye Lv 50 Strategy: Dark/Ghost. Uses Double Team; Aerial Ace bypasses evasion stages completely! STAB Bullet Seed also deals high damage.
+  - Active Opponent: Banette Lv 49 on field at ~20-25% HP. SAGE Lv 72 (213 Speed, 108 HP) moves first!
+  - Phoebe Remaining: 3 Pokémon (active Banette Lv 49, Sableye Lv 50, Banette Lv 49).
+  - Sableye Lv 50 Strategy: Dark/Ghost (0 weaknesses). Uses Double Team; Aerial Ace bypasses evasion stages completely! STAB Bullet Seed also deals high damage.
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5073,11 +5071,11 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 & Dusclops Lv 51 (Ace) DEFEATED! Banette Lv 49 at ~25% red HP. Sage revitalized to 108 HP (Curse purged!). Remaining Revives: 2. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 & Dusclops Lv 51 (Ace) DEFEATED! Banette Lv 49 active at ~25% HP. SAGE on field at 108 HP (clean status). Phoebe has 3 Pokémon remaining. Revives: 2. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (4/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: Revived (108 HP, Curse Cured!). Level 72!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: Revived (42 HP).
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (5/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: OK (108 HP, Curse Cured!). Level 72!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
