@@ -5286,10 +5286,10 @@ A large meteorological research institute located in northern Route 119 beside t
 10. [x] Traverse Victory Road (COMPLETED Turn 23825)! All trainers defeated, boulder puzzles solved, exited onto Ever Grande City North Plateau!
 11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 12. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Turn 23876)! Earned ¥4,900, Sage reached Lv 64!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 23942)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 24005)! Earned ¥5,300, Sealeo x2, Glalie x2, Walrein defeated!
-    - [x] Elite Four Member #4 Drake DEFEATED (Turn 24342)! Earned ¥5,500. Shelgon, Flygon, Altaria, Salamence, Kingdra defeated!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Turn 24613)! Earned ¥4,900, Sage reached Lv 70!
+    - [ ] Elite Four Member #2 Phoebe (Active in Room 2!)
+    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
