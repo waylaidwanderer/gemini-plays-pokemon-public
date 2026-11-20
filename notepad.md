@@ -394,7 +394,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Move Strategy: Bullet Seed has 0 PP (drained by Spite). Glacia's Ice and Water types take 1.0x neutral physical damage from Facade (70 BP, 18 PP), Aerial Ace (60 BP, 10 PP), and Quick Attack (40 BP +1 priority, 28 PP). SAGE Lv 73 (215 Speed) outspeeds Glacia's entire team (fastest Glalie ~100 Speed).
   - Party Resource State: SAGE (52/220 HP, Overgrow Active), Guava (101/101 HP), Mochi (42/42 HP). 1 Revive remaining. Use Guava/Mochi to execute priority Revive if Sage faints.
   - Sealeo Lv 50 (Lead): DEFEATED! (KO'd by second Facade Turn 25122).
-  - Opponent #2: Sealeo Lv 52: Struck to ~40% HP Turn 25125. SAGE revitalized to 110 HP clean via Guava Turn 25132 (all 5 Revives consumed). Sage re-enters to finish Sealeo and sweep Glacia!
+  - Opponent #2: Sealeo Lv 52: Struck to ~20% HP by Guava's Razor Leaf Turn 25134 while Sage rests in reserve at 110 HP clean! Guava attacking again to finish Sealeo or provide clean switch-in.
   - Glacia Remaining: 4 Pokémon (Sealeo 52, Glalie 50, Glalie 52, Walrein 53).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5077,7 +5077,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (24/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 95/101. Max HP: 101. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (23/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 95/101. Max HP: 101. Status: OK.
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)

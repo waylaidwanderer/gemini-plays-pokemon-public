@@ -84,7 +84,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Move Strategy: Bullet Seed has 0 PP (drained by Spite). Glacia's Ice and Water types take 1.0x neutral physical damage from Facade (70 BP, 18 PP), Aerial Ace (60 BP, 10 PP), and Quick Attack (40 BP +1 priority, 28 PP). SAGE Lv 73 (215 Speed) outspeeds Glacia's entire team (fastest Glalie ~100 Speed).
   - Party Resource State: SAGE (52/220 HP, Overgrow Active), Guava (101/101 HP), Mochi (42/42 HP). 1 Revive remaining. Use Guava/Mochi to execute priority Revive if Sage faints.
   - Sealeo Lv 50 (Lead): DEFEATED! (KO'd by second Facade Turn 25122).
-  - Opponent #2: Sealeo Lv 52: Struck to ~40% HP Turn 25125. SAGE revitalized to 110 HP clean via Guava Turn 25132 (all 5 Revives consumed). Sage re-enters to finish Sealeo and sweep Glacia!
+  - Opponent #2: Sealeo Lv 52: Struck to ~20% HP by Guava's Razor Leaf Turn 25134 while Sage rests in reserve at 110 HP clean! Guava attacking again to finish Sealeo or provide clean switch-in.
   - Glacia Remaining: 4 Pokémon (Sealeo 52, Glalie 50, Glalie 52, Walrein 53).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
