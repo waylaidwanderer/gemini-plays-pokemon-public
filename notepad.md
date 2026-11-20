@@ -394,7 +394,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Move Strategy: Bullet Seed has 0 PP (drained by Spite). Glacia's Ice and Water types take 1.0x neutral physical damage from Facade (70 BP, 18 PP), Aerial Ace (60 BP, 10 PP), and Quick Attack (40 BP +1 priority, 28 PP). SAGE Lv 73 (215 Speed) outspeeds Glacia's entire team (fastest Glalie ~100 Speed).
   - Party Resource State: SAGE (52/220 HP, Overgrow Active), Guava (101/101 HP), Mochi (42/42 HP). 1 Revive remaining. Use Guava/Mochi to execute priority Revive if Sage faints.
   - Sealeo Lv 50 (Lead): DEFEATED! (KO'd by second Facade Turn 25122).
-  - Opponent #2: Sealeo Lv 52 (Thick Fat, Ice/Water, Def 72, HP 160). SAGE Lv 73 (215 Speed, 17 HP) moves first with Facade (70 BP)!
+  - Opponent #2: Sealeo Lv 52: Facade struck Sealeo to ~40% HP Turn 25125. Double-Edge knocked out Sage at 4 HP. Sending in Guava (101 HP) to use priority Revive on Sage (110 HP)!
   - Glacia Remaining: 4 Pokémon (Sealeo 52, Glalie 50, Glalie 52, Walrein 53).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5069,10 +5069,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 DEFEATED! SAGE on field at 4 HP executing Facade (70 BP) on Sealeo Lv 52 (~60% damage). Revives: 1. Cash: ¥11,099.
+- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 DEFEATED! Sealeo Lv 52 at ~40% HP (took Facade + recoil). Sage fainted; sending in Guava (101 HP) to execute priority Revive on Sage. Remaining Revives: 1. Cash: ¥11,099.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 4/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (12/20), Quick Attack (28/30). Status: Overgrow Active! (4 HP). Level 73!
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 0/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (12/20), Quick Attack (28/30). Status: FNT (Being revived next turn via Guava!). Level 73!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).
