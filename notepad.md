@@ -5067,8 +5067,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Glacia's final Pokémon (Glalie Lv 52) is in red HP! Reviving Sage Lv 71 (Max HP 214) to finish Glacia and unlock Drake in Room 4! 4 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ~¥11,199.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 0/214 (Reviving now!). Max HP: 214. Moves: Rock Tomb, Earthquake, Leaf Blade, Quick Attack. Status: FNT -> Revived. Ready to sweep!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 0/214 (Reviving now!). Max HP: 214. Moves: Rock Tomb (5/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (27/30). Status: FNT -> Revived. Ready to sweep!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
@@ -5085,7 +5085,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x9 (1 used on Sage Turn 24621)
+- Hyper Potion x4 (4 used during Glacia battle, 1 on Turn 24621)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
