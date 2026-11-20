@@ -5074,10 +5074,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: CHAMPION WALLACE BATTLE ACTIVE! Wailord DEFEATED! Milotic Lv 58 at ~35% HP. Sage revived to 109/217 HP at full 213 Speed! Mochi absorbed Milotic's hit. Sending Sage back out to finish Milotic! Guava (50 HP) in reserve. Cash: ¥21,999.
+- Status: CHAMPION WALLACE BATTLE ACTIVE! Wailord DEFEATED! Milotic Lv 58 at ~35% HP. Sending SAGE (108/217 HP, 213 Speed) back out to finish Wallace's ace Milotic! Guava (50 HP) in reserve. Cash: ¥21,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 109/217 (Revived!). Max HP: 217. Moves: Bullet Seed (27/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK. Ready to sweep Milotic!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217 (Revived!). Max HP: 217. Moves: Bullet Seed (27/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK. Ready to sweep Milotic!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
