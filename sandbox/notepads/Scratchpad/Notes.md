@@ -18,20 +18,17 @@
   - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 568 — 2-on-1 vs School Kid Jerry's Final Pokémon at (16, 10)!)
-- **Active Battle (`(16, 10)` on Route 116):**
-  - **School Kid Karen `(16, 8)`:** `#1 Lv 9 Totodile ♂`, `#2 Lv 9 Chikorita ♂` (`Mega Drain`, `Secret Power`), `#3 Lv 9 Cyndaquil ♂` — **ALL DEFEATED**.
-  - **School Kid Jerry `(18, 10)`:** `#1 Lv 10 Nidoran♂` (`Hustle`, `Rock Tomb`, `Dig` — defeated), `#2 Lv 10 Phanpy ♂` (defeated), `#3` final Pokémon sending out now!
+## Live Tactical State (Turn 569 — Closing Karen & Jerry Double Battle at (16, 10), Returning to Deposit Joule!)
 - **Active Party (4 Survivors + 1 Deceased — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 2):**
-  1. **Joule (`Lv 14 Voltorb`, `0/36 HP` — `DECEASED` Turn 562 [MANDATORY: Deposit in PC `BOX 14` Graveyard immediately after battle!]).**
-  2. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~55% EXP toward Lv 17], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [14/15 PP]`, `Sludge Bomb [15/16 PP]` (`Liquid Ooze`).
-  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~38% EXP toward Lv 17], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [7/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
-  4. **Arctos (`Lv 15 Teddiursa ♂`, `19/44 HP`, Healthy, berry used):** `Scratch [33/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
-  5. **Calavera (`Lv 15 Cubone ♂`, `22/41 HP`, Healthy, berry used):** `Bone Club [15/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
+  1. **Calavera (`Lv 15 Cubone ♂`, `22/41 HP`, Healthy, berry used):** `Bone Club [15/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
+  2. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~54% EXP post-fight; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [6/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
+  3. **Arctos (`Lv 15 Teddiursa ♂`, `19/44 HP`, Healthy, berry used):** `Scratch [33/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
+  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~71% EXP post-fight; keep out of non-boss EXP!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid`, `Yawn [9/10 PP]`, `Fire Punch [13/15 PP]`, `Sludge Bomb [15/16 PP]` (`Liquid Ooze`).
+  5. **Joule (`Lv 14 Voltorb`, `0/36 HP` — `DECEASED` Turn 562 [MANDATORY: Deposit in PC `BOX 14` Graveyard immediately upon returning to Rustboro Pokémon Center!]).**
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥5,288` (after Hiker Devan `¥360`)
-  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(1 active!)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Cash:** `¥5,288+` (plus Karen & Jerry payout)
+  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(~90 steps active on current Repel!)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Next Steps on Route 116:**
-  1. Grab nearby Route 116 item balls (`(13, 18)` etc.) and navigate east across Route 116 into **Rusturf Tunnel** to catch our **6th party member** (`Rusturf Tunnel` encounter)!
-  2. Return to Rustboro City, check Rustboro Apartments / northwest item ball, level `Joule` / `Calavera` as desired within `Cap = Lv 16`, and challenge **Gym Leader Roxanne**!
+- **Immediate Next Steps from `(16, 10)` on Route 116:**
+  1. Walk west off Route 116 (`avoiding Bug Catcher Jose (11, 7)` via `y=4..6`) straight back to **Rustboro Pokémon Center**, heal at Nurse Joy, re-equip `Oran Berries` onto `Calavera` and `Arctos`, and **deposit deceased `Joule` into PC `BOX 14` (Graveyard)**!
+  2. Return to `(16, 12)` on Route 116 to clear `Lady Sarah (16, 13)` 1-on-1 using `Lv 15 Calavera` & `Lv 15 Arctos` (keeping `Lv 16 Girasol` & `Matcha` out of non-boss EXP!), pick up the southwestern item ball, and enter **Rusturf Tunnel** to catch our legal Rusturf Tunnel encounter before challenging **Roxanne**!
