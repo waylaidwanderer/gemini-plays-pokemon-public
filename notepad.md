@@ -5073,10 +5073,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 & Dusclops Lv 51 (Ace) DEFEATED! Banette Lv 49 at ~25% red HP. Active battler Cipher using priority Revive on Sage. Remaining Revives: 4. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 & Dusclops Lv 51 (Ace) DEFEATED! Banette Lv 49 at ~25% red HP. Sage revitalized to 108 HP (Curse purged!). Remaining Revives: 3. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 0/217. Max HP: 217. Moves: Bullet Seed (5/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: FNT (Banette reduced to ~15% red HP; revives next turn via Cipher). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (5/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: Revived (108 HP, Curse Cured!). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed after executing Revive on Sage).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
