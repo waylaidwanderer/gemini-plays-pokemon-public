@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: CHAMPION WALLACE BATTLE ACTIVE! Lead Wailord Lv 57 weakened to ~55% HP by Bullet Seed! Sage Lv 71 (107/214 HP) launching next Bullet Seed to KO Wailord! Mochi (21 HP) and Guava (50 HP) conscious in reserve; 1 Revive in Bag. Cash: ¥21,999.
+- Status: CHAMPION WALLACE BATTLE ACTIVE! Lead Wailord Lv 57 DEFEATED! Sage leveled up to Lv 72 (110/217 HP)! Wallace down to 5 Pokémon. Mochi (21 HP) and Guava (50 HP) conscious in reserve; 1 Revive in Bag. Cash: ¥21,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214. Max HP: 214. Moves: Bullet Seed (30/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK. Ready for Champion Wallace!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 110/217. Max HP: 217. Moves: Bullet Seed (29/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK. Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
