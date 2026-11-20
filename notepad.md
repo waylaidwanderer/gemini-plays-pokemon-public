@@ -395,9 +395,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (Ace): DEFEATED!
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
-  - Sableye Lv 50: Phoebe consumed Full Restore #2 on Turn 25088 (Phoebe has 0 Full Restores remaining!). Sage's queued Aerial Ace strikes Sableye back to ~25% HP.
-  - SAGE on field at 22 HP (Overgrow Active, 213 Speed); finishes Sableye next turn with Aerial Ace.
-  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50, second Banette Lv 49).
+  - Sableye Lv 50: Aerial Ace struck Sableye to critical red (~5% HP). Shadow Ball knocked out Sage at 22 HP Turn 25090.
+  - Active Plan: Sending in healthy reserve to execute priority Revive on Sage (108 HP). Revived Sage returns to finish Sableye (~5% HP) and sweep final Banette Lv 49!
+  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50 in red, final Banette Lv 49).
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5072,10 +5072,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49 DEFEATED! Sableye Lv 50 at ~35% HP; SAGE on field at 22 HP (Overgrow Active) executing Aerial Ace to KO Sableye. Revives: 2. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49 DEFEATED! Sableye Lv 50 in critical red HP (~5%). Sage fainted; sending in reserve to execute priority Revive on Sage. Remaining Revives: 2. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 22/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (14/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (22 HP). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 0/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (13/20), Facade (18/20), Quick Attack (28/30). Status: FNT (Being revived next turn!). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
