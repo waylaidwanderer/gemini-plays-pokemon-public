@@ -395,9 +395,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (Ace): DEFEATED!
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
-  - Active Opponent: Sableye Lv 50 entering field. SAGE Lv 72 (213 Speed, 108 HP) moves first!
-  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50, second Banette Lv 49).
-  - Sableye Lv 50 Strategy: Dark/Ghost (0 weaknesses). Uses Double Team; Aerial Ace bypasses evasion stages completely! STAB Bullet Seed also deals high damage.
+  - Sableye Lv 50: Down to ~30% HP from first Aerial Ace; being finished by second Aerial Ace Turn 25086.
+  - Phoebe Final Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Psychic). SAGE Lv 72 (213 Speed) outspeeds and sweeps with Aerial Ace!
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5075,7 +5074,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, and Banette Lv 49 DEFEATED! SAGE on field at 108 HP (clean status). Phoebe has 2 Pokémon remaining (Sableye Lv 50, Banette Lv 49). Revives: 2. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 108/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (15/20), Facade (18/20), Quick Attack (28/30). Status: OK (108 HP). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 68/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (14/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (~68 HP). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
