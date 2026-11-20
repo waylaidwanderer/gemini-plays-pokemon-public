@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Elite Four Member #1 Sidney active! Mightyena Lv 46 weakened to ~70% HP by Bullet Seed. Sage Lv 72 (217/217 HP, 213 Speed) resolving turn to finish Mightyena! 5 Revives, 2 Hyper Potions. Cash: ¥1,099.
+- Status: Elite Four Member #1 Sidney active! Mightyena Lv 46 in deep yellow (~20% HP); Sage Lv 72 (217/217 HP, 213 Speed) launching Bullet Seed to KO Mightyena! 5 Revives, 2 Hyper Potions. Cash: ¥1,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 217/217. Max HP: 217. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Full HP!
