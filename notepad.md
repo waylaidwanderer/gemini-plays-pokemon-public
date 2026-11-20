@@ -5073,7 +5073,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ELITE FOUR SIDNEY DEFEATED! Earned ¥4,900 (Total Cash: ¥5,999). Crawdaunt OHKO'd by Overgrow Bullet Seed! Sage fully restored to 217/217 HP! Northern door open; ready to advance to Room 2 and defeat Phoebe! 5 Revives, 0 Hyper Potions.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 217/217. Max HP: 217. Moves: Bullet Seed (25/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: OK (Full Health!). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 163/217. Max HP: 217. Moves: Bullet Seed (20/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: Cursed (54 HP/turn). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
