@@ -176,7 +176,7 @@
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Rustboro City & Pre-Roxanne Plan:**
   1. **HM01 Cut** obtained (`Turn 498`) and `Girasol`'s `Oran Berry` re-equipped (`Turn 495`); outer Team Magma Grunts confirmed to be harmless wandering town NPCs (`Turn 500`).
-  2. Enter **Pokémon Trainer's School** `(27, 34)` for `Quick Claw` & check students/Scott.
+  2. Catch **Rustboro City Custom Grass** encounter (`(31..32, 31..32)` immediately east of Trainer's School), then step back into **Pokémon Trainer's School** `(27, 34)` and talk to the Teacher at **`(5, 2)`** (`stand at (4, 2) facing Right — desk perspective hid that Teacher is at y=2, not y=3!`) for `Quick Claw`.
   3. **THREE Legal Pre-Roxanne Encounters Available:**
      - **NEW! Rustboro City Custom Grass (`x >= 31, y <= 32` immediately east of Trainer's School — spotted Turn 501!)**
      - **Route 116**
