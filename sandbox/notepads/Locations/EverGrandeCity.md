@@ -84,8 +84,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 48: DEFEATED! (Burned Phoebe's Full Restore #1).
   - Dusclops Lv 51 (Ace): DEFEATED!
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
-  - Active Opponent: Banette Lv 49 on field at ~20-25% HP. SAGE Lv 72 (213 Speed, 108 HP) moves first!
-  - Phoebe Remaining: 3 Pokémon (active Banette Lv 49, Sableye Lv 50, Banette Lv 49).
+  - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
+  - Active Opponent: Sableye Lv 50 entering field. SAGE Lv 72 (213 Speed, 108 HP) moves first!
+  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50, second Banette Lv 49).
   - Sableye Lv 50 Strategy: Dark/Ghost (0 weaknesses). Uses Double Team; Aerial Ace bypasses evasion stages completely! STAB Bullet Seed also deals high damage.
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
