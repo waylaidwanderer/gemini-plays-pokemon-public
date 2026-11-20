@@ -7,7 +7,7 @@
 - Dupes Clause active across evolution families obtained in Attempt #1.
 
 ## Locations & Encounters
-- **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified Turn 55 `#19`). **USED — DECEASED Turn 380** *(crit `Pursuit` vs Team Magma Grunt's `Lv 9 Houndour`; family remains Dupes-locked)*.
+- **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified Turn 55 `#19`). **USED — DECEASED Turn 380, Deposited in PC `BOX 14` (Graveyard) Turn 494** *(crit `Pursuit` vs Team Magma Grunt's `Lv 9 Houndour`; family remains Dupes-locked)*.
 - **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
 - **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
 - **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
@@ -137,7 +137,7 @@
 - **Unmapped `L` Fade-Settle & Party Column Navigation:** `L` is unmapped in Emerald's Bag and Party menus, so appending `"sleep 1800", "L"` after a fading action (`Start -> BAG`, `USE`, etc.) settles `<CurrentScreen>` inside the destination screen without moving cursors *(Turns 293–294)*. In single-battle Party layout, `Left` clamps from any right-column slot (`2..6`) directly to `Slot 1` (no-op if already on `Slot 1`), while `Right` from `Slot 1` moves directly to `Slot 2`; `sleep 2200` covers all `USE`/`GIVE` fades and `+10 HP` heal prompts *(Turns 295–297)*.
 
 ## Town Facilities & Battle Flows
-- **Pokémon Center Nurse Joy Flow:** Entry mat `(7, 8)`, counter `(7, 4)` (`4` steps `Up`). Requires **`4x A`** (`1: Talk` -> `2: "Hello..."` -> `3: "We restore..."` -> `4: "Would you like..." [YES]`), then `sleep 8500` for healing jingle, then `3x B` *(Verified Turn 152)*.
+- **Pokémon Center Nurse Joy & PC Flow:** Entry mat `(7, 8)`, Nurse Joy counter `(7, 4)` (`4` steps `Up`; requires `4x A`, `sleep 8500`, `3x B` — verified Turn 152). **PC** is at `(10, 1)` (`Right x3, Up x2` to `(10, 2)` facing `Up` from `(7, 4)` — verified Turn 491); in `SOMEONE'S PC -> DEPOSIT POKéMON`, cursor starts on `Slot 1` (left box), `Right` moves to `Slot 2` (top-right), `A` opens `►STORE`, and `A -> Left -> A` wraps from `BOX 1` to **`BOX 14` (dedicated Nuzlocke Graveyard Box)** *(Verified Turns 492–494)*.
 - **Poké Mart Flow:** Entry mat `(3, 7)`, Cashier `(3, 3)` (`4` steps `Up`, face `Left`). Requires **`3x A`** (`1: Talk` -> `2: "Welcome!"` -> `3: [►BUY]`) + `sleep 2400` fade into `BUY` *(Turns 207–208)*. Quantity purchase: `A` (`YES/NO`) -> `A` (`"Here you go!"`) -> `B` (returns to `BUY`, or `2x B` if ≥10 Poké Balls triggers Premier Ball); `B` on `BUY` fades (`sleep 2400`) out.
 - **Battle KO & `B`-Button Idempotency:** Because `B` is a harmless no-op on both `"What will <PKMN> do?"` and the overworld, chaining `sleep 7800 -> B` (`fainted!`, covering super-effective text) -> `sleep 4500 -> B` (`EXP!`) -> `sleep 4500 -> B` (mid-trainer send-out, or `sleep 4000 -> B -> sleep 2500 -> B -> sleep 2500 -> B -> sleep 3000 -> B` on final Pokémon) safely clears OHKOs while staying harmless if the foe survives *(Turns 173–188)*.
 - **Poké Ball Catch & Nickname Entry:** All **5 Bag pockets** (`0: ITEMS`, `1: POKé BALLS`, `2: TMs & HMs`, `3: BERRIES`, `4: KEY ITEMS`) stay active in battle (`BERRIES -> POKé BALLS` is `2x Left`!) *(Turn 232)*. Use `sleep 5000` after dismissing `"Wild <PKMN> appeared! ▼"` before battle menu inputs (`sleep 8000` if wild has `Intimidate`, e.g. Snubbull, verified Turn 409 `#48–#56`), and use unmapped `"L"` (`"sleep 7000", "L", "sleep 6500", "L"`) while waiting out Poké Ball shakes so neither battle cursors nor `"Gotcha!"` prompts are disturbed *(Turn 318)*. From `"Gotcha! <PKMN> was caught! ▼"`, `["A", "sleep 1000", "A", "sleep 2500", "A", "sleep 2300", "A", "sleep 2300", "B"]` lands cleanly on an empty Naming Screen at `(0, 0) 'A'` *(Turns 115–233)*.
@@ -164,19 +164,19 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 481 — Finishing PKMN Trainer Red's Final Pokémon at (24, 8)!)
-- **Party Status (Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1):**
-  1. **Girasol (`Lv 14 Sunflora ♀`, ~99% EXP to Lv 15, `37/45 HP`, `PAR`, berry used):** `Absorb [10/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [0/10 PP]` (finishing Red's final `Lv 9 Pikachu` at ~58% HP, `Sitrus Berry` consumed).
-  2. **Calavera (`Lv 14 Cubone ♂`, `31/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`33 Def`, `Lightningrod`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [MANDATORY: Deposit in PC Graveyard Box immediately upon entering Rustboro Pokémon Center!]).**
-  4. **Arctos (`Lv 15 Teddiursa ♂`, `22/44 HP`, `BRN`, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`Guts`).
-  5. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `39/53 HP`, `BRN`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [6/15 PP]`, `Sludge Bomb [11/16 PP]` (`Liquid Ooze`).
+## Live Tactical State (Turn 494 — Healed in Rustboro Pokémon Center, Bayou Deposited in BOX 14!)
+- **Active Party (4 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
+  1. **Girasol (`Lv 15 Sunflora ♀`, `47/47 HP`, Healthy, needs `ORAN BERRY` re-equipped!):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]` (`38 SpA / 34 SpD`, `Chlorophyll`).
+  2. **Calavera (`Lv 14 Cubone ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`33 Def`, `Lightningrod`).
+  3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
+  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥6,370+` (plus PKMN Trainer Red payout upcoming)
-  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
-  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps from `(24, 8)` on Route 104 North:**
-  1. Finish off PKMN Trainer Red's `Lv 9 Pikachu`, walk straight north (`x = 24`) across the Route 104 border into **Rustboro City**, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing `PAR`/`BRN` & restoring all PP), re-equip `Girasol`'s `Oran Berry` (`or Cheri Berry`), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
-  2. Keep **`Lv 16` `Matcha`** out of non-boss EXP until Roxanne so she never hits `Lv 17`; explore Rustboro City (`Poké Mart`, `Cutter's House` for `HM01 Cut`, `Trainer's School` for `Quick Claw`, apartments) and capture new encounters on **Route 116** and **Rusturf Tunnel** before challenging Roxanne (`Cap = Lv 16`).
+  - **Cash:** `¥4,640` (after Rustboro Poké Mart haul)
+  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
+- **Rustboro City & Pre-Roxanne Plan:**
+  1. Re-equip `ORAN BERRY` onto `Girasol` (`Slot 1`), inspect `Matcha`'s `Yawn` description if convenient, and exit Rustboro Pokémon Center `(16, 38)`.
+  2. Visit **Cutter's House** (immediately west of Rustboro Pokémon Center) for `HM01 Cut`, **Pokémon Trainer's School** for `Quick Claw` / custom items, and Rustboro apartments/NPCs (watching carefully for the two **Team Magma Grunts** spotted north of the Pokémon Center at `(13, 35)` and `(22, 35)`!).
+  3. Catch new encounters on **Route 116** and **Rusturf Tunnel** (keeping `Lv 16 Matcha` out of non-boss EXP), then challenge **Gym Leader Roxanne** (`Cap = Lv 16`).
 
 <hr>

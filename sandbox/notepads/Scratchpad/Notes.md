@@ -12,17 +12,17 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 481 — Finishing PKMN Trainer Red's Final Pokémon at (24, 8)!)
-- **Party Status (Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1):**
-  1. **Girasol (`Lv 14 Sunflora ♀`, ~99% EXP to Lv 15, `37/45 HP`, `PAR`, berry used):** `Absorb [10/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [0/10 PP]` (finishing Red's final `Lv 9 Pikachu` at ~58% HP, `Sitrus Berry` consumed).
-  2. **Calavera (`Lv 14 Cubone ♂`, `31/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`33 Def`, `Lightningrod`).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [MANDATORY: Deposit in PC Graveyard Box immediately upon entering Rustboro Pokémon Center!]).**
-  4. **Arctos (`Lv 15 Teddiursa ♂`, `22/44 HP`, `BRN`, `ORAN BERRY`):** `Scratch`, `Lick`, `Faint Attack`, `Refresh` (`Guts`).
-  5. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `39/53 HP`, `BRN`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch [6/15 PP]`, `Sludge Bomb [11/16 PP]` (`Liquid Ooze`).
+## Live Tactical State (Turn 494 — Healed in Rustboro Pokémon Center, Bayou Deposited in BOX 14!)
+- **Active Party (4 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
+  1. **Girasol (`Lv 15 Sunflora ♀`, `47/47 HP`, Healthy, needs `ORAN BERRY` re-equipped!):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]` (`38 SpA / 34 SpD`, `Chlorophyll`).
+  2. **Calavera (`Lv 14 Cubone ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`33 Def`, `Lightningrod`).
+  3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
+  4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥6,370+` (plus PKMN Trainer Red payout upcoming)
-  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
-  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps from `(24, 8)` on Route 104 North:**
-  1. Finish off PKMN Trainer Red's `Lv 9 Pikachu`, walk straight north (`x = 24`) across the Route 104 border into **Rustboro City**, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing `PAR`/`BRN` & restoring all PP), re-equip `Girasol`'s `Oran Berry` (`or Cheri Berry`), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
-  2. Keep **`Lv 16` `Matcha`** out of non-boss EXP until Roxanne so she never hits `Lv 17`; explore Rustboro City (`Poké Mart`, `Cutter's House` for `HM01 Cut`, `Trainer's School` for `Quick Claw`, apartments) and capture new encounters on **Route 116** and **Rusturf Tunnel** before challenging Roxanne (`Cap = Lv 16`).
+  - **Cash:** `¥4,640` (after Rustboro Poké Mart haul)
+  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
+- **Rustboro City & Pre-Roxanne Plan:**
+  1. Re-equip `ORAN BERRY` onto `Girasol` (`Slot 1`), inspect `Matcha`'s `Yawn` description if convenient, and exit Rustboro Pokémon Center `(16, 38)`.
+  2. Visit **Cutter's House** (immediately west of Rustboro Pokémon Center) for `HM01 Cut`, **Pokémon Trainer's School** for `Quick Claw` / custom items, and Rustboro apartments/NPCs (watching carefully for the two **Team Magma Grunts** spotted north of the Pokémon Center at `(13, 35)` and `(22, 35)`!).
+  3. Catch new encounters on **Route 116** and **Rusturf Tunnel** (keeping `Lv 16 Matcha` out of non-boss EXP), then challenge **Gym Leader Roxanne** (`Cap = Lv 16`).
