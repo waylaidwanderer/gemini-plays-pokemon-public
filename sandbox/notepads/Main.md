@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE CONQUERED (Room 2)! All 5 Ghost Pokémon defeated. Earned ¥5,100 (Total Cash: ¥11,099). Northern door to Room 3 (Glacia) open! SAGE Lv 73 (65/220 HP, Overgrow Active!). Revives: 1.
+- Status: ENTERED ELITE FOUR ROOM 3 (GLACIA). Approaching Glacia at (6, 5). SAGE Lv 73 (65/220 HP, 215 Speed). Strategy: Facade (18 PP) & Aerial Ace (10 PP). Revives: 1. Cash: ¥11,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 65/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (65 HP). Level 73!
