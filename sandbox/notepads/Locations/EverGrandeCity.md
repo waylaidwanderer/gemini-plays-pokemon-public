@@ -85,10 +85,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Active Moves: Aerial Ace (60 BP Flying physical, never misses, ignores Sableye's Double Team) and Bullet Seed (Grass special STAB, high multi-hit damage).
   - Dusclops Lv 48: DEFEATED! (Protect Turns 1 & 3, burned Phoebe's Full Restore #1, Curse inflicted; finished by Sage's Bullet Seed Turn 25055).
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
-  - Opponents Defeated: Dusclops Lv 48, Dusclops Lv 51 (Ace).
-  - Active Opponent: Banette Lv 49 (Critical yellow/red HP ~25%). Lilz successfully revived Sage on Turn 25075; Lilz fainted Turn 25076.
-  - Active State: SAGE re-enters the field at 108 HP with ZERO Curse (Turn 25077)! Sage (213 Speed) moves first to finish Banette and sweep Sableye Lv 50 and final Banette Lv 49!
-  - Phoebe Remaining: 3 Pokémon (Banette Lv 49 ~25% HP, Sableye Lv 50, Banette Lv 49).
+  - Opponents Defeated: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette Lv 49 (KO'd Turn 25078).
+  - Active State: SAGE on field at 108 HP with ZERO Curse! (213 Speed).
+  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50, Banette Lv 49).
+  - Sableye Lv 50 Strategy: Dark/Ghost. Uses Double Team; Aerial Ace bypasses evasion stages completely! STAB Bullet Seed also deals high damage.
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
