@@ -387,18 +387,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Re-Run (Current Run)
 - Restocked at Mart: 5 Revives, 2 Hyper Potions. SAGE Lv 72 (217 HP, 213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack).
 - Sidney Conquered: Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt defeated! Prize money: ¥4,900 (Total Cash: ¥5,999).
-- Phoebe Battle Tactics (Current Run - Attempt 2):
-  - Team: Dusclops Lv 48 (Pressure), Banette Lv 49 (Insomnia), Sableye Lv 50 (Keen Eye), Banette Lv 49 (Insomnia), Dusclops Lv 51 (Pressure).
-  - CRITICAL MOVE CONSTRAINT: Ghost types are 100% immune to Normal moves. NEVER use Facade or Quick Attack against Phoebe's Pokémon!
-  - Active Moves: Aerial Ace (60 BP Flying physical, never misses, ignores Sableye's Double Team) and Bullet Seed (Grass special STAB, high multi-hit damage).
-  - Dusclops Lv 48: DEFEATED! (Burned Phoebe's Full Restore #1).
-  - Dusclops Lv 51 (Ace): DEFEATED!
-  - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
-  - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
-  - Sableye Lv 50: DEFEATED! (KO'd by Aerial Ace Turn 25100). SAGE leveled to Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215)!
-  - Phoebe Final Opponent: Banette Lv 49: Reduced to ~35% HP by first Aerial Ace; finished by second Aerial Ace Turn 25106!
-  - Elite Four Phoebe Conquered (Attempt 2, Turn 25106): Dusclops 48, Dusclops 51, Banette 49, Sableye 50, Banette 49 all DEFEATED! Earned ¥5,100 prize money (Total cash: ¥11,099). Northern door to Room 3 (Glacia) unlocked!
-  - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
+- Phoebe Conquered (Turn 25108): Dusclops x2, Banette x2, and Sableye defeated! Prize: ¥5,100 (Total Cash: ¥11,099). Northern door to Room 3 unlocked! SAGE reached Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215).
+  - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz/Cobalu) has 100% turn start priority and completely purges volatile status (Curse), restoring Sage to 50% HP clean!
+- Glacia Battle Tactics (Room 3):
+  - Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Glalie Lv 52, Walrein Lv 53 (Ace, Chesto Berry).
+  - Move Strategy: Bullet Seed has 0 PP (drained by Spite). Glacia's Ice and Water types take 1.0x neutral physical damage from Facade (70 BP, 18 PP), Aerial Ace (60 BP, 10 PP), and Quick Attack (40 BP +1 priority, 28 PP). SAGE Lv 73 (215 Speed) outspeeds Glacia's entire team (fastest Glalie ~100 Speed).
+  - Party Resource State: SAGE (65/220 HP, Overgrow Active), Guava (101/101 HP), Mochi (42/42 HP). 1 Revive remaining. Use Guava/Mochi to execute priority Revive if Sage faints.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
