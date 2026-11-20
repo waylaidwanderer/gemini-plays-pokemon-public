@@ -6,7 +6,7 @@
 - Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 in critical red HP (~20%); Phoebe consumed Full Restore #1; Sage fainted to Curse and is revived by active battler Lilz with turn-priority Revive! Remaining Revives: 4. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 73/217. Max HP: 217. Moves: Bullet Seed (10/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: OK (73 HP, SpDef -1). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 24/217. Max HP: 217. Moves: Bullet Seed (8/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (24 HP). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed after executing Revive on Sage).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
