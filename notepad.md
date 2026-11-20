@@ -392,7 +392,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Sidney Conquered (Turn 24613): Mightyena Lv 46, Absol Lv 49, Shiftry Lv 48, Cacturne Lv 46, and Crawdaunt Lv 48 defeated! Sage reached Lv 70 (81/211 HP, Leaf Blade 15/24, Quick Attack 28/30). Prize money: ¥4,900 (total cash: ¥6,099). Northern door unlocked and open!
 - Room 1 to Room 2 Navigation: From (6, 6), Sidney is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 2 at (6, 6) in front of Phoebe.
 - Phoebe Battle (Room 2): Dusclops Lv 48 uses Protect on Turn 1. Ghost types are immune to Normal (never use Quick Attack). Sage Lv 70 (207 Speed, 211/211 HP) sweeps with STAB Leaf Blade.
-- Phoebe Battle Progress: Dusclops Lv 48, Dusclops Lv 51 (Ace), and Banette #1 Lv 49 all DEFEATED! Sage at 211/211 HP. Leaf Blade at 2/24 PP, Earthquake at 10/10 PP. Remaining: Sableye Lv 50, Banette #2 Lv 49 (both OHKOed by Leaf Blade/Earthquake).
+- Phoebe Battle Progress: Dusclops Lv 48 and Dusclops Lv 51 (Ace) both DEFEATED! Banette #1 Lv 49 currently active at ~15% red HP. Sage at 211/211 HP. Leaf Blade at 2/24 PP, Earthquake at 10/10 PP. Remaining in reserve: Sableye Lv 50, Banette #2 Lv 49.
 
 <hr>
 
@@ -5063,7 +5063,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Sidney DEFEATED! Room 1 cleared! Sage Lv 70 (211/211 HP) fully restored with Hyper Potion. 9 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ¥6,099. Advancing to Room 2 to sweep Phoebe (Ghost)!
+- Status: Phoebe battle active in Room 2! Dusclops #1 & #2 DEFEATED! Banette #1 at ~15% red HP. Sage Lv 70 (211/211 HP). 9 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ¥6,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 70) - Lead! HP: 211/211. Max HP: 211. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (7/24), Quick Attack (28/30). Stats: Atk 157, Def 114, SpA 171, SpD 154, Spe 207. Status: OK. Ready to sweep!

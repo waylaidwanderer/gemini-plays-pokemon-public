@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Sidney DEFEATED! Room 1 cleared! Sage Lv 70 (211/211 HP) fully restored with Hyper Potion. 9 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ¥6,099. Advancing to Room 2 to sweep Phoebe (Ghost)!
+- Status: Phoebe battle active in Room 2! Dusclops #1 & #2 DEFEATED! Banette #1 at ~15% red HP. Sage Lv 70 (211/211 HP). 9 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ¥6,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 70) - Lead! HP: 211/211. Max HP: 211. Moves: Rock Tomb (10/10), Earthquake (10/10), Leaf Blade (7/24), Quick Attack (28/30). Stats: Atk 157, Def 114, SpA 171, SpD 154, Spe 207. Status: OK. Ready to sweep!
