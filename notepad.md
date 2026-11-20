@@ -395,8 +395,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (Ace): DEFEATED!
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
-  - Sableye Lv 50: Down to ~30% HP from first Aerial Ace; being finished by second Aerial Ace Turn 25086.
-  - Phoebe Final Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Psychic). SAGE Lv 72 (213 Speed) outspeeds and sweeps with Aerial Ace!
+  - Sableye Lv 50: DEFEATED! (KO'd by second Aerial Ace Turn 25087).
+  - Phoebe Final Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Psychic). SAGE Lv 72 (213 Speed, 72 HP, Overgrow ACTIVE) moves first to sweep with Aerial Ace!
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
