@@ -12,7 +12,7 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 498 — Inside Cutter's House in Rustboro City!)
+## Live Tactical State (Turn 509 — Finishing Trainer's School Check, Heading to Route 116!)
 - **Active Party (4 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
   1. **Girasol (`Lv 15 Sunflora ♀`, `47/47 HP`, Healthy, `ORAN BERRY`):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]` (`38 SpA / 34 SpD`, `Chlorophyll`).
   2. **Calavera (`Lv 14 Cubone ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`33 Def`, `Lightningrod`).
@@ -20,12 +20,9 @@
   4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of wild/optional trainer EXP until Roxanne!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥4,640` (after Rustboro Poké Mart haul)
-  - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Non-Refilling Stock:** **`HM01 (Cut)`**, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x91`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Rustboro City & Pre-Roxanne Plan:**
-  1. **HM01 Cut** obtained (`Turn 498`) and `Girasol`'s `Oran Berry` re-equipped (`Turn 495`); outer Team Magma Grunts confirmed to be harmless wandering town NPCs (`Turn 500`), and `(31..33, 30..32)` behind Trainer's School verified to be decorative lawn + flowers rather than wild grass (`Turn 506`).
-  2. Check `(30, 28)` house (trade/gift house north of Trainer's School), then step into **Pokémon Trainer's School** `(27, 34)` and talk to the Teacher at **`(5, 2)`** (`stand at (4, 2) facing Right`) for `Quick Claw`, plus check Rustboro Apartments.
-  3. **Two Guaranteed Pre-Roxanne Route/Cave Encounters Available:**
-     - **Route 116**
-     - **Rusturf Tunnel**
-     *(Plus any custom Gift Pokémon in `RUSTBORO CITY` since Rustboro has no grass/water! Keep `Lv 16 Matcha` out of non-boss EXP so she never hits `Lv 17` before Roxanne!)*
+  1. **Checked in Rustboro so far:** Poké Mart (`Turn 488`), Pokémon Center (`Turn 494`), Cutter's House (`HM01 Cut`, `Turn 498`), `(30, 28)` house (`flavor dialogue only`, `Turn 508`), and `(31..33, 30..32)` lawn (`decorative, non-wild`, `Turn 506`).
+  2. Test Teacher across desk `(5, 4)` from `(5, 5)` + Scott at `(0, 9)` inside Pokémon Trainer's School (`direct side-talk at (4, 3) -> (5, 3) had no script`), exit to `(27, 35)`, check `(33, 19)` house / Rustboro Apartments on the way north, and head east onto **Route 116**!
+  3. **Two Pre-Roxanne Route/Cave Encounters Ahead:** **Route 116** and **Rusturf Tunnel** *(keep `Lv 16 Matcha` out of non-boss EXP!)*.
