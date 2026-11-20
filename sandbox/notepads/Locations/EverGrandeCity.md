@@ -86,8 +86,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 48: DEFEATED! (Protect Turns 1 & 3, burned Phoebe's Full Restore #1, Curse inflicted; finished by Sage's Bullet Seed Turn 25055).
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Opponents Defeated: Dusclops Lv 48, Dusclops Lv 51 (Ace).
-  - Active Opponent: Banette Lv 49 (Critical yellow/red HP ~25%). Shadow Ball knocked out Sage at 24 HP; Cipher sent out Turn 25066.
-  - Active Plan: Opening Bag to use priority Revive on Sage (108 HP). Revived Sage returns clean to finish Banette and sweep Sableye Lv 50 and Banette #2!
+  - Active Opponent: Banette Lv 49 (Critical yellow/red HP ~25%). Cipher fainted Turn 25070; Lilz sent out Turn 25071.
+  - Active Plan: Lilz opening Bag to use priority Revive on Sage (108 HP). Revived Sage returns clean to finish Banette and sweep Sableye Lv 50 and Banette #2!
   - Phoebe Remaining: 3 Pokémon (Banette Lv 49 ~25% HP, Sableye Lv 50, Banette Lv 49).
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
