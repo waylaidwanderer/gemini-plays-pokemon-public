@@ -24,12 +24,12 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x0 (last used on Sage Turn 24863)
+- Hyper Potion x2 (purchased Turn 24993/24994 at League Mart)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x0 (all consumed in prior run; purchasing 5 at Mart Turn 24991)
+- Revive x5 (purchased Turn 24991 at League Mart)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -46,7 +46,7 @@
 - Ultra Ball x10 (purchased at Lilycove Dept Store 2F)
 - Premier Ball x2 (1 Oldale bonus, 1 Lilycove Dept Store bonus)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥10,999 (verified at Mart Turn 24989 after whiteout)
+- Money: ¥1,099 (verified after purchasing 5 Revives & 2 Hyper Potions Turn 24994)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
