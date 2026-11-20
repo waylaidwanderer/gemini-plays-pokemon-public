@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: GLACIA DEFEATED! Rooms 1, 2, and 3 cleared! Sage Lv 71 (94/214 HP). 4 Hyper Potions, 8 Revives, 5 Full Heals. Cash: ~¥16,499. Advancing to Drake in Room 4!
+- Status: Rooms 1, 2, 3 cleared! Sage Lv 71 healed to full (214/214 HP). 3 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499. Preparing moves/TMs and advancing to Drake in Room 4!
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 94/214. Max HP: 214. Moves: Rock Tomb (3/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 214/214. Max HP: 214. Moves: Rock Tomb (3/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 25/49. Max HP: 49. Status: OK. (Revived, grew to Lv 18!).
@@ -24,12 +24,12 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x4 (4 used during Glacia battle, 1 on Turn 24621)
+- Hyper Potion x3 (1 used on Sage Turn 24795)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x8 (verified on Turn 24776 screen: 8 Revives in Bag)
+- Revive x7 (verified on Turn 24795 screen: 7 Revives in Bag)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
