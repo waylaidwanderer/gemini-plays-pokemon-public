@@ -80,7 +80,9 @@
 - **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` + `Lv 7 Snubbull` on Route 104 North *(Turns 403, 405, 409)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
-- **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
+- **Early Evolution Stones on Wild Pokémon & Custom In-Game Trades:**
+  - Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
+  - **Rustboro City `(33, 19)` House Trade (`(6, 4)` Elderly Woman):** Offers **`MOLTRES` in exchange for `SHEDINJA`** *(Verified Turn 514 `#22`: `"I'll trade you my MOLTRES for a SHEDINJA if you want."`)*! If we roll a legal `Nincada` encounter (e.g. on Route 116), evolving at `Lv 20` with an open party slot + Poké Ball yields `Shedinja`!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`; `Lv 14` no move; `Lv 15` no move, **Lv 15 stats: `47 HP / 24 Atk / 22 Def / 38 SpA / 34 SpD / 17 Spe`** — verified Turn 482 `#48`).
@@ -153,6 +155,7 @@
 # Scratchpad — Active Leads & Live Tactical Routing
 
 ## Active Exploration & Future Encounter Leads
+- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch closely for `Nincada` on **Route 116**!
 - **Pretty Petal Flower Shop Gated (`(5, 18)` on Route 104 North):** The `TM09 Bullet Seed` boy stands stationary at `(5, 19)` blocking the Flower Shop door *(verified across 105s Turn 412 `#01–#126`)*—re-check right after earning the Stone Badge in case custom Berries/items are sold inside!
 - **Post-Roxanne `HM01 Cut` Return Targets:**
   - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.

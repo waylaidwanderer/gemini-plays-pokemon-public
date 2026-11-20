@@ -1,6 +1,7 @@
 # Scratchpad — Active Leads & Live Tactical Routing
 
 ## Active Exploration & Future Encounter Leads
+- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch closely for `Nincada` on **Route 116**!
 - **Pretty Petal Flower Shop Gated (`(5, 18)` on Route 104 North):** The `TM09 Bullet Seed` boy stands stationary at `(5, 19)` blocking the Flower Shop door *(verified across 105s Turn 412 `#01–#126`)*—re-check right after earning the Stone Badge in case custom Berries/items are sold inside!
 - **Post-Roxanne `HM01 Cut` Return Targets:**
   - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.
