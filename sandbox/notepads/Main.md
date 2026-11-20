@@ -9,7 +9,7 @@
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 94/214. Max HP: 214. Moves: Rock Tomb (3/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
-4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 23/47. Max HP: 47. Status: OK. (Revived!).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 25/49. Max HP: 49. Status: OK. (Revived, grew to Lv 18!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK.
 ## Bag Highlights
