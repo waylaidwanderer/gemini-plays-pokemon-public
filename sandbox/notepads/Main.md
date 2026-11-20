@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Sidney and Phoebe DEFEATED! Rooms 1 & 2 cleared! Sage Lv 70 (211/211 HP). 8 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ~¥11,199. Inside Room 3 to sweep Glacia (Ice)!
+- Status: Glacia's final Pokémon (Glalie Lv 52) is in red HP! Reviving Sage Lv 71 (Max HP 214) to finish Glacia and unlock Drake in Room 4! 4 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ~¥11,199.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 70) - Lead! HP: 211/211. Max HP: 211. Moves: Rock Tomb (10/10), Earthquake (5/10), Leaf Blade (0/24), Quick Attack (28/30). Stats: Atk 157, Def 114, SpA 171, SpD 154, Spe 207. Status: OK. Ready to sweep!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 0/214 (Reviving now!). Max HP: 214. Moves: Rock Tomb, Earthquake, Leaf Blade, Quick Attack. Status: FNT -> Revived. Ready to sweep!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
