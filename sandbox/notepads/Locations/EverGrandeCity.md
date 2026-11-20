@@ -85,12 +85,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Phoebe Conquered: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette #1 Lv 49, Sableye Lv 50, and Banette #2 Lv 49 all DEFEATED! Sage finished at 159/211 HP. Earned ¥5,100 prize money (total cash: ¥11,199). Northern door unlocked and open!
 - Elite Four Glacia Battle Mechanics (Turns 24699-24791): Glacia DEFEATED! Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. Sage reached Lv 71 (Max HP 214, 94 HP). Cobalu reached Lv 18 (25/49 HP). Prize: ¥5,300 (total cash: ¥16,499). Northern door unlocked and open!
 - Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
-## Champion Wallace Battle Notes (Turn 24958+)
-- Champion Wallace (Water): ACTIVE BATTLE!
-  1. Wailord Lv 57 (Water) - DEFEATED Turn 24962 by Bullet Seed!
-  2. Milotic Lv 58 (Water, Ace) - DEFEATED Turn 24977 by Bullet Seed! Wallace's ace is conquered!
-  3. Tentacruel Lv 55 (Water/Poison) - In reserve. Counter: Facade (70/140 physical).
-  4. Ludicolo Lv 56 (Water/Grass) - In reserve. Counter: Aerial Ace (2x super effective, never misses).
-  5. Whiscash Lv 56 (Water/Ground) - In reserve. Counter: Bullet Seed (4x super effective).
-  6. Gyarados Lv 56 (Water/Flying) - In reserve. Counter: Facade / Quick Attack.
-- Party Status: SAGE Lv 72 lead (108/217 HP, 213 Speed, Bullet Seed 25/30, Aerial Ace 7/20, Facade 20/20, Quick Attack 17/30). Reserves: MOCHI Lv 11 (0/42 HP, FNT), GUAVA Lv 30 (50/101 HP, OK). Bag: 0 Revives, 5 Full Heals.
+## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
+- Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
+- Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
