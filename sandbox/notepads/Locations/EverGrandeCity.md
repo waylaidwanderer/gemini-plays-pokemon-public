@@ -84,8 +84,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Move Strategy: Bullet Seed has 0 PP (drained by Spite). Glacia's Ice and Water types take 1.0x neutral physical damage from Facade (70 BP, 18 PP), Aerial Ace (60 BP, 10 PP), and Quick Attack (40 BP +1 priority, 28 PP). SAGE Lv 73 (215 Speed) outspeeds Glacia's entire team (fastest Glalie ~100 Speed).
   - Party Resource State: SAGE (52/220 HP, Overgrow Active), Guava (101/101 HP), Mochi (42/42 HP). 1 Revive remaining. Use Guava/Mochi to execute priority Revive if Sage faints.
   - Sealeo Lv 50 (Lead): DEFEATED! (KO'd by second Facade Turn 25122).
-  - Opponent #2: Sealeo Lv 52: Weakened to ~20% HP. Blizzard knocked out Guava Turn 25136. SAGE (110/220 HP, 215 Speed) entering to finish Sealeo and sweep Glacia!
-  - Glacia Remaining: 4 Pokémon (Sealeo 52, Glalie 50, Glalie 52, Walrein 53).
+  - Sealeo Lv 52: DEFEATED! (Weakened by Facade & Razor Leaf; finished by Facade Turn 25139).
+  - Opponent #3: Glalie Lv 50 (Inner Focus, pure Ice, Def 80, HP 135). SAGE Lv 73 (215 Speed, 110 HP) moves first with Facade (70 BP)!
+  - Glacia Remaining: 3 Pokémon (Glalie 50, Glalie 52, Walrein 53).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
