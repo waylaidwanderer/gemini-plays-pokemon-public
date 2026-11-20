@@ -5067,7 +5067,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Glacia's final Pokémon (Glalie Lv 52) is in red HP! Reviving Sage Lv 71 (Max HP 214) to finish Glacia and unlock Drake in Room 4! 4 Hyper Potions, 11 Revives, 5 Full Heals. Cash: ~¥11,199.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (5/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (27/30). Status: OK. Ready to sweep!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (4/10), Earthquake (0/10), Leaf Blade (0/24), Quick Attack (27/30). Status: OK. Ready to sweep!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 17) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 47/47. Max HP: 47. Status: OK.
