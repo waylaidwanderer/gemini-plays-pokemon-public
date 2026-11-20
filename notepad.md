@@ -395,8 +395,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (Ace): DEFEATED!
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
-  - Sableye Lv 50: DEFEATED! (KO'd by second Aerial Ace Turn 25087).
-  - Phoebe Final Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Psychic). SAGE Lv 72 (213 Speed, 72 HP, Overgrow ACTIVE) moves first to sweep with Aerial Ace!
+  - Sableye Lv 50: Phoebe consumed Full Restore #2 on Turn 25088 (Phoebe has 0 Full Restores remaining!). Sage's queued Aerial Ace strikes Sableye back to ~25% HP.
+  - SAGE on field at 22 HP (Overgrow Active, 213 Speed); finishes Sableye next turn with Aerial Ace.
+  - Phoebe Remaining: 2 Pokémon (Sableye Lv 50, second Banette Lv 49).
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5071,7 +5072,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, and Banette Lv 49 DEFEATED! Sableye Lv 50 in critical red HP (~15%). SAGE on field at 22 HP (Overgrow Active). Phoebe has 2 Pokémon remaining (Sableye Lv 50, Banette Lv 49). Revives: 2. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49 DEFEATED! Phoebe burned Full Restore #2 on Sableye (0 Full Restores left!). Sage queued Aerial Ace deals ~70% damage. Revives: 2. Cash: ¥5,999.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 22/217. Max HP: 217. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (14/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (22 HP). Level 72!
