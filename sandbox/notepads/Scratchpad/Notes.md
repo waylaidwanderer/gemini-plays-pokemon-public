@@ -10,7 +10,6 @@
   - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.
   - **Petalburg Woods Cut Ledge (`(19, 10..11)`):** Two `Cut` trees right below the North Exit gate the eastern upper ledge (`Miracle Seed` NPC + `(32, 30)` item ball — verified Turn 395).
 - **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*. Both wandering **Team Magma Grunts** (`(13, 35)` & `(22, 35)`, *Turns 490, 500*) and a wandering **Team Aqua Grunt** (`near Rustboro Apartments at (20, 27)`, *Turn 512*) were spotted roaming Rustboro City as non-hostile NPCs pre-Gym—anticipate custom Magma and Aqua boss fights in Rusturf Tunnel / post-Gym Rustboro!
-- **Pending Summary Check:** Inspect `Matcha`'s `Yawn` move description next time Summary is open to confirm accuracy/text of the instant-sleep buff.
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects via later routes/Surf.
 - **Unused Town Water Ponds (Save for Rod / Surf Encounters):**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.

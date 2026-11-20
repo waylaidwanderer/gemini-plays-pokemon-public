@@ -113,7 +113,7 @@
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
 - **No AI Sleep Clause, Instant `Yawn` Buff & Gen 3 `Spore` Counterplay:**
-  - **`Yawn` Buffed to Instant Sleep:** Enemy `Lv 9 Squirtle`'s `Yawn` put `Girasol` to sleep **immediately on the same turn** rather than at the end of the next turn *(Verified Turn 464 `#59–#65`)*.
+  - **`Yawn` Buffed to Instant Sleep (Player & Enemy!):** Both enemy `Lv 9 Squirtle`'s `Yawn` *(Turn 464 `#59–#65`)* and our own **`Matcha`'s `Yawn` (`10 PP`, Normal-type)** *(Verified Turn 566 `#76–#84` vs `Lv 10 Phanpy`)* put the target to sleep **immediately on the same turn** rather than at the end of the next turn!
   - Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Turn 272)*, and Grass-types are NOT immune to `Spore`/`Sleep Powder` in Gen 3. Against a slower `Spore`/`Yawn` user (`Lv 9 Paras`, `Lv 9 Squirtle`), staying in with a faster `Oran Berry` holder lets you wake up, move first, and KO before it can re-sleep a switch-in *(Verified Turns 353–356 & 465)*.
 
 <hr>
@@ -169,7 +169,6 @@
   - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.
   - **Petalburg Woods Cut Ledge (`(19, 10..11)`):** Two `Cut` trees right below the North Exit gate the eastern upper ledge (`Miracle Seed` NPC + `(32, 30)` item ball — verified Turn 395).
 - **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*. Both wandering **Team Magma Grunts** (`(13, 35)` & `(22, 35)`, *Turns 490, 500*) and a wandering **Team Aqua Grunt** (`near Rustboro Apartments at (20, 27)`, *Turn 512*) were spotted roaming Rustboro City as non-hostile NPCs pre-Gym—anticipate custom Magma and Aqua boss fights in Rusturf Tunnel / post-Gym Rustboro!
-- **Pending Summary Check:** Inspect `Matcha`'s `Yawn` move description next time Summary is open to confirm accuracy/text of the instant-sleep buff.
 - **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects via later routes/Surf.
 - **Unused Town Water Ponds (Save for Rod / Surf Encounters):**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
