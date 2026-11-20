@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 DEFEATED! Sealeo Lv 52 at ~40% HP. SAGE revitalized to 110 HP via Guava! Remaining Revives: 0. Cash: ¥11,099.
+- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 DEFEATED! Sealeo Lv 52 at ~20% HP. Guava fainted to Blizzard; SAGE (110/220 HP, 215 Speed) entering to sweep remaining team! Remaining Revives: 0. Cash: ¥11,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (12/20), Quick Attack (28/30). Status: Revived (110 HP). Level 73!
@@ -11,7 +11,7 @@
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (23/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 95/101. Max HP: 101. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (23/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Max HP: 101. Status: FNT (Fainted to Blizzard Turn 25136 after executing Revive on Sage).
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
