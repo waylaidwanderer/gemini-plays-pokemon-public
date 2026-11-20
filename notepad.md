@@ -87,7 +87,7 @@
   - **Rustboro City `(33, 19)` House Trade (`(6, 4)` Elderly Woman):** Offers **`MOLTRES` in exchange for `SHEDINJA`** *(Verified Turn 514 `#22`: `"I'll trade you my MOLTRES for a SHEDINJA if you want."`)*! If we roll a legal `Nincada` encounter (e.g. on Route 116), evolving at `Lv 20` with an open party slot + Poké Ball yields `Shedinja`!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 ## Verified Party Learnsets (Early Squad)
-- **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`; `Lv 14` no move; `Lv 15` no move, **Lv 15 stats: `47 HP / 24 Atk / 22 Def / 38 SpA / 34 SpD / 17 Spe`** — verified Turn 482 `#48`).
+- **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`; `Lv 14` no move; `Lv 15` no move, `47 HP / 24 Atk / 22 Def / 38 SpA / 34 SpD / 17 Spe` — Turn 482 `#48`) -> **`Lv 16 Synthesis` (buffed early in-battle 50% recovery! Lv 16 stats: `50 HP / 26 Atk / 23 Def / 41 SpA / 36 SpD / 18 Spe` — verified Turn 545 `#70–#75`)**.
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** -> `Lv 15` *(no move; Lv 15 stats: `50 HP / 19 Atk / 22 Def / 20 SpA / 21 SpD / 18 Spe` — verified Turn 345)* -> `Lv 16` *(no move; Lv 16 stats: `53 HP / 20 Atk / 23 Def / 21 SpA / 22 SpD / 19 Spe` — verified Turn 461 `#70`)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** -> `Lv 14` *(no move; Lv 14 stats: `39 HP / 19 Atk / 33 Def / 17 SpA / 21 SpD / 18 Spe` — verified Turn 440 `#71`)* -> `Lv 15` *(no move; Lv 15 stats: `41 HP / 20 Atk / 35 Def / 18 SpA / 23 SpD / 19 Spe` — verified Turn 530 `#128`)*.
 - **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (20 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** -> `Lv 14–15` *(no moves; Lv 15 Relaxed stats: `44 HP / 32 Atk / 22 Def / 20 SpA / 23 SpD / 16 Spe` — verified Turn 386 `#59`)*.
@@ -176,15 +176,15 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 539 — Bird Keeper Johnson Cleared at (15, 6), Crossing Route 116 [98 Repel Steps Left]!)
+## Live Tactical State (Turn 546 — Hiker Devan Cleared at (14, 7), Swapping Calavera to Lead [96 Repel Steps]!)
 - **Active Party (5 Slots — Cap = Lv 16 [AT CAP] — Roxanne | Deaths = 1 [Bayou in BOX 14]):**
-  1. **Girasol (`Lv 15 Sunflora ♀`, `47/47 HP`, Healthy, `ORAN BERRY`):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]` (`38 SpA / 34 SpD`, `Chlorophyll`).
-  2. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`35 Def!`, `Lightningrod`).
+  1. **Calavera (`Lv 15 Cubone ♂`, Lead [0% EXP to Lv 16!], `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`35 Def!`, `Lightningrod`).
+  2. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~5% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [18/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [9/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`, `Chlorophyll`).
   3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
   4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of non-boss EXP!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
   5. **Joule (`Lv 14 Voltorb`, `32/36 HP`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [17/20 PP]` (`34 Spe!`, `Static`, Bashful).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥4,928` (after Bird Keeper Johnson `¥288`)
+  - **Cash:** `¥5,288` (after Hiker Devan `¥360`)
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(1 active!)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Next Steps on Route 116:**
