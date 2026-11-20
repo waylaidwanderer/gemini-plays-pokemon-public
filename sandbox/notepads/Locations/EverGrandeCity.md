@@ -88,7 +88,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Champion Wallace Battle Notes (Turn 24958+)
 - Champion Wallace (Water): ACTIVE BATTLE!
   1. Wailord Lv 57 (Water) - DEFEATED Turn 24962 by Bullet Seed!
-  2. Milotic Lv 58 (Water, Ace) - In deep red HP (~5%), fainting to Bullet Seed!
+  2. Milotic Lv 58 (Water, Ace) - DEFEATED Turn 24977 by Bullet Seed! Wallace's ace is conquered!
   3. Tentacruel Lv 55 (Water/Poison) - In reserve. Counter: Facade (70/140 physical).
   4. Ludicolo Lv 56 (Water/Grass) - In reserve. Counter: Aerial Ace (2x super effective, never misses).
   5. Whiscash Lv 56 (Water/Ground) - In reserve. Counter: Bullet Seed (4x super effective).
