@@ -21,6 +21,6 @@
   - **Cash:** `¥4,434+`
   - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(17, 24)` on Route 104 North:**
-  1. Cross Route 104 North's wooden bridge into **Rustboro City**, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing Matcha's `BRN` & restoring all PP), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
+- **Immediate Next Steps at `(21, 24)` on Route 104 North:**
+  1. Finish Rich Boy Winston (`¥1,400+` payout), cross Route 104 North's wooden bridge into **Rustboro City**, enter **Rustboro Pokémon Center**, heal at Nurse Joy (curing Matcha's `BRN` & restoring all PP), and **immediately deposit deceased Bayou (`Slot 3`) into the PC Graveyard Box**!
   2. Explore Rustboro City (`Poké Mart`, `Cutter's House` for `HM01 Cut`, `Trainer's School` for `Quick Claw`, apartments) and capture new encounters on **Route 116** and **Rusturf Tunnel** before challenging Roxanne (`Cap = Lv 16`).
