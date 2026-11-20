@@ -5071,10 +5071,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon, Flygon, Altaria DEFEATED! Hyper Potion used on Sage (restored to 214 HP)! Sage battling Drake's ace Salamence Lv 55 in Room 4! Ready to strike with Rock Tomb. 0 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Shelgon, Flygon, Altaria DEFEATED! Drake's ace Salamence Lv 55 active. Sage at 111/214 HP (BRN). Opening Bag to cure Burn with Burn Heal! 7 Revives, 5 Full Heals, 1 Burn Heal. Cash: ¥16,499.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 214/214. Max HP: 214. Moves: Rock Tomb (2/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (20/30). Status: OK. Ready to sweep Drake!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 111/214. Max HP: 214. Moves: Rock Tomb (2/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (20/30). Status: BRN. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
