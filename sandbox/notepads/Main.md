@@ -20,7 +20,7 @@
 - Dire Hit x0 (picked up at 30, 69 on Route 110, used Turn 23188)
 - Elixir x0 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
-- Protein x1 (found at 11, 37 behind smashable rock on Route 114)
+- Protein x0 (verified absent Turn 24949)
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
