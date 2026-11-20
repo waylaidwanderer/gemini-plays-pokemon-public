@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Elite Four Sidney active! Mightyena & Absol DEFEATED! Shiftry Lv 48 weakened to ~45% HP; Sage Lv 72 (32/217 HP, 213 Speed) launching finishing Aerial Ace to KO Shiftry! 5 Revives, 2 Hyper Potions. Cash: ¥1,099.
+- Status: Elite Four Sidney active! Mightyena, Absol & Shiftry DEFEATED! Sidney down to 2 Pokémon (Cacturne, Crawdaunt). Sage Lv 72 (32/217 HP, Overgrow Active, 213 Speed) sweeping remaining Pokémon! 5 Revives, 2 Hyper Potions. Cash: ¥1,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 32/217. Max HP: 217. Moves: Bullet Seed (26/30), Aerial Ace (18/20), Facade (18/20), Quick Attack (29/30). Status: OK (Overgrow Active!). Level 72!
