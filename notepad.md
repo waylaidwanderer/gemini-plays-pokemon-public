@@ -396,8 +396,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
   - Sableye Lv 50: DEFEATED! (KO'd by Aerial Ace Turn 25100). SAGE leveled to Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215)!
-  - Phoebe Final Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Psychic). SAGE Lv 73 (215 Speed, 111 HP) moves first to sweep with Aerial Ace!
-  - Phoebe Remaining: 1 Pokémon (final Banette Lv 49).
+  - Phoebe Final Opponent: Banette Lv 49: Reduced to ~35% HP by first Aerial Ace; finished by second Aerial Ace Turn 25106!
+  - Elite Four Phoebe Conquered (Attempt 2, Turn 25106): Dusclops 48, Dusclops 51, Banette 49, Sableye 50, Banette 49 all DEFEATED! Earned ¥5,100 prize money (Total cash: ¥11,099). Northern door to Room 3 (Glacia) unlocked!
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5072,10 +5072,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50 DEFEATED! SAGE on field at Lv 73 (111/220 HP, 215 Speed). Phoebe down to 1 final Pokémon (Banette Lv 49). Remaining Revives: 1. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Final Banette Lv 49 in red HP (~35%); SAGE Lv 73 surviving Shadow Ball and executing final Aerial Ace to win the battle! Remaining Revives: 1. Cash: ¥5,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 111/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (11/20), Facade (18/20), Quick Attack (28/30). Status: OK (111 HP). Level 73!
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 38/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (18/20), Quick Attack (28/30). Status: Overgrow Active! (~38 HP). Level 73!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).

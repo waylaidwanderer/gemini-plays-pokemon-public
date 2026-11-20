@@ -86,8 +86,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz) has 100% turn start priority and completely purges Curse, restoring Sage to 108 HP clean!
   - Banette Lv 49: DEFEATED! (Spite drained Bullet Seed PP to 0; KO'd Turn 25082).
   - Sableye Lv 50: DEFEATED! (KO'd by Aerial Ace Turn 25100). SAGE leveled to Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215)!
-  - Phoebe Final Opponent: Banette Lv 49 (Insomnia, moves: Spite, Will-O-Wisp, Shadow Ball, Psychic). SAGE Lv 73 (215 Speed, 111 HP) moves first to sweep with Aerial Ace!
-  - Phoebe Remaining: 1 Pokémon (final Banette Lv 49).
+  - Phoebe Final Opponent: Banette Lv 49: Reduced to ~35% HP by first Aerial Ace; finished by second Aerial Ace Turn 25106!
+  - Elite Four Phoebe Conquered (Attempt 2, Turn 25106): Dusclops 48, Dusclops 51, Banette 49, Sableye 50, Banette 49 all DEFEATED! Earned ¥5,100 prize money (Total cash: ¥11,099). Northern door to Room 3 (Glacia) unlocked!
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
