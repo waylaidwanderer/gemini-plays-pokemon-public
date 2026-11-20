@@ -5077,7 +5077,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: CHAMPION WALLACE BATTLE ACTIVE! Wailord DEFEATED! Wallace burned Full Restore on Milotic; Sage Overgrow Bullet Seed punished the heal! Sage Lv 72 at 30/217 HP (Overgrow Active, 213 Speed) firing next Bullet Seed to finish Milotic! Guava (50 HP) in reserve. Cash: ¥21,999.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 30/217. Max HP: 217. Moves: Bullet Seed (24/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK (Overgrow Active!). Level 72!
+1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 30/217. Max HP: 217. Moves: Bullet Seed (23/30), Aerial Ace (7/20), Facade (20/20), Quick Attack (17/30). Status: OK (Overgrow Active!). Level 72!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
