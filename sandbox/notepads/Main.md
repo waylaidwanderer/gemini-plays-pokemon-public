@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 in critical red HP (~20%); Phoebe consumed Full Restore #1; Sage fainted to Curse and is revived by active battler Lilz with turn-priority Revive! Remaining Revives: 4. Cash: ¥5,999.
+- Status: ELITE FOUR PHOEBE BATTLE IN PROGRESS (Room 2). Dusclops Lv 48 & Dusclops Lv 51 (Ace) DEFEATED! Banette Lv 49 at ~25% red HP. Active battler Cipher using priority Revive on Sage. Remaining Revives: 4. Cash: ¥5,999.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 72) - Lead! HP: 0/217. Max HP: 217. Moves: Bullet Seed (5/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (28/30). Status: FNT (Banette reduced to ~15% red HP; revives next turn via Cipher). Level 72!
