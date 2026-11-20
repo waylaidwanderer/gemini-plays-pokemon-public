@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: ¥4,900.
 - Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: ¥5,100.
 - Elite Four Member #3 Glacia (Ice): Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. DEFEATED Turn 24785! Earned ¥5,300 prize money (total cash: ~¥16,499). Northern door unlocked and open!
-- Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24342! Earned ¥5,500. Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53 all defeated by Sage! Sage reached Lv 68. Door to Champion Wallace unlocked!
+- Elite Four Member #4 Drake (Dragon): Active in Room 4! (Prior run Turn 24342 defeated, but whited out at Wallace). Current run: Shelgon Lv 52 defeated Turn 24838. Drake has 4 Pokémon left (Flygon Lv 53 active, Altaria, Salamence, Kingdra) and 1 Full Restore remaining.
 
 ## League Lobby & Elite Four Re-entry Protocol (Turn 24123)
 - Whiteout Respawn: Whiting out in the Elite Four respawns the player outside the League entrance at (18, 6). Stepping North re-enters the lobby at (9, 11). Entire party is 100% restored (HP/PP).
