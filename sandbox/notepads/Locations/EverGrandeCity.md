@@ -70,11 +70,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Gate Access: The central badge-check guards remain permanently stepped aside at (8, 2) and (11, 2) after the initial inspection, allowing unimpeded entry into the Elite Four staircase at (9, 1).
 - Grand Staircase: Halls between lobby and Elite Four chambers are straight vertical stairways (col 5). Walking North directly enters the next chamber.
 
-## Elite Four Drake Defeat & Battle Routing Discoveries (Turn 24349)
-- Drake Conquered: All 5 Dragon Pokémon defeated (Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, Kingdra Lv 53). Reward: ¥5,500. ALL 4 ELITE FOUR MEMBERS DEFEATED! Northern door in Room 4 unlocked and open.
+## Elite Four Battle Routing Discoveries
 - In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKéMON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKéMON.
 - In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before Pokémon moves execute.
-- Champion Wallace Preparation: Equipping Sage Lv 68 with TM26 Earthquake (100 Power Ground physical, counters Tentacruel and deals massive physical damage) and TM40 Aerial Ace (60 Power Flying physical, never misses, counters Ludicolo through Double Team).
 
 ## Elite Four Final Run & Restock Discoveries (Turn 24560+)
 - Mart Restocking: Sold Carbos x2 (¥9,800), Zinc x2 (¥9,800), and Stardust x1 (¥1,000) for ¥20,600 total. Purchased 10 Revives (¥15,000) and 10 Hyper Potions (¥12,000). Bag stock: 11 Revives, 10 Hyper Potions, 5 Full Heals, 1 Burn Heal, Quick Claw. Remaining cash: ¥1,199.
