@@ -10,11 +10,11 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Route 102 Trainers:** `(18, 11)` and `(38, 4)` available if extra EXP/money is ever needed.
 
-## Live Tactical State (Turn 397 — Cheri Berry x99 Unlocked on Route 104 North!)
+## Live Tactical State (Turn 421 — Finishing Rich Boy Winston at (21, 24) on Route 104 North!)
 - **Party Status (Cap = Lv 16 — Roxanne | Deaths = 1):**
-  1. **Girasol (`Lv 13 Sunflora ♀`, Lead, `42/42 HP`, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]` (`Chlorophyll`).
-  2. **Calavera (`Lv 13 Cubone ♂`, Slot 2, `37/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [19/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
-  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [Deposit in PC Graveyard Box immediately at Rustboro Pokémon Center!]).**
+  1. **Girasol (`Lv 14 Sunflora ♀`, Lead, Full HP, Healthy, `ORAN BERRY`):** `Absorb [19/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [6/10 PP]` (`Chlorophyll`).
+  2. **Calavera (`Lv 13 Cubone ♂`, Slot 2 [Active in battle], `31/37 HP`, Healthy, `ORAN BERRY`):** `Bone Club [18/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`31 Def!` `Lightningrod`, Quirky).
+  3. **Bayou (`Lv 13 Mudkip ♂`, `0/36 HP` — `DECEASED` [MANDATORY: Deposit in PC Graveyard Box immediately upon entering Rustboro Pokémon Center!]).**
   4. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [28/35 PP]`, `Lick`, `Faint Attack [18/20 PP]`, `Refresh` (`32 Atk`, `Guts`, Relaxed `+Def/-Spe`).
   5. **Matcha (`Lv 15 Gulpin ♀`, `50/50 HP`, `BRN`, `ORAN BERRY`):** `Acid [29/30 PP]`, `Yawn [9/10 PP]`, `Fire Punch [10/15 PP]`, `Sludge Bomb [13/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**

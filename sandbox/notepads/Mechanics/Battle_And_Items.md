@@ -9,13 +9,8 @@
 ## Early ROM Hack Difficulty Signals
 - **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
 - **Buffed Wild Movesets/Stats:** Even the tutorial Lv 2 Zigzagoon on Route 101 knows `Swift` + `Sand-Attack` and takes 5–6 Tackles from Lv 5 Mudkip *(Verified Turns 44–49)*.
-## Verified Starter Learnset (Mudkip)
-- **Lv 5:** `Tackle` only (no `Growl`)
-- **Lv 6:** `Bubble` *(Verified Turn 65, `#80` — non-vanilla level-up move)*
-- **Lv 7:** `Mud Sport` *(Verified Turn 66, `#78`)*
-- **Lv 8–9:** *(No moves learned)*
-- **Lv 10:** `Water Gun` *(Verified Turn 67, `#48`; current 4 moves: `Tackle`, `Bubble`, `Mud Sport`, `Water Gun`)*
-- **Lv 11–13:** *(No moves learned — verified Turns 84–86; Lv 13 stats: `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe`)*
+## Verified Starter Learnset (Mudkip — Archived, Deceased Turn 380)
+- `Lv 5 Tackle` (no `Growl`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–13` *(no moves; Lv 13 Naive stats: `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe` — verified Turns 44–86)*.
 
 ## Early Shop Inventories
 - **Oldale Poké Mart:**
@@ -26,12 +21,12 @@
 ## Early Boss / Rival Log & Wild Pool Clues
 - **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
 - **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
-- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` on Route 104 North *(Turns 403, 405)*—expect Gen 1–3 National Dex species in grass tables.
+- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` + `Lv 7 Snubbull` on Route 104 North *(Turns 403, 405, 409)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon:** Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
 ## Verified Party Learnsets (Early Squad)
-- **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`).
+- **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`; reached `Lv 14` Turn 419 with no new move).
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** -> `Lv 15` *(no move; Lv 15 stats: `50 HP / 19 Atk / 22 Def / 20 SpA / 21 SpD / 18 Spe` — verified Turn 345)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** *(Lv 13 stats: `37 HP / 18 Atk / 31 Def / 16 SpA / 20 SpD / 17 Spe` — verified Turn 241 `#19–#28`)*.
 - **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (20 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** -> `Lv 14–15` *(no moves; Lv 15 Relaxed stats: `44 HP / 32 Atk / 22 Def / 20 SpA / 23 SpD / 16 Spe` — verified Turn 386 `#59`)*.
@@ -46,7 +41,7 @@
   - **Bug Maniac Lyle** (`(13, 34)` in Petalburg Woods — upgraded from Bug Catcher): **3 Pokémon** — `#1 Lv 8 Spinarak ♂`, `#2 Lv 8 Venonat`, `#3 Lv 8 Ledyba ♂` (`¥576` payout, Turns 343–347).
   - **Bug Catcher James** (`(10, 24)` in Petalburg Woods): **3 Pokémon** — `#1 Lv 9 Paras ♂` (**`Spore` at Lv 9!**), `#2 Lv 8 Surskit ♂` (`Water Pulse`), `#3 Lv 9 Nincada ♂` (`Dig`) (`¥360` payout, Turns 352–362).
   - **Team Magma Grunt** (`(26, 23)` in Petalburg Woods — replaces vanilla Team Aqua!): **5 Pokémon** — `#1 Lv 8 Magnemite`, `#2 Lv 8 Koffing ♂` (`Smokescreen`, `Protect`, **`Thief` [permanently steals held item!]**, `Will-O-Wisp`), `#3 Lv 9 Houndour ♂` (`Ember`, **`Pursuit`**, `>19 Spe`!), `#4 Lv 8 Duskull ♂` (`Protect`), `#5 Lv 8 Bagon ♂` (`Headbutt`) (`¥768` payout + `Great Ball` from Devon Researcher; **Story Clue:** Grunt warned that rival **Team Aqua** is ALSO targeting something in Rustboro — expect both Magma and Aqua encounters around Rustboro/Devon/Rusturf Tunnel! Turns 367–388).
-  - **Rich Boy Winston** (`(21, 26)` on Route 104 North): **2 Pokémon** — `#1 Lv 8 Snubbull ♀` (`Intimidate`, `Metronome`), `#2 Lv 8 Growlithe ♂` (`Intimidate`, `Ember`) *(Turns 415–419)*.
+  - **Rich Boy Winston** (`(21, 26)` on Route 104 North): **3+ Pokémon** — `#1 Lv 8 Snubbull ♀` (`Intimidate`, `Metronome`), `#2 Lv 8 Growlithe ♂` (`Intimidate`, `Ember`), `#3 Lv 8 Electrike ♂` *(Turns 415–421)*.
 - **Widespread Enemy `Protect`:** Early trainers and bosses (`Sunkern`, `Koffing`, `Duskull`) frequently carry `Protect` to scout and stall PP *(Turns 190, 372, 382)*.
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
