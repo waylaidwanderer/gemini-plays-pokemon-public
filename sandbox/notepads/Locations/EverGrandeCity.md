@@ -87,10 +87,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
 ## Champion Wallace Battle Notes (Turn 24958+)
 - Champion Wallace (Water): ACTIVE BATTLE!
-  1. Wailord Lv 57 (Water) - Active! Weakened to deep yellow (~20-25% HP) by Bullet Seed.
-  2. Tentacruel Lv 55 (Water/Poison) - In reserve. Counter: Facade (70/140 physical).
-  3. Ludicolo Lv 56 (Water/Grass) - In reserve. Counter: Aerial Ace (2x super effective, never misses).
-  4. Whiscash Lv 56 (Water/Ground) - In reserve. Counter: Bullet Seed (4x super effective).
-  5. Gyarados Lv 56 (Water/Flying) - In reserve. Counter: Facade / Quick Attack.
-  6. Milotic Lv 58 (Water, Ace) - In reserve. Counter: Bullet Seed / Facade / Quick Attack.
-- Party Status: SAGE Lv 71 lead (107/214 HP, Bullet Seed 29/30, Aerial Ace 7/20, Facade 20/20, Quick Attack 17/30). Reserves: MOCHI Lv 11 (21/42 HP, OK), GUAVA Lv 30 (50/101 HP, OK). Bag: 1 Revive, 5 Full Heals.
+  1. Wailord Lv 57 (Water) - DEFEATED Turn 24962 by Bullet Seed!
+  2. Milotic Lv 58 (Water, Ace) - ACTIVE! SAGE outspeeds (213 vs 110 Speed). Counter: Bullet Seed / Facade.
+  3. Tentacruel Lv 55 (Water/Poison) - In reserve. Counter: Facade (70/140 physical).
+  4. Ludicolo Lv 56 (Water/Grass) - In reserve. Counter: Aerial Ace (2x super effective, never misses).
+  5. Whiscash Lv 56 (Water/Ground) - In reserve. Counter: Bullet Seed (4x super effective).
+  6. Gyarados Lv 56 (Water/Flying) - In reserve. Counter: Facade / Quick Attack.
+- Party Status: SAGE Lv 72 lead (110/217 HP, 213 Speed, Bullet Seed 28/30, Aerial Ace 7/20, Facade 20/20, Quick Attack 17/30). Reserves: MOCHI Lv 11 (21/42 HP, OK), GUAVA Lv 30 (50/101 HP, OK). Bag: 1 Revive, 5 Full Heals.
