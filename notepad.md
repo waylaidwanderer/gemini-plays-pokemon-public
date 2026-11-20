@@ -91,7 +91,7 @@
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** -> `Lv 15` *(no move; Lv 15 stats: `50 HP / 19 Atk / 22 Def / 20 SpA / 21 SpD / 18 Spe` — verified Turn 345)* -> `Lv 16` *(no move; Lv 16 stats: `53 HP / 20 Atk / 23 Def / 21 SpA / 22 SpD / 19 Spe` — verified Turn 461 `#70`)*.
 - **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** -> `Lv 14` *(no move; Lv 14 stats: `39 HP / 19 Atk / 33 Def / 17 SpA / 21 SpD / 18 Spe` — verified Turn 440 `#71`)*.
 - **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (20 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** -> `Lv 14–15` *(no moves; Lv 15 Relaxed stats: `44 HP / 32 Atk / 22 Def / 20 SpA / 23 SpD / 16 Spe` — verified Turn 386 `#59`)*.
-- **Voltorb (`Joule`):** Wild `Lv 9` (`Static`, Bashful neutral) starts with `ThunderShock` (30 PP), **`Secret Power` (20 PP)**, and **`Shock Wave` (20 PP — 60 BP STAB never-miss!)** *(Lv 9 stats: `26 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe` — verified Turn 525 `#113–#126`)*.
+- **Voltorb (`Joule`):** Wild `Lv 9` (`Static`, Bashful neutral) starts with `ThunderShock` (30 PP), **`Secret Power` (20 PP)**, and **`Shock Wave` (20 PP — 60 BP STAB never-miss!)** *(Lv 9 stats: `28 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe` — verified Turns 525–526 `#98, #113–#126`)*.
 - **Expanded Route Trainer Teams:** Regular route trainers carry larger teams with buffed movesets:
   - **Youngster Calvin** (`(33, 14)` on Route 102): **3 Pokémon** — `Lv 6 Sentret` (`Swift`), `Lv 6 Poochyena`, `Lv 6 Zigzagoon` (`¥96`, Turns 161–168).
   - **Bug Catcher Rick** (`(25, 15)` on Route 102): **4 Pokémon** — `Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` (`¥200`, Turns 170–175).
@@ -176,7 +176,7 @@
   2. **Calavera (`Lv 14 Cubone ♂`, `39/39 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw [15/15 PP]`, `Secret Power [20/20 PP]`, `Headbutt [15/15 PP]` (`33 Def`, `Lightningrod`).
   3. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick [30/30 PP]`, `Faint Attack [20/20 PP]`, `Refresh [20/20 PP]` (`32 Atk`, `Guts`).
   4. **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~24% EXP toward Lv 17; keep out of non-boss EXP!], `53/53 HP`, Healthy, `ORAN BERRY`):** `Acid [30/30 PP]`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
-  5. **Joule (`Lv 9 Voltorb`, `26/26 HP`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [20/20 PP]` (`23 Spe` at `Lv 9`!, `Static`, Bashful).
+  5. **Joule (`Lv 9 Voltorb`, `28/28 HP`, Healthy, `ORAN BERRY`):** `ThunderShock [30/30 PP]`, `Secret Power [19/20 PP]`, `Shock Wave [20/20 PP]` (`23 Spe` at `Lv 9`!, `Static`, Bashful).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥4,640`
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x4`, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
