@@ -393,7 +393,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Glalie Lv 52, Walrein Lv 53 (Ace, Chesto Berry).
   - Move Strategy: Bullet Seed has 0 PP (drained by Spite). Glacia's Ice and Water types take 1.0x neutral physical damage from Facade (70 BP, 18 PP), Aerial Ace (60 BP, 10 PP), and Quick Attack (40 BP +1 priority, 28 PP). SAGE Lv 73 (215 Speed) outspeeds Glacia's entire team (fastest Glalie ~100 Speed).
   - Party Resource State: SAGE (52/220 HP, Overgrow Active), Guava (101/101 HP), Mochi (42/42 HP). 1 Revive remaining. Use Guava/Mochi to execute priority Revive if Sage faints.
-  - Sealeo Lv 50 (Lead): Facade on Turn 25120 struck Sealeo to critical red (~5% HP). Sealeo launched Ice Ball.
+  - Sealeo Lv 50 (Lead): DEFEATED! (KO'd by second Facade Turn 25122).
+  - Opponent #2: Glalie Lv 50 (Inner Focus, pure Ice, Def 80 / SpDef 80). SAGE Lv 73 (215 Speed) moves first with Facade (70 BP)!
+  - Glacia Remaining: 4 Pokémon (Glalie 50, Sealeo 52, Glalie 52, Walrein 53).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
@@ -5067,7 +5069,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Facing lead Sealeo Lv 50. SAGE Lv 73 (65/220 HP, 215 Speed) executing Facade (70 BP). Revives: 1. Cash: ¥11,099.
+- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 DEFEATED! SAGE on field at Lv 73 (17/220 HP, 215 Speed). Glacia sending in Glalie Lv 50 (4 Pokémon left). Revives: 1. Cash: ¥11,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 17/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (13/20), Quick Attack (28/30). Status: Overgrow Active! (17 HP). Level 73!
