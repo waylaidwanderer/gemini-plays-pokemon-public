@@ -392,7 +392,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Sidney Conquered (Turn 24613): Mightyena Lv 46, Absol Lv 49, Shiftry Lv 48, Cacturne Lv 46, and Crawdaunt Lv 48 defeated! Sage reached Lv 70 (81/211 HP, Leaf Blade 15/24, Quick Attack 28/30). Prize money: ¥4,900 (total cash: ¥6,099). Northern door unlocked and open!
 - Room 1 to Room 2 Navigation: From (6, 6), Sidney is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 2 at (6, 6) in front of Phoebe.
 - Phoebe Battle (Room 2): Dusclops Lv 48 uses Protect on Turn 1. Ghost types are immune to Normal (never use Quick Attack). Sage Lv 70 (207 Speed, 211/211 HP) sweeps with STAB Leaf Blade.
-- Phoebe Battle Progress: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette #1 Lv 49, and Sableye Lv 50 all DEFEATED! Sage at 211/211 HP. Earthquake at 9/10 PP. Phoebe down to 1 final Pokémon: Banette #2 Lv 49 (OHKOed by Earthquake).
+- Phoebe Battle Progress: Dusclops Lv 48, Dusclops Lv 51 (Ace), and Banette #1 Lv 49 all DEFEATED! Sableye Lv 50 currently active at ~20% red HP (used Double Team). Sage at 211/211 HP. Earthquake at 9/10 PP. Remaining in reserve: Banette #2 Lv 49.
 
 <hr>
 
