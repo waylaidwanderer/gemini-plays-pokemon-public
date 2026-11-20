@@ -86,8 +86,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 48: Critical red HP (~20%). Used Protect Turn 1 & 3; Phoebe burned Full Restore #1 Turn 25041; used Curse.
   - Active Plan: Lilz sent out Turn 25047. Opening Bag to use Revive on Sage (100% turn priority). Revived Sage returns with 108 HP and ZERO Curse to sweep remaining team!
   - SAGE Lv 72 outspeeds entire opposing team (213 Speed).
-- Elite Four Glacia Battle Mechanics (Turns 24699-24791): Glacia DEFEATED! Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. Sage reached Lv 71 (Max HP 214, 94 HP). Cobalu reached Lv 18 (25/49 HP). Prize: ¥5,300 (total cash: ¥16,499). Northern door unlocked and open!
-- Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
