@@ -74,10 +74,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKéMON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKéMON.
 - In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before Pokémon moves execute.
 
-## Elite Four Final Run & Restock Discoveries (Turn 24560+)
-- Mart Restocking: Sold Carbos x2 (¥9,800), Zinc x2 (¥9,800), and Stardust x1 (¥1,000) for ¥20,600 total. Purchased 10 Revives (¥15,000) and 10 Hyper Potions (¥12,000). Bag stock: 11 Revives, 10 Hyper Potions, 5 Full Heals, 1 Burn Heal, Quick Claw. Remaining cash: ¥1,199.
-- Fresh Elite Four Run: Re-entered Elite Four Room 1 with fully restored team (Sage Lv 69, 208/208 HP, Leaf Blade 24 PP, Earthquake 10 PP, Rock Tomb 10 PP).
-- Sidney Conquered (Turn 24613): Mightyena Lv 46, Absol Lv 49, Shiftry Lv 48, Cacturne Lv 46, and Crawdaunt Lv 48 defeated! Sage reached Lv 70 (81/211 HP, Leaf Blade 15/24, Quick Attack 28/30). Prize money: ¥4,900 (total cash: ¥6,099). Northern door unlocked and open!
+## Elite Four Re-Run (Current Run)
+- Restocked at Mart: 5 Revives, 2 Hyper Potions. SAGE Lv 72 (217 HP, 213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack).
+- Sidney Conquered: Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt defeated! Prize money: ¥4,900 (Total Cash: ¥5,999). Northern door to Room 2 (Phoebe) unlocked and open!
 - Room 1 to Room 2 Navigation: From (6, 6), Sidney is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 2 at (6, 6) in front of Phoebe.
 - Phoebe Battle (Room 2): Dusclops Lv 48 uses Protect on Turn 1. Ghost types are immune to Normal (never use Quick Attack). Sage Lv 70 (207 Speed, 211/211 HP) sweeps with STAB Leaf Blade.
 - Phoebe Conquered: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette #1 Lv 49, Sableye Lv 50, and Banette #2 Lv 49 all DEFEATED! Sage finished at 159/211 HP. Earned ¥5,100 prize money (total cash: ¥11,199). Northern door unlocked and open!
