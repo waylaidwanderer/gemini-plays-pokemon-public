@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon and Flygon DEFEATED! Altaria Lv 54 fainting to Quick Attack! Drake down to 2 Pokémon (Salamence, Kingdra). Sage Lv 71 (160/214 HP) ready with Rock Tomb! Cash: ¥16,499.
+- Status: Shelgon, Flygon, and Altaria DEFEATED! Drake down to 2 dragons (Salamence, Kingdra). Sage Lv 71 (83/214 HP) ready with Rock Tomb for Salamence and Aerial Ace for Kingdra! 1 Hyper Potion, 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 160/214. Max HP: 214. Moves: Rock Tomb (2/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (22/30). Status: OK. Ready to sweep Drake!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 83/214. Max HP: 214. Moves: Rock Tomb (2/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (21/30). Status: OK. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.

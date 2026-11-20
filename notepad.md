@@ -395,7 +395,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Phoebe Conquered: Dusclops Lv 48, Dusclops Lv 51 (Ace), Banette #1 Lv 49, Sableye Lv 50, and Banette #2 Lv 49 all DEFEATED! Sage finished at 159/211 HP. Earned ¥5,100 prize money (total cash: ¥11,199). Northern door unlocked and open!
 - Elite Four Glacia Battle Mechanics (Turns 24699-24791): Glacia DEFEATED! Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. Sage reached Lv 71 (Max HP 214, 94 HP). Cobalu reached Lv 18 (25/49 HP). Prize: ¥5,300 (total cash: ¥16,499). Northern door unlocked and open!
 - Room 3 to Room 4 Navigation: From (6, 6), Glacia is at (6, 5); navigate Left to (5, 6), North 5 steps along col 5 to (5, 1), Right to (6, 1), North into doorway at (6, 0). Grand staircase (col 5) leads straight North into Room 4 in front of Drake.
-- Drake Battle Progress (Turns 24825-24839): Shelgon Lv 52 DEFEATED by Sage's Aerial Ace (critical hit Turn 2, critical hit Turn 6)! Drake burned Full Restore #1 on Shelgon (only 1 Full Restore remaining). Sage at 176/214 HP. Drake sending in Pokémon #2: Flygon Lv 53! Sage staying in to attack with Aerial Ace.
+- Drake Battle Progress (Turns 24825-24859):
+  1. Shelgon Lv 52: DEFEATED by Sage's Aerial Ace (critical hits on Turn 2 & Turn 6). Drake burned Full Restore #1 on Shelgon.
+  2. Flygon Lv 53: DEFEATED by Sage's Aerial Ace + Quick Attack (+1 priority). Sage survived Flamethrower with 17 HP.
+  3. Pivot & Heal: Shifted to Rock/Steel Cobalu Lv 18 (49/49 HP). Altaria used DragonBreath (resisted). Cobalu used Hyper Potion from Bag, fully restoring Sage to 214/214 HP! Cobalu fainted, giving free switch to full-health Sage.
+  4. Altaria Lv 54: Slashed by 2x super-effective Rock Tomb down to deep red (~5% HP). Fainting to Quick Attack! Sage at 83/214 HP.
+  5. Drake remaining: Salamence Lv 55 (Dragon/Flying - 2x weak to Rock Tomb!), Kingdra Lv 53 (Water/Dragon - Aerial Ace bypasses Smokescreen!). Drake has at most 1 Full Restore left.
 
 <hr>
 
@@ -5066,10 +5071,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon and Flygon DEFEATED! Altaria Lv 54 fainting to Quick Attack! Drake down to 2 Pokémon (Salamence, Kingdra). Sage Lv 71 (160/214 HP) ready with Rock Tomb! Cash: ¥16,499.
+- Status: Shelgon, Flygon, and Altaria DEFEATED! Drake down to 2 dragons (Salamence, Kingdra). Sage Lv 71 (83/214 HP) ready with Rock Tomb for Salamence and Aerial Ace for Kingdra! 1 Hyper Potion, 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 160/214. Max HP: 214. Moves: Rock Tomb (2/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (22/30). Status: OK. Ready to sweep Drake!
+1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 83/214. Max HP: 214. Moves: Rock Tomb (2/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (21/30). Status: OK. Ready to sweep Drake!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
