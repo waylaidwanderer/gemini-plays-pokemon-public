@@ -234,7 +234,7 @@
     - [x] Elite Four Member #1 Sidney DEFEATED (Turn 24613)! Earned ¥4,900, Sage reached Lv 70!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 24785)! Earned ¥5,300, Sage Lv 71, Cobalu Lv 18!
-    - [ ] Elite Four Member #4 Drake
+    - [x] Elite Four Member #4 Drake DEFEATED (Turn 24918)! Earned ¥5,500, all 4 Elite Four members conquered!
     - [ ] Champion Wallace
 
 - Department Store Vending Machines: In Gen 3, purchasing drinks opens the menu with cursor on Fresh Water. At Fast text speed, dialogue finishes typing during thinking frames. If pressing A as the first input, it can confirm the top item (Fresh Water). To buy items further down (Lemonade), use directional buttons (Down) as the initial input. Vending machines dispense one can at a time and put it into the Bag before re-prompting. Declining or pressing B on the menu exits cleanly without extra dialogue.
