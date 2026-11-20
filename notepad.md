@@ -5066,7 +5066,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon and Flygon DEFEATED! Drake has 3 Pokémon left (Altaria, Salamence, Kingdra) and 1 Full Restore. Sage Lv 71 (17/214 HP). Shifting to Cobalu (49/49 HP) to heal Sage! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Shelgon and Flygon DEFEATED! Drake sending in Altaria Lv 54 (3 Pokémon left, 1 Full Restore). Cobalu (49/49 HP) shifting in to heal Sage to full! 2 Hyper Potions, 7 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 17/214. Max HP: 214. Moves: Rock Tomb (3/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (24/30). Status: OK. Ready to sweep Drake!
