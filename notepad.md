@@ -5071,7 +5071,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Shelgon, Flygon, Altaria DEFEATED! Salamence at ~55% HP (-1 Speed). Sage revitalized to 107/214 HP! Guava pivoting. Sage ready to finish Salamence with Rock Tomb and sweep Kingdra! 6 Revives, 5 Full Heals. Cash: ¥16,499.
+- Status: Shelgon, Flygon, Altaria DEFEATED! Salamence at ~55% HP (-1 Speed). Reviving Sage to 107/214 HP with turn priority! Guava pivoting. Sage ready to crush Salamence with Rock Tomb! 6 Revives, 5 Full Heals. Cash: ¥16,499.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 71) - Lead! HP: 107/214 (Revived!). Max HP: 214. Moves: Rock Tomb (1/10), Aerial Ace (12/20), Leaf Blade (0/24), Quick Attack (20/30). Status: OK. Ready to sweep Drake!
