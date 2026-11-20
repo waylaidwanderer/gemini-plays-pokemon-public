@@ -20,6 +20,6 @@
   - **Cash:** `¥4,434+`
   - **Non-Refilling Stock:** `TM09 (Bullet Seed)`, `Great Ball x1`, `Poké Ball x91` (`x90` + `x1`), `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, **`Cheri Berry x99`**, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps at `(4, 9)` behind Pretty Petal Flower Shop:**
-  1. Check `(7, 8)` hidden Super Potion spot, walk down `x=2` into the Pretty Petal Flower Shop (`(5, 18)`) for `Wailmer Pail` + Berry sister's free Berry (potentially unlocking another `x99` Berry!).
+- **Immediate Next Steps at `(2, 18)` outside Pretty Petal Flower Shop:**
+  1. Enter the Pretty Petal Flower Shop (`(5, 18)`) to speak with all three sisters (`Wailmer Pail` + free Berry — potentially unlocking another `x99` auto-refilling Berry!).
   2. Cross Route 104 North's bridge into Rustboro City and **immediately deposit Bayou into the PC Graveyard Box** at Rustboro Pokémon Center!
