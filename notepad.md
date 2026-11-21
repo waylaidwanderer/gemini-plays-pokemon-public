@@ -396,7 +396,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 4 (Active)
 - Party: SAGE Lv 75 Lead (226/226 HP, Spe 221, Atk 168; Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30). All 5 reserves ready for Priority Revive Pivots.
-- Plan: Re-enter League lobby -> verify cash & restock Revives at Mart clerk (16, 4) -> sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
+- Plan: Room 1 Sidney actively underway! Mightyena Lv 46 in red HP after Double-Edge recoil (Sidney burned Full Restore!). SAGE active at 159/226 HP. Conquering Sidney -> Phoebe -> Glacia -> Drake -> Champion Wallace!
 - Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
@@ -5078,10 +5078,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 LAUNCH. Fully stocked: 4 Revives, 1 Hyper Potion, 2 Full Heals. SAGE Lv 75 at 226/226 HP (30 Bullet Seed, 20 Aerial Ace, 20 Facade, 30 Quick Attack). Entering Elite Four gate to conquer Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena Lv 46 in deep red HP after Double-Edge recoil (Sidney burned Full Restore!). SAGE active at 159/226 HP. Plan: Finish Mightyena -> OHKO Shiftry & Cacturne with Aerial Ace -> OHKO Crawdaunt -> sweep Absol -> advance to Room 2 Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 226/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 159/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (17/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
