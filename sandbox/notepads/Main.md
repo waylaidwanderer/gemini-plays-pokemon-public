@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon & Flygon defeated! Altaria at ~20% HP. SAGE REVIVED to 113/226 HP at full 221 Speed! Resolving Lilz pivot to send in SAGE and sweep Altaria, Kingdra, and Salamence!
+- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon, Flygon & Altaria DEFEATED! SAGE active at 113/226 HP at full 221 Speed (1 Revive in Bag, ¥15,349). Plan: Sweep Drake's final 2 Pokémon (Kingdra & Salamence) -> advance to Champion Wallace!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (5/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
