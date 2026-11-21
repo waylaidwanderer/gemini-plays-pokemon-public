@@ -6,10 +6,10 @@
 - Status: ATTEMPT 3 UNDERWAY. Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 220/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (Full Health & Max PP!). Level 73!
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (12/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 73!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK.
 ## Bag Highlights
@@ -29,7 +29,7 @@
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x8 (purchased Turn 25166)
+- Revive x7 (1 used to revive Sage Turn 25196; 7 remaining)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
