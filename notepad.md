@@ -190,7 +190,7 @@
   - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥5,288+` (plus Karen & Jerry payout)
-  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2` *(verified Turn 585; active Repel expired Turn 577)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS` pocket)*, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2` *(verified Turn 585; active Repel expired Turn 577)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS` pocket)*, `Premier Ball x1`, `Super Potion x1` *(picked up at `(20, 60)` on Route 115 Turn 609)*, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Route 115 Encounter Plan:** `ROUTE 115` is currently **UNUSED**; if custom pre-Surf tall grass exists on southern Route 115, catch our first non-dupe wild Pokémon (`Bag is pre-set to POKé BALLS and Lv 15 Calavera/Arctos lead`); otherwise preserve `ROUTE 115` unused for future Surf/Rod/north-grass. *(Note: `(26, 67)` item ball on Route 115 is guarded by Double Battle pair at `(25, 61)` & `(29, 61)` — save for post-Roxanne EXP!)*
 - **Immediate Next Steps:**
