@@ -21,13 +21,11 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-1. **Options & Intro (`DONE`):** `TEXT SPEED: FAST` & `BATTLE STYLE: SET` set; named `Gem`.
-2. **Littleroot -> Route 103 Rival May #1:**
-   - Withdraw **2F PC `Potion`**, set bedroom clock, watch Norman TV broadcast, meet Rival (`Brendan`) upstairs next door.
-   - Pick **Mudkip** on Route 101 (`Water/Ground` core dominates Roxanne, Magma Grunt's `Houndour` [stay in & `Water Gun`—never switch into `Pursuit`!], and Wattson!), claim Oldale Mart clerk free **`Potion`**, candy Mudkip only to **`Lv 11–12`** (`saving massive EXP buffer!`), beat Rival #1 on Route 103, collect **Pokédex + `5` Poké Balls + Running Shoes**.
-3. **Encounters, Repeatable Pickups & Berry Unlocks (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
+1. **Oldale Town -> Route 103 Rival Brendan #1 (`IN PROGRESS`):**
+   - Claim Oldale Mart clerk free **`Potion`** (`(13, 14)`), defeat **Rival Brendan #1** on Route 103 with `Lv 11 Triton`, and return to Littleroot Town for **Pokédex + `5` Poké Balls + Running Shoes**.
+2. **Encounters, Repeatable Pickups & Berry Unlocks (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
    - **Oldale Town:** Buy `20+` Poké Balls (`¥10` each + Premier Ball!) + status heals at Mart; catch `(14..15, 2)` custom grass encounter (`beware Lv 3 Growlithe Roar!`).
    - **Route 103 & Route 102:** Catch both encounters (check wild held items, e.g. `Sun Stone` on Sunkern!); harvest **`(24..25, 2)` Oran + Pecha Berries (`x99` unlock!)** and grab Route 102 `Potion` ball.
    - **Petalburg City -> Route 104 South -> Petalburg Woods:** Complete Norman/Wally event, buy `Repel` at Petalburg Mart, catch **Route 104** & **Petalburg Woods** encounters, grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
    - **Route 104 North -> Rustboro City -> Route 115:** Harvest **`(3, 25)` Cheri Berries (`x99` unlock!)**, talk to `(5, 19)` boy for **`TM09 Bullet Seed`**, grab behind-shop `Potion` + hidden `Poké Ball`, defeat `Twins Gina & Mia` + **`PKMN Trainer Red (28, 8)`**, claim **`HM01 Cut`** in Cutter's House `(9, 38)`, grab **Route 115 `(20, 60)` `Super Potion`**, and check southeast 3-story **Rustboro Apartments `(26, 45)`**.
-   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)` + `(16, 15)` item ball, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
+   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
