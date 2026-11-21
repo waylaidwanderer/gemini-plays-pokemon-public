@@ -28,7 +28,7 @@
   - **Cash:** `¥7,288+` (`+¥2,000` from Lady Sarah)
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2`, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Route 115 Encounter Plan:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. *(Note: `(26, 67)` item ball on Route 115 is guarded by Double Battle pair at `(25, 61)` & `(29, 61)` — save for post-Roxanne EXP!)*
+- **Route 115 Encounter & Return Spatial Notes:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. Column `x=22` (`y=70..80`) bypasses all southern ledges; beach stairs `(10..11, 70)` step vertically (`Down`/`Up`) between `(10, 69)` and `(10, 71)`; `(26, 67)` item ball is guarded by Double Battle pair `(25, 61)` & `(29, 61)` *(save for post-Roxanne EXP! Verified Turns 601–609)*.
 - **Immediate Next Steps:**
   1. Heal `Calavera` (`41/41 HP`) & `Arctos` (`46/46 HP` + cure `PAR`) via `BERRIES`, defeat `Rich Boy Dawson (21, 13)` 1-on-1 with `Lv 15 Calavera`, check southwestern Route 116 past `(16, 15)` for items, and enter **Rusturf Tunnel** for our encounter.
   2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!
