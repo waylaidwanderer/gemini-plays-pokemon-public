@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 DEFEATED! SAGE on field at 110 HP (215 Speed) executing Facade to KO Sealeo Lv 52. Glacia down to 3 Pokémon. Revives: 0. Cash: ¥11,099.
+- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 & Sealeo Lv 52 DEFEATED! SAGE on field at 110 HP (215 Speed). Glacia sending in Glalie Lv 50 (3 Pokémon left). Revives: 0. Cash: ¥11,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (11/20), Quick Attack (28/30). Status: Revived (110 HP). Level 73!

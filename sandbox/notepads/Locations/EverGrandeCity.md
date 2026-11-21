@@ -83,9 +83,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Glalie Lv 52, Walrein Lv 53 (Ace, Chesto Berry).
   - SAGE Lv 73 (215 Speed, 110 HP) outspeeds Glacia's entire team (fastest Glalie ~100 Speed). Walrein's Sheer Cold fails due to Level 73.
   - Neutral Physical Attack Options: Facade (70 BP, 12 PP), Aerial Ace (60 BP, 10 PP), Quick Attack (40 BP +1 priority, 28 PP).
-  - Opponents Defeated: Sealeo Lv 50.
-  - Active Opponent: Sealeo Lv 52 at ~20% HP (weakened by Facade and Guava's Razor Leaf). SAGE on field at 110 HP ready to finish it.
-  - Glacia Remaining: 4 Pokémon (active Sealeo 52, Glalie 50, Glalie 52, Walrein 53).
+  - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52 (KO'd by Facade Turn 25143).
+  - Active Opponent: Glalie Lv 50 entering field. SAGE Lv 73 (215 Speed, 110 HP) moves first with Facade (70 BP)!
+  - Glacia Remaining: 3 Pokémon (Glalie 50, Glalie 52, Walrein 53).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
