@@ -5329,5 +5329,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Start Menu Order: POKéDEX, POKéMON, BAG, POKéNAV, JADE, SAVE, OPTION, EXIT. From BAG, Down x1 selects POKéNAV; Down x2 selects JADE.
 - Item Sale Prices: Carbos and Zinc sell for ¥4,900 each; Stardust sells for ¥1,000.
 - Torment Mechanic in Gen 3: Torment is a volatile status applied to the battler (Sage) that persists across opposing Pokémon until Sage switches out or the battle ends. Consecutive identical moves are blocked; alternating moves (e.g. Leaf Blade -> Quick Attack -> Leaf Blade) operates smoothly.
+- Elite Four Sand-Attack Counter: Opposing Mightyena frequently spams Sand-Attack on Turn 1. TM40 Aerial Ace bypasses all accuracy/evasion modifiers with guaranteed hits, preventing stalled turns or dangerous misses.
+- Elite Four Mart Liquidation: In Pokémon League lobby, excess Poké Balls and surplus healing items can be liquidated to fund maximum Revives (8x) and Hyper Potions (2x) for a near-limitless safety buffer.
 
 <hr>
