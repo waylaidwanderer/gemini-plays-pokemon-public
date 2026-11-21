@@ -8,7 +8,7 @@
 - **Wild Held Item & `Roar` Reminder:** Check Summary for wild held items on every catch (e.g. Route 103 `Sunkern` held `SUN STONE` in Attempt #1!), and beware `Roar` on Oldale Town custom grass `Growlithe` `(14..15, 2)`!
 
 ## Locations & Encounters (Attempt #2)
-- **Route 101:** `Mudkip` ♂ (**`Triton`**, Lv 5 starter — rescued Prof. Birch Turn 740)
+- **Route 101:** `Mudkip` ♂ (**`Triton`**, `Torrent`, **Relaxed** `+Def/-Spe`, Lv 5 stats: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe` — rescued Prof. Birch Turn 740)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #2)
 - Mudkip / Marshtomp / Swampert
