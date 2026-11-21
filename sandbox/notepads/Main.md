@@ -6,7 +6,7 @@
 - Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney & Phoebe DEFEATED! Won ¥5,100 from Phoebe (Total Cash: ¥10,049). SAGE Lv 74 at 24/223 HP. Cobalu & Lilz fainted, 6 Revives, 2 Hyper Potions remaining. Plan: Heal Sage with Hyper Potion, advance through northern door into Room 3, and conquer Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 24/223. Max HP: 223. Moves: Bullet Seed (11/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 74!
+1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 223/223. Max HP: 223. Moves: Bullet Seed (11/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 74!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed for Priority Revive Pivot).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x2 (purchased Turn 25166)
+- Hyper Potion x1 (1 used before Glacia Turn 25262; 1 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
