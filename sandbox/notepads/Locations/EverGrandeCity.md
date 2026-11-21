@@ -85,7 +85,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
-  - Room 3 Glacia: Facade / Bullet Seed. Level 73 completely negates Walrein's Sheer Cold.
+  - Room 3 Glacia: Battle underway on Turn 25274+. Sealeo #1 DEFEATED, Sealeo #2 at 5% HP. SAGE Lv 74 at 103/223 HP. Strategy: Bullet Seed on Sealeo x2 & Walrein; Facade on Glalie x2. Level 74 completely negates Walrein's Sheer Cold!
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)

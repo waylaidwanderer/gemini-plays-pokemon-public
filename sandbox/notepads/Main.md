@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney & Phoebe DEFEATED! SAGE Lv 74 fully healed to 223/223 HP. Cobalu & Lilz fainted, 6 Revives, 1 Hyper Potion remaining (¥10,049). Ready to challenge Glacia!
+- Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney & Phoebe DEFEATED! In battle with Glacia: Sealeo #1 defeated, Sealeo #2 at 5% HP. SAGE Lv 74 actively battling. Cobalu & Lilz fainted, 6 Revives, 1 Hyper Potion remaining (¥10,049). Plan: Finish Sealeo #2, sweep Glalie x2 and Walrein into Room 4!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 223/223. Max HP: 223. Moves: Bullet Seed (11/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 74!
+1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 103/223. Max HP: 223. Moves: Bullet Seed (9/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 74!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed for Priority Revive Pivot).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
