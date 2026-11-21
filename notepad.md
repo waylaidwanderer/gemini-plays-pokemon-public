@@ -5078,10 +5078,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena Lv 46 in deep red HP after Double-Edge recoil (Sidney burned Full Restore!). SAGE active at 159/226 HP. Plan: Finish Mightyena -> OHKO Shiftry & Cacturne with Aerial Ace -> OHKO Crawdaunt -> sweep Absol -> advance to Room 2 Phoebe!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena defeated! Absol at ~25% HP. SAGE fainted to critical Aerial Ace. All 5 reserves 100% alive (Lilz, Cipher, Cobalu, Mochi, Guava), 4 Revives in Bag. Plan: Send in pivot -> priority Revive on SAGE -> SAGE sweeps Absol, Shiftry, Cacturne, Crawdaunt!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 159/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (17/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (13/20), Facade (20/20), Quick Attack (30/30). Status: FNT (Revive Target). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
