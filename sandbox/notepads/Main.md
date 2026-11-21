@@ -6,7 +6,7 @@
 - **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
 - **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Title Screen Checklist (MUST DO ON NEW ATTEMPT):** Open `OPTIONS` -> set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`** before starting `NEW GAME`!
+- **Battle Style & Text Speed:** `SET` & `FAST` *(Verified in Options Turn 716 `#05`)*
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
