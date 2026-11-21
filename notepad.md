@@ -395,7 +395,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
-  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein Lv 53 ALL DEFEATED! Glalie #1 at 35% HP. SAGE (0/223 FNT). Lilz active (42/85 HP) executing Priority Revive Pivot.
+  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein Lv 53 ALL DEFEATED! Glalie #1 at 35% HP. SAGE (0/223 FNT). Cipher active (20/40 HP) executing Priority Revive Pivot.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
@@ -5072,12 +5072,12 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA). Glalie #1 at ~35% HP after Facade. SAGE revived to 111/223 HP via Lilz priority pivot. 4 Revives, 1 Hyper Potion remaining (¥10,049). Plan: Send in Sage, finish Glalie #1, sweep Glalie #2 into Room 4!
+- Status: ATTEMPT 3 ROOM 3 (GLACIA). Glalie #1 at ~35% HP after Facade. Lilz fainted. Sending in Cipher (20/40 HP) to execute Priority Revive Pivot on Sage. 4 Revives, 1 Hyper Potion remaining (¥10,049). Plan: Revive Sage with priority (Row 2!), finish Glalie #1, sweep Glalie #2 into Room 4!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 111/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK (Revived!). Level 74!
+1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 0/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: FNT. Level 74!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed on Priority Revive Pivot).
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on Priority Revive Pivot).
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 20/40. Max HP: 40. Status: OK (Revived!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK.
@@ -5098,7 +5098,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x4 (4 used to revive Sage/Lilz; 4 remaining)
+- Revive x4 (4 used to revive Sage/Lilz/Cipher; 4 remaining)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)

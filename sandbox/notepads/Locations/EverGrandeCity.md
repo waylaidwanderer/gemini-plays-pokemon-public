@@ -85,7 +85,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
-  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein Lv 53 ALL DEFEATED! Glalie #1 at 35% HP. SAGE (0/223 FNT). Lilz active (42/85 HP) executing Priority Revive Pivot.
+  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein Lv 53 ALL DEFEATED! Glalie #1 at 35% HP. SAGE (0/223 FNT). Cipher active (20/40 HP) executing Priority Revive Pivot.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
