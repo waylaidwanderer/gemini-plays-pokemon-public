@@ -5077,11 +5077,11 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 4 Room 2 (Phoebe) active: Dusclops #1, Dusclops #2, and Banette #1 defeated! Bullet Seed PP wiped to 0/30 by Grudge. SAGE Lv 75 at 83/226 HP with 1 PP Aerial Ace remaining (3 Revives intact).
+- Status: Attempt 4 Room 2 (Phoebe) active: Dusclops #1, Dusclops #2, and Banette #1 defeated! Sableye (~7 HP) engaged. Lilz revitalized to 43 HP (2 Revives remaining). Plan: Finish Sableye with Lilz's Surf, then sweep Banette #2!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 83/226. Max HP: 226. Moves: Bullet Seed (0/30), Aerial Ace (1/20), Facade (20/20), Quick Attack (28/30). Status: OK. Level 75!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed on switch pivot vs Sableye).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 43/85. Max HP: 85. Status: OK (Revitalized via Revive Turn 25513!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Max HP: 42. Status: FNT (Sacrificed on Priority Revive Pivot).
@@ -5103,7 +5103,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x3 (1 used on Sage; 3 remaining in Bag)
+- Revive x2 (1 used on Sage, 1 used on Lilz; 2 remaining in Bag)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
