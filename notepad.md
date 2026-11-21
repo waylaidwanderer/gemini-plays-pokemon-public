@@ -5341,5 +5341,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Phoebe Ghost Mechanics & Evasion Counter: Ghost-types are 100% immune to Normal moves (Facade & Quick Attack deal 0 damage). Attack strictly with Bullet Seed (Special) and Aerial Ace (Physical). Aerial Ace has infinite accuracy, completely bypassing Sableye's Double Team evasion buffs.
 - Overworld Bag-to-Party Left Clamp Guarantee: In Gen 3, entering the Party screen from Bag medicine remembers the last selected slot (which may be in the right column). Pressing Left from any slot in the right column (Slots 2-6 or CANCEL) is 100% guaranteed to clamp the cursor directly to Slot 1 (SAGE in the left box).
 - Overworld HP Restoration Timing: Restoring 125 HP with Hyper Potion takes ~1.5s for the counter animation to tick up, followed by 'SAGE's HP was restored by 125 point(s).' which is dismissed with B, returning cleanly to the Bag with cursor on CLOSE BAG.
+- Move Menu Clamping Guarantee: On the 2x2 move selection screen (Slot 1 top-left, Slot 2 top-right, Slot 3 bottom-left, Slot 4 bottom-right), pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack), bypassing any prior cursor memory.
+- In-Battle Party Targeting Placement: When using medicine items in battle, the active battler is placed in the left box, and reserve Pokémon are listed in the right column in party order. Always verify the target's exact row before pressing A.
 
 <hr>
