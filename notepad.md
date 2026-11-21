@@ -395,12 +395,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
-  - Room 3 Glacia: Battle underway on Turn 25274+. Sealeo #1 DEFEATED, Sealeo #2 at 5% HP. SAGE Lv 74 at 103/223 HP. Strategy: Bullet Seed on Sealeo x2 & Walrein; Facade on Glalie x2. Level 74 completely negates Walrein's Sheer Cold!
+  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein Lv 53 ALL DEFEATED! SAGE Lv 74 at 2/223 HP (Overgrow active). Glacia has only Glalie x2 remaining. Strategy: 2HKO Glalie x2 with Facade.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
+
 
 <hr>
 
@@ -5071,10 +5072,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney & Phoebe DEFEATED! In battle with Glacia: Sealeo #1 defeated, Sealeo #2 at 5% HP. SAGE Lv 74 actively battling. Cobalu & Lilz fainted, 6 Revives, 1 Hyper Potion remaining (¥10,049). Plan: Finish Sealeo #2, sweep Glalie x2 and Walrein into Room 4!
+- Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney, Phoebe, and Glacia's Sealeo x2 & Ace Walrein Lv 53 DEFEATED! SAGE Lv 74 actively battling Glalie at 2/223 HP (Overgrow active). Cobalu & Lilz fainted, 6 Revives, 1 Hyper Potion remaining (¥10,049). Plan: Defeat Glalie x2, advance to Room 4 Drake!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 103/223. Max HP: 223. Moves: Bullet Seed (9/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 74!
+1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 2/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!). Level 74!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed for Priority Revive Pivot).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
