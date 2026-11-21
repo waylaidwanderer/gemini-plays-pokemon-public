@@ -184,10 +184,10 @@
   - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 624 — Lady Sarah Defeated 1-on-1 at (16, 12); Arctos Learned Swift at Lv 16!)
+## Live Tactical State (Turn 627 — Challenging Rich Boy Dawson 1-on-1 at (17, 13)!)
 - **Active Party (3 Active in Party + 1 Active Resting in `BOX 1` — Cap = Lv 16 [AT CAP] — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Calavera (`Lv 15 Cubone ♂`, `32/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod` — ~55% EXP into Lv 15; lead vs Rich Boy Dawson!).
-  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~15% EXP toward Lv 17; keep out of non-boss EXP!], `20/46 HP`, `PAR`, `ORAN BERRY`):** **`Swift [20/20 PP]`**, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
+  1. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod` — ~55% EXP into Lv 15; lead vs Rich Boy Dawson!).
+  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~15% EXP toward Lv 17; keep out of non-boss EXP!], `46/46 HP`, Healthy, `ORAN BERRY`):** **`Swift [20/20 PP]`**, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
   3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
   - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
