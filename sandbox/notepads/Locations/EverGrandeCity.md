@@ -89,7 +89,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
   - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
-  - Room 2 Phoebe: ACTIVE! Dusclops #1 (Lv 48) DEFEATED (burned Phoebe's Full Restore). Dusclops #1 and #2 DEFEATED! Banette Lv 49 entering. SAGE Lv 75 at 83/226 HP. 3 Revives, 2 Full Heals intact. Aerial Ace conserved (1 PP) to OHKO Sableye.
+  - Room 2 Phoebe: ACTIVE! Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! Banette #1 used Grudge upon fainting, wiping Bullet Seed to 0/30 PP! SAGE Lv 75 at 83/226 HP with only 1 PP of Aerial Ace remaining. Phoebe has Sableye Lv 50 and Banette #2 Lv 49 remaining.
   - Room 3 Glacia: Pending.
   - Room 4 Drake: Pending.
   - Champion Wallace: Pending.
