@@ -84,7 +84,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
-  - Room 2 Phoebe: Lead Dusclops Lv 48 DEFEATED (Turn 25226). Actively battling Dusclops Lv 51. Strategy: Bullet Seed and Aerial Ace only (Ghost types are 100% immune to Normal-type Facade and Quick Attack). Priority Revive Pivot available if Sage faints.
+  - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
   - Room 3 Glacia: Facade / Bullet Seed. Level 73 completely negates Walrein's Sheer Cold.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
