@@ -170,18 +170,14 @@
   - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball). *(Note: `Youngster Billy (27, 17)` has 4-tile `Up` sight to `y=13`, and `Hiker Clark (31, 13)` + `Lass Janice (31, 17)` span `x=31, y=13..17` — split them into 1-on-1s from `(30, 13)`!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 670 — Hiker Clark Swept at 43/43 HP; Splitting Lass Janice EXP Safely!)
-- **Active Party (3 Active in Party + 1 Active Resting in `BOX 1` — Cap = Lv 16 [AT CAP] — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Calavera (`Lv 16 Cubone ♂` — `AT CAP` [Exact `NEXT LV.: 158 EXP`!], `43/43 HP`, Healthy, `ORAN BERRY`):** `Bone Club [8/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`37 Def!`, `Lightningrod`).
-  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [Exact `NEXT LV.: 52 EXP`!], `46/46 HP`, Healthy, `ORAN BERRY`):** `Swift [17/20 PP]`, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
-  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [Exact `NEXT LV.: 185 EXP`!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain [8/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
-  - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
-- **Wallet & Bag Inventory:**
-  - **Cash:** `¥9,560+` (`+¥400` Hiker Clark)
-  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x1` *(~90 steps active on current Repel!)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS` pocket)*, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
-  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
+## Live Tactical State (Turn 686 — Lass Janice Cleared! Girasol & Arctos Preserved at Lv 16; Depositing Retired Lv 17 Calavera!)
+- **Active Party (`OVERLEVELED` until Calavera deposited in `BOX 1` — Cap = Lv 16 — Roxanne [Rock-type] | Deaths = 2):**
+  1. **Calavera (`Lv 17 Cubone ♂` — `RETIRED` until post-Roxanne, `28/45 HP`, `PSN` [cure immediately at `(31, 14)`!], `ORAN BERRY`):** `Bone Club`, `Rock Throw`, **`Dig`**, `Headbutt` (`40 Def!`, `Lightningrod`).
+  2. **Arctos (`Lv 16 Teddiursa ♂` — `ACTIVE` [Exact `NEXT LV.: 16 EXP` — 0 MORE NON-BOSS EXP!], `40/46 HP`, Healthy, `ORAN BERRY`):** `Swift`, `Lick`, `Faint Attack`, `Refresh` (`34 Atk`, `Guts`).
+  3. **Girasol (`Lv 16 Sunflora ♀` — `ACTIVE` [Exact `NEXT LV.: 5 EXP` — 0 MORE NON-BOSS EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth`, `Mega Drain`, `Synthesis` (`41 SpA / 36 SpD`).
+  - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `ACTIVE` [~60 EXP left], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
 - **Immediate Next Steps:**
-  1. Defeat `Lass Janice (31, 17)` 1-on-1 at `(31, 14)` by splitting EXP across `Calavera (158 EXP)` + `Girasol (185 EXP)` + `Arctos (52 EXP)` (`protecting Girasol & Calavera first if total EXP > 395`), pass 5 tiles below `(36, 12)` along `y=17` to avoid his sightline, and enter **Rusturf Tunnel** to catch our legal encounter.
-  2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!
+  1. Cure `Calavera`'s `PSN` with `Pecha Berry` at `(31, 14)`, return west (~35 Repel-protected steps) to **Rustboro Pokémon Center** to deposit `RETIRED` `Calavera` into `BOX 1` and heal, then walk straight back across cleared Route 116 (`skirting 5 tiles below (36, 12) along y=17`) into **Rusturf Tunnel** to catch our legal encounter (`using non-KO chip/balls so Arctos [16 EXP] & Girasol [5 EXP] gain 0 wild KO EXP!`).
+  2. Level our Rusturf Tunnel catch to `Lv 16` via Rare Candies, check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1`, and sweep **Roxanne** (`unbenching Calavera immediately afterward!`)!
 
 <hr>
