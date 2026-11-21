@@ -21,8 +21,7 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-1. **Oldale Town -> Route 103 Rival Brendan #1 (`IN PROGRESS`):**
-   - Claim Oldale Mart clerk free **`Potion`** (`(13, 14)`), defeat **Rival Brendan #1** on Route 103 with `Lv 11 Triton`, and return to Littleroot Town for **Pokédex + `5` Poké Balls + Running Shoes**.
+1. **Intro, Starter (`Triton` Lv 11), Rival #1 & Pokédex (`DONE`):** `FAST`/`SET` verified, PC + Oldale clerk `Potion`s claimed, Pokédex + `5` Poké Balls + Running Shoes obtained.
 2. **Encounters, Repeatable Pickups & Berry Unlocks (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
    - **Oldale Town:** Buy `20+` Poké Balls (`¥10` each + Premier Ball!) + status heals at Mart; catch `(14..15, 2)` custom grass encounter (`beware Lv 3 Growlithe Roar!`).
    - **Route 103 & Route 102:** Catch both encounters (check wild held items, e.g. `Sun Stone` on Sunkern!); harvest **`(24..25, 2)` Oran + Pecha Berries (`x99` unlock!)** and grab Route 102 `Potion` ball.
