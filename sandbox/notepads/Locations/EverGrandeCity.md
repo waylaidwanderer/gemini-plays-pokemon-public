@@ -88,7 +88,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
-  - Room 1 Sidney: Mightyena Lv 46 DEFEATED (Sidney burned Full Restore!). Absol Lv 49 at ~25% HP. SAGE fainted to critical Aerial Ace. Sending in pivot -> priority Revive on SAGE -> SAGE finishes Absol and sweeps Shiftry, Cacturne, Crawdaunt!
+  - Room 1 Sidney: Mightyena Lv 46 DEFEATED (Sidney burned Full Restore!). Absol Lv 49 at ~25% HP. SAGE REVIVED to 113/226 HP at full 221 Speed via priority Revive pivot! Sending in SAGE to finish Absol and sweep Shiftry, Cacturne, Crawdaunt!
   - Room 2 Phoebe: Pending.
   - Room 3 Glacia: Pending.
   - Room 4 Drake: Pending.

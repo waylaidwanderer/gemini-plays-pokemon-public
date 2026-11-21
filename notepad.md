@@ -398,7 +398,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
-  - Room 1 Sidney: Mightyena Lv 46 DEFEATED (Sidney burned Full Restore!). Absol Lv 49 at ~25% HP. SAGE fainted to critical Aerial Ace. Sending in pivot -> priority Revive on SAGE -> SAGE finishes Absol and sweeps Shiftry, Cacturne, Crawdaunt!
+  - Room 1 Sidney: Mightyena Lv 46 DEFEATED (Sidney burned Full Restore!). Absol Lv 49 at ~25% HP. SAGE REVIVED to 113/226 HP at full 221 Speed via priority Revive pivot! Sending in SAGE to finish Absol and sweep Shiftry, Cacturne, Crawdaunt!
   - Room 2 Phoebe: Pending.
   - Room 3 Glacia: Pending.
   - Room 4 Drake: Pending.
@@ -5077,14 +5077,14 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena defeated! Absol at ~25% HP. SAGE fainted to critical Aerial Ace. All 5 reserves 100% alive (Lilz, Cipher, Cobalu, Mochi, Guava), 4 Revives in Bag. Plan: Send in pivot -> priority Revive on SAGE -> SAGE sweeps Absol, Shiftry, Cacturne, Crawdaunt!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena defeated! Absol at ~25% HP. SAGE REVIVED to 113/226 HP at full 221 Speed! Mochi sacrificed as pivot. Sending in SAGE to finish Absol and sweep Shiftry, Cacturne, Crawdaunt!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (13/20), Facade (20/20), Quick Attack (30/30). Status: FNT (Revive Target). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (13/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Max HP: 42. Status: FNT (Sacrificed on Priority Revive Pivot).
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
@@ -5103,7 +5103,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x4 (4 purchased at League Mart Turn 25417-25419; 4 in Bag)
+- Revive x3 (1 used on Sage; 3 remaining in Bag)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
