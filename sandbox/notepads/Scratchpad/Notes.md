@@ -15,20 +15,21 @@
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Trainers (EXP & Rich Payouts Post-Roxanne):**
-  - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
+  - **Route 115:** Double Battle pair `(25, 61)` & `(29, 61)` guarding `(26, 67)` item ball, plus northern beach trainers.
+  - **Route 116:** `Bug Catcher Jose (10, 7)` plus any avoidable eastern trainers.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 627 — Challenging Rich Boy Dawson 1-on-1 at (17, 13)!)
+## Live Tactical State (Turn 639 — Rich Boy Dawson Defeated; Full Active Squad at Lv 16 Cap!)
 - **Active Party (3 Active in Party + 1 Active Resting in `BOX 1` — Cap = Lv 16 [AT CAP] — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod` — ~55% EXP into Lv 15; lead vs Rich Boy Dawson!).
-  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~15% EXP toward Lv 17; keep out of non-boss EXP!], `46/46 HP`, Healthy, `ORAN BERRY`):** **`Swift [20/20 PP]`**, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
-  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
+  1. **Calavera (`Lv 16 Cubone ♂` — `AT CAP` [~10% EXP toward Lv 17], `21/43 HP`, Healthy, needs `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`37 Def!`, `Lightningrod`).
+  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~33% EXP toward Lv 17], `31/46 HP`, Healthy, `ORAN BERRY`):** `Swift [19/20 PP]`, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
+  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
   - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥7,288+` (`+¥2,000` from Lady Sarah)
+  - **Cash:** `¥9,000+` (`+¥2,000` Lady Sarah + Rich Boy Dawson payout)
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2`, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Route 115 Encounter & Return Spatial Notes:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. Column `x=22` (`y=70..80`) bypasses all southern ledges; beach stairs `(10..11, 70)` step vertically (`Down`/`Up`) between `(10, 69)` and `(10, 71)`; `(26, 67)` item ball is guarded by Double Battle pair `(25, 61)` & `(29, 61)` *(save for post-Roxanne EXP! Verified Turns 601–609)*.
+- **Route 115 Encounter & Return Spatial Notes:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. Column `x=22` (`y=70..80`) bypasses all southern ledges; beach stairs `(10..11, 70)` step vertically (`Down`/`Up`) between `(10, 69)` and `(10, 71)` *(Verified Turns 601–609)*.
 - **Immediate Next Steps:**
-  1. Heal `Calavera` (`41/41 HP`) & `Arctos` (`46/46 HP` + cure `PAR`) via `BERRIES`, defeat `Rich Boy Dawson (21, 13)` 1-on-1 with `Lv 15 Calavera`, check southwestern Route 116 past `(16, 15)` for items, and enter **Rusturf Tunnel** for our encounter.
+  1. Grab `(16, 15)` item ball, heal `Calavera` & `Arctos` + re-equip `Calavera`'s `Oran Berry`, dodge remaining eastern Route 116 trainers (`since all active Pokémon are now Lv 16 AT CAP!`), and enter **Rusturf Tunnel** to catch our encounter.
   2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!

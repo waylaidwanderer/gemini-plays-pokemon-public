@@ -90,7 +90,7 @@
 ## Verified Party Learnsets (Early Squad)
 - **Sunkern -> Sunflora (`Girasol`):** `Lv 4 Absorb` (20 PP) -> `Lv 6 Growth` (**5 PP**, `"Forces the body to grow and heightens SP. ATK."` — verified Turn 157 `#76`) -> `Lv 13 Mega Drain` (10 PP) -> Evolved via `SUN STONE` at `Lv 13` into **Sunflora** (`Chlorophyll`, **Lv 13 stats: `42 HP / 21 Atk / 20 Def / 34 SpA / 30 SpD / 15 Spe`** — verified Turn 157 `#65–#68`; `Lv 14` no move; `Lv 15` no move, `47 HP / 24 Atk / 22 Def / 38 SpA / 34 SpD / 17 Spe` — Turn 482 `#48`) -> **`Lv 16 Synthesis` (buffed early in-battle 50% recovery! Lv 16 stats: `50 HP / 26 Atk / 23 Def / 41 SpA / 36 SpD / 18 Spe` — verified Turn 545 `#70–#75`)**.
 - **Gulpin (`Matcha`):** `Lv 6 Acid` (30 PP) + `Yawn` (10 PP) -> **`Lv 9 Fire Punch` (15 PP)** -> `Lv 10–13` *(no moves)* -> **`Lv 14 Sludge Bomb` (16 PP — buffed from vanilla 10 PP!)** -> `Lv 15` *(no move; Lv 15 stats: `50 HP / 19 Atk / 22 Def / 20 SpA / 21 SpD / 18 Spe` — verified Turn 345)* -> `Lv 16` *(no move; Lv 16 stats: `53 HP / 20 Atk / 23 Def / 21 SpA / 22 SpD / 19 Spe` — verified Turn 461 `#70`)*.
-- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** -> `Lv 14` *(no move; Lv 14 stats: `39 HP / 19 Atk / 33 Def / 17 SpA / 21 SpD / 18 Spe` — verified Turn 440 `#71`)* -> `Lv 15` *(no move; Lv 15 stats: `41 HP / 20 Atk / 35 Def / 18 SpA / 23 SpD / 19 Spe` — verified Turn 530 `#128`)*.
+- **Cubone (`Calavera`):** Wild `Lv 7` starts with **`Bone Club` (20 PP) + `Rock Throw` (15 PP)** -> `Lv 8` *(no move)* -> **`Lv 9 Secret Power` (20 PP)** -> `Lv 10–12` *(no move)* -> **`Lv 13 Headbutt` (15 PP)** -> `Lv 14` *(no move; Lv 14 stats: `39 HP / 19 Atk / 33 Def / 17 SpA / 21 SpD / 18 Spe` — verified Turn 440 `#71`)* -> `Lv 15` *(no move; Lv 15 stats: `41 HP / 20 Atk / 35 Def / 18 SpA / 23 SpD / 19 Spe` — verified Turn 530 `#128`)* -> `Lv 16` *(no move; Lv 16 stats: `43 HP / 21 Atk / 37 Def / 18 SpA / 24 SpD / 20 Spe` — verified Turn 638 `#67–#68`)*.
 - **Teddiursa (`Arctos`):** Wild `Lv 8` has **`Guts` ability at base stage** (buffed from vanilla `Pickup`!) and starts with `Scratch` (35 PP), `Lick` (30 PP), and **`Faint Attack` (20 PP — vanilla Lv 19!)** -> `Lv 9–12` *(no moves)* -> **`Lv 13 Refresh` (5 PP — replaces vanilla `Fury Swipes`, curing status mid-battle when Bag items are banned!)** -> `Lv 14–15` *(no moves; Lv 15 Relaxed stats: `44 HP / 32 Atk / 22 Def / 20 SpA / 23 SpD / 16 Spe` — verified Turn 386 `#59`)* -> **`Lv 16 Swift` (20 PP — 60 BP never-miss Normal STAB! Lv 16 Relaxed stats: `46 HP / 34 Atk / 23 Def / 21 SpA / 25 SpD / 17 Spe` — verified Turn 621–622 `#55, #70–#76`)**.
 - **Voltorb (`Joule`):** Wild `Lv 9` (`Static`, Bashful neutral) starts with `ThunderShock` (30 PP), **`Secret Power` (20 PP)**, and **`Shock Wave` (20 PP — 60 BP STAB never-miss!)** *(Lv 9 stats: `28 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe` — verified Turns 525–526 `#98, #113–#126`)* -> `Lv 10–14` *(no moves; Lv 14 stats: `36 HP / 16 Atk / 21 Def / 22 SpA / 21 SpD / 34 Spe` — verified Turn 532 `#91`)*.
 - **Expanded Route Trainer Mechanics & Key Mini-Bosses:** Regular route trainers carry 3–4 Pokémon (up from 1–2 in vanilla) with upgraded coverage and held items:
@@ -165,22 +165,23 @@
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Trainers (EXP & Rich Payouts Post-Roxanne):**
-  - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
+  - **Route 115:** Double Battle pair `(25, 61)` & `(29, 61)` guarding `(26, 67)` item ball, plus northern beach trainers.
+  - **Route 116:** `Bug Catcher Jose (10, 7)` plus any avoidable eastern trainers.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 627 — Challenging Rich Boy Dawson 1-on-1 at (17, 13)!)
+## Live Tactical State (Turn 639 — Rich Boy Dawson Defeated; Full Active Squad at Lv 16 Cap!)
 - **Active Party (3 Active in Party + 1 Active Resting in `BOX 1` — Cap = Lv 16 [AT CAP] — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod` — ~55% EXP into Lv 15; lead vs Rich Boy Dawson!).
-  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~15% EXP toward Lv 17; keep out of non-boss EXP!], `46/46 HP`, Healthy, `ORAN BERRY`):** **`Swift [20/20 PP]`**, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
-  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
+  1. **Calavera (`Lv 16 Cubone ♂` — `AT CAP` [~10% EXP toward Lv 17], `21/43 HP`, Healthy, needs `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`37 Def!`, `Lightningrod`).
+  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~33% EXP toward Lv 17], `31/46 HP`, Healthy, `ORAN BERRY`):** `Swift [19/20 PP]`, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
+  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
   - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥7,288+` (`+¥2,000` from Lady Sarah)
+  - **Cash:** `¥9,000+` (`+¥2,000` Lady Sarah + Rich Boy Dawson payout)
   - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2`, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Route 115 Encounter & Return Spatial Notes:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. Column `x=22` (`y=70..80`) bypasses all southern ledges; beach stairs `(10..11, 70)` step vertically (`Down`/`Up`) between `(10, 69)` and `(10, 71)`; `(26, 67)` item ball is guarded by Double Battle pair `(25, 61)` & `(29, 61)` *(save for post-Roxanne EXP! Verified Turns 601–609)*.
+- **Route 115 Encounter & Return Spatial Notes:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. Column `x=22` (`y=70..80`) bypasses all southern ledges; beach stairs `(10..11, 70)` step vertically (`Down`/`Up`) between `(10, 69)` and `(10, 71)` *(Verified Turns 601–609)*.
 - **Immediate Next Steps:**
-  1. Heal `Calavera` (`41/41 HP`) & `Arctos` (`46/46 HP` + cure `PAR`) via `BERRIES`, defeat `Rich Boy Dawson (21, 13)` 1-on-1 with `Lv 15 Calavera`, check southwestern Route 116 past `(16, 15)` for items, and enter **Rusturf Tunnel** for our encounter.
+  1. Grab `(16, 15)` item ball, heal `Calavera` & `Arctos` + re-equip `Calavera`'s `Oran Berry`, dodge remaining eastern Route 116 trainers (`since all active Pokémon are now Lv 16 AT CAP!`), and enter **Rusturf Tunnel** to catch our encounter.
   2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!
 
 <hr>
