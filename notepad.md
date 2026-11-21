@@ -394,8 +394,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - SAGE Lv 73 (215 Speed, 110 HP) outspeeds Glacia's entire team (fastest Glalie ~100 Speed). Walrein's Sheer Cold fails due to Level 73.
   - Neutral Physical Attack Options: Facade (70 BP, 12 PP), Aerial Ace (60 BP, 10 PP), Quick Attack (40 BP +1 priority, 28 PP).
   - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52 (KO'd by Facade Turn 25143).
-  - Active Opponent: Walrein Lv 53: Struck to ~55% HP Turn 25145. SAGE survived Ice Beam at 16 HP (Overgrow Active, 215 Speed); launching 2nd Facade to KO Walrein Turn 25147!
-  - Glacia Remaining: 3 Pokémon (Walrein 53, Glalie 50, Glalie 52).
+  - Walrein Lv 53 (Ace): DEFEATED! (KO'd by critical hit Facade Turn 25147).
+  - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53 (Ace).
+  - Glacia Remaining: 2 Pokémon (Glalie Lv 50, Glalie Lv 52). SAGE Lv 73 (215 Speed, 16 HP, Overgrow Active) moves first!
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
@@ -5069,7 +5070,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 & Sealeo Lv 52 DEFEATED! Facing Ace Walrein Lv 53 (~55% HP). SAGE on field at 16 HP executing Facade to KO/cripple Walrein. Revives: 0. Cash: ¥11,099.
+- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50, Sealeo Lv 52, and Ace Walrein Lv 53 DEFEATED! SAGE on field at 16 HP (Overgrow Active, 215 Speed). Glacia sending in Glalie (2 Pokémon left). Revives: 0. Cash: ¥11,099.
 
 ## Party
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 16/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (9/20), Quick Attack (28/30). Status: Overgrow Active! (16 HP). Level 73!
