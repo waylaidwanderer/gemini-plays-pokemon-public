@@ -396,7 +396,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
   - Room 3 Glacia: DEFEATED on Turn 25322! Earned ¥5,300 (Total Cash: ¥15,349). Sealeo x2, Walrein Lv 53, Glalie x2 all conquered! SAGE fully restored to 223/223 HP with Hyper Potion. Northern door unlocked.
-  - Room 4 Drake: ACTIVELY UNDERWAY! Shelgon, Flygon & Altaria DEFEATED! Drake sending in ace Salamence Lv 55. SAGE active at 113/226 HP at full 221 Speed. Conquering Salamence & Kingdra to unlock Champion's Chamber!
+  - Room 4 Drake: ACTIVELY UNDERWAY! Shelgon, Flygon & Altaria DEFEATED! Salamence at ~38% HP after Facade. SAGE fainted to Flamethrower. Sending in Guava (101/101 HP) to execute priority Revive on SAGE!
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5071,10 +5071,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon, Flygon & Altaria DEFEATED! Drake sending in ace Salamence Lv 55. SAGE active at 113/226 HP at full 221 Speed (1 Revive in Bag, Guava in reserve, ¥15,349). Plan: Sweep Salamence & Kingdra -> advance to Champion Wallace!
+- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon, Flygon & Altaria DEFEATED! Salamence at ~38% HP. SAGE fainted to Flamethrower after softening Salamence. Sending in Guava to execute priority Revive on SAGE (1 Revive in Bag, ¥15,349)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (5/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (30/30). Status: FNT (Revive Target). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK (Revived!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on Priority Revive Pivot).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.

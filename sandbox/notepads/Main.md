@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon, Flygon & Altaria DEFEATED! Drake sending in ace Salamence Lv 55. SAGE active at 113/226 HP at full 221 Speed (1 Revive in Bag, Guava in reserve, ¥15,349). Plan: Sweep Salamence & Kingdra -> advance to Champion Wallace!
+- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon, Flygon & Altaria DEFEATED! Salamence at ~38% HP. SAGE fainted to Flamethrower after softening Salamence. Sending in Guava to execute priority Revive on SAGE (1 Revive in Bag, ¥15,349)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (5/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (30/30). Status: FNT (Revive Target). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK (Revived!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on Priority Revive Pivot).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
