@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena, Absol & Shiftry DEFEATED! SAGE active at 17/226 HP at full 221 Speed (3 Revives, 1 Hyper Potion in Bag, ¥474). Plan: OHKO Cacturne with Aerial Ace -> OHKO Crawdaunt with Bullet Seed -> claim victory and advance to Room 2 Phoebe!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena, Absol, Shiftry & Cacturne DEFEATED! SAGE active at 17/226 HP at full 221 Speed (Overgrow active, 3 Revives, 1 Hyper Potion in Bag, ¥474). Plan: OHKO final Crawdaunt with Bullet Seed -> claim victory (¥4,900) -> advance to Room 2 Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (13/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (Revived!). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
