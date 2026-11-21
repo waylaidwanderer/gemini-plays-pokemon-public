@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥5,374). All 5 of Sidney's Pokémon conquered! SAGE Lv 75 active at 17/226 HP (3 Revives, 1 Hyper Potion remaining). Plan: Heal SAGE to 217 HP with Hyper Potion -> Advance through door to Room 2 (Phoebe)!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥5,374). All 5 of Sidney's Pokémon conquered! SAGE Lv 75 healed to 217/226 HP with Hyper Potion (3 Revives remaining). Phoebe battle engaged! Plan: Sweep Phoebe with Bullet Seed & Aerial Ace!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 17/226. Max HP: 226. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (Overgrow Active!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 217/226. Max HP: 226. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (217/226 HP). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x1 (purchased at League Mart Turn 25420; 1 in Bag)
+- Hyper Potion x0 (1 used on Sage Turn 25468 to restore 200 HP, HP: 217/226)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
