@@ -84,15 +84,22 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Drake battle: Defeated Shelgon, Flygon, and Altaria; brought Salamence to ~2% HP. SAGE grew to Lv 75. Whited out on Turn 25408.
 - Entire party 100% restored upon respawn at League entrance.
 
-## Elite Four Attempt 4 (Active)
-- Supplies: 3 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥5,374).
-- Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
-- Battle Log:
-  - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
-  - Room 2 Phoebe: ACTIVE! Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! Banette #1 used Grudge upon fainting, wiping Bullet Seed to 0/30 PP! SAGE Lv 75 at 83/226 HP with only 1 PP of Aerial Ace remaining. Phoebe has Sableye Lv 50 and Banette #2 Lv 49 remaining.
-  - Room 3 Glacia: Pending.
-  - Room 4 Drake: Pending.
-  - Champion Wallace: Pending.
+## Elite Four Attempt 4 (Archived Turn 25530)
+- Defeated Sidney (Turn 25460, earned ¥4,900).
+- Defeated Phoebe's Dusclops #1, Dusclops #2, and Banette #1.
+- Grudge wiped SAGE's Bullet Seed to 0 PP. SAGE fell to Shadow Ball; Lilz, Guava, Cobalu, Cipher fell to Sableye.
+- Whited out on Turn 25530. All 6 Pokémon 100% restored (HP/PP) at League entrance.
+
+## Elite Four Attempt 5 (Active)
+- Supplies & Prep: SAGE Lv 75 at 226/226 HP with all 5 reserves at 100% full health/PP.
+- Move Optimization: Teaching TM46 Thief (Dark type, 2x super-effective against Ghosts) to SAGE to permanently solve Room 2 (Phoebe)!
+- Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
+- Battle Roadmap:
+  - Room 1 Sidney: Sweep with Aerial Ace (Shiftry/Cacturne), Bullet Seed (Crawdaunt), Facade (Mightyena/Absol).
+  - Room 2 Phoebe: Sweep with TM46 Thief (Dusclops x2, Banette x2) and Aerial Ace (Sableye, bypassing Double Team)!
+  - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
+  - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
+  - Champion Wallace: Sweep with Bullet Seed (Wailord, Whiscash 4x, Milotic, Tentacruel, Gyarados, Ludicolo) and Quick Attack!
 
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.

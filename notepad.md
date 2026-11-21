@@ -394,15 +394,22 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Drake battle: Defeated Shelgon, Flygon, and Altaria; brought Salamence to ~2% HP. SAGE grew to Lv 75. Whited out on Turn 25408.
 - Entire party 100% restored upon respawn at League entrance.
 
-## Elite Four Attempt 4 (Active)
-- Supplies: 3 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥5,374).
-- Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
-- Battle Log:
-  - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
-  - Room 2 Phoebe: ACTIVE! Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! Banette #1 used Grudge upon fainting, wiping Bullet Seed to 0/30 PP! SAGE Lv 75 at 83/226 HP with only 1 PP of Aerial Ace remaining. Phoebe has Sableye Lv 50 and Banette #2 Lv 49 remaining.
-  - Room 3 Glacia: Pending.
-  - Room 4 Drake: Pending.
-  - Champion Wallace: Pending.
+## Elite Four Attempt 4 (Archived Turn 25530)
+- Defeated Sidney (Turn 25460, earned ¥4,900).
+- Defeated Phoebe's Dusclops #1, Dusclops #2, and Banette #1.
+- Grudge wiped SAGE's Bullet Seed to 0 PP. SAGE fell to Shadow Ball; Lilz, Guava, Cobalu, Cipher fell to Sableye.
+- Whited out on Turn 25530. All 6 Pokémon 100% restored (HP/PP) at League entrance.
+
+## Elite Four Attempt 5 (Active)
+- Supplies & Prep: SAGE Lv 75 at 226/226 HP with all 5 reserves at 100% full health/PP.
+- Move Optimization: Teaching TM46 Thief (Dark type, 2x super-effective against Ghosts) to SAGE to permanently solve Room 2 (Phoebe)!
+- Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
+- Battle Roadmap:
+  - Room 1 Sidney: Sweep with Aerial Ace (Shiftry/Cacturne), Bullet Seed (Crawdaunt), Facade (Mightyena/Absol).
+  - Room 2 Phoebe: Sweep with TM46 Thief (Dusclops x2, Banette x2) and Aerial Ace (Sableye, bypassing Double Team)!
+  - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
+  - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
+  - Champion Wallace: Sweep with Bullet Seed (Wailord, Whiscash 4x, Milotic, Tentacruel, Gyarados, Ludicolo) and Quick Attack!
 
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5077,15 +5084,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 4 Room 2 (Phoebe) active: Dusclops #1, Dusclops #2, and Banette #1 defeated! Sableye (~10 HP) engaged. Lilz active at 42 HP. Plan: Finish Sableye with Lilz's Surf, then face final Banette #2!
+- Status: Attempt 5 PREPARATION! Attempt 4 concluded in Room 2 (Phoebe) on Turn 25530. All 6 Pokémon 100% restored (HP/PP). SAGE Lv 75 ready to learn TM46 Thief to hard-counter Phoebe's Ghosts!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (0/30), Aerial Ace (1/20), Facade (20/20), Quick Attack (28/30). Status: FNT. Level 75!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 43/85. Max HP: 85. Status: OK (Revitalized via Revive Turn 25513!).
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on priority Revive pivot to restore Guava to 51 HP).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Sableye Faint Attack after surviving to use Revive on Lilz).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Max HP: 42. Status: FNT (Sacrificed on Priority Revive Pivot).
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (23/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Max HP: 101. Status: FNT (Fainted to Sableye Shadow Ball).
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 226/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 75!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
@@ -5103,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x0 (all Revives used in Attempt 4; Lilz revived to 42 HP, SAGE at 16 HP)
+- Revive x0 (0 in Bag after Attempt 4; purchasing at Mart for Attempt 5)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
