@@ -18,16 +18,17 @@
   - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 584 — Healed at Rustboro PC; Joule in BOX 14, Matcha Protected in BOX 1!)
+## Live Tactical State (Turn 603 — Scouting Southern Route 115 Before Route 116 / Rusturf Tunnel!)
 - **Active Party (3 Active in Party + 1 Active Resting in `BOX 1` — Cap = Lv 16 [AT CAP] — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, re-equipping `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
-  2. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, swapping to Slot 2 & re-equipping `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
+  1. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
+  2. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
   3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
   - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
   - **Cash:** `¥5,288+` (plus Karen & Jerry payout)
-  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x3` *(active Repel expired Turn 577)*, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2` *(verified Turn 585; active Repel expired Turn 577)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS` pocket)*, `Premier Ball x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
+- **Route 115 Encounter Plan:** `ROUTE 115` is currently **UNUSED**; if custom pre-Surf tall grass exists on southern Route 115, catch our first non-dupe wild Pokémon (`Bag is pre-set to POKé BALLS and Lv 15 Calavera/Arctos lead`); otherwise preserve `ROUTE 115` unused for future Surf/Rod/north-grass. *(Note: `(26, 67)` item ball on Route 115 is guarded by Double Battle pair at `(25, 61)` & `(29, 61)` — save for post-Roxanne EXP!)*
 - **Immediate Next Steps:**
-  1. Swap `Arctos` into Slot 2 (tucking `Lv 16 Girasol` in Slot 3), equip `Oran Berries` onto `Calavera` and `Arctos`, and exit Rustboro Pokémon Center.
-  2. Check **Rustboro Apartments** and the **northwest Rustboro alley** on our northbound walk up Rustboro City (`declining any gift Pokémon if offered so Rustboro's `Shedinja -> Moltres` trade slot stays clean`), then head onto **Route 116** (`clear Lady Sarah (16, 13) 1-on-1 if y=13 is required, grab SW item ball, and enter **Rusturf Tunnel** for our encounter`) before withdrawing `Matcha` and sweeping **Roxanne**!
+  1. Peek west at `(15, 67)` onto southern Route 115 beach for free items / custom grass / SW cliff access, then head straight back into Rustboro (`(20, 0)`) and east onto **Route 116** (`clear Lady Sarah (16, 13) 1-on-1 if y=13 is required, grab SW item ball, and enter **Rusturf Tunnel** for our encounter`).
+  2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!
