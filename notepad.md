@@ -113,6 +113,7 @@
   - **School Kid Karen `(16, 8)` & School Kid Jerry `(18, 10)`** (`triggered simultaneously at (16, 10)` on Route 116 — 6-Pokémon Double Battle):
     - **Karen (3 Pokémon):** `#1 Lv 9 Totodile ♂`, `#2 Lv 9 Chikorita ♂` (`Mega Drain`, `Secret Power`), `#3 Lv 9 Cyndaquil ♂`.
     - **Jerry (3 Pokémon):** `#1 Lv 10 Nidoran♂` (**`Hustle` ability!** `Rock Tomb`, `Dig` — OHKO'd `25/36 HP` `Lv 14` Voltorb), `#2 Lv 10 Phanpy ♂`, `#3 Lv 9 Shuppet ♂` *(Turns 549–569 — watch for hidden/later-gen abilities like `Hustle` boosting enemy damage!)*.
+  - **Lady Sarah** (`(16, 13)` on Route 116 — challenged 1-on-1 from `(16, 12)` to split Double Battle with Rich Boy Dawson `(21, 13)`): **3 Pokémon** — `#1 Lv 10 Spoink ♀` (`Confusion`, held `Oran Berry`), `#2 Lv 10 Bellsprout ♀` (`Stun Spore`, `Acid`), `#3 Lv 10 Meowth ♀` (`Fake Out`, `Pay Day`) (`¥2,000` payout, Turns 614–623).
 - **Widespread Enemy `Protect`:** Early trainers and bosses (`Sunkern`, `Koffing`, `Duskull`) frequently carry `Protect` to scout and stall PP *(Turns 190, 372, 382)*.
 - **`Pursuit` & `Thief` Hazards:** Enemy trainers carry `Thief` (`Lv 8 Koffing` stole Matcha's `Oran Berry`, Turn 373) and **`Pursuit`** (`Lv 9 Houndour` crit-KO'd `26/36 HP` Bayou on switch-out, Turn 379). **Never switch a damaged Pokémon out in front of Dark-types or `Pursuit` users (`Houndour`, `Poochyena`, `Murkrow`, `Sneasel`, `Treecko`/`Grovyle`, `Fearow`, `Raticate`, `Zangoose`, `Absol`) when doubled/crit `Pursuit` is in range!**
 - **Standard Gen 3 Type Chart (No Fairy Type):** Poison-type `Acid` dealt neutral damage (no super-effective message) against `Lv 6 Igglybuff` *(Verified Turn 187, `#53`)*.
@@ -182,19 +183,19 @@
   - **Route 116:** `Bug Catcher Jose (11, 7)` *(note: trees `(14..15, 12..15)` + ledge `(21, 8..12)` make crossing `y=13` mandatory, so challenge `Lady Sarah (16, 13)` 1-on-1 from `(16, 12)` to avoid a Double Battle with `Rich Boy Dawson (21, 13)`!)*.
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 603 — Scouting Southern Route 115 Before Route 116 / Rusturf Tunnel!)
+## Live Tactical State (Turn 624 — Lady Sarah Defeated 1-on-1 at (16, 12); Arctos Learned Swift at Lv 16!)
 - **Active Party (3 Active in Party + 1 Active Resting in `BOX 1` — Cap = Lv 16 [AT CAP] — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Calavera (`Lv 15 Cubone ♂`, `41/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club [20/20 PP]`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod`).
-  2. **Arctos (`Lv 15 Teddiursa ♂`, `44/44 HP`, Healthy, `ORAN BERRY`):** `Scratch [35/35 PP]`, `Lick`, `Faint Attack`, `Refresh` (`32 Atk`, `Guts`).
-  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb [20/20 PP]`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
-  - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn [10/10 PP]`, `Fire Punch [15/15 PP]`, `Sludge Bomb [16/16 PP]` (`Liquid Ooze`).
+  1. **Calavera (`Lv 15 Cubone ♂`, `32/41 HP`, Healthy, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Secret Power`, `Headbutt` (`35 Def!`, `Lightningrod` — ~55% EXP into Lv 15; lead vs Rich Boy Dawson!).
+  2. **Arctos (`Lv 16 Teddiursa ♂` — `AT CAP` [~15% EXP toward Lv 17; keep out of non-boss EXP!], `20/46 HP`, `PAR`, `ORAN BERRY`):** **`Swift [20/20 PP]`**, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
+  3. **Girasol (`Lv 16 Sunflora ♀` — `AT CAP` [~50% EXP toward Lv 17; keep out of non-boss EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain`, **`Synthesis [5/5 PP]`** (`41 SpA / 36 SpD`).
+  - **Resting in `BOX 1` for Roxanne:** **Matcha (`Lv 16 Gulpin ♀` — `AT CAP` [~88–90% EXP toward Lv 17], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥5,288+` (plus Karen & Jerry payout)
-  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2` *(verified Turn 585; active Repel expired Turn 577)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS` pocket)*, `Premier Ball x1`, `Super Potion x1` *(picked up at `(20, 60)` on Route 115 Turn 609)*, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
+  - **Cash:** `¥7,288+` (`+¥2,000` from Lady Sarah)
+  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x2`, `Great Ball x1`, `Poké Ball x89`, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Route 115 Encounter Plan:** `ROUTE 115` is currently **UNUSED**; if custom pre-Surf tall grass exists on southern Route 115, catch our first non-dupe wild Pokémon (`Bag is pre-set to POKé BALLS and Lv 15 Calavera/Arctos lead`); otherwise preserve `ROUTE 115` unused for future Surf/Rod/north-grass. *(Note: `(26, 67)` item ball on Route 115 is guarded by Double Battle pair at `(25, 61)` & `(29, 61)` — save for post-Roxanne EXP!)*
+- **Route 115 Encounter Plan:** `ROUTE 115` remains **UNUSED** for future Surf/Rod/north-grass. *(Note: `(26, 67)` item ball on Route 115 is guarded by Double Battle pair at `(25, 61)` & `(29, 61)` — save for post-Roxanne EXP!)*
 - **Immediate Next Steps:**
-  1. Step south from `(15, 5)` to `(16, 12)` on Route 116 to challenge `Lady Sarah (16, 13)` 1-on-1 (`using Lv 15 Calavera & Lv 15 Arctos`), grab any nearby unblocked item ball, and enter **Rusturf Tunnel** for our encounter.
+  1. Heal `Calavera` (`41/41 HP`) & `Arctos` (`46/46 HP` + cure `PAR`) via `BERRIES`, defeat `Rich Boy Dawson (21, 13)` 1-on-1 with `Lv 15 Calavera`, check southwestern Route 116 past `(16, 15)` for items, and enter **Rusturf Tunnel** for our encounter.
   2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!
 
 <hr>
