@@ -16,7 +16,7 @@
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
 - **Optional Saved Trainers (EXP & Rich Payouts Post-Roxanne):**
   - **Route 115:** Double Battle pair `(25, 61)` & `(29, 61)` guarding `(26, 67)` item ball, plus northern beach trainers.
-  - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball), `Youngster Billy (27, 17)` (faces `Up`), and Double Battle pair `(31, 13)` (faces `Down`) + `Lass Janice (31, 17)` (faces `Up`) across `x=31, y=14..16` *(bypass north via column `x=26` to `y <= 11`)*.
+  - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball). *(Note: `Youngster Billy (27, 17)` has 4-tile `Up` sight to `y=13`, and `Hiker Clark (31, 13)` + `Lass Janice (31, 17)` span `x=31, y=13..17` — split them into 1-on-1s from `(30, 13)`!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Live Tactical State (Turn 642 — Crossing Eastern Route 116 Toward Rusturf Tunnel!)
