@@ -5078,7 +5078,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 PREPARATION. Attempt 3 concluded Turn 25408 (Sidney, Phoebe, Glacia defeated; Shelgon, Flygon, Altaria defeated). SAGE leveled to 75 (Max HP 226, Spe 221, Atk 168). Whiteout restored all 6 Pokémon to 100% HP & PP! Plan: Re-enter League lobby -> check cash / restock at Mart clerk (16, 4) -> launch Attempt 4 to conquer Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
+- Status: ATTEMPT 4 LAUNCH. Fully stocked: 4 Revives, 1 Hyper Potion, 2 Full Heals. SAGE Lv 75 at 226/226 HP (30 Bullet Seed, 20 Aerial Ace, 20 Facade, 30 Quick Attack). Entering Elite Four gate to conquer Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 226/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored!). Level 75!
@@ -5099,12 +5099,12 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x0 (used Turn 25337 to fully restore Sage to 223/223 HP)
+- Hyper Potion x1 (purchased at League Mart Turn 25420; 1 in Bag)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x0 (8 used across run; 0 remaining in Bag)
+- Revive x4 (4 purchased at League Mart Turn 25417-25419; 4 in Bag)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -5121,7 +5121,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥7,674 (post-whiteout balance; purchasing 4 Revives & 1 Hyper Potion for Attempt 4)
+- Money: ¥474 (balance after purchasing 4 Revives & 1 Hyper Potion for Attempt 4)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
