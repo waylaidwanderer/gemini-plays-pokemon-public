@@ -194,7 +194,7 @@
   - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
 - **Route 115 Encounter Plan:** `ROUTE 115` is currently **UNUSED**; if custom pre-Surf tall grass exists on southern Route 115, catch our first non-dupe wild Pokémon (`Bag is pre-set to POKé BALLS and Lv 15 Calavera/Arctos lead`); otherwise preserve `ROUTE 115` unused for future Surf/Rod/north-grass. *(Note: `(26, 67)` item ball on Route 115 is guarded by Double Battle pair at `(25, 61)` & `(29, 61)` — save for post-Roxanne EXP!)*
 - **Immediate Next Steps:**
-  1. Peek west at `(15, 67)` onto southern Route 115 beach for free items / custom grass / SW cliff access, then head straight back into Rustboro (`(20, 0)`) and east onto **Route 116** (`clear Lady Sarah (16, 13) 1-on-1 if y=13 is required, grab SW item ball, and enter **Rusturf Tunnel** for our encounter`).
+  1. Step south from `(15, 5)` to `(16, 12)` on Route 116 to challenge `Lady Sarah (16, 13)` 1-on-1 (`using Lv 15 Calavera & Lv 15 Arctos`), grab any nearby unblocked item ball, and enter **Rusturf Tunnel** for our encounter.
   2. Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1` at Rustboro PC, and defeat **Roxanne**!
 
 <hr>
