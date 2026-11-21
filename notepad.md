@@ -5074,8 +5074,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney and lead Dusclops Lv 48 defeated. SAGE Lv 73 actively battling Dusclops Lv 51 at 39/220 HP (Overgrow active). Cobalu fainted, 7 Revives and 2 Hyper Potions remaining (¥4,949). Plan: Defeat Dusclops Lv 51, sweep Banette x2 and Sableye, advance to Room 3 Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 39/220. Max HP: 220. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!). Level 73!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
+1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 111/223. Max HP: 223. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 74! Max HP: 220. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!). Level 73!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed for Priority Revive Pivot).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
@@ -5097,7 +5097,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x7 (1 used to revive Sage Turn 25196; 7 remaining)
+- Revive x6 (2 used to revive Sage; 6 remaining)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
