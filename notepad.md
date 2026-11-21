@@ -5071,7 +5071,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney and lead Dusclops Lv 48 defeated. SAGE Lv 73 actively battling Dusclops Lv 51 at 39/220 HP (Overgrow active). Cobalu fainted, 7 Revives and 2 Hyper Potions remaining (¥4,949). Plan: Defeat Dusclops Lv 51, sweep Banette x2 and Sableye, advance to Room 3 Glacia!
+- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Both Dusclops and Banette #1 defeated. SAGE Lv 74 actively battling Sableye at 71/223 HP. Cobalu & Lilz fainted, 6 Revives and 2 Hyper Potions remaining (¥4,949). Plan: Defeat Sableye, OHKO Banette #2 with Aerial Ace, advance to Room 3 Glacia!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 111/223. Max HP: 223. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 74! Max HP: 220. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!). Level 73!
@@ -5331,6 +5331,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Torment Mechanic in Gen 3: Torment is a volatile status applied to the battler (Sage) that persists across opposing Pokémon until Sage switches out or the battle ends. Consecutive identical moves are blocked; alternating moves (e.g. Leaf Blade -> Quick Attack -> Leaf Blade) operates smoothly.
 - Elite Four Sand-Attack Counter: Opposing Mightyena frequently spams Sand-Attack on Turn 1. TM40 Aerial Ace bypasses all accuracy/evasion modifiers with guaranteed hits, preventing stalled turns or dangerous misses.
 - Elite Four Mart Liquidation: In Pokémon League lobby, excess Poké Balls and surplus healing items can be liquidated to fund maximum Revives (8x) and Hyper Potions (2x) for a near-limitless safety buffer.
+- Phoebe Ghost Mechanics & Evasion Counter: Ghost-types are 100% immune to Normal moves (Facade & Quick Attack deal 0 damage). Attack strictly with Bullet Seed (Special) and Aerial Ace (Physical). Aerial Ace has infinite accuracy, completely bypassing Sableye's Double Team evasion buffs.
 
 
 <hr>
