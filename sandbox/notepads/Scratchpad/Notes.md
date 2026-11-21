@@ -20,17 +20,16 @@
   - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball) and `Bug Maniac (36, 12)` (faces `Down` — bypass 5 tiles south along `y=17`). *(Lady Sarah, Rich Boy Dawson, Youngster Joey, Hiker Clark, and Lass Janice are all DEFEATED!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 691 — Depositing Retired Lv 17 Calavera in BOX 1; Heading to Rusturf Tunnel!)
-- **Active Party (`AT_CAP` once Calavera stored — Cap = Lv 16 — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Arctos (`Lv 16 Teddiursa ♂` — `ACTIVE` [Exact `NEXT LV.: 16 EXP` — 0 MORE NON-BOSS EXP!], `46/46 HP`, Healthy, `ORAN BERRY`):** `Swift [20/20 PP]`, `Lick`, `Faint Attack`, `Refresh [5/5 PP]` (`34 Atk`, `Guts`).
-  2. **Girasol (`Lv 16 Sunflora ♀` — `ACTIVE` [Exact `NEXT LV.: 5 EXP` — 0 MORE NON-BOSS EXP!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]`, `Synthesis [5/5 PP]` (`41 SpA / 36 SpD`).
+## Live Tactical State (Turn 697 — CRITICAL 2-POKÉMON CAP SEQUENCING VS BUG MANIAC JOSE AT (36, 17)!)
+- **CRITICAL NUZLOCKE CAP RULE FOR THIS 2-POKÉMON BATTLE (`Bug Maniac Jose` at `(36, 12)`, 5-tile sight to `(36, 17)`, **2 Pokémon total**):**
+  1. **`Arctos` (`Slot 1`, `Lv 16`, `16 EXP` left) MUST SOLO `#1 Lv 10 Dustox ♂` (`DO NOT SWITCH GIRASOL IN ON #1 DUSTOX`, or both would hit `Lv 17` before #2 -> Rule 5 wipeout!)** — use `Swift` (`Physical`) and **`Faint Attack` (`Slot 3`, Dark = SPECIAL in Gen 3, completely ignores `Dustox`'s `Iron Defense`!)**.
+  2. When `#1 Dustox` faints and `Arctos` hits `Lv 17`: **ON TURN 1 OF POKÉMON #2**, immediately call `set_pokemon_status(party_slot=1, status="retired", reason="Reached Lv 17 vs Bug Maniac Jose's Dustox")` AND **switch `Arctos` out immediately for `Slot 2: Lv 16 Girasol`** (`5 EXP` left, 100% legal on #2; use `Growth` + `Synthesis` + `Mega Drain`/`Absorb` to solo #2!).
+  3. Once #2 faints (`ending the battle`), call `set_pokemon_status(party_slot=2, status="retired", ...)` on `Lv 17 Girasol`, return to **Rustboro PC** to **withdraw `ACTIVE Lv 16 Matcha` from `BOX 1`** and deposit retired `Arctos` & `Girasol` into `BOX 1`, then return to **Rusturf Tunnel** (`all Route 116 trainers along our path are now 100% cleared!`) to catch our legal encounter and sweep **Roxanne** with `Lv 16 Matcha` + `Lv 16 Rusturf Tunnel catch` (`unbenching Calavera, Arctos, and Girasol immediately post-Roxanne`)!
+- **Active Party (`AT_CAP` — Cap = Lv 16 — Roxanne [Rock-type] | Deaths = 2):**
+  1. **Arctos (`Lv 16 Teddiursa ♂` — `ACTIVE` [`NEXT LV.: 16 EXP`], `41/46 HP`, Healthy, `ORAN BERRY`):** `Swift [16/20 PP]`, `Lick`, **`Faint Attack [20/20 PP — Special!]`**, `Refresh [5/5 PP]` (`34 Atk / 21 SpA`, `Guts`).
+  2. **Girasol (`Lv 16 Sunflora ♀` — `ACTIVE` [`NEXT LV.: 5 EXP` — SAVE STRICTLY FOR POKÉMON #2!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]`, `Synthesis [5/5 PP]` (`41 SpA / 36 SpD`).
   - **Resting in `BOX 1`:**
-    - **Matcha (`Lv 16 Gulpin ♀` — `ACTIVE` [~60 EXP left; withdraw right before Roxanne!], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
-    - **Calavera (`Lv 17 Cubone ♂` — `RETIRED` until Roxanne defeated & cap -> Lv 20, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Dig [60 BP]`, `Headbutt` (`40 Def!`, `Lightningrod`).
+    - **Matcha (`Lv 16 Gulpin ♀` — `ACTIVE` [~60 EXP left; withdraw right after Bug Maniac Jose!], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
+    - **Calavera (`Lv 17 Cubone ♂` — `RETIRED` until post-Roxanne, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Dig [60 BP]`, `Headbutt` (`40 Def!`, `Lightningrod`).
 - **Wallet & Bag Inventory:**
-  - **Cash:** `¥9,720+`
-  - **Non-Refilling Stock:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x1` *(use at Route 116 `(14, 6)` right before first grass tile to block wild `Arena Trap` Diglett/Trapinch, then pace off remaining ~45 steps right inside Rusturf Tunnel's safe entry doorway!)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS` pocket)*, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2`
-  - **Auto-Refilling (`x99` in Overworld):** `Rare Candy x99`, `Cheri Berry x99`, `Oran Berry x99`, `Pecha Berry x99`
-- **Immediate Next Steps:**
-  1. Deposit `RETIRED` `Calavera` into `BOX 1`, heal `Arctos` & `Girasol` at Nurse Joy, walk back to Route 116 `(14, 6)`, pop `Repel x1`, cross the cleared Route 116 corridor (`passing 5 tiles below (36, 12) along y=17`) into **Rusturf Tunnel**, wear off the remaining Repel steps on the doorway tile, and catch our legal **Rusturf Tunnel** encounter (`throwing Poké Balls without KOing so Arctos [16 EXP] & Girasol [5 EXP] gain 0 EXP!`).
-  2. Candy our Rusturf Tunnel catch to `Lv 16`, check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), withdraw `Matcha` from `BOX 1`, and defeat **Roxanne** (`unbenching Calavera immediately afterward!`)!
+  - **Cash:** `¥9,720+` | **Non-Refilling:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x0` *(~72 steps active on current Repel!)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS`)*, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2` | **Auto-Refilling (`x99`):** `Rare Candy`, `Cheri Berry`, `Oran Berry`, `Pecha Berry`.
