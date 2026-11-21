@@ -75,10 +75,10 @@
 - **Rustboro Poké Mart (Pre-Gym):**
   - `Poké Ball (¥10)`, `Potion (¥300)`, `Super Potion (¥700)`, `Antidote (¥100)`, `Parlyz Heal (¥200)`, `Escape Rope (¥550)`, `Repel (¥350)`, `Burn Heal (¥250)`, `Ice Heal (¥250)`, **`Fluffy Tail (¥1000)`** *(Verified Turn 487 `#43–#62`)*.
 ## Early Boss / Rival Log & Wild Pool Clues
-- **Rival May #1 (Route 103, Turn 94):** `Lv 5 Treecko` (packed `Quick Attack` at Lv 5). Defeated cleanly by Lv 13 Bayou (`Tackle` 2HKO).
+- **Rival #1 (`May` Attempt #1 Turn 94 / `Brendan` Attempt #2 Turn 756, Route 103 `(10, 3)`):** Both carry `Lv 5 Treecko` (`Quick Attack`, `¥300` payout — cleanly 2HKO'd by `Lv 11 Triton` `Tackle` on Turn 756).
 - **Wally Catching Tutorial (Petalburg/Route 102, Turn 222):** Norman loaned `Lv 7 Zigzagoon`; Wally caught `Lv 5 Ralts ♂` (packed `Confusion` at Lv 5).
 - **Gym #1 Intel — Roxanne (Rustboro Gym, Cap = Lv 16):** Rustboro Gym Guide at `(3, 18)` confirmed Roxanne still specializes in **Rock-types** *(Verified Turn 516)*.
-- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` on Route 101 *(Turn 105, `#22`)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` + `Lv 7 Snubbull` on Route 104 North *(Turns 403, 405, 409)*—expect Gen 1–3 National Dex species in grass tables.
+- **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` & `Lv 3 Caterpie` on Route 101 *(Turns 105, 761)*, `Lv 3 Growlithe` & `Lv 5 Vulpix` in Oldale Town *(Turns 108, 765)*, `Lv 4 Sunkern` & `Lv 4 Hoppip` on Route 103 *(Turns 113, 777)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` + `Lv 7 Snubbull` on Route 104 North *(Turns 403, 405, 409)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` Hazard:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1, which always ends wild battles in Gen 3 regardless of level difference *(Verified Turn 111)*.
 - **Early Evolution Stones on Wild Pokémon & Custom In-Game Trades:**
   - Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
@@ -189,12 +189,11 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-1. **Intro, Starter (`Triton` Lv 11), Rival #1 & Pokédex (`DONE`):** `FAST`/`SET` verified, PC + Oldale clerk `Potion`s claimed, Pokédex + `5` Poké Balls + Running Shoes obtained.
-2. **Encounters, Repeatable Pickups & Berry Unlocks (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
-   - **Oldale Town:** Buy `20+` Poké Balls (`¥10` each + Premier Ball!) + status heals at Mart; catch `(14..15, 2)` custom grass encounter (`beware Lv 3 Growlithe Roar!`).
-   - **Route 103 & Route 102:** Catch both encounters (check wild held items, e.g. `Sun Stone` on Sunkern!); harvest **`(24..25, 2)` Oran + Pecha Berries (`x99` unlock!)** and grab Route 102 `Potion` ball.
-   - **Petalburg City -> Route 104 South -> Petalburg Woods:** Complete Norman/Wally event, buy `Repel` at Petalburg Mart, catch **Route 104** & **Petalburg Woods** encounters, grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
-   - **Route 104 North -> Rustboro City -> Route 115:** Harvest **`(3, 25)` Cheri Berries (`x99` unlock!)**, talk to `(5, 19)` boy for **`TM09 Bullet Seed`**, grab behind-shop `Potion` + hidden `Poké Ball`, defeat `Twins Gina & Mia` + **`PKMN Trainer Red (28, 8)`**, claim **`HM01 Cut`** in Cutter's House `(9, 38)`, grab **Route 115 `(20, 60)` `Super Potion`**, and check southeast 3-story **Rustboro Apartments `(26, 45)`**.
-   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
+- **Current Resources (Entering Route 102):** `Triton` (Mudkip), `Inari` (Vulpix), `Zephyr` (Hoppip); **`Rawst Berry x99` unlocked** *(Turn 767)*; `20 Poké Balls + 1 Premier Ball`, `2 Potions`, `1 Antidote`, `2 Parlyz Heals`, `2 Awakenings`, `¥2,080`.
+- **Remaining Pre-Roxanne Route Checklist (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
+  - **Route 102:** Catch **Route 102** encounter (check wild held items!), harvest **`(24..25, 2)` Oran + Pecha Berries (`x99` unlock!)**, clear trainers, and grab Route 102 `Potion` ball.
+  - **Petalburg City -> Route 104 South -> Petalburg Woods:** Complete Norman/Wally event, buy `Repel`s at Petalburg Mart, catch **Route 104** & **Petalburg Woods** encounters, grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
+  - **Route 104 North -> Rustboro City -> Route 115:** Harvest **`(3, 25)` Cheri Berries (`x99` unlock!)**, talk to `(5, 19)` boy for **`TM09 Bullet Seed`**, grab behind-shop `Potion` + hidden `Poké Ball`, defeat `Twins Gina & Mia` + **`PKMN Trainer Red (28, 8)`**, claim **`HM01 Cut`** in Cutter's House `(9, 38)`, grab **Route 115 `(20, 60)` `Super Potion`**, and check southeast 3-story **Rustboro Apartments `(26, 45)`**.
+  - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
 
 <hr>
