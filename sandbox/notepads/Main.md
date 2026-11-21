@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney & Phoebe DEFEATED! Won ¥5,100 from Phoebe (Total Cash: ¥10,049). SAGE Lv 74 at 24/223 HP. Cobalu & Lilz fainted, 6 Revives, 2 Hyper Potions remaining. Plan: Heal Sage with Hyper Potion, advance through northern door into Room 3, and conquer Glacia!
+- Status: ATTEMPT 3 ROOM 3 (GLACIA). Sidney & Phoebe DEFEATED! SAGE Lv 74 fully healed to 223/223 HP. Cobalu & Lilz fainted, 6 Revives, 1 Hyper Potion remaining (¥10,049). Ready to challenge Glacia!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 223/223. Max HP: 223. Moves: Bullet Seed (11/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 74!
