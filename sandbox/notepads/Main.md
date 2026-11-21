@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena defeated! Absol at ~25% HP. SAGE REVIVED to 113/226 HP at full 221 Speed! Mochi sacrificed as pivot. Sending in SAGE to finish Absol and sweep Shiftry, Cacturne, Crawdaunt!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena, Absol & Shiftry DEFEATED! SAGE active at 17/226 HP at full 221 Speed (3 Revives, 1 Hyper Potion in Bag, ¥474). Plan: OHKO Cacturne with Aerial Ace -> OHKO Crawdaunt with Bullet Seed -> claim victory and advance to Room 2 Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (13/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
