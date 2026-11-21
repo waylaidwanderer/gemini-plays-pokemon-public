@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA) DEFEATED! Defeated on Turn 25322. Earned ¥5,300 (Total Cash: ¥15,349). SAGE Lv 74 HP: 98/223. 3 Revives, 1 Hyper Potion remaining. Plan: Use Hyper Potion on SAGE -> Advance to Room 4 to defeat Drake!
+- Status: ATTEMPT 3 ROOM 3 (GLACIA) DEFEATED! Defeated on Turn 25322. Earned ¥5,300 (Total Cash: ¥15,349). SAGE Lv 74 HP: 223/223 (Fully Healed!). 3 Revives remaining. Plan: Advance North through Room 3 door -> Grand Staircase -> Room 4 to challenge Drake!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 111/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK (Revived!). Level 74!
+1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 223/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (15/20), Quick Attack (30/30). Status: OK. Level 74!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Sacrificed on Priority Revive Pivot).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on Priority Revive Pivot).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x1 (1 used before Glacia Turn 25262; 1 remaining)
+- Hyper Potion x0 (used Turn 25337 to fully restore Sage to 223/223 HP)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
@@ -46,7 +46,7 @@
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥10,049 (won ¥4,900 from Sidney, ¥5,100 from Phoebe; 6 Revives, 2 Hyper Potions remaining)
+- Money: ¥15,349 (won ¥4,900 Sidney, ¥5,100 Phoebe, ¥5,300 Glacia; 3 Revives remaining)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -264,3 +264,5 @@
 - Elite Four Sand-Attack Counter: Opposing Mightyena frequently spams Sand-Attack on Turn 1. TM40 Aerial Ace bypasses all accuracy/evasion modifiers with guaranteed hits, preventing stalled turns or dangerous misses.
 - Elite Four Mart Liquidation: In Pokémon League lobby, excess Poké Balls and surplus healing items can be liquidated to fund maximum Revives (8x) and Hyper Potions (2x) for a near-limitless safety buffer.
 - Phoebe Ghost Mechanics & Evasion Counter: Ghost-types are 100% immune to Normal moves (Facade & Quick Attack deal 0 damage). Attack strictly with Bullet Seed (Special) and Aerial Ace (Physical). Aerial Ace has infinite accuracy, completely bypassing Sableye's Double Team evasion buffs.
+- Overworld Bag-to-Party Left Clamp Guarantee: In Gen 3, entering the Party screen from Bag medicine remembers the last selected slot (which may be in the right column). Pressing Left from any slot in the right column (Slots 2-6 or CANCEL) is 100% guaranteed to clamp the cursor directly to Slot 1 (SAGE in the left box).
+- Overworld HP Restoration Timing: Restoring 125 HP with Hyper Potion takes ~1.5s for the counter animation to tick up, followed by 'SAGE's HP was restored by 125 point(s).' which is dismissed with B, returning cleanly to the Bag with cursor on CLOSE BAG.
