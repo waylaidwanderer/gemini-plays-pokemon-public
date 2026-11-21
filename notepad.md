@@ -102,8 +102,9 @@
 - **Sunflora `Lv 17` Stats:** No move learned at `Lv 17` (`Timid Lv 17 stats: 52 HP / 27 Atk / 24 Def / 43 SpA / 38 SpD / 18 Spe` — verified Turn 712 `#32`).
 - **Route 116 Wild & Trainer Intel:**
   - **Route 116 Wild Pool Clue:** `Lv 9 Voltorb` (`Static`, starts with `ThunderShock`, `Secret Power`, `Shock Wave`).
+  - **Western Chokepoint (`Johnson` & `Devan`):** `Bird Keeper Johnson (15, 7)` (`Lv 9 Hoothoot, Swablu, Natu` — challenge 1-on-1 from `(15, 6)` facing `Down`, outside `Bug Catcher Jose (10, 7)`'s 3-tile `Right` sight `(11..13, 7)`); `Hiker Devan (14, 10)` has 3-tile `Up` sight to `(14, 7)` (`Lv 10 Geodude`, `Lv 9 Diglett [Arena Trap]`, `Lv 9 Trapinch [Arena Trap]`).
   - **School Kid Karen `(16, 8)` & Jerry `(18, 10)`:** Stepping onto `(16, 10)` triggers a dangerous 6-Pokémon Double Battle (`Totodile/Chikorita/Cyndaquil` + `Hustle Nidoran♂ [Rock Tomb, Dig] / Phanpy / Shuppet`)! **Split them into 1-on-1s** by talking to Karen `(16, 8)` from `(15, 8)` first!
-  - **Lady Sarah `(16, 13)` & Rich Boy Dawson `(21, 13)`:** Face each other across `y=13`; **split into 1-on-1s** from `(16, 12)` (`Sarah: Lv 10 Spoink, Bellsprout, Meowth` -> `¥2,000`; `Dawson: Lv 10 Swinub [Ice Shard!], Lv 10 Mareep, Lv 9 Aipom` -> `¥2,000`).
+  - **Lady Sarah `(16, 13)` & Rich Boy Dawson `(21, 13)`:** Face each other across `y=13` (item ball at `(16, 15)` below Sarah); **split into 1-on-1s** from `(16, 12)` (`Sarah: Lv 10 Spoink, Bellsprout, Meowth` -> `¥2,000`; `Dawson: Lv 10 Swinub [Ice Shard!], Lv 10 Mareep, Lv 9 Aipom` -> `¥2,000`).
   - **Hiker Clark `(31, 13)` & Lass Janice `(31, 17)`:** Face each other across `x=31`; **split into 1-on-1s** from `(30, 13)` (`Clark: Lv 10 Slugma, Teddiursa, Gulpin`; `Janice: Lv 10 Jigglypuff [Sing/Tickle/Present], Lv 10 Nidoran♀ [Toxic/Bite], Lv 9 Marill [Huge Power Secret Power/BubbleBeam]`).
   - **Bug Maniac Jose `(36, 12)` (5-Tile Sight Hazard!):** Faces `Down` with **5-tile sight all the way to `(36, 17)`** (`cannot be bypassed on foot!`): **2 Pokémon** — `#1 Lv 10 Dustox ♂` (`Iron Defense`, `Light Screen`, `Toxic`, `Confusion`, held `Sitrus Berry`), `#2 Lv 10 Beautifly ♂` *(Verified Turns 695–713)*.
 - **Attempt #1 Post-Mortem & Core Tactical Rules for Attempt #2:**
@@ -170,18 +171,22 @@
 - **Unused Town Water Ponds & Future Surf/Grass Routes:**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
-  - **Route 115 (`North of Rustboro (20, 0)`):** `ROUTE 115` encounter remains **UNUSED** for future Surf/Rod/north-grass *(southern `(20, 60)` beach `Super Potion` already collected Turn 609 via vertical stairs `(10..11, 70)` and column `x=22` southern ledge bypass)*.
-- **Optional Saved Trainers (EXP & Rich Payouts Post-Roxanne):**
+  - **Route 115 (`North of Rustboro (20, 0)`):** `ROUTE 115` encounter remains **UNUSED** for future Surf/Rod/north-grass *(southern `(20, 60)` beach `Super Potion` collectible on Attempt #2 via vertical stairs `(10..11, 70)` and column `x=22` southern ledge bypass)*.
+- **Optional / Bypassable Trainers:**
   - **Route 115:** Double Battle pair `(25, 61)` & `(29, 61)` guarding `(26, 67)` item ball, plus northern beach trainers.
-  - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball) and `Bug Maniac (36, 12)` (faces `Down` — bypass 5 tiles south along `y=17`). *(Lady Sarah, Rich Boy Dawson, Youngster Joey, Hiker Clark, and Lass Janice are all DEFEATED!)*
+  - **Route 116:** `Bug Catcher Jose (10, 7)` (`3-tile Right sight (11..13, 7)`, guards `(13, 18)` item ball). *(Note: Eastern `Bug Maniac Jose (36, 12)` has mandatory 5-tile `Down` sight to `(36, 17)` and CANNOT be bypassed!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Attempt #2 Early-Game Fast-Track Plan (Turn 714 — Fresh Start!)
-1. **Title Screen Options (`MANDATORY FIRST STEP`):** Open `OPTIONS` -> set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`** -> start `NEW GAME` (Girl, custom creative name or `Gem`).
-2. **Littleroot -> Route 103 Rival May #1:** Grab PC Potion, set clock, trigger May upstairs next door, pick **Mudkip** (`Water/Ground` core dominates Roxanne, Magma Grunt's `Houndour` [stay in & `Water Gun`—never switch into `Pursuit`!], and Wattson!), candy Mudkip only to **`Lv 11–12`** (`saving massive EXP buffer!`), beat May #1 on Route 103, get Pokédex + `5` Poké Balls + Running Shoes.
-3. **Early Encounters & Berry Unlocks (`Keep All Party Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
-   - Buy `20+` Poké Balls (`¥10` each + Premier Ball!) at Oldale Poké Mart.
-   - Catch encounters on **Oldale Town `(14..15, 2)`** (`watch out for Growlithe Roar!`), **Route 103**, **Route 102** (`harvest Oran + Pecha Berries at (24..25, 2) for infinite x99 refills!`), **Route 104**, **Petalburg Woods** (`split Magma Grunt safely, keep Mudkip healthy for Houndour!`), **Route 116** (`split Karen & Jerry from (15, 8), Sarah & Dawson from (16, 12), Clark & Janice from (30, 13), and clear Bug Maniac Jose at (36, 12)`), and **Rusturf Tunnel**!
-   - Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), candy full squad to **`Lv 16`**, and sweep **Roxanne**!
+## Attempt #2 Early-Game Fast-Track Checklist
+1. **Options & Intro (`DONE`):** `TEXT SPEED: FAST` & `BATTLE STYLE: SET` set; named `Gem`.
+2. **Littleroot -> Route 103 Rival May #1:**
+   - Withdraw **2F PC `Potion`**, set bedroom clock, watch Norman TV broadcast, meet Rival (`Brendan`) upstairs next door.
+   - Pick **Mudkip** on Route 101 (`Water/Ground` core dominates Roxanne, Magma Grunt's `Houndour` [stay in & `Water Gun`—never switch into `Pursuit`!], and Wattson!), claim Oldale Mart clerk free **`Potion`**, candy Mudkip only to **`Lv 11–12`** (`saving massive EXP buffer!`), beat Rival #1 on Route 103, collect **Pokédex + `5` Poké Balls + Running Shoes**.
+3. **Encounters, Repeatable Pickups & Berry Unlocks (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
+   - **Oldale Town:** Buy `20+` Poké Balls (`¥10` each + Premier Ball!) + status heals at Mart; catch `(14..15, 2)` custom grass encounter (`beware Lv 3 Growlithe Roar!`).
+   - **Route 103 & Route 102:** Catch both encounters (check wild held items, e.g. `Sun Stone` on Sunkern!); harvest **`(24..25, 2)` Oran + Pecha Berries (`x99` unlock!)** and grab Route 102 `Potion` ball.
+   - **Petalburg City -> Route 104 South -> Petalburg Woods:** Complete Norman/Wally event, buy `Repel` at Petalburg Mart, catch **Route 104** & **Petalburg Woods** encounters, grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
+   - **Route 104 North -> Rustboro City -> Route 115:** Harvest **`(3, 25)` Cheri Berries (`x99` unlock!)**, talk to `(5, 19)` boy for **`TM09 Bullet Seed`**, grab behind-shop `Potion` + hidden `Poké Ball`, defeat `Twins Gina & Mia` + **`PKMN Trainer Red (28, 8)`**, claim **`HM01 Cut`** in Cutter's House `(9, 38)`, grab **Route 115 `(20, 60)` `Super Potion`**, and check southeast 3-story **Rustboro Apartments `(26, 45)`**.
+   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)` + `(16, 15)` item ball, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
 
 <hr>
