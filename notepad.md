@@ -5074,7 +5074,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon & Flygon defeated! Altaria at ~20% HP after Double-Edge recoil. Mochi fainted. Sending in Lilz/Guava to execute turn-priority Revive on SAGE (2 Revives in Bag)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 43/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (5/20), Quick Attack (30/30). Status: OK (Overgrow Active!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (5/20), Quick Attack (30/30). Status: FNT (Revive Target). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK (Revived!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on Priority Revive Pivot).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
@@ -5114,7 +5114,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥15,349 (won ¥4,900 Sidney, ¥5,100 Phoebe, ¥5,300 Glacia; 3 Revives remaining)
+- Money: ¥15,349 (won ¥4,900 Sidney, ¥5,100 Phoebe, ¥5,300 Glacia; 2 Revives remaining)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -5301,7 +5301,7 @@ A large meteorological research institute located in northern Route 119 beside t
 12. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Turn 24613)! Earned ¥4,900, Sage reached Lv 70!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 24785)! Earned ¥5,300, Sage Lv 71, Cobalu Lv 18!
+    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 25322)! Earned ¥5,300, Sage Lv 74, Sealeo x2, Walrein, Glalie x2 conquered! Cash: ¥15,349.
     - [x] Elite Four Member #4 Drake DEFEATED (Turn 24918)! Earned ¥5,500, all 4 Elite Four members conquered!
     - [ ] Champion Wallace
 
