@@ -7,7 +7,7 @@
 
 ## Locations & Encounters (Attempt #2)
 - **Route 101:** `Mudkip` ♂ (**`Triton`**, `Torrent`, **Relaxed** `+Def/-Spe`, Lv 5 stats: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe` — rescued Prof. Birch Turn 740)
-- **Oldale Town:** `Vulpix` ♀ (**`Inari`**, caught at Lv 5 in `(14..15, 2)` custom grass Turn 765 — checking Summary next!)
+- **Oldale Town:** `Vulpix` ♀ (**`Inari`**, custom **`Pressure`** ability!, **Hasty** `+Spe/-Def`, held **`RAWST BERRY`** [unlocked `x99` refills!], Lv 5 stats: `19 HP / 10 Atk / 8 Def / 11 SpA / 12 SpD / 12 Spe`, moves: `Ember / Quick Attack` — caught Turn 765)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #2)
 - Mudkip / Marshtomp / Swampert
