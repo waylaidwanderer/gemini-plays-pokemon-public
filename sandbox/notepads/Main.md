@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR RUN ATTEMPT 2 CONCLUSION. Sidney & Phoebe DEFEATED! Glacia battle: Sealeo Lv 50 & Sealeo Lv 52 defeated. Sage fainted to Walrein Lv 53; Mochi resolving battle into whiteout reset to League lobby. Whiteout restores 100% full HP/PP to all Pokémon! SAGE is Level 73 (Max HP 220, Spe 215). Cash: ¥11,099 (loss scaled on whiteout).
+- Status: WHITEOUT RESET IN PROGRESS -> LEAGUE LOBBY. Walrein's Body Slam fainted Mochi. Whiteout respawns player outside League HQ with 100% full HP/PP restored to all 6 Pokémon! SAGE Lv 73 (220 HP, 215 Spe, all PP 30/20/20/30). Plan: Enter lobby, restock Revives at Mart clerk (16, 4), and launch Attempt 3!
 
 ## Party
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 0/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (9/20), Facade (9/20), Quick Attack (28/30). Status: FNT (Level 73, will be 100% restored upon whiteout). Level 73!
