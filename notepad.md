@@ -394,9 +394,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - SAGE Lv 73 (215 Speed, 110 HP) outspeeds Glacia's entire team (fastest Glalie ~100 Speed). Walrein's Sheer Cold fails due to Level 73.
   - Neutral Physical Attack Options: Facade (70 BP, 12 PP), Aerial Ace (60 BP, 10 PP), Quick Attack (40 BP +1 priority, 28 PP).
   - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52 (KO'd by Facade Turn 25143).
-  - Walrein Lv 53 (Ace): DEFEATED! (KO'd by critical hit Facade Turn 25147).
-  - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53 (Ace).
-  - Glacia Remaining: 2 Pokémon (Glalie Lv 50, Glalie Lv 52). SAGE Lv 73 (215 Speed, 16 HP, Overgrow Active) moves first!
+  - Glacia Battle Climax (Attempt 2, Turn 25148): Sealeo Lv 50 & Sealeo Lv 52 DEFEATED. Critical Facade struck Walrein to ~5% red HP, but Walrein's Ice Beam fainted Sage at 16 HP. Mochi sent out.
+  - Attempt 3 Strategy: SAGE is now Level 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Whiteout restores 100% HP and 100% PP (Bullet Seed 30 PP, Facade 20 PP, Aerial Ace 20 PP, Quick Attack 30 PP). Restock Revives & Hyper Potions at League Mart clerk with remaining cash (~¥5,500+). Sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
