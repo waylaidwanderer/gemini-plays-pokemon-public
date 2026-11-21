@@ -384,18 +384,20 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKéMON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKéMON.
 - In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before Pokémon moves execute.
 
-## Elite Four Re-Run (Current Run)
-- Restocked at Mart: 5 Revives, 2 Hyper Potions. SAGE Lv 72 (217 HP, 213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack).
-- Sidney Conquered: Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt defeated! Prize money: ¥4,900 (Total Cash: ¥5,999).
-- Phoebe Conquered (Turn 25108): Dusclops x2, Banette x2, and Sableye defeated! Prize: ¥5,100 (Total Cash: ¥11,099). Northern door to Room 3 unlocked! SAGE reached Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215).
-  - Verified Mechanic: 'Sacrifice-Revive Priority Pivot' — Reviving Sage via reserve battler (Lilz/Cobalu) has 100% turn start priority and completely purges volatile status (Curse), restoring Sage to 50% HP clean!
-- Glacia Battle Tactics (Room 3):
-  - Team: Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Glalie Lv 52, Walrein Lv 53 (Ace, Chesto Berry).
-  - SAGE Lv 73 (215 Speed, 110 HP) outspeeds Glacia's entire team (fastest Glalie ~100 Speed). Walrein's Sheer Cold fails due to Level 73.
-  - Neutral Physical Attack Options: Facade (70 BP, 12 PP), Aerial Ace (60 BP, 10 PP), Quick Attack (40 BP +1 priority, 28 PP).
-  - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52 (KO'd by Facade Turn 25143).
-  - Glacia Battle Climax (Attempt 2, Turn 25148): Sealeo Lv 50 & Sealeo Lv 52 DEFEATED. Critical Facade struck Walrein to ~5% red HP, but Walrein's Ice Beam fainted Sage at 16 HP. Mochi sent out.
-  - Attempt 3 Strategy: SAGE is now Level 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Whiteout restores 100% HP and 100% PP (Bullet Seed 30 PP, Facade 20 PP, Aerial Ace 20 PP, Quick Attack 30 PP). Restock Revives & Hyper Potions at League Mart clerk with remaining cash (~¥5,500+). Sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+## Elite Four Attempt 2 (Archived)
+- Defeated Sidney (Turn 25023) and Phoebe (Turn 25108, Sage leveled to 73).
+- Whited out against Glacia's Walrein (Turn 25148) with Sage at 16 HP.
+- Whiteout reset restored all Pokémon to 100% HP and PP.
+
+## Elite Four Attempt 3 (Active)
+- Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
+- Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
+- Battle Plan:
+  - Room 1 Sidney: Sweep with Bullet Seed / Facade / Quick Attack.
+  - Room 2 Phoebe: Facade / Aerial Ace / Bullet Seed. Use Priority Revive Pivot if cursed.
+  - Room 3 Glacia: Facade / Bullet Seed. Level 73 completely negates Walrein's Sheer Cold.
+  - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
+  - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
@@ -5069,7 +5071,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 READY (LEAGUE LOBBY). Whiteout restored all 6 Pokémon to 100% full HP and full PP! SAGE reached Level 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Enter lobby at (9, 11), visit Mart clerk at (16, 4) to buy Revives (~3x) with cash (~¥5,300+), and march through central gate to sweep the Elite Four and Champion Wallace!
+- Status: ATTEMPT 3 UNDERWAY. Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 220/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (Full Health & Max PP!). Level 73!

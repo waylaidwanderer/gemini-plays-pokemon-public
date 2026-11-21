@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 READY (LEAGUE LOBBY). Whiteout restored all 6 Pokémon to 100% full HP and full PP! SAGE reached Level 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Enter lobby at (9, 11), visit Mart clerk at (16, 4) to buy Revives (~3x) with cash (~¥5,300+), and march through central gate to sweep the Elite Four and Champion Wallace!
+- Status: ATTEMPT 3 UNDERWAY. Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 220/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (Full Health & Max PP!). Level 73!
