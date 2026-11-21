@@ -398,7 +398,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
-  - Room 1 Sidney: Mightyena, Absol, Shiftry, and Cacturne DEFEATED! SAGE active at 17/226 HP at full 221 Speed (Overgrow active). OHKOing final Crawdaunt with Bullet Seed -> unlocking Room 2 Phoebe!
+  - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
+  - Room 2 Phoebe: Preparing to enter. Healing SAGE to 217 HP with Hyper Potion. Sweeping with Bullet Seed and Aerial Ace (bypassing Sableye Double Team)!
   - Room 2 Phoebe: Pending.
   - Room 3 Glacia: Pending.
   - Room 4 Drake: Pending.
@@ -5077,7 +5078,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY). Mightyena, Absol, Shiftry & Cacturne DEFEATED! SAGE active at 17/226 HP at full 221 Speed (Overgrow active, 3 Revives, 1 Hyper Potion in Bag, ¥474). Plan: OHKO final Crawdaunt with Bullet Seed -> claim victory (¥4,900) -> advance to Room 2 Phoebe!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥5,374). All 5 of Sidney's Pokémon conquered! SAGE Lv 75 active at 17/226 HP (3 Revives, 1 Hyper Potion remaining). Plan: Heal SAGE to 217 HP with Hyper Potion -> Advance through door to Room 2 (Phoebe)!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (Revived!). Level 75!
@@ -5120,7 +5121,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥474 (balance after purchasing 4 Revives & 1 Hyper Potion for Attempt 4)
+- Money: ¥5,374 (won ¥4,900 from Sidney; 3 Revives, 1 Hyper Potion remaining)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
@@ -5305,7 +5306,7 @@ A large meteorological research institute located in northern Route 119 beside t
 10. [x] Traverse Victory Road (COMPLETED Turn 23825)! All trainers defeated, boulder puzzles solved, exited onto Ever Grande City North Plateau!
 11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 12. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Turn 24613)! Earned ¥4,900, Sage reached Lv 70!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 4, Turn 25460)! Earned ¥4,900, total cash ¥5,374! SAGE Lv 75. Northern door open!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 25322)! Earned ¥5,300, Sage Lv 74, Sealeo x2, Walrein, Glalie x2 conquered! Cash: ¥15,349.
     - [x] Elite Four Member #4 Drake DEFEATED (Turn 24918)! Earned ¥5,500, all 4 Elite Four members conquered!

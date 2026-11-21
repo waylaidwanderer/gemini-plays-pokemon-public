@@ -88,7 +88,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
-  - Room 1 Sidney: Mightyena, Absol, Shiftry, and Cacturne DEFEATED! SAGE active at 17/226 HP at full 221 Speed (Overgrow active). OHKOing final Crawdaunt with Bullet Seed -> unlocking Room 2 Phoebe!
+  - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
+  - Room 2 Phoebe: Preparing to enter. Healing SAGE to 217 HP with Hyper Potion. Sweeping with Bullet Seed and Aerial Ace (bypassing Sableye Double Team)!
   - Room 2 Phoebe: Pending.
   - Room 3 Glacia: Pending.
   - Room 4 Drake: Pending.
