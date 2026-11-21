@@ -84,7 +84,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - SAGE Lv 73 (215 Speed, 110 HP) outspeeds Glacia's entire team (fastest Glalie ~100 Speed). Walrein's Sheer Cold fails due to Level 73.
   - Neutral Physical Attack Options: Facade (70 BP, 12 PP), Aerial Ace (60 BP, 10 PP), Quick Attack (40 BP +1 priority, 28 PP).
   - Opponents Defeated: Sealeo Lv 50, Sealeo Lv 52 (KO'd by Facade Turn 25143).
-  - Active Opponent: Walrein Lv 53: Facade struck Walrein to ~55% HP Turn 25145. SAGE Lv 73 taking Ice Beam (~10 HP remaining, Overgrow Active, 215 Speed) to finish Walrein next turn.
+  - Active Opponent: Walrein Lv 53: Struck to ~55% HP Turn 25145. SAGE survived Ice Beam at 16 HP (Overgrow Active, 215 Speed); launching 2nd Facade to KO Walrein Turn 25147!
   - Glacia Remaining: 3 Pokémon (Walrein 53, Glalie 50, Glalie 52).
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.

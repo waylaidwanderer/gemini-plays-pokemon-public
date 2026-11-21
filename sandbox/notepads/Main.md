@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 & Sealeo Lv 52 DEFEATED! Facing Ace Walrein Lv 53 (~55% HP). SAGE taking Ice Beam to ~10 HP (Overgrow Active, 215 Speed). Revives: 0. Cash: ¥11,099.
+- Status: ELITE FOUR GLACIA BATTLE IN PROGRESS (Room 3). Sealeo Lv 50 & Sealeo Lv 52 DEFEATED! Facing Ace Walrein Lv 53 (~55% HP). SAGE on field at 16 HP executing Facade to KO/cripple Walrein. Revives: 0. Cash: ¥11,099.
 
 ## Party
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 10/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (10/20), Quick Attack (28/30). Status: Overgrow Active! (~10 HP). Level 73!
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 16/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (10/20), Facade (9/20), Quick Attack (28/30). Status: Overgrow Active! (16 HP). Level 73!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).
