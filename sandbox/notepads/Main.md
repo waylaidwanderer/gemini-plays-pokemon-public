@@ -3,15 +3,15 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: WHITEOUT RESET IN PROGRESS -> LEAGUE LOBBY. Walrein's Body Slam fainted Mochi. Whiteout respawns player outside League HQ with 100% full HP/PP restored to all 6 Pokémon! SAGE Lv 73 (220 HP, 215 Spe, all PP 30/20/20/30). Plan: Enter lobby, restock Revives at Mart clerk (16, 4), and launch Attempt 3!
+- Status: ATTEMPT 3 READY (LEAGUE LOBBY). Whiteout restored all 6 Pokémon to 100% full HP and full PP! SAGE reached Level 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Enter lobby at (9, 11), visit Mart clerk at (16, 4) to buy Revives (~3x) with cash (~¥5,300+), and march through central gate to sweep the Elite Four and Champion Wallace!
 
-## Party
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 0/220. Max HP: 220. Moves: Bullet Seed (0/30 - Spite), Aerial Ace (9/20), Facade (9/20), Quick Attack (28/30). Status: FNT (Level 73, will be 100% restored upon whiteout). Level 73!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (Fainted to Banette Turn 25076).
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Fainted to Shadow Ball Turn 25070).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Night Shade Turn 25097 after executing Revive on Sage).
+## Party (100% Restored Upon Whiteout)
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 220/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (Full Health & Max PP!). Level 73!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (23/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Max HP: 101. Status: FNT (Fainted to Blizzard Turn 25136 after executing Revive on Sage).
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK.
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
