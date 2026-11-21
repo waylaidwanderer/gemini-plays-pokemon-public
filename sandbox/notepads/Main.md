@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA) DEFEATED! Defeated on Turn 25322. Earned ¥5,300 (Total Cash: ¥15,349). SAGE Lv 74 HP: 223/223 (Fully Healed!). 3 Revives remaining. Plan: Advance North through Room 3 door -> Grand Staircase -> Room 4 to challenge Drake!
+- Status: ATTEMPT 3 ROOM 4 (DRAKE). Drake battle underway! Lead Shelgon Lv 52 used Protect Turn 1. SAGE Lv 74 at full 223/223 HP (3 Revives, ¥15,349). Plan: Strike with Facade -> 2HKO Shelgon -> sweep Drake's team -> advance to Champion Wallace!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 223/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (15/20), Quick Attack (30/30). Status: OK. Level 74!

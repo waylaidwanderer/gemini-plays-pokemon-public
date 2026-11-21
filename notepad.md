@@ -395,8 +395,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
-  - Room 3 Glacia: Sealeo #1, Sealeo #2, Walrein Lv 53, and Glalie #1 ALL DEFEATED! SAGE active at 111/223 HP. Glacia down to final Pokémon Glalie #2. Striking with Facade.
-  - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
+  - Room 3 Glacia: DEFEATED on Turn 25322! Earned ¥5,300 (Total Cash: ¥15,349). Sealeo x2, Walrein Lv 53, Glalie x2 all conquered! SAGE fully restored to 223/223 HP with Hyper Potion. Northern door unlocked.
+  - Room 4 Drake: ACTIVELY UNDERWAY! Challenged Drake. Lead Shelgon Lv 52 opened with Protect on Turn 1. SAGE Lv 74 at full 223/223 HP with Facade (14/20) and Quick Attack (30/30). Sweeping Dragon team!
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5072,7 +5072,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA) DEFEATED! Defeated on Turn 25322. Earned ¥5,300 (Total Cash: ¥15,349). SAGE Lv 74 HP: 223/223 (Fully Healed!). 3 Revives remaining. Plan: Advance North through Room 3 door -> Grand Staircase -> Room 4 to challenge Drake!
+- Status: ATTEMPT 3 ROOM 4 (DRAKE). Drake battle underway! Lead Shelgon Lv 52 used Protect Turn 1. SAGE Lv 74 at full 223/223 HP (3 Revives, ¥15,349). Plan: Strike with Facade -> 2HKO Shelgon -> sweep Drake's team -> advance to Champion Wallace!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 223/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (15/20), Quick Attack (30/30). Status: OK. Level 74!
