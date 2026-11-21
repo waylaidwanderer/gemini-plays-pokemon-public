@@ -86,7 +86,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 4 (Active)
 - Party: SAGE Lv 75 Lead (226/226 HP, Spe 221, Atk 168; Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30). All 5 reserves ready for Priority Revive Pivots.
-- Plan: Room 1 Sidney actively underway! Mightyena Lv 46 in red HP after Double-Edge recoil (Sidney burned Full Restore!). SAGE active at 159/226 HP. Conquering Sidney -> Phoebe -> Glacia -> Drake -> Champion Wallace!
+- Plan: Room 1 Sidney actively underway! Mightyena Lv 46 DEFEATED! Absol Lv 49 took ~75% damage from Aerial Ace, used Swords Dance (0 damage). SAGE active at 159/226 HP at 221 Speed. Conquering Absol -> Shiftry/Cacturne/Crawdaunt -> Phoebe -> Glacia -> Drake -> Champion Wallace!
 - Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
