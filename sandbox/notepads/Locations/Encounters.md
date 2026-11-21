@@ -8,7 +8,7 @@
 ## Locations & Encounters (Attempt #2)
 - **Route 101:** `Mudkip` ♂ (**`Triton`**, `Torrent`, **Relaxed** `+Def/-Spe`, Lv 5 stats: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe` — rescued Prof. Birch Turn 740)
 - **Oldale Town:** `Vulpix` ♀ (**`Inari`**, custom **`Pressure`** ability!, **Hasty** `+Spe/-Def`, held **`RAWST BERRY`** [unlocked `x99` refills!], Lv 5 stats: `19 HP / 10 Atk / 8 Def / 11 SpA / 12 SpD / 12 Spe`, moves: `Ember / Quick Attack` — caught Turn 765)
-- **Route 103:** `Hoppip` ♂ (**`Zephyr`**, caught at Lv 4 Turn 777 — knows `Confusion` at Lv 4; checking full Summary next!)
+- **Route 103:** `Hoppip` ♂ (**`Zephyr`**, `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #2)
 - Mudkip / Marshtomp / Swampert
