@@ -79,7 +79,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Whited out against Glacia's Walrein (Turn 25148) with Sage at 16 HP.
 - Whiteout reset restored all Pokémon to 100% HP and PP.
 
-## Elite Four Attempt 3 (Active)
+## Elite Four Attempt 3 (Archived Turn 25408)
+- Defeated Sidney (Turn 25213), Phoebe (Turn 25256), and Glacia (Turn 25322).
+- Drake battle: Defeated Shelgon, Flygon, and Altaria; brought Salamence to ~2% HP. SAGE grew to Lv 75. Whited out on Turn 25408.
+- Entire party 100% restored upon respawn at League entrance.
+
+## Elite Four Attempt 4 (Active)
+- Party: SAGE Lv 75 Lead (226/226 HP, Spe 221, Atk 168; Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30). All 5 reserves ready for Priority Revive Pivots.
+- Plan: Re-enter League lobby -> verify cash & restock Revives at Mart clerk (16, 4) -> sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
 - Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:

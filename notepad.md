@@ -389,7 +389,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Whited out against Glacia's Walrein (Turn 25148) with Sage at 16 HP.
 - Whiteout reset restored all Pokémon to 100% HP and PP.
 
-## Elite Four Attempt 3 (Active)
+## Elite Four Attempt 3 (Archived Turn 25408)
+- Defeated Sidney (Turn 25213), Phoebe (Turn 25256), and Glacia (Turn 25322).
+- Drake battle: Defeated Shelgon, Flygon, and Altaria; brought Salamence to ~2% HP. SAGE grew to Lv 75. Whited out on Turn 25408.
+- Entire party 100% restored upon respawn at League entrance.
+
+## Elite Four Attempt 4 (Active)
+- Party: SAGE Lv 75 Lead (226/226 HP, Spe 221, Atk 168; Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30). All 5 reserves ready for Priority Revive Pivots.
+- Plan: Re-enter League lobby -> verify cash & restock Revives at Mart clerk (16, 4) -> sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
 - Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
@@ -5071,15 +5078,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 4 (DRAKE). Shelgon, Flygon & Altaria DEFEATED! Salamence at ~38% HP. SAGE on field at 113/226 HP. Facade is 0 PP; attacking with +1 priority Quick Attack (30/30 PP) to 2HKO Salamence and sweep Kingdra!
+- Status: ATTEMPT 4 PREPARATION. Attempt 3 concluded Turn 25408 (Sidney, Phoebe, Glacia defeated; Shelgon, Flygon, Altaria defeated). SAGE leveled to 75 (Max HP 226, Spe 221, Atk 168). Whiteout restored all 6 Pokémon to 100% HP & PP! Plan: Re-enter League lobby -> check cash / restock at Mart clerk (16, 4) -> launch Attempt 4 to conquer Sidney, Phoebe, Glacia, Drake, and Champion Wallace!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (30/30). Status: OK (Revived!). Level 75!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK (Revived!).
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on Priority Revive Pivot).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Max HP: 101. Status: FNT (Sacrificed on Priority Revive Pivot).
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 226/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored!). Level 75!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
