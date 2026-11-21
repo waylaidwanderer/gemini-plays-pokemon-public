@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 3 (GLACIA). Glalie #1 being finished with Facade. SAGE Lv 74 active at 111/223 HP. 3 Revives, 1 Hyper Potion remaining (¥10,049). Plan: KO Glalie #1, 2HKO Glalie #2 with Facade, advance to Room 4 Drake!
+- Status: ATTEMPT 3 ROOM 3 (GLACIA). Glacia down to final Pokémon Glalie #2 (Lv 52). SAGE Lv 74 active at 111/223 HP. 3 Revives, 1 Hyper Potion remaining (¥10,049). Plan: Strike Glalie #2 with Facade to claim victory, advance to Room 4 Drake!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 74) - Lead! HP: 111/223. Max HP: 223. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK (Revived!). Level 74!
