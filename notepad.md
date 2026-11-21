@@ -57,9 +57,9 @@
 
 ## Early ROM Hack Difficulty Signals
 - **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
-- **Buffed Wild Movesets/Stats:** Even the tutorial Lv 2 Zigzagoon on Route 101 knows `Swift` + `Sand-Attack` and takes 5–6 Tackles from Lv 5 Mudkip *(Verified Turns 44–49)*.
-## Verified Starter Learnset (Mudkip — Archived, Deceased Turn 380)
-- `Lv 5 Tackle` (no `Growl`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–13` *(no moves; Lv 13 Naive stats: `36 HP / 24 Atk / 20 Def / 20 SpA / 16 SpD / 19 Spe` — verified Turns 44–86)*.
+- **Buffed Wild Movesets/Stats & Held Items:** Even the tutorial Lv 2 Zigzagoon on Route 101 knows `Swift` + `Sand-Attack`, holds an HP-restoring Berry (`triggered at low HP Turn 737 #50–#51`), and takes 6–7 Tackles from Lv 5 Mudkip *(Verified Turns 44–49, 736–739)*.
+## Verified Starter Learnset (Mudkip — `Triton` Active Attempt #2; `Bayou` Deceased Turn 380)
+- `Lv 5 Tackle` (no `Growl`; `Triton` Relaxed Lv 5: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–13` *(no moves; `Triton` Relaxed Lv 11: `32 HP / 22 Atk / 19 Def / 18 SpA / 17 SpD / 14 Spe` — verified Turn 744 `#215`)*.
 
 ## Early Shop Inventories
 - **Oldale Poké Mart:**
@@ -122,6 +122,9 @@
 - **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade! *(Verified Turn 156 `#01–#48`)*.
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible, and inside NPC houses step down to an open floor row before aligning `x` with the mat *(Turns 215, 224)*.
 - **Multi-Warp Chaining & Long NPC Speeches:** Insert `sleep 2200–2400` immediately after an indoor warp step to continue overworld movement on the destination map. Long NPC speeches (such as Gym Guides, ~10–12 pages) eat subsequent directional inputs if under-counted *(Turn 515)*; clear with `12x ["B", "sleep 650"]` (harmless no-ops once closed) or verify `mgba.get_coordinates()` changes on the first post-dialogue step.
+- **Route 101 & Route 103 Zero-Grass Corridors:**
+  - **Route 103 Northbound (`0` grass tiles):** `(10, 13) -> Right x4 -> (14, 13) -> Up x6 -> (14, 7) -> Left x2, Up, Left x7 -> (5, 6) -> Up x3, Right x4 -> (9, 3)` *(Verified Turns 754–755)*.
+  - **Route 103 -> Oldale -> Route 101 Southbound Ledge Express (`0` grass tiles):** Straight `Down` column `x=10` across Route 103 and Oldale Town -> on Route 101 `(10, 0)`, `Down` to `(10, 8)` (jumps `(10, 6)` ledge), `Left` to `(9, 8)`, `Down` to `(9, 14)` (jumps `(9, 13)` ledge), `Right x2` to `(11, 14)`, `Down` into Littleroot `(11, 0)`.
 - **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) to stay well clear of the 150-button and 120s script limits.
 
 ## Menus, Bag & Berries
