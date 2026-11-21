@@ -83,7 +83,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
-  - Room 1 Sidney: Sweep with Bullet Seed / Facade / Quick Attack.
+  - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: Facade / Aerial Ace / Bullet Seed. Use Priority Revive Pivot if cursed.
   - Room 3 Glacia: Facade / Bullet Seed. Level 73 completely negates Walrein's Sheer Cold.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.

@@ -393,7 +393,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
-  - Room 1 Sidney: Sweep with Bullet Seed / Facade / Quick Attack.
+  - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
   - Room 2 Phoebe: Facade / Aerial Ace / Bullet Seed. Use Priority Revive Pivot if cursed.
   - Room 3 Glacia: Facade / Bullet Seed. Level 73 completely negates Walrein's Sheer Cold.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
@@ -5071,7 +5071,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 UNDERWAY. Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney defeated (¥4,949). Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (12/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 73!
@@ -5114,7 +5114,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥49 (restocked 8 Revives and 2 Hyper Potions Turn 25166)
+- Money: ¥4,949 (won ¥4,900 from Sidney Turn 25213; 7 Revives, 2 Hyper Potions remaining)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

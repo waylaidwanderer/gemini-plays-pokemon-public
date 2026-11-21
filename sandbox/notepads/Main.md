@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 UNDERWAY. Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney defeated (¥4,949). Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (12/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 73!
@@ -46,7 +46,7 @@
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥49 (restocked 8 Revives and 2 Hyper Potions Turn 25166)
+- Money: ¥4,949 (won ¥4,900 from Sidney Turn 25213; 7 Revives, 2 Hyper Potions remaining)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
