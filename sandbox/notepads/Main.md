@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney defeated (¥4,949). Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney and lead Dusclops Lv 48 defeated. SAGE Lv 73 actively battling Dusclops Lv 51 at 39/220 HP (Overgrow active). Cobalu fainted, 7 Revives and 2 Hyper Potions remaining (¥4,949). Plan: Defeat Dusclops Lv 51, sweep Banette x2 and Sableye, advance to Room 3 Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (12/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 73!
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 39/220. Max HP: 220. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!). Level 73!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.

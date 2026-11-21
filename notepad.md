@@ -394,7 +394,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
 - Battle Plan:
   - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
-  - Room 2 Phoebe: Facade / Aerial Ace / Bullet Seed. Use Priority Revive Pivot if cursed.
+  - Room 2 Phoebe: Lead Dusclops Lv 48 DEFEATED (Turn 25226). Actively battling Dusclops Lv 51. Strategy: Bullet Seed and Aerial Ace only (Ghost types are 100% immune to Normal-type Facade and Quick Attack). Priority Revive Pivot available if Sage faints.
   - Room 3 Glacia: Facade / Bullet Seed. Level 73 completely negates Walrein's Sheer Cold.
   - Room 4 Drake: Facade / Quick Attack / Aerial Ace.
   - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
@@ -5071,10 +5071,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney defeated (¥4,949). Restocked 8 Revives and 2 Hyper Potions (¥49 remaining). Party 100% full HP/PP! SAGE Lv 73 (Max HP 220, Atk 163, Def 118, SpAtk 178, SpDef 160, Speed 215). Plan: Advance through central gate into Elite Four chambers and sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+- Status: ATTEMPT 3 ROOM 2 (PHOEBE). Sidney and lead Dusclops Lv 48 defeated. SAGE Lv 73 actively battling Dusclops Lv 51 at 39/220 HP (Overgrow active). Cobalu fainted, 7 Revives and 2 Hyper Potions remaining (¥4,949). Plan: Defeat Dusclops Lv 51, sweep Banette x2 and Sableye, advance to Room 3 Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 110/220. Max HP: 220. Moves: Bullet Seed (30/30), Aerial Ace (12/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!). Level 73!
+1. SAGE (Sceptile ♂, Level 73) - Lead! HP: 39/220. Max HP: 220. Moves: Bullet Seed (18/30), Aerial Ace (6/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!). Level 73!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT.
@@ -5331,5 +5331,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - Torment Mechanic in Gen 3: Torment is a volatile status applied to the battler (Sage) that persists across opposing Pokémon until Sage switches out or the battle ends. Consecutive identical moves are blocked; alternating moves (e.g. Leaf Blade -> Quick Attack -> Leaf Blade) operates smoothly.
 - Elite Four Sand-Attack Counter: Opposing Mightyena frequently spams Sand-Attack on Turn 1. TM40 Aerial Ace bypasses all accuracy/evasion modifiers with guaranteed hits, preventing stalled turns or dangerous misses.
 - Elite Four Mart Liquidation: In Pokémon League lobby, excess Poké Balls and surplus healing items can be liquidated to fund maximum Revives (8x) and Hyper Potions (2x) for a near-limitless safety buffer.
+
 
 <hr>
