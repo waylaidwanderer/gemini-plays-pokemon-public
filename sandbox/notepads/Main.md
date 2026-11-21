@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: ATTEMPT 4 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥5,374). All 5 of Sidney's Pokémon conquered! SAGE Lv 75 healed to 217/226 HP with Hyper Potion (3 Revives remaining). Phoebe battle engaged! Plan: Sweep Phoebe with Bullet Seed & Aerial Ace!
+- Status: ATTEMPT 4 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥5,374). All 5 of Sidney's Pokémon conquered! SAGE Lv 75 healed to 217/226 HP with Hyper Potion (3 Revives remaining). Phoebe battle active! Dusclops #1 DEFEATED (Phoebe's Full Restore consumed). Dusclops #2 engaged! Plan: Sweep with Bullet Seed (conserving 3 Aerial Ace PP for Sableye)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 217/226. Max HP: 226. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (217/226 HP). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 193/226. Max HP: 226. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK. Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
