@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 4 Room 2 (Phoebe) active: Dusclops #1, Dusclops #2, and Banette #1 defeated! Sableye (~7 HP) engaged. Guava revitalized to 51 HP, Lilz at 42 HP (1 Revive remaining). Plan: Finish Sableye with Guava/Lilz, then sweep Banette #2!
+- Status: Attempt 4 Room 2 (Phoebe) active: Dusclops #1, Dusclops #2, and Banette #1 defeated! Sableye (~10 HP) engaged. Lilz active at 42 HP. Plan: Finish Sableye with Lilz's Surf, then face final Banette #2!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 16/226. Max HP: 226. Moves: Bullet Seed (0/30), Aerial Ace (1/20), Facade (20/20), Quick Attack (28/30). Status: OK. Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (0/30), Aerial Ace (1/20), Facade (20/20), Quick Attack (28/30). Status: FNT. Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 43/85. Max HP: 85. Status: OK (Revitalized via Revive Turn 25513!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (Sacrificed on priority Revive pivot to restore Guava to 51 HP).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Sableye Faint Attack after surviving to use Revive on Lilz).
