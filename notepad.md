@@ -395,7 +395,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Entire party 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 4 (Active)
-- Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
+- Supplies: 3 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥5,374).
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
   - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
@@ -5081,7 +5081,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: ATTEMPT 4 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥5,374). All 5 of Sidney's Pokémon conquered! SAGE Lv 75 active at 17/226 HP (3 Revives, 1 Hyper Potion remaining). Plan: Heal SAGE to 217 HP with Hyper Potion -> Advance through door to Room 2 (Phoebe)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (Revived!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 17/226. Max HP: 226. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (28/30). Status: OK (Overgrow Active!). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).

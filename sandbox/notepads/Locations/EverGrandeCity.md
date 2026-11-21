@@ -85,7 +85,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Entire party 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 4 (Active)
-- Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
+- Supplies: 3 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥5,374).
 - Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
 - Battle Log:
   - Room 1 Sidney: DEFEATED on Turn 25460! Earned ¥4,900 (Total cash: ¥5,374). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 75 active at 17/226 HP. Northern door to Room 2 unlocked!
