@@ -1,22 +1,12 @@
-# Encounter Tracker — Attempt #1
+# Encounter Tracker — Attempt #2
 
 ## Rules Reminder
 - One encounter per "Met in" location (shared across grass, water, fishing, starter, and gifts).
-- Dupes Clause active across evolution families obtained in Attempt #1.
+- Dupes Clause active across evolution families obtained in **Attempt #2** (resets each attempt).
+- **Wild Held Item & `Roar` Reminder:** Check Summary for wild held items on every catch (e.g. Route 103 `Sunkern` held `SUN STONE` in Attempt #1!), and beware `Roar` on Oldale Town custom grass `Growlithe` `(14..15, 2)`!
 
-## Locations & Encounters
-- **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified Turn 55 `#19`). **USED — DECEASED Turn 380, Deposited in PC `BOX 14` (Graveyard) Turn 494** *(crit `Pursuit` vs Team Magma Grunt's `Lv 9 Houndour`; family remains Dupes-locked)*.
-- **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
-- **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
-- **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
-- **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
-- **PETALBURG WOODS:** **Arctos** — Teddiursa (`♂`, **Relaxed** `+Def/-Spe`, Ability: **`Guts`** [buffed from vanilla `Pickup`!], Lv 8 stats: `28 HP / 19 Atk / 14 Def / 13 SpA / 15 SpD / 10 Spe`, Moves: `Scratch`, `Lick`, `Faint Attack`, Held Item: `NONE` — verified Summary Turn 323 `#288–#293` & Turn 324). **USED.**
-- **ROUTE 116:** **Joule** — Voltorb (genderless, **Bashful** neutral, Ability: **`Static`**, Lv 9 stats: `28 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe`, Moves: `ThunderShock` [30 PP], `Secret Power` [20 PP], **`Shock Wave` [20 PP — 60 BP never-miss!]**, Held Item: `NONE` — verified Summary & Party Turns 525–526 `#98, #113–#126`). **USED — DECEASED Turn 562, Deposited in PC `BOX 14` (Graveyard) Turn 580** *(OHKO'd from ~25/36 HP by `Hustle` `Lv 10 Nidoran♂`'s `Dig` in School Kid Karen & Jerry Double Battle; family remains Dupes-locked)*.
+## Locations & Encounters (Attempt #2)
+*(None yet — starting Attempt #2)*
 
-## Obtained Evolution Families (Dupes Clause)
-- Mudkip / Marshtomp / Swampert
-- Sunkern / Sunflora
-- Gulpin / Swalot
-- Cubone / Marowak
-- Teddiursa / Ursaring
-- Voltorb / Electrode
+## Obtained Evolution Families (Dupes Clause — Attempt #2)
+*(None yet)*

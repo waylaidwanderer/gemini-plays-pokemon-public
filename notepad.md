@@ -1,39 +1,31 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Encounter Tracker — Attempt #1
+# Encounter Tracker — Attempt #2
 
 ## Rules Reminder
 - One encounter per "Met in" location (shared across grass, water, fishing, starter, and gifts).
-- Dupes Clause active across evolution families obtained in Attempt #1.
+- Dupes Clause active across evolution families obtained in **Attempt #2** (resets each attempt).
+- **Wild Held Item & `Roar` Reminder:** Check Summary for wild held items on every catch (e.g. Route 103 `Sunkern` held `SUN STONE` in Attempt #1!), and beware `Roar` on Oldale Town custom grass `Growlithe` `(14..15, 2)`!
 
-## Locations & Encounters
-- **ROUTE 101:** **Bayou** — Mudkip (`♂`, Naive `+Spe/-SpD`, Ability: `Torrent`, Lv 5 stats: `20 HP / 12 Atk / 10 Def / 11 SpA [20–31 IV] / 9 SpD / 11 Spe [20–31 IV]`). Starter gift (`Met in ROUTE 101` verified Turn 55 `#19`). **USED — DECEASED Turn 380, Deposited in PC `BOX 14` (Graveyard) Turn 494** *(crit `Pursuit` vs Team Magma Grunt's `Lv 9 Houndour`; family remains Dupes-locked)*.
-- **OLDALE TOWN:** *Forfeited* — Wild `Lv 3 Growlithe` at custom grass `(14..15, 2)` broke out of Poké Ball #1 and fled via `Roar` on Turn 1 *(Turns 109–111)*. *(Note: Growlithe was NOT obtained, so Growlithe/Arcanine remains legal on future routes).*
-- **ROUTE 103:** **Girasol** — Sunkern (`♀`, **Timid** `+Spe/-Atk`, Ability: `Chlorophyll`, Lv 4 stats: `16 HP / 6 Atk / 7 Def / 8 SpA / 8 SpD / 8 Spe`, Move: `Absorb`, **wild-caught holding `SUN STONE`!** Verified Turn 123 `#43`). **USED.**
-- **ROUTE 102:** **Matcha** — Gulpin (`♀`, **Timid** `+Spe/-Atk`, Ability: `Liquid Ooze`, Lv 6 stats: `26 HP / 10 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe`, Moves: `Acid`, `Yawn`, Held Item: `NONE` — verified Summary Turn 133 `#64–#70`). **USED.**
-- **ROUTE 104:** **Calavera** — Cubone (`♂`, **Quirky** neutral, Ability: `Lightningrod`, Lv 7 stats: `24 HP / 12 Atk / 19 Def / 11 SpA / 13 SpD / 11 Spe`, Moves: `Bone Club`, `Rock Throw`, Held Item: `NONE` — verified Summary Turn 234 `#177–#182`). **USED.**
-- **PETALBURG WOODS:** **Arctos** — Teddiursa (`♂`, **Relaxed** `+Def/-Spe`, Ability: **`Guts`** [buffed from vanilla `Pickup`!], Lv 8 stats: `28 HP / 19 Atk / 14 Def / 13 SpA / 15 SpD / 10 Spe`, Moves: `Scratch`, `Lick`, `Faint Attack`, Held Item: `NONE` — verified Summary Turn 323 `#288–#293` & Turn 324). **USED.**
-- **ROUTE 116:** **Joule** — Voltorb (genderless, **Bashful** neutral, Ability: **`Static`**, Lv 9 stats: `28 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 23 Spe`, Moves: `ThunderShock` [30 PP], `Secret Power` [20 PP], **`Shock Wave` [20 PP — 60 BP never-miss!]**, Held Item: `NONE` — verified Summary & Party Turns 525–526 `#98, #113–#126`). **USED — DECEASED Turn 562, Deposited in PC `BOX 14` (Graveyard) Turn 580** *(OHKO'd from ~25/36 HP by `Hustle` `Lv 10 Nidoran♂`'s `Dig` in School Kid Karen & Jerry Double Battle; family remains Dupes-locked)*.
+## Locations & Encounters (Attempt #2)
+*(None yet — starting Attempt #2)*
 
-## Obtained Evolution Families (Dupes Clause)
-- Mudkip / Marshtomp / Swampert
-- Sunkern / Sunflora
-- Gulpin / Swalot
-- Cubone / Marowak
-- Teddiursa / Ursaring
-- Voltorb / Electrode
+## Obtained Evolution Families (Dupes Clause — Attempt #2)
+*(None yet)*
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #1
+# Nuzlocke Dashboard — Attempt #2
 
 ## Run Status
-- **Attempt:** #1 (Deaths: `2` — Bayou `Lv 13 Mudkip` Turn 380; Joule `Lv 14 Voltorb` Turn 562)
-- **ROM Hack:** Custom Emerald Hack (Team Magma swapped into Petalburg Woods; custom map area west of Littleroot Town spotted Turn 31)
+- **Attempt:** #2 (`Deaths: 0`)
+- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`3` casualties: `Bayou` Turn 380 to Houndour crit `Pursuit`; `Joule` Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Turn 705 to `Dustox` `Toxic + Confusion` self-hits while `Girasol` had only `5 EXP` cap buffer left).
+- **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
+- **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style:** `SET` & Text Speed `FAST` (Verified in-game Start Menu Turn 19)
+- **Title Screen Checklist (MUST DO ON NEW ATTEMPT):** Open `OPTIONS` -> set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`** before starting `NEW GAME`!
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
@@ -47,8 +39,8 @@
 - Champion: Lv 100
 
 ## Notepad Index
-- `Locations/Encounters` — Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
-- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics (in-battle Bag healing disabled, starter/wild/trainer buffs, learnsets, auto-refills)
+- `Locations/Encounters` — Attempt #2 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss teams, learnsets & Attempt #1 tactical lessons
 - `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart flows, Naming grid, and battle KO timings
 
 <hr>
@@ -105,6 +97,19 @@
 - **No AI Sleep Clause, Instant `Yawn` Buff & Gen 3 `Spore` Counterplay:**
   - **`Yawn` Buffed to Instant Sleep (Player & Enemy!):** Both enemy `Lv 9 Squirtle`'s `Yawn` *(Turn 464 `#59–#65`)* and our own **`Matcha`'s `Yawn` (`10 PP`, Normal-type)** *(Verified Turn 566 `#76–#84` vs `Lv 10 Phanpy`)* put the target to sleep **immediately on the same turn** rather than at the end of the next turn!
   - Enemy trainers can inflict `SLP` on multiple party members simultaneously *(Turn 272)*, and Grass-types are NOT immune to `Spore`/`Sleep Powder` in Gen 3. Against a slower `Spore`/`Yawn` user (`Lv 9 Paras`, `Lv 9 Squirtle`), staying in with a faster `Oran Berry` holder lets you wake up, move first, and KO before it can re-sleep a switch-in *(Verified Turns 353–356 & 465)*.
+
+## Additional Verified Data & Attempt #1 Post-Mortem (Turn 713)
+- **Sunflora `Lv 17` Stats:** No move learned at `Lv 17` (`Timid Lv 17 stats: 52 HP / 27 Atk / 24 Def / 43 SpA / 38 SpD / 18 Spe` — verified Turn 712 `#32`).
+- **Route 116 Wild & Trainer Intel:**
+  - **Route 116 Wild Pool Clue:** `Lv 9 Voltorb` (`Static`, starts with `ThunderShock`, `Secret Power`, `Shock Wave`).
+  - **School Kid Karen `(16, 8)` & Jerry `(18, 10)`:** Stepping onto `(16, 10)` triggers a dangerous 6-Pokémon Double Battle (`Totodile/Chikorita/Cyndaquil` + `Hustle Nidoran♂ [Rock Tomb, Dig] / Phanpy / Shuppet`)! **Split them into 1-on-1s** by talking to Karen `(16, 8)` from `(15, 8)` first!
+  - **Lady Sarah `(16, 13)` & Rich Boy Dawson `(21, 13)`:** Face each other across `y=13`; **split into 1-on-1s** from `(16, 12)` (`Sarah: Lv 10 Spoink, Bellsprout, Meowth` -> `¥2,000`; `Dawson: Lv 10 Swinub [Ice Shard!], Lv 10 Mareep, Lv 9 Aipom` -> `¥2,000`).
+  - **Hiker Clark `(31, 13)` & Lass Janice `(31, 17)`:** Face each other across `x=31`; **split into 1-on-1s** from `(30, 13)` (`Clark: Lv 10 Slugma, Teddiursa, Gulpin`; `Janice: Lv 10 Jigglypuff [Sing/Tickle/Present], Lv 10 Nidoran♀ [Toxic/Bite], Lv 9 Marill [Huge Power Secret Power/BubbleBeam]`).
+  - **Bug Maniac Jose `(36, 12)` (5-Tile Sight Hazard!):** Faces `Down` with **5-tile sight all the way to `(36, 17)`** (`cannot be bypassed on foot!`): **2 Pokémon** — `#1 Lv 10 Dustox ♂` (`Iron Defense`, `Light Screen`, `Toxic`, `Confusion`, held `Sitrus Berry`), `#2 Lv 10 Beautifly ♂` *(Verified Turns 695–713)*.
+- **Attempt #1 Post-Mortem & Core Tactical Rules for Attempt #2:**
+  1. **Keep Active Squad at `Cap - 2` (`Lv 13–14` pre-Roxanne) Until All Routes/Tunnels Are Cleared:** Over-leveling party members to `Lv 15–16` early forced us to box teammates and enter eastern Route 116 with only 2 Pokémon near `Lv 17`, causing a Rule 5 level-cap wipeout against Bug Maniac Jose `(36, 12)`. Always maintain `1,500+ EXP` buffer across 5–6 active Pokémon during route exploration, candying to `Lv 16` only right before Roxanne!
+  2. **Respect `Pursuit` on Dark-Types:** Bayou (`Lv 13 Mudkip`) died switching out at `26/36 HP` vs Petalburg Woods Magma Grunt's `Lv 9 Houndour` (`Turn 380`). Mudkip's STAB `Water Gun` beats `Houndour` 1v1 if healthy—never switch out in `Pursuit` range!
+  3. **Respect `Guts` Confusion Self-Damage:** `Guts` (`1.5x Atk`) boosts confusion self-hits by `1.5x` (`15` damage on `Arctos` Turn 698)! Never leave a `Guts` physical attacker in against `Toxic + Confusion + Iron Defense` `Dustox`; hit `Dustox` with Rock/Fire/Flying/Psychic moves instead.
 
 <hr>
 
@@ -171,18 +176,12 @@
   - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball) and `Bug Maniac (36, 12)` (faces `Down` — bypass 5 tiles south along `y=17`). *(Lady Sarah, Rich Boy Dawson, Youngster Joey, Hiker Clark, and Lass Janice are all DEFEATED!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 697 — CRITICAL 2-POKÉMON CAP SEQUENCING VS BUG MANIAC JOSE AT (36, 17)!)
-- **CRITICAL NUZLOCKE CAP RULE FOR THIS 2-POKÉMON BATTLE (`Bug Maniac Jose` at `(36, 12)`, 5-tile sight to `(36, 17)`, **2 Pokémon total**):**
-  1. **`Arctos` (`Slot 1`, `Lv 16`, `16 EXP` left) MUST SOLO `#1 Lv 10 Dustox ♂` (`DO NOT SWITCH GIRASOL IN ON #1 DUSTOX`, or both would hit `Lv 17` before #2 -> Rule 5 wipeout!)** — use `Swift` (`Physical`) and **`Faint Attack` (`Slot 3`, Dark = SPECIAL in Gen 3, completely ignores `Dustox`'s `Iron Defense`!)**.
-  2. When `#1 Dustox` faints and `Arctos` hits `Lv 17`: **ON TURN 1 OF POKÉMON #2**, immediately call `set_pokemon_status(party_slot=1, status="retired", reason="Reached Lv 17 vs Bug Maniac Jose's Dustox")` AND **switch `Arctos` out immediately for `Slot 2: Lv 16 Girasol`** (`5 EXP` left, 100% legal on #2; use `Growth` + `Synthesis` + `Mega Drain`/`Absorb` to solo #2!).
-  3. Once #2 faints (`ending the battle`), call `set_pokemon_status(party_slot=2, status="retired", ...)` on `Lv 17 Girasol`, return to **Rustboro PC** to **withdraw `ACTIVE Lv 16 Matcha` from `BOX 1`** and deposit retired `Arctos` & `Girasol` into `BOX 1`, then return to **Rusturf Tunnel** (`all Route 116 trainers along our path are now 100% cleared!`) to catch our legal encounter and sweep **Roxanne** with `Lv 16 Matcha` + `Lv 16 Rusturf Tunnel catch` (`unbenching Calavera, Arctos, and Girasol immediately post-Roxanne`)!
-- **Active Party (`AT_CAP` — Cap = Lv 16 — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Arctos (`Lv 16 Teddiursa ♂` — `ACTIVE` [`NEXT LV.: 16 EXP`], `41/46 HP`, Healthy, `ORAN BERRY`):** `Swift [16/20 PP]`, `Lick`, **`Faint Attack [20/20 PP — Special!]`**, `Refresh [5/5 PP]` (`34 Atk / 21 SpA`, `Guts`).
-  2. **Girasol (`Lv 16 Sunflora ♀` — `ACTIVE` [`NEXT LV.: 5 EXP` — SAVE STRICTLY FOR POKÉMON #2!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]`, `Synthesis [5/5 PP]` (`41 SpA / 36 SpD`).
-  - **Resting in `BOX 1`:**
-    - **Matcha (`Lv 16 Gulpin ♀` — `ACTIVE` [~60 EXP left; withdraw right after Bug Maniac Jose!], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
-    - **Calavera (`Lv 17 Cubone ♂` — `RETIRED` until post-Roxanne, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Dig [60 BP]`, `Headbutt` (`40 Def!`, `Lightningrod`).
-- **Wallet & Bag Inventory:**
-  - **Cash:** `¥9,720+` | **Non-Refilling:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x0` *(~72 steps active on current Repel!)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS`)*, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2` | **Auto-Refilling (`x99`):** `Rare Candy`, `Cheri Berry`, `Oran Berry`, `Pecha Berry`.
+## Attempt #2 Early-Game Fast-Track Plan (Turn 714 — Fresh Start!)
+1. **Title Screen Options (`MANDATORY FIRST STEP`):** Open `OPTIONS` -> set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`** -> start `NEW GAME` (Girl, custom creative name or `Gem`).
+2. **Littleroot -> Route 103 Rival May #1:** Grab PC Potion, set clock, trigger May upstairs next door, pick **Mudkip** (`Water/Ground` core dominates Roxanne, Magma Grunt's `Houndour` [stay in & `Water Gun`—never switch into `Pursuit`!], and Wattson!), candy Mudkip only to **`Lv 11–12`** (`saving massive EXP buffer!`), beat May #1 on Route 103, get Pokédex + `5` Poké Balls + Running Shoes.
+3. **Early Encounters & Berry Unlocks (`Keep All Party Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
+   - Buy `20+` Poké Balls (`¥10` each + Premier Ball!) at Oldale Poké Mart.
+   - Catch encounters on **Oldale Town `(14..15, 2)`** (`watch out for Growlithe Roar!`), **Route 103**, **Route 102** (`harvest Oran + Pecha Berries at (24..25, 2) for infinite x99 refills!`), **Route 104**, **Petalburg Woods** (`split Magma Grunt safely, keep Mudkip healthy for Houndour!`), **Route 116** (`split Karen & Jerry from (15, 8), Sarah & Dawson from (16, 12), Clark & Janice from (30, 13), and clear Bug Maniac Jose at (36, 12)`), and **Rusturf Tunnel**!
+   - Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), candy full squad to **`Lv 16`**, and sweep **Roxanne**!
 
 <hr>

@@ -20,16 +20,10 @@
   - **Route 116:** `Bug Catcher Jose (10, 7)` (guards `(13, 18)` item ball) and `Bug Maniac (36, 12)` (faces `Down` — bypass 5 tiles south along `y=17`). *(Lady Sarah, Rich Boy Dawson, Youngster Joey, Hiker Clark, and Lass Janice are all DEFEATED!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
-## Live Tactical State (Turn 697 — CRITICAL 2-POKÉMON CAP SEQUENCING VS BUG MANIAC JOSE AT (36, 17)!)
-- **CRITICAL NUZLOCKE CAP RULE FOR THIS 2-POKÉMON BATTLE (`Bug Maniac Jose` at `(36, 12)`, 5-tile sight to `(36, 17)`, **2 Pokémon total**):**
-  1. **`Arctos` (`Slot 1`, `Lv 16`, `16 EXP` left) MUST SOLO `#1 Lv 10 Dustox ♂` (`DO NOT SWITCH GIRASOL IN ON #1 DUSTOX`, or both would hit `Lv 17` before #2 -> Rule 5 wipeout!)** — use `Swift` (`Physical`) and **`Faint Attack` (`Slot 3`, Dark = SPECIAL in Gen 3, completely ignores `Dustox`'s `Iron Defense`!)**.
-  2. When `#1 Dustox` faints and `Arctos` hits `Lv 17`: **ON TURN 1 OF POKÉMON #2**, immediately call `set_pokemon_status(party_slot=1, status="retired", reason="Reached Lv 17 vs Bug Maniac Jose's Dustox")` AND **switch `Arctos` out immediately for `Slot 2: Lv 16 Girasol`** (`5 EXP` left, 100% legal on #2; use `Growth` + `Synthesis` + `Mega Drain`/`Absorb` to solo #2!).
-  3. Once #2 faints (`ending the battle`), call `set_pokemon_status(party_slot=2, status="retired", ...)` on `Lv 17 Girasol`, return to **Rustboro PC** to **withdraw `ACTIVE Lv 16 Matcha` from `BOX 1`** and deposit retired `Arctos` & `Girasol` into `BOX 1`, then return to **Rusturf Tunnel** (`all Route 116 trainers along our path are now 100% cleared!`) to catch our legal encounter and sweep **Roxanne** with `Lv 16 Matcha` + `Lv 16 Rusturf Tunnel catch` (`unbenching Calavera, Arctos, and Girasol immediately post-Roxanne`)!
-- **Active Party (`AT_CAP` — Cap = Lv 16 — Roxanne [Rock-type] | Deaths = 2):**
-  1. **Arctos (`Lv 16 Teddiursa ♂` — `ACTIVE` [`NEXT LV.: 16 EXP`], `41/46 HP`, Healthy, `ORAN BERRY`):** `Swift [16/20 PP]`, `Lick`, **`Faint Attack [20/20 PP — Special!]`**, `Refresh [5/5 PP]` (`34 Atk / 21 SpA`, `Guts`).
-  2. **Girasol (`Lv 16 Sunflora ♀` — `ACTIVE` [`NEXT LV.: 5 EXP` — SAVE STRICTLY FOR POKÉMON #2!], `50/50 HP`, Healthy, `ORAN BERRY`):** `Absorb`, `Growth [5/5 PP]`, `Mega Drain [10/10 PP]`, `Synthesis [5/5 PP]` (`41 SpA / 36 SpD`).
-  - **Resting in `BOX 1`:**
-    - **Matcha (`Lv 16 Gulpin ♀` — `ACTIVE` [~60 EXP left; withdraw right after Bug Maniac Jose!], `53/53 HP`, `ORAN BERRY`):** `Acid`, `Yawn`, `Fire Punch`, `Sludge Bomb` (`Liquid Ooze`).
-    - **Calavera (`Lv 17 Cubone ♂` — `RETIRED` until post-Roxanne, `ORAN BERRY`):** `Bone Club`, `Rock Throw`, `Dig [60 BP]`, `Headbutt` (`40 Def!`, `Lightningrod`).
-- **Wallet & Bag Inventory:**
-  - **Cash:** `¥9,720+` | **Non-Refilling:** `HM01 (Cut)`, `TM09 (Bullet Seed)`, `Fluffy Tail x1`, `Repel x0` *(~72 steps active on current Repel!)*, `Great Ball x1`, `Poké Ball x89` *(Bag pre-set to `POKé BALLS`)*, `Premier Ball x1`, `Super Potion x1`, `Potion x5`, `Antidote x2`, `Parlyz Heal x3`, `Awakening x1`, `Burn Heal x2` | **Auto-Refilling (`x99`):** `Rare Candy`, `Cheri Berry`, `Oran Berry`, `Pecha Berry`.
+## Attempt #2 Early-Game Fast-Track Plan (Turn 714 — Fresh Start!)
+1. **Title Screen Options (`MANDATORY FIRST STEP`):** Open `OPTIONS` -> set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`** -> start `NEW GAME` (Girl, custom creative name or `Gem`).
+2. **Littleroot -> Route 103 Rival May #1:** Grab PC Potion, set clock, trigger May upstairs next door, pick **Mudkip** (`Water/Ground` core dominates Roxanne, Magma Grunt's `Houndour` [stay in & `Water Gun`—never switch into `Pursuit`!], and Wattson!), candy Mudkip only to **`Lv 11–12`** (`saving massive EXP buffer!`), beat May #1 on Route 103, get Pokédex + `5` Poké Balls + Running Shoes.
+3. **Early Encounters & Berry Unlocks (`Keep All Party Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
+   - Buy `20+` Poké Balls (`¥10` each + Premier Ball!) at Oldale Poké Mart.
+   - Catch encounters on **Oldale Town `(14..15, 2)`** (`watch out for Growlithe Roar!`), **Route 103**, **Route 102** (`harvest Oran + Pecha Berries at (24..25, 2) for infinite x99 refills!`), **Route 104**, **Petalburg Woods** (`split Magma Grunt safely, keep Mudkip healthy for Houndour!`), **Route 116** (`split Karen & Jerry from (15, 8), Sarah & Dawson from (16, 12), Clark & Janice from (30, 13), and clear Bug Maniac Jose at (36, 12)`), and **Rusturf Tunnel**!
+   - Check southeast 3-story **Rustboro Apartments** (`near (26, 45)`), candy full squad to **`Lv 16`**, and sweep **Roxanne**!

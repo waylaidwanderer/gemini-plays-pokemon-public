@@ -1,10 +1,12 @@
-# Nuzlocke Dashboard — Attempt #1
+# Nuzlocke Dashboard — Attempt #2
 
 ## Run Status
-- **Attempt:** #1 (Deaths: `2` — Bayou `Lv 13 Mudkip` Turn 380; Joule `Lv 14 Voltorb` Turn 562)
-- **ROM Hack:** Custom Emerald Hack (Team Magma swapped into Petalburg Woods; custom map area west of Littleroot Town spotted Turn 31)
+- **Attempt:** #2 (`Deaths: 0`)
+- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`3` casualties: `Bayou` Turn 380 to Houndour crit `Pursuit`; `Joule` Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Turn 705 to `Dustox` `Toxic + Confusion` self-hits while `Girasol` had only `5 EXP` cap buffer left).
+- **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
+- **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style:** `SET` & Text Speed `FAST` (Verified in-game Start Menu Turn 19)
+- **Title Screen Checklist (MUST DO ON NEW ATTEMPT):** Open `OPTIONS` -> set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`** before starting `NEW GAME`!
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
@@ -18,6 +20,6 @@
 - Champion: Lv 100
 
 ## Notepad Index
-- `Locations/Encounters` — Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
-- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics (in-battle Bag healing disabled, starter/wild/trainer buffs, learnsets, auto-refills)
+- `Locations/Encounters` — Attempt #2 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss teams, learnsets & Attempt #1 tactical lessons
 - `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart flows, Naming grid, and battle KO timings
