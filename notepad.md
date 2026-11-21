@@ -395,16 +395,15 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Entire party 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 4 (Active)
-- Party: SAGE Lv 75 Lead (226/226 HP, Spe 221, Atk 168; Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30). All 5 reserves ready for Priority Revive Pivots.
-- Plan: Room 1 Sidney actively underway! Mightyena Lv 46 DEFEATED! Absol Lv 49 took ~75% damage from Aerial Ace, used Swords Dance (0 damage). SAGE active at 159/226 HP at 221 Speed. Conquering Absol -> Shiftry/Cacturne/Crawdaunt -> Phoebe -> Glacia -> Drake -> Champion Wallace!
-- Restocked at Mart (Turn 25166): Liquidated excess Poké Balls and sold 3 Full Heals to reach ¥14,449. Purchased 8 Revives and 2 Hyper Potions (¥49 remaining).
-- Party Status: SAGE Lv 73 Lead (220/220 HP, Atk 163, Def 118, SpAtk 178, SpDef 160, Spe 215). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 reserves ready for Priority Revive Pivots.
-- Battle Plan:
-  - Room 1 Sidney: DEFEATED on Turn 25213! Earned ¥4,900 (Total cash: ¥4,949). Cobalu sacrificed for Revive pivot; Sage Lv 73 active at 110/220 HP. Northern door unlocked!
-  - Room 2 Phoebe: DEFEATED on Turn 25256! Earned ¥5,100 (Total Cash: ¥10,049). Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, and Banette Lv 49 all conquered! Northern door to Room 3 unlocked!
-  - Room 3 Glacia: DEFEATED on Turn 25322! Earned ¥5,300 (Total Cash: ¥15,349). Sealeo x2, Walrein Lv 53, Glalie x2 all conquered! SAGE fully restored to 223/223 HP with Hyper Potion. Northern door unlocked.
-  - Room 4 Drake: ACTIVELY UNDERWAY! Shelgon, Flygon & Altaria DEFEATED! Salamence at ~38% HP. SAGE REVIVED to 113/226 HP at full 168 Attack & 221 Speed! Guava sacrificed as pivot. Sending in SAGE to finish Salamence and sweep Kingdra!
-  - Champion Wallace: Bullet Seed OHKO Wailord; use Priority Revive Pivot against Milotic if needed, then sweep remaining team with Bullet Seed / Facade.
+- Supplies: 4 Revives, 1 Hyper Potion, 2 Full Heals, 1 Master Ball (Cash: ¥474).
+- Party Status: SAGE Lv 75 (0/226 HP, FNT, priority Revive target). All 5 reserves (Lilz, Cipher, Cobalu, Mochi, Guava) at 100% full health ready for Priority Revive Pivots.
+- Battle Log:
+  - Room 1 Sidney: Mightyena Lv 46 DEFEATED (Sidney burned Full Restore!). Absol Lv 49 at ~25% HP. SAGE fainted to critical Aerial Ace. Sending in pivot -> priority Revive on SAGE -> SAGE finishes Absol and sweeps Shiftry, Cacturne, Crawdaunt!
+  - Room 2 Phoebe: Pending.
+  - Room 3 Glacia: Pending.
+  - Room 4 Drake: Pending.
+  - Champion Wallace: Pending.
+
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
