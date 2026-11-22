@@ -97,12 +97,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Active)
-- Status: SAGE Lv 77 (213/231 HP, Spe 227). Sidney (Room 1) and Phoebe (Room 2) BOTH DEFEATED! Cash: ¥10,043. In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals. Room 3 Glacia battle active!
+- Status: SAGE Lv 77 (213/231 HP, Spe 227). Sidney (Room 1) and Phoebe (Room 2) BOTH DEFEATED! Cash: ¥10,043. In Bag: 2 Revives, 3 Hyper Potions, 3 Full Heals. Room 3 Glacia battle active!
 - Supplies confirmed: 2 Revives, 3 Hyper Potions, 3 Full Heals, ¥10,043 cash.
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
   - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
-  - Room 3 Glacia: Sealeo #1 Lv 50 DEFEATED! Sealeo #2 Lv 52 DEFEATED! Walrein Lv 53 engaged! SAGE Lv 77 (66/231 HP, Overgrow active!). Unleashing Overgrow 4.5x boosted Bullet Seed!
+  - Room 3 Glacia: Sealeo #1 Lv 50 DEFEATED! Sealeo #2 Lv 52 DEFEATED! Walrein Lv 53 DEFEATED (Turn 25800)! Glacia has 2 Glalie remaining (Lv 50, Lv 52) and 1 Full Restore. SAGE Lv 77 (66/231 HP, Overgrow active!).
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
 
