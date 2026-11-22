@@ -97,8 +97,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Active)
-- Status: SAGE Lv 77 (213/231 HP, Spe 227). Sidney (Room 1) and Phoebe (Room 2) BOTH DEFEATED! Cash: ¥10,043. In Bag: 2 Revives, 3 Hyper Potions, 3 Full Heals. Room 3 Glacia battle active!
-- Supplies confirmed: 2 Revives, 3 Hyper Potions, 3 Full Heals, ¥10,043 cash.
+- Status: SAGE Lv 77 (213/231 HP, Spe 227). Sidney (Room 1) and Phoebe (Room 2) BOTH DEFEATED! Cash: ¥10,043. In Bag: 2 Revives, 2 Hyper Potions, 3 Full Heals. Room 3 Glacia battle active!
+- Supplies confirmed: 2 Revives, 2 Hyper Potions, 3 Full Heals, ¥10,043 cash.
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
   - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
