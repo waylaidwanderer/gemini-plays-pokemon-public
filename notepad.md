@@ -5089,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! SAGE Lv 76 (180/228 HP, Spe 224). Sidney's Mightyena and Absol defeated in Room 1! Aerial Ace PP conserved (20/20). In Bag: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash.
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED! Earned ¥4,900 (Total cash: ¥4,943). SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP). In Bag: 5 Revives, 7 Hyper Potions, 3 Full Heals. Advancing through northern door to Grand Staircase 2 to heal Sage and challenge Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 76!
