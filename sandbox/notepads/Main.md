@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 77 (231/231 HP). In Bag: 1 Revive, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 77 (231/231 HP). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 0/234. Max HP: 234. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (20/30). Status: FNT (ready to be revived with final Revive!).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Max HP: 85. Status: OK (Active sacrifice on field!).
+1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 117/234. Max HP: 234. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (20/30). Status: OK (Revived to 117 HP! Intimidate wiped, full 174 Attack & 230 Speed!).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing Sacrificial Revive vs Salamence).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Max HP: 41. Status: FNT (fainted executing Sacrificial Revive vs Salamence).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
@@ -29,7 +29,7 @@
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x1 (1 remaining in Bag; 1 used Turn 25854 on Sage)
+- Revive x0 (2 used in Attempt 6: Turn 25854 on Lilz, Turn 25858 on Sage; 0 remaining)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
