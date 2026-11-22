@@ -21,8 +21,8 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Route 115 `(20, 60)` -> Heading to Route 116):**
-  - `Slot 1: Freya` (Lv 13 Snubbull, `41/41 HP`, `26 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
+- **Current Resources (Entering Route 116 `(0, 11)` — Ready for Slot 6 Encounter!):**
+  - `Slot 1: Freya` (Lv 13 Snubbull, `41/41 HP`, `26 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar` — `Lick` deals tiny chip + 30% PAR for safe catching!)
   - `Slot 2: Mandrake` (Lv 13 Oddish, `35/35 HP`, `26 SpA`, `Oran Berry`, `Mega Drain / Acid`)
   - `Slot 3: Zephyr` (Lv 13 Hoppip, `33/33 HP`, `19 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain / Gust`)
   - `Slot 4: Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
@@ -30,4 +30,4 @@
   - `Slot 6: [OPEN FOR ROUTE 116 ENCOUNTER!]` (`Inari` deposited in `BOX 14` Turn 1092)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 2 Premier Balls`, **`3 Repels`**, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 116 & Rusturf Tunnel -> Roxanne:** Return through Rustboro City to **Route 116**, catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 12–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
+  - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters *(throw `Great Ball` Turn 1 if `Abra`; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 12–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
