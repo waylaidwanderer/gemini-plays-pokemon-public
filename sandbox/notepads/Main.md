@@ -3,15 +3,15 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 DEFEATED! Dusclops #2 at ~6-8 HP. SAGE fell to Ice Beam. Lilz (85/85 HP) active on forced switch! Plan: Lilz finishes Dusclops 2 with Surf, then takes on Banettes & Sableye!
+- Status: Attempt 6 PREPARATION! Attempt 5 concluded in Room 2 (Phoebe). SAGE achieved Level 76 (228 HP, Spe 224). All 6 Pokémon 100% restored (HP/PP). Cash: ¥3,043. Plan: Enter lobby, purchase 2 Revives at Mart, launch Attempt 6 with 18+ Aerial Ace PP conserved for Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Active! HP: 0/228. Max HP: 228. Moves: Bullet Seed (21/30), Aerial Ace (9/20), Facade (13/20), Quick Attack (29/30). Status: FNT. Level 76!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: OK (100% Restored!).
-3. CIPHER (Kadabra ♂, Level 16) - Active! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Absol +2 Rock Slide after reviving SAGE).
+1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 76!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (14/15). HP: 0/101. Max HP: 101. Status: FNT (Fainted to Dusclops 2 Ice Beam on Fly impact).
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
@@ -46,7 +46,7 @@
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥6,087 (halved to ¥2,687 on whiteout, ¥1,500 spent on 1 Revive for Attempt 5)
+- Money: ¥3,043 (halved from ¥6,087 upon whiteout; funds 2 Revives at ¥1,500 each)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary

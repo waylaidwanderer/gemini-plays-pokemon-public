@@ -90,16 +90,21 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Grudge wiped SAGE's Bullet Seed to 0 PP. SAGE fell to Shadow Ball; Lilz, Guava, Cobalu, Cipher fell to Sableye.
 - Whited out on Turn 25530. All 6 Pokémon 100% restored (HP/PP) at League entrance.
 
-## Elite Four Attempt 5 (Active)
-- Supplies & Prep: SAGE Lv 75 at 226/226 HP with all 5 reserves at 100% full health/PP.
-- Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
-- Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
-- Battle Roadmap:
-  - Room 1 Sidney: DEFEATED on Turn 25578! Earned ¥4,900 (Total cash: ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) all conquered! SAGE Lv 76 active at 115/228 HP (Aerial Ace 15/20 PP, Bullet Seed 29/30 PP). Northern door to Room 2 open!
-  - Room 2 Phoebe: ACTIVE! Lead Dusclops Lv 48 engaged. Dusclops 1 DEFEATED! Dusclops 2 down to ~6-8 HP in red. SAGE fell to Ice Beam. Lilz (85/85 HP) active on field. Firing Surf to finish Dusclops 2 (~6-8 HP)!
-  - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
-  - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
-  - Champion Wallace: Sweep with Bullet Seed (Wailord, Whiscash 4x, Milotic, Tentacruel, Gyarados, Ludicolo) and Quick Attack!
+## Elite Four Attempt 5 (Archived Turn 25608)
+- Defeated Sidney in Room 1 (Earned ¥4,900, total cash ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) conquered!
+- SAGE reached Level 76 (Max HP 228, Atk 170, Def 124, SpA 185, SpD 166, Spe 224)!
+- Room 2 Phoebe: Dusclops 1 defeated (burned Phoebe's Full Restore). Dusclops 2 reduced to ~1 HP. Whited out on Turn 25608.
+- All 6 Pokémon 100% restored upon respawn at League entrance.
+
+## Elite Four Attempt 6 (Active)
+- Status: SAGE Lv 76 at 228/228 HP with full PP (Bullet Seed 30, Aerial Ace 20, Facade 20, Quick Attack 30).
+- Wallet funds: ¥3,043. Purchasing 2 Revives (¥3,000) at Mart clerk in lobby.
+- Battle Plan:
+  - Room 1 Sidney: Facade Mightyena/Absol, Aerial Ace Shiftry (1 PP) & Cacturne (1 PP), Bullet Seed Crawdaunt. (Conserve 18 Aerial Ace PP!).
+  - Room 2 Phoebe: Sweep with Aerial Ace (Dusclops x2, Banette x2, Sableye). 18 PP available (only ~11 PP needed!).
+  - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
+  - Room 4 Drake: Aerial Ace & Quick Attack.
+  - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
 
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.

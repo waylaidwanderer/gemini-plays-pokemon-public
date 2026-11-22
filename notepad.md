@@ -400,16 +400,21 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Grudge wiped SAGE's Bullet Seed to 0 PP. SAGE fell to Shadow Ball; Lilz, Guava, Cobalu, Cipher fell to Sableye.
 - Whited out on Turn 25530. All 6 Pokémon 100% restored (HP/PP) at League entrance.
 
-## Elite Four Attempt 5 (Active)
-- Supplies & Prep: SAGE Lv 75 at 226/226 HP with all 5 reserves at 100% full health/PP.
-- Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
-- Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
-- Battle Roadmap:
-  - Room 1 Sidney: DEFEATED on Turn 25578! Earned ¥4,900 (Total cash: ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) all conquered! SAGE Lv 76 active at 115/228 HP (Aerial Ace 15/20 PP, Bullet Seed 29/30 PP). Northern door to Room 2 open!
-  - Room 2 Phoebe: ACTIVE! Lead Dusclops Lv 48 engaged. Dusclops 1 DEFEATED! Dusclops 2 down to ~6-8 HP in red. SAGE fell to Ice Beam. Lilz (85/85 HP) active on field. Firing Surf to finish Dusclops 2 (~6-8 HP)!
-  - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
-  - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
-  - Champion Wallace: Sweep with Bullet Seed (Wailord, Whiscash 4x, Milotic, Tentacruel, Gyarados, Ludicolo) and Quick Attack!
+## Elite Four Attempt 5 (Archived Turn 25608)
+- Defeated Sidney in Room 1 (Earned ¥4,900, total cash ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) conquered!
+- SAGE reached Level 76 (Max HP 228, Atk 170, Def 124, SpA 185, SpD 166, Spe 224)!
+- Room 2 Phoebe: Dusclops 1 defeated (burned Phoebe's Full Restore). Dusclops 2 reduced to ~1 HP. Whited out on Turn 25608.
+- All 6 Pokémon 100% restored upon respawn at League entrance.
+
+## Elite Four Attempt 6 (Active)
+- Status: SAGE Lv 76 at 228/228 HP with full PP (Bullet Seed 30, Aerial Ace 20, Facade 20, Quick Attack 30).
+- Wallet funds: ¥3,043. Purchasing 2 Revives (¥3,000) at Mart clerk in lobby.
+- Battle Plan:
+  - Room 1 Sidney: Facade Mightyena/Absol, Aerial Ace Shiftry (1 PP) & Cacturne (1 PP), Bullet Seed Crawdaunt. (Conserve 18 Aerial Ace PP!).
+  - Room 2 Phoebe: Sweep with Aerial Ace (Dusclops x2, Banette x2, Sableye). 18 PP available (only ~11 PP needed!).
+  - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
+  - Room 4 Drake: Aerial Ace & Quick Attack.
+  - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
 
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
@@ -5084,15 +5089,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 DEFEATED! Dusclops #2 at ~6-8 HP. SAGE fell to Ice Beam. Lilz (85/85 HP) active on forced switch! Plan: Lilz finishes Dusclops 2 with Surf, then takes on Banettes & Sableye!
+- Status: Attempt 6 PREPARATION! Attempt 5 concluded in Room 2 (Phoebe). SAGE achieved Level 76 (228 HP, Spe 224). All 6 Pokémon 100% restored (HP/PP). Cash: ¥3,043. Plan: Enter lobby, purchase 2 Revives at Mart, launch Attempt 6 with 18+ Aerial Ace PP conserved for Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Active! HP: 0/228. Max HP: 228. Moves: Bullet Seed (21/30), Aerial Ace (9/20), Facade (13/20), Quick Attack (29/30). Status: FNT. Level 76!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: OK (100% Restored!).
-3. CIPHER (Kadabra ♂, Level 16) - Active! Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Absol +2 Rock Slide after reviving SAGE).
+1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 76!
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (14/15). HP: 0/101. Max HP: 101. Status: FNT (Fainted to Dusclops 2 Ice Beam on Fly impact).
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
 ## Bag Highlights
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
@@ -5127,7 +5132,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥6,087 (halved to ¥2,687 on whiteout, ¥1,500 spent on 1 Revive for Attempt 5)
+- Money: ¥3,043 (halved from ¥6,087 upon whiteout; funds 2 Revives at ¥1,500 each)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
