@@ -12,12 +12,14 @@
 - **Oldale Town:** `Vulpix` ♀ (**`Inari`**, custom **`Pressure`** ability!, **Hasty** `+Spe/-Def`, held **`RAWST BERRY`** [unlocked `x99` refills!], Lv 5 stats: `19 HP / 10 Atk / 8 Def / 11 SpA / 12 SpD / 12 Spe`, moves: `Ember / Quick Attack` — caught Turn 765)
 - **Route 103:** `Hoppip` ♂ (**`Zephyr`**, `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
 - **Route 102:** `Sandshrew` ♀ (**`Gaia`**, `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe`, moves: `Scratch / Poison Sting` — caught Turn 790)
+- **Route 104:** `Snubbull` ♀ (**`Freya`**, caught at Lv 7 Turn 836 — checking Summary next!)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #2)
 - Mudkip / Marshtomp / Swampert
 - Vulpix / Ninetales
 - Hoppip / Skiploom / Jumpluff
 - Sandshrew / Sandslash
+- Snubbull / Granbull
 
 <hr>
 
@@ -200,9 +202,9 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Petalburg City):** `Inari` (Lv 12 Vulpix), `Triton` (Lv 11 Mudkip), `Zephyr` (Lv 10 Hoppip), `Gaia` (Lv 11 Sandshrew) — all full HP/PP holding `Oran Berries`; **`Oran`, `Pecha`, & `Rawst Berry x99` ALL UNLOCKED**; `19 Poké Balls + 1 Premier Ball`, **`6 Repels`**, `3 Potions`, `1 Antidote`, `2 Parlyz Heals`, `2 Awakenings`, `¥636`.
+- **Current Resources (Route 104 South):** `Triton` (Lv 11 Mudkip), `Inari` (Lv 12 Vulpix), `Zephyr` (Lv 10 Hoppip), `Gaia` (Lv 11 Sandshrew), `Freya` (Lv 7 Snubbull — Route 104 catch!); **`Oran`, `Pecha`, & `Rawst Berry x99` ALL UNLOCKED**; `18 Poké Balls + 1 Premier Ball`, **`6 Repels`**, `3 Potions`, `1 Antidote`, `2 Parlyz Heals`, `2 Awakenings`, `¥636`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 104 South -> Petalburg Woods:** Catch **Route 104** & **Petalburg Woods** encounters (`completing 6-Pokémon squad!`), clear Route 104 South beach trainers (`lead Zephyr/Triton vs Fisherman Darian!`), grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, and defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
+  - **Route 104 South -> Petalburg Woods:** Clear Route 104 South trainers (`lead Zephyr/Triton vs Fisherman Darian!`), catch **Petalburg Woods** encounter (`completing 6-Pokémon squad!`), grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, and defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
   - **Route 104 North -> Rustboro City -> Route 115:** Harvest **`(3, 25)` Cheri Berries (`x99` unlock!)**, talk to `(5, 19)` boy for **`TM09 Bullet Seed`**, grab behind-shop `Potion` + hidden `Poké Ball`, defeat `Twins Gina & Mia` + **`PKMN Trainer Red (28, 8)`**, claim **`HM01 Cut`** in Cutter's House `(9, 38)`, grab **Route 115 `(20, 60)` `Super Potion`**, and check southeast 3-story **Rustboro Apartments `(26, 45)`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
 
