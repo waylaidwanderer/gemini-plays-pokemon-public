@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Room 3 GLACIA DEFEATED! Won ¥5,300 (Total cash: ¥15,343). SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 1 Hyper Potion, 3 Full Heals. Door to Room 4 (Drake) open!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Room 3 GLACIA DEFEATED! Won ¥5,300 (Total cash: ¥15,343). SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Door to Room 4 (Drake) open!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 126/231. Max HP: 231. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (29/30). Status: OK (Room 3 Glacia DEFEATED!).
+1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 231/231. Max HP: 231. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (29/30). Status: OK (Restored to 231/231 HP on Grand Staircase 4, ready for Drake!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Phoebe Turn 25696).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 21/41. Max HP: 41. Status: OK (living sacrifice available!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x1 (6 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle, Turn 25795 in battle, Turn 25802 in battle, Turn 25807 in battle on Sage; 1 remaining)
+- Hyper Potion x0 (7 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle, Turn 25795 in battle, Turn 25802 in battle, Turn 25807 in battle, Turn 25822 on Grand Staircase 4 on Sage; 0 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
