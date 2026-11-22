@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! SAGE Lv 76 (228 HP, Spe 224, Atk 170, SpA 185). Supplies: 6 Revives, 7 Hyper Potions, 3 Full Heals. All useless TMs liquidated for ¥15,000 cash! Entire party 100% full. Ascending Grand Staircase to Room 1 (Sidney).
+- Status: Attempt 6 ACTIVE! SAGE Lv 76 (180/228 HP, Spe 224). Sidney's Mightyena and Absol defeated in Room 1! Aerial Ace PP conserved (20/20). In Bag: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 76!
