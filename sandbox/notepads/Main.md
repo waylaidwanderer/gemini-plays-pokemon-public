@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Glacia's Sealeo x2 DEFEATED! Facing ace Walrein Lv 53. SAGE Lv 77 (79/231 HP). In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals.
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Glacia's Sealeo x2 DEFEATED! Facing ace Walrein Lv 53. SAGE Lv 77 (79/231 HP). In Bag: 2 Revives, 3 Hyper Potions, 3 Full Heals.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 79/231. Max HP: 231. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healed via Hyper Potion Turn 25753!).
@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x4 (3 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle on Sage; 4 remaining)
+- Hyper Potion x3 (4 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle, Turn 25794 in battle on Sage; 3 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)

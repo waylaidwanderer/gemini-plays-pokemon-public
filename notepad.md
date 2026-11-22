@@ -408,7 +408,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 6 (Active)
 - Status: SAGE Lv 77 (213/231 HP, Spe 227). Sidney (Room 1) and Phoebe (Room 2) BOTH DEFEATED! Cash: ¥10,043. In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals. Room 3 Glacia battle active!
-- Supplies confirmed: 2 Revives, 4 Hyper Potions, 3 Full Heals, ¥10,043 cash.
+- Supplies confirmed: 2 Revives, 3 Hyper Potions, 3 Full Heals, ¥10,043 cash.
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
   - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
@@ -5089,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Glacia's Sealeo x2 DEFEATED! Facing ace Walrein Lv 53. SAGE Lv 77 (79/231 HP). In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals.
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Glacia's Sealeo x2 DEFEATED! Facing ace Walrein Lv 53. SAGE Lv 77 (79/231 HP). In Bag: 2 Revives, 3 Hyper Potions, 3 Full Heals.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 79/231. Max HP: 231. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healed via Hyper Potion Turn 25753!).
@@ -5110,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x4 (3 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle on Sage; 4 remaining)
+- Hyper Potion x3 (4 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle, Turn 25794 in battle on Sage; 3 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
