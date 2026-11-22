@@ -5361,5 +5361,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6). Even if the reserve Pokémon is knocked out that turn, the ace is revived to 50% HP. Crucially, fainting and reviving completely wipes all volatile stat debuffs (such as Speed or Accuracy drops), restoring the ace at full natural speed and accuracy!
 - Overworld Bag Menu Return Settlement: When opening the Bag from the Start menu outside battle, pressing B to close the Bag leaves the Start menu open on screen. A second B press is required to close the Start menu before overworld directional movement can register.
+- SAGE Level 77 Confirmed Stats: Max HP 231, Attack 172, Defense 125, Sp.Atk 188, Sp.Def 169, Speed 227.
+- Phoebe Team Order & Abilities in Emerald: #1 Dusclops Lv 48 (Pressure, DEFEATED), #2 Dusclops Lv 51 (Pressure, DEFEATED), #3 Banette Lv 49 (Insomnia, DEFEATED), #4 Sableye Lv 50 (Keen Eye, ACTIVE), #5 Banette Lv 49 (Insomnia). Only the two Dusclops have Pressure; Banette and Sableye consume standard 1 PP per move.
 
 <hr>
