@@ -101,7 +101,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies confirmed: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash (liquidated 10 unused TMs).
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
-  - Room 2 Phoebe: Dusclops #1 DEFEATED! SAGE active at 60/228 HP (uncursed). Phoebe sending out Banette #1 (Lv 49). In Bag: 3 Revives, 6 Hyper Potions, 3 Full Heals. Ready to sweep Banette, Sableye, Banette, and Dusclops #2.
+  - Room 2 Phoebe: Dusclops #1 DEFEATED! Dusclops #2 (Lv 51) engaged! SAGE active at 196/228 HP (healthy, uncursed; healed via Hyper Potion Turn 25708). In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Remaining foes: Dusclops #2, Banette #1, Banette #2, Sableye.
   - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!

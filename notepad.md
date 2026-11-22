@@ -411,7 +411,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies confirmed: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash (liquidated 10 unused TMs).
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
-  - Room 2 Phoebe: Dusclops #1 DEFEATED! SAGE active at 60/228 HP (uncursed). Phoebe sending out Banette #1 (Lv 49). In Bag: 3 Revives, 6 Hyper Potions, 3 Full Heals. Ready to sweep Banette, Sableye, Banette, and Dusclops #2.
+  - Room 2 Phoebe: Dusclops #1 DEFEATED! Dusclops #2 (Lv 51) engaged! SAGE active at 196/228 HP (healthy, uncursed; healed via Hyper Potion Turn 25708). In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Remaining foes: Dusclops #2, Banette #1, Banette #2, Sableye.
   - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
@@ -5089,12 +5089,12 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED! Earned ¥4,900 (Total cash: ¥4,943). SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP). In Bag: 5 Revives, 7 Hyper Potions, 3 Full Heals. Advancing through northern door to Grand Staircase 2 to heal Sage and challenge Phoebe!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE IN PROGRESS: Dusclops #1 defeated; Dusclops #2 (Lv 51) engaged! SAGE Lv 76 (196/228 HP, Spe 224). In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Cash: ¥4,943.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (27/30), Aerial Ace (14/20), Facade (19/20), Quick Attack (29/30). Status: OK (100% full health!).
+1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 196/228. Max HP: 228. Moves: Bullet Seed, Aerial Ace, Facade, Quick Attack. Status: OK (healthy, uncursed).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Phoebe Turn 25696).
-3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted executing turn-priority Revive Turn 25694).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
@@ -5110,12 +5110,12 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x6 (1 used Turn 25682 on Sage to restore 114 HP, HP: 228/228; 6 remaining)
+- Hyper Potion x5 (2 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle on Sage; 5 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x3 (3 remaining after Revives used in battle; Sage in reserve, Lilz/Cipher fainted)
+- Revive x3 (3 remaining in Bag; used Turn 25671 on Sage, Turn 25694 on Lilz, Turn 25701 on Sage)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
