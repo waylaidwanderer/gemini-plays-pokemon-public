@@ -9,7 +9,7 @@
 
 ## Locations & Encounters (Attempt #2)
 - **Route 101:** `Mudkip` ♂ (**`Triton`**, `Torrent`, **Relaxed** `+Def/-Spe`, Lv 5 stats: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe` — rescued Prof. Birch Turn 740)
-- **Oldale Town:** `Vulpix` ♀ (**`Inari`** — **DECEASED Turn 950**, deposit in `BOX 14` at Rustboro PC; custom `Pressure` ability, Hasty `+Spe/-Def`, held `RAWST BERRY` [unlocked `x99` refills!])
+- **Oldale Town:** `Vulpix` ♀ (**`Inari`** — **DECEASED Turn 950, stored in `BOX 14` Turn 1092**; custom `Pressure` ability, Hasty `+Spe/-Def`, held `RAWST BERRY` [unlocked `x99` refills!])
 - **Route 103:** `Hoppip` ♂ (**`Zephyr`**, `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
 - **Route 102:** `Sandshrew` ♀ (**`Gaia`**, `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe`, moves: `Scratch / Poison Sting` — caught Turn 790)
 - **Route 104:** `Snubbull` ♀ (**`Freya`**, `Run Away` [-> `Lv 23 Granbull`], **Serious** neutral, Lv 7 stats: `26 HP / 16 Atk / 12 Def / 10 SpA / 11 SpD / 11 Spe`, moves: `Tackle / Bite / Lick` — caught Turn 836)
@@ -30,7 +30,7 @@
 # Nuzlocke Dashboard — Attempt #2
 
 ## Run Status
-- **Attempt:** #2 (`Deaths: 1` — `Inari` Lv 14 Vulpix, Turn 950 to Magma Grunt's `Super Fang + Pursuit` Houndour; deposit into `BOX 14` at Rustboro PC)
+- **Attempt:** #2 (`Deaths: 1` — `Inari` Lv 14 Vulpix, Turn 950 to Magma Grunt's `Super Fang + Pursuit` Houndour; deposited in `BOX 14` Turn 1092)
 - **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`3` casualties: `Bayou` Turn 380 to Houndour crit `Pursuit`; `Joule` Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Turn 705 to `Dustox` `Toxic + Confusion` self-hits while `Girasol` had only `5 EXP` cap buffer left).
 - **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
 - **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
@@ -213,16 +213,16 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Rustboro City `(16, 52)` — Central Boulevard):**
-  - `Slot 1: Freya` (Lv 13 Snubbull, `32/41 HP`, `26 Atk`, `Headbutt / Bite / Lick / Roar`)
-  - `Slot 2: Mandrake` (Lv 13 Oddish, `13/35 HP` `PAR`, `26 SpA`, `Mega Drain / Acid`)
-  - `Slot 3: Zephyr` (Lv 13 Hoppip, `17/33 HP`, `19 Spe`, `Confusion / Secret Power / Mega Drain / Gust`)
-  - `Slot 4: Gaia` (Lv 12 Sandshrew, `25/36 HP`, `27 Def / 16 Spe`, `Scratch / Poison Sting / Sand-Attack`)
-  - `Slot 5: Triton` (Lv 15 Mudkip, `14/40 HP`, `Rawst Berry` — keep out of Route 116 trainer EXP so `Lv 12–13` squad absorbs EXP before candying to `Lv 16 Marshtomp` right outside Gym!)
-  - `Slot 6: Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — deposit in `BOX 14` at Rustboro PC!)
-  - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`** (`Repel #3 expired`), `5 Potions`, `1 Antidote`, `2 Awakenings`.
+- **Current Resources (Rustboro City `(16, 38)` — 5 Active Pokémon, 100% HP/PP & All Holding `Oran Berry`):**
+  - `Slot 1: Freya` (Lv 13 Snubbull, `41/41 HP`, `26 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
+  - `Slot 2: Mandrake` (Lv 13 Oddish, `35/35 HP`, `26 SpA`, `Oran Berry`, `Mega Drain / Acid`)
+  - `Slot 3: Zephyr` (Lv 13 Hoppip, `33/33 HP`, `19 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain / Gust`)
+  - `Slot 4: Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
+  - `Slot 5: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` — keep out of Route 116 trainer EXP so `Lv 12–13` squad absorbs EXP before candying to `Lv 16 Marshtomp` right outside Gym!)
+  - `Slot 6: [OPEN FOR ROUTE 116 ENCOUNTER!]` (`Inari` deposited in `BOX 14` Turn 1092)
+  - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`**, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Rustboro City & Route 115:** **Deposit `Inari` into `BOX 14` at Rustboro PC**, heal at Nurse Joy & re-berry everyone with `Oran Berries`, check **Rustboro Apartments**, claim **`HM01 Cut`** at Cutter's House, and grab **Route 115 `(20, 60)` `Super Potion`**.
+  - **Rustboro City & Route 115:** Claim **`HM01 Cut`** at Cutter's House `(9, 38)`, check **Rustboro Apartments `(26, 45)`**, and grab **Route 115 `(20, 60)` `Super Potion`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
 
 <hr>
