@@ -5092,7 +5092,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED! Earned ¥4,900 (Total cash: ¥4,943). SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP). In Bag: 5 Revives, 7 Hyper Potions, 3 Full Heals. Advancing through northern door to Grand Staircase 2 to heal Sage and challenge Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 114/228. Max HP: 228. Moves: Bullet Seed (27/30), Aerial Ace (14/20), Facade (19/20), Quick Attack (29/30). Status: OK. (Restoring to 228 HP via Hyper Potion).
+1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (27/30), Aerial Ace (14/20), Facade (19/20), Quick Attack (29/30). Status: OK (100% full health!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Sidney).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
@@ -5110,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x7 (purchased for ¥8,400 Turn 25633)
+- Hyper Potion x6 (1 used Turn 25682 on Sage to restore 114 HP, HP: 228/228; 6 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
