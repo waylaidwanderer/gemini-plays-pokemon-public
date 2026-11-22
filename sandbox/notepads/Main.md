@@ -68,6 +68,8 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 77 HP for Sage's 231 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks (e.g. STAB Bullet Seed deals 4.5x effective damage against 2x weak targets!).
+- OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold, Fissure, and Guillotine automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 77!).
 - In-Battle Bag Item Usage Workflow (Verified Turn 25794): Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] (defaults to USE) -> 3. Party targeting screen loads (~500ms delay, cursor on active battler) -> press A to confirm target Pokémon. Pressing B before the 3rd A cancels back without consuming the item or taking a turn.
 - Move Menu Clamping for Slot 1 (Bullet Seed): Pressing Up then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 1 (top-left, Bullet Seed).
 - Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).

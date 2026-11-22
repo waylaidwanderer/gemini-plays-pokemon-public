@@ -371,7 +371,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Battle Notes & Scouting
 - Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: ¥4,900.
 - Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: ¥5,100.
-- Elite Four Member #3 Glacia (Ice): Sealeo Lv 50, Glalie Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 52. Consumed 2 Full Restores. DEFEATED Turn 24785! Earned ¥5,300 prize money (total cash: ~¥16,499). Northern door unlocked and open!
+- Elite Four Member #3 Glacia (Ice): ALL 5 POKÉMON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
 - Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24918! Earned ¥5,500 prize money (Total cash: ¥21,999). Team defeated: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53. Drake consumed both Full Restores. SAGE Lv 71 (107/214 HP) secured the victory with priority Quick Attack! ALL FOUR ELITE FOUR MEMBERS CONQUERED! Northern door to the Champion's Chamber unlocked and open!
 
 ## League Lobby & Elite Four Re-entry Protocol (Turn 24123)
@@ -5154,6 +5154,8 @@ A large meteorological research institute located in northern Route 119 beside t
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 77 HP for Sage's 231 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks (e.g. STAB Bullet Seed deals 4.5x effective damage against 2x weak targets!).
+- OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold, Fissure, and Guillotine automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 77!).
 - In-Battle Bag Item Usage Workflow (Verified Turn 25794): Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] (defaults to USE) -> 3. Party targeting screen loads (~500ms delay, cursor on active battler) -> press A to confirm target Pokémon. Pressing B before the 3rd A cancels back without consuming the item or taking a turn.
 - Move Menu Clamping for Slot 1 (Bullet Seed): Pressing Up then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 1 (top-left, Bullet Seed).
 - Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
