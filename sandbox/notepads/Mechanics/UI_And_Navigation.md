@@ -4,9 +4,11 @@
 - **Screen Fades & Real-Time Thinking:** Fades take ~1.8s (`sleep 2200–2400` *within* the same turn's `press_buttons` sequence). Because the emulator runs in real time during `[THINKING]`, any fade still occurring at the end of Turn `N` finishes completely before Turn `N+1`'s first button executes—never prepend a dummy input/sleep at the start of a new turn to wait out a prior turn's fade! *(Verified Turn 156 `#01–#48`)*.
 - **Indoor Welcome Mats:** Approaching a south exit mat horizontally (`Left`/`Right`) requires TWO `Down` presses (first turns `Down`, second warps). Approach vertically from `(x, y-1)` whenever possible, and inside NPC houses step down to an open floor row before aligning `x` with the mat *(Turns 215, 224)*.
 - **Multi-Warp Chaining & Long NPC Speeches:** Insert `sleep 2200–2400` immediately after an indoor warp step to continue overworld movement on the destination map. Long NPC speeches (such as Gym Guides, ~10–12 pages) eat subsequent directional inputs if under-counted *(Turn 515)*; clear with `12x ["B", "sleep 650"]` (harmless no-ops once closed) or verify `mgba.get_coordinates()` changes on the first post-dialogue step.
-- **Route 101 & Route 103 Zero-Grass Corridors:**
+- **Route 101, Route 103 & Route 102 Zero-Grass Corridors:**
   - **Route 103 Northbound (`0` grass tiles):** `(10, 13) -> Right x4 -> (14, 13) -> Up x6 -> (14, 7) -> Left x2, Up, Left x7 -> (5, 6) -> Up x3, Right x4 -> (9, 3)` *(Verified Turns 754–755)*.
   - **Route 103 -> Oldale -> Route 101 Southbound Ledge Express (`0` grass tiles):** Straight `Down` column `x=10` across Route 103 and Oldale Town -> on Route 101 `(10, 0)`, `Down` to `(10, 8)` (jumps `(10, 6)` ledge), `Left` to `(9, 8)`, `Down` to `(9, 14)` (jumps `(9, 13)` ledge), `Right x2` to `(11, 14)`, `Down` into Littleroot `(11, 0)`.
+  - **Route 102 Berry Alcove Staircase (`0` grass tiles):** From `(25, 7)` -> `Down x3 -> Left x4 -> Up x2 -> Left x2 -> Up x4 -> Right x5 -> Up` lands at `(24, 3)` facing `(24, 2)` Oran Berry tree *(Verified Turn 807)*.
+  - **Battle-Exit Coordinate Detector (`mgba.get_coordinates()`):** Pressing `"Left"` on `"What will <PKMN> do?"` (`►FIGHT`) is a harmless no-op in battle (`or "Right" -> undo with "Left"`), whereas in the overworld it steps 1 tile horizontally—allowing `run_code` loops to detect battle completion deterministically *(Verified Turns 800, 815, 819)*.
 - **Python Script Hygiene:** Keep `run_code` scripts bounded (`<60` buttons, `<40s` total sleeps) to stay well clear of the 150-button and 120s script limits.
 
 ## Menus, Bag & Berries
