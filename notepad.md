@@ -405,7 +405,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
 - Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
 - Battle Roadmap:
-  - Room 1 Sidney: ACTIVE! Mightyena DEFEATED. Cobalu fainted to +2 Rock Slide. SAGE revitalized at 113/226 HP entering on forced switch to sweep Absol, Shiftry, Cacturne, Crawdaunt.
+  - Room 1 Sidney: ACTIVE! Mightyena DEFEATED. SAGE active at 113/226 HP facing Absol (Full Restore consumed). Shiftry, Cacturne, Crawdaunt remaining.
   - Room 2 Phoebe: Sweep with conserved Aerial Ace (20 PP) and Bullet Seed (30 PP)!
   - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
   - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
@@ -5084,10 +5084,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena DEFEATED. Cobalu fainted to +2 Rock Slide. SAGE revitalized at 113/226 HP ready to enter on forced switch and sweep Absol, Shiftry, Cacturne, Crawdaunt!
+- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena DEFEATED. SAGE active at 113/226 HP facing Absol (Sidney's Full Restore burned!). Plan: Facade Absol, level to 76, sweep Shiftry, Cacturne, Crawdaunt!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (17/20), Quick Attack (29/30). Status: OK (Revitalized!). Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Active! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (16/20), Quick Attack (29/30). Status: OK. Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Absol +2 Rock Slide after reviving SAGE).
