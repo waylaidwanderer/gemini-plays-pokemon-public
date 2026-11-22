@@ -5089,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE grew to Lv 78 (0/234 HP FNT). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
+- Status: Attempt 6 concluding in Room 4! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 78 (0/234 HP FNT). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Concluding Drake battle for full party reset and Attempt 7 sweep!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 0/234. Max HP: 234. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (20/30). Status: FNT.
