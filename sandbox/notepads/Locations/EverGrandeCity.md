@@ -95,7 +95,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
 - Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
 - Battle Roadmap:
-  - Room 1 Sidney: ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry Lv 48 DEFEATED in 1 hit (Aerial Ace OHKO). Pokémon #4 entering. Cacturne, Crawdaunt remaining.
+  - Room 1 Sidney: ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry Lv 48 DEFEATED in 1 hit (Aerial Ace OHKO). Pokémon #4 entering. Cacturne DEFEATED in 1 hit (Aerial Ace OHKO). Final Pokémon Crawdaunt entering.
   - Room 2 Phoebe: Sweep with conserved Aerial Ace (20 PP) and Bullet Seed (30 PP)!
   - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
   - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
