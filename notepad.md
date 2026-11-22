@@ -406,7 +406,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
 - Battle Roadmap:
   - Room 1 Sidney: DEFEATED on Turn 25578! Earned ¥4,900 (Total cash: ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) all conquered! SAGE Lv 76 active at 115/228 HP (Aerial Ace 15/20 PP, Bullet Seed 29/30 PP). Northern door to Room 2 open!
-  - Room 2 Phoebe: ACTIVE! Lead Dusclops Lv 48 engaged. Dusclops 1 and Dusclops 2 DEFEATED! SAGE Lv 76 at 3/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 21/30 PP). Both tanks down! Pokémon #3 entering.
+  - Room 2 Phoebe: ACTIVE! Lead Dusclops Lv 48 engaged. Dusclops 1 DEFEATED! Dusclops 2 down to ~6-8 HP in red. SAGE Lv 76 at 3/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 21/30 PP). Finishing Dusclops 2.
   - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
   - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
   - Champion Wallace: Sweep with Bullet Seed (Wailord, Whiscash 4x, Milotic, Tentacruel, Gyarados, Ludicolo) and Quick Attack!
@@ -5084,7 +5084,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 and #2 DEFEATED! SAGE Lv 76 clutched at 3/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 21/30 PP). Pokémon #3 entering! Plan: OHKO with Aerial Ace!
+- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 DEFEATED! Dusclops #2 down to ~6-8 HP in red. SAGE Lv 76 at 3/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 21/30 PP). Plan: Finish Dusclops 2!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 76) - Active! HP: 3/228. Max HP: 228. Moves: Bullet Seed (21/30), Aerial Ace (9/20), Facade (13/20), Quick Attack (29/30). Status: OK (Overgrow Active!). Level 76!
