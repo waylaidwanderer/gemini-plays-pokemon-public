@@ -405,8 +405,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
 - Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
 - Battle Roadmap:
-  - Room 1 Sidney: ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry Lv 48 DEFEATED in 1 hit (Aerial Ace OHKO). Pokémon #4 entering. Cacturne DEFEATED in 1 hit (Aerial Ace OHKO). Final Pokémon Crawdaunt entering. SAGE Lv 76 ready to OHKO Crawdaunt with Bullet Seed!
-  - Room 2 Phoebe: Sweep with conserved Aerial Ace (20 PP) and Bullet Seed (30 PP)!
+  - Room 1 Sidney: DEFEATED on Turn 25578! Earned ¥4,900 (Total cash: ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) all conquered! SAGE Lv 76 active at 115/228 HP (Aerial Ace 15/20 PP, Bullet Seed 29/30 PP). Northern door to Room 2 open!
+  - Room 2 Phoebe: Preparing to enter. SAGE Lv 76 at 115/228 HP with 15 Aerial Ace PP ready to sweep Dusclops x2, Banette x2, and Sableye!
   - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
   - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
   - Champion Wallace: Sweep with Bullet Seed (Wailord, Whiscash 4x, Milotic, Tentacruel, Gyarados, Ludicolo) and Quick Attack!
@@ -5084,10 +5084,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena, Absol, Shiftry, and Cacturne DEFEATED (Shiftry & Cacturne OHKO'd by Aerial Ace)! SAGE Lv 76 at 115/228 HP (Aerial Ace 15/20 PP, Bullet Seed 30/30 PP). Final Pokémon Crawdaunt entering! Plan: OHKO Crawdaunt with Bullet Seed to win Room 1!
+- Status: Attempt 5 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥6,087). All 5 of Sidney's Pokémon conquered! SAGE Lv 76 at 115/228 HP with 15/20 Aerial Ace PP and 29/30 Bullet Seed PP intact. Northern door to Room 2 unlocked! Plan: Advance through door to Room 2 (Phoebe) and sweep with Aerial Ace!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Active! HP: 115/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (15/20), Facade (13/20), Quick Attack (29/30). Status: OK. Level 76!
+1. SAGE (Sceptile ♂, Level 76) - Active! HP: 115/228. Max HP: 228. Moves: Bullet Seed (29/30), Aerial Ace (15/20), Facade (13/20), Quick Attack (29/30). Status: OK. Level 76!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Absol +2 Rock Slide after reviving SAGE).
@@ -5127,7 +5127,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥1,187 (halved to ¥2,687 on whiteout, ¥1,500 spent on 1 Revive for Attempt 5)
+- Money: ¥6,087 (halved to ¥2,687 on whiteout, ¥1,500 spent on 1 Revive for Attempt 5)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
