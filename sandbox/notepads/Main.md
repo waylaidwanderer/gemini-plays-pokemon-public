@@ -6,7 +6,7 @@
 - Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE IN PROGRESS: Dusclops #1 & Dusclops #2 DEFEATED! SAGE grew to Lv 77 (97/231 HP). In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Cash: ¥4,943.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 97/231. Max HP: 231. Moves: Bullet Seed (19/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healthy, uncursed). Leveled to 77!
+1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 58/231. Max HP: 231. Moves: Bullet Seed (18/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healthy, uncursed). Overgrow active (1.5x Grass boost)!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Phoebe Turn 25696).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted executing turn-priority Revive Turn 25694).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
