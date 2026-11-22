@@ -5356,5 +5356,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Mart Buying Confirmation Safety Protocol: When purchasing items, the clerk asks "[ITEM]? And you wanted [N]? That will be ¥[PRICE]." with a YES/NO box (default YES). Pressing B while the YES/NO prompt is active cancels the purchase (selects NO). Always use consecutive A presses with ~500ms delays to fast-forward text and confirm YES cleanly; do not use B until returning to the Mart item list.
 - Mart TM Liquidation: Unused TMs can be sold to Poké Mart clerks for ¥1,000 to ¥1,500 each, providing massive cash reserves for Revives (¥1,500) and Hyper Potions (¥1,200). HMs cannot be sold.
 - SAGE Move Menu Layout: Slot 1 (top-left) = Bullet Seed (30 PP), Slot 2 (top-right) = Aerial Ace (20 PP), Slot 3 (bottom-left) = Facade (20 PP), Slot 4 (bottom-right) = Quick Attack (30 PP).
+- Bullet Seed Base Power in Gen 3: Bullet Seed has base power 10 per hit in Gen 3. A 2-hit roll yields only 20 base power (60 effective power with STAB and 2x weakness). Reliable single-hit moves like Facade (70 power) or Aerial Ace (60 power) provide higher guaranteed baseline damage when multi-hit variance is undesirable.
+- Gen 3 Type Classification & Swords Dance: In Gen 3, all Water and Dark moves (Surf, Crunch) are Special, meaning opposing Crawdaunt's STAB attacks do not benefit from Swords Dance attack boosts. Only its physical Normal moves receive the +2 boost.
+- Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
 
 <hr>
