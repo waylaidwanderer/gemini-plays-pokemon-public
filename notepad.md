@@ -61,7 +61,7 @@
 
 ## In-Battle Bag Usage Restricted
 - **Healing Items & Bag Berries Banned in Battle:** Selecting `POTION` from `ITEMS` *(Verified Turn 49 `#56`)* or `ORAN BERRY` from `BERRIES` *(Verified Turn 704 `#01`)* in battle displays **only `CANCEL`** (no `USE` option), confirming all Bag healing/berries are disabled mid-battle.
-- **Held Berries & Unlimited Refill:** Because Bag healing is disabled in battle, **held Berries** (Oran Berry, Cheri/Pecha/Persim/Lum Berries, etc.) are critical for survival. *(CRITICAL VERIFIED ROM HACK TIMING RULES: Held `Oran Berry` (`<= 50%` HP threshold) checks at **end of turn after both sides finish acting**, NOT mid-turn right after taking a hit [verified Turn 942 `#50–#68` where `Inari` dropped `26 -> 16/34` (`47.1%` <= `50%`) mid-turn, attacked, and then ate `Oran Berry` `16 -> 26/34` at end of turn; also Turn 886 `#50–#56` & Turn 862 `#50–#56`] and NOT off `BRN`/`PSN` ticks [Turn 439 `#58`] or on a turn you KO the foe before end-of-turn [Turn 933 `#56`]. Note: `Triton` at `18/38` on Turn 931 simply had no berry equipped yet [Mudkip's orange cheek-fin mimicked the item icon at `1x` resolution — verified Turn 965 `#291`]!)* Once at least 1 of any Berry is obtained, the harness refills it to `99` in the overworld (`RARE CANDY x99` verified auto-populated in `ITEMS` pocket on Turn 48, `#49`).
+- **Held Berries & Unlimited Refill:** Because Bag healing is disabled in battle, **held Berries** (Oran Berry, Cheri/Pecha/Persim/Lum Berries, etc.) are critical for survival. *(CRITICAL VERIFIED ROM HACK TIMING RULES: Held `Oran Berry` (`<= 50%` HP threshold) checks at **end of turn after both sides finish acting**, NOT mid-turn right after taking a hit [verified Turn 942 `#50–#68` where `Inari` dropped `26 -> 16/34` (`47.1%` <= `50%`) mid-turn, attacked, and then ate `Oran Berry` `16 -> 26/34` at end of turn; also Turn 886 `#50–#56` & Turn 862 `#50–#56`] and NOT off `BRN`/`PSN` ticks [Turn 439 `#58`] or on a turn you KO the trainer's **final** Pokémon before end-of-turn [Turns 933 `#56`, 1015 `#51` — battle ends with Berry preserved!], whereas KOing a **non-final** trainer Pokémon while `<= 50%` HP triggers `Oran Berry` upon the trainer's next Pokémon being sent out [Verified Turn 1059 `#69–#70`!]. Note: `Triton` at `18/38` on Turn 931 simply had no berry equipped yet [Mudkip's orange cheek-fin mimicked the item icon at `1x` resolution — verified Turn 965 `#291`]!)* Once at least 1 of any Berry is obtained, the harness refills it to `99` in the overworld (`RARE CANDY x99` verified auto-populated in `ITEMS` pocket on Turn 48, `#49`).
   - **Oldale Town Wild `Vulpix` Held Berry (`(14..15, 2)`):** Wild `Lv 5 Vulpix` came holding a **`Rawst Berry`** *(Taken Turn 767 `#82` — unlocks `Rawst Berry x99` infinite held & overworld Burn cure!)*.
   - **Route 102 Berry Patch (`(24..25, 2)`):** `(24, 2)` yields `2x Oran Berry`; `(25, 2)` yields `2x Pecha Berry` *(Harvested Turn 179; `No03 PECHA BERRY x99` and `No07 ORAN BERRY x99` auto-refill verified in `BERRIES` pocket Turn 182 — also provides infinite free overworld HP/poison healing via `USE`!)*.
   - **Route 104 North Flower Shop Patch (`(3, 23..25)`):** `(3, 25)` yields **`2x Cheri Berry`** (`auto-refills to x99` — infinite held & overworld Paralysis cure! Harvested Turn 396); `(3, 23)` has Oran Berries.
@@ -213,16 +213,16 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Route 104 North `(25, 8)` — Battling PKMN Trainer Red, `3/5` Left):**
+- **Current Resources (Route 104 North `(25, 8)` — Finishing PKMN Trainer Red, `2/5` Left):**
+  - `Mandrake` (Lv 12 Oddish, `21/33 HP` `PAR` [`Yawn`-immune!], `25 SpA`, berry used, `Mega Drain` `2/10 PP` + `Acid` `20/30 PP`)
+  - `Gaia` (Lv 12 Sandshrew, `25/36 HP`, berry used)
+  - `Zephyr` (Lv 13 Hoppip, `25/33 HP`, `19 Spe`, berry used)
+  - `Triton` (Lv 15 Mudkip, `14/40 HP`, `Rawst Berry`)
   - `Freya` (Lv 12 Snubbull, `38/38 HP`, `Oran Berry`)
-  - `Mandrake` (Lv 12 Oddish, `33/33 HP`, `15 Spe`, `25 SpA`, `Oran Berry`, `Acid` `24/30 PP` + `Mega Drain` `2/10 PP`)
-  - `Zephyr` (Lv 13 Hoppip, `25/33 HP`, `19 Spe`, berry used, `Confusion / Secret Power / Mega Drain [5/10] / Gust`)
-  - `Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry`)
-  - `Triton` (Lv 15 Mudkip, `14/40 HP`, `Rawst Berry` — keep out of Route 116 trainer EXP so `Lv 12–13` squad absorbs EXP before candying to `Lv 16 Marshtomp` right outside Gym!)
   - `Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — deposit in `BOX 14` at Rustboro PC!)
   - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`**, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 104 North -> Rustboro City -> Route 115:** Finish **`PKMN Trainer Red`** at `(25, 8)` (`Squirtle`, `Pikachu`, `~75% Eevee` left), **deposit `Inari` into `BOX 14` at Rustboro PC**, claim **`HM01 Cut`**, grab **Route 115 `(20, 60)` `Super Potion`**, and check **Rustboro Apartments `(26, 45)`**.
+  - **Route 104 North -> Rustboro City -> Route 115:** Finish **`PKMN Trainer Red`** at `(25, 8)` (`only Squirtle & ~78% HP Eevee left!`), **deposit `Inari` into `BOX 14` at Rustboro PC**, claim **`HM01 Cut`**, grab **Route 115 `(20, 60)` `Super Potion`**, and check **Rustboro Apartments `(26, 45)`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
 
 <hr>
