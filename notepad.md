@@ -212,14 +212,14 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Route 104 North `(28, 16)` -> `(25, 12)` — Pre-Red Prep):**
-  - `Slot 1: Freya` (Lv 12 Snubbull, `38/38 HP`, `Oran Berry` — lead vs Red's `#1 Lv 9 Eevee`)
-  - `Slot 2: Mandrake` (Lv 12 Oddish, `33/33 HP`, `15 Spe`, `25 SpA`, `Oran Berry`, `Acid` `24/30 PP` + `Mega Drain` `2/10 PP`)
-  - `Slot 3: Zephyr` (Lv 13 Hoppip, `33/33 HP`, `19 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain [5/10] / Gust` — counters Bulbasaur & slower Yawn Squirtle!)
-  - `Slot 4: Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry` — counters Pikachu & physical attackers!)
-  - `Slot 5: Triton` (Lv 14 Mudkip, `38/38 HP`, **`Rawst Berry`** — counters `Will-O-Wisp` Charmander!)
-  - `Slot 6: Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — deposit in `BOX 14` at Rustboro PC!)
-  - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`** (**Repel #3 active, `~48` steps left**), `5 Potions`, `1 Antidote`, `2 Awakenings`.
+- **Current Resources (Route 104 North `(25, 8)` — Battling PKMN Trainer Red):**
+  - `Freya` (Lv 12 Snubbull, `38/38 HP`, `Oran Berry`)
+  - `Mandrake` (Lv 12 Oddish, `33/33 HP`, `15 Spe`, `25 SpA`, `Oran Berry`, `Acid` `24/30 PP` + `Mega Drain` `2/10 PP`)
+  - `Zephyr` (Lv 13 Hoppip, `27/33 HP` `SLP`, `19 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain [5/10] / Gust`)
+  - `Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry`)
+  - `Triton` (Lv 14 Mudkip, `28/38 HP`, **`Rawst Berry`**)
+  - `Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — deposit in `BOX 14` at Rustboro PC!)
+  - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`**, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
   - **Route 104 North -> Rustboro City -> Route 115:** Defeat **`PKMN Trainer Red (28, 8)`** north of the bridge, **deposit `Inari` into `BOX 14` at Rustboro PC**, claim **`HM01 Cut`**, grab **Route 115 `(20, 60)` `Super Potion`**, and check **Rustboro Apartments `(26, 45)`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
