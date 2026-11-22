@@ -407,7 +407,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Active)
-- Status: SAGE Lv 77 (213/231 HP, Spe 227). Sidney (Room 1) and Phoebe (Room 2) BOTH DEFEATED! Cash: ¥10,043. In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Room 3 Glacia battle active!
+- Status: SAGE Lv 77 (231/231 HP, Spe 227). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
 - Supplies confirmed: 2 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
@@ -5089,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Room 3 GLACIA DEFEATED! Won ¥5,300 (Total cash: ¥15,343). SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Door to Room 4 (Drake) open!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 77 (231/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 231/231. Max HP: 231. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (29/30). Status: OK (Restored to 231/231 HP on Grand Staircase 4, ready for Drake!).

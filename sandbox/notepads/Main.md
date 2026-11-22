@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Room 3 GLACIA DEFEATED! Won ¥5,300 (Total cash: ¥15,343). SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Door to Room 4 (Drake) open!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 77 (231/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 231/231. Max HP: 231. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (29/30). Status: OK (Restored to 231/231 HP on Grand Staircase 4, ready for Drake!).
