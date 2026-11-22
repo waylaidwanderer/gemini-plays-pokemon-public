@@ -407,11 +407,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Active)
-- Status: SAGE Lv 76 at 228/228 HP with full PP (Bullet Seed 30, Aerial Ace 20, Facade 20, Quick Attack 30).
-- Wallet funds: ¥3,043. Purchasing 2 Revives (¥3,000) at Mart clerk in lobby.
-- Battle Plan:
-  - Room 1 Sidney: Facade Mightyena/Absol, Aerial Ace Shiftry (1 PP) & Cacturne (1 PP), Bullet Seed Crawdaunt. (Conserve 18 Aerial Ace PP!).
-  - Room 2 Phoebe: Sweep with Aerial Ace (Dusclops x2, Banette x2, Sableye). 18 PP available (only ~11 PP needed!).
+- Status: SAGE Lv 76 (180/228 HP, Spe 224). Sidney's Mightyena and Absol defeated in Room 1! Aerial Ace PP conserved at 20/20!
+- Supplies confirmed: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash (liquidated 10 unused TMs).
+- Battle Progress:
+  - Room 1 Sidney: Mightyena defeated (Bullet Seed), Absol defeated (Facade + Quick Attack). 0 Aerial Ace PP used so far! Remaining foes: Shiftry, Cacturne, Crawdaunt.
+  - Room 2 Phoebe: Sweep with Aerial Ace (Dusclops x2, Banette x2, Sableye). Full 18-20 PP available! Use Hyper Potion before battle to reach 228 HP.
   - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
@@ -5102,7 +5102,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Full Heal x2 (3 sold for ¥900 Turn 25165)
+- Full Heal x3 (1 purchased for ¥600 Turn 25634)
 - Dire Hit x0 (picked up at 30, 69 on Route 110, used Turn 23188)
 - Elixir x0 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
@@ -5110,29 +5110,28 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x0 (1 used on Sage Turn 25468 to restore 200 HP, HP: 217/226)
+- Hyper Potion x7 (purchased for ¥8,400 Turn 25633)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x0 (1 used on SAGE Turn 25563; SAGE restored to 113 HP)
+- Revive x6 (5 purchased Turn 25630, 1 purchased Turn 25634)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x0 (8 sold for ¥800 Turn 25163)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x3 (harvested on Route 111, 1 held by Sage), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM29 Psychic (Victory Road alcove), TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy) [Note: TM09 Bullet Seed and TM42 Facade consumed by Sage Turn 24940/24945; Sceptile is NOT ABLE to learn TM34 Shock Wave - verified Turn 24935; Sceptile is NOT ABLE to learn TM46 Thief - verified Turn 25544]
+- TMs & HMs: HM01 Cut (Cutter), HM02 Fly (Brendan), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy), HM07 Waterfall (Wallace), HM08 Dive (Steven Stone). [Note: Liquidated 10 unused TMs for cash Turn 25624-25626; TM09 Bullet Seed and TM42 Facade consumed by Sage Turn 24940/24945]
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
-- TM17 Protect (purchased at Lilycove Dept Store 4F)
 - Nest Ball x0 (1 sold for ¥500 Turn 25163)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Nugget x0 (sold for ¥5,000 Turn 24379)
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥3,043 (halved from ¥6,087 upon whiteout; funds 2 Revives at ¥1,500 each)
+- Money: ¥43 (liquidated 10 unused TMs for cash; purchased 6 Revives, 7 Hyper Potions, 1 Full Heal)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
