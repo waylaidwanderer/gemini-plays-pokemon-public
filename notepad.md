@@ -210,16 +210,16 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Route 104 North `(21, 22)` — Finishing Winston):**
-  - `Slot 1: Freya` (Lv 12 Snubbull, `38/38 HP`, holding `Oran Berry`)
-  - `Slot 2: Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — **MOVE TO `SLOT 6` BEFORE `TWINS GINA & MIA` DOUBLE BATTLE**, then deposit in `BOX 14` at Rustboro PC!)
-  - `Slot 3: Zephyr` (Lv 12 Hoppip, `31/31 HP`, `18 Spe`, holding `Oran Berry`)
-  - `Slot 4: Gaia` (Lv 11 Sandshrew, **`10/34 HP`, berry used** — heal & re-berry right after Winston!)
-  - `Slot 5: Triton` (Lv 14 Mudkip, **`23/38 HP`, `BRN`, berry used** — heal, cure `BRN` w/ `Rawst Berry`, & re-berry right after Winston!)
-  - `Slot 6: Mandrake` (Lv 12 Oddish, **`27/33 HP`, holding `Oran Berry`, `Mega Drain` `2/10 PP` left** [`Acid` `28/30 PP`] — top off HP!)
-  - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED** (`BERRIES` rows: `0: Cheri, 1: Pecha, 2: Rawst, 3: Oran`); `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`** (**Repel #3 active, `~73` steps left**), `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥4,020` (+ Winston payout incoming).
+- **Current Resources (Route 104 North `(21, 22)` — Post-Winston Prep):**
+  - `Slot 1: Freya` (Lv 12 Snubbull, holding `Oran Berry`)
+  - `Slot 2: Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — **MOVE TO `SLOT 6` NOW BEFORE `TWINS GINA & MIA` DOUBLE BATTLE**, then deposit in `BOX 14` at Rustboro PC!)
+  - `Slot 3: Zephyr` (Lv 12 Hoppip, `18 Spe`, Grass/Flying 2x resists Fighting — set `Slot 1` for Twins!)
+  - `Slot 4: Gaia` (Lv 11 Sandshrew, damaged & berryless — heal, consider candying to `Lv 12–13`, & re-berry!)
+  - `Slot 5: Triton` (Lv 14 Mudkip, damaged & `BRN`, berryless — heal, cure `BRN` w/ `Rawst Berry`, & re-berry!)
+  - `Slot 6: Mandrake` (Lv 12 Oddish, `25 SpA`, Grass/Poison 2x resists Fighting, `Acid` spread hits BOTH foes through `Follow Me` to break `Focus Punch`! `Mega Drain` `2/10 PP` — set `Slot 2` for Twins!)
+  - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED** (`BERRIES` rows: `0: Cheri, 1: Pecha, 2: Rawst, 3: Oran`); `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`** (**Repel #3 active, `~73` steps left**), `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 104 North -> Rustboro City -> Route 115:** Finish Winston's red-HP Electrike with `18 Spe` `Zephyr`, **heal/cure/re-berry `Gaia`, `Triton`, & `Mandrake` AND swap `Zephyr` (`18 Spe`) + `Freya` (`15 Spe`) into `Slots 1 & 2` (`moving fainted Inari to Slot 6!`)**, pass/clear `Lass Haley (32, 22)`, defeat `Twins Gina & Mia (27..28, 15)` + **`PKMN Trainer Red (28, 8)`**, **deposit `Inari` into `BOX 14` at Rustboro PC**, claim **`HM01 Cut`**, grab **Route 115 `(20, 60)` `Super Potion`**, and check **Rustboro Apartments `(26, 45)`**.
+  - **Route 104 North -> Rustboro City -> Route 115:** Heal/cure/re-berry squad at `(21, 22)` and swap **`Zephyr` + `Mandrake` into `Slots 1 & 2` (`Inari` -> `Slot 6`)**, defeat `Twins Gina & Mia (27..28, 15)` + **`PKMN Trainer Red (28, 8)`**, **deposit `Inari` into `BOX 14` at Rustboro PC**, claim **`HM01 Cut`**, grab **Route 115 `(20, 60)` `Super Potion`**, and check **Rustboro Apartments `(26, 45)`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
 
 <hr>
