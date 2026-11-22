@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 PREPARATION! Attempt 4 concluded in Room 2 (Phoebe) on Turn 25530. All 6 Pokémon 100% restored (HP/PP). SAGE Lv 75 ready to learn TM46 Thief to hard-counter Phoebe's Ghosts!
+- Status: Attempt 5 PREPARATION! Attempt 4 concluded in Room 2 (Phoebe) on Turn 25530. All 6 Pokémon 100% restored (HP/PP). SAGE Lv 75 verified NOT ABLE to learn TM46 Thief in Gen 3. SAGE enters Attempt 5 with 18+ Aerial Ace PP conserved for Phoebe! Starting Attempt 5!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 226/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 75!
@@ -36,7 +36,7 @@
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
 - Poké Ball x0 (8 sold for ¥800 Turn 25163)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x3 (harvested on Route 111, 1 held by Sage), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
-- TMs & HMs: TM29 Psychic (Victory Road alcove), TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy) [Note: TM09 Bullet Seed and TM42 Facade consumed by Sage Turn 24940/24945; Sceptile is NOT ABLE to learn TM34 Shock Wave - verified Turn 24935]
+- TMs & HMs: TM29 Psychic (Victory Road alcove), TM03 Water Pulse (Juan), HM02 Fly (Brendan on Route 119), HM08 Dive (Steven Stone), HM07 Waterfall (Wallace), TM05 Roar (Gentleman on Route 114), TM08 Bulk Up (Brawly), TM27 Return (Professor Cozmo), TM28 Dig (Fossil Maniac's brother), TM34 Shock Wave (Wattson), TM43 Secret Power (Route 111 tree guy), TM46 Thief (Aqua Grunt), TM04 Calm Mind (Tate & Liza), TM47 Steel Wing (Steven), TM50 Overheat (Flannery), HM01 Cut (Cutter), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy) [Note: TM09 Bullet Seed and TM42 Facade consumed by Sage Turn 24940/24945; Sceptile is NOT ABLE to learn TM34 Shock Wave - verified Turn 24935; Sceptile is NOT ABLE to learn TM46 Thief - verified Turn 25544]
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
 - TM17 Protect (purchased at Lilycove Dept Store 4F)
