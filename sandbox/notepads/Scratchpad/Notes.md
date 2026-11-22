@@ -1,7 +1,7 @@
 # Scratchpad — Active Leads & Live Tactical Routing
 
 ## Active Exploration & Future Encounter Leads
-- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! *(Petalburg Woods, Route 116, and Rusturf Tunnel encounters are still UNUSED in Attempt #2—watch for `Nincada`!).*
+- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! *(Route 116 and Rusturf Tunnel encounters are still UNUSED in Attempt #2—watch for `Nincada`!).*
 - **Post-Stone Badge Re-Check Targets (Pre-Gym Gated / Checked):**
   - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by stationary `TM09` boy at `(5, 19)` pre-Gym *(Turn 412)*—re-check post-Roxanne!
   - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Teacher at `(5, 3)` had no active `Quick Claw` script from `(4, 3)` or `(5, 5)` pre-Gym *(Turns 504, 508, 509)*—re-check post-Roxanne! *(Other Rustboro locations already verified pre-Gym: Poké Mart `Turn 488`, Pokémon Center `Turn 494`, Cutter's House `HM01 Cut Turn 498`, `(31..33, 30..32)` decorative non-wild lawn `Turn 506`, `(30, 28)` flavor-only house `Turn 508`, `(33, 19)` trade house `Turn 514`, Walda's 2-story building `(13, 30)` flavor/wallpaper-only `Turns 588–593`, Rustboro north exit `(20, 0)` -> Route 115 `(20, 79)` `Turn 597`, NW Rustboro cliff confirmed **Surf-gated** across southern Route 115 cove `Turn 605`; southeast 3-story Rustboro Apartments near `(26, 45)` still to check before Gym!)*

@@ -11,6 +11,7 @@
 - **Route 103:** `Hoppip` ♂ (**`Zephyr`**, `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
 - **Route 102:** `Sandshrew` ♀ (**`Gaia`**, `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe`, moves: `Scratch / Poison Sting` — caught Turn 790)
 - **Route 104:** `Snubbull` ♀ (**`Freya`**, `Run Away` [-> `Lv 23 Granbull`], **Serious** neutral, Lv 7 stats: `26 HP / 16 Atk / 12 Def / 10 SpA / 11 SpD / 11 Spe`, moves: `Tackle / Bite / Lick` — caught Turn 836)
+- **Petalburg Woods:** `Oddish` ♂ (**`Mandrake`**, `Chlorophyll`, **Lax** `+Def/-SpD`, Lv 8 stats: `25 HP / 15 Atk / 16 Def / 18 SpA / 15 SpD / 12 Spe`, moves: `Mega Drain` [10 PP] / `Acid` [30 PP] — caught Turn 890)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #2)
 - Mudkip / Marshtomp / Swampert
@@ -18,3 +19,4 @@
 - Hoppip / Skiploom / Jumpluff
 - Sandshrew / Sandslash
 - Snubbull / Granbull
+- Oddish / Gloom / Vileplume / Bellossom
