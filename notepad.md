@@ -407,13 +407,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Active)
-- Status: SAGE Lv 77 (231/231 HP, Spe 227). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
+- Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
 - Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
   - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
   - Room 3 Glacia: ALL 5 POKÉMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
-  - Room 4 Drake: Aerial Ace & Quick Attack.
+  - Room 4 Drake: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54 DEFEATED! Salamence Lv 55 active at ~45% HP. Kingdra Lv 53 in reserve. Drake burned 1 Full Restore (1 remaining).
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
 
 ## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
@@ -5089,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 77 (231/231 HP). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE grew to Lv 78 (0/234 HP FNT). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 0/234. Max HP: 234. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (20/30). Status: FNT.
@@ -5154,6 +5154,7 @@ A large meteorological research institute located in northern Route 119 beside t
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- In-Battle Party Targeting Shift Mechanic (Discovered Turns 25854, 25858): On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box. When Cipher or Lilz was active, SAGE was in Row 2 of the right column (beneath Row 1 Lilz/Cipher). Pressing Right without Down targeted Row 1, unintentionally reviving Lilz and Cipher instead of SAGE.
 - Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 77 HP for Sage's 231 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks (e.g. STAB Bullet Seed deals 4.5x effective damage against 2x weak targets!).
 - OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold, Fissure, and Guillotine automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 77!).
 - In-Battle Bag Item Usage Workflow (Verified Turn 25794): Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] (defaults to USE) -> 3. Party targeting screen loads (~500ms delay, cursor on active battler) -> press A to confirm target Pokémon. Pressing B before the 3rd A cancels back without consuming the item or taking a turn.

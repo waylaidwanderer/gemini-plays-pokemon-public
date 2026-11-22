@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE Lv 77 (231/231 HP). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY, Room 2 PHOEBE, Room 3 GLACIA ALL DEFEATED! SAGE grew to Lv 78 (0/234 HP FNT). In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Battling Drake in Room 4!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 0/234. Max HP: 234. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (20/30). Status: FNT.
@@ -68,6 +68,7 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- In-Battle Party Targeting Shift Mechanic (Discovered Turns 25854, 25858): On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box. When Cipher or Lilz was active, SAGE was in Row 2 of the right column (beneath Row 1 Lilz/Cipher). Pressing Right without Down targeted Row 1, unintentionally reviving Lilz and Cipher instead of SAGE.
 - Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 77 HP for Sage's 231 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks (e.g. STAB Bullet Seed deals 4.5x effective damage against 2x weak targets!).
 - OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold, Fissure, and Guillotine automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 77!).
 - In-Battle Bag Item Usage Workflow (Verified Turn 25794): Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] (defaults to USE) -> 3. Party targeting screen loads (~500ms delay, cursor on active battler) -> press A to confirm target Pokémon. Pressing B before the 3rd A cancels back without consuming the item or taking a turn.
