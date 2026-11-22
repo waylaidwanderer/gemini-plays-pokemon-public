@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry DEFEATED (Aerial Ace OHKO). Cacturne, Crawdaunt remaining. Plan: Sweep with Aerial Ace & Bullet Seed!
+- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena, Absol, and Shiftry DEFEATED! SAGE Lv 76 at 115/228 HP (Aerial Ace 17/20 PP, Bullet Seed 30/30 PP). Cacturne & Crawdaunt remaining. Plan: One-shot with Aerial Ace & Bullet Seed!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 76) - Active! HP: 115/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (17/20), Facade (13/20), Quick Attack (29/30). Status: OK. Level 76!

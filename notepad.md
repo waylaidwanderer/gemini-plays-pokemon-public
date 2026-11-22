@@ -405,7 +405,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
 - Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
 - Battle Roadmap:
-  - Room 1 Sidney: ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry Lv 48 DEFEATED (Aerial Ace OHKO). Cacturne, Crawdaunt remaining.
+  - Room 1 Sidney: ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry Lv 48 DEFEATED in 1 hit (Aerial Ace OHKO). Pokémon #4 entering. Cacturne, Crawdaunt remaining.
   - Room 2 Phoebe: Sweep with conserved Aerial Ace (20 PP) and Bullet Seed (30 PP)!
   - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
   - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
@@ -5084,7 +5084,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena and Absol DEFEATED! SAGE grew to Lv 76 (115/228 HP, Aerial Ace 18/20 PP, Bullet Seed 30/30 PP). Shiftry DEFEATED (Aerial Ace OHKO). Cacturne, Crawdaunt remaining. Plan: Sweep with Aerial Ace & Bullet Seed!
+- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena, Absol, and Shiftry DEFEATED! SAGE Lv 76 at 115/228 HP (Aerial Ace 17/20 PP, Bullet Seed 30/30 PP). Cacturne & Crawdaunt remaining. Plan: One-shot with Aerial Ace & Bullet Seed!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 76) - Active! HP: 115/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (17/20), Facade (13/20), Quick Attack (29/30). Status: OK. Level 76!
