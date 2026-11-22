@@ -100,8 +100,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: SAGE Lv 76 (180/228 HP, Spe 224). Sidney's Mightyena and Absol defeated in Room 1! Aerial Ace PP conserved at 20/20!
 - Supplies confirmed: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash (liquidated 10 unused TMs).
 - Battle Progress:
-  - Room 1 Sidney: Mightyena defeated (Bullet Seed), Absol defeated (Facade + Quick Attack). 0 Aerial Ace PP used so far! Remaining foes: Shiftry, Cacturne, Crawdaunt.
-  - Room 2 Phoebe: Sweep with Aerial Ace (Dusclops x2, Banette x2, Sableye). Full 18-20 PP available! Use Hyper Potion before battle to reach 228 HP.
+  - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
+  - Room 2 Phoebe: Restoring SAGE to 228/228 HP with Hyper Potion on Grand Staircase 2. Sweep Phoebe's Ghost team using Aerial Ace (14 PP) and Bullet Seed (27 PP). In Bag: 5 Revives, 6 Hyper Potions (after heal), 3 Full Heals.
   - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!

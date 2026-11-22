@@ -6,8 +6,8 @@
 - Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED! Earned ¥4,900 (Total cash: ¥4,943). SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP). In Bag: 5 Revives, 7 Hyper Potions, 3 Full Heals. Advancing through northern door to Grand Staircase 2 to heal Sage and challenge Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 228/228. Max HP: 228. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK. Level 76!
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+1. SAGE (Sceptile ♂, Level 76) - Lead! HP: 114/228. Max HP: 228. Moves: Bullet Seed (27/30), Aerial Ace (14/20), Facade (19/20), Quick Attack (29/30). Status: OK. (Restoring to 228 HP via Hyper Potion).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Sidney).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
@@ -29,7 +29,7 @@
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x6 (5 purchased Turn 25630, 1 purchased Turn 25634)
+- Revive x5 (5 purchased Turn 25630, 1 purchased Turn 25634; 1 used Turn 25671 on Sage)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
@@ -45,7 +45,7 @@
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥43 (liquidated 10 unused TMs for cash; purchased 6 Revives, 7 Hyper Potions, 1 Full Heal)
+- Money: ¥4,943 (liquidated 10 unused TMs for cash, purchased supplies, won ¥4,900 from Sidney)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
