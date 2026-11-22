@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 DEFEATED! Dusclops #2 down to ~6-8 HP in red. SAGE Lv 76 at 3/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 21/30 PP). Plan: Finish Dusclops 2!
+- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 DEFEATED! Dusclops #2 at ~6-8 HP. SAGE fell to Ice Beam. Lilz (85/85 HP) active on forced switch! Plan: Lilz finishes Dusclops 2 with Surf, then takes on Banettes & Sableye!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Active! HP: 3/228. Max HP: 228. Moves: Bullet Seed (21/30), Aerial Ace (9/20), Facade (13/20), Quick Attack (29/30). Status: OK (Overgrow Active!). Level 76!
+1. SAGE (Sceptile ♂, Level 76) - Active! HP: 0/228. Max HP: 228. Moves: Bullet Seed (21/30), Aerial Ace (9/20), Facade (13/20), Quick Attack (29/30). Status: FNT. Level 76!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Absol +2 Rock Slide after reviving SAGE).
