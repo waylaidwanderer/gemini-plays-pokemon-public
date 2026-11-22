@@ -405,7 +405,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Move Verification: Sceptile verified NOT ABLE to learn TM46 Thief (Turn 25544). Strategy: Conserve Aerial Ace PP in Room 1 (use Facade on Mightyena/Absol) so SAGE enters Room 2 with 18+ Aerial Ace PP to sweep Phoebe!
 - Purchasing: Verify cash in lobby (~¥2,687), purchase Revives/Potions at Mart clerk.
 - Battle Roadmap:
-  - Room 1 Sidney: ACTIVE! Mightyena DEFEATED. Absol at ~1-2% HP. Cobalu active (49/49 HP). SAGE Lv 75 fainted (0/226 HP). Cobalu using Revive on SAGE and finishing Absol. Shiftry, Cacturne, Crawdaunt remaining.
+  - Room 1 Sidney: ACTIVE! Mightyena DEFEATED. Absol at ~1-2% HP. SAGE revitalized to 113 HP (Cobalu active). Cobalu finishing Absol. Shiftry, Cacturne, Crawdaunt remaining.
   - Room 2 Phoebe: Sweep with conserved Aerial Ace (20 PP) and Bullet Seed (30 PP)!
   - Room 3 Glacia: Sweep with Bullet Seed (Sealeo x2, Walrein) and Facade/Aerial Ace (Glalie x2).
   - Room 4 Drake: Sweep with Aerial Ace, Facade, Quick Attack.
@@ -5084,10 +5084,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena DEFEATED. Absol at 1-2% HP. Cobalu active (49/49 HP). SAGE Lv 75 fainted (0/226 HP); Cobalu using 1 Revive to restore SAGE to 113 HP and finish Absol!
+- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena DEFEATED. Absol at 1-2% HP. SAGE revitalized to 113 HP (Cobalu active). Plan: Cobalu finishes Absol, SAGE levels to 76 and sweeps Shiftry, Cacturne, Crawdaunt!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 0/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (17/20), Quick Attack (29/30). Status: FNT. Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 113/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (17/20), Quick Attack (29/30). Status: OK (Revitalized!). Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
@@ -5110,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x1 (1 purchased at League Mart for Attempt 5, cost ¥1,500)
+- Revive x0 (1 used on SAGE Turn 25563; SAGE restored to 113 HP)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
