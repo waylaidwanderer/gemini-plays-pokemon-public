@@ -11,7 +11,7 @@
 - **Starter Moveset Changes:** Lv 5 Mudkip starts with only `Tackle` (35 PP) and **no `Growl`** *(Verified Turn 44)*.
 - **Buffed Wild Movesets/Stats & Held Items:** Even the tutorial Lv 2 Zigzagoon on Route 101 knows `Swift` + `Sand-Attack`, holds an HP-restoring Berry (`triggered at low HP Turn 737 #50–#51`), and takes 6–7 Tackles from Lv 5 Mudkip *(Verified Turns 44–49, 736–739)*.
 ## Verified Starter Learnset (Mudkip — `Triton` Active Attempt #2; `Bayou` Deceased Turn 380)
-- `Lv 5 Tackle` (no `Growl`; `Triton` Relaxed Lv 5: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–14` *(no moves; `Triton` Relaxed Lv 11: `32 HP / 22 Atk / 19 Def / 18 SpA / 17 SpD / 14 Spe` — Turn 744 `#215`; `Lv 12–14` no moves — Turns 839–841; `Lv 15` stats: `40 HP / 28 Atk / 24 Def / 23 SpA / 21 SpD / 18 Spe` — verified Turn 1048 `#53`)*.
+- `Lv 5 Tackle` (no `Growl`; `Triton` Relaxed Lv 5: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–14` *(no moves; `Triton` Relaxed Lv 11: `32 HP / 22 Atk / 19 Def / 18 SpA / 17 SpD / 14 Spe` — Turn 744 `#215`; `Lv 12–14` no moves — Turns 839–841)* -> `Lv 15 Bide` *(declined; `Lv 15` stats: `40 HP / 28 Atk / 24 Def / 23 SpA / 21 SpD / 18 Spe` — verified Turns 1048 `#53`, 1050 `#01`)*.
 
 ## Early Shop Inventories
 - **Oldale Poké Mart:**
