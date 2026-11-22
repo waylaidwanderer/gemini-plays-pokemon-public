@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 ROOM 1 (SIDNEY) DEFEATED! Earned ¥4,900 (Total cash: ¥6,087). All 5 of Sidney's Pokémon conquered! SAGE Lv 76 at 115/228 HP with 15/20 Aerial Ace PP and 29/30 Bullet Seed PP intact. Northern door to Room 2 unlocked! Plan: Advance through door to Room 2 (Phoebe) and sweep with Aerial Ace!
+- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! SAGE Lv 76 at 115/228 HP (Aerial Ace 13/20 PP, Bullet Seed 29/30 PP). Lead Dusclops Lv 48 engaged. Plan: Sweep with Aerial Ace!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 76) - Active! HP: 115/228. Max HP: 228. Moves: Bullet Seed (29/30), Aerial Ace (15/20), Facade (13/20), Quick Attack (29/30). Status: OK. Level 76!
+1. SAGE (Sceptile ♂, Level 76) - Active! HP: 115/228. Max HP: 228. Moves: Bullet Seed (29/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (29/30). Status: OK. Level 76!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Max HP: 49. Status: FNT (Fainted to Absol +2 Rock Slide after reviving SAGE).
