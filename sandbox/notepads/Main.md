@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! SAGE Lv 76 at 39/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 25/30 PP). Dusclops #1 down to ~15% HP after 3-hit Overgrow Bullet Seed (Full Restore burned). Plan: KO Dusclops 1, sweep Banette 1 & Sableye with Aerial Ace!
+- Status: Attempt 5 Room 2 (Phoebe) ACTIVE! Dusclops #1 DEFEATED! Dusclops #2 (Lv 51) entering. SAGE Lv 76 at 39/228 HP (Overgrow active, Aerial Ace 9/20 PP, Bullet Seed 25/30 PP). Plan: Fire Overgrow Bullet Seed at Dusclops 2!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 76) - Active! HP: 39/228. Max HP: 228. Moves: Bullet Seed (25/30), Aerial Ace (9/20), Facade (13/20), Quick Attack (29/30). Status: OK (Overgrow Active!). Level 76!
