@@ -412,7 +412,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
   - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
-  - Room 3 Glacia: Sealeo #1 Lv 50 DEFEATED! Sealeo #2 Lv 52 DEFEATED (Turn 25791)! Glacia has 3 Pokémon remaining (Glalie x2, Walrein) and 1 Full Restore. SAGE Lv 77 (65/231 HP, Overgrow active!).
+  - Room 3 Glacia: Sealeo #1 Lv 50 DEFEATED! Sealeo #2 Lv 52 DEFEATED! Glacia sent out ace Walrein Lv 53! SAGE is Lv 77 (79/231 HP). Healing SAGE to 231 HP with Hyper Potion to tank Ice Beam.
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
 
@@ -5089,10 +5089,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Won ¥5,100 (Total cash: ¥10,043). SAGE Lv 77 (213/231 HP). In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals. Battling Glacia in Room 3!
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Glacia's Sealeo x2 DEFEATED! Facing ace Walrein Lv 53. SAGE Lv 77 (79/231 HP). In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 65/231. Max HP: 231. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healed via Hyper Potion Turn 25753!).
+1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 79/231. Max HP: 231. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healed via Hyper Potion Turn 25753!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Phoebe Turn 25696).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted executing turn-priority Revive Turn 25694).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
