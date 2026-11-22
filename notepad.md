@@ -5092,7 +5092,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Won ¥5,100 (Total cash: ¥10,043). SAGE Lv 77 (213/231 HP). In Bag: 2 Revives, 4 Hyper Potions, 3 Full Heals. Battling Glacia in Room 3!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 213/231. Max HP: 231. Moves: Bullet Seed (12/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healed via Hyper Potion Turn 25753!).
+1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 199/231. Max HP: 231. Moves: Bullet Seed (11/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healed via Hyper Potion Turn 25753!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Max HP: 85. Status: FNT (fainted executing turn-priority Revive on Sage vs Phoebe Turn 25696).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/40. Max HP: 40. Status: FNT (fainted executing turn-priority Revive Turn 25694).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
