@@ -21,7 +21,7 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Route 104 South):** `Triton` (Lv 11 Mudkip), `Inari` (Lv 12 Vulpix), `Zephyr` (Lv 10 Hoppip), `Gaia` (Lv 11 Sandshrew), `Freya` (Snubbull — leveling to Lv 11!); **`Oran`, `Pecha`, & `Rawst Berry x99` ALL UNLOCKED**; `17 Poké Balls + 1 Premier Ball`, **`6 Repels`**, `3 Potions`, `1 Antidote`, `2 Parlyz Heals`, `2 Awakenings`, `¥636`.
+- **Current Resources (Route 104 South):** `Freya` (Lv 11 Snubbull, `Run Away` lead), `Inari` (Lv 12 Vulpix), `Zephyr` (Lv 10 Hoppip), `Gaia` (Lv 11 Sandshrew), `Triton` (Lv 14 Mudkip — `38 HP`, keep in reserve for bosses to preserve EXP headroom!) — all 5 holding `Oran Berries`; **`Oran`, `Pecha`, & `Rawst Berry x99` ALL UNLOCKED**; `18 Poké Balls + 1 Premier Ball`, **`6 Repels`**, `3 Potions`, `1 Antidote`, `2 Parlyz Heals`, `2 Awakenings`, `¥636`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep All Squad Members <= Lv 13–14 Until Rusturf Tunnel Is Cleared!`):**
   - **Route 104 South -> Petalburg Woods:** Clear Route 104 South trainers (`lead Zephyr/Triton vs Fisherman Darian!`), catch **Petalburg Woods** encounter (`completing 6-Pokémon squad!`), grab Woods hidden `Potion` + Route 104 cliff `Poké Ball`, and defeat **Team Magma Grunt `(26, 23)`** for `Great Ball`.
   - **Route 104 North -> Rustboro City -> Route 115:** Harvest **`(3, 25)` Cheri Berries (`x99` unlock!)**, talk to `(5, 19)` boy for **`TM09 Bullet Seed`**, grab behind-shop `Potion` + hidden `Poké Ball`, defeat `Twins Gina & Mia` + **`PKMN Trainer Red (28, 8)`**, claim **`HM01 Cut`** in Cutter's House `(9, 38)`, grab **Route 115 `(20, 60)` `Super Potion`**, and check southeast 3-story **Rustboro Apartments `(26, 45)`**.
