@@ -24,7 +24,7 @@
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x5 (2 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle on Sage; 5 remaining)
+- Hyper Potion x4 (3 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle on Sage; 4 remaining)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
