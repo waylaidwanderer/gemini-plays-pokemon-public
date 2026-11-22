@@ -30,5 +30,5 @@
   - `Slot 6: [OPEN FOR ROUTE 116 ENCOUNTER!]` (`Inari` deposited in `BOX 14` Turn 1092)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`**, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Rustboro City & Route 115:** Check **Rustboro Apartments `(26, 46)`**, and grab **Route 115 `(20, 60)` `Super Potion`**.
+  - **Rustboro City & Route 115:** Check **SW Rustboro Apartments (`west of Poké Mart`)** *(SE `(26, 46)` Pekachu house & `(31..34, 39..46)` decorative tower verified Turns 1096–1098)*, and grab **Route 115 `(20, 60)` `Super Potion`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
