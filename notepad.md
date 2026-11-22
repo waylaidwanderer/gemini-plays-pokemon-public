@@ -411,7 +411,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Supplies confirmed: 6 Revives, 7 Hyper Potions, 3 Full Heals, ¥43 cash (liquidated 10 unused TMs).
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
-  - Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1, and Sableye DEFEATED! (4/5 down). SAGE active at Lv 77 (58/231 HP). Phoebe sending out 5th and final Pokémon: Banette #2 (Lv 49). In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals.
+  - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
   - Room 3 Glacia: Bullet Seed (Sealeo x2, Walrein), Facade/Quick Attack (Glalie x2).
   - Room 4 Drake: Aerial Ace & Quick Attack.
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
@@ -5089,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE IN PROGRESS: Dusclops #1 & Dusclops #2 DEFEATED! SAGE grew to Lv 77 (97/231 HP). In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Cash: ¥4,943.
+- Status: Attempt 6 ACTIVE! Room 1 SIDNEY DEFEATED. Room 2 PHOEBE DEFEATED! Won ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Door to Room 3 (Glacia) open!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 77) - Lead! HP: 58/231. Max HP: 231. Moves: Bullet Seed (18/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (29/30). Status: OK (healthy, uncursed). Overgrow active (1.5x Grass boost)!
@@ -5131,7 +5131,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
 - Premier Ball x0 (1 sold for ¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥4,943 (liquidated 10 unused TMs for cash, purchased supplies, won ¥4,900 from Sidney)
+- Money: ¥10,043 (won ¥4,900 from Sidney, ¥5,100 from Phoebe)
 - Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
 ## Littleroot Town & Route 101 Summary
