@@ -5354,5 +5354,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Overworld HP Restoration Timing: Restoring 125 HP with Hyper Potion takes ~1.5s for the counter animation to tick up, followed by 'SAGE's HP was restored by 125 point(s).' which is dismissed with B, returning cleanly to the Bag with cursor on CLOSE BAG.
 - Move Menu Clamping Guarantee: On the 2x2 move selection screen (Slot 1 top-left, Slot 2 top-right, Slot 3 bottom-left, Slot 4 bottom-right), pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack), bypassing any prior cursor memory.
 - In-Battle Party Targeting Placement: When using medicine items in battle, the active battler is placed in the left box, and reserve Pokémon are listed in the right column in party order. Always verify the target's exact row before pressing A.
+- Mart Buying Confirmation Safety Protocol: When purchasing items, the clerk asks "[ITEM]? And you wanted [N]? That will be ¥[PRICE]." with a YES/NO box (default YES). Pressing B while the YES/NO prompt is active cancels the purchase (selects NO). Always use consecutive A presses with ~500ms delays to fast-forward text and confirm YES cleanly; do not use B until returning to the Mart item list.
+- Mart TM Liquidation: Unused TMs can be sold to Poké Mart clerks for ¥1,000 to ¥1,500 each, providing massive cash reserves for Revives (¥1,500) and Hyper Potions (¥1,200). HMs cannot be sold.
+- SAGE Move Menu Layout: Slot 1 (top-left) = Bullet Seed (30 PP), Slot 2 (top-right) = Aerial Ace (20 PP), Slot 3 (bottom-left) = Facade (20 PP), Slot 4 (bottom-right) = Quick Attack (30 PP).
 
 <hr>
