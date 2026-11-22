@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena Lv 46 DEFEATED (Turn 25553). Absol Lv 49 entering! SAGE Lv 75 at 226/226 HP (Aerial Ace 19/20 PP, Bullet Seed 30/30 PP). Plan: Sweep Sidney, conserving 18+ Aerial Ace PP for Phoebe!
+- Status: Attempt 5 Room 1 (Sidney) ACTIVE! Mightyena Lv 46 DEFEATED. Absol Lv 49 falling to Aerial Ace! SAGE Lv 75 at 171/226 HP (leveling to 76!). Plan: Sweep Sidney, conserving 16+ Aerial Ace PP for Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 226/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (19/20), Facade (19/20), Quick Attack (30/30). Status: OK. Level 75!
+1. SAGE (Sceptile ♂, Level 75) - Lead! HP: 171/226. Max HP: 226. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (17/20), Quick Attack (30/30). Status: OK. Level 75!
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 16) - Moves: Teleport (20/20), Confusion (25/25). HP: 40/40. Max HP: 40. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
