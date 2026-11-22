@@ -21,14 +21,14 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Route 104 North `(25, 8)` — Finishing PKMN Trainer Red, `1/5` Left):**
-  - `Freya` (Lv 12 Snubbull, `29/38 HP`, berry used)
-  - `Gaia` (Lv 12 Sandshrew, `25/36 HP`, `27 Def`, berry used — `Sand-Attack` shuts down `+2 Atk` Eevee!)
-  - `Mandrake` (Lv 13 Oddish, `13/35 HP` `PAR`, `26 SpA`, berry used, `Mega Drain` `2/10 PP`)
-  - `Triton` (Lv 15 Mudkip, `14/40 HP`, `23 SpA`, `Rawst Berry`)
-  - `Zephyr` (Lv 13 Hoppip, `17/33 HP`, `19 Spe`, berry used)
-  - `Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — deposit in `BOX 14` at Rustboro PC!)
+- **Current Resources (Route 104 North `(25, 8)` — PKMN Trainer Red Defeated 5–0!):**
+  - `Slot 1: Freya` (Lv 13 Snubbull, `32/41 HP`, `26 Atk`, **`Headbutt / Bite / Lick / Roar`**!)
+  - `Slot 2: Mandrake` (Lv 13 Oddish, `13/35 HP` `PAR`, `26 SpA`, `Mega Drain / Acid`)
+  - `Slot 3: Zephyr` (Lv 13 Hoppip, `17/33 HP`, `19 Spe`, `Confusion / Secret Power / Mega Drain / Gust`)
+  - `Slot 4: Gaia` (Lv 12 Sandshrew, `25/36 HP`, `27 Def / 16 Spe`, `Scratch / Poison Sting / Sand-Attack`)
+  - `Slot 5: Triton` (Lv 15 Mudkip, `14/40 HP`, `Rawst Berry` — keep out of Route 116 trainer EXP so `Lv 12–13` squad absorbs EXP before candying to `Lv 16 Marshtomp` right outside Gym!)
+  - `Slot 6: Inari` (Lv 14 Vulpix, **DECEASED Turn 950** — deposit in `BOX 14` at Rustboro PC!)
   - **Bag & Cash:** **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 1 Premier Ball`, **`3 Repels`**, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 104 North -> Rustboro City -> Route 115:** Finish **`PKMN Trainer Red`**'s lone remaining `Eevee` at `(25, 8)`, **deposit `Inari` into `BOX 14` at Rustboro PC**, claim **`HM01 Cut`**, grab **Route 115 `(20, 60)` `Super Potion`**, and check **Rustboro Apartments `(26, 45)`**.
+  - **Rustboro City & Route 115:** Walk north into Rustboro City, **deposit `Inari` into `BOX 14` at Rustboro PC**, heal at Nurse Joy & re-berry everyone with `Oran Berries`, check **Rustboro Apartments `(26, 45)`**, claim **`HM01 Cut`** at Cutter's House, and grab **Route 115 `(20, 60)` `Super Potion`**.
   - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 13–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
