@@ -229,6 +229,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! SAGE at 118/237 HP (2 Revives in Bag).
   - Glalie Lv 50: Active next! (Counter with Facade + Quick Attack).
   - Glalie Lv 52: In reserve.
-  - Glalie Lv 50: In reserve.
+  - Glalie Lv 50: Active! SAGE Lv 79 (118/237 HP) attacking with physical Facade (70 BP).
   - Glalie Lv 52: In reserve.
 - Plan: Finish Walrein with Quick Attack (+1 priority). Defeat Glalie #1 and Glalie #2 with physical Facade (70 BP). Unlock Room 4 door!
