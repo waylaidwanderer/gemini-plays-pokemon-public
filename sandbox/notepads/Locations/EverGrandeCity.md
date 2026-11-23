@@ -192,7 +192,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 7 (Active)
 
-- Status: SAGE Level 78 (208/234 HP, Spe 230). In Room 2 battling Phoebe!
+- Status: SAGE Level 78 (159/234 HP, Spe 230). In Room 2 battling Phoebe!
 
 - Supplies: 4 Revives, 1 Hyper Potion, 3 Full Heals. Cash: ¥471.
 
