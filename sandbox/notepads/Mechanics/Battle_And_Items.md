@@ -29,8 +29,9 @@
   - Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
   - **Rustboro City `(33, 19)` House Trade (`(6, 4)` Elderly Woman):** Offers **`MOLTRES` in exchange for `SHEDINJA`** *(Verified Turn 514 `#22`: `"I'll trade you my MOLTRES for a SHEDINJA if you want."`)*! If we roll a legal `Nincada` encounter on a future route/cave, evolving at `Lv 20` with an open party slot + Poké Ball yields `Shedinja`!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
-## Verified Party Learnsets & Archived Species Reference (Attempts #1–#2)
+## Verified Party Learnsets & Archived Species Reference (Attempts #1–#3)
 - **Mudkip (`Caspian` Serious Attempt #3; `Triton` Attempt #2; `Bayou` Attempt #1):** `Lv 5 Tackle` (no `Growl`; `Caspian` Serious `Lv 5: 20 HP / 12 Atk / 11 Def / 10 SpA / 10 SpD / 9 Spe`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–14` *(no moves; `Caspian` `Lv 11: 32 HP / 22 Atk / 18 Def / 17 SpA / 17 SpD / 14 Spe`)* -> `Lv 15 Bide`.
+- **Numel (`Vulcan` Impish Attempt #3):** `Oblivious`, held **`Rawst Berry`**, starts **`Lv 5 Ember (25 PP) + Stomp (20 PP)`** (`replaces vanilla Growl + Tackle! Impish Lv 5: 22 HP / 11 Atk / 11 Def / 10 SpA / 9 SpD / 8 Spe`, *Verified Turn 1317 `#20–#25`*).
 - **Vulpix (`Inari` Attempt #2):** Custom **`Pressure` ability**, held **`Rawst Berry`**, starts `Lv 5 Ember + Quick Attack` -> **`Lv 9 Roar`** -> **`Lv 13 Bite`** (`Lv 14` no move).
 - **Hoppip (`Zephyr` Attempt #2):** `Chlorophyll`, starts `Lv 4 Confusion` (25 PP) -> **`Lv 5 PoisonPowder + Mega Drain` (both at Lv 5!)** -> **`Lv 10 Gust`** -> **`Lv 13 Secret Power`** (`Lv 14` no move).
 - **Sandshrew (`Gaia` Attempt #2):** `Sand Veil`, starts `Lv 6 Scratch + Poison Sting` -> **`Lv 11 Sand-Attack`** (`Lv 12–14` no moves).
