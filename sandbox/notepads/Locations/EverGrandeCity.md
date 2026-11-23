@@ -194,7 +194,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Status: SAGE Level 79 (FNT - Mochi active, reviving SAGE). In Room 3 battling Glacia!
 
-- Supplies: 2 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
+- Supplies: 0 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
 
 - Battle Progress Room 1 (Sidney):
 
@@ -228,5 +228,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
   - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! (Glacia burned Full Restore; SAGE revived to 118 HP, took Facade & Quick Attack).
   - Glalie Lv 50 (#1): DEFEATED by Facade!
-  - Glalie Lv 52 (#2): Active at ~35% HP! (Glacia's 5th and final Pokémon). SAGE fainted to Ice Beam; deploying Guava for Sacrificial Revive Protocol (2 Revives in Bag).
+  - Glalie Lv 52 (#2): Active at ~35% HP! (Glacia's 5th and final Pokémon). Guava in battle using Fly (0 Revives left).
 - Plan: Knock out final Glalie with Quick Attack (+1 priority). Win Room 3 (earn ¥5,300), ascend Grand Staircase 4, and challenge Drake in Room 4!

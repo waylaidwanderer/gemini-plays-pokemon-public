@@ -18,7 +18,7 @@
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x2 (2 used on SAGE; 2 remaining)
+- Revive x0 (4 used in Attempt 7 on SAGE; 0 remaining)
 - Hyper Potion x0 (1 purchased Turn 25895 used Turn 25937 on Grand Staircase 2 on SAGE; 0 remaining)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥10,471 (after defeating Sidney and Phoebe; won ¥4,900 + ¥5,100)

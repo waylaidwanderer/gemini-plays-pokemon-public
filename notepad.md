@@ -504,7 +504,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Status: SAGE Level 79 (FNT - Mochi active, reviving SAGE). In Room 3 battling Glacia!
 
-- Supplies: 2 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
+- Supplies: 0 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
 
 - Battle Progress Room 1 (Sidney):
 
@@ -538,7 +538,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
   - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! (Glacia burned Full Restore; SAGE revived to 118 HP, took Facade & Quick Attack).
   - Glalie Lv 50 (#1): DEFEATED by Facade!
-  - Glalie Lv 52 (#2): Active at ~35% HP! (Glacia's 5th and final Pokémon). SAGE fainted to Ice Beam; deploying Guava for Sacrificial Revive Protocol (2 Revives in Bag).
+  - Glalie Lv 52 (#2): Active at ~35% HP! (Glacia's 5th and final Pokémon). Guava in battle using Fly (0 Revives left).
 - Plan: Knock out final Glalie with Quick Attack (+1 priority). Win Room 3 (earn ¥5,300), ascend Grand Staircase 4, and challenge Drake in Room 4!
 
 
@@ -5226,7 +5226,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x2 (2 used on SAGE; 2 remaining)
+- Revive x0 (4 used in Attempt 7 on SAGE; 0 remaining)
 - Hyper Potion x0 (1 purchased Turn 25895 used Turn 25937 on Grand Staircase 2 on SAGE; 0 remaining)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥10,471 (after defeating Sidney and Phoebe; won ¥4,900 + ¥5,100)
