@@ -30,7 +30,7 @@
   2. **Pre-Equip Targeted Status Berries (`Pecha / Cheri / Rawst / Chesto`) on Known Status Leads:** Against `Toxic`/`Will-O-Wisp`/`Glare`/`Stun Spore`/`Spore` leads (`e.g. Jose's Dustox, Magma's Koffing/Duskull, Joey's Ekans, James's Paras`), pre-equipping `Pecha`/`Rawst`/`Cheri`/`Chesto` prevents passive chip + `Protect` stall far better than `Oran Berry`!
 - **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style & Text Speed:** Verify `SET` & `FAST` in Options immediately on Title Screen!
+- **Battle Style & Text Speed:** `SET` & `FAST` *(Verified in Options on Turn 1282)*
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
