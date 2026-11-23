@@ -21,11 +21,11 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Zephyr Stored in `BOX 14` — Prepping Berries & Repels in Rustboro for Final 3 Route 116 Trainers + Rusturf Tunnel!):**
-  - `Slot 1: Freya` (Lv 15 Snubbull, `45/45 HP`, `30 Atk`, equipping `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
-  - `Slot 2: Mandrake` (**Lv 16 GLOOM**, full HP, equipping `Oran Berry`, `Mega Drain / Acid / Toxic / Magical Leaf` — checking exact `NEXT LV.` EXP to `Lv 17`!)
-  - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, equipping `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
-  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` intact, `Tackle / Bubble / Mud Sport / Water Gun`)
+- **Current Resources (All 4 Squad Members Berried — Stocking Repels at Rustboro Mart for Final 3 Route 116 Trainers + Rusturf Tunnel!):**
+  - `Slot 1: Freya` (Lv 15 Snubbull, `45/45 HP`, `30 Atk`, `Oran Berry` verified, `Headbutt / Bite / Lick / Roar`)
+  - `Slot 2: Mandrake` (**Lv 16 GLOOM**, `46/46 HP`, `33 Def / 34 SpA / 29 SpD / 22 Spe`, `Oran Berry` verified, `Mega Drain / Acid / Toxic / Magical Leaf` — **`456 EXP` to `Lv 17`**, keep on bench until Roxanne!)
+  - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, `Oran Berry` verified, `Scratch / Poison Sting / Sand-Attack`)
+  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` verified, `Tackle / Bubble / Mud Sport / Water Gun`)
   - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `16 Poké Balls + 2 Premier Balls`, **`1 Repel`** (buying `+4 Repels` at Rustboro Mart next!), `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist:**
