@@ -5094,7 +5094,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! SAGE is Level 78 (234/234 HP) at 100% PP on all moves! Approaching Mart clerk (16, 4) to restock Revives and Hyper Potions.
+- Status: Attempt 7 ACTIVE! SAGE is Level 78 (234/234 HP) at 100% PP! Restocked 4 Revives, 1 Hyper Potion. Heading to Elite Four gate!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 234/234. Max HP: 234. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 78!).
