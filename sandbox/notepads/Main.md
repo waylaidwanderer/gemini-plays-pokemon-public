@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! SAGE Lv 79 (FNT - deploying Cobalu for Revive). Revive x2 in Bag.. Cash: ¥10,471. In Room 3 battling Glacia!
+- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! SAGE Lv 79 (118/237 HP - revived!). Revive x1 in Bag.. Cash: ¥10,471. In Room 3 battling Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 0/237 (FNT). Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (15/20), Quick Attack (29/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 118/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (15/20), Quick Attack (29/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85 (FNT). Max HP: 85. Status: FNT (Sacrificial Revive buffer).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41 (FNT). Max HP: 41. Status: FNT (Sacrificial Revive buffer).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
@@ -18,7 +18,7 @@
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x2 (2 used on SAGE; 2 remaining)
+- Revive x1 (3 used on SAGE; 1 remaining)
 - Hyper Potion x0 (1 purchased Turn 25895 used Turn 25937 on Grand Staircase 2 on SAGE; 0 remaining)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥10,471 (after defeating Sidney and Phoebe; won ¥4,900 + ¥5,100)

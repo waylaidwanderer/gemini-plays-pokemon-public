@@ -194,7 +194,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Status: SAGE Level 79 (38/237 HP, Spe 233, Overgrow Active!). In Room 3 battling Glacia!
 
-- Supplies: 2 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
+- Supplies: 1 Revive, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
 
 - Battle Progress Room 1 (Sidney):
 
