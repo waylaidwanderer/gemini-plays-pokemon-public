@@ -10,7 +10,7 @@
 ## Locations & Encounters (Attempt #3)
 - **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295)
 - **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
-- **Route 103:** `Skitty ♀` (**"Velvet"**) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1322`)
+- **Route 103:** `Skitty ♀` (**"Velvet"**, Modest, `Cute Charm`, held **`Moon Stone`**, `Lv 4 Assist + Attract + Sing`) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1323`)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #3)
 - Mudkip / Marshtomp / Swampert (`Caspian`)
