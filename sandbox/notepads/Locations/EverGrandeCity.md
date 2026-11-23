@@ -217,7 +217,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress Room 2 (Phoebe):
 
   - Dusclops Lv 48: DEFEATED by Bullet Seed! (Phoebe burned Full Restore).
-  - Dusclops Lv 51 (Ace): DEFEATED by critical Overgrow Bullet Seed! SAGE at 75/234 HP (Overgrow Active!).
+  - Dusclops Lv 51 (Ace): DEFEATED by critical Overgrow Bullet Seed!
+  - Banette Lv 49 (#1): DEFEATED by Aerial Ace!
+  - Sableye Lv 50: DEFEATED by Overgrow Bullet Seed!
+  - Banette Lv 49 (#2): DEFEATED by Overgrow Bullet Seed!
+  - Northern door to Room 3 (Glacia) unlocked and open!
 
   - Banette Lv 49: In reserve.
 

@@ -527,7 +527,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress Room 2 (Phoebe):
 
   - Dusclops Lv 48: DEFEATED by Bullet Seed! (Phoebe burned Full Restore).
-  - Dusclops Lv 51 (Ace): DEFEATED by critical Overgrow Bullet Seed! SAGE at 75/234 HP (Overgrow Active!).
+  - Dusclops Lv 51 (Ace): DEFEATED by critical Overgrow Bullet Seed!
+  - Banette Lv 49 (#1): DEFEATED by Aerial Ace!
+  - Sableye Lv 50: DEFEATED by Overgrow Bullet Seed!
+  - Banette Lv 49 (#2): DEFEATED by Overgrow Bullet Seed!
+  - Northern door to Room 3 (Glacia) unlocked and open!
 
   - Banette Lv 49: In reserve.
 
@@ -5213,7 +5217,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 7 ACTIVE! Room 1 Sidney and Room 2 Phoebe BOTH DEFEATED! SAGE Lv 78 (75/234 HP). Cash: ¥10,471. In Bag: 4 Revives, 0 Hyper Potions, 3 Full Heals. Heading to Room 3 (Glacia).
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 75/234. Max HP: 234. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 31/234. Max HP: 234. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
