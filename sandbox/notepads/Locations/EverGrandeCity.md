@@ -190,43 +190,15 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
 
-## Elite Four Attempt 7 (Active)
+## Elite Four Attempt 7 (Archived Turn 26031)
+- Status: Room 1 Sidney DEFEATED! Room 2 Phoebe DEFEATED! Room 3 Glacia: Sealeo #1 & #2 defeated, Walrein Ace defeated, Glalie #1 defeated, Glalie #2 reduced to ~35% HP. SAGE grew to Lv 79. Whited out on Turn 26031.
+- Battle Progress:
+  - Room 1 Sidney: DEFEATED on Turn 25926! Prize: ¥4,900.
+  - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: ¥5,100.
+  - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
 
-- Status: SAGE Level 79 (FNT - Mochi active, reviving SAGE). In Room 3 battling Glacia!
-
-- Supplies: 0 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
-
-- Battle Progress Room 1 (Sidney):
-
-  - Room 1 Sidney: DEFEATED on Turn 25926! Prize: ¥4,900 (Total cash: ¥5,371).
-
-  - Mightyena Lv 46: DEFEATED by Bullet Seed!
-
-  - Absol Lv 49: DEFEATED by Aerial Ace!
-
-  - Shiftry Lv 48: DEFEATED by Aerial Ace!
-
-  - Cacturne Lv 46: DEFEATED by Aerial Ace (Sidney burned 2 Full Restores)!
-
-  - Crawdaunt Lv 48: DEFEATED by Bullet Seed (2x Grass STAB OHKO)!
-
-  - SAGE Lv 78 (98/234 HP, all stat debuffs cleared upon battle exit).
-
-  - Northern door to Room 2 (Phoebe) unlocked and open!
-
-- Battle Progress Room 2 (Phoebe):
-
-  - Dusclops Lv 48: DEFEATED by Bullet Seed! (Phoebe burned Full Restore).
-  - Dusclops Lv 51 (Ace): DEFEATED by critical Overgrow Bullet Seed!
-  - Banette Lv 49 (#1): DEFEATED by Aerial Ace!
-  - Sableye Lv 50: DEFEATED by Overgrow Bullet Seed!
-  - Banette Lv 49 (#2): DEFEATED by Overgrow Bullet Seed!
-  - Northern door to Room 3 (Glacia) unlocked and open!
-
-- Battle Progress Room 3 (Glacia):
-  - Sealeo Lv 50 (#1): DEFEATED by Overgrow Bullet Seed!
-  - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
-  - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! (Glacia burned Full Restore; SAGE revived to 118 HP, took Facade & Quick Attack).
-  - Glalie Lv 50 (#1): DEFEATED by Facade!
-  - Glalie Lv 52 (#2): Active at ~35% HP! (Glacia's 5th and final Pokémon). Guava in battle using Fly (0 Revives left).
-- Plan: Knock out final Glalie with Quick Attack (+1 priority). Win Room 3 (earn ¥5,300), ascend Grand Staircase 4, and challenge Drake in Room 4!
+## Elite Four Attempt 8 (Active)
+- Status: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pokémon 100% restored upon whiteout reset!
+- Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
+- Cash: ¥991 retained.
+- Plan: Re-enter League lobby at (9, 11), pass central gate at (9, 1). Full sweep through Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
