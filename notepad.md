@@ -11,7 +11,7 @@
 
 ## Locations & Encounters (Attempt #3)
 - **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295)
-- **Oldale Town:** `Numel ♂` (**"Vulcan"**) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1316`)
+- **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #3)
 - Mudkip / Marshtomp / Swampert (`Caspian`)
@@ -59,7 +59,7 @@
 ## In-Battle Bag Usage Restricted
 - **Healing Items & Bag Berries Banned in Battle:** Selecting `POTION` from `ITEMS` *(Verified Turn 49 `#56`)* or `ORAN BERRY` from `BERRIES` *(Verified Turn 704 `#01`)* in battle displays **only `CANCEL`** (no `USE` option), confirming all Bag healing/berries are disabled mid-battle.
 - **Held Berries & Unlimited Refill:** Because Bag healing is disabled in battle, **held Berries** (Oran Berry, Cheri/Pecha/Persim/Lum Berries, etc.) are critical for survival. *(CRITICAL VERIFIED ROM HACK TIMING RULES: Held `Oran Berry` (`<= 50%` HP threshold) checks at **end of turn** [including on switch-ins where the holder did not use a move — verified Turn 1220 `#91–#92` on `Mandrake`!], NOT mid-turn right after taking damage [verified Turn 942 `#50–#68`], NOT off `BRN`/`PSN` ticks [Turn 439 `#58`], and NOT when KOing a trainer's **final** Pokémon [Turns 933 `#56`, 1015 `#51`], whereas KOing a **non-final** trainer Pokémon while `<= 50%` HP triggers `Oran Berry` upon the next foe's send-out [Verified Turns 1059 `#69–#70`, 1185]. Note: `Gaia` on Turns 1195–1220 simply had no berry equipped — verified via `10x` PC `PKMN DATA` on Turn 1227, as Sandshrew's orange claw/tail pixels mimic the `4x4` item icon at `1x` filmstrip resolution!)* Once at least 1 of any Berry is obtained, the harness refills it to `99` in the overworld (`RARE CANDY x99` verified auto-populated in `ITEMS` pocket on Turn 48, `#49`).
-  - **Oldale Town Wild `Vulpix` Held Berry (`(14..15, 2)`):** Wild `Lv 5 Vulpix` came holding a **`Rawst Berry`** *(Taken Turn 767 `#82` — unlocks `Rawst Berry x99` infinite held & overworld Burn cure!)*.
+  - **Oldale Town Wild `Vulpix` & `Numel` Held Berry (`(14..15, 2)`):** Both wild `Lv 5 Vulpix` *(Turn 767)* and wild `Lv 5 Numel` *(Turn 1317 `#23`)* came holding a **`Rawst Berry`** (`unlocks Rawst Berry x99 infinite held & overworld Burn cure!`).
   - **Route 102 Berry Patch (`(24..25, 2)`):** `(24, 2)` yields `2x Oran Berry`; `(25, 2)` yields `2x Pecha Berry` *(Harvested Turn 179; `No03 PECHA BERRY x99` and `No07 ORAN BERRY x99` auto-refill verified in `BERRIES` pocket Turn 182 — also provides infinite free overworld HP/poison healing via `USE`!)*.
   - **Route 104 North Flower Shop Patch (`(3, 23..25)`):** `(3, 25)` yields **`2x Cheri Berry`** (`auto-refills to x99` — infinite held & overworld Paralysis cure! Harvested Turn 396); `(3, 23)` has Oran Berries.
 
