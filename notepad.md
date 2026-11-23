@@ -1,42 +1,36 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Encounter Tracker — Attempt #2
+# Encounter Tracker — Attempt #3
 
 ## Rules Reminder
 - One encounter per "Met in" location (shared across grass, water, fishing, starter, and gifts).
-- Dupes Clause active across evolution families obtained in **Attempt #2** (resets each attempt).
-- **Wild Held Item & `Roar` Reminder:** Check Summary for wild held items on every catch (e.g. Route 103 `Sunkern` held `SUN STONE` in Attempt #1!), and beware `Roar` on Oldale Town custom grass `Growlithe` `(14..15, 2)`!
+- Dupes Clause active across evolution families obtained in **Attempt #3** (resets each attempt).
+- **Wild Held Item, `Roar` & `Memento` Reminder:**
+  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE` Attempt #1; `Oldale Vulpix` held `RAWST BERRY` Attempt #2!).
+  - **Self-KO / Flee Hazards:** Oldale Town custom grass `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), and Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128)—use `Sleep` or high-rate balls immediately on flee/self-KO species!
 
-## Locations & Encounters (Attempt #2)
-- **Route 101:** `Mudkip` ♂ (**`Triton`**, `Torrent`, **Relaxed** `+Def/-Spe`, Lv 5 stats: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe` — rescued Prof. Birch Turn 740)
-- **Oldale Town:** `Vulpix` ♀ (**`Inari`** — **DECEASED Turn 950, stored in `BOX 14` Turn 1092**; custom `Pressure` ability, Hasty `+Spe/-Def`, held `RAWST BERRY` [unlocked `x99` refills!])
-- **Route 103:** `Hoppip` ♂ (**`Zephyr`** — **DECEASED Turn 1215, stored in `BOX 14` Turn 1226**; lost to Youngster Joey's `Lv 10 Ekans` crit `Acid` on switch-in; `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
-- **Route 102:** `Sandshrew` ♀ (**`Gaia`** — **DECEASED Turn 1273** holding 2 HP vs Bug Maniac Jose's `Lv 10 Beautifly` to give `Mandrake` a free switch-in; deposit in `BOX 14` post-battle; `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe` — caught Turn 790)
-- **Route 104:** `Snubbull` ♀ (**`Freya`**, `Run Away` [-> `Lv 23 Granbull`], **Serious** neutral, Lv 7 stats: `26 HP / 16 Atk / 12 Def / 10 SpA / 11 SpD / 11 Spe`, moves: `Tackle / Bite / Lick` — caught Turn 836)
-- **Petalburg Woods:** `Oddish -> Gloom` ♂ (**`Mandrake`** — **DECEASED Turn 1275** to Bug Maniac Jose's `#4 Lv 10 Butterfree` `Confusion` after cutting Butterfree to ~50% HP with `22-Spe Acid`; deposit in `BOX 14` post-battle; `Chlorophyll`, **Lax** `+Def/-SpD` — caught Turn 890)
-- **Route 116:** `Grimer` ♂ (`Lv 9`) — **FORFEITED Turn 1128** *(broke out of 2 Poké Balls at ~78% HP and fainted itself with `Memento` on Turn 1128 `#69`)*
+## Locations & Encounters (Attempt #3)
+*(None yet — starting Attempt #3)*
 
-## Obtained Evolution Families (Dupes Clause — Attempt #2)
-- Mudkip / Marshtomp / Swampert
-- Vulpix / Ninetales
-- Hoppip / Skiploom / Jumpluff
-- Sandshrew / Sandslash
-- Snubbull / Granbull
-- Oddish / Gloom / Vileplume / Bellossom
+## Obtained Evolution Families (Dupes Clause — Attempt #3)
+*(None yet — starting Attempt #3)*
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #2
+# Nuzlocke Dashboard — Attempt #3
 
 ## Run Status
-- **Attempt:** #2 (`Deaths: 5` — `Inari` Lv 14 Vulpix [BOX 14]; `Zephyr` Lv 14 Hoppip [BOX 14]; `Gaia` Lv 14 Sandshrew, `Mandrake` Lv 16 Gloom, & `Freya` Lv 16 Snubbull vs Bug Maniac Jose `(36, 12)`'s 4-evolved-Bug gauntlet; `Triton` Lv 15 Mudkip `9/40 HP PAR` in final 1v1 vs ~50%-HP `#4 Lv 10 Butterfree`!)
-- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`3` casualties: `Bayou` Turn 380 to Houndour crit `Pursuit`; `Joule` Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Turn 705 to `Dustox` `Toxic + Confusion` self-hits while `Girasol` had only `5 EXP` cap buffer left).
-- **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
-- **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
+- **Attempt:** #3 (`Deaths: 0`)
+- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died Turn 380 to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died Turn 705 to `Dustox` `Toxic + Confusion` self-hits with `Girasol` 5 EXP from `Lv 17`).
+- **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`). Cleared Red, Magma Grunt, Western/Central Route 116, Youngster Joey, Clark, & Janice, and discovered `Oddish` evolves early into **`Lv 16 Gloom` (`+ Magical Leaf`)**, before wiping to Jose's 4-evolved-Bug (`Dustox, Beedrill, Beautifly, Butterfree`) Grass-coverage gauntlet while constrained by the `Lv 16` cap.
+- **TWO GOLDEN RULES FOR ATTEMPT #3:**
+  1. **Challenge & Defeat Roxanne (`Cap = Lv 16`) BEFORE Eastern Route 116 (`Youngster Joey` & `Bug Maniac Jose`):** Rustboro Gym is open immediately upon reaching Rustboro City! Catch only our western Route 116 grass encounter `(5..6, 13..14)` pre-Gym, candy our 6-Pokémon squad to **`Lv 16`** right outside Rustboro Gym, and defeat **Roxanne** FIRST—advancing the Level Cap to **`Lv 20` (Brawly)** and activating **`HM01 Cut` (`unlocking Chesto Berry x99 on Route 116`)** BEFORE sweeping Route 116 & Rusturf Tunnel at `Lv 18–19`!
+  2. **Pre-Equip Targeted Status Berries (`Pecha / Cheri / Rawst / Chesto`) on Known Status Leads:** Against `Toxic`/`Will-O-Wisp`/`Glare`/`Stun Spore`/`Spore` leads (`e.g. Jose's Dustox, Magma's Koffing/Duskull, Joey's Ekans, James's Paras`), pre-equipping `Pecha`/`Rawst`/`Cheri`/`Chesto` prevents passive chip + `Protect` stall far better than `Oran Berry`!
+- **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style & Text Speed:** `SET` & `FAST` *(Verified in Options Turn 716 `#05`)*
+- **Battle Style & Text Speed:** Verify `SET` & `FAST` in Options immediately on Title Screen!
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
@@ -50,8 +44,8 @@
 - Champion: Lv 100
 
 ## Notepad Index
-- `Locations/Encounters` — Attempt #2 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
-- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss teams, learnsets & Attempt #1 tactical lessons
+- `Locations/Encounters` — Attempt #3 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss teams, learnsets & Attempts #1–#2 post-mortems
 - `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart flows, Naming grid, and battle KO timings
 
 <hr>
@@ -91,13 +85,14 @@
   - Wild `Sunkern` on Route 103 came holding a **`SUN STONE`** *(Verified Turn 123, `#43`)*—check wild held items on every catch!
   - **Rustboro City `(33, 19)` House Trade (`(6, 4)` Elderly Woman):** Offers **`MOLTRES` in exchange for `SHEDINJA`** *(Verified Turn 514 `#22`: `"I'll trade you my MOLTRES for a SHEDINJA if you want."`)*! If we roll a legal `Nincada` encounter on a future route/cave, evolving at `Lv 20` with an open party slot + Poké Ball yields `Shedinja`!
 - **Buffed Wild Learnsets:** Wild `Lv 6 Gulpin` on Route 102 starts with `Acid` (30 PP) + `Yawn` (10 PP) instead of vanilla `Pound` *(Verified Turn 133, `#70`)*.
-## Verified Party Learnsets (Early Squad)
-- **Vulpix (`Inari` — Archived, Deceased Turn 950):** Wild `Lv 5` has custom **`Pressure` ability** (replaces vanilla `Flash Fire`!), held **`Rawst Berry`**, and starts with `Ember` (25 PP) + **`Quick Attack` (30 PP — vanilla Lv 13!)** *(Hasty Lv 5 stats: `19 HP / 10 Atk / 8 Def / 11 SpA / 12 SpD / 12 Spe` — verified Turn 767 `#55–#59`)* -> `Lv 6–8` *(no moves)* -> **`Lv 9 Roar`** -> `Lv 10–12` *(no moves; Hasty Lv 12 stats: `32 HP / 17 Atk / 12 Def / 20 SpA / 23 SpD / 23 Spe` — Turn 818 `#68`)* -> **`Lv 13 Bite` (Special Dark coverage + 30% Flinch!)** *(Hasty Lv 13 stats: `34 HP / 18 Atk / 13 Def / 22 SpA / 24 SpD / 24 Spe` — Turn 912 `#64, #70`)* -> `Lv 14` *(no move; Hasty Lv 14 stats: `36 HP / 19 Atk / 14 Def / 23 SpA / 26 SpD / 25 Spe` — verified Turn 947 `#44`)*.
-- **Hoppip (`Zephyr` — Archived, Deceased Turn 1215):** Wild `Lv 4` (`Chlorophyll`, Jolly `+Spe/-SpA`) starts with only **`Confusion` (25 PP — 50 BP Psychic coverage at Lv 4, replacing vanilla `Splash`!)** *(Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe` — verified Turn 778 `#277–#282`)* -> **`Lv 5 PoisonPowder + Mega Drain` (learns BOTH at Lv 5!)** -> `Lv 6–9` *(no moves)* -> **`Lv 10 Gust` (physical STAB Flying!)** *(Jolly Lv 10 stats: `28 HP / 12 Atk / 13 Def / 11 SpA / 18 SpD / 16 Spe` — Turn 794 `#94–#105`)* -> `Lv 11–12` *(no moves; Lv 11 stats: `29 HP / 13 Atk / 13 Def / 12 SpA / 20 SpD / 17 Spe` — Turn 864; Lv 12 stats: `31 HP / 14 Atk / 14 Def / 12 SpA / 21 SpD / 18 Spe` — Turn 934 `#44`)* -> **`Lv 13 Secret Power` (70 BP physical Normal, 100% acc!)** *(Lv 13 stats: `33 HP / 15 Atk / 15 Def / 13 SpA / 22 SpD / 19 Spe` — verified Turn 1025 `#96–#103`)* -> `Lv 14` *(no move; Jolly Lv 14 stats: `35 HP / 15 Atk / 16 Def / 14 SpA / 24 SpD / 20 Spe` — verified Turn 1153 `#66`; fainted Turn 1215 `#72` to Joey's `Lv 10 Ekans` crit STAB `2x` `Acid` — **Rule: never pivot a `2x`-weak Pokémon into a foe whose STAB move off a higher attack stat ties non-STAB `2x` coverage in Gen 3 AI scoring!**)*.
-- **Sandshrew (`Gaia` — Active Attempt #2):** Wild `Lv 6` (`Sand Veil`, Bashful neutral) starts with `Scratch` (35 PP) + `Poison Sting` (35 PP) *(Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe` — verified Turn 791 `#192–#197`)* -> `Lv 7–10` *(no moves)* -> **`Lv 11 Sand-Attack`** *(Lv 11 stats: `34 HP / 22 Atk / 25 Def / 10 SpA / 14 SpD / 15 Spe` — Turn 796 `#95–#103`)* -> `Lv 12–14` *(no moves; Lv 12 stats: `36 HP / 23 Atk / 27 Def / 10 SpA / 15 SpD / 16 Spe` — Turn 997 `#92`; Lv 13 stats: `38 HP / 25 Atk / 28 Def / 11 SpA / 16 SpD / 17 Spe` — Turn 1206 `#44`; Bashful Lv 14 stats: `41 HP / 26 Atk / 30 Def / 11 SpA / 17 SpD / 18 Spe` — verified Turn 1206 `#99`)*.
-- **Snubbull (`Freya` — Active Attempt #2):** Wild `Lv 7` (`Run Away`, Serious neutral) starts with `Tackle` (35 PP), **`Bite` (25 PP — vanilla Lv 13!)**, and **`Lick` (30 PP — vanilla Lv 19!)** *(Lv 7 stats: `26 HP / 16 Atk / 12 Def / 10 SpA / 11 SpD / 11 Spe` — verified Turn 837 `#215–#220`)* -> **`Lv 8 Roar` (custom `5 PP` in this hack — verified Turn 1034 `#50`!)** -> `Lv 9–12` *(no moves; Serious Lv 11 stats: `36 HP / 23 Atk / 16 Def / 13 SpA / 14 SpD / 14 Spe` — Turn 841 `#222`; Lv 12 stats: `38 HP / 25 Atk / 17 Def / 14 SpA / 15 SpD / 15 Spe` — Turn 880 `#27`)* -> **`Lv 13 Headbutt` (70 BP STAB Normal, 30% Flinch — replaces vanilla Lv 13 Bite!)** *(Serious Lv 13 stats: `41 HP / 26 Atk / 18 Def / 15 SpA / 16 SpD / 16 Spe` — verified Turn 1082 `#40, #46`)* -> `Lv 14–16` *(no moves; Serious Lv 14 stats: `43 HP / 28 Atk / 19 Def / 16 SpA / 17 SpD / 17 Spe` — Turn 1160 `#59`; Lv 15 stats: `45 HP / 30 Atk / 20 Def / 17 SpA / 18 SpD / 18 Spe` — Turn 1210 `#81`; Serious Lv 16 stats: `48 HP / 31 Atk / 21 Def / 17 SpA / 19 SpD / 19 Spe` — verified Turn 1245 `#63`)*.
-- **Oddish -> Gloom (`Mandrake` — Active Attempt #2):** Wild `Lv 8` (`Chlorophyll`, Lax `+Def/-SpD`) starts with **`Mega Drain` (10 PP — replaces vanilla `Absorb`!)** + **`Acid` (30 PP — vanilla Lv 18!)** *(Lv 8 stats: `25 HP / 15 Atk / 16 Def / 18 SpA / 15 SpD / 12 Spe` — verified Turn 891 `#330–#335`)* -> `Lv 9–13` *(no moves; Lv 11 stats: `31 HP / 19 Atk / 19 Def / 23 SpA / 19 SpD / 15 Spe` — Turn 893 `#156`; Lv 12 stats: `33 HP / 20 Atk / 22 Def / 25 SpA / 21 SpD / 15 Spe` — Turn 963 `#73`; Lax Lv 13 stats: `35 HP / 21 Atk / 23 Def / 26 SpA / 22 SpD / 16 Spe` — verified Turn 1072 `#48`)* -> **`Lv 14 Toxic` (replaces vanilla Lv 14 `PoisonPowder`!)** *(Lax Lv 14 stats: `37 HP / 23 Atk / 24 Def / 28 SpA / 24 SpD / 17 Spe` — verified Turn 1148 `#50, #55`)* -> `Lv 15–16` *(no Oddish move; Lv 15 stats: `39 HP / 24 Atk / 26 Def / 30 SpA / 26 SpD / 18 Spe` — Turn 1173 `#82`; Lax Lv 16 Oddish stats: `41 HP / 25 Atk / 27 Def / 31 SpA / 27 SpD / 19 Spe` — Turn 1211 `#01–#05`)* -> **evolves into `GLOOM` at `Lv 16` (lowered from vanilla `Lv 21`!) and immediately learns `MAGICAL LEAF` (60 BP never-miss Grass, 20 PP!)** *(Lax Lv 16 Gloom stats: `46 HP / 30 Atk / 33 Def / 34 SpA / 29 SpD / 22 Spe` — verified Turn 1228 `<CurrentScreen>`)*.
-- **Archived ROM Hack Species Reference (Attempt #1):**
+## Verified Party Learnsets & Archived Species Reference (Attempts #1–#2)
+- **Mudkip (`Bayou` Attempt #1 / `Triton` Attempt #2):** `Lv 5 Tackle` (no `Growl`) -> `Lv 6 Bubble` -> `Lv 7 Mud Sport` -> `Lv 10 Water Gun` -> `Lv 11–14` *(no moves)* -> `Lv 15 Bide`.
+- **Vulpix (`Inari` Attempt #2):** Custom **`Pressure` ability**, held **`Rawst Berry`**, starts `Lv 5 Ember + Quick Attack` -> **`Lv 9 Roar`** -> **`Lv 13 Bite`** (`Lv 14` no move).
+- **Hoppip (`Zephyr` Attempt #2):** `Chlorophyll`, starts `Lv 4 Confusion` (25 PP) -> **`Lv 5 PoisonPowder + Mega Drain` (both at Lv 5!)** -> **`Lv 10 Gust`** -> **`Lv 13 Secret Power`** (`Lv 14` no move).
+- **Sandshrew (`Gaia` Attempt #2):** `Sand Veil`, starts `Lv 6 Scratch + Poison Sting` -> **`Lv 11 Sand-Attack`** (`Lv 12–14` no moves).
+- **Snubbull (`Freya` Attempt #2):** `Run Away`, Medium Fast EXP group, starts `Lv 7 Tackle + Bite + Lick` -> **`Lv 8 Roar` (5 PP)** -> **`Lv 13 Headbutt`** (`Lv 14–16` no moves, does NOT evolve at Lv 16).
+- **Oddish -> Gloom (`Mandrake` Attempt #2):** `Chlorophyll`, starts `Lv 8 Mega Drain (10 PP) + Acid (30 PP)` -> **`Lv 14 Toxic`** (`Lv 15–16` no Oddish move) -> **evolves early into `GLOOM` at `Lv 16` (down from vanilla `Lv 21`!) and immediately learns `MAGICAL LEAF` (60 BP never-miss Grass, 20 PP!)**.
+- **Attempt #1 Species Reference:**
   - **Sunkern -> Sunflora:** Wild `Sunkern` (`held Sun Stone`) `Lv 4 Absorb` -> `Lv 6 Growth` (5 PP) -> `Lv 13 Mega Drain`; **Sunflora** (`Chlorophyll`) learns **`Lv 16 Synthesis`** (`Lv 17` no move).
   - **Gulpin:** Starts `Lv 6 Acid + Yawn` (instant sleep!) -> **`Lv 9 Fire Punch`** -> **`Lv 14 Sludge Bomb` (16 PP)** (`Lv 15–16` no moves).
   - **Cubone:** Starts `Lv 7 Bone Club + Rock Throw` -> **`Lv 9 Secret Power`** -> **`Lv 13 Headbutt`** -> **`Lv 17 Dig` (60 BP / 10 PP)**.
@@ -191,37 +186,23 @@
 
 <h1><code>Scratchpad/Notes</code></h1>
 
-# Scratchpad — Active Leads & Live Tactical Routing
+# Scratchpad — Active Leads & Attempt #3 Fast-Track Plan
 
 ## Active Exploration & Future Encounter Leads
-- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** The `(6, 4)` woman inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! *(Route 116 forfeited to `Lv 9 Grimer` `Memento` Turn 1128; **Rusturf Tunnel** encounter is still UNUSED in Attempt #2—watch for `Nincada`!).*
-- **Post-Stone Badge Re-Check Targets (Pre-Gym Gated / Checked):**
-  - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by stationary `TM09` boy at `(5, 19)` pre-Gym *(Turn 412)*—re-check post-Roxanne!
-  - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Teacher at `(5, 3)` had no active `Quick Claw` script from `(4, 3)` or `(5, 5)` pre-Gym *(Turns 504, 508, 509)*—re-check post-Roxanne! *(Other Rustboro locations already verified pre-Gym: Poké Mart `Turn 488`, Pokémon Center `Turn 494`, Cutter's House `HM01 Cut Turn 498`, `(31..33, 30..32)` decorative non-wild lawn `Turn 506`, `(30, 28)` flavor-only house `Turn 508`, `(33, 19)` trade house `Turn 514`, Walda's 2-story building `(13, 30)` flavor/wallpaper-only `Turns 588–593`, Rustboro north exit `(20, 0)` -> Route 115 `(20, 79)` `Turn 597`, NW Rustboro cliff confirmed **Surf-gated** across southern Route 115 cove `Turn 605`, SE `(26, 46)` Pekachu house & `(31..34, 39..46)` non-enterable tower `Turns 1096–1098`, and SW 3-story Rustboro Apartments `(5, 51)` [`2F` boy gives `Premier Ball`, `1F` & `3F` `(12, 2)` flavor verified `Turns 1101–1106`; `3F` wandering boy un-spoken after hitting `(7, 5)` table `Turn 1111`])*
-- **Post-Roxanne `HM01 Cut` Return Targets:**
-  - **Route 116 Berry Ledge (`(17, 5)` Cut trees -> `(18..21, 2)` Berry patch) & Eastern `Cut` Maze (`north of y=12, x=22..35`):** Berry ledge contains **2x `Chesto Berry` trees (`(19..20, 2)` — unlocks `Chesto Berry x99` infinite Sleep cure!)** plus 2 more Berry trees at `(18, 2)` and `(21, 2)` *(spotted Turn 529)*; eastern `Cut` maze north of `y=12` spotted Turn 646.
-  - **Route 104 North East Cut Tree (`(35, 22)`):** Directly east of Lass Haley `(32, 22)` guarding a visible **Item Ball at `(37, 22)`** *(verified Turn 429)*.
-  - **Petalburg Woods Cut Ledge (`(19, 10..11)`):** Two `Cut` trees right below the North Exit gate the eastern upper ledge (`Miracle Seed` NPC + `(32, 30)` item ball — verified Turn 395).
-- **Dual Villain Plot Clue (Rustboro / Rusturf Tunnel):** Defeated Petalburg Woods Team Magma Grunt warned that rival **Team Aqua** is also after something in Rustboro *(Turn 387)*. Both wandering **Team Magma Grunts** (`(13, 35)` & `(22, 35)`, *Turns 490, 500*) and a wandering **Team Aqua Grunt** (`at (19, 27)` outside Walda's building — verified non-hostile reskinned townsperson talking about traded Pokémon obedience *Turn 587*) roam Rustboro City pre-Gym—anticipate custom Magma and Aqua boss fights in Rusturf Tunnel / post-Gym Rustboro!
-- **Littleroot Custom West Area (`x < 0`):** Grassy area with signpost and NPC visible west of Littleroot's tree line *(Turn 31)*. Check how it connects via later routes/Surf.
-- **Unused Town Water Ponds & Future Surf/Grass Routes:**
-  - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
-  - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
-  - **Route 115 (`North of Rustboro (20, 0)`):** `ROUTE 115` encounter remains **UNUSED** for future Surf/Rod/north-grass.
-- **Optional / Bypassable Trainers:**
-  - **Route 115:** Double Battle pair `(25, 61)` & `(29, 61)` guarding `(26, 67)` item ball, plus northern beach trainers.
-  - **Route 116:** `Bug Catcher Jose (10, 7)` (`3-tile Right sight (11..13, 7)`, guards `(13, 18)` item ball). *(Note: Eastern `Bug Maniac Jose (36, 12)` has mandatory 5-tile `Down` sight to `(36, 17)` and CANNOT be bypassed!)*
-  - **Route 102:** `(18, 11)` and `(38, 4)`.
+- **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** Elderly woman at `(6, 4)` inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch for `Nincada` on Route 116 / Rusturf Tunnel (`Lv 20` evolution with open slot + Poké Ball in bag yields `Shedinja`!).
+- **CRITICAL ROUTE ORDER CHANGE FOR ATTEMPT #3 — BEAT ROXANNE (`LV 16` CAP) *BEFORE* EASTERN ROUTE 116!**
+  - Rustboro Gym is open **immediately** upon arriving in Rustboro City!
+  - Pre-Roxanne: catch our 7 early encounters (`Route 101 Mudkip`, `Oldale Town`, `Route 103`, `Route 102`, `Route 104`, `Petalburg Woods`, and **Western Route 116 grass `(5..6, 13..14)` ONLY**), grab `HM01 Cut` `(9, 38)`, Apartments `2F Premier Ball` `(5, 51)`, and Route 115 `Super Potion` `(20, 60)`, candy our 6-Pokémon squad to **`Lv 16`** (`evolving Marshtomp + any lowered Lv 16 evolutions like Gloom!`), and **DEFEAT ROXANNE FIRST**!
+  - Post-Roxanne (`Level Cap immediately becomes Lv 20 for Brawly!`): teach `HM01 Cut`, harvest **`Chesto Berry x99`** on Route 116 `(19..20, 2)` + `Miracle Seed` in Petalburg Woods, candy squad to **`Lv 18–19`**, and **EFFORTLESSLY SWEEP ROUTE 116 (`Youngster Joey` & `Bug Maniac Jose`'s 4 Bugs: `Dustox`, `Beedrill`, `Beautifly`, `Butterfree` [carries `Confusion + Protect + Mega Drain`!]) + RUSTURF TUNNEL** with `Pecha/Cheri/Chesto Berries` and `Lv 20` cap headroom!
+- **Post-Stone Badge Re-Check Targets:**
+  - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by `TM09` boy pre-Gym *(Turn 412)*.
+  - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Re-check Teacher `(5, 3)` post-Roxanne.
+  - **Cut Targets:** Route 116 Berry Ledge `(17, 5)` -> `(19..20, 2)` **`Chesto Berry` trees**, Route 104 NE `(35, 22)` -> `(37, 22)` item ball, Petalburg Woods `(19, 10..11)` -> `Miracle Seed` + `(32, 30)` item ball.
+- **Unused Town Water Ponds (Save for Rod/Surf):** Littleroot SE Pond `(18..19, 12..14)`, Petalburg City Ponds, Route 115.
 
-## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Final Showdown vs `Bug Maniac Jose`'s `#4 Lv 10 Butterfree` [`~50% HP`] at `(36, 14)`!):**
-  - `Slot 1 (in-battle Slot 2): Freya` (**Lv 16** Snubbull, `3/48 HP` `PSN`, `19 Spe`, `31 Atk`, **`~138 EXP` to `Lv 17`** — sending in first to test `19 Spe` `Headbutt` KO!)
-  - `Slot 2 (in-battle Slot 1): Mandrake` (**DECEASED Turn 1275** — cut `#4 Butterfree` to ~50% HP; deposit in `BOX 14` post-battle!)
-  - `Slot 3 (in-battle Slot 3): Gaia` (**DECEASED Turn 1273** — deposit in `BOX 14` post-battle!)
-  - `Slot 4 (in-battle Slot 4): Triton` (Lv 15 Mudkip, `9/40 HP` `PAR`, **`31 EXP` to `Lv 16 Marshtomp`** — tanks non-STAB `Confusion` [`7–8` dmg] if needed -> evolves to **`Lv 16 Marshtomp + Mud Shot`** post-battle!)
-  - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
-  - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `27 Poké Balls + 3 Premier Balls`, **`11 Repels`** (+1 active with ~61 steps left), `1 Escape Rope`, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥7,342`.
-- **Remaining Pre-Roxanne Route Checklist:**
-  - **Bug Maniac Jose `(36, 12)` -> Rusturf Tunnel -> Roxanne:** Finish Jose's 4 Bug Pokémon (`Freya` solos `#1 Dustox`, `Gaia + Triton` clear `#2–#4` -> `Triton` evolves to `Lv 16 Marshtomp + Mud Shot`!), enter **Rusturf Tunnel** (`let Repel wear off inside, catch first non-duplicate wild into Slot 5 — throw Great Ball Turn 1 if Abra/self-KO risk, watch for Nincada -> Shedinja -> Moltres trade!`), candy `Gaia` & `Slot 5` to **`Lv 16`** right outside Rustboro Gym, and sweep **Roxanne**!
+## Attempt #3 Fast-Track Checklist
+1. **Title Screen -> Littleroot -> Starter:** Verify `FAST` text & `SET` battle style in Options -> Girl `Gem` -> East house `(14, 8)` (`2F PC Potion + Clock`) -> West house `(5, 8)` (`2F Ball trigger`) -> Route 101 choose **`Mudkip`** (`candy to Lv 11 right after Birch Lab for Rival #1`).
+2. **Pokédex -> ¥10 Poké Balls & Early Encounters:** Beat Rival Brendan on Route 103 `(10, 3)` (`0-grass path`) -> Pokédex + Running Shoes -> Buy `22x Poké Balls + 2 Premier Balls` at Oldale Mart -> Catch **Oldale Town** `(14..15, 2)` (`watch for Growlithe Roar; Vulpix holds Rawst Berry!`), **Route 103**, **Route 102** (`+ harvest Oran & Pecha Berries at (24..25, 2) -> x99 unlocked!`).
+3. **Petalburg -> Route 104 -> Petalburg Woods -> Red -> Rustboro:** Buy `Repels` + **`X Defend / X Speed / X Attack`** (`sold at Petalburg Mart! Huge boss insurance!`) -> Catch **Route 104** & **Petalburg Woods** -> Clear Woods Magma Grunt (`pre-equip Cheri/Rawst, never switch into Houndour Pursuit!`) -> Harvest `Cheri Berry` `(3, 25)` + `TM09 Bullet Seed` -> Clear `Red` `(28, 8)` -> Enter Rustboro, catch **Route 116 West `(5..6, 13..14)`** (`watch for Grimer Memento!`), candy to **`Lv 16`**, and **DEFEAT ROXANNE FIRST**!
 
 <hr>
