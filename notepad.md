@@ -218,7 +218,7 @@
   - `Slot 1: Freya` (Lv 15 Snubbull, `45/45 HP`, `30 Atk`, `Oran Berry` verified, `564 EXP` to `Lv 16`, `Headbutt / Bite / Lick / Roar`)
   - `Slot 2: Mandrake` (**Lv 16 GLOOM**, `46/46 HP`, `33 Def / 34 SpA / 29 SpD / 22 Spe`, `Oran Berry` verified, `Mega Drain / Acid / Toxic / Magical Leaf` — **`456 EXP` to `Lv 17`**, keep on bench until Roxanne!)
   - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, `Oran Berry` verified, `573 EXP` to `Lv 15`, `Scratch / Poison Sting / Sand-Attack`)
-  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` verified, `Tackle / Bubble / Mud Sport / Water Gun`)
+  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` verified, `277 EXP` to `Lv 16 Marshtomp` [+ `585 EXP` `Lv 16 -> 17`], `Tackle / Bubble / Mud Sport / Water Gun`)
   - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `27 Poké Balls + 3 Premier Balls`, **`12 Repels`**, `1 Escape Rope`, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥7,198`.
 - **Remaining Pre-Roxanne Route Checklist:**
