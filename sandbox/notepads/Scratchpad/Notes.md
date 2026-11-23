@@ -21,13 +21,13 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Clearing Route 116 `(15, 6)` — Slot 6 Open for Rusturf Tunnel!):**
-  - `Slot 1: Freya` (Lv 13 Snubbull, `41/41 HP`, `26 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
-  - `Slot 2: Mandrake` (Lv 13 Oddish, `35/35 HP`, `26 SpA`, `Oran Berry`, `Mega Drain / Acid`)
-  - `Slot 3: Zephyr` (Lv 13 Hoppip, `33/33 HP`, `19 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain / Gust`)
-  - `Slot 4: Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
-  - `Slot 5: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` — keep out of Route 116 trainer EXP so `Lv 12–13` squad absorbs EXP before candying to `Lv 16 Marshtomp` right outside Gym!)
+- **Current Resources (Clearing Route 116 `(16, 10)` — Slot 6 Open for Rusturf Tunnel!):**
+  - `Slot 1: Mandrake` (Lv 14 Oddish, `37 HP`, `28 SpA`, `Oran Berry`, `Mega Drain / Acid / Toxic`)
+  - `Slot 2: Freya` (Lv 14 Snubbull, `43 HP`, `28 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
+  - `Slot 3: Zephyr` (Lv 14 Hoppip, `35 HP`, `20 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain / Gust`)
+  - `Slot 4: Gaia` (Lv 12 Sandshrew, `36 HP`, `27 Def / 16 Spe`, `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
+  - `Slot 5: Triton` (Lv 15 Mudkip, `40 HP`, `Oran Berry` — keep out of Route 116 trainer EXP where possible before candying to `Lv 16 Marshtomp` right outside Gym!)
   - `Slot 6: [OPEN FOR RUSTURF TUNNEL ENCOUNTER!]` (`Route 116` Grimer forfeited via `Memento` Turn 1128; `Inari` in `BOX 14`)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `16 Poké Balls + 2 Premier Balls`, **`2 Repels`** (+1 active), `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 116 & Rusturf Tunnel -> Roxanne:** Split paired Route 116 trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 12–14` EXP headroom, catch **Rusturf Tunnel** encounter *(throw `Great Ball` Turn 1 if `Abra`/self-KO risk; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
+  - **Route 116 & Rusturf Tunnel -> Roxanne:** Finish School Kid Jerry `(16, 10)`, split `Lady Sarah (16, 13)` & `Rich Boy Dawson (21, 13)` from `(16, 12)`, defeat `Youngster Joey (27, 17)`, split `Hiker Clark (31, 13)` & `Lass Janice (31, 17)` from `(30, 13)`, clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 12–14` EXP headroom, catch **Rusturf Tunnel** encounter *(throw `Great Ball` Turn 1 if `Abra`/self-KO risk; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
