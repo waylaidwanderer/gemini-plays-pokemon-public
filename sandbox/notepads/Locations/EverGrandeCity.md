@@ -192,9 +192,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 7 (Active)
 
-- Status: SAGE Level 79 (35/237 HP, Spe 233, Overgrow Active!). In Room 3 battling Glacia!
+- Status: SAGE Level 79 (FNT - deploying Cobalu for Revive). In Room 3 battling Glacia!
 
-- Supplies: 1 Revive, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
+- Supplies: 3 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
 
 - Battle Progress Room 1 (Sidney):
 
@@ -226,7 +226,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress Room 3 (Glacia):
   - Sealeo Lv 50 (#1): DEFEATED by Overgrow Bullet Seed!
   - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
-  - Walrein Lv 53 (Ace): DEFEATED! (Glacia burned Full Restore; SAGE revived to 118 HP, took Ice Beam to 35 HP, finished Walrein with Quick Attack; 1 Revive left).
+  - Walrein Lv 53 (Ace): Active at ~4% HP! (Glacia burned Full Restore; took Quick Attack to 4%; SAGE fainted to Ice Beam; deploying Cobalu for Revive; 3 Revives in Bag).
   - Glalie Lv 50: In reserve.
   - Glalie Lv 52: In reserve.
 - Plan: Finish Walrein with Quick Attack (+1 priority). Defeat Glalie #1 and Glalie #2 with physical Facade (70 BP). Unlock Room 4 door!
