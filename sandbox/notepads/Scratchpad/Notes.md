@@ -21,11 +21,11 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Mid-Battle vs `Bug Maniac Jose` at `(36, 14)` — `4` Pokémon on HUD! `Repel` Active ~61 Steps Left!):**
-  - `Slot 1: Freya` (**Lv 16** Snubbull, `45/48 HP` `PSN`, `31 Atk / 19 Spe`, `Oran Berry`, **`527 EXP` to `Lv 17`**, `Headbutt [7/15] / Bite [22/25] / Lick / Roar` — solos Jose's `#1 Lv 10 Dustox` [345 EXP -> **`182 EXP` buffer left**], then switches out to bench!)
-  - `Slot 2: Mandrake` (**Lv 16 GLOOM**, `46/46 HP`, `33 Def / 34 SpA / 29 SpD / 22 Spe`, `Oran Berry`, `Mega Drain / Acid / Toxic / Magical Leaf` — **`456 EXP` to `Lv 17`**, keep on bench until Roxanne!)
-  - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, `Oran Berry`, **`573 EXP` to `Lv 15`** = **`1,927 EXP` before `Lv 17`**, `Scratch / Poison Sting / Sand-Attack` — primary EXP sponge for Jose's `#2–#4`!)
-  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry`, **`145 EXP` to `Lv 16 Marshtomp`** + `585 EXP` `Lv 16 -> 17` = **`730 EXP` before `Lv 17`** — splits/finishes Jose's `#2–#4` alongside `Gaia` -> evolves into **`Lv 16 Marshtomp`** post-Jose [use `"A"`, NEVER `"B"`, on Jose's final prize textbox, then overwrite `Slot 3 Mud Sport` with **`Mud Shot`**!])
+- **Current Resources (Mid-Battle vs `Bug Maniac Jose` at `(36, 14)` — `2` Pokémon Left (`#3` & `#4`)! `Repel` Active ~61 Steps Left!):**
+  - `Slot 1 (in-battle Slot 3): Freya` (**Lv 16** Snubbull, `20/48 HP` `PSN`, `Oran Berry` intact, **`73 EXP` to `Lv 17`** — keep on bench unless needed vs `Wonder Guard` `Shedinja`!)
+  - `Slot 2 (in-battle Slot 1): Mandrake` (**Lv 16 GLOOM**, `17/46 HP`, Oran Berry spent, **`344 EXP` to `Lv 17`** — switching out on `#3` so split EXP leaves ~`173 EXP` buffer!)
+  - `Slot 3 (in-battle Slot 2): Gaia` (Lv 14 Sandshrew, `27/41 HP`, Oran Berry spent, **`1,815 EXP` before `Lv 17`**)
+  - `Slot 4 (in-battle Slot 4): Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` intact, **`145 EXP` to `Lv 16 Marshtomp`** = **`730 EXP` before `Lv 17`** — primary finisher for `#3` & `#4` -> evolves into **`Lv 16 Marshtomp`** post-Jose [use `"A"`, NEVER `"B"`, on Jose's final prize textbox, then overwrite `Slot 3 Mud Sport` with **`Mud Shot`**!])
   - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `27 Poké Balls + 3 Premier Balls`, **`11 Repels`** (+1 active with ~61 steps left), `1 Escape Rope`, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥7,342`.
 - **Remaining Pre-Roxanne Route Checklist:**
