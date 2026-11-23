@@ -536,7 +536,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress Room 3 (Glacia):
   - Sealeo Lv 50 (#1): DEFEATED by Overgrow Bullet Seed!
   - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
-  - Walrein Lv 53 (Ace): Active at ~4% HP! (Glacia burned Full Restore; took Quick Attack to 4%; SAGE revived to 118/237 HP; Mochi fainted as sacrificial buffer; 2 Revives in Bag). SAGE entering next to finish Walrein with Quick Attack!
+  - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! SAGE at 118/237 HP (2 Revives in Bag).
+  - Glalie Lv 50: Active next! (Counter with Facade + Quick Attack).
+  - Glalie Lv 52: In reserve.
   - Glalie Lv 50: In reserve.
   - Glalie Lv 52: In reserve.
 - Plan: Finish Walrein with Quick Attack (+1 priority). Defeat Glalie #1 and Glalie #2 with physical Facade (70 BP). Unlock Room 4 door!
@@ -5211,7 +5213,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia active: Sealeo x2 DEFEATED; Walrein at ~4% HP (0 heals left). SAGE revived to 118/237 HP! Cash: ¥10,471. In Bag: 2 Revives, 3 Full Heals.
+- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia: Sealeo x2 & Walrein DEFEATED! SAGE Lv 79 (118/237 HP). Cash: ¥10,471. In Bag: 2 Revives, 3 Full Heals. Facing Glalie #1.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 118/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (15/20), Quick Attack (27/30). Status: OK (Level 78!).
