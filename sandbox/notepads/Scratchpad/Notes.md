@@ -21,13 +21,12 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Youngster Joey Defeated — Returning to Rustboro PC from `(10, 8)` to Deposit Zephyr & Heal!):**
-  - `Slot 1: Freya` (Lv 15 Snubbull, `30/45 HP`, `30 Atk`, Oran Berry spent, `Headbutt / Bite / Lick / Roar`)
-  - `Slot 2: Mandrake` (**Lv 16 GLOOM** [evolved early at Lv 16!], `Mega Drain / Acid / Toxic / Magical Leaf` — ~880+ EXP buffer before `Lv 17`, keep out of Clark/Janice/Jose EXP!)
-  - `Slot 3: Zephyr` (**DECEASED Turn 1215** — depositing into `BOX 14` now!)
-  - `Slot 4: Gaia` (Lv 14 Sandshrew, `20/41 HP`, `26 Atk / 30 Def / 18 Spe`, needs held Oran Berry verified/equipped!)
-  - `Slot 5: Triton` (Lv 15 Mudkip, `22/40 HP` `PAR`, `Oran Berry`, `Tackle / Bubble / Mud Sport / Water Gun`)
-  - `Slot 6: [OPEN FOR RUSTURF TUNNEL ENCOUNTER!]` (`Route 116` Grimer forfeited via `Memento` Turn 1128; `Inari` in `BOX 14`)
-  - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `16 Poké Balls + 2 Premier Balls`, **`1 Repel`** (+1 active), `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
+- **Current Resources (Zephyr Stored in `BOX 14` — Prepping Berries & Repels in Rustboro for Final 3 Route 116 Trainers + Rusturf Tunnel!):**
+  - `Slot 1: Freya` (Lv 15 Snubbull, `45/45 HP`, `30 Atk`, equipping `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
+  - `Slot 2: Mandrake` (**Lv 16 GLOOM**, full HP, equipping `Oran Berry`, `Mega Drain / Acid / Toxic / Magical Leaf` — checking exact `NEXT LV.` EXP to `Lv 17`!)
+  - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, equipping `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
+  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` intact, `Tackle / Bubble / Mud Sport / Water Gun`)
+  - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
+  - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `16 Poké Balls + 2 Premier Balls`, **`1 Repel`** (buying `+4 Repels` at Rustboro Mart next!), `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist:**
-  - **Rustboro PC -> Route 116 East & Rusturf Tunnel -> Roxanne:** Deposit `Zephyr` into `BOX 14`, heal at Nurse Joy & buy `+3 Repels` at Rustboro Mart, split `Hiker Clark (31, 13)` & `Lass Janice (31, 17)` from `(30, 13)`, clear mandatory `Bug Maniac Jose (36, 12)`, catch **Rusturf Tunnel** encounter *(throw `Great Ball` Turn 1 if `Abra`/self-KO risk; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
+  - **Rustboro Mart -> Route 116 East & Rusturf Tunnel -> Roxanne:** Buy `+4 Repels` at Rustboro Mart `(16, 45)`, split `Hiker Clark (31, 13)` & `Lass Janice (31, 17)` from `(30, 13)`, clear mandatory `Bug Maniac Jose (36, 12)`, catch **Rusturf Tunnel** encounter *(throw `Great Ball` Turn 1 if `Abra`/self-KO risk; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
