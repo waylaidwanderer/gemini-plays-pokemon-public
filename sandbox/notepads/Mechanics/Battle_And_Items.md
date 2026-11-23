@@ -44,7 +44,6 @@
 - **Attempt #1 Species Reference:**
   - **Sunkern -> Sunflora:** Wild `Sunkern` (`held Sun Stone`) `Lv 4 Absorb` -> `Lv 6 Growth` (5 PP) -> `Lv 13 Mega Drain`; **Sunflora** (`Chlorophyll`) learns **`Lv 16 Synthesis`** (`Lv 17` no move).
   - **Gulpin:** Starts `Lv 6 Acid + Yawn` (instant sleep!) -> **`Lv 9 Fire Punch`** -> **`Lv 14 Sludge Bomb` (16 PP)** (`Lv 15–16` no moves).
-  - **Teddiursa:** Base **`Guts`** ability (replaces `Pickup`!), starts `Lv 8 Scratch + Lick + Faint Attack` -> **`Lv 13 Refresh`** -> **`Lv 16 Swift`**.
   - **Voltorb:** `Static`, starts `Lv 9 ThunderShock + Secret Power + Shock Wave` (`Lv 10–14` no moves).
 - **Expanded Route Trainer Mechanics & Key Mini-Bosses:** Regular route trainers carry 3–4 Pokémon (up from 1–2 in vanilla) with upgraded coverage and held items:
   - **Route 102 Trainers:** `Youngster Calvin (33, 14)` carries **3 Pokémon** (`Lv 6 Sentret [Super Fang, Quick Attack]`, `Lv 6 Zigzagoon`, `Lv 6 Poochyena` — *Turns 798–800, 1326*); rotating `Bug Catcher Rick (25, 14)` (`Up/Down`) carries **4 Pokémon** (`Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` — *Turns 804–806*); `Lass Tiana (15, 5)` carries **3 Pokémon** (`Lv 6 Igglybuff [Present]`, `Lv 6 Sunkern [Leech Seed, Protect, Berry Juice]`, `Lv 5 Togepi [Substitute, Metronome, Berry Juice]` — *Turns 811–815, 1340*); `Bug Catcher Allen (13, 2)` carries **4 Pokémon** (`Lv 7 Weedle`, `Lv 7 Silcoon`, `Lv 7 Wurmple`, `Lv 7 Metapod` — *Turns 818–820*).
