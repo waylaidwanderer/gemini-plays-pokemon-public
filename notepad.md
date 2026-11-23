@@ -502,7 +502,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 7 (Active)
 
-- Status: SAGE Level 78 (31/234 HP, Spe 230, Overgrow Active!). In Room 2 battling Phoebe!
+- Status: SAGE Level 78 (31/234 HP, Spe 230, Overgrow Active!). In Room 3 battling Glacia!
 
 - Supplies: 4 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥5,371.
 
@@ -5214,7 +5214,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney and Room 2 Phoebe BOTH DEFEATED! SAGE Lv 78 (75/234 HP). Cash: ¥10,471. In Bag: 4 Revives, 0 Hyper Potions, 3 Full Heals. Heading to Room 3 (Glacia).
+- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! SAGE Lv 78 (31/234 HP, Overgrow Active!). Cash: ¥10,471. In Room 3 battling Glacia!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 31/234. Max HP: 234. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
@@ -5243,7 +5243,7 @@ A large meteorological research institute located in northern Route 119 beside t
 5. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)! Earned ¥4,900, total cash ¥5,371.
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)! Earned ¥5,100, total cash ¥10,471.
-    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #3 Glacia (Active! Battling Sealeo Lv 50)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
