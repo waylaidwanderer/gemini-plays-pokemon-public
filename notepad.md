@@ -212,8 +212,8 @@
 - **Unused Town Water Ponds (Save for Rod/Surf):** Littleroot SE Pond `(18..19, 12..14)`, Petalburg City Ponds, Route 115.
 
 ## Attempt #3 Fast-Track Checklist (Live Progress)
-- **Completed:** Options (`FAST` / `SET`), `Caspian` (`Mudkip ♂`, Serious, `Lv 11`), Rival #1, Pokédex + Running Shoes, `Vulcan` (`Numel ♂`, Impish, `Lv 10`) + **`Rawst Berry x99`**, `Velvet` (`Skitty ♀`, Modest, `Lv 4`) + banked **`Moon Stone`**, `Athena` (`Cubone ♀`, Lax, `30 Def`, `Lv 11`), **`Oran Berry x99` + `Pecha Berry x99`**, `4x Repels + X Speed/Attack/Defend`, and Billy defeated (`1` death: `Fortuna` Lv 11 Meowth Turn 1377 — deposit into `BOX 14` immediately after Darian!).
-1. **Finish Darian -> Deposit `Fortuna` at Petalburg PC -> Lady Cindy -> Petalburg Woods:** Finish Fisherman Darian (`1` turn/call!) -> Quick trip to Petalburg Center PC (`BOX 14` graveyard + full heal!) -> Defeat `Lady Cindy (11, 40)` -> Catch **Petalburg Woods** encounter -> Clear Woods Magma Grunt (`pre-equip Cheri/Rawst, never switch into Houndour Pursuit!`).
+- **Completed:** Options (`FAST` / `SET`), `Caspian` (`Mudkip ♂`, Serious, `Lv 12`), Rival #1, Pokédex + Running Shoes, `Vulcan` (`Numel ♂`, Impish, `Lv 10`) + **`Rawst Berry x99`**, `Velvet` (`Skitty ♀`, Modest, `Lv 4`) + banked **`Moon Stone`**, `Athena` (`Cubone ♀`, Lax, `30 Def`, `Lv 11`), **`Oran Berry x99` + `Pecha Berry x99`**, `4x Repels + X Speed/Attack/Defend`, Billy & Darian defeated, `Fortuna` stored in `BOX 14`, and squad 100% healed with fresh `Oran Berries`!
+1. **Lady Cindy -> Petalburg Woods (`Encounter #6` + Magma Grunt):** Sweep `Lady Cindy (11, 40)` with `Athena` -> Catch **Petalburg Woods** encounter -> Clear Woods trainers & Magma Grunt (`pre-equip Rawst Berry vs Koffing/Duskull Will-O-Wisp, NEVER switch into Houndour Pursuit!`).
 2. **Route 104 North -> Red -> Rustboro -> Roxanne FIRST:** Harvest **`Cheri Berry x99`** `(3, 25)` + `TM09 Bullet Seed` -> Clear `Red` `(28, 8)` -> Enter Rustboro, grab `HM01 Cut` + `2F Premier Ball` + Route 115 `Super Potion`, catch **Route 116 West `(5..6, 13..14)`** (`watch for Grimer Memento!`), candy squad to **`Lv 16`**, and **DEFEAT ROXANNE FIRST**!
 
 <hr>
