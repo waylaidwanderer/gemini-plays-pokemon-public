@@ -6,7 +6,7 @@
 - Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia: Sealeo x2 & Walrein DEFEATED! SAGE Lv 79 (118/237 HP). Cash: ¥10,471. In Bag: 2 Revives, 3 Full Heals. Facing Glalie #1.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 118/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (11/20), Quick Attack (27/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 0/237 (FNT). Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (11/20), Quick Attack (27/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85 (FNT). Max HP: 85. Status: FNT (Sacrificial Revive buffer).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41 (FNT). Max HP: 41. Status: FNT (Sacrificial Revive buffer).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49 (FNT). Max HP: 49. Status: FNT (Sacrificial Revive buffer).
