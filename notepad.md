@@ -214,14 +214,14 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Engaging Final Route 116 Trainer `Bug Maniac Jose` at `(36, 14)` — `Repel` Active with ~61 Steps Left!):**
-  - `Slot 1: Freya` (**Lv 16** Snubbull [confirmed does NOT evolve at Lv 16], `48/48 HP`, `31 Atk / 19 Spe`, `Oran Berry`, **`527 EXP` to `Lv 17`**, `Headbutt [8/15] / Bite [22/25] / Lick / Roar` — solos Jose's `#1 Lv 10 Dustox` [345 EXP -> 182 EXP buffer left], then switches out so `Triton` solos `#2 Beautifly`!)
+- **Current Resources (Mid-Battle vs `Bug Maniac Jose` at `(36, 14)` — `4` Pokémon on HUD! `Repel` Active ~61 Steps Left!):**
+  - `Slot 1: Freya` (**Lv 16** Snubbull, `45/48 HP` `PSN`, `31 Atk / 19 Spe`, `Oran Berry`, **`527 EXP` to `Lv 17`**, `Headbutt [7/15] / Bite [22/25] / Lick / Roar` — solos Jose's `#1 Lv 10 Dustox` [345 EXP -> **`182 EXP` buffer left**], then switches out to bench!)
   - `Slot 2: Mandrake` (**Lv 16 GLOOM**, `46/46 HP`, `33 Def / 34 SpA / 29 SpD / 22 Spe`, `Oran Berry`, `Mega Drain / Acid / Toxic / Magical Leaf` — **`456 EXP` to `Lv 17`**, keep on bench until Roxanne!)
-  - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, `Oran Berry`, **`573 EXP` to `Lv 15`** [`~1,800+ EXP` before `Lv 17`], `Scratch / Poison Sting / Sand-Attack`)
-  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry`, **`145 EXP` to `Lv 16 Marshtomp`** + `585 EXP` `Lv 16 -> 17` = **`730 EXP` before `Lv 17`** — solos Jose's `#2 Lv 10 Beautifly` [345 EXP] -> evolves into **`Lv 16 Marshtomp`** post-Jose [use `"A"`, NEVER `"B"`, on Jose's final prize textbox, then overwrite `Slot 3 Mud Sport` with **`Mud Shot`**!])
+  - `Slot 3: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, `Oran Berry`, **`573 EXP` to `Lv 15`** = **`1,927 EXP` before `Lv 17`**, `Scratch / Poison Sting / Sand-Attack` — primary EXP sponge for Jose's `#2–#4`!)
+  - `Slot 4: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry`, **`145 EXP` to `Lv 16 Marshtomp`** + `585 EXP` `Lv 16 -> 17` = **`730 EXP` before `Lv 17`** — splits/finishes Jose's `#2–#4` alongside `Gaia` -> evolves into **`Lv 16 Marshtomp`** post-Jose [use `"A"`, NEVER `"B"`, on Jose's final prize textbox, then overwrite `Slot 3 Mud Sport` with **`Mud Shot`**!])
   - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `27 Poké Balls + 3 Premier Balls`, **`11 Repels`** (+1 active with ~61 steps left), `1 Escape Rope`, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥7,342`.
 - **Remaining Pre-Roxanne Route Checklist:**
-  - **Bug Maniac Jose `(36, 12)` -> Rusturf Tunnel -> Roxanne:** Defeat `Bug Maniac Jose` (`Freya` solos `#1 Dustox`, `Triton` solos `#2 Beautifly` -> evolves to `Lv 16 Marshtomp + Mud Shot`!), enter **Rusturf Tunnel** (`stop/let Repel wear off inside or walk until Repel expires, catch first non-duplicate wild into Slot 5 — throw Great Ball Turn 1 if Abra/self-KO risk, watch for Nincada -> Shedinja -> Moltres trade!`), candy `Gaia` & `Slot 5` to **`Lv 16`** right outside Rustboro Gym, and sweep **Roxanne**!
+  - **Bug Maniac Jose `(36, 12)` -> Rusturf Tunnel -> Roxanne:** Finish Jose's 4 Bug Pokémon (`Freya` solos `#1 Dustox`, `Gaia + Triton` clear `#2–#4` -> `Triton` evolves to `Lv 16 Marshtomp + Mud Shot`!), enter **Rusturf Tunnel** (`let Repel wear off inside, catch first non-duplicate wild into Slot 5 — throw Great Ball Turn 1 if Abra/self-KO risk, watch for Nincada -> Shedinja -> Moltres trade!`), candy `Gaia` & `Slot 5` to **`Lv 16`** right outside Rustboro Gym, and sweep **Roxanne**!
 
 <hr>
