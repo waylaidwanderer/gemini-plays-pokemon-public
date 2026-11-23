@@ -5210,7 +5210,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney DEFEATED. Room 2 Phoebe active: Dusclops #1 burned Phoebe's Full Restore! SAGE Lv 78 (75/234 HP, Overgrow Active!). Cash: ¥5,371. In Bag: 4 Revives, 0 Hyper Potions, 3 Full Heals.
+- Status: Attempt 7 ACTIVE! Room 1 Sidney and Room 2 Phoebe BOTH DEFEATED! SAGE Lv 78 (75/234 HP). Cash: ¥10,471. In Bag: 4 Revives, 0 Hyper Potions, 3 Full Heals. Heading to Room 3 (Glacia).
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 75/234. Max HP: 234. Moves: Bullet Seed (18/30), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
@@ -5228,7 +5228,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x4 (4 purchased Turn 25891-25892 for ¥6,000)
 - Hyper Potion x0 (1 purchased Turn 25895 used Turn 25937 on Grand Staircase 2 on SAGE; 0 remaining)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,371 (after defeating Sidney in Room 1; won ¥4,900)
+- Money: ¥10,471 (after defeating Sidney and Phoebe; won ¥4,900 + ¥5,100)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5238,7 +5238,7 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 5. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)! Earned ¥4,900, total cash ¥5,371.
-    - [ ] Elite Four Member #2 Phoebe (Active! Dusclops #1 burned Phoebe's Full Restore)
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)! Earned ¥5,100, total cash ¥10,471.
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
