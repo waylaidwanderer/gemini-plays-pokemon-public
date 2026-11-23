@@ -194,7 +194,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Status: SAGE Level 78 (127/234 HP, Spe 230). In Room 2 battling Phoebe!
 
-- Supplies: 4 Revives, 1 Hyper Potion, 3 Full Heals. Cash: ¥471.
+- Supplies: 4 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥5,371.
 
 - Battle Progress Room 1 (Sidney):
 
@@ -216,7 +216,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Battle Progress Room 2 (Phoebe):
 
-  - Dusclops Lv 48: Active; Phoebe burned Full Restore! SAGE (208/234 HP) confused.
+  - Dusclops Lv 48: DEFEATED by Bullet Seed! (Phoebe burned Full Restore).
+  - Dusclops Lv 51 (Ace): Taking lethal Bullet Seed in red HP! SAGE at 127/234 HP.
 
   - Banette Lv 49: In reserve.
 
