@@ -533,15 +533,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#2): DEFEATED by Overgrow Bullet Seed!
   - Northern door to Room 3 (Glacia) unlocked and open!
 
-  - Banette Lv 49: In reserve.
 
-  - Sableye Lv 50: In reserve.
-
-  - Dusclops Lv 51: In reserve.
-
-  - Banette Lv 49: In reserve.
-
-- Plan: Defeat Phoebe's Ghost team (Dusclops x2, Banette x2, Sableye) with STAB Bullet Seed and Aerial Ace. Unlock Room 3 door!
 
 
 
@@ -5217,7 +5209,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! SAGE Lv 78 (31/234 HP, Overgrow Active!). Cash: ¥10,471. In Room 3 battling Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 31/234. Max HP: 234. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 31/234. Max HP: 234. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
@@ -5243,7 +5235,7 @@ A large meteorological research institute located in northern Route 119 beside t
 5. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)! Earned ¥4,900, total cash ¥5,371.
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)! Earned ¥5,100, total cash ¥10,471.
-    - [ ] Elite Four Member #3 Glacia (Active! Battling Sealeo Lv 50)
+    - [ ] Elite Four Member #3 Glacia (Active! Sealeo #1 defeated, facing Glalie #1)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

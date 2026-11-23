@@ -223,13 +223,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#2): DEFEATED by Overgrow Bullet Seed!
   - Northern door to Room 3 (Glacia) unlocked and open!
 
-  - Banette Lv 49: In reserve.
 
-  - Sableye Lv 50: In reserve.
-
-  - Dusclops Lv 51: In reserve.
-
-  - Banette Lv 49: In reserve.
-
-- Plan: Defeat Phoebe's Ghost team (Dusclops x2, Banette x2, Sableye) with STAB Bullet Seed and Aerial Ace. Unlock Room 3 door!
 
