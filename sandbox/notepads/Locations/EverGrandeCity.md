@@ -192,7 +192,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 7 (Active)
 
-- Status: SAGE Level 79 (38/237 HP, Spe 233, Overgrow Active!). In Room 3 battling Glacia!
+- Status: SAGE Level 79 (118/237 HP, Spe 233). In Room 3 battling Glacia!
 
 - Supplies: 1 Revive, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
 
@@ -223,5 +223,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#2): DEFEATED by Overgrow Bullet Seed!
   - Northern door to Room 3 (Glacia) unlocked and open!
 
-
-
+- Battle Progress Room 3 (Glacia):
+  - Sealeo Lv 50 (#1): DEFEATED by Overgrow Bullet Seed!
+  - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
+  - Walrein Lv 53 (Ace): Active at ~25% HP! (Took Facade down to 12%, Glacia burned her only Full Restore, took Quick Attack to 73%, took Facade to 25%; SAGE revived to 118/237 HP, Lilz/Cipher/Cobalu fainted as sacrificial buffers; 1 Revive left).
+  - Glalie Lv 50: In reserve.
+  - Glalie Lv 52: In reserve.
+- Plan: Finish Walrein with Quick Attack (+1 priority). Defeat Glalie #1 and Glalie #2 with physical Facade (70 BP). Unlock Room 4 door!
