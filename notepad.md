@@ -536,13 +536,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress Room 3 (Glacia):
   - Sealeo Lv 50 (#1): DEFEATED by Overgrow Bullet Seed!
   - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
-  - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! SAGE at 118/237 HP (2 Revives in Bag).
+  - Walrein Lv 53 (Ace): DEFEATED by Quick Attack! (Glacia burned Full Restore; SAGE revived to 118 HP, took Facade & Quick Attack).
   - Glalie Lv 50 (#1): DEFEATED by Facade!
-  - Glalie Lv 50 (#1): DEFEATED by Facade!
-  - Glalie Lv 52 (#2): Active! (Glacia's 5th and final Pokémon, taking Facade).
-  - Glalie Lv 50: Active! SAGE Lv 79 (118/237 HP) attacking with physical Facade (70 BP).
-  - Glalie Lv 52: In reserve.
-- Plan: Finish Walrein with Quick Attack (+1 priority). Defeat Glalie #1 and Glalie #2 with physical Facade (70 BP). Unlock Room 4 door!
+  - Glalie Lv 52 (#2): Active at ~35% HP from Facade! (Glacia's 5th and final Pokémon).
+- Plan: Knock out final Glalie with Quick Attack (+1 priority). Win Room 3 (earn ¥5,300), ascend Grand Staircase 4, and challenge Drake in Room 4!
 
 
 <hr>
