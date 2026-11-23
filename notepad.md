@@ -502,7 +502,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 7 (Active)
 
-- Status: SAGE Level 79 (118/237 HP, Spe 233). In Room 3 battling Glacia!
+- Status: SAGE Level 79 (35/237 HP, Spe 233, Overgrow Active!). In Room 3 battling Glacia!
 
 - Supplies: 1 Revive, 0 Hyper Potions, 3 Full Heals. Cash: ¥10,471.
 
@@ -536,7 +536,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress Room 3 (Glacia):
   - Sealeo Lv 50 (#1): DEFEATED by Overgrow Bullet Seed!
   - Sealeo Lv 52 (#2): DEFEATED by Overgrow Bullet Seed! (SAGE grew to Lv 79).
-  - Walrein Lv 53 (Ace): Active at ~25% HP! (Took Facade down to 12%, Glacia burned her only Full Restore, took Quick Attack to 73%, took Facade to 25%; SAGE revived to 118/237 HP, Lilz/Cipher/Cobalu fainted as sacrificial buffers; 1 Revive left).
+  - Walrein Lv 53 (Ace): DEFEATED! (Glacia burned Full Restore; SAGE revived to 118 HP, took Ice Beam to 35 HP, finished Walrein with Quick Attack; 1 Revive left).
   - Glalie Lv 50: In reserve.
   - Glalie Lv 52: In reserve.
 - Plan: Finish Walrein with Quick Attack (+1 priority). Defeat Glalie #1 and Glalie #2 with physical Facade (70 BP). Unlock Room 4 door!
@@ -5211,10 +5211,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia active: Sealeo x2 DEFEATED; Walrein at ~25% HP (0 heals left). SAGE Lv 79 (118/237 HP). Cash: ¥10,471. In Bag: 1 Revive, 3 Full Heals.
+- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia active: Sealeo x2 DEFEATED; Walrein at ~25% HP (0 heals left). SAGE Lv 79 (35/237 HP, Overgrow Active!). Cash: ¥10,471. In Bag: 1 Revive, 3 Full Heals.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 118/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (15/20), Quick Attack (29/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 35/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (15/20), Quick Attack (28/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85 (FNT). Max HP: 85. Status: FNT (Sacrificial Revive buffer).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41 (FNT). Max HP: 41. Status: FNT (Sacrificial Revive buffer).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49 (FNT). Max HP: 49. Status: FNT (Sacrificial Revive buffer).
@@ -5240,7 +5240,7 @@ A large meteorological research institute located in northern Route 119 beside t
 5. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)! Earned ¥4,900, total cash ¥5,371.
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)! Earned ¥5,100, total cash ¥10,471.
-    - [ ] Elite Four Member #3 Glacia (Active! Sealeo x2 DEFEATED, battling Walrein Ace at ~25% HP)
+    - [ ] Elite Four Member #3 Glacia (Active! Sealeo x2 & Walrein Ace DEFEATED, facing Glalie #1)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
