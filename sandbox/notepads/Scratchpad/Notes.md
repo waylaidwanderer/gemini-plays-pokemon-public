@@ -21,11 +21,11 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Mid-Battle vs `Bug Maniac Jose` at `(36, 14)` — `2` Pokémon Left (`#3` & `#4`)! `Repel` Active ~61 Steps Left!):**
-  - `Slot 1 (in-battle Slot 3): Freya` (**Lv 16** Snubbull, `20/48 HP` `PSN`, `Oran Berry` intact, **`73 EXP` to `Lv 17`** — keep on bench unless needed vs `Wonder Guard` `Shedinja`!)
-  - `Slot 2 (in-battle Slot 1): Mandrake` (**Lv 16 GLOOM**, `17/46 HP`, Oran Berry spent, **`344 EXP` to `Lv 17`** — switching out on `#3` so split EXP leaves ~`173 EXP` buffer!)
-  - `Slot 3 (in-battle Slot 2): Gaia` (Lv 14 Sandshrew, `27/41 HP`, Oran Berry spent, **`1,815 EXP` before `Lv 17`**)
-  - `Slot 4 (in-battle Slot 4): Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` intact, **`145 EXP` to `Lv 16 Marshtomp`** = **`730 EXP` before `Lv 17`** — primary finisher for `#3` & `#4` -> evolves into **`Lv 16 Marshtomp`** post-Jose [use `"A"`, NEVER `"B"`, on Jose's final prize textbox, then overwrite `Slot 3 Mud Sport` with **`Mud Shot`**!])
+- **Current Resources (Finishing `Bug Maniac Jose` at `(36, 14)` — `Beautifly` at ~6 HP + `#4` Remaining! `Repel` Active ~61 Steps Left!):**
+  - `Slot 1 (in-battle Slot 2): Freya` (**Lv 16** Snubbull, `3/48 HP` `PSN`, **`~252 EXP` to `Lv 17`** [Medium Fast verified on `10x` HUD Turn 1271!])
+  - `Slot 2 (in-battle Slot 3): Mandrake` (**Lv 16 GLOOM**, `7/46 HP`, `22 Spe`, **`344 EXP` to `Lv 17`**, `Mega Drain / Acid / Toxic / Magical Leaf` — free switch-in after `Gaia` to outspeed & KO ~6-HP `Beautifly` with `Acid`!)
+  - `Slot 3 (in-battle Slot 1): Gaia` (Lv 14 Sandshrew, `2/41 HP` — sacrificing at 2 HP vs `Beautifly` to protect `Mandrake`, `Triton`, & `Freya`; deposit into `BOX 14` on Rustboro return!)
+  - `Slot 4 (in-battle Slot 4): Triton` (Lv 15 Mudkip, `9/40 HP` `PAR`, **`145 EXP` to `Lv 16 Marshtomp`** = **`730 EXP` before `Lv 17`**)
   - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `27 Poké Balls + 3 Premier Balls`, **`11 Repels`** (+1 active with ~61 steps left), `1 Escape Rope`, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥7,342`.
 - **Remaining Pre-Roxanne Route Checklist:**
