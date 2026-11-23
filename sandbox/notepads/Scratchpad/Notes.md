@@ -9,8 +9,8 @@
 - **Post-Stone Badge Re-Check Targets:**
   - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by `TM09` boy pre-Gym *(Turn 412)*.
   - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Re-check Teacher `(5, 3)` post-Roxanne.
-  - **Cut Targets:** Route 116 Berry Ledge `(17, 5)` -> `(19..20, 2)` **`Chesto Berry` trees**, Route 104 NE `(35, 22)` -> `(37, 22)` item ball, Petalburg Woods `(19, 10..11)` -> `Miracle Seed` + `(32, 30)` item ball.
-- **Unused Town Water Ponds (Save for Rod/Surf):** Littleroot SE Pond `(18..19, 12..14)`, Petalburg City Ponds, Route 115.
+  - **Cut Targets:** Route 116 Berry Ledge `(17, 5)` -> `(19..20, 2)` **`Chesto Berry` trees** + **flanking unidentified Berry trees at `(18, 2)` & `(21, 2)`**, **eastern Route 116 `Cut` maze (`north of y=12, x=22..35`)**, Route 104 NE `(35, 22)` -> `(37, 22)` item ball, Petalburg Woods `(19, 10..11)` -> `Miracle Seed` + `(32, 30)` item ball.
+- **Unused Town Water Ponds & Custom Off-Map Leads (Save for Rod/Surf/Cut):** Littleroot SE Pond `(18..19, 12..14)`, **Littleroot West custom grassy area with NPC & signpost (`x < 0` beyond western trees)**, Petalburg City Ponds, Route 115.
 
 ## Attempt #3 Fast-Track Checklist (Live Progress)
 - **Completed:** Options (`FAST` / `SET`), `Caspian` (`Mudkip ♂`, Serious, `Lv 12`), Rival #1, Pokédex + Running Shoes, `Vulcan` (`Numel ♂`, Impish, `Lv 12`, `Flame Wheel`) + **`Rawst Berry x99`**, `Velvet` (`Skitty ♀`, Modest, `Lv 12`, `20 Spe`, `Sing + Secret Power`) + banked **`Moon Stone`**, `Athena` (`Cubone ♀`, Lax, `Lv 13`, `35 Def`, `Headbutt`), **`Beowulf` (`Teddiursa ♂`, Relaxed, `Guts`, `Lv 13`, `29 Atk`, `Refresh`)**, **`Oran Berry x99` + `Pecha Berry x99`**, `Repel` active (`94` steps), Billy, Darian, & Cindy defeated, and `Fortuna` stored in `BOX 14`!
