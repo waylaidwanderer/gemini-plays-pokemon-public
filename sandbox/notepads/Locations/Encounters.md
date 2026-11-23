@@ -11,7 +11,7 @@
 - **Route 103:** `Hoppip` ♂ (**`Zephyr`** — **DECEASED Turn 1215, stored in `BOX 14` Turn 1226**; lost to Youngster Joey's `Lv 10 Ekans` crit `Acid` on switch-in; `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
 - **Route 102:** `Sandshrew` ♀ (**`Gaia`** — **DECEASED Turn 1273** holding 2 HP vs Bug Maniac Jose's `Lv 10 Beautifly` to give `Mandrake` a free switch-in; deposit in `BOX 14` post-battle; `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe` — caught Turn 790)
 - **Route 104:** `Snubbull` ♀ (**`Freya`**, `Run Away` [-> `Lv 23 Granbull`], **Serious** neutral, Lv 7 stats: `26 HP / 16 Atk / 12 Def / 10 SpA / 11 SpD / 11 Spe`, moves: `Tackle / Bite / Lick` — caught Turn 836)
-- **Petalburg Woods:** `Oddish` ♂ (**`Mandrake`**, `Chlorophyll`, **Lax** `+Def/-SpD`, Lv 8 stats: `25 HP / 15 Atk / 16 Def / 18 SpA / 15 SpD / 12 Spe`, moves: `Mega Drain` [10 PP] / `Acid` [30 PP] — caught Turn 890)
+- **Petalburg Woods:** `Oddish -> Gloom` ♂ (**`Mandrake`** — **DECEASED Turn 1275** to Bug Maniac Jose's `#4 Lv 10 Butterfree` `Confusion` after cutting Butterfree to ~50% HP with `22-Spe Acid`; deposit in `BOX 14` post-battle; `Chlorophyll`, **Lax** `+Def/-SpD` — caught Turn 890)
 - **Route 116:** `Grimer` ♂ (`Lv 9`) — **FORFEITED Turn 1128** *(broke out of 2 Poké Balls at ~78% HP and fainted itself with `Memento` on Turn 1128 `#69`)*
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #2)

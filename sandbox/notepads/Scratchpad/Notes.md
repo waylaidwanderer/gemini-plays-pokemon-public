@@ -21,11 +21,11 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Finishing `Bug Maniac Jose` at `(36, 14)` — `Beautifly` at ~6 HP + `#4` Remaining! `Repel` Active ~61 Steps Left!):**
-  - `Slot 1 (in-battle Slot 2): Freya` (**Lv 16** Snubbull, `3/48 HP` `PSN`, **`~252 EXP` to `Lv 17`** [Medium Fast verified on `10x` HUD Turn 1271!])
-  - `Slot 2 (in-battle Slot 3): Mandrake` (**Lv 16 GLOOM**, `7/46 HP`, `22 Spe`, **`344 EXP` to `Lv 17`**, `Mega Drain / Acid / Toxic / Magical Leaf` — free switch-in after `Gaia` to outspeed & KO ~6-HP `Beautifly` with `Acid`!)
-  - `Slot 3 (in-battle Slot 1): Gaia` (Lv 14 Sandshrew, `2/41 HP` — sacrificing at 2 HP vs `Beautifly` to protect `Mandrake`, `Triton`, & `Freya`; deposit into `BOX 14` on Rustboro return!)
-  - `Slot 4 (in-battle Slot 4): Triton` (Lv 15 Mudkip, `9/40 HP` `PAR`, **`145 EXP` to `Lv 16 Marshtomp`** = **`730 EXP` before `Lv 17`**)
+- **Current Resources (Final Showdown vs `Bug Maniac Jose`'s `#4 Lv 10 Butterfree` [`~50% HP`] at `(36, 14)`!):**
+  - `Slot 1 (in-battle Slot 2): Freya` (**Lv 16** Snubbull, `3/48 HP` `PSN`, `19 Spe`, `31 Atk`, **`~138 EXP` to `Lv 17`** — sending in first to test `19 Spe` `Headbutt` KO!)
+  - `Slot 2 (in-battle Slot 1): Mandrake` (**DECEASED Turn 1275** — cut `#4 Butterfree` to ~50% HP; deposit in `BOX 14` post-battle!)
+  - `Slot 3 (in-battle Slot 3): Gaia` (**DECEASED Turn 1273** — deposit in `BOX 14` post-battle!)
+  - `Slot 4 (in-battle Slot 4): Triton` (Lv 15 Mudkip, `9/40 HP` `PAR`, **`31 EXP` to `Lv 16 Marshtomp`** — tanks non-STAB `Confusion` [`7–8` dmg] if needed -> evolves to **`Lv 16 Marshtomp + Mud Shot`** post-battle!)
   - `Slots 5–6: [OPEN — Slot 5 Ready for Rusturf Tunnel Encounter!]` (`Inari` & `Zephyr` stored in `BOX 14`; `Route 116` forfeited Turn 1128)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `27 Poké Balls + 3 Premier Balls`, **`11 Repels`** (+1 active with ~61 steps left), `1 Escape Rope`, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`, `¥7,342`.
 - **Remaining Pre-Roxanne Route Checklist:**
