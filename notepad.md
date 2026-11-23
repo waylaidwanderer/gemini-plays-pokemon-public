@@ -502,7 +502,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 7 (Active)
 
-- Status: SAGE Level 79 (34/237 HP, Spe 233, Overgrow Active!). In Room 3 battling Glacia!
+- Status: SAGE Level 79 (FNT - executing Sacrificial Revive Protocol). In Room 3 battling Glacia!
 
 - Supplies: 4 Revives, 0 Hyper Potions, 3 Full Heals. Cash: ¥5,371.
 
@@ -5206,10 +5206,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! SAGE Lv 79 (34/237 HP, Overgrow Active!). Cash: ¥10,471. In Room 3 battling Glacia!
+- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! SAGE Lv 79 (FNT - reviving with Revive x4). Cash: ¥10,471. In Room 3 battling Glacia!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 34/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 0/237 (FNT). Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
