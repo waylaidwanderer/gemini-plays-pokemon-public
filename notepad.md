@@ -14,7 +14,7 @@
 - **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
 - **Route 103:** `Skitty ♀` (**"Velvet"**, Modest, `Cute Charm`, held **`Moon Stone`**, `Lv 4 Assist + Attract + Sing`) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1323`)
 - **Route 102:** `Meowth ♀` (**"Fortuna"**, Naughty, `Limber`, `Lv 6 Pay Day + Faint Attack`) — Caught at `Lv 6` in `(31..32, 14)` tall grass (`Turn 1329–1331`)
-- **Route 104:** `Cubone ♀` (**"Athena"**) — Caught at `Lv 7` in `(25, 59)` tall grass (`Turn 1356–1360`)
+- **Route 104:** `Cubone ♀` (**"Athena"**, Lax, `Rock Head`, `Lv 7 Bone Club + Rock Throw`) — Caught at `Lv 7` in `(25, 59)` tall grass (`Turn 1356–1360`)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #3)
 - Mudkip / Marshtomp / Swampert (`Caspian`)
@@ -96,6 +96,7 @@
 - **Numel (`Vulcan` Impish Attempt #3):** `Oblivious`, held **`Rawst Berry`**, starts **`Lv 5 Ember (25 PP) + Stomp (20 PP)`** (`replaces vanilla Growl + Tackle! Impish Lv 5: 21 HP / 11 Atk / 11 Def / 10 SpA / 9 SpD / 8 Spe`; `Lv 6–10` no new moves; `Lv 10: 33 HP / 17 Atk / 16 Def / 17 SpA / 16 SpD / 12 Spe`, *Verified Turns 1317–1346*).
 - **Skitty (`Velvet` Modest Attempt #3):** `Cute Charm`, held **`Moon Stone`**, starts **`Lv 4 Assist (32 PP) + Attract (15 PP) + Sing (32 PP)`** (`Modest Lv 4: 19 HP / 7 Atk / 9 Def / 9 SpA / 8 SpD / 9 Spe`, *Verified Turn 1322 `#287–#292`*).
 - **Meowth (`Fortuna` Naughty Attempt #3):** **`Limber`** (`immune to Paralysis!`), held `NONE`, starts **`Lv 6 Pay Day (20 PP, 5x Lv ¥/hit) + Faint Attack (20 PP)`** (`Naughty Lv 6: 22 HP / 13 Atk / 10 Def / 9 SpA / 9 SpD / 17 Spe`; `Lv 7–9` no new moves; `Lv 9: 28 HP / 16 Atk / 13 Def / 12 SpA / 11 SpD / 23 Spe`, *Verified Turns 1331–1343*).
+- **Cubone (`Athena` Lax Attempt #3; Attempt #1 Ref):** `Rock Head`, held `NONE`, starts **`Lv 7 Bone Club (20 PP) + Rock Throw (15 PP)`** (`Lax Lv 7: 24 HP / 13 Atk / 20 Def / 10 SpA / 11 SpD / 10 Spe` — *Turn 1360 `#230–#234`*) -> **`Lv 9 Secret Power`** -> **`Lv 13 Headbutt`** -> **`Lv 17 Dig` (60 BP / 10 PP)**.
 - **Vulpix (`Inari` Attempt #2):** Custom **`Pressure` ability**, held **`Rawst Berry`**, starts `Lv 5 Ember + Quick Attack` -> **`Lv 9 Roar`** -> **`Lv 13 Bite`** (`Lv 14` no move).
 - **Hoppip (`Zephyr` Attempt #2):** `Chlorophyll`, starts `Lv 4 Confusion` (25 PP) -> **`Lv 5 PoisonPowder + Mega Drain` (both at Lv 5!)** -> **`Lv 10 Gust`** -> **`Lv 13 Secret Power`** (`Lv 14` no move).
 - **Sandshrew (`Gaia` Attempt #2):** `Sand Veil`, starts `Lv 6 Scratch + Poison Sting` -> **`Lv 11 Sand-Attack`** (`Lv 12–14` no moves).
