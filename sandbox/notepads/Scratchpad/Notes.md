@@ -21,12 +21,12 @@
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Battling Youngster Joey at `(27, 14)` — Squad Lv 14–16!):**
+- **Current Resources (Battling Youngster Joey at `(27, 14)` — 4 Active Squad Members Lv 14–16!):**
   - `Slot 1: Freya` (Lv 15 Snubbull, `30/45 HP`, `30 Atk`, Oran Berry spent, `Headbutt / Bite / Lick / Roar`)
-  - `Slot 2: Mandrake` (Lv 16 Oddish, `41/41 HP`, `31 SpA / 27 Def`, `Oran Berry`, `Mega Drain / Acid / Toxic` — at `Lv 16` cap, keep out of non-essential EXP so ~950+ EXP buffer before `Lv 17` stays untouched!)
-  - `Slot 3: Zephyr` (Lv 14 Hoppip, `35/35 HP`, `20 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain / Gust`)
+  - `Slot 2: Mandrake` (Lv 16 Oddish, `41/41 HP`, `31 SpA / 27 Def`, `Oran Berry`, `Mega Drain / Acid / Toxic` — ~950+ EXP buffer before `Lv 17`)
+  - `Slot 3: Zephyr` (**DECEASED Turn 1215** — deposit into `BOX 14` at Rustboro PC right after Joey/Rusturf!)
   - `Slot 4: Gaia` (Lv 14 Sandshrew, `41/41 HP`, `26 Atk / 30 Def / 18 Spe`, `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
-  - `Slot 5: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry`, `Tackle / Bubble / Mud Sport / Water Gun`)
+  - `Slot 5: Triton` (Lv 15 Mudkip, `22/40 HP` `PAR`, `Oran Berry`, `Tackle / Bubble / Mud Sport / Water Gun`)
   - `Slot 6: [OPEN FOR RUSTURF TUNNEL ENCOUNTER!]` (`Route 116` Grimer forfeited via `Memento` Turn 1128; `Inari` in `BOX 14`)
   - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `16 Poké Balls + 2 Premier Balls`, **`1 Repel`** (+1 active with ~73 steps left), `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`All 5 Squad Members Have 1,200–2,400+ EXP Buffer Before Lv 17!`):**
