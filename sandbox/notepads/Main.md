@@ -32,7 +32,7 @@
 5. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)! Earned ¥4,900, total cash ¥5,371.
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)! Earned ¥5,100, total cash ¥10,471.
-    - [ ] Elite Four Member #3 Glacia (Active! Sealeo #1 defeated, facing Glalie #1)
+    - [ ] Elite Four Member #3 Glacia (Active! Sealeo #1 defeated, OHKOing Sealeo #2)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
