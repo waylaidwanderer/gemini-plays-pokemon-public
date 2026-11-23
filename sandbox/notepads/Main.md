@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia active: Sealeo x2 DEFEATED; Walrein at ~4% HP (0 heals left). SAGE Lv 79 (FNT - deploying Cobalu for Revive). Cash: ¥10,471. In Bag: 3 Revives, 3 Full Heals.
+- Status: Attempt 7 ACTIVE! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia active: Sealeo x2 DEFEATED; Walrein at ~4% HP (0 heals left). Mochi active, deploying Revive on SAGE. Cash: ¥10,471. In Bag: 3 Revives, 3 Full Heals.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 0/237 (FNT). Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (0/30 - depleted), Aerial Ace (0/20 - Grudge absorbed), Facade (15/20), Quick Attack (27/30). Status: OK (Level 78!).
