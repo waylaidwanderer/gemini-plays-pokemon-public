@@ -423,7 +423,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: SAGE Level 78 (234/234 HP, Spe 230). 100% restored upon whiteout!
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Cash: ¥5,983+ retained.
-- Plan: Restock 4 Revives at lobby Mart clerk (16, 4). Re-enter Elite Four gate: sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
+- Plan: Pass through central gate at (9, 2). Sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
 
 <hr>
 
@@ -5115,12 +5115,12 @@ A large meteorological research institute located in northern Route 119 beside t
 - Carbos x0 (2 sold for ¥9,800 Turn 24552)
 - Stardust x0 (1 sold for ¥1,000 Turn 24553)
 - Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x0 (7 used in Attempt 6: Turn 25682 outside battle, Turn 25708 in battle, Turn 25753 outside battle, Turn 25795 in battle, Turn 25802 in battle, Turn 25807 in battle, Turn 25822 on Grand Staircase 4 on Sage; 0 remaining)
+- Hyper Potion x1 (purchased Turn 25895 for �1,200)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x0 (2 used in Attempt 6: Turn 25854 on Lilz, Turn 25858 on Sage; 0 remaining)
+- Revive x4 (purchased Turn 25891-25892 for �6,000)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)

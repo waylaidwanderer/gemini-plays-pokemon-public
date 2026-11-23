@@ -113,4 +113,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: SAGE Level 78 (234/234 HP, Spe 230). 100% restored upon whiteout!
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Cash: ¥5,983+ retained.
-- Plan: Restock 4 Revives at lobby Mart clerk (16, 4). Re-enter Elite Four gate: sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
+- Plan: Pass through central gate at (9, 2). Sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
