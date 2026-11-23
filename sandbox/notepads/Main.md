@@ -1,7 +1,7 @@
 # Nuzlocke Dashboard — Attempt #2
 
 ## Run Status
-- **Attempt:** #2 (`Deaths: 4` — `Inari` Lv 14 Vulpix [stored `BOX 14`]; `Zephyr` Lv 14 Hoppip [stored `BOX 14`]; `Gaia` Lv 14 Sandshrew, Turn 1273 & `Mandrake` Lv 16 Gloom, Turn 1275 vs Bug Maniac Jose `(36, 12)`'s 4-Bug gauntlet — deposit `Gaia` & `Mandrake` in `BOX 14` post-battle!)
+- **Attempt:** #2 (`Deaths: 5` — `Inari` Lv 14 Vulpix [BOX 14]; `Zephyr` Lv 14 Hoppip [BOX 14]; `Gaia` Lv 14 Sandshrew, `Mandrake` Lv 16 Gloom, & `Freya` Lv 16 Snubbull vs Bug Maniac Jose `(36, 12)`'s 4-evolved-Bug gauntlet; `Triton` Lv 15 Mudkip `9/40 HP PAR` in final 1v1 vs ~50%-HP `#4 Lv 10 Butterfree`!)
 - **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`3` casualties: `Bayou` Turn 380 to Houndour crit `Pursuit`; `Joule` Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Turn 705 to `Dustox` `Toxic + Confusion` self-hits while `Girasol` had only `5 EXP` cap buffer left).
 - **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
 - **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
