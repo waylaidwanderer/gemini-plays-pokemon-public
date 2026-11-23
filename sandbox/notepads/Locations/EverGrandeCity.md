@@ -202,3 +202,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Cash: ¥991 retained.
 - Plan: Re-enter League lobby at (9, 11), pass central gate at (9, 1). Full sweep through Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+
+## Verified Elite Four & Wallace Type Matchup Routing (Reflection Turn 26035)
+- Sidney: Shiftry (Aerial Ace 4x OHKO), Cacturne (Aerial Ace 4x OHKO), Crawdaunt (Bullet Seed 2x OHKO), Mightyena (Bullet Seed / Facade), Absol (Facade / Bullet Seed).
+- Phoebe: MUST NOT USE Normal moves (Facade, Quick Attack have 0 effect on Ghosts). Use Bullet Seed and Aerial Ace. Dusclops Pressure doubles PP cost; SAGE has 30 Bullet Seed and 20 Aerial Ace.
+- Glacia: Sealeo #1 & #2 (Bullet Seed 2x OHKO), Walrein (Bullet Seed 2x; Sheer Cold 100% fails against Lv 79 Sage), Glalie #1 & #2 (Facade high physical damage).
+- Drake: Kingdra (Facade neutral physical), Shelgon/Flygon/Altaria/Salamence (Aerial Ace / Facade / Quick Attack priority).
+- Wallace: Wailord (Bullet Seed 2x OHKO), Whiscash (Bullet Seed 4x OHKO), Ludicolo (Aerial Ace 2x super effective), Tentacruel & Gyarados (Facade / Bullet Seed), Milotic (Bullet Seed 2x).
