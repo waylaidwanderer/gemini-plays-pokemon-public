@@ -11,9 +11,11 @@
 
 ## Locations & Encounters (Attempt #3)
 - **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295)
+- **Oldale Town:** `Numel ♂` (**"Vulcan"**) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1316`)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #3)
 - Mudkip / Marshtomp / Swampert (`Caspian`)
+- Numel / Camerupt (`Vulcan`)
 
 <hr>
 
