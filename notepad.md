@@ -406,7 +406,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Room 2 Phoebe: Dusclops 1 defeated (burned Phoebe's Full Restore). Dusclops 2 reduced to ~1 HP. Whited out on Turn 25608.
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
-## Elite Four Attempt 6 (Active)
+## Elite Four Attempt 6 (Archived Turn 25881)
 - Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
 - Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
 - Battle Progress:
@@ -424,7 +424,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Cash: ¥5,983+ retained.
 - Plan: Restock 4 Revives at lobby Mart clerk (16, 4). Re-enter Elite Four gate: sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
-
 
 <hr>
 
@@ -5095,7 +5094,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 PREPARING! Whiteout reset fully restored SAGE to Level 78 (234/234 HP) and 100% PP on all moves! In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Entering lobby to restock 4 Revives at Mart clerk (16, 4) for championship sweep!
+- Status: Attempt 7 ACTIVE! SAGE is Level 78 (234/234 HP) at 100% PP on all moves! Approaching Mart clerk (16, 4) to restock Revives and Hyper Potions.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 234/234. Max HP: 234. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 78!).
@@ -5170,6 +5169,5 @@ A large meteorological research institute located in northern Route 119 beside t
 - Bag Pocket D-Pad Navigation: Pressing Left or Right in the Bag switches horizontally between pockets (ITEMS, POKé BALLS, TM & HM, BERRIES, KEY ITEMS).
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6). Even if the reserve Pokémon is knocked out that turn, the ace is revived to 50% HP. Crucially, fainting and reviving completely wipes all volatile stat debuffs (such as Speed or Accuracy drops), restoring the ace at full natural speed and accuracy!
 - Phoebe Team Order & Abilities in Emerald: #1 Dusclops Lv 48 (Pressure, DEFEATED), #2 Dusclops Lv 51 (Pressure, DEFEATED), #3 Banette Lv 49 (Insomnia, DEFEATED), #4 Sableye Lv 50 (Keen Eye, ACTIVE), #5 Banette Lv 49 (Insomnia). Only the two Dusclops have Pressure; Banette and Sableye consume standard 1 PP per move.
-
 
 <hr>

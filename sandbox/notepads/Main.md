@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 PREPARING! Whiteout reset fully restored SAGE to Level 78 (234/234 HP) and 100% PP on all moves! In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Entering lobby to restock 4 Revives at Mart clerk (16, 4) for championship sweep!
+- Status: Attempt 7 ACTIVE! SAGE is Level 78 (234/234 HP) at 100% PP on all moves! Approaching Mart clerk (16, 4) to restock Revives and Hyper Potions.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 234/234. Max HP: 234. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 78!).

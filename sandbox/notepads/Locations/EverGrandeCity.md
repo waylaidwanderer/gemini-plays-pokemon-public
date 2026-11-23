@@ -96,7 +96,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Room 2 Phoebe: Dusclops 1 defeated (burned Phoebe's Full Restore). Dusclops 2 reduced to ~1 HP. Whited out on Turn 25608.
 - All 6 Pokémon 100% restored upon respawn at League entrance.
 
-## Elite Four Attempt 6 (Active)
+## Elite Four Attempt 6 (Archived Turn 25881)
 - Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
 - Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
 - Battle Progress:
