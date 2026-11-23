@@ -11,7 +11,7 @@
 - **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295)
 - **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
 - **Route 103:** `Skitty ♀` (**"Velvet"**, Modest, `Cute Charm`, held **`Moon Stone`**, `Lv 4 Assist + Attract + Sing`) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1323`)
-- **Route 102:** `Meowth ♀` (**"Fortuna"**, Naughty, `Limber`, `Lv 6 Pay Day + Faint Attack`) — Caught at `Lv 6` in `(31..32, 14)` tall grass (`Turn 1329–1331`)
+- **Route 102:** `Meowth ♀` (**"Fortuna"**, Naughty, `Limber`, `Lv 6 Pay Day + Faint Attack`) — Caught at `Lv 6` (`Turn 1331`); **DECEASED Turn 1377** at `Lv 11` vs Fisherman Darian's Feebas (`Water Pulse` confusion self-hits)
 - **Route 104:** `Cubone ♀` (**"Athena"**, Lax, `Rock Head`, `Lv 7 Bone Club + Rock Throw`) — Caught at `Lv 7` in `(25, 59)` tall grass (`Turn 1356–1360`)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #3)
