@@ -11,7 +11,7 @@
 - **Route 101:** `Mudkip` ♂ (**`Triton`**, `Torrent`, **Relaxed** `+Def/-Spe`, Lv 5 stats: `20 HP / 12 Atk / 11 Def / 11 SpA / 10 SpD / 9 Spe` — rescued Prof. Birch Turn 740)
 - **Oldale Town:** `Vulpix` ♀ (**`Inari`** — **DECEASED Turn 950, stored in `BOX 14` Turn 1092**; custom `Pressure` ability, Hasty `+Spe/-Def`, held `RAWST BERRY` [unlocked `x99` refills!])
 - **Route 103:** `Hoppip` ♂ (**`Zephyr`** — **DECEASED Turn 1215, stored in `BOX 14` Turn 1226**; lost to Youngster Joey's `Lv 10 Ekans` crit `Acid` on switch-in; `Chlorophyll`, **Jolly** `+Spe/-SpA`, Lv 4 stats: `17 HP / 8 Atk / 8 Def / 7 SpA / 10 SpD / 9 Spe`, moves: `Confusion` [25 PP] — caught Turn 777)
-- **Route 102:** `Sandshrew` ♀ (**`Gaia`**, `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe`, moves: `Scratch / Poison Sting` — caught Turn 790)
+- **Route 102:** `Sandshrew` ♀ (**`Gaia`** — **DECEASED Turn 1273** holding 2 HP vs Bug Maniac Jose's `Lv 10 Beautifly` to give `Mandrake` a free switch-in; deposit in `BOX 14` post-battle; `Sand Veil`, **Bashful** neutral, Lv 6 stats: `23 HP / 14 Atk / 16 Def / 7 SpA / 10 SpD / 10 Spe` — caught Turn 790)
 - **Route 104:** `Snubbull` ♀ (**`Freya`**, `Run Away` [-> `Lv 23 Granbull`], **Serious** neutral, Lv 7 stats: `26 HP / 16 Atk / 12 Def / 10 SpA / 11 SpD / 11 Spe`, moves: `Tackle / Bite / Lick` — caught Turn 836)
 - **Petalburg Woods:** `Oddish` ♂ (**`Mandrake`**, `Chlorophyll`, **Lax** `+Def/-SpD`, Lv 8 stats: `25 HP / 15 Atk / 16 Def / 18 SpA / 15 SpD / 12 Spe`, moves: `Mega Drain` [10 PP] / `Acid` [30 PP] — caught Turn 890)
 - **Route 116:** `Grimer` ♂ (`Lv 9`) — **FORFEITED Turn 1128** *(broke out of 2 Poké Balls at ~78% HP and fainted itself with `Memento` on Turn 1128 `#69`)*
@@ -31,7 +31,7 @@
 # Nuzlocke Dashboard — Attempt #2
 
 ## Run Status
-- **Attempt:** #2 (`Deaths: 2` — `Inari` Lv 14 Vulpix, Turn 950 to Magma Grunt's `Super Fang + Pursuit` Houndour [stored `BOX 14` Turn 1092]; `Zephyr` Lv 14 Hoppip, Turn 1215 to Youngster Joey's `Lv 10 Ekans` crit STAB `2x` `Acid` on switch-in [stored `BOX 14` Turn 1226])
+- **Attempt:** #2 (`Deaths: 3` — `Inari` Lv 14 Vulpix, Turn 950 [stored `BOX 14`]; `Zephyr` Lv 14 Hoppip, Turn 1215 [stored `BOX 14`]; `Gaia` Lv 14 Sandshrew, Turn 1273 holding the line at 2 HP vs Bug Maniac Jose's `Lv 10 Beautifly` so `Mandrake`, `Triton`, & `Freya` survive — deposit `Gaia` in `BOX 14` right after Jose!)
 - **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`3` casualties: `Bayou` Turn 380 to Houndour crit `Pursuit`; `Joule` Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Turn 705 to `Dustox` `Toxic + Confusion` self-hits while `Girasol` had only `5 EXP` cap buffer left).
 - **Golden Level-Cap Rule:** Keep route-clearing squad members at **`Cap - 2` (`Lv 13–14` pre-Roxanne)** so all 6 party slots stay active with `1,500+ EXP` buffer for mandatory 5-tile-sight trainers; save final `Rare Candy` cap-ups (`-> Lv 16`) strictly for right outside the Gym!
 - **ROM Hack:** Custom Emerald Hack (National Dex wilds, buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
