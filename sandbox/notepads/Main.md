@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! Room 1 Sidney DEFEATED. Room 2 Phoebe active: Dusclops #1 burned Phoebe's Full Restore! SAGE Lv 78 (127/234 HP). Cash: ¥5,371. In Bag: 4 Revives, 0 Hyper Potions, 3 Full Heals.
+- Status: Attempt 7 ACTIVE! Room 1 Sidney DEFEATED. Room 2 Phoebe active: Dusclops #1 burned Phoebe's Full Restore! SAGE Lv 78 (75/234 HP, Overgrow Active!). Cash: ¥5,371. In Bag: 4 Revives, 0 Hyper Potions, 3 Full Heals.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 127/234. Max HP: 234. Moves: Bullet Seed (18/30), Aerial Ace (11/20), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
+1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 75/234. Max HP: 234. Moves: Bullet Seed (18/30), Aerial Ace (11/20), Facade (19/20), Quick Attack (30/30). Status: OK (Level 78!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
