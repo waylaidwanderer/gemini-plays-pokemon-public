@@ -311,29 +311,29 @@ A peaceful island community in southwestern Hoenn surrounded by the sea. Accessi
 # Location: Ever Grande City
 
 ## Overview
-The ultimate destination for Pokémon Trainers in the Hoenn region, located atop a high mountain plateau at the far eastern edge of Route 128.
-- Environment: Massive stone cliffs, cascading waterfall, flower-filled mountain plateau, Victory Road cave, and the Pokémon League headquarters.
+The ultimate destination for PokÃ©mon Trainers in the Hoenn region, located atop a high mountain plateau at the far eastern edge of Route 128.
+- Environment: Massive stone cliffs, cascading waterfall, flower-filled mountain plateau, Victory Road cave, and the PokÃ©mon League headquarters.
 - Key Landmark: Massive waterfall at eastern edge of Route 128 (east of col 108), scaled with HM07 Waterfall.
 
 ## Connection Points
 - West / South: Route 128 (waterfall at eastern edge of Route 128; boundary connects Route 128 cols 120/121, rows 27/28 <-> Ever Grande City cols 0/1, rows 67/68).
 - North: Victory Road (cave entrance).
-- Far North: Pokémon League HQ (Elite Four & Champion).
+- Far North: PokÃ©mon League HQ (Elite Four & Champion).
 
 ## Key Buildings & Facilities
-- Pokémon Center (South Plateau): Located immediately outside the southern entrance to Victory Road.
-  - Crucial Action: Enter this Pokémon Center to register the permanent Hoenn Fly Map flight checkpoint!
+- PokÃ©mon Center (South Plateau): Located immediately outside the southern entrance to Victory Road.
+  - Crucial Action: Enter this PokÃ©mon Center to register the permanent Hoenn Fly Map flight checkpoint!
 - Victory Road: The premier cave test in Hoenn, requiring Flash, Strength, Rock Smash, Waterfall, and Surf. Wally battle occurs near the exit.
-- Pokémon League HQ (North Plateau): Houses the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace.
+- PokÃ©mon League HQ (North Plateau): Houses the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace.
 
 ## Progression Checklist - Ever Grande City
 1. [x] Scale Ever Grande City waterfall using HM07 Waterfall (Turn 19412 at 24, 68 -> 24, 59)!
 2. [x] Arrive at Ever Grande City south plateau (Turn 19420 at 18, 55)!
-3. [x] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint (Turn 19443 at 7, 8)!
+3. [x] Enter Ever Grande City PokÃ©mon Center to register permanent flight checkpoint (Turn 19443 at 7, 8)!
 4. [ ] Enter Victory Road cave entrance.
 5. [ ] Defeat Rival Wally in Victory Road.
 6. [ ] Exit Victory Road onto the north plateau.
-7. [ ] Enter Pokémon League HQ and heal.
+7. [ ] Enter PokÃ©mon League HQ and heal.
 8. [ ] Challenge and defeat the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 ## Discovered Topography & Navigation (Entrance Basin)
 - Map Connection: Route 128 (119, 28) connects East into Ever Grande City at (0, 68). Stepping Left from col 0 returns to Route 128 col 119.
@@ -355,24 +355,24 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Victory Road cave entrance is at (18..19, 39).
   - Large white stone monument is at (19, 43).
   - Pink and orange flower beds across the plateau are 100% walkable!
-  - Ever Grande Pokémon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
-  - A cliff wall along cols 24..25 separates the flower bed from the Pokémon Center terrace.
+  - Ever Grande PokÃ©mon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
+  - A cliff wall along cols 24..25 separates the flower bed from the PokÃ©mon Center terrace.
 
-## North Plateau Topography & Pokémon League HQ (Turn 23825+)
+## North Plateau Topography & PokÃ©mon League HQ (Turn 23825+)
 - Cave Exit from Victory Road: Spawns at (18, 28..29) facing South.
-- Paved brick road runs East along row 29 across cols 21..27, then turns North toward the Pokémon League Headquarters entrance!
-- North: Pokémon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+- Paved brick road runs East along row 29 across cols 21..27, then turns North toward the PokÃ©mon League Headquarters entrance!
+- North: PokÃ©mon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
-## Pokémon League HQ Lobby & Elite Four Entrance (Turn 23832-23847)
+## PokÃ©mon League HQ Lobby & Elite Four Entrance (Turn 23832-23847)
 - Nurse Joy Counter: Located at cols 2..5, rows 2..3. Talk from (3, 4) facing Up to fully heal party. Sets permanent Hoenn Fly Map flight checkpoint!
-- Poké Mart Counter: Located at cols 13..16, rows 2..3. Talk from (16, 4) facing Up. Sells Ultra Ball, Hyper Potion, Max Potion, Full Restore, Full Heal, Revive, Max Repel.
+- PokÃ© Mart Counter: Located at cols 13..16, rows 2..3. Talk from (16, 4) facing Up. Sells Ultra Ball, Hyper Potion, Max Potion, Full Restore, Full Heal, Revive, Max Repel.
 - Badge Check Gate: Located at cols 9..10, row 2. Guards inspect all 8 Badges. Upon confirmation, guards step aside to (8, 2) and (11, 2), unlocking the entrance doorway into Elite Four Room 1 (Sidney)!
 
 ## Elite Four Battle Notes & Scouting
-- Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: ¥4,900.
-- Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: ¥5,100.
-- Elite Four Member #3 Glacia (Ice): ALL 5 POKÉMON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
-- Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24918! Earned ¥5,500 prize money (Total cash: ¥21,999). Team defeated: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53. Drake consumed both Full Restores. SAGE Lv 71 (107/214 HP) secured the victory with priority Quick Attack! ALL FOUR ELITE FOUR MEMBERS CONQUERED! Northern door to the Champion's Chamber unlocked and open!
+- Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: Â¥4,900.
+- Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: Â¥5,100.
+- Elite Four Member #3 Glacia (Ice): ALL 5 POKÃMON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned Â¥5,300 prize money (Total cash: Â¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
+- Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24918! Earned Â¥5,500 prize money (Total cash: Â¥21,999). Team defeated: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53. Drake consumed both Full Restores. SAGE Lv 71 (107/214 HP) secured the victory with priority Quick Attack! ALL FOUR ELITE FOUR MEMBERS CONQUERED! Northern door to the Champion's Chamber unlocked and open!
 
 ## League Lobby & Elite Four Re-entry Protocol (Turn 24123)
 - Whiteout Respawn: Whiting out in the Elite Four respawns the player outside the League entrance at (18, 6). Stepping North re-enters the lobby at (9, 11). Entire party is 100% restored (HP/PP).
@@ -381,13 +381,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Grand Staircase: Halls between lobby and Elite Four chambers are straight vertical stairways (col 5). Walking North directly enters the next chamber.
 
 ## Elite Four Battle Routing Discoveries
-- In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKéMON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKéMON.
-- In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before Pokémon moves execute.
+- In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKÃ©MON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKÃ©MON.
+- In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before PokÃ©mon moves execute.
 
 ## Elite Four Attempt 2 (Archived)
 - Defeated Sidney (Turn 25023) and Phoebe (Turn 25108, Sage leveled to 73).
 - Whited out against Glacia's Walrein (Turn 25148) with Sage at 16 HP.
-- Whiteout reset restored all Pokémon to 100% HP and PP.
+- Whiteout reset restored all PokÃ©mon to 100% HP and PP.
 
 ## Elite Four Attempt 3 (Archived Turn 25408)
 - Defeated Sidney (Turn 25213), Phoebe (Turn 25256), and Glacia (Turn 25322).
@@ -395,24 +395,24 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Entire party 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 4 (Archived Turn 25530)
-- Defeated Sidney (Turn 25460, earned ¥4,900).
+- Defeated Sidney (Turn 25460, earned Â¥4,900).
 - Defeated Phoebe's Dusclops #1, Dusclops #2, and Banette #1.
 - Grudge wiped SAGE's Bullet Seed to 0 PP. SAGE fell to Shadow Ball; Lilz, Guava, Cobalu, Cipher fell to Sableye.
-- Whited out on Turn 25530. All 6 Pokémon 100% restored (HP/PP) at League entrance.
+- Whited out on Turn 25530. All 6 PokÃ©mon 100% restored (HP/PP) at League entrance.
 
 ## Elite Four Attempt 5 (Archived Turn 25608)
-- Defeated Sidney in Room 1 (Earned ¥4,900, total cash ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) conquered!
+- Defeated Sidney in Room 1 (Earned Â¥4,900, total cash Â¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) conquered!
 - SAGE reached Level 76 (Max HP 228, Atk 170, Def 124, SpA 185, SpD 166, Spe 224)!
 - Room 2 Phoebe: Dusclops 1 defeated (burned Phoebe's Full Restore). Dusclops 2 reduced to ~1 HP. Whited out on Turn 25608.
-- All 6 Pokémon 100% restored upon respawn at League entrance.
+- All 6 PokÃ©mon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Archived Turn 25881)
-- Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
-- Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
+- Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: Â¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
+- Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, Â¥15,343 cash.
 - Battle Progress:
-  - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
-  - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
-  - Room 3 Glacia: ALL 5 POKÉMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
+  - Room 1 Sidney: DEFEATED on Turn 25673! Earned Â¥4,900 (Total cash: Â¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
+  - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: Â¥5,100 (Total cash: Â¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
+  - Room 3 Glacia: ALL 5 POKÃMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned Â¥5,300 prize money (Total cash: Â¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
   - Room 4 Drake: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54 DEFEATED! Salamence Lv 55 active at ~45% HP. Kingdra Lv 53 in reserve. Drake burned 1 Full Restore (1 remaining).
   - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
 
@@ -420,10 +420,16 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
 - Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
 ## Elite Four Attempt 7 (Active)
-- Status: SAGE Level 78 (234/234 HP, Spe 230). 100% restored upon whiteout!
-- Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
-- Cash: ¥5,983+ retained.
-- Plan: Pass through central gate at (9, 2). Sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
+- Status: SAGE Level 78 (98/234 HP, Spe 115 after Cotton Spore). Room 1 Sidney battle active!
+- Supplies: 4 Revives, 1 Hyper Potion, 3 Full Heals. Cash: ¥471.
+- Battle Progress Room 1 (Sidney):
+  - Mightyena Lv 46: DEFEATED by Bullet Seed!
+  - Absol Lv 49: DEFEATED by Aerial Ace (used 2 Swords Dances, dealt 136 dmg to Sage)!
+  - Shiftry Lv 48: DEFEATED by Aerial Ace (used Double Team, ignored by Aerial Ace)!
+  - Cacturne Lv 46: At ~12% red HP (Sidney burned Full Restore; Sage hit with Aerial Ace; used Cotton Spore).
+  - Crawdaunt Lv 48: In reserve (Water/Dark, 2x weak to Bullet Seed).
+- Plan: Knock out Cacturne with Aerial Ace. OHKO Crawdaunt with Bullet Seed to defeat Sidney and unlock Room 2 door!
+
 
 <hr>
 
@@ -5091,70 +5097,70 @@ A large meteorological research institute located in northern Route 119 beside t
 
 # Main Notepad
 
-## Game: Pokémon Emerald Version
+## Game: PokÃ©mon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 7 ACTIVE! SAGE is Level 78 (234/234 HP) at 100% PP! Restocked 4 Revives, 1 Hyper Potion. Heading to Elite Four gate!
+- Status: Attempt 7 ACTIVE! In Room 1 battling Sidney. Mightyena, Absol, Shiftry defeated; Cacturne at ~12% HP. SAGE Lv 78 (98/234 HP).
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 78) - Lead! HP: 234/234. Max HP: 234. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 78!).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
+1. SAGE (Sceptile â, Level 78) - Lead! HP: 234/234. Max HP: 234. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 78!).
+2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+3. CIPHER (Kadabra â, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
+4. COBALU (Aron â, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
+5. MOCHI (Wynaut â, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
+6. GUAVA (Tropius â, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
 ## Bag Highlights
-- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all Pokémon obey). ALL 8 HOENN BADGES COLLECTED!
+- Badges: Stone Badge (Roxanne), Knuckle Badge (Brawly - Flash, Lv 30), Dynamo Badge (Wattson - Rock Smash, Speed boost), Heat Badge (Flannery - Strength, Lv 50), Balance Badge (Norman - Surf), Feather Badge (Winona - Fly, Lv 70), Mind Badge (Tate & Liza - enables HM08 Dive outside battle, boosts Sp.Atk & Sp.Def), Rain Badge (Juan - enables HM07 Waterfall outside battle, all PokÃ©mon obey). ALL 8 HOENN BADGES COLLECTED!
 - Macho Brace (received from Victoria Winstrate after defeating all 4 family members)
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Full Heal x3 (1 purchased for ¥600 Turn 25634)
+- Full Heal x3 (1 purchased for Â¥600 Turn 25634)
 - Dire Hit x0 (picked up at 30, 69 on Route 110, used Turn 23188)
 - Elixir x0 (found at Route 110 at 6, 39; found at Route 111 at 19, 118)
 - Max Ether x0 (found on terrace at 30, 2 in Rusturf Tunnel; found at 53, 7 on Route 113)
 - Protein x0 (verified absent Turn 24949)
-- Carbos x0 (2 sold for ¥9,800 Turn 24552)
-- Stardust x0 (1 sold for ¥1,000 Turn 24553)
-- Zinc x0 (2 sold for ¥9,800 Turn 24554)
-- Hyper Potion x1 (purchased Turn 25895 for �1,200)
+- Carbos x0 (2 sold for Â¥9,800 Turn 24552)
+- Stardust x0 (1 sold for Â¥1,000 Turn 24553)
+- Zinc x0 (2 sold for Â¥9,800 Turn 24554)
+- Hyper Potion x1 (1 purchased Turn 25895 for ¥1,200)
 - Max Elixir x0
 - Max Potion x0 (found at 27, 15 on Mt. Pyre exterior)
 - Max Revive x0 (none in Bag - verified Turn 24102)
 - PP Max x0
-- Revive x4 (purchased Turn 25891-25892 for �6,000)
+- Revive x4 (4 purchased Turn 25891-25892 for ¥6,000)
 - Burn Heal x1 (found on eastern terrace of Jagged Pass at 23, 24)
 - Super Potion x0 (purchased at Slateport Mart, 2 used on Route 119, 1 used in Wattson battle)
 - Potion x0 (found buried at 25, 6 on Route 109, used Turn 23107)
 - Great Ball x0 (1 gift from rescued researcher in Petalburg Woods, 1 used on Abra, 1 used on Tropius)
-- Poké Ball x0 (8 sold for ¥800 Turn 25163)
+- PokÃ© Ball x0 (8 sold for Â¥800 Turn 25163)
 - Berries: Cheri Berry x0 (held by Sage), Oran Berry x3 (harvested on Route 111, 1 held by Sage), Pecha Berry x6, Rawst Berry x4, Nanab Berry x9, Razz Berry x7 (1 gift from Berry Girl, 6 harvested on Route 111)
 - TMs & HMs: HM01 Cut (Cutter), HM02 Fly (Brendan), HM03 Surf (Wally's Dad), HM04 Strength (Wanda's boyfriend), HM05 Flash (Granite Cave Hiker), HM06 Rock Smash (Rock Smash Guy), HM07 Waterfall (Wallace), HM08 Dive (Steven Stone). [Note: Liquidated 10 unused TMs for cash Turn 25624-25626; TM09 Bullet Seed and TM42 Facade consumed by Sage Turn 24940/24945]
 - Fresh Water x0 (2 purchased, 1 used Turn 17032, 1 used Turn 17573 on Sage)
 - Lemonade x0 (1 purchased, 1 used Turn 17570 on Guava)
-- Nest Ball x0 (1 sold for ¥500 Turn 25163)
+- Nest Ball x0 (1 sold for Â¥500 Turn 25163)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Nugget x0 (sold for ¥5,000 Turn 24379)
-- Ultra Ball x0 (10 sold for ¥6,000 Turn 25162)
-- Premier Ball x0 (1 sold for ¥100 Turn 25163)
+- Nugget x0 (sold for Â¥5,000 Turn 24379)
+- Ultra Ball x0 (10 sold for Â¥6,000 Turn 25162)
+- Premier Ball x0 (1 sold for Â¥100 Turn 25163)
 - Max Repel x0 (0 in Bag; expired Turn 20706 on 1F bridge)
-- Money: ¥7,671 (after whiteout penalty against Drake)
-- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), Pokéblock Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), Pokédex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokéNav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
+- Money: ¥471 (after purchasing 4 Revives and 1 Hyper Potion)
+- Key Items: Magma Emblem (received at Mt. Pyre Summit shrine on Turn 13659!), PokÃ©block Case (obtained in Lilycove Contest Hall on Turn 13364!), Go-Goggles (gift from Brendan outside Lavaridge Gym), PokÃ©dex, Running Shoes (Hold B to run outdoors), Wailmer Pail (Pretty Petal Flower Shop sister at 6, 3), Letter (DELIVERED to Steven!), PokÃ©Nav (Match Call - Roxanne, Brawly, Steven, Elliot, Ricky, Lola, Scott, Birch, Isabel, Amy & Liv, Miguel, Edwin, Wattson, Anna & Meg, Isaac, Lydia, Wally, Trent, Wilton, Brooke, Madeline, Lao, Steve, Tyra & Ivy, Bernie, Ethan, Flannery, Norman, Rose, Dalton, Catherine, Robert, Winona, Jessica, Cristin, Tate & Liza, Katelyn, Juan, Isaiah registered!), Old Rod (Fisherman in Dewford Town), Good Rod (Route 118 Fisherman), Itemfinder (gift from Brendan on Route 110), Mach Bike (gift from Rydel - fast travel, slopes, cracked tiles), Soot Sack (gift from Glass Artisan on Route 113)
 
-## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
+## Progression Checklist - Phase 14: Ever Grande City & The PokÃ©mon League (Active)
 1. [x] Exit Sootopolis Gym into Sootopolis City (Turn 19018)!
 2. [x] Teach HM07 Waterfall to Lombre (Lilz) (Turn 19040)!
 3. [x] Fly to Mossdeep City (Turn 19065)!
-4. [x] Heal at Mossdeep Pokémon Center (Turn 19073)!
-5. [x] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep Poké Mart (Turn 19108)!
+4. [x] Heal at Mossdeep PokÃ©mon Center (Turn 19073)!
+5. [x] Stock up on supplies (Hyper Potions, Revives, Max Repels) at Mossdeep PokÃ© Mart (Turn 19108)!
 6. [x] Surf south onto Route 127 and east along Route 128 to Ever Grande City waterfall (reached col 101/102 on Turn 19214)!
 7. [x] Scale the waterfall using HM07 Waterfall to reach Ever Grande City (Turn 19412 at 24, 68 -> 24, 59)!
-8. [x] Enter Ever Grande City Pokémon Center to register flight checkpoint (Turn 19443 at 7, 8)!
-9. [x] Defeat Rival Wally on Victory Road 1F (Turn 19548)! (Earned ¥2,700).
+8. [x] Enter Ever Grande City PokÃ©mon Center to register flight checkpoint (Turn 19443 at 7, 8)!
+9. [x] Defeat Rival Wally on Victory Road 1F (Turn 19548)! (Earned Â¥2,700).
 10. [x] Traverse Victory Road (COMPLETED Turn 23825)! All trainers defeated, boulder puzzles solved, exited onto Ever Grande City North Plateau!
-11. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
+11. [x] Enter PokÃ©mon League HQ and register permanent flight checkpoint (Turn 23832)!
 12. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 4, Turn 25460)! Earned ¥4,900, total cash ¥5,374! SAGE Lv 75. Northern door open!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned ¥5,100, Dusclops x2, Banette x2, Sableye defeated!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 25811)! Earned ¥5,300, Sage Lv 77 (126/231 HP), Sealeo x2, Walrein, Glalie x2 conquered! Cash: ¥15,343. Northern door to Room 4 (Drake) open!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 4, Turn 25460)! Earned Â¥4,900, total cash Â¥5,374! SAGE Lv 75. Northern door open!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 24678)! Earned Â¥5,100, Dusclops x2, Banette x2, Sableye defeated!
+    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 25811)! Earned Â¥5,300, Sage Lv 77 (126/231 HP), Sealeo x2, Walrein, Glalie x2 conquered! Cash: Â¥15,343. Northern door to Room 4 (Drake) open!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -5162,12 +5168,13 @@ A large meteorological research institute located in northern Route 119 beside t
 - In-Battle Party Targeting Shift Mechanic (Discovered Turns 25854, 25858): On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box. When Cipher or Lilz was active, SAGE was in Row 2 of the right column (beneath Row 1 Lilz/Cipher). Pressing Right without Down targeted Row 1, unintentionally reviving Lilz and Cipher instead of SAGE.
 - Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 77 HP for Sage's 231 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks (e.g. STAB Bullet Seed deals 4.5x effective damage against 2x weak targets!).
 - OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold, Fissure, and Guillotine automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 77!).
-- In-Battle Bag Item Usage Workflow (Verified Turn 25794): Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] (defaults to USE) -> 3. Party targeting screen loads (~500ms delay, cursor on active battler) -> press A to confirm target Pokémon. Pressing B before the 3rd A cancels back without consuming the item or taking a turn.
+- In-Battle Bag Item Usage Workflow (Verified Turn 25794): Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] (defaults to USE) -> 3. Party targeting screen loads (~500ms delay, cursor on active battler) -> press A to confirm target PokÃ©mon. Pressing B before the 3rd A cancels back without consuming the item or taking a turn.
 - Move Menu Clamping for Slot 1 (Bullet Seed): Pressing Up then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 1 (top-left, Bullet Seed).
 - Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
 - Move Menu Clamping Guarantee: On the 2x2 move selection screen (Slot 1 top-left, Slot 2 top-right, Slot 3 bottom-left, Slot 4 bottom-right), pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack), bypassing any prior cursor memory.
-- Bag Pocket D-Pad Navigation: Pressing Left or Right in the Bag switches horizontally between pockets (ITEMS, POKé BALLS, TM & HM, BERRIES, KEY ITEMS).
-- In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6). Even if the reserve Pokémon is knocked out that turn, the ace is revived to 50% HP. Crucially, fainting and reviving completely wipes all volatile stat debuffs (such as Speed or Accuracy drops), restoring the ace at full natural speed and accuracy!
+- Bag Pocket D-Pad Navigation: Pressing Left or Right in the Bag switches horizontally between pockets (ITEMS, POKÃ© BALLS, TM & HM, BERRIES, KEY ITEMS).
+- In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve PokÃ©mon allows using a Revive from the Bag with absolute turn-start priority (+6). Even if the reserve PokÃ©mon is knocked out that turn, the ace is revived to 50% HP. Crucially, fainting and reviving completely wipes all volatile stat debuffs (such as Speed or Accuracy drops), restoring the ace at full natural speed and accuracy!
 - Phoebe Team Order & Abilities in Emerald: #1 Dusclops Lv 48 (Pressure, DEFEATED), #2 Dusclops Lv 51 (Pressure, DEFEATED), #3 Banette Lv 49 (Insomnia, DEFEATED), #4 Sableye Lv 50 (Keen Eye, ACTIVE), #5 Banette Lv 49 (Insomnia). Only the two Dusclops have Pressure; Banette and Sableye consume standard 1 PP per move.
+
 
 <hr>
