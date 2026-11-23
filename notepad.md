@@ -10,10 +10,10 @@
   - **Self-KO / Flee Hazards:** Oldale Town custom grass `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), and Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128)—use `Sleep` or high-rate balls immediately on flee/self-KO species!
 
 ## Locations & Encounters (Attempt #3)
-*(None yet — starting Attempt #3)*
+- **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #3)
-*(None yet — starting Attempt #3)*
+- Mudkip / Marshtomp / Swampert (`Caspian`)
 
 <hr>
 
