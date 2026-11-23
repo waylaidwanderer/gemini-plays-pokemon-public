@@ -68,8 +68,8 @@
 
 ## Additional Verified Data & Attempt #1 Post-Mortem (Turn 713)
 - **Route 116 Wild & Trainer Intel:**
-  - **Route 116 Wild Pool Clue:** `Lv 9 Voltorb` (`Static`, starts with `ThunderShock`, `Secret Power`, `Shock Wave`).
-  - **Western Chokepoint (`Johnson` & `Devan`):** `Bird Keeper Johnson (15, 7)` (`Lv 9 Hoothoot, Swablu, Natu` — challenge 1-on-1 from `(15, 6)` facing `Down`, outside `Bug Catcher Jose (10, 7)`'s 3-tile `Right` sight `(11..13, 7)`); `Hiker Devan (14, 10)` has 3-tile `Up` sight to `(14, 7)` (`Lv 10 Geodude`, `Lv 9 Diglett [Arena Trap]`, `Lv 9 Trapinch [Arena Trap]`).
+  - **Route 116 Wild Pool Clue:** `Lv 9 Voltorb` (`Static`, starts with `ThunderShock`, `Secret Power`, `Shock Wave`); `Lv 9 Grimer` (`Memento` + Ghost-type move, Turn 1128).
+  - **Western Chokepoint (`Johnson` & `Devan`):** `Bird Keeper Johnson (15, 7)` (`Lv 9 Hoothoot`, `Lv 9 Swablu [Sing, Rest + smart AI switch to trigger Natural Cure, Turns 1136–1138]`, `Lv 9 Natu` — challenge 1-on-1 from `(15, 6)` facing `Down`, outside `Bug Catcher Jose (10, 7)`'s 3-tile `Right` sight `(11..13, 7)`); `Hiker Devan (14, 10)` has 3-tile `Up` sight to `(14, 7)` (`Lv 10 Geodude`, `Lv 9 Diglett [Arena Trap]`, `Lv 9 Trapinch [Arena Trap]`).
   - **School Kid Karen `(16, 8)` & Jerry `(18, 10)`:** Stepping onto `(16, 10)` triggers a dangerous 6-Pokémon Double Battle (`Totodile/Chikorita/Cyndaquil` + `Hustle Nidoran♂ [Rock Tomb, Dig] / Phanpy / Shuppet`)! **Split them into 1-on-1s** by talking to Karen `(16, 8)` from `(15, 8)` first!
   - **Lady Sarah `(16, 13)` & Rich Boy Dawson `(21, 13)`:** Face each other across `y=13`; **split into 1-on-1s** from `(16, 12)` (`Sarah: Lv 10 Spoink, Bellsprout, Meowth` -> `¥2,000`; `Dawson: Lv 10 Swinub [Ice Shard!], Lv 10 Mareep, Lv 9 Aipom` -> `¥2,000`).
   - **Hiker Clark `(31, 13)` & Lass Janice `(31, 17)`:** Face each other across `x=31`; **split into 1-on-1s** from `(30, 13)` (`Clark: Lv 10 Slugma, Teddiursa, Gulpin`; `Janice: Lv 10 Jigglypuff [Sing/Tickle/Present], Lv 10 Nidoran♀ [Toxic/Bite], Lv 9 Marill [Huge Power Secret Power/BubbleBeam]`).

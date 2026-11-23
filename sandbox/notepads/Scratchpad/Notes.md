@@ -14,20 +14,20 @@
 - **Unused Town Water Ponds & Future Surf/Grass Routes:**
   - **Littleroot Town SE Pond (`x=18..19, y=12..14`)** — custom water pond, Littleroot encounter still **UNUSED**.
   - **Petalburg City Ponds (`SW & NE`)** — no gift taken in Petalburg City, so Petalburg encounter remains **UNUSED** for Fishing/Surf! *(Also re-visit Wally's Dad in `(7, 5)` post-Norman for `HM03 Surf`)*.
-  - **Route 115 (`North of Rustboro (20, 0)`):** `ROUTE 115` encounter remains **UNUSED** for future Surf/Rod/north-grass *(southern `(20, 60)` beach `Super Potion` collectible on Attempt #2 via vertical stairs `(10..11, 70)` and column `x=22` southern ledge bypass)*.
+  - **Route 115 (`North of Rustboro (20, 0)`):** `ROUTE 115` encounter remains **UNUSED** for future Surf/Rod/north-grass.
 - **Optional / Bypassable Trainers:**
   - **Route 115:** Double Battle pair `(25, 61)` & `(29, 61)` guarding `(26, 67)` item ball, plus northern beach trainers.
   - **Route 116:** `Bug Catcher Jose (10, 7)` (`3-tile Right sight (11..13, 7)`, guards `(13, 18)` item ball). *(Note: Eastern `Bug Maniac Jose (36, 12)` has mandatory 5-tile `Down` sight to `(36, 17)` and CANNOT be bypassed!)*
   - **Route 102:** `(18, 11)` and `(38, 4)`.
 
 ## Attempt #2 Early-Game Fast-Track Checklist
-- **Current Resources (Entering Route 116 `(0, 11)` — Ready for Slot 6 Encounter!):**
-  - `Slot 1: Freya` (Lv 13 Snubbull, `41/41 HP`, `26 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar` — `Lick` deals tiny chip + 30% PAR for safe catching!)
+- **Current Resources (Clearing Route 116 `(15, 6)` — Slot 6 Open for Rusturf Tunnel!):**
+  - `Slot 1: Freya` (Lv 13 Snubbull, `41/41 HP`, `26 Atk`, `Oran Berry`, `Headbutt / Bite / Lick / Roar`)
   - `Slot 2: Mandrake` (Lv 13 Oddish, `35/35 HP`, `26 SpA`, `Oran Berry`, `Mega Drain / Acid`)
   - `Slot 3: Zephyr` (Lv 13 Hoppip, `33/33 HP`, `19 Spe`, `Oran Berry`, `Confusion / Secret Power / Mega Drain / Gust`)
   - `Slot 4: Gaia` (Lv 12 Sandshrew, `36/36 HP`, `27 Def / 16 Spe`, `Oran Berry`, `Scratch / Poison Sting / Sand-Attack`)
   - `Slot 5: Triton` (Lv 15 Mudkip, `40/40 HP`, `Oran Berry` — keep out of Route 116 trainer EXP so `Lv 12–13` squad absorbs EXP before candying to `Lv 16 Marshtomp` right outside Gym!)
-  - `Slot 6: [OPEN FOR ROUTE 116 ENCOUNTER!]` (`Inari` deposited in `BOX 14` Turn 1092)
-  - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `18 Poké Balls + 2 Premier Balls`, **`3 Repels`**, `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
+  - `Slot 6: [OPEN FOR RUSTURF TUNNEL ENCOUNTER!]` (`Route 116` Grimer forfeited via `Memento` Turn 1128; `Inari` in `BOX 14`)
+  - **Bag & Cash:** **`HM01 Cut`**, **`Oran`, `Pecha`, `Rawst`, & `Cheri Berry x99` ALL FOUR UNLOCKED**; `TM09 Bullet Seed`, `1 Great Ball`, `16 Poké Balls + 2 Premier Balls`, **`2 Repels`** (+1 active), `1 Super Potion`, `5 Potions`, `1 Antidote`, `2 Awakenings`.
 - **Remaining Pre-Roxanne Route Checklist (`Keep Active Route Squad <= Lv 14–15 Until Rusturf Tunnel Is Cleared!`):**
-  - **Route 116 & Rusturf Tunnel -> Roxanne:** Catch **Route 116** & **Rusturf Tunnel** encounters *(throw `Great Ball` Turn 1 if `Abra`; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, split paired trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 12–14` EXP headroom, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
+  - **Route 116 & Rusturf Tunnel -> Roxanne:** Split paired Route 116 trainers (`(15, 8)`, `(16, 12)`, `(30, 13)`), clear mandatory `Bug Maniac Jose (36, 12)` with `Lv 12–14` EXP headroom, catch **Rusturf Tunnel** encounter *(throw `Great Ball` Turn 1 if `Abra`/self-KO risk; watch for `Nincada` -> `Shedinja -> Moltres` trade in `(33, 19)`!)*, then candy full squad to **`Lv 16`** right outside Rustboro Gym and sweep **Roxanne**!
