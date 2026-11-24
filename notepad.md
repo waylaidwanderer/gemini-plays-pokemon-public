@@ -5189,10 +5189,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 8 ACTIVE! Room 1 Sidney DEFEATED (Turn 26058)! Earned ¥4,900 (Total cash: ¥5,891). SAGE Lv 79 (40/237 HP, Overgrow active!). Advancing to Room 2 (Phoebe)!
+- Status: Attempt 8 Room 2 (Phoebe). Dusclops #1 defeated; Dusclops #2 at 10% HP. SAGE FNT, reserves active.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 237/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 79!).
+1. SAGE (Sceptile �, Level 79) - Lead! HP: 0/237 (FNT). Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (13/30), Aerial Ace (12/20), Facade (18/20), Quick Attack (30/30). Status: FNT.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
