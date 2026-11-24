@@ -2,9 +2,9 @@
 
 ## Overview
 
-The ultimate destination for Pokémon Trainers in the Hoenn region, located atop a high mountain plateau at the far eastern edge of Route 128.
+The ultimate destination for PokÃ©mon Trainers in the Hoenn region, located atop a high mountain plateau at the far eastern edge of Route 128.
 
-- Environment: Massive stone cliffs, cascading waterfall, flower-filled mountain plateau, Victory Road cave, and the Pokémon League headquarters.
+- Environment: Massive stone cliffs, cascading waterfall, flower-filled mountain plateau, Victory Road cave, and the PokÃ©mon League headquarters.
 
 - Key Landmark: Massive waterfall at eastern edge of Route 128 (east of col 108), scaled with HM07 Waterfall.
 
@@ -14,17 +14,17 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - North: Victory Road (cave entrance).
 
-- Far North: Pokémon League HQ (Elite Four & Champion).
+- Far North: PokÃ©mon League HQ (Elite Four & Champion).
 
 ## Key Buildings & Facilities
 
-- Pokémon Center (South Plateau): Located immediately outside the southern entrance to Victory Road.
+- PokÃ©mon Center (South Plateau): Located immediately outside the southern entrance to Victory Road.
 
-  - Crucial Action: Enter this Pokémon Center to register the permanent Hoenn Fly Map flight checkpoint!
+  - Crucial Action: Enter this PokÃ©mon Center to register the permanent Hoenn Fly Map flight checkpoint!
 
 - Victory Road: The premier cave test in Hoenn, requiring Flash, Strength, Rock Smash, Waterfall, and Surf. Wally battle occurs near the exit.
 
-- Pokémon League HQ (North Plateau): Houses the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace.
+- PokÃ©mon League HQ (North Plateau): Houses the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace.
 
 ## Progression Checklist - Ever Grande City
 
@@ -32,7 +32,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 2. [x] Arrive at Ever Grande City south plateau (Turn 19420 at 18, 55)!
 
-3. [x] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint (Turn 19443 at 7, 8)!
+3. [x] Enter Ever Grande City PokÃ©mon Center to register permanent flight checkpoint (Turn 19443 at 7, 8)!
 
 4. [ ] Enter Victory Road cave entrance.
 
@@ -40,7 +40,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 6. [ ] Exit Victory Road onto the north plateau.
 
-7. [ ] Enter Pokémon League HQ and heal.
+7. [ ] Enter PokÃ©mon League HQ and heal.
 
 8. [ ] Challenge and defeat the Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
@@ -84,35 +84,35 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Pink and orange flower beds across the plateau are 100% walkable!
 
-  - Ever Grande Pokémon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
+  - Ever Grande PokÃ©mon Center sits at cols 26..29, rows 47..50 on an eastern terrace.
 
-  - A cliff wall along cols 24..25 separates the flower bed from the Pokémon Center terrace.
+  - A cliff wall along cols 24..25 separates the flower bed from the PokÃ©mon Center terrace.
 
-## North Plateau Topography & Pokémon League HQ (Turn 23825+)
+## North Plateau Topography & PokÃ©mon League HQ (Turn 23825+)
 
 - Cave Exit from Victory Road: Spawns at (18, 28..29) facing South.
 
-- Paved brick road runs East along row 29 across cols 21..27, then turns North toward the Pokémon League Headquarters entrance!
+- Paved brick road runs East along row 29 across cols 21..27, then turns North toward the PokÃ©mon League Headquarters entrance!
 
-- North: Pokémon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
+- North: PokÃ©mon League HQ building housing the Hoenn Elite Four (Sidney, Phoebe, Glacia, Drake) and Champion Wallace!
 
-## Pokémon League HQ Lobby & Elite Four Entrance (Turn 23832-23847)
+## PokÃ©mon League HQ Lobby & Elite Four Entrance (Turn 23832-23847)
 
 - Nurse Joy Counter: Located at cols 2..5, rows 2..3. Talk from (3, 4) facing Up to fully heal party. Sets permanent Hoenn Fly Map flight checkpoint!
 
-- Poké Mart Counter: Located at cols 13..16, rows 2..3. Talk from (16, 4) facing Up. Sells Ultra Ball, Hyper Potion, Max Potion, Full Restore, Full Heal, Revive, Max Repel.
+- PokÃ© Mart Counter: Located at cols 13..16, rows 2..3. Talk from (16, 4) facing Up. Sells Ultra Ball, Hyper Potion, Max Potion, Full Restore, Full Heal, Revive, Max Repel.
 
 - Badge Check Gate: Located at cols 9..10, row 2. Guards inspect all 8 Badges. Upon confirmation, guards step aside to (8, 2) and (11, 2), unlocking the entrance doorway into Elite Four Room 1 (Sidney)!
 
 ## Elite Four Battle Notes & Scouting
 
-- Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: ¥4,900.
+- Elite Four Member #1 Sidney (Dark): Mightyena Lv 46, Shiftry Lv 48, Cacturne Lv 46, Crawdaunt Lv 48, Absol Lv 49. Defeated Turn 23876. Prize: Â¥4,900.
 
-- Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: ¥5,100.
+- Elite Four Member #2 Phoebe (Ghost): Dusclops Lv 48, Banette Lv 49, Sableye Lv 50, Banette Lv 49, Dusclops Lv 51. Dark-type Pursuit is 2x super-effective; Leaf Blade neutral STAB on Sableye. Defeated Turn 23942. Prize: Â¥5,100.
 
-- Elite Four Member #3 Glacia (Ice): ALL 5 POKéMON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
+- Elite Four Member #3 Glacia (Ice): ALL 5 POKÃ©MON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned Â¥5,300 prize money (Total cash: Â¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
 
-- Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24918! Earned ¥5,500 prize money (Total cash: ¥21,999). Team defeated: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53. Drake consumed both Full Restores. SAGE Lv 71 (107/214 HP) secured the victory with priority Quick Attack! ALL FOUR ELITE FOUR MEMBERS CONQUERED! Northern door to the Champion's Chamber unlocked and open!
+- Elite Four Member #4 Drake (Dragon): DEFEATED Turn 24918! Earned Â¥5,500 prize money (Total cash: Â¥21,999). Team defeated: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54, Salamence Lv 55, and Kingdra Lv 53. Drake consumed both Full Restores. SAGE Lv 71 (107/214 HP) secured the victory with priority Quick Attack! ALL FOUR ELITE FOUR MEMBERS CONQUERED! Northern door to the Champion's Chamber unlocked and open!
 
 ## League Lobby & Elite Four Re-entry Protocol (Turn 24123)
 
@@ -126,9 +126,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Battle Routing Discoveries
 
-- In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKéMON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKéMON.
+- In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKÃ©MON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKÃ©MON.
 
-- In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before Pokémon moves execute.
+- In-Battle Item Priority: Using Revives from Bag has absolute priority at turn start before PokÃ©mon moves execute.
 
 ## Elite Four Attempt 2 (Archived)
 
@@ -136,7 +136,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Whited out against Glacia's Walrein (Turn 25148) with Sage at 16 HP.
 
-- Whiteout reset restored all Pokémon to 100% HP and PP.
+- Whiteout reset restored all PokÃ©mon to 100% HP and PP.
 
 ## Elite Four Attempt 3 (Archived Turn 25408)
 
@@ -148,37 +148,37 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 4 (Archived Turn 25530)
 
-- Defeated Sidney (Turn 25460, earned ¥4,900).
+- Defeated Sidney (Turn 25460, earned Â¥4,900).
 
 - Defeated Phoebe's Dusclops #1, Dusclops #2, and Banette #1.
 
 - Grudge wiped SAGE's Bullet Seed to 0 PP. SAGE fell to Shadow Ball; Lilz, Guava, Cobalu, Cipher fell to Sableye.
 
-- Whited out on Turn 25530. All 6 Pokémon 100% restored (HP/PP) at League entrance.
+- Whited out on Turn 25530. All 6 PokÃ©mon 100% restored (HP/PP) at League entrance.
 
 ## Elite Four Attempt 5 (Archived Turn 25608)
 
-- Defeated Sidney in Room 1 (Earned ¥4,900, total cash ¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) conquered!
+- Defeated Sidney in Room 1 (Earned Â¥4,900, total cash Â¥6,087). Mightyena, Absol, Shiftry (OHKO), Cacturne (OHKO), and Crawdaunt (OHKO) conquered!
 
 - SAGE reached Level 76 (Max HP 228, Atk 170, Def 124, SpA 185, SpD 166, Spe 224)!
 
 - Room 2 Phoebe: Dusclops 1 defeated (burned Phoebe's Full Restore). Dusclops 2 reduced to ~1 HP. Whited out on Turn 25608.
 
-- All 6 Pokémon 100% restored upon respawn at League entrance.
+- All 6 PokÃ©mon 100% restored upon respawn at League entrance.
 
 ## Elite Four Attempt 6 (Archived Turn 25881)
 
-- Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
+- Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: Â¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
 
-- Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
+- Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, Â¥15,343 cash.
 
 - Battle Progress:
 
-  - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
+  - Room 1 Sidney: DEFEATED on Turn 25673! Earned Â¥4,900 (Total cash: Â¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
 
-  - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
+  - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: Â¥5,100 (Total cash: Â¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
 
-  - Room 3 Glacia: ALL 5 POKéMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
+  - Room 3 Glacia: ALL 5 POKÃ©MON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned Â¥5,300 prize money (Total cash: Â¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
 
   - Room 4 Drake: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54 DEFEATED! Salamence Lv 55 active at ~45% HP. Kingdra Lv 53 in reserve. Drake burned 1 Full Restore (1 remaining).
 
@@ -193,14 +193,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Attempt 7 (Archived Turn 26031)
 - Status: Room 1 Sidney DEFEATED! Room 2 Phoebe DEFEATED! Room 3 Glacia: Sealeo #1 & #2 defeated, Walrein Ace defeated, Glalie #1 defeated, Glalie #2 reduced to ~35% HP. SAGE grew to Lv 79. Whited out on Turn 26031.
 - Battle Progress:
-  - Room 1 Sidney: DEFEATED on Turn 25926! Prize: ¥4,900.
-  - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: ¥5,100.
+  - Room 1 Sidney: DEFEATED on Turn 25926! Prize: Â¥4,900.
+  - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: Â¥5,100.
   - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
 
 ## Elite Four Attempt 8 (Active)
-- Status: Room 1 Sidney DEFEATED (Turn 26058, earned ¥4,900). Room 2 Phoebe active: Dusclops #1 DEFEATED (Turn 26070). SAGE fell to Dusclops #2. Cash: ¥5,891. Reserves active.
+- Status: Room 1 Sidney DEFEATED (Turn 26058, earned Â¥4,900). Room 2 Phoebe active: Dusclops #1 DEFEATED (Turn 26070). SAGE fell to Dusclops #2. Cash: Â¥5,891. Reserves active.
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
-- Cash: ¥991 retained.
+- Cash: Â¥991 retained.
 - Plan: Re-enter League lobby at (9, 11), pass central gate at (9, 1). Full sweep through Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 ## Verified Elite Four & Wallace Type Matchup Routing (Reflection Turn 26035)
@@ -212,7 +212,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 9 (Active)
 - Status: Launching Attempt 9 championship sweep!
-- Party: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pok�mon 100% restored.
+- Party: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pokémon 100% restored.
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
-- Supplies: 3 Revives, 0 Hyper Potions, 3 Full Heals, �567 cash.
+- Supplies: 3 Revives, 0 Hyper Potions, 3 Full Heals, ¥567 cash.
 - Plan: Pass central gate at (9, 1). Sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
