@@ -92,3 +92,7 @@
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
 
 - Phoebe Team Order & Abilities in Emerald: #1 Dusclops Lv 48 (Pressure), #2 Dusclops Lv 51 (Pressure), #3 Banette Lv 49 (Insomnia), #4 Sableye Lv 50 (Keen Eye), #5 Banette Lv 49 (Insomnia). Normal-type moves (Facade, Quick Attack) have 0 effect against Ghost types!
+
+- Grudge PP Absorption Workaround: Banette's Grudge reduces the KO move's PP to 0. Sacrificing a non-essential move (like Aerial Ace) to finish Banette protects vital STAB moves (Bullet Seed) for subsequent chambers.
+
+- Overgrow Activation at Low HP: Overgrow boosts Grass-type moves by 1.5x when HP is <= 1/3 (<= 80/240 HP for SAGE Lv 80). At 14 HP, Overgrow guarantees OHKO Bullet Seed damage against Glacia's Ice/Water Pokémon.
