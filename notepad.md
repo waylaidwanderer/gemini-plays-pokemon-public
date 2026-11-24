@@ -215,7 +215,7 @@
 
 ## Attempt #3 Fast-Track Checklist (Live Progress)
 - **Completed:** Options (`FAST` / `SET`), `Caspian` (`Mudkip ♂`, Serious, `Lv 12`), Rival #1, Pokédex + Running Shoes, `Vulcan` (`Numel ♂`, Impish, `Lv 13`, `Flame Wheel`) + **`Rawst Berry x99`**, `Velvet` (`Skitty ♀`, Modest, `Lv 12`, `20 Spe`, `Sing + Secret Power`) + banked **`Moon Stone`**, `Athena` (`Cubone ♀`, Lax, `Lv 13`, `35 Def`, `Headbutt`), **`Beowulf` (`Teddiursa ♂`, Relaxed, `Guts`, `Lv 13`, `29 Atk`, `Refresh`)**, **`Cheri / Pecha / Rawst / Oran Berries x99`**, `TM09 Bullet Seed`, `Great Ball x1`, `Fortuna` stored in `BOX 14`, and **ALL of Route 104 South + Petalburg Woods CLEARED WITH ZERO WOODS DEATHS**!
-1. **Route 104 North Gauntlet (`Winston` / `Haley` / `Twins` / `Red`):** Clear `Rich Boy Winston (21, 26)` (`use 20-Spe Velvet vs flinch Electrike!`), `Lass Haley (32, 22)`, `Twins Gina & Mia (27..28, 15)` (`Own Tempo Follow Me + Focus Punch Smeargles!`), and **PKMN Trainer Red `(28, 8)`**!
+1. **Route 104 North Gauntlet (`Haley` / `Twins` / `Red`):** With `Winston` cleared, cure/heal/re-berry at `(21, 25)`, sweep `Lass Haley (32, 22)` (`Oblivious Vulcan + Caspian`), clear `Twins Gina & Mia (27..28, 15)` (`Own Tempo Follow Me + Focus Punch Smeargles!`), and defeat **PKMN Trainer Red `(28, 8)`**!
 2. **Rustboro -> Route 116 West Catch -> Roxanne (`Lv 16`) FIRST:** Enter Rustboro City, grab `HM01 Cut` `(9, 38)` + `2F Premier Ball` `(5, 51)` + Route 115 `Super Potion` `(20, 60)`, catch **Route 116 West `(5..6, 13..14)`** (`watch for Grimer Memento — use Velvet Sing + Great Ball!`), candy 6-Pokémon squad to **`Lv 16`**, and **DEFEAT ROXANNE FIRST** before touching eastern Route 116!
 
 <hr>
