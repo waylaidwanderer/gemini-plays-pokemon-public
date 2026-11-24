@@ -752,7 +752,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
     - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
-    - Glalie Lv 50 active at ~50% HP! SAGE dealt 2 hits of Bullet Seed, fainted to Ice Beam. Sacrificial Revive Protocol executed cleanly with COBALU (Turn 26199): SAGE restored to 120/240 HP! COBALU absorbed hit and fainted.
+    - Glalie Lv 50 active at ~50% HP! SAGE restored to 120/240 HP via Sacrificial Revive. COBALU absorbed Ice Beam, giving SAGE 100% free switch-in at 120 HP. SAGE re-entering to sweep Glalie #1 and Glalie #2!
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.
 
@@ -5431,7 +5431,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26193)! Cash: ¥10,567. SAGE Level 80 (36/240 HP, Overgrow ACTIVE!). 1 Revive in Bag. Walrein DEFEATED! Glalie entering!
+- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26201)! Cash: ¥10,567. SAGE Level 80 (120/240 HP). 0 Revives in Bag. SAGE re-entering to sweep Glalies!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -5442,7 +5442,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26179).
 
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 3/49. Status: OK (Absorbing hit for clean switch-in).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26200).
 
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
 
