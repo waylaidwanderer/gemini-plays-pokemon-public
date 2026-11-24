@@ -752,7 +752,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
     - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
-    - Glalie Lv 50 active at ~50% HP! SAGE dealt 2 hits of Bullet Seed, fainted to Ice Beam. Sacrificial Revive Protocol active with COBALU.
+    - Glalie Lv 50 active at ~50% HP! SAGE dealt 2 hits of Bullet Seed, fainted to Ice Beam. Sacrificial Revive Protocol executed cleanly with COBALU (Turn 26199): SAGE restored to 120/240 HP! COBALU absorbed hit and fainted.
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.
 
@@ -5436,13 +5436,13 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 0/240 (FNT). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: FNT (Sacrificial Revive Protocol active).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240 (Revived!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK.
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26179).
 
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26199).
 
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
 
@@ -5460,13 +5460,13 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x1 (1 used Turn 26138, 1 used Turn 26179; 1 remaining)
+- Revive x0 (1 used Turn 26138, 1 used Turn 26179, 1 used Turn 26199; 0 remaining)
 
 - Hyper Potion x0
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe; 1 Revive in Bag)
+- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe; 0 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
