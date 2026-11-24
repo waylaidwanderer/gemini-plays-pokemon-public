@@ -422,27 +422,25 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 ## Elite Four Attempt 9 (Active)
-- Status: Room 2 Phoebe ACTIVE! SAGE Level 80 (122/240 HP, Spe 236). In Bag: 3 Revives, 3 Full Heals, ¥5,467 cash.
-- Moves: Bullet Seed (22/30 PP), Aerial Ace (9/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
+- Status: Room 3 Glacia ACTIVE (Turn 26191)! SAGE Level 80 (36/240 HP, Overgrow ACTIVE!). In Bag: 1 Revive, 3 Full Heals, ¥10,567 cash.
+- Moves: Bullet Seed (3/30 PP), Aerial Ace (0/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900.
-    - Mightyena Lv 46: Sidney burned Full Restore #1; defeated by Bullet Seed.
+    - Mightyena Lv 46: Defeated by Bullet Seed.
     - Absol Lv 49: Defeated by Aerial Ace.
-    - Shiftry Lv 48: Double Team ignored; defeated by Aerial Ace.
-    - Cacturne Lv 46: Sidney burned Full Restore #2; defeated by Aerial Ace. SAGE grew to Level 80!
+    - Shiftry Lv 48: Defeated by Aerial Ace.
+    - Cacturne Lv 46: Defeated by Aerial Ace. SAGE grew to Level 80!
     - Crawdaunt Lv 48: Defeated by Bullet Seed.
-  - Room 2 Phoebe: ACTIVE!
-    - Dusclops Lv 48 (#1): DEFEATED on Turn 26130! Protect bypassed, finished with Bullet Seed. SAGE took 0 damage!
-    - Dusclops Lv 51 (#2): DEFEATED on Turn 26148! Phoebe burned Full Restore; defeated by Overgrow Bullet Seed.
-    - Banette Lv 49 (#1): DEFEATED on Turn 26152! Aerial Ace sacrificed to absorb Grudge, protecting Bullet Seed PP.
-    - Sableye Lv 50 (#4): DEFEATED on Turn 26156 by Overgrow Bullet Seed!
-    - Banette Lv 49 (#2): DEFEATED on Turn 26157 by Overgrow Bullet Seed!
-    - Room 2 Phoebe DEFEATED on Turn 26161! Earned ¥5,100 prize money (Total cash: ¥10,567).
-  - Room 3 Glacia: Preparing to enter! Strategy: Bullet Seed 2x OHKO on Sealeos & Walrein (Sheer Cold 0% acc vs Lv 80 Sage); Facade on Glalies.
-    - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
-
-## Sacrificial Revive Protocol Verification (Reflection Turn 26143)
-- In-Battle Targeting: Cursor starts on the active battler (left box); pressing Right moves cursor to Row 1 of right column (fainted ace SAGE).
-- Turn-Start Priority (+6): Revive executes immediately at turn start before the opponent moves, restoring SAGE to 50% HP (120/240 HP).
-- Anchor Sacrifice: Reserve Pokémon (Lilz) absorbs the opponent's attack and faints, allowing SAGE to re-enter safely.
-- Current Status: SAGE Lv 80 (92/240 HP) actively on field against Dusclops #2 (<5% HP). 2 Revives remaining in Bag.
+  - Room 2 Phoebe: DEFEATED on Turn 26161! Earned ¥5,100 prize money (Total cash: ¥10,567).
+    - Dusclops Lv 48 (#1): Defeated by Bullet Seed.
+    - Dusclops Lv 51 (#2): Defeated by Overgrow Bullet Seed.
+    - Banette Lv 49 (#1): Defeated by Aerial Ace (absorbed Grudge).
+    - Sableye Lv 50 (#4): Defeated by Overgrow Bullet Seed.
+    - Banette Lv 49 (#2): Defeated by Overgrow Bullet Seed.
+  - Room 3 Glacia: ACTIVE (Turn 26167)!
+    - Sealeo Lv 50 (#1): DEFEATED on Turn 26182 by Bullet Seed!
+    - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
+    - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
+    - Walrein Lv 53 (Ace): Active on field at ~22% HP! SAGE took Ice Beam (84 dmg), dropped to 36/240 HP, activating Overgrow!
+    - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
+    - 1 Revive remaining in Bag.
