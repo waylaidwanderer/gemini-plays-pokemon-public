@@ -524,7 +524,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: Launching Attempt 9 championship sweep!
 - Party: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pok�mon 100% restored.
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
-- Supplies: 2 Revives, 1 Hyper Potion, 3 Full Heals, �867 cash.
+- Supplies: 3 Revives, 0 Hyper Potions, 3 Full Heals, �567 cash.
 - Plan: Pass central gate at (9, 1). Sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 <hr>
@@ -5211,10 +5211,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x2 (purchased Turn 26095)
-- Hyper Potion x1 (purchased Turn 26095)
+- Revive x3 (purchased Turn 26096)
+- Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: �867 (after purchasing 2 Revives & 1 Hyper Potion)
+- Money: �567 (after purchasing 3 Revives for �4,500)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

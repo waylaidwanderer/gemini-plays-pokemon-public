@@ -214,5 +214,5 @@ The ultimate destination for PokÃ©mon Trainers in the Hoenn region, located atop
 - Status: Launching Attempt 9 championship sweep!
 - Party: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pokémon 100% restored.
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
-- Supplies: 2 Revives, 1 Hyper Potion, 3 Full Heals, ¥867 cash.
+- Supplies: 3 Revives, 0 Hyper Potions, 3 Full Heals, ¥567 cash.
 - Plan: Pass central gate at (9, 1). Sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!

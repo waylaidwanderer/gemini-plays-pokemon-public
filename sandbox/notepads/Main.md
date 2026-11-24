@@ -18,10 +18,10 @@
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x2 (purchased Turn 26095)
-- Hyper Potion x1 (purchased Turn 26095)
+- Revive x3 (purchased Turn 26096)
+- Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: •867 (after purchasing 2 Revives & 1 Hyper Potion)
+- Money: •567 (after purchasing 3 Revives for •4,500)
 - Key Items: Magma Emblem, Pok√©block Case, Go-Goggles, Pok√©dex, Running Shoes, Wailmer Pail, Pok√©Nav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pok√©mon League (Active)
