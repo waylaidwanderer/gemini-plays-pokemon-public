@@ -5191,54 +5191,99 @@ A large meteorological research institute located in northern Route 119 beside t
 
 <h1><code>Main</code></h1>
 
-# Main Notepad
-
-## Game: Pokémon Emerald Version
-- Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 56, Male), Nickname: SAGE
+# Main Notepad
+
+
+
+## Game: Pokémon Emerald Version
+
+- Protagonist: Female (May), Name: JADE
+
+- Starter: Sceptile (Level 56, Male), Nickname: SAGE
+
 - Status: Attempt 9 Room 1 vs Sidney ACTIVE! SAGE Level 79 (237/237 HP, full PP). 3 Revives in Bag.
-
-## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 237/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 79!).
-2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
-3. CIPHER (Kadabra â, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
-4. COBALU (Aron â, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
-5. MOCHI (Wynaut â, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
-6. GUAVA (Tropius â, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
-
-## Bag Highlights
-- Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
-- Quick Claw: In Bag (swapped from Sage on turn 2735)
-- Macho Brace (received from Victoria Winstrate)
-- Full Heal x3 (1 purchased Turn 25634)
-- Revive x3 (purchased Turn 26096)
-- Hyper Potion x0
-- Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
+
+
+## Party (100% Restored Upon Whiteout)
+
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 122/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (27/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
+
+2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+
+3. CIPHER (Kadabra â, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
+
+4. COBALU (Aron â, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Max HP: 49. Status: OK (100% Restored!).
+
+5. MOCHI (Wynaut â, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
+
+6. GUAVA (Tropius â, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
+
+
+
+## Bag Highlights
+
+- Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
+
+- Quick Claw: In Bag (swapped from Sage on turn 2735)
+
+- Macho Brace (received from Victoria Winstrate)
+
+- Full Heal x3 (1 purchased Turn 25634)
+
+- Revive x3 (purchased Turn 26096)
+
+- Hyper Potion x0
+
+- Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
+
 - Money: ¥567 (after purchasing 3 Revives for ¥4,500)
-- Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
-
-## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
-1. [x] Exit Sootopolis Gym into Sootopolis City (Turn 19018)!
-2. [x] Scale Ever Grande City waterfall using HM07 Waterfall (Turn 19412)!
-3. [x] Traverse Victory Road (COMPLETED Turn 23825)!
-4. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
-5. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 8, Turn 26058)!
+- Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
+
+
+
+## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
+
+1. [x] Exit Sootopolis Gym into Sootopolis City (Turn 19018)!
+
+2. [x] Scale Ever Grande City waterfall using HM07 Waterfall (Turn 19412)!
+
+3. [x] Traverse Victory Road (COMPLETED Turn 23825)!
+
+4. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
+
+5. [ ] Challenge the Elite Four:
+
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 8, Turn 26058)!
+
     - [ ] Elite Four Member #2 Phoebe
-    - [ ] Elite Four Member #3 Glacia
-    - [ ] Elite Four Member #4 Drake
-    - [ ] Champion Wallace
-
-## Engine / Harness Mechanics Verified
-- In-Battle Party Targeting Shift Mechanic: On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box. When Cipher or Lilz was active, SAGE was in Row 2 of the right column.
-- Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 79 HP for Sage's 237 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks!
-- OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 79!).
-- In-Battle Bag Item Usage Workflow: Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] -> 3. Party targeting screen loads -> press A to confirm target Pokémon.
-- Move Menu Clamping for Slot 1 (Bullet Seed): Pressing Up then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 1 (top-left, Bullet Seed).
-- Move Menu Clamping for Slot 2 (Aerial Ace): Pressing Up then Right on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 2 (top-right, Aerial Ace).
-- Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
-- Move Menu Clamping Guarantee: On the 2x2 move selection screen, pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack).
-- In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
+    - [ ] Elite Four Member #3 Glacia
+
+    - [ ] Elite Four Member #4 Drake
+
+    - [ ] Champion Wallace
+
+
+
+## Engine / Harness Mechanics Verified
+
+- In-Battle Party Targeting Shift Mechanic: On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box. When Cipher or Lilz was active, SAGE was in Row 2 of the right column.
+
+- Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 79 HP for Sage's 237 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks!
+
+- OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 79!).
+
+- In-Battle Bag Item Usage Workflow: Using medicine from battle Bag requires THREE consecutive A presses: 1. Press A on item in Bag -> 2. Press A on pop-up [USE / CANCEL] -> 3. Party targeting screen loads -> press A to confirm target Pokémon.
+
+- Move Menu Clamping for Slot 1 (Bullet Seed): Pressing Up then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 1 (top-left, Bullet Seed).
+
+- Move Menu Clamping for Slot 2 (Aerial Ace): Pressing Up then Right on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 2 (top-right, Aerial Ace).
+
+- Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
+
+- Move Menu Clamping Guarantee: On the 2x2 move selection screen, pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack).
+
+- In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
+
 - Phoebe Team Order & Abilities in Emerald: #1 Dusclops Lv 48 (Pressure), #2 Dusclops Lv 51 (Pressure), #3 Banette Lv 49 (Insomnia), #4 Sableye Lv 50 (Keen Eye), #5 Banette Lv 49 (Insomnia). Normal-type moves (Facade, Quick Attack) have 0 effect against Ghost types!
 
 <hr>
