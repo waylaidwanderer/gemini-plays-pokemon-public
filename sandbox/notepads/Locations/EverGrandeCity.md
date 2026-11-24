@@ -441,6 +441,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sealeo Lv 50 (#1): DEFEATED on Turn 26182 by Bullet Seed!
     - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
-    - Walrein Lv 53 (Ace): Active on field at ~22% HP! SAGE took Ice Beam (84 dmg), dropped to 36/240 HP, activating Overgrow!
+    - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
+    - Glalie Lv 50 entering field next! Glacia has only 2 Pokémon remaining!
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.

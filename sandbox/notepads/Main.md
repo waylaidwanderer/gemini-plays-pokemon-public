@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26191)! Cash: ¥10,567. SAGE Level 80 (36/240 HP, Overgrow ACTIVE!). 1 Revive in Bag. Walrein in red HP!
+- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26193)! Cash: ¥10,567. SAGE Level 80 (36/240 HP, Overgrow ACTIVE!). 1 Revive in Bag. Walrein DEFEATED! Glalie entering!
 
 
 ## Party (100% Restored Upon Whiteout)
