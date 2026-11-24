@@ -12,7 +12,7 @@
 - **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
 - **Route 103:** `Skitty ♀` (**"Velvet"**, Modest, `Cute Charm`, held **`Moon Stone`**, `Lv 4 Assist + Attract + Sing`) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1323`)
 - **Route 102:** `Meowth ♀` (**"Fortuna"**, Naughty, `Limber`, `Lv 6 Pay Day + Faint Attack`) — Caught at `Lv 6` (`Turn 1331`); **DECEASED Turn 1377** at `Lv 11` vs Fisherman Darian's Feebas [stored `BOX 14` Turn 1399]
-- **Route 104:** `Cubone ♀` (**"Athena"**, Lax, `Rock Head`, `Lv 7 Bone Club + Rock Throw`) — Caught at `Lv 7` in `(25, 59)` tall grass (`Turn 1356–1360`); **DECEASED Turn 1662** at `Lv 15` to Rustboro Gym School Kid Josh's `#1 Lv 15 Geodude` `Selfdestruct` [pending `BOX 14` deposit]
+- **Route 104:** `Cubone ♀` (**"Athena"**, Lax, `Rock Head`, `Lv 7 Bone Club + Rock Throw`) — Caught at `Lv 7` in `(25, 59)` tall grass (`Turn 1356–1360`); **DECEASED Turn 1662** at `Lv 15` to Rustboro Gym School Kid Josh's `#1 Lv 15 Geodude` `Selfdestruct` [stored `BOX 14` Turn 1688]
 - **Petalburg Woods:** `Teddiursa ♂` (**"Beowulf"**, Relaxed, `Guts`, held `NONE`, `Lv 8: 27 HP / 19 Atk / 14 Def / 14 SpA / 14 SpD / 9 Spe`, `Scratch + Lick + Faint Attack`) — Caught at `Lv 8` in `(21, 35)` tall grass (`Turn 1423–1430`)
 - **Route 116:** `Chimecho ♂` (`Lv 9`, `Levitate`, `Wish + Psybeam + Thunder Wave`) — **FORFEITED Turn 1628** at `(6, 14)` tall grass (fled via `21-Spe` `Velvet` after breaking out of 13 Balls [`1 Great Ball + 12 Poké Balls`] at ~38% HP to preserve all 5 party members with zero casualties)
 
