@@ -13,7 +13,7 @@
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 36/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 36/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
