@@ -8,12 +8,12 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 & #2 DEFEATED (Turn 26148). SAGE Level 80 (62/240 HP, Overgrow active!). 2 Revives in Bag.
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 & #2, Banette #1 DEFEATED (3/5). Aerial Ace absorbed Grudge; Bullet Seed (11 PP) fully protected. SAGE at 62 HP (Overgrow active!). 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 92/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (18/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 62/240 (Overgrow active!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (11/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
