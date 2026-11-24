@@ -37,7 +37,7 @@
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x2 (1 used on SAGE Turn 26138; 2 remaining)
+- Revive x1 (1 used Turn 26138, 1 used Turn 26179; 1 remaining)
 
 - Hyper Potion x0
 
