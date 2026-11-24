@@ -1,7 +1,7 @@
 # Nuzlocke Dashboard — Attempt #3
 
 ## Run Status
-- **Attempt:** #3 (`Deaths: 1` — `Fortuna` Lv 11 Meowth died Turn 1377 to Darian's Feebas `Water Pulse` confusion + 2 self-hits [stored `BOX 14` Turn 1399]; **Rule: strictly 1 turn per call vs any Confusion move or berryless Pokémon!**)
+- **Attempt:** #3 (`Deaths: 2` — `Fortuna` Lv 11 Meowth died Turn 1377 to Darian's Feebas `Water Pulse` confusion + 2 self-hits [stored `BOX 14` Turn 1399]; `Athena` Lv 15 Cubone died Turn 1662 to Rustboro Gym School Kid Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct` [deposit to `BOX 14` immediately post-battle!])
 - **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died Turn 380 to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died Turn 705 to `Dustox` `Toxic + Confusion` self-hits with `Girasol` 5 EXP from `Lv 17`).
 - **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`). Cleared Red, Magma Grunt, Western/Central Route 116, Youngster Joey, Clark, & Janice, and discovered `Oddish` evolves early into **`Lv 16 Gloom` (`+ Magical Leaf`)**, before wiping to Jose's 4-evolved-Bug (`Dustox, Beedrill, Beautifly, Butterfree`) Grass-coverage gauntlet while constrained by the `Lv 16` cap.
 - **TWO GOLDEN RULES FOR ATTEMPT #3:**
