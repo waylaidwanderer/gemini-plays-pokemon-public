@@ -5526,4 +5526,11 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Sheer Cold Gen 3 Level Immunity: In Gen 3, OHKO moves like Sheer Cold automatically fail (0% accuracy) if User Level < Target Level. SAGE Lv 80 is completely immune to Walrein Lv 53's Sheer Cold.
 
+- Light Screen Physical Bypass: Light Screen only mitigates Special damage; physical moves like Facade and Quick Attack deal 100% full unmitigated damage.
+
+- Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
+
+- In-Battle Party Targeting Grid (Cobalu Active): When Cobalu (Slot 4) is active in the left box, SAGE is in Row 3 of the right column (reached via Right, Down, Down).
+
+
 <hr>
