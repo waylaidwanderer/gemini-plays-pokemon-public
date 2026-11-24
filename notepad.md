@@ -519,13 +519,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Glacia: Sealeo #1 & #2 (Bullet Seed 2x OHKO), Walrein (Bullet Seed 2x; Sheer Cold 100% fails against Lv 79 Sage), Glalie #1 & #2 (Facade high physical damage).
 - Drake: Kingdra (Facade neutral physical), Shelgon/Flygon/Altaria/Salamence (Aerial Ace / Facade / Quick Attack priority).
 - Wallace: Wailord (Bullet Seed 2x OHKO), Whiscash (Bullet Seed 4x OHKO), Ludicolo (Aerial Ace 2x super effective), Tentacruel & Gyarados (Facade / Bullet Seed), Milotic (Bullet Seed 2x).
-## Attempt 8 Progress & Sidney Mechanics (Reflection Turn 26056)
-- Mightyena Lv 46: Uses Sand-Attack (-1 accuracy). Defeated by Bullet Seed!
-- Absol Lv 49: Has Pressure (2 PP/move) and Swords Dance. Defeated by Aerial Ace!
-- Shiftry Lv 48: Uses Double Team. Defeated by Aerial Ace (completely ignores Double Team and Sand-Attack!).
-- Cacturne Lv 46: Sidney burns his 1 Full Restore on Cacturne when in red HP.
-- SAGE HP: 40/237 HP activates Overgrow (<= 79 HP threshold), boosting Grass moves by 1.5x.
-- Crawdaunt Strategy: SAGE (233 Speed) outspeeds Crawdaunt (~70 Speed). Overgrow-boosted Bullet Seed (4.5x total multiplier) guarantees OHKO against Crawdaunt's 55 SpD.
 
 <hr>
 
@@ -5223,8 +5216,8 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 4. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 5. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 8, Turn 26058)!
+    - [ ] Elite Four Member #2 Phoebe (Attempt 8 active; Dusclops #1 defeated Turn 26070)
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace

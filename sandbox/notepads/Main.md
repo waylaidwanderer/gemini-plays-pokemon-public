@@ -30,8 +30,8 @@
 3. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 4. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 5. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 7, Turn 25928)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 7, Turn 25968)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 8, Turn 26058)!
+    - [ ] Elite Four Member #2 Phoebe (Attempt 8 active; Dusclops #1 defeated Turn 26070)
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
