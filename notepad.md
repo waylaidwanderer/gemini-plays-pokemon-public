@@ -5426,7 +5426,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 122/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (22/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 62/240 (Overgrow active!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (20/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 
