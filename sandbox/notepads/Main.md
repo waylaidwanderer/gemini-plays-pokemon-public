@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 3 Glacia DEFEATED (Turn 26207)! Cash: ¥15,867. SAGE Level 80 (~105/240 HP). 0 Revives in Bag. Advancing to Room 4 (Drake)!
+- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26212)! Cash: ¥15,867. SAGE Level 80 (105/240 HP). 0 Revives in Bag. Challenging Drake!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -65,7 +65,7 @@
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26161)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 9, Turn 26207)!
 
-    - [ ] Elite Four Member #4 Drake
+    - [ ] Elite Four Member #4 Drake (Challenging now!)
 
     - [ ] Champion Wallace
 
