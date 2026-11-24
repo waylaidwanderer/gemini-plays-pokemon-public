@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 DEFEATED; Dusclops #2 at <5% HP. SAGE Level 80 (92/240 HP). 2 Revives in Bag.
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 & #2 DEFEATED (Turn 26148). SAGE Level 80 (62/240 HP, Overgrow active!). 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)

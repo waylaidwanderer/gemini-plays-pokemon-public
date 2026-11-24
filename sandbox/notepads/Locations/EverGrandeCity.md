@@ -433,7 +433,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Crawdaunt Lv 48: Defeated by Bullet Seed.
   - Room 2 Phoebe: ACTIVE!
     - Dusclops Lv 48 (#1): DEFEATED on Turn 26130! Protect bypassed, finished with Bullet Seed. SAGE took 0 damage!
-    - Banette #1, Sableye, Banette #2, Dusclops #2 remaining.
+    - Dusclops Lv 51 (#2): DEFEATED on Turn 26148! Phoebe burned Full Restore; defeated by Overgrow Bullet Seed.
+    - Banette #1, Sableye, Banette #2 remaining (3/5).
     - Strategy: Aerial Ace (100% OHKO) on Banette #1, Sableye, Banette #2; Bullet Seed on Dusclops #2.
     - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
 

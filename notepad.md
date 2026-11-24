@@ -743,7 +743,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Crawdaunt Lv 48: Defeated by Bullet Seed.
   - Room 2 Phoebe: ACTIVE!
     - Dusclops Lv 48 (#1): DEFEATED on Turn 26130! Protect bypassed, finished with Bullet Seed. SAGE took 0 damage!
-    - Banette #1, Sableye, Banette #2, Dusclops #2 remaining.
+    - Dusclops Lv 51 (#2): DEFEATED on Turn 26148! Phoebe burned Full Restore; defeated by Overgrow Bullet Seed.
+    - Banette #1, Sableye, Banette #2 remaining (3/5).
     - Strategy: Aerial Ace (100% OHKO) on Banette #1, Sableye, Banette #2; Bullet Seed on Dusclops #2.
     - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
 
@@ -5427,7 +5428,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 DEFEATED; Dusclops #2 at <5% HP. SAGE Level 80 (92/240 HP). 2 Revives in Bag.
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 & #2 DEFEATED (Turn 26148). SAGE Level 80 (62/240 HP, Overgrow active!). 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
