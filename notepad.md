@@ -753,7 +753,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
     - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
     - Glalie Lv 50 active at ~50% HP! SAGE restored to 120/240 HP via Sacrificial Revive. COBALU absorbed Ice Beam, giving SAGE 100% free switch-in at 120 HP. Glalie Lv 50 (#1): Glacia burned 1 Full Restore on Turn 26203, but SAGE's Facade DEFEATED it on Turn 26204! SAGE at 120/240 HP.
-    - Glalie Lv 52 (#5, Final Pokémon): Active on field! SAGE attacking with Facade.
+    - Glalie Lv 52 (#5, Final Pokémon): DEFEATED on Turn 26207 by Facade!
+    - Room 3 Glacia DEFEATED! Prize: ¥5,300 earned (Total cash: ¥15,867). Doorway to Room 4 (Drake) unlocked!
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.
 
@@ -5432,12 +5433,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26205)! Cash: ¥10,567. SAGE Level 80 (120/240 HP). 0 Revives in Bag. 4/5 Pokémon defeated! Final Glalie Lv 52 entering!
+- Status: Attempt 9 Room 3 Glacia DEFEATED (Turn 26207)! Cash: ¥15,867. SAGE Level 80 (~105/240 HP). 0 Revives in Bag. Advancing to Room 4 (Drake)!
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240 (Revived!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (17/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240 (Revived!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (16/20), Quick Attack (30/30). Status: OK.
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
@@ -5467,7 +5468,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe; 0 Revives in Bag)
+- Money: ¥15,867 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe, ¥5,300 from Glacia; 0 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -5487,7 +5488,7 @@ A large meteorological research institute located in northern Route 119 beside t
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 9, Turn 26121)!
 
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26161)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 9, Turn 26207)!
 
     - [ ] Elite Four Member #4 Drake
 
