@@ -520,6 +520,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Drake: Kingdra (Facade neutral physical), Shelgon/Flygon/Altaria/Salamence (Aerial Ace / Facade / Quick Attack priority).
 - Wallace: Wailord (Bullet Seed 2x OHKO), Whiscash (Bullet Seed 4x OHKO), Ludicolo (Aerial Ace 2x super effective), Tentacruel & Gyarados (Facade / Bullet Seed), Milotic (Bullet Seed 2x).
 
+## Elite Four Attempt 9 (Active)
+- Status: Launching Attempt 9 championship sweep!
+- Party: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pok�mon 100% restored.
+- Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
+- Supplies: 2 Revives, 1 Hyper Potion, 3 Full Heals, �867 cash.
+- Plan: Pass central gate at (9, 1). Sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+
 <hr>
 
 <h1><code>Locations/FallarborTown</code></h1>
@@ -5204,10 +5211,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Quick Claw: In Bag (swapped from Sage on turn 2735)
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x0 (4 used in Attempt 7 on SAGE; 0 remaining)
-- Hyper Potion x0 (1 purchased Turn 25895 used Turn 25937 on Grand Staircase 2 on SAGE; 0 remaining)
+- Revive x2 (purchased Turn 26095)
+- Hyper Potion x1 (purchased Turn 26095)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: �5,891 (collected �4,900 from Sidney on Turn 26058)
+- Money: �867 (after purchasing 2 Revives & 1 Hyper Potion)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
