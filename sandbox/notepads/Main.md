@@ -21,7 +21,7 @@
 - Revive x0 (4 used in Attempt 7 on SAGE; 0 remaining)
 - Hyper Potion x0 (1 purchased Turn 25895 used Turn 25937 on Grand Staircase 2 on SAGE; 0 remaining)
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥991 (after whiteout penalty from ¥10,471)
+- Money: �5,891 (collected �4,900 from Sidney on Turn 26058)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
