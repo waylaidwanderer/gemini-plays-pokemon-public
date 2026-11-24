@@ -435,7 +435,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 48 (#1): DEFEATED on Turn 26130! Protect bypassed, finished with Bullet Seed. SAGE took 0 damage!
     - Dusclops Lv 51 (#2): DEFEATED on Turn 26148! Phoebe burned Full Restore; defeated by Overgrow Bullet Seed.
     - Banette Lv 49 (#1): DEFEATED on Turn 26152! Aerial Ace sacrificed to absorb Grudge, protecting Bullet Seed PP.
-    - Sableye (#4) and Banette #2 (#5) remaining (2/5).
+    - Sableye Lv 50 (#4): DEFEATED on Turn 26156 by Overgrow Bullet Seed!
+    - Banette Lv 49 (#2): DEFEATED on Turn 26157 by Overgrow Bullet Seed!
+    - Room 2 Phoebe DEFEATED! Earned ¥5,100 prize money (Total cash: ¥10,567).
+  - Room 3 Glacia: Preparing to enter! Strategy: Bullet Seed 2x OHKO on Sealeos & Walrein (Sheer Cold 0% acc vs Lv 80 Sage); Facade on Glalies.
     - Strategy: Aerial Ace (100% OHKO) on Banette #1, Sableye, Banette #2; Bullet Seed on Dusclops #2.
     - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
 

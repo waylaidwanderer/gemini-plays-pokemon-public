@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 & #2, Banette #1 DEFEATED (3/5). Aerial Ace absorbed Grudge; Bullet Seed (11 PP) fully protected. SAGE at 62 HP (Overgrow active!). 2 Revives in Bag.
+- Status: Attempt 9 Room 2 Phoebe CONQUERED! Cash: ¥10,567. SAGE Level 80. 2 Revives in Bag. Advancing to Room 3 (Glacia)!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -43,7 +43,7 @@
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥5,467 (earned ¥4,900 from Sidney; 3 Revives in Bag)
+- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -62,7 +62,7 @@
 
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 9, Turn 26121)!
 
-    - [ ] Elite Four Member #2 Phoebe
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26157)!
     - [ ] Elite Four Member #3 Glacia
 
     - [ ] Elite Four Member #4 Drake

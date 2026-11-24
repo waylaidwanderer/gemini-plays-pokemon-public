@@ -745,7 +745,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 48 (#1): DEFEATED on Turn 26130! Protect bypassed, finished with Bullet Seed. SAGE took 0 damage!
     - Dusclops Lv 51 (#2): DEFEATED on Turn 26148! Phoebe burned Full Restore; defeated by Overgrow Bullet Seed.
     - Banette Lv 49 (#1): DEFEATED on Turn 26152! Aerial Ace sacrificed to absorb Grudge, protecting Bullet Seed PP.
-    - Sableye (#4) and Banette #2 (#5) remaining (2/5).
+    - Sableye Lv 50 (#4): DEFEATED on Turn 26156 by Overgrow Bullet Seed!
+    - Banette Lv 49 (#2): DEFEATED on Turn 26157 by Overgrow Bullet Seed!
+    - Room 2 Phoebe DEFEATED! Earned ¥5,100 prize money (Total cash: ¥10,567).
+  - Room 3 Glacia: Preparing to enter! Strategy: Bullet Seed 2x OHKO on Sealeos & Walrein (Sheer Cold 0% acc vs Lv 80 Sage); Facade on Glalies.
     - Strategy: Aerial Ace (100% OHKO) on Banette #1, Sableye, Banette #2; Bullet Seed on Dusclops #2.
     - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
 
@@ -5429,7 +5432,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 & #2, Banette #1 DEFEATED (3/5). Aerial Ace absorbed Grudge; Bullet Seed (11 PP) fully protected. SAGE at 62 HP (Overgrow active!). 2 Revives in Bag.
+- Status: Attempt 9 Room 2 Phoebe CONQUERED! Cash: ¥10,567. SAGE Level 80. 2 Revives in Bag. Advancing to Room 3 (Glacia)!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -5464,7 +5467,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥5,467 (earned ¥4,900 from Sidney; 3 Revives in Bag)
+- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -5483,7 +5486,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 9, Turn 26121)!
 
-    - [ ] Elite Four Member #2 Phoebe
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26157)!
     - [ ] Elite Four Member #3 Glacia
 
     - [ ] Elite Four Member #4 Drake
