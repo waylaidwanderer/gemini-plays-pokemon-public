@@ -8,12 +8,12 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! SAGE revived to 120/240 HP via Sacrificial Revive Protocol (2 Revives remaining). Re-entering to finish Dusclops #2!
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 DEFEATED; Dusclops #2 at <5% HP. SAGE Level 80 (92/240 HP). 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (20/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 92/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (18/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 

@@ -436,3 +436,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Banette #1, Sableye, Banette #2, Dusclops #2 remaining.
     - Strategy: Aerial Ace (100% OHKO) on Banette #1, Sableye, Banette #2; Bullet Seed on Dusclops #2.
     - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
+
+## Sacrificial Revive Protocol Verification (Reflection Turn 26143)
+- In-Battle Targeting: Cursor starts on the active battler (left box); pressing Right moves cursor to Row 1 of right column (fainted ace SAGE).
+- Turn-Start Priority (+6): Revive executes immediately at turn start before the opponent moves, restoring SAGE to 50% HP (120/240 HP).
+- Anchor Sacrifice: Reserve Pokémon (Lilz) absorbs the opponent's attack and faints, allowing SAGE to re-enter safely.
+- Current Status: SAGE Lv 80 (92/240 HP) actively on field against Dusclops #2 (<5% HP). 2 Revives remaining in Bag.
