@@ -508,7 +508,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
 
 ## Elite Four Attempt 8 (Active)
-- Status: SAGE Level 79 (237/237 HP, Spe 233). All 6 Pokémon 100% restored upon whiteout reset!
+- Status: Room 1 Sidney DEFEATED (Turn 26058, earned ¥4,900). Room 2 Phoebe active: Dusclops #1 DEFEATED (Turn 26070). SAGE fell to Dusclops #2. Cash: ¥5,891. Reserves active.
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Cash: ¥991 retained.
 - Plan: Re-enter League lobby at (9, 11), pass central gate at (9, 1). Full sweep through Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
