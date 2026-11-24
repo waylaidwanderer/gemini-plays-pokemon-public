@@ -532,7 +532,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-- Elite Four Member #3 Glacia (Ice): ALL 5 POKÃ©MON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
+- Elite Four Member #3 Glacia (Ice): ALL 5 POKéMON DEFEATED (Attempt 6, Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
 
 
 
@@ -564,7 +564,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-- In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKÃ©MON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKÃ©MON.
+- In-Battle Menu D-Pad Routing: The 2x2 in-battle menu is [FIGHT (top-left), BAG (top-right) / POKéMON (bottom-left), RUN (bottom-right)]. When exiting BAG with B, cursor remembers BAG; pressing Down moves directly to RUN. From RUN, pressing Left moves directly to POKéMON.
 
 
 
@@ -668,7 +668,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-  - Room 3 Glacia: ALL 5 POKÃ©MON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
+  - Room 3 Glacia: ALL 5 POKéMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
 
 
 
@@ -714,7 +714,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Cash: ¥991 retained.
 
-- Plan: Re-enter League lobby at (9, 11), pass central gate at (9, 1). Full sweep through Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 
 
@@ -733,8 +732,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 ## Elite Four Attempt 9 (Active)
-- Status: SAGE Level 80 (122/240 HP, Spe 236). In Bag: 3 Revives, 3 Full Heals, ¥5,467 cash.
-- Moves: Bullet Seed (26/30 PP), Aerial Ace (9/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
+- Status: Room 2 Phoebe ACTIVE! SAGE Level 80 (122/240 HP, Spe 236). In Bag: 3 Revives, 3 Full Heals, ¥5,467 cash.
+- Moves: Bullet Seed (22/30 PP), Aerial Ace (9/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 - Battle Progress:
   - Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900.
     - Mightyena Lv 46: Sidney burned Full Restore #1; defeated by Bullet Seed.
@@ -742,8 +741,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shiftry Lv 48: Double Team ignored; defeated by Aerial Ace.
     - Cacturne Lv 46: Sidney burned Full Restore #2; defeated by Aerial Ace. SAGE grew to Level 80!
     - Crawdaunt Lv 48: Defeated by Bullet Seed.
-  - Room 2 Phoebe: Preparing to challenge!
-    - Strategy: Overgrow Bullet Seed on Dusclops; Aerial Ace on Banette #1, Sableye, Banette #2.
+  - Room 2 Phoebe: ACTIVE!
+    - Dusclops Lv 48 (#1): DEFEATED on Turn 26130! Protect bypassed, finished with Bullet Seed. SAGE took 0 damage!
+    - Banette #1, Sableye, Banette #2, Dusclops #2 remaining.
+    - Strategy: Aerial Ace (100% OHKO) on Banette #1, Sableye, Banette #2; Bullet Seed on Dusclops #2.
     - SAGE has 3 Revives in Bag for Sacrificial Revive Protocol.
 
 <hr>
@@ -5420,12 +5421,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 1 Sidney DEFEATED (Turn 26121)! Earned ¥4,900 (Total cash: ¥5,467). SAGE Level 80 (122/240 HP). Advancing to Room 2 (Phoebe)!
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 DEFEATED (Turn 26130). SAGE Level 80 (122/240 HP). 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 122/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (27/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 122/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (22/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
 
 2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 

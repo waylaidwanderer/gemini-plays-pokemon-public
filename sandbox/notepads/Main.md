@@ -8,12 +8,12 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 1 Sidney DEFEATED (Turn 26121)! Earned ¥4,900 (Total cash: ¥5,467). SAGE Level 80 (122/240 HP). Advancing to Room 2 (Phoebe)!
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 DEFEATED (Turn 26130). SAGE Level 80 (122/240 HP). 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 122/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (27/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 122/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (22/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Level 80!).
 
 2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
 
