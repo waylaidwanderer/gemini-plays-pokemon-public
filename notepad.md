@@ -753,7 +753,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
     - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
     - Glalie Lv 50 active at ~50% HP! SAGE restored to 120/240 HP via Sacrificial Revive. COBALU absorbed Ice Beam, giving SAGE 100% free switch-in at 120 HP. Glalie Lv 50 (#1): Glacia burned 1 Full Restore on Turn 26203, but SAGE's Facade DEFEATED it on Turn 26204! SAGE at 120/240 HP.
-    - Glalie Lv 52 (#5, Final Pokémon): Entering field on Turn 26205! Strategy: Facade.
+    - Glalie Lv 52 (#5, Final Pokémon): Active on field! SAGE attacking with Facade.
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.
 
@@ -5437,7 +5437,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240 (Revived!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (18/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240 (Revived!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (17/20), Quick Attack (30/30). Status: OK.
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
