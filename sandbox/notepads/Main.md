@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26201)! Cash: ¥10,567. SAGE Level 80 (120/240 HP). 0 Revives in Bag. SAGE re-entering to sweep Glalies!
+- Status: Attempt 9 Room 3 Glacia ACTIVE (Turn 26205)! Cash: ¥10,567. SAGE Level 80 (120/240 HP). 0 Revives in Bag. 4/5 Pokémon defeated! Final Glalie Lv 52 entering!
 
 
 ## Party (100% Restored Upon Whiteout)
