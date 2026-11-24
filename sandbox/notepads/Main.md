@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 1 vs Sidney ACTIVE! SAGE Level 79 (237/237 HP, full PP). 3 Revives in Bag.
+- Status: Attempt 9 Room 1 Sidney DEFEATED (Turn 26121)! Earned ¥4,900 (Total cash: ¥5,467). SAGE Level 80 (122/240 HP). Advancing to Room 2 (Phoebe)!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -43,7 +43,7 @@
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥567 (after purchasing 3 Revives for ¥4,500)
+- Money: ¥5,467 (earned ¥4,900 from Sidney; 3 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -60,7 +60,7 @@
 
 5. [ ] Challenge the Elite Four:
 
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 8, Turn 26058)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 9, Turn 26121)!
 
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
