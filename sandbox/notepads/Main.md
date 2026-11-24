@@ -96,3 +96,7 @@
 - Grudge PP Absorption Workaround: Banette's Grudge reduces the KO move's PP to 0. Sacrificing a non-essential move (like Aerial Ace) to finish Banette protects vital STAB moves (Bullet Seed) for subsequent chambers.
 
 - Overgrow Activation at Low HP: Overgrow boosts Grass-type moves by 1.5x when HP is <= 1/3 (<= 80/240 HP for SAGE Lv 80). At 14 HP, Overgrow guarantees OHKO Bullet Seed damage against Glacia's Ice/Water Pokémon.
+
+- Glacia Send-Out Order in Emerald: Sealeo Lv 50 (#1), Sealeo Lv 52 (#2), Walrein Lv 53 (#3, Ace), followed by Glalies.
+
+- Sheer Cold Gen 3 Level Immunity: In Gen 3, OHKO moves like Sheer Cold automatically fail (0% accuracy) if User Level < Target Level. SAGE Lv 80 is completely immune to Walrein Lv 53's Sheer Cold.
