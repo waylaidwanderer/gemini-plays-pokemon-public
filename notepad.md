@@ -5421,14 +5421,14 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! Dusclops #1 DEFEATED (Turn 26130). SAGE Level 80 (122/240 HP). 3 Revives in Bag.
+- Status: Attempt 9 Room 2 vs Phoebe ACTIVE! SAGE revived to 120/240 HP via Sacrificial Revive Protocol (2 Revives remaining). Re-entering to finish Dusclops #2!
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 62/240 (Overgrow active!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (20/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 120/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (20/30), Aerial Ace (9/20), Facade (20/20), Quick Attack (30/30). Status: OK (Revived!).
 
-2. LILZ (Lombre â, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Max HP: 85. Status: OK (100% Restored!).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
 3. CIPHER (Kadabra â, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Max HP: 41. Status: OK (100% Restored!).
 
@@ -5450,7 +5450,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x3 (purchased Turn 26096)
+- Revive x2 (1 used on SAGE Turn 26138; 2 remaining)
 
 - Hyper Potion x0
 
