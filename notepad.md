@@ -752,7 +752,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
     - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
-    - Glalie Lv 50 entering field next! Glacia has only 2 Pokémon remaining!
+    - Glalie Lv 50 active at ~50% HP! SAGE dealt 2 hits of Bullet Seed, fainted to Ice Beam. Sacrificial Revive Protocol active with COBALU.
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.
 
@@ -5436,7 +5436,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 36/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 0/240 (FNT). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: FNT (Sacrificial Revive Protocol active).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
