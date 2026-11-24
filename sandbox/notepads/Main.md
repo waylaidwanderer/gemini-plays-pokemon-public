@@ -8,12 +8,12 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 2 Phoebe CONQUERED! Cash: ¥10,567. SAGE Level 80. 2 Revives in Bag. Advancing to Room 3 (Glacia)!
+- Status: Attempt 9 Room 2 Phoebe DEFEATED (Turn 26161)! Cash: ¥10,567. SAGE Level 80 (14/240 HP, Overgrow active!). 2 Revives in Bag. Advancing to Room 3 (Glacia)!
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 14/240 (Overgrow active!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (8/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 14/240 (Overgrow active!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (7/30), Aerial Ace (0/20 - Grudge absorbed), Facade (20/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
@@ -43,7 +43,7 @@
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe)
+- Money: ¥10,567 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe; 2 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -62,7 +62,7 @@
 
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 9, Turn 26121)!
 
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26157)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26161)!
     - [ ] Elite Four Member #3 Glacia
 
     - [ ] Elite Four Member #4 Drake
