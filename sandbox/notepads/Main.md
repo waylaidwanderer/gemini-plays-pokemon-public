@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
-- Status: Attempt 8 ACTIVE! Whiteout reset fully restored SAGE to Level 79 (237/237 HP) with 100% PP on all moves (Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30)! Respawned outside League HQ at (18, 6). Launching Attempt 8 championship sweep!
+- Status: Attempt 8 ACTIVE! Room 1 Sidney DEFEATED (Turn 26058)! Earned ¥4,900 (Total cash: ¥5,891). SAGE Lv 79 (40/237 HP, Overgrow active!). Advancing to Room 2 (Phoebe)!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 79) - Lead! HP: 237/237. Max HP: 237. Atk 177, Def 128, SpA 193, SpD 173, Spe 233. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK (100% Restored, Level 79!).
