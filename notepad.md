@@ -752,7 +752,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
     - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
-    - Glalie Lv 50 active at ~50% HP! SAGE restored to 120/240 HP via Sacrificial Revive. COBALU absorbed Ice Beam, giving SAGE 100% free switch-in at 120 HP. Glalie Lv 50 (#1): DEFEATED on Turn 26202 by Facade! SAGE at 120/240 HP. Glalie Lv 52 (final Pokémon) entering next!
+    - Glalie Lv 50 active at ~50% HP! SAGE restored to 120/240 HP via Sacrificial Revive. COBALU absorbed Ice Beam, giving SAGE 100% free switch-in at 120 HP. Glalie Lv 50 (#1): Glacia burned 1 Full Restore on Turn 26203! SAGE's Facade dealt 87-102 physical damage, dropping Glalie to ~35% HP. SAGE at 120/240 HP.
     - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
     - 1 Revive remaining in Bag.
 
