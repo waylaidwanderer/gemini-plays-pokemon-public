@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26285)! SAGE Level 81 (90/243 HP, 239 Spe). Banette #1 at ~30% HP (Grudge active). SAGE KOing with Aerial Ace to absorb Grudge!
+- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26286)! SAGE Level 81 (90/243 HP, 239 Spe). Banette #1 DEFEATED (Grudge absorbed!). Sableye Lv 50 entering next.
 
 
 ## Party (100% Restored Upon Whiteout)

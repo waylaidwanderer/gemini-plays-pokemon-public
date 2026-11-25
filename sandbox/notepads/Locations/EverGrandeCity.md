@@ -446,5 +446,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 (#2): Pressure active. Took Bullet Seed, KO'd SAGE.
     - Sacrificial Revive #2 (Turn 26277): CIPHER used Revive on SAGE (121/243 HP). CIPHER fainted to Rock Slide, providing free switch-in.
     - Dusclops Lv 51 (#2): DEFEATED on Turn 26281 by Bullet Seed! SAGE at 90/243 HP.
-    - Banette Lv 49 (#3, Grudge user): Hit with Aerial Ace (down to ~30% HP), activated Grudge. SAGE KOing Banette on Turn 26285 with Aerial Ace to absorb Grudge, completely protecting Bullet Seed PP (12/30 PP). SAGE at 90/243 HP.
+    - Banette Lv 49 (#3, Grudge user): DEFEATED on Turn 26285 by Aerial Ace! Grudge absorbed by Aerial Ace (PP dropped to 0). Bullet Seed PP completely protected at 12/30 PP! SAGE at 90/243 HP.
+    - Sableye Lv 50 (#4): Entering field on Turn 26286! Strategy: Bullet Seed (Special Grass STAB). 3 Revives in Bag.
     - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.
