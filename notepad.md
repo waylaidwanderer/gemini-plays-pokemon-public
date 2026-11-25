@@ -5447,7 +5447,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥15,867 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe, ¥5,300 from Glacia; 0 Revives in Bag)
+- Money: ~¥7,933 (retained upon whiteout; heading to Mart counter to purchase 5 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
