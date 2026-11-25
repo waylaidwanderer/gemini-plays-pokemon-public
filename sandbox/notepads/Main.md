@@ -8,11 +8,11 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney DEFEATED (Turn 26256)! Cash: ¥5,333. SAGE Level 81 (125/243 HP). 5 Revives in Bag. Advancing to Room 2 (Phoebe)!
+- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26281)! Cash: ¥5,333. SAGE Level 81 (90/243 HP, 239 Spe). Dusclops #2 in deep red HP. 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 121/243 (Revived!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (14/30), Aerial Ace (14/20), Facade (18/20), Quick Attack (30/30). Status: OK (Active battler, Curse wiped!).
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 90/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (12/30), Aerial Ace (14/20), Facade (18/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -36,7 +36,7 @@
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥5,333 (earned ¥4,900 from Sidney; 5 Revives in Bag)
+- Money: ¥5,333 (earned ¥4,900 from Sidney; 3 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 

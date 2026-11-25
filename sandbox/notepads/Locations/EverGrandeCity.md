@@ -439,6 +439,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26248 by Aerial Ace! SAGE at 125/243 HP. Cacturne Lv 46 (#4): DEFEATED on Turn 26253 by Aerial Ace (OHKO)! SAGE at 125/243 HP.
     - Crawdaunt Lv 48 (#5, Final): DEFEATED on Turn 26256 by Bullet Seed!
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
-  - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): DEFEATED on Turn 26265 by Bullet Seed! SAGE survived at 5/243 HP (Overgrow ACTIVE!).
-    - Dusclops Lv 48 (#1): DEFEATED! SAGE fainted to Curse (Curse wiped!).
-    - Sacrificial Revive Protocol executed cleanly on Turn 26269: LILZ used Revive on SAGE, restoring SAGE to 121/243 HP with 0 Curse! LILZ absorbed Shadow Ball (14 HP remaining, Turn 26270). LILZ fainted to Shadow Ball, successfully providing SAGE a 100% free switch-in at 121/243 HP with 0 Curse! Dusclops Lv 51 (#2): Active on field at 100% HP. SAGE on field at 121/243 HP (0 Curse, 239 Spe). Dusclops Lv 51 (#2): At ~35% HP. SAGE fainted to Dusclops's attack. Sacrificial Revive Protocol executed cleanly on Turn 26277: CIPHER used Revive on SAGE (restored to 121/243 HP with 0 Curse!). Dusclops Lv 51 (#2): At ~35% HP. CIPHER fainted to Rock Slide, providing SAGE a 100% free switch-in at 121/243 HP with 0 Curse! Dusclops Lv 51 (#2): At ~35% HP. SAGE on field at 121/243 HP (0 Curse, 239 Spe). SAGE attacking with Bullet Seed on Turn 26279. Pressure active. 3 Revives in Bag.
+  - Room 2 Phoebe: ACTIVE (Turn 26260)!
+    - Dusclops Lv 48 (#1): Used Curse on SAGE, burned Phoebe's Full Restore #1; DEFEATED on Turn 26265 by Bullet Seed.
+    - SAGE fainted to Curse (Curse completely wiped!).
+    - Sacrificial Revive #1 (Turn 26269): LILZ used Revive on SAGE (121/243 HP). LILZ fainted to Shadow Ball, providing free switch-in.
+    - Dusclops Lv 51 (#2): Pressure active. Took Bullet Seed, KO'd SAGE.
+    - Sacrificial Revive #2 (Turn 26277): CIPHER used Revive on SAGE (121/243 HP). CIPHER fainted to Rock Slide, providing free switch-in.
+    - Dusclops Lv 51 (#2): SAGE hit with critical Bullet Seed on Turn 26280, dropping Dusclops to deep red (~15% HP). SAGE at 90/243 HP.
+    - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.
