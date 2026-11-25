@@ -223,7 +223,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **Starter & Early Encounters (`Zero Deaths!`):** Nickname **`Mudkip`** (**`Riptide`**) in Birch's Lab, candy to `Lv 11` (`Water Gun`), beat Rival #1 on Route 103 `(10, 3)`, get Pokédex + Running Shoes, buy `22x` ¥10 Poké Balls + `2x` Premier Balls in Oldale Mart, and catch **Oldale Town `(14..15, 2)`**, **Route 103 `(15..16, 11)`**, and **Route 102** (plus harvest **`Oran + Pecha Berries x99`** at `(24..25, 2)`!).
+1. **Route 102, Berry Refill & Petalburg City (`Zero Deaths!`):** Level **`Tamamo`** (`Lv 9`) and **`Halcyon`** (`Lv 9–10`) in Oldale Pokémon Center, catch our **Route 102** encounter, harvest **`Oran + Pecha Berries x99`** at `(24..25, 2)` and equip `Oran Berries` across the party, sweep Route 102's 4 trainers (`Calvin`, `Rick`, `Tiana`, `Allen`), complete Wally's tutorial in Petalburg City, and buy `Repels` / `Escape Rope` at Petalburg Mart.
 
 ## Attempt #4 Active Squad
 1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `Tackle / Bubble / Mud Sport / Water Gun`).
