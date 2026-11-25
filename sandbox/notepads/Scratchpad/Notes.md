@@ -13,7 +13,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **Petalburg Woods Final Boss (`Team Magma Grunt` — All 6 Healthy & Un-Statused!):** Stock `3x Parlyz Heal`, `4x Awakening`, and `4x Repel`, re-equip `Minerva`'s `Oran Berry`, return along the zero-grass Route 104 South road into Petalburg Woods `(16, 38)`, spray **`Repel`**, route `(16, 38) -> (14, 33) -> (9, 33) -> (9, 25) -> (26, 25) -> Up` into **`Team Magma Grunt (26, 23)`**, sweep his 5 Pokémon (`0` deaths!), receive the `Great Ball`, and exit north onto **Route 104 North** (`harvesting Cheri Berry x99 at (3, 25)` + `TM09 Bullet Seed` at `(5, 19)`!).
+1. **Petalburg Woods Final Boss (`Team Magma Grunt` — All 6 Healthy & Un-Statused!):** Spray **`Repel`** (`x11` in Bag) at `(26, 61)`, return across Route 104 South into Petalburg Woods `(16, 38)`, route `(16, 38) -> (14, 33) -> (9, 33) -> (9, 25) -> (26, 25) -> Up` into **`Team Magma Grunt (26, 23)`**, sweep his 5 Pokémon (`0` deaths!), receive the `Great Ball`, and exit north onto **Route 104 North** (`harvesting Cheri Berry x99 at (3, 25)` + `TM09 Bullet Seed` at `(5, 19)`!).
 
 ## Attempt #4 Active Squad
 1. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, held `Oran Berry` (`Rawst Berry x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`; `Lv 11: 32 HP / 16 Atk / 11 Def / 20 SpA / 21 SpD / 20 Spe`, `1: Ember / 2: Quick Attack / 3: Roar`).
