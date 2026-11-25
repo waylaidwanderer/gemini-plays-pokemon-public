@@ -16,7 +16,7 @@
 1. **Route 104 North & PKMN Trainer Red (`Cheri Berry x99 Unlocked, All 6 at 100%, Zero Deaths!`):** Grab `TM09 Bullet Seed` at `(5, 19)` (`+ hidden Poké Ball `(3, 9)` & `Potion` `(5, 8)` via `x=2` alley), then follow the zero-grass `y=25` road to sweep `Rich Boy Winston (21, 26)`, `Lass Haley (32, 22)`, `Twins Gina & Mia (27..28, 15)`, and `PKMN Trainer Red (28, 8)` into **Rustboro City**.
 
 ## Attempt #4 Active Squad
-1. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `32/32 HP`, held `Oran Berry` (`Lv 11: 32 HP / 16 Atk / 11 Def / 20 SpA / 21 SpD / 20 Spe`, `1: Ember / 2: Quick Attack / 3: Roar`).
+1. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `21/34 HP`, held `Oran Berry` (`Lv 12: 34 HP / 17 Atk / 12 Def / 22 SpA / 23 SpD / 21 Spe`, `1: Ember / 2: Quick Attack / 3: Roar`).
 2. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group, `33/33 HP`, held `Oran Berry` (`Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `1: Tackle / 2: Bubble / 3: Mud Sport / 4: Water Gun`).
 3. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, `31/31 HP`, held `Oran Berry` (`Lv 11: 31 HP / 9 Atk / 12 Def / 19 SpA / 15 SpD / 26 Spe`, **`1: Wing Attack / 2: Water Gun / 3: Quick Attack`** [`+1` priority `Sturdy`-breaker!]).
 4. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), `39/39 HP`, held `Oran Berry` (`Lv 11: 39 HP / 17 Atk / 15 Def / 14 SpA / 19 SpD / 16 Spe`, `1: Acid / 2: Yawn / 3: Fire Punch`).
