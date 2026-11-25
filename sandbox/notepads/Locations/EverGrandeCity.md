@@ -111,9 +111,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
 
 ## Elite Four Attempt 12 (Active)
-- Status: Purchasing 5 Revives at League Mart counter (16, 4) with ¥7,983 cash.
+- Status: 5 Revives purchased! Cash: ¥483. SAGE Lv 83 ready. Heading to central gate (9, 1) to launch Attempt 12!
 - SAGE (Level 83 Sceptile ♂): 249/249 HP, 244 Speed, 202 SpA, 185 Atk. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30).
-- In Bag: Purchasing 5 Revives (¥7,500), 2 Full Heals, 1 Ultra Ball, 1 Master Ball. Remaining cash: ¥483.
+- In Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball, 1 Master Ball. Remaining cash: ¥483.
 - Party: All 6 Pokémon 100% restored. 5 conscious reserve anchors ready for Sacrificial Revives.
 - Battle Plan:
   - Room 1 Sidney: Facade / Aerial Ace sweep. (Prize: ¥4,900).

@@ -421,9 +421,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
 
 ## Elite Four Attempt 12 (Active)
-- Status: Purchasing 5 Revives at League Mart counter (16, 4) with ¥7,983 cash.
+- Status: 5 Revives purchased! Cash: ¥483. SAGE Lv 83 ready. Heading to central gate (9, 1) to launch Attempt 12!
 - SAGE (Level 83 Sceptile ♂): 249/249 HP, 244 Speed, 202 SpA, 185 Atk. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30).
-- In Bag: Purchasing 5 Revives (¥7,500), 2 Full Heals, 1 Ultra Ball, 1 Master Ball. Remaining cash: ¥483.
+- In Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball, 1 Master Ball. Remaining cash: ¥483.
 - Party: All 6 Pokémon 100% restored. 5 conscious reserve anchors ready for Sacrificial Revives.
 - Battle Plan:
   - Room 1 Sidney: Facade / Aerial Ace sweep. (Prize: ¥4,900).
@@ -5102,7 +5102,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 83, Male), Nickname: SAGE
-- Status: Attempt 12 Preparing! SAGE Lv 83 (249/249 HP, Spe 244). Entire party 100% restored. Cash: ¥7,983. Purchasing 5 Revives at lobby Mart.
+- Status: Attempt 12 Active! 5 Revives purchased (¥7,500). Cash: ¥483. SAGE Lv 83 (249/249 HP, 244 Spe, full PP). Entire party 100% restored. Entering Room 1 to challenge Sidney!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 249/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -5118,10 +5118,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
 - Ultra Ball x1
-- Revive x0 (4 used; 0 remaining)
+- Revive x5 (5 purchased at League Mart for Attempt 12)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥7,983 (halved from ¥15,966 upon whiteout; buying 5 Revives)
+- Money: ¥483 (purchased 5 Revives for ¥7,500)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

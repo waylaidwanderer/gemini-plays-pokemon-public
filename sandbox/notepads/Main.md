@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 83, Male), Nickname: SAGE
-- Status: Attempt 12 Preparing! SAGE Lv 83 (249/249 HP, Spe 244). Entire party 100% restored. Cash: ¥7,983. Purchasing 5 Revives at lobby Mart.
+- Status: Attempt 12 Active! 5 Revives purchased (¥7,500). Cash: ¥483. SAGE Lv 83 (249/249 HP, 244 Spe, full PP). Entire party 100% restored. Entering Room 1 to challenge Sidney!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 249/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -19,10 +19,10 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
 - Ultra Ball x1
-- Revive x0 (4 used; 0 remaining)
+- Revive x5 (5 purchased at League Mart for Attempt 12)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥7,983 (halved from ¥15,966 upon whiteout; buying 5 Revives)
+- Money: ¥483 (purchased 5 Revives for ¥7,500)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
