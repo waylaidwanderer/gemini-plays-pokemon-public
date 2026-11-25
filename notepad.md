@@ -5462,7 +5462,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x2 (1 used Turn 26269, 1 used Turn 26277, 1 used Turn 26320; 2 remaining)
+- Revive x1 (1 used Turn 26269, 1 used Turn 26277, 1 used Turn 26320, 1 used Turn 26335; 1 remaining)
 
 - Hyper Potion x0
 
@@ -5531,6 +5531,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
 
 - In-Battle Party Targeting Grid (Cobalu Active): When Cobalu (Slot 4) is active in the left box, SAGE is in Row 3 of the right column (reached via Right, Down, Down).
+
+- In-Battle Party Targeting Grid (Mochi Active): When Mochi (Slot 5) is active in the left box, SAGE is in Row 4 of the right column (reached via Right, Down, Down, Down).
 
 
 <hr>
