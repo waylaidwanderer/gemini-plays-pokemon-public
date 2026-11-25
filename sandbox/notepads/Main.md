@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26385)! Shelgon Lv 52 DEFEATED! Flygon Lv 53 (#2) active! SAGE Lv 82 (65/246 HP, Overgrow ACTIVE!, Spe 241) launching Facade! 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
+- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26386)! Flygon Lv 53 (#2) down to ~35% HP from Facade! Flygon used Flamethrower. SAGE Lv 82 (65 HP, taking ~48 damage). 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 65/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (4/20), Quick Attack (27/30). Status: OK (Revived!).
