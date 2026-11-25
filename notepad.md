@@ -435,6 +435,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Sand-Attack lowered accuracy, but SAGE selected Aerial Ace (infinite accuracy, never misses!) to finish Mightyena!
     - Mightyena Lv 46 (#1): DEFEATED! SAGE finished Mightyena with Aerial Ace (never misses!). Facing Absol Lv 49 (#2).
     - Absol Lv 49 (#2): Pressure ability. SAGE (244 Speed) strikes first with Aerial Ace (never misses!) for ~75-84 damage!
+    - Absol Lv 49 (#2): DEFEATED! SAGE finished Absol with Aerial Ace (never misses!). Facing Shiftry Lv 48 (#3, 4x weak to Flying)!
 
 
 <hr>
@@ -5109,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 12 Active! 5 Revives purchased (¥7,500). Cash: ¥483. SAGE Lv 83 (249/249 HP, 244 Spe, full PP). Entire party 100% restored. Entering Room 1 to challenge Sidney!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 249/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (30/30), Aerial Ace (17/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 249/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (30/30), Aerial Ace (15/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
