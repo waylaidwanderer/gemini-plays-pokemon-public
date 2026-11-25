@@ -66,4 +66,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Room 2 Phoebe: In progress (Turn 26450).
     - Dusclops Lv 48 (#1): DEFEATED! Phoebe burned Full Restore #1. SAGE finished with Aerial Ace.
-    - Dusclops Lv 51 (#2): In progress. Dusclops Shadow Ball dealt 33 dmg to Lv 82 SAGE (131/246 HP). SAGE's Bullet Seed landed a critical hit, reducing Dusclops to ~15% HP.
+    - Dusclops Lv 51 (#2): DEFEATED! SAGE thawed via Full Heal, Overgrow activated (67/246 HP), Overgrow Bullet Seed critical KO'd Dusclops. Both Pressure users down!
