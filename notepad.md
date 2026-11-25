@@ -413,6 +413,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Flamethrower dealt 63 dmg to SAGE (HP 61/249, Overgrow ACTIVE!). SAGE strikes with physical Facade for ~65 dmg!
       - Second Facade struck Salamence for ~35% damage, dropping Drake's Ace Salamence to ~30% HP!
       - Flamethrower KO'd SAGE. SAGE fainted after dropping Salamence to ~30% HP. Sending in Cobalu Lv 18!
+      - Cobalu Lv 18 entered the field facing Drake's Ace Salamence at ~30% HP! Attacking with Strength.
 
 
 <hr>
@@ -5084,7 +5085,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon, Flygon, & Altaria DEFEATED; facing Ace Salamence Lv 55). SAGE Lv 83 (124/249 HP, full 244 Speed). Drake has 2 Pokémon remaining (Kingdra, Salamence). Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, & Cipher FNT. Cobalu Lv 18 active (49/49 HP). Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (4/20), Quick Attack (26/30). Status: FNT (Fainted vs Salamence).

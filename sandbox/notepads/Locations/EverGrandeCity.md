@@ -103,3 +103,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Flamethrower dealt 63 dmg to SAGE (HP 61/249, Overgrow ACTIVE!). SAGE strikes with physical Facade for ~65 dmg!
       - Second Facade struck Salamence for ~35% damage, dropping Drake's Ace Salamence to ~30% HP!
       - Flamethrower KO'd SAGE. SAGE fainted after dropping Salamence to ~30% HP. Sending in Cobalu Lv 18!
+      - Cobalu Lv 18 entered the field facing Drake's Ace Salamence at ~30% HP! Attacking with Strength.
