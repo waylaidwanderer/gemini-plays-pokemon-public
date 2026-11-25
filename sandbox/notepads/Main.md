@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26254)! SAGE Level 81 (125/243 HP, 239 Spe). 4/5 Pokémon defeated! Final Pokémon Crawdaunt Lv 48 entering!
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26255)! SAGE Level 81 (125/243 HP, 239 Spe). 4/5 Pokémon defeated! Final Pokémon Crawdaunt Lv 48 entering!
 
 
 ## Party (100% Restored Upon Whiteout)

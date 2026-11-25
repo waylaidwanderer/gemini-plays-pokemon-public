@@ -747,7 +747,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
 - Battle Progress:
   - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26248 by Aerial Ace! SAGE at 125/243 HP. Cacturne Lv 46 (#4): DEFEATED on Turn 26253 by Aerial Ace (OHKO)! SAGE at 125/243 HP.
-    - Crawdaunt Lv 48 (#5, Final): Entering field on Turn 26254! Strategy: 2x super-effective STAB Bullet Seed (OHKO).
+    - Crawdaunt Lv 48 (#5, Final): Entering field on Turn 26255! Strategy: 2x super-effective STAB Bullet Seed (OHKO).
 
 
 
@@ -5425,7 +5425,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26254)! SAGE Level 81 (125/243 HP, 239 Spe). 4/5 Pokémon defeated! Final Pokémon Crawdaunt Lv 48 entering!
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26255)! SAGE Level 81 (125/243 HP, 239 Spe). 4/5 Pokémon defeated! Final Pokémon Crawdaunt Lv 48 entering!
 
 
 ## Party (100% Restored Upon Whiteout)
