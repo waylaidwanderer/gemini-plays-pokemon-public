@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 DEFEATED! Sealeo #2 in red. SAGE 27/243 HP (Overgrow ACTIVE!). 2 Revives in Bag.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein (Lv 53, Ace) entering battle. SAGE 27/243 HP (Overgrow ACTIVE!). Bullet Seed 4/30 PP. 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
