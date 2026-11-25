@@ -389,6 +389,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sealeo Lv 52 (#2): DEFEATED! SAGE struck with Overgrow Bullet Seed, KO'ing Sealeo #2! Both Sealeos are DEFEATED!
     - Walrein Lv 53 (#3, Ace): Glacia sent out Walrein! Water/Ice is 2x weak to Grass; Walrein's Sheer Cold has 0% accuracy vs Lv 83 SAGE. SAGE strikes first with Overgrow Bullet Seed!
       - Bullet Seed dealt ~75-80% damage, dropping Walrein Lv 53 to ~20-25% HP!
+      - Walrein used Body Slam, KO'ing SAGE (at 10 HP). SAGE fainted. Initiating Sacrificial Revive Protocol via Lilz Lv 30!
 
 <hr>
 
@@ -5062,7 +5063,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 83 (70/249 HP, Overgrow ACTIVE, Spe 244). Bag: 4 Revives, 2 Full Heals, 1 Ultra Ball, ¥10,666.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 10/249 (Overgrow ACTIVE). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (10/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (10/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: FNT (Sacrificial Revive in progress).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.

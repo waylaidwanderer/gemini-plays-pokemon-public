@@ -79,3 +79,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sealeo Lv 52 (#2): DEFEATED! SAGE struck with Overgrow Bullet Seed, KO'ing Sealeo #2! Both Sealeos are DEFEATED!
     - Walrein Lv 53 (#3, Ace): Glacia sent out Walrein! Water/Ice is 2x weak to Grass; Walrein's Sheer Cold has 0% accuracy vs Lv 83 SAGE. SAGE strikes first with Overgrow Bullet Seed!
       - Bullet Seed dealt ~75-80% damage, dropping Walrein Lv 53 to ~20-25% HP!
+      - Walrein used Body Slam, KO'ing SAGE (at 10 HP). SAGE fainted. Initiating Sacrificial Revive Protocol via Lilz Lv 30!
