@@ -664,7 +664,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Plan: 1. Defeat Sidney. 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26408)! Mightyena Lv 46 (#1) in red (~20% HP) taking Bullet Seed finisher. SAGE Lv 82 (246/246 HP, Spe 241).
+  - Room 1 Sidney: ACTIVE (Turn 26409)! Mightyena Lv 46 (#1) used Double-Edge (taking recoil, deep red). SAGE at ~210/246 HP (Spe 241).
 
 
 <hr>
@@ -5336,10 +5336,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26408)! Room 1 Sidney ACTIVE! Mightyena in red (~20% HP). SAGE Lv 82 (246/246 HP, Spe 241) launching Bullet Seed! 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
+- Status: Attempt 11 Active (Turn 26409)! Room 1 Sidney ACTIVE! Mightyena used Double-Edge (taking recoil). SAGE Lv 82 (~210/246 HP, Spe 241). 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (28/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 210/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (28/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
