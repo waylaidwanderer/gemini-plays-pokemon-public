@@ -68,3 +68,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 48 (#1): DEFEATED! Phoebe burned Full Restore #1. SAGE finished with Aerial Ace.
     - Dusclops Lv 51 (#2): DEFEATED! SAGE thawed via Full Heal, Overgrow activated (67/246 HP), Overgrow Bullet Seed critical KO'd Dusclops. Both Pressure users down!
     - Banette Lv 49 (#1, Grudge user): DEFEATED! SAGE used Aerial Ace, KO'd Banette, intentionally absorbing Grudge on Aerial Ace (0/20 PP) to protect Bullet Seed (18/30 PP). SAGE grew to Level 83 (70/249 HP, Overgrow ACTIVE)!
+    - Sableye Lv 50 (#4): DEFEATED! SAGE used Overgrow-boosted Bullet Seed, KO'd Sableye in one turn! Facing final Pokémon Banette Lv 49 (#2).
