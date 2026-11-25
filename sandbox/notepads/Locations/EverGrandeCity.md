@@ -356,5 +356,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress:
   - Room 1 Sidney: ACTIVE (Turn 26414)!
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Absol Lv 49 (#2): In red (~20% HP). Quick Attack finishing strike executing on Turn 26417.
-    - Shiftry Lv 48 (#3): Up next! 4x weak to Aerial Ace.
+    - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
+    - Shiftry Lv 48 (#3): ACTIVE! Grass/Dark type, 4x weak to Aerial Ace (20/20 PP). SAGE Lv 82 (215/246 HP, Spe 241).
