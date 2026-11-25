@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26282)! Cash: ¥5,333. SAGE Level 81 (90/243 HP, 239 Spe). Dusclops #1 & #2 DEFEATED. Banette #1 entering! Aerial Ace ready for Grudge bait.
+- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26283)! Cash: ¥5,333. SAGE Level 81 (90/243 HP, 239 Spe). Banette #1 entering. Aerial Ace ready for Grudge bait. 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
