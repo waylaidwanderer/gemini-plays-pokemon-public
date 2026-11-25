@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26288)! SAGE Level 81 (90/243 HP, 239 Spe). Sableye on field. SAGE attacking with Bullet Seed. 3 Revives in Bag.
+- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26289)! SAGE Level 81 (Overgrow ACTIVE). Sableye in red HP. SAGE finishing with Bullet Seed! 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
