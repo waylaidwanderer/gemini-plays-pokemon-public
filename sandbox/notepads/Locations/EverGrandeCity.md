@@ -95,3 +95,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Drake burned Full Restore #1 on Shelgon! Quick Attack dealt ~35% dmg (Shelgon ~65% HP). SAGE strikes with Facade!
       - Shelgon Lv 52 (#1): DEFEATED! SAGE finished Shelgon with Quick Attack! Facing Drake's 2nd Pokémon, Flygon Lv 53 (#2)!
     - Flygon Lv 53 (#2): SAGE (162+ Speed) strikes first with physical Facade (Slot 3) to deal ~100 damage!
+      - Facade dealt ~72% damage, dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE. Initiating Sacrificial Revive via Cipher Lv 17!
