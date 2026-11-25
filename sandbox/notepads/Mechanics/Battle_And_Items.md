@@ -44,7 +44,7 @@
 - **Gulpin:** **`Liquid Ooze`**, wild held **`BIG PEARL`** *(Turn 1780)*, starts `Lv 6 Acid (30 PP) + Yawn (10 PP, instant sleep, <100% acc)` -> **`Lv 9 Fire Punch`** -> **`Lv 14 Sludge Bomb` (16 PP)** (`Lv 7–8, 10–13, 15–16` no moves — *Turns 1854–2003*).
 - **Venonat:** **`CompoundEyes`** (`1.3x move accuracy!`), starts **`Lv 7 Foresight (5 PP) + Leech Life (24 PP) + Psybeam (20 PP)`** (`Lv 8–13` no moves — *Turns 1821–2006*).
 - **Hoothoot:** **`Keen Eye`**, `Fast` (`800,000`) EXP group, starts **`Lv 8 Tackle (35 PP) + Peck (35 PP) + Confusion (25 PP)`** -> **`Lv 11 Aerial Ace` (`32 PP`)** (`Lv 9–10, 12–13` no moves — *Turns 1897–2004*).
-- **Yanma:** **`Speed Boost`** (`or CompoundEyes`), `Medium Fast` (`1,000,000`) EXP group, lowered wild catch rate, starts **`Lv 9 Silver Wind (5 PP) + Foresight (5 PP) + Quick Attack (30 PP)`** *(Turn 2096)*.
+- **Yanma:** **`Speed Boost`** (`or CompoundEyes`), `Medium Fast` (`1,000,000`) EXP group, lowered wild catch rate, starts **`Lv 9 Silver Wind (5 PP) + Foresight (5 PP) + Quick Attack (30 PP)`** (`Lv 10–12` no moves) -> **`Lv 13 SonicBoom` (fixed 20 dmg!)** *(Verified Turns 2096, 2101–2102 `#204`)*.
 - **Hoppip (`Zephyr` Attempt #2):** `Chlorophyll`, starts `Lv 4 Confusion` (25 PP) -> **`Lv 5 PoisonPowder + Mega Drain` (both at Lv 5!)** -> **`Lv 10 Gust`** -> **`Lv 13 Secret Power`** (`Lv 14` no move).
 - **Sandshrew (`Gaia` Attempt #2):** `Sand Veil`, starts `Lv 6 Scratch + Poison Sting` -> **`Lv 11 Sand-Attack`** (`Lv 12–14` no moves).
 - **Snubbull (`Freya` Attempt #2):** `Run Away`, Medium Fast EXP group, starts `Lv 7 Tackle + Bite + Lick` -> **`Lv 8 Roar` (5 PP)** -> **`Lv 13 Headbutt`** (`Lv 14–16` no moves, does NOT evolve at Lv 16).
