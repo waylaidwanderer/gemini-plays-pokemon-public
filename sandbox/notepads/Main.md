@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26352)! SAGE fainted to Icy Wind. Sending Guava (Slot 6) for Sacrificial Revive. 1 Revive in Bag. Glalie #1 at ~15% HP (0 Full Restores).
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26356)! SAGE revived to 123/246 HP. Guava absorbing Glalie #1's attack. SAGE ready to sweep Glalie #1 and Glalie #2 for the victory!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 0/246 (FNT). Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (13/20), Quick Attack (29/30). Status: FNT (Sacrificial Revive pending).
@@ -18,7 +18,7 @@
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x1 (1 used Turn 26269, 1 used Turn 26277, 1 used Turn 26320, 1 used Turn 26335; 1 remaining)
+- Revive x0 (all 5 purchased Revives used; 0 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥10,433 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe; 1 Revive in Bag)
@@ -49,3 +49,4 @@
 - Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
 - In-Battle Party Targeting Grid (Cobalu Active): When Cobalu (Slot 4) is active in the left box, SAGE is in Row 3 of the right column (reached via Right, Down, Down).
 - In-Battle Party Targeting Grid (Mochi Active): When Mochi (Slot 5) is active in the left box, SAGE is in Row 4 of the right column (reached via Right, Down, Down, Down).
+- In-Battle Party Targeting Grid (Guava Active): When Guava (Slot 6) is active in the left box, SAGE is in Row 5 of the right column (reached via Right, Down, Down, Down, Down).
