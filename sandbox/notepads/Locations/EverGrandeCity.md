@@ -444,5 +444,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
     - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
   - Room 4 Drake: ACTIVE (Turn 26213)!
-    - Shelgon Lv 52 (#1): Active on field at ~35% HP. Used Protect twice, Rock Tomb dealt 19 dmg to SAGE. SAGE at 46/240 HP (Overgrow ACTIVE!).
+    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE at 40/240 HP (Overgrow ACTIVE!, -2 Spe: 118). Drake's #2 Pokémon entering.
     - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
