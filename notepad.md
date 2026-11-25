@@ -749,7 +749,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26248 by Aerial Ace! SAGE at 125/243 HP. Cacturne Lv 46 (#4): DEFEATED on Turn 26253 by Aerial Ace (OHKO)! SAGE at 125/243 HP.
     - Crawdaunt Lv 48 (#5, Final): DEFEATED on Turn 26256 by Bullet Seed!
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
-  - Room 2 Phoebe: ACTIVE (Turn 26260)!
+  - Room 2 Phoebe: DEFEATED on Turn 26294! Prize: ¥5,100 earned (Total cash: ¥10,433). Doorway to Room 3 unlocked!
     - Dusclops Lv 48 (#1): Used Curse on SAGE, burned Phoebe's Full Restore #1; DEFEATED on Turn 26265 by Bullet Seed.
     - SAGE fainted to Curse (Curse completely wiped!).
     - Sacrificial Revive #1 (Turn 26269): LILZ used Revive on SAGE (121/243 HP). LILZ fainted to Shadow Ball, providing free switch-in.
@@ -5440,11 +5440,11 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe DEFEATED (Turn 26293)! Cash: ¥10,433. SAGE Level 81 (Overgrow ACTIVE). 3 Revives in Bag. Advancing to Room 3 (Glacia)!
+- Status: Attempt 10 Room 2 Phoebe DEFEATED (Turn 26294)! Cash: ¥10,433. SAGE Level 81 (45/243 HP, Overgrow ACTIVE!). 3 Revives in Bag. Advancing to Room 3 (Glacia)!
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 90/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (8/30), Aerial Ace (0/20 - Grudge absorbed), Facade (18/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 45/243 (Overgrow ACTIVE!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (8/30), Aerial Ace (0/20 - Grudge absorbed), Facade (18/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
