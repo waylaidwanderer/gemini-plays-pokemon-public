@@ -754,7 +754,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
     - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
   - Room 4 Drake: ACTIVE (Turn 26213)!
-    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE at 40/240 HP (Overgrow ACTIVE!, -2 Spe: 118). Drake's #2 Pokémon entering.
+    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Drake's #2 Pokémon entering.
     - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
 
 
@@ -5432,12 +5432,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26221)! Cash: ¥15,867. SAGE Level 80 (46/240 HP, Overgrow ACTIVE!). 0 Revives in Bag. Challenging Drake!
+- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26223)! Cash: ¥15,867. SAGE Level 81 (32/243 HP, Overgrow ACTIVE!). 0 Revives in Bag. Shelgon defeated! #2 Pokémon entering.
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 40/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236 (-2 Spe: 118). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (9/20), Quick Attack (29/30). Status: OK (Overgrow active!).
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 32/243 (Overgrow ACTIVE!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (-2 Spe: 119). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (9/20), Quick Attack (29/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
