@@ -754,7 +754,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
     - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
   - Room 4 Drake: ACTIVE (Turn 26213)!
-    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2): Used Flamethrower on Guava. Guava fainted, successfully absorbing Flamethrower and resetting SAGE's Speed to neutral 239! SAGE re-entering to face Flygon.
+    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2): Used Flamethrower on Guava. Guava fainted, successfully absorbing Flamethrower and resetting SAGE's Speed to neutral 239! SAGE re-entered on Turn 26228 at full 239 Speed with Overgrow ACTIVE (32/243 HP)!
     - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
 
 
@@ -5432,12 +5432,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26226)! Cash: ¥15,867. SAGE Level 81 (32/243 HP, Overgrow ACTIVE!, 239 Spe reset). Guava switched in to tank Flygon!
+- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26228)! Cash: ¥15,867. SAGE Level 81 (32/243 HP, Overgrow ACTIVE!). SAGE re-entering at 239 Speed vs Flygon!
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 32/243 (Overgrow ACTIVE!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (Speed reset to neutral 239 on switch-out!). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (9/20), Quick Attack (29/30). Status: OK (Switched to bench).
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 32/243 (Overgrow ACTIVE!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (Speed neutral!). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (9/20), Quick Attack (29/30). Status: OK (Active battler).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
