@@ -124,3 +124,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Mightyena Lv 46 (#1): Intimidate cut SAGE's Attack. SAGE (244 Speed) strikes first with physical Facade for ~75-85 damage!
       - Sand-Attack lowered accuracy, but SAGE selected Aerial Ace (infinite accuracy, never misses!) to finish Mightyena!
     - Mightyena Lv 46 (#1): DEFEATED! SAGE finished Mightyena with Aerial Ace (never misses!). Facing Absol Lv 49 (#2).
+    - Absol Lv 49 (#2): Pressure ability. SAGE (244 Speed) strikes first with Aerial Ace (never misses!) for ~75-84 damage!
