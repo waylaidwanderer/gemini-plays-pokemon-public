@@ -751,7 +751,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
   - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): DEFEATED on Turn 26265 by Bullet Seed! SAGE survived at 5/243 HP (Overgrow ACTIVE!).
     - Dusclops Lv 48 (#1): DEFEATED! SAGE fainted to Curse (Curse wiped!).
-    - Sacrificial Revive Protocol executed cleanly on Turn 26269: LILZ used Revive on SAGE, restoring SAGE to 121/243 HP with 0 Curse! LILZ absorbed Shadow Ball (14 HP remaining, Turn 26270). LILZ fainted to Shadow Ball, successfully providing SAGE a 100% free switch-in at 121/243 HP with 0 Curse! Dusclops Lv 51 (#2): Active on field at 100% HP. SAGE on field at 121/243 HP (0 Curse, 239 Spe). Dusclops Lv 51 (#2): At ~35% HP. SAGE fainted to Dusclops's attack. CIPHER sent out on Turn 26276. Selecting Revive from Bag to restore SAGE to 121/243 HP before Dusclops acts. 4 Revives in Bag.
+    - Sacrificial Revive Protocol executed cleanly on Turn 26269: LILZ used Revive on SAGE, restoring SAGE to 121/243 HP with 0 Curse! LILZ absorbed Shadow Ball (14 HP remaining, Turn 26270). LILZ fainted to Shadow Ball, successfully providing SAGE a 100% free switch-in at 121/243 HP with 0 Curse! Dusclops Lv 51 (#2): Active on field at 100% HP. SAGE on field at 121/243 HP (0 Curse, 239 Spe). Dusclops Lv 51 (#2): At ~35% HP. SAGE fainted to Dusclops's attack. Sacrificial Revive Protocol executed cleanly on Turn 26277: CIPHER used Revive on SAGE (restored to 121/243 HP with 0 Curse!). CIPHER absorbed Dusclops's hit and fainted. SAGE re-entering to finish Dusclops Lv 51 (~35% HP). 3 Revives remaining in Bag.
 
 
 <hr>
@@ -5432,9 +5432,9 @@ A large meteorological research institute located in northern Route 119 beside t
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 0/243 (FNT). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (16/30), Aerial Ace (14/20), Facade (18/20), Quick Attack (30/30). Status: FNT (Sacrificial Revive in progress).
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 121/243 (Revived!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (20/30), Aerial Ace (14/20), Facade (18/20), Quick Attack (30/30). Status: OK (Curse wiped!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
@@ -5450,7 +5450,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x4 (1 used Turn 26269 on SAGE; 4 remaining)
+- Revive x3 (1 used Turn 26269, 1 used Turn 26277; 3 remaining)
 
 - Hyper Potion x0
 
