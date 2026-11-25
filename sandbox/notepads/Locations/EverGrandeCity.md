@@ -74,3 +74,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Room 3 Glacia: In progress (Turn 26473). Facing lead Sealeo Lv 50 with Lv 83 SAGE (70/249 HP, active Overgrow).
     - Sealeo Lv 50 (#1): Took 2 Bullet Seed hits (~85% dmg), used Hail. SAGE at 55/249 HP with Overgrow ACTIVE. Finishing with Bullet Seed!
+    - Glacia burned Full Restore #1 on Sealeo! SAGE countered with Overgrow Bullet Seed, chunking Sealeo back down!
