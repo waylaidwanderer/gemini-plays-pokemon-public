@@ -5440,7 +5440,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein at ~25% HP. SAGE revived to 121/243 HP. Mochi absorbing attack. 1 Revive in Bag.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein at ~20% HP. SAGE revived to 121/243 HP. Sending SAGE back in. 1 Revive in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
