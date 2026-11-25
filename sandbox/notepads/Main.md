@@ -55,3 +55,4 @@
 - Grudge PP Absorption Strategy: When facing an opponent with Grudge (e.g. Phoebe's Banette #1), using an expendable move with low PP (e.g. Aerial Ace) to deliver the KO blow ensures Grudge only wipes the expendable move, completely protecting vital STAB moves (like Bullet Seed) from depletion.
 - Battle Bag Medicine Layout: In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Using Full Heal cures non-volatile status (such as Freeze) instantly on turn start.
 - Level 83 Overgrow Threshold: At Level 83 (max HP 249), Sceptile's Overgrow activates at <= 83 HP (249 / 3 = 83), boosting all Grass-type moves by 1.5x.
+- Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
