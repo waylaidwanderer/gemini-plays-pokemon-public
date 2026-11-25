@@ -441,4 +441,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
   - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): DEFEATED on Turn 26265 by Bullet Seed! SAGE survived at 5/243 HP (Overgrow ACTIVE!).
     - Dusclops Lv 48 (#1): DEFEATED! SAGE fainted to Curse (Curse wiped!).
-    - Sacrificial Revive Protocol executed cleanly on Turn 26269: LILZ used Revive on SAGE, restoring SAGE to 121/243 HP with 0 Curse! LILZ absorbed Shadow Ball (14 HP remaining, Turn 26270). LILZ giving SAGE free switch-in at 121 HP! 4 Revives remaining in Bag.
+    - Sacrificial Revive Protocol executed cleanly on Turn 26269: LILZ used Revive on SAGE, restoring SAGE to 121/243 HP with 0 Curse! LILZ absorbed Shadow Ball (14 HP remaining, Turn 26270). LILZ fainted to Shadow Ball, successfully providing SAGE a 100% free switch-in at 121/243 HP with 0 Curse! SAGE re-entering on Turn 26271 to sweep Dusclops Lv 51. 4 Revives remaining in Bag.
