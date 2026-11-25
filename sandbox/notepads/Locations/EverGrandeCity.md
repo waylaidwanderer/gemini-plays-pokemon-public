@@ -357,5 +357,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: ACTIVE (Turn 26414)!
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
     - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
-    - Shiftry Lv 48 (#3): ACTIVE! Grass/Dark type, 4x weak to Aerial Ace. Aerial Ace OHKO strike executing on Turn 26420!
-    - Cacturne Lv 46 (#4): Up next! 4x weak to Aerial Ace.
+    - Shiftry Lv 48 (#3): DEFEATED on Turn 26421 by 4x Aerial Ace!
+    - Cacturne Lv 46 (#4): ACTIVE! Grass/Dark type, 4x weak to Aerial Ace (19/20 PP). SAGE Lv 82 (215/246 HP, Spe 241).

@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26420)! Room 1 Sidney ACTIVE! Mightyena & Absol DEFEATED! Shiftry Lv 48 (#3) taking 4x Aerial Ace! SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26421)! Room 1 Sidney ACTIVE! Mightyena, Absol, and Shiftry ALL DEFEATED! Sidney sending Cacturne Lv 46 (#4). SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (19/20), Facade (17/20), Quick Attack (28/30). Status: OK.
