@@ -356,4 +356,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress:
   - Room 1 Sidney: ACTIVE (Turn 26414)!
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Absol Lv 49 (#2): Entering battle next! SAGE Lv 82 (215/246 HP, Spe 241).
+    - Absol Lv 49 (#2): ACTIVE! Pure Dark, taking physical Facade from Lv 82 SAGE (215 HP, 241 Spe).
