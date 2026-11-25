@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia DEFEATED (Turn 26364)! Cash: ¥15,733. SAGE Level 82 (108/246 HP). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Advancing to Room 4 (Drake)!
+- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26369)! Challenging Elite Four Drake! SAGE Level 82 (108/246 HP, Spe 241). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Total cash: ¥15,733.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 108/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (11/20), Quick Attack (27/30). Status: OK (Revived!).
@@ -32,7 +32,7 @@
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 10, Turn 26256)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 10, Turn 26293)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 10, Turn 26364)!
-    - [ ] Elite Four Member #4 Drake
+    - [ ] Elite Four Member #4 Drake (ACTIVE Turn 26369)
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified

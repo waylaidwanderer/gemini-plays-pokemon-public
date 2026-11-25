@@ -678,7 +678,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-  - Room 4 Drake: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54 DEFEATED! Salamence Lv 55 active at ~45% HP. Kingdra Lv 53 in reserve. Drake burned 1 Full Restore (1 remaining).
+  - Room 4 Drake: ACTIVE (Turn 26369)!
+    - SAGE Lv 82 (108/246 HP, Spe 241). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Total cash: ¥15,733.
+    - Shelgon Lv 52 (#1): Active! Dragon type, taking physical Facade.
+    - Altaria Lv 54 (#2): Up next!
+    - Flygon Lv 53 (#3): Up next!
+    - Kingdra Lv 53 (#4): Up next!
+    - Salamence Lv 55 (#5, Ace): Drake's Ace!
 
 
 
@@ -5448,7 +5454,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia DEFEATED (Turn 26364)! Cash: ¥15,733. SAGE Level 82 (108/246 HP). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Advancing to Room 4 (Drake)!
+- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26369)! Challenging Elite Four Drake! SAGE Level 82 (108/246 HP, Spe 241). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Total cash: ¥15,733.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 108/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (11/20), Quick Attack (27/30). Status: OK (Revived!).
@@ -5477,7 +5483,7 @@ A large meteorological research institute located in northern Route 119 beside t
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 10, Turn 26256)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 10, Turn 26293)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 10, Turn 26364)!
-    - [ ] Elite Four Member #4 Drake
+    - [ ] Elite Four Member #4 Drake (ACTIVE Turn 26369)
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified

@@ -368,7 +368,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-  - Room 4 Drake: Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54 DEFEATED! Salamence Lv 55 active at ~45% HP. Kingdra Lv 53 in reserve. Drake burned 1 Full Restore (1 remaining).
+  - Room 4 Drake: ACTIVE (Turn 26369)!
+    - SAGE Lv 82 (108/246 HP, Spe 241). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Total cash: ¥15,733.
+    - Shelgon Lv 52 (#1): Active! Dragon type, taking physical Facade.
+    - Altaria Lv 54 (#2): Up next!
+    - Flygon Lv 53 (#3): Up next!
+    - Kingdra Lv 53 (#4): Up next!
+    - Salamence Lv 55 (#5, Ace): Drake's Ace!
 
 
 
