@@ -448,5 +448,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 (#2): DEFEATED on Turn 26281 by Bullet Seed! SAGE at 90/243 HP.
     - Banette Lv 49 (#3, Grudge user): DEFEATED on Turn 26285 by Aerial Ace! Grudge absorbed by Aerial Ace (PP dropped to 0). Bullet Seed PP completely protected at 12/30 PP! SAGE at 90/243 HP.
     - Sableye Lv 50 (#4): Took Bullet Seed on Turn 26289, dropped to deep red (~10% HP). SAGE at 90/243 HP. Resolving turn on Turn 26290. Sableye Lv 50 (#4): DEFEATED on Turn 26290 by Bullet Seed!
-    - Banette Lv 49 (#5, Final): Active on field at 100% HP. SAGE attacking with Bullet Seed (Slot 1) on Turn 26292. (No Grudge on Banette #2). 3 Revives in Bag.
+    - Banette Lv 49 (#5, Final): DEFEATED on Turn 26293 by Bullet Seed!
+    - Room 2 Phoebe DEFEATED! Prize: ¥5,100 earned (Total cash: ¥10,433). Doorway to Room 3 (Glacia) unlocked!
+  - Room 3 Glacia: Entering next!
+    - SAGE Lv 81, Overgrow ACTIVE. 3 Revives, 3 Full Heals, ¥10,433 cash.
+    - Strategy: Overgrow Bullet Seed OHKOs Sealeo #1, Sealeo #2, and Walrein (Sheer Cold 0% acc vs Lv 81 SAGE!). Physical Facade (70 bp, 181 Atk) sweeps Glalie #1 & #2!
     - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.

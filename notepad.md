@@ -758,7 +758,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 (#2): DEFEATED on Turn 26281 by Bullet Seed! SAGE at 90/243 HP.
     - Banette Lv 49 (#3, Grudge user): DEFEATED on Turn 26285 by Aerial Ace! Grudge absorbed by Aerial Ace (PP dropped to 0). Bullet Seed PP completely protected at 12/30 PP! SAGE at 90/243 HP.
     - Sableye Lv 50 (#4): Took Bullet Seed on Turn 26289, dropped to deep red (~10% HP). SAGE at 90/243 HP. Resolving turn on Turn 26290. Sableye Lv 50 (#4): DEFEATED on Turn 26290 by Bullet Seed!
-    - Banette Lv 49 (#5, Final): Active on field at 100% HP. SAGE attacking with Bullet Seed (Slot 1) on Turn 26292. (No Grudge on Banette #2). 3 Revives in Bag.
+    - Banette Lv 49 (#5, Final): DEFEATED on Turn 26293 by Bullet Seed!
+    - Room 2 Phoebe DEFEATED! Prize: ¥5,100 earned (Total cash: ¥10,433). Doorway to Room 3 (Glacia) unlocked!
+  - Room 3 Glacia: Entering next!
+    - SAGE Lv 81, Overgrow ACTIVE. 3 Revives, 3 Full Heals, ¥10,433 cash.
+    - Strategy: Overgrow Bullet Seed OHKOs Sealeo #1, Sealeo #2, and Walrein (Sheer Cold 0% acc vs Lv 81 SAGE!). Physical Facade (70 bp, 181 Atk) sweeps Glalie #1 & #2!
     - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.
 
 
@@ -5436,11 +5440,11 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26292)! SAGE Level 81 (90/243 HP, 239 Spe). Final Pokémon Banette #2 on field. SAGE attacking with Bullet Seed! 3 Revives in Bag.
+- Status: Attempt 10 Room 2 Phoebe DEFEATED (Turn 26293)! Cash: ¥10,433. SAGE Level 81 (Overgrow ACTIVE). 3 Revives in Bag. Advancing to Room 3 (Glacia)!
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 90/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudge absorbed), Facade (18/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 90/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (8/30), Aerial Ace (0/20 - Grudge absorbed), Facade (18/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5464,7 +5468,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥5,333 (earned ¥4,900 from Sidney; 3 Revives in Bag)
+- Money: ¥10,433 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe; 3 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -5483,7 +5487,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 10, Turn 26256)!
 
-    - [ ] Elite Four Member #2 Phoebe
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 10, Turn 26293)!
     - [ ] Elite Four Member #3 Glacia
 
     - [ ] Elite Four Member #4 Drake
