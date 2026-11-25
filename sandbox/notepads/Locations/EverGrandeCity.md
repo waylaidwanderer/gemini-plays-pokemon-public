@@ -358,7 +358,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-  - Room 3 Glacia: ALL 5 POKÃ©MON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
+  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 prize money (Total cash: ¥15,733)!
+    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
+    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed!
+    - Walrein Lv 53 (#3, Ace): DEFEATED on Turn 26340 by Facade! SAGE grew to Lv 82!
+    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED on Turn 26360 by Quick Attack!
+    - Glalie Lv 52 (#5, Final): DEFEATED on Turn 26364 by Quick Attack!
+    - Northern door to Room 4 (Drake) unlocked and open!
 
 
 
@@ -392,7 +398,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: ¥5,100.
 
-  - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
+  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 prize money (Total cash: ¥15,733)!
+    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
+    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed!
+    - Walrein Lv 53 (#3, Ace): DEFEATED on Turn 26340 by Facade! SAGE grew to Lv 82!
+    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED on Turn 26360 by Quick Attack!
+    - Glalie Lv 52 (#5, Final): DEFEATED on Turn 26364 by Quick Attack!
+    - Northern door to Room 4 (Drake) unlocked and open!
 
 
 

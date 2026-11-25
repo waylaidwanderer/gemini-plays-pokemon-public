@@ -668,7 +668,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-  - Room 3 Glacia: ALL 5 POKÃ©MON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Northern door to Room 4 (Drake) unlocked and open! SAGE Lv 77 (126/231 HP). In Bag: 2 Revives, 0 Hyper Potions, 3 Full Heals.
+  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 prize money (Total cash: ¥15,733)!
+    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
+    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed!
+    - Walrein Lv 53 (#3, Ace): DEFEATED on Turn 26340 by Facade! SAGE grew to Lv 82!
+    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED on Turn 26360 by Quick Attack!
+    - Glalie Lv 52 (#5, Final): DEFEATED on Turn 26364 by Quick Attack!
+    - Northern door to Room 4 (Drake) unlocked and open!
 
 
 
@@ -702,7 +708,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: ¥5,100.
 
-  - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
+  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 prize money (Total cash: ¥15,733)!
+    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
+    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed!
+    - Walrein Lv 53 (#3, Ace): DEFEATED on Turn 26340 by Facade! SAGE grew to Lv 82!
+    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED on Turn 26360 by Quick Attack!
+    - Glalie Lv 52 (#5, Final): DEFEATED on Turn 26364 by Quick Attack!
+    - Northern door to Room 4 (Drake) unlocked and open!
 
 
 
@@ -5436,10 +5448,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia DEFEATED (Turn 26364)! Cash: ¥15,733. SAGE Level 82 (108/246 HP). 3 Bullet Seed PP, 12 Facade PP, 27 Quick Attack PP. Advancing to Room 4 (Drake)!
+- Status: Attempt 10 Room 3 Glacia DEFEATED (Turn 26364)! Cash: ¥15,733. SAGE Level 82 (108/246 HP). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Advancing to Room 4 (Drake)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 108/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (12/20), Quick Attack (29/30). Status: OK (Revived!).
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 108/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (11/20), Quick Attack (27/30). Status: OK (Revived!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).
