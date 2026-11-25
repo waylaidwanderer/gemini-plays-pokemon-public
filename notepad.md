@@ -5428,7 +5428,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26382)! Shelgon Lv 52 DEFEATED by Facade! Drake sending Altaria Lv 54 (#2). SAGE Lv 82 (65/246 HP, Overgrow ACTIVE!, Spe 241). 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
+- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26384)! Shelgon Lv 52 DEFEATED! Drake burned Full Restore #1 (1 remaining). Drake sending Altaria Lv 54 (#2). SAGE Lv 82 (65/246 HP, Overgrow ACTIVE!, Spe 241). 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 65/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (5/20), Quick Attack (27/30). Status: OK (Revived!).
