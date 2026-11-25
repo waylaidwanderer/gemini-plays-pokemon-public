@@ -5048,10 +5048,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26428)! Room 1 Sidney DEFEATED! Cash: ¥5,566. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives, 1 Ultra Ball, 3 Full Heals in Bag. Advancing to Room 2 (Phoebe)!
+- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 2 Phoebe in progress (Turn 26465: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED; facing Sableye Lv 50). SAGE Lv 83 (70/249 HP, Overgrow ACTIVE, Spe 244). Bag: 4 Revives, 2 Full Heals, 1 Ultra Ball, ¥5,566.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (26/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 70/249 (Overgrow ACTIVE). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (18/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5062,7 +5062,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
-- Full Heal x3 (1 purchased Turn 25634)
+- Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
 - Ultra Ball x1
 - Revive x4 (4 purchased at League Mart; 4 remaining)
 - Hyper Potion x0
