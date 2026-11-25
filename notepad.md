@@ -1,47 +1,38 @@
 <h1><code>Locations/Encounters</code></h1>
 
-# Encounter Tracker — Attempt #3
+# Encounter Tracker — Attempt #4
 
 ## Rules Reminder
 - One encounter per "Met in" location (shared across grass, water, fishing, starter, and gifts).
-- Dupes Clause active across evolution families obtained in **Attempt #3** (resets each attempt).
-- **Wild Held Item, `Roar` & `Memento` Reminder:**
-  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE` Attempt #1; `Oldale Vulpix` held `RAWST BERRY` Attempt #2!).
-  - **Self-KO / Flee Hazards:** Oldale Town custom grass `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), and Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128)—use `Sleep` or high-rate balls immediately on flee/self-KO species!
+- Dupes Clause active across evolution families obtained in **Attempt #4** (resets each attempt).
+- **Wild Held Item, Low Catch-Rate & Self-KO / Flee Hazards:**
+  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE`; `Route 103 Skitty` held `MOON STONE`; `Oldale Vulpix/Numel` held `RAWST BERRY`!).
+  - **Self-KO / Flee / Low-Rate Hazards:** Oldale Town `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128), and Route 116 `Lv 9 Chimecho` (`Wish + Psybeam + Thunder Wave`, `catchRate=45`, Turns 1594–1628) requires **early safe chip (`<=40%` HP) + `Sleep` (`Great Ball`)** rather than full-HP Poké Balls!
 
-## Locations & Encounters (Attempt #3)
-- **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295); **DECEASED Turn 1716** as `Lv 16 Marshtomp` to Rustboro Gym Hiker Marc's `>21-Spe` `#2 Lv 14 Kabuto` `Giga Drain`
-- **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
-- **Route 103:** `Skitty ♀` (**"Velvet"**, Modest, `Cute Charm`, held **`Moon Stone`**, `Lv 4 Assist + Attract + Sing`) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1323`); **DECEASED Turn 1701** at `Lv 16` to Rustboro Gym Hiker Marc's `#1 Lv 15 Onix` `Liechi Berry + Selfdestruct` [pending `BOX 14` deposit]
-- **Route 102:** `Meowth ♀` (**"Fortuna"**, Naughty, `Limber`, `Lv 6 Pay Day + Faint Attack`) — Caught at `Lv 6` (`Turn 1331`); **DECEASED Turn 1377** at `Lv 11` vs Fisherman Darian's Feebas [stored `BOX 14` Turn 1399]
-- **Route 104:** `Cubone ♀` (**"Athena"**, Lax, `Rock Head`, `Lv 7 Bone Club + Rock Throw`) — Caught at `Lv 7` in `(25, 59)` tall grass (`Turn 1356–1360`); **DECEASED Turn 1662** at `Lv 15` to Rustboro Gym School Kid Josh's `#1 Lv 15 Geodude` `Selfdestruct` [stored `BOX 14` Turn 1688]
-- **Petalburg Woods:** `Teddiursa ♂` (**"Beowulf"**, Relaxed, `Guts`, held `NONE`, `Lv 8: 27 HP / 19 Atk / 14 Def / 14 SpA / 14 SpD / 9 Spe`, `Scratch + Lick + Faint Attack`) — Caught at `Lv 8` in `(21, 35)` tall grass (`Turn 1423–1430`); **DECEASED Turn 1713** at `Lv 16` to Rustboro Gym Hiker Marc's `#2 Lv 14 Kabuto` `Aerial Ace` [pending `BOX 14` deposit]
-- **Route 116:** `Chimecho ♂` (`Lv 9`, `Levitate`, `Wish + Psybeam + Thunder Wave`) — **FORFEITED Turn 1628** at `(6, 14)` tall grass (fled via `21-Spe` `Velvet` after breaking out of 13 Balls [`1 Great Ball + 12 Poké Balls`] at ~38% HP to preserve all 5 party members with zero casualties)
+## Locations & Encounters (Attempt #4)
+*(None yet — fresh start on Attempt #4!)*
 
-## Obtained Evolution Families (Dupes Clause — Attempt #3)
-- Mudkip / Marshtomp / Swampert (`Caspian`)
-- Numel / Camerupt (`Vulcan`)
-- Skitty / Delcatty (`Velvet`)
-- Meowth / Persian (`Fortuna`)
-- Cubone / Marowak (`Athena`)
-- Teddiursa / Ursaring (`Beowulf`)
+## Obtained Evolution Families (Dupes Clause — Attempt #4)
+*(None yet — fresh start on Attempt #4!)*
 
 <hr>
 
 <h1><code>Main</code></h1>
 
-# Nuzlocke Dashboard — Attempt #3
+# Nuzlocke Dashboard — Attempt #4
 
 ## Run Status
-- **Attempt:** #3 (`Deaths: 5` — `Fortuna` Lv 11 Meowth [Turn 1377]; `Athena` Lv 15 Cubone [Turn 1662, Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct`]; `Velvet` Lv 16 Skitty [Turn 1701, Marc's `#1 Lv 15 Onix` `Liechi + Selfdestruct`]; `Beowulf` Lv 16 Teddiursa [Turn 1713, Marc's `#2 Lv 14 Kabuto` `Aerial Ace`]; `Caspian` Lv 16 Marshtomp [Turn 1716, Marc's `>21-Spe` `#2 Lv 14 Kabuto` `Giga Drain`])
-- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died Turn 380 to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died Turn 705 to `Dustox` `Toxic + Confusion` self-hits with `Girasol` 5 EXP from `Lv 17`).
-- **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`). Cleared Red, Magma Grunt, Western/Central Route 116, Youngster Joey, Clark, & Janice, and discovered `Oddish` evolves early into **`Lv 16 Gloom` (`+ Magical Leaf`)**, before wiping to Jose's 4-evolved-Bug (`Dustox, Beedrill, Beautifly, Butterfree`) Grass-coverage gauntlet while constrained by the `Lv 16` cap.
-- **TWO GOLDEN RULES FOR ATTEMPT #3:**
-  1. **Challenge & Defeat Roxanne (`Cap = Lv 16`) BEFORE Eastern Route 116 (`Youngster Joey` & `Bug Maniac Jose`):** Earn the Stone Badge first (`respecting Lv 15–16 EXP caps against Rustboro Gym's buffed sub-trainers`) to advance the Level Cap to **`Lv 20` (Brawly)** and unlock **`HM01 Cut`** before tackling eastern Route 116 & Rusturf Tunnel!
-  2. **Pre-Equip Targeted Status Berries (`Pecha / Cheri / Rawst / Chesto`) on Known Status Leads:** Against `Toxic`/`Will-O-Wisp`/`Glare`/`Stun Spore`/`Spore` leads (`e.g. Jose's Dustox, Magma's Koffing/Duskull, Joey's Ekans, James's Paras`), pre-equipping `Pecha`/`Rawst`/`Cheri`/`Chesto` prevents passive chip + `Protect` stall far better than `Oran Berry`!
-- **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
+- **Attempt:** #4 (`Deaths: 0`)
+- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died to `Dustox` `Toxic + Confusion` self-hits).
+- **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`) after discovering `Oddish -> Lv 16 Gloom (+ Magical Leaf)`.
+- **Attempt #3 Summary:** Ended Turn 1718 inside Rustboro Gym `(1, 8)` vs Hiker Marc's `#2 Lv 14 Kabuto` (`>21 Spe`, `10 PP` buffed `Giga Drain` + `Aerial Ace`). Swept Route 101–104, Petalburg Woods, `PKMN Trainer Red` (5–0, 0 deaths), `School Kid Tammy` (5–0, 0 deaths), and `School Kid Josh`, and verified `Mudkip/Marshtomp` is in the `Slow` EXP group (`1,021` EXP from `Lv 16 -> 17`), `Numel` learns `Lv 15 Magnitude`, and `Skitty` learns `Lv 13 Teeter Dance + Lv 15 Fake Out`. Lost `Athena` (Lv 15 Cubone) to Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct`, `Velvet` (Lv 16 Skitty) to Marc's `#1 Lv 15 Onix` `Liechi Berry + Selfdestruct` at `<=25%` HP, and `Beowulf`/`Caspian`/`Vulcan` after Marc's `>21-Spe` `Kabuto` landed a crit `Giga Drain` and survived two `Magnitudes` at 1 HP while `Marshtomp` had only `7` EXP of cap room left.
+- **THREE GOLDEN RULES FOR ATTEMPT #4:**
+  1. **Beat Roxanne (`Cap = Lv 16`) First Using Our Rustboro Gym Blueprint:** Enter Rustboro Gym with a **full 6-Pokémon squad** and **save `Lv 16 Marshtomp`'s `1,021` EXP budget strictly to OHKO `Selfdestruct` leads** (`Josh's #1 Lv 15 Geodude` [`276` EXP] with `100%`-acc `4x` `Water Gun`, and `Marc's #1 Lv 15 Liechi+Selfdestruct Onix` [`346` EXP] from `>=50%` HP with `4x` `Water Gun` right after breaking `Sturdy` — **NEVER chip Onix into `<30%` HP!**), while our other 5 `Lv 15–16` teammates clear `Tammy`, `Josh #2–#4`, and `Marc's >21-Spe Giga Drain + Aerial Ace Kabuto`!
+  2. **Pre-Equip Targeted Status Berries & Respect Gen 4+ Buffed PP (`10 PP Giga Drain`):** Pre-equip `Pecha/Cheri/Rawst/Chesto` on known status leads, strictly 1 combat turn per call vs Confusion/berryless foes, and never click `FIGHT` while confused.
+  3. **Set `TEXT SPEED: FAST` & `BATTLE STYLE: SET` Immediately at the Start of Attempt #4!**
+- **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], Gen 4+ move PP/abilities, in-battle Bag consumables disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style & Text Speed:** `SET` & `FAST` *(Verified in Options on Turn 1282)*
+- **Battle Style & Text Speed:** **MUST SET TO `SET` & `FAST` IN OPTIONS ON NEW GAME!**
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
@@ -55,9 +46,9 @@
 - Champion: Lv 100
 
 ## Notepad Index
-- `Locations/Encounters` — Attempt #3 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
-- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss teams, learnsets & Attempts #1–#2 post-mortems
-- `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart flows, Naming grid, and battle KO timings
+- `Locations/Encounters` — Attempt #4 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss/Gym teams, learnsets & Attempts #1–#3 post-mortems
+- `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart/PC flows, Naming grid, and overworld corridors
 
 <hr>
 
@@ -90,7 +81,7 @@
 - **Gym #1 Intel — Roxanne & Rustboro Gym Sub-Trainers (Cap = Lv 16):** Rustboro Gym Guide at `(3, 18)` confirmed Roxanne specializes in **Rock-types** *(Turn 516)*, and Gym sub-trainers carry **5 Pokémon up to `Lv 15` with dedicated anti-Ground Water/Grass coverage** *(exact Gen 3 trainer split-EXP formula verified Turns 1648 & 1652: `(((baseExp * level) // 7) // numParticipants) * 3 // 2`)*:
   - `School Kid Tammy (1, 12)` (`faces Right across y=12`, **5 Pokémon**): `#1 Lv 13 Aron ♂` (`Rock Head`), `#2 Lv 13 Corsola ♀` (`Water Pulse`, `Rock Tomb`), `#3 Lv 11 Yanma ♂` (`Speed Boost`, `Giga`/`Mega Drain` [9 dmg vs `21 SpD` Numel]), `#4 Lv 15 Rhyhorn ♂` (`Magnitude` [33 dmg `Magnitude 10` vs `39 Def` Cubone], **`Ice Beam`** [9 dmg vs Marshtomp!]), `#5 Lv 15 Larvitar ♂` *(Verified Turns 1642–1657)*.
   - `School Kid Josh (8, 14)` (`faces Left across y=14`, **4 Pokémon** [4th ball was still sliding onto HUD at `#16` of Turn 1661!]): **`#1 Lv 15 Geodude ♂` (`SELFDESTRUCT` ON TURN 1 AT 100% HP! Halves Def in Gen 3 — NEVER click <100%-acc or 2HKO moves into Geodude/Graveler/Pineco/Voltorb/Baltoy/Solrock/Lunatone!)**, `#2 Lv 11 Zubat ♂` (`Giga Drain` [6 dmg vs Numel], `Supersonic`), `#3 Lv 14 Omanyte ♂` (`Water Pulse`, `Rock Tomb`), `#4 Lv 12 Sudowoodo ♂` (`Calm Mind`, `Rock Tomb` [13–15 dmg vs `22 Def` Numel], **`Ice Punch`** [Special in Gen 3! 16 dmg at `+3 SpA` vs `20 SpD` + 10% FRZ], held `Berry Juice`) *(Turns 1662–1685 — **Level-Cap Dilution Tip:** when an at-cap lead starts in `SET` mode with tight `NEXT LV.` headroom, pivot through `3–4` healthy teammates before KOing so `numParticipants` divides `baseExp * level // 7` down below `NEXT LV.`!)*.
-  - `Hiker Marc (1, 11)` (`faces Up across (1, 10..8)`, mandatory on sole northern chute to Roxanne, **4 Pokémon**): **`#1 Lv 15 Onix ♂` (`>25 Spe`, `Swagger`, `Dig`, **`SELFDESTRUCT` + held `Liechi Berry` [`+1 Atk` at `<=25%` HP — NEVER leave Onix alive in `<30%` HP `Liechi + Selfdestruct` range!]**)**, **`#2 Lv 14 Kabuto ♂` (`>21 Spe` [outsped `21-Spe` `Lv 16 Marshtomp`!], survived `24-Atk` STAB `Magnitude 8` at 1 HP, **`Giga Drain` [`>=7 PP` buffed! 12–13 non-crit / 24 crit vs `22 SpD` Numel; 40 vs `29 SpD` Marshtomp] + `Aerial Ace`**)**, `#3–#4` *(Turns 1692–1716 — **Attempt #4 Rustboro Gym Blueprint:** Reserve `Lv 16 Marshtomp`'s `1,021` `Slow`-group EXP budget strictly to OHKO Josh's `#1 Lv 15 Selfdestruct Geodude` [`276` EXP] & Marc's `#1 Lv 15 Liechi+Selfdestruct Onix` [`346` EXP, after breaking Sturdy without dropping `<30%` HP!], while keeping 5 healthy `Lv 15–16` teammates for Tammy + Marc's `>21-Spe` `Giga Drain` `Kabuto`!)*.
+  - `Hiker Marc (1, 11)` (`faces Up across (1, 10..8)`, mandatory on sole northern chute to Roxanne, **4 Pokémon**): **`#1 Lv 15 Onix ♂` (`>25 Spe`, `Swagger`, `Dig`, **`SELFDESTRUCT` + held `Liechi Berry` [`+1 Atk` at `<=25%` HP — NEVER leave Onix alive in `<30%` HP `Liechi + Selfdestruct` range!]**)**, **`#2 Lv 14 Kabuto ♂` (`>21 Spe` [outsped `21-Spe` `Lv 16 Marshtomp`!], survived `24-Atk` STAB `Magnitude 8` at 1 HP, **`Giga Drain` [`10 PP` Gen 4+ buff — used 8x across Turns 1705–1718! 12–13 non-crit / 24 crit vs `22 SpD` Numel; 40 vs `29 SpD` Marshtomp] + `Aerial Ace`**)**, `#3–#4` *(Turns 1692–1718 — **Attempt #4 Rustboro Gym Blueprint:** Reserve `Lv 16 Marshtomp`'s `1,021` `Slow`-group EXP budget strictly to OHKO Josh's `#1 Lv 15 Selfdestruct Geodude` [`276` EXP] & Marc's `#1 Lv 15 Liechi+Selfdestruct Onix` [`346` EXP, from `>=50%` HP right after breaking Sturdy — NEVER drop Onix `<30%` HP!], while keeping 5 healthy `Lv 15–16` teammates [especially Grass/Electric/Rock-resistant attackers!] for Tammy + Marc's `>21-Spe` `Giga Drain + Aerial Ace` `Kabuto`!)*.
 - **National Dex Wilds Confirmed:** Encountered `Lv 3 Weedle` & `Lv 3 Caterpie` on Route 101 *(Turns 105, 761)*, `Lv 3 Growlithe` & `Lv 5 Vulpix` in Oldale Town *(Turns 108, 765)*, `Lv 4 Sunkern` & `Lv 4 Hoppip` on Route 103 *(Turns 113, 777)*, Johto wilds `Lv 8 Teddiursa`, `Lv 8 Hoothoot`, and `Lv 8 Phanpy` in Petalburg Woods *(Turns 317, 331, 334)*, and `Lv 7 Natu` + `Lv 7 Jigglypuff` + `Lv 7 Snubbull` on Route 104 North *(Turns 403, 405, 409)*—expect Gen 1–3 National Dex species in grass tables.
 - **Wild `Roar` & `Memento` Self-KO Hazards:** `Lv 3 Growlithe` in Oldale Town (`(14..15, 2)`) used `Roar` on Turn 1 *(Verified Turn 111)*, and **wild `Lv 9 Grimer` on Route 116 (`(5, 14)`) used `Memento` to faint itself** *(Verified Turn 1128 `#69`; also carried a Ghost-type move that failed vs Normal-type `Freya` on Turn 1127 `#65` and cured Turn-1 `PAR` between Turn 1126 `#57` and Turn 1127 `#01` via held berry or ability/move)*. Use `Sleep` or a `Great Ball` immediately on wild species capable of `Memento`, `Selfdestruct`, `Teleport`, or `Roar`!
 - **Early Evolution Stones on Wild Pokémon & Custom In-Game Trades:**
@@ -203,21 +194,22 @@
 
 <h1><code>Scratchpad/Notes</code></h1>
 
-# Scratchpad — Active Leads & Attempt #3 Fast-Track Plan
+# Scratchpad — Active Leads & Attempt #4 Fast-Track Plan
 
 ## Active Exploration & Future Encounter Leads
 - **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** Elderly woman at `(6, 4)` inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch for `Nincada` on Route 116 / Rusturf Tunnel (`Lv 20` evolution with open slot + Poké Ball in bag yields `Shedinja`!).
-- **CRITICAL ROUTE ORDER CHANGE FOR ATTEMPT #3 — BEAT ROXANNE (`LV 16` CAP) *BEFORE* EASTERN ROUTE 116!**
-  - Rustboro Gym is open **immediately** upon arriving in Rustboro City!
-  - Post-Roxanne (`Level Cap immediately becomes Lv 20 for Brawly!`): teach `HM01 Cut`, harvest **`Chesto Berry x99`** on Route 116 `(19..20, 2)` + `Miracle Seed` in Petalburg Woods, candy squad to **`Lv 18–19`**, and **EFFORTLESSLY SWEEP ROUTE 116 (`Youngster Joey` & `Bug Maniac Jose`'s 4 Bugs: `Dustox`, `Beedrill`, `Beautifly`, `Butterfree` [carries `Confusion + Protect + Mega Drain`!]) + RUSTURF TUNNEL (`our 6th active squad slot!`)** with `Pecha/Cheri/Chesto Berries` and `Lv 20` cap headroom!
-- **Post-Stone Badge Re-Check Targets:**
-  - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by `TM09` boy pre-Gym *(Turn 412)*.
-  - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Re-check Teacher `(5, 3)` post-Roxanne.
-  - **Cut & Route 116 Item Targets:** Western Route 116 visible item ball at `(13, 17)`, Route 116 Berry Ledge `(17, 5)` -> `(19..20, 2)` **`Chesto Berry` trees** + **flanking unidentified Berry trees at `(18, 2)` & `(21, 2)`**, **eastern Route 116 `Cut` maze (`north of y=12, x=22..35`)**, Route 104 NE `(35, 22)` -> `(37, 22)` item ball, Petalburg Woods `(19, 10..11)` -> `Miracle Seed` + `(32, 30)` item ball.
-- **Unused Town Water Ponds & Custom Off-Map Leads (Save for Rod/Surf/Cut):** Littleroot SE Pond `(18..19, 12..14)`, **Littleroot West custom grassy area with NPC & signpost (`x < 0` beyond western trees)**, Petalburg City Ponds, Route 115.
+- **Attempt #4 Rustboro Gym & Route 116 Master Plan:**
+  1. **Pre-Roxanne (`Cap = Lv 16`):** Secure all **7 early encounters** (`Route 101 Mudkip`, `Oldale Town (14..15, 2)`, `Route 103 (15..16, 11)`, `Route 102`, `Route 104`, `Petalburg Woods`, and `Western Route 116 (5..6, 13..14)` — stock `30+` ¥10 Poké Balls + `Great Ball` + sleep/chip lead so even `catchRate=45` wilds don't escape!), grab `HM01 Cut` `(9, 38)`, and enter Rustboro Gym with a **full 6-Pokémon squad**!
+  2. **Inside Rustboro Gym (`3` mandatory sub-trainers = `13` Pokémon before Roxanne):**
+     - Keep 5 teammates at **`Lv 15`** (`full EXP headroom!`) + evolve **`Lv 16 Marshtomp`** (`1,021` `Slow`-group EXP before `Lv 17`!).
+     - **Save `Marshtomp`'s `1,021` EXP strictly for the two `Selfdestruct` leads:**
+       - `School Kid Tammy (1, 12)` (`5` Pokémon: `Lv 13 Aron`, `Lv 13 Corsola`, `Lv 11 Yanma`, `Lv 15 Rhyhorn`, `Lv 15 Larvitar`): clear with our 5 `Lv 15` teammates (`or minimal 3-way split on Rhyhorn`).
+       - `School Kid Josh (8, 14)` (`4` Pokémon: `#1 Lv 15 Turn-1 Selfdestruct Geodude`, `#2 Lv 11 Giga Drain Zubat`, `#3 Lv 14 Omanyte`, `#4 Lv 12 Calm Mind + Ice Punch Sudowoodo`): **lead `Lv 16 Marshtomp` (`or Grass/Water OHKO`) to ONE-SHOT `#1 Lv 15 Geodude` (`276` EXP) from `100% -> 0%` HP on Turn 1** (`or break Sturdy with `Fake Out` -> sleep/OHKO`)!
+       - `Hiker Marc (1, 11)` (`4` Pokémon: `#1 Lv 15 >25-Spe Swagger + Dig + Liechi Berry + Selfdestruct Onix`, `#2 Lv 14 >21-Spe 10-PP Giga Drain + Aerial Ace Kabuto`, `#3–#4`): break `#1 Onix`'s `Sturdy` (`Fake Out` / tiny chip keeping Onix `>=50%` HP — **NEVER drop Onix `<30%` HP!**), then **ONE-SHOT `#1 Onix` (`346` EXP) with `Marshtomp`'s `4x` `Water Gun`**, and beat `#2 Kabuto` + `#3–#4` with our healthy `Lv 15–16` Grass/Electric/Normal/Fire squad!
+     - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
-## Attempt #3 Live Plan (Rustboro Gym -> Post-Stone Badge)
-- **Completed Milestones:** Route 101–104, Petalburg Woods, `PKMN Trainer Red`, `HM01 Cut`, Rustboro Gym `School Kid Tammy (1, 12)` (`5 Pokémon`) & `School Kid Josh (8, 14)` (`4 Pokémon`) cleared, and `Athena` stored in `BOX 14`!
-1. **Finish `Hiker Marc` (`1-HP #2 Kabuto` + `#3–#4`) with `Caspian` (`18/48`) + `Vulcan` (`7/46`):** Send in `21-Spe` `Caspian` (`Lv 16 Marshtomp`, `18/48` HP) for free after `Beowulf` fell to `Aerial Ace` (`which healed Kabuto 0 HP, leaving Kabuto at 1 HP!`), KO `1-HP` `#2 Kabuto` (`pushing Caspian to Lv 17`), switch Caspian out immediately on `#3` into `7/46` HP `Vulcan`, and fight to the finish!
+## Attempt #4 Fast-Track Checklist
+1. **Title Screen & Options (`MUST DO FIRST!`):** Open `OPTION` on the Title Screen (or immediately upon stepping out of the truck) to set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`**, start `NEW GAME` as Girl (**"Gem"**), set 2F Wall Clock (`A -> Up -> A`), watch 1F TV, and trigger Rival Brendan on 2F of West house `(5, 8)`.
+2. **Starter & Early Encounters (`Zero Deaths!`):** Rescue Birch on Route 101 with **`Mudkip`**, candy to `Lv 11` (`Water Gun`), beat Rival #1 on Route 103 `(10, 3)`, get Pokédex + Running Shoes, buy `22x` ¥10 Poké Balls + `2x` Premier Balls in Oldale Mart, and catch **Oldale Town `(14..15, 2)`**, **Route 103 `(15..16, 11)`**, and **Route 102** (plus harvest **`Oran + Pecha Berries x99`** at `(24..25, 2)`!).
 
 <hr>

@@ -1,16 +1,17 @@
-# Scratchpad — Active Leads & Attempt #3 Fast-Track Plan
+# Scratchpad — Active Leads & Attempt #4 Fast-Track Plan
 
 ## Active Exploration & Future Encounter Leads
 - **Custom In-Game Trade Lead — `SHEDINJA -> MOLTRES` (`(33, 19)` House in Rustboro City):** Elderly woman at `(6, 4)` inside `(33, 19)` trades **`MOLTRES`** for **`SHEDINJA`** *(verified Turn 514 `#22`)*! Watch for `Nincada` on Route 116 / Rusturf Tunnel (`Lv 20` evolution with open slot + Poké Ball in bag yields `Shedinja`!).
-- **CRITICAL ROUTE ORDER CHANGE FOR ATTEMPT #3 — BEAT ROXANNE (`LV 16` CAP) *BEFORE* EASTERN ROUTE 116!**
-  - Rustboro Gym is open **immediately** upon arriving in Rustboro City!
-  - Post-Roxanne (`Level Cap immediately becomes Lv 20 for Brawly!`): teach `HM01 Cut`, harvest **`Chesto Berry x99`** on Route 116 `(19..20, 2)` + `Miracle Seed` in Petalburg Woods, candy squad to **`Lv 18–19`**, and **EFFORTLESSLY SWEEP ROUTE 116 (`Youngster Joey` & `Bug Maniac Jose`'s 4 Bugs: `Dustox`, `Beedrill`, `Beautifly`, `Butterfree` [carries `Confusion + Protect + Mega Drain`!]) + RUSTURF TUNNEL (`our 6th active squad slot!`)** with `Pecha/Cheri/Chesto Berries` and `Lv 20` cap headroom!
-- **Post-Stone Badge Re-Check Targets:**
-  - **Pretty Petal Flower Shop (`(5, 18)` on Route 104 North):** Blocked by `TM09` boy pre-Gym *(Turn 412)*.
-  - **Pokémon Trainer's School (`(27, 34)` in Rustboro City):** Re-check Teacher `(5, 3)` post-Roxanne.
-  - **Cut & Route 116 Item Targets:** Western Route 116 visible item ball at `(13, 17)`, Route 116 Berry Ledge `(17, 5)` -> `(19..20, 2)` **`Chesto Berry` trees** + **flanking unidentified Berry trees at `(18, 2)` & `(21, 2)`**, **eastern Route 116 `Cut` maze (`north of y=12, x=22..35`)**, Route 104 NE `(35, 22)` -> `(37, 22)` item ball, Petalburg Woods `(19, 10..11)` -> `Miracle Seed` + `(32, 30)` item ball.
-- **Unused Town Water Ponds & Custom Off-Map Leads (Save for Rod/Surf/Cut):** Littleroot SE Pond `(18..19, 12..14)`, **Littleroot West custom grassy area with NPC & signpost (`x < 0` beyond western trees)**, Petalburg City Ponds, Route 115.
+- **Attempt #4 Rustboro Gym & Route 116 Master Plan:**
+  1. **Pre-Roxanne (`Cap = Lv 16`):** Secure all **7 early encounters** (`Route 101 Mudkip`, `Oldale Town (14..15, 2)`, `Route 103 (15..16, 11)`, `Route 102`, `Route 104`, `Petalburg Woods`, and `Western Route 116 (5..6, 13..14)` — stock `30+` ¥10 Poké Balls + `Great Ball` + sleep/chip lead so even `catchRate=45` wilds don't escape!), grab `HM01 Cut` `(9, 38)`, and enter Rustboro Gym with a **full 6-Pokémon squad**!
+  2. **Inside Rustboro Gym (`3` mandatory sub-trainers = `13` Pokémon before Roxanne):**
+     - Keep 5 teammates at **`Lv 15`** (`full EXP headroom!`) + evolve **`Lv 16 Marshtomp`** (`1,021` `Slow`-group EXP before `Lv 17`!).
+     - **Save `Marshtomp`'s `1,021` EXP strictly for the two `Selfdestruct` leads:**
+       - `School Kid Tammy (1, 12)` (`5` Pokémon: `Lv 13 Aron`, `Lv 13 Corsola`, `Lv 11 Yanma`, `Lv 15 Rhyhorn`, `Lv 15 Larvitar`): clear with our 5 `Lv 15` teammates (`or minimal 3-way split on Rhyhorn`).
+       - `School Kid Josh (8, 14)` (`4` Pokémon: `#1 Lv 15 Turn-1 Selfdestruct Geodude`, `#2 Lv 11 Giga Drain Zubat`, `#3 Lv 14 Omanyte`, `#4 Lv 12 Calm Mind + Ice Punch Sudowoodo`): **lead `Lv 16 Marshtomp` (`or Grass/Water OHKO`) to ONE-SHOT `#1 Lv 15 Geodude` (`276` EXP) from `100% -> 0%` HP on Turn 1** (`or break Sturdy with `Fake Out` -> sleep/OHKO`)!
+       - `Hiker Marc (1, 11)` (`4` Pokémon: `#1 Lv 15 >25-Spe Swagger + Dig + Liechi Berry + Selfdestruct Onix`, `#2 Lv 14 >21-Spe 10-PP Giga Drain + Aerial Ace Kabuto`, `#3–#4`): break `#1 Onix`'s `Sturdy` (`Fake Out` / tiny chip keeping Onix `>=50%` HP — **NEVER drop Onix `<30%` HP!**), then **ONE-SHOT `#1 Onix` (`346` EXP) with `Marshtomp`'s `4x` `Water Gun`**, and beat `#2 Kabuto` + `#3–#4` with our healthy `Lv 15–16` Grass/Electric/Normal/Fire squad!
+     - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
-## Attempt #3 Live Plan (Rustboro Gym -> Post-Stone Badge)
-- **Completed Milestones:** Route 101–104, Petalburg Woods, `PKMN Trainer Red`, `HM01 Cut`, Rustboro Gym `School Kid Tammy (1, 12)` (`5 Pokémon`) & `School Kid Josh (8, 14)` (`4 Pokémon`) cleared, and `Athena` stored in `BOX 14`!
-1. **Finish `Hiker Marc` (`1-HP #2 Kabuto` + `#3–#4`) with `Caspian` (`18/48`) + `Vulcan` (`7/46`):** Send in `21-Spe` `Caspian` (`Lv 16 Marshtomp`, `18/48` HP) for free after `Beowulf` fell to `Aerial Ace` (`which healed Kabuto 0 HP, leaving Kabuto at 1 HP!`), KO `1-HP` `#2 Kabuto` (`pushing Caspian to Lv 17`), switch Caspian out immediately on `#3` into `7/46` HP `Vulcan`, and fight to the finish!
+## Attempt #4 Fast-Track Checklist
+1. **Title Screen & Options (`MUST DO FIRST!`):** Open `OPTION` on the Title Screen (or immediately upon stepping out of the truck) to set **`TEXT SPEED: FAST`** and **`BATTLE STYLE: SET`**, start `NEW GAME` as Girl (**"Gem"**), set 2F Wall Clock (`A -> Up -> A`), watch 1F TV, and trigger Rival Brendan on 2F of West house `(5, 8)`.
+2. **Starter & Early Encounters (`Zero Deaths!`):** Rescue Birch on Route 101 with **`Mudkip`**, candy to `Lv 11` (`Water Gun`), beat Rival #1 on Route 103 `(10, 3)`, get Pokédex + Running Shoes, buy `22x` ¥10 Poké Balls + `2x` Premier Balls in Oldale Mart, and catch **Oldale Town `(14..15, 2)`**, **Route 103 `(15..16, 11)`**, and **Route 102** (plus harvest **`Oran + Pecha Berries x99`** at `(24..25, 2)`!).

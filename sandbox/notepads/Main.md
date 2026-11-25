@@ -1,15 +1,17 @@
-# Nuzlocke Dashboard — Attempt #3
+# Nuzlocke Dashboard — Attempt #4
 
 ## Run Status
-- **Attempt:** #3 (`Deaths: 5` — `Fortuna` Lv 11 Meowth [Turn 1377]; `Athena` Lv 15 Cubone [Turn 1662, Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct`]; `Velvet` Lv 16 Skitty [Turn 1701, Marc's `#1 Lv 15 Onix` `Liechi + Selfdestruct`]; `Beowulf` Lv 16 Teddiursa [Turn 1713, Marc's `#2 Lv 14 Kabuto` `Aerial Ace`]; `Caspian` Lv 16 Marshtomp [Turn 1716, Marc's `>21-Spe` `#2 Lv 14 Kabuto` `Giga Drain`])
-- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died Turn 380 to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died Turn 705 to `Dustox` `Toxic + Confusion` self-hits with `Girasol` 5 EXP from `Lv 17`).
-- **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`). Cleared Red, Magma Grunt, Western/Central Route 116, Youngster Joey, Clark, & Janice, and discovered `Oddish` evolves early into **`Lv 16 Gloom` (`+ Magical Leaf`)**, before wiping to Jose's 4-evolved-Bug (`Dustox, Beedrill, Beautifly, Butterfree`) Grass-coverage gauntlet while constrained by the `Lv 16` cap.
-- **TWO GOLDEN RULES FOR ATTEMPT #3:**
-  1. **Challenge & Defeat Roxanne (`Cap = Lv 16`) BEFORE Eastern Route 116 (`Youngster Joey` & `Bug Maniac Jose`):** Earn the Stone Badge first (`respecting Lv 15–16 EXP caps against Rustboro Gym's buffed sub-trainers`) to advance the Level Cap to **`Lv 20` (Brawly)** and unlock **`HM01 Cut`** before tackling eastern Route 116 & Rusturf Tunnel!
-  2. **Pre-Equip Targeted Status Berries (`Pecha / Cheri / Rawst / Chesto`) on Known Status Leads:** Against `Toxic`/`Will-O-Wisp`/`Glare`/`Stun Spore`/`Spore` leads (`e.g. Jose's Dustox, Magma's Koffing/Duskull, Joey's Ekans, James's Paras`), pre-equipping `Pecha`/`Rawst`/`Cheri`/`Chesto` prevents passive chip + `Protect` stall far better than `Oran Berry`!
-- **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], buffed trainer teams/AI/abilities, in-battle Bag healing/berries disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
+- **Attempt:** #4 (`Deaths: 0`)
+- **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died to `Dustox` `Toxic + Confusion` self-hits).
+- **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`) after discovering `Oddish -> Lv 16 Gloom (+ Magical Leaf)`.
+- **Attempt #3 Summary:** Ended Turn 1718 inside Rustboro Gym `(1, 8)` vs Hiker Marc's `#2 Lv 14 Kabuto` (`>21 Spe`, `10 PP` buffed `Giga Drain` + `Aerial Ace`). Swept Route 101–104, Petalburg Woods, `PKMN Trainer Red` (5–0, 0 deaths), `School Kid Tammy` (5–0, 0 deaths), and `School Kid Josh`, and verified `Mudkip/Marshtomp` is in the `Slow` EXP group (`1,021` EXP from `Lv 16 -> 17`), `Numel` learns `Lv 15 Magnitude`, and `Skitty` learns `Lv 13 Teeter Dance + Lv 15 Fake Out`. Lost `Athena` (Lv 15 Cubone) to Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct`, `Velvet` (Lv 16 Skitty) to Marc's `#1 Lv 15 Onix` `Liechi Berry + Selfdestruct` at `<=25%` HP, and `Beowulf`/`Caspian`/`Vulcan` after Marc's `>21-Spe` `Kabuto` landed a crit `Giga Drain` and survived two `Magnitudes` at 1 HP while `Marshtomp` had only `7` EXP of cap room left.
+- **THREE GOLDEN RULES FOR ATTEMPT #4:**
+  1. **Beat Roxanne (`Cap = Lv 16`) First Using Our Rustboro Gym Blueprint:** Enter Rustboro Gym with a **full 6-Pokémon squad** and **save `Lv 16 Marshtomp`'s `1,021` EXP budget strictly to OHKO `Selfdestruct` leads** (`Josh's #1 Lv 15 Geodude` [`276` EXP] with `100%`-acc `4x` `Water Gun`, and `Marc's #1 Lv 15 Liechi+Selfdestruct Onix` [`346` EXP] from `>=50%` HP with `4x` `Water Gun` right after breaking `Sturdy` — **NEVER chip Onix into `<30%` HP!**), while our other 5 `Lv 15–16` teammates clear `Tammy`, `Josh #2–#4`, and `Marc's >21-Spe Giga Drain + Aerial Ace Kabuto`!
+  2. **Pre-Equip Targeted Status Berries & Respect Gen 4+ Buffed PP (`10 PP Giga Drain`):** Pre-equip `Pecha/Cheri/Rawst/Chesto` on known status leads, strictly 1 combat turn per call vs Confusion/berryless foes, and never click `FIGHT` while confused.
+  3. **Set `TEXT SPEED: FAST` & `BATTLE STYLE: SET` Immediately at the Start of Attempt #4!**
+- **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], Gen 4+ move PP/abilities, in-battle Bag consumables disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style & Text Speed:** `SET` & `FAST` *(Verified in Options on Turn 1282)*
+- **Battle Style & Text Speed:** **MUST SET TO `SET` & `FAST` IN OPTIONS ON NEW GAME!**
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
@@ -23,6 +25,6 @@
 - Champion: Lv 100
 
 ## Notepad Index
-- `Locations/Encounters` — Attempt #3 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
-- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss teams, learnsets & Attempts #1–#2 post-mortems
-- `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart flows, Naming grid, and battle KO timings
+- `Locations/Encounters` — Attempt #4 Nuzlocke encounter tracker by "Met in" location & Dupes Clause registry
+- `Mechanics/Battle_And_Items` — Verified ROM hack mechanics, wild pools, boss/Gym teams, learnsets & Attempts #1–#3 post-mortems
+- `Mechanics/UI_And_Navigation` — Verified Gen 3 UI, Bag/Berry grids, Nurse Joy/Mart/PC flows, Naming grid, and overworld corridors
