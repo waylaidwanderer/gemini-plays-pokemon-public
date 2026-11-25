@@ -659,14 +659,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress:
   - Room 1 Sidney: ACTIVE (Turn 26404)! Mightyena Lv 46 (#1), Absol Lv 49 (#2), Shiftry Lv 48 (#3), Cacturne Lv 46 (#4), Crawdaunt Lv 48 (#5). SAGE Lv 82 (246/246 HP, Spe 241, 100% PP).
 ## Elite Four Attempt 11 (Active)
-- Status: Room 1 Sidney ACTIVE (Turn 26406)! SAGE Level 82 (246/246 HP, Spe 241, 100% PP).
+- Status: Room 1 Sidney ACTIVE (Turn 26414)! Mightyena Lv 46 DEFEATED! Absol Lv 49 (#2) entering battle. SAGE Level 82 (215/246 HP, Spe 241, 100% PP).
 - In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Plan: 1. Defeat Sidney. 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26413)!
+  - Room 1 Sidney: ACTIVE (Turn 26414)!
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Sidney's #2 Pokémon: Entering battle next! SAGE Lv 82 (215/246 HP, Spe 241).
+    - Absol Lv 49 (#2): Entering battle next! SAGE Lv 82 (215/246 HP, Spe 241).
 
 
 <hr>
@@ -5338,7 +5338,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26413)! Room 1 Sidney ACTIVE! Mightyena Lv 46 DEFEATED! Sidney sending 2nd Pokémon. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26414)! Room 1 Sidney ACTIVE! Mightyena Lv 46 DEFEATED! Absol Lv 49 (#2) entering battle. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (20/20), Facade (19/20), Quick Attack (30/30). Status: OK.
