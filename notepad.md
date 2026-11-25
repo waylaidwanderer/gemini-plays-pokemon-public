@@ -374,7 +374,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Crawdaunt Lv 48 (#5, Final): DEFEATED by 2x Bullet Seed!
     - Northern door to Room 2 (Phoebe) unlocked and open!
 
-  - Room 2 Phoebe: In progress (Turn 26450).
+  - Room 2 Phoebe: DEFEATED (Turn 26468).
     - Dusclops Lv 48 (#1): DEFEATED! Phoebe burned Full Restore #1. SAGE finished with Aerial Ace.
     - Dusclops Lv 51 (#2): DEFEATED! SAGE thawed via Full Heal, Overgrow activated (67/246 HP), Overgrow Bullet Seed critical KO'd Dusclops. Both Pressure users down!
     - Banette Lv 49 (#1, Grudge user): DEFEATED! SAGE used Aerial Ace, KO'd Banette, intentionally absorbing Grudge on Aerial Ace (0/20 PP) to protect Bullet Seed (18/30 PP). SAGE grew to Level 83 (70/249 HP, Overgrow ACTIVE)!
@@ -390,7 +390,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Walrein Lv 53 (#3, Ace): Glacia sent out Walrein! Water/Ice is 2x weak to Grass; Walrein's Sheer Cold has 0% accuracy vs Lv 83 SAGE. SAGE strikes first with Overgrow Bullet Seed!
       - Bullet Seed dealt ~75-80% damage, dropping Walrein Lv 53 to ~20-25% HP!
       - Walrein used Body Slam, KO'ing SAGE (at 10 HP). SAGE fainted. Initiating Sacrificial Revive Protocol via Lilz Lv 30!
-      - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!
+      - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!    - Walrein Lv 53 (#3, Ace): DEFEATED! SAGE returned via Sacrificial Revive at 124 HP, outsped, and finished Walrein with Bullet Seed! Glacia's Ace is defeated!
+
 
 <hr>
 
@@ -5061,11 +5062,11 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 83 (70/249 HP, Overgrow ACTIVE, Spe 244). Bag: 4 Revives, 2 Full Heals, 1 Ultra Ball, ¥10,666.
+- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia in progress (Walrein defeated!). SAGE Lv 83 (124/249 HP, Spe 244). Bag: 3 Revives, 2 Full Heals, 1 Ultra Ball, ¥10,666.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (10/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: FNT (Sacrificial Revive in progress).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 124/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: OK (Revived via Sacrificial Revive).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed for clean Revive).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
@@ -5077,7 +5078,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
 - Ultra Ball x1
-- Revive x4 (4 purchased at League Mart; 4 remaining)
+- Revive x3 (1 used on SAGE; 3 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥10,666 (earned ¥4,900 from Sidney; 4 Revives in Bag)

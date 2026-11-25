@@ -64,7 +64,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Crawdaunt Lv 48 (#5, Final): DEFEATED by 2x Bullet Seed!
     - Northern door to Room 2 (Phoebe) unlocked and open!
 
-  - Room 2 Phoebe: In progress (Turn 26450).
+  - Room 2 Phoebe: DEFEATED (Turn 26468).
     - Dusclops Lv 48 (#1): DEFEATED! Phoebe burned Full Restore #1. SAGE finished with Aerial Ace.
     - Dusclops Lv 51 (#2): DEFEATED! SAGE thawed via Full Heal, Overgrow activated (67/246 HP), Overgrow Bullet Seed critical KO'd Dusclops. Both Pressure users down!
     - Banette Lv 49 (#1, Grudge user): DEFEATED! SAGE used Aerial Ace, KO'd Banette, intentionally absorbing Grudge on Aerial Ace (0/20 PP) to protect Bullet Seed (18/30 PP). SAGE grew to Level 83 (70/249 HP, Overgrow ACTIVE)!
@@ -80,4 +80,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Walrein Lv 53 (#3, Ace): Glacia sent out Walrein! Water/Ice is 2x weak to Grass; Walrein's Sheer Cold has 0% accuracy vs Lv 83 SAGE. SAGE strikes first with Overgrow Bullet Seed!
       - Bullet Seed dealt ~75-80% damage, dropping Walrein Lv 53 to ~20-25% HP!
       - Walrein used Body Slam, KO'ing SAGE (at 10 HP). SAGE fainted. Initiating Sacrificial Revive Protocol via Lilz Lv 30!
-      - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!
+      - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!    - Walrein Lv 53 (#3, Ace): DEFEATED! SAGE returned via Sacrificial Revive at 124 HP, outsped, and finished Walrein with Bullet Seed! Glacia's Ace is defeated!
