@@ -759,6 +759,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Altaria Lv 54 (#3): Reduced to ~40% HP by Facade. Used Double-Edge.
     - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
 
+## Elite Four Attempt 11 (Active)
+- Status: Preparing Attempt 11! All 6 Pokémon 100% restored upon whiteout. SAGE Level 82 (246/246 HP, Spe 241, 100% PP). Restocking Revives and Hyper Potions at League Mart.
+- Inventory Target: 5+ Revives, 4+ Hyper Potions.
+- Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
+- Plan: 1. Restock supplies at Mart counter. 2. Pass gate to Room 1. 3. Sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
+
 
 <hr>
 
@@ -5429,15 +5435,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Concluded (Turn 26391). Defeated Sidney, Phoebe, Glacia, and Drake's Shelgon & Flygon! SAGE grew to Level 82 (200 SpA, 183 Atk, 241 Spe). Whited out; respawning outside League to buy Revives/Potions for Attempt 11!
+- Status: Attempt 11 Preparing (Turn 26392)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). All 5 reserve anchors conscious. Restocking Revives and Hyper Potions at League Mart for championship sweep!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FNT (Sacrificial anchor used Turn 26337).
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FNT (Sacrificial anchor used Turn 26357).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
