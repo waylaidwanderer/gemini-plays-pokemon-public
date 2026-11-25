@@ -403,6 +403,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Flygon Lv 53 (#2): SAGE (162+ Speed) struck first with physical Facade (Slot 3), dealing ~72% damage and dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE.
     - Sacrificial Revive: Cipher Lv 17 was sent out; Turn 26517 Revive restored Lilz to 42 HP. Cipher absorbed Flamethrower and fainted. Lilz Lv 30 sent in on Turn 26520 to execute Revive on SAGE!
       - Turn 26522: Lilz used Revive on Cipher (+6 priority), restoring Cipher to 20 HP. Lilz absorbed Flamethrower and fainted. Sending in conscious Cipher to execute Revive on SAGE!
+      - Turn 26525: Cipher Lv 17 used Revive on SAGE in Row 2 (+6 priority)! SAGE restored to 124/249 HP. Cipher absorbed Flygon's attack and fainted, granting SAGE a completely free switch-in with full 244 Speed!
 
 
 <hr>
@@ -5074,12 +5075,12 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon defeated; Flygon at ~28% HP). SAGE Lv 83 (124/249 HP Revived, full 244 Speed). Lilz FNT. Bag: 1 Revive, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon defeated; Flygon at ~28% HP). SAGE Lv 83 (124/249 HP Revived, full 244 Speed). Lilz & Cipher FNT. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (9/20), Quick Attack (26/30). Status: FNT (Sacrificial Revive in progress).
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 124/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (9/20), Quick Attack (26/30). Status: OK (Revived via Sacrificial Revive).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed vs Flygon).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 20/41. Status: OK (Revived on Turn 26522; conscious anchor).
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed vs Flygon).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
@@ -5090,7 +5091,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
 - Ultra Ball x1
-- Revive x1 (3 used on SAGE; 1 remaining)
+- Revive x0 (4 used; 0 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥15,966 (earned ¥4,900 from Sidney; 4 Revives in Bag)
