@@ -233,7 +233,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **PKMN Trainer Red (`(28, 8)`, `4/5 Defeated!`):** Finish `#5 Lv 9 Squirtle` (`~68% HP`, `Fake Out` burned), walk north into **Rustboro City** `(17, 0)`, heal at the Pokémon Center, **re-equip a held Berry on `Wasabi` (`whose Cheri Berry cured Pikachu's Thunder Wave`)**, grab `HM01 Cut` `(9, 38)`, and catch our **Route 116 West `(5..6, 13..14)`** encounter!
+1. **Rustboro City Prep & Route 116 West Encounter (`Zero Deaths!`):** `PKMN Trainer Red` swept **5-0** (`0` deaths)! Heal at Rustboro Pokémon Center `(16, 38)`, claim `HM01 Cut` at Cutter's House `(9, 38)`, re-equip `Oran Berries` (`on Wasabi, Halcyon, Oberon, Minerva, Riptide`), and catch our **7th Attempt #4 encounter on Route 116 West `(5..6, 13..14)`**!
 
 ## Attempt #4 Active Squad
 1. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), `15/46 HP`, held **`NONE`** (`consumed Cheri Berry curing Red's Pikachu Turn 2031 — re-berry post-battle!`) (`Lv 14: 46 HP / 21 Atk / 18 Def / 17 SpA / 24 SpD / 19 Spe`, **`1: Acid / 2: Yawn / 3: Fire Punch / 4: Sludge Bomb`**).
