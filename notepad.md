@@ -764,7 +764,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - SAGE Lv 81, 0/243 HP (FNT to Hail). 3 Revives, 3 Full Heals, �10,433 cash.
     - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed! SAGE at 27/243 HP (Overgrow ACTIVE!).
-    - Walrein Lv 53 (#3, Ace): Entering battle! 2x weak to Grass; Sheer Cold 0% acc vs Lv 81 Sage.
+    - Walrein Lv 53 (#3, Ace): Active at ~25% HP! SAGE fainted; sending Mochi (Slot 5) for Sacrificial Revive (Turn 26331).
 
 <hr>
 
@@ -5440,7 +5440,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein taking Overgrow Bullet Seed. SAGE 27/243 HP (Lv 82 pending). Bullet Seed 3/30 PP. 2 Revives in Bag.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein at ~25% HP. SAGE 0/243 HP (FNT). Sending Mochi for Sacrificial Revive. 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
