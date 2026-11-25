@@ -358,4 +358,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
     - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
     - Shiftry Lv 48 (#3): DEFEATED on Turn 26423 by 4x Aerial Ace!
-    - Cacturne Lv 46 (#4): ACTIVE! Grass/Dark type, 4x weak to Aerial Ace (18/20 PP). SAGE Lv 82 (215/246 HP, Spe 241).
+    - Cacturne Lv 46 (#4): ACTIVE! 4x weak to Aerial Ace. Aerial Ace OHKO executing on Turn 26425!
+    - Crawdaunt Lv 48 (#5, Final): Up next! 2x weak to STAB Bullet Seed.
