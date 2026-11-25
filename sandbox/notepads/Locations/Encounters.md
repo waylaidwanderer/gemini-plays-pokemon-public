@@ -14,6 +14,7 @@
 - **Route 102:** `Gulpin` ♂ Lv 6 (**`Wasabi`**, Caught at `(39, 5)` — Turn 1778)
 - **Route 104:** `Venonat` ♂ Lv 7 (**`Oberon`**, Caught at `(26, 59)` — Turn 1820)
 - **Petalburg Woods:** `Hoothoot` ♀ Lv 8 (**`Minerva`**, Caught at `(22, 35)` — Turn 1895)
+- **Route 116:** `Yanma` ♂ Lv 9 (**`Tonbo`**, Caught at `(5, 14)` — Turn 2089)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #4)
 - Mudkip / Marshtomp / Swampert
@@ -22,3 +23,4 @@
 - Gulpin / Swalot
 - Venonat / Venomoth
 - Hoothoot / Noctowl
+- Yanma
