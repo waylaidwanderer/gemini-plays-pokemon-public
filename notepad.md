@@ -754,7 +754,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
     - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
   - Room 4 Drake: ACTIVE (Turn 26213)!
-    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2) active! SAGE switched to GUAVA to reset Speed to 239.
+    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2): Used Flamethrower on Guava. Guava fainted, successfully absorbing Flamethrower and resetting SAGE's Speed to neutral 239! SAGE re-entering to face Flygon.
     - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
 
 
@@ -5447,7 +5447,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
 
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Max HP: 101. Status: OK (100% Restored!).
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FNT (Sacrificial anchor used Turn 26226).
 
 
 
