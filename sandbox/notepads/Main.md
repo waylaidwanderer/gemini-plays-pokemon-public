@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26410)! Room 1 Sidney ACTIVE! Mightyena in red (~10% HP). SAGE Lv 82 (215/246 HP, Spe 241) launching Bullet Seed! 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
+- Status: Attempt 11 Active (Turn 26411)! Room 1 Sidney ACTIVE! Sidney burned Full Restore #1 on Mightyena (1 remaining). SAGE Lv 82 (215/246 HP, Spe 241) hitting with Bullet Seed! 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
