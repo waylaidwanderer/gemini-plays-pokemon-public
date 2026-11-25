@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon defeated; Flygon at ~28% HP). SAGE Lv 83 (124/249 HP Revived, full 244 Speed). Lilz & Cipher FNT. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon & Flygon DEFEATED; facing Altaria Lv 54). SAGE Lv 83 (124/249 HP, full 244 Speed). Drake has 3 Pokémon remaining. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 124/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (8/20), Quick Attack (26/30). Status: OK (Revived via Sacrificial Revive).

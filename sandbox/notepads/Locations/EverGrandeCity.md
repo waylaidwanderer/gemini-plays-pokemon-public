@@ -95,3 +95,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Turn 26522: Lilz used Revive on Cipher (+6 priority), restoring Cipher to 20 HP. Lilz absorbed Flamethrower and fainted. Sending in conscious Cipher to execute Revive on SAGE!
       - Turn 26525: Cipher Lv 17 used Revive on SAGE in Row 2 (+6 priority)! SAGE restored to 124/249 HP. Cipher absorbed Flygon's attack and fainted, granting SAGE a completely free switch-in with full 244 Speed!
     - Flygon Lv 53 (#2): DEFEATED! SAGE outsped with 244 Speed and finished Flygon with Facade! Drake is down to 3 Pokémon (Altaria, Kingdra, Salamence)!
+    - Altaria Lv 54 (#3): Drake sent out Altaria! SAGE (124/249 HP, 244 Speed) outspeeds and targets Altaria with physical Facade (Slot 3)!
