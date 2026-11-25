@@ -8,7 +8,7 @@
   - **Self-KO / Flee Hazards:** Oldale Town custom grass `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), and Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128)—use `Sleep` or high-rate balls immediately on flee/self-KO species!
 
 ## Locations & Encounters (Attempt #3)
-- **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295)
+- **Route 101:** `Mudkip ♂` (**"Caspian"**) — Starter from Prof. Birch (`Lv 5`, Turn 1293–1295); **DECEASED Turn 1716** as `Lv 16 Marshtomp` to Rustboro Gym Hiker Marc's `>21-Spe` `#2 Lv 14 Kabuto` `Giga Drain`
 - **Oldale Town:** `Numel ♂` (**"Vulcan"**, Impish, `Oblivious`, held **`Rawst Berry`**, `Lv 5 Ember + Stomp`) — Caught at `Lv 5` in `(14..15, 2)` tall grass (`Turn 1312–1318`)
 - **Route 103:** `Skitty ♀` (**"Velvet"**, Modest, `Cute Charm`, held **`Moon Stone`**, `Lv 4 Assist + Attract + Sing`) — Caught at `Lv 4` in `(15..16, 11)` tall grass (`Turn 1319–1323`); **DECEASED Turn 1701** at `Lv 16` to Rustboro Gym Hiker Marc's `#1 Lv 15 Onix` `Liechi Berry + Selfdestruct` [pending `BOX 14` deposit]
 - **Route 102:** `Meowth ♀` (**"Fortuna"**, Naughty, `Limber`, `Lv 6 Pay Day + Faint Attack`) — Caught at `Lv 6` (`Turn 1331`); **DECEASED Turn 1377** at `Lv 11` vs Fisherman Darian's Feebas [stored `BOX 14` Turn 1399]

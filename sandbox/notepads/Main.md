@@ -1,7 +1,7 @@
 # Nuzlocke Dashboard — Attempt #3
 
 ## Run Status
-- **Attempt:** #3 (`Deaths: 4` — `Fortuna` Lv 11 Meowth died Turn 1377 [stored `BOX 14`]; `Athena` Lv 15 Cubone died Turn 1662 [stored `BOX 14`]; `Velvet` Lv 16 Skitty died Turn 1701 to Marc's `#1 Lv 15 Onix` `Liechi + Selfdestruct`; `Beowulf` Lv 16 Teddiursa died Turn 1713 to Marc's `#2 Lv 14 Kabuto` `Aerial Ace` [deposit both to `BOX 14` post-battle!])
+- **Attempt:** #3 (`Deaths: 5` — `Fortuna` Lv 11 Meowth [Turn 1377]; `Athena` Lv 15 Cubone [Turn 1662, Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct`]; `Velvet` Lv 16 Skitty [Turn 1701, Marc's `#1 Lv 15 Onix` `Liechi + Selfdestruct`]; `Beowulf` Lv 16 Teddiursa [Turn 1713, Marc's `#2 Lv 14 Kabuto` `Aerial Ace`]; `Caspian` Lv 16 Marshtomp [Turn 1716, Marc's `>21-Spe` `#2 Lv 14 Kabuto` `Giga Drain`])
 - **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died Turn 380 to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died Turn 562 to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died Turn 705 to `Dustox` `Toxic + Confusion` self-hits with `Girasol` 5 EXP from `Lv 17`).
 - **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`). Cleared Red, Magma Grunt, Western/Central Route 116, Youngster Joey, Clark, & Janice, and discovered `Oddish` evolves early into **`Lv 16 Gloom` (`+ Magical Leaf`)**, before wiping to Jose's 4-evolved-Bug (`Dustox, Beedrill, Beautifly, Butterfree`) Grass-coverage gauntlet while constrained by the `Lv 16` cap.
 - **TWO GOLDEN RULES FOR ATTEMPT #3:**
