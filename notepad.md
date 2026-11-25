@@ -10,10 +10,10 @@
   - **Self-KO / Flee / Low-Rate Hazards:** Oldale Town `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128), and Route 116 `Lv 9 Chimecho` (`Wish + Psybeam + Thunder Wave`, `catchRate=45`, Turns 1594–1628) requires **early safe chip (`<=40%` HP) + `Sleep` (`Great Ball`)** rather than full-HP Poké Balls!
 
 ## Locations & Encounters (Attempt #4)
-*(None yet — fresh start on Attempt #4!)*
+- **Route 101:** `Mudkip` (**`Riptide`**, Starter — Turn 1738/1742)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #4)
-*(None yet — fresh start on Attempt #4!)*
+- Mudkip / Marshtomp / Swampert
 
 <hr>
 
