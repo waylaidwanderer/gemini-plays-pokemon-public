@@ -448,5 +448,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 (#2): DEFEATED on Turn 26281 by Bullet Seed! SAGE at 90/243 HP.
     - Banette Lv 49 (#3, Grudge user): DEFEATED on Turn 26285 by Aerial Ace! Grudge absorbed by Aerial Ace (PP dropped to 0). Bullet Seed PP completely protected at 12/30 PP! SAGE at 90/243 HP.
     - Sableye Lv 50 (#4): Took Bullet Seed on Turn 26289, dropped to deep red (~10% HP). SAGE at 90/243 HP. Resolving turn on Turn 26290. Sableye Lv 50 (#4): DEFEATED on Turn 26290 by Bullet Seed!
-    - Banette Lv 49 (#5, Final): Entering field on Turn 26291. SAGE attacking with Bullet Seed. (No Grudge on Banette #2). 3 Revives in Bag.
+    - Banette Lv 49 (#5, Final): Active on field at 100% HP. SAGE attacking with Bullet Seed (Slot 1) on Turn 26292. (No Grudge on Banette #2). 3 Revives in Bag.
     - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.

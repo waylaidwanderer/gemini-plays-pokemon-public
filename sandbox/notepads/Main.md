@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26291)! SAGE Level 81 (90/243 HP, 239 Spe). 4/5 Pokémon defeated. Final Pokémon Banette #2 on field, SAGE attacking with Bullet Seed!
+- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26292)! SAGE Level 81 (90/243 HP, 239 Spe). Final Pokémon Banette #2 on field. SAGE attacking with Bullet Seed! 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
