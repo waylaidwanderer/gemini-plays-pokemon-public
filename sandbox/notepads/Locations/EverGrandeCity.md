@@ -92,4 +92,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shelgon Lv 52 (#1): Shelgon used Protect on Turn 1. SAGE struck with Facade on Turn 2 (~70% dmg). Drake burned Full Restore #1 on Turn 3! SAGE hit with Quick Attack and Facade, then finished Shelgon with Quick Attack. Shelgon DEFEATED!
     - Flygon Lv 53 (#2): SAGE (162+ Speed) struck first with physical Facade (Slot 3), dealing ~72% damage and dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE.
     - Sacrificial Revive: Cipher Lv 17 was sent out; Turn 26517 Revive restored Lilz to 42 HP. Cipher absorbed Flamethrower and fainted. Lilz Lv 30 sent in on Turn 26520 to execute Revive on SAGE!
-      - Turn 26522: Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz absorbed Flygon's attack and fainted, granting SAGE a completely free switch-in with full 244 Speed!
+      - Turn 26522: Lilz used Revive on Cipher (+6 priority), restoring Cipher to 20 HP. Lilz absorbed Flamethrower and fainted. Sending in conscious Cipher to execute Revive on SAGE!
