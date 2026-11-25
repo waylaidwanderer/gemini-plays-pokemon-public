@@ -359,6 +359,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Attempt 8 (Turn 26092): Defeated Sidney; whited out at Phoebe's Dusclops #2.
 - Attempt 9 (Turn 26231): Defeated Sidney, Phoebe, Glacia. Defeated Drake's Shelgon Lv 52. SAGE grew to Lv 81. Whited out at Drake's Flygon.
 - Attempt 10 (Turn 26391): Masterclass run! Defeated Sidney, Phoebe (overcame Curse/Grudge via 2 sacrificial revives), Glacia (swept all 5 via 3 sacrificial revives), and Drake's Shelgon & Flygon! Scouted Drake's moves: Shelgon Protect/Double-Edge, Flygon Flamethrower (49 dmg to Lv 82 SAGE), Altaria Double-Edge. SAGE leveled up to Level 82 (246 HP, 200 SpA, 183 Atk, 241 Spe). Total cash peaked at ¥15,733 (halved to ¥7,866 upon whiteout).
+- Attempt 11 (Turn 26545): Masterclass run! Defeated Sidney, Phoebe, Glacia, and Drake's Shelgon, Flygon, & Altaria! SAGE leveled up to Level 83 (249 HP, 244 Spe, 202 SpA, 185 Atk). Total cash peaked at ¥15,966 (halved to ¥7,983 upon whiteout). All 4 purchased Revives were executed with masterclass Sacrificial Revive precision. Setting up Attempt 12 with 5 Revives!
 
 ## Elite Four Attempt 11 (Active)
 - Status: Room 1 Sidney DEFEATED on Turn 26428! Earned ¥4,900 prize money (Total cash: ¥5,566). SAGE Level 82 (215/246 HP, Spe 241).
@@ -5089,7 +5090,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, Cipher, Cobalu, & Mochi FNT. Guava active on field (101/101 HP). Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 concluded; Attempt 12 preparing! Whited out at Drake's Ace Salamence (~25% HP). Cash: ¥7,983. SAGE Lv 83 (249/249 HP, 244 Speed, full PP). Entire party restored! Ready to buy 5 Revives at Mart.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (4/20), Quick Attack (26/30). Status: FNT (Fainted vs Salamence).
@@ -5108,7 +5109,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x0 (4 used; 0 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥15,966 (earned ¥4,900 from Sidney; 4 Revives in Bag)
+- Money: ¥7,983 (halved from ¥15,966 upon whiteout; buying 5 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

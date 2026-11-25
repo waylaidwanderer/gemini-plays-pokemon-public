@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, Cipher, Cobalu, & Mochi FNT. Guava active on field (101/101 HP). Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 concluded; Attempt 12 preparing! Whited out at Drake's Ace Salamence (~25% HP). Cash: ¥7,983. SAGE Lv 83 (249/249 HP, 244 Speed, full PP). Entire party restored! Ready to buy 5 Revives at Mart.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (4/20), Quick Attack (26/30). Status: FNT (Fainted vs Salamence).
@@ -22,7 +22,7 @@
 - Revive x0 (4 used; 0 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥15,966 (earned ¥4,900 from Sidney; 4 Revives in Bag)
+- Money: ¥7,983 (halved from ¥15,966 upon whiteout; buying 5 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

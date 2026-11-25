@@ -49,6 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Attempt 8 (Turn 26092): Defeated Sidney; whited out at Phoebe's Dusclops #2.
 - Attempt 9 (Turn 26231): Defeated Sidney, Phoebe, Glacia. Defeated Drake's Shelgon Lv 52. SAGE grew to Lv 81. Whited out at Drake's Flygon.
 - Attempt 10 (Turn 26391): Masterclass run! Defeated Sidney, Phoebe (overcame Curse/Grudge via 2 sacrificial revives), Glacia (swept all 5 via 3 sacrificial revives), and Drake's Shelgon & Flygon! Scouted Drake's moves: Shelgon Protect/Double-Edge, Flygon Flamethrower (49 dmg to Lv 82 SAGE), Altaria Double-Edge. SAGE leveled up to Level 82 (246 HP, 200 SpA, 183 Atk, 241 Spe). Total cash peaked at ¥15,733 (halved to ¥7,866 upon whiteout).
+- Attempt 11 (Turn 26545): Masterclass run! Defeated Sidney, Phoebe, Glacia, and Drake's Shelgon, Flygon, & Altaria! SAGE leveled up to Level 83 (249 HP, 244 Spe, 202 SpA, 185 Atk). Total cash peaked at ¥15,966 (halved to ¥7,983 upon whiteout). All 4 purchased Revives were executed with masterclass Sacrificial Revive precision. Setting up Attempt 12 with 5 Revives!
 
 ## Elite Four Attempt 11 (Active)
 - Status: Room 1 Sidney DEFEATED on Turn 26428! Earned ¥4,900 prize money (Total cash: ¥5,566). SAGE Level 82 (215/246 HP, Spe 241).
