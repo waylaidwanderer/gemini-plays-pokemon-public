@@ -6,7 +6,7 @@
 - One encounter per "Met in" location (shared across grass, water, fishing, starter, and gifts).
 - Dupes Clause active across evolution families obtained in **Attempt #4** (resets each attempt).
 - **Wild Held Item, Low Catch-Rate & Self-KO / Flee Hazards:**
-  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE`; `Route 103 Skitty` held `MOON STONE`; `Oldale Vulpix/Numel` held `RAWST BERRY`!).
+  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE`; `Route 103 Skitty` held `MOON STONE`; `Oldale Vulpix/Numel` held `RAWST BERRY`; **`Route 102 Gulpin` held `BIG PEARL` [`¥3,750` sell value]**!).
   - **Self-KO / Flee / Low-Rate Hazards:** Oldale Town `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128), and Route 116 `Lv 9 Chimecho` (`Wish + Psybeam + Thunder Wave`, `catchRate=45`, Turns 1594–1628) requires **early safe chip (`<=40%` HP) + `Sleep` (`Great Ball`)** rather than full-HP Poké Balls!
 
 ## Locations & Encounters (Attempt #4)
@@ -108,7 +108,7 @@
 - **Oddish -> Gloom (`Mandrake` Attempt #2):** `Chlorophyll`, starts `Lv 8 Mega Drain (10 PP) + Acid (30 PP)` -> **`Lv 14 Toxic`** (`Lv 15–16` no Oddish move) -> **evolves early into `GLOOM` at `Lv 16` (down from vanilla `Lv 21`!) and immediately learns `MAGICAL LEAF` (60 BP never-miss Grass, 20 PP!)**.
 - **Attempt #1 Species Reference:**
   - **Sunkern -> Sunflora:** Wild `Sunkern` (`held Sun Stone`) `Lv 4 Absorb` -> `Lv 6 Growth` (5 PP) -> `Lv 13 Mega Drain`; **Sunflora** (`Chlorophyll`) learns **`Lv 16 Synthesis`** (`Lv 17` no move).
-  - **Gulpin:** Starts `Lv 6 Acid + Yawn` (instant sleep!) -> **`Lv 9 Fire Punch`** -> **`Lv 14 Sludge Bomb` (16 PP)** (`Lv 15–16` no moves).
+  - **Gulpin (`Wasabi` Gentle Attempt #4; `Matcha` Attempt #1):** **`Liquid Ooze`** (`reverses Giga Drain / Mega Drain / Leech Life / Leech Seed healing into self-damage — hard-counters Marc's Kabuto & Jose's bugs!`), held **`BIG PEARL`** *(Verified Turn 1780 `#68, #93`)*, starts `Lv 6 Acid (30 PP) + Yawn (10 PP, instant sleep!)` (`Gentle Lv 6: 25 HP / 11 Atk / 9 Def / 10 SpA / 13 SpD / 11 Spe`) -> **`Lv 9 Fire Punch`** -> **`Lv 14 Sludge Bomb` (16 PP)** (`Lv 15–16` no moves).
   - **Voltorb:** `Static`, starts `Lv 9 ThunderShock + Secret Power + Shock Wave` (`Lv 10–14` no moves).
 - **Expanded Route Trainer Mechanics & Key Mini-Bosses:** Regular route trainers carry 3–4 Pokémon (up from 1–2 in vanilla) with upgraded coverage and held items:
   - **Route 102 Trainers:** `Youngster Calvin (33, 14)` carries **3 Pokémon** (`Lv 6 Sentret [Super Fang, Quick Attack]`, `Lv 6 Zigzagoon`, `Lv 6 Poochyena` — *Turns 798–800, 1326*); rotating `Bug Catcher Rick (25, 14)` (`Up/Down`) carries **4 Pokémon** (`Lv 5 Caterpie`, `Lv 5 Wurmple`, `Lv 5 Kakuna`, `Lv 5 Cascoon` — *Turns 804–806*); `Lass Tiana (15, 5)` carries **3 Pokémon** (`Lv 6 Igglybuff [Present]`, `Lv 6 Sunkern [Leech Seed, Protect, Berry Juice]`, `Lv 5 Togepi [Substitute, Metronome, Berry Juice]` — *Turns 811–815, 1340*); `Bug Catcher Allen (13, 2)` carries **4 Pokémon** (`Lv 7 Weedle`, `Lv 7 Silcoon`, `Lv 7 Wurmple`, `Lv 7 Metapod` — *Turns 818–820*).
@@ -231,6 +231,7 @@
 ## Attempt #4 Active Squad
 1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `Tackle / Bubble / Mud Sport / Water Gun`).
 2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `Rawst Berry` taken to Bag (`x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`; `Lv 9: 28 HP / 14 Atk / 10 Def / 17 SpA / 18 SpD / 17 Spe`, `Ember / Quick Attack / Roar`).
-3. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, held `NONE` (`Lv 4: 17 HP / 6 Atk / 7 Def / 11 SpA / 7 SpD / 11 Spe`, starts with **`Water Gun (25 PP) + Wing Attack (35 PP)`** at `Lv 4`!).
+3. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, held `NONE` (`Lv 4: 17 HP / 6 Atk / 7 Def / 11 SpA / 7 SpD / 11 Spe`; `Lv 6: 21 HP / 7 Atk / 8 Def / 13 SpA / 10 SpD / 16 Spe`, `Water Gun / Wing Attack`).
+4. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), held **`Big Pearl`** (`taken to Bag! Lv 6: 25 HP / 11 Atk / 9 Def / 10 SpA / 13 SpD / 11 Spe`, `Acid / Yawn`).
 
 <hr>

@@ -4,7 +4,7 @@
 - One encounter per "Met in" location (shared across grass, water, fishing, starter, and gifts).
 - Dupes Clause active across evolution families obtained in **Attempt #4** (resets each attempt).
 - **Wild Held Item, Low Catch-Rate & Self-KO / Flee Hazards:**
-  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE`; `Route 103 Skitty` held `MOON STONE`; `Oldale Vulpix/Numel` held `RAWST BERRY`!).
+  - Check `SUMMARY Page 2` for wild held items on every catch (`Route 103 Sunkern` held `SUN STONE`; `Route 103 Skitty` held `MOON STONE`; `Oldale Vulpix/Numel` held `RAWST BERRY`; **`Route 102 Gulpin` held `BIG PEARL` [`¥3,750` sell value]**!).
   - **Self-KO / Flee / Low-Rate Hazards:** Oldale Town `Lv 3 Growlithe` `(14..15, 2)` knows **`Roar`** (Turn 111), Route 116 `Lv 9 Grimer` `(5, 14)` knows **`Memento`** (Turn 1128), and Route 116 `Lv 9 Chimecho` (`Wish + Psybeam + Thunder Wave`, `catchRate=45`, Turns 1594–1628) requires **early safe chip (`<=40%` HP) + `Sleep` (`Great Ball`)** rather than full-HP Poké Balls!
 
 ## Locations & Encounters (Attempt #4)
