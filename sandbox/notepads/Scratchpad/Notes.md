@@ -17,3 +17,4 @@
 
 ## Attempt #4 Active Squad
 1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `Tackle / Bubble / Mud Sport / Water Gun`).
+2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `Rawst Berry` taken to Bag (`x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`, `Ember / Quick Attack`).
