@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein at ~25% HP. SAGE 0/243 HP (FNT). Sending Mochi for Sacrificial Revive. 2 Revives in Bag.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 & #2 DEFEATED! Walrein at ~25% HP. SAGE revived to 121/243 HP. Mochi absorbing attack. 1 Revive in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)

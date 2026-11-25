@@ -454,4 +454,4 @@ The ultimate destination for Pok√©mon Trainers in the Hoenn region, located atop
     - SAGE Lv 81, 0/243 HP (FNT to Hail). 3 Revives, 3 Full Heals, •10,433 cash.
     - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
     - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed! SAGE at 27/243 HP (Overgrow ACTIVE!).
-    - Walrein Lv 53 (#3, Ace): Active at ~25% HP! SAGE fainted; sending Mochi (Slot 5) for Sacrificial Revive (Turn 26331).
+    - Walrein Lv 53 (#3, Ace): Active at ~25% HP! SAGE revived to 121/243 HP (Turn 26335). Mochi absorbing attack.
