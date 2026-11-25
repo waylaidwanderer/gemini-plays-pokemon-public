@@ -23,7 +23,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 6. [ ] Challenge and defeat the Elite Four & Champion:
     - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 11, Turn 26428)!
-    - [ ] Elite Four Member #2 Phoebe
+    - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
@@ -69,3 +69,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 (#2): DEFEATED! SAGE thawed via Full Heal, Overgrow activated (67/246 HP), Overgrow Bullet Seed critical KO'd Dusclops. Both Pressure users down!
     - Banette Lv 49 (#1, Grudge user): DEFEATED! SAGE used Aerial Ace, KO'd Banette, intentionally absorbing Grudge on Aerial Ace (0/20 PP) to protect Bullet Seed (18/30 PP). SAGE grew to Level 83 (70/249 HP, Overgrow ACTIVE)!
     - Sableye Lv 50 (#4): DEFEATED! SAGE used Overgrow-boosted Bullet Seed, KO'd Sableye in one turn! Facing final Pokémon Banette Lv 49 (#2).
+    - Banette Lv 49 (#2, Final): DEFEATED! SAGE used Overgrow Bullet Seed, KO'd Banette! ALL 5 OF PHOEBE'S POKÉMON DEFEATED!
+    - ELITE FOUR MEMBER #2 PHOEBE DEFEATED (Attempt 11, Turn 26468)! Prize: ¥5,100 (Total: ¥10,666). Door to Room 3 (Glacia) unlocked!

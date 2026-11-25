@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 2 Phoebe in progress (Turn 26465: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED; facing Sableye Lv 50). SAGE Lv 83 (70/249 HP, Overgrow ACTIVE, Spe 244). Bag: 4 Revives, 2 Full Heals, 1 Ultra Ball, ¥5,566.
+- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 83 (70/249 HP, Overgrow ACTIVE, Spe 244). Bag: 4 Revives, 2 Full Heals, 1 Ultra Ball, ¥10,666.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 70/249 (Overgrow ACTIVE). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (18/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 70/249 (Overgrow ACTIVE). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (17/30), Aerial Ace (0/20 - Grudged), Facade (17/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -22,7 +22,7 @@
 - Revive x4 (4 purchased at League Mart; 4 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,566 (earned ¥4,900 from Sidney; 4 Revives in Bag)
+- Money: ¥10,666 (earned ¥4,900 from Sidney; 4 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -31,7 +31,7 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 11, Turn 26428)!
-    - [ ] Elite Four Member #2 Phoebe
+    - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
