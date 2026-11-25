@@ -8,11 +8,11 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26255)! SAGE Level 81 (125/243 HP, 239 Spe). 4/5 Pokémon defeated! Final Pokémon Crawdaunt Lv 48 entering!
+- Status: Attempt 10 Room 1 Sidney DEFEATED (Turn 26256)! Cash: ¥5,333. SAGE Level 81 (125/243 HP). 5 Revives in Bag. Advancing to Room 2 (Phoebe)!
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 125/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (-1 Acc). Moves: Bullet Seed (29/30), Aerial Ace (11/20), Facade (18/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 125/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (-1 Acc). Moves: Bullet Seed (28/30), Aerial Ace (11/20), Facade (18/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -36,7 +36,7 @@
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ¥433 (purchased 5 Revives for ¥7,500; 5 Revives in Bag)
+- Money: ¥5,333 (earned ¥4,900 from Sidney; 5 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 
@@ -53,7 +53,7 @@
 
 5. [ ] Challenge the Elite Four:
 
-    - [ ] Elite Four Member #1 Sidney
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 10, Turn 26256)!
 
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
