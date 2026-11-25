@@ -645,30 +645,25 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 ## Elite Four Attempt 6 (Archived Turn 25881)
-
-
-
 - Status: SAGE Lv 78 (0/234 HP FNT, Spe 230). Sidney, Phoebe, Glacia ALL DEFEATED! Cash: ¥15,343. In Bag: 0 Revives, 0 Hyper Potions, 3 Full Heals. Room 4 Drake battle active!
-
-
-
 - Supplies confirmed: 0 Revives, 0 Hyper Potions, 3 Full Heals, ¥15,343 cash.
-
-
-
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26404)! Mightyena Lv 46 (#1), Absol Lv 49 (#2), Shiftry Lv 48 (#3), Cacturne Lv 46 (#4), Crawdaunt Lv 48 (#5). SAGE Lv 82 (246/246 HP, Spe 241, 100% PP).
+  - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900.
+  - Room 2 Phoebe: DEFEATED on Turn 25737! Earned ¥5,100.
+  - Room 3 Glacia: ALL 5 POKÉMON DEFEATED (Turn 25811)! Earned ¥5,300.
+  - Room 4 Drake: Shelgon, Flygon, Altaria DEFEATED! Whited out on Turn 25881.
+
 ## Elite Four Attempt 11 (Active)
-- Status: Room 1 Sidney ACTIVE (Turn 26414)! Mightyena Lv 46 DEFEATED! Absol Lv 49 (#2) entering battle. SAGE Level 82 (215/246 HP, Spe 241, 100% PP).
+- Status: Room 1 Sidney ACTIVE (Turn 26427)! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Final Pokémon Crawdaunt Lv 48 (#5) entering battle. SAGE Level 82 (215/246 HP, Spe 241, 100% PP).
 - In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Plan: 1. Defeat Sidney. 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26414)!
+  - Room 1 Sidney: ACTIVE (Turn 26427)!
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
     - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
     - Shiftry Lv 48 (#3): DEFEATED on Turn 26423 by 4x Aerial Ace!
-    - Cacturne Lv 46 (#4): DEFEATED on Turn 26425 by 4x Aerial Ace!
+    - Cacturne Lv 46 (#4): DEFEATED on Turn 26426 by 4x Aerial Ace!
     - Crawdaunt Lv 48 (#5, Final): ACTIVE! Water/Dark type, 2x weak to STAB Bullet Seed (200 SpA). SAGE Lv 82 (215/246 HP, Spe 241).
 
 
@@ -5341,7 +5336,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26426)! Room 1 Sidney ACTIVE! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Sidney sending final Pokémon Crawdaunt Lv 48 (#5). SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26427)! Room 1 Sidney ACTIVE! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Final Pokémon Crawdaunt Lv 48 (#5) entering battle. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
