@@ -334,7 +334,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 6. [ ] Challenge and defeat the Elite Four & Champion:
     - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 11, Turn 26428)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -395,7 +395,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
       - SAGE's Facade dealt ~75% damage, dropping Glalie to ~25% HP! Glalie counter-attacked with Icy Wind.
       - SAGE finished Glalie Lv 50 (#4) with Facade! Glacia is down to her 5th and FINAL Pokémon: Glalie Lv 52 (#5)!
-    - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!
+    - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!      - Glalie Lv 52 (#5): DEFEATED! SAGE finished Glalie with Facade! ALL 5 OF GLACIA'S POKÉMON DEFEATED!
+    - ELITE FOUR MEMBER #3 GLACIA DEFEATED (Attempt 11, Turn 26498)! Prize: ¥5,300 (Total: ¥15,966). Door to Room 4 (Drake) unlocked!
+
 
 <hr>
 
@@ -5066,10 +5068,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Room 3 Glacia in progress (Walrein defeated!). SAGE Lv 83 (124/249 HP, Spe 244). Bag: 3 Revives, 2 Full Heals, 1 Ultra Ball, ¥10,666.
+- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Sidney, Phoebe, & Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 83 (~73/249 HP, Overgrow ACTIVE, Spe 244). Bag: 3 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 88/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (14/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 88/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (13/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed for clean Revive).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5085,7 +5087,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x3 (1 used on SAGE; 3 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥10,666 (earned ¥4,900 from Sidney; 4 Revives in Bag)
+- Money: ¥15,966 (earned ¥4,900 from Sidney; 4 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5095,7 +5097,7 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 11, Turn 26428)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

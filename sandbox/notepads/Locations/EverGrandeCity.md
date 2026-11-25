@@ -24,7 +24,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 6. [ ] Challenge and defeat the Elite Four & Champion:
     - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 11, Turn 26428)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -85,4 +85,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
       - SAGE's Facade dealt ~75% damage, dropping Glalie to ~25% HP! Glalie counter-attacked with Icy Wind.
       - SAGE finished Glalie Lv 50 (#4) with Facade! Glacia is down to her 5th and FINAL Pokémon: Glalie Lv 52 (#5)!
-    - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!
+    - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!      - Glalie Lv 52 (#5): DEFEATED! SAGE finished Glalie with Facade! ALL 5 OF GLACIA'S POKÉMON DEFEATED!
+    - ELITE FOUR MEMBER #3 GLACIA DEFEATED (Attempt 11, Turn 26498)! Prize: ¥5,300 (Total: ¥15,966). Door to Room 4 (Drake) unlocked!
