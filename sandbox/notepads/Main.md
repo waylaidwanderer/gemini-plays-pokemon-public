@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26376)! SAGE Lv 82 (108/246 HP, Spe 241) launching Facade to finish Shelgon Lv 52! 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
+- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26377)! Shelgon Lv 52 at ~20% HP. SAGE Lv 82 (108/246 HP, Spe 241) launching Facade! 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 108/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (9/20), Quick Attack (27/30). Status: OK (Revived!).
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 108/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (8/20), Quick Attack (27/30). Status: OK (Revived!).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).
