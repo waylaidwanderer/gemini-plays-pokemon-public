@@ -13,7 +13,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **Catch Route 116 West `Lv 9 Yanma` & Prep Rustboro Gym (`Zero Deaths!`):** Wild `Lv 9 CompoundEyes Yanma ♂` (`Quick Attack + Silver Wind`) is asleep at Route 116 West `(5, 14)`! Catch and nickname him **`Tonbo`**, log in `Locations/Encounters`, return to Rustboro Pokémon Center `(16, 38)` to inspect `Tonbo`'s full moveset/held item on PC `PKMN DATA` / `SUMMARY`, and finalize our 6-Pokémon Rustboro Gym squad!
+1. **Catch Route 116 West `Lv 9 Speed Boost Yanma` & Prep Rustboro Gym (`Zero Deaths!`):** Wild `Lv 9 Speed Boost Yanma ♂` (`Quick Attack + Silver Wind`) is asleep at Route 116 West `(5, 14)`! Catch and nickname him **`Tonbo`**, log in `Locations/Encounters`, return to Rustboro Pokémon Center `(16, 38)` to inspect `Tonbo`'s full moveset/held item on PC `PKMN DATA`, and finalize our 6-Pokémon Rustboro Gym squad!
 
 ## Attempt #4 Active Squad
 1. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), `32/46 HP`, held **`Cheri Berry`** (`Lv 14: 46 HP / 21 Atk / 18 Def / 17 SpA / 24 SpD / 19 Spe`, **`1: Acid / 2: Yawn / 3: Fire Punch / 4: Sludge Bomb`**).
