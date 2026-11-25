@@ -444,5 +444,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
     - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
   - Room 4 Drake: ACTIVE (Turn 26213)!
-    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2): Used Flamethrower on Guava. Guava fainted, successfully absorbing Flamethrower and resetting SAGE's Speed to neutral 239! SAGE re-entered on Turn 26228 at full 239 Speed with Overgrow ACTIVE (32/243 HP)! Attacking Flygon with Facade on Turn 26229.
+    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2): Used Flamethrower on Guava. Guava fainted, successfully absorbing Flamethrower and resetting SAGE's Speed to neutral 239! SAGE re-entered on Turn 26228 at full 239 Speed with Overgrow ACTIVE (32/243 HP)! SAGE hit Flygon with Facade on Turn 26229 (Flygon down to ~45% HP). Flygon used Flamethrower.
     - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
