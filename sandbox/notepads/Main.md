@@ -61,3 +61,5 @@
 - In-Battle Party Targeting Grid (Lilz Active): When Lilz (Slot 2) is active in the left box, Row 1 of the right column is CIPHER (Slot 3) and Row 2 is SAGE (Slot 1). To target SAGE when Lilz is active, press Right then Down.
 - Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
 - Drake Send-Out Order in Emerald: Drake sends out Shelgon Lv 52 (#1), Flygon Lv 53 (#2), Altaria Lv 54 (#3), Ace Salamence Lv 55 (#4), and Kingdra Lv 53 (#5).
+- Aerial Ace Sand-Attack Bypass: Aerial Ace ignores accuracy and evasion modifiers, guaranteeing a 100% hit rate against Sand-Attack users (such as Sidney's Mightyena).
+- Pokémon League Lobby Mart Navigation: From lobby entrance (9, 11), walk Up x6, Right x7, Up x1 to reach Mart counter (16, 4). Revives are sold at Row 6 for ¥1,500 each.
