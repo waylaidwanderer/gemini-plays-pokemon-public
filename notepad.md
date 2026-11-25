@@ -417,6 +417,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Cobalu survived Rock Slide with 5 HP (4x resisted!) and struck Salamence with Strength! Salamence attacks.
       - Flamethrower KO'd Cobalu. Cobalu fainted. Sending in Mochi Lv 11!
       - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.
+      - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
 
 
 <hr>
@@ -5088,7 +5089,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, & Cipher FNT. Cobalu FNT. Mochi FNT. Guava entering. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, Cipher, Cobalu, & Mochi FNT. Guava active on field (101/101 HP). Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (4/20), Quick Attack (26/30). Status: FNT (Fainted vs Salamence).
