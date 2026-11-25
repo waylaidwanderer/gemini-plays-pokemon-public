@@ -5436,7 +5436,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26360)! Glacia has 0 Full Restores. Glalie #1 in red taking Quick Attack. Glalie #2 (Lv 52, final) up next. SAGE Lv 82 (123/246 HP, Spe 241).
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26361)! Sealeo #1, Sealeo #2, Walrein Ace, and Glalie #1 ALL DEFEATED! Glacia sending in her 5th and final Pokémon: Glalie #2 (Lv 52)! Glacia has 0 Full Restores. SAGE Lv 82 (123/246 HP, Spe 241).
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 123/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (13/20), Quick Attack (29/30). Status: OK (Revived!).
