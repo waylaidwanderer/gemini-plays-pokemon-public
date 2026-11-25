@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26238)! SAGE Level 81 (243/243 HP, 239 Spe). 5 Revives in Bag. Mightyena on field!
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26241)! SAGE Level 81 (243/243 HP, 239 Spe). 5 Revives in Bag. Mightyena DEFEATED! Shiftry entering!
 
 
 ## Party (100% Restored Upon Whiteout)

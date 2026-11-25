@@ -746,7 +746,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In Bag: 5 Revives, 3 Full Heals, ¥433 cash.
 - Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by Aerial Ace (bypassing Sand-Attack accuracy debuff)! SAGE at 243/243 HP. Shiftry Lv 48 entering next.
+  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Shiftry Lv 48 entering next.
 
 
 
@@ -5424,7 +5424,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26238)! SAGE Level 81 (243/243 HP, 239 Spe). 5 Revives in Bag. Mightyena on field!
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26241)! SAGE Level 81 (243/243 HP, 239 Spe). 5 Revives in Bag. Mightyena DEFEATED! Shiftry entering!
 
 
 ## Party (100% Restored Upon Whiteout)
