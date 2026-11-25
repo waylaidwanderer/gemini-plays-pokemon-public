@@ -9,6 +9,8 @@
 
 ## Locations & Encounters (Attempt #4)
 - **Route 101:** `Mudkip` (**`Riptide`**, Starter — Turn 1738/1742)
+- **Oldale Town:** `Vulpix` ♀ Lv 5 (**`Tamamo`**, Caught at `(15, 2)` — Turn 1760)
 
 ## Obtained Evolution Families (Dupes Clause — Attempt #4)
 - Mudkip / Marshtomp / Swampert
+- Vulpix / Ninetales
