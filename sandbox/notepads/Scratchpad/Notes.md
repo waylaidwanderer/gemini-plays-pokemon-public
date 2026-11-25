@@ -17,4 +17,5 @@
 
 ## Attempt #4 Active Squad
 1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `Tackle / Bubble / Mud Sport / Water Gun`).
-2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `Rawst Berry` taken to Bag (`x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`, `Ember / Quick Attack`).
+2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `Rawst Berry` taken to Bag (`x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`; `Lv 9: 28 HP / 14 Atk / 10 Def / 17 SpA / 18 SpD / 17 Spe`, `Ember / Quick Attack / Roar`).
+3. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, held `NONE` (`Lv 4: 17 HP / 6 Atk / 7 Def / 11 SpA / 7 SpD / 11 Spe`, starts with **`Water Gun (25 PP) + Wing Attack (35 PP)`** at `Lv 4`!).
