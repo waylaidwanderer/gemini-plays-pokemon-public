@@ -81,3 +81,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Bullet Seed dealt ~75-80% damage, dropping Walrein Lv 53 to ~20-25% HP!
       - Walrein used Body Slam, KO'ing SAGE (at 10 HP). SAGE fainted. Initiating Sacrificial Revive Protocol via Lilz Lv 30!
       - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!    - Walrein Lv 53 (#3, Ace): DEFEATED! SAGE returned via Sacrificial Revive at 124 HP, outsped, and finished Walrein with Bullet Seed! Glacia's Ace is defeated!
+
+    - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
