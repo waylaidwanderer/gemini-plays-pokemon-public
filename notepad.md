@@ -406,6 +406,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Turn 26525: Cipher Lv 17 used Revive on SAGE in Row 2 (+6 priority)! SAGE restored to 124/249 HP. Cipher absorbed Flygon's attack and fainted, granting SAGE a completely free switch-in with full 244 Speed!
     - Flygon Lv 53 (#2): DEFEATED! SAGE outsped with 244 Speed and finished Flygon with Facade! Drake is down to 3 Pokémon (Altaria, Kingdra, Salamence)!
     - Altaria Lv 54 (#3): Drake sent out Altaria! SAGE (124/249 HP, 244 Speed) outspeeds and targets Altaria with physical Facade (Slot 3)!
+      - SAGE struck Altaria Lv 54 (#3) with physical Facade for ~85 damage! Altaria dropped below half health.
 
 
 <hr>
@@ -5080,7 +5081,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon & Flygon DEFEATED; facing Altaria Lv 54). SAGE Lv 83 (124/249 HP, full 244 Speed). Drake has 3 Pokémon remaining. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 124/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (8/20), Quick Attack (26/30). Status: OK (Revived via Sacrificial Revive).
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 124/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (7/20), Quick Attack (26/30). Status: OK (Revived via Sacrificial Revive).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed vs Flygon).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed vs Flygon).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
