@@ -668,8 +668,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
     - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
     - Shiftry Lv 48 (#3): DEFEATED on Turn 26423 by 4x Aerial Ace!
-    - Cacturne Lv 46 (#4): ACTIVE! 4x weak to Aerial Ace. Aerial Ace OHKO executing on Turn 26425!
-    - Crawdaunt Lv 48 (#5, Final): Up next! 2x weak to STAB Bullet Seed.
+    - Cacturne Lv 46 (#4): DEFEATED on Turn 26425 by 4x Aerial Ace!
+    - Crawdaunt Lv 48 (#5, Final): ACTIVE! Water/Dark type, 2x weak to STAB Bullet Seed (200 SpA). SAGE Lv 82 (215/246 HP, Spe 241).
 
 
 <hr>
@@ -5341,7 +5341,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26425)! Room 1 Sidney ACTIVE! Mightyena, Absol, Shiftry DEFEATED! Cacturne Lv 46 (#4) taking 4x Aerial Ace! SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26426)! Room 1 Sidney ACTIVE! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Sidney sending final Pokémon Crawdaunt Lv 48 (#5). SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
