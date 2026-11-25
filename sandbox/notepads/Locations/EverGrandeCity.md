@@ -358,23 +358,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 prize money (Total cash: ¥15,733)!
-    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
-    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed!
-    - Walrein Lv 53 (#3, Ace): DEFEATED on Turn 26340 by Facade! SAGE grew to Lv 82!
-    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED on Turn 26360 by Quick Attack!
-    - Glalie Lv 52 (#5, Final): DEFEATED on Turn 26364 by Quick Attack!
-    - Northern door to Room 4 (Drake) unlocked and open!
+  - Room 3 Glacia: ALL 5 POKéMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
 
 
-
-  - Room 4 Drake: ACTIVE (Turn 26369)!
-    - SAGE Lv 82 (108/246 HP, Spe 241). 3 Bullet Seed PP, 11 Facade PP, 27 Quick Attack PP. Total cash: ¥15,733.
-    - Shelgon Lv 52 (#1): Active! Dragon type, taking physical Facade.
-    - Altaria Lv 54 (#2): Up next!
-    - Flygon Lv 53 (#3): Up next!
-    - Kingdra Lv 53 (#4): Up next!
-    - Salamence Lv 55 (#5, Ace): Drake's Ace!
 
 
 
@@ -404,13 +390,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: ¥5,100.
 
-  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 prize money (Total cash: ¥15,733)!
-    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
-    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed!
-    - Walrein Lv 53 (#3, Ace): DEFEATED on Turn 26340 by Facade! SAGE grew to Lv 82!
-    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED on Turn 26360 by Quick Attack!
-    - Glalie Lv 52 (#5, Final): DEFEATED on Turn 26364 by Quick Attack!
-    - Northern door to Room 4 (Drake) unlocked and open!
+  - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
 
 
 
@@ -450,27 +430,20 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
 
 ## Elite Four Attempt 10 (Active)
-- Status: 5 Revives purchased at Mart (cash: ¥433). SAGE Level 81 (243/243 HP, 239 Spe, 100% PP).
-- In Bag: 5 Revives, 3 Full Heals, 433 cash.
-- Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
+- Status: SAGE Level 82 (108/246 HP, 241 Spe). Sidney, Phoebe, and Glacia ALL DEFEATED! Room 4 Drake ACTIVE!
+- In Bag: 0 Revives, 3 Full Heals, ¥15,733 cash.
+- Plan: Sweep Drake (Room 4) and Champion Wallace into the Hall of Fame!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26248 by Aerial Ace! SAGE at 125/243 HP. Cacturne Lv 46 (#4): DEFEATED on Turn 26253 by Aerial Ace (OHKO)! SAGE at 125/243 HP.
-    - Crawdaunt Lv 48 (#5, Final): DEFEATED on Turn 26256 by Bullet Seed!
-    - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
-  - Room 2 Phoebe: DEFEATED on Turn 26294! Prize: ¥5,100 earned (Total cash: ¥10,433). Doorway to Room 3 unlocked!
-    - Dusclops Lv 48 (#1): Used Curse on SAGE, burned Phoebe's Full Restore #1; DEFEATED on Turn 26265 by Bullet Seed.
-    - SAGE fainted to Curse (Curse completely wiped!).
-    - Sacrificial Revive #1 (Turn 26269): LILZ used Revive on SAGE (121/243 HP). LILZ fainted to Shadow Ball, providing free switch-in.
-    - Dusclops Lv 51 (#2): Pressure active. Took Bullet Seed, KO'd SAGE.
-    - Sacrificial Revive #2 (Turn 26277): CIPHER used Revive on SAGE (121/243 HP). CIPHER fainted to Rock Slide, providing free switch-in.
-    - Dusclops Lv 51 (#2): DEFEATED on Turn 26281 by Bullet Seed! SAGE at 90/243 HP.
-    - Banette Lv 49 (#3, Grudge user): DEFEATED on Turn 26285 by Aerial Ace! Grudge absorbed by Aerial Ace (PP dropped to 0). Bullet Seed PP completely protected at 12/30 PP! SAGE at 90/243 HP.
-    - Sableye Lv 50 (#4): Took Bullet Seed on Turn 26289, dropped to deep red (~10% HP). SAGE at 90/243 HP. Resolving turn on Turn 26290. Sableye Lv 50 (#4): DEFEATED on Turn 26290 by Bullet Seed!
-    - Banette Lv 49 (#5, Final): DEFEATED on Turn 26293 by Bullet Seed!
-    - Room 2 Phoebe DEFEATED! Prize: ¥5,100 earned (Total cash: ¥10,433). Doorway to Room 3 (Glacia) unlocked!
-  - Room 3 Glacia: ACTIVE (Turn 26300)!
-    - SAGE Lv 81, 0/243 HP (FNT to Hail). 3 Revives, 3 Full Heals, ¥10,433 cash.
-    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
-    - Sealeo Lv 52 (#2): DEFEATED on Turn 26326 by Bullet Seed! SAGE at 27/243 HP (Overgrow ACTIVE!).
-    - Walrein Lv 53 (#3, Ace): Active at ~20% HP! SAGE active at 121/243 HP with 239 Speed. Facade lethal strike!
-    - Glalie Lv 50 (#4): Up next! Pure Ice, weak to physical Facade.
+  - Room 1 Sidney: DEFEATED on Turn 26256! Earned ¥4,900 (Total cash: ¥5,333). Mightyena, Absol, Shiftry, Cacturne, Crawdaunt all conquered!
+  - Room 2 Phoebe: DEFEATED on Turn 26294! Earned ¥5,100 (Total cash: ¥10,433). Dusclops #1, Dusclops #2, Banette #1, Sableye, Banette #2 all conquered!
+  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 (Total cash: ¥15,733)!
+    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED by Facade!
+    - Sealeo Lv 52 (#2): DEFEATED by Bullet Seed!
+    - Walrein Lv 53 (#3, Ace): DEFEATED by Facade! SAGE leveled up to 82!
+    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED by Quick Attack!
+    - Glalie Lv 52 (#5, Final): DEFEATED by Quick Attack!
+    - Doorway to Room 4 (Drake) unlocked and open!
+  - Room 4 Drake: ACTIVE (Turn 26369)!
+    - SAGE Lv 82 (108/246 HP, Spe 241). Moves: Bullet Seed (3/30 PP), Aerial Ace (0/20 PP), Facade (11/20 PP), Quick Attack (27/30 PP).
+    - Drake's Team: Shelgon Lv 52 (#1), Altaria Lv 54 (#2), Flygon Lv 53 (#3), Kingdra Lv 53 (#4), Salamence Lv 55 (#5, Ace).
+    - Strategy: SAGE outspeeds Drake's entire team (241 Spe vs max 125 Spe). Use physical Facade and priority Quick Attack to sweep. Preserve 3 Bullet Seed PP for Wallace!
