@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26348)! Sealeo #1, Sealeo #2, Walrein Ace, and Glalie #1 ALL DEFEATED! Glacia sending in her 5th and final Pokémon: Glalie #2 (Lv 52)! SAGE Lv 82 (24/246 HP, Overgrow ACTIVE!). 1 Revive in Bag. Guava in reserve.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26349)! Glacia burned Full Restore #2 (0 remaining!). SAGE Lv 82 (24/246 HP, Overgrow ACTIVE!). Quick Attack striking Glalie #1. 1 Revive in Bag.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 24/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241 (currently at -1 stage: 160 Spe). Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (14/20), Quick Attack (30/30). Status: OK.
