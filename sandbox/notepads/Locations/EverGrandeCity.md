@@ -106,3 +106,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Cobalu Lv 18 entered the field facing Drake's Ace Salamence at ~30% HP! Attacking with Strength.
       - Cobalu survived Rock Slide with 5 HP (4x resisted!) and struck Salamence with Strength! Salamence attacks.
       - Flamethrower KO'd Cobalu. Cobalu fainted. Sending in Mochi Lv 11!
+      - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.

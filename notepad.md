@@ -416,6 +416,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Cobalu Lv 18 entered the field facing Drake's Ace Salamence at ~30% HP! Attacking with Strength.
       - Cobalu survived Rock Slide with 5 HP (4x resisted!) and struck Salamence with Strength! Salamence attacks.
       - Flamethrower KO'd Cobalu. Cobalu fainted. Sending in Mochi Lv 11!
+      - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.
 
 
 <hr>
@@ -5087,14 +5088,14 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, & Cipher FNT. Cobalu FNT. Mochi Lv 11 entering. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake: Shelgon, Flygon, & Altaria DEFEATED; Salamence down to ~30% HP. SAGE, Lilz, & Cipher FNT. Cobalu FNT. Mochi FNT. Guava entering. Bag: 0 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (4/20), Quick Attack (26/30). Status: FNT (Fainted vs Salamence).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed vs Flygon).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed vs Flygon).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Fainted vs Salamence).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FNT (Fainted vs Salamence).
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
