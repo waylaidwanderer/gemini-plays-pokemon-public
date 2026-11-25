@@ -406,6 +406,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Shelgon Lv 52 (#1): DEFEATED! SAGE finished Shelgon with Quick Attack! Facing Drake's 2nd Pokémon, Flygon Lv 53 (#2)!
     - Flygon Lv 53 (#2): SAGE (162+ Speed) strikes first with physical Facade (Slot 3) to deal ~100 damage!
       - Facade dealt ~72% damage, dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE. Initiating Sacrificial Revive via Cipher Lv 17!
+      - Cipher Lv 17 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Cipher took hit and fainted, granting SAGE a free switch-in!
 
 
 <hr>
@@ -5077,12 +5078,12 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Sidney, Phoebe, & Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 83 (~73/249 HP, Overgrow ACTIVE, Spe 244). Bag: 3 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Sidney, Phoebe, & Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 83 (~73/249 HP, Overgrow ACTIVE, Spe 244). Bag: 2 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (9/20), Quick Attack (26/30). Status: FNT (Sacrificial Revive in progress).
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 124/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (9/20), Quick Attack (26/30). Status: OK (Revived via Sacrificial Revive).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed for clean Revive).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed for clean Revive).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
@@ -5093,7 +5094,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
 - Ultra Ball x1
-- Revive x3 (1 used on SAGE; 3 remaining)
+- Revive x2 (2 used on SAGE; 2 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥15,966 (earned ¥4,900 from Sidney; 4 Revives in Bag)
