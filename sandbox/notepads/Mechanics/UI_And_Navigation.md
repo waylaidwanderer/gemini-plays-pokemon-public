@@ -26,6 +26,7 @@
   - **Petalburg Woods `(19, 10..11)` & `(32, 30)`:** Two cuttable trees blocking the upper eastern ledge in Petalburg Woods.
   - **Route 104 North `(35, 22) -> (37, 22)`:** Cuttable tree east of Lass Haley `(32, 22)`.
 - **Uncollected Visible Items, Custom Areas & Post-Badge Re-Checks:**
+  - **Route 104 North `(5, 8)`:** Visible `Potion` item ball behind Pretty Petal Flower Shop (`tall grass at y=10..11`).
   - **Western Route 116 `(13, 17)`:** Visible item ball spotted south of the main path *(Turn 1629)*.
   - **West of Littleroot Town (`x < 0`):** Custom grassy area with an NPC and signpost visible beyond the western trees *(Turn 15)*.
   - **Post-Badge NPC Re-Checks:** Pretty Petal Flower Shop `(5, 18)` (`blocked pre-Gym by TM09 boy at (5, 19)`) and Rustboro Trainer's School Teacher `(27, 34)` (`had no active pre-Gym dialogue Turn 505`).
