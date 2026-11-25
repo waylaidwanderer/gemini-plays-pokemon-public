@@ -51,3 +51,7 @@
 - In-Battle Party Targeting Grid (Cobalu Active): When Cobalu (Slot 4) is active in the left box, SAGE is in Row 3 of the right column (reached via Right, Down, Down).
 - In-Battle Party Targeting Grid (Mochi Active): When Mochi (Slot 5) is active in the left box, SAGE is in Row 4 of the right column (reached via Right, Down, Down, Down).
 - In-Battle Party Targeting Grid (Guava Active): When Guava (Slot 6) is active in the left box, SAGE is in Row 5 of the right column (reached via Right, Down, Down, Down, Down).
+
+- Grudge PP Absorption Strategy: When facing an opponent with Grudge (e.g. Phoebe's Banette #1), using an expendable move with low PP (e.g. Aerial Ace) to deliver the KO blow ensures Grudge only wipes the expendable move, completely protecting vital STAB moves (like Bullet Seed) from depletion.
+- Battle Bag Medicine Layout: In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Using Full Heal cures non-volatile status (such as Freeze) instantly on turn start.
+- Level 83 Overgrow Threshold: At Level 83 (max HP 249), Sceptile's Overgrow activates at <= 83 HP (249 / 3 = 83), boosting all Grass-type moves by 1.5x.
