@@ -749,7 +749,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26248 by Aerial Ace! SAGE at 125/243 HP. Cacturne Lv 46 (#4): DEFEATED on Turn 26253 by Aerial Ace (OHKO)! SAGE at 125/243 HP.
     - Crawdaunt Lv 48 (#5, Final): DEFEATED on Turn 26256 by Bullet Seed!
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
-  - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): DEFEATED on Turn 26264 by Overgrow Bullet Seed! SAGE fainted to Curse. Sacrificial Revive Protocol active: sending reserve anchor to revive SAGE to 120 HP (Curse wiped!). 5 Revives in Bag.
+  - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): DEFEATED on Turn 26265 by Bullet Seed! SAGE survived at 5/243 HP (Overgrow ACTIVE!).
+    - Dusclops Lv 51 (#2): Entering field on Turn 26266! SAGE staying in to attack with Overgrow Bullet Seed.
 
 
 <hr>
@@ -5430,7 +5431,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 0/243 (FNT). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (20/30), Aerial Ace (14/20), Facade (18/20), Quick Attack (30/30). Status: FNT (Sacrificial Revive Protocol active to wipe Curse).
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 5/243 (Overgrow ACTIVE!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (-1 Acc). Moves: Bullet Seed (22/30), Aerial Ace (14/20), Facade (18/20), Quick Attack (30/30). Status: OK (Overgrow active, Curse active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
