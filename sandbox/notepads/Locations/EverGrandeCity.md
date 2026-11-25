@@ -76,3 +76,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sealeo Lv 50 (#1): Took 2 Bullet Seed hits (~85% dmg), used Hail. SAGE at 55/249 HP with Overgrow ACTIVE. Finishing with Bullet Seed!
     - Glacia burned Full Restore #1 on Sealeo! SAGE countered with Overgrow Bullet Seed, chunking Sealeo back down!
     - Sealeo Lv 50 (#1): DEFEATED! SAGE finished Sealeo with Overgrow Bullet Seed! Facing Sealeo Lv 52 (#2)! SAGE targeting Sealeo #2 with Overgrow Bullet Seed.
+    - Sealeo Lv 52 (#2): DEFEATED! SAGE struck with Overgrow Bullet Seed, KO'ing Sealeo #2! Both Sealeos are DEFEATED!
