@@ -13,7 +13,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **HM01 Cut & Route 116 West Encounter (`Zero Deaths!`):** Party healed to **100% HP/PP** at Rustboro Center! Claim `HM01 Cut` from the Cutter at `(7, 5)`, walk to Route 116 West `(4, 12)`, re-equip `Oran Berries` (`on Wasabi, Halcyon, Oberon, Minerva`), and catch our **7th Attempt #4 encounter on Route 116 West `(5..6, 13..14)`**!
+1. **Route 116 West Encounter (`Zero Deaths!`):** Party healed to **100% HP/PP** & **`HM01 Cut` obtained**! Walk to Route 116 West `(4, 12)`, re-equip `Oran Berries` (`on Wasabi, Halcyon, Oberon, Minerva`), and catch our **7th Attempt #4 encounter on Route 116 West `(5..6, 13..14)`**!
 
 ## Attempt #4 Active Squad
 1. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), `46/46 HP`, held **`NONE`** (`re-berry before grass/trainers!`) (`Lv 14: 46 HP / 21 Atk / 18 Def / 17 SpA / 24 SpD / 19 Spe`, **`1: Acid / 2: Yawn / 3: Fire Punch / 4: Sludge Bomb`**).
