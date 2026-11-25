@@ -71,3 +71,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sableye Lv 50 (#4): DEFEATED! SAGE used Overgrow-boosted Bullet Seed, KO'd Sableye in one turn! Facing final Pokémon Banette Lv 49 (#2).
     - Banette Lv 49 (#2, Final): DEFEATED! SAGE used Overgrow Bullet Seed, KO'd Banette! ALL 5 OF PHOEBE'S POKÉMON DEFEATED!
     - ELITE FOUR MEMBER #2 PHOEBE DEFEATED (Attempt 11, Turn 26468)! Prize: ¥5,100 (Total: ¥10,666). Door to Room 3 (Glacia) unlocked!
+
+  - Room 3 Glacia: In progress (Turn 26473). Facing lead Sealeo Lv 50 with Lv 83 SAGE (70/249 HP, active Overgrow).
