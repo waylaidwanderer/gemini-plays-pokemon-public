@@ -732,31 +732,30 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 ## Elite Four Attempt 9 (Active)
-- Status: Room 3 Glacia ACTIVE (Turn 26191)! SAGE Level 80 (36/240 HP, Overgrow ACTIVE!). In Bag: 1 Revive, 3 Full Heals, ¥10,567 cash.
-- Moves: Bullet Seed (3/30 PP), Aerial Ace (0/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
+- Status: Room 4 Drake ACTIVE (Turn 26221)! SAGE Level 80 (46/240 HP, Overgrow ACTIVE!). In Bag: 0 Revives, 3 Full Heals, ¥15,867 cash.
+- Moves: Bullet Seed (2/30 PP), Aerial Ace (0/20 PP), Facade (9/20 PP), Quick Attack (30/30 PP).
 - Battle Progress:
-  - Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900.
+  - Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900 (Total cash: ¥4,900).
     - Mightyena Lv 46: Defeated by Bullet Seed.
     - Absol Lv 49: Defeated by Aerial Ace.
     - Shiftry Lv 48: Defeated by Aerial Ace.
     - Cacturne Lv 46: Defeated by Aerial Ace. SAGE grew to Level 80!
     - Crawdaunt Lv 48: Defeated by Bullet Seed.
-  - Room 2 Phoebe: DEFEATED on Turn 26161! Earned ¥5,100 prize money (Total cash: ¥10,567).
+  - Room 2 Phoebe: DEFEATED on Turn 26161! Earned ¥5,100 (Total cash: ¥10,000).
     - Dusclops Lv 48 (#1): Defeated by Bullet Seed.
     - Dusclops Lv 51 (#2): Defeated by Overgrow Bullet Seed.
     - Banette Lv 49 (#1): Defeated by Aerial Ace (absorbed Grudge).
     - Sableye Lv 50 (#4): Defeated by Overgrow Bullet Seed.
     - Banette Lv 49 (#2): Defeated by Overgrow Bullet Seed.
-  - Room 3 Glacia: ACTIVE (Turn 26167)!
-    - Sealeo Lv 50 (#1): DEFEATED on Turn 26182 by Bullet Seed!
-    - Sacrificial Revive Protocol executed cleanly on Turn 26179: CIPHER sent out, used Revive on SAGE (restored to 120/240 HP). CIPHER fainted.
-    - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed!
-    - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed! SAGE took Ice Beam (dropped to 36/240 HP, Overgrow ACTIVE!).
-    - Glalie Lv 50 active at ~50% HP! SAGE restored to 120/240 HP via Sacrificial Revive. COBALU absorbed Ice Beam, giving SAGE 100% free switch-in at 120 HP. Glalie Lv 50 (#1): Glacia burned 1 Full Restore on Turn 26203, but SAGE's Facade DEFEATED it on Turn 26204! SAGE at 120/240 HP.
-    - Glalie Lv 52 (#5, Final Pokémon): DEFEATED on Turn 26207 by Facade!
-    - Room 3 Glacia DEFEATED! Prize: ¥5,300 earned (Total cash: ¥15,867). Doorway to Room 4 (Drake) unlocked!
-    - Remaining: Glalie Lv 50, Glalie Lv 52. Strategy: Overgrow Bullet Seed / Facade.
-    - 1 Revive remaining in Bag.
+  - Room 3 Glacia: DEFEATED on Turn 26207! Earned ¥5,300 (Total cash: ¥15,867). Doorway to Room 4 unlocked!
+    - Sealeo Lv 50 (#1): DEFEATED on Turn 26182 by Bullet Seed.
+    - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed.
+    - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed. SAGE dropped to 36 HP, Overgrow activated.
+    - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
+    - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
+  - Room 4 Drake: ACTIVE (Turn 26213)!
+    - Shelgon Lv 52 (#1): Active on field at ~35% HP. Used Protect twice, Rock Tomb dealt 19 dmg to SAGE. SAGE at 46/240 HP (Overgrow ACTIVE!).
+    - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
 
 
 <hr>
@@ -5433,12 +5432,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26219)! Cash: ¥15,867. SAGE Level 80 (62/240 HP, Overgrow ACTIVE!). 0 Revives in Bag. Shelgon in KO range (~5% HP)!
+- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26221)! Cash: ¥15,867. SAGE Level 80 (46/240 HP, Overgrow ACTIVE!). 0 Revives in Bag. Challenging Drake!
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 62/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236 (-1 Spe: 157). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (10/20), Quick Attack (30/30). Status: OK (Overgrow active!).
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 46/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236 (-1 Spe: 157). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (9/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
