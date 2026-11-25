@@ -221,4 +221,7 @@
 ## Attempt #4 Fast-Track Checklist
 1. **Starter & Early Encounters (`Zero Deaths!`):** Nickname **`Mudkip`** (**`Riptide`**) in Birch's Lab, candy to `Lv 11` (`Water Gun`), beat Rival #1 on Route 103 `(10, 3)`, get Pokédex + Running Shoes, buy `22x` ¥10 Poké Balls + `2x` Premier Balls in Oldale Mart, and catch **Oldale Town `(14..15, 2)`**, **Route 103 `(15..16, 11)`**, and **Route 102** (plus harvest **`Oran + Pecha Berries x99`** at `(24..25, 2)`!).
 
+## Attempt #4 Active Squad
+1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`).
+
 <hr>
