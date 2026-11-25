@@ -712,7 +712,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
 
-- Cash: 991 retained.
+- Cash: ¥991 retained.
 
 
 
@@ -742,7 +742,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
 
 ## Elite Four Attempt 10 (Active)
-- Status: 5 Revives purchased at Mart (cash: 433). SAGE Level 81 (243/243 HP, 239 Spe, 100% PP).
+- Status: 5 Revives purchased at Mart (cash: ¥433). SAGE Level 81 (243/243 HP, 239 Spe, 100% PP).
 - In Bag: 5 Revives, 3 Full Heals, 433 cash.
 - Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
 - Battle Progress:
@@ -5439,7 +5439,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26349)! Glacia burned Full Restore #2 (0 remaining!). SAGE Lv 82 (24/246 HP, Overgrow ACTIVE!). Quick Attack striking Glalie #1. 1 Revive in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 24/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241 (currently at -1 stage: 160 Spe). Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (14/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 24/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241 (currently at -1 stage: 160 Spe). Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (13/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).
