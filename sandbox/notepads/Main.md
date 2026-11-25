@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26346)! Sealeo #1, Sealeo #2, Walrein Ace, and Glalie #1 ALL DEFEATED! Glacia has only Glalie #2 (Lv 52, Final) left! SAGE Lv 82 (83/246 HP). 1 Revive in Bag. Guava in reserve.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26348)! Sealeo #1, Sealeo #2, Walrein Ace, and Glalie #1 ALL DEFEATED! Glacia sending in her 5th and final Pokémon: Glalie #2 (Lv 52)! SAGE Lv 82 (24/246 HP, Overgrow ACTIVE!). 1 Revive in Bag. Guava in reserve.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 83/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241 (currently at -1 stage: 160 Spe). Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (14/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 24/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241 (currently at -1 stage: 160 Spe). Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (14/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).
