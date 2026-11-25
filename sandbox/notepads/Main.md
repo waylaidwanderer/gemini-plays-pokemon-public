@@ -6,7 +6,7 @@
 - Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Sidney, Phoebe, & Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 83 (~73/249 HP, Overgrow ACTIVE, Spe 244). Bag: 3 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 64/249 (Overgrow ACTIVE). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (12/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 56/249 (Overgrow ACTIVE). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (11/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed for clean Revive).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.

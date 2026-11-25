@@ -91,4 +91,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 4 Drake: In progress (Turn 26503). Facing lead Shelgon Lv 52 with Lv 83 SAGE (73/249 HP, active Overgrow).
     - Shelgon Lv 52 (#1): SAGE (244 Speed) strikes first with physical Facade (Slot 3)!      - Shelgon used Protect on Turn 1! SAGE strikes with physical Facade on Turn 2!
 
-      - Facade dealt ~70% damage, dropping Shelgon to ~25% HP! Shelgon counter-attacked with Rock Tomb (dealt 9 dmg to SAGE, HP 64/249, Overgrow ACTIVE).
+      - Facade dealt ~70% damage, dropping Shelgon to ~25% HP! Shelgon counter-attacked with Rock Tomb (dealt 9 dmg to SAGE, HP 64/249, Overgrow ACTIVE).      - SAGE finished Shelgon Lv 52 (#1) with Facade! Shelgon DEFEATED! Facing Drake's 2nd Pokémon.
