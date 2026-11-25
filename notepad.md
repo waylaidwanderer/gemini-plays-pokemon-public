@@ -666,7 +666,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Battle Progress:
   - Room 1 Sidney: ACTIVE (Turn 26414)!
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Absol Lv 49 (#2): ACTIVE! Pure Dark, taking physical Facade from Lv 82 SAGE (215 HP, 241 Spe).
+    - Absol Lv 49 (#2): In yellow/red (~20% HP) after Facade! Used Swords Dance (0 damage to SAGE). Quick Attack finisher primed on Turn 26416.
 
 
 <hr>
@@ -5338,7 +5338,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26415)! Room 1 Sidney ACTIVE! Mightyena DEFEATED! Absol Lv 49 (#2) active! SAGE Lv 82 (215/246 HP, Spe 241) launching Facade. 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26416)! Room 1 Sidney ACTIVE! Mightyena DEFEATED! Absol Lv 49 (#2) at ~20% HP (used Swords Dance). SAGE Lv 82 (215/246 HP, Spe 241). Quick Attack primed to KO Absol!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (20/20), Facade (18/20), Quick Attack (30/30). Status: OK.
