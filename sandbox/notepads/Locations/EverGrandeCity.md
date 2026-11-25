@@ -354,4 +354,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Plan: 1. Defeat Sidney. 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26411)! Mightyena Lv 46 (#1): Sidney burned Full Restore #1 (1 left!). SAGE (215/246 HP, 200 SpA) hitting with Bullet Seed.
+  - Room 1 Sidney: ACTIVE (Turn 26412)! Mightyena Lv 46 (#1): Sidney burned Full Restore #1! Deep red (~20% HP). SAGE at 215/246 HP executing Facade finishing strike.
