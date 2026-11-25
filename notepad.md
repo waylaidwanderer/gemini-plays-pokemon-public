@@ -5433,12 +5433,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26212)! Cash: ¥15,867. SAGE Level 80 (105/240 HP). 0 Revives in Bag. Challenging Drake!
+- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26216)! Cash: ¥15,867. SAGE Level 80 (65/240 HP, Overgrow ACTIVE!). 0 Revives in Bag. Shelgon in KO range!
 
 
 ## Party (100% Restored Upon Whiteout)
 
-1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 105/240. Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (14/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 80) - Lead! HP: 65/240 (Overgrow ACTIVE!). Max HP: 240. Atk 179, Def 130, SpA 195, SpD 175, Spe 236. Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (13/20), Quick Attack (30/30). Status: OK (Overgrow active!).
 
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
 
