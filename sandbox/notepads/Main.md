@@ -8,11 +8,11 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26242)! SAGE Level 81 (243/243 HP). Absol Lv 49 on field! SAGE attacking with Facade.
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26243)! SAGE Level 81 (195/243 HP, 239 Spe). Absol in red HP (~18%). SAGE finishing with Facade!
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 243/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (29/30), Aerial Ace (19/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 195/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (29/30), Aerial Ace (19/20), Facade (18/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
