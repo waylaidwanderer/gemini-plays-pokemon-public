@@ -13,7 +13,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **Route 104 South & Petalburg Woods (`Zero Deaths!`):** Sweep `Darian (15, 59)` (`leading 13-Spe Riptide so Bounce/Dive foes land before Tackle!`) and `Cindy (11, 40)`, enter **Petalburg Woods** with `Wasabi` (`instant Yawn`) in `Slot 1` to catch our **6th squad member** (`note Oberon still has SLP from capture until woken/healed!`), then pop **`Repels`** through Petalburg Woods!
+1. **Route 104 South & Petalburg Woods (`Zero Deaths!`):** Finish `Darian (15, 59)`, **ensure `Tamamo` (`Slot 2`) is cured of `PSN`**, heal `Riptide`/`Halcyon`/`Wasabi` to full HP and re-equip fresh `Oran Berries` on `Riptide`, `Halcyon`, and `Wasabi`, defeat `Lady Cindy (11, 40)` (`check held Berry after Pichu's Thief!`), enter **Petalburg Woods** with `Wasabi` (`instant Yawn`) in `Slot 1` to catch our **6th squad member** (`note Oberon still has SLP from capture until woken/healed!`), then pop **`Repels`** through Petalburg Woods!
 
 ## Attempt #4 Active Squad
 1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group, held `Oran Berry` (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `1: Tackle / 2: Bubble / 3: Mud Sport / 4: Water Gun`).
