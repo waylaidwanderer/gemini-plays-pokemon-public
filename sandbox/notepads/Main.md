@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe DEFEATED (Turn 26294)! Cash: ¥10,433. SAGE Level 81 (45/243 HP, Overgrow ACTIVE!). 3 Revives in Bag. Advancing to Room 3 (Glacia)!
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 DEFEATED! SAGE 0/243 HP (FNT to Hail). Executing Sacrificial Revive Protocol via Cobalu. 3 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)

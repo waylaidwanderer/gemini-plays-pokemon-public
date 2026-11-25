@@ -450,7 +450,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sableye Lv 50 (#4): Took Bullet Seed on Turn 26289, dropped to deep red (~10% HP). SAGE at 90/243 HP. Resolving turn on Turn 26290. Sableye Lv 50 (#4): DEFEATED on Turn 26290 by Bullet Seed!
     - Banette Lv 49 (#5, Final): DEFEATED on Turn 26293 by Bullet Seed!
     - Room 2 Phoebe DEFEATED! Prize: ¥5,100 earned (Total cash: ¥10,433). Doorway to Room 3 (Glacia) unlocked!
-  - Room 3 Glacia: Entering next!
-    - SAGE Lv 81, Overgrow ACTIVE. 3 Revives, 3 Full Heals, ¥10,433 cash.
-    - Strategy: Overgrow Bullet Seed OHKOs Sealeo #1, Sealeo #2, and Walrein (Sheer Cold 0% acc vs Lv 81 SAGE!). Physical Facade (70 bp, 181 Atk) sweeps Glalie #1 & #2!
-    
+  - Room 3 Glacia: ACTIVE (Turn 26300)!
+    - SAGE Lv 81, 0/243 HP (FNT to Hail). 3 Revives, 3 Full Heals, �10,433 cash.
+    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED on Turn 26307 by Facade!
+    - Sealeo Lv 52 (#2): ACTIVE! SAGE fainted to Hail. Executing Sacrificial Revive Protocol via Cobalu (Slot 4).
