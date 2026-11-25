@@ -13,7 +13,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **Finish Route 102 & Petalburg City (`Zero Deaths!`):** Finish `Lass Tiana (15, 5)` and `Bug Catcher Allen (13, 2)`, enter Petalburg City via `y=8`, sell `Big Pearl` (`+¥3,750`) and buy `Repels` + `Escape Rope` at Petalburg Mart `(25, 12)`, and complete Wally's tutorial at Petalburg Gym `(15, 8)` to unlock Route 104.
+1. **Petalburg City & Route 104 South (`Zero Deaths!`):** Stock `Escape Rope + 8x Repels` at Petalburg Mart `(25, 12)`, heal at Petalburg Pokémon Center `(20, 16)`, complete Wally's tutorial at Petalburg Gym `(15, 8)` to unlock Route 104, catch our **Route 104** encounter, defeat `Billy`, `Darian`, and `Cindy`, and enter **Petalburg Woods** (`with Repel ready once our Petalburg Woods encounter is caught!`).
 
 ## Attempt #4 Active Squad
 1. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, held `Oran Berry` (`Lv 4: 17 HP / 6 Atk / 7 Def / 11 SpA / 7 SpD / 11 Spe`; `Lv 9: 27 HP / 9 Atk / 10 Def / 16 SpA / 13 SpD / 22 Spe`, **`1: Wing Attack / 2: Water Gun / 3: Quick Attack`** [`+1` priority `Sturdy`-breaker!]).
