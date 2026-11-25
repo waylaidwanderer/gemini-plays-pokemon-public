@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26396)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 5 Revives in Bag! All 5 reserve anchors conscious. Advancing to Room 1 (Sidney)!
+- Status: Attempt 11 Active (Turn 26398)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 3 Revives in Bag (purchasing 4th Revive). All 5 reserve anchors conscious. Advancing to Room 1 (Sidney)!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
@@ -18,10 +18,10 @@
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x5 (5 purchased Turn 26396; 5 remaining)
+- Revive x3 (3 purchased Turn 26396; purchasing 4th Revive)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥366 (¥7,866 - ¥7,500 for 5 Revives = ¥366)
+- Money: ¥2,166 (purchasing 4th Revive for ¥1,500; ¥666 remaining)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

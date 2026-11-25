@@ -450,7 +450,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
 
 ## Elite Four Attempt 11 (Active)
-- Status: Active (Turn 26396)! 5 Revives purchased (¥7,500). Cash remaining: ¥366. SAGE Level 82 (246/246 HP, Spe 241, 100% PP).
-- In Bag: 5 Revives, 3 Full Heals, ¥366 cash.
+- Status: Active (Turn 26398)! 3 Revives purchased; purchasing 4th Revive for ¥1,500. SAGE Level 82 (246/246 HP, Spe 241, 100% PP).
+- In Bag: 3 Revives, 1 Ultra Ball, 3 Full Heals, ¥2,166 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Plan: 1. Pass central gate to Room 1. 2. Defeat Sidney. 3. Defeat Phoebe. 4. Defeat Glacia. 5. Defeat Drake. 6. Defeat Champion Wallace!
