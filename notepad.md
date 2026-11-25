@@ -654,17 +654,18 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 4 Drake: Shelgon, Flygon, Altaria DEFEATED! Whited out on Turn 25881.
 
 ## Elite Four Attempt 11 (Active)
-- Status: Room 1 Sidney ACTIVE (Turn 26427)! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Final Pokémon Crawdaunt Lv 48 (#5) entering battle. SAGE Level 82 (215/246 HP, Spe 241, 100% PP).
-- In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
+- Status: Room 1 Sidney DEFEATED (Turn 26428)! Earned ¥4,900 prize money (Total cash: ¥5,566). SAGE Level 82 (215/246 HP, Spe 241).
+- In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥5,566 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Plan: 1. Defeat Sidney. 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
+- Plan: 1. Defeat Sidney (DONE). 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26427)!
+  - Room 1 Sidney: ALL 5 POKÉMON DEFEATED on Turn 26428! Prize: ¥4,900 earned.
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
-    - Shiftry Lv 48 (#3): DEFEATED on Turn 26423 by 4x Aerial Ace!
-    - Cacturne Lv 46 (#4): DEFEATED on Turn 26426 by 4x Aerial Ace!
-    - Crawdaunt Lv 48 (#5, Final): ACTIVE! Water/Dark type, 2x weak to STAB Bullet Seed (200 SpA). SAGE Lv 82 (215/246 HP, Spe 241).
+    - Absol Lv 49 (#2): DEFEATED by critical Quick Attack!
+    - Shiftry Lv 48 (#3): DEFEATED by 4x Aerial Ace!
+    - Cacturne Lv 46 (#4): DEFEATED by 4x Aerial Ace!
+    - Crawdaunt Lv 48 (#5, Final): DEFEATED by 2x Bullet Seed!
+    - Northern door to Room 2 (Phoebe) unlocked and open!
 
 
 <hr>
@@ -5336,10 +5337,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26427)! Room 1 Sidney ACTIVE! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Final Pokémon Crawdaunt Lv 48 (#5) entering battle. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26428)! Room 1 Sidney DEFEATED! Cash: ¥5,566. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives, 1 Ultra Ball, 3 Full Heals in Bag. Advancing to Room 2 (Phoebe)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (26/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5355,7 +5356,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x4 (4 purchased at League Mart; 4 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥666 (purchased 4 Revives and 1 Ultra Ball; ¥666 remaining)
+- Money: ¥5,566 (earned ¥4,900 from Sidney; 4 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5363,7 +5364,7 @@ A large meteorological research institute located in northern Route 119 beside t
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [ ] Elite Four Member #1 Sidney (ACTIVE Turn 26404)
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 11, Turn 26428)!
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake

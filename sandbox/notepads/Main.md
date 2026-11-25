@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26427)! Room 1 Sidney ACTIVE! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Final Pokémon Crawdaunt Lv 48 (#5) entering battle. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives in Bag.
+- Status: Attempt 11 Active (Turn 26428)! Room 1 Sidney DEFEATED! Cash: ¥5,566. SAGE Lv 82 (215/246 HP, Spe 241). 4 Revives, 1 Ultra Ball, 3 Full Heals in Bag. Advancing to Room 2 (Phoebe)!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (27/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 215/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (26/30), Aerial Ace (17/20), Facade (17/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -22,7 +22,7 @@
 - Revive x4 (4 purchased at League Mart; 4 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥666 (purchased 4 Revives and 1 Ultra Ball; ¥666 remaining)
+- Money: ¥5,566 (earned ¥4,900 from Sidney; 4 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -30,7 +30,7 @@
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [ ] Elite Four Member #1 Sidney (ACTIVE Turn 26404)
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 11, Turn 26428)!
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake

@@ -344,14 +344,15 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 4 Drake: Shelgon, Flygon, Altaria DEFEATED! Whited out on Turn 25881.
 
 ## Elite Four Attempt 11 (Active)
-- Status: Room 1 Sidney ACTIVE (Turn 26427)! Mightyena, Absol, Shiftry, and Cacturne ALL DEFEATED! Final Pokémon Crawdaunt Lv 48 (#5) entering battle. SAGE Level 82 (215/246 HP, Spe 241, 100% PP).
-- In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
+- Status: Room 1 Sidney DEFEATED (Turn 26428)! Earned ¥4,900 prize money (Total cash: ¥5,566). SAGE Level 82 (215/246 HP, Spe 241).
+- In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥5,566 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Plan: 1. Defeat Sidney. 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
+- Plan: 1. Defeat Sidney (DONE). 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26427)!
+  - Room 1 Sidney: ALL 5 POKÉMON DEFEATED on Turn 26428! Prize: ¥4,900 earned.
     - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Absol Lv 49 (#2): DEFEATED on Turn 26418 by critical Quick Attack!
-    - Shiftry Lv 48 (#3): DEFEATED on Turn 26423 by 4x Aerial Ace!
-    - Cacturne Lv 46 (#4): DEFEATED on Turn 26426 by 4x Aerial Ace!
-    - Crawdaunt Lv 48 (#5, Final): ACTIVE! Water/Dark type, 2x weak to STAB Bullet Seed (200 SpA). SAGE Lv 82 (215/246 HP, Spe 241).
+    - Absol Lv 49 (#2): DEFEATED by critical Quick Attack!
+    - Shiftry Lv 48 (#3): DEFEATED by 4x Aerial Ace!
+    - Cacturne Lv 46 (#4): DEFEATED by 4x Aerial Ace!
+    - Crawdaunt Lv 48 (#5, Final): DEFEATED by 2x Bullet Seed!
+    - Northern door to Room 2 (Phoebe) unlocked and open!
