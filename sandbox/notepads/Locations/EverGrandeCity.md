@@ -439,4 +439,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26248 by Aerial Ace! SAGE at 125/243 HP. Cacturne Lv 46 (#4): DEFEATED on Turn 26253 by Aerial Ace (OHKO)! SAGE at 125/243 HP.
     - Crawdaunt Lv 48 (#5, Final): DEFEATED on Turn 26256 by Bullet Seed!
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
-  - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1) on field. Pressure active. SAGE attacking with Bullet Seed.
+  - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): Protect used on turn 1. SAGE attacking with Bullet Seed on turn 2. Pressure active. SAGE at 125/243 HP.
