@@ -87,3 +87,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - SAGE finished Glalie Lv 50 (#4) with Facade! Glacia is down to her 5th and FINAL Pokémon: Glalie Lv 52 (#5)!
     - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!      - Glalie Lv 52 (#5): DEFEATED! SAGE finished Glalie with Facade! ALL 5 OF GLACIA'S POKÉMON DEFEATED!
     - ELITE FOUR MEMBER #3 GLACIA DEFEATED (Attempt 11, Turn 26498)! Prize: ¥5,300 (Total: ¥15,966). Door to Room 4 (Drake) unlocked!
+
+  - Room 4 Drake: In progress (Turn 26503). Facing lead Shelgon Lv 52 with Lv 83 SAGE (73/249 HP, active Overgrow).
