@@ -5436,10 +5436,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26349)! Glacia burned Full Restore #2 (0 remaining!). SAGE Lv 82 (24/246 HP, Overgrow ACTIVE!). Quick Attack striking Glalie #1. 1 Revive in Bag.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26352)! SAGE fainted to Icy Wind. Sending Guava (Slot 6) for Sacrificial Revive. 1 Revive in Bag. Glalie #1 at ~15% HP (0 Full Restores).
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 24/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241 (currently at -1 stage: 160 Spe). Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (13/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 0/246 (FNT). Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (13/20), Quick Attack (29/30). Status: FNT (Sacrificial Revive pending).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).
