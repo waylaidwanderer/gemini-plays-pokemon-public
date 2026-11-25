@@ -100,3 +100,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - SAGE finished Altaria Lv 54 (#3) with Facade! Altaria DEFEATED! Drake is down to 2 Pokémon (Kingdra, Salamence)!
     - Salamence Lv 55 (#4, Ace): Drake sent out his Ace Salamence! Intimidate cut SAGE's Attack. SAGE (124/249 HP, 244 Speed) outspeeds and targets Salamence with physical Facade!
       - SAGE struck Salamence Lv 55 with physical Facade for ~65 damage (~35-40% HP)! Salamence counter-attacks.
+      - Flamethrower dealt 63 dmg to SAGE (HP 61/249, Overgrow ACTIVE!). SAGE strikes with physical Facade for ~65 dmg!
