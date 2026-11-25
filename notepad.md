@@ -436,6 +436,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Mightyena Lv 46 (#1): DEFEATED! SAGE finished Mightyena with Aerial Ace (never misses!). Facing Absol Lv 49 (#2).
     - Absol Lv 49 (#2): Pressure ability. SAGE (244 Speed) strikes first with Aerial Ace (never misses!) for ~75-84 damage!
     - Absol Lv 49 (#2): DEFEATED! SAGE finished Absol with Aerial Ace (never misses!). Facing Shiftry Lv 48 (#3, 4x weak to Flying)!
+    - Shiftry Lv 48 (#3): Grass/Dark is 4x WEAK to Flying! SAGE (244 Speed) targets Shiftry with 4x Aerial Ace!
 
 
 <hr>
@@ -5107,7 +5108,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 83, Male), Nickname: SAGE
-- Status: Attempt 12 Active! 5 Revives purchased (¥7,500). Cash: ¥483. SAGE Lv 83 (249/249 HP, 244 Spe, full PP). Entire party 100% restored. Entering Room 1 to challenge Sidney!
+- Status: Attempt 12 Active! Room 1 Sidney in progress (Mightyena & Absol DEFEATED; facing Shiftry Lv 48). SAGE Lv 83 (170/249 HP, 244 Speed). Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball, ¥483.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 170/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (30/30), Aerial Ace (13/20), Facade (19/20), Quick Attack (30/30). Status: OK.

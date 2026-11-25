@@ -126,3 +126,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Mightyena Lv 46 (#1): DEFEATED! SAGE finished Mightyena with Aerial Ace (never misses!). Facing Absol Lv 49 (#2).
     - Absol Lv 49 (#2): Pressure ability. SAGE (244 Speed) strikes first with Aerial Ace (never misses!) for ~75-84 damage!
     - Absol Lv 49 (#2): DEFEATED! SAGE finished Absol with Aerial Ace (never misses!). Facing Shiftry Lv 48 (#3, 4x weak to Flying)!
+    - Shiftry Lv 48 (#3): Grass/Dark is 4x WEAK to Flying! SAGE (244 Speed) targets Shiftry with 4x Aerial Ace!
