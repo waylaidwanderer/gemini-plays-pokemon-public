@@ -8,23 +8,16 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Concluded (Turn 26231). SAGE Level 81! Preparing Attempt 10: Buy 5 Revives at Mart clerk to sweep to Hall of Fame!
+- Status: Attempt 10 Active (Turn 26232)! SAGE Level 81 (243/243 HP, 239 Spe, 100% PP). Cash: ~¥7,933. Heading to Mart clerk to buy 5 Revives before sweeping the League!
 
 
 ## Party (100% Restored Upon Whiteout)
-
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 32/243 (Overgrow ACTIVE!). Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (Speed neutral!). Moves: Bullet Seed (2/30), Aerial Ace (0/20 - Grudge absorbed), Facade (8/20), Quick Attack (29/30). Status: OK (Active battler).
-
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor).
-
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26179).
-
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26200).
-
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Max HP: 42. Status: OK (100% Restored!).
-
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FNT (Sacrificial anchor used Turn 26226).
-
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 243/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 
 ## Bag Highlights
