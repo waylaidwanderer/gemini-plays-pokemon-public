@@ -84,3 +84,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
     - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
       - SAGE's Facade dealt ~75% damage, dropping Glalie to ~25% HP! Glalie counter-attacked with Icy Wind.
+      - SAGE finished Glalie Lv 50 (#4) with Facade! Glacia is down to her 5th and FINAL Pokémon: Glalie Lv 52 (#5)!
