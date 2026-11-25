@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Active (Turn 26235)! SAGE Level 81 (243/243 HP, 239 Spe, 100% PP). 5 Revives in Bag! Ready to enter Elite Four gate!
+- Status: Attempt 10 Active (Turn 26236)! SAGE Level 81 (243/243 HP, 239 Spe, 100% PP). 5 Revives in Bag. Entering Room 1 (Sidney)!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -36,7 +36,7 @@
 
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 
-- Money: ~¥7,933 (retained upon whiteout; heading to Mart counter to purchase 5 Revives)
+- Money: ¥433 (purchased 5 Revives for ¥7,500; 5 Revives in Bag)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 

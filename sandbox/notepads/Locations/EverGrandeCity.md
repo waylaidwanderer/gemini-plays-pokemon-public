@@ -431,5 +431,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Total cash earned: ¥15,867 (~¥7,933 retained upon whiteout).
 - Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
 
-## Elite Four Attempt 10 (Preparing)
-- Plan: Restock 5 Revives at League Lobby Mart with ~¥7,933. Re-enter with Lv 81 SAGE and full resources to sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
+## Elite Four Attempt 10 (Active)
+- Status: 5 Revives purchased at Mart (cash: ¥433). SAGE Level 81 (243/243 HP, 239 Spe, 100% PP).
+- In Bag: 5 Revives, 3 Full Heals, ¥433 cash.
+- Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
+- Battle Progress:
+  - Room 1 Sidney: Entering now!
+
