@@ -436,5 +436,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In Bag: 5 Revives, 3 Full Heals, ¥433 cash.
 - Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1) on field. Intimidate active. SAGE attacking with Bullet Seed.
+  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): Hit with 2 seeds of Bullet Seed (down to ~45% HP). Resolving counter-move.
 
