@@ -760,10 +760,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
 
 ## Elite Four Attempt 11 (Active)
-- Status: Preparing Attempt 11! All 6 Pokémon 100% restored upon whiteout. SAGE Level 82 (246/246 HP, Spe 241, 100% PP). Restocking Revives and Hyper Potions at League Mart.
-- Inventory Target: 5+ Revives, 4+ Hyper Potions.
+- Status: Active (Turn 26396)! 5 Revives purchased (¥7,500). Cash remaining: ¥366. SAGE Level 82 (246/246 HP, Spe 241, 100% PP).
+- In Bag: 5 Revives, 3 Full Heals, ¥366 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Plan: 1. Restock supplies at Mart counter. 2. Pass gate to Room 1. 3. Sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
+- Plan: 1. Pass central gate to Room 1. 2. Defeat Sidney. 3. Defeat Phoebe. 4. Defeat Glacia. 5. Defeat Drake. 6. Defeat Champion Wallace!
 
 
 <hr>
@@ -5435,7 +5435,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Preparing (Turn 26392)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). All 5 reserve anchors conscious. Restocking Revives and Hyper Potions at League Mart for championship sweep!
+- Status: Attempt 11 Active (Turn 26396)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 5 Revives in Bag! All 5 reserve anchors conscious. Advancing to Room 1 (Sidney)!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
@@ -5450,10 +5450,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x0 (all 5 purchased Revives used; 0 remaining)
+- Revive x5 (5 purchased Turn 26396; 5 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥15,733 (earned ¥4,900 from Sidney, ¥5,100 from Phoebe, ¥5,300 from Glacia; 0 Revives in Bag)
+- Money: ¥366 (¥7,866 - ¥7,500 for 5 Revives = ¥366)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

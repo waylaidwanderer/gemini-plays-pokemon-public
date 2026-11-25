@@ -450,7 +450,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
 
 ## Elite Four Attempt 11 (Active)
-- Status: Preparing Attempt 11! All 6 Pokémon 100% restored upon whiteout. SAGE Level 82 (246/246 HP, Spe 241, 100% PP). Restocking Revives and Hyper Potions at League Mart.
-- Inventory Target: 5+ Revives, 4+ Hyper Potions.
+- Status: Active (Turn 26396)! 5 Revives purchased (¥7,500). Cash remaining: ¥366. SAGE Level 82 (246/246 HP, Spe 241, 100% PP).
+- In Bag: 5 Revives, 3 Full Heals, ¥366 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Plan: 1. Restock supplies at Mart counter. 2. Pass gate to Room 1. 3. Sweep Sidney, Phoebe, Glacia, Drake, and Champion Wallace into the Hall of Fame!
+- Plan: 1. Pass central gate to Room 1. 2. Defeat Sidney. 3. Defeat Phoebe. 4. Defeat Glacia. 5. Defeat Drake. 6. Defeat Champion Wallace!
