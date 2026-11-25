@@ -739,7 +739,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Total cash earned: ¥15,867 (~¥7,933 retained upon whiteout).
 - Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
 
-## Elite Four Attempt 10 (Active)
+## Elite Four Attempt 10 (Archived Turn 26391)
 - Status: SAGE Level 82 (108/246 HP, 241 Spe). Sidney, Phoebe, and Glacia ALL DEFEATED! Room 4 Drake ACTIVE!
 - In Bag: 0 Revives, 3 Full Heals, ¥15,733 cash.
 - Plan: Sweep Drake (Room 4) and Champion Wallace into the Hall of Fame!
@@ -5435,7 +5435,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26398)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 3 Revives in Bag (purchasing 4th Revive). All 5 reserve anchors conscious. Advancing to Room 1 (Sidney)!
+- Status: Attempt 11 Active (Turn 26401)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash. Advancing to Room 1 (Sidney)!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
@@ -5450,10 +5450,11 @@ A large meteorological research institute located in northern Route 119 beside t
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x3 (1 purchased Turn 25634)
-- Revive x3 (3 purchased Turn 26396; purchasing 4th Revive)
+- Ultra Ball x1
+- Revive x4 (4 purchased at League Mart; 4 remaining)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥2,166 (purchasing 4th Revive for ¥1,500; ¥666 remaining)
+- Money: ¥666 (purchased 4 Revives and 1 Ultra Ball; ¥666 remaining)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5461,10 +5462,10 @@ A large meteorological research institute located in northern Route 119 beside t
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 10, Turn 26256)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 10, Turn 26293)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 10, Turn 26364)!
-    - [ ] Elite Four Member #4 Drake (Shelgon & Flygon DEFEATED!)
+    - [ ] Elite Four Member #1 Sidney
+    - [ ] Elite Four Member #2 Phoebe
+    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified

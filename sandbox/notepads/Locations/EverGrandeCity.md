@@ -429,7 +429,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Total cash earned: ¥15,867 (~¥7,933 retained upon whiteout).
 - Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
 
-## Elite Four Attempt 10 (Active)
+## Elite Four Attempt 10 (Archived Turn 26391)
 - Status: SAGE Level 82 (108/246 HP, 241 Spe). Sidney, Phoebe, and Glacia ALL DEFEATED! Room 4 Drake ACTIVE!
 - In Bag: 0 Revives, 3 Full Heals, ¥15,733 cash.
 - Plan: Sweep Drake (Room 4) and Champion Wallace into the Hall of Fame!
