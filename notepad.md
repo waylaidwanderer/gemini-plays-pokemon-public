@@ -32,7 +32,7 @@
   3. **Set `TEXT SPEED: FAST` & `BATTLE STYLE: SET` Immediately at the Start of Attempt #4!**
 - **ROM Hack:** Custom Emerald Hack (National Dex wilds, lowered evolution thresholds [`Oddish -> Lv 16 Gloom`], Gen 4+ move PP/abilities, in-battle Bag consumables disabled, auto-refilling `Rare Candy x99` & harvested Berries `x99`).
 - **Active Level Cap:** Lv 16 (Roxanne — Rustboro Gym)
-- **Battle Style & Text Speed:** **MUST SET TO `SET` & `FAST` IN OPTIONS ON NEW GAME!**
+- **Battle Style & Text Speed:** `SET` & `FAST` *(Configured in Options on Turn 1722)*
 
 ## Level Cap Schedule
 - Roxanne (Rustboro): Lv 16
