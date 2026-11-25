@@ -731,31 +731,18 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 
-## Elite Four Attempt 9 (Active)
-- Status: Room 4 Drake ACTIVE (Turn 26221)! SAGE Level 80 (46/240 HP, Overgrow ACTIVE!). In Bag: 0 Revives, 3 Full Heals, ¥15,867 cash.
-- Moves: Bullet Seed (2/30 PP), Aerial Ace (0/20 PP), Facade (9/20 PP), Quick Attack (30/30 PP).
-- Battle Progress:
-  - Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900 (Total cash: ¥4,900).
-    - Mightyena Lv 46: Defeated by Bullet Seed.
-    - Absol Lv 49: Defeated by Aerial Ace.
-    - Shiftry Lv 48: Defeated by Aerial Ace.
-    - Cacturne Lv 46: Defeated by Aerial Ace. SAGE grew to Level 80!
-    - Crawdaunt Lv 48: Defeated by Bullet Seed.
-  - Room 2 Phoebe: DEFEATED on Turn 26161! Earned ¥5,100 (Total cash: ¥10,000).
-    - Dusclops Lv 48 (#1): Defeated by Bullet Seed.
-    - Dusclops Lv 51 (#2): Defeated by Overgrow Bullet Seed.
-    - Banette Lv 49 (#1): Defeated by Aerial Ace (absorbed Grudge).
-    - Sableye Lv 50 (#4): Defeated by Overgrow Bullet Seed.
-    - Banette Lv 49 (#2): Defeated by Overgrow Bullet Seed.
-  - Room 3 Glacia: DEFEATED on Turn 26207! Earned ¥5,300 (Total cash: ¥15,867). Doorway to Room 4 unlocked!
-    - Sealeo Lv 50 (#1): DEFEATED on Turn 26182 by Bullet Seed.
-    - Sealeo Lv 52 (#2): DEFEATED on Turn 26186 by Bullet Seed.
-    - Walrein Lv 53 (Ace): DEFEATED on Turn 26192 by Bullet Seed. SAGE dropped to 36 HP, Overgrow activated.
-    - Glalie Lv 50 (#4): Glacia burned Full Restore; DEFEATED on Turn 26204 by Facade.
-    - Glalie Lv 52 (#5): DEFEATED on Turn 26207 by Facade.
-  - Room 4 Drake: ACTIVE (Turn 26213)!
-    - Shelgon Lv 52 (#1): DEFEATED on Turn 26222 by Quick Attack! SAGE leveled up to 81 (32/243 HP, Overgrow ACTIVE!). Flygon Lv 53 (#2): Used Flamethrower on Guava. Guava fainted, successfully absorbing Flamethrower and resetting SAGE's Speed to neutral 239! SAGE re-entered on Turn 26228 at full 239 Speed with Overgrow ACTIVE (32/243 HP)! SAGE hit Flygon with Facade on Turn 26229 (Flygon down to ~45% HP). Flygon used Flamethrower.
-    - Strategy: Physical Facade / Quick Attack. Conserve Bullet Seed for Champion Wallace.
+## Elite Four Attempt 9 (Archived Turn 26231)
+- Result: Conquered Sidney, Phoebe, and Glacia! SAGE grew to Level 81!
+- Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900.
+- Room 2 Phoebe: DEFEATED on Turn 26161! Earned ¥5,100.
+- Room 3 Glacia: DEFEATED on Turn 26207! Earned ¥5,300.
+  - Sealeo #1, Sealeo #2, Walrein Ace, Glalie #1, Glalie #2 all conquered!
+- Room 4 Drake: Shelgon Lv 52 DEFEATED on Turn 26222! SAGE leveled up to 81. Flygon reduced to ~45% HP. Whited out on Turn 26231.
+- Total cash earned: ¥15,867 (~¥7,933 retained upon whiteout).
+- Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
+
+## Elite Four Attempt 10 (Preparing)
+- Plan: Restock 5 Revives at League Lobby Mart with ~¥7,933. Re-enter with Lv 81 SAGE and full resources to sweep Sidney, Phoebe, Glacia, Drake, and Wallace into the Hall of Fame!
 
 
 <hr>
@@ -5432,7 +5419,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26228)! Cash: ¥15,867. SAGE Level 81 (32/243 HP, Overgrow ACTIVE!). SAGE re-entering at 239 Speed vs Flygon!
+- Status: Attempt 9 Concluded (Turn 26231). SAGE Level 81! Preparing Attempt 10: Buy 5 Revives at Mart clerk to sweep to Hall of Fame!
 
 
 ## Party (100% Restored Upon Whiteout)

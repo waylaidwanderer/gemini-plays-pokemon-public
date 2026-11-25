@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 9 Room 4 Drake ACTIVE (Turn 26228)! Cash: ¥15,867. SAGE Level 81 (32/243 HP, Overgrow ACTIVE!). SAGE re-entering at 239 Speed vs Flygon!
+- Status: Attempt 9 Concluded (Turn 26231). SAGE Level 81! Preparing Attempt 10: Buy 5 Revives at Mart clerk to sweep to Hall of Fame!
 
 
 ## Party (100% Restored Upon Whiteout)
