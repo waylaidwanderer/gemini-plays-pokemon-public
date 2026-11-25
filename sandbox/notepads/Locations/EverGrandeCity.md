@@ -122,3 +122,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 4 Drake: 2HKO Shelgon, Flygon, Altaria with Facade. Defeat Kingdra & Salamence. 5 Revives available! (Prize: ¥5,500).
   - Champion Wallace: Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic; Aerial Ace / Facade vs Ludicolo!
     - Mightyena Lv 46 (#1): Intimidate cut SAGE's Attack. SAGE (244 Speed) strikes first with physical Facade for ~75-85 damage!
+      - Sand-Attack lowered accuracy, but SAGE selected Aerial Ace (infinite accuracy, never misses!) to finish Mightyena!
