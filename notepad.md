@@ -230,7 +230,7 @@
 
 ## Attempt #4 Active Squad
 1. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, held `Oran Berry` (`Lv 4: 17 HP / 6 Atk / 7 Def / 11 SpA / 7 SpD / 11 Spe`; `Lv 9: 27 HP / 9 Atk / 10 Def / 16 SpA / 13 SpD / 22 Spe`, **`1: Wing Attack / 2: Water Gun / 3: Quick Attack`** [`+1` priority `Sturdy`-breaker!]).
-2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, held `Oran Berry` (`Rawst Berry x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`; `Lv 9: 28 HP / 14 Atk / 10 Def / 17 SpA / 18 SpD / 17 Spe`, `1: Ember / 2: Quick Attack / 3: Roar`).
+2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, held `Oran Berry` (`Rawst Berry x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`; `Lv 10: 30 HP / 15 Atk / 11 Def / 19 SpA / 20 SpD / 19 Spe`, `1: Ember / 2: Quick Attack / 3: Roar`).
 3. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group, held `Oran Berry` (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `1: Tackle / 2: Bubble / 3: Mud Sport / 4: Water Gun`).
 4. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), held `Oran Berry` (`Big Pearl` in Bag! `Lv 6: 25 HP / 11 Atk / 9 Def / 10 SpA / 13 SpD / 11 Spe`; `Lv 9: 33 HP / 15 Atk / 13 Def / 12 SpA / 17 SpD / 14 Spe`, `1: Acid / 2: Yawn / 3: Fire Punch`).
 
