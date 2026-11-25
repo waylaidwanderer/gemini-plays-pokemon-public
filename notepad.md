@@ -232,7 +232,7 @@
      - Candy all 6 squad members to **`Lv 16`**, heal & re-berry right before **Gym Leader Roxanne**, earn the **Stone Badge** (`advancing cap to Lv 20 & unlocking Cut!`), then harvest `Chesto Berry x99` on Route 116 `(19..20, 2)` and sweep eastern Route 116 (`Joey` & `Bug Maniac Jose`) + Rusturf Tunnel at `Lv 18–19`!
 
 ## Attempt #4 Fast-Track Checklist
-1. **Route 104 North & PKMN Trainer Red (`Cheri Berry x99 Unlocked, All 6 at 100%, Zero Deaths!`):** Grab `TM09 Bullet Seed` at `(5, 19)` (`+ hidden Poké Ball `(3, 9)` & `Potion` `(5, 8)` via `x=2` alley), then follow the zero-grass `y=25` road to sweep `Rich Boy Winston (21, 26)`, `Lass Haley (32, 22)`, `Twins Gina & Mia (27..28, 15)`, and `PKMN Trainer Red (28, 8)` into **Rustboro City**.
+1. **Route 104 North & PKMN Trainer Red (`TM09 + Cheri Berry x99 Secured, Zero Deaths!`):** Finish `Rich Boy Winston (21, 26)` (`1/3 down`), top off HP/Berries, then follow the zero-grass `y=25` road to sweep `Lass Haley (32, 22)`, `Twins Gina & Mia (27..28, 15)`, and `PKMN Trainer Red (28, 8)` into **Rustboro City**.
 
 ## Attempt #4 Active Squad
 1. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `21/34 HP`, held `Oran Berry` (`Lv 12: 34 HP / 17 Atk / 12 Def / 22 SpA / 23 SpD / 21 Spe`, `1: Ember / 2: Quick Attack / 3: Roar`).
