@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26251)! SAGE Level 81 (125/243 HP, 239 Spe). Mightyena, Absol, Shiftry DEFEATED (3/5 down). #4 Pokémon entering!
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26252)! SAGE Level 81 (125/243 HP, 239 Spe). Mightyena, Absol, Shiftry DEFEATED (3/5 down). Cacturne Lv 46 entering!
 
 
 ## Party (100% Restored Upon Whiteout)
