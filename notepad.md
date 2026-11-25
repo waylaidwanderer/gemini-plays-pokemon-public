@@ -755,7 +755,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sacrificial Revive #1 (Turn 26269): LILZ used Revive on SAGE (121/243 HP). LILZ fainted to Shadow Ball, providing free switch-in.
     - Dusclops Lv 51 (#2): Pressure active. Took Bullet Seed, KO'd SAGE.
     - Sacrificial Revive #2 (Turn 26277): CIPHER used Revive on SAGE (121/243 HP). CIPHER fainted to Rock Slide, providing free switch-in.
-    - Dusclops Lv 51 (#2): SAGE hit with critical Bullet Seed on Turn 26280, dropping Dusclops to deep red (~15% HP). SAGE at 90/243 HP.
+    - Dusclops Lv 51 (#2): DEFEATED on Turn 26281 by Bullet Seed! SAGE at 90/243 HP.
+    - Banette Lv 49 (#3, Grudge user): Entering field on Turn 26282! Strategy: Use Aerial Ace (14/20 PP) to absorb Grudge, protecting Bullet Seed PP.
     - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.
 
 
@@ -5433,7 +5434,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26281)! Cash: ¥5,333. SAGE Level 81 (90/243 HP, 239 Spe). Dusclops #2 in deep red HP. 3 Revives in Bag.
+- Status: Attempt 10 Room 2 Phoebe ACTIVE (Turn 26282)! Cash: ¥5,333. SAGE Level 81 (90/243 HP, 239 Spe). Dusclops #1 & #2 DEFEATED. Banette #1 entering! Aerial Ace ready for Grudge bait.
 
 
 ## Party (100% Restored Upon Whiteout)
