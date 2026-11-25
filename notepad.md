@@ -753,10 +753,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED by Quick Attack!
     - Glalie Lv 52 (#5, Final): DEFEATED by Quick Attack!
     - Doorway to Room 4 (Drake) unlocked and open!
-  - Room 4 Drake: ACTIVE (Turn 26369)!
-    - SAGE Lv 82 (108/246 HP, Spe 241). Moves: Bullet Seed (3/30 PP), Aerial Ace (0/20 PP), Facade (11/20 PP), Quick Attack (27/30 PP).
-    - Drake's Team: Shelgon Lv 52 (#1), Altaria Lv 54 (#2), Flygon Lv 53 (#3), Kingdra Lv 53 (#4), Salamence Lv 55 (#5, Ace).
-    - Strategy: SAGE outspeeds Drake's entire team (241 Spe vs max 125 Spe). Use physical Facade and priority Quick Attack to sweep. Preserve 3 Bullet Seed PP for Wallace!
+  - Room 4 Drake: Concluded (Turn 26391)!
+    - Shelgon Lv 52 (#1): Drake burned Full Restore #1! DEFEATED by Facade!
+    - Flygon Lv 53 (#2): DEFEATED on Turn 26388 by Facade!
+    - Altaria Lv 54 (#3): Reduced to ~40% HP by Facade. Used Double-Edge.
+    - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
 
 
 <hr>
@@ -5428,10 +5429,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 10 Room 4 Drake ACTIVE (Turn 26390)! Shelgon & Flygon DEFEATED! Altaria Lv 54 (#3) active! SAGE Lv 82 (16/246 HP, Overgrow ACTIVE!, Spe 241) launching Facade! 3 Bullet Seed PP preserved for Wallace. Cash: ¥15,733.
+- Status: Attempt 10 Concluded (Turn 26391). Defeated Sidney, Phoebe, Glacia, and Drake's Shelgon & Flygon! SAGE grew to Level 82 (200 SpA, 183 Atk, 241 Spe). Whited out; respawning outside League to buy Revives/Potions for Attempt 11!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 16/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (3/30), Aerial Ace (0/20 - Grudge absorbed), Facade (2/20), Quick Attack (27/30). Status: OK (Revived!).
+1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificial anchor used Turn 26270).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificial anchor used Turn 26277).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificial anchor used Turn 26322).

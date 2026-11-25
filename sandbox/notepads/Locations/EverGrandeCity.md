@@ -443,7 +443,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED by Quick Attack!
     - Glalie Lv 52 (#5, Final): DEFEATED by Quick Attack!
     - Doorway to Room 4 (Drake) unlocked and open!
-  - Room 4 Drake: ACTIVE (Turn 26369)!
-    - SAGE Lv 82 (108/246 HP, Spe 241). Moves: Bullet Seed (3/30 PP), Aerial Ace (0/20 PP), Facade (11/20 PP), Quick Attack (27/30 PP).
-    - Drake's Team: Shelgon Lv 52 (#1), Altaria Lv 54 (#2), Flygon Lv 53 (#3), Kingdra Lv 53 (#4), Salamence Lv 55 (#5, Ace).
-    - Strategy: SAGE outspeeds Drake's entire team (241 Spe vs max 125 Spe). Use physical Facade and priority Quick Attack to sweep. Preserve 3 Bullet Seed PP for Wallace!
+  - Room 4 Drake: Concluded (Turn 26391)!
+    - Shelgon Lv 52 (#1): Drake burned Full Restore #1! DEFEATED by Facade!
+    - Flygon Lv 53 (#2): DEFEATED on Turn 26388 by Facade!
+    - Altaria Lv 54 (#3): Reduced to ~40% HP by Facade. Used Double-Edge.
+    - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
