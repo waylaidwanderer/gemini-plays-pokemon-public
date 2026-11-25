@@ -453,4 +453,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 3 Glacia: Entering next!
     - SAGE Lv 81, Overgrow ACTIVE. 3 Revives, 3 Full Heals, ¥10,433 cash.
     - Strategy: Overgrow Bullet Seed OHKOs Sealeo #1, Sealeo #2, and Walrein (Sheer Cold 0% acc vs Lv 81 SAGE!). Physical Facade (70 bp, 181 Atk) sweeps Glalie #1 & #2!
-    - Remaining in Bag: 3 Revives, 3 Full Heals, ¥5,333 cash.
+    
