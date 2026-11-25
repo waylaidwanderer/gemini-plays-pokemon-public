@@ -232,6 +232,6 @@
 1. **`Riptide` (`Mudkip` ♂, Met Route 101):** `Brave` (`+Atk / -Spe`), `Torrent`, `Slow` EXP group (`Lv 5: 20 HP / 13 Atk / 11 Def / 10 SpA / 11 SpD / 8 Spe`; `Lv 11: 33 HP / 24 Atk / 19 Def / 16 SpA / 18 SpD / 13 Spe`, `Tackle / Bubble / Mud Sport / Water Gun`).
 2. **`Tamamo` (`Vulpix` ♀, Met Oldale Town `(15, 2)`):** `Mild` (`+SpA / -Def`), `Pressure`, `Rawst Berry` taken to Bag (`x99` unlocked! `Lv 5: 20 HP / 10 Atk / 8 Def / 12 SpA / 12 SpD / 12 Spe`; `Lv 9: 28 HP / 14 Atk / 10 Def / 17 SpA / 18 SpD / 17 Spe`, `Ember / Quick Attack / Roar`).
 3. **`Halcyon` (`Wingull` ♂, Met Route 103 `(15, 11)`):** `Modest` (`+SpA / -Atk`), `Keen Eye`, held `NONE` (`Lv 4: 17 HP / 6 Atk / 7 Def / 11 SpA / 7 SpD / 11 Spe`; `Lv 6: 21 HP / 7 Atk / 8 Def / 13 SpA / 10 SpD / 16 Spe`, `Water Gun / Wing Attack`).
-4. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), held **`Big Pearl`** (`taken to Bag! Lv 6: 25 HP / 11 Atk / 9 Def / 10 SpA / 13 SpD / 11 Spe`, `Acid / Yawn`).
+4. **`Wasabi` (`Gulpin` ♂, Met Route 102 `(39, 5)`):** `Gentle` (`+SpD / -Def`), **`Liquid Ooze`** (`punishes Giga/Mega Drain & Leech Seed!`), held **`Big Pearl`** (`taken to Bag! Lv 6: 25 HP / 11 Atk / 9 Def / 10 SpA / 13 SpD / 11 Spe`; `Lv 9: 33 HP / 15 Atk / 13 Def / 12 SpA / 17 SpD / 14 Spe`, `Acid / Yawn / Fire Punch`).
 
 <hr>
