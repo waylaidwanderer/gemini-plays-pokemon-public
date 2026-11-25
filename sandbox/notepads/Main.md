@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 DEFEATED! SAGE 0/243 HP (FNT to Hail). Executing Sacrificial Revive Protocol via Cobalu. 3 Revives in Bag.
+- Status: Attempt 10 Room 3 Glacia ACTIVE (Turn 26300)! Sealeo #1 DEFEATED! SAGE revived to 121/243 HP. Cobalu absorbing Sealeo's attack. 2 Revives in Bag.
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -30,7 +30,7 @@
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x3 (1 used Turn 26269, 1 used Turn 26277; 3 remaining)
+- Revive x2 (1 used Turn 26269, 1 used Turn 26277, 1 used Turn 26320; 2 remaining)
 
 - Hyper Potion x0
 
