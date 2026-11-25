@@ -398,16 +398,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!      - Glalie Lv 52 (#5): DEFEATED! SAGE finished Glalie with Facade! ALL 5 OF GLACIA'S POKÉMON DEFEATED!
     - ELITE FOUR MEMBER #3 GLACIA DEFEATED (Attempt 11, Turn 26498)! Prize: ¥5,300 (Total: ¥15,966). Door to Room 4 (Drake) unlocked!
 
-  - Room 4 Drake: In progress (Turn 26503). Facing lead Shelgon Lv 52 with Lv 83 SAGE (73/249 HP, active Overgrow).
-    - Shelgon Lv 52 (#1): SAGE (244 Speed) strikes first with physical Facade (Slot 3)!      - Shelgon used Protect on Turn 1! SAGE strikes with physical Facade on Turn 2!
-
-      - Facade dealt ~70% damage, dropping Shelgon to ~25% HP! Shelgon counter-attacked with Rock Tomb (dealt 9 dmg to SAGE, HP 64/249, Overgrow ACTIVE).      - SAGE finished Shelgon Lv 52 (#1) with Facade! Shelgon DEFEATED! Facing Drake's 2nd Pokémon.
-      - Drake burned Full Restore #1 on Shelgon! Quick Attack dealt ~35% dmg (Shelgon ~65% HP). SAGE strikes with Facade!
-      - Shelgon Lv 52 (#1): DEFEATED! SAGE finished Shelgon with Quick Attack! Facing Drake's 2nd Pokémon, Flygon Lv 53 (#2)!
-    - Flygon Lv 53 (#2): SAGE (162+ Speed) strikes first with physical Facade (Slot 3) to deal ~100 damage!
-      - Facade dealt ~72% damage, dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE. Initiating Sacrificial Revive via Cipher Lv 17!
-      - Cipher Lv 17 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Cipher took hit and fainted, granting SAGE a free switch-in!
-      - Turn 26517: Revive restored Lilz to 42 HP. Cipher absorbed Flamethrower and fainted. Sending in conscious Lilz to execute Revive on SAGE!
+  - Room 4 Drake: In progress (Turn 26503). Facing Drake's Dragon team with SAGE Lv 83.
+    - Shelgon Lv 52 (#1): Shelgon used Protect on Turn 1. SAGE struck with Facade on Turn 2 (~70% dmg). Drake burned Full Restore #1 on Turn 3! SAGE hit with Quick Attack and Facade, then finished Shelgon with Quick Attack. Shelgon DEFEATED!
+    - Flygon Lv 53 (#2): SAGE (162+ Speed) struck first with physical Facade (Slot 3), dealing ~72% damage and dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE.
+    - Sacrificial Revive: Cipher Lv 17 was sent out; Turn 26517 Revive restored Lilz to 42 HP. Cipher absorbed Flamethrower and fainted. Lilz Lv 30 sent in on Turn 26520 to execute Revive on SAGE!
 
 
 <hr>
@@ -5079,7 +5073,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Sidney, Phoebe, & Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 83 (~73/249 HP, Overgrow ACTIVE, Spe 244). Bag: 2 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon defeated; Flygon at ~28% HP). SAGE Lv 83 (0/249 HP FNT, Sacrificial Revive in progress). Lilz Lv 30 on field (42/85 HP). Bag: 2 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (9/20), Quick Attack (26/30). Status: FNT (Sacrificial Revive in progress).
@@ -5134,6 +5128,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
 - Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- In-Battle Party Targeting Grid (Cipher Active): When Cipher (Slot 3) is active in the left box, Row 1 of the right column is Lilz (Slot 2) and Row 2 is SAGE (Slot 1). To target SAGE when Slot 3 is active, press Right then Down.
+- In-Battle Party Targeting Grid (Lilz Active): When Lilz (Slot 2) is active in the left box, SAGE (Slot 1) is at Row 1 of the right column (reached directly via Right, without pressing Down).
 
 
 <hr>

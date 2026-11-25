@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active! Room 1 Sidney DEFEATED! Room 1 Sidney & Room 2 Phoebe DEFEATED! Sidney, Phoebe, & Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 83 (~73/249 HP, Overgrow ACTIVE, Spe 244). Bag: 2 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
+- Status: Attempt 11 Active! Sidney, Phoebe, & Glacia DEFEATED! Room 4 Drake in progress (Shelgon defeated; Flygon at ~28% HP). SAGE Lv 83 (0/249 HP FNT, Sacrificial Revive in progress). Lilz Lv 30 on field (42/85 HP). Bag: 2 Revives, 2 Full Heals, 1 Ultra Ball, ¥15,966.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (9/20), Quick Attack (26/30). Status: FNT (Sacrificial Revive in progress).
@@ -58,3 +58,4 @@
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
 - Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- In-Battle Party Targeting Grid (Cipher Active): When Cipher (Slot 3) is active in the left box, Row 1 of the right column is Lilz (Slot 2) and Row 2 is SAGE (Slot 1). To target SAGE when Slot 3 is active, press Right then Down.
+- In-Battle Party Targeting Grid (Lilz Active): When Lilz (Slot 2) is active in the left box, SAGE (Slot 1) is at Row 1 of the right column (reached directly via Right, without pressing Down).
