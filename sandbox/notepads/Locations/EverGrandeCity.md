@@ -101,3 +101,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Salamence Lv 55 (#4, Ace): Drake sent out his Ace Salamence! Intimidate cut SAGE's Attack. SAGE (124/249 HP, 244 Speed) outspeeds and targets Salamence with physical Facade!
       - SAGE struck Salamence Lv 55 with physical Facade for ~65 damage (~35-40% HP)! Salamence counter-attacks.
       - Flamethrower dealt 63 dmg to SAGE (HP 61/249, Overgrow ACTIVE!). SAGE strikes with physical Facade for ~65 dmg!
+      - Second Facade struck Salamence for ~35% damage, dropping Drake's Ace Salamence to ~30% HP!

@@ -411,6 +411,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Salamence Lv 55 (#4, Ace): Drake sent out his Ace Salamence! Intimidate cut SAGE's Attack. SAGE (124/249 HP, 244 Speed) outspeeds and targets Salamence with physical Facade!
       - SAGE struck Salamence Lv 55 with physical Facade for ~65 damage (~35-40% HP)! Salamence counter-attacks.
       - Flamethrower dealt 63 dmg to SAGE (HP 61/249, Overgrow ACTIVE!). SAGE strikes with physical Facade for ~65 dmg!
+      - Second Facade struck Salamence for ~35% damage, dropping Drake's Ace Salamence to ~30% HP!
 
 
 <hr>
@@ -5138,6 +5139,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
 - Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- In-Battle Party Targeting Grid (Cipher Active): When Cipher (Slot 3) is active in the left box, Row 1 of the right column is Lilz (Slot 2) and Row 2 is SAGE (Slot 1). To target SAGE when Slot 3 is active, press Right then Down.
 - In-Battle Party Targeting Grid (Lilz Active): When Lilz (Slot 2) is active in the left box, Row 1 of the right column is CIPHER (Slot 3) and Row 2 is SAGE (Slot 1). To target SAGE when Lilz is active, press Right then Down.
+- Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
+- Drake Send-Out Order in Emerald: Drake sends out Shelgon Lv 52 (#1), Flygon Lv 53 (#2), Altaria Lv 54 (#3), Ace Salamence Lv 55 (#4), and Kingdra Lv 53 (#5).
 
 
 <hr>
