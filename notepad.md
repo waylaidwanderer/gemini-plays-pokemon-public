@@ -393,6 +393,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!    - Walrein Lv 53 (#3, Ace): DEFEATED! SAGE returned via Sacrificial Revive at 124 HP, outsped, and finished Walrein with Bullet Seed! Glacia's Ace is defeated!
 
     - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
+      - SAGE's Facade dealt ~75% damage, dropping Glalie to ~25% HP! Glalie counter-attacked with Icy Wind.
 
 <hr>
 
@@ -5116,5 +5117,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Battle Bag Medicine Layout: In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Using Full Heal cures non-volatile status (such as Freeze) instantly on turn start.
 - Level 83 Overgrow Threshold: At Level 83 (max HP 249), Sceptile's Overgrow activates at <= 83 HP (249 / 3 = 83), boosting all Grass-type moves by 1.5x.
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
+- In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
+- Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.
 
 <hr>

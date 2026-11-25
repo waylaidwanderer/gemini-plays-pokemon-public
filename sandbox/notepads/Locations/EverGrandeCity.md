@@ -83,3 +83,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!    - Walrein Lv 53 (#3, Ace): DEFEATED! SAGE returned via Sacrificial Revive at 124 HP, outsped, and finished Walrein with Bullet Seed! Glacia's Ace is defeated!
 
     - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
+      - SAGE's Facade dealt ~75% damage, dropping Glalie to ~25% HP! Glalie counter-attacked with Icy Wind.
