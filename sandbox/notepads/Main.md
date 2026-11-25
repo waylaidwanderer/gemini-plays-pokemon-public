@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26401)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash. Advancing to Room 1 (Sidney)!
+- Status: Attempt 11 Active (Turn 26404)! Room 1 Sidney ACTIVE! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
@@ -30,7 +30,7 @@
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [ ] Elite Four Member #1 Sidney
+    - [ ] Elite Four Member #1 Sidney (ACTIVE Turn 26404)
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake

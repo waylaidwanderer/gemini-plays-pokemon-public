@@ -657,114 +657,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 
 - Battle Progress:
-
-
-
-  - Room 1 Sidney: DEFEATED on Turn 25673! Earned ¥4,900 (Total cash: ¥4,943). Mightyena, Absol, Shiftry, Cacturne, and Crawdaunt all conquered! SAGE Lv 76 (114/228 HP, Spe 224, Aerial Ace 14/20 PP).
-
-
-
-  - Room 2 Phoebe: DEFEATED on Turn 25737! (Dusclops Lv 48, Dusclops Lv 51, Banette Lv 49, Sableye Lv 50, Banette Lv 49 all conquered!). Prize: ¥5,100 (Total cash: ¥10,043). SAGE Lv 77. In Bag: 3 Revives, 5 Hyper Potions, 3 Full Heals. Northern door to Room 3 (Glacia) unlocked and open!
-
-
-
-  - Room 3 Glacia: ALL 5 POKéMON DEFEATED (Turn 25811)! Sealeo Lv 50, Sealeo Lv 52, Walrein Lv 53, Glalie Lv 50, Glalie Lv 52 all conquered! Earned ¥5,300 prize money (Total cash: ¥15,343). Glacia burned 1 Full Restore on Sealeo #1. SAGE Lv 77 (126/231 HP) swept the chamber using STAB Bullet Seed and physical Facade. Northern door to Room 4 (Drake) unlocked and open!
-
-
-
-
-
-  - Champion Wallace: Bullet Seed & Quick Attack! Enter Hall of Fame!
-
-
-
-## Champion Wallace Battle Notes (Attempt 1: Turns 24958-24983; Attempt 2: Preparing)
-
-
-
-- Attempt 1 Analysis: SAGE Lv 72 OHKO'd lead Wailord Lv 57 with Bullet Seed, battered ace Milotic Lv 58, forced Wallace's Full Restore, and fell to Ice Beam. Mochi executed turn-priority Revive on Sage before falling. Sage clutched Milotic to deep red before fainting. Party whited out to respawn outside League HQ at 100% full HP/PP.
-
-
-
-- Attempt 2 Strategy: Restock 5+ Revives and Hyper Potions at Mart clerk. Re-enter Elite Four gate. Sweep Sidney, Phoebe, Glacia, and Drake with Lv 72 Sage (213 Speed, Bullet Seed, Aerial Ace, Facade, Quick Attack). Enter Wallace at full 217 HP to survive Ice Beam and achieve the full sweep into the Hall of Fame!
-
-
-
-## Elite Four Attempt 7 (Archived Turn 26031)
-
-- Status: Room 1 Sidney DEFEATED! Room 2 Phoebe DEFEATED! Room 3 Glacia: Sealeo #1 & #2 defeated, Walrein Ace defeated, Glalie #1 defeated, Glalie #2 reduced to ~35% HP. SAGE grew to Lv 79. Whited out on Turn 26031.
-
-- Battle Progress:
-
-  - Room 1 Sidney: DEFEATED on Turn 25926! Prize: ¥4,900.
-
-  - Room 2 Phoebe: DEFEATED on Turn 25968! Prize: ¥5,100.
-
-  - Room 3 Glacia: Sealeo Lv 50 (#1) OHKO'd, Sealeo Lv 52 (#2) OHKO'd, Walrein Lv 53 (Ace) defeated by Facade & Quick Attack, Glalie Lv 50 (#1) defeated by Facade. Glalie Lv 52 (#2) down to ~35% HP. Whited out Turn 26031.
-
-
-
-## Elite Four Attempt 8 (Concluded Turn 26092)
-
-- Status: Room 1 Sidney DEFEATED (Turn 26058, earned ¥4,900). Room 2 Phoebe active: Dusclops #1 DEFEATED (Turn 26070). SAGE fell to Dusclops #2. Cash: ¥5,891. Reserves active.
-
-- Moves: Bullet Seed (30/30 PP), Aerial Ace (20/20 PP), Facade (20/20 PP), Quick Attack (30/30 PP).
-
-- Cash: ¥991 retained.
-
-
-
-
-## Verified Elite Four & Wallace Type Matchup Routing (Reflection Turn 26035)
-
-- Sidney: Shiftry (Aerial Ace 4x OHKO), Cacturne (Aerial Ace 4x OHKO), Crawdaunt (Bullet Seed 2x OHKO), Mightyena (Bullet Seed / Facade), Absol (Facade / Bullet Seed).
-
-- Phoebe: MUST NOT USE Normal moves (Facade, Quick Attack have 0 effect on Ghosts). Use Bullet Seed and Aerial Ace. Dusclops Pressure doubles PP cost; SAGE has 30 Bullet Seed and 20 Aerial Ace.
-
-- Glacia: Sealeo #1 & #2 (Bullet Seed 2x OHKO), Walrein (Bullet Seed 2x; Sheer Cold 100% fails against Lv 79 Sage), Glalie #1 & #2 (Facade high physical damage).
-
-- Drake: Kingdra (Facade neutral physical), Shelgon/Flygon/Altaria/Salamence (Aerial Ace / Facade / Quick Attack priority).
-
-- Wallace: Wailord (Bullet Seed 2x OHKO), Whiscash (Bullet Seed 4x OHKO), Ludicolo (Aerial Ace 2x super effective), Tentacruel & Gyarados (Facade / Bullet Seed), Milotic (Bullet Seed 2x).
-
-
-
-## Elite Four Attempt 9 (Archived Turn 26231)
-- Result: Conquered Sidney, Phoebe, and Glacia! SAGE grew to Level 81!
-- Room 1 Sidney: DEFEATED on Turn 26121! Earned ¥4,900.
-- Room 2 Phoebe: DEFEATED on Turn 26161! Earned ¥5,100.
-- Room 3 Glacia: DEFEATED on Turn 26207! Earned ¥5,300.
-  - Sealeo #1, Sealeo #2, Walrein Ace, Glalie #1, Glalie #2 all conquered!
-- Room 4 Drake: Shelgon Lv 52 DEFEATED on Turn 26222! SAGE leveled up to 81. Flygon reduced to ~45% HP. Whited out on Turn 26231.
-- Total cash earned: ¥15,867 (~¥7,933 retained upon whiteout).
-- Key Achievements: SAGE Level 81 (Max HP 243, Atk 181, Def 132, SpA 197, SpD 177, Spe 239).
-
-## Elite Four Attempt 10 (Archived Turn 26391)
-- Status: SAGE Level 82 (108/246 HP, 241 Spe). Sidney, Phoebe, and Glacia ALL DEFEATED! Room 4 Drake ACTIVE!
-- In Bag: 0 Revives, 3 Full Heals, ¥15,733 cash.
-- Plan: Sweep Drake (Room 4) and Champion Wallace into the Hall of Fame!
-- Battle Progress:
-  - Room 1 Sidney: DEFEATED on Turn 26256! Earned ¥4,900 (Total cash: ¥5,333). Mightyena, Absol, Shiftry, Cacturne, Crawdaunt all conquered!
-  - Room 2 Phoebe: DEFEATED on Turn 26294! Earned ¥5,100 (Total cash: ¥10,433). Dusclops #1, Dusclops #2, Banette #1, Sableye, Banette #2 all conquered!
-  - Room 3 Glacia: DEFEATED on Turn 26364! Earned ¥5,300 (Total cash: ¥15,733)!
-    - Sealeo Lv 50 (#1): Glacia burned Full Restore #1! DEFEATED by Facade!
-    - Sealeo Lv 52 (#2): DEFEATED by Bullet Seed!
-    - Walrein Lv 53 (#3, Ace): DEFEATED by Facade! SAGE leveled up to 82!
-    - Glalie Lv 50 (#4): Glacia burned Full Restore #2! DEFEATED by Quick Attack!
-    - Glalie Lv 52 (#5, Final): DEFEATED by Quick Attack!
-    - Doorway to Room 4 (Drake) unlocked and open!
-  - Room 4 Drake: Concluded (Turn 26391)!
-    - Shelgon Lv 52 (#1): Drake burned Full Restore #1! DEFEATED by Facade!
-    - Flygon Lv 53 (#2): DEFEATED on Turn 26388 by Facade!
-    - Altaria Lv 54 (#3): Reduced to ~40% HP by Facade. Used Double-Edge.
-    - SAGE fainted to Double-Edge. Party whited out to respawn outside League. SAGE grew to Level 82!
-
-## Elite Four Attempt 11 (Active)
-- Status: Active (Turn 26398)! 3 Revives purchased; purchasing 4th Revive for ¥1,500. SAGE Level 82 (246/246 HP, Spe 241, 100% PP).
-- In Bag: 3 Revives, 1 Ultra Ball, 3 Full Heals, ¥2,166 cash.
-- Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Plan: 1. Pass central gate to Room 1. 2. Defeat Sidney. 3. Defeat Phoebe. 4. Defeat Glacia. 5. Defeat Drake. 6. Defeat Champion Wallace!
-
+  - Room 1 Sidney: ACTIVE (Turn 26404)! Mightyena Lv 46 (#1), Absol Lv 49 (#2), Shiftry Lv 48 (#3), Cacturne Lv 46 (#4), Crawdaunt Lv 48 (#5). SAGE Lv 82 (246/246 HP, Spe 241, 100% PP).
 
 <hr>
 
@@ -5435,7 +5328,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 Active (Turn 26401)! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash. Advancing to Room 1 (Sidney)!
+- Status: Attempt 11 Active (Turn 26404)! Room 1 Sidney ACTIVE! SAGE Level 82 (246/246 HP, 241 Spe, 100% PP). 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥666 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 82) - Lead! HP: 246/246. Max HP: 246. Atk 183, Def 133, SpA 200, SpD 179, Spe 241. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: 100% Restored Upon Whiteout.
@@ -5462,7 +5355,7 @@ A large meteorological research institute located in northern Route 119 beside t
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [ ] Elite Four Member #1 Sidney
+    - [ ] Elite Four Member #1 Sidney (ACTIVE Turn 26404)
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
