@@ -440,4 +440,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Crawdaunt Lv 48 (#5, Final): DEFEATED on Turn 26256 by Bullet Seed!
     - Room 1 Sidney DEFEATED! Prize: ¥4,900 earned (Total cash: ¥5,333). Doorway to Room 2 (Phoebe) unlocked!
   - Room 2 Phoebe: ACTIVE (Turn 26260)! Dusclops Lv 48 (#1): DEFEATED on Turn 26265 by Bullet Seed! SAGE survived at 5/243 HP (Overgrow ACTIVE!).
-    - Dusclops Lv 51 (#2): Entering field on Turn 26266! SAGE staying in to attack with Overgrow Bullet Seed.
+    - Dusclops Lv 48 (#1): DEFEATED! SAGE fainted to Curse (Curse wiped!).
+    - Sacrificial Revive Protocol active on Turn 26267: LILZ sent out, about to use Revive on SAGE to restore to 120/243 HP with 0 Curse! 5 Revives in Bag.
