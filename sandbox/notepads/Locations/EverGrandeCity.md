@@ -92,4 +92,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shelgon Lv 52 (#1): SAGE (244 Speed) strikes first with physical Facade (Slot 3)!      - Shelgon used Protect on Turn 1! SAGE strikes with physical Facade on Turn 2!
 
       - Facade dealt ~70% damage, dropping Shelgon to ~25% HP! Shelgon counter-attacked with Rock Tomb (dealt 9 dmg to SAGE, HP 64/249, Overgrow ACTIVE).      - SAGE finished Shelgon Lv 52 (#1) with Facade! Shelgon DEFEATED! Facing Drake's 2nd Pokémon.
-      - Shelgon's Rock Tomb missed! SAGE finished Shelgon with Quick Attack! Shelgon DEFEATED! Facing Flygon Lv 53 (#2).
+      - Drake burned Full Restore #1 on Shelgon! Quick Attack dealt ~35% dmg (Shelgon ~65% HP). SAGE strikes with Facade!
