@@ -361,7 +361,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Attempt 10 (Turn 26391): Masterclass run! Defeated Sidney, Phoebe (overcame Curse/Grudge via 2 sacrificial revives), Glacia (swept all 5 via 3 sacrificial revives), and Drake's Shelgon & Flygon! Scouted Drake's moves: Shelgon Protect/Double-Edge, Flygon Flamethrower (49 dmg to Lv 82 SAGE), Altaria Double-Edge. SAGE leveled up to Level 82 (246 HP, 200 SpA, 183 Atk, 241 Spe). Total cash peaked at ¥15,733 (halved to ¥7,866 upon whiteout).
 - Attempt 11 (Turn 26545): Masterclass run! Defeated Sidney, Phoebe, Glacia, and Drake's Shelgon, Flygon, & Altaria! SAGE leveled up to Level 83 (249 HP, 244 Spe, 202 SpA, 185 Atk). Total cash peaked at ¥15,966 (halved to ¥7,983 upon whiteout). All 4 purchased Revives were executed with masterclass Sacrificial Revive precision. Setting up Attempt 12 with 5 Revives!
 
-## Elite Four Attempt 11 (Active)
+## Elite Four Attempt 11 (Archived Turn 26545)
 - Status: Room 1 Sidney DEFEATED on Turn 26428! Earned ¥4,900 prize money (Total cash: ¥5,566). SAGE Level 82 (215/246 HP, Spe 241).
 - In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥5,566 cash.
 - Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
@@ -419,6 +419,18 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Flamethrower KO'd Cobalu. Cobalu fainted. Sending in Mochi Lv 11!
       - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.
       - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
+
+## Elite Four Attempt 12 (Active)
+- Status: Purchasing 5 Revives at League Mart counter (16, 4) with ¥7,983 cash.
+- SAGE (Level 83 Sceptile ♂): 249/249 HP, 244 Speed, 202 SpA, 185 Atk. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30).
+- In Bag: Purchasing 5 Revives (¥7,500), 2 Full Heals, 1 Ultra Ball, 1 Master Ball. Remaining cash: ¥483.
+- Party: All 6 Pokémon 100% restored. 5 conscious reserve anchors ready for Sacrificial Revives.
+- Battle Plan:
+  - Room 1 Sidney: Facade / Aerial Ace sweep. (Prize: ¥4,900).
+  - Room 2 Phoebe: Aerial Ace sweeps Banettes & Sableye, Overgrow Bullet Seed sweeps Dusclops. (Prize: ¥5,100).
+  - Room 3 Glacia: Overgrow Bullet Seed sweeps Sealeos & Walrein, physical Facade sweeps Glalies. (Prize: ¥5,300).
+  - Room 4 Drake: 2HKO Shelgon, Flygon, Altaria with Facade. Defeat Kingdra & Salamence. 5 Revives available! (Prize: ¥5,500).
+  - Champion Wallace: Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic; Aerial Ace / Facade vs Ludicolo!
 
 
 <hr>
@@ -5089,15 +5101,15 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 82, Male), Nickname: SAGE
-- Status: Attempt 11 concluded; Attempt 12 preparing! Whited out at Drake's Ace Salamence (~25% HP). Cash: ¥7,983. SAGE Lv 83 (249/249 HP, 244 Speed, full PP). Entire party restored! Ready to buy 5 Revives at Mart.
+- Starter: Sceptile (Level 83, Male), Nickname: SAGE
+- Status: Attempt 12 Preparing! SAGE Lv 83 (249/249 HP, Spe 244). Entire party 100% restored. Cash: ¥7,983. Purchasing 5 Revives at lobby Mart.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 0/249 (FNT). Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (9/30), Aerial Ace (0/20 - Grudged), Facade (4/20), Quick Attack (26/30). Status: FNT (Fainted vs Salamence).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed vs Flygon).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed vs Flygon).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Fainted vs Salamence).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FNT (Fainted vs Salamence).
+1. SAGE (Sceptile ♂, Level 83) - Lead! HP: 249/249. Max HP: 249. Atk 185, Def 135, SpA 202, SpD 181, Spe 244. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
