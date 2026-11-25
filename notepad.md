@@ -746,7 +746,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In Bag: 5 Revives, 3 Full Heals, ¥433 cash.
 - Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3) entering next! Strategy: 2x super-effective Aerial Ace (guaranteed OHKO).
+  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3): DEFEATED on Turn 26247 by Aerial Ace (OHKO)! SAGE at 125/243 HP. Sidney's #4 Pokémon entering next.
 
 
 
@@ -5428,7 +5428,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 125/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (-1 Acc). Moves: Bullet Seed (29/30), Aerial Ace (17/20), Facade (18/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 81) - Lead! HP: 125/243. Max HP: 243. Atk 181, Def 132, SpA 197, SpD 177, Spe 239 (-1 Acc). Moves: Bullet Seed (29/30), Aerial Ace (16/20), Facade (18/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
