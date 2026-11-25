@@ -383,6 +383,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - ELITE FOUR MEMBER #2 PHOEBE DEFEATED (Attempt 11, Turn 26468)! Prize: ¥5,100 (Total: ¥10,666). Door to Room 3 (Glacia) unlocked!
 
   - Room 3 Glacia: In progress (Turn 26473). Facing lead Sealeo Lv 50 with Lv 83 SAGE (70/249 HP, active Overgrow).
+    - Sealeo Lv 50 (#1): Took 2 Bullet Seed hits (~85% dmg), used Hail. SAGE at 55/249 HP with Overgrow ACTIVE. Finishing with Bullet Seed!
 
 <hr>
 
