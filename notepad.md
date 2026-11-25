@@ -5419,7 +5419,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Active (Turn 26232)! SAGE Level 81 (243/243 HP, 239 Spe, 100% PP). Cash: ~¥7,933. Heading to Mart clerk to buy 5 Revives before sweeping the League!
+- Status: Attempt 10 Active (Turn 26235)! SAGE Level 81 (243/243 HP, 239 Spe, 100% PP). 5 Revives in Bag! Ready to enter Elite Four gate!
 
 
 ## Party (100% Restored Upon Whiteout)
@@ -5441,7 +5441,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 - Full Heal x3 (1 purchased Turn 25634)
 
-- Revive x0 (1 used Turn 26138, 1 used Turn 26179, 1 used Turn 26199; 0 remaining)
+- Revive x5 (purchased 5 Turn 26235 at League Lobby Mart) (1 used Turn 26138, 1 used Turn 26179, 1 used Turn 26199; 0 remaining)
 
 - Hyper Potion x0
 
@@ -5464,12 +5464,12 @@ A large meteorological research institute located in northern Route 119 beside t
 
 5. [ ] Challenge the Elite Four:
 
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 9, Turn 26121)!
+    - [ ] Elite Four Member #1 Sidney
 
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 9, Turn 26161)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 9, Turn 26207)!
+    - [ ] Elite Four Member #2 Phoebe
+    - [ ] Elite Four Member #3 Glacia
 
-    - [ ] Elite Four Member #4 Drake (Challenging now!)
+    - [ ] Elite Four Member #4 Drake
 
     - [ ] Champion Wallace
 
