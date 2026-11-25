@@ -8,7 +8,7 @@
 
 - Starter: Sceptile (Level 56, Male), Nickname: SAGE
 
-- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26245)! SAGE Level 81 (125/243 HP, 239 Spe). Absol in red HP (~15%). SAGE KOing with Aerial Ace!
+- Status: Attempt 10 Room 1 Sidney ACTIVE (Turn 26246)! SAGE Level 81 (125/243 HP, 239 Spe). Absol DEFEATED! Shiftry entering next.
 
 
 ## Party (100% Restored Upon Whiteout)

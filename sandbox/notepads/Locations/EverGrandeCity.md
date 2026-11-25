@@ -436,5 +436,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - In Bag: 5 Revives, 3 Full Heals, ¥433 cash.
 - Plan: Sweep Sidney (Room 1), Phoebe (Room 2), Glacia (Room 3), Drake (Room 4), and Wallace into the Hall of Fame!
 - Battle Progress:
-  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): Took Aerial Ace (down to ~15% red HP). Hit SAGE with Aerial Ace (46 dmg, SAGE at 125/243 HP). SAGE KOing Absol with 100% accurate Aerial Ace on Turn 26245.
+  - Room 1 Sidney: ACTIVE (Turn 26238)! Mightyena Lv 46 (#1): DEFEATED on Turn 26240 by critical Aerial Ace! SAGE at 243/243 HP. Absol Lv 49 (#2): DEFEATED on Turn 26245 by Aerial Ace! SAGE at 125/243 HP. Shiftry Lv 48 (#3) entering next! Strategy: 2x super-effective Aerial Ace (guaranteed OHKO).
 
