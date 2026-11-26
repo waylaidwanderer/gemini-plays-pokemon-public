@@ -33,7 +33,7 @@
 - Dark cave & trainer battle timing: in unlit Rock Tunnel (without Flash), cave walls and ladders remain faintly visible in dark maroon/brown on `latest.png`/`latest_grid.png`, while trainers are invisible (detectable via coordinate-checking steps in `run_code`, turns 773–776). Trainer sendout + `"Go! <PKMN>!"` requires `sleep 5500` before Battle Menu accepts inputs (verified turn 768).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 30 (100 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 31 (103 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
 - **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x7**, **Repel x1**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥13000+ | **Respawn:** Lavender Town Center `(3,5)`
