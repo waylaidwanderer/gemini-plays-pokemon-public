@@ -4,7 +4,7 @@
 - **Game:** Pokémon Blue Version (Generation I, GBC-colorized QoL variant)
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
-- **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16)
+- **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16, evolved into Blastoise at Lv. 36!)
 
 ## Milestones & Badges
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
@@ -23,7 +23,7 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 35 (`92/92` HP) | Moves: BubbleBeam, Ice Beam, Dig, Bite *(Evolves to Blastoise at Lv. 36 — use A-only post-KO recipe!)*
+1. **NAUTILUS** (Blastoise) — Lv. 36 | Moves: Ice Beam (Slot 0), BubbleBeam (Slot 1), Dig (Slot 2), Bite (Slot 3)
 2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
