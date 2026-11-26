@@ -445,6 +445,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 2: Clamping Up+Right to Slot 2 Aerial Ace (infinite accuracy, bypasses Sand-Attack!) to KO Mightyena!
     - Mightyena Lv 46: DEFEATED by Aerial Ace! SAGE at 251/251 HP.
   - Absol Lv 49 (#2): Pressure. SAGE strikes first with Aerial Ace (Slot 2: Up, Right, A).
+    - Turn 3: SAGE at 251/251 HP. Cursor on BAG. Stepping Left to FIGHT, clamping Up+Right to Slot 2 Aerial Ace vs Absol Lv 49.
 
 <hr>
 
