@@ -289,7 +289,8 @@ def name_buttons(word):
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
 - **Gen 1 Menu Wrapping Summary (Verified Turns 124, 155, 184)**:
-  - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`), and catching a new Pokémon resets `Start` to `POKéDEX`.
+  - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`), and catching a new Pokémon or healing at Nurse Joy resets `Start` to `POKéDEX`.
+  - `POKéMON` party list **remembers its last cursor slot** across opens (both in `Start -> POKéMON` and in-battle `PKMN`, verified Turns 190–192) and **wraps** vertically; never assume `POKéMON` opens on Slot 0 after a `SWITCH`!
   - Battle `FIGHT` move menu **wraps** vertically.
   - `ITEM` bag menu **clamps** (does NOT wrap) at Slot 0 (`Up` at top stays on Slot 0).
   - Battle 2x2 command menu (`FIGHT / PKMN / ITEM / RUN`) **clamps** (`Left, Up` always lands on `►FIGHT`).
