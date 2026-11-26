@@ -145,3 +145,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 5: Dusclops used Shadow Punch, dealing 22 dmg (SAGE at 150/251 HP). Dusclops clinging to ~2-3 red HP.
     - Turn 6: Selecting FIGHT, clamping to Slot 1 Bullet Seed to finish Dusclops #1!
     - Turn 6: Phoebe burned Full Restore on Dusclops! SAGE countered with STAB Bullet Seed, dealing heavy damage. SAGE at 150/251 HP. Bullet Seed at 23/30 PP under Pressure. Aerial Ace preserved at 3 PP.
+    - Turn 6: Dusclops took Bullet Seed damage, dropping back down to ~20% HP (orange/red bar)! SAGE at 150/251 HP.
+    - Turn 7: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops #1!
