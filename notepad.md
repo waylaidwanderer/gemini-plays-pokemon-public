@@ -441,7 +441,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: Room 1 Sidney DEFEATED (5-0 clean sweep)! Prize: ¥4,900 (Total cash: ¥5,570). Door to Room 2 (Phoebe) unlocked!
 - Party: SAGE Lv 86 (Lead, 130/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
-- Status: Arrived at (6, 6) in Room 2 facing Phoebe! Challenging Elite Four Member #2 Phoebe. Leading SAGE Lv 86 (130/257 HP, 253 Spe). Bag: 5 Revives (100% intact), 1 Full Heal.
+- Status: Room 2 Phoebe battle underway! SAGE Lv 86 (130/257 HP, 253 Spe) sent out against lead Dusclops Lv 48. Advancing send-out and Pressure text to battle menu to strike with STAB Bullet Seed (Slot 1)!
 
 <hr>
 
@@ -5112,7 +5112,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! In Room 2 facing Elite Four Phoebe! SAGE Lv 86 (130/257 HP, 253 Spe) initiating battle. Bag: 5 Revives, 1 Full Heal, ¥5,570 cash.
+- Status: Attempt 14 Active! In battle with Elite Four Phoebe! SAGE Lv 86 (130/257 HP, 253 Spe) facing lead Dusclops Lv 48. Bag: 5 Revives, 1 Full Heal, ¥5,570 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 130/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (29/30), Aerial Ace (16/20), Facade (13/20), Quick Attack (26/30). Status: OK (Active Battler).
