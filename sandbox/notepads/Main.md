@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 3 Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 86 (76/257 HP, Overgrow ACTIVE, 253 Spe). Bag: 4 Revives, 1 Full Heal, 3 conscious anchors, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Battle commenced! SAGE Lv 86 vs Shelgon Lv 52. SAGE HP: 76/257 (Overgrow ACTIVE, 253 Spe). Bag: 4 Revives, 1 Full Heal, 3 conscious anchors, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 76/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (9/20), Quick Attack (26/30). Status: OK (Overgrow Active).
