@@ -469,6 +469,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE switched in cleanly at 125/251 HP (no Curse, full 247 Speed). Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to finish Dusclops Lv 51 and advance to Banette #1!
     - Dusclops Lv 51: DEFEATED by Bullet Seed! Both Pressure users on Phoebe's team are eliminated!
   - Phoebe Pokémon #3: Banette Lv 49 (Grudge user). Declining switch, advancing to battle menu to launch Aerial Ace (Slot 2) and absorb Grudge safely!
+    - Banette Lv 49 (#1): On field. Dismissing send-out text, clamping Up+Right to Slot 2 Aerial Ace to OHKO Banette and absorb Grudge safely, protecting Bullet Seed!
 
 <hr>
 
