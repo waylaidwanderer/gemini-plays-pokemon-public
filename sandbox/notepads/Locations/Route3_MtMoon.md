@@ -43,4 +43,9 @@
     - Reached via `(14, 2) -> (14, 16)` (Youngster Josh defeated Turn 219) -> `(14, 17) -> (3, 17) -> (3, 2)`.
     - **`Moon Stone`**: Item ball at **`(2, 2)`** — Collected (Turn 221).
     - **Hiker Marcos**: Stands at `(5, 6)` facing `Down` (bypassable from north).
-    - **Main Exit Ladder (`(5, 5)`)**: Warps to B1F `(5, 5) -> (5, 17)` east corridor to B2F Main Floor.
+    - **Main Exit Ladder (`(5, 5)`)**: Warps to B1F `(5, 5) -> (5, 17) -> (21, 17)` onto **Mt. Moon B2F Main Floor**.
+
+## Mt. Moon B2F Main Floor
+- **Entry Ladder (from B1F `(21, 17)`)**: Spawns at `(21, 17)`.
+- **Verified East & South Ring to Fossil Corridor**:
+  - `(21, 17) -> (23, 17) -> (23, 13) -> (27, 13) -> (27, 16) -> (32, 16)` (bypasses `(29, 17)` Rocket Grunt along `y = 16`) -> `(32, 12) -> (36, 12) -> (36, 24) -> (33, 24) -> (33, 32) -> (10, 32)`.

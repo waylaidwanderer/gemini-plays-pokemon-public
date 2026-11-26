@@ -44,8 +44,12 @@ def name_buttons(word):
     - In the **`FIGHT` move menu**, `Select -> Down * k -> Select` swaps Slot `k` into Slot 0 and **automatically resets the cursor onto Slot 0** (and note: `FIGHT` wraps vertically, so pressing `Up` from Slot 0 wraps to the bottom move!).
     - In the **`ITEM` bag menu**, `Select -> Down * k -> Select` leaves the cursor at Slot `k`; always verify the highlighted item before pressing `A` after reordering items.
   - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8–10 `B` presses (`"sleep 650"`) per round when stat-drop or poison ticks occur (Turns 83, 95).
-- **Catching & Nickname Safety (Verified Turns 66–75)**:
-  - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
+- **Catching & Nickname Safety (Verified Turns 66–75, 173–175, 230)**:
+  - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome.
+  - Once `"All right! <POKEMON> was..."` appears, wait `"sleep 5500"` + `A` -> `"will be added for <POKEMON>!"`, then `["A", "sleep 2500", "A", "sleep 1200", "A", "sleep 1800", "A", "sleep 1200"]` lands directly on `"give a nickname?"` `►YES / NO`.
+- **High-Density Cave Chunking & NPC Facing (Verified Turns 213, 228)**:
+  - High-encounter floors (e.g., Mt. Moon B2F) trigger wild battles every ~6–8 steps; cap `run_code` cave marches at **18–20 steps max** so wild-flee animations never approach the 120s script timeout.
+  - Rocket Grunts showing a solid horizontal orange stripe across the back of a black cap are facing **Up** (not Down).
 - **Evolution `B`-Cancel Warning & Verified Safe Evolution Recipe (Verified Turn 146)**:
   - Pressing `B` during a post-battle evolution animation (`"What? <POKEMON> is evolving!"`) **cancels the evolution** in Gen 1!
   - Evolution ONLY triggers **after the entire battle ends** (never mid-battle when KOing an earlier trainer Pokémon, and never if the evolving Pokémon faints before the battle ends).

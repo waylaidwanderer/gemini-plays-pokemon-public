@@ -24,11 +24,12 @@
 1. **NAUTILUS** (Wartortle) — Lv. 19 | Moves: Water Gun, Tail Whip, Tackle, Bubble
 2. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
 3. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
+4. **AMBER** (Paras) — Lv. 12 | Caught on Mt. Moon B2F (`HM01 Cut` & `Spore` specialist!)
 
 ## Inventory & Money
-- Money: ~¥2,300
+- Money: ~¥2,800
 - Key Items: Pokédex, Town Map
-- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, HP Up x1, Moon Stone x1, TM34 (Bide), TM12 (Water Gun), TM01 (Mega Punch)
+- Bag: Potion x2, Antidote x1, Poké Ball x2, Escape Rope x1, Rare Candy x1, HP Up x1, Moon Stone x1, TM34 (Bide), TM12 (Water Gun), TM01 (Mega Punch)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -191,7 +192,12 @@
     - Reached via `(14, 2) -> (14, 16)` (Youngster Josh defeated Turn 219) -> `(14, 17) -> (3, 17) -> (3, 2)`.
     - **`Moon Stone`**: Item ball at **`(2, 2)`** — Collected (Turn 221).
     - **Hiker Marcos**: Stands at `(5, 6)` facing `Down` (bypassable from north).
-    - **Main Exit Ladder (`(5, 5)`)**: Warps to B1F `(5, 5) -> (5, 17)` east corridor to B2F Main Floor.
+    - **Main Exit Ladder (`(5, 5)`)**: Warps to B1F `(5, 5) -> (5, 17) -> (21, 17)` onto **Mt. Moon B2F Main Floor**.
+
+## Mt. Moon B2F Main Floor
+- **Entry Ladder (from B1F `(21, 17)`)**: Spawns at `(21, 17)`.
+- **Verified East & South Ring to Fossil Corridor**:
+  - `(21, 17) -> (23, 17) -> (23, 13) -> (27, 13) -> (27, 16) -> (32, 16)` (bypasses `(29, 17)` Rocket Grunt along `y = 16`) -> `(32, 12) -> (36, 12) -> (36, 24) -> (33, 24) -> (33, 32) -> (10, 32)`.
 
 
 <hr>
@@ -264,8 +270,12 @@ def name_buttons(word):
     - In the **`FIGHT` move menu**, `Select -> Down * k -> Select` swaps Slot `k` into Slot 0 and **automatically resets the cursor onto Slot 0** (and note: `FIGHT` wraps vertically, so pressing `Up` from Slot 0 wraps to the bottom move!).
     - In the **`ITEM` bag menu**, `Select -> Down * k -> Select` leaves the cursor at Slot `k`; always verify the highlighted item before pressing `A` after reordering items.
   - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8–10 `B` presses (`"sleep 650"`) per round when stat-drop or poison ticks occur (Turns 83, 95).
-- **Catching & Nickname Safety (Verified Turns 66–75)**:
-  - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
+- **Catching & Nickname Safety (Verified Turns 66–75, 173–175, 230)**:
+  - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome.
+  - Once `"All right! <POKEMON> was..."` appears, wait `"sleep 5500"` + `A` -> `"will be added for <POKEMON>!"`, then `["A", "sleep 2500", "A", "sleep 1200", "A", "sleep 1800", "A", "sleep 1200"]` lands directly on `"give a nickname?"` `►YES / NO`.
+- **High-Density Cave Chunking & NPC Facing (Verified Turns 213, 228)**:
+  - High-encounter floors (e.g., Mt. Moon B2F) trigger wild battles every ~6–8 steps; cap `run_code` cave marches at **18–20 steps max** so wild-flee animations never approach the 120s script timeout.
+  - Rocket Grunts showing a solid horizontal orange stripe across the back of a black cap are facing **Up** (not Down).
 - **Evolution `B`-Cancel Warning & Verified Safe Evolution Recipe (Verified Turn 146)**:
   - Pressing `B` during a post-battle evolution animation (`"What? <POKEMON> is evolving!"`) **cancels the evolution** in Gen 1!
   - Evolution ONLY triggers **after the entire battle ends** (never mid-battle when KOing an earlier trainer Pokémon, and never if the evolving Pokémon faints before the battle ends).
