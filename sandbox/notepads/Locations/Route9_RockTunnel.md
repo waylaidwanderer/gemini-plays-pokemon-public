@@ -47,4 +47,6 @@
 - **1F Section 3 (Southeast -> South Exit, Verified Turns 550–566)**:
   - Arrives at **`1F (37, 17)`**; walk south along `x = 35`:
     - **Jr. Trainer♀ Leah** (`Bellsprout Lv 22, Clefairy Lv 22`) triggers at **`(35, 21)`** (defeated Turn 561).
-    - **Jr. Trainer♀ Ariana** (`Pidgey Lv 19, Rattata Lv 19 x2, Bellsprout Lv 19`) triggers at **`(35, 24)`**; corridor opens west at `y = 28+`.
+    - **Jr. Trainer♀ Ariana** (`Pidgey Lv 19, Rattata Lv 19 x2, Bellsprout Lv 19`) triggers at **`(35, 24)`** (defeated Turn 568); walk south to `(33, 29)`, west to `(26, 29)`, north to `(26, 26)`, and west along `y = 26`:
+    - **Jr. Trainer♀ Dana** (`Meowth Lv 20, Oddish Lv 20, Pidgey Lv 20`) stands at **`(22, 25)`** facing `Down` (defeated Turn 573).
+    - Continue west to `(15, 26)` and walk south onto the **Rock Tunnel South Exit mat at `1F (15, 33)`** -> warps outside to **`Route 10 South (8, 54)`** (Turn 574)!
