@@ -588,7 +588,7 @@ def name_buttons(word):
 ## Event & Fanfare Timings (Verified Turns 2–41)
 - **ROM Variant**: Colorized Pokémon Blue enhancement with GBC palettes and a live blue EXP bar under player HP in battle (verified Turn 27). Maps, items, and encounters match Pokémon Blue.
 - **Battle Move Cursor Memory**:
-  - **New Battle (Turn 1)**: **ALL FOUR** battle menus — top-level command (`►FIGHT`), `FIGHT` move submenu (`►Slot 0`), `PKMN` party list (`►Slot 0`), **AND `ITEM` bag menu (`►Slot 0`)** — **reset to Slot 0** at the start of every new battle (verified Turns 97, 280, and 565 `filmstrip_1.png` `#04`!).
+  - **New Battle (Turn 1)**: **ALL FOUR** battle menus — top-level command (`►FIGHT`), `FIGHT` move submenu (`►Slot 0`), `PKMN` party list (`►Slot 0`), **AND `ITEM` bag menu (`►Slot 0`)** — **reset to Slot 0** at the start of every new battle (verified Turns 97, 280, and 565 `filmstrip_1.png` `#04` — *including Safari Zone wild encounters even though `ITEM` isn't opened in battle*, verified Turn 885 `filmstrip_1.png` `#06`!).
   - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, `PKMN` cursor, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73, 287).
   - **Gen 1 `Wrap` / `Bind` Sub-Turn UI (Verified Turn 558 `filmstrip_1.png` `#02`)**: During an active multi-turn `Wrap`, `►FIGHT` re-opens before every single 1-tick sub-turn, and pressing `A` on `►FIGHT` immediately advances `"Enemy <PKMN>'s attack continues!"` **without opening the move list** (leaving your `FIGHT` move cursor unchanged). Use rapid `A, A` + `7` `B`s (`~5s`/sub-turn) rather than directional move switches during `Wrap`.
   - *(Tip — Verified `Select` Swap Mechanics, Turns 110, 121, 125)*:
