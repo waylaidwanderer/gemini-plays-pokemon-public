@@ -281,10 +281,23 @@
      - **Hiker Alan** at `(43, 3)` facing `Left` (`Geodude Lv 20, Machop Lv 20, Geodude Lv 20`, defeated Turn 485).
      - Bypass rock mound via `y = 3` (`(45, 4) -> (45, 3) -> (51, 3)`), hop **`(51, 6)`** south ledge onto **`(51, 8)`** middle paved road *(do NOT hop `(51, 13)`!)*, and walk `Right` onto **Route 10 `(0, 8)`** (Turn 487).
 
-## Route 10 North & Rock Tunnel Entrance (Verified Turn 487)
+## Route 10 North & Rock Tunnel Entrance (Verified Turns 487–490)
 - Enters from `Route 9 (59, 8)` at **`Route 10 (0, 8)`**.
-- Walk `(0, 8) -> (5, 8) -> (5, 13) -> (9, 13) -> (9, 20) -> (11, 20)` (`x = 9` is the narrow 1-tile lane between the `x = 8` cliff and the `x = 10..13` Pokémon Center!).
-- **Route 10 Pokémon Center**: Door at **`(11, 19)`** | **Rock Tunnel North Entrance**: **`(8, 17)`**.
+- Walk `(0, 8) -> (5, 8) -> (5, 13) -> (14, 13) -> (14, 20) -> (11, 20)` (`x = 14` cleanly bypasses the Route 10 Pokémon Center on its east side; `x = 9` has a cliff block at `(9, 14)`).
+- **Route 10 Pokémon Center**: Door at **`(11, 19)`**.
+- **2-Bush Shortcut to Rock Tunnel**: From `(9, 21)`, chop the two `Cut` bushes at **`(9, 20)`** and **`(9, 18)`**, then step onto **`Rock Tunnel North Entrance (8, 17)`** -> warps to **`Rock Tunnel 1F (15, 3)`**.
+
+## Rock Tunnel Mechanics & Verified Coordinates (Turns 490–503)
+- **Un-Flashed Visibility**: Without `HM05 (Flash)`, overworld sprites (player, items, and Trainers) are black, **but all rock walls and `|=|` ladder tiles render in dark maroon outlines** on `latest.png` and `latest_grid.png`.
+- **100% Repel Coverage**: Max wild Pokémon level in Rock Tunnel (1F & B1F) is **Lv. 18**, so leading with a Lv. 27+ Pokémon (`NAUTILUS` / `AMETHYST`) + `Repel` (in Bag Slot 0) eliminates 100% of wild encounters.
+- **Navigation Rule**: Step single tiles in `run_code` and break immediately when `after == before` so `latest.png` cleanly reveals any `"REPEL's effect wore off!"` prompt, invisible Trainer sightline, or wall.
+- **1F Section 1 (Northeast)**:
+  - Entrance mat: **`1F (15, 3)`** (exit mat at `(15, 3)`).
+  - **Pokémaniac Ashton** at **`1F (22, 8)`** (defeated Turn 494).
+  - **Ladder #1**: **`1F (37, 3)`** -> warps down to **`B1F (33, 25)`** *(Note: Ladder #2's upper end `1F (17, 11)` is visible across the wall south of Section 1)*.
+- **B1F Section 1 (Southeast -> North)**:
+  - Arrives at **`B1F (33, 25)`**; follow corridor south/west around `(28..33, 25..33)` to **`(26, 33)`**.
+  - **Pokémaniac Winston** (`Slowpoke Lv 25`): stands north of `(26, 33)` (`~(26, 30)` facing `Down`) and walks down to `(26, 32)` when stepping onto `(26, 33)` (Turns 499–503).
 
 
 <hr>
