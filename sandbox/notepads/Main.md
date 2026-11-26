@@ -23,9 +23,9 @@
 2. **AMETHYST** (Nidoran♀) — Lv. 4 | Moves: Growl, Tackle
 
 ## Inventory & Money
-- Money: ~¥3,031
+- Money: ¥531
 - Key Items: Pokédex, Town Map
-- Bag: Antidote x2, Poké Ball x2, TM34 (Bide)
+- Bag: Antidote x2, Poké Ball x7, TM34 (Bide), Potion x5
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
