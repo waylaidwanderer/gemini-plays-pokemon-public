@@ -441,6 +441,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shiftry Lv 48 (#3): DEFEATED! SAGE struck with 4x Aerial Ace (never misses!), finishing Shiftry! Facing Cacturne Lv 46 (#4, 4x weak to Flying)!
     - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
     - Cacturne Lv 46 (#4): DEFEATED! SAGE struck first with 4x Aerial Ace for ~307 damage, instant OHKO! Facing Sidney's final Pokémon, Crawdaunt Lv 48 (#5, 2x weak to Grass)!
+    - Crawdaunt Lv 48 (#5, Final): DEFEATED! SAGE struck first with 2x Bullet Seed for instant OHKO! ALL 5 OF SIDNEY'S POKÉMON DEFEATED!
+  - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26572)! Prize: ¥4,900 (Total: ¥5,383). Door to Room 2 (Phoebe) unlocked!
 
 
 <hr>
@@ -5112,10 +5114,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 12 Active! Room 1 Sidney in progress (Mightyena, Absol, Shiftry, & Cacturne DEFEATED; facing Crawdaunt Lv 48). SAGE Lv 84 (172/251 HP, 247 Speed). Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball, ¥483.
+- Status: Attempt 12 Active! Room 1 Sidney DEFEATED! Cash: ¥5,383. SAGE Lv 84 (172/251 HP, 247 Speed). Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball. Advancing to Room 2 Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 172/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (9/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 172/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5131,7 +5133,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x5 (5 purchased at League Mart for Attempt 12)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥483 (purchased 5 Revives for ¥7,500)
+- Money: ¥5,383 (purchased 5 Revives for ¥7,500)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
