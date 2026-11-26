@@ -163,3 +163,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 12: SAGE struck first with Overgrow Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to a tiny red sliver of HP (~2-3 HP)! SAGE at 26/251 HP. Dusclops preparing its counter-action. Advancing through Dusclops's turn.
     - Turn 12: Overgrow Bullet Seed finished Dusclops Lv 51! Dusclops Lv 51 fainted! Both Pressure users are DEFEATED! SAGE gained 1956 EXP. SAGE at 26/251 HP, Overgrow ACTIVE. Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP.
   - Phoebe Pokémon #3: Banette Lv 49! Plan: Execute Aerial Ace (Slot 2) to OHKO Banette and absorb Grudge safely onto Aerial Ace, protecting Bullet Seed!
+    - Turn 13: Cursor on FIGHT. Clamping Up+Right to Slot 2 Aerial Ace (3 PP). Executing Aerial Ace to OHKO Banette Lv 49 (#3) and absorb Grudge! Bullet Seed (13 PP) protected!
