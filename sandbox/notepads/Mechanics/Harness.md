@@ -71,9 +71,11 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s & Bounded `B + Down` Exit!)**:
-  - `["A", "sleep 900"] * 4 + ["A", "sleep 9500"]` followed by a bounded loop `for _ in range(8): if mgba.get_coordinates()["y"] > 3: break; tools.press_buttons(["B", "sleep 600", "Down", "sleep 300"])`.
-  - *(Verified Turns 162, 188: each party Poké Ball adds ~0.8s to the healing jingle, so fixed `B` counts can undershoot as party size grows; confirming `y > 3` proves Nurse Joy's dialogue has fully closed before opening `Start` or walking out.)*
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires Settling, FIVE `A`s & Verification!)**:
+  - Add `"sleep 500"` after stepping onto `(3, 3)` facing `Up` so the first `A` is never dropped during step completion, then run `["A", "sleep 900"] * 4 + ["A", "sleep 10500"]` followed by `for _ in range(8): if mgba.get_coordinates()["y"] > 3: break; tools.press_buttons(["B", "sleep 600", "Down", "sleep 300"])`.
+  - *(Verified Turns 162, 188, 246–248: in Turn 246 a dropped first `A` caused the 5th `A` to stop on `►HEAL / CANCEL` where `B` cancelled the heal! Always include a `"sleep 500"` pre-settle at `(3, 3)` and verify party HP afterward.)*
+- **4-Move TM / Level-Up Move Replacement Sequence (Verified Turns 235–237)**:
+  - Prompts: `"trying to learn <NEW>! ▼"` -> `"can't learn more than 4 moves! ▼"` -> `"Delete an older ▼"` -> `"move to make room for <NEW>?"` (`►YES / NO` — note the TWO line-scrolls!) -> `"Which move should be forgotten?"` (`Down * k`, `A`) -> `"1, 2 and... Poof! ▼"` -> `"forgot <OLD>! ▼"` -> `"And... ▼"` -> `"learned <NEW>! ▼"`.
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
   - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
 - **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198)**:

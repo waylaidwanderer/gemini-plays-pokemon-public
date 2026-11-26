@@ -50,4 +50,7 @@
 - **Verified East & South Ring to Fossil Corridor**:
   - `(21, 17) -> (23, 17) -> (23, 13) -> (27, 13) -> (27, 16) -> (32, 16)` (bypasses `(29, 17)` Rocket Grunt along `y = 16`) -> `(32, 12) -> (36, 12) -> (36, 24) -> (33, 24) -> (33, 32) -> (11, 32) -> (11, 19)` (Rocket Grunt #4 defeated Turn 233) -> `(12, 16) -> (12, 9) -> (13, 8)` (**Super Nerd Miguel**, defeated Turn 240).
   - **Fossils**: Dome Fossil at `(12, 6)`, **Helix Fossil** at **`(13, 6)`** — Claimed Helix Fossil (Turn 241).
-  - **Exit to Route 4 East**: `(13, 7) -> (13, 4) -> (5, 4) -> (3, 4) -> (3, 6) -> (5, 7)` ladder -> B1F Exit Corridor `(23, 3) -> Right * 4 -> (27, 3)`.
+  - **Exit to Route 4 East**: `(13, 7) -> (13, 4) -> (5, 4) -> (3, 4) -> (3, 6) -> (5, 7)` ladder -> B1F Exit Corridor `(23, 3) -> Right * 4 -> (27, 3)` -> warps outside to **Route 4 East `(24, 6)`**.
+
+## Route 4 East (Mt. Moon Exit to Cerulean City)
+- From `(24, 6)`: hop south ledge to `(24, 11)` -> East along `y = 11` to `(61, 11)` -> North to `(61, 8)` (clears top of `x = 62` bush column) -> East across `x = 62..89` into **Cerulean City `(0, 18)`** (verified Turn 245).

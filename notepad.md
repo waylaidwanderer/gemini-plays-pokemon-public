@@ -215,7 +215,10 @@
 - **Verified East & South Ring to Fossil Corridor**:
   - `(21, 17) -> (23, 17) -> (23, 13) -> (27, 13) -> (27, 16) -> (32, 16)` (bypasses `(29, 17)` Rocket Grunt along `y = 16`) -> `(32, 12) -> (36, 12) -> (36, 24) -> (33, 24) -> (33, 32) -> (11, 32) -> (11, 19)` (Rocket Grunt #4 defeated Turn 233) -> `(12, 16) -> (12, 9) -> (13, 8)` (**Super Nerd Miguel**, defeated Turn 240).
   - **Fossils**: Dome Fossil at `(12, 6)`, **Helix Fossil** at **`(13, 6)`** — Claimed Helix Fossil (Turn 241).
-  - **Exit to Route 4 East**: `(13, 7) -> (13, 4) -> (5, 4) -> (3, 4) -> (3, 6) -> (5, 7)` ladder -> B1F Exit Corridor `(23, 3) -> Right * 4 -> (27, 3)`.
+  - **Exit to Route 4 East**: `(13, 7) -> (13, 4) -> (5, 4) -> (3, 4) -> (3, 6) -> (5, 7)` ladder -> B1F Exit Corridor `(23, 3) -> Right * 4 -> (27, 3)` -> warps outside to **Route 4 East `(24, 6)`**.
+
+## Route 4 East (Mt. Moon Exit to Cerulean City)
+- From `(24, 6)`: hop south ledge to `(24, 11)` -> East along `y = 11` to `(61, 11)` -> North to `(61, 8)` (clears top of `x = 62` bush column) -> East across `x = 62..89` into **Cerulean City `(0, 18)`** (verified Turn 245).
 
 
 <hr>
@@ -315,9 +318,11 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s & Bounded `B + Down` Exit!)**:
-  - `["A", "sleep 900"] * 4 + ["A", "sleep 9500"]` followed by a bounded loop `for _ in range(8): if mgba.get_coordinates()["y"] > 3: break; tools.press_buttons(["B", "sleep 600", "Down", "sleep 300"])`.
-  - *(Verified Turns 162, 188: each party Poké Ball adds ~0.8s to the healing jingle, so fixed `B` counts can undershoot as party size grows; confirming `y > 3` proves Nurse Joy's dialogue has fully closed before opening `Start` or walking out.)*
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires Settling, FIVE `A`s & Verification!)**:
+  - Add `"sleep 500"` after stepping onto `(3, 3)` facing `Up` so the first `A` is never dropped during step completion, then run `["A", "sleep 900"] * 4 + ["A", "sleep 10500"]` followed by `for _ in range(8): if mgba.get_coordinates()["y"] > 3: break; tools.press_buttons(["B", "sleep 600", "Down", "sleep 300"])`.
+  - *(Verified Turns 162, 188, 246–248: in Turn 246 a dropped first `A` caused the 5th `A` to stop on `►HEAL / CANCEL` where `B` cancelled the heal! Always include a `"sleep 500"` pre-settle at `(3, 3)` and verify party HP afterward.)*
+- **4-Move TM / Level-Up Move Replacement Sequence (Verified Turns 235–237)**:
+  - Prompts: `"trying to learn <NEW>! ▼"` -> `"can't learn more than 4 moves! ▼"` -> `"Delete an older ▼"` -> `"move to make room for <NEW>?"` (`►YES / NO` — note the TWO line-scrolls!) -> `"Which move should be forgotten?"` (`Down * k`, `A`) -> `"1, 2 and... Poof! ▼"` -> `"forgot <OLD>! ▼"` -> `"And... ▼"` -> `"learned <NEW>! ▼"`.
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
   - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
 - **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198)**:
