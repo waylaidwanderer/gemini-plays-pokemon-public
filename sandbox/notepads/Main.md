@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Guava Lv 30 active facing Altaria Lv 54 (#3). Opening Bag to execute Revive #1 on SAGE Lv 85 (+6 priority). Bag: 1 Revive, 1 Full Heal.
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Cursor on Revive x1 in Bag. Opening party targeting screen to visually confirm SAGE's row for Sacrificial Revive. Bag: 1 Revive, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
