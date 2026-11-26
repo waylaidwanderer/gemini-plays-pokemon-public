@@ -33,7 +33,7 @@
 ## Inventory & Money
 - Money: ¥12,200 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bike Voucher, HM01 (Cut)
-- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9
+- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9, X Special x1
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -269,7 +269,8 @@
 - **Route 5 West Ledge Path**: `(10, 0) -> (6, 0) -> Down` to `(6, 29) -> (7, 27) -> (13, 27) -> (13, 28) -> (17, 28) -> Up` into **Underground Path Gatehouse `(17, 27)`**.
 - **Underground Path (5–6)**:
   - Route 5 Gatehouse `(3, 7)` -> stairs at `(4, 4)` warp to Tunnel `(5, 4)`.
-  - Tunnel runs straight south from `y = 4` to **`(2, 41)`** stairs (warps to Route 6 Gatehouse). *(Note: grab hidden `Full Restore` on return trip north after Vermilion Gym!)*
+  - Tunnel runs straight south from `y = 4` to **`(2, 41)`** stairs (warps to Route 6 Gatehouse). Collected hidden **`X Special`** at **`(4, 34)`** facing `Up` from `(4, 35)` (Turn 458).
+  - **Route 5 Northbound Return (`(17, 28)` -> Cerulean `(25, 35)`, Verified Turn 459)**: From outside Route 5 Gatehouse `(17, 28)`, walk `Left * 2` to **`x = 15`** and straight `Up * 29` — 100% ledge-free and wild-grass-free into **Cerulean City `(25, 35)`**!
 
 ## Route 6 (North-South to Vermilion City, Verified Turns 368–377)
 - **Underground Path Exit Gatehouse `(17, 13)`**: Exits outdoors onto `Route 6 (17, 14)`.
@@ -417,8 +418,11 @@ def name_buttons(word):
   - **CRITICAL**: `"sleep <ms>"` has a strict **10,000 ms maximum** (`"sleep 10500"` / `"sleep 11500"` rejects the entire `press_buttons` call — root cause of failed heals in Turns 259 & 266!). To wait ~12s for a 4–6 Pokémon heal jingle without consecutive sleeps, use `"A", "sleep 9500", "B", "sleep 2500"`.
   - **Overworld Poison-Faint Edge Case (Turn 290)**: Poison ticks 1 HP every 4 steps; if a poisoned Pokémon hits `0` HP on the exact step onto `(3, 3)`, `"<POKEMON> fainted!"` opens and consumes the 1st `"A"`, causing the 5th `"A"` to stop on `►HEAL / CANCEL` where `"B"` cancels! Always visually verify green HP bars in `Start -> POKéMON` after healing.
   - After arriving cleanly at `(3, 3)` from `(3, 4)` + `"sleep 500"`, run `["A", "sleep 1000"] * 4 + ["A", "sleep 9500", "B", "sleep 2500"]` followed by `["B", "sleep 700"] * 3` and `Down * 5` (`(3,3) -> (3,7) -> outside`).
-- **4-Move TM / Level-Up Move Replacement Sequence (Verified Turns 235–237)**:
+- **4-Move TM / Level-Up Move Replacement Sequence (Verified Turns 235–237, 418, 453–454)**:
   - Prompts: `"trying to learn <NEW>! ▼"` -> `"can't learn more than 4 moves! ▼"` -> `"Delete an older ▼"` -> `"move to make room for <NEW>?"` (`►YES / NO` — note the TWO line-scrolls!) -> `"Which move should be forgotten?"` (`Down * k`, `A`) -> `"1, 2 and... Poof! ▼"` -> `"forgot <OLD>! ▼"` -> `"And... ▼"` -> `"learned <NEW>! ▼"`.
+  - Exact verified recipe from `"Use TM on which POKéMON?"`: select Pokémon + advance to `►YES / NO` with `["A", "sleep 1000"] * 4 + ["A", "sleep 2200"]`, then `["A", "sleep 800"]` opens `"Which move should be forgotten?"`, `["Down", "sleep 200"] * k` selects slot `k`, and `["A", "sleep 1000", "B", "sleep 1000", "B", "sleep 1000", "B", "sleep 4200", "B", "sleep 800"]` completes replacement back to `ITEM`.
+- **Hidden Floor Item Probe (Verified Turn 458)**:
+  - Because hidden floor items sit on walkable tiles, stand at `(hx, hy + 1)` already facing `Up` and send `["A", "sleep 500", "Up"]`: if `mgba.get_coordinates()` stays at `(hx, hy + 1)`, `"COBALT found <ITEM>!"` opened (wait `"sleep 4000", "B", "sleep 800"`); otherwise you step onto `(hx, hy)` immediately with zero wasted fanfare wait.
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
   - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
 - **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198, 355)**:

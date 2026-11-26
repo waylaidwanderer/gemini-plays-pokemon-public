@@ -5,7 +5,8 @@
 - **Route 5 West Ledge Path**: `(10, 0) -> (6, 0) -> Down` to `(6, 29) -> (7, 27) -> (13, 27) -> (13, 28) -> (17, 28) -> Up` into **Underground Path Gatehouse `(17, 27)`**.
 - **Underground Path (5–6)**:
   - Route 5 Gatehouse `(3, 7)` -> stairs at `(4, 4)` warp to Tunnel `(5, 4)`.
-  - Tunnel runs straight south from `y = 4` to **`(2, 41)`** stairs (warps to Route 6 Gatehouse). *(Note: grab hidden `Full Restore` on return trip north after Vermilion Gym!)*
+  - Tunnel runs straight south from `y = 4` to **`(2, 41)`** stairs (warps to Route 6 Gatehouse). Collected hidden **`X Special`** at **`(4, 34)`** facing `Up` from `(4, 35)` (Turn 458).
+  - **Route 5 Northbound Return (`(17, 28)` -> Cerulean `(25, 35)`, Verified Turn 459)**: From outside Route 5 Gatehouse `(17, 28)`, walk `Left * 2` to **`x = 15`** and straight `Up * 29` — 100% ledge-free and wild-grass-free into **Cerulean City `(25, 35)`**!
 
 ## Route 6 (North-South to Vermilion City, Verified Turns 368–377)
 - **Underground Path Exit Gatehouse `(17, 13)`**: Exits outdoors onto `Route 6 (17, 14)`.
