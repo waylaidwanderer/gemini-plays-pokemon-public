@@ -439,7 +439,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 14 (Active)
 - Status: Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Dusclops #1, Dusclops #2, Banette #1, and Sableye swept; final Banette Lv 49 (#5) OHKO'd by Overgrow Bullet Seed (Slot 1)! ELITE FOUR PHOEBE DEFEATED (Attempt 14)! Prize: ¥5,100 (Total funds: ¥10,670). Door to Room 3 (Glacia) unlocked!
-- Status: Room 3 Glacia battle commenced! SAGE Lv 86 (46/257 HP, Overgrow ACTIVE, 253 Speed) outspeeds lead Sealeo Lv 50. Clamping to Slot 1 Bullet Seed (Up, Left) for 4.5x boosted OHKO, advancing to Sealeo Lv 52 (#2)!
+- Status: Room 3 Glacia: Lead Sealeo Lv 50 taking heavy 4.5x Overgrow Bullet Seed barrage (dropped to red, fainting). Advancing turn to confirm KO, decline switch, and face Sealeo Lv 52 (#2)!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
