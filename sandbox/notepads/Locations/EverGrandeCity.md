@@ -135,3 +135,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 1 vs Dusclops #1: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed (STAB Grass) to chunk Dusclops and conserve Aerial Ace for Banette's Grudge.
     - Turn 1: Dusclops used Protect; Bullet Seed blocked (down to 27/30 PP under Pressure). SAGE at 159/251 HP.
     - Turn 2: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to attack Dusclops #1!
+    - Turn 2: Dusclops used Protect (succeeded); Bullet Seed blocked (down to 25/30 PP under Pressure). SAGE at 159/251 HP.
+    - Turn 3: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to attack Dusclops #1!
