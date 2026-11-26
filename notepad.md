@@ -18,6 +18,7 @@
 - [x] S.S. Anne Cleared — Rival `GARNET` Defeated & `HM01 (Cut)` Obtained (Turns 432–434)
 - [x] Thunder Badge — Lt. Surge (Vermilion City, Turn 449)
 - [x] Rainbow Badge — Erika (Celadon City, Turn 753)
+- [x] Pokémon Tower Cleared & `Poké Flute` Obtained (Lavender Town, Turn 807)
 - [ ] Soul Badge — Koga (Fuchsia City)
 - [ ] Marsh Badge — Sabrina (Saffron City)
 - [ ] Volcano Badge — Blaine (Cinnabar Island)
