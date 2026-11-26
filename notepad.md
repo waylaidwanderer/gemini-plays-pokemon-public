@@ -171,6 +171,13 @@
   - Shift `Left` onto **`x = 4..5`** (`Biker Billy at `(5, 98)` has `Grimer, Muk Lv 29`) and slide south to **`(4, 122)`**.
   - Pass through the south bollard gap at **`(6..7, 123)`** onto **`Route 18 (7, 0)`**, ride `Down` along `x = 13` to `(13, 9)`, and ride `Right` along **`y = 9`** through the **Route 18 Gatehouse** (`auto-dismounts Bicycle`) into **`Fuchsia City (3, 17)`**.
 
+## Fuchsia City Landmarks & `Cut` Shortcuts (Verified Turns 836–855)
+- **Fuchsia Poké Mart**: Door at **`(5, 13)`** (`sells Ultra Ball ¥1200, Great Ball ¥600, Super Potion ¥700, Revive ¥1500, Full Heal ¥600, Super Repel ¥500`).
+  - Reachable via **`Cut` bush at `(18, 19)`** (`from (18, 20) -> Up -> (18, 14) -> Left * 13 -> (5, 14)`) or **`Cut` bush at `(26, 13)`**.
+- **Safari Zone Reception Gatehouse**: Door at **`(18, 3)`** (`from (18, 8)`, walk `Right * 4` to `(22, 8)`, chop **`Cut` bush at `(22, 7)`**, then `(22, 6) -> (18, 6) -> (18, 3)`; tollbooth at `(3, 2)` costs ¥500 for 500 steps).
+- **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`**.
+- **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`Fuchsia Gym` is west of it at `(5, 27)`).
+
 
 <hr>
 
