@@ -435,6 +435,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Shiftry Lv 48 (#3, Grass/Dark): SAGE struck first with Aerial Ace (dropped Shiftry to ~15% HP), Shiftry used Double Team. Finishing with Aerial Ace (bypasses Double Team evasion)!
   - Upcoming: Cacturne Lv 46 (#4, 4x weak to Flying), Crawdaunt Lv 48 (#5, 2x weak to Grass). Prize: ¥4,900.
 
+    - Shiftry Lv 48 (#3): Sidney burned Full Restore! SAGE countered with Aerial Ace, dropping Shiftry back to red (~5% HP). Finishing with Aerial Ace!
 
 <hr>
 
