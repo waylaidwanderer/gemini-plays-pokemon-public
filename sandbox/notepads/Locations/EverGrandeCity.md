@@ -167,3 +167,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 13: SAGE struck first with Aerial Ace, dropping Banette to ~15% HP! Banette used Shadow Ball, KO'ing SAGE. Aerial Ace at 2/20 PP, Bullet Seed at 13/30 PP (100% protected!).
   - Sacrificial Revive Protocol Step 1: Sending out Anchor #1 Lilz (Lombre Lv 30, Slot 2) to prepare +6 priority Revive on SAGE!
   - Sacrificial Revive Protocol Step 2: Lilz on field (85/85 HP) facing Banette Lv 49 (~15% HP). Opening Bag from FIGHT -> BAG to confirm Revive position!
+    - Turn 14: Bag opened to Key Items pocket (Pocket 5). Pressing Right to wrap directly to Items pocket (Pocket 1) to select Revive!
