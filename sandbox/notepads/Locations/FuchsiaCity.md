@@ -14,5 +14,8 @@
   - **Center**: Spawns at `(15, 25)`; East gate to **Area 1** is at **`(29, 10..11)`** -> spawns at **`Area 1 (0, 22)`**.
   - **Area 1 (East, Verified Turns 868–871 — 56-Step Express!)**: From `(0, 22)`, walk `Right * 8` to `(8, 22)`, `Up * 14` straight up `x = 8` to `(8, 8)`, `Right * 4` to `(12, 8)`, bridge over the `(14..15, 8..9)` tree via **`(12, 8) -> Up * 2 -> Right * 5 -> Down * 2 -> (17, 8)`**, then **`Right * 3 -> (20, 8) -> Up * 5 -> (20, 3) -> Left * 12 -> (8, 3) -> Down * 2 -> (8, 5) -> Left * 8 -> (0, 5)`** -> warps to **`Area 2 (39, 31)`**! *(Optional `Max Potion` at `Area 1 (3, 7)`.)*
   - **Area 2 (North, Verified Turns 872–877 — 98-Step Express!)**: From `(39, 31)`, walk `Left * 17` -> `(22, 31)` -> `Up * 9` (climbs `(22, 23)` stairs) -> `(22, 22)` -> `Left * 6` -> `(16, 22)` -> `Down * 8` (descends `(16, 27)` stairs) -> `(16, 30)` -> `Left * 3` -> `(13, 30)` -> `Up * 13` -> `(13, 17)` -> `Left * 7` -> `(6, 17)` -> `Down * 6` -> `(6, 23)` -> `Left * 4` -> `(2, 23)` -> `Down * 13` -> **`(2, 35)`** -> warps to **`Area 3 (26, 0)`**!
+  - **Area 3 (West, Verified Turns 878–880)**: From `(26, 0)`, walk `Down * 2, Left, Down * 12` -> `(25, 14)` -> `Left, Down * 5` -> `(24, 19)` -> `Left * 3` -> `(21, 19)` (`Max Revive` at `(18, 18)`!) -> `Up * 3` onto `(21, 16)` plateau:
+    - Northern arm at **`(15..16, 16) -> Up`** leads to **`GOLD TEETH`** (`(19, 7)` area).
+    - Western end **`(5, 16) -> Right -> Down * 4`** (descends `(6, 19)` stairs) -> `Left * 3 -> Up` leads to the **Secret House (`HM03 Surf`)**!
 - **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`**.
 - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`Fuchsia Gym` is west of it at `(5, 27)`).
