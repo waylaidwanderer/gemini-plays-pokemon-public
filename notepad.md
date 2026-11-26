@@ -17,7 +17,7 @@
 - [x] Cascade Badge — Misty (Cerulean City, Turn 351)
 - [x] S.S. Anne Cleared — Rival `GARNET` Defeated & `HM01 (Cut)` Obtained (Turns 432–434)
 - [x] Thunder Badge — Lt. Surge (Vermilion City, Turn 449)
-- [ ] Rainbow Badge — Erika (Celadon City)
+- [x] Rainbow Badge — Erika (Celadon City, Turn 753)
 - [ ] Soul Badge — Koga (Fuchsia City)
 - [ ] Marsh Badge — Sabrina (Saffron City)
 - [ ] Volcano Badge — Blaine (Cinnabar Island)
@@ -25,7 +25,7 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 36 | Moves: Ice Beam (Slot 0), BubbleBeam (Slot 1), Dig (Slot 2), Bite (Slot 3)
+1. **NAUTILUS** (Blastoise) — Lv. 37 (`112/112` HP) | Moves: Ice Beam (Slot 0), BubbleBeam (Slot 1), Dig (Slot 2), Bite (Slot 3)
 2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
