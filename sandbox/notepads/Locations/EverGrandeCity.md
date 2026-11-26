@@ -119,3 +119,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900.
   - Room 2 Phoebe: Dusclops Lv 48 (#1) DEFEATED (Phoebe burned Full Restore). Dusclops Lv 51 (#2) DEFEATED (SAGE cured with Full Heal, Overgrow Bullet Seed KO). Banette Lv 49 (#3) damaged to ~15% HP by Aerial Ace, but KO'd SAGE with Shadow Ball.
   - Sacrificial Revive impossible due to 0 Revives in Bag. Lilz active vs Banette (~15% HP). Concluding battle via whiteout to reset at Lobby Mart, correctly purchase Revives, and launch Attempt 13!
+
+- Concluding Attempt 12: Lilz fainted. Sending in Cipher, Cobalu, Mochi, and Guava to resolve battle to whiteout.
