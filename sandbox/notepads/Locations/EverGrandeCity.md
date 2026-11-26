@@ -140,3 +140,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 4: Clamping Up+Right to Slot 2 Aerial Ace to KO Absol!
     - Turn 4: SAGE struck with Aerial Ace, dropping Absol to ~5% red HP! Absol used +2 Aerial Ace (92 dmg, SAGE at 159/251 HP).
     - Turn 5: Clamping Up+Right to Slot 2 Aerial Ace to KO Absol!
+    - Absol Lv 49: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
+  - Shiftry Lv 48 (#3): Grass/Dark. Declining switch, clamping Up+Right to Slot 2 Aerial Ace (Super Effective) to strike Shiftry!
