@@ -15,4 +15,7 @@
     - **Bug Catcher Keigo** at `(0, 15)` facing `Right` (spots `(4, 15)`): `Weedle Lv 16, Caterpie Lv 16, Weedle Lv 16` (defeated Turn 374).
   - Central cross-path runs east north of pond: `(4, 20..21) -> (16..17, 20..21)` (`(14..15, 22..27)` is tall grass).
   - East walkway `x = 16..17` runs south: `(16, 20) -> (16, 29)`, turning west along `y = 28..29` south of the pond.
-    - **Bug Catcher Elijah** at `(19, 26)` facing `Left` (spots `(16, 26)`): `Butterfree Lv 20` (engaged Turn 376).
+    - **Bug Catcher Elijah** at `(19, 26)` facing `Left` (spots `(16, 26)`): `Butterfree Lv 20` (defeated Turn 379).
+  - South gate corridor `(8..9, 30..35)` -> enters **Vermilion City** at `(18, 0)`:
+    - **Jr. Trainer♀ Isabelle** at `(11, 30)` facing `Left`: `Pidgey Lv 16 x3` (defeated Turn 383).
+    - **Jr. Trainer♂ Jeff** at `(11, 31)` facing `Left` (spots `(8, 31)`): `Spearow Lv 16, Raticate Lv 16` (defeated Turn 390).
