@@ -1,0 +1,64 @@
+# Harness & Emulator Mechanics (Verified)
+
+## Tool Sequencing (Verified Turns 2–4)
+- Top-level tool calls execute sequentially in the order emitted.
+- Calling `mcp_game_press_buttons` followed by `read_file` on `screenshots/latest.png` in the same turn reliably reads the newly settled screen produced at the end of `press_buttons`.
+
+## Real-Time Emulation Clock (Verified Turn 3 `filmstrip_1.png`)
+- The emulator runs continuously in real time during `[THINKING]` (observed `#01 +0.00s` -> `#03 +28.53s` in Turn 3).
+- Implications:
+  - Keep deliberation concise to avoid unnecessary real-time drift in areas with wandering NPCs.
+  - Static menus, dialogue prompts, and battle command menus safely wait for input regardless of elapsed thinking time.
+
+## Gen 1 Dialogue Safety
+- Pressing `B` advances standard `▼` text boxes and accelerates text scrolling without accidentally confirming `YES/NO` prompts (defaults to `NO`/cancel) or list menus like `YOUR NAME?` that disallow `B` cancellation.
+
+## Gen 1 Naming Screen Grid (Verified Turn 6)
+9 columns (`0..8`) x 5 character rows (`0..4`), cursor starts at `(0, 0)` (`A`):
+- Row 0: `A B C D E F G H I`
+- Row 1: `J K L M N O P Q R`
+- Row 2: `S T U V W X Y Z [space]`
+- Row 3: `× ( ) : ; [ ] PK MN`
+- Row 4: `- ? ! ♂ ♀ / . , ED` (where `(8, 4)` is `ED` = End/Confirm; Note: filling max length auto-jumps cursor to `ED`!)
+- Row 5: `lower case` toggle across bottom row.
+- Reusable Python generator (for names shorter than max length: <7 for trainer/rival, <10 for Pokémon):
+```python
+ROWS = ["ABCDEFGHI", "JKLMNOPQR", "STUVWXYZ "]
+def name_buttons(word):
+    cx, cy, seq = 0, 0, []
+    for ch in word:
+        for ry, r in enumerate(ROWS):
+            if ch in r: tx, ty = r.index(ch), ry; break
+        seq += (["Right"]*(tx-cx) if tx>cx else ["Left"]*(cx-tx))
+        seq += (["Down"]*(ty-cy) if ty>cy else ["Up"]*(cy-ty)) + ["A"]
+        cx, cy = tx, ty
+    return seq + ["Right"]*(8-cx) + ["Down"]*(4-cy) + ["A"]
+```
+
+## Event & Fanfare Timings (Verified Turns 2–41)
+- **ROM Variant**: Colorized Pokémon Blue enhancement with GBC palettes and a live blue EXP bar under player HP in battle (verified Turn 27). Maps, items, and encounters match Pokémon Blue.
+- **Battle Move Cursor Memory**: The `FIGHT` menu remembers the last selected move slot across turns and subsequent battles (verified Turn 21).
+- **Coordinate Behavior in Battles & Warps**:
+  - `mgba.get_coordinates()` continues returning the underlying overworld `(x, y)` during battles (`<GameState>` omits `<Position>` when in battle).
+  - Step-by-step `before == after` comparison reliably detects wild encounters in tall grass; following a blocked grass step with `["sleep 800", "B"] * 8` (~6.4s) lands cleanly on `►FIGHT`.
+  - Door warps have a ~0.5s white fade; ending a script immediately on a door step can capture the white transition frame before indoor coordinates update (Turn 41). Call `tools.observe()` or include a short post-warp settle when inspecting a new room.
+- **Title Screen**: Pressing `Start` during a starter sprite swap is ignored; wait or append `"sleep 1500"` for the starter cry to finish before Main Menu input.
+- **Pokémon Obtained Fanfare**: Lasts ~4.5 seconds before `"received a <POKEMON>!"` accepts `A`/`B` dismissal (`"sleep 3500"` was slightly early in Turn 18).
+- **Cutscene Clearing**: Spacing `B` presses with `"sleep 700"`–`"sleep 900"` safely clears multi-box dialogues and lands cleanly on `►FIGHT` (in battles) or `YOUR NAME?` without triggering unwanted `YES` confirmations or attacks.
+
+## Poké Mart & Pokémon Center Recipes (Verified Turns 52–62)
+- **Poké Mart Buying (Requires THREE `A`s after Quantity!)**:
+  1. Select item with `A`, `"sleep 900"` -> opens `×01` (`Up` increments quantity).
+  2. `A` #1 (`"sleep 900"`) -> `"<ITEM>? ▼"`
+  3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
+  4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
+  *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up`)**:
+  - `["A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "A", "sleep 6500", "B", "sleep 700", "B", "sleep 700"]` (4 `A`s total: initiate + 2 text boxes + confirm `►HEAL`, then `B`s).
+
+## Navigation Scripting Guardrails (Verified Turns 53, 60)
+- Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
+- Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
+
+
+
