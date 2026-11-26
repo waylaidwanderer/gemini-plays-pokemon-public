@@ -131,3 +131,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Turn 35: Challenging Sidney at (6, 6) in Room 1. SAGE Lv 84 (251/251 HP, 247 Speed) leading off. Attempt 13 battle initiated!
   - Room 1 Sidney: Battle transition started. SAGE Lv 84 (251/251 HP) vs lead Mightyena Lv 46. Advancing through intro to battle menu.
   - Turn 1: Intimidate lowered Attack. Selecting FIGHT, clamping Down+Left to Slot 3 Facade against lead Mightyena Lv 46.
+    - Turn 1: SAGE struck first with Facade, dropping Mightyena to ~25% HP! Mightyena used Sand-Attack. SAGE at 251/251 HP.
+    - Turn 2: Clamping Up+Right to Slot 2 Aerial Ace (infinite accuracy, bypasses Sand-Attack!) to KO Mightyena!
