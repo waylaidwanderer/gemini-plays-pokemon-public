@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 3 Glacia: Sealeo #1 & #2 down! SAGE Lv 86 at 46/257 HP (Overgrow ACTIVE, 253 Spe) striking Ace Walrein Lv 53 (#3) with 4.5x boosted Bullet Seed. Bag: 5 Revives, 1 Full Heal, ¥10,670 cash.
+- Status: Attempt 14 Active! Room 3 Glacia: Ace Walrein Lv 53 in red (~15% HP) from Overgrow Bullet Seed. SAGE Lv 86 at 46/257 HP. Bag: 5 Revives, 1 Full Heal, ¥10,670 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 46/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
