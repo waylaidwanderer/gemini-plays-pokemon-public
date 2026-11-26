@@ -130,3 +130,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shiftry Lv 48 (#3): Sidney burned Full Restore #1 on Shiftry! SAGE countered with 4x Aerial Ace, dealing massive damage!
     - Shiftry Lv 48 (#3): DEFEATED! SAGE struck with 4x Aerial Ace (never misses!), finishing Shiftry! Facing Cacturne Lv 46 (#4, 4x weak to Flying)!
     - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
+    - Cacturne Lv 46 (#4): DEFEATED! SAGE struck first with 4x Aerial Ace for ~307 damage, instant OHKO! Facing Sidney's final Pokémon, Crawdaunt Lv 48 (#5, 2x weak to Grass)!
