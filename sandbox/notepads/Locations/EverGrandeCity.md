@@ -129,4 +129,18 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Room 4 Drake: Shelgon, Flygon, Altaria DEFEATED! SAGE dropped Drake's Ace Salamence Lv 55 to ~20% HP before fainting. Deploying our final conscious Pokémon, Mochi Lv 11 (Row 4), onto the battlefield.
+## Elite Four Attempt 13 (Archived Turn 26784)
+- Status: Concluded via whiteout at Drake's Ace Salamence.
+- Milestone Progress:
+  - Sidney: ALL 5 DEFEATED (Sweep)! Earned ¥4,900.
+  - Phoebe: ALL 5 DEFEATED (Sweep)! Earned ¥5,100.
+  - Glacia: ALL 5 DEFEATED (Sweep)! Earned ¥5,300.
+  - Drake: Shelgon Lv 52 (DEFEATED), Flygon Lv 53 (DEFEATED), Altaria Lv 54 (DEFEATED), Salamence Lv 55 (dropped to 20% HP!). Defeated 18 of 20 Elite Four Pokémon!
+- SAGE (Level 85 Sceptile ♂): Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250.
+- Economy: Peak cash reached ¥16,341 -> halved to ¥8,170 upon whiteout (funds 5 Revives!).
+- Next: Respawn outside League HQ, enter lobby, purchase 5 Revives (¥7,500), and launch Attempt 14!
+
+## Elite Four Attempt 14 (Preparation)
+- Party: SAGE Lv 85 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 100% restored!).
+- Target Bag: 5 Revives (purchasing at Mart for ¥7,500), 1 Full Heal.
+- Plan: Sweep Sidney, Phoebe, Glacia, and Drake, then defeat Champion Wallace!

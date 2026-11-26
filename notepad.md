@@ -439,7 +439,21 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Room 4 Drake: Shelgon, Flygon, Altaria DEFEATED! SAGE dropped Drake's Ace Salamence Lv 55 to ~20% HP before fainting. Deploying our final conscious Pokémon, Mochi Lv 11 (Row 4), onto the battlefield.
+## Elite Four Attempt 13 (Archived Turn 26784)
+- Status: Concluded via whiteout at Drake's Ace Salamence.
+- Milestone Progress:
+  - Sidney: ALL 5 DEFEATED (Sweep)! Earned ¥4,900.
+  - Phoebe: ALL 5 DEFEATED (Sweep)! Earned ¥5,100.
+  - Glacia: ALL 5 DEFEATED (Sweep)! Earned ¥5,300.
+  - Drake: Shelgon Lv 52 (DEFEATED), Flygon Lv 53 (DEFEATED), Altaria Lv 54 (DEFEATED), Salamence Lv 55 (dropped to 20% HP!). Defeated 18 of 20 Elite Four Pokémon!
+- SAGE (Level 85 Sceptile ♂): Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250.
+- Economy: Peak cash reached ¥16,341 -> halved to ¥8,170 upon whiteout (funds 5 Revives!).
+- Next: Respawn outside League HQ, enter lobby, purchase 5 Revives (¥7,500), and launch Attempt 14!
+
+## Elite Four Attempt 14 (Preparation)
+- Party: SAGE Lv 85 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 100% restored!).
+- Target Bag: 5 Revives (purchasing at Mart for ¥7,500), 1 Full Heal.
+- Plan: Sweep Sidney, Phoebe, Glacia, and Drake, then defeat Champion Wallace!
 
 <hr>
 
@@ -5110,15 +5124,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon, Flygon, Altaria down! Salamence dropped to 20% HP. Deploying final Pokémon Mochi Lv 11 (42/42 HP). Bag: 0 Revives, 1 Full Heal.
+- Status: Attempt 13 Concluded! 18/20 E4 Pokémon defeated (reached Salamence at 20% HP). SAGE Lv 85 party 100% restored. Money: ¥8,170. Re-entering League lobby to buy 5 Revives and launch Attempt 14!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 66/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (6/20), Quick Attack (30/30). Status: OK (Overgrow Active).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 254/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FAINTED.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
@@ -5129,7 +5143,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x0 (3 consumed on SAGE, 1 consumed on Lilz - all 4 Revives utilized!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥16,341 (earned ¥5,300 from Glacia)
+- Money: ¥8,170 (halved from ¥16,341 upon whiteout - funds 5 Revives at Mart!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
