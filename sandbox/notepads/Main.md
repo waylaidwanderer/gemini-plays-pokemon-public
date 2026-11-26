@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Cursor on Revive x1 in Bag. Opening party targeting screen to visually confirm SAGE's row for Sacrificial Revive. Bag: 1 Revive, 1 Full Heal.
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! SAGE restored to 127/254 HP via Sacrificial Revive (all status & stat drops cleared!). Guava absorbing Altaria attack. Bag: 0 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: OK (Revived via Sacrificial Revive).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
@@ -19,7 +19,7 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x1 (2 consumed on SAGE, 1 consumed on Lilz)
+- Revive x0 (3 consumed on SAGE, 1 consumed on Lilz - all 4 Revives utilized!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥16,341 (earned ¥5,300 from Glacia)
