@@ -30,6 +30,7 @@
 - Gen 1 `Thrash` rampage: lasts 3–4 turns and auto-executes each subsequent turn without reopening the Battle Menu; still prompts Shift `YES/NO` between enemy Pokémon (`B` stays in and continues Thrash; verified turns 626–628).
 - Overworld `POKéMON` & Mart `SELL` quirks: after teaching an HM/TM, the overworld `POKéMON` cursor persists on that slot, and field moves (`DIG`, `CUT`) appear as the top option (`CUT/STATS/SWITCH/CANCEL`) (verified turn 689). Nidoking cannot learn `TM28 Dig` in Gen 1; Wartortle can (turns 608–611). In Poké Mart `SELL`, confirming `YES` returns immediately to the SELL list without a `▼` prompt (turn 637). Using `HM01 Cut` prints `"<PKMN> hacked away with CUT! ▼"` requiring `B` + `sleep 2000` before stepping onto the cleared tile (turns 716 & 728).
 - Route 5 northbound shortcut: `x=15` is a clear 1-tile northbound path from Route 5 Underground Path straight to Cerulean City's south Cut bush `(19,28)` (verified turns 725–728).
+- Dark cave & trainer battle timing: in unlit Rock Tunnel (without Flash), cave walls and ladders remain faintly visible in dark maroon/brown on `latest.png`/`latest_grid.png`, while trainers are invisible (detectable via coordinate-checking steps in `run_code`, turns 773–776). Trainer sendout + `"Go! <PKMN>!"` requires `sleep 5500` before Battle Menu accepts inputs (verified turn 768).
 
 ## Party
 - **KAISER** (Nidoking, Lead/Slot 1) - Lv 27 (90 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
