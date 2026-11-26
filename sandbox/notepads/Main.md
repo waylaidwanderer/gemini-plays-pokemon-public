@@ -4,7 +4,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), cleared Route 3, healed at Mt. Moon Pokémon Center (turn 266), entered Mt. Moon 1F, grabbed 1F Potion (`(2,20)`), and heading northwest to Moon Stone (`(2,2)`) & Main Ladder (`(5,5)`).
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), cleared Route 3, healed at Mt. Moon Pokémon Center (turn 266), evolved **RIPTIDE into Wartortle** (turn 309), collected **Moon Stone #1** (`(2,2)` Mt. Moon 1F, turn 311), and descended into **Mt. Moon B2F** (turn 313).
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -19,12 +19,13 @@
 - Battle `PKMN` and SHIFT (`"Bring out which POKéMON?"`) switch cursors both persist on the last switched-in slot within a battle (verified turns 122–123 & 198). Use `Left, Up` / `Right, Up` to reliably select `FIGHT` / `PKMN` regardless of previous Battle Menu cursor.
 - Overworld Bag healing: after `A` heals a Pokémon (`"...recovered by 20!"`), 4 `B` presses exit cleanly (dismiss message -> close Party -> close Bag -> close Start Menu) (verified turn 208 filmstrip). Start Menu cursor resets to `POKéDEX` after battles/map transitions (verified turn 206).
 - Sleep/Disable in battle: while asleep (`SLP`), pressing `A` on `FIGHT` skips move selection directly; when Disable wears off, `"<PKMN>'s disabled no more! ▼"` prints before the attack and needs `B`/`A` (verified turns 249–254).
+- Evolution safety & Gen 1 quirks: NEVER press `B` after a battle where a Pokémon reached an evolution level (use `A` and wait ~9s for the evolution animation to finish; verified turn 309). In Gen 1, Bug moves (like Zubat's Leech Life) are **2x super effective** against Poison types (verified turn 299). Drain moves (`Absorb`, `Leech Life`) display two `▼` prompts (`It's super/not very effective!` + `Sucked health!`), taking ~5.5s total.
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **KAISER** (Nidoran♂, Lead/Slot 1) - Lv 13 (22/38 HP; Atk 20, Def 17, Spd 18, Spc 16; Leer, Tackle, Horn Attack [18/25 PP]; evolves to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
-- **RIPTIDE** (Squirtle, Slot 2) - Lv 15 (21/39 HP; Atk 23, Def 26, Spd 18, Spc 20; Tackle, Tail Whip, Bubble, **Water Gun**; evolves to Wartortle at Lv 16)
-- **Bag:** Poké Ball x9, TM34 (Bide), Potion x2, Antidote x3 | **Cash:** ~¥1200+
+- **KAISER** (Nidoran♂, Lead/Slot 1) - Lv 14 (22/40 HP; Atk 21, Def 18, Spd 19, Spc 17; Leer, Tackle, Horn Attack, Poison Sting; ~65% to Lv 15; evolves to Nidorino at Lv 16 -> immediate **Nidoking** with our Moon Stone!)
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 16 (24/41 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309!
+- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3, **Moon Stone x1** | **Cash:** ~¥1600+
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
