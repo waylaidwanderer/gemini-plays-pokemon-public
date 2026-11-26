@@ -143,3 +143,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 (#2): Pressure. SAGE at 97/251 HP (under Curse). Clamping Up+Left to Slot 1 Bullet Seed to strike Dusclops Lv 51!
     - Turn 4: SAGE struck first with Bullet Seed, dropping Dusclops Lv 51 to ~75% HP. Advancing through Dusclops's attack and Curse resolution.
     - Turn 5: SAGE at 3/251 HP with Overgrow ACTIVE! Dusclops Lv 51 at ~50% HP. Clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Dusclops Lv 51!
+    - Turn 5: SAGE's Overgrow Bullet Seed landed a critical hit, dropping Dusclops Lv 51 to red (~8% HP)! Advancing through Dusclops's counter-attack and Curse resolution.
