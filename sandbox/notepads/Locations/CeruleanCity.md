@@ -11,6 +11,8 @@
 - **Badge Guy House (Backyard Rare Candy)**: Front door at **`(9, 11)`** (`(2, 7)` indoors); north back door exits to `(9, 9)` in fenced backyard where hidden **`Rare Candy`** is at **`(15, 8)`** (collected Turn 275 facing `Right` from `(14, 8)`).
 - **Trade House (`Jynx` for Poliwhirl)**: Door at `(13, 15)`.
 - **Cerulean Pokémon Center**: Door at **`(19, 17)`** (warps indoors to `(3, 7)`; Nurse Joy counter at `(3, 3)` facing `Up`). Note: `POKé` sign sits at `(20, 17)`.
+- **Cerulean Bike Shop**: Door at **`(13, 25)`** (`(2, 7)` indoors -> `(4, 7) -> (4, 4) -> (6, 4)` facing `Up` at counter `(6, 3)` -> exchanged `Bike Voucher` for **`BICYCLE`** Turn 464).
+- **South `Cut` Bush (to/from Route 5)**: Located at **`(19, 28)`** (`Route 5 x = 15` north enters at `(25, 35) -> (25, 31) -> (19, 31) -> (19, 29)` facing `Up` at `(19, 28)`).
 - **Cerulean Gym (Misty)**: Door at **`(30, 19)`** (warps indoors to `(4, 13)`; Swimmer Luis spots at `(5, 7)`, Jr. Trainer♀ Diana spots at `(5, 3)`, **Gym Leader Misty** at **`(4, 2)`** — Defeated Turn 351 for **Cascade Badge** + `TM11 BubbleBeam`).
 - **Burgled House (`TM28 Dig` & South Bypass)**: Front door at **`(27, 11)`** (`(2, 7)` indoors -> walk around table `(7, 3) -> (7, 1) -> (3, 1) -> Up` out north wall hole `(3, 0)` to `(27, 9)`); Backyard Rocket at `(30, 8)` defeated Turn 356 for **`TM28 (Dig)`**; corridor at **`x = 33`** leads south around Cerulean City to **Route 5**.
 
