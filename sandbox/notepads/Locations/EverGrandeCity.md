@@ -129,3 +129,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
+- Next: Return to Room 3 overworld, navigate around Glacia at (6, 5) to north doorway at (6, 0), ascend Grand Staircase, and challenge Drake in Room 4!
