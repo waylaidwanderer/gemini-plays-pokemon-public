@@ -159,8 +159,9 @@
     - Vertical bush barriers at `(17, 6)..(17, 10)` and `(23, 6)..(23, 10)`.
     - South-facing ledge along `y = 7` (`(15, 7)..(16, 7)`, `(18, 7)..(22, 7)`, `(24, 7)`).
     - Open eastward gap between rock wall (`y = 3`) and bush column (`x = 23, y >= 6`) runs along `y = 4..5` (`(20, 5) -> (24, 5)` bypasses `(21, 4)` Lass #2).
-    - **Bug Catcher #3**: Visible at `(24, 6)` facing Right (`(25, 6)+` line of sight).
+    - **Bug Catcher #3**: Stands at `(24, 6)` facing Right; spots player at `(27, 6)` (`Caterpie Lv 11, Metapod Lv 11`) — Defeated (Turn 152). Wooden stairs across the `y = 7` ledge are at `(27, 7)`.
     - **Youngster #2**: Visible at `(22, 9)` facing Left (south of `y = 7` ledge).
+    - **Lass #3**: Triggers at `(33, 8)` (`Jigglypuff Lv 14`).
 
 
 <hr>
