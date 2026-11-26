@@ -32,5 +32,9 @@
   2. **Hiker #2 (Wayne)** at **`(13, 7)`** facing `Left` (`Onix Lv 17` — Defeated Turn 297 via `(9, 8) -> (9, 4) -> (13, 4) -> (13, 6)`).
   3. **Youngster Joey** walked from `(14, 2)` to **`(14, 3)`** (`Rattata Lv 15, Spearow Lv 15` — Defeated Turn 299; walking him down 1 tile also opens the `(13, 2)` gap to `TM19 Seismic Toss`!).
   4. **Youngster Dan** at **`(18, 5)`** (`Slowpoke Lv 17` — Defeated Turn 311 from `(17, 5)`).
-  5. **Lass Kelsey** at **`(18, 8)`** facing `Left` (`Nidoran♂ Lv 15, Nidoran♀ Lv 15` — Engaged at `(17, 8)` Turn 313).
+  5. **Lass Kelsey** at **`(18, 8)`** facing `Left` (`Nidoran♂ Lv 15, Nidoran♀ Lv 15` — Defeated Turn 315; bypass via `(17, 7) -> (20, 7) -> (20, 8)`).
+  6. **Hiker Nob** at **`(23, 9)`** facing `Up` (`Geodude x3, Machop Lv 13` — Defeated Turn 323).
+  7. **Jr. Trainer♂ Flint** at **`(24, 4)`** facing `Down` (`Rattata Lv 14, Ekans Lv 14` — Defeated Turn 333).
+  8. **Youngster Chad** at **`(32, 3)`** facing `Left` (`Ekans Lv 14, Sandshrew Lv 14` — Defeated Turn 336 from `(30, 3)`).
+- **Cuttable Bush (`TM19 Seismic Toss`)**: Located at **`(26, 3)`**.
 - **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).

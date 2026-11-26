@@ -78,7 +78,11 @@
   2. **Hiker #2 (Wayne)** at **`(13, 7)`** facing `Left` (`Onix Lv 17` — Defeated Turn 297 via `(9, 8) -> (9, 4) -> (13, 4) -> (13, 6)`).
   3. **Youngster Joey** walked from `(14, 2)` to **`(14, 3)`** (`Rattata Lv 15, Spearow Lv 15` — Defeated Turn 299; walking him down 1 tile also opens the `(13, 2)` gap to `TM19 Seismic Toss`!).
   4. **Youngster Dan** at **`(18, 5)`** (`Slowpoke Lv 17` — Defeated Turn 311 from `(17, 5)`).
-  5. **Lass Kelsey** at **`(18, 8)`** facing `Left` (`Nidoran♂ Lv 15, Nidoran♀ Lv 15` — Engaged at `(17, 8)` Turn 313).
+  5. **Lass Kelsey** at **`(18, 8)`** facing `Left` (`Nidoran♂ Lv 15, Nidoran♀ Lv 15` — Defeated Turn 315; bypass via `(17, 7) -> (20, 7) -> (20, 8)`).
+  6. **Hiker Nob** at **`(23, 9)`** facing `Up` (`Geodude x3, Machop Lv 13` — Defeated Turn 323).
+  7. **Jr. Trainer♂ Flint** at **`(24, 4)`** facing `Down` (`Rattata Lv 14, Ekans Lv 14` — Defeated Turn 333).
+  8. **Youngster Chad** at **`(32, 3)`** facing `Left` (`Ekans Lv 14, Sandshrew Lv 14` — Defeated Turn 336 from `(30, 3)`).
+- **Cuttable Bush (`TM19 Seismic Toss`)**: Located at **`(26, 3)`**.
 - **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).
 
 
@@ -369,8 +373,8 @@ def name_buttons(word):
   - `POKéMON` party list remembers its last cursor slot in overworld `Start -> POKéMON`, **EXCEPT at the start of every new battle**, where in-battle `PKMN` **resets to Slot 0** just like `FIGHT` (verified Turn 280! Thus Turn-1 switch from Slot 0 to Slot 1 in a new battle is ALWAYS `Right, A, Down, A, A`). Within the same battle, selecting Slot `k` via `PKMN` OR `"Use item on which POKéMON?"` updates the in-battle Party cursor to Slot `k` (verified Turn 287).
   - **Verified Direct-Talk Trainer Intro Recipe (13.5s, Turn 280)**: Talking to a trainer with `A` takes ~12.6s to reach `►FIGHT` (shorter sleeps drop Turn-1 switch inputs during `"Go! <PKMN>!"`, Turn 277). Use `["A", "sleep 1000", "B", "sleep 1000", "B", "sleep 4000", "B", "sleep 1200", "B", "sleep 2500", "B", "sleep 3000", "B", "sleep 800"]` to land cleanly on `►FIGHT`.
   - Battle `FIGHT` move menu **wraps** vertically.
-  - `ITEM` bag menu **clamps** (does NOT wrap) at Slot 0 (`Up` at top stays on Slot 0).
-  - Battle 2x2 command menu (`FIGHT / PKMN / ITEM / RUN`) **clamps** (`Left, Up` always lands on `►FIGHT`).
+  - `ITEM` bag menu **clamps** (does NOT wrap) at Slot 0 (`Up` at top stays on Slot 0). Using an overworld Bag item without evolution keeps the Bag cursor on the same slot, whereas **any item-triggered evolution (`Rare Candy` or `Moon Stone`) auto-returns to the Bag after the fanfare and resets the Bag cursor to Slot 0** (verified Turns 326 & 328).
+  - Battle 2x2 command menu (`FIGHT / PKMN / ITEM / RUN`) **clamps** (`Left, Up` always lands on `►FIGHT`). Probing `Left` or `Up` onto a known-open overworld tile after an attack round is a **100% pure no-op** if still on `►FIGHT` (no restore press needed!).
   - The 2x2 battle command menu (`FIGHT / PKMN / ITEM / RUN`) does **not** wrap, so `["Left", "sleep 150", "Up", "sleep 150"]` deterministically resets the cursor to `►FIGHT` from any quadrant, and pressing `Left` or `Up` while already on `►FIGHT` is a pure no-op in battle.
   - When a step `d` from `b` fails (`after == b`), clearing potential battle intro (`["sleep 1200"] + ["B", "sleep 700"] * 8`) and probing `back_d` (the known-open tile you just came from) cleanly distinguishes a **wall** (`pos != b`) from an active **battle** (`pos == b`), and in Gen 1 `PlayerSpeed >= EnemySpeed` guarantees 100% first-try escape via `RUN`.
 
