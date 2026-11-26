@@ -117,7 +117,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: Room 2 Phoebe in progress! SAGE Lv 84 (125/251 HP, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941.
+- Status: Room 2 Phoebe in progress! SAGE Lv 84 (~65/251 HP, Overgrow ACTIVE, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941.
 - Party: SAGE Lv 84 (Lead), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
 - Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900 (Total: ¥5,941). Door unlocked!
 - Room 2 Phoebe Battle Summary:
@@ -125,5 +125,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
   - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
-  - Sableye Lv 50 (#4): SAGE struck first with Bullet Seed (~50% dmg). Finishing Sableye with Bullet Seed!
-  - Upcoming: Banette Lv 49 (#5, final).
+  - Sableye Lv 50 (#4): SAGE struck first with Bullet Seed, took hit (activating Overgrow!), and finished Sableye with Bullet Seed! DEFEATED!
+  - Upcoming: Banette Lv 49 (#5, final Pokémon). Preparing Overgrow Bullet Seed to sweep!
