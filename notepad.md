@@ -161,7 +161,12 @@
     - Open eastward gap between rock wall (`y = 3`) and bush column (`x = 23, y >= 6`) runs along `y = 4..5` (`(20, 5) -> (24, 5)` bypasses `(21, 4)` Lass #2).
     - **Bug Catcher #3**: Stands at `(24, 6)` facing Right; spots player at `(27, 6)` (`Caterpie Lv 11, Metapod Lv 11`) — Defeated (Turn 152). Wooden stairs across the `y = 7` ledge are at `(27, 7)`.
     - **Youngster #2**: Visible at `(22, 9)` facing Left (south of `y = 7` ledge).
-    - **Lass #3**: Triggers at `(33, 8)` (`Jigglypuff Lv 14`).
+    - **Lass #3**: Triggers at `(33, 8)` (`Jigglypuff Lv 14`) — Defeated (Turn 155; `NAUTILUS` reached Lv 17).
+  - **East Exit to Route 4**:
+    - From `(33, 8)` -> `(37, 8)` -> stairs at `(37, 7)` -> `(37, 4)` -> East along `y = 4` to `(49, 4)` -> South down stairs `(49, 7)` to `(49, 10)` -> East to `(56, 10)` -> `(56, 8)` -> `(59, 8)` -> North up stairs `(59, 7)` along `x = 59` to `(59, 0) -> Up`, which connects to **Route 4 `(9, 17)`**.
+
+## Route 4 West (Outside Mt. Moon)
+- **South Connection (from Route 3 `(59, 0)`)**: Enters at `(9, 17)` (dodge south ledge `(6, 15)..(9, 15)` via `x = 10..11`).
 
 
 <hr>
