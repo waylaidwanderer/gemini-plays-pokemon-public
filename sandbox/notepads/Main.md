@@ -4,7 +4,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), healed & bought 6 Potions (turns 401 & 406), and defeated **Rival RED #2** on Nugget Bridge (turn 422)! Clearing Nugget Bridge (Route 24), Route 25, and Bill's Sea Cottage next before Misty.
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), cleared all 5 Nugget Bridge trainers + healed at Cerulean Center (turn 459), claimed **Nugget** (`¥5000`) & defeated the Route 24 Rocket Grunt (turn 465)! Next: grab TM45 & catch Bellsprout (Cut/Grass) on Route 24, then clear Route 25 & help Bill!
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -21,13 +21,14 @@
 - Escape Rope in Gen 1 warps directly outside the last visited Pokémon Center door, not just the cave entrance (verified turn 348).
 - Sleep/Disable in battle: while asleep (`SLP`), pressing `A` on `FIGHT` skips move selection directly; when Disable wears off, `"<PKMN>'s disabled no more! ▼"` prints before the attack and needs `B`/`A` (verified turns 249–254).
 - Evolution safety & Gen 1 quirks: NEVER press `B` after a battle where a Pokémon reached an evolution level (use `A` and wait ~9s for the evolution animation to finish; verified turn 309). In Gen 1, Bug moves (like Zubat's Leech Life) are **2x super effective** against Poison types (verified turn 299). Drain moves (`Absorb`, `Leech Life`) display two `▼` prompts (`It's super/not very effective!` + `Sucked health!`), taking ~5.5s total.
-- Cerulean City navigation: Center `(19,17)`, Poké Mart `(25,25)` (reached south via alley `x=16` between Bike Shop and south block, turn 403), Nugget Bridge north exit `(20..21,8)` (reached via west ledge gap `(8,15)` -> `y=12`, turn 407–408).
+- Cerulean City navigation: Center `(19,17)`, Poké Mart `(25,25)` (reached south via alley `x=16` between Bike Shop and south block, turn 403), Nugget Bridge north exit `(20..21,8)` (reached via west ledge gap `(8,15)` -> `y=12`, turn 407–408); southbound return from Nugget Bridge can hop one-way south ledge `(22,17)` directly beside Cerulean Center (turn 459).
+- Battle `ITEM` & 0-PP cursor behavior: In battle `ITEM`, pressing `A` on a Potion skips `USE/TOSS` and goes straight to the Party screen; after using `ITEM`, Battle Menu cursor stays on `ITEM` (verified turn 455). Selecting a 0-PP move inside `FIGHT` does NOT update the persisted move cursor (resets to Slot 1 next time `FIGHT` is opened; verified turns 452–453).
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **RIPTIDE** (Wartortle, Lead/Slot 1) - Lv 18 (17/50 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
-- **KAISER** (Nidoking, Slot 2) - Lv 17 (41/59 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved turn 347
-- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3, Helix Fossil, Potion x6 | **Cash:** ~¥600 | **Respawn:** Cerulean City Center `(19,17)`
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 20 (68/69 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved turn 347
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 18 (50/50 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
+- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3, Helix Fossil, Potion x4, **Nugget** | **Cash:** ~¥1800+ | **Respawn:** Cerulean City Center `(19,17)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
