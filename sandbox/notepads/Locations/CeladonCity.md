@@ -50,3 +50,6 @@
 ## Celadon Gym Route (Verified Turns 696–702)
 - From **Celadon Pokémon Center `(41, 10)`**: walk `Down * 4` to `(41, 14)`, `Left * 4` to `(37, 14)`, `Down * 8` to `(37, 22)`, `Left * 11` to `(26, 22)`, `Down, Left * 2, Down * 8` to `(24, 31)`, `Right * 11` to `(35, 31)`.
 - Chop **`Cut` bush at `(35, 32)`**, walk `Down * 3` to `(35, 34)`, `Left * 30` along `y = 34` to `(5, 34)`, climb wooden stairs at **`(5, 31)`** up to `(5, 29)`, `Right * 7` to `(12, 29)`, and `Up * 2` into **Celadon Gym `(12, 27)`**!
+- **Celadon Gym Interior (Verified Turns 703–713)**:
+  - Entrance spawns at `(4, 17)`. Walk `Up * 6` to `(4, 11)` (Lass Kay at `(2, 11)`), `Right, Up` to `(5, 10)` (Beauty Bridget at `(7, 10)`: `Oddish, Bellsprout, Oddish, Bellsprout Lv 21` — evolved `NAUTILUS` into **`Blastoise` at Lv. 36**, Turn 711!).
+  - Walk `Up * 2` to `(5, 8)`, chop interior **`Cut` bush at `(5, 7)`**, and enter inner gazebo (`Jr. Trainer♀ at (5, 3)`, **Gym Leader Erika at `(4, 3)`**).
