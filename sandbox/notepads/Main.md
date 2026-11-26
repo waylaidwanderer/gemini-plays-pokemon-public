@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Navigating through gate (9, 1) and Grand Staircase to challenge Elite Four Sidney in Room 1! SAGE Lv 85 (254/254 HP, 250 Spe). Bag: 5 Revives, 1 Full Heal, ¥670 cash.
+- Status: Attempt 14 Active! In Room 1 facing Elite Four Sidney! SAGE Lv 85 (254/254 HP, 250 Spe) initiating battle. Bag: 5 Revives, 1 Full Heal, ¥670 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 254/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
