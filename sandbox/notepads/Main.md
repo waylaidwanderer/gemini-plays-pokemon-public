@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 2 Phoebe: Dusclops used Protect on Turns 1 & 2. SAGE Lv 86 (130/257 HP, 253 Spe) striking on Turn 3 with STAB Bullet Seed (Slot 1). Bag: 5 Revives, 1 Full Heal, ¥5,570 cash.
+- Status: Attempt 14 Active! Room 2 Phoebe: Lead Dusclops Lv 48 chunked to ~35% HP by Bullet Seed. SAGE Lv 86 at 130/257 HP. Bag: 5 Revives, 1 Full Heal, ¥5,570 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 130/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (23/30), Aerial Ace (16/20), Facade (13/20), Quick Attack (26/30). Status: OK (Active Battler).
