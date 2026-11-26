@@ -22,7 +22,7 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoqueen) — Lv. 19 (`64+/64+` HP) | Moves: Scratch, Water Gun, Tackle, Poison Sting *(100% Electric-immune! Learns Body Slam at Lv. 23!)*
+1. **AMETHYST** (Nidoqueen) — Lv. 20 (`35/68` HP) | Moves: Body Slam, Water Gun, Tackle, Poison Sting *(100% Electric-immune! Taught `TM08 Body Slam` 85 BP in Slot 0!)*
 2. **NAUTILUS** (Wartortle) — Lv. 26 (`70/70` HP) | Moves: Bite, Mega Punch, Dig, BubbleBeam *(Note: Nidoqueen is `NOT ABLE` to learn `TM28 Dig` in Gen 1; Wartortle IS `ABLE`!)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
