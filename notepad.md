@@ -24,15 +24,15 @@
 - Sleep/Disable in battle: while asleep (`SLP`), pressing `A` on `FIGHT` skips move selection directly; when Disable wears off, `"<PKMN>'s disabled no more! ▼"` prints before the attack and needs `B`/`A` (verified turns 249–254).
 - Evolution safety & Gen 1 quirks: NEVER press `B` after a battle where a Pokémon reached an evolution level (use `A` and wait ~9s for the evolution animation to finish; verified turn 309). In Gen 1, Bug moves (like Zubat's Leech Life) are **2x super effective** against Poison types (verified turn 299). Drain moves (`Absorb`, `Leech Life`) display two `▼` prompts (`It's super/not very effective!` + `Sucked health!`), taking ~5.5s total.
 - Cerulean City navigation: Center `(19,17)`, Poké Mart `(25,25)` (reached south via alley `x=16` between Bike Shop and south block, turn 403), Nugget Bridge north exit `(20..21,8)` (reached via west ledge gap `(8,15)` -> `y=12`, turn 407–408); southbound return from Nugget Bridge can hop one-way south ledge `(22,17)` directly beside Cerulean Center (turn 459).
-- Battle `ITEM` & 0-PP cursor behavior: In battle `ITEM`, pressing `A` on a Potion skips `USE/TOSS` and goes straight to the Party screen; after using `ITEM`, Battle Menu cursor stays on `ITEM` (verified turn 455). Selecting a 0-PP move inside `FIGHT` does NOT update the persisted move cursor (resets to Slot 1 next time `FIGHT` is opened; verified turns 452–453).
+- Battle `ITEM` & 0-PP cursor behavior: In battle `ITEM`, pressing `A` on a Potion skips `USE/TOSS` and goes straight to the Party screen (where the party cursor persists on the active/last-switched Pokémon slot, verified turn 503); after using `ITEM`, Battle Menu cursor stays on `ITEM` (verified turn 455). Selecting a 0-PP move inside `FIGHT` does NOT update the persisted move cursor (resets to Slot 1 next time `FIGHT` is opened; verified turns 452–453).
 - Naming keyboard hygiene: always open the naming screen and confirm it is settled before typing; use `sleep 200` (not `120`) between consecutive directional presses and visually verify the spelling before pressing `Start` (lesson from turn 488 `PGHP`).
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 20 (62/69 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved turn 347
-- **RIPTIDE** (Wartortle, Slot 2) - Lv 18 (50/50 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
-- **PGHP** (Bellsprout, Slot 3) - Lv 14 (Vine Whip, Growth; future HM01 Cut user & Misty backup; rename to BRIAR in Lavender Town if desired) — caught turn 485
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, Potion x4, **Nugget**, **TM45 (Thunder Wave)** | **Cash:** ~¥2100+ | **Respawn:** Cerulean City Center `(19,17)`
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 20 (19/69 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved turn 347
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (~7/52 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
+- **PGHP** (Bellsprout, Slot 3) - Lv 14 (21/38 HP; Vine Whip, Growth; future HM01 Cut user & Misty backup; rename to BRIAR in Lavender Town if desired) — caught turn 485
+- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, Potion x3, **Nugget**, **TM45 (Thunder Wave)** | **Cash:** ~¥2800+ | **Respawn:** Cerulean City Center `(19,17)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
