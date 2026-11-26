@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 1 Sidney: Mightyena Lv 46 DEFEATED by critical Aerial Ace! SAGE Lv 85 at 254/254 HP. Sidney sent in Absol Lv 49 (#2). SAGE outspeeds Absol (250 vs ~105 Speed) and strikes with physical Facade (Slot 3)!
+- Status: Room 1 Sidney: Mightyena Lv 46 DEFEATED! Turn 1 Facade dropped Absol Lv 49 to ~20% HP; Absol used Aerial Ace (dealt 43 dmg, SAGE at 168/254 HP). SAGE strikes with priority Quick Attack (Slot 4) to finish Absol and face Shiftry Lv 48 (#3)!
 - Party: SAGE Lv 85 (Lead, 254/254 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
 - Bag: 5 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥670 cash.
 - Plan:
@@ -5117,10 +5117,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 1 Sidney: Mightyena down! SAGE Lv 85 (254/254 HP, 250 Spe) facing Absol Lv 49 (#2). Bag: 5 Revives, 1 Full Heal, ¥670 cash.
+- Status: Attempt 14 Active! Room 1 Sidney: Mightyena down! Finishing Absol Lv 49 (#2) with Quick Attack. SAGE Lv 85 at 168/254 HP (250 Spe). Bag: 5 Revives, 1 Full Heal, ¥670 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 254/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (19/20), Facade (17/20), Quick Attack (30/30). Status: OK (Active Battler).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 168/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (19/20), Facade (15/20), Quick Attack (28/30). Status: OK (Active Battler).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
