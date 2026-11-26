@@ -21,14 +21,14 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle, Water Gun
+1. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 2. **NAUTILUS** (Wartortle) — Lv. 17 | Moves: Water Gun, Tail Whip, Tackle, Bubble
 3. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
 
 ## Inventory & Money
 - Money: ~¥1,700
 - Key Items: Pokédex, Town Map
-- Bag: Potion x1, Antidote x1, Poké Ball x3, TM34 (Bide)
+- Bag: Potion x2, Antidote x1, Poké Ball x3, TM34 (Bide), TM12 (Water Gun — save for Nidoqueen!)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -298,11 +298,11 @@ def name_buttons(word):
    - Heal at the **Mt. Moon Pokémon Center** on Route 4 West before entering Mt. Moon.
 2. **Mt. Moon (`1F -> B1F -> B2F`)**:
    - **1F Items**:
-     - Pick up `TM12 (Water Gun)` (south-west corner of 1F) and teach `TM12 (Water Gun)` to **`AMETHYST`** (`Nidoran♀`).
-     - Pick up `Moon Stone` (top-left corner of 1F), `Rare Candy`, `Escape Rope`, and `Potion`s.
+     - Pick up `TM12 (Water Gun)` at `(5, 32)` (Done — verified Turn 178 `filmstrip_1.png` `#16` that `Nidoran♀` is `NOT ABLE` to learn `TM12`, so keep `TM12` in Bag and teach it to `AMETHYST` right after she evolves into **Nidoqueen** at Level 16!).
+     - Pick up `Potion` at `(2, 20)`, `Moon Stone` (top-left corner of 1F), `Rare Candy` (bottom-right of 1F), and `Escape Rope`.
    - **Training & Nidoqueen Power Spike**:
-     - Lead or switch-train **`AMETHYST`** against Geodudes/trainers in Mt. Moon until **Level 16** -> evolves into **Nidorina** (use `A` after KOs at Lv 15 so evolution isn't `B`-cancelled!).
-     - Immediately use the **`Moon Stone`** from the Bag on `AMETHYST` (`Nidorina`) -> evolves into **Nidoqueen** at Level 16! (Nidoqueen learns **Body Slam** at Level 23 in Pokémon Blue!).
+     - Switch-train **`AMETHYST`** (lead Slot 0 -> switch to `NAUTILUS` Lv. 17 Wartortle on trainers, plus finish safe low-level targets) through Mt. Moon trainers until **Level 16** -> evolves into **Nidorina** (use `A` after KOs at Lv 15 so evolution isn't `B`-cancelled!).
+     - Immediately use the **`Moon Stone`** on `AMETHYST` (`Nidorina`) -> evolves into **Nidoqueen** at Level 16, then teach her **`TM12 (Water Gun)`**! (Nidoqueen also learns **Body Slam** at Level 23 in Pokémon Blue!).
    - **B2F Finale**:
      - Pick up `TM01 (Mega Punch)` (via the B2F side ladder) and consider teaching to `AMETHYST` or `NAUTILUS` for neutral physical power against Misty's Starmie.
      - Defeat Team Rocket Grunts & Super Nerd Miguel -> claim a Fossil (`Dome` or `Helix`) -> exit via B1F corridor to Route 4 East -> hop ledge east into **Cerulean City**.
