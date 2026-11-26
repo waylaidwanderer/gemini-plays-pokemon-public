@@ -32,7 +32,7 @@
 - Route 5 northbound shortcut: `x=15` is a clear 1-tile northbound path from Route 5 Underground Path straight to Cerulean City's south Cut bush `(19,28)` (verified turns 725–728).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 26 (87 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 27 (90 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (52 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **PGHP** (Bellsprout, Slot 3) - Lv 17 (44 HP; **Vine Whip**, Growth, **HM01 Cut**, PoisonPowder; learns **Sleep Powder** at Lv 18) — caught turn 485
 - **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x8**, **Repel x5**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥9534+ | **Respawn:** Cerulean City Center `(19,17)`
