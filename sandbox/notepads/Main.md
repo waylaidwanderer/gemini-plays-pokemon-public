@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Deploying revived SAGE Lv 85 (127/254 HP, 250 Spe) to sweep Altaria, Salamence, and Kingdra. Bag: 0 Revives, 1 Full Heal.
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon, Flygon, Altaria down! SAGE Lv 85 (127/254 HP, 250 Spe) facing Ace Salamence Lv 55 (#4). Bag: 0 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: OK (Revived via Sacrificial Revive).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (9/20), Quick Attack (30/30). Status: OK (Revived via Sacrificial Revive).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
@@ -49,6 +49,7 @@
 - Party Swap Mechanic on Forced Replacement (Turn 26732 Discovery): In Gen 3 Pokémon Emerald, when a Pokémon faints and a replacement is chosen from the party screen, the incoming replacement swaps positions with the outgoing Pokémon in the party order. Because Lilz was sent in after Sage fainted in Room 2, Lilz became Slot 1 and Sage became Slot 2. Therefore, party targeting rows dynamically follow these swaps. Always verify the target's name plate on the screen before confirming item use!
 - In-Battle Party Targeting Grid Verified Layout (Turn 26732 Visual Proof): On the in-battle party medicine targeting screen, the right column does NOT strictly put Slot 1 at Row 1. In Turn 26732 Frame 56, when Cipher was in the Left Box, Row 1 was LILZ (Lv 30) and Row 2 was SAGE (Lv 85, FNT). To target SAGE when Row 1 is Lilz, you MUST press Right then DOWN to Row 2! Always inspect the name tag in the highlighted box to confirm the target is SAGE before pressing A!
 - Party Screen Visual & Cancel Navigation Mechanics (Turn 26740-26746 Discovery): In Gen 3 Pokémon Emerald's party screens, panel background colors indicate health status: Blue = Conscious, Orange/Red-Brown = Fainted. The actual cursor is indicated by a thick orange bounding box around the active panel. Pressing B on the party replacement screen jumps the cursor directly to the CANCEL button at the bottom-right. From CANCEL, pressing Up steps vertically up the right column (Row 5 -> Row 4 -> Row 3 -> Row 2 -> Row 1).
+- Speed Tier Dominance vs Dragon Dance (Turn 26776-26777 Discovery): SAGE Lv 85 has base 250 Speed. Drake's Altaria Lv 54 at +2 Speed from two Dragon Dances reaches ~210 Speed, meaning SAGE (250 Speed) naturally outspeeds even a double-boosted Altaria without priority! SAGE retains 100% turn-start initiative against Drake's entire roster.
 - Light Screen Physical Bypass: Light Screen only mitigates Special damage; physical moves like Facade and Quick Attack deal 100% full unmitigated damage.
 - Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
 
