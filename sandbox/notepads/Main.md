@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Cobalu fainted absorbing Glalie attack. Opening party replacement screen to deploy SAGE Lv 85 (127/254 HP). Bag: 1 Revive, 1 Full Heal.
+- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Deploying SAGE Lv 85 (127/254 HP, 250 Speed) to finish Glalie #1 (25% HP) and sweep Glalie #2. Bag: 1 Revive, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: OK (Active Battler).

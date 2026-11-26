@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
-- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Cobalu absorbed Glalie's Crunch and fainted. Advancing to party replacement screen to deploy SAGE Lv 85 (127/254 HP) for an unmitigated free switch-in to sweep Glalie #4 and Glalie #5!
+- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! On party replacement screen, moving Right to Row 1, Down to Row 2 SAGE (127/254 HP), and confirming Shift. SAGE deploys clean with 250 Speed to finish Glalie #4 and sweep Glalie #5!
 
 <hr>
 
@@ -5109,7 +5109,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Cobalu fainted absorbing Glalie attack. Opening party replacement screen to deploy SAGE Lv 85 (127/254 HP). Bag: 1 Revive, 1 Full Heal.
+- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Deploying SAGE Lv 85 (127/254 HP, 250 Speed) to finish Glalie #1 (25% HP) and sweep Glalie #2. Bag: 1 Revive, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: OK (Active Battler).
