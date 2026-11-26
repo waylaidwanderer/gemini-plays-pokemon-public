@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Delivered Oak's Parcel and received Pokédex in Pallet Town (turn 75); returning north via Route 1 to Viridian City to heal and buy Poké Balls/Antidotes before Route 22 & Viridian Forest
+- **Progress:** Defeated Gym Leader Brock in Pewter City Gym (turn 180) for the **Boulder Badge** and **TM34 (Bide)**; heading out to heal/restock in Pewter City and traverse Route 3 & Mt. Moon toward Cerulean City.
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -20,11 +20,11 @@
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **RIPTIDE** (Squirtle) - Lv 9 (15/27 HP; Tackle, Tail Whip, Bubble) — leveled to Lv 9 defeating Viridian Forest Bug Catcher #1 (turn 125)
-- **KAISER** (Nidoran♂) - Lv 3+ (caught Route 22, switch-trained vs Bug Catcher #1 Caterpie, turn 125; future Nidoking)
+- **RIPTIDE** (Squirtle) - Lv 13 (30/35 HP; Atk 20, Def 23, Spd 16, Spc 18; Tackle, Tail Whip, Bubble) — swept Brock's Geodude & Onix (turn 180)
+- **KAISER** (Nidoran♂) - Lv 3 (16/16 HP; Leer, Tackle; caught Route 22, switch-trained vs Bug Catcher #1 Caterpie, turn 125; evolve to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
 
 ## Badges
-- 0/8
+- 1/8: **Boulder Badge** (Pewter City, turn 180)
 
 ## Notepad Index
 - `notepads/Main.md` - High-level dashboard and index
