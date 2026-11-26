@@ -173,7 +173,11 @@
 ## Lavender Town (Verified Turns 577–579)
 - **North Entrance**: `(9, 0)` (from Route 10).
 - **Lavender Pokémon Center**: Door at **`(3, 5)`** *(Note: watch for wandering villager around `(7, 6..7)` when walking west along `y = 6`; verify `mgba.get_coordinates() == {'x': 3, 'y': 7}` upon entering)*.
-- **Pokémon Tower**: East side `(12..17, 0..5)`, door at `(14, 5)`.
+- **Pokémon Tower**: East side `(12..17, 0..5)`, door at **`(14, 5)`**.
+  - **1F**: Spawns at `(10, 17)`; walk `Up * 8` to `(10, 9)` and `Right * 8` onto **`(18, 9)`** -> **2F `(18, 9)`** *(use `"sleep 900"` on Tower stairs before menu inputs)*.
+  - **2F**: **Rival `GARNET`** triggers at **`(15, 5)`** (`Pidgeotto Lv 25`, `Gyarados Lv 23` [**knows `Hydro Pump`** — keep Water-resistant `NAUTILUS` in rather than switching Ground-type `AMETHYST` into it!], `Growlithe Lv 22`, `Kadabra Lv 20`, `Ivysaur Lv 25`). West stairs to **3F** at **`(3, 9)`**.
+  - **3F**: From `(3, 10)`, route `(5, 10) -> (5, 13) -> (8, 13) -> (8, 11) -> (13, 11) -> (13, 6) -> (17, 6) -> (17, 9) -> (18, 9)` -> **4F `(18, 9)`**.
+  - **4F**: **`Elixer`** item ball at **`(12, 10)`**! Route `(14, 9) -> (14, 8) -> (11, 8) -> (11, 9) -> (10, 9) -> (10, 12) -> (7, 12) -> (7, 8) -> (3, 8) -> (3, 9)` -> **5F `(3, 9)`**.
 - **West Exit to Route 8**: Walk west along `y = 8..9` (`x = 0 -> Route 8 (59, 8)`).
 
 ## Route 8 (East -> West, Verified Turns 579–588)
