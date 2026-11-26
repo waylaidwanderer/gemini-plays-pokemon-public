@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309), collected Moon Stone (`(2,2)`), Escape Rope (`(36,23)`), and Rare Candy (`(35,31)`), and double-evolved **KAISER into Lv 16 Nidoking** (turns 343–347)! Healing at Mt. Moon Center before sweeping Mt. Moon B2F to Cerulean City.
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309), double-evolved **KAISER into Lv 16 Nidoking** (turns 343–347), and defeated the mandatory Mt. Moon B2F Lv 16 Raticate Rocket Grunt (turn 356)! Clearing the rest of Mt. Moon B2F (items + fossil + exit) to reach Cerulean City.
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -19,15 +19,16 @@
 - Battle Shift prompt: `"<TRAINER> is about to use <PKMN>!"` splits across two `▼` presses before `"Will NEON change POKéMON?"` YES/NO (verified turn 178 filmstrip).
 - Pewter City navigation: Pewter Gym (`(16,17)`) is bounded south by a `y=21` tree wall (`x=4..17`) and east fence (`x=18, y=18..21`); travel north of the Gym (`x=10, y=13 -> x=19, y=13`) and down the main east avenue `x=19` to reach Pewter Pokémon Center (`(13,25)`) and Poké Mart (`(23,17)`) (verified turn 186).
 - Battle `PKMN` and SHIFT (`"Bring out which POKéMON?"`) switch cursors both persist on the last switched-in slot within a battle (verified turns 122–123 & 198). Use `Left, Up` / `Right, Up` to reliably select `FIGHT` / `PKMN` regardless of previous Battle Menu cursor.
-- Overworld Bag healing: after `A` heals a Pokémon (`"...recovered by 20!"`), 4 `B` presses exit cleanly (dismiss message -> close Party -> close Bag -> close Start Menu) (verified turn 208 filmstrip). Start Menu cursor resets to `POKéDEX` after battles/map transitions (verified turn 206).
+- Overworld Bag healing: after `A` heals a Pokémon (`"...recovered by 20!"`), 4 `B` presses exit cleanly (dismiss message -> close Party -> close Bag -> close Start Menu) (verified turn 208 filmstrip). Start Menu cursor resets to `POKéDEX` after battles and saves, but **persists** across building warps/map transitions (verified turns 206 & 349). Using an item on a party slot (e.g. Rare Candy) persists the party selection cursor on that slot for the next item; Stone evolutions return to Bag Slot 1 upon completion (verified turns 345–347).
+- Escape Rope in Gen 1 warps directly outside the last visited Pokémon Center door, not just the cave entrance (verified turn 348).
 - Sleep/Disable in battle: while asleep (`SLP`), pressing `A` on `FIGHT` skips move selection directly; when Disable wears off, `"<PKMN>'s disabled no more! ▼"` prints before the attack and needs `B`/`A` (verified turns 249–254).
 - Evolution safety & Gen 1 quirks: NEVER press `B` after a battle where a Pokémon reached an evolution level (use `A` and wait ~9s for the evolution animation to finish; verified turn 309). In Gen 1, Bug moves (like Zubat's Leech Life) are **2x super effective** against Poison types (verified turn 299). Drain moves (`Absorb`, `Leech Life`) display two `▼` prompts (`It's super/not very effective!` + `Sucked health!`), taking ~5.5s total.
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **RIPTIDE** (Wartortle, Lead/Slot 1) - Lv 16 (46/46 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
-- **KAISER** (Nidoking, Slot 2) - Lv 16 (~55/55 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved Nidorino (Rare Candy turn 343) -> **Nidoking** (Moon Stone turn 347)!
-- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3 | **Cash:** ~¥800+
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 16 (13/56 HP, ~95% to Lv 17; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved Nidorino (Rare Candy turn 343) -> **Nidoking** (Moon Stone turn 347)!
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 16 (46/46 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
+- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3 | **Cash:** ¥1114 | **Respawn:** Route 4 Mt. Moon Center `(11,5)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
