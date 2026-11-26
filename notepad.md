@@ -166,7 +166,9 @@
     - From `(33, 8)` -> `(37, 8)` -> stairs at `(37, 7)` -> `(37, 4)` -> East along `y = 4` to `(49, 4)` -> South down stairs `(49, 7)` to `(49, 10)` -> East to `(56, 10)` -> `(56, 8)` -> `(59, 8)` -> North up stairs `(59, 7)` along `x = 59` to `(59, 0) -> Up`, which connects to **Route 4 `(9, 17)`**.
 
 ## Route 4 West (Outside Mt. Moon)
-- **South Connection (from Route 3 `(59, 0)`)**: Enters at `(9, 17)` (dodge south ledge `(6, 15)..(9, 15)` via `x = 10..11`).
+- **South Connection (from Route 3 `(59, 0)`)**: Enters at `(9, 17)` (dodge south ledges `(6, 15)..(9, 15)` via `x = 10..11` and `(7, 11)..(11, 11)` via `x = 12..13`).
+- **Mt. Moon Pokémon Center**: Door at `(11, 5)` (settles last-visited heal checkpoint right outside Mt. Moon!).
+- **Mt. Moon 1F Entrance**: Walk East along `y = 6` from `(11, 6)` to `(18, 6) -> Up` into `(18, 5)`.
 
 
 <hr>
