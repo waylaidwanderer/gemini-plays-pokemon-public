@@ -133,3 +133,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Turn 24: From CANCEL, moving Left to Left Box, Right to Right Column, Down x4 to Guava (Row 5), confirming SEND OUT, attacking, and resolving whiteout.
 - Turn 25: From CANCEL, pressing Left to Left Box, Down x3 to Guava (Slot 5), A twice to SEND OUT, attacking, and completing whiteout reset.
 - Turn 26: Guava on field! Moving Up to FIGHT, selecting attack, and completing whiteout reset for Attempt 13.
+- Turn 27: Banette's attack missed! Guava hit with Razor Leaf (Banette at ~8% HP). Selecting FIGHT and Razor Leaf to resolve battle to whiteout reset.
