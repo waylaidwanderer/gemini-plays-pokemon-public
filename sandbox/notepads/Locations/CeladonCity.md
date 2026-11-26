@@ -22,3 +22,8 @@
 - Exit west of Celadon City along **`y = 18`** onto `Route 16 (39, 10)` *(Snorlax sleeps at `(26, 10)`).*
 - Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)`; upper tall grass `(28..34, 4)` has `Spearow` & `Doduo` (caught Lv. 22 `Spearow` **`JASPER`**, Turn 628).
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
+- **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
+
+## Celadon Game Corner (Verified Turns 639–644)
+- **Entrance**: Door at **`Celadon City (28, 19)`** -> spawns at **`(15, 17)`**.
+- **Poster Switch**: Defeat Rocket Grunt at **`(9, 5)`**, then inspect **`(9, 4)`** (`["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 2500"]`) -> opens secret staircase down to **Rocket Hideout B1F** at **`(17, 4)`**!

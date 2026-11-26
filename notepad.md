@@ -71,6 +71,11 @@
 - Exit west of Celadon City along **`y = 18`** onto `Route 16 (39, 10)` *(Snorlax sleeps at `(26, 10)`).*
 - Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)`; upper tall grass `(28..34, 4)` has `Spearow` & `Doduo` (caught Lv. 22 `Spearow` **`JASPER`**, Turn 628).
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
+- **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
+
+## Celadon Game Corner (Verified Turns 639–644)
+- **Entrance**: Door at **`Celadon City (28, 19)`** -> spawns at **`(15, 17)`**.
+- **Poster Switch**: Defeat Rocket Grunt at **`(9, 5)`**, then inspect **`(9, 4)`** (`["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 2500"]`) -> opens secret staircase down to **Rocket Hideout B1F** at **`(17, 4)`**!
 
 
 <hr>
@@ -594,21 +599,19 @@ def name_buttons(word):
 
 # Active Routing & Immediate Checklist
 
-## Rock Tunnel B1F -> Lavender Town -> Celadon City (Rainbow Badge)
-1. **Rock Tunnel Traversal (`B1F Section 1 -> 1F Section 2 -> B1F Section 2 -> 1F South Exit`)**:
-   - Currently at `B1F (26, 33)` (`NAUTILUS` Lv. 27 leading, `Repel` in Bag Slot 0).
-   - **B1F Section 1**: Navigate west to the central corridor (`~x = 14..16`), north to `~y = 3..6`, and east to **Ladder #2 (`B1F (27, 3)`)** -> `1F (17, 11)`.
-   - **1F Section 2**: Navigate northwest from `(17, 11)` to **Ladder #3 (`1F (3, 3)`)** -> `B1F (3, 3)`.
-   - **B1F Section 2**: Navigate south/east around to **Ladder #4** -> **1F Section 3 (Southwest)**.
-   - **1F Section 3**: Walk south to exit mat -> **Route 10 South** -> **Lavender Town**.
-2. **Lavender Town -> Route 8 -> Celadon City**:
-   - Heal at Lavender Pokémon Center (registers Lavender checkpoint for post-Silph Scope return).
-   - Walk west across **Route 8** -> **Underground Path (7–8)** -> **Route 7** -> **Celadon City**.
-3. **Celadon City Power-Ups & Gym Leader Erika (Rainbow Badge)**:
-   - Celadon Dept. Store: sell `Nugget`, `TM34 (Bide)`, `TM30 (Teleport)`; buy `Fresh Water` (`x2`), `Soda Pop`, `Lemonade` on 6F Rooftop -> trade `Fresh Water` to rooftop girl for **`TM13 (Ice Beam)`** (teach 90-BP `Ice Beam` to `NAUTILUS`!).
-   - Route 16 (west of Celadon): `Cut` bush -> catch `Doduo` or `Spearow` (**always give a creative nickname!**) -> obtain **`HM02 (Fly)`** in secret house and teach `Fly`.
-   - Rocket Game Corner (`Poster` -> B1F–B4F -> Giovanni) -> obtain **`SILPH SCOPE`**.
-   - `Cut` into **Celadon Gym** -> sweep **Erika** (`Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29`) with `Ice Beam` for **Rainbow Badge** (#4)!
+## Rocket Hideout -> Celadon Gym (Rainbow Badge) -> Pokémon Tower (`Poké Flute`)
+1. **Rocket Hideout (`Game Corner (17, 4) -> B1F -> B2F -> B3F -> B4F`)**:
+   - **Bag Note**: Currently `18/20` slots used (`2` free slots = exact room for `Lift Key` + `Silph Scope`; skip optional floor items until depositing old items at Celadon Center PC!).
+   - Descend `B1F -> B2F`, solve **B2F spinner maze** to stairs down to **B3F**, solve **B3F spinner maze** to stairs down to **B4F West**.
+   - Defeat the **Lift Key Rocket Grunt** on **B4F West** and pick up the **`LIFT KEY`** dropped on the floor!
+   - Return to the **Rocket Hideout Elevator** (`B2F` or `B1F`), ride to **B4F**, defeat the two Rocket Grunts guarding the door, and sweep **Giovanni** (`Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29`) with `NAUTILUS` (`BubbleBeam` / `Ice Beam`).
+   - Pick up **`SILPH SCOPE`**, then exit via `Escape Rope` (or Elevator to B1F).
+2. **Celadon Pokémon Center & Celadon Gym (Badge #4 — Rainbow Badge)**:
+   - Heal at **Celadon Pokémon Center `(41, 9)`** and deposit unused items (`Helix Fossil`, `S.S. Ticket`, `TM34`, `TM45`, `TM30`) in `COBALT's PC` at `(13, 3)` to free 5+ Bag slots.
+   - Walk south on east side of Celadon City, `Cut` bush into **Celadon Gym**, `Cut` interior bush, and sweep **Gym Leader Erika** (`Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29`) with 90-BP `Ice Beam`!
+3. **Pokémon Tower (`Poké Flute`) & Saffron Gatehouse Unlock**:
+   - `Fly` (`JASPER`) to **Lavender Town** (`index 0 -> Up * 4`), climb **Pokémon Tower 1F–7F** (`Rival GARNET` on 2F, healing zone on 5F, `Marowak Lv 30` on 6F, 3 Rockets + Mr. Fuji on 7F -> **`POKé FLUTE`**).
+   - Give `1x Fresh Water` to the **Saffron Gatehouse Guard** (`Route 8` or `Route 7`) and heal at **Saffron Pokémon Center** to register Saffron on the `Fly` map.
 
 
 <hr>
