@@ -290,9 +290,19 @@
 - **Pokémon Fan Club**: **`(9, 13)`** (indoor exit mat `(2, 7)` -> `(0, 7) -> (0, 1) -> (2, 1)` facing Chairman at `(3, 1)` -> **`BIKE VOUCHER`** obtained Turn 395!).
 - **Vermilion Poké Mart**: **`(23, 13)`**.
 - **Vermilion Gym `Cut` Bush**: **`(15, 18)`** (blocks access to Vermilion Gym southwest).
-- **Vermilion Harbor Pier (Verified Turn 398)**:
+- **Vermilion Harbor Pier (Verified Turns 398–400)**:
   - Reach via **`y = 14`** east past Poké Mart `(23, 13)` to **`x = 30..31`** (`(26..29, 17..25)` is water!).
-  - Walk south down `(30..31, 14..27)` (Sailor checks `S.S. Ticket` around `y = 18..19`), then turn **west along `y = 26..27`** to the Vermilion Dock entrance.
+  - Walk south down `(30..31, 14..27)` (Sailor checks `S.S. Ticket` around `y = 18..19`), then turn **west along `y = 26..27`** to `(18, 27)` -> south across Vermilion Dock gangplank into **S.S. Anne 1F `(27, 0)`**.
+
+## S.S. Anne (Verified Turns 400–419)
+- **1F Corridor (`y = 6..7`, `x = 2..31`)**:
+  - Exiting a 1F cabin spawns you inside the `(x, 8)` doorway recess — press `Up` onto `y = 7` before walking `Left`/`Right`!
+  - **`(11, 8)` (Room #2 from left)**: Youngster Tyler (`Nidoran♂ Lv 21`), Lass Ann (`Pidgey Lv 18, Nidoran♀ Lv 18`), and **`TM08 (Body Slam)`** at `(12, 15)` (collected & taught to `AMETHYST` Turn 418!).
+  - **`(19, 8)` (Room #4 from left)**: **Free-Heal Woman** (instant full party & PP heal!).
+  - **`(23, 8)` (Room #5 from left)**: Gentleman Arthur (`Nidoran♂ Lv 19, Nidoran♀ Lv 19`).
+  - **West Stairs (`(2, 6)` -> `(2, 4)`)**: Warps up to **2F `(2, 4)`**.
+- **2F West Corridor**:
+  - `(2, 4)` = stairs to 1F; Sailor NPC at `(3, 8)`; `(2, 11)` = stairs to 3F Bow `(19, 3)`. Use **`x = 3`** (`(3, 11) -> (3, 15)`) to enter the main 2F corridor without warping to 3F.
 
 
 <hr>
