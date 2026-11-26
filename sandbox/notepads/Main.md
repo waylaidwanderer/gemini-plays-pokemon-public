@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 1 Sidney in progress: Mightyena & Absol DEFEATED. SAGE Lv 84 (159/251 HP, 247 Speed). Bag: 4 Revives, 1 Full Heal, Money: ¥1,041. Sweeping Sidney's team!
+- Status: Attempt 13 Active! Sidney DEFEATED (earned ¥4,900, total ¥5,941). Door to Room 2 unlocked! SAGE Lv 84 (159/251 HP, 247 Speed). Bag: 4 Revives, 1 Full Heal. Advancing to Room 2 Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 251/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -22,7 +22,7 @@
 - Revive x4 (purchased 4 at League Mart for ¥6,000)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,041 (verified on Mart Buy screen)
+- Money: ¥5,941 (earned ¥4,900 from Sidney)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -30,7 +30,7 @@
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 12, Turn 26573)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 13, Turn 26675)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
     - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake

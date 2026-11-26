@@ -117,16 +117,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: Room 1 Sidney in progress! SAGE Lv 84 (159/251 HP, 247 Speed). In Bag: 4 Revives, 1 Full Heal, ¥1,041.
+- Status: Room 1 Sidney DEFEATED! Prize: ¥4,900 (Total funds: ¥5,941). Door to Room 2 unlocked! SAGE Lv 84 (159/251 HP, 247 Speed).
+- Bag: 4 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥5,941 cash.
 - Party: SAGE Lv 84 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
-- Room 1 Sidney Battle Progress:
-  - Mightyena Lv 46 (#1): Intimidate cut Atk; SAGE hit with Facade (~75% dmg), Mightyena used Sand-Attack; SAGE finished with Aerial Ace (infinite accuracy). DEFEATED!
-  - Absol Lv 49 (#2, Pressure): SAGE hit with Aerial Ace (~65% dmg), Absol used Swords Dance; SAGE hit with Aerial Ace (dropped Absol to red), Absol used +2 Aerial Ace (92 dmg, SAGE at 159/251 HP); SAGE finished with Aerial Ace. DEFEATED!
-  - Shiftry Lv 48 (#3, Grass/Dark): SAGE struck first with Aerial Ace (dropped Shiftry to ~15% HP), Shiftry used Double Team. Finishing with Aerial Ace (bypasses Double Team evasion)!
-  - Upcoming: Cacturne Lv 46 (#4, 4x weak to Flying), Crawdaunt Lv 48 (#5, 2x weak to Grass). Prize: ¥4,900.
-
-    - Shiftry Lv 48 (#3): Sidney burned Full Restore! SAGE countered with Aerial Ace, dropping Shiftry back to red (~5% HP). Finishing with Aerial Ace!
-    - Shiftry Lv 48: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
-  - Cacturne Lv 46 (#4): Grass/Dark (weak to Flying). Clamping Up+Right to Slot 2 Aerial Ace to OHKO Cacturne!
-    - Cacturne Lv 46: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
-  - Crawdaunt Lv 48 (#5, Final): Water/Dark (2x weak to Grass). Declining switch, clamping Up+Left to Slot 1 Bullet Seed (STAB 2x Super Effective) to OHKO Crawdaunt and defeat Sidney!
+- Room 1 Sidney Battle Summary:
+  - Mightyena Lv 46 (#1): Intimidate cut Atk; SAGE Facade (~75% dmg), Sand-Attack; SAGE finished with Aerial Ace. DEFEATED!
+  - Absol Lv 49 (#2, Pressure): SAGE Aerial Ace (~65% dmg), Swords Dance; SAGE Aerial Ace (dropped to red), +2 Aerial Ace (92 dmg, SAGE at 159/251 HP); SAGE finished with Aerial Ace. DEFEATED!
+  - Shiftry Lv 48 (#3, Grass/Dark): SAGE Aerial Ace (~85% dmg), Double Team; Sidney burned Full Restore; SAGE Aerial Ace (dropped to red); SAGE finished with Aerial Ace. DEFEATED!
+  - Cacturne Lv 46 (#4, Grass/Dark): SAGE struck first with critical Aerial Ace. Instant OHKO! DEFEATED!
+  - Crawdaunt Lv 48 (#5, Water/Dark): SAGE struck first with STAB 2x super effective Bullet Seed. Instant OHKO! DEFEATED!
+  - ALL 5 DEFEATED! Prize: ¥4,900. Door to Room 2 (Phoebe) unlocked!
+- Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Phoebe in Room 2!
