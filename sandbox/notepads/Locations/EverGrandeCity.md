@@ -116,19 +116,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 84 Sceptile ♂): 100% restored upon whiteout (251/251 HP, all PP full). All 5 reserve anchors 100% restored.
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
-## Elite Four Attempt 13 (Active)
-- Status: Room 2 Phoebe DEFEATED! Prize: ¥5,100 (Total funds: ¥11,041). Door to Room 3 unlocked! SAGE Lv 85 (47/254 HP, Overgrow ACTIVE, 250 Speed).
-- Bag: 3 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥11,041 cash.
-- Party: SAGE Lv 85 (Lead, 47/254 HP), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
-- Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900.
-- Room 2 Phoebe: ALL 5 DEFEATED!
-  - Dusclops Lv 48 (#1): Dusclops took Bullet Seed, used Curse, fainted to self-inflicted damage! DEFEATED!
-  - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, fainted to wipe Curse clean. Sacrificial Revive restored SAGE to 125/251 HP (+6 priority) while Lilz absorbed hit. SAGE switched in free and finished Dusclops with Bullet Seed! DEFEATED!
-  - Banette Lv 49 (#3, Grudge user): SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace (0/20 PP) to protect Bullet Seed! DEFEATED!
-  - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
-  - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
-  - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
-- Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
 ## Elite Four Attempt 13 (Archived Turn 26784)
 - Status: Concluded via whiteout at Drake's Ace Salamence.
 - Milestone Progress:
@@ -141,7 +128,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: 5 Revives purchased at Mart (cash ¥670). Navigating through gate at (9, 1) and ascending Grand Staircase to Room 1 (Sidney)!
+- Status: Player at (16, 4) in League Lobby. Verifying 5 Revives in Bag before walking to gate at (9, 1).
 - Party: SAGE Lv 85 (Lead, 254/254 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
 - Bag: 5 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥670 cash.
 - Plan:
