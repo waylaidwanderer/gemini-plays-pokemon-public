@@ -34,10 +34,10 @@
 - Celadon Dept Store & wandering NPCs: Dept Store stairs drop you on `y=2` directly below the staircase (`x=12` or `x=16`; no `Down` needed, just 4 horizontal steps + `Up` to climb/descend; Rooftop stairs at `(15,2)`, verified turns 892–893). Rooftop Vending Machine stays open after `"<DRINK> popped out!"` + `B`; pressing `B` again shows `"Not thirsty!"` -> `B` closes (turn 896). To catch a wandering NPC reliably in `run_code`, patrol strictly walkable non-obstacle tiles and press `A` immediately when `cur == old` (turn 901).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 31 (103 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 31 (103 HP; **Thrash**, **Body Slam**, **Ice Beam**, **Thunderbolt**) — evolved turn 347; taught TM13 Ice Beam turn 911
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x7**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x2** | **Cash:** ¥18,599 | **Respawn:** Celadon City Center `(41,9)`
+- **Bag:** Poké Ball x3, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x7**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1** | **Cash:** ¥18,599 | **Respawn:** Celadon City Center `(41,9)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
