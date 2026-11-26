@@ -12,7 +12,7 @@
 - **Trade House (`Jynx` for Poliwhirl)**: Door at `(13, 15)`.
 - **Cerulean Pokémon Center**: Door at **`(19, 17)`** (warps indoors to `(3, 7)`; Nurse Joy counter at `(3, 3)` facing `Up`). Note: `POKé` sign sits at `(20, 17)`.
 - **Cerulean Gym (Misty)**: Door at **`(30, 19)`** (warps indoors to `(4, 13)`; Swimmer Luis spots at `(5, 7)`, Jr. Trainer♀ Diana spots at `(5, 3)`, **Gym Leader Misty** at **`(4, 2)`** — Defeated Turn 351 for **Cascade Badge** + `TM11 BubbleBeam`).
-- **Burgled House (`TM28 Dig` Rocket)**: NE Cerulean `(27, 11)` (opens after visiting Bill on Route 25).
+- **Burgled House (`TM28 Dig` & South Bypass)**: Front door at **`(27, 11)`** (`(2, 7)` indoors -> walk around table `(7, 3) -> (7, 1) -> (3, 1) -> Up` out north wall hole `(3, 0)` to `(27, 9)`); Backyard Rocket at `(30, 8)` defeated Turn 356 for **`TM28 (Dig)`**; corridor at **`x = 33`** leads south around Cerulean City to **Route 5**.
 
 ## Route 24 (Nugget Bridge, `x = 10..11`)
 - Enters from Cerulean `(20, 0)` at **Route 24 `(10, 35)`**.
@@ -38,5 +38,6 @@
   8. **Youngster Chad** at **`(32, 3)`** facing `Left` (`Ekans Lv 14, Sandshrew Lv 14` — Defeated Turn 336 from `(30, 3)`).
   9. **Jr. Trainer♀** at **`(37, 4)`** facing `Down` (`Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13` — Defeated Turn 339 at `(37, 6)`).
 - **Cuttable Bush (`TM19 Seismic Toss`)**: Located at **`(26, 3)`**.
-- **Bill's Sea Cottage**: Door at **`(45, 3)`** (courtyard at `(45, 6)`, wooden bridge south to southern return ledge at `x = 44..47, y = 8+`).
+- **Bill's Sea Cottage**: Door at **`(45, 3)`** (`(2, 7)` indoors; Clefairy-Bill wanders near `(6, 5)` — answer `YES` with `A` only, then operate PC at `(1, 5)` facing `Up`, then talk to Human Bill at `(4, 4)` for **`S.S. Ticket`**).
+- **Southern Return Bypass (Sea Cottage -> Cerulean)**: Exit `(45, 4) -> Down * 8` across wooden bridge to `(45, 12) -> Left * 51` along `y = 11` onto **Route 24 `(14, 11)`** -> straight `Down * 25` to **Cerulean City `(24, 12)`** (100% wild-free & trainer-free!).
 - **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).
