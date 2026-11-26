@@ -438,6 +438,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shiftry Lv 48 (#3): Sidney burned Full Restore! SAGE countered with Aerial Ace, dropping Shiftry back to red (~5% HP). Finishing with Aerial Ace!
     - Shiftry Lv 48: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
   - Cacturne Lv 46 (#4): Grass/Dark (weak to Flying). Clamping Up+Right to Slot 2 Aerial Ace to OHKO Cacturne!
+    - Cacturne Lv 46: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
+  - Crawdaunt Lv 48 (#5, Final): Water/Dark (2x weak to Grass). Declining switch, clamping Up+Left to Slot 1 Bullet Seed (STAB 2x Super Effective) to OHKO Crawdaunt and defeat Sidney!
 
 <hr>
 
