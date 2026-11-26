@@ -69,7 +69,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 3 Glacia: Ace Walrein Lv 53 DEFEATED by Bullet Seed! SAGE Lv 86 at 128/257 HP (253 Speed) facing Glalie Lv 50 (#4). Targeting with physical Facade (Slot 3) to bypass Light Screen!
+- Status: Room 3 Glacia: Turn 2 Bullet Seed hit Walrein down to ~5% HP; Walrein counter-attacked (SAGE survives with ~73 HP, Overgrow ACTIVE!). SAGE outspeeds with 253 Speed and finishes Walrein with Bullet Seed (Slot 1), advancing to Glalie Lv 50 (#4)!
 - Milestone Progress:
   - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned.
   - Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥5,100 earned.
