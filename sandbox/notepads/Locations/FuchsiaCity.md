@@ -10,6 +10,8 @@
 ## Fuchsia City Landmarks & `Cut` Shortcuts (Verified Turns 836–855)
 - **Fuchsia Poké Mart**: Door at **`(5, 13)`** (`sells Ultra Ball ¥1200, Great Ball ¥600, Super Potion ¥700, Revive ¥1500, Full Heal ¥600, Super Repel ¥500`).
   - Reachable via **`Cut` bush at `(18, 19)`** (`from (18, 20) -> Up -> (18, 14) -> Left * 13 -> (5, 14)`) or **`Cut` bush at `(26, 13)`**.
-- **Safari Zone Reception Gatehouse**: Door at **`(18, 3)`** (`from (18, 8)`, walk `Right * 4` to `(22, 8)`, chop **`Cut` bush at `(22, 7)`**, then `(22, 6) -> (18, 6) -> (18, 3)`; tollbooth at `(3, 2)` costs ¥500 for 500 steps).
+- **Safari Zone Reception Gatehouse**: Door at **`(18, 3)`** (`from (18, 8)`, walk `Right * 4` to `(22, 8)`, chop **`Cut` bush at `(22, 7)`**, then `(22, 6) -> (18, 6) -> (18, 3)`; tollbooth at `(3, 2)` costs ¥500 for 500 steps; note Safari Zone adds `500/500 / BALL×30` box and resets `Start` cursor to `POKéDEX`).
+  - **Center**: Spawns at `(15, 25)`; East gate to **Area 1** is at **`(29, 10..11)`** -> spawns at **`Area 1 (0, 22)`**.
+  - **Area 1 (East)**: Walk `(0, 22) -> (4, 24) -> Right * 23` along `y = 24`, climb stairs at `(24, 15)` onto the central plateau, and cross the narrow southern plateau bridge **`(21, 18) -> Left`** around the pond toward northern Area 1 / Area 2.
 - **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`**.
 - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`Fuchsia Gym` is west of it at `(5, 27)`).
