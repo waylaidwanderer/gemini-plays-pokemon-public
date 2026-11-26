@@ -24,9 +24,9 @@
 3. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 
 ## Inventory & Money
-- Money: ~¥1,700
+- Money: ~¥2,300
 - Key Items: Pokédex, Town Map
-- Bag: Potion x2, Antidote x1, Poké Ball x3, TM34 (Bide), TM12 (Water Gun — save for Nidoqueen!)
+- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, TM34 (Bide), TM12 (Water Gun — save for Nidoqueen!)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary

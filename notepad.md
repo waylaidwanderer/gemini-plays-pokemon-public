@@ -26,9 +26,9 @@
 3. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 
 ## Inventory & Money
-- Money: ~¥1,700
+- Money: ~¥2,300
 - Key Items: Pokédex, Town Map
-- Bag: Potion x2, Antidote x1, Poké Ball x3, TM34 (Bide), TM12 (Water Gun — save for Nidoqueen!)
+- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, TM34 (Bide), TM12 (Water Gun — save for Nidoqueen!)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -182,7 +182,12 @@
   - Signpost at `(15, 23)`; **Lass Iris** stands at **`(16, 23)`** facing `Down` (`Clefairy Lv 14`, defeated Turn 193).
   - Northward inner corridor at **`x = 20`** (`(20, 24) -> (20, 10)`).
   - **Ladder #2 (`(25, 15)`)**: Leads via B1F `(25, 15) -> (25, 27) -> (13, 27)` to B2F side pocket `(15, 27)` with Rocket Grunt #1 (`Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11`, defeated Turn 200) and raised-platform item ball at **`(25, 21)`** — Collected (Turn 202).
-  - **East Outer Corridor**: Reached via `(25, 12) -> (31, 12) -> (31, 11) -> (35, 11)`. Item balls along `x = 35..36`: **`(36, 23)`** and **`(35, 31)`** (`Rare Candy`).
+  - **East & North Outer Corridors**:
+    - Reached via `(25, 12) -> (31, 12) -> (31, 11) -> (35, 11)`.
+    - **`Escape Rope`**: Item ball at **`(36, 23)`** — Collected (Turn 207).
+    - **`Rare Candy`**: Item ball at **`(35, 31)`** — Collected (Turn 208).
+    - North wall runs clear along **`y = 2`** from `(35, 2)` past `(17, 2)`.
+  - **Ladder #1 (`(17, 11)`)**: Reached via `(17, 2) -> Down * 9 -> (17, 11)`; warps to B1F `(25, 9)`.
 
 
 <hr>
@@ -283,8 +288,12 @@ def name_buttons(word):
   - *(Verified Turns 162, 188: each party Poké Ball adds ~0.8s to the healing jingle, so fixed `B` counts can undershoot as party size grows; confirming `y > 3` proves Nurse Joy's dialogue has fully closed before opening `Start` or walking out.)*
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
   - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
-- **Multi-Round Battle Loop Faint Pitfall (Verified Turns 181–186)**:
-  - If the lead Pokémon faints during an automated `["A", "A", "B"*8]` battle loop, `"Use next POKéMON?"` opens the Party list where `A` automatically sends out Slot 1. If a different Pokémon appears in battle unexpectedly, open `Start -> POKéMON` immediately to check for `FNT`.
+- **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198)**:
+  - Cap automated battle loops in `mcp_game_run_code` at **3–4 rounds max (~40–55s)** so slow enemy moves/status text never approach the 120s script wall-clock timeout.
+  - If the lead Pokémon faints during an automated `["A", "A", "B"*8]` battle loop, `"Use next POKéMON?"` opens the Party list where `A` sends out Slot 1 (or repeats `"There's no will to fight!"` if cursor is on the fainted Pokémon).
+  - **Safe Switch-Training**: Always place the low-level trainee in Slot 0 *before* battle and switch *out* on Turn 1 (zero damage taken by trainee), rather than switching a frail trainee *in* mid-battle into an incoming attack.
+- **Ladder `back_d` Pitfall & `known_open_move` (Verified Turns 202–205)**:
+  - Never run a `back_d` wall-probe when standing 1 tile off a ladder warp (`back_d` steps right back onto the ladder and re-warps floors!). First step 2+ tiles clear of any ladder using `known_open_move` (which flees wild encounters in place without stepping backward).
 
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.

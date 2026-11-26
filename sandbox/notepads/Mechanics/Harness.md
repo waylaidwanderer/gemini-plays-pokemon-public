@@ -72,8 +72,12 @@ def name_buttons(word):
   - *(Verified Turns 162, 188: each party Poké Ball adds ~0.8s to the healing jingle, so fixed `B` counts can undershoot as party size grows; confirming `y > 3` proves Nurse Joy's dialogue has fully closed before opening `Start` or walking out.)*
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
   - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
-- **Multi-Round Battle Loop Faint Pitfall (Verified Turns 181–186)**:
-  - If the lead Pokémon faints during an automated `["A", "A", "B"*8]` battle loop, `"Use next POKéMON?"` opens the Party list where `A` automatically sends out Slot 1. If a different Pokémon appears in battle unexpectedly, open `Start -> POKéMON` immediately to check for `FNT`.
+- **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198)**:
+  - Cap automated battle loops in `mcp_game_run_code` at **3–4 rounds max (~40–55s)** so slow enemy moves/status text never approach the 120s script wall-clock timeout.
+  - If the lead Pokémon faints during an automated `["A", "A", "B"*8]` battle loop, `"Use next POKéMON?"` opens the Party list where `A` sends out Slot 1 (or repeats `"There's no will to fight!"` if cursor is on the fainted Pokémon).
+  - **Safe Switch-Training**: Always place the low-level trainee in Slot 0 *before* battle and switch *out* on Turn 1 (zero damage taken by trainee), rather than switching a frail trainee *in* mid-battle into an incoming attack.
+- **Ladder `back_d` Pitfall & `known_open_move` (Verified Turns 202–205)**:
+  - Never run a `back_d` wall-probe when standing 1 tile off a ladder warp (`back_d` steps right back onto the ladder and re-warps floors!). First step 2+ tiles clear of any ladder using `known_open_move` (which flees wild encounters in place without stepping backward).
 
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.

@@ -34,4 +34,9 @@
   - Signpost at `(15, 23)`; **Lass Iris** stands at **`(16, 23)`** facing `Down` (`Clefairy Lv 14`, defeated Turn 193).
   - Northward inner corridor at **`x = 20`** (`(20, 24) -> (20, 10)`).
   - **Ladder #2 (`(25, 15)`)**: Leads via B1F `(25, 15) -> (25, 27) -> (13, 27)` to B2F side pocket `(15, 27)` with Rocket Grunt #1 (`Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11`, defeated Turn 200) and raised-platform item ball at **`(25, 21)`** — Collected (Turn 202).
-  - **East Outer Corridor**: Reached via `(25, 12) -> (31, 12) -> (31, 11) -> (35, 11)`. Item balls along `x = 35..36`: **`(36, 23)`** and **`(35, 31)`** (`Rare Candy`).
+  - **East & North Outer Corridors**:
+    - Reached via `(25, 12) -> (31, 12) -> (31, 11) -> (35, 11)`.
+    - **`Escape Rope`**: Item ball at **`(36, 23)`** — Collected (Turn 207).
+    - **`Rare Candy`**: Item ball at **`(35, 31)`** — Collected (Turn 208).
+    - North wall runs clear along **`y = 2`** from `(35, 2)` past `(17, 2)`.
+  - **Ladder #1 (`(17, 11)`)**: Reached via `(17, 2) -> Down * 9 -> (17, 11)`; warps to B1F `(25, 9)`.
