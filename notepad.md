@@ -19,6 +19,7 @@
 
 ## Party
 - **RIPTIDE** (Squirtle) - Lv 8 (HP 25, Atk 14, Def 16, Spd 12, Spc 13; Tackle, Tail Whip, Bubble) — learned Bubble at Lv 8 on Route 1 (turn 82)
+- **KAISER** (Nidoran♂) - Lv 3 (caught on Route 22 with 1st Poké Ball at full HP, turn 97-100; future Nidoking)
 
 ## Badges
 - 0/8
