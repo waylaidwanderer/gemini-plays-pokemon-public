@@ -138,3 +138,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 2: Dusclops used Protect (succeeded); Bullet Seed blocked (down to 25/30 PP under Pressure). SAGE at 159/251 HP.
     - Turn 3: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to attack Dusclops #1!
     - Turn 3: SAGE struck first with Bullet Seed, dropping Dusclops #1 to ~70% HP! Advancing through Dusclops's counter-attack to Turn 4 battle menu.
+    - Dusclops Lv 48 (#1): DEFEATED by self-inflicted Curse damage! SAGE at 159/251 HP.
+  - Dusclops Lv 51 (#2): Pressure. Advancing through entrance text and Pressure to main battle menu.
