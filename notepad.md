@@ -439,7 +439,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 14 (Active)
 - Status: Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Dusclops #1, Dusclops #2, Banette #1, and Sableye swept; final Banette Lv 49 (#5) OHKO'd by Overgrow Bullet Seed (Slot 1)! ELITE FOUR PHOEBE DEFEATED (Attempt 14)! Prize: ¥5,100 (Total funds: ¥10,670). Door to Room 3 (Glacia) unlocked!
-- Status: Room 3 Glacia: Turn 1 Overgrow Bullet Seed dropped Ace Walrein to ~15-20% HP; Walrein counter-attacked with Ice Beam (KO'ing SAGE at 46 HP). Cursor on Cancel; pressing Up x5 to Row 1 Lilz Lv 30 (85/85 HP) and confirming Send Out. Next turn: Lilz uses Revive #1 on SAGE (+6 priority, restores 128/257 HP); Lilz absorbs Walrein's hit, granting SAGE a free switch-in to finish Walrein!
+- Status: Room 3 Glacia: Turn 1 Overgrow Bullet Seed hit Ace Walrein Lv 53 (Sitrus Berry healed to ~30% HP); Walrein's Ice Beam KO'd SAGE at 46 HP. Cipher Lv 17 deployed on battlefield. Opening Bag to select Revive #1 and open party targeting screen to revive SAGE Lv 86 (+6 priority)!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
@@ -5118,12 +5118,12 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 3 Glacia: Walrein in red (~15% HP). SAGE fainted to Ice Beam. Deploying Lilz Lv 30 (85/85 HP) to execute Sacrificial Revive on SAGE Lv 86. Bag: 5 Revives, 1 Full Heal, ¥10,670 cash.
+- Status: Attempt 14 Active! Room 3 Glacia: Walrein in red (~30% HP after Sitrus Berry). SAGE fainted to Ice Beam. Cipher Lv 17 on field. Opening Bag to execute Revive #1 on SAGE Lv 86 (+6 priority). Bag: 5 Revives, 1 Full Heal, ¥10,670 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 46/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 0/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (10/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: FAINTED (Sacrificial Revive in progress).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK (Active Battler).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
