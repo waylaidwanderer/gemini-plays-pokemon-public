@@ -441,6 +441,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 - Room 1 Cleared! Advancing through doorway at (6, 0) and Grand Staircase into Room 2 facing Phoebe at (6, 6).
   - Room 2 Phoebe: Challenging Phoebe at (6, 6) in Room 2. SAGE Lv 84 (159/251 HP, 247 Speed, 29 Bullet Seed PP, 15 Aerial Ace PP). Plan: Bullet Seed vs Dusclops #1 & #2, Aerial Ace vs Banette #1 to absorb Grudge, Bullet Seed vs Sableye & Banette #2!
+    - Battle transition started vs Phoebe! Advancing through intro and Pressure to main battle menu. SAGE at 159/251 HP.
 
 <hr>
 
