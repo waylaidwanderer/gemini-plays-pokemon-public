@@ -22,16 +22,16 @@
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
-## Active Party (Verified 100% HP at Turn 290)
-1. **AMETHYST** (Nidoran♀) — Lv. 11 (`33/33` HP) | Moves: Scratch, Growl, Tackle *(Switch-training to Lv. 14 -> 2x Rare Candy -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
-2. **NAUTILUS** (Wartortle) — Lv. 22 (`60/60` HP) | Moves: Water Gun, Mega Punch, Tackle, Bubble *(Learns Bite at Lv. 24)*
+## Active Party
+1. **AMETHYST** (Nidoran♀) — Lv. 14 | Moves: Scratch, Growl, Tackle, Poison Sting *(Ready for 2x Rare Candy -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
+2. **NAUTILUS** (Wartortle) — Lv. 24 | Moves: Water Gun, Mega Punch, Tackle, Bite *(Replacing Bubble at Lv. 24)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥5,500 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥6,500 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil
-- Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x2, Moon Stone x1, Nugget x1
+- Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x2, Moon Stone x1, Nugget x1, TM45 (Thunder Wave)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -70,6 +70,16 @@
   5. **Jr. Trainer♂ Shane** at **`(11, 19)`** facing `Left` (Defeated Turn 284).
   6. **Team Rocket Grunt (`Nugget`)** at **`(11, 15)`** (Awarded `Nugget` Turn 285; defeated Turn 289).
 - **Northern Plateau Item**: Climb wooden stairs at **`(6, 7)`** -> **`TM45 (Thunder Wave)`** item ball at **`(10, 5)`** (collected Turn 294); hop south ledge `(7..12, 7)` back down to `y = 8` and walk east (`(19, 8) -> Route 25 (0, 8)`).
+
+## Route 25 (West -> Sea Cottage)
+- Enters from Route 24 `(19, 8)` at **Route 25 `(0, 8)`**.
+- **Verified Trainer Positions (West Half)**:
+  1. **Hiker #1 (Franklin)** at **`(8, 4)`** facing `Down` (`Machop Lv 15, Geodude Lv 15` — Defeated Turn 297).
+  2. **Hiker #2 (Wayne)** at **`(13, 7)`** facing `Left` (`Onix Lv 17` — Defeated Turn 297 via `(9, 8) -> (9, 4) -> (13, 4) -> (13, 6)`).
+  3. **Youngster Joey** walked from `(14, 2)` to **`(14, 3)`** (`Rattata Lv 15, Spearow Lv 15` — Defeated Turn 299; walking him down 1 tile also opens the `(13, 2)` gap to `TM19 Seismic Toss`!).
+  4. **Youngster Dan** at **`(18, 5)`** (`Slowpoke Lv 17` — Defeated Turn 311 from `(17, 5)`).
+  5. **Lass Kelsey** at **`(18, 8)`** facing `Left` (`Nidoran♂ Lv 15, Nidoran♀ Lv 15` — Engaged at `(17, 8)` Turn 313).
+- **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).
 
 
 <hr>

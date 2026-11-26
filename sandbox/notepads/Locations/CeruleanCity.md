@@ -24,3 +24,13 @@
   5. **Jr. Trainer♂ Shane** at **`(11, 19)`** facing `Left` (Defeated Turn 284).
   6. **Team Rocket Grunt (`Nugget`)** at **`(11, 15)`** (Awarded `Nugget` Turn 285; defeated Turn 289).
 - **Northern Plateau Item**: Climb wooden stairs at **`(6, 7)`** -> **`TM45 (Thunder Wave)`** item ball at **`(10, 5)`** (collected Turn 294); hop south ledge `(7..12, 7)` back down to `y = 8` and walk east (`(19, 8) -> Route 25 (0, 8)`).
+
+## Route 25 (West -> Sea Cottage)
+- Enters from Route 24 `(19, 8)` at **Route 25 `(0, 8)`**.
+- **Verified Trainer Positions (West Half)**:
+  1. **Hiker #1 (Franklin)** at **`(8, 4)`** facing `Down` (`Machop Lv 15, Geodude Lv 15` — Defeated Turn 297).
+  2. **Hiker #2 (Wayne)** at **`(13, 7)`** facing `Left` (`Onix Lv 17` — Defeated Turn 297 via `(9, 8) -> (9, 4) -> (13, 4) -> (13, 6)`).
+  3. **Youngster Joey** walked from `(14, 2)` to **`(14, 3)`** (`Rattata Lv 15, Spearow Lv 15` — Defeated Turn 299; walking him down 1 tile also opens the `(13, 2)` gap to `TM19 Seismic Toss`!).
+  4. **Youngster Dan** at **`(18, 5)`** (`Slowpoke Lv 17` — Defeated Turn 311 from `(17, 5)`).
+  5. **Lass Kelsey** at **`(18, 8)`** facing `Left` (`Nidoran♂ Lv 15, Nidoran♀ Lv 15` — Engaged at `(17, 8)` Turn 313).
+- **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).

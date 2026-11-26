@@ -20,16 +20,16 @@
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
-## Active Party (Verified 100% HP at Turn 290)
-1. **AMETHYST** (Nidoran♀) — Lv. 11 (`33/33` HP) | Moves: Scratch, Growl, Tackle *(Switch-training to Lv. 14 -> 2x Rare Candy -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
-2. **NAUTILUS** (Wartortle) — Lv. 22 (`60/60` HP) | Moves: Water Gun, Mega Punch, Tackle, Bubble *(Learns Bite at Lv. 24)*
+## Active Party
+1. **AMETHYST** (Nidoran♀) — Lv. 14 | Moves: Scratch, Growl, Tackle, Poison Sting *(Ready for 2x Rare Candy -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
+2. **NAUTILUS** (Wartortle) — Lv. 24 | Moves: Water Gun, Mega Punch, Tackle, Bite *(Replacing Bubble at Lv. 24)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥5,500 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥6,500 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil
-- Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x2, Moon Stone x1, Nugget x1
+- Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x2, Moon Stone x1, Nugget x1, TM45 (Thunder Wave)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
