@@ -459,6 +459,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sacrificial Revive Protocol Step 2: Lilz on field (85/85 HP) facing Dusclops Lv 51 in red (~8% HP). Opening Bag from FIGHT -> BAG to locate Revive and execute +6 priority Revive on SAGE!
     - Sacrificial Revive Protocol Step 2: Cursor on Full Heal. Moved Down to Revive (Row 4), selected USE, navigated Right then Down to SAGE, confirmed Revive! SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbing Dusclops attack!
 
+    - Sacrificial Revive Protocol Step 2 (Corrected): Cursor on BAG. Opening Bag, moving Down to Revive (Row 4), confirming USE, pressing Right to target SAGE (Row 1), and confirming Revive! SAGE restored to 125/251 HP with +6 priority! Lilz absorbing Dusclops's attack!
+
 
 <hr>
 
@@ -5184,7 +5186,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
 - Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- In-Battle Party Targeting Grid (Cipher Active): When Cipher (Slot 3) is active in the left box, Row 1 of the right column is Lilz (Slot 2) and Row 2 is SAGE (Slot 1). To target SAGE when Slot 3 is active, press Right then Down.
-- In-Battle Party Targeting Grid (Lilz Active): When Lilz (Slot 2) is active in the left box, Row 1 of the right column is CIPHER (Slot 3) and Row 2 is SAGE (Slot 1). To target SAGE when Lilz is active, press Right then Down.
+- In-Battle Party Targeting Grid (Lilz Active): Verified via Turn 26691 filmstrip that when Lilz (Slot 2) is active in the left box, Row 1 of the right column is SAGE (Slot 1), and Row 2 is CIPHER (Slot 3). To target SAGE when Lilz is active, simply press Right!
 - Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
 - Drake Send-Out Order in Emerald: Drake sends out Shelgon Lv 52 (#1), Flygon Lv 53 (#2), Altaria Lv 54 (#3), Ace Salamence Lv 55 (#4), and Kingdra Lv 53 (#5).
 - Aerial Ace Sand-Attack Bypass: Aerial Ace ignores accuracy and evasion modifiers, guaranteeing a 100% hit rate against Sand-Attack users (such as Sidney's Mightyena).
