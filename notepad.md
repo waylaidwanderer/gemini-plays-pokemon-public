@@ -31,9 +31,9 @@
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥15,500 (+ `Nugget` worth ¥5,000!)
+- Money: ¥12,200 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bike Voucher, HM01 (Cut)
-- Bag: Poké Ball x2, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher, Max Ether x1, HM01 (Cut)
+- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
