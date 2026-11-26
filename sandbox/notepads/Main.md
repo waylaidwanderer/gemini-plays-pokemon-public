@@ -29,7 +29,7 @@
 ## Inventory & Money
 - Money: ~¥4,200
 - Key Items: Pokédex, Town Map, Helix Fossil
-- Bag: Potion x1, Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x1, Moon Stone x1
+- Bag: Potion x1, Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x2, Moon Stone x1
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary

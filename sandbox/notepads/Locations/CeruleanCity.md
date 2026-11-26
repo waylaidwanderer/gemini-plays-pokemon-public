@@ -8,7 +8,7 @@
 - **North Exit (to Route 24 / Nugget Bridge)**: Walk east along `y = 12` to `(20, 12)`, then `Up` along `x = 20` (`(20, 0)` transitions to **Route 24 `(10, 35)`**). Rival `GARNET` ambushes at `(20, 6)` (defeated Turn 257).
 
 ## Key Cerulean City Buildings
-- **Badge Guy House (Backyard Rare Candy)**: Front door at **`(9, 11)`**; leads out north back door to fenced garden with hidden `Rare Candy`.
+- **Badge Guy House (Backyard Rare Candy)**: Front door at **`(9, 11)`** (`(2, 7)` indoors); north back door exits to `(9, 9)` in fenced backyard where hidden **`Rare Candy`** is at **`(15, 8)`** (collected Turn 275 facing `Right` from `(14, 8)`).
 - **Trade House (`Jynx` for Poliwhirl)**: Door at `(13, 15)`.
 - **Cerulean Pokémon Center**: Door at **`(19, 17)`** (warps indoors to `(3, 7)`; Nurse Joy counter at `(3, 3)` facing `Up`). Note: `POKé` sign sits at `(20, 17)`.
 - **Cerulean Gym (Misty)**: Located SE of Pokémon Center (`x = 24..27`, roof at `y = 16..18`).
