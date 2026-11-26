@@ -14,7 +14,7 @@
 - [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
 - [x] Cerulean Rival `GARNET` Defeated (Turn 257)
 - [x] `S.S. Ticket` Obtained from Bill (Sea Cottage, Turn 343)
-- [ ] Cascade Badge — Misty (Cerulean City)
+- [x] Cascade Badge — Misty (Cerulean City, Turn 351)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
 - [ ] Soul Badge — Koga (Fuchsia City)
@@ -58,7 +58,7 @@
 - **Badge Guy House (Backyard Rare Candy)**: Front door at **`(9, 11)`** (`(2, 7)` indoors); north back door exits to `(9, 9)` in fenced backyard where hidden **`Rare Candy`** is at **`(15, 8)`** (collected Turn 275 facing `Right` from `(14, 8)`).
 - **Trade House (`Jynx` for Poliwhirl)**: Door at `(13, 15)`.
 - **Cerulean Pokémon Center**: Door at **`(19, 17)`** (warps indoors to `(3, 7)`; Nurse Joy counter at `(3, 3)` facing `Up`). Note: `POKé` sign sits at `(20, 17)`.
-- **Cerulean Gym (Misty)**: Located SE of Pokémon Center (`x = 24..27`, roof at `y = 16..18`).
+- **Cerulean Gym (Misty)**: Door at **`(30, 19)`** (warps indoors to `(4, 13)`; Swimmer Luis spots at `(5, 7)`, Jr. Trainer♀ Diana spots at `(5, 3)`, **Gym Leader Misty** at **`(4, 2)`** — Defeated Turn 351 for **Cascade Badge** + `TM11 BubbleBeam`).
 - **Burgled House (`TM28 Dig` Rocket)**: NE Cerulean `(27, 11)` (opens after visiting Bill on Route 25).
 
 ## Route 24 (Nugget Bridge, `x = 10..11`)

@@ -12,7 +12,7 @@
 - [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
 - [x] Cerulean Rival `GARNET` Defeated (Turn 257)
 - [x] `S.S. Ticket` Obtained from Bill (Sea Cottage, Turn 343)
-- [ ] Cascade Badge — Misty (Cerulean City)
+- [x] Cascade Badge — Misty (Cerulean City, Turn 351)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
 - [ ] Soul Badge — Koga (Fuchsia City)
