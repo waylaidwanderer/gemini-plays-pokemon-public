@@ -18,12 +18,14 @@
 - Poké Mart BUY flow: `A` (open qty `x01`) -> `Up`*(N-1) -> `A` (`"That will be ▼"`) -> `A` (`"¥XXXX. OK?" YES/NO`) -> `A` (confirm `YES` -> `"Here you are! Thank you! ▼"`) -> `B` (returns to BUY item list with cursor **reset to Slot 1**!) (verified turns 86 & 188 filmstrips).
 - Battle Shift prompt: `"<TRAINER> is about to use <PKMN>!"` splits across two `▼` presses before `"Will NEON change POKéMON?"` YES/NO (verified turn 178 filmstrip).
 - Pewter City navigation: Pewter Gym (`(16,17)`) is bounded south by a `y=21` tree wall (`x=4..17`) and east fence (`x=18, y=18..21`); travel north of the Gym (`x=10, y=13 -> x=19, y=13`) and down the main east avenue `x=19` to reach Pewter Pokémon Center (`(13,25)`) and Poké Mart (`(23,17)`) (verified turn 186).
-- Battle `PKMN` switch cursor persists on the last switched-in slot, so swapping back to slot 1 after switch-training slot 2 requires `Up` before `A` (verified turn 122-123).
+- Battle `PKMN` and SHIFT (`"Bring out which POKéMON?"`) switch cursors both persist on the last switched-in slot within a battle (verified turns 122–123 & 198). Use `Left, Up` / `Right, Up` to reliably select `FIGHT` / `PKMN` regardless of previous Battle Menu cursor.
+- Overworld Bag healing: after `A` heals a Pokémon (`"...recovered by 20!"`), 4 `B` presses exit cleanly (dismiss message -> close Party -> close Bag -> close Start Menu) (verified turn 208 filmstrip). Start Menu cursor resets to `POKéDEX` after battles/map transitions (verified turn 206).
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **RIPTIDE** (Squirtle) - Lv 13 (30/35 HP; Atk 20, Def 23, Spd 16, Spc 18; Tackle, Tail Whip, Bubble) — swept Brock's Geodude & Onix (turn 180)
-- **KAISER** (Nidoran♂) - Lv 3 (16/16 HP; Leer, Tackle; caught Route 22, switch-trained vs Bug Catcher #1 Caterpie, turn 125; evolve to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
+- **KAISER** (Nidoran♂, Lead/Slot 1) - Lv 7 (25/25 HP; Leer, Tackle; learns Horn Attack at Lv 8; evolve to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
+- **RIPTIDE** (Squirtle, Slot 2) - Lv 13 (34/35 HP; Atk 20, Def 23, Spd 16, Spc 18; Tackle, Tail Whip, Bubble) — swept Brock (turn 180)
+- **Bag:** Poké Ball x9, TM34 (Bide), Potion x4, Antidote x3 | **Cash:** ~¥348 (after Colton)
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
