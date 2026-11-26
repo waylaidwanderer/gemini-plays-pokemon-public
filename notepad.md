@@ -60,10 +60,15 @@
 - **Cerulean Gym (Misty)**: Located SE of Pokémon Center (`x = 24..27`, roof at `y = 16..18`).
 - **Burgled House (`TM28 Dig` Rocket)**: NE Cerulean `(27, 11)` (opens after visiting Bill on Route 25).
 
-## Route 24 (Nugget Bridge, `x = 10`)
+## Route 24 (Nugget Bridge, `x = 10..11`)
 - Enters from Cerulean `(20, 0)` at **Route 24 `(10, 35)`**.
-- **Trainer #1 — Bug Catcher Cale** at `(10, 31)`: `Caterpie Lv 14, Weedle Lv 14` (Defeated Turn 263).
-- Remaining 4 bridge trainers + Rocket Grunt (`Nugget`) stand directly north along `x = 10` (`y = 28, 25, 22, 19, 15`).
+- Alternating trainer column positions (defeated trainers remain standing on their tile, so zigzag `x = 10 <-> 11`):
+  1. **Bug Catcher Cale** at **`(11, 31)`** facing `Left` (Defeated Turn 263).
+  2. **Lass Ali** at **`(10, 28)`** facing `Right` (Defeated Turn 279).
+  3. **Youngster Timmy** at **`(11, 25)`** facing `Left` (Defeated Turn 282).
+  4. **Lass Reli** at **`(10, 22)`** facing `Right` (Defeated Turn 284).
+  5. **Jr. Trainer♂ Shane** at **`(11, 19)`** facing `Left` (Defeated Turn 284).
+  6. **Team Rocket Grunt (`Nugget`)** at **`(11, 15)`** (Awarded `Nugget` Turn 285; `Ekans Lv 15, Zubat Lv 15`).
 
 
 <hr>
