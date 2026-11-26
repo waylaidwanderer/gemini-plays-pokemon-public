@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Preparing. Respawned outside League (18, 6). Entering lobby to sell Ultra Ball and buy 2 Revives at Mart before launching Attempt 13!
+- Status: Attempt 13 Ready! 4 Revives purchased (¥1,041 remaining). SAGE Lv 84 (251/251 HP, all PP full). Bag: 4 Revives, 1 Full Heal. Advancing to central gate (9, 1) to challenge Sidney in Room 1!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 251/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
