@@ -28,7 +28,7 @@
 ## Inventory & Money
 - Money: ~¥2,300
 - Key Items: Pokédex, Town Map
-- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, TM34 (Bide), TM12 (Water Gun — save for Nidoqueen!)
+- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, HP Up x1, TM34 (Bide), TM12 (Water Gun), TM01 (Mega Punch)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -187,7 +187,7 @@
     - **`Escape Rope`**: Item ball at **`(36, 23)`** — Collected (Turn 207).
     - **`Rare Candy`**: Item ball at **`(35, 31)`** — Collected (Turn 208).
     - North wall runs clear along **`y = 2`** from `(35, 2)` past `(17, 2)`.
-  - **Ladder #1 (`(17, 11)`)**: Reached via `(17, 2) -> Down * 9 -> (17, 11)`; warps to B1F `(25, 9)`.
+  - **Ladder #1 (`(17, 11)`)**: Reached via `(17, 2) -> Down * 9 -> (17, 11)`; warps to B1F `(25, 9) -> (17, 11)` -> B2F pocket `(25, 9)` with Rocket Grunt #2 at `(29, 11)` facing `Up` (`Zubat Lv 12, Ekans Lv 12`, defeated Turn 214) and **`TM01 (Mega Punch)`** at **`(29, 5)`** — Collected (Turn 214).
 
 
 <hr>
