@@ -42,4 +42,10 @@
   - `(2, 4)` = stairs to 1F; Sailor NPC at `(3, 8)`; `(2, 11)` = stairs to 3F Bow `(19, 3)`. Use **`x = 3`** (`(3, 9) <-> (3, 12)`) to avoid `(2, 11)` and `(3, 8)`.
   - **`(13, 11)` (2F Room #2 from left)**: Fisher Dale (`Goldeen Lv 17, Tentacool Lv 17, Goldeen Lv 17`), Gentleman Brooks (`Pikachu Lv 23`), and **`Max Ether`** at `(12, 1)` (collected Turn 426).
   - **East 2F Corridor (`x = 36..37`)**: **Rival `GARNET`** ambushes at `(37, 8)` (`Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20` — defeated Turn 432).
-  - **Captain's Quarters (`(36, 4)` stairs)**: Enters at `(0, 7)` -> walk `(0, 7) -> (4, 7) -> (4, 3)` facing `Up` at Captain -> rub back for **`HM01 (Cut)`** (obtained Turn 434).
+  - **Captain's Quarters (`(36, 4)` stairs)**: Enters at `(0, 7)` -> walk `(0, 7) -> (4, 7) -> (4, 3)` facing `Up` at Captain -> rub back for **`HM01 (Cut)`** (obtained Turn 434; exiting `2F (2, 4)` spawns at `1F (2, 6)` -> `(26, 0)` -> Vermilion Dock departure cutscene -> Harbor `(18, 28)`).
+
+## Vermilion Gym (`(12, 19)`, Verified Turns 438–440)
+- **Access**: Chop the `Cut` bush at **`(15, 18)`** from `(15, 17)` using `AMBER`'s `CUT`, then walk `(15, 17) -> (15, 20) -> (12, 20) -> Up` into `(12, 19)` (spawns indoors at `(4, 17)`).
+- **5x3 Trash-Can Grid**:
+  - Columns: **`x in {1, 3, 5, 7, 9}`** | Rows: **`y in {7, 9, 11}`**.
+  - Open horizontal aisles at `y = 12` and `y = 10` allow checking all 10 cans in rows `y = 11` and `y = 9` without trainer aggro; Rocker Luca stands at `(3, 8)` facing `Left`.
