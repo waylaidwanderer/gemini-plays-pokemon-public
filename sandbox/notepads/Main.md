@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! SAGE fainted from burn after KO'ing Flygon. Altaria Lv 54 on field. Deploying anchor for Sacrificial Revive on SAGE. Bag: 1 Revive, 1 Full Heal, 2 conscious anchors.
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Deploying anchor onto battlefield facing Altaria Lv 54 (#3). Next turn: Sacrificial Revive on SAGE Lv 85. Bag: 1 Revive, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
