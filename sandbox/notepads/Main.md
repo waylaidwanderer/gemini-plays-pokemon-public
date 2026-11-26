@@ -8,7 +8,7 @@
 
 ## Badges & Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
-- [ ] Boulder Badge — Brock (Pewter City)
+- [x] Boulder Badge — Brock (Pewter City)
 - [ ] Cascade Badge — Misty (Cerulean City)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
@@ -19,13 +19,13 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Squirtle) — Lv. 10 | Moves: Tackle, Tail Whip, Bubble (Full HP & PP)
-2. **AMETHYST** (Nidoran♀) — Lv. 4 | Moves: Growl, Tackle (Full HP & PP)
+1. **NAUTILUS** (Squirtle) — Lv. 13 | Moves: Bubble, Tail Whip, Tackle
+2. **AMETHYST** (Nidoran♀) — Lv. 4 | Moves: Growl, Tackle
 
 ## Inventory & Money
-- Money: ~¥1,425
+- Money: ~¥3,031
 - Key Items: Pokédex, Town Map
-- Bag: Antidote x2, Poké Ball x2
+- Bag: Antidote x2, Poké Ball x2, TM34 (Bide)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
