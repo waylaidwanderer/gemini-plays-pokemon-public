@@ -23,11 +23,12 @@
 ## Active Party
 1. **NAUTILUS** (Wartortle) — Lv. 17 | Moves: Water Gun, Tail Whip, Tackle, Bubble
 2. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
+3. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
 
 ## Inventory & Money
 - Money: ~¥1,700
 - Key Items: Pokédex, Town Map
-- Bag: Potion x1, Antidote x1, Poké Ball x7, TM34 (Bide)
+- Bag: Potion x1, Antidote x1, Poké Ball x3, TM34 (Bide)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
