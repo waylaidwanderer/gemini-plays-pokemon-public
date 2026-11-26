@@ -474,6 +474,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 12: Overgrow Bullet Seed finished Dusclops Lv 51! Dusclops Lv 51 fainted! Both Pressure users are DEFEATED! SAGE gained 1956 EXP. SAGE at 26/251 HP, Overgrow ACTIVE. Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP.
   - Phoebe Pokémon #3: Banette Lv 49! Plan: Execute Aerial Ace (Slot 2) to OHKO Banette and absorb Grudge safely onto Aerial Ace, protecting Bullet Seed!
     - Turn 13: Cursor on FIGHT. Clamping Up+Right to Slot 2 Aerial Ace (3 PP). Executing Aerial Ace to OHKO Banette Lv 49 (#3) and absorb Grudge! Bullet Seed (13 PP) protected!
+    - Turn 13: SAGE struck first with Aerial Ace, dropping Banette to ~15% HP! Banette used Shadow Ball, KO'ing SAGE. Aerial Ace at 2/20 PP, Bullet Seed at 13/30 PP (100% protected!).
+  - Sacrificial Revive Protocol Step 1: Sending out Anchor #1 Lilz (Lombre Lv 30, Slot 2) to prepare +6 priority Revive on SAGE!
 
 <hr>
 
