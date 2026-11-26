@@ -117,10 +117,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Preparing)
-- Status: Arrived at League lobby (9, 11). Walking to Mart counter at (16, 4) to sell Ultra Ball and purchase Revives before Room 1!
+- Status: At Mart counter (16, 4). Ultra Ball sold (+¥600, total funds ¥7,041).
+- Goal: Purchase 4 Revives (Row 6, ¥1,500 each = ¥6,000, leaving ¥1,041).
 - Party: SAGE Lv 84 (251/251 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
-- Cash: ¥2,691. Plan: Sell 1 Ultra Ball (+¥600, total ¥3,291), buy 2 Revives (Row 6, ¥1,500 each = ¥3,000, leaving ¥291). Verified Revive inventory!
-- Turn 28: Spoke to Mart clerk at (16, 4). Selecting SELL to sell 1 Ultra Ball (+¥600, total ¥3,291) to afford 2 Revives.
-- Turn 29: In Sell Bag, switching to Poké Balls pocket (Right x2), confirming Ultra Ball sale (+¥600, total ¥3,291), and returning to Mart menu.
-- Turn 30: Ultra Ball sold for ¥600! Total cash: ¥7,041. Selecting BUY, navigating Down x5 to Row 6 (REVIVE) to purchase 4 Revives (¥6,000).
-- Turn 31: Canceled Ultra Ball selector, navigated to Row 6 Revive, purchased 4 Revives for ¥6,000 (Money: ¥1,041). Exited Mart. Verified 4 Revives ready for Attempt 13!
