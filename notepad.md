@@ -82,7 +82,9 @@
   6. **Hiker Nob** at **`(23, 9)`** facing `Up` (`Geodude x3, Machop Lv 13` — Defeated Turn 323).
   7. **Jr. Trainer♂ Flint** at **`(24, 4)`** facing `Down` (`Rattata Lv 14, Ekans Lv 14` — Defeated Turn 333).
   8. **Youngster Chad** at **`(32, 3)`** facing `Left` (`Ekans Lv 14, Sandshrew Lv 14` — Defeated Turn 336 from `(30, 3)`).
+  9. **Jr. Trainer♀** at **`(37, 4)`** facing `Down` (`Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13` — Defeated Turn 339 at `(37, 6)`).
 - **Cuttable Bush (`TM19 Seismic Toss`)**: Located at **`(26, 3)`**.
+- **Bill's Sea Cottage**: Door at **`(45, 3)`** (courtyard at `(45, 6)`, wooden bridge south to southern return ledge at `x = 44..47, y = 8+`).
 - **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).
 
 
