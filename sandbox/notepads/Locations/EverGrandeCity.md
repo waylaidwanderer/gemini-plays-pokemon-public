@@ -131,4 +131,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: Room 1 Sidney DEFEATED (5-0 clean sweep)! Prize: ¥4,900 (Total cash: ¥5,570). Door to Room 2 (Phoebe) unlocked!
 - Party: SAGE Lv 86 (Lead, 130/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
-- Status: Room 2 Phoebe battle underway! SAGE Lv 86 (130/257 HP, 253 Spe) sent out against lead Dusclops Lv 48. Advancing send-out and Pressure text to battle menu to strike with STAB Bullet Seed (Slot 1)!
+- Status: Room 2 Phoebe: Facing lead Dusclops Lv 48. SAGE Lv 86 at 130/257 HP (253 Speed) outspeeds cleanly. Clamping to Slot 1 Bullet Seed (Up, Left) for STAB damage; preserving Aerial Ace for Banette #1 Grudge absorption!
