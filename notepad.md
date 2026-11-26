@@ -39,7 +39,7 @@
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
 - **DOZER** (Snorlax, Slot 5) - Lv 30 (~142 HP; **Headbutt**, **Amnesia**, **Rest**) — caught on Route 16 turn 1147
-- **Bag:** **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x1**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1**, **Great Ball x3**, **Revive x1**, **Super Repel x4**, **TM21 (Mega Drain)**, **HM02 (Fly)**, **Lift Key**, **Silph Scope**, **Rare Candy x1**, **Poké Flute** (16/20 slots!) | **Cash:** ¥20,000+ | **Respawn:** Celadon City Center `(41,9)`
+- **Bag:** **Super Potion x1**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1**, **Great Ball x3**, **Revive x1**, **Super Repel x4**, **HM02 (Fly)**, **Rare Candy x1**, **Poké Flute** (11/20 slots! Stored in PC: TM45, S.S. Ticket, TM21, Lift Key, Silph Scope, TM34, Helix Fossil, Antidote x3) | **Cash:** ¥22,000+ | **Respawn:** Fuchsia City Center `(19,27)` (south courtyard reached via west grass `(1,21)->(1,32)->(8,31)` gap; Gym at `(5,27)`, Warden's House at `(27,27)`, Safari Zone north via `x=22..23`)
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
