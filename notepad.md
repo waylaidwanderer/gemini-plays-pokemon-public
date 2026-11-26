@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 2 Phoebe: Dusclops #1 and Dusclops #2 DEFEATED by Bullet Seed! Both Pressure users down. SAGE Lv 86 at ~74/257 HP with Overgrow ACTIVE. Phoebe sending in Banette Lv 49 (#3, Grudge user). Protocol: KO Banette with Aerial Ace (Slot 2) to absorb Grudge and protect Bullet Seed!
+- Status: Room 2 Phoebe: Dusclops #1 and Dusclops #2 DEFEATED by Bullet Seed! Both Pressure users down. SAGE Lv 86 at 81/257 HP with Overgrow 100% ACTIVE. Phoebe sending in Banette Lv 49 (#3, Grudge user). Protocol: KO Banette with Aerial Ace (Slot 2) to absorb Grudge and protect Bullet Seed!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
@@ -5120,7 +5120,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 14 Active! Room 2 Phoebe: Lead Dusclops down! SAGE Lv 86 (109/257 HP, 253 Spe) striking Dusclops Lv 51 (#2) with STAB Bullet Seed (Slot 1). Bag: 5 Revives, 1 Full Heal, ¥5,570 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 74/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (15/30), Aerial Ace (16/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 81/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (13/30), Aerial Ace (16/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
