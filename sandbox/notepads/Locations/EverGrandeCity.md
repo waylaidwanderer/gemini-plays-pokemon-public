@@ -152,3 +152,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Sacrificial Revive Protocol Step 2 (Corrected): Cursor on BAG. Opening Bag, moving Down to Revive (Row 4), confirming USE, pressing Right to target SAGE (Row 1), and confirming Revive! SAGE restored to 125/251 HP with +6 priority! Lilz absorbing Dusclops's attack!
 
     - Sacrificial Revive Protocol Step 2 Executed: Dynamic Bag detection selected Revive (Row 4), USE, targeted SAGE (Row 1 via Right), confirmed Revive! SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbing Dusclops attack!
+
+    - Sacrificial Revive Protocol Complete: SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbed Shadow Ball and fainted. SAGE switched in free!
+    - SAGE struck first with Bullet Seed, KO'ing Dusclops Lv 51! Both Pressure users are DEFEATED! Phoebe sending out Banette #1 (Grudge user).

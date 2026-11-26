@@ -463,6 +463,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
     - Sacrificial Revive Protocol Step 2 Executed: Dynamic Bag detection selected Revive (Row 4), USE, targeted SAGE (Row 1 via Right), confirmed Revive! SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbing Dusclops attack!
 
+    - Sacrificial Revive Protocol Complete: SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbed Shadow Ball and fainted. SAGE switched in free!
+    - SAGE struck first with Bullet Seed, KO'ing Dusclops Lv 51! Both Pressure users are DEFEATED! Phoebe sending out Banette #1 (Grudge user).
+
 
 <hr>
 
@@ -5133,11 +5136,11 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1 DEFEATED. Dusclops #2 at red (~8% HP). Sacrificial Revive executed! SAGE restored to 125/251 HP (Curse wiped). 3 Revives in Bag.
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1 & #2 DEFEATED! SAGE active at 125/251 HP (no Curse). 3 Revives in Bag. Facing Banette #1!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (19/20), Quick Attack (30/30). Status: OK.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
