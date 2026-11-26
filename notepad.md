@@ -278,8 +278,13 @@
   4. Climb wooden stairs #1 at **`(29, 13)`** (`(29, 14) -> Up * 2 -> (29, 12)`), walk `Right * 12` along `y = 12` to **`(41, 12)`**, and climb wooden stairs #2 at **`(41, 11)`** (`(41, 12) -> Up * 4 -> (41, 8)`):
      - **Bug Catcher Brent** at `(40, 8)` facing `Right` (`Beedrill Lv 19 x2, Venonat Lv 20`, defeated Turn 482). *(Do NOT hop south ledge `(46, 11)`!)*
   5. Climb wooden stairs #3 at **`(39, 5)`** (`(41, 7) -> (41, 6) -> (39, 6) -> Up * 3 -> (39, 3)`):
-     - **Hiker Alan** at `(43, 3)` facing `Left` (`Geodude Lv 21, Onix Lv 21`, engaged at `(40, 3)` Turn 482).
-     - Continue east along `y = 2..4` onto **Route 10**.
+     - **Hiker Alan** at `(43, 3)` facing `Left` (`Geodude Lv 20, Machop Lv 20, Geodude Lv 20`, defeated Turn 485).
+     - Bypass rock mound via `y = 3` (`(45, 4) -> (45, 3) -> (51, 3)`), hop **`(51, 6)`** south ledge onto **`(51, 8)`** middle paved road *(do NOT hop `(51, 13)`!)*, and walk `Right` onto **Route 10 `(0, 8)`** (Turn 487).
+
+## Route 10 North & Rock Tunnel Entrance (Verified Turn 487)
+- Enters from `Route 9 (59, 8)` at **`Route 10 (0, 8)`**.
+- Walk `(0, 8) -> (5, 8) -> (5, 13) -> (9, 13) -> (9, 20) -> (11, 20)` (`x = 9` is the narrow 1-tile lane between the `x = 8` cliff and the `x = 10..13` Pokémon Center!).
+- **Route 10 Pokémon Center**: Door at **`(11, 19)`** | **Rock Tunnel North Entrance**: **`(8, 17)`**.
 
 
 <hr>
