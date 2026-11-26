@@ -177,10 +177,11 @@
 - **Safari Zone Reception Gatehouse**: Door at **`(18, 3)`** (`from (18, 8)`, walk `Right * 4` to `(22, 8)`, chop **`Cut` bush at `(22, 7)`**, then `(22, 6) -> (18, 6) -> (18, 3)`; tollbooth at `(3, 2)` costs ¥500 for 500 steps; note Safari Zone adds `500/500 / BALL×30` box and resets `Start` cursor to `POKéDEX`).
   - **Center**: Spawns at `(15, 25)`; East gate to **Area 1** is at **`(29, 10..11)`** -> spawns at **`Area 1 (0, 22)`**.
   - **Area 1 (East, Verified Turns 868–882 — 69-Step Express!)**: From `(0, 22)`, bypass `(6..7, 22..23)` stumps via `(4, 22) -> (4, 24) -> (8, 24)`, walk `Up * 16` straight up `x = 8` to `(8, 8)`, `Right * 4` to `(12, 8)`, bridge over the `(14..15, 8..9)` tree via **`(12, 8) -> Up * 2 -> Right * 5 -> Down * 2 -> (17, 8)`**, then **`Right * 3 -> (20, 8) -> Up * 5 -> (20, 3) -> Left * 12 -> (8, 3) -> Down * 2 -> (8, 5) -> Left * 8 -> (0, 5)`** -> warps to **`Area 2 (39, 31)`**! *(Optional `Max Potion` at `Area 1 (3, 7)`.)*
-  - **Area 2 (North, Verified Turns 872–877 — 98-Step Express!)**: From `(39, 31)`, walk `Left * 17` -> `(22, 31)` -> `Up * 9` (climbs `(22, 23)` stairs) -> `(22, 22)` -> `Left * 6` -> `(16, 22)` -> `Down * 8` (descends `(16, 27)` stairs) -> `(16, 30)` -> `Left * 3` -> `(13, 30)` -> `Up * 13` -> `(13, 17)` -> `Left * 7` -> `(6, 17)` -> `Down * 6` -> `(6, 23)` -> `Left * 4` -> `(2, 23)` -> `Down * 13` -> **`(2, 35)`** -> warps to **`Area 3 (26, 0)`**!
-  - **Area 3 (West, Verified Turns 878–880)**: From `(26, 0)`, walk `Down * 2, Left, Down * 12` -> `(25, 14)` -> `Left, Down * 5` -> `(24, 19)` -> `Left * 3` -> `(21, 19)` (`Max Revive` at `(18, 18)`!) -> `Up * 3` onto `(21, 16)` plateau:
-    - Northern arm at **`(15..16, 16) -> Up`** leads to **`GOLD TEETH`** (`(19, 7)` area).
-    - Western end **`(5, 16) -> Right -> Down * 4`** (descends `(6, 19)` stairs) -> `Left * 3 -> Up` leads to the **Secret House (`HM03 Surf`)**!
+  - **Area 2 (North, Verified Turns 888–900 — TWO South Gates to Area 3!)**:
+    - **CRITICAL**: Gate `(8..9, 35)` warps to `Area 3 (26, 0)` *(outer ring — `Max Revive` at `(18, 18)` only, fenced off from Secret House!)*, whereas **Gate `(2..3, 35)`** warps to **`Area 3 (20..21, 0)`** *(directly inside the `Gold Teeth` `(19, 7)` + Secret House `(3, 3)` courtyard!)*.
+    - **Route to `(2..3, 35)`**: From `Area 2 (39, 31)`, walk `Left * 11 -> (28, 31) -> Up * 5` (climbs `(28, 27)` plateau) `-> Right * 10 -> (38, 26) -> Up * 14 -> (38, 12) -> Left * 4 -> (34, 12) -> Down * 4` (descends `(34, 15)` stairs) `-> Left * 14` past `(22..31, 11)` stumps `-> north to y=3 -> west to x=3 -> south down x=3 to (3, 35)`!
+  - **Area 3 (West, Verified Turns 878–894)**:
+    - Entering via **`Area 2 (2..3, 35)`** spawns at **`Area 3 (20..21, 0)`**: **`GOLD TEETH`** is 8 steps away at **`(19, 7)`**, and the **Secret House (`HM03 Surf`)** is west across the open `y = 5` lawn at **`(3, 3)`**!
 - **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`**.
 - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`Fuchsia Gym` is west of it at `(5, 27)`).
 
