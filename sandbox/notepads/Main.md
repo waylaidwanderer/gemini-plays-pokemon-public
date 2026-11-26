@@ -36,7 +36,7 @@
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
-- **Bag:** Poké Ball x2, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x4**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1**, **Great Ball x10**, **Revive x2**, **Super Repel x5**, **TM21 (Mega Drain)**, **HM02 (Fly)**, **Lift Key**, **Silph Scope** (18/20 slots!) | **Cash:** ¥15,000+ | **Respawn:** Celadon City Center `(41,9)`
+- **Bag:** **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x3**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1**, **Great Ball x10**, **Revive x2**, **Super Repel x5**, **TM21 (Mega Drain)**, **HM02 (Fly)**, **Lift Key**, **Silph Scope** (14/20 slots!) | **Cash:** ¥15,000+ | **Respawn:** Celadon City Center `(41,9)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
