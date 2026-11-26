@@ -277,7 +277,11 @@ def name_buttons(word):
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
-- **Battle Quadrant Reset & Battle-vs-Wall Probe**:
+- **Gen 1 Menu Wrapping Summary (Verified Turns 124, 155, 184)**:
+  - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`), and catching a new Pokémon resets `Start` to `POKéDEX`.
+  - Battle `FIGHT` move menu **wraps** vertically.
+  - `ITEM` bag menu **clamps** (does NOT wrap) at Slot 0 (`Up` at top stays on Slot 0).
+  - Battle 2x2 command menu (`FIGHT / PKMN / ITEM / RUN`) **clamps** (`Left, Up` always lands on `►FIGHT`).
   - The 2x2 battle command menu (`FIGHT / PKMN / ITEM / RUN`) does **not** wrap, so `["Left", "sleep 150", "Up", "sleep 150"]` deterministically resets the cursor to `►FIGHT` from any quadrant, and pressing `Left` or `Up` while already on `►FIGHT` is a pure no-op in battle.
   - When a step `d` from `b` fails (`after == b`), clearing potential battle intro (`["sleep 1200"] + ["B", "sleep 700"] * 8`) and probing `back_d` (the known-open tile you just came from) cleanly distinguishes a **wall** (`pos != b`) from an active **battle** (`pos == b`), and in Gen 1 `PlayerSpeed >= EnemySpeed` guarantees 100% first-try escape via `RUN`.
 
