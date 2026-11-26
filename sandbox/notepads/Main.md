@@ -14,10 +14,11 @@
 - Overworld tiles: flat brown tile with two tiny white dashes embedded in a ledge row is a walkable gap/passage (verified Route 1 `(5,19)` turn 55 and Viridian City `(19,27)` turn 68).
 - Pokémon Center Nurse Joy (at `(3,3)` facing Up): requires 6 `A` presses spaced by ~500ms to get past `"Welcome..."`, `"We heal your POKéMON"`, `"back to perfect health!"`, and select `HEAL`, followed by ~4.5s for healing animation, then `B` presses to finish (verified turn 83 & 86 filmstrips).
 - Poké Mart BUY flow: `A` (open qty `x01`) -> `Up`*(N-1) -> `A` (`"That will be ▼"`) -> `A` (`"¥XXXX. OK?" YES/NO`) -> `A` (confirm `YES` -> `"Here you are! Thank you!"`) -> `B` (return to item list) (verified turn 86 filmstrip).
+- Battle `PKMN` switch cursor persists on the last switched-in slot, so swapping back to slot 1 after switch-training slot 2 requires `Up` before `A` (verified turn 122-123).
 
 ## Party
-- **RIPTIDE** (Squirtle) - Lv 8 (HP 25, Atk 14, Def 16, Spd 12, Spc 13; Tackle, Tail Whip, Bubble) — learned Bubble at Lv 8 on Route 1 (turn 82)
-- **KAISER** (Nidoran♂) - Lv 3 (caught on Route 22 with 1st Poké Ball at full HP, turn 97-100; future Nidoking)
+- **RIPTIDE** (Squirtle) - Lv 9 (15/27 HP; Tackle, Tail Whip, Bubble) — leveled to Lv 9 defeating Viridian Forest Bug Catcher #1 (turn 125)
+- **KAISER** (Nidoran♂) - Lv 3+ (caught Route 22, switch-trained vs Bug Catcher #1 Caterpie, turn 125; future Nidoking)
 
 ## Badges
 - 0/8
