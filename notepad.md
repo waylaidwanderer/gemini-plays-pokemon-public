@@ -13,6 +13,7 @@
 - [x] Boulder Badge — Brock (Pewter City)
 - [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
 - [x] Cerulean Rival `GARNET` Defeated (Turn 257)
+- [x] `S.S. Ticket` Obtained from Bill (Sea Cottage, Turn 343)
 - [ ] Cascade Badge — Misty (Cerulean City)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
@@ -30,7 +31,7 @@
 
 ## Inventory & Money
 - Money: ~¥7,000 (+ `Nugget` worth ¥5,000!)
-- Key Items: Pokédex, Town Map, Helix Fossil
+- Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket
 - Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, HP Up x1, Escape Rope x1, Nugget x1, TM45 (Thunder Wave)
 
 ## Notepad Index
