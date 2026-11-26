@@ -29,8 +29,8 @@
 
 ## Inventory & Money
 - Money: ~¥10,500 (+ `Nugget` worth ¥5,000!)
-- Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket
-- Bag: Poké Ball x2, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket
+- Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
+- Bag: Poké Ball x2, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
