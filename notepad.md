@@ -432,6 +432,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party: SAGE Lv 84 (251/251 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
 
 - Set quantity to 4, confirmed purchase for ¥6,000 (remaining cash: ¥1,041), and exited Mart. 4 Revives secured in Bag!
+- Turn 32: Fixed YES/NO confirmation timing (1200ms text delay). Executing purchase of 4 Revives (¥6,000), exiting Mart, and opening Bag to visually verify inventory.
 
 <hr>
 
