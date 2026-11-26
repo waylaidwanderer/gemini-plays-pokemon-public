@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
-- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Cursor verified on Revive in Bag. Selecting Use to open party targeting screen and visually confirm SAGE's row before applying Revive!
+- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Revive confirmed on Row 2 SAGE (restored to 127/254 HP, +6 priority). Lilz absorbs Glalie attack and faints, granting SAGE a free switch-in to sweep Glalie #4 and Glalie #5!
 
 <hr>
 
@@ -5109,10 +5109,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Lilz Lv 30 active on battlefield. Opening Bag to execute Revive #2 on SAGE Lv 85 (+6 priority). Bag: 2 Revives, 1 Full Heal.
+- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. SAGE restored to 127/254 HP via Sacrificial Revive. Bag: 1 Revive, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: OK (Revived via Sacrificial Revive).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Status: OK (Revived).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5125,7 +5125,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x2 (1 consumed on SAGE Attempt 13, 1 consumed on Lilz Turn 26732)
+- Revive x1 (2 consumed on SAGE, 1 consumed on Lilz)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥11,041 (earned ¥5,100 from Phoebe)
