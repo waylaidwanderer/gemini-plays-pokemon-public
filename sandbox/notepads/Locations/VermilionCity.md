@@ -27,4 +27,6 @@
 - **Pokémon Fan Club**: **`(9, 13)`** (indoor exit mat `(2, 7)` -> `(0, 7) -> (0, 1) -> (2, 1)` facing Chairman at `(3, 1)` -> **`BIKE VOUCHER`** obtained Turn 395!).
 - **Vermilion Poké Mart**: **`(23, 13)`**.
 - **Vermilion Gym `Cut` Bush**: **`(15, 18)`** (blocks access to Vermilion Gym southwest).
-- **Harbor Road**: Runs south along `x = 20..21` from `(20, 14)`.
+- **Vermilion Harbor Pier (Verified Turn 398)**:
+  - Reach via **`y = 14`** east past Poké Mart `(23, 13)` to **`x = 30..31`** (`(26..29, 17..25)` is water!).
+  - Walk south down `(30..31, 14..27)` (Sailor checks `S.S. Ticket` around `y = 18..19`), then turn **west along `y = 26..27`** to the Vermilion Dock entrance.

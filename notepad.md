@@ -290,7 +290,9 @@
 - **Pokémon Fan Club**: **`(9, 13)`** (indoor exit mat `(2, 7)` -> `(0, 7) -> (0, 1) -> (2, 1)` facing Chairman at `(3, 1)` -> **`BIKE VOUCHER`** obtained Turn 395!).
 - **Vermilion Poké Mart**: **`(23, 13)`**.
 - **Vermilion Gym `Cut` Bush**: **`(15, 18)`** (blocks access to Vermilion Gym southwest).
-- **Harbor Road**: Runs south along `x = 20..21` from `(20, 14)`.
+- **Vermilion Harbor Pier (Verified Turn 398)**:
+  - Reach via **`y = 14`** east past Poké Mart `(23, 13)` to **`x = 30..31`** (`(26..29, 17..25)` is water!).
+  - Walk south down `(30..31, 14..27)` (Sailor checks `S.S. Ticket` around `y = 18..19`), then turn **west along `y = 26..27`** to the Vermilion Dock entrance.
 
 
 <hr>
@@ -407,6 +409,11 @@ def name_buttons(word):
   - `Nidoqueen` is `NOT ABLE` to learn `TM28 (Dig)` in Generation I (she learns `TM26 Earthquake` instead), whereas `Squirtle`/`Wartortle`/`Blastoise` and `Paras` ARE `ABLE`.
 - **Overworld Grid File Availability (`latest_grid.png`, Verified Turn 370)**:
   - `screenshots/latest_grid.png` is omitted/removed whenever `<GameState>` has no `<Position>` (including when a step triggers a trainer `[!]` walk-up or wild encounter flash). Do not batch `read_file` on `latest_grid.png` when walking across tall grass or trainer sightlines.
+- **In-Battle Command, Move, & Faint Cursor Nuances (Verified Turns 380–389)**:
+  - Switching a Pokémon via `PKMN` **resets** the 2x2 command menu cursor to `►FIGHT` (Turn 387), whereas using a Bag item via `ITEM` keeps the 2x2 cursor on **`►ITEM`** (Turn 383 — always use `Left, Up` to clamp back to `►FIGHT`).
+  - Having a 1-move Pokémon (`AMBER`) open `FIGHT` clamps the `FIGHT` move index back to **Slot 0**, so a 4-move Pokémon sent out afterward in the same battle starts on **Slot 0** rather than a previously used slot (Turn 389).
+  - In Gen 1, **KOing an enemy Pokémon skips the end-of-turn poison tick** for that turn (Turn 380).
+  - In **Trainer battles**, a fainted Pokémon opens `"Bring out which POKéMON?"` directly without a `YES/NO` prompt, and `B` presses are safely ignored on that Party screen (Turn 388).
 - **Ladder `back_d` Pitfall & `known_open_move` (Verified Turns 202–205)**:
   - Never run a `back_d` wall-probe when standing 1 tile off a ladder warp (`back_d` steps right back onto the ladder and re-warps floors!). First step 2+ tiles clear of any ladder using `known_open_move` (which flees wild encounters in place without stepping backward).
 
