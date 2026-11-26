@@ -172,10 +172,16 @@
 - **Mt. Moon 1F Entrance**: Walk East along `y = 6` from `(11, 6)` to `(18, 6) -> Up` into `(18, 5)`.
 
 ## Mt. Moon 1F (`40 x 36`)
-- **Entrance / Exit Mat**: `(14, 35)..(15, 35)` (warps back to Route 4 `(18, 6)`).
-- **Southwest Corridor (`TM12 Water Gun`)**:
+- **Entrance / Exit Mat**: `(14, 35)..(15, 35)` (stepping onto `(14, 35)` auto-warps back to Route 4 `(18, 6)`; entire column `x = 14, y = 24..35` is straight open floor).
+- **Southwest Chamber (`TM12 Water Gun` & `Potion`)**:
   - From `(14, 35)` walk `Up * 7` to `(14, 28)` -> `Left * 9` to `(5, 28)`.
-  - Item ball at **`(5, 32)`** (`TM12 Water Gun` — visible 4 tiles south of `(5, 28)` in Turn 166 `filmstrip_2.png`).
+  - **`TM12 (Water Gun)`**: Item ball at **`(5, 32)`** — Collected (Turn 175; note: `Nidoran♀` is `NOT ABLE` to learn `TM12`, save for `Nidoqueen`!).
+  - **`Potion`**: Item ball at **`(2, 20)`** (reached via `x = 5, y = 31 -> 20`, then `Left` to `(3, 20)`) — Collected (Turn 180).
+  - **Bug Catcher Kent**: Stands at **`(7, 22)`** facing `Down` (`Weedle Lv 11, Kakuna Lv 11`) — Defeated (Turn 182).
+- **Central Hall & North Corridor**:
+  - Walk East along `y = 24` under pillars `(8, 23)..(9, 23)` to `(15, 24)`.
+  - Signpost at `(15, 23)`; **Lass Iris** stands at **`(16, 23)`** facing `Down` (`Clefairy Lv 14`, triggers at `(16, 24)`).
+  - Northward corridor past central wall `(11, 20)..(19, 21)` opens at **`x = 20`** (`(20, 24) -> (20, 20)+`).
 
 
 <hr>
@@ -271,8 +277,13 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s & FOUR `B`s!)**:
-  - `["A", "sleep 900"] * 4 + ["A", "sleep 8500"] + ["B", "sleep 700"] * 4` before stepping `Down` (verified Turn 162: only 3 `B`s left `"We hope to see you again!"` open during the `Down` loop).
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s & Bounded `B + Down` Exit!)**:
+  - `["A", "sleep 900"] * 4 + ["A", "sleep 9500"]` followed by a bounded loop `for _ in range(8): if mgba.get_coordinates()["y"] > 3: break; tools.press_buttons(["B", "sleep 600", "Down", "sleep 300"])`.
+  - *(Verified Turns 162, 188: each party Poké Ball adds ~0.8s to the healing jingle, so fixed `B` counts can undershoot as party size grows; confirming `y > 3` proves Nurse Joy's dialogue has fully closed before opening `Start` or walking out.)*
+- **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
+  - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
+- **Multi-Round Battle Loop Faint Pitfall (Verified Turns 181–186)**:
+  - If the lead Pokémon faints during an automated `["A", "A", "B"*8]` battle loop, `"Use next POKéMON?"` opens the Party list where `A` automatically sends out Slot 1. If a different Pokémon appears in battle unexpectedly, open `Start -> POKéMON` immediately to check for `FNT`.
 
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.

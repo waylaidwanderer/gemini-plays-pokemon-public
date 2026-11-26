@@ -24,7 +24,13 @@
 - **Mt. Moon 1F Entrance**: Walk East along `y = 6` from `(11, 6)` to `(18, 6) -> Up` into `(18, 5)`.
 
 ## Mt. Moon 1F (`40 x 36`)
-- **Entrance / Exit Mat**: `(14, 35)..(15, 35)` (warps back to Route 4 `(18, 6)`).
-- **Southwest Corridor (`TM12 Water Gun`)**:
+- **Entrance / Exit Mat**: `(14, 35)..(15, 35)` (stepping onto `(14, 35)` auto-warps back to Route 4 `(18, 6)`; entire column `x = 14, y = 24..35` is straight open floor).
+- **Southwest Chamber (`TM12 Water Gun` & `Potion`)**:
   - From `(14, 35)` walk `Up * 7` to `(14, 28)` -> `Left * 9` to `(5, 28)`.
-  - Item ball at **`(5, 32)`** (`TM12 Water Gun` — visible 4 tiles south of `(5, 28)` in Turn 166 `filmstrip_2.png`).
+  - **`TM12 (Water Gun)`**: Item ball at **`(5, 32)`** — Collected (Turn 175; note: `Nidoran♀` is `NOT ABLE` to learn `TM12`, save for `Nidoqueen`!).
+  - **`Potion`**: Item ball at **`(2, 20)`** (reached via `x = 5, y = 31 -> 20`, then `Left` to `(3, 20)`) — Collected (Turn 180).
+  - **Bug Catcher Kent**: Stands at **`(7, 22)`** facing `Down` (`Weedle Lv 11, Kakuna Lv 11`) — Defeated (Turn 182).
+- **Central Hall & North Corridor**:
+  - Walk East along `y = 24` under pillars `(8, 23)..(9, 23)` to `(15, 24)`.
+  - Signpost at `(15, 23)`; **Lass Iris** stands at **`(16, 23)`** facing `Down` (`Clefairy Lv 14`, triggers at `(16, 24)`).
+  - Northward corridor past central wall `(11, 20)..(19, 21)` opens at **`x = 20`** (`(20, 24) -> (20, 20)+`).
