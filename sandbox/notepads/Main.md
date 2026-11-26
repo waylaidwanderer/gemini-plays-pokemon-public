@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 12 Active! Room 1 Sidney DEFEATED! Cash: ¥5,383. SAGE Lv 84 (172/251 HP, 247 Speed). Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball. Advancing to Room 2 Phoebe!
+- Status: Attempt 12 Concluding (Whiteout). Sidney DEFEATED (¥4,900). Phoebe: Dusclops #1 & #2 defeated. SAGE fainted (0/251 HP). Lilz Lv 30 active vs Banette (~15% HP). 0 Revives in Bag, 1 Full Heal. Cash: ¥5,383. Resetting to Lobby Mart for Attempt 13!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 172/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 0/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (13/30), Aerial Ace (2/20), Facade (19/20), Quick Attack (30/30). Status: FAINTED.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -19,10 +19,10 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x1
-- Revive x5 (5 purchased at League Mart for Attempt 12)
+- Revive x0 (0 Revives in Bag; must purchase at Mart before Attempt 13)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,383 (purchased 5 Revives for ¥7,500)
+- Money: ¥5,383
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
