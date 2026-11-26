@@ -121,3 +121,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Party: SAGE Lv 84 (251/251 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
 - Cash: ¥2,691. Plan: Sell 1 Ultra Ball (+¥600, total ¥3,291), buy 2 Revives (Row 6, ¥1,500 each = ¥3,000, leaving ¥291). Verified Revive inventory!
 - Turn 28: Spoke to Mart clerk at (16, 4). Selecting SELL to sell 1 Ultra Ball (+¥600, total ¥3,291) to afford 2 Revives.
+- Turn 29: In Sell Bag, switching to Poké Balls pocket (Right x2), confirming Ultra Ball sale (+¥600, total ¥3,291), and returning to Mart menu.
