@@ -21,13 +21,13 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Squirtle) — Lv. 13 | Moves: Bubble, Tail Whip, Tackle
-2. **AMETHYST** (Nidoran♀) — Lv. 4 | Moves: Growl, Tackle
+1. **NAUTILUS** (Squirtle) — Lv. 14 | Moves: Bubble, Tail Whip, Tackle
+2. **AMETHYST** (Nidoran♀) — Lv. 7 | Moves: Tackle, Growl
 
 ## Inventory & Money
-- Money: ¥531
+- Money: ~¥830
 - Key Items: Pokédex, Town Map
-- Bag: Antidote x2, Poké Ball x7, TM34 (Bide), Potion x5
+- Bag: Potion x5, Antidote x2, Poké Ball x7, TM34 (Bide)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
