@@ -72,12 +72,15 @@
 
 ## Map Connections
 - **South Entrance (from Route 2 North)**: Enters at `(18, 35)`.
-- **East Exit (to Route 3)**: East road out of Pewter City (locked by guide NPC until Boulder Badge is earned).
+- **East Exit (to Route 3)**: Walk East from `(23, 18)` along `y = 18..19` to `x = 39 -> Right` warps to Route 3 `(0, 10)`.
+  - **Route 3 Early Landmarks**: Lass #1 triggers at `(14, 9)` (`2x Pidgey Lv 9`); Bug Catcher #1 triggers at `(11, 6)` (`Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10`).
 
 ## Key Buildings
 - **Pokémon Center**: Door at `(13, 25)` (approached via `(18, 35) -> (18, 26) -> (13, 26)`).
 - **Poké Mart**: Door at `(23, 17)` (east of central `x = 19` road).
-- **Pewter City Gym**: Door at `(16, 17)` (fenced on east `(18, 18..21)` and south `(15..17, 21)`; approach from north/west around the Gym roof).
+- **Pewter City Gym**: Door at `(16, 17)`.
+  - Verified loop from `(13, 26)` PokéCenter: `(13, 26) -> (19, 26) -> (19, 12) -> (11, 12) -> (11, 16) -> (10, 16) -> (10, 18) -> (16, 18) -> Up` into `(16, 17)` (reverse to exit).
+  - Interior: Spawn at `(4, 13)`, Jr. Trainer♂ triggers at `(4, 6)`, Brock stands at `(4, 1)` (talk from `(4, 2)`).
 
 
 <hr>
@@ -203,7 +206,9 @@ def name_buttons(word):
 - **Battle Move Cursor Memory**:
   - **New Battle (Turn 1)**: BOTH the top-level command menu (`►FIGHT`) AND the `FIGHT` move submenu (`►Slot 1`) **reset to Slot 1** at the start of every new battle (verified Turn 97 `filmstrip_1.png` — earlier assumption that `FIGHT` remembered across battles was false!).
   - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73).
-  - *(Tip: Press `Select` inside `FIGHT` or `ITEM` to permanently swap an entry into Slot 0 — **CRITICAL**: swapping Slot 0 with Slot `k` leaves the cursor at Slot `k` (which now holds the old Slot 0 item/move!), so press `Up * k` back to Slot 0 before pressing `A`! Verified Turn 123.)*
+  - *(Tip — Verified `Select` Swap Mechanics, Turns 110, 121, 125)*:
+    - In the **`FIGHT` move menu**, `Select -> Down * k -> Select` swaps Slot `k` into Slot 0 and **automatically resets the cursor onto Slot 0** (and note: `FIGHT` wraps vertically, so pressing `Up` from Slot 0 wraps to the bottom move!).
+    - In the **`ITEM` bag menu**, `Select -> Down * k -> Select` leaves the cursor at Slot `k`; always verify the highlighted item before pressing `A` after reordering items.
   - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8–10 `B` presses (`"sleep 650"`) per round when stat-drop or poison ticks occur (Turns 83, 95).
 - **Catching & Nickname Safety (Verified Turns 66–75)**:
   - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
