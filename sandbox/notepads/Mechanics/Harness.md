@@ -37,9 +37,11 @@ def name_buttons(word):
 
 ## Event & Fanfare Timings (Verified Turns 2–41)
 - **ROM Variant**: Colorized Pokémon Blue enhancement with GBC palettes and a live blue EXP bar under player HP in battle (verified Turn 27). Maps, items, and encounters match Pokémon Blue.
-- **Battle Move Cursor Memory**: The `FIGHT` menu remembers the last selected move slot across turns and subsequent battles (verified Turn 21).
-  - Within the *same* battle (Turn 2+), the top-level command menu (`FIGHT / PKMN / ITEM / RUN`) and the `ITEM` bag submenu ALSO remember their last selected cursor positions (verified Turns 67, 73). On Turn 1 of a new battle, the top-level cursor resets to `►FIGHT`.
-  - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8 `B` presses (`"sleep 650"`) per round when using moves with secondary stat-drop text like `BUBBLE` (Turn 83).
+- **Battle Move Cursor Memory**:
+  - **New Battle (Turn 1)**: BOTH the top-level command menu (`►FIGHT`) AND the `FIGHT` move submenu (`►Slot 1`) **reset to Slot 1** at the start of every new battle (verified Turn 97 `filmstrip_1.png` — earlier assumption that `FIGHT` remembered across battles was false!).
+  - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73).
+  - *(Tip: Press `Select` inside the `FIGHT` menu in Gen 1 to permanently swap your strongest move like `BUBBLE` into Move Slot 1!)*
+  - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8–10 `B` presses (`"sleep 650"`) per round when stat-drop or poison ticks occur (Turns 83, 95).
 - **Catching & Nickname Safety (Verified Turns 66–75)**:
   - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
 - **Coordinate Behavior in Battles & Warps**:
@@ -57,8 +59,9 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up`)**:
-  - `["A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "A", "sleep 6500", "B", "sleep 700", "B", "sleep 700"]` (4 `A`s total: initiate + 2 text boxes + confirm `►HEAL`, then `B`s).
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s!)**:
+  - `["A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 6500", "B", "sleep 700", "B", "sleep 700", "B", "sleep 500"]`
+  - *(Verified Turn 103: `"We heal your POKéMON..."` has TWO `▼` prompts before `"Shall we heal..."`, so 4 `A`s only opens `►HEAL / CANCEL` and `B` cancels it! The 5th `A` confirms `►HEAL`.)*
 
 ## Navigation Scripting Guardrails (Verified Turns 53, 60)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
