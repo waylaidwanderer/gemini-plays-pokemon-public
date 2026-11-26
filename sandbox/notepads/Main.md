@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Challenging Elite Four Drake in Room 4! SAGE Lv 85 (96/254 HP, ~166 Spe). Bag: 1 Revive, 1 Full Heal, 2 conscious anchors. Final Elite Four battle before Wallace!
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon down! Facing Flygon Lv 53 (#2). SAGE Lv 85 (96/254 HP, ~166 Spe). Bag: 1 Revive, 1 Full Heal, 2 conscious anchors.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 96/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (13/20), Quick Attack (30/30). Status: OK (Active Battler).

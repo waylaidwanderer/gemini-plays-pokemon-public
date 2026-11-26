@@ -129,4 +129,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Room 4 Drake: Turn 2 Facade dropped Shelgon to ~30% HP; Shelgon counter-attacked with Rock Tomb (dealt 16 dmg, SAGE at 96/254 HP, -1 Speed). Turn 3: SAGE strikes with Facade (Slot 3) anticipating Full Restore or finishing KO!
+- Room 4 Drake: Shelgon Lv 52 DEFEATED by Turn 3 Facade! Drake is sending in Flygon Lv 53 (#2). SAGE Lv 85 at 96/254 HP (~166 Speed) outspeeds Flygon (~125 Speed). Advancing send-out animation to battle menu to target Flygon with physical Facade (Slot 3)!
