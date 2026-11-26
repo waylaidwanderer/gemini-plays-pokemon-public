@@ -60,7 +60,7 @@ def name_buttons(word):
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
 - **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s!)**:
-  - `["A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 6500", "B", "sleep 700", "B", "sleep 700", "B", "sleep 500"]`
+  - `["A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 8000", "B", "sleep 700", "B", "sleep 700", "B", "sleep 500"]` (plus bounded `for _ in range(5): if y > 3: break; press(["B", "sleep 600", "Down"])` for larger parties, as each additional party Poké Ball adds ~0.4s to the healing machine animation).
   - *(Verified Turn 103: `"We heal your POKéMON..."` has TWO `▼` prompts before `"Shall we heal..."`, so 4 `A`s only opens `►HEAL / CANCEL` and `B` cancels it! The 5th `A` confirms `►HEAL`.)*
 
 ## Navigation Scripting Guardrails (Verified Turns 53, 60)
