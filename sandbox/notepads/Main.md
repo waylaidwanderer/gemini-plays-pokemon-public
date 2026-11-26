@@ -4,7 +4,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), rescued **Bill** (**S.S. Ticket** turn 533–534), defeated **Gym Leader Misty** (turn 578, **Cascade Badge 2/8** + **TM11 Bubblebeam** -> RIPTIDE turn 585), cleared Cerulean burgled house (**TM28 Dig** -> RIPTIDE turn 611), arrived in **Vermilion City** (turn 632), stocked **Super Potion x8 / Repel x5**, claimed **Bike Voucher** (turn 643), cleared **S.S. Anne** (**TM08 Body Slam** -> KAISER turn 663, defeated **Rival RED #3** turn 679, received **HM01 Cut** from Captain turn 682)! Teaching HM01 Cut to PGHP, exiting S.S. Anne, and challenging **Lt. Surge** at Vermilion City Gym!
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), rescued **Bill** (**S.S. Ticket** turn 533–534), defeated **Gym Leader Misty** (turn 578, **Cascade Badge 2/8** + **TM11 Bubblebeam** -> RIPTIDE turn 585), cleared Cerulean burgled house (**TM28 Dig** -> RIPTIDE turn 611), arrived in **Vermilion City** (turn 632), stocked **Super Potion x8 / Repel x5**, claimed **Bike Voucher** (turn 643), cleared **S.S. Anne** (**TM08 Body Slam** -> KAISER turn 663, defeated **Rival RED #3** turn 679, received **HM01 Cut** -> PGHP turn 685), and defeated **Gym Leader Lt. Surge** (turn 707, **Thunder Badge 3/8** + **TM24 Thunderbolt** -> KAISER turn 712)! Heading north to Cerulean Bike Shop for Bicycle, then Route 9 -> Rock Tunnel -> Lavender Town -> Celadon City!
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -28,14 +28,15 @@
 - Gen 1 `Thrash` rampage: lasts 3–4 turns and auto-executes each subsequent turn without reopening the Battle Menu; still prompts Shift `YES/NO` between enemy Pokémon (`B` stays in and continues Thrash; verified turns 626–628).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 25 (84 HP; **Thrash**, **Body Slam**, **Horn Attack**, Poison Sting; Electric-immune — ready to crush Lt. Surge!) — evolved turn 347
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 26 (87 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (52 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
-- **PGHP** (Bellsprout, Slot 3) - Lv 17 (44 HP; **Vine Whip**, Growth, Wrap -> **HM01 Cut**, PoisonPowder; learns **Sleep Powder** at Lv 18) — caught turn 485
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x8**, **Repel x5**, **Bike Voucher**, **HM01 (Cut)** | **Cash:** ¥7158+ | **Respawn:** Vermilion City Center `(11,3)`
+- **PGHP** (Bellsprout, Slot 3) - Lv 17 (44 HP; **Vine Whip**, Growth, **HM01 Cut**, PoisonPowder; learns **Sleep Powder** at Lv 18) — caught turn 485
+- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x8**, **Repel x5**, **Bike Voucher**, **HM01 (Cut)** | **Cash:** ¥9534+ | **Respawn:** Vermilion City Center `(11,3)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
 - 2/8: **Cascade Badge** (Cerulean City, turn 578)
+- 3/8: **Thunder Badge** (Vermilion City, turn 707)
 
 ## Notepad Index
 - `notepads/Main.md` - High-level dashboard and index
