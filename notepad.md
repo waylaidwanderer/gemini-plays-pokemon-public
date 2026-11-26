@@ -178,10 +178,11 @@
   - **`TM12 (Water Gun)`**: Item ball at **`(5, 32)`** — Collected (Turn 175; note: `Nidoran♀` is `NOT ABLE` to learn `TM12`, save for `Nidoqueen`!).
   - **`Potion`**: Item ball at **`(2, 20)`** (reached via `x = 5, y = 31 -> 20`, then `Left` to `(3, 20)`) — Collected (Turn 180).
   - **Bug Catcher Kent**: Stands at **`(7, 22)`** facing `Down` (`Weedle Lv 11, Kakuna Lv 11`) — Defeated (Turn 182).
-- **Central Hall & North Corridor**:
-  - Walk East along `y = 24` under pillars `(8, 23)..(9, 23)` to `(15, 24)`.
-  - Signpost at `(15, 23)`; **Lass Iris** stands at **`(16, 23)`** facing `Down` (`Clefairy Lv 14`, triggers at `(16, 24)`).
-  - Northward corridor past central wall `(11, 20)..(19, 21)` opens at **`x = 20`** (`(20, 24) -> (20, 20)+`).
+- **Central Hall & Ladders**:
+  - Signpost at `(15, 23)`; **Lass Iris** stands at **`(16, 23)`** facing `Down` (`Clefairy Lv 14`, defeated Turn 193).
+  - Northward inner corridor at **`x = 20`** (`(20, 24) -> (20, 10)`).
+  - **Ladder #2 (`(25, 15)`)**: Leads via B1F `(25, 15) -> (25, 27) -> (13, 27)` to B2F side pocket `(15, 27)` with Rocket Grunt #1 (`Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11`, defeated Turn 200) and raised-platform item ball at **`(25, 21)`** — Collected (Turn 202).
+  - **East Outer Corridor**: Reached via `(25, 12) -> (31, 12) -> (31, 11) -> (35, 11)`. Item balls along `x = 35..36`: **`(36, 23)`** and **`(35, 31)`** (`Rare Candy`).
 
 
 <hr>
