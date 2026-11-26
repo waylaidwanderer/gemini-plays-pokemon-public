@@ -42,3 +42,7 @@
   - From `B2F (21, 9)`: `Left * 2, Down * 4, Left, Up * 3, Left` onto **`(17, 10)` (`<` -> `(13, 10)` `∨` -> `(13, 12)` `>` chain)** -> `(14, 12)` -> `Down, Left * 2` onto **`(12, 13)` (`∧` -> `(12, 9)` `<` long chain, `"sleep 6500"`)** -> lands at `(2, 9)`.
   - From `(2, 9)`: `Right, Down * 2, Right` onto **`(4, 11)` (`>`)** -> `(8, 11)` -> `Right * 2, Down * 3, Right` onto **`(11, 14)` (`∨` -> `(11, 16)` `>` -> `(13, 16)` `>` -> `(15, 16)` `∨` chain)** -> `(15, 18)`.
   - From `(15, 18)`: `Left * 2` onto **`(13, 18)` (`<` -> `(11, 18)` `∨`)** -> `(11, 20)` -> `Right * 3, Down * 2, Left` onto **`(13, 22)` (`<` -> `(9, 22)` `∨`)** -> `(9, 24)` -> `Right, Down` onto **`(10, 25)` (`>`)** -> `(14, 25)` -> `Right * 2, Up * 5, Right * 4` -> `(20, 20)` (Elevator mat at **`(24..25, 19)`**!).
+- **Rocket Hideout Elevator & B4F East — Giovanni & `SILPH SCOPE` (Verified Turns 676–689)**:
+  - Step onto `B2F (24, 19)` and press `Down` -> enters Elevator at `(2, 2)`. Control panel at `(1, 1)` (`B1F / B2F / B4F / CANCEL`; ride takes ~3.5s, then `Right, Up` from `(1, 2)` exits onto **`B4F (25, 15)`**).
+  - Walk `Up * 3` along `x = 25` to `(25, 12)` between the two Door Grunts (`(26, 12)` and `(23, 12)`); defeating both opens the electronic door at `(24..25, 11)`.
+  - **Giovanni** stands at **`B4F (25, 3)`** (`Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29`). After defeat, he vanishes and spawns **`SILPH SCOPE`** at **`(25, 2)`** (`1` tile north of `(25, 3)`, NOT on `(25, 3)`!). `Escape Rope` works inside Rocket Hideout B4F.
