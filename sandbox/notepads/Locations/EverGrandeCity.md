@@ -129,7 +129,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 14 (Active)
 - Status: Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Dusclops #1, Dusclops #2, Banette #1, and Sableye swept; final Banette Lv 49 (#5) OHKO'd by Overgrow Bullet Seed (Slot 1)! ELITE FOUR PHOEBE DEFEATED (Attempt 14)! Prize: ¥5,100 (Total funds: ¥10,670). Door to Room 3 (Glacia) unlocked!
-- Status: Room 3 Glacia: Turn 1 Overgrow Bullet Seed hit Ace Walrein Lv 53 down to ~15-20% HP! SAGE at 46/257 HP. Advancing turn to observe Walrein's counter-action (ready for finish or Sacrificial Revive via Lilz with 5 Revives in reserve)!
+- Status: Room 3 Glacia: Turn 1 Overgrow Bullet Seed dropped Ace Walrein to ~15-20% HP; Walrein counter-attacked with Ice Beam (KO'ing SAGE at 46 HP). Cursor on Cancel; pressing Up x5 to Row 1 Lilz Lv 30 (85/85 HP) and confirming Send Out. Next turn: Lilz uses Revive #1 on SAGE (+6 priority, restores 128/257 HP); Lilz absorbs Walrein's hit, granting SAGE a free switch-in to finish Walrein!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
