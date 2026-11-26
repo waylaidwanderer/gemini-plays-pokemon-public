@@ -4,7 +4,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), cleared Route 3, healed at Mt. Moon Pokémon Center (turn 266), evolved **RIPTIDE into Wartortle** (turn 309), collected **Moon Stone #1** (`(2,2)` Mt. Moon 1F, turn 311), and descended into **Mt. Moon B2F** (turn 313).
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309), collected Moon Stone (`(2,2)`), Escape Rope (`(36,23)`), and Rare Candy (`(35,31)`), and double-evolved **KAISER into Lv 16 Nidoking** (turns 343–347)! Healing at Mt. Moon Center before sweeping Mt. Moon B2F to Cerulean City.
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -23,9 +23,9 @@
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **KAISER** (Nidoran♂, Lead/Slot 1) - Lv 14 (22/40 HP; Atk 21, Def 18, Spd 19, Spc 17; Leer, Tackle, Horn Attack, Poison Sting; ~65% to Lv 15; evolves to Nidorino at Lv 16 -> immediate **Nidoking** with our Moon Stone!)
-- **RIPTIDE** (Wartortle, Slot 2) - Lv 16 (24/41 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309!
-- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3, **Moon Stone x1** | **Cash:** ~¥1600+
+- **RIPTIDE** (Wartortle, Lead/Slot 1) - Lv 16 (46/46 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
+- **KAISER** (Nidoking, Slot 2) - Lv 16 (~55/55 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved Nidorino (Rare Candy turn 343) -> **Nidoking** (Moon Stone turn 347)!
+- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3 | **Cash:** ~¥800+
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
