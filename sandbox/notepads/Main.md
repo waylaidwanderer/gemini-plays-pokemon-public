@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 14 Preparation! SAGE Lv 85 party 100% restored. Purchased 5 Revives at League Mart (¥7,500). Bag: 5 Revives, 1 Full Heal, ¥670 cash. Heading to gate for Attempt 14!
+- Status: Attempt 14 Active! 5 Revives purchased (¥670 cash). SAGE Lv 85 (254/254 HP, 250 Spe) entering Room 1 to challenge Sidney! Bag: 5 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 254/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
