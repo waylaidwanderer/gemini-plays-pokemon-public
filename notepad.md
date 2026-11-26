@@ -446,6 +446,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26573)! Prize: ¥4,900 earned (Total cash: ¥5,383). Door to Room 2 (Phoebe) unlocked!
 
   - Room 2 Phoebe: Facing Phoebe at (6, 6) in Room 2 (Attempt 12, Turn 26577)! SAGE Lv 84 (172/251 HP, 247 Speed, 29 Bullet Seed PP, 9 Aerial Ace PP). Plan: Use Aerial Ace / Bullet Seed (never Normal moves!), sacrifice Aerial Ace to Banette's Grudge, sweep all 5 Ghosts!
+    - Turn 1: Dusclops used Protect! SAGE's Aerial Ace blocked. Aerial Ace at 7/20 PP under Pressure. SAGE at 172/251 HP. Preparing Turn 2 strike!
 
 <hr>
 
@@ -5177,5 +5178,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Aerial Ace Sand-Attack Bypass: Aerial Ace ignores accuracy and evasion modifiers, guaranteeing a 100% hit rate against Sand-Attack users (such as Sidney's Mightyena).
 - Pokémon League Lobby Mart Navigation: From lobby entrance (9, 11), walk Up x6, Right x7, Up x1 to reach Mart counter (16, 4). Revives are sold at Row 6 for ¥1,500 each.
 
+- Level 84 SAGE Benchmark: Max HP 251, Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Overgrow activates at <= 83 HP.
+- Protect Pressure PP Depletion: Attacking into an opponent's Protect while Pressure is active consumes 2 PP.
+- Phoebe Grudge Protection Protocol: Aerial Ace must have >= 1 PP when Banette #1 enters so Grudge depletes Aerial Ace rather than STAB Bullet Seed.
 
 <hr>
