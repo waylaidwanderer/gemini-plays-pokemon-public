@@ -126,3 +126,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
   - In Progress: Facing Sableye Lv 50 (#4). Attacking with STAB Bullet Seed!
+
+- Facing Sableye Lv 50 (#4). Clamping Up+Left to Slot 1 Bullet Seed to strike Sableye!

@@ -437,6 +437,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
   - In Progress: Facing Sableye Lv 50 (#4). Attacking with STAB Bullet Seed!
 
+- Facing Sableye Lv 50 (#4). Clamping Up+Left to Slot 1 Bullet Seed to strike Sableye!
 
 <hr>
 
