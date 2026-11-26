@@ -138,3 +138,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 3: SAGE at 251/251 HP. Cursor on BAG. Stepping Left to FIGHT, clamping Up+Right to Slot 2 Aerial Ace vs Absol Lv 49.
     - Turn 3: SAGE struck first with Aerial Ace, dropping Absol to ~35% HP! Absol used Swords Dance (0 dmg to SAGE). SAGE at 251/251 HP.
     - Turn 4: Clamping Up+Right to Slot 2 Aerial Ace to KO Absol!
+    - Turn 4: SAGE struck with Aerial Ace, dropping Absol to ~5% red HP! Absol used +2 Aerial Ace (92 dmg, SAGE at 159/251 HP).
+    - Turn 5: Clamping Up+Right to Slot 2 Aerial Ace to KO Absol!

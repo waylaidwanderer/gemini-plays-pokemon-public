@@ -71,3 +71,5 @@
 - Overgrow Activation Proof: SAGE at 26/251 HP successfully has Overgrow active (<= 83 HP threshold), boosting Grass moves by 1.5x. Dusclops Lv 51 Ice Beam only dealt 31 dmg to Lv 84 SAGE.
 - Party Replacement Screen Navigation: From Left Box, press Right to enter Right Column (Row 1). Press Down x4 to reach Row 5 (bottom party slot, Guava).
 - Whiteout Currency Mechanics: Cash halved upon whiteout (¥5,383 -> ¥2,691). Revives sold at Mart Counter Row 6 for ¥1,500 each. Sidney rewards ¥4,900.
+- Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
+- Verified Attempt 13 Inventory: Physically confirmed in Bag on Turn 26657: Revive x4, Full Heal x1, Quick Claw x1, Macho Brace x1, Money ¥1,041.
