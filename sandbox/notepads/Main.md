@@ -33,7 +33,7 @@
 
 ## Party
 - **KAISER** (Nidoking, Lead/Slot 1) - Lv 39 (129 HP; **Thrash**, **Body Slam**, **Ice Beam**, **Thunderbolt**) — evolved turn 347; taught TM13 Ice Beam turn 911
-- **RIPTIDE** (Wartortle, Slot 2) - Lv 22 (60 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
 - **Bag:** **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x1**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1**, **Great Ball x10**, **Revive x2**, **Super Repel x4**, **TM21 (Mega Drain)**, **HM02 (Fly)**, **Lift Key**, **Silph Scope**, **Rare Candy x1**, **Poké Flute** (16/20 slots!) | **Cash:** ¥20,000+ | **Respawn:** Celadon City Center `(41,9)`
