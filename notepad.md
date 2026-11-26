@@ -437,6 +437,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Room 4 Drake: 2HKO Shelgon, Flygon, Altaria with Facade. 4 Revives ready for Kingdra & Salamence! Prize: ¥5,500.
   - Champion Wallace: STAB Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic. Facade vs Ludicolo!
 
+- Ascending Grand Staircase and entering Room 1 to challenge Sidney!
 
 <hr>
 
