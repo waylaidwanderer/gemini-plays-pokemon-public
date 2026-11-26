@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 1 Sidney battle underway! SAGE Lv 85 (254/254 HP, 250 Spe) outspeeds lead Mightyena Lv 46. Clamping to Slot 3 Facade (Down, Left) to strike Mightyena with heavy physical damage!
+- Status: Room 1 Sidney: Turn 1 Facade dropped Mightyena to ~20% HP; Mightyena used Sand-Attack (-1 acc, SAGE at 254/254 HP). Turn 2: Clamping to Slot 2 Aerial Ace (Up, Right) which ignores Sand-Attack for a 100% guaranteed knockout on Mightyena!
 - Party: SAGE Lv 85 (Lead, 254/254 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
 - Bag: 5 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥670 cash.
 - Plan:
