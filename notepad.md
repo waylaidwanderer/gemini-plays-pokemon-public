@@ -21,14 +21,14 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 19 | Moves: Water Gun, Mega Punch, Tackle, Bubble
+1. **NAUTILUS** (Wartortle) — Lv. 20 | Moves: Water Gun, Mega Punch, Tackle, Bubble
 2. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
 3. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 4. **AMBER** (Paras) — Lv. 12 | Caught on Mt. Moon B2F (`HM01 Cut` & `Spore` specialist!)
 
 ## Inventory & Money
-- Money: ~¥3,100
-- Key Items: Pokédex, Town Map
+- Money: ~¥3,400
+- Key Items: Pokédex, Town Map, Helix Fossil
 - Bag: Potion x3, Antidote x1, Poké Ball x2, Escape Rope x1, Rare Candy x1, HP Up x1, Moon Stone x1, TM34 (Bide), TM12 (Water Gun)
 
 ## Notepad Index
