@@ -130,3 +130,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
     - Sableye Lv 50: DEFEATED by Bullet Seed! Phoebe down to her 5th and final Pokémon.
   - Phoebe Pokémon #5 (Final): Banette Lv 49 (#2). Declining switch, advancing to battle menu to sweep with STAB Bullet Seed!
+- Turn 6: Sableye hit with Night Shade (SAGE at 44/251 HP, Overgrow ACTIVE!). Clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Sableye and advance to final Banette #2!
