@@ -1,7 +1,7 @@
 # Nuzlocke Dashboard — Attempt #4
 
 ## Run Status
-- **Attempt:** #4 (`Deaths: 0`)
+- **Attempt:** #4 (`Deaths: 1` — `Tonbo` Lv 15 Yanma fell Turn 2125 to Tammy's Corsola `Rock Tomb` via `EFF_SPEED_DOWN_HIT` AI override)
 - **Attempt #1 Summary:** Ended Turn 713 on Route 116 `(36, 17)` via Rule 5 level-cap wipeout vs Bug Maniac Jose (`Bayou` Lv 13 Mudkip died to Houndour crit `Pursuit`; `Joule` Lv 14 Voltorb died to `Hustle` Nidoran♂ `Dig`; `Arctos` Lv 16 Teddiursa died to `Dustox` `Toxic + Confusion` self-hits).
 - **Attempt #2 Summary:** Ended Turn 1278 on Route 116 `(36, 14)` vs Bug Maniac Jose's `#4 Lv 10 Butterfree` (`Confusion + Protect + Mega Drain`) after discovering `Oddish -> Lv 16 Gloom (+ Magical Leaf)`.
 - **Attempt #3 Summary:** Ended Turn 1718 inside Rustboro Gym `(1, 8)` vs Hiker Marc's `#2 Lv 14 Kabuto` (`>21 Spe`, `10 PP` buffed `Giga Drain` + `Aerial Ace`). Swept Route 101–104, Petalburg Woods, `PKMN Trainer Red` (5–0, 0 deaths), `School Kid Tammy` (5–0, 0 deaths), and `School Kid Josh`, and verified `Mudkip/Marshtomp` is in the `Slow` EXP group (`1,021` EXP from `Lv 16 -> 17`), `Numel` learns `Lv 15 Magnitude`, and `Skitty` learns `Lv 13 Teeter Dance + Lv 15 Fake Out`. Lost `Athena` (Lv 15 Cubone) to Josh's `#1 Lv 15 Geodude` Turn-1 `Selfdestruct`, `Velvet` (Lv 16 Skitty) to Marc's `#1 Lv 15 Onix` `Liechi Berry + Selfdestruct` at `<=25%` HP, and `Beowulf`/`Caspian`/`Vulcan` after Marc's `>21-Spe` `Kabuto` landed a crit `Giga Drain` and survived two `Magnitudes` at 1 HP while `Marshtomp` had only `7` EXP of cap room left.
