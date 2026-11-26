@@ -122,3 +122,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Cash: ¥2,691. Plan: Sell 1 Ultra Ball (+¥600, total ¥3,291), buy 2 Revives (Row 6, ¥1,500 each = ¥3,000, leaving ¥291). Verified Revive inventory!
 - Turn 28: Spoke to Mart clerk at (16, 4). Selecting SELL to sell 1 Ultra Ball (+¥600, total ¥3,291) to afford 2 Revives.
 - Turn 29: In Sell Bag, switching to Poké Balls pocket (Right x2), confirming Ultra Ball sale (+¥600, total ¥3,291), and returning to Mart menu.
+- Turn 30: Ultra Ball sold for ¥600! Total cash: ¥7,041. Selecting BUY, navigating Down x5 to Row 6 (REVIVE) to purchase 4 Revives (¥6,000).
