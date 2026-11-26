@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon down! Finishing Flygon Lv 53 (#2) with Facade. SAGE Lv 85 (~48/254 HP, Overgrow ACTIVE). Bag: 1 Revive, 1 Full Heal, 2 conscious anchors.
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! SAGE fainted from burn after KO'ing Flygon. Altaria Lv 54 on field. Deploying anchor for Sacrificial Revive on SAGE. Bag: 1 Revive, 1 Full Heal, 2 conscious anchors.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 48/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
