@@ -420,30 +420,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.
       - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
 
-## Elite Four Attempt 12 (Active - Concluding)
-- Status: Sidney DEFEATED (earned ¥4,900, total ¥5,383). Phoebe in progress. SAGE fainted.
-- SAGE (Level 84 Sceptile ♂): Fainted (0/251 HP). Moves: Bullet Seed (13/30), Aerial Ace (2/20), Facade (19/20), Quick Attack (30/30).
-- In Bag: 0 Revives (verified 0 in Items pocket), 1 Full Heal, 1 Ultra Ball, 1 Master Ball, ¥5,383 cash.
-- Party: SAGE fainted. Active: Lilz (Lombre Lv 30, 85/85 HP). Conscious reserves: Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30.
-- Battle Summary:
-  - Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900.
-  - Room 2 Phoebe: Dusclops Lv 48 (#1) DEFEATED (Phoebe burned Full Restore). Dusclops Lv 51 (#2) DEFEATED (SAGE cured with Full Heal, Overgrow Bullet Seed KO). Banette Lv 49 (#3) damaged to ~15% HP by Aerial Ace, but KO'd SAGE with Shadow Ball.
-  - Sacrificial Revive impossible due to 0 Revives in Bag. Lilz active vs Banette (~15% HP). Concluding battle via whiteout to reset at Lobby Mart, correctly purchase Revives, and launch Attempt 13!
+## Elite Four Attempt 12 (Archived Turn 26633)
+- Status: Concluded via whiteout. Sidney DEFEATED (earned ¥4,900, total reached ¥5,383 -> halved to ¥2,691). Phoebe: Dusclops #1 & #2 defeated.
+- Key Discovery: Discovered 0 Revives in Bag (previous Mart purchase failed to buy Revives).
+- SAGE (Level 84 Sceptile ♂): 100% restored upon whiteout (251/251 HP, all PP full). All 5 reserve anchors 100% restored.
+- Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
-- Concluding Attempt 12: Lilz fainted. Sending in Cipher, Cobalu, Mochi, and Guava to resolve battle to whiteout.
-- Turn 15: Selecting next conscious anchor (Cipher/Cobalu) from Right Column to advance toward whiteout.
-- Turn 16: Cipher fainted. Sending in Cobalu (Aron Lv 18) to advance toward whiteout.
-- Turn 17: Navigating Right, Down, Down to send out Cobalu (Aron Lv 18) and attack.
-- Turn 18: Mochi fainted. Navigating Down to CANCEL and Up to Guava (Tropius Lv 30) to send into battle and attack.
-- Turn 19: Navigating Right, Down, Down from Left Box to select Cobalu (Row 3, Aron Lv 18), sending into battle and attacking.
-- Turn 20: Cobalu fainted. Sending out final Pokémon Guava (Tropius Lv 30) to attack and conclude Attempt 12 via whiteout.
-- Turn 21: Navigating Right, Down x3 to select Guava (Slot 5, conscious), sending out to attack and conclude Attempt 12 via whiteout.
-- Turn 22: Navigating Right, Down x4 to select Guava (Row 5, Tropius Lv 30), confirming SEND OUT, attacking, and completing whiteout reset.
-- Turn 23: Cursor verified on CANCEL. Pressing Up to highlight Guava (Row 5), A twice to SEND OUT, selecting FIGHT and attack to conclude Attempt 12 via whiteout.
-- Turn 24: From CANCEL, moving Left to Left Box, Right to Right Column, Down x4 to Guava (Row 5), confirming SEND OUT, attacking, and resolving whiteout.
-- Turn 25: From CANCEL, pressing Left to Left Box, Down x3 to Guava (Slot 5), A twice to SEND OUT, attacking, and completing whiteout reset.
-- Turn 26: Guava on field! Moving Up to FIGHT, selecting attack, and completing whiteout reset for Attempt 13.
-- Turn 27: Banette's attack missed! Guava hit with Razor Leaf (Banette at ~8% HP). Selecting FIGHT and Razor Leaf to resolve battle to whiteout reset.
 
 <hr>
 
@@ -5114,10 +5096,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 12 Concluding (Whiteout). Sidney DEFEATED (¥4,900). Phoebe: Dusclops #1 & #2 defeated. SAGE fainted (0/251 HP). Lilz Lv 30 active vs Banette (~15% HP). 0 Revives in Bag, 1 Full Heal. Cash: ¥5,383. Resetting to Lobby Mart for Attempt 13!
+- Status: Attempt 13 Preparing. Respawned outside League (18, 6). Entering lobby to sell Ultra Ball and buy 2 Revives at Mart before launching Attempt 13!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 0/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (13/30), Aerial Ace (2/20), Facade (19/20), Quick Attack (30/30). Status: FAINTED.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 251/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5133,7 +5115,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x0 (0 Revives in Bag; must purchase at Mart before Attempt 13)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,383
+- Money: ¥2,691 (halved upon whiteout)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
