@@ -1,18 +1,19 @@
 # Active Routing & Immediate Checklist
 
-## Route 6 -> Vermilion City -> S.S. Anne -> Thunder Badge (Lt. Surge)
-1. **Route 6 Southbound (`(17, 14)` -> Vermilion City)**:
-   - Battle Route 6 trainers solo with **`AMETHYST` (`Nidoqueen` Lv. 17)** toward **Level 23 (`Body Slam`)** (`Scratch` Slot 1 vs Grass/Bug/Water, `Water Gun` Slot 0 vs Fire/Ground/Normal; `NAUTILUS` Lv. 26 with `Bite / Mega Punch / Dig / BubbleBeam` backs up if needed).
-2. **Vermilion City Prep**:
-   - Heal at **Vermilion Pokémon Center** (`(11, 3)`).
-   - Visit **Pokémon Fan Club** (`(9, 13)`) -> listen to Chairman (`YES`) for **`BIKE VOUCHER`**.
-   - Optional Poké Mart stop: sell `Nugget` (+¥5,000) & `TM34 (Bide)`, use `HP Up` on `AMETHYST`.
-3. **S.S. Anne (`HM01 Cut` & `TM08 Body Slam`)**:
-   - Flash `S.S. Ticket` at Vermilion Harbor pier and board **S.S. Anne**.
-   - Pick up **`TM08 (Body Slam)`** in 1F Room #2 (and `Rare Candy` / `Max Ether` if along path) while training `AMETHYST` toward **Lv. 23 (`Body Slam`)** *(never spam `B` across Lv 22 -> 23!)*.
-   - Defeat **Rival `GARNET`** on 2F (`Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20`) using `NAUTILUS` (`Bite` / `BubbleBeam`) + `AMETHYST`.
-   - Rub the Captain's back in the Captain's Quarters to obtain **`HM01 (Cut)`**, exit S.S. Anne, and teach **`HM01 (Cut)`** to **`AMBER` (`Paras`)**.
-4. **Vermilion Gym — Gym Leader Lt. Surge (Thunder Badge)**:
-   - Heal at Vermilion Center -> `Cut` the bush at Vermilion Gym -> solve the 2-switch trash-can lock (2nd switch is orthogonally adjacent to 1st switch).
-   - Sweep **Lt. Surge** (`Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24`) with **`AMETHYST` (`Nidoqueen`)** (100% Electric-immune!) + `NAUTILUS` (`Dig` 100 BP Ground!) for **Thunder Badge** + **`TM24 (Thunderbolt)`** (teach `TM24` to `AMETHYST`!).
-   - Return north via Route 6 -> Underground Path (grab hidden `Full Restore`) -> Route 5 -> Cerulean Bike Shop (`BICYCLE`!) -> Route 9 -> Rock Tunnel -> Celadon City.
+## Vermilion City -> Cerulean Bike Shop -> Rock Tunnel -> Celadon City (Rainbow Badge)
+1. **Vermilion Exit & `TM24 (Thunderbolt)` Power-Up**:
+   - Teach **`TM24 (Thunderbolt)`** (95 BP Electric!) to **`AMETHYST` (`Nidoqueen` Lv. 24)** replacing `Poison Sting` (Slot 3).
+   - Quick Poké Mart stop at `(23, 13)`: sell `Nugget` (+¥5,000) & `TM34 (Bide)` (+¥1,000), buy `Repel`s (`¥350` each) to breeze through **Rock Tunnel** with `NAUTILUS` Lv. 27 leading!
+   - Walk north up **Route 6** -> **Underground Path** *(pick up hidden `Full Restore` at `(3, 20)`!)* -> **Route 5** -> **Cerulean City**.
+2. **Cerulean City -> Route 9 -> Route 10 -> Rock Tunnel**:
+   - Redeem **`BIKE VOUCHER`** at **Cerulean Bike Shop (`(6, 25)`)** for the fast **`BICYCLE`**!
+   - Cut bush east of Cerulean onto **Route 9** -> traverse Route 9 -> heal at **Route 10 Pokémon Center** (registers checkpoint right outside Rock Tunnel!).
+   - Traverse **Rock Tunnel** using `latest_grid.png` (no `Flash` needed!) + `Repel`s with `NAUTILUS` Lv. 27+ on point -> reach **Lavender Town**.
+3. **Lavender Town -> Route 8 -> Celadon City**:
+   - Heal at Lavender Pokémon Center (registers Lavender checkpoint for post-Silph Scope return!).
+   - Walk west across **Route 8** -> **Underground Path (7–8)** -> **Route 7** -> **Celadon City**.
+4. **Celadon City Power-Ups & Gym Leader Erika (Rainbow Badge)**:
+   - Celadon Dept. Store Rooftop: buy `Fresh Water` (`x2`), `Soda Pop`, `Lemonade` -> trade `Fresh Water` to rooftop girl for **`TM13 (Ice Beam)`** (teach 90-BP `Ice Beam` to `NAUTILUS`!).
+   - Route 16 (west of Celadon): Cut bush -> catch `Doduo` or `Spearow` (**give a creative nickname!**) -> obtain **`HM02 (Fly)`** in secret house!
+   - Rocket Game Corner (`Poster` -> B1F–B4F -> Giovanni) -> obtain **`SILPH SCOPE`**.
+   - Cut into **Celadon Gym** -> sweep **Erika** (`Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29`) with `Ice Beam` for **Rainbow Badge** (#4)!
