@@ -427,32 +427,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: 4 Revives and 1 Full Heal 100% visually verified in Items pocket! Money: ¥1,041. Advancing through central gate (9, 1) into Room 1 to challenge Sidney!
-- Party: SAGE Lv 84 Lead (251/251 HP, 247 Speed, 204 SpA, 187 Atk). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 sacrificial anchors fully conscious and ready.
-- Bag: 4 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥1,041 cash.
-- Battle Strategy:
-  - Room 1 Sidney: Facade vs Mightyena, Aerial Ace vs Absol, Shiftry (4x), Cacturne (4x), Bullet Seed vs Crawdaunt (2x). Prize: ¥4,900.
-  - Room 2 Phoebe: Bullet Seed vs Dusclops #1 & #2, Aerial Ace vs Banette #1 to absorb Grudge, Bullet Seed vs Sableye & Banette #2. Prize: ¥5,100.
-  - Room 3 Glacia: Overgrow Bullet Seed vs Sealeos & Walrein, physical Facade vs Glalies. Prize: ¥5,300.
-  - Room 4 Drake: 2HKO Shelgon, Flygon, Altaria with Facade. 4 Revives ready for Kingdra & Salamence! Prize: ¥5,500.
-  - Champion Wallace: STAB Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic. Facade vs Ludicolo!
+- Status: Room 1 Sidney in progress! SAGE Lv 84 (159/251 HP, 247 Speed). In Bag: 4 Revives, 1 Full Heal, ¥1,041.
+- Party: SAGE Lv 84 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
+- Room 1 Sidney Battle Progress:
+  - Mightyena Lv 46 (#1): Intimidate cut Atk; SAGE hit with Facade (~75% dmg), Mightyena used Sand-Attack; SAGE finished with Aerial Ace (infinite accuracy). DEFEATED!
+  - Absol Lv 49 (#2, Pressure): SAGE hit with Aerial Ace (~65% dmg), Absol used Swords Dance; SAGE hit with Aerial Ace (dropped Absol to red), Absol used +2 Aerial Ace (92 dmg, SAGE at 159/251 HP); SAGE finished with Aerial Ace. DEFEATED!
+  - Shiftry Lv 48 (#3, Grass/Dark): SAGE struck first with Aerial Ace (dropped Shiftry to ~15% HP), Shiftry used Double Team. Finishing with Aerial Ace (bypasses Double Team evasion)!
+  - Upcoming: Cacturne Lv 46 (#4, 4x weak to Flying), Crawdaunt Lv 48 (#5, 2x weak to Grass). Prize: ¥4,900.
 
-- Ascending Grand Staircase and entering Room 1 to challenge Sidney!
-- Turn 35: Challenging Sidney at (6, 6) in Room 1. SAGE Lv 84 (251/251 HP, 247 Speed) leading off. Attempt 13 battle initiated!
-  - Room 1 Sidney: Battle transition started. SAGE Lv 84 (251/251 HP) vs lead Mightyena Lv 46. Advancing through intro to battle menu.
-  - Turn 1: Intimidate lowered Attack. Selecting FIGHT, clamping Down+Left to Slot 3 Facade against lead Mightyena Lv 46.
-    - Turn 1: SAGE struck first with Facade, dropping Mightyena to ~25% HP! Mightyena used Sand-Attack. SAGE at 251/251 HP.
-    - Turn 2: Clamping Up+Right to Slot 2 Aerial Ace (infinite accuracy, bypasses Sand-Attack!) to KO Mightyena!
-    - Mightyena Lv 46: DEFEATED by Aerial Ace! SAGE at 251/251 HP.
-  - Absol Lv 49 (#2): Pressure. SAGE strikes first with Aerial Ace (Slot 2: Up, Right, A).
-    - Turn 3: SAGE at 251/251 HP. Cursor on BAG. Stepping Left to FIGHT, clamping Up+Right to Slot 2 Aerial Ace vs Absol Lv 49.
-    - Turn 3: SAGE struck first with Aerial Ace, dropping Absol to ~35% HP! Absol used Swords Dance (0 dmg to SAGE). SAGE at 251/251 HP.
-    - Turn 4: Clamping Up+Right to Slot 2 Aerial Ace to KO Absol!
-    - Turn 4: SAGE struck with Aerial Ace, dropping Absol to ~5% red HP! Absol used +2 Aerial Ace (92 dmg, SAGE at 159/251 HP).
-    - Turn 5: Clamping Up+Right to Slot 2 Aerial Ace to KO Absol!
-    - Absol Lv 49: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
-  - Shiftry Lv 48 (#3): Grass/Dark. Declining switch, clamping Up+Right to Slot 2 Aerial Ace (Super Effective) to strike Shiftry!
-    - Turn 6: Shiftry Lv 48 (#3) on field. Main menu cursor on BAG. Stepping Left to FIGHT, clamping Up+Right to Slot 2 Aerial Ace (Super Effective) to strike Shiftry!
 
 <hr>
 
@@ -5123,7 +5105,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Ready! 4 Revives purchased (¥1,041 remaining). SAGE Lv 84 (251/251 HP, all PP full). Bag: 4 Revives, 1 Full Heal. Advancing to central gate (9, 1) to challenge Sidney in Room 1!
+- Status: Attempt 13 Active! Room 1 Sidney in progress: Mightyena & Absol DEFEATED. SAGE Lv 84 (159/251 HP, 247 Speed). Bag: 4 Revives, 1 Full Heal, Money: ¥1,041. Sweeping Sidney's team!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 251/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
