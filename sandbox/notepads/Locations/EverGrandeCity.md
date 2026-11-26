@@ -133,3 +133,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Turn 1: Intimidate lowered Attack. Selecting FIGHT, clamping Down+Left to Slot 3 Facade against lead Mightyena Lv 46.
     - Turn 1: SAGE struck first with Facade, dropping Mightyena to ~25% HP! Mightyena used Sand-Attack. SAGE at 251/251 HP.
     - Turn 2: Clamping Up+Right to Slot 2 Aerial Ace (infinite accuracy, bypasses Sand-Attack!) to KO Mightyena!
+    - Mightyena Lv 46: DEFEATED by Aerial Ace! SAGE at 251/251 HP.
+  - Absol Lv 49 (#2): Pressure. SAGE strikes first with Aerial Ace (Slot 2: Up, Right, A).
