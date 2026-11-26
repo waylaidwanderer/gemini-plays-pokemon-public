@@ -207,6 +207,8 @@ def name_buttons(word):
   - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8–10 `B` presses (`"sleep 650"`) per round when stat-drop or poison ticks occur (Turns 83, 95).
 - **Catching & Nickname Safety (Verified Turns 66–75)**:
   - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
+- **Evolution `B`-Cancel Warning**:
+  - Pressing `B` during a post-battle evolution animation (`"What? <POKEMON> is evolving!"`) **cancels the evolution** in Gen 1! When a Pokémon is at `Lv 15` (`NAUTILUS` -> Wartortle at Lv 16, `AMETHYST` -> Nidorina at Lv 16), use **`A`** (or wait ~12s without `B`) after winning a battle that crosses the Level 16 threshold!
 - **Coordinate Behavior in Battles & Warps**:
   - `mgba.get_coordinates()` continues returning the underlying overworld `(x, y)` during battles (`<GameState>` omits `<Position>` when in battle).
   - Step-by-step `before == after` comparison reliably detects wild encounters in tall grass; following a blocked grass step with `["sleep 800", "B"] * 8` (~6.4s) lands cleanly on `►FIGHT`.
