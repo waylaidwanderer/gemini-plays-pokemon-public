@@ -22,7 +22,7 @@
 - Revive x4 (1 consumed on SAGE vs Walrein; 4 remaining for Drake & Wallace)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥10,670 (earned ¥5,100 from Phoebe; 5 Revives intact!)
+- Money: ¥15,970 (earned ¥5,300 from Glacia; 4 Revives intact!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -32,7 +32,7 @@
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 14, Turn 26811)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 13, Turn 26752)!
+    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

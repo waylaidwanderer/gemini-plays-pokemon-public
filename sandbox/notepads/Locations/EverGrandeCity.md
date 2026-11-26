@@ -69,7 +69,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 3 Glacia: Glalie Lv 50 (#4) DEFEATED by Facade! Glacia sending in her 5th and final Pokémon, Glalie Lv 52 (#5). SAGE Lv 86 at 92/257 HP (~168 Speed) outspeeds Glalie (~100 Speed) to strike with physical Facade (Slot 3)!
+- Status: Room 3 Glacia: ALL 5 DEFEATED! Sealeo #1 & #2 swept; Ace Walrein defeated via Sacrificial Revive; Glalie #4 & #5 2HKO'd by physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 14)! Prize: ¥5,300 (Total funds: ¥15,970). Door to Room 4 (Drake) unlocked!
+- Next: Advance through Room 3 doorway at (6, 0), ascend Grand Staircase, and challenge Drake in Room 4!
 - Milestone Progress:
   - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned.
   - Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥5,100 earned.
