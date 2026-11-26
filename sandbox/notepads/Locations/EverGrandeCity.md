@@ -128,7 +128,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 2 Phoebe: Turn 1 Aerial Ace dropped Banette Lv 49 (#3) to ~15% HP; Banette used Shadow Ball (SAGE at 46/257 HP, Overgrow ACTIVE!). SAGE outspeeds and strikes with Aerial Ace (Slot 2) to finish Banette, absorbing Grudge on Aerial Ace to protect Bullet Seed, advancing to Sableye Lv 50 (#4)!
+- Status: Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1 DEFEATED! Sableye used Double Team at ~30% HP (SAGE at 46/257 HP, Overgrow ACTIVE). SAGE strikes with unmissable Aerial Ace (Slot 2) to defeat Sableye and face final Banette Lv 49 (#5)!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
