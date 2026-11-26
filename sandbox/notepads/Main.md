@@ -67,3 +67,5 @@
 - Level 84 SAGE Benchmark: Max HP 251, Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Overgrow activates at <= 83 HP.
 - Protect Pressure PP Depletion: Attacking into an opponent's Protect while Pressure is active consumes 2 PP.
 - Phoebe Grudge Protection Protocol: Aerial Ace must have >= 1 PP when Banette #1 enters so Grudge depletes Aerial Ace rather than STAB Bullet Seed.
+- Battle Menu Cursor Persistence: After opening or using an item from the Bag in battle, the main battle menu cursor remains on BAG (FIGHT ▶BAG). To select FIGHT, you MUST press Left first!
+- Overgrow Activation Proof: SAGE at 26/251 HP successfully has Overgrow active (<= 83 HP threshold), boosting Grass moves by 1.5x. Dusclops Lv 51 Ice Beam only dealt 31 dmg to Lv 84 SAGE.

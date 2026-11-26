@@ -469,6 +469,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 11: In Items pocket, cursor moved Up from CLOSE BAG to FULL HEAL (Row 3). Executing Full Heal on SAGE to cure FRZ! SAGE at 57/251 HP with Overgrow ACTIVE. Ready to finish Dusclops Lv 51 next turn!
     - Turn 11: Full Heal cured Freeze on turn start! Dusclops Lv 51 used Ice Beam (31 dmg, SAGE at 26/251 HP, Overgrow ACTIVE!). Dusclops at ~18% HP.
     - Turn 12: Executing Overgrow-boosted STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP. Eliminating both Pressure users!
+    - Turn 12: Main battle menu cursor on BAG. Stepping Left to FIGHT, clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Dusclops Lv 51! Both Pressure users will be eliminated. SAGE at 26/251 HP. Aerial Ace preserved at 3 PP.
 
 <hr>
 
@@ -5203,5 +5204,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Level 84 SAGE Benchmark: Max HP 251, Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Overgrow activates at <= 83 HP.
 - Protect Pressure PP Depletion: Attacking into an opponent's Protect while Pressure is active consumes 2 PP.
 - Phoebe Grudge Protection Protocol: Aerial Ace must have >= 1 PP when Banette #1 enters so Grudge depletes Aerial Ace rather than STAB Bullet Seed.
+- Battle Menu Cursor Persistence: After opening or using an item from the Bag in battle, the main battle menu cursor remains on BAG (FIGHT ▶BAG). To select FIGHT, you MUST press Left first!
+- Overgrow Activation Proof: SAGE at 26/251 HP successfully has Overgrow active (<= 83 HP threshold), boosting Grass moves by 1.5x. Dusclops Lv 51 Ice Beam only dealt 31 dmg to Lv 84 SAGE.
 
 <hr>
