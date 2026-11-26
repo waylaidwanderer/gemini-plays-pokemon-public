@@ -318,9 +318,9 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires Settling, FIVE `A`s & Verification!)**:
-  - Add `"sleep 500"` after stepping onto `(3, 3)` facing `Up` so the first `A` is never dropped during step completion, then run `["A", "sleep 900"] * 4 + ["A", "sleep 10500"]` followed by `for _ in range(8): if mgba.get_coordinates()["y"] > 3: break; tools.press_buttons(["B", "sleep 600", "Down", "sleep 300"])`.
-  - *(Verified Turns 162, 188, 246–248: in Turn 246 a dropped first `A` caused the 5th `A` to stop on `►HEAL / CANCEL` where `B` cancelled the heal! Always include a `"sleep 500"` pre-settle at `(3, 3)` and verify party HP afterward.)*
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — NEVER Wall-Bump `Up` at `(3, 3)`, Use FIVE `A`s & Verify!)**:
+  - Stepping from `(3, 4)` onto `(3, 3)` already leaves the player facing `Up`; **NEVER press an extra `"Up"` while already at `(3, 3)`**, because bumping into the counter wall triggers a Gen 1 wall-bump animation lockout that drops subsequent `"A"` inputs (root cause verified in Turns 266–268!).
+  - After arriving cleanly at `(3, 3)` from `(3, 4)` + `"sleep 500"`, run `["A", "sleep 1000"] * 4 + ["A", "sleep 11500"]` followed by `["B", "sleep 700"] * 4` and `Down * 5` (`(3,3) -> (3,7) -> outside`), and always verify green HP bars afterward.
 - **4-Move TM / Level-Up Move Replacement Sequence (Verified Turns 235–237)**:
   - Prompts: `"trying to learn <NEW>! ▼"` -> `"can't learn more than 4 moves! ▼"` -> `"Delete an older ▼"` -> `"move to make room for <NEW>?"` (`►YES / NO` — note the TWO line-scrolls!) -> `"Which move should be forgotten?"` (`Down * k`, `A`) -> `"1, 2 and... Poof! ▼"` -> `"forgot <OLD>! ▼"` -> `"And... ▼"` -> `"learned <NEW>! ▼"`.
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
