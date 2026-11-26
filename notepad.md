@@ -197,7 +197,9 @@
 ## Mt. Moon B2F Main Floor
 - **Entry Ladder (from B1F `(21, 17)`)**: Spawns at `(21, 17)`.
 - **Verified East & South Ring to Fossil Corridor**:
-  - `(21, 17) -> (23, 17) -> (23, 13) -> (27, 13) -> (27, 16) -> (32, 16)` (bypasses `(29, 17)` Rocket Grunt along `y = 16`) -> `(32, 12) -> (36, 12) -> (36, 24) -> (33, 24) -> (33, 32) -> (10, 32)`.
+  - `(21, 17) -> (23, 17) -> (23, 13) -> (27, 13) -> (27, 16) -> (32, 16)` (bypasses `(29, 17)` Rocket Grunt along `y = 16`) -> `(32, 12) -> (36, 12) -> (36, 24) -> (33, 24) -> (33, 32) -> (11, 32) -> (11, 19)` (Rocket Grunt #4 defeated Turn 233) -> `(12, 16) -> (12, 9) -> (13, 8)` (**Super Nerd Miguel**, defeated Turn 240).
+  - **Fossils**: Dome Fossil at `(12, 6)`, **Helix Fossil** at **`(13, 6)`** — Claimed Helix Fossil (Turn 241).
+  - **Exit to Route 4 East**: `(13, 7) -> (13, 4) -> (5, 4) -> (3, 4) -> (3, 6) -> (5, 7)` ladder -> B1F Exit Corridor `(23, 3) -> Right * 4 -> (27, 3)`.
 
 
 <hr>
