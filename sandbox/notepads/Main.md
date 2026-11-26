@@ -14,7 +14,7 @@
 - [x] `S.S. Ticket` Obtained from Bill (Sea Cottage, Turn 343)
 - [x] Cascade Badge — Misty (Cerulean City, Turn 351)
 - [x] S.S. Anne Cleared — Rival `GARNET` Defeated & `HM01 (Cut)` Obtained (Turns 432–434)
-- [ ] Thunder Badge — Lt. Surge (Vermilion City)
+- [x] Thunder Badge — Lt. Surge (Vermilion City, Turn 449)
 - [ ] Rainbow Badge — Erika (Celadon City)
 - [ ] Soul Badge — Koga (Fuchsia City)
 - [ ] Marsh Badge — Sabrina (Saffron City)

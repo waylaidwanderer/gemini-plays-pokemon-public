@@ -16,7 +16,7 @@
 - [x] `S.S. Ticket` Obtained from Bill (Sea Cottage, Turn 343)
 - [x] Cascade Badge — Misty (Cerulean City, Turn 351)
 - [x] S.S. Anne Cleared — Rival `GARNET` Defeated & `HM01 (Cut)` Obtained (Turns 432–434)
-- [ ] Thunder Badge — Lt. Surge (Vermilion City)
+- [x] Thunder Badge — Lt. Surge (Vermilion City, Turn 449)
 - [ ] Rainbow Badge — Erika (Celadon City)
 - [ ] Soul Badge — Koga (Fuchsia City)
 - [ ] Marsh Badge — Sabrina (Saffron City)
@@ -312,7 +312,8 @@
 - **Access**: Chop the `Cut` bush at **`(15, 18)`** from `(15, 17)` using `AMBER`'s `CUT`, then walk `(15, 17) -> (15, 20) -> (12, 20) -> Up` into `(12, 19)` (spawns indoors at `(4, 17)`).
 - **5x3 Trash-Can Grid**:
   - Columns: **`x in {1, 3, 5, 7, 9}`** | Rows: **`y in {7, 9, 11}`**.
-  - Open horizontal aisles at `y = 12` and `y = 10` allow checking all 10 cans in rows `y = 11` and `y = 9` without trainer aggro; Rocker Luca stands at `(3, 8)` facing `Left`.
+  - Open horizontal aisles at `y = 12` and `y = 10`; Sailor Dwayne (`Pikachu Lv 21 x2`) on `x = 0`, Rocker Luca at `(3, 8)` facing `Left`, Gentleman Tucker (`Pikachu Lv 23`) at `(9, 6)` facing `Left`.
+  - Solved lock via `(1, 11)` -> `(3, 11)` (Turn 447); defeated **Gym Leader Lt. Surge** at `(5, 1)` (`Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24`) for **Thunder Badge** + **`TM24 (Thunderbolt)`** (Turn 449).
 
 
 <hr>
