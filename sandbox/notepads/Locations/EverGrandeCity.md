@@ -128,7 +128,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 1 Sidney: Mightyena and Absol DEFEATED! Facing Shiftry Lv 48 (#3). SAGE Lv 85 at 127/254 HP (250 Speed) outspeeds Shiftry (~95 Speed). Clamping to Slot 2 Aerial Ace (Up, Right) for super effective OHKO, advancing to Cacturne Lv 46 (#4)!
+- Status: Room 1 Sidney: Mightyena & Absol DEFEATED! Turn 1 Aerial Ace dropped Shiftry to ~15% HP; Shiftry used Double Team (SAGE untouched at 127/254 HP). SAGE outspeeds and strikes with unmissable Aerial Ace (Slot 2) to finish Shiftry and face Cacturne Lv 46 (#4)!
 - Party: SAGE Lv 85 (Lead, 254/254 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
 - Bag: 5 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥670 cash.
 - Plan:
