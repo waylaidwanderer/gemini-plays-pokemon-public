@@ -134,3 +134,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Crawdaunt Lv 48 (#5, Final): Bullet Seed dealt ~90% damage, dropping Crawdaunt to ~10% HP! Crawdaunt counter-attacks, SAGE finishing next turn.
     - Crawdaunt Lv 48 (#5, Final): DEFEATED! SAGE finished Crawdaunt with Bullet Seed! ALL 5 OF SIDNEY'S POKÉMON DEFEATED!
   - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26573)! Prize: ¥4,900 earned (Total cash: ¥5,383). Door to Room 2 (Phoebe) unlocked!
+
+  - Room 2 Phoebe: Facing Phoebe at (6, 6) in Room 2 (Attempt 12, Turn 26577)! SAGE Lv 84 (172/251 HP, 247 Speed, 29 Bullet Seed PP, 9 Aerial Ace PP). Plan: Use Aerial Ace / Bullet Seed (never Normal moves!), sacrifice Aerial Ace to Banette's Grudge, sweep all 5 Ghosts!
