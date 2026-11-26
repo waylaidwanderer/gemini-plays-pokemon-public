@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309), double-evolved **KAISER into Lv 16 Nidoking** (turns 343–347), and defeated the mandatory Mt. Moon B2F Lv 16 Raticate Rocket Grunt (turn 356)! Clearing the rest of Mt. Moon B2F (items + fossil + exit) to reach Cerulean City.
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (defeated Raticate Grunt turn 356 & Super Nerd Miguel turn 389, claimed **Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), healed at Cerulean Center `(19,17)` (turn 401), and restocking 6 Potions at Cerulean Mart `(25,25)` (turn 406). Heading north to Nugget Bridge (Route 24/25) & Bill's House before Misty!
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -26,9 +26,9 @@
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 16 (13/56 HP, ~95% to Lv 17; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved Nidorino (Rare Candy turn 343) -> **Nidoking** (Moon Stone turn 347)!
-- **RIPTIDE** (Wartortle, Slot 2) - Lv 16 (46/46 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
-- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3 | **Cash:** ¥1114 | **Respawn:** Route 4 Mt. Moon Center `(11,5)`
+- **RIPTIDE** (Wartortle, Lead/Slot 1) - Lv 17 (48/48 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
+- **KAISER** (Nidoking, Slot 2) - Lv 16 (56/56 HP, ~95% to Lv 17; Leer, Tackle, **Horn Attack**, Poison Sting; learns Thrash at Lv 23) — evolved turn 347
+- **Bag:** Poké Ball x8, TM34 (Bide), Antidote x3, Helix Fossil, Potion x6 (purchasing turn 406) | **Cash:** ¥4 (after 6 Potions) | **Respawn:** Cerulean City Center `(19,17)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
