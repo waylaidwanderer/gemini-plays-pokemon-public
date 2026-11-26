@@ -439,7 +439,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Next: Return to Room 3 overworld, navigate around Glacia at (6, 5) to north doorway at (6, 0), ascend Grand Staircase, and challenge Drake in Room 4!
+- Next: Navigating through Room 3 doorway at (6, 0), ascending Grand Staircase, and arriving before Elite Four Drake at (6, 6) in Room 4!
 
 <hr>
 
@@ -5155,6 +5155,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
 - Party Swap Mechanic on Forced Replacement (Turn 26732 Discovery): In Gen 3 Pokémon Emerald, when a Pokémon faints and a replacement is chosen from the party screen, the incoming replacement swaps positions with the outgoing Pokémon in the party order. Because Lilz was sent in after Sage fainted in Room 2, Lilz became Slot 1 and Sage became Slot 2. Therefore, party targeting rows dynamically follow these swaps. Always verify the target's name plate on the screen before confirming item use!
 - In-Battle Party Targeting Grid Verified Layout (Turn 26732 Visual Proof): On the in-battle party medicine targeting screen, the right column does NOT strictly put Slot 1 at Row 1. In Turn 26732 Frame 56, when Cipher was in the Left Box, Row 1 was LILZ (Lv 30) and Row 2 was SAGE (Lv 85, FNT). To target SAGE when Row 1 is Lilz, you MUST press Right then DOWN to Row 2! Always inspect the name tag in the highlighted box to confirm the target is SAGE before pressing A!
+- Party Screen Visual & Cancel Navigation Mechanics (Turn 26740-26746 Discovery): In Gen 3 Pokémon Emerald's party screens, panel background colors indicate health status: Blue = Conscious, Orange/Red-Brown = Fainted. The actual cursor is indicated by a thick orange bounding box around the active panel. Pressing B on the party replacement screen jumps the cursor directly to the CANCEL button at the bottom-right. From CANCEL, pressing Up steps vertically up the right column (Row 5 -> Row 4 -> Row 3 -> Row 2 -> Row 1).
 - Light Screen Physical Bypass: Light Screen only mitigates Special damage; physical moves like Facade and Quick Attack deal 100% full unmitigated damage.
 - Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
 
