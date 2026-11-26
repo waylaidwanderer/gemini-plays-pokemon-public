@@ -431,6 +431,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sacrificial Revive impossible due to 0 Revives in Bag. Lilz active vs Banette (~15% HP). Concluding battle via whiteout to reset at Lobby Mart, correctly purchase Revives, and launch Attempt 13!
 
 - Concluding Attempt 12: Lilz fainted. Sending in Cipher, Cobalu, Mochi, and Guava to resolve battle to whiteout.
+- Turn 15: Selecting next conscious anchor (Cipher/Cobalu) from Right Column to advance toward whiteout.
 
 <hr>
 
