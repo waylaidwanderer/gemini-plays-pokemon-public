@@ -22,9 +22,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 12, Turn 26573)!
-    - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
-    - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 13, Turn 26675)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 13, Turn 26712)!
+    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 13, Turn 26752)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -129,4 +129,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Room 4 Drake: Shelgon absorbed Turn 1 Facade with Protect. Turn 2: SAGE (250 Speed) outspeeds and strikes with physical Facade (Slot 3) to drop Shelgon to ~30% HP!
+- Room 4 Drake: Turn 2 Facade dropped Shelgon to ~30% HP; Shelgon counter-attacked with Rock Tomb (dealt 16 dmg, SAGE at 96/254 HP, -1 Speed). Turn 3: SAGE strikes with Facade (Slot 3) anticipating Full Restore or finishing KO!
