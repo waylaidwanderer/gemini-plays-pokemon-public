@@ -128,7 +128,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 2 Phoebe: Bullet Seed critical hit dropped lead Dusclops to ~10-15% HP! SAGE at 109/257 HP. Advancing turn text to observe Dusclops's counter-action and settle onto battle menu.
+- Status: Room 2 Phoebe: Lead Dusclops Lv 48 DEFEATED! Facing Dusclops Lv 51 (#2). SAGE Lv 86 at 109/257 HP (253 Speed) outspeeds cleanly. Clamping to Slot 1 Bullet Seed (Up, Left) for STAB damage; preserving Aerial Ace for Banette #1 Grudge absorption!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
