@@ -79,10 +79,15 @@ def name_buttons(word):
   - Prompts: `"trying to learn <NEW>! ▼"` -> `"can't learn more than 4 moves! ▼"` -> `"Delete an older ▼"` -> `"move to make room for <NEW>?"` (`►YES / NO` — note the TWO line-scrolls!) -> `"Which move should be forgotten?"` (`Down * k`, `A`) -> `"1, 2 and... Poof! ▼"` -> `"forgot <OLD>! ▼"` -> `"And... ▼"` -> `"learned <NEW>! ▼"`.
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
   - Cave exit mats (e.g., Mt. Moon 1F `(14, 35)`) warp **immediately upon stepping onto the tile**, whereas building exit mats (e.g., Pokémon Center `(3, 7)`) require pressing `Down` while standing on the mat.
-- **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198)**:
-  - Cap automated battle loops in `mcp_game_run_code` at **3–4 rounds max (~40–55s)** so slow enemy moves/status text never approach the 120s script wall-clock timeout.
+- **Multi-Round Battle Loop Pitfalls & Timeout Guardrails (Verified Turns 181–186, 198, 355)**:
+  - Cap automated battle loops in `mcp_game_run_code` at **2–3 rounds max (~35–50s)** with `9–10` `B` presses (`750ms` each) so trainer intros + status/multi-box animations (`Hypnosis`/`Disable`/level-ups) never approach the 120s script wall-clock timeout (Turn 355 timed out on intro + 4 rounds x 14 `B`s).
   - If the lead Pokémon faints during an automated `["A", "A", "B"*8]` battle loop, `"Use next POKéMON?"` opens the Party list where `A` sends out Slot 1 (or repeats `"There's no will to fight!"` if cursor is on the fainted Pokémon).
   - **Safe Switch-Training**: Always place the low-level trainee in Slot 0 *before* battle and switch *out* on Turn 1 (zero damage taken by trainee), rather than switching a frail trainee *in* mid-battle into an incoming attack.
+- **Field-Move Party Submenu Shift & Gen 1 TM Quirks (Verified Turns 358, 361)**:
+  - Teaching a field move (`DIG`, `CUT`, `SURF`, `FLY`, `STRENGTH`) inserts that move at Row 0 of that Pokémon's overworld `Start -> POKéMON` submenu (`►DIG / STATS / SWITCH / CANCEL` — 4 rows, `SWITCH` is `Down * 2`), whereas Pokémon without field moves retain the 3-row submenu (`►STATS / SWITCH / CANCEL` — `SWITCH` is `Down * 1`).
+  - `Nidoqueen` is `NOT ABLE` to learn `TM28 (Dig)` in Generation I (she learns `TM26 Earthquake` instead), whereas `Squirtle`/`Wartortle`/`Blastoise` and `Paras` ARE `ABLE`.
+- **Overworld Grid File Availability (`latest_grid.png`, Verified Turn 370)**:
+  - `screenshots/latest_grid.png` is omitted/removed whenever `<GameState>` has no `<Position>` (including when a step triggers a trainer `[!]` walk-up or wild encounter flash). Do not batch `read_file` on `latest_grid.png` when walking across tall grass or trainer sightlines.
 - **Ladder `back_d` Pitfall & `known_open_move` (Verified Turns 202–205)**:
   - Never run a `back_d` wall-probe when standing 1 tile off a ladder warp (`back_d` steps right back onto the ladder and re-warps floors!). First step 2+ tiles clear of any ladder using `known_open_move` (which flees wild encounters in place without stepping backward).
 
