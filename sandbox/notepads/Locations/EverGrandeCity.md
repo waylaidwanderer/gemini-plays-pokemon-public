@@ -128,3 +128,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Turn 19: Navigating Right, Down, Down from Left Box to select Cobalu (Row 3, Aron Lv 18), sending into battle and attacking.
 - Turn 20: Cobalu fainted. Sending out final Pokémon Guava (Tropius Lv 30) to attack and conclude Attempt 12 via whiteout.
 - Turn 21: Navigating Right, Down x3 to select Guava (Slot 5, conscious), sending out to attack and conclude Attempt 12 via whiteout.
+- Turn 22: Navigating Right, Down x4 to select Guava (Row 5, Tropius Lv 30), confirming SEND OUT, attacking, and completing whiteout reset.
