@@ -427,16 +427,16 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: Room 2 Phoebe in progress! SAGE Lv 84 (~65/251 HP, Overgrow ACTIVE, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941.
-- Party: SAGE Lv 84 (Lead), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
+- Status: Room 2 Phoebe in progress! SAGE Lv 84 (94/251 HP, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941 cash.
+- Party: SAGE Lv 84 (Lead, 94/251 HP), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
 - Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900 (Total: ¥5,941). Door unlocked!
 - Room 2 Phoebe Battle Summary:
   - Dusclops Lv 48 (#1): Dusclops used Protect twice, took Bullet Seed (~30% dmg), then used Curse and fainted from self-inflicted damage! SAGE cursed at 159 HP. DEFEATED!
   - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
   - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
-  - Sableye Lv 50 (#4): SAGE struck first with Bullet Seed, took hit (activating Overgrow!), and finished Sableye with Bullet Seed! DEFEATED!
-  - Upcoming: Banette Lv 49 (#5, final Pokémon). Preparing Overgrow Bullet Seed to sweep!
+  - Sableye Lv 50 (#4): SAGE hit with Bullet Seed (~50% dmg); Phoebe burned her Full Restore on Sableye; SAGE countered with Bullet Seed! Finishing Sableye with Bullet Seed!
+  - Upcoming: Banette Lv 49 (#5, final Pokémon). Sweeping with Bullet Seed to clear Room 2!
 
 
 <hr>
@@ -5108,10 +5108,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1, and Sableye DEFEATED! SAGE active (Overgrow active). 3 Revives in Bag. Sweeping final Banette #2!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1 DEFEATED! Phoebe burned Full Restore on Sableye. SAGE active (94/251 HP). 3 Revives in Bag. Sweeping Sableye & final Banette #2!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 65/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (15/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 94/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (14/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
