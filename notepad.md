@@ -25,15 +25,15 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 29 (`44/77` HP) | Moves: BubbleBeam, Mega Punch, Dig, Bite
+1. **NAUTILUS** (Wartortle) — Lv. 30 (`17/80` HP) | Moves: BubbleBeam, Mega Punch, Dig, Bite
 2. **AMETHYST** (Nidoqueen) — Lv. 27 (`25/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥16,500 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥18,500 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bicycle, HM01 (Cut)
-- Bag: Repel x6 (Slot 0), TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Max Ether x1, HM01 (Cut), Super Potion x4, Poké Ball x7, X Special x1, Bicycle, TM30 (Teleport)
+- Bag: Repel x5 (Slot 0), TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Max Ether x1, HM01 (Cut), Super Potion x4, Poké Ball x7, X Special x1, Bicycle, TM30 (Teleport)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -304,7 +304,12 @@
     - At `(23, 16)` (`y = 14..15` wall), step to `y = 17`, walk east to `x = 32`, north to `(32, 10)` *(trainer at `(30, 10)` bypassed via east side `x = 34`)*, north to `(34, 5)` (**Hiker Eric**: `Machop Lv 20, Onix Lv 20`, defeated Turn 520), then via `(35, 3)` west onto **Ladder #2 at `B1F (27, 3)`** -> warps to **`1F (5, 3)`**!
 - **1F Section 2 (Northwest -> Center, Verified Turns 520–525)**:
   - Arrives at **`1F (5, 3)`** *(correction: earlier scratchpad guessed `B1F (27, 3)` led to `1F (17, 11)`, whereas `1F (17, 11)` is actually **Ladder #3** at the end of 1F Section 2!)*.
-  - Walk south down `x = 3..5` (`Hiker` at **`(5, 16)`** facing `Down`, `3` Rock Pokémon, defeated Turn 525) to `(5, 18)` to round the `x = 6..7, y = 0..17` wall east toward `1F (17, 11)`.
+  - Walk south down `x = 3..5` (`Hiker` at **`(5, 16)`** facing `Down`, `3` Rock Pokémon, defeated Turn 525) to `(5, 18)`, east to `(17, 18)`, north via `x = 15` (**Hiker Lucas** at **`(17, 15)`** facing `Left`: `Geodude Lv 21, Graveler Lv 21`, defeated Turn 527) to `(15, 11)`, and east onto **Ladder #3 at `1F (17, 11)`** -> warps down to **`B1F (23, 11)`**.
+- **B1F Section 2 (Northwest Maze -> Ladder #4, Verified Turns 527–545)**:
+  - Arrives at **`B1F (23, 11)`**; walk west to `(14, 11)` *(north `(14, 3)` is a dead end)*, south via `x = 15` around the `x = 12..13` wall to **`(11, 15)`** (**Jr. Trainer♀ Martha**: `Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21`, defeated Turn 535; `NAUTILUS` hit Lv. 30).
+  - Note: `(8, 3)` north and `(3, 24)` southwest are dead ends; the **true passage through the `x = 6..7` wall is the gap at `y = 10..12` (`(6..7, 11)`)**!
+  - Walk north from `(11, 15)` to `(9, 11)`, west to **`(6, 11)`** (**Hiker Dudley** stands at **`(6, 10)`** facing `Down`: `Geodude Lv 21 x2, Graveler Lv 21`, defeated Turn 540), west to `(3, 11)`, and north along `x = 3` toward **Ladder #4 (`B1F (3, 3)`)**:
+    - **Pokémaniac Cooper** (`Slowpoke Lv 20 x3`) triggers at **`(3, 8)`** *(Engine note: if `"REPEL's effect wore off."` triggers on the same step as a Trainer sightline, dismissing the Repel box immediately starts the queued Trainer walk-up before `Start` can open!)*.
 
 
 <hr>
