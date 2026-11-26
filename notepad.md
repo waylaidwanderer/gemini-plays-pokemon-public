@@ -457,6 +457,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51 in red (~8% HP). SAGE fainted to Dusclops attack, wiping Curse clean!
   - Sacrificial Revive Protocol Step 1: Sending out Anchor #1 Lilz (Lombre Lv 30, Slot 2) to execute +6 priority Revive on SAGE!
   - Sacrificial Revive Protocol Step 2: Lilz on field (85/85 HP) facing Dusclops Lv 51 in red (~8% HP). Opening Bag from FIGHT -> BAG to locate Revive and execute +6 priority Revive on SAGE!
+    - Sacrificial Revive Protocol Step 2: Cursor on Full Heal. Moved Down to Revive (Row 4), selected USE, navigated Right then Down to SAGE, confirmed Revive! SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbing Dusclops attack!
+
 
 <hr>
 
@@ -5127,10 +5129,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe in progress: Dusclops #1 DEFEATED. SAGE Lv 84 (3/251 HP, Overgrow ACTIVE, 247 Speed). Bag: 4 Revives, 1 Full Heal, Money: ¥5,941. Firing Overgrow Bullet Seed vs Dusclops Lv 51!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1 DEFEATED. Dusclops #2 at red (~8% HP). Sacrificial Revive executed! SAGE restored to 125/251 HP (Curse wiped). 3 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 251/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5143,7 +5145,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x4 (purchased 4 at League Mart for ¥6,000)
+- Revive x3 (1 consumed on Sacrificial Revive for SAGE)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥5,941 (earned ¥4,900 from Sidney)
