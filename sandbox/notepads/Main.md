@@ -21,15 +21,15 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoran♀) — Lv. 14 | Moves: Scratch, Growl, Tackle, Poison Sting *(Ready for 2x Rare Candy -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
-2. **NAUTILUS** (Wartortle) — Lv. 24 | Moves: Water Gun, Mega Punch, Tackle, Bite *(Replacing Bubble at Lv. 24)*
+1. **AMETHYST** (Nidoqueen) — Lv. 16 (`55/55` HP) | Moves: Water Gun, Scratch, Tackle, Poison Sting *(Evolved Turn 328! Learns Body Slam at Lv. 23!)*
+2. **NAUTILUS** (Wartortle) — Lv. 24 (`51/65` HP) | Moves: Water Gun, Mega Punch, Tackle, Bite
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥6,500 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥7,000 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil
-- Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x2, Moon Stone x1, Nugget x1, TM45 (Thunder Wave)
+- Bag: Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, HP Up x1, Escape Rope x1, Nugget x1, TM45 (Thunder Wave)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
