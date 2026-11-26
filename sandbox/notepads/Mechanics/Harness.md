@@ -67,13 +67,15 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s!)**:
-  - `["A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 900", "A", "sleep 8000", "B", "sleep 700", "B", "sleep 700", "B", "sleep 500"]` (plus bounded `for _ in range(5): if y > 3: break; press(["B", "sleep 600", "Down"])` for larger parties, as each additional party Poké Ball adds ~0.4s to the healing machine animation).
-  - *(Verified Turn 103: `"We heal your POKéMON..."` has TWO `▼` prompts before `"Shall we heal..."`, so 4 `A`s only opens `►HEAL / CANCEL` and `B` cancels it! The 5th `A` confirms `►HEAL`.)*
+- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Requires FIVE `A`s & FOUR `B`s!)**:
+  - `["A", "sleep 900"] * 4 + ["A", "sleep 8500"] + ["B", "sleep 700"] * 4` before stepping `Down` (verified Turn 162: only 3 `B`s left `"We hope to see you again!"` open during the `Down` loop).
 
-## Navigation Scripting Guardrails (Verified Turns 53, 60)
+## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
+- **Battle Quadrant Reset & Battle-vs-Wall Probe**:
+  - The 2x2 battle command menu (`FIGHT / PKMN / ITEM / RUN`) does **not** wrap, so `["Left", "sleep 150", "Up", "sleep 150"]` deterministically resets the cursor to `►FIGHT` from any quadrant, and pressing `Left` or `Up` while already on `►FIGHT` is a pure no-op in battle.
+  - When a step `d` from `b` fails (`after == b`), clearing potential battle intro (`["sleep 1200"] + ["B", "sleep 700"] * 8`) and probing `back_d` (the known-open tile you just came from) cleanly distinguishes a **wall** (`pos != b`) from an active **battle** (`pos == b`), and in Gen 1 `PlayerSpeed >= EnemySpeed` guarantees 100% first-try escape via `RUN`.
 
 
 

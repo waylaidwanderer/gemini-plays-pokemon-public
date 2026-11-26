@@ -22,3 +22,9 @@
 - **South Connection (from Route 3 `(59, 0)`)**: Enters at `(9, 17)` (dodge south ledges `(6, 15)..(9, 15)` via `x = 10..11` and `(7, 11)..(11, 11)` via `x = 12..13`).
 - **Mt. Moon Pokémon Center**: Door at `(11, 5)` (settles last-visited heal checkpoint right outside Mt. Moon!).
 - **Mt. Moon 1F Entrance**: Walk East along `y = 6` from `(11, 6)` to `(18, 6) -> Up` into `(18, 5)`.
+
+## Mt. Moon 1F (`40 x 36`)
+- **Entrance / Exit Mat**: `(14, 35)..(15, 35)` (warps back to Route 4 `(18, 6)`).
+- **Southwest Corridor (`TM12 Water Gun`)**:
+  - From `(14, 35)` walk `Up * 7` to `(14, 28)` -> `Left * 9` to `(5, 28)`.
+  - Item ball at **`(5, 32)`** (`TM12 Water Gun` — visible 4 tiles south of `(5, 28)` in Turn 166 `filmstrip_2.png`).
