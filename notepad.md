@@ -456,6 +456,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 5: SAGE's Overgrow Bullet Seed landed a critical hit, dropping Dusclops Lv 51 to red (~8% HP)! Advancing through Dusclops's counter-attack and Curse resolution.
     - Dusclops Lv 51 in red (~8% HP). SAGE fainted to Dusclops attack, wiping Curse clean!
   - Sacrificial Revive Protocol Step 1: Sending out Anchor #1 Lilz (Lombre Lv 30, Slot 2) to execute +6 priority Revive on SAGE!
+  - Sacrificial Revive Protocol Step 2: Lilz on field (85/85 HP) facing Dusclops Lv 51 in red (~8% HP). Opening Bag from FIGHT -> BAG to locate Revive and execute +6 priority Revive on SAGE!
 
 <hr>
 
