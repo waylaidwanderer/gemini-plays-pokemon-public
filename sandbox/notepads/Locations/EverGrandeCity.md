@@ -139,3 +139,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 1: Dusclops used Protect! SAGE's Aerial Ace blocked. Aerial Ace at 7/20 PP under Pressure. SAGE at 172/251 HP. Preparing Turn 2 strike!
     - Turn 2: Dusclops used Protect (failed!). SAGE struck first with Aerial Ace, dropping Dusclops to ~25% HP! SAGE at 172/251 HP. Aerial Ace at 5/20 PP under Pressure. Launching Turn 3 Aerial Ace!
     - Turn 3: Dusclops used Protect (succeeded!). Aerial Ace blocked, down to 3/20 PP under Pressure. Dusclops at ~25% HP. Switching to STAB Bullet Seed (29 PP) to finish Dusclops and preserve Aerial Ace for Banette #1's Grudge!
+    - Turn 4: Dusclops used Protect (succeeded). Bullet Seed blocked, down to 27/30 PP under Pressure. Dusclops at ~25% HP. Aerial Ace preserved at 3 PP.
+    - Turn 5: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops #1!
