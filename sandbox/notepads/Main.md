@@ -32,7 +32,7 @@
 - **KAISER** (Nidoking, Lead/Slot 1) - Lv 26 (87 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (52 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **PGHP** (Bellsprout, Slot 3) - Lv 17 (44 HP; **Vine Whip**, Growth, **HM01 Cut**, PoisonPowder; learns **Sleep Powder** at Lv 18) — caught turn 485
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x8**, **Repel x5**, **Bike Voucher**, **HM01 (Cut)** | **Cash:** ¥9534+ | **Respawn:** Vermilion City Center `(11,3)`
+- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x8**, **Repel x5**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥9534+ | **Respawn:** Cerulean City Center `(19,17)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
