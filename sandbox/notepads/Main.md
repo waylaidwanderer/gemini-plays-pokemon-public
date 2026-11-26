@@ -34,7 +34,7 @@
 - **KAISER** (Nidoking, Lead/Slot 1) - Lv 31 (103 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x7**, **Repel x1**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥13000+ | **Respawn:** Lavender Town Center `(3,5)`
+- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x7**, **Repel x1**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥15000+ | **Respawn:** Celadon City Center `(41,9)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
