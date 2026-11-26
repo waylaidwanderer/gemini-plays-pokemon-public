@@ -116,12 +116,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 84 Sceptile ♂): 100% restored upon whiteout (251/251 HP, all PP full). All 5 reserve anchors 100% restored.
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
-## Elite Four Attempt 13 (Preparing)
-- Status: At Mart counter (16, 4). Ultra Ball sold (+¥600, total funds ¥7,041).
-- Goal: Purchase 4 Revives (Row 6, ¥1,500 each = ¥6,000, leaving ¥1,041).
-- Party: SAGE Lv 84 (251/251 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
-
-- Set quantity to 4, confirmed purchase for ¥6,000 (remaining cash: ¥1,041), and exited Mart. 4 Revives secured in Bag!
-- Turn 32: Fixed YES/NO confirmation timing (1200ms text delay). Executing purchase of 4 Revives (¥6,000), exiting Mart, and opening Bag to visually verify inventory.
-- Turn 33: Exiting PokéNav with B, opening Start menu, selecting BAG, and inspecting Items pocket to confirm 4 Revives.
-- Turn 34: Selecting BUY, navigating Down x5 to Row 6 (REVIVE) to visually confirm IN BAG: 4 and MONEY: ¥1,041 before entering Room 1.
+## Elite Four Attempt 13 (Ready)
+- Status: Mart transaction 100% verified! Ultra Ball sold (+¥600). Purchased 4 Revives for ¥6,000 (Remaining money: ¥1,041).
+- Bag: 4 Revives (verified), 1 Full Heal, 1 Master Ball, Quick Claw, Macho Brace, ¥1,041 cash.
+- Party: SAGE Lv 84 (251/251 HP, 247 Speed, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
+- Next: Open Bag to confirm inventory, walk to central gate at (9, 1), and launch Attempt 13!
