@@ -6,9 +6,9 @@
 - Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Executing Sacrificial Revive for SAGE Lv 85. Bag: 3 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 47/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive in progress).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Active Battler! HP: 41/41. Moves: Teleport (20/20), Confusion (25/25). Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
@@ -46,20 +46,16 @@
 - Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
 - Move Menu Clamping Guarantee: On the 2x2 move selection screen, pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack).
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
+- In-Battle Universal Party Targeting Rule for SAGE: Because SAGE is in Slot 1 of the party, whenever ANY reserve Pokémon (Slots 2-6) is active in the left box, SAGE is ALWAYS in Row 1 of the right column. Targeting SAGE with a medicine item (like Revive) is achieved simply by pressing Right once from the left box.
 - Light Screen Physical Bypass: Light Screen only mitigates Special damage; physical moves like Facade and Quick Attack deal 100% full unmitigated damage.
 - Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
-- In-Battle Party Targeting Grid (Cobalu Active): When Cobalu (Slot 4) is active in the left box, SAGE is in Row 3 of the right column (reached via Right, Down, Down).
-- In-Battle Party Targeting Grid (Mochi Active): When Mochi (Slot 5) is active in the left box, SAGE is in Row 4 of the right column (reached via Right, Down, Down, Down).
-- In-Battle Party Targeting Grid (Guava Active): When Guava (Slot 6) is active in the left box, SAGE is in Row 5 of the right column (reached via Right, Down, Down, Down, Down).
 
 - Grudge PP Absorption Strategy: When facing an opponent with Grudge (e.g. Phoebe's Banette #1), using an expendable move with low PP (e.g. Aerial Ace) to deliver the KO blow ensures Grudge only wipes the expendable move, completely protecting vital STAB moves (like Bullet Seed) from depletion.
 - Battle Bag Medicine Layout: In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Using Full Heal cures non-volatile status (such as Freeze) instantly on turn start.
 - Level 83 Overgrow Threshold: At Level 83 (max HP 249), Sceptile's Overgrow activates at <= 83 HP (249 / 3 = 83), boosting all Grass-type moves by 1.5x.
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
-- Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- In-Battle Party Targeting Grid (Cipher Active): When Cipher (Slot 3) is active in the left box, Row 1 of the right column is Lilz (Slot 2) and Row 2 is SAGE (Slot 1). To target SAGE when Slot 3 is active, press Right then Down.
-- In-Battle Party Targeting Grid (Lilz Active): Verified via Turn 26691 filmstrip that when Lilz (Slot 2) is active in the left box, Row 1 of the right column is SAGE (Slot 1), and Row 2 is CIPHER (Slot 3). To target SAGE when Lilz is active, simply press Right!
-- Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
+- Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
 - Drake Send-Out Order in Emerald: Drake sends out Shelgon Lv 52 (#1), Flygon Lv 53 (#2), Altaria Lv 54 (#3), Ace Salamence Lv 55 (#4), and Kingdra Lv 53 (#5).
 - Aerial Ace Sand-Attack Bypass: Aerial Ace ignores accuracy and evasion modifiers, guaranteeing a 100% hit rate against Sand-Attack users (such as Sidney's Mightyena).
 - Pokémon League Lobby Mart Navigation: From lobby entrance (9, 11), walk Up x6, Right x7, Up x1 to reach Mart counter (16, 4). Revives are sold at Row 6 for ¥1,500 each.
