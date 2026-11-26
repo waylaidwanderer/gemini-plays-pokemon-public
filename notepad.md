@@ -451,6 +451,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 48 (#1): DEFEATED by self-inflicted Curse damage! SAGE at 159/251 HP.
   - Dusclops Lv 51 (#2): Pressure. Advancing through entrance text and Pressure to main battle menu.
     - Dusclops Lv 51 (#2): Pressure. SAGE at 97/251 HP (under Curse). Clamping Up+Left to Slot 1 Bullet Seed to strike Dusclops Lv 51!
+    - Turn 4: SAGE struck first with Bullet Seed, dropping Dusclops Lv 51 to ~75% HP. Advancing through Dusclops's attack and Curse resolution.
 
 <hr>
 
