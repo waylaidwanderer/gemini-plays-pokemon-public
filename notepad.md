@@ -25,15 +25,16 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 32 (Full HP) | Moves: BubbleBeam, Mega Punch, Dig, Bite
-2. **AMETHYST** (Nidoqueen) — Lv. 27 (Full HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
+1. **NAUTILUS** (Wartortle) — Lv. 33 (`87/87` HP) | Moves: BubbleBeam, Ice Beam, Dig, Bite
+2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
+5. **JASPER** (Spearow) — Lv. 22 | Moves: Peck, Growl, Leer, Fury Attack *(`HM02 Fly` aerial partner)*
 
 ## Inventory & Money
-- Money: ~¥20,000 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥26,067 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bicycle, HM01 (Cut)
-- Bag: Repel x4 (Slot 0), TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Max Ether x1, HM01 (Cut), Super Potion x2, Poké Ball x7, X Special x1, Bicycle, TM30 (Teleport)
+- Bag: Repel x4 (Slot 0), TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Max Ether x1, HM01 (Cut), Super Potion x1, Poké Ball x4, X Special x1, Bicycle, TM30 (Teleport), Fresh Water x2, Lemonade x1
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -54,9 +55,22 @@
 - **Main East-West Boulevard**: `y = 11..13` runs straight from `(41, 12)` to the east wall of Celadon Dept. Store (`x = 14`), dropping to `y = 14` in front of the store doors.
 - **Celadon Department Store**: Doors at **`(8, 13)`** and **`(10, 13)`** (`MART` sign at `(12, 13)`).
 
-## Celadon Department Store Interior (Verified Turns 604–608)
-- Entering `(10, 13)` spawns at **`1F (16, 7)`**.
-- **Stair Visual Rule**: **White treads = UP stairs**; **dark checkerboard stairwell = DOWN stairs**. Stepping onto a stair warp automatically steps the player south onto `y = 2` on the destination floor.
+## Celadon Department Store Interior (Verified Turns 604–618)
+- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`).
+- **Exact Floor-to-Floor Stair Pairs** *(white treads = UP, dark stairwell = DOWN; arriving auto-steps to `y = 2`)*:
+  - `1F (12, 1)` <-> `2F (12, 1)`
+  - `2F (16, 1)` <-> `3F (16, 1)`
+  - `3F (12, 1)` <-> `4F (12, 1)`
+  - `4F (16, 1)` <-> `5F (16, 1)`
+  - `5F (12, 1)` <-> `6F (15, 2)` (Rooftop Square)
+- **6F Rooftop Square**:
+  - Vending Machines at `(11, 1)` and **`(12, 2)`** (`Fresh Water ¥200`, `Soda Pop ¥300`, `Lemonade ¥350`; note `"Clang! ▼"` + `"<DRINK> popped out! ▼"` needs **two** `B` presses per drink).
+  - **Thirsty Girl** wanders around **`(5, 5)`**: trading `Fresh Water` yields **`TM13 (Ice Beam)`** (taught to `NAUTILUS` replacing `Mega Punch`, Turn 617).
+
+## Route 16 — Secret `HM02 (Fly)` Path (Verified Turns 618–629)
+- Exit west of Celadon City along **`y = 18`** onto `Route 16 (39, 10)` *(Snorlax sleeps at `(26, 10)`).*
+- Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)`; upper tall grass `(28..34, 4)` has `Spearow` & `Doduo` (caught Lv. 22 `Spearow` **`JASPER`**, Turn 628).
+- Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
 
 
 <hr>
