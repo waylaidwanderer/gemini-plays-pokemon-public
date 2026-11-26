@@ -19,9 +19,9 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
-2. **NAUTILUS** (Wartortle) — Lv. 17 | Moves: Water Gun, Tail Whip, Tackle, Bubble
-3. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
+1. **NAUTILUS** (Wartortle) — Lv. 18 | Moves: Water Gun, Tail Whip, Tackle, Bubble
+2. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
+3. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 
 ## Inventory & Money
 - Money: ~¥1,700
