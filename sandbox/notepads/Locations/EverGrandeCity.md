@@ -116,8 +116,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 84 Sceptile ♂): 100% restored upon whiteout (251/251 HP, all PP full). All 5 reserve anchors 100% restored.
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
-## Elite Four Attempt 13 (Ready)
-- Status: Mart transaction 100% verified! Ultra Ball sold (+¥600). Purchased 4 Revives for ¥6,000 (Remaining money: ¥1,041).
-- Bag: 4 Revives (verified), 1 Full Heal, 1 Master Ball, Quick Claw, Macho Brace, ¥1,041 cash.
-- Party: SAGE Lv 84 (251/251 HP, 247 Speed, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
-- Next: Open Bag to confirm inventory, walk to central gate at (9, 1), and launch Attempt 13!
+## Elite Four Attempt 13 (Active)
+- Status: 4 Revives and 1 Full Heal 100% visually verified in Items pocket! Money: ¥1,041. Advancing through central gate (9, 1) into Room 1 to challenge Sidney!
+- Party: SAGE Lv 84 Lead (251/251 HP, 247 Speed, 204 SpA, 187 Atk). Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). All 5 sacrificial anchors fully conscious and ready.
+- Bag: 4 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥1,041 cash.
+- Battle Strategy:
+  - Room 1 Sidney: Facade vs Mightyena, Aerial Ace vs Absol, Shiftry (4x), Cacturne (4x), Bullet Seed vs Crawdaunt (2x). Prize: ¥4,900.
+  - Room 2 Phoebe: Bullet Seed vs Dusclops #1 & #2, Aerial Ace vs Banette #1 to absorb Grudge, Bullet Seed vs Sableye & Banette #2. Prize: ¥5,100.
+  - Room 3 Glacia: Overgrow Bullet Seed vs Sealeos & Walrein, physical Facade vs Glalies. Prize: ¥5,300.
+  - Room 4 Drake: 2HKO Shelgon, Flygon, Altaria with Facade. 4 Revives ready for Kingdra & Salamence! Prize: ¥5,500.
+  - Champion Wallace: STAB Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic. Facade vs Ludicolo!
