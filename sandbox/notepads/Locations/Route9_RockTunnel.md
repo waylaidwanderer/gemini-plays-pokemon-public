@@ -28,6 +28,13 @@
   - Entrance mat: **`1F (15, 3)`** (exit mat at `(15, 3)`).
   - **Pokémaniac Ashton** at **`1F (22, 8)`** (defeated Turn 494).
   - **Ladder #1**: **`1F (37, 3)`** -> warps down to **`B1F (33, 25)`** *(Note: Ladder #2's upper end `1F (17, 11)` is visible across the wall south of Section 1)*.
-- **B1F Section 1 (Southeast -> North)**:
+- **B1F Section 1 (Southeast -> North, Verified Turns 499–520)**:
   - Arrives at **`B1F (33, 25)`**; follow corridor south/west around `(28..33, 25..33)` to **`(26, 33)`**.
-  - **Pokémaniac Winston** (`Slowpoke Lv 25`): stands north of `(26, 33)` (`~(26, 30)` facing `Down`) and walks down to `(26, 32)` when stepping onto `(26, 33)` (Turns 499–503).
+  - **Pokémaniac Winston** (`Slowpoke Lv 25`): stands north of `(26, 33)` (`~(26, 30)` facing `Down`, defeated Turn 504).
+  - Walk west along `y = 33` to `(14, 33)`, step to `x = 15`, and head north:
+    - **Jr. Trainer♀ Sofia** (`Oddish Lv 22, Bulbasaur Lv 22`): stands at **`(14, 28)`** facing `Right` (defeated Turn 508).
+    - At `(15, 24)` (`y = 22..23` wall), jog east to `x = 20..23`: **Pokémaniac Steve** (`Charmander Lv 22, Cubone Lv 22`) stands at **`(20, 21)`** facing `Right` (defeated Turn 513).
+    - At `(23, 16)` (`y = 14..15` wall), step to `y = 17`, walk east to `x = 32`, north to `(32, 10)` *(trainer at `(30, 10)` bypassed via east side `x = 34`)*, north to `(34, 5)` (**Hiker Eric**: `Machop Lv 20, Onix Lv 20`, defeated Turn 520), then via `(35, 3)` west onto **Ladder #2 at `B1F (27, 3)`** -> warps to **`1F (5, 3)`**!
+- **1F Section 2 (Northwest -> Center, Verified Turns 520–525)**:
+  - Arrives at **`1F (5, 3)`** *(correction: earlier scratchpad guessed `B1F (27, 3)` led to `1F (17, 11)`, whereas `1F (17, 11)` is actually **Ladder #3** at the end of 1F Section 2!)*.
+  - Walk south down `x = 3..5` (`Hiker` at **`(5, 16)`** facing `Down`, `3` Rock Pokémon, defeated Turn 525) to `(5, 18)` to round the `x = 6..7, y = 0..17` wall east toward `1F (17, 11)`.
