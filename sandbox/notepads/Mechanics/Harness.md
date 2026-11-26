@@ -96,6 +96,7 @@ def name_buttons(word):
   - `screenshots/latest_grid.png` is omitted/removed whenever `<GameState>` has no `<Position>` (including when a step triggers a trainer `[!]` walk-up or wild encounter flash). Do not batch `read_file` on `latest_grid.png` when walking across tall grass or trainer sightlines.
 - **In-Battle Command, Move, & Faint Cursor Nuances (Verified Turns 380–389)**:
   - Switching a Pokémon via `PKMN` **resets** the 2x2 command menu cursor to `►FIGHT` (Turn 387), whereas using a Bag item via `ITEM` keeps the 2x2 cursor on **`►ITEM`** (Turn 383 — always use `Left, Up` to clamp back to `►FIGHT`).
+  - **X Items (`X Special`, `X Speed`, `X Defend`, `X Attack`, Verified Turn 752)**: Selecting an X Item in battle applies immediately to the **currently active Pokémon** on a single `A` press (`does NOT open "Use item on which POKéMON?"`), boosting the stat by +1 stage (`1.5x`).
   - Having a 1-move Pokémon (`AMBER`) open `FIGHT` clamps the `FIGHT` move index back to **Slot 0**, so a 4-move Pokémon sent out afterward in the same battle starts on **Slot 0** rather than a previously used slot (Turn 389).
   - In Gen 1, **KOing an enemy Pokémon skips the end-of-turn poison tick** for that turn (Turn 380).
   - In **Trainer battles**, a fainted Pokémon opens `"Bring out which POKéMON?"` directly without a `YES/NO` prompt, and `B` presses are safely ignored on that Party screen (Turn 388).

@@ -597,6 +597,7 @@ def name_buttons(word):
   - `screenshots/latest_grid.png` is omitted/removed whenever `<GameState>` has no `<Position>` (including when a step triggers a trainer `[!]` walk-up or wild encounter flash). Do not batch `read_file` on `latest_grid.png` when walking across tall grass or trainer sightlines.
 - **In-Battle Command, Move, & Faint Cursor Nuances (Verified Turns 380–389)**:
   - Switching a Pokémon via `PKMN` **resets** the 2x2 command menu cursor to `►FIGHT` (Turn 387), whereas using a Bag item via `ITEM` keeps the 2x2 cursor on **`►ITEM`** (Turn 383 — always use `Left, Up` to clamp back to `►FIGHT`).
+  - **X Items (`X Special`, `X Speed`, `X Defend`, `X Attack`, Verified Turn 752)**: Selecting an X Item in battle applies immediately to the **currently active Pokémon** on a single `A` press (`does NOT open "Use item on which POKéMON?"`), boosting the stat by +1 stage (`1.5x`).
   - Having a 1-move Pokémon (`AMBER`) open `FIGHT` clamps the `FIGHT` move index back to **Slot 0**, so a 4-move Pokémon sent out afterward in the same battle starts on **Slot 0** rather than a previously used slot (Turn 389).
   - In Gen 1, **KOing an enemy Pokémon skips the end-of-turn poison tick** for that turn (Turn 380).
   - In **Trainer battles**, a fainted Pokémon opens `"Bring out which POKéMON?"` directly without a `YES/NO` prompt, and `B` presses are safely ignored on that Party screen (Turn 388).
@@ -632,19 +633,17 @@ def name_buttons(word):
 
 # Active Routing & Immediate Checklist
 
-## Rocket Hideout -> Celadon Gym (Rainbow Badge) -> Pokémon Tower (`Poké Flute`)
-1. **Rocket Hideout (`Game Corner (17, 4) -> B1F -> B2F -> B3F -> B4F`)**:
-   - **Bag Note**: Currently `18/20` slots used (`2` free slots = exact room for `Lift Key` + `Silph Scope`; skip optional floor items until depositing old items at Celadon Center PC!).
-   - Descend `B1F -> B2F`, solve **B2F spinner maze** to stairs down to **B3F**, solve **B3F spinner maze** to stairs down to **B4F West**.
-   - Defeat the **Lift Key Rocket Grunt** on **B4F West** and pick up the **`LIFT KEY`** dropped on the floor!
-   - Return to the **Rocket Hideout Elevator** (`B2F` or `B1F`), ride to **B4F**, defeat the two Rocket Grunts guarding the door, and sweep **Giovanni** (`Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29`) with `NAUTILUS` (`BubbleBeam` / `Ice Beam`).
-   - Pick up **`SILPH SCOPE`**, then exit via `Escape Rope` (or Elevator to B1F).
-2. **Celadon Pokémon Center & Celadon Gym (Badge #4 — Rainbow Badge)**:
-   - Heal at **Celadon Pokémon Center `(41, 9)`** and deposit unused items (`Helix Fossil`, `S.S. Ticket`, `TM34`, `TM45`, `TM30`) in `COBALT's PC` at `(13, 3)` to free 5+ Bag slots.
-   - Walk south on east side of Celadon City, `Cut` bush into **Celadon Gym**, `Cut` interior bush, and sweep **Gym Leader Erika** (`Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29`) with 90-BP `Ice Beam`!
-3. **Pokémon Tower (`Poké Flute`) & Saffron Gatehouse Unlock**:
-   - `Fly` (`JASPER`) to **Lavender Town** (`index 0 -> Up * 4`), climb **Pokémon Tower 1F–7F** (`Rival GARNET` on 2F, healing zone on 5F, `Marowak Lv 30` on 6F, 3 Rockets + Mr. Fuji on 7F -> **`POKé FLUTE`**).
-   - Give `1x Fresh Water` to the **Saffron Gatehouse Guard** (`Route 8` or `Route 7`) and heal at **Saffron Pokémon Center** to register Saffron on the `Fly` map.
+## Pokémon Tower (`Poké Flute`) -> Saffron Unlock -> Cycling Road -> Fuchsia City (Soul Badge)
+1. **Pokémon Tower (`Lavender Town (14, 5) -> 1F–7F`)**:
+   - **1F -> 2F**: Defeat **Rival `GARNET`** (`Pidgeotto Lv 25` -> `Ice Beam`, `Gyarados Lv 23` -> switch to **`AMETHYST` `Thunderbolt` [4x!]**, `Growlithe Lv 22` -> `BubbleBeam`, `Kadabra Lv 20` -> `Bite` / `Body Slam`, `Ivysaur Lv 25` -> `Ice Beam`).
+   - **3F–5F**: Use `Repel x4` (`Slot 0`, blocks all wild Lv 18–24 `Gastly`/`Cubone` since `NAUTILUS` is Lv. 37!); Channelers carry `Gastly`/`Haunter` (use `BubbleBeam` / `Ice Beam` / `Dig` — note `Bite` is Normal-type in Gen 1 so it misses Ghosts!). Step onto the **5F Purified Healing Pad** for free full HP/PP restore!
+   - **6F**: Defeat Ghost **Lv. 30 `Marowak`** at the stairs (`identified by Silph Scope`, 2x weak to `BubbleBeam` & `Ice Beam`!).
+   - **7F**: Defeat the 3 Team Rocket Grunts -> talk to **Mr. Fuji** -> auto-warps to Volunteer House `(7, 9)` -> talk to Mr. Fuji for **`POKé FLUTE`**!
+2. **Unlock Saffron City (`Fresh Water × 1` in Bag Slot 5)**:
+   - `Fly` to **Celadon City** -> walk east on Route 7 into **West Saffron Gatehouse** -> guard drinks `Fresh Water` and unlocks all 4 Saffron gates! Heal at **Saffron Pokémon Center** to register Saffron on the `Fly` map!
+3. **Cycling Road & Fuchsia City (`HM03 Surf`, `HM04 Strength`, Badge #5 — Soul Badge)**:
+   - `Fly` to **Celadon City** -> Route 16 `(27, 10)` -> play **`Poké Flute`** on **`Snorlax`** (`flee`) -> ride **`Bicycle`** down Route 17 -> Route 18 -> **Fuchsia City**!
+   - Clear **Safari Zone** (`Gold Teeth` + **`HM03 Surf`** -> teach 95-BP STAB `Surf` to `NAUTILUS`!), get **`HM04 Strength`** from Warden, and sweep **Gym Leader Koga** (`Koffing x2, Muk, Weezing`) for **Soul Badge** (#5)!
 
 
 <hr>
