@@ -143,6 +143,28 @@
 
 <hr>
 
+<h1><code>Locations/Route3_MtMoon</code></h1>
+
+# Route 3 & Route 4 West — Verified Coordinates & Landmarks
+
+## Route 3 (`x = 0..59`)
+- **West Entrance (from Pewter City `(39, 18)`)**: Enters at `(0, 10)`.
+- **Verified Trainers & Obstacles**:
+  - **Lass #1**: `(14, 9)` (`2x Pidgey Lv 9`) — Defeated.
+  - **Bug Catcher #1**: `(11, 6)` (`Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10`) — Defeated.
+  - **Youngster #1**: `(14, 6)` (`Rattata Lv 11, Ekans Lv 11`) — Defeated.
+  - **Bug Catcher #2**: `(19, 5)` facing Left/Down, triggered at `(19, 6)` (`Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9`) — Defeated (Turn 141).
+  - **Lass #2**: Starts at `(23, 4)` facing Left, spots player at `(20, 4)` and walks to `(21, 4)` (`Rattata Lv 10, Nidoran♂ Lv 10`) — Defeated (Turn 146; `NAUTILUS` reached Lv 16).
+  - **Tree Wall & Ledges around `x = 17..24`**:
+    - Vertical bush barriers at `(17, 6)..(17, 10)` and `(23, 6)..(23, 10)`.
+    - South-facing ledge along `y = 7` (`(15, 7)..(16, 7)`, `(18, 7)..(22, 7)`, `(24, 7)`).
+    - Open eastward gap between rock wall (`y = 3`) and bush column (`x = 23, y >= 6`) runs along `y = 4..5` (`(20, 5) -> (24, 5)` bypasses `(21, 4)` Lass #2).
+    - **Bug Catcher #3**: Visible at `(24, 6)` facing Right (`(25, 6)+` line of sight).
+    - **Youngster #2**: Visible at `(22, 9)` facing Left (south of `y = 7` ledge).
+
+
+<hr>
+
 <h1><code>Locations/ViridianCity</code></h1>
 
 # Viridian City — Verified Coordinates & Landmarks
@@ -213,8 +235,12 @@ def name_buttons(word):
   - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8–10 `B` presses (`"sleep 650"`) per round when stat-drop or poison ticks occur (Turns 83, 95).
 - **Catching & Nickname Safety (Verified Turns 66–75)**:
   - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
-- **Evolution `B`-Cancel Warning**:
-  - Pressing `B` during a post-battle evolution animation (`"What? <POKEMON> is evolving!"`) **cancels the evolution** in Gen 1! When a Pokémon is at `Lv 15` (`NAUTILUS` -> Wartortle at Lv 16, `AMETHYST` -> Nidorina at Lv 16), use **`A`** (or wait ~12s without `B`) after winning a battle that crosses the Level 16 threshold!
+- **Evolution `B`-Cancel Warning & Verified Safe Evolution Recipe (Verified Turn 146)**:
+  - Pressing `B` during a post-battle evolution animation (`"What? <POKEMON> is evolving!"`) **cancels the evolution** in Gen 1!
+  - Evolution ONLY triggers **after the entire battle ends** (never mid-battle when KOing an earlier trainer Pokémon, and never if the evolving Pokémon faints before the battle ends).
+  - Verified recipe when KOing the final opposing Pokémon on an evolution battle: execute the attack (`["A", "sleep 400", "A", "sleep 3500"]`), then use **ONLY `A`** (`["A", "sleep 1100"] * 6 + ["A", "sleep 10000", "A", "sleep 6000", "A", "sleep 1500", "A", "sleep 1500"]`) — `A` advances victory dialogue without ever cancelling evolution.
+- **Gen 1 Battle Quirks (Verified Turns 137–139)**:
+  - `Bubble` is 20 BP (half of `Water Gun`'s 40 BP), and 100%-accurate moves in Gen 1 still have a `1/256` miss chance (observed on `Water Gun` in Turn 139 `filmstrip_1.png` `#18`). Always verify KO outcomes before assuming fixed hit counts.
 - **Coordinate Behavior in Battles & Warps**:
   - `mgba.get_coordinates()` continues returning the underlying overworld `(x, y)` during battles (`<GameState>` omits `<Position>` when in battle).
   - Step-by-step `before == after` comparison reliably detects wild encounters in tall grass; following a blocked grass step with `["sleep 800", "B"] * 8` (~6.4s) lands cleanly on `►FIGHT`.
