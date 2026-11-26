@@ -180,7 +180,7 @@
   - **4F**: **`Elixer`** item ball at **`(12, 10)`**! Route `(14, 9) -> (14, 8) -> (11, 8) -> (11, 9) -> (10, 9) -> (10, 12) -> (7, 12) -> (7, 8) -> (3, 8) -> (3, 9)` -> **5F `(3, 9)`**.
   - **5F (Verified Turns 778–782)**: **Purified Healing Zone** around **`(10..11, 8..10)`** (`(11, 9)` heals entire party HP/PP + revives fainted Pokémon with zero wild encounters!). Stairs to **6F** on east wall at **`(18, 9)`**.
   - **6F (Verified Turns 784–796)**: **`X Accuracy`** item ball at **`(14, 14)`**, **`Rare Candy`** item ball at **`(6, 8)`**. Stepping onto **`(10, 16)`** triggers the restless **Lv. 30 `Marowak`** (`Silph Scope` unveils; cannot be caught, defeated Turn 796). Stepping `Left` from `(10, 16)` onto **`(9, 16)`** climbs to **7F `(9, 16)`**.
-  - **7F (Verified Turns 796–797)**: Step `Right` from `(9, 16)` to `(10, 16)` and walk straight north up `x = 10` through the 3 Team Rocket Grunts (`Grunt #1` triggers at `(10, 11)`).
+  - **7F (Verified Turns 796–807)**: Step `Right` from `(9, 16)` to `(10, 16)` and walk straight north up `x = 10` through the 3 Team Rocket Grunts (`Grunt #1` at `y = 11`, `Grunt #2` at `y = 9` [`Koffing, Drowzee` — OHKO `Drowzee` with `Dig`], `Grunt #3` at `(9, 7)` facing `Right`). **Mr. Fuji** stands at `7F (10, 3)`; talking to him warps to **Volunteer House `(3, 7)`**, where Mr. Fuji stands above the table at **`(3, 1)`** *(NOT `(6, 3)`, which is a little girl)* to give **`POKé FLUTE`** (`exits to Lavender Town (7, 10)`).
 - **West Exit to Route 8**: Walk west along `y = 8..9` (`x = 0 -> Route 8 (59, 8)`).
 
 ## Route 8 (East -> West, Verified Turns 579–588)
