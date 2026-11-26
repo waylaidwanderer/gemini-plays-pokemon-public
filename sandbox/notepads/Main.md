@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Deploying Lilz Lv 30 (42 HP) as sacrificial anchor to use Revive #2 on SAGE Lv 85. Bag: 2 Revives, 1 Full Heal.
+- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Lilz Lv 30 active on battlefield. Opening Bag to execute Revive #2 on SAGE Lv 85 (+6 priority). Bag: 2 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).

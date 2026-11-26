@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
-- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Cursor verified on Row 5 (Guava), moving Up x4 to Row 1 (Lilz Lv 30) and confirming Shift. Next turn: Lilz uses Revive #2 on SAGE with +6 priority; Lilz absorbs hit, granting SAGE a free switch-in to sweep Glalie #4 and Glalie #5!
+- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Lilz Lv 30 deployed on battlefield. Opening Bag to select Revive #2 and execute Sacrificial Revive on SAGE Lv 85 (+6 priority)!
 
 <hr>
 
@@ -5109,7 +5109,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Deploying Lilz Lv 30 (42 HP) as sacrificial anchor to use Revive #2 on SAGE Lv 85. Bag: 2 Revives, 1 Full Heal.
+- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Lilz Lv 30 active on battlefield. Opening Bag to execute Revive #2 on SAGE Lv 85 (+6 priority). Bag: 2 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
