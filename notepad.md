@@ -40,7 +40,7 @@
 - `notepads/Main.md` — High-level dashboard & party summary
 - `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
 - `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
-- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md` active)
+- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md`, `Lavender_Route8.md`, `CeladonCity.md`)
 
 
 <hr>
@@ -73,9 +73,12 @@
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
 - **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
 
-## Celadon Game Corner (Verified Turns 639–644)
-- **Entrance**: Door at **`Celadon City (28, 19)`** -> spawns at **`(15, 17)`**.
-- **Poster Switch**: Defeat Rocket Grunt at **`(9, 5)`**, then inspect **`(9, 4)`** (`["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 2500"]`) -> opens secret staircase down to **Rocket Hideout B1F** at **`(17, 4)`**!
+## Celadon Game Corner & Rocket Hideout (Verified Turns 639–650)
+- **Game Corner Entrance**: Door at **`Celadon City (28, 19)`** -> spawns at **`(15, 17)`**.
+- **Poster Switch**: Defeat Rocket Grunt at **`(9, 5)`**, then inspect **`(9, 4)`** (`["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 2500"]` — note `"Let's push it!"` closes with no extra `"Click!"` box) -> opens secret staircase down to **Rocket Hideout B1F** at **`(17, 4)`**!
+- **Direct B1F -> B2F -> B3F Shortcut (Zero Trainers, Bypasses B2F Spinner Maze!)**:
+  - `Game Corner (17, 4)` -> **`B1F (21, 2)`** -> walk `Right * 2` onto **`B1F (23, 2)`** -> **`B2F (27, 8)`**.
+  - On **B2F**: walk `Down * 6` to `(27, 14)`, `Left * 5` to `(22, 14)`, `Up * 6` along `x = 22` (outside sightline of Rocket Grunt facing `Down` at `(20, 12)`) to `(22, 8)`, then `Left` onto **`B2F (21, 8)`** -> warps directly to **`B3F (25, 6)`**!
 
 
 <hr>

@@ -38,4 +38,4 @@
 - `notepads/Main.md` — High-level dashboard & party summary
 - `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
 - `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
-- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md` active)
+- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md`, `Lavender_Route8.md`, `CeladonCity.md`)
