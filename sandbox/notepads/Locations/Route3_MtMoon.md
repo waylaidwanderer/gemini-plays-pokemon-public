@@ -39,4 +39,8 @@
     - **`Escape Rope`**: Item ball at **`(36, 23)`** — Collected (Turn 207).
     - **`Rare Candy`**: Item ball at **`(35, 31)`** — Collected (Turn 208).
     - North wall runs clear along **`y = 2`** from `(35, 2)` past `(17, 2)`.
-  - **Ladder #1 (`(17, 11)`)**: Reached via `(17, 2) -> Down * 9 -> (17, 11)`; warps to B1F `(25, 9) -> (17, 11)` -> B2F pocket `(25, 9)` with Rocket Grunt #2 at `(29, 11)` facing `Up` (`Zubat Lv 12, Ekans Lv 12`, defeated Turn 214) and **`TM01 (Mega Punch)`** at **`(29, 5)`** — Collected (Turn 214).
+  - **Northwest Chamber (`Moon Stone` & Main Exit Ladder)**:
+    - Reached via `(14, 2) -> (14, 16)` (Youngster Josh defeated Turn 219) -> `(14, 17) -> (3, 17) -> (3, 2)`.
+    - **`Moon Stone`**: Item ball at **`(2, 2)`** — Collected (Turn 221).
+    - **Hiker Marcos**: Stands at `(5, 6)` facing `Down` (bypassable from north).
+    - **Main Exit Ladder (`(5, 5)`)**: Warps to B1F `(5, 5) -> (5, 17)` east corridor to B2F Main Floor.

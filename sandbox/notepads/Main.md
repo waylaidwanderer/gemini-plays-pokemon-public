@@ -26,7 +26,7 @@
 ## Inventory & Money
 - Money: ~¥2,300
 - Key Items: Pokédex, Town Map
-- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, HP Up x1, TM34 (Bide), TM12 (Water Gun), TM01 (Mega Punch)
+- Bag: Potion x2, Antidote x1, Poké Ball x3, Escape Rope x1, Rare Candy x1, HP Up x1, Moon Stone x1, TM34 (Bide), TM12 (Water Gun), TM01 (Mega Punch)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
