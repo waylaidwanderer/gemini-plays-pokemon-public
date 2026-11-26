@@ -18,8 +18,8 @@
   - Vending Machines at `(11, 1)` and **`(12, 2)`** (`Fresh Water ¥200`, `Soda Pop ¥300`, `Lemonade ¥350`; note `"Clang! ▼"` + `"<DRINK> popped out! ▼"` needs **two** `B` presses per drink).
   - **Thirsty Girl** wanders around **`(5, 5)`**: trading `Fresh Water` yields **`TM13 (Ice Beam)`** (taught to `NAUTILUS` replacing `Mega Punch`, Turn 617).
 
-## Route 16 — Secret `HM02 (Fly)` Path (Verified Turns 618–629)
-- Exit west of Celadon City along **`y = 18`** onto `Route 16 (39, 10)` *(Snorlax sleeps at `(26, 10)`).*
+## Route 16 — Secret `HM02 (Fly)` & `Snorlax` Path (Verified Turns 618–629, 817–818)
+- **Fast Route from Celadon Center `(41, 10)` to `Snorlax` `(26, 10)`**: `Down * 2` -> `(41, 12)` -> `Left * 27` along brick boulevard -> `(14, 12)` -> `Down * 2` -> `(14, 14)` -> `Left * 12` (dodging any Dept. Store NPC via `y = 15`) -> `(2, 14)` -> `Down * 4` -> `(2, 18)` -> `Left * 15` -> **`Route 16 (27, 10)`** *(Snorlax sleeps at `(26, 10)`; lower Cycling Road Gatehouse entrance is directly behind Snorlax at `(23, 10)`).*
 - Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)`; upper tall grass `(28..34, 4)` has `Spearow` & `Doduo` (caught Lv. 22 `Spearow` **`JASPER`**, Turn 628).
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
 - **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).

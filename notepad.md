@@ -68,8 +68,8 @@
   - Vending Machines at `(11, 1)` and **`(12, 2)`** (`Fresh Water ¥200`, `Soda Pop ¥300`, `Lemonade ¥350`; note `"Clang! ▼"` + `"<DRINK> popped out! ▼"` needs **two** `B` presses per drink).
   - **Thirsty Girl** wanders around **`(5, 5)`**: trading `Fresh Water` yields **`TM13 (Ice Beam)`** (taught to `NAUTILUS` replacing `Mega Punch`, Turn 617).
 
-## Route 16 — Secret `HM02 (Fly)` Path (Verified Turns 618–629)
-- Exit west of Celadon City along **`y = 18`** onto `Route 16 (39, 10)` *(Snorlax sleeps at `(26, 10)`).*
+## Route 16 — Secret `HM02 (Fly)` & `Snorlax` Path (Verified Turns 618–629, 817–818)
+- **Fast Route from Celadon Center `(41, 10)` to `Snorlax` `(26, 10)`**: `Down * 2` -> `(41, 12)` -> `Left * 27` along brick boulevard -> `(14, 12)` -> `Down * 2` -> `(14, 14)` -> `Left * 12` (dodging any Dept. Store NPC via `y = 15`) -> `(2, 14)` -> `Down * 4` -> `(2, 18)` -> `Left * 15` -> **`Route 16 (27, 10)`** *(Snorlax sleeps at `(26, 10)`; lower Cycling Road Gatehouse entrance is directly behind Snorlax at `(23, 10)`).*
 - Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)`; upper tall grass `(28..34, 4)` has `Spearow` & `Doduo` (caught Lv. 22 `Spearow` **`JASPER`**, Turn 628).
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
 - **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
@@ -633,7 +633,7 @@ def name_buttons(word):
   - Completing a trainer/wild battle redraws overworld map tiles and **re-grows any chopped `Cut` bushes** in the current map (e.g., Celadon Gym `(5, 7)` re-grew immediately behind us after defeating Cooltrainer♀ Mary at `(5, 6)`).
 
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
-- Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
+- Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit, and **always `break` immediately** if `after == before` triggers a multi-second cutscene clearer (`never repeat a 10s dialogue clearer across 10 wall bumps or it will hit the 120s script timeout`, Turn 811).
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
 - **Gen 1 Menu Wrapping Summary (Verified Turns 124, 155, 184)**:
   - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`). Fighting a battle resets `Start` back to Slot 0 (`POKéDEX`, verified Turn 290), whereas healing at Nurse Joy without a battle leaves `Start` on its previous slot (Turn 270).

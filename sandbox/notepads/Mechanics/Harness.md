@@ -110,7 +110,7 @@ def name_buttons(word):
   - Completing a trainer/wild battle redraws overworld map tiles and **re-grows any chopped `Cut` bushes** in the current map (e.g., Celadon Gym `(5, 7)` re-grew immediately behind us after defeating Cooltrainer♀ Mary at `(5, 6)`).
 
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
-- Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
+- Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit, and **always `break` immediately** if `after == before` triggers a multi-second cutscene clearer (`never repeat a 10s dialogue clearer across 10 wall bumps or it will hit the 120s script timeout`, Turn 811).
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
 - **Gen 1 Menu Wrapping Summary (Verified Turns 124, 155, 184)**:
   - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`). Fighting a battle resets `Start` back to Slot 0 (`POKéDEX`, verified Turn 290), whereas healing at Nurse Joy without a battle leaves `Start` on its previous slot (Turn 270).
