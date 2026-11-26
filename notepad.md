@@ -471,6 +471,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 12: Executing Overgrow-boosted STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP. Eliminating both Pressure users!
     - Turn 12: Main battle menu cursor on BAG. Stepping Left to FIGHT, clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Dusclops Lv 51! Both Pressure users will be eliminated. SAGE at 26/251 HP. Aerial Ace preserved at 3 PP.
     - Turn 12: SAGE struck first with Overgrow Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to a tiny red sliver of HP (~2-3 HP)! SAGE at 26/251 HP. Dusclops preparing its counter-action. Advancing through Dusclops's turn.
+    - Turn 12: Overgrow Bullet Seed finished Dusclops Lv 51! Dusclops Lv 51 fainted! Both Pressure users are DEFEATED! SAGE gained 1956 EXP. SAGE at 26/251 HP, Overgrow ACTIVE. Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP.
+  - Phoebe Pokémon #3: Banette Lv 49! Plan: Execute Aerial Ace (Slot 2) to OHKO Banette and absorb Grudge safely onto Aerial Ace, protecting Bullet Seed!
 
 <hr>
 
