@@ -436,6 +436,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Turn 17: Navigating Right, Down, Down to send out Cobalu (Aron Lv 18) and attack.
 - Turn 18: Mochi fainted. Navigating Down to CANCEL and Up to Guava (Tropius Lv 30) to send into battle and attack.
 - Turn 19: Navigating Right, Down, Down from Left Box to select Cobalu (Row 3, Aron Lv 18), sending into battle and attacking.
+- Turn 20: Cobalu fainted. Sending out final Pokémon Guava (Tropius Lv 30) to attack and conclude Attempt 12 via whiteout.
 
 <hr>
 
