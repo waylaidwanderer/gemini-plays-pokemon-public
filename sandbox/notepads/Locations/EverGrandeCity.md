@@ -128,3 +128,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Champion Wallace: STAB Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic. Facade vs Ludicolo!
 
 - Ascending Grand Staircase and entering Room 1 to challenge Sidney!
+- Turn 35: Challenging Sidney at (6, 6) in Room 1. SAGE Lv 84 (251/251 HP, 247 Speed) leading off. Attempt 13 battle initiated!
