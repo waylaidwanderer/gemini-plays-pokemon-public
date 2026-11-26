@@ -25,21 +25,21 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoqueen) — Lv. 24 (`~70/80` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
-2. **NAUTILUS** (Wartortle) — Lv. 27 (`0/72` HP, heal at Center) | Moves: Bite, Mega Punch, Dig, BubbleBeam
+1. **AMETHYST** (Nidoqueen) — Lv. 26 (`66/86` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
+2. **NAUTILUS** (Wartortle) — Lv. 27 (`72/72` HP) | Moves: Bite, Mega Punch, Dig, BubbleBeam
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ¥12,200 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥13,500 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bicycle, HM01 (Cut)
-- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bicycle, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9, X Special x1
+- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bicycle, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9, X Special x1, TM30 (Teleport)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
 - `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
 - `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
-- `notepads/Locations/` — Verified town, route, and dungeon notes
+- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md` active)
 
 
 <hr>
@@ -60,7 +60,8 @@
 - **Trade House (`Jynx` for Poliwhirl)**: Door at `(13, 15)`.
 - **Cerulean Pokémon Center**: Door at **`(19, 17)`** (warps indoors to `(3, 7)`; Nurse Joy counter at `(3, 3)` facing `Up`). Note: `POKé` sign sits at `(20, 17)`.
 - **Cerulean Bike Shop**: Door at **`(13, 25)`** (`(2, 7)` indoors -> `(4, 7) -> (4, 4) -> (6, 4)` facing `Up` at counter `(6, 3)` -> exchanged `Bike Voucher` for **`BICYCLE`** Turn 464).
-- **South `Cut` Bush (to/from Route 5)**: Located at **`(19, 28)`** (`Route 5 x = 15` north enters at `(25, 35) -> (25, 31) -> (19, 31) -> (19, 29)` facing `Up` at `(19, 28)`).
+- **South `Cut` Bush (to/from Route 5 & Route 9)**: Located at **`(19, 28)`** (`Route 5 x = 15` north enters at `(25, 35) -> (25, 31) -> (19, 31) -> (19, 29)` facing `Up` at `(19, 28)`).
+- **East Exit (to Route 9, Verified Turn 468)**: Chop `(19, 28)` from `(19, 27)`, walk `(19, 31) -> (36, 31) -> Up * 15` up the **`(36, 19)`** wooden stairs to `(36, 16)`, then `Right` onto **Route 9 `(0, 8)`**.
 - **Cerulean Gym (Misty)**: Door at **`(30, 19)`** (warps indoors to `(4, 13)`; Swimmer Luis spots at `(5, 7)`, Jr. Trainer♀ Diana spots at `(5, 3)`, **Gym Leader Misty** at **`(4, 2)`** — Defeated Turn 351 for **Cascade Badge** + `TM11 BubbleBeam`).
 - **Burgled House (`TM28 Dig` & South Bypass)**: Front door at **`(27, 11)`** (`(2, 7)` indoors -> walk around table `(7, 3) -> (7, 1) -> (3, 1) -> Up` out north wall hole `(3, 0)` to `(27, 9)`); Backyard Rocket at `(30, 8)` defeated Turn 356 for **`TM28 (Dig)`**; corridor at **`x = 33`** leads south around Cerulean City to **Route 5**.
 
@@ -258,6 +259,27 @@
 
 ## Route 4 East (Mt. Moon Exit to Cerulean City)
 - From `(24, 6)`: hop south ledge to `(24, 11)` -> East along `y = 11` to `(61, 11)` -> North to `(61, 8)` (clears top of `x = 62` bush column) -> East across `x = 62..89` into **Cerulean City `(0, 18)`** (verified Turn 245).
+
+
+<hr>
+
+<h1><code>Locations/Route9_RockTunnel</code></h1>
+
+# Route 9, Route 10 & Rock Tunnel — Verified Coordinates & Topology
+
+## Route 9 (West -> East, Verified Turns 468–482)
+- **West Entrance (from Cerulean `(39, 16)`)**: Enters at `Route 9 (0, 8)`; chop the **`Cut` bush at `(5, 8)`** from `(4, 8)`.
+- **Verified Ledge & Stair Route East**:
+  1. `(4, 8) -> (13, 8)`: **Jr. Trainer♀ Alicia** at `(13, 10)` facing `Left` (`Oddish Lv 18 x2, Bellsprout Lv 18 x2`, defeated Turn 472).
+  2. Hop south ledge at `(12, 11)` -> `(12, 15)`:
+     - **`TM30 (Teleport)`** item ball at **`(10, 15)`** (collected Turn 473).
+     - **Hiker Jeremy** at `(16, 15)` facing `Left` (`Machop Lv 20 x2, Onix Lv 20`, defeated Turn 474; bypass on `y = 14`).
+  3. Walk east along `y = 14..15` to **`(29, 14)`** *(Note: `(19, 13)` stairs lead to `(28, 15)` hop -> `(29, 15)`; going past `x = 29` on `y = 14` leads to a dead-end at `(53, 14)`!)*.
+  4. Climb wooden stairs #1 at **`(29, 13)`** (`(29, 14) -> Up * 2 -> (29, 12)`), walk `Right * 12` along `y = 12` to **`(41, 12)`**, and climb wooden stairs #2 at **`(41, 11)`** (`(41, 12) -> Up * 4 -> (41, 8)`):
+     - **Bug Catcher Brent** at `(40, 8)` facing `Right` (`Beedrill Lv 19 x2, Venonat Lv 20`, defeated Turn 482). *(Do NOT hop south ledge `(46, 11)`!)*
+  5. Climb wooden stairs #3 at **`(39, 5)`** (`(41, 7) -> (41, 6) -> (39, 6) -> Up * 3 -> (39, 3)`):
+     - **Hiker Alan** at `(43, 3)` facing `Left` (`Geodude Lv 21, Onix Lv 21`, engaged at `(40, 3)` Turn 482).
+     - Continue east along `y = 2..4` onto **Route 10**.
 
 
 <hr>

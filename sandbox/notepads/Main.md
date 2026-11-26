@@ -23,18 +23,18 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoqueen) — Lv. 24 (`~70/80` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
-2. **NAUTILUS** (Wartortle) — Lv. 27 (`0/72` HP, heal at Center) | Moves: Bite, Mega Punch, Dig, BubbleBeam
+1. **AMETHYST** (Nidoqueen) — Lv. 26 (`66/86` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
+2. **NAUTILUS** (Wartortle) — Lv. 27 (`72/72` HP) | Moves: Bite, Mega Punch, Dig, BubbleBeam
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ¥12,200 (+ `Nugget` worth ¥5,000!)
+- Money: ~¥13,500 (+ `Nugget` worth ¥5,000!)
 - Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bicycle, HM01 (Cut)
-- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bicycle, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9, X Special x1
+- Bag: Poké Ball x7, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bicycle, Max Ether x1, HM01 (Cut), Super Potion x4, Repel x9, X Special x1, TM30 (Teleport)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
 - `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
 - `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
-- `notepads/Locations/` — Verified town, route, and dungeon notes
+- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md` active)
