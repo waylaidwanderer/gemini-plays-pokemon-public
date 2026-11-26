@@ -129,3 +129,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shiftry Lv 48 (#3): Grass/Dark is 4x WEAK to Flying! SAGE (244 Speed) targets Shiftry with 4x Aerial Ace!
     - Shiftry Lv 48 (#3): Sidney burned Full Restore #1 on Shiftry! SAGE countered with 4x Aerial Ace, dealing massive damage!
     - Shiftry Lv 48 (#3): DEFEATED! SAGE struck with 4x Aerial Ace (never misses!), finishing Shiftry! Facing Cacturne Lv 46 (#4, 4x weak to Flying)!
+    - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
