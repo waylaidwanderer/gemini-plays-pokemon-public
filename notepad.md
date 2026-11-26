@@ -177,6 +177,10 @@ def name_buttons(word):
 ## Event & Fanfare Timings (Verified Turns 2–41)
 - **ROM Variant**: Colorized Pokémon Blue enhancement with GBC palettes and a live blue EXP bar under player HP in battle (verified Turn 27). Maps, items, and encounters match Pokémon Blue.
 - **Battle Move Cursor Memory**: The `FIGHT` menu remembers the last selected move slot across turns and subsequent battles (verified Turn 21).
+  - Within the *same* battle (Turn 2+), the top-level command menu (`FIGHT / PKMN / ITEM / RUN`) and the `ITEM` bag submenu ALSO remember their last selected cursor positions (verified Turns 67, 73). On Turn 1 of a new battle, the top-level cursor resets to `►FIGHT`.
+  - In `SHIFT` trainer battles, `B`-clearing between attack rounds safely declines `"Will COBALT change POKéMON?"` (`NO`). Use 8 `B` presses (`"sleep 650"`) per round when using moves with secondary stat-drop text like `BUBBLE` (Turn 83).
+- **Catching & Nickname Safety (Verified Turns 66–75)**:
+  - Never spam `B` after throwing a Poké Ball (`B` cancels `"give a nickname?"` as `NO`). Wait `"sleep 9500"` after throwing a Ball to inspect catch outcome, then advance Pokédex Page 1 & Page 2 with `A` up to the `►YES / NO` nickname prompt.
 - **Coordinate Behavior in Battles & Warps**:
   - `mgba.get_coordinates()` continues returning the underlying overworld `(x, y)` during battles (`<GameState>` omits `<Position>` when in battle).
   - Step-by-step `before == after` comparison reliably detects wild encounters in tall grass; following a blocked grass step with `["sleep 800", "B"] * 8` (~6.4s) lands cleanly on `►FIGHT`.
