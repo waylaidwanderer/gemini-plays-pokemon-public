@@ -434,6 +434,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Set quantity to 4, confirmed purchase for ¥6,000 (remaining cash: ¥1,041), and exited Mart. 4 Revives secured in Bag!
 - Turn 32: Fixed YES/NO confirmation timing (1200ms text delay). Executing purchase of 4 Revives (¥6,000), exiting Mart, and opening Bag to visually verify inventory.
 - Turn 33: Exiting PokéNav with B, opening Start menu, selecting BAG, and inspecting Items pocket to confirm 4 Revives.
+- Turn 34: Selecting BUY, navigating Down x5 to Row 6 (REVIVE) to visually confirm IN BAG: 4 and MONEY: ¥1,041 before entering Room 1.
 
 <hr>
 
