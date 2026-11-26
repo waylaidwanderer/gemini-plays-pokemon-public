@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Concluded! 18/20 E4 Pokémon defeated (reached Salamence at 20% HP). SAGE Lv 85 party 100% restored. Money: ¥8,170. Re-entering League lobby to buy 5 Revives and launch Attempt 14!
+- Status: Attempt 14 Preparation! SAGE Lv 85 party 100% restored. Purchased 5 Revives at League Mart (¥7,500). Bag: 5 Revives, 1 Full Heal, ¥670 cash. Heading to gate for Attempt 14!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 254/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -19,10 +19,10 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x0 (3 consumed on SAGE, 1 consumed on Lilz - all 4 Revives utilized!)
+- Revive x5 (purchased at Mart for ¥7,500 for Attempt 14)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥8,170 (halved from ¥16,341 upon whiteout - funds 5 Revives at Mart!)
+- Money: ¥670 (¥7,500 spent on 5 Revives; balance ready for prize growth)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

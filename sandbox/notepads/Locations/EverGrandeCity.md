@@ -138,7 +138,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Drake: Shelgon Lv 52 (DEFEATED), Flygon Lv 53 (DEFEATED), Altaria Lv 54 (DEFEATED), Salamence Lv 55 (dropped to 20% HP!). Defeated 18 of 20 Elite Four Pokémon!
 - SAGE (Level 85 Sceptile ♂): Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250.
 - Economy: Peak cash reached ¥16,341 -> halved to ¥8,170 upon whiteout (funds 5 Revives!).
-- Next: Entering League lobby at (9, 11), walking to Mart counter at (16, 4), purchasing 5 Revives for ¥7,500, and launching Attempt 14!
+- Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Preparation)
 - Party: SAGE Lv 85 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 100% restored!).
