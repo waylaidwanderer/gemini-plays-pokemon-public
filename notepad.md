@@ -441,6 +441,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Turn 22: Navigating Right, Down x4 to select Guava (Row 5, Tropius Lv 30), confirming SEND OUT, attacking, and completing whiteout reset.
 - Turn 23: Cursor verified on CANCEL. Pressing Up to highlight Guava (Row 5), A twice to SEND OUT, selecting FIGHT and attack to conclude Attempt 12 via whiteout.
 - Turn 24: From CANCEL, moving Left to Left Box, Right to Right Column, Down x4 to Guava (Row 5), confirming SEND OUT, attacking, and resolving whiteout.
+- Turn 25: From CANCEL, pressing Left to Left Box, Down x3 to Guava (Slot 5), A twice to SEND OUT, attacking, and completing whiteout reset.
 
 <hr>
 
