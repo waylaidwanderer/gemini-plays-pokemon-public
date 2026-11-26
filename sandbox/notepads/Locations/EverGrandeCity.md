@@ -125,6 +125,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
   - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
-  - In Progress: Facing Sableye Lv 50 (#4). Attacking with STAB Bullet Seed!
-
-- Facing Sableye Lv 50 (#4). Clamping Up+Left to Slot 1 Bullet Seed to strike Sableye!
+  - Sableye Lv 50 (#4): SAGE struck first with Bullet Seed (~50% dmg). Finishing Sableye with Bullet Seed!
+  - Upcoming: Banette Lv 49 (#5, final).

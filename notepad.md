@@ -435,9 +435,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
   - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
-  - In Progress: Facing Sableye Lv 50 (#4). Attacking with STAB Bullet Seed!
+  - Sableye Lv 50 (#4): SAGE struck first with Bullet Seed (~50% dmg). Finishing Sableye with Bullet Seed!
+  - Upcoming: Banette Lv 49 (#5, final).
 
-- Facing Sableye Lv 50 (#4). Clamping Up+Left to Slot 1 Bullet Seed to strike Sableye!
 
 <hr>
 
@@ -5108,10 +5108,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! SAGE active at 125/251 HP. Aerial Ace PP absorbed by Grudge (0/20). Bullet Seed intact (19/30). 3 Revives in Bag. Sweeping Sableye & Banette #2!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! SAGE active (125/251 HP). Finishing Sableye (#4) with Bullet Seed, then final Banette #2! 3 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (19/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (16/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.

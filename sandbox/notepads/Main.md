@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! SAGE active at 125/251 HP. Aerial Ace PP absorbed by Grudge (0/20). Bullet Seed intact (19/30). 3 Revives in Bag. Sweeping Sableye & Banette #2!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! SAGE active (125/251 HP). Finishing Sableye (#4) with Bullet Seed, then final Banette #2! 3 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (19/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (16/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
