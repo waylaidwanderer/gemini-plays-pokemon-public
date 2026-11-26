@@ -1,14 +1,16 @@
 # Pokémon Blue Version — Main Dashboard
 
 ## Run Overview
-- **Game:** Pokémon Blue Version (Generation I)
+- **Game:** Pokémon Blue Version (Generation I, GBC-colorized QoL variant)
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
-- **Starter:** Squirtle (Nickname: `NAUTILUS`)
+- **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16)
 
 ## Badges & Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
 - [x] Boulder Badge — Brock (Pewter City)
+- [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
+- [x] Cerulean Rival `GARNET` Defeated (Turn 257)
 - [ ] Cascade Badge — Misty (Cerulean City)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
@@ -18,16 +20,16 @@
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
-## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 21 | Moves: Mega Punch, Water Gun, Tackle, Bubble
-2. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
-3. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
-4. **AMBER** (Paras) — Lv. 12 | Caught on Mt. Moon B2F (`HM01 Cut` & `Spore` specialist!)
+## Active Party (Verified 100% HP at Turn 271)
+1. **AMETHYST** (Nidoran♀) — Lv. 9 (`29/29` HP) | Moves: Scratch, Growl, Tackle *(Switch-training lead -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
+2. **NAUTILUS** (Wartortle) — Lv. 21 (`58/58` HP) | Moves: Mega Punch, Water Gun, Tackle, Bubble
+3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
+4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥4,000
+- Money: ~¥4,200
 - Key Items: Pokédex, Town Map, Helix Fossil
-- Bag: Potion x1, Antidote x1, Poké Ball x2, Escape Rope x1, Rare Candy x1, HP Up x1, Moon Stone x1, TM34 (Bide), TM12 (Water Gun)
+- Bag: Potion x1, Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x1, Moon Stone x1
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary

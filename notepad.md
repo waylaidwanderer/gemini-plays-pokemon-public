@@ -3,14 +3,16 @@
 # Pokémon Blue Version — Main Dashboard
 
 ## Run Overview
-- **Game:** Pokémon Blue Version (Generation I)
+- **Game:** Pokémon Blue Version (Generation I, GBC-colorized QoL variant)
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
-- **Starter:** Squirtle (Nickname: `NAUTILUS`)
+- **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16)
 
 ## Badges & Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
 - [x] Boulder Badge — Brock (Pewter City)
+- [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
+- [x] Cerulean Rival `GARNET` Defeated (Turn 257)
 - [ ] Cascade Badge — Misty (Cerulean City)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
@@ -20,16 +22,16 @@
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
-## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 21 | Moves: Mega Punch, Water Gun, Tackle, Bubble
-2. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
-3. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
-4. **AMBER** (Paras) — Lv. 12 | Caught on Mt. Moon B2F (`HM01 Cut` & `Spore` specialist!)
+## Active Party (Verified 100% HP at Turn 271)
+1. **AMETHYST** (Nidoran♀) — Lv. 9 (`29/29` HP) | Moves: Scratch, Growl, Tackle *(Switch-training lead -> Lv. 16 Nidorina -> Moon Stone Nidoqueen!)*
+2. **NAUTILUS** (Wartortle) — Lv. 21 (`58/58` HP) | Moves: Mega Punch, Water Gun, Tackle, Bubble
+3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
+4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥4,000
+- Money: ~¥4,200
 - Key Items: Pokédex, Town Map, Helix Fossil
-- Bag: Potion x1, Antidote x1, Poké Ball x2, Escape Rope x1, Rare Candy x1, HP Up x1, Moon Stone x1, TM34 (Bide), TM12 (Water Gun)
+- Bag: Potion x1, Antidote x1, Poké Ball x2, TM34 (Bide), Town Map, TM12 (Water Gun), HP Up x1, Escape Rope x1, Rare Candy x1, Moon Stone x1
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -44,14 +46,24 @@
 
 # Cerulean City, Route 24 & Route 25 — Verified Coordinates & Landmarks
 
-## Map Connections
+## Map Connections & Elevation Topology (Verified Turns 245–272)
 - **West Entrance (from Route 4 East `(89, 8)`)**: Enters Cerulean City at `(0, 18)`.
-- **North Exit (to Route 24 / Nugget Bridge)**: Reached via `(8, 19) -> (8, 12)` (up `(8, 15)` wooden stairs) `-> (20, 12) -> Up` along `x = 20`; Rival `GARNET` ambushes at **`(20, 6)`**.
+- **North/South Ledge Divide (`y = 15`)**:
+  - **Going North (`y = 18..19 -> y = 12`)**: MUST climb the wooden stairs at **`(8, 15)`** (`(8, 16) -> Up * 4 -> (8, 12)`). Both `(9..11, 15)` and the lawn east of the Pokémon Center (`x = 22`) have one-way south-facing ledges!
+  - **Going South Shortcut (`y = 12 -> y = 18`)**: From `(20, 12)`, walking `Right * 2` to `(22, 12)` and `Down * 6` hops the south-facing ledge straight down to `(22, 18)` right next to the Pokémon Center `(19, 17)` (verified Turn 265).
+- **North Exit (to Route 24 / Nugget Bridge)**: Walk east along `y = 12` to `(20, 12)`, then `Up` along `x = 20` (`(20, 0)` transitions to **Route 24 `(10, 35)`**). Rival `GARNET` ambushes at `(20, 6)` (defeated Turn 257).
 
-## Key Buildings
-- **Badge Guy House (Backyard Rare Candy)**: Door at `(9, 11)`.
+## Key Cerulean City Buildings
+- **Badge Guy House (Backyard Rare Candy)**: Front door at **`(9, 11)`**; leads out north back door to fenced garden with hidden `Rare Candy`.
 - **Trade House (`Jynx` for Poliwhirl)**: Door at `(13, 15)`.
-- **Cerulean Pokémon Center**: Door at **`(19, 17)`**.
+- **Cerulean Pokémon Center**: Door at **`(19, 17)`** (warps indoors to `(3, 7)`; Nurse Joy counter at `(3, 3)` facing `Up`). Note: `POKé` sign sits at `(20, 17)`.
+- **Cerulean Gym (Misty)**: Located SE of Pokémon Center (`x = 24..27`, roof at `y = 16..18`).
+- **Burgled House (`TM28 Dig` Rocket)**: NE Cerulean `(27, 11)` (opens after visiting Bill on Route 25).
+
+## Route 24 (Nugget Bridge, `x = 10`)
+- Enters from Cerulean `(20, 0)` at **Route 24 `(10, 35)`**.
+- **Trainer #1 — Bug Catcher Cale** at `(10, 31)`: `Caterpie Lv 14, Weedle Lv 14` (Defeated Turn 263).
+- Remaining 4 bridge trainers + Rocket Grunt (`Nugget`) stand directly north along `x = 10` (`y = 28, 25, 22, 19, 15`).
 
 
 <hr>
@@ -354,27 +366,28 @@ def name_buttons(word):
 
 # Active Routing & Immediate Checklist
 
-## Route 3 -> Mt. Moon -> Cerulean City (Cascade Badge)
-1. **Route 3 (`y = 0..17, x = 0..59`)**:
-   - Defeat Bug Catcher #2 at `(19, 6)` -> `NAUTILUS` reaches Level 15 (`Water Gun`) and approaches Level 16 (`Wartortle` — do NOT press `B` during evolution!).
-   - Navigate east across Route 3 (`x = 19 -> 54`) and north (`y = 0`) onto Route 4.
-   - Heal at the **Mt. Moon Pokémon Center** on Route 4 West before entering Mt. Moon.
-2. **Mt. Moon (`1F -> B1F -> B2F`)**:
-   - **1F Items**:
-     - Pick up `TM12 (Water Gun)` at `(5, 32)` (Done — verified Turn 178 `filmstrip_1.png` `#16` that `Nidoran♀` is `NOT ABLE` to learn `TM12`, so keep `TM12` in Bag and teach it to `AMETHYST` right after she evolves into **Nidoqueen** at Level 16!).
-     - Pick up `Potion` at `(2, 20)`, `Moon Stone` (top-left corner of 1F), `Rare Candy` (bottom-right of 1F), and `Escape Rope`.
-   - **Training & Nidoqueen Power Spike**:
-     - Switch-train **`AMETHYST`** (lead Slot 0 -> switch to `NAUTILUS` Lv. 17 Wartortle on trainers, plus finish safe low-level targets) through Mt. Moon trainers until **Level 16** -> evolves into **Nidorina** (use `A` after KOs at Lv 15 so evolution isn't `B`-cancelled!).
-     - Immediately use the **`Moon Stone`** on `AMETHYST` (`Nidorina`) -> evolves into **Nidoqueen** at Level 16, then teach her **`TM12 (Water Gun)`**! (Nidoqueen also learns **Body Slam** at Level 23 in Pokémon Blue!).
-   - **B2F Finale**:
-     - Pick up `TM01 (Mega Punch)` (via the B2F side ladder) and consider teaching to `AMETHYST` or `NAUTILUS` for neutral physical power against Misty's Starmie.
-     - Defeat Team Rocket Grunts & Super Nerd Miguel -> claim a Fossil (`Dome` or `Helix`) -> exit via B1F corridor to Route 4 East -> hop ledge east into **Cerulean City**.
-3. **Cerulean City & Route 24/25**:
-   - Heal at Cerulean Pokémon Center.
-   - Defeat Rival **`GARNET`** at Nugget Bridge (`Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17`).
-   - Clear Nugget Bridge (5 trainers + Rocket Grunt for `Nugget`) -> cross Route 25 -> rescue **Bill** at Sea Cottage for the **`S.S. TICKET`**.
-   - Challenge **Cerulean Gym** -> defeat **Misty** (`Staryu Lv 18, Starmie Lv 21`) -> earn **Cascade Badge** + `TM11 (BubbleBeam)`.
-   - Defeat backyard Team Rocket Grunt -> obtain **`TM28 (Dig)`** -> head south down Route 5 Underground Path to Vermilion City.
+## Cerulean City -> Route 24/25 -> Cascade Badge -> Vermilion City
+1. **Badge Guy Backyard (`(9, 11)`)**:
+   - Exit north back door into fenced backyard -> pick up **Hidden Rare Candy #2** (`Rare Candy x2` total in Bag!).
+   - Return through Badge Guy's house to `(9, 12)` -> walk east to `(20, 12)` -> north onto **Route 24 (`x = 10`)**.
+2. **Nugget Bridge Switch-Training (`AMETHYST` Slot 0 -> `NAUTILUS` Slot 1)**:
+   - Note: `POKéMON` cursor is pre-positioned on Slot 1 (`NAUTILUS`)! On `NAUTILUS`'s next `FIGHT` menu, swap `WATER GUN` (Slot 1) to Slot 0 (`Select, Down, Select`) so 100%-accurate `Water Gun` is Slot 0 and 80-BP `Mega Punch` is Slot 1.
+   - Defeat Trainers #2–#5 + Rocket Grunt (`Nugget` worth ¥5,000!) along `x = 10`:
+     - #2 Lass (`Pidgey Lv 14, Nidoran♀ Lv 14`)
+     - #3 Youngster (`Rattata Lv 14, Ekans Lv 14, Zubat Lv 14`)
+     - #4 Lass (`Pidgey Lv 16, Nidoran♀ Lv 16`)
+     - #5 Jr. Trainer♂ (`Mankey Lv 18`)
+     - #6 Rocket Grunt (`Ekans Lv 15, Zubat Lv 15` — awards `Nugget` first)
+   - Grab `TM45 (Thunder Wave)` on NW plateau of Route 24 if convenient.
+3. **Route 25, Sea Cottage (`S.S. TICKET`), & Nidoqueen Power Spike**:
+   - Switch-train `AMETHYST` across Route 25 trainers until **Level 14** (remember `NAUTILUS` learns **Bite** at Lv. 24 — replace `Bubble` or `Tackle`!).
+   - At **Level 14**, use **`Rare Candy x2`** -> `AMETHYST` evolves into **Nidorina** at Lv. 16 -> use **`Moon Stone`** -> evolves into **Nidoqueen** -> teach **`TM12 (Water Gun)`**!
+   - Enter **Sea Cottage** -> help **Bill** (`YES` = `A`, then check PC, then talk to Bill) -> obtain **`S.S. TICKET`**.
+4. **Cerulean Gym & `TM28 (Dig)`**:
+   - Heal at Cerulean Pokémon Center `(19, 17)`.
+   - Sweep **Cerulean Gym** (`Misty`: `Staryu Lv 18, Starmie Lv 21` using `Mega Punch` / `Bite` + `Nidoqueen`) -> **Cascade Badge** + `TM11 (BubbleBeam)`.
+   - Enter burgled house `(27, 11)` -> defeat Backyard Rocket -> obtain **`TM28 (Dig)`** (teach to **Nidoqueen** for 100-BP STAB Ground!).
+   - Head south down Route 5 (`Underground Path`) -> Route 6 -> **Vermilion City** (`S.S. Anne` for `HM01 Cut` -> Lt. Surge).
 
 
 <hr>
