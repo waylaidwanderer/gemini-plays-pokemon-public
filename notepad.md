@@ -439,7 +439,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
 ## Elite Four Attempt 14 (Active)
 - Status: Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Dusclops #1, Dusclops #2, Banette #1, and Sableye swept; final Banette Lv 49 (#5) OHKO'd by Overgrow Bullet Seed (Slot 1)! ELITE FOUR PHOEBE DEFEATED (Attempt 14)! Prize: ¥5,100 (Total funds: ¥10,670). Door to Room 3 (Glacia) unlocked!
-- Status: Room 3 Glacia: Lead Sealeo Lv 50 taking heavy 4.5x Overgrow Bullet Seed barrage (dropped to red, fainting). Advancing turn to confirm KO, decline switch, and face Sealeo Lv 52 (#2)!
+- Status: Room 3 Glacia: Sealeo Lv 50 (#1) DEFEATED! Facing Sealeo Lv 52 (#2). SAGE Lv 86 at 46/257 HP (Overgrow ACTIVE, 253 Speed) outspeeds cleanly. Clamping to Slot 1 Bullet Seed (Up, Left) for 4.5x boosted OHKO, advancing to Ace Walrein Lv 53 (#3)!
 - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
 - Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
 - Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
@@ -5118,10 +5118,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! In battle with Room 3 Glacia! SAGE Lv 86 at 46/257 HP (Overgrow ACTIVE, 253 Spe) targeting lead Sealeo Lv 50 (#1) with 4.5x boosted Bullet Seed. Bag: 5 Revives, 1 Full Heal, ¥10,670 cash.
+- Status: Attempt 14 Active! Room 3 Glacia: Sealeo #1 down! SAGE Lv 86 at 46/257 HP (Overgrow ACTIVE, 253 Spe) targeting Sealeo Lv 52 (#2) with 4.5x boosted Bullet Seed. Bag: 5 Revives, 1 Full Heal, ¥10,670 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 46/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (11/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 46/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (10/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
