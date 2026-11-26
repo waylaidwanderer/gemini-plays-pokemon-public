@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: 4 down! SAGE Lv 85 (127/254 HP, 250 Speed) facing final Glalie Lv 52 (#5). Striking with physical Facade to defeat Glacia. Bag: 1 Revive, 1 Full Heal.
+- Status: Attempt 13 Active! Elite Four Glacia DEFEATED (earned ¥5,300, total ¥16,341)! Door to Room 4 (Drake) unlocked! SAGE Lv 85 (~112/254 HP, 250 Spe). Bag: 1 Revive, 1 Full Heal. Advancing to Room 4 Drake!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (17/20), Quick Attack (30/30). Status: OK (Active Battler).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 112/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (16/20), Quick Attack (30/30). Status: OK (Active Battler).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
@@ -22,7 +22,7 @@
 - Revive x1 (2 consumed on SAGE, 1 consumed on Lilz)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥11,041 (earned ¥5,100 from Phoebe)
+- Money: ¥16,341 (earned ¥5,300 from Glacia)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -32,7 +32,7 @@
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 13, Turn 26675)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 13, Turn 26712)!
-    - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
+    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 13, Turn 26752)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
