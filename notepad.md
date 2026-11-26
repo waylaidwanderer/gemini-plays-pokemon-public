@@ -310,6 +310,11 @@
   - Note: `(8, 3)` north and `(3, 24)` southwest are dead ends; the **true passage through the `x = 6..7` wall is the gap at `y = 10..12` (`(6..7, 11)`)**!
   - Walk north from `(11, 15)` to `(9, 11)`, west to **`(6, 11)`** (**Hiker Dudley** stands at **`(6, 10)`** facing `Down`: `Geodude Lv 21 x2, Graveler Lv 21`, defeated Turn 540), west to `(3, 11)`, and north along `x = 3` toward **Ladder #4 (`B1F (3, 3)`)**:
     - **Pokémaniac Cooper** (`Slowpoke Lv 20 x3`) triggers at **`(3, 8)`** *(Engine note: if `"REPEL's effect wore off."` triggers on the same step as a Trainer sightline, dismissing the Repel box immediately starts the queued Trainer walk-up before `Start` can open!)*.
+  - **Ladder #4**: **`B1F (3, 3)`** -> warps up to **`1F (37, 17)`** (`1F Section 3`, Southeast -> Southwest Exit).
+- **1F Section 3 (Southeast -> South Exit, Verified Turns 550–566)**:
+  - Arrives at **`1F (37, 17)`**; walk south along `x = 35`:
+    - **Jr. Trainer♀ Leah** (`Bellsprout Lv 22, Clefairy Lv 22`) triggers at **`(35, 21)`** (defeated Turn 561).
+    - **Jr. Trainer♀ Ariana** (`Pidgey Lv 19, Rattata Lv 19 x2, Bellsprout Lv 19`) triggers at **`(35, 24)`**; corridor opens west at `y = 28+`.
 
 
 <hr>
@@ -435,8 +440,9 @@ def name_buttons(word):
 ## Event & Fanfare Timings (Verified Turns 2–41)
 - **ROM Variant**: Colorized Pokémon Blue enhancement with GBC palettes and a live blue EXP bar under player HP in battle (verified Turn 27). Maps, items, and encounters match Pokémon Blue.
 - **Battle Move Cursor Memory**:
-  - **New Battle (Turn 1)**: BOTH the top-level command menu (`►FIGHT`) AND the `FIGHT` move submenu (`►Slot 1`) **reset to Slot 1** at the start of every new battle (verified Turn 97 `filmstrip_1.png` — earlier assumption that `FIGHT` remembered across battles was false!).
-  - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73).
+  - **New Battle (Turn 1)**: **ALL FOUR** battle menus — top-level command (`►FIGHT`), `FIGHT` move submenu (`►Slot 0`), `PKMN` party list (`►Slot 0`), **AND `ITEM` bag menu (`►Slot 0`)** — **reset to Slot 0** at the start of every new battle (verified Turns 97, 280, and 565 `filmstrip_1.png` `#04`!).
+  - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, `PKMN` cursor, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73, 287).
+  - **Gen 1 `Wrap` / `Bind` Sub-Turn UI (Verified Turn 558 `filmstrip_1.png` `#02`)**: During an active multi-turn `Wrap`, `►FIGHT` re-opens before every single 1-tick sub-turn, and pressing `A` on `►FIGHT` immediately advances `"Enemy <PKMN>'s attack continues!"` **without opening the move list** (leaving your `FIGHT` move cursor unchanged). Use rapid `A, A` + `7` `B`s (`~5s`/sub-turn) rather than directional move switches during `Wrap`.
   - *(Tip — Verified `Select` Swap Mechanics, Turns 110, 121, 125)*:
     - In the **`FIGHT` move menu**, `Select -> Down * k -> Select` swaps Slot `k` into Slot 0 and **automatically resets the cursor onto Slot 0** (and note: `FIGHT` wraps vertically, so pressing `Up` from Slot 0 wraps to the bottom move!).
     - In the **`ITEM` bag menu**, `Select -> Down * k -> Select` leaves the cursor at Slot `k`; always verify the highlighted item before pressing `A` after reordering items.

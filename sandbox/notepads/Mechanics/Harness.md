@@ -38,8 +38,9 @@ def name_buttons(word):
 ## Event & Fanfare Timings (Verified Turns 2–41)
 - **ROM Variant**: Colorized Pokémon Blue enhancement with GBC palettes and a live blue EXP bar under player HP in battle (verified Turn 27). Maps, items, and encounters match Pokémon Blue.
 - **Battle Move Cursor Memory**:
-  - **New Battle (Turn 1)**: BOTH the top-level command menu (`►FIGHT`) AND the `FIGHT` move submenu (`►Slot 1`) **reset to Slot 1** at the start of every new battle (verified Turn 97 `filmstrip_1.png` — earlier assumption that `FIGHT` remembered across battles was false!).
-  - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73).
+  - **New Battle (Turn 1)**: **ALL FOUR** battle menus — top-level command (`►FIGHT`), `FIGHT` move submenu (`►Slot 0`), `PKMN` party list (`►Slot 0`), **AND `ITEM` bag menu (`►Slot 0`)** — **reset to Slot 0** at the start of every new battle (verified Turns 97, 280, and 565 `filmstrip_1.png` `#04`!).
+  - **Same Battle (Turn 2+)**: Within the same battle, the top-level command menu, `FIGHT` submenu, `PKMN` cursor, and `ITEM` submenu all remember their last selected positions (verified Turns 21, 67, 73, 287).
+  - **Gen 1 `Wrap` / `Bind` Sub-Turn UI (Verified Turn 558 `filmstrip_1.png` `#02`)**: During an active multi-turn `Wrap`, `►FIGHT` re-opens before every single 1-tick sub-turn, and pressing `A` on `►FIGHT` immediately advances `"Enemy <PKMN>'s attack continues!"` **without opening the move list** (leaving your `FIGHT` move cursor unchanged). Use rapid `A, A` + `7` `B`s (`~5s`/sub-turn) rather than directional move switches during `Wrap`.
   - *(Tip — Verified `Select` Swap Mechanics, Turns 110, 121, 125)*:
     - In the **`FIGHT` move menu**, `Select -> Down * k -> Select` swaps Slot `k` into Slot 0 and **automatically resets the cursor onto Slot 0** (and note: `FIGHT` wraps vertically, so pressing `Up` from Slot 0 wraps to the bottom move!).
     - In the **`ITEM` bag menu**, `Select -> Down * k -> Select` leaves the cursor at Slot `k`; always verify the highlighted item before pressing `A` after reordering items.

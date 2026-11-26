@@ -43,3 +43,8 @@
   - Note: `(8, 3)` north and `(3, 24)` southwest are dead ends; the **true passage through the `x = 6..7` wall is the gap at `y = 10..12` (`(6..7, 11)`)**!
   - Walk north from `(11, 15)` to `(9, 11)`, west to **`(6, 11)`** (**Hiker Dudley** stands at **`(6, 10)`** facing `Down`: `Geodude Lv 21 x2, Graveler Lv 21`, defeated Turn 540), west to `(3, 11)`, and north along `x = 3` toward **Ladder #4 (`B1F (3, 3)`)**:
     - **Pokémaniac Cooper** (`Slowpoke Lv 20 x3`) triggers at **`(3, 8)`** *(Engine note: if `"REPEL's effect wore off."` triggers on the same step as a Trainer sightline, dismissing the Repel box immediately starts the queued Trainer walk-up before `Start` can open!)*.
+  - **Ladder #4**: **`B1F (3, 3)`** -> warps up to **`1F (37, 17)`** (`1F Section 3`, Southeast -> Southwest Exit).
+- **1F Section 3 (Southeast -> South Exit, Verified Turns 550–566)**:
+  - Arrives at **`1F (37, 17)`**; walk south along `x = 35`:
+    - **Jr. Trainer♀ Leah** (`Bellsprout Lv 22, Clefairy Lv 22`) triggers at **`(35, 21)`** (defeated Turn 561).
+    - **Jr. Trainer♀ Ariana** (`Pidgey Lv 19, Rattata Lv 19 x2, Bellsprout Lv 19`) triggers at **`(35, 24)`**; corridor opens west at `y = 28+`.
