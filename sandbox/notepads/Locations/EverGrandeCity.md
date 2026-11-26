@@ -137,3 +137,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 
   - Room 2 Phoebe: Facing Phoebe at (6, 6) in Room 2 (Attempt 12, Turn 26577)! SAGE Lv 84 (172/251 HP, 247 Speed, 29 Bullet Seed PP, 9 Aerial Ace PP). Plan: Use Aerial Ace / Bullet Seed (never Normal moves!), sacrifice Aerial Ace to Banette's Grudge, sweep all 5 Ghosts!
     - Turn 1: Dusclops used Protect! SAGE's Aerial Ace blocked. Aerial Ace at 7/20 PP under Pressure. SAGE at 172/251 HP. Preparing Turn 2 strike!
+    - Turn 2: Dusclops used Protect (failed!). SAGE struck first with Aerial Ace, dropping Dusclops to ~25% HP! SAGE at 172/251 HP. Aerial Ace at 5/20 PP under Pressure. Launching Turn 3 Aerial Ace!
