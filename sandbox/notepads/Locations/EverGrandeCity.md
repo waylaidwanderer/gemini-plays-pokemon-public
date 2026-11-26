@@ -129,3 +129,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Glacia in Room 3!
+
+- Turn 9: SAGE struck first with Overgrow Bullet Seed, dropping final Banette #2 to red (~15% HP)! Advancing through Banette's counter-attack.
