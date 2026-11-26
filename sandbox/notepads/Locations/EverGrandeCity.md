@@ -160,3 +160,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Dusclops Lv 51: DEFEATED by Bullet Seed! Both Pressure users on Phoebe's team are eliminated!
   - Phoebe Pokémon #3: Banette Lv 49 (Grudge user). Declining switch, advancing to battle menu to launch Aerial Ace (Slot 2) and absorb Grudge safely!
     - Banette Lv 49 (#1): On field. Dismissing send-out text, clamping Up+Right to Slot 2 Aerial Ace to OHKO Banette and absorb Grudge safely, protecting Bullet Seed!
+    - Banette Lv 49 (#1) used Grudge! Banette at ~22% HP. Executing Aerial Ace (Slot 2) to KO Banette and absorb Grudge, completely protecting STAB Bullet Seed!
