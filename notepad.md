@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
-- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Revive confirmed on Row 2 SAGE (restored to 127/254 HP, +6 priority). Lilz absorbs Glalie attack and faints, granting SAGE a free switch-in to sweep Glalie #4 and Glalie #5!
+- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. SAGE 100% successfully revived to 127/254 HP (+6 priority)! Glalie used Crunch on Lilz (Lilz survived with 13/85 HP). Advancing to battle menu to let Lilz absorb the next attack for SAGE's clean switch-in!
 
 <hr>
 
@@ -5113,7 +5113,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: OK (Revived via Sacrificial Revive).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Status: OK (Revived).
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 13/85. Status: OK (Active Battler).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
