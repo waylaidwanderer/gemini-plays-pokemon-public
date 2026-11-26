@@ -22,7 +22,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 11, Turn 26428)!
+    - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 12, Turn 26573)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
     - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
@@ -132,3 +132,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
     - Cacturne Lv 46 (#4): DEFEATED! SAGE struck first with 4x Aerial Ace for ~307 damage, instant OHKO! Facing Sidney's final Pokémon, Crawdaunt Lv 48 (#5, 2x weak to Grass)!
     - Crawdaunt Lv 48 (#5, Final): Bullet Seed dealt ~90% damage, dropping Crawdaunt to ~10% HP! Crawdaunt counter-attacks, SAGE finishing next turn.
+    - Crawdaunt Lv 48 (#5, Final): DEFEATED! SAGE finished Crawdaunt with Bullet Seed! ALL 5 OF SIDNEY'S POKÉMON DEFEATED!
+  - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26573)! Prize: ¥4,900 earned (Total cash: ¥5,383). Door to Room 2 (Phoebe) unlocked!

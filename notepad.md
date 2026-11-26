@@ -332,7 +332,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 11, Turn 26428)!
+    - [x] Elite Four Member #1 Sidney (DEFEATED Attempt 12, Turn 26573)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
     - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
@@ -442,6 +442,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
     - Cacturne Lv 46 (#4): DEFEATED! SAGE struck first with 4x Aerial Ace for ~307 damage, instant OHKO! Facing Sidney's final Pokémon, Crawdaunt Lv 48 (#5, 2x weak to Grass)!
     - Crawdaunt Lv 48 (#5, Final): Bullet Seed dealt ~90% damage, dropping Crawdaunt to ~10% HP! Crawdaunt counter-attacks, SAGE finishing next turn.
+    - Crawdaunt Lv 48 (#5, Final): DEFEATED! SAGE finished Crawdaunt with Bullet Seed! ALL 5 OF SIDNEY'S POKÉMON DEFEATED!
+  - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26573)! Prize: ¥4,900 earned (Total cash: ¥5,383). Door to Room 2 (Phoebe) unlocked!
 
 
 <hr>
@@ -5113,7 +5115,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 12 Active! Room 1 Sidney in progress (Crawdaunt at ~10% HP). SAGE Lv 84 (172/251 HP, 247 Speed). Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball, ¥483.
+- Status: Attempt 12 Active! Room 1 Sidney DEFEATED! Cash: ¥5,383. SAGE Lv 84 (172/251 HP, 247 Speed). Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball. Advancing to Room 2 Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 172/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (29/30), Aerial Ace (9/20), Facade (19/20), Quick Attack (30/30). Status: OK.
@@ -5132,7 +5134,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x5 (5 purchased at League Mart for Attempt 12)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥483 (purchased 5 Revives for ¥7,500)
+- Money: ¥5,383 (purchased 5 Revives for ¥7,500)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5140,7 +5142,7 @@ A large meteorological research institute located in northern Route 119 beside t
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 11, Turn 26428)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 12, Turn 26573)!
     - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
     - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
