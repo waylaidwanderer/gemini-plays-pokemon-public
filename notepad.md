@@ -436,6 +436,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Upcoming: Cacturne Lv 46 (#4, 4x weak to Flying), Crawdaunt Lv 48 (#5, 2x weak to Grass). Prize: ¥4,900.
 
     - Shiftry Lv 48 (#3): Sidney burned Full Restore! SAGE countered with Aerial Ace, dropping Shiftry back to red (~5% HP). Finishing with Aerial Ace!
+    - Shiftry Lv 48: DEFEATED by Aerial Ace! SAGE at 159/251 HP.
+  - Cacturne Lv 46 (#4): Grass/Dark (weak to Flying). Clamping Up+Right to Slot 2 Aerial Ace to OHKO Cacturne!
 
 <hr>
 
