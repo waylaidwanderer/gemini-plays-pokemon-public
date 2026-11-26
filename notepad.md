@@ -76,7 +76,8 @@
 
 ## Key Buildings
 - **Pokémon Center**: Door at `(13, 25)` (approached via `(18, 35) -> (18, 26) -> (13, 26)`).
-- **Pewter City Gym**: Northwest of Pokémon Center (door around `(16, 17)` — verify exact grid coordinate on approach).
+- **Poké Mart**: Door at `(23, 17)` (east of central `x = 19` road).
+- **Pewter City Gym**: Door at `(16, 17)` (fenced on east `(18, 18..21)` and south `(15..17, 21)`; approach from north/west around the Gym roof).
 
 
 <hr>
