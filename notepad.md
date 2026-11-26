@@ -605,6 +605,8 @@ def name_buttons(word):
   - Long 12–16 tile spinner chains (e.g., Rocket Hideout B2F `(12, 13) -> (2, 9)`) take ~5.5–6.0 seconds to finish sliding. If trailing `"sleep <ms>"` is shorter (e.g., `3500` ms), `<GameState>` and `latest_grid.png` snapshot mid-slide with a 1-tile camera/coordinate offset. Always use `"sleep 6500"` on long spinner chains, or call `observe` if a reported landing tile is not a gray stopper pad.
 - **Player's PC (`DEPOSIT ITEM`) Cursor Reset Rule (Verified Turns 692–693)**:
   - Dismissing `"<ITEM> was stored via PC."` with `B` returns **directly** into `"What do you want to deposit?"` with the cursor **reset to Slot 0** (NOT back to the `WITHDRAW / DEPOSIT` menu). Quantity items (`× 1`, including TMs) prompt `"How many?"` (`A, A, B`), whereas Key Items (`Town Map`, `Helix Fossil`, `S.S. Ticket`, `Lift Key`) store immediately without `"How many?"` (`A, B`).
+- **`Cut` Bush Regrowth After Battles (Verified Turn 721)**:
+  - Completing a trainer/wild battle redraws overworld map tiles and **re-grows any chopped `Cut` bushes** in the current map (e.g., Celadon Gym `(5, 7)` re-grew immediately behind us after defeating Cooltrainer♀ Mary at `(5, 6)`).
 
 ## Navigation Scripting Guardrails & Cave Primitives (Verified Turns 53, 60, 152, 165–166)
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
