@@ -438,7 +438,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Player at (16, 4) in League Lobby. Verifying 5 Revives in Bag before walking to gate at (9, 1).
+- Status: Player at (16, 6) in League Lobby. Opening Bag to visually confirm 5 Revives before walking to gate at (9, 1).
 - Party: SAGE Lv 85 (Lead, 254/254 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
 - Bag: 5 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥670 cash.
 - Plan:
@@ -5117,7 +5117,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 14 Prep! Player at (16, 4) in League Lobby. Verifying 5 Revives in Bag before walking to gate at (9, 1). SAGE Lv 85 party 100% restored. Bag: 5 Revives, 1 Full Heal, ¥670 cash.
+- Status: Attempt 14 Prep! Player at (16, 6) in League Lobby. Opening Bag to visually confirm 5 Revives before walking to gate at (9, 1). SAGE Lv 85 party 100% restored. Bag: 5 Revives, 1 Full Heal, ¥670 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 254/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
