@@ -332,10 +332,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint (Turn 23832)!
 6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 13, Turn 26675)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 13, Turn 26712)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 13, Turn 26752)!
-    - [ ] Elite Four Member #4 Drake
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 14, Turn 26811)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
+    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
+    - [ ] Elite Four Member #4 Drake (Active Attempt 14)
     - [ ] Champion Wallace
 
 ## League Lobby & Elite Four Re-entry Protocol
@@ -379,18 +379,17 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 3 Glacia: ALL 5 DEFEATED! Sealeo #1 & #2 swept; Ace Walrein defeated via Sacrificial Revive; Glalie #4 & #5 2HKO'd by physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 14)! Prize: ¥5,300 (Total funds: ¥15,970). Door to Room 4 (Drake) unlocked!
-- Next: Advance through Room 3 doorway at (6, 0), ascend Grand Staircase, and challenge Drake in Room 4!
+- Status: Room 4 Drake: In battle vs Shelgon Lv 52! SAGE Lv 86 (76/257 HP, Overgrow ACTIVE, 253 Spe). Bag: 4 Revives, 1 Full Heal, 3 conscious anchors (Lilz 85 HP, Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
 - Milestone Progress:
-  - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned.
-  - Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥5,100 earned.
-  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein DEFEATED! Facing Glalie #4 and #5.
-- Party: SAGE Lv 86 (Lead, 128/257 HP, Spe 253), Lilz Lv 30 (85 HP), Cobalu Lv 18 (49 HP), Guava Lv 30 (101 HP) conscious; Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
-- Bag: 4 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥10,670 cash.
+  - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep, Turn 26811)! Prize: ¥4,900 earned.
+  - Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep, Turn 26831)! Prize: ¥5,100 earned.
+  - Room 3 Glacia: ALL 5 DEFEATED (Sweep, Turn 26856)! Prize: ¥5,300 earned.
+  - Room 4 Drake: In battle vs Shelgon Lv 52 (Active Turn 26881).
 - Plan:
-  1. Room 3 Glacia: 2HKO Glalie #1 & #2 with physical Facade. Glacia DEFEATED!
-  2. Room 4 Drake: Facade sweep, Sacrificial Revive if needed.
-  3. Champion Wallace: Overgrow Bullet Seed & Facade sweep to victory!
+  1. Sweep Shelgon Lv 52, Flygon Lv 53, Altaria Lv 54 with Facade (or Bullet Seed).
+  2. Salamence Lv 55: Facade / Sacrificial Revive via reserve anchor if SAGE faints.
+  3. Defeat Kingdra Lv 53 to unlock Champion Wallace's chamber!
+  4. Challenge and defeat Champion Wallace to enter Hall of Fame!
 
 <hr>
 
