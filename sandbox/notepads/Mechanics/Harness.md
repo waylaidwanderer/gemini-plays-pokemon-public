@@ -90,7 +90,8 @@ def name_buttons(word):
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
 - **Gen 1 Menu Wrapping Summary (Verified Turns 124, 155, 184)**:
   - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`). Note: healing at Nurse Joy does **NOT** reset the `Start` cursor (verified Turn 270 — `Start` remained on `POKéMON` after healing!).
-  - `POKéMON` party list **remembers its last cursor slot** across opens (both in `Start -> POKéMON` and in-battle `PKMN`, verified Turns 190–192) and **wraps** vertically; never assume `POKéMON` opens on Slot 0 after a `SWITCH`!
+  - `POKéMON` party list remembers its last cursor slot in overworld `Start -> POKéMON`, **EXCEPT at the start of every new battle**, where in-battle `PKMN` **resets to Slot 0** just like `FIGHT` (verified Turn 280! Thus Turn-1 switch from Slot 0 to Slot 1 in a new battle is ALWAYS `Right, A, Down, A, A`).
+  - **Verified Direct-Talk Trainer Intro Recipe (13.5s, Turn 280)**: Talking to a trainer with `A` takes ~12.6s to reach `►FIGHT` (shorter sleeps drop Turn-1 switch inputs during `"Go! <PKMN>!"`, Turn 277). Use `["A", "sleep 1000", "B", "sleep 1000", "B", "sleep 4000", "B", "sleep 1200", "B", "sleep 2500", "B", "sleep 3000", "B", "sleep 800"]` to land cleanly on `►FIGHT`.
   - Battle `FIGHT` move menu **wraps** vertically.
   - `ITEM` bag menu **clamps** (does NOT wrap) at Slot 0 (`Up` at top stays on Slot 0).
   - Battle 2x2 command menu (`FIGHT / PKMN / ITEM / RUN`) **clamps** (`Left, Up` always lands on `►FIGHT`).
