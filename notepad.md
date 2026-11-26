@@ -431,8 +431,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Goal: Purchase 4 Revives (Row 6, ¥1,500 each = ¥6,000, leaving ¥1,041).
 - Party: SAGE Lv 84 (251/251 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
 
-- Selecting BUY and navigating Down x5 to highlight Revive (Row 6) for visual verification.
-- Purchase canceled by premature B press; money remains ¥7,041, 0 Revives. Re-entering BUY menu, navigating to Revive (Row 6), and opening quantity selector.
+- Dismissing "Please come again!", speaking to clerk, confirming BUY, navigating Down x5 to Revive (Row 6), and opening quantity selector.
 
 <hr>
 
