@@ -17,6 +17,7 @@
 - Pokémon Center Nurse Joy (at `(3,3)` facing Up): requires 6 `A` presses spaced by ~500ms to get past `"Welcome..."`, `"We heal your POKéMON"`, `"back to perfect health!"`, and select `HEAL`, followed by ~4.5s for healing animation, then `B` presses to finish (verified turn 83 & 86 filmstrips).
 - Poké Mart BUY flow: `A` (open qty `x01`) -> `Up`*(N-1) -> `A` (`"That will be ▼"`) -> `A` (`"¥XXXX. OK?" YES/NO`) -> `A` (confirm `YES` -> `"Here you are! Thank you!"`) -> `B` (return to item list) (verified turn 86 filmstrip).
 - Battle `PKMN` switch cursor persists on the last switched-in slot, so swapping back to slot 1 after switch-training slot 2 requires `Up` before `A` (verified turn 122-123).
+- Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
 - **RIPTIDE** (Squirtle) - Lv 9 (15/27 HP; Tackle, Tail Whip, Bubble) — leveled to Lv 9 defeating Viridian Forest Bug Catcher #1 (turn 125)
