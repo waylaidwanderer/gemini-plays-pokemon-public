@@ -124,3 +124,9 @@ def name_buttons(word):
 
 
 
+
+## Warp Fadeouts, Mart Purchases & Stack Depletion (Verified Turns 927–942)
+- **Warp Fadeout Settling (`Turn 928`)**: Stepping onto an auto-warp tile without a trailing `"sleep 1200"` can return mid-fadeout with pre-warp coordinates; append `"sleep 1200"` on warp steps (or call `tools.observe()`) before asserting destination coordinates.
+- **Poké Mart Quantity Purchase (`Turn 941`)**: After adjusting `*NN` quantity, buying requires **three** `A` presses (`1st A`: `"ITEM? That will be ▼"`, `2nd A`: `"¥XXXX. OK? [►YES/NO]"`, `3rd A`: `►YES`) before pressing `B` to exit.
+- **Stack Depletion Cursor Reset (`Turn 927`)**: Consuming the final `x1` of an item stack resets the `ITEM` scroll cursor back to `Slot 0`.
+- **Field `Cut` Text Prompt (`Turn 942`)**: Selecting `CUT` from the Party menu prints `"<NAME> hacked away with CUT!"` and waits for `B`/`A` + `sleep 2200` before clearing the bush.

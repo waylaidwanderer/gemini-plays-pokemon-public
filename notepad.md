@@ -184,8 +184,8 @@
     - Entering via **`Area 2 (2, 35)`** spawns at **`Area 3 (20, 0)`** (`tree at (18..19, 0..1)`):
       - **`GOLD TEETH`** at **`(19, 7)`** (`obtained Turn 918!` via `(20, 0) -> Down * 5 -> Left -> Down -> (19, 6)`).
       - **Secret House (`HM03 Surf`)**: Door at **`(3, 3)`** (`22` steps from `(20, 0)`: `Down * 4 -> (20, 4) -> Left * 17 -> (3, 4)` straight through the `(6, 4)` Rhydon statue gap, then `Up` into `(3, 3)`!).
-- **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`**.
-- **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`Fuchsia Gym` is west of it at `(5, 27)`).
+- **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`** (`from (18, 21) south of (18, 19) Cut bush: Right * 6 -> (24, 21) -> Down * 6 -> (24, 27) -> Right * 2 -> (26, 27) -> Down -> (26, 28) -> Right -> (27, 28) -> Up`; bollard gap is at `(25, 26..27)`!).
+- **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`from (22, 21), hop south ledge at (22, 25) onto (22, 26) -> Down * 2 -> Left * 3 -> (19, 28) -> Up`; **`Fuchsia Gym` is west of it at `(5, 27)`**; northern zero-`Cut` walkway `(18, 4) -> (16, 6) -> (16, 9) -> (3, 9) -> (3, 14)` also links Safari Gatehouse straight to Fuchsia Mart `(5, 13)`).
 
 
 <hr>
@@ -677,6 +677,12 @@ def name_buttons(word):
 
 
 
+
+## Warp Fadeouts, Mart Purchases & Stack Depletion (Verified Turns 927–942)
+- **Warp Fadeout Settling (`Turn 928`)**: Stepping onto an auto-warp tile without a trailing `"sleep 1200"` can return mid-fadeout with pre-warp coordinates; append `"sleep 1200"` on warp steps (or call `tools.observe()`) before asserting destination coordinates.
+- **Poké Mart Quantity Purchase (`Turn 941`)**: After adjusting `*NN` quantity, buying requires **three** `A` presses (`1st A`: `"ITEM? That will be ▼"`, `2nd A`: `"¥XXXX. OK? [►YES/NO]"`, `3rd A`: `►YES`) before pressing `B` to exit.
+- **Stack Depletion Cursor Reset (`Turn 927`)**: Consuming the final `x1` of an item stack resets the `ITEM` scroll cursor back to `Slot 0`.
+- **Field `Cut` Text Prompt (`Turn 942`)**: Selecting `CUT` from the Party menu prints `"<NAME> hacked away with CUT!"` and waits for `B`/`A` + `sleep 2200` before clearing the bush.
 
 
 <hr>

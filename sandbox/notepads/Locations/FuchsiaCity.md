@@ -20,5 +20,5 @@
     - Entering via **`Area 2 (2, 35)`** spawns at **`Area 3 (20, 0)`** (`tree at (18..19, 0..1)`):
       - **`GOLD TEETH`** at **`(19, 7)`** (`obtained Turn 918!` via `(20, 0) -> Down * 5 -> Left -> Down -> (19, 6)`).
       - **Secret House (`HM03 Surf`)**: Door at **`(3, 3)`** (`22` steps from `(20, 0)`: `Down * 4 -> (20, 4) -> Left * 17 -> (3, 4)` straight through the `(6, 4)` Rhydon statue gap, then `Up` into `(3, 3)`!).
-- **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`**.
-- **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`Fuchsia Gym` is west of it at `(5, 27)`).
+- **Safari Warden's House (`HM04 Strength`)**: Door at **`(27, 27)`** (`from (18, 21) south of (18, 19) Cut bush: Right * 6 -> (24, 21) -> Down * 6 -> (24, 27) -> Right * 2 -> (26, 27) -> Down -> (26, 28) -> Right -> (27, 28) -> Up`; bollard gap is at `(25, 26..27)`!).
+- **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`from (22, 21), hop south ledge at (22, 25) onto (22, 26) -> Down * 2 -> Left * 3 -> (19, 28) -> Up`; **`Fuchsia Gym` is west of it at `(5, 27)`**; northern zero-`Cut` walkway `(18, 4) -> (16, 6) -> (16, 9) -> (3, 9) -> (3, 14)` also links Safari Gatehouse straight to Fuchsia Mart `(5, 13)`).
