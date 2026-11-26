@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 84, Male), Nickname: SAGE
+- Starter: Sceptile (Level 85, Male), Nickname: SAGE
 - Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1 DEFEATED! SAGE active (44/251 HP, Overgrow ACTIVE). Firing Overgrow Bullet Seed vs Sableye, then final Banette #2! 3 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
@@ -22,7 +22,7 @@
 - Revive x3 (1 consumed on Sacrificial Revive for SAGE)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,941 (earned ¥4,900 from Sidney)
+- Money: ¥11,041 (earned ¥5,100 from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -31,7 +31,7 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 13, Turn 26675)!
-    - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 13, Turn 26712)!
     - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
@@ -73,3 +73,4 @@
 - Whiteout Currency Mechanics: Cash halved upon whiteout (¥5,383 -> ¥2,691). Revives sold at Mart Counter Row 6 for ¥1,500 each. Sidney rewards ¥4,900.
 - Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
 - Verified Attempt 13 Inventory: Physically confirmed in Bag on Turn 26657: Revive x4, Full Heal x1, Quick Claw x1, Macho Brace x1, Money ¥1,041.
+- Level 85 SAGE Benchmark: Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Overgrow activates at <= 84 HP (254 / 3 = 84).

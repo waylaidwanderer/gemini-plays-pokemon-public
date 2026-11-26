@@ -427,20 +427,19 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: Room 2 Phoebe in progress! SAGE Lv 84 (44/251 HP, Overgrow ACTIVE, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941 cash.
-- Party: SAGE Lv 84 (Lead, 44/251 HP), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
-- Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900 (Total: ¥5,941). Door unlocked!
-- Room 2 Phoebe Battle Summary:
-  - Dusclops Lv 48 (#1): Dusclops used Protect twice, took Bullet Seed (~30% dmg), then used Curse and fainted from self-inflicted damage! SAGE cursed at 159 HP. DEFEATED!
-  - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
-  - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
-  - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
-  - Sableye Lv 50 (#4): SAGE hit with Bullet Seed (~50% dmg); Phoebe burned Full Restore; SAGE at 44 HP (Overgrow ACTIVE!). Firing Overgrow Bullet Seed to KO Sableye!
-  - Upcoming: Banette Lv 49 (#5, final Pokémon). Sweeping with Bullet Seed to clear Room 2!
+- Status: Room 2 Phoebe DEFEATED! Prize: ¥5,100 (Total funds: ¥11,041). Door to Room 3 unlocked! SAGE Lv 85 (47/254 HP, Overgrow ACTIVE, 250 Speed).
+- Bag: 3 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥11,041 cash.
+- Party: SAGE Lv 85 (Lead, 47/254 HP), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
+- Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900.
+- Room 2 Phoebe: ALL 5 DEFEATED!
+  - Dusclops Lv 48 (#1): Dusclops took Bullet Seed, used Curse, fainted to self-inflicted damage! DEFEATED!
+  - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, fainted to wipe Curse clean. Sacrificial Revive restored SAGE to 125/251 HP (+6 priority) while Lilz absorbed hit. SAGE switched in free and finished Dusclops with Bullet Seed! DEFEATED!
+  - Banette Lv 49 (#3, Grudge user): SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace (0/20 PP) to protect Bullet Seed! DEFEATED!
+  - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
+  - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
+  - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
+- Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Glacia in Room 3!
 
-- Turn 7: SAGE struck first with Overgrow Bullet Seed, dropping Sableye to ~45% HP! Advancing through Sableye's counter-attack. SAGE at 44/251 HP (Overgrow ACTIVE!).
-- Turn 8: Sableye used Double Team (0 dmg to SAGE). SAGE at 44/251 HP (Overgrow ACTIVE!). Clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Sableye and face final Banette #2!
-- Turn 9: SAGE struck first with Overgrow Bullet Seed, dropping Sableye to red (~10% HP)! Advancing through Sableye's counter-attack. SAGE at 44/251 HP (Overgrow ACTIVE!).
 
 <hr>
 
@@ -5110,7 +5109,7 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 84, Male), Nickname: SAGE
+- Starter: Sceptile (Level 85, Male), Nickname: SAGE
 - Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1 DEFEATED! SAGE active (44/251 HP, Overgrow ACTIVE). Firing Overgrow Bullet Seed vs Sableye, then final Banette #2! 3 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
@@ -5130,7 +5129,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x3 (1 consumed on Sacrificial Revive for SAGE)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,941 (earned ¥4,900 from Sidney)
+- Money: ¥11,041 (earned ¥5,100 from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5139,7 +5138,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 13, Turn 26675)!
-    - [x] Elite Four Member #2 Phoebe (DEFEATED Attempt 11, Turn 26468)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 13, Turn 26712)!
     - [x] Elite Four Member #3 Glacia (DEFEATED Attempt 11, Turn 26498)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
@@ -5181,5 +5180,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - Whiteout Currency Mechanics: Cash halved upon whiteout (¥5,383 -> ¥2,691). Revives sold at Mart Counter Row 6 for ¥1,500 each. Sidney rewards ¥4,900.
 - Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
 - Verified Attempt 13 Inventory: Physically confirmed in Bag on Turn 26657: Revive x4, Full Heal x1, Quick Claw x1, Macho Brace x1, Money ¥1,041.
+- Level 85 SAGE Benchmark: Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Overgrow activates at <= 84 HP (254 / 3 = 84).
 
 <hr>

@@ -117,17 +117,15 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: Room 2 Phoebe in progress! SAGE Lv 84 (44/251 HP, Overgrow ACTIVE, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941 cash.
-- Party: SAGE Lv 84 (Lead, 44/251 HP), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
-- Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900 (Total: ¥5,941). Door unlocked!
-- Room 2 Phoebe Battle Summary:
-  - Dusclops Lv 48 (#1): Dusclops used Protect twice, took Bullet Seed (~30% dmg), then used Curse and fainted from self-inflicted damage! SAGE cursed at 159 HP. DEFEATED!
-  - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
-  - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
-  - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
-  - Sableye Lv 50 (#4): SAGE hit with Bullet Seed (~50% dmg); Phoebe burned Full Restore; SAGE at 44 HP (Overgrow ACTIVE!). Firing Overgrow Bullet Seed to KO Sableye!
-  - Upcoming: Banette Lv 49 (#5, final Pokémon). Sweeping with Bullet Seed to clear Room 2!
-
-- Turn 7: SAGE struck first with Overgrow Bullet Seed, dropping Sableye to ~45% HP! Advancing through Sableye's counter-attack. SAGE at 44/251 HP (Overgrow ACTIVE!).
-- Turn 8: Sableye used Double Team (0 dmg to SAGE). SAGE at 44/251 HP (Overgrow ACTIVE!). Clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Sableye and face final Banette #2!
-- Turn 9: SAGE struck first with Overgrow Bullet Seed, dropping Sableye to red (~10% HP)! Advancing through Sableye's counter-attack. SAGE at 44/251 HP (Overgrow ACTIVE!).
+- Status: Room 2 Phoebe DEFEATED! Prize: ¥5,100 (Total funds: ¥11,041). Door to Room 3 unlocked! SAGE Lv 85 (47/254 HP, Overgrow ACTIVE, 250 Speed).
+- Bag: 3 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥11,041 cash.
+- Party: SAGE Lv 85 (Lead, 47/254 HP), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
+- Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900.
+- Room 2 Phoebe: ALL 5 DEFEATED!
+  - Dusclops Lv 48 (#1): Dusclops took Bullet Seed, used Curse, fainted to self-inflicted damage! DEFEATED!
+  - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, fainted to wipe Curse clean. Sacrificial Revive restored SAGE to 125/251 HP (+6 priority) while Lilz absorbed hit. SAGE switched in free and finished Dusclops with Bullet Seed! DEFEATED!
+  - Banette Lv 49 (#3, Grudge user): SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace (0/20 PP) to protect Bullet Seed! DEFEATED!
+  - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
+  - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
+  - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
+- Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Glacia in Room 3!
