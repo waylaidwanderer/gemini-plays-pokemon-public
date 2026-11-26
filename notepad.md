@@ -439,7 +439,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Room 4 Drake: Cursor on Cancel; pressing Up x2 to Row 4 Mochi Lv 11 (42/42 HP) and confirming Send Out. Next turn: Mochi uses Revive #1 on SAGE (+6 priority, restores 127 HP, cures burn, restores 250 Speed); Mochi absorbs Altaria's hit, granting SAGE a free switch-in to sweep Altaria, Salamence, and Kingdra!
+- Room 4 Drake: Shelgon & Flygon DEFEATED! Guava Lv 30 deployed on battlefield facing Altaria Lv 54 (#3). Opening Bag to execute Revive on SAGE (+6 priority, restores 127 HP, cures burn, resets speed to 250); Guava absorbs hit, granting SAGE a free switch-in to sweep Altaria, Salamence, and Kingdra!
 
 <hr>
 
@@ -5110,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Deploying Mochi Lv 11 (Row 4) onto battlefield facing Altaria Lv 54 (#3). Next turn: Sacrificial Revive on SAGE Lv 85. Bag: 1 Revive, 1 Full Heal.
+- Status: Attempt 13 Active! Room 4 Drake: Shelgon & Flygon down! Guava Lv 30 active facing Altaria Lv 54 (#3). Opening Bag to execute Revive #1 on SAGE Lv 85 (+6 priority). Bag: 1 Revive, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
@@ -5118,7 +5118,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK (Active Battler).
 
 ## Bag Highlights
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
