@@ -128,4 +128,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed; Phoebe burned Full Restore; SAGE hit with Bullet Seed, took Night Shade (dropping to 44 HP, Overgrow ACTIVE!), finished with Bullet Seed! SAGE grew to Lv 85! DEFEATED!
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
-- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Turn 26732 Revive accidentally targeted Lilz (Row 1) restoring Lilz to 42 HP; Cipher absorbed Crunch and fainted. 2 Revives remaining! Deploying anchor to execute Sacrificial Revive on SAGE (Row 2)!
+- Room 3 Glacia: Sealeo #1, #2, Walrein DEFEATED! Glalie Lv 50 at ~25% HP. Deploying Lilz Lv 30 (Row 1) to field. Next turn: Lilz uses Revive #2 on SAGE (Row 2) with +6 priority; Lilz absorbs hit, granting SAGE a free switch-in to sweep Glalie #4 and Glalie #5!

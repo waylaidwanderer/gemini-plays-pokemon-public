@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 85, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Lilz revived (42 HP), Cipher fainted. SAGE Lv 85 fainted. Bag: 2 Revives, 1 Full Heal. Deploying anchor for Sacrificial Revive on SAGE.
+- Status: Attempt 13 Active! Room 3 Glacia: Sealeo #1, #2, Walrein down! Glalie #1 at 25% HP. Deploying Lilz Lv 30 (42 HP) as sacrificial anchor to use Revive #2 on SAGE Lv 85. Bag: 2 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 0/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (30/30). Status: FAINTED (Sacrificial Revive queued).
@@ -46,6 +46,7 @@
 - Move Menu Clamping for Facade (Slot 3): Pressing Down then Left on the 2x2 move selection screen is 100% mathematically guaranteed to clamp cursor directly to Slot 3 (bottom-left, Facade).
 - Move Menu Clamping Guarantee: On the 2x2 move selection screen, pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack).
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
+- Party Swap Mechanic on Forced Replacement (Turn 26732 Discovery): In Gen 3 Pokémon Emerald, when a Pokémon faints and a replacement is chosen from the party screen, the incoming replacement swaps positions with the outgoing Pokémon in the party order. Because Lilz was sent in after Sage fainted in Room 2, Lilz became Slot 1 and Sage became Slot 2. Therefore, party targeting rows dynamically follow these swaps. Always verify the target's name plate on the screen before confirming item use!
 - In-Battle Party Targeting Grid Verified Layout (Turn 26732 Visual Proof): On the in-battle party medicine targeting screen, the right column does NOT strictly put Slot 1 at Row 1. In Turn 26732 Frame 56, when Cipher was in the Left Box, Row 1 was LILZ (Lv 30) and Row 2 was SAGE (Lv 85, FNT). To target SAGE when Row 1 is Lilz, you MUST press Right then DOWN to Row 2! Always inspect the name tag in the highlighted box to confirm the target is SAGE before pressing A!
 - Light Screen Physical Bypass: Light Screen only mitigates Special damage; physical moves like Facade and Quick Attack deal 100% full unmitigated damage.
 - Anchor Sacrifice Clean Switch-In: Letting an active low-level anchor faint from the opponent's attack provides the ace a completely free switch-in without suffering switch-in damage.
