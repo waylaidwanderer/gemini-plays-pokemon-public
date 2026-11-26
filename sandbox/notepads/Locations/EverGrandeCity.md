@@ -127,3 +127,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed (~50% dmg); Phoebe burned Full Restore; SAGE at 44 HP (Overgrow ACTIVE!). Firing Overgrow Bullet Seed to KO Sableye!
   - Upcoming: Banette Lv 49 (#5, final Pokémon). Sweeping with Bullet Seed to clear Room 2!
+
+- Turn 7: SAGE struck first with Overgrow Bullet Seed, dropping Sableye to ~45% HP! Advancing through Sableye's counter-attack. SAGE at 44/251 HP (Overgrow ACTIVE!).
