@@ -124,3 +124,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Turn 15: Selecting next conscious anchor (Cipher/Cobalu) from Right Column to advance toward whiteout.
 - Turn 16: Cipher fainted. Sending in Cobalu (Aron Lv 18) to advance toward whiteout.
 - Turn 17: Navigating Right, Down, Down to send out Cobalu (Aron Lv 18) and attack.
+- Turn 18: Mochi fainted. Navigating Down to CANCEL and Up to Guava (Tropius Lv 30) to send into battle and attack.
