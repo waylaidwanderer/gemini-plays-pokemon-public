@@ -427,50 +427,16 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
 
 ## Elite Four Attempt 13 (Active)
-- Status: Room 1 Sidney DEFEATED! Prize: ¥4,900 (Total funds: ¥5,941). Door to Room 2 unlocked! SAGE Lv 84 (159/251 HP, 247 Speed).
-- Bag: 4 Revives (verified), 1 Full Heal (verified), 1 Master Ball, Quick Claw, Macho Brace, ¥5,941 cash.
-- Party: SAGE Lv 84 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
-- Room 1 Sidney Battle Summary:
-  - Mightyena Lv 46 (#1): Intimidate cut Atk; SAGE Facade (~75% dmg), Sand-Attack; SAGE finished with Aerial Ace. DEFEATED!
-  - Absol Lv 49 (#2, Pressure): SAGE Aerial Ace (~65% dmg), Swords Dance; SAGE Aerial Ace (dropped to red), +2 Aerial Ace (92 dmg, SAGE at 159/251 HP); SAGE finished with Aerial Ace. DEFEATED!
-  - Shiftry Lv 48 (#3, Grass/Dark): SAGE Aerial Ace (~85% dmg), Double Team; Sidney burned Full Restore; SAGE Aerial Ace (dropped to red); SAGE finished with Aerial Ace. DEFEATED!
-  - Cacturne Lv 46 (#4, Grass/Dark): SAGE struck first with critical Aerial Ace. Instant OHKO! DEFEATED!
-  - Crawdaunt Lv 48 (#5, Water/Dark): SAGE struck first with STAB 2x super effective Bullet Seed. Instant OHKO! DEFEATED!
-  - ALL 5 DEFEATED! Prize: ¥4,900. Door to Room 2 (Phoebe) unlocked!
-- Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Phoebe in Room 2!
+- Status: Room 2 Phoebe in progress! SAGE Lv 84 (125/251 HP, 247 Speed). In Bag: 3 Revives, 1 Full Heal, ¥5,941.
+- Party: SAGE Lv 84 (Lead), Lilz Lv 30 (FNT), Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (4 anchors conscious!).
+- Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900 (Total: ¥5,941). Door unlocked!
+- Room 2 Phoebe Battle Summary:
+  - Dusclops Lv 48 (#1): Dusclops used Protect twice, took Bullet Seed (~30% dmg), then used Curse and fainted from self-inflicted damage! SAGE cursed at 159 HP. DEFEATED!
+  - Dusclops Lv 51 (#2): SAGE hit with Bullet Seed, took hit + Curse damage (dropping to 3 HP, Overgrow ACTIVE!). SAGE hit with Overgrow Bullet Seed (dropped Dusclops to ~8% HP), then SAGE fainted, wiping Curse clean. DEFEATED!
+  - Sacrificial Revive Protocol Executed: Lilz Lv 30 sent in, used Revive on SAGE (+6 priority, SAGE restored to 125/251 HP). Lilz absorbed Shadow Ball and fainted. SAGE switched in free with 125 HP, 247 Speed, no Curse! Finished Dusclops Lv 51 with Bullet Seed!
+  - Banette Lv 49 (#3, Grudge user): Banette used Grudge! SAGE struck first with Aerial Ace, KO'ing Banette! Grudge wiped Aerial Ace to 0/20 PP as planned, leaving STAB Bullet Seed completely intact! DEFEATED!
+  - In Progress: Facing Sableye Lv 50 (#4). Attacking with STAB Bullet Seed!
 
-- Room 1 Cleared! Advancing through doorway at (6, 0) and Grand Staircase into Room 2 facing Phoebe at (6, 6).
-  - Room 2 Phoebe: Challenging Phoebe at (6, 6) in Room 2. SAGE Lv 84 (159/251 HP, 247 Speed, 29 Bullet Seed PP, 15 Aerial Ace PP). Plan: Bullet Seed vs Dusclops #1 & #2, Aerial Ace vs Banette #1 to absorb Grudge, Bullet Seed vs Sableye & Banette #2!
-    - Battle transition started vs Phoebe! Advancing through intro and Pressure to main battle menu. SAGE at 159/251 HP.
-    - Turn 1 vs Dusclops #1: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed (STAB Grass) to chunk Dusclops and conserve Aerial Ace for Banette's Grudge.
-    - Turn 1: Dusclops used Protect; Bullet Seed blocked (down to 27/30 PP under Pressure). SAGE at 159/251 HP.
-    - Turn 2: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to attack Dusclops #1!
-    - Turn 2: Dusclops used Protect (succeeded); Bullet Seed blocked (down to 25/30 PP under Pressure). SAGE at 159/251 HP.
-    - Turn 3: Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to attack Dusclops #1!
-    - Turn 3: SAGE struck first with Bullet Seed, dropping Dusclops #1 to ~70% HP! Advancing through Dusclops's counter-attack to Turn 4 battle menu.
-    - Dusclops Lv 48 (#1): DEFEATED by self-inflicted Curse damage! SAGE at 159/251 HP.
-  - Dusclops Lv 51 (#2): Pressure. Advancing through entrance text and Pressure to main battle menu.
-    - Dusclops Lv 51 (#2): Pressure. SAGE at 97/251 HP (under Curse). Clamping Up+Left to Slot 1 Bullet Seed to strike Dusclops Lv 51!
-    - Turn 4: SAGE struck first with Bullet Seed, dropping Dusclops Lv 51 to ~75% HP. Advancing through Dusclops's attack and Curse resolution.
-    - Turn 5: SAGE at 3/251 HP with Overgrow ACTIVE! Dusclops Lv 51 at ~50% HP. Clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Dusclops Lv 51!
-    - Turn 5: SAGE's Overgrow Bullet Seed landed a critical hit, dropping Dusclops Lv 51 to red (~8% HP)! Advancing through Dusclops's counter-attack and Curse resolution.
-    - Dusclops Lv 51 in red (~8% HP). SAGE fainted to Dusclops attack, wiping Curse clean!
-  - Sacrificial Revive Protocol Step 1: Sending out Anchor #1 Lilz (Lombre Lv 30, Slot 2) to execute +6 priority Revive on SAGE!
-  - Sacrificial Revive Protocol Step 2: Lilz on field (85/85 HP) facing Dusclops Lv 51 in red (~8% HP). Opening Bag from FIGHT -> BAG to locate Revive and execute +6 priority Revive on SAGE!
-    - Sacrificial Revive Protocol Step 2: Cursor on Full Heal. Moved Down to Revive (Row 4), selected USE, navigated Right then Down to SAGE, confirmed Revive! SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbing Dusclops attack!
-
-    - Sacrificial Revive Protocol Step 2 (Corrected): Cursor on BAG. Opening Bag, moving Down to Revive (Row 4), confirming USE, pressing Right to target SAGE (Row 1), and confirming Revive! SAGE restored to 125/251 HP with +6 priority! Lilz absorbing Dusclops's attack!
-
-    - Sacrificial Revive Protocol Step 2 Executed: Dynamic Bag detection selected Revive (Row 4), USE, targeted SAGE (Row 1 via Right), confirmed Revive! SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbing Dusclops attack!
-
-    - Sacrificial Revive Protocol Complete: SAGE restored to 125/251 HP (+6 priority, Curse wiped clean!). Lilz absorbed Shadow Ball and fainted. SAGE switched in free!
-    - SAGE struck first with Bullet Seed, KO'ing Dusclops Lv 51! Both Pressure users are DEFEATED! Phoebe sending out Banette #1 (Grudge user).
-
-- SAGE switched in cleanly at 125/251 HP (no Curse, full 247 Speed). Selecting FIGHT, clamping Up+Left to Slot 1 Bullet Seed to finish Dusclops Lv 51 and advance to Banette #1!
-    - Dusclops Lv 51: DEFEATED by Bullet Seed! Both Pressure users on Phoebe's team are eliminated!
-  - Phoebe Pokémon #3: Banette Lv 49 (Grudge user). Declining switch, advancing to battle menu to launch Aerial Ace (Slot 2) and absorb Grudge safely!
-    - Banette Lv 49 (#1): On field. Dismissing send-out text, clamping Up+Right to Slot 2 Aerial Ace to OHKO Banette and absorb Grudge safely, protecting Bullet Seed!
-    - Banette Lv 49 (#1) used Grudge! Banette at ~22% HP. Executing Aerial Ace (Slot 2) to KO Banette and absorb Grudge, completely protecting STAB Bullet Seed!
 
 <hr>
 
@@ -5141,10 +5107,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1 & #2 DEFEATED! SAGE active at 125/251 HP (no Curse). 3 Revives in Bag. Facing Banette #1!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, and Banette #1 DEFEATED! SAGE active at 125/251 HP. Aerial Ace PP absorbed by Grudge (0/20). Bullet Seed intact (19/30). 3 Revives in Bag. Sweeping Sableye & Banette #2!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (19/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 125/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (19/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
