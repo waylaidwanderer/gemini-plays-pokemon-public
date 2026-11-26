@@ -131,5 +131,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Shiftry Lv 48 (#3): DEFEATED! SAGE struck with 4x Aerial Ace (never misses!), finishing Shiftry! Facing Cacturne Lv 46 (#4, 4x weak to Flying)!
     - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
     - Cacturne Lv 46 (#4): DEFEATED! SAGE struck first with 4x Aerial Ace for ~307 damage, instant OHKO! Facing Sidney's final Pokémon, Crawdaunt Lv 48 (#5, 2x weak to Grass)!
-    - Crawdaunt Lv 48 (#5, Final): DEFEATED! SAGE struck first with 2x Bullet Seed for instant OHKO! ALL 5 OF SIDNEY'S POKÉMON DEFEATED!
-  - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26572)! Prize: ¥4,900 (Total: ¥5,383). Door to Room 2 (Phoebe) unlocked!
+    - Crawdaunt Lv 48 (#5, Final): Bullet Seed dealt ~90% damage, dropping Crawdaunt to ~10% HP! Crawdaunt counter-attacks, SAGE finishing next turn.
