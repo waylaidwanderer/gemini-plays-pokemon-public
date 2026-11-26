@@ -6,7 +6,7 @@
 - **Game:** Pokémon Blue Version (Generation I)
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
-- **Starter Plan:** Squirtle (Nickname: `NAUTILUS`)
+- **Starter:** Squirtle (Nickname: `NAUTILUS`)
 
 ## Badges & Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
@@ -21,18 +21,19 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Squirtle) — Lv. 14 | Moves: Bubble, Tail Whip, Tackle
-2. **AMETHYST** (Nidoran♀) — Lv. 7 | Moves: Tackle, Growl
+1. **NAUTILUS** (Squirtle) — Lv. 15 | Moves: Water Gun, Tail Whip, Tackle, Bubble
+2. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 
 ## Inventory & Money
-- Money: ~¥830
+- Money: ~¥1,200
 - Key Items: Pokédex, Town Map
-- Bag: Potion x5, Antidote x2, Poké Ball x7, TM34 (Bide)
+- Bag: Potion x5 (Slot 0), Antidote x2, Poké Ball x7, TM34 (Bide)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
 - `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
 - `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
+- `notepads/Locations/` — Verified town, route, and dungeon notes
 
 
 <hr>
