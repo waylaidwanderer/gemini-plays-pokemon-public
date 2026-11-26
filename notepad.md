@@ -21,7 +21,7 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Wartortle) — Lv. 18 | Moves: Water Gun, Tail Whip, Tackle, Bubble
+1. **NAUTILUS** (Wartortle) — Lv. 19 | Moves: Water Gun, Tail Whip, Tackle, Bubble
 2. **CELESTE** (Clefairy) — Lv. 8 | Caught on Mt. Moon 1F (1% encounter!)
 3. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 
