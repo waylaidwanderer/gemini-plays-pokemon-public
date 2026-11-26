@@ -19,11 +19,11 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Squirtle) — Lv. 15 | Moves: Water Gun, Tail Whip, Tackle, Bubble
+1. **NAUTILUS** (Wartortle) — Lv. 16 | Moves: Water Gun, Tail Whip, Tackle, Bubble
 2. **AMETHYST** (Nidoran♀) — Lv. 9 | Moves: Scratch, Growl, Tackle
 
 ## Inventory & Money
-- Money: ~¥1,200
+- Money: ~¥1,350
 - Key Items: Pokédex, Town Map
 - Bag: Potion x5 (Slot 0), Antidote x2, Poké Ball x7, TM34 (Bide)
 
