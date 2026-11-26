@@ -115,3 +115,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Key Discovery: Discovered 0 Revives in Bag (previous Mart purchase failed to buy Revives).
 - SAGE (Level 84 Sceptile ♂): 100% restored upon whiteout (251/251 HP, all PP full). All 5 reserve anchors 100% restored.
 - Next: Enter League lobby, sell Ultra Ball, buy 2 Revives, and launch Attempt 13!
+
+## Elite Four Attempt 13 (Preparing)
+- Status: Arrived at League lobby (9, 11). Walking to Mart counter at (16, 4) to sell Ultra Ball and purchase Revives before Room 1!
+- Party: SAGE Lv 84 (251/251 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30. All 100% restored.
+- Cash: ¥2,691. Plan: Sell 1 Ultra Ball (+¥600, total ¥3,291), buy 2 Revives (Row 6, ¥1,500 each = ¥3,000, leaving ¥291). Verified Revive inventory!
