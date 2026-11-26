@@ -25,16 +25,16 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 37 (`112/112` HP) | Moves: Ice Beam (Slot 0), BubbleBeam (Slot 1), Dig (Slot 2), Bite (Slot 3)
+1. **NAUTILUS** (Blastoise) — Lv. 39 (`118/118` HP) | Moves: BubbleBeam (Slot 0), Ice Beam (Slot 1), Dig (Slot 2), Bite (Slot 3) *(Note: abandon `Skull Bash` at Lv. 42 with `["B", "sleep 1500", "A", "sleep 1500"]`)*
 2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
-3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
+3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch; `HM04 Strength` compatible)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
-5. **JASPER** (Spearow) — Lv. 22 (`57/57` HP) | Moves: Growl, Fly, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
+5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, Fly, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
 
 ## Inventory & Money
-- Money: ~¥31,000+ (+ `Nugget` worth ¥5,000!)
-- Key Items: Pokédex, Silph Scope, Bicycle, HM01 (Cut), HM02 (Fly) *(depositing Town Map, Helix Fossil, S.S. Ticket, Lift Key, and unused TMs in PC)*
-- Bag: Repel x4 (Slot 0), TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Max Ether x1, HM01 (Cut), Super Potion x1, Poké Ball x4, X Special x1, Bicycle, TM30 (Teleport), Fresh Water x2, Lemonade x1, HM02 (Fly)
+- Money: ~¥10,000+
+- Key Items: Pokédex, Silph Scope, Bicycle, HM01 (Cut), HM02 (Fly) *(Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM45 stored in COBALT's PC)*
+- Bag (`15/20` slots):Max Ether x1, HM01 (Cut), Poké Ball x4, Bicycle, Fresh Water x1 *(save for Saffron Gatehouse!)*, HM02 (Fly), Silph Scope, Super Potion x7, Awakening x7, X Speed x8, X Defend x12, TM21 (Mega Drain), Elixer x1, X Accuracy x1
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -178,6 +178,9 @@
   - **2F**: **Rival `GARNET`** triggers at **`(15, 5)`** (`Pidgeotto Lv 25`, `Gyarados Lv 23` [**knows `Hydro Pump`** — keep Water-resistant `NAUTILUS` in rather than switching Ground-type `AMETHYST` into it!], `Growlithe Lv 22`, `Kadabra Lv 20`, `Ivysaur Lv 25`). West stairs to **3F** at **`(3, 9)`**.
   - **3F**: From `(3, 10)`, route `(5, 10) -> (5, 13) -> (8, 13) -> (8, 11) -> (13, 11) -> (13, 6) -> (17, 6) -> (17, 9) -> (18, 9)` -> **4F `(18, 9)`**.
   - **4F**: **`Elixer`** item ball at **`(12, 10)`**! Route `(14, 9) -> (14, 8) -> (11, 8) -> (11, 9) -> (10, 9) -> (10, 12) -> (7, 12) -> (7, 8) -> (3, 8) -> (3, 9)` -> **5F `(3, 9)`**.
+  - **5F (Verified Turns 778–782)**: **Purified Healing Zone** around **`(10..11, 8..10)`** (`(11, 9)` heals entire party HP/PP + revives fainted Pokémon with zero wild encounters!). Stairs to **6F** on east wall at **`(18, 9)`**.
+  - **6F (Verified Turns 784–796)**: **`X Accuracy`** item ball at **`(14, 14)`**, **`Rare Candy`** item ball at **`(6, 8)`**. Stepping onto **`(10, 16)`** triggers the restless **Lv. 30 `Marowak`** (`Silph Scope` unveils; cannot be caught, defeated Turn 796). Stepping `Left` from `(10, 16)` onto **`(9, 16)`** climbs to **7F `(9, 16)`**.
+  - **7F (Verified Turns 796–797)**: Step `Right` from `(9, 16)` to `(10, 16)` and walk straight north up `x = 10` through the 3 Team Rocket Grunts (`Grunt #1` triggers at `(10, 11)`).
 - **West Exit to Route 8**: Walk west along `y = 8..9` (`x = 0 -> Route 8 (59, 8)`).
 
 ## Route 8 (East -> West, Verified Turns 579–588)

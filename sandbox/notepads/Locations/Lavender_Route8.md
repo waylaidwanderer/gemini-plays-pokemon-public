@@ -15,6 +15,9 @@
   - **2F**: **Rival `GARNET`** triggers at **`(15, 5)`** (`Pidgeotto Lv 25`, `Gyarados Lv 23` [**knows `Hydro Pump`** — keep Water-resistant `NAUTILUS` in rather than switching Ground-type `AMETHYST` into it!], `Growlithe Lv 22`, `Kadabra Lv 20`, `Ivysaur Lv 25`). West stairs to **3F** at **`(3, 9)`**.
   - **3F**: From `(3, 10)`, route `(5, 10) -> (5, 13) -> (8, 13) -> (8, 11) -> (13, 11) -> (13, 6) -> (17, 6) -> (17, 9) -> (18, 9)` -> **4F `(18, 9)`**.
   - **4F**: **`Elixer`** item ball at **`(12, 10)`**! Route `(14, 9) -> (14, 8) -> (11, 8) -> (11, 9) -> (10, 9) -> (10, 12) -> (7, 12) -> (7, 8) -> (3, 8) -> (3, 9)` -> **5F `(3, 9)`**.
+  - **5F (Verified Turns 778–782)**: **Purified Healing Zone** around **`(10..11, 8..10)`** (`(11, 9)` heals entire party HP/PP + revives fainted Pokémon with zero wild encounters!). Stairs to **6F** on east wall at **`(18, 9)`**.
+  - **6F (Verified Turns 784–796)**: **`X Accuracy`** item ball at **`(14, 14)`**, **`Rare Candy`** item ball at **`(6, 8)`**. Stepping onto **`(10, 16)`** triggers the restless **Lv. 30 `Marowak`** (`Silph Scope` unveils; cannot be caught, defeated Turn 796). Stepping `Left` from `(10, 16)` onto **`(9, 16)`** climbs to **7F `(9, 16)`**.
+  - **7F (Verified Turns 796–797)**: Step `Right` from `(9, 16)` to `(10, 16)` and walk straight north up `x = 10` through the 3 Team Rocket Grunts (`Grunt #1` triggers at `(10, 11)`).
 - **West Exit to Route 8**: Walk west along `y = 8..9` (`x = 0 -> Route 8 (59, 8)`).
 
 ## Route 8 (East -> West, Verified Turns 579–588)
