@@ -27,7 +27,7 @@
 ## Inventory & Money
 - Money: ~¥1,350
 - Key Items: Pokédex, Town Map
-- Bag: Potion x5 (Slot 0), Antidote x2, Poké Ball x7, TM34 (Bide)
+- Bag: Potion x3, Antidote x1, Poké Ball x7, TM34 (Bide)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
