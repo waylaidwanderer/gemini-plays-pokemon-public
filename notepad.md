@@ -458,6 +458,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 6: Dusclops took Bullet Seed damage, dropping back down to ~20% HP (orange/red bar)! SAGE at 150/251 HP.
     - Turn 7: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops #1!
     - Turn 7: SAGE used Bullet Seed! Foe Dusclops #1 fainted! SAGE gained 1840 EXP. SAGE at 150/251 HP. Dusclops #1 is DEFEATED! Bullet Seed at 21/30 PP, Aerial Ace at 3/20 PP. Phoebe's Full Restore is burned. Advancing to Phoebe's Pokémon #2!
+  - Phoebe Pokémon #2: Dusclops Lv 51 (Pressure)! SAGE at 150/251 HP, 247 Speed. Preserving Aerial Ace (3 PP) for Banette's Grudge. Executing STAB Bullet Seed (Slot 1: Up, Left, A)!
 
 <hr>
 
