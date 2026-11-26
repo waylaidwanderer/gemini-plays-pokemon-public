@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 3 Glacia: Deploying revived SAGE Lv 86 (128/257 HP, 253 Spe) to finish Walrein (~30% HP) and sweep Glalies. Bag: 4 Revives, 1 Full Heal, ¥10,670 cash.
+- Status: Attempt 14 Active! Room 3 Glacia: Ace Walrein defeated! SAGE Lv 86 at 128/257 HP (253 Spe) facing Glalie Lv 50 (#4). Bag: 4 Revives, 1 Full Heal, ¥10,670 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 128/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (10/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Active Battler).
+1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 128/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Active Battler).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -55,7 +55,6 @@
 
 - Grudge PP Absorption Strategy: When facing an opponent with Grudge (e.g. Phoebe's Banette #1), using an expendable move with low PP (e.g. Aerial Ace) to deliver the KO blow ensures Grudge only wipes the expendable move, completely protecting vital STAB moves (like Bullet Seed) from depletion.
 - Battle Bag Medicine Layout: In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Using Full Heal cures non-volatile status (such as Freeze) instantly on turn start.
-- Level 83 Overgrow Threshold: At Level 83 (max HP 249), Sceptile's Overgrow activates at <= 83 HP (249 / 3 = 83), boosting all Grass-type moves by 1.5x.
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
 - Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
@@ -63,7 +62,6 @@
 - Aerial Ace Sand-Attack Bypass: Aerial Ace ignores accuracy and evasion modifiers, guaranteeing a 100% hit rate against Sand-Attack users (such as Sidney's Mightyena).
 - Pokémon League Lobby Mart Navigation: From lobby entrance (9, 11), walk Up x6, Right x7, Up x1 to reach Mart counter (16, 4). Revives are sold at Row 6 for ¥1,500 each.
 
-- Level 84 SAGE Benchmark: Max HP 251, Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Overgrow activates at <= 83 HP.
 - Protect Pressure PP Depletion: Attacking into an opponent's Protect while Pressure is active consumes 2 PP.
 - Phoebe Grudge Protection Protocol: Aerial Ace must have >= 1 PP when Banette #1 enters so Grudge depletes Aerial Ace rather than STAB Bullet Seed.
 - Battle Menu Cursor Persistence: After opening or using an item from the Bag in battle, the main battle menu cursor remains on BAG (FIGHT ▶BAG). To select FIGHT, you MUST press Left first!

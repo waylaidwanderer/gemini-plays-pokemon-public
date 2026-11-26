@@ -51,65 +51,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Attempt 10 (Turn 26391): Masterclass run! Defeated Sidney, Phoebe (overcame Curse/Grudge via 2 sacrificial revives), Glacia (swept all 5 via 3 sacrificial revives), and Drake's Shelgon & Flygon! Scouted Drake's moves: Shelgon Protect/Double-Edge, Flygon Flamethrower (49 dmg to Lv 82 SAGE), Altaria Double-Edge. SAGE leveled up to Level 82 (246 HP, 200 SpA, 183 Atk, 241 Spe). Total cash peaked at ¥15,733 (halved to ¥7,866 upon whiteout).
 - Attempt 11 (Turn 26545): Masterclass run! Defeated Sidney, Phoebe, Glacia, and Drake's Shelgon, Flygon, & Altaria! SAGE leveled up to Level 83 (249 HP, 244 Spe, 202 SpA, 185 Atk). Total cash peaked at ¥15,966 (halved to ¥7,983 upon whiteout). All 4 purchased Revives were executed with masterclass Sacrificial Revive precision. Setting up Attempt 12 with 5 Revives!
 
-## Elite Four Attempt 11 (Archived Turn 26545)
-- Status: Room 1 Sidney DEFEATED on Turn 26428! Earned ¥4,900 prize money (Total cash: ¥5,566). SAGE Level 82 (215/246 HP, Spe 241).
-- In Bag: 4 Revives, 1 Ultra Ball, 3 Full Heals, ¥5,566 cash.
-- Party: SAGE Lv 82 (Lead), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Plan: 1. Defeat Sidney (DONE). 2. Defeat Phoebe. 3. Defeat Glacia. 4. Defeat Drake. 5. Defeat Champion Wallace!
-- Battle Progress:
-  - Room 1 Sidney: ALL 5 POKÉMON DEFEATED on Turn 26428! Prize: ¥4,900 earned.
-    - Mightyena Lv 46 (#1): Sidney burned Full Restore #1! DEFEATED by Facade!
-    - Absol Lv 49 (#2): DEFEATED by critical Quick Attack!
-    - Shiftry Lv 48 (#3): DEFEATED by 4x Aerial Ace!
-    - Cacturne Lv 46 (#4): DEFEATED by 4x Aerial Ace!
-    - Crawdaunt Lv 48 (#5, Final): DEFEATED by 2x Bullet Seed!
-    - Northern door to Room 2 (Phoebe) unlocked and open!
-
-  - Room 2 Phoebe: DEFEATED (Turn 26468).
-    - Dusclops Lv 48 (#1): DEFEATED! Phoebe burned Full Restore #1. SAGE finished with Aerial Ace.
-    - Dusclops Lv 51 (#2): DEFEATED! SAGE thawed via Full Heal, Overgrow activated (67/246 HP), Overgrow Bullet Seed critical KO'd Dusclops. Both Pressure users down!
-    - Banette Lv 49 (#1, Grudge user): DEFEATED! SAGE used Aerial Ace, KO'd Banette, intentionally absorbing Grudge on Aerial Ace (0/20 PP) to protect Bullet Seed (18/30 PP). SAGE grew to Level 83 (70/249 HP, Overgrow ACTIVE)!
-    - Sableye Lv 50 (#4): DEFEATED! SAGE used Overgrow-boosted Bullet Seed, KO'd Sableye in one turn! Facing final Pokémon Banette Lv 49 (#2).
-    - Banette Lv 49 (#2, Final): DEFEATED! SAGE used Overgrow Bullet Seed, KO'd Banette! ALL 5 OF PHOEBE'S POKÉMON DEFEATED!
-    - ELITE FOUR MEMBER #2 PHOEBE DEFEATED (Attempt 11, Turn 26468)! Prize: ¥5,100 (Total: ¥10,666). Door to Room 3 (Glacia) unlocked!
-
-  - Room 3 Glacia: In progress (Turn 26473). Facing lead Sealeo Lv 50 with Lv 83 SAGE (70/249 HP, active Overgrow).
-    - Sealeo Lv 50 (#1): Took 2 Bullet Seed hits (~85% dmg), used Hail. SAGE at 55/249 HP with Overgrow ACTIVE. Finishing with Bullet Seed!
-    - Glacia burned Full Restore #1 on Sealeo! SAGE countered with Overgrow Bullet Seed, chunking Sealeo back down!
-    - Sealeo Lv 50 (#1): DEFEATED! SAGE finished Sealeo with Overgrow Bullet Seed! Facing Sealeo Lv 52 (#2)! SAGE targeting Sealeo #2 with Overgrow Bullet Seed.
-    - Sealeo Lv 52 (#2): DEFEATED! SAGE struck with Overgrow Bullet Seed, KO'ing Sealeo #2! Both Sealeos are DEFEATED!
-    - Walrein Lv 53 (#3, Ace): Glacia sent out Walrein! Water/Ice is 2x weak to Grass; Walrein's Sheer Cold has 0% accuracy vs Lv 83 SAGE. SAGE strikes first with Overgrow Bullet Seed!
-      - Bullet Seed dealt ~75-80% damage, dropping Walrein Lv 53 to ~20-25% HP!
-      - Walrein used Body Slam, KO'ing SAGE (at 10 HP). SAGE fainted. Initiating Sacrificial Revive Protocol via Lilz Lv 30!
-      - Lilz Lv 30 used Revive on SAGE (+6 priority)! SAGE restored to 124/249 HP. Lilz took hit and fainted, granting SAGE a free switch-in!    - Walrein Lv 53 (#3, Ace): DEFEATED! SAGE returned via Sacrificial Revive at 124 HP, outsped, and finished Walrein with Bullet Seed! Glacia's Ace is defeated!
-
-    - Glalie (#4): Glacia sent out Glalie! SAGE (124/249 HP, 244 Speed) strikes first with physical Facade (Slot 3) to bypass Light Screen!
-      - SAGE's Facade dealt ~75% damage, dropping Glalie to ~25% HP! Glalie counter-attacked with Icy Wind.
-      - SAGE finished Glalie Lv 50 (#4) with Facade! Glacia is down to her 5th and FINAL Pokémon: Glalie Lv 52 (#5)!
-    - Glalie Lv 52 (#5, Final): Glacia's last Pokémon! SAGE strikes first with physical Facade (Slot 3) to chunk Glalie for ~100+ damage!      - Glalie Lv 52 (#5): DEFEATED! SAGE finished Glalie with Facade! ALL 5 OF GLACIA'S POKÉMON DEFEATED!
-    - ELITE FOUR MEMBER #3 GLACIA DEFEATED (Attempt 11, Turn 26498)! Prize: ¥5,300 (Total: ¥15,966). Door to Room 4 (Drake) unlocked!
-
-  - Room 4 Drake: In progress (Turn 26503). Facing Drake's Dragon team with SAGE Lv 83.
-    - Shelgon Lv 52 (#1): Shelgon used Protect on Turn 1. SAGE struck with Facade on Turn 2 (~70% dmg). Drake burned Full Restore #1 on Turn 3! SAGE hit with Quick Attack and Facade, then finished Shelgon with Quick Attack. Shelgon DEFEATED!
-    - Flygon Lv 53 (#2): SAGE (162+ Speed) struck first with physical Facade (Slot 3), dealing ~72% damage and dropping Flygon to ~28% HP! Flygon counter-attacked with Flamethrower, KO'ing SAGE.
-    - Sacrificial Revive: Cipher Lv 17 was sent out; Turn 26517 Revive restored Lilz to 42 HP. Cipher absorbed Flamethrower and fainted. Lilz Lv 30 sent in on Turn 26520 to execute Revive on SAGE!
-      - Turn 26522: Lilz used Revive on Cipher (+6 priority), restoring Cipher to 20 HP. Lilz absorbed Flamethrower and fainted. Sending in conscious Cipher to execute Revive on SAGE!
-      - Turn 26525: Cipher Lv 17 used Revive on SAGE in Row 2 (+6 priority)! SAGE restored to 124/249 HP. Cipher absorbed Flygon's attack and fainted, granting SAGE a completely free switch-in with full 244 Speed!
-    - Flygon Lv 53 (#2): DEFEATED! SAGE outsped with 244 Speed and finished Flygon with Facade! Drake is down to 3 Pokémon (Altaria, Kingdra, Salamence)!
-    - Altaria Lv 54 (#3): Drake sent out Altaria! SAGE (124/249 HP, 244 Speed) outspeeds and targets Altaria with physical Facade (Slot 3)!
-      - SAGE struck Altaria Lv 54 (#3) with physical Facade for ~85 damage! Altaria dropped below half health.
-      - SAGE finished Altaria Lv 54 (#3) with Facade! Altaria DEFEATED! Drake is down to 2 Pokémon (Kingdra, Salamence)!
-    - Salamence Lv 55 (#4, Ace): Drake sent out his Ace Salamence! Intimidate cut SAGE's Attack. SAGE (124/249 HP, 244 Speed) outspeeds and targets Salamence with physical Facade!
-      - SAGE struck Salamence Lv 55 with physical Facade for ~65 damage (~35-40% HP)! Salamence counter-attacks.
-      - Flamethrower dealt 63 dmg to SAGE (HP 61/249, Overgrow ACTIVE!). SAGE strikes with physical Facade for ~65 dmg!
-      - Second Facade struck Salamence for ~35% damage, dropping Drake's Ace Salamence to ~30% HP!
-      - Flamethrower KO'd SAGE. SAGE fainted after dropping Salamence to ~30% HP. Sending in Cobalu Lv 18!
-      - Cobalu Lv 18 entered the field facing Drake's Ace Salamence at ~30% HP! Attacking with Strength.
-      - Cobalu survived Rock Slide with 5 HP (4x resisted!) and struck Salamence with Strength! Salamence attacks.
-      - Flamethrower KO'd Cobalu. Cobalu fainted. Sending in Mochi Lv 11!
-      - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.
-      - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
-
 ## Elite Four Attempt 12 (Archived Turn 26633)
 - Status: Concluded via whiteout. Sidney DEFEATED (earned ¥4,900, total reached ¥5,383 -> halved to ¥2,691). Phoebe: Dusclops #1 & #2 defeated.
 - Key Discovery: Discovered 0 Revives in Bag (previous Mart purchase failed to buy Revives).
@@ -128,13 +69,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Dusclops #1, Dusclops #2, Banette #1, and Sableye swept; final Banette Lv 49 (#5) OHKO'd by Overgrow Bullet Seed (Slot 1)! ELITE FOUR PHOEBE DEFEATED (Attempt 14)! Prize: ¥5,100 (Total funds: ¥10,670). Door to Room 3 (Glacia) unlocked!
-- Status: Room 3 Glacia: Mochi Lv 11 absorbed Walrein's Surf and fainted. On party replacement screen, moving Right, Down to Row 2 SAGE (128/257 HP) and confirming Send Out. SAGE deploys clean with 253 Speed to finish Walrein and sweep Glalies #4 and #5!
-- Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned (Total cash: ¥5,570). Door to Room 2 unlocked!
-- Party: SAGE Lv 86 (Lead, 109/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
-- Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
+- Status: Room 3 Glacia: Ace Walrein Lv 53 DEFEATED by Bullet Seed! SAGE Lv 86 at 128/257 HP (253 Speed) facing Glalie Lv 50 (#4). Targeting with physical Facade (Slot 3) to bypass Light Screen!
+- Milestone Progress:
+  - Room 1 Sidney: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥4,900 earned.
+  - Room 2 Phoebe: ALL 5 DEFEATED (5-0 clean sweep)! Prize: ¥5,100 earned.
+  - Room 3 Glacia: Sealeo #1, Sealeo #2, and Ace Walrein DEFEATED! Facing Glalie #4 and #5.
+- Party: SAGE Lv 86 (Lead, 128/257 HP, Spe 253), Lilz Lv 30 (85 HP), Cobalu Lv 18 (49 HP), Guava Lv 30 (101 HP) conscious; Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
+- Bag: 4 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥10,670 cash.
 - Plan:
-  1. Room 2 Phoebe: 2HKO Dusclops #1 & #2 with Bullet Seed; KO Banette #1 with Aerial Ace (Grudge absorption); sweep Sableye & Banette #2 with Bullet Seed.
-  2. Room 3 Glacia: Overgrow Bullet Seed on Sealeos/Walrein, physical Facade on Glalies.
-  3. Room 4 Drake: Facade sweep, Sacrificial Revive if needed.
-  4. Champion Wallace: Overgrow Bullet Seed & Facade sweep to victory!
+  1. Room 3 Glacia: 2HKO Glalie #1 & #2 with physical Facade. Glacia DEFEATED!
+  2. Room 4 Drake: Facade sweep, Sacrificial Revive if needed.
+  3. Champion Wallace: Overgrow Bullet Seed & Facade sweep to victory!
