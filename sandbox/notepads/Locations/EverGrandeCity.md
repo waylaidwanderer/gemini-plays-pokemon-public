@@ -152,3 +152,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 8: SAGE struck first with Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to ~60% HP! Bullet Seed at 19/30 PP under Pressure. Dusclops preparing its counter-attack. SAGE at 150/251 HP. Aerial Ace preserved at 3 PP.
     - Turn 8: Dusclops Lv 51 used Shadow Ball, dealing 31 dmg. SAGE at 119/251 HP (status OK). Dusclops at ~60% HP.
     - Turn 9: Executing STAB Bullet Seed (Slot 1: Up, Left, A) against Dusclops Lv 51!
+    - Turn 9: SAGE struck first with Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to ~20-25% HP! Dusclops used Shadow Ball (~31 dmg, SAGE at ~88 HP).
+    - Turn 10: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 15/30 PP, Aerial Ace at 3/20 PP. Both Pressure users down!
