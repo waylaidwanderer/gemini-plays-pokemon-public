@@ -466,6 +466,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 10: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 15/30 PP, Aerial Ace at 3/20 PP. Both Pressure users down!
     - Turn 10: SAGE struck first with Bullet Seed (critical hit! hit 2 times), dropping Dusclops Lv 51 to ~18% HP! SAGE at 89/251 HP. Bullet Seed at 15/30 PP under Pressure, Aerial Ace preserved at 3 PP. Dusclops preparing counter-attack.
     - Turn 10: Dusclops Lv 51 used Ice Beam, dealing 32 dmg (SAGE at 57/251 HP, Overgrow ACTIVE!). Inflicted FRZ status. Dusclops at ~18% HP. Opening Bag to use Full Heal and cure Freeze!
+    - Turn 11: In Items pocket, cursor moved Up from CLOSE BAG to FULL HEAL (Row 3). Executing Full Heal on SAGE to cure FRZ! SAGE at 57/251 HP with Overgrow ACTIVE. Ready to finish Dusclops Lv 51 next turn!
 
 <hr>
 
@@ -5150,7 +5151,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
-- Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
+- Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x1
 - Revive x5 (5 purchased at League Mart for Attempt 12)
 - Hyper Potion x0

@@ -17,7 +17,7 @@
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
 - Quick Claw: In Bag
 - Macho Brace (received from Victoria Winstrate)
-- Full Heal x2 (1 consumed Turn 26456 to cure Freeze)
+- Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x1
 - Revive x5 (5 purchased at League Mart for Attempt 12)
 - Hyper Potion x0
