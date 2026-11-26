@@ -22,4 +22,5 @@
   3. **Youngster Timmy** at **`(11, 25)`** facing `Left` (Defeated Turn 282).
   4. **Lass Reli** at **`(10, 22)`** facing `Right` (Defeated Turn 284).
   5. **Jr. Trainer♂ Shane** at **`(11, 19)`** facing `Left` (Defeated Turn 284).
-  6. **Team Rocket Grunt (`Nugget`)** at **`(11, 15)`** (Awarded `Nugget` Turn 285; `Ekans Lv 15, Zubat Lv 15`).
+  6. **Team Rocket Grunt (`Nugget`)** at **`(11, 15)`** (Awarded `Nugget` Turn 285; defeated Turn 289).
+- **Northern Plateau Item**: Climb wooden stairs at **`(6, 7)`** -> **`TM45 (Thunder Wave)`** item ball at **`(10, 5)`** (collected Turn 294); hop south ledge `(7..12, 7)` back down to `y = 8` and walk east (`(19, 8) -> Route 25 (0, 8)`).

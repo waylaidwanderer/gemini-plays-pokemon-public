@@ -71,9 +71,10 @@ def name_buttons(word):
   3. `A` #2 (`"sleep 900"`) -> `"That will be ¥<PRICE>. OK?"` `►YES / NO`
   4. `A` #3 (`"sleep 900"`) -> `"Here you are! Thank you! ▼"` (always verify `MONEY` box decreased before pressing `B`!).
   *(Misstep fixed in Turn 62: pressing only two `A`s before `B` cancels `YES/NO` as `NO`.)*
-- **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Max `sleep 10000` Cap, FIVE `A`s & Verify!)**:
+  - **Pokémon Center Nurse Joy (`(3, 3)` facing `Up` — Max `sleep 10000` Cap, Poison-Faint Guard & Verify!)**:
   - **CRITICAL**: `"sleep <ms>"` has a strict **10,000 ms maximum** (`"sleep 10500"` / `"sleep 11500"` rejects the entire `press_buttons` call — root cause of failed heals in Turns 259 & 266!). To wait ~12s for a 4–6 Pokémon heal jingle without consecutive sleeps, use `"A", "sleep 9500", "B", "sleep 2500"`.
-  - After arriving cleanly at `(3, 3)` from `(3, 4)` + `"sleep 500"`, run `["A", "sleep 1000"] * 4 + ["A", "sleep 9500", "B", "sleep 2500"]` followed by `["B", "sleep 700"] * 3` and `Down * 5` (`(3,3) -> (3,7) -> outside`), and always visually verify green HP bars afterward.
+  - **Overworld Poison-Faint Edge Case (Turn 290)**: Poison ticks 1 HP every 4 steps; if a poisoned Pokémon hits `0` HP on the exact step onto `(3, 3)`, `"<POKEMON> fainted!"` opens and consumes the 1st `"A"`, causing the 5th `"A"` to stop on `►HEAL / CANCEL` where `"B"` cancels! Always visually verify green HP bars in `Start -> POKéMON` after healing.
+  - After arriving cleanly at `(3, 3)` from `(3, 4)` + `"sleep 500"`, run `["A", "sleep 1000"] * 4 + ["A", "sleep 9500", "B", "sleep 2500"]` followed by `["B", "sleep 700"] * 3` and `Down * 5` (`(3,3) -> (3,7) -> outside`).
 - **4-Move TM / Level-Up Move Replacement Sequence (Verified Turns 235–237)**:
   - Prompts: `"trying to learn <NEW>! ▼"` -> `"can't learn more than 4 moves! ▼"` -> `"Delete an older ▼"` -> `"move to make room for <NEW>?"` (`►YES / NO` — note the TWO line-scrolls!) -> `"Which move should be forgotten?"` (`Down * k`, `A`) -> `"1, 2 and... Poof! ▼"` -> `"forgot <OLD>! ▼"` -> `"And... ▼"` -> `"learned <NEW>! ▼"`.
 - **Cave Exit Mats vs. Building Exit Mats (Verified Turn 187)**:
@@ -89,8 +90,8 @@ def name_buttons(word):
 - Always use bounded `for _ in range(N):` loops rather than unbounded `while` loops so an unexpected wall/NPC cannot trip the 150-button script abort limit.
 - Never dodge `Down` when walking directly above a south-facing ledge (e.g., Viridian `y = 26`).
 - **Gen 1 Menu Wrapping Summary (Verified Turns 124, 155, 184)**:
-  - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`). Note: healing at Nurse Joy does **NOT** reset the `Start` cursor (verified Turn 270 — `Start` remained on `POKéMON` after healing!).
-  - `POKéMON` party list remembers its last cursor slot in overworld `Start -> POKéMON`, **EXCEPT at the start of every new battle**, where in-battle `PKMN` **resets to Slot 0** just like `FIGHT` (verified Turn 280! Thus Turn-1 switch from Slot 0 to Slot 1 in a new battle is ALWAYS `Right, A, Down, A, A`).
+  - `Start` menu (`POKéDEX .. EXIT`) **wraps** vertically (`Up` from `POKéDEX` jumps to `EXIT`, `Down` from `EXIT` jumps to `POKéDEX`). Fighting a battle resets `Start` back to Slot 0 (`POKéDEX`, verified Turn 290), whereas healing at Nurse Joy without a battle leaves `Start` on its previous slot (Turn 270).
+  - `POKéMON` party list remembers its last cursor slot in overworld `Start -> POKéMON`, **EXCEPT at the start of every new battle**, where in-battle `PKMN` **resets to Slot 0** just like `FIGHT` (verified Turn 280! Thus Turn-1 switch from Slot 0 to Slot 1 in a new battle is ALWAYS `Right, A, Down, A, A`). Within the same battle, selecting Slot `k` via `PKMN` OR `"Use item on which POKéMON?"` updates the in-battle Party cursor to Slot `k` (verified Turn 287).
   - **Verified Direct-Talk Trainer Intro Recipe (13.5s, Turn 280)**: Talking to a trainer with `A` takes ~12.6s to reach `►FIGHT` (shorter sleeps drop Turn-1 switch inputs during `"Go! <PKMN>!"`, Turn 277). Use `["A", "sleep 1000", "B", "sleep 1000", "B", "sleep 4000", "B", "sleep 1200", "B", "sleep 2500", "B", "sleep 3000", "B", "sleep 800"]` to land cleanly on `►FIGHT`.
   - Battle `FIGHT` move menu **wraps** vertically.
   - `ITEM` bag menu **clamps** (does NOT wrap) at Slot 0 (`Up` at top stays on Slot 0).
