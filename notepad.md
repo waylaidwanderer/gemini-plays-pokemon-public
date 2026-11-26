@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), healed/restocked in Pewter City, and trained KAISER from Lv 3 to Lv 11 on Route 3 trainers (Colton, Ben, Greg); pushing east across Route 3 to Mt. Moon Pokémon Center.
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), cleared Route 3 trainers (RIPTIDE Lv 14, KAISER Lv 12), and arrived at Route 4 Mt. Moon Pokémon Center (turn 265); entering Mt. Moon next.
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -20,12 +20,13 @@
 - Pewter City navigation: Pewter Gym (`(16,17)`) is bounded south by a `y=21` tree wall (`x=4..17`) and east fence (`x=18, y=18..21`); travel north of the Gym (`x=10, y=13 -> x=19, y=13`) and down the main east avenue `x=19` to reach Pewter Pokémon Center (`(13,25)`) and Poké Mart (`(23,17)`) (verified turn 186).
 - Battle `PKMN` and SHIFT (`"Bring out which POKéMON?"`) switch cursors both persist on the last switched-in slot within a battle (verified turns 122–123 & 198). Use `Left, Up` / `Right, Up` to reliably select `FIGHT` / `PKMN` regardless of previous Battle Menu cursor.
 - Overworld Bag healing: after `A` heals a Pokémon (`"...recovered by 20!"`), 4 `B` presses exit cleanly (dismiss message -> close Party -> close Bag -> close Start Menu) (verified turn 208 filmstrip). Start Menu cursor resets to `POKéDEX` after battles/map transitions (verified turn 206).
+- Sleep/Disable in battle: while asleep (`SLP`), pressing `A` on `FIGHT` skips move selection directly; when Disable wears off, `"<PKMN>'s disabled no more! ▼"` prints before the attack and needs `B`/`A` (verified turns 249–254).
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **KAISER** (Nidoran♂, Lead/Slot 1) - Lv 11 (20/34 HP; Atk 18, Def 15, Spd 16, Spc 14; Leer, Tackle, Horn Attack [3/25 PP]; ~75% to Lv 12; evolve to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
-- **RIPTIDE** (Squirtle, Slot 2) - Lv 13 (30/35 HP; Atk 20, Def 23, Spd 16, Spc 18; Tackle, Tail Whip, Bubble [16/30 PP]; learns Water Gun at Lv 15, Wartortle at Lv 16)
-- **Bag:** Poké Ball x9, TM34 (Bide), Potion x2, Antidote x3 | **Cash:** ~¥600+
+- **RIPTIDE** (Squirtle, Lead/Slot 1) - Lv 14 (37/37 HP; Atk 22, Def 25, Spd 18, Spc 19; Tackle, Tail Whip, Bubble; learns Water Gun at Lv 15, Wartortle at Lv 16)
+- **KAISER** (Nidoran♂, Slot 2) - Lv 12 (36/36 HP; Leer, Tackle, Horn Attack; evolves to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
+- **Bag:** Poké Ball x9, TM34 (Bide), Potion x1, Antidote x3 | **Cash:** ~¥950+
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
