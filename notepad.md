@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), cleared Route 3 trainers (RIPTIDE Lv 14, KAISER Lv 12), and arrived at Route 4 Mt. Moon Pokémon Center (turn 265); entering Mt. Moon next.
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), cleared Route 3, healed at Mt. Moon Pokémon Center (turn 266), entered Mt. Moon 1F, grabbed 1F Potion (`(2,20)`), and heading northwest to Moon Stone (`(2,2)`) & Main Ladder (`(5,5)`).
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -24,9 +24,9 @@
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **RIPTIDE** (Squirtle, Lead/Slot 1) - Lv 14 (37/37 HP; Atk 22, Def 25, Spd 18, Spc 19; Tackle, Tail Whip, Bubble; learns Water Gun at Lv 15, Wartortle at Lv 16)
-- **KAISER** (Nidoran♂, Slot 2) - Lv 12 (36/36 HP; Leer, Tackle, Horn Attack; evolves to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
-- **Bag:** Poké Ball x9, TM34 (Bide), Potion x1, Antidote x3 | **Cash:** ~¥950+
+- **KAISER** (Nidoran♂, Lead/Slot 1) - Lv 13 (22/38 HP; Atk 20, Def 17, Spd 18, Spc 16; Leer, Tackle, Horn Attack [18/25 PP]; evolves to Nidorino at Lv 16 -> Nidoking with Mt. Moon Moon Stone)
+- **RIPTIDE** (Squirtle, Slot 2) - Lv 15 (21/39 HP; Atk 23, Def 26, Spd 18, Spc 20; Tackle, Tail Whip, Bubble, **Water Gun**; evolves to Wartortle at Lv 16)
+- **Bag:** Poké Ball x9, TM34 (Bide), Potion x2, Antidote x3 | **Cash:** ~¥1200+
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
