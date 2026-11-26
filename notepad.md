@@ -450,6 +450,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 3: SAGE struck first with Bullet Seed, dropping Dusclops #1 to ~70% HP! Advancing through Dusclops's counter-attack to Turn 4 battle menu.
     - Dusclops Lv 48 (#1): DEFEATED by self-inflicted Curse damage! SAGE at 159/251 HP.
   - Dusclops Lv 51 (#2): Pressure. Advancing through entrance text and Pressure to main battle menu.
+    - Dusclops Lv 51 (#2): Pressure. SAGE at 97/251 HP (under Curse). Clamping Up+Left to Slot 1 Bullet Seed to strike Dusclops Lv 51!
 
 <hr>
 
@@ -5120,7 +5121,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe in progress: Dusclops #1 DEFEATED. SAGE Lv 84 (159/251 HP, 247 Speed). Bag: 4 Revives, 1 Full Heal, Money: ¥5,941. Sweeping Phoebe's Ghosts!
+- Status: Attempt 13 Active! Room 2 Phoebe in progress: Dusclops #1 DEFEATED. SAGE Lv 84 (97/251 HP, 247 Speed). Bag: 4 Revives, 1 Full Heal, Money: ¥5,941. Sweeping Phoebe's Ghosts!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 251/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
