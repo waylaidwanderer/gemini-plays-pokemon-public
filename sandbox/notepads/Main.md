@@ -6,13 +6,14 @@
 - **Rival Name:** GARNET
 - **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16)
 
-## Badges & Milestones
+## Milestones & Badges
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
 - [x] Boulder Badge — Brock (Pewter City)
 - [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
 - [x] Cerulean Rival `GARNET` Defeated (Turn 257)
 - [x] `S.S. Ticket` Obtained from Bill (Sea Cottage, Turn 343)
 - [x] Cascade Badge — Misty (Cerulean City, Turn 351)
+- [x] S.S. Anne Cleared — Rival `GARNET` Defeated & `HM01 (Cut)` Obtained (Turns 432–434)
 - [ ] Thunder Badge — Lt. Surge (Vermilion City)
 - [ ] Rainbow Badge — Erika (Celadon City)
 - [ ] Soul Badge — Koga (Fuchsia City)
@@ -22,15 +23,15 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **AMETHYST** (Nidoqueen) — Lv. 20 (`35/68` HP) | Moves: Body Slam, Water Gun, Tackle, Poison Sting *(100% Electric-immune! Taught `TM08 Body Slam` 85 BP in Slot 0!)*
-2. **NAUTILUS** (Wartortle) — Lv. 26 (`70/70` HP) | Moves: Bite, Mega Punch, Dig, BubbleBeam *(Note: Nidoqueen is `NOT ABLE` to learn `TM28 Dig` in Gen 1; Wartortle IS `ABLE`!)*
+1. **AMETHYST** (Nidoqueen) — Lv. 22 (`36/74` HP) | Moves: Body Slam, Water Gun, Tackle, Poison Sting *(100% Electric-immune! `TM08 Body Slam` 85 BP in Slot 0!)*
+2. **NAUTILUS** (Wartortle) — Lv. 27 (`0/72` HP, heal at Center) | Moves: Bite, Mega Punch, Dig, BubbleBeam
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch)*
-4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch *(`HM01 Cut` & `Spore` specialist)*
+4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
 
 ## Inventory & Money
-- Money: ~¥10,500 (+ `Nugget` worth ¥5,000!)
-- Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- Bag: Poké Ball x2, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher
+- Money: ~¥15,500 (+ `Nugget` worth ¥5,000!)
+- Key Items: Pokédex, Town Map, Helix Fossil, S.S. Ticket, Bike Voucher, HM01 (Cut)
+- Bag: Poké Ball x2, TM34 (Bide), Town Map, Escape Rope x1, Helix Fossil, Nugget x1, TM45 (Thunder Wave), S.S. Ticket, Bike Voucher, Max Ether x1, HM01 (Cut)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary

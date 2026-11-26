@@ -38,5 +38,8 @@
   - **`(19, 8)` (Room #4 from left)**: **Free-Heal Woman** (instant full party & PP heal!).
   - **`(23, 8)` (Room #5 from left)**: Gentleman Arthur (`Nidoran♂ Lv 19, Nidoran♀ Lv 19`).
   - **West Stairs (`(2, 6)` -> `(2, 4)`)**: Warps up to **2F `(2, 4)`**.
-- **2F West Corridor**:
-  - `(2, 4)` = stairs to 1F; Sailor NPC at `(3, 8)`; `(2, 11)` = stairs to 3F Bow `(19, 3)`. Use **`x = 3`** (`(3, 11) -> (3, 15)`) to enter the main 2F corridor without warping to 3F.
+- **2F Corridor (`y = 12..13`, `x = 3..37`)**:
+  - `(2, 4)` = stairs to 1F; Sailor NPC at `(3, 8)`; `(2, 11)` = stairs to 3F Bow `(19, 3)`. Use **`x = 3`** (`(3, 9) <-> (3, 12)`) to avoid `(2, 11)` and `(3, 8)`.
+  - **`(13, 11)` (2F Room #2 from left)**: Fisher Dale (`Goldeen Lv 17, Tentacool Lv 17, Goldeen Lv 17`), Gentleman Brooks (`Pikachu Lv 23`), and **`Max Ether`** at `(12, 1)` (collected Turn 426).
+  - **East 2F Corridor (`x = 36..37`)**: **Rival `GARNET`** ambushes at `(37, 8)` (`Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20` — defeated Turn 432).
+  - **Captain's Quarters (`(36, 4)` stairs)**: Enters at `(0, 7)` -> walk `(0, 7) -> (4, 7) -> (4, 3)` facing `Up` at Captain -> rub back for **`HM01 (Cut)`** (obtained Turn 434).
