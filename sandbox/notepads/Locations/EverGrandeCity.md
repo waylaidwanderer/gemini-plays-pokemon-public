@@ -129,5 +129,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - ALL 5 DEFEATED! Prize: ¥4,900. Door to Room 2 (Phoebe) unlocked!
 - Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Phoebe in Room 2!
 
-    - Turn 7: SAGE's Bullet Seed hit 2 times, dropping Crawdaunt to ~5% red HP!
-    - Turn 8: Clamping Up+Right to Slot 2 Aerial Ace to KO Crawdaunt and defeat Sidney! Room 1 Cleared! Door to Room 2 unlocked!
+- Room 1 Cleared! Advancing through doorway at (6, 0) and Grand Staircase into Room 2 facing Phoebe at (6, 6).
