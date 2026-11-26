@@ -129,3 +129,4 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Upcoming: Banette Lv 49 (#5, final Pokémon). Sweeping with Bullet Seed to clear Room 2!
 
 - Turn 7: SAGE struck first with Overgrow Bullet Seed, dropping Sableye to ~45% HP! Advancing through Sableye's counter-attack. SAGE at 44/251 HP (Overgrow ACTIVE!).
+- Turn 8: Sableye used Double Team (0 dmg to SAGE). SAGE at 44/251 HP (Overgrow ACTIVE!). Clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Sableye and face final Banette #2!
