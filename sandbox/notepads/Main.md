@@ -4,7 +4,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), cleared Nugget Bridge + Team Rocket (**Nugget** turn 461, **TM45** turn 468), caught **Bellsprout (`PGHP`)** (turn 485), rescued **Bill** (**S.S. Ticket** turn 533–534), defeated **Gym Leader Misty** (turn 578, **Cascade Badge 2/8** + **TM11 Bubblebeam** taught to RIPTIDE turn 585), and defeated the **Cerulean burgled house Rocket Grunt** (turn 606, **KAISER Lv 23 learned Thrash**, recovered **TM28 Dig**)! Teaching TM28 Dig to RIPTIDE (Nidoking cannot learn TM28 Dig in Gen 1, verified turn 608), then heading south via Route 5–6 to Vermilion City!
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), cleared Nugget Bridge + Team Rocket (**Nugget** turn 461, **TM45** turn 468), caught **Bellsprout (`PGHP`)** (turn 485), rescued **Bill** (**S.S. Ticket** turn 533–534), defeated **Gym Leader Misty** (turn 578, **Cascade Badge 2/8** + **TM11 Bubblebeam** taught to RIPTIDE turn 585), defeated the **Cerulean burgled house Rocket Grunt** (turn 606, **KAISER Lv 23 learned Thrash**, recovered **TM28 Dig** & taught to RIPTIDE turn 611), crossed **Route 5 -> Underground Path -> Route 6**, and arriving in **Vermilion City**!
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -25,12 +25,13 @@
 - Battle `ITEM` & 0-PP cursor behavior: In battle `ITEM`, the Bag scroll/selection cursor **persists** on the last-used item slot within a battle (verified turn 568); pressing `A` on a Potion skips `USE/TOSS` and goes straight to the Party screen (where the party cursor persists on the active/last-switched Pokémon slot, verified turn 503); after using `ITEM`, Battle Menu cursor stays on `ITEM` (verified turn 455). Selecting a 0-PP move inside `FIGHT` does NOT update the persisted move cursor (resets to Slot 1 next time `FIGHT` is opened; verified turns 452–453).
 - Naming keyboard hygiene: always open the naming screen and confirm it is settled before typing; use `sleep 200` (not `120`) between consecutive directional presses and visually verify the spelling before pressing `Start` (lesson from turn 488 `PGHP`).
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
+- Gen 1 `Thrash` rampage: lasts 3–4 turns and auto-executes each subsequent turn without reopening the Battle Menu; still prompts Shift `YES/NO` between enemy Pokémon (`B` stays in and continues Thrash; verified turns 626–628).
 
 ## Party
 - **KAISER** (Nidoking, Lead/Slot 1) - Lv 23 (78 HP, 50 ATK, 46 DEF, 46 SPD, 42 SPC; **Thrash**, Tackle, **Horn Attack**, Poison Sting; cannot learn TM28 Dig in Gen 1, verified turn 608 — will learn TM08 Body Slam, TM24 Thunderbolt, TM13 Ice Beam, TM26 Earthquake) — evolved turn 347
-- **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (52 HP; Tackle -> **TM28 Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (52 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **PGHP** (Bellsprout, Slot 3) - Lv 17 (44 HP; **Vine Whip**, Growth, Wrap, PoisonPowder; learns **Sleep Powder** at Lv 18; future HM01 Cut user) — caught turn 485
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **Nugget**, **TM45 (Thunder Wave)**, **S.S. Ticket**, **TM28 (Dig)** | **Cash:** ~¥6400+ | **Respawn:** Cerulean City Center `(19,17)`
+- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **Nugget**, **TM45 (Thunder Wave)**, **S.S. Ticket** | **Cash:** ~¥6700+ | **Respawn:** Cerulean City Center `(19,17)` (about to update to Vermilion City!)
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
