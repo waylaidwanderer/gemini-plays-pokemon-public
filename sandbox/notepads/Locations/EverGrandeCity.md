@@ -110,61 +110,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
       - Mochi Lv 11 entered the field and absorbed Salamence's attack, fainting. Guava Lv 30 is our final Pokémon.
       - Sending in our final Pokémon, Guava Lv 30 (101/101 HP)!
 
-## Elite Four Attempt 12 (Active)
-- Status: 5 Revives purchased! Cash: ¥483. SAGE Lv 83 ready. Heading to central gate (9, 1) to launch Attempt 12!
-- SAGE (Level 83 Sceptile ♂): 249/249 HP, 244 Speed, 202 SpA, 185 Atk. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30).
-- In Bag: 5 Revives, 2 Full Heals, 1 Ultra Ball, 1 Master Ball. Remaining cash: ¥483.
-- Party: All 6 Pokémon 100% restored. 5 conscious reserve anchors ready for Sacrificial Revives.
-- Battle Plan:
-  - Room 1 Sidney: Facade / Aerial Ace sweep. (Prize: ¥4,900).
-  - Room 2 Phoebe: Aerial Ace sweeps Banettes & Sableye, Overgrow Bullet Seed sweeps Dusclops. (Prize: ¥5,100).
-  - Room 3 Glacia: Overgrow Bullet Seed sweeps Sealeos & Walrein, physical Facade sweeps Glalies. (Prize: ¥5,300).
-  - Room 4 Drake: 2HKO Shelgon, Flygon, Altaria with Facade. Defeat Kingdra & Salamence. 5 Revives available! (Prize: ¥5,500).
-  - Champion Wallace: Bullet Seed sweeps Wailord, Whiscash, Tentacruel, Gyarados, Milotic; Aerial Ace / Facade vs Ludicolo!
-    - Mightyena Lv 46 (#1): Intimidate cut SAGE's Attack. SAGE (244 Speed) strikes first with physical Facade for ~75-85 damage!
-      - Sand-Attack lowered accuracy, but SAGE selected Aerial Ace (infinite accuracy, never misses!) to finish Mightyena!
-    - Mightyena Lv 46 (#1): DEFEATED! SAGE finished Mightyena with Aerial Ace (never misses!). Facing Absol Lv 49 (#2).
-    - Absol Lv 49 (#2): Pressure ability. SAGE (244 Speed) strikes first with Aerial Ace (never misses!) for ~75-84 damage!
-    - Absol Lv 49 (#2): DEFEATED! SAGE finished Absol with Aerial Ace (never misses!). Facing Shiftry Lv 48 (#3, 4x weak to Flying)!
-    - Shiftry Lv 48 (#3): Grass/Dark is 4x WEAK to Flying! SAGE (244 Speed) targets Shiftry with 4x Aerial Ace!
-    - Shiftry Lv 48 (#3): Sidney burned Full Restore #1 on Shiftry! SAGE countered with 4x Aerial Ace, dealing massive damage!
-    - Shiftry Lv 48 (#3): DEFEATED! SAGE struck with 4x Aerial Ace (never misses!), finishing Shiftry! Facing Cacturne Lv 46 (#4, 4x weak to Flying)!
-    - SAGE grew to Level 84 (172/251 HP, Spe ~247)! Sidney is sending out Cacturne Lv 46 (#4, 4x weak to Flying).
-    - Cacturne Lv 46 (#4): DEFEATED! SAGE struck first with 4x Aerial Ace for ~307 damage, instant OHKO! Facing Sidney's final Pokémon, Crawdaunt Lv 48 (#5, 2x weak to Grass)!
-    - Crawdaunt Lv 48 (#5, Final): Bullet Seed dealt ~90% damage, dropping Crawdaunt to ~10% HP! Crawdaunt counter-attacks, SAGE finishing next turn.
-    - Crawdaunt Lv 48 (#5, Final): DEFEATED! SAGE finished Crawdaunt with Bullet Seed! ALL 5 OF SIDNEY'S POKÉMON DEFEATED!
-  - ELITE FOUR MEMBER #1 SIDNEY DEFEATED (Attempt 12, Turn 26573)! Prize: ¥4,900 earned (Total cash: ¥5,383). Door to Room 2 (Phoebe) unlocked!
-
-  - Room 2 Phoebe: Facing Phoebe at (6, 6) in Room 2 (Attempt 12, Turn 26577)! SAGE Lv 84 (172/251 HP, 247 Speed, 29 Bullet Seed PP, 9 Aerial Ace PP). Plan: Use Aerial Ace / Bullet Seed (never Normal moves!), sacrifice Aerial Ace to Banette's Grudge, sweep all 5 Ghosts!
-    - Turn 1: Dusclops used Protect! SAGE's Aerial Ace blocked. Aerial Ace at 7/20 PP under Pressure. SAGE at 172/251 HP. Preparing Turn 2 strike!
-    - Turn 2: Dusclops used Protect (failed!). SAGE struck first with Aerial Ace, dropping Dusclops to ~25% HP! SAGE at 172/251 HP. Aerial Ace at 5/20 PP under Pressure. Launching Turn 3 Aerial Ace!
-    - Turn 3: Dusclops used Protect (succeeded!). Aerial Ace blocked, down to 3/20 PP under Pressure. Dusclops at ~25% HP. Switching to STAB Bullet Seed (29 PP) to finish Dusclops and preserve Aerial Ace for Banette #1's Grudge!
-    - Turn 4: Dusclops used Protect (succeeded). Bullet Seed blocked, down to 27/30 PP under Pressure. Dusclops at ~25% HP. Aerial Ace preserved at 3 PP.
-    - Turn 5: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops #1!
-    - Turn 5: SAGE struck first with Bullet Seed (hit 2 times), dropping Dusclops to a tiny red sliver of HP (~2-3 HP)! Dusclops preparing its counter-action. SAGE at 172/251 HP. Aerial Ace preserved at 3 PP.
-    - Turn 5: Dusclops used Shadow Punch, dealing 22 dmg (SAGE at 150/251 HP). Dusclops clinging to ~2-3 red HP.
-    - Turn 6: Selecting FIGHT, clamping to Slot 1 Bullet Seed to finish Dusclops #1!
-    - Turn 6: Phoebe burned Full Restore on Dusclops! SAGE countered with STAB Bullet Seed, dealing heavy damage. SAGE at 150/251 HP. Bullet Seed at 23/30 PP under Pressure. Aerial Ace preserved at 3 PP.
-    - Turn 6: Dusclops took Bullet Seed damage, dropping back down to ~20% HP (orange/red bar)! SAGE at 150/251 HP.
-    - Turn 7: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops #1!
-    - Turn 7: SAGE used Bullet Seed! Foe Dusclops #1 fainted! SAGE gained 1840 EXP. SAGE at 150/251 HP. Dusclops #1 is DEFEATED! Bullet Seed at 21/30 PP, Aerial Ace at 3/20 PP. Phoebe's Full Restore is burned. Advancing to Phoebe's Pokémon #2!
-  - Phoebe Pokémon #2: Dusclops Lv 51 (Pressure)! SAGE at 150/251 HP, 247 Speed. Preserving Aerial Ace (3 PP) for Banette's Grudge. Executing STAB Bullet Seed (Slot 1: Up, Left, A)!
-    - Turn 8: SAGE struck first with Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to ~60% HP! Bullet Seed at 19/30 PP under Pressure. Dusclops preparing its counter-attack. SAGE at 150/251 HP. Aerial Ace preserved at 3 PP.
-    - Turn 8: Dusclops Lv 51 used Shadow Ball, dealing 31 dmg. SAGE at 119/251 HP (status OK). Dusclops at ~60% HP.
-    - Turn 9: Executing STAB Bullet Seed (Slot 1: Up, Left, A) against Dusclops Lv 51!
-    - Turn 9: SAGE struck first with Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to ~20-25% HP! Dusclops used Shadow Ball (~31 dmg, SAGE at ~88 HP).
-    - Turn 10: Executing STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 15/30 PP, Aerial Ace at 3/20 PP. Both Pressure users down!
-    - Turn 10: SAGE struck first with Bullet Seed (critical hit! hit 2 times), dropping Dusclops Lv 51 to ~18% HP! SAGE at 89/251 HP. Bullet Seed at 15/30 PP under Pressure, Aerial Ace preserved at 3 PP. Dusclops preparing counter-attack.
-    - Turn 10: Dusclops Lv 51 used Ice Beam, dealing 32 dmg (SAGE at 57/251 HP, Overgrow ACTIVE!). Inflicted FRZ status. Dusclops at ~18% HP. Opening Bag to use Full Heal and cure Freeze!
-    - Turn 11: In Items pocket, cursor moved Up from CLOSE BAG to FULL HEAL (Row 3). Executing Full Heal on SAGE to cure FRZ! SAGE at 57/251 HP with Overgrow ACTIVE. Ready to finish Dusclops Lv 51 next turn!
-    - Turn 11: Full Heal cured Freeze on turn start! Dusclops Lv 51 used Ice Beam (31 dmg, SAGE at 26/251 HP, Overgrow ACTIVE!). Dusclops at ~18% HP.
-    - Turn 12: Executing Overgrow-boosted STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP. Eliminating both Pressure users!
-    - Turn 12: Main battle menu cursor on BAG. Stepping Left to FIGHT, clamping Up+Left to Slot 1 Overgrow Bullet Seed to KO Dusclops Lv 51! Both Pressure users will be eliminated. SAGE at 26/251 HP. Aerial Ace preserved at 3 PP.
-    - Turn 12: SAGE struck first with Overgrow Bullet Seed (hit 2 times), dropping Dusclops Lv 51 to a tiny red sliver of HP (~2-3 HP)! SAGE at 26/251 HP. Dusclops preparing its counter-action. Advancing through Dusclops's turn.
-    - Turn 12: Overgrow Bullet Seed finished Dusclops Lv 51! Dusclops Lv 51 fainted! Both Pressure users are DEFEATED! SAGE gained 1956 EXP. SAGE at 26/251 HP, Overgrow ACTIVE. Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP.
-  - Phoebe Pokémon #3: Banette Lv 49! Plan: Execute Aerial Ace (Slot 2) to OHKO Banette and absorb Grudge safely onto Aerial Ace, protecting Bullet Seed!
-    - Turn 13: Cursor on FIGHT. Clamping Up+Right to Slot 2 Aerial Ace (3 PP). Executing Aerial Ace to OHKO Banette Lv 49 (#3) and absorb Grudge! Bullet Seed (13 PP) protected!
-    - Turn 13: SAGE struck first with Aerial Ace, dropping Banette to ~15% HP! Banette used Shadow Ball, KO'ing SAGE. Aerial Ace at 2/20 PP, Bullet Seed at 13/30 PP (100% protected!).
-  - Sacrificial Revive Protocol Step 1: Sending out Anchor #1 Lilz (Lombre Lv 30, Slot 2) to prepare +6 priority Revive on SAGE!
-  - Sacrificial Revive Protocol Step 2: Lilz on field (85/85 HP) facing Banette Lv 49 (~15% HP). Opening Bag from FIGHT -> BAG to confirm Revive position!
-    - Turn 14: Bag opened to Key Items pocket (Pocket 5). Pressing Right to wrap directly to Items pocket (Pocket 1) to select Revive!
+## Elite Four Attempt 12 (Active - Concluding)
+- Status: Sidney DEFEATED (earned ¥4,900, total ¥5,383). Phoebe in progress. SAGE fainted.
+- SAGE (Level 84 Sceptile ♂): Fainted (0/251 HP). Moves: Bullet Seed (13/30), Aerial Ace (2/20), Facade (19/20), Quick Attack (30/30).
+- In Bag: 0 Revives (verified 0 in Items pocket), 1 Full Heal, 1 Ultra Ball, 1 Master Ball, ¥5,383 cash.
+- Party: SAGE fainted. Active: Lilz (Lombre Lv 30, 85/85 HP). Conscious reserves: Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30.
+- Battle Summary:
+  - Room 1 Sidney: ALL 5 DEFEATED! SAGE swept Mightyena, Absol, Shiftry, Cacturne, Crawdaunt. Earned ¥4,900.
+  - Room 2 Phoebe: Dusclops Lv 48 (#1) DEFEATED (Phoebe burned Full Restore). Dusclops Lv 51 (#2) DEFEATED (SAGE cured with Full Heal, Overgrow Bullet Seed KO). Banette Lv 49 (#3) damaged to ~15% HP by Aerial Ace, but KO'd SAGE with Shadow Ball.
+  - Sacrificial Revive impossible due to 0 Revives in Bag. Lilz active vs Banette (~15% HP). Concluding battle via whiteout to reset at Lobby Mart, correctly purchase Revives, and launch Attempt 13!
