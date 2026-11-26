@@ -438,6 +438,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sableye Lv 50 (#4): SAGE hit with Bullet Seed (~50% dmg); Phoebe burned her Full Restore on Sableye; SAGE countered with Bullet Seed! Finishing Sableye with Bullet Seed!
   - Upcoming: Banette Lv 49 (#5, final Pokémon). Sweeping with Bullet Seed to clear Room 2!
 
+    - Sableye Lv 50: DEFEATED by Bullet Seed! Phoebe down to her 5th and final Pokémon.
+  - Phoebe Pokémon #5 (Final): Banette Lv 49 (#2). Declining switch, advancing to battle menu to sweep with STAB Bullet Seed!
 
 <hr>
 
@@ -5108,7 +5110,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1 DEFEATED! Phoebe burned Full Restore on Sableye. SAGE active (94/251 HP). 3 Revives in Bag. Sweeping Sableye & final Banette #2!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1, Sableye DEFEATED! SAGE active (94/251 HP). 3 Revives in Bag. Sweeping final Banette #2 to defeat Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 94/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (14/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.

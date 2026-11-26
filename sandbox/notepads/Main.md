@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 84, Male), Nickname: SAGE
-- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1 DEFEATED! Phoebe burned Full Restore on Sableye. SAGE active (94/251 HP). 3 Revives in Bag. Sweeping Sableye & final Banette #2!
+- Status: Attempt 13 Active! Room 2 Phoebe: Dusclops #1, Dusclops #2, Banette #1, Sableye DEFEATED! SAGE active (94/251 HP). 3 Revives in Bag. Sweeping final Banette #2 to defeat Phoebe!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 84) - Lead! HP: 94/251. Max HP: 251. Atk 187, Def 137, SpA 204, SpD 183, Spe 247. Moves: Bullet Seed (14/30), Aerial Ace (0/20), Facade (19/20), Quick Attack (30/30). Status: OK.
