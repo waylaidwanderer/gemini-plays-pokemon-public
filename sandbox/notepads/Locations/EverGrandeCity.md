@@ -157,3 +157,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - Turn 10: SAGE struck first with Bullet Seed (critical hit! hit 2 times), dropping Dusclops Lv 51 to ~18% HP! SAGE at 89/251 HP. Bullet Seed at 15/30 PP under Pressure, Aerial Ace preserved at 3 PP. Dusclops preparing counter-attack.
     - Turn 10: Dusclops Lv 51 used Ice Beam, dealing 32 dmg (SAGE at 57/251 HP, Overgrow ACTIVE!). Inflicted FRZ status. Dusclops at ~18% HP. Opening Bag to use Full Heal and cure Freeze!
     - Turn 11: In Items pocket, cursor moved Up from CLOSE BAG to FULL HEAL (Row 3). Executing Full Heal on SAGE to cure FRZ! SAGE at 57/251 HP with Overgrow ACTIVE. Ready to finish Dusclops Lv 51 next turn!
+    - Turn 11: Full Heal cured Freeze on turn start! Dusclops Lv 51 used Ice Beam (31 dmg, SAGE at 26/251 HP, Overgrow ACTIVE!). Dusclops at ~18% HP.
+    - Turn 12: Executing Overgrow-boosted STAB Bullet Seed (Slot 1: Up, Left, A) to KO Dusclops Lv 51! Bullet Seed at 13/30 PP, Aerial Ace at 3/20 PP. Eliminating both Pressure users!
