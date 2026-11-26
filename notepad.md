@@ -34,11 +34,11 @@
 - Celadon City & Gym notes: Dept Store stairs drop you on `y=2` directly below the staircase (`x=12` or `x=16`; Rooftop stairs at `(15,2)`, turns 892–893). Vending Machine stays open after `"<DRINK> popped out!"` + `B`; next `B` shows `"Not thirsty!"` -> `B` closes (turn 896). Wandering NPCs: patrol walkable tiles and press `A` on `cur == old` bump (turn 901). Celadon Gym is reached via central south avenue `x=22..25` -> east along `y=30` -> Cut bush `(35,32)` -> west along `y=34` -> north gap at `(5,31)` -> east to Gym door `(12,27)`; inside Gym, walking `x=4` avoids Beauty `(7,10)` and cutting `(5,7)` goes straight to Erika (turns 920–927). Exiting a battle reloads the tilemap and regrows cut bushes (verified turn 953). After using a field move (`CUT`), both Start Menu cursor (`POKéMON`) and Party cursor persist across map warps and Nurse Joy heals until a battle/save (verified turns 954 & 958). On the Kanto Fly map, `Down` cycles backward through visited towns (`Pallet -> Celadon -> Vermilion -> Lavender -> Cerulean -> Pewter -> Viridian`) and `Up` cycles forward (verified turn 971). Nurse Joy healing with 4 Pokémon requires `sleep 5600` (verified turns 1036–1037).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 40 (~132 HP; **Thrash**, **Body Slam**, **Ice Beam**, **Thunderbolt**) — evolved turn 347; taught TM13 Ice Beam turn 911
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 41 (136 HP; **Thrash**, **Body Slam**, **Ice Beam**, **Thunderbolt**) — evolved turn 347; taught TM13 Ice Beam turn 911
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
-- **DOZER** (Snorlax, Slot 5) - Lv 30 (~142 HP; **Headbutt**, **Amnesia**, **Rest**) — caught on Route 16 turn 1147
+- **DOZER** (Snorlax, Slot 5) - Lv 30 (136 HP; **Headbutt**, **Amnesia**, **Rest**) — caught on Route 16 turn 1147
 - **Bag:** **Super Potion x1**, **Repel x1**, **HM01 (Cut)**, **Bicycle**, **Fresh Water x1**, **Great Ball x3**, **Revive x1**, **Super Repel x4**, **HM02 (Fly)**, **Lift Key**, **Silph Scope**, **Rare Candy x1**, **Poké Flute** (13/20 slots! Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3) | **Cash:** ¥22,000+ | **Respawn:** Fuchsia City Center `(19,27)` (south courtyard reached via west grass `(1,21)->(1,32)->(8,31)` gap; Gym at `(5,27)`, Warden's House at `(27,27)`, Safari Zone north via `x=22..23`)
 
 ## Badges
