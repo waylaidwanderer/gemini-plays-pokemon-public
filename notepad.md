@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), rescued **Bill** (**S.S. Ticket** turn 533–534), defeated **Gym Leader Misty** (turn 578, **Cascade Badge 2/8** + **TM11 Bubblebeam** -> RIPTIDE turn 585), cleared Cerulean burgled house (**TM28 Dig** -> RIPTIDE turn 611), arrived in **Vermilion City** (turn 632), stocked **Super Potion x8 / Repel x5**, claimed **Bike Voucher** (turn 643), cleared **S.S. Anne** (**TM08 Body Slam** -> KAISER turn 663, defeated **Rival RED #3** turn 679, received **HM01 Cut** -> PGHP turn 685), and defeated **Gym Leader Lt. Surge** (turn 707, **Thunder Badge 3/8** + **TM24 Thunderbolt** -> KAISER turn 712)! Heading north to Cerulean Bike Shop for Bicycle, then Route 9 -> Rock Tunnel -> Lavender Town -> Celadon City!
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), rescued **Bill** (**S.S. Ticket** turn 533–534), defeated **Gym Leader Misty** (turn 578, **Cascade Badge 2/8** + **TM11 Bubblebeam** -> RIPTIDE turn 585), cleared Cerulean burgled house (**TM28 Dig** -> RIPTIDE turn 611), arrived in **Vermilion City** (turn 632), claimed **Bike Voucher** (turn 643), cleared **S.S. Anne** (**TM08 Body Slam** -> KAISER turn 663, defeated **Rival RED #3** turn 679, **HM01 Cut** -> PGHP turn 685), defeated **Gym Leader Lt. Surge** (turn 707, **Thunder Badge 3/8** + **TM24 Thunderbolt** -> KAISER turn 712), claimed **Bicycle** in Cerulean City (turn 730), and cleared **Route 9 & Rock Tunnel without Flash** (turn 854; **PGHP learned Sleep Powder** turn 822)! Entering **Lavender Town**, then heading west via Route 8 -> Underground Path -> Route 7 to **Celadon City**!
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -36,7 +36,7 @@
 - **KAISER** (Nidoking, Lead/Slot 1) - Lv 30 (100 HP; **Thrash**, **Body Slam**, **Horn Attack**, **Thunderbolt**) — evolved turn 347
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, Water Gun) — evolved turn 309
 - **PGHP** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485
-- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x8**, **Repel x5**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥10000+ | **Respawn:** Route 10 Center `(11,19)`
+- **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, **TM45 (Thunder Wave)**, **S.S. Ticket**, **Super Potion x7**, **Repel x1**, **HM01 (Cut)**, **Bicycle** | **Cash:** ¥13000+ | **Respawn:** Route 10 Center `(11,19)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
