@@ -6,7 +6,7 @@
 - **Version:** Pokémon Blue Version (colorized GBC ROM with battle EXP bar visible under HP; verify any QoL features in-game)
 - **Trainer:** NEON | **Rival:** RED
 - **Options:** Text Speed FAST, Battle Animation OFF, Battle Style SHIFT (verified turn 16)
-- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), cleared Nugget Bridge + Team Rocket (**Nugget** turn 461, **TM45** turn 468), caught **Bellsprout (`PGHP`)** (turn 485), cleared Route 25 trainers, and rescued **Bill** for the **S.S. Ticket** (turn 533–534)! Returning to Cerulean Center to heal before challenging Gym Leader Misty.
+- **Progress:** Defeated Brock (turn 180, Boulder Badge + TM34), evolved **RIPTIDE into Wartortle** (turn 309) & **KAISER into Nidoking** (turn 347), cleared Mt. Moon B2F (**Helix Fossil** turn 390), arrived in **Cerulean City** (turn 399), defeated **Rival RED #2** (turn 422), cleared Nugget Bridge + Team Rocket (**Nugget** turn 461, **TM45** turn 468), caught **Bellsprout (`PGHP`)** (turn 485), cleared Route 25 trainers, rescued **Bill** for the **S.S. Ticket** (turn 533–534), healed at Cerulean Center (turn 535), and entered **Cerulean City Gym** (turn 537) to challenge Misty!
 
 ## Harness / Input Notes
 - Emulator runs continuously during thinking/fade transitions; transitions like stairs/fades complete quickly after landing on the warp tile (adding a trailing `sleep 500` after a warp lets the new map settle).
@@ -29,9 +29,9 @@
 - Wild battle RUN timing: after pressing `B` on `"Wild X appeared!"`, `"Go! <PKMN>!"` takes ~3.2s before the Battle Menu accepts inputs (`sleep 3500`, then `Down`, `sleep 200`, `Right`, `sleep 200`, `A`, `sleep 1000`, `B`, `sleep 1500`) (verified turn 139).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 22 (25/74 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns **Thrash** at Lv 23!) — evolved turn 347
-- **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (~9/52 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
-- **PGHP** (Bellsprout, Slot 3) - Lv 15 (23/40 HP; **Vine Whip**, Growth, Wrap, PoisonPowder; future HM01 Cut user & Misty backup) — caught turn 485
+- **PGHP** (Bellsprout, Lead/Slot 1) - Lv 15 (40/40 HP; **Vine Whip**, Growth, Wrap, PoisonPowder; future HM01 Cut user & Misty counter) — caught turn 485
+- **RIPTIDE** (Wartortle, Slot 2) - Lv 19 (52/52 HP; Tackle, Tail Whip, Bubble, **Water Gun**) — evolved turn 309
+- **KAISER** (Nidoking, Slot 3) - Lv 21 (71/71 HP; Leer, Tackle, **Horn Attack**, Poison Sting; learns **Thrash** at Lv 23!) — evolved turn 347
 - **Bag:** Poké Ball x4, TM34 (Bide), Antidote x3, Helix Fossil, Potion x2, **Nugget**, **TM45 (Thunder Wave)**, **S.S. Ticket** | **Cash:** ~¥3500+ | **Respawn:** Cerulean City Center `(19,17)`
 
 ## Badges
