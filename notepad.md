@@ -439,7 +439,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Banette Lv 49 (#5, Final): SAGE struck first with Overgrow Bullet Seed. Instant OHKO! DEFEATED!
   - ALL 5 DEFEATED! Prize: ¥5,100 (Total: ¥11,041). Door to Room 3 (Glacia) unlocked!
 - Room 3 Glacia: ALL 5 POKÉMON DEFEATED! SAGE Lv 85 swept Sealeo #1, Sealeo #2, and Ace Walrein with Bullet Seed, overcame Glalie #4 via Sacrificial Revive, and finished Glalie #5 with physical Facade! ELITE FOUR GLACIA DEFEATED (Attempt 13)! Prize: ¥5,300 (Total funds: ¥16,341). Door to Room 4 (Drake) unlocked!
-- Room 4 Drake: Shelgon, Flygon, and Altaria DEFEATED! Drake is sending in his Ace Salamence Lv 55 (#4). Declining switch prompt to face Salamence with SAGE Lv 85 (127/254 HP, 250 Speed). SAGE outspeeds Salamence cleanly to strike with physical Facade!
+- Room 4 Drake: Shelgon, Flygon, Altaria DEFEATED! Facing Drake's Ace Salamence Lv 55 (#4). Intimidate cut SAGE's Attack by 1 stage. SAGE (250 Speed) outspeeds Salamence (~135 Speed) by 115 points. Clamping to Slot 3 Facade (Down, Left) to strike Salamence!
 
 <hr>
 
@@ -5113,7 +5113,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 13 Active! Room 4 Drake: Shelgon, Flygon, Altaria down! SAGE Lv 85 (127/254 HP, 250 Spe) facing Ace Salamence Lv 55 (#4). Bag: 0 Revives, 1 Full Heal.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (9/20), Quick Attack (30/30). Status: OK (Revived via Sacrificial Revive).
+1. SAGE (Sceptile ♂, Level 85) - Lead! HP: 127/254. Max HP: 254. Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (8/20), Quick Attack (30/30). Status: OK (Active Battler).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
