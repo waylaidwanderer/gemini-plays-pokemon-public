@@ -5094,6 +5094,8 @@ A large meteorological research institute located in northern Route 119 beside t
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Shift Prompt Cursor Default: On the "Will [Player] change POKéMON?" prompt when an opponent's Pokémon faints, the cursor defaults to ▶Yes. Press Down to highlight No, then press A (or press B) to keep the active Pokémon in battle.
+- Speed Stage Drops vs Over-Leveled Ace: SAGE Lv 86 has 253 Speed. A -1 stage Speed drop (e.g. from Shelgon's Rock Tomb) reduces Speed to 168 (253 * 2/3), which still easily outspeeds Drake's Flygon Lv 53 (~125-144 Speed). Speed dominance is preserved despite stat debuffs.
 - In-Battle Party Targeting Shift Mechanic: On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box.
 - Overgrow Threshold & Multiplier: Sceptile's Overgrow activates when HP is <= 1/3 max HP (<= 82 HP for Sage's 246 max HP), providing an immediate 1.5x damage multiplier to all Grass-type attacks!
 - OHKO Move Level Mechanic in Gen 3: One-hit knockout moves like Sheer Cold automatically fail (0% accuracy) if the user's level is lower than the target's level (e.g. Walrein Lv 53 Sheer Cold has 0% accuracy against Sage Lv 81/82!).
