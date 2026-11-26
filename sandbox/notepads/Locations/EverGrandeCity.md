@@ -128,12 +128,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Next: Purchased 5 Revives at Mart counter (16, 4). Walking to gate at (9, 1) to launch Attempt 14 with 5 Revives, 1 Full Heal, and Lv 85 SAGE!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 1 Sidney: Mightyena & Absol DEFEATED! Turn 1 Aerial Ace dropped Shiftry to ~15% HP; Shiftry used Double Team (SAGE untouched at 127/254 HP). SAGE outspeeds and strikes with unmissable Aerial Ace (Slot 2) to finish Shiftry and face Cacturne Lv 46 (#4)!
-- Party: SAGE Lv 85 (Lead, 254/254 HP, all PP full), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors conscious!).
-- Bag: 5 Revives (verified), 1 Full Heal (verified), Master Ball x1, ¥670 cash.
-- Plan:
-  1. Room 1 Sidney: 4x Aerial Ace on Shiftry/Cacturne, 2x Bullet Seed on Crawdaunt, Facade on Mightyena/Absol.
-  2. Room 2 Phoebe: Bullet Seed, Grudge absorption on Aerial Ace.
-  3. Room 3 Glacia: Overgrow Bullet Seed on Sealeos/Walrein, physical Facade on Glalies.
-  4. Room 4 Drake: Facade sweep, Sacrificial Revive if needed.
-  5. Champion Wallace: Overgrow Bullet Seed & Facade sweep to victory!
+- Status: Room 1 Sidney DEFEATED (5-0 clean sweep)! Prize: ¥4,900 (Total cash: ¥5,570). Door to Room 2 (Phoebe) unlocked!
+- Party: SAGE Lv 86 (Lead, 130/257 HP, Spe 253), Lilz Lv 30, Cipher Lv 17, Cobalu Lv 18, Mochi Lv 11, Guava Lv 30 (All 5 anchors fully conscious!).
+- Bag: 5 Revives (verified, 100% intact!), 1 Full Heal (verified), Master Ball x1, ¥5,570 cash.
+- Next: Advance through doorway at (6, 0), ascend Grand Staircase, and challenge Phoebe in Room 2!
