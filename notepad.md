@@ -66,6 +66,21 @@
 
 <hr>
 
+<h1><code>Locations/PewterCity</code></h1>
+
+# Pewter City — Verified Coordinates & Landmarks
+
+## Map Connections
+- **South Entrance (from Route 2 North)**: Enters at `(18, 35)`.
+- **East Exit (to Route 3)**: East road out of Pewter City (locked by guide NPC until Boulder Badge is earned).
+
+## Key Buildings
+- **Pokémon Center**: Door at `(13, 25)` (approached via `(18, 35) -> (18, 26) -> (13, 26)`).
+- **Pewter City Gym**: Northwest of Pokémon Center (door around `(16, 17)` — verify exact grid coordinate on approach).
+
+
+<hr>
+
 <h1><code>Locations/Route1</code></h1>
 
 # Route 1 — Verified Coordinates & Navigation
@@ -109,8 +124,16 @@
 
 ## Viridian Forest (`34x48`)
 - **South Entrance**: Arrives at `(17, 47)`.
-- **East Corridor**: `(17, 47) -> (17, 43) -> (27, 43) -> (27, 41) -> (26, 41)` (NPC at `(27, 40)`).
-  - Grass-free walkway up `x = 26`: Bug Catcher #1 triggers at `(26, 33)` (`Weedle Lv 6`, `Caterpie Lv 6`).
+- **Verified Low-Grass S-Curve Route**:
+  1. `(17, 47) -> (17, 43) -> (27, 43) -> (27, 41) -> (26, 41) -> (26, 33)` (Bug Catcher #1 at `(27, 33)`).
+  2. `(26, 33) -> (26, 32) -> (31, 32) -> (31, 8)` (100% grass-free east lane!).
+  3. `(31, 8) -> (16, 8) -> (16, 19) -> (12, 19) -> (12, 4) -> (11, 4) -> (11, 2) -> (6, 2) -> (6, 25) -> (1, 25)`.
+  4. `(1, 25) -> (1, 18)` (Bug Catcher Sammy: `Weedle Lv 9`) -> `(1, 0)` (North Gate warp).
+- **Viridian Forest North Gate (`10x8`)**:
+  - South entrance arrives at `(4, 7)`; North exit door at `(5, 0)` -> Route 2 North `(3, 11)`.
+- **Route 2 (North Exit to Pewter City)**:
+  - `(3, 11) -> (8, 2) -> (8, 0) -> Up` warps to Pewter City `(18, 35)`.
+
 
 
 <hr>
