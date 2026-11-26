@@ -6,7 +6,7 @@
 - Status: Attempt 14 Active! Room 2 Phoebe: Lead Dusclops down! SAGE Lv 86 (109/257 HP, 253 Spe) striking Dusclops Lv 51 (#2) with STAB Bullet Seed (Slot 1). Bag: 5 Revives, 1 Full Heal, ¥5,570 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 46/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (14/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 86) - Lead! HP: 46/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (13/20), Quick Attack (26/30). Status: OK (Overgrow Active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -22,7 +22,7 @@
 - Revive x5 (purchased at Mart for ¥7,500 for Attempt 14)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥5,570 (earned ¥4,900 from Sidney; 5 Revives intact!)
+- Money: ¥10,670 (earned ¥5,100 from Phoebe; 5 Revives intact!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -31,7 +31,7 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 14, Turn 26811)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 13, Turn 26712)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 13, Turn 26752)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
