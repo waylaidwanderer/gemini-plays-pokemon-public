@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Room 1 Sidney active! Mightyena & Absol DEFEATED. SAGE Lv 87 (180/260 HP, 256 Spe) executing Aerial Ace to OHKO Shiftry Lv 48.
+- Status: Room 1 Sidney active! Mightyena, Absol, Shiftry ALL DEFEATED. Facing Cacturne Lv 46. SAGE Lv 87 (180/260 HP, 256 Spe).
 - Immediate Plan:
   1. Finish Absol Lv 49 with Facade / Quick Attack.
   2. OHKO Shiftry Lv 48 with Aerial Ace (2x super effective).
