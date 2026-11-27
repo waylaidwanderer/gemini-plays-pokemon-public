@@ -41,8 +41,8 @@
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, **Growth**, **HM01 Cut**, **Sleep Powder**)
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, **Leer**, **Fury Attack**, **Mirror Move**)
 - **DOZER** (Snorlax, Slot 5) - Lv 33 (151 HP; **Headbutt**, **Amnesia**, **Rest**, **HM04 Strength**)
-- **TEMPEST** (Zapdos, Slot 6) - Lv 55 (184 HP; 112 Atk / 115 Def / 137 Spd [Carbos x1] / 155 Spc; **Thundershock**, **Drill Peck**, **Thunder**, **Agility**)
-- **Final Cash:** ¥30,036 | **Bag Supplies Unused:** `Full Restore x11`, `Max Potion x4`, `Revive x8`, `Full Heal x3`!
+- **TEMPEST** (Zapdos, Slot 6 -> Lead for Mewtwo!) - Lv 55 (184 HP; 112 Atk / 115 Def / 137 Spd [Carbos x1] / 155 Spc; **Thundershock**, **Drill Peck**, **Thunder**, **Thunder Wave** [TM45 over Agility, turn 2039])
+- **Post-Game Bag (7/20 slots):** **Bicycle**, **Revive x8**, **Max Potion x4**, **Full Restore x11**, **Full Heal x3**, **Ultra Ball x27**, **Max Repel x5** | **Cash:** ¥636 | **Post-Game Goal:** Cerulean Cave -> Catch **Mewtwo :L70**!
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
