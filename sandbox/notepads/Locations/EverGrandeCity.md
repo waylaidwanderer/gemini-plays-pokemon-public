@@ -53,6 +53,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Immediate Plan:
   1. Step North into lobby at (9, 11).
   2. Walk to Mart counter at (16, 4).
-  3. Purchase 5 Revives for ¥7,500 (giving 6 Revives in Bag!).
+  3. Purchase 5 Revives for ¥7,500 (DONE, 6 Revives in Bag!).
   4. Advance through gate at (9, 1) into Room 1 Sidney to launch Attempt 15!
   5. Sweep Sidney, Phoebe, Glacia, Drake, and defeat Champion Wallace to enter the Hall of Fame!
