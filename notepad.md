@@ -348,13 +348,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Champion Wallace (Water): Lead Wailord Lv 57 (Bullet Seed OHKO), Whiscash Lv 56 (Bullet Seed 4x OHKO), Ludicolo Lv 56 (Aerial Ace 2x OHKO), Tentacruel Lv 55 & Gyarados Lv 56 (Facade/Bullet Seed), Milotic Lv 58 Ace (Overgrow Bullet Seed 2x KO). Preserve 3+ Bullet Seed PP for Wallace!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (130/260 HP, 256 Spe, unmitigated 194 Atk) active vs Ace Salamence Lv 55 (~60% HP).
+- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (18/260 HP, Overgrow ACTIVE, 256 Spe) active vs Ace Salamence Lv 55 (~60% HP).
 - Milestone Progress:
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
   - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Salamence ~15% HP.
-- Party: SAGE Lv 87 (130/260 HP, Lead), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (101/101 HP, Conscious).
+- Party: SAGE Lv 87 (18/260 HP, Lead, Overgrow Active), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (101/101 HP, Conscious).
 - Bag: 2 Revives (intact for Wallace), 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: KO Salamence with Facade -> sweep Kingdra Lv 53 -> unlock Champion Wallace!
 
@@ -5028,10 +5028,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Facade dropped Salamence to ~15% HP! Resolving Salamence attack. SAGE Lv 87 (130/260 HP, 256 Spe). Bag: 2 Revives, 1 Full Heal, 1 conscious anchor (Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 87 (18/260 HP, Overgrow ACTIVE, 256 Spe) executing Quick Attack to KO Salamence (~15% HP)! Bag: 2 Revives, 1 Full Heal, 1 conscious anchor (Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (25/30). Status: OK (Revived).
+1. SAGE (Sceptile ♂, Level 87) - HP: 18/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (24/30). Status: OK (Overgrow Active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
