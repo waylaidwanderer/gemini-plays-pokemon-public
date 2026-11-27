@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE successfully revived to 128/257 HP! Flygon (~8% HP) resolving attack vs Lilz. Bag: 3 Revives, 1 Full Heal, 3 conscious anchors (Sage 128 HP, Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Lilz absorbed Earthquake and fainted. Sending in revived SAGE (128/257 HP, 253 Spe, all stat drops reset)! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - HP: 128/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (7/20), Quick Attack (25/30). Status: OK (Revived).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FAINTED.
