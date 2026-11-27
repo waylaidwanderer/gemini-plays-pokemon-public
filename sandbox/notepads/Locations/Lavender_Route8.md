@@ -41,7 +41,8 @@
 - South of `(10, 62)`: `Surf` from `(11, 61)` east to `x = 16` (`note Rocker Luca on the pier spots (14, 72)`), continue south to `y = 78`, and enter the **Fishing Guru's House at `(11, 77)`** (from `(11, 78)` -> `Up`; Guru at `(2, 4)` gives **`SUPER ROD`** upon answering `YES`).
 - **Route 12 Water Encounter Quirk (`Verified Turns 1759–1760`)**: Route 12 has `wWaterRate = 0` (zero wild encounters while Surfing), whereas casting **`Super Rod`** from pier `(11, 61)` facing `Right` at `(12, 61)` hooks wild fish (`e.g. Tentacool Lv. 5`).
 
-## Vermilion City -> Diglett's Cave -> Route 11 East Gatehouse (`Verified Turns 1733–1763`)
+## Vermilion City -> Diglett's Cave -> Route 11 East Gatehouse (`Verified Turns 1733–1763, 1823–1826`)
+- **`Farfetch'd` Trade House (`Vermilion City (15, 13)`)**: Route from `Vermilion Center (11, 4)` around the east side of the `(14..17, 10..13)` house via **`(11, 6) -> (18, 6) -> (18, 14) -> (15, 14) -> Up`** (`spawns at (2, 7)`; little girl at **`(3, 5)`** trades **`Farfetch'd` `"DUX"` `#083`** for `Spearow`).
 - **Vermilion East Exit**: From `Vermilion Center (11, 4)`, walk `Right * 8 -> (19, 4) -> Down * 10 -> (19, 14) -> Right` onto **`Route 11 (0, 6)`**.
 - **Diglett's Cave (East Entrance)**: Cave mouth at **`Route 11 (4, 5)`** -> lobby `(2, 7)` -> ladder at **`(4, 4)`** -> tunnel **`(37, 31)`** (`95% Diglett / 5% Dugtrio`, Ground-type immune to `Thunder Wave`; pace `(35, 30) <-> (33, 30)` clear of ladder).
 - **Route 11 Fence Bypass & Landmarks**:

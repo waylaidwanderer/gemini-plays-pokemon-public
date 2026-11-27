@@ -13,4 +13,4 @@
   - Interior: Spawn at `(4, 13)`, Jr. Trainer♂ triggers at `(4, 6)`, Brock stands at `(4, 1)` (talk from `(4, 2)`).
 - **Route 2 East Corridor (`Mr. Mime` House & `HM05 Flash`, Verified Turns 1660–1666)**:
   - Exit Pewter south via `(13, 26) -> (18, 26) -> (18, 35) -> Down` onto `Route 2 (8, 2)`.
-  - Chop **`Cut` bush #1 at `(5, 10)`**, pass Diglett's Cave `(12, 9)` and **`Mr. Mime` Trade House `(15, 19)`** via `x = 18..19`, chop **`Cut` bush #2 at `(15, 22)`**, and walk straight south into **Route 2 East Gatehouse** (`spawns at (5, 1)`; **Prof. Oak's Aide** wanders around `(1, 4)` and awards **`HM05 (Flash)`** for `>= 10` Owned species).
+  - Chop **`Cut` bush #1 at `(5, 10)`**, pass Diglett's Cave `(12, 9)` and **`Mr. Mime` Trade House `(15, 19)`** via `x = 18..19` (`spawns at (2, 7)`; trader boy at **`(4, 1)`** trades **`Mr. Mime` `"MARCEL"` `#122`** for `Abra`, verified Turns 1818–1821), chop **`Cut` bush #2 at `(15, 22)`**, and walk straight south into **Route 2 East Gatehouse** (`spawns at (5, 1)`; **Prof. Oak's Aide** wanders around `(1, 4)` and awards **`HM05 (Flash)`** for `>= 10` Owned species).

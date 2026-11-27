@@ -326,7 +326,8 @@
 - South of `(10, 62)`: `Surf` from `(11, 61)` east to `x = 16` (`note Rocker Luca on the pier spots (14, 72)`), continue south to `y = 78`, and enter the **Fishing Guru's House at `(11, 77)`** (from `(11, 78)` -> `Up`; Guru at `(2, 4)` gives **`SUPER ROD`** upon answering `YES`).
 - **Route 12 Water Encounter Quirk (`Verified Turns 1759–1760`)**: Route 12 has `wWaterRate = 0` (zero wild encounters while Surfing), whereas casting **`Super Rod`** from pier `(11, 61)` facing `Right` at `(12, 61)` hooks wild fish (`e.g. Tentacool Lv. 5`).
 
-## Vermilion City -> Diglett's Cave -> Route 11 East Gatehouse (`Verified Turns 1733–1763`)
+## Vermilion City -> Diglett's Cave -> Route 11 East Gatehouse (`Verified Turns 1733–1763, 1823–1826`)
+- **`Farfetch'd` Trade House (`Vermilion City (15, 13)`)**: Route from `Vermilion Center (11, 4)` around the east side of the `(14..17, 10..13)` house via **`(11, 6) -> (18, 6) -> (18, 14) -> (15, 14) -> Up`** (`spawns at (2, 7)`; little girl at **`(3, 5)`** trades **`Farfetch'd` `"DUX"` `#083`** for `Spearow`).
 - **Vermilion East Exit**: From `Vermilion Center (11, 4)`, walk `Right * 8 -> (19, 4) -> Down * 10 -> (19, 14) -> Right` onto **`Route 11 (0, 6)`**.
 - **Diglett's Cave (East Entrance)**: Cave mouth at **`Route 11 (4, 5)`** -> lobby `(2, 7)` -> ladder at **`(4, 4)`** -> tunnel **`(37, 31)`** (`95% Diglett / 5% Dugtrio`, Ground-type immune to `Thunder Wave`; pace `(35, 30) <-> (33, 30)` clear of ladder).
 - **Route 11 Fence Bypass & Landmarks**:
@@ -383,7 +384,7 @@
   - Interior: Spawn at `(4, 13)`, Jr. Trainer♂ triggers at `(4, 6)`, Brock stands at `(4, 1)` (talk from `(4, 2)`).
 - **Route 2 East Corridor (`Mr. Mime` House & `HM05 Flash`, Verified Turns 1660–1666)**:
   - Exit Pewter south via `(13, 26) -> (18, 26) -> (18, 35) -> Down` onto `Route 2 (8, 2)`.
-  - Chop **`Cut` bush #1 at `(5, 10)`**, pass Diglett's Cave `(12, 9)` and **`Mr. Mime` Trade House `(15, 19)`** via `x = 18..19`, chop **`Cut` bush #2 at `(15, 22)`**, and walk straight south into **Route 2 East Gatehouse** (`spawns at (5, 1)`; **Prof. Oak's Aide** wanders around `(1, 4)` and awards **`HM05 (Flash)`** for `>= 10` Owned species).
+  - Chop **`Cut` bush #1 at `(5, 10)`**, pass Diglett's Cave `(12, 9)` and **`Mr. Mime` Trade House `(15, 19)`** via `x = 18..19` (`spawns at (2, 7)`; trader boy at **`(4, 1)`** trades **`Mr. Mime` `"MARCEL"` `#122`** for `Abra`, verified Turns 1818–1821), chop **`Cut` bush #2 at `(15, 22)`**, and walk straight south into **Route 2 East Gatehouse** (`spawns at (5, 1)`; **Prof. Oak's Aide** wanders around `(1, 4)` and awards **`HM05 (Flash)`** for `>= 10` Owned species).
 
 
 <hr>
@@ -1043,6 +1044,9 @@ def name_buttons(word):
   - Entering any battle (even if immediately fled via `RUN` without opening `ITEM`) resets the overworld `ITEM` Bag cursor (`wBagSavedMenuItem`) back to `Slot 0` (`alongside Start -> ►POKéDEX and wPartyMenuCursor -> Slot 0`).
   - A brief tap into an impassable water or `Cut` bush tile can fail to hold `4+` frames to update facing direction; either step onto the shore tile (`Down, Up`) or use `"hold Up 250"` before invoking `Super Rod`, `Surf`, or `Cut`.
   - Throwing a Poké Ball with `"sleep 10000"` completes all 3 shakes + the catch fanfare cleanly onto `"All right! <PKMN> was ▼"`.
+- **Exact Unowned vs. Already-Owned Wild Catch Prompts & 1-Turn NPC Trade Recipe (`Turns 1805–1826`)**:
+  - From `"All right! <PKMN> was ▼"`, **unowned** species require **9 `A`s** to open the Naming Screen (`4th A` triggers the ~3.5–4.0s Pokédex cry — use `"sleep 4500"` after `4th A`), whereas **already-owned** species skip the Pokédex screen and require **3 `A`s** (`1st A`: `"caught! ▼"`, `2nd A`: `"give a nickname to <PKMN>? [►YES/NO]"`, `3rd A`: Naming Screen).
+  - Talking to an in-game NPC trader takes **3 `A`s** to open `Choose a POKéMON.` (`preserving wPartyMenuCursor`). Selecting the trade Pokémon (`A`) plays a ~51s link-cable cutscene (`"Okay, connect..."` ~20s -> `"<PKMN> went to TRAINER."` ~27s -> `"COBALT traded <A> for <B>!"` + 4.5s fanfare -> `"Trade completed!"`); use `["A", "sleep 2000", "B", "sleep 10000", "B", "sleep 10000", "B", "sleep 2500", "B", "sleep 10000", "B", "sleep 10000", "B", "sleep 10000", "B", "sleep 5500", "B", "sleep 1500", "B", "sleep 1200", "B", "sleep 800"]`. `InGameTrade` sets `wPartyMenuCursor` to the traded party slot.
 
 
 <hr>
