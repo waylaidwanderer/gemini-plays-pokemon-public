@@ -94,16 +94,3 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
   9. Enter the Hall of Fame!
-- Status: Attempt 17 Active! Glacia DEFEATED (Turn 27289)! Advancing to Room 4 Drake. SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
-- Immediate Plan:
-  1. [x] Enter Pokémon League Lobby.
-  2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
-  3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
-  4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
-  5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
-  6. [x] Enter Room 3 and challenge Elite Four Glacia.
-  7. [x] Glacia DEFEATED (Turn 27289)! Earned +¥5,300.
-  8. [x] Enter Room 4 and challenge Elite Four Drake.
-  9. Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (DEFEATED Turn 27302!), Altaria Lv 54 (DEFEATED Turn 27310!), Salamence Ace Lv 55 (Active, ~25% HP), Kingdra.
-  10. Defeat Champion Wallace.
-  11. Enter the Hall of Fame!
