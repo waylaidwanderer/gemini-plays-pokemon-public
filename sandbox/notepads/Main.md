@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 3 Glacia: Lead Sealeo Lv 50 dropped to ~30% HP by Bullet Seed. SAGE Lv 87 (130 HP) resolving turn. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: Lead Sealeo Lv 50 at ~30% HP (#1). SAGE Lv 87 (114/260 HP, 256 Spe) executing Bullet Seed for KO! Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 114/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
