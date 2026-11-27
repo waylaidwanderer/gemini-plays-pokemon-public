@@ -359,13 +359,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Resolving Overgrow Bullet Seed on Banette Lv 49 (#2). SAGE Lv 87 (61 HP, Overgrow active!). Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 DEFEATED (#1). Banette Lv 49 at ~15% HP (#2). SAGE Lv 87 (61 HP) executing Aerial Ace to KO and protect Bullet Seed PP! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
-  1. 2HKO Dusclops Lv 51 with Bullet Seed (STAB).
-  2. OHKO Banette Lv 49 with Bullet Seed.
-  3. OHKO Sableye Lv 50 with Aerial Ace / Bullet Seed.
-  4. OHKO Banette Lv 49 with Aerial Ace (safely absorbs Grudge).
-  5. 2HKO Dusclops Lv 48 with Bullet Seed. Phoebe DEFEATED (5-0 clean sweep)!
+  1. [x] Dusclops Lv 51 DEFEATED (#1)!
+  2. KO Banette Lv 49 with Aerial Ace (safely absorbs Grudge, protecting Bullet Seed PP!).
+  3. OHKO Sableye Lv 50 with Aerial Ace (ignores Double Team).
+  4. OHKO Banette Lv 49 with Aerial Ace.
+  5. 2HKO Dusclops Lv 48 with Bullet Seed. Phoebe DEFEATED!
   6. Advance to Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
 
 <hr>
@@ -5037,10 +5037,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Resolving Overgrow Bullet Seed on Banette Lv 49 (#2). SAGE Lv 87 (61 HP, Overgrow active!). Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 DEFEATED (#1). Banette Lv 49 at ~15% HP (#2). SAGE Lv 87 (61 HP) executing Aerial Ace to KO and protect Bullet Seed PP! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 102/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (17/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 61/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (13/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5108,7 +5108,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - Overgrow Activation Proof: SAGE at 26/251 HP successfully has Overgrow active (<= 83 HP threshold), boosting Grass moves by 1.5x. Dusclops Lv 51 Ice Beam only dealt 31 dmg to Lv 84 SAGE.
 - Party Replacement Screen Navigation: From Left Box, press Right to enter Right Column (Row 1). Press Down x4 to reach Row 5 (bottom party slot, Guava).
 - Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
-- Level 85 SAGE Benchmark: Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Overgrow activates at <= 84 HP (254 / 3 = 84).
 - B Button Shift Prompt Dismissal Proof (Turn 27017-27019 Visual Proof): Pressing B on the 'Will [Player] change POKéMON?' prompt reliably selects NO, declining the switch and immediately triggering the opponent's send-out animation without opening the party menu.
 - Grand Staircase Navigation Mechanics: The staircase between Room 1 and Room 2 is centered at x=5, running vertically from y=10 down to y=3. Stepping Up x8 steps from (5, 10) reaches y=3 and triggers the warp into Room 2 at (6, 7). Phoebe is at (6, 5), approached by stepping Up to (6, 6) and pressing A.
 - Full Heal Freeze Cure Verification (Turn 27034 Visual Proof): In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Selecting Full Heal -> USE -> SAGE cures Freeze immediately and removes the FRZ badge.
