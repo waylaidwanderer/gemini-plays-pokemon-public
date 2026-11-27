@@ -77,15 +77,15 @@
 - [x] **Pewter City:** Cut bush `(26,4)` behind Pewter Museum of Science -> claimed `OLD AMBER`!
 - [x] **Cinnabar Island Lab:** Revived `HELIX FOSSIL` -> **`NAUTILUS` (Omanyte :L30)** & `OLD AMBER` -> **`WYVERN` (Aerodactyl :L30)**! (Pokédex Owned: 13)
 - [x] **Celadon City:** Climbed Celadon Condominiums back stairs -> claimed **`VOLTAIRE` (Eevee :L25)** -> bought **Thunderstone** on Dept Store 4F & evolved **`VOLTAIRE` -> `JOLTEON`**! (Pokédex Owned: 15) + bought **`TM09 Take Down`** for `SOLARIS`!
-- [ ] **Saffron City:** Conquer **Saffron Fighting Dojo** (switch-train `RIPTIDE`!) -> claim **Hitmonlee / Hitmonchan (`:L30`)** (nickname!)
+- [x] **Saffron City:** Conquered **Saffron Fighting Dojo** & defeated Karate Master Koichi -> claimed **`RONIN` (Hitmonlee :L30)**! (Pokédex Owned: 17)
 - [x] **Silph Co. 7F:** Claimed gift **`AURORA` (Lapras :L15)** via 3F Teleporter `(11,11)`! (Pokédex Owned: 16)
-- [ ] **Starter Evolution:** Train starter **`RIPTIDE`** (`Wartortle :L22` -> **`Blastoise :L36`**!)
-- [ ] **Grand Finale (4th Hall of Fame):** Induct evolved **`RIPTIDE` (Blastoise)** + **Legendary Trio (`GENESIS`, `TEMPEST`, `SOLARIS`)** + **`KAISER`** + 6th all-star (`AERODACTYL` / `HITMONLEE` / `LAPRAS`) into the Hall of Fame!
+- [ ] **Starter Evolution:** Train starter **`RIPTIDE`** (`Wartortle :L22` -> **`Blastoise :L36`**!) at Indigo Plateau Elite Four!
+- [ ] **Grand Finale (4th Hall of Fame):** Induct evolved **`RIPTIDE` (Blastoise :L36+)** + **Legendary Trio (`GENESIS`, `TEMPEST`, `SOLARIS`)** + **`KAISER`** + **`RONIN` (Hitmonlee)** into the Hall of Fame!
 
-## Current Party & PC (Turn 2559)
-- Party: `KAISER :L58`, `RIPTIDE :L22`, `DOZER :L33`, `GENESIS :L73`, `TEMPEST :L57`, `SOLARIS :L50`
-- Bill's PC Box 1: `BRIAR :L18` (Cut/Sleep Powder), `ZEPHYR :L22` (Fly)
-- Cash: `¥29,843` | Pokédex: `107 Seen / 11 Owned`
+## Current Party & PC (Turn 2659)
+- Party: `GENESIS :L73`, `KAISER :L58`, `RIPTIDE :L22`, `SOLARIS :L50`, `AURORA :L15`, `RONIN :L30`
+- Bill's PC Box 1 (7 mons): `0: ZEPHYR :L22`, `1: DOZER :L33`, `2: TEMPEST :L57`, `3: BRIAR :L18`, `4: NAUTILUS :L30`, `5: WYVERN :L30`, `6: VOLTAIRE :L25`
+- Pokédex: `17 Owned` (next: `BLASTOISE` = `18 Owned`!)
 
 
 <hr>
