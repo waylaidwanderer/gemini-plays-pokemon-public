@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 3 Glacia: COBALU on field (49 HP). Party targeting screen loading. Stepping Right to visually verify SAGE's row before confirming final Revive! Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: Confirming final Revive on SAGE (Row 3, +6 priority)! SAGE revitalizing to 130 HP as COBALU absorbs Walrein attack. Bag: 0 Revives, 0 Full Heal, ¥11,985 cash.
 - Immediate Plan:
   1. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27022)!
   2. [x] Phoebe DEFEATED (Turn 27084)!
