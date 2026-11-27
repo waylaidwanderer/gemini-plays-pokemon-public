@@ -386,7 +386,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   1. Enter Pokémon League Lobby.
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
   3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
-  4. Sidney: Mightyena Lv 46 (DEFEATED Turn 27225!), Absol Lv 49 (DEFEATED Turn 27231!), Shiftry Lv 48 (Active), Cacturne, Crawdaunt.
+  4. Sidney: Mightyena Lv 46 (DEFEATED Turn 27225!), Absol Lv 49 (DEFEATED Turn 27231!), Shiftry Lv 48 (DEFEATED Turn 27233!), Cacturne Lv 46 (Active), Crawdaunt.
   3. Enter Gate (9, 1) to challenge Room 1 Sidney.
   4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
   5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
@@ -5068,7 +5068,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 17 Active! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Bag: 3 Revives, ¥1,996 cash. In Room 1 challenging Sidney.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 94/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (30/30), Aerial Ace (19/20), Facade (14/20), Quick Attack (26/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 94/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (26/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
