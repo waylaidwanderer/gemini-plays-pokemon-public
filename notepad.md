@@ -391,7 +391,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
   7. [x] Glacia DEFEATED (Turn 27289)! Earned +¥5,300.
   8. [x] Enter Room 4 and challenge Elite Four Drake.
-  9. Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (Active), Altaria, Salamence Ace, Kingdra.
+  9. Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (DEFEATED Turn 27298!), Altaria Lv 54 (Active), Salamence Ace, Kingdra.
   10. Defeat Champion Wallace.
   11. Enter the Hall of Fame!
 
@@ -5068,7 +5068,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 17 Active! Room 4 Drake BATTLE INITIATED! SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 102/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (8/20), Quick Attack (24/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 58/266 (Overgrow ACTIVE!). Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (8/20), Quick Attack (23/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
