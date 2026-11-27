@@ -49,11 +49,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: SAGE Lv 87 (130/260 HP, 256 Spe, healthy!) executing Bullet Seed to KO Banette Lv 49 (#4)! Bag: 1 Revive, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Banette Lv 49 DEFEATED (#4)! Phoebe sending in final Pokémon, Dusclops Lv 48 (#5). SAGE Lv 87 (130/260 HP, 256 Spe, healthy!). Bag: 1 Revive, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. [x] Dusclops Lv 51 DEFEATED (#1)!
   2. [x] Banette Lv 49 DEFEATED (#2) - Grudge absorbed by Aerial Ace!
-  3. OHKO Sableye Lv 50 with Overgrow Bullet Seed (#3).
-  4. OHKO Banette Lv 49 with Overgrow Bullet Seed (#4).
-  5. 2HKO Dusclops Lv 48 with Overgrow Bullet Seed (#5). Phoebe DEFEATED!
+  3. [x] Sableye Lv 50 DEFEATED (#3)!
+  4. [x] Banette Lv 49 DEFEATED (#4)!
+  5. 2HKO Dusclops Lv 48 with Bullet Seed (#5). Phoebe DEFEATED!
   6. Advance to Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
