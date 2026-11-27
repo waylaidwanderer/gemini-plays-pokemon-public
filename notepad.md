@@ -389,7 +389,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
   5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
-  7. Defeat Glacia: Sealeo #1 Lv 50 (DEFEATED Turn 27274!), Glalie #1, Sealeo #2, Glalie #2, Walrein Ace. Earn +¥5,300.
+  7. Defeat Glacia: Sealeo #1 Lv 50 (DEFEATED!), Sealeo #2 Lv 52 (DEFEATED Turn 27275!), Glalie #1, Glalie #2, Walrein Ace. Earn +¥5,300.
   8. Defeat Drake (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   9. Defeat Champion Wallace (STAB Overgrow Bullet Seed sweep)!
   10. Enter the Hall of Fame!
@@ -5067,7 +5067,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 17 Active! Room 3 Glacia BATTLE INITIATED! SAGE Lv 89 (66/266 HP, 262 Spe). Bag: 2 Revives, ¥11,996 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 66/266 (Overgrow ACTIVE!). Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (15/30), Aerial Ace (13/20), Facade (14/20), Quick Attack (26/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 66/266 (Overgrow ACTIVE!). Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (14/30), Aerial Ace (13/20), Facade (14/20), Quick Attack (26/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
