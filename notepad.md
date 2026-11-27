@@ -5028,7 +5028,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE reached Lv 87 (42/260 HP, Overgrow ACTIVE, ~256 Spe)! Advancing to face Salamence Lv 55. Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 87 (42/260 HP) executing Facade vs Ace Salamence Lv 55 (100% HP). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - HP: 42/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (5/20), Quick Attack (25/30). Status: OK (Overgrow Active).
