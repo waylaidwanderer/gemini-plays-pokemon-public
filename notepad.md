@@ -5109,5 +5109,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - Party Replacement Screen Navigation: From Left Box, press Right to enter Right Column (Row 1). Press Down x4 to reach Row 5 (bottom party slot, Guava).
 - Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
 - Level 85 SAGE Benchmark: Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Overgrow activates at <= 84 HP (254 / 3 = 84).
+- B Button Shift Prompt Dismissal Proof (Turn 27017-27019 Visual Proof): Pressing B on the 'Will [Player] change POKéMON?' prompt reliably selects NO, declining the switch and immediately triggering the opponent's send-out animation without opening the party menu.
 
 <hr>
