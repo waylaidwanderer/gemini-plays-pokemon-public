@@ -712,7 +712,8 @@
   - Shove `(22, 15)` `Right` into `(23, 15)` hole and step into `(23, 15)` behind it -> lands on **2F `(22, 16)`** next to the dropped boulder `(23, 16)`.
   - Re-activate `Strength` on 2F, push `(23, 16)` straight `Left * 14` onto **`(9, 16)` Switch #2B**, climb `(15, 15)` stairs to `(15, 14)`, walk `Right * 10` onto **`(25, 14)` ladder** -> **`3F (27, 15)`** -> `Up * 7, Left` onto **`(26, 8)` ladder** -> **`2F (27, 7)`** -> `Right * 2` onto **`(29, 7)` exit mat**!
 
-## Route 23 North & Indigo Plateau (`Verified Turns 1225–1238`)
+## Route 23 North & Indigo Plateau (`Verified Turns 1225–1238, 1428–1430`)
+- **Southbound Return (`Indigo Plateau (9, 6) -> Route 23 (14, 31)`)**: Note `x = 16` is an impassable parapet wall next to `(15, 9)`. From `(9, 6)`, walk `(10, 6) -> Down` to `Route 23 (10, 7) -> (13, 7) -> (13, 11) -> (14, 11) -> (14, 22) -> (18, 22) -> (18, 33) -> (14, 33) -> Up * 2` into `(14, 31)`.
 - **Victory Road Exit Door Trap**: Stepping onto `2F (29, 7)` spawns outside at `Route 23 (14, 32)` directly below the cave mouth `(14, 31)` (`pressing Up at (14, 32) re-enters Victory Road!`). Step `Down` to `(14, 33)`, walk `Right * 4` to `(18, 33)` east of the `(17, 29..31)` statue wall, climb north to `(19, 18)`, bypass the `(15, 18..19)` statue via `(19, 20) -> (10, 20)`, and walk straight north up **`x = 10`** onto `Indigo Plateau (10, 17) -> (10, 6)` into **Indigo Plateau Lobby (`(7, 11)`)**.
 - **Indigo Plateau Lobby Landmarks**:
   - **Nurse Joy**: `(7, 5)` (`stand at (7, 7)` facing `Up`).
@@ -896,6 +897,8 @@ def name_buttons(word):
   - In Gen 1, Electric-types (`Zapdos`) are **not** immune to `Thunder Wave` (`PAR` immunity began in Gen 6). `Mewtwo Lv. 70` `Thunder Wave` + **1 `Swift`** (`~60` damage, max crit `~120` < `157` HP) reaches `94%` of max `PAR` Ultra Ball catch rate (`9.3%` vs `9.9%`) with **0% KO risk**.
   - **2-Ball `A`-Only Batch**: Because `"All right! <PKMN> was ▼"` takes **8 `A` presses** to reach `"give a nickname?"` `►YES`, throwing Ball #1 (`["A", "sleep 8500"]`) followed by `["A", "sleep 3500", "A", "sleep 800", "A", "sleep 800", "A", "sleep 8500"]` safely throws **2 Balls per turn** (`cursor stays on ►ITEM -> ►ULTRA BALL`) without ever pressing `B` or overshooting `►YES` if Ball #1 catches (`verified Turn 1421`).
   - Use `"sleep 600"` (not `"sleep 400"`) between selecting an overworld Bag item (`A`) and confirming `►USE` (`A`) so `USE` is not dropped (`Turn 1414 vs 1427`).
+- **PC Logoff `Start` Reset (`Turns 1444–1446`)**:
+  - Logging off a Pokémon Center PC terminal resets the `Start` menu cursor back to `Slot 0` (`►POKéDEX`), whereas `BILL's PC -> DEPOSIT PKMN` leaves overworld `wPartyMenuCursor` at its prior numerical slot (`clamped to the new party size`).
 
 
 <hr>

@@ -41,7 +41,8 @@
   - Shove `(22, 15)` `Right` into `(23, 15)` hole and step into `(23, 15)` behind it -> lands on **2F `(22, 16)`** next to the dropped boulder `(23, 16)`.
   - Re-activate `Strength` on 2F, push `(23, 16)` straight `Left * 14` onto **`(9, 16)` Switch #2B**, climb `(15, 15)` stairs to `(15, 14)`, walk `Right * 10` onto **`(25, 14)` ladder** -> **`3F (27, 15)`** -> `Up * 7, Left` onto **`(26, 8)` ladder** -> **`2F (27, 7)`** -> `Right * 2` onto **`(29, 7)` exit mat**!
 
-## Route 23 North & Indigo Plateau (`Verified Turns 1225–1238`)
+## Route 23 North & Indigo Plateau (`Verified Turns 1225–1238, 1428–1430`)
+- **Southbound Return (`Indigo Plateau (9, 6) -> Route 23 (14, 31)`)**: Note `x = 16` is an impassable parapet wall next to `(15, 9)`. From `(9, 6)`, walk `(10, 6) -> Down` to `Route 23 (10, 7) -> (13, 7) -> (13, 11) -> (14, 11) -> (14, 22) -> (18, 22) -> (18, 33) -> (14, 33) -> Up * 2` into `(14, 31)`.
 - **Victory Road Exit Door Trap**: Stepping onto `2F (29, 7)` spawns outside at `Route 23 (14, 32)` directly below the cave mouth `(14, 31)` (`pressing Up at (14, 32) re-enters Victory Road!`). Step `Down` to `(14, 33)`, walk `Right * 4` to `(18, 33)` east of the `(17, 29..31)` statue wall, climb north to `(19, 18)`, bypass the `(15, 18..19)` statue via `(19, 20) -> (10, 20)`, and walk straight north up **`x = 10`** onto `Indigo Plateau (10, 17) -> (10, 6)` into **Indigo Plateau Lobby (`(7, 11)`)**.
 - **Indigo Plateau Lobby Landmarks**:
   - **Nurse Joy**: `(7, 5)` (`stand at (7, 7)` facing `Up`).
