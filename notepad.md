@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Purchased 3 Revives (¥4,500). Advancing to gate (9, 1) to enter Room 1 Sidney! SAGE Lv 87 (260/260 HP). Bag: 3 Revives, ¥1,492 cash.
+- Status: Attempt 16 Active! Purchased 2 Revives (¥3,000, ¥2,992 cash). Buying 1 more Revive to reach 3 Revives! SAGE Lv 87 (260/260 HP).
 - Immediate Plan:
   1. Enter Pokémon League Lobby.
   2. Walk to Mart counter at (16, 4) and purchase 3 Revives for ¥4,500.
@@ -5051,7 +5051,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Purchased 3 Revives (¥4,500). Advancing to gate (9, 1) to enter Room 1 Sidney! SAGE Lv 87 (260/260 HP). Bag: 3 Revives, ¥1,492 cash.
+- Status: Attempt 16 Active! Purchased 2 Revives (¥3,000, ¥2,992 cash). Buying 1 more Revive to reach 3 Revives! SAGE Lv 87 (260/260 HP).
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
