@@ -353,7 +353,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon, Flygon, Altaria DEFEATED! Salamence at ~60% HP. Executing Sacrificial Revive via Cobalu Lv 18 to reset Intimidate and restore SAGE.
+  - Drake: Shelgon, Flygon, Altaria DEFEATED! Cobalu absorbed Crunch. Sending in SAGE (130/260 HP, 256 Spe, full Atk) to KO Salamence (~60% HP).
 - Party: SAGE Lv 86 (39/257 HP, Lead), Lilz Lv 30 (FNT), Cobalu Lv 18 (49/49 HP), Guava Lv 30 (101/101 HP), Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
 - Bag: 3 Revives, 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: Finish Flygon with Quick Attack -> sweep Altaria, Salamence, Kingdra -> challenge Champion Wallace!
@@ -5028,13 +5028,13 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Cobalu (34/49 HP) absorbing Salamence's attack. Revived SAGE (130/260 HP, 256 Spe) ready for free switch-in! Bag: 2 Revives, 1 Full Heal, 1 conscious anchor (Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Cobalu fainted after absorbing Crunch. Sending in SAGE (130/260 HP, 256 Spe, Intimidate reset) to finish Salamence (~60% HP)! Bag: 2 Revives, 1 Full Heal, 1 conscious anchor (Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (25/30). Status: OK (Revived).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 34/49. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FAINTED.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 

@@ -43,7 +43,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon, Flygon, Altaria DEFEATED! Salamence at ~60% HP. Executing Sacrificial Revive via Cobalu Lv 18 to reset Intimidate and restore SAGE.
+  - Drake: Shelgon, Flygon, Altaria DEFEATED! Cobalu absorbed Crunch. Sending in SAGE (130/260 HP, 256 Spe, full Atk) to KO Salamence (~60% HP).
 - Party: SAGE Lv 86 (39/257 HP, Lead), Lilz Lv 30 (FNT), Cobalu Lv 18 (49/49 HP), Guava Lv 30 (101/101 HP), Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
 - Bag: 3 Revives, 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: Finish Flygon with Quick Attack -> sweep Altaria, Salamence, Kingdra -> challenge Champion Wallace!
