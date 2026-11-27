@@ -20,3 +20,8 @@
     2. Walk west along `y = 5` `(13, 5) -> (7, 5)`, weave down the west corridor `(7, 7) -> (6, 7) -> (6, 8) -> (4, 8) -> (4, 9) -> (1, 9) -> (1, 10) -> (0, 10) -> (0, 12) -> (2, 12) -> (2, 16)`, then east `(2, 16) -> (7, 16) -> (7, 14) -> (9, 14)` and climb **`(9, 13)`** stairs onto the central plateau `(9, 12)`.
     3. Cross the central plateau `(9, 8) -> (13, 8) -> (13, 12)` *(optional `Ultra Ball` at `(16, 9)` via `(16, 12) -> (16, 10)`, verified Turn 1366)* to **`(13, 13)`** stairs, `Surf` onto `(13, 14)` and follow `(14, 14) -> (14, 16) -> (18, 16) -> (18, 12) -> (19, 12)`, then climb **`(19, 11)`** stairs onto the east plateau.
     4. Walk north/east `(19, 8) -> (24, 8) -> (24, 1) -> (28, 1) -> (28, 6) -> (27, 6) ->` **`(27, 7)`** stairs, `Surf` onto `(27, 8)` around the west/south side of Mewtwo's raised island `(27, 11) -> (23, 11) -> (23, 16) -> (27, 16)`, climb **`(27, 15)`** stairs to `(27, 14)`, and interact with **`Mewtwo Lv. 70`** at **`(27, 13)`** *(captured in `Master Ball` as **`OBSIDIAN`**, Turn 1375)*. Use `Dig` to warp directly back to Cerulean City `(19, 18)`.
+
+## Cerulean City -> Route 9 -> Power Plant (`Verified Turns 1384–1388`)
+- **Cerulean East Exit via Burglarized House (`(27, 11)`)**:
+  - `(32..34, 19)` south ledge + `(35, 20..24)` bollards block direct eastward exit from Cerulean Center `(19, 18)`.
+  - Instead, climb **`(8, 15)`** stairs to `(8, 12)`, walk `Right * 19` to **`(27, 12)`**, enter the **Burglarized House `(27, 11)`** (`lands at (2, 7)`), walk around the table `(2, 7) -> (2, 5) -> (6, 5) -> (6, 2) -> (3, 2) -> (3, 1)` and step `Up` through the wall breach onto **`Cerulean (27, 9)`**, then walk `(27, 9) -> (34, 9) -> (34, 16) -> (39, 16)` onto **`Route 9 (0, 8)`**.
