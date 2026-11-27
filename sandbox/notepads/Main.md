@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Banette Lv 49 DEFEATED (#4)! Phoebe sending in final Pokémon, Dusclops Lv 48 (#5). SAGE Lv 87 (130/260 HP, 256 Spe, healthy!). Bag: 1 Revive, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 87 (130/260 HP). Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
@@ -22,7 +22,7 @@
 - Revive x1 (4 consumed for Sacrificial Revives in Room 2; 1 intact for Glacia/Drake/Wallace!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥6,885 (¥1,985 + ¥4,900 Sidney prize money!)
+- Money: ¥11,985 (¥6,885 + ¥5,100 Phoebe prize money!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -31,7 +31,7 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 15 5-0 sweep, Turn 27022)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 15, Turn 27084)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
