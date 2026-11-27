@@ -359,7 +359,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Reviving SAGE to 130 HP (+6 priority)! LILZ absorbing Dusclops Lv 51 attack. Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: SAGE REVIVED to 130 HP (Freeze cured)! Resolving Dusclops Shadow Ball on LILZ. Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. 2HKO Dusclops Lv 51 with Bullet Seed (STAB).
   2. OHKO Banette Lv 49 with Bullet Seed.
@@ -5037,10 +5037,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Reviving SAGE to 130 HP (+6 priority)! LILZ absorbing Dusclops Lv 51 attack. Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: SAGE REVIVED to 130 HP (Freeze cured)! Resolving Dusclops Shadow Ball on LILZ. Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 4/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: FRZ.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5053,7 +5053,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x5 (physically verified in Bag on screen; 1 carried over + 4 purchased!)
+- Revive x4 (1 consumed Turn 27047 for Sacrificial Revive; 4 intact!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥6,885 (¥1,985 + ¥4,900 Sidney prize money!)
