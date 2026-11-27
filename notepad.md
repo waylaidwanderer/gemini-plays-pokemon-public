@@ -187,7 +187,29 @@
   - **Statue Facing Rule**: Statues ONLY respond from the **front tile `(sx, sy + 1)` facing `Up`** (`side interaction is a silent no-op`).
   - Walk `(6, 2) -> (8, 3) -> (11, 3) -> (13, 6) -> (10, 6)` facing `Up` to toggle **`3F (10, 5)`**, then walk `(13, 6) -> (13, 11) -> (16, 11) -> (16, 14)` to drop into **southeast `1F (16, 14)`**.
   - On **southeast `1F`**, walk `(12, 14) -> (12, 24) -> (20, 24) -> (20, 21)` *(optional `Full Restore` at `(18, 21)`)* -> `(21, 16) -> (21, 23)` down-stairs into **`B1F (23, 22)`**.
-  - **Zero-Trainer `B1F` Route**: Walk `(22, 22) -> (22, 9) -> (12, 9) -> (12, 15) -> (16, 15) -> (16, 19) -> (18, 19) -> (18, 23)` *(pick up `TM14 Blizzard` at `(19, 25)`)* -> pass behind Burglar Lewis `(16, 23)` via `x = 17` to `(18, 26)` and toggle **`B1F (18, 25)`**. Exit west over Lewis's head through **`(13, 22)`**, loop east over the journal room `(10, 22) -> (10, 15) -> (24, 15) -> (24, 18) -> (26, 18)`, and walk north up **`x = 26`** through `(26, 17)` (past Scientist Ivan at `(27, 11)`) to **`(26, 6)`**.
+  - **Zero-Trainer `B1F` Route (`Turns 1110–1124`)**: Walk `(22, 22) -> (22, 9) -> (12, 9) -> (12, 15) -> (16, 15) -> (16, 19) -> (18, 19) -> (18, 23)` *(pick up `TM14 Blizzard` at `(19, 25)`)* -> pass behind Burglar Lewis `(16, 23)` via `x = 17` to `(18, 26)` and toggle **`B1F (18, 25)`**. Exit west over Lewis's head through **`(13, 22)`**, loop east over the journal room `(10, 22) -> (10, 15) -> (24, 15) -> (24, 18) -> (26, 18)`, and walk north up **`x = 26`** through `(26, 17)` (past Scientist Ivan at `(27, 11)`) to **`(26, 6)`**.
+  - **Western `B1F` Vault (`Turns 1115–1124`)**: From `(26, 6)`, walk west `(26, 4) -> (12, 4)` and stand at **`(13, 6)` facing `Up`** to toggle **`B1F (13, 5)`** (opens gate `(5..6, 8)`). Note: the table ball at `(5, 4)` is **`TM22 (SolarBeam)`**, whereas the **`SECRET KEY`** sits south through `(5..6, 8)` on the pedestal at **`B1F (5, 13)`**! Use `Dig` immediately after collecting `Secret Key` to warp straight outside Cinnabar Center `(11, 12)`.
+
+## Cinnabar Gym — 6-Quiz Zero-Trainer Route (`Turns 1124–1133`)
+- Unlock `(18, 3)` with `Secret Key` and enter at `(16, 16)`.
+- **Quiz Answering Recipes**:
+  - **`YES`**: `["A", "sleep 1100"] * 12 + ["B", "sleep 900"] * 4`
+  - **`NO`**: `["A", "sleep 900"] + ["B", "sleep 800"] * 15`
+- **All 6 Quiz Machines & Answers**:
+  1. **Room #1 `(15, 7)`** (from `(15, 8)` facing `Up`): *"CATERPIE evolves into BUTTERFREE?"* -> **`YES`** -> opens `(18..19, 6)` (`walk (18, 6) -> (18, 1) -> (12, 1)`).
+  2. **Room #2 `(10, 1)`** (from `(10, 2)` facing `Up`): *"There are 9 certified POKéMON LEAGUE BADGEs?"* -> **`NO`** -> opens `(12..13, 6)`.
+  3. **Room #3 `(9, 7)`** (via `(12, 7) -> (10, 7) -> (10, 8) -> (9, 8)` facing `Up`, behind Trainer `(11, 8)`): *"POLIWAG evolves 3 times?"* -> **`NO`** -> opens `(12..13, 12)`.
+  4. **Room #4 `(9, 13)`** (via `(12, 13) -> (10, 13) -> (10, 14) -> (9, 14)` facing `Up`, behind Trainer `(11, 14)`): *"Are thunder moves effective against ground element-type POKéMON?"* -> **`NO`** -> opens `(8, 16..17)` west into `(5, 16)`.
+  5. **Room #5 `(1, 13)`** (via `(5, 16) -> (5, 13) -> (2, 13) -> (2, 14) -> (1, 14)` facing `Up`, behind Trainer `(3, 14)`): *"POKéMON of the same kind and level are not identical?"* -> **`YES`** -> opens `(4..5, 12)`.
+  6. **Room #6 `(1, 7)`** (via `(4, 10) -> (4, 7) -> (2, 7) -> (2, 8) -> (1, 8)` facing `Up`, behind Trainer `(3, 8)`): *"TM28 contains TOMBSTONER?"* -> **`NO`** -> opens `(4..5, 6)` into **Gym Leader Blaine's Chamber (`Blaine at (3, 3)`)**.
+  - Dedicated straight exit corridor runs south down **`x = 7`** (`(7, 1) -> (7, 16)`).
+
+## `Fly` Town Map Fixed Internal Order (`Verified Turns 1115–1116`)
+- Town Map `Fly` follows internal `MapId` order (`Saffron City` `0x0A` is LAST, after `Cinnabar Island` `0x08`):
+  - `Up * 1` from `0 Pallet` = **`Viridian City`**
+  - `Up * 6` from `0 Pallet` = **`Celadon City`**
+  - `Down * 1` from `0 Pallet` = **`Saffron City`**
+  - `Down * 2` from `0 Pallet` = **`Cinnabar Island`**
 
 
 <hr>
