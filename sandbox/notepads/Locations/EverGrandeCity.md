@@ -43,7 +43,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Drake burned 2nd Full Restore on Salamence (OUT OF FULL RESTORES!). SAGE revived to 130/260 HP. Guava absorbing attack.
-- Party: SAGE Lv 87 (130/260 HP, Revived), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (101/101 HP, Conscious).
+  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Drake burned 2nd Full Restore on Salamence (OUT OF FULL RESTORES!). SAGE revived to 130/260 HP. Guava absorbed Dragon Claw and fainted. Sending in SAGE (130/260 HP, 256 Spe).
+- Party: SAGE Lv 87 (130/260 HP, Revived), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (0/101 HP, FAINTED).
 - Bag: 1 Revive (intact for Wallace), 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: KO Salamence with Facade -> sweep Kingdra Lv 53 -> unlock Champion Wallace!

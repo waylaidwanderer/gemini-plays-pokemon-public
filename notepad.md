@@ -353,8 +353,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Drake burned 2nd Full Restore on Salamence (OUT OF FULL RESTORES!). SAGE revived to 130/260 HP. Guava absorbing attack.
-- Party: SAGE Lv 87 (130/260 HP, Revived), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (101/101 HP, Conscious).
+  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Drake burned 2nd Full Restore on Salamence (OUT OF FULL RESTORES!). SAGE revived to 130/260 HP. Guava absorbed Dragon Claw and fainted. Sending in SAGE (130/260 HP, 256 Spe).
+- Party: SAGE Lv 87 (130/260 HP, Revived), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (0/101 HP, FAINTED).
 - Bag: 1 Revive (intact for Wallace), 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: KO Salamence with Facade -> sweep Kingdra Lv 53 -> unlock Champion Wallace!
 
@@ -5028,7 +5028,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Drake burned 2nd Full Restore on Salamence (Drake is OUT of Full Restores!). SAGE revived in reserve (130/260 HP). Guava (101/101 HP) ready to absorb Salamence attack. Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Guava absorbed Dragon Claw and fainted. Sending in SAGE (130/260 HP, 256 Spe, unmitigated Atk) to defeat Salamence and Kingdra! Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (23/30). Status: OK (Revived).
@@ -5036,7 +5036,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FAINTED.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FAINTED.
 
 ## Bag Highlights
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
