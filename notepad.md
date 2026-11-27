@@ -28,15 +28,16 @@
 - [x] Cerulean Cave Cleared — `Mewtwo` Lv. 70 Captured in `Master Ball` (Nickname: `OBSIDIAN`, Turn 1375!)
 - [x] Power Plant Cleared — `Zapdos` Lv. 50 Captured in `Ultra Ball` (Nickname: `TOPAZ`, Turn 1421!)
 - [x] Victory Road Cleared — `Moltres` Lv. 50 Captured in `Ultra Ball` (Nickname: `RUBY`, Turn 1475!)
+- [x] Seafoam Islands Cleared — `Articuno` Lv. 50 Captured in `Ultra Ball` (Nickname: `SAPPHIRE`, Turn 1523!)
 
-## Active Party (`6/6` Slots — `AMETHYST` & `AMBER` in Box 1)
-1. **OBSIDIAN** (Mewtwo) — Lv. 70 (`160/246` HP) | Moves: **Swift** (Slot 0), **Psychic** (Slot 1), **Thunder Wave** (Slot 2), **Recover** (Slot 3)
-2. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
-3. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, **Fly**, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
-4. **NAUTILUS** (Blastoise) — Lv. 61 (`186/186` HP, `Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3)
-5. **TOPAZ** (Zapdos) — Lv. 50 (`157/157` HP) | Moves: ThunderShock, Drill Peck
-6. **RUBY** (Moltres) — Lv. 50 | Moves: Peck, Fire Spin
-*(Stored in `Bill's PC Box 1`: **AMETHYST** Nidoqueen Lv. 27, **AMBER** Paras Lv. 12)*
+## Final Championship & Post-Game Legendary Party (`6/6` Slots — ALL 100% HP!)
+1. **OBSIDIAN** (Mewtwo) — Lv. 70 (`246/246` HP) | Moves: **Swift** (Slot 0), **Psychic** (Slot 1), **Thunder Wave** (Slot 2), **Recover** (Slot 3)
+2. **NAUTILUS** (Blastoise) — Lv. 61 (`186/186` HP, `Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3)
+3. **TOPAZ** (Zapdos) — Lv. 50 (`157/157` HP) | Moves: ThunderShock, Drill Peck
+4. **SAPPHIRE** (Articuno) — Lv. 50 (`151/151` HP) | Moves: Peck, Ice Beam
+5. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Scratch, Double Kick, Poison Sting, **Earthquake**
+6. **RUBY** (Moltres) — Lv. 50 (`161/161` HP) | Moves: Peck, Fire Spin
+*(Stored in `Bill's PC Box 1`: **AMBER** Paras Lv. 12 [`Cut`], **CELESTE** Clefairy Lv. 8 [`Strength`], **JASPER** Spearow Lv. 22 [`Fly`])*
 
 ## Inventory & Money
 - Money: ~¥23,000+
