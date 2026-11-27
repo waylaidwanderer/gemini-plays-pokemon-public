@@ -371,7 +371,27 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥11,985 -> halved to ¥5,992 upon whiteout (funds 3 Revives!).
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
-## Elite Four Attempt 16 (Active)
+## Elite Four Attempt 16 (Archived Turn 27213)
+- Status: Concluded via whiteout at Glacia's final Pokémon (Glalie #2 Lv 52 at ~25% HP).
+- Milestone Progress:
+  - Sidney DEFEATED (5-0 clean sweep, Turn 27136)! Earned ¥4,900.
+  - Phoebe DEFEATED (Turn 27169)! Earned ¥5,100.
+  - Glacia: Sealeo #1 (DEFEATED), Sealeo #2 (DEFEATED), Walrein Ace (DEFEATED), Glalie #1 (DEFEATED), Glalie #2 (~25% HP). Defeated 14 of the Elite Four's Pokémon!
+- Economy: Peaked at ¥12,992 -> halved to ~¥6,496 upon whiteout (funds 4 Revives at lobby Mart!).
+- SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
+
+## Elite Four Attempt 17 (Active)
+- Status: Attempt 17 Initializing! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Cash ~¥6,496 (purchasing 4 Revives at Mart counter).
+- Immediate Plan:
+  1. Enter Pokémon League Lobby.
+  2. Purchase 4 Revives for ¥6,000 at Mart counter (16, 4).
+  3. Enter Gate (9, 1) to challenge Room 1 Sidney.
+  4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
+  5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
+  6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
+  7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
+  8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
+  9. Enter the Hall of Fame!
 - Status: Attempt 16 Active! Room 3 Glacia BATTLE INITIATED! SAGE Lv 88 (88/263 HP, 259 Spe). Bag: 1 Revive, ¥12,992 cash.
 - Key Execution Notes:
   - Grudge Absorption: Depleted expendable Aerial Ace (0 PP) on Banette #1 KO, keeping 14 STAB Bullet Seed PP and 14 Facade PP 100% safe.
@@ -5057,15 +5077,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 88, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 3 Glacia BATTLE ACTIVE! SAGE FNT, MOCHI Lv 11 (42/42 HP) sole conscious Pokémon facing Glalie #2 (~25% HP). Bag: 0 Revives, ¥12,992 cash.
+- Status: Attempt 17 Active! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Purchasing 4 Revives at League Mart. Bag: 0 Revives, ~¥6,496 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 0/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (25/30). Status: FNT.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT.
+1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 263/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FNT.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!

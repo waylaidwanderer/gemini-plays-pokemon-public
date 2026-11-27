@@ -61,7 +61,27 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥11,985 -> halved to ¥5,992 upon whiteout (funds 3 Revives!).
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
-## Elite Four Attempt 16 (Active)
+## Elite Four Attempt 16 (Archived Turn 27213)
+- Status: Concluded via whiteout at Glacia's final Pokémon (Glalie #2 Lv 52 at ~25% HP).
+- Milestone Progress:
+  - Sidney DEFEATED (5-0 clean sweep, Turn 27136)! Earned ¥4,900.
+  - Phoebe DEFEATED (Turn 27169)! Earned ¥5,100.
+  - Glacia: Sealeo #1 (DEFEATED), Sealeo #2 (DEFEATED), Walrein Ace (DEFEATED), Glalie #1 (DEFEATED), Glalie #2 (~25% HP). Defeated 14 of the Elite Four's Pokémon!
+- Economy: Peaked at ¥12,992 -> halved to ~¥6,496 upon whiteout (funds 4 Revives at lobby Mart!).
+- SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
+
+## Elite Four Attempt 17 (Active)
+- Status: Attempt 17 Initializing! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Cash ~¥6,496 (purchasing 4 Revives at Mart counter).
+- Immediate Plan:
+  1. Enter Pokémon League Lobby.
+  2. Purchase 4 Revives for ¥6,000 at Mart counter (16, 4).
+  3. Enter Gate (9, 1) to challenge Room 1 Sidney.
+  4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
+  5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
+  6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
+  7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
+  8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
+  9. Enter the Hall of Fame!
 - Status: Attempt 16 Active! Room 3 Glacia BATTLE INITIATED! SAGE Lv 88 (88/263 HP, 259 Spe). Bag: 1 Revive, ¥12,992 cash.
 - Key Execution Notes:
   - Grudge Absorption: Depleted expendable Aerial Ace (0 PP) on Banette #1 KO, keeping 14 STAB Bullet Seed PP and 14 Facade PP 100% safe.
