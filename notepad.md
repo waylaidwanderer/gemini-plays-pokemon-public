@@ -90,7 +90,8 @@
 
 ## Route 16 — Secret `HM02 (Fly)` & `Snorlax` Path (Verified Turns 618–629, 817–818)
 - **Fast Route from Celadon Center `(41, 10)` to `Snorlax` `(26, 10)`**: `Down * 2` -> `(41, 12)` -> `Left * 27` along brick boulevard -> `(14, 12)` -> `Down * 2` -> `(14, 14)` -> `Left * 12` (dodging any Dept. Store NPC via `y = 15`) -> `(2, 14)` -> `Down * 4` -> `(2, 18)` -> `Left * 15` -> **`Route 16 (27, 10)`** *(Snorlax sleeps at `(26, 10)`; lower Cycling Road Gatehouse entrance is directly behind Snorlax at `(23, 10)`).*
-- Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)`; upper tall grass `(28..34, 4)` has `Spearow` & `Doduo` (caught Lv. 22 `Spearow` **`JASPER`**, Turn 628).
+- Chop **`Cut` bush at `Route 16 (34, 9)`** from `(34, 10)` (`use "hold Up 250"` to face `Up`); note `y = 8` above the bush is decorative lawn, whereas actual tall encounter grass begins at **`(30..35, 4..5)`** (`Spearow`, `Doduo`, `Rattata`, `Raticate`).
+- **Celadon Pond (`(21..24, 19..21)`, Verified Turns 1793–1798)**: Stand on south shore **`(24, 22)`** (`step Down -> Up to face pure water (24, 21)`) to fish **`Slowpoke Lv. 15`** with `Super Rod`.
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
 - **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
 
@@ -1036,9 +1037,12 @@ def name_buttons(word):
   - East-shore curb tiles (e.g. Vermilion `(15, 9)`) are not fishable/surfable in Gen 1; fish facing north-shore water curbs (e.g. Vermilion `(11..14, 7)` facing `Down`) or open water.
   - Wild encounter intros (`flash -> Wild <PKMN> -> Go! <LEAD>!`) take ~`7.2s` before `►FIGHT` accepts directional input; use `["B", "sleep 850"] * 10` (`8.5s`) before pressing `Down` (`ITEM`) on Turn 1 so `Down` is never swallowed before `►FIGHT` renders.
   - `DEPOSIT PKMN` resets `wPartyMenuCursor` to `Slot 0`, and a subsequent `WITHDRAW PKMN` in the same PC session leaves `wPartyMenuCursor` on `Slot 0` (`use Down * 5 to select Slot 5`).
-- **`BILL's PC -> CHANGE BOX` Prompt Count & Street Doorway Detour Guard (`Turns 1774–1775, 1782`)**:
-  - Selecting `CHANGE BOX` (`Down * 3` inside `BILL's PC`) requires **four** `A` presses (`including confirming ►YES to save`) plus `"sleep 2500"` before `"Choose a PKMN BOX."` (`BOX 1..12`) opens (`3 A's + Down flips ►YES to ►NO`).
-  - Never include `"Up"` in horizontal street NPC-detour helpers when walking directly in front of south-facing building doors (`e.g. Saffron y = 30` with doors on `y = 29`), or an NPC collision can step indoors and loop against indoor walls until the 150-button script limit.
+- **Game Corner Coin Seller, Overworld `USE/TOSS`, Battle Bag-Cursor Reset, & Facing Holds (`Turns 1791–1802`)**:
+  - Talking to the Game Corner Coin Seller `(5, 6)` from `(5, 8)` facing `Up` requires **four** `A` presses to reach `►YES / NO` (`MONEY / COIN` box) and a **5th `A`** + `B` to buy `50` Coins (`¥1,000`).
+  - Every overworld Bag item (including Key Items like `Super Rod`) opens `►USE / TOSS` on the 1st `A` and requires a 2nd `A` (`"sleep 600"`) to confirm `►USE`.
+  - Entering any battle (even if immediately fled via `RUN` without opening `ITEM`) resets the overworld `ITEM` Bag cursor (`wBagSavedMenuItem`) back to `Slot 0` (`alongside Start -> ►POKéDEX and wPartyMenuCursor -> Slot 0`).
+  - A brief tap into an impassable water or `Cut` bush tile can fail to hold `4+` frames to update facing direction; either step onto the shore tile (`Down, Up`) or use `"hold Up 250"` before invoking `Super Rod`, `Surf`, or `Cut`.
+  - Throwing a Poké Ball with `"sleep 10000"` completes all 3 shakes + the catch fanfare cleanly onto `"All right! <PKMN> was ▼"`.
 
 
 <hr>
