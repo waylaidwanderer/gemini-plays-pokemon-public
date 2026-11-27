@@ -27,8 +27,9 @@
   - Push `(5, 15)` `Down` to `(5, 16)`, `Right * 3` to `(8, 16)`, `Up` to `(8, 15)` *(note `(7, 14)` is a rock!)*, `Right` to `(9, 15)`, `Up` to `(9, 14)`, `Right * 7` to `(16, 14)`, `Up * 2` to `(16, 12)` *(around `(15, 13)` rock)*, `Right` to `(17, 12)`, and `Down` onto **`(17, 13)` switch**.
 - **Route to 2F Ladder `(1, 1)`**: Walk back to `(5, 14) -> (5, 12)` up `(5, 13)` stairs, loop `(5, 12) -> (11, 12) -> (11, 6) -> (7, 6)` (`1 row below right-facing Cooltrainer♀ at (7, 5)`), descend `(7, 7)` stairs to `(7, 8) -> (3, 8) -> (3, 4)` (defeat Cooltrainer♂ at `(3, 2)`), and climb **`(1, 1)`** to **Victory Road 2F**.
 
-## Victory Road 2F (`Verified Turns 1199–1210`)
-- Spawns at `(0, 8)`; dark-checkered dirt tiles are walkable cave floor.
+## Victory Road 2F (`Verified Turns 1199–1210, 1430–1442`)
+- Spawns at `(0, 8)` from `1F (1, 1)` (or `(29, 7)` from `Route 23 (14, 31)`); dark-checkered dirt tiles are walkable cave floor, **except `(10..13, 8)` is a north-facing cliff edge** (`stepping Up onto (10..13, 7) is blocked`, Turn 1438) and `x = 8` (`(8, 4..17)` + `(7, 8..9)` Switch #2A barrier) seals the west half from the east half (`Turn 1437`), with zero `3F` holes above `(11, 5)` (`Turn 1442`).
+- **`Moltres Lv. 50` (`2F (11, 5)`) Route**: Must enter from **Victory Road `1F`** (`(8, 17)` -> push `(5, 15)` boulder onto `(17, 13)` switch -> `1F (1, 1)` ladder -> `2F (0, 8)`), activate `Strength` on `2F`, push **`2F (5, 5)` boulder** `Up`, and walk east above `(8, 4)` rock (`y = 1..3`) to `(11, 4)` facing **`Moltres`** at **`(11, 5)`**.
 - **Boulder #2A (`(4, 14) -> Switch (1, 16)`)**: Because `(1, 13)` is a rock, push `(4, 14)` `Left` to `(3, 14)`, `Down * 2` to `(3, 16)`, and `Left * 2` onto **`(1, 16)` Switch**.
 - **Route to 3F Ladder `(23, 7)`**: Climb `(5, 10)` stairs onto the plateau `(5, 8) -> (14, 8)` (`passing behind left-facing Blackbelt at (12, 9)`), walk `(14, 13) -> (18, 13)` (`defeat Juggler Nelson at (21, 13)`), descend `(21, 15)` stairs to `(21, 16)`, loop `(28, 16) -> (28, 11) -> (21, 11) -> (21, 6)` (`bypassing downward-facing trainer at (19, 8)`), and climb **`(23, 7)`** to **Victory Road 3F**.
 
