@@ -52,3 +52,10 @@
   1. Surf east from Cinnabar shore `(19, 8)` onto `Route 20 (0, 8)`.
   2. Sweep/pass Swimmers at `(15, 7)` and `(25, 6)`, hug the north rock border (`y ~ 2..5`) east to `x ~ 47`, then pass along the south channel `(47, 14) -> (54, 15) -> (60, 15)` (`1` row below the right-facing Swimmer at `(55, 14)`).
   3. Surf `Up * 2` to `(60, 13)`, `Left * 4` to `(56, 13)`, `Up * 2` onto Seafoam Island land `(56, 11)`, and enter **Seafoam Islands `1F` East Entrance** (`spawns at 1F (26, 17)`).
+
+## Seafoam Islands — Verified Cinnabar Entry to `B3F` Boulder Room (`Turns 1490–1511`)
+- **Route 20 West Island Note (`Turn 1497`)**: The West Seafoam Island water cove (`x = 44..54, y = 2..12`) is completely enclosed by buoys on the west (`x = 43`), north (`y = 1`), south (`y = 13`), and east (`x = 55`). Entering from Cinnabar Island uses the **East Seafoam Cave (`Route 20 (58, 9)` -> `1F (26, 17)`)**.
+- **Exact Shaft Descent & `B4F -> B3F` Loop**:
+  1. `1F (26, 17)` -> `1F (23, 15)` ladder -> `B1F (23, 15)` -> `B1F (25, 11)` ladder -> `B2F (25, 11)` -> `B2F (25, 14)` ladder -> **`B3F (25, 14)`**.
+  2. Walk north up the `B3F` east plateau `(25, 14) -> (24, 6) -> (23, 9)` stairs, `Surf` onto calm water `(23, 10) -> (15, 10)`, and step `Up` into **`B3F (15, 9)`** fast current -> drops directly onto **`B4F (20, 15)`**.
+  3. On **`B4F`**, surf `(20, 15) -> (20, 12) -> (18, 12) -> (18, 8) -> (23, 8)`, climb **`B4F (23, 5)`** stairs to `(23, 4)`, cross the central plateau `(23, 4) -> (15, 4) -> (15, 8) -> (13, 8) -> (13, 10) -> (8, 10) -> (8, 6)` *(note `(8, 6)` is an elevated cliff above `(7, 3)` stairs)*, and climb **`B4F (11, 7)`** ladder -> **`B3F (8, 6)`** right at the **`B3F (7, 5)`** stairs to the west boulder puzzle!
