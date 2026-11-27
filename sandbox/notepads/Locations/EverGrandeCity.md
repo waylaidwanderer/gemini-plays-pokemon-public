@@ -71,7 +71,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
 
 ## Elite Four Attempt 17 (Active)
-- Status: Attempt 17 Active! Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Advancing to Room 2 Phoebe. SAGE Lv 89 (97/266 HP, 262 Spe). Bag: 3 Revives, ¥6,896 cash.
+- Status: Attempt 17 Active! Room 2 Phoebe DEFEATED (Turn 27266)! Advancing to Room 3 Glacia. SAGE Lv 89 (66/266 HP, 262 Spe). Bag: 2 Revives, ¥11,996 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
