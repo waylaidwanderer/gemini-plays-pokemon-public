@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 86 (83/257 HP, Overgrow ACTIVE, 253 Spe) vs Flygon Lv 53 (~18% HP). Executing Quick Attack to KO Flygon! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 86 (39/257 HP, Overgrow ACTIVE, 253 Spe) vs Flygon Lv 53 (~10% HP). Executing Quick Attack to KO Flygon! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - HP: 128/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (7/20), Quick Attack (25/30). Status: OK (Revived).
+1. SAGE (Sceptile ♂, Level 86) - HP: 39/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (6/20), Quick Attack (25/30). Status: OK (Overgrow Active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -70,7 +70,5 @@
 - Battle Menu Cursor Persistence: After opening or using an item from the Bag in battle, the main battle menu cursor remains on BAG (FIGHT ▶BAG). To select FIGHT, you MUST press Left first!
 - Overgrow Activation Proof: SAGE at 26/251 HP successfully has Overgrow active (<= 83 HP threshold), boosting Grass moves by 1.5x. Dusclops Lv 51 Ice Beam only dealt 31 dmg to Lv 84 SAGE.
 - Party Replacement Screen Navigation: From Left Box, press Right to enter Right Column (Row 1). Press Down x4 to reach Row 5 (bottom party slot, Guava).
-- Whiteout Currency Mechanics: Cash halved upon whiteout (¥5,383 -> ¥2,691). Revives sold at Mart Counter Row 6 for ¥1,500 each. Sidney rewards ¥4,900.
 - Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
-- Verified Attempt 13 Inventory: Physically confirmed in Bag on Turn 26657: Revive x4, Full Heal x1, Quick Claw x1, Macho Brace x1, Money ¥1,041.
 - Level 85 SAGE Benchmark: Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Overgrow activates at <= 84 HP (254 / 3 = 84).
