@@ -387,7 +387,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
   3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
-  5. Phoebe: Dusclops Lv 48 (DEFEATED Turn 27248!), Dusclops Lv 51 (DEFEATED Turn 27259!), Banette #1 (DEFEATED Turn 27262, Grudge absorbed by Aerial Ace!), Sableye Lv 50 (DEFEATED Turn 27265!), Banette #2 Lv 49 (Active, FINAL!).
+  5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
+  6. Glacia: Sealeo #1, Glalie #1, Sealeo #2, Glalie #2, Walrein Ace.
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
@@ -5063,10 +5064,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 17 Active! Sidney DEFEATED (5-0 sweep)! Advancing to Room 2 Phoebe. SAGE Lv 89 (97/266 HP, 262 Spe). Bag: 2 Revives, ¥6,896 cash. SAGE revived to 133 HP (Curse cured!).
+- Status: Attempt 17 Active! Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 89 (66/266 HP, 262 Spe). Bag: 2 Revives, ¥11,996 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 66/266 (Overgrow ACTIVE!). Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (18/30), Aerial Ace (13/20), Facade (14/20), Quick Attack (26/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 66/266 (Overgrow ACTIVE!). Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (17/30), Aerial Ace (13/20), Facade (14/20), Quick Attack (26/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5082,7 +5083,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x2 (1 consumed Turn 27255 for Sacrificial Revive on SAGE; 2 intact for Drake/Wallace!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥6,896 (¥1,996 + ¥4,900 Sidney prize money)
+- Money: ¥11,996 (¥6,896 + ¥5,100 Phoebe prize money)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5091,7 +5092,7 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 17 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27167)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
