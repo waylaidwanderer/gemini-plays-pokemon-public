@@ -952,6 +952,9 @@ def name_buttons(word):
 - **Bag Bottom-Clamping & `Surf` Facing Prerequisite (`Turns 1456, 1459, 1465, 1469`)**:
   - With 15–18 items in the Bag, clamping to `CANCEL` from `Slot 0` requires **`Down * 19`** (`Down * 6` stops mid-list on non-field items, triggering Oak's warning in the overworld instead of selecting the bottom slot).
   - Before activating `HM03 (Surf)` via `Start -> POKéMON`, ensure the player sprite is physically facing the water tile (`IsNextTileShoreOrWater` checks facing direction; facing a shore pillar prints `"No SURFing ... here!"`).
+- **Gen 1 NPC Gift & Fossil Revival Rules (`Turns 1546–1550`)**:
+  - NPC gift and revived fossil Pokémon (`Omanyte`, `Aerodactyl`, `Hitmonlee`, `Lapras`, `Eevee`) do **not** transfer to `Bill's PC` if the party is `6/6`; open party slots are mandatory.
+  - Newly registered Gift/Fossil species skip the mid-fanfare Pokédex data screen (`showing "<PKMN> received!" + ~4.5s fanfare -> "Do you want to give a nickname to <PKMN>?" ►YES / NO`). Advance gift prompts exclusively with spaced `A` presses (`never B`) and visually verify the naming screen before entering letters.
 
 
 <hr>
