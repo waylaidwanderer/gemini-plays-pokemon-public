@@ -24,6 +24,7 @@
 - [x] Earth Badge — Giovanni (Viridian City, Turn 1159)
 - [x] Indigo Plateau — Elite Four & Champion `GARNET` Defeated (`Hall of Fame`, Turn 1287!)
 - [x] Cerulean Cave Cleared — `Mewtwo` Lv. 70 Captured in `Master Ball` (Nickname: `OBSIDIAN`, Turn 1375!)
+- [x] Power Plant Cleared — `Zapdos` Lv. 50 Captured in `Ultra Ball` (Nickname: `TOPAZ`, Turn 1421!)
 
 ## Active Party (Post-Game Legendary Quest — `5/6` Slots, `AMETHYST` in Box 1)
 1. **OBSIDIAN** (Mewtwo) — Lv. 70 (`246/246` HP) | Moves: **Swift** (Slot 0), **Psychic** (Slot 1), **Thunder Wave** (Slot 2), **Recover** (Slot 3)

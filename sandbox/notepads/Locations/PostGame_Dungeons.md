@@ -31,3 +31,8 @@
   - From `Route 10 (5, 9)`, walk `Left * 3` to `(2, 9)` and `Up * 5` through the `(2..3, 5)` bollard gap to the river bank at **`Route 10 (2, 4)`**.
   - `Surf` onto `(2, 3)`, follow the canal `Right * 15` to `(17, 3)`, `Down * 44` to `(17, 47)`, `Left * 15` to `(2, 47)`, and `Up * 7` onto the shore at **`Route 10 (2, 40)`**.
   - Walk `Right * 4` to `(6, 40)` and enter the **Power Plant** at **`Route 10 (6, 39)`** (`warps inside to (4, 35)`).
+- **Power Plant Interior Route (`(4, 35) -> Zapdos (4, 9)`, Verified Turns 1397–1423)**:
+  1. Walk `(4, 35) -> (4, 24) -> (2, 24) -> (2, 20) -> (7, 20) -> (7, 16) -> (13, 16) -> (13, 21) -> (10, 21)` and step `Down * 2` through the **`(10, 22)`** doorway onto `(10, 23) -> (11, 23) -> (11, 25) -> (13, 25) -> (13, 28) -> (17, 28) -> (17, 26)`.
+  2. Walk east `(17, 26) -> (22, 26) -> (22, 29) -> (25, 29) -> (25, 27) -> (30, 27) -> (35, 27)` (`above the y = 30 wall and below the (32..33, 24..26) rocks`), then `Up * 3` to `(35, 24) -> (37, 24)`.
+  3. Walk north up the outer east corridor `(37, 24) -> (37, 14) -> (30, 14) -> (23, 14) -> (23, 2)`, then west `(23, 2) -> (18, 3) -> (18, 11) -> (12, 11) -> (12, 5) -> (11, 5) -> (11, 3) -> (6, 3) -> (6, 5) -> (4, 5) -> (4, 8)` facing **`Zapdos Lv. 50`** at **`(4, 9)`** *(captured on `Ultra Ball #2` as **`TOPAZ`**, Turn 1421)*.
+  4. Exit directly via the west exit mat `(4, 8) -> (4, 11) -> (0, 11) -> Left` onto **`Route 10 (6, 43)`**.
