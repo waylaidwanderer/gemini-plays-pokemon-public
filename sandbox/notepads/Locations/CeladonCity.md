@@ -58,3 +58,9 @@
   - Entrance spawns at `(4, 17)`. Walk `Up * 6` to `(4, 11)` (Lass Kay at `(2, 11)`), `Right, Up` to `(5, 10)` (Beauty Bridget at `(7, 10)`: `Oddish, Bellsprout, Oddish, Bellsprout Lv 21` — evolved `NAUTILUS` into **`Blastoise` at Lv. 36**, Turn 711!).
   - Walk `Up * 2` to `(5, 8)`, chop interior **`Cut` bush at `(5, 7)`**, and enter inner gazebo (`Cooltrainer♀ Mary at (5, 3)`, **Gym Leader Erika at `(4, 3)`**; note indoor flower tiles like `(4, 6)` are walkable).
   - **Erika Battle Note (`Turns 724–734`)**: `Victreebel Lv 29` (`52` Speed, 99.6%-crit `Razor Leaf` + `Sleep Powder` + `Wrap`) survives a single Lv. 36 `Blastoise` `Ice Beam` on ~18% HP and deals ~63–70 damage with crit `Razor Leaf`; `Paras` (`4x` Grass resistance) takes only ~15 damage from crit `Razor Leaf`, providing safe healing pivots.
+
+## Celadon Mansion Back Entrance — Rooftop `Eevee` (`Verified Turns 1568–1573`)
+- From **Celadon Pokémon Center `(41, 10)`**, walk `Right * 3` to `(44, 10)` and `Up * 6` into the northern brick alley `(44, 4)`.
+- Walk `Left * 11` along `y = 4` to `(33, 4)`, step `Up * 2` through the bush gap `(33, 3) -> (33, 2)`, walk `Left * 8` along `y = 2` to `(25, 2)`, and step `Down * 2` (`(25, 2) -> (25, 3) -> (25, 4)`) into **Celadon Mansion `1F` Back Hallway `(4, 1)`**.
+- Climb the isolated back stairwell: `1F (2, 1) -> 2F (2, 1)` -> `2F (4, 1) -> 3F (4, 1)` -> `3F (2, 1) -> 4F Rooftop (2, 2)`.
+- Walk around the Rooftop House `(1..3, 4..7)` via `(4, 2) -> (4, 8) -> (2, 8) -> Up` into **`(2, 7)`** (`spawns at (2, 7)`), and inspect the Poké Ball on the table at **`(4, 3)`** (from `(5, 3)` facing `Left`) to obtain **`Eevee Lv. 25`** (`nicknamed PERIDOT`).
