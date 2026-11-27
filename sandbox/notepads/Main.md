@@ -42,7 +42,8 @@
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, **Leer**, **Fury Attack**, **Mirror Move**)
 - **DOZER** (Snorlax, Slot 5) - Lv 33 (151 HP; **Headbutt**, **Amnesia**, **Rest**, **HM04 Strength**)
 - **TEMPEST** (Zapdos, Slot 6 -> Lead for Mewtwo!) - Lv 55 (184 HP; 112 Atk / 115 Def / 137 Spd [Carbos x1] / 155 Spc; **Thundershock**, **Drill Peck**, **Thunder**, **Thunder Wave** [TM45 over Agility, turn 2039])
-- **Post-Game Bag (7/20 slots):** **Bicycle**, **Revive x8**, **Max Potion x4**, **Full Restore x11**, **Full Heal x3**, **Ultra Ball x27**, **Max Repel x5** | **Cash:** ¥636 | **Post-Game Goal:** Cerulean Cave -> Catch **Mewtwo :L70**!
+- **Post-Game Bag (7/20 slots):** **Bicycle**, **Revive x8**, **Max Potion x4**, **Full Restore x11**, **Full Heal x3**, **Ultra Ball x27+**, **Max Repel x3** | **Cash:** ¥636 | **Post-Game Goal:** Cerulean Cave B1F -> Catch **Mewtwo :L70**!
+- **Verified Cerulean Cave Route to B1F (Turns 2057–2095):** 1F `(24,17)` -> ramp `(21,11)` -> ladder `(23,7)` UP to 2F `(22,6)` -> 2F `(29,1)` DOWN to 1F NE `(27,1)` -> Surf west `(23,3)..(15,3)` -> ladder `(7,1)` UP to 2F `(9,1)` -> `(19,7)` DOWN to 1F center `(18,9)` -> stairs `(17,15)` -> west along `y=17` -> stairs `(1,13)` -> ladder `(3,11)` UP to 2F SW `(3,11)` -> east to `(12,9)` -> south `(12,15)->(13,17)` -> west `(8,16)->(4,17)->(1,17)` -> north `(1,15)->(2,13)->(0,12)->(0,9)->(1,7)->(6,7)->(6,5)->(0,5)->(0,3)` -> ladder `(1,3)` DOWN to 1F NW `(1,3)` -> `(5,4)->(5,6)->(2,6)->(2,7)->(0,7)` -> ladder `(0,6)` DOWN to **Cerulean Cave B1F `(3,6)`**! Note: Cerulean Cave 2F/B1F wilds reach Lv 56–64 (higher than Lv 55 `TEMPEST`), so `Max Repel` blocks Lv ≤54 while Lv 55+ spawns still occur; always run cleanly with `B, sleep 3800, Down, Right, A, sleep 1200, B, sleep 1500`.
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
