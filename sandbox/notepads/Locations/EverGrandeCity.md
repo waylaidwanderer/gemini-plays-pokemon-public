@@ -77,7 +77,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
   3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
-  5. Phoebe: Dusclops Lv 48 (DEFEATED Turn 27248!), Dusclops Lv 51 (Active, ~3% HP), Banette #1 (Active, Grudge target), Sableye, Banette #2.
+  5. Phoebe: Dusclops Lv 48 (DEFEATED Turn 27248!), Dusclops Lv 51 (DEFEATED Turn 27259!), Banette #1 (Active, Grudge target), Sableye, Banette #2.
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
