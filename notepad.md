@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 in red HP (~5%). SAGE Lv 87 (84/260 HP, Overgrow active!) executing Quick Attack for the KO! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 DEFEATED (#2)! Declining switch for Shiftry Lv 48 (#3). SAGE Lv 87 (84/260 HP, 256 Spe) ready to OHKO with Aerial Ace! Bag: 2 Revives, ¥2,992 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
@@ -5052,7 +5052,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 in red HP (~5%). SAGE Lv 87 (84/260 HP, Overgrow active!) executing Quick Attack for the KO! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 DEFEATED (#2)! Declining switch for Shiftry Lv 48 (#3). SAGE Lv 87 (84/260 HP, 256 Spe) ready to OHKO with Aerial Ace! Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 84/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (18/20), Quick Attack (28/30). Status: OK.
@@ -5134,6 +5134,5 @@ A large meteorological research institute located in northern Route 119 beside t
 - Party Medicine Targeting Grid Absolute Law: On the in-battle party medicine targeting screen when the active battler faints and a reserve is sent in, the original lead (SAGE) remains anchored in Row 2 of the Right Column. To target SAGE with Revive, you MUST press Right then DOWN to Row 2! Pressing Right alone targets Row 1 (the most recently fainted anchor).
 - Party Grid Alignment with COBALU Lead (Turn 27101 Visual Ground Truth): When COBALU is in Left Box, Right Column is: Row 1 = LILZ (FNT), Row 2 = CIPHER (FNT), Row 3 = SAGE (FNT, Lv 87). Pressing Right lands on Row 2 (CIPHER); pressing Down moves to Row 3 (SAGE).
 - Absol Full Restore Threshold: In Room 1, Sidney triggers his Full Restore when Absol drops to critical red HP (~5%), forfeiting Absol's attack for that turn and depleting Sidney's healing items.
-
 
 <hr>
