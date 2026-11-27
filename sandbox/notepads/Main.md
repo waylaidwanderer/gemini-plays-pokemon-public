@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. Purchasing 5 Revives at League Mart. Cash: ¥8,648.
+- Status: Attempt 18 Active! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. 5 Revives equipped in Bag. Cash: ¥1,148.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 0/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (21/30). Status: FNT.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 266/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -19,10 +19,10 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x0 (1 consumed Turn 27255, 1 consumed Turn 27281, 1 consumed Turn 27306 for Sacrificial Revive on SAGE)
+- Revive x5 (5 purchased Turn 27327 for ¥7,500 at League Mart!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥8,648 (Halved from ¥17,296 upon whiteout)
+- Money: ¥1,148 (¥7,500 spent on 5 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
