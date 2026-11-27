@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 48 protected twice. SAGE Lv 88 (87/263 HP, Overgrow active!) executing Bullet Seed for guaranteed KO! Bag: 2 Revives, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 48 dropped to ~15% HP by Bullet Seed (#1). SAGE Lv 88 (87/263 HP, Overgrow active!) resolving turn. Bag: 2 Revives, ¥7,892 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
@@ -5052,7 +5052,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 48 protected twice. SAGE Lv 88 (87/263 HP, Overgrow active!) executing Bullet Seed for guaranteed KO! Bag: 2 Revives, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 48 dropped to ~15% HP by Bullet Seed (#1). SAGE Lv 88 (87/263 HP, Overgrow active!) resolving turn. Bag: 2 Revives, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.
