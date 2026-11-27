@@ -23,13 +23,15 @@
 - [x] Volcano Badge — Blaine (Cinnabar Island, Turn 1135)
 - [x] Earth Badge — Giovanni (Viridian City, Turn 1159)
 - [x] Indigo Plateau — Elite Four & Champion `GARNET` Defeated (`Hall of Fame`, Turn 1287!)
+- [x] Cerulean Cave Cleared — `Mewtwo` Lv. 70 Captured in `Master Ball` (Nickname: `OBSIDIAN`, Turn 1375!)
 
-## Active Party (Hall of Fame Champions!)
-1. **NAUTILUS** (Blastoise) — Lv. 61 (`186/186` HP, `Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3)
-2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: **Body Slam** (Slot 0), Water Gun (Slot 1), **Earthquake** (Slot 2), **Thunderbolt** (Slot 3)
+## Active Party (Post-Game Legendary Quest — `5/6` Slots, `AMETHYST` in Box 1)
+1. **OBSIDIAN** (Mewtwo) — Lv. 70 (`246/246` HP) | Moves: **Swift** (Slot 0), **Psychic** (Slot 1), **Thunder Wave** (Slot 2), **Recover** (Slot 3)
+2. **NAUTILUS** (Blastoise) — Lv. 61 (`186/186` HP, `Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3)
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, **Cut** *(`HM01 Cut` specialist)*
 5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, **Fly**, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
+*(Stored in `Bill's PC Box 1`: **AMETHYST** Nidoqueen Lv. 27 — temporarily deposited in Turn 1378 to keep Party Slot 5 open for Legendary Bird captures)*
 
 ## Inventory & Money
 - Money: ~¥23,000+
