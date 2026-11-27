@@ -62,7 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Purchased 2 Revives (¥3,000, ¥2,992 cash). Buying 1 more Revive to reach 3 Revives! SAGE Lv 87 (260/260 HP).
+- Status: Attempt 16 Active! Purchasing 3rd Revive at Mart counter (16, 4). Total: 3 Revives (¥1,492 cash). SAGE Lv 87 (260/260 HP).
 - Immediate Plan:
   1. Enter Pokémon League Lobby.
   2. Walk to Mart counter at (16, 4) and purchase 3 Revives for ¥4,500.

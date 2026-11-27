@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Purchased 2 Revives (¥3,000, ¥2,992 cash). Buying 1 more Revive to reach 3 Revives! SAGE Lv 87 (260/260 HP).
+- Status: Attempt 16 Active! Purchasing 3rd Revive at Mart counter (16, 4). Total: 3 Revives (¥1,492 cash). SAGE Lv 87 (260/260 HP).
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
