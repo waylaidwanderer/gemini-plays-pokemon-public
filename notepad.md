@@ -348,14 +348,17 @@
   2. Weave north up Nugget Bridge to `(10, 13)`, walk `Left * 3` to `(7, 13)` and `Down * 2` to **`(7, 15)`** facing `Down` at the river `(7, 16)`.
   3. `Surf` south down the river into northwest Cerulean City (`align to x = 6` at `(6, 4)`), surf south to `(6, 12)`, step `Left * 2` onto land `(4, 12)`, and enter **Cerulean Cave `1F` at `(4, 11)`**.
 
-## Cerulean Cave (`Pokémon Blue`, Verified Turns 1319–1343)
-- **Complete `1F <-> 2F` Ladder Bijection**:
-  - *East Loop (Items only)*: `1F (27, 1)` <-> `2F (29, 1) .. 2F (19, 7)` <-> `1F (23, 7)`.
-  - *Main Progression Bridge (`Northwest 1F -> West Plateau -> Southwest 1F`)*:
-    1. Walk `(24, 17) -> (20, 14) -> (21, 14)`, climb `(21, 11)` to `(25, 9)`, and `Surf` `(25, 10) -> (28, 10) -> (28, 4) -> (15, 4)`.
-    2. Climb **`1F (15, 3)`** stairs onto northwest plateau, pick up `Nugget` at `(5, 0)`, and climb **`1F (7, 1)`** ladder -> **`2F (9, 1)`**.
-    3. Traverse `2F`: `(9, 1) -> (3, 1) -> (3, 3) -> (9, 3) -> (9, 5) -> (11, 5) -> (11, 1) -> (13, 1) -> (13, 5)` *(item ball at `(13, 6)`)* `-> (15, 5) -> (15, 1) -> (18, 1) -> (18, 3) -> (20, 3) -> (20, 2) -> (22, 2) ->` **`2F (22, 6)`** ladder -> drops onto **`1F (18, 9)`**!
-    4. From `1F (18, 9)`, walk `Left` to `(17, 9)` and descend **`1F (17, 15)`** stairs onto southwest `1F (17, 16)`.
+## Cerulean Cave (`Pokémon Blue`, Verified Turns 1319–1364)
+- **Complete `1F <-> 2F <-> B1F` Ladder Route**:
+  - *Northwest Island (`Nugget` only)*: `1F (15, 3)` stairs -> `Nugget` at `1F (5, 0)` (`1F (7, 1)` ladder loops via `2F (9, 1) .. (22, 6)` -> `1F (23, 7)`).
+  - *True Progression Route (`1F Entrance -> B1F`)*:
+    1. From `1F (24, 17)`, walk `(20, 14) -> (21, 14)`, climb `(21, 11)` stairs to `(25, 9)`, and `Surf` `(25, 10) -> (28, 10) -> (28, 1)` -> land on `1F (27, 1)` ladder -> **`2F (29, 1)`**.
+    2. Traverse east/south `2F` corridor from `(29, 1)` to **`2F (19, 7)`** ladder -> drops onto central plateau **`1F (18, 9)`**.
+    3. Walk `Left` to `(17, 9)`, descend **`1F (17, 15)`** stairs to `(17, 16)`, loop southwest around to **`1F (3, 11)`** ladder -> **`2F (3, 11)`**.
+    4. Traverse west `2F` corridor `(3, 11) -> (1, 3)` ladder -> **`1F (1, 3)`** -> walk south to **`1F (0, 6)`** ladder -> **`B1F (3, 6)`**.
+  - *`B1F` Perimeter Route (`B1F (3, 6) -> Central Plateau`)*:
+    1. Descend `(13, 3)` stairs to `(13, 4)` *(optional `Max Revive` at `(18, 1)` up `(19, 3)` stairs, verified Turn 1358)*.
+    2. Walk west along `y = 5` `(13, 5) -> (7, 5)`, weave down the west corridor `(7, 7) -> (6, 7) -> (6, 8) -> (4, 8) -> (4, 9) -> (1, 9) -> (1, 10) -> (0, 10) -> (0, 12) -> (2, 12) -> (2, 16)`, then east `(2, 16) -> (7, 16) -> (7, 14) -> (9, 14)` and climb **`(9, 13)`** stairs onto the central plateau `(9, 12)`.
 
 
 <hr>
@@ -863,6 +866,10 @@ def name_buttons(word):
   - To safely restore a fainted sweeper against a fast attacker (`e.g. Champion's Alakazam`), chain two pivots (`Pivot #1 -> Revive`, `Pivot #2 -> Full Restore`) so the sweeper re-enters at 100% HP on a free switch.
 - **Post-Credits Hall of Fame Reload Does NOT Heal Party (`Turn 1315`)**:
   - In Generation I (`Pokémon Blue`), continuing from Pallet Town after the Hall of Fame preserves your exact post-Champion party HP (`including fainted members`) and depleted move PP. Always heal at a Pokémon Center before embarking on post-game dungeons.
+- **High-Level Cave Wild Escape (`step_open` Without Blind `RUN` Loops, `Turns 1358–1359`)**:
+  - On floors where wild Pokémon outspeed your lead (`e.g. Cerulean Cave B1F Lv. 64–67 Dodrio/Kadabra/Raichu/Ditto vs. Lv. 61 Blastoise`), `RUN` is ~85% on Attempt #1 rather than 100%.
+  - **CRITICAL**: Never wrap `["Right", "Down", "A"]` (`RUN`) in an unchecked `for attempt in range(3):` loop! When Attempt #1 succeeds, subsequent iterations press `Right` and `Down` in the overworld, walking away from `(tx, ty)` and causing retry timeouts (`Turn 1358`).
+  - Instead, run **one** `RUN` (`Right, Down, A`), immediately test `[d]` (`if mgba.get_coordinates() == (tx, ty): return True`), and ONLY if coordinates did not advance (`"Can't escape!"`), clear the enemy attack (`B * 6`) and press `A` alone (`since the battle cursor remains on ►RUN`).
 
 
 <hr>

@@ -157,3 +157,7 @@ def name_buttons(word):
   - To safely restore a fainted sweeper against a fast attacker (`e.g. Champion's Alakazam`), chain two pivots (`Pivot #1 -> Revive`, `Pivot #2 -> Full Restore`) so the sweeper re-enters at 100% HP on a free switch.
 - **Post-Credits Hall of Fame Reload Does NOT Heal Party (`Turn 1315`)**:
   - In Generation I (`Pokémon Blue`), continuing from Pallet Town after the Hall of Fame preserves your exact post-Champion party HP (`including fainted members`) and depleted move PP. Always heal at a Pokémon Center before embarking on post-game dungeons.
+- **High-Level Cave Wild Escape (`step_open` Without Blind `RUN` Loops, `Turns 1358–1359`)**:
+  - On floors where wild Pokémon outspeed your lead (`e.g. Cerulean Cave B1F Lv. 64–67 Dodrio/Kadabra/Raichu/Ditto vs. Lv. 61 Blastoise`), `RUN` is ~85% on Attempt #1 rather than 100%.
+  - **CRITICAL**: Never wrap `["Right", "Down", "A"]` (`RUN`) in an unchecked `for attempt in range(3):` loop! When Attempt #1 succeeds, subsequent iterations press `Right` and `Down` in the overworld, walking away from `(tx, ty)` and causing retry timeouts (`Turn 1358`).
+  - Instead, run **one** `RUN` (`Right, Down, A`), immediately test `[d]` (`if mgba.get_coordinates() == (tx, ty): return True`), and ONLY if coordinates did not advance (`"Can't escape!"`), clear the enemy attack (`B * 6`) and press `A` alone (`since the battle cursor remains on ►RUN`).
