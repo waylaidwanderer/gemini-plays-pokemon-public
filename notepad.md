@@ -347,16 +347,25 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   5. Kingdra Lv 53 (Hydro Pump, Body Slam, Smokescreen) - Facade / Overgrow Bullet Seed. Prize: ¥5,500.
 - Champion Wallace (Water): Lead Wailord Lv 57 (Bullet Seed OHKO), Whiscash Lv 56 (Bullet Seed 4x OHKO), Ludicolo Lv 56 (Aerial Ace 2x OHKO), Tentacruel Lv 55 & Gyarados Lv 56 (Facade/Bullet Seed), Milotic Lv 58 Ace (Overgrow Bullet Seed 2x KO). Preserve 3+ Bullet Seed PP for Wallace!
 
-## Elite Four Attempt 14 (Active)
-- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (66/260 HP, Overgrow Active, 256 Spe) executing Facade to KO Ace Salamence (~48% HP). Drake has 0 Full Restores.
+## Elite Four Attempt 14 (Archived Turn 26967)
+- Status: Concluded via whiteout at Drake's Ace Salamence (~15% HP).
 - Milestone Progress:
-  - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
-  - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
-  - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Drake burned 2nd Full Restore on Salamence (OUT OF FULL RESTORES!). SAGE revived to 130/260 HP. Guava absorbed Dragon Claw and fainted. Sending in SAGE (130/260 HP, 256 Spe).
-- Party: SAGE Lv 87 (66/260 HP, Overgrow Active), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (0/101 HP, FAINTED).
-- Bag: 1 Revive (intact for Wallace), 1 Full Heal, 1 Master Ball, ¥15,970 cash.
-- Plan: KO Salamence with Facade -> sweep Kingdra Lv 53 -> unlock Champion Wallace!
+  - Sidney DEFEATED (5-0 clean sweep, Turn 26811)! Earned ¥4,900.
+  - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)! Earned ¥5,100.
+  - Glacia DEFEATED (Sweep, Turn 26856)! Earned ¥5,300.
+  - Drake: Shelgon Lv 52 (DEFEATED), Flygon Lv 53 (DEFEATED), Altaria Lv 54 (DEFEATED via critical Facade OHKO!), Salamence Lv 55 (dropped to ~15% HP!).
+  - Defeated 18 of 20 Elite Four Pokémon!
+- SAGE (Level 87 Sceptile ♂): Grew to Lv 87! Max HP 260, Atk 194, Def 141, SpA 212, SpD 190, Spe 256. 100% restored upon whiteout!
+- Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (total 6 Revives for Attempt 15!).
+
+## Elite Four Attempt 15 (Active)
+- Status: Respawning outside Pokémon League HQ. SAGE Lv 87 100% restored (260/260 HP, all PP full). Entire party 100% restored.
+- Immediate Plan:
+  1. Step North into lobby at (9, 11).
+  2. Walk to Mart counter at (16, 4).
+  3. Purchase 5 Revives for ¥7,500 (giving 6 Revives in Bag!).
+  4. Advance through gate at (9, 1) into Room 1 Sidney to launch Attempt 15!
+  5. Sweep Sidney, Phoebe, Glacia, Drake, and defeat Champion Wallace to enter the Hall of Fame!
 
 
 <hr>
@@ -5028,15 +5037,15 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 87 (66/260 HP, Overgrow ACTIVE, 256 Spe) executing Facade to KO Ace Salamence (~48% HP, 0 Full Restores)! Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
+- Status: Attempt 15 Active! Respawning at Pokémon League HQ. SAGE Lv 87 (260/260 HP, 256 Spe, all PP full). 1 Revive intact + ¥7,985 cash (purchasing 5 Revives at Mart for 6 total!).
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - HP: 66/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (1/20), Quick Attack (23/30). Status: OK (Overgrow Active).
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FAINTED.
-6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 0/101. Status: FAINTED.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
+6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
 - Badges: Stone, Knuckle, Dynamo, Heat, Balance, Feather, Mind, Rain. ALL 8 HOENN BADGES COLLECTED!
@@ -5044,10 +5053,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x1 (1 consumed on Walrein, 1 on Flygon, 2 on Salamence; 1 remaining for Wallace)
+- Revive x1 (in Bag; purchasing 5 more at Mart counter for 6 total!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥15,970 (earned ¥5,300 from Glacia; 4 Revives intact!)
+- Money: ~¥7,985 (halved upon whiteout; funds 5 Revives at Mart counter!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
