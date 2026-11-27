@@ -359,7 +359,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 3 Glacia: COBALU fainted to Surf. Clearing faint text to open Party Replacement Screen. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: Sending in CIPHER (Row 2, 20 HP) as anchor to execute final Sacrificial Revive on SAGE! Walrein at ~40% HP. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
 - Immediate Plan:
   1. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27022)!
   2. [x] Phoebe DEFEATED (Turn 27084)!
@@ -5039,7 +5039,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 3 Glacia: COBALU fainted to Surf. Clearing faint text to open Party Replacement Screen. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: Sending in CIPHER (Row 2, 20 HP) as anchor to execute final Sacrificial Revive on SAGE! Walrein at ~40% HP. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 114/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
@@ -5120,6 +5120,5 @@ A large meteorological research institute located in northern Route 119 beside t
 - Phoebe Full Restore Depletion Proof: Elite Four Phoebe carries exactly 2 Full Restores. Full Restore #1 was used on Dusclops Lv 51 (Turn 27054); Full Restore #2 was used on Sableye Lv 50 (Turn 27065). Both Full Restores are officially depleted; her final Pokémon (Dusclops Lv 48) cannot be healed.
 - Party Medicine Targeting Grid Absolute Law: On the in-battle party medicine targeting screen when the active battler faints and a reserve is sent in, the original lead (SAGE) remains anchored in Row 2 of the Right Column. To target SAGE with Revive, you MUST press Right then DOWN to Row 2! Pressing Right alone targets Row 1 (the most recently fainted anchor).
 - Party Grid Alignment with COBALU Lead (Turn 27101 Visual Ground Truth): When COBALU is in Left Box, Right Column is: Row 1 = LILZ (FNT), Row 2 = CIPHER (FNT), Row 3 = SAGE (FNT, Lv 87). Pressing Right lands on Row 2 (CIPHER); pressing Down moves to Row 3 (SAGE).
-
 
 <hr>

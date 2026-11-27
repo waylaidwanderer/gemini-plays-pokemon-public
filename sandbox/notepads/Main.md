@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 3 Glacia: COBALU fainted to Surf. Clearing faint text to open Party Replacement Screen. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: Sending in CIPHER (Row 2, 20 HP) as anchor to execute final Sacrificial Revive on SAGE! Walrein at ~40% HP. Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 114/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
