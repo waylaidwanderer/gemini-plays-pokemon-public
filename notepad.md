@@ -689,7 +689,8 @@ def name_buttons(word):
 
 ## Party Cursor, Nurse Joy, Move Timing & Strength Boulders (Verified Turns 948–961)
 - **Party Menu Cursor Persistence & Wrap (`Turn 948`)**: `wPartyMenuCursor` persists across both `POKéMON` and HM/TM teaching screens, and pressing `Down` on the bottom party member wraps directly to `Slot 0`.
-- **Pokémon Center Healing Prompt Count (`Turns 955, 959`)**: Nurse Joy requires **four** `A` presses (`1`: `"Welcome..."`, `2`: `"We heal..."`, `3`: `"perfect health!"`, `4`: `►HEAL`) before `sleep 3500` + `B`; pressing `B` after only three `A`s cancels healing and does not register the city for `Fly`.
+- **Pokémon Center Healing Prompt Count (`Turns 976, 981`)**: Nurse Joy requires **five** `A` presses (`1`: `"Welcome..."`, `2`: `"We heal..."`, `3`: `"perfect health!"`, `4`: opens `[►HEAL / CANCEL]`, `5`: selects `►HEAL`), followed by `sleep 4500` and four `B` presses (`"Thank you!..."` + `"We hope to see you again!"`).
+- **No Concatenated Trailing Sleeps (`Turn 970`)**: Never append `+ ["sleep ..."]` onto a list ending with `"sleep ..."`; consecutive sleeps reject the `press_buttons` call without raising a Python exception.
 - **Battle `FIGHT` Menu Render Delay (`Turn 960`)**: Use `sleep 600` (not `400`) after pressing `A` on `►FIGHT` so the move box renders before directional/confirmation inputs.
 - **Strength Boulder Shove (`Turn 951`)**: Each 1-tile boulder push takes two directional presses (`1st` shoves the boulder forward while player remains stationary; `2nd` steps into the vacated tile).
 
