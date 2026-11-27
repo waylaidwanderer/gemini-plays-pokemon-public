@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Declining switch for final Pokémon Crawdaunt Lv 48 (#5). SAGE Lv 88 (87/263 HP, Overgrow active!) ready to OHKO with Bullet Seed! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney DEFEATED (5-0 clean sweep)! Advancing to Room 2 Phoebe. SAGE Lv 88 (87/263 HP, 259 Spe). Bag: 2 Revives, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 258. Moves: Bullet Seed (29/30), Aerial Ace (19/20), Facade (14/20), Quick Attack (25/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -22,7 +22,7 @@
 - Revive x2 (purchased at League Mart for ¥3,000; 2 intact for Attempt 16!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥2,992 (¥5,992 - ¥3,000 for 2 Revives)
+- Money: ¥7,892 (¥2,992 + ¥4,900 Sidney prize money!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -30,7 +30,7 @@
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 16 Active):
-    - [ ] Elite Four Member #1 Sidney (Lead Mightyena OHKOed!)
+    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 sweep, Turn 27136)!
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake

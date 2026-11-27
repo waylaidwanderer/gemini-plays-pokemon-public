@@ -19,7 +19,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 16 Active):
-    - [ ] Elite Four Member #1 Sidney (Lead Mightyena OHKOed!)
+    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 sweep, Turn 27136)!
     - [ ] Elite Four Member #2 Phoebe
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
@@ -62,13 +62,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 1 Sidney: Declining switch for final Pokémon Crawdaunt Lv 48 (#5). SAGE Lv 88 (87/263 HP, Overgrow active!) ready to OHKO with Bullet Seed! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney DEFEATED (5-0 clean sweep)! Advancing to Room 2 Phoebe. SAGE Lv 88 (87/263 HP, 259 Spe). Bag: 2 Revives, ¥7,892 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
-  3. [x] Mightyena Lv 46 OHKOed (#1)!
-  4. [x] Absol Lv 49 DEFEATED (#2)!
-  5. [x] Shiftry Lv 48 DEFEATED (#3) - SAGE grew to Lv 88!
-  6. OHKO Cacturne Lv 46 with Aerial Ace (2x super effective, #4).
-  7. OHKO Crawdaunt Lv 48 with Bullet Seed (2x super effective STAB, #5). Sidney DEFEATED 5-0!
-  8. Advance to Room 2 Phoebe -> Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
+  3. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27136)! Earned ¥4,900.
+  4. Walk through Room 1 north door and ascend Grand Staircase to Room 2 Phoebe.
+  5. Sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
+  6. Defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
+  7. Defeat Drake.
+  8. Defeat Champion Wallace and enter the Hall of Fame!
