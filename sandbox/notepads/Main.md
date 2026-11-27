@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Facade to KO Absol (~50% HP, Sitrus Berry consumed)! Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
+- Status: Attempt 15 Active! Room 1 Sidney: Absol at ~15% HP. SAGE Lv 87 (180/260 HP, 256 Spe). Finishing Absol with Facade/Quick Attack! Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (16/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 180/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (16/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -62,7 +62,8 @@
 - Battle Bag Medicine Layout: In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Using Full Heal cures non-volatile status (such as Freeze) instantly on turn start.
 - Party Replacement Screen Cursor Default: When the active Pokémon faints, the party replacement screen cursor defaults to the fainted Pokémon in the Left Box. To select the first reserve Pokémon (Slot 2, Lilz), press Right first to move to Row 1 of the Right Column.
 - In-Combat Sacrificial Revive Execution Proof: Successfully executed Sacrificial Revive on Turn 26488 against Glacia's Ace Walrein Lv 53. Sending out reserve anchor (Lilz Lv 30) allows using Revive with +6 priority to restore SAGE to 124/249 HP. The anchor absorbs the opponent's incoming attack and faints, providing SAGE a free switch-in without switch-in damage.
-- Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.- Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
+- Facade Physical Damage vs Light Screen Proof: Verified on Turn 26493 that physical moves like Facade (70 BP) ignore Glalie's Light Screen, dealing ~75% max HP damage (~110 HP) to Glalie Lv 50.
+- Stat Stage Reset on Sacrificial Revive: Verified on Turn 26527 that when a Pokémon is revived and switched in, all prior stat drops (e.g. -1 Speed from Rock Tomb) are 100% reset to zero, restoring full base Speed.
 - Drake Send-Out Order in Emerald: Drake sends out Shelgon Lv 52 (#1), Flygon Lv 53 (#2), Altaria Lv 54 (#3), Ace Salamence Lv 55 (#4), and Kingdra Lv 53 (#5).
 - Aerial Ace Sand-Attack Bypass: Aerial Ace ignores accuracy and evasion modifiers, guaranteeing a 100% hit rate against Sand-Attack users (such as Sidney's Mightyena).
 - Pokémon League Lobby Mart Navigation: From lobby entrance (9, 11), walk Up x6, Right x7, Up x1 to reach Mart counter (16, 4). Revives are sold at Row 6 for ¥1,500 each.

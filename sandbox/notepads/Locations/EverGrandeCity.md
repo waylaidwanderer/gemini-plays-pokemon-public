@@ -49,10 +49,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Facade to KO Absol.
+- Status: Room 1 Sidney active! Mightyena DEFEATED; Absol at ~15% HP facing KO. SAGE Lv 87 (180/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
 - Immediate Plan:
-  1. Step North into lobby at (9, 11).
-  2. Walk to Mart counter at (16, 4).
-  3. Purchase Revives (DONE, 5 Revives in Bag, ¥1,985 cash!).
-  4. Advance through gate at (9, 1) into Room 1 Sidney to launch Attempt 15!
-  5. Sweep Sidney, Phoebe, Glacia, Drake, and defeat Champion Wallace to enter the Hall of Fame!
+  1. Finish Absol Lv 49 with Facade / Quick Attack.
+  2. OHKO Shiftry Lv 48 with Aerial Ace (2x super effective).
+  3. OHKO Cacturne Lv 46 with Aerial Ace (2x super effective).
+  4. OHKO Crawdaunt Lv 48 with Bullet Seed (2x super effective STAB). Sidney DEFEATED (5-0 clean sweep)!
+  5. Advance to Room 2 Phoebe -> Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
