@@ -46,13 +46,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Drake: Shelgon Lv 52 (DEFEATED), Flygon Lv 53 (DEFEATED), Altaria Lv 54 (DEFEATED via critical Facade OHKO!), Salamence Lv 55 (dropped to ~15% HP!).
   - Defeated 18 of 20 Elite Four Pokémon!
 - SAGE (Level 87 Sceptile ♂): Grew to Lv 87! Max HP 260, Atk 194, Def 141, SpA 212, SpD 190, Spe 256. 100% restored upon whiteout!
-- Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (total 6 Revives for Attempt 15!).
+- Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
 - Status: Respawning outside Pokémon League HQ. SAGE Lv 87 100% restored (260/260 HP, all PP full). Entire party 100% restored.
 - Immediate Plan:
   1. Step North into lobby at (9, 11).
   2. Walk to Mart counter at (16, 4).
-  3. Purchase 5 Revives for ¥7,500 (DONE, 6 Revives in Bag!).
+  3. Purchase Revives (DONE, 5 Revives in Bag, ¥1,985 cash!).
   4. Advance through gate at (9, 1) into Room 1 Sidney to launch Attempt 15!
   5. Sweep Sidney, Phoebe, Glacia, Drake, and defeat Champion Wallace to enter the Hall of Fame!
