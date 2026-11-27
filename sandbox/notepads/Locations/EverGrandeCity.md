@@ -78,7 +78,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
   5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
-  6. Glacia: Sealeo #1, Glalie #1, Sealeo #2, Glalie #2, Walrein Ace.
+  6. [x] Enter Room 3 and challenge Elite Four Glacia.
+  7. Glacia BATTLE ACTIVE!
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
