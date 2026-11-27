@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Sidney used Full Restore on Absol! SAGE Lv 87 (172/260 HP, 256 Spe) executing Facade for the OHKO! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 in red HP (~5%). SAGE Lv 87 (84/260 HP, Overgrow active!) executing Quick Attack for the KO! Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 84/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (18/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -84,3 +84,4 @@
 - Phoebe Full Restore Depletion Proof: Elite Four Phoebe carries exactly 2 Full Restores. Full Restore #1 was used on Dusclops Lv 51 (Turn 27054); Full Restore #2 was used on Sableye Lv 50 (Turn 27065). Both Full Restores are officially depleted; her final Pokémon (Dusclops Lv 48) cannot be healed.
 - Party Medicine Targeting Grid Absolute Law: On the in-battle party medicine targeting screen when the active battler faints and a reserve is sent in, the original lead (SAGE) remains anchored in Row 2 of the Right Column. To target SAGE with Revive, you MUST press Right then DOWN to Row 2! Pressing Right alone targets Row 1 (the most recently fainted anchor).
 - Party Grid Alignment with COBALU Lead (Turn 27101 Visual Ground Truth): When COBALU is in Left Box, Right Column is: Row 1 = LILZ (FNT), Row 2 = CIPHER (FNT), Row 3 = SAGE (FNT, Lv 87). Pressing Right lands on Row 2 (CIPHER); pressing Down moves to Row 3 (SAGE).
+- Absol Full Restore Threshold: In Room 1, Sidney triggers his Full Restore when Absol drops to critical red HP (~5%), forfeiting Absol's attack for that turn and depleting Sidney's healing items.
