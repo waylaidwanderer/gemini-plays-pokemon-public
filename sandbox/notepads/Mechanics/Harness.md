@@ -155,3 +155,5 @@ def name_buttons(word):
 - **Long HP-Bar Drain Settling & Two-Pivot Revive Chain (`Turns 1271–1277`)**:
   - Large HP drains (140+ HP on high-level `Blastoise`) take several seconds to animate; using only `8` `B` presses (`750ms`) can snapshot mid-drain before `"<PKMN> fainted!"` prints. Use `12` `B` presses (`800ms`) when tanking heavy hits.
   - To safely restore a fainted sweeper against a fast attacker (`e.g. Champion's Alakazam`), chain two pivots (`Pivot #1 -> Revive`, `Pivot #2 -> Full Restore`) so the sweeper re-enters at 100% HP on a free switch.
+- **Post-Credits Hall of Fame Reload Does NOT Heal Party (`Turn 1315`)**:
+  - In Generation I (`Pokémon Blue`), continuing from Pallet Town after the Hall of Fame preserves your exact post-Champion party HP (`including fainted members`) and depleted move PP. Always heal at a Pokémon Center before embarking on post-game dungeons.
