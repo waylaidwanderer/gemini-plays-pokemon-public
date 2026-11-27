@@ -377,6 +377,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Grudge Absorption: Depleted expendable Aerial Ace (0 PP) on Banette #1 KO, keeping 14 STAB Bullet Seed PP and 14 Facade PP 100% safe.
   - Sacrificial Revive: Restored SAGE to 131/263 HP via Lilz anchor with +6 priority. SAGE re-entered with zero switch-in damage to finish Phoebe.
   - SAGE Lv 88 Stats: HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Outspeeds every opponent in the League.
+- Glacia Full Restore Depleted: Glacia used Full Restore on Sealeo #2 on Turn 27186, wasting her attack turn!
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
