@@ -5028,10 +5028,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE fainted vs Salamence (~60% HP). Executing Sacrificial Revive via Cobalu Lv 18! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE revived to 130/260 HP! Salamence resolving attack vs Cobalu. Bag: 2 Revives, 1 Full Heal, 1 conscious anchor (Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - HP: 0/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (25/30). Status: FAINTED.
+1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (25/30). Status: OK (Revived).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5044,7 +5044,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x3 (1 consumed on Walrein, 1 consumed on Drake Flygon; 3 remaining for Drake & Wallace)
+- Revive x2 (1 consumed on Walrein, 1 on Flygon, 1 on Salamence; 2 remaining for Wallace)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥15,970 (earned ¥5,300 from Glacia; 4 Revives intact!)
