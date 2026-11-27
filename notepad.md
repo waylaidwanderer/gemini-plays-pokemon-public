@@ -386,7 +386,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   1. Enter Pokémon League Lobby.
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
   3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
-  4. Sidney BATTLE ACTIVE!
+  4. Sidney: Mightyena Lv 46 (DEFEATED Turn 27225!), Absol Lv 49 (Active), Shiftry, Cacturne, Crawdaunt.
   3. Enter Gate (9, 1) to challenge Room 1 Sidney.
   4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
   5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
