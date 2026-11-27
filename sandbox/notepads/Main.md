@@ -37,6 +37,7 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Intimidate Stat Reset on Sacrificial Revive: When facing an Intimidate user (like Drake's Ace Salamence Lv 55), letting the ace take a hit/faint after an opening strike allows a Sacrificial Revive via a low-level reserve anchor. When the ace is revived and switched in after the anchor faints, the -1 Attack debuff is 100% reset to zero, and Intimidate does not re-trigger because the opponent is already active. The ace re-enters with full unmitigated Attack!
 - Sacrificial Revive Stat Reset & Free Entry Proof: Verified on Turn 26897-26904 against Drake's Flygon Lv 53. Reviving SAGE via reserve anchor Lilz restored SAGE to 128 HP at +6 priority. Lilz absorbed Earthquake, allowing SAGE a 100% damage-free switch-in with all prior stat drops (-1 Speed from Shelgon's Rock Tomb) fully reset to 0, regaining full 253 Speed.
 - Shift Prompt Cursor Default: On the "Will [Player] change POKéMON?" prompt when an opponent's Pokémon faints, the cursor defaults to ▶Yes. Press Down to highlight No, then press A (or press B) to keep the active Pokémon in battle.
 - Speed Stage Drops vs Over-Leveled Ace: SAGE Lv 86 has 253 Speed. A -1 stage Speed drop (e.g. from Shelgon's Rock Tomb) reduces Speed to 168 (253 * 2/3), which still easily outspeeds Drake's Flygon Lv 53 (~125-144 Speed). Speed dominance is preserved despite stat debuffs.
