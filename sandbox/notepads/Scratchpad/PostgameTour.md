@@ -1,9 +1,9 @@
 # Kanto Post-Game Treasures & Starter Evolution Tour
 
 ## Checklist
-- [ ] Withdraw `HELIX FOSSIL`, `CARD KEY`, and `POKé FLUTE` from NEON's PC
-- [ ] Walk north to Viridian Poké Center & withdraw `ZEPHYR` (Fly) + `BRIAR` (Cut)
-- [ ] **Pewter City:** Cut bush behind Pewter Museum of Science -> claim `OLD AMBER`
+- [x] Withdraw `HELIX FOSSIL`, `CARD KEY`, `POKé FLUTE`, and `HM02` (taught `FLY` to `SOLARIS`!) from NEON's PC
+- [x] Swap `DOZER` & `TEMPEST` safely into Box 1 & withdraw `BRIAR` (Cut) at Pewter Poké Center
+- [x] **Pewter City:** Cut bush `(26,4)` behind Pewter Museum of Science -> claimed `OLD AMBER`!
 - [ ] **Cinnabar Island Lab:** Revive `HELIX FOSSIL` -> **Omanyte (`:L30`)** & `OLD AMBER` -> **Aerodactyl (`:L30`)** (nickname both!)
 - [ ] **Celadon City:** Climb Celadon Condominiums back entrance -> claim **Eevee (`:L25`)** (nickname & evolve with Stone!) + check Dept Store TMs for `SOLARIS`
 - [ ] **Saffron City:** Conquer **Saffron Fighting Dojo** (switch-train `RIPTIDE`!) -> claim **Hitmonlee / Hitmonchan (`:L30`)** (nickname!)
