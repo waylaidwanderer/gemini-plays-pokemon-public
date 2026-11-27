@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 86 executed Facade vs Flygon (dropping to ~15% HP). SAGE HP: 128/257 (resolving Flygon turn). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 86 (83/257 HP, Overgrow ACTIVE, 253 Spe) vs Flygon Lv 53 (~18% HP). Executing Quick Attack to KO Flygon! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - HP: 128/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (7/20), Quick Attack (25/30). Status: OK (Revived).
@@ -37,6 +37,7 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Sacrificial Revive Stat Reset & Free Entry Proof: Verified on Turn 26897-26904 against Drake's Flygon Lv 53. Reviving SAGE via reserve anchor Lilz restored SAGE to 128 HP at +6 priority. Lilz absorbed Earthquake, allowing SAGE a 100% damage-free switch-in with all prior stat drops (-1 Speed from Shelgon's Rock Tomb) fully reset to 0, regaining full 253 Speed.
 - Shift Prompt Cursor Default: On the "Will [Player] change POKéMON?" prompt when an opponent's Pokémon faints, the cursor defaults to ▶Yes. Press Down to highlight No, then press A (or press B) to keep the active Pokémon in battle.
 - Speed Stage Drops vs Over-Leveled Ace: SAGE Lv 86 has 253 Speed. A -1 stage Speed drop (e.g. from Shelgon's Rock Tomb) reduces Speed to 168 (253 * 2/3), which still easily outspeeds Drake's Flygon Lv 53 (~125-144 Speed). Speed dominance is preserved despite stat debuffs.
 - In-Battle Party Targeting Shift Mechanic: On the in-battle party targeting screen, the reserve column lists remaining party members with the active battler in the left box.
