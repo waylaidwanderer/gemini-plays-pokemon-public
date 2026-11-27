@@ -372,16 +372,16 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 1 Sidney: Shiftry Lv 48 at ~10% HP (#3). SAGE Lv 87 (84/260 HP, Tormented) executing Quick Attack for the KO! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Shiftry Lv 48 DEFEATED (#3)! SAGE grew to Lv 88 (87/263 HP)! Declining switch for Cacturne Lv 46 (#4). Bag: 2 Revives, ¥2,992 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
-  3. Walk through gate at (9, 1), ascend Grand Staircase, and enter Room 1.
-  4. Sweep Sidney 5-0 (earn +¥4,900).
-  5. Sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
-  6. Defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
-  7. Defeat Drake.
-  8. Defeat Champion Wallace and enter the Hall of Fame!
+  3. [x] Mightyena Lv 46 OHKOed (#1)!
+  4. [x] Absol Lv 49 DEFEATED (#2)!
+  5. [x] Shiftry Lv 48 DEFEATED (#3) - SAGE grew to Lv 88!
+  6. OHKO Cacturne Lv 46 with Aerial Ace (2x super effective, #4).
+  7. OHKO Crawdaunt Lv 48 with Bullet Seed (2x super effective STAB, #5). Sidney DEFEATED 5-0!
+  8. Advance to Room 2 Phoebe -> Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
 
 <hr>
 
@@ -5052,10 +5052,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Shiftry Lv 48 at ~10% HP (#3). SAGE Lv 87 (84/260 HP, Tormented) executing Quick Attack for the KO! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Shiftry Lv 48 DEFEATED (#3)! SAGE grew to Lv 88 (87/263 HP)! Declining switch for Cacturne Lv 46 (#4). Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 84/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (18/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 258. Moves: Bullet Seed (29/30), Aerial Ace (19/20), Facade (14/20), Quick Attack (25/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
