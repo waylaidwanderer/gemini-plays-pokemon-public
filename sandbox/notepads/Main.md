@@ -42,7 +42,7 @@
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
 - **DOZER** (Snorlax, Slot 5) - Lv 33 (151 HP; **Headbutt**, **Amnesia**, **Rest**, **HM04 Strength**) — caught on Route 16 turn 1147; taught HM04 Strength turn 1298 (learns Body Slam at Lv 35!)
 - **Slot 6:** OPEN (reserved for **Zapdos :L50** with Master Ball!)
-- **Bag (11/20 slots):** **Bicycle**, **Revive x4**, **Rare Candy x1**, **Max Potion x1**, **Full Restore x1**, **Hyper Potion x1**, **Max Repel x3**, **Full Heal x3**, **Master Ball x1**, **TM14 (Blizzard)**, **TM27 (Fissure)** (Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3, HM04, HM03, TM06, Silph Scope, Lift Key, HM02, HM01, Super Potion x1, Repel x1, Great Ball x3, TM22, Poké Flute, Card Key, TM46, Secret Key, TM38) | **Cash:** ~¥36,000+ | **Respawn & DIG:** Viridian City Center `(23,25)`
+- **Bag (12/20 slots):** **Bicycle**, **Revive x4**, **Rare Candy x2**, **Max Potion x1**, **Full Restore x1**, **Hyper Potion x1**, **Max Repel x3**, **Full Heal x3**, **Master Ball x1**, **TM14 (Blizzard)**, **TM27 (Fissure)**, **Carbos x1** (Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3, HM04, HM03, TM06, Silph Scope, Lift Key, HM02, HM01, Super Potion x1, Repel x1, Great Ball x3, TM22, Poké Flute, Card Key, TM46, Secret Key, TM38) | **Cash:** ~¥36,000+ | **Respawn & DIG:** Saffron City Center `(9,29)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
