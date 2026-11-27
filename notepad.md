@@ -5057,7 +5057,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 88, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 3 Glacia BATTLE ACTIVE! SAGE Lv 88 (54/263 HP, 259 Spe). Bag: 0 Revives, ¥12,992 cash.
+- Status: Attempt 16 Active! Room 3 Glacia BATTLE ACTIVE! SAGE FNT, MOCHI Lv 11 (42/42 HP) sole conscious Pokémon facing Glalie #2 (~25% HP). Bag: 0 Revives, ¥12,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 0/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (8/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (25/30). Status: FNT.
@@ -5073,7 +5073,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x0 (1 consumed Turn 27159, 1 consumed Turn 27186 for Sacrificial Revive on SAGE; 1 intact for Glacia/Drake/Wallace!)
+- Revive x0 (1 consumed Turn 27159, 1 consumed Turn 27186 for Sacrificial Revive on SAGE)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥12,992 (¥7,892 + ¥5,100 Phoebe prize money!)
