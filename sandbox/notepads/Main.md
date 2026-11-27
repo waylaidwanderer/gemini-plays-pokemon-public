@@ -19,10 +19,10 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x3 (purchased at League Mart for ¥4,500; 3 intact for Attempt 16!)
+- Revive x2 (purchased at League Mart for ¥3,000; 2 intact for Attempt 16!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,492 (¥5,992 - ¥4,500 for 3 Revives)
+- Money: ¥2,992 (¥5,992 - ¥3,000 for 2 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

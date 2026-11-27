@@ -64,10 +64,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Attempt 16 (Active)
 - Status: Attempt 16 Active! Purchasing 3rd Revive at Mart counter (16, 4). Total: 3 Revives (¥1,492 cash). SAGE Lv 87 (260/260 HP).
 - Immediate Plan:
-  1. Enter Pokémon League Lobby.
-  2. Walk to Mart counter at (16, 4) and purchase 3 Revives for ¥4,500.
-  3. Enter Room 1 and sweep Sidney 5-0 (earn +¥4,900).
-  4. Enter Room 2 and sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
-  5. Enter Room 3 and defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
-  6. Enter Room 4 and defeat Drake.
-  7. Defeat Champion Wallace and enter the Hall of Fame!
+  1. [x] Enter Pokémon League Lobby.
+  2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
+  3. Walk through gate at (9, 1), ascend Grand Staircase, and enter Room 1.
+  4. Sweep Sidney 5-0 (earn +¥4,900).
+  5. Sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
+  6. Defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
+  7. Defeat Drake.
+  8. Defeat Champion Wallace and enter the Hall of Fame!

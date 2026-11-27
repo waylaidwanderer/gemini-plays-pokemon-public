@@ -374,13 +374,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Attempt 16 (Active)
 - Status: Attempt 16 Active! Purchasing 3rd Revive at Mart counter (16, 4). Total: 3 Revives (¥1,492 cash). SAGE Lv 87 (260/260 HP).
 - Immediate Plan:
-  1. Enter Pokémon League Lobby.
-  2. Walk to Mart counter at (16, 4) and purchase 3 Revives for ¥4,500.
-  3. Enter Room 1 and sweep Sidney 5-0 (earn +¥4,900).
-  4. Enter Room 2 and sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
-  5. Enter Room 3 and defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
-  6. Enter Room 4 and defeat Drake.
-  7. Defeat Champion Wallace and enter the Hall of Fame!
+  1. [x] Enter Pokémon League Lobby.
+  2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
+  3. Walk through gate at (9, 1), ascend Grand Staircase, and enter Room 1.
+  4. Sweep Sidney 5-0 (earn +¥4,900).
+  5. Sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
+  6. Defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
+  7. Defeat Drake.
+  8. Defeat Champion Wallace and enter the Hall of Fame!
 
 <hr>
 
@@ -5067,10 +5068,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x3 (purchased at League Mart for ¥4,500; 3 intact for Attempt 16!)
+- Revive x2 (purchased at League Mart for ¥3,000; 2 intact for Attempt 16!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,492 (¥5,992 - ¥4,500 for 3 Revives)
+- Money: ¥2,992 (¥5,992 - ¥3,000 for 2 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
