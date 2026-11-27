@@ -1010,6 +1010,11 @@ def name_buttons(word):
   - In wild battles, species already owned in the Pokédex display a Poké Ball icon (`●`) on the left of `:L<level>` on the enemy HUD; unowned species show blank space.
   - When the active party is `6/6`, newly caught wild Pokémon (`SendNewMonToBox`) prepend at **`Index 0` (`top of the Box`)** in `BILL's PC -> WITHDRAW PKMN`, whereas manual `DEPOSIT PKMN` appends at the bottom of the Box. `WITHDRAW PKMN` sets `wPartyMenuCursor` to the newly filled party slot (`Slot 5`).
   - Consuming the final `×1` of an Evolutionary Stone exits directly to the overworld upon dismissing `"<PKMN> evolved into <EVO>!"` (rather than returning to `ITEM`), whereas declining an HM move via `"Abandon learning <MOVE>? ►YES"` requires **four** `B` presses after `A` (`dismisses "did not learn", exits Party, exits ITEM, exits Start`).
+- **Bicycle Dismount for Rod Probes, East-Shore Water Quirk, & `Go! <PKMN>!` Render Delay (`Turns 1722–1742`)**:
+  - Tapping a direction while on the `Bicycle` turns in place without changing `mgba.get_coordinates()`; always dismount before using directional neighbor-probes to distinguish `Good Rod`/`Super Rod` bites (`use sleep 4600 before B and compare against dynamic fish_pos`).
+  - East-shore curb tiles (e.g. Vermilion `(15, 9)`) are not fishable/surfable in Gen 1; fish facing north-shore water curbs (e.g. Vermilion `(11..14, 7)` facing `Down`) or open water.
+  - Wild encounter intros (`flash -> Wild <PKMN> -> Go! <LEAD>!`) take ~`7.2s` before `►FIGHT` accepts directional input; use `["B", "sleep 850"] * 10` (`8.5s`) before pressing `Down` (`ITEM`) on Turn 1 so `Down` is never swallowed before `►FIGHT` renders.
+  - `DEPOSIT PKMN` resets `wPartyMenuCursor` to `Slot 0`, and a subsequent `WITHDRAW PKMN` in the same PC session leaves `wPartyMenuCursor` on `Slot 0` (`use Down * 5 to select Slot 5`).
 
 
 <hr>
