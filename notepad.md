@@ -479,7 +479,10 @@
   - **3F -> 7F Rival -> 11F Giovanni (`Turns 1036–1049`)**:
     - Ride Elevator to **`3F`** (`Down * 2` from `1F`, exits `(20, 1)`), walk south down `x = 19` to `(19, 7)` (defeat Rocket Grunt at `(20, 7)`), unlock Card Key shutter `(17, 8)`, round table `(12..13, 8..9)` via `y = 10`, and step on **`3F (11, 11)`** -> **`7F (5, 3)`**.
     - On **`7F`**, stepping to `(3, 3)` triggers Rival `GARNET`; after he warps out on **`7F (5, 7)`**, step onto **`7F (5, 7)`** -> **`11F (3, 2)`**.
-    - On **`11F`**, walk `(3, 2) -> (2, 2) -> (2, 16)`, defeat Rocket Grunt at `(3, 16)` (facing `Up`), and unlock Card Key shutter **`(6..7, 13)`** into Giovanni's boardroom.
+    - On **`11F`**, walk `(3, 2) -> (2, 2) -> (2, 16)`, defeat Rocket Grunt at `(3, 16)` (facing `Up`), and unlock Card Key shutter **`(6..7, 13)`** into Giovanni's boardroom (`Silph President sits at (7, 5)` behind octagonal table `(6..9, 6..8)`, reachable via column `x = 5` to `(6, 5)`). `Silph Co.` allows `Dig` / `Escape Rope` straight back to `Saffron Center (9, 30)`.
+- **Saffron Gym (`(34, 3)`, Verified Turns 1061–1065)**:
+  - Route from `Saffron Center (9, 30)`: `(2, 30) -> (4, 6) -> (23, 6) -> (23, 4) -> (34, 4) -> Up` (`Fighting Dojo is at (26, 3)`).
+  - **Zero-Trainer Pure-Vertical Warp Solution**: Enter warp `(11, 15)` -> `(19, 17)`, then repeatedly take the vertical partner pad (`Up * 2` when `y % 6 == 5`, `Down * 2` when `y % 6 == 3`). Because `(11, 15)` and Sabrina's `(11, 11)` are the two degree-1 endpoints of the column-warp path and all Gym Trainers stand on center columns (`x = 3, 9, 17`), 13 pure-vertical hops reach `(11, 11)` (`Sabrina at (9, 8)`) with zero trainers fought.
 
 
 <hr>
@@ -709,6 +712,8 @@ def name_buttons(word):
 - **Town Map `Fly` Cursor Direction (`Turns 999–1000`)**: On the `Fly` Town Map, `Up` steps forward (`0 Pallet -> 1 Viridian`), whereas `Down` wraps backward from `0 Pallet` directly to the final unlocked destination (`Saffron City`). Allow `sleep 5500` after pressing `A` on the destination for the landing animation to finish.
 - **Silph Co. Elevator Cursor & Shake Duration (`Turns 1007, 1025–1026`)**: Opening the Elevator panel `(3, 0)` always initializes at `►1F` (`index 0`, so `3F` is `Down * 2` and `10F` is `Down * 9`). Even a 1-floor ride (`9F -> 10F`) shakes for ~3.8s and eats directional inputs after `sleep 3500`; always wait `sleep 4500` after confirming a floor before stepping to exit `(2, 3)`.
 - **Silph Co. Card Key Shutter Prompt (`Turns 1021–1024`)**: Facing a closed shutter and pressing `A` displays `"Bingo! ▼"` -> `"The CARD KEY ▼"` -> `"opened the door!"`, requiring `A` plus **three** `B` presses (`["A", "sleep 900", "B", "sleep 900", "B", "sleep 1200", "B", "sleep 800"]`) before stepping through.
+- **PC Deposit `Card Key` & `Master Ball` Quantity Prompt (`Turn 1060`)**: Both `Master Ball × 1` and `Card Key × 1` carry a `× 1` stack count in PC `DEPOSIT ITEM` and open `"How many?"` (`requiring A, A, B` rather than `A, B`).
+- **Gen 1 Paralysis Speed Override via `X Speed` (`Turns 1069–1071`)**: When paralyzed (`0.25x` Speed), slower attackers get trapped in `100% <-> 50%` loops against fast `Recover` AI (`Sabrina's Alakazam`). Applying `X Speed` *after* paralysis recalculates stats in Gen 1 without re-applying the `0.25x` paralysis Speed penalty, restoring turn-order priority.
 
 
 <hr>
