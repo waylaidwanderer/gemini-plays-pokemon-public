@@ -5,7 +5,7 @@
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
 - **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16, evolved into Blastoise at Lv. 36)
-- **Pokédex:** `Seen: 116 / Owned: 18` | **Money:** `¥40,631` | **Play Time:** `39:06`
+- **Pokédex:** `Seen: 119 / Owned: 31` | **Money:** `¥19,601` | **Play Time:** `42:29`
 
 ## Completed Story & Post-Game Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
@@ -33,17 +33,22 @@
 - [x] Silph Co. `7F` Gift Claimed — Obtained `Lapras` Lv. 15 (`PEARL`, Turn 1566)
 - [x] Celadon Mansion Rooftop & Route 12 Cleared — Claimed `Eevee` Lv. 25 (`PERIDOT`, Turn 1574), Woke Route 12 `Snorlax`, & Obtained `Super Rod` (Turn 1594)
 - [x] **Legendary Gemstone Hall of Fame (`2nd Hall of Fame`, Turn 1640)** — Swept Lorelei, Bruno, Agatha, Lance, & Champion `GARNET` to induct `OBSIDIAN`, `NAUTILUS`, `TOPAZ`, `SAPPHIRE`, `RUBY`, & `ONYX`!
+- [x] **All 3 Fishing Rods & All 5 HMs Completed (`Turns 1654–1666`)** — Claimed `Old Rod` (Vermilion), `Good Rod` (Fuchsia), and `HM05 (Flash)` from Oak's Aide on Route 2 (`completing HM01–HM05`).
+- [x] **Celadon Game Corner & Evolutionary Stones (`Turns 1685–1734`)** — Claimed `Coin Case` at Celadon Diner, redeemed 120 Coins for `Abra` (`QUARTZ`), and evolved `PERIDOT` -> `Jolteon`, `CARNELIAN` -> `Ninetales`, and `Shellder` -> `Cloyster`.
+- [x] **31+ Pokédex Owned & Oak's Aide `Itemfinder` Verified (`Turns 1698–1769`)** — Expanded Pokédex to `Seen: 119 / Owned: 31`, unlocked `Itemfinder` on Route 11 East Gatehouse `2F`, and field-verified `Itemfinder` on Route 11's hidden `Escape Rope` (`(48, 5)`).
 
-## Active Legendary Hall of Fame Party (`6/6` Slots — ALL 100% HP & 100% PP!)
+## Active Gemstone Party (`6/6` Slots — ALL 100% HP & 100% PP!)
 1. **OBSIDIAN** (Mewtwo) — Lv. 72 (`261/261` HP) | Moves: **Swift**, **Psychic**, **Thunder Wave**, **Recover**
 2. **NAUTILUS** (Blastoise) — Lv. 62 (`189/189` HP) | Moves: **Surf**, **Ice Beam**, **Dig**, **Hydro Pump**
-3. **ONYX** (Aerodactyl) — Lv. 30 (`95/95` HP) | Moves: Wing Attack, Agility
-4. **SAPPHIRE** (Articuno) — Lv. 50 (`151/151` HP) | Moves: Peck, **Ice Beam**
-5. **RUBY** (Moltres) — Lv. 50 (`161/161` HP) | Moves: Peck, Fire Spin
-6. **TOPAZ** (Zapdos) — Lv. 50 (`157/157` HP) | Moves: **ThunderShock**, **Drill Peck**
+3. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: **Cut**, Scratch, Stun Spore, Leech Life
+4. **PERIDOT** (Jolteon) — Lv. 25 (`68/68` HP) | Evolved from Celadon Rooftop `Eevee` via `Thunderstone`
+5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: **Fly**, Peck, Growl, Leer
+6. **CARNELIAN** (Ninetales) — Lv. 20 (`61/61` HP) | Evolved from Blue-exclusive Route 7 `Vulpix` via `Fire Stone`
 
-## Stored Gemstone Collection (`Bill's PC Box 1` — `8` Pokémon)
-- **CELESTE** (Clefairy Lv. 8 — `Strength`), **AMETHYST** (Nidoqueen Lv. 27 — `Earthquake`), **AMBER** (Paras Lv. 12 — `Cut`), **OPAL** (Omanyte Lv. 30), **PERIDOT** (Eevee Lv. 25), **PEARL** (Lapras Lv. 15), **CITRINE** (Hitmonlee Lv. 30), **JASPER** (Spearow Lv. 22 — `Fly`)
+## Stored Gemstone Collection (`Bill's PC Box 1` — `17/20` Pokémon)
+- **Legendaries (`4`)**: **TOPAZ** (`Zapdos` Lv. 50), **RUBY** (`Moltres` Lv. 50), **SAPPHIRE** (`Articuno` Lv. 50), **ONYX** (`Aerodactyl` Lv. 30)
+- **Story & Gift Gems (`6`)**: **AMETHYST** (`Nidoqueen` Lv. 27), **CELESTE** (`Clefairy` Lv. 8 — `Strength`), **OPAL** (`Omanyte` Lv. 30), **PEARL** (`Lapras` Lv. 15), **CITRINE** (`Hitmonlee` Lv. 30), **QUARTZ** (`Abra` Lv. 6 — Game Corner Prize)
+- **Kanto Exclusives & Rod Captures (`7`)**: **JADE** (`Bellsprout` Lv. 19), **PYRITE** (`Meowth` Lv. 17), **CORAL** (`Magikarp` Lv. 5 — `Old Rod`), **AZURITE** (`Poliwag` Lv. 10 — `Good Rod`), **CLOYSTER** (`Cloyster` Lv. 15 — `Super Rod` + `Water Stone`), **AGATE** (`Diglett` Lv. 19), **SUNSTONE** (`Sandshrew` Lv. 15), **SPINEL** (`Tentacool` Lv. 5 — `Super Rod`)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & Hall of Fame roster

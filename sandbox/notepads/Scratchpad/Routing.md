@@ -1,7 +1,7 @@
-# Post-Game Encore Routing — Completed
+# Post-Game Completion Routing — Completed
 
-## Completed Campaign Summary (`Turns 1530–1645`)
-1. **[DONE]** Revived `Helix Fossil` -> `Omanyte Lv. 30` (`OPAL`) and retrieved + revived `Old Amber` -> `Aerodactyl Lv. 30` (`ONYX`) at Cinnabar Lab (`screenshots/fossils_party.png`).
-2. **[DONE]** Defeated Karate Master Koichi at Saffron Fighting Dojo -> `Hitmonlee Lv. 30` (`CITRINE`) and claimed Silph Co. `7F` `Lapras Lv. 15` (`PEARL`).
-3. **[DONE]** Claimed Celadon Mansion Rooftop `Eevee Lv. 25` (`PERIDOT`) (`screenshots/gifts_party.png`), woke and cleared the Route 12 `Snorlax` pier blockade (`screenshots/snorlax_overworld.png`), and obtained the `Super Rod` from the Route 12 Fishing Guru.
-4. **[DONE]** Assembled `OBSIDIAN`, `NAUTILUS`, `TOPAZ`, `SAPPHIRE`, `RUBY`, and `ONYX` (`screenshots/hof_squad_ready.png`), swept Lorelei, Bruno, Agatha, Lance, and Champion `GARNET` into the Hall of Fame (`screenshots/legendary_hall_of_fame.png`), healed all 6 to 100% HP/PP at Mom's House in Pallet Town (`screenshots/champion_squad_healed.png`), and saved SRAM.
+## Completed Campaign Summary (`Turns 1647–1769`)
+1. **[DONE]** Claimed **`Old Rod`** (Vermilion City `(7, 3)`), **`Good Rod`** (Fuchsia City `(31, 27)`), and **`HM05 (Flash)`** from Professor Oak's Aide on Route 2 (`completing all 3 Fishing Rods and all 5 HMs HM01–HM05`).
+2. **[DONE]** Claimed **`Coin Case`** from the gambler at `(0, 1)` in Celadon Diner `(31, 27)`, purchased Game Corner coins, redeemed **`Abra Lv. 6`** (`QUARTZ`) at the Prize Exchange `(33, 19)`, stocked up on `Great Balls` and all four Evolutionary Stones at Celadon Dept. Store (`2F` & `4F`), and evolved `PERIDOT` (`Eevee` -> `Jolteon`).
+3. **[DONE]** Expanded Pokédex ownership from `18` to **`31` Owned** (`Seen: 119 / Owned: 31`, `screenshots/pokedex_31_owned.png`) via Route 7 (`JADE` Bellsprout, `PYRITE` Meowth, `CARNELIAN` Vulpix -> `Ninetales`), all three Fishing Rods (`CORAL` Magikarp, `AZURITE` Poliwag, `Shellder` -> `Cloyster`, `SPINEL` Tentacool), Diglett's Cave (`AGATE` Diglett), and Route 11 (`SUNSTONE` Sandshrew).
+4. **[DONE]** Unlocked **`Itemfinder`** from Professor Oak's Aide on Route 11 East Gatehouse `2F` (`screenshots/itemfinder_obtained.png`), verified `Itemfinder` in-game on Route 11's hidden `Escape Rope` at `(48, 5)` (`screenshots/itemfinder_verified.png`), healed our 6/6 Gemstone party to 100% HP/PP at Viridian Pokémon Center (`screenshots/postgame_completion_party.png`), and saved SRAM.
