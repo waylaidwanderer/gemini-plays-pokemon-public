@@ -328,11 +328,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 3. [x] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint!
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 15 5-0 sweep, Turn 27022)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 15, Turn 27084)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
-    - [ ] Elite Four Member #4 Drake (Attempt 15)
+6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 16 Active):
+    - [ ] Elite Four Member #1 Sidney (Lead Mightyena OHKOed!)
+    - [ ] Elite Four Member #2 Phoebe
+    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
 ## Elite Four & Champion Scouting & Strategy
@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Bullet Seed vs lead Mightyena Lv 46! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Mightyena Lv 46 OHKOed (#1)! Sidney sending in Absol Lv 49 (#2). SAGE Lv 87 (260/260 HP, 256 Spe). Bag: 2 Revives, ¥2,992 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
@@ -5052,10 +5052,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Bullet Seed vs lead Mightyena Lv 46! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Mightyena Lv 46 OHKOed (#1)! Sidney sending in Absol Lv 49 (#2). SAGE Lv 87 (260/260 HP, 256 Spe). Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5078,10 +5078,10 @@ A large meteorological research institute located in northern Route 119 beside t
 1. [x] Scale Ever Grande City waterfall using HM07 Waterfall!
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-4. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 15 5-0 sweep, Turn 27022)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 15, Turn 27084)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
+4. [ ] Challenge the Elite Four (Attempt 16 Active):
+    - [ ] Elite Four Member #1 Sidney (Lead Mightyena OHKOed!)
+    - [ ] Elite Four Member #2 Phoebe
+    - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

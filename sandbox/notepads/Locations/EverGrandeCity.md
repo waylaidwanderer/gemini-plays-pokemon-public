@@ -18,11 +18,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 3. [x] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint!
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 15 5-0 sweep, Turn 27022)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 15, Turn 27084)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
-    - [ ] Elite Four Member #4 Drake (Attempt 15)
+6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 16 Active):
+    - [ ] Elite Four Member #1 Sidney (Lead Mightyena OHKOed!)
+    - [ ] Elite Four Member #2 Phoebe
+    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
 ## Elite Four & Champion Scouting & Strategy
@@ -62,7 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Bullet Seed vs lead Mightyena Lv 46! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Mightyena Lv 46 OHKOed (#1)! Sidney sending in Absol Lv 49 (#2). SAGE Lv 87 (260/260 HP, 256 Spe). Bag: 2 Revives, ¥2,992 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
