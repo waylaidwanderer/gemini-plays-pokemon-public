@@ -80,6 +80,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
   7. [x] Glacia DEFEATED (Turn 27289)! Earned +¥5,300.
-  8. Enter Room 4 and challenge Elite Four Drake.
-  9. Defeat Champion Wallace.
-  10. Enter the Hall of Fame!
+  8. [x] Enter Room 4 and challenge Elite Four Drake.
+  9. Drake BATTLE ACTIVE! (Shelgon, Flygon, Altaria, Salamence Ace, Kingdra).
+  10. Defeat Champion Wallace.
+  11. Enter the Hall of Fame!
