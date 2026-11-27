@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 DEFEATED (#2)! Declining switch for Shiftry Lv 48 (#3). SAGE Lv 87 (84/260 HP, 256 Spe) ready to OHKO with Aerial Ace! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Shiftry Lv 48 on field (#3). SAGE Lv 87 (84/260 HP, 256 Spe) executing Aerial Ace for 2x super effective OHKO! Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 84/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (18/20), Quick Attack (28/30). Status: OK.
