@@ -603,8 +603,10 @@
      - **Hiker Alan** at `(43, 3)` facing `Left` (`Geodude Lv 20, Machop Lv 20, Geodude Lv 20`, defeated Turn 485).
      - Bypass rock mound via `y = 3` (`(45, 4) -> (45, 3) -> (51, 3)`), hop **`(51, 6)`** south ledge onto **`(51, 8)`** middle paved road *(do NOT hop `(51, 13)`!)*, and walk `Right` onto **Route 10 `(0, 8)`** (Turn 487).
 
-## Route 10 North & Rock Tunnel Entrance (Verified Turns 487–490)
+## Route 10 North, River Fishing, & Rock Tunnel Entrance (Verified Turns 487–490, 1833–1845)
+- **Cerulean `Jynx` Trade House**: Door at **`Cerulean City (13, 15)`** (west of Cerulean Center `(19, 17)`) -> spawns at `(2, 7)`; old man at **`(1, 2)`** (`stand at (2, 2) facing Left`) trades **`Jynx` (`"LOLA"`, `#124`)** for `Poliwhirl`.
 - Enters from `Route 9 (59, 8)` at **`Route 10 (0, 8)`**.
+- **Route 10 River `Poliwhirl` Spot**: Walk `(5, 8) -> (5, 9) -> (2, 9) -> (2, 4)` (`facing Up at river (2, 3)`); casting **`Super Rod`** hooks `50% Poliwhirl Lv. 23, 50% Slowpoke Lv. 15` (`Poliwhirl` is 9 chars vs `Slowpoke` 8 chars, distinguishable via crop `(455, 5, 40, 45)`).
 - Walk `(0, 8) -> (5, 8) -> (5, 13) -> (14, 13) -> (14, 20) -> (11, 20)` (`x = 14` cleanly bypasses the Route 10 Pokémon Center on its east side; `x = 9` has a cliff block at `(9, 14)`).
 - **Route 10 Pokémon Center**: Door at **`(11, 19)`**.
 - **2-Bush Shortcut to Rock Tunnel**: From `(9, 21)`, chop the two `Cut` bushes at **`(9, 20)`** and **`(9, 18)`**, then step onto **`Rock Tunnel North Entrance (8, 17)`** -> warps to **`Rock Tunnel 1F (15, 3)`**.
