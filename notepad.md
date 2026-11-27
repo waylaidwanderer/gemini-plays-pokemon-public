@@ -380,7 +380,30 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥12,992 -> halved to ~¥6,496 upon whiteout (funds 4 Revives at lobby Mart!).
 - SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
 
-## Elite Four Attempt 17 (Active)
+## Elite Four Attempt 17 (Archived Turn 27319)
+- Status: Concluded via whiteout at Drake's Ace Salamence Lv 55 (~25% HP).
+- Milestone Progress:
+  - Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned ¥4,900.
+  - SAGE grew to Level 89! Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262.
+  - Phoebe DEFEATED (Turn 27266)! Earned ¥5,100.
+  - Glacia DEFEATED (Turn 27289)! Earned ¥5,300.
+  - Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (DEFEATED Turn 27308!), Altaria Lv 54 (DEFEATED Turn 27310!), Salamence Ace Lv 55 (reduced to ~25% HP!).
+  - Defeated 18 of the 20 Elite Four Pokémon!
+- Economy: Peaked at ¥17,296 -> halved to ¥8,648 upon whiteout (funds 5 Revives at lobby Mart!).
+- SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
+
+## Elite Four Attempt 18 (Active)
+- Status: Attempt 18 Initializing! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. Cash ¥8,648 (purchasing 5 Revives at Mart counter).
+- Immediate Plan:
+  1. Enter Pokémon League Lobby.
+  2. Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
+  3. Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
+  4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
+  5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
+  6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
+  7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
+  8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
+  9. Enter the Hall of Fame!
 - Status: Attempt 17 Active! Glacia DEFEATED (Turn 27289)! Advancing to Room 4 Drake. SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
@@ -5065,13 +5088,13 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 17 Active! Room 4 Drake BATTLE ACTIVE! SAGE revived to 133 HP (Speed reset to 262). Bag: 0 Revives, ¥17,296 cash.
+- Status: Attempt 18 Active! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. Purchasing 5 Revives at League Mart. Cash: ¥8,648.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 0/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (21/30). Status: FNT.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
@@ -5084,7 +5107,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x0 (1 consumed Turn 27255, 1 consumed Turn 27281, 1 consumed Turn 27306 for Sacrificial Revive on SAGE)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥17,296 (¥11,996 + ¥5,300 Glacia prize money)
+- Money: ¥8,648 (Halved from ¥17,296 upon whiteout)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

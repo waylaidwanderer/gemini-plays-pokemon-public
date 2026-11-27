@@ -70,7 +70,30 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥12,992 -> halved to ~¥6,496 upon whiteout (funds 4 Revives at lobby Mart!).
 - SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
 
-## Elite Four Attempt 17 (Active)
+## Elite Four Attempt 17 (Archived Turn 27319)
+- Status: Concluded via whiteout at Drake's Ace Salamence Lv 55 (~25% HP).
+- Milestone Progress:
+  - Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned ¥4,900.
+  - SAGE grew to Level 89! Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262.
+  - Phoebe DEFEATED (Turn 27266)! Earned ¥5,100.
+  - Glacia DEFEATED (Turn 27289)! Earned ¥5,300.
+  - Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (DEFEATED Turn 27308!), Altaria Lv 54 (DEFEATED Turn 27310!), Salamence Ace Lv 55 (reduced to ~25% HP!).
+  - Defeated 18 of the 20 Elite Four Pokémon!
+- Economy: Peaked at ¥17,296 -> halved to ¥8,648 upon whiteout (funds 5 Revives at lobby Mart!).
+- SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
+
+## Elite Four Attempt 18 (Active)
+- Status: Attempt 18 Initializing! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. Cash ¥8,648 (purchasing 5 Revives at Mart counter).
+- Immediate Plan:
+  1. Enter Pokémon League Lobby.
+  2. Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
+  3. Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
+  4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
+  5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
+  6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
+  7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
+  8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
+  9. Enter the Hall of Fame!
 - Status: Attempt 17 Active! Glacia DEFEATED (Turn 27289)! Advancing to Room 4 Drake. SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
