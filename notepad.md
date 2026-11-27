@@ -332,7 +332,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 14, Turn 26811)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
-    - [ ] Elite Four Member #4 Drake (Active Attempt 14, Turn 26911)
+    - [ ] Elite Four Member #4 Drake (Attempt 15)
     - [ ] Champion Wallace
 
 ## Elite Four & Champion Scouting & Strategy
