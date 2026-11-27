@@ -359,7 +359,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 3 Glacia: CIPHER on field (20 HP). Opening Bag -> Revive -> USE to visually inspect party targeting grid for SAGE! Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: All 5 Revives depleted. CIPHER Lv 17 (20 HP) attacking Walrein (~35% HP) with Confusion! Reserves: Guava (101 HP), Mochi (42 HP). Bag: 0 Revives, ¥11,985 cash.
 - Immediate Plan:
   1. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27022)!
   2. [x] Phoebe DEFEATED (Turn 27084)!
@@ -5039,7 +5039,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 3 Glacia: CIPHER on field (20 HP). Opening Bag -> Revive -> USE to visually inspect party targeting grid for SAGE! Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: All 5 Revives depleted. CIPHER Lv 17 (20 HP) attacking Walrein (~35% HP) with Confusion! Reserves: Guava (101 HP), Mochi (42 HP). Bag: 0 Revives, ¥11,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 114/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
