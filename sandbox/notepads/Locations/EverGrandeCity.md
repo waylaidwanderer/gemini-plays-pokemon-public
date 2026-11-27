@@ -81,6 +81,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
   7. [x] Glacia DEFEATED (Turn 27289)! Earned +¥5,300.
   8. [x] Enter Room 4 and challenge Elite Four Drake.
-  9. Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (DEFEATED Turn 27302!), Altaria Lv 54 (Active), Salamence Ace, Kingdra.
+  9. Drake: Shelgon Lv 52 (DEFEATED Turn 27295!), Flygon Lv 53 (DEFEATED Turn 27302!), Altaria Lv 54 (DEFEATED Turn 27310!), Salamence Ace Lv 55 (Active), Kingdra.
   10. Defeat Champion Wallace.
   11. Enter the Hall of Fame!
