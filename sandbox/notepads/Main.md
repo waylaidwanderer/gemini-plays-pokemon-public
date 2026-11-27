@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP. Resolving Ice Beam damage on SAGE (48 HP, FRZ). Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP. SAGE Lv 87 (4/260 HP, FRZ, Overgrow active!) selecting Bullet Seed for 20% thaw KO. Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 91/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 4/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: FRZ.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -76,3 +76,7 @@
 - Mart Purchase Confirmation Timing: In Pokémon Emerald Marts, the purchase quantity confirmation text ("Item? And you wanted X? That will be ¥Y.") requires ~1200ms to print before the [YES / NO] prompt is active. Pressing B prematurely cancels the purchase.
 - Level 85 SAGE Benchmark: Max HP 254, Atk 190, Def 137, SpA 207, SpD 186, Spe 250. Overgrow activates at <= 84 HP (254 / 3 = 84).
 - B Button Shift Prompt Dismissal Proof (Turn 27017-27019 Visual Proof): Pressing B on the 'Will [Player] change POKéMON?' prompt reliably selects NO, declining the switch and immediately triggering the opponent's send-out animation without opening the party menu.
+- Grand Staircase Navigation Mechanics: The staircase between Room 1 and Room 2 is centered at x=5, running vertically from y=10 down to y=3. Stepping Up x8 steps from (5, 10) reaches y=3 and triggers the warp into Room 2 at (6, 7). Phoebe is at (6, 5), approached by stepping Up to (6, 6) and pressing A.
+- Full Heal Freeze Cure Verification (Turn 27034 Visual Proof): In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Selecting Full Heal -> USE -> SAGE cures Freeze immediately and removes the FRZ badge.
+- Dusclops Lv 51 Emerald Lead Verification: In Pokémon Emerald, Elite Four Phoebe leads with Dusclops ♀ Lv 51 (Pressure, Ice Beam, Shadow Ball, Rock Slide, Protect), not Lv 48 as in Ruby/Sapphire.
+- Ice Beam Freeze Proc & Thaw Mechanics: Dusclops Lv 51 Ice Beam deals 28-43 dmg to Lv 87 SAGE (190 SpD) with a 10% freeze proc. In Gen 3, a frozen Pokémon has a 20% chance to thaw each turn upon move selection and immediately executes the move on that turn.

@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP. Resolving Ice Beam damage on SAGE (48 HP, FRZ). Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP. SAGE Lv 87 (4/260 HP, FRZ, Overgrow active!) selecting Bullet Seed for 20% thaw KO. Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. 2HKO Dusclops Lv 51 with Bullet Seed (STAB).
   2. OHKO Banette Lv 49 with Bullet Seed.
