@@ -392,6 +392,13 @@
   3. On `3F` *(no Strength needed)*: walk north to `y = 0`, west along `y = 0` to `(6, 0)`, `Down * 2` to `(6, 2)`, `Left * 4` to `(2, 2)`, and `Up * 2` onto **`3F (2, 0)` ladder** -> drops onto **`2F (1, 1)`**.
   4. Walk `Right * 9` along `y = 1` (`(1, 1) -> (10, 1)`), `Down * 3` to `(10, 4)`, `Right` to **`(11, 4)`** facing `Down` at **`Moltres Lv. 50` `(11, 5)`** *(captured on `Ultra Ball #10` as **`RUBY`**, Turn 1475; warped out via `Dig`, Turn 1477)*.
 
+## Cinnabar Island -> Route 20 -> Seafoam Islands (`Verified Turns 1481–1490`)
+- **Cinnabar Mart**: Located at `(15, 11)` (`4` tiles east of Cinnabar Center `(11, 11)`); sells `Ultra Ball` (`¥1,200`, Slot 0) and `Max Repel` (`¥700`, Slot 3).
+- **Route 20 Surf Route**:
+  1. Surf east from Cinnabar shore `(19, 8)` onto `Route 20 (0, 8)`.
+  2. Sweep/pass Swimmers at `(15, 7)` and `(25, 6)`, hug the north rock border (`y ~ 2..5`) east to `x ~ 47`, then pass along the south channel `(47, 14) -> (54, 15) -> (60, 15)` (`1` row below the right-facing Swimmer at `(55, 14)`).
+  3. Surf `Up * 2` to `(60, 13)`, `Left * 4` to `(56, 13)`, `Up * 2` onto Seafoam Island land `(56, 11)`, and enter **Seafoam Islands `1F` East Entrance** (`spawns at 1F (26, 17)`).
+
 
 <hr>
 
@@ -914,8 +921,9 @@ def name_buttons(word):
   - In Gen 1, Electric-types (`Zapdos`) are **not** immune to `Thunder Wave` (`PAR` immunity began in Gen 6). `Mewtwo Lv. 70` `Thunder Wave` + **1 `Swift`** (`~60` damage, max crit `~120` < `157` HP) reaches `94%` of max `PAR` Ultra Ball catch rate (`9.3%` vs `9.9%`) with **0% KO risk**.
   - **2-Ball `A`-Only Batch**: Because `"All right! <PKMN> was ▼"` takes **8 `A` presses** to reach `"give a nickname?"` `►YES`, throwing Ball #1 (`["A", "sleep 8500"]`) followed by `["A", "sleep 3500", "A", "sleep 800", "A", "sleep 800", "A", "sleep 8500"]` safely throws **2 Balls per turn** (`cursor stays on ►ITEM -> ►ULTRA BALL`) without ever pressing `B` or overshooting `►YES` if Ball #1 catches (`verified Turn 1421`).
   - Use `"sleep 600"` (not `"sleep 400"`) between selecting an overworld Bag item (`A`) and confirming `►USE` (`A`) so `USE` is not dropped (`Turn 1414 vs 1427`).
-- **PC Logoff `Start` Reset (`Turns 1444–1446`)**:
-  - Logging off a Pokémon Center PC terminal resets the `Start` menu cursor back to `Slot 0` (`►POKéDEX`), whereas `BILL's PC -> DEPOSIT PKMN` leaves overworld `wPartyMenuCursor` at its prior numerical slot (`clamped to the new party size`).
+- **PC Exit & `BILL's PC` Cursor Rules (`Turns 1444–1446, 1480, 1484`)**:
+  - `BILL's PC -> DEPOSIT PKMN` uses a non-wrapping scrolling list (`clamps at CANCEL`), so `Down * 8 -> Up * 1` deterministically targets the last party slot (`Slot 5`), and depositing resets `wPartyMenuCursor` to `Slot 0` (`Turn 1484 filmstrip_2.png #50`).
+  - Exiting the top-level PC menu via `B` preserves the prior `Start` menu slot (`Turn 1484 filmstrip_2.png #44`), whereas selecting `LOG OFF` with `A` resets `Start` to `Slot 0` (`►POKéDEX`).
 - **Bag Bottom-Clamping & `Surf` Facing Prerequisite (`Turns 1456, 1459, 1465, 1469`)**:
   - With 15–18 items in the Bag, clamping to `CANCEL` from `Slot 0` requires **`Down * 19`** (`Down * 6` stops mid-list on non-field items, triggering Oak's warning in the overworld instead of selecting the bottom slot).
   - Before activating `HM03 (Surf)` via `Start -> POKéMON`, ensure the player sprite is physically facing the water tile (`IsNextTileShoreOrWater` checks facing direction; facing a shore pillar prints `"No SURFing ... here!"`).

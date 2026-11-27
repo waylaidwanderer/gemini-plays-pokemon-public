@@ -45,3 +45,10 @@
   2. Push `2F (4, 14)` boulder onto `(1, 16)` Switch #2A, cross plateau `(5, 8) -> (14, 8) -> (14, 13) -> (18, 14) -> (21, 14)`, descend `(21, 15)` stairs to `(21, 16) -> (28, 16) -> (28, 11) -> (21, 11) -> (21, 6)`, and climb **`2F (23, 7)`** -> **`3F (23, 7)`**.
   3. On `3F` *(no Strength needed)*: walk north to `y = 0`, west along `y = 0` to `(6, 0)`, `Down * 2` to `(6, 2)`, `Left * 4` to `(2, 2)`, and `Up * 2` onto **`3F (2, 0)` ladder** -> drops onto **`2F (1, 1)`**.
   4. Walk `Right * 9` along `y = 1` (`(1, 1) -> (10, 1)`), `Down * 3` to `(10, 4)`, `Right` to **`(11, 4)`** facing `Down` at **`Moltres Lv. 50` `(11, 5)`** *(captured on `Ultra Ball #10` as **`RUBY`**, Turn 1475; warped out via `Dig`, Turn 1477)*.
+
+## Cinnabar Island -> Route 20 -> Seafoam Islands (`Verified Turns 1481–1490`)
+- **Cinnabar Mart**: Located at `(15, 11)` (`4` tiles east of Cinnabar Center `(11, 11)`); sells `Ultra Ball` (`¥1,200`, Slot 0) and `Max Repel` (`¥700`, Slot 3).
+- **Route 20 Surf Route**:
+  1. Surf east from Cinnabar shore `(19, 8)` onto `Route 20 (0, 8)`.
+  2. Sweep/pass Swimmers at `(15, 7)` and `(25, 6)`, hug the north rock border (`y ~ 2..5`) east to `x ~ 47`, then pass along the south channel `(47, 14) -> (54, 15) -> (60, 15)` (`1` row below the right-facing Swimmer at `(55, 14)`).
+  3. Surf `Up * 2` to `(60, 13)`, `Left * 4` to `(56, 13)`, `Up * 2` onto Seafoam Island land `(56, 11)`, and enter **Seafoam Islands `1F` East Entrance** (`spawns at 1F (26, 17)`).

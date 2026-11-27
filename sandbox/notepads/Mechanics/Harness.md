@@ -165,8 +165,9 @@ def name_buttons(word):
   - In Gen 1, Electric-types (`Zapdos`) are **not** immune to `Thunder Wave` (`PAR` immunity began in Gen 6). `Mewtwo Lv. 70` `Thunder Wave` + **1 `Swift`** (`~60` damage, max crit `~120` < `157` HP) reaches `94%` of max `PAR` Ultra Ball catch rate (`9.3%` vs `9.9%`) with **0% KO risk**.
   - **2-Ball `A`-Only Batch**: Because `"All right! <PKMN> was ▼"` takes **8 `A` presses** to reach `"give a nickname?"` `►YES`, throwing Ball #1 (`["A", "sleep 8500"]`) followed by `["A", "sleep 3500", "A", "sleep 800", "A", "sleep 800", "A", "sleep 8500"]` safely throws **2 Balls per turn** (`cursor stays on ►ITEM -> ►ULTRA BALL`) without ever pressing `B` or overshooting `►YES` if Ball #1 catches (`verified Turn 1421`).
   - Use `"sleep 600"` (not `"sleep 400"`) between selecting an overworld Bag item (`A`) and confirming `►USE` (`A`) so `USE` is not dropped (`Turn 1414 vs 1427`).
-- **PC Logoff `Start` Reset (`Turns 1444–1446`)**:
-  - Logging off a Pokémon Center PC terminal resets the `Start` menu cursor back to `Slot 0` (`►POKéDEX`), whereas `BILL's PC -> DEPOSIT PKMN` leaves overworld `wPartyMenuCursor` at its prior numerical slot (`clamped to the new party size`).
+- **PC Exit & `BILL's PC` Cursor Rules (`Turns 1444–1446, 1480, 1484`)**:
+  - `BILL's PC -> DEPOSIT PKMN` uses a non-wrapping scrolling list (`clamps at CANCEL`), so `Down * 8 -> Up * 1` deterministically targets the last party slot (`Slot 5`), and depositing resets `wPartyMenuCursor` to `Slot 0` (`Turn 1484 filmstrip_2.png #50`).
+  - Exiting the top-level PC menu via `B` preserves the prior `Start` menu slot (`Turn 1484 filmstrip_2.png #44`), whereas selecting `LOG OFF` with `A` resets `Start` to `Slot 0` (`►POKéDEX`).
 - **Bag Bottom-Clamping & `Surf` Facing Prerequisite (`Turns 1456, 1459, 1465, 1469`)**:
   - With 15–18 items in the Bag, clamping to `CANCEL` from `Slot 0` requires **`Down * 19`** (`Down * 6` stops mid-list on non-field items, triggering Oak's warning in the overworld instead of selecting the bottom slot).
   - Before activating `HM03 (Surf)` via `Start -> POKéMON`, ensure the player sprite is physically facing the water tile (`IsNextTileShoreOrWater` checks facing direction; facing a shore pillar prints `"No SURFing ... here!"`).
