@@ -21,7 +21,13 @@
     3. Cross the central plateau `(9, 8) -> (13, 8) -> (13, 12)` *(optional `Ultra Ball` at `(16, 9)` via `(16, 12) -> (16, 10)`, verified Turn 1366)* to **`(13, 13)`** stairs, `Surf` onto `(13, 14)` and follow `(14, 14) -> (14, 16) -> (18, 16) -> (18, 12) -> (19, 12)`, then climb **`(19, 11)`** stairs onto the east plateau.
     4. Walk north/east `(19, 8) -> (24, 8) -> (24, 1) -> (28, 1) -> (28, 6) -> (27, 6) ->` **`(27, 7)`** stairs, `Surf` onto `(27, 8)` around the west/south side of Mewtwo's raised island `(27, 11) -> (23, 11) -> (23, 16) -> (27, 16)`, climb **`(27, 15)`** stairs to `(27, 14)`, and interact with **`Mewtwo Lv. 70`** at **`(27, 13)`** *(captured in `Master Ball` as **`OBSIDIAN`**, Turn 1375)*. Use `Dig` to warp directly back to Cerulean City `(19, 18)`.
 
-## Cerulean City -> Route 9 -> Power Plant (`Verified Turns 1384–1388`)
+## Cerulean City -> Route 9 -> Power Plant (`Verified Turns 1384–1396`)
 - **Cerulean East Exit via Burglarized House (`(27, 11)`)**:
   - `(32..34, 19)` south ledge + `(35, 20..24)` bollards block direct eastward exit from Cerulean Center `(19, 18)`.
   - Instead, climb **`(8, 15)`** stairs to `(8, 12)`, walk `Right * 19` to **`(27, 12)`**, enter the **Burglarized House `(27, 11)`** (`lands at (2, 7)`), walk around the table `(2, 7) -> (2, 5) -> (6, 5) -> (6, 2) -> (3, 2) -> (3, 1)` and step `Up` through the wall breach onto **`Cerulean (27, 9)`**, then walk `(27, 9) -> (34, 9) -> (34, 16) -> (39, 16)` onto **`Route 9 (0, 8)`**.
+- **Route 9 Mound Detail (`Turns 1388–1391`)**:
+  - At the `(24..27, 13..15)` rock mound, `(19, 11)` is a rock wall; climb `(19, 13)` stairs only to `(19, 12)`, step `Right` to `(20, 12)`, `Up` to `(20, 11)`, then `Right * 8` to `(28, 11)` and `Down * 2` across `(28, 13)` ledge to `(28, 14) -> (29, 14)`.
+- **Route 10 River Canal to Power Plant (`Turns 1391–1396`)**:
+  - From `Route 10 (5, 9)`, walk `Left * 3` to `(2, 9)` and `Up * 5` through the `(2..3, 5)` bollard gap to the river bank at **`Route 10 (2, 4)`**.
+  - `Surf` onto `(2, 3)`, follow the canal `Right * 15` to `(17, 3)`, `Down * 44` to `(17, 47)`, `Left * 15` to `(2, 47)`, and `Up * 7` onto the shore at **`Route 10 (2, 40)`**.
+  - Walk `Right * 4` to `(6, 40)` and enter the **Power Plant** at **`Route 10 (6, 39)`** (`warps inside to (4, 35)`).
