@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Executing Sacrificial Revive on SAGE (Row 2)! SAGE reviving to 130 HP as CIPHER absorbs Banette attack. Bag: 1 Revive, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: SAGE REVIVED to 130 HP! Resolving Banette Facade on CIPHER (4 HP). Bag: 1 Revive, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. [x] Dusclops Lv 51 DEFEATED (#1)!
   2. [x] Banette Lv 49 DEFEATED (#2) - Grudge absorbed by Aerial Ace!
