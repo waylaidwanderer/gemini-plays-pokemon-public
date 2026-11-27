@@ -353,7 +353,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED (critical Facade OHKO!). Facing Ace Salamence Lv 55.
+  - Drake: Shelgon, Flygon, Altaria DEFEATED! Salamence at ~60% HP. Executing Sacrificial Revive via Cobalu Lv 18 to reset Intimidate and restore SAGE.
 - Party: SAGE Lv 86 (39/257 HP, Lead), Lilz Lv 30 (FNT), Cobalu Lv 18 (49/49 HP), Guava Lv 30 (101/101 HP), Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
 - Bag: 3 Revives, 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: Finish Flygon with Quick Attack -> sweep Altaria, Salamence, Kingdra -> challenge Champion Wallace!
@@ -5028,10 +5028,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Facade dealt ~35% to Salamence (~65% HP left). Resolving Salamence retaliatory attack. SAGE Lv 87 (42/260 HP). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE fainted vs Salamence (~60% HP). Executing Sacrificial Revive via Cobalu Lv 18! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - HP: 42/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (25/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 87) - HP: 0/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (4/20), Quick Attack (25/30). Status: FAINTED.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
