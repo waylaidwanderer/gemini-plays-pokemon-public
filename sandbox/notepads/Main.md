@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 88, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 2 Phoebe: SAGE REVIVED to 131 HP! Resolving Banette Shadow Ball on LILZ. Bag: 1 Revive, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: LILZ fainted (anchor sacrifice complete). Sending in SAGE (131/263 HP, 259 Spe, healthy!) to KO Banette Lv 49! Bag: 1 Revive, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.

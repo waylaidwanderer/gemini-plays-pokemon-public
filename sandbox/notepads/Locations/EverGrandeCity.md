@@ -62,7 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 2 Phoebe: SAGE REVIVED to 131 HP! Resolving Banette Shadow Ball on LILZ. Bag: 1 Revive, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: LILZ fainted (anchor sacrifice complete). Sending in SAGE (131/263 HP, 259 Spe, healthy!) to KO Banette Lv 49! Bag: 1 Revive, ¥7,892 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
