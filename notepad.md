@@ -1006,6 +1006,10 @@ def name_buttons(word):
   - In PC `DEPOSIT ITEM` `"How many?"` (`starts at ×01`), `Up * (N - 1)` selects `×N` (`Up * N` wraps past max stack back to `×01`).
   - During an overworld Stone evolution (`~15s` animation + fanfare), `Left` is a safe `B`-free button for splitting a `>10000ms` wait (`["A", "sleep 9500", "Left", "sleep 6500"]`) because `Left` neither cancels evolution nor activates `Slot 0` upon returning to the Bag.
   - Newly caught wild species play their Pokédex cry (~3.2s) on `"New POKéDEX data will be added!"`; use `"sleep 3500"` after that `A` press so subsequent `A`s are not swallowed, and always visually verify the Naming Screen or step onto a non-grass tile before resuming grass pacing. Moving onto `Row 5` (`►lower case`) on the Naming Screen resets `X` to `0` (`Up * 5` deterministically lands on `(0, 0)` `'A'`).
+- **Wild Owned HUD Icon, `SendNewMonToBox` Top-Prepend, & `×1` Stone Exit (`Turns 1701–1721`)**:
+  - In wild battles, species already owned in the Pokédex display a Poké Ball icon (`●`) on the left of `:L<level>` on the enemy HUD; unowned species show blank space.
+  - When the active party is `6/6`, newly caught wild Pokémon (`SendNewMonToBox`) prepend at **`Index 0` (`top of the Box`)** in `BILL's PC -> WITHDRAW PKMN`, whereas manual `DEPOSIT PKMN` appends at the bottom of the Box. `WITHDRAW PKMN` sets `wPartyMenuCursor` to the newly filled party slot (`Slot 5`).
+  - Consuming the final `×1` of an Evolutionary Stone exits directly to the overworld upon dismissing `"<PKMN> evolved into <EVO>!"` (rather than returning to `ITEM`), whereas declining an HM move via `"Abandon learning <MOVE>? ►YES"` requires **four** `B` presses after `A` (`dismisses "did not learn", exits Party, exits ITEM, exits Start`).
 
 
 <hr>
