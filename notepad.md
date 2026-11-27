@@ -981,6 +981,10 @@ def name_buttons(word):
 - **Fainted Overworld `Fly` & Gen 1 Unstatused `Ultra Ball` Threshold (`Turns 1582, 1594`)**:
   - Fainted Pokémon (`0 HP FNT`) still execute overworld HMs (`HM02 Fly`, `Turn 1594`).
   - Against Catch Rate `25` (`Snorlax`) at 100% HP with no status condition, `Ultra Ball` (`BF = 12 -> f = 85`) has threshold `floor(25 * 85 / 255) = 8 / 151` (`printing "You missed the POKéMON!"` on 94% of throws); always confirm `:PAR`/`:SLP` on the enemy status bar before throwing Balls.
+- **In-Battle Switch Move-Cursor Reset, `ITEM` No-`USE/TOSS` Rule, & AI Heal Turn Order (`Turns 1628, 1631, 1636`)**:
+  - Manually switching via in-battle `PKMN` resets `wMoveMenuCursor` (`FIGHT`) back to **`Slot 0`** (`Turn 1628`).
+  - Unlike overworld `ITEM`, in-battle `ITEM` skips `USE / TOSS` — pressing a single `A` on `Full Restore` / `Max Revive` immediately opens `"Use item on which POKéMON?"` (`Turn 1631`).
+  - Generation I Trainer AI items (`Full Restore` / `Hyper Potion`) execute on the enemy Pokémon's Speed slot rather than at priority before faster player attacks (`Turn 1636`).
 
 
 <hr>
