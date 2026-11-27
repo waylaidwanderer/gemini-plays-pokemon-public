@@ -78,7 +78,7 @@
 - [x] **Cinnabar Island Lab:** Revived `HELIX FOSSIL` -> **`NAUTILUS` (Omanyte :L30)** & `OLD AMBER` -> **`WYVERN` (Aerodactyl :L30)**! (Pokédex Owned: 13)
 - [x] **Celadon City:** Climbed Celadon Condominiums back stairs -> claimed **`VOLTAIRE` (Eevee :L25)** -> bought **Thunderstone** on Dept Store 4F & evolved **`VOLTAIRE` -> `JOLTEON`**! (Pokédex Owned: 15) + bought **`TM09 Take Down`** for `SOLARIS`!
 - [ ] **Saffron City:** Conquer **Saffron Fighting Dojo** (switch-train `RIPTIDE`!) -> claim **Hitmonlee / Hitmonchan (`:L30`)** (nickname!)
-- [ ] **Silph Co. 7F:** Claim gift **Lapras (`:L15`)** (nickname!)
+- [x] **Silph Co. 7F:** Claimed gift **`AURORA` (Lapras :L15)** via 3F Teleporter `(11,11)`! (Pokédex Owned: 16)
 - [ ] **Starter Evolution:** Train starter **`RIPTIDE`** (`Wartortle :L22` -> **`Blastoise :L36`**!)
 - [ ] **Grand Finale (4th Hall of Fame):** Induct evolved **`RIPTIDE` (Blastoise)** + **Legendary Trio (`GENESIS`, `TEMPEST`, `SOLARIS`)** + **`KAISER`** + 6th all-star (`AERODACTYL` / `HITMONLEE` / `LAPRAS`) into the Hall of Fame!
 
