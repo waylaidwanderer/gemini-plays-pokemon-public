@@ -384,7 +384,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: Attempt 17 Initializing! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Cash ~¥6,496 (purchasing 4 Revives at Mart counter).
 - Immediate Plan:
   1. Enter Pokémon League Lobby.
-  2. [x] Purchase 4 Revives for ¥6,000 at Mart counter (16, 4).
+  2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
+  3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
+  4. Sidney BATTLE ACTIVE!
   3. Enter Gate (9, 1) to challenge Room 1 Sidney.
   4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
   5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
@@ -5063,7 +5065,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 88, Male), Nickname: SAGE
-- Status: Attempt 17 Active! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Bag: 4 Revives, ¥496 cash. Advancing to Room 1 Sidney.
+- Status: Attempt 17 Active! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Bag: 3 Revives, ¥1,996 cash. In Room 1 challenging Sidney.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 263/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -5079,10 +5081,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x4 (purchased Turn 27217 at League Mart for ¥6,000!)
+- Revive x3 (purchased Turn 27217 at League Mart for ¥4,500!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥496 (Halved to ¥6,496 upon whiteout, -¥6,000 for 4 Revives)
+- Money: ¥1,996 (Halved to ¥6,496 upon whiteout, -¥4,500 for 3 Revives)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

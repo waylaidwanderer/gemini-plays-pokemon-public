@@ -74,7 +74,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Status: Attempt 17 Initializing! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Cash ~¥6,496 (purchasing 4 Revives at Mart counter).
 - Immediate Plan:
   1. Enter Pokémon League Lobby.
-  2. [x] Purchase 4 Revives for ¥6,000 at Mart counter (16, 4).
+  2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
+  3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
+  4. Sidney BATTLE ACTIVE!
   3. Enter Gate (9, 1) to challenge Room 1 Sidney.
   4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
   5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
