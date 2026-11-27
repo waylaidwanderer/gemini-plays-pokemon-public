@@ -3,12 +3,12 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: CIPHER on field. Party targeting screen active. Stepping Right to verify SAGE's row before confirming Revive! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Reviving SAGE to 130 HP (+6 priority)! CIPHER absorbing Banette Lv 49 attack. Bag: 3 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 61/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (12/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
@@ -19,7 +19,7 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x4 (1 consumed Turn 27047 for Sacrificial Revive; 4 intact!)
+- Revive x3 (2 consumed for Sacrificial Revives in Room 2; 3 intact!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥6,885 (¥1,985 + ¥4,900 Sidney prize money!)
