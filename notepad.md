@@ -76,7 +76,7 @@
 - [x] Swap `DOZER` & `TEMPEST` safely into Box 1 & withdraw `BRIAR` (Cut) at Pewter Poké Center
 - [x] **Pewter City:** Cut bush `(26,4)` behind Pewter Museum of Science -> claimed `OLD AMBER`!
 - [x] **Cinnabar Island Lab:** Revived `HELIX FOSSIL` -> **`NAUTILUS` (Omanyte :L30)** & `OLD AMBER` -> **`WYVERN` (Aerodactyl :L30)**! (Pokédex Owned: 13)
-- [ ] **Celadon City:** Climb Celadon Condominiums back entrance -> claim **Eevee (`:L25`)** (nickname & evolve with Stone!) + check Dept Store TMs for `SOLARIS`
+- [x] **Celadon City:** Climbed Celadon Condominiums back stairs -> claimed **`VOLTAIRE` (Eevee :L25)** -> bought **Thunderstone** on Dept Store 4F & evolved **`VOLTAIRE` -> `JOLTEON`**! (Pokédex Owned: 15) + bought **`TM09 Take Down`** for `SOLARIS`!
 - [ ] **Saffron City:** Conquer **Saffron Fighting Dojo** (switch-train `RIPTIDE`!) -> claim **Hitmonlee / Hitmonchan (`:L30`)** (nickname!)
 - [ ] **Silph Co. 7F:** Claim gift **Lapras (`:L15`)** (nickname!)
 - [ ] **Starter Evolution:** Train starter **`RIPTIDE`** (`Wartortle :L22` -> **`Blastoise :L36`**!)
