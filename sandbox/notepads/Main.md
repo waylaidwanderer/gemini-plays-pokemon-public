@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE revived to 130/260 HP! Salamence resolving attack vs Guava. Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Drake burned 2nd Full Restore on Salamence (Drake is OUT of Full Restores!). SAGE revived in reserve (130/260 HP). Guava (101/101 HP) ready to absorb Salamence attack. Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (23/30). Status: OK (Revived).

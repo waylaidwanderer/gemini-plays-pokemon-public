@@ -348,12 +348,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Champion Wallace (Water): Lead Wailord Lv 57 (Bullet Seed OHKO), Whiscash Lv 56 (Bullet Seed 4x OHKO), Ludicolo Lv 56 (Aerial Ace 2x OHKO), Tentacruel Lv 55 & Gyarados Lv 56 (Facade/Bullet Seed), Milotic Lv 58 Ace (Overgrow Bullet Seed 2x KO). Preserve 3+ Bullet Seed PP for Wallace!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (18/260 HP, Overgrow ACTIVE, 256 Spe) active vs Ace Salamence Lv 55 (~60% HP).
+- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! Drake burned 2nd Full Restore on Salamence (DRAKE OUT OF FULL RESTORES!). SAGE revived (130/260 HP, 256 Spe).
 - Milestone Progress:
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Salamence ~2-3% HP. Sending in Guava Lv 30 to execute Sacrificial Revive.
+  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Drake burned 2nd Full Restore on Salamence (OUT OF FULL RESTORES!). SAGE revived to 130/260 HP. Guava absorbing attack.
 - Party: SAGE Lv 87 (130/260 HP, Revived), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (101/101 HP, Conscious).
 - Bag: 1 Revive (intact for Wallace), 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: KO Salamence with Facade -> sweep Kingdra Lv 53 -> unlock Champion Wallace!
@@ -5028,7 +5028,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: SAGE revived to 130/260 HP! Salamence resolving attack vs Guava. Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Drake burned 2nd Full Restore on Salamence (Drake is OUT of Full Restores!). SAGE revived in reserve (130/260 HP). Guava (101/101 HP) ready to absorb Salamence attack. Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (23/30). Status: OK (Revived).
