@@ -5,7 +5,7 @@
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
 - **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16, evolved into Blastoise at Lv. 36)
-- **Pokédex:** `Seen: 119 / Owned: 31` | **Money:** `¥19,601` | **Play Time:** `42:29`
+- **Pokédex:** `Seen: 122 / Owned: 51` | **Money:** `¥426` | **Play Time:** `45:48`
 
 ## Completed Story & Post-Game Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
@@ -36,6 +36,8 @@
 - [x] **All 3 Fishing Rods & All 5 HMs Completed (`Turns 1654–1666`)** — Claimed `Old Rod` (Vermilion), `Good Rod` (Fuchsia), and `HM05 (Flash)` from Oak's Aide on Route 2 (`completing HM01–HM05`).
 - [x] **Celadon Game Corner & Evolutionary Stones (`Turns 1685–1734`)** — Claimed `Coin Case` at Celadon Diner, redeemed 120 Coins for `Abra` (`QUARTZ`), and evolved `PERIDOT` -> `Jolteon`, `CARNELIAN` -> `Ninetales`, and `Shellder` -> `Cloyster`.
 - [x] **31+ Pokédex Owned & Oak's Aide `Itemfinder` Verified (`Turns 1698–1769`)** — Expanded Pokédex to `Seen: 119 / Owned: 31`, unlocked `Itemfinder` on Route 11 East Gatehouse `2F`, and field-verified `Itemfinder` on Route 11's hidden `Escape Rope` (`(48, 5)`).
+- [x] **Saffron Sidequests & Kanto NPC Trades (`Turns 1783–1893`)** — Claimed `TM29 (Psychic)` from Mr. Psychic and `TM31 (Mimic)` from Copycat (`Poké Doll` delivery), and traded for all three wild-unobtainable Kanto species (`Mr. Mime` `"MARCEL"`, `Farfetch'd` `"DUX"`, `Jynx` `"LOLA"`) plus Cinnabar Lab's `Seel` (`"SAILOR"`).
+- [x] **51 Pokédex Owned, All 3 Oak's Aide Rewards (`EXP. ALL`), & Oak's 50+ Evaluation (`Turns 1894–1918`)** — Expanded Pokédex to `Seen: 122 / Owned: 51` (`pokedex_50_owned.png`), unlocked `EXP. ALL` on Route 15 Gatehouse `2F` (`exp_all_obtained.png`), and earned Professor Oak's live `50+ species` Lab rating in Pallet Town (`oak_50_evaluation.png`).
 
 ## Active Gemstone Party (`6/6` Slots — ALL 100% HP & 100% PP!)
 1. **OBSIDIAN** (Mewtwo) — Lv. 72 (`261/261` HP) | Moves: **Swift**, **Psychic**, **Thunder Wave**, **Recover**
@@ -43,12 +45,11 @@
 3. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: **Cut**, Scratch, Stun Spore, Leech Life
 4. **PERIDOT** (Jolteon) — Lv. 25 (`68/68` HP) | Evolved from Celadon Rooftop `Eevee` via `Thunderstone`
 5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: **Fly**, Peck, Growl, Leer
-6. **CARNELIAN** (Ninetales) — Lv. 20 (`61/61` HP) | Evolved from Blue-exclusive Route 7 `Vulpix` via `Fire Stone`
+6. **NEPHRITE** (Victreebel) — Lv. 30 (`95/95` HP) | Caught on Route 15 as `Weepinbell` & evolved via `Leaf Stone`
 
-## Stored Gemstone Collection (`Bill's PC Box 1` — `17/20` Pokémon)
-- **Legendaries (`4`)**: **TOPAZ** (`Zapdos` Lv. 50), **RUBY** (`Moltres` Lv. 50), **SAPPHIRE** (`Articuno` Lv. 50), **ONYX** (`Aerodactyl` Lv. 30)
-- **Story & Gift Gems (`6`)**: **AMETHYST** (`Nidoqueen` Lv. 27), **CELESTE** (`Clefairy` Lv. 8 — `Strength`), **OPAL** (`Omanyte` Lv. 30), **PEARL** (`Lapras` Lv. 15), **CITRINE** (`Hitmonlee` Lv. 30), **QUARTZ** (`Abra` Lv. 6 — Game Corner Prize)
-- **Kanto Exclusives & Rod Captures (`7`)**: **JADE** (`Bellsprout` Lv. 19), **PYRITE** (`Meowth` Lv. 17), **CORAL** (`Magikarp` Lv. 5 — `Old Rod`), **AZURITE** (`Poliwag` Lv. 10 — `Good Rod`), **CLOYSTER** (`Cloyster` Lv. 15 — `Super Rod` + `Water Stone`), **AGATE** (`Diglett` Lv. 19), **SUNSTONE** (`Sandshrew` Lv. 15), **SPINEL** (`Tentacool` Lv. 5 — `Super Rod`)
+## Stored Gemstone Collection (`Bill's PC Box 1` `18/20` & `Box 2` `15/20` — Active Box: `BOX 2`)
+- **`Box 1` (`18/20`)**: **TOPAZ** (`Zapdos` Lv. 50), **RUBY** (`Moltres` Lv. 50), **SAPPHIRE** (`Articuno` Lv. 50), **ONYX** (`Aerodactyl` Lv. 30), **AMETHYST** (`Nidoqueen` Lv. 27), **CELESTE** (`Clefairy` Lv. 8 — `Strength`), **OPAL** (`Omanyte` Lv. 30), **PEARL** (`Lapras` Lv. 15), **CITRINE** (`Hitmonlee` Lv. 30), **QUARTZ** (`Abra` Lv. 6), **CARNELIAN** (`Ninetales` Lv. 20), **JADE** (`Bellsprout` Lv. 19), **PYRITE** (`Meowth` Lv. 17), **CORAL** (`Magikarp` Lv. 5), **AZURITE** (`Poliwag` Lv. 10), **CLOYSTER** (`Cloyster` Lv. 15), **AGATE** (`Diglett` Lv. 19), **SUNSTONE** (`Sandshrew` Lv. 15), **SPINEL** (`Tentacool` Lv. 5)
+- **`Box 2` (`15/20`, Active)**: **SPINEL** (`Venonat`), **SUGILITE** (`Ditto`), **AMETRINE** (`Koffing` Lv. 30), **HELIODOR** (`Goldeen` Lv. 15), **DIOPSIDE** (`Caterpie` Lv. 4), **MALACHITE** (`Metapod`), **KYANITE** (`Rattata` Lv. 3), **BERYL** (`Pidgey` Lv. 3), **ZIRCON** (`Doduo` Lv. 22), **KUNZITE** (`Slowpoke` Lv. 15), **MARCEL** (`Mr. Mime`), **DUX** (`Farfetch'd`), **LOLA** (`Jynx`), **STARMIE** (`Starmie` Lv. 15), **SAILOR** (`Seel` Lv. 30)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & Hall of Fame roster
