@@ -6,9 +6,10 @@
 - **Game:** Pokémon Blue Version (Generation I, GBC-colorized QoL variant)
 - **Trainer Name:** COBALT
 - **Rival Name:** GARNET
-- **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16, evolved into Blastoise at Lv. 36!)
+- **Starter:** Squirtle (Nickname: `NAUTILUS`, evolved into Wartortle at Lv. 16, evolved into Blastoise at Lv. 36)
+- **Pokédex:** `Seen: 116 / Owned: 18` | **Money:** `¥40,631` | **Play Time:** `39:06`
 
-## Milestones & Badges
+## Completed Story & Post-Game Milestones
 - [x] Starter Pokémon & Pokédex (Pallet Town / Viridian City)
 - [x] Boulder Badge — Brock (Pewter City)
 - [x] Mt. Moon Cleared (`Helix Fossil`, `Moon Stone`, `TM01 Mega Punch`, `TM12 Water Gun`)
@@ -24,31 +25,33 @@
 - [x] Marsh Badge — Sabrina (Saffron City, Turn 1072)
 - [x] Volcano Badge — Blaine (Cinnabar Island, Turn 1135)
 - [x] Earth Badge — Giovanni (Viridian City, Turn 1159)
-- [x] Indigo Plateau — Elite Four & Champion `GARNET` Defeated (`Hall of Fame`, Turn 1287!)
-- [x] Cerulean Cave Cleared — `Mewtwo` Lv. 70 Captured in `Master Ball` (Nickname: `OBSIDIAN`, Turn 1375!)
-- [x] Power Plant Cleared — `Zapdos` Lv. 50 Captured in `Ultra Ball` (Nickname: `TOPAZ`, Turn 1421!)
-- [x] Victory Road Cleared — `Moltres` Lv. 50 Captured in `Ultra Ball` (Nickname: `RUBY`, Turn 1475!)
-- [x] Seafoam Islands Cleared — `Articuno` Lv. 50 Captured in `Ultra Ball` (Nickname: `SAPPHIRE`, Turn 1523!)
+- [x] Indigo Plateau — Elite Four & Champion `GARNET` Defeated (`1st Hall of Fame`, Turn 1287)
+- [x] Cerulean Cave Cleared — `Mewtwo` Lv. 70 Captured in `Master Ball` (`OBSIDIAN`, Turn 1375)
+- [x] Power Plant Cleared — `Zapdos` Lv. 50 Captured in `Ultra Ball` (`TOPAZ`, Turn 1421)
+- [x] Victory Road Cleared — `Moltres` Lv. 50 Captured in `Ultra Ball` (`RUBY`, Turn 1475)
+- [x] Seafoam Islands Cleared — `Articuno` Lv. 50 Captured in `Ultra Ball` (`SAPPHIRE`, Turn 1523)
+- [x] Cinnabar Lab Fossils Revived — `Omanyte` Lv. 30 (`OPAL`, Turn 1547) & Pewter Museum `Old Amber` -> `Aerodactyl` Lv. 30 (`ONYX`, Turn 1550)
+- [x] Saffron Fighting Dojo Cleared — Defeated Karate Master Koichi & Claimed `Hitmonlee` Lv. 30 (`CITRINE`, Turn 1561)
+- [x] Silph Co. `7F` Gift Claimed — Obtained `Lapras` Lv. 15 (`PEARL`, Turn 1566)
+- [x] Celadon Mansion Rooftop & Route 12 Cleared — Claimed `Eevee` Lv. 25 (`PERIDOT`, Turn 1574), Woke Route 12 `Snorlax`, & Obtained `Super Rod` (Turn 1594)
+- [x] **Legendary Gemstone Hall of Fame (`2nd Hall of Fame`, Turn 1640)** — Swept Lorelei, Bruno, Agatha, Lance, & Champion `GARNET` to induct `OBSIDIAN`, `NAUTILUS`, `TOPAZ`, `SAPPHIRE`, `RUBY`, & `ONYX`!
 
-## Final Championship & Post-Game Legendary Party (`6/6` Slots — ALL 100% HP!)
-1. **OBSIDIAN** (Mewtwo) — Lv. 70 (`246/246` HP) | Moves: **Swift** (Slot 0), **Psychic** (Slot 1), **Thunder Wave** (Slot 2), **Recover** (Slot 3)
-2. **NAUTILUS** (Blastoise) — Lv. 61 (`186/186` HP, `Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3)
-3. **TOPAZ** (Zapdos) — Lv. 50 (`157/157` HP) | Moves: ThunderShock, Drill Peck
-4. **SAPPHIRE** (Articuno) — Lv. 50 (`151/151` HP) | Moves: Peck, Ice Beam
-5. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Scratch, Double Kick, Poison Sting, **Earthquake**
-6. **RUBY** (Moltres) — Lv. 50 (`161/161` HP) | Moves: Peck, Fire Spin
-*(Stored in `Bill's PC Box 1`: **AMBER** Paras Lv. 12 [`Cut`], **CELESTE** Clefairy Lv. 8 [`Strength`], **JASPER** Spearow Lv. 22 [`Fly`])*
+## Active Legendary Hall of Fame Party (`6/6` Slots — ALL 100% HP & 100% PP!)
+1. **OBSIDIAN** (Mewtwo) — Lv. 72 (`261/261` HP) | Moves: **Swift**, **Psychic**, **Thunder Wave**, **Recover**
+2. **NAUTILUS** (Blastoise) — Lv. 62 (`189/189` HP) | Moves: **Surf**, **Ice Beam**, **Dig**, **Hydro Pump**
+3. **ONYX** (Aerodactyl) — Lv. 30 (`95/95` HP) | Moves: Wing Attack, Agility
+4. **SAPPHIRE** (Articuno) — Lv. 50 (`151/151` HP) | Moves: Peck, **Ice Beam**
+5. **RUBY** (Moltres) — Lv. 50 (`161/161` HP) | Moves: Peck, Fire Spin
+6. **TOPAZ** (Zapdos) — Lv. 50 (`157/157` HP) | Moves: **ThunderShock**, **Drill Peck**
 
-## Inventory & Money
-- Money: ~¥23,000+
-- Key Items: Pokédex, Bicycle, Poké Flute, Card Key *(HM01–HM04, Max Ether, Poké Ball x4, Silph Scope, Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM40, TM45 stored in COBALT's PC)*
-- Bag (`14/20` slots): Bicycle (Slot 0), Super Potion x5 (Slot 1), Awakening x7, X Speed x8, X Defend x12, TM21, Elixer x1, X Accuracy x1, Rare Candy x3, Poké Flute, Max Potion x1, Max Revive x1, TM06 (Toxic), Card Key
+## Stored Gemstone Collection (`Bill's PC Box 1` — `8` Pokémon)
+- **CELESTE** (Clefairy Lv. 8 — `Strength`), **AMETHYST** (Nidoqueen Lv. 27 — `Earthquake`), **AMBER** (Paras Lv. 12 — `Cut`), **OPAL** (Omanyte Lv. 30), **PERIDOT** (Eevee Lv. 25), **PEARL** (Lapras Lv. 15), **CITRINE** (Hitmonlee Lv. 30), **JASPER** (Spearow Lv. 22 — `Fly`)
 
 ## Notepad Index
-- `notepads/Main.md` — High-level dashboard & party summary
-- `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
-- `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
-- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md`, `Lavender_Route8.md`, `CeladonCity.md`, `SaffronCity.md`, `FuchsiaCity.md`)
+- `notepads/Main.md` — High-level dashboard & Hall of Fame roster
+- `notepads/Scratchpad/Routing.md` — Campaign completion status
+- `notepads/Mechanics/Harness.md` — Verified harness timing & Gen 1 mechanics
+- `notepads/Locations/` — Verified Kanto town, route, and post-game dungeon notes (`PewterCity.md`, `Route9_RockTunnel.md`, `Lavender_Route8.md`, `CeladonCity.md`, `SaffronCity.md`, `FuchsiaCity.md`, `CinnabarIsland.md`, `ViridianGym_VictoryRoad.md`, `PostGame_Dungeons.md`)
 
 
 <hr>
@@ -991,21 +994,13 @@ def name_buttons(word):
 
 <h1><code>Scratchpad/Routing</code></h1>
 
-# Post-Game Encore — Unique Pokémon, Dojo, Fossils, & Legendary Hall of Fame
+# Post-Game Encore Routing — Completed
 
-## Active Checklist
-1. **Fossil Revivals (`Cinnabar Lab` & `Pewter Museum`)**:
-   - Revive `Helix Fossil` at Cinnabar Lab (`3rd room`) -> **`Omanyte Lv. 30` (`OPAL`)**.
-   - `Fly` to Pewter City, `Cut` east bush at Pewter Museum for **`Old Amber`**, and revive at Cinnabar Lab -> **`Aerodactyl Lv. 30` (`ONYX`)**.
-2. **Saffron City (`Fighting Dojo` & `Silph Co. 7F`)**:
-   - Defeat Karate Master at **Fighting Dojo `(26, 3)`** -> claim **`Hitmonlee Lv. 30` (`CITRINE`)**.
-   - Enter **Silph Co. `(18, 21)`** -> Elevator to `3F` -> warp `3F (11, 11)` -> `7F (5, 3)` -> talk to Silph employee for **`Lapras Lv. 15` (`PEARL`)**.
-3. **Celadon Mansion & Route 12 Static `Snorlax`**:
-   - Enter **Celadon Mansion** back entrance -> rooftop room -> claim **`Eevee Lv. 25` (`PERIDOT`)** (and evolve with a Stone from Celadon Dept. Store 4F).
-   - `Fly` to Lavender Town -> walk south down **Route 12** pier -> wake static **`Snorlax Lv. 30`** with `Poké Flute`, paralyze + chip with `OBSIDIAN`, and catch as **`JADE`**.
-4. **Indigo Plateau — Legendary Hall of Fame Rematch**:
-   - Assemble **`OBSIDIAN` (`Mewtwo`), `NAUTILUS` (`Blastoise`), `TOPAZ` (`Zapdos`), `SAPPHIRE` (`Articuno`), `RUBY` (`Moltres`), and `ONYX` (`Aerodactyl`)**.
-   - Sweep Lorelei, Bruno, Agatha, Lance, and Champion `GARNET` to enshrine all four Kanto Legendaries in the Hall of Fame!
+## Completed Campaign Summary (`Turns 1530–1645`)
+1. **[DONE]** Revived `Helix Fossil` -> `Omanyte Lv. 30` (`OPAL`) and retrieved + revived `Old Amber` -> `Aerodactyl Lv. 30` (`ONYX`) at Cinnabar Lab (`screenshots/fossils_party.png`).
+2. **[DONE]** Defeated Karate Master Koichi at Saffron Fighting Dojo -> `Hitmonlee Lv. 30` (`CITRINE`) and claimed Silph Co. `7F` `Lapras Lv. 15` (`PEARL`).
+3. **[DONE]** Claimed Celadon Mansion Rooftop `Eevee Lv. 25` (`PERIDOT`) (`screenshots/gifts_party.png`), woke and cleared the Route 12 `Snorlax` pier blockade (`screenshots/snorlax_overworld.png`), and obtained the `Super Rod` from the Route 12 Fishing Guru.
+4. **[DONE]** Assembled `OBSIDIAN`, `NAUTILUS`, `TOPAZ`, `SAPPHIRE`, `RUBY`, and `ONYX` (`screenshots/hof_squad_ready.png`), swept Lorelei, Bruno, Agatha, Lance, and Champion `GARNET` into the Hall of Fame (`screenshots/legendary_hall_of_fame.png`), healed all 6 to 100% HP/PP at Mom's House in Pallet Town (`screenshots/champion_squad_healed.png`), and saved SRAM.
 
 
 <hr>
