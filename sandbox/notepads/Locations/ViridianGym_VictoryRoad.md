@@ -13,3 +13,8 @@
     1. Walk `(16, 17) -> (14, 13) -> (14, 9) -> (13, 9) -> (13, 7) -> (15, 7)` *(optional `Revive` ball at `(16, 9)` from `(16, 8)`)* `-> (15, 5)` (defeat right-facing Cooltrainer at `(13, 5)` -> `(14, 5)`).
     2. Walk around Cooltrainer via `(15, 4) -> (13, 4) -> (13, 5) -> (10, 5) -> (10, 4)`: stepping onto `(10, 4)` pulls the `(10, 1)` Trainer south to `(10, 3)`, permanently vacating `(10, 1)` for the current room load!
     3. Do **not** exit the Gym (which would reset NPC positions). Loop back `(9, 4) -> (9, 5) -> (13, 5) -> (13, 4) -> (15, 4) -> (15, 7) -> (13, 7) -> (13, 9) -> (14, 9) -> (14, 13) -> (19, 13) -> (19, 11)` [`Up` spinner] `-> (19, 2) -> (19, 1)` [`Left` spinner] `-> (11, 1)` and walk straight west across vacated `(10, 1)` to **Gym Leader Giovanni**!
+
+## Route 22 -> Pokémon League Front Gate (`Verified Turns 1165–1171`)
+- Exit Viridian City west along `y = 18` -> `(4, 17)` -> `(0, 17)` (`arrives at Route 22 (39, 9)`).
+- **Important Ledge Trap**: Do **not** jump south over `y = 13` (`(33, 13)` is a one-way south ledge onto the eastbound return track `y = 14..16`).
+- Instead, walk `(37, 9) -> (37, 12) -> (30, 12)` (`staying ABOVE y = 13`), walk north through the tall grass via `(30, 12) -> (31, 7)` (wooden bridge in `y = 7`) `-> (31, 5)`, and walk west to **`(29, 5)`** where Rival `GARNET` triggers.
