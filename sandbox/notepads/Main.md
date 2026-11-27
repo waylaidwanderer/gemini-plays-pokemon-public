@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Facade executed on Altaria Lv 54 (draining to ~40% HP). Resolving Altaria turn. SAGE Lv 86 (39/257 HP, Overgrow ACTIVE, 253 Spe). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: Altaria DEFEATED via critical Facade! Resolving EXP and advancing to Salamence Lv 55. SAGE Lv 86 (39/257 HP, Overgrow ACTIVE, 253 Spe). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - HP: 39/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (6/20), Quick Attack (25/30). Status: OK (Overgrow Active).
