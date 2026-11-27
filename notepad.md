@@ -654,8 +654,10 @@
 - **Mr. Psychic's House (`TM29 Psychic`, Verified Turns 1780–1782)**:
   - Door at **`Saffron City (29, 29)`** (signpost at `(27, 29)`, straight east along `y = 30..31` from Saffron Center) -> spawns at `(2, 7)`.
   - **Mr. Psychic** sits at **`(5, 3)`** (`interact from (6, 3) facing Left`) and gifts **`TM29 (Psychic)`**.
-- **Copycat's House (`TM31 Mimic`, Verified Turn 1784)**:
-  - Door at **`Saffron City (7, 5)`** in northwest Saffron (`reachable via (2, 31) -> (3, 6) -> (7, 6) -> Up`).
+- **Copycat's House (`TM31 Mimic`, Verified Turns 1784–1790)**:
+  - Door at **`Saffron City (7, 5)`** in northwest Saffron (`reachable via (2, 31) -> (3, 6) -> (7, 6) -> Up`) -> spawns at `1F (2, 7)`.
+  - Climb stairs via column `x = 6` to **`1F (7, 1) <-> 2F (7, 1)`** (`step off stairs to (7, 2)`).
+  - On `2F`, **Copycat** freshly spawns at **`(4, 2)`** (wandering in `y = 1..4`), whereas her pet `Doduo` wanders along **`y = 6`**. Even with `Poké Doll` in the Bag, Copycat plays her 5-box mimicry intro first before taking `Poké Doll` and awarding **`TM31 (Mimic)`**.
 - **Silph Co.**:
   - Door at **`(18, 21)`** (`from Saffron Center (9, 30), walk Left * 7 -> (2, 30) -> Up * 8 -> (2, 22) -> Right * 16 -> (18, 22) -> Up`; spawns inside **1F at `(10, 17)`**).
   - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) always starts at 1F; 1F..11F top-to-bottom`).
