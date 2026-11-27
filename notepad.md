@@ -280,6 +280,11 @@
   - **Fuchsia Gym (Koga — Soul Badge Earned Turn 996)**: Door at **`(5, 27)`** (`just Left * 14 from (19, 28) -> (5, 28) -> Up`).
     - **Invisible Wall Visual Rule & Exact Path (`Turns 965–997`)**: Verified path to **Koga at `(4, 10)`**: `(4, 17) -> Right * 5 -> (9, 17) -> Up * 16 -> (9, 1) -> Left * 9 -> (0, 1) -> Down * 2 -> (0, 3) -> Right * 2 -> (2, 3) -> Down * 2 -> (2, 5) -> Left -> (1, 5) -> Down * 4 -> (1, 9) -> Right * 4 -> (5, 9) -> Down -> (5, 10)` (right next to Koga at `(4, 10)`).
 
+## Route 15 Gatehouse (`EXP. ALL` Aide) & Route 15 West Grass (`Verified Turns 1894–1910`)
+- **Fuchsia -> Route 15 Gatehouse `1F`**: From `Fuchsia Center (19, 28)`, exit courtyard via `(8, 28) -> (8, 32) -> (1, 32) -> (1, 20) -> (24, 20) -> (24, 17)` and walk east across `Fuchsia (39, 17) -> Route 15 (0..7, 8..9)` into **Route 15 Gatehouse `1F` `(0, 4)`**.
+- **Gatehouse `1F` <-> `2F`**: Climb stairs at **`1F (6, 8)`** (`via (5, 4) -> (5, 8) -> Right`) to **`2F (7, 7)`** (`Professor Oak's Aide awards EXP. ALL for >= 50 Owned species`); east exit at `1F (7, 4..5)` steps onto **`Route 15 (14, 9)`**.
+- **Trainer-Free Route 15 Tall Grass**: Walk `(14, 9) -> (14, 8) -> (18, 8)` and pace **`(18, 8) <-> (18, 9)`** (`Jr. Trainer♀ at (18, 13) faces Down`; Pokémon Blue encounters: `25% Weepinbell`, `25% Bellsprout`, `20% Venonat`, `15% Pidgeotto`, `15% Ditto`).
+
 
 <hr>
 
@@ -1052,7 +1057,7 @@ def name_buttons(word):
 - **Exact Unowned vs. Already-Owned Wild Catch Prompts & 1-Turn NPC Trade Recipe (`Turns 1805–1826`)**:
   - From `"All right! <PKMN> was ▼"`, **unowned** species require **9 `A`s** to open the Naming Screen (`4th A` triggers the ~3.5–4.0s Pokédex cry — use `"sleep 4500"` after `4th A`), whereas **already-owned** species skip the Pokédex screen and require **3 `A`s** (`1st A`: `"caught! ▼"`, `2nd A`: `"give a nickname to <PKMN>? [►YES/NO]"`, `3rd A`: Naming Screen).
   - Talking to an in-game NPC trader takes **3 `A`s** to open `Choose a POKéMON.` (`preserving wPartyMenuCursor`). Selecting the trade Pokémon (`A`) plays a ~51s link-cable cutscene (`"Okay, connect..."` ~20s -> `"<PKMN> went to TRAINER."` ~27s -> `"COBALT traded <A> for <B>!"` + 4.5s fanfare -> `"Trade completed!"`); use `["A", "sleep 2000", "B", "sleep 10000", "B", "sleep 10000", "B", "sleep 2500", "B", "sleep 10000", "B", "sleep 10000", "B", "sleep 10000", "B", "sleep 5500", "B", "sleep 1500", "B", "sleep 1200", "B", "sleep 800"]`. `InGameTrade` sets `wPartyMenuCursor` to the traded party slot.
-  - **Programmatic Unowned Wild Check (`Turn 1847`)**: On Turn 1 `►FIGHT` of any wild encounter, cropping `(x=52, y=60, width=44, height=45)` inspects the HUD tile below the 1st character of the enemy name: uniform solid white = **unowned** species, whereas non-uniform pixels (`●` Poké Ball icon) = **already owned** (`always delete the temporary crop immediately after reading`). Note `"sleep 10000"` after throwing a Ball can finish ~0.5s before `▼` blinks on `"All right! <PKMN> was"`, so prepend `"Left", "sleep 1500"` before the 9-`A` unowned / 3-`A` owned post-catch sequence.
+  - **Programmatic Unowned Wild Check & `Ditto` `Transform` Catch-Rate Override (`Turns 1847, 1897–1899`)**: On Turn 1 `►FIGHT` of any wild encounter, cropping `(x=52, y=60, width=44, height=45)` inspects the HUD tile below the 1st character of the enemy name: uniform solid white = **unowned** species, whereas non-uniform pixels (`●` Poké Ball icon) = **already owned** (`always delete the temporary crop immediately after reading`). Against wild `Ditto` (`native Catch Rate 35`), never let `Ditto` use `Transform` into `Mewtwo` (`overwrites Catch Rate to 3`); instead switch in a high-Catch-Rate Pokémon with no 2-turn invulnerability moves (`e.g. AMBER Lv. 12 Paras, Catch Rate 190`) so `Transform` overwrites `Ditto`'s Catch Rate to `190` (`53%` per `Great Ball` at full HP with `:PAR`). Note `"sleep 10000"` after throwing a Ball can finish ~0.5s before `▼` blinks on `"All right! <PKMN> was"`, so prepend `"Left", "sleep 1500"` before the 9-`A` unowned / 3-`A` owned post-catch sequence.
 
 
 <hr>

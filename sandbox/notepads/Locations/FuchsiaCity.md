@@ -27,3 +27,8 @@
   - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`registered on Fly Town Map Turn 955!`).
   - **Fuchsia Gym (Koga — Soul Badge Earned Turn 996)**: Door at **`(5, 27)`** (`just Left * 14 from (19, 28) -> (5, 28) -> Up`).
     - **Invisible Wall Visual Rule & Exact Path (`Turns 965–997`)**: Verified path to **Koga at `(4, 10)`**: `(4, 17) -> Right * 5 -> (9, 17) -> Up * 16 -> (9, 1) -> Left * 9 -> (0, 1) -> Down * 2 -> (0, 3) -> Right * 2 -> (2, 3) -> Down * 2 -> (2, 5) -> Left -> (1, 5) -> Down * 4 -> (1, 9) -> Right * 4 -> (5, 9) -> Down -> (5, 10)` (right next to Koga at `(4, 10)`).
+
+## Route 15 Gatehouse (`EXP. ALL` Aide) & Route 15 West Grass (`Verified Turns 1894–1910`)
+- **Fuchsia -> Route 15 Gatehouse `1F`**: From `Fuchsia Center (19, 28)`, exit courtyard via `(8, 28) -> (8, 32) -> (1, 32) -> (1, 20) -> (24, 20) -> (24, 17)` and walk east across `Fuchsia (39, 17) -> Route 15 (0..7, 8..9)` into **Route 15 Gatehouse `1F` `(0, 4)`**.
+- **Gatehouse `1F` <-> `2F`**: Climb stairs at **`1F (6, 8)`** (`via (5, 4) -> (5, 8) -> Right`) to **`2F (7, 7)`** (`Professor Oak's Aide awards EXP. ALL for >= 50 Owned species`); east exit at `1F (7, 4..5)` steps onto **`Route 15 (14, 9)`**.
+- **Trainer-Free Route 15 Tall Grass**: Walk `(14, 9) -> (14, 8) -> (18, 8)` and pace **`(18, 8) <-> (18, 9)`** (`Jr. Trainer♀ at (18, 13) faces Down`; Pokémon Blue encounters: `25% Weepinbell`, `25% Bellsprout`, `20% Venonat`, `15% Pidgeotto`, `15% Ditto`).
