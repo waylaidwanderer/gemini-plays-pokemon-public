@@ -406,6 +406,16 @@
   2. Walk north up the `B3F` east plateau `(25, 14) -> (24, 6) -> (23, 9)` stairs, `Surf` onto calm water `(23, 10) -> (15, 10)`, and step `Up` into **`B3F (15, 9)`** fast current -> drops directly onto **`B4F (20, 15)`**.
   3. On **`B4F`**, surf `(20, 15) -> (20, 12) -> (18, 12) -> (18, 8) -> (23, 8)`, climb **`B4F (23, 5)`** stairs to `(23, 4)`, cross the central plateau `(23, 4) -> (15, 4) -> (15, 8) -> (13, 8) -> (13, 10) -> (8, 10) -> (8, 6)` *(note `(8, 6)` is an elevated cliff above `(7, 3)` stairs)*, and climb **`B4F (11, 7)`** ladder -> **`B3F (8, 6)`** right at the **`B3F (7, 5)`** stairs to the west boulder puzzle!
 
+## Seafoam Islands `B3F -> B4F` Boulder Solution & `Articuno Lv. 50` (`Verified Turns 1512–1517`)
+- **`B3F` West Plateau to Ground-Floor Boulders**:
+  - From `B3F (8, 6)` (`ladder from B4F (11, 7)`), activate `Strength`, climb `(7, 5)` stairs to `(7, 4)`, cross the plateau `(7, 4) -> (12, 4) -> (12, 14) -> (16, 14)`, descend **`B3F (16, 15)`** stairs to `(16, 16)`, and walk west along **`y = 17`** (`(16, 17) -> (5, 17)`, which bypasses both the `(9, 16)` rock and `(6, 16)` East Hole!).
+- **Exact Four-Boulder Sokoban Sequence (`Boulders at (3,15), (5,14), (8,14), (9,14)`; `Holes at (3,16) & (6,16)`)**:
+  1. Walk `(5, 17) -> (5, 15) -> (6, 15) -> (6, 14)`, shove **`(5, 14)` boulder `Left * 3`** to `(2, 14)` (`player at (3, 14)`), then shove **`(3, 15)` boulder `Down`** into **West Hole `(3, 16)`**.
+  2. Walk `(3, 15) -> (3, 14) -> (6, 14) -> (6, 15) -> (9, 15)`, shove **`(9, 14)` boulder `Up * 2`** to `(9, 12)` (`player at (9, 13)`), step `Left` to `(8, 13)`, shove **`(8, 14)` boulder `Down * 1`** to `(8, 15)`, walk `(8, 14) -> (9, 14) -> (9, 15)`, and shove **`(8, 15)` boulder `Left * 2`** to **`(6, 15)`**.
+  3. Loop south via **`y = 17`** (`(7, 15) -> (7, 17) -> (5, 17) -> (5, 14) -> (6, 14)`), shove **`(6, 15)` boulder `Down`** into **East Hole `(6, 16)`**, and step `Down` into `(6, 16)` -> lands directly in `Surf` on calm water at **`B4F (5, 14)`** (`with both boulders damming `(4, 15)` & `(5, 15)``)!
+- **`Articuno`'s Island (`B4F (6, 1)`)**:
+  - From `B4F (5, 14)`, surf `Up * 10` to `(5, 4)`, `Right * 2` to `(7, 4)`, climb **`(7, 3)`** stairs onto `(7, 2)`, step `Left` to **`(6, 2)`**, and face `Up` at **`Articuno Lv. 50`** at **`(6, 1)`**.
+
 
 <hr>
 
