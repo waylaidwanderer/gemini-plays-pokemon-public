@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Facing lead Dusclops Lv 48 (sustaining heavy Bullet Seed damage). SAGE Lv 87 (149/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Turn 1 active vs lead Dusclops Lv 51 (100% HP). SAGE Lv 87 (149/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 109/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (16/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 149/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -30,7 +30,7 @@
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 14, Turn 26811)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 15 5-0 sweep, Turn 27022)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
     - [ ] Elite Four Member #4 Drake

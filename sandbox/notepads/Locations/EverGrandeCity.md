@@ -19,7 +19,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion:
-    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 14, Turn 26811)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (Attempt 15 5-0 sweep, Turn 27022)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Attempt 14, Turn 26831)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Attempt 14, Turn 26856)!
     - [ ] Elite Four Member #4 Drake (Attempt 15)
@@ -49,10 +49,11 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 1 Sidney DEFEATED (5-0 clean sweep)! Room 2 Phoebe active: Facing lead Dusclops Lv 48. SAGE Lv 87 (149/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Turn 1 active vs lead Dusclops Lv 51 (100% HP). SAGE Lv 87 (149/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥6,885 cash.
 - Immediate Plan:
-  1. Finish Absol Lv 49 with Facade / Quick Attack.
-  2. OHKO Shiftry Lv 48 with Aerial Ace (2x super effective).
-  3. OHKO Cacturne Lv 46 with Aerial Ace (2x super effective).
-  4. OHKO Crawdaunt Lv 48 with Bullet Seed (2x super effective STAB). Sidney DEFEATED (5-0 clean sweep)!
-  5. Advance to Room 2 Phoebe -> Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
+  1. 2HKO Dusclops Lv 51 with Bullet Seed (STAB).
+  2. OHKO Banette Lv 49 with Bullet Seed.
+  3. OHKO Sableye Lv 50 with Aerial Ace / Bullet Seed.
+  4. OHKO Banette Lv 49 with Aerial Ace (safely absorbs Grudge).
+  5. 2HKO Dusclops Lv 48 with Bullet Seed. Phoebe DEFEATED (5-0 clean sweep)!
+  6. Advance to Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
