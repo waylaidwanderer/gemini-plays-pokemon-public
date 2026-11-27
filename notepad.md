@@ -389,7 +389,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
   5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
-  7. Defeat Glacia: Sealeo #1 Lv 50 (DEFEATED!), Walrein Lv 53 Ace (Active, ~25% HP, SAGE Sacrificial Revive initiated), Glalie #1, Sealeo #2, Glalie #2. Earn +¥5,300.
+  7. Defeat Glacia: Sealeo #1 Lv 50 (DEFEATED!), Walrein Lv 53 Ace (Active, ~25% HP, SAGE Sacrificial Revive executed), Glalie #1, Sealeo #2, Glalie #2. Earn +¥5,300.
   8. Defeat Drake (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   9. Defeat Champion Wallace (STAB Overgrow Bullet Seed sweep)!
   10. Enter the Hall of Fame!
@@ -5064,12 +5064,12 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 17 Active! Room 3 Glacia BATTLE INITIATED! SAGE Lv 89 (66/266 HP, 262 Spe). Bag: 2 Revives, ¥11,996 cash.
+- Status: Attempt 17 Active! Room 3 Glacia BATTLE ACTIVE! SAGE revived to 133 HP. Bag: 1 Revive, ¥11,996 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 0/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (14/30), Aerial Ace (13/20), Facade (14/20), Quick Attack (26/30). Status: FNT.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 133/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (14/30), Aerial Ace (13/20), Facade (14/20), Quick Attack (26/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
@@ -5080,7 +5080,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x2 (1 consumed Turn 27255 for Sacrificial Revive on SAGE; 2 intact for Drake/Wallace!)
+- Revive x1 (1 consumed Turn 27255, 1 consumed Turn 27281 for Sacrificial Revive on SAGE; 1 intact for Drake/Wallace!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥11,996 (¥6,896 + ¥5,100 Phoebe prize money)
