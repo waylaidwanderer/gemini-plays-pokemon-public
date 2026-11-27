@@ -10,9 +10,11 @@
 
 ## Active Step 3 — Expand Pokédex Past `50` Owned (`37 -> 50+` Owned)
 - `38`: **`Pidgey`** (`BERYL`, `#016` — Route 1)
-- Next targets (`need +12 more`):
-  - Route 1: **`Rattata`** (`#019` -> `39`)
-  - Viridian Forest: **`Caterpie`** (`#010` -> `40`), **`Metapod`** (`#011` -> `41`), *(bonus `Pikachu` + `Thunderstone` -> `Raichu` `#025/#026`)*
-  - Lavender Mart (`resupply Great Balls`) + Pokémon Tower `3F`: **`Gastly`** (`#092` -> `42`)
-  - Cinnabar Island `Super Rod` + Mansion `1F`: **`Staryu`** + `Water Stone` -> **`Starmie`** (`#120/#121` -> `44`), **`Horsea`** / **`Goldeen`** (`#116/#118` -> `45..46`), **`Koffing`** (`#109`), **`Ponyta`** (`#077`), **`Grimer`** (`#088`)
+- `39`: **`Rattata`** (`KYANITE`, `#019` — Route 1)
+- `40`: **`Metapod`** (`MALACHITE`, `#011` — Viridian Forest)
+- `41`: **`Caterpie`** (`DIOPSIDE`, `#010` — Viridian Forest)
+- `42`: **`Goldeen`** (`HELIODOR`, `#118` — Cinnabar `Super Rod`)
+- Next targets (`need +8 more`):
+  - Cinnabar `Super Rod` + `Water Stone`: **`Staryu`** -> **`Starmie`** (`#120/#121` -> `43, 44`), optional **`Horsea`** (`#116` -> `45`)
+  - Pokémon Mansion `1F`: **`Koffing`** (`#109`), **`Ponyta`** (`#077`), **`Grimer`** (`#088`) -> `47..48`
   - Route 15 (`right outside Oak's Aide's Gatehouse!`): **`Weepinbell`** + `Leaf Stone` -> **`Victreebel`** (`#070/#071`), **`Venonat`** (`#048`), **`Pidgeotto`** (`#017`), **`Ditto`** (`#132`) -> **`50+` Owned**!

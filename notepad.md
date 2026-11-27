@@ -298,7 +298,7 @@
 - **Lavender Pokémon Center**: Door at **`(3, 5)`** *(Note: watch for wandering villager around `(7, 6..7)` when walking west along `y = 6`; verify `mgba.get_coordinates() == {'x': 3, 'y': 7}` upon entering)*.
 - **Pokémon Tower**: East side `(12..17, 0..5)`, door at **`(14, 5)`**.
   - **1F**: Spawns at `(10, 17)`; walk `Up * 8` to `(10, 9)` and `Right * 8` onto **`(18, 9)`** -> **2F `(18, 9)`** *(use `"sleep 900"` on Tower stairs before menu inputs)*.
-  - **2F**: **Rival `GARNET`** triggers at **`(15, 5)`** (`Pidgeotto Lv 25`, `Gyarados Lv 23` [**knows `Hydro Pump`** — keep Water-resistant `NAUTILUS` in rather than switching Ground-type `AMETHYST` into it!], `Growlithe Lv 22`, `Kadabra Lv 20`, `Ivysaur Lv 25`). West stairs to **3F** at **`(3, 9)`**.
+  - **2F**: **Rival `GARNET`** triggers at **`(15, 5)`** (`Pidgeotto Lv 25`, `Gyarados Lv 23` [**knows `Hydro Pump`** — keep Water-resistant `NAUTILUS` in rather than switching Ground-type `AMETHYST` into it!], `Growlithe Lv 22`, `Kadabra Lv 20`, `Ivysaur Lv 25`). Tombstones block `(10..15, 6)`; route around them via `(16, 11) -> (16, 5) -> (3, 5) -> (3, 9)` to **3F `(3, 9)`** *(note: `Silph Scope` must be in the active Bag — if stored in PC, wild `3F+` encounters revert to uncatchable `GHOST` that dodges Balls without consuming them, verified Turn 1859)*.
   - **3F**: From `(3, 10)`, route `(5, 10) -> (5, 13) -> (8, 13) -> (8, 11) -> (13, 11) -> (13, 6) -> (17, 6) -> (17, 9) -> (18, 9)` -> **4F `(18, 9)`**.
   - **4F**: **`Elixer`** item ball at **`(12, 10)`**! Route `(14, 9) -> (14, 8) -> (11, 8) -> (11, 9) -> (10, 9) -> (10, 12) -> (7, 12) -> (7, 8) -> (3, 8) -> (3, 9)` -> **5F `(3, 9)`**.
   - **5F (Verified Turns 778–782)**: **Purified Healing Zone** around **`(10..11, 8..10)`** (`(11, 9)` heals entire party HP/PP + revives fainted Pokémon with zero wild encounters!). Stairs to **6F** on east wall at **`(18, 9)`**.
@@ -1012,8 +1012,8 @@ def name_buttons(word):
 - **Gen 1 NPC Gift & Fossil Revival Rules (`Turns 1546–1550`)**:
   - NPC gift and revived fossil Pokémon (`Omanyte`, `Aerodactyl`, `Hitmonlee`, `Lapras`, `Eevee`) do **not** transfer to `Bill's PC` if the party is `6/6`; open party slots are mandatory.
   - Newly registered Gift/Fossil species skip the mid-fanfare Pokédex data screen (`showing "<PKMN> received!" + ~4.5s fanfare -> "Do you want to give a nickname to <PKMN>?" ►YES / NO`, except Fighting Dojo Poké Balls which show the Pokédex page). Advance gift prompts exclusively with spaced `A` presses (`never B`) and visually verify the naming screen before entering letters.
-- **`Dig` vs. `Fly` Party Cursor Persistence (`Turns 1566–1574`)**:
-  - Field `DIG` (and Nurse Joy healing) preserves `Start` (`►POKéMON`) while resetting `wPartyMenuCursor` to `Slot 0`, whereas `HM02 (Fly)` preserves **both** `Start` (`►POKéMON`) and `wPartyMenuCursor` on the flyer's slot (`use sleep 6500 after confirming Fly`). Step 1 tile off any south-facing doorway before opening `Fly` so a cancelled field move cannot walk `Up` back indoors.
+- **`Dig` vs. `Fly` Party Cursor Persistence & 2-Page `STATS` Exit (`Turns 1566–1574, 1861–1863`)**:
+  - Both field `DIG` and `HM02 (Fly)` preserve `Start` (`►POKéMON`) **and** `wPartyMenuCursor` on the field-move user's slot (`e.g. Slot 1 NAUTILUS after DIG, Slot 4 JASPER after FLY`), and `HM02 (Fly)` also updates `wLastBlackoutMap` (`so a subsequent DIG warps to the last town flown to`). Note that opening a Pokémon's `STATS` view has **two** pages (`requiring B * 2 to return to Party, or B * 4 to exit to the overworld`). Step 1 tile off any south-facing doorway before opening `Fly` so a cancelled field move cannot walk `Up` back indoors.
 - **Cancelling In-Battle `PKMN` Leaves Cursor on `►PKMN` (`Turn 1590`)**:
   - Pressing `B` out of the in-battle `PKMN` party screen returns to the 2x2 command menu with the cursor on **`►PKMN` (`top-right`)**, so pressing `Down, A` selects **`►RUN` (`bottom-right`)** instead of `►ITEM` (`bottom-left`)! Always clamp `Left, Up` before `Down, A` when opening `ITEM` after `PKMN`.
 - **Fainted Overworld `Fly` & Gen 1 Unstatused `Ultra Ball` Threshold (`Turns 1582, 1594`)**:
@@ -1069,11 +1069,13 @@ def name_buttons(word):
 
 ## Active Step 3 — Expand Pokédex Past `50` Owned (`37 -> 50+` Owned)
 - `38`: **`Pidgey`** (`BERYL`, `#016` — Route 1)
-- Next targets (`need +12 more`):
-  - Route 1: **`Rattata`** (`#019` -> `39`)
-  - Viridian Forest: **`Caterpie`** (`#010` -> `40`), **`Metapod`** (`#011` -> `41`), *(bonus `Pikachu` + `Thunderstone` -> `Raichu` `#025/#026`)*
-  - Lavender Mart (`resupply Great Balls`) + Pokémon Tower `3F`: **`Gastly`** (`#092` -> `42`)
-  - Cinnabar Island `Super Rod` + Mansion `1F`: **`Staryu`** + `Water Stone` -> **`Starmie`** (`#120/#121` -> `44`), **`Horsea`** / **`Goldeen`** (`#116/#118` -> `45..46`), **`Koffing`** (`#109`), **`Ponyta`** (`#077`), **`Grimer`** (`#088`)
+- `39`: **`Rattata`** (`KYANITE`, `#019` — Route 1)
+- `40`: **`Metapod`** (`MALACHITE`, `#011` — Viridian Forest)
+- `41`: **`Caterpie`** (`DIOPSIDE`, `#010` — Viridian Forest)
+- `42`: **`Goldeen`** (`HELIODOR`, `#118` — Cinnabar `Super Rod`)
+- Next targets (`need +8 more`):
+  - Cinnabar `Super Rod` + `Water Stone`: **`Staryu`** -> **`Starmie`** (`#120/#121` -> `43, 44`), optional **`Horsea`** (`#116` -> `45`)
+  - Pokémon Mansion `1F`: **`Koffing`** (`#109`), **`Ponyta`** (`#077`), **`Grimer`** (`#088`) -> `47..48`
   - Route 15 (`right outside Oak's Aide's Gatehouse!`): **`Weepinbell`** + `Leaf Stone` -> **`Victreebel`** (`#070/#071`), **`Venonat`** (`#048`), **`Pidgeotto`** (`#017`), **`Ditto`** (`#132`) -> **`50+` Owned**!
 
 
