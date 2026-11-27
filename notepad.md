@@ -966,7 +966,9 @@ def name_buttons(word):
   - Before activating `HM03 (Surf)` via `Start -> POKéMON`, ensure the player sprite is physically facing the water tile (`IsNextTileShoreOrWater` checks facing direction; facing a shore pillar prints `"No SURFing ... here!"`).
 - **Gen 1 NPC Gift & Fossil Revival Rules (`Turns 1546–1550`)**:
   - NPC gift and revived fossil Pokémon (`Omanyte`, `Aerodactyl`, `Hitmonlee`, `Lapras`, `Eevee`) do **not** transfer to `Bill's PC` if the party is `6/6`; open party slots are mandatory.
-  - Newly registered Gift/Fossil species skip the mid-fanfare Pokédex data screen (`showing "<PKMN> received!" + ~4.5s fanfare -> "Do you want to give a nickname to <PKMN>?" ►YES / NO`). Advance gift prompts exclusively with spaced `A` presses (`never B`) and visually verify the naming screen before entering letters.
+  - Newly registered Gift/Fossil species skip the mid-fanfare Pokédex data screen (`showing "<PKMN> received!" + ~4.5s fanfare -> "Do you want to give a nickname to <PKMN>?" ►YES / NO`, except Fighting Dojo Poké Balls which show the Pokédex page). Advance gift prompts exclusively with spaced `A` presses (`never B`) and visually verify the naming screen before entering letters.
+- **`Dig` vs. `Fly` Party Cursor Persistence (`Turns 1566–1574`)**:
+  - Field `DIG` (and Nurse Joy healing) preserves `Start` (`►POKéMON`) while resetting `wPartyMenuCursor` to `Slot 0`, whereas `HM02 (Fly)` preserves **both** `Start` (`►POKéMON`) and `wPartyMenuCursor` on the flyer's slot (`use sleep 6500 after confirming Fly`). Step 1 tile off any south-facing doorway before opening `Fly` so a cancelled field move cannot walk `Up` back indoors.
 
 
 <hr>
