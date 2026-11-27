@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Phoebe used Full Restore! SAGE Lv 87 (61 HP, Overgrow active!) striking with Overgrow Bullet Seed! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP (Full Restore depleted!). SAGE Lv 87 (61 HP, Overgrow active!) executing Bullet Seed for the KO! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 102/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (17/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
