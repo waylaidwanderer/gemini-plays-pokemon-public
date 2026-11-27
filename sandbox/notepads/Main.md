@@ -18,13 +18,14 @@
 - [x] Rainbow Badge — Erika (Celadon City, Turn 753)
 - [x] Pokémon Tower Cleared & `Poké Flute` Obtained (Lavender Town, Turn 807)
 - [x] Soul Badge — Koga (`HM03 Surf` & `HM04 Strength` obtained, Fuchsia City, Turn 996)
-- [ ] Marsh Badge — Sabrina (Saffron City)
+- [x] Silph Co. Liberated & `Master Ball` Claimed (`TM26 Earthquake` taught to `AMETHYST`, Turn 1057)
+- [x] Marsh Badge — Sabrina (Saffron City, Turn 1072)
 - [ ] Volcano Badge — Blaine (Cinnabar Island)
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 47 (`143` Max HP, `Carbos` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
+1. **NAUTILUS** (Blastoise) — Lv. 49 (`149` Max HP, `Carbos` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
 2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: **Body Slam** (Slot 0), Water Gun (Slot 1), **Earthquake** (Slot 2), **Thunderbolt** (Slot 3)
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, **Cut** *(`HM01 Cut` specialist)*
