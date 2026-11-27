@@ -359,7 +359,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP. SAGE Lv 87 (4/260 HP, FRZ, Overgrow active!) selecting Bullet Seed for 20% thaw KO. Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 attack MISSED! SAGE Lv 87 (4/260 HP, FRZ, Overgrow active!) locking in Bullet Seed for another 20% thaw KO chance. Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. 2HKO Dusclops Lv 51 with Bullet Seed (STAB).
   2. OHKO Banette Lv 49 with Bullet Seed.
@@ -5037,7 +5037,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP. SAGE Lv 87 (4/260 HP, FRZ, Overgrow active!) selecting Bullet Seed for 20% thaw KO. Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 attack MISSED! SAGE Lv 87 (4/260 HP, FRZ, Overgrow active!) locking in Bullet Seed for another 20% thaw KO chance. Bag: 5 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 4/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (21/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: FRZ.
@@ -5114,6 +5114,5 @@ A large meteorological research institute located in northern Route 119 beside t
 - Full Heal Freeze Cure Verification (Turn 27034 Visual Proof): In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Selecting Full Heal -> USE -> SAGE cures Freeze immediately and removes the FRZ badge.
 - Dusclops Lv 51 Emerald Lead Verification: In Pokémon Emerald, Elite Four Phoebe leads with Dusclops ♀ Lv 51 (Pressure, Ice Beam, Shadow Ball, Rock Slide, Protect), not Lv 48 as in Ruby/Sapphire.
 - Ice Beam Freeze Proc & Thaw Mechanics: Dusclops Lv 51 Ice Beam deals 28-43 dmg to Lv 87 SAGE (190 SpD) with a 10% freeze proc. In Gen 3, a frozen Pokémon has a 20% chance to thaw each turn upon move selection and immediately executes the move on that turn.
-
 
 <hr>
