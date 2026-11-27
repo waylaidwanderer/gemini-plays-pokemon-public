@@ -348,15 +348,15 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Champion Wallace (Water): Lead Wailord Lv 57 (Bullet Seed OHKO), Whiscash Lv 56 (Bullet Seed 4x OHKO), Ludicolo Lv 56 (Aerial Ace 2x OHKO), Tentacruel Lv 55 & Gyarados Lv 56 (Facade/Bullet Seed), Milotic Lv 58 Ace (Overgrow Bullet Seed 2x KO). Preserve 3+ Bullet Seed PP for Wallace!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (42/260 HP, Overgrow ACTIVE, ~256 Spe) facing Salamence Lv 55.
+- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (130/260 HP, 256 Spe, unmitigated 194 Atk) active vs Ace Salamence Lv 55 (~60% HP).
 - Milestone Progress:
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon, Flygon, Altaria DEFEATED! Cobalu absorbed Crunch. Sending in SAGE (130/260 HP, 256 Spe, full Atk) to KO Salamence (~60% HP).
-- Party: SAGE Lv 86 (39/257 HP, Lead), Lilz Lv 30 (FNT), Cobalu Lv 18 (49/49 HP), Guava Lv 30 (101/101 HP), Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
-- Bag: 3 Revives, 1 Full Heal, 1 Master Ball, ¥15,970 cash.
-- Plan: Finish Flygon with Quick Attack -> sweep Altaria, Salamence, Kingdra -> challenge Champion Wallace!
+  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED. Salamence ~60% HP.
+- Party: SAGE Lv 87 (130/260 HP, Lead), Lilz Lv 30 (0/85 HP, FNT), Cipher Lv 17 (0/41 HP, FNT), Cobalu Lv 18 (0/49 HP, FNT), Mochi Lv 11 (0/42 HP, FNT), Guava Lv 30 (101/101 HP, Conscious).
+- Bag: 2 Revives (intact for Wallace), 1 Full Heal, 1 Master Ball, ¥15,970 cash.
+- Plan: KO Salamence with Facade -> sweep Kingdra Lv 53 -> unlock Champion Wallace!
 
 
 <hr>
