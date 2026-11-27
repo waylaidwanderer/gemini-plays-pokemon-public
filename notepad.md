@@ -5071,6 +5071,7 @@ A large meteorological research institute located in northern Route 119 beside t
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- League Mart Counter Spatial Alignment: The Poké Mart clerk in the League Lobby stands at (16, 3) behind the counter at (16, 4). The player must stand at (16, 4) facing North to interact across the counter. Tile (17, 4) faces a blank section of the counter where pressing A will not trigger dialogue.
 - Intimidate Stat Reset on Sacrificial Revive: When facing an Intimidate user (like Drake's Ace Salamence Lv 55), letting the ace take a hit/faint after an opening strike allows a Sacrificial Revive via a low-level reserve anchor. When the ace is revived and switched in after the anchor faints, the -1 Attack debuff is 100% reset to zero, and Intimidate does not re-trigger because the opponent is already active. The ace re-enters with full unmitigated Attack!
 - Sacrificial Revive Stat Reset & Free Entry Proof: Verified on Turn 26897-26904 against Drake's Flygon Lv 53. Reviving SAGE via reserve anchor Lilz restored SAGE to 128 HP at +6 priority. Lilz absorbed Earthquake, allowing SAGE a 100% damage-free switch-in with all prior stat drops (-1 Speed from Shelgon's Rock Tomb) fully reset to 0, regaining full 253 Speed.
 - Shift Prompt Cursor Default: On the "Will [Player] change POKéMON?" prompt when an opponent's Pokémon faints, the cursor defaults to ▶Yes. Press Down to highlight No, then press A (or press B) to keep the active Pokémon in battle.
