@@ -393,9 +393,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   8. Enter Room 4 and challenge Elite Four Drake.
   9. Defeat Champion Wallace.
   10. Enter the Hall of Fame!
-  8. Defeat Drake (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
-  9. Defeat Champion Wallace (STAB Overgrow Bullet Seed sweep)!
-  10. Enter the Hall of Fame!
 
 
 <hr>
