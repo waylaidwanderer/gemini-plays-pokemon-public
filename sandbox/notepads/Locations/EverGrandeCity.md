@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Phoebe used 2nd Full Restore on Sableye! SAGE Lv 87 (11 HP, Overgrow active!) striking with Overgrow Bullet Seed! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Sableye Lv 50 DEFEATED (#3)! Banette Lv 49 on field (#4). SAGE Lv 87 (11 HP, Overgrow active!) executing Bullet Seed for OHKO! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. [x] Dusclops Lv 51 DEFEATED (#1)!
   2. [x] Banette Lv 49 DEFEATED (#2) - Grudge absorbed by Aerial Ace!
