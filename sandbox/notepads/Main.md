@@ -6,7 +6,7 @@
 - Status: Attempt 16 Active! Room 3 Glacia BATTLE ACTIVE! SAGE Lv 88 (88/263 HP, 259 Spe). Bag: 1 Revive, ¥12,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 131/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (10/30), Aerial Ace (0/20), Facade (14/20), Quick Attack (25/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 131/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (9/30), Aerial Ace (0/20), Facade (14/20), Quick Attack (25/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
