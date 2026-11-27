@@ -43,8 +43,8 @@
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (FNT 0/47; Vine Whip, Growth, HM01 Cut, Sleep Powder) — caught turn 485, renamed turn 867
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; HM02 Fly, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
 - **DOZER** (Snorlax, Slot 5) - Lv 33 (151 HP; Headbutt, Amnesia, Rest, HM04 Strength) — caught on Route 16 turn 1147; taught HM04 Strength turn 1298
-- **TEMPEST** (Zapdos, Slot 6) - Lv 53 (178 HP; 107 Atk / 110 Def / 132 Spd [Carbos x1] / 149 Spc; **Thundershock** [30/30], **Drill Peck** [15/20], **Thunder** [3/10]) — caught in Master Ball turn 1735, named turn 1742, Rare Candy -> Lv 51 Thunder turn 1747, Carbos turn 1749!
-- **Bag (9/20 slots):** **Bicycle**, **Revive x8**, **Rare Candy x1**, **Max Potion x4**, **Full Restore x11**, **Full Heal x3**, **TM14 (Blizzard)**, **TM27 (Fissure)**, **TM47 (Explosion)** (Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3, HM04, HM03, TM06, Silph Scope, Lift Key, HM02, HM01, Super Potion x1, Repel x1, Great Ball x3, TM22, Poké Flute, Card Key, TM46, Secret Key, TM38) | **Cash:** ¥17,463 | **Respawn & DIG:** Indigo Plateau Lobby
+- **TEMPEST** (Zapdos, moving to Lead/Slot 1 for Lance!) - Lv 54 (181 HP; 109 Atk / 112 Def / 134 Spd [Carbos x1] / 151 Spc; **Thundershock** [30/30], **Drill Peck** [15/20], **Thunder** [3/10]) — caught in Master Ball turn 1735, named turn 1742, Rare Candy -> Lv 51 Thunder turn 1747, Carbos turn 1749, Rare Candy -> Lv 54 turn 1958!
+- **Bag (8/20 slots):** **Bicycle**, **Revive x8**, **Max Potion x4**, **Full Restore x11**, **Full Heal x3**, **TM14 (Blizzard)**, **TM27 (Fissure)**, **TM47 (Explosion)** (Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3, HM04, HM03, TM06, Silph Scope, Lift Key, HM02, HM01, Super Potion x1, Repel x1, Great Ball x3, TM22, Poké Flute, Card Key, TM46, Secret Key, TM38) | **Cash:** ¥17,463 | **Respawn & DIG:** Indigo Plateau Lobby
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
