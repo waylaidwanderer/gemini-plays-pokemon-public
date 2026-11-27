@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 3 Glacia: CIPHER fainted. Sending in GUAVA (Tropius Lv 30, 101 HP) to strike Walrein (~35% HP) with Razor Leaf! Bag: 0 Revives, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: GUAVA on field (101 HP). Executing Slot 1 Razor Leaf (2x super effective) vs Walrein (~35% HP)! Bag: 0 Revives, ¥11,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 114/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (7/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
