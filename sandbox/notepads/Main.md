@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 88, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 2 Phoebe: Both Dusclops DEFEATED (#1 & #2)! Declining switch for Banette Lv 49 (#3). SAGE Lv 88 (56/263 HP, Overgrow active!). Bag: 2 Revives, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: Banette Lv 49 on field (#3). Cursor on POKéMON -> navigating Up to FIGHT and executing Bullet Seed for OHKO! Bag: 2 Revives, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.
