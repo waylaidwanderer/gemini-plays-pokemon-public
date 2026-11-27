@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 51 sustaining Overgrow Bullet Seed (#2). SAGE Lv 88 (87/263 HP, Overgrow active!) resolving turn. Bag: 2 Revives, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP (#2). SAGE Lv 88 (56/263 HP, Overgrow active!) executing Bullet Seed for the KO! Bag: 2 Revives, ¥7,892 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
@@ -5051,8 +5051,8 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 51 sustaining Overgrow Bullet Seed (#2). SAGE Lv 88 (87/263 HP, Overgrow active!) resolving turn. Bag: 2 Revives, ¥7,892 cash.
+- Starter: Sceptile (Level 88, Male), Nickname: SAGE
+- Status: Attempt 16 Active! Room 2 Phoebe: Dusclops Lv 51 at ~15% HP (#2). SAGE Lv 88 (56/263 HP, Overgrow active!) executing Bullet Seed for the KO! Bag: 2 Revives, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.
@@ -5101,7 +5101,6 @@ A large meteorological research institute located in northern Route 119 beside t
 - Move Menu Clamping Guarantee: On the 2x2 move selection screen, pressing Down then Right is mathematically guaranteed to clamp the cursor directly onto Slot 4 (Quick Attack).
 - In-Battle Sacrificial Revive Protocol: When the active ace faints, sending out a reserve Pokémon allows using a Revive from the Bag with absolute turn-start priority (+6).
 - Party Swap Mechanic on Forced Replacement (Turn 26732 Discovery): In Gen 3 Pokémon Emerald, when a Pokémon faints and a replacement is chosen from the party screen, the incoming replacement swaps positions with the outgoing Pokémon in the party order. Because Lilz was sent in after Sage fainted in Room 2, Lilz became Slot 1 and Sage became Slot 2. Therefore, party targeting rows dynamically follow these swaps. Always verify the target's name plate on the screen before confirming item use!
-- In-Battle Party Targeting Grid Verified Layout (Turn 26732 Visual Proof): On the in-battle party medicine targeting screen, the right column does NOT strictly put Slot 1 at Row 1. In Turn 26732 Frame 56, when Cipher was in the Left Box, Row 1 was LILZ (Lv 30) and Row 2 was SAGE (Lv 85, FNT). To target SAGE when Row 1 is Lilz, you MUST press Right then DOWN to Row 2! Always inspect the name tag in the highlighted box to confirm the target is SAGE before pressing A!
 - Party Screen Visual & Cancel Navigation Mechanics (Turn 26740-26746 Discovery): In Gen 3 Pokémon Emerald's party screens, panel background colors indicate health status: Blue = Conscious, Orange/Red-Brown = Fainted. The actual cursor is indicated by a thick orange bounding box around the active panel. Pressing B on the party replacement screen jumps the cursor directly to the CANCEL button at the bottom-right. From CANCEL, pressing Up steps vertically up the right column (Row 5 -> Row 4 -> Row 3 -> Row 2 -> Row 1).
 - Speed Tier Dominance vs Dragon Dance (Turn 26776-26777 Discovery): SAGE Lv 85 has base 250 Speed. Drake's Altaria Lv 54 at +2 Speed from two Dragon Dances reaches ~210 Speed, meaning SAGE (250 Speed) naturally outspeeds even a double-boosted Altaria without priority! SAGE retains 100% turn-start initiative against Drake's entire roster.
 - Light Screen Physical Bypass: Light Screen only mitigates Special damage; physical moves like Facade and Quick Attack deal 100% full unmitigated damage.
@@ -5129,10 +5128,8 @@ A large meteorological research institute located in northern Route 119 beside t
 - Dusclops Lv 51 Emerald Lead Verification: In Pokémon Emerald, Elite Four Phoebe leads with Dusclops ♀ Lv 51 (Pressure, Ice Beam, Shadow Ball, Rock Slide, Protect), not Lv 48 as in Ruby/Sapphire.
 - Ice Beam Freeze Proc & Thaw Mechanics: Dusclops Lv 51 Ice Beam deals 28-43 dmg to Lv 87 SAGE (190 SpD) with a 10% freeze proc. In Gen 3, a frozen Pokémon has a 20% chance to thaw each turn upon move selection and immediately executes the move on that turn.
 - Grudge PP Depletion Proof & Absorption Strategy (Turn 27061 Visual Proof): When Phoebe's Banette #1 used Grudge on the turn it fainted, the move that delivered the KO blow (Aerial Ace) lost all of its remaining PP ('SAGE's AERIAL ACE lost all its PP due to the GRUDGE!'). Using expendable Aerial Ace successfully absorbed the Grudge, keeping vital STAB Bullet Seed at 12/30 PP completely safe for Wallace!
-- Party Screen Absolute Verified Layout in Room 2 (Turn 27072 Visual Ground Truth): When CIPHER is in Left Box, Right Column is: Row 1 = LILZ (conscious, 42 HP), Row 2 = SAGE (fainted, 0 HP), Row 3 = COBALU, Row 4 = MOCHI, Row 5 = GUAVA. Row 2 is SAGE! To target SAGE on the party targeting screen, you MUST press Right then DOWN to Row 2!
 - Phoebe Full Restore Depletion Proof: Elite Four Phoebe carries exactly 2 Full Restores. Full Restore #1 was used on Dusclops Lv 51 (Turn 27054); Full Restore #2 was used on Sableye Lv 50 (Turn 27065). Both Full Restores are officially depleted; her final Pokémon (Dusclops Lv 48) cannot be healed.
-- Party Medicine Targeting Grid Absolute Law: On the in-battle party medicine targeting screen when the active battler faints and a reserve is sent in, the original lead (SAGE) remains anchored in Row 2 of the Right Column. To target SAGE with Revive, you MUST press Right then DOWN to Row 2! Pressing Right alone targets Row 1 (the most recently fainted anchor).
-- Party Grid Alignment with COBALU Lead (Turn 27101 Visual Ground Truth): When COBALU is in Left Box, Right Column is: Row 1 = LILZ (FNT), Row 2 = CIPHER (FNT), Row 3 = SAGE (FNT, Lv 87). Pressing Right lands on Row 2 (CIPHER); pressing Down moves to Row 3 (SAGE).
+- Party Medicine Targeting Grid Law: On the in-battle party medicine targeting screen, the active battler occupies the Left Box, while reserve party members fill the Right Column. The most recently fainted anchor occupies Row 1, while the original lead ace (SAGE) remains anchored in Row 2 (or Row 3 if two anchors have fainted). To target SAGE, press Right from the Left Box, then press Down to navigate to SAGE's row before confirming.
 - Absol Full Restore Threshold: In Room 1, Sidney triggers his Full Restore when Absol drops to critical red HP (~5%), forfeiting Absol's attack for that turn and depleting Sidney's healing items.
 
 <hr>
