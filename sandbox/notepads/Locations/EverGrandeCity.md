@@ -82,18 +82,3 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
   9. Enter the Hall of Fame!
-- Status: Attempt 16 Active! Room 3 Glacia BATTLE INITIATED! SAGE Lv 88 (88/263 HP, 259 Spe). Bag: 1 Revive, ¥12,992 cash.
-- Key Execution Notes:
-  - Grudge Absorption: Depleted expendable Aerial Ace (0 PP) on Banette #1 KO, keeping 14 STAB Bullet Seed PP and 14 Facade PP 100% safe.
-  - Sacrificial Revive: Restored SAGE to 131/263 HP via Lilz anchor with +6 priority. SAGE re-entered with zero switch-in damage to finish Phoebe.
-  - SAGE Lv 88 Stats: HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Outspeeds every opponent in the League.
-- Glacia Full Restore Depleted: Glacia used Full Restore on Sealeo #2 on Turn 27186, wasting her attack turn!
-- Immediate Plan:
-  1. [x] Enter Pokémon League Lobby.
-  2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
-  3. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27136)! Earned ¥4,900.
-  4. [x] Phoebe DEFEATED (Turn 27169)! Earned ¥5,100.
-  5. [x] Walk through Room 2 north door and ascend Grand Staircase to Room 3 Glacia.
-  6. Defeat Glacia: Sealeo #1 Lv 50 (DEFEATED!), Sealeo #2 Lv 52 (DEFEATED Turn 27191!), Walrein Lv 53 (DEFEATED Turn 27195!), Glalie #1 Lv 50 (DEFEATED Turn 27199!), Glalie #2 Lv 52 (Active, FINAL!). Earn +¥5,300.
-  7. Defeat Drake.
-  8. Defeat Champion Wallace and enter the Hall of Fame!
