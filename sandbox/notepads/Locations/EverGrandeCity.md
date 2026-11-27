@@ -73,6 +73,6 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   3. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27136)! Earned ¥4,900.
   4. [x] Phoebe DEFEATED (Turn 27169)! Earned ¥5,100.
   5. [x] Walk through Room 2 north door and ascend Grand Staircase to Room 3 Glacia.
-  6. Defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
+  6. Defeat Glacia: Sealeo #1 (DEFEATED Turn 27178!), Glalie #1, Sealeo #2, Glalie #2, Walrein. Earn +¥5,300.
   7. Defeat Drake.
   8. Defeat Champion Wallace and enter the Hall of Fame!
