@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Guava absorbed Dragon Claw and fainted. Sending in SAGE (130/260 HP, 256 Spe, unmitigated Atk) to defeat Salamence and Kingdra! Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 87 (130/260 HP, 256 Spe, unmitigated Atk) executing Facade vs Salamence Lv 55 (100% HP, Drake out of Full Restores). Bag: 1 Revive, 1 Full Heal, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (23/30). Status: OK (Revived).
