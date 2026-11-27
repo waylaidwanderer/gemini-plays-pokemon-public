@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 88, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 2 Phoebe: LILZ fainted (anchor sacrifice complete). Sending in SAGE (131/263 HP, 259 Spe, healthy!) to KO Banette Lv 49! Bag: 1 Revive, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: SAGE on field (131/263 HP, 259 Spe, healthy!). Executing Bullet Seed to KO Banette Lv 49 (#3)! Bag: 1 Revive, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
@@ -19,7 +19,7 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x2 (purchased at League Mart for ¥3,000; 2 intact for Attempt 16!)
+- Revive x1 (1 consumed on Turn 27159 for Sacrificial Revive on SAGE; 1 intact for Glacia/Drake/Wallace!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥7,892 (¥2,992 + ¥4,900 Sidney prize money!)
