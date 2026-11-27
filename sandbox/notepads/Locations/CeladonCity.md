@@ -28,8 +28,12 @@
 - Enter **Upper Route 16 Gatehouse at `(23, 5)`** -> spawns at `(7, 3)`; bypass NPC at `(4, 3)` via **`y = 2`** (`(0, 2) -> Left` exits to West Route 16).
 - **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
 
-## Celadon Game Corner & Rocket Hideout (Verified Turns 639–650)
+## Celadon Game Corner, Diner, & Rocket Hideout (Verified Turns 639–650, 1669–1678)
+- **Celadon Diner (`Coin Case`)**: Door at **`Celadon City (31, 27)`** -> spawns at **`(3, 7)`** (`NPCs at (1, 4), (5, 3), and (8, 5)`). Access between `y = 28` and the northern blocks runs via **`x = 24`** (`west side`) or **`x = 37`** (`east side`).
+- **Game Corner & Prize Exchange Courtyard**: Wooden fence blocks `y = 21` across `x = 26..33`; enter `y = 20` from the **east** at **`(37, 22) -> Up * 2 -> (37, 20) -> Left`**.
 - **Game Corner Entrance**: Door at **`Celadon City (28, 19)`** -> spawns at **`(15, 17)`**.
+  - Receptionist at `(2, 6)` (`stand at (2, 8)` facing `Up`) gives prize info; **Coin Seller** is at **`(5, 6)`** (`stand at (5, 8)` facing `Up` via aisle `x = 3`). Note: the Coin Seller displays `MONEY` and `COIN 0` *before* checking whether `COIN CASE` is in the Bag upon confirming `►YES`!
+- **Game Corner Prize Exchange**: Door at **`Celadon City (33, 19)`** -> spawns at **`(4, 7)`**. Three service windows along `y = 1` (`stand at y = 3` facing `Up`): **Left `(2, 3)`** (Basic Pokémon), **Middle `(4, 3)`** (Rare Pokémon), **Right `(6, 3)`** (TMs).
 - **Poster Switch**: Defeat Rocket Grunt at **`(9, 5)`**, then inspect **`(9, 4)`** (`["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 2500"]` — note `"Let's push it!"` closes with no extra `"Click!"` box) -> opens secret staircase down to **Rocket Hideout B1F** at **`(17, 4)`**!
 - **Direct B1F -> B2F -> B3F Shortcut (Zero Trainers, Bypasses B2F Spinner Maze!)**:
   - `Game Corner (17, 4)` -> **`B1F (21, 2)`** -> walk `Right * 2` onto **`B1F (23, 2)`** -> **`B2F (27, 8)`**.

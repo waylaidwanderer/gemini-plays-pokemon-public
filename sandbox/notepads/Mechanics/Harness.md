@@ -188,3 +188,6 @@ def name_buttons(word):
   - Generation I Trainer AI items (`Full Restore` / `Hyper Potion`) execute on the enemy Pokémon's Speed slot rather than at priority before faster player attacks (`Turn 1636`).
 - **0.4s Neighbor Wall-Probe Before Wild Clearer (`Turn 1650`)**:
   - When a grass/route step `[d]` from `b` fails (`after == b`), immediately testing a known-open non-ledge neighbor (`[probe]` with zero sleep) returns in ~0.4s on physical walls/ledges (`pos != b`), running the 6s wild-encounter clearer + `RUN` only when overworld movement is actually battle-locked (`pos == b`).
+- **North-South Gatehouse Exit Mat & Game Corner `COIN 0` Trap (`Turns 1666–1667, 1675–1678`)**:
+  - North-South Gatehouses (e.g. Route 2 Gatehouse) have exit mats at **`y = 8..9`** rather than `y = 7` (standard houses).
+  - In Celadon Game Corner, the Coin Seller (`(5, 6)`) renders `MONEY` and `COIN 0` on `"Would you like some? ►YES/NO"` even when you do **not** have a `COIN CASE` (only checking for `COIN CASE` *after* confirming `►YES` -> `"Oops! You don't have a COIN CASE!"`), and NPC item gifts silently fail with `"You have no room for this!"` if the 20-slot Bag is full. Always assert indoor spawn coordinates (`e.g. {'x': 3, 'y': 7}`) before executing indoor menu sequences.
