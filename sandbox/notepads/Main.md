@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Crawdaunt Lv 48 at ~15% HP (#5). SAGE Lv 88 (87/263 HP, Overgrow active!) clearing turn to execute finishing blow. Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney DEFEATED (5-0 clean sweep, Turn 27138)! Advancing to Room 2 Phoebe. SAGE Lv 88 (87/263 HP, Overgrow active!). Bag: 2 Revives, ¥7,892 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 259. Moves: Bullet Seed (28/30), Aerial Ace (18/20), Facade (14/20), Quick Attack (25/30). Status: OK.
