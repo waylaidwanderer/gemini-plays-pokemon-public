@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 17 Active! Room 3 Glacia BATTLE ACTIVE! SAGE revived to 133 HP. Bag: 1 Revive, ¥11,996 cash.
+- Status: Attempt 17 Active! Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 117/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (12/20), Quick Attack (24/30). Status: OK.
@@ -22,7 +22,7 @@
 - Revive x1 (1 consumed Turn 27255, 1 consumed Turn 27281 for Sacrificial Revive on SAGE; 1 intact for Drake/Wallace!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥11,996 (¥6,896 + ¥5,100 Phoebe prize money)
+- Money: ¥17,296 (¥11,996 + ¥5,300 Glacia prize money)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -32,7 +32,7 @@
 4. [ ] Challenge the Elite Four (Attempt 17 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27289, Attempt 17)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

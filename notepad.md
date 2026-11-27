@@ -331,7 +331,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 17 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27289, Attempt 17)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -381,7 +381,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
 
 ## Elite Four Attempt 17 (Active)
-- Status: Attempt 17 Active! Room 2 Phoebe DEFEATED (Turn 27266)! Advancing to Room 3 Glacia. SAGE Lv 89 (66/266 HP, 262 Spe). Bag: 2 Revives, ¥11,996 cash.
+- Status: Attempt 17 Active! Glacia DEFEATED (Turn 27289)! Advancing to Room 4 Drake. SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
@@ -389,7 +389,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
   5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
-  7. Defeat Glacia: Sealeo #1 Lv 50 (DEFEATED!), Walrein Lv 53 Ace (DEFEATED Turn 27283!), Glalie #1 Lv 50 (DEFEATED Turn 27286!), Glalie #2 Lv 52 (DEFEATED Turn 27288!), Sealeo #2 Lv 52 (Active, FINAL!). Earn +¥5,300.
+  7. [x] Glacia DEFEATED (Turn 27289)! Earned +¥5,300.
+  8. Enter Room 4 and challenge Elite Four Drake.
+  9. Defeat Champion Wallace.
+  10. Enter the Hall of Fame!
   8. Defeat Drake (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   9. Defeat Champion Wallace (STAB Overgrow Bullet Seed sweep)!
   10. Enter the Hall of Fame!
@@ -5064,7 +5067,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 17 Active! Room 3 Glacia BATTLE ACTIVE! SAGE revived to 133 HP. Bag: 1 Revive, ¥11,996 cash.
+- Status: Attempt 17 Active! Glacia DEFEATED! Advancing to Room 4 Drake. SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 117/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (12/20), Quick Attack (24/30). Status: OK.
@@ -5083,7 +5086,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x1 (1 consumed Turn 27255, 1 consumed Turn 27281 for Sacrificial Revive on SAGE; 1 intact for Drake/Wallace!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥11,996 (¥6,896 + ¥5,100 Phoebe prize money)
+- Money: ¥17,296 (¥11,996 + ¥5,300 Glacia prize money)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5093,7 +5096,7 @@ A large meteorological research institute located in northern Route 119 beside t
 4. [ ] Challenge the Elite Four (Attempt 17 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27289, Attempt 17)!
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
