@@ -36,3 +36,12 @@
   2. Walk east `(17, 26) -> (22, 26) -> (22, 29) -> (25, 29) -> (25, 27) -> (30, 27) -> (35, 27)` (`above the y = 30 wall and below the (32..33, 24..26) rocks`), then `Up * 3` to `(35, 24) -> (37, 24)`.
   3. Walk north up the outer east corridor `(37, 24) -> (37, 14) -> (30, 14) -> (23, 14) -> (23, 2)`, then west `(23, 2) -> (18, 3) -> (18, 11) -> (12, 11) -> (12, 5) -> (11, 5) -> (11, 3) -> (6, 3) -> (6, 5) -> (4, 5) -> (4, 8)` facing **`Zapdos Lv. 50`** at **`(4, 9)`** *(captured on `Ultra Ball #2` as **`TOPAZ`**, Turn 1421)*.
   4. Exit directly via the west exit mat `(4, 8) -> (4, 11) -> (0, 11) -> Left` onto **`Route 10 (6, 43)`**.
+
+
+## Victory Road -> `Moltres Lv. 50` (`Verified Turns 1456–1477`)
+- **Why Indigo Back Entrance (`2F (29, 7)`) Cannot Reach `Moltres`**: `(10..13, 8)` is a north-facing cliff, `(13, 0..7)` is a solid east rock wall, `x = 8` (`(8, 4..17)` + `(7, 8..9)` Switch #2A gate) blocks `2F` east->west, and `2F (5, 5)` boulder is a one-way north->south exit gate (`(5, 2)` rock blocks pushing north).
+- **Verified `1F -> 2F -> 3F -> 2F (1, 1)` Route**:
+  1. Enter `Victory Road 1F` at `Route 23 (4, 31)` -> `1F (8, 17)`, push `1F (5, 15)` boulder onto `(17, 13)` switch, climb **`1F (1, 1)`** (`via (2, 4) -> (2, 1) -> (1, 1)`) -> **`2F (0, 8)`**.
+  2. Push `2F (4, 14)` boulder onto `(1, 16)` Switch #2A, cross plateau `(5, 8) -> (14, 8) -> (14, 13) -> (18, 14) -> (21, 14)`, descend `(21, 15)` stairs to `(21, 16) -> (28, 16) -> (28, 11) -> (21, 11) -> (21, 6)`, and climb **`2F (23, 7)`** -> **`3F (23, 7)`**.
+  3. On `3F` *(no Strength needed)*: walk north to `y = 0`, west along `y = 0` to `(6, 0)`, `Down * 2` to `(6, 2)`, `Left * 4` to `(2, 2)`, and `Up * 2` onto **`3F (2, 0)` ladder** -> drops onto **`2F (1, 1)`**.
+  4. Walk `Right * 9` along `y = 1` (`(1, 1) -> (10, 1)`), `Down * 3` to `(10, 4)`, `Right` to **`(11, 4)`** facing `Down` at **`Moltres Lv. 50` `(11, 5)`** *(captured on `Ultra Ball #10` as **`RUBY`**, Turn 1475; warped out via `Dig`, Turn 1477)*.
