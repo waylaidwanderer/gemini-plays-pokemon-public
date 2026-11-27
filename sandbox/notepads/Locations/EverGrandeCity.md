@@ -48,14 +48,26 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): Grew to Lv 87! Max HP 260, Atk 194, Def 141, SpA 212, SpD 190, Spe 256. 100% restored upon whiteout!
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
-## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 3 Glacia: GUAVA fainted to Ice Beam. Sending in MOCHI (Wynaut Lv 11, 42 HP) as final conscious Pokémon! Bag: 0 Revives, ¥11,985 cash.
+## Elite Four Attempt 15 (Archived Turn 27109)
+- Status: Concluded via whiteout at Glacia's Ace Walrein (~35% HP).
+- Milestone Progress:
+  - Sidney DEFEATED (5-0 clean sweep, Turn 27022)! Earned ¥4,900.
+  - Phoebe DEFEATED (Turn 27084)! Earned ¥5,100.
+    - Verified Grudge absorption strategy with Aerial Ace.
+    - Verified Phoebe's 2 Full Restore limit.
+    - Mapped party targeting grid: Row 2 is SAGE when Cipher is active!
+  - Glacia: Sealeo #1 (DEFEATED), Sealeo #2 (DEFEATED), Walrein Lv 53 (reduced to ~35% HP).
+  - Defeated 11 Elite Four Pokémon!
+- Economy: Peaked at ¥11,985 -> halved to ¥5,992 upon whiteout (funds 3 Revives!).
+- SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
+
+## Elite Four Attempt 16 (Active)
+- Status: Respawning at League Entrance to restock 3 Revives at Mart counter (16, 4) and launch Attempt 16.
 - Immediate Plan:
-  1. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27022)!
-  2. [x] Phoebe DEFEATED (Turn 27084)!
-  3. KO Sealeo Lv 50 with Bullet Seed (#1).
-  4. 2HKO Glalie Lv 50 with physical Facade (bypasses Light Screen, #2).
-  5. OHKO Sealeo Lv 52 with Bullet Seed (#3).
-  6. 2HKO Glalie Lv 52 with physical Facade (#4).
-  7. 2HKO Walrein Lv 53 with Bullet Seed (#5). Glacia DEFEATED!
-  8. Advance to Room 4 Drake -> Champion Wallace!
+  1. Enter Pokémon League Lobby.
+  2. Walk to Mart counter at (16, 4) and purchase 3 Revives for ¥4,500.
+  3. Enter Room 1 and sweep Sidney 5-0 (earn +¥4,900).
+  4. Enter Room 2 and sweep Phoebe (absorb Grudge with Aerial Ace, earn +¥5,100).
+  5. Enter Room 3 and defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, earn +¥5,300).
+  6. Enter Room 4 and defeat Drake.
+  7. Defeat Champion Wallace and enter the Hall of Fame!
