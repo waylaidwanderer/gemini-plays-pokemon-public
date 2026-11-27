@@ -304,6 +304,12 @@
   - Tunnel runs from **`(47, 2)`** (east) to **`(2, 4)`** (west stairs -> Route 7 Gatehouse `(4, 4)` -> exits to `Route 7 (5, 14)`).
   - On **Route 7**: walk around the east side of the gatehouse (`x = 8`) to `(4, 8)`, climb the **wooden stairs at `(4, 7)`** onto the upper plateau `(4, 3)`, and walk west (`x = 0, y = 3`) into **`Celadon City (49, 11)`**.
 
+## Route 12 — Surf Bypass, `Snorlax`, & `Super Rod` (`Verified Turns 1576–1594`)
+- Exit Lavender Town south along **`x = 10`** through the Route 12 North Gatehouse (`exits at Route 12 (10, 22)`).
+- Walk `(10, 22) -> (10, 27) -> (15, 27) -> (15, 31)` (behind the left-facing Fisherman at `(14, 31)`), face `Right` at `(16, 31)`, and **`Surf` straight south along `x = 16` to `(16, 60)`** -> `Left` to **`(10, 60)`** (`bypassing all northern Silence Bridge Fishermen!`).
+- Static **`Snorlax Lv. 30`** sleeps at **`(10, 62)`** (wake from `(10, 61)` with `Poké Flute`).
+- South of `(10, 62)`: `Surf` from `(11, 61)` east to `x = 16` (`note Rocker Luca on the pier spots (14, 72)`), continue south to `y = 78`, and enter the **Fishing Guru's House at `(11, 77)`** (from `(11, 78)` -> `Up`; Guru at `(2, 4)` gives **`SUPER ROD`** upon answering `YES`).
+
 
 <hr>
 
