@@ -138,6 +138,7 @@ def name_buttons(word):
 - **Battle `FIGHT` Menu Render Delay (`Turn 960`)**: Use `sleep 600` (not `400`) after pressing `A` on `►FIGHT` so the move box renders before directional/confirmation inputs.
 - **Strength Boulder Shove (`Turn 951`)**: Each 1-tile boulder push takes two directional presses (`1st` shoves the boulder forward while player remains stationary; `2nd` steps into the vacated tile).
 
-## Town Map `Fly` & Elevator Timing (Verified Turns 999–1007)
+## Town Map `Fly` & Elevator Timing (Verified Turns 999–1026)
 - **Town Map `Fly` Cursor Direction (`Turns 999–1000`)**: On the `Fly` Town Map, `Up` steps forward (`0 Pallet -> 1 Viridian`), whereas `Down` wraps backward from `0 Pallet` directly to the final unlocked destination (`Saffron City`). Allow `sleep 5500` after pressing `A` on the destination for the landing animation to finish.
-- **Multi-Floor Elevator Shake (`Turn 1007`)**: Elevator travel duration scales with floor distance; wait `sleep 4500` after selecting a floor before stepping toward the exit mat `(1..2, 3)`.
+- **Silph Co. Elevator Cursor & Shake Duration (`Turns 1007, 1025–1026`)**: Opening the Elevator panel `(3, 0)` always initializes at `►1F` (`index 0`, so `3F` is `Down * 2` and `10F` is `Down * 9`). Even a 1-floor ride (`9F -> 10F`) shakes for ~3.8s and eats directional inputs after `sleep 3500`; always wait `sleep 4500` after confirming a floor before stepping to exit `(2, 3)`.
+- **Silph Co. Card Key Shutter Prompt (`Turns 1021–1024`)**: Facing a closed shutter and pressing `A` displays `"Bingo! ▼"` -> `"The CARD KEY ▼"` -> `"opened the door!"`, requiring `A` plus **three** `B` presses (`["A", "sleep 900", "B", "sleep 900", "B", "sleep 1200", "B", "sleep 800"]`) before stepping through.

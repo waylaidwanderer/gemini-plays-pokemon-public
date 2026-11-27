@@ -472,7 +472,9 @@
   - From `(2, 18)`, walk `Down * 12` along `x = 2` to `(2, 30)` and `Right * 7` to `(9, 30)` -> door at **`(9, 29)`**.
 - **Silph Co.**:
   - Door at **`(18, 21)`** (`from Saffron Center (9, 30), walk Left * 7 -> (2, 30) -> Up * 8 -> (2, 22) -> Right * 16 -> (18, 22) -> Up`; spawns inside **1F at `(10, 17)`**).
-  - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) lists 1F..11F top-to-bottom`).
+  - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) always starts at 1F; 1F..11F top-to-bottom`).
+  - **5F `CARD KEY` (`Turns 1009–1014`)**: Defeat Scientist Beau (`5F (8, 3)`) and Rocket Grunt (`5F (8, 16)`), double-warp `5F (9, 15) <-> 9F (17, 15)` to clear the Grunt's tile, and walk east along `y = 16` to claim **`CARD KEY`** at **`5F (21, 16)`**.
+  - **Upper-Floor Elevator Shift (`Turns 1024–1028`)**: Upper Silph Co. maps narrow horizontally, shifting the Elevator door to **`(18, 0)` on `9F`** (`reachable from 9F (17, 15) past Scientist Ed at (21, 13) through Card Key shutters at (19, 10) and (19, 4); 9F infirmary shutter is at (10, 12..13)`) and **`(12, 0)` on `10F`** (`bypass Scientist at (10, 2) facing Left via row y = 3`).
 
 
 <hr>
@@ -698,9 +700,10 @@ def name_buttons(word):
 - **Battle `FIGHT` Menu Render Delay (`Turn 960`)**: Use `sleep 600` (not `400`) after pressing `A` on `►FIGHT` so the move box renders before directional/confirmation inputs.
 - **Strength Boulder Shove (`Turn 951`)**: Each 1-tile boulder push takes two directional presses (`1st` shoves the boulder forward while player remains stationary; `2nd` steps into the vacated tile).
 
-## Town Map `Fly` & Elevator Timing (Verified Turns 999–1007)
+## Town Map `Fly` & Elevator Timing (Verified Turns 999–1026)
 - **Town Map `Fly` Cursor Direction (`Turns 999–1000`)**: On the `Fly` Town Map, `Up` steps forward (`0 Pallet -> 1 Viridian`), whereas `Down` wraps backward from `0 Pallet` directly to the final unlocked destination (`Saffron City`). Allow `sleep 5500` after pressing `A` on the destination for the landing animation to finish.
-- **Multi-Floor Elevator Shake (`Turn 1007`)**: Elevator travel duration scales with floor distance; wait `sleep 4500` after selecting a floor before stepping toward the exit mat `(1..2, 3)`.
+- **Silph Co. Elevator Cursor & Shake Duration (`Turns 1007, 1025–1026`)**: Opening the Elevator panel `(3, 0)` always initializes at `►1F` (`index 0`, so `3F` is `Down * 2` and `10F` is `Down * 9`). Even a 1-floor ride (`9F -> 10F`) shakes for ~3.8s and eats directional inputs after `sleep 3500`; always wait `sleep 4500` after confirming a floor before stepping to exit `(2, 3)`.
+- **Silph Co. Card Key Shutter Prompt (`Turns 1021–1024`)**: Facing a closed shutter and pressing `A` displays `"Bingo! ▼"` -> `"The CARD KEY ▼"` -> `"opened the door!"`, requiring `A` plus **three** `B` presses (`["A", "sleep 900", "B", "sleep 900", "B", "sleep 1200", "B", "sleep 800"]`) before stepping through.
 
 
 <hr>
