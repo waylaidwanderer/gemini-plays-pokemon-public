@@ -29,7 +29,13 @@
 
 ## Victory Road 2F (`Verified Turns 1199–1210, 1430–1442`)
 - Spawns at `(0, 8)` from `1F (1, 1)` (or `(29, 7)` from `Route 23 (14, 31)`); dark-checkered dirt tiles are walkable cave floor, **except `(10..13, 8)` is a north-facing cliff edge** (`stepping Up onto (10..13, 7) is blocked`, Turn 1438) and `x = 8` (`(8, 4..17)` + `(7, 8..9)` Switch #2A barrier) seals the west half from the east half (`Turn 1437`), with zero `3F` holes above `(11, 5)` (`Turn 1442`).
-- **`Moltres Lv. 50` (`2F (11, 5)`) Route**: Must enter from **Victory Road `1F`** (`(8, 17)` -> push `(5, 15)` boulder onto `(17, 13)` switch -> `1F (1, 1)` ladder -> `2F (0, 8)`), activate `Strength` on `2F`, push **`2F (5, 5)` boulder** `Up`, and walk east above `(8, 4)` rock (`y = 1..3`) to `(11, 4)` facing **`Moltres`** at **`(11, 5)`**.
+- **`Moltres Lv. 50` (`2F (11, 5)`) Verified Route (`Turns 1461–1467`)**:
+  - *Trap Note*: `2F (5, 5)` boulder **cannot** be pushed north to enter `Moltres`'s corridor (`(5, 2)` is a rock and `(4, 4)`/`(6, 4)` flank `(5, 4)`, making `(5, 5)` a one-way north->south exit shortcut). Furthermore, `(13, 0..7)` is a solid vertical rock wall sealing `(11, 5)` on the east (`Turn 1464 filmstrip_3.png #104`).
+  - *Exact Path*:
+    1. Enter **Victory Road `1F`** at `Route 23 (4, 31)` -> `1F (8, 17)`, push `1F (5, 15)` boulder onto `(17, 13)` switch, and climb **`1F (1, 1)`** (`via (3, 4) -> (1, 4) -> (2, 4) -> (2, 1) -> (1, 1)`) -> **`2F (0, 8)`**.
+    2. On **`2F`**, activate `Strength`, push Boulder `#2A` `(4, 14)` onto **`(1, 16)` Switch**, cross plateau `(5, 8) -> (14, 8) -> (14, 13) -> (18, 13) -> (18, 14) -> (21, 14)`, descend `(21, 15)` stairs to `(21, 16) -> (28, 16) -> (28, 11) -> (21, 11) -> (21, 6)`, and climb **`2F (23, 7)`** -> **`3F (23, 7)`**.
+    3. On **`3F`** *(no `Strength` or boulder push required)*: walk north to `y = 0`, traverse west along **`y = 0`** (`(23, 0) -> (6, 0)`), step `Down * 2` to `(6, 2)`, `Left * 4` to `(2, 2)`, and `Up * 2` onto **`3F (2, 0)` ladder** -> drops onto **`2F (1, 1)`**.
+    4. On **`2F` north corridor**: walk `Right * 9` along `y = 1` (`(1, 1) -> (10, 1)`, passing behind downward-facing trainer at `(4, 2)` and above `(5, 2)` & `(8, 4)` rocks), `Down * 3` to `(10, 4)`, `Right` to **`(11, 4)`**, and face `Down` at **`Moltres Lv. 50` `(11, 5)`**.
 - **Boulder #2A (`(4, 14) -> Switch (1, 16)`)**: Because `(1, 13)` is a rock, push `(4, 14)` `Left` to `(3, 14)`, `Down * 2` to `(3, 16)`, and `Left * 2` onto **`(1, 16)` Switch**.
 - **Route to 3F Ladder `(23, 7)`**: Climb `(5, 10)` stairs onto the plateau `(5, 8) -> (14, 8)` (`passing behind left-facing Blackbelt at (12, 9)`), walk `(14, 13) -> (18, 13)` (`defeat Juggler Nelson at (21, 13)`), descend `(21, 15)` stairs to `(21, 16)`, loop `(28, 16) -> (28, 11) -> (21, 11) -> (21, 6)` (`bypassing downward-facing trainer at (19, 8)`), and climb **`(23, 7)`** to **Victory Road 3F**.
 
