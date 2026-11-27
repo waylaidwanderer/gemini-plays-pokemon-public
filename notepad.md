@@ -19,29 +19,29 @@
 - [x] Thunder Badge — Lt. Surge (Vermilion City, Turn 449)
 - [x] Rainbow Badge — Erika (Celadon City, Turn 753)
 - [x] Pokémon Tower Cleared & `Poké Flute` Obtained (Lavender Town, Turn 807)
-- [ ] Soul Badge — Koga (Fuchsia City)
+- [x] Soul Badge — Koga (`HM03 Surf` & `HM04 Strength` obtained, Fuchsia City, Turn 996)
 - [ ] Marsh Badge — Sabrina (Saffron City)
 - [ ] Volcano Badge — Blaine (Cinnabar Island)
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 39 (`118/118` HP) | Moves: BubbleBeam (Slot 0), Ice Beam (Slot 1), Dig (Slot 2), Bite (Slot 3) *(Note: abandon `Skull Bash` at Lv. 42 with `["B", "sleep 1500", "A", "sleep 1500"]`)*
-2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(100% Electric-immune! 85-BP `Body Slam` + 95-BP `Thunderbolt`!)*
-3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl *(1% Mt. Moon 1F catch; `HM04 Strength` compatible)*
-4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, Cut *(`HM01 Cut` & `Spore` specialist)*
-5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, Fly, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
+1. **NAUTILUS** (Blastoise) — Lv. 44 (`134` Max HP) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
+2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(Teach `TM26 Earthquake` on Silph Co. 5F)*
+3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
+4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, **Cut** *(`HM01 Cut` specialist)*
+5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, **Fly**, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
 
 ## Inventory & Money
-- Money: ~¥10,000+
-- Key Items: Pokédex, Silph Scope, Bicycle, HM01 (Cut), HM02 (Fly) *(Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM45 stored in COBALT's PC)*
-- Bag (`15/20` slots):Max Ether x1, HM01 (Cut), Poké Ball x4, Bicycle, Fresh Water x1 *(save for Saffron Gatehouse!)*, HM02 (Fly), Silph Scope, Super Potion x7, Awakening x7, X Speed x8, X Defend x12, TM21 (Mega Drain), Elixer x1, X Accuracy x1
+- Money: ~¥18,000+
+- Key Items: Pokédex, Bicycle, Poké Flute *(HM01–HM04, Silph Scope, Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM40, TM45 stored in COBALT's PC)*
+- Bag (`15/20` slots): Max Ether x1, Poké Ball x4, Bicycle, Super Potion x7, Awakening x7, X Speed x8, X Defend x12, TM21, Elixer x1, X Accuracy x1, Rare Candy x2, Poké Flute, Max Potion x1, Max Revive x1, TM06 (Toxic)
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
 - `notepads/Scratchpad/Routing.md` — Active route planning & immediate checklists
 - `notepads/Mechanics/Harness.md` — Verified harness timing & input behavior
-- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md`, `Lavender_Route8.md`, `CeladonCity.md`)
+- `notepads/Locations/` — Verified town, route, and dungeon notes (`Route9_RockTunnel.md`, `Lavender_Route8.md`, `CeladonCity.md`, `SaffronCity.md`, `FuchsiaCity.md`)
 
 
 <hr>
@@ -189,7 +189,7 @@
   - Surrounded by solid cliffs on north (`y = 22..25`), west (`x = 2`), and east (`x = 23`), and south ledge (`y = 31`) EXCEPT the **south gap at `(8, 31)`** (`reached via west grass strip (1, 21) -> Down * 11 -> (1, 32) -> Right * 7 -> (8, 32) -> Up -> (8, 31)`!).
   - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`registered on Fly Town Map Turn 955!`).
   - **Fuchsia Gym (Koga — Soul Badge Earned Turn 996)**: Door at **`(5, 27)`** (`just Left * 14 from (19, 28) -> (5, 28) -> Up`).
-    - **Invisible Wall Visual Rule & Exact Path (`Turns 965–996`)**: White horizontal dashes on the gray floor mark solid invisible walls. Verified path to **Koga at `(4, 10)`**: `(4, 17) -> Right * 5 -> (9, 17) -> Up * 16 -> (9, 1) -> Left * 9 -> (0, 1) -> Down * 2 -> (0, 3) -> Right * 2 -> (2, 3) -> Down * 2 -> (2, 5) -> Left -> (1, 5) -> Down * 2 -> (1, 7) -> Left -> (0, 7) -> Down * 2 -> (0, 9) -> Right * 4 -> (4, 9)` (directly above Koga at `(4, 10)`).
+    - **Invisible Wall Visual Rule & Exact Path (`Turns 965–997`)**: Verified path to **Koga at `(4, 10)`**: `(4, 17) -> Right * 5 -> (9, 17) -> Up * 16 -> (9, 1) -> Left * 9 -> (0, 1) -> Down * 2 -> (0, 3) -> Right * 2 -> (2, 3) -> Down * 2 -> (2, 5) -> Left -> (1, 5) -> Down * 4 -> (1, 9) -> Right * 4 -> (5, 9) -> Down -> (5, 10)` (right next to Koga at `(4, 10)`).
 
 
 <hr>
