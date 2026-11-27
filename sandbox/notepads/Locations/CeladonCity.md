@@ -10,6 +10,7 @@
 - Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`).
 - **Shop Counters & 4-`B` Exit Rule**:
   - **2F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `Great Ball`, `Super Potion`, `Revive`, **`Super Repel` (`Slot 3`, ¥500)**.
+  - **4F Wise Man Gifts Clerk `(5, 7)`** (`stand at (5, 5)` facing **`Down`** — south counter!): sells `Poké Doll` (`¥1000`), **`Fire Stone` (`¥2100`)**, **`Thunderstone` (`¥2100`)**, **`Water Stone` (`¥2100`)**, and **`Leaf Stone` (`¥2100`)**.
   - **5F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `X Accuracy`, `Guard Spec.`, `Dire Hit`, `X Attack`, `X Defend`, **`X Speed` (`-2` from `CANCEL`, ¥350)**, and **`X Special` (`-1` from `CANCEL`, ¥350)**.
   - Exiting a Mart completely after `"Here you are! Thank you!"` requires **four** `B` presses (`1`: dismisses `"Here you are!"`, `2`: exits `BUY` list, `3`: selects `QUIT` -> `"Thank you!"`, `4`: closes `"Thank you!"`).
 - **Exact Floor-to-Floor Stair Pairs** *(white treads = UP, dark stairwell = DOWN; arriving auto-steps to `y = 2`)*:
@@ -29,7 +30,7 @@
 - **Secret House (`HM02 Fly`)**: Door at **`Route 16 (7, 5)`**; girl at `(2, 3)` gives `HM02 (Fly)` (Turn 632).
 
 ## Celadon Game Corner, Diner, & Rocket Hideout (Verified Turns 639–650, 1669–1678)
-- **Celadon Diner (`Coin Case`)**: Door at **`Celadon City (31, 27)`** -> spawns at **`(3, 7)`** (`NPCs at (1, 4), (5, 3), and (8, 5)`). Access between `y = 28` and the northern blocks runs via **`x = 24`** (`west side`) or **`x = 37`** (`east side`).
+- **Celadon Diner (`Coin Case`)**: Door at **`Celadon City (31, 27)`** -> spawns at **`(3, 7)`**. The **`Coin Case`** gambler sits at the **top-left corner table `(0, 1)`** (`stand on chair (1, 1)` facing `Left`; verified Turn 1685). Access between `y = 28` and the northern blocks runs via **`x = 24`** (`west side`) or **`x = 37`** (`east side`).
 - **Game Corner & Prize Exchange Courtyard**: Wooden fence blocks `y = 21` across `x = 26..33`; enter `y = 20` from the **east** at **`(37, 22) -> Up * 2 -> (37, 20) -> Left`**.
 - **Game Corner Entrance**: Door at **`Celadon City (28, 19)`** -> spawns at **`(15, 17)`**.
   - Receptionist at `(2, 6)` (`stand at (2, 8)` facing `Up`) gives prize info; **Coin Seller** is at **`(5, 6)`** (`stand at (5, 8)` facing `Up` via aisle `x = 3`). Note: the Coin Seller displays `MONEY` and `COIN 0` *before* checking whether `COIN CASE` is in the Bag upon confirming `►YES`!
