@@ -41,3 +41,9 @@
   - `Up * 6` from `0 Pallet` = **`Celadon City`**
   - `Down * 1` from `0 Pallet` = **`Saffron City`**
   - `Down * 2` from `0 Pallet` = **`Cinnabar Island`**
+
+## Cinnabar Pokémon Lab & Fossil Revival (`Verified Turns 1534–1550`)
+- **Cinnabar Lab Entrance**: Door at **`Cinnabar Island (6, 9)`** (`spawns in hallway at (2, 7)`).
+- **Fossil Research Room (`3rd Door`)**: Walk `(2, 7) -> (2, 5) -> (16, 5) -> Up` into `(16, 4)` (`spawns at (2, 7)`).
+  - *Note*: `(7, 6)` is the `Ponyta <-> Seel` NPC trader; the **Fossil Scientist** wanders across the entire top band **`x = 0..7, y = 2..3`** (the green vertical-striped tiles `(0..3, 2..3)` are walkable lab rugs!).
+  - Handing over a fossil (`Helix Fossil`, `Dome Fossil`, or `Old Amber` from Pewter Museum Back Entrance `Pewter (19, 5)` via `(31, 7)` stairs + `(26, 4)` `Cut` bush -> Scientist at `(15, 2)`) requires stepping outside Cinnabar Lab to `(6, 10)` and re-entering to claim the `Lv. 30` revived Pokémon *(and stepping outside once more before reviving a second fossil)*.
