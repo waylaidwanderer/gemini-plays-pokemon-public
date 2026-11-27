@@ -359,13 +359,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 DEFEATED (#1). Banette Lv 49 at ~15% HP (#2). SAGE Lv 87 (61 HP) executing Aerial Ace to KO and protect Bullet Seed PP! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 (#1) & Banette Lv 49 (#2) DEFEATED! Grudge safely absorbed by Aerial Ace (Bullet Seed 12 PP safe!). SAGE Lv 87 (61 HP, Overgrow active!). Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. [x] Dusclops Lv 51 DEFEATED (#1)!
-  2. KO Banette Lv 49 with Aerial Ace (safely absorbs Grudge, protecting Bullet Seed PP!).
-  3. OHKO Sableye Lv 50 with Aerial Ace (ignores Double Team).
-  4. OHKO Banette Lv 49 with Aerial Ace.
-  5. 2HKO Dusclops Lv 48 with Bullet Seed. Phoebe DEFEATED!
+  2. [x] Banette Lv 49 DEFEATED (#2) - Grudge absorbed by Aerial Ace!
+  3. OHKO Sableye Lv 50 with Overgrow Bullet Seed (#3).
+  4. OHKO Banette Lv 49 with Overgrow Bullet Seed (#4).
+  5. 2HKO Dusclops Lv 48 with Overgrow Bullet Seed (#5). Phoebe DEFEATED!
   6. Advance to Room 3 Glacia -> Room 4 Drake -> Champion Wallace!
 
 <hr>
@@ -5037,10 +5037,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 DEFEATED (#1). Banette Lv 49 at ~15% HP (#2). SAGE Lv 87 (61 HP) executing Aerial Ace to KO and protect Bullet Seed PP! Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: Dusclops Lv 51 (#1) & Banette Lv 49 (#2) DEFEATED! Grudge safely absorbed by Aerial Ace (Bullet Seed 12 PP safe!). SAGE Lv 87 (61 HP, Overgrow active!). Bag: 4 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 61/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (13/30), Aerial Ace (15/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 61/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (12/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5113,5 +5113,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Full Heal Freeze Cure Verification (Turn 27034 Visual Proof): In the Battle Bag Items pocket, Full Heal is at Row 3 (directly above Revive at Row 4). Selecting Full Heal -> USE -> SAGE cures Freeze immediately and removes the FRZ badge.
 - Dusclops Lv 51 Emerald Lead Verification: In Pokémon Emerald, Elite Four Phoebe leads with Dusclops ♀ Lv 51 (Pressure, Ice Beam, Shadow Ball, Rock Slide, Protect), not Lv 48 as in Ruby/Sapphire.
 - Ice Beam Freeze Proc & Thaw Mechanics: Dusclops Lv 51 Ice Beam deals 28-43 dmg to Lv 87 SAGE (190 SpD) with a 10% freeze proc. In Gen 3, a frozen Pokémon has a 20% chance to thaw each turn upon move selection and immediately executes the move on that turn.
+- Grudge PP Depletion Proof & Absorption Strategy (Turn 27061 Visual Proof): When Phoebe's Banette #1 used Grudge on the turn it fainted, the move that delivered the KO blow (Aerial Ace) lost all of its remaining PP ('SAGE's AERIAL ACE lost all its PP due to the GRUDGE!'). Using expendable Aerial Ace successfully absorbed the Grudge, keeping vital STAB Bullet Seed at 12/30 PP completely safe for Wallace!
+
 
 <hr>
