@@ -51,6 +51,7 @@
 - 4/8: **Rainbow Badge** (Celadon City, turn 952)
 - 5/8: **Soul Badge** (Fuchsia City, turn 1232)
 - 6/8: **Marsh Badge** (Saffron City, turn 1468)
+- 7/8: **Volcano Badge** (Cinnabar Island, turn 1583)
 
 ## Notepad Index
 - `notepads/Main.md` - High-level dashboard and index
