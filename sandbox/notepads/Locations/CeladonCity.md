@@ -6,8 +6,12 @@
 - **Main East-West Boulevard**: `y = 11..13` runs straight from `(41, 12)` to the east wall of Celadon Dept. Store (`x = 14`), dropping to `y = 14` in front of the store doors.
 - **Celadon Department Store**: Doors at **`(8, 13)`** and **`(10, 13)`** (`MART` sign at `(12, 13)`).
 
-## Celadon Department Store Interior (Verified Turns 604–618)
-- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`).
+## Celadon Department Store Interior (Verified Turns 604–618, 1074–1080)
+- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`).
+- **Shop Counters & 4-`B` Exit Rule**:
+  - **2F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `Great Ball`, `Super Potion`, `Revive`, **`Super Repel` (`Slot 3`, ¥500)**.
+  - **5F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `X Accuracy`, `Guard Spec.`, `Dire Hit`, `X Attack`, `X Defend`, **`X Speed` (`-2` from `CANCEL`, ¥350)**, and **`X Special` (`-1` from `CANCEL`, ¥350)**.
+  - Exiting a Mart completely after `"Here you are! Thank you!"` requires **four** `B` presses (`1`: dismisses `"Here you are!"`, `2`: exits `BUY` list, `3`: selects `QUIT` -> `"Thank you!"`, `4`: closes `"Thank you!"`).
 - **Exact Floor-to-Floor Stair Pairs** *(white treads = UP, dark stairwell = DOWN; arriving auto-steps to `y = 2`)*:
   - `1F (12, 1)` <-> `2F (12, 1)`
   - `2F (16, 1)` <-> `3F (16, 1)`

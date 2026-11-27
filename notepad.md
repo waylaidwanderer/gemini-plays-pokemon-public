@@ -57,8 +57,12 @@
 - **Main East-West Boulevard**: `y = 11..13` runs straight from `(41, 12)` to the east wall of Celadon Dept. Store (`x = 14`), dropping to `y = 14` in front of the store doors.
 - **Celadon Department Store**: Doors at **`(8, 13)`** and **`(10, 13)`** (`MART` sign at `(12, 13)`).
 
-## Celadon Department Store Interior (Verified Turns 604–618)
-- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`).
+## Celadon Department Store Interior (Verified Turns 604–618, 1074–1080)
+- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`).
+- **Shop Counters & 4-`B` Exit Rule**:
+  - **2F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `Great Ball`, `Super Potion`, `Revive`, **`Super Repel` (`Slot 3`, ¥500)**.
+  - **5F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `X Accuracy`, `Guard Spec.`, `Dire Hit`, `X Attack`, `X Defend`, **`X Speed` (`-2` from `CANCEL`, ¥350)**, and **`X Special` (`-1` from `CANCEL`, ¥350)**.
+  - Exiting a Mart completely after `"Here you are! Thank you!"` requires **four** `B` presses (`1`: dismisses `"Here you are!"`, `2`: exits `BUY` list, `3`: selects `QUIT` -> `"Thank you!"`, `4`: closes `"Thank you!"`).
 - **Exact Floor-to-Floor Stair Pairs** *(white treads = UP, dark stairwell = DOWN; arriving auto-steps to `y = 2`)*:
   - `1F (12, 1)` <-> `2F (12, 1)`
   - `2F (16, 1)` <-> `3F (16, 1)`
@@ -157,6 +161,29 @@
 - **Bill's Sea Cottage**: Door at **`(45, 3)`** (`(2, 7)` indoors; Clefairy-Bill wanders near `(6, 5)` — answer `YES` with `A` only, then operate PC at `(1, 5)` facing `Up`, then talk to Human Bill at `(4, 4)` for **`S.S. Ticket`**).
 - **Southern Return Bypass (Sea Cottage -> Cerulean)**: Exit `(45, 4) -> Down * 8` across wooden bridge to `(45, 12) -> Left * 51` along `y = 11` onto **Route 24 `(14, 11)`** -> straight `Down * 25` to **Cerulean City `(24, 12)`** (100% wild-free & trainer-free!).
 - **Express Cerulean <-> Route 25 Corridor**: `(19, 18) <-> (8, 19) <-> (8, 12) <-> (20, 12) <-> Route 24 (10, 35) <-> zigzag x=10/11 <-> (10, 8) <-> Route 25 (9, 8) <-> (9, 4) <-> (17, 4)` (100% wild-free & trainer-free).
+
+
+<hr>
+
+<h1><code>Locations/CinnabarIsland</code></h1>
+
+# Cinnabar Island & Pokémon Mansion — Verified Coordinates & Notes
+
+## Route 21 Water Route (`Pallet Town -> Cinnabar Island`, Verified Turns 1081–1084)
+- From `Pallet Town (5, 6)`, walk around the `(4..7, 9)` fence via `(3, 8) -> (3, 12) -> (5, 13)` and `Surf` south onto `(5, 14)`.
+- Bypass the `(4..7, 24..25)` fishing pier on the east via `x = 9` (`y = 23..28`), return to `x = 5`, and pass behind the Swimmer at `(5, 71)` (facing `Right`) via **`x = 4`** down to `Route 21 (4, 89)`.
+- Surf east along `y = 89` to `(11, 89)` and south into **`Cinnabar Island (11, 7)`** with zero trainers fought.
+
+## Cinnabar Island Landmarks (Verified Turns 1084–1085)
+- **Pokémon Mansion**: Door at **`(6, 3)`** (`spawns at 1F (5, 27)`).
+- **Cinnabar Pokémon Center**: Door at **`(11, 11)`**.
+- **Cinnabar Poké Mart**: Door at **`(15, 11)`**.
+- **Cinnabar Gym**: Door at **`(18, 3)`** *(requires `Secret Key` from Pokémon Mansion B1F)*.
+
+## Pokémon Mansion (`Secret Key` Route, Verified Turns 1085–1091)
+- **1F -> 2F**: Walk straight north up the grand carpet `(5, 27) -> (5, 10)` -> arrives at **`2F (5, 11)`** (`zero trainers`).
+- **2F -> Northern 3F**: Gate at `2F (9, 4..5)` is open by default; walk `(5, 11) -> (10, 11) -> (10, 4) -> (6, 4) -> (6, 1)` -> arrives at **`3F (6, 2)`** *(note: `2F (7, 10)` leads only to an isolated 3F diary alcove)*.
+- **3F -> B1F**: Walk `(6, 2) -> (6, 3) -> (11, 3) -> (11, 5)`, press the **Statue Switch at `3F (10, 5)`** (`["A", "sleep 1500", "A", "sleep 1500", "A", "sleep 2000", "B", "sleep 800"]`), then walk `(11, 5) -> (13, 5) -> (13, 11) -> (16, 11) -> (16, 14)` to jump down the **left floor pit** directly into **`B1F`**.
 
 
 <hr>
