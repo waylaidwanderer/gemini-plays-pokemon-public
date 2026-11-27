@@ -22,7 +22,7 @@
 - [x] Soul Badge — Koga (`HM03 Surf` & `HM04 Strength` obtained, Fuchsia City, Turn 996)
 - [x] Silph Co. Liberated & `Master Ball` Claimed (`TM26 Earthquake` taught to `AMETHYST`, Turn 1057)
 - [x] Marsh Badge — Sabrina (Saffron City, Turn 1072)
-- [ ] Volcano Badge — Blaine (Cinnabar Island)
+- [x] Volcano Badge — Blaine (Cinnabar Island, Turn 1135)
 - [ ] Earth Badge — Giovanni (Viridian City)
 - [ ] Indigo Plateau — Elite Four & Champion
 
