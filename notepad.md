@@ -71,8 +71,8 @@
 - **Main East-West Boulevard**: `y = 11..13` runs straight from `(41, 12)` to the east wall of Celadon Dept. Store (`x = 14`), dropping to `y = 14` in front of the store doors.
 - **Celadon Department Store**: Doors at **`(8, 13)`** and **`(10, 13)`** (`MART` sign at `(12, 13)`).
 
-## Celadon Department Store Interior (Verified Turns 604–618, 1074–1080)
-- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`).
+## Celadon Department Store Interior (Verified Turns 604–618, 1074–1080, 1776–1779)
+- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`, and note `2F`/`4F` display cases block `x = 10, y = 3..4`, so route between `(12, 2)` and `(5, 5)` via **column `x = 8..9`**).
 - **Shop Counters & 4-`B` Exit Rule**:
   - **2F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `Great Ball`, `Super Potion`, `Revive`, **`Super Repel` (`Slot 3`, ¥500)**.
   - **4F Wise Man Gifts Clerk `(5, 7)`** (`stand at (5, 5)` facing **`Down`** — south counter!): sells `Poké Doll` (`¥1000`), **`Fire Stone` (`¥2100`)**, **`Thunderstone` (`¥2100`)**, **`Water Stone` (`¥2100`)**, and **`Leaf Stone` (`¥2100`)**.
@@ -650,7 +650,12 @@
   - On `Route 7`, brown bollards block `(11, 8..9)`; enter the gatehouse via the **`y = 10` lane (`(10, 10) -> (11, 10) -> (12, 10)`)**, spawning inside at `(0, 4)`.
   - Giving **`Fresh Water`** to the guard at `(3, 4)` permanently unlocks all 4 Saffron City gatehouses; east mat `(5, 4)` exits to **`Saffron City (2, 18)`**.
 - **Saffron Pokémon Center**:
-  - From `(2, 18)`, walk `Down * 12` along `x = 2` to `(2, 30)` and `Right * 7` to `(9, 30)` -> door at **`(9, 29)`**.
+  - From `(2, 18)`, walk `Down * 12` along `x = 2` to `(2, 30)` and `Right * 7` to `(9, 30)` -> door at **`(9, 29)`**. *(When traversing south Saffron horizontally, walk along **`y = 31`** and restrict NPC detours to `y = 30..31` so a blocked step at `x = 9` or `x = 29` never detours `Up` into a `y = 29` doorway.)*
+- **Mr. Psychic's House (`TM29 Psychic`, Verified Turns 1780–1782)**:
+  - Door at **`Saffron City (29, 29)`** (signpost at `(27, 29)`, straight east along `y = 30..31` from Saffron Center) -> spawns at `(2, 7)`.
+  - **Mr. Psychic** sits at **`(5, 3)`** (`interact from (6, 3) facing Left`) and gifts **`TM29 (Psychic)`**.
+- **Copycat's House (`TM31 Mimic`, Verified Turn 1784)**:
+  - Door at **`Saffron City (7, 5)`** in northwest Saffron (`reachable via (2, 31) -> (3, 6) -> (7, 6) -> Up`).
 - **Silph Co.**:
   - Door at **`(18, 21)`** (`from Saffron Center (9, 30), walk Left * 7 -> (2, 30) -> Up * 8 -> (2, 22) -> Right * 16 -> (18, 22) -> Up`; spawns inside **1F at `(10, 17)`**).
   - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) always starts at 1F; 1F..11F top-to-bottom`).
@@ -1029,6 +1034,9 @@ def name_buttons(word):
   - East-shore curb tiles (e.g. Vermilion `(15, 9)`) are not fishable/surfable in Gen 1; fish facing north-shore water curbs (e.g. Vermilion `(11..14, 7)` facing `Down`) or open water.
   - Wild encounter intros (`flash -> Wild <PKMN> -> Go! <LEAD>!`) take ~`7.2s` before `►FIGHT` accepts directional input; use `["B", "sleep 850"] * 10` (`8.5s`) before pressing `Down` (`ITEM`) on Turn 1 so `Down` is never swallowed before `►FIGHT` renders.
   - `DEPOSIT PKMN` resets `wPartyMenuCursor` to `Slot 0`, and a subsequent `WITHDRAW PKMN` in the same PC session leaves `wPartyMenuCursor` on `Slot 0` (`use Down * 5 to select Slot 5`).
+- **`BILL's PC -> CHANGE BOX` Prompt Count & Street Doorway Detour Guard (`Turns 1774–1775, 1782`)**:
+  - Selecting `CHANGE BOX` (`Down * 3` inside `BILL's PC`) requires **four** `A` presses (`including confirming ►YES to save`) plus `"sleep 2500"` before `"Choose a PKMN BOX."` (`BOX 1..12`) opens (`3 A's + Down flips ►YES to ►NO`).
+  - Never include `"Up"` in horizontal street NPC-detour helpers when walking directly in front of south-facing building doors (`e.g. Saffron y = 30` with doors on `y = 29`), or an NPC collision can step indoors and loop against indoor walls until the 150-button script limit.
 
 
 <hr>

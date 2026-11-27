@@ -6,8 +6,8 @@
 - **Main East-West Boulevard**: `y = 11..13` runs straight from `(41, 12)` to the east wall of Celadon Dept. Store (`x = 14`), dropping to `y = 14` in front of the store doors.
 - **Celadon Department Store**: Doors at **`(8, 13)`** and **`(10, 13)`** (`MART` sign at `(12, 13)`).
 
-## Celadon Department Store Interior (Verified Turns 604–618, 1074–1080)
-- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`).
+## Celadon Department Store Interior (Verified Turns 604–618, 1074–1080, 1776–1779)
+- Entering `(10, 13)` spawns at **`1F (16, 7)`** (`exit mat at (16..17, 7)`; note `(16, 2)` is blocked by a service booth, so walk via row **`y = 3`** to `1F (12, 1)`, and note `2F`/`4F` display cases block `x = 10, y = 3..4`, so route between `(12, 2)` and `(5, 5)` via **column `x = 8..9`**).
 - **Shop Counters & 4-`B` Exit Rule**:
   - **2F Left Clerk `(5, 3)`** (`stand at (5, 5)` facing `Up`): sells `Great Ball`, `Super Potion`, `Revive`, **`Super Repel` (`Slot 3`, ¥500)**.
   - **4F Wise Man Gifts Clerk `(5, 7)`** (`stand at (5, 5)` facing **`Down`** — south counter!): sells `Poké Doll` (`¥1000`), **`Fire Stone` (`¥2100`)**, **`Thunderstone` (`¥2100`)**, **`Water Stone` (`¥2100`)**, and **`Leaf Stone` (`¥2100`)**.

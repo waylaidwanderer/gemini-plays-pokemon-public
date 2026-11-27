@@ -204,3 +204,6 @@ def name_buttons(word):
   - East-shore curb tiles (e.g. Vermilion `(15, 9)`) are not fishable/surfable in Gen 1; fish facing north-shore water curbs (e.g. Vermilion `(11..14, 7)` facing `Down`) or open water.
   - Wild encounter intros (`flash -> Wild <PKMN> -> Go! <LEAD>!`) take ~`7.2s` before `►FIGHT` accepts directional input; use `["B", "sleep 850"] * 10` (`8.5s`) before pressing `Down` (`ITEM`) on Turn 1 so `Down` is never swallowed before `►FIGHT` renders.
   - `DEPOSIT PKMN` resets `wPartyMenuCursor` to `Slot 0`, and a subsequent `WITHDRAW PKMN` in the same PC session leaves `wPartyMenuCursor` on `Slot 0` (`use Down * 5 to select Slot 5`).
+- **`BILL's PC -> CHANGE BOX` Prompt Count & Street Doorway Detour Guard (`Turns 1774–1775, 1782`)**:
+  - Selecting `CHANGE BOX` (`Down * 3` inside `BILL's PC`) requires **four** `A` presses (`including confirming ►YES to save`) plus `"sleep 2500"` before `"Choose a PKMN BOX."` (`BOX 1..12`) opens (`3 A's + Down flips ►YES to ►NO`).
+  - Never include `"Up"` in horizontal street NPC-detour helpers when walking directly in front of south-facing building doors (`e.g. Saffron y = 30` with doors on `y = 29`), or an NPC collision can step indoors and loop against indoor walls until the 150-button script limit.
