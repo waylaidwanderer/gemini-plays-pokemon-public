@@ -6,7 +6,7 @@
 - Status: Attempt 17 Active! Room 4 Drake BATTLE INITIATED! SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 19/266 (Overgrow ACTIVE!). Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (8/20), Quick Attack (21/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 0/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (8/20), Quick Attack (21/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
