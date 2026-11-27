@@ -656,9 +656,13 @@
 - **Boulder #2A (`(4, 14) -> Switch (1, 16)`)**: Because `(1, 13)` is a rock, push `(4, 14)` `Left` to `(3, 14)`, `Down * 2` to `(3, 16)`, and `Left * 2` onto **`(1, 16)` Switch**.
 - **Route to 3F Ladder `(23, 7)`**: Climb `(5, 10)` stairs onto the plateau `(5, 8) -> (14, 8)` (`passing behind left-facing Blackbelt at (12, 9)`), walk `(14, 13) -> (18, 13)` (`defeat Juggler Nelson at (21, 13)`), descend `(21, 15)` stairs to `(21, 16)`, loop `(28, 16) -> (28, 11) -> (21, 11) -> (21, 6)` (`bypassing downward-facing trainer at (19, 8)`), and climb **`(23, 7)`** to **Victory Road 3F**.
 
-## Victory Road 3F (`Verified Turns 1211–1217`)
+## Victory Road 3F (`Verified Turns 1211–1224`)
 - Spawns at `(23, 7)`; row **`y = 0`** is walkable floor across `x = 6..27` (`top rock wall is at y = -1`).
 - **North Boulder (`(22, 3) -> Switch (3, 5)`)**: Push `Up * 2` to `y = 1`, `Left` across `y = 1` to `(6, 1)`, `Down` from `(6, 0)` to `(6, 2)`, `Left * 4` to `(2, 2)` *(note `(4, 1)` is a rock)*, `Down * 3` to `(2, 5)`, and `Right` from `(1, 5)` onto **`(3, 5)` Switch**.
+- **Southeast Drop Boulder (`(22, 15) -> Hole (23, 15)`) & Final 2F Exit**:
+  - Walk back along `y = 1` to `(20, 6) -> (17, 6) -> (17, 4)` up `(17, 5)` stairs onto the 3F plateau, cross `(17, 4) -> (9, 4) -> (9, 10) -> (5, 10) -> (5, 7) -> (1, 8)`, descend `(1, 9)` stairs to `(1, 15)`, and walk straight east along **`y = 16`** (`passing below all trainers with zero aggro!`) to `(21, 15)`.
+  - Shove `(22, 15)` `Right` into `(23, 15)` hole and step into `(23, 15)` behind it -> lands on **2F `(22, 16)`** next to the dropped boulder `(23, 16)`.
+  - Re-activate `Strength` on 2F, push `(23, 16)` straight `Left * 14` onto **`(9, 16)` Switch #2B**, climb `(15, 15)` stairs to `(15, 14)`, walk `Right * 10` onto **`(25, 14)` ladder** -> **`3F (27, 15)`** -> `Up * 7, Left` onto **`(26, 8)` ladder** -> **`2F (27, 7)`** -> `Right * 2` onto **`(29, 7)` exit mat**!
 
 
 <hr>
