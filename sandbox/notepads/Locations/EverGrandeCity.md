@@ -62,7 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 2 Phoebe: Battle started! Facing lead Dusclops Lv 51. SAGE Lv 88 (87/263 HP, Overgrow active!) ready to strike with Bullet Seed. Bag: 2 Revives, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: Facing lead Dusclops Lv 48 (#1). SAGE Lv 88 (87/263 HP, Overgrow active!) executing Bullet Seed! Bag: 2 Revives, ¥7,892 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
