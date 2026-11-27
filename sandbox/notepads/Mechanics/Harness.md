@@ -137,3 +137,7 @@ def name_buttons(word):
 - **No Concatenated Trailing Sleeps (`Turn 970`)**: Never append `+ ["sleep ..."]` onto a list ending with `"sleep ..."`; consecutive sleeps reject the `press_buttons` call without raising a Python exception.
 - **Battle `FIGHT` Menu Render Delay (`Turn 960`)**: Use `sleep 600` (not `400`) after pressing `A` on `►FIGHT` so the move box renders before directional/confirmation inputs.
 - **Strength Boulder Shove (`Turn 951`)**: Each 1-tile boulder push takes two directional presses (`1st` shoves the boulder forward while player remains stationary; `2nd` steps into the vacated tile).
+
+## Town Map `Fly` & Elevator Timing (Verified Turns 999–1007)
+- **Town Map `Fly` Cursor Direction (`Turns 999–1000`)**: On the `Fly` Town Map, `Up` steps forward (`0 Pallet -> 1 Viridian`), whereas `Down` wraps backward from `0 Pallet` directly to the final unlocked destination (`Saffron City`). Allow `sleep 5500` after pressing `A` on the destination for the landing animation to finish.
+- **Multi-Floor Elevator Shake (`Turn 1007`)**: Elevator travel duration scales with floor distance; wait `sleep 4500` after selecting a floor before stepping toward the exit mat `(1..2, 3)`.

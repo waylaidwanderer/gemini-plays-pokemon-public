@@ -8,3 +8,4 @@
   - From `(2, 18)`, walk `Down * 12` along `x = 2` to `(2, 30)` and `Right * 7` to `(9, 30)` -> door at **`(9, 29)`**.
 - **Silph Co.**:
   - Door at **`(18, 21)`** (`from Saffron Center (9, 30), walk Left * 7 -> (2, 30) -> Up * 8 -> (2, 22) -> Right * 16 -> (18, 22) -> Up`; spawns inside **1F at `(10, 17)`**).
+  - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) lists 1F..11F top-to-bottom`).

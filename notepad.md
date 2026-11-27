@@ -472,6 +472,7 @@
   - From `(2, 18)`, walk `Down * 12` along `x = 2` to `(2, 30)` and `Right * 7` to `(9, 30)` -> door at **`(9, 29)`**.
 - **Silph Co.**:
   - Door at **`(18, 21)`** (`from Saffron Center (9, 30), walk Left * 7 -> (2, 30) -> Up * 8 -> (2, 22) -> Right * 16 -> (18, 22) -> Up`; spawns inside **1F at `(10, 17)`**).
+  - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) lists 1F..11F top-to-bottom`).
 
 
 <hr>
@@ -696,6 +697,10 @@ def name_buttons(word):
 - **No Concatenated Trailing Sleeps (`Turn 970`)**: Never append `+ ["sleep ..."]` onto a list ending with `"sleep ..."`; consecutive sleeps reject the `press_buttons` call without raising a Python exception.
 - **Battle `FIGHT` Menu Render Delay (`Turn 960`)**: Use `sleep 600` (not `400`) after pressing `A` on `►FIGHT` so the move box renders before directional/confirmation inputs.
 - **Strength Boulder Shove (`Turn 951`)**: Each 1-tile boulder push takes two directional presses (`1st` shoves the boulder forward while player remains stationary; `2nd` steps into the vacated tile).
+
+## Town Map `Fly` & Elevator Timing (Verified Turns 999–1007)
+- **Town Map `Fly` Cursor Direction (`Turns 999–1000`)**: On the `Fly` Town Map, `Up` steps forward (`0 Pallet -> 1 Viridian`), whereas `Down` wraps backward from `0 Pallet` directly to the final unlocked destination (`Saffron City`). Allow `sleep 5500` after pressing `A` on the destination for the landing animation to finish.
+- **Multi-Floor Elevator Shake (`Turn 1007`)**: Elevator travel duration scales with floor distance; wait `sleep 4500` after selecting a floor before stepping toward the exit mat `(1..2, 3)`.
 
 
 <hr>
