@@ -19,3 +19,9 @@
 - **Saffron Gym (`(34, 3)`, Verified Turns 1061–1065)**:
   - Route from `Saffron Center (9, 30)`: `(2, 30) -> (4, 6) -> (23, 6) -> (23, 4) -> (34, 4) -> Up` (`Fighting Dojo is at (26, 3)`).
   - **Zero-Trainer Pure-Vertical Warp Solution**: Enter warp `(11, 15)` -> `(19, 17)`, then repeatedly take the vertical partner pad (`Up * 2` when `y % 6 == 5`, `Down * 2` when `y % 6 == 3`). Because `(11, 15)` and Sabrina's `(11, 11)` are the two degree-1 endpoints of the column-warp path and all Gym Trainers stand on center columns (`x = 3, 9, 17`), 13 pure-vertical hops reach `(11, 11)` (`Sabrina at (9, 8)`) with zero trainers fought.
+- **Saffron Fighting Dojo (`(26, 3)`, Verified Turns 1551–1561)**:
+  - Spawns at `(4, 11)`; statues occupy `(3, 8..9)` and `(6, 8..9)`, and interior partition blocks `(6, 0..3)`.
+  - **Karate Master Koichi** stands at **`(5, 3)`** (`Hitmonlee Lv. 37, Hitmonchan Lv. 37`). Behind him: **`(4, 1)` Left Poké Ball = `Hitmonlee Lv. 30`** (`nicknamed CITRINE`), `(5, 1)` Right Poké Ball = `Hitmonchan Lv. 30`.
+- **Post-Liberation Silph Co. `1F -> 3F -> 7F` `Lapras` Gift (`Verified Turns 1562–1566`)**:
+  - After Giovanni's defeat, an NPC stands on `1F x = 23`; walk `(10, 17) -> (10, 16) -> (22, 16)` and climb `x = 22..23` to `Elevator (20, 0)` (allow `sleep 5500` on multi-floor Elevator rides before stepping to exit `(2, 3)`).
+  - Warp `3F (11, 11) -> 7F (5, 3)` and talk to the **Silph Employee at `7F (1, 5)`** (from `(1, 4)` facing `Down`) to receive **`Lapras Lv. 15`** (`nicknamed PEARL`).
