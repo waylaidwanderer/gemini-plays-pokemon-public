@@ -5,11 +5,12 @@
 - Bypass the `(4..7, 24..25)` fishing pier on the east via `x = 9` (`y = 23..28`), return to `x = 5`, and pass behind the Swimmer at `(5, 71)` (facing `Right`) via **`x = 4`** down to `Route 21 (4, 89)`.
 - Surf east along `y = 89` to `(11, 89)` and south into **`Cinnabar Island (11, 7)`** with zero trainers fought.
 
-## Cinnabar Island Landmarks (Verified Turns 1084–1085, 1864–1866)
-- **Pokémon Mansion**: Door at **`(6, 3)`** (`spawns at 1F (5, 27)`). Note `Cinnabar Lab` occupies `(4..9, 6..9)` with a signpost at `(9, 11)` blocking `x = 9` from the south.
-- **Cinnabar Pokémon Center**: Door at **`(11, 11)`**.
+## Cinnabar Island Landmarks (Verified Turns 1084–1085, 1864–1889)
+- **Pokémon Mansion**: Door at **`(6, 3)`** (`spawns at 1F (5, 27)`). Signposts stand at `(9, 5)`, `(13, 3)`, and `(9, 11)`.
+- **Direct Lab <-> Center Sidewalk (`y = 12`)**: Walk south around the `(9, 11)` signpost via **`(6, 10) <-> (6, 12) <-> (11, 12)`** (`8` steps, `x = 6..18` is walkable along `y = 12`, whereas `(4..5, 12)` is north-shore water).
+- **Cinnabar Pokémon Center**: Door at **`(11, 11)`** (`exit mat spans both (3, 7) and (4, 7)`).
 - **Cinnabar Poké Mart**: Door at **`(15, 11)`** (`exit mat at (3..4, 7)`; sells `0: Ultra Ball ¥1200, 1: Great Ball ¥600`).
-- **Cinnabar Gym**: Door at **`(18, 3)`** *(requires `Secret Key` from Pokémon Mansion B1F)*.
+- **Cinnabar Gym**: Door at **`(18, 3)`** *(requires `Secret Key` in active Bag; if `Secret Key` is stored in PC, stepping onto **`(18, 4)`** auto-triggers `"The door is locked..."` and steps the player down to `(18, 5)` upon dismissal — bypass `(18, 4)` via `(17, 4) -> (17, 5) -> (18, 5)` when routing north-south along `x = 18`)*.
 - **Cinnabar `Super Rod` Spot**: Stand at **`(4, 11)` facing `Down`** at north-shore water curb `(4, 12)` (`open neighbor (5, 11)` to the right).
 
 ## Pokémon Mansion (`Secret Key` Route, Verified Turns 1085–1091)

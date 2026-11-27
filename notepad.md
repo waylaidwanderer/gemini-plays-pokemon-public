@@ -200,11 +200,12 @@
 - Bypass the `(4..7, 24..25)` fishing pier on the east via `x = 9` (`y = 23..28`), return to `x = 5`, and pass behind the Swimmer at `(5, 71)` (facing `Right`) via **`x = 4`** down to `Route 21 (4, 89)`.
 - Surf east along `y = 89` to `(11, 89)` and south into **`Cinnabar Island (11, 7)`** with zero trainers fought.
 
-## Cinnabar Island Landmarks (Verified Turns 1084–1085, 1864–1866)
-- **Pokémon Mansion**: Door at **`(6, 3)`** (`spawns at 1F (5, 27)`). Note `Cinnabar Lab` occupies `(4..9, 6..9)` with a signpost at `(9, 11)` blocking `x = 9` from the south.
-- **Cinnabar Pokémon Center**: Door at **`(11, 11)`**.
+## Cinnabar Island Landmarks (Verified Turns 1084–1085, 1864–1889)
+- **Pokémon Mansion**: Door at **`(6, 3)`** (`spawns at 1F (5, 27)`). Signposts stand at `(9, 5)`, `(13, 3)`, and `(9, 11)`.
+- **Direct Lab <-> Center Sidewalk (`y = 12`)**: Walk south around the `(9, 11)` signpost via **`(6, 10) <-> (6, 12) <-> (11, 12)`** (`8` steps, `x = 6..18` is walkable along `y = 12`, whereas `(4..5, 12)` is north-shore water).
+- **Cinnabar Pokémon Center**: Door at **`(11, 11)`** (`exit mat spans both (3, 7) and (4, 7)`).
 - **Cinnabar Poké Mart**: Door at **`(15, 11)`** (`exit mat at (3..4, 7)`; sells `0: Ultra Ball ¥1200, 1: Great Ball ¥600`).
-- **Cinnabar Gym**: Door at **`(18, 3)`** *(requires `Secret Key` from Pokémon Mansion B1F)*.
+- **Cinnabar Gym**: Door at **`(18, 3)`** *(requires `Secret Key` in active Bag; if `Secret Key` is stored in PC, stepping onto **`(18, 4)`** auto-triggers `"The door is locked..."` and steps the player down to `(18, 5)` upon dismissal — bypass `(18, 4)` via `(17, 4) -> (17, 5) -> (18, 5)` when routing north-south along `x = 18`)*.
 - **Cinnabar `Super Rod` Spot**: Stand at **`(4, 11)` facing `Down`** at north-shore water curb `(4, 12)` (`open neighbor (5, 11)` to the right).
 
 ## Pokémon Mansion (`Secret Key` Route, Verified Turns 1085–1091)
@@ -1002,8 +1003,9 @@ def name_buttons(word):
   - In Gen 1, Electric-types (`Zapdos`) are **not** immune to `Thunder Wave` (`PAR` immunity began in Gen 6). `Mewtwo Lv. 70` `Thunder Wave` + **1 `Swift`** (`~60` damage, max crit `~120` < `157` HP) reaches `94%` of max `PAR` Ultra Ball catch rate (`9.3%` vs `9.9%`) with **0% KO risk**.
   - **2-Ball `A`-Only Batch**: Because `"All right! <PKMN> was ▼"` takes **8 `A` presses** to reach `"give a nickname?"` `►YES`, throwing Ball #1 (`["A", "sleep 8500"]`) followed by `["A", "sleep 3500", "A", "sleep 800", "A", "sleep 800", "A", "sleep 8500"]` safely throws **2 Balls per turn** (`cursor stays on ►ITEM -> ►ULTRA BALL`) without ever pressing `B` or overshooting `►YES` if Ball #1 catches (`verified Turn 1421`).
   - Use `"sleep 600"` (not `"sleep 400"`) between selecting an overworld Bag item (`A`) and confirming `►USE` (`A`) so `USE` is not dropped (`Turn 1414 vs 1427`).
-- **PC Exit & `BILL's PC` Cursor Rules (`Turns 1444–1446, 1480, 1484, 1528`)**:
-  - From overworld `(13, 4)` facing a Center PC, opening `BILL's PC -> WITHDRAW PKMN`'s `Box` list takes **six** `A` presses (`1`: turn on PC, `2`: open top menu, `3`: select `BILL's PC`, `4`: clear `"Accessed BILL's PC."`, `5`: clear `"Accessed POKéMON Storage System."`, `6`: select `►WITHDRAW PKMN`). After withdrawing or depositing, `B * 4` idempotently exits all menus back to the overworld.
+- **PC Exit & `BILL's PC` Cursor Rules (`Turns 1444–1446, 1480, 1484, 1528, 1888`)**:
+  - Inside Pokémon Centers, the exit mat spans **`(3, 7)` and `(4, 7)`**; step `Up * 3` to `(3, 4)` immediately upon entering (`never detour Down from y = 7`) before routing east to `(13, 4)`.
+  - From overworld `(13, 4)` facing a Center PC (`Up`), opening `BILL's PC` submenu (`►WITHDRAW PKMN / DEPOSIT PKMN`) takes **five** `A` presses (`1`: turn on PC, `2`: open top menu, `3`: select `BILL's PC`, `4`: clear `"Accessed BILL's PC."`, `5`: clear `"Accessed POKéMON Storage System."`); a **6th `A`** opens `WITHDRAW PKMN`, whereas **`Down, A` after the 5th `A`** opens `DEPOSIT PKMN` (`pressing Down after only 4 A's is swallowed by "Accessed POKéMON Storage System. ▼"`). After withdrawing or depositing, `B * 4` (or `B * 5`) idempotently exits all menus back to the overworld.
   - `BILL's PC -> DEPOSIT PKMN` uses a non-wrapping scrolling list (`clamps at CANCEL`), so `Down * 8 -> Up * 1` deterministically targets the last party slot (`Slot 5`), and depositing resets `wPartyMenuCursor` to `Slot 0` (`Turn 1484 filmstrip_2.png #50`).
   - Exiting the top-level PC menu via `B` preserves the prior `Start` menu slot (`Turn 1484 filmstrip_2.png #44`), whereas selecting `LOG OFF` with `A` resets `Start` to `Slot 0` (`►POKéDEX`).
 - **Bag Bottom-Clamping & `Surf` Facing Prerequisite (`Turns 1456, 1459, 1465, 1469`)**:
