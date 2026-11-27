@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Quick Attack left Salamence with ~2-3% HP! Resolving Salamence retaliatory attack vs SAGE (18 HP). Bag: 2 Revives, 1 Full Heal, 1 conscious anchor (Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE fainted vs Salamence (~3% HP). Sending in Guava Lv 30 (101/101 HP) to execute Sacrificial Revive! Bag: 2 Revives, 1 Full Heal, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - HP: 18/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (23/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 87) - HP: 0/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (3/20), Quick Attack (23/30). Status: FAINTED.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FAINTED.
