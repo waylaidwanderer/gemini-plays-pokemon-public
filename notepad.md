@@ -832,6 +832,9 @@ def name_buttons(word):
 - **Nurse Joy 4-`B` Exit & Pre-Clearing Final Level-Up Moves (`Turns 1137, 1161–1165, 1175`)**:
   - Use **four** `B` presses after `sleep 7500` at Nurse Joy (`["B", "sleep 1200", "B", "sleep 900", "B", "sleep 900", "B", "sleep 700"]`) before pressing `Start`; three `B`s leave `"We hope to see you again!"` closing and swallow `Start`.
   - Pre-applying `Rare Candy` in the overworld to reach a Pokémon's final level-up move (`e.g. Blastoise Lv. 52 Hydro Pump`) prevents mid-battle 4-move replacement loops (`where B-spam cycles NO -> NO indefinitely`), and note that mid-battle level-ups call `CalcStats` in Gen 1, resetting active X-Item stat stages back to `1.0x`.
+- **Crit + Super-Effective `B` Count & Post-Faint `FIGHT` Cursor Reset (`Turns 1260–1263`)**:
+  - When a KO triggers both `"Critical hit!"` and `"It's super effective!"` in a `SHIFT` trainer battle, `9` `B` presses stops one box early on `"<TRAINER> sent out <PKMN>!"`; use **`12` `B` presses** (`"sleep 800"`) between trainer KO rounds.
+  - Sending out a Pokémon after a faint (`"Bring out which POKéMON?"`) resets `wMoveMenuCursor` (`FIGHT`) back to **`Slot 0`** (even for a 4-move Pokémon).
 
 
 <hr>
