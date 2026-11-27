@@ -5056,7 +5056,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x5 (physically verified in Bag on screen; 1 carried over + 4 purchased!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,985 (physically verified on screen!)
+- Money: ¥6,885 (¥1,985 + ¥4,900 Sidney prize money!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
