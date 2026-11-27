@@ -348,12 +348,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Champion Wallace (Water): Lead Wailord Lv 57 (Bullet Seed OHKO), Whiscash Lv 56 (Bullet Seed 4x OHKO), Ludicolo Lv 56 (Aerial Ace 2x OHKO), Tentacruel Lv 55 & Gyarados Lv 56 (Facade/Bullet Seed), Milotic Lv 58 Ace (Overgrow Bullet Seed 2x KO). Preserve 3+ Bullet Seed PP for Wallace!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 4 Drake in progress! Shelgon Lv 52 DEFEATED; Flygon Lv 53 at ~10% HP. SAGE Lv 86 (39/257 HP, Overgrow ACTIVE, 253 Spe).
+- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (42/260 HP, Overgrow ACTIVE, ~256 Spe) facing Salamence Lv 55.
 - Milestone Progress:
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon critical HP.
+  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED (critical Facade OHKO!). Facing Ace Salamence Lv 55.
 - Party: SAGE Lv 86 (39/257 HP, Lead), Lilz Lv 30 (FNT), Cobalu Lv 18 (49/49 HP), Guava Lv 30 (101/101 HP), Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
 - Bag: 3 Revives, 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: Finish Flygon with Quick Attack -> sweep Altaria, Salamence, Kingdra -> challenge Champion Wallace!
@@ -5027,11 +5027,11 @@ A large meteorological research institute located in northern Route 119 beside t
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Altaria DEFEATED via critical Facade! Resolving EXP and advancing to Salamence Lv 55. SAGE Lv 86 (39/257 HP, Overgrow ACTIVE, 253 Spe). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
+- Starter: Sceptile (Level 87, Male), Nickname: SAGE
+- Status: Attempt 14 Active! Room 4 Drake: SAGE reached Lv 87 (42/260 HP, Overgrow ACTIVE, ~256 Spe)! Advancing to face Salamence Lv 55. Bag: 3 Revives, 1 Full Heal, 2 conscious anchors, ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 86) - HP: 39/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (6/20), Quick Attack (25/30). Status: OK (Overgrow Active).
+1. SAGE (Sceptile ♂, Level 87) - HP: 42/260. Max HP: 260. Atk ~194, Def ~141, SpA ~211, SpD ~190, Spe ~256. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (5/20), Quick Attack (25/30). Status: OK (Overgrow Active).
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FAINTED.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FAINTED.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.

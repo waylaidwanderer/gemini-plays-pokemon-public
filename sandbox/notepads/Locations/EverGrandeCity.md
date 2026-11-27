@@ -38,12 +38,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Champion Wallace (Water): Lead Wailord Lv 57 (Bullet Seed OHKO), Whiscash Lv 56 (Bullet Seed 4x OHKO), Ludicolo Lv 56 (Aerial Ace 2x OHKO), Tentacruel Lv 55 & Gyarados Lv 56 (Facade/Bullet Seed), Milotic Lv 58 Ace (Overgrow Bullet Seed 2x KO). Preserve 3+ Bullet Seed PP for Wallace!
 
 ## Elite Four Attempt 14 (Active)
-- Status: Room 4 Drake in progress! Shelgon Lv 52 DEFEATED; Flygon Lv 53 at ~10% HP. SAGE Lv 86 (39/257 HP, Overgrow ACTIVE, 253 Spe).
+- Status: Room 4 Drake in progress! Shelgon, Flygon, Altaria ALL DEFEATED! SAGE Lv 87 (42/260 HP, Overgrow ACTIVE, ~256 Spe) facing Salamence Lv 55.
 - Milestone Progress:
   - Sidney DEFEATED (5-0 clean sweep, Turn 26811)!
   - Phoebe DEFEATED (5-0 clean sweep, Turn 26831)!
   - Glacia DEFEATED (Sweep, Turn 26856)!
-  - Drake: Shelgon DEFEATED, Flygon critical HP.
+  - Drake: Shelgon DEFEATED, Flygon DEFEATED, Altaria DEFEATED (critical Facade OHKO!). Facing Ace Salamence Lv 55.
 - Party: SAGE Lv 86 (39/257 HP, Lead), Lilz Lv 30 (FNT), Cobalu Lv 18 (49/49 HP), Guava Lv 30 (101/101 HP), Cipher Lv 17 (FNT), Mochi Lv 11 (FNT).
 - Bag: 3 Revives, 1 Full Heal, 1 Master Ball, ¥15,970 cash.
 - Plan: Finish Flygon with Quick Attack -> sweep Altaria, Salamence, Kingdra -> challenge Champion Wallace!
