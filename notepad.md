@@ -835,6 +835,9 @@ def name_buttons(word):
 - **Crit + Super-Effective `B` Count & Post-Faint `FIGHT` Cursor Reset (`Turns 1260–1263`)**:
   - When a KO triggers both `"Critical hit!"` and `"It's super effective!"` in a `SHIFT` trainer battle, `9` `B` presses stops one box early on `"<TRAINER> sent out <PKMN>!"`; use **`12` `B` presses** (`"sleep 800"`) between trainer KO rounds.
   - Sending out a Pokémon after a faint (`"Bring out which POKéMON?"`) resets `wMoveMenuCursor` (`FIGHT`) back to **`Slot 0`** (even for a 4-move Pokémon).
+- **Long HP-Bar Drain Settling & Two-Pivot Revive Chain (`Turns 1271–1277`)**:
+  - Large HP drains (140+ HP on high-level `Blastoise`) take several seconds to animate; using only `8` `B` presses (`750ms`) can snapshot mid-drain before `"<PKMN> fainted!"` prints. Use `12` `B` presses (`800ms`) when tanking heavy hits.
+  - To safely restore a fainted sweeper against a fast attacker (`e.g. Champion's Alakazam`), chain two pivots (`Pivot #1 -> Revive`, `Pivot #2 -> Full Restore`) so the sweeper re-enters at 100% HP on a free switch.
 
 
 <hr>
