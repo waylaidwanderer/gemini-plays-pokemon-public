@@ -3,11 +3,11 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 2 Phoebe: Reviving SAGE to 130 HP (+6 priority)! CIPHER absorbing Banette Lv 49 attack. Bag: 3 Revives, 0 Full Heal, ¥6,885 cash.
+- Status: Attempt 15 Active! Room 2 Phoebe: CIPHER fainted. Clearing faint text to send in COBALU (Row 3) for SAGE's Sacrificial Revive! Bag: 3 Revives, 0 Full Heal, ¥6,885 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 130/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: OK.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 0/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (9/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (30/30). Status: FNT.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 42/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
@@ -80,3 +80,4 @@
 - Dusclops Lv 51 Emerald Lead Verification: In Pokémon Emerald, Elite Four Phoebe leads with Dusclops ♀ Lv 51 (Pressure, Ice Beam, Shadow Ball, Rock Slide, Protect), not Lv 48 as in Ruby/Sapphire.
 - Ice Beam Freeze Proc & Thaw Mechanics: Dusclops Lv 51 Ice Beam deals 28-43 dmg to Lv 87 SAGE (190 SpD) with a 10% freeze proc. In Gen 3, a frozen Pokémon has a 20% chance to thaw each turn upon move selection and immediately executes the move on that turn.
 - Grudge PP Depletion Proof & Absorption Strategy (Turn 27061 Visual Proof): When Phoebe's Banette #1 used Grudge on the turn it fainted, the move that delivered the KO blow (Aerial Ace) lost all of its remaining PP ('SAGE's AERIAL ACE lost all its PP due to the GRUDGE!'). Using expendable Aerial Ace successfully absorbed the Grudge, keeping vital STAB Bullet Seed at 12/30 PP completely safe for Wallace!
+- Party Screen Absolute Verified Layout in Room 2 (Turn 27072 Visual Ground Truth): When CIPHER is in Left Box, Right Column is: Row 1 = LILZ (conscious, 42 HP), Row 2 = SAGE (fainted, 0 HP), Row 3 = COBALU, Row 4 = MOCHI, Row 5 = GUAVA. Row 2 is SAGE! To target SAGE on the party targeting screen, you MUST press Right then DOWN to Row 2!
