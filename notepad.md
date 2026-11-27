@@ -328,9 +328,9 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 3. [x] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint!
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 16 Active):
-    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 sweep, Turn 27136)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27167)!
+6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 17 Active):
+    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
@@ -389,11 +389,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
   5. [x] Phoebe DEFEATED (Turn 27266)! Earned +¥5,100.
   6. [x] Enter Room 3 and challenge Elite Four Glacia.
-  7. Glacia BATTLE ACTIVE!
-  6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
-  7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
-  8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
-  9. Enter the Hall of Fame!
+  7. Defeat Glacia (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
+  8. Defeat Drake (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
+  9. Defeat Champion Wallace (STAB Overgrow Bullet Seed sweep)!
+  10. Enter the Hall of Fame!
 
 
 <hr>
