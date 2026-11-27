@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 at ~25% HP (#2). SAGE Lv 87 (260/260 HP, 256 Spe) executing Facade to KO Absol! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Absol Lv 49 at ~5% HP (#2). SAGE Lv 87 (172/260 HP, 256 Spe) executing Quick Attack for the KO! Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (29/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
