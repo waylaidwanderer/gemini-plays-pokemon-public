@@ -18,3 +18,11 @@
 - Exit Viridian City west along `y = 18` -> `(4, 17)` -> `(0, 17)` (`arrives at Route 22 (39, 9)`).
 - **Important Ledge Trap**: Do **not** jump south over `y = 13` (`(33, 13)` is a one-way south ledge onto the eastbound return track `y = 14..16`).
 - Instead, walk `(37, 9) -> (37, 12) -> (30, 12)` (`staying ABOVE y = 13`), walk north through the tall grass via `(30, 12) -> (31, 7)` (wooden bridge in `y = 7`) `-> (31, 5)`, and walk west to **`(29, 5)`** where Rival `GARNET` triggers.
+- After defeating `GARNET`, bypass the `(14..15, 4..11)` pillars on the south via **`y = 12`** (`(16, 12) -> (4, 12) -> (4, 10) -> (11, 10)`), cross the `(11, 9)` wooden bridge north to `(8, 6)`, and enter the **Pokémon League Front Gate (`(8, 5)`)**.
+- **Route 23 (`Turns 1180–1189`)**: Weave north past staggered badge gates (`x = 7..13`), `Surf` across `y = 103..78`, bypass diagonal rocks `(8..10, 44..47)` via `(11, 48) -> (7, 48)`, pass the final Cascade Badge guard at `(4, 35)`, and enter **Victory Road 1F at `(4, 31)`**.
+
+## Victory Road 1F (`Verified Turns 1189–1196`)
+- Entrance spawns at `(8, 17)`; activate `Strength` immediately (`resets each floor load`).
+- **Exact Boulder #1 Route (`(5, 15) -> Switch (17, 13)`)**:
+  - Push `(5, 15)` `Down` to `(5, 16)`, `Right * 3` to `(8, 16)`, `Up` to `(8, 15)` *(note `(7, 14)` is a rock!)*, `Right` to `(9, 15)`, `Up` to `(9, 14)`, `Right * 7` to `(16, 14)`, `Up * 2` to `(16, 12)` *(around `(15, 13)` rock)*, `Right` to `(17, 12)`, and `Down` onto **`(17, 13)` switch**.
+- **Route to 2F Ladder `(1, 1)`**: Walk back to `(5, 14) -> (5, 12)` up `(5, 13)` stairs, loop `(5, 12) -> (11, 12) -> (11, 6) -> (7, 6)` (`1 row below right-facing Cooltrainer♀ at (7, 5)`), descend `(7, 7)` stairs to `(7, 8) -> (3, 8) -> (3, 4)` (defeat Cooltrainer♂ at `(3, 2)`), and climb **`(1, 1)`** to **Victory Road 2F**.

@@ -136,7 +136,8 @@ def name_buttons(word):
 - **Pokémon Center Healing Prompt Count (`Turns 976, 981`)**: Nurse Joy requires **five** `A` presses (`1`: `"Welcome..."`, `2`: `"We heal..."`, `3`: `"perfect health!"`, `4`: opens `[►HEAL / CANCEL]`, `5`: selects `►HEAL`), followed by `sleep 4500` and four `B` presses (`"Thank you!..."` + `"We hope to see you again!"`).
 - **No Concatenated Trailing Sleeps (`Turn 970`)**: Never append `+ ["sleep ..."]` onto a list ending with `"sleep ..."`; consecutive sleeps reject the `press_buttons` call without raising a Python exception.
 - **Battle `FIGHT` Menu Render Delay (`Turn 960`)**: Use `sleep 600` (not `400`) after pressing `A` on `►FIGHT` so the move box renders before directional/confirmation inputs.
-- **Strength Boulder Shove (`Turn 951`)**: Each 1-tile boulder push takes two directional presses (`1st` shoves the boulder forward while player remains stationary; `2nd` steps into the vacated tile).
+- **Strength Boulder Shove (`Turns 951, 1192–1194`)**: Each 1-tile boulder push takes two directional presses, AND Gen 1 imposes a **~0.75s boulder-dust cooldown** after the 1st press before accepting the 2nd press (`"sleep 180"` drops the 2nd press mid-slide!). Always use `[d, "sleep 900", d, "sleep 250"]` and assert `mgba.get_coordinates() != start` on every 1-tile boulder push.
+- **Post-Battle `wPartyMenuCursor` Reset (`Turn 1183`)**: Completing a battle resets overworld `Start -> POKéMON` (`wPartyMenuCursor`) back to **`Slot 0`** (`just like Start resets to ►POKéDEX`).
 
 ## Town Map `Fly` & Elevator Timing (Verified Turns 999–1026)
 - **Town Map `Fly` Cursor Direction (`Turns 999–1000`)**: On the `Fly` Town Map, `Up` steps forward (`0 Pallet -> 1 Viridian`), whereas `Down` wraps backward from `0 Pallet` directly to the final unlocked destination (`Saffron City`). Allow `sleep 5500` after pressing `A` on the destination for the landing animation to finish.
