@@ -62,7 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 2 Phoebe: Declining switch for Sableye Lv 50 (#4). SAGE Lv 88 (131/263 HP, 259 Spe, healthy!) ready to OHKO with Bullet Seed! Bag: 1 Revive, ¥7,892 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe: Sableye Lv 50 on field (#4). Cursor on POKéMON -> navigating Up to FIGHT and executing Bullet Seed for OHKO! Bag: 1 Revive, ¥7,892 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
