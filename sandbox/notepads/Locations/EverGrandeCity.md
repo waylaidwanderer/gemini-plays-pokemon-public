@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Room 1 Sidney active! Shiftry at ~15% HP. SAGE Lv 87 (109/260 HP, 256 Spe) finishing Shiftry.
+- Status: Attempt 15 Active! Room 1 Sidney DEFEATED (5-0 clean sweep)! Room 2 Phoebe active: Facing lead Dusclops Lv 48. SAGE Lv 87 (149/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥6,885 cash.
 - Immediate Plan:
   1. Finish Absol Lv 49 with Facade / Quick Attack.
   2. OHKO Shiftry Lv 48 with Aerial Ace (2x super effective).
