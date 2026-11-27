@@ -5065,13 +5065,13 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 89, Male), Nickname: SAGE
-- Status: Attempt 17 Active! Room 4 Drake BATTLE INITIATED! SAGE Lv 89 (117/266 HP, 262 Spe). Bag: 1 Revive, ¥17,296 cash.
+- Status: Attempt 17 Active! Room 4 Drake BATTLE ACTIVE! SAGE revived to 133 HP (Speed reset to 262). Bag: 0 Revives, ¥17,296 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 0/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (8/20), Quick Attack (21/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 89) - Lead! HP: 133/266. Max HP: 266. Atk 199, Def 144, SpA 216, SpD 194, Spe 262. Moves: Bullet Seed (13/30), Aerial Ace (13/20), Facade (8/20), Quick Attack (21/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 0/41. Status: FNT.
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT.
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
@@ -5081,7 +5081,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x1 (1 consumed Turn 27255, 1 consumed Turn 27281 for Sacrificial Revive on SAGE; 1 intact for Drake/Wallace!)
+- Revive x0 (1 consumed Turn 27255, 1 consumed Turn 27281, 1 consumed Turn 27306 for Sacrificial Revive on SAGE)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥17,296 (¥11,996 + ¥5,300 Glacia prize money)
