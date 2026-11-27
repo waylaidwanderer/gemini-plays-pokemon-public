@@ -5037,7 +5037,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 1 Sidney: Shiftry DEFEATED! Cacturne Lv 46 on field (#4). SAGE Lv 87 (109/260 HP, 256 Spe) executing Aerial Ace to OHKO Cacturne! Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
+- Status: Attempt 15 Active! Room 1 Sidney: Cacturne DEFEATED (#4)! Sidney sending out Crawdaunt Lv 48 (#5). SAGE Lv 87 ready to OHKO Crawdaunt with Bullet Seed! Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 109/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (16/20), Facade (12/20), Quick Attack (30/30). Status: OK.
