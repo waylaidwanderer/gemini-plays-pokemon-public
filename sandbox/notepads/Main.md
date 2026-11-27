@@ -36,13 +36,13 @@
 - Saffron City, Silph Co. & Recent Verified Mechanics: Saffron City ring roads run along `x=3` (west) and `x=36..37` (east); Pokémon Center `(9,29)`, Silph Co. `(18,21)`, Mart `(25,11)`, Saffron Gym `(34,3)` (turns 1310–1327). Poké Mart BUY cursor after purchasing an item past Slot 4 resets to the **top of the visible scroll window**, not Slot 1 (verified turn 1325 filmstrip). Card Key doors open by facing the yellow door and pressing `A` + 2–3 `B` presses (turn 1365). Gen 1 enemy trainer AI has infinite PP (turn 1373–1379). Battle `ITEM` and `SHIFT` share the persisted Party cursor within a battle (verified turn 1455). Saffron Gym teleporters: always taking the straight vertical pad (`Up,Up` from `y∈{5,11,17}` or `Down,Down` from `y∈{3,9,15}`) reaches Sabrina `(11,11)` with zero gym trainers fought (turns 1425–1433). Avoid appending extra movement steps right after exiting buildings with wandering NPCs near the exit (turns 1318–1319).
 
 ## Party
-- **KAISER** (Nidoking, Lead/Slot 1) - Lv 47 (155 HP; 104 Atk / 95 Def / 99 Spd [Carbos x2] / 89 Spc; **Thrash**, **Body Slam**, **Ice Beam**, **Thunderbolt**) — evolved turn 347; taught TM13 Ice Beam turn 911
+- **KAISER** (Nidoking, Lead/Slot 1) - Lv 49 (162 HP; 109 Atk / 100 Def / 103 Spd [Carbos x2] / 93 Spc; **Thrash**, **Body Slam**, **Ice Beam**, **Thunderbolt**) — evolved turn 347; taught TM13 Ice Beam turn 911; teaching TM26 Earthquake over Thrash next!
 - **RIPTIDE** (Wartortle, Slot 2) - Lv 21 (57 HP; **Dig**, Tail Whip, **Bubblebeam**, **HM03 Surf**) — evolved turn 309; taught HM03 Surf turn 1287
 - **BRIAR** (Bellsprout, Slot 3) - Lv 18 (47 HP; **Vine Whip**, Growth, **HM01 Cut**, **Sleep Powder**) — caught turn 485, renamed turn 867
 - **ZEPHYR** (Spearow, Slot 4) - Lv 22 (52 HP; **HM02 Fly**, Leer, Fury Attack, Mirror Move) — caught on Route 16 turn 964, taught HM02 Fly turn 970
-- **DOZER** (Snorlax, Slot 5) - Lv 32 (146 HP; **Headbutt**, **Amnesia**, **Rest**, **HM04 Strength**) — caught on Route 16 turn 1147; taught HM04 Strength turn 1298 (learns Body Slam at Lv 35!)
+- **DOZER** (Snorlax, Slot 5) - Lv 33 (151 HP; **Headbutt**, **Amnesia**, **Rest**, **HM04 Strength**) — caught on Route 16 turn 1147; taught HM04 Strength turn 1298 (learns Body Slam at Lv 35!)
 - **Slot 6:** OPEN (reserved for **Zapdos :L50** with Master Ball!)
-- **Bag (11/20 slots):** **Bicycle**, **Revive x4**, **Rare Candy x1**, **Max Potion x1**, **Full Restore x1**, **Hyper Potion x2**, **Max Repel x3**, **Full Heal x3**, **Master Ball x1**, **Carbos x1**, **TM14 (Blizzard)** (Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3, HM04, HM03, TM06, Silph Scope, Lift Key, HM02, HM01, Super Potion x1, Repel x1, Great Ball x3, TM22, Poké Flute, Card Key, TM46, Secret Key, TM38) | **Cash:** ~¥29,000+ | **Respawn & DIG:** Viridian City Center `(23,25)`
+- **Bag (11/20 slots):** **Bicycle**, **Revive x4**, **Rare Candy x1**, **Max Potion x1**, **Full Restore x1**, **Hyper Potion x1**, **Max Repel x3**, **Full Heal x3**, **Master Ball x1**, **TM14 (Blizzard)**, **TM27 (Fissure)** (Stored in PC: TM45, S.S. Ticket, TM21, TM34, Helix Fossil, Antidote x3, HM04, HM03, TM06, Silph Scope, Lift Key, HM02, HM01, Super Potion x1, Repel x1, Great Ball x3, TM22, Poké Flute, Card Key, TM46, Secret Key, TM38) | **Cash:** ~¥36,000+ | **Respawn & DIG:** Viridian City Center `(23,25)`
 
 ## Badges
 - 1/8: **Boulder Badge** (Pewter City, turn 180)
@@ -52,6 +52,7 @@
 - 5/8: **Soul Badge** (Fuchsia City, turn 1232)
 - 6/8: **Marsh Badge** (Saffron City, turn 1468)
 - 7/8: **Volcano Badge** (Cinnabar Island, turn 1583)
+- 8/8: **Earth Badge** (Viridian City, turn 1666)
 
 ## Notepad Index
 - `notepads/Main.md` - High-level dashboard and index
