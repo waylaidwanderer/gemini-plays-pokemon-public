@@ -26,16 +26,16 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 44 (`134` Max HP) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
-2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(Teach `TM26 Earthquake` on Silph Co. 5F)*
+1. **NAUTILUS** (Blastoise) — Lv. 47 (`143` Max HP, `Carbos` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
+2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: **Body Slam** (Slot 0), Water Gun (Slot 1), **Earthquake** (Slot 2), **Thunderbolt** (Slot 3)
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, **Cut** *(`HM01 Cut` specialist)*
 5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, **Fly**, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
 
 ## Inventory & Money
-- Money: ~¥18,000+
-- Key Items: Pokédex, Bicycle, Poké Flute *(HM01–HM04, Silph Scope, Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM40, TM45 stored in COBALT's PC)*
-- Bag (`15/20` slots): Max Ether x1, Poké Ball x4, Bicycle, Super Potion x7, Awakening x7, X Speed x8, X Defend x12, TM21, Elixer x1, X Accuracy x1, Rare Candy x2, Poké Flute, Max Potion x1, Max Revive x1, TM06 (Toxic)
+- Money: ~¥23,000+
+- Key Items: Pokédex, Bicycle, Poké Flute, Card Key *(HM01–HM04, Max Ether, Poké Ball x4, Silph Scope, Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM40, TM45 stored in COBALT's PC)*
+- Bag (`14/20` slots): Bicycle (Slot 0), Super Potion x5 (Slot 1), Awakening x7, X Speed x8, X Defend x12, TM21, Elixer x1, X Accuracy x1, Rare Candy x3, Poké Flute, Max Potion x1, Max Revive x1, TM06 (Toxic), Card Key
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
@@ -475,6 +475,11 @@
   - **1F Elevator Access (`Turns 1004–1006`)**: Bypass central fountain via `(10, 17) -> Up -> Right * 13 -> (23, 16) -> Up * 15 -> (23, 1) -> Left * 3 -> (20, 1) -> Up` into **Elevator `(20, 0)`** (`panel at (3, 0) always starts at 1F; 1F..11F top-to-bottom`).
   - **5F `CARD KEY` (`Turns 1009–1014`)**: Defeat Scientist Beau (`5F (8, 3)`) and Rocket Grunt (`5F (8, 16)`), double-warp `5F (9, 15) <-> 9F (17, 15)` to clear the Grunt's tile, and walk east along `y = 16` to claim **`CARD KEY`** at **`5F (21, 16)`**.
   - **Upper-Floor Elevator Shift (`Turns 1024–1028`)**: Upper Silph Co. maps narrow horizontally, shifting the Elevator door to **`(18, 0)` on `9F`** (`reachable from 9F (17, 15) past Scientist Ed at (21, 13) through Card Key shutters at (19, 10) and (19, 4); 9F infirmary shutter is at (10, 12..13)`) and **`(12, 0)` on `10F`** (`bypass Scientist at (10, 2) facing Left via row y = 3`).
+  - **10F Treasure Room (`Turns 1028–1035`)**: Walk `(12, 1) -> (12, 3) -> (4, 3) -> (4, 9)` (defeat Rocket Grunt at `(3, 9)`), then collect **`Carbos`** at `(5, 11)` (from `(6, 11)`), **`Rare Candy`** at `(4, 14)` (from `(3, 14)` via `y = 16`), and **`TM26 (Earthquake)`** at `(2, 12)` (from `(1, 12)` via `(1, 15)`).
+  - **3F -> 7F Rival -> 11F Giovanni (`Turns 1036–1049`)**:
+    - Ride Elevator to **`3F`** (`Down * 2` from `1F`, exits `(20, 1)`), walk south down `x = 19` to `(19, 7)` (defeat Rocket Grunt at `(20, 7)`), unlock Card Key shutter `(17, 8)`, round table `(12..13, 8..9)` via `y = 10`, and step on **`3F (11, 11)`** -> **`7F (5, 3)`**.
+    - On **`7F`**, stepping to `(3, 3)` triggers Rival `GARNET`; after he warps out on **`7F (5, 7)`**, step onto **`7F (5, 7)`** -> **`11F (3, 2)`**.
+    - On **`11F`**, walk `(3, 2) -> (2, 2) -> (2, 16)`, defeat Rocket Grunt at `(3, 16)` (facing `Up`), and unlock Card Key shutter **`(6..7, 13)`** into Giovanni's boardroom.
 
 
 <hr>

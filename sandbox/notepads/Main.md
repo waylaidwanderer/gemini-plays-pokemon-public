@@ -24,16 +24,16 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 44 (`134` Max HP) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
-2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: Body Slam, Water Gun, Tackle, Thunderbolt *(Teach `TM26 Earthquake` on Silph Co. 5F)*
+1. **NAUTILUS** (Blastoise) — Lv. 47 (`143` Max HP, `Carbos` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Bite** (Slot 3) *(`Skull Bash` declined at Lv. 42; next level-up move is `Hydro Pump` at Lv. 52)*
+2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: **Body Slam** (Slot 0), Water Gun (Slot 1), **Earthquake** (Slot 2), **Thunderbolt** (Slot 3)
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, **Cut** *(`HM01 Cut` specialist)*
 5. **JASPER** (Spearow) — Lv. 22 (`52/52` HP) | Moves: Growl, **Fly**, Fury Attack, Mirror Move *(`HM02 Fly` aerial partner)*
 
 ## Inventory & Money
-- Money: ~¥18,000+
-- Key Items: Pokédex, Bicycle, Poké Flute *(HM01–HM04, Silph Scope, Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM40, TM45 stored in COBALT's PC)*
-- Bag (`15/20` slots): Max Ether x1, Poké Ball x4, Bicycle, Super Potion x7, Awakening x7, X Speed x8, X Defend x12, TM21, Elixer x1, X Accuracy x1, Rare Candy x2, Poké Flute, Max Potion x1, Max Revive x1, TM06 (Toxic)
+- Money: ~¥23,000+
+- Key Items: Pokédex, Bicycle, Poké Flute, Card Key *(HM01–HM04, Max Ether, Poké Ball x4, Silph Scope, Town Map, Helix Fossil, S.S. Ticket, Lift Key, TM30, TM34, TM40, TM45 stored in COBALT's PC)*
+- Bag (`14/20` slots): Bicycle (Slot 0), Super Potion x5 (Slot 1), Awakening x7, X Speed x8, X Defend x12, TM21, Elixer x1, X Accuracy x1, Rare Candy x3, Poké Flute, Max Potion x1, Max Revive x1, TM06 (Toxic), Card Key
 
 ## Notepad Index
 - `notepads/Main.md` — High-level dashboard & party summary
