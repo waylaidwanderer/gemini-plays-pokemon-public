@@ -783,8 +783,9 @@
 - **Victory Road Exit Door Trap**: Stepping onto `2F (29, 7)` spawns outside at `Route 23 (14, 32)` directly below the cave mouth `(14, 31)` (`pressing Up at (14, 32) re-enters Victory Road!`). Step `Down` to `(14, 33)`, walk `Right * 4` to `(18, 33)` east of the `(17, 29..31)` statue wall, climb north to `(19, 18)`, bypass the `(15, 18..19)` statue via `(19, 20) -> (10, 20)`, and walk straight north up **`x = 10`** onto `Indigo Plateau (10, 17) -> (10, 6)` into **Indigo Plateau Lobby (`(7, 11)`)**.
 - **Indigo Plateau Lobby Landmarks**:
   - **Nurse Joy**: `(7, 5)` (`stand at (7, 7)` facing `Up`).
+  - **Bill's PC**: `(15, 8)` (`stand at (15, 9)` facing `Up`).
   - **Poké Mart**: `(0, 5)` (`stand at (2, 5)` facing `Left`; sells `Full Restore ¥3,000`, `Max Potion ¥2,500`, `Revive ¥1,500`, `Full Heal ¥600`).
-  - **Elite Four Entrance**: **`(8, 0)`** (`auto-steps to (4, 5)` inside Lorelei's chamber with a ~2s door-lock animation; Elite Four member stands at `(5, 2)` and north exit opens at `(4..5, 0)`).
+  - **Elite Four Entrance**: **`(8, 0)`** (`bypass Gym Guide at (5, 1) via (3, 7) -> (3, 2) -> (6, 2) -> (6, 1) -> (8, 1) -> Up`; auto-steps to `(4, 5)` inside Lorelei's chamber with a ~2s door-lock animation; Elite Four member stands at `(5, 2)` and north exit opens at `(4..5, 0)`. Allow `sleep 9500` when entering Lance's chamber via Agatha's `(4, 0)` exit before opening `Start`).
 - **Lorelei Setup Strategy (`Turns 1236–1238`)**: Lead `Dewgong Lv 54` deals negligible damage (~14 HP over 5 turns) against `Blastoise`; setting up `X Speed x1` + `X Special x4` (`3.0x` Special) lets `Surf` 2HKO `Dewgong`/`Slowbro`/`Lapras` and OHKO `Cloyster`/`Jynx`.
 - **Bruno, Agatha, & Lance Chamber Notes (`Turns 1241–1259`)**:
   - **Bruno (`(5, 2)`)**: Curing `PAR` via `Full Restore` (`Slot 16`) on Turn 1 followed by `X Speed` (`Slot 3`) on Turn 2 recalculates `Blastoise`'s Speed without the `0.25x` paralysis drop; `+3` Special `Surf` OHKOs all 5 Pokémon including `Machamp Lv 58`.
