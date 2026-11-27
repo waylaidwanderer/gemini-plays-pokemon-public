@@ -356,14 +356,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   - Drake: Shelgon Lv 52 (DEFEATED), Flygon Lv 53 (DEFEATED), Altaria Lv 54 (DEFEATED via critical Facade OHKO!), Salamence Lv 55 (dropped to ~15% HP!).
   - Defeated 18 of 20 Elite Four Pokémon!
 - SAGE (Level 87 Sceptile ♂): Grew to Lv 87! Max HP 260, Atk 194, Def 141, SpA 212, SpD 190, Spe 256. 100% restored upon whiteout!
-- Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
+- Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (6 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
 - Status: Respawning outside Pokémon League HQ. SAGE Lv 87 100% restored (260/260 HP, all PP full). Entire party 100% restored.
 - Immediate Plan:
   1. Step North into lobby at (9, 11).
   2. Walk to Mart counter at (16, 4).
-  3. Purchase Revives (DONE, 5 Revives in Bag, ¥1,985 cash!).
+  3. Purchase Revives (DONE, 6 Revives in Bag, ¥485 cash!).
   4. Advance through gate at (9, 1) into Room 1 Sidney to launch Attempt 15!
   5. Sweep Sidney, Phoebe, Glacia, Drake, and defeat Champion Wallace to enter the Hall of Fame!
 
@@ -5037,7 +5037,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! 5 Revives verified in Bag, ¥1,985 cash. SAGE Lv 87 (260/260 HP, 256 Spe, all PP full). Advancing to gate at (9, 1) to challenge Room 1 Sidney!
+- Status: Attempt 15 Active! 6 Revives verified in Bag, ¥485 cash. SAGE Lv 87 (260/260 HP, 256 Spe, all PP full). Advancing to gate at (9, 1) to challenge Room 1 Sidney!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -5053,10 +5053,10 @@ A large meteorological research institute located in northern Route 119 beside t
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x1 (1 consumed Turn 26456, 1 consumed Turn 26600 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x5 (verified in Bag: 1 carried over + 4 purchased for ¥6,000!)
+- Revive x6 (verified in Bag: 1 carried over + 5 purchased for ¥7,500 total!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,985 (verified on screen; purchased 4 Revives for ¥6,000!)
+- Money: ¥485 (verified; 5 Revives purchased for ¥7,500 total, 6 in Bag!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
