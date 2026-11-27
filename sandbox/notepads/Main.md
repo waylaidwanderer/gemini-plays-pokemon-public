@@ -25,7 +25,7 @@
 - [ ] Indigo Plateau — Elite Four & Champion
 
 ## Active Party
-1. **NAUTILUS** (Blastoise) — Lv. 52 (`158` Max HP, `Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3) *(All level-up moves complete!)*
+1. **NAUTILUS** (Blastoise) — Lv. 56 (`Carbos x2` applied) | Moves: **Surf** (Slot 0), **Ice Beam** (Slot 1), **Dig** (Slot 2), **Hydro Pump** (Slot 3) *(All level-up moves complete!)*
 2. **AMETHYST** (Nidoqueen) — Lv. 27 (`90/90` HP) | Moves: **Body Slam** (Slot 0), Water Gun (Slot 1), **Earthquake** (Slot 2), **Thunderbolt** (Slot 3)
 3. **CELESTE** (Clefairy) — Lv. 8 (`30/30` HP) | Moves: Pound, Growl, **Strength** *(`HM04 Strength` boulder specialist)*
 4. **AMBER** (Paras) — Lv. 12 (`32/32` HP) | Moves: Scratch, **Cut** *(`HM01 Cut` specialist)*
