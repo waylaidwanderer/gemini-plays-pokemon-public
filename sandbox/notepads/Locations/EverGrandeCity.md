@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Attempt 15 Active! Room 3 Glacia: Sealeo #1 & #2 DEFEATED! Walrein Lv 53 on field (#3). SAGE Lv 87 (98/260 HP, 256 Spe) executing Bullet Seed (Sheer Cold 0% acc)! Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
+- Status: Attempt 15 Active! Room 3 Glacia: Walrein Lv 53 sustaining 2x super effective Bullet Seed (#3). SAGE Lv 87 (82/260 HP, Overgrow active!). Bag: 1 Revive, 0 Full Heal, ¥11,985 cash.
 - Immediate Plan:
   1. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27022)!
   2. [x] Phoebe DEFEATED (Turn 27084)!
