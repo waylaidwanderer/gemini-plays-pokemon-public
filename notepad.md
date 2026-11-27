@@ -939,7 +939,8 @@ def name_buttons(word):
   - In Gen 1, Electric-types (`Zapdos`) are **not** immune to `Thunder Wave` (`PAR` immunity began in Gen 6). `Mewtwo Lv. 70` `Thunder Wave` + **1 `Swift`** (`~60` damage, max crit `~120` < `157` HP) reaches `94%` of max `PAR` Ultra Ball catch rate (`9.3%` vs `9.9%`) with **0% KO risk**.
   - **2-Ball `A`-Only Batch**: Because `"All right! <PKMN> was ▼"` takes **8 `A` presses** to reach `"give a nickname?"` `►YES`, throwing Ball #1 (`["A", "sleep 8500"]`) followed by `["A", "sleep 3500", "A", "sleep 800", "A", "sleep 800", "A", "sleep 8500"]` safely throws **2 Balls per turn** (`cursor stays on ►ITEM -> ►ULTRA BALL`) without ever pressing `B` or overshooting `►YES` if Ball #1 catches (`verified Turn 1421`).
   - Use `"sleep 600"` (not `"sleep 400"`) between selecting an overworld Bag item (`A`) and confirming `►USE` (`A`) so `USE` is not dropped (`Turn 1414 vs 1427`).
-- **PC Exit & `BILL's PC` Cursor Rules (`Turns 1444–1446, 1480, 1484`)**:
+- **PC Exit & `BILL's PC` Cursor Rules (`Turns 1444–1446, 1480, 1484, 1528`)**:
+  - From overworld `(13, 4)` facing a Center PC, opening `BILL's PC -> WITHDRAW PKMN`'s `Box` list takes **six** `A` presses (`1`: turn on PC, `2`: open top menu, `3`: select `BILL's PC`, `4`: clear `"Accessed BILL's PC."`, `5`: clear `"Accessed POKéMON Storage System."`, `6`: select `►WITHDRAW PKMN`). After withdrawing or depositing, `B * 4` idempotently exits all menus back to the overworld.
   - `BILL's PC -> DEPOSIT PKMN` uses a non-wrapping scrolling list (`clamps at CANCEL`), so `Down * 8 -> Up * 1` deterministically targets the last party slot (`Slot 5`), and depositing resets `wPartyMenuCursor` to `Slot 0` (`Turn 1484 filmstrip_2.png #50`).
   - Exiting the top-level PC menu via `B` preserves the prior `Start` menu slot (`Turn 1484 filmstrip_2.png #44`), whereas selecting `LOG OFF` with `A` resets `Start` to `Slot 0` (`►POKéDEX`).
 - **Bag Bottom-Clamping & `Surf` Facing Prerequisite (`Turns 1456, 1459, 1465, 1469`)**:
@@ -951,23 +952,21 @@ def name_buttons(word):
 
 <h1><code>Scratchpad/Routing</code></h1>
 
-# Post-Game Legendary Quest — Active Routing & Mechanics
+# Post-Game Encore — Unique Pokémon, Dojo, Fossils, & Legendary Hall of Fame
 
-## Target Milestones (Pokémon Blue Post-Game)
-1. **Prep (`Cinnabar Island`)**:
-   - Withdraw `Master Ball x1` from `COBALT's PC` (`verified Slot 13 in PC`).
-   - Purchase `Ultra Ball x24` + `Max Repel x3` at Cinnabar Mart (`¥30,900`).
-2. **Cerulean Cave (`Unknown Dungeon`) — Catch `Mewtwo` (`Lv. 70`, Nickname: `OBSIDIAN`)**:
-   - `Fly` to **Cerulean City** (`Up * 3` from `0 Pallet Town`; note `Indigo Plateau` `0x09` sits between `Cinnabar` `Up * 8` and `Saffron` `Down * 1`).
-   - Walk north up Nugget Bridge (`Route 24`), `Surf` south down the west water channel (`Route 24 -> Cerulean City` northwest shore) into **Cerulean Cave `1F`**.
-   - Optional high-value catch inside Cerulean Cave: wild **`Parasect` (`Lv. 52–54`)** comes with 100%-accurate **`Spore`** (`Lv. 30` move), ideal for putting Legendary Birds (`Catch Rate = 3`) to sleep (`~19.2%` catch chance per `Ultra Ball` when `SLP` in Gen 1!).
-   - Navigate `1F -> 2F -> 1F -> B1F`, capture **`Mewtwo Lv. 70`** using the **`Master Ball`**, and nickname it **`OBSIDIAN`**.
-3. **Power Plant (`Route 10`) — Catch `Zapdos` (`Lv. 50`, Nickname: `TOPAZ`)**:
-   - Bring `OBSIDIAN` (`Mewtwo Lv. 70`) + sleep/paralysis partner, navigate `Cerulean -> Route 9 -> Route 10` north water -> **Power Plant**, and capture **`Zapdos Lv. 50`**.
-4. **Victory Road (`2F`) — Catch `Moltres` (`Lv. 50`, Nickname: `RUBY`)**:
-   - `Fly` to **Indigo Plateau** (`Up * 9` / `Down * 2`), enter Victory Road `2F` from `Route 23 (14, 31)`, and capture **`Moltres Lv. 50`**.
-5. **Seafoam Islands (`B4F`) — Catch `Articuno` (`Lv. 50`, Nickname: `SAPPHIRE`)**:
-   - `Fly` to **Cinnabar Island**, `Surf` east on `Route 20` to **Seafoam Islands**, drop two `Strength` boulders down the waterfall shafts to `B4F`, and capture **`Articuno Lv. 50`**.
+## Active Checklist
+1. **Fossil Revivals (`Cinnabar Lab` & `Pewter Museum`)**:
+   - Revive `Helix Fossil` at Cinnabar Lab (`3rd room`) -> **`Omanyte Lv. 30` (`OPAL`)**.
+   - `Fly` to Pewter City, `Cut` east bush at Pewter Museum for **`Old Amber`**, and revive at Cinnabar Lab -> **`Aerodactyl Lv. 30` (`ONYX`)**.
+2. **Saffron City (`Fighting Dojo` & `Silph Co. 7F`)**:
+   - Defeat Karate Master at **Fighting Dojo `(26, 3)`** -> claim **`Hitmonlee Lv. 30` (`CITRINE`)**.
+   - Enter **Silph Co. `(18, 21)`** -> Elevator to `3F` -> warp `3F (11, 11)` -> `7F (5, 3)` -> talk to Silph employee for **`Lapras Lv. 15` (`PEARL`)**.
+3. **Celadon Mansion & Route 12 Static `Snorlax`**:
+   - Enter **Celadon Mansion** back entrance -> rooftop room -> claim **`Eevee Lv. 25` (`PERIDOT`)** (and evolve with a Stone from Celadon Dept. Store 4F).
+   - `Fly` to Lavender Town -> walk south down **Route 12** pier -> wake static **`Snorlax Lv. 30`** with `Poké Flute`, paralyze + chip with `OBSIDIAN`, and catch as **`JADE`**.
+4. **Indigo Plateau — Legendary Hall of Fame Rematch**:
+   - Assemble **`OBSIDIAN` (`Mewtwo`), `NAUTILUS` (`Blastoise`), `TOPAZ` (`Zapdos`), `SAPPHIRE` (`Articuno`), `RUBY` (`Moltres`), and `ONYX` (`Aerodactyl`)**.
+   - Sweep Lorelei, Bruno, Agatha, Lance, and Champion `GARNET` to enshrine all four Kanto Legendaries in the Hall of Fame!
 
 
 <hr>
