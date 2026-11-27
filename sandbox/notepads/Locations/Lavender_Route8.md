@@ -39,3 +39,12 @@
 - Walk `(10, 22) -> (10, 27) -> (15, 27) -> (15, 31)` (behind the left-facing Fisherman at `(14, 31)`), face `Right` at `(16, 31)`, and **`Surf` straight south along `x = 16` to `(16, 60)`** -> `Left` to **`(10, 60)`** (`bypassing all northern Silence Bridge Fishermen!`).
 - Static **`Snorlax Lv. 30`** sleeps at **`(10, 62)`** (wake from `(10, 61)` with `Poké Flute`).
 - South of `(10, 62)`: `Surf` from `(11, 61)` east to `x = 16` (`note Rocker Luca on the pier spots (14, 72)`), continue south to `y = 78`, and enter the **Fishing Guru's House at `(11, 77)`** (from `(11, 78)` -> `Up`; Guru at `(2, 4)` gives **`SUPER ROD`** upon answering `YES`).
+- **Route 12 Water Encounter Quirk (`Verified Turns 1759–1760`)**: Route 12 has `wWaterRate = 0` (zero wild encounters while Surfing), whereas casting **`Super Rod`** from pier `(11, 61)` facing `Right` at `(12, 61)` hooks wild fish (`e.g. Tentacool Lv. 5`).
+
+## Vermilion City -> Diglett's Cave -> Route 11 East Gatehouse (`Verified Turns 1733–1763`)
+- **Vermilion East Exit**: From `Vermilion Center (11, 4)`, walk `Right * 8 -> (19, 4) -> Down * 10 -> (19, 14) -> Right` onto **`Route 11 (0, 6)`**.
+- **Diglett's Cave (East Entrance)**: Cave mouth at **`Route 11 (4, 5)`** -> lobby `(2, 7)` -> ladder at **`(4, 4)`** -> tunnel **`(37, 31)`** (`95% Diglett / 5% Dugtrio`, Ground-type immune to `Thunder Wave`; pace `(35, 30) <-> (33, 30)` clear of ladder).
+- **Route 11 Fence Bypass & Landmarks**:
+  - Walk south at `x = 11` (`Youngster Eddie at (13, 5)` spots `(11, 5)`) to `y = 11`, east to `(29, 11)` (`Youngster Dillon at (22, 11)`, `Gambler Jasper at (26, 11)`), north to **`(29, 6)`** (above the `y = 7` fence), and straight east along `y = 6` to `(49, 6)`.
+  - **Hidden Item (`Escape Rope`)**: Lone bush at **`Route 11 (48, 5)`** (`ideal Itemfinder verification target right outside the Gatehouse`).
+  - **Route 11 East Gatehouse**: Drop south at `x = 44` (`(44, 6) -> (44, 8)`, `Engineer Braxton at (45, 7)` spots `(45, 8)`) and walk east into **`(50, 8)`** (`spawns at 1F (0, 4)`; east exit at `(7, 4) -> Route 12 (0, 62)`). Stairs up to **`2F` (Oak's Aide — `Itemfinder` at `30+` Owned)** are at **`1F (6, 8)`** via `(5, 4) -> (5, 8) -> Right`.
