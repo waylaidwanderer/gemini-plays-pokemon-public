@@ -372,7 +372,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 1 Sidney battle initiated! Facing lead Mightyena Lv 46. SAGE Lv 87 (260/260 HP, 256 Spe) ready for 5-0 sweep. Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Bullet Seed vs lead Mightyena Lv 46! Bag: 2 Revives, ¥2,992 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
@@ -5052,7 +5052,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney battle initiated! Facing lead Mightyena Lv 46. SAGE Lv 87 (260/260 HP, 256 Spe) ready for 5-0 sweep. Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Bullet Seed vs lead Mightyena Lv 46! Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 260/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
