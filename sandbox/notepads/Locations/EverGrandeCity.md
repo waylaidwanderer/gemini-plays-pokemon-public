@@ -49,7 +49,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Room 1 Sidney: Facade dropped Absol to ~30% HP. SAGE Lv 87 (260/260 HP, 256 Spe).
+- Status: Room 1 Sidney: SAGE Lv 87 (260/260 HP, 256 Spe) executing Facade to KO Absol.
 - Immediate Plan:
   1. Step North into lobby at (9, 11).
   2. Walk to Mart counter at (16, 4).
