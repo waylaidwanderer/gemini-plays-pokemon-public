@@ -62,7 +62,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 87 Sceptile ♂): 100% restored upon whiteout!
 
 ## Elite Four Attempt 16 (Active)
-- Status: Attempt 16 Active! Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 88 (131/263 HP, 259 Spe). Bag: 1 Revive, ¥12,992 cash.
+- Status: Attempt 16 Active! Room 2 Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 88 (88/263 HP, 259 Spe). Bag: 1 Revive, ¥12,992 cash.
 - Immediate Plan:
   1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 2 Revives for ¥3,000 at Mart counter (16, 4).
