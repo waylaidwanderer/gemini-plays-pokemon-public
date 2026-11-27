@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 16 Active! Room 1 Sidney: Declining switch for Cacturne Lv 46 (#4). SAGE Lv 88 (87/263 HP, 259 Spe) ready to OHKO with Aerial Ace! Bag: 2 Revives, ¥2,992 cash.
+- Status: Attempt 16 Active! Room 1 Sidney: Cacturne Lv 46 on field (#4). Cursor on POKéMON -> navigating Up to FIGHT and executing Aerial Ace for 2x super effective OHKO! Bag: 2 Revives, ¥2,992 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 88) - Lead! HP: 87/263. Max HP: 263. Atk 196, Def 143, SpA 214, SpD 192, Spe 258. Moves: Bullet Seed (29/30), Aerial Ace (19/20), Facade (14/20), Quick Attack (25/30). Status: OK.
