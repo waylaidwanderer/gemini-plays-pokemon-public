@@ -5060,7 +5060,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 86, Male), Nickname: SAGE
-- Status: Attempt 14 Active! Room 4 Drake: Lilz absorbed Earthquake and fainted. Sending in revived SAGE (128/257 HP, 253 Spe, all stat drops reset)! Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
+- Status: Attempt 14 Active! Room 4 Drake: SAGE Lv 86 (128/257 HP, 253 Spe) on field vs Flygon Lv 53 (100% HP). Bag: 3 Revives, 1 Full Heal, 2 conscious anchors (Cobalu 49 HP, Guava 101 HP), ¥15,970 cash.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 86) - HP: 128/257. Max HP: 257. Atk 192, Def 139, SpA 209, SpD 188, Spe 253. Moves: Bullet Seed (9/30), Aerial Ace (13/20), Facade (7/20), Quick Attack (25/30). Status: OK (Revived).
