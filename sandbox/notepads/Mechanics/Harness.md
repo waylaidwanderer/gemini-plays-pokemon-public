@@ -186,3 +186,5 @@ def name_buttons(word):
   - Manually switching via in-battle `PKMN` resets `wMoveMenuCursor` (`FIGHT`) back to **`Slot 0`** (`Turn 1628`).
   - Unlike overworld `ITEM`, in-battle `ITEM` skips `USE / TOSS` — pressing a single `A` on `Full Restore` / `Max Revive` immediately opens `"Use item on which POKéMON?"` (`Turn 1631`).
   - Generation I Trainer AI items (`Full Restore` / `Hyper Potion`) execute on the enemy Pokémon's Speed slot rather than at priority before faster player attacks (`Turn 1636`).
+- **0.4s Neighbor Wall-Probe Before Wild Clearer (`Turn 1650`)**:
+  - When a grass/route step `[d]` from `b` fails (`after == b`), immediately testing a known-open non-ledge neighbor (`[probe]` with zero sleep) returns in ~0.4s on physical walls/ledges (`pos != b`), running the 6s wild-encounter clearer + `RUN` only when overworld movement is actually battle-locked (`pos == b`).

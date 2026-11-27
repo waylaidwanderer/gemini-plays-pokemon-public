@@ -21,6 +21,7 @@
       - **`GOLD TEETH`** at **`(19, 7)`** (`obtained Turn 918!` via `(20, 0) -> Down * 5 -> Left -> Down -> (19, 6)`).
       - **Secret House (`HM03 Surf`)**: Door at **`(3, 3)`** (`22` steps from `(20, 0)`: `Down * 4 -> (20, 4) -> Left * 17 -> (3, 4)` straight through the `(6, 4)` Rhydon statue gap, then `Up` into `(3, 3)`!).
 - **Safari Warden's House (`HM04 Strength` + `Rare Candy`)**: Door at **`(27, 27)`** (`from (24, 26), walk Down * 4 -> (24, 30) -> Right * 6 -> (30, 30) -> Up * 2 -> (30, 28) -> Left * 3 -> (27, 28) -> Up`; Warden at `(2, 3)` trades `Gold Teeth` for `HM04 Strength`; pushing boulder at `(8, 4)` right from `(7, 4)` reveals `Rare Candy` at `(8, 3)`).
+- **Good Rod Fishing Guru's House**: Door at **`(31, 27)`** (`from Fuchsia Center (19, 28), exit courtyard via (8, 28) -> (8, 32) -> (1, 32) -> (1, 20) -> (24, 20) -> (24, 30) -> (31, 30) -> Up * 3` through the `(30..31, 29)` bollard gap).
 - **Fuchsia Pokémon Center & Fuchsia Gym Courtyard (Verified Turn 955)**:
   - Surrounded by solid cliffs on north (`y = 22..25`), west (`x = 2`), and east (`x = 23`), and south ledge (`y = 31`) EXCEPT the **south gap at `(8, 31)`** (`reached via west grass strip (1, 21) -> Down * 11 -> (1, 32) -> Right * 7 -> (8, 32) -> Up -> (8, 31)`!).
   - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`registered on Fly Town Map Turn 955!`).
