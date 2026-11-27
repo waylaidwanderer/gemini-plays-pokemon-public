@@ -2,7 +2,7 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 88, Male), Nickname: SAGE
+- Starter: Sceptile (Level 89, Male), Nickname: SAGE
 - Status: Attempt 17 Active! Sidney DEFEATED (5-0 sweep)! Advancing to Room 2 Phoebe. SAGE Lv 89 (97/266 HP, 262 Spe). Bag: 3 Revives, ¥6,896 cash.
 
 ## Party (100% Restored Upon Whiteout)

@@ -71,15 +71,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 88 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 263, Atk 196, Def 143, SpA 214, SpD 192, Spe 259. All PP fully restored!
 
 ## Elite Four Attempt 17 (Active)
-- Status: Attempt 17 Initializing! SAGE Lv 88 (263/263 HP, 259 Spe). All PP restored. Cash ~¥6,496 (purchasing 4 Revives at Mart counter).
+- Status: Attempt 17 Active! Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Advancing to Room 2 Phoebe. SAGE Lv 89 (97/266 HP, 262 Spe). Bag: 3 Revives, ¥6,896 cash.
 - Immediate Plan:
-  1. Enter Pokémon League Lobby.
+  1. [x] Enter Pokémon League Lobby.
   2. [x] Purchase 3 Revives for ¥4,500 at Mart counter (16, 4).
   3. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
-  4. Sidney: Mightyena Lv 46 (DEFEATED Turn 27225!), Absol Lv 49 (DEFEATED Turn 27231!), Shiftry Lv 48 (DEFEATED Turn 27233!), Cacturne Lv 46 (DEFEATED Turn 27235!), Crawdaunt Lv 48 (DEFEATED Turn 27237!). Sidney 5-0 CLEAN SWEEP! Earned +¥4,900.
-  3. Enter Gate (9, 1) to challenge Room 1 Sidney.
-  4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
-  5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
+  4. [x] Sidney DEFEATED (5-0 clean sweep, Turn 27237)! Earned +¥4,900.
+  5. Enter Room 2 and challenge Elite Four Phoebe.
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
