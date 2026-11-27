@@ -359,7 +359,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥15,970 -> halved to ¥7,985 upon whiteout (funds 5 Revives!). 1 Revive currently intact in Bag (5 Revives in Bag for Attempt 15!).
 
 ## Elite Four Attempt 15 (Active)
-- Status: Room 1 Sidney active! Mightyena & Absol DEFEATED. Facing Shiftry Lv 48. SAGE Lv 87 (180/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
+- Status: Room 1 Sidney active! Mightyena & Absol DEFEATED. SAGE Lv 87 (180/260 HP, 256 Spe) executing Aerial Ace to OHKO Shiftry Lv 48.
 - Immediate Plan:
   1. Finish Absol Lv 49 with Facade / Quick Attack.
   2. OHKO Shiftry Lv 48 with Aerial Ace (2x super effective).
@@ -5037,10 +5037,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 87, Male), Nickname: SAGE
-- Status: Attempt 15 Active! Room 1 Sidney: Absol DEFEATED! Facing Shiftry Lv 48. SAGE Lv 87 (180/260 HP, 256 Spe). Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
+- Status: Attempt 15 Active! Room 1 Sidney: SAGE Lv 87 (180/260 HP, 256 Spe) executing Aerial Ace (2x super effective) to OHKO Shiftry Lv 48! Bag: 5 Revives, 1 Full Heal, ¥1,985 cash.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 180/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (18/20), Facade (12/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 87) - Lead! HP: 180/260. Max HP: 260. Atk 194, Def 141, SpA 212, SpD 190, Spe 256. Moves: Bullet Seed (30/30), Aerial Ace (17/20), Facade (12/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
