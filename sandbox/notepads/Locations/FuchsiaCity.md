@@ -24,4 +24,5 @@
 - **Fuchsia Pokémon Center & Fuchsia Gym Courtyard (Verified Turn 955)**:
   - Surrounded by solid cliffs on north (`y = 22..25`), west (`x = 2`), and east (`x = 23`), and south ledge (`y = 31`) EXCEPT the **south gap at `(8, 31)`** (`reached via west grass strip (1, 21) -> Down * 11 -> (1, 32) -> Right * 7 -> (8, 32) -> Up -> (8, 31)`!).
   - **Fuchsia Pokémon Center**: Door at **`(19, 27)`** (`registered on Fly Town Map Turn 955!`).
-  - **Fuchsia Gym (Koga)**: Door at **`(5, 27)`** (`just Left * 14 from (19, 28) -> (5, 28) -> Up`).
+  - **Fuchsia Gym (Koga — Soul Badge Earned Turn 996)**: Door at **`(5, 27)`** (`just Left * 14 from (19, 28) -> (5, 28) -> Up`).
+    - **Invisible Wall Visual Rule & Exact Path (`Turns 965–996`)**: White horizontal dashes on the gray floor mark solid invisible walls. Verified path to **Koga at `(4, 10)`**: `(4, 17) -> Right * 5 -> (9, 17) -> Up * 16 -> (9, 1) -> Left * 9 -> (0, 1) -> Down * 2 -> (0, 3) -> Right * 2 -> (2, 3) -> Down * 2 -> (2, 5) -> Left -> (1, 5) -> Down * 2 -> (1, 7) -> Left -> (0, 7) -> Down * 2 -> (0, 9) -> Right * 4 -> (4, 9)` (directly above Koga at `(4, 10)`).
