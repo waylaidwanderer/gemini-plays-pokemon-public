@@ -977,6 +977,9 @@ def name_buttons(word):
   - Field `DIG` (and Nurse Joy healing) preserves `Start` (`►POKéMON`) while resetting `wPartyMenuCursor` to `Slot 0`, whereas `HM02 (Fly)` preserves **both** `Start` (`►POKéMON`) and `wPartyMenuCursor` on the flyer's slot (`use sleep 6500 after confirming Fly`). Step 1 tile off any south-facing doorway before opening `Fly` so a cancelled field move cannot walk `Up` back indoors.
 - **Cancelling In-Battle `PKMN` Leaves Cursor on `►PKMN` (`Turn 1590`)**:
   - Pressing `B` out of the in-battle `PKMN` party screen returns to the 2x2 command menu with the cursor on **`►PKMN` (`top-right`)**, so pressing `Down, A` selects **`►RUN` (`bottom-right`)** instead of `►ITEM` (`bottom-left`)! Always clamp `Left, Up` before `Down, A` when opening `ITEM` after `PKMN`.
+- **Fainted Overworld `Fly` & Gen 1 Unstatused `Ultra Ball` Threshold (`Turns 1582, 1594`)**:
+  - Fainted Pokémon (`0 HP FNT`) still execute overworld HMs (`HM02 Fly`, `Turn 1594`).
+  - Against Catch Rate `25` (`Snorlax`) at 100% HP with no status condition, `Ultra Ball` (`BF = 12 -> f = 85`) has threshold `floor(25 * 85 / 255) = 8 / 151` (`printing "You missed the POKéMON!"` on 94% of throws); always confirm `:PAR`/`:SLP` on the enemy status bar before throwing Balls.
 
 
 <hr>
