@@ -10,6 +10,7 @@
 - `(36..39, 17)`: One-way south ledge bypassing tall grass (`x=40..42, y=17` tall grass allows two-way north/south travel!).
 - `(48, 14..18)`: White rail over water/cliff east of tall grass (requires bike or later traversal?).
 - `(29, 20)`: Small bush in tall grass west of Berry soil.
+- `(10, 20)`: **Nest Ball** (west end of `y=22..24` tall grass corridor; collected turn 332). Just west is a one-way west return ledge `(8, 21..23)` + Cut tree `(8, 20)` back to Chamomile Town / Route 1 west.
 
 ## Wild Encounters Observed
 - **Kernut** (Grass, #012, Kernel Pokémon) — Lv. 4 (caught male, nicknamed **Helios**, turn 326; knows Absorb).
