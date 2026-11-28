@@ -6,7 +6,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Cleared **Webbed Woods** and **East Route 1**; exploring **Route 2** and its **Secret Webbed Woods Sub-Map** (`(35, 13) -> (10, 45)`) with 4 party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6, **Demeter** `Kernut` Lv5) en route to **Catsear City** (Gym Leader: **Bastion**).
+- **Progression:** Cleared **Webbed Woods** and **East Route 1**; exploring **Route 2** and its **Secret Webbed Woods Sub-Map** (`(35, 13) -> (10, 45)`) with 5 party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6, **Demeter** `Kernut` Lv5, **Electra** `Joltik` Lv3) en route to **Catsear City** (Gym Leader: **Bastion**).
 - **Badges:** 0
 
 ## Notepad Index
@@ -226,7 +226,7 @@
   - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (Custom Monomyth nature!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Stats (Lv9, Turn 212):** HP 17/28 | Atk 14 | Def 16 | SpA 16 | SpD 16 | Spe 19
+- **Stats (Lv9, Turn 235):** HP 28/28 | Atk 14 | Def 16 | SpA 16 | SpD 16 | Spe 19
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
@@ -265,6 +265,16 @@
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
   - `Absorb` (Grass, Special, learned Lv4 on Turn 208!)
+
+## 5. Electra — Joltik (♀) — (#019)
+- **Nickname:** `Electra` (Greek myth *Ēlektra* = "shining/amber", root of electricity; caught Lv3 in Secret Webbed Woods Sub-Map on Turn 230–232)
+- **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
+- **Nature:** `Gracious` (Custom Monomyth nature!)
+- **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
+- **Stats (Lv3, Turn 235):** HP 5/16 | Atk 7 | Def 8 | SpA 8 | SpD 8 | Spe 8
+- **Current Moves:**
+  - `Absorb` (Grass, Special, 25 PP)
+  - `String Shot` (Bug, Status, 40 PP)
 
 
 
