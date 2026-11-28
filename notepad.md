@@ -129,6 +129,7 @@
   - `(32, 30)`: **Apricorn Tree** — yielded **1x Ylw. Apricorn** (Turn 219).
   - `(23, 31)`: **1x Awakening** item ball (Turn 220).
   - `(32, 21)`: **1x Silver Powder** (blue-capped Battle Item ball camouflaged in tall grass; Turn 223).
+  - `(31, 49)` (down south-east flower-tuft corridor `x=32, y=35..49`): **1x PokéBall** (Turn 239).
 - **Wild Encounters (`(30, 20)..(33, 25)` tall grass):**
   - **Joltik** (`Bug / Electric`, Lv3 — encountered at `(31, 22)` on Turn 223).
 
