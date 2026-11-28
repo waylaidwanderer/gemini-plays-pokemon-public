@@ -4,7 +4,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Obtained starter **Crackliss** (`Fire/Poison`); back in starting town Pokémon Center `(7, 12)` (Turn 53). Next: ask Mom at home for permission to challenge the **Catsear City Gym Leader**.
+- **Progression:** Nicknamed starter **Seraph** (`Crackliss`, `Fire/Poison`); received **PokéDex**, **Poké Balls**, and **Potions** from Mom & Big Bro in **Chamomile Town** (Turn 65). Heading out toward **Webbed Woods** and **Catsear City** (Gym Leader: **Bastion**).
 - **Badges:** 0
 
 ## Notepad Index
