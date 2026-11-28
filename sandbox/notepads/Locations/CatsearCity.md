@@ -2,6 +2,7 @@
 
 ## Connections
 - **North:** Route 2 (`Route 2 (14, 44)` going South → `Catsear City (19, 0)`; `Catsear X = Route 2 X + 5`, `Route 2 Y = Catsear Y + 45`).
+- **East:** Route 3 (`Catsear City (41, 19)` going East → `Route 3 (0, 18)`; `Catsear X = Route 3 X + 42`, `Catsear Y = Route 3 Y + 1`).
 
 ## Landmarks & Services
 - `(23, 5)`: **Post Office** (`POST` building; contains a PC and the main hub for Friend Code multiplayer activities — requires a PokéNav).
