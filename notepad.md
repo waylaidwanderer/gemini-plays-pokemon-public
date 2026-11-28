@@ -5077,7 +5077,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 18 Active! SAGE Lv 91 (136/272 HP, 267 Spe, Revived!). 2 Revives remaining. Cash: ¥16,448.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 136/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (12/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 136/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
