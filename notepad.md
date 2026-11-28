@@ -217,7 +217,7 @@
   - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(0..4, 6..14)`.
   - **Upper North Catwalk (`y=6..9`, Verified Turns 348–368):**
     - `(6..7, 7..8)` & `(13..14, 7..8)`: Giant ventilation fans; walkable path passes behind them along `y=6` (`(4, 6) -> (16, 6)`), then descends ladder `(17, 7..13)` to mid-terrace (broken ladder `(15, 13..14)` is impassable).
-    - Mid-terrace leads east `(18, 12) -> (24, 13) -> (28, 10)` to downward ladder `(29, 10..15)` onto lower east floor (`(38, 24)` second doorway visible to the east across elevation wall `x=34|35`).
+    - Mid-terrace leads east `(18, 12) -> (24, 13) -> (28, 10)` (north side `(21..28, 8)` ends at north brick wall with `"CLEFF"` mural at `(23..24, 4..6)`, confirming eastern section `x >= 35` / `(38, 24)` doorway is entered externally) to downward ladder `(29, 10..15)` onto lower east floor.
     - Lower floor loops south around furnace `(26..27, 22)` along `y=24` (`(29, 24) -> (23, 24)`), north under the overhead pipe `(23, 21..17)`, and west to **`(14, 15)` Purple Item Ball = `Flint & Steel` (Key Item — COLLECTED Turn 371!)**.
   - `(6..7, 10..12)` & `(10..11, 10..12)`: Two unlit glass-blowing furnaces; cyan spiral graffiti tag at `(14, 10..11)` and purple-capped Item Ball visible on east terrace at `(14, 15)`.
 
