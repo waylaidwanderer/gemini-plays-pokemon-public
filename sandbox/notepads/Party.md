@@ -55,10 +55,11 @@
 ## 5. Electra — Joltik (♀) — (#019)
 - **Nickname:** `Electra` (Greek myth *Ēlektra* = "shining/amber", root of electricity; caught Lv3 in Secret Webbed Woods Sub-Map on Turn 230–232)
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
-- **Nature:** `Gracious` (`+Spe` — Verified Turn 297 Lv4 `+2 Speed` gain!)
+- **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv4, Turn 304):** HP 18/18 | Atk 8 | Def 9 | SpA 9 | SpD 9 | Spe 10
+- **Stats (Lv5, Turn 315):** HP 20/20 | Atk 9 | Def 10 | SpA 10 | SpD 11 | Spe 11
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
+  - `ThunderShock` (Electric, Special, learned Lv5 on Turn 315!)
 
