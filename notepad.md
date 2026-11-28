@@ -327,7 +327,7 @@
   - **Weaknesses:** **`2.5x` Ground** (Monomyth double-weakness cap, Verified Turn 406!), 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (`+Spe` — Verified Turns 357 & 444 `+2 Speed` gains!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Held Item:** `Oran Berry` (temporarily in Bag during Gym Trainer #2; re-equip before Bastion!)
+- **Held Item:** `Oran Berry` (re-equipped Turn 448 before Bastion)
 - **Stats (Lv11, Turn 444):** HP 33/33 | Atk 16 | Def 18 | SpA 19 | SpD 18 | Spe 23
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, Physical, **40 BP** [buffed in Monomyth, Verified Turn 427!], 35 PP — 10% chance to lower foe Speed)
@@ -365,6 +365,7 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (`+Def, -Atk` — Verified Turn 296 Lv7 `+2 Def` gain!)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
+- **Held Item:** `Cheri Berry` (equipped Turn 448)
 - **Stats (Lv9, Turn 429):** HP 25/25 | Atk 7 | Def 15 | SpA 11 | SpD 14 | Spe 11
 - **Current Moves (FULL 4 SLOTS):**
   - `GrassWhistle` (Grass, Status, 15 PP — puts foe to Sleep! Learned Lv8 on Turn 314 over `Bide`; great for wild captures!)
