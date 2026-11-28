@@ -393,13 +393,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
 ## Elite Four Attempt 18 (Active)
-- Status: Attempt 18 Active! SAGE Lv 90 (134/269 HP, 265 Spe, Revived!). Sidney DEFEATED (5-0), Phoebe DEFEATED, Glacia (Sealeo #1 & #2 DEFEATED, Walrein at ~20% HP). 3 Revives remaining. Cash: ¥11,148.
+- Status: Attempt 18 Active! SAGE Lv 90 (80/269 HP, 265 Spe, Overgrow Active!). Sidney DEFEATED (5-0), Phoebe DEFEATED, Glacia (4 of 5 defeated, battling final Glalie #2!). 3 Revives remaining. Cash: ¥11,148.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
   2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
   4. [x] Phoebe DEFEATED (+¥5,100, Cash: ¥11,148).
-  5. Defeat Glacia in Room 3 (Sealeo #1 & #2 DEFEATED, Walrein at ~20% HP, +¥5,300).
+  5. Defeat Glacia in Room 3 (4 of 5 defeated, battling final Glalie #2 Lv 52, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
   9. Enter the Hall of Fame!
@@ -5077,7 +5077,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 18 Active! SAGE Lv 90 (80/269 HP, 265 Spe, Overgrow Active!). 3 Revives remaining. Cash: ¥11,148.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 80/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (18/20), Quick Attack (29/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 80/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (17/20), Quick Attack (29/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
