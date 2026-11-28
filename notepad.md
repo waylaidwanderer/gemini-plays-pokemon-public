@@ -69,7 +69,7 @@
   - `Start` jumps cursor to `OK`.
 
 ## Battle & Progression Mechanics (Verified)
-- **Party EXP Share:** Active by default ("Everybody got their fair share!", verified turn 83).
+- **Party EXP Share & Capture EXP:** Party EXP Share is active by default ("Everybody got their fair share!", verified turn 83) and catching wild Pokémon also grants EXP (verified turn 196).
 - **Modern Move Mechanics:** String Shot lowers Speed harshly (-2 stages) and hits both foes in double battles (verified turn 80).
 - **Bedroom PC:** Contains 1 free Potion (withdrawn turn 39).
 - **Wall Clock:** Must be set in bedroom before going downstairs (defaults to No on confirmation prompt; verified turns 40-45).
