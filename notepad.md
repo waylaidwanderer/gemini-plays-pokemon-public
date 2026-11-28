@@ -5078,7 +5078,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! IN BATTLE WITH CHAMPION WALLACE! Wailord DEFEATED! Battling Ace Milotic Lv 58 (~45% HP). SAGE Lv 91 (102/272 HP, 267 Spe). 1 Revive remaining. Cash: ¥21,948.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 72/272 (Overgrow ACTIVE!). Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (3/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 72/272 (Overgrow ACTIVE!). Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (1/30), Aerial Ace (0/20), Facade (1/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
