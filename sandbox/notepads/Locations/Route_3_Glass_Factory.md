@@ -30,7 +30,10 @@
 - **Entrance (`(1, 24)-(2, 24)`):** Connects back to Route 3 `(41, 26)`.
 - **Gym Leader Bastion at `(1, 19)` (Verified Turns 339–341):**
   - Recognizes Iris from Chamomile Town! Explains he lost his **Flint and Steel** during an expedition through the factory and cannot light the kiln in Catsear City Gym until it is recovered.
-- **1F West Entrance Area:**
-  - `(2, 16..18)`: Ladder climbing north brick wall behind Bastion.
-  - `(4..7, 19..22)`: Sunlit floor with indoor moss/weed patches and broken glass shards.
+- **1F West Entrance & Kiln Area:**
+  - **Encounter Mechanic (Verified Turn 345):** Entire factory interior floor (including plain grey brick tiles!) has cave-style wild encounters, not just mossy/weed patches.
+  - **Wild Encounters Verified:**
+    - **Slugma** (`Fire`, Lv6 — encountered at `(8, 17)` on Turn 345).
+  - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(1..4, 14)`.
+  - `(6..7, 10..12)` & `(10..11, 10..12)`: Two unlit glass-blowing furnaces; cyan spiral graffiti tag at `(14, 10..11)` and purple-capped Item Ball visible on east terrace at `(14, 15)`.
 
