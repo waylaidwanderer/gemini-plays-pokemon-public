@@ -4,6 +4,8 @@
 
 ## Game Info
 - **Title:** Pokémon Monomyth (Team Monomyth, 2026)
+- **Region:** Athanto
+- **Trainer:** Astra
 - **Settings:** AI Difficulty = Monomyth (intended experience, slightly harder than mainline games); Color Variants = On; Battle/Pokémon Anims = On.
 
 ## Current Progression
