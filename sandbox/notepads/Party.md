@@ -78,4 +78,10 @@
   - `Sand Attack` (Ground, Status, 15 PP — lowers foe Accuracy)
   - `Foresight` (Normal, Status, 40 PP — enables Normal/Fighting hits on Ghost & ignores evasion)
 
+---
+
+## Boxed Pokémon (PC Box Server)
+- **Chroma — Tagling (♀, Lv6, `#044` Infraction Pokémon):** **`Poison / Dark`** (caught at Catsear Industrial Glassworks `(11, 7)` on Turn 356–360; only weak to Ground, immune to Psychic; observed moves: `Acid`, `Gastro Acid`).
+
+
 
