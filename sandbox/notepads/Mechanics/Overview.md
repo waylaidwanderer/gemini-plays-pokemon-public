@@ -43,7 +43,10 @@
 - **AI Difficulty:** Default is `Monomyth` ("The intended Monomyth experience. Slightly harder than mainline games." / "Monomyth difficulty remains the official recommended experience."). Alternative option is `Heroic` (does not alter opponent stats, only makes AI switch more often and play competitively; can downgrade Heroic -> Monomyth anytime, cannot upgrade mid-run). Selected `Monomyth` on Turn 9.
 - **Color Variants:** Default `On` ("Pokémon colors change somewhat depending on the individual."). Note: Subtle palette/pattern differences between individuals are normal and do not necessarily indicate a Shiny Pokémon.
 - **Text Speed:** No Text Speed setting exists in Options (built-in fast/fixed speed).
-- **Animations & Audio:** `Battle Anims: On`, `Pokémon Anims: On`, `Bicycle Music: Off`, `Surf Music: Off`, `Dex Units: Imperial`, `Button Mode: Normal`.
+- **Animations & Audio:** Currently `Battle Anims: Off`, `Pokémon Anims: Off` (toggled Turn 448; single battle rounds resolve in ~3.5–5s!), `Bicycle Music: Off`, `Surf Music: Off`, `Dex Units: Imperial`, `Button Mode: Normal`.
+- **Notable Custom Move & Boss Presentation Changes:**
+  - `Constrict` is buffed to **40 BP** Physical Normal (100% Acc, 10% `-1 Speed`) instead of mainline's 10 BP (Verified Turn 427).
+  - Gym Leader boss battles display cycling atmospheric flavor prompts (e.g. `"Bastion smiles and flexes his chest!"`, `"Flames coat the Gym arena!"`, `"The Gym room is getting hotter."`) in place of `"What will <Pokémon> do?"` without altering weather or dealing field damage (Verified Turns 450–457).
 
 ## UI & Controls Verified Mechanics
 - **Safe Dialogue Advance (`B` button, Verified Turns 11, 32):** Pressing `B` with `~1400ms` sleep advances standard dialogue boxes and stops safely without confirming choice prompts (e.g. Rock-Paper-Scissors, Starter Choice). **Caveat (Turn 32):** If a Naming Screen opens with a pre-filled default name (e.g. `Monty`, `Willow`), trailing `B` presses act as Backspace and erase letters from the default name. Keep `B` batches moderate when approaching potential character/Pokemon naming screens.
