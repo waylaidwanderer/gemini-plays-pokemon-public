@@ -85,6 +85,7 @@
   - `(19, 19)` (north-west bank of pond via south-west channel `(22, 24) -> (17, 24) -> (17, 21) -> (19, 20)`): **1x PokéBall** (collected Turn 125).
   - `(33, 22)` (east clearing below pond): **Apricorn Tree** — yielded **1x Blu. Apricorn** (collected Turn 110).
   - `(40, 5)` (north-east dead-end clearing via `(38, 14) -> (42, 14) -> (42, 7) -> (40, 6)`; yellow flower tufts break automatically when stepped on!): **1x Antidote** (collected Turn 129).
+  - `(47, 24)` (south-east dead-end grass pocket via `(38, 21) -> (47, 21) -> (47, 23)`, camouflaged inside tall grass): **1x Potion** (collected Turn 132).
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
   - `(32, 25)`: **Monty** standing facing up below the Apricorn clearing (check HP before speaking in case of rival battle!).
