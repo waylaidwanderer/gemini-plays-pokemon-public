@@ -46,7 +46,9 @@
   - Pressing `Start` jumps cursor directly to `OK`, and `A` opens an **in-screen confirmation prompt** (`"Are you sure you want the name <X>? > Yes / No"` — Verified Turn 58). You MUST press a **second `A`** (`["Start", "sleep 400", "A", "sleep 1200", "A", "sleep 1500"]`) to confirm `Yes` and exit the Naming Screen before sending any `B` dialogue-advance inputs!
   - **Safe Pathing Rule on Naming Grid:** Rows 0–1 only have letters in cols `0..5` whereas Rows 2–3 have letters in cols `0..6`. Always move **Left BEFORE Up/Down**, and **Up/Down BEFORE Right**, so the cursor never passes through unmapped cell `(0,6)` or `(1,6)`.
 - **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17, 51):** Screens with continuously pulsing cursors, scrolling Pokémon Center news tickers, or sleeping `Zzz` animations generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`+. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png`+ directly when background animations are active.
-- **Battle Round Timing (Verified Turns 48–50):** With `Battle Anims: On`, a 4-Pokémon Double/Multi-Battle round takes ~10–15s (especially with stat-drop animations like Constrict/String Shot). Interleaving `["B", "sleep 2500"] * 5` after selecting our move/target cleanly resolves full rounds and EXP messages.
+- **Battle Round Timing & Cursor Safety (Verified Turns 48–50, 121):**
+  - With `Battle Anims: On`, even a Single Battle round with `Wrap` + stat-drop animations (`String Shot` / `Struggle Bug`) takes ~10–12s (`["sleep 3000", "B", "sleep 2500", "B", "sleep 2500", "B", "sleep 2500", "B", "sleep 2000"]`), and a 4-Pokémon Double/Multi-Battle round takes ~12–15s.
+  - **Warning:** Sending directional inputs (`Up`/`Down`/`Left`/`Right`) before the previous round's end-of-turn animations finish will move the `Fight / Bag / Pokémon / Run` cursor! Whenever spamming a repeatable attack, move selection once to the top-left move slot (`Fight -> Slot 0`) and use ONLY `A`/`B` on subsequent rounds so the cursor can never drift onto `Bag` or `Run`.
 
 
 
