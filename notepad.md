@@ -51,6 +51,30 @@
 
 <hr>
 
+<h1><code>Locations/Routes1and2</code></h1>
+
+# Routes 1 & 2 (Forest Stroll)
+
+## Connections
+- **West:** Chamomile Town (`Chamomile X = Route X + 54`, `Chamomile Y = Route Y + 11`).
+- **Webbed Woods West Entrance:** `(19, 12)` going Right → `Webbed Woods (9, 12)`.
+- **Webbed Woods East Exit:** `(32, 13)` (arriving from `Webbed Woods (56, 44)`).
+
+## Landmarks & Items
+- `(33, 20)` & `(34, 20)`: **Berry Soil** — Pecha Berry tree (`(33, 20)`) and Oran Berry tree (`(34, 20)`); both harvested turn 320-321.
+- `(36..39, 17)`: One-way south ledge bypassing tall grass (`x=40..42, y=17` tall grass allows two-way north/south travel!).
+- `(48, 14..18)`: White rail over water/cliff east of tall grass (requires bike or later traversal?).
+- `(29, 20)`: Small bush in tall grass west of Berry soil.
+
+## Wild Encounters Observed
+- **Kernut** (Grass, #012, Kernel Pokémon) — Lv. 4 (caught male, nicknamed **Helios**, turn 326; knows Absorb).
+
+## Trainers
+- **PKMN Trainer Willow** (Route 1 west, defeated turn 167): Crackliss ♀ Lv. 5 (₽100).
+
+
+<hr>
+
 <h1><code>Locations/WebbedWoods</code></h1>
 
 # Webbed Woods
