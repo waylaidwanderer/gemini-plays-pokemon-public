@@ -46,7 +46,7 @@
   - 2F PC had 1 free Potion (withdrawn).
   - Note: Mom does NOT heal the party (use the Pokémon Center down the street).
 - **Monty's House:** On top of Chamomile Hill (`(32, 9)`), reached via the staircases north of the main road.
-- **East Exit:** Leads to **Routes 1 & 2 (Forest Stroll)** and **Webbed Woods** (`Chamomile X = Route X + 54`, `Chamomile Y = Route Y + 10`).
+- **East Exit:** Leads to **Routes 1 & 2 (Forest Stroll)** and **Webbed Woods** (`Chamomile X = Route X + 54`, `Chamomile Y = Route Y + 11`; verified turn 268).
 
 
 <hr>
