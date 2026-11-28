@@ -68,6 +68,7 @@
 - `(47, 24)`: **Potion** (tucked in tall grass pocket east of pond; collected turn 244).
 - `(19, 19)`: **PokéBall** (west pond alcove off `y=23..25` branch; collected turn 275).
 - `(15, 35)`: **Paralyze Heal** (west of Bug Catcher Tim's L-shaped ledge; collected turn 294).
+- `(39, 48)`: **PokéBall** (southern tall grass pocket; collected turn 301).
 
 ## Wild Encounters Observed
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
