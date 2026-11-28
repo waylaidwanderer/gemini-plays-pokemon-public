@@ -11,4 +11,5 @@
   - **Rivals Spotted Outdoors:** **Monty** standing at `(27, 9)` on northern street; **Willow** standing at `(32, 17)` just east of the Pokémon Center!
   - **Catsear Pokémon Center & 2F Mart:** Red-roofed building at `x=27..31, y=13..17` (door at `(29, 17)`, via eastern stairs `(32, 11)-(33, 11)`).
     - **1F NPC `(11, 13)`:** Mentions his buddy on **Route 7** loans out a **Fishing Rod** (Turn 261).
+    - **2F Shopper `(1, 6)` & News Ticker:** Warn that weird guys are hanging around the **Abandoned Glass Factory** **east of Catsear City** (Turn 267).
   - **Grey Building with Natu on Roof (`x=17..23, y=13..16`):** Directly west of the Pokémon Center.
