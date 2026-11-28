@@ -4,7 +4,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Nicknamed starter **Seraph** (`Crackliss`, `Fire/Poison`); received **PokéDex**, **Poké Balls**, and **Potions** from Mom & Big Bro in **Chamomile Town** (Turn 65). Heading out toward **Webbed Woods** and **Catsear City** (Gym Leader: **Bastion**).
+- **Progression:** Defeated Rival **Willow** on Route 1 (Turn 90); exploring **Webbed Woods** with 3 party members (**Seraph** `Crackliss` Lv7, **Anansi** `Spinarak` Lv3, **Psyche** `Sleepillar` Lv2) en route to **Catsear City** (Gym Leader: **Bastion**).
 - **Badges:** 0
 
 ## Notepad Index
