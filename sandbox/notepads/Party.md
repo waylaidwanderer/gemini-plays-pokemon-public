@@ -31,7 +31,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
-- **Stats (Lv4, Turn 161):** HP 17/17 | Atk 6 | Def 8 | SpA 10 | SpD 8 | Spe 8
+- **Stats (Lv5, Turn 173):** HP 19/19 | Atk 7 | Def 9 | SpA 11 | SpD 9 | Spe 9
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)

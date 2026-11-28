@@ -94,7 +94,7 @@
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
   - `(32, 25)`: **Youngster Jimmy** — **DEFEATED Turn 164** (`Kernut` ♂ Lv3 (`Grass`, `Bide`) + `Shope` ♀ Lv4 (Jackalope Fakemon, `Tackle`, high crit rate?)).
   - `(39, 30)-(41, 30)`: One-way shortcut ledge east of southern tall grass.
-  - `(24, 34)`: **Bug Catcher Tim** (facing down on `y=34` dirt road; 1 Pokémon: `Spinarak` ♀ Lv3 — battling Turn 171).
+  - `(24, 34)`: **Bug Catcher Tim** — **DEFEATED Turn 175** (`Spinarak` ♀ Lv3 + `Joltik` ♀ Lv4 (`Unnerve`, `Absorb`)).
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
   - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).
@@ -209,7 +209,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
-- **Stats (Lv4, Turn 161):** HP 17/17 | Atk 6 | Def 8 | SpA 10 | SpD 8 | Spe 8
+- **Stats (Lv5, Turn 173):** HP 19/19 | Atk 7 | Def 9 | SpA 11 | SpD 9 | Spe 9
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
