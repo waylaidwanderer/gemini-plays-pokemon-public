@@ -16,7 +16,7 @@
   - `(19, 19)` (north-west bank of pond via south-west channel `(22, 24) -> (17, 24) -> (17, 21) -> (19, 20)`): **1x PokéBall** (collected Turn 125).
   - `(33, 22)` (east clearing below pond): **Apricorn Tree** — yielded **1x Blu. Apricorn** (collected Turn 110).
 - **NPCs & Landmarks:**
-  - `(33, 19)`: Unread signpost just above Apricorn clearing.
+  - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
   - `(32, 25)`: **Monty** standing facing up below the Apricorn clearing (check HP before speaking in case of rival battle!).
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
