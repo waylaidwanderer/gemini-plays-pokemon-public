@@ -380,10 +380,10 @@
   - **Immunities:** Ground (covers `Seraph`'s 4x Ground weakness!), Electric
   - **Resistances:** Fighting, Poison, Bug
   - **Weaknesses:** **4x Ice**, 2x Water
-- **Nature:** `Uncaring` (Custom Monomyth nature — stat modifiers pending level-up verification)
+- **Nature:** `Uncaring` (`+Def` — Verified Turn 383 Lv5 `+2 Def` gain!)
 - **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
 - **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)
-- **Stats (Lv4, Turn 335):** HP 18/18 | Atk 8 | Def 9 | SpA 10 | SpD 10 | Spe 8
+- **Stats (Lv5, Turn 383):** HP 21/21 | Atk 9 | Def 11 | SpA 11 | SpD 11 | Spe 9
 - **Current Moves:**
   - `Peck` (Flying, Physical, 35 PP — boosted by STAB + `Sharp Beak`)
   - `Sand Attack` (Ground, Status, 15 PP — lowers foe Accuracy)
