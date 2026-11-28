@@ -7,10 +7,14 @@
 - **Settings:** AI Difficulty = Monomyth (intended experience, slightly harder than mainline games); Color Variants = On; Battle/Pokémon Anims = On.
 
 ## Current Progression
-- Starting New Game.
+- Chose starter Mishimizu from the mysterious forest crate outside hometown; Monty got Marmroot, Willow took Crackliss. Defeated two wild Spinarak alongside Monty.
 
 ## Party
-- (None yet)
+- **Mishimizu** ♂ (Lv. 5) - Moves: Scratch, Growl, Assist (Stats/Type/Ability to be verified in Summary)
+
+## Rivals' Starters
+- **Monty:** Marmroot ♂ (Groundhog Pokémon)
+- **Willow:** Crackliss (Crackling Pokémon)
 
 ## Badges / Milestones
 - (None yet)

@@ -16,3 +16,9 @@
     - Row 2: `m n o p q r s`
     - Row 3: `t u v w x y z`
   - `Start` jumps cursor to `OK`.
+
+## Battle & Progression Mechanics (Verified)
+- **Party EXP Share:** Active by default ("Everybody got their fair share!", verified turn 83).
+- **Modern Move Mechanics:** String Shot lowers Speed harshly (-2 stages) and hits both foes in double battles (verified turn 80).
+- **Bedroom PC:** Contains 1 free Potion (withdrawn turn 39).
+- **Wall Clock:** Must be set in bedroom before going downstairs (defaults to No on confirmation prompt; verified turns 40-45).

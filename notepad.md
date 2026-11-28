@@ -9,10 +9,14 @@
 - **Settings:** AI Difficulty = Monomyth (intended experience, slightly harder than mainline games); Color Variants = On; Battle/Pokémon Anims = On.
 
 ## Current Progression
-- Starting New Game.
+- Chose starter Mishimizu from the mysterious forest crate outside hometown; Monty got Marmroot, Willow took Crackliss. Defeated two wild Spinarak alongside Monty.
 
 ## Party
-- (None yet)
+- **Mishimizu** ♂ (Lv. 5) - Moves: Scratch, Growl, Assist (Stats/Type/Ability to be verified in Summary)
+
+## Rivals' Starters
+- **Monty:** Marmroot ♂ (Groundhog Pokémon)
+- **Willow:** Crackliss (Crackling Pokémon)
 
 ## Badges / Milestones
 - (None yet)
@@ -43,6 +47,12 @@
     - Row 2: `m n o p q r s`
     - Row 3: `t u v w x y z`
   - `Start` jumps cursor to `OK`.
+
+## Battle & Progression Mechanics (Verified)
+- **Party EXP Share:** Active by default ("Everybody got their fair share!", verified turn 83).
+- **Modern Move Mechanics:** String Shot lowers Speed harshly (-2 stages) and hits both foes in double battles (verified turn 80).
+- **Bedroom PC:** Contains 1 free Potion (withdrawn turn 39).
+- **Wall Clock:** Must be set in bedroom before going downstairs (defaults to No on confirmation prompt; verified turns 40-45).
 
 
 <hr>
