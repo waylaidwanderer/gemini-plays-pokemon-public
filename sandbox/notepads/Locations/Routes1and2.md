@@ -25,3 +25,4 @@
 ## Trainers
 - **PKMN Trainer Willow** (Route 1 west, defeated turn 167): Crackliss ♀ Lv. 5 (₽100).
 - **Lass Jane** (Route 2 `(20, 11)`, defeated turn 349–354): Caroot ♀ Lv. 4 (Grass, Vine Whip), Shope ♀ Lv. 4 (Tackle); prize ₽48.
+- **Youngster Sonny** (Route 2 `(16, 22)`, defeated turn 386–388): Leonte ♀ Lv. 5 (Flying/Ground, Peck); prize ₽40.
