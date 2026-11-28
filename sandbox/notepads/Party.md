@@ -7,9 +7,9 @@
   - **4x Resistances:** Grass, Bug, Fairy
   - **2x Resistances:** Fire, Ice, Fighting, Poison, Steel
   - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
-- **Nature:** `Pompous` (Custom Monomyth nature!)
+- **Nature:** `Pompous` (`+SpA` or `+Spe` — Verified Turn 357 Lv10 `+2 SpA, +2 Spe` gain!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Stats (Lv9, Turn 235):** HP 28/28 | Atk 14 | Def 16 | SpA 16 | SpD 16 | Spe 19
+- **Stats (Lv10, Turn 358):** HP 31/31 | Atk 15 | Def 17 | SpA 18 | SpD 17 | Spe 21
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
