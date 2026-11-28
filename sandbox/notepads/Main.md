@@ -37,6 +37,8 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Shift Switching Purges Ghost Curse (Turn 27369-27370 Discovery): In Gen 3 Pokémon Emerald, Ghost-type Curse is 100% permanently cured when the afflicted Pokémon switches out, including when switching via the mid-battle 'Will [Player] change POKéMON?' shift prompt. This preserves the ace's health and Overgrow state without consuming healing items.
+- Level 90 Overgrow Threshold: At Level 90 (Max HP 269), Sceptile's Overgrow activates when HP is <= 89 HP (269 / 3 = 89.66), granting a 1.5x damage multiplier to all Grass-type attacks.
 - League Mart Counter Spatial Alignment: The Poké Mart clerk in the League Lobby stands at (16, 3) behind the counter at (16, 4). The player must stand at (16, 4) facing North to interact across the counter. Tile (17, 4) faces a blank section of the counter where pressing A will not trigger dialogue.
 - Intimidate Stat Reset on Sacrificial Revive: When facing an Intimidate user (like Drake's Ace Salamence Lv 55), letting the ace take a hit/faint after an opening strike allows a Sacrificial Revive via a low-level reserve anchor. When the ace is revived and switched in after the anchor faints, the -1 Attack debuff is 100% reset to zero, and Intimidate does not re-trigger because the opponent is already active. The ace re-enters with full unmitigated Attack!
 - Sacrificial Revive Stat Reset & Free Entry Proof: Verified on Turn 26897-26904 against Drake's Flygon Lv 53. Reviving SAGE via reserve anchor Lilz restored SAGE to 128 HP at +6 priority. Lilz absorbed Earthquake, allowing SAGE a 100% damage-free switch-in with all prior stat drops (-1 Speed from Shelgon's Rock Tomb) fully reset to 0, regaining full 253 Speed.
