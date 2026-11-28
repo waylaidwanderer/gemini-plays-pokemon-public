@@ -23,3 +23,4 @@
 ## Trainers
 - **Youngster Jimmy** `(32, 25)` (defeated turn 261): Kernut ♂ Lv. 3 (Grass?, knows Bide), Shope ♀ Lv. 4 (knows Tackle).
 - **Bug Catcher Tim** `(24, 34)` (defeated turn 288): Spinarak ♀ Lv. 3, Joltik ♀ Lv. 4 (knows Absorb).
+- **Bug Catcher Skip** `(49, 35)` (defeated turn 308): Combee ♂ Lv. 5 (knows Gust).
