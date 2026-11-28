@@ -12,7 +12,7 @@
 - Big Bro suggested visiting his friend **Bastion**, Gym Leader of **Catsear City**, first (and calling Big Bro via **payphone** to update Pokédex progress!).
 
 ## Party
-- **Caspian** (Mishimizu ♂, #007, Lv. 8, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 27, Atk 15, Def 14, SpA 14, SpD 14, Spe 16 | Moves: Scratch, Growl, Assist, Water Gun.
+- **Caspian** (Mishimizu ♂, #007, Lv. 9, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 29, Atk 16, Def 15, SpA 15, SpD 15, Spe 17 | Moves: Scratch, Growl, Assist, Water Gun.
 - **Ariadne** (Spinarak ♀, #017, Lv. 7, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 23, Atk 15, Def 10, SpA 12, SpD 12, Spe 11 | Moves: Constrict, String Shot, Poison Sting, Absorb.
 - **Selene** (Sleepillar ♀, #025, Lv. 6, Bug/Psychic) — Nature: Zesty | Ability: Early Bird | Stats: HP 21, Atk 8, Def 9, SpA 11, SpD 10, Spe 10 | Moves: Struggle Bug, String Shot.
 - **Orpheus** (Leonte ♂, #015, Lv. 6, Flying/Ground) — Nature: Conniving | Ability: Quick Feet | Stats: HP 23, Atk 12, Def 12, SpA 14, SpD 13, Spe 10 | Moves: Peck, Sand Attack, Foresight.
