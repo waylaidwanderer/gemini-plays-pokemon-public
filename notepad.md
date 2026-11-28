@@ -421,9 +421,10 @@
 # Boss Battle Tracker — Gym Leader Bastion (Catsear City Gym)
 
 ## Opponent Team (2 Pokémon)
-1. **Boomboom — Lv9** (Genderless, `100%` HP, **ACTIVE**)
-   - **Stat Stages:** Speed **`-2`** (caught `Psyche`'s `String Shot` on Round 13 switch-in!)
-   - **AI Discovery (Round 13):** `Monomyth` AI automatically switches out a Pokémon at `-3 Accuracy` to clear accuracy drops! Once `Boomboom` Lv9 is KO'd first, `Numel` Lv12 will be Bastion's last Pokémon and can NEVER switch out to clear stat drops!
+1. **Boomboom — Lv9** (Genderless, `~92%` HP, **ACTIVE**)
+   - **Stat Stages:** Speed **`-2`**, Sp. Atk **`-1`** (via `Psyche`'s `String Shot` + `Struggle Bug`!)
+   - **Observed Moves:** `Ember` (dealt `17` dmg to `Psyche` at `-1 SpA`, `3` dmg to `Seraph` at `-1 SpA`). Resists Bug (`"It ain't very effective..."`).
+   - **AI Discovery (Round 13):** `Monomyth` AI automatically switches out a Pokémon at `-3 Accuracy` to clear accuracy drops! Remember on Round 1 Bastion hard-switched `Boomboom` Lv9 out against `Seraph` Lv11 — using `Fresh Water` on `Seraph` (`13 -> 33/33` HP) right now covers BOTH a `Numel` switch-in and a `Boomboom` stay-in!
 2. **Numel (♂) — Lv12** (`Fire / Ground`, `~88%` HP, **ON BENCH** — accuracy reset to `0` on switch-out)
    - **Observed Moves & Remaining PP:**
      - `Magnitude` (Ground, Physical — `27 / 30` PP; used Rounds 2 & 5 into `Athena` for `0` dmg, Round 8 `Magnitude 8` KO'd `Electra`)
