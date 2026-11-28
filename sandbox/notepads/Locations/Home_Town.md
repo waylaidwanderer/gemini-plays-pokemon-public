@@ -10,8 +10,9 @@
   - Further stairs `(27, 14)-(28, 14)` and `(32, 11)` lead to **Monty's House** at `(32, 9)`.
 - **Exits:**
   - **East Exit (`x > 45`):** Leads to **Webbed Woods** (toward **Catsear City**).
-  - **South Exit (`(27, 43)-(28, 43)`):** Stairs leading south into tall grass (unexplored route/area!).
+  - **South Exit (`(27, 43)-(28, 43)`):** Stairs lead to a secluded southern trail (`y=48`) ending at a house `(37, 46)` with a Zangoose `(39, 47)` outside (checked Turn 86–87; flavor dialogue only, dead end).
   - **West Limit:** Dead-ends at trees at `(7, 22)`.
+  - **Note on Mom (`(8, 7)`):** Verified Turn 92 that Mom does *not* heal our party after starting our journey; heal at Chamomile Pokémon Center `(24, 21)`.
 - **East Connection:** Leads to **Webbed Woods** clearing (wild **Spinarak** Lv2 confirmed with color/pattern variants; starter crate gave Iris **Crackliss** (`Seraph`, Fire/Poison), Willow **Marmroot** (Grass), Monty **Mishimizu** (Water, knows `Growl` & `Assist`)).
 - **Lore / Quest Lead (Turns 61–65):**
   - Starter Poké Balls have **Edelweiss Labs** stamped on the bottom (located out in **Edelweiss City**).

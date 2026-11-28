@@ -6,5 +6,14 @@
 - **Northern Ledge `(6, 8)`:** Small decorative flower garden `(1, 5)..(4, 6)`.
 - **Rival Ambush at `(2, 12)`:** Defeated **Willow** (`Marmroot` ♀ Lv5 — knew `Growl` & `Tackle`; prize `¥100`, Seraph reached Lv6) on Turn 90.
 - **Trainer Tips Sign at `(17, 11)`:** Warns that Athanto has wider wilderness between towns than Kanto/Hoenn; stock Potions, Antidotes, and Revives.
-- **Webbed Woods Entrance:** East warp arrow at `(20, 12)-(20, 13)`.
+- **Webbed Woods Entrance:** East warp arrow at `(20, 12)-(20, 13)` -> warps to Webbed Woods `(9, 12)`. (South side of Route 1 `(17, 15)` is blocked by trees.)
+
+## Webbed Woods
+- **West Entrance:** `(9, 12)` (returns to Route 1). Starter crate clearing at `(14, 13)`.
+- **Signpost at `(16, 10)`:** `-Webbed Woods- Watch for falling arachnids`
+- **Items Found:**
+  - `(20, 7)` (via north-west clearing `(15, 8) -> (20, 8)`): **1x Antidote** (collected Turn 104).
+- **Wild Encounters (`(21, 13)+` tall grass):**
+  - **Spinarak** (Lv2 confirmed).
+
 

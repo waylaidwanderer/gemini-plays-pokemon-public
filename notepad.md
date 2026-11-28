@@ -33,8 +33,9 @@
   - Further stairs `(27, 14)-(28, 14)` and `(32, 11)` lead to **Monty's House** at `(32, 9)`.
 - **Exits:**
   - **East Exit (`x > 45`):** Leads to **Webbed Woods** (toward **Catsear City**).
-  - **South Exit (`(27, 43)-(28, 43)`):** Stairs leading south into tall grass (unexplored route/area!).
+  - **South Exit (`(27, 43)-(28, 43)`):** Stairs lead to a secluded southern trail (`y=48`) ending at a house `(37, 46)` with a Zangoose `(39, 47)` outside (checked Turn 86–87; flavor dialogue only, dead end).
   - **West Limit:** Dead-ends at trees at `(7, 22)`.
+  - **Note on Mom (`(8, 7)`):** Verified Turn 92 that Mom does *not* heal our party after starting our journey; heal at Chamomile Pokémon Center `(24, 21)`.
 - **East Connection:** Leads to **Webbed Woods** clearing (wild **Spinarak** Lv2 confirmed with color/pattern variants; starter crate gave Iris **Crackliss** (`Seraph`, Fire/Poison), Willow **Marmroot** (Grass), Monty **Mishimizu** (Water, knows `Growl` & `Assist`)).
 - **Lore / Quest Lead (Turns 61–65):**
   - Starter Poké Balls have **Edelweiss Labs** stamped on the bottom (located out in **Edelweiss City**).
@@ -74,7 +75,16 @@
 - **Northern Ledge `(6, 8)`:** Small decorative flower garden `(1, 5)..(4, 6)`.
 - **Rival Ambush at `(2, 12)`:** Defeated **Willow** (`Marmroot` ♀ Lv5 — knew `Growl` & `Tackle`; prize `¥100`, Seraph reached Lv6) on Turn 90.
 - **Trainer Tips Sign at `(17, 11)`:** Warns that Athanto has wider wilderness between towns than Kanto/Hoenn; stock Potions, Antidotes, and Revives.
-- **Webbed Woods Entrance:** East warp arrow at `(20, 12)-(20, 13)`.
+- **Webbed Woods Entrance:** East warp arrow at `(20, 12)-(20, 13)` -> warps to Webbed Woods `(9, 12)`. (South side of Route 1 `(17, 15)` is blocked by trees.)
+
+## Webbed Woods
+- **West Entrance:** `(9, 12)` (returns to Route 1). Starter crate clearing at `(14, 13)`.
+- **Signpost at `(16, 10)`:** `-Webbed Woods- Watch for falling arachnids`
+- **Items Found:**
+  - `(20, 7)` (via north-west clearing `(15, 8) -> (20, 8)`): **1x Antidote** (collected Turn 104).
+- **Wild Encounters (`(21, 13)+` tall grass):**
+  - **Spinarak** (Lv2 confirmed).
+
 
 
 
@@ -90,7 +100,10 @@
   - **1F (`y=8..15`):** Nurse Joy `(7, 10)` across counter `(7, 11)` (**player stands at `(7, 12)`**; verify dismissal by stepping to `y >= 13`!), PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)`).
   - **2F Seamless Mezzanine (`y=0..7`, via left stairs `(1, 10)->(1, 7)`):** **Poké Mart** counter (`(2, 5)-(3, 5)` facing `Up`) and **Link Center**!
 - **Stair Movement Timing (Verified Turns 76, 79):** Stair tiles animate slower than flat ground, causing rapid unspaced button lists (`["Up"] * N`) to drop steps on staircases. Always use a `while` loop checking `mgba.get_coordinates()` (or `"hold <Dir> <ms>"`) when climbing/descending stairs.
-- **Menu/Dialogue Dismissal Guard in `run_code` (Verified Turns 78–79, 83):** Shop `Buy` fade-outs (~1000ms) and multi-box NPC dialogues can absorb trailing `B` presses. Before chaining overworld walking in `run_code`, loop `["B", "sleep 800", "<FirstStepDir>"]` until `mgba.get_coordinates()` confirms the player actually moved 1 tile!
+- **Menu/Dialogue Dismissal Guard & Bounded Loops in `run_code` (Verified Turns 78–79, 83, 94–95):**
+  - **NEVER write unbounded `while` loops** in `run_code` (caused a 120s timeout on Turn 94 when Nurse Joy's closing box stayed open at `(7, 12)`). Always use bounded `for _ in range(N):` loops and break immediately when `npos == pos` (which also cleanly halts on wild encounters!).
+  - Before chaining overworld walking after menus/NPCs, loop `["B", "sleep 800", "<FirstStepDir>"]` (up to 4–5 iterations) until `mgba.get_coordinates()` confirms a 1-tile delta from the starting tile.
+- **Pause Menu Cursor Memory (Verified Turn 93):** `PAUSE` remembers the last selected icon rather than resetting to top-left `(0,0)`. Always check `PAUSE` visually before pressing `A`.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
