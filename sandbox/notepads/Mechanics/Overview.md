@@ -9,7 +9,7 @@
 
 ## Verified Game Settings (Turn 4, Options Menu)
 - **ROM Hack:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`).
-- **AI Difficulty:** Default is `Monomyth` ("The intended Monomyth experience. Slightly harder than mainline games."). Alternative option is `Heroic`. Keeping default `Monomyth`.
+- **AI Difficulty:** Default is `Monomyth` ("The intended Monomyth experience. Slightly harder than mainline games." / "Monomyth difficulty remains the official recommended experience."). Alternative option is `Heroic` (does not alter opponent stats, only makes AI switch more often and play competitively; can downgrade Heroic -> Monomyth anytime, cannot upgrade mid-run). Selected `Monomyth` on Turn 9.
 - **Color Variants:** Default `On` ("Pokémon colors change somewhat depending on the individual."). Note: Subtle palette/pattern differences between individuals are normal and do not necessarily indicate a Shiny Pokémon.
 - **Text Speed:** No Text Speed setting exists in Options (built-in fast/fixed speed).
 - **Animations & Audio:** `Battle Anims: On`, `Pokémon Anims: On`, `Bicycle Music: Off`, `Surf Music: Off`, `Dex Units: Imperial`, `Button Mode: Normal`.
