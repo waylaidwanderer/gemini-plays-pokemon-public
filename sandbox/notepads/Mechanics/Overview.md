@@ -2,6 +2,8 @@
 
 ## Region & Core Design Pointers (Verified Turns 6–7, New Game Pointers)
 - **Region Name:** **Athanto**.
+- **Built-in Pokémon Center Facilities (Verified Turn 55, Chamomile Town):**
+  - Left counter inside Pokémon Center has **Name Rater** (top clerk at `(1, 14)`, accessed from `(3, 14)`) and **free Move Relearner** (bottom clerk at `(1, 15)`, accessed from `(3, 15)`)! Moving moves in and out of our moveset between boss fights is free right inside Pokémon Centers!
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.

@@ -20,7 +20,13 @@
 
 <h1><code>Locations/Home_Town</code></h1>
 
-# Starting Town & Iris's House
+# Chamomile Town (Starting Town)
+
+## Town Layout & Key Buildings
+- **Pokémon Center:** Door at `(24, 21)` (player exits to `(24, 22)`).
+  - Nurse Joy at `(7, 10)`, PC at `(10, 11)`, **Name Rater** at `(1, 14)` (talk from `(3, 14)`), **Move Relearner** at `(1, 15)` (talk from `(3, 15)`), 2F stairs at `(1, 10)`, exit mat at `(7, 15)`.
+- **Iris's House:** Door at `(40, 21)` (player exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
+- **East Connection:** Leads to **Webbed Woods** clearing (where we obtained starter **Crackliss**, Willow took **Marmroot**, Monty took **Mishimizu**; Monty mentioned **Catsear City** has the Gym Leader).
 
 ## Story Context & Key NPCs (Verified Turns 10–20)
 - **Iris (Player):** Birthday is right around the corner; Big Bro is registering Iris's ID application with the Post Office while out at the Mart.
@@ -51,6 +57,8 @@
 
 ## Region & Core Design Pointers (Verified Turns 6–7, New Game Pointers)
 - **Region Name:** **Athanto**.
+- **Built-in Pokémon Center Facilities (Verified Turn 55, Chamomile Town):**
+  - Left counter inside Pokémon Center has **Name Rater** (top clerk at `(1, 14)`, accessed from `(3, 14)`) and **free Move Relearner** (bottom clerk at `(1, 15)`, accessed from `(3, 15)`)! Moving moves in and out of our moveset between boss fights is free right inside Pokémon Centers!
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
