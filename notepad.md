@@ -65,6 +65,7 @@
 - `(34, 19)`: Trainer Tips stone sign ("against the rules to use more than four items during a battle").
 - `(33, 22)`: **Blu. Apricorn Tree** (picked Blu. Apricorn turn 209; stored in PokéBalls pocket).
 - `(40, 5)`: **Antidote** (northeast clearing past cobweb canopy at `x=42..44, y=11`; collected turn 227).
+- `(47, 24)`: **Potion** (tucked in tall grass pocket east of pond; collected turn 244).
 
 ## Wild Encounters Observed
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
