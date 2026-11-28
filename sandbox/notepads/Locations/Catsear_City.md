@@ -19,4 +19,5 @@
   - **West House `(12, 25)`:** Couple watching a TV show about `"Cosmic Pokémon"` / aliens (Turn 277).
   - **Trash Can at `(20, 36)`:** Empty (Turn 278).
   - **South-Central House `(22, 35)` (Former Glassworks Owners):** Elderly couple who owned the old glassworks on the edge of town; **Gym Leader Bastion** was Grandpa's apprentice, and their grandson `(5, 3)` confirms **Bastion goes looking for glass scrap at the old factory all the time** (Turn 279)!
+  - **South-East House `(29, 35)` (Ditto Researcher):** Helmeted researcher surrounded by 4 Ditto (`"Did you know Ditto can match any other Pokémon's breeding patterns? Unfortunately, they also happen to match each other's... What am I gonna do with all these Ditto?"` — check back after badges in case he gifts a Ditto; Turn 281).
   - **Southern Exit Roadblock `(28, 41)-(30, 41)`:** Blocked by two workers with an apple crate; Old Man `(31, 37)` advises earning our first Gym Badge before taking the arduous road south past Catsear City (Turn 280).
