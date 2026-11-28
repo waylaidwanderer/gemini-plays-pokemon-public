@@ -185,9 +185,9 @@
 ## Landmarks, Items, & Trainers
 - **Route Signpost at `(5, 17)`:** Near western entrance.
 - **Apricorn Tree at `(8, 15)`:** Visible north of western road (`y=15`).
-- **Rival Battle — PKMN Trainer Monty at `(5, 18)` (Triggered Turn 288):**
+- **Rival Battle — PKMN Trainer Monty at `(5, 18)` (DEFEATED Turn 297):**
   - Ambush triggers automatically when stepping past `x=5` on the western entrance road.
-  - **Team (2 Pokémon):** Lead `Mishimizu` ♂ Lv6 (`Water`, knows `Scratch`) + 2nd Pokémon ("new buddy").
+  - **Team (1 Pokémon):** `Mishimizu` ♂ Lv6 (`Water`, knows `Scratch`) — defeated cleanly via `Psyche` (`Struggle Bug` x2) -> `Demeter` (`Absorb` KO; `Demeter` reached Lv7 & learned `Ingrain`, `Electra` reached Lv4).
 
 
 <hr>
@@ -329,9 +329,9 @@
 ## 5. Electra — Joltik (♀) — (#019)
 - **Nickname:** `Electra` (Greek myth *Ēlektra* = "shining/amber", root of electricity; caught Lv3 in Secret Webbed Woods Sub-Map on Turn 230–232)
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
-- **Nature:** `Gracious` (Custom Monomyth nature!)
+- **Nature:** `Gracious` (`+Spe` — Verified Turn 297 Lv4 `+2 Speed` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv3, Verified in-battle Turn 289):** HP 5/16 | Atk 7 | Def 8 | SpA 8 | SpD 8 | Spe 8 *(Note: Turn 259's fast Nurse Joy macro closed before healing; use `sleep 2600` before `Yes` at Nurse Joy!)*
+- **Stats (Lv4, Turn 297):** HP 7/18 | Atk 8 | Def 9 | SpA 9 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)

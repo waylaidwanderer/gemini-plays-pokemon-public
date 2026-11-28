@@ -54,9 +54,9 @@
 ## 5. Electra — Joltik (♀) — (#019)
 - **Nickname:** `Electra` (Greek myth *Ēlektra* = "shining/amber", root of electricity; caught Lv3 in Secret Webbed Woods Sub-Map on Turn 230–232)
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
-- **Nature:** `Gracious` (Custom Monomyth nature!)
+- **Nature:** `Gracious` (`+Spe` — Verified Turn 297 Lv4 `+2 Speed` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv3, Verified in-battle Turn 289):** HP 5/16 | Atk 7 | Def 8 | SpA 8 | SpD 8 | Spe 8 *(Note: Turn 259's fast Nurse Joy macro closed before healing; use `sleep 2600` before `Yes` at Nurse Joy!)*
+- **Stats (Lv4, Turn 297):** HP 7/18 | Atk 8 | Def 9 | SpA 9 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
