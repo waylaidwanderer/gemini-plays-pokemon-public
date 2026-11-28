@@ -15,9 +15,9 @@
 
 ## Party
 - **Caspian** (Mishimizu ♂, #007, Lv. 7, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 25, Atk 14, Def 13, SpA 12, SpD 13, Spe 14 | Moves: Scratch, Growl, Assist.
-- **Ariadne** (Spinarak ♀, #017, Lv. 4, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 17, Atk 10, Def 8, SpA 9, SpD 9, Spe 8 | Moves: Constrict, String Shot, Poison Sting.
+- **Ariadne** (Spinarak ♀, #017, Lv. 5, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 19, Atk 12, Def 9, SpA 10, SpD 10, Spe 9 | Moves: Constrict, String Shot, Poison Sting.
 - **Selene** (Sleepillar ♀, #025, Lv. 4, Bug/Psychic) — Nature: Zesty | Ability: Early Bird | Stats: HP 17, Atk 7, Def 8, SpA 9, SpD 8, Spe 8 | Moves: Struggle Bug, String Shot.
-- **Orpheus** (Leonte ♂, #015, Lv. 4, Flying/Ground) — Nature: Conniving | Ability: Quick Feet | Stats: HP 19, Atk 9, Def 9, SpA 11, SpD 10, Spe 8 | Moves: Peck, Sand Attack, Foresight.
+- **Orpheus** (Leonte ♂, #015, Lv. 5, Flying/Ground) — Nature: Conniving | Ability: Quick Feet | Stats: HP 21, Atk 11, Def 11, SpA 12, SpD 12, Spe 9 | Moves: Peck, Sand Attack, Foresight.
 
 ## Rivals' Starters
 - **Monty:** Marmroot ♂ (Groundhog Pokémon)
@@ -75,6 +75,7 @@
 
 ## Trainers
 - **Youngster Jimmy** `(32, 25)` (defeated turn 261): Kernut ♂ Lv. 3 (Grass?, knows Bide), Shope ♀ Lv. 4 (knows Tackle).
+- **Bug Catcher Tim** `(24, 34)` (defeated turn 288): Spinarak ♀ Lv. 3, Joltik ♀ Lv. 4 (knows Absorb).
 
 
 <hr>
