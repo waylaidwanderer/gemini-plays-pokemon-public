@@ -60,7 +60,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Held Item:** None (`Oran Berry` permanently burned up by Bastion's `Numel` `Incinerate` on Turn 487)
+- **Held Item:** None (`Oran Berry` stored in Bag so `Incinerate` cannot burn it)
 - **Stats (Lv7, Turn 437):** HP 24/24 | Atk 11 | Def 12 | SpA 13 | SpD 13 | Spe 14
 - **Current Moves (FULL 4 SLOTS):**
   - `Absorb` (Grass, Special, 25 PP)
