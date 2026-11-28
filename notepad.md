@@ -200,9 +200,9 @@
 ## 3. Psyche — Sleepillar (♀) — (#025, Original Fakemon)
 - **Nickname:** `Psyche` (Greek soul/butterfly goddess; caught Lv2 in Webbed Woods on Turn 114–116)
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
-- **Nature:** `Insane` (Custom Monomyth nature)
+- **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
-- **Stats (Lv3, Turn 138):** HP 11/15 | Atk 6 | Def 7 | SpA 8 | SpD 7 | Spe 7
+- **Stats (Lv4, Turn 161):** HP 17/17 | Atk 6 | Def 8 | SpA 10 | SpD 8 | Spe 8
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
