@@ -354,7 +354,7 @@
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
 - **Held Item:** `Silver Powder` (+20% Bug-type move power; equipped Turn 249)
-- **Stats (Lv7, Turn 313):** HP 23/23 | Atk 8 | Def 11 | SpA 14 | SpD 10 | Spe 11
+- **Stats (Lv8, Turn 437):** HP 25/25 | Atk 8 | Def 12 | SpA 15 | SpD 11 | Spe 11
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
@@ -378,7 +378,7 @@
 - **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
 - **Held Item:** `Oran Berry` (equipped Turn 404)
-- **Stats (Lv6, Turn 359):** HP 22/22 | Atk 10 | Def 11 | SpA 11 | SpD 12 | Spe 12
+- **Stats (Lv7, Turn 437):** HP 24/24 | Atk 11 | Def 12 | SpA 13 | SpD 13 | Spe 14
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
