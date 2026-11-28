@@ -90,6 +90,7 @@
   - `(33, 22)` (east clearing below pond): **Apricorn Tree** — yielded **1x Blu. Apricorn** (collected Turn 110).
   - `(40, 5)` (north-east dead-end clearing via `(38, 14) -> (42, 14) -> (42, 7) -> (40, 6)`; yellow flower tufts break automatically when stepped on!): **1x Antidote** (collected Turn 129).
   - `(47, 24)` (south-east dead-end grass pocket via `(38, 21) -> (47, 21) -> (47, 23)`, camouflaged inside tall grass): **1x Potion** (collected Turn 132).
+  - `(15, 35)` (south-west grass pocket via `(22, 42) -> (15, 42) -> (15, 36)`, exits via `(20, 36)` shortcut ledge): **1x Paralyze Heal** (collected Turn 177).
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
   - `(32, 25)`: **Youngster Jimmy** — **DEFEATED Turn 164** (`Kernut` ♂ Lv3 (`Grass`, `Bide`) + `Shope` ♀ Lv4 (Jackalope Fakemon, `Tackle`, high crit rate?)).
