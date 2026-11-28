@@ -34,6 +34,7 @@
 - `Locations/WebbedWoods.md`: Webbed Woods map, items, wild encounters, and trainers.
 - `Locations/Routes1and2.md`: Routes 1 & 2 landmarks, Berry trees, wild encounters, and trainers.
 - `Locations/CatsearCity.md`: Catsear City map, Pokémon Center, Mart, Post Office, payphone, and Bastion's Gym.
+- `Locations/Route3.md`: Route 3 landmarks, Apricorns, wild encounters, trainers, and Old Glassworks Factory.
 
 
 <hr>
@@ -80,6 +81,27 @@
   - Note: Mom does NOT heal the party (use the Pokémon Center down the street).
 - **Monty's House:** On top of Chamomile Hill (`(32, 9)`), reached via the staircases north of the main road.
 - **East Exit:** Leads to **Routes 1 & 2 (Forest Stroll)** and **Webbed Woods** (`Chamomile X = Route X + 54`, `Chamomile Y = Route Y + 11`; verified turn 268).
+
+
+<hr>
+
+<h1><code>Locations/Route3</code></h1>
+
+# Route 3 & Old Glassworks
+
+## Connections
+- **West:** Catsear City (`Route 3 (0, 18)` going Left → `Catsear City (41, 19)`; `Catsear X = Route 3 X + 42`, `Catsear Y = Route 3 Y + 1`).
+
+## Landmarks & Items
+- `(5, 17)`: Route 3 sign (not yet read — Monty intercepted us right in front of it!).
+- `(9, 14)`: **Yellow Apricorn Tree** (visible northeast of entrance behind fence).
+- **Old Glassworks Factory:** Monty warned there are tough-looking Pokémon inside the factory outside town (likely where Gym Leader Bastion is!).
+
+## Wild Encounters Observed
+- (Not yet explored — watch out for wild **Minccino** for the Catsear City Shellos trade!)
+
+## Trainers
+- **PKMN Trainer Monty** (`(5, 18)` cutscene, defeated turn 443–450): Marmroot ♂ Lv. 6 (pure Grass; Tackle, Growl); prize ₽120.
 
 
 <hr>
