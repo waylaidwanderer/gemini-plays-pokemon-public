@@ -31,5 +31,16 @@
 3. **Visual Color Variants:** Individual Pokémon have unique color/pattern variations (enabled in Options).
 4. **Difficulty Modes:** Monomyth (intended, slightly harder than official games) vs Heroic (smarter/more switching AI, same opponent stats). We are playing on Monomyth difficulty.
 
+## UI Mechanics
+- **Dialogue:** `B` advances dialogue safely without confirming menus (verified turn 20).
+- **Naming Screen (verified turns 24-25):**
+  - Auto-switches from uppercase to lowercase after the 1st character.
+  - Grid is 7 columns (0-6) x 4 rows (0-3) with NO gap stops between col 2 and col 3:
+    - Row 0: `a b c d e f .`
+    - Row 1: `g h i j k l ,`
+    - Row 2: `m n o p q r s`
+    - Row 3: `t u v w x y z`
+  - `Start` jumps cursor to `OK`.
+
 
 <hr>
