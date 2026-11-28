@@ -1,7 +1,7 @@
 # Active Party Roster — Pokémon Monomyth
 
-## 1. Crackliss (♂) — Starter (#004)
-- **Nickname Target:** `Seraph` (missed Monty's 1-time prompt on Turn 51 due to `B`-advance; checking Summary/Name Rater to apply ASAP — **remember: do NOT use `B`-advance right after catching wild Pokémon so we never miss the capture nickname prompt!**)
+## 1. Seraph — Crackliss (♂) — Starter (#004)
+- **Nickname:** `Seraph` (Hebrew *śārāf* = "burning serpent"; nicknamed at Chamomile Town Name Rater on Turn 58)
 - **Type:** `Fire / Poison` (Verified Turn 53 Summary)
   - **Immunities:** Burn, Poison / Badly Poisoned, Poison Powder
   - **4x Resistances:** Grass, Bug, Fairy
