@@ -3,5 +3,9 @@
 ## Connections
 - **West Connection (`(0, 18)`):** Seamless transition back to **Catsear City** (`(41, 19)`).
 
-## Story Context
-- **Willow** `(32, 17)` and the former glassworks owners in Catsear City `(22, 35)` confirmed **Monty** is on **Route 3** and **Gym Leader Bastion** ("The Scorching Hot Craftsman") goes looking for glass scrap at the **Abandoned Glass Factory** east of town, where suspicious individuals have also been spotted.
+## Landmarks, Items, & Trainers
+- **Route Signpost at `(5, 17)`:** Near western entrance.
+- **Apricorn Tree at `(8, 15)`:** Visible north of western road (`y=15`).
+- **Rival Battle — PKMN Trainer Monty at `(5, 18)` (Triggered Turn 288):**
+  - Ambush triggers automatically when stepping past `x=5` on the western entrance road.
+  - **Team (2 Pokémon):** Lead `Mishimizu` ♂ Lv6 (`Water`, knows `Scratch`) + 2nd Pokémon ("new buddy").

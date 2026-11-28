@@ -182,8 +182,12 @@
 ## Connections
 - **West Connection (`(0, 18)`):** Seamless transition back to **Catsear City** (`(41, 19)`).
 
-## Story Context
-- **Willow** `(32, 17)` and the former glassworks owners in Catsear City `(22, 35)` confirmed **Monty** is on **Route 3** and **Gym Leader Bastion** ("The Scorching Hot Craftsman") goes looking for glass scrap at the **Abandoned Glass Factory** east of town, where suspicious individuals have also been spotted.
+## Landmarks, Items, & Trainers
+- **Route Signpost at `(5, 17)`:** Near western entrance.
+- **Apricorn Tree at `(8, 15)`:** Visible north of western road (`y=15`).
+- **Rival Battle — PKMN Trainer Monty at `(5, 18)` (Triggered Turn 288):**
+  - Ambush triggers automatically when stepping past `x=5` on the western entrance road.
+  - **Team (2 Pokémon):** Lead `Mishimizu` ♂ Lv6 (`Water`, knows `Scratch`) + 2nd Pokémon ("new buddy").
 
 
 <hr>
@@ -195,7 +199,7 @@
 ## Region & Core Design Pointers (Verified Turns 6–7, New Game Pointers)
 - **Region Name:** **Athanto**.
 - **Built-in Pokémon Center Mega-Hubs (Verified Turns 55, 77–80):**
-  - **1F (`y=8..15`):** Nurse Joy `(7, 10)` across counter `(7, 11)` (**player stands at `(7, 12)`**; verify dismissal by stepping to `y >= 13`!), PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)` — opens a custom `< Pokémon >` browser where `Left`/`Right` cycles directly through every party member's relearnable move list, Verified Turn 263).
+  - **1F (`y=8..15`):** Nurse Joy `(7, 10)` across counter `(7, 11)` (**player stands at `(7, 12)`**; use `["A", "sleep 2600", "A", "sleep 1800", "A", "sleep 5000"]` rather than `sleep 2000` so `Yes` is not pressed early, and verify dismissal by stepping to `y >= 13`!), PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)` — opens a custom `< Pokémon >` browser where `Left`/`Right` cycles directly through every party member's relearnable move list, Verified Turn 263).
   - **2F Seamless Mezzanine (`y=0..7`, via left stairs `(1, 10)->(1, 7)`):** **Poké Mart** counter (`(2, 5)-(3, 5)` facing `Up`) and **Link Center**!
 - **Stair Movement Timing (Verified Turns 76, 79):** Stair tiles animate slower than flat ground, causing rapid unspaced button lists (`["Up"] * N`) to drop steps on staircases. Always use a `while` loop checking `mgba.get_coordinates()` (or `"hold <Dir> <ms>"`) when climbing/descending stairs.
 - **Menu/Dialogue Dismissal Guard & Bounded Loops in `run_code` (Verified Turns 78–79, 83, 94–95):**
