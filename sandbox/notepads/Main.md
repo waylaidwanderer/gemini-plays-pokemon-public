@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Preparing for Attempt 19! Attempt 18 conquered all 4 Elite Four members and defeated 3 of Wallace's Pokémon (23/26 League Pokémon defeated!). SAGE Lv 91 (272/272 HP, all PP restored). Cash: ~¥10,974 (funds 7 Revives -> 8 Revives total in Bag). Ready to buy Revives and launch Attempt 19!
+- Status: Attempt 19 Active! SAGE Lv 91 (272/272 HP, all PP restored). 7 Revives in Bag. Cash: ¥1,974. Advancing through Gate (9, 1) to Room 1 Sidney!
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 272/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -19,17 +19,17 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x8 (7 purchased for Attempt 19, 1 carried over)
+- Revive x7 (6 purchased for Attempt 19, 1 carried over)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥474 (¥10,500 spent on 7 Revives for Attempt 19)
+- Money: ¥1,974 (¥9,000 spent on 6 Revives for Attempt 19)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
 1. [x] Scale Ever Grande City waterfall using HM07 Waterfall!
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-4. [ ] Challenge the Elite Four (Attempt 19 Preparing):
+4. [ ] Challenge the Elite Four (Attempt 19 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27439, Attempt 18)!
