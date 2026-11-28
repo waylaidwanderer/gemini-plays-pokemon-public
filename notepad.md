@@ -6,15 +6,31 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Cleared **Webbed Woods** and **East Route 1**; exploring **Route 2** and its **Secret Webbed Woods Sub-Map** (`(35, 13) -> (10, 45)`) with 5 party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6, **Demeter** `Kernut` Lv5, **Electra** `Joltik` Lv3) en route to **Catsear City** (Gym Leader: **Bastion**).
+- **Progression:** Arrived in **Catsear City** (`(18, 0)`) with 5 party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6 [Silver Powder], **Demeter** `Kernut` Lv5, **Electra** `Joltik` Lv3); locating the Pokémon Center and preparing for Gym Leader **Bastion**.
 - **Badges:** 0
 
 ## Notepad Index
 - [Mechanics Overview](Mechanics/Overview.md) — Verified game settings, Athanto survival/attrition & economy rules, Naming Screen grid, dialogue controls.
 - [Party Roster](Party.md) — Active team types, custom natures, abilities, movesets, and matchup notes.
 - [Home Town (Chamomile Town)](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, NPC gifts.
-- [Routes 1 & 2 / Webbed Woods](Locations/Route_1_2_Webbed_Woods.md) — Route layout, wild encounters, trainers, items.
+- [Routes 1 & 2 / Webbed Woods](Locations/Route_1_2_Webbed_Woods.md) — Route layout, wild encounters, trainers, items, Secret Webbed Woods Sub-Map.
+- [Catsear City](Locations/Catsear_City.md) — First Gym city layout, Post Office, Pokémon Center/Mart, NPCs, Catsear Gym.
 - `Scratchpad/` — Active routing, battle prep, and temporary testing notes.
+
+
+<hr>
+
+<h1><code>Locations/Catsear_City</code></h1>
+
+# Catsear City
+
+## Connections
+- **North Connection (`(17, 0)-(20, 0)`):** Seamless transition back to **Route 2** (`(13, 44)`).
+
+## Key Landmarks & Buildings (Exploration In Progress)
+- **Northern Boulevard (`x=17..20`):**
+  - Overworld Pokémon / object at `(16, 4)` beside small pond `(12, 3)-(14, 4)`.
+  - **Post Office (`POST` sign):** Blue-roofed building on east side (`x=22..25, y=2..6`).
 
 
 <hr>
