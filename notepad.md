@@ -379,10 +379,11 @@
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
 - **Held Item:** `Oran Berry` (equipped Turn 404)
 - **Stats (Lv7, Turn 437):** HP 24/24 | Atk 11 | Def 12 | SpA 13 | SpD 13 | Spe 14
-- **Current Moves:**
+- **Current Moves (FULL 4 SLOTS):**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
   - `ThunderShock` (Electric, Special, learned Lv5 on Turn 315!)
+  - `Fury Cutter` (Bug, Physical, learned Lv7 on Turn 438!)
 
 ## 6. Athena — Leonte (♀) — (#015, Original Fakemon)
 - **Nickname:** `Athena` (Greek goddess of wisdom & tactical warfare; caught Lv4 on Route 3 outside Catsear Industrial Glassworks on Turn 329–331)
@@ -393,7 +394,7 @@
 - **Nature:** `Uncaring` (`+Def` — Verified Turn 383 Lv5 `+2 Def` gain!)
 - **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
 - **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)
-- **Stats (Lv6, Turn 430):** HP 23/23 | Atk 10 | Def 12 | SpA 13 | SpD 13 | Spe 10
+- **Stats (Lv7, Turn 438):** HP 25/25 | Atk 11 | Def 13 | SpA 14 | SpD 14 | Spe 11
 - **Current Moves:**
   - `Peck` (Flying, Physical, 35 PP — boosted by STAB + `Sharp Beak`)
   - `Sand Attack` (Ground, Status, 15 PP — lowers foe Accuracy)
