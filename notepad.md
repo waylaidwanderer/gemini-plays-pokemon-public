@@ -19,7 +19,7 @@
 - **Selene** (Sleepillar ♀, #025, Lv. 7, Bug/Psychic) — Nature: Zesty | Ability: Early Bird | Stats: HP 22, Atk 9, Def 10, SpA 12, SpD 11, Spe 12 | Moves: Struggle Bug, String Shot, Rest.
 - **Orpheus** (Leonte ♂, #015, Lv. 6, Flying/Ground) — Nature: Conniving | Ability: Quick Feet | Stats: HP 23, Atk 12, Def 12, SpA 14, SpD 13, Spe 10 | Moves: Peck, Sand Attack, Foresight.
 - **Helios** (Kernut ♂, #012, Lv. 6, Grass) — Nature: Daunting | Ability: Shell Armor | Stats: HP 20, Atk 7, Def 11, SpA 8, SpD 12, Spe 9 | Moves: Bide, Growth, Absorb, Ingrain.
-- **Electra** (Joltik ♀, #019, Lv. 4, Bug/Electric) — Nature: Conspiratorial | Ability: CompoundEyes | Stats: HP 18, Atk 9, Def 9, SpA 10, SpD 9, Spe 10 | Moves: Absorb, String Shot.
+- **Electra** (Joltik ♀, #019, Lv. 5, Bug/Electric) — Nature: Conspiratorial | Ability: CompoundEyes | Stats: HP 20, Atk 11, Def 10, SpA 11, SpD 10, Spe 11 | Moves: Absorb, String Shot, ThunderShock.
 
 ## Rivals' Starters
 - **Monty:** Marmroot ♂ (Groundhog Pokémon)
