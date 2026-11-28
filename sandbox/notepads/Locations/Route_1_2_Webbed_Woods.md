@@ -11,9 +11,14 @@
 ## Webbed Woods
 - **West Entrance:** `(9, 12)` (returns to Route 1). Starter crate clearing at `(14, 13)`.
 - **Signpost at `(16, 10)`:** `-Webbed Woods- Watch for falling arachnids`
-- **Items Found:**
+- **Items & Trees Found:**
   - `(20, 7)` (via north-west clearing `(15, 8) -> (20, 8)`): **1x Antidote** (collected Turn 104).
-- **Wild Encounters (`(21, 13)+` tall grass):**
-  - **Spinarak** (Lv2 confirmed).
+  - `(33, 22)` (east clearing below pond): **Apricorn Tree** — yielded **1x Blu. Apricorn** (collected Turn 110).
+- **NPCs & Landmarks:**
+  - `(33, 19)`: Unread signpost just above Apricorn clearing.
+  - `(32, 25)`: **Monty** standing facing up below the Apricorn clearing (check HP before speaking in case of rival battle!).
+- **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
+  - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
+  - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).
 
 
