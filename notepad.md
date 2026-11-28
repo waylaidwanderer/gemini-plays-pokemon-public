@@ -16,7 +16,7 @@
 - (None yet)
 
 ## Index of Sub-Notepads
-- (Will add as discoveries are made)
+- `Mechanics/Core.md`: Core game rules, intro pointers, difficulty, EXP scaling, and custom mechanics.
 
 
 <hr>
