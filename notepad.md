@@ -64,7 +64,13 @@
 - **Animations & Audio:** `Battle Anims: On`, `Pokémon Anims: On`, `Bicycle Music: Off`, `Surf Music: Off`, `Dex Units: Imperial`, `Button Mode: Normal`.
 
 ## UI & Controls Verified Mechanics
-- **Safe Dialogue Advance (`B` button, Verified Turn 11):** Pressing `B` with `~1400ms` sleep advances standard dialogue boxes and stops safely without confirming choice prompts or typing letters on naming screens.
+- **Safe Dialogue Advance (`B` button, Verified Turns 11, 32):** Pressing `B` with `~1400ms` sleep advances standard dialogue boxes and stops safely without confirming choice prompts (e.g. Rock-Paper-Scissors, Starter Choice). **Caveat (Turn 32):** If a Naming Screen opens with a pre-filled default name (e.g. `Monty`, `Willow`), trailing `B` presses act as Backspace and erase letters from the default name. Keep `B` batches moderate when approaching potential character/Pokemon naming screens.
+- **`Yes/No` Initial Cursor Position (Verified Turn 27):** Not all `Yes/No` boxes start with the cursor on `Yes` (e.g., the bedroom clock prompt starts on `No`). Always check the cursor arrow visually before confirming.
+- **Original Fakemon Dex (Verified Turn 41):** Pokémon Monomyth features original Fakemon species! Never assume types, stats, abilities, or learnsets—always verify via the in-game Summary screen and battle text.
+  - **Starter Trio (Forest Crate, Turn 41):**
+    - Left Ball: **Marmroot** (Groundhog Pokémon)
+    - Middle Ball: **Crackliss** (Crackling Pokémon)
+    - Right Ball: **Mishimizu** (Rookie Pokémon — blue underwater-panther cub with fish tail)
 - **Naming Screen Grid (Verified Turn 14):**
   - Starts on `(0,0) = 'A'` in UPPERCASE. Typing the 1st character **automatically switches** the keyboard to lowercase (`SELECT` then switches to `Accent`, so do NOT press `SELECT` after letter 1).
   - Contiguous letter coordinates `(row, col)` with NO gap between col 2 and col 3:
