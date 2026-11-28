@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). 4 Revives remaining. Cash: ¥6,048.
+- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Dusclops #1 & #2 DEFEATED! 4 Revives remaining. Cash: ¥6,048.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 72/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (14/30), Aerial Ace (16/20), Facade (20/20), Quick Attack (30/30). Status: OK.
@@ -31,7 +31,7 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 18 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
-    - [ ] Elite Four Member #2 Phoebe (Battling Lead Dusclops Lv 48!)
+    - [ ] Elite Four Member #2 Phoebe (Dusclops #1 & #2 DEFEATED!)
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
