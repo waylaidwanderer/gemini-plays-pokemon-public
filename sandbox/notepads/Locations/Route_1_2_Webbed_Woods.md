@@ -19,7 +19,7 @@
   - `(47, 24)` (south-east dead-end grass pocket via `(38, 21) -> (47, 21) -> (47, 23)`, camouflaged inside tall grass): **1x Potion** (collected Turn 132).
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
-  - `(32, 25)`: **Youngster Jimmy** (blonde sprite facing up; 2 Pokémon: `Kernut` ♂ Lv3 + 2nd Pokémon — battled Turn 134).
+  - `(32, 25)`: **Youngster Jimmy** (blonde sprite facing up; 2 Pokémon: **`Kernut` ♂ Lv3** (`Grass` Fakemon, knows **`Bide`**!) + **`Shope` ♀ Lv4** (fast physical Jackalope Fakemon, knows `Tackle`, hits `Def 7` for `7–8` dmg, `11` on `1.5x` crit)). **Rematch plan:** Lead **`Psyche`** (`Struggle Bug` 2HKOs `Kernut` before `Bide` unleashes!) and keep **`Seraph` Lv7** healthy in reserve to sweep `Shope`!
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
   - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).

@@ -88,7 +88,7 @@
   - `(47, 24)` (south-east dead-end grass pocket via `(38, 21) -> (47, 21) -> (47, 23)`, camouflaged inside tall grass): **1x Potion** (collected Turn 132).
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
-  - `(32, 25)`: **Youngster Jimmy** (blonde sprite facing up; 2 Pokémon: `Kernut` ♂ Lv3 + 2nd Pokémon — battled Turn 134).
+  - `(32, 25)`: **Youngster Jimmy** (blonde sprite facing up; 2 Pokémon: **`Kernut` ♂ Lv3** (`Grass` Fakemon, knows **`Bide`**!) + **`Shope` ♀ Lv4** (fast physical Jackalope Fakemon, knows `Tackle`, hits `Def 7` for `7–8` dmg, `11` on `1.5x` crit)). **Rematch plan:** Lead **`Psyche`** (`Struggle Bug` 2HKOs `Kernut` before `Bide` unleashes!) and keep **`Seraph` Lv7** healthy in reserve to sweep `Shope`!
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
   - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).
@@ -119,7 +119,7 @@
 - **Item Ball / Apricorn Pickup Boxes (Verified Turn 125):** Overworld item pickups display **2** sequential text boxes (`"<Player> found one <Item>!"` with fanfare `~1800ms`, then `"<Player> put away the <Item> in the <Pocket>."`). Always press `B` **twice** (`["A", "sleep 2000", "B", "sleep 1200", "B", "sleep 800"]`) before attempting overworld movement.
 - **Forest Tree Collision Footprint (Verified Turn 123):** Large forest trees occupy a 2-row collision base; always route along clear grass/dirt channels in `latest_grid.png` rather than stepping into tree-trunk shadow tiles.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
-- **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
+- **Economy & Blackout Rule (Verified Turns 6–7, 146):** **Blacking out in the wild/trainer battle deducts 50% of current cash** (`¥150 -> lost ¥75` on Turn 146) and respawns you with full HP/PP (outside Iris's House `(40, 22)` in Chamomile Town). Money already spent on items is 100% safe—always spend spare cash before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
   - **Built-in Party-Wide EXP Share & Capture EXP (Verified Turn 107):** Every battle and wild capture awards EXP to the entire party automatically (`"Everybody got their fair share!"`), including catching wild Pokémon!
 - **Bag Pocket Memory (Verified Turn 105):** Both the Overworld Bag and Battle Bag remember the last viewed pocket across opens. Pocket order (8 pockets): `1:Items, 2:Medicine, 3:PokéBalls, 4:Battle Items, 5:TMs & HMs, 6:Berries, 7:?, 8:Key Items`.
