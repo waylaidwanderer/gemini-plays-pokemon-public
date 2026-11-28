@@ -12,7 +12,8 @@
 - **Pause Menu Cursor Memory & 2-Column Layout (Verified Turns 93, 116–118):**
   - `PAUSE` remembers the last selected icon rather than resetting to top-left `(0,0)`. Always check `PAUSE` visually before pressing `A`.
   - Left column (3 items): `(0,0) PokéDex`, `(1,0) Pokémon`, `(2,0) Bag`.
-  - Right column (4 items): `(0,1) <PlayerName>` (Trainer Card), `(1,1) Save`, `(2,1) Options`, `(3,1) Exit`. Pressing `Left` from `(0,1) <PlayerName>` lands on `(0,0) PokéDex`.
+  - Right column (4 items): `(0,1) <PlayerName>` (Trainer Card), `(1,1) Save`, `(2,1) Options`, `(3,1) Exit`. Pressing `Left` from `(0,1) <PlayerName>` lands on `(0,0) PokéDex`; pressing `Down` on `(2,0) Bag` wraps directly to `(0,1) <PlayerName>`!
+- **Verified Wild Flee (`Run`) Timing Macro (Turns 182–184):** From overworld encounter trigger (`npos == pos`), use `["sleep 3500", "B", "sleep 2800", "Down", "Right", "sleep 250", "A", "sleep 1800", "B", "sleep 2200"]` (`"sleep 2200"` after the 1st `B` was too short for the send-out animation; `"sleep 2800"` reliably opens `What will <X> do?` before `Down, Right`).
   - Inside **Pokémon Summary**, `Left`/`Right` flips across 5 Summary pages (`1: Info`, `2: Stats & Ability`, `3: Battle Moves`, `4: Contest Moves`, `5: Ribbons`) and `Up`/`Down` switches between party Pokémon on the same page. Exiting from Summary all the way back to the overworld requires **4** `B` presses (`Summary -> Sub-menu -> Party -> PAUSE -> Overworld`), and exiting Overworld `Bag` after healing also requires **4** `B` presses (`Heal text -> Party target -> Bag -> PAUSE -> Overworld`).
 - **Map Transition Detection & `latest_grid.png` Availability (Verified Turns 154–155, 167):**
   - Detect east/south warps by checking for a coordinate drop (`npos["x"] < pos["x"]`), never `pos["x"] == 9` alone.
