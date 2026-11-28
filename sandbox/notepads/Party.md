@@ -34,17 +34,18 @@
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
 - **Held Item:** `Silver Powder` (+20% Bug-type move power; equipped Turn 249)
-- **Stats (Lv6, Turn 208):** HP 21/21 | Atk 7 | Def 10 | SpA 12 | SpD 9 | Spe 10
+- **Stats (Lv7, Turn 313):** HP 23/23 | Atk 8 | Def 11 | SpA 14 | SpD 10 | Spe 11
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
+  - `Rest` (Psychic, Status, learned Lv7 on Turn 313 — full HP heal bypassing the 4-item battle limit!)
 
 ## 4. Demeter — Kernut (♀) — (#012, Original Fakemon)
 - **Nickname:** `Demeter` (Greek goddess of grain, seeds & harvest; caught Lv3 on East Route 1 on Turn 196–198)
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (`+Def, -Atk` — Verified Turn 296 Lv7 `+2 Def` gain!)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv7, Turn 304):** HP 22/22 | Atk 7 | Def 13 | SpA 9 | SpD 12 | Spe 9
+- **Stats (Lv8, Turn 313):** HP 23/23 | Atk 7 | Def 14 | SpA 10 | SpD 13 | Spe 10
 - **Current Moves (FULL 4 SLOTS):**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
