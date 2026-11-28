@@ -33,7 +33,8 @@
     - Row 3: `(3,0)t (3,1)u (3,2)v (3,3)w (3,4)x (3,5)y (3,6)z`
   - Pressing `Start` jumps cursor directly to `OK`, and `A` opens an **in-screen confirmation prompt** (`"Are you sure you want the name <X>? > Yes / No"` — Verified Turn 58). You MUST press a **second `A`** (`["Start", "sleep 400", "A", "sleep 1200", "A", "sleep 1500"]`) to confirm `Yes` and exit the Naming Screen before sending any `B` dialogue-advance inputs!
   - **Safe Pathing Rule on Naming Grid:** Rows 0–1 only have letters in cols `0..5` whereas Rows 2–3 have letters in cols `0..6`. Always move **Left BEFORE Up/Down**, and **Up/Down BEFORE Right**, so the cursor never passes through unmapped cell `(0,6)` or `(1,6)`.
-- **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17):** Screens with continuously pulsing cursors (such as the Naming Screen) generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png` when `filmstrip_1.png` contains only `[THINKING]` frames.
+- **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17, 51):** Screens with continuously pulsing cursors, scrolling Pokémon Center news tickers, or sleeping `Zzz` animations generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`+. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png`+ directly when background animations are active.
+- **Battle Round Timing (Verified Turns 48–50):** With `Battle Anims: On`, a 4-Pokémon Double/Multi-Battle round takes ~10–15s (especially with stat-drop animations like Constrict/String Shot). Interleaving `["B", "sleep 2500"] * 5` after selecting our move/target cleanly resolves full rounds and EXP messages.
 
 
 

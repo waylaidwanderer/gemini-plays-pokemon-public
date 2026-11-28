@@ -4,7 +4,8 @@
 - **Pokémon Center:** Door at `(24, 21)` (player exits to `(24, 22)`).
   - Nurse Joy at `(7, 10)`, PC at `(10, 11)`, **Name Rater** at `(1, 14)` (talk from `(3, 14)`), **Move Relearner** at `(1, 15)` (talk from `(3, 15)`), 2F stairs at `(1, 10)`, exit mat at `(7, 15)`.
 - **Iris's House:** Door at `(40, 21)` (player exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
-- **East Connection:** Leads to **Webbed Woods** clearing (where we obtained starter **Crackliss**, Willow took **Marmroot**, Monty took **Mishimizu**; Monty mentioned **Catsear City** has the Gym Leader).
+- **East Connection:** Leads to **Webbed Woods** clearing (wild **Spinarak** Lv2 confirmed with color/pattern variants; starter crate gave Iris **Crackliss** (`Seraph`, Fire/Poison), Willow **Marmroot** (Grass), Monty **Mishimizu** (Water, knows `Growl` & `Assist`)).
+- **Lore / Quest Lead (Turn 61–62):** Starter Poké Balls have **Edelweiss Labs** stamped on the bottom; PC Network regulations prohibit shipping Poké Balls, and Monty mentioned **Catsear City** has a Gym Leader.
 
 ## Story Context & Key NPCs (Verified Turns 10–20)
 - **Iris (Player):** Birthday is right around the corner; Big Bro is registering Iris's ID application with the Post Office while out at the Mart.

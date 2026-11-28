@@ -26,7 +26,8 @@
 - **Pokémon Center:** Door at `(24, 21)` (player exits to `(24, 22)`).
   - Nurse Joy at `(7, 10)`, PC at `(10, 11)`, **Name Rater** at `(1, 14)` (talk from `(3, 14)`), **Move Relearner** at `(1, 15)` (talk from `(3, 15)`), 2F stairs at `(1, 10)`, exit mat at `(7, 15)`.
 - **Iris's House:** Door at `(40, 21)` (player exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
-- **East Connection:** Leads to **Webbed Woods** clearing (where we obtained starter **Crackliss**, Willow took **Marmroot**, Monty took **Mishimizu**; Monty mentioned **Catsear City** has the Gym Leader).
+- **East Connection:** Leads to **Webbed Woods** clearing (wild **Spinarak** Lv2 confirmed with color/pattern variants; starter crate gave Iris **Crackliss** (`Seraph`, Fire/Poison), Willow **Marmroot** (Grass), Monty **Mishimizu** (Water, knows `Growl` & `Assist`)).
+- **Lore / Quest Lead (Turn 61–62):** Starter Poké Balls have **Edelweiss Labs** stamped on the bottom; PC Network regulations prohibit shipping Poké Balls, and Monty mentioned **Catsear City** has a Gym Leader.
 
 ## Story Context & Key NPCs (Verified Turns 10–20)
 - **Iris (Player):** Birthday is right around the corner; Big Bro is registering Iris's ID application with the Post Office while out at the Mart.
@@ -88,7 +89,8 @@
     - Row 3: `(3,0)t (3,1)u (3,2)v (3,3)w (3,4)x (3,5)y (3,6)z`
   - Pressing `Start` jumps cursor directly to `OK`, and `A` opens an **in-screen confirmation prompt** (`"Are you sure you want the name <X>? > Yes / No"` — Verified Turn 58). You MUST press a **second `A`** (`["Start", "sleep 400", "A", "sleep 1200", "A", "sleep 1500"]`) to confirm `Yes` and exit the Naming Screen before sending any `B` dialogue-advance inputs!
   - **Safe Pathing Rule on Naming Grid:** Rows 0–1 only have letters in cols `0..5` whereas Rows 2–3 have letters in cols `0..6`. Always move **Left BEFORE Up/Down**, and **Up/Down BEFORE Right**, so the cursor never passes through unmapped cell `(0,6)` or `(1,6)`.
-- **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17):** Screens with continuously pulsing cursors (such as the Naming Screen) generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png` when `filmstrip_1.png` contains only `[THINKING]` frames.
+- **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17, 51):** Screens with continuously pulsing cursors, scrolling Pokémon Center news tickers, or sleeping `Zzz` animations generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`+. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png`+ directly when background animations are active.
+- **Battle Round Timing (Verified Turns 48–50):** With `Battle Anims: On`, a 4-Pokémon Double/Multi-Battle round takes ~10–15s (especially with stat-drop animations like Constrict/String Shot). Interleaving `["B", "sleep 2500"] * 5` after selecting our move/target cleanly resolves full rounds and EXP messages.
 
 
 
