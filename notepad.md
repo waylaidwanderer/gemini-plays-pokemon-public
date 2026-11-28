@@ -107,6 +107,8 @@
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
+  - **Built-in Party-Wide EXP Share & Capture EXP (Verified Turn 107):** Every battle and wild capture awards EXP to the entire party automatically (`"Everybody got their fair share!"`), including catching wild Pokémon!
+- **Bag Pocket Memory (Verified Turn 105):** Both the Overworld Bag and Battle Bag remember the last viewed pocket across opens. Pocket order (8 pockets): `1:Items, 2:Medicine, 3:PokéBalls, 4:Battle Items, 5:TMs & HMs, 6:Berries, 7:?, 8:Key Items`.
 - **Individual Visual Uniqueness:** Every individual Pokémon has unique color and pattern variations (controlled by `Color Variants` in Options).
 
 ## Verified Game Settings (Turn 4, Options Menu)
@@ -160,6 +162,12 @@
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
   - `Wrap` (Normal, 20 PP)
+
+## 2. Anansi — Spinarak (♂) — (#017)
+- **Nickname:** `Anansi` (West African spider trickster god of stories; caught Lv2 in Webbed Woods on Turn 106–108)
+- **Type:** `Bug / Poison` (Verified Turn 107 PokéDex)
+- **Current Moves (from wild AI):** `Constrict`, `String Shot` (inspect full Summary next time Party is opened).
+
 
 
 <hr>

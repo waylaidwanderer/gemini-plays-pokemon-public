@@ -14,3 +14,9 @@
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
   - `Wrap` (Normal, 20 PP)
+
+## 2. Anansi — Spinarak (♂) — (#017)
+- **Nickname:** `Anansi` (West African spider trickster god of stories; caught Lv2 in Webbed Woods on Turn 106–108)
+- **Type:** `Bug / Poison` (Verified Turn 107 PokéDex)
+- **Current Moves (from wild AI):** `Constrict`, `String Shot` (inspect full Summary next time Party is opened).
+
