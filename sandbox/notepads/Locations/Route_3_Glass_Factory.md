@@ -19,7 +19,7 @@
     - `(38, 11)-(39, 11)`: Stairs connecting down from northern Route 3 path.
 - **Wild Encounters Verified:**
   - **Venipede** (`Bug / Poison`, Lv4 — encountered at `(23, 15)` on Turn 320).
-  - **Leonte** (`Flying` Fakemon, Lv4 — encountered at `(22, 16)` on Turn 323).
+  - **Leonte** (`#015`, **Thrasher Pokémon**, **`Flying / Ground`**!! Lv4 — caught **`Athena`** at `(36, 25)` on Turn 329–331!).
 - **Rival Battle — PKMN Trainer Monty at `(5, 18)` (DEFEATED Turn 297):**
   - Ambush triggers automatically when stepping past `x=5` on the western entrance road.
   - **Team (1 Pokémon):** `Mishimizu` ♂ Lv6 (`Water`, knows `Scratch`) — defeated cleanly via `Psyche` (`Struggle Bug` x2) -> `Demeter` (`Absorb` KO; `Demeter` reached Lv7 & learned `Ingrain`, `Electra` reached Lv4).
