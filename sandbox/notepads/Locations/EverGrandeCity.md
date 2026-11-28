@@ -82,7 +82,25 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥17,296 -> halved to ¥8,648 upon whiteout (funds 5 Revives at lobby Mart!).
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
-## Elite Four Attempt 18 (Active)
+## Elite Four Attempt 18 (Archived Turn 27532)
+- Status: Concluded via whiteout at Champion Wallace (Defeated 23 of 26 League Pokémon!).
+- Milestone Progress:
+  - Sidney DEFEATED (5-0 clean sweep, Turn 27352)! Earned ¥4,900.
+  - Phoebe DEFEATED (Turn 27396)! Earned ¥5,100.
+  - Glacia DEFEATED (Turn 27439)! Earned ¥5,300.
+  - Drake DEFEATED (Turn 27488)! Earned ¥5,500. ALL 4 ELITE FOUR MEMBERS CONQUERED!
+  - Wallace: Wailord Lv 57 (DEFEATED!), Milotic Ace Lv 58 (DEFEATED!), Tentacruel Lv 55 (DEFEATED!), Ludicolo Lv 56 (dropped to ~65% HP).
+- Economy: Peaked at ¥21,948 -> halved to ¥10,974 upon whiteout (funds 7 Revives at lobby Mart!). 1 Revive intact in Bag -> 8 Revives for Attempt 19!
+- SAGE (Level 91 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 272, Atk 203, Def 147, SpA 221, SpD 198, Spe 267. ALL PP fully restored: Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30!
+
+## Elite Four Attempt 19 (Preparing)
+- Immediate Plan:
+  1. [ ] Re-enter Pokémon League Lobby.
+  2. [ ] Purchase 7 Revives for ¥10,500 at Mart counter (16, 4) -> 8 Revives in Bag!
+  3. [ ] Enter Gate (9, 1) to begin Attempt 19!
+  4. [ ] Defeat Sidney, Phoebe, Glacia, Drake!
+  5. [ ] Defeat Champion Wallace and enter the Hall of Fame!
+
 - Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! Sidney, Phoebe, Glacia, Drake CLEARED! Advancing to Champion Wallace. Cash: ¥21,948.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).

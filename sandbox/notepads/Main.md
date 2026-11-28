@@ -3,14 +3,14 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! IN BATTLE WITH CHAMPION WALLACE! Wailord DEFEATED! Battling Ace Milotic Lv 58 (~45% HP). SAGE Lv 91 (102/272 HP, 267 Spe). 1 Revive remaining. Cash: ¥21,948.
+- Status: Preparing for Attempt 19! Attempt 18 conquered all 4 Elite Four members and defeated 3 of Wallace's Pokémon (23/26 League Pokémon defeated!). SAGE Lv 91 (272/272 HP, all PP restored). Cash: ~¥10,974 (funds 7 Revives -> 8 Revives total in Bag). Ready to buy Revives and launch Attempt 19!
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 17/272 (Overgrow ACTIVE!). Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (1/30), Aerial Ace (0/20), Facade (0/20), Quick Attack (28/30). Status: OK.
-2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
-3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
-5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 0/42. Status: FNT (Sacrificed to Flygon).
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 272/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
+3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
 ## Bag Highlights
@@ -22,7 +22,7 @@
 - Revive x1 (4 consumed for Sacrificial Revives on SAGE, 1 remaining!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥21,948 (¥4,900 Sidney, ¥5,100 Phoebe, ¥5,300 Glacia, ¥5,500 Drake)
+- Money: ~¥10,974 (halved from ¥21,948 upon whiteout, funds 7 Revives at lobby Mart!)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
