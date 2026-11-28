@@ -188,18 +188,19 @@
   - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (Custom Monomyth nature!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Stats (Lv7, Turn 122):** HP 19/24 | Atk 12 | Def 13 | SpA 14 | SpD 13 | Spe 16
+- **Stats (Lv8, Turn 180):** HP 25/26 | Atk 13 | Def 14 | SpA 15 | SpD 15 | Spe 18
 - **Current Moves:**
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
   - `Wrap` (Normal, 20 PP)
+  - `Ember` (Fire, Special, learned Lv8 on Turn 180!)
 
 ## 2. Anansi — Spinarak (♂) — (#017)
 - **Nickname:** `Anansi` (West African spider trickster god of stories; caught Lv2 in Webbed Woods on Turn 106–108)
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
 - **Nature:** `Furtive` (Custom Monomyth nature)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
-- **Stats (Lv4, Turn 164):** HP 17/17 | Atk 10 | Def 8 | SpA 9 | SpD 9 | Spe 8
+- **Stats (Lv5, Turn 179):** HP 19/19 (reached Lv5 on Turn 175)
 - **Current Moves:**
   - `Constrict` (Normal, 35 PP)
   - `String Shot` (Bug, 40 PP)
