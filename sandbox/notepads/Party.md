@@ -12,7 +12,7 @@
 - **Held Item:** `Oran Berry` (auto-restores 10 HP in battle; equipped Turn 403)
 - **Stats (Lv10, Turn 358):** HP 31/31 | Atk 15 | Def 17 | SpA 18 | SpD 17 | Spe 21
 - **Current Moves (FULL 4 SLOTS):**
-  - `Constrict` (Normal, 35 PP — lowers foe Speed)
+  - `Constrict` (Normal, Physical, **40 BP** [buffed in Monomyth, Verified Turn 427!], 35 PP — 10% chance to lower foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
   - `Wrap` (Normal, 20 PP)
   - `Ember` (Fire, Special, 25 PP — learned Lv8 on Turn 180!)
