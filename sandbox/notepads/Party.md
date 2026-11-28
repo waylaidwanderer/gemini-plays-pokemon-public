@@ -31,7 +31,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (Custom Monomyth nature)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
-- **Stats (Lv2, Turn 118):** HP 9/13 | Atk 5 | Def 6 | SpA 7 | SpD 6 | Spe 6 (EXP: 8, Next Lv: 19)
+- **Stats (Lv3, Turn 138):** HP 11/15 | Atk 6 | Def 7 | SpA 8 | SpD 7 | Spe 7
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
