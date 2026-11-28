@@ -22,7 +22,7 @@
 - Revive x1 (4 consumed for Sacrificial Revives on SAGE, 1 remaining!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥16,448 (¥4,900 Sidney, ¥5,100 Phoebe, ¥5,300 Glacia)
+- Money: ¥21,948 (¥4,900 Sidney, ¥5,100 Phoebe, ¥5,300 Glacia, ¥5,500 Drake)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

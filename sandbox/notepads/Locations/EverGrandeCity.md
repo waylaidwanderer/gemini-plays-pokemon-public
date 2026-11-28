@@ -90,6 +90,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
   4. [x] Phoebe DEFEATED (+¥5,100, Cash: ¥11,148).
   5. [x] Glacia DEFEATED (+¥5,300, Cash: ¥16,448).
-  6. Defeat Drake in Room 4 (Shelgon & Flygon DEFEATED, battling Altaria Lv 54, +¥5,500).
+  6. [x] Elite Four Member #4 Drake DEFEATED (+¥5,500 prize money, Cash: ¥21,948)!
+  7. [ ] Defeat Champion Wallace (Active! Lead Wailord at ~30% HP, SAGE revived at 136 HP).
   7. Defeat Champion Wallace!
   8. Enter the Hall of Fame!
