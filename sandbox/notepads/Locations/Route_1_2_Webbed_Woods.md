@@ -44,7 +44,7 @@
   - **Apricorn Tree** at `(15, 11)` — yielded **1x Blk. Apricorn** (Turn 209).
 - **Lower Fork (via stairs `(17, 15)-(18, 15)`):**
   - **Youngster Sonny** at `(16, 22)` — **DEFEATED Turn 212** (`Leonte` ♀ Lv5 — confirmed `Flying` type, knows `Peck`!).
-  - Western grass `(11, 18)..(13, 25)` contains Apricorn Tree `(10, 19)` and camouflaged item ball `(10, 21)`.
+  - Western grass `(11, 18)..(14, 25)` contains **1x Repel** hidden in round bush `(10, 19)` (Turn 212) and **1x Burn Heal** item ball at `(10, 21)` (Turn 213). (Tip: standalone round green bushes can hold hidden items!)
   - Staircase ascending east cliff at `(22, 17)-(22, 18)`.
 
 

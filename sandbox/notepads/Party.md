@@ -9,12 +9,12 @@
   - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (Custom Monomyth nature!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Stats (Lv8, Turn 180):** HP 25/26 | Atk 13 | Def 14 | SpA 15 | SpD 15 | Spe 18
-- **Current Moves:**
+- **Stats (Lv9, Turn 212):** HP 17/28 | Atk 14 | Def 16 | SpA 16 | SpD 16 | Spe 19
+- **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
   - `Wrap` (Normal, 20 PP)
-  - `Ember` (Fire, Special, learned Lv8 on Turn 180!)
+  - `Ember` (Fire, Special, 25 PP — learned Lv8 on Turn 180!)
 
 ## 2. Anansi — Spinarak (♂) — (#017)
 - **Nickname:** `Anansi` (West African spider trickster god of stories; caught Lv2 in Webbed Woods on Turn 106–108)
@@ -41,9 +41,9 @@
 ## 4. Demeter — Kernut (♀) — (#012, Original Fakemon)
 - **Nickname:** `Demeter` (Greek goddess of grain, seeds & harvest; caught Lv3 on East Route 1 on Turn 196–198)
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
-- **Nature:** `Narrow-minded` (Custom Monomyth nature)
+- **Nature:** `Narrow-minded` (`-Atk` — Verified Turn 212 Lv5 stat gains)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv4, Turn 208):** HP 16/16 | Atk 6 | Def 9 | SpA 7 | SpD 9 | Spe 7
+- **Stats (Lv5, Turn 212):** HP 18/18 | Atk 6 | Def 10 | SpA 8 | SpD 10 | Spe 8
 - **Current Moves:**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
