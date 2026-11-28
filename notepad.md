@@ -36,7 +36,9 @@
   - **Catsear Pokémon Center & 2F Mart:** Red-roofed building at `x=27..31, y=13..17` (door at `(29, 17)`, via eastern stairs `(32, 11)-(33, 11)`).
     - **1F NPC `(11, 13)`:** Mentions his buddy on **Route 7** loans out a **Fishing Rod** (Turn 261).
     - **2F Shopper `(1, 6)` & News Ticker:** Warn that weird guys are hanging around the **Abandoned Glass Factory** **east of Catsear City** (Turn 267).
-  - **Grey Building with Natu on Roof (`x=17..23, y=13..16`):** Directly west of the Pokémon Center.
+  - **Catsear Gym (`x=17..23, y=13..17`, door `(20, 17)`, `Natu` on roof, sign `(24, 17)`):**
+    - Stepping onto `(20, 18)` in front of the door automatically triggers `"The Gym's doors are locked..."` and pushes Iris south to `(20, 19)` (Verified Turn 272 — route along `y=19`, not `y=18`, when passing the Gym!).
+  - **Trash Can at `(18, 21)`:** Empty (`"Eh, just some trash."`, Turn 272).
 
 
 <hr>
