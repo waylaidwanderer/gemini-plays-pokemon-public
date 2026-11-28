@@ -45,6 +45,18 @@
 - **Lower Fork (via stairs `(17, 15)-(18, 15)`):**
   - **Youngster Sonny** at `(16, 22)` — **DEFEATED Turn 212** (`Leonte` ♀ Lv5 — confirmed `Flying` type, knows `Peck`!).
   - Western grass `(11, 18)..(14, 25)` contains **1x Repel** hidden in round bush `(10, 19)` (Turn 212) and **1x Burn Heal** item ball at `(10, 21)` (Turn 213). (Tip: standalone round green bushes can hold hidden items!)
-  - Staircase ascending east cliff at `(22, 17)-(22, 18)`.
+  - Staircase ascending east cliff at `(22, 17)-(22, 18)`:
+    - `(29, 16)`: **Apricorn Tree** — yielded **1x Pnk. Apricorn** (Turn 215).
+    - `(35, 13)`: Hidden forest entrance warp into **Secret Webbed Woods Sub-Map** at `(10, 45)` (Turn 216).
+
+## Secret Webbed Woods Sub-Map (Entered via Route 2 `(35, 13)`)
+- **Entrance Warp `(10, 45)`:** Returns to Route 2 eastern cliff `(35, 13)`.
+- **Paved Fork at `(20, 35)`:** Path branches **east** (`(26, 36) -> (31, 30)`) and **west** (`x <= 19, y=35..36`, pending exploration).
+- **Items & Trees Verified:**
+  - `(32, 30)`: **Apricorn Tree** — yielded **1x Ylw. Apricorn** (Turn 219).
+  - `(23, 31)`: **1x Awakening** item ball (Turn 220).
+  - `(32, 21)`: **1x Silver Powder** (blue-capped Battle Item ball camouflaged in tall grass; Turn 223).
+- **Wild Encounters (`(30, 20)..(33, 25)` tall grass):**
+  - **Joltik** (`Bug / Electric`, Lv3 — encountered at `(31, 22)` on Turn 223).
 
 
