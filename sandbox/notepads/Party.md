@@ -33,6 +33,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
+- **Held Item:** `Silver Powder` (+20% Bug-type move power; equipped Turn 249)
 - **Stats (Lv6, Turn 208):** HP 21/21 | Atk 7 | Def 10 | SpA 12 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)

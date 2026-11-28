@@ -158,7 +158,8 @@
   - Left column (3 items): `(0,0) PokéDex`, `(1,0) Pokémon`, `(2,0) Bag`.
   - Right column (4 items): `(0,1) <PlayerName>` (Trainer Card), `(1,1) Save`, `(2,1) Options`, `(3,1) Exit`. Pressing `Left` from `(0,1) <PlayerName>` lands on `(0,0) PokéDex`; pressing `Down` on `(2,0) Bag` wraps directly to `(0,1) <PlayerName>`!
 - **Verified Wild Flee (`Run`) Timing Macro (Turns 182–184):** From overworld encounter trigger (`npos == pos`), use `["sleep 3500", "B", "sleep 2800", "Down", "Right", "sleep 250", "A", "sleep 1800", "B", "sleep 2200"]` (`"sleep 2200"` after the 1st `B` was too short for the send-out animation; `"sleep 2800"` reliably opens `What will <X> do?` before `Down, Right`).
-  - Inside **Pokémon Summary**, `Left`/`Right` flips across 5 Summary pages (`1: Info`, `2: Stats & Ability`, `3: Battle Moves`, `4: Contest Moves`, `5: Ribbons`) and `Up`/`Down` switches between party Pokémon on the same page. Exiting from Summary all the way back to the overworld requires **4** `B` presses (`Summary -> Sub-menu -> Party -> PAUSE -> Overworld`), and exiting Overworld `Bag` after healing also requires **4** `B` presses (`Heal text -> Party target -> Bag -> PAUSE -> Overworld`).
+  - Inside **Party Menu** (`Pokémon`), the 6 party plates form a **3x2 grid**: `(0,0) Slot 0 | (0,1) Slot 1`, `(1,0) Slot 2 | (1,1) Slot 3`, `(2,0) Slot 4 | (2,1) Slot 5` (`Down` from Slot 0 highlights Slot 2; `Right` highlights Slot 1 — Verified Turn 248).
+  - Inside **Pokémon Summary**, `Left`/`Right` flips across 5 Summary pages (`1: Info`, `2: Stats & Ability`, `3: Battle Moves`, `4: Contest Moves`, `5: Ribbons`) and `Up`/`Down` switches between party Pokémon linearly (`0 -> 1 -> 2 -> 3 -> 4 -> 5`). Exiting from Summary all the way back to the overworld requires **4** `B` presses (`Summary -> Sub-menu -> Party -> PAUSE -> Overworld`), and exiting Overworld `Bag` after healing also requires **4** `B` presses (`Heal text -> Party target -> Bag -> PAUSE -> Overworld`).
 - **Map Transition Detection & `latest_grid.png` Availability (Verified Turns 154–155, 167):**
   - Detect east/south warps by checking for a coordinate drop (`npos["x"] < pos["x"]`), never `pos["x"] == 9` alone.
   - `screenshots/latest_grid.png` is ONLY written when the settled screen is in the overworld; omit batch-reading `latest_grid.png` whenever a script might stop inside a battle or menu.
@@ -255,6 +256,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
+- **Held Item:** `Silver Powder` (+20% Bug-type move power; equipped Turn 249)
 - **Stats (Lv6, Turn 208):** HP 21/21 | Atk 7 | Def 10 | SpA 12 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
