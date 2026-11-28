@@ -194,7 +194,7 @@
   - **Southern Pond `(23..25, 22..24)`:** Underwater Wooper visual at `(22, 23)`; **Item Ball at `(25, 26)`** on south bank (blocked from east by cliff along `x=32, y=22..27` — Surf-gated!).
   - **Outside Catsear Industrial Glassworks (`x >= 35`):**
     - `(35, 20)`: **Apricorn Tree** — yielded **1x Grn. Apricorn** (Turn 328).
-    - `(37, 18)`: Camper Trainer facing `Right` *(unbeaten — good EXP source)*.
+    - `(37, 18)`: **Bug Catcher Jamie** — **DEFEATED Turn 382** (`Sleepillar` ♂ Lv5 + `Venipede` ♂ Lv6 — swept cleanly with zero damage by `Seraph`'s `Ember`).
     - `(38, 11)-(39, 11)`: Stairs connecting down from northern Route 3 path (`(18..38, 7..11)` unexplored stretch leading west to unbeaten Female Trainer at `(16, 7)`).
     - `(38, 26)-(39, 26)`: Factory sign beside twisted sculpture `(38..39, 24)` (`Catsear Industrial Glassworks`, Verified Turn 335).
     - **`(41, 26)`:** Front entrance door into **Catsear Industrial Glassworks**!
