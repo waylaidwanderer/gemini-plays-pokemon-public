@@ -424,17 +424,16 @@
 1. **Boomboom — Lv9** (Genderless, `100%` HP, on bench)
    - Hard-switched out on Round 1 vs `Seraph` Lv11 (`Fire / Poison`).
 2. **Numel (♂) — Lv12** (`Fire / Ground`, `~88%` HP, **ACTIVE**)
-   - **Stat Stages:** Accuracy `-1` (`75%` hit rate, via `Athena`'s `Sand Attack` on Round 3)
+   - **Stat Stages:** Accuracy **`-2`** (`60%` hit rate / **`40%` miss chance**! Via `Athena`'s `Sand Attack`s on Rounds 3 & 10)
    - **Observed Moves & Remaining PP:**
      - `Magnitude` (Ground, Physical — `27 / 30` PP; used Rounds 2 & 5 into `Athena` for `0` dmg, Round 8 `Magnitude 8` KO'd `Electra`)
-     - `Incinerate` (Fire, Special, destroys Berries — `12 / 15` PP; dealt `20` dmg to `Athena` on Round 3, `10` crit / `7` normal dmg to `Seraph` on Rounds 4 & 7)
-     - `Tackle` (Normal, Physical — `34 / 35` PP; dealt `8` dmg to `Athena` on Round 6 because AI saw `8 >= 5` pre-Potion HP!)
-   - **Speed Check:** Faster than `Athena` (`11` Spe); slower than `Seraph` (`23` Spe).
-   - **Next Tactical Sequence:** Send `Demeter` on free switch -> use `Potion` #2 on benched `Athena` (`17 -> 25/25` HP) so `Athena` enters at full `25/25` HP to tank `Incinerate` and land `Sand Attack` #2 (`-2 Accuracy` = `60%` hit rate), setting up `Psyche` (`String Shot` / `Struggle Bug`) and `Anansi` (`String Shot` / `Infestation`), keeping `Seraph` (`+ Fresh Water`) safe to close out `Numel` and `Boomboom` Lv9!
+     - `Incinerate` (Fire, Special, destroys Berries — `10 / 15` PP; dealt `20` dmg to `Athena` on Rounds 3 & 10, `10` crit / `7` normal dmg to `Seraph` on Rounds 4 & 7, KO'd `Demeter` on Round 9)
+     - `Tackle` (Normal, Physical — `34 / 35` PP; dealt `8` dmg to `Athena` on Round 6)
+   - **Next Tactical Sequence:** `Athena` (`5/25` HP) goes for `Sand Attack` #3 (`40%` dodge -> `-3` Accuracy!); when `Athena` goes down, `Psyche` (`25/25` HP) enters FREE for `String Shot` (`-2 Speed`) + `Struggle Bug` (`-1 SpA`), backed by `Anansi` (`25/25` HP, `String Shot` / `Infestation`) and `Seraph` (`16/33` HP + `1x Fresh Water` reserved!).
 
-## Battle Item Budget (`1 / 4` Used)
-- Used: `1x Potion` on `Athena` (Round 6).
-- Remaining (3 uses left): `1x Potion` (+20 HP), `1x Fresh Water`, `1x Burn Heal`, `4x Antidote`, `2x Paralyze Heal`, `2x Awakening`.
+## Battle Item Budget (`2 / 4` Used)
+- Used: `2x Potion` on `Athena` (Rounds 6 & 9).
+- Remaining (2 uses left): `1x Fresh Water` (reserved for `Seraph`!), `1x Burn Heal`, `4x Antidote`, `2x Paralyze Heal`, `2x Awakening`.
 
 
 <hr>
