@@ -18,10 +18,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 3. [x] Enter Ever Grande City Pokémon Center to register permanent flight checkpoint!
 4. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 17 Active):
-    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27289, Attempt 17)!
+6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 18 Active):
+    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
+    - [ ] Elite Four Member #2 Phoebe (Battling Lead Dusclops Lv 48!)
+    - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

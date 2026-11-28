@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (269/269 HP, 265 Spe). All PP restored. 5 Revives equipped in Bag. Cash: ¥1,148.
+- Status: Attempt 18 Active! SAGE Lv 90 (154/269 HP, 265 Spe). 5 Revives equipped in Bag. Cash: ¥6,048.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 269/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 154/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -29,10 +29,10 @@
 1. [x] Scale Ever Grande City waterfall using HM07 Waterfall!
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
-4. [ ] Challenge the Elite Four (Attempt 17 Active):
-    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27237)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27266, Attempt 17)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27289, Attempt 17)!
+4. [ ] Challenge the Elite Four (Attempt 18 Active):
+    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
+    - [ ] Elite Four Member #2 Phoebe (Battling Lead Dusclops Lv 48!)
+    - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
