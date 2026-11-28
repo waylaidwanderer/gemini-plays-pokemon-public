@@ -5088,7 +5088,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Status: Attempt 19 Active! Sidney DEFEATED (5-0 sweep)! Advancing to Room 2 Phoebe. SAGE Lv 91 (245/272 HP). Cash: ¥6,874 (¥1,974 + ¥4,900). 7 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 92) - Lead! HP: 167/274. Max HP: 274. Atk 205, Def 149, SpA 223, SpD 200, Spe 270. Moves: Bullet Seed (0/30), Aerial Ace (13/20), Facade (16/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 92) - Lead! HP: 167/274. Max HP: 274. Atk 205, Def 149, SpA 223, SpD 200, Spe 270. Moves: Bullet Seed (0/30), Aerial Ace (12/20), Facade (16/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
