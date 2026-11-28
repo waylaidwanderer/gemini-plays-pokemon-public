@@ -12,6 +12,7 @@
 - **Lower East Path (`y=17..19`):**
   - `(14, 18)`: **Youngster Paulie** — **DEFEATED Turn 311** (`Poliwag` ♂ Lv7 — knew `Water Gun` & `Water Sport`, swept by `Demeter` ending at `22/22` HP! Post-battle hint: `"A Poliwhirl can evolve into a bunch of different kinds of Pokémon."`).
   - **Berry Patch at `(23, 14)-(24, 14)`:** `(23, 14)` yielded **2x Oran Berries** (Turn 320); `(24, 14)` yielded **2x Cheri Berries** (Turn 319).
+  - **Southern Pond `(23..25, 22..24)`:** Underwater Wooper visual at `(22, 23)`; **Item Ball at `(25, 26)`** on south bank (Surf-gated or reachable from south-east; check from east side!).
 - **Wild Encounters Verified:**
   - **Venipede** (`Bug / Poison`, Lv4 — encountered at `(23, 15)` on Turn 320).
 - **Rival Battle — PKMN Trainer Monty at `(5, 18)` (DEFEATED Turn 297):**
