@@ -95,6 +95,7 @@
 ## Landmarks & Items
 - `(5, 17)`: Route 3 sign: `"-Route 3- Catsear Industrial Glassworks ahead"`.
 - `(9, 14)`: **Ylw. Apricorn Tree** (harvested turn 453).
+- `(7, 7)` (NW plateau tall grass up sunflower stairs): **Awakening** (collected turn 455).
 - **Catsear Industrial Glassworks:** Monty warned there are tough-looking Pokémon inside the factory outside town (likely where Gym Leader Bastion is!).
 
 ## Wild Encounters Observed
