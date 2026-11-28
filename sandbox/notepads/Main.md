@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 91 (34/272 HP, Overgrow ACTIVE, 267 Spe). Shelgon, Flygon, Altaria & Salamence DEFEATED! Facing final Pokémon Kingdra Lv 53! 2 Revives remaining. Cash: ¥16,448.
+- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! Sidney, Phoebe, Glacia & Drake ALL CLEARED! Facing Champion Wallace next! SAGE Lv 91 (34/272 HP, Overgrow ACTIVE, 267 Spe). GUAVA ready. 2 Revives remaining. Cash: ¥21,948.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 136/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 34/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (6/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
@@ -33,7 +33,7 @@
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27439, Attempt 18)!
-    - [ ] Elite Four Member #4 Drake (Active!)
+    - [x] Elite Four Member #4 Drake DEFEATED (Attempt 18)!
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified

@@ -22,7 +22,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27439, Attempt 18)!
-    - [ ] Elite Four Member #4 Drake (Active!)
+    - [x] Elite Four Member #4 Drake DEFEATED (Attempt 18)!
     - [ ] Champion Wallace
 
 ## Elite Four & Champion Scouting & Strategy
@@ -83,7 +83,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
 ## Elite Four Attempt 18 (Active)
-- Status: Attempt 18 Active! SAGE Lv 91 (136/272 HP, 267 Spe, Revived!). Shelgon & Flygon DEFEATED! 2 Revives remaining. Cash: ¥16,448.
+- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! Sidney, Phoebe, Glacia, Drake CLEARED! Advancing to Champion Wallace. Cash: ¥21,948.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
   2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
