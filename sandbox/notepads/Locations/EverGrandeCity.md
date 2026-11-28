@@ -20,7 +20,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 18 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
-    - [ ] Elite Four Member #2 Phoebe (Dusclops #1 & #2 DEFEATED!)
+    - [ ] Elite Four Member #2 Phoebe (Dusclops #1, #2 & Banette #1 DEFEATED!)
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
