@@ -10,7 +10,7 @@
 - Chose starter Mishimizu from the mysterious forest crate outside hometown; Monty got Marmroot, Willow took Crackliss. Defeated two wild Spinarak alongside Monty.
 
 ## Party
-- **Mishimizu** ♂ (#007, Lv. 5, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 21, Atk 11, Def 10, SpA 10, SpD 11, Spe 12 | Moves: Scratch, Growl, Assist. (Note: need to visit Name Rater to give Mishimizu a proper nickname!)
+- **Caspian** (Mishimizu ♂, #007, Lv. 5, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 21, Atk 11, Def 10, SpA 10, SpD 11, Spe 12 | Moves: Scratch, Growl, Assist.
 
 ## Rivals' Starters
 - **Monty:** Marmroot ♂ (Groundhog Pokémon)
