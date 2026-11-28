@@ -395,10 +395,10 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 ## Elite Four Attempt 18 (Active)
 - Status: Attempt 18 Initializing! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. Cash ¥8,648 (purchasing 5 Revives at Mart counter).
 - Immediate Plan:
-  1. Enter Pokémon League Lobby.
-  2. Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
-  3. Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
-  4. Sidney DEFEATED (5-0 clean sweep, +¥4,900).
+  1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
+  2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
+  3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
+  4. Challenge and defeat Phoebe in Room 2 (+¥5,100).
   5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
@@ -5094,7 +5094,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x5 (5 purchased Turn 27327 for ¥7,500 at League Mart!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,148 (¥7,500 spent on 5 Revives)
+- Money: ¥6,048 (¥4,900 won from Sidney)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)

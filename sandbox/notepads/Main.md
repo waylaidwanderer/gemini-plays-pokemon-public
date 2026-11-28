@@ -22,7 +22,7 @@
 - Revive x5 (5 purchased Turn 27327 for ¥7,500 at League Mart!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,148 (¥7,500 spent on 5 Revives)
+- Money: ¥6,048 (¥4,900 won from Sidney)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
