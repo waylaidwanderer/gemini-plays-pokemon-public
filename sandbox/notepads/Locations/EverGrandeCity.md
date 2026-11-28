@@ -100,15 +100,3 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   3. [ ] Enter Gate (9, 1) to begin Attempt 19!
   4. [ ] Defeat Sidney, Phoebe, Glacia, Drake!
   5. [ ] Defeat Champion Wallace and enter the Hall of Fame!
-
-- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! Sidney, Phoebe, Glacia, Drake CLEARED! Advancing to Champion Wallace. Cash: ¥21,948.
-- Immediate Plan:
-  1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
-  2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
-  3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
-  4. [x] Phoebe DEFEATED (+¥5,100, Cash: ¥11,148).
-  5. [x] Glacia DEFEATED (+¥5,300, Cash: ¥16,448).
-  6. [x] Elite Four Member #4 Drake DEFEATED (+¥5,500 prize money, Cash: ¥21,948)!
-  7. [ ] Defeat Champion Wallace (Active! Lead Wailord at ~30% HP, SAGE revived at 136 HP).
-  7. Defeat Champion Wallace!
-  8. Enter the Hall of Fame!
