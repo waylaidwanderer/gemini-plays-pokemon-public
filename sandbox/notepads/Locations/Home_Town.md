@@ -7,7 +7,8 @@
 - **Iris's House:** Door at `(40, 21)` (exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
 - **Southern Houses (`y=38`):**
   - **South-East House `(36, 38)`:** Woman `(3, 5)` taught Mom a sock-knitting pattern; Man `(6, 4)` offers an **In-Game Trade**: wants **`Cottonee`** in exchange for **`Dolleep`** (original wool/doll-sheep Fakemon — Verified Turn 150!).
-  - **South-West House `(28, 38)`:** Elderly couple & child (checking Turn 152).
+  - **South-West House `(28, 38)`:** Grandma `(3, 4)` gifts **1x Potion** (`Turn 152`); child `(1, 6)` and Grandpa `(6, 4)` have flavor dialogue.
+  - *(Note: Confirmed Turn 152 there is NO wild tall grass anywhere in southern Chamomile Town.)*
 - **Northern Terrace & Hilltop:**
   - Stairs at `(31, 18)-(33, 18)` lead to upper terrace; NPC at `(35, 16)` gave **1x Sharp Beak** (Turn 71, boosts Flying moves).
   - Further stairs `(27, 14)-(28, 14)` and `(32, 11)` lead to **Monty's House** at `(32, 9)`.
