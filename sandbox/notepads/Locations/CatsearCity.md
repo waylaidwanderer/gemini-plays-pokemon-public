@@ -5,7 +5,7 @@
 
 ## Landmarks & Services
 - `(23, 5)`: **Post Office** (`POST` building, northeast of north entrance; not yet visited).
-- **Pokémon Center:** (Locating)
+- **Pokémon Center:** `(29, 17)` (east side below stairs at `(32..34, 11)`).
 - **Catsear Gym (Leader Bastion):** (Locating)
 - **Payphone (Call Big Bro):** (Locating)
 
