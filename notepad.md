@@ -41,11 +41,11 @@
 - **Dialogue:** `B` advances dialogue safely without confirming menus (verified turn 20).
 - **Naming Screen (verified turns 24-25):**
   - Auto-switches from uppercase to lowercase after the 1st character.
-  - Grid is 7 columns (0-6) x 4 rows (0-3) with NO gap stops between col 2 and col 3:
-    - Row 0: `a b c d e f .`
-    - Row 1: `g h i j k l ,`
-    - Row 2: `m n o p q r s`
-    - Row 3: `t u v w x y z`
+  - Grid has 4 rows (0-3) with NO gap stop between col 2 and col 3, BUT there IS a space stop at col 6 on rows 0-1 before `.`/`,`:
+    - Row 0: `a`(0) `b`(1) `c`(2) `d`(3) `e`(4) `f`(5) ` `(6) `.`(7)
+    - Row 1: `g`(0) `h`(1) `i`(2) `j`(3) `k`(4) `l`(5) ` `(6) `,`(7)
+    - Row 2: `m`(0) `n`(1) `o`(2) `p`(3) `q`(4) `r`(5) `s`(6)
+    - Row 3: `t`(0) `u`(1) `v`(2) `w`(3) `x`(4) `y`(5) `z`(6)
   - `Start` jumps cursor to `OK`.
 
 ## Battle & Progression Mechanics (Verified)
