@@ -213,7 +213,7 @@
   - **Encounter Mechanic (Verified Turn 345):** Entire factory interior floor (including plain grey brick tiles!) has cave-style wild encounters, not just mossy/weed patches.
   - **Wild Encounters Verified:**
     - **Slugma** (`Fire`, Lv6 — encountered at `(8, 17)` on Turn 345).
-    - **Tagling** (Original Fakemon, Lv6 — encountered at `(11, 7)` on Turn 349 & caught Turn 356; knows `Acid` and `Gastro Acid`).
+    - **Tagling** (`#044`, **Infraction Pokémon**, **`Poison / Dark`**!! Lv6 — encountered at `(11, 7)` on Turn 349 & caught **`Chroma`** on Turn 356; knows `Acid` and `Gastro Acid`; PokéDex notes they are companions to thugs/hoodlums).
   - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(0..4, 6..14)`.
   - **Upper North Catwalk (`y=6..9`, Verified Turns 348–350):**
     - `(6..7, 7..8)`: Giant ventilation fan; walkable path passes cleanly behind it along `y=6` (`(4, 6) -> (11, 6)+`; broken glass shards on floor are walkable without chip damage), connecting east to a downward ladder near `x=17..18`.
@@ -365,7 +365,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv5, Turn 315):** HP 20/20 | Atk 9 | Def 10 | SpA 10 | SpD 11 | Spe 11
+- **Stats (Lv6, Turn 359):** HP 22/22 | Atk 10 | Def 11 | SpA 11 | SpD 12 | Spe 12
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)

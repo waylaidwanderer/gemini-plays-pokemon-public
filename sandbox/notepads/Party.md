@@ -57,7 +57,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv5, Turn 315):** HP 20/20 | Atk 9 | Def 10 | SpA 10 | SpD 11 | Spe 11
+- **Stats (Lv6, Turn 359):** HP 22/22 | Atk 10 | Def 11 | SpA 11 | SpD 12 | Spe 12
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
