@@ -103,6 +103,11 @@
   - **Northern Webbed Woods (`(21, 13)..(28, 24)`):** **Spinarak** (`#017`, `Bug / Poison`, Lv2–3 — caught `Anansi`), **Sleepillar** (`#025`, Fakemon, `Bug / Psychic`, Lv2–3 — caught `Psyche`).
   - **Southern Webbed Woods (`(33, 26)..(47, 49)`):** **Spinarak** (Lv3), **Sleepillar** (Lv2–3), **Leonte** (Lv3 original Griffin-cub Fakemon — spotted at `(44, 47)` on Turn 184!).
 
+## East Route 1 (Beyond Webbed Woods Exit `(32, 12)`)
+- **West Warp `(32, 12)-(32, 13)`:** Re-enters Webbed Woods `(55, 43)`.
+- **Wild Encounters (`(40, 14)+` tall grass):**
+  - **Kernut** (`#012`, Kernel Pokémon, `Grass`, Lv3, Ability `Chlorophyll`, moves `Bide` & `Growth` — caught `Demeter` Turn 196).
+
 
 
 
@@ -205,10 +210,11 @@
 - **Nature:** `Furtive` (Custom Monomyth nature)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
 - **Stats (Lv5, Turn 179):** HP 19/19 (reached Lv5 on Turn 175)
-- **Current Moves:**
+- **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP)
   - `String Shot` (Bug, 40 PP)
-  - `Poison Sting` (Poison, learned Lv3 on Turn 122)
+  - `Poison Sting` (Poison, 35 PP — learned Lv3)
+  - `Absorb` (Grass, 25 PP — learned Lv5 on Turn 175!)
 
 ## 3. Psyche — Sleepillar (♀) — (#025, Original Fakemon)
 - **Nickname:** `Psyche` (Greek soul/butterfly goddess; caught Lv2 in Webbed Woods on Turn 114–116)
@@ -219,6 +225,16 @@
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
+
+## 4. Demeter — Kernut (♀) — (#012, Original Fakemon)
+- **Nickname:** `Demeter` (Greek goddess of grain, seeds & harvest; caught Lv3 on East Route 1 on Turn 196–198)
+- **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
+- **Nature:** `Narrow-minded` (Custom Monomyth nature)
+- **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
+- **Stats (Lv3, Turn 199):** HP 15/15 | Atk 5 | Def 8 | SpA 7 | SpD 8 | Spe 7
+- **Current Moves:**
+  - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
+  - `Growth` (Normal, 20 PP — raises Atk & SpA)
 
 
 
