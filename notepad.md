@@ -110,6 +110,7 @@
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
 - **Sleepillar** (Bug/Psychic, #025, Drowsy Pokémon) — Lv. 3 (caught female purple color variant, nicknamed **Selene**, turn 218; knows Struggle Bug).
 - **Leonte** (Flying/Ground, #015, Thrasher Pokémon) — Lv. 3 (caught male, nicknamed **Orpheus**, turn 236; knows Peck).
+- **Joltik** (Bug/Electric, #019, Attaching Pokémon) — Lv. 3 in SW Secret Area `(18, 43)` (caught female green-eyed color variant, nicknamed **Electra**, turn 372; knows Absorb, String Shot).
 
 ## Trainers
 - **Youngster Jimmy** `(32, 25)` (defeated turn 261): Kernut ♂ Lv. 3 (Grass?, knows Bide), Shope ♀ Lv. 4 (knows Tackle).
