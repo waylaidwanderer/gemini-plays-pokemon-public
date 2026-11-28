@@ -14,7 +14,7 @@
 - Big Bro suggested visiting his friend **Bastion**, Gym Leader of **Catsear City**, first (and calling Big Bro via **payphone** to update Pokédex progress!).
 
 ## Party
-- **Caspian** (Mishimizu ♂, #007, Lv. 5, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 21, Atk 11, Def 10, SpA 10, SpD 11, Spe 12 | Moves: Scratch, Growl, Assist.
+- **Caspian** (Mishimizu ♂, #007, Lv. 6, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 23, Atk 12, Def 12, SpA 11, SpD 12, Spe 13 | Moves: Scratch, Growl, Assist.
 
 ## Rivals' Starters
 - **Monty:** Marmroot ♂ (Groundhog Pokémon)
