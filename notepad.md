@@ -22,7 +22,8 @@
 - (None yet)
 
 ## Index of Sub-Notepads
-- `Mechanics/Core.md`: Core game rules, intro pointers, difficulty, EXP scaling, and custom mechanics.
+- `Mechanics/Core.md`: Core game rules, intro pointers, difficulty, EXP scaling, UI/naming, and custom mechanics.
+- `Locations/ChamomileTown.md`: Hometown map, landmarks, Pokémon Center & Mart inventory.
 
 
 <hr>
