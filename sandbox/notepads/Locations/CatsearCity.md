@@ -12,4 +12,4 @@
 - **Payphone (Call Big Bro):** (Locating)
 
 ## NPCs & Notes
-- (Exploring Catsear City)
+- **Willow `(32, 17)` (outside Pokémon Center):** Learned our starters are from Edelweiss Labs. Says the Gym Leader would know how to find Edelweiss Labs, and **Monty is already on Route 3** trying to find the Gym Leader!
