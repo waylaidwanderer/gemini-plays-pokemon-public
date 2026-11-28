@@ -6,7 +6,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Arrived in **Catsear City** (`(18, 0)`) with 5 party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6 [Silver Powder], **Demeter** `Kernut` Lv5, **Electra** `Joltik` Lv3); locating the Pokémon Center and preparing for Gym Leader **Bastion**.
+- **Progression:** Explored **Catsear City** (Gym doors locked; Bastion is `"The Scorching Hot Craftsman"`, Fire specialist) and entered **Route 3** (`(0, 18)`) with 5 fully healed party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6 [Silver Powder], **Demeter** `Kernut` Lv5, **Electra** `Joltik` Lv3) to find **Monty** and **Gym Leader Bastion** at the **Abandoned Glass Factory**.
 - **Badges:** 0
 
 ## Notepad Index
@@ -15,6 +15,7 @@
 - [Home Town (Chamomile Town)](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, NPC gifts.
 - [Routes 1 & 2 / Webbed Woods](Locations/Route_1_2_Webbed_Woods.md) — Route layout, wild encounters, trainers, items, Secret Webbed Woods Sub-Map.
 - [Catsear City](Locations/Catsear_City.md) — First Gym city layout, Post Office, Pokémon Center/Mart, NPCs, Catsear Gym.
+- [Route 3 & Abandoned Glass Factory](Locations/Route_3_Glass_Factory.md) — Route 3 wild encounters, trainers, items, and Glass Factory quest.
 - `Scratchpad/` — Active routing, battle prep, and temporary testing notes.
 
 
@@ -26,6 +27,8 @@
 
 ## Connections
 - **North Connection (`(17, 0)-(20, 0)`):** Seamless transition back to **Route 2** (`(13, 44)`).
+- **East Connection (`(41, 18)-(41, 19)`):** Seamless transition onto **Route 3** (`(0, 18)`) toward the **Abandoned Glass Factory** (Verified Turn 286).
+- **South Connection (`(28, 41)-(30, 41)`):** Currently blocked by apple-crate workers until Badge #1 is earned.
 
 ## Key Landmarks & Buildings (Exploration In Progress)
 - **Northern Boulevard (`x=17..20`):**
@@ -168,6 +171,19 @@
   - **Joltik** (`Bug / Electric`, Lv3 — encountered at `(31, 22)` on Turn 223).
 
 
+
+
+<hr>
+
+<h1><code>Locations/Route_3_Glass_Factory</code></h1>
+
+# Route 3 & Abandoned Glass Factory
+
+## Connections
+- **West Connection (`(0, 18)`):** Seamless transition back to **Catsear City** (`(41, 19)`).
+
+## Story Context
+- **Willow** `(32, 17)` and the former glassworks owners in Catsear City `(22, 35)` confirmed **Monty** is on **Route 3** and **Gym Leader Bastion** ("The Scorching Hot Craftsman") goes looking for glass scrap at the **Abandoned Glass Factory** east of town, where suspicious individuals have also been spotted.
 
 
 <hr>

@@ -2,6 +2,8 @@
 
 ## Connections
 - **North Connection (`(17, 0)-(20, 0)`):** Seamless transition back to **Route 2** (`(13, 44)`).
+- **East Connection (`(41, 18)-(41, 19)`):** Seamless transition onto **Route 3** (`(0, 18)`) toward the **Abandoned Glass Factory** (Verified Turn 286).
+- **South Connection (`(28, 41)-(30, 41)`):** Currently blocked by apple-crate workers until Badge #1 is earned.
 
 ## Key Landmarks & Buildings (Exploration In Progress)
 - **Northern Boulevard (`x=17..20`):**
