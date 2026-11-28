@@ -67,6 +67,7 @@
 - `(40, 5)`: **Antidote** (northeast clearing past cobweb canopy at `x=42..44, y=11`; collected turn 227).
 - `(47, 24)`: **Potion** (tucked in tall grass pocket east of pond; collected turn 244).
 - `(19, 19)`: **PokéBall** (west pond alcove off `y=23..25` branch; collected turn 275).
+- `(15, 35)`: **Paralyze Heal** (west of Bug Catcher Tim's L-shaped ledge; collected turn 294).
 
 ## Wild Encounters Observed
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
