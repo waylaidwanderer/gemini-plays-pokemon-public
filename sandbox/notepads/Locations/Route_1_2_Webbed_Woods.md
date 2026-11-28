@@ -43,6 +43,8 @@
   - **Lass Jane** at `(20, 11)` — **DEFEATED Turn 208** (`Caroot` ♀ Lv4 + `Shope` ♀ Lv4).
   - **Apricorn Tree** at `(15, 11)` — yielded **1x Blk. Apricorn** (Turn 209).
 - **Lower Fork (via stairs `(17, 15)-(18, 15)`):**
-  - Youngster at `(16, 22)` facing right; camouflaged item ball + round bush visible in western grass `(10, 19)..(10, 21)`; staircase ascending east cliff at `(22, 17)`.
+  - **Youngster Sonny** at `(16, 22)` — **DEFEATED Turn 212** (`Leonte` ♀ Lv5 — confirmed `Flying` type, knows `Peck`!).
+  - Western grass `(11, 18)..(13, 25)` contains Apricorn Tree `(10, 19)` and camouflaged item ball `(10, 21)`.
+  - Staircase ascending east cliff at `(22, 17)-(22, 18)`.
 
 
