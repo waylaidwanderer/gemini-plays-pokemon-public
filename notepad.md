@@ -68,6 +68,7 @@
 ## Wild Encounters Observed
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
 - **Sleepillar** (Bug/Psychic, #025, Drowsy Pokémon) — Lv. 3 (caught female purple color variant, nicknamed **Selene**, turn 218; knows Struggle Bug).
+- **Leonte** (Flying/Ground, #015, Thrasher Pokémon) — Lv. 3 (caught male, nicknamed **Orpheus**, turn 236; knows Peck).
 
 ## Trainers
 - (None battled yet; Monty mentioned training here.)
