@@ -93,6 +93,8 @@
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
   - `(32, 25)`: **Youngster Jimmy** — **DEFEATED Turn 164** (`Kernut` ♂ Lv3 (`Grass`, `Bide`) + `Shope` ♀ Lv4 (Jackalope Fakemon, `Tackle`, high crit rate?)).
+  - `(39, 30)-(41, 30)`: One-way shortcut ledge east of southern tall grass.
+  - `(24, 34)`: **Bug Catcher Tim** (facing down on `y=34` dirt road; 1 Pokémon: `Spinarak` ♀ Lv3 — battling Turn 171).
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
   - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).
