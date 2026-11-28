@@ -344,7 +344,7 @@
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
 - **Nature:** `Furtive` (`+Atk` — Verified Turn 206 Lv6 stat gains!)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 50%/33% HP)
-- **Held Item:** `Oran Berry` (equipped Turn 404)
+- **Held Item:** None (`Oran Berry` permanently burned up by Bastion's `Numel` `Incinerate` on Turn 487)
 - **Stats (Lv8, Turn 426):** HP 25/25 | Atk 15 | Def 12 | SpA 13 | SpD 13 | Spe 12
 - **Current Moves (FULL 4 SLOTS):**
   - `Infestation` (Bug, Special, 20 PP, 100% Acc — traps foe & deals 1/8 Max HP/turn for 4–5 turns! Learned Lv8 on Turn 426 over `Constrict`)
@@ -382,7 +382,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Held Item:** `Oran Berry` (equipped Turn 404)
+- **Held Item:** None (`Oran Berry` permanently burned up by Bastion's `Numel` `Incinerate` on Turn 487)
 - **Stats (Lv7, Turn 437):** HP 24/24 | Atk 11 | Def 12 | SpA 13 | SpD 13 | Spe 14
 - **Current Moves (FULL 4 SLOTS):**
   - `Absorb` (Grass, Special, 25 PP)
