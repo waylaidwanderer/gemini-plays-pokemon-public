@@ -395,10 +395,11 @@
 - **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
 - **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)
 - **Stats (Lv7, Turn 438):** HP 25/25 | Atk 11 | Def 13 | SpA 14 | SpD 14 | Spe 11
-- **Current Moves:**
+- **Current Moves (FULL 4 SLOTS):**
   - `Peck` (Flying, Physical, 35 PP — boosted by STAB + `Sharp Beak`)
   - `Sand Attack` (Ground, Status, 15 PP — lowers foe Accuracy)
   - `Foresight` (Normal, Status, 40 PP — enables Normal/Fighting hits on Ghost & ignores evasion)
+  - `Sing` (Normal, Status, learned Lv7 on Turn 439 — puts foe to Sleep!)
 
 ---
 
