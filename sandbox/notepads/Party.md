@@ -63,3 +63,19 @@
   - `String Shot` (Bug, Status, 40 PP)
   - `ThunderShock` (Electric, Special, learned Lv5 on Turn 315!)
 
+## 6. Athena — Leonte (♀) — (#015, Original Fakemon)
+- **Nickname:** `Athena` (Greek goddess of wisdom & tactical warfare; caught Lv4 on Route 3 outside Catsear Industrial Glassworks on Turn 329–331)
+- **Type:** `Flying / Ground` (Verified Turn 330 PokéDex "Thrasher Pokémon" & Turn 335 Summary)
+  - **Immunities:** Ground (covers `Seraph`'s 4x Ground weakness!), Electric
+  - **Resistances:** Fighting, Poison, Bug
+  - **Weaknesses:** **4x Ice**, 2x Water
+- **Nature:** `Uncaring` (Custom Monomyth nature — stat modifiers pending level-up verification)
+- **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
+- **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)
+- **Stats (Lv4, Turn 335):** HP 18/18 | Atk 8 | Def 9 | SpA 10 | SpD 10 | Spe 8
+- **Current Moves:**
+  - `Peck` (Flying, Physical, 35 PP — boosted by STAB + `Sharp Beak`)
+  - `Sand Attack` (Ground, Status, 15 PP — lowers foe Accuracy)
+  - `Foresight` (Normal, Status, 40 PP — enables Normal/Fighting hits on Ghost & ignores evasion)
+
+

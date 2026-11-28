@@ -4,7 +4,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Defeated **Monty** `(5, 18)` and **Youngster Paulie** `(14, 18)` on **Route 3**; pushing east toward the **Catsear Industrial Glassworks** with 5 fully healthy party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv7, **Psyche** `Sleepillar` Lv7 [Silver Powder], **Demeter** `Kernut` Lv8, **Electra** `Joltik` Lv5) to find **Gym Leader Bastion**.
+- **Progression:** Reached **Catsear Industrial Glassworks** `(41, 26)` at the east end of **Route 3** with a full 6-Pokémon party (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv7, **Psyche** `Sleepillar` Lv7 [Silver Powder], **Demeter** `Kernut` Lv8, **Electra** `Joltik` Lv5, **Athena** `Leonte` Lv4 [Sharp Beak]) to locate **Gym Leader Bastion**.
 - **Badges:** 0
 
 ## Notepad Index

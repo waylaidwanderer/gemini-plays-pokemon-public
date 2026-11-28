@@ -6,7 +6,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Defeated **Monty** `(5, 18)` and **Youngster Paulie** `(14, 18)` on **Route 3**; pushing east toward the **Catsear Industrial Glassworks** with 5 fully healthy party members (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv7, **Psyche** `Sleepillar` Lv7 [Silver Powder], **Demeter** `Kernut` Lv8, **Electra** `Joltik` Lv5) to find **Gym Leader Bastion**.
+- **Progression:** Reached **Catsear Industrial Glassworks** `(41, 26)` at the east end of **Route 3** with a full 6-Pokémon party (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv7, **Psyche** `Sleepillar` Lv7 [Silver Powder], **Demeter** `Kernut` Lv8, **Electra** `Joltik` Lv5, **Athena** `Leonte` Lv4 [Sharp Beak]) to locate **Gym Leader Bastion**.
 - **Badges:** 0
 
 ## Notepad Index
@@ -194,9 +194,9 @@
   - **Southern Pond `(23..25, 22..24)`:** Underwater Wooper visual at `(22, 23)`; **Item Ball at `(25, 26)`** on south bank (blocked from east by cliff along `x=32, y=22..27` — Surf-gated!).
   - **Outside Catsear Industrial Glassworks (`x >= 35`):**
     - `(35, 20)`: **Apricorn Tree** — yielded **1x Grn. Apricorn** (Turn 328).
-    - `(37, 18)`: Camper Trainer facing `Right`.
-    - `(38, 11)-(39, 11)`: Stairs connecting down from northern Route 3 path.
-    - `(38, 26)-(39, 26)`: Factory sign beside twisted sculpture `(38..39, 24)`.
+    - `(37, 18)`: Camper Trainer facing `Right` *(unbeaten — good EXP source)*.
+    - `(38, 11)-(39, 11)`: Stairs connecting down from northern Route 3 path (`(18..38, 7..11)` unexplored stretch leading west to unbeaten Female Trainer at `(16, 7)`).
+    - `(38, 26)-(39, 26)`: Factory sign beside twisted sculpture `(38..39, 24)` (`Catsear Industrial Glassworks`, Verified Turn 335).
     - **`(41, 26)`:** Front entrance door into **Catsear Industrial Glassworks**!
 - **Wild Encounters Verified:**
   - **Venipede** (`Bug / Poison`, Lv4 — encountered at `(23, 15)` on Turn 320).
@@ -355,6 +355,22 @@
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
   - `ThunderShock` (Electric, Special, learned Lv5 on Turn 315!)
+
+## 6. Athena — Leonte (♀) — (#015, Original Fakemon)
+- **Nickname:** `Athena` (Greek goddess of wisdom & tactical warfare; caught Lv4 on Route 3 outside Catsear Industrial Glassworks on Turn 329–331)
+- **Type:** `Flying / Ground` (Verified Turn 330 PokéDex "Thrasher Pokémon" & Turn 335 Summary)
+  - **Immunities:** Ground (covers `Seraph`'s 4x Ground weakness!), Electric
+  - **Resistances:** Fighting, Poison, Bug
+  - **Weaknesses:** **4x Ice**, 2x Water
+- **Nature:** `Uncaring` (Custom Monomyth nature — stat modifiers pending level-up verification)
+- **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
+- **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)
+- **Stats (Lv4, Turn 335):** HP 18/18 | Atk 8 | Def 9 | SpA 10 | SpD 10 | Spe 8
+- **Current Moves:**
+  - `Peck` (Flying, Physical, 35 PP — boosted by STAB + `Sharp Beak`)
+  - `Sand Attack` (Ground, Status, 15 PP — lowers foe Accuracy)
+  - `Foresight` (Normal, Status, 40 PP — enables Normal/Fighting hits on Ghost & ignores evasion)
+
 
 
 
