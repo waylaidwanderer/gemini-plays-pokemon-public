@@ -83,13 +83,12 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
 ## Elite Four Attempt 18 (Active)
-- Status: Attempt 18 Initializing! SAGE Lv 89 (266/266 HP, 262 Spe). All PP restored. Cash ¥8,648 (purchasing 5 Revives at Mart counter).
+- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Sidney DEFEATED (5-0), Phoebe (3 of 5 Pokémon defeated: Dusclops #1, #2, Banette #1). 4 Revives remaining. Cash: ¥6,048.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
   2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
-  4. Challenge and defeat Phoebe in Room 2 (+¥5,100).
-  5. Phoebe DEFEATED (Aerial Ace absorbs Grudge, +¥5,100).
+  4. Defeat Phoebe in Room 2 (3 of 5 defeated, battling Sableye Lv 50, +¥5,100).
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
