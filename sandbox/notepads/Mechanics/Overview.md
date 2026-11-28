@@ -2,8 +2,10 @@
 
 ## Region & Core Design Pointers (Verified Turns 6–7, New Game Pointers)
 - **Region Name:** **Athanto**.
-- **Built-in Pokémon Center Facilities (Verified Turn 55, Chamomile Town):**
-  - Left counter inside Pokémon Center has **Name Rater** (top clerk at `(1, 14)`, accessed from `(3, 14)`) and **free Move Relearner** (bottom clerk at `(1, 15)`, accessed from `(3, 15)`)! Moving moves in and out of our moveset between boss fights is free right inside Pokémon Centers!
+- **Built-in Pokémon Center Mega-Hubs (Verified Turns 55, 77–80):**
+  - **1F (`y=8..15`):** Nurse Joy `(7, 10)`, PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)`).
+  - **2F Seamless Mezzanine (`y=0..7`, via left stairs `(1, 10)->(1, 7)`):** **Poké Mart** counter (`(2, 5)-(3, 5)` facing `Up`) and **Link Center**!
+- **Stair Movement Timing (Verified Turns 76, 79):** Stair tiles animate slower than flat ground, causing rapid unspaced button lists (`["Up"] * N`) to drop steps on staircases. Always use a `while` loop checking `mgba.get_coordinates()` (or `"hold <Dir> <ms>"`) when climbing/descending stairs.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.

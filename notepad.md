@@ -23,9 +23,17 @@
 # Chamomile Town (Starting Town)
 
 ## Town Layout & Key Buildings
-- **Pokémon Center:** Door at `(24, 21)` (player exits to `(24, 22)`).
-  - Nurse Joy at `(7, 10)`, PC at `(10, 11)`, **Name Rater** at `(1, 14)` (talk from `(3, 14)`), **Move Relearner** at `(1, 15)` (talk from `(3, 15)`), 2F stairs at `(1, 10)`, exit mat at `(7, 15)`.
-- **Iris's House:** Door at `(40, 21)` (player exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
+- **Pokémon Center & 2F Mart:** Door at `(24, 21)` (player exits to `(24, 22)`).
+  - **1F:** Nurse Joy at `(7, 10)`, PC at `(10, 11)`, **Name Rater** at `(1, 14)` (talk from `(3, 14)`), **Move Relearner** at `(1, 15)` (talk from `(3, 15)`), exit mat at `(7, 15)`.
+  - **2F Mezzanine (via stairs `(1, 10)->(1, 7)`):** **Poké Mart** & Link Center!
+- **Iris's House:** Door at `(40, 21)` (exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
+- **Northern Terrace & Hilltop:**
+  - Stairs at `(31, 18)-(33, 18)` lead to upper terrace; NPC at `(35, 16)` gave **1x Sharp Beak** (Turn 71, boosts Flying moves).
+  - Further stairs `(27, 14)-(28, 14)` and `(32, 11)` lead to **Monty's House** at `(32, 9)`.
+- **Exits:**
+  - **East Exit (`x > 45`):** Leads to **Webbed Woods** (toward **Catsear City**).
+  - **South Exit (`(27, 43)-(28, 43)`):** Stairs leading south into tall grass (unexplored route/area!).
+  - **West Limit:** Dead-ends at trees at `(7, 22)`.
 - **East Connection:** Leads to **Webbed Woods** clearing (wild **Spinarak** Lv2 confirmed with color/pattern variants; starter crate gave Iris **Crackliss** (`Seraph`, Fire/Poison), Willow **Marmroot** (Grass), Monty **Mishimizu** (Water, knows `Growl` & `Assist`)).
 - **Lore / Quest Lead (Turns 61–65):**
   - Starter Poké Balls have **Edelweiss Labs** stamped on the bottom (located out in **Edelweiss City**).
@@ -61,8 +69,10 @@
 
 ## Region & Core Design Pointers (Verified Turns 6–7, New Game Pointers)
 - **Region Name:** **Athanto**.
-- **Built-in Pokémon Center Facilities (Verified Turn 55, Chamomile Town):**
-  - Left counter inside Pokémon Center has **Name Rater** (top clerk at `(1, 14)`, accessed from `(3, 14)`) and **free Move Relearner** (bottom clerk at `(1, 15)`, accessed from `(3, 15)`)! Moving moves in and out of our moveset between boss fights is free right inside Pokémon Centers!
+- **Built-in Pokémon Center Mega-Hubs (Verified Turns 55, 77–80):**
+  - **1F (`y=8..15`):** Nurse Joy `(7, 10)`, PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)`).
+  - **2F Seamless Mezzanine (`y=0..7`, via left stairs `(1, 10)->(1, 7)`):** **Poké Mart** counter (`(2, 5)-(3, 5)` facing `Up`) and **Link Center**!
+- **Stair Movement Timing (Verified Turns 76, 79):** Stair tiles animate slower than flat ground, causing rapid unspaced button lists (`["Up"] * N`) to drop steps on staircases. Always use a `while` loop checking `mgba.get_coordinates()` (or `"hold <Dir> <ms>"`) when climbing/descending stairs.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
