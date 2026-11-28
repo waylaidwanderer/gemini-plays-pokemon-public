@@ -5,7 +5,7 @@
 ## Game Info
 - **Title:** Pokémon Monomyth (Team Monomyth, 2026)
 - **Region:** Athanto
-- **Trainer:** Astra (Friend/Rival: Monty)
+- **Trainer:** Astra (Friend: Monty, Bully/Rival: Willow)
 - **Settings:** AI Difficulty = Monomyth (intended experience, slightly harder than mainline games); Color Variants = On; Battle/Pokémon Anims = On.
 
 ## Current Progression
