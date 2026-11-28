@@ -34,6 +34,9 @@
   - **Encounter Mechanic (Verified Turn 345):** Entire factory interior floor (including plain grey brick tiles!) has cave-style wild encounters, not just mossy/weed patches.
   - **Wild Encounters Verified:**
     - **Slugma** (`Fire`, Lv6 — encountered at `(8, 17)` on Turn 345).
-  - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(1..4, 14)`.
+    - **Tagling** (Original Fakemon, Lv6 — encountered at `(11, 7)` on Turn 349 & caught Turn 356; knows `Acid` and `Gastro Acid`).
+  - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(0..4, 6..14)`.
+  - **Upper North Catwalk (`y=6..9`, Verified Turns 348–350):**
+    - `(6..7, 7..8)`: Giant ventilation fan; walkable path passes cleanly behind it along `y=6` (`(4, 6) -> (11, 6)+`; broken glass shards on floor are walkable without chip damage), connecting east to a downward ladder near `x=17..18`.
   - `(6..7, 10..12)` & `(10..11, 10..12)`: Two unlit glass-blowing furnaces; cyan spiral graffiti tag at `(14, 10..11)` and purple-capped Item Ball visible on east terrace at `(14, 15)`.
 

@@ -213,7 +213,10 @@
   - **Encounter Mechanic (Verified Turn 345):** Entire factory interior floor (including plain grey brick tiles!) has cave-style wild encounters, not just mossy/weed patches.
   - **Wild Encounters Verified:**
     - **Slugma** (`Fire`, Lv6 — encountered at `(8, 17)` on Turn 345).
-  - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(1..4, 14)`.
+    - **Tagling** (Original Fakemon, Lv6 — encountered at `(11, 7)` on Turn 349 & caught Turn 356; knows `Acid` and `Gastro Acid`).
+  - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(0..4, 6..14)`.
+  - **Upper North Catwalk (`y=6..9`, Verified Turns 348–350):**
+    - `(6..7, 7..8)`: Giant ventilation fan; walkable path passes cleanly behind it along `y=6` (`(4, 6) -> (11, 6)+`; broken glass shards on floor are walkable without chip damage), connecting east to a downward ladder near `x=17..18`.
   - `(6..7, 10..12)` & `(10..11, 10..12)`: Two unlit glass-blowing furnaces; cyan spiral graffiti tag at `(14, 10..11)` and purple-capped Item Ball visible on east terrace at `(14, 15)`.
 
 
@@ -292,7 +295,7 @@
   - With `Battle Anims: On`, even a Single Battle round with `Wrap` + stat-drop animations (`String Shot` / `Struggle Bug`) takes ~10–12s (`["sleep 3000", "B", "sleep 2500", "B", "sleep 2500", "B", "sleep 2500", "B", "sleep 2000"]`), and a 4-Pokémon Double/Multi-Battle round takes ~12–15s.
   - **Warning:** Sending directional inputs (`Up`/`Down`/`Left`/`Right`) before the previous round's end-of-turn animations finish will move the `Fight / Bag / Pokémon / Run` cursor! Whenever spamming a repeatable attack, move selection once to the top-left move slot (`Fight -> Slot 0`) and use ONLY `A`/`B` on subsequent rounds so the cursor can never drift onto `Bag` or `Run`.
   - **Move Menu Cursor Memory (Verified Turns 225, 308):** At the start of every new battle, each Pokémon's `Fight` move cursor resets to **`(0, 0)` (Slot 0)**, and then remembers the last move selected for the remainder of that battle.
-  - **Battle Menu Cursor After Throwing a PokéBall (Verified Turn 229):** If a thrown PokéBall breaks open, `"What will <Lead> do?"` keeps the cursor on **`> Bag` `(0, 1)`** (and `Bag` stays on `PokéBalls -> > PokéBall`). Press `Left` to return to `Fight`, or `A` to throw another Ball directly.
+  - **Battle Menu Cursor After Throwing a PokéBall (Verified Turns 229, 354):** If a thrown PokéBall breaks open, `"What will <Lead> do?"` keeps the cursor on **`> Bag` `(0, 1)`** (and `Bag` stays on `PokéBalls -> > PokéBall`). Press `Left` to return to `Fight`, or throw another Ball directly with `["A", "sleep 900", "A", "sleep 600", "A", "sleep 10000"]` (`A #1` opens Bag, `A #2` opens `Use/Cancel`, `A #3` confirms `Use`; note `"sleep <ms>"` max is `10000` per entry).
   - **Safe Post-Capture & Post-KO Level-Up Progression (Verified Turns 107, 197, 230, 314):** Never press `B` after throwing a PokéBall or when a party member might evolve. However, keep `A` batches to **2–3 presses max** whenever a 4-move-slot Pokémon (`Seraph`, `Anansi`, `Demeter`) levels up, because 5+ `A` presses will automatically confirm `Delete a move? > Yes -> Slot 0` (`Turn 314`). (Any overwritten level-up move can be freely restored at any Pokémon Center 1F Move Relearner.)
 
 
