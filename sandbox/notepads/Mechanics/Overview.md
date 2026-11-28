@@ -24,5 +24,7 @@
     - Row 2: `(2,0)m (2,1)n (2,2)o (2,3)p (2,4)q (2,5)r (2,6)s`
     - Row 3: `(3,0)t (3,1)u (3,2)v (3,3)w (3,4)x (3,5)y (3,6)z`
   - Pressing `Start` jumps cursor directly to `OK`, and `A` submits the name.
+- **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17):** Screens with continuously pulsing cursors (such as the Naming Screen) generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png` when `filmstrip_1.png` contains only `[THINKING]` frames.
+
 
 

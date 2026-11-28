@@ -3,15 +3,32 @@
 # Pokémon Monomyth — Main Dashboard
 
 ## Current Status
-- **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`)
-- **Progression:** Starting New Game (Turn 4)
+- **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
+- **Trainer:** Iris | **Rival/Friend:** Monty
+- **Region:** Athanto
+- **Progression:** Woke up in Iris's Bedroom (Turn 20); Monty is waiting outside to show us a glowing blue crate in the forest.
 - **Badges:** 0
 
 ## Notepad Index
-- [Mechanics Overview](Mechanics/Overview.md) — Verified game settings, AI difficulty, Color Variants mechanic.
+- [Mechanics Overview](Mechanics/Overview.md) — Verified game settings, Athanto survival/attrition & economy rules, Naming Screen grid, dialogue controls.
+- [Home Town](Locations/Home_Town.md) — Starting town notes, Iris's house, Big Bro & Monty intro context.
 - `Party.md` — Active team roster, nicknames, movesets, and roles (to be created upon receiving starter).
-- `Locations/` — Regional map connections, towns, routes, items, NPCs, and trainers.
 - `Scratchpad/` — Active routing, battle prep, and temporary testing notes.
+
+
+<hr>
+
+<h1><code>Locations/Home_Town</code></h1>
+
+# Starting Town & Iris's House
+
+## Story Context & Key NPCs (Verified Turns 10–20)
+- **Iris (Player):** Birthday is right around the corner; Big Bro is registering Iris's ID application with the Post Office while out at the Mart.
+- **Big Bro:** Encourages Iris's goal of becoming a Pokémon Trainer; mentions Monty has been waiting outside in the heat.
+- **Monty (Friend/Rival):** Left three morning voicemails (8:42 AM, 9:08 AM, 9:56 AM). Found a mysterious crate in the forest outside town that started glowing blue when he pressed the top of it; waiting outside Iris's house.
+
+## Iris's Bedroom (2F)
+- Spawned at `(4, 5)` on the bedroom rug (Turn 20).
 
 
 <hr>
@@ -44,6 +61,8 @@
     - Row 2: `(2,0)m (2,1)n (2,2)o (2,3)p (2,4)q (2,5)r (2,6)s`
     - Row 3: `(3,0)t (3,1)u (3,2)v (3,3)w (3,4)x (3,5)y (3,6)z`
   - Pressing `Start` jumps cursor directly to `OK`, and `A` submits the name.
+- **Filmstrip Pagination on Animated UIs (Verified Turns 14, 17):** Screens with continuously pulsing cursors (such as the Naming Screen) generate ~42 `[THINKING]` frames before inputs run, pushing the actual button-press frames into `filmstrip_2.png`. Check `filmstripParts` in `<TurnVisualTimeline>` and read `filmstrip_2.png` when `filmstrip_1.png` contains only `[THINKING]` frames.
+
 
 
 
