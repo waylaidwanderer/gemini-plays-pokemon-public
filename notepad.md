@@ -302,7 +302,7 @@
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
 - **Nature:** `Furtive` (`+Atk` — Verified Turn 206 Lv6 stat gains!)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
-- **Stats (Lv6, Turn 206):** HP 21/21 | Atk 13 | Def 10 | SpA 11 | SpD 11 | Spe 10
+- **Stats (Lv7, Turn 312):** HP 23/23 | Atk 14 | Def 11 | SpA 12 | SpD 12 | Spe 11
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP)
   - `String Shot` (Bug, 40 PP)
