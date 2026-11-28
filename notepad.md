@@ -326,7 +326,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (Custom Monomyth nature!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv3, Turn 259):** HP 16/16 | Atk 7 | Def 8 | SpA 8 | SpD 8 | Spe 8
+- **Stats (Lv3, Verified in-battle Turn 289):** HP 5/16 | Atk 7 | Def 8 | SpA 8 | SpD 8 | Spe 8 *(Note: Turn 259's fast Nurse Joy macro closed before healing; use `sleep 2600` before `Yes` at Nurse Joy!)*
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
