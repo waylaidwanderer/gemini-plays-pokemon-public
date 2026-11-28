@@ -15,6 +15,7 @@
 - **Caspian** (Mishimizu ♂, #007, Lv. 7, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 25, Atk 14, Def 13, SpA 12, SpD 13, Spe 14 | Moves: Scratch, Growl, Assist.
 - **Ariadne** (Spinarak ♀, #017, Lv. 3, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 15, Atk 9, Def 7, SpA 8, SpD 8, Spe 7 | Moves: Constrict, String Shot, Poison Sting.
 - **Selene** (Sleepillar ♀, #025, Lv. 3, Bug/Psychic) — Nature: Zesty | Ability: Early Bird | Stats: HP 15, Atk 6, Def 7, SpA 8, SpD 7, Spe 7 | Moves: Struggle Bug, String Shot.
+- **Orpheus** (Leonte ♂, #015, Lv. 3, Flying/Ground) — Nature: Conniving | Ability: Quick Feet | Stats: HP 16, Atk 8, Def 8, SpA 9, SpD 9, Spe 7 | Moves: Peck, Sand Attack.
 
 ## Rivals' Starters
 - **Monty:** Marmroot ♂ (Groundhog Pokémon)
