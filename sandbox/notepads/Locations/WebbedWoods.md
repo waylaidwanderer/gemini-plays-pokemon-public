@@ -18,4 +18,4 @@
 - **Leonte** (Flying/Ground, #015, Thrasher Pokémon) — Lv. 3 (caught male, nicknamed **Orpheus**, turn 236; knows Peck).
 
 ## Trainers
-- (None battled yet; Monty mentioned training here.)
+- **Youngster Jimmy** `(32, 25)` (defeated turn 261): Kernut ♂ Lv. 3 (Grass?, knows Bide), Shope ♀ Lv. 4 (knows Tackle).
