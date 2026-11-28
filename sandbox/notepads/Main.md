@@ -2,11 +2,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (48/269 HP, 265 Spe, Overgrow Active!). Glacia DEFEATED! 3 Revives remaining. Cash: ¥16,448.
+- Starter: Sceptile (Level 91, Male), Nickname: SAGE
+- Status: Attempt 18 Active! SAGE Lv 91 (34/272 HP, 267 Spe, Overgrow Active!). Drake Shelgon DEFEATED! 3 Revives remaining. Cash: ¥16,448.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 31/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (13/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 34/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (13/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
@@ -37,6 +37,7 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Level 91 Overgrow Threshold: At Level 91 (Max HP 272), Sceptile's Overgrow activates when HP is <= 90 HP (272 / 3 = 90.66), granting a 1.5x damage multiplier to all Grass-type attacks.
 - Shift Switching Purges Ghost Curse (Turn 27369-27370 Discovery): In Gen 3 Pokémon Emerald, Ghost-type Curse is 100% permanently cured when the afflicted Pokémon switches out, including when switching via the mid-battle 'Will [Player] change POKéMON?' shift prompt. This preserves the ace's health and Overgrow state without consuming healing items.
 - Level 90 Overgrow Threshold: At Level 90 (Max HP 269), Sceptile's Overgrow activates when HP is <= 89 HP (269 / 3 = 89.66), granting a 1.5x damage multiplier to all Grass-type attacks.
 - League Mart Counter Spatial Alignment: The Poké Mart clerk in the League Lobby stands at (16, 3) behind the counter at (16, 4). The player must stand at (16, 4) facing North to interact across the counter. Tile (17, 4) faces a blank section of the counter where pressing A will not trigger dialogue.
