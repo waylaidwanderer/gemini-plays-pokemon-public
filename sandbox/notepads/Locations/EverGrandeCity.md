@@ -83,7 +83,7 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
 ## Elite Four Attempt 18 (Active)
-- Status: Attempt 18 Active! SAGE Lv 91 (0/272 HP FNT). Drake Shelgon DEFEATED, Flygon at ~20% HP. Executing Sacrificial Revive via Mochi. 3 Revives remaining. Cash: ¥16,448.
+- Status: Attempt 18 Active! SAGE Lv 91 (136/272 HP, 267 Spe, Revived!). Drake Shelgon DEFEATED, Flygon at ~20% HP. 2 Revives remaining. Cash: ¥16,448.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
   2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
