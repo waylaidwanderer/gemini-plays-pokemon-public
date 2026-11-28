@@ -1,10 +1,9 @@
 # Boss Battle Tracker — Gym Leader Bastion (Catsear City Gym)
 
 ## Opponent Team (2 Pokémon)
-1. **Boomboom — Lv9** (`Fire / Steel` confirmed!, `~70%` HP, **ACTIVE**)
-   - **Stat Stages:** Speed **`-2`**, Sp. Atk **`-1`**
-   - **Confirmed Typing Proof:** Immune (`0x`) to Poison (`Acid`, Round 17), resists Bug (`Struggle Bug`, Round 14), neutral (`1.0x`) to Fire (`Ember` dealt ~25% HP on Round 18), STAB Fire + Steel moves (`Ember`, `Magnet Bomb`).
-   - **Observed Moves:** `Ember` (`2` dmg to `Seraph`), `Magnet Bomb` (`4` dmg to `Seraph`).
+1. **Boomboom — Lv9** (`Fire / Steel` confirmed!, **DEFEATED Round 21 — `83` EXP**)
+   - **Confirmed Typing Proof:** Immune (`0x`) to Poison (`Acid`), resists Bug (`Struggle Bug`), neutral (`1.0x`) to Fire (`Ember`).
+   - **Observed Moves:** `Ember`, `Magnet Bomb`, confusion status move (`Confuse Ray` / `Supersonic`).
    - **AI Discovery (Round 13):** `Monomyth` AI automatically switches out a Pokémon at `-3 Accuracy` to clear accuracy drops! Remember on Round 1 Bastion hard-switched `Boomboom` Lv9 out against `Seraph` Lv11 — using `Fresh Water` on `Seraph` (`13 -> 33/33` HP) right now covers BOTH a `Numel` switch-in and a `Boomboom` stay-in!
 2. **Numel (♂) — Lv12** (`Fire / Ground`, `~88%` HP, **ON BENCH** — accuracy reset to `0` on switch-out)
    - **Observed Moves & Remaining PP:**
