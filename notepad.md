@@ -60,6 +60,7 @@
 - `(14, 13)`: Empty wooden crate where Astra, Monty, and Willow found the three Edelweiss Labs starters (Mishimizu, Marmroot, Crackliss).
 - `(20, 7)`: **Antidote** (collected turn 185).
 - `x=21..29, y=12..17`: First large tall grass patch; path continues south/southeast around `x=30..32, y=15..18` west of a pond (`x=33..36, y=15..18`).
+- `(34, 19)`: Trainer Tips stone sign ("against the rules to use more than four items during a battle").
 
 ## Wild Encounters Observed
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
@@ -93,6 +94,7 @@
 
 ## Battle & Progression Mechanics (Verified)
 - **Party EXP Share & Capture EXP:** Party EXP Share is active by default ("Everybody got their fair share!", verified turn 83) and catching wild Pokémon also grants EXP (verified turn 196).
+- **Battle Item Limit:** Trainer Tips sign in Webbed Woods `(34, 19)` states it is against the rules to use more than **4 items** during a battle (verified turn 207).
 - **Modern Move Mechanics:** String Shot lowers Speed harshly (-2 stages) and hits both foes in double battles (verified turn 80).
 - **Bedroom PC:** Contains 1 free Potion (withdrawn turn 39).
 - **Wall Clock:** Must be set in bedroom before going downstairs (defaults to No on confirmation prompt; verified turns 40-45).
