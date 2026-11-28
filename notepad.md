@@ -161,8 +161,9 @@
   - `screenshots/latest_grid.png` is ONLY written when the settled screen is in the overworld; omit batch-reading `latest_grid.png` whenever a script might stop inside a battle or menu.
 - **Gen 6+ Critical Hit Multiplier (`1.5x`) & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145):**
   - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage. Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
-- **Item Ball vs Apricorn Tree Pickup Boxes (Verified Turns 125, 209):**
-  - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`).
+- **Item Ball, Blue Item Ball, Hidden Bush, & Apricorn Tree Pickups (Verified Turns 125, 209, 212, 223):**
+  - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`). **Blue-capped Item Balls** hold Battle/Held Items (e.g. `Silver Powder` at Secret Webbed Woods `(32, 21)`, Turn 223).
+  - Standalone **round green bushes** can hold hidden items when interacted with `A` (e.g. `1x Repel` at Route 2 `(10, 19)`, Turn 212).
   - **Apricorn Trees** display **4** text boxes (`"It's an Apricorn Tree..."` -> `"Hey! There's an Apricorn growing!"` -> `"<Player> found one <Apricorn>!"` -> `"<Player> put away..."`). Always use a bounded coordinate-checked dismissal guard after plucking an Apricorn.
 - **Forest Tree Collision Footprint (Verified Turn 123):** Large forest trees occupy a 2-row collision base; always route along clear grass/dirt channels in `latest_grid.png` rather than stepping into tree-trunk shadow tiles.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
