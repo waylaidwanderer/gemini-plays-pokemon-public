@@ -6,7 +6,7 @@
 - Status: Attempt 18 Active! SAGE Lv 90 (48/269 HP, 265 Spe, Overgrow Active!). Glacia DEFEATED! 3 Revives remaining. Cash: ¥16,448.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 48/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (16/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 48/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (15/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
