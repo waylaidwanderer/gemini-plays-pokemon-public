@@ -108,7 +108,11 @@
 - **Menu/Dialogue Dismissal Guard & Bounded Loops in `run_code` (Verified Turns 78–79, 83, 94–95):**
   - **NEVER write unbounded `while` loops** in `run_code` (caused a 120s timeout on Turn 94 when Nurse Joy's closing box stayed open at `(7, 12)`). Always use bounded `for _ in range(N):` loops and break immediately when `npos == pos` (which also cleanly halts on wild encounters!).
   - Before chaining overworld walking after menus/NPCs, loop `["B", "sleep 800", "<FirstStepDir>"]` (up to 4–5 iterations) until `mgba.get_coordinates()` confirms a 1-tile delta from the starting tile.
-- **Pause Menu Cursor Memory (Verified Turn 93):** `PAUSE` remembers the last selected icon rather than resetting to top-left `(0,0)`. Always check `PAUSE` visually before pressing `A`.
+- **Pause Menu Cursor Memory & 2-Column Layout (Verified Turns 93, 116–118):**
+  - `PAUSE` remembers the last selected icon rather than resetting to top-left `(0,0)`. Always check `PAUSE` visually before pressing `A`.
+  - Left column (3 items): `(0,0) PokéDex`, `(1,0) Pokémon`, `(2,0) Bag`.
+  - Right column (4 items): `(0,1) <PlayerName>` (Trainer Card), `(1,1) Save`, `(2,1) Options`, `(3,1) Exit`. Pressing `Left` from `(0,1) <PlayerName>` lands on `(0,0) PokéDex`.
+  - Inside **Pokémon Summary**, `Left`/`Right` flips across 5 Summary pages and `Up`/`Down` switches between party Pokémon on the same page.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
