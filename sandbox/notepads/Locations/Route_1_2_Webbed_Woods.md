@@ -13,6 +13,7 @@
 - **Signpost at `(16, 10)`:** `-Webbed Woods- Watch for falling arachnids`
 - **Items & Trees Found:**
   - `(20, 7)` (via north-west clearing `(15, 8) -> (20, 8)`): **1x Antidote** (collected Turn 104).
+  - `(19, 19)` (north-west bank of pond via south-west channel `(22, 24) -> (17, 24) -> (17, 21) -> (19, 20)`): **1x PokéBall** (collected Turn 125).
   - `(33, 22)` (east clearing below pond): **Apricorn Tree** — yielded **1x Blu. Apricorn** (collected Turn 110).
 - **NPCs & Landmarks:**
   - `(33, 19)`: Unread signpost just above Apricorn clearing.

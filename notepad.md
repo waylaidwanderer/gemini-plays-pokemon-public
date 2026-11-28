@@ -82,6 +82,7 @@
 - **Signpost at `(16, 10)`:** `-Webbed Woods- Watch for falling arachnids`
 - **Items & Trees Found:**
   - `(20, 7)` (via north-west clearing `(15, 8) -> (20, 8)`): **1x Antidote** (collected Turn 104).
+  - `(19, 19)` (north-west bank of pond via south-west channel `(22, 24) -> (17, 24) -> (17, 21) -> (19, 20)`): **1x PokéBall** (collected Turn 125).
   - `(33, 22)` (east clearing below pond): **Apricorn Tree** — yielded **1x Blu. Apricorn** (collected Turn 110).
 - **NPCs & Landmarks:**
   - `(33, 19)`: Unread signpost just above Apricorn clearing.
@@ -112,7 +113,9 @@
   - `PAUSE` remembers the last selected icon rather than resetting to top-left `(0,0)`. Always check `PAUSE` visually before pressing `A`.
   - Left column (3 items): `(0,0) PokéDex`, `(1,0) Pokémon`, `(2,0) Bag`.
   - Right column (4 items): `(0,1) <PlayerName>` (Trainer Card), `(1,1) Save`, `(2,1) Options`, `(3,1) Exit`. Pressing `Left` from `(0,1) <PlayerName>` lands on `(0,0) PokéDex`.
-  - Inside **Pokémon Summary**, `Left`/`Right` flips across 5 Summary pages and `Up`/`Down` switches between party Pokémon on the same page.
+  - Inside **Pokémon Summary**, `Left`/`Right` flips across 5 Summary pages (`1: Info`, `2: Stats & Ability`, `3: Battle Moves`, `4: Contest Moves`, `5: Ribbons`) and `Up`/`Down` switches between party Pokémon on the same page. Exiting from Summary all the way back to the overworld requires **4** `B` presses (`Summary -> Sub-menu -> Party -> PAUSE -> Overworld`).
+- **Item Ball / Apricorn Pickup Boxes (Verified Turn 125):** Overworld item pickups display **2** sequential text boxes (`"<Player> found one <Item>!"` with fanfare `~1800ms`, then `"<Player> put away the <Item> in the <Pocket>."`). Always press `B` **twice** (`["A", "sleep 2000", "B", "sleep 1200", "B", "sleep 800"]`) before attempting overworld movement.
+- **Forest Tree Collision Footprint (Verified Turn 123):** Large forest trees occupy a 2-row collision base; always route along clear grass/dirt channels in `latest_grid.png` rather than stepping into tree-trunk shadow tiles.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule:** **Blacking out in the wild is costly, but money already spent is safe.** Always spend spare money stocking up on healing items, Poké Balls, and supplies before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
