@@ -16,6 +16,7 @@
 ## Wild Encounters Observed
 - **Kernut** (Grass, #012, Kernel Pokémon) — Lv. 4 (caught male, nicknamed **Helios**, turn 326; knows Absorb).
 - **Leonte** (Flying/Ground, #015) — Lv. 3 (seen turn 333).
+- **Combee** (Bug/Flying, Route 2) — Lv. 4 (seen turn 338).
 
 ## Trainers
 - **PKMN Trainer Willow** (Route 1 west, defeated turn 167): Crackliss ♀ Lv. 5 (₽100).
