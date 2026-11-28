@@ -20,8 +20,8 @@
   - `4F (16, 1)` <-> `5F (16, 1)`
   - `5F (12, 1)` <-> `6F (15, 2)` (Rooftop Square)
 - **6F Rooftop Square**:
-  - Vending Machines at `(11, 1)` and **`(12, 2)`** (`Fresh Water ¥200`, `Soda Pop ¥300`, `Lemonade ¥350`; note `"Clang! ▼"` + `"<DRINK> popped out! ▼"` needs **two** `B` presses per drink).
-  - **Thirsty Girl** wanders around **`(5, 5)`**: trading `Fresh Water` yields **`TM13 (Ice Beam)`** (taught to `NAUTILUS` replacing `Mega Punch`, Turn 617).
+  - Vending Machines at `(11, 1)` and **`(12, 2)`** (`stand at (12, 3) facing Up`: `1st A` prints `"A vending machine! Here's the menu! ▼"`, `2nd A` opens `[0: Fresh Water ¥200, 1: Soda Pop ¥300, 2: Lemonade ¥350]`; `"Clang! ▼"` + `"<DRINK> popped out! ▼"` needs **two** `B` presses per drink).
+  - **Thirsty Girl** wanders in **`x = 4..6, y = 4..6`** (`approach from (12, 3) via (6, 3) -> (6, 5)`): trading `Fresh Water` yields **`TM13 (Ice Beam)`**, `Soda Pop` yields **`TM48 (Rock Slide)`**, and `Lemonade` yields **`TM49 (Tri Attack)`** (`spaced A presses select ►YES and Row 0 of the dynamic drink submenu`).
 
 ## Route 16 — Secret `HM02 (Fly)` & `Snorlax` Path (Verified Turns 618–629, 817–818)
 - **Fast Route from Celadon Center `(41, 10)` to `Snorlax` `(26, 10)`**: `Down * 2` -> `(41, 12)` -> `Left * 27` along brick boulevard -> `(14, 12)` -> `Down * 2` -> `(14, 14)` -> `Left * 12` (dodging any Dept. Store NPC via `y = 15`) -> `(2, 14)` -> `Down * 4` -> `(2, 18)` -> `Left * 15` -> **`Route 16 (27, 10)`** *(Snorlax sleeps at `(26, 10)`; lower Cycling Road Gatehouse entrance is directly behind Snorlax at `(23, 10)`).*
