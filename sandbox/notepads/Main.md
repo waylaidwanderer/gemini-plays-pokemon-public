@@ -31,9 +31,9 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 19 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27561, Attempt 19)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
-    - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27439, Attempt 18)!
-    - [x] Elite Four Member #4 Drake DEFEATED (Attempt 18)!
+    - [ ] Elite Four Member #2 Phoebe (Active Attempt 19!)
+    - [ ] Elite Four Member #3 Glacia
+    - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
