@@ -330,7 +330,7 @@
   - **Weaknesses:** **`2.5x` Ground** (Monomyth double-weakness cap, Verified Turn 406!), 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (`+Spe` — Verified Turns 357 & 444 `+2 Speed` gains!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Held Item:** None (`Oran Berry` currently in Bag; re-equip after Bastion)
+- **Held Item:** None (`Oran Berry` consumed in Bastion boss fight)
 - **Stats (Lv11, Turn 444):** HP 33/33 | Atk 16 | Def 18 | SpA 19 | SpD 18 | Spe 23
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, Physical, **40 BP** [buffed in Monomyth, Verified Turn 427!], 35 PP — 10% chance to lower foe Speed)
