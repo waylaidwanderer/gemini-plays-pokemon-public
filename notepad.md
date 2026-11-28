@@ -215,8 +215,10 @@
     - **Slugma** (`Fire`, Lv6 — encountered at `(8, 17)` on Turn 345).
     - **Tagling** (`#044`, **Infraction Pokémon**, **`Poison / Dark`**!! Lv6 — encountered at `(11, 7)` on Turn 349 & caught **`Chroma`** on Turn 356; knows `Acid` and `Gastro Acid`; PokéDex notes they are companions to thugs/hoodlums).
   - `(2, 14..18)`: Ladder climbing north brick wall behind Bastion onto elevated upper catwalk `(0..4, 6..14)`.
-  - **Upper North Catwalk (`y=6..9`, Verified Turns 348–350):**
-    - `(6..7, 7..8)`: Giant ventilation fan; walkable path passes cleanly behind it along `y=6` (`(4, 6) -> (11, 6)+`; broken glass shards on floor are walkable without chip damage), connecting east to a downward ladder near `x=17..18`.
+  - **Upper North Catwalk (`y=6..9`, Verified Turns 348–368):**
+    - `(6..7, 7..8)` & `(13..14, 7..8)`: Giant ventilation fans; walkable path passes behind them along `y=6` (`(4, 6) -> (16, 6)`), then descends ladder `(17, 7..13)` to mid-terrace (broken ladder `(15, 13..14)` is impassable).
+    - Mid-terrace leads east `(18, 12) -> (24, 13) -> (28, 10)` to downward ladder `(29, 10..15)` onto lower east floor (`(38, 24)` second doorway visible to the east across elevation wall `x=34|35`).
+    - Lower floor loops south around furnace `(26..27, 22)` along `y=24` (`(29, 24) -> (23, 24)`), north under the overhead pipe `(23, 21..17)`, and west to **`(14, 15)` Purple Item Ball = `Flint & Steel` (Key Item — COLLECTED Turn 371!)**.
   - `(6..7, 10..12)` & `(10..11, 10..12)`: Two unlit glass-blowing furnaces; cyan spiral graffiti tag at `(14, 10..11)` and purple-capped Item Ball visible on east terrace at `(14, 15)`.
 
 
@@ -249,7 +251,7 @@
 - **Gen 6+ Critical Hit Multiplier (`1.5x`) & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145):**
   - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage. Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
 - **Item Ball, Blue Item Ball, Hidden Bush, & Apricorn Tree Pickups (Verified Turns 125, 209, 212, 223):**
-  - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`). **Blue-capped Item Balls** hold Battle/Held Items (e.g. `Silver Powder` at Secret Webbed Woods `(32, 21)`, Turn 223).
+  - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`). **Blue-capped Item Balls** hold Battle/Held Items (e.g. `Silver Powder` at Secret Webbed Woods `(32, 21)`, Turn 223), and **Purple-capped Item Balls** hold Key Items (e.g. `Flint & Steel` at Catsear Industrial Glassworks `(14, 15)`, Turn 371).
   - Standalone **round green bushes** can hold hidden items when interacted with `A` (e.g. `1x Repel` at Route 2 `(10, 19)`, Turn 212).
   - **Apricorn Trees** display **4** text boxes (`"It's an Apricorn Tree..."` -> `"Hey! There's an Apricorn growing!"` -> `"<Player> found one <Apricorn>!"` -> `"<Player> put away..."`).
   - **Berry Trees (Verified Turn 319):** Require **3 `A` presses** followed by **3 `B` presses** (`["A", "sleep 2000", "A", "sleep 1800", "A", "sleep 2000", "B", "sleep 1800", "B", "sleep 1800", "B", "sleep 1200"]`), because box 2 is `"Do you want to pick the <X> Berries? > Yes / No"` (pressing `B` declines picking!) and box 5 is `"The soil returned to its soft and loamy state."` Never run a multi-step `["B", "<Dir>"]` dismissal loop onto a **tall grass** tile, since a wild encounter keeps coordinates unchanged.
