@@ -6,13 +6,13 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Woke up in Iris's Bedroom (Turn 20); Monty is waiting outside to show us a glowing blue crate in the forest.
+- **Progression:** Obtained starter **Crackliss** (`Fire/Poison`); back in starting town Pokémon Center `(7, 12)` (Turn 53). Next: ask Mom at home for permission to challenge the **Catsear City Gym Leader**.
 - **Badges:** 0
 
 ## Notepad Index
 - [Mechanics Overview](Mechanics/Overview.md) — Verified game settings, Athanto survival/attrition & economy rules, Naming Screen grid, dialogue controls.
-- [Home Town](Locations/Home_Town.md) — Starting town notes, Iris's house, Big Bro & Monty intro context.
-- `Party.md` — Active team roster, nicknames, movesets, and roles (to be created upon receiving starter).
+- [Party Roster](Party.md) — Active team types, custom natures, abilities, movesets, and matchup notes.
+- [Home Town](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, Webbed Woods intro.
 - `Scratchpad/` — Active routing, battle prep, and temporary testing notes.
 
 
@@ -83,6 +83,28 @@
 
 
 
+
+
+<hr>
+
+<h1><code>Party</code></h1>
+
+# Active Party Roster — Pokémon Monomyth
+
+## 1. Crackliss (♂) — Starter (#004)
+- **Nickname Target:** `Seraph` (missed Monty's 1-time prompt on Turn 51 due to `B`-advance; checking Summary/Name Rater to apply ASAP — **remember: do NOT use `B`-advance right after catching wild Pokémon so we never miss the capture nickname prompt!**)
+- **Type:** `Fire / Poison` (Verified Turn 53 Summary)
+  - **Immunities:** Burn, Poison / Badly Poisoned, Poison Powder
+  - **4x Resistances:** Grass, Bug, Fairy
+  - **2x Resistances:** Fire, Ice, Fighting, Poison, Steel
+  - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
+- **Nature:** `Pompous` (Custom Monomyth nature!)
+- **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
+- **Base Stats at Lv5:** HP 20 | Atk 10 | Def 11 | SpA 11 | SpD 11 | Spe 13 (Next Lv: 26 EXP)
+- **Current Moves:**
+  - `Constrict` (Normal, 35 PP — lowers foe Speed)
+  - `Leer` (Normal, 30 PP — lowers foe Defense)
+  - `Wrap` (Normal, 20 PP)
 
 
 <hr>
