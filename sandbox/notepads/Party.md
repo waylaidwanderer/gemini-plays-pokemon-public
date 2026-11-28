@@ -23,9 +23,9 @@
 - **Nature:** `Furtive` (`+Atk` — Verified Turn 206 Lv6 stat gains!)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 50%/33% HP)
 - **Held Item:** `Oran Berry` (equipped Turn 404)
-- **Stats (Lv7, Turn 312):** HP 23/23 | Atk 14 | Def 11 | SpA 12 | SpD 12 | Spe 11
+- **Stats (Lv8, Turn 426):** HP 25/25 | Atk 15 | Def 12 | SpA 13 | SpD 13 | Spe 12
 - **Current Moves (FULL 4 SLOTS):**
-  - `Constrict` (Normal, 35 PP)
+  - `Infestation` (Bug, Special, 20 PP, 100% Acc — traps foe & deals 1/8 Max HP/turn for 4–5 turns! Learned Lv8 on Turn 426 over `Constrict`)
   - `String Shot` (Bug, 40 PP)
   - `Poison Sting` (Poison, 35 PP — learned Lv3)
   - `Absorb` (Grass, 25 PP — learned Lv5 on Turn 175!)
