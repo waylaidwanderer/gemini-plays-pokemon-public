@@ -257,7 +257,7 @@
 - **Gen 6+ Critical Hit Multiplier (`1.5x`), `2.5x` Double-Weakness Multiplier, & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145, 406):**
   - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage.
   - **Custom Type-Chart Multiplier (`Turn 406`, Catsear Gym Guide):** Moves super-effective against **both** of a dual-type Pokémon's types deal **`2.5x` damage** (NOT `4x`!).
-  - Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
+  - Inside battle, manually switching (`Shift`) or replacing a fainted Pokémon **swaps** Slot 0 `(0, 0)` with the selected slot `(r, c)` for the remainder of that battle (Verified Turn 454), while overworld Party order resets afterward.
 - **Item Ball, Blue Item Ball, Hidden Bush, & Apricorn Tree Pickups (Verified Turns 125, 209, 212, 223):**
   - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`). **Blue-capped Item Balls** hold Battle/Held Items (e.g. `Silver Powder` at Secret Webbed Woods `(32, 21)`, Turn 223), and **Purple-capped Item Balls** hold Key Items (e.g. `Flint & Steel` at Catsear Industrial Glassworks `(14, 15)`, Turn 371).
   - Standalone **round green bushes** can hold hidden items when interacted with `A` (e.g. `1x Repel` at Route 2 `(10, 19)`, Turn 212).
