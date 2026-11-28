@@ -191,7 +191,11 @@
 - **Lower East Path (`y=17..19`):**
   - `(14, 18)`: **Youngster Paulie** — **DEFEATED Turn 311** (`Poliwag` ♂ Lv7 — knew `Water Gun` & `Water Sport`, swept by `Demeter` ending at `22/22` HP! Post-battle hint: `"A Poliwhirl can evolve into a bunch of different kinds of Pokémon."`).
   - **Berry Patch at `(23, 14)-(24, 14)`:** `(23, 14)` yielded **2x Oran Berries** (Turn 320); `(24, 14)` yielded **2x Cheri Berries** (Turn 319).
-  - **Southern Pond `(23..25, 22..24)`:** Underwater Wooper visual at `(22, 23)`; **Item Ball at `(25, 26)`** on south bank (Surf-gated or reachable from south-east; check from east side!).
+  - **Southern Pond `(23..25, 22..24)`:** Underwater Wooper visual at `(22, 23)`; **Item Ball at `(25, 26)`** on south bank (blocked from east by cliff along `x=32, y=22..27` — Surf-gated!).
+  - **Outside Catsear Industrial Glassworks (`x >= 35`):**
+    - `(35, 20)`: **Apricorn Tree** — yielded **1x Grn. Apricorn** (Turn 328).
+    - `(37, 18)`: Camper Trainer facing `Right`.
+    - `(38, 11)-(39, 11)`: Stairs connecting down from northern Route 3 path.
 - **Wild Encounters Verified:**
   - **Venipede** (`Bug / Poison`, Lv4 — encountered at `(23, 15)` on Turn 320).
   - **Leonte** (`Flying` Fakemon, Lv4 — encountered at `(22, 16)` on Turn 323).
