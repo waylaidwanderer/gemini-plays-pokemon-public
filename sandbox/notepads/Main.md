@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 91 (136/272 HP, 267 Spe, Revived!). 2 Revives remaining. Cash: ¥16,448.
+- Status: Attempt 18 Active! SAGE Lv 91 (136/272 HP, 267 Spe, Revived!). Shelgon & Flygon DEFEATED! 2 Revives remaining. Cash: ¥16,448.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 136/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (11/20), Quick Attack (28/30). Status: OK.
