@@ -5,6 +5,9 @@
   - **1F:** Nurse Joy at `(7, 10)`, PC at `(10, 11)`, **Name Rater** at `(1, 14)` (talk from `(3, 14)`), **Move Relearner** at `(1, 15)` (talk from `(3, 15)`), exit mat at `(7, 15)`.
   - **2F Mezzanine (via stairs `(1, 10)->(1, 7)`):** **Poké Mart** (`(2, 5)` facing `Up`: PokéBall ¥200, Potion ¥300, Antidote ¥100, Paralyze Heal ¥250, Awakening ¥300) & Link Center! Stocked up on Turn 82 (now holding 10 PokéBalls, 8 Potions, 2 Antidotes, 1 Paralyze Heal, ¥50 left).
 - **Iris's House:** Door at `(40, 21)` (exits to `(40, 22)` — 16 tiles east of Pokémon Center along `y=22`).
+- **Southern Houses (`y=38`):**
+  - **South-East House `(36, 38)`:** Woman `(3, 5)` taught Mom a sock-knitting pattern; Man `(6, 4)` offers an **In-Game Trade**: wants **`Cottonee`** in exchange for **`Dolleep`** (original wool/doll-sheep Fakemon — Verified Turn 150!).
+  - **South-West House `(28, 38)`:** Elderly couple & child (checking Turn 152).
 - **Northern Terrace & Hilltop:**
   - Stairs at `(31, 18)-(33, 18)` lead to upper terrace; NPC at `(35, 16)` gave **1x Sharp Beak** (Turn 71, boosts Flying moves).
   - Further stairs `(27, 14)-(28, 14)` and `(32, 11)` lead to **Monty's House** at `(32, 9)`.
