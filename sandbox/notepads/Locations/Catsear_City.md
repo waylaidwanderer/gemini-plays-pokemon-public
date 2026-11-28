@@ -21,8 +21,8 @@
     - **Gym Glass Flute Shop `(7, 16)` (Verified Turn 408):** Sells reusable blown-glass flutes — `Red Flute` (`¥5000`), `Blue Flute` (`¥8000`, wakes Sleep!), `Yellow Flute` (`¥8000`, cures Confusion!), `Black Flute` (`¥2000`, lowers wild encounters!), `White Flute` (`¥3000`, raises wild encounters!).
     - **Overworld Forge Pokémon:** `Boomboom` at `(3, 15)` & `(10, 7)` (Original Fakemon — `"Ker-BOOM! This Pokémon is watching the boilers intently"`).
     - **Gym Trainers (`y=8..9` Arena):**
-      - `(7, 9)` facing `Left`: **Kindler Cole** — **DEFEATED Turn 425** (1 Pokémon: `Puddipup` ♂ Lv8 — knew `Leer`, `Bite`, `Ember`, `Charm`).
-      - `(2, 8)` facing `Right`: Elderly Craftsman Trainer.
+      - `(7, 9)` facing `Left`: **Kindler Cole** — **DEFEATED Turn 425** (1 Pokémon: `Puddipup` ♂ Lv8 — knew `Leer`, `Bite`, `Ember`, `Charm`; prize `¥160`).
+      - `(2, 8)` facing `Right`: **Kindler Bronson** — **DEFEATED Turn 443** (2 Pokémon: `Slugma` ♀ Lv6 [`Yawn`, `Ember`] + `Slugma` ♂ Lv7 [`Ember`]).
   - **Trash Can at `(18, 21)`:** Empty (`"Eh, just some trash."`, Turn 272).
   - **West House `(12, 25)`:** Couple watching a TV show about `"Cosmic Pokémon"` / aliens (Turn 277).
   - **Trash Can at `(20, 36)`:** Empty (Turn 278).
