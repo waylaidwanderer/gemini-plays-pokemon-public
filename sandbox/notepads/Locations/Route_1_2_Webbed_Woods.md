@@ -19,7 +19,7 @@
   - `(47, 24)` (south-east dead-end grass pocket via `(38, 21) -> (47, 21) -> (47, 23)`, camouflaged inside tall grass): **1x Potion** (collected Turn 132).
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
-  - `(32, 25)`: **Monty** standing facing up below the Apricorn clearing (check HP before speaking in case of rival battle!).
+  - `(32, 25)`: **Youngster Jimmy** (blonde sprite facing up; 2 Pokémon: `Kernut` ♂ Lv3 + 2nd Pokémon — battled Turn 134).
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
   - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).
