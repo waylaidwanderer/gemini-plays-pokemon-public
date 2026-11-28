@@ -207,9 +207,9 @@
 ## 2. Anansi — Spinarak (♂) — (#017)
 - **Nickname:** `Anansi` (West African spider trickster god of stories; caught Lv2 in Webbed Woods on Turn 106–108)
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
-- **Nature:** `Furtive` (Custom Monomyth nature)
+- **Nature:** `Furtive` (`+Atk` — Verified Turn 206 Lv6 stat gains!)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
-- **Stats (Lv5, Turn 179):** HP 19/19 (reached Lv5 on Turn 175)
+- **Stats (Lv6, Turn 206):** HP 21/21 | Atk 13 | Def 10 | SpA 11 | SpD 11 | Spe 10
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP)
   - `String Shot` (Bug, 40 PP)
