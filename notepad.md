@@ -12,7 +12,8 @@
 ## Notepad Index
 - [Mechanics Overview](Mechanics/Overview.md) — Verified game settings, Athanto survival/attrition & economy rules, Naming Screen grid, dialogue controls.
 - [Party Roster](Party.md) — Active team types, custom natures, abilities, movesets, and matchup notes.
-- [Home Town](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, Webbed Woods intro.
+- [Home Town (Chamomile Town)](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, NPC gifts.
+- [Routes 1 & 2 / Webbed Woods](Locations/Route_1_2_Webbed_Woods.md) — Route layout, wild encounters, trainers, items.
 - `Scratchpad/` — Active routing, battle prep, and temporary testing notes.
 
 
@@ -59,6 +60,17 @@
   - Won Rock-Paper-Scissors with **Paper** (both Monty and Willow threw Rock!), earning first pick of the three custom Monomyth starters.
 
 
+
+
+<hr>
+
+<h1><code>Locations/Route_1_2_Webbed_Woods</code></h1>
+
+# Routes 1 & 2 ("Forest Stroll") & Webbed Woods
+
+## Route 1 (East of Chamomile Town)
+- **Signpost at `(3, 10)`:** `-Routes 1 & 2- Forest Stroll`
+- **Rival Ambush at `(2, 12)`:** Defeated **Willow** (`Marmroot` ♀ Lv5 — knew `Growl` & `Tackle`; prize `¥100`, Seraph reached Lv6) on Turn 90.
 
 
 <hr>

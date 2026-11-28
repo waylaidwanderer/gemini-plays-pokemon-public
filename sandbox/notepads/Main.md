@@ -10,5 +10,6 @@
 ## Notepad Index
 - [Mechanics Overview](Mechanics/Overview.md) — Verified game settings, Athanto survival/attrition & economy rules, Naming Screen grid, dialogue controls.
 - [Party Roster](Party.md) — Active team types, custom natures, abilities, movesets, and matchup notes.
-- [Home Town](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, Webbed Woods intro.
+- [Home Town (Chamomile Town)](Locations/Home_Town.md) — Starting town notes, Iris's house, Pokémon Center/Mart, NPC gifts.
+- [Routes 1 & 2 / Webbed Woods](Locations/Route_1_2_Webbed_Woods.md) — Route layout, wild encounters, trainers, items.
 - `Scratchpad/` — Active routing, battle prep, and temporary testing notes.
