@@ -6,7 +6,7 @@
 - Status: Attempt 19 Active! Sidney DEFEATED (5-0 sweep)! Advancing to Room 2 Phoebe. SAGE Lv 91 (245/272 HP). Cash: ¥6,874 (¥1,974 + ¥4,900). 7 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 92) - Lead! HP: 247/274. Max HP: 274. Atk 205, Def 149, SpA 223, SpD 200, Spe 270. Moves: Bullet Seed (12/30), Aerial Ace (16/20), Facade (16/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 92) - Lead! HP: 193/274. Max HP: 274. Atk 205, Def 149, SpA 223, SpD 200, Spe 270. Moves: Bullet Seed (10/30), Aerial Ace (16/20), Facade (16/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -37,6 +37,8 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Minimal Test Protocol for Move Selection (Turn 27569-27572 Discovery): Chaining trailing B presses immediately after confirming a move can cancel move selection back to the main battle menu. To confirm moves cleanly without accidental cancellation, omit trailing B presses after the final confirmation A press.
+- Level 92 SAGE Stat Verification (Turn 27580 Discovery): SAGE reached Level 92! Max HP 274, Atk 205, Def 149, SpA 223, SpD 200, Spe 270.
 - Party Menu Directional Throttling (Turn 27513-27514 Discovery): On the party replacement screen, rapid directional inputs (<200ms) can be throttled by the engine. Using >= 250ms spacing between directional presses guarantees reliable row navigation.
 - Wallace Milotic Ice Beam Damage: At Lv 91 (198 SpD), SAGE took only 34 damage from Wallace's Ace Milotic Lv 58 Ice Beam (136 -> 102 HP), confirming SAGE easily survives multiple non-STAB ice attacks.
 - Sacrificial Revive Clean Switch vs Wallace: Guava Lv 30 absorbed Wailord's Blizzard and fainted, allowing SAGE to enter for free with 136 HP and 267 Speed, cleanly OHKOing Wailord with Facade.
