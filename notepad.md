@@ -330,8 +330,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 18 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
-    - [ ] Elite Four Member #2 Phoebe (Dusclops #1, #2 & Banette #1 DEFEATED!)
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
+    - [ ] Elite Four Member #3 Glacia (Active!)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -393,12 +393,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
 ## Elite Four Attempt 18 (Active)
-- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Sidney DEFEATED (5-0), Phoebe (3 of 5 Pokémon defeated: Dusclops #1, #2, Banette #1). 4 Revives remaining. Cash: ¥6,048.
+- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Sidney DEFEATED (5-0), Phoebe DEFEATED! 4 Revives remaining. Cash: ¥11,148.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
   2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
-  4. Defeat Phoebe in Room 2 (3 of 5 defeated, battling Sableye Lv 50, +¥5,100).
+  4. [x] Phoebe DEFEATED (+¥5,100, Cash: ¥11,148).
+  5. Challenge and defeat Glacia in Room 3 (+¥5,300).
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
@@ -5074,10 +5075,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). 4 of 5 Phoebe Pokémon DEFEATED! 4 Revives remaining. Cash: ¥6,048.
+- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Phoebe DEFEATED! 4 Revives remaining. Cash: ¥11,148.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 72/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 72/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (5/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -5093,7 +5094,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x4 (1 consumed Turn 27377 for Sacrificial Revive on SAGE, 4 remaining!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥6,048 (¥4,900 won from Sidney)
+- Money: ¥11,148 (¥4,900 from Sidney, ¥5,100 from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5102,8 +5103,8 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 18 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
-    - [ ] Elite Four Member #2 Phoebe (Dusclops #1, #2 & Banette #1 DEFEATED!)
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
+    - [ ] Elite Four Member #3 Glacia (Active!)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

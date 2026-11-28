@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). 4 of 5 Phoebe Pokémon DEFEATED! 4 Revives remaining. Cash: ¥6,048.
+- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Phoebe DEFEATED! 4 Revives remaining. Cash: ¥11,148.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 72/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (6/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 72/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (5/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -22,7 +22,7 @@
 - Revive x4 (1 consumed Turn 27377 for Sacrificial Revive on SAGE, 4 remaining!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥6,048 (¥4,900 won from Sidney)
+- Money: ¥11,148 (¥4,900 from Sidney, ¥5,100 from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -31,8 +31,8 @@
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 18 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
-    - [ ] Elite Four Member #2 Phoebe (Dusclops #1, #2 & Banette #1 DEFEATED!)
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
+    - [ ] Elite Four Member #3 Glacia (Active!)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 

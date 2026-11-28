@@ -20,8 +20,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 18 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
-    - [ ] Elite Four Member #2 Phoebe (Dusclops #1, #2 & Banette #1 DEFEATED!)
-    - [ ] Elite Four Member #3 Glacia
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
+    - [ ] Elite Four Member #3 Glacia (Active!)
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -83,12 +83,13 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - SAGE (Level 89 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 266, Atk 199, Def 144, SpA 216, SpD 194, Spe 262. All PP fully restored!
 
 ## Elite Four Attempt 18 (Active)
-- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Sidney DEFEATED (5-0), Phoebe (3 of 5 Pokémon defeated: Dusclops #1, #2, Banette #1). 4 Revives remaining. Cash: ¥6,048.
+- Status: Attempt 18 Active! SAGE Lv 90 (72/269 HP, 265 Spe, Overgrow Active!). Sidney DEFEATED (5-0), Phoebe DEFEATED! 4 Revives remaining. Cash: ¥11,148.
 - Immediate Plan:
   1. [x] Purchase 5 Revives for ¥7,500 at Mart counter (16, 4).
   2. [x] Enter Gate (9, 1) and ascend Grand Staircase to Room 1 Sidney.
   3. [x] Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,048, SAGE Lv 90!).
-  4. Defeat Phoebe in Room 2 (3 of 5 defeated, battling Sableye Lv 50, +¥5,100).
+  4. [x] Phoebe DEFEATED (+¥5,100, Cash: ¥11,148).
+  5. Challenge and defeat Glacia in Room 3 (+¥5,300).
   6. Glacia DEFEATED (Bullet Seed Sealeos/Walrein, Facade Glalies, +¥5,300).
   7. Drake DEFEATED (Facade sweep, Sacrificial Revive on Salamence to reset Intimidate, +¥5,500).
   8. Champion Wallace DEFEATED (STAB Overgrow Bullet Seed sweep)!
