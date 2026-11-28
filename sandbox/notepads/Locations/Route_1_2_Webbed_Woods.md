@@ -48,6 +48,7 @@
   - Staircase ascending east cliff at `(22, 17)-(22, 18)`:
     - `(29, 16)`: **Apricorn Tree** — yielded **1x Pnk. Apricorn** (Turn 215).
     - `(35, 13)`: Hidden forest entrance warp into **Secret Webbed Woods Sub-Map** at `(10, 45)` (Turn 216).
+  - **South Exit to Catsear City:** Paved road continues south from `(17, 18)` down stairs `(17, 32)-(18, 32)` -> west along `y=34` to `(13, 34)` -> south along `x=13..14` through `(13, 44)`, seamlessly transitioning into **Catsear City `(18, 0)`** (Turn 253).
 
 ## Secret Webbed Woods Sub-Map (Entered via Route 2 `(35, 13)`)
 - **Entrance Warp `(10, 45)`:** Returns to Route 2 eastern cliff `(35, 13)`.
