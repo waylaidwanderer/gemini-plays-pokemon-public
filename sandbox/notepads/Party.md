@@ -42,13 +42,14 @@
 ## 4. Demeter — Kernut (♀) — (#012, Original Fakemon)
 - **Nickname:** `Demeter` (Greek goddess of grain, seeds & harvest; caught Lv3 on East Route 1 on Turn 196–198)
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
-- **Nature:** `Narrow-minded` (`-Atk` — Verified Turn 212 Lv5 stat gains)
+- **Nature:** `Narrow-minded` (`+Def, -Atk` — Verified Turn 296 Lv7 `+2 Def` gain!)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv6, Turn 295):** HP 13/20 | Atk 6 | Def 11 | SpA 9 | SpD 11 | Spe 9
-- **Current Moves:**
+- **Stats (Lv7, Turn 296):** HP 15/22 | Atk 7 | Def 13 | SpA 9 | SpD 12 | Spe 9
+- **Current Moves (FULL 4 SLOTS):**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
   - `Absorb` (Grass, Special, learned Lv4 on Turn 208!)
+  - `Ingrain` (Grass, Status, learned Lv6 on Turn 296 — passive HP recovery every turn!)
 
 ## 5. Electra — Joltik (♀) — (#019)
 - **Nickname:** `Electra` (Greek myth *Ēlektra* = "shining/amber", root of electricity; caught Lv3 in Secret Webbed Woods Sub-Map on Turn 230–232)
