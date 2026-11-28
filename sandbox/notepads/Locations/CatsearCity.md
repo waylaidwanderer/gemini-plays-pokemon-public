@@ -14,3 +14,9 @@
 ## NPCs & Notes
 - **Willow `(32, 17)` (outside Pokémon Center):** Learned our starters are from Edelweiss Labs. Says the Gym Leader would know how to find Edelweiss Labs, and **Monty is already on Route 3** trying to find the Gym Leader!
 - **In-Game Trade `(29, 24)` (Flower Garden south of Pokémon Center):** Offers **Shellos** (from North Athanto) in exchange for a **Minccino**! Keep an eye out for wild Minccino on Route 3!
+- **Houses Visited:**
+  - `(12, 25)`: Cosmic Pokémon TV show couple (flavor).
+  - `(22, 35)`: Retired owner of the **old glassworks on the edge of town** — says **Bastion** was his apprentice back in the day!
+  - `(29, 35)`: Ditto house (PokéManiac + girlfriend).
+- **South Exit `(28..30, 41)`:** Currently blocked by two workers with a crate.
+- **East Exit `(37+, 19..20)`:** Leads east past the Pokémon Center toward **Route 3** (where Monty went to find Bastion).
