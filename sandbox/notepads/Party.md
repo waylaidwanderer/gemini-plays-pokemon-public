@@ -47,7 +47,7 @@
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
 - **Stats (Lv8, Turn 313):** HP 23/23 | Atk 7 | Def 14 | SpA 10 | SpD 13 | Spe 10
 - **Current Moves (FULL 4 SLOTS):**
-  - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
+  - `GrassWhistle` (Grass, Status, 15 PP — puts foe to Sleep! Learned Lv8 on Turn 314 over `Bide`; great for wild captures!)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
   - `Absorb` (Grass, Special, learned Lv4 on Turn 208!)
   - `Ingrain` (Grass, Status, learned Lv6 on Turn 296 — passive HP recovery every turn!)

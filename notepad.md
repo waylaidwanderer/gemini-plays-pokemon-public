@@ -269,7 +269,7 @@
   - **Warning:** Sending directional inputs (`Up`/`Down`/`Left`/`Right`) before the previous round's end-of-turn animations finish will move the `Fight / Bag / Pokémon / Run` cursor! Whenever spamming a repeatable attack, move selection once to the top-left move slot (`Fight -> Slot 0`) and use ONLY `A`/`B` on subsequent rounds so the cursor can never drift onto `Bag` or `Run`.
   - **Move Menu Cursor Memory (Verified Turns 225, 308):** At the start of every new battle, each Pokémon's `Fight` move cursor resets to **`(0, 0)` (Slot 0)**, and then remembers the last move selected for the remainder of that battle.
   - **Battle Menu Cursor After Throwing a PokéBall (Verified Turn 229):** If a thrown PokéBall breaks open, `"What will <Lead> do?"` keeps the cursor on **`> Bag` `(0, 1)`** (and `Bag` stays on `PokéBalls -> > PokéBall`). Press `Left` to return to `Fight`, or `A` to throw another Ball directly.
-  - **Safe Post-Capture Progression (Verified Turns 107, 197, 230):** Never press `B` after throwing a PokéBall. Once `"Yeehaw! <Pokémon> was caught!"` appears, send 4 spaced `A` presses (`["A", "sleep 2500", "A", "sleep 2500", "A", "sleep 3500", "A", "sleep 2500"]`) to advance through EXP share and PokéDex registration safely without skipping 4-move-slot level-up prompts or declining the Nickname prompt.
+  - **Safe Post-Capture & Post-KO Level-Up Progression (Verified Turns 107, 197, 230, 314):** Never press `B` after throwing a PokéBall or when a party member might evolve. However, keep `A` batches to **2–3 presses max** whenever a 4-move-slot Pokémon (`Seraph`, `Anansi`, `Demeter`) levels up, because 5+ `A` presses will automatically confirm `Delete a move? > Yes -> Slot 0` (`Turn 314`). (Any overwritten level-up move can be freely restored at any Pokémon Center 1F Move Relearner.)
 
 
 
@@ -328,7 +328,7 @@
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
 - **Stats (Lv8, Turn 313):** HP 23/23 | Atk 7 | Def 14 | SpA 10 | SpD 13 | Spe 10
 - **Current Moves (FULL 4 SLOTS):**
-  - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
+  - `GrassWhistle` (Grass, Status, 15 PP — puts foe to Sleep! Learned Lv8 on Turn 314 over `Bide`; great for wild captures!)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
   - `Absorb` (Grass, Special, learned Lv4 on Turn 208!)
   - `Ingrain` (Grass, Status, learned Lv6 on Turn 296 — passive HP recovery every turn!)
