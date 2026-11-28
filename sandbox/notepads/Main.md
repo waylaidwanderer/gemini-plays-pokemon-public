@@ -13,6 +13,7 @@
 
 ## Party
 - **Caspian** (Mishimizu ♂, #007, Lv. 6, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 23, Atk 12, Def 12, SpA 11, SpD 12, Spe 13 | Moves: Scratch, Growl, Assist.
+- **Ariadne** (Spinarak ♀, #017, Lv. 2, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 13, Atk 7, Def 6, SpA 7, SpD 7, Spe 6 | Moves: Constrict, String Shot.
 
 ## Rivals' Starters
 - **Monty:** Marmroot ♂ (Groundhog Pokémon)
