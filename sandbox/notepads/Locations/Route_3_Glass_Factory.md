@@ -8,7 +8,7 @@
 - **Apricorn Tree at `(9, 14)`:** Yielded **1x Ylw. Apricorn** (Turn 301).
 - **Northern Terrace (`(11, 11)-(12, 11)` stairs):**
   - `(7, 7)`: **1x Awakening** camouflaged in tall grass `(8..11, 6..10)` (collected Turn 303).
-  - `(16, 7)`: Female Trainer facing `Down` beside small pond `(14..15, 8..9)`; upper path continues east via `(16..18, 8)`.
+  - `(16, 7)..(38, 11)`: **Surf-Gated Upper Ridge (Verified Turns 385, 391)** — Lass at `(16, 7)` and eastern stairs `(38..39, 11)` are completely sealed off by 2x2 ponds `(14..15, 8..9)` on the west and `(38..39, 14..15)` on the east until Surf is obtained.
 - **Lower East Path (`y=17..19`):**
   - `(14, 18)`: **Youngster Paulie** — **DEFEATED Turn 311** (`Poliwag` ♂ Lv7 — knew `Water Gun` & `Water Sport`, swept by `Demeter` ending at `22/22` HP! Post-battle hint: `"A Poliwhirl can evolve into a bunch of different kinds of Pokémon."`).
   - **Berry Patch at `(23, 14)-(24, 14)`:** `(23, 14)` yielded **2x Oran Berries** (Turn 320); `(24, 14)` yielded **2x Cheri Berries** (Turn 319).
