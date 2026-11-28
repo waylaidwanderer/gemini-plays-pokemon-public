@@ -20,7 +20,7 @@
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
 - **Nature:** `Furtive` (Custom Monomyth nature)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
-- **Stats (Lv3, Turn 122):** HP 8/15 | Atk 9 | Def 7 | SpA 8 | SpD 8 | Spe 7
+- **Stats (Lv4, Turn 164):** HP 17/17 | Atk 10 | Def 8 | SpA 9 | SpD 9 | Spe 8
 - **Current Moves:**
   - `Constrict` (Normal, 35 PP)
   - `String Shot` (Bug, 40 PP)

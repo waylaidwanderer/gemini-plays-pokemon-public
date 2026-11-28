@@ -92,7 +92,7 @@
   - `(47, 24)` (south-east dead-end grass pocket via `(38, 21) -> (47, 21) -> (47, 23)`, camouflaged inside tall grass): **1x Potion** (collected Turn 132).
 - **NPCs & Landmarks:**
   - `(34, 19)`: **Trainer Tips Sign** — `"It's against the rules to use more than four items during a battle."` (Verified Turn 127).
-  - `(32, 25)`: **Youngster Jimmy** (blonde sprite facing up; 2 Pokémon: **`Kernut` ♂ Lv3** (`Grass` Fakemon, knows **`Bide`**!) + **`Shope` ♀ Lv4** (fast physical Jackalope Fakemon, knows `Tackle`, hits `Def 7` for `7–8` dmg, `11` on `1.5x` crit)). **Rematch plan:** Lead **`Psyche`** (`Struggle Bug` 2HKOs `Kernut` before `Bide` unleashes!) and keep **`Seraph` Lv7** healthy in reserve to sweep `Shope`!
+  - `(32, 25)`: **Youngster Jimmy** — **DEFEATED Turn 164** (`Kernut` ♂ Lv3 (`Grass`, `Bide`) + `Shope` ♀ Lv4 (Jackalope Fakemon, `Tackle`, high crit rate?)).
 - **Wild Encounters (`(21, 13)..(28, 24)` tall grass):**
   - **Spinarak** (`#017`, `Bug / Poison`, Lv2 — caught `Anansi` Turn 106).
   - **Sleepillar** (`#025`, original Fakemon, `Bug / Psychic`, Lv2, knows `Struggle Bug` — caught `Psyche` Turn 114).
@@ -191,7 +191,7 @@
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
 - **Nature:** `Furtive` (Custom Monomyth nature)
 - **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
-- **Stats (Lv3, Turn 122):** HP 8/15 | Atk 9 | Def 7 | SpA 8 | SpD 8 | Spe 7
+- **Stats (Lv4, Turn 164):** HP 17/17 | Atk 10 | Def 8 | SpA 9 | SpD 9 | Spe 8
 - **Current Moves:**
   - `Constrict` (Normal, 35 PP)
   - `String Shot` (Bug, 40 PP)
