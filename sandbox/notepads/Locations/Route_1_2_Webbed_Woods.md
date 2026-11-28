@@ -51,7 +51,9 @@
 
 ## Secret Webbed Woods Sub-Map (Entered via Route 2 `(35, 13)`)
 - **Entrance Warp `(10, 45)`:** Returns to Route 2 eastern cliff `(35, 13)`.
-- **Paved Fork at `(20, 35)`:** Path branches **east** (`(26, 36) -> (31, 30)`) and **west** (`x <= 19, y=35..36`, pending exploration).
+- **Paved Fork at `(20, 35)`:**
+  - **East Branch:** Leads to `(26, 36) -> (31, 30)`, northern tall grass `(30, 20)..(33, 25)`, and south-east flower-tuft corridor `(32, 35)..(32, 49)`.
+  - **West Branch (`y=35` -> `(10, 35) -> (8, 31)`):** Ends at a **Cuttable Bush at `(8, 30)`** (`"This bush looks like it can be cut down!"`, Verified Turn 241) blocking access to the upper-west pond area (`x <= 24, y <= 29`, which exits via one-way ledge `(25, 27)-(25, 29)`). Return here once HM/TM **Cut** is unlocked!
 - **Items & Trees Verified:**
   - `(32, 30)`: **Apricorn Tree** — yielded **1x Ylw. Apricorn** (Turn 219).
   - `(23, 31)`: **1x Awakening** item ball (Turn 220).
