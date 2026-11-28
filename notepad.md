@@ -324,7 +324,7 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (`+Def, -Atk` — Verified Turn 296 Lv7 `+2 Def` gain!)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv7, Turn 296):** HP 15/22 | Atk 7 | Def 13 | SpA 9 | SpD 12 | Spe 9
+- **Stats (Lv7, Turn 304):** HP 22/22 | Atk 7 | Def 13 | SpA 9 | SpD 12 | Spe 9
 - **Current Moves (FULL 4 SLOTS):**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
@@ -336,7 +336,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (`+Spe` — Verified Turn 297 Lv4 `+2 Speed` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
-- **Stats (Lv4, Turn 297):** HP 7/18 | Atk 8 | Def 9 | SpA 9 | SpD 9 | Spe 10
+- **Stats (Lv4, Turn 304):** HP 18/18 | Atk 8 | Def 9 | SpA 9 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
   - `String Shot` (Bug, Status, 40 PP)
