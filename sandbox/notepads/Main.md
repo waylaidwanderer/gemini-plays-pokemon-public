@@ -12,7 +12,7 @@
 - Big Bro suggested visiting his friend **Bastion**, Gym Leader of **Catsear City**, first (and calling Big Bro via **payphone** to update Pokédex progress!).
 
 ## Party
-- **Caspian** (Mishimizu ♂, #007, Lv. 6, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 23, Atk 12, Def 12, SpA 11, SpD 12, Spe 13 | Moves: Scratch, Growl, Assist.
+- **Caspian** (Mishimizu ♂, #007, Lv. 7, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 25, Atk 14, Def 13, SpA 12, SpD 13, Spe 14 | Moves: Scratch, Growl, Assist.
 - **Ariadne** (Spinarak ♀, #017, Lv. 2, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 13, Atk 7, Def 6, SpA 7, SpD 7, Spe 6 | Moves: Constrict, String Shot.
 
 ## Rivals' Starters
