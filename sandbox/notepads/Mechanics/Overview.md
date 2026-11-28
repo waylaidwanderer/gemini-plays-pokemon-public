@@ -20,13 +20,15 @@
   - `screenshots/latest_grid.png` is ONLY written when the settled screen is in the overworld; omit batch-reading `latest_grid.png` whenever a script might stop inside a battle or menu.
 - **Gen 6+ Critical Hit Multiplier (`1.5x`) & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145):**
   - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage. Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
-- **Item Ball / Apricorn Pickup Boxes (Verified Turn 125):** Overworld item pickups display **2** sequential text boxes (`"<Player> found one <Item>!"` with fanfare `~1800ms`, then `"<Player> put away the <Item> in the <Pocket>."`). Always press `B` **twice** (`["A", "sleep 2000", "B", "sleep 1200", "B", "sleep 800"]`) before attempting overworld movement.
+- **Item Ball vs Apricorn Tree Pickup Boxes (Verified Turns 125, 209):**
+  - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`).
+  - **Apricorn Trees** display **4** text boxes (`"It's an Apricorn Tree..."` -> `"Hey! There's an Apricorn growing!"` -> `"<Player> found one <Apricorn>!"` -> `"<Player> put away..."`). Always use a bounded coordinate-checked dismissal guard after plucking an Apricorn.
 - **Forest Tree Collision Footprint (Verified Turn 123):** Large forest trees occupy a 2-row collision base; always route along clear grass/dirt channels in `latest_grid.png` rather than stepping into tree-trunk shadow tiles.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule (Verified Turns 6–7, 146):** **Blacking out in the wild/trainer battle deducts 50% of current cash** (`¥150 -> lost ¥75` on Turn 146) and respawns you with full HP/PP (outside Iris's House `(40, 22)` in Chamomile Town). Money already spent on items is 100% safe—always spend spare cash before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
   - **Built-in Party-Wide EXP Share & Capture EXP (Verified Turn 107):** Every battle and wild capture awards EXP to the entire party automatically (`"Everybody got their fair share!"`), including catching wild Pokémon!
-- **Bag Pocket Memory (Verified Turn 105):** Both the Overworld Bag and Battle Bag remember the last viewed pocket across opens. Pocket order (8 pockets): `1:Items, 2:Medicine, 3:PokéBalls, 4:Battle Items, 5:TMs & HMs, 6:Berries, 7:?, 8:Key Items`.
+- **Shared Bag Pocket Memory (Verified Turns 105, 199):** Overworld Bag and Battle Bag share a **single global** last-pocket pointer (`1:Items, 2:Medicine, 3:PokéBalls, 4:Battle Items, 5:TMs & HMs, 6:Berries, 7:?, 8:Key Items`). Switching to `PokéBalls` in battle causes Overworld Bag to open on `PokéBalls` next time.
 - **Individual Visual Uniqueness:** Every individual Pokémon has unique color and pattern variations (controlled by `Color Variants` in Options).
 
 ## Verified Game Settings (Turn 4, Options Menu)

@@ -4,7 +4,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Defeated Rival **Willow** on Route 1 (Turn 90); exploring **Webbed Woods** with 3 party members (**Seraph** `Crackliss` Lv7, **Anansi** `Spinarak` Lv3, **Psyche** `Sleepillar` Lv2) en route to **Catsear City** (Gym Leader: **Bastion**).
+- **Progression:** Cleared **Webbed Woods** and **East Route 1**; now pushing through **Route 2** with 4 party members (**Seraph** `Crackliss` Lv8, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6, **Demeter** `Kernut` Lv4) toward **Catsear City** (Gym Leader: **Bastion**).
 - **Badges:** 0
 
 ## Notepad Index

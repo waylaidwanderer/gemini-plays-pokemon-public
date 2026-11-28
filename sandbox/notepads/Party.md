@@ -33,7 +33,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
-- **Stats (Lv5, Turn 173):** HP 19/19 | Atk 7 | Def 9 | SpA 11 | SpD 9 | Spe 9
+- **Stats (Lv6, Turn 208):** HP 21/21 | Atk 7 | Def 10 | SpA 12 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
@@ -43,8 +43,9 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (Custom Monomyth nature)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv3, Turn 199):** HP 15/15 | Atk 5 | Def 8 | SpA 7 | SpD 8 | Spe 7
+- **Stats (Lv4, Turn 208):** HP 16/16 | Atk 6 | Def 9 | SpA 7 | SpD 9 | Spe 7
 - **Current Moves:**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
+  - `Absorb` (Grass, Special, learned Lv4 on Turn 208!)
 

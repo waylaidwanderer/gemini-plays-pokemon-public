@@ -32,7 +32,17 @@
 
 ## East Route 1 (Beyond Webbed Woods Exit `(32, 12)`)
 - **West Warp `(32, 12)-(32, 13)`:** Re-enters Webbed Woods `(55, 43)`.
-- **Wild Encounters (`(40, 14)+` tall grass):**
+- **South Connection `(38, 32)`:** Seamless transition onto **Route 2 `(16, 0)`**.
+- **Wild Encounters (`(40, 14)..(41, 29)` tall grass):**
   - **Kernut** (`#012`, Kernel Pokémon, `Grass`, Lv3, Ability `Chlorophyll`, moves `Bide` & `Growth` — caught `Demeter` Turn 196).
+
+## Route 2 (South/East Toward Catsear City)
+- **North Connection `(16, 0)`:** Connects to East Route 1 `(38, 32)`.
+- **Upper & Middle Terraces:**
+  - Grass `(21, 1)..(30, 4)` (below a north-to-south ledge at `(26, -1)-(27, -1)`) -> stairs `(28, 5)-(29, 5)` -> grass `(22, 7)..(29, 9)`.
+  - **Lass Jane** at `(20, 11)` — **DEFEATED Turn 208** (`Caroot` ♀ Lv4 + `Shope` ♀ Lv4).
+  - **Apricorn Tree** at `(15, 11)` — yielded **1x Blk. Apricorn** (Turn 209).
+- **Lower Fork (via stairs `(17, 15)-(18, 15)`):**
+  - Youngster at `(16, 22)` facing right; camouflaged item ball + round bush visible in western grass `(10, 19)..(10, 21)`; staircase ascending east cliff at `(22, 17)`.
 
 

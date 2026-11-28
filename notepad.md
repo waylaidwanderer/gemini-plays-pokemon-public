@@ -6,7 +6,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Defeated Rival **Willow** on Route 1 (Turn 90); exploring **Webbed Woods** with 3 party members (**Seraph** `Crackliss` Lv7, **Anansi** `Spinarak` Lv3, **Psyche** `Sleepillar` Lv2) en route to **Catsear City** (Gym Leader: **Bastion**).
+- **Progression:** Cleared **Webbed Woods** and **East Route 1**; now pushing through **Route 2** with 4 party members (**Seraph** `Crackliss` Lv8, **Anansi** `Spinarak` Lv6, **Psyche** `Sleepillar` Lv6, **Demeter** `Kernut` Lv4) toward **Catsear City** (Gym Leader: **Bastion**).
 - **Badges:** 0
 
 ## Notepad Index
@@ -105,8 +105,18 @@
 
 ## East Route 1 (Beyond Webbed Woods Exit `(32, 12)`)
 - **West Warp `(32, 12)-(32, 13)`:** Re-enters Webbed Woods `(55, 43)`.
-- **Wild Encounters (`(40, 14)+` tall grass):**
+- **South Connection `(38, 32)`:** Seamless transition onto **Route 2 `(16, 0)`**.
+- **Wild Encounters (`(40, 14)..(41, 29)` tall grass):**
   - **Kernut** (`#012`, Kernel Pokémon, `Grass`, Lv3, Ability `Chlorophyll`, moves `Bide` & `Growth` — caught `Demeter` Turn 196).
+
+## Route 2 (South/East Toward Catsear City)
+- **North Connection `(16, 0)`:** Connects to East Route 1 `(38, 32)`.
+- **Upper & Middle Terraces:**
+  - Grass `(21, 1)..(30, 4)` (below a north-to-south ledge at `(26, -1)-(27, -1)`) -> stairs `(28, 5)-(29, 5)` -> grass `(22, 7)..(29, 9)`.
+  - **Lass Jane** at `(20, 11)` — **DEFEATED Turn 208** (`Caroot` ♀ Lv4 + `Shope` ♀ Lv4).
+  - **Apricorn Tree** at `(15, 11)` — yielded **1x Blk. Apricorn** (Turn 209).
+- **Lower Fork (via stairs `(17, 15)-(18, 15)`):**
+  - Youngster at `(16, 22)` facing right; camouflaged item ball + round bush visible in western grass `(10, 19)..(10, 21)`; staircase ascending east cliff at `(22, 17)`.
 
 
 
@@ -137,13 +147,15 @@
   - `screenshots/latest_grid.png` is ONLY written when the settled screen is in the overworld; omit batch-reading `latest_grid.png` whenever a script might stop inside a battle or menu.
 - **Gen 6+ Critical Hit Multiplier (`1.5x`) & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145):**
   - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage. Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
-- **Item Ball / Apricorn Pickup Boxes (Verified Turn 125):** Overworld item pickups display **2** sequential text boxes (`"<Player> found one <Item>!"` with fanfare `~1800ms`, then `"<Player> put away the <Item> in the <Pocket>."`). Always press `B` **twice** (`["A", "sleep 2000", "B", "sleep 1200", "B", "sleep 800"]`) before attempting overworld movement.
+- **Item Ball vs Apricorn Tree Pickup Boxes (Verified Turns 125, 209):**
+  - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`).
+  - **Apricorn Trees** display **4** text boxes (`"It's an Apricorn Tree..."` -> `"Hey! There's an Apricorn growing!"` -> `"<Player> found one <Apricorn>!"` -> `"<Player> put away..."`). Always use a bounded coordinate-checked dismissal guard after plucking an Apricorn.
 - **Forest Tree Collision Footprint (Verified Turn 123):** Large forest trees occupy a 2-row collision base; always route along clear grass/dirt channels in `latest_grid.png` rather than stepping into tree-trunk shadow tiles.
 - **Wilderness & Attrition:** Wilderness between settlements is much wider than in mainline games, testing both battle skill and attrition (HP/PP endurance).
 - **Economy & Blackout Rule (Verified Turns 6–7, 146):** **Blacking out in the wild/trainer battle deducts 50% of current cash** (`¥150 -> lost ¥75` on Turn 146) and respawns you with full HP/PP (outside Iris's House `(40, 22)` in Chamomile Town). Money already spent on items is 100% safe—always spend spare cash before leaving civilization.
 - **Soft Level Caps / Staged EXP:** Experience gain slows down in stages based on progression, steering teams toward the intended level range rather than over-leveling via raw stat disparities. Build a full balanced team and use strategy/synergy rather than solo-grinding.
   - **Built-in Party-Wide EXP Share & Capture EXP (Verified Turn 107):** Every battle and wild capture awards EXP to the entire party automatically (`"Everybody got their fair share!"`), including catching wild Pokémon!
-- **Bag Pocket Memory (Verified Turn 105):** Both the Overworld Bag and Battle Bag remember the last viewed pocket across opens. Pocket order (8 pockets): `1:Items, 2:Medicine, 3:PokéBalls, 4:Battle Items, 5:TMs & HMs, 6:Berries, 7:?, 8:Key Items`.
+- **Shared Bag Pocket Memory (Verified Turns 105, 199):** Overworld Bag and Battle Bag share a **single global** last-pocket pointer (`1:Items, 2:Medicine, 3:PokéBalls, 4:Battle Items, 5:TMs & HMs, 6:Berries, 7:?, 8:Key Items`). Switching to `PokéBalls` in battle causes Overworld Bag to open on `PokéBalls` next time.
 - **Individual Visual Uniqueness:** Every individual Pokémon has unique color and pattern variations (controlled by `Color Variants` in Options).
 
 ## Verified Game Settings (Turn 4, Options Menu)
@@ -221,7 +233,7 @@
 - **Type:** `Bug / Psychic` (Verified Turn 118 Summary)
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
-- **Stats (Lv5, Turn 173):** HP 19/19 | Atk 7 | Def 9 | SpA 11 | SpD 9 | Spe 9
+- **Stats (Lv6, Turn 208):** HP 21/21 | Atk 7 | Def 10 | SpA 12 | SpD 9 | Spe 10
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
@@ -231,10 +243,11 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (Custom Monomyth nature)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv3, Turn 199):** HP 15/15 | Atk 5 | Def 8 | SpA 7 | SpD 8 | Spe 7
+- **Stats (Lv4, Turn 208):** HP 16/16 | Atk 6 | Def 9 | SpA 7 | SpD 9 | Spe 7
 - **Current Moves:**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
+  - `Absorb` (Grass, Special, learned Lv4 on Turn 208!)
 
 
 
