@@ -61,6 +61,7 @@
 - `(20, 7)`: **Antidote** (collected turn 185).
 - `x=21..29, y=12..17`: First large tall grass patch; path continues south/southeast around `x=30..32, y=15..18` west of a pond (`x=33..36, y=15..18`).
 - `(34, 19)`: Trainer Tips stone sign ("against the rules to use more than four items during a battle").
+- `(33, 22)`: **Blu. Apricorn Tree** (picked Blu. Apricorn turn 209; stored in PokéBalls pocket).
 
 ## Wild Encounters Observed
 - **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
@@ -106,6 +107,8 @@
 - **Poké Mart Menu Timing (verified turns 154-155):** Each Mart prompt ("How many?", "That will be ₽X", "Here you go!") takes ~700-800ms to type out; wait `sleep 1000` after each `A` confirmation before pressing `Up`/`Down`/`A`.
 - **Nurse Joy Healing (verified turns 173-174):** Nurse Joy has 3 text boxes before her Yes/No prompt (pressing `B` on the 3rd box declines healing). Use 4x `A` with `sleep 1000` between presses, followed by `sleep 4000` for the healing jingle, then `B` to close.
 - **Overworld Doors:** After stepping onto a door horizontally, entering may need an extra `Up` press; wait `sleep 800` after a door warp before moving inside.
+- **Pause & Summary Menu (verified turns 202-204):** Pause menu has two columns: Left = PokéDex, Pokémon, Bag; Right = Trainer Card, Save, Options, Exit. Closing a Pokémon's Summary (`B`) returns to the `Summary/Switch/Item/Cancel` submenu inside Party, so exiting from Summary back to the overworld takes 3 `B` presses (`Summary -> Submenu -> Party -> Pause`) plus 1 `B` to close Pause.
+- **Bag Battle Memory:** In battle, Bag remembers the last-used pocket (Dot 1 = Items, Dot 2 = Medicine, Dot 3 = PokéBalls; verified turns 189-190). Apricorns are stored in the PokéBalls pocket (turn 209).
 
 
 <hr>
