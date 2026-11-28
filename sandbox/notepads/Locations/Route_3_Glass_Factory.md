@@ -17,6 +17,8 @@
     - `(35, 20)`: **Apricorn Tree** — yielded **1x Grn. Apricorn** (Turn 328).
     - `(37, 18)`: Camper Trainer facing `Right`.
     - `(38, 11)-(39, 11)`: Stairs connecting down from northern Route 3 path.
+    - `(38, 26)-(39, 26)`: Factory sign beside twisted sculpture `(38..39, 24)`.
+    - **`(41, 26)`:** Front entrance door into **Catsear Industrial Glassworks**!
 - **Wild Encounters Verified:**
   - **Venipede** (`Bug / Poison`, Lv4 — encountered at `(23, 15)` on Turn 320).
   - **Leonte** (`#015`, **Thrasher Pokémon**, **`Flying / Ground`**!! Lv4 — caught **`Athena`** at `(36, 25)` on Turn 329–331!).
