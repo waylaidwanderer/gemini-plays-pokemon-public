@@ -4,7 +4,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Reached **Catsear Industrial Glassworks** `(41, 26)` at the east end of **Route 3** with a full 6-Pokémon party (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv7, **Psyche** `Sleepillar` Lv7 [Silver Powder], **Demeter** `Kernut` Lv8, **Electra** `Joltik` Lv5, **Athena** `Leonte` Lv4 [Sharp Beak]) to locate **Gym Leader Bastion**.
+- **Progression:** Recovered **Gym Leader Bastion's `Flint & Steel`** inside **Catsear Industrial Glassworks** (also caught **`Chroma`** `Tagling` `#044` `Poison / Dark` for PC Box 1, and leveled **Seraph** to Lv10 & **Electra** to Lv6); Bastion returned to **Catsear City Gym**! Heading back across upper **Route 3** to **Catsear City** for Badge #1.
 - **Badges:** 0
 
 ## Notepad Index

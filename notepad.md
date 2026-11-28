@@ -6,7 +6,7 @@
 - **Game:** Pokémon Monomyth (`© 2026 TEAM MONOMYTH`) — Difficulty: `Monomyth`
 - **Trainer:** Iris | **Rival/Friend:** Monty
 - **Region:** Athanto
-- **Progression:** Reached **Catsear Industrial Glassworks** `(41, 26)` at the east end of **Route 3** with a full 6-Pokémon party (**Seraph** `Crackliss` Lv9, **Anansi** `Spinarak` Lv7, **Psyche** `Sleepillar` Lv7 [Silver Powder], **Demeter** `Kernut` Lv8, **Electra** `Joltik` Lv5, **Athena** `Leonte` Lv4 [Sharp Beak]) to locate **Gym Leader Bastion**.
+- **Progression:** Recovered **Gym Leader Bastion's `Flint & Steel`** inside **Catsear Industrial Glassworks** (also caught **`Chroma`** `Tagling` `#044` `Poison / Dark` for PC Box 1, and leveled **Seraph** to Lv10 & **Electra** to Lv6); Bastion returned to **Catsear City Gym**! Heading back across upper **Route 3** to **Catsear City** for Badge #1.
 - **Badges:** 0
 
 ## Notepad Index
@@ -207,8 +207,9 @@
 
 ## Catsear Industrial Glassworks
 - **Entrance (`(1, 24)-(2, 24)`):** Connects back to Route 3 `(41, 26)`.
-- **Gym Leader Bastion at `(1, 19)` (Verified Turns 339–341):**
-  - Recognizes Iris from Chamomile Town! Explains he lost his **Flint and Steel** during an expedition through the factory and cannot light the kiln in Catsear City Gym until it is recovered.
+- **Gym Leader Bastion at `(1, 19)` (Verified Turns 339–341, Quest Completed Turn 375):**
+  - Recognizes Iris from Chamomile Town! Lost his **Flint & Steel** inside the factory and could not light the kiln in Catsear City Gym without it.
+  - **COMPLETE (Turn 375):** Delivered the **Flint & Steel** from `(14, 15)` back to Bastion at `(1, 19)`; Bastion returned to **Catsear City Gym** to await Iris's challenge!
 - **1F West Entrance & Kiln Area:**
   - **Encounter Mechanic (Verified Turn 345):** Entire factory interior floor (including plain grey brick tiles!) has cave-style wild encounters, not just mossy/weed patches.
   - **Wild Encounters Verified:**
