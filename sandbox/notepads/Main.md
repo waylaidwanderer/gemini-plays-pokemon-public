@@ -37,6 +37,7 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Grudge Target Absorption Proof (Turn 27589-27591): When Banette #1 used Grudge upon fainting, KOing it with Bullet Seed caused Grudge to wipe Bullet Seed (0/30 PP), completely protecting physical Aerial Ace (10/20 PP) for Wallace's Ludicolo!
 - Minimal Test Protocol for Move Selection (Turn 27569-27572 Discovery): Chaining trailing B presses immediately after confirming a move can cancel move selection back to the main battle menu. To confirm moves cleanly without accidental cancellation, omit trailing B presses after the final confirmation A press.
 - Level 92 SAGE Stat Verification (Turn 27580 Discovery): SAGE reached Level 92! Max HP 274, Atk 205, Def 149, SpA 223, SpD 200, Spe 270.
 - Party Menu Directional Throttling (Turn 27513-27514 Discovery): On the party replacement screen, rapid directional inputs (<200ms) can be throttled by the engine. Using >= 250ms spacing between directional presses guarantees reliable row navigation.
