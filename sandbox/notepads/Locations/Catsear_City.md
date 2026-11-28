@@ -23,7 +23,7 @@
     - **Gym Trainers (`y=8..9` Arena):**
       - `(7, 9)` facing `Left`: **Kindler Cole** — **DEFEATED Turn 425** (1 Pokémon: `Puddipup` ♂ Lv8 — knew `Leer`, `Bite`, `Ember`, `Charm`; prize `¥160`).
       - `(2, 8)` facing `Right`: **Kindler Bronson** — **DEFEATED Turn 443** (2 Pokémon: `Slugma` ♀ Lv6 [`Yawn`, `Ember`] + `Slugma` ♂ Lv7 [`Ember`]).
-      - `(12, 8)` facing `Left`: **Kindler Bernie** — In progress (`Litwick` ♀ Lv7 [`Fire Spin`, `Astonish`, `Ember`] + 2nd Pokémon).
+      - `(12, 8)` facing `Left`: **Kindler Bernie** — In progress (`Litwick` ♀ Lv7 [`Fire Spin`, `Astonish`, `Ember`] + `Slugma` ♂ Lv8).
   - **Trash Can at `(18, 21)`:** Empty (`"Eh, just some trash."`, Turn 272).
   - **West House `(12, 25)`:** Couple watching a TV show about `"Cosmic Pokémon"` / aliens (Turn 277).
   - **Trash Can at `(20, 36)`:** Empty (Turn 278).
