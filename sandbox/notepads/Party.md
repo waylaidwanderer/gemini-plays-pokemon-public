@@ -4,9 +4,9 @@
 - **Nickname:** `Seraph` (Hebrew *śārāf* = "burning serpent"; nicknamed at Chamomile Town Name Rater on Turn 58)
 - **Type:** `Fire / Poison` (Verified Turn 53 Summary)
   - **Immunities:** Burn, Poison / Badly Poisoned, Poison Powder
-  - **4x Resistances:** Grass, Bug, Fairy
+  - **4x / Double Resistances:** Grass, Bug, Fairy
   - **2x Resistances:** Fire, Ice, Fighting, Poison, Steel
-  - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
+  - **Weaknesses:** **`2.5x` Ground** (Monomyth double-weakness cap, Verified Turn 406!), 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (`+SpA` or `+Spe` — Verified Turn 357 Lv10 `+2 SpA, +2 Spe` gain!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
 - **Held Item:** `Oran Berry` (auto-restores 10 HP in battle; equipped Turn 403)
@@ -69,9 +69,9 @@
 ## 6. Athena — Leonte (♀) — (#015, Original Fakemon)
 - **Nickname:** `Athena` (Greek goddess of wisdom & tactical warfare; caught Lv4 on Route 3 outside Catsear Industrial Glassworks on Turn 329–331)
 - **Type:** `Flying / Ground` (Verified Turn 330 PokéDex "Thrasher Pokémon" & Turn 335 Summary)
-  - **Immunities:** Ground (covers `Seraph`'s 4x Ground weakness!), Electric
+  - **Immunities:** Ground (covers `Seraph`'s `2.5x` Ground weakness!), Electric
   - **Resistances:** Fighting, Poison, Bug
-  - **Weaknesses:** **4x Ice**, 2x Water
+  - **Weaknesses:** **`2.5x` Ice** (Monomyth double-weakness cap!), 2x Water
 - **Nature:** `Uncaring` (`+Def` — Verified Turn 383 Lv5 `+2 Def` gain!)
 - **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
 - **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)

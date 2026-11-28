@@ -249,8 +249,10 @@
 - **Map Transition Detection & `latest_grid.png` Availability (Verified Turns 154–155, 167):**
   - Detect east/south warps by checking for a coordinate drop (`npos["x"] < pos["x"]`), never `pos["x"] == 9` alone.
   - `screenshots/latest_grid.png` is ONLY written when the settled screen is in the overworld; omit batch-reading `latest_grid.png` whenever a script might stop inside a battle or menu.
-- **Gen 6+ Critical Hit Multiplier (`1.5x`) & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145):**
-  - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage. Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
+- **Gen 6+ Critical Hit Multiplier (`1.5x`), `2.5x` Double-Weakness Multiplier, & Active Battle Slot-0 Reordering (Verified Turns 141, 144–145, 406):**
+  - Critical hits (`"Bullseye! Critical hit!"`) deal **1.5x** damage.
+  - **Custom Type-Chart Multiplier (`Turn 406`, Catsear Gym Guide):** Moves super-effective against **both** of a dual-type Pokémon's types deal **`2.5x` damage** (NOT `4x`!).
+  - Inside battle, replacing a fainted Pokémon moves the newly active Pokémon into **Slot 0 (top-left)** of `Use on which Pokémon?` for the remainder of that battle, while overworld Party order resets afterward.
 - **Item Ball, Blue Item Ball, Hidden Bush, & Apricorn Tree Pickups (Verified Turns 125, 209, 212, 223):**
   - Ground **Item Balls** display **2** text boxes (`"<Player> found one <Item>!"` -> `"<Player> put away..."`). **Blue-capped Item Balls** hold Battle/Held Items (e.g. `Silver Powder` at Secret Webbed Woods `(32, 21)`, Turn 223), and **Purple-capped Item Balls** hold Key Items (e.g. `Flint & Steel` at Catsear Industrial Glassworks `(14, 15)`, Turn 371).
   - Standalone **round green bushes** can hold hidden items when interacted with `A` (e.g. `1x Repel` at Route 2 `(10, 19)`, Turn 212).
@@ -315,9 +317,9 @@
 - **Nickname:** `Seraph` (Hebrew *śārāf* = "burning serpent"; nicknamed at Chamomile Town Name Rater on Turn 58)
 - **Type:** `Fire / Poison` (Verified Turn 53 Summary)
   - **Immunities:** Burn, Poison / Badly Poisoned, Poison Powder
-  - **4x Resistances:** Grass, Bug, Fairy
+  - **4x / Double Resistances:** Grass, Bug, Fairy
   - **2x Resistances:** Fire, Ice, Fighting, Poison, Steel
-  - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
+  - **Weaknesses:** **`2.5x` Ground** (Monomyth double-weakness cap, Verified Turn 406!), 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (`+SpA` or `+Spe` — Verified Turn 357 Lv10 `+2 SpA, +2 Spe` gain!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
 - **Held Item:** `Oran Berry` (auto-restores 10 HP in battle; equipped Turn 403)
@@ -380,9 +382,9 @@
 ## 6. Athena — Leonte (♀) — (#015, Original Fakemon)
 - **Nickname:** `Athena` (Greek goddess of wisdom & tactical warfare; caught Lv4 on Route 3 outside Catsear Industrial Glassworks on Turn 329–331)
 - **Type:** `Flying / Ground` (Verified Turn 330 PokéDex "Thrasher Pokémon" & Turn 335 Summary)
-  - **Immunities:** Ground (covers `Seraph`'s 4x Ground weakness!), Electric
+  - **Immunities:** Ground (covers `Seraph`'s `2.5x` Ground weakness!), Electric
   - **Resistances:** Fighting, Poison, Bug
-  - **Weaknesses:** **4x Ice**, 2x Water
+  - **Weaknesses:** **`2.5x` Ice** (Monomyth double-weakness cap!), 2x Water
 - **Nature:** `Uncaring` (`+Def` — Verified Turn 383 Lv5 `+2 Def` gain!)
 - **Ability:** `Quick Feet` (Boosts Speed by 50% if affected by a status condition; ignores Paralysis Speed drop!)
 - **Held Item:** `Sharp Beak` (+20% Flying-type move power; equipped Turn 333)
