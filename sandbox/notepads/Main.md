@@ -3,7 +3,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! Sidney, Phoebe, Glacia & Drake ALL CLEARED! Facing Champion Wallace next! SAGE Lv 91 (34/272 HP, Overgrow ACTIVE, 267 Spe). GUAVA ready. 2 Revives remaining. Cash: ¥21,948.
+- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! IN BATTLE WITH CHAMPION WALLACE! SAGE Lv 91 (34/272 HP, Overgrow ACTIVE, 267 Spe). GUAVA ready. 2 Revives remaining. Cash: ¥21,948.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 34/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (6/20), Quick Attack (28/30). Status: OK.
@@ -37,6 +37,8 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Drake's Salamence Flamethrower Damage: At Lv 91 (198 SpD), SAGE took only 32 damage from Salamence Lv 55 Flamethrower (89 -> 57 HP), confirming that non-STAB special moves against a high-level ace deal manageable damage.
+- Grand Staircase from Room 4 to Champion: Starts at (5, 32) and runs straight North to (5, 3), where stepping into the doorway warps to (6, 6) in the Champion's Chamber directly in front of Wallace at (6, 5).
 - Level 91 Overgrow Threshold: At Level 91 (Max HP 272), Sceptile's Overgrow activates when HP is <= 90 HP (272 / 3 = 90.66), granting a 1.5x damage multiplier to all Grass-type attacks.
 - Shift Switching Purges Ghost Curse (Turn 27369-27370 Discovery): In Gen 3 Pokémon Emerald, Ghost-type Curse is 100% permanently cured when the afflicted Pokémon switches out, including when switching via the mid-battle 'Will [Player] change POKéMON?' shift prompt. This preserves the ace's health and Overgrow state without consuming healing items.
 - Level 90 Overgrow Threshold: At Level 90 (Max HP 269), Sceptile's Overgrow activates when HP is <= 89 HP (269 / 3 = 89.66), granting a 1.5x damage multiplier to all Grass-type attacks.
