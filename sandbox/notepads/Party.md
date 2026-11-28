@@ -9,6 +9,7 @@
   - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (`+SpA` or `+Spe` — Verified Turn 357 Lv10 `+2 SpA, +2 Spe` gain!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
+- **Held Item:** `Oran Berry` (auto-restores 10 HP in battle; equipped Turn 403)
 - **Stats (Lv10, Turn 358):** HP 31/31 | Atk 15 | Def 17 | SpA 18 | SpD 17 | Spe 21
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
@@ -20,7 +21,8 @@
 - **Nickname:** `Anansi` (West African spider trickster god of stories; caught Lv2 in Webbed Woods on Turn 106–108)
 - **Type:** `Bug / Poison` (Verified Turn 118 Summary)
 - **Nature:** `Furtive` (`+Atk` — Verified Turn 206 Lv6 stat gains!)
-- **Ability:** `Swarm` (Ups Bug moves by 50% at or below 1/3rd HP)
+- **Ability:** `Swarm` (Ups Bug moves by 50% at or below 50%/33% HP)
+- **Held Item:** `Oran Berry` (equipped Turn 404)
 - **Stats (Lv7, Turn 312):** HP 23/23 | Atk 14 | Def 11 | SpA 12 | SpD 12 | Spe 11
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, 35 PP)
@@ -57,6 +59,7 @@
 - **Type:** `Bug / Electric` (Verified Turn 231 PokéDex & Turn 235 Summary)
 - **Nature:** `Gracious` (`+SpD` — Verified Turn 315 Lv5 `+2 Sp. Def` gain!)
 - **Ability:** `Unnerve` (Prevents opposing Pokémon from eating held Berries!)
+- **Held Item:** `Oran Berry` (equipped Turn 404)
 - **Stats (Lv6, Turn 359):** HP 22/22 | Atk 10 | Def 11 | SpA 11 | SpD 12 | Spe 12
 - **Current Moves:**
   - `Absorb` (Grass, Special, 25 PP)
