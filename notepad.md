@@ -79,6 +79,8 @@
   - Mezzanine (up left stairs): Integrated Poké Mart (Poké Ball ₽200, Potion ₽300, Antidote ₽100, Paralyze Heal ₽250, Awakening ₽300) and Link counter (requires Pokédex).
 - **Outdoor Stairs (verified turns 131, 150-151):** Outdoor staircases move at half speed, so traversing each stair tile consumes ~2 single directional presses (keep this in mind when batching movement across stairs!).
 - **Poké Mart Menu Timing (verified turns 154-155):** Each Mart prompt ("How many?", "That will be ₽X", "Here you go!") takes ~700-800ms to type out; wait `sleep 1000` after each `A` confirmation before pressing `Up`/`Down`/`A`.
+- **Nurse Joy Healing (verified turns 173-174):** Nurse Joy has 3 text boxes before her Yes/No prompt (pressing `B` on the 3rd box declines healing). Use 4x `A` with `sleep 1000` between presses, followed by `sleep 4000` for the healing jingle, then `B` to close.
+- **Overworld Doors:** After stepping onto a door horizontally, entering may need an extra `Up` press; wait `sleep 800` after a door warp before moving inside.
 
 
 <hr>
