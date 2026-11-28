@@ -37,6 +37,7 @@
     - **1F NPC `(11, 13)`:** Mentions his buddy on **Route 7** loans out a **Fishing Rod** (Turn 261).
     - **2F Shopper `(1, 6)` & News Ticker:** Warn that weird guys are hanging around the **Abandoned Glass Factory** **east of Catsear City** (Turn 267).
   - **Catsear Gym (`x=17..23, y=13..17`, door `(20, 17)`, `Natu` on roof, sign `(24, 17)`):**
+    - **Gym Sign `(24, 17)` (Verified Turn 273):** `Catsear City Pokémon Gym — Leader: Bastion, The Scorching Hot Craftsman!` (**Fire-type / glassblower specialist!** Critical note: `Anansi`, `Psyche`, `Demeter`, and `Electra` are all 2x weak to Fire, whereas `Seraph` resists Fire 2x and is Burn-immune; recruit a Water/Rock/Ground answer on Route 3 before the Gym battle!)
     - Stepping onto `(20, 18)` in front of the door automatically triggers `"The Gym's doors are locked..."` and pushes Iris south to `(20, 19)` (Verified Turn 272 — route along `y=19`, not `y=18`, when passing the Gym!).
   - **Trash Can at `(18, 21)`:** Empty (`"Eh, just some trash."`, Turn 272).
 
