@@ -20,9 +20,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 19 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27561, Attempt 19)!
-    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27598, Attempt 19)!
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27601, Attempt 19)!
     - [ ] Elite Four Member #3 Glacia (Active Attempt 19!)
-    - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
 
@@ -103,6 +102,5 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   4. [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,874)!
   5. [x] Elite Four Member #2 Phoebe DEFEATED (+¥5,100, Cash: ¥11,974)!
   6. [ ] Defeat Glacia in Room 3 (Active!)
-  6. [ ] Defeat Glacia in Room 3
   7. [ ] Defeat Drake in Room 4
   8. [ ] Defeat Champion Wallace and enter the Hall of Fame!
