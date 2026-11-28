@@ -18,7 +18,7 @@
 - **Ariadne** (Spinarak ♀, #017, Lv. 6, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 21, Atk 13, Def 9, SpA 11, SpD 11, Spe 10 | Moves: Constrict, String Shot, Poison Sting, Absorb.
 - **Selene** (Sleepillar ♀, #025, Lv. 6, Bug/Psychic) — Nature: Zesty | Ability: Early Bird | Stats: HP 21, Atk 8, Def 9, SpA 11, SpD 10, Spe 10 | Moves: Struggle Bug, String Shot.
 - **Orpheus** (Leonte ♂, #015, Lv. 6, Flying/Ground) — Nature: Conniving | Ability: Quick Feet | Stats: HP 23, Atk 12, Def 12, SpA 14, SpD 13, Spe 10 | Moves: Peck, Sand Attack, Foresight.
-- **Helios** (Kernut ♂, #012, Lv. 5, Grass) — Nature: Daunting | Ability: Shell Armor | Stats: HP 18, Atk 7, Def 10, SpA 8, SpD 10, Spe 8 | Moves: Bide, Growth, Absorb.
+- **Helios** (Kernut ♂, #012, Lv. 6, Grass) — Nature: Daunting | Ability: Shell Armor | Stats: HP 20, Atk 7, Def 11, SpA 8, SpD 12, Spe 9 | Moves: Bide, Growth, Absorb, Ingrain.
 - **Electra** (Joltik ♀, #019, Lv. 3, Bug/Electric) — Nature: Conspiratorial | Ability: CompoundEyes | Stats: HP 16, Atk 8, Def 8, SpA 8, SpD 8, Spe 9 | Moves: Absorb, String Shot.
 
 ## Rivals' Starters
