@@ -3,6 +3,7 @@
 ## Connections
 - **West:** Route 1 (`Route 1 (19, 12)` going Right → `Webbed Woods (9, 12)`).
 - **East Exit:** `(56, 43..44)` going Right (south of Bug Catcher Skip `(49, 35)`).
+- **SW Secret Entrance (from Route 2):** `(10, 45)` going Left → Route 2 `(34, 13)` (accessed via east stairs at Route 2 `(22, 17)`).
 
 ## Landmarks & Items
 - `(14, 13)`: Empty wooden crate where Astra, Monty, and Willow found the three Edelweiss Labs starters (Mishimizu, Marmroot, Crackliss).
