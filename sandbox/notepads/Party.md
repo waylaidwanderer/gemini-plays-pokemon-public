@@ -47,7 +47,7 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (`+Def, -Atk` — Verified Turn 296 Lv7 `+2 Def` gain!)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv8, Turn 313):** HP 23/23 | Atk 7 | Def 14 | SpA 10 | SpD 13 | Spe 10
+- **Stats (Lv9, Turn 429):** HP 25/25 | Atk 7 | Def 15 | SpA 11 | SpD 14 | Spe 11
 - **Current Moves (FULL 4 SLOTS):**
   - `GrassWhistle` (Grass, Status, 15 PP — puts foe to Sleep! Learned Lv8 on Turn 314 over `Bide`; great for wild captures!)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)

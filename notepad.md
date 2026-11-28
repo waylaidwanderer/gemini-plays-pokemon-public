@@ -46,7 +46,7 @@
     - **Gym Glass Flute Shop `(7, 16)` (Verified Turn 408):** Sells reusable blown-glass flutes — `Red Flute` (`¥5000`), `Blue Flute` (`¥8000`, wakes Sleep!), `Yellow Flute` (`¥8000`, cures Confusion!), `Black Flute` (`¥2000`, lowers wild encounters!), `White Flute` (`¥3000`, raises wild encounters!).
     - **Overworld Forge Pokémon:** `Boomboom` at `(3, 15)` & `(10, 7)` (Original Fakemon — `"Ker-BOOM! This Pokémon is watching the boilers intently"`).
     - **Gym Trainers (`y=8..9` Arena):**
-      - `(7, 9)` facing `Left`: **Kindler Cole** (1 Pokémon: `Puddipup` ♂ Lv8 — knows `Leer`, `Bite`, `Ember`).
+      - `(7, 9)` facing `Left`: **Kindler Cole** — **DEFEATED Turn 425** (1 Pokémon: `Puddipup` ♂ Lv8 — knew `Leer`, `Bite`, `Ember`, `Charm`).
       - `(2, 8)` facing `Right`: Elderly Craftsman Trainer.
   - **Trash Can at `(18, 21)`:** Empty (`"Eh, just some trash."`, Turn 272).
   - **West House `(12, 25)`:** Couple watching a TV show about `"Cosmic Pokémon"` / aliens (Turn 277).
@@ -365,7 +365,7 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (`+Def, -Atk` — Verified Turn 296 Lv7 `+2 Def` gain!)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv8, Turn 313):** HP 23/23 | Atk 7 | Def 14 | SpA 10 | SpD 13 | Spe 10
+- **Stats (Lv9, Turn 429):** HP 25/25 | Atk 7 | Def 15 | SpA 11 | SpD 14 | Spe 11
 - **Current Moves (FULL 4 SLOTS):**
   - `GrassWhistle` (Grass, Status, 15 PP — puts foe to Sleep! Learned Lv8 on Turn 314 over `Bide`; great for wild captures!)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
