@@ -9,7 +9,7 @@
   - **Weaknesses:** **4x Ground**, 2x Water, 2x Rock, 2x Psychic
 - **Nature:** `Pompous` (Custom Monomyth nature!)
 - **Ability:** `Blaze` (Ups Fire moves by 50% at or below 1/3rd HP)
-- **Base Stats at Lv5:** HP 20 | Atk 10 | Def 11 | SpA 11 | SpD 11 | Spe 13 (Next Lv: 26 EXP)
+- **Stats (Lv6, Turn 91):** HP 22 | Atk 11 | Def 12 | SpA 12 | SpD 12 | Spe 14
 - **Current Moves:**
   - `Constrict` (Normal, 35 PP — lowers foe Speed)
   - `Leer` (Normal, 30 PP — lowers foe Defense)
