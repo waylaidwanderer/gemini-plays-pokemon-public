@@ -20,6 +20,7 @@
 ## Battle & Progression Mechanics (Verified)
 - **Party EXP Share & Capture EXP:** Party EXP Share is active by default ("Everybody got their fair share!", verified turn 83) and catching wild Pokémon also grants EXP (verified turn 196).
 - **Battle Item Limit:** Trainer Tips sign in Webbed Woods `(34, 19)` states it is against the rules to use more than **4 items** during a battle (verified turn 207).
+- **Set Battle Style:** Trainer battles use Set mode (no free switch prompt between opponent Pokémon; verified turn 255).
 - **Modern Move Mechanics:** String Shot lowers Speed harshly (-2 stages) and hits both foes in double battles (verified turn 80).
 - **Bedroom PC:** Contains 1 free Potion (withdrawn turn 39).
 - **Wall Clock:** Must be set in bedroom before going downstairs (defaults to No on confirmation prompt; verified turns 40-45).
