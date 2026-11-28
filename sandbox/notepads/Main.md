@@ -13,7 +13,7 @@
 
 ## Party
 - **Caspian** (Mishimizu ♂, #007, Lv. 7, Water) — Nature: Adventurous | Ability: Torrent | Stats: HP 25, Atk 14, Def 13, SpA 12, SpD 13, Spe 14 | Moves: Scratch, Growl, Assist.
-- **Ariadne** (Spinarak ♀, #017, Lv. 2, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 13, Atk 7, Def 6, SpA 7, SpD 7, Spe 6 | Moves: Constrict, String Shot.
+- **Ariadne** (Spinarak ♀, #017, Lv. 3, Bug/Poison) — Nature: Saucy | Ability: Swarm | Stats: HP 15, Atk 9, Def 7, SpA 8, SpD 8, Spe 7 | Moves: Constrict, String Shot.
 - **Selene** (Sleepillar ♀, #025, Lv. 3, Bug/Psychic) — Nature: Zesty | Ability: Early Bird | Stats: HP 15, Atk 6, Def 7, SpA 8, SpD 7, Spe 7 | Moves: Struggle Bug, String Shot.
 
 ## Rivals' Starters
