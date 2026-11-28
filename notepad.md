@@ -330,7 +330,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 5. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 6. [ ] Challenge and defeat the Elite Four & Champion (Attempt 19 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27561, Attempt 19)!
-    - [ ] Elite Four Member #2 Phoebe (Active Attempt 19!)
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27598, Attempt 19)!
+    - [ ] Elite Four Member #3 Glacia (Active Attempt 19!)
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
@@ -410,7 +411,8 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
   2. [x] Purchased 6 Revives for ¥9,000 at Mart counter (16, 4) -> 7 Revives in Bag!
   3. [x] Entered Gate (9, 1) and launched Attempt 19!
   4. [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,874)!
-  5. [ ] Defeat Phoebe in Room 2 (Active!)
+  5. [x] Elite Four Member #2 Phoebe DEFEATED (+¥5,100, Cash: ¥11,974)!
+  6. [ ] Defeat Glacia in Room 3 (Active!)
   6. [ ] Defeat Glacia in Room 3
   7. [ ] Defeat Drake in Room 4
   8. [ ] Defeat Champion Wallace and enter the Hall of Fame!
@@ -5085,7 +5087,7 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 19 Active! Sidney DEFEATED (5-0 sweep)! Advancing to Room 2 Phoebe. SAGE Lv 91 (245/272 HP). Cash: ¥6,874 (¥1,974 + ¥4,900). 7 Revives in Bag.
+- Status: Attempt 19 Active! Sidney & Phoebe DEFEATED! Advancing to Room 3 Glacia. SAGE Lv 92 (167/274 HP). Cash: ¥11,974 (¥6,874 + ¥5,100). 7 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
 1. SAGE (Sceptile ♂, Level 92) - Lead! HP: 167/274. Max HP: 274. Atk 205, Def 149, SpA 223, SpD 200, Spe 270. Moves: Bullet Seed (0/30), Aerial Ace (11/20), Facade (16/20), Quick Attack (30/30). Status: OK.
@@ -5104,7 +5106,7 @@ A large meteorological research institute located in northern Route 119 beside t
 - Revive x7 (6 purchased for Attempt 19, 1 carried over)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥6,874 (¥1,974 + ¥4,900 won from Sidney)
+- Money: ¥11,974 (¥6,874 + ¥5,100 won from Phoebe)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -5113,7 +5115,8 @@ A large meteorological research institute located in northern Route 119 beside t
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 19 Active):
     - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27561, Attempt 19)!
-    - [ ] Elite Four Member #2 Phoebe (Active Attempt 19!)
+    - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27598, Attempt 19)!
+    - [ ] Elite Four Member #3 Glacia (Active Attempt 19!)
     - [ ] Elite Four Member #3 Glacia
     - [ ] Elite Four Member #4 Drake
     - [ ] Champion Wallace
