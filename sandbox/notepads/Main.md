@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! IN BATTLE WITH CHAMPION WALLACE! SAGE Lv 91 (34/272 HP, Overgrow ACTIVE, 267 Spe). GUAVA ready. 1 Revive remaining. SAGE revived to 136/272 HP! Cash: ¥21,948.
+- Status: Attempt 18 Active! ALL 4 ELITE FOUR MEMBERS DEFEATED! IN BATTLE WITH CHAMPION WALLACE! Wailord DEFEATED! Battling Ace Milotic Lv 58 (~45% HP). SAGE Lv 91 (102/272 HP, 267 Spe). 1 Revive remaining. Cash: ¥21,948.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 136/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (6/20), Quick Attack (28/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 102/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (4/20), Quick Attack (28/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
@@ -37,6 +37,9 @@
     - [ ] Champion Wallace
 
 ## Engine / Harness Mechanics Verified
+- Party Menu Directional Throttling (Turn 27513-27514 Discovery): On the party replacement screen, rapid directional inputs (<200ms) can be throttled by the engine. Using >= 250ms spacing between directional presses guarantees reliable row navigation.
+- Wallace Milotic Ice Beam Damage: At Lv 91 (198 SpD), SAGE took only 34 damage from Wallace's Ace Milotic Lv 58 Ice Beam (136 -> 102 HP), confirming SAGE easily survives multiple non-STAB ice attacks.
+- Sacrificial Revive Clean Switch vs Wallace: Guava Lv 30 absorbed Wailord's Blizzard and fainted, allowing SAGE to enter for free with 136 HP and 267 Speed, cleanly OHKOing Wailord with Facade.
 - Drake's Salamence Flamethrower Damage: At Lv 91 (198 SpD), SAGE took only 32 damage from Salamence Lv 55 Flamethrower (89 -> 57 HP), confirming that non-STAB special moves against a high-level ace deal manageable damage.
 - Grand Staircase from Room 4 to Champion: Starts at (5, 32) and runs straight North to (5, 3), where stepping into the doorway warps to (6, 6) in the Champion's Chamber directly in front of Wallace at (6, 5).
 - Level 91 Overgrow Threshold: At Level 91 (Max HP 272), Sceptile's Overgrow activates when HP is <= 90 HP (272 / 3 = 90.66), granting a 1.5x damage multiplier to all Grass-type attacks.
