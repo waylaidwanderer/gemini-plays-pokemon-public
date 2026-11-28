@@ -3,7 +3,7 @@
 ## Region & Core Design Pointers (Verified Turns 6–7, New Game Pointers)
 - **Region Name:** **Athanto**.
 - **Built-in Pokémon Center Mega-Hubs (Verified Turns 55, 77–80):**
-  - **1F (`y=8..15`):** Nurse Joy `(7, 10)`, PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)`).
+  - **1F (`y=8..15`):** Nurse Joy `(7, 10)` across counter `(7, 11)` (**player stands at `(7, 12)`**; verify dismissal by stepping to `y >= 13`!), PC `(10, 11)`, **Name Rater** `(1, 14)` (from `(3, 14)`), and **free Move Relearner** `(1, 15)` (from `(3, 15)`).
   - **2F Seamless Mezzanine (`y=0..7`, via left stairs `(1, 10)->(1, 7)`):** **Poké Mart** counter (`(2, 5)-(3, 5)` facing `Up`) and **Link Center**!
 - **Stair Movement Timing (Verified Turns 76, 79):** Stair tiles animate slower than flat ground, causing rapid unspaced button lists (`["Up"] * N`) to drop steps on staircases. Always use a `while` loop checking `mgba.get_coordinates()` (or `"hold <Dir> <ms>"`) when climbing/descending stairs.
 - **Menu/Dialogue Dismissal Guard in `run_code` (Verified Turns 78–79, 83):** Shop `Buy` fade-outs (~1000ms) and multi-box NPC dialogues can absorb trailing `B` presses. Before chaining overworld walking in `run_code`, loop `["B", "sleep 800", "<FirstStepDir>"]` until `mgba.get_coordinates()` confirms the player actually moved 1 tile!
