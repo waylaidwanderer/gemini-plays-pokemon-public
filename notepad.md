@@ -331,7 +331,7 @@
 - **Stats (Lv11, Turn 444):** HP 33/33 | Atk 16 | Def 18 | SpA 19 | SpD 18 | Spe 23
 - **Current Moves (FULL 4 SLOTS):**
   - `Constrict` (Normal, Physical, **40 BP** [buffed in Monomyth, Verified Turn 427!], 35 PP — 10% chance to lower foe Speed)
-  - `Leer` (Normal, 30 PP — lowers foe Defense)
+  - `Acid` (Poison, Special, 40 BP STAB, 30 PP — lowers foe Sp. Def; learned Lv11 on Turn 445 over `Leer`!)
   - `Wrap` (Normal, 20 PP)
   - `Ember` (Fire, Special, 25 PP — learned Lv8 on Turn 180!)
 
