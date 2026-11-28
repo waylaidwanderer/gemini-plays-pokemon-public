@@ -205,6 +205,15 @@
   - Ambush triggers automatically when stepping past `x=5` on the western entrance road.
   - **Team (1 Pokémon):** `Mishimizu` ♂ Lv6 (`Water`, knows `Scratch`) — defeated cleanly via `Psyche` (`Struggle Bug` x2) -> `Demeter` (`Absorb` KO; `Demeter` reached Lv7 & learned `Ingrain`, `Electra` reached Lv4).
 
+## Catsear Industrial Glassworks
+- **Entrance (`(1, 24)-(2, 24)`):** Connects back to Route 3 `(41, 26)`.
+- **Gym Leader Bastion at `(1, 19)` (Verified Turns 339–341):**
+  - Recognizes Iris from Chamomile Town! Explains he lost his **Flint and Steel** during an expedition through the factory and cannot light the kiln in Catsear City Gym until it is recovered.
+- **1F West Entrance Area:**
+  - `(2, 16..18)`: Ladder climbing north brick wall behind Bastion.
+  - `(4..7, 19..22)`: Sunlit floor with indoor moss/weed patches and broken glass shards.
+
+
 
 <hr>
 
