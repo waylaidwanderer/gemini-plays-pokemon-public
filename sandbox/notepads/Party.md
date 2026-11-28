@@ -36,7 +36,7 @@
 - **Nature:** `Insane` (`+SpA, -Atk` — Verified Turn 160 Lv4 stat gains!)
 - **Ability:** `Symbiosis` (Passes its item to an ally after it uses one)
 - **Held Item:** `Silver Powder` (+20% Bug-type move power; equipped Turn 249)
-- **Stats (Lv8, Turn 437):** HP 25/25 | Atk 8 | Def 12 | SpA 15 | SpD 11 | Spe 11
+- **Stats (Lv9, Turn 500):** HP 27/27 | Atk 9 | Def 13 | SpA 16 | SpD 12 | Spe 12
 - **Current Moves:**
   - `Struggle Bug` (Bug, Special, 20 PP — damages & lowers foe Sp. Atk)
   - `String Shot` (Bug, Status, 40 PP — lowers foe Speed)
