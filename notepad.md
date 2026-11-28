@@ -5075,10 +5075,10 @@ A large meteorological research institute located in northern Route 119 beside t
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (20/269 HP, 265 Spe, Overgrow Active, Curse Cured!). 5 Revives equipped in Bag. Cash: ¥6,048.
+- Status: Attempt 18 Active! SAGE Lv 90 (0/269 HP FNT). Executing Sacrificial Revive via Lilz. 5 Revives equipped. Cash: ¥6,048.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 20/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 0/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (16/30), Aerial Ace (16/20), Facade (20/20), Quick Attack (30/30). Status: FNT.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
