@@ -29,6 +29,9 @@
 
 ## Iris's Bedroom (2F)
 - Spawned at `(4, 5)` on the bedroom rug (Turn 20).
+- **PC at `(0, 5)`** (accessed from stool `(0, 6)`): Withdrew **1x Potion** from Item Storage (Turn 24; PC storage now empty).
+- **Stairs to 1F:** Green mat at `(8, 2)`, stair warp at `(7, 2)`.
+
 
 
 <hr>
