@@ -1,10 +1,10 @@
 # Boss Battle Tracker — Gym Leader Bastion (Catsear City Gym)
 
 ## Opponent Team (2 Pokémon)
-1. **Boomboom — Lv9** (Genderless, `100%` HP, on bench)
-   - Hard-switched out on Round 1 vs `Seraph` Lv11 (`Fire / Poison`).
-2. **Numel (♂) — Lv12** (`Fire / Ground`, `~88%` HP, **ACTIVE**)
-   - **Stat Stages:** Accuracy **`-2`** (`60%` hit rate / **`40%` miss chance**! Via `Athena`'s `Sand Attack`s on Rounds 3 & 10)
+1. **Boomboom — Lv9** (Genderless, `100%` HP, **ACTIVE**)
+   - **Stat Stages:** Speed **`-2`** (caught `Psyche`'s `String Shot` on Round 13 switch-in!)
+   - **AI Discovery (Round 13):** `Monomyth` AI automatically switches out a Pokémon at `-3 Accuracy` to clear accuracy drops! Once `Boomboom` Lv9 is KO'd first, `Numel` Lv12 will be Bastion's last Pokémon and can NEVER switch out to clear stat drops!
+2. **Numel (♂) — Lv12** (`Fire / Ground`, `~88%` HP, **ON BENCH** — accuracy reset to `0` on switch-out)
    - **Observed Moves & Remaining PP:**
      - `Magnitude` (Ground, Physical — `27 / 30` PP; used Rounds 2 & 5 into `Athena` for `0` dmg, Round 8 `Magnitude 8` KO'd `Electra`)
      - `Incinerate` (Fire, Special, destroys Berries — `10 / 15` PP; dealt `20` dmg to `Athena` on Rounds 3 & 10, `10` crit / `7` normal dmg to `Seraph` on Rounds 4 & 7, KO'd `Demeter` on Round 9)
