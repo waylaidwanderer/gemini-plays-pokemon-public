@@ -12,6 +12,6 @@
      - `Tackle` (Normal, Physical — `34 / 35` PP; dealt `8` dmg to `Athena` on Round 6)
    - **Next Tactical Sequence:** `Athena` (`5/25` HP) goes for `Sand Attack` #3 (`40%` dodge -> `-3` Accuracy!); when `Athena` goes down, `Psyche` (`25/25` HP) enters FREE for `String Shot` (`-2 Speed`) + `Struggle Bug` (`-1 SpA`), backed by `Anansi` (`25/25` HP, `String Shot` / `Infestation`) and `Seraph` (`16/33` HP + `1x Fresh Water` reserved!).
 
-## Battle Item Budget (`2 / 4` Used)
-- Used: `2x Potion` on `Athena` (Rounds 6 & 9).
-- Remaining (2 uses left): `1x Fresh Water` (reserved for `Seraph`!), `1x Burn Heal`, `4x Antidote`, `2x Paralyze Heal`, `2x Awakening`.
+## Battle Item Budget (`3 / 4` Used)
+- Used: `2x Potion` on `Athena` (Rounds 6 & 9), `1x Fresh Water` on `Seraph` (Round 16).
+- Remaining (1 use left): `1x Burn Heal`, `4x Antidote`, `2x Paralyze Heal`, `2x Awakening` (great combo with `Psyche`'s `Rest` if needed!).
