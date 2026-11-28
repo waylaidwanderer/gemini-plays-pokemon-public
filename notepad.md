@@ -70,6 +70,7 @@
 - `(29, 20)`: Small bush in tall grass west of Berry soil.
 - `(10, 20)`: **Nest Ball** (west end of `y=22..24` tall grass corridor; collected turn 332). Just west is a one-way west return ledge `(8, 21..23)` + Cut tree `(8, 20)` back to Chamomile Town / Route 1 west.
 - **Route 2 `(15, 11)`:** **Blk. Apricorn Tree** (harvested turn 355).
+- **Route 2 `(29, 16)` (east plateau up stairs at `(22, 17)`):** **Pnk. Apricorn Tree** (harvested turn 362).
 
 ## Wild Encounters Observed
 - **Kernut** (Grass, #012, Kernel Pokémon) — Lv. 4 (caught male, nicknamed **Helios**, turn 326; knows Absorb).
