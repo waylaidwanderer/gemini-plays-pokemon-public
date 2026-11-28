@@ -319,7 +319,7 @@
 - **Type:** `Grass` (Verified Turn 197 PokéDex — "Kernel Pokémon")
 - **Nature:** `Narrow-minded` (`-Atk` — Verified Turn 212 Lv5 stat gains)
 - **Ability:** `Chlorophyll` (Doubles Speed in sunshine — great synergy with Fire-types!)
-- **Stats (Lv5, Turn 212):** HP 18/18 | Atk 6 | Def 10 | SpA 8 | SpD 10 | Spe 8
+- **Stats (Lv6, Turn 295):** HP 13/20 | Atk 6 | Def 11 | SpA 9 | SpD 11 | Spe 9
 - **Current Moves:**
   - `Bide` (Normal, 10 PP — stores damage for 2 turns, unleashes 2x with +1 priority)
   - `Growth` (Normal, 20 PP — raises Atk & SpA)
