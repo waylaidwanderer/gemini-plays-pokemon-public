@@ -62,6 +62,7 @@
 - **Webbed Woods West Entrance:** `(19, 12)` going Right → `Webbed Woods (9, 12)`.
 - **Webbed Woods East Exit:** `(32, 13)` (arriving from `Webbed Woods (56, 44)`).
 - **Route 2 Boundary (South):** Route 1 `(40, 33)` → Route 2 `(18, 0)` (`Route 1 X = Route 2 X + 22`, `Route 1 Y = Route 2 Y + 33`).
+- **Route 2 Secret Webbed Woods Entrance:** Route 2 `(34, 13)` going Right → **Webbed Woods SW Secret Area `(10, 45)`** (accessed via east stairs at `(22, 17)` past Pnk. Apricorn Tree).
 
 ## Landmarks & Items
 - `(33, 20)` & `(34, 20)`: **Berry Soil** — Pecha Berry tree (`(33, 20)`) and Oran Berry tree (`(34, 20)`); both harvested turn 320-321.
