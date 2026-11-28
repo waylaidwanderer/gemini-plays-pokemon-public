@@ -3,13 +3,13 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 90, Male), Nickname: SAGE
-- Status: Attempt 18 Active! SAGE Lv 90 (0/269 HP FNT). Executing Sacrificial Revive via Cobalu. 4 Revives remaining. Cash: ¥11,148.
+- Status: Attempt 18 Active! SAGE Lv 90 (134/269 HP, 265 Spe, Revived!). 3 Revives remaining. Cash: ¥11,148.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 0/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: FNT.
+1. SAGE (Sceptile ♂, Level 90) - Lead! HP: 134/269. Max HP: 269. Atk 201, Def 145, SpA 219, SpD 196, Spe 265. Moves: Bullet Seed (2/30), Aerial Ace (0/20), Facade (20/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 0/85. Status: FNT (Sacrificed after Revive on SAGE).
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (19/20), Confusion (25/25). HP: 0/41. Status: FNT (Sacrificed to purge Curse).
-4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
+4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 0/49. Status: FNT (Sacrificed to Walrein).
 5. MOCHI (Wynaut ♂, Level 11) - Moves: Splash (40/40), Charm (20/20), Encore (5/5). HP: 42/42. Status: OK.
 6. GUAVA (Tropius ♀, Level 30) - Moves: Razor Leaf (25/25), Stomp (20/20), Sweet Scent (20/20), Fly (15/15). HP: 101/101. Status: OK.
 
@@ -19,7 +19,7 @@
 - Macho Brace (received from Victoria Winstrate)
 - Full Heal x0 (1 consumed Turn 26456, 1 consumed Turn 26600, 1 consumed Turn 27034 to cure Freeze)
 - Ultra Ball x0 (sold for ¥600)
-- Revive x4 (1 consumed Turn 27377 for Sacrificial Revive on SAGE, 4 remaining!)
+- Revive x3 (2 consumed for Sacrificial Revives on SAGE, 3 remaining!)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
 - Money: ¥11,148 (¥4,900 from Sidney, ¥5,100 from Phoebe)
