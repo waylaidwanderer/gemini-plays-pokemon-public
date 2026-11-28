@@ -26,6 +26,7 @@
 ## Index of Sub-Notepads
 - `Mechanics/Core.md`: Core game rules, intro pointers, difficulty, EXP scaling, UI/naming, and custom mechanics.
 - `Locations/ChamomileTown.md`: Hometown map, landmarks, Pokémon Center & Mart inventory.
+- `Locations/WebbedWoods.md`: Webbed Woods map, items, wild encounters, and trainers.
 
 
 <hr>
@@ -43,6 +44,27 @@
   - Note: Mom does NOT heal the party (use the Pokémon Center down the street).
 - **Monty's House:** On top of Chamomile Hill (`(32, 9)`), reached via the staircases north of the main road.
 - **East Exit:** Leads to **Routes 1 & 2 (Forest Stroll)** and **Webbed Woods** (`Chamomile X = Route X + 54`, `Chamomile Y = Route Y + 10`).
+
+
+<hr>
+
+<h1><code>Locations/WebbedWoods</code></h1>
+
+# Webbed Woods
+
+## Connections
+- **West:** Route 1 (`Route 1 (19, 12)` going Right → `Webbed Woods (9, 12)`).
+
+## Landmarks & Items
+- `(14, 13)`: Empty wooden crate where Astra, Monty, and Willow found the three Edelweiss Labs starters (Mishimizu, Marmroot, Crackliss).
+- `(20, 7)`: **Antidote** (collected turn 185).
+- `x=21..29, y=12..17`: First large tall grass patch; path continues south/southeast around `x=30..32, y=15..18` west of a pond (`x=33..36, y=15..18`).
+
+## Wild Encounters Observed
+- **Spinarak** (Bug/Poison, #017) — Lv. 2 (caught female silver-legged color variant, nicknamed **Ariadne**, turn 195).
+
+## Trainers
+- (None battled yet; Monty mentioned training here.)
 
 
 <hr>

@@ -24,3 +24,4 @@
 ## Index of Sub-Notepads
 - `Mechanics/Core.md`: Core game rules, intro pointers, difficulty, EXP scaling, UI/naming, and custom mechanics.
 - `Locations/ChamomileTown.md`: Hometown map, landmarks, Pokémon Center & Mart inventory.
+- `Locations/WebbedWoods.md`: Webbed Woods map, items, wild encounters, and trainers.
