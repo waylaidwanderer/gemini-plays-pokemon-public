@@ -19,6 +19,10 @@
     - **Gym Sign `(24, 17)` (Verified Turn 273):** `Catsear City Pokémon Gym — Leader: Bastion, The Scorching Hot Craftsman!` (**Fire-type / glassblower specialist!** Unlocked Turn 404 after returning Bastion's `Flint & Steel`.)
     - **Gym Guide `(6, 18)` (Verified Turns 405–407):** Gifts **1x Fresh Water**, advises using status/tricky plans if lacking a Water-type, and reveals Monomyth's **`2.5x` double-weakness multiplier** (hinting at dual-type Pokémon inside the Gym).
     - **Gym Glass Flute Shop `(7, 16)` (Verified Turn 408):** Sells reusable blown-glass flutes — `Red Flute` (`¥5000`), `Blue Flute` (`¥8000`, wakes Sleep!), `Yellow Flute` (`¥8000`, cures Confusion!), `Black Flute` (`¥2000`, lowers wild encounters!), `White Flute` (`¥3000`, raises wild encounters!).
+    - **Overworld Forge Pokémon:** `Boomboom` at `(3, 15)` & `(10, 7)` (Original Fakemon — `"Ker-BOOM! This Pokémon is watching the boilers intently"`).
+    - **Gym Trainers (`y=8..9` Arena):**
+      - `(7, 9)` facing `Left`: **Kindler Cole** (1 Pokémon: `Puddipup` ♂ Lv8 — knows `Leer`, `Bite`, `Ember`).
+      - `(2, 8)` facing `Right`: Elderly Craftsman Trainer.
   - **Trash Can at `(18, 21)`:** Empty (`"Eh, just some trash."`, Turn 272).
   - **West House `(12, 25)`:** Couple watching a TV show about `"Cosmic Pokémon"` / aliens (Turn 277).
   - **Trash Can at `(20, 36)`:** Empty (Turn 278).
