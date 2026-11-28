@@ -98,6 +98,7 @@
   - `(39, 30)-(41, 30)`: One-way shortcut ledge east of southern tall grass.
   - `(24, 34)`: **Bug Catcher Tim** — **DEFEATED Turn 175** (`Spinarak` ♀ Lv3 + `Joltik` ♀ Lv4 (`Unnerve`, `Absorb`)).
   - **Southern Loop Routing:** From `(33, 33)` go west on `y=34` past Tim `(24, 34)`, south on `x=22` to `(22, 42)`, east through grass `(25, 42)..(37, 42)` to `(44, 42)`, then north `(46, 41)..(46, 35)` to **Bug Catcher Skip** at `(49, 35)` — **DEFEATED Turn 189** (`Combee` ♂ Lv5, OHKO'd by `Ember`).
+  - **East Exit Warp:** From `(46, 34)` go east to `(52, 34)`, south to `(52, 43)`, and east into `(56, 43)-(56, 44)` -> warps out to **East Route 1 `(32, 12)`**! (Note: Return shortcut goes `(46, 34) -> (46, 27) -> (40, 27)` over the `(39, 30)-(41, 30)` ledge!)
 - **Wild Encounters:**
   - **Northern Webbed Woods (`(21, 13)..(28, 24)`):** **Spinarak** (`#017`, `Bug / Poison`, Lv2–3 — caught `Anansi`), **Sleepillar** (`#025`, Fakemon, `Bug / Psychic`, Lv2–3 — caught `Psyche`).
   - **Southern Webbed Woods (`(33, 26)..(47, 49)`):** **Spinarak** (Lv3), **Sleepillar** (Lv2–3), **Leonte** (Lv3 original Griffin-cub Fakemon — spotted at `(44, 47)` on Turn 184!).
