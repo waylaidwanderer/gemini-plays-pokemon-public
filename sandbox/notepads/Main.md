@@ -3,10 +3,10 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Sceptile (Level 91, Male), Nickname: SAGE
-- Status: Attempt 19 Active! SAGE Lv 91 (272/272 HP, all PP restored). 7 Revives in Bag. Cash: ¥1,974. Advancing through Gate (9, 1) to Room 1 Sidney!
+- Status: Attempt 19 Active! Sidney DEFEATED (5-0 sweep)! Advancing to Room 2 Phoebe. SAGE Lv 91 (245/272 HP). Cash: ¥6,874 (¥1,974 + ¥4,900). 7 Revives in Bag.
 
 ## Party (100% Restored Upon Whiteout)
-1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 272/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (30/30), Aerial Ace (20/20), Facade (20/20), Quick Attack (30/30). Status: OK.
+1. SAGE (Sceptile ♂, Level 91) - Lead! HP: 245/272. Max HP: 272. Atk 203, Def 147, SpA 221, SpD 198, Spe 267. Moves: Bullet Seed (28/30), Aerial Ace (16/20), Facade (16/20), Quick Attack (30/30). Status: OK.
 2. LILZ (Lombre ♀, Level 30) - Moves: Dive (10/10), Waterfall (15/15), Surf (15/15), Flash (20/20). HP: 85/85. Status: OK.
 3. CIPHER (Kadabra ♂, Level 17) - Moves: Teleport (20/20), Confusion (25/25). HP: 41/41. Status: OK.
 4. COBALU (Aron ♂, Level 18) - Moves: Cut (30/30), Rock Smash (15/15), Dig (10/10), Strength (15/15). HP: 49/49. Status: OK.
@@ -22,7 +22,7 @@
 - Revive x7 (6 purchased for Attempt 19, 1 carried over)
 - Hyper Potion x0
 - Master Ball x1 (obtained in Team Aqua Hideout Archie's Office!)
-- Money: ¥1,974 (¥9,000 spent on 6 Revives for Attempt 19)
+- Money: ¥6,874 (¥1,974 + ¥4,900 won from Sidney)
 - Key Items: Magma Emblem, Pokéblock Case, Go-Goggles, Pokédex, Running Shoes, Wailmer Pail, PokéNav (Match Call), Old Rod, Good Rod, Itemfinder, Mach Bike, Soot Sack
 
 ## Progression Checklist - Phase 14: Ever Grande City & The Pokémon League (Active)
@@ -30,7 +30,7 @@
 2. [x] Traverse Victory Road (COMPLETED Turn 23825)!
 3. [x] Enter Pokémon League HQ and register permanent flight checkpoint!
 4. [ ] Challenge the Elite Four (Attempt 19 Active):
-    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27352)!
+    - [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, Turn 27561, Attempt 19)!
     - [x] Elite Four Member #2 Phoebe DEFEATED (Turn 27396, Attempt 18)!
     - [x] Elite Four Member #3 Glacia DEFEATED (Turn 27439, Attempt 18)!
     - [x] Elite Four Member #4 Drake DEFEATED (Attempt 18)!

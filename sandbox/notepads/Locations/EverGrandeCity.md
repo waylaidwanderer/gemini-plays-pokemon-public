@@ -93,10 +93,14 @@ The ultimate destination for Pokémon Trainers in the Hoenn region, located atop
 - Economy: Peaked at ¥21,948 -> halved to ¥10,974 upon whiteout (funds 7 Revives at lobby Mart!). 1 Revive intact in Bag -> 8 Revives for Attempt 19!
 - SAGE (Level 91 Sceptile ♂): 100% restored upon whiteout! Stats: Max HP 272, Atk 203, Def 147, SpA 221, SpD 198, Spe 267. ALL PP fully restored: Bullet Seed 30/30, Aerial Ace 20/20, Facade 20/20, Quick Attack 30/30!
 
-## Elite Four Attempt 19 (Preparing)
+## Elite Four Attempt 19 (Active)
+- Status: Attempt 19 Active! Sidney DEFEATED (5-0 clean sweep, Turn 27561)! SAGE Lv 91 (245/272 HP). Cash: ¥6,874. 7 Revives in Bag.
 - Immediate Plan:
-  1. [ ] Re-enter Pokémon League Lobby.
-  2. [ ] Purchase 7 Revives for ¥10,500 at Mart counter (16, 4) -> 8 Revives in Bag!
-  3. [ ] Enter Gate (9, 1) to begin Attempt 19!
-  4. [ ] Defeat Sidney, Phoebe, Glacia, Drake!
-  5. [ ] Defeat Champion Wallace and enter the Hall of Fame!
+  1. [x] Re-entered Pokémon League Lobby.
+  2. [x] Purchased 6 Revives for ¥9,000 at Mart counter (16, 4) -> 7 Revives in Bag!
+  3. [x] Entered Gate (9, 1) and launched Attempt 19!
+  4. [x] Elite Four Member #1 Sidney DEFEATED (5-0 clean sweep, +¥4,900, Cash: ¥6,874)!
+  5. [ ] Defeat Phoebe in Room 2 (Active!)
+  6. [ ] Defeat Glacia in Room 3
+  7. [ ] Defeat Drake in Room 4
+  8. [ ] Defeat Champion Wallace and enter the Hall of Fame!
